@@ -1,12 +1,12 @@
-# Obsidian / Quartz / GitHub Pages Template
+# BJJ Graph 
 
-Deployed URL: https://defenderofbasic.github.io/obsidian-quartz-template
+BJJ as a State Machine
 
-Template for hosting your Obsidian notebook on GitHub pages with CI deployment. 
+Deployed URL: https://bjjgraph.org
 
 ## Basic setup
 
-Full tutorial with screenshots & videos: https://dev.to/defenderofbasic/host-your-obsidian-notebook-on-github-pages-for-free-8l1. 
+Basic setup uses Obsidian / Quartz / GitHub Pages Template from defenderofbasic: https://dev.to/defenderofbasic/host-your-obsidian-notebook-on-github-pages-for-free-8l1.
 
 It's basically (1) fork this (2) go to repo's "Settings" > "Pages", Under "Build and Deployment" select GitHub Actions. Then go to "Actions" and enable GitHub actions for your fork. Edit the pages in [source/content](./source/content) with Obsidian or any text editor. It generates HTML using [Quartz](https://github.com/jackyzha0/quartz). To generate the HTML locally, run `npx quartz build --serve` in `./source/`
 
