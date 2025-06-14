@@ -2,6 +2,6 @@
 title: My GitHub Pages Notebook!
 ---
 
-Hello world!
+Hello world of BJJ!
 
 Write some words here!
