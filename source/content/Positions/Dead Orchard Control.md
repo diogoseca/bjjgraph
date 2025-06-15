@@ -12,6 +12,9 @@
 ## State Description
 The Dead Orchard is an advanced control position within Eddie Bravo's 10th Planet Jiu-Jitsu system, representing a highly specialized variation of the triangle choke position. This position is characterized by the practitioner establishing a triangle position while controlling both of the opponent's arms inside the triangle, effectively creating a double arm triangle configuration. Unlike a standard triangle where only one arm is trapped inside, the Dead Orchard secures both arms, significantly increasing the control and finishing mechanics of the position. The position creates exceptional breaking pressure against both of the opponent's arms while simultaneously applying a powerful compression against the neck, creating a multi-threat submission scenario that is exceptionally difficult to defend once established. The Dead Orchard typically emerges from the Rubber Guard progression but can be accessed from multiple pathways.
 
+### Visual Description
+You are positioned on your back or slightly on your side, with your legs locked in a triangle configuration around the opponent's neck and shoulder, one leg over their shoulder and the other under their armpit, tightly securing both of their arms inside this hold. Your hands are often gripping your own shin or ankle to maintain the triangle's tightness, or controlling their far arm to prevent any escape, while your hips are elevated to apply downward pressure on their neck. Your upper body is angled to maximize compression, often pulling their head down with your legs or arms, creating a crushing force on their neck and shoulders as both arms are trapped and hyperextended. This setup severely restricts the opponent, who is typically on their knees or flattened out, with their head and both arms immobilized within your triangle, struggling to breathe or move as you prepare to finish with a choke or arm attack from this dominant control position.
+
 ## Key Principles
 - Trap both of opponent's arms inside triangle configuration
 - Create and maintain proper angle for compression
@@ -38,21 +41,21 @@ The Dead Orchard is an advanced control position within Eddie Bravo's 10th Plane
 - Opponent's defensive options severely restricted
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Emergency Bridge]] → [[Pressure Reduction]]
-- [[Fight Hands]] → [[Grip Breaking]]
-- [[Stack Defense]] → [[Posture Improvement]]
-- [[Double Arm Extraction Attempt]] → [[Space Creation]]
-- [[Roll to Side]] → [[Positional Escape]]
+- [[Emergency Bridge]] → [[Pressure Reduction]] (Success Rate: 15%)
+- [[Fight Hands]] → [[Grip Breaking]] (Success Rate: 20%)
+- [[Stack Defense]] → [[Posture Improvement]] (Success Rate: 15%)
+- [[Double Arm Extraction Attempt]] → [[Space Creation]] (Success Rate: 10%)
+- [[Roll to Side]] → [[Positional Escape]] (Success Rate: 10%)
 
 ## Offensive Transitions (Available From This State)
-- [[Dead Orchard Armbar]] → [[Armbar Control]]
-- [[Dead Orchard Triangle Finish]] → [[Won by Submission]]
-- [[Double Arm Crush]] → [[Won by Submission]]
-- [[Transition to Mounted Triangle]] → [[Triangle Control]]
-- [[Switch to Williams]] → [[Williams Guard]]
-- [[Dead Orchard Omoplata]] → [[Omoplata Control]]
-- [[Switch to Rubber Guard]] → [[Rubber Guard]]
-- [[Rolling Armbar]] → [[Armbar Control]]
+- [[Dead Orchard Armbar]] → [[Armbar Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
+- [[Dead Orchard Triangle Finish]] → [[Won by Submission]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
+- [[Double Arm Crush]] → [[Won by Submission]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
+- [[Transition to Mounted Triangle]] → [[Triangle Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
+- [[Switch to Williams]] → [[Williams Guard]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
+- [[Dead Orchard Omoplata]] → [[Omoplata Control]] (Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%)
+- [[Switch to Rubber Guard]] → [[Rubber Guard]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
+- [[Rolling Armbar]] → [[Armbar Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
 
 ## Counter Transitions
 - [[Re-establish Dead Orchard]] → [[Dead Orchard Control]] (against defensive movement)
@@ -65,19 +68,31 @@ The Dead Orchard is an advanced control position within Eddie Bravo's 10th Plane
 - **Gordon Ryan**: Recognizes the position's effectiveness when properly executed but emphasizes preventative measures that stop the progression before both arms become trapped. When addressing defenses, focuses on recognizing the setup patterns that precede the Dead Orchard and interrupting the sequence before full control is established.
 
 ## Common Errors
-- Insufficient angle creation → Reduced compression pressure
-- Poor leg lock maintenance → Control vulnerability
-- Inadequate arm control → Defensive escape opportunity
-- Improper hip positioning → Suboptimal pressure application
-- Overreliance on strength → Energy depletion
-- Premature submission attempt → Position compromise
+- **Error**: Insufficient angle creation
+  - **Consequence**: Leads to reduced compression pressure, as improper alignment fails to maximize the choke or arm attacks.
+  - **Correction**: Ensure your body is angled to apply downward pressure on their neck, using your hips and legs to create the optimal compression angle.
+- **Error**: Poor leg lock maintenance
+  - **Consequence**: Results in control vulnerability, as loose legs allow the opponent to posture or extract their head.
+  - **Correction**: Maintain a tight triangle by gripping your shin or ankle, keeping constant pressure to secure their neck and arms.
+- **Error**: Inadequate arm control
+  - **Consequence**: Offers defensive escape opportunities, as uncontrolled arms can be used to frame or push against your hold.
+  - **Correction**: Secure both arms tightly within the triangle, using your hands or legs to prevent any movement or extraction.
+- **Error**: Improper hip positioning
+  - **Consequence**: Leads to suboptimal pressure application, reducing the effectiveness of submissions due to lack of leverage.
+  - **Correction**: Elevate and angle your hips to apply downward force on their neck, ensuring maximum compression and control.
+- **Error**: Overreliance on strength
+  - **Consequence**: Causes energy depletion, tiring you out quickly and diminishing your ability to maintain the position over time.
+  - **Correction**: Focus on mechanical pressure and leverage through proper positioning rather than brute strength to apply submissions.
+- **Error**: Premature submission attempt
+  - **Consequence**: Results in position compromise, as rushing the finish can create openings for the opponent to counter or escape.
+  - **Correction**: Secure full control over both arms and neck before attempting submissions, ensuring all connection points are tight.
 
 ## Training Drills
-- Dead Orchard entry and control maintenance against progressive resistance
-- Transition flows between Rubber Guard positions and Dead Orchard
-- Double arm control practice with various entry methods
-- Submission chain drilling from established Dead Orchard
-- Defensive recognition and counter-response training
+- **Dead Orchard Entry and Control**: Practice Dead Orchard entry and control maintenance against progressive resistance, focusing on trapping both arms securely.
+- **Transition Flows**: Drill transition flows between Rubber Guard positions and Dead Orchard, ensuring smooth progression to this control.
+- **Double Arm Control**: Work on double arm control practice with various entry methods, learning to secure both arms within the triangle.
+- **Submission Chain Drilling**: Engage in submission chain drilling from an established Dead Orchard, practicing multiple finishing options.
+- **Defensive Recognition and Counters**: Train in defensive recognition and counter-response, identifying opponent escape attempts and adjusting control accordingly.
 
 ## Related States
 - [[Rubber Guard]] - Related control system
@@ -88,23 +103,27 @@ The Dead Orchard is an advanced control position within Eddie Bravo's 10th Plane
 
 ## Decision Tree
 If opponent attempts to posture or bridge:
-- Execute [[Dead Orchard Triangle Finish]] or [[Double Arm Crush]]
+- Execute [[Dead Orchard Triangle Finish]] → [[Won by Submission]] (Probability: 45%)
+- Or Execute [[Double Arm Crush]] → [[Won by Submission]] (Probability: 40%)
 
 Else if opponent focuses on freeing one arm:
-- Execute [[Dead Orchard Armbar]] or [[Transition to Mounted Triangle]]
+- Execute [[Dead Orchard Armbar]] → [[Armbar Control]] (Probability: 35%)
+- Or Execute [[Transition to Mounted Triangle]] → [[Triangle Control]] (Probability: 30%)
 
 Else if opponent rolls or attempts to change angle:
-- Execute [[Rolling Armbar]] or [[Dead Orchard Omoplata]]
+- Execute [[Rolling Armbar]] → [[Armbar Control]] (Probability: 30%)
+- Or Execute [[Dead Orchard Omoplata]] → [[Omoplata Control]] (Probability: 25%)
 
 Else if position becomes compromised:
-- Execute [[Switch to Williams]] or [[Switch to Rubber Guard]]
+- Execute [[Switch to Williams]] → [[Williams Guard]] (Probability: 35%)
+- Or Execute [[Switch to Rubber Guard]] → [[Rubber Guard]] (Probability: 40%)
 
 ## Position Metrics
-- Success Rate: 85% submission probability when fully established
-- Average Time in Position: 15-30 seconds
-- Transition Probability: 70%
-- Submission Probability: 80%
-- Position Loss Probability: 10%
+- **Position Retention Rate**: Beginner 60%, Intermediate 75%, Advanced 85%
+- **Advancement Probability**: Beginner 50%, Intermediate 65%, Advanced 80%
+- **Escape Probability**: Beginner 25%, Intermediate 15%, Advanced 5%
+- **Submission Probability**: Beginner 40%, Intermediate 55%, Advanced 70%
+- **Average Time in Position**: 15-30 seconds
 
 ## Optimal Paths
 Standard finish path:

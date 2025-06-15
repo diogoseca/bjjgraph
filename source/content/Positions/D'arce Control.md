@@ -12,6 +12,9 @@
 ## State Description
 The D'arce Control (also known as Brabo Choke in some circles) is a powerful submission position where the practitioner encircles the opponent's head and one arm in a modified arm-triangle configuration. The choking arm threads under the opponent's armpit and around their neck, while the other arm locks the position by grasping the choking arm's bicep. This creates a vice-like compression of the opponent's neck and carotid arteries. The D'arce is particularly effective against opponents who turn to their side or turtle, making it an excellent counter to common defensive postures in BJJ.
 
+### Visual Description
+You are positioned facing your opponent, often from a top position like side control or front headlock, with your choking arm threaded deeply under their armpit and around their neck, the hand ideally reaching towards their far shoulder or back to maximize control. Your other arm locks the position by grasping the bicep of your choking arm, forming a tight loop that encircles their head and trapped arm, applying pressure to their neck. Your body is aligned to maintain leverage, often with your chest or shoulder pressing against their head or upper back, and your hips positioned to control their lower body, preventing them from creating space or turning away. This setup creates a constricting hold on the opponent, who is typically on their side or in a turtle position on the mat, with one arm and their head trapped, struggling to alleviate the pressure on their neck as you prepare to finish the choke or transition to another dominant position.
+
 ## Key Principles
 - Thread choking arm deep around opponent's neck and shoulder
 - Lock the position by grabbing own bicep or shoulder
@@ -35,21 +38,21 @@ The D'arce Control (also known as Brabo Choke in some circles) is a powerful sub
 - Body alignment that facilitates compression
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Create Space Defense]] → [[Submission Escape]]
-- [[Hand Fighting]] → [[Grip Break]]
-- [[Hip Escape]] → [[Guard Recovery]]
-- [[Forward Roll]] → [[Scramble Position]]
-- [[Stack Counter]] → [[Top Position]]
+- [[Create Space Defense]] → [[Submission Escape]] (Success Rate: 25%)
+- [[Hand Fighting]] → [[Grip Break]] (Success Rate: 30%)
+- [[Hip Escape]] → [[Guard Recovery]] (Success Rate: 20%)
+- [[Forward Roll]] → [[Scramble Position]] (Success Rate: 15%)
+- [[Stack Counter]] → [[Top Position]] (Success Rate: 10%)
 
 ## Offensive Transitions (Available From This State)
-- [[D'arce Choke Finish]] → [[Won by Submission]]
-- [[D'arce to Mount]] → [[Mounted D'arce]]
-- [[Switch to Anaconda]] → [[Anaconda Control]]
-- [[D'arce to North-South]] → [[North-South]]
-- [[Japanese Necktie Transition]] → [[Japanese Necktie]]
-- [[D'arce to Back Control]] → [[Back Control]]
-- [[Marce Variation]] → [[Won by Submission]]
-- [[Transition to Front Headlock]] → [[Front Headlock]]
+- [[D'arce Choke Finish]] → [[Won by Submission]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
+- [[D'arce to Mount]] → [[Mounted D'arce]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
+- [[Switch to Anaconda]] → [[Anaconda Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
+- [[D'arce to North-South]] → [[North-South]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
+- [[Japanese Necktie Transition]] → [[Japanese Necktie]] (Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%)
+- [[D'arce to Back Control]] → [[Back Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
+- [[Marce Variation]] → [[Won by Submission]] (Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%)
+- [[Transition to Front Headlock]] → [[Front Headlock]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
 
 ## Counter Transitions
 - [[Re-establish D'arce]] → [[D'arce Control]] (against escapes)
@@ -62,18 +65,28 @@ The D'arce Control (also known as Brabo Choke in some circles) is a powerful sub
 - **Eddie Bravo**: Has adapted the D'arce to his 10th Planet system with unique entries and specialized variants like the "Zombie" and "Marce." Focuses on setups from half guard and turtle positions, often connecting the technique to his specialized control positions like the Truck.
 
 ## Common Errors
-- Insufficient arm depth → Ineffective compression
-- Poor body alignment → Reduced choking pressure
-- Overreliance on arm strength → Energy inefficiency
-- Losing body connection → Space creation opportunities
-- Rushing the finish → Position compromise
+- **Error**: Insufficient arm depth
+  - **Consequence**: Leads to ineffective compression, as the choking arm isn't positioned deeply enough to apply pressure on the neck.
+  - **Correction**: Ensure your choking arm threads deeply under their armpit and around their neck, reaching towards their far shoulder or back.
+- **Error**: Poor body alignment
+  - **Consequence**: Results in reduced choking pressure, as improper alignment diminishes leverage and control over the opponent.
+  - **Correction**: Align your body to maintain leverage, with your chest or shoulder pressing against their head or upper back, and hips controlling their lower body.
+- **Error**: Overreliance on arm strength
+  - **Consequence**: Causes energy inefficiency, tiring you out quickly and reducing the effectiveness of the choke over time.
+  - **Correction**: Focus on mechanical alignment and shoulder pressure rather than brute strength to compress their neck and carotid arteries.
+- **Error**: Losing body connection
+  - **Consequence**: Offers space creation opportunities, allowing the opponent to alleviate pressure or initiate escapes.
+  - **Correction**: Maintain tight body connection, keeping your hips and chest positioned to prevent them from creating space or turning.
+- **Error**: Rushing the finish
+  - **Consequence**: Leads to position compromise, as hastening the submission can create openings for the opponent to counter or escape.
+  - **Correction**: Secure control first, ensuring all connection points are tight before attempting to finish the choke.
 
 ## Training Drills
-- D'arce entry and control maintenance with progressive resistance
-- Transition flows between D'arce and related front headlock submissions
-- Body positioning and alignment exercises
-- Defensive recognition and counter drills
-- Finishing mechanics with minimal strength application
+- **D'arce Entry and Control**: Practice D'arce entry and control maintenance with progressive resistance, focusing on arm depth and grip security.
+- **Transition Flows**: Drill transition flows between D'arce and related front headlock submissions like Anaconda or Guillotine, ensuring smooth movement.
+- **Body Positioning and Alignment**: Work on body positioning and alignment exercises, learning to maximize leverage and pressure through proper angles.
+- **Defensive Recognition and Counters**: Engage in defensive recognition and counter drills, identifying opponent escape attempts and adjusting control accordingly.
+- **Finishing Mechanics**: Practice finishing mechanics with minimal strength application, focusing on mechanical compression for energy efficiency.
 
 ## Related States
 - [[Front Headlock]] - Common entry position
@@ -84,23 +97,27 @@ The D'arce Control (also known as Brabo Choke in some circles) is a powerful sub
 
 ## Decision Tree
 If opponent turns away:
-- Execute [[D'arce to Back Control]] or [[Marce Variation]]
+- Execute [[D'arce to Back Control]] → [[Back Control]] (Probability: 35%)
+- Or Execute [[Marce Variation]] → [[Won by Submission]] (Probability: 30%)
 
 Else if opponent drives forward:
-- Execute [[D'arce Choke Finish]] or [[D'arce to Mount]]
+- Execute [[D'arce Choke Finish]] → [[Won by Submission]] (Probability: 45%)
+- Or Execute [[D'arce to Mount]] → [[Mounted D'arce]] (Probability: 40%)
 
 Else if opponent attempts to create space:
-- Execute [[Japanese Necktie Transition]] or [[Switch to Anaconda]]
+- Execute [[Japanese Necktie Transition]] → [[Japanese Necktie]] (Probability: 30%)
+- Or Execute [[Switch to Anaconda]] → [[Anaconda Control]] (Probability: 35%)
 
 Else if opponent hand fights effectively:
-- Execute [[Transition to Front Headlock]] or [[D'arce to North-South]]
+- Execute [[Transition to Front Headlock]] → [[Front Headlock]] (Probability: 40%)
+- Or Execute [[D'arce to North-South]] → [[North-South]] (Probability: 40%)
 
 ## Position Metrics
-- Success Rate: 70% submission or advancement (competition data)
-- Average Time in Position: 15-40 seconds
-- Submission Probability: 60%
-- Counter Vulnerability: 20%
-- Position Loss Probability: 15%
+- **Position Retention Rate**: Beginner 55%, Intermediate 70%, Advanced 80%
+- **Advancement Probability**: Beginner 45%, Intermediate 60%, Advanced 75%
+- **Escape Probability**: Beginner 30%, Intermediate 20%, Advanced 10%
+- **Submission Probability**: Beginner 35%, Intermediate 50%, Advanced 65%
+- **Average Time in Position**: 15-40 seconds
 
 ## Optimal Paths
 Standard finish path:

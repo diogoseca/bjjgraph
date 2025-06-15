@@ -12,6 +12,9 @@
 ## State Description
 The Crucifix is a specialized control position where one practitioner controls their opponent by isolating one of their arms while simultaneously controlling their head/neck area. The position typically involves the controlling practitioner perpendicular to their opponent, with the opponent's isolated arm trapped between the controlling practitioner's legs while their head is controlled through various grips or hooks. The Crucifix offers exceptional control with minimal energy expenditure while creating numerous submission opportunities, particularly chokes and armlocks, making it one of the most efficient control positions in BJJ.
 
+### Visual Description
+You are positioned perpendicular to your opponent, forming a cross-like alignment with their body, where their isolated arm is trapped securely between your legs—one leg often hooks over their shoulder or upper arm while the other presses against their torso or traps the arm at the elbow, effectively pinning it. Your upper body controls their head or neck, often with an arm wrapping around their neck in a seatbelt grip or similar hold, pulling their face towards your chest to limit their vision and mobility. Your weight is strategically placed, often sitting on or near their shoulder or upper back, keeping them flattened or on their side, unable to turn into you or escape easily. This setup severely restricts the opponent, who is typically prone or on their side on the mat, with one arm completely immobilized and their head controlled, leaving them vulnerable to chokes or armlocks as you maintain a dominant angle for attack while expending minimal energy to hold the position.
+
 ## Key Principles
 - Isolate and control one of opponent's arms with legs
 - Establish head/neck control with arms or legs
@@ -35,21 +38,21 @@ The Crucifix is a specialized control position where one practitioner controls t
 - Limited mobility for opponent
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Bridge and Roll]] → [[Guard Recovery]]
-- [[Arm Extraction]] → [[Turtle Position]]
-- [[Hip Escape]] → [[Side Control Escape]]
-- [[Duck Under]] → [[Neutral Position]]
-- [[Forward Roll]] → [[Scramble Position]]
+- [[Bridge and Roll]] → [[Guard Recovery]] (Success Rate: 20%)
+- [[Arm Extraction]] → [[Turtle Position]] (Success Rate: 25%)
+- [[Hip Escape]] → [[Side Control Escape]] (Success Rate: 15%)
+- [[Duck Under]] → [[Neutral Position]] (Success Rate: 10%)
+- [[Forward Roll]] → [[Scramble Position]] (Success Rate: 10%)
 
 ## Offensive Transitions (Available From This State)
-- [[Crucifix Rear Naked Choke]] → [[Won by Submission]]
-- [[Crucifix Straight Armlock]] → [[Won by Submission]]
-- [[Reverse Triangle from Crucifix]] → [[Triangle Control]]
-- [[Crucifix to Back Control]] → [[Back Control]]
-- [[Wrist Lock from Crucifix]] → [[Won by Submission]]
-- [[Rolling Crucifix]] → [[Arm Triangle]]
-- [[Crucifix Neck Crank]] → [[Won by Submission]]
-- [[Transition to North-South]] → [[North-South]]
+- [[Crucifix Rear Naked Choke]] → [[Won by Submission]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
+- [[Crucifix Straight Armlock]] → [[Won by Submission]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
+- [[Reverse Triangle from Crucifix]] → [[Triangle Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
+- [[Crucifix to Back Control]] → [[Back Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
+- [[Wrist Lock from Crucifix]] → [[Won by Submission]] (Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%)
+- [[Rolling Crucifix]] → [[Arm Triangle]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
+- [[Crucifix Neck Crank]] → [[Won by Submission]] (Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%)
+- [[Transition to North-South]] → [[North-South]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
 
 ## Counter Transitions
 - [[Re-establish Crucifix]] → [[Crucifix Position]] (against escape attempts)
@@ -62,18 +65,28 @@ The Crucifix is a specialized control position where one practitioner controls t
 - **Eddie Bravo**: Has developed specialized crucifix variations within the 10th Planet system that connect to his twister and truck control positions. Emphasizes unique submission combinations not commonly seen in traditional BJJ, particularly neck cranks and innovative choke variations.
 
 ## Common Errors
-- Poor leg positioning → Arm extraction opportunities
-- Insufficient head control → Defensive mobility
-- Body misalignment → Reduced control efficiency
-- Premature submission attempts → Position compromise
-- Overcommitment to single submission → Predictability
+- **Error**: Poor leg positioning
+  - **Consequence**: Leads to arm extraction opportunities, as improper leg placement allows the opponent to free their trapped arm.
+  - **Correction**: Ensure your legs are securely trapping their arm, with one leg over the shoulder or upper arm and the other pressing against their torso or elbow.
+- **Error**: Insufficient head control
+  - **Consequence**: Results in increased defensive mobility for the opponent, enabling them to turn their head or body to initiate escapes.
+  - **Correction**: Maintain a tight grip or hook around their neck or head, pulling it towards your chest to limit their vision and movement.
+- **Error**: Body misalignment
+  - **Consequence**: Causes reduced control efficiency, as not being perpendicular weakens your leverage and pressure on the opponent.
+  - **Correction**: Keep your body aligned perpendicular to theirs, ensuring your weight is placed effectively on their shoulder or upper back.
+- **Error**: Premature submission attempts
+  - **Consequence**: Leads to position compromise, as rushing a submission can create openings for the opponent to escape or counter.
+  - **Correction**: Secure control first, ensuring all connection points are tight before transitioning to a submission attempt.
+- **Error**: Overcommitment to single submission
+  - **Consequence**: Creates predictability, allowing the opponent to anticipate and defend against your primary attack.
+  - **Correction**: Vary your submission attempts, using feints or chaining multiple attacks to keep the opponent guessing.
 
 ## Training Drills
-- Crucifix maintenance against increasing resistance
-- Transition flows between crucifix and related positions
-- Progressive submission sequences
-- Control and pressure sensitivity exercises
-- Entry practice from multiple positions
+- **Crucifix Maintenance**: Practice maintaining Crucifix against increasing resistance, focusing on arm isolation and head control.
+- **Transition Flows**: Drill transition flows between Crucifix and related positions like Back Control or North-South, ensuring smooth movement.
+- **Progressive Submission Sequences**: Work on progressive submission sequences, chaining attacks like chokes and armlocks from Crucifix.
+- **Control and Pressure Sensitivity**: Engage in control and pressure sensitivity exercises, learning to adjust weight and grips based on opponent reactions.
+- **Entry Practice**: Practice entry into Crucifix from multiple positions, such as Turtle Top or during scrambles, to build dynamic application.
 
 ## Related States
 - [[Back Control]] - Similar control with different mechanics
@@ -84,23 +97,27 @@ The Crucifix is a specialized control position where one practitioner controls t
 
 ## Decision Tree
 If opponent defends neck exposure:
-- Execute [[Crucifix Straight Armlock]] or [[Wrist Lock from Crucifix]]
+- Execute [[Crucifix Straight Armlock]] → [[Won by Submission]] (Probability: 40%)
+- Or Execute [[Wrist Lock from Crucifix]] → [[Won by Submission]] (Probability: 30%)
 
 Else if opponent attempts to turn into you:
-- Execute [[Reverse Triangle from Crucifix]] or [[Rolling Crucifix]]
+- Execute [[Reverse Triangle from Crucifix]] → [[Triangle Control]] (Probability: 35%)
+- Or Execute [[Rolling Crucifix]] → [[Arm Triangle]] (Probability: 35%)
 
 Else if opponent exposes neck:
-- Execute [[Crucifix Rear Naked Choke]] or [[Crucifix Neck Crank]]
+- Execute [[Crucifix Rear Naked Choke]] → [[Won by Submission]] (Probability: 45%)
+- Or Execute [[Crucifix Neck Crank]] → [[Won by Submission]] (Probability: 30%)
 
 Else if control becomes compromised:
-- Execute [[Crucifix to Back Control]] or [[Transition to North-South]]
+- Execute [[Crucifix to Back Control]] → [[Back Control]] (Probability: 40%)
+- Or Execute [[Transition to North-South]] → [[North-South]] (Probability: 45%)
 
 ## Position Metrics
-- Success Rate: 80% control retention (competition data)
-- Average Time in Position: 30-90 seconds
-- Submission Probability: 65%
-- Control Maintenance Probability: 85%
-- Position Loss Probability: 10%
+- **Position Retention Rate**: Beginner 60%, Intermediate 75%, Advanced 85%
+- **Advancement Probability**: Beginner 50%, Intermediate 65%, Advanced 80%
+- **Escape Probability**: Beginner 25%, Intermediate 15%, Advanced 5%
+- **Submission Probability**: Beginner 40%, Intermediate 55%, Advanced 70%
+- **Average Time in Position**: 30-90 seconds
 
 ## Optimal Paths
 Primary submission path:

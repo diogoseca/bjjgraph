@@ -12,6 +12,9 @@
 ## State Description
 The Backside 50/50 (often called "B50/50" or "Reverse 50/50") is an advanced leg entanglement position that represents a significant positional improvement over the standard 50/50 configuration. Unlike the traditional 50/50 where both practitioners have equal access to each other's legs, the Backside 50/50 creates an asymmetrical advantage by positioning the practitioner behind the opponent's leg with enhanced heel hook exposure. This position is characterized by the practitioner controlling the opponent's leg in a modified 50/50 configuration while establishing a back-side angle that dramatically increases submission potential while simultaneously reducing the opponent's counter-attacking options. The position has become increasingly prominent in modern no-gi competition as part of the evolution of sophisticated leg lock systems, particularly through the influence of competitors like Gordon Ryan and Craig Jones.
 
+### Visual Description
+You are positioned behind your opponent's leg, seated or on your side, with their leg trapped between yours in a modified 50/50 entanglement, creating a significant asymmetrical advantage. Your inside leg typically hooks over their thigh or knee, while your outside leg controls their ankle or foot, maintaining a tight connection through your hips to expose their heel for potential submissions. Your body is angled to the backside of their leg, allowing you to apply strategic hip pressure and control their knee line, severely limiting their ability to rotate or counter-attack. Your upper body may be engaged in controlling their posture or hands to prevent defensive frames, ensuring that their counter-options are minimized while you set up high-percentage leg locks like the inside heel hook.
+
 ## Key Principles
 - Establish control of opponent's leg in modified 50/50 configuration
 - Create and maintain backside angle for enhanced heel exposure
@@ -38,21 +41,21 @@ The Backside 50/50 (often called "B50/50" or "Reverse 50/50") is an advanced leg
 - Practitioner's legs securely controlling opponent's entangled leg
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Emergency Heel Protection]] → [[Submission Defense]]
-- [[Hip Elevation]] → [[Pressure Reduction]]
-- [[Knee Line Recovery]] → [[Defensive Positioning]]
-- [[Leg Retraction Attempt]] → [[Space Creation]]
-- [[Upper Body Movement]] → [[Frame Creation]]
+- [[Emergency Heel Protection]] → [[Submission Defense]] (Success Rate: 30%)
+- [[Hip Elevation]] → [[Pressure Reduction]] (Success Rate: 25%)
+- [[Knee Line Recovery]] → [[Defensive Positioning]] (Success Rate: 20%)
+- [[Leg Retraction Attempt]] → [[Space Creation]] (Success Rate: 15%)
+- [[Upper Body Movement]] → [[Frame Creation]] (Success Rate: 10%)
 
 ## Offensive Transitions (Available From This State)
-- [[Backside 50/50 Heel Hook]] → [[Inside Heel Hook]]
-- [[Cross Ashi Transition]] → [[Cross Ashi Garami]]
-- [[Transition to Top Position]] → [[Top Position]]
-- [[Backside 50/50 Ankle Lock]] → [[Straight Ankle Lock]]
-- [[Leg Reap Variation]] → [[Inside Sankaku]]
-- [[Back Step to Mount]] → [[Mount]]
-- [[Full Leg Control]] → [[Leg Control Position]]
-- [[Return to 50/50]] → [[50/50 Guard]]
+- [[Backside 50/50 Heel Hook]] → [[Inside Heel Hook]] (Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%)
+- [[Cross Ashi Transition]] → [[Cross Ashi Garami]] (Success Rate: Beginner 40%, Intermediate 50%, Advanced 60%)
+- [[Transition to Top Position]] → [[Top Position]] (Success Rate: Beginner 35%, Intermediate 45%, Advanced 55%)
+- [[Backside 50/50 Ankle Lock]] → [[Straight Ankle Lock]] (Success Rate: Beginner 30%, Intermediate 40%, Advanced 50%)
+- [[Leg Reap Variation]] → [[Inside Sankaku]] (Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%)
+- [[Back Step to Mount]] → [[Mount]] (Success Rate: Beginner 20%, Intermediate 30%, Advanced 40%)
+- [[Full Leg Control]] → [[Leg Control Position]] (Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%)
+- [[Return to 50/50]] → [[50/50 Guard]] (Success Rate: Beginner 40%, Intermediate 50%, Advanced 60%)
 
 ## Counter Transitions
 - [[Re-establish Backside 50/50]] → [[Backside 50/50]] (against defensive movements)
@@ -65,19 +68,28 @@ The Backside 50/50 (often called "B50/50" or "Reverse 50/50") is an advanced leg
 - **Eddie Bravo**: While not traditionally as focused on this specific position, acknowledges its effectiveness within modern leg lock systems. When addressing the position, emphasizes creative transitions to and from the position rather than extended control within it, consistent with the 10th Planet philosophy of continuous movement between positions.
 
 ## Common Errors
-- Insufficient backside angle → Reduced heel exposure
-- Poor knee line control → Defensive rotation opportunity
-- Premature breaking attempt → Position compromise
-- Neglecting upper body positioning → Reduced overall control
-- Insufficient hip pressure → Suboptimal breaking mechanics
-- Focusing solely on submission → Missing positional advantages
+- **Error**: Insufficient backside angle
+  - **Consequence**: Leads to reduced heel exposure, making submissions like the heel hook less effective and increasing the chance of defensive rotation.
+  - **Correction**: Ensure you position yourself fully behind the opponent's leg, maintaining a clear backside angle to maximize submission potential.
+- **Error**: Poor knee line control
+  - **Consequence**: Creates a defensive rotation opportunity for the opponent, allowing them to turn and reduce your control or counter-attack.
+  - **Correction**: Focus on controlling the opponent's knee line with your legs and hips to prevent any rotational movement.
+- **Error**: Premature breaking attempt
+  - **Consequence**: Results in position compromise as rushing the submission can loosen your control, giving the opponent a chance to escape.
+  - **Correction**: Establish complete control over the leg and upper body before initiating breaking mechanics for submissions.
+- **Error**: Neglecting upper body positioning
+  - **Consequence**: Leads to reduced overall control, allowing the opponent to create frames or disrupt your position with their hands.
+  - **Correction**: Use your arms to control the opponent's posture or hands, ensuring they cannot establish defensive grips.
+- **Error**: Insufficient hip pressure
+  - **Consequence**: Causes suboptimal breaking mechanics, making it harder to finish submissions like the heel hook effectively.
+  - **Correction**: Apply strategic hip pressure to isolate the opponent's leg and enhance the leverage for breaking mechanics.
 
 ## Training Drills
-- Backside 50/50 entry and control maintenance against progressive resistance
-- Transition flows between standard 50/50 and Backside 50/50
-- Breaking mechanics practice with controlled pressure application
-- Defensive recognition and counter drills
-- Position maintenance against active defensive movement
+- **Entry and Control Maintenance**: Practice Backside 50/50 entry and control maintenance against progressive resistance, focusing on establishing the backside angle.
+- **Transition Flows**: Drill transition flows between standard 50/50 and Backside 50/50 to improve fluidity and recognition of opportunities.
+- **Breaking Mechanics**: Work on breaking mechanics with controlled pressure application, ensuring proper technique for submissions like the heel hook.
+- **Defensive Recognition and Counters**: Focus on defensive recognition and counter drills to anticipate and neutralize opponent's escape attempts.
+- **Position Maintenance**: Practice position maintenance against active defensive movement, maintaining control over the knee line and upper body.
 
 ## Related States
 - [[50/50 Guard]] - Related but less advantageous position
@@ -88,23 +100,27 @@ The Backside 50/50 (often called "B50/50" or "Reverse 50/50") is an advanced leg
 
 ## Decision Tree
 If opponent attempts to hide heel:
-- Execute [[Backside 50/50 Heel Hook]] or [[Cross Ashi Transition]]
+- Execute [[Backside 50/50 Heel Hook]] → [[Inside Heel Hook]] (Probability: 70%)
+- Or Execute [[Cross Ashi Transition]] → [[Cross Ashi Garami]] (Probability: 50%)
 
 Else if opponent elevates hips defensively:
-- Execute [[Leg Reap Variation]] or [[Back Step to Mount]]
+- Execute [[Leg Reap Variation]] → [[Inside Sankaku]] (Probability: 40%)
+- Or Execute [[Back Step to Mount]] → [[Mount]] (Probability: 35%)
 
 Else if opponent tries to create frames:
-- Execute [[Full Leg Control]] or [[Backside 50/50 Ankle Lock]]
+- Execute [[Full Leg Control]] → [[Leg Control Position]] (Probability: 45%)
+- Or Execute [[Backside 50/50 Ankle Lock]] → [[Straight Ankle Lock]] (Probability: 40%)
 
 Else if position becomes compromised:
-- Execute [[Return to 50/50]] or [[Transition to Top Position]]
+- Execute [[Return to 50/50]] → [[50/50 Guard]] (Probability: 55%)
+- Or Execute [[Transition to Top Position]] → [[Top Position]] (Probability: 50%)
 
 ## Position Metrics
-- Success Rate: 80% submission probability when fully established
-- Average Time in Position: 10-30 seconds
-- Submission Probability: 75%
-- Positional Advancement Probability: 85%
-- Position Loss Probability: 15%
+- **Position Retention Rate**: Beginner 70%, Intermediate 80%, Advanced 90%
+- **Advancement Probability**: Beginner 75%, Intermediate 85%, Advanced 95%
+- **Submission Probability**: Beginner 65%, Intermediate 75%, Advanced 85%
+- **Position Loss Probability**: Beginner 20%, Intermediate 15%, Advanced 10%
+- **Average Time in Position**: 10-30 seconds
 
 ## Optimal Paths
 Standard heel hook path:
@@ -119,12 +135,17 @@ Alternative submission path:
 ## Historical Context
 The Backside 50/50 gained prominence in the mid-2010s as part of the broader evolution of the modern leg lock game. While the standard 50/50 had been established earlier, the backside variation represented a significant refinement that addressed many of the criticisms of the traditional position (such as its symmetrical nature and defensive stalemates). The position was popularized by practitioners from the Danaher Death Squad, particularly Gordon Ryan and Craig Jones, who demonstrated its effectiveness in high-level competition. The position exemplifies the ongoing technical evolution in BJJ, where established positions are continually refined and improved upon as the meta-game develops.
 
+## Timing Considerations
+- **Optimal Conditions**: Most effective when opponent's leg is isolated and their posture is compromised, allowing for quick setup of the backside angle before they can defend.
+- **Avoid When**: Less effective if opponent maintains strong posture or controls your legs, reducing the likelihood of securing the advantageous angle.
+- **Energy/Fatigue Factors**: Low to medium energy cost means it can be maintained for a reasonable duration, but prolonged engagement can lead to fatigue in the legs and hips.
+
 ## Ruleset Considerations
 The Backside 50/50's utility varies across competition rulesets:
-- IBJJF: Limited application in the gi with inside heel hooks prohibited
-- ADCC: Fully legal and highly effective, particularly in the advanced divisions
-- Submission-only formats: Represents one of the highest percentage finishing positions
-- MMA: Less common due to striking vulnerability but still applicable in ground exchanges
+- **IBJJF**: Limited application in the gi with inside heel hooks prohibited, often requiring alternative submissions or transitions.
+- **ADCC**: Fully legal and highly effective, particularly in the advanced divisions where heel hooks are a primary threat.
+- **Professional Submission-Only Formats**: Represents one of the highest percentage finishing positions, frequently used in leg lock systems.
+- **MMA**: Less common due to striking vulnerability but still applicable in ground exchanges where control can be maintained.
 
 ## Computer Science Analogy
 The Backside 50/50 functions as an "asymmetric state transformation" in the BJJ state machine, where a potentially neutral position (standard 50/50) is converted into a highly advantageous one through a specific geometric reconfiguration. This creates a form of "state space advantage" where the controlling player's action space remains fully accessible while the opponent's viable actions are severely constrained. The position exemplifies the concept of "asymmetric information" in game theory, where one player (the controlling practitioner) has complete information about submission threats while the defending player must operate with partial information due to the compromised visual and proprioceptive feedback created by the position.

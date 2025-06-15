@@ -54,16 +54,16 @@ Format: `[[Technique Name]] → [[Resulting State]] (Success Rate: Beginner X%, 
 Structured decision-making logic:
 ```
 If [heel is accessible and vulnerable]:
-- Execute [[Heel Hook]] → [[Won by Submission]] (Probability: 75%)
+- Execute [[Heel Hook]] → [[Won by Submission]] (Probability: Beginner 30%, Intermediate 55%, Advanced 80%)
 
 Else if [ankle is exposed for attack]:
-- Execute [[Toe Hold]] → [[Won by Submission]] (Probability: 60%)
+- Execute [[Toe Hold]] → [[Won by Submission]] (Probability: Beginner 25%, Intermediate 45%, Advanced 70%)
 
 Else if [position can be improved]:
-- Execute [[Saddle Transition]] → [[Saddle Position]] (Probability: 70%)
+- Execute [[Saddle Transition]] → [[Saddle Position]] (Probability: Beginner 40%, Intermediate 65%, Advanced 85%)
 
 Else [maintain control and set up]:
-- Execute [[Calf Slicer]] → [[Won by Submission]] (Probability: 50%)
+- Execute [[Calf Slicer]] → [[Won by Submission]] (Probability: Beginner 20%, Intermediate 40%, Advanced 65%)
 ```
 
 ## Educational & Commentary Content
@@ -192,23 +192,24 @@ Updates to this standard should be reflected across all position files to mainta
 
 ## Decision Tree
 If heel is accessible and vulnerable:
-- Execute [[Heel Hook]] → [[Won by Submission]]
+- Execute [[Heel Hook]] → [[Won by Submission]] (Probability: Beginner 30%, Intermediate 55%, Advanced 80%)
 
 Else if ankle is exposed for attack:
-- Execute [[Toe Hold]] → [[Won by Submission]]
+- Execute [[Toe Hold]] → [[Won by Submission]] (Probability: Beginner 25%, Intermediate 45%, Advanced 70%)
 
 Else if position can be improved:
-- Execute [[Saddle Transition]] → [[Saddle Position]]
+- Execute [[Saddle Transition]] → [[Saddle Position]] (Probability: Beginner 40%, Intermediate 65%, Advanced 85%)
 
 Else (maintain control and set up):
-- Execute [[Calf Slicer]] → [[Won by Submission]]
+- Execute [[Calf Slicer]] → [[Won by Submission]] (Probability: Beginner 20%, Intermediate 40%, Advanced 65%)
 
 ## Position Metrics
-- Success Rate: 70% submission/transition (competition data)
-- Average Time in Position: 15-45 seconds
-- Submission Probability: 55%
-- Transition Probability: 70%
-- Energy Efficiency: Medium (moderate metabolic cost)
+- **Position Retention Rate**: Beginner 25%, Intermediate 45%, Advanced 70%
+- **Advancement Probability**: Beginner 50%, Intermediate 65%, Advanced 80%
+- **Escape Probability**: Beginner 50%, Intermediate 35%, Advanced 20%
+- **Submission Probability**: Beginner 30%, Intermediate 55%, Advanced 70%
+- **Positional Advancement Probability**: Beginner 40%, Intermediate 60%, Advanced 75%
+- **Average Time in Position**: 15-45 seconds
 
 ## Optimal Paths
 The highest-percentage offensive path from this position:

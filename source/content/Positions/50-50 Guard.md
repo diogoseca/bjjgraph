@@ -12,6 +12,9 @@
 ## State Description
 The 50/50 Guard is a modern leg entanglement position where both practitioners have identical access to each other's legs, creating a symmetrical control scenario with equal offensive opportunities. This position is characterized by each practitioner having one leg triangled around the opponent's leg, with their other leg positioned inside the opponent's similar configuration. The name "50/50" reflects the equal opportunity nature of the position, where both practitioners theoretically have the same percentage chance of success. Despite its apparent neutrality, the 50/50 has evolved into a sophisticated battleground for leg lock specialists, with numerous attacking and defensive sequences that can create advantages from this seemingly balanced position. The position has become increasingly prominent in modern competition BJJ, particularly with the rising popularity of heel hook submissions in no-gi formats.
 
+### Visual Description
+You sit on the mat with one leg triangled over your opponent's leg, hooking your ankle behind their knee, while your other leg is positioned inside their similar leg configuration, creating a mirrored entanglement. Your opponent mirrors this setup, with their corresponding leg triangled over yours and their other leg inside your configuration, resulting in a symmetrical leg lock position. Your upper body is typically upright or slightly forward, with hands often gripping the opponent's legs or pants to control their movement, while weight distribution is centered on your hips to maintain balance and readiness for attack or defense. The spatial relationship is close, with both practitioners' legs tightly intertwined, creating a dynamic balance of control and vulnerability at the hip and knee joints.
+
 ## Key Principles
 - Establish proper triangled leg configuration around opponent's leg
 - Control opponent's knee line to prevent rotation and defensive movement
@@ -38,21 +41,21 @@ The 50/50 Guard is a modern leg entanglement position where both practitioners h
 - Equal theoretical submission access
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Knee Line Control]] → [[Defensive Positioning]]
-- [[Hip Rotation Away]] → [[Reaping Prevention]]
-- [[Frame Creation]] → [[Space Generation]]
-- [[Hip Elevation]] → [[Pressure Reduction]]
-- [[Grip Fighting]] → [[Grip Advantage]]
+- [[Knee Line Control]] → [[Defensive Positioning]] (Success Rate: 60%)
+- [[Hip Rotation Away]] → [[Reaping Prevention]] (Success Rate: 55%)
+- [[Frame Creation]] → [[Space Generation]] (Success Rate: 50%)
+- [[Hip Elevation]] → [[Pressure Reduction]] (Success Rate: 45%)
+- [[Grip Fighting]] → [[Grip Advantage]] (Success Rate: 50%)
 
 ## Offensive Transitions (Available From This State)
-- [[50/50 Inside Heel Hook]] → [[Inside Heel Hook]]
-- [[50/50 Ankle Lock]] → [[Straight Ankle Lock]]
-- [[Transition to Outside Sankaku]] → [[Outside Sankaku]]
-- [[Transition to Backside 50/50]] → [[Backside 50/50]]
-- [[Leg Pummeling Sequence]] → [[Ashi Garami]]
-- [[50/50 Sweep]] → [[Top Position]]
-- [[Berimbolo from 50/50]] → [[Berimbolo]]
-- [[Disengage to Combat Base]] → [[Combat Base]]
+- [[50/50 Inside Heel Hook]] → [[Inside Heel Hook]] (Success Rate: Beginner 30%, Intermediate 40%, Advanced 50%)
+- [[50/50 Ankle Lock]] → [[Straight Ankle Lock]] (Success Rate: Beginner 35%, Intermediate 45%, Advanced 55%)
+- [[Transition to Outside Sankaku]] → [[Outside Sankaku]] (Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%)
+- [[Transition to Backside 50/50]] → [[Backside 50/50]] (Success Rate: Beginner 30%, Intermediate 40%, Advanced 50%)
+- [[Leg Pummeling Sequence]] → [[Ashi Garami]] (Success Rate: Beginner 20%, Intermediate 30%, Advanced 40%)
+- [[50/50 Sweep]] → [[Top Position]] (Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%)
+- [[Berimbolo from 50/50]] → [[Berimbolo]] (Success Rate: Beginner 15%, Intermediate 25%, Advanced 35%)
+- [[Disengage to Combat Base]] → [[Combat Base]] (Success Rate: Beginner 40%, Intermediate 50%, Advanced 60%)
 
 ## Counter Transitions
 - [[Re-establish 50/50]] → [[50/50 Guard]] (against escape attempts)
@@ -65,18 +68,28 @@ The 50/50 Guard is a modern leg entanglement position where both practitioners h
 - **Eddie Bravo**: Has incorporated the 50/50 into aspects of his 10th Planet system with particular focus on transitions to and from the position rather than extended engagement within it. Emphasizes creative movement patterns and unorthodox entries/exits that connect to other parts of his system.
 
 ## Common Errors
-- Neglecting upper body positioning → Vulnerability to counters
-- Poor knee line control → Defensive mobility for opponent
-- Rushing submission attempts → Position compromise
-- Static positioning → Missed transition opportunities
-- Insufficient defensive awareness → Submission vulnerability
+- **Error**: Neglecting upper body positioning
+  - **Consequence**: Leaves you vulnerable to counters as opponent can control your torso and initiate sweeps or submissions.
+  - **Correction**: Maintain an active upper body posture, using grips on opponent's legs or torso to prevent their control.
+- **Error**: Poor knee line control
+  - **Consequence**: Allows opponent defensive mobility, making it easier for them to rotate out or attack your legs.
+  - **Correction**: Focus on controlling the opponent's knee line by keeping your legs tight and preventing their rotation.
+- **Error**: Rushing submission attempts
+  - **Consequence**: Compromises your position as hasty attacks often leave openings for counters or escapes.
+  - **Correction**: Build submissions methodically, ensuring control before applying finishing pressure.
+- **Error**: Static positioning
+  - **Consequence**: Misses transition opportunities, allowing opponent to dictate the pace and direction of the exchange.
+  - **Correction**: Stay dynamic with hip movement and grip adjustments to create and capitalize on openings.
+- **Error**: Insufficient defensive awareness
+  - **Consequence**: Increases submission vulnerability as you fail to anticipate or counter opponent's attacks.
+  - **Correction**: Maintain constant awareness of opponent's leg positioning and potential submission setups, ready to defend or disengage.
 
 ## Training Drills
-- 50/50 control maintenance against progressive resistance
-- Transition flows between 50/50 and related leg entanglements
-- Submission chain drilling with proper control progression
-- Defensive recognition and escape practice
-- Grip fighting sequences specific to the position
+- **Control Maintenance**: Practice maintaining 50/50 control against progressive resistance, focusing on knee line control and upper body positioning.
+- **Transition Flows**: Drill transition flows between 50/50 and related leg entanglements like Backside 50/50 and Outside Sankaku to build fluidity.
+- **Submission Chain Drilling**: Work on submission chains with proper control progression, starting with grip establishment before attempting heel hooks or ankle locks.
+- **Defensive Recognition and Escape**: Practice recognizing opponent's submission setups and executing escapes like hip rotation or disengagement to Combat Base.
+- **Grip Fighting Sequences**: Focus on grip fighting sequences specific to the position, emphasizing breaking opponent's grips while securing your own.
 
 ## Related States
 - [[Backside 50/50]] - Advanced variation
@@ -87,23 +100,27 @@ The 50/50 Guard is a modern leg entanglement position where both practitioners h
 
 ## Decision Tree
 If opponent attempts to disengage:
-- Execute [[Transition to Backside 50/50]] or [[50/50 Inside Heel Hook]]
+- Execute [[Transition to Backside 50/50]] → [[Backside 50/50]] (Probability: 50%)
+- Or Execute [[50/50 Inside Heel Hook]] → [[Inside Heel Hook]] (Probability: 40%)
 
 Else if opponent rotates hips inward:
-- Execute [[50/50 Ankle Lock]] or [[Leg Pummeling Sequence]]
+- Execute [[50/50 Ankle Lock]] → [[Straight Ankle Lock]] (Probability: 45%)
+- Or Execute [[Leg Pummeling Sequence]] → [[Ashi Garami]] (Probability: 35%)
 
 Else if opponent inverts or elevates hips:
-- Execute [[Berimbolo from 50/50]] or [[50/50 Sweep]]
+- Execute [[Berimbolo from 50/50]] → [[Berimbolo]] (Probability: 30%)
+- Or Execute [[50/50 Sweep]] → [[Top Position]] (Probability: 35%)
 
 Else if opponent controls upper body positioning:
-- Execute [[Transition to Outside Sankaku]] or [[Disengage to Combat Base]]
+- Execute [[Transition to Outside Sankaku]] → [[Outside Sankaku]] (Probability: 40%)
+- Or Execute [[Disengage to Combat Base]] → [[Combat Base]] (Probability: 50%)
 
 ## Position Metrics
-- Success Rate: 50% (neutral position)
-- Average Time in Position: 30-90 seconds
-- Submission Probability: 40%
-- Sweep Probability: 35%
-- Position Loss Probability: 35%
+- **Position Retention Rate**: Beginner 40%, Intermediate 50%, Advanced 60%
+- **Advancement Probability**: Beginner 30%, Intermediate 40%, Advanced 50%
+- **Submission Probability**: Beginner 25%, Intermediate 35%, Advanced 45%
+- **Position Loss Probability**: Beginner 40%, Intermediate 30%, Advanced 20%
+- **Average Time in Position**: 30-90 seconds
 
 ## Optimal Paths
 Heel hook path:
@@ -118,12 +135,17 @@ Positional advancement path:
 ## Historical Context
 The 50/50 Guard rose to prominence in the late 2000s and early 2010s, largely popularized by competitors like Ryan Hall and the Mendes brothers. Initially viewed primarily as a stalling position in gi competition due to the difficulty of finishing attacks within IBJJF rules, the position evolved dramatically with the rise of submission-only formats and the increasing acceptance of heel hooks in competition. The position has transformed from a much-maligned "stalling" position into a sophisticated technical battleground that has contributed significantly to the evolution of the modern leg lock game. Today, the 50/50 represents one of the cornerstones of contemporary leg entanglement systems.
 
+## Timing Considerations
+- **Optimal Conditions**: Most effective when opponent's legs are accessible and upper body control is neutral, allowing for quick submission setups or sweeps.
+- **Avoid When**: Less effective if opponent has superior upper body control or if you're fatigued, as it increases vulnerability to counters.
+- **Energy/Fatigue Factors**: Medium energy cost means prolonged engagement can lead to fatigue, reducing effectiveness of attacks and defenses.
+
 ## Ruleset Considerations
 The 50/50 Guard's application varies significantly across competition rulesets:
-- IBJJF: Limited leg lock options from the position in the gi, with inside heel hooks forbidden
-- ADCC: Full range of attacks available, making the position more offensively potent
-- Professional submission-only formats: Often see extended 50/50 exchanges with sophisticated attacking sequences
-- MMA: Less common due to striking vulnerability, but still appears in high-level competition
+- **IBJJF**: Limited leg lock options from the position in the gi, with inside heel hooks forbidden.
+- **ADCC**: Full range of attacks available, making the position more offensively potent.
+- **Professional Submission-Only Formats**: Often see extended 50/50 exchanges with sophisticated attacking sequences.
+- **MMA**: Less common due to striking vulnerability, but still appears in high-level competition.
 
 ## Computer Science Analogy
 The 50/50 Guard represents a "symmetric game state" in the BJJ state machine, where both players have identical action spaces and similar utility functions. This creates a scenario analogous to certain two-player perfect information games where theoretical optimal play would result in a draw. However, BJJ practitioners exploit small asymmetries (grip details, angle variations, timing advantages) to break the symmetric equilibrium and create probabilistic advantages. The position exemplifies the concept of a "Nash equilibrium" where small deviations from optimal defensive strategy can be severely punished, creating a high-stakes technical battle of subtle details and precise execution.

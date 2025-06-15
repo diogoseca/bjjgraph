@@ -12,6 +12,9 @@
 ## State Description
 Flattened Half Guard represents a dominant variation of the Half Guard Top position where the top player has succeeded in breaking the bottom player's structure, forcing them flat onto their back with minimal defensive frames and hip mobility. Unlike standard Half Guard Top where the bottom player maintains some form of defensive structure (frames, knee shield, underhook), the Flattened Half Guard creates a scenario where passing becomes significantly more probable due to the neutralization of the bottom player's defensive capabilities. This position is characterized by the top player establishing smothering pressure while maintaining key control points that prevent the bottom player from recovering a defensive structure. The position serves as a critical transitional state between initial half guard engagement and successful guard passing.
 
+### Visual Description
+You are on top in a half guard position, with one of the opponent's legs trapped between yours, but you've managed to flatten them out completely on their back, eliminating their ability to create angles or use defensive frames. Your chest is pressed heavily against their torso, applying smothering pressure, while your shoulder or arm drives into their jaw or neck with a crossface, turning their head away to disrupt their posture and focus. Your free leg is often posted out wide or driving into their hip to control their movement, ensuring they can't turn or shrimp to recover guard, and your arms secure their near-side arm or underhook to prevent any framing attempts. The opponent lies flat, struggling under your weight, with their trapped leg immobilized and their upper body pinned, unable to create space or initiate effective escapes, making them vulnerable to your passing or submission attempts.
+
 ## Key Principles
 - Establish and maintain crossface/shoulder pressure against opponent's jaw/head
 - Control opponent's hip mobility through strategic weight distribution
@@ -38,21 +41,21 @@ Flattened Half Guard represents a dominant variation of the Half Guard Top posit
 - Clear pathway to passing sequences
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Bridge and Frame]] → [[Space Creation]]
-- [[Knee Shield Recovery]] → [[Knee Shield Half Guard]]
-- [[Underhook Drive]] → [[Traditional Half Guard]]
-- [[Hip Escape Sequence]] → [[Guard Recovery]]
-- [[Half Butterfly Recovery]] → [[Butterfly Half Guard]]
+- [[Bridge and Frame]] → [[Space Creation]] (Success Rate: 25%)
+- [[Knee Shield Recovery]] → [[Knee Shield Half Guard]] (Success Rate: 20%)
+- [[Underhook Drive]] → [[Traditional Half Guard]] (Success Rate: 15%)
+- [[Hip Escape Sequence]] → [[Guard Recovery]] (Success Rate: 10%)
+- [[Half Butterfly Recovery]] → [[Butterfly Half Guard]] (Success Rate: 10%)
 
 ## Offensive Transitions (Available From This State)
-- [[Pressure Pass]] → [[Side Control]]
-- [[Knee Slide Completion]] → [[Side Control]]
-- [[Flattened Half to Mount]] → [[Mount]]
-- [[Back Step]] → [[Back Control]]
-- [[Kimura Trap]] → [[Kimura Control]]
-- [[D'arce Setup]] → [[D'arce Control]]
-- [[North-South Transition]] → [[North-South]]
-- [[Leg Weave Pass]] → [[Side Control]]
+- [[Pressure Pass]] → [[Side Control]] (Success Rate: Beginner 60%, Intermediate 75%, Advanced 85%)
+- [[Knee Slide Completion]] → [[Side Control]] (Success Rate: Beginner 55%, Intermediate 70%, Advanced 80%)
+- [[Flattened Half to Mount]] → [[Mount]] (Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%)
+- [[Back Step]] → [[Back Control]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
+- [[Kimura Trap]] → [[Kimura Control]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
+- [[D'arce Setup]] → [[D'arce Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
+- [[North-South Transition]] → [[North-South]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
+- [[Leg Weave Pass]] → [[Side Control]] (Success Rate: Beginner 50%, Intermediate 65%, Advanced 75%)
 
 ## Counter Transitions
 - [[Re-establish Flattened Half]] → [[Flattened Half Guard]] (against recovery attempts)
@@ -65,19 +68,31 @@ Flattened Half Guard represents a dominant variation of the Half Guard Top posit
 - **Eddie Bravo**: While not as focused on top position control in his system, acknowledges the effectiveness of the Flattened Half Guard as a control position. When addressing the position from the top player's perspective, emphasizes creating submission threats that force defensive reactions that open up passing opportunities, particularly focusing on threat chains that connect various submissions.
 
 ## Common Errors
-- Insufficient head/shoulder pressure → Defensive mobility
-- Poor weight distribution → Loss of control
-- Neglecting hip control → Recovery opportunity
-- Premature passing attempt → Position compromise
-- Static pressure application → Energy inefficiency
-- Focusing solely on passing → Missing submission opportunities
+- **Error**: Insufficient head/shoulder pressure
+  - **Consequence**: Allows defensive mobility, as the opponent can turn their head or body to create angles for escapes or frames.
+  - **Correction**: Maintain a strong crossface or shoulder pressure against their jaw, turning their head away to disrupt their posture.
+- **Error**: Poor weight distribution
+  - **Consequence**: Leads to loss of control, as improper weight placement allows the opponent to shrimp or bridge effectively.
+  - **Correction**: Keep your chest heavy on their torso and position your free leg to pin their hip, ensuring maximum control.
+- **Error**: Neglecting hip control
+  - **Consequence**: Provides recovery opportunity, as the opponent can use hip movement to regain guard or create space.
+  - **Correction**: Drive your knee or leg into their hip to block movement, or post your free leg wide to limit their hip rotation.
+- **Error**: Premature passing attempt
+  - **Consequence**: Results in position compromise, as rushing to pass without full control can lead to the opponent recovering guard.
+  - **Correction**: Ensure all defensive frames are neutralized and pressure is maximized before initiating a pass.
+- **Error**: Static pressure application
+  - **Consequence**: Causes energy inefficiency, as maintaining constant pressure without adjustment can tire you out unnecessarily.
+  - **Correction**: Adjust pressure dynamically based on the opponent's reactions, easing off slightly to conserve energy when control is secure.
+- **Error**: Focusing solely on passing
+  - **Consequence**: Leads to missing submission opportunities, as fixating on passing can overlook openings for attacks like Kimuras or D'arces.
+  - **Correction**: Stay aware of submission setups that arise from the opponent's defensive reactions while maintaining control.
 
 ## Training Drills
-- Flattened Half Guard control maintenance against progressive resistance
-- Transition flows between Flattened Half and passing positions
-- Pressure application sensitivity development
-- Defensive recognition and counter drills
-- Control point maintenance against active defensive movement
+- **Control Maintenance**: Practice Flattened Half Guard control maintenance against progressive resistance, focusing on crossface and hip control.
+- **Transition Flows**: Drill transition flows between Flattened Half Guard and passing positions like Side Control or Mount, ensuring smooth advancements.
+- **Pressure Application**: Work on pressure application sensitivity development, learning to adjust weight and pressure based on opponent reactions.
+- **Defensive Recognition**: Engage in defensive recognition and counter drills, learning to anticipate and neutralize opponent escapes or frames.
+- **Control Points**: Train control point maintenance against active defensive movement, focusing on securing arms and hips to prevent recovery.
 
 ## Related States
 - [[Half Guard Top]] - Prerequisite position
@@ -88,23 +103,28 @@ Flattened Half Guard represents a dominant variation of the Half Guard Top posit
 
 ## Decision Tree
 If opponent attempts to bridge:
-- Execute [[Pressure Pass]] or [[Flattened Half to Mount]]
+- Execute [[Pressure Pass]] → [[Side Control]] (Probability: 75%)
+- Or Execute [[Flattened Half to Mount]] → [[Mount]] (Probability: 55%)
 
 Else if opponent fights for underhook:
-- Execute [[Kimura Trap]] or [[D'arce Setup]]
+- Execute [[Kimura Trap]] → [[Kimura Control]] (Probability: 45%)
+- Or Execute [[D'arce Setup]] → [[D'arce Control]] (Probability: 40%)
 
 Else if opponent attempts knee shield recovery:
-- Execute [[Knee Slide Completion]] or [[Leg Weave Pass]]
+- Execute [[Knee Slide Completion]] → [[Side Control]] (Probability: 70%)
+- Or Execute [[Leg Weave Pass]] → [[Side Control]] (Probability: 65%)
 
 Else if opponent turns away defensively:
-- Execute [[Back Step]] or [[North-South Transition]]
+- Execute [[Back Step]] → [[Back Control]] (Probability: 50%)
+- Or Execute [[North-South Transition]] → [[North-South]] (Probability: 35%)
 
 ## Position Metrics
-- Success Rate: 80% pass completion probability
-- Average Time in Position: 20-60 seconds
-- Pass Completion Probability: 75%
-- Submission Opportunity Probability: 40%
-- Position Loss Probability: 15%
+- **Position Retention Rate**: Beginner 60%, Intermediate 75%, Advanced 85%
+- **Advancement Probability**: Beginner 55%, Intermediate 70%, Advanced 80%
+- **Escape Probability**: Beginner 25%, Intermediate 15%, Advanced 5%
+- **Pass Completion Probability**: Beginner 60%, Intermediate 75%, Advanced 85%
+- **Submission Opportunity Probability**: Beginner 30%, Intermediate 45%, Advanced 60%
+- **Average Time in Position**: 20-60 seconds
 
 ## Optimal Paths
 Standard passing path:

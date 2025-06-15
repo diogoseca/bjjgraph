@@ -12,6 +12,9 @@
 ## State Description
 Gogoplata Control is a specialized submission position originating from the Rubber Guard system, popularized within Eddie Bravo's 10th Planet Jiu-Jitsu. This position involves controlling the opponent with a shin positioned across their throat while maintaining wrist control and positional dominance. Unlike more common submissions, the Gogoplata uses the shin rather than the arms to create choking pressure, making it particularly effective when the opponent's defensive focus is on hand fighting. The position represents an advanced control point in the Rubber Guard progression, typically evolving from the New York Control or Williams Guard positions. When properly established, the Gogoplata Control creates a dominant attacking position with high submission potential while limiting the opponent's defensive options.
 
+### Visual Description
+You are on your back in a Rubber Guard configuration, with your opponent trapped in front of you, their head lowered as your shin presses firmly across their throat, creating a unique choking mechanism. Your foot on the choking leg is secured behind their head or neck, locking the position in place, while your other leg often controls their posture or hooks their body to prevent escape. Your hands maintain wrist control on their near arm, pulling it across their body to limit their ability to frame or defend, and your hips are elevated to maximize pressure and angle for the submission. The opponent is hunched forward, struggling to breathe under the shin pressure, with limited options to posture up or escape due to the multiple control points you've established.
+
 ## Key Principles
 - Establish and maintain shin placement across opponent's throat
 - Control opponent's wrist/arm to prevent defense
@@ -38,19 +41,19 @@ Gogoplata Control is a specialized submission position originating from the Rubb
 - Hip positioning optimized for pressure application
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Posture and Frame]] → [[Throat Clearance]]
-- [[Grip Breaking]] → [[Wrist Liberation]]
-- [[Head Pull Back]] → [[Space Creation]]
-- [[Forward Pressure]] → [[Stack Escape]]
-- [[Arm Block]] → [[Shin Displacement]]
+- [[Posture and Frame]] → [[Throat Clearance]] (Success Rate: 30%)
+- [[Grip Breaking]] → [[Wrist Liberation]] (Success Rate: 25%)
+- [[Head Pull Back]] → [[Space Creation]] (Success Rate: 20%)
+- [[Forward Pressure]] → [[Stack Escape]] (Success Rate: 15%)
+- [[Arm Block]] → [[Shin Displacement]] (Success Rate: 10%)
 
 ## Offensive Transitions (Available From This State)
-- [[Gogoplata Finish]] → [[Won by Submission]]
-- [[Transition to Omoplata]] → [[Omoplata Control]]
-- [[Williams Guard Recovery]] → [[Williams Guard]]
-- [[Sweep to Mount]] → [[Mount]]
-- [[Gogoplata to Triangle]] → [[Triangle Control]]
-- [[Return to New York]] → [[New York Control]]
+- [[Gogoplata Finish]] → [[Won by Submission]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
+- [[Transition to Omoplata]] → [[Omoplata Control]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
+- [[Williams Guard Recovery]] → [[Williams Guard]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
+- [[Sweep to Mount]] → [[Mount]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
+- [[Gogoplata to Triangle]] → [[Triangle Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
+- [[Return to New York]] → [[New York Control]] (Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%)
 
 ## Counter Transitions
 - [[Re-establish Gogoplata]] → [[Gogoplata Control]] (against defense attempts)
@@ -63,12 +66,24 @@ Gogoplata Control is a specialized submission position originating from the Rubb
 - **Eddie Bravo**: As the primary developer and proponent of the Gogoplata within his 10th Planet system, considers it one of the signature submissions of the Rubber Guard progression. Emphasizes precise technical details like shin angle, foot positioning behind the head, and coordinated pressure application that maximize effectiveness while minimizing energy expenditure. Has developed a systematic approach to establishing and maintaining the position, with specific responses to common defensive reactions.
 
 ## Common Errors
-- Insufficient hip flexibility → Limited shin placement
-- Poor wrist control → Defensive escape opportunity
-- Inadequate foot lock behind head → Position instability
-- Incorrect shin angle → Reduced choking effectiveness
-- Overreliance on flexibility → Structural weakness
-- Premature finish attempts → Position compromise
+- **Error**: Insufficient hip flexibility
+  - **Consequence**: Limits shin placement across the throat, reducing the effectiveness of the choke and allowing the opponent to posture up or escape.
+  - **Correction**: Develop hip and hamstring flexibility through dedicated stretching routines to ensure proper shin positioning.
+- **Error**: Poor wrist control
+  - **Consequence**: Creates a defensive escape opportunity, as the opponent can use their free arm to frame or break the position.
+  - **Correction**: Secure a strong grip on their wrist, pulling it across their body to limit their defensive options.
+- **Error**: Inadequate foot lock behind head
+  - **Consequence**: Causes position instability, as the lack of a secure anchor allows the opponent to pull their head out or disrupt the choke.
+  - **Correction**: Ensure your foot is firmly placed behind their head or neck, locking the shin in place for maximum control.
+- **Error**: Incorrect shin angle
+  - **Consequence**: Reduces choking effectiveness, as improper alignment fails to apply sufficient pressure to the throat.
+  - **Correction**: Adjust your hip position and shin angle to ensure direct pressure across the opponent's throat for optimal submission potential.
+- **Error**: Overreliance on flexibility
+  - **Consequence**: Leads to structural weakness, as relying solely on flexibility without proper control can result in losing the position during dynamic movement.
+  - **Correction**: Combine flexibility with active control of multiple points (shin, wrist, hips) to maintain a stable and dominant position.
+- **Error**: Premature finish attempts
+  - **Consequence**: Compromises the position, as rushing the submission without full control can allow the opponent to escape or counter.
+  - **Correction**: Secure all control points and ensure the opponent's posture is broken before attempting to finish the Gogoplata.
 
 ## Training Drills
 - Gogoplata Control entry and maintenance against progressive resistance
@@ -87,23 +102,27 @@ Gogoplata Control is a specialized submission position originating from the Rubb
 
 ## Decision Tree
 If opponent attempts to create space with posture:
-- Execute [[Gogoplata Finish]] or [[Sweep to Mount]]
+- Execute [[Gogoplata Finish]] → [[Won by Submission]] (Probability: Beginner 25%, Intermediate 40%, Advanced 55%)
+- Or Execute [[Sweep to Mount]] → [[Mount]] (Probability: Beginner 20%, Intermediate 35%, Advanced 50%)
 
 Else if opponent breaks wrist control:
-- Execute [[Return to New York]] or [[Williams Guard Recovery]]
+- Execute [[Return to New York]] → [[New York Control]] (Probability: Beginner 40%, Intermediate 55%, Advanced 70%)
+- Or Execute [[Williams Guard Recovery]] → [[Williams Guard]] (Probability: Beginner 35%, Intermediate 50%, Advanced 65%)
 
 Else if opponent stacks with forward pressure:
-- Execute [[Transition to Omoplata]] or [[Gogoplata to Triangle]]
+- Execute [[Transition to Omoplata]] → [[Omoplata Control]] (Probability: Beginner 30%, Intermediate 45%, Advanced 60%)
+- Or Execute [[Gogoplata to Triangle]] → [[Triangle Control]] (Probability: Beginner 25%, Intermediate 40%, Advanced 55%)
 
 Else if optimal control is established:
-- Execute [[Gogoplata Finish]]
+- Execute [[Gogoplata Finish]] → [[Won by Submission]] (Probability: Beginner 25%, Intermediate 40%, Advanced 55%)
 
 ## Position Metrics
-- Success Rate: 65% control effectiveness (practitioner data)
-- Average Time in Position: 15-40 seconds
-- Submission Probability: 50%
-- Transition Probability: 40%
-- Position Loss Probability: 30%
+- **Position Retention Rate**: Beginner 40%, Intermediate 55%, Advanced 70%
+- **Advancement Probability**: Beginner 35%, Intermediate 50%, Advanced 65%
+- **Escape Probability**: Beginner 35%, Intermediate 25%, Advanced 15%
+- **Submission Probability**: Beginner 25%, Intermediate 40%, Advanced 55%
+- **Positional Advancement Probability**: Beginner 30%, Intermediate 45%, Advanced 60%
+- **Average Time in Position**: 15-40 seconds
 
 ## Optimal Paths
 Primary submission path:

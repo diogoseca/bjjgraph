@@ -12,6 +12,9 @@
 ## State Description
 Closed Guard Bottom is a foundational BJJ position where the bottom player wraps their legs around the opponent's waist, crossing their ankles behind the opponent's back. While considered neutral in scoring, this position offers significant control and multiple offensive opportunities for the bottom player while providing defensive security.
 
+### Visual Description
+You are lying on your back on the mat, with your legs tightly wrapped around your opponent's waist, ankles crossed securely behind their back to form a closed loop that restricts their movement. Your hips are positioned close to theirs, maintaining a tight connection to eliminate space and control their posture, often using your hands to grip their collar, sleeves, or wrists to further break their balance forward. Your upper body is slightly elevated or flat, depending on the attack or defense strategy, with your core engaged to create angles by shifting your hips left or right. This setup allows you to dominate the opponent's upper body while your legs act as a powerful barrier, preventing easy guard passes and setting up a wide array of sweeps and submissions, making closed guard a dynamic and secure position from the bottom.
+
 ## Key Principles
 - Maintain hip connection to eliminate space
 - Control opponent's posture through strategic grips
@@ -31,21 +34,21 @@ Closed Guard Bottom is a foundational BJJ position where the bottom player wraps
 - Opponent contained between your legs
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Posture and Base]] → [[Standing in Guard]]
-- [[Control Arms]] → [[Combat Base]]
-- [[Break Grips]] → [[Guard Opening Sequence]]
-- [[Create Pressure]] → [[Stack Pass Initiation]]
+- [[Posture and Base]] → [[Standing in Guard]] (Success Rate: 40%)
+- [[Control Arms]] → [[Combat Base]] (Success Rate: 35%)
+- [[Break Grips]] → [[Guard Opening Sequence]] (Success Rate: 30%)
+- [[Create Pressure]] → [[Stack Pass Initiation]] (Success Rate: 25%)
 
 ## Offensive Transitions (Available From This State)
-- [[Hip Bump Sweep]] → [[Mount]]
-- [[Scissor Sweep]] → [[Mount]] or [[Side Control Top]]
-- [[Pendulum Sweep]] → [[Mount]]
-- [[Triangle Choke]] → [[Triangle Control]]
-- [[Armbar]] → [[Armbar Control]]
-- [[Omoplata]] → [[Omoplata Control]]
-- [[Kimura]] → [[Kimura Control]]
-- [[Cross Collar Choke]] → [[Won by Submission]]
-- [[Open Guard Transition]] → [[Open Guard Bottom]]
+- [[Hip Bump Sweep]] → [[Mount]] (Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%)
+- [[Scissor Sweep]] → [[Mount]] or [[Side Control Top]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
+- [[Pendulum Sweep]] → [[Mount]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
+- [[Triangle Choke]] → [[Triangle Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
+- [[Armbar]] → [[Armbar Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
+- [[Omoplata]] → [[Omoplata Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
+- [[Kimura]] → [[Kimura Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
+- [[Cross Collar Choke]] → [[Won by Submission]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
+- [[Open Guard Transition]] → [[Open Guard Bottom]] (Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%)
 
 ## Counter Transitions
 - [[Re-guard]] → [[Closed Guard Bottom]] (against pass attempts)
@@ -58,18 +61,28 @@ Closed Guard Bottom is a foundational BJJ position where the bottom player wraps
 - **Eddie Bravo**: Transforms the traditional closed guard into the rubber guard system, focusing on overhook control and "mission control" position to set up gogoplatas, omoplatas, and specialized sweeps. Uses the lockdown from half guard more often than traditional closed guard.
 
 ## Common Errors
-- Keeping a flat, square position → Easy for opponent to maintain posture
-- Focusing on only one attack → Predictable offense
-- Loose legs/ankles → Allows opponent space to initiate passes
-- Ineffective gripping → Inability to control opponent's posture
-- Staying too flat → Limited offensive options
+- **Error**: Keeping a flat, square position
+  - **Consequence**: Makes it easy for the opponent to maintain posture, reducing your ability to initiate effective attacks or sweeps.
+  - **Correction**: Shift your hips to create angles, using off-balancing techniques to disrupt the opponent's posture and open attack opportunities.
+- **Error**: Focusing on only one attack
+  - **Consequence**: Leads to predictable offense, allowing the opponent to anticipate and counter your moves with prepared defenses.
+  - **Correction**: Chain multiple attacks together, such as combining sweeps with submissions, to keep the opponent guessing and create openings.
+- **Error**: Loose legs/ankles
+  - **Consequence**: Allows the opponent space to initiate passes, weakening your control and increasing the risk of guard loss.
+  - **Correction**: Keep your legs tight around the opponent's waist with ankles crossed securely, maintaining constant hip connection to eliminate space.
+- **Error**: Ineffective gripping
+  - **Consequence**: Results in an inability to control the opponent's posture, making it harder to set up attacks or prevent passes.
+  - **Correction**: Use strong, strategic grips on the collar, sleeves, or wrists to break the opponent's posture and maintain upper body control.
+- **Error**: Staying too flat
+  - **Consequence**: Limits offensive options, reducing your ability to create angles or initiate dynamic attacks from the guard.
+  - **Correction**: Engage your core to elevate your upper body slightly or shift your hips, creating better leverage for sweeps and submissions.
 
 ## Training Drills
-- Posture breaking sequences with progressive resistance
-- Transition chains between submissions
-- Hip mobility and angle creation drills
-- Defensive to offensive transition flows
-- Core strength development for guard retention
+- **Posture Breaking Sequences**: Practice posture breaking sequences with progressive resistance, focusing on using grips and hip movement to control the opponent.
+- **Transition Chains**: Drill transition chains between submissions, such as moving from triangle to armbar, to improve fluidity and attack options.
+- **Hip Mobility Drills**: Work on hip mobility and angle creation drills to enhance your ability to off-balance the opponent and set up attacks.
+- **Defensive to Offensive Flows**: Practice defensive to offensive transition flows, learning to turn guard retention into immediate attack opportunities.
+- **Core Strength Development**: Focus on core strength development for guard retention, ensuring you can maintain control and create leverage effectively.
 
 ## Related States
 - [[Open Guard Bottom]] - More dynamic with extended legs
@@ -80,27 +93,36 @@ Closed Guard Bottom is a foundational BJJ position where the bottom player wraps
 
 ## Decision Tree
 If opponent establishes strong posture:
-- Execute [[Hip Bump Sweep]]
+- Execute [[Hip Bump Sweep]] → [[Mount]] (Probability: 55%)
+- Or Execute [[Scissor Sweep]] → [[Mount]] or [[Side Control Top]] (Probability: 50%)
 
 Else if opponent drives forward with pressure:
-- Execute [[Pendulum Sweep]]
+- Execute [[Pendulum Sweep]] → [[Mount]] (Probability: 45%)
+- Or Execute [[Triangle Choke]] → [[Triangle Control]] (Probability: 40%)
 
 Else if opponent stands up:
-- Transition to [[Open Guard Bottom]]
+- Transition to [[Open Guard Bottom]] → [[Open Guard Bottom]] (Probability: 60%)
 
 Else (balanced opponent):
-- Break posture and initiate [[Triangle Choke]] or [[Armbar]]
+- Break posture and initiate [[Triangle Choke]] → [[Triangle Control]] (Probability: 40%)
+- Or Execute [[Armbar]] → [[Armbar Control]] (Probability: 35%)
 
 ## Position Metrics
-- Success Rate: 65% (competition data)
-- Average Time in Position: 2-3 minutes
-- Submission Probability: 35%
-- Positional Advancement Probability: 45%
-- Position Loss Probability: 20%
+- **Position Retention Rate**: Beginner 60%, Intermediate 70%, Advanced 80%
+- **Advancement Probability**: Beginner 40%, Intermediate 55%, Advanced 70%
+- **Submission Probability**: Beginner 25%, Intermediate 35%, Advanced 50%
+- **Position Loss Probability**: Beginner 35%, Intermediate 25%, Advanced 15%
+- **Average Time in Position**: 2-3 minutes
 
 ## Optimal Submission Paths
 The shortest path to submission from this position:
 [[Closed Guard Bottom]] → [[Cross Collar Choke]] → [[Won by Submission]]
 
 High-percentage path:
-[[Closed Guard Bottom]] → [[Break Posture]] → [[Triangle Setup]] → [[Triangle Control]] → [[Won by Submission]]
+[[Closed Guard Bottom]] → [[Break Posture]] → [[Triangle Choke]] → [[Triangle Control]] → [[Won by Submission]]
+
+Alternative submission path:
+[[Closed Guard Bottom]] → [[Break Posture]] → [[Armbar]] → [[Armbar Control]] → [[Won by Submission]]
+
+Sweep to dominance path:
+[[Closed Guard Bottom]] → [[Hip Bump Sweep]] → [[Mount]] → [[Submission Chain]] → [[Won by Submission]]

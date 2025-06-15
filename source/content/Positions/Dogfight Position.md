@@ -12,6 +12,9 @@
 ## State Description
 The Dogfight Position (also known as the "Coyote" position) is a dynamic transitional state that typically arises from half guard when the bottom player secures an underhook and comes up to their knees. Both practitioners are facing the same direction in a kneeling position, with one player controlling their opponent's upper body through an underhook while the opponent attempts to counter with a whizzer (overhook). This position creates a critical junction point with multiple offensive pathways available to both practitioners, making it one of the most dynamic and contested positions in the half guard system.
 
+### Visual Description
+You are on your knees, facing the same direction as your opponent, with both of you in a dynamic, upright kneeling stance, engaged in a battle for control. Your inside arm is secured with a deep underhook around their torso, often reaching up to their far shoulder, giving you leverage to control their upper body, while your outside hand may grip their near-side arm or hip to limit their movement. Your head is positioned tight against their side or chest, acting as an additional point of control, with your knees spread for a strong base to maintain balance and drive forward. The opponent, also on their knees, counters with a whizzer (overhook) on your underhooking arm, attempting to pull you back down or disrupt your posture, creating a tense struggle where both of you are poised to transition to dominant positions like back control or top position through sweeps or takedowns.
+
 ## Key Principles
 - Establish and maintain a strong underhook for the primary attacker
 - Control opponent's near-side arm and hip
@@ -35,21 +38,21 @@ The Dogfight Position (also known as the "Coyote" position) is a dynamic transit
 - Connection at upper body and hip
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Strong Whizzer]] → [[Whizzer Control]]
-- [[Switch Base Direction]] → [[Dogfight Counter]]
-- [[Back Step]] → [[Reverse Half Guard]]
-- [[Sprawl and Pressure]] → [[Front Headlock]]
-- [[Limp Arm Escape]] → [[Standing Position]]
+- [[Strong Whizzer]] → [[Whizzer Control]] (Success Rate: 25%)
+- [[Switch Base Direction]] → [[Dogfight Counter]] (Success Rate: 20%)
+- [[Back Step]] → [[Reverse Half Guard]] (Success Rate: 20%)
+- [[Sprawl and Pressure]] → [[Front Headlock]] (Success Rate: 15%)
+- [[Limp Arm Escape]] → [[Standing Position]] (Success Rate: 20%)
 
 ## Offensive Transitions (Available From This State)
-- [[Dogfight Back Take]] → [[Back Control]]
-- [[Roll Under Sweep]] → [[Top Position]]
-- [[Knee Tap Takedown]] → [[Side Control]]
-- [[Dogfight to Single Leg]] → [[Single Leg Control]]
-- [[Transition to X-Guard]] → [[X-Guard]]
-- [[Modified Duck Under]] → [[Back Control]]
-- [[Switch to Single X]] → [[Single Leg X Guard]]
-- [[Dogfight to Mount]] → [[Mount]]
+- [[Dogfight Back Take]] → [[Back Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
+- [[Roll Under Sweep]] → [[Top Position]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
+- [[Knee Tap Takedown]] → [[Side Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
+- [[Dogfight to Single Leg]] → [[Single Leg Control]] (Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%)
+- [[Transition to X-Guard]] → [[X-Guard]] (Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%)
+- [[Modified Duck Under]] → [[Back Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
+- [[Switch to Single X]] → [[Single Leg X Guard]] (Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%)
+- [[Dogfight to Mount]] → [[Mount]] (Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%)
 
 ## Counter Transitions
 - [[Re-establish Dogfight]] → [[Dogfight Position]] (against counters)
@@ -62,18 +65,28 @@ The Dogfight Position (also known as the "Coyote" position) is a dynamic transit
 - **Eddie Bravo**: Incorporates the dogfight position within the 10th Planet system with unique control mechanisms focusing on head position and the "coyote" position. Often connects it directly to the truck position and twister side control rather than traditional back takes.
 
 ## Common Errors
-- Poor underhook depth → Reduced control effectiveness
-- Overcommitting to forward drive → Vulnerability to counters
-- Weak base positioning → Balance compromise
-- Head positioned too low → Defensive vulnerability
-- Neglecting whizzer pressure → Loss of positional control
+- **Error**: Poor underhook depth
+  - **Consequence**: Leads to reduced control effectiveness, as a shallow underhook fails to secure the opponent's torso, allowing them to counter easily.
+  - **Correction**: Ensure your underhook reaches deep around their torso, ideally to their far shoulder, to maximize control and leverage.
+- **Error**: Overcommitting to forward drive
+  - **Consequence**: Results in vulnerability to counters, as excessive forward momentum can be exploited by the opponent for sweeps or reversals.
+  - **Correction**: Drive forward with controlled pressure, maintaining balance and readiness to adjust if the opponent counters with a whizzer or base switch.
+- **Error**: Weak base positioning
+  - **Consequence**: Causes balance compromise, as narrow or unstable knees make it easy for the opponent to disrupt your posture or sweep you.
+  - **Correction**: Spread your knees wide for a strong base, ensuring stability and the ability to resist the opponent's pressure or counters.
+- **Error**: Head positioned too low
+  - **Consequence**: Leads to defensive vulnerability, as a low head position exposes you to front headlocks or guillotine attempts by the opponent.
+  - **Correction**: Keep your head tight against their side or chest, using it as a control point while protecting against submission threats.
+- **Error**: Neglecting whizzer pressure
+  - **Consequence**: Results in loss of positional control, as ignoring the opponent's whizzer allows them to pull you down or regain half guard.
+  - **Correction**: Actively counter their whizzer by driving into them or adjusting your underhook to neutralize their leverage and maintain dominance.
 
 ## Training Drills
-- Dogfight entry from half guard with progressive resistance
-- Transition flows between dogfight and related positions
-- Base and balance maintenance exercises
-- Counter-response drills to whizzer pressure
-- Back take and sweep combinations with resistance
+- **Dogfight Entry**: Practice dogfight entry from half guard with progressive resistance, focusing on securing a deep underhook and coming up to knees.
+- **Transition Flows**: Drill transition flows between dogfight and related positions like back control or X-Guard, ensuring smooth movement options.
+- **Base and Balance**: Work on base and balance maintenance exercises, enhancing stability on your knees to resist opponent counters.
+- **Counter-Response to Whizzer**: Engage in counter-response drills to whizzer pressure, learning to neutralize their overhook and maintain control.
+- **Back Take and Sweep Combos**: Train back take and sweep combinations with resistance, practicing multiple offensive outcomes from dogfight.
 
 ## Related States
 - [[Half Guard Bottom]] - Common entry position to dogfight
@@ -84,23 +97,28 @@ The Dogfight Position (also known as the "Coyote" position) is a dynamic transit
 
 ## Decision Tree
 If opponent applies heavy whizzer pressure:
-- Execute [[Roll Under Sweep]] or [[Switch to Deep Half]]
+- Execute [[Roll Under Sweep]] → [[Top Position]] (Probability: 35%)
+- Or Execute [[Switch to Deep Half]] → [[Deep Half Guard]] (Probability: 30%)
 
 Else if opponent's base is compromised forward:
-- Execute [[Dogfight Back Take]] or [[Modified Duck Under]]
+- Execute [[Dogfight Back Take]] → [[Back Control]] (Probability: 40%)
+- Or Execute [[Modified Duck Under]] → [[Back Control]] (Probability: 35%)
 
 Else if opponent stands to create space:
-- Execute [[Dogfight to Single Leg]] or [[Transition to X-Guard]]
+- Execute [[Dogfight to Single Leg]] → [[Single Leg Control]] (Probability: 30%)
+- Or Execute [[Transition to X-Guard]] → [[X-Guard]] (Probability: 30%)
 
 Else if opponent tries to switch base:
-- Execute [[Knee Tap Takedown]] or [[Roll Under Sweep]]
+- Execute [[Knee Tap Takedown]] → [[Side Control]] (Probability: 35%)
+- Or Execute [[Roll Under Sweep]] → [[Top Position]] (Probability: 30%)
 
 ## Position Metrics
-- Success Rate: 65% offensive advancement (competition data)
-- Average Time in Position: 10-30 seconds
-- Back Take Probability: 45%
-- Sweep Probability: 40%
-- Position Loss Probability: 25%
+- **Position Retention Rate**: Beginner 50%, Intermediate 65%, Advanced 75%
+- **Advancement Probability**: Beginner 40%, Intermediate 55%, Advanced 70%
+- **Escape Probability**: Beginner 35%, Intermediate 25%, Advanced 15%
+- **Back Take Probability**: Beginner 25%, Intermediate 40%, Advanced 55%
+- **Sweep Probability**: Beginner 20%, Intermediate 35%, Advanced 50%
+- **Average Time in Position**: 10-30 seconds
 
 ## Optimal Paths
 Primary back-taking path:

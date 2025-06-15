@@ -12,6 +12,9 @@
 ## State Description
 Back Control is widely considered the most dominant position in Brazilian Jiu-Jitsu. The practitioner controls the opponent from behind, with their chest against the opponent's back, legs wrapped around their waist (hooks), and arms controlling the upper body. This position offers exceptional attacking opportunities with minimal defensive risks, as the opponent cannot directly see or easily counter the attacks.
 
+### Visual Description
+You are positioned directly behind your opponent, with your chest pressed tightly against their back, ensuring a strong connection that limits their ability to turn or escape. Your legs are wrapped around their waist, with your feet hooked inside their thighs (hooks) or locked in a body triangle to control their hips and prevent movement. Your arms are typically in a harness grip, with one arm over their shoulder and the other under their armpit, hands clasped together near their chest to dominate their upper body. This setup creates a highly controlling environment where the opponent is facing away from you, unable to see your attacks, and severely restricted in their defensive options, making it ideal for setting up submissions like chokes or arm locks.
+
 ## Key Principles
 - Maintain chest-to-back connection at all times
 - Control opponent's hip movement with leg hooks or body triangle
@@ -33,19 +36,19 @@ Back Control is widely considered the most dominant position in Brazilian Jiu-Ji
 - Control of hips through hooks or body triangle
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Hand Fighting Defense]] → [[Escape Position]]
-- [[Hook Removal]] → [[Half Guard Recovery]]
-- [[Chair Sit Escape]] → [[Guard Recovery]]
-- [[Rolling Escape]] → [[Guard Recovery]] or [[Scramble]]
+- [[Hand Fighting Defense]] → [[Escape Position]] (Success Rate: 25%)
+- [[Hook Removal]] → [[Half Guard Recovery]] (Success Rate: 20%)
+- [[Chair Sit Escape]] → [[Guard Recovery]] (Success Rate: 15%)
+- [[Rolling Escape]] → [[Guard Recovery]] or [[Scramble]] (Success Rate: 10%)
 
 ## Offensive Transitions (Available From This State)
-- [[Rear Naked Choke]] → [[Won by Submission]]
-- [[Bow and Arrow Choke]] → [[Won by Submission]]
-- [[Armbar from Back]] → [[Armbar Control]]
-- [[Triangle from Back]] → [[Triangle Control]]
-- [[Transition to Mount]] → [[Mount]]
-- [[Crucifix Transition]] → [[Crucifix Control]]
-- [[Back Triangle]] → [[Triangle Control]]
+- [[Rear Naked Choke]] → [[Won by Submission]] (Success Rate: Beginner 60%, Intermediate 70%, Advanced 80%)
+- [[Bow and Arrow Choke]] → [[Won by Submission]] (Success Rate: Beginner 40%, Intermediate 50%, Advanced 60%)
+- [[Armbar from Back]] → [[Armbar Control]] (Success Rate: Beginner 30%, Intermediate 40%, Advanced 50%)
+- [[Triangle from Back]] → [[Triangle Control]] (Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%)
+- [[Transition to Mount]] → [[Mount]] (Success Rate: Beginner 35%, Intermediate 45%, Advanced 55%)
+- [[Crucifix Transition]] → [[Crucifix Control]] (Success Rate: Beginner 30%, Intermediate 40%, Advanced 50%)
+- [[Back Triangle]] → [[Triangle Control]] (Success Rate: Beginner 20%, Intermediate 30%, Advanced 40%)
 
 ## Counter Transitions
 - [[Re-establish Back Control]] → [[Back Control]] (against escape attempts)
@@ -58,18 +61,28 @@ Back Control is widely considered the most dominant position in Brazilian Jiu-Ji
 - **Eddie Bravo**: Incorporates unique control mechanisms such as the "Zombie Control" and modified harness grips. Focuses on the body triangle and creating angles for submissions, with an emphasis on unconventional finish variations like the "Invisible Collar" choke.
 
 ## Common Errors
-- Losing chest-to-back connection → Position compromise
-- High hooks that allow opponent to turn → Loss of control
-- Overcommitting to submission attempts → Escape opportunities
-- Poor harness control → Ineffective upper body control
-- Crossing feet in front of opponent → Vulnerability to leg locks
+- **Error**: Losing chest-to-back connection
+  - **Consequence**: Leads to position compromise as the opponent can turn to face you or initiate an escape.
+  - **Correction**: Maintain constant pressure with your chest against their back, adjusting your position to prevent any gaps.
+- **Error**: High hooks that allow opponent to turn
+  - **Consequence**: Results in loss of control as the opponent can rotate their hips and face you, potentially regaining guard.
+  - **Correction**: Keep your hooks deep inside their thighs or use a body triangle to lock their hips in place.
+- **Error**: Overcommitting to submission attempts
+  - **Consequence**: Creates escape opportunities as focusing too much on a submission can loosen your overall control.
+  - **Correction**: Prioritize positional control before attempting submissions, ensuring your hooks and harness grip are secure.
+- **Error**: Poor harness control
+  - **Consequence**: Leads to ineffective upper body control, allowing the opponent to hand-fight and defend submissions.
+  - **Correction**: Establish a strong harness grip with one arm over the shoulder and one under the armpit, clasping hands tightly.
+- **Error**: Crossing feet in front of opponent
+  - **Consequence**: Increases vulnerability to leg locks as the opponent can trap your feet and attack your legs.
+  - **Correction**: Avoid crossing your feet; instead, keep them hooked inside the thighs or locked in a body triangle behind the opponent.
 
 ## Training Drills
-- Back control maintenance against increasing resistance
-- Transition cycles between different back control variations
-- Hand fighting sequences and submission entries
-- Escape prevention and recovery drills
-- Body triangle control and pressure development
+- **Back Control Maintenance**: Practice back control maintenance against increasing resistance, focusing on chest-to-back connection and hook placement.
+- **Transition Cycles**: Drill transition cycles between different back control variations like hooks, body triangle, and technical back mount.
+- **Hand Fighting Sequences**: Work on hand fighting sequences and submission entries to break down opponent's defensive grips.
+- **Escape Prevention and Recovery**: Focus on escape prevention and recovery drills to counter opponent's attempts to turn or peel hooks.
+- **Body Triangle Control**: Develop body triangle control and pressure application to enhance hip control and submission setups.
 
 ## Related States
 - [[Back Mount]] - Back control with opponent flat on stomach
@@ -80,23 +93,27 @@ Back Control is widely considered the most dominant position in Brazilian Jiu-Ji
 
 ## Decision Tree
 If opponent defends neck with both hands:
-- Execute [[Arm Trap to RNC]] or [[Transition to Armbar]]
+- Execute [[Arm Trap to RNC]] → [[Rear Naked Choke]] (Probability: 65%)
+- Or Execute [[Transition to Armbar]] → [[Armbar Control]] (Probability: 40%)
 
 Else if opponent attempts to turn into you:
-- Execute [[Hip Switch]] → [[Technical Back Mount]]
+- Execute [[Hip Switch]] → [[Technical Back Mount]] (Probability: 50%)
+- Or Execute [[Transition to Mount]] → [[Mount]] (Probability: 45%)
 
 Else if opponent tries to peel hooks:
-- Execute [[Body Triangle]] or [[Switch to Crucifix]]
+- Execute [[Body Triangle]] → [[Back Control]] (Probability: 55%)
+- Or Execute [[Switch to Crucifix]] → [[Crucifix Control]] (Probability: 40%)
 
 Else (full control established):
-- Execute [[Rear Naked Choke]] or [[Bow and Arrow Choke]]
+- Execute [[Rear Naked Choke]] → [[Won by Submission]] (Probability: 75%)
+- Or Execute [[Bow and Arrow Choke]] → [[Won by Submission]] (Probability: 60%)
 
 ## Position Metrics
-- Success Rate: 90% retention (competition data)
-- Average Time in Position: 2-3 minutes
-- Submission Probability: 70%
-- Positional Advancement Probability: 20% (to mount/crucifix)
-- Position Loss Probability: 10%
+- **Position Retention Rate**: Beginner 80%, Intermediate 85%, Advanced 90%
+- **Advancement Probability**: Beginner 15%, Intermediate 20%, Advanced 25%
+- **Submission Probability**: Beginner 60%, Intermediate 70%, Advanced 80%
+- **Position Loss Probability**: Beginner 15%, Intermediate 10%, Advanced 5%
+- **Average Time in Position**: 2-3 minutes
 
 ## Optimal Submission Paths
 The shortest path to submission from this position:
@@ -107,6 +124,21 @@ High-percentage path:
 
 Alternative path:
 [[Back Control]] → [[Bow and Arrow Grip]] → [[Bow and Arrow Choke]] → [[Won by Submission]]
+
+## Timing Considerations
+- **Optimal Conditions**: Most effective when opponent's posture is broken and they are unable to turn, allowing for secure control and submission setups.
+- **Avoid When**: Less effective if opponent maintains strong defensive posture or controls your legs, increasing the risk of escape.
+- **Energy/Fatigue Factors**: Medium energy cost means it can be maintained for a long duration, but prolonged engagement can lead to fatigue in the legs and core.
+
+## Historical Context
+Back Control has been a fundamental dominant position in Brazilian Jiu-Jitsu since its inception, rooted in the Gracie family's emphasis on control and submission from the back. It gained prominence in early vale tudo and MMA fights, where controlling the back often led to decisive finishes via chokes. Modern BJJ has refined back control with systematic approaches like John Danaher's straitjacket system, making it a cornerstone of competitive grappling.
+
+## Ruleset Considerations
+The Back Control's application varies across competition rulesets:
+- **IBJJF**: Highly rewarded with 4 points for achieving back control with hooks, often a key position for securing victory through points or submission.
+- **ADCC**: Extremely effective due to the focus on submission finishes, with back control being a primary path to high-percentage chokes.
+- **Professional Submission-Only Formats**: Frequently used as the setup for complex submission chains, with transitions to crucifix or arm attacks being common.
+- **MMA**: Highly effective for control and submissions, though the risk of strikes during setup or if control is lost must be considered.
 
 ## Computer Science Analogy
 Back control can be modeled as a directed graph with high asymmetry, where the controlling player has many offensive edges (transitions to submissions) while the controlled player has very few viable escape edges. This makes back control a state with exceptional expected value when analyzed through a game theory lens.
