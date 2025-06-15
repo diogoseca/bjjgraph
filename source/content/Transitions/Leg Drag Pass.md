@@ -1,85 +1,55 @@
 # Leg Drag Pass
-#bjj #transition #guardpass #top
+#bjj #transition #guard_pass #offense #control
 
 ## Transition Properties
-- **Transition ID**: T702
-- **Starting State**: [[Headquarters Position]], [[Top Position]], or [[Open Guard Top]]
-- **Ending State**: [[Side Control]] or [[Back Control]]
-- **Success Probability**: Beginner (55%), Intermediate (75%), Advanced (90%)
+- **Transition ID**: T810
+- **Classification**: Offensive Guard Pass
+- **Starting Position**: [[Open Guard]] (top), [[De La Riva Guard]] (top)
+- **Target Position**: [[Side Control]], [[Back Control]]
+- **Success Probability**: Beginner (55%), Intermediate (70%), Advanced (85%)
 - **Execution Complexity**: Medium
-- **Physical Attributes**: Hip mobility (Medium), Upper body control (Medium)
+- **Physical Attributes**: Coordination (High), Timing (Medium), Strength (Medium)
+- **Risk Level**: Medium - potential exposure to sweeps or submissions if pass fails
+- **Energy Cost**: Medium - requires controlled movement and grip strength
+- **Transition Type**: Offensive Control Transition
 
 ## Transition Description
-The Leg Drag Pass is a modern, dynamic guard passing technique where the passer drags the opponent's leg across their body while establishing upper body control. This creates a position where the opponent's hips are turned away and their guard is compromised, allowing the passer to advance to a dominant position. The leg drag has become a fundamental passing technique in contemporary BJJ due to its versatility against various guard types and its ability to lead to either side control or back control, making it one of the most efficient passing systems in the art.
+The Leg Drag Pass is a dynamic guard passing technique in Brazilian Jiu-Jitsu (BJJ) used to transition from a top position in Open Guard or De La Riva Guard to a dominant control position like Side Control or even Back Control. This technique involves gripping and dragging one of the opponent's legs across their body to disrupt their guard structure, allowing the passer to bypass their defensive barriers and establish control on the opposite side. It is particularly effective against modern guard systems that rely on leg entanglements, embodying the BJJ principle of using leverage and positional manipulation to overcome resistance. The Leg Drag Pass is widely used in both gi and no-gi grappling, offering a versatile and powerful approach to guard passing.
+
+## Visual Execution Sequence
+Detailed description for clear visualization of the transition in action:
+
+Starting in top Open Guard, you are standing with your opponent on their back, their legs actively framing against your torso, with their right foot on your left hip and their left foot near your right thigh, while their hands grip your pants or sleeves to control your posture and set up sweeps or submissions. To initiate the Leg Drag Pass, you first establish a strong posture by straightening your back and keeping your elbows tucked, breaking their upper body control, while stepping slightly to your left to angle your body for the pass, preparing to target their right leg. You then secure a grip on their right pant leg near the ankle with your left hand, and with your right hand, control their right knee or shin to prevent it from re-entangling, as you pull their right leg across their body towards your right side, dragging it past their centerline and disrupting their guard alignment, feeling their hip rotation falter. With controlled force, you step forward with your right leg, placing your right knee near their right hip to pin their dragged leg in place, while simultaneously pushing their left leg down with your right hand or elbow to prevent it from blocking your path, sensing their guard structure collapse as their legs are misaligned. Mid-pass, you maintain your grip on their right leg, keeping it pinned across their body, and drop your hips low to apply pressure, sliding your torso past their remaining defenses, ensuring they cannot shrimp or recover guard as you clear their left leg with your body weight. You complete the pass by settling into Side Control on their right side, driving your chest into theirs, securing their head with your right arm and blocking their far hip with your left arm, or potentially circling to Back Control if they turn away to escape, having successfully bypassed their guard with a strategic leg drag. Throughout the movement, you remain aware of their attempts to re-guard or sweep, adjusting your grips and weight distribution to counter their defenses, demonstrating an effective offensive passing technique that transforms a complex guard position into dominant control in a calculated, leverage-driven sequence.
+
+**Template**: "From top Open Guard, standing, opponent on back, legs framing torso, right foot on left hip, left near right thigh, hands gripping pants or sleeves for control. Establish strong posture, straighten back, tuck elbows to break control, step left to angle for pass, target right leg. Grip right pant leg near ankle with left hand, control right knee with right hand to prevent entanglement, pull right leg across to right side, disrupt guard alignment. Step forward with right leg, place right knee near right hip to pin dragged leg, push left leg down with right hand or elbow to clear path, collapse guard structure. Maintain grip on right leg mid-pass, keep pinned across body, drop hips for pressure, slide torso past defenses, prevent guard recovery. Settle into Side Control on right, chest to chest, secure head with right arm, block far hip with left, or circle to Back Control if they turn, bypass guard with leg drag. Stay aware of re-guard or sweep attempts, adjust grips and weight to counter, transform complex guard into dominant control with calculated leverage."
 
 ## Execution Steps
-1. From a standing or combat base position, control one of opponent's legs
-2. Establish grip control on opponent's collar, sleeve, or upper body
-3. Drag opponent's leg across your body, typically across the thigh
-4. Control opponent's hip to prevent defensive movement
-5. Apply pressure to keep opponent's hips facing away
-6. Maintain control of opponent's upper body throughout the movement
-7. Step through to establish side control or transition to back
-8. Consolidate position with proper grips and pressure
+1. Begin in top Open Guard or De La Riva Guard, recognizing the opportunity to pass when the opponent's legs are accessible and their guard structure can be disrupted.
+2. Establish a strong posture by straightening your back and tucking your elbows in to break their grip control over your upper body, maintaining balance.
+3. Step to one side to angle your body for the pass, targeting one of their legs (typically the leg on the opposite side of your stepping direction) for the drag.
+4. Secure a grip on the targeted leg near the ankle with one hand, and control their knee or shin with your other hand to prevent re-entanglement, preparing to drag the leg across their body.
+5. Pull the targeted leg across their centerline towards the opposite side with force, disrupting their guard alignment, while stepping forward with your lead leg to place your knee near their hip, pinning the dragged leg in place.
+6. Push their other leg down with your free hand or elbow to clear the path, preventing it from blocking your advance, as you drop your hips low to apply pressure and slide your torso past their defenses.
+7. Maintain control of the dragged leg, keeping it pinned across their body, and complete the pass by settling into Side Control on the dragged leg’s side, securing their head and far hip, or circling to Back Control if they turn away.
+8. Remain aware of their defensive attempts like re-guarding or sweeping, adjusting your grips, weight distribution, and pressure to counter and consolidate the dominant position.
 
-## Key Grips/Controls
-- Control of opponent's pant leg or ankle
-- Collar or sleeve grip for upper body control
-- Hip control with free hand or forearm
-- Chest-to-chest connection during completion
-- Shoulder pressure to prevent opponent from turning back in
-- Body positioning to block opponent's hip mobility
+## Key Details
+- **Posture Maintenance**: Essential to break opponent’s upper body control and maintain balance.
+- **Angled Approach**: Stepping to one side creates a better angle for dragging the leg across.
+- **Grip Precision**: Secure grip on ankle and knee/shin to control and drag the leg effectively.
+- **Leg Drag Force**: Pull leg across centerline to disrupt guard structure and hip alignment.
+- **Knee Pinning**: Lead knee pins dragged leg to prevent recovery or re-entanglement.
+- **Secondary Leg Control**: Free hand or elbow pushes other leg to clear passing path.
+- **Hip Pressure**: Drop hips low post-drag to apply control and prevent shrimping.
+- **Positional Awareness**: Adjust for opponent’s turning to secure Side Control or Back Control.
 
-## Common Counters
-- [[Inversion Defense]] → [[Inverted Guard]]
-- [[Underhook Recovery]] → [[Half Guard Bottom]]
-- [[Shin Shield]] → [[Shin-to-Shin Guard]]
-- [[Berimbolo Counter]] → [[Back Control]]
-- [[Granby Roll]] → [[Guard Recovery]]
+## Success Modifiers
+Factors that influence the success rate of the transition:
+- **Posture Strength**: Ability to break opponent’s control and maintain balance (+12%)
+- **Grip Effectiveness**: Secure control of targeted leg for dragging (+10%)
+- **Timing Precision**: Executing during opponent’s guard adjustment or weak framing (+8%)
+- **Hip Pressure Application**: Dropping weight to pin dragged leg and prevent recovery (+7%)
+- **Experience Level**: Familiarity with guard passing mechanics and counters (+5% per skill level)
 
-## Variants
-- Traditional leg drag (cross-body control)
-- Modified leg drag (lapel control)
-- Standing leg drag
-- Double-under leg drag
-- Leg drag to back take
-- Leg drag to mount
-- No-gi leg drag variations
-- Reverse leg drag
-
-## Expert Insights
-- **Danaher System**: Emphasizes the leg drag as a systematic approach to neutralizing guard retention mechanics, focusing on precise control points that limit the opponent's hip mobility while maintaining proper base throughout the pass. Creates clear mechanical principles for managing the opponent's defensive frames and preventing common counter-attacks.
-- **Gordon Ryan**: Utilizes the leg drag extensively within an integrated passing system, emphasizing the importance of head position and shoulder pressure during the final stages of the pass. Often connects the leg drag to back takes rather than traditional side control finishes, particularly when opponents turn away defensively.
-- **Eddie Bravo**: Has adapted the leg drag principles to his no-gi 10th Planet system with modified gripping strategies and connections to his specialized control positions. Emphasizes using the leg drag as a pathway to the truck position and other 10th Planet-specific control points.
-
-## Timing Considerations
-- Execute when opponent's legs are extended or separated
-- Time with opponent's attempt to establish a specific guard
-- Perform after breaking opponent's grips
-- Implement when opponent shifts weight to one side
-- Use as counter to specific guard recovery attempts
-
-## Follow-up Options
-- [[Side Control Consolidation]] → [[Side Control]]
-- [[Transition to Mount]] → [[Mount]]
-- [[Back Step]] → [[Back Control]]
-- [[Kimura Trap]] → [[Kimura Control]]
-- [[North-South Transition]] → [[North-South]]
-- [[Knee Cut Combination]] → [[Knee Cut Pass]]
-
-## Video References
-- Rafael Mendes' Art of Leg Drag instructional
-- Lucas Lepri's competition leg drag highlight
-- Leandro Lo's guard passing systems
-- Gui Mendes' competition passing sequences
-- Mikey Musumeci's modern leg drag variations
-
-## Common Errors
-- Insufficient upper body control → Guard recovery opportunity
-- Poor pressure during transition → Space creation
-- Improper angle of attack → Inefficient mechanics
-- Losing control of opponent's leg → Pass stalling
-- Failing to address defensive frames → Technical barriers
-
-## Computer Science Analogy
-The Leg Drag Pass functions as an optimized algorithm in the BJJ state graph that effectively addresses multiple defensive states simultaneously. It implements a form of "parallel constraint satisfaction" by controlling both the opponent's legs and upper body while creating a geometric configuration that systematically eliminates defensive options. This creates a highly efficient state transition with exceptional success probability due to its ability to address multiple defensive scenarios through a single coherent passing structure.
+## Common Counters and Counter-Attacks
+Analysis of

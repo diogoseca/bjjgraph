@@ -1,115 +1,52 @@
 # Hip Escape
-#bjj #transition #fundamental #defensive #escape
+#bjj #transition #defense #movement #escape
 
 ## Transition Properties
-- **Transition ID**: T901
-- **Starting State**: [[Side Control]], [[Mount]], [[Bottom Position]], or various bottom defensive positions
-- **Ending State**: [[Guard Recovery]], [[Half Guard Bottom]], or improved defensive position
-- **Success Probability**: Beginner (60%), Intermediate (80%), Advanced (95%)
-- **Execution Complexity**: Low to Medium
-- **Physical Attributes**: Hip mobility (High), Core strength (Medium), Timing (Medium)
+- **Transition ID**: T807
+- **Classification**: Defensive Movement
+- **Starting Position**: [[Side Control]] (defending), [[Mount]] (defending), or [[North-South]] (defending)
+- **Target Position**: [[Guard Position]], [[Half Guard]], or [[Neutral Position]]
+- **Success Probability**: Beginner (65%), Intermediate (80%), Advanced (90%)
+- **Execution Complexity**: Low
+- **Physical Attributes**: Coordination (Medium), Mobility (High), Timing (Medium)
+- **Risk Level**: Low - minimal exposure if executed correctly
+- **Energy Cost**: Medium - requires sustained effort for hip movement
+- **Transition Type**: Defensive Escape
 
 ## Transition Description
-The Hip Escape (also known as "shrimping" or "elbow-knee escape") is a fundamental movement pattern in BJJ that creates space by moving the hips away from an opponent. This core defensive movement serves as the foundation for numerous escapes, guard recoveries, and positional improvements from bottom positions. The Hip Escape represents one of the most essential and frequently used transitions in BJJ, functioning as a primary mechanism for creating the space necessary to insert defensive frames, establish guards, or initiate more complex escape sequences. Mastery of this transition is considered mandatory for all BJJ practitioners regardless of level, as it forms the biomechanical basis for defensive movement throughout the entire art.
+The Hip Escape, often referred to as "shrimping," is a fundamental defensive movement in Brazilian Jiu-Jitsu (BJJ) used to create space and escape from bottom positions such as Side Control, Mount, or North-South. This technique relies on hip mobility and framing to push the opponent away, allowing the defender to recover guard or transition to a more neutral position. It is one of the first escapes taught to beginners due to its simplicity and effectiveness, embodying the BJJ principle of using leverage and movement over strength. The Hip Escape is essential for survival in grappling, providing a systematic way to regain control from inferior positions.
+
+## Visual Execution Sequence
+Detailed description for clear visualization of the transition in action:
+
+Trapped under your opponent's Side Control, you lie on your back with their chest pressing down on your torso, their right arm under your head controlling your upper body, and their left arm blocking your hip, pinning you to the mat with significant pressure. To initiate the Hip Escape, you first turn slightly onto your left side, framing with your left forearm against their neck and your left knee bent, creating a barrier to prevent them from flattening you completely. You plant your right foot firmly on the mat, using it as a pivot point, and push off with power to slide your hips to the right, away from their control, while simultaneously pulling with your left frame to create space between your bodies. As your hips move, you swing your left leg across to insert it between you and your opponent, aiming to place your shin or knee as a shield, further disrupting their ability to maintain close contact. Continuing the motion, you drag your right leg back towards your body, pulling it under your left leg if possible, to establish a guard position, while keeping your elbows tight to protect against submissions during the transition. You complete the escape by squaring up to face your opponent, now with your legs between you, having successfully transitioned to a closed or open guard, or at least to half guard, using the space created by the hip movement to reset the engagement. Throughout the process, you maintain constant pressure with your frames and active hip movement, ensuring your opponent cannot easily re-establish control, demonstrating a core defensive skill that turns a pinned position into an opportunity for recovery.
+
+**Template**: "Under Side Control, on back, opponent’s chest on torso, right arm under head, left blocking hip, pinning with pressure. Turn onto left side, frame left forearm on neck, bend left knee as barrier. Plant right foot, push off to slide hips right, pull with left frame for space. Swing left leg across as shield, disrupting contact. Drag right leg back under left to establish guard, elbows tight for protection. Square up, legs between, transition to guard or half guard, using hip space to reset. Maintain frame pressure and active hips, prevent re-control, turn pinned position into recovery opportunity."
 
 ## Execution Steps
-1. Establish initial frame against opponent's pressure points (typically shoulder/hip)
-2. Position inside elbow close to body, protecting the space between arm and torso
-3. Bring knees toward chest, placing feet flat on mat for maximum leverage
-4. Bridge hips slightly upward to reduce friction against the mat
-5. Push with framing arm while simultaneously driving feet to move hips away from opponent
-6. Maintain strong frames throughout the movement to prevent opponent from following
-7. Once sufficient space is created, insert knee or additional frames to secure position
-8. Immediately capitalize on created space with appropriate follow-up (guard recovery, etc.)
+1. Recognize the pinned position, such as Side Control or Mount, where hip escape is necessary to create space and recover guard.
+2. Turn onto your side facing away from the opponent’s primary control, using your forearm and knee to frame against their neck and hip for initial space.
+3. Plant the foot on the side you’re escaping towards firmly on the mat, using it as a pivot to generate pushing power.
+4. Push off with the planted foot to slide your hips away from the opponent, simultaneously pulling with your framing arm to maximize distance.
+5. Swing your framing leg across to insert it between you and the opponent, creating a barrier with your shin or knee to prevent re-control.
+6. Drag your other leg back towards your body, pulling it under the framing leg if possible, to establish a guard or half guard position.
+7. Square up to face your opponent, ensuring your legs are between you to maintain defensive control, transitioning to Guard Position or Half Guard.
+8. Maintain active framing and hip movement throughout to prevent the opponent from closing the space or re-establishing dominance.
 
 ## Key Details
-- **Frame Maintenance**: Frames must remain strong throughout movement to prevent opponent from collapsing space
-- **Hip Drive Direction**: Movement should be diagonal rather than directly lateral for maximum efficiency
-- **Foot Positioning**: Feet placed flat with good surface contact for optimal pushing power
-- **Timing Coordination**: Frame push and hip movement must occur simultaneously
-- **Momentum Conservation**: Use minimal energy by employing proper biomechanics
-- **Space Recognition**: Understanding the precise amount of space needed for follow-up actions
-- **Bridge Integration**: Slight bridge before movement reduces friction and enhances mobility
-- **Head Position**: Head remains on mat to maximize hip elevation
+- **Side Orientation**: Turn onto side to reduce opponent’s pinning surface area.
+- **Framing Structure**: Use forearm and knee to create initial space against opponent’s control.
+- **Foot Placement**: Plant foot securely for strong pushing leverage.
+- **Hip Mobility**: Slide hips away using leg power, not upper body strength.
+- **Leg Insertion**: Insert knee or shin as barrier to block opponent’s advance.
+- **Guard Recovery**: Pull second leg into position to establish guard framework.
+- **Constant Pressure**: Keep framing active to prevent opponent collapsing space.
+- **Body Alignment**: Square up post-escape to face opponent for defensive readiness.
 
-## Common Counters
-- [[Forward Pressure]] → [[Flattened Position]]
-- [[Hip Following]] → [[Side Control Consolidation]]
-- [[Cross-Face Control]] → [[Mobility Restriction]]
-- [[Far Arm Control]] → [[Limited Frame Creation]]
-- [[Knee Through]] → [[Knee Cut Position]]
-- [[Shoulder Pressure]] → [[Limited Hip Mobility]]
-
-## Variants
-- Standard Hip Escape (from side control)
-- Mount Hip Escape (escaping mount position)
-- Double Hip Escape (continuous repeated movement)
-- Defensive Hip Escape (priority on creating defensive frames)
-- Offensive Hip Escape (creating space for guard attacks)
-- Bridge-integrated Hip Escape (elevated variant)
-- No-arm Hip Escape (when arms are controlled)
-- Tactical Hip Escape (minimal movement for specific purpose)
-
-## Expert Insights
-- **Danaher System**: Emphasizes the Hip Escape as the foundational defensive movement that enables all other defensive sequences. Focuses on precise mechanical details like the exact angle of hip movement, the relationship between framing and hip direction, and the sequencing of movement. Particularly emphasizes the principle of "space creation before position recovery" where the hip escape creates the necessary space that enables subsequent guard recovery movements.
-- **Gordon Ryan**: Approaches the Hip Escape as an essential component in defensive chains rather than an isolated technique. Emphasizes context-specific application based on opponent's pressure direction and control mechanisms. Places particular focus on timing the hip escape with momentary pressure reductions or weight shifts from the opponent, using minimal efficient movement rather than explosive action.
-- **Eddie Bravo**: Has adapted the traditional Hip Escape to complement his 10th Planet system, particularly in creating the space necessary to enter specific guards like rubber guard or mission control. Emphasizes how small, tactical hip escapes can create just enough space to insert specialized hooks or grips that might be missed by an opponent focused on traditional control.
-
-## Timing Considerations
-- Execute during momentary pressure reductions from opponent
-- Time with opponent's weight shifts or transitions
-- Perform immediately when opponent's control is not fully consolidated
-- Implement as a preemptive movement when anticipating pressure
-- Use as a recovery mechanism after failed sweeps or transitions
-- Coordinate with opponent's grip adjustments or focus shifts
-
-## Setup Connections
-- [[Frame Creation]] → [[Hip Escape]]
-- [[Bridge Movement]] → [[Hip Escape]]
-- [[Defensive Posture]] → [[Hip Escape]]
-- [[Space Recognition]] → [[Hip Escape]]
-- [[Weight Shift Identification]] → [[Hip Escape]]
-
-## Follow-up Options
-- [[Guard Recovery]] → [[Closed Guard Bottom]] or [[Open Guard Bottom]]
-- [[Half Guard Insertion]] → [[Half Guard Bottom]]
-- [[Technical Stand-up]] → [[Standing Position]]
-- [[Turtle Transition]] → [[Turtle Position]]
-- [[Elbow Push Escape]] → [[Side Control Escape]]
-- [[Knee Shield Establishment]] → [[Knee Shield Half Guard]]
-
-## Common Errors
-- Insufficient initial framing → Ineffective space creation
-- Moving hips before establishing frames → Space immediately retaken
-- Pushing directly against opponent's power → Energy inefficiency
-- Improper foot placement → Poor leverage for hip movement
-- Telegraphed movement → Opponent anticipates and counters
-- Hesitation in follow-up action → Space advantage lost
-- Excessive movement amplitude → Energy waste and vulnerability
-- Insufficient hip mobility → Limited escape effectiveness
-
-## Performance Tips
-- Practice fluid continuous movement rather than segmented actions
-- Focus on creating only the minimum space necessary for your purpose
-- Develop sensitivity to opponent's weight distribution and pressure
-- Train graduated resistance to develop precise force application
-- Emphasize hip dexterity and mobility in supplemental training
-- Practice linking hip escapes with appropriate follow-up movements
-- Develop awareness of space thresholds for various techniques
-
-## Training Approaches
-- Solo shrimping drills to build movement patterns
-- Partner resistance drills with progressive difficulty
-- Timing drills focusing on weight shift recognition
-- Scenario-specific escape sequences from various positions
-- Continuous movement challenges for endurance
-- Reaction-based practice with unpredictable pressure
-
-## Historical Context
-The Hip Escape represents one of the core movements emphasized in traditional Gracie Jiu-Jitsu from its earliest development. Helio Gracie considered this movement essential for smaller practitioners to create space against larger opponents, making it a cornerstone of his system's emphasis on efficiency and leverage. The movement pattern has been preserved through generations of instruction as a fundamental survival skill, though the mechanical understanding and application contexts have become increasingly sophisticated. In modern BJJ, the hip escape has evolved from a simple defensive maneuver into a precise tactical tool with specialized application in numerous contextual scenarios.
-
-## Conceptual Framework
-The Hip Escape exemplifies the core BJJ principle of creating space to enable position improvement. It demonstrates how proper biomechanical understanding creates a foundation upon which all defensive BJJ is built. This movement pattern illustrates the fundamental concept of space as a resource that must be tactically managed, created, and exploited throughout grappling exchanges. The hip escape embodies the essence of defensive grappling: using efficient movement to create just enough space to establish improved position, without generating excess movement that creates vulnerability.
-
-## Computer Science Analogy
-The Hip Escape functions as a "defensive resource allocation algorithm" in the BJJ state machine, optimizing the distribution of limited resources (space, frames, energy) to prevent the system from entering failure states. It implements a form of "preemptive scheduling" where critical defensive resources are deployed to prevent deadlock (immobilization) scenarios before they fully manifest. This creates an "escape vector" on the BJJ state graph, providing a probabilistic path from disadvantageous nodes back to neutral or advantageous positions through minimal state transitions, similar to how error recovery protocols restore system functionality with minimal overhead after detecting potential failure conditions.
+## Success Modifiers
+Factors that influence the success rate of the transition:
+- **Framing Effectiveness**: Strong forearm and knee frames to create initial space (+15%)
+- **Hip Mobility**: Fluid and powerful hip sliding movement (+12%)
+- **Timing Precision**: Executing during opponent’s weight shift or adjustment (+10%)
+- **Leg Insertion Speed**: Quick placement of shielding leg to block re-control (+8%)
+- **Experience Level**: Familiarity with escape mechanics and guard recovery (+5

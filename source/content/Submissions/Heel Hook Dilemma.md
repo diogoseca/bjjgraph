@@ -1,101 +1,145 @@
 # Heel Hook Dilemma
-#bjj #submission #chain #leglocks #heel_hook #saddle
+#bjj #submission #leglock #heel_hook #rotational_lock
 
-## Chain Properties
-- **Chain ID**: SC003
-- **Primary Submissions**: [[Inside Heel Hook]], [[Outside Heel Hook]], [[Ankle Lock]], [[Knee Bar]]
-- **Starting Positions**: [[Inside Sankaku]], [[Ashi Garami]], [[50-50 Guard]], [[Backside 50-50]]
-- **Difficulty Level**: Advanced
-- **Strategic Value**: High
+## Required Properties for State Machine
 
-## Chain Description
-The Heel Hook Dilemma represents a sophisticated attack framework centered around rotational leg locks, primarily the inside and outside heel hook variations. This submission chain creates a strategic problem for defenders by establishing leg entanglement positions from which multiple submission threats can be applied based on defensive reactions. Unlike linear leg locks that rely primarily on hyperextension (such as straight ankle locks and knee bars), the rotational mechanics of heel hooks create unique defensive challenges that form the foundation of this attacking system.
+### Core Identifiers
+- **Submission ID**: S107
+- **Submission Name**: Heel Hook Dilemma (Primary: Inside Heel Hook)
+- **Alternative Names**: Honey Hole Heel Hook, Inside Rotational Lock
 
-What makes the Heel Hook Dilemma particularly effective is the biomechanical relationship between defensive movements and attacking opportunities. When a defender addresses one heel hook threat, their defensive movements often expose vulnerability to another variation or complementary submission. This creates a recursive problem with no perfect defensive solution—each protection mechanism inherently opens a new attacking vector.
+### State Machine Properties
+- **Starting State**: [[Inside Sankaku]], [[Ashi Garami]], [[50-50 Guard]]
+- **Ending State**: [[Won by Submission]]
+- **Submission Type**: Joint Lock - Targets knee and ankle via rotational pressure
 
-The system operates from several key leg entanglement positions, each offering specific advantages and submission pathways. The Inside Sankaku (Honey Hole/411) provides the strongest inside heel hook mechanics, while the 50-50 position offers powerful outside heel hook opportunities. The Backside 50-50 creates exceptional control for the outside heel hook with reduced defensive options. Together, these positions form a comprehensive framework that allows practitioners to seamlessly transition between attacks based on defensive feedback, creating an attacking ecosystem that systematically breaks down even sophisticated defensive structures.
+### Submission Properties
+- **Success Probability**: Beginner 30%, Intermediate 55%, Advanced 80% - core probability data
+- **Execution Complexity**: High - technical difficulty assessment
+- **Energy Cost**: Medium - physical demand of execution
+- **Time Required**: Short - duration of submission attempt
+- **Risk Level**: High - chance of position loss if failed and potential for injury
 
-## Core Mechanical Principles
-- **Rotational Control**: Establishing and maintaining rotational pressure on the knee structure
-- **Hip Isolation**: Controlling opponent's hip to prevent defensive rotation
-- **Knee Line Maintenance**: Keeping optimal pressure on the knee line to prevent escape
-- **Heel Exposure**: Creating and maintaining access to the heel as the primary control point
-- **Entanglement Transitions**: Seamlessly moving between leg entanglement positions
-- **Defensive Anticipation**: Recognizing and exploiting predictable defensive patterns
-- **Sequential Pressure**: Building cumulative pressure through progressive threat application
-- **Hip Mobility**: Using hip movement to generate leverage and create submission angles
+### Physical Requirements
+- **Strength Requirements**: Medium for grip and rotational control
+- **Flexibility Requirements**: Medium for hip mobility in entanglement
+- **Coordination Requirements**: High for precise heel grip and leg positioning
+- **Endurance Requirements**: Low for quick execution
 
-## Submission Sequence
-1. **Primary Attack**: [[Inside Heel Hook]]
-   - Execution focus: Establishing proper Inside Sankaku control and figure-four grip on heel
-   - Defensive triggers: Opponent rotates knee line or attempts to hide heel
+## State Machine Content Elements
 
-2. **Secondary Attack**: [[Outside Heel Hook]]
-   - Transition mechanics: Adjust leg position to capture outside rotation while maintaining heel grip
-   - Execution focus: Creating rotational pressure in opposite direction with proper upper body positioning
+### Visual Execution Sequence
+Detailed step-by-step description for clear movement sequence visualization:
 
-3. **Tertiary Attack**: [[Ankle Lock]]
-   - Transition mechanics: Adjust grip from heel to ankle while maintaining leg entanglement
-   - Execution focus: Applying linear pressure to ankle joint while controlling opponent's hip
+From a leg entanglement position such as Inside Sankaku (also known as Honey Hole or 411), Ashi Garami, or 50-50 Guard, initiate the Inside Heel Hook by securing control over the opponent's leg, isolating their hip to prevent defensive rotation, and establishing a figure-four grip on their heel with your arms. Position your legs to maintain the knee line, ensuring the opponent's knee is aligned for rotational pressure, with your inside leg often trapping their thigh and your outside leg controlling their hip or ankle. Grip the heel tightly, ensuring the heel is exposed and not hidden by their other leg, using your hands to pull it towards your chest or shoulder to create leverage. Apply rotational force by turning your body or hips, directing pressure inward to torque the knee and ankle joints, while keeping their hip immobilized to prevent escape. Maintain this control and increase the rotational pressure steadily until the opponent submits due to the intense strain on the knee ligaments.
 
-## Decision Tree
-- If opponent defends inside heel hook by rotating knee outward → Transition to [[Outside Heel Hook]]
-- If opponent defends inside heel hook by hiding heel → Establish deeper [[Inside Sankaku]] or transition to [[Ankle Lock]]
-- If opponent defends outside heel hook by rotating knee inward → Transition to [[Inside Heel Hook]]
-- If opponent defends by extending leg → Transition to [[Knee Bar]]
-- If opponent attempts to stand from 50-50 → Maintain grip and execute [[Standing Heel Hook]]
-- If opponent attempts to disengage legs entirely → Transfer to [[Ankle Lock]] or [[X-Guard]] sweep
-- If opponent turns away to alleviate pressure → Transition to [[Back Control]]
+**Template**: "From Inside Sankaku or similar, isolate leg and hip, secure figure-four heel grip. Position legs for knee line control, trap thigh and hip. Grip heel tightly, pull towards chest. Apply inward rotational force with body turn until submission."
 
-## Expert Insights
-- **Danaher System**: John Danaher revolutionized modern leglocking by developing a systematic approach that emphasizes control before submission. His methodology focuses on establishing dominant leg entanglement positions (particularly Inside Sankaku) that provide maximum control while minimizing defensive options. Danaher emphasizes understanding the mechanical relationship between different heel hook variations, viewing them as complementary attacks that exploit the same fundamental vulnerability from different angles. His system prioritizes breaking defensive structures through progressive control advancement rather than explosive submission attempts.
+### Execution Steps (Numbered Sequence)
+1. **Setup Requirements**: Establish leg entanglement ([[Inside Sankaku]], [[Ashi Garami]], [[50-50 Guard]])
+2. **Initial Movement**: Isolate opponent's hip and secure figure-four grip on heel
+3. **Opponent Response**: Opponent may attempt to rotate knee or hide heel
+4. **Adaptation**: Position legs to maintain knee line, trap thigh and control hip
+5. **Positioning**: Grip heel tightly, pull towards chest or shoulder for leverage
+6. **Pressure Application**: Apply inward rotational force by turning body or hips
+7. **Completion**: Increase rotational pressure until submission
 
-- **Gordon Ryan**: As Danaher's most accomplished student, Ryan has refined the heel hook dilemma to exceptional effectiveness in competition. His approach emphasizes creating and maintaining exceptional control in entanglement positions, often waiting patiently for subtle defensive errors rather than forcing submissions. Ryan particularly focuses on the transitions between Inside Sankaku and 50-50 positions, creating seamless adjustments based on defensive feedback. His application emphasizes small technical adjustments that incrementally improve position until the submission becomes inevitable.
+### Key Technical Details
+Critical elements that determine success:
+- **Grip Requirements**: Secure figure-four grip on heel to prevent slipping
+- **Base/Foundation**: Leg positioning to maintain knee line and hip control
+- **Timing Windows**: Execute when opponent's leg is entangled and hip isolated
+- **Leverage Points**: Rotational torque on knee and ankle via heel grip
+- **Common Adjustments**: Adjust grip and body angle based on defensive rotations
 
-- **Eddie Bravo**: While less focused on leg locks than the Danaher system, Bravo has incorporated key heel hook variations into his 10th Planet system, particularly through his "Lockdown" and "Rubber Guard" frameworks. His approach often emphasizes using leg entanglements as transitional threats rather than primary submissions, creating opportunities to return to his preferred upper body attacking systems. When utilizing heel hooks, Bravo emphasizes unorthodox entries and setups that integrate with his overall positional approach.
+### Success Modifiers
+Factors that increase/decrease probability:
+- **Setup Quality**: Security of heel grip and hip isolation (+/-20%)
+- **Timing Precision**: Executing when leg is entangled and hip isolated (+/-15%)
+- **Opponent Fatigue**: Reduced defensive mobility over time (+/-5%)
+- **Knowledge Test Performance**: Understanding heel hook mechanics (+/-10%)
+- **Positional Control**: Effectiveness of knee line maintenance (+/-10%)
 
-## Setup Positions
-- [[Single Leg X-Guard]] → Hip elevation → [[Inside Sankaku]]
-- [[50-50 Guard]] → Heel exposure → [[Outside Heel Hook]]
-- [[Butterfly Guard]] → Off-balancing → [[Ashi Garami]]
-- [[De La Riva Guard]] → Leg drag prevention → [[Backside 50-50]]
-- [[Reverse De La Riva Guard]] → Inversion → [[Inside Sankaku]]
-- [[K-Guard]] → Leg elevation → [[Outside Ashi]]
+## Counter-Attack Analysis
 
-## Common Defensive Reactions
-- Knee rotation (external) → Transition from inside to outside heel hook
-- Knee rotation (internal) → Transition from outside to inside heel hook
-- Heel hiding (tucking foot) → Deepen entanglement or switch to ankle lock
-- Hip elevation (bridging) → Adjust angle and maintain heel exposure
-- Standing attempt → Maintain grip and follow with appropriate entanglement
-- Leg extension → Transfer to knee bar or straight ankle lock
-- Forward pressure (smashing) → Use momentum for sweep or back exposure
+### Common Counters
+Opponent responses with success rates:
+- **Knee Rotation Outward**: Rotating knee outward to relieve pressure → [[Rotation Defense]] (Success Rate: 25%, Conditions: early reaction)
+- **Heel Hiding**: Tucking foot to hide heel → [[Heel Protection]] (Success Rate: 20%, Conditions: quick adjustment)
+- **Hip Elevation**: Bridging to create space → [[Space Creation]] (Success Rate: 15%, Conditions: strong base)
+- **Standing Attempt**: Standing to escape entanglement → [[Position Escape]] (Success Rate: 10%, Conditions: explosive movement)
+- **Leg Extension**: Extending leg to reduce torque → [[Extension Defense]] (Success Rate: 10%, Conditions: immediate action)
 
-## Training Methodology
-- Positional sparring from specific leg entanglements
-- Heel grip maintenance drills with progressive resistance
-- Transition flows between different leg entanglement positions
-- Defensive recognition and counter training
-- Heel exposure and recapture drills
-- Video analysis of high-level competition applications
-- Controlled training with emphasis on safety and tap recognition
+Format: `[[Counter Technique]] → [[Result State]] (Success Rate: X%, Conditions: [when applicable])`
 
-## Competition Application
-The Heel Hook Dilemma has fundamentally transformed the competitive landscape of submission grappling, particularly in no-gi formats where heel hooks are legal. Its effectiveness in high-level competition stems from creating unsolvable defensive problems—when a competitor defends one heel hook variation, they inherently expose themselves to another.
+### Decision Logic for Opponent Behavior
+```
+If [inside heel hook setup] is not fully secured:
+- Execute [[Knee Rotation Outward]] (Probability: 25%)
 
-Analysis of ADCC and EBI competition footage reveals that successful heel hook specialists rarely finish with their initial attack. Instead, the submission typically comes from secondary or tertiary attacks that become available after the opponent commits to defending the primary threat. This demonstrates the dilemma's core strategic value—forcing defensive commitments that inevitably create new vulnerabilities.
+Else if [heel hiding] protects heel:
+- Execute [[Heel Hiding]] (Probability: 20%)
 
-The system demonstrates particularly high success rates in no-gi competition where the lack of friction allows for smoother transitions between entanglement positions. In gi competition, where applicable under certain rulesets, the system requires modification to account for friction and gripping options, but the fundamental mechanical principles remain effective.
+Else if [hip elevation] creates space:
+- Execute [[Hip Elevation]] (Probability: 15%)
 
-At elite levels, the Heel Hook Dilemma often creates scenarios where competitors must choose between conceding position (standing up or disengaging) or risking submission, creating strategic advantages beyond the direct submission threat. The psychological pressure of defending connected heel hook threats tends to compromise overall strategic decision-making, creating advantages that extend beyond the leg attack system itself.
+Else if [standing attempt] escapes entanglement:
+- Execute [[Standing Attempt]] (Probability: 10%)
 
-## Computer Science Analogy
-The Heel Hook Dilemma exemplifies a classic "minimax problem" in algorithmic decision theory, where the defender must minimize their maximum vulnerability across multiple attack vectors. This creates a computational challenge similar to adversarial search problems in artificial intelligence.
+Else [optimal submission execution]:
+- Accept submission (Probability: Success Rate - Modifiers)
+```
 
-From a state machine perspective, the system establishes a directed graph where nodes represent entanglement positions and edges represent transitions between them. What makes this graph particularly powerful is that it contains multiple "terminal nodes" (submissions) that can be reached from several different paths, creating redundancy that ensures the system's robustness against defensive countermeasures.
+## Defensive Considerations
 
-The relationship between inside and outside heel hooks represents a form of "complementary optimization," where defenses against one attack inherently create optimization opportunities for the alternative attack. This creates a situation analogous to certain NP-hard problems in computer science, where no efficient solution exists—the defender cannot simultaneously optimize protection against both attack vectors without compromise.
+### Common Threats During Attempt
+Primary risks while attempting this submission:
+- **Rotation Defense**: Opponent rotates knee outward → [[Rotation Defense]] (Threat Level: Medium)
+- **Heel Protection**: Opponent hides heel → [[Heel Protection]] (Threat Level: Medium)
+- **Space Creation**: Opponent bridges to create space → [[Space Creation]] (Threat Level: Low)
+- **Position Escape**: Opponent stands to escape → [[Position Escape]] (Threat Level: Low)
 
-The system also demonstrates the concept of "search space pruning" in computer science. By establishing dominant entanglement positions that limit the defender's mobility, the attacker effectively reduces the defensive search space, forcing the defender to explore a constrained set of options that can each be countered optimally. This creates a situation where the attacker can maintain an information and control advantage throughout the decision sequence.
+Format: `[[Threat Type]] → [[Resulting Position]] (Threat Level: X)`
 
-From a machine learning perspective, the Heel Hook Dilemma represents an optimal policy in a partially observable Markov decision process, where the attacker's understanding of biomechanical relationships allows them to make high-percentage decisions based on limited information about the defender's intentions. This creates an attacking framework that can adapt to defensive strategies in real-time, making it exceptionally difficult to construct a comprehensive defensive solution.
+### Defensive Strategies
+Methods to mitigate threats:
+- **Heel Grip**: Maintain tight grip on heel to prevent hiding
+- **Hip Control**: Keep opponent's hip immobilized to counter rotation
+- **Knee Line**: Secure knee line with legs to block bridging
+- **Entanglement Maintenance**: Adjust entanglement to prevent standing escape
+- **Adaptation Readiness**: Be prepared to switch to other leg locks if heel hook fails
+
+## Educational Content
+
+### Expert Insights
+Commentary as if from recognized authorities:
+- **John Danaher**: "The Inside Heel Hook is central to my leg lock system, emphasizing control before submission. Establishing dominant entanglement like Inside Sankaku maximizes control and minimizes defensive options."
+- **Gordon Ryan**: "I focus on patient control in heel hook positions, waiting for subtle defensive errors. Transitions between Inside Sankaku and 50-50 create seamless adjustments for the submission."
+- **Eddie Bravo**: "In 10th Planet, heel hooks are transitional threats to set up upper body attacks. I emphasize unorthodox entries that integrate with my overall system."
+
+Each insight should focus on one key technical or strategic element.
+
+### Common Errors
+For knowledge test generation:
+- **Error**: Poor heel grip or exposure
+- **Why It Fails**: Allows opponent to hide heel or escape grip
+- **Correction**: Secure figure-four grip and maintain heel exposure
+- **Recognition**: Heel slips out during rotational attempt
+
+- **Error**: Insufficient hip isolation
+- **Why It Fails**: Permits opponent to rotate or escape entanglement
+- **Correction**: Control opponent's hip with leg positioning
+- **Recognition**: Opponent easily rotates knee or stands up
+
+- **Error**: Incorrect rotational direction or leverage
+- **Why It Fails**: Reduces torque on knee and ankle, weakening submission
+- **Correction**: Apply inward rotation with body turn for maximum pressure
+- **Recognition**: Submission feels ineffective despite heel grip
+
+### Tactical Applications
+Strategic uses of the submission:
+- **Primary Leg Attack**: Main submission from leg entanglement positions
+- **Defensive Counter**: Effective against guard passes or sweeps
+- **Positional Control**: Maintains control and forces defensive reactions
+- **Chain Setup**: Sets up other heel hook variations or leg locks
+- **Psychological Pressure**: Creates fear of injury, prompting errors

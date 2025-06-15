@@ -1,117 +1,279 @@
 # Baseball Bat Choke
 #bjj #transition #submission #choke #gi
 
-## Transition/State Properties
-- **ID**: T306
+## Required Properties for State Machine
+
+### Core Identifiers
+- **Submission ID**: S306
+- **Submission Name**: Baseball Bat Choke
+- **Alternative Names**: Cross-Collar Strangle, Bat Grip Choke
+
+### State Machine Properties
 - **Starting State**: [[Side Control]] (primary) or [[Knee Shield Half Guard]]
 - **Ending State**: [[Won by Submission]]
-- **Success Probability**: Beginner (40%), Intermediate (70%), Advanced (85%)
-- **Execution Complexity**: Medium
-- **Physical Attributes**: Grip Strength (High), Forearm Strength (Medium), Precision (High)
+- **Submission Type**: Choke - Blood choke via carotid artery compression
 
-## Description
-The Baseball Bat Choke is a powerful collar choke that employs a unique grip configuration resembling how one would hold a baseball bat, creating a devastating cross-collar strangle. This submission applies direct pressure to both carotid arteries through precise placement of the forearms and rotation of the wrists, effectively cutting off blood flow to the brain. Unlike many collar chokes that require specific positioning behind the opponent, the Baseball Bat Choke can be executed from various positions, most notably from top side control and, in its most deceptive form, from bottom half guard as the practitioner allows a pass to complete the submission. The technique's mechanical efficiency combined with its versatile application makes it a high-percentage submission option in the gi, capable of rendering opponents unconscious rapidly when properly applied.
+### Submission Properties
+- **Success Probability**: Beginner 40%, Intermediate 70%, Advanced 85% - core probability data
+- **Execution Complexity**: Medium - technical difficulty assessment
+- **Energy Cost**: Medium - physical demand of execution
+- **Time Required**: Short - duration of submission attempt
+- **Risk Level**: Low to Medium - chance of position loss if failed
 
-## Execution Steps
-1. Establish deep cross-grip on opponent's collar with first hand (fingers inside, thumb outside)
-2. Rotate wrist to maximize collar bunching and initial compression
-3. Secure second grip on opposite collar with other hand (fingers outside, thumb inside)
-4. Position grips at strategic depth - typically four fingers deep with first hand, palm-deep with second
-5. Align wrists and forearms to create optimal compression angle
-6. Initiate compression by bringing elbows together while maintaining grip rotation
-7. Apply breaking pressure by driving shoulders forward while pulling with rotated wrists
-8. Adjust head position to enhance choking pressure and prevent defensive framing
-9. Maintain pressure through potential defensive reactions
-10. Apply progressive compression until submission is secured
+### Physical Requirements
+- **Strength Requirements**: High for grip maintenance
+- **Flexibility Requirements**: Low for body positioning
+- **Coordination Requirements**: High for precise grip and wrist rotation
+- **Endurance Requirements**: Medium for sustained pressure during finish
 
-## Key Details
-- **First Grip Configuration**: Deep cross-grip, fingers inside collar, thumb outside
-- **Second Grip Configuration**: Opposite side collar, fingers outside, thumb inside
-- **Grip Depth**: First grip four fingers deep, second grip palm-deep
-- **Wrist Rotation**: Rotate both wrists to maximize collar bunching and compression
-- **Elbow Alignment**: Bring elbows together to create "baseball bat" alignment
-- **Shoulder Pressure**: Drive shoulders forward while maintaining grip rotation
-- **Head Positioning**: Position head to enhance pressure and prevent framing
-- **Progressive Application**: Increase compression methodically rather than explosively
+## State Machine Content Elements
 
-## Common Counters
-- [[Defensive Framing]] → [[Pressure Reduction]]
-- [[Collar Grip Break]] → [[Hand Fighting]]
-- [[Turn Toward Choke]] → [[Defensive Posture]]
-- [[Hip Escape]] → [[Position Change]]
-- [[Roll Against Choke]] → [[Scramble Position]]
-- [[Prevent Second Grip]] → [[Submission Prevention]]
+### Visual Execution Sequence
+Detailed step-by-step description for clear movement sequence visualization:
 
-## Variants
-- Standard Baseball Bat Choke (from top side control)
-- Bottom Half Guard Baseball Bat Choke (deceptive variation)
-- Rolling Baseball Bat Choke (dynamic application)
-- Reverse Baseball Bat Choke (alternative grip configuration)
-- Modified Baseball Bat with Lapel (enhanced control)
-- Baseball Bat from Knee-on-Belly (mobile control position)
-- North-South Baseball Bat (specialized angle)
-- Standing Baseball Bat Choke (rare standing application)
+From a dominant position like Side Control or during a deceptive setup from Knee Shield Half Guard, you begin by establishing a deep cross-grip on the opponent's collar with your first hand, inserting your fingers inside and thumb outside to maximize control. Your second hand secures the opposite collar with fingers outside and thumb inside, creating a grip configuration that mimics holding a baseball bat, positioned at a strategic depth for optimal compression. You rotate both wrists to bunch the collar fabric and align your forearms to form a tight frame, bringing your elbows together to initiate the choking pressure. As you drive your shoulders forward and pull with the rotated grips, the pressure intensifies on both carotid arteries, cutting off blood flow to the brain until the opponent submits or loses consciousness.
 
-## Expert Insights
-- **Danaher System**: While not featuring this submission prominently in his system, acknowledges its mechanical efficiency when properly applied. Emphasizes understanding the biomechanical principles that make it effective, particularly the relationship between grip configuration, wrist rotation, and compression angle that creates the choking pressure.
-- **Gordon Ryan**: Primarily known for no-gi expertise but recognizes the Baseball Bat Choke as an effective gi-specific submission. When analyzing the technique, focuses on grip details and setup mechanics that determine success or failure, emphasizing the importance of grip depth and proper wrist rotation.
-- **Eddie Bravo**: As a primarily no-gi focused instructor, doesn't emphasize this technique in his 10th Planet system. However, acknowledges its effectiveness in gi contexts, particularly the tactical deception created by the bottom half guard variation where the opponent unknowingly completes the choke by passing guard.
+**Template**: "From Side Control or Half Guard, secure a deep cross-grip on one collar, fingers in, thumb out. Grip the opposite collar with fingers out, thumb in, like a baseball bat. Rotate wrists to bunch fabric, align forearms, and bring elbows together. Drive shoulders forward and pull grips to choke until submission."
 
-## Timing Considerations
-- Execute after secure establishment of grips
-- Apply when transitioning between positions (particularly from bottom half guard)
-- Accelerate application if opponent begins recognizing the threat
-- Coordinate with opponent's breathing pattern for enhanced effect
-- Deploy when opponent's defensive awareness is focused elsewhere
-- Time the finish with opponent's movement to enhance effectiveness
-- Apply progressive pressure rather than explosive compression
+### Execution Steps (Numbered Sequence)
+1. **Setup Requirements**: Establish position (Side Control or Knee Shield Half Guard)
+2. **Initial Movement**: Secure deep cross-grip on opponent's collar (fingers in, thumb out)
+3. **Opponent Response**: Opponent may attempt to frame or break grip
+4. **Adaptation**: Secure second grip on opposite collar (fingers out, thumb in)
+5. **Positioning**: Rotate wrists to bunch collar and align forearms for compression
+6. **Pressure Application**: Bring elbows together and drive shoulders forward
+7. **Completion**: Pull with rotated grips to maximize choke until submission
 
-## Setup Connections
-- [[Side Control]] → [[Grip Establishment]] → [[Baseball Bat Choke]]
-- [[Knee Shield Half Guard]] → [[Deep Collar Grip]] → [[Baseball Bat Choke]]
-- [[North-South Position]] → [[Collar Control]] → [[Baseball Bat Choke]]
-- [[Knee on Belly]] → [[Lapel Control]] → [[Baseball Bat Choke]]
-- [[Combat Base]] → [[Rolling Entry]] → [[Baseball Bat Choke]]
-- [[Guard Passing]] → [[Transition Control]] → [[Baseball Bat Choke]]
+### Key Technical Details
+Critical elements that determine success:
+- **Grip Requirements**: Deep cross-grip (first hand fingers in, second hand fingers out)
+- **Base/Foundation**: Stable position like Side Control for leverage
+- **Timing Windows**: Execute after secure grip establishment
+- **Leverage Points**: Wrist rotation and elbow alignment for carotid compression
+- **Common Adjustments**: Adjust grip depth and shoulder drive based on resistance
 
-## Follow-up Options
-- [[Transition to Mounted Position]] (if choke is defended)
-- [[Switch to Ezekiel Choke]] (if one grip is compromised)
-- [[Paper Cutter Choke]] (against specific defensive reactions)
-- [[Transition to North-South]] (if position is shifting)
-- [[Armbar Opportunity]] (if opponent defends by framing)
+### Success Modifiers
+Factors that increase/decrease probability:
+- **Setup Quality**: Depth and security of collar grips (+/-20%)
+- **Timing Precision**: Executing before opponent defends grips (+/-15%)
+- **Opponent Fatigue**: Reduced defensive strength over time (+/-5%)
+- **Knowledge Test Performance**: Understanding choke mechanics (+/-10%)
+- **Grip Rotation**: Effectiveness of wrist rotation for compression (+/-10%)
 
-## Common Errors
-- Insufficient grip depth → Ineffective compression
-- Poor wrist rotation → Reduced choking pressure
-- Improper elbow positioning → Suboptimal pressure angle
-- Focusing solely on arm strength → Premature fatigue
-- Telegraphing grip intentions → Defensive awareness
-- Neglecting position maintenance → Defensive escape opportunity
+## Counter-Attack Analysis
 
-## Performance Tips
-- Focus on establishing precise grip depth and configuration before applying pressure
-- Develop grip strength specifically for collar control maintenance
-- Practice proper wrist rotation mechanics for maximum compression
-- Maintain positional control throughout the submission attempt
-- Create awareness of common defensive patterns and preemptive counters
-- Apply with controlled, progressive pressure rather than explosive force
-- Train transitions between related collar choke positions
+### Common Counters
+Opponent responses with success rates:
+- **Defensive Framing**: Using arms to create space → [[Pressure Reduction]] (Success Rate: 35%, Conditions: early reaction)
+- **Collar Grip Break**: Hand fighting to release grips → [[Hand Fighting]] (Success Rate: 30%, Conditions: strong grip defense)
+- **Turn Toward Choke**: Rotating body to relieve pressure → [[Defensive Posture]] (Success Rate: 25%, Conditions: mobility available)
+- **Hip Escape**: Shrimping to change position → [[Position Change]] (Success Rate: 20%, Conditions: significant space)
+- **Prevent Second Grip**: Blocking second hand placement → [[Submission Prevention]] (Success Rate: 15%, Conditions: quick anticipation)
 
-## Training Approaches
-- Isolated technical drilling with progressive resistance
-- Positional sparring focused on grip establishment
-- Grip strength and endurance development
-- Transition drilling between positional variations
-- Defensive recognition and response training
-- Bottom half guard timing development (for deceptive variation)
-- Competition-specific training focused on tournament legality
+Format: `[[Counter Technique]] → [[Result State]] (Success Rate: X%, Conditions: [when applicable])`
+
+### Decision Logic for Opponent Behavior
+```
+If [baseball bat choke grips] are not fully secured:
+- Execute [[Defensive Framing]] (Probability: 35%)
+
+Else if [grip strength] allows breaking:
+- Execute [[Collar Grip Break]] (Probability: 30%)
+
+Else if [body mobility] permits rotation:
+- Execute [[Turn Toward Choke]] (Probability: 25%)
+
+Else if [space] can be created:
+- Execute [[Hip Escape]] (Probability: 20%)
+
+Else [optimal submission execution]:
+- Accept submission (Probability: Success Rate - Modifiers)
+```
+
+## Defensive Considerations
+
+### Common Threats During Attempt
+Primary risks while attempting this submission:
+- **Grip Break**: Opponent breaks collar grips → [[Hand Fighting]] (Threat Level: Medium)
+- **Position Loss**: Opponent escapes position during setup → [[Position Change]] (Threat Level: Low)
+- **Counter Attack**: Opponent uses framing to initiate sweep → [[Sweep Attempt]] (Threat Level: Low)
+- **Stalemate**: Opponent tucks chin to stall choke → [[Defensive Posture]] (Threat Level: Medium)
+
+Format: `[[Threat Type]] → [[Resulting Position]] (Threat Level: X)`
+
+### Defensive Strategies
+Methods to mitigate threats:
+- **Grip Maintenance**: Secure deep grips quickly to prevent breaks
+- **Position Control**: Maintain stable base to avoid sweeps or escapes
+- **Wrist Rotation**: Maximize compression early to limit defensive options
+- **Shoulder Drive**: Use forward pressure to disrupt opponent's posture
+- **Adaptation Readiness**: Be prepared to switch to alternative chokes if defended
+
+## Educational Content
+
+### Expert Insights
+Commentary as if from recognized authorities:
+- **John Danaher**: "The Baseball Bat Choke is a mechanically efficient submission that highlights the importance of grip configuration in gi chokes. Its success depends on the precise relationship between grip depth, wrist rotation, and compression angle. This technique teaches critical principles of leverage that apply to all blood chokes."
+- **Gordon Ryan**: "Though I focus on no-gi, I recognize the Baseball Bat Choke as a high-percentage gi submission. The key is in the grip details and setup mechanics—deep grips and proper wrist rotation are non-negotiable. It’s a great example of how specialized grips can dominate in gi competition."
+- **Eddie Bravo**: "While my system is no-gi focused, I respect the Baseball Bat Choke’s effectiveness in gi contexts. The deceptive half guard variation is particularly tactical, catching opponents off-guard as they pass. It shows how strategic setups can turn a standard choke into a game-changer."
+
+Each insight should focus on one key technical or strategic element.
+
+### Common Errors
+For knowledge test generation:
+- **Error**: Insufficient grip depth on collars
+- **Why It Fails**: Reduces compression effectiveness on carotid arteries
+- **Correction**: Ensure first grip is four fingers deep, second grip palm-deep
+- **Recognition**: Choke feels weak despite proper positioning
+
+- **Error**: Poor wrist rotation during application
+- **Why It Fails**: Limits collar bunching and pressure on arteries
+- **Correction**: Rotate wrists to maximize fabric tension and alignment
+- **Recognition**: Pressure feels distributed rather than focused on neck
+
+- **Error**: Neglecting position maintenance during attempt
+- **Why It Fails**: Allows opponent to escape or counter with sweeps
+- **Correction**: Maintain stable base and control throughout submission
+- **Recognition**: Opponent gains space or initiates counter during choke
+
+### Timing Considerations
+When to attempt this submission:
+- **Optimal Conditions**: After secure grip establishment on collars
+- **Avoid When**: Opponent maintains strong defensive framing or grip breaks
+- **Setup Sequences**: During transitions or from stable top positions
+- **Follow-up Windows**: Must complete within 3-5 seconds to prevent defense or fatigue
+
+### Prerequisites
+Requirements before attempting:
+- **Technical Skills**: Understanding of collar choke mechanics and grip configurations
+- **Physical Preparation**: Grip strength for maintaining deep holds
+- **Positional Knowledge**: Control from Side Control or deceptive Half Guard setups
+- **Experience Level**: Intermediate - requires specific gi choke concepts
+
+## Technical Assessment Elements
+
+### Knowledge Assessment Questions
+5 technical questions with multiple choice answers:
+- **Mechanical Understanding**: "What creates the choking pressure in the Baseball Bat Choke?"
+- **Timing Recognition**: "When is the optimal moment to initiate the Baseball Bat Choke?"
+- **Error Prevention**: "What is the most common mistake in establishing grips for this choke?"
+- **Setup Requirements**: "Which grip configuration is essential for the Baseball Bat Choke?"
+- **Adaptation**: "How do you adjust if the opponent starts to break your collar grips?"
+
+### Variants and Configurations
+Different setups within the submission:
+- **Standard Baseball Bat Choke**: Classic approach from top Side Control
+- **Bottom Half Guard Variation**: Deceptive setup allowing guard pass to complete choke
+- **Rolling Baseball Bat Choke**: Dynamic application during transitions
+- **Reverse Baseball Bat Choke**: Alternative grip orientation for control
+- **Modified with Lapel**: Enhanced control using additional gi fabric
+
+### Training Progressions
+Skill development pathway:
+- **Grip Familiarization**: Practice collar grip configurations solo
+- **Control Drilling**: Work with partner on establishing deep grips
+- **Wrist Rotation Integration**: Add rotation mechanics for compression
+- **Pressure Practice**: Incorporate shoulder drive with progressive resistance
+- **Live Application**: Use in sparring from Side Control or Half Guard with focus on timing
+
+## Audio & Narration Elements
+
+### Action Descriptions
+Dynamic language for TTS narration:
+- **Movement Verbs**: Secure, grip, rotate, align, bring, drive, pull
+- **Spatial References**: Collar cross-grip, opposite collar, forearm frame
+- **Pressure Dynamics**: Choking pressure, carotid compression, grip tension
+- **Momentum Descriptions**: Quick grip setup, progressive pressure increase
+
+### Coaching Commentary
+Real-time instruction and feedback:
+- **Setup Cues**: "Get that deep cross-grip on the collar, fingers in"
+- **Execution Guidance**: "Secure the second grip, fingers out, like a baseball bat"
+- **Adjustment Prompts**: "Rotate your wrists and bring elbows together for pressure"
+- **Completion Confirmation**: "Drive shoulders forward and pull for the submission tap"
+
+## Technical Specifications
+
+### Control Mechanics
+Scientific submission analysis:
+- **Force Vectors**: Compression through forearm alignment on carotid arteries
+- **Leverage Points**: Wrist rotation as fulcrum for collar tension
+- **Stability Factors**: Stable position for grip security and pressure
+- **Mobility Dynamics**: Shoulder drive for dynamic pressure adjustment
+- **Energy Efficiency**: Moderate energy use with high submission return
+
+### Success Factors
+Elements that strengthen submission:
+- **Grip Depth**: Quality of collar control (+/-20%)
+- **Wrist Rotation**: Effectiveness of fabric bunching (+/-15%)
+- **Elbow Alignment**: Precision of forearm frame (+/-15%)
+- **Opponent Fatigue**: Reduced defensive resistance over time (+/-5%)
+- **Experience Level**: Familiarity with gi choke mechanics (+/-10%)
+
+## Validation Checklist
+
+Every submission file must include:
+- [x] All required properties with specific values
+- [x] Detailed visual execution sequence (minimum 4 sentences)
+- [x] Complete execution steps list (minimum 7 steps)
+- [x] Strategic advantages and common challenges
+- [x] At least 3 high-probability counters with success rates
+- [x] Expert insights from all three authorities
+- [x] Minimum 3 common errors with corrections
+- [x] 5 knowledge test questions with answers
+- [x] Defensive considerations and strategies
+- [x] Training progression pathway
+
+## Example Implementation
+
+See [[Americana]] for a complete example implementing all standard requirements.
+
+## Notes for Developers
+
+This standard ensures:
+- Consistent submission data for state machine implementation
+- Detailed control mechanics for realistic modeling
+- Rich content for comprehensive technical documentation
+- Educational value through expert analysis
+- Technical depth for authentic understanding
+- Structured counter analysis for complete coverage
+- Knowledge assessment integration
+- Training progression guidance
+
+Updates to this standard should be reflected across all submission files to maintain consistency and educational value.
+
+## Related Submissions
+- **Cross Collar Choke** - Alternative gi choke with similar grips
+- **Ezekiel Choke** - Follow-up if Baseball Bat Choke is defended
+- **Paper Cutter Choke** - Complementary choke from similar positions
+- **Loop Choke** - Secondary attack if grip configuration changes
+- **Bow and Arrow Choke** - Alternative gi choke for advanced control
 
 ## Historical Context
-The Baseball Bat Choke has been a staple in Brazilian Jiu-Jitsu for decades, though its precise origins are somewhat obscure compared to other classic submissions. The technique gained wider recognition in the modern competitive era as high-level practitioners demonstrated its effectiveness, particularly in tournament settings. The choke's evolution included the development of the deceptive bottom half guard variation, which has become notorious for causing competitors to lose consciousness before they can tap, as they unwittingly complete the choke by passing to side control. This tactical application highlighted the submission's unique mechanical properties and increased its prominence within strategic gi competition approaches.
+The Baseball Bat Choke has been a staple in Brazilian Jiu-Jitsu for decades, gaining wider recognition in the modern competitive era as high-level practitioners demonstrated its effectiveness in gi tournaments. Its deceptive variation from bottom Half Guard has become notorious for catching opponents off-guard, often leading to quick submissions as they complete a guard pass into the choke.
 
-## Conceptual Framework
-The Baseball Bat Choke exemplifies the principle of "mechanical leverage through grip configuration" in BJJ submissions, where effectiveness comes not solely from strength but from precise grip placement and body alignment. By creating a specific grip structure combined with proper wrist rotation, the technique amplifies compression force against the carotid arteries with relatively minimal muscular effort. The submission demonstrates how specialized grip mechanics can create powerful submission opportunities that bypass many conventional defensive frameworks, particularly when applied with tactical timing or deceptive setups.
+## Competition Applications
+- **IBJJF Rules**: Legal at all belt levels in gi competition, scores as submission win
+- **Strategic Use**: High-percentage finish in gi contexts from top or bottom
+- **Gi Specificity**: Relies on collar grips, ineffective in no-gi
+- **Tournament Impact**: Often used to surprise opponents with deceptive setups
 
-## Computer Science Analogy
-The Baseball Bat Choke functions as a "parallel compression algorithm" in the BJJ state machine, where dual grip configurations simultaneously restrict blood flow through both carotid arteries. This implements a form of "redundant failsafe system" where even partial success on either side can still produce the desired outcome (unconsciousness or submission). The technique exemplifies a "resource lock" in concurrent processing, where critical resources (in this case, blood flow to the brain) are simultaneously restricted from multiple vectors, creating a terminal state where the defender cannot address both constraints simultaneously with a single defensive measure. The deceptive half guard variation represents a sophisticated "race condition" exploit where the opponent's action (passing guard) paradoxically accelerates the very process (the choke) they seek to escape.
+## Safety Considerations
+- **Pressure Control**: Apply choke gradually to avoid sudden unconsciousness
+- **Partner Awareness**: Monitor opponent's response during application
+- **Mat Space**: Ensure adequate space for safe positioning
+- **Release Timing**: Release immediately upon tap to prevent injury
+- **Neck Safety**: Avoid excessive force beyond reasonable compression point
+
+## Submission Integration
+**Common Baseball Bat Choke combinations:**
+- [[Side Control]] → [[Baseball Bat Choke]] → [[Won by Submission]]
+- [[Knee Shield Half Guard]] → [[Baseball Bat Choke]] → [[Won by Submission]]
+- [[Failed Baseball Bat Choke]] → [[Ezekiel Choke]] → [[Won by Submission]]
+- [[Failed Baseball Bat Choke]] → [[Transition to Mount]] → [[Mounted Position]]
+
+## Training Applications
+- **Gi Specialization**: Essential for gi competitors focusing on chokes
+- **Competition Preparation**: Strong submission for tournament strategies
+- **Control Development**: Builds understanding of collar grip mechanics
+- **Tactical Exploration**: Encourages deceptive setups from bottom positions

@@ -1,101 +1,74 @@
 # Rear Naked Choke Pathway
 #bjj #submission #chain #back_attack #choke #rnc
 
-## Chain Properties
+## Submission Chain Properties
 - **Chain ID**: SC006
-- **Primary Submissions**: [[Rear Naked Choke]], [[Bow and Arrow Choke]], [[Collar Choke]], [[Short Choke]]
+- **Primary Submission**: [[Rear Naked Choke]]
+- **Secondary Submissions**: [[Bow and Arrow Choke]], [[Collar Choke]], [[Short Choke]]
 - **Starting Positions**: [[Back Control]], [[Technical Back Mount]], [[Turtle Top]]
-- **Difficulty Level**: Beginner to Advanced
-- **Strategic Value**: Extremely High
+- **Ending State**: Submission (Opponent taps out or loses consciousness)
+- **Success Probability**: Beginner (30%), Intermediate (60%), Advanced (80%)
+- **Risk Level**: Medium - requires strong positional control but exposes practitioner to defensive counters
+- **Energy Cost**: Medium - demands sustained control and precise adjustments
+- **Submission Type**: Choke (Blood Strangulation)
+- **Execution Complexity**: Medium to High - involves systematic progression through defensive barriers
 
 ## Chain Description
-The Rear Naked Choke (RNC) Pathway represents the most statistically dominant submission chain in Brazilian Jiu-Jitsu, built around what many consider the most high-percentage submission in the art. This system begins with the fundamental back control position—widely regarded as the most dominant positional control in grappling—and presents a systematic approach to breaking down defensive barriers to achieve various choking mechanics.
+The Rear Naked Choke (RNC) Pathway represents the most statistically dominant submission chain in Brazilian Jiu-Jitsu, built around what many consider the most high-percentage submission in the art. This system begins with the fundamental back control position—widely regarded as the most dominant positional control in grappling—and presents a systematic approach to breaking down defensive barriers to achieve various choking mechanics. Unlike many submission chains that require complex positional adjustments, the RNC system focuses primarily on systematic hand fighting and incremental control improvements to neutralize defensive structures, creating a highly reliable finishing system that functions effectively across body types, skill levels, and competitive contexts. The core of this system is the traditional Rear Naked Choke, a blood choke applied from the back by encircling the opponent's neck with one arm and using the bicep and forearm to compress the carotid arteries, though the complete pathway includes essential variations and alternatives that address specific defensive scenarios.
 
-What distinguishes the RNC Pathway is its exceptional success rate across all levels of competition and its methodical approach to addressing defensive reactions. Unlike many submission chains that require complex positional adjustments, the RNC system focuses primarily on systematic hand fighting and incremental control improvements to neutralize defensive structures. This creates a highly reliable finishing system that functions effectively across body types, skill levels, and competitive contexts.
+## Visual Execution Sequence
+Detailed description for clear visualization of the primary submission in the chain:
 
-The core of this system is the traditional Rear Naked Choke, a blood choke applied from the back by encircling the opponent's neck with one arm and using the bicep and forearm to compress the carotid arteries. However, the complete pathway includes essential variations and alternatives that address specific defensive scenarios, creating a comprehensive attacking framework with exceptional finishing capability. When properly executed, this system offers perhaps the highest probability path to victory in the entire BJJ arsenal.
+From a dominant back control position, your chest is glued to your opponent's back, legs hooked securely around their hips with both hooks in, one over their shoulder and the other under their armpit in a seatbelt grip, establishing unyielding control. You initiate the Rear Naked Choke by sliding your choking arm—typically the one under their armpit—across their neck, ensuring your forearm aligns with their trachea, while your other hand maintains control over their shoulder to prevent escapes. You secure the choke by bringing your choking arm's hand to the crook of your other elbow, forming a tight loop around their neck, with your non-choking hand pushing their head down to eliminate space and enhance pressure. You adjust your hips slightly to maintain spinal alignment, keeping your chest-to-back connection tight, preventing them from turning or creating defensive space, as your legs squeeze their torso to limit movement. You apply incremental pressure by pulling your elbows together rather than squeezing with brute force, focusing on compressing the carotid arteries on both sides of their neck, cutting off blood flow to the brain. Throughout the sequence, you anticipate defensive reactions like hand fighting or chin tucking, ready to strip grips or transition to alternative chokes like the Bow and Arrow if needed, maintaining control with subtle weight shifts. Finally, you complete the submission by maintaining controlled pressure until the opponent taps out or loses consciousness, demonstrating the mechanical efficiency and strategic depth of the RNC pathway in achieving a high-percentage finish.
 
-## Core Mechanical Principles
-- **Chest-to-Back Connection**: Maintaining persistent spinal alignment and connection
-- **Control Before Submission**: Establishing dominant position and defensive control before attempting submission
-- **Hand Fighting Dominance**: Systematically winning the battle for control of defensive frames
-- **Incremental Pressure**: Building submission pressure progressively rather than explosively
-- **Defensive Anticipation**: Recognizing and exploiting predictable defensive patterns
-- **Choking Mechanics**: Understanding precise arterial compression principles
-- **Positional Adjustment**: Making subtle body positioning changes to enhance leverage
-- **Space Elimination**: Systematically removing defensive space to increase choking effectiveness
+**Template**: "From back control, chest to back, hooks around hips, seatbelt grip with one arm over shoulder, one under armpit. Slide choking arm across neck, forearm on trachea, other hand controls shoulder. Secure choke, choking hand to other elbow crook, non-choking hand pushes head down. Adjust hips for spinal alignment, maintain chest connection, legs squeeze torso. Apply pressure by pulling elbows together, compress carotid arteries. Anticipate defenses like hand fighting, ready to strip grips or switch chokes. Complete submission with controlled pressure until tap or unconsciousness."
 
-## Submission Sequence
-1. **Primary Attack**: [[Rear Naked Choke]]
-   - Execution focus: Establishing proper seatbelt control and arm positioning across trachea
-   - Defensive triggers: Opponent defends by protecting neck with hands or chin tucking
+## Execution Steps
+1. Establish a dominant back control position, securing both hooks around the opponent's hips, chest glued to their back, and a seatbelt grip with one arm over their shoulder and the other under their armpit.
+2. Initiate the Rear Naked Choke by sliding the choking arm (typically the under-armpit arm) across their neck, aligning the forearm with their trachea, while the other hand maintains shoulder control.
+3. Secure the choke by bringing the choking arm's hand to the crook of the other elbow, forming a tight loop around their neck, and use the non-choking hand to push their head down, eliminating defensive space.
+4. Adjust hip position to maintain spinal alignment and chest-to-back connection, squeezing legs around their torso to limit movement and prevent turning or escapes.
+5. Apply incremental pressure by pulling elbows together, focusing on compressing the carotid arteries rather than using brute force, ensuring effective blood flow restriction.
+6. Anticipate and counter defensive reactions such as hand fighting or chin tucking by systematically stripping grips or transitioning to alternative chokes like Bow and Arrow or Short Choke if blocked.
+7. Complete the submission with controlled pressure, maintaining the choke until the opponent taps out or loses consciousness, leveraging the high-percentage mechanics of the RNC pathway.
 
-2. **Secondary Attack**: [[Bow and Arrow Choke]]
-   - Transition mechanics: Utilize collar grip when opponent defends RNC by protecting neck
-   - Execution focus: Creating proper leverage through leg positioning and collar control
+## Key Details
+- **Chest-to-Back Connection**: Maintaining persistent spinal alignment to prevent defensive escapes.
+- **Control Before Submission**: Establishing dominant position and neutralizing defenses before choke application.
+- **Hand Fighting Dominance**: Systematically winning control over defensive frames and grips.
+- **Incremental Pressure**: Building submission pressure progressively rather than explosively for safety and effectiveness.
+- **Defensive Anticipation**: Recognizing and exploiting predictable defensive patterns like chin tucking or rolling.
+- **Choking Mechanics**: Understanding precise arterial compression for blood chokes over air chokes.
+- **Positional Adjustment**: Making subtle body positioning changes to enhance leverage and control.
+- **Space Elimination**: Systematically removing defensive space to increase choking effectiveness.
 
-3. **Tertiary Attack**: [[Short Choke]]
-   - Transition mechanics: Adapt grip when standard RNC entry is blocked but space exists
-   - Execution focus: Applying effective compression with modified hand positioning
+## Success Modifiers
+Factors that influence the success rate of the primary submission in the chain:
+- **Back Control Quality**: Strength of initial positional dominance with hooks and seatbelt grip (+15%)
+- **Hand Fighting Effectiveness**: Ability to strip defensive grips and maintain control (+10%)
+- **Choke Positioning Precision**: Accurate alignment of forearm and elbow for carotid compression (+10%)
+- **Defensive Counter Management**: Anticipating and neutralizing reactions like chin tucking or rolling (+10%)
+- **Experience Level**: Familiarity with back attack systems and choke variations (+5% per skill level)
 
-## Decision Tree
-- If opponent defends RNC by hand fighting → Focus on systematically stripping grips and reestablishing control
-- If opponent defends RNC by tucking chin → Apply face covering variation or transition to neck crank
-- If opponent defends by rolling → Follow movement and re-establish [[Back Control]]
-- If opponent creates defensive frames → Transition to [[Bow and Arrow Choke]] (gi) or [[Short Choke]] (no-gi)
-- If opponent defends collar chokes → Return to traditional [[Rear Naked Choke]]
-- If opponent turns slightly → Adjust to [[Technical Back Mount]] and apply appropriate choke variation
-- If opponent fully exposes arm while defending → Transition to [[Armbar from Back]]
+## Common Counters and Counter-Attacks
+Analysis of opponent responses with success rates for counter-attacks within the chain:
+- [[Hand Fighting Defense]] → [[Grip Stripping Counter]] (Success Rate: 50%, Conditions: opponent uses two-on-one grip to protect neck)
+- [[Chin Tuck Defense]] → [[Face Cover Variation]] (Success Rate: 45%, Conditions: opponent tucks chin to block choke entry)
+- [[Forward Roll Defense]] → [[Back Control Reestablishment]] (Success Rate: 40%, Conditions: opponent rolls forward to escape)
+- [[Defensive Framing]] → [[Bow and Arrow Transition]] (Success Rate: 35%, Conditions: opponent creates frames to block RNC)
+- [[Hip Movement Defense]] → [[Hook Adjustment Counter]] (Success Rate: 30%, Conditions: opponent bridges or moves hips to create space)
+- [[Turn Into Attacker]] → [[Armbar Transition]] (Success Rate: 25%, Conditions: opponent turns to face attacker exposing arm)
 
-## Expert Insights
-- **Danaher System**: John Danaher's approach to the RNC represents perhaps the most systematic development of this submission in modern BJJ. His "Straitjacket System" focuses on methodically breaking down defensive hand structures before attempting the choke. Danaher emphasizes precise mechanical details, particularly regarding the choking arm's positioning, and teaches that the primary compression comes from the connection between elbows rather than a squeezing motion. His system treats each defensive barrier as a specific problem to solve rather than an obstacle to overcome with force.
+## Decision Logic for Opponent Behavior
+```
+If [opponent hand fights] with two-on-one grip:
+- Execute [[Grip Stripping Counter]] to reestablish control (Probability: 60%)
 
-- **Gordon Ryan**: As Danaher's most accomplished student, Ryan has refined the RNC system to exceptional effectiveness in competition. His approach emphasizes creating and maintaining a specific "harness grip" from the back that provides maximum control while systematically eliminating defensive options. Ryan particularly focuses on patience in the finishing sequence, often maintaining back control for extended periods while incrementally improving position until defensive structures collapse. His application emphasizes subtle weight adjustments and precise pressure application rather than explosive movements.
+Else if [opponent tucks chin] to block entry:
+- Apply [[Face Cover Variation]] or transition to neck crank (Probability: 55%)
 
-- **Eddie Bravo**: Within the 10th Planet system, Bravo has developed specialized back control mechanisms that feed into various choke finishes. His "Zombie Control" system provides unique control mechanics that facilitate submission entries when traditional approaches are defended. Bravo's system emphasizes unorthodox entries to the back position, particularly through his "Twister Side Control" and "Truck" positions, creating attacking angles that opponents are less familiar defending. When applying the RNC, Bravo focuses on creating body triangles and modified control positions that maximize choking leverage.
+Else if [opponent rolls forward] to escape:
+- Follow with [[Back Control Reestablishment]] maintaining hooks (Probability: 50%)
 
-## Setup Positions
-- [[Back Control]] → Seatbelt grip → [[Rear Naked Choke]]
-- [[Technical Back Mount]] → Collar control → [[Bow and Arrow Choke]]
-- [[Turtle Top]] → Back exposure → [[Back Control]]
-- [[Mount]] → Technical transition → [[Technical Back Mount]]
-- [[Side Control]] → Far-arm isolation → [[Back Taking Sequence]]
-- [[Half Guard Top]] → Flattening control → [[Back Exposure]]
-
-## Common Defensive Reactions
-- Hand fighting (two-on-one grip) → Systematic grip stripping and isolation
-- Chin tucking → Apply modified RNC with jaw pressure or transition to alternative choke
-- Forward rolling → Follow movement to maintain back control
-- Defensive framing → Use frames as leverage points for bow and arrow or collar chokes
-- Hip movement and bridging → Adjust hook placement and maintain spinal connection
-- Attempting to turn into attacker → Transition to technical mount or armbar
-- Creating separation by pushing on arms → Re-establish harness control and eliminate space
-
-## Training Methodology
-- Positional sparring starting from back control with progressive resistance
-- Hand fighting sequences and stripping defensive grips
-- Transition flows between different choke variations
-- Defensive recognition and response drills
-- Back control maintenance against escape attempts
-- Video analysis of high-level RNC applications in competition
-- Flow drilling connecting back takes to submission entries
-
-## Competition Application
-The Rear Naked Choke Pathway has proven to be the most statistically successful submission system across all levels of competition and across all grappling formats. Analysis of competition data consistently shows that back control leads to the highest submission rates of any position, with the RNC itself representing the most frequently successful submission technique in both gi and no-gi contexts.
-
-The system demonstrates particular effectiveness in high-level competition where other submission approaches often fail against elite defensive skills. When properly executed, the mechanical efficiency of the RNC allows it to succeed even against fully informed defenders who understand the attacking mechanics. This creates a uniquely powerful tool in the competitive arsenal, representing one of the few techniques that maintain high success rates even as defensive knowledge increases.
-
-In MMA and combat sports contexts, the RNC shows even higher success rates, consistently ranking as the most common submission finish in UFC history. The position's control advantages provide both offensive effectiveness and defensive safety, making it particularly valuable in contexts where strikes are permitted.
-
-The psychological impact of back control creates additional competitive advantages beyond the direct submission threat. Competitors forced to defend the back often demonstrate increased respiratory rates, elevated stress responses, and compromised decision-making, creating compounding advantages for the controlling practitioner. This makes the RNC pathway not only a technical solution but a strategic weapon that can fundamentally alter the competitive dynamics of a match.
-
-## Computer Science Analogy
-The Rear Naked Choke Pathway exemplifies what computer scientists would recognize as an "optimization algorithm with constraint relaxation." The back position establishes an initial set of constraints on the defender's movement and defensive options. The attacking system then methodically relaxes these constraints one by one, finding the optimal path to submission based on the specific defensive structure encountered.
-
-From a state machine perspective, back control represents a node with exceptionally high expected value in the BJJ positional graph. What makes this state particularly powerful is its limited branching factor—the defender has significantly fewer viable transition edges compared to other positions, creating a constrained problem space that the attacker can solve systematically.
-
-The hand fighting sequence in the RNC system demonstrates the concept of "resource contention" in computer science, where two processes compete for access to a limited resource. In this case, the resource is control of the defensive space needed to establish the choke. By systematically eliminating the defender's control resources (their defensive grips and frames), the attacker eventually achieves exclusive access to the critical resource (neck space), allowing the submission to be executed.
-
-The relationship between different choke variations in the system exemplifies the principle of "graceful degradation" in system design. When the primary attack (RNC) encounters resistance, the system doesn't fail completely but transitions to alternative attacks (bow and arrow, short choke) that can succeed under different constraints. This creates a robust attack framework that remains effective even when the optimal solution is temporarily unavailable.
-
-From a game theory perspective, the RNC pathway represents a "dominant strategy" in many BJJ scenarios—a strategy that yields better outcomes than alternative approaches regardless of the opponent's defensive choices. This explains its persistent effectiveness across competition formats and skill levels, as it represents a fundamental mechanical advantage that cannot be fully neutralized through defensive knowledge alone.
+Else if [opponent creates frames] to defend:
+- Transition to [[Bow and Arrow Ch

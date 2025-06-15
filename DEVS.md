@@ -103,9 +103,9 @@ source/content/
 │   ├── 000.STANDARD.md  # Submission standard template
 │   ├── Triangle Finish.md
 │   └── ...
-├── Concepts/           # Fundamental principles
-├── Systems/            # Integrated systems and strategies
-└── Pedagogy/           # Learning methodology
+├── Concepts/            # Fundamental principles
+├── Systems/             # Integrated systems and strategies
+└── Pedagogy/            # Learning methodology
 ```
 
 ### Standard Template Files
@@ -286,3 +286,52 @@ The most efficient way to learn from this system is to:
 5. **Gradually expand** to alternative paths and responses to common defenses
 
 This approach maximizes learning efficiency by focusing on connected, applicable knowledge rather than isolated techniques, transforming BJJ knowledge from a collection of techniques into a coherent system guided by computer science principles.
+
+## Development Guidelines
+
+### Project Setup Instructions
+To contribute to or work with this project locally, follow these steps to set up your development environment:
+
+1. **Clone the Repository**: Clone the BJJGraph repository from the appropriate source (e.g., GitHub) to your local machine.
+2. **Install Dependencies**:
+   - **Node.js**: Required for running Quartz, the static site generator used in this project. Install Node.js (version specified in `source/.node-version`) and use `npm` or `pnpm` (as per `source/.npmrc`) to install project dependencies with `npm install` or `pnpm install` from the `source/` directory.
+   - **Python**: Optional, for scripts related to content validation or processing. Install Python if needed for additional tools or automation.
+3. **Run Locally**: From the `source/` directory, run the development server using `npm run dev` or `pnpm run dev` to preview the content in a browser.
+4. **Environment Configuration**: No specific environment variables are required by default, but check for any custom configurations in `source/quartz.config.ts` or project-specific documentation if you encounter issues.
+
+### Project Structure Overview
+Understanding the directory structure is key to navigating and contributing to the project:
+
+- **source/content/**: Contains the core BJJ knowledge base, divided into subdirectories for Positions, Transitions, Submissions, Concepts, Systems, and Pedagogy. Each subdirectory Positions, Transitions, and Submissions includes a `000.STANDARD.md` file defining the template for content consistency.
+- **source/quartz/**: Contains the Quartz framework code for generating a static site from the markdown content. Key files include `quartz.config.ts` for configuration and `quartz.layout.ts` for layout definitions.
+- **source/docs/**: Documentation for using Quartz and managing the project, including setup, hosting, and content authoring guides.
+- **source/raw_html/**: Contains raw HTML files for testing or specific integrations.
+
+### Contribution Guidelines
+We welcome contributions to enhance the BJJ knowledge base and associated tools. Please adhere to the following guidelines:
+
+1. **Content Contributions**:
+   - Follow the standardized templates in `000.STANDARD.md` files for new or updated content in Positions, Transitions, or Submissions.
+   - Ensure all required sections (e.g., Visual Description, Success Probabilities, Expert Insights) are completed as per the validation checklists.
+   - Use title case for file names (e.g., "Half Guard Bottom.md") and link related files using `[[File Name]]` syntax.
+
+2. **Code Contributions**:
+   - For scripts or tools, use consistent coding standards (e.g., adhere to Prettier rules as defined in `source/.prettierrc` for formatting).
+   - Write clear commit messages describing the purpose of changes (e.g., "Add validation script for content files").
+   - Submit pull requests with detailed descriptions of the changes and their impact.
+
+3. **Areas for Contribution**:
+   - Expanding the content library with new positions, transitions, or submissions.
+   - Developing scripts for content validation or automation of repetitive tasks.
+   - Improving documentation or visualizations for better user understanding.
+
+### Testing and Validation
+To maintain data integrity and quality:
+
+- **Content Validation**: If available, run any validation scripts to check for missing fields or inconsistent data in markdown files (scripts may be in development or can be created as needed).
+- **Manual Review**: Before submitting changes, manually verify that all links resolve to existing files and that probability data aligns across related files.
+- **Testing Framework**: For future code additions, consider using testing frameworks like Jest (for JavaScript) or pytest (for Python) to ensure reliability.
+
+### Contact and Collaboration Channels
+For questions, collaboration, or to report issues:
+- **GitHub Issues**: Use the project's GitHub repository to file issues or suggest enhancements.

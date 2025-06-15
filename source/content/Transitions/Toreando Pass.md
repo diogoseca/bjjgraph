@@ -1,86 +1,243 @@
 # Toreando Pass
-#bjj #transition #guardpass #top
+#bjj #transition #guard_pass #offense #ground_game
 
 ## Transition Properties
-- **Transition ID**: T703
-- **Starting State**: [[Open Guard Top]], [[Standing Position]], or [[Combat Base]]
-- **Ending State**: [[Side Control]]
-- **Success Probability**: Beginner (60%), Intermediate (75%), Advanced (90%)
-- **Execution Complexity**: Low to Medium
-- **Physical Attributes**: Speed (Medium), Upper body control (Medium)
+- **Transition ID**: T824
+- **Classification**: Offensive Guard Pass
+- **Starting Position**: [[Open Guard Top]], [[Standing Guard]]
+- **Target Position**: [[Side Control]], [[Top Position]]
+- **Success Probability**: Beginner (45%), Intermediate (60%), Advanced (75%)
+- **Execution Complexity**: Medium
+- **Physical Attributes**: Strength (Medium), Timing (High), Coordination (High)
+- **Risk Level**: Medium - potential exposure to sweeps or submissions if not executed properly
+- **Energy Cost**: Medium - requires quick movement and sustained control
+- **Transition Type**: Offensive Passing Transition
 
 ## Transition Description
-The Toreando Pass (also known as the "Bullfighter Pass" or "Matador Pass") is a dynamic guard passing technique where the passer controls the opponent's legs, typically at the knees or ankles, and redirects them to the side while circling around to establish side control. Drawing its name from bullfighting movements, the pass relies on speed, direction changes, and proper gripping to bypass the opponent's defensive frames. This technique is particularly effective against open guard variations and has become a fundamental passing method in both gi and no-gi contexts due to its versatility and efficiency against a wide range of guard configurations.
+Toreando Pass, also known as the Bullfighter Pass, is a dynamic offensive technique in Brazilian Jiu-Jitsu (BJJ) used to pass an opponent's guard, transitioning from an Open Guard Top or Standing Guard position to a dominant Side Control or Top Position. This technique involves using footwork and grip control to redirect the opponent's legs to one side, effectively bypassing their guard to achieve a controlling top position. It is particularly effective against open guard players who rely on leg control, embodying the BJJ principle of mobility and leverage to dominate from the top. Toreando Pass is a key strategy in both gi and no-gi grappling, offering a high-percentage method to overcome guard defenses and establish positional dominance with fluid movement.
+
+## Visual Execution Sequence
+Detailed description for clear visualization of the transition in action:
+
+Starting from an Open Guard Top or Standing Guard position, you are standing in front of your opponent who is on their back with their legs engaged in an open guard, attempting to control or attack with their feet on your hips or gripping your ankles, as you remain alert for their movements and grip opportunities while maintaining a strong posture with your hands ready to engage their legs or pants in gi or their ankles in no-gi. As you initiate the Toreando Pass, you establish control by gripping their pants at the knees or ankles, or controlling their shins in no-gi, and step to one side with quick footwork to redirect their legs, beginning to move their guard frame out of your path while keeping your posture upright to avoid being off-balanced. You continue to drive their legs to the side with your grips, feeling their resistance as they attempt to re-guard or sweep, using a lateral step to circle around their legs, keeping your hips low and base wide to maintain stability and prevent them from pulling you into their guard. With precise timing, you maintain control of their legs, pushing them further to one side as if waving a bullfighter's cape, sensing their reaction as they either try to hip escape, switch to a different guard, or attack with submissions, while you adjust your angle and speed to complete the pass by stepping fully around their guard. Mid-transition, you keep your weight centered and hands active to prevent their legs from re-engaging, stepping past their hip line to secure the pass, as you position yourself to transition into Side Control by dropping your weight and establishing a crossface and underhook, or settle into a stable Top Position if they manage to partially recover. You complete the Toreando Pass by securing Side Control, pinning their upper body with control, or maintaining a dominant Top Position if the pass lands you higher, having successfully bypassed their guard with agile footwork and redirection. Throughout the movement, you remain aware of their defensive responses like hip escapes, grip breaks, or submission attempts, adjusting your grip tightness, foot positioning, and lateral movement to counter their efforts, demonstrating an effective offensive technique that establishes dominance over their guard.
+
+**Template**: "From Open Guard Top or Standing Guard, standing in front of opponent on back with legs engaged in open guard, attempting control or attack with feet on hips or gripping ankles, alert for movements and grip opportunities, maintain strong posture with hands ready to engage legs or pants in gi or ankles in no-gi. Initiate Toreando Pass by establishing control, grip pants at knees or ankles or control shins in no-gi, step to one side with quick footwork to redirect legs, move guard frame out of path, keep posture upright to avoid off-balance. Drive legs to side with grips, feel resistance as they re-guard or sweep, use lateral step to circle around legs, keep hips low and base wide for stability and prevent guard pull. Maintain control of legs with precise timing, push further to side like waving bullfighter's cape, sense reaction as they hip escape, switch guard, or attack submissions, adjust angle and speed to complete pass by stepping around guard. Keep weight centered and hands active mid-transition to prevent leg re-engagement, step past hip line to secure pass, position for Side Control by dropping weight with crossface and underhook or stable Top Position if they partially recover. Complete Toreando Pass by securing Side Control, pin upper body with control, or maintain dominant Top Position if pass lands higher, bypass guard with agile footwork and redirection. Stay aware of defensive responses like hip escapes, grip breaks, or submission attempts, adjust grip tightness, foot positioning, lateral movement to counter, establish dominance over guard."
 
 ## Execution Steps
-1. From standing position, establish grips on opponent's legs (pants at knees in gi, direct control in no-gi)
-2. Create pressure by driving forward to elicit defensive reaction
-3. Redirect opponent's legs to one side with explosive movement
-4. Circle around to the opposite side while maintaining leg control
-5. Prevent opponent's hip mobility through proper timing and pressure
-6. Keep chest pressure during the transition to limit re-guarding attempts
-7. Establish side control with proper weight distribution
-8. Secure upper body control to prevent defensive counters
+1. Begin in an Open Guard Top or Standing Guard position, maintaining awareness of the opponent's guard movements and identifying an opportunity to initiate a pass while keeping a strong upright posture.
+2. Establish control by gripping their pants at the knees or ankles in gi, or controlling their shins or ankles in no-gi, preparing to redirect their legs to one side.
+3. Step to one side with quick footwork to begin moving their guard frame out of your path, using lateral movement to avoid their control points like feet on hips.
+4. Drive their legs further to the chosen side with your grips, circling around their legs with a lateral step while keeping your hips low and base wide for stability.
+5. Maintain control of their legs, pushing them aside as if waving a bullfighter's cape, adjusting your angle and speed to step fully around their guard while preventing re-engagement.
+6. Step past their hip line to secure the pass, keeping your weight centered and hands active to block any attempts to re-guard or sweep.
+7. Complete the Toreando Pass by transitioning into Side Control, dropping your weight and establishing a crossface and underhook to pin their upper body, or settling into a stable Top Position if they partially recover.
+8. Remain aware of their defensive responses like hip escapes or submission attempts, adapting your grip tightness, foot positioning, and lateral movement to consolidate the pass and maintain dominance.
 
-## Key Grips/Controls
-- Pants/knee control in gi (double pants grip)
-- Direct knee/shin control in no-gi
-- Sleeve or collar control to limit upper body mobility (gi)
-- Wrist or bicep control for upper body limitation (no-gi)
-- Shoulder pressure during completion phase
-- Hip control during final stage of pass
-- Chest connection to prevent space creation
+## Key Details
+- **Grip Control**: Essential to grip pants or shins for leg redirection.
+- **Footwork Precision**: Quick lateral steps to circle around guard.
+- **Posture Maintenance**: Upright stance to avoid being pulled into guard.
+- **Leg Redirection**: Push legs to one side to bypass guard frame.
+- **Base Stability**: Low hips and wide base for balance during pass.
+- **Hip Line Crossing**: Step past hips to secure pass completion.
+- **Active Hands**: Prevent leg re-engagement with continuous control.
+- **Offensive Awareness**: Monitor for sweeps or submission counters.
 
-## Common Counters
-- [[Leg Elevation]] → [[Shin Shield]]
-- [[Inversion Defense]] → [[Inverted Guard]]
-- [[Shin-to-Shin Entry]] → [[Shin-to-Shin Guard]]
-- [[Lasso Guard Entry]] → [[Lasso Guard]]
-- [[Collar Drag]] → [[Sweep Sequence]]
+## Success Modifiers
+Factors that influence the success rate of the transition:
+- **Footwork Speed**: Quick lateral movement to outpace guard recovery (+10%)
+- **Grip Strength**: Secure control to redirect legs effectively (+8%)
+- **Timing Precision**: Initiating pass at optimal moment of guard exposure (+7%)
+- **Posture Control**: Maintaining upright stance to resist guard pull (+5%)
+- **Experience Level**: Familiarity with dynamic passing mechanics (+5% per skill level)
+
+## Common Counters and Counter-Attacks
+Analysis of opponent responses with success rates for counter-attacks:
+- **Hip Escape** → [[Guard Recovery]] (Success Rate: 30%, Conditions: opponent shrimps to recover guard during pass)
+- **Sweep Attempt** → [[Bottom Position]] (Success Rate: 25%, Conditions: opponent uses leg control for sweep during lateral movement)
+- **Submission Counter** → [[Triangle Control]] (Success Rate: 20%, Conditions: opponent catches leg or neck during pass attempt)
+- **Grip Break** → [[Open Guard Bottom]] (Success Rate: 15%, Conditions: opponent breaks leg control to re-establish guard)
+- **Leg Lock Attempt** → [[Kneebar Control]] (Success Rate: 10%, Conditions: opponent attacks exposed leg during pass)
+
+## Decision Logic for Transition
+```
+If [opponent's guard] is open with legs exposed for control:
+- Initiate [[Toreando Pass]] to bypass guard (Probability: 65%)
+
+Else if [scramble situation] offers passing opportunity with space:
+- Execute [[Toreando Pass]] for dominant position (Probability: 60%)
+
+Else if [personal strategy] favors dynamic passing over pressure:
+- Attempt [[Toreando Pass]] to outmaneuver guard (Probability: 55%)
+
+Else if [opponent counters] with strong hip escape or grip break mid-pass:
+- Adjust to [[Knee Cut Pass]] for alternative pass (Probability: 40%)
+
+Else if [pass fails] due to successful sweep or submission threat:
+- Transition to [[Defensive Position]] to mitigate (Probability: 30%)
+```
 
 ## Variants
-- Classical Toreando (direct side control finish)
-- Modified Toreando with knee-on-belly transition
-- Double-under grip variation
-- Single-side control variation
-- No-gi specific hand positioning
-- Floating Toreando with temporary weightlessness
-- Reactive Toreando as defensive counter
-- Pressure variation with added upper body control
+- **Standard Toreando Pass**: Classic pass with direct leg redirection to one side.
+- **Feint Toreando Pass**: Using a fake step to one side to bait reaction before passing opposite.
+- **Dynamic Toreando Pass**: Incorporating multiple directional steps to confuse guard player.
+- **Counter Toreando Pass**: Baiting guard engagement to open passing lane for redirection.
+- **Double Toreando Pass**: Controlling both legs simultaneously for maximum redirection.
+- **Toreando to Submission**: Transitioning directly to a submission setup after passing.
+- **Combination Pass**: Chaining with other passes like Knee Cut if initial Toreando fails.
+- **No-Gi Toreando Pass**: Adapted for no-gi with shin or ankle control instead of pants grips.
 
-## Expert Insights
-- **Danaher System**: Emphasizes the Toreando as a core component of a systematic approach to passing, focusing on precision in grip placement and timing rather than pure speed. Creates clear mechanical principles for controlling the opponent's defensive frames throughout the pass, with particular focus on preventing the recovery of guard through methodical pressure application during the circling phase.
-- **Gordon Ryan**: Utilizes the Toreando as part of an integrated passing system, often employing it as a primary option against seated and butterfly guard variations. Emphasizes creating dilemmas for the guard player through grip configurations that limit defensive options while maintaining the ability to transition to alternate passes if resistance is encountered.
-- **Eddie Bravo**: Has adapted the traditional Toreando concepts for no-gi specific scenarios, focusing on controlling the legs through hooks and direct pressure rather than cloth grips. Emphasizes the importance of hip movement and angle creation during the pass, particularly when facing 10th Planet-specific guard configurations.
-
-## Timing Considerations
-- Execute when opponent's legs are extended
-- Time with opponent's attempt to establish specific guards
-- Perform after breaking opponent's grips
-- Implement when opponent shifts weight to one side
-- Use as counter to specific guard recovery attempts
-
-## Follow-up Options
-- [[Side Control Consolidation]] → [[Side Control]]
-- [[Transition to Mount]] → [[Mount]]
-- [[Knee on Belly]] → [[Knee on Belly Position]]
-- [[Kimura Trap]] → [[Kimura Control]]
-- [[North-South Transition]] → [[North-South]]
-- [[Far Side Armbar]] → [[Armbar Control]]
-
-## Video References
-- Gui Mendes' competition Toreando sequences
-- Lucas Lepri's systematic approach to the Toreando
-- Rafael Lovato Jr.'s pressure Toreando variation
-- Bernardo Faria's grip-fighting to Toreando combinations
-- Rafa Mendes' dynamic Toreando variations
+## Tactical Applications
+- **Guard Passing**: Primary use to bypass open guard configurations.
+- **Offensive Strategy**: Establishes top control for attack potential.
+- **Counter-Attack Setup**: Sets up submissions or further passes after control.
+- **Energy Management**: Moderate energy cost balanced by strategic outcome.
+- **Versatile Approach**: Works in gi and no-gi against various guard types.
 
 ## Common Errors
-- Insufficient leg control → Re-guarding opportunity
-- Poor pressure maintenance → Space creation
-- Improper circling angle → Inefficient pathway
-- Neglecting upper body control → Defensive framing
-- Premature release of grips → Guard recovery
+For knowledge test generation and error correction:
+- **Error**: Slow or predictable footwork
+- **Why It Fails**: Allows opponent to react and recover guard or counter before pass completion
+- **Correction**: Move with quick, lateral steps to outpace guard recovery and maintain surprise
+- **Recognition**: Opponent easily re-guards or sweeps during slow movement
 
-## Computer Science Analogy
-The Toreando Pass functions as an "efficient path algorithm" in the BJJ state graph that optimizes the trajectory from the open guard state to the side control state. It implements a form of "constraint manipulation" by redirecting the opponent's most powerful defensive resources (their legs) away from their effective range, creating a temporary state where defensive options are minimized. The technique exemplifies the concept of "asynchronous state transitions" where one subsystem (leg position) is manipulated first, creating favorable conditions for the subsequent transition of another subsystem (upper body position) to complete the state change.
+- **Error**: Poor grip control or leg redirection
+- **Why It Fails**: Leaves guard vulnerable to re-engagement without effective bypass
+- **Correction**: Secure strong grips on pants or shins and push legs decisively to one side
+- **Recognition**: Opponent pulls legs back into guard or attacks with submissions
+
+- **Error**: Overcommitting weight or losing posture
+- **Why It Fails**: Risks being pulled into guard or swept due to loss of balance
+- **Correction**: Keep posture upright and weight centered while stepping around guard
+- **Recognition**: Feeling off-balance or opponent easily pulls you into guard
+
+## Knowledge Assessment Questions
+5 technical questions with multiple choice answers:
+- **Setup Understanding**: "What is the primary goal of Toreando Pass?"
+  - A) To immediately attempt a submission from standing
+  - B) To bypass opponent's guard and achieve top control (Correct)
+  - C) To tire out the opponent with grip fighting
+  - D) To set up a defensive stance
+- **Strategic Application**: "Why is footwork critical in Toreando Pass?"
+  - A) To look dominant during the pass
+  - B) To outmaneuver opponent's guard recovery with quick lateral steps (Correct)
+  - C) To conserve energy for later moves
+  - D) To intimidate the opponent
+- **Error Recognition**: "What is a common mistake when attempting Toreando Pass?"
+  - A) Moving too quickly around the guard
+  - B) Slow footwork, allowing opponent to react and recover guard (Correct)
+  - C) Gripping the opponent's arms instead of legs
+  - D) Standing too close to the opponent
+- **Offensive Awareness**: "How can you counter an opponent’s attempt to re-guard during Toreando Pass?"
+  - A) Release the attempt and reset to standing
+  - B) Maintain grip on legs and adjust angle to complete pass (Correct)
+  - C) Wait for them to tire out
+  - D) Switch to a submission attempt immediately
+- **Transition Knowledge**: "What is the next logical step after successfully executing Toreando Pass?"
+  - A) Attempt a standing submission
+  - B) Secure Side Control or stabilize Top Position (Correct)
+  - C) Allow the opponent to recover guard
+  - D) Release the leg control to reset
+
+## Training Progressions
+Skill development pathway:
+- **Grip Drilling**: Practice gripping pants or shins for leg control solo or with dummy.
+- **Footwork Familiarization**: Work on quick lateral stepping mechanics around a target.
+- **Leg Redirection Practice**: Incorporate leg pushing to one side in partner drills.
+- **Pass Integration**: Combine grip, footwork, and redirection in controlled partner drills for guard passing.
+- **Live Application**: Use Toreando Pass in sparring to bypass open guards, focusing on achieving top control.
+- **Counter Offense**: Train adjustments against common guard recovery or submission counters.
+
+## Audio & Narration Elements
+### Position Descriptions
+Dynamic language for TTS narration:
+- **Control Verbs**: Grip, step, redirect, push, circle, adjust
+- **Spatial References**: Step to side, legs to one side, past hip line
+- **Pressure Dynamics**: Quick footwork, controlled leg redirection
+- **Movement Descriptions**: Lateral circling, agile stepping, guard bypass
+
+### Coaching Commentary
+Real-time instruction and feedback:
+- **Setup Cues**: "Stay alert, look to pass when their legs are exposed"
+- **Control Guidance**: "Grip strong, step quick to push their legs aside"
+- **Adjustment Prompts**: "Keep moving, circle around their guard frame"
+- **Transition Confirmation**: "Good pass, secure control and drop your weight"
+
+## Technical Specifications
+### Control Mechanics
+Scientific position analysis:
+- **Force Vectors**: Lateral push to redirect opponent's legs to one side
+- **Leverage Points**: Grip control and footwork create passing leverage
+- **Stability Factors**: Low hips and wide base for balance during pass
+- **Mobility Dynamics**: Quick lateral movement for guard circumvention
+- **Energy Efficiency**: Moderate energy use with high strategic return for positional control
+
+### Success Factors
+Elements that strengthen position:
+- **Footwork Agility**: Quick steps to outmaneuver guard (+/-12%)
+- **Grip Quality**: Secure control for effective redirection (+/-10%)
+- **Timing Precision**: Optimal moment to initiate pass (+/-8%)
+- **Opponent Guard Type**: Open or less controlling guard (+/-5%)
+- **Experience Level**: Familiarity with dynamic passing (+/-5%)
+
+## Validation Checklist
+Every transition file must include:
+- [x] All required properties with specific values
+- [x] Detailed visual execution sequence (minimum 4 sentences)
+- [x] Complete execution steps list (minimum 5 steps)
+- [x] Success modifiers with specific percentages
+- [x] At least 3 common counters with success rates
+- [x] Decision logic for transition scenarios
+- [x] Minimum 3 common errors with corrections
+- [x] 5 knowledge test questions with answers
+- [x] Tactical applications and training progression
+- [x] Variants and audio narration elements
+
+## Example Implementation
+See [[Side Control]] for a complete example implementing a position following this transition.
+
+## Notes for Developers
+This standard ensures:
+- Consistent transition data for state machine implementation
+- Detailed control mechanics for realistic modeling
+- Rich content for comprehensive technical documentation
+- Educational value through error analysis
+- Technical depth for authentic understanding
+- Structured transition preparation for complete coverage
+- Knowledge assessment integration
+- Training progression guidance
+
+Updates to this standard should be reflected across related transition setup files to maintain consistency and educational value.
+
+## Related Transitions
+- **Knee Cut Pass** - Alternative guard pass with different mechanics
+- **Leg Drag Pass** - Offensive pass to control opponent's legs
+- **Stack Pass** - Pressure-based pass as a follow-up option
+- **Body Lock Pass** - Potential follow-up pass after initial redirection
+
+## Historical Context
+Toreando Pass has been a staple in Brazilian Jiu-Jitsu as a dynamic guard passing technique, particularly effective in competitive gi contexts where mobility and points are prioritized. It reflects the strategic emphasis on agile top game movement taught by modern BJJ schools and has been refined by competitors like Rafael Mendes to counter evolving guard styles.
+
+## Competition Applications
+- **IBJJF Rules**: Legal at all belt levels in gi and no-gi competition
+- **Strategic Use**: Highly effective for passing points and establishing control
+- **Gi Specificity**: Works in gi with pants grips, adaptable to no-gi with shin control
+- **Tournament Impact**: Changes guard strategies by forcing opponents to defend against mobile passing
+
+## Safety Considerations
+- **Movement Safety**: Apply footwork with control to avoid tripping or injury
+- **Partner Awareness**: Communicate during dynamic passing drills
+- **Mat Space**: Ensure adequate space for lateral movements and passing
+- **Control Release**: Be prepared to adjust if opponent counters aggressively
+
+## Transition Integration
+**Common Toreando Pass combinations:**
+- [[Toreando Pass]] → [[Side Control]] → [[Mount]]
+- [[Toreando Pass]] → [[Top Position]] → [[Knee on Belly]]
+- [[Toreando Pass]] → [[Body Lock Pass]] → [[North-South]]
+
+## Training Applications
+- **Guard Passing Foundation**: Essential for building effective top game strategy
+- **Competition Preparation**: Strong transition for tournament passing tactics
+- **Control Development**: Builds understanding of mobility and leverage over guard
+- **Strategic Exploration**: Encourages chaining passes with submissions or further control

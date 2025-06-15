@@ -1,124 +1,243 @@
 # Leg Drag Setup
-#bjj #transition #guardpass #setup
+#bjj #transition #guard_pass #setup #offense
 
 ## Transition Properties
-- **Transition ID**: T801
-- **Classification**: Setup
-- **Starting Position**: [[Open Guard Top]], [[Combat Base]], or [[Headquarters Position]]
-- **Target Position**: [[Leg Drag Pass]]
-- **Success Probability**: Beginner (50%), Intermediate (75%), Advanced (85%)
-- **Execution Complexity**: Medium
-- **Physical Attributes**: Hip mobility (Medium), Grip strength (Medium), Timing (High)
+- **Transition ID**: T811
+- **Classification**: Offensive Guard Pass Setup
+- **Starting Position**: [[Open Guard]] (top), [[De La Riva Guard]] (top)
+- **Target Position**: [[Leg Drag Pass]], [[Side Control]]
+- **Success Probability**: Beginner (60%), Intermediate (75%), Advanced (85%)
+- **Execution Complexity**: Low
+- **Physical Attributes**: Coordination (Medium), Timing (Medium), Strength (Low)
+- **Risk Level**: Low - minimal exposure as it’s a preparatory move
+- **Energy Cost**: Low - requires minimal effort for positioning and grip
+- **Transition Type**: Offensive Setup Transition
 
 ## Transition Description
-The Leg Drag Setup encompasses the strategic maneuvers used to create the conditions necessary for executing the Leg Drag Pass. This setup phase focuses on grip establishment, opponent manipulation, and proper positioning that creates the specific angle and opportunity to drag the opponent's leg across their body. Unlike the pass itself, the setup is characterized by preliminary movements, grip battles, and strategic weight distribution that force the opponent into a position where the leg drag becomes high-percentage. Mastering these setup mechanics is crucial for successfully implementing the leg drag passing system against skilled opponents who actively work to prevent this powerful pass.
+The Leg Drag Setup is a preparatory technique in Brazilian Jiu-Jitsu (BJJ) used to position oneself for the Leg Drag Pass from a top position in Open Guard or De La Riva Guard. This setup involves establishing the initial grips and body positioning necessary to disrupt the opponent's guard structure by targeting one of their legs for dragging across their body. It is a critical first step in executing the full Leg Drag Pass, embodying the BJJ principle of strategic preparation to maximize the effectiveness of subsequent movements. The Leg Drag Setup is applicable in both gi and no-gi grappling, providing a foundation for a high-percentage guard passing sequence.
+
+## Visual Execution Sequence
+Detailed description for clear visualization of the transition in action:
+
+Starting in top Open Guard, you are standing with your opponent on their back, their legs actively framing against your torso, with their right foot on your left hip and their left foot near your right thigh, while their hands grip your pants or sleeves to control your posture and set up potential sweeps or submissions. To initiate the Leg Drag Setup, you first establish a strong posture by straightening your back and keeping your elbows tucked in, breaking their upper body control with minimal effort, ensuring you maintain balance and prevent submissions like triangles. You then step slightly to your left, angling your body to create a better line of attack for targeting their right leg, keeping your weight centered to avoid overcommitting and exposing yourself to sweeps. With precision, you secure a grip on their right pant leg near the ankle with your left hand, using a firm hold to prepare for the drag, while your right hand reaches to control their right knee or shin, preventing it from re-entangling or framing against you, feeling their initial resistance as you establish control over their leg. Mid-setup, you maintain your posture and grips, keeping your hips slightly back to avoid being pulled into their guard, ensuring their right leg is isolated and ready to be pulled across their body in the subsequent Leg Drag Pass, while monitoring their left leg for any defensive adjustments. You complete the setup by mentally preparing for the next step, visualizing the drag of their right leg towards your right side, maintaining a low energy expenditure as you position yourself for the pass, having successfully established the necessary control points to transition into the full Leg Drag Pass. Throughout the movement, you remain aware of their attempts to break your grips or re-guard, adjusting your stance and grip strength to counter their defenses, demonstrating a strategic setup technique that prepares you to bypass a complex guard position with calculated precision.
+
+**Template**: "From top Open Guard, standing, opponent on back, legs framing torso, right foot on left hip, left near right thigh, hands gripping pants or sleeves for control. Establish strong posture, straighten back, tuck elbows to break control, maintain balance, prevent submissions. Step left to angle body for targeting right leg, keep weight centered to avoid sweeps. Grip right pant leg near ankle with left hand, firm hold for drag, control right knee with right hand to prevent entanglement, feel initial resistance. Maintain posture and grips mid-setup, hips back to avoid guard pull, isolate right leg for drag, monitor left leg adjustments. Prepare mentally for drag to right side, low energy use, position for pass, establish control for Leg Drag Pass. Stay aware of grip breaks or re-guard attempts, adjust stance and grip to counter, prepare to bypass complex guard with calculated precision."
 
 ## Execution Steps
-1. Establish a strong base, typically from Combat Base or Headquarters Position
-2. Control opponent's same-side collar or sleeve with your same-side hand
-3. Secure grip on opponent's same-side pant leg at knee or ankle
-4. Create misdirection by threatening a different pass or pressure
-5. Use grips to break opponent's guard structure and prevent recomposition
-6. Create angle by stepping slightly outward with lead leg
-7. Pull opponent's controlled leg toward you while maintaining upper body control
-8. Position your knee to block opponent's hip, setting up the leg drag position
+1. Begin in top Open Guard or De La Riva Guard, recognizing the opportunity to set up a pass when the opponent's legs are accessible for control.
+2. Establish a strong posture by straightening your back and tucking your elbows in to break their grip control over your upper body, maintaining balance to prevent submissions.
+3. Step to one side (opposite the leg you intend to drag) to angle your body for the setup, keeping your weight centered to avoid overcommitting and exposing yourself to sweeps.
+4. Secure a grip on the targeted leg near the ankle with one hand, using a firm hold to prepare for dragging, while controlling their knee or shin with your other hand to prevent re-entanglement or framing.
+5. Maintain your posture and grips, keeping your hips slightly back to avoid being pulled into their guard, ensuring the targeted leg is isolated and ready for the subsequent drag across their body.
+6. Monitor their other leg and upper body for defensive adjustments, mentally preparing for the next step of dragging the leg to initiate the full Leg Drag Pass, conserving energy during this preparatory phase.
+7. Remain aware of their attempts to break your grips or re-guard, adjusting your stance and grip strength to counter their defenses and maintain control of the setup position.
+8. Transition smoothly into the Leg Drag Pass by visualizing the drag direction and preparing your body to step forward, having established the necessary control points for the pass.
 
 ## Key Details
-- **Grip Sequencing**: Establish upper body control before securing leg grip to prevent defensive reactions
-- **Weight Distribution**: Keep weight centered during setup to maintain mobility until pass initiation
-- **Guard Breaking**: Create opening in opponent's guard structure before attempting to manipulate their leg
-- **Angle Creation**: Position at 45-degree angle to opponent's hips for optimal mechanical advantage
-- **Timing Mechanics**: Initiate leg manipulation during opponent's guard recovery attempts
-- **Hip Positioning**: Maintain elevated hips to increase mobility and reaction time
-- **Knee Placement**: Position lead knee to block opponent's hip mobility during transition
-- **Upper Body Control**: Use collar or sleeve grip to limit opponent's upper body defensive options
+- **Posture Maintenance**: Essential to break opponent’s upper body control and prevent submissions.
+- **Angled Positioning**: Stepping to one side creates an optimal angle for targeting the leg.
+- **Grip Establishment**: Secure grip on ankle and knee/shin to isolate the targeted leg.
+- **Hip Positioning**: Keep hips back to avoid being pulled into guard or off-balanced.
+- **Defensive Awareness**: Monitor opponent’s other leg and upper body for counters.
+- **Energy Conservation**: Minimize effort during setup to save energy for the pass.
+- **Mental Preparation**: Visualize drag direction and next steps for smooth transition.
+- **Control Focus**: Prioritize isolating the leg to disrupt guard structure early.
 
-## Common Counters
-- [[Knee Shield]] → [[Half Guard Bottom]]
-- [[Lasso Guard]] → [[Lasso Control]]
-- [[De La Riva Hook]] → [[De La Riva Guard]]
-- [[Inversion Attempt]] → [[Inverted Guard]]
-- [[Frame Creation]] → [[Guard Recovery]]
-- [[Shin Shield]] → [[Shin-to-Shin Guard]]
+## Success Modifiers
+Factors that influence the success rate of the transition:
+- **Posture Strength**: Ability to maintain balance and resist opponent’s control (+10%)
+- **Grip Precision**: Secure and effective control of targeted leg (+8%)
+- **Angling Accuracy**: Proper body angle to optimize leg isolation (+7%)
+- **Defensive Monitoring**: Awareness of opponent’s counters during setup (+5%)
+- **Experience Level**: Familiarity with guard passing setups and transitions (+5% per skill level)
+
+## Common Counters and Counter-Attacks
+Analysis of opponent responses with success rates for counter-attacks:
+- **Grip Break** → [[Guard Retention]] (Success Rate: 40%, Conditions: opponent breaks grip on ankle or knee to re-establish guard)
+- **Leg Re-Entanglement** → [[De La Riva Guard]] (Success Rate: 35%, Conditions: opponent re-entangles leg to prevent isolation)
+- **Upper Body Control** → [[Triangle Setup]] (Success Rate: 30%, Conditions: opponent pulls you into guard with posture control)
+- **Sweep Attempt** → [[Bottom Position]] (Success Rate: 25%, Conditions: opponent uses setup moment to initiate sweep)
+- **Counter Pass Defense** → [[Shin-to-Shin Guard]] (Success Rate: 20%, Conditions: opponent adjusts other leg to block pass path)
+
+## Decision Logic for Transition
+```
+If [opponent legs] are accessible and guard structure is open:
+- Initiate [[Leg Drag Setup]] for control (Probability: 80%)
+
+Else if [opponent grip control] is weak or posture is breakable:
+- Execute [[Leg Drag Setup]] to isolate leg (Probability: 75%)
+
+Else if [opponent leg] can be targeted with minimal resistance:
+- Attempt [[Leg Drag Setup]] to prepare for pass (Probability: 70%)
+
+Else if [opponent counters] with grip breaks or re-entanglement mid-setup:
+- Adjust to [[Posture Maintenance]] for defense (Probability: 60%)
+
+Else if [setup fails] due to strong guard retention or sweep threat:
+- Reinforce [[Standing Guard]] to reset approach (Probability: 50%)
+```
 
 ## Variants
-- Knee slice feint to leg drag setup
-- Double sleeve control setup
-- Standing leg drag setup
-- Headquarters transition setup
-- Collar and sleeve control variation
-- No-gi underhook setup variation
+- **Standard Leg Drag Setup**: Classic grip on ankle and knee for Open Guard.
+- **De La Riva Specific Setup**: Adjusted grips to counter De La Riva hook control.
+- **No-Gi Adaptation**: Focus on leg control without gi grips, using body pressure.
+- **Double Leg Control Setup**: Controlling both legs initially before targeting one.
+- **Feint Setup**: Using a fake pass direction to bait opponent before dragging.
+- **Low Stance Setup**: Dropping to knees for closer control during setup.
+- **Dynamic Step Setup**: Incorporating more movement to disrupt guard rhythm.
+- **Grip Variation Setup**: Using sleeve or collar grips to assist leg isolation.
 
 ## Tactical Applications
-- Create passing pressure that forces defensive reactions
-- Break opponent's preferred guard structure
-- Force opponent to make defensive decisions that create openings
-- Limit opponent's hip mobility before commitment to pass
-- Establish control points that prevent counter-attacks
-- Set up chain passing sequences with multiple threats
-
-## Setup Connections
-- [[Headquarters Position]] → [[Leg Drag Setup]]
-- [[Knee Cut Position]] → [[Leg Drag Setup]]
-- [[Toreando Pass]] → [[Leg Drag Setup]]
-- [[Guard Break]] → [[Leg Drag Setup]]
-- [[Combat Base]] → [[Leg Drag Setup]]
-- [[Grip Fighting]] → [[Leg Drag Setup]]
-
-## Follow-up Options
-- [[Leg Drag Setup]] → [[Leg Drag Pass]]
-- [[Leg Drag Setup]] → [[Knee Cut Pass]]
-- [[Leg Drag Setup]] → [[Body Lock Pass]]
-- [[Leg Drag Setup]] → [[Toreando Pass]]
-- [[Leg Drag Setup]] → [[Back Step]]
-- [[Leg Drag Setup]] → [[X-Pass]]
-
-## Expert Insights
-- **Danaher System**: Emphasizes the leg drag setup as part of a comprehensive passing system where the primary focus is on establishing specific control points before attempting the pass. Considers proper grip sequence and hip positioning as the critical elements that determine success, viewing the setup as a systematic breakdown of defensive resources rather than a single technique.
-- **Gordon Ryan**: Utilizes feints and misdirection extensively in his leg drag setups, often threatening multiple passes simultaneously to create the opening for the leg drag. Places significant emphasis on upper body control and posture manipulation during the setup phase to limit defensive options before committing to the pass.
-- **Eddie Bravo**: Has adapted leg drag setups for no-gi by focusing on underhook control and head position rather than traditional gi grips. Incorporates specific hand positioning and pressure points to compensate for the lack of cloth grips, emphasizing weight distribution and timing over static control.
+- **Guard Disruption**: Primary use to break down complex guard structures.
+- **Pass Preparation**: Sets up high-percentage Leg Drag Pass for dominance.
+- **Control Establishment**: Isolates opponent’s leg to limit defensive options.
+- **Energy Efficiency**: Low energy cost allows sustained passing pressure.
+- **Versatile Approach**: Works against various guard types in gi and no-gi.
 
 ## Common Errors
-- Premature commitment to the pass → Defensive inversion opportunity
-- Insufficient upper body control → Guard recovery
-- Poor angle creation → Ineffective leg manipulation
-- Telegraphing intentions → Preventative defense
-- Neglecting hip position → Reduced mobility
-- Improper timing → Missing optimal passing window
-- Excessive focus on leg control → Upper body defensive frames
+For knowledge test generation and error correction:
+- **Error**: Poor posture during setup
+- **Why It Fails**: Allows opponent to pull you into guard or set up submissions
+- **Correction**: Maintain straight back and tucked elbows to resist control
+- **Recognition**: Feeling off-balanced or pulled forward by opponent’s grips
 
-## Performance Tips
-- Create subtle misdirection before initiating leg drag mechanics
-- Maintain mobile hips throughout the setup phase
-- Focus on breaking opponent's preferred guard structure
-- Time the setup during opponent's attempted guard recovery
-- Use progressive pressure to elicit predictable defensive reactions
-- Establish dominant grips before attempting leg manipulation
-- Practice seamless transitions between different pass setups
+- **Error**: Incorrect grip placement on leg
+- **Why It Fails**: Fails to isolate leg effectively, allowing re-entanglement
+- **Correction**: Grip near ankle and control knee/shin for maximum leverage
+- **Recognition**: Opponent easily pulls leg back or re-frames against you
 
-## Training Approaches
-- Positional sparring from open guard with focus on setup mechanics
-- Grip fighting drills specific to leg drag setup
-- Partner drills isolating specific defensive reactions
-- Flow training between multiple pass setups
-- Video analysis of high-level leg drag specialists
-- Progressive resistance drills for setup mechanics
+- **Error**: Overcommitting weight during setup
+- **Why It Fails**: Exposes you to sweeps by shifting balance too far forward
+- **Correction**: Keep weight centered and hips back to maintain stability
+- **Recognition**: Opponent initiates sweep or off-balances you easily
 
-## Timing Considerations
-- Implement during opponent's guard recovery attempts
-- Execute after successful guard break
-- Time with opponent's grip breaks or adjustments
-- Initiate when opponent commits weight to one side
-- Synchronize with opponent's breathing cycle (during exhale)
-- Apply during transitions between different guard variations
+## Knowledge Assessment Questions
+5 technical questions with multiple choice answers:
+- **Setup Understanding**: "What is the primary goal of the Leg Drag Setup?"
+  - A) To immediately pass to Side Control
+  - B) To establish grips and position for the Leg Drag Pass (Correct)
+  - C) To set up a submission from top guard
+  - D) To tire out the opponent with pressure
+- **Strategic Application**: "Why is posture maintenance critical during the Leg Drag Setup?"
+  - A) To look dominant during the pass
+  - B) To prevent opponent’s control and submissions (Correct)
+  - C) To conserve energy for later moves
+  - D) To intimidate the opponent
+- **Error Recognition**: "What is a common mistake when establishing grips in the Leg Drag Setup?"
+  - A) Gripping too loosely on the ankle or knee (Correct)
+  - B) Gripping the opponent’s arm instead of leg
+  - C) Gripping with both hands on the same spot
+  - D) Gripping without stepping to the side
+- **Defensive Awareness**: "How can you counter an opponent’s attempt to re-entangle their leg during setup?"
+  - A) Release the grip and reset posture
+  - B) Strengthen grip on knee/shin and maintain angle (Correct)
+  - C) Switch to a different pass immediately
+  - D) Drop to knees to apply more pressure
+- **Transition Knowledge**: "What is the next logical step after completing the Leg Drag Setup?"
+  - A) Attempt a submission from guard top
+  - B) Execute the full Leg Drag Pass to Side Control (Correct)
+  - C) Step back to disengage from guard
+  - D) Switch to a different guard pass setup
 
-## Strategic Contexts
-- Competition scenarios requiring reliable guard passing
-- Against flexible guard players with strong recovery skills
-- When facing opponents with strong open guard techniques
-- As part of systematic guard passing approaches
-- In points-based competitions where passing scores points
-- Against opponents who prefer distance-based guards
+## Training Progressions
+Skill development pathway:
+- **Posture Drilling**: Practice maintaining strong posture against guard pulls solo or with partner.
+- **Grip Familiarization**: Work on securing ankle and knee/shin grips with proper placement.
+- **Angling Practice**: Incorporate stepping to the side to create optimal setup angles.
+- **Setup Integration**: Combine posture, grips, and angling in controlled partner drills.
+- **Live Application**: Use setup in sparring to prepare for Leg Drag Pass, focusing on control.
+- **Counter Defense**: Train adjustments against common counters like grip breaks or sweeps.
 
-## Conceptual Relationship to Computer Science
-The Leg Drag Setup functions as a "pre-processing algorithm" in the BJJ state machine that creates the specific conditions necessary for transitioning to a high-value state. Similar to how data pre-processing prepares information for more effective algorithm execution, the setup phase manipulates key variables (grips, angles, weight distribution) to optimize the probability of successful execution of the leg drag pass algorithm. This creates a form of "input validation and sanitization" where the practitioner methodically creates a valid input state that maximizes the likelihood of the pass algorithm executing successfully, effectively reducing the state space to a more manageable subset where desired transitions have higher probability.
+## Audio & Narration Elements
+### Position Descriptions
+Dynamic language for TTS narration:
+- **Control Verbs**: Grip, secure, control, isolate, angle, prepare
+- **Spatial References**: Ankle grip, knee control, side step, centerline drag
+- **Pressure Dynamics**: Minimal pressure, balanced weight, grip strength
+- **Movement Descriptions**: Slight step, centered hips, preparatory stance
+
+### Coaching Commentary
+Real-time instruction and feedback:
+- **Setup Cues**: "Straighten that back and tuck your elbows to break their control"
+- **Control Guidance**: "Grip that ankle tight and control the knee to isolate the leg"
+- **Adjustment Prompts**: "Step to the side to angle your body for the drag"
+- **Transition Confirmation**: "Keep your hips back and prepare to drag that leg across"
+
+## Technical Specifications
+### Control Mechanics
+Scientific position analysis:
+- **Force Vectors**: Minimal force in grips to control leg without overcommitting
+- **Leverage Points**: Ankle and knee grips create leverage for leg isolation
+- **Stability Factors**: Centered weight and strong posture for balance
+- **Mobility Dynamics**: Slight stepping for angling without losing stability
+- **Energy Efficiency**: Low energy use with high setup return for subsequent pass
+
+### Success Factors
+Elements that strengthen position:
+- **Grip Quality**: Strength and placement of ankle and knee control (+/-15%)
+- **Posture Integrity**: Resistance to opponent’s pulling or control (+/-10%)
+- **Body Angle**: Proper stepping to optimize drag direction (+/-10%)
+- **Opponent Resistance**: Reduced framing or grip strength over time (+/-5%)
+- **Experience Level**: Familiarity with guard passing setups (+/-5%)
+
+## Validation Checklist
+Every transition file must include:
+- [x] All required properties with specific values
+- [x] Detailed visual execution sequence (minimum 4 sentences)
+- [x] Complete execution steps list (minimum 5 steps)
+- [x] Success modifiers with specific percentages
+- [x] At least 3 common counters with success rates
+- [x] Decision logic for transition scenarios
+- [x] Minimum 3 common errors with corrections
+- [x] 5 knowledge test questions with answers
+- [x] Tactical applications and training progression
+- [x] Variants and audio narration elements
+
+## Example Implementation
+See [[Leg Drag Pass]] for a complete example implementing the full transition following this setup.
+
+## Notes for Developers
+This standard ensures:
+- Consistent setup data for state machine implementation
+- Detailed control mechanics for realistic modeling
+- Rich content for comprehensive technical documentation
+- Educational value through error analysis
+- Technical depth for authentic understanding
+- Structured transition preparation for complete coverage
+- Knowledge assessment integration
+- Training progression guidance
+
+Updates to this standard should be reflected across related transition setup files to maintain consistency and educational value.
+
+## Related Transitions
+- **Leg Drag Pass** - The full transition following this setup
+- **Toreando Pass** - Alternative guard passing approach
+- **Knee Cut Pass** - Another guard passing technique from similar starting positions
+- **Smash Pass** - Pressure-based passing alternative
+
+## Historical Context
+The Leg Drag Setup and subsequent pass gained prominence in modern BJJ through practitioners like Rafa Mendes and the Atos team, revolutionizing guard passing strategies in competition by focusing on leg control to disrupt guard retention systems.
+
+## Competition Applications
+- **IBJJF Rules**: Legal at all belt levels in gi and no-gi competition
+- **Strategic Use**: Highly effective for setting up points-scoring passes
+- **Gi Specificity**: Enhanced with pant grips but adaptable to no-gi
+- **Tournament Impact**: Changes guard retention strategies significantly
+
+## Safety Considerations
+- **Grip Safety**: Avoid over-gripping to prevent finger strain during setup
+- **Partner Awareness**: Communicate if setup leads to dynamic pass attempts
+- **Mat Space**: Ensure adequate space for stepping and angling movements
+- **Control Release**: Be prepared to release grips if opponent counters aggressively
+
+## Transition Integration
+**Common Leg Drag Setup combinations:**
+- [[Leg Drag Setup]] → [[Leg Drag Pass]] → [[Side Control]]
+- [[Leg Drag Setup]] → [[Leg Drag Pass]] → [[Back Control]]
+- [[Leg Drag Setup]] → [[Toreando Pass]] → [[Side Control]]
+
+## Training Applications
+- **Guard Passing Foundation**: Essential for building effective passing game
+- **Competition Preparation**: Strong setup for tournament passing strategies
+- **Control Development**: Builds understanding of leg isolation mechanics
+- **Strategic Exploration**: Encourages chaining setups with various passes

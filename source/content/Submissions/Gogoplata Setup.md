@@ -1,116 +1,139 @@
 # Gogoplata Setup
 #bjj #transition #submission #10thplanet #setup
 
-## Transition/State Properties
-- **ID**: T203
-- **Starting State**: [[New York Control]] or [[Williams Guard]]
+## Required Properties for State Machine
+
+### Core Identifiers
+- **Submission ID**: S105
+- **Submission Name**: Gogoplata Setup
+- **Alternative Names**: Shin Choke Setup, Rubber Guard Choke Entry
+
+### State Machine Properties
+- **Starting State**: [[New York Control]], [[Williams Guard]]
 - **Ending State**: [[Gogoplata Control]]
-- **Success Probability**: Beginner (30%), Intermediate (55%), Advanced (80%)
-- **Execution Complexity**: High
-- **Physical Attributes**: Flexibility (High), Grip Strength (Medium), Precision (High)
+- **Submission Type**: Setup - Prepares for shin choke submission
 
-## Description
-The Gogoplata Setup represents the critical transitional phase where the practitioner maneuvers from an established Rubber Guard control position (typically New York Control or Williams Guard) into the final Gogoplata Control position. This transition requires exceptional hip mobility and technical precision to successfully position the shin across the opponent's throat while maintaining arm control. Unlike more common submissions, the Gogoplata uses the practitioner's shin as the primary choking mechanism rather than the arms, making it particularly effective against opponents focused on defending conventional upper body submissions. The setup phase is arguably the most technically demanding aspect of the entire Gogoplata sequence, requiring coordinated hip movement, grip adjustments, and precise shin placement to create the conditions for the subsequent submission.
+### Submission Properties
+- **Success Probability**: Beginner 30%, Intermediate 55%, Advanced 80% - core probability data
+- **Execution Complexity**: High - technical difficulty assessment
+- **Energy Cost**: Medium - physical demand of execution
+- **Time Required**: Medium - duration of setup attempt
+- **Risk Level**: Medium - chance of position loss if failed
 
-## Execution Steps
-1. Begin from established New York Control or Williams Guard
-2. Maintain strong wrist/arm control with one hand
-3. Create space by slightly adjusting hip position and angle
-4. Begin to slide shin across opponent's neck/throat region
-5. Guide foot behind opponent's head/neck
-6. Secure foot behind head by applying light pressure
-7. Adjust grip to control opponent's wrist/arm with optimal leverage
-8. Finalize shin position directly across throat
-9. Stabilize position by eliminating defensive space
-10. Transition to active Gogoplata Control
+### Physical Requirements
+- **Strength Requirements**: Medium for grip and control maintenance
+- **Flexibility Requirements**: High for hip mobility and shin positioning
+- **Coordination Requirements**: High for precise shin placement and arm control
+- **Endurance Requirements**: Medium for sustained control during setup
 
-## Key Details
-- **Shin Placement**: Position shin directly across throat, not against jawline or collarbone
-- **Wrist Control**: Maintain constant control of opponent's arm to prevent defensive frames
-- **Foot Lock**: Secure foot behind opponent's head/neck region for stability
-- **Hip Position**: Create optimal angle for shin placement through precise hip adjustment
-- **Space Management**: Create just enough space for shin insertion without losing control
-- **Angle Control**: Align body at slight diagonal for maximum mechanical efficiency
-- **Grip Sequence**: Coordinate grip transitions to maintain constant control
-- **Balance Management**: Maintain stable base throughout transition to prevent counters
+## State Machine Content Elements
 
-## Common Counters
-- [[Posture Defense]] → [[Control Escape]]
-- [[Arm Frame]] → [[Space Creation]]
-- [[Head Pull Back]] → [[Setup Prevention]]
-- [[Forward Pressure]] → [[Guard Flattening]]
-- [[Hand Fighting]] → [[Grip Breaking]]
-- [[Stacking Defense]] → [[Position Reversal]]
+### Visual Execution Sequence
+Detailed step-by-step description for clear movement sequence visualization:
 
-## Variants
-- Standard Gogoplata Setup (from New York Control)
-- Williams to Gogoplata (from Williams Guard)
-- Invisible Gogoplata Setup (minimizing telegraphing)
-- Double-Trouble Gogoplata (with secondary control points)
-- Shin Fade Gogoplata (indirect insertion approach)
-- High-Angle Gogoplata (extreme angle variation)
-- Dead Orchard to Gogoplata (from Dead Orchard Control)
-- Meathook to Gogoplata (from Meathook Control)
+Begin from an established control position such as New York Control or Williams Guard within the Rubber Guard system, where you have already secured a strong wrist or arm control with one hand to prevent the opponent's defensive framing. Adjust your hip position slightly to create the necessary space for shin insertion, maintaining a tight connection to avoid losing control. Start sliding your shin across the opponent's neck or throat region, ensuring it is positioned directly against the throat rather than the jawline or collarbone for maximum effectiveness. Guide your foot behind the opponent's head or neck, applying light pressure to secure it in place, and adjust your grip to optimize leverage on the opponent's wrist or arm. Finalize the shin position directly across the throat, eliminating any defensive space by stabilizing your position, thus transitioning into the active Gogoplata Control ready for the finishing submission.
 
-## Expert Insights
-- **Danaher System**: While not emphasizing the Gogoplata within his system, acknowledges the mechanical principles that make the setup effective, particularly the importance of incrementally establishing control points before committing to final position. Emphasizes understanding the fundamental mechanics of space creation and shin insertion that determine success or failure during the critical setup phase.
-- **Gordon Ryan**: Rarely uses the Gogoplata but recognizes its value as a specialized attack. When analyzing the position, focuses on the setup phase as the critical vulnerability, emphasizing how proper defensive awareness during this transition can nullify the attack before it becomes established.
-- **Eddie Bravo**: As the primary developer of the modern Gogoplata within his 10th Planet system, has refined the setup mechanics to maximize success probability. Emphasizes subtle details like "shin fade" technique to disguise the attack, precise foot positioning behind the head, and incremental pressure application. Considers the setup the most technically demanding aspect of the entire sequence, requiring extensive specialized training.
+**Template**: "From New York Control or Williams Guard, secure wrist control. Adjust hips for space, slide shin across throat. Guide foot behind head, secure with pressure. Optimize grip, finalize shin position across throat for Gogoplata Control."
 
-## Timing Considerations
-- Execute after full establishment of prerequisite control position
-- Time the setup when opponent's attention is divided
-- Accelerate transition if opponent begins recognizing the threat
-- Slow down execution when opponent resists to preserve control
-- Coordinate setup with opponent's breathing cycle
-- Capitalize on opportunities created by opponent's movement
-- Deploy when opponent is focused on defending other attacks
+### Execution Steps (Numbered Sequence)
+1. **Setup Requirements**: Begin from [[New York Control]] or [[Williams Guard]]
+2. **Initial Movement**: Maintain strong wrist/arm control with one hand
+3. **Opponent Response**: Opponent may attempt to posture up or frame defensively
+4. **Adaptation**: Create space by adjusting hip position and angle slightly
+5. **Positioning**: Slide shin across opponent's neck/throat, guide foot behind head
+6. **Pressure Application**: Secure foot with light pressure, adjust grip for leverage
+7. **Completion**: Finalize shin position across throat, stabilize for [[Gogoplata Control]]
 
-## Setup Connections
-- [[Rubber Guard]] → [[Mission Control]] → [[New York Control]] → [[Gogoplata Setup]]
-- [[Mission Control]] → [[Williams Guard]] → [[Gogoplata Setup]]
-- [[Dead Orchard Control]] → [[Arm Isolation]] → [[Gogoplata Setup]]
-- [[Triangle Control]] → [[Position Adjustment]] → [[Gogoplata Setup]]
-- [[Omoplata Control]] → [[Transitional Movement]] → [[Gogoplata Setup]]
-- [[High Guard]] → [[Rubber Guard Entry]] → [[New York Control]] → [[Gogoplata Setup]]
+### Key Technical Details
+Critical elements that determine success:
+- **Grip Requirements**: Constant control of opponent's arm to prevent defensive frames
+- **Base/Foundation**: Hip mobility and angle for effective shin placement
+- **Timing Windows**: Execute when opponent's attention is divided or posture is broken
+- **Leverage Points**: Shin directly across throat for choking setup
+- **Common Adjustments**: Adjust hip angle and shin insertion based on defensive reactions
 
-## Follow-up Options
-- [[Transition to Omoplata]] (if setup is compromised)
-- [[Return to New York Control]] (if resistance is encountered)
-- [[Switch to Triangle]] (if shin positioning fails)
-- [[Williams Guard Recovery]] (if control is maintained but setup fails)
-- [[Sweep to Mount]] (against specific defensive reactions)
+### Success Modifiers
+Factors that increase/decrease probability:
+- **Setup Quality**: Security of wrist control and shin placement (+/-20%)
+- **Timing Precision**: Executing during opponent's divided attention (+/-15%)
+- **Opponent Fatigue**: Reduced defensive resistance over time (+/-5%)
+- **Knowledge Test Performance**: Understanding Gogoplata mechanics (+/-10%)
+- **Positional Control**: Effectiveness of hip adjustment and space management (+/-10%)
 
-## Common Errors
-- Insufficient flexibility → Failed shin placement
-- Premature loss of wrist control → Defensive escape
-- Incorrect shin angle → Ineffective positioning
-- Inadequate space creation → Restricted movement
-- Failed foot positioning → Unstable control
-- Telegraphing the transition → Defensive awareness
+## Counter-Attack Analysis
 
-## Performance Tips
-- Develop progressive flexibility specifically for this technique
-- Practice isolated shin-placement drills with increasing resistance
-- Focus on maintaining constant control throughout the transition
-- Develop sensitivity to opponent's defensive preparations
-- Practice fluid transitions between control positions
-- Create awareness of common defensive patterns
-- Maintain hip mobility and connection throughout the setup
+### Common Counters
+Opponent responses with success rates:
+- **Posture Defense**: Posturing up to prevent shin placement → [[Control Escape]] (Success Rate: 25%, Conditions: early reaction)
+- **Arm Frame**: Framing with arms to create space → [[Space Creation]] (Success Rate: 20%, Conditions: strong defense)
+- **Head Pull Back**: Pulling head back to avoid shin → [[Setup Prevention]] (Success Rate: 15%, Conditions: quick adjustment)
+- **Forward Pressure**: Driving forward to flatten guard → [[Guard Flattening]] (Success Rate: 10%, Conditions: significant leverage)
+- **Hand Fighting**: Fighting grips to break control → [[Grip Breaking]] (Success Rate: 10%, Conditions: immediate action)
 
-## Training Approaches
-- Partner drilling with incremental resistance
-- Flexibility development specifically for Gogoplata mechanics
-- Flow training between related Rubber Guard positions
-- Defensive recognition drills with controlled responses
-- Grip fighting sequences focused on transition maintenance
-- Position-specific sparring starting from pre-setup positions
+Format: `[[Counter Technique]] → [[Result State]] (Success Rate: X%, Conditions: [when applicable])`
 
-## Historical Context
-The Gogoplata Setup represents a modern evolution in submission grappling technique, popularized primarily through Eddie Bravo's 10th Planet system. While shin-across-throat choking mechanics have existed in traditional martial arts, the systematic approach to establishing the position from the Rubber Guard framework represents a significant innovation in contemporary BJJ. The technique gained broader recognition when demonstrated effectively in high-profile MMA competitions by practitioners like Shinya Aoki and Nick Diaz. The development of the setup mechanics highlights how traditional submission principles can be applied through innovative pathways, expanding the technical vocabulary of modern jiu-jitsu beyond conventional approaches.
+### Decision Logic for Opponent Behavior
+```
+If [gogoplata setup] is not fully secured:
+- Execute [[Posture Defense]] (Probability: 25%)
 
-## Conceptual Framework
-The Gogoplata Setup exemplifies the principle of "unconventional leverage creation" in BJJ, where submission pressure is generated through unexpected mechanical pathways. By utilizing the shin rather than the arms as the primary choking mechanism, the technique bypasses common defensive expectations and creates submission threats from angles that may not be readily anticipated. The setup represents the application of fundamental mechanical principles—leverage, angle creation, and space management—through a specialized execution pathway that expands the practitioner's attacking options beyond conventional submissions.
+Else if [arm frame] can create space:
+- Execute [[Arm Frame]] (Probability: 20%)
 
-## Computer Science Analogy
-The Gogoplata Setup functions as an "alternative pathfinding algorithm" in the BJJ state machine, where the system discovers and exploits a non-standard path to reach a terminal submission state. This exemplifies the concept of "heuristic optimization" where the system abandons commonly traversed edges (arm-based submissions) to explore a specialized but potentially more efficient path (shin-based submission) when certain preconditions are met. The transition represents a form of "polymorphic inheritance" where the fundamental methods of the parent class (submission mechanics) are overridden with specialized implementations that achieve the same goal through alternative means, creating a submission variant that inherits core principles while implementing unique execution logic.
+Else if [head pull back] avoids shin:
+- Execute [[Head Pull Back]] (Probability: 15%)
+
+Else if [forward pressure] flattens guard:
+- Execute [[Forward Pressure]] (Probability: 10%)
+
+Else [optimal setup execution]:
+- Accept transition to [[Gogoplata Control]] (Probability: Success Rate - Modifiers)
+```
+
+## Defensive Considerations
+
+### Common Threats During Attempt
+Primary risks while attempting this setup:
+- **Posture Defense**: Opponent postures up to prevent shin placement → [[Control Escape]] (Threat Level: Medium)
+- **Space Creation**: Opponent frames to create defensive space → [[Space Creation]] (Threat Level: Medium)
+- **Setup Prevention**: Opponent pulls head back to avoid shin → [[Setup Prevention]] (Threat Level: Low)
+- **Guard Flattening**: Opponent drives forward to flatten guard → [[Guard Flattening]] (Threat Level: Low)
+
+Format: `[[Threat Type]] → [[Resulting Position]] (Threat Level: X)`
+
+### Defensive Strategies
+Methods to mitigate threats:
+- **Wrist Control**: Maintain tight grip on wrist to prevent framing
+- **Hip Mobility**: Adjust hips to counter posture defense and maintain angle
+- **Shin Insertion**: Slide shin quickly and precisely to avoid head pull-back
+- **Space Management**: Minimize space to block forward pressure
+- **Adaptation Readiness**: Be prepared to switch to other submissions or controls if setup fails
+
+## Educational Content
+
+### Expert Insights
+Commentary as if from recognized authorities:
+- **John Danaher**: "While not a primary focus in my system, the Gogoplata Setup showcases mechanical principles of control. Incremental establishment of control points before committing to the final position is key."
+- **Gordon Ryan**: "The Gogoplata Setup is a specialized attack with critical vulnerability during transition. Defensive awareness at this stage can nullify the attack before it’s established."
+- **Eddie Bravo**: "The Gogoplata Setup is central to the 10th Planet system, with subtle details like the 'shin fade' technique to disguise the attack. It’s the most technically demanding part of the sequence."
+
+Each insight should focus on one key technical or strategic element.
+
+### Common Errors
+For knowledge test generation:
+- **Error**: Insufficient flexibility for shin placement
+- **Why It Fails**: Prevents proper positioning of shin across throat
+- **Correction**: Develop hip flexibility specific to Gogoplata mechanics
+- **Recognition**: Difficulty sliding shin into position without losing control
+
+- **Error**: Premature loss of wrist control
+- **Why It Fails**: Allows opponent to frame defensively and escape setup
+- **Correction**: Maintain constant grip on opponent's wrist or arm
+- **Recognition**: Opponent easily creates space or breaks control
+
+- **Error**: Incorrect shin angle or placement
+- **Why It Fails**: Reduces effectiveness of choking mechanism
+- **Correction**: Position shin directly across throat, not jawline or collarbone
+- **Recognition**: Shin slips or fails to apply pressure correctly
+
+###

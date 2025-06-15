@@ -1,82 +1,43 @@
 # Knee Cut Pass
-#bjj #transition #guardpass #top
+#bjj #transition #guard_pass #offense #control
 
 ## Transition Properties
-- **Transition ID**: T701
-- **Starting State**: [[Headquarters Position]] (primary), [[Top Position]], or [[Combat Base]]
-- **Ending State**: [[Side Control]]
+- **Transition ID**: T809
+- **Classification**: Offensive Guard Pass
+- **Starting Position**: [[Half Guard]] (top), [[Open Guard]] (top)
+- **Target Position**: [[Side Control]], [[Mount]]
 - **Success Probability**: Beginner (60%), Intermediate (75%), Advanced (85%)
 - **Execution Complexity**: Medium
-- **Physical Attributes**: Hip mobility (Medium), Pressure application (Medium-High)
+- **Physical Attributes**: Coordination (Medium), Timing (High), Strength (Medium)
+- **Risk Level**: Medium - potential exposure to sweeps or submissions if pass fails
+- **Energy Cost**: Medium - requires controlled pressure and movement
+- **Transition Type**: Offensive Control Transition
 
 ## Transition Description
-The Knee Cut Pass is a fundamental guard passing technique where the top player slides their knee across the opponent's hip line while controlling the upper body, effectively "cutting" through the guard to establish side control. This technique combines pressure, angle creation, and upper body control to bypass the opponent's defensive frames and establish a dominant position. The Knee Cut is one of the highest-percentage passing techniques in BJJ, offering strong control throughout the movement with minimal risk of counterattack.
+The Knee Cut Pass, also known as the Knee Slice Pass, is a fundamental guard passing technique in Brazilian Jiu-Jitsu (BJJ) used to transition from a top position in Half Guard or Open Guard to a dominant control position like Side Control or Mount. This technique involves driving the knee through the opponent's guard, slicing between their legs, while maintaining posture and control to bypass their defensive barriers. It is highly effective against various guard types due to its simplicity and adaptability, embodying the BJJ principle of using precise movement and weight distribution to overcome resistance. The Knee Cut Pass is a staple in both gi and no-gi grappling, offering a direct path to positional dominance.
+
+## Visual Execution Sequence
+Detailed description for clear visualization of the transition in action:
+
+Starting in top Half Guard, you are on your knees with your right leg trapped between your opponent's legs, their left leg framing against your torso, and their arms controlling your posture with grips on your collar or sleeves, attempting to prevent your advance or set up a sweep. To initiate the Knee Cut Pass, you first posture up by straightening your back and tucking your elbows in, breaking their control over your upper body, while securing an underhook with your right arm under their left armpit to pin their torso and limit their mobility. You then shift your weight slightly back, pulling your trapped right knee out just enough to create space, and step your left leg up, placing your left foot flat on the mat near their hip as a base to drive forward, preparing to slice your right knee through their guard. With controlled pressure, you drive your right knee forward and across their left thigh, cutting through the space between their legs, while simultaneously pushing their left knee down with your left hand to prevent it from blocking your path, feeling their guard structure weaken as your knee advances. Mid-pass, you maintain your underhook and keep your head low to avoid submissions like triangles or guillotines, sliding your right shin over their thigh and dropping your hips to pin their lower body, ensuring they cannot shrimp away or recover guard as your torso clears their legs. You complete the pass by settling into Side Control, driving your chest into theirs, securing their head with your right underhook and blocking their far hip with your left arm, or potentially stepping over to Mount if their legs are open, having successfully bypassed their guard with a precise knee slice. Throughout the movement, you remain aware of their attempts to frame or sweep, adjusting your weight distribution to counter their defenses, demonstrating a core offensive passing technique that transforms a contested guard position into dominant control in a methodical, pressure-driven sequence.
+
+**Template**: "From top Half Guard, on knees, right leg trapped, opponent’s left leg framing torso, arms gripping collar or sleeves for control. Posture up, straighten back, tuck elbows to break control, secure right underhook under left armpit to pin torso. Shift weight back, pull right knee out for space, step left leg up, foot flat near hip as base to drive forward. Drive right knee across their left thigh, cut through guard, push left knee down with left hand to clear path, weaken guard structure. Maintain underhook mid-pass, head low against submissions, slide right shin over thigh, drop hips to pin, prevent guard recovery. Settle into Side Control, chest to chest, secure head with underhook, block far hip, or step to Mount if open, bypass guard with knee slice. Stay aware of frame or sweep attempts, adjust weight to counter, transform contested guard into dominant control with methodical pressure."
 
 ## Execution Steps
-1. From Headquarters or similar position, control opponent's bottom knee with your hand
-2. Establish sleeve, collar, or shoulder control with your other hand
-3. Shift weight forward while positioning your outside knee for the cut
-4. Drive your cutting knee diagonally across opponent's hip line 
-5. Apply chest pressure to opponent's upper body to prevent them from sitting up
-6. Maintain control of opponent's leg to prevent guard recovery
-7. Keep your base low and wide to prevent being rolled
-8. Clear opponent's bottom leg as you slide into side control
-9. Consolidate position by establishing proper side control grips
+1. Begin in top Half Guard or Open Guard, recognizing the opportunity to pass when the opponent's guard is not fully locked or their posture control is weak.
+2. Posture up by straightening your back and tucking your elbows in to break their grip control over your upper body, maintaining a strong base.
+3. Secure an underhook with one arm under their armpit on the side of the trapped leg (if in Half Guard) or on a controlling side (if in Open Guard), pinning their torso to limit mobility.
+4. Shift your weight slightly back to create space, pulling your trapped knee out (if applicable), and step your outside leg up, placing the foot flat near their hip as a driving base.
+5. Drive your trapped or passing knee forward and across their thigh, slicing through the space between their legs, while using your free hand to push their blocking knee down to clear the path.
+6. Maintain your underhook and keep your head low to protect against submissions, sliding your shin over their thigh and dropping your hips to pin their lower body, preventing guard recovery.
+7. Complete the pass by settling into Side Control, driving your chest into theirs, securing their head with the underhook and blocking their far hip with your other arm, or stepping over to Mount if their legs are open.
+8. Remain aware of their defensive attempts like framing or sweeping, adjusting your weight and pressure to counter and consolidate the dominant position.
 
-## Key Grips/Controls
-- Same-side sleeve or collar grip (upper body control)
-- Same-side knee or pants grip (lower body control)
-- Chest-to-chest pressure during pass
-- Head positioning to prevent opponent's mobility
-- Hip control to prevent defensive framing
-- Base management throughout movement
-
-## Common Counters
-- [[Underhook Defense]] → [[Half Guard Recovery]]
-- [[Knee Shield]] → [[Knee Shield Half Guard]]
-- [[Deep Half Entry]] → [[Deep Half Guard]]
-- [[Roll Under]] → [[Leg Entanglement]]
-- [[Frame and Invert]] → [[Inverted Guard]]
-
-## Variants
-- Traditional knee cut (direct pressure)
-- Floating knee cut (reduced pressure with mobility)
-- Cross-face knee cut (emphasizing head control)
-- Back step knee cut (with direction change)
-- Double-under grip knee cut (controlling both legs)
-- Knee cut to mount (transitioning directly to mount)
-
-## Expert Insights
-- **Danaher System**: Emphasizes the importance of controlling the "inside space" during the knee cut, preventing the opponent from establishing frames that would block the pass. Creates a systematic approach to breaking down each defensive barrier with proper weight distribution and precise angles that maximize mechanical advantage while minimizing defensive opportunities.
-- **Gordon Ryan**: Utilizes a "floating" approach to the knee cut, maintaining lighter pressure initially to bait defensive reactions before committing to heavy pressure. Emphasizes the upper body control aspect, particularly the cross-face and underhook combinations that neutralize the opponent's upper body defensive resources.
-- **Eddie Bravo**: Incorporates the knee cut into his no-gi system with modified grips, often focusing on head control rather than traditional collar grips. Emphasizes quick transitions to specialized control positions rather than conventional side control, particularly the "Twister Side Control" as the end goal.
-
-## Timing Considerations
-- Execute when opponent attempts to establish knee shield
-- Perform immediately after breaking opponent's grips
-- Time with opponent's attempt to recover guard
-- Implement when opponent creates space by framing
-- Use as a follow-up when other passes are defended
-
-## Follow-up Options
-- [[Side Control Consolidation]] → [[Side Control]]
-- [[Transition to Mount]] → [[Mount]]
-- [[Kimura Trap]] → [[Kimura Control]]
-- [[Near Side Armbar]] → [[Armbar Control]]
-- [[North-South Transition]] → [[North-South]]
-
-## Video References
-- John Danaher's "Go Further Faster" Passing instructional - Knee Cut section
-- Gordon Ryan's "Systematically Attacking from Top Position" - Knee Cut module
-- Bernardo Faria's "Pressure Passing Encyclopedia" - Knee Cut variations
-- Lucas Lepri's competition knee cut passing highlights
-
-## Common Errors
-- Insufficient upper body control → Vulnerable to underhooks
-- Poor knee angle → Stuck in half guard
-- Weak base during transition → Susceptible to sweeps
-- Disconnected upper and lower body control → Pass stalling
-- Rushing final position → Allowing defensive recovery
-
-## Computer Science Analogy
-The Knee Cut Pass represents an efficient edge traversal in the BJJ state graph, with a high success probability (weight) between the Headquarters Position node and the Side Control node. The technique functions like a "branch prediction" algorithm in computing, where anticipating the opponent's defensive response allows for optimal path selection with minimal computational cost (energy expenditure).
+## Key Details
+- **Posture Maintenance**: Essential to break opponent’s upper body control and prevent submissions.
+- **Underhook Control**: Pins opponent’s torso to limit their defensive mobility.
+- **Base Establishment**: Outside leg steps up for driving power and stability.
+- **Knee Slice Precision**: Cutting knee must pass through guard with controlled pressure.
+- **Knee Block Defense**: Free hand pushes opponent’s blocking leg to clear path.
+- **Head Position Safety**: Keep head low to avoid triangle or guillotine setups.
+- **Hip Pinning**: Drop hips post-slice to prevent shrimping or guard recovery

@@ -1,102 +1,77 @@
 # Modern Leg Lock Meta
 #bjj #competition #leglocks #strategy #meta
 
-## Framework Properties
-- **Framework ID**: CP003
-- **Application Context**: Competition
-- **Target Audience**: Intermediate to Advanced
-- **Implementation Timeframe**: Long-term
-- **Development Focus**: Technical/Tactical
+## Submission Framework Properties
+- **Framework ID**: F101
+- **Framework Name**: Modern Leg Lock Meta
+- **Alternative Names**: Contemporary Leg Lock Strategy, Leg Lock System Evolution
+- **Starting Position**: Various Leg Entanglement Positions ([[Ashi Garami]], [[Inside Sankaku]], [[50/50 Guard]])
+- **Ending State**: Submission (Opponent taps out or loses consciousness)
+- **Success Probability**: Beginner (15%), Intermediate (40%), Advanced (65%)
+- **Risk Level**: High - requires precise control and exposes practitioner to counters
+- **Energy Cost**: High - demands sustained control and tactical adjustments
+- **Submission Type**: Leg Locks (Joint Locks and Strangulation)
+- **Execution Complexity**: High - involves strategic progression and multiple techniques
 
 ## Framework Description
-The Modern Leg Lock Meta provides a comprehensive analysis of contemporary leg lock strategies, systems, and counter-systems as they exist in current competitive environments. This framework examines the evolution from traditional leg locks to the systematic approaches that have revolutionized submission grappling over the past decade. Rather than simply teaching individual techniques, this system explores the strategic considerations, positional hierarchies, and decision-making frameworks that govern effective leg lock application and defense. The framework integrates concepts from various influential systems while providing critical analysis of their competitive application, strengths, weaknesses, and counters. Understanding the modern leg lock meta is essential for competitors at all levels, whether focusing on offensive leg lock implementation or developing defensive systems against specialized leg lockers.
+The Modern Leg Lock Meta provides a comprehensive analysis of contemporary leg lock strategies, systems, and counter-systems as they exist in current competitive Brazilian Jiu-Jitsu environments, applicable in both gi and no-gi contexts. This framework examines the evolution from traditional leg locks to systematic approaches that have revolutionized submission grappling over the past decade, focusing on strategic considerations, positional hierarchies, and decision-making for effective leg lock application. It integrates concepts from influential systems while offering critical analysis of competitive strengths, weaknesses, and counters, rather than teaching isolated techniques. Understanding this meta is essential for competitors at all levels, whether focusing on offensive leg lock implementation or developing defenses against specialized leg lockers.
 
-## Core Principles
-- Position before submission in leg entanglements
-- Inside position dominance for optimal control
-- Hierarchical progression of entanglement positions
-- Rotational control as the foundation of effective finishes
-- Defensive prevention rather than late-stage escapes
-- Connection maintenance through transition phases
-- Strategic dilemma creation through attacking multiple targets
-- Hip position awareness and management in all entanglements
-- Tactical adjustment based on ruleset restrictions
-- Systematic progression from initial entry to submission completion
+## Visual Execution Sequence
+Detailed description for clear visualization of the framework in action:
 
-## Key Components
-- **Entanglement Hierarchy** - Organization of leg entanglement positions based on control quality, exposing the progression from lower-value to higher-value configurations.
-- **Rotational Control System** - Comprehensive approach to controlling the critical rotational movement that allows opponents to escape leg locks.
-- **Entry Methodologies** - Strategic pathways for accessing leg entanglements from various positions, emphasizing high-percentage transitions.
-- **Defensive Framework** - Systematic prevention and escape mechanisms organized by entanglement type and attack stage.
-- **Finishing Mechanics** - Refined technical components for maximizing submission efficiency once positions are established.
-- **Countering Meta** - Analysis of current defensive trends and strategic approaches to overcome them.
-- **Dilemma Creation** - Tactical approach to creating defensive dilemmas that force opponents to expose either leg lock vulnerability or positional disadvantage.
-- **Competition Application** - Specialized implementation considerations based on specific rulesets and competitive contexts.
+Starting from a neutral open guard position during a competitive roll, you initiate a leg lock entry by transitioning to Ashi Garami after an opponent's passing attempt, securing their near leg with your outside leg over their thigh and your inside leg hooking behind their knee, while your hands control their ankle to prevent escape. You establish inside position dominance by rotating their leg to expose their heel, maintaining connection with your hips close to theirs, using your near hand to grip their heel for a potential heel hook while your far hand frames against their hip to block counters. As they defend by internally rotating their foot, you progress up the entanglement hierarchy to Inside Sankaku, threading your outside leg under their trapped leg to lock it over your inside ankle, tightening control and further isolating their heel for attack. You apply rotational control by torquing their leg with your grip, breaking their defensive structure, and setting up the heel hook finish by securing their heel in the crook of your elbow, ensuring their knee line is controlled. If they resist or counter, you create a strategic dilemma by threatening a secondary attack like a kneebar, forcing them to defend multiple targets, then capitalize on their reaction to reapply heel hook pressure. Throughout the sequence, you maintain hip position awareness, keeping your hips aligned to maximize control and prevent escapes, adjusting tactically based on their defensive movements or ruleset constraints. Finally, you complete the submission by applying controlled pressure to the heel hook, ensuring mechanical efficiency, until the opponent taps out or the joint is compromised, demonstrating the systematic progression of the modern leg lock meta.
 
-## Implementation Sequence
-1. Develop foundational understanding of entanglement positions and hierarchy
-2. Master basic entry systems from common positions
-3. Establish fundamental rotational control mechanics
-4. Develop primary finishing mechanics for high-percentage submissions
-5. Implement defensive prevention system against common attacks
-6. Progress to advanced transitional systems between entanglements
-7. Incorporate tactical dilemma creation through combined threats
-8. Develop secondary attacks to complement primary submission attempts
-9. Establish position recovery protocols for compromised entanglements
-10. Integrate strategic competition frameworks based on specific rulesets
+**Template**: "From open guard, enter Ashi Garami post-pass attempt, secure near leg with outside leg over thigh, inside leg hooks knee, hands control ankle. Gain inside position, rotate leg to expose heel, hips close, near hand grips heel, far hand frames hip. Progress to Inside Sankaku, thread outside leg under trapped leg, lock over inside ankle, isolate heel. Apply rotational control, torque leg, secure heel in elbow crook, control knee line for heel hook. Create dilemma with kneebar threat if resisted, reapply heel hook on reaction. Maintain hip alignment for control, adjust per defense or ruleset. Finish with controlled heel hook pressure until submission."
 
-## Priority Hierarchy
-1. Inside position control before submission attempts
-2. Rotational control establishment and maintenance
-3. Hip positioning and awareness throughout exchanges
-4. Tactical progression through entanglement hierarchy
-5. Strategic combination of upper and lower body attacks
-6. Ruleset-specific implementation considerations
+## Execution Steps
+1. Initiate a leg lock entry from a common position like open guard, transitioning to a foundational entanglement such as Ashi Garami, securing the opponent's leg with proper leg and hand control.
+2. Establish inside position dominance by rotating their leg to expose submission targets like the heel, maintaining close hip connection to prevent escapes while framing to block counters.
+3. Progress through the entanglement hierarchy to a higher-value position like Inside Sankaku, locking your legs to isolate their limb further, enhancing control and submission opportunities.
+4. Apply rotational control mechanics to break defensive structures, using grips to torque their leg and set up primary submissions like a heel hook, ensuring knee line control.
+5. Create strategic dilemmas by threatening secondary attacks (e.g., kneebar, toe hold) if the primary submission is defended, forcing the opponent to expose vulnerabilities.
+6. Maintain hip position awareness and connection throughout transitions, adjusting tactics based on opponent reactions or ruleset constraints to optimize control and attack efficiency.
+7. Complete the submission with refined finishing mechanics, applying controlled pressure to the chosen target (e.g., heel hook) until the opponent taps or the submission is achieved, demonstrating systematic progression.
 
-## Technical Focus Areas
-- [[Inside Sankaku]] - Primary high-value leg entanglement with superior control properties
-- [[Ashi Garami]] - Foundational entanglement position with multiple tactical applications
-- [[Outside Ashi]] - Strategic position for specific entry scenarios and transition pathways
-- [[50-50 Guard]] - Critical modern position with both offensive and defensive applications
-- [[Heel Exposure Mechanics]] - Technical component essential for effective finishing
-- [[Backside 50-50]] - Advanced entanglement with superior control characteristics
-- [[Rotational Control]] - Fundamental concept governing effective leg lock control
-- [[Hip Positioning]] - Critical awareness affecting all aspects of leg lock exchanges
+## Key Details
+- **Position Before Submission**: Prioritizing control in entanglements over rushed finishes.
+- **Inside Position Dominance**: Establishing superior control for optimal attack angles.
+- **Entanglement Hierarchy**: Progressing from lower to higher-value control positions.
+- **Rotational Control**: Managing opponent movement to prevent escapes and enable finishes.
+- **Defensive Prevention**: Focusing on early disruption rather than late-stage escapes.
+- **Connection Maintenance**: Preserving control during transitions between positions.
+- **Strategic Dilemma Creation**: Attacking multiple targets to force defensive errors.
+- **Hip Position Awareness**: Maintaining alignment for control and submission leverage.
 
-## Strategic Adaptations
-- **Against IBJJF-trained opponents** → Target unfamiliar entanglements and control positions
-- **Against experienced leg lockers** → Focus on preventative positioning and counter-attacking opportunities
-- **Against aggressive passers** → Utilize leg entanglements as position retention and recovery mechanisms
-- **Against defensive specialists** → Implement compound attacks that create defensive dilemmas
-- **In IBJJF competition** → Adapt legal straight ankle lock attacks while developing foundation for advanced systems
-- **In submission-only formats** → Fully implement hierarchical progression of entanglements
-- **Against larger opponents** → Emphasize mechanical control through superior positioning rather than strength
+## Success Modifiers
+Factors that influence the success rate of the framework:
+- **Positional Control Quality**: Securing high-value entanglements for better attack options (+15%)
+- **Rotational Control Precision**: Effectively managing opponent movement to prevent escapes (+10%)
+- **Entry Efficiency**: Successfully transitioning into entanglements from various positions (+10%)
+- **Tactical Dilemma Execution**: Creating defensive errors through multiple threats (+10%)
+- **Experience Level**: Familiarity with modern leg lock systems and counters (+5% per skill level)
 
-## Expert Insights
-- **Danaher System**: Revolutionized the systematic approach to leg locks by developing what he terms the "modern leg lock system" centered around the inside sankaku position. Emphasizes methodical positional progression before submission attempts, focusing on what he calls "the control problem" rather than simply submission techniques. Particularly emphasizes understanding the biomechanical principles that make certain positions more control-dominant than others, creating his influential entanglement hierarchy system.
-- **Gordon Ryan**: Has evolved the application of leg lock systems into comprehensive competitive frameworks, focusing on creating what he calls "submission forcing mechanisms" that combine upper and lower body threats. While maintaining core positional principles from Danaher's system, adds significant emphasis on tactical application against defensive specialists, particularly through combining back attacks and leg entanglements in competition scenarios.
-- **Eddie Bravo**: Approaches leg locks through his 10th Planet system with emphasis on integration with his rubber guard and twister systems. Has specifically developed what he calls "lockdown-based entries" that use his specialized half guard approach as pathways to leg attacks. His system emphasizes fluid transitions between entanglements rather than strict positional hierarchy, focusing on unexpected entry points from his signature positions.
+## Common Counters and Counter-Attacks
+Analysis of opponent responses with success rates for counter-attacks:
+- [[Rotational Defense]] → [[Rotational Control Break]] (Success Rate: 45%, Conditions: opponent internally rotates to hide submission targets)
+- [[Hip Elevation Defense]] → [[Hip Control Counter]] (Success Rate: 40%, Conditions: opponent elevates hips to reduce entanglement pressure)
+- [[Grip Disruption Defense]] → [[Grip Reestablishment]] (Success Rate: 35%, Conditions: opponent breaks initial control grips)
+- [[Counter Leg Lock Attempt]] → [[Defensive Prevention]] (Success Rate: 30%, Conditions: opponent counters with their own leg lock entry)
+- [[Positional Escape]] → [[Entanglement Progression]] (Success Rate: 50%, Conditions: opponent attempts to escape to a neutral position)
+- [[Upper Body Attack Shift]] → [[Combined Threat Counter]] (Success Rate: 25%, Conditions: opponent shifts focus to upper body submissions)
 
-## Common Obstacles
-- **Rotational control deficiency** → Systematic development of connection points specifically controlling rotation
-- **Incomplete hierarchical understanding** → Focused study of positional progressions and transitions
-- **Defensive overreliance on pain tolerance** → Development of mechanically sound finishes that don't rely on pain compliance
-- **Limited entry pathways** → Expansion of entry systems from multiple common positions
-- **Ruleset restrictions** → Development of progressive systems that build foundations within rule constraints
-- **Overspecialization** → Integration with broader positional game to prevent strategic vulnerability
-- **Heel exposure difficulties** → Specific technical refinement of breaking defensive structures
+## Decision Logic for Opponent Behavior
+```
+If [opponent defends rotationally] to hide targets:
+- Apply [[Rotational Control Break]] to expose submission (Probability: 50%)
 
-## Assessment Metrics
-- **Entry Success Rate** - Percentage of successful transitions into desired leg entanglements
-- **Position Retention Time** - Duration of maintained control in established entanglements
-- **Transition Efficiency** - Ability to move between entanglements while maintaining control
-- **Defensive Prevention Success** - Effectiveness in preventing opponent's leg lock attempts
-- **Submission Completion Rate** - Percentage of entanglements converted to submissions
+Else if [opponent elevates hips] to reduce pressure:
+- Implement [[Hip Control Counter]] to maintain entanglement (Probability: 45%)
 
-## Developmental Stages
-- **Foundational Stage**: Understanding basic entanglements, entries, control mechanics, and safe training protocols (4-6 months)
-- **Intermediate Stage**: Developing positional transitions, refined control, basic submission chains, and defensive systems (6-12 months)
-- **Advanced Stage**: Implementing comprehensive offensive systems with situational adaptations, counter-systems, and competition-specific applications (12+ months)
+Else if [opponent disrupts grips] to break control:
+- Execute [[Grip Reestablishment]] for attack setup (Probability: 40%)
 
-## Computer Science Analogy
-The Modern Leg Lock Meta functions analogously to a "network security system" in computer science, where vulnerabilities (leg lock opportunities) exist within a complex network topology that must be systematically mapped, accessed, and exploited. The entanglement hierarchy represents a form of "privilege escalation" where initial access points (basic entanglements) allow progression to increasingly privileged network zones (superior control positions). This creates a sophisticated "attack graph" where multiple pathways can lead to the ultimate objective (submission), with effective defense requiring comprehensive "threat modeling" to identify and protect against the most critical vulnerabilities. Just as network security involves both offensive penetration testing and defensive hardening, the leg lock meta requires understanding both attacking methodologies and systematic defensive countermeasures, creating an evolving game theory scenario where strategies continuously adapt to counter prevalent tactics in the competitive environment.
+Else if [opponent counters with leg lock]:
+- Use [[Defensive Prevention]] to neutralize threat (Probability: 35%)
+
+Else if [opponent attempts escape] to neutral position:
+- Progress to higher [[Entanglement Progression

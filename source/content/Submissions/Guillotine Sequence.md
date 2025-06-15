@@ -1,105 +1,145 @@
 # Guillotine Sequence
-#bjj #submission #chain #guillotine #front_headlock #choke
+#bjj #submission #choke #front_headlock #guillotine
 
-## Chain Properties
-- **Chain ID**: SC008
-- **Primary Submissions**: [[Guillotine Control]], [[Arm-In Guillotine]], [[High-Elbow Guillotine]], [[Mounted Guillotine]]
-- **Starting Positions**: [[Front Headlock]], [[Closed Guard Bottom]], [[Half Guard Bottom]]
-- **Difficulty Level**: Intermediate
-- **Strategic Value**: High
+## Required Properties for State Machine
 
-## Chain Description
-The Guillotine Sequence represents one of the most versatile and effective submission chains in Brazilian Jiu-Jitsu, applicable across positional contexts from standing to various guard positions. This system centers around the guillotine choke—a powerful front headlock submission that applies compression to the carotid arteries—and its numerous variations that address specific defensive scenarios and positional contexts.
+### Core Identifiers
+- **Submission ID**: S106
+- **Submission Name**: Guillotine Sequence (Primary: Guillotine Control)
+- **Alternative Names**: Front Headlock Choke, Standard Guillotine
 
-What makes the Guillotine Sequence particularly powerful is its applicability throughout the positional hierarchy of BJJ. Unlike many submissions that require specific dominant positions, the guillotine can be effectively applied from inferior, neutral, and superior positions, making it one of the few submissions that functions as both an offensive weapon and a defensive counter. This versatility creates unique strategic advantages in both competition and self-defense contexts.
+### State Machine Properties
+- **Starting State**: [[Front Headlock]], [[Closed Guard Bottom]], [[Half Guard Bottom]]
+- **Ending State**: [[Won by Submission]]
+- **Submission Type**: Strangulation - Targets carotid arteries
 
-The sequence encompasses several key guillotine variations: the traditional guillotine (arm-out), the arm-in guillotine, the high-elbow (10-finger/marcelotine) guillotine, and the mounted guillotine. Each variation addresses specific defensive challenges and positional contexts, creating a comprehensive attacking system that can adapt to various scenarios. The mechanical differences between these variations primarily involve arm positioning, finishing angle, and body configuration, though all share the common goal of applying carotid compression through combined arm and body pressure.
+### Submission Properties
+- **Success Probability**: Beginner 40%, Intermediate 65%, Advanced 85% - core probability data
+- **Execution Complexity**: Medium - technical difficulty assessment
+- **Energy Cost**: Medium - physical demand of execution
+- **Time Required**: Short - duration of submission attempt
+- **Risk Level**: Medium - chance of position loss if failed
 
-This submission chain has proven exceptionally effective across all grappling contexts, from gi and no-gi competition to MMA, where it ranks among the most common submission finishes. Its effectiveness stems from both its mechanical efficiency when properly applied and the frequency of natural opportunities for application during common grappling exchanges, particularly during takedown attempts and guard transitions.
+### Physical Requirements
+- **Strength Requirements**: Medium for grip and pulling pressure
+- **Flexibility Requirements**: Low for basic positioning
+- **Coordination Requirements**: Medium for head and arm control
+- **Endurance Requirements**: Medium for sustained pressure during attempt
 
-## Core Mechanical Principles
-- **Chin-Strap Control**: Establishing proper grip positioning across opponent's throat
-- **Wrist Alignment**: Creating optimal wrist flexion for maximum choking pressure
-- **Elbow Positioning**: Manipulating elbow height and angle for different variations
-- **Hip Elevation**: Using hip movement to enhance choking mechanics
-- **Shoulder Rotation**: Creating proper shoulder alignment to increase pressure
-- **Defensive Anticipation**: Recognizing and exploiting predictable escape patterns
-- **Space Elimination**: Systematically removing defensive space to maximize effectiveness
-- **Body Alignment**: Creating synergistic pressure through proper skeletal structure
+## State Machine Content Elements
 
-## Submission Sequence
-1. **Primary Attack**: [[Guillotine Control]] (Traditional/Arm-Out)
-   - Execution focus: Establishing proper chin strap grip and wrist alignment
-   - Defensive triggers: Opponent defends by tucking chin or changing head position
+### Visual Execution Sequence
+Detailed step-by-step description for clear movement sequence visualization:
 
-2. **Secondary Attack**: [[Arm-In Guillotine]]
-   - Transition mechanics: Capture opponent's arm alongside neck when they defend by posting arm
-   - Execution focus: Creating proper compression despite arm barrier
+From a position such as Front Headlock, Closed Guard Bottom, or Half Guard Bottom, initiate the Guillotine by capturing the opponent's head under your armpit, securing a chin strap grip with your arm wrapped around their neck, ensuring their throat is positioned against the crook of your elbow. Pull their head down tightly to your chest to break their posture, using your other hand to control their wrist or arm if possible to prevent defensive framing. Elevate your hips or adjust your body angle to create additional pressure, aligning your elbow to maximize compression on the carotid arteries. Lock your hands together, often in a Gable grip, to secure the hold, and squeeze your elbow towards your hip while pulling with your arms to intensify the choke. Maintain this pressure, keeping their head tucked and posture broken, until the opponent submits due to the strangulation effect on the neck.
 
-3. **Tertiary Attack**: [[High-Elbow Guillotine]]
-   - Transition mechanics: Elevate elbow and adjust grip when standard guillotine is defended
-   - Execution focus: Creating intense focal pressure through elevated elbow position
+**Template**: "From Front Headlock or guard, capture head under armpit with chin strap grip. Pull head to chest, control wrist if possible. Elevate hips for pressure, align elbow for compression. Lock hands, squeeze elbow to hip, pull for choke until submission."
 
-## Decision Tree
-- If opponent defends traditional guillotine by posting arm → Transition to [[Arm-In Guillotine]]
-- If opponent defends by tucking chin → Elevate elbow and transition to [[High-Elbow Guillotine]]
-- If opponent attempts to pass guard during guillotine → Apply [[Closed Guard Guillotine]] retention
-- If opponent steps over arm during defense → Transition to [[Mounted Guillotine]]
-- If opponent defends by stacking pressure → Switch to [[Arm Triangle]] or release for [[Front Headlock]]
-- If opponent attempts to roll out of guillotine → Follow movement to establish [[Top Guillotine]]
-- If opponent creates space by posturing → Transition to [[Front Headlock]] control and reassess
+### Execution Steps (Numbered Sequence)
+1. **Setup Requirements**: Establish position ([[Front Headlock]], [[Closed Guard Bottom]], [[Half Guard Bottom]])
+2. **Initial Movement**: Capture opponent's head under armpit with chin strap grip
+3. **Opponent Response**: Opponent may attempt to posture up or tuck chin
+4. **Adaptation**: Pull head down to chest, control wrist or arm to prevent framing
+5. **Positioning**: Elevate hips or adjust angle for additional pressure
+6. **Pressure Application**: Lock hands in Gable grip, squeeze elbow to hip, pull for choke
+7. **Completion**: Maintain pressure with head tucked until submission
 
-## Expert Insights
-- **Danaher System**: John Danaher's approach to the guillotine emphasizes precise mechanical details that maximize leverage while minimizing strength requirements. His methodology focuses particularly on the high-elbow variation, which he considers mechanically superior to traditional approaches. Danaher teaches specific wrist positioning and elbow elevation details that create intense focal pressure, treating the guillotine not simply as a submission but as an integrated part of his front headlock system that connects with other strangulation techniques.
+### Key Technical Details
+Critical elements that determine success:
+- **Grip Requirements**: Secure chin strap grip with throat in elbow crook
+- **Base/Foundation**: Hip elevation and body alignment for pressure
+- **Timing Windows**: Execute when opponent's head is exposed or posture broken
+- **Leverage Points**: Elbow alignment for carotid compression
+- **Common Adjustments**: Adjust grip and hip position based on defensive reactions
 
-- **Gordon Ryan**: While primarily known for his back attacks and leg locks, Ryan incorporates the guillotine as a powerful weapon in his arsenal, particularly as a counter to takedown attempts. His approach emphasizes connecting the guillotine threat with other front headlock attacks, creating compound attacking problems that overwhelm defensive resources. Ryan particularly focuses on the arm-in guillotine as a reliable finishing tool when opponents attempt to defend his other front headlock attacks.
+### Success Modifiers
+Factors that increase/decrease probability:
+- **Setup Quality**: Security of head capture and chin strap grip (+/-20%)
+- **Timing Precision**: Executing when head is exposed or posture broken (+/-15%)
+- **Opponent Fatigue**: Reduced defensive strength over time (+/-5%)
+- **Knowledge Test Performance**: Understanding guillotine mechanics (+/-10%)
+- **Positional Control**: Effectiveness of hip elevation and arm control (+/-10%)
 
-- **Eddie Bravo**: Within the 10th Planet system, Bravo has developed specialized guillotine applications that integrate with his rubber guard and twister systems. His "Zombie" series often begins with guillotine threats that transition into other 10th Planet-specific techniques. Bravo particularly emphasizes catching guillotines during transitional moments and teaches specific finishing details for his "Zombie" (arm-in) variation that maximize effectiveness without requiring exceptional grip strength.
+## Counter-Attack Analysis
 
-## Setup Positions
-- [[Front Headlock]] → Chin strap grip → [[Guillotine Control]]
-- [[Closed Guard Bottom]] → Head control → [[Closed Guard Guillotine]]
-- [[Failed Takedown]] → Head capture → [[Sprawl Guillotine]]
-- [[Half Guard Bottom]] → Upper body control → [[Half Guard Guillotine]]
-- [[Butterfly Guard]] → Head pull → [[Seated Guillotine]]
-- [[Standing Position]] → Head snap → [[Standing Guillotine]]
+### Common Counters
+Opponent responses with success rates:
+- **Chin Tuck Defense**: Tucking chin to prevent choke → [[Neck Protection]] (Success Rate: 30%, Conditions: early reaction)
+- **Posture Up**: Posturing to create space → [[Space Creation]] (Success Rate: 25%, Conditions: strong base)
+- **Arm Frame**: Framing with arms to block pressure → [[Defensive Frame]] (Success Rate: 15%, Conditions: quick adjustment)
+- **Stack Pressure**: Stacking to disrupt alignment → [[Stacking Defense]] (Success Rate: 10%, Conditions: significant leverage)
+- **Roll Escape**: Rolling to escape hold → [[Position Reversal]] (Success Rate: 10%, Conditions: explosive movement)
 
-## Common Defensive Reactions
-- Tucking chin and creating neck space → Adjust to high-elbow variation
-- Posting arm to create distance → Capture arm for arm-in guillotine
-- Passing guard aggressively → Use movement to deepen guillotine
-- Stacking to create pressure → Transition to arm triangle or front headlock
-- Forward rolling escape attempt → Follow movement to establish top guillotine
-- Standing up defensively → Maintain grip and adjust to standing guillotine
-- Hand fighting to clear throat → Use motion to set up alternative attacks
+Format: `[[Counter Technique]] → [[Result State]] (Success Rate: X%, Conditions: [when applicable])`
 
-## Training Methodology
-- Progressive guillotine drilling with focus on grip mechanics
-- Positional sparring starting from guillotine control positions
-- Transition drills between different guillotine variations
-- Defensive recognition and counter training
-- Grip endurance specific to guillotine control
-- Video analysis of high-level guillotine applications
-- Flow drilling connecting guillotine entries from various positions
+### Decision Logic for Opponent Behavior
+```
+If [guillotine setup] is not fully secured:
+- Execute [[Chin Tuck Defense]] (Probability: 30%)
 
-## Competition Application
-The Guillotine Sequence has proven consistently effective across all levels of competition and across various grappling formats. Its competition efficacy stems from the frequency of natural application opportunities that arise during common competitive exchanges.
+Else if [posture up] can create space:
+- Execute [[Posture Up]] (Probability: 25%)
 
-Competition footage analysis reveals that guillotines are particularly effective as counters to takedown attempts, especially single and double leg takedowns where the head is exposed. This makes the guillotine especially valuable as a defensive counter-weapon in addition to its offensive applications.
+Else if [arm frame] blocks pressure:
+- Execute [[Arm Frame]] (Probability: 15%)
 
-The guillotine also demonstrates high efficacy from bottom positions, providing a powerful submission threat that can deter aggressive passing attempts and create sweeping opportunities when opponents defend. This positional versatility makes it an essential component of a complete competitive arsenal.
+Else if [stack pressure] disrupts alignment:
+- Execute [[Stack Pressure]] (Probability: 10%)
 
-In gi competition, grip variations utilizing the collar create additional control and finishing options, though the fundamental mechanics remain consistent with no-gi applications. In MMA contexts, the guillotine's front headlock control position provides both offensive effectiveness and defensive protection from strikes, making it one of the most common submission finishes in UFC history.
+Else [optimal submission execution]:
+- Accept submission (Probability: Success Rate - Modifiers)
+```
 
-At elite levels, the guillotine often functions as a position control tool as much as a submission finish, with competitors using the threat to force advantageous positional concessions. The psychological pressure of defending against a powerful neck attack often creates cascading defensive errors that open opportunities for alternative attacks or positional advancement.
+## Defensive Considerations
 
-## Computer Science Analogy
-The Guillotine Sequence exemplifies what computer scientists would recognize as a "polymorphic interface" in object-oriented programming. The core guillotine concept represents an abstract base class, with each variation (traditional, arm-in, high-elbow, mounted) implementing the same fundamental interface through different concrete implementations optimized for specific contexts.
+### Common Threats During Attempt
+Primary risks while attempting this submission:
+- **Neck Protection**: Opponent tucks chin to prevent choke → [[Neck Protection]] (Threat Level: Medium)
+- **Space Creation**: Opponent postures up to create space → [[Space Creation]] (Threat Level: Medium)
+- **Defensive Frame**: Opponent frames with arms → [[Defensive Frame]] (Threat Level: Low)
+- **Stacking Defense**: Opponent stacks to disrupt alignment → [[Stacking Defense]] (Threat Level: Low)
 
-This polymorphic approach creates exceptional adaptability, allowing the system to maintain consistent effectiveness across varying defensive "inputs" by dynamically selecting the appropriate implementation based on contextual requirements. Like well-designed software that maintains consistent functionality across different operating environments, the guillotine system maintains its effectiveness across varying positional contexts by adapting its implementation details while preserving its core functionality.
+Format: `[[Threat Type]] → [[Resulting Position]] (Threat Level: X)`
 
-From a state machine perspective, the guillotine creates what graph theorists would call a "sink node" in the BJJ positional graph—a state that, once entered, has a high probability of leading to a terminal outcome (submission) and a low probability of transition to other nodes. This makes the guillotine control position particularly valuable in the overall strategic framework.
+### Defensive Strategies
+Methods to mitigate threats:
+- **Head Control**: Maintain tight head pull to prevent chin tuck
+- **Posture Breaking**: Keep opponent's posture broken with chest pressure
+- **Arm Control**: Secure opponent's arms to block framing
+- **Hip Adjustment**: Adjust hips to counter stacking pressure
+- **Adaptation Readiness**: Be prepared to switch to other submissions or controls if guillotine fails
 
-The relationship between different guillotine variations demonstrates the principle of "specialization" in system design. Each variation represents a specialized implementation optimized for specific defensive scenarios, creating a comprehensive system that collectively addresses the complete space of defensive possibilities. This specialized approach ensures that regardless of which defensive strategy the opponent selects, an optimized counter exists within the system.
+## Educational Content
 
-From a machine learning perspective, the guillotine sequence implements a form of "decision tree classification," where defensive inputs are categorized and routed to the appropriate submission variation based on their characteristics. By correctly classifying defensive patterns and applying the optimal guillotine variation for each pattern, the system maximizes submission probability across the complete defensive space.
+### Expert Insights
+Commentary as if from recognized authorities:
+- **John Danaher**: "The Guillotine, particularly the high-elbow variation, is mechanically superior when precise wrist positioning and elbow elevation are applied. It’s an integral part of the front headlock system."
+- **Gordon Ryan**: "I use the Guillotine as a counter to takedown attempts, connecting it with other front headlock attacks to overwhelm defensive resources. The arm-in variation is highly reliable."
+- **Eddie Bravo**: "In the 10th Planet system, the Guillotine integrates with rubber guard techniques. My 'Zombie' series often starts with guillotine threats to set up other attacks."
+
+Each insight should focus on one key technical or strategic element.
+
+### Common Errors
+For knowledge test generation:
+- **Error**: Poor chin strap grip placement
+- **Why It Fails**: Reduces pressure on carotid arteries, weakening choke
+- **Correction**: Ensure throat is in elbow crook with secure grip
+- **Recognition**: Opponent easily creates space or escapes hold
+
+- **Error**: Insufficient posture breaking
+- **Why It Fails**: Allows opponent to posture up and defend
+- **Correction**: Pull head tightly to chest to break posture
+- **Recognition**: Opponent maintains upright posture during attempt
+
+- **Error**: Lack of hip elevation or alignment
+- **Why It Fails**: Decreases pressure and leverage on neck
+- **Correction**: Elevate hips and align elbow for maximum compression
+- **Recognition**: Choke feels ineffective despite secure grip
+
+### Tactical Applications
+Strategic uses of the submission:
+- **Offensive Attack**: Primary submission from front headlock or guard positions
+- **Defensive Counter**: Effective against takedown attempts or guard passes
+- **Positional Control**: Can be used to maintain control and force reactions
+- **Chain Setup**: Sets up other guillotine variations or front headlock attacks
+- **Energy Management**: Quick application

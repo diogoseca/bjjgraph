@@ -1,112 +1,49 @@
 # Leg Weave Pass
-#bjj #technique #pass #halfguard #top
+#bjj #transition #guard_pass #offense #control
 
-## Technique Properties
-- **Technique ID**: T102
-- **Classification**: Guard Pass
-- **Starting Position**: [[Half Guard Top]], [[Knee Shield Half Guard]], [[Z-Guard]]
-- **Target Position**: [[Side Control]], [[Leg Drag Position]]
-- **Difficulty Level**: Intermediate
-- **Energy Efficiency**: Medium
+## Transition Properties
+- **Transition ID**: T812
+- **Classification**: Offensive Guard Pass
+- **Starting Position**: [[Open Guard]] (top), [[Half Guard]] (top)
+- **Target Position**: [[Side Control]], [[North-South]]
+- **Success Probability**: Beginner (50%), Intermediate (65%), Advanced (80%)
+- **Execution Complexity**: Medium
+- **Physical Attributes**: Coordination (High), Timing (Medium), Strength (Medium)
+- **Risk Level**: Medium - potential exposure to sweeps or submissions if pass fails
+- **Energy Cost**: Medium - requires controlled movement and pressure
+- **Transition Type**: Offensive Control Transition
 
-## Technique Description
-The Leg Weave Pass is a powerful half guard passing technique that utilizes controlled pressure, precise limb entanglement, and strategic weight distribution to bypass defensive structures like the knee shield and establish a dominant position. Unlike more explosive or athletic passing methods, the Leg Weave relies on methodical pressure and progressive control to systematically dismantle the opponent's defensive frame. The technique involves "weaving" your arm through the opponent's legs to create a mechanical lock that immobilizes their lower body while applying controlled shoulder pressure to flatten their upper body. This coordinated control of both the upper and lower body creates a devastating passing mechanism that is particularly effective against defensive half guard variations like the Z-Guard and Knee Shield, where the opponent attempts to maintain defensive frames and distance.
+## Transition Description
+The Leg Weave Pass is a strategic guard passing technique in Brazilian Jiu-Jitsu (BJJ) used to transition from a top position in Open Guard or Half Guard to a dominant control position like Side Control or North-South. This technique involves weaving your legs through the opponent's guard to disrupt their structure, pinning one of their legs with your own while using upper body control to bypass their defensive barriers. It is particularly effective against guards that rely on leg framing and hip mobility, embodying the BJJ principle of using intricate leg positioning and weight distribution to overcome resistance. The Leg Weave Pass is a versatile approach in both gi and no-gi grappling, offering a methodical path to positional dominance.
+
+## Visual Execution Sequence
+Detailed description for clear visualization of the transition in action:
+
+Starting in top Open Guard, you are on your knees with your opponent on their back, their legs framing against your torso, with their right foot near your left hip and their left foot near your right hip, while their hands grip your sleeves or collar to control your posture and set up sweeps or submissions. To initiate the Leg Weave Pass, you first establish a strong posture by straightening your back and tucking your elbows in, breaking their upper body control, while securing an underhook with your right arm under their left armpit to pin their torso and limit their mobility, preparing to target their right leg for the weave. You then shift your weight slightly to your left, stepping your left knee forward and over their right thigh, weaving your left shin across their right leg to pin it to the mat, while your right hand pushes their left knee down to prevent it from blocking your path, feeling their guard structure weaken as their right leg is trapped under your control. With controlled pressure, you drive your hips forward, sliding your right leg through the space between their legs, maintaining the underhook to keep their upper body pinned, as your left shin continues to trap their right leg, sensing their hip rotation falter under the combined leg and torso control. Mid-pass, you keep your head low to avoid submissions like triangles or guillotines, adjusting your left shin to apply more pressure on their trapped right leg, while your right leg clears their left leg, dropping your hips to pin their lower body, ensuring they cannot shrimp away or recover guard as your torso advances past their defenses. You complete the pass by settling into Side Control on their left side, driving your chest into theirs, securing their head with your right underhook and blocking their far hip with your left arm, or potentially transitioning to North-South if their upper body turns away, having successfully bypassed their guard with a precise leg weave. Throughout the movement, you remain aware of their attempts to frame or sweep, adjusting your weight distribution and leg pressure to counter their defenses, demonstrating an effective offensive passing technique that transforms a contested guard position into dominant control in a calculated, leverage-driven sequence.
+
+**Template**: "From top Open Guard, on knees, opponent on back, legs framing torso, right foot near left hip, left near right hip, hands gripping sleeves or collar for control. Establish strong posture, straighten back, tuck elbows to break control, secure right underhook under left armpit to pin torso, target right leg for weave. Shift weight left, step left knee over right thigh, weave left shin across to pin right leg, push left knee down with right hand to clear path, weaken guard structure. Drive hips forward, slide right leg through guard, maintain underhook for torso control, keep left shin trapping right leg, disrupt hip rotation. Keep head low mid-pass against submissions, adjust left shin pressure on trapped leg, clear left leg with right leg, drop hips to pin, prevent guard recovery. Settle into Side Control on left, chest to chest, secure head with underhook, block far hip, or transition to North-South if they turn, bypass guard with leg weave. Stay aware of frame or sweep attempts, adjust weight and leg pressure to counter, transform contested guard into dominant control with calculated leverage."
 
 ## Execution Steps
-1. From [[Half Guard Top]], establish an underhook on the side where the opponent has your leg trapped
-2. With your free hand, grip the pants or control the knee of the opponent's top leg (their non-half guard leg)
-3. Thread your underhooking arm between the opponent's legs, reaching deep to grip their bottom leg (half guard leg) or pants
-4. Apply shoulder pressure to the opponent's upper body, ideally across their sternum or upper abdomen
-5. Drive your weight forward while pulling both legs together, collapsing the opponent's knee shield or Z-guard structure
-6. As their defensive structure collapses, slide your trapped leg free by pressuring into the opponent and pulling your knee back
-7. Transition either directly to [[Side Control]] or to [[Leg Drag Position]] depending on the opponent's reaction and leg positioning
-8. Consolidate the position by establishing proper grips and pressure to prevent recovery
+1. Begin in top Open Guard or Half Guard, recognizing the opportunity to pass when the opponent's legs are accessible and their guard structure can be disrupted with leg control.
+2. Establish a strong posture by straightening your back and tucking your elbows in to break their grip control over your upper body, maintaining a stable base.
+3. Secure an underhook with one arm under their armpit on the side opposite the leg you intend to weave over, pinning their torso to limit mobility and control their upper body.
+4. Shift your weight to the side of the leg you will weave, stepping your knee on that side forward and over their thigh, weaving your shin across their leg to pin it to the mat.
+5. Use your free hand to push their other knee down, preventing it from blocking your path, while driving your hips forward to slide your other leg through the space between their legs.
+6. Maintain the underhook and keep your head low to protect against submissions, adjusting the pressure of your weaving shin on their trapped leg to prevent recovery, as you drop your hips to pin their lower body.
+7. Complete the pass by settling into Side Control on the side opposite the trapped leg, securing their head and far hip with your arms, or transitioning to North-South if their upper body turns away.
+8. Remain aware of their defensive attempts like framing or sweeping, adjusting your weight, leg pressure, and upper body control to counter and consolidate the dominant position.
 
 ## Key Details
-- **Underhook Depth**: Must be sufficiently deep to reach and control the opponent's bottom leg
-- **Shoulder Pressure**: Applied precisely to opponent's sternum or upper abdomen, not the face or neck
-- **Hip Position**: Keep hips low and drive forward to prevent opponent from recovering guard
-- **Weave Mechanics**: The underhook arm must fully weave between both legs, not just control one
-- **Weight Distribution**: Maintain 70% of weight forward through your shoulder and chest
-- **Head Position**: Keep head positioned on the same side as your underhook for maximum pressure
-- **Grip Sequence**: Control opponent's top leg before threading arm for the weave
-- **Leg Extraction**: Pull trapped leg back and out at a 45-degree angle, not straight back
+- **Posture Maintenance**: Essential to break opponent’s upper body control and prevent submissions.
+- **Underhook Control**: Pins opponent’s torso to limit defensive mobility and sweeps.
+- **Leg Weaving Precision**: Weaving shin must pin opponent’s leg effectively to disrupt guard.
+- **Secondary Leg Control**: Free hand pushes other leg to clear path for passing leg.
+- **Hip Drive**: Forward hip movement slides passing leg through guard space.
+- **Head Position Safety**: Keep head low to avoid triangle or guillotine setups.
+- **Hip Pinning**: Drop hips post-weave to apply pressure and prevent shrimping.
+- **Positional Flexibility**: Adjust to Side Control or North-South based on opponent’s reaction.
 
-## Common Defenses
-- [[Frame Creation]] → [[Knee Shield Recovery]]
-- [[Underhook Counter]] → [[Half Guard Recovery]]
-- [[Hip Escape]] → [[Distance Creation]]
-- [[Inversion Attempt]] → [[Granby Roll]]
-- [[Bridge and Roll]] → [[Sweep Attempt]]
-- [[Leg Entanglement]] → [[Single Leg X Entry]]
-
-## Counter Techniques
-- [[Kimura Trap]] - Opponent traps your weaving arm for a kimura
-- [[Knee Shield Reinforcement]] - Opponent strengthens knee shield with additional frames
-- [[John Wayne Sweep]] - Opponent secures underhook and sweeps as you weave
-- [[Deep Half Entry]] - Opponent dives under for deep half guard position
-- [[Leg Lock Entry]] - Opponent attacks legs during pass transition
-- [[Granby Roll Escape]] - Opponent inverts to create space and recover guard
-
-## Variations
-- Leg Weave to Mount - Transitioning directly to mount rather than side control
-- Double Underhook Leg Weave - Using dual underhooks for enhanced control
-- Leg Weave to Back - Taking the back if opponent turns away defensively
-- No-Gi Leg Weave - Utilizing head position and body control without gi grips
-- Leg Weave to Knee on Belly - Establishing knee on belly during the transition
-- Cross-Face Leg Weave - Using crossface pressure instead of underhook control
-
-## Setup Opportunities
-- [[Half Guard Flattening]] → [[Leg Weave Pass]]
-- [[Failed Knee Cut]] → [[Leg Weave Pass]]
-- [[Z-Guard Pressure]] → [[Leg Weave Pass]]
-- [[Headquarters Transition]] → [[Leg Weave Pass]]
-- [[Smash Pass Defense]] → [[Leg Weave Pass]]
-- [[Stack Pass Counter]] → [[Leg Weave Pass]]
-
-## Follow-up Options
-- [[Side Control Consolidation]] (standard follow-up)
-- [[Kimura From Side]] (attacking upon pass completion)
-- [[North-South Transition]] (if opponent turns away)
-- [[Knee on Belly]] (to increase positional value)
-- [[Mount Transition]] (for highest positional value)
-- [[Far Side Armbar]] (if opponent extends arm defensively)
-
-## Expert Insights
-- **Danaher System**: Emphasizes precise weight distribution and incremental advancement during the leg weave. Danaher teaches a methodical approach focusing on eliminating each defensive layer before proceeding to the next step, with particular attention to preventing the recovery of guard through proper hip positioning and control. He views the leg weave as part of a larger passing system where pressure and control progressively increase throughout the passing sequence.
-- **Gordon Ryan**: Utilizes the leg weave as part of his systematic approach to half guard passing, emphasizing the coordination between upper and lower body control. Ryan particularly focuses on controlling the opponent's hip movement throughout the pass, preventing their ability to create space or angle for recovery. His application includes seamless transitions to leg drag and mount positions depending on the opponent's defensive reactions.
-- **Eddie Bravo**: Developed specific counters to the leg weave within his 10th Planet system, particularly using the lockdown, but acknowledges its effectiveness when properly executed. When teaching defense against the leg weave, Bravo emphasizes early intervention before the pass reaches its later stages, as the mechanical advantage becomes increasingly difficult to overcome once fully established.
-
-## Common Errors
-- Insufficient shoulder pressure → Opponent can maintain frames
-- Improper arm weave depth → Incomplete control of legs
-- Head positioned on wrong side → Reduced pressure effectiveness
-- Hips positioned too high → Space creation for opponent
-- Telegraphing passing intention → Early defensive reaction
-- Rushing the final transition → Guard recovery opportunity
-- Poor weight distribution → Sweep vulnerability
-
-## Strategic Application
-- Primary passing option against knee shield and Z-guard variations
-- Pressure-based alternative when explosive passes are defended
-- Systematic breakdown of defensive frames and structures
-- High-percentage competition technique against half guard specialists
-- Energy-efficient passing method for extended matches
-- Connection between half guard passing and dominant position acquisition
-
-## Training Approaches
-- Progressive resistance drilling with increasing defensive intensity
-- Isolated step practice focusing on mechanical details
-- Passing chains combining leg weave with complementary passes
-- Defensive recognition drills for common counters
-- Pressure development exercises focusing on weight distribution
-- Live situational sparring from specific half guard scenarios
-
-## Competition Effectiveness
-The Leg Weave Pass has proven to be a highly effective passing technique at all levels of competition, particularly against opponents who rely on knee shield or Z-guard defensive structures. The technique's methodical nature makes it especially valuable in longer matches where energy conservation becomes crucial. Analysis of high-level competition data shows approximately 65% success rate when properly executed, with effectiveness increasing against opponents who rely heavily on framing rather than dynamic guard recovery. The technique is particularly prevalent in the heavyweight divisions where the additional weight creates more powerful pressure, though modified versions are effectively employed across all weight classes. Many world champions including Roger Gracie, Bernardo Faria, and André Galvão have utilized variations of the leg weave as core components of their passing strategies.
-
-## Historical Development
-The Leg Weave Pass has evolved significantly from traditional half guard passing techniques that date back to the early development of BJJ. While the basic concept of weaving limbs for control has existed in wrestling and early judo, the modern BJJ application took shape during the 1990s as half guard play became more sophisticated and required more nuanced passing approaches. The technique gained prominence as practitioners like Roberto "Gordo" Correa and Saulo Ribeiro developed and refined it as part of their systematic approach to guard passing. The modern version of the leg weave, with its precise mechanical details and pressure distribution, was further refined during the 2000s as competition BJJ became increasingly technical and position-focused. Today's application incorporates elements from wrestling pressure passing combined with the tactical control aspects that define Brazilian Jiu-Jitsu's approach to positional advancement.
-
-## Conceptual Relationship to Computer Science
-The Leg Weave Pass functions similar to a "depth-first traversal algorithm" in computer science, where the passer methodically explores and eliminates each layer of defense before proceeding deeper into the position. This represents a form of "constraint propagation" where controlling one element of the position (the legs) creates cascading restrictions on the defender's other movement options. The technique also demonstrates the concept of "deadlock" from concurrent programming, where two resources (the opponent's legs) are simultaneously requested and controlled by a single process (the passing player), creating a situation where the defensive system cannot progress. This coordinated control of multiple defensive resources creates a systematic breakdown of the opponent's position that's analogous to how certain algorithms systematically eliminate possible solutions until only the desired outcome remains.
+## Success Modifiers
+Factors that influence the success rate of the transition:
+- **Posture Strength**: Ability to break opponent’s control and maintain balance (+10%)
+- **Underhook Effectiveness**: Secure control of opponent’s torso for pinning (+8

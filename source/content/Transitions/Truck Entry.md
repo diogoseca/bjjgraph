@@ -1,114 +1,243 @@
 # Truck Entry
-#bjj #technique #position #10thplanet #transition
+#bjj #transition #submission_setup #offense #ground_game
 
-## Technique Properties
-- **Technique ID**: T106
-- **Classification**: Position Transition
-- **Starting Position**: [[Crab Ride]], [[Inverted Guard]], [[Back Control]] (partial)
-- **Target Position**: [[Truck Position]]
-- **Difficulty Level**: Advanced
-- **Energy Efficiency**: Medium
+## Transition Properties
+- **Transition ID**: T828
+- **Classification**: Offensive Submission Setup
+- **Starting Position**: [[Side Control]], [[Top Half Guard]]
+- **Target Position**: [[Truck Position]], [[Submission Setup]]
+- **Success Probability**: Beginner (25%), Intermediate (40%), Advanced (55%)
+- **Execution Complexity**: High
+- **Physical Attributes**: Strength (Medium), Timing (High), Coordination (High)
+- **Risk Level**: Medium - potential exposure to escapes or reversals if not executed properly
+- **Energy Cost**: Medium - requires precise movement and sustained control
+- **Transition Type**: Offensive Submission Transition
 
-## Technique Description
-Truck Entry represents a specialized transition technique for accessing the Truck Position, a unique control configuration popularized within Eddie Bravo's 10th Planet Jiu-Jitsu system. Unlike conventional position transitions that move between traditional BJJ positions, the Truck Entry creates access to a highly specialized control position from which powerful submissions like the Twister, Calf Slicer, and Banana Split can be applied. The movement pattern involves a specific leg entanglement and body positioning that captures one of the opponent's legs while creating a dominant angle for upper body control. What makes the Truck Entry particularly valuable is its ability to convert seemingly neutral or even slightly disadvantageous scenarios into a dominant submission pathway through unconventional movement patterns. The technique requires significant body awareness and spatial understanding, often leveraging inversion and rotational mechanics that are uncommon in traditional BJJ approaches.
+## Transition Description
+Truck Entry is an advanced offensive technique in Brazilian Jiu-Jitsu (BJJ) used to set up a submission from a top control position like Side Control or Top Half Guard, targeting the opponent's legs or back with the Truck Position or Submission Setup. This technique involves isolating an opponent's leg and transitioning to a unique control position that opens up attacks like the Twister or leg locks, effectively turning a stable control position into a submission opportunity. It is particularly effective against opponents who attempt to escape or shrimp from side control or half guard, embodying the BJJ principle of using unconventional angles and leverage to attack from superior positions. Truck Entry is a key strategy in both gi and no-gi grappling, offering a high-skill method to transition from control to a dominant submission threat with technical, dynamic movement.
+
+## Visual Execution Sequence
+Detailed description for clear visualization of the transition in action:
+
+Starting from Side Control or Top Half Guard, you are on top of your opponent, controlling their upper body with a crossface and underhook in Side Control or isolating their legs and torso in Top Half Guard, as you remain alert for their defensive movements like hip escapes or guard recovery attempts while maintaining heavy pressure with your chest and hips to keep them pinned. As you initiate the Truck Entry, you isolate one of their legs by shifting your focus to their near leg in Side Control or the trapped leg in Top Half Guard, preparing to move your body towards their lower body while keeping your upper body control tight with an underhook or grip on their waist to prevent escapes. You begin the transition by stepping over their near leg with your far leg or freeing your trapped leg in Half Guard and sliding towards their hips, feeling their resistance as they attempt to shrimp away or re-guard, using your hips to pivot and swing your leg over to trap their isolated leg between your legs while maintaining a grip on their torso to keep them in position. With precise timing, you adjust your position to lock the Truck by rolling them slightly to their side or sitting back towards their legs, sensing their reaction as they either try to free their leg, turn away to turtle, or push against your control, while you secure their trapped leg with your legs in a figure-four configuration and control their torso with your arms to prevent escapes. Mid-transition, you maintain control by keeping your weight centered to apply pressure on their trapped leg and torso, adjusting your angle to counter their movements, as you position yourself to fully establish Truck Position by securing their leg and upper body, or prepare for a Submission Setup if they resist the initial control. You complete the Truck Entry by locking in the Truck Position, applying pressure to their leg or back by extending your legs or leaning into their torso, or transitioning to a direct Submission Setup like the Twister or a leg lock, having successfully turned your top control position into a threatening submission platform with technical precision. Throughout the movement, you remain aware of their defensive responses like hip escapes, leg freeing attempts, or reversals, adjusting your grip tightness, hip angle, and weight distribution to counter their efforts, demonstrating an effective offensive technique that transforms a stable top position into a dominant submission threat.
+
+**Template**: "From Side Control or Top Half Guard, on top of opponent, control upper body with crossface and underhook in Side Control or isolate legs and torso in Top Half Guard, alert for defensive movements like hip escapes or guard recovery, maintain heavy pressure with chest and hips to pin. Initiate Truck Entry by isolating leg, shift focus to near leg in Side Control or trapped leg in Top Half Guard, prepare to move towards lower body, keep upper body control tight with underhook or grip on waist to prevent escapes. Step over near leg with far leg or free trapped leg in Half Guard, slide towards hips, feel resistance as they shrimp away or re-guard, use hips to pivot, swing leg over to trap isolated leg between legs, maintain grip on torso to keep in position. Adjust position with precise timing to lock Truck by rolling slightly to side or sitting back towards legs, sense reaction as they free leg, turn to turtle, or push against control, secure trapped leg with figure-four legs, control torso with arms to prevent escapes. Maintain control mid-transition by keeping weight centered for pressure on trapped leg and torso, adjust angle to counter movements, position for Truck Position by securing leg and upper body or prepare Submission Setup if resisted. Complete Truck Entry by locking Truck Position, apply pressure to leg or back by extending legs or leaning into torso, or transition to direct Submission Setup like Twister or leg lock, turn top control into threatening submission with technical precision. Stay aware of defensive responses like hip escapes, leg freeing, or reversals, adjust grip tightness, hip angle, weight distribution to counter, transform stable top position into dominant submission threat."
 
 ## Execution Steps
-1. From [[Crab Ride]] (most common entry), secure a strong seat belt grip with one arm over and one arm under opponent's arms
-2. Maintain back control positioning with your chest connected to the opponent's upper back
-3. Place your inside leg (the leg on the same side as your underhooking arm) between the opponent's legs
-4. Bring your outside leg across and behind the opponent's near leg, beginning to hook their thigh/hamstring
-5. Release your over-the-shoulder arm grip and reach down to control the opponent's trapped leg
-6. Slide your hips down and out to the side of the trapped leg, maintaining the leg entanglement
-7. Secure your legs in triangle configuration around the opponent's captured leg
-8. Adjust your upper body position to establish perpendicular alignment with the opponent's torso
-9. Complete the transition to [[Truck Position]] by securing proper grips and finalizing leg configuration
+1. Begin in Side Control or Top Half Guard, maintaining awareness of the opponent's defensive movements and identifying an opportunity to isolate a leg while keeping heavy pressure to control their torso.
+2. Isolate one of their legs by shifting focus to their near leg in Side Control or the trapped leg in Top Half Guard, preparing to move towards their lower body while maintaining upper body control with an underhook or grip on their waist.
+3. Initiate the transition by stepping over their near leg with your far leg in Side Control or freeing your trapped leg in Half Guard and sliding towards their hips, pivoting your hips to trap their isolated leg between your legs while keeping a grip on their torso.
+4. Lock the Truck by rolling them slightly to their side or sitting back towards their legs, adjusting your position to counter their resistance like shrimping away or freeing their leg, while securing the trapped leg with a figure-four configuration using your legs.
+5. Maintain control during the transition by keeping your weight centered to apply pressure on their trapped leg and torso, using your arms to control their upper body to prevent escapes or reversals.
+6. Secure the full Truck Position by tightening your legs around their trapped leg and torso, applying pressure by extending your legs or leaning into their back, ensuring their movement is restricted.
+7. Complete the Truck Entry by either finishing a submission like the Twister in Truck Position or preparing a Submission Setup by chaining to other attacks like leg locks if they resist, having turned your control into a submission threat.
+8. Remain aware of their defensive responses like hip escapes or reversals, adapting your grip tightness, hip angle, and weight distribution to consolidate the submission position.
 
 ## Key Details
-- **Leg Triangle Configuration**: Must fully encircle opponent's trapped leg for proper control
-- **Hip Movement**: Slide out to side rather than dropping straight down
-- **Upper Body Connection**: Maintain constant pressure on opponent's upper body during transition
-- **Hand Positioning**: One hand controls trapped leg while other maintains upper body connection
-- **Leg Hooking Depth**: Hook must be placed behind knee/hamstring, not just on top of thigh
-- **Body Alignment**: End position requires perpendicular orientation to opponent
-- **Timing**: Execute during momentary loss of opponent's base or during directional transitions
-- **Connection Points**: Never lose all connection points simultaneously during transition
+- **Leg Isolation**: Essential to target and trap one leg for setup.
+- **Hip Movement**: Shift towards lower body using hip pivot for angle.
+- **Leg Trapping**: Step over or swing leg to trap opponent's leg in figure-four.
+- **Torso Control**: Maintain grip on upper body to prevent escapes.
+- **Pressure Application**: Center weight to control leg and torso.
+- **Control Grip**: Secure waist or underhook to limit opponent's movement.
+- **Counter Prevention**: Use legs and weight to block escapes or reversals.
+- **Offensive Awareness**: Monitor for guard recovery or submission counters.
 
-## Common Defenses
-- [[Leg Extension]] → [[Truck Defense]]
-- [[Hip Elevation]] → [[Base Reestablishment]]
-- [[Roll to Knees]] → [[Turtle Position]]
-- [[Inversion Counter]] → [[Guard Recovery]]
-- [[Grip Fighting]] → [[Connection Breaking]]
+## Success Modifiers
+Factors that influence the success rate of the transition:
+- **Leg Control**: Secure positioning to isolate leg effectively (+10%)
+- **Timing Precision**: Attacking at optimal moment of opponent's escape attempt (+8%)
+- **Hip Mobility**: Quick movement towards lower body for angle (+7%)
+- **Figure-Four Tightness**: Tight leg control for pressure on trapped leg (+5%)
+- **Experience Level**: Familiarity with advanced submission setups (+5% per skill level)
 
-## Counter Techniques
-- [[Strong Base Maintenance]] - Opponent widens base to prevent leg capture
-- [[Hip Switch]] - Opponent changes hip orientation to counter leg entanglement
-- [[Grip Breaking Sequence]] - Opponent strips controlling grips during transition
-- [[Forward Drive]] - Opponent aggressively drives forward to flatten the entanglement
-- [[Back Control Recovery]] - Opponent fights to reestablish conventional back control
-- [[Spinning Escape]] - Opponent spins in the direction of the trapped leg to escape
+## Common Counters and Counter-Attacks
+Analysis of opponent responses with success rates for counter-attacks:
+- **Hip Escape** → [[Guard Recovery]] (Success Rate: 30%, Conditions: opponent shrimps to recover guard during transition)
+- **Leg Freeing** → [[Half Guard Bottom]] (Success Rate: 25%, Conditions: opponent frees trapped leg before Truck is locked)
+- **Reversal Attempt** → [[Bottom Position]] (Success Rate: 20%, Conditions: opponent uses transition momentum for reversal)
+- **Submission Counter** → [[Triangle Choke]] (Success Rate: 15%, Conditions: opponent attacks from bottom during transition)
+- **Torso Escape** → [[Side Control Escape]] (Success Rate: 10%, Conditions: opponent breaks torso control before Truck is secured)
 
-## Variations
-- Inverted Guard Truck Entry - Entering from inverted guard position
-- Back Control Loss Truck Transition - Converting failed back control to Truck
-- Rolling Truck Entry - Dynamic variation with rolling motion
-- Half Guard Bottom Truck - Rare variation from bottom half guard
-- Double Trouble Truck Entry - Specialized entry targeting both legs
-- Quarter Guard Truck Entry - Entry from quarter guard position
+## Decision Logic for Transition
+```
+If [opponent's escape] exposes leg or weakens control in side or half guard:
+- Initiate [[Truck Entry]] to attack leg or back (Probability: 45%)
 
-## Setup Opportunities
-- [[Crab Ride]] → [[Truck Entry]]
-- [[Failed Berimbolo]] → [[Truck Entry]]
-- [[Lost Back Control]] → [[Truck Entry]]
-- [[Inverted Guard]] → [[Truck Entry]]
-- [[Leg Drag Defense]] → [[Inverted Guard]] → [[Truck Entry]]
-- [[Scramble Position]] → [[Truck Entry]]
+Else if [scramble situation] offers leg isolation opportunity:
+- Execute [[Truck Entry]] for submission setup (Probability: 40%)
 
-## Follow-up Options
-- [[Truck Position]] → [[Calf Slicer]] (primary submission)
-- [[Truck Position]] → [[Twister Setup]] (specialized submission)
-- [[Truck Position]] → [[Banana Split]] (alternative submission)
-- [[Truck to Back]] (if submission opportunity is compromised)
-- [[Truck Sweep]] (if opponent bases strongly)
-- [[Electric Chair Transition]] (alternative control position)
+Else if [personal strategy] favors unconventional submission attacks:
+- Attempt [[Truck Entry]] to threaten from top (Probability: 35%)
 
-## Expert Insights
-- **Danaher System**: While not a focus in the Danaher leg lock system, Danaher acknowledges the Truck position's mechanical efficiency when properly established. When discussing related positions, he emphasizes understanding the mechanical control principles rather than focusing on the named position itself, particularly the concepts of hip control and rotational leverage that make the position effective for submissions.
-- **Gordon Ryan**: Utilizes aspects of the Truck Entry selectively, typically viewing it as a transitional position that can create opportunities when more conventional approaches are defended. Ryan emphasizes maintaining constant pressure and connection throughout any transition to specialized positions, focusing on never giving the opponent space to recover during the entry sequence.
-- **Eddie Bravo**: As the primary developer and proponent of the Truck Position within BJJ, Bravo has created a comprehensive system for entering and controlling this position. He emphasizes the Truck's role as a central hub in his 10th Planet system, connecting various specialized positions and submissions. Bravo particularly focuses on the entry from Crab Ride as the highest-percentage pathway, having refined the mechanical details through decades of development.
+Else if [opponent counters] with strong hip escape or leg freeing mid-transition:
+- Adjust to [[North-South]] for alternative control (Probability: 30%)
+
+Else if [transition fails] due to successful guard recovery or reversal:
+- Transition to [[Side Control]] to mitigate (Probability: 25%)
+```
+
+## Variants
+- **Standard Truck Entry**: Classic setup from Side Control with leg isolation.
+- **Dynamic Truck Entry**: Incorporating feints to bait escape reactions before trapping leg.
+- **Reverse Truck Entry**: Approaching from opposite side based on opponent's reaction.
+- **Counter Truck Entry**: Baiting hip escape or guard recovery to open Truck entry.
+- **Truck to Twister Combo**: Using Truck setup to initiate Twister submission directly.
+- **Truck Entry to Leg Lock**: Moving to leg lock attacks after Truck control.
+- **Combination Attack**: Chaining with other top attacks if Truck is defended.
+- **No-Gi Truck Entry**: Adapted for no-gi with body lock control instead of gi grips.
+
+## Tactical Applications
+- **Submission Setup**: Primary use to threaten Twister or leg locks from top.
+- **Offensive Strategy**: Turns stable control into unconventional attack opportunity.
+- **Chain Attack**: Sets up follow-up submissions like Twister or Calf Slicer.
+- **Energy Management**: Moderate energy cost balanced by submission threat.
+- **Versatile Approach**: Works in gi and no-gi from various top control positions.
 
 ## Common Errors
-- Insufficient leg control → Unable to secure proper entanglement
-- Loss of upper body connection → Opponent creates defensive space
-- Poor hip positioning → Reduced leverage and control
-- Telegraphing the transition → Early defensive reaction
-- Improper leg triangle → Ineffective leg capture
-- Rushing the position transition → Loss of control points
-- Inadequate perpendicular alignment → Suboptimal submission setups
+For knowledge test generation and error correction:
+- **Error**: Poor leg isolation or weak control before transition
+- **Why It Fails**: Allows opponent to free leg or escape before Truck is locked
+- **Correction**: Focus on isolating leg with proper positioning and maintain torso control before moving
+- **Recognition**: Opponent easily frees leg or shrimps away during setup
 
-## Strategic Application
-- Creating submission opportunities from seemingly neutral positions
-- Bypassing conventional defensive structures through unconventional transitions
-- Establishing specialized control positions unfamiliar to traditional BJJ practitioners
-- Converting failed back takes into offensive opportunities
-- Setting up 10th Planet-specific submission chains
-- Creating decision points that force defensive errors
-- Exploiting opponents with strong conventional defenses but limited exposure to 10th Planet positions
+- **Error**: Incorrect hip movement or slow transition to lower body
+- **Why It Fails**: Leaves transition vulnerable to guard recovery or reversals due to lack of angle
+- **Correction**: Move hips quickly towards lower body, creating proper control angle for Truck
+- **Recognition**: Difficulty trapping leg or opponent recovers guard during movement
 
-## Training Approaches
-- Slow-motion repetition focusing on precise mechanical details
-- Progressive resistance drilling with increasing defensive intensity
-- Position-specific sparring starting from pre-Truck configurations
-- Transition flows linking conventional positions to Truck entries
-- Submission chains connecting Truck entries to various finish options
-- Defensive familiarization against common counters
-- Inverted movement development and spatial awareness exercises
+- **Error**: Insufficient pressure or loose figure-four leg control
+- **Why It Fails**: Reduces control and submission threat, allowing opponent to escape or counter
+- **Correction**: Center weight and tighten figure-four legs to apply pressure on trapped leg
+- **Recognition**: Opponent moves trapped leg or torso without significant resistance during lock
 
-## Competition Effectiveness
-The Truck Entry has proven particularly effective in no-gi submission-only competition formats where the specialized submissions available from the Truck Position are legal and where there are no restrictions on certain types of leg entanglement. Competition analysis shows that practitioners experienced with the position can achieve the entry with approximately 60% success against opponents unfamiliar with 10th Planet systems, though this percentage decreases significantly against those with specific defensive training. The technique's effectiveness in competition comes partly from its unorthodox nature and the decision-making pressure it creates - opponents must defend multiple simultaneous threats while managing an unfamiliar control position. Notable competition successes include Eddie Bravo himself in his matches against Royler Gracie, as well as 10th Planet competitors like Geo Martinez and Richie Martinez who have demonstrated the position's effectiveness at the highest levels of submission grappling.
+## Knowledge Assessment Questions
+5 technical questions with multiple choice answers:
+- **Setup Understanding**: "What is the primary goal of Truck Entry?"
+  - A) To immediately pass to a neutral position
+  - B) To set up unconventional submissions like Twister from top control (Correct)
+  - C) To tire out the opponent with pressure
+  - D) To establish a defensive position
+- **Strategic Application**: "Why is leg isolation critical in Truck Entry?"
+  - A) To look dominant during the setup
+  - B) To control opponent's leg for submission setup and prevent escape (Correct)
+  - C) To conserve energy for later moves
+  - D) To intimidate the opponent
+- **Error Recognition**: "What is a common mistake when attempting Truck Entry?"
+  - A) Moving too quickly to lock the position
+  - B) Poor leg isolation, allowing opponent to free leg or escape (Correct)
+  - C) Gripping the opponent's arms instead of legs
+  - D) Standing up during the transition
+- **Offensive Awareness**: "How can you counter an opponent’s attempt to shrimp out of Truck Entry during the transition?"
+  - A) Release the attempt and reset to side control
+  - B) Maintain leg control and adjust weight to re-secure Truck Position (Correct)
+  - C) Wait for them to tire out
+  - D) Switch to a guard pass immediately
+- **Transition Knowledge**: "What is the next logical step after successfully locking Truck Entry?"
+  - A) Attempt a guard pass
+  - B) Apply pressure for Truck Position control or chain to submissions like Twister (Correct)
+  - C) Allow the opponent to recover position
+  - D) Release the leg control to reset
 
-## Historical Development
-The Truck Position and associated entries were developed by Eddie Bravo as part of his innovative 10th Planet Jiu-Jitsu system, beginning in the early 2000s. The position evolved from Bravo's experimentation with wrestling techniques and unconventional control positions that deviated from traditional BJJ approaches. Initially met with skepticism from the broader BJJ community, the Truck and its entry methods gained legitimacy and recognition after being successfully applied in high-profile competitions. The entry methodology has evolved significantly over time, becoming increasingly refined and systematized as it was pressure-tested in competition. The most important evolutionary development has been the increased integration of the Truck Position with other 10th Planet-specific positions, creating a cohesive system of transitions and submissions rather than an isolated technique. Modern understanding of the Truck Entry now encompasses multiple pathways to the position, each with specific mechanical details and optimizations based on the starting position and opponent's defensive reactions.
+## Training Progressions
+Skill development pathway:
+- **Leg Isolation Drilling**: Practice isolating leg with positioning solo or with dummy.
+- **Hip Movement Familiarization**: Work on moving towards lower body for angle.
+- **Leg Trapping Practice**: Incorporate figure-four leg trap in partner drills.
+- **Transition Integration**: Combine leg isolation, hip movement, and trapping in controlled partner drills for submission setup.
+- **Live Application**: Use Truck Entry in sparring to attack from top control, focusing on submission threats.
+- **Counter Offense**: Train adjustments against common escapes like hip escapes or leg freeing.
 
-## Conceptual Relationship to Computer Science
-The Truck Entry demonstrates principles similar to a "context switch" in operating systems, where a process (the grappler) abruptly changes its execution environment from a standard control position to a specialized one with different privileges and capabilities. This represents a form of "lateral thinking algorithm" that solves positional problems by approaching them from unconventional angles rather than through incremental optimization of standard approaches. Just as certain programming paradigms can create unexpected solutions by reframing the problem space entirely, the Truck Entry creates submission opportunities by fundamentally changing the positional context rather than simply improving position within the traditional BJJ positional hierarchy. The technique also demonstrates principles of "fault tolerance" by providing alternative pathways to dominant positions when conventional routes fail, similar to how robust systems implement multiple methods to achieve critical outcomes when primary methods encounter resistance.
+## Audio & Narration Elements
+### Position Descriptions
+Dynamic language for TTS narration:
+- **Control Verbs**: Isolate, shift, pivot, trap, lock, apply
+- **Spatial References**: Leg to lower body, figure-four trap, hip angle
+- **Pressure Dynamics**: Weight centering, leg pressure
+- **Movement Descriptions**: Quick shift, dynamic movement, control to submission
+
+### Coaching Commentary
+Real-time instruction and feedback:
+- **Setup Cues**: "Watch their leg, isolate it when they shrimp"
+- **Control Guidance**: "Shift towards their hips, trap that leg with figure-four"
+- **Adjustment Prompts**: "Move your hips, lock it tight with your legs"
+- **Transition Confirmation**: "Good setup, apply pressure to control their position"
+
+## Technical Specifications
+### Control Mechanics
+Scientific position analysis:
+- **Force Vectors**: Downward and lateral shift to isolate leg and control torso
+- **Leverage Points**: Hip movement and figure-four legs create submission leverage
+- **Stability Factors**: Centered weight and leg grip for control during transition
+- **Mobility Dynamics**: Quick shift to lower body angle for attack
+- **Energy Efficiency**: Moderate energy use with high submission return
+
+### Success Factors
+Elements that strengthen position:
+- **Leg Isolation**: Secure positioning to control leg (+/-12%)
+- **Hip Agility**: Quick movement for proper angle (+/-10%)
+- **Timing Precision**: Optimal moment to attack leg (+/-8%)
+- **Opponent Defense**: Weakened escape attempts facilitate setup (+/-5%)
+- **Experience Level**: Familiarity with advanced setups (+/-5%)
+
+## Validation Checklist
+Every transition file must include:
+- [x] All required properties with specific values
+- [x] Detailed visual execution sequence (minimum 4 sentences)
+- [x] Complete execution steps list (minimum 5 steps)
+- [x] Success modifiers with specific percentages
+- [x] At least 3 common counters with success rates
+- [x] Decision logic for transition scenarios
+- [x] Minimum 3 common errors with corrections
+- [x] 5 knowledge test questions with answers
+- [x] Tactical applications and training progression
+- [x] Variants and audio narration elements
+
+## Example Implementation
+See [[Side Control]] for a complete example implementing a starting position leading to this transition.
+
+## Notes for Developers
+This standard ensures:
+- Consistent transition data for state machine implementation
+- Detailed control mechanics for realistic modeling
+- Rich content for comprehensive technical documentation
+- Educational value through error analysis
+- Technical depth for authentic understanding
+- Structured transition preparation for complete coverage
+- Knowledge assessment integration
+- Training progression guidance
+
+Updates to this standard should be reflected across related transition setup files to maintain consistency and educational value.
+
+## Related Transitions
+- **Transition to Truck** - Similar submission setup from back control
+- **Transition to Twister** - Direct submission follow-up from Truck
+- **Guard Recovery** - Defensive response if transition fails
+- **North-South** - Fallback position if Truck setup is countered
+
+## Historical Context
+Truck Entry has been a technical innovation in Brazilian Jiu-Jitsu, particularly associated with Eddie Bravo's 10th Planet system, where unconventional attacks like the Twister are prioritized. It reflects the strategic emphasis on creative submission chains and has been popularized in no-gi and MMA contexts to exploit escaping opponents from top positions.
+
+## Competition Applications
+- **IBJJF Rules**: Legal at all belt levels in gi and no-gi competition, though some follow-up submissions may be restricted
+- **Strategic Use**: Highly effective for submission points and control from top
+- **Gi Specificity**: Works in gi with belt grips, adaptable to no-gi with body control
+- **Tournament Impact**: Changes top control strategies by forcing opponents to defend unconventional attacks
+
+## Safety Considerations
+- **Back Safety**: Apply pressure gradually to avoid spinal injury with follow-up submissions
+- **Partner Awareness**: Communicate during dynamic submission drills
+- **Mat Space**: Ensure adequate space for movement towards lower body
+- **Control Release**: Be prepared to adjust if opponent counters aggressively
+
+## Transition Integration
+**Common Truck Entry combinations:**
+- [[Truck Entry]] → [[Truck Position]] → [[Twister Finish]]
+- [[Truck Entry]] → [[Submission Setup]] → [[Calf Slicer]]
+- [[Truck Entry]] → [[North-South]] → [[Submission Setup]]
+
+## Training Applications
+- **Submission Foundation**: Essential for building advanced top attack strategy
+- **Competition Preparation**: Strong transition for tournament submission tactics
+- **Control Development**: Builds understanding of unconventional leverage from top
+- **Strategic Exploration**: Encourages chaining submissions with other top attacks

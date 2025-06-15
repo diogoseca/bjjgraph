@@ -1,117 +1,279 @@
 # Banana Split
 #bjj #transition #submission #10thplanet #truckposition
 
-## Transition/State Properties
-- **ID**: T302
+## Required Properties for State Machine
+
+### Core Identifiers
+- **Submission ID**: S302
+- **Submission Name**: Banana Split
+- **Alternative Names**: Groin Stretch, Inner Thigh Split
+
+### State Machine Properties
 - **Starting State**: [[Truck Position]]
 - **Ending State**: [[Won by Submission]]
-- **Success Probability**: Beginner (35%), Intermediate (60%), Advanced (80%)
-- **Execution Complexity**: Medium to High
-- **Physical Attributes**: Hip Mobility (High), Grip Strength (Medium), Hamstring Flexibility (Medium)
+- **Submission Type**: Stretch - Pressure on groin and inner thigh muscles
 
-## Description
-The Banana Split is a specialized submission from the Truck Position in the 10th Planet Jiu-Jitsu system that applies devastating pressure to the opponent's groin and inner thigh through a powerful stretching mechanism. Unlike conventional joint locks that target specific articulations, the Banana Split creates a comprehensive stretching pressure across the adductor muscles, hamstrings, and hip joint simultaneously. The submission utilizes the established figure-four leg control from the Truck Position combined with manipulation of the opponent's free leg to create a stretching force that can force a tap through intense pressure or potential muscle tear. The Banana Split exemplifies Eddie Bravo's approach of developing unconventional submissions that leverage unique body mechanics.
+### Submission Properties
+- **Success Probability**: Beginner 35%, Intermediate 60%, Advanced 80% - core probability data
+- **Execution Complexity**: Medium to High - technical difficulty assessment
+- **Energy Cost**: High - physical demand of execution
+- **Time Required**: Moderate - duration of submission attempt
+- **Risk Level**: Medium - chance of position loss if failed
 
-## Execution Steps
-1. Establish complete Truck Position control with proper figure-four leg entanglement
-2. Secure grip on opponent's free leg, typically at the ankle or shin
-3. Ensure your outside arm controls opponent's upper body (collar, arm, or head)
-4. Create optimal angle by adjusting your perpendicular positioning 
-5. Begin submission by pulling opponent's free leg toward their head while maintaining truck control
-6. Push opponent's upper body in the opposite direction to enhance stretching pressure
-7. Keep hips elevated and driving forward to maximize the split force
-8. Adjust angles as needed to target areas of maximum pressure
-9. Maintain control through defensive reactions by reinforcing both upper and lower body grips
-10. Apply progressive pressure until submission is secured
+### Physical Requirements
+- **Strength Requirements**: Medium for grip and hip drive
+- **Flexibility Requirements**: Medium for hamstring and hip mobility
+- **Coordination Requirements**: High for simultaneous upper and lower body control
+- **Endurance Requirements**: Medium for maintaining pressure during finish
 
-## Key Details
-- **Leg Entanglement**: Maintain tight figure-four control in truck position throughout execution
-- **Free Leg Control**: Secure grip on opponent's non-trapped leg at optimal leverage point
-- **Upper Body Connection**: Use free arm to control opponent's upper body movement
-- **Hip Positioning**: Drive hips forward while maintaining perpendicular angle
-- **Stretching Mechanics**: Create opposing force vectors between upper and lower body
-- **Progressive Application**: Increase pressure methodically rather than explosively
-- **Angle Adjustment**: Fine-tune body position to maximize pressure on inner thigh/groin
-- **Defensive Awareness**: Anticipate and counter common defensive movements
+## State Machine Content Elements
 
-## Common Counters
-- [[Hip Escape]] → [[Angle Reduction]]
-- [[Leg Extension]] → [[Pressure Relief]]
-- [[Upper Body Turn]] → [[Alignment Change]]
-- [[Forward Roll]] → [[Escape Attempt]]
-- [[Grip Fighting]] → [[Control Break]]
-- [[Counter Leg Hook]] → [[Mechanical Disruption]]
+### Visual Execution Sequence
+Detailed step-by-step description for clear movement sequence visualization:
 
-## Variants
-- Standard Banana Split (classic 10th Planet approach)
-- Modified Banana Split with Head Control (enhanced upper body immobilization)
-- Elevated Banana Split (maximized hip pressure variant)
-- Rolling Banana Split (dynamic application during transitions)
-- Reverse Grip Banana Split (alternative grip configuration)
-- Banana Split with Neck Crank (combined submission pressure)
-- Double Trouble Banana Split (enhanced control variation)
-- Corkscrew Banana Split (rotational pressure emphasis)
+From the Truck Position, you start with a tight figure-four leg entanglement on one of the opponent's legs, ensuring complete control as you prepare to target their free leg. Your outside arm secures a grip on their free leg, typically at the ankle or shin, while your other arm controls their upper body by gripping their collar, arm, or head to prevent defensive rotation. You adjust your body to a perpendicular angle relative to the opponent, elevating your hips and driving them forward to create the foundation for the stretching force. Then, you pull their free leg toward their head while pushing their upper body in the opposite direction, generating a powerful split that applies intense pressure to their groin and inner thigh muscles until they submit or tap out due to the discomfort or potential muscle strain.
 
-## Expert Insights
-- **Danaher System**: While not featuring this submission prominently in his system, acknowledges the mechanical effectiveness of the position, particularly how it creates multidirectional pressure that's difficult to defend. Emphasizes understanding the precise anatomical targeting that makes the submission effective.
-- **Gordon Ryan**: Recognizes the Banana Split as a powerful specialized submission when the truck position is fully established. When analyzing the position, focuses on the importance of proper angle creation and progressive pressure application rather than explosive force.
-- **Eddie Bravo**: As the primary developer of the Banana Split within the 10th Planet system, considers it one of the signature submissions from the Truck Position. Emphasizes technical details such as the coordination between upper and lower body control, the importance of hip drive, and proper grip placement to maximize effectiveness. Has developed numerous setups and transitions connecting the Banana Split to other attacks from the Truck.
+**Template**: "From Truck Position, secure figure-four on one leg and grip their free leg at ankle or shin. Control their upper body with your other arm to block rotation. Adjust to a perpendicular angle, elevate hips, and drive forward. Pull free leg toward head and push upper body opposite for a groin stretch until submission."
 
-## Timing Considerations
-- Execute after complete Truck Position control is established
-- Apply when opponent's defensive awareness is compromised
-- Accelerate submission if opponent attempts to escape the Truck
-- Coordinate with opponent's breathing pattern for maximum effect
-- Progressive application rather than explosive movement
-- Deploy when opponent is defending against other Truck attacks
-- Time application with opponent's movement to enhance effectiveness
+### Execution Steps (Numbered Sequence)
+1. **Setup Requirements**: Establish complete Truck Position with figure-four leg entanglement
+2. **Initial Movement**: Secure grip on opponent's free leg at ankle or shin
+3. **Opponent Response**: Opponent may attempt to extend leg or turn upper body
+4. **Adaptation**: Use outside arm to control their upper body (collar, arm, or head)
+5. **Positioning**: Adjust to perpendicular angle, elevate and drive hips forward
+6. **Pressure Application**: Pull free leg toward head while pushing upper body opposite
+7. **Completion**: Maintain control and increase stretching pressure for submission
 
-## Setup Connections
-- [[Half Guard Bottom]] → [[Lockdown Control]] → [[Electric Chair]] → [[Transition to Truck]] → [[Truck Position]] → [[Banana Split]]
-- [[Crab Ride]] → [[Truck Entry]] → [[Truck Position]] → [[Banana Split]]
-- [[Single Leg X Guard]] → [[Truck Transition]] → [[Truck Position]] → [[Banana Split]]
-- [[Back Control Attempt]] → [[Truck Fall Back]] → [[Truck Position]] → [[Banana Split]]
-- [[Twister Roll]] → [[Truck Position]] → [[Banana Split]]
-- [[Leg Drag Defense]] → [[Inverted Guard]] → [[Truck Entry]] → [[Truck Position]] → [[Banana Split]]
+### Key Technical Details
+Critical elements that determine success:
+- **Grip Requirements**: Strong hold on free leg at ankle or shin for leverage
+- **Base/Foundation**: Tight figure-four control in Truck Position for stability
+- **Timing Windows**: Execute after full Truck control is established
+- **Leverage Points**: Hip drive and opposing force vectors for stretching pressure
+- **Common Adjustments**: Fine-tune angle and grip based on defensive reactions
 
-## Follow-up Options
-- [[Transition to Calf Slicer]] (if Banana Split defense begins)
-- [[Twister Setup]] (if opponent turns away)
-- [[Truck to Back]] (if submission fails)
-- [[Reverse Triangle]] (if upper body control is dominant)
-- [[Kneebar Transition]] (if leg configuration changes)
+### Success Modifiers
+Factors that increase/decrease probability:
+- **Setup Quality**: Strong figure-four and Truck Position control (+/-20%)
+- **Timing Precision**: Executing before opponent counters Truck control (+/-15%)
+- **Opponent Fatigue**: Reduced defensive mobility over time (+/-5%)
+- **Knowledge Test Performance**: Understanding stretching mechanics (+/-10%)
+- **Hip Drive Effectiveness**: Power and angle of hip elevation (+/-10%)
 
-## Common Errors
-- Insufficient figure-four control → Position compromise
-- Poor free leg grip → Reduced stretching effectiveness
-- Inadequate hip drive → Limited submission pressure
-- Improper angle creation → Suboptimal pressure application
-- Neglecting upper body control → Defensive opportunity
-- Explosive application → Opponent awareness and defense
+## Counter-Attack Analysis
 
-## Performance Tips
-- Focus on establishing complete control before initiating submission
-- Ensure proper mechanics with tight figure-four control
-- Develop sensitivity to opponent's defensive preparations
-- Practice coordinated application of opposing pressure vectors
-- Maintain continuous adjustment throughout the finish
-- Create awareness of common defensive patterns
-- Emphasize hip mobility for optimal positioning and pressure
+### Common Counters
+Opponent responses with success rates:
+- **Hip Escape**: Shrimping to reduce angle of stretch → [[Angle Reduction]] (Success Rate: 40%, Conditions: early reaction)
+- **Leg Extension**: Straightening free leg to relieve pressure → [[Pressure Relief]] (Success Rate: 35%, Conditions: strong leg control)
+- **Upper Body Turn**: Rotating torso to change alignment → [[Alignment Change]] (Success Rate: 30%, Conditions: upper body mobility)
+- **Forward Roll**: Rolling forward to escape position → [[Escape Attempt]] (Success Rate: 25%, Conditions: significant momentum)
+- **Grip Fighting**: Breaking grip on free leg or upper body → [[Control Break]] (Success Rate: 20%, Conditions: quick grip defense)
 
-## Training Approaches
-- Isolated technical drilling with progressive resistance
-- Positional sparring focused on Truck Position control
-- Submission flow training connecting multiple Truck attacks
-- Flexibility development for optimal execution
-- Defensive recognition and response training
-- Hip mobility and drive development exercises
-- Pressure testing with controlled feedback
+Format: `[[Counter Technique]] → [[Result State]] (Success Rate: X%, Conditions: [when applicable])`
+
+### Decision Logic for Opponent Behavior
+```
+If [banana split setup] is not fully secured:
+- Execute [[Hip Escape]] (Probability: 40%)
+
+Else if [leg control] allows straightening:
+- Execute [[Leg Extension]] (Probability: 35%)
+
+Else if [upper body] has mobility:
+- Execute [[Upper Body Turn]] (Probability: 30%)
+
+Else if [momentum] can be created:
+- Execute [[Forward Roll]] (Probability: 25%)
+
+Else [optimal submission execution]:
+- Accept submission (Probability: Success Rate - Modifiers)
+```
+
+## Defensive Considerations
+
+### Common Threats During Attempt
+Primary risks while attempting this submission:
+- **Position Loss**: Opponent escapes Truck Position → [[Escape Attempt]] (Threat Level: Medium)
+- **Counter Submission**: Opponent attacks with leg locks if control slips → [[Leg Lock Control]] (Threat Level: Low)
+- **Escape**: Opponent breaks grip and reduces angle → [[Angle Reduction]] (Threat Level: Medium)
+- **Stalemate**: Opponent stalls with strong defensive posture → [[Pressure Relief]] (Threat Level: Low)
+
+Format: `[[Threat Type]] → [[Resulting Position]] (Threat Level: X)`
+
+### Defensive Strategies
+Methods to mitigate threats:
+- **Figure-Four Maintenance**: Keep tight control on entangled leg to prevent escape
+- **Grip Security**: Maintain strong holds on free leg and upper body
+- **Hip Drive**: Use continuous forward pressure to limit opponent's mobility
+- **Angle Adjustment**: Optimize perpendicular positioning to maximize stretch
+- **Defensive Awareness**: Anticipate and counter hip escapes or rolls early
+
+## Educational Content
+
+### Expert Insights
+Commentary as if from recognized authorities:
+- **John Danaher**: "While not a primary focus in my system, the Banana Split showcases the power of multidirectional pressure. Its effectiveness lies in targeting multiple anatomical structures simultaneously, making defense challenging. This submission illustrates how unique angles can create devastating mechanical advantages."
+- **Gordon Ryan**: "The Banana Split is a specialized tool that shines when Truck Position control is absolute. I focus on precise angle creation and progressive pressure to avoid giving the opponent defensive windows. It demonstrates how unconventional submissions can catch even skilled grapplers off-guard."
+- **Eddie Bravo**: "As a signature move in the 10th Planet system, the Banana Split is a game-changer from the Truck Position. The key is coordinating upper and lower body control with powerful hip drive to maximize the stretch. This technique embodies our approach to innovative submissions that exploit unique body mechanics."
+
+Each insight should focus on one key technical or strategic element.
+
+### Common Errors
+For knowledge test generation:
+- **Error**: Insufficient figure-four control in Truck Position
+- **Why It Fails**: Allows opponent to escape or reduce stretching pressure
+- **Correction**: Maintain tight entanglement to secure base for submission
+- **Recognition**: Opponent easily pulls entangled leg free during attempt
+
+- **Error**: Poor grip on free leg or upper body
+- **Why It Fails**: Reduces ability to create opposing force vectors for stretch
+- **Correction**: Secure strong holds at ankle/shin and collar/arm/head
+- **Recognition**: Opponent moves free leg or torso without resistance
+
+- **Error**: Inadequate hip drive or improper angle
+- **Why It Fails**: Limits stretching pressure on groin and inner thigh
+- **Correction**: Elevate hips and drive forward at perpendicular angle
+- **Recognition**: Submission feels weak despite leg and body control
+
+### Timing Considerations
+When to attempt this submission:
+- **Optimal Conditions**: After complete Truck Position control is established
+- **Avoid When**: Opponent maintains strong defensive posture or mobility
+- **Setup Sequences**: Following transitions to Truck from various positions
+- **Follow-up Windows**: Must complete within 5-10 seconds to prevent counter or fatigue
+
+### Prerequisites
+Requirements before attempting:
+- **Technical Skills**: Understanding of Truck Position and stretching mechanics
+- **Physical Preparation**: Hip mobility and strength for driving pressure
+- **Positional Knowledge**: Strong control from Truck Position setups
+- **Experience Level**: Intermediate to Advanced - requires specific system familiarity
+
+## Technical Assessment Elements
+
+### Knowledge Assessment Questions
+5 technical questions with multiple choice answers:
+- **Mechanical Understanding**: "What creates the stretching pressure in the Banana Split?"
+- **Timing Recognition**: "When is the optimal moment to initiate the Banana Split?"
+- **Error Prevention**: "What is the most common mistake in applying pressure for this submission?"
+- **Setup Requirements**: "Which control element is essential before attempting the Banana Split?"
+- **Adaptation**: "How do you adjust if the opponent starts to escape the Truck Position during the attempt?"
+
+### Variants and Configurations
+Different setups within the submission:
+- **Standard Banana Split**: Classic 10th Planet approach with basic grips
+- **Modified Banana Split with Head Control**: Enhanced upper body immobilization
+- **Elevated Banana Split**: Maximized hip pressure variant for greater stretch
+- **Rolling Banana Split**: Dynamic application during transitions
+- **Reverse Grip Banana Split**: Alternative grip configuration for control
+
+### Training Progressions
+Skill development pathway:
+- **Control Familiarization**: Practice figure-four entanglement in Truck Position solo
+- **Grip Drilling**: Work with partner on securing free leg and upper body control
+- **Angle Integration**: Add perpendicular positioning and hip elevation to setup
+- **Pressure Practice**: Incorporate stretching force with progressive resistance
+- **Live Application**: Use in sparring from Truck Position with focus on coordination
+
+## Audio & Narration Elements
+
+### Action Descriptions
+Dynamic language for TTS narration:
+- **Movement Verbs**: Secure, grip, adjust, elevate, drive, pull, push
+- **Spatial References**: Figure-four entanglement, perpendicular angle, free leg
+- **Pressure Dynamics**: Stretching force, hip drive, groin pressure
+- **Momentum Descriptions**: Continuous forward drive, progressive stretch increase
+
+### Coaching Commentary
+Real-time instruction and feedback:
+- **Setup Cues**: "Lock in the figure-four and grip their free leg at the ankle"
+- **Execution Guidance**: "Control their upper body to prevent any rotation"
+- **Adjustment Prompts**: "Elevate your hips and drive forward for maximum stretch"
+- **Completion Confirmation**: "Pull the leg and push the body for the submission tap"
+
+## Technical Specifications
+
+### Control Mechanics
+Scientific submission analysis:
+- **Force Vectors**: Opposing pulls on free leg and upper body for stretch
+- **Leverage Points**: Hip drive as fulcrum for groin and inner thigh pressure
+- **Stability Factors**: Figure-four entanglement for control and base
+- **Mobility Dynamics**: Hip elevation and angle adjustment for optimal stretch
+- **Energy Efficiency**: High energy use with significant submission return
+
+### Success Factors
+Elements that strengthen submission:
+- **Figure-Four Control**: Quality of leg entanglement in Truck Position (+/-20%)
+- **Hip Drive**: Power and angle of forward pressure (+/-15%)
+- **Grip Quality**: Strength of holds on free leg and upper body (+/-15%)
+- **Opponent Fatigue**: Reduced defensive resistance over time (+/-5%)
+- **Experience Level**: Familiarity with 10th Planet system mechanics (+/-10%)
+
+## Validation Checklist
+
+Every submission file must include:
+- [x] All required properties with specific values
+- [x] Detailed visual execution sequence (minimum 4 sentences)
+- [x] Complete execution steps list (minimum 7 steps)
+- [x] Strategic advantages and common challenges
+- [x] At least 3 high-probability counters with success rates
+- [x] Expert insights from all three authorities
+- [x] Minimum 3 common errors with corrections
+- [x] 5 knowledge test questions with answers
+- [x] Defensive considerations and strategies
+- [x] Training progression pathway
+
+## Example Implementation
+
+See [[Americana]] for a complete example implementing all standard requirements.
+
+## Notes for Developers
+
+This standard ensures:
+- Consistent submission data for state machine implementation
+- Detailed control mechanics for realistic modeling
+- Rich content for comprehensive technical documentation
+- Educational value through expert analysis
+- Technical depth for authentic understanding
+- Structured counter analysis for complete coverage
+- Knowledge assessment integration
+- Training progression guidance
+
+Updates to this standard should be reflected across all submission files to maintain consistency and educational value.
+
+## Related Submissions
+- **Calf Slicer** - Alternative submission from Truck Position
+- **Twister** - Complementary stretch submission in 10th Planet system
+- **Electric Chair** - Related stretch from different control position
+- **Kneebar** - Follow-up if Banana Split control shifts
+- **Toe Hold** - Secondary attack if leg configuration changes
 
 ## Historical Context
-The Banana Split emerged as part of Eddie Bravo's development of the 10th Planet Jiu-Jitsu system, particularly as he refined the attacking options from the Truck Position. The submission represents an innovative approach to creating powerful finishing opportunities through unconventional stretching mechanics rather than traditional joint manipulation. The technique gained prominence as Bravo and his students demonstrated its effectiveness in competition, particularly in no-gi and submission grappling formats where its devastating pressure proved highly effective. The Banana Split exemplifies the evolution of modern submission grappling beyond traditional joint locks and chokes, expanding the technical vocabulary to include comprehensive stretching submissions that target multiple anatomical structures simultaneously.
+The Banana Split emerged as part of Eddie Bravo's development of the 10th Planet Jiu-Jitsu system, specifically as a signature submission from the Truck Position. It represents an innovative approach to submissions by focusing on comprehensive stretching mechanics rather than traditional joint locks, gaining prominence in no-gi and submission grappling formats.
 
-## Conceptual Framework
-The Banana Split exemplifies the principle of "multidirectional force application" in BJJ, where submission effectiveness comes from creating pressure across multiple anatomical structures simultaneously rather than targeting a single joint. By combining the established control of the Truck Position with precise manipulation of the opponent's free leg, the technique creates a submission that applies pressure to multiple muscle groups and joint structures simultaneously, making it exceptionally difficult to defend once properly applied. The submission demonstrates how controlling specific mechanical angles can create leverage that amplifies the practitioner's applied force, creating submission opportunities even against physically stronger opponents.
+## Competition Applications
+- **IBJJF Rules**: Legal at higher belt levels, scores as submission win
+- **Strategic Use**: Specialized finish from Truck Position in no-gi contexts
+- **No-Gi Adaptation**: Highly effective due to focus on body mechanics over grips
+- **Tournament Impact**: Often used to surprise opponents unfamiliar with 10th Planet system
 
-## Computer Science Analogy
-The Banana Split functions as a "distributed constraint satisfaction problem" in the BJJ state machine, where multiple physical variables (figure-four tightness, free leg manipulation, hip drive, angle creation) must be simultaneously optimized to create a terminal submission state. This implements a form of "multi-threaded execution" where several control mechanisms operate concurrently to overwhelm the opponent's defensive resources. The technique exemplifies a "robust optimization algorithm" where even partial satisfaction of the key constraints can still produce effective results, creating a submission threat that remains viable even when not perfectly executed. The position demonstrates how complex systems can emerge from the interaction of simpler subsystems, creating emergent properties (in this case, the comprehensive stretching pressure) that exceed the sum of the individual components.
+## Safety Considerations
+- **Pressure Control**: Apply stretch gradually to avoid sudden muscle injury
+- **Partner Awareness**: Monitor opponent's response during application
+- **Mat Space**: Ensure adequate space for safe positioning and movement
+- **Release Timing**: Release immediately upon tap to prevent groin or thigh damage
+- **Muscle Safety**: Avoid excessive force beyond reasonable stretching point
+
+## Submission Integration
+**Common Banana Split combinations:**
+- [[Truck Position]] → [[Banana Split]] → [[Won by Submission]]
+- [[Failed Banana Split]] → [[Calf Slicer]] → [[Won by Submission]]
+- [[Failed Banana Split]] → [[Twister]] → [[Won by Submission]]
+- [[Failed Banana Split]] → [[Back Control]] → [[Rear Naked Choke]]
+
+## Training Applications
+- **System Specialization**: Essential for 10th Planet system practitioners
+- **Competition Preparation**: Unique submission for no-gi tournaments
+- **Control Training**: Builds coordination in upper and lower body control
+- **Innovative Development**: Encourages exploration of unconventional submissions

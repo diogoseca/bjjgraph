@@ -1,113 +1,135 @@
 # Twister Setup
 #bjj #technique #submission #10thplanet #setup
 
-## Technique Properties
-- **Technique ID**: T105
-- **Classification**: Submission Setup
-- **Starting Position**: [[Truck Position]], [[Back Control]], [[Side Control]]
-- **Target Position**: [[Twister Control]]
-- **Difficulty Level**: Advanced
-- **Energy Efficiency**: Medium
+## Required Properties for State Machine
 
-## Technique Description
-The Twister Setup is a specialized submission pathway that creates the conditions necessary to establish the powerful spinal lock known as the Twister. Developed and popularized by Eddie Bravo within his 10th Planet Jiu-Jitsu system, this setup involves a precise sequence of limb entanglements and control points that transition from more common positions to the unique configuration required for the Twister submission. Unlike direct submissions that attack immediately available limbs, the Twister Setup requires methodical positional advancement, strategically restricting the opponent's mobility while creating the specific body alignment necessary for the submission. The setup phase is characterized by controlling the opponent's lower body with a leg triangle while simultaneously working to thread an arm under their neck, establishing perpendicular control of their upper body relative to their hips. The Twister Setup represents one of the most technically sophisticated transition sequences in BJJ, requiring precise understanding of body mechanics and control principles rather than pure strength or athleticism.
+### Core Identifiers
+- **Submission ID**: S103
+- **Submission Name**: Twister Setup
+- **Alternative Names**: Twister Entry, Spinal Lock Setup
 
-## Execution Steps
-1. Begin from [[Truck Position]] (most common), [[Back Control]], or occasionally from [[Side Control]]
-2. If starting from Truck Position, secure your legs in triangle configuration around the opponent's trapped leg
-3. Establish hip-to-hip connection with the opponent, aligning your body perpendicular to theirs
-4. Use your inside arm (arm closest to opponent's head) to reach under their neck
-5. Secure the opponent's far arm by grabbing their wrist or establishing an underhooking grip
-6. Lock your legs tightly around the opponent's trapped leg, preventing hip mobility
-7. Drive your hips toward the opponent's head while pulling their upper body toward their trapped leg
-8. Create the "twisting" alignment by ensuring the opponent's shoulders are perpendicular to their hips
-9. Establish the full [[Twister Control]] position with proper neck and leg control
+### State Machine Properties
+- **Starting State**: [[Truck Position]], [[Back Control]], [[Side Control]]
+- **Ending State**: [[Twister Control]]
+- **Submission Type**: Setup - Prepares for spinal lock submission
 
-## Key Details
-- **Leg Triangle Configuration**: Must create complete control of opponent's trapped leg
-- **Hip Positioning**: Maintain perpendicular alignment to opponent's body
-- **Far Arm Control**: Essential to prevent defensive framing and mobility
-- **Head Positioning**: Keep your head tight to opponent's upper back/shoulder
-- **Neck Threading**: Arm must fully thread under neck with proper depth
-- **Hip Drive**: Continuous hip pressure creates the spinal pressure mechanism
-- **Body Alignment**: Opponent's shoulders must be perpendicular to their hips
-- **Grip Sequence**: Establish neck control before finalizing leg position
+### Submission Properties
+- **Success Probability**: Beginner 30%, Intermediate 55%, Advanced 75% - core probability data
+- **Execution Complexity**: High - technical difficulty assessment
+- **Energy Cost**: Medium - physical demand of execution
+- **Time Required**: Medium - duration of setup attempt
+- **Risk Level**: Medium - chance of position loss if failed
 
-## Common Defenses
-- [[Spinal Alignment]] → [[Twister Prevention]]
-- [[Hip Escape]] → [[Truck Defense]]
-- [[Wrist Control]] → [[Grip Fighting]]
-- [[Roll to Knees]] → [[Turtle Position]]
-- [[Leg Extension]] → [[Leg Entanglement Escape]]
+### Physical Requirements
+- **Strength Requirements**: Medium for grip and control maintenance
+- **Flexibility Requirements**: Medium for hip mobility and positioning
+- **Coordination Requirements**: High for precise limb entanglement and alignment
+- **Endurance Requirements**: Medium for sustained control during setup
 
-## Counter Techniques
-- [[Hip Drive Escape]] - Opponent bridges strongly to create space
-- [[Preventative Framing]] - Opponent establishes defensive frames early
-- [[Roll Through Counter]] - Opponent rolls in the direction of the twist
-- [[Far Side Control]] - Opponent fights for control of their trapped side
-- [[Leg Triangle Disruption]] - Opponent attacks your leg triangle control
-- [[Spinal Alignment Maintenance]] - Opponent keeps spine neutrally aligned
+## State Machine Content Elements
 
-## Variations
-- Back Control Twister Setup - Entering from standard back control
-- Side Control Twister Entry - Rare variation from side control
-- Honey Hole to Twister - Transitioning from leg entanglement to Twister
-- Rolling Twister Setup - Dynamic variation with rolling entry
-- Modified Truck Twister - Setup with modified leg configuration
-- Twister Side Control - Alternative control configuration during setup
+### Visual Execution Sequence
+Detailed step-by-step description for clear movement sequence visualization:
 
-## Setup Opportunities
-- [[Truck Position]] → [[Twister Setup]]
-- [[Back Control]] → [[Twister Setup]]
-- [[Failed Calf Slicer]] → [[Twister Setup]]
-- [[Defended Banana Split]] → [[Twister Setup]]
-- [[Side Control Far Arm Control]] → [[Twister Setup]]
-- [[Rolling Back Attack]] → [[Twister Setup]]
+Begin from a control position such as the Truck Position, Back Control, or occasionally Side Control, with the most common entry being from the Truck Position where your legs are already in a triangle configuration around the opponent's trapped leg. Establish a hip-to-hip connection with the opponent, aligning your body perpendicular to theirs to create the necessary angle for the Twister. Use your inside arm, closest to the opponent's head, to reach under their neck, threading it deeply to prepare for upper body control. Secure the opponent's far arm by grabbing their wrist or establishing an underhooking grip, preventing defensive framing, and lock your legs tightly around their trapped leg to restrict hip mobility. Drive your hips toward the opponent's head while pulling their upper body toward their trapped leg, creating the "twisting" alignment by ensuring their shoulders are perpendicular to their hips, thus establishing the full Twister Control position ready for the finishing submission.
 
-## Follow-up Options
-- [[Twister Control]] → [[Twister Finish]] (primary objective)
-- [[Transition to Calf Slicer]] (if opponent defends twister)
-- [[Return to Truck]] (if position is compromised)
-- [[Banana Split Switch]] (alternative submission)
-- [[Back Control Recovery]] (if upper body control is lost)
-- [[Armbar from Twister]] (attacking extended arm)
+**Template**: "From Truck Position or similar, secure leg triangle. Align perpendicular, hip-to-hip with opponent. Thread arm under neck, control far arm. Lock legs around trapped leg, drive hips to head, pull upper body to leg for twisting alignment into Twister Control."
 
-## Expert Insights
-- **Danaher System**: While not a primary focus in the Danaher submission system due to its illegality in certain competition rulesets, Danaher acknowledges the mechanical efficiency of the position. When discussing the Twister, he emphasizes understanding the precise control mechanics that make the submission effective, particularly the relationship between controlling the shoulders perpendicular to the hips while preventing defensive mobility. He views proper setup as more critical than the finishing mechanics.
-- **Gordon Ryan**: Recognizes the Twister as a specialized submission that requires specific setups and typically employs it selectively within his competition strategy. Ryan emphasizes establishing complete control of the opponent's defensive options before initiating the setup sequence, focusing on eliminating escape routes methodically rather than rushing to the submission position.
-- **Eddie Bravo**: As the primary developer and proponent of the Twister in BJJ (adapted from wrestling's guillotine), Bravo has created a comprehensive system for entering the position from various scenarios. He particularly emphasizes the Truck Position as the optimal entry pathway, creating a systematic approach that links multiple 10th Planet-specific positions into an integrated attacking sequence. Bravo's approach focuses on controlling the opponent's hip mobility throughout the setup phase.
+### Execution Steps (Numbered Sequence)
+1. **Setup Requirements**: Begin from [[Truck Position]], [[Back Control]], or [[Side Control]]
+2. **Initial Movement**: Secure legs in triangle configuration around opponent's trapped leg if from Truck
+3. **Opponent Response**: Opponent may attempt to escape hip control or frame defensively
+4. **Adaptation**: Establish hip-to-hip connection, align body perpendicular to opponent
+5. **Positioning**: Thread inside arm under opponent's neck, secure far arm with grip or underhook
+6. **Pressure Application**: Lock legs tightly around trapped leg, drive hips toward head
+7. **Completion**: Pull upper body toward trapped leg, align shoulders perpendicular to hips for [[Twister Control]]
 
-## Common Errors
-- Insufficient leg control → Opponent can escape trapped leg
-- Poor perpendicular alignment → Ineffective twisting mechanics
-- Rushed neck threading → Defensive space creation
-- Inadequate far arm control → Defensive framing opportunity
-- Improper hip positioning → Reduced leverage
-- Telegraphing submission intention → Early defensive reaction
-- Excessive strength application → Energy depletion
+### Key Technical Details
+Critical elements that determine success:
+- **Grip Requirements**: Control of far arm to prevent defensive framing
+- **Base/Foundation**: Leg triangle configuration for trapped leg control
+- **Timing Windows**: Execute when opponent's defensive mobility is restricted
+- **Leverage Points**: Hip drive and perpendicular alignment for twisting setup
+- **Common Adjustments**: Adjust arm threading and leg lock based on defensive reactions
 
-## Strategic Application
-- Creating submission threat from specialized control positions
-- Exploiting opponent's defensive focus on more common submissions
-- Generating powerful submissions in no-gi and MMA contexts
-- Establishing control against explosive or flexible opponents
-- Creating decision points that force defensive errors
-- Connecting 10th Planet-specific positions in tactical sequence
-- Setting up alternative submissions through positional advancement
+### Success Modifiers
+Factors that increase/decrease probability:
+- **Setup Quality**: Security of leg triangle and arm threading (+/-20%)
+- **Timing Precision**: Executing during opponent's mobility restriction (+/-15%)
+- **Opponent Fatigue**: Reduced defensive resistance over time (+/-5%)
+- **Knowledge Test Performance**: Understanding Twister mechanics (+/-10%)
+- **Positional Control**: Effectiveness of hip-to-hip connection and alignment (+/-10%)
 
-## Training Approaches
-- Isolated drilling of specific control transitions
-- Slow-motion progression through setup stages
-- Position-specific sparring from Truck Position
-- Defensive recognition against common counters
-- Control maintenance under increasing resistance
-- Connected drilling linking Truck, Twister, and alternative submissions
+## Counter-Attack Analysis
 
-## Competition Effectiveness
-The Twister Setup has proven to be highly effective in submission-only competitions, particularly in no-gi and MMA formats where the submission is legal. While less common than more traditional submissions, the Twister has been successfully applied at the highest levels of competition, most notably by Chan Sung Jung (Korean Zombie) in the UFC. Analysis of competition data indicates the setup is most successful when initiated from the Truck Position, with approximately 70% of competitive Twister submissions coming from this entry pathway. The setup's effectiveness comes partly from its relative unfamiliarity to many practitioners, creating defensive hesitation during the critical transition phases. In grappling competitions where the technique is legal, practitioners specifically trained in the 10th Planet system demonstrate significantly higher success rates with the setup due to their systematic approach to the position.
+### Common Counters
+Opponent responses with success rates:
+- **Spinal Alignment**: Maintaining neutral spine to prevent twisting → [[Twister Prevention]] (Success Rate: 25%, Conditions: early reaction)
+- **Hip Escape**: Escaping hip control to regain mobility → [[Truck Defense]] (Success Rate: 20%, Conditions: strong movement)
+- **Wrist Control**: Fighting for control of gripped arm → [[Grip Fighting]] (Success Rate: 15%, Conditions: quick adjustment)
+- **Roll to Knees**: Rolling to turtle to escape setup → [[Turtle Position]] (Success Rate: 10%, Conditions: significant leverage)
+- **Leg Extension**: Extending trapped leg to disrupt control → [[Leg Entanglement Escape]] (Success Rate: 10%, Conditions: immediate action)
 
-## Historical Development
-The Twister submission and its setup methodology were adapted from wrestling (where it's known as a guillotine) by Eddie Bravo and incorporated into his 10th Planet Jiu-Jitsu system in the early 2000s. While initially viewed as an exotic or novelty technique, it gained mainstream recognition after appearing in high-profile MMA competitions. The setup methodology has evolved significantly since its introduction to BJJ, with Bravo and his students developing increasingly refined entry systems, particularly focusing on the Truck Position as the primary gateway to the submission. The most significant evolution has been the development of branching submission threats that complement the Twister, creating decision trees that force opponents to choose between multiple high-percentage submission risks. Modern application of the Twister Setup represents a sophisticated positional approach rather than the isolated technique it was initially perceived to be, demonstrating how BJJ continuously refines and systematizes even its most specialized techniques.
+Format: `[[Counter Technique]] → [[Result State]] (Success Rate: X%, Conditions: [when applicable])`
 
-## Conceptual Relationship to Computer Science
-The Twister Setup functions similar to a "forced directed graph traversal" in computer science, where the initiator systematically eliminates potential escape paths while directing the opponent toward a predetermined end state. This represents a form of "constrained optimization problem" where the setup systematically reduces degrees of freedom until only the desired outcome remains possible. The setup also demonstrates principles of "deadlock detection and resolution" from concurrent programming, where control points are established in a specific sequence to prevent the defensive system from reaching safe states. Just as certain algorithms can force a system into a particular configuration by progressively eliminating alternative pathways, the Twister Setup methodically restricts defensive options until the opponent's body is forced into the precise alignment required for the submission to be applied effectively.
+### Decision Logic for Opponent Behavior
+```
+If [twister setup] is not fully secured:
+- Execute [[Spinal Alignment]] (Probability: 25%)
+
+Else if [hip escape] can regain mobility:
+- Execute [[Hip Escape]] (Probability: 20%)
+
+Else if [wrist control] disrupts grip:
+- Execute [[Wrist Control]] (Probability: 15%)
+
+Else if [roll to knees] escapes setup:
+- Execute [[Roll to Knees]] (Probability: 10%)
+
+Else [optimal setup execution]:
+- Accept transition to [[Twister Control]] (Probability: Success Rate - Modifiers)
+```
+
+## Defensive Considerations
+
+### Common Threats During Attempt
+Primary risks while attempting this setup:
+- **Spinal Defense**: Opponent aligns spine to prevent twisting → [[Twister Prevention]] (Threat Level: Medium)
+- **Hip Mobility**: Opponent escapes hip control → [[Truck Defense]] (Threat Level: Medium)
+- **Grip Fighting**: Opponent fights for wrist control → [[Grip Fighting]] (Threat Level: Low)
+- **Positional Escape**: Opponent rolls to knees or other position → [[Turtle Position]] (Threat Level: Low)
+
+Format: `[[Threat Type]] → [[Resulting Position]] (Threat Level: X)`
+
+### Defensive Strategies
+Methods to mitigate threats:
+- **Leg Control**: Maintain tight leg triangle to prevent hip escape
+- **Arm Threading**: Secure deep arm position under neck to counter spinal alignment
+- **Far Arm Grip**: Keep strong control of far arm to block grip fighting
+- **Hip Pressure**: Drive hips continuously to limit opponent's mobility
+- **Adaptation Readiness**: Be prepared to switch to alternative submissions or controls if setup fails
+
+## Educational Content
+
+### Expert Insights
+Commentary as if from recognized authorities:
+- **John Danaher**: "While not central to my system due to competition rules, the Twister Setup demonstrates mechanical efficiency. Proper control mechanics, especially shoulder-to-hip alignment, are more critical than the finish itself."
+- **Gordon Ryan**: "The Twister Setup is a specialized entry that requires eliminating escape routes methodically. I focus on complete control of defensive options before advancing to the submission position."
+- **Eddie Bravo**: "The Twister Setup is a cornerstone of the 10th Planet system, with the Truck Position as the optimal entry. It’s about linking control positions systematically to force the opponent into the Twister alignment."
+
+Each insight should focus on one key technical or strategic element.
+
+### Common Errors
+For knowledge test generation:
+- **Error**: Insufficient leg control in triangle configuration
+- **Why It Fails**: Allows opponent to escape trapped leg and regain mobility
+- **Correction**: Ensure legs are locked tightly around opponent's trapped leg
+- **Recognition**: Opponent easily extends leg or escapes hip control
+
+- **Error**: Poor perpendicular alignment with opponent
+- **Why It Fails**: Reduces effectiveness of twisting mechanics for Twister Control
+- **Correction**: Maintain hip-to-hip connection and perpendicular body alignment
+- **Recognition**: Difficulty establishing shoulder-to-hip twisting alignment
+
+- **Error**: Rushed or shallow neck threading
+- **Why It Fails**: Creates
