@@ -3,10 +3,14 @@ name: Build and Test
 on:
   push:
     branches: ["main"]
+  schedule:
+    # IndexNow submission every day at 02:00 UTC
+    - cron: "0 2 * * *"
   workflow_dispatch:
 
 jobs:
   build-and-test:
+    if: github.event_name != 'schedule'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -41,6 +45,7 @@ jobs:
 
   deploy:
     needs: build-and-test
+    if: github.event_name != 'schedule'
     permissions:
       contents: read
       pages: write
@@ -73,6 +78,14 @@ jobs:
           ls -la public/
         working-directory: ./source
 
+      - name: Add IndexNow key file
+        if: ${{ secrets.INDEXNOW_KEY != '' }}
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+        run: |
+          printf "%s" "$INDEXNOW_KEY" > "${INDEXNOW_KEY}.txt"
+        working-directory: ./source/public
+
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v4
 
@@ -85,3 +98,15 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  indexnow:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Submit sitemap to IndexNow
+        uses: bojieyang/indexnow-action@v2
+        with:
+          sitemap-location: "https://bjjgraph.org/sitemap.xml"
+          key: ${{ secrets.INDEXNOW_KEY }}
