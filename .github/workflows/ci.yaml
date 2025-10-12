@@ -3,14 +3,10 @@ name: Build and Test
 on:
   push:
     branches: ["main"]
-  schedule:
-    # IndexNow submission every day at 02:00 UTC
-    - cron: "0 2 * * *"
   workflow_dispatch:
 
 jobs:
   build-and-test:
-    if: github.event_name != 'schedule'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -45,7 +41,6 @@ jobs:
 
   deploy:
     needs: build-and-test
-    if: github.event_name != 'schedule'
     env:
       INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
     permissions:
@@ -102,7 +97,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
   indexnow:
-    if: github.event_name != 'push'
+    needs: deploy
     runs-on: ubuntu-latest
     env:
       INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
