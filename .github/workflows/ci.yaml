@@ -46,6 +46,8 @@ jobs:
   deploy:
     needs: build-and-test
     if: github.event_name != 'schedule'
+    env:
+      INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
     permissions:
       contents: read
       pages: write
@@ -78,11 +80,11 @@ jobs:
           ls -la public/
         working-directory: ./source
 
-      - name: Add IndexNow key file
-        if: ${{ secrets.INDEXNOW_KEY != '' }}
-        env:
-          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+      - name: Publish IndexNow key file
+        if: ${{ env.INDEXNOW_KEY != '' }}
         run: |
+          # Generate files dynamically to prevent leaking the IndexNow key in the repo.
+          # This writes <key>.txt into the published site root as required by the protocol.
           printf "%s" "$INDEXNOW_KEY" > "${INDEXNOW_KEY}.txt"
         working-directory: ./source/public
 
@@ -102,11 +104,15 @@ jobs:
   indexnow:
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
+    env:
+      INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
     permissions:
       contents: read
     steps:
       - name: Submit sitemap to IndexNow
-        uses: bojieyang/indexnow-action@v2
+        uses: bojieyang/indexnow-action@v2 # v2 is the latest major version following action-versioning.
         with:
+          # The location of the sitemap must start with http(s); XML Sitemap, Sitemap index, RSS and Atom formats are supported.
           sitemap-location: "https://bjjgraph.org/sitemap.xml"
+          # The IndexNow key obtained from the service and stored as a GitHub secret.
           key: ${{ secrets.INDEXNOW_KEY }}
