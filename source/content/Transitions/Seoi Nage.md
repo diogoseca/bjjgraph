@@ -1,3 +1,130 @@
+---
+title: "Seoi Nage | BJJ Technique | BJJ Graph"
+description: "Learn Seoi Nage in BJJ. Step-by-step execution. Success: Beginner 25%, Intermediate 45%, Advanced 65%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Seoi Nage",
+  "description": "Learn how to execute Seoi Nage in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Start in Standing Position or Clinch Position",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Grip Establishment",
+      "text": "Secure collar grip on neck/back, sleeve grip on arm",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Posture Control",
+      "text": "Maintain upright stance, keep elbows in for close contact",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Balance Breaking",
+      "text": "Pull opponent forward or sideways to disrupt balance (kuzushi)",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Preparation",
+      "text": "Lower hips below opponent's, prepare for deep entry",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Entry Step",
+      "text": "Step in with dominant foot between/outside opponent's legs",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Back Turn",
+      "text": "Turn back to opponent, pull controlled arm across shoulder",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Loading Action",
+      "text": "Drop hips, bend knees, load opponent's weight on back",
+      "position": 8
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Throw Execution",
+      "text": "Straighten legs explosively, rotate torso, throw over shoulder",
+      "position": 9
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Position Consolidation",
+      "text": "Follow through to top position, secure underhook/crossface",
+      "position": 10
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Seoi Nage",
+      "item": "https://bjjgraph.com/transitions/seoi-nage"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Seoi Nage",
+  "description": "Learn Seoi Nage in BJJ. Step-by-step execution. Success: Beginner 25%, Intermediate 45%, Advanced 65%.",
+  "url": "https://bjjgraph.com/transitions/seoi-nage",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Seoi Nage
 #bjj #transition #takedown #judo #throw
 
@@ -225,10 +352,9 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **Standing Position** - Primary starting position for this takedown
-- **Clinch Position** - Alternative starting position with close control
-- **Osoto Gari** - Similar judo throw with different mechanics
-- **Top Position** - Common outcome after successful throw
+
+- [[Tomoe Nage]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as takedown (2 points)

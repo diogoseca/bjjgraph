@@ -1,3 +1,130 @@
+---
+title: "John Wayne Sweep | BJJ Technique | BJJ Graph"
+description: "Learn John Wayne Sweep in BJJ. Step-by-step execution. Success: Beginner 30%, Intermediate 50%, Advanced 70%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "John Wayne Sweep",
+  "description": "Learn how to execute John Wayne Sweep in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Start in Half Guard Bottom or Knee Shield Half Guard on side",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Leg Control",
+      "text": "Trap opponent's leg between yours, bottom leg hooks their ankle",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Underhook Grip",
+      "text": "Secure strong underhook under opponent's near arm to shoulder",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Framing Defense",
+      "text": "Use bottom arm to frame far hip or grip pants, block posture",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Head Positioning",
+      "text": "Keep head defensive to avoid crossface or choke attacks",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Shift",
+      "text": "Scoot hips out to side, get underneath opponent's center of gravity",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Off-Balance Pull",
+      "text": "Use underhook to pull opponent forward, disrupt their base",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Leg Swing",
+      "text": "Swing top leg out and down, plant foot for leverage and angle",
+      "position": 8
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Sweep Drive",
+      "text": "Drive up with underhook and bottom leg, roll opponent over to side",
+      "position": 9
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Position Secure",
+      "text": "Follow roll to top position or side control, maintain control",
+      "position": 10
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "John Wayne Sweep",
+      "item": "https://bjjgraph.com/transitions/john-wayne-sweep"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "John Wayne Sweep",
+  "description": "Learn John Wayne Sweep in BJJ. Step-by-step execution. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "url": "https://bjjgraph.com/transitions/john-wayne-sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # John Wayne Sweep
 #bjj #transition #sweep #half_guard #intermediate
 
@@ -225,10 +352,12 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **Half Guard Bottom** - Primary starting position for this sweep
-- **Knee Shield Half Guard** - Alternative starting position with additional frame
-- **Hip Bump Sweep** - Similar fundamental sweep with different mechanics
-- **Side Control** - Common ending position after successful sweep
+
+- [[Foot Grab Sweep]] - Related technique
+- [[Pendulum Sweep]] - Related technique
+- [[Muscle Sweep]] - Related technique
+- [[Heel Grab Sweep]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points)

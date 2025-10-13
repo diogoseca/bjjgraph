@@ -1,3 +1,51 @@
+---
+title: "Toe Hold | BJJ Submission Guide | BJJ Graph"
+description: "Final positioning with opponent's foot controlled in your armpit Pressure application creating hyperextension of the ankle joint"
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Toe Hold",
+  "description": "Final positioning with opponent's foot controlled in your armpit Pressure application creating hyperextension of the ankle joint",
+  "url": "https://bjjgraph.com/submissions/toe-hold",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Toe Hold",
+      "item": "https://bjjgraph.com/submissions/toe-hold"
+    }
+  ]
+}
+</script>
+
 # Toe Hold
 #bjj #submission #leglock #joint_lock #endstate
 

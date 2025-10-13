@@ -1,3 +1,51 @@
+---
+title: "Electric Chair Submission | BJJ Submission Guide | BJJ Graph"
+description: "From the Electric Chair position or Lockdown Guard, you start by securing full control with a lockdown on the opponent's trapped leg, ensuring maximum tension to isolate their lower body. With..."
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Electric Chair Submission",
+  "description": "From the Electric Chair position or Lockdown Guard, you start by securing full control with a lockdown on the opponent's trapped leg, ensuring maximum tension to isolate their lower body. With...",
+  "url": "https://bjjgraph.com/submissions/electric-chair-submission",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Electric Chair Submission",
+      "item": "https://bjjgraph.com/submissions/electric-chair-submission"
+    }
+  ]
+}
+</script>
+
 # Electric Chair Submission
 #bjj #transition #submission #10thplanet #lockdown
 

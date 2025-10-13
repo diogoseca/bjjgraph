@@ -1,3 +1,118 @@
+---
+title: "Sumi Gaeshi | BJJ Technique | BJJ Graph"
+description: "Learn Sumi Gaeshi in BJJ. Step-by-step execution. Success: Beginner 30%, Intermediate 55%, Advanced 70%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Sumi Gaeshi",
+  "description": "Learn how to execute Sumi Gaeshi in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish clinch with overhook and underhook grips",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Positioning",
+      "text": "Maintain close hip contact with opponent",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent pushes forward or resists your control",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Angle Creation",
+      "text": "Step to side, placing foot near their far foot",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Sacrifice Initiation",
+      "text": "Drop hips low and pull opponent forward/down",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Throw Execution",
+      "text": "Sit back, roll onto back, lift with legs to flip opponent",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Follow Through",
+      "text": "Roll with momentum to come up on top",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Position Consolidation",
+      "text": "Establish mount or side control with control",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Sumi Gaeshi",
+      "item": "https://bjjgraph.com/transitions/sumi-gaeshi"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sumi Gaeshi",
+  "description": "Learn Sumi Gaeshi in BJJ. Step-by-step execution. Success: Beginner 30%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.com/transitions/sumi-gaeshi",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Sumi Gaeshi
 #bjj #transition #takedown #judo #sacrifice_throw
 

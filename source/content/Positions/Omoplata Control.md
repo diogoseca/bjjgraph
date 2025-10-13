@@ -1,3 +1,107 @@
+---
+title: "Omoplata Control | BJJ Position Guide | BJJ Graph"
+description: "Master Omoplata Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Omoplata Control in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Omoplata Control.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Omoplata Finish",
+      "text": "From this position, execute Omoplata Finish to transition to Won by Submission.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Omoplata Sweep",
+      "text": "From this position, execute Omoplata Sweep to transition to Top Position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Omoplata to Armbar",
+      "text": "From this position, execute Omoplata to Armbar to transition to Armbar Control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Omoplata to Triangle",
+      "text": "From this position, execute Omoplata to Triangle to transition to Triangle Control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Gomoplata Transition",
+      "text": "From this position, execute Gomoplata Transition to transition to Gomoplata Control.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Tarikoplata Variation",
+      "text": "From this position, execute Tarikoplata Variation to transition to Won by Submission.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Omoplata Control",
+      "item": "https://bjjgraph.com/positions/omoplata-control"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Omoplata Control",
+  "description": "Master Omoplata Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%.",
+  "url": "https://bjjgraph.com/positions/omoplata-control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Omoplata Control
 #bjj #state #submission #shoulder_lock #omoplata
 
@@ -11,6 +115,10 @@
 
 ## State Description
 Omoplata Control is a sophisticated submission position where the practitioner uses their legs to isolate and apply pressure to the opponent's shoulder joint. The position involves trapping the opponent's arm between the practitioner's legs while their leg applies leverage across the opponent's back, creating a shoulder lock. While primarily known as a submission, the Omoplata also serves as an excellent control position that can lead to sweeps, transitions to other submissions, or positional advancement. The position offers unique control angles that are difficult to defend while providing numerous follow-up options.
+
+## Visual Description
+
+You are positioned on your side with your hips angled toward your opponent, one of their arms trapped between your legs with their elbow pointing downward and their hand past your hip. Your far leg extends across their upper back and shoulder blade, applying downward pressure while your near leg clamps tightly against their trapped arm, securing it in place. Your torso is elevated, supported by your arms as you sit up perpendicular to your opponent's spine, creating a 90-degree angle between your bodies. The opponent is bent forward at the waist, their trapped shoulder pulled back and rotated upward by the pressure of your leg across their back, while their free arm typically braces on the mat attempting to prevent further rotation. Your control hand grips their far hip, pants, or belt to prevent forward rolling escapes, while your other hand may post behind you for base or reach over their back for additional control. This configuration creates severe pressure on the opponent's shoulder joint while severely limiting their mobility and escape options.
 
 ## Key Principles
 - Isolate opponent's arm with leg positioning
@@ -81,6 +189,15 @@ Omoplata Control is a sophisticated submission position where the practitioner u
 - [[Side Control]] - Potential transition position
 - [[Back Control]] - Possible transition outcome
 - [[Closed Guard Bottom]] - Common entry position
+
+
+## Related Positions
+
+- [[Armbar Control]] - Related position
+- [[Triangle Control]] - Related position
+- [[Top Position]] - Related position
+- [[Closed Guard Bottom]] - Related position
+- [[Side Control]] - Related position
 
 ## Decision Tree
 If opponent attempts to roll forward:

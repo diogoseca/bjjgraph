@@ -1,3 +1,51 @@
+---
+title: "Mir Lock | BJJ Submission Guide | BJJ Graph"
+description: "From a top control position like side control, you start by pinning the opponent on their back, with your chest applying pressure to their torso to limit their movement, while focusing on..."
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mir Lock",
+  "description": "From a top control position like side control, you start by pinning the opponent on their back, with your chest applying pressure to their torso to limit their movement, while focusing on...",
+  "url": "https://bjjgraph.com/submissions/mir-lock",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Mir Lock",
+      "item": "https://bjjgraph.com/submissions/mir-lock"
+    }
+  ]
+}
+</script>
+
 # Mir Lock
 #bjj #submission #shoulder_lock #advanced
 

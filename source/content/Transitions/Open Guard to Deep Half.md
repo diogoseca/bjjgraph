@@ -1,3 +1,122 @@
+---
+title: "Open Guard to Deep Half | BJJ Technique | BJJ Graph"
+description: "Learn Open Guard to Deep Half in BJJ. Step-by-step execution from Open Guard Bottom to Deep Half Guard. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Open Guard to Deep Half",
+  "description": "Learn how to execute Open Guard to Deep Half in Brazilian Jiu-Jitsu from Open Guard Bottom to Deep Half Guard. Success: Beginner 30%, Intermediate 60%, Advanced 85%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Begin in open guard",
+      "text": "Begin in open guard with proper defensive frames and leg positioning",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Identify opponent's passing intention",
+      "text": "Identify opponent's passing intention and weight commitment",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Create initial angle by",
+      "text": "Create initial angle by hip rotation toward targeted entry side",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Establish underhook on targeted",
+      "text": "Establish underhook on targeted side (typically same side as entry)",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Shoot shoulder and head",
+      "text": "Shoot shoulder and head beneath opponent's leg on entry side",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Insert hip deeply underneath",
+      "text": "Insert hip deeply underneath opponent's center of gravity",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Secure opponent's leg in",
+      "text": "Secure opponent's leg in deep half position with appropriate grips",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidate position with proper",
+      "text": "Consolidate position with proper weight distribution and connection points",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Open Guard to Deep Half",
+  "description": "Learn Open Guard to Deep Half in BJJ. Step-by-step execution from Open Guard Bottom to Deep Half Guard. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/open-guard-to-deep-half",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Open Guard to Deep Half",
+      "item": "https://bjjgraph.com/transitions/open-guard-to-deep-half"
+    }
+  ]
+}
+</script>
+
+
 # Open Guard to Deep Half
 #bjj #transition #guard #open_guard #deep_half
 
@@ -113,3 +232,10 @@ The Open Guard to Deep Half transition functions as a "dynamic state reconfigura
 The process represents a form of "pre-emptive defense transformation," where the system recognizes particular attack vectors (passing attempts) and reconfigures its architecture to create a more resilient structure against those specific threats. This pattern demonstrates the concept of "adaptive resource allocation" in computing, where system resources are dynamically redistributed to address emerging processing requirements.
 
 The deep half position itself operates as a specialized "computational architecture" optimized for particular operations (sweeps) while sacrificing generalized functionality. In essence, the Open Guard to Deep Half transition exemplifies how BJJ's defensive framework implements context-specific optimizations in response to offensive pressure, similar to how modern computing systems dynamically reconfigure their processing architecture to maximize efficiency for specific workloads rather than maintaining static configurations.
+
+## Related Techniques
+
+- [[Butterfly Guard to X-Guard]] - Related technique
+- [[Closed Guard to Triangle]] - Related technique
+- [[Pull guard]] - Related technique
+

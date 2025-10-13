@@ -1,3 +1,51 @@
+---
+title: "Arm Crush | BJJ Submission Guide | BJJ Graph"
+description: "From a dominant top position such as side control or mount, you isolate one of the opponent's arms, typically pinning it to the mat or against their body with your knee or shin to prevent..."
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Crush",
+  "description": "From a dominant top position such as side control or mount, you isolate one of the opponent's arms, typically pinning it to the mat or against their body with your knee or shin to prevent...",
+  "url": "https://bjjgraph.com/submissions/arm-crush",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Arm Crush",
+      "item": "https://bjjgraph.com/submissions/arm-crush"
+    }
+  ]
+}
+</script>
+
 # Arm Crush
 #bjj #submission #joint_lock #arm_attack #compression
 
@@ -37,15 +85,63 @@ From a dominant top position such as side control or mount, you isolate one of t
 
 **Template**: "From side control or mount, isolate opponent's arm, pinning it with your knee or shin while controlling their torso. Position your leg over their bicep or elbow, drive shin into arm for crushing pressure against mat or body. Secure wrist or elbow with hands, adjust angle for maximum compression, force tap by stressing joint or muscle."
 
-### Execution Steps (Numbered Sequence)
-1. **Setup Requirements**: Establish dominant position like side control or mount
-2. **Arm Isolation**: Pin opponent's arm to mat or body with knee or shin
-3. **Torso Control**: Maintain upper body weight to limit opponent's movement
-4. **Leg Positioning**: Place shin or knee over opponent's bicep or elbow
-5. **Compression Initiation**: Drive body weight into arm for crushing pressure
-6. **Grip Security**: Hold opponent's wrist or elbow to prevent escape
-7. **Angle Adjustment**: Slide knee or adjust position to maximize leverage
-8. **Submission Finish**: Force tap by increasing compression on joint or muscle
+## Execution Steps
+
+**SAFETY REMINDER**: Apply compression pressure SLOWLY over 3-5 seconds. Watch for tap signals continuously. Bicep/elbow compression can cause muscle damage or joint injury.
+
+### Step-by-Step Execution
+
+### Step 1: Position Establishment (Setup Phase)
+Secure a dominant top position such as side control or mount, maintaining heavy chest pressure and control over opponent's torso.
+- Your base should be stable with wide knee placement
+- Control their movement by keeping your weight distributed properly
+- Identify which arm is most exposed or vulnerable
+- Safety check: Ensure partner can tap with their free hand
+
+### Step 2: Arm Isolation and Pinning (Control Phase)
+Pin the opponent's target arm to the mat or against their body using your knee or shin, preventing them from pulling it back.
+- Slide your knee or shin across their arm
+- Apply downward pressure to trap the arm completely
+- Ensure the arm is bent or positioned to expose the bicep or elbow
+- Partner check: Confirm they can still signal with other limbs
+
+### Step 3: Shin Positioning (Alignment Phase)
+Position your shin or knee directly over the opponent's bicep muscle or elbow joint, creating the compression point.
+- Your shin bone should make contact with the soft tissue or joint
+- Adjust your angle so the pressure is perpendicular to their arm
+- The mat (or their body) serves as the anvil beneath their arm
+- Speed: Move deliberately into position, not suddenly
+- Watch for: Any grimacing or early tap signals
+
+### Step 4: Grip Control (Stabilization Phase)
+Secure the opponent's wrist or forearm with your hands to prevent them from pulling their arm free during compression.
+- Grip firmly but not excessively - you need them to be able to tap
+- Your grip controls the angle and position of their arm
+- This prevents defensive extraction of the limb
+- Monitor: Their body language and any attempts to bridge or escape
+
+### Step 5: Pressure Application (Execution Phase)
+Drive your body weight downward through your shin into their arm over 3-5 seconds, creating intense crushing pressure on the muscle or joint.
+- Increase pressure gradually and progressively
+- Use your core and leg to transfer weight, not just knee drive
+- The compression should target either the bicep belly or elbow joint
+- Critical: WATCH FOR TAP - compression injuries can occur quickly
+- If partner's face shows extreme pain, ease off slightly
+
+### Step 6: Angle Optimization and Finish (Completion Phase)
+Make micro-adjustments to your shin position to maximize compression effectiveness while monitoring for submission signals.
+- Small shifts in angle dramatically increase pressure
+- Keep your weight committed to the compression
+- **FEEL FOR TAP**: Hand tapping your body/mat, verbal "tap", any distress signal
+- **RELEASE IMMEDIATELY**:
+  - Lift your shin off their arm instantly
+  - Allow their arm to return to neutral position
+  - Check circulation and mobility of their arm
+  - Ask: "Arm okay? Any numbness?"
+- Post-submission: Monitor for any bruising or discomfort
+- Watch for: Normal blood flow returning, full range of motion
+
+**Total Execution Time in Training**: 3-5 seconds from initial compression to tap. In drilling, apply only 40-50% pressure to develop technique without injury risk.
 
 ### Key Technical Details
 Critical elements that determine success:

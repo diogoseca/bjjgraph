@@ -1,3 +1,51 @@
+---
+title: "Can Opener | BJJ Submission Guide | BJJ Graph"
+description: "Final positioning with hands interlocked behind opponent's neck Pressure application creating severe cervical spine flexion"
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Can Opener",
+  "description": "Final positioning with hands interlocked behind opponent's neck Pressure application creating severe cervical spine flexion",
+  "url": "https://bjjgraph.com/submissions/can-opener",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Can Opener",
+      "item": "https://bjjgraph.com/submissions/can-opener"
+    }
+  ]
+}
+</script>
+
 # Can Opener
 #bjj #submission #neck_crank #spine_lock #endstate #controversial
 
@@ -48,13 +96,57 @@ Conditions that must be satisfied before attempting:
 5. **Space Elimination**: Closed guard preventing opponent's escape
 6. **Timing Recognition**: Optimal moment when opponent is vulnerable
 
-### Execution Steps (Finishing Sequence)
-1. **Initial Control**: Secure closed guard with opponent's hands inside
-2. **Position Adjustment**: Place both hands behind opponent's neck
-3. **Pressure Application**: Begin applying downward pressure on neck
-4. **Progressive Tightening**: Increase pressure while maintaining guard
-5. **Final Adjustment**: Maximize cervical flexion with controlled force
-6. **Submission Recognition**: Identify opponent's immediate tap or verbal submission
+## Execution Steps
+
+**EXTREME DANGER WARNING**: This technique carries VERY HIGH risk of permanent cervical spine injury. NEVER apply significant pressure. DEMONSTRATION ONLY. This section is for educational awareness and defensive recognition, NOT for application.
+
+### Step-by-Step Execution (DEMONSTRATION ONLY - NO PRESSURE)
+
+### Step 1: Guard Position Establishment (Recognition Phase)
+Establish closed guard with the opponent's hands positioned inside your guard.
+- Your legs are locked around their waist in closed guard
+- Their hands/arms are inside your guard
+- This is when you're most vulnerable to this attack
+- DEFENSIVE FOCUS: Recognize this vulnerable position to prevent attack
+
+### Step 2: Hand Positioning Behind Neck (Setup Recognition Phase - DEFENSIVE AWARENESS)
+The attacker places both hands behind the defender's neck, interlocking fingers or gripping firmly.
+- **FOR DEFENDERS**: This is the CRITICAL moment to defend
+- NEVER allow hands to reach behind your neck in closed guard
+- Keep hands on inside, maintain strong posture
+- IMMEDIATELY address any hands moving toward neck
+
+### Step 3: Initial Pressure Application (DANGER RECOGNITION - DEFENSIVE PRIORITY)
+**EDUCATION ONLY**: The attacker would apply downward pressure on the neck, creating cervical flexion.
+- **WARNING**: Even minimal pressure risks serious injury
+- **FOR TRAINING**: NEVER apply any real pressure
+- **DEFENSIVE PRIORITY**: TAP IMMEDIATELY if this occurs
+- This is NOT a technique to "tough out" - serious injury risk
+
+### Step 4: Progressive Pressure (EXTREME DANGER - DO NOT PRACTICE)
+**EDUCATION ONLY**: Continued pressure would increase cervical spine flexion over 3-5 seconds.
+- **CRITICAL**: This phase should NEVER occur in training
+- **INJURY RISK**: Herniated discs, nerve damage, paralysis possible
+- **DEFENSIVE RESPONSE**: Tap immediately, break guard if possible
+- **TRAINING PROTOCOL**: Demonstrate position only, ZERO pressure
+
+### Step 5: Final Flexion (PROHIBITED - RECOGNITION ONLY)
+**EDUCATION ONLY**: Maximum cervical flexion would force submission or cause injury.
+- **DO NOT PRACTICE**: This should never be reached
+- **DEFENSIVE AWARENESS**: Understanding danger for prevention
+- **SAFETY PRIORITY**: Any discomfort requires immediate tap
+- **MODERN TRAINING**: Focus on safer guard passing techniques
+
+### Step 6: Immediate Release Protocol (SAFETY EMPHASIS)
+IF this technique is ever attempted (which it should NOT be), immediate release is critical.
+- **RELEASE IMMEDIATELY**: Any discomfort requires instant release
+- Remove hands from behind neck immediately
+- Open closed guard if applicable
+- Check partner: "Neck okay? Any pain or numbness?"
+- **POST-INCIDENT**: Assess for any neck injury, seek medical attention if needed
+- **TRAINING RESPONSE**: Discuss why this occurred and emphasize prohibition
+
+**CRITICAL SAFETY NOTE**: This technique should NEVER be practiced with any pressure. Modern BJJ training emphasizes safe, effective techniques. The Can Opener is documented for historical awareness and defensive recognition ONLY. Always train with qualified instruction and prioritize partner safety above all else.
 
 ### Anatomical Targeting
 Precise technical details for educational accuracy:

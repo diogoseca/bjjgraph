@@ -1,3 +1,107 @@
+---
+title: "Guard Position | BJJ Position Guide | BJJ Graph"
+description: "Master Guard Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Guard Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Guard Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Sweep Attempt",
+      "text": "From this position, execute Sweep Attempt to transition to Top Position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, execute Technical Stand-up to transition to Standing Position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Pull to Closed Guard",
+      "text": "From this position, execute Pull to Closed Guard to transition to Closed Guard Bottom.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Butterfly Entry",
+      "text": "From this position, execute Butterfly Entry to transition to Butterfly Guard.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Half Guard Recovery",
+      "text": "From this position, execute Half Guard Recovery to transition to Half Guard Bottom.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute De La Riva Entry",
+      "text": "From this position, execute De La Riva Entry to transition to De La Riva Guard.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Guard Position",
+      "item": "https://bjjgraph.com/positions/guard-position"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Position",
+  "description": "Master Guard Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%.",
+  "url": "https://bjjgraph.com/positions/guard-position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Guard Position
 #bjj #state #guard #fundamental
 
@@ -10,7 +114,11 @@
 - **Time Sustainability**: Long
 
 ## State Description
-The Guard Position represents the foundational defensive structure in Brazilian Jiu-Jitsu where the bottom practitioner uses their legs as barriers between themselves and the opponent to prevent being pinned or controlled. Unlike specific guard variations (closed, butterfly, open, etc.), the Guard Position encompasses the broader strategic framework of using the legs to control distance, create offensive opportunities, and neutralize the opponent's positional advantage. It serves as both a defensive sanctuary and an offensive launching pad, allowing a practitioner to manage risk while developing attacks from the bottom. The Guard Position is a defining feature of BJJ that distinguishes it from other grappling arts by enabling effective offense from the bottom.
+The Guard Position represents the foundational defensive structure in Brazilian Jiu-Jitsu where the bottom practitioner uses their legs as barriers between themselves and the opponent to prevent being pinned or controlled.
+
+## Visual Description
+
+Visually, Guard Position presents as a practitioner on their back or seated on the mat with their legs actively positioned between themselves and their opponent, creating a defensive barrier that prevents the opponent from establishing chest-to-chest pressure or securing dominant pins. The guard player's back makes contact with the mat while their upper body may be slightly elevated through core engagement, with arms extended to control the opponent's sleeves, collar, wrists, or to create defensive frames against the opponent's hips and shoulders. The legs remain dynamic and mobile, either wrapped around the opponent's waist in closed configurations, extended with feet on hips or biceps in open configurations, or creating hooks under the opponent's thighs or legs in butterfly-style configurations. The spatial relationship shows clear separation between the two practitioners at the hip and torso level, maintained through active leg positioning and hand grips that prevent the opponent from eliminating distance and establishing crushing pressure. The guard player's hips are positioned strategically to maintain proper angles relative to the opponent, neither directly square nor completely perpendicular, allowing for both defensive security and offensive mobility. From above, an observer would see the guard player's legs as the primary defining feature of the position, creating physical barriers and control mechanisms that characterize the position, while their hands constantly work to manage distance, break posture, and set up offensive opportunities. Unlike specific guard variations (closed, butterfly, open, etc.), the Guard Position encompasses the broader strategic framework of using the legs to control distance, create offensive opportunities, and neutralize the opponent's positional advantage. It serves as both a defensive sanctuary and an offensive launching pad, allowing a practitioner to manage risk while developing attacks from the bottom. The Guard Position is a defining feature of BJJ that distinguishes it from other grappling arts by enabling effective offense from the bottom.
 
 ## Key Principles
 - Control the distance between you and your opponent
@@ -88,6 +196,15 @@ The Guard Position represents the foundational defensive structure in Brazilian 
 - [[Butterfly Guard]] - Specialized guard with hooks under opponent's thighs
 - [[Half Guard Bottom]] - Partial guard with one leg trapped
 - [[Guard Recovery]] - Transitional state returning to guard positions
+
+
+## Related Positions
+
+- [[Closed Guard Bottom]] - Related position
+- [[Butterfly Guard]] - Related position
+- [[Half Guard Bottom]] - Related position
+- [[Open Guard Bottom]] - Related position
+- [[Guard Recovery]] - Related position
 
 ## Decision Tree
 If opponent stands tall in your guard:

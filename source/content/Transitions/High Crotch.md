@@ -1,3 +1,124 @@
+---
+title: "High Crotch | BJJ Technique | BJJ Graph"
+description: "Learn High Crotch in BJJ. Step-by-step execution. Success: Beginner 35%, Intermediate 60%, Advanced 80%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "High Crotch",
+  "description": "Learn how to execute High Crotch in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Start in standing wrestling stance with low center of gravity",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Observation",
+      "text": "Monitor posture and weight distribution for opening",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Level Change",
+      "text": "Drop hips and bend knees, lower head to chest level",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Penetration Step",
+      "text": "Step forward deeply towards opponent's lead leg",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Shoulder Target",
+      "text": "Aim shoulder at opponent's midsection or hip for impact",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Leg Control",
+      "text": "Wrap arms high around lead leg near crotch, grip knee and thigh",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Drive and Lift",
+      "text": "Use leg power to drive forward, lift leg or off-balance opponent",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Turn the Corner",
+      "text": "Step to side to disrupt base, force opponent to mat",
+      "position": 8
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Follow Through",
+      "text": "Land on top, establish dominant position with control",
+      "position": 9
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "High Crotch",
+      "item": "https://bjjgraph.com/transitions/high-crotch"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "High Crotch",
+  "description": "Learn High Crotch in BJJ. Step-by-step execution. Success: Beginner 35%, Intermediate 60%, Advanced 80%.",
+  "url": "https://bjjgraph.com/transitions/high-crotch",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # High Crotch
 #bjj #transition #takedown #wrestling #standing
 
@@ -224,10 +345,9 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **Ankle Pick** - Similar wrestling takedown targeting lower leg
-- **Fireman's Carry** - Alternative wrestling takedown option
-- **Standing Position** - Common starting point for this transition
-- **Clinch Position** - Alternative entry point for takedown
+
+- [[Ouchi Gari]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as takedown (2 points)

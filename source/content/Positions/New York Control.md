@@ -1,3 +1,107 @@
+---
+title: "New York Control | BJJ Position Guide | BJJ Graph"
+description: "Master New York Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 80%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use New York Control in BJJ",
+  "description": "Complete guide to executing techniques and transitions from New York Control.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute New York to Gogoplata",
+      "text": "From this position, execute New York to Gogoplata to transition to Gogoplata Control.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute New York to Williams",
+      "text": "From this position, execute New York to Williams to transition to Williams Guard.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute New York to Omoplata",
+      "text": "From this position, execute New York to Omoplata to transition to Omoplata Control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute New York Triangle",
+      "text": "From this position, execute New York Triangle to transition to Triangle Control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute New York to Dead Orchard",
+      "text": "From this position, execute New York to Dead Orchard to transition to Dead Orchard Control.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Invisible Collar",
+      "text": "From this position, execute Transition to Invisible Collar to transition to Invisible Collar Position.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "New York Control",
+      "item": "https://bjjgraph.com/positions/new-york-control"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "New York Control",
+  "description": "Master New York Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 80%.",
+  "url": "https://bjjgraph.com/positions/new-york-control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # New York Control
 #bjj #state #guard #10thplanet #rubberguard
 
@@ -86,6 +190,15 @@ New York Control is the second major control position in Eddie Bravo's Rubber Gu
 - [[Gogoplata Control]] - Primary submission objective
 - [[Rubber Guard]] - Overall system category
 - [[Dead Orchard Control]] - Related advanced control
+
+
+## Related Positions
+
+- [[Williams Guard]] - Related position
+- [[Dead Orchard Control]] - Related position
+- [[Gogoplata Control]] - Related position
+- [[Rubber Guard]] - Related position
+- [[Mission Control]] - Related position
 
 ## Decision Tree
 If opponent attempts to posture strongly:

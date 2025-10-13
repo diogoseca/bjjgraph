@@ -1,3 +1,90 @@
+---
+title: "Ushiro Ashi Garami | BJJ Position Guide | BJJ Graph"
+description: "Master Ushiro Ashi Garami in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake regarding Insufficient hip proximity or control\n- **Why It Fails**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Insufficient hip proximity or control\n- **Why It Fails**: Allows opponent to turn or escape entanglement\n- **Correction**: Keep hips tight to opponent's lower back for maximum control\n- **Recognition**: Opponent easily rotates or initiates escape"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake regarding Poor leg isolation or entanglement\n- **Why It Fails**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Poor leg isolation or entanglement\n- **Why It Fails**: Reduces control over opponent's leg, risking position loss\n- **Correction**: Ensure leg is isolated at knee or ankle with strong figure-four lock\n- **Recognition**: Opponent pulls leg free or counters with own attack"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake regarding Neglecting upper body control or defense\n- **Why It Fails**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Neglecting upper body control or defense\n- **Why It Fails**: Leaves you vulnerable to chokes or arm attacks\n- **Correction**: Use arms to secure opponent's torso and monitor their hands\n- **Recognition**: Opponent initiates upper body counters or escapes"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ushiro Ashi Garami",
+  "description": "Master Ushiro Ashi Garami in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
+  "url": "https://bjjgraph.com/positions/ushiro-ashi-garami",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Ushiro Ashi Garami",
+      "item": "https://bjjgraph.com/positions/ushiro-ashi-garami"
+    }
+  ]
+}
+</script>
+
+
 # Ushiro Ashi Garami
 #bjj #position #leg_entanglement #leg_attack #advanced
 
@@ -241,10 +328,9 @@ This standard ensures:
 Updates to this standard should be reflected across all position files to maintain consistency and educational value.
 
 ## Related Positions
-- **Saddle Position** - Similar leg entanglement with different angle
-- **Ashi Garami** - Fundamental leg entanglement position
-- **Back Control** - Alternative rear dominant position
-- **50-50 Guard** - Related leg entanglement variation
+
+- [[Ashi Garami]] - Related position
+
 
 ## Historical Context
 Ushiro Ashi Garami represents a modern evolution in Brazilian Jiu-Jitsu, particularly in leg attack systems, showcasing how traditional grappling concepts can be adapted for specialized control. Developed within the last decade by leg lock specialists, it has become a key position in no-gi and submission grappling tournaments.

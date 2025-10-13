@@ -1,3 +1,107 @@
+---
+title: "Worm Guard | BJJ Position Guide | BJJ Graph"
+description: "Master Worm Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Worm Guard in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Worm Guard.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Worm Guard Sweep",
+      "text": "From this position, execute Worm Guard Sweep to transition to Top Position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Berimbolo Entry",
+      "text": "From this position, execute Berimbolo Entry to transition to Berimbolo.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Back Take from Worm",
+      "text": "From this position, execute Back Take from Worm to transition to Back Control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Worm to Single Leg X",
+      "text": "From this position, execute Worm to Single Leg X to transition to Single Leg X Guard.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Modified X Entry",
+      "text": "From this position, execute Modified X Entry to transition to X-Guard.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute De La Riva Transition",
+      "text": "From this position, execute De La Riva Transition to transition to De La Riva Guard.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Worm Guard",
+      "item": "https://bjjgraph.com/positions/worm-guard"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Worm Guard",
+  "description": "Master Worm Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
+  "url": "https://bjjgraph.com/positions/worm-guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Worm Guard
 #bjj #state #guard #open_guard #lapel #gi
 
@@ -11,6 +115,10 @@
 
 ## State Description
 Worm Guard is a specialized modern guard system developed by Keenan Cornelius that uses the opponent's lapel as the primary control mechanism. The position is characterized by threading the opponent's lapel around the player's leg while establishing specific grips and hooks that severely limit the opponent's mobility. This creates a powerful control position that offers exceptional sweeping opportunities and transitions to other advantageous positions. Worm Guard represents the evolution of lapel-based guards in modern gi jiu-jitsu, creating defensive security through innovative grip configurations.
+
+## Visual Description
+
+You are on your back or partially seated with your opponent's gi lapel threaded around one of your legs, the fabric wrapped tightly around your shin or thigh like a restraint. Your hand grips the threaded lapel firmly, maintaining constant tension on the fabric, while your opposite hand controls their far sleeve or wrist, creating a cross-body grip structure. Your leg with the threaded lapel typically establishes a De La Riva hook on their near leg, your foot hooking behind their knee or thigh, while your other leg may frame against their hip, hook their other leg, or remain mobile for transitions. Your opponent stands or crouches in a passing posture, their lapel pulled taut around your leg creating a leash-like connection that severely restricts their ability to move laterally or back away. The lapel tension creates a mechanical disadvantage for them, as any attempt to pass or create distance tightens the wrap around your leg, while your grips prevent them from simply removing the lapel or establishing their own dominant controls. Your hips remain angled and mobile, not flat to the mat, allowing you to generate sweeping angles and threatening transitions while the lapel control provides a reliable anchor point that makes their guard passing attempts predictable and manageable. This innovative use of the gi creates a control system where your opponent's own uniform becomes an obstacle to their movement, severely limiting their passing options while providing you with multiple offensive pathways.
 
 ## Key Principles
 - Thread opponent's lapel around your leg to create the "worm"
@@ -82,6 +190,15 @@ Worm Guard is a specialized modern guard system developed by Keenan Cornelius th
 - [[Lapel Guard]] - Generic category of lapel-based guards
 - [[Squid Guard]] - Related lapel control position
 - [[Reverse De La Riva Guard]] - Complementary guard system
+
+
+## Related Positions
+
+- [[Reverse De La Riva Guard]] - Related position
+- [[De La Riva Guard]] - Related position
+- [[Spider Guard]] - Related position
+- [[Squid Guard]] - Related position
+- [[X-Guard]] - Related position
 
 ## Decision Tree
 If opponent stands tall with weight back:

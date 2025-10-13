@@ -1,3 +1,155 @@
+---
+title: "Ashi Garami | BJJ Position Guide | BJJ Graph"
+description: "Master Ashi Garami in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 55%, Intermediate 65%, Advanced 75%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Ashi Garami in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Ashi Garami.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Straight Ankle Lock",
+      "text": "From this position, execute Straight Ankle Lock to transition to Won by Submission.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Inside Sankaku",
+      "text": "From this position, execute Transition to Inside Sankaku to transition to Inside Sankaku.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Outside Sankaku",
+      "text": "From this position, execute Transition to Outside Sankaku to transition to 50/50 Guard.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Cross Ashi",
+      "text": "From this position, execute Transition to Cross Ashi to transition to Cross Ashi.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Back Step to Backside 50/50",
+      "text": "From this position, execute Back Step to Backside 50/50 to transition to Backside 50/50.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Crab Ride Transition",
+      "text": "From this position, execute Crab Ride Transition to transition to Crab Ride.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Poor hip connection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Creates escape opportunities as the opponent can pull their leg free or rotate out of the entanglement. The correction is: Maintain a strong hip connection by keeping your legs tight around the opponent's leg and your hips aligned to control their movement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Focusing solely on submission?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to control compromise, allowing the opponent to counter or escape due to lack of positional dominance. The correction is: Prioritize control over the opponent's leg and upper body before attempting submissions to ensure a stable position."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Improper angle for submissions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results in ineffective control, making submissions harder to apply and increasing the chance of escape. The correction is: Adjust your body angle to create optimal leverage for submissions, often by leaning back or to the side to expose the targeted joint."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Failing to control upper body?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Increases vulnerability to counter attacks as the opponent can use their hands or posture to disrupt your control. The correction is: Use your arms or upper body to control the opponent's posture or hands, preventing them from initiating counters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Neglecting defensive awareness?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to exposure to counter leg attacks, as the opponent may attempt to entangle your legs in response. The correction is: Maintain awareness of your own leg positioning and be ready to counter or disengage if the opponent targets your legs."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Ashi Garami",
+      "item": "https://bjjgraph.com/positions/ashi-garami"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ashi Garami",
+  "description": "Master Ashi Garami in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 55%, Intermediate 65%, Advanced 75%.",
+  "url": "https://bjjgraph.com/positions/ashi-garami",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Ashi Garami
 #bjj #state #leg_entanglement #submission_position #leglock
 
@@ -91,6 +243,15 @@ You are typically seated or on your side, facing your opponent, with one of thei
 - [[Single Leg X Guard]] - Precursor leg entanglement position
 - [[Cross Ashi]] - Modified leg entanglement with cross-body control
 - [[Backside 50/50]] - Attacking from behind the leg entanglement
+
+
+## Related Positions
+
+- [[Inside Sankaku]] - Related position
+- [[Single Leg X Guard]] - Related position
+- [[Won by Submission]] - Related position
+- [[Half Guard Top]] - Related position
+- [[Rubber Guard]] - Related position
 
 ## Decision Tree
 If opponent turns away (exposing heel):

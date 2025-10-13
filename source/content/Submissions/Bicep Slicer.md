@@ -1,3 +1,51 @@
+---
+title: "Bicep Slicer | BJJ Submission Guide | BJJ Graph"
+description: "Final positioning with opponent's bicep compressed against your shin or forearm Pressure application creating pain and potential muscle damage"
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bicep Slicer",
+  "description": "Final positioning with opponent's bicep compressed against your shin or forearm Pressure application creating pain and potential muscle damage",
+  "url": "https://bjjgraph.com/submissions/bicep-slicer",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Bicep Slicer",
+      "item": "https://bjjgraph.com/submissions/bicep-slicer"
+    }
+  ]
+}
+</script>
+
 # Bicep Slicer
 #bjj #submission #joint_lock #compression #endstate #bicep
 
@@ -48,13 +96,61 @@ Conditions that must be satisfied before attempting:
 5. **Space Elimination**: Preventing opponent from bending arm or escaping
 6. **Timing Recognition**: Optimal moment when arm is fully extended
 
-### Execution Steps (Finishing Sequence)
-1. **Initial Control**: Secure opponent's wrist and extend their arm fully
-2. **Position Adjustment**: Place your shin or forearm against their bicep
-3. **Pressure Application**: Begin applying controlled compression pressure
-4. **Progressive Tightening**: Increase pressure while maintaining arm extension
-5. **Final Adjustment**: Adjust angle and pressure for maximum effectiveness
-6. **Submission Recognition**: Identify opponent's tap or verbal submission
+## Execution Steps
+
+**SAFETY REMINDER**: Apply compression pressure SLOWLY over 3-5 seconds. Watch for tap signals continuously. Bicep compression can cause muscle damage and nerve injury.
+
+### Step-by-Step Execution
+
+### Step 1: Arm Isolation and Extension (Setup Phase)
+Secure the opponent's wrist with a firm grip and fully extend their arm to expose the bicep muscle.
+- Grip their wrist firmly with one or both hands
+- Straighten their arm completely - no bend at the elbow
+- Their arm should be taut and vulnerable
+- Safety check: Ensure partner can tap with their free hand or verbally
+
+### Step 2: Compression Surface Positioning (Alignment Phase)
+Place your shin bone or forearm perpendicularly against the belly of their bicep muscle, creating the compression point.
+- Your shin or forearm is the "blade" that will compress
+- Position it directly on the thickest part of their bicep
+- The mat or their body serves as the anvil
+- Partner check: Confirm positioning before applying pressure
+
+### Step 3: Initial Pressure Application (Entry Phase)
+Begin applying controlled downward pressure through your shin or forearm into their bicep muscle over 3-5 seconds.
+- Start with light contact, then gradually increase
+- Drive your weight perpendicular to their arm
+- Keep their arm fully extended throughout
+- Speed: SLOW and progressive increase
+- Watch for: Early grimacing or tap signals
+
+### Step 4: Progressive Compression (Execution Phase)
+Increase the compression pressure incrementally while maintaining the arm's full extension and your shin/forearm position.
+- Small increases in pressure create significant pain
+- Their bicep should be compressed against the hard surface
+- Maintain wrist control to prevent arm withdrawal
+- Monitor: Their face and body language for distress
+- Critical: Nerve compression can occur - watch for numbness signals
+
+### Step 5: Angle Optimization (Refinement Phase)
+Make micro-adjustments to your shin/forearm angle to maximize compression effectiveness on the muscle belly.
+- Slight shifts in angle dramatically increase pressure
+- Ensure pressure is perpendicular, not sliding off
+- Keep their arm locked in extension
+- If partner shows extreme distress, ease pressure slightly
+
+### Step 6: Submission Recognition and Release (Completion Phase)
+Monitor continuously for tap signals and release immediately upon submission.
+- **FEEL FOR TAP**: Hand tapping your body/mat, verbal "tap", any distress
+- **RELEASE IMMEDIATELY**:
+  - Lift your shin/forearm off their bicep instantly
+  - Release wrist control smoothly
+  - Allow their arm to bend and return to natural position
+  - Check circulation: "Arm okay? Any numbness or tingling?"
+- Post-submission: Check for bruising or muscle soreness
+- Watch for: Unusual discoloration, loss of strength, persistent numbness
+
+**Total Execution Time in Training**: 3-5 seconds from initial compression to tap. In drilling, apply only 40-50% pressure to develop sensitivity.
 
 ### Anatomical Targeting
 Precise technical details for educational accuracy:

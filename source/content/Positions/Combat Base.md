@@ -1,3 +1,155 @@
+---
+title: "Combat Base | BJJ Position Guide | BJJ Graph"
+description: "Master Combat Base in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 60%, Intermediate 70%, Advanced 80%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Combat Base in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Combat Base.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Cut Pass",
+      "text": "From this position, execute Knee Cut Pass to transition to Side Control.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Headquarters Transition",
+      "text": "From this position, execute Headquarters Transition to transition to Headquarters Position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Leg Drag Setup",
+      "text": "From this position, execute Leg Drag Setup to transition to Leg Drag Pass.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Smash Pass",
+      "text": "From this position, execute Smash Pass to transition to Side Control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Toreando Setup",
+      "text": "From this position, execute Toreando Setup to transition to Toreando Pass.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Combat Base to Back Take",
+      "text": "From this position, execute Combat Base to Back Take to transition to Back Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Narrow base?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to vulnerability to sweeps, as a narrow stance reduces stability and makes it easier for the opponent to off-balance you. The correction is: Maintain a wide base by positioning your front foot and back knee far apart, ensuring weight distribution across the tripod structure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Forward leaning posture?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Increases susceptibility to collar drags and other sweeps, as leaning forward compromises your balance and posture. The correction is: Keep your torso upright with a straight spine and head up, maintaining a strong posture to resist pulling or dragging motions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Poor knee positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results in reduced stability, making it harder to defend against sweeps or initiate passes effectively. The correction is: Position your front knee outward and back knee firmly on the mat, creating a stable and angled base to maximize balance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Passive positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to missing offensive opportunities, allowing the opponent to dictate the pace and potentially recover guard or attack. The correction is: Stay active with dynamic weight shifts and grip fighting, constantly seeking angles for passing or transitioning to dominant positions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Telegraphing passing direction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Creates predictable patterns, enabling the opponent to anticipate and counter your passing attempts with prepared defenses. The correction is: Vary your movements and feint passes to disguise your intentions, keeping the opponent guessing about your next move."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Combat Base",
+      "item": "https://bjjgraph.com/positions/combat-base"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Combat Base",
+  "description": "Master Combat Base in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 60%, Intermediate 70%, Advanced 80%.",
+  "url": "https://bjjgraph.com/positions/combat-base",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Combat Base
 #bjj #state #top #guard_passing
 
@@ -94,6 +246,15 @@ You are positioned on top, in a dynamic stance with one knee up—typically your
 - [[Top Position]] - Generic dominant position
 - [[Knee Cut Position]] - Dynamic passing position
 - [[Defensive Base]] - Emergency defensive posture
+
+
+## Related Positions
+
+- [[Headquarters Position]] - Related position
+- [[Knee Cut Position]] - Related position
+- [[Side Control]] - Related position
+- [[Open Guard Top]] - Related position
+- [[Top Position]] - Related position
 
 ## Decision Tree
 If opponent establishes butterfly hooks:

@@ -1,3 +1,90 @@
+---
+title: "Russian Leg Lasso | BJJ Position Guide | BJJ Graph"
+description: "Master Russian Leg Lasso in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake regarding Poor lasso grip placement or tension\n- **Why It Fails**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Poor lasso grip placement or tension\n- **Why It Fails**: Insufficient control over opponent's leg and posture\n- **Correction**: Ensure gi is wrapped correctly around leg and maintain constant tension\n- **Recognition**: Opponent easily breaks posture or initiates pass"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake regarding Inadequate leg entanglement or control\n- **Why It Fails**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inadequate leg entanglement or control\n- **Why It Fails**: Allows opponent to advance or stabilize for passing\n- **Correction**: Actively hook leg over opponent's controlled leg for lasso effect\n- **Recognition**: Opponent steps around guard with little resistance"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake regarding Static hip positioning without angle creation\n- **Why It Fails**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Static hip positioning without angle creation\n- **Why It Fails**: Limits sweep and submission opportunities, making guard predictable\n- **Correction**: Constantly shift hips to create angles for attacks\n- **Recognition**: Difficulty initiating effective sweeps or transitions"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Russian Leg Lasso",
+  "description": "Master Russian Leg Lasso in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
+  "url": "https://bjjgraph.com/positions/russian-leg-lasso",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Russian Leg Lasso",
+      "item": "https://bjjgraph.com/positions/russian-leg-lasso"
+    }
+  ]
+}
+</script>
+
+
 # Russian Leg Lasso
 #bjj #position #guard #open_guard #gi_specific
 
@@ -241,10 +328,13 @@ This standard ensures:
 Updates to this standard should be reflected across all position files to maintain consistency and educational value.
 
 ## Related Positions
-- **Lasso Guard** - Similar open guard with lasso control mechanics
-- **De La Riva Guard** - Alternative open guard with different control points
-- **Open Guard Bottom** - General category of bottom positions
-- **Spider Guard** - Alternative gi-specific open guard
+
+- [[Rubber Guard]] - Related position
+- [[Lockdown Guard]] - Related position
+- [[Reverse De La Riva Guard]] - Related position
+- [[Deep Half Guard]] - Related position
+- [[Inverted Guard]] - Related position
+
 
 ## Historical Context
 Russian Leg Lasso guard represents a modern innovation in Brazilian Jiu-Jitsu, particularly in gi competition, showcasing how traditional uniform elements can be used for unique control. Developed in recent years by creative practitioners, it has become a niche but effective position in high-level tournaments.

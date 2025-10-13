@@ -1,3 +1,51 @@
+---
+title: "Guillotine Sequence | BJJ Submission Guide | BJJ Graph"
+description: "From a position such as Front Headlock, Closed Guard Bottom, or Half Guard Bottom, initiate the Guillotine by capturing the opponent's head under your armpit, securing a chin strap grip with your..."
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guillotine Sequence",
+  "description": "From a position such as Front Headlock, Closed Guard Bottom, or Half Guard Bottom, initiate the Guillotine by capturing the opponent's head under your armpit, securing a chin strap grip with your...",
+  "url": "https://bjjgraph.com/submissions/guillotine-sequence",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Guillotine Sequence",
+      "item": "https://bjjgraph.com/submissions/guillotine-sequence"
+    }
+  ]
+}
+</script>
+
 # Guillotine Sequence
 #bjj #submission #choke #front_headlock #guillotine
 
@@ -27,6 +75,50 @@
 - **Endurance Requirements**: Medium for sustained pressure during attempt
 
 ## State Machine Content Elements
+
+## ⚠️ Safety Considerations
+
+### Injury Risks
+Guillotine chokes can cause serious injuries if applied incorrectly:
+- **Loss of Consciousness** (Severity: High, Recovery: seconds to hours; brain damage if held after tap)
+- **Trachea/Windpipe Damage** (Severity: High, Recovery: 2-6 weeks; from air choke variation or poor positioning)
+- **Cervical Spine Strain** (Severity: Medium to High, Recovery: 2-4 weeks; from head pulling or cranking)
+- **Carotid Artery Trauma** (Severity: High, Recovery: weeks; rare but serious with explosive application)
+
+### Application Speed
+- Apply submissions SLOWLY and progressively over 3-5 seconds minimum
+- Never jerk or yank the head downward during setup or finish
+- Build elbow squeeze gradually to allow partner time to recognize the choke
+- Maintain constant awareness of partner's tap signals throughout application
+
+### Tap Signals
+Partners must establish clear tap signals before training:
+- **Verbal Tap**: Saying "tap" loudly (important as one arm may be trapped)
+- **Physical Tap**: Tapping partner's body, mat, or own body with free hand/foot (minimum 2 taps)
+- **Emergency Signal**: Rapid verbal "tap" or foot stomping if arm is fully controlled
+
+### Release Protocol
+When partner taps:
+1. Immediately release elbow squeeze and arm pressure around neck
+2. Release head control and allow head to return to neutral position
+3. Open guard (if applicable) and create space
+4. Monitor partner's breathing, neck mobility, and consciousness
+5. Verbally check: "You okay? Neck alright? Throat feel okay?"
+6. Observe for 10-15 seconds for coughing, difficulty breathing, or neck pain
+
+### Training Progression
+- **Weeks 1-2**: Front headlock and guard control only, no guillotine setup
+- **Weeks 3-4**: Slow chin strap and head capture drills (10% speed, tap to position)
+- **Weeks 5-8**: Light resistance, practice grip variations (40% speed, tap at 30% pressure)
+- **Weeks 9-12**: Realistic defensive posturing, controlled finish (60% speed, tap at 50% pressure)
+- **Ongoing**: Full competition speed only with experienced partners, always control release
+
+### Partner Communication
+- Establish tap signals before drilling, especially verbal for trapped arm scenarios
+- Communicate neck/throat comfort during setup: "pressure okay?" or "can you breathe?"
+- Discuss guillotine variation being practiced (high elbow vs arm-in) for proper expectations
+- Agree on maximum pressure for drilling (typically 50-70% of full squeeze)
+- Monitor partner's face color and breathing sounds - release immediately if color changes or breathing is labored
 
 ### Visual Execution Sequence
 Detailed step-by-step description for clear movement sequence visualization:

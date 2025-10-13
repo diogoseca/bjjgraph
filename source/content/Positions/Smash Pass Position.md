@@ -1,3 +1,107 @@
+---
+title: "Smash Pass Position | BJJ Position Guide | BJJ Graph"
+description: "Master Smash Pass Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Smash Pass Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Smash Pass Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Smash to Side Control",
+      "text": "From this position, execute Smash to Side Control to transition to Side Control.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Folding Pass Completion",
+      "text": "From this position, execute Folding Pass Completion to transition to Side Control.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Slice Transition",
+      "text": "From this position, execute Knee Slice Transition to transition to Knee Cut Pass.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Smash to Mount",
+      "text": "From this position, execute Smash to Mount to transition to Mount.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Leg Drag Conversion",
+      "text": "From this position, execute Leg Drag Conversion to transition to Leg Drag Position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Switch to North-South",
+      "text": "From this position, execute Switch to North-South to transition to North-South.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Smash Pass Position",
+      "item": "https://bjjgraph.com/positions/smash-pass-position"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Smash Pass Position",
+  "description": "Master Smash Pass Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
+  "url": "https://bjjgraph.com/positions/smash-pass-position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Smash Pass Position
 #bjj #state #passing #pressure #control
 
@@ -11,6 +115,10 @@
 
 ## State Description
 The Smash Pass Position is a pressure-based guard passing configuration where the top player applies concentrated pressure to the opponent's lower body while controlling their legs in a folded or compressed position. This passing methodology focuses on using body weight and mechanical pressure to eliminate the bottom player's defensive frames and mobility, effectively neutralizing their guard retention capabilities. Unlike more mobile passes that rely on agility and direction changes, the Smash Pass leverages superior pressure and weight distribution to systematically break down guard structures. This position has become increasingly prominent in modern BJJ as a counter to the complex open guard systems that have evolved in recent years.
+
+## Visual Description
+
+You are positioned on top with your chest and upper body applying heavy downward pressure onto your opponent's folded or compressed legs, driving them toward their own chest and face. Your opponent lies on their back with their knees pulled up and compressed, their legs folded in a defensive ball as you use your body weight to flatten and immobilize them. Your hands control their legs at the knees or ankles, or grip their pants or belt, keeping their lower body compressed while you methodically work to pass to the side. Your head position varies but typically stays low and protected, either tucked near their legs or driving through to prevent them from creating frames. Your hips drive forward, eliminating space between your bodies and preventing them from extending their legs or creating defensive barriers with their feet. The opponent's hips are pinned to the mat by your concentrated pressure, their mobility severely restricted as they struggle to create space through bridges, hip escapes, or frames that are continuously shut down by your relentless forward pressure. This grinding configuration slowly depletes their defensive options until a passing lane opens to secure side control or another dominant position.
 
 ## Key Principles
 - Apply concentrated pressure to opponent's lower body
@@ -82,6 +190,15 @@ The Smash Pass Position is a pressure-based guard passing configuration where th
 - [[Knee Cut Pass]] - Complementary pressure passing option
 - [[Leg Drag Position]] - Related control position
 - [[Pressure Passing]] - Broader passing methodology
+
+
+## Related Positions
+
+- [[Side Control]] - Related position
+- [[Leg Drag Position]] - Related position
+- [[Mount]] - Related position
+- [[Headquarters Position]] - Related position
+- [[Half Guard Top]] - Related position
 
 ## Decision Tree
 If opponent creates strong frames:

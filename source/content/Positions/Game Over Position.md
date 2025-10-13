@@ -1,10 +1,166 @@
+---
+title: "Game Over Position | BJJ Position Guide | BJJ Graph"
+description: "Master Game Over Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 25%, Intermediate 45%, Advanced 70%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Game Over Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Game Over Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Heel Hook**",
+      "text": "From this position, execute **Heel Hook** to transition to Next Position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Calf Slicer**",
+      "text": "From this position, execute **Calf Slicer** to transition to Next Position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Toe Hold**",
+      "text": "From this position, execute **Toe Hold** to transition to Next Position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Knee Bar**",
+      "text": "From this position, execute **Knee Bar** to transition to Next Position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Saddle Transition**",
+      "text": "From this position, execute **Saddle Transition** to transition to Next Position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Back Take**",
+      "text": "From this position, execute **Back Take** to transition to Next Position.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Poor leg positioning that reduces control effectiveness?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent can escape or counter-attack more easily The correction is: Maintain tight leg configuration with proper hooks and pressure"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Rushing to submissions without securing position first?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Low success rate and potential position loss The correction is: Focus on perfecting positional control before attacking"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Inadequate hip positioning and pressure application?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reduced effectiveness of submissions and control The correction is: Use hip pressure and angle to maximize control and attack potential"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Not recognizing optimal submission opportunities?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Missing high-percentage finishing chances The correction is: Study submission setups and timing from this position"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Neglecting safety protocols with dangerous submissions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Risk of serious injury to training partner The correction is: Always emphasize controlled application and immediate tap recognition"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Game Over Position",
+  "description": "Master Game Over Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 25%, Intermediate 45%, Advanced 70%.",
+  "url": "https://bjjgraph.com/positions/game-over-position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Game Over Position",
+      "item": "https://bjjgraph.com/positions/game-over-position"
+    }
+  ]
+}
+</script>
+
+
 # Game Over Position
 #bjj #state #leg_entanglement #leglock #position #advanced
 
 ## Required Properties for State Machine
 
 ### Core Identifiers
-- **State ID**: S016
+- **State ID**: S070
 - **Position Name**: Game Over Position
 - **Alternative Names**: Game Over, 50/50 Variant, Leg Entanglement Control
 
@@ -50,7 +206,16 @@ From this position:
 
 Format: `[[Technique Name]] → [[Resulting State]] (Success Rate: Beginner X%, Intermediate Y%, Advanced Z%)`
 
-### Decision Tree Logic
+#
+## Related Positions
+
+- [[Won by Submission]] - Related position
+- [[Saddle Position]] - Related position
+- [[Back Control]] - Related position
+- [[Russian Cowboy]] - Related position
+- [[Ashi Garami]] - Related position
+
+## Decision Tree Logic
 Structured decision-making logic:
 ```
 If [heel is accessible and vulnerable]:

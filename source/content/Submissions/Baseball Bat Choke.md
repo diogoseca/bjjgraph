@@ -1,3 +1,51 @@
+---
+title: "Baseball Bat Choke | BJJ Submission Guide | BJJ Graph"
+description: "From a dominant position like Side Control or during a deceptive setup from Knee Shield Half Guard, you begin by establishing a deep cross-grip on the opponent's collar with your first hand,..."
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Baseball Bat Choke",
+  "description": "From a dominant position like Side Control or during a deceptive setup from Knee Shield Half Guard, you begin by establishing a deep cross-grip on the opponent's collar with your first hand,...",
+  "url": "https://bjjgraph.com/submissions/baseball-bat-choke",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Baseball Bat Choke",
+      "item": "https://bjjgraph.com/submissions/baseball-bat-choke"
+    }
+  ]
+}
+</script>
+
 # Baseball Bat Choke
 #bjj #transition #submission #choke #gi
 
@@ -35,14 +83,62 @@ From a dominant position like Side Control or during a deceptive setup from Knee
 
 **Template**: "From Side Control or Half Guard, secure a deep cross-grip on one collar, fingers in, thumb out. Grip the opposite collar with fingers out, thumb in, like a baseball bat. Rotate wrists to bunch fabric, align forearms, and bring elbows together. Drive shoulders forward and pull grips to choke until submission."
 
-### Execution Steps (Numbered Sequence)
-1. **Setup Requirements**: Establish position (Side Control or Knee Shield Half Guard)
-2. **Initial Movement**: Secure deep cross-grip on opponent's collar (fingers in, thumb out)
-3. **Opponent Response**: Opponent may attempt to frame or break grip
-4. **Adaptation**: Secure second grip on opposite collar (fingers out, thumb in)
-5. **Positioning**: Rotate wrists to bunch collar and align forearms for compression
-6. **Pressure Application**: Bring elbows together and drive shoulders forward
-7. **Completion**: Pull with rotated grips to maximize choke until submission
+## Execution Steps
+
+**SAFETY REMINDER**: Apply pressure SLOWLY over 3-5 seconds. Watch for tap signals continuously. Blood chokes can cause unconsciousness quickly - monitor consciousness.
+
+### Step-by-Step Execution
+
+### Step 1: Position Establishment and First Grip (Setup Phase)
+From Side Control or Knee Shield Half Guard, establish a deep cross-grip on the opponent's collar with your first hand, fingers inside and thumb outside.
+- Insert your fingers 4+ inches deep into their collar
+- Your thumb stays on the outside of the collar
+- This grip crosses their neck diagonally
+- Safety check: Ensure partner can tap with both hands
+
+### Step 2: Second Grip Configuration (Lock Phase)
+Secure the opposite collar with your second hand using the "baseball bat" grip - fingers outside and thumb inside the collar.
+- This creates the characteristic crossed-arms configuration
+- Your hands are stacked like holding a baseball bat
+- Both grips should be deep and secure
+- Partner check: Verify they can still breathe normally
+
+### Step 3: Wrist Rotation and Fabric Bunching (Alignment Phase)
+Rotate both wrists inward to bunch the collar fabric and align your forearms to form a tight choking frame.
+- Twist your wrists like wringing a towel
+- This tightens the collar around their neck
+- Your forearms should be aligned with their carotid arteries
+- Speed: Rotate smoothly, not jerkily
+- Watch for: Any hand fighting or framing attempts
+
+### Step 4: Elbow Convergence (Entry Phase)
+Bring your elbows together, squeezing them toward each other to initiate carotid compression.
+- Your elbows move closer like closing a pair of scissors
+- This narrows the choking frame around their neck
+- Keep your grips tight throughout this movement
+- Monitor: Their facial expression and any distress signals
+
+### Step 5: Shoulder Drive and Pulling (Execution Phase)
+Drive your shoulders forward while simultaneously pulling with both rotated grips over 3-5 seconds, intensifying the blood choke.
+- Push forward: Shoulders driving into the choke
+- Pull back: Both grips pulling collar fabric tight
+- This bilateral pressure compresses both carotid arteries
+- Critical: WATCH FOR TAP - they can lose consciousness rapidly
+- If partner's face turns red/purple, they're seconds from passing out
+
+### Step 6: Final Compression and Release (Completion Phase)
+Maintain maximum choking pressure while monitoring for submission, then release immediately upon tap.
+- Keep all elements tight: grips, elbows, shoulder pressure
+- **FEEL FOR TAP**: Hand tapping your body/mat, verbal "tap", body going limp
+- **RELEASE IMMEDIATELY**:
+  - Open both collar grips instantly
+  - Remove pressure from their neck
+  - Check consciousness: "You okay? Breathing?"
+  - If they passed out: Elevate legs, monitor breathing
+- Post-submission: Verify full consciousness and normal color
+- Watch for: Confusion, dizziness (signs they briefly lost consciousness)
+
+**Total Execution Time in Training**: 3-5 seconds from elbow convergence to tap. In drilling, stop at 60% pressure to prevent unconsciousness.
 
 ### Key Technical Details
 Critical elements that determine success:

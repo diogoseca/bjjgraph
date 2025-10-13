@@ -1,3 +1,107 @@
+---
+title: "Lockdown Guard | BJJ Position Guide | BJJ Graph"
+description: "Master Lockdown Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Lockdown Guard in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Lockdown Guard.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Whip Up to Lockdown Sweep",
+      "text": "From this position, execute Whip Up to Lockdown Sweep to transition to Top Position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Electric Chair Entry",
+      "text": "From this position, execute Electric Chair Entry to transition to Electric Chair.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Deep Half Transition",
+      "text": "From this position, execute Deep Half Transition to transition to Deep Half Guard.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Dogfight Setup",
+      "text": "From this position, execute Dogfight Setup to transition to Dogfight Position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Lockdown to Traditional Half",
+      "text": "From this position, execute Lockdown to Traditional Half to transition to Half Guard Bottom.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Lockdown to Closed Guard",
+      "text": "From this position, execute Lockdown to Closed Guard to transition to Closed Guard Bottom.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Lockdown Guard",
+      "item": "https://bjjgraph.com/positions/lockdown-guard"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lockdown Guard",
+  "description": "Master Lockdown Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%.",
+  "url": "https://bjjgraph.com/positions/lockdown-guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Lockdown Guard
 #bjj #state #halfguard #10thplanet #control
 
@@ -81,6 +185,15 @@ The Lockdown Guard is a specialized half guard control mechanism developed and p
 - [[Deep Half Guard]] - Connected half guard variant
 - [[Butterfly Half Guard]] - Related half guard configuration
 - [[Dogfight Position]] - Potential transition position
+
+
+## Related Positions
+
+- [[Electric Chair]] - Related position
+- [[Deep Half Guard]] - Related position
+- [[Half Guard Bottom]] - Related position
+- [[Butterfly Half Guard]] - Related position
+- [[Dogfight Position]] - Related position
 
 ## Decision Tree
 If opponent establishes strong crossface:

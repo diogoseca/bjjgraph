@@ -1,3 +1,124 @@
+---
+title: "Fireman's Carry | BJJ Technique | BJJ Graph"
+description: "Learn Fireman's Carry in BJJ. Step-by-step execution. Success: Beginner 30%, Intermediate 55%, Advanced 70%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Fireman's Carry",
+  "description": "Learn how to execute Fireman's Carry in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Engage in standing position or clinch with opponent",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Grip Establishment",
+      "text": "Secure over-under clinch, one arm over shoulder, one under arm",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Stance Preparation",
+      "text": "Maintain low, stable stance with bent knees for lift",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent pushes forward or overcommits weight",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Level Drop",
+      "text": "Bend knees to drop level, pulling opponent down with overhook",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Leg Grip",
+      "text": "Thread underhook arm between legs, grip behind knee or thigh",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Lift Execution",
+      "text": "Explosively lift opponent onto shoulders using legs and core",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Takedown Completion",
+      "text": "Rotate and drive opponent to mat on back or side",
+      "position": 8
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Follow Through",
+      "text": "Establish top position like side control or mount with control",
+      "position": 9
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Fireman's Carry",
+      "item": "https://bjjgraph.com/transitions/firemans-carry"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Fireman's Carry",
+  "description": "Learn Fireman's Carry in BJJ. Step-by-step execution. Success: Beginner 30%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.com/transitions/fireman's-carry",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Fireman's Carry
 #bjj #transition #takedown #wrestling #dynamic
 

@@ -1,3 +1,122 @@
+---
+title: "Kiss of the Dragon | BJJ Technique | BJJ Graph"
+description: "Learn Kiss of the Dragon in BJJ. Step-by-step execution. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Kiss of the Dragon",
+  "description": "Learn how to execute Kiss of the Dragon in Brazilian Jiu-Jitsu from Half Guard to Top Position. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Begin in bottom Half",
+      "text": "Begin in bottom Half Guard with the opponent’s leg trapped, recognizing the opportunity for a sweep when they apply heavy top pressure.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Secure an underhook with",
+      "text": "Secure an underhook with one arm under their armpit on the trapped leg side, gripping tightly to control their posture and limit their movement.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Frame with your other",
+      "text": "Frame with your other hand against their opposite hip or torso to prevent them from driving forward and flattening you out.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute an explosive hip",
+      "text": "Execute an explosive hip switch towards the side of your underhook, turning onto that side to create an angle for the sweep.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Swing your outside leg",
+      "text": "Swing your outside leg out from under their trapped leg and hook it over their back near the waist, establishing a control point to anchor their body.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Pull with your underhook",
+      "text": "Pull with your underhook and push with your framing hand to off-balance the opponent in the direction of your hip switch, disrupting their base.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Post your inside leg",
+      "text": "Post your inside leg on the mat and drive upward with power, using it to lift their base while rolling them over their shoulder with your combined control.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Follow through with the",
+      "text": "Follow through with the motion, landing on top in Side Control or Mount, immediately establishing control by driving your weight down and securing their upper body and hips.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kiss of the Dragon",
+  "description": "Learn Kiss of the Dragon in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/kiss-of-the-dragon",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kiss of the Dragon",
+      "item": "https://bjjgraph.com/transitions/kiss-of-the-dragon"
+    }
+  ]
+}
+</script>
+
+
 # Kiss of the Dragon
 #bjj #transition #sweep #offense #guard
 

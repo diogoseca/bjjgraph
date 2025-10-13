@@ -1,3 +1,51 @@
+---
+title: "Rear Naked Choke | BJJ Submission Guide | BJJ Graph"
+description: "From the Back Control position, you begin by establishing seatbelt control with one arm over the opponent's shoulder and the other under their armpit, securing a strong grip to limit their..."
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rear Naked Choke",
+  "description": "From the Back Control position, you begin by establishing seatbelt control with one arm over the opponent's shoulder and the other under their armpit, securing a strong grip to limit their...",
+  "url": "https://bjjgraph.com/submissions/rear-naked-choke",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Rear Naked Choke",
+      "item": "https://bjjgraph.com/submissions/rear-naked-choke"
+    }
+  ]
+}
+</script>
+
 # Rear Naked Choke
 #bjj #transition #submission #choke #back_attack
 

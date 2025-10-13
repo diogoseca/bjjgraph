@@ -1,3 +1,122 @@
+---
+title: "Truck Entry | BJJ Technique | BJJ Graph"
+description: "Learn Truck Entry in BJJ. Step-by-step execution. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Truck Entry",
+  "description": "Learn how to execute Truck Entry in Brazilian Jiu-Jitsu from Side Control to Truck Position. Success: Beginner 25%, Intermediate 40%, Advanced 55%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Begin in Side Control",
+      "text": "Begin in Side Control or Top Half Guard, maintaining awareness of the opponent's defensive movements and identifying an opportunity to isolate a leg while keeping heavy pressure to control their torso.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Isolate one of their",
+      "text": "Isolate one of their legs by shifting focus to their near leg in Side Control or the trapped leg in Top Half Guard, preparing to move towards their lower body while maintaining upper body control with an underhook or grip on their waist.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initiate the transition by",
+      "text": "Initiate the transition by stepping over their near leg with your far leg in Side Control or freeing your trapped leg in Half Guard and sliding towards their hips, pivoting your hips to trap their isolated leg between your legs while keeping a grip on their torso.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Lock the Truck by",
+      "text": "Lock the Truck by rolling them slightly to their side or sitting back towards their legs, adjusting your position to counter their resistance like shrimping away or freeing their leg, while securing the trapped leg with a figure-four configuration using your legs.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Maintain control during the",
+      "text": "Maintain control during the transition by keeping your weight centered to apply pressure on their trapped leg and torso, using your arms to control their upper body to prevent escapes or reversals.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Secure the full Truck",
+      "text": "Secure the full Truck Position by tightening your legs around their trapped leg and torso, applying pressure by extending your legs or leaning into their back, ensuring their movement is restricted.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Complete the Truck Entry",
+      "text": "Complete the Truck Entry by either finishing a submission like the Twister in Truck Position or preparing a Submission Setup by chaining to other attacks like leg locks if they resist, having turned your control into a submission threat.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Remain aware of their",
+      "text": "Remain aware of their defensive responses like hip escapes or reversals, adapting your grip tightness, hip angle, and weight distribution to consolidate the submission position.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Truck Entry",
+  "description": "Learn Truck Entry in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/truck-entry",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Truck Entry",
+      "item": "https://bjjgraph.com/transitions/truck-entry"
+    }
+  ]
+}
+</script>
+
+
 # Truck Entry
 #bjj #transition #submission_setup #offense #ground_game
 
@@ -217,6 +336,14 @@ Updates to this standard should be reflected across related transition setup fil
 
 ## Historical Context
 Truck Entry has been a technical innovation in Brazilian Jiu-Jitsu, particularly associated with Eddie Bravo's 10th Planet system, where unconventional attacks like the Twister are prioritized. It reflects the strategic emphasis on creative submission chains and has been popularized in no-gi and MMA contexts to exploit escaping opponents from top positions.
+
+
+## Related Techniques
+
+- [[Transition to Truck]] - Related technique
+- [[Transition to Omoplata]] - Related technique
+- [[Single Leg X Entry]] - Related technique
+- [[Double Leg Entry]] - Related technique
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels in gi and no-gi competition, though some follow-up submissions may be restricted

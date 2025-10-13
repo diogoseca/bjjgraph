@@ -1,3 +1,51 @@
+---
+title: "Mount to Armbar | BJJ Submission Guide | BJJ Graph"
+description: "The Mount to Armbar transition represents a critical offensive sequence that converts a dominant positional control (Mount) into a submission control position (Armbar Control). This transition leve..."
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mount to Armbar",
+  "description": "The Mount to Armbar transition represents a critical offensive sequence that converts a dominant positional control (Mount) into a submission control position (Armbar Control). This transition leve...",
+  "url": "https://bjjgraph.com/submissions/mount-to-armbar",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Mount to Armbar",
+      "item": "https://bjjgraph.com/submissions/mount-to-armbar"
+    }
+  ]
+}
+</script>
+
 # Mount to Armbar
 #bjj #transition #mount #armbar #submission
 
@@ -11,6 +59,47 @@
 
 ## Transition Description
 The Mount to Armbar transition represents a critical offensive sequence that converts a dominant positional control (Mount) into a submission control position (Armbar Control). This transition leverages mechanical advantages created by the mount's superior positioning to isolate an opponent's arm and establish the precise alignment necessary for joint manipulation. Unlike maintaining mount for control, this transition sacrifices some positional security to pursue a submission finish, representing the tactical decision-making that defines high-level BJJ. The technical execution focuses on isolating the defending arm while maintaining sufficient control throughout the movement phase to prevent defensive escapes. This transition exemplifies BJJ's principle of progressive control leading to submission opportunity, where positional dominance creates the foundation for terminal techniques.
+
+### Visual Execution Sequence
+Detailed step-by-step description for clear movement sequence visualization:
+
+From a dominant mount position, you sit on the opponent's chest with your weight distributed across their torso, your knees tight to their sides and your hips low to maintain control. As the opponent attempts to push you away or create frames, you identify and isolate their defending arm, typically grabbing their wrist or sleeve with both hands to prevent it from retracting. You begin to shift your weight forward and to the side, posting your non-controlling hand near their head for base while maintaining constant control of their isolated arm. Your leg on the side of the controlled arm swings up and over their head in a fluid arc, your shin clearing their face as your leg extends behind their head, while your other leg steps over their body or pinches their trapped arm against your hip. You fall back toward the mat, pulling their controlled arm with you as you transition, their elbow now pointing upward and positioned across your hips. Settling into the armbar position, your legs scissor around their head and shoulder, your hips thrust upward against the back of their elbow while pulling their wrist toward your chest, creating hyperextension pressure on the joint that forces them to tap before structural damage occurs.
+
+**Template**: "From mount on opponent's chest, identify and isolate defending arm with wrist/sleeve control. Shift weight forward, post hand near head for base. Swing leg over head in arc, other leg steps over body. Fall back pulling arm, position elbow across hips. Legs scissor around head/shoulder, thrust hips up against elbow while pulling wrist to chest, creating hyperextension pressure until tap."
+
+## ⚠️ Safety Considerations
+
+### Injury Risks
+Armbar submissions can cause serious elbow joint injuries if applied incorrectly:
+- **Elbow Hyperextension** (Severity: High, Recovery: 4-8 weeks) - Excessive force can overextend the elbow joint, damaging ligaments and tendons
+- **Elbow Dislocation** (Severity: Critical, Recovery: 3-6 months) - Explosive application can dislocate the joint, requiring extensive rehabilitation
+- **Ligament Tears (UCL/MCL)** (Severity: High, Recovery: 6-12 months) - Sudden jerking can tear the ulnar or medial collateral ligaments, potentially requiring surgery
+- **Bicep Tendon Strain** (Severity: Medium, Recovery: 2-4 weeks) - Resistance against armbar can strain the bicep attachment
+
+### Application Speed
+- Apply submissions SLOWLY and progressively over 3-5 seconds minimum
+- Never apply sudden or jerky movements to the arm
+- Maintain constant awareness of partner's tap signals
+- Increase pressure incrementally to allow time for tap recognition
+
+### Tap Signals
+Partners must establish clear tap signals before training:
+- **Verbal Tap**: Saying "tap" or "stop" loudly
+- **Physical Tap**: Tapping partner's body, mat, or own body (minimum 2 taps)
+- **Emergency Signal**: Multiple rapid taps if arm is trapped and unable to tap normally
+
+### Release Protocol
+When partner taps:
+1. Immediately stop pulling the arm toward your chest
+2. Release hip pressure and leg control over their arm
+3. Allow their arm to return to neutral position slowly
+4. Return to mount or neutral position and check on partner
+
+### Training Progression
+- **Weeks 1-2**: Positional control only, focus on arm isolation without submission attempts
+- **Weeks 3-4**: Slow-motion transitions with resistance (10% speed), partner taps at 20% pressure
+- **Weeks 5-8**: Medium speed transitions with resistance (50% speed), partner taps at 50% pressure
+- **Ongoing**: Full speed only with experienced partners who understand tap protocols and mechanics
 
 ## Execution Steps
 1. Establish secure mount position with appropriate weight distribution

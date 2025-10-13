@@ -1,3 +1,107 @@
+---
+title: "Half Guard Bottom | BJJ Position Guide | BJJ Graph"
+description: "Master Half Guard Bottom in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 55%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Half Guard Bottom in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Half Guard Bottom.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Old School Sweep",
+      "text": "From this position, execute Old School Sweep to transition to Top Half Guard.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Deep Half Entry",
+      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Underhook Sweep",
+      "text": "From this position, execute Underhook Sweep to transition to Top Position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Shield Transition",
+      "text": "From this position, execute Knee Shield Transition to transition to Knee Shield Half Guard.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Half Guard to Closed Guard",
+      "text": "From this position, execute Half Guard to Closed Guard to transition to Closed Guard Bottom.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kimura from Half Guard",
+      "text": "From this position, execute Kimura from Half Guard to transition to Kimura Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Half Guard Bottom",
+      "item": "https://bjjgraph.com/positions/half-guard-bottom"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Half Guard Bottom",
+  "description": "Master Half Guard Bottom in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 55%.",
+  "url": "https://bjjgraph.com/positions/half-guard-bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Half Guard Bottom
 #bjj #state #guard #halfguard #bottom
 
@@ -11,6 +115,10 @@
 
 ## State Description
 Half Guard Bottom is a fundamental position where the bottom player has one of the opponent's legs trapped between their own legs. This position serves as both a defensive recovery option when escaping from worse positions and as an offensive launching pad for sweeps and submissions. Half Guard offers more defensive security than being fully passed, but less offensive capability than full guard.
+
+## Visual Description
+
+You are positioned on your side or back with one of the opponent's legs captured and controlled between both of your legs, typically with your inner thigh clamping their shin or knee. Your outside leg hooks over their trapped leg for control, while your inside leg threads underneath to complete the entanglement. The opponent is typically in a top position, chest-to-chest or at an angle, attempting to apply pressure through a crossface or underhook to flatten you to the mat. Your upper body fights for an underhook on one side to create frames and prevent flattening, while your outside arm creates distance through frames or grips. This asymmetric configuration creates a dynamic battlefield where your goal is to prevent the opponent from fully passing while using the trapped leg as an anchor point for sweeps, while the opponent attempts to free their leg and advance to side control or mount.
 
 ## Key Principles
 - Control the underhook on at least one side
@@ -76,6 +184,15 @@ Half Guard Bottom is a fundamental position where the bottom player has one of t
 - [[Lockdown Half Guard]] - Eddie Bravo's control-focused variation
 - [[Z-Guard]] - Angled knee shield variation
 - [[93 Guard]] - Modified half guard with lapel control (gi)
+
+
+## Related Positions
+
+- [[Deep Half Guard]] - Related position
+- [[Knee Shield Half Guard]] - Related position
+- [[Z-Guard]] - Related position
+- [[Closed Guard Bottom]] - Related position
+- [[Reverse De La Riva Guard]] - Related position
 
 ## Decision Tree
 If opponent establishes strong crossface:

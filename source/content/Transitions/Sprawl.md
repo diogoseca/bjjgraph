@@ -1,3 +1,122 @@
+---
+title: "Sprawl | BJJ Technique | BJJ Graph"
+description: "Learn Sprawl in BJJ. Step-by-step execution. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Sprawl",
+  "description": "Learn how to execute Sprawl in Brazilian Jiu-Jitsu from Standing Position to Neutral Position. Success: Beginner 50%, Intermediate 65%, Advanced 80%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Begin in a Standing",
+      "text": "Begin in a Standing Position or Clinch Position, maintaining awareness of the opponent's movements and recognizing the initiation of a takedown attempt when they drop their level to attack your legs.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "React instantly by dropping",
+      "text": "React instantly by dropping your hips downward and backward with explosive speed, simultaneously kicking your legs straight back to extend them out of the opponent's reach.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Drive your chest and",
+      "text": "Drive your chest and shoulders forward to apply pressure on their upper back or head, using your hands to control their wrists or push down on their neck to disrupt their momentum.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Keep your hips heavy",
+      "text": "Keep your hips heavy and low to maintain control over your balance, ensuring your toes are dug into the mat for stability while circling to the side or behind if possible.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Maintain control over their",
+      "text": "Maintain control over their upper body with your hands or forearms during the transition to prevent them from adjusting their grip or transitioning to another attack.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Complete the Sprawl by",
+      "text": "Complete the Sprawl by either pushing them away to reset to a Neutral Position, standing back up with a strong base, or securing a dominant angle to attack their back or side for a Top Position if they remain low.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Ensure control over your",
+      "text": "Ensure control over your base and position to prevent recovery or follow-up attacks, preparing to continue the fight from a neutral or advantageous stance.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Remain aware of their",
+      "text": "Remain aware of their defensive or offensive responses like chaining attacks or adjusting grips, adapting your hip pressure, hand control, and footwork to counter and consolidate the defense.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sprawl",
+  "description": "Learn Sprawl in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/sprawl",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Sprawl",
+      "item": "https://bjjgraph.com/transitions/sprawl"
+    }
+  ]
+}
+</script>
+
+
 # Sprawl
 #bjj #transition #takedown_defense #defense #standing_game
 

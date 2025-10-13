@@ -1,3 +1,159 @@
+---
+title: "Squid Guard | BJJ Position Guide | BJJ Graph"
+description: "Master Squid Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Squid Guard in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Squid Guard.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Squid Sweep**",
+      "text": "From this position, execute **Squid Sweep** to transition to Next Position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Triangle Setup**",
+      "text": "From this position, execute **Triangle Setup** to transition to Next Position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Omoplata Entry**",
+      "text": "From this position, execute **Omoplata Entry** to transition to Next Position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Back Take**",
+      "text": "From this position, execute **Back Take** to transition to Next Position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Arm Drag**",
+      "text": "From this position, execute **Arm Drag** to transition to Next Position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Lapel Choke**",
+      "text": "From this position, execute **Lapel Choke** to transition to Next Position.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Not maintaining active control of the lapel end?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent can easily break the lapel wrap and neutralize position The correction is: Keep constant tension and active grip on lapel throughout position"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Staying static without threatening attacks or transitions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "High energy cost without offensive progress or advancement The correction is: Constantly flow between different attack and transition options"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Poor leg positioning that allows easy lapel extraction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent can clear the lapel and pass guard normally The correction is: Maintain proper leg angle and pressure to secure lapel wrap"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Inadequate hip mobility and angle adjustment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reduces effectiveness of sweeps and submission setups The correction is: Stay mobile with active hip movement to maintain optimal angles"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Not controlling opponent's free arm or distance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent can use free limbs to defend and counter-attack The correction is: Use free leg and grips to monitor opponent's other limbs"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Squid Guard",
+  "description": "Master Squid Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.com/positions/squid-guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Squid Guard",
+      "item": "https://bjjgraph.com/positions/squid-guard"
+    }
+  ]
+}
+</script>
+
+
 # Squid Guard
 #bjj #state #guard #open_guard #lapel #squid
 
@@ -50,7 +206,16 @@ From this position:
 
 Format: `[[Technique Name]] → [[Resulting State]] (Success Rate: Beginner X%, Intermediate Y%, Advanced Z%)`
 
-### Decision Tree Logic
+#
+## Related Positions
+
+- [[Triangle Control]] - Related position
+- [[Spider Guard]] - Related position
+- [[Open Guard Bottom]] - Related position
+- [[Omoplata Control]] - Related position
+- [[Top Position]] - Related position
+
+## Decision Tree Logic
 Structured decision-making logic:
 ```
 If [opponent attempts to pass on lapel side]:

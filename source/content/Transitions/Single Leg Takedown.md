@@ -1,3 +1,122 @@
+---
+title: "Single Leg Takedown | BJJ Technique | BJJ Graph"
+description: "Learn Single Leg Takedown in BJJ. Step-by-step execution. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Single Leg Takedown",
+  "description": "Learn how to execute Single Leg Takedown in Brazilian Jiu-Jitsu from Standing Position to Top Position. Success: Beginner 50%, Intermediate 65%, Advanced 80%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Begin in a Standing",
+      "text": "Begin in a Standing Position, recognizing the opportunity for a takedown when the opponent's stance is wide or during a scramble where their balance is vulnerable.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Establish control by securing",
+      "text": "Establish control by securing a grip on their collar or neck with one hand to manage their posture, stepping forward with one foot to close the distance, and dropping your level by bending your knees to prepare for the shot.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Shoot in with your",
+      "text": "Shoot in with your head on the outside of their targeted hip, wrapping both arms around one of their legs just below the knee, hugging it tightly with one arm and reinforcing with the other, while driving your shoulder into their midsection to disrupt balance.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Lift their targeted leg",
+      "text": "Lift their targeted leg slightly off the ground by straightening your legs, pulling it to the side while keeping your head tight to their hip to control their upper body, driving forward with your legs to push them backward.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Maintain your grip on",
+      "text": "Maintain your grip on their leg during the transition, keeping it elevated to prevent them from regaining a stable stance, as you adjust your head position or circle to the side to further off-balance them, preventing guard pulls or submission counters.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Complete the takedown by",
+      "text": "Complete the takedown by tripping their supporting leg with your foot behind their heel or driving forward to force them to the mat, ensuring you land on top with control of their leg.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Settle into a Top",
+      "text": "Settle into a Top Position, maintaining control of their leg to prevent recovery, or transition to Side Control if they turn to their side, securing a dominant ground position.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Remain aware of their",
+      "text": "Remain aware of their defensive attempts like sprawling, pulling guard, or countering with submissions, adjusting your grip strength, head position, and driving pressure to counter and consolidate the takedown.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Single Leg Takedown",
+  "description": "Learn Single Leg Takedown in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/single-leg-takedown",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Single Leg Takedown",
+      "item": "https://bjjgraph.com/transitions/single-leg-takedown"
+    }
+  ]
+}
+</script>
+
+
 # Single Leg Takedown
 #bjj #transition #takedown #offense #standing
 
@@ -217,6 +336,14 @@ Updates to this standard should be reflected across related transition setup fil
 
 ## Historical Context
 The Single Leg Takedown has roots in wrestling and was adapted into BJJ as a key method to bring the fight to the ground, becoming a staple in modern competition for practitioners aiming to establish top control, especially in no-gi and MMA contexts.
+
+
+## Related Techniques
+
+- [[Leg Drag Pass]] - Related technique
+- [[Leg Weave Pass]] - Related technique
+- [[Smash Pass]] - Related technique
+- [[Knee Cut Pass]] - Related technique
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels in gi and no-gi competition

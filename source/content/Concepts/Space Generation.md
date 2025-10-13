@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Space Generation",
+  "description": "Space Generation represents the fundamental skill of creating strategic gaps, distances, and openings between yourself and your opponent to facilitate movement, transitions, escapes, and attacks. U...",
+  "url": "https://bjjgraph.com/concepts/space-generation",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.com/concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Space Generation",
+      "item": "https://bjjgraph.com/concepts/space-generation"
+    }
+  ]
+}
+</script>
+
+
 # Space Generation
 #bjj #concept #fundamental #defense #offense
 

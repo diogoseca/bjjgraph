@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Back Attack System",
+  "description": "The Back Attack System represents the most comprehensive and statistically dominant submission framework in Brazilian Jiu-Jitsu, built around the premier offensive position in grappling: back contr...",
+  "url": "https://bjjgraph.com/systems/back-attack-system",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Systems",
+      "item": "https://bjjgraph.com/systems/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Back Attack System",
+      "item": "https://bjjgraph.com/systems/back-attack-system"
+    }
+  ]
+}
+</script>
+
+
 # Back Attack System
 #bjj #submission #chain #back_control #back_attack #choke
 

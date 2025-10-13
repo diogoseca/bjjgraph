@@ -1,3 +1,107 @@
+---
+title: "Shin-to-Shin Guard | BJJ Position Guide | BJJ Graph"
+description: "Master Shin-to-Shin Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Shin-to-Shin Guard in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Shin-to-Shin Guard.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Shin-to-Shin Sweep",
+      "text": "From this position, execute Shin-to-Shin Sweep to transition to Top Position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Single Leg X Entry",
+      "text": "From this position, execute Single Leg X Entry to transition to Single Leg X Guard.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute X-Guard Transition",
+      "text": "From this position, execute X-Guard Transition to transition to X-Guard.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, execute Technical Stand-up to transition to Single Leg Takedown.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Deep De La Riva Entry",
+      "text": "From this position, execute Deep De La Riva Entry to transition to De La Riva Guard.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Butterfly Hook Insertion",
+      "text": "From this position, execute Butterfly Hook Insertion to transition to Butterfly Guard.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Shin-to-Shin Guard",
+      "item": "https://bjjgraph.com/positions/shin-to-shin-guard"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Shin-to-Shin Guard",
+  "description": "Master Shin-to-Shin Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%.",
+  "url": "https://bjjgraph.com/positions/shin-to-shin-guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Shin-to-Shin Guard
 #bjj #state #guard #open_guard
 
@@ -11,6 +115,10 @@
 
 ## State Description
 Shin-to-Shin Guard is a specialized open guard position where the guard player places their shin across the opponent's shin of the same side leg, creating a powerful connection point that can control the opponent's base and movement. This position offers both defensive capabilities through distance management and offensive opportunities through sweeps and transitions to other guards. The shin-to-shin connection creates leverage that can elevate or off-balance the opponent, making it an effective entry point to single leg X-guard, X-guard, and other leg entanglement positions. This position has become increasingly prominent in modern BJJ as both a primary guard and a transitional position within the leg entanglement systems.
+
+## Visual Description
+
+You are seated or semi-reclined on the mat with your shin placed firmly across your opponent's same-side shin, creating a perpendicular or near-perpendicular intersection between your lower legs. Your foot from the shin-to-shin connection presses against their knee or thigh, while your opposite leg typically frames against their hip, other leg, or remains mobile for transitions. Your hands grip their sleeve, collar, pants, or belt depending on gi or no-gi context, maintaining upper body control to prevent them from simply stepping away. Your opponent stands or is in combat base above you, their controlled leg pinned by your shin connection which restricts their ability to step or apply weight on that leg. Your torso is upright or slightly reclined, not flat on your back, allowing you to generate leverage through your shin connection and maintain mobility for sweeps and transitions. This configuration creates a mechanical lever system where your shin acts as a fulcrum point that can manipulate your opponent's base and balance, while your hands and opposite leg work in coordination to complete sweeps or set up other guard entries.
 
 ## Key Principles
 - Establish strong shin-to-shin connection with proper angle
@@ -81,6 +189,15 @@ Shin-to-Shin Guard is a specialized open guard position where the guard player p
 - [[Butterfly Guard]] - Complementary seated guard
 - [[De La Riva Guard]] - Related open guard
 - [[Open Guard Bottom]] - Generic guard position
+
+
+## Related Positions
+
+- [[X-Guard]] - Related position
+- [[De La Riva Guard]] - Related position
+- [[Single Leg X Guard]] - Related position
+- [[Open Guard Bottom]] - Related position
+- [[Butterfly Guard]] - Related position
 
 ## Decision Tree
 If opponent stands tall with weight on controlled leg:

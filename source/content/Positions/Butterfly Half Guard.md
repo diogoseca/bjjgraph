@@ -1,3 +1,155 @@
+---
+title: "Butterfly Half Guard | BJJ Position Guide | BJJ Graph"
+description: "Master Butterfly Half Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 55%, Intermediate 65%, Advanced..."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Butterfly Half Guard in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Butterfly Half Guard.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Butterfly Half Sweep",
+      "text": "From this position, execute Butterfly Half Sweep to transition to Top Position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Modified Butterfly Sweep",
+      "text": "From this position, execute Modified Butterfly Sweep to transition to Mount.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Full Butterfly",
+      "text": "From this position, execute Transition to Full Butterfly to transition to Butterfly Guard.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Hook Sweep to Back",
+      "text": "From this position, execute Hook Sweep to Back to transition to Back Control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Butterfly Half to X-Guard",
+      "text": "From this position, execute Butterfly Half to X-Guard to transition to X-Guard.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Butterfly Half to Single Leg X",
+      "text": "From this position, execute Butterfly Half to Single Leg X to transition to Single Leg X Guard.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Passive butterfly hook?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to ineffective elevation, limiting your ability to off-balance or sweep the opponent using the butterfly side. The correction is: Keep the butterfly hook active by driving your foot under the opponent's thigh to create constant upward pressure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Lying flat on back?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results in reduced sweeping leverage, making it easier for the opponent to apply pressure and pass your guard. The correction is: Maintain a seated or slightly reclined posture with your core engaged to maximize leverage and defensive capability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Poor upper body control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Increases vulnerability to passing as the opponent can control your posture and collapse your structure. The correction is: Establish strong upper body grips like an underhook or collar tie to break their posture and limit their passing options."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Disconnected hook and half guard control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Creates a fragmented position where neither the butterfly hook nor half guard control is effective, leading to positional loss. The correction is: Coordinate your butterfly hook and half guard leg to work together, ensuring both are actively controlling the opponent."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Overcommitment to single attacks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to predictable patterns, making it easier for the opponent to anticipate and counter your moves. The correction is: Chain multiple attacks together, using feints or misdirection to keep the opponent guessing and create openings."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Butterfly Half Guard",
+      "item": "https://bjjgraph.com/positions/butterfly-half-guard"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Butterfly Half Guard",
+  "description": "Master Butterfly Half Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 55%, Intermediate 65%, Advanced...",
+  "url": "https://bjjgraph.com/positions/butterfly-half-guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Butterfly Half Guard
 #bjj #state #guard #halfguard #butterfly #hybrid
 
@@ -94,6 +246,15 @@ You are positioned on the mat in a seated or slightly reclined posture, facing y
 - [[X-Guard]] - Advanced guard with similar elevation mechanics
 - [[Single Leg X Guard]] - Related leg entanglement position
 - [[Knee Shield Half Guard]] - Defensive half guard variation
+
+
+## Related Positions
+
+- [[X-Guard]] - Related position
+- [[Butterfly Guard]] - Related position
+- [[Half Guard Bottom]] - Related position
+- [[Knee Shield Half Guard]] - Related position
+- [[Single Leg X Guard]] - Related position
 
 ## Decision Tree
 If opponent stands with weight on trapped leg:

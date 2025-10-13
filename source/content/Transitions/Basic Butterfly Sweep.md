@@ -1,3 +1,128 @@
+---
+title: "Basic Butterfly Sweep | BJJ Technique | BJJ Graph"
+description: "Learn Basic Butterfly Sweep in BJJ. Step-by-step execution from Butterfly Guard to Top Position. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Basic Butterfly Sweep",
+  "description": "Learn how to execute Basic Butterfly Sweep in Brazilian Jiu-Jitsu from Butterfly Guard to Top Position. Success: Beginner 60%, Intermediate 80%, Advanced 90%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "From butterfly guard, establish",
+      "text": "From butterfly guard, establish a solid seated base with good posture to maintain balance.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Insert butterfly hooks by",
+      "text": "Insert butterfly hooks by placing your feet inside opponent's thighs for active control.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Secure an underhook on",
+      "text": "Secure an underhook on one side (e.g., left arm under their right) for primary control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Grip opponent's opposite sleeve",
+      "text": "Grip opponent's opposite sleeve or collar with your free hand to assist in posture breaking.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Pull opponent forward with",
+      "text": "Pull opponent forward with grips to compromise their posture and limit their base.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Elevate opponent's weight with",
+      "text": "Elevate opponent's weight with butterfly hooks by driving feet upward while pulling with upper body.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Angle toward the underhook",
+      "text": "Angle toward the underhook side, posting your head on the mat as a fifth base point for leverage.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Use core strength and",
+      "text": "Use core strength and leg drive to roll opponent over to the underhook side, maintaining arm control.",
+      "position": 8
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Complete the sweep by",
+      "text": "Complete the sweep by coming on top, establishing side control or combat base to consolidate position.",
+      "position": 9
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Basic Butterfly Sweep",
+  "description": "Learn Basic Butterfly Sweep in BJJ. Step-by-step execution from Butterfly Guard to Top Position. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/basic-butterfly-sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Basic Butterfly Sweep",
+      "item": "https://bjjgraph.com/transitions/basic-butterfly-sweep"
+    }
+  ]
+}
+</script>
+
+
 # Basic Butterfly Sweep
 #bjj #transition #sweep #butterfly
 
@@ -183,6 +308,14 @@ The Basic Butterfly Sweep has proven highly effective in competition contexts ac
 - Gi competition: Leverages gi grips for enhanced upper body control with collar/sleeve
 - No-gi competition: Relies more on wrist and neck control for underhook alternatives
 - MMA crossover: Useful for reversing position to avoid ground-and-pound scenarios
+
+
+## Related Techniques
+
+- [[Butterfly Sweep]] - Related technique
+- [[Butterfly Guard to X-Guard]] - Related technique
+- [[Ankle Pick]] - Related technique
+- [[Collar Drag]] - Related technique
 
 ## Historical Context
 The Basic Butterfly Sweep has been a cornerstone of Brazilian Jiu-Jitsu since the early development of guard play, evolving from basic open guard sweeps in the mid-20th century. It gained prominence through practitioners like Marcelo Garcia, who showcased its effectiveness in chaining butterfly guard to dominant top positions. Influenced by judo principles of off-balancing (kuzushi), the sweep reflects the sport's focus on technical efficiency over brute strength. It remains a fundamental technique taught to beginners and refined by black belts alike.

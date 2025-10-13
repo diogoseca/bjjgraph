@@ -1,3 +1,122 @@
+---
+title: "Stack Pass | BJJ Technique | BJJ Graph"
+description: "Learn Stack Pass in BJJ. Step-by-step execution. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Stack Pass",
+  "description": "Learn how to execute Stack Pass in Brazilian Jiu-Jitsu from Closed Guard Top to Side Control. Success: Beginner 40%, Intermediate 55%, Advanced 70%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Begin in a Closed",
+      "text": "Begin in a Closed Guard Top or Open Guard Top position, maintaining awareness of the opponent's guard movements and identifying an opportunity to initiate a pass while keeping a strong posture.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Drive forward with your",
+      "text": "Drive forward with your weight, stepping one leg up to break their closed guard if necessary, or moving into their open guard space to start the pass.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Lift their hips by",
+      "text": "Lift their hips by underhooking both of their legs near the knees or ankles, using your shoulders and chest to apply pressure forward and upward to stack their legs over their head.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Continue driving your weight",
+      "text": "Continue driving your weight forward to elevate their hips further, using your head to post on their stomach or chest for balance if needed, while keeping your base low to prevent sweeps.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Maintain your arms locked",
+      "text": "Maintain your arms locked around their legs to sustain the stack, adjusting your angle slightly to the side to prepare for completing the pass, while monitoring their defensive reactions.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Step to one side",
+      "text": "Step to one side with your knee to clear their guard frame or leg barrier, maintaining forward pressure to keep their legs stacked as you slide your body around to transition into Side Control or settle into a Top Position.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Complete the Stack Pass",
+      "text": "Complete the Stack Pass by securing Side Control with a crossface and underhook to control their upper body, or establishing a stable Top Position if the pass lands higher.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Remain aware of their",
+      "text": "Remain aware of their defensive responses like hip escapes or submission attempts, adapting your weight distribution, grip tightness, and positioning to consolidate the pass and maintain dominance.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Stack Pass",
+  "description": "Learn Stack Pass in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/stack-pass",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Stack Pass",
+      "item": "https://bjjgraph.com/transitions/stack-pass"
+    }
+  ]
+}
+</script>
+
+
 # Stack Pass
 #bjj #transition #guard_pass #offense #ground_game
 
@@ -217,6 +336,14 @@ Updates to this standard should be reflected across related transition setup fil
 
 ## Historical Context
 Stack Pass has been a staple in Brazilian Jiu-Jitsu as a fundamental pressure passing technique, particularly effective in competitive gi contexts where control and points are prioritized. It reflects the strategic emphasis on heavy top game pressure taught by traditional BJJ schools and has been refined by modern competitors to counter evolving guard styles.
+
+
+## Related Techniques
+
+- [[Toreando Pass]] - Related technique
+- [[Stack Defense]] - Related technique
+- [[Smash Pass]] - Related technique
+- [[Leg Drag Pass]] - Related technique
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels in gi and no-gi competition

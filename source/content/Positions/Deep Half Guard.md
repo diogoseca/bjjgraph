@@ -1,3 +1,155 @@
+---
+title: "Deep Half Guard | BJJ Position Guide | BJJ Graph"
+description: "Master Deep Half Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 55%, Intermediate 70%, Advanced 80%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Deep Half Guard in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Deep Half Guard.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Old School Sweep",
+      "text": "From this position, execute Old School Sweep to transition to Top Position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Plan B Sweep",
+      "text": "From this position, execute Plan B Sweep to transition to Top Position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Homer Simpson Sweep",
+      "text": "From this position, execute Homer Simpson Sweep to transition to Back Control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Waiter Sweep",
+      "text": "From this position, execute Waiter Sweep to transition to Top Position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Deep Half to Single Leg X",
+      "text": "From this position, execute Deep Half to Single Leg X to transition to Single Leg X Guard.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Deep Half to X-Guard",
+      "text": "From this position, execute Deep Half to X-Guard to transition to X-Guard.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Poor head positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to vulnerability to flattening, as incorrect head placement allows the opponent to crush your base and control you. The correction is: Position your head strategically against their hip or thigh, using it as a base and leverage point to maintain structure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Insufficient control of opponent's leg?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results in loss of leverage, as weak control over their trapped leg diminishes your ability to sweep or transition. The correction is: Secure a tight underhook on their knee or thigh, maintaining constant connection to control their leg effectively."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Passive hip movement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Causes reduced sweeping power, as immobile hips limit your ability to create angles and generate force for sweeps. The correction is: Keep your hips active and mobile, constantly adjusting to create leverage and disrupt the opponent's balance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Neglecting far-side arm control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to vulnerability to crossface, as uncontrolled far-side arm allows the opponent to apply pressure and flatten you. The correction is: Control their far-side wrist or arm with your outside hand to prevent defensive framing and crossface attempts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Improper shoulder positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results in ineffective leverage, as misaligned shoulders fail to place you under their center of gravity for sweeps. The correction is: Align your shoulder near their far hip, ensuring you're positioned deeply underneath to maximize sweeping leverage."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Deep Half Guard",
+      "item": "https://bjjgraph.com/positions/deep-half-guard"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Deep Half Guard",
+  "description": "Master Deep Half Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 55%, Intermediate 70%, Advanced 80%.",
+  "url": "https://bjjgraph.com/positions/deep-half-guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Deep Half Guard
 #bjj #state #guard #halfguard #deep_half
 
@@ -94,6 +246,15 @@ You are on your back or slightly on your side, positioned deeply underneath the 
 - [[X-Guard]] - Advanced guard with similar sweeping principles
 - [[Butterfly Half Guard]] - Hybrid position with butterfly hook
 - [[Knee Shield Half Guard]] - Alternative defensive half guard
+
+
+## Related Positions
+
+- [[Single Leg X Guard]] - Related position
+- [[Butterfly Half Guard]] - Related position
+- [[Half Guard Bottom]] - Related position
+- [[Top Position]] - Related position
+- [[Knee Shield Half Guard]] - Related position
 
 ## Decision Tree
 If opponent posts with far-side arm:

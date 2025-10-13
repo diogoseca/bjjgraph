@@ -1,3 +1,51 @@
+---
+title: "Triangle Finish | BJJ Submission Guide | BJJ Graph"
+description: "From the Triangle Control position, you start by ensuring a perpendicular angle to your opponent, positioning your body to maximize leverage with one of their arms and their head trapped between..."
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle Finish",
+  "description": "From the Triangle Control position, you start by ensuring a perpendicular angle to your opponent, positioning your body to maximize leverage with one of their arms and their head trapped between...",
+  "url": "https://bjjgraph.com/submissions/triangle-finish",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Triangle Finish",
+      "item": "https://bjjgraph.com/submissions/triangle-finish"
+    }
+  ]
+}
+</script>
+
 # Triangle Finish
 #bjj #transition #submission #finish #choke
 
@@ -12,6 +60,46 @@
 - **Starting State**: [[Triangle Control]]
 - **Ending State**: [[Won by Submission]]
 - **Submission Type**: Choke - Targets carotid arteries
+
+## ⚠️ Safety Considerations
+
+### Injury Risks
+Triangle chokes can cause serious injuries if finished incorrectly:
+- **Loss of Consciousness** (Severity: High, Recovery: Minutes to hours) - Blood chokes cause unconsciousness in 3-8 seconds if held after tap
+- **Carotid Artery Damage** (Severity: Critical, Recovery: Weeks to permanent) - Excessive or prolonged pressure can damage blood vessels
+- **Neck Strain** (Severity: Medium, Recovery: 1-3 weeks) - Pulling head too aggressively during finish can strain cervical muscles
+- **Trachea Damage** (Severity: High, Recovery: 2-6 weeks) - Improper leg position can crush windpipe instead of compressing carotids
+
+### Application Speed
+- Apply triangle finish SLOWLY and progressively over 3-5 seconds minimum
+- Never "spike" or explosively squeeze the triangle closed
+- Maintain constant awareness of partner's tap signals and face color
+- Gradually increase leg squeeze and hip lift pressure
+
+### Tap Signals
+Partners must establish clear tap signals before training triangle finishes:
+- **Verbal Tap**: Saying "tap" or "stop" loudly and clearly
+- **Physical Tap**: Tapping partner's leg, body, or mat with free hand (minimum 2 taps)
+- **Emergency Signal**: Multiple rapid taps or any sign of distress if unable to tap normally
+
+### Release Protocol
+When partner taps:
+1. Immediately stop all squeezing pressure from legs
+2. Release hip lift and leg squeeze simultaneously
+3. Unlock the figure-four configuration around their neck
+4. Allow partner to breathe freely and monitor for 10-15 seconds
+
+### Training Progression
+- **Weeks 1-2**: Triangle position control only, no finishing pressure
+- **Weeks 3-4**: Slow-motion finishes (10% speed), partner taps at 20% pressure
+- **Weeks 5-8**: Medium speed finishes (50% speed), partner taps at 50% pressure
+- **Ongoing**: Full-speed finishes only with experienced partners who trust your control
+
+### Partner Communication
+- Establish tap awareness before drilling triangle finishes
+- Discuss any neck or throat sensitivity issues before training
+- Verbal check-ins during drilling: "Pressure okay?" to monitor partner status
+- Watch for color changes in partner's face indicating blood flow restriction
 
 ### Submission Properties
 - **Success Probability**: Beginner 40%, Intermediate 65%, Advanced 85% - core probability data

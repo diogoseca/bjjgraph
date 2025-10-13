@@ -1,3 +1,124 @@
+---
+title: "Muscle Sweep | BJJ Technique | BJJ Graph"
+description: "Learn Muscle Sweep in BJJ. Step-by-step execution. Success: Beginner 40%, Intermediate 60%, Advanced 80%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Muscle Sweep",
+  "description": "Learn how to execute Muscle Sweep in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Start in Closed Guard Bottom with legs locked around opponent's waist",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Grip Control",
+      "text": "Secure strong grips on opponent's collar and sleeve or wrist",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Posture Break",
+      "text": "Pull down with both hands to disrupt opponent's posture",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Arm Trap",
+      "text": "Pull one arm across centerline to limit opponent's base",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Foot Placement",
+      "text": "Plant foot on mat on same side as trapped arm for leverage",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Shift",
+      "text": "Move hips slightly to side of trapped arm for off-balancing angle",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Sweep Initiation",
+      "text": "Thrust hips upward and to side, push off with planted foot",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Follow Through",
+      "text": "Pull upper body across, roll opponent over trapped arm to top",
+      "position": 8
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Position Secure",
+      "text": "Establish mount or top position with control and pressure",
+      "position": 9
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Muscle Sweep",
+      "item": "https://bjjgraph.com/transitions/muscle-sweep"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Muscle Sweep",
+  "description": "Learn Muscle Sweep in BJJ. Step-by-step execution. Success: Beginner 40%, Intermediate 60%, Advanced 80%.",
+  "url": "https://bjjgraph.com/transitions/muscle-sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Muscle Sweep
 #bjj #transition #sweep #closed_guard #fundamental
 
@@ -224,10 +345,12 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **Closed Guard Bottom** - Starting point for this transition
-- **Hip Bump Sweep** - Similar fundamental closed guard sweep
-- **Mount** - Common ending position after successful sweep
-- **Scissor Sweep** - Alternative closed guard sweep option
+
+- [[De La Riva Sweep]] - Related technique
+- [[Lumberjack Sweep]] - Related technique
+- [[Heel Grab Sweep]] - Related technique
+- [[Tripod Sweep]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points)

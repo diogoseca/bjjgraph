@@ -1,3 +1,155 @@
+---
+title: "Dogfight Position | BJJ Position Guide | BJJ Graph"
+description: "Master Dogfight Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 50%, Intermediate 65%, Advanced 75%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Dogfight Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Dogfight Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Dogfight Back Take",
+      "text": "From this position, execute Dogfight Back Take to transition to Back Control.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Roll Under Sweep",
+      "text": "From this position, execute Roll Under Sweep to transition to Top Position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Tap Takedown",
+      "text": "From this position, execute Knee Tap Takedown to transition to Side Control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Dogfight to Single Leg",
+      "text": "From this position, execute Dogfight to Single Leg to transition to Single Leg Control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to X-Guard",
+      "text": "From this position, execute Transition to X-Guard to transition to X-Guard.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Modified Duck Under",
+      "text": "From this position, execute Modified Duck Under to transition to Back Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Poor underhook depth?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to reduced control effectiveness, as a shallow underhook fails to secure the opponent's torso, allowing them to counter easily. The correction is: Ensure your underhook reaches deep around their torso, ideally to their far shoulder, to maximize control and leverage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Overcommitting to forward drive?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results in vulnerability to counters, as excessive forward momentum can be exploited by the opponent for sweeps or reversals. The correction is: Drive forward with controlled pressure, maintaining balance and readiness to adjust if the opponent counters with a whizzer or base switch."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Weak base positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Causes balance compromise, as narrow or unstable knees make it easy for the opponent to disrupt your posture or sweep you. The correction is: Spread your knees wide for a strong base, ensuring stability and the ability to resist the opponent's pressure or counters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Head positioned too low?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to defensive vulnerability, as a low head position exposes you to front headlocks or guillotine attempts by the opponent. The correction is: Keep your head tight against their side or chest, using it as a control point while protecting against submission threats."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Neglecting whizzer pressure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results in loss of positional control, as ignoring the opponent's whizzer allows them to pull you down or regain half guard. The correction is: Actively counter their whizzer by driving into them or adjusting your underhook to neutralize their leverage and maintain dominance."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Dogfight Position",
+      "item": "https://bjjgraph.com/positions/dogfight-position"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Dogfight Position",
+  "description": "Master Dogfight Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 50%, Intermediate 65%, Advanced 75%.",
+  "url": "https://bjjgraph.com/positions/dogfight-position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Dogfight Position
 #bjj #state #halfguard #transition #dogfight
 
@@ -94,6 +246,15 @@ You are on your knees, facing the same direction as your opponent, with both of 
 - [[Back Control]] - Common destination from dogfight
 - [[Single Leg X Guard]] - Potential transition option
 - [[Deep Half Guard]] - Alternative position from half guard
+
+
+## Related Positions
+
+- [[Back Control]] - Related position
+- [[X-Guard]] - Related position
+- [[Deep Half Guard]] - Related position
+- [[Half Guard Bottom]] - Related position
+- [[Single Leg X Guard]] - Related position
 
 ## Decision Tree
 If opponent applies heavy whizzer pressure:

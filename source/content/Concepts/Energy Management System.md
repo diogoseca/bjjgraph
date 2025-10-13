@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Energy Management System",
+  "description": "The Energy Management System represents a comprehensive strategic framework for optimizing energy expenditure, physiological resource allocation, and strategic pacing in BJJ. Unlike technique-focus...",
+  "url": "https://bjjgraph.com/concepts/energy-management-system",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.com/concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Energy Management System",
+      "item": "https://bjjgraph.com/concepts/energy-management-system"
+    }
+  ]
+}
+</script>
+
+
 # Energy Management System
 #bjj #strategy #framework #energy #efficiency
 

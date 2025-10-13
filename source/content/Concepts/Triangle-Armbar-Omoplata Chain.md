@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle-Armbar-Omoplata Chain",
+  "description": "The Triangle-Armbar-Omoplata (TAO) Chain represents one of the most fundamental and effective submission sequences in Brazilian Jiu-Jitsu. These three submissions form a complementary attacking sys...",
+  "url": "https://bjjgraph.com/concepts/triangle-armbar-omoplata-chain",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.com/concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Triangle-Armbar-Omoplata Chain",
+      "item": "https://bjjgraph.com/concepts/triangle-armbar-omoplata-chain"
+    }
+  ]
+}
+</script>
+
+
 # Triangle-Armbar-Omoplata Chain
 #bjj #submission #chain #triangle #armbar #omoplata #guard
 

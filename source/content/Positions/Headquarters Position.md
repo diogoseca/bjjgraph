@@ -1,3 +1,107 @@
+---
+title: "Headquarters Position | BJJ Position Guide | BJJ Graph"
+description: "Master Headquarters Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 80%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Headquarters Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Headquarters Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Cut Pass",
+      "text": "From this position, execute Knee Cut Pass to transition to Side Control.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Folding Pass",
+      "text": "From this position, execute Folding Pass to transition to Side Control.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Leg Drag Pass",
+      "text": "From this position, execute Leg Drag Pass to transition to Side Control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Smash Pass",
+      "text": "From this position, execute Smash Pass to transition to Side Control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Over-Under Pass",
+      "text": "From this position, execute Over-Under Pass to transition to Side Control.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Body Lock Pass",
+      "text": "From this position, execute Body Lock Pass to transition to Side Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Headquarters Position",
+      "item": "https://bjjgraph.com/positions/headquarters-position"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Headquarters Position",
+  "description": "Master Headquarters Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 80%.",
+  "url": "https://bjjgraph.com/positions/headquarters-position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Headquarters Position
 #bjj #state #pass #top #control
 
@@ -81,6 +185,15 @@ The Headquarters Position (HQ) is a fundamental guard passing control position w
 - [[Knee Cut Position]] - Dynamic passing position often entered from HQ
 - [[Leg Drag Position]] - Another passing position commonly accessed from HQ
 - [[Smash Pass Position]] - Pressure-based passing position
+
+
+## Related Positions
+
+- [[Side Control]] - Related position
+- [[Knee Cut Position]] - Related position
+- [[Smash Pass Position]] - Related position
+- [[Combat Base]] - Related position
+- [[Leg Drag Position]] - Related position
 
 ## Decision Tree
 If opponent frames with inside knee shield:

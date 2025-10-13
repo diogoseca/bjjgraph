@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Biomechanical Principles",
+  "description": "Biomechanical Principles in BJJ represent the fundamental physical laws and mechanical properties that govern all techniques and movements in Brazilian Jiu-Jitsu. Unlike style-specific approaches o...",
+  "url": "https://bjjgraph.com/concepts/biomechanical-principles",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.com/concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Biomechanical Principles",
+      "item": "https://bjjgraph.com/concepts/biomechanical-principles"
+    }
+  ]
+}
+</script>
+
+
 # Biomechanical Principles
 #bjj #biomechanics #physics #concepts #mechanics
 

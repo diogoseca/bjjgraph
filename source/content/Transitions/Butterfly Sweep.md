@@ -1,3 +1,122 @@
+---
+title: "Butterfly Sweep | BJJ Technique | BJJ Graph"
+description: "Learn Butterfly Sweep in BJJ. Step-by-step execution from Butterfly Guard to Top Position. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Butterfly Sweep",
+  "description": "Learn how to execute Butterfly Sweep in Brazilian Jiu-Jitsu from Butterfly Guard to Top Position. Success: Beginner 60%, Intermediate 75%, Advanced 85%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Establish proper Butterfly Guard",
+      "text": "Establish proper Butterfly Guard with hook(s) positioned under opponent's thigh(s), close to their hips for maximum leverage.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Secure appropriate upper body",
+      "text": "Secure appropriate upper body control, typically an underhook on one side, to pull opponent close and disrupt posture.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Create an appropriate angle",
+      "text": "Create an appropriate angle relative to opponent by shifting your body off-center, typically towards the control side.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Coordinate upper body pull",
+      "text": "Coordinate upper body pull with powerful butterfly hook elevation, using your legs to lift opponent's weight.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Lift opponent's hips with",
+      "text": "Lift opponent's hips with leg drive while compromising their upper body posture with your pull, breaking their balance.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Guide opponent's momentum in",
+      "text": "Guide opponent's momentum in the sweeping direction, typically to the side of upper body control, rolling them over.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Follow opponent's movement to",
+      "text": "Follow opponent's movement to maintain control during positional transition, ensuring a smooth reversal.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Establish dominant top position",
+      "text": "Establish dominant top position as sweep completes, such as Side Control or Mount, to consolidate advantage.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Butterfly Sweep",
+  "description": "Learn Butterfly Sweep in BJJ. Step-by-step execution from Butterfly Guard to Top Position. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/butterfly-sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Butterfly Sweep",
+      "item": "https://bjjgraph.com/transitions/butterfly-sweep"
+    }
+  ]
+}
+</script>
+
+
 # Butterfly Sweep
 #bjj #transition #sweep #guard #fundamental
 
@@ -193,6 +312,14 @@ The Butterfly Sweep has proven consistently effective across competition context
 - Self-defense relevance: Creates powerful positional change with minimal risk.
 - Lower belt competition: High percentage technique with straightforward mechanics.
 - Elite competition: Continues to prove effective at highest levels with precision.
+
+
+## Related Techniques
+
+- [[Basic Butterfly Sweep]] - Related technique
+- [[Butterfly Guard to X-Guard]] - Related technique
+- [[Ankle Pick]] - Related technique
+- [[Collar Drag]] - Related technique
 
 ## Historical Context
 The Butterfly Sweep represents one of the oldest and most universal sweeping techniques in grappling, with variations appearing across numerous traditional martial arts including judo (where it's known as "sumi gaeshi"). In Brazilian Jiu-Jitsu, the technique gained particular prominence through the influence of wrestlers transitioning to BJJ, who adapted their sitting techniques to the guard context. The Butterfly Guard and its associated sweeps experienced a renaissance in the 2000s through the influence of guard players like Marcelo Garcia, who demonstrated the high effectiveness of butterfly techniques at the highest levels of competition. The technique continues to evolve with modern adaptations focusing on transitions to leg entanglements and more sophisticated setup variations.

@@ -1,3 +1,107 @@
+---
+title: "Turtle Position | BJJ Position Guide | BJJ Graph"
+description: "Master Turtle Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 40%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Turtle Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Turtle Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Sit Through Escape",
+      "text": "From this position, execute Sit Through Escape to transition to Side Control Escape.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Granby Roll",
+      "text": "From this position, execute Granby Roll to transition to Guard Recovery.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Switch Base",
+      "text": "From this position, execute Switch Base to transition to Single Leg Takedown.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Peterson Roll",
+      "text": "From this position, execute Peterson Roll to transition to Top Position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Standing Switch",
+      "text": "From this position, execute Standing Switch to transition to Back Control.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Turtle to Half Guard",
+      "text": "From this position, execute Turtle to Half Guard to transition to Half Guard Bottom.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Turtle Position",
+      "item": "https://bjjgraph.com/positions/turtle-position"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Turtle Position",
+  "description": "Master Turtle Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 40%.",
+  "url": "https://bjjgraph.com/positions/turtle-position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Turtle Position
 #bjj #state #defensive #transition #turtle
 
@@ -11,6 +115,10 @@
 
 ## State Description
 The Turtle Position is a defensive posture where a practitioner is on their hands and knees with their head tucked and limbs tight to the body, protecting their core and neck. This position typically arises when a practitioner is attempting to avoid having their back taken or to prevent point-scoring in competition after a failed takedown or guard pass. While primarily defensive, the turtle can also serve as a transitional position offering surprising offensive opportunities through well-timed reversals and escapes.
+
+## Visual Description
+
+You are on your hands and knees in a compact, ball-like configuration, your head tucked down toward your chest or to the side to protect your neck from choke attempts. Your elbows are tight to your knees, eliminating space where your opponent could insert hooks or establish control, while your hands plant firmly on the mat supporting your weight and providing a base for movement. Your back is rounded, not flat, creating a dome-like defensive structure that makes it difficult for your opponent to establish control or break you down to the mat. Your opponent is typically on top of you or to your side, their chest pressed against your upper back or shoulders, their hands working to establish grips on your collar, belt, or arms while their legs seek to insert hooks or apply pressure to flatten you. Your weight distributes evenly across your hands and knees, allowing you to move explosively in any direction while maintaining your compact structure. This defensive shell creates a temporary barrier that buys time while you seek escape opportunities, though remaining static allows your opponent to systematically work for back control or other dominant positions, making this a position of action and transition rather than extended defense.
 
 ## Key Principles
 - Maintain tight body structure with elbows tucked to knees
@@ -81,6 +189,15 @@ The Turtle Position is a defensive posture where a practitioner is on their hand
 - [[Half Guard Bottom]] - Common recovery position
 - [[Crucifix Position]] - Special control from turtle
 - [[Standing Position]] - Potential escape position
+
+
+## Related Positions
+
+- [[Side Control]] - Related position
+- [[Back Control]] - Related position
+- [[Half Guard Bottom]] - Related position
+- [[Guard Recovery]] - Related position
+- [[Crucifix Position]] - Related position
 
 ## Decision Tree
 If opponent attempts to insert hooks:

@@ -1,3 +1,51 @@
+---
+title: "Triangle Choke Back | BJJ Submission Guide | BJJ Graph"
+description: "From a dominant back control position, you secure the opponent's back with both hooks in and a seatbelt grip, controlling their torso while they defend against chokes by tucking their chin and..."
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle Choke Back",
+  "description": "From a dominant back control position, you secure the opponent's back with both hooks in and a seatbelt grip, controlling their torso while they defend against chokes by tucking their chin and...",
+  "url": "https://bjjgraph.com/submissions/triangle-choke-back",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Triangle Choke Back",
+      "item": "https://bjjgraph.com/submissions/triangle-choke-back"
+    }
+  ]
+}
+</script>
+
 # Triangle Choke Back
 #bjj #submission #choke #strangle #back_attack
 

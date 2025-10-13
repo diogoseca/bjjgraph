@@ -1,3 +1,107 @@
+---
+title: "Mount Position | BJJ Position Guide | BJJ Graph"
+description: "Master Mount position in BJJ. Complete guide covering control, submissions, and transitions. Dominant 4-point position with 75% retention rate and 55% submission probability."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Mount Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Mount Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute S-Mount Transition",
+      "text": "From this position, execute S-Mount Transition to transition to S-Mount.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute High Mount Transition",
+      "text": "From this position, execute High Mount Transition to transition to High Mount.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Technical Mount Transition",
+      "text": "From this position, execute Technical Mount Transition to transition to Technical Mount.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Gift Wrap from Mount",
+      "text": "From this position, execute Gift Wrap from Mount to transition to Back Control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Americana from Mount",
+      "text": "From this position, execute Americana from Mount to transition to Won by Submission.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Cross Collar Choke",
+      "text": "From this position, execute Cross Collar Choke to transition to Won by Submission.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Mount Position",
+      "item": "https://bjjgraph.com/positions/mount"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mount Position",
+  "description": "Master Mount position in BJJ. Complete guide covering control, submissions, and transitions. Dominant 4-point position with 75% retention rate and 55% submission probability.",
+  "url": "https://bjjgraph.com/positions/mount",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Mount
 #bjj #state #dominant #pin #mount
 
@@ -11,6 +115,10 @@
 
 ## State Description
 Mount is a premier controlling position in BJJ where the top practitioner sits astride the opponent's torso with both legs straddling their body and the opponent lying on their back. This position offers exceptional control and powerful attacking opportunities while limiting the opponent's defensive options. In competition, mount is one of the highest-scoring positions, reflecting its tactical advantage.
+
+## Visual Description
+
+From a top-down view, the practitioner sits directly on the opponent's chest and abdomen with legs straddling both sides of the torso, knees tight against the opponent's ribs or armpits. The practitioner's hips are positioned low, sinking weight directly into the opponent's diaphragm and sternum, while the feet can hook under the opponent's legs or post on the mat for base. The practitioner's upper body remains upright or slightly forward, with hands ready to control the opponent's arms or establish grips for submissions. The opponent lies flat on their back with severely restricted movement, unable to generate effective bridging power or create space due to the top person's weight distribution and leg control. This perpendicular straddle position creates maximum pressure on the opponent's breathing while providing the top person with numerous attacking vectors for both submissions and positional transitions.
 
 ## Key Principles
 - Keep knees tight to opponent's ribs/armpits
@@ -80,6 +188,15 @@ Mount is a premier controlling position in BJJ where the top practitioner sits a
 - [[Technical Mount]] - Modified mount used when opponent turns to side
 - [[Low Mount]] - Lower positioned mount with hips closer to opponent's hips
 - [[Mounted Triangle]] - Hybrid position combining mount and triangle control
+
+
+## Related Positions
+
+- [[Back Control]] - Related position
+- [[Won by Submission]] - Related position
+- [[Spider Guard]] - Related position
+- [[Saddle Position]] - Related position
+- [[Closed Guard Bottom]] - Related position
 
 ## Decision Tree
 If opponent bridges strongly:

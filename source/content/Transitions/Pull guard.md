@@ -1,3 +1,122 @@
+---
+title: "Pull Guard | BJJ Technique | BJJ Graph"
+description: "Learn Pull Guard in BJJ. Step-by-step execution. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Pull Guard",
+  "description": "Learn how to execute Pull Guard in Brazilian Jiu-Jitsu from Standing Position to Closed Guard. Success: Beginner 60%, Intermediate 75%, Advanced 90%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Begin in a Standing",
+      "text": "Begin in a Standing Position, recognizing the opportunity to pull guard when you prefer to fight from the bottom or need to neutralize an opponent's takedown attempt.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Establish control by securing",
+      "text": "Establish control by securing a grip on their sleeve or wrist with one hand, and reaching for their collar or neck with the other hand to control their posture, stepping back slightly to create an angle.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Lower your center of",
+      "text": "Lower your center of gravity by bending your knees, keeping your back straight, as you pull them towards you with both grips, stepping your other foot back to further off-balance them.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Sit down to the",
+      "text": "Sit down to the mat with control, pulling them down with you using your grips, while wrapping your legs around their torso to aim for Closed Guard, or preparing for Open Guard if needed.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Maintain your grips to",
+      "text": "Maintain your grips to control their upper body during the transition, keeping your elbows tucked to prevent them from standing back up easily, as you adjust your hips to center yourself under them.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Position your legs to",
+      "text": "Position your legs to either lock in Closed Guard by securing your ankles behind their back, or frame for Open Guard with feet on their hips or knees to create distance, preventing an immediate pass.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Settle into your chosen",
+      "text": "Settle into your chosen guard position, tightening your Closed Guard with legs locked and pulling their posture down, or establishing an active Open Guard to control space and initiate attacks.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Remain aware of their",
+      "text": "Remain aware of their attempts to resist the pull or initiate a takedown during the transition, adjusting your grip strength, hip positioning, and leg placement to counter and secure the guard position.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pull Guard",
+  "description": "Learn Pull Guard in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/pull-guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Pull Guard",
+      "item": "https://bjjgraph.com/transitions/pull-guard"
+    }
+  ]
+}
+</script>
+
+
 # Pull Guard
 #bjj #transition #guard_pull #defense #takedown_defense
 
@@ -217,6 +336,13 @@ Updates to this standard should be reflected across related transition setup fil
 
 ## Historical Context
 The Pull Guard technique has been a foundational strategy in BJJ since its early development, popularized by practitioners who specialized in guard play to counter wrestling-based takedown approaches, becoming a staple in modern competition to initiate complex guard games.
+
+
+## Related Techniques
+
+- [[Butterfly Guard to X-Guard]] - Related technique
+- [[Closed Guard to Triangle]] - Related technique
+- [[Open Guard to Deep Half]] - Related technique
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels in gi and no-gi competition, with specific rules on jumping guard

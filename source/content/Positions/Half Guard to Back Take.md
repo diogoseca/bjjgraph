@@ -1,3 +1,106 @@
+---
+title: "Half Guard to Back Take | BJJ Position Guide | BJJ Graph"
+description: "Master Half Guard to Back Take in BJJ. Complete guide covering setup, control, escapes, and transitions."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Losing upper body control during transition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Recovery to half guard"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Inserting hooks before establishing upper body control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Defensive roll"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Following too far behind opponent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Defensive turtle"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Neglecting hip control during rotation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Guard recovery"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Rushing hook insertion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Leg entanglement"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Half Guard to Back Take",
+  "description": "Master Half Guard to Back Take in BJJ. Complete guide covering setup, control, escapes, and transitions.",
+  "url": "https://bjjgraph.com/positions/half-guard-to-back-take",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Half Guard to Back Take",
+      "item": "https://bjjgraph.com/positions/half-guard-to-back-take"
+    }
+  ]
+}
+</script>
+
+
 # Half Guard to Back Take
 #bjj #transition #half_guard #back_control
 
@@ -108,3 +211,12 @@ The Half Guard to Back Take transition exemplifies advanced BJJ principles of cr
 
 ## Computer Science Analogy
 The Half Guard to Back Take functions as a "lateral privilege escalation" within the BJJ state machine, exploiting a side-channel vulnerability rather than attempting a direct "brute force" escalation. Similar to how certain computer exploits leverage indirect access paths to circumvent security barriers, this transition bypasses the opponent's primary defensive architecture by exploiting rotational mechanics rather than confronting established frames directly. The process implements a form of "state machine manipulation" where applied pressure creates predictable state changes (defensive reactions) that expose transition vulnerabilities not present in the static state. This represents an "asymmetric optimization algorithm" that achieves positional advancement through path redirection rather than force escalation, demonstrating how complex systems often contain indirect pathways that provide more efficient solutions than obvious direct routes.
+
+## Related Positions
+
+- [[Half Guard Top]] - Related position
+- [[Deep Half Guard]] - Related position
+- [[Half Guard Bottom]] - Related position
+- [[Flattened Half Guard]] - Related position
+- [[Half Guard Recovery]] - Related position
+

@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Self-Defense Application Framework",
+  "description": "The Self-Defense Application Framework provides a systematic methodology for adapting Brazilian Jiu-Jitsu skills to practical self-defense scenarios. This system bridges the gap between sport-orien...",
+  "url": "https://bjjgraph.com/systems/self-defense-application-framework",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Systems",
+      "item": "https://bjjgraph.com/systems/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Self-Defense Application Framework",
+      "item": "https://bjjgraph.com/systems/self-defense-application-framework"
+    }
+  ]
+}
+</script>
+
+
 # Self-Defense Application Framework
 #bjj #self-defense #application #system
 

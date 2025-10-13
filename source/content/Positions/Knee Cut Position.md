@@ -1,3 +1,107 @@
+---
+title: "Knee Cut Position | BJJ Position Guide | BJJ Graph"
+description: "Master Knee Cut Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Knee Cut Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Knee Cut Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Complete Knee Cut",
+      "text": "From this position, execute Complete Knee Cut to transition to Side Control.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Cut to Mount",
+      "text": "From this position, execute Knee Cut to Mount to transition to Mount.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Cut to North-South",
+      "text": "From this position, execute Knee Cut to North-South to transition to North-South.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Backstep",
+      "text": "From this position, execute Backstep to transition to Leg Drag Position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Folding Pass Transition",
+      "text": "From this position, execute Folding Pass Transition to transition to Smash Pass Position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kimura Trap from Knee Cut",
+      "text": "From this position, execute Kimura Trap from Knee Cut to transition to Kimura Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Knee Cut Position",
+      "item": "https://bjjgraph.com/positions/knee-cut-position"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Cut Position",
+  "description": "Master Knee Cut Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
+  "url": "https://bjjgraph.com/positions/knee-cut-position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Knee Cut Position
 #bjj #state #passing #halfguard #top
 
@@ -88,6 +192,15 @@ The Knee Cut Position represents a dominant transitional control point during th
 - [[Half Guard Top]] - Related control position
 - [[Leg Drag Position]] - Alternative passing position
 - [[Flattened Half Guard]] - Potential transition state
+
+
+## Related Positions
+
+- [[Side Control]] - Related position
+- [[Leg Drag Position]] - Related position
+- [[Half Guard Top]] - Related position
+- [[North-South]] - Related position
+- [[Mount]] - Related position
 
 ## Decision Tree
 If opponent establishes knee shield:

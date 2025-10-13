@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Passing Counter System",
+  "description": "The Passing Counter System represents a comprehensive framework for not just preventing guard passes but actively capitalizing on passing attempts to create offensive opportunities. Unlike traditio...",
+  "url": "https://bjjgraph.com/concepts/passing-counter-system",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.com/concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Passing Counter System",
+      "item": "https://bjjgraph.com/concepts/passing-counter-system"
+    }
+  ]
+}
+</script>
+
+
 # Passing Counter System
 #bjj #defense #system #guard #passing #counter
 

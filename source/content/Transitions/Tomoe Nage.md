@@ -1,3 +1,130 @@
+---
+title: "Tomoe Nage | BJJ Technique | BJJ Graph"
+description: "Learn Tomoe Nage in BJJ. Step-by-step execution. Success: Beginner 25%, Intermediate 45%, Advanced 65%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Tomoe Nage",
+  "description": "Learn how to execute Tomoe Nage in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Start in Standing or Clinch Position with strong grip control",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Grip Establishment",
+      "text": "Secure collar and sleeve or over-under grip for upper body control",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Posture Break",
+      "text": "Pull opponent forward to disrupt balance, force weight onto front foot",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Positioning Step",
+      "text": "Step back with one foot to create space and angle for throw",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Foot Placement",
+      "text": "Place dominant foot on opponent's lower abdomen or hip as pivot",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Sacrifice Fall",
+      "text": "Sit back and down, rolling onto back in controlled fall",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Pulling Action",
+      "text": "Pull opponent over with both arms, guide momentum with core",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Leg Extension",
+      "text": "Extend pivot leg to lift and flip opponent over your head",
+      "position": 8
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Throw Completion",
+      "text": "Direct opponent's fall with grips, roll with momentum",
+      "position": 9
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Position Outcome",
+      "text": "Land in top position (side control/mount) or transition to guard",
+      "position": 10
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Tomoe Nage",
+      "item": "https://bjjgraph.com/transitions/tomoe-nage"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Tomoe Nage",
+  "description": "Learn Tomoe Nage in BJJ. Step-by-step execution. Success: Beginner 25%, Intermediate 45%, Advanced 65%.",
+  "url": "https://bjjgraph.com/transitions/tomoe-nage",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Tomoe Nage
 #bjj #transition #takedown #judo #sacrifice_throw
 
@@ -225,10 +352,9 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **Standing Position** - Primary starting position for this throw
-- **Clinch Position** - Alternative starting position with closer control
-- **Sumi Gaeshi** - Similar judo sacrifice throw with different mechanics
-- **Guard Position** - Common outcome if throw doesn't secure top dominance
+
+- [[Seoi Nage]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as takedown (2 points)

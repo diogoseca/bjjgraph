@@ -1,3 +1,106 @@
+---
+title: "Hip Bump Sweep | BJJ Technique | BJJ Graph"
+description: "Learn Hip Bump Sweep in BJJ. Step-by-step execution from Closed Guard Bottom to Mount. Success: Beginner 50%, Intermediate 70%, Advanced 85%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Hip Bump Sweep",
+  "description": "Learn how to execute Hip Bump Sweep in Brazilian Jiu-Jitsu from Closed Guard Bottom to Mount.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish collar grip and post hand on mat beside your hip",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Begin sit-up motion while maintaining closed guard",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically tries to maintain posture or grip fight",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Adjust timing and direction based on their balance and reaction",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Complete hip bump while pushing shoulder to sweep them over",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Follow through by transitioning to mount position",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Hip Bump Sweep",
+      "item": "https://bjjgraph.com/transitions/hip-bump-sweep"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hip Bump Sweep",
+  "description": "Learn Hip Bump Sweep in BJJ. Step-by-step execution from Closed Guard Bottom to Mount. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.com/transitions/hip-bump-sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Hip Bump Sweep
 #bjj #transition #sweep #closed_guard #fundamental
 
@@ -217,11 +320,12 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **Flower Sweep** - Alternative sweep using different mechanics
-- **Scissor Sweep** - Another fundamental closed guard sweep
-- **Triangle Choke** - Common combination when sweep is defended
-- **Armbar from Guard** - Alternative attack using similar collar grip
-- **Kimura** - Submission option if opponent defends sweep poorly
+
+- [[Flower Sweep]] - Related technique
+- [[Scissor Sweep]] - Related technique
+- [[Balloon Sweep]] - Related technique
+- [[Waiter Sweep]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points) plus mount (4 points)

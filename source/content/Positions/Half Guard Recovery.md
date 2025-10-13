@@ -1,3 +1,106 @@
+---
+title: "Half Guard Recovery | BJJ Position Guide | BJJ Graph"
+description: "Master Half Guard Recovery in BJJ. Complete guide covering setup, control, escapes, and transitions."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Waiting too long to initiate recovery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Position beyond recovery"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Neglecting proper frames?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Continued flattening"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Focusing solely on leg entanglement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Upper body control neglect"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor hip mobility?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Insufficient space creation"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Passive defensive mindset?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reactive rather than proactive recovery"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Half Guard Recovery",
+  "description": "Master Half Guard Recovery in BJJ. Complete guide covering setup, control, escapes, and transitions.",
+  "url": "https://bjjgraph.com/positions/half-guard-recovery",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Half Guard Recovery",
+      "item": "https://bjjgraph.com/positions/half-guard-recovery"
+    }
+  ]
+}
+</script>
+
+
 # Half Guard Recovery
 #bjj #technique #recovery #halfguard #escape
 
@@ -110,3 +213,12 @@ Half Guard Recovery is a critical defensive skill set that enables a practitione
 
 ## Conceptual Relationship to Computer Science
 Half Guard Recovery represents a "system restoration protocol" in the BJJ state machine, implementing a series of procedures to return from a compromised state to a functional one. This creates a form of "error correction mechanism" that provides resilience against catastrophic position loss. Similar to fault-tolerant systems in computing, the technique establishes redundant defensive mechanisms and checkpoints that must be sequentially addressed, creating a step-by-step recovery pathway. The recovery process functions as a "rollback and replay" mechanism, where the position is incrementally restored through specific state corrections that systematically address vulnerabilities, similar to how database systems restore consistency after partial transaction failures.
+
+## Related Positions
+
+- [[Half Guard Top]] - Related position
+- [[Half Guard to Back Take]] - Related position
+- [[Guard Recovery]] - Related position
+- [[Deep Half Guard]] - Related position
+- [[Guard Recovery System]] - Related position
+

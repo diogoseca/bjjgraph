@@ -1,3 +1,51 @@
+---
+title: "Triangle Choke Front | BJJ Submission Guide | BJJ Graph"
+description: "Final positioning with opponent's head and arm trapped in leg triangle Pressure application creating blood flow restriction to brain"
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle Choke Front",
+  "description": "Final positioning with opponent's head and arm trapped in leg triangle Pressure application creating blood flow restriction to brain",
+  "url": "https://bjjgraph.com/submissions/triangle-choke-front",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Triangle Choke Front",
+      "item": "https://bjjgraph.com/submissions/triangle-choke-front"
+    }
+  ]
+}
+</script>
+
 # Triangle Choke Front
 #bjj #submission #choke #blood_choke #endstate #triangle
 

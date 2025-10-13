@@ -1,3 +1,122 @@
+---
+title: "Knee Cut Pass | BJJ Technique | BJJ Graph"
+description: "Learn Knee Cut Pass in BJJ. Step-by-step execution. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Knee Cut Pass",
+  "description": "Learn how to execute Knee Cut Pass in Brazilian Jiu-Jitsu from Half Guard to Side Control. Success: Beginner 60%, Intermediate 75%, Advanced 85%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Begin in top Half",
+      "text": "Begin in top Half Guard or Open Guard, recognizing the opportunity to pass when the opponent's guard is not fully locked or their posture control is weak.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Posture up by straightening",
+      "text": "Posture up by straightening your back and tucking your elbows in to break their grip control over your upper body, maintaining a strong base.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Secure an underhook with",
+      "text": "Secure an underhook with one arm under their armpit on the side of the trapped leg (if in Half Guard) or on a controlling side (if in Open Guard), pinning their torso to limit mobility.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Shift your weight slightly",
+      "text": "Shift your weight slightly back to create space, pulling your trapped knee out (if applicable), and step your outside leg up, placing the foot flat near their hip as a driving base.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Drive your trapped or",
+      "text": "Drive your trapped or passing knee forward and across their thigh, slicing through the space between their legs, while using your free hand to push their blocking knee down to clear the path.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Maintain your underhook and",
+      "text": "Maintain your underhook and keep your head low to protect against submissions, sliding your shin over their thigh and dropping your hips to pin their lower body, preventing guard recovery.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Complete the pass by",
+      "text": "Complete the pass by settling into Side Control, driving your chest into theirs, securing their head with the underhook and blocking their far hip with your other arm, or stepping over to Mount if their legs are open.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Remain aware of their",
+      "text": "Remain aware of their defensive attempts like framing or sweeping, adjusting your weight and pressure to counter and consolidate the dominant position.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Cut Pass",
+  "description": "Learn Knee Cut Pass in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/knee-cut-pass",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Knee Cut Pass",
+      "item": "https://bjjgraph.com/transitions/knee-cut-pass"
+    }
+  ]
+}
+</script>
+
+
 # Knee Cut Pass
 #bjj #transition #guard_pass #offense #control
 
@@ -41,3 +160,11 @@ Starting in top Half Guard, you are on your knees with your right leg trapped be
 - **Knee Block Defense**: Free hand pushes opponent’s blocking leg to clear path.
 - **Head Position Safety**: Keep head low to avoid triangle or guillotine setups.
 - **Hip Pinning**: Drop hips post-slice to prevent shrimping or guard recovery
+
+## Related Techniques
+
+- [[Smash Pass]] - Related technique
+- [[Leg Drag Pass]] - Related technique
+- [[Leg Weave Pass]] - Related technique
+- [[Transition to Mount]] - Related technique
+

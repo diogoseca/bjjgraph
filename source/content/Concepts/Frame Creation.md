@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Frame Creation",
+  "description": "Frame Creation represents the fundamental defensive skill of establishing structural barriers using the arms, legs, and torso to manage pressure, create space, and prevent an opponent from advancin...",
+  "url": "https://bjjgraph.com/concepts/frame-creation",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.com/concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Frame Creation",
+      "item": "https://bjjgraph.com/concepts/frame-creation"
+    }
+  ]
+}
+</script>
+
+
 # Frame Creation
 #bjj #concept #defense #structure #fundamental
 

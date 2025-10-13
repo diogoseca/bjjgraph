@@ -1,3 +1,107 @@
+---
+title: "Inside Sankaku | BJJ Position Guide | BJJ Graph"
+description: "Master Inside Sankaku in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 85%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Inside Sankaku in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Inside Sankaku.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Inside Heel Hook",
+      "text": "From this position, execute Inside Heel Hook to transition to Won by Submission.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Ankle Lock from Inside Sankaku",
+      "text": "From this position, execute Ankle Lock from Inside Sankaku to transition to Won by Submission.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Toe Hold Transition",
+      "text": "From this position, execute Toe Hold Transition to transition to Toe Hold Control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Back Step to Backside 50/50",
+      "text": "From this position, execute Back Step to Backside 50/50 to transition to Backside 50/50.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Back Take from Inside Sankaku",
+      "text": "From this position, execute Back Take from Inside Sankaku to transition to Back Control.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Cross Ashi Transition",
+      "text": "From this position, execute Cross Ashi Transition to transition to Cross Ashi.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Inside Sankaku",
+      "item": "https://bjjgraph.com/positions/inside-sankaku"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inside Sankaku",
+  "description": "Master Inside Sankaku in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 85%.",
+  "url": "https://bjjgraph.com/positions/inside-sankaku",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Inside Sankaku
 #bjj #state #leg_entanglement #submission_position #leglock
 
@@ -79,6 +183,15 @@ Inside Sankaku, also known as the "Honey Hole" or "411", is an advanced leg enta
 - [[Single Leg X Guard]] - Common entry position
 - [[Cross Ashi]] - Alternative advanced leg entanglement
 - [[Backside 50/50]] - Attacking from behind the leg
+
+
+## Related Positions
+
+- [[Won by Submission]] - Related position
+- [[Ashi Garami]] - Related position
+- [[Single Leg X Guard]] - Related position
+- [[Back Control]] - Related position
+- [[Knee on Belly]] - Related position
 
 ## Decision Tree
 If opponent defends knee line:

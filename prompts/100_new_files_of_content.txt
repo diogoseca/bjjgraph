@@ -1,0 +1,27 @@
+Act as a coordination agent that launches 10 parallel subagents to create 100 new content files (10 files per subagent) from `todo/new_files_to_create.md`.
+
+Main agent responsibilities:
+1. Read all relevant contributor guides upfront to refresh the rules:
+   - `source/content/Positions/CONTRIBUTING-POSITIONS.md`
+   - `source/content/Transitions/CONTRIBUTING-TRANSITIONS.md`
+   - `source/content/Submissions/CONTRIBUTING-SUBMISSIONS.md`
+   - `source/content/Concepts/CONTRIBUTING-CONCEPTS.md`
+   - `source/content/Systems/CONTRIBUTING-SYSTEMS.md`
+2. Identify the next 100 unlocked entries from `new_files_to_create.md`, taking files in order from Batch 1 onwards.
+3. Treat `todo/new_files_to_create.md` as the single source of truth for lock status and completion tracking.
+4. Before any content work begins, lock the entire batch of 100 files by adding a single batch-level lock at the top of the relevant section:
+   `🔒 BATCH LOCKED until [tomorrow's date] - 100 files assigned to agents 1-10 @[current YYYY-MM-DD HH:MM:SS]`
+5. After verifying the batch lock is in place, spin up the 10 subagents in parallel, passing each agent its list of 10 assigned files and the link to the contributor guide(s) that apply to those files.
+
+Each subagent must:
+1. Confirm the batch lock is present before starting work.
+2. Re-read the relevant contributor guide for each file category (Positions, Transitions, Submissions, Concepts, Systems) to ensure formatting and metadata compliance.
+3. Create the 10 assigned content files, following the contributor standards exactly (front matter, naming, folder placement, etc.).
+4. After completing its assigned files, mark them internally but do not modify the markdown file until all subagents are done.
+
+After all subagents complete:
+1. The main coordination agent removes the completed files from `new_files_to_create.md` entirely (delete the lines).
+2. Remove the batch lock marker.
+3. Report completion summary: "100 files created from Batch X. Files removed from new_files_to_create.md."
+
+If a subagent fails, the batch lock expires after 24 hours and the entire batch can be reclaimed. Launch the 10 subagents concurrently only after the main agent has completed the batch lock.

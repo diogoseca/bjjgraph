@@ -1,3 +1,124 @@
+---
+title: "Lumberjack Sweep | BJJ Technique | BJJ Graph"
+description: "Learn Lumberjack Sweep in BJJ. Step-by-step execution. Success: Beginner 40%, Intermediate 65%, Advanced 80%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Lumberjack Sweep",
+  "description": "Learn how to execute Lumberjack Sweep in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Start in closed guard with legs locked around opponent's waist",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Observation",
+      "text": "Monitor posture and weight distribution for opening",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Grip Control",
+      "text": "Secure two-on-one grip on opponent's sleeve or wrist",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Guard Adjustment",
+      "text": "Open guard slightly to allow hip mobility",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Arm Drag",
+      "text": "Pull opponent's arm across your body to break posture",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Foot Placement",
+      "text": "Plant foot on mat on dragged arm side for base",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Pendulum Motion",
+      "text": "Swing other leg wide to build momentum and off-balance",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Pull and Thrust",
+      "text": "Pull down with grips, thrust hips to initiate roll",
+      "position": 8
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Follow Through",
+      "text": "Roll opponent over trapped arm, come up to top position",
+      "position": 9
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Lumberjack Sweep",
+      "item": "https://bjjgraph.com/transitions/lumberjack-sweep"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lumberjack Sweep",
+  "description": "Learn Lumberjack Sweep in BJJ. Step-by-step execution. Success: Beginner 40%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.com/transitions/lumberjack-sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Lumberjack Sweep
 #bjj #transition #sweep #closed_guard #fundamental
 
@@ -224,10 +345,12 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **Hip Bump Sweep** - Similar closed guard sweep with different mechanics
-- **Scissor Sweep** - Alternative closed guard sweep option
-- **Closed Guard Bottom** - Starting point for this transition
-- **Mount** - Common ending position after successful sweep
+
+- [[Muscle Sweep]] - Related technique
+- [[De La Riva Sweep]] - Related technique
+- [[Heel Grab Sweep]] - Related technique
+- [[Tripod Sweep]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points)

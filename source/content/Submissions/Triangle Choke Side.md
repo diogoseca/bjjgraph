@@ -1,3 +1,51 @@
+---
+title: "Triangle Choke Side | BJJ Submission Guide | BJJ Graph"
+description: "From a dominant side control position, you control the opponent's upper body with a strong crossface and underhook, keeping their near arm isolated. As the opponent attempts to turn into you or..."
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle Choke Side",
+  "description": "From a dominant side control position, you control the opponent's upper body with a strong crossface and underhook, keeping their near arm isolated. As the opponent attempts to turn into you or...",
+  "url": "https://bjjgraph.com/submissions/triangle-choke-side",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Triangle Choke Side",
+      "item": "https://bjjgraph.com/submissions/triangle-choke-side"
+    }
+  ]
+}
+</script>
+
 # Triangle Choke Side
 #bjj #submission #choke #triangle #side_position
 

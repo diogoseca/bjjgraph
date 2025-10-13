@@ -1,3 +1,107 @@
+---
+title: "Leg Drag Position | BJJ Position Guide | BJJ Graph"
+description: "Master Leg Drag Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 85%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Leg Drag Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Leg Drag Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Complete Leg Drag",
+      "text": "From this position, execute Complete Leg Drag to transition to Side Control.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Back Step",
+      "text": "From this position, execute Back Step to transition to Back Control.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Cut Follow-up",
+      "text": "From this position, execute Knee Cut Follow-up to transition to Knee on Belly.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Mount Transition",
+      "text": "From this position, execute Mount Transition to transition to Mount.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Far Side Armbar",
+      "text": "From this position, execute Far Side Armbar to transition to Armbar Control.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kimura Trap",
+      "text": "From this position, execute Kimura Trap to transition to Kimura Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Leg Drag Position",
+      "item": "https://bjjgraph.com/positions/leg-drag-position"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Drag Position",
+  "description": "Master Leg Drag Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 85%.",
+  "url": "https://bjjgraph.com/positions/leg-drag-position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Leg Drag Position
 #bjj #state #passing #control #top
 
@@ -86,6 +190,15 @@ The Leg Drag Position is a dominant control position where the top practitioner 
 - [[Headquarters Position]] - Common setup position before leg drag
 - [[Knee Cut Pass]] - Related passing system with similar mechanics
 - [[Folding Pass Position]] - Complementary pressure passing position
+
+
+## Related Positions
+
+- [[Side Control]] - Related position
+- [[Back Control]] - Related position
+- [[Mount]] - Related position
+- [[Headquarters Position]] - Related position
+- [[Knee on Belly]] - Related position
 
 ## Decision Tree
 If opponent attempts to turn in toward you:

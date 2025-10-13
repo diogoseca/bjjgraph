@@ -1,3 +1,155 @@
+---
+title: "Back Control | BJJ Position Guide | BJJ Graph"
+description: "Master Back Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 80%, Intermediate 85%, Advanced 90%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Back Control in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Back Control.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Rear Naked Choke",
+      "text": "From this position, execute Rear Naked Choke to transition to Won by Submission.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Bow and Arrow Choke",
+      "text": "From this position, execute Bow and Arrow Choke to transition to Won by Submission.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Armbar from Back",
+      "text": "From this position, execute Armbar from Back to transition to Armbar Control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Triangle from Back",
+      "text": "From this position, execute Triangle from Back to transition to Triangle Control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Mount",
+      "text": "From this position, execute Transition to Mount to transition to Mount.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Crucifix Transition",
+      "text": "From this position, execute Crucifix Transition to transition to Crucifix Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Losing chest-to-back connection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to position compromise as the opponent can turn to face you or initiate an escape. The correction is: Maintain constant pressure with your chest against their back, adjusting your position to prevent any gaps."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in High hooks that allow opponent to turn?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results in loss of control as the opponent can rotate their hips and face you, potentially regaining guard. The correction is: Keep your hooks deep inside their thighs or use a body triangle to lock their hips in place."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Overcommitting to submission attempts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Creates escape opportunities as focusing too much on a submission can loosen your overall control. The correction is: Prioritize positional control before attempting submissions, ensuring your hooks and harness grip are secure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Poor harness control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to ineffective upper body control, allowing the opponent to hand-fight and defend submissions. The correction is: Establish a strong harness grip with one arm over the shoulder and one under the armpit, clasping hands tightly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Crossing feet in front of opponent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Increases vulnerability to leg locks as the opponent can trap your feet and attack your legs. The correction is: Avoid crossing your feet; instead, keep them hooked inside the thighs or locked in a body triangle behind the opponent."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Back Control",
+      "item": "https://bjjgraph.com/positions/back-control"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Back Control",
+  "description": "Master Back Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 80%, Intermediate 85%, Advanced 90%.",
+  "url": "https://bjjgraph.com/positions/back-control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Back Control
 #bjj #state #dominant #control #back_control
 
@@ -90,6 +242,15 @@ You are positioned directly behind your opponent, with your chest pressed tightl
 - [[Crucifix]] - Specialized back control with arm isolation
 - [[Body Triangle]] - Specific back control configuration with legs
 - [[Turtle Top]] - Controlling opponent in defensive turtle position
+
+
+## Related Positions
+
+- [[Mount]] - Related position
+- [[Won by Submission]] - Related position
+- [[Triangle Control]] - Related position
+- [[Turtle Top]] - Related position
+- [[Armbar Control]] - Related position
 
 ## Decision Tree
 If opponent defends neck with both hands:

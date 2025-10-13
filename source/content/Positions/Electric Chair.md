@@ -1,3 +1,155 @@
+---
+title: "Electric Chair | BJJ Position Guide | BJJ Graph"
+description: "Master Electric Chair in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 55%, Intermediate 70%, Advanced 80%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Electric Chair in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Electric Chair.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Electric Chair Submission",
+      "text": "From this position, execute Electric Chair Submission to transition to Won by Submission.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Electric Chair Sweep",
+      "text": "From this position, execute Electric Chair Sweep to transition to Top Position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Vaporizer Entry",
+      "text": "From this position, execute Vaporizer Entry to transition to Vaporizer Control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Truck",
+      "text": "From this position, execute Transition to Truck to transition to Truck Position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Dogfight Entry",
+      "text": "From this position, execute Dogfight Entry to transition to Dogfight Position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Switch to Honey Hole",
+      "text": "From this position, execute Switch to Honey Hole to transition to Inside Sankaku.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Insufficient lockdown control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to loss of foundational control, as a weak lockdown allows the opponent to pull their leg free or initiate a pass. The correction is: Ensure a tight figure-four grip with your legs, locking their ankle and knee securely to prevent any movement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Poor angle creation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results in reduced submission effectiveness, as improper alignment fails to apply maximum pressure to the opponent's inner thigh or groin. The correction is: Turn your body towards their free leg and pull it across to create the optimal stretching angle for the submission."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Inadequate free leg control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Allows defensive mobility, as the opponent can use their free leg to base out or counter your sweep or submission. The correction is: Secure a strong grip behind their knee or ankle, pulling it towards you to maintain control and limit their options."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Premature submission attempts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to loss of control, as rushing the submission without proper setup can cause you to overextend and lose the position. The correction is: Focus on establishing all control points (lockdown, free leg, upper body) before applying submission pressure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Neglecting upper body connection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Allows opponent posture maintenance, as failing to control their upper body lets them posture up and defend or pass. The correction is: Use your shoulder or chest to maintain connection with their torso, keeping them bent forward to disrupt their posture."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Electric Chair",
+      "item": "https://bjjgraph.com/positions/electric-chair"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Electric Chair",
+  "description": "Master Electric Chair in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 55%, Intermediate 70%, Advanced 80%.",
+  "url": "https://bjjgraph.com/positions/electric-chair",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Electric Chair
 #bjj #state #submission #10thplanet #halfguard
 
@@ -94,6 +246,15 @@ You are on your back in a bottom half guard position, with your legs forming a t
 - [[Truck Position]] - Connected 10th Planet position
 - [[Dogfight Position]] - Half guard transition position
 - [[Half Guard Bottom]] - Parent position category
+
+
+## Related Positions
+
+- [[Truck Position]] - Related position
+- [[Dogfight Position]] - Related position
+- [[Lockdown Guard]] - Related position
+- [[Top Position]] - Related position
+- [[Half Guard Bottom]] - Related position
 
 ## Decision Tree
 If opponent posts strongly with hands:

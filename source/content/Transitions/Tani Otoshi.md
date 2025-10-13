@@ -1,3 +1,106 @@
+---
+title: "Tani Otoshi | BJJ Technique | BJJ Graph"
+description: "Learn Tani Otoshi in BJJ. Step-by-step execution from Standing Position to Top Position. Success: Beginner 30%, Intermediate 55%, Advanced 75%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Tani Otoshi",
+  "description": "Learn how to execute Tani Otoshi in Brazilian Jiu-Jitsu from Standing Position to Top Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish strong collar and sleeve grips from standing position",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Step deep to the side with your outside foot",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically tries to maintain balance or counter-grip",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Adjust timing and direction based on their resistance",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Sit down while pulling them forward and over your leg",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Control their landing and secure top position",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Tani Otoshi",
+      "item": "https://bjjgraph.com/transitions/tani-otoshi"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Tani Otoshi",
+  "description": "Learn Tani Otoshi in BJJ. Step-by-step execution from Standing Position to Top Position. Success: Beginner 30%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.com/transitions/tani-otoshi",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Tani Otoshi
 #bjj #transition #takedown #judo #throw #sacrifice
 
@@ -217,11 +320,12 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **Osoto Gari** - Complementary judo throw with different mechanics
-- **Tomoe Nage** - Another sacrifice throw using different leverage
-- **Sumi Gaeshi** - Related sacrifice throw with corner drop
-- **Harai Goshi** - Hip throw using similar grip control
-- **Uchi Mata** - Inner thigh throw with different entry
+
+- [[Ankle Pick]] - Related technique
+- [[Knee Tap]] - Related technique
+- [[Collar Drag]] - Related technique
+- [[Osoto Gari]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as takedown (2 points)

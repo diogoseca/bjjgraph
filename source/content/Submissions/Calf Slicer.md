@@ -1,10 +1,58 @@
+---
+title: "Calf Slicer | BJJ Submission Guide | BJJ Graph"
+description: "From the Truck Position or Lockdown Guard, you start by securing a figure-four leg entanglement, trapping the opponent's leg with your own to isolate their calf muscle. Position your shin bone..."
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Calf Slicer",
+  "description": "From the Truck Position or Lockdown Guard, you start by securing a figure-four leg entanglement, trapping the opponent's leg with your own to isolate their calf muscle. Position your shin bone...",
+  "url": "https://bjjgraph.com/submissions/calf-slicer",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calf Slicer",
+      "item": "https://bjjgraph.com/submissions/calf-slicer"
+    }
+  ]
+}
+</script>
+
 # Calf Slicer
 #bjj #transition #submission #10thplanet #leglock
 
 ## Required Properties for State Machine
 
 ### Core Identifiers
-- **Submission ID**: S303
+- **Submission ID**: S309
 - **Submission Name**: Calf Slicer
 - **Alternative Names**: Calf Crusher, Calf Lock
 
@@ -35,14 +83,63 @@ From the Truck Position or Lockdown Guard, you start by securing a figure-four l
 
 **Template**: "From Truck Position, trap opponent's leg in a figure-four entanglement. Place your shin across their calf muscle precisely. Secure their foot with a figure-four grip and pull towards you. Bridge hips up and drive shin into calf for painful compression until submission."
 
-### Execution Steps (Numbered Sequence)
-1. **Setup Requirements**: Establish control in Truck Position or Lockdown Guard
-2. **Initial Movement**: Secure figure-four leg entanglement to isolate opponent's leg
-3. **Opponent Response**: Opponent may attempt to straighten leg or escape grip
-4. **Adaptation**: Position shin directly across belly of calf muscle for compression
-5. **Positioning**: Secure opponent's foot/ankle with figure-four grip to prevent escape
-6. **Pressure Application**: Pull foot towards you and bridge hips to drive shin into calf
-7. **Completion**: Maintain upper body control and apply progressive pressure until submission
+## Execution Steps
+
+**SAFETY REMINDER**: Apply compression pressure SLOWLY over 3-5 seconds. Watch for tap signals continuously. Calf muscle tears and Achilles damage can occur.
+
+### Step-by-Step Execution
+
+### Step 1: Leg Entanglement Establishment (Setup Phase)
+From Truck Position or Lockdown Guard, secure a tight figure-four leg entanglement to trap and isolate the opponent's leg.
+- Your legs form a figure-four around their thigh/knee
+- Their leg should be bent and immobilized
+- Verify the entanglement is secure before proceeding
+- Safety check: Ensure partner can tap with both hands
+
+### Step 2: Shin Positioning on Calf (Alignment Phase)
+Position your shin bone directly across the belly (thickest part) of their calf muscle, neither too high nor too low.
+- Your shin should be perpendicular to their calf
+- Target the gastrocnemius muscle (main calf muscle)
+- The shin bone is your compression tool
+- Partner check: Confirm they're ready for pressure
+
+### Step 3: Foot/Ankle Grip Acquisition (Control Phase)
+Secure their foot or ankle with a tight figure-four grip using your arms to prevent any escape attempts.
+- Figure-four: One wrist gripped by opposite hand
+- This grip locks their foot in place
+- Pull their foot slightly toward you to begin tension
+- Speed: Grip firmly and maintain throughout
+- Watch for: Grip fighting or leg straightening attempts
+
+### Step 4: Initial Hip Bridge (Entry Phase)
+Begin elevating your hips off the mat, creating upward drive that presses your shin into their calf muscle.
+- Lift hips gradually, not explosively
+- Your core and glutes power the bridge
+- This starts compressing the calf against your shin
+- Monitor: Their facial expression and body tension
+
+### Step 5: Compression Drive (Execution Phase)
+Pull their foot toward your body while simultaneously driving your hips up and shin down over 3-5 seconds, intensifying calf compression.
+- Pull the foot: Increases tension on the Achilles
+- Drive the shin: Compresses the calf muscle belly
+- Bridge higher: Adds bodyweight to the compression
+- Critical: WATCH FOR TAP - calf tears are painful and debilitating
+- If partner's leg starts shaking violently, they're very close to injury
+
+### Step 6: Final Pressure and Release (Completion Phase)
+Maintain maximum compression while monitoring for submission signals, then release immediately upon tap.
+- Keep all elements engaged: pull, bridge, compress
+- **FEEL FOR TAP**: Hand tapping, foot tapping with free leg, verbal "tap"
+- **RELEASE IMMEDIATELY**:
+  - Stop bridging instantly, lower hips
+  - Release the foot/ankle grip
+  - Remove shin from their calf
+  - Open the leg entanglement carefully
+  - Ask: "Calf okay? Can you flex your foot?"
+- Post-submission: Check for calf cramping, Achilles tenderness
+- Watch for: Inability to bear weight, severe cramping, point tenderness
+
+**Total Execution Time in Training**: 3-5 seconds from hip bridge to tap. In drilling, stop at 60% compression to prevent muscle damage.
 
 ### Key Technical Details
 Critical elements that determine success:

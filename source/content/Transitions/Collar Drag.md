@@ -1,3 +1,122 @@
+---
+title: "Collar Drag | BJJ Technique | BJJ Graph"
+description: "Learn Collar Drag in BJJ. Step-by-step execution from Standing Position to Top Position. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Collar Drag",
+  "description": "Learn how to execute Collar Drag in Brazilian Jiu-Jitsu from Standing Position to Top Position. Success: Beginner 60%, Intermediate 75%, Advanced 85%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Establish dominant grip on",
+      "text": "Establish dominant grip on opponent's collar/neck area, ensuring a deep hold for control (thumb inside for gi, neck tie for no-gi).",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Create appropriate angle through",
+      "text": "Create appropriate angle through footwork or hip positioning, stepping to the side of your gripping hand to align pull with their weakest base.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initiate misdirection to encourage",
+      "text": "Initiate misdirection to encourage opponent's forward movement or weight shift, using subtle feints or posture breaks.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute sharp pulling action",
+      "text": "Execute sharp pulling action in a diagonal direction toward the ground, disrupting their balance with angular momentum.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Simultaneously step back with",
+      "text": "Simultaneously step back with same-side leg to create space for opponent to fall, maintaining your own balance.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Guide opponent to ground",
+      "text": "Guide opponent to ground through controlled descent, keeping grip to direct their fall into a vulnerable position.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Secure advantageous top position",
+      "text": "Secure advantageous top position as opponent falls, such as Side Control or Front Headlock.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidate position through appropriate",
+      "text": "Consolidate position through appropriate grips and pressure to prevent recovery or counter.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Collar Drag",
+  "description": "Learn Collar Drag in BJJ. Step-by-step execution from Standing Position to Top Position. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/collar-drag",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Collar Drag",
+      "item": "https://bjjgraph.com/transitions/collar-drag"
+    }
+  ]
+}
+</script>
+
+
 # Collar Drag
 #bjj #transition #takedown #sweep #grip
 
@@ -192,6 +311,14 @@ The Collar Drag has proven highly effective in competition contexts across all l
 - Gi competition: Leverages secure cloth grips for enhanced control and power.
 - No-gi competition: Relies more on timing and neck/shoulder control for success.
 - MMA crossover: Offers takedown option with minimal risk exposure to strikes.
+
+
+## Related Techniques
+
+- [[Ankle Pick]] - Related technique
+- [[Tani Otoshi]] - Related technique
+- [[Knee Tap]] - Related technique
+- [[Arm Drag]] - Related technique
 
 ## Historical Context
 The Collar Drag represents one of the foundational takedown/sweeping techniques in Brazilian Jiu-Jitsu, having been utilized since the art's early development. Its roots connect to traditional judo techniques like Hikite-gaeshi (pulling hand reversal), but the BJJ application evolved to emphasize ground control following the takedown. The technique gained particular prominence through the Gracie family's emphasis on efficient takedowns that transition directly to dominant ground positions. The Collar Drag exemplifies BJJ's core principle of using leverage and timing to overcome size and strength advantages, making it a perennial favorite among practitioners of all body types.

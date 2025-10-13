@@ -1,3 +1,155 @@
+---
+title: "50/50 Guard | BJJ Position Guide | BJJ Graph"
+description: "Master 50/50 Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 40%, Intermediate 50%, Advanced 60%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use 50/50 Guard in BJJ",
+  "description": "Complete guide to executing techniques and transitions from 50/50 Guard.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute 50/50 Inside Heel Hook",
+      "text": "From this position, execute 50/50 Inside Heel Hook to transition to Inside Heel Hook.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute 50/50 Ankle Lock",
+      "text": "From this position, execute 50/50 Ankle Lock to transition to Straight Ankle Lock.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Outside Sankaku",
+      "text": "From this position, execute Transition to Outside Sankaku to transition to Outside Sankaku.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Backside 50/50",
+      "text": "From this position, execute Transition to Backside 50/50 to transition to Backside 50/50.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Leg Pummeling Sequence",
+      "text": "From this position, execute Leg Pummeling Sequence to transition to Ashi Garami.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute 50/50 Sweep",
+      "text": "From this position, execute 50/50 Sweep to transition to Top Position.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Neglecting upper body positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leaves you vulnerable to counters as opponent can control your torso and initiate sweeps or submissions. The correction is: Maintain an active upper body posture, using grips on opponent's legs or torso to prevent their control."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Poor knee line control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Allows opponent defensive mobility, making it easier for them to rotate out or attack your legs. The correction is: Focus on controlling the opponent's knee line by keeping your legs tight and preventing their rotation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Rushing submission attempts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Compromises your position as hasty attacks often leave openings for counters or escapes. The correction is: Build submissions methodically, ensuring control before applying finishing pressure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Static positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Misses transition opportunities, allowing opponent to dictate the pace and direction of the exchange. The correction is: Stay dynamic with hip movement and grip adjustments to create and capitalize on openings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Insufficient defensive awareness?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Increases submission vulnerability as you fail to anticipate or counter opponent's attacks. The correction is: Maintain constant awareness of opponent's leg positioning and potential submission setups, ready to defend or disengage."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "50/50 Guard",
+      "item": "https://bjjgraph.com/positions/50-50-guard"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "50/50 Guard",
+  "description": "Master 50/50 Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 40%, Intermediate 50%, Advanced 60%.",
+  "url": "https://bjjgraph.com/positions/50-50-guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # 50/50 Guard
 #bjj #state #guard #leglocks #modern
 
@@ -97,6 +249,15 @@ You sit on the mat with one leg triangled over your opponent's leg, hooking your
 - [[Ashi Garami]] - Connected control position
 - [[Single Leg X Guard]] - Related leg control guard
 - [[Inside Heel Hook]] - Primary submission threat
+
+
+## Related Positions
+
+- [[Ashi Garami]] - Related position
+- [[Single Leg X Guard]] - Related position
+- [[Lockdown Guard]] - Related position
+- [[Reverse De La Riva Guard]] - Related position
+- [[Deep Half Guard]] - Related position
 
 ## Decision Tree
 If opponent attempts to disengage:

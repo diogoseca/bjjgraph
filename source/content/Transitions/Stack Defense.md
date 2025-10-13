@@ -1,3 +1,122 @@
+---
+title: "Stack Defense | BJJ Technique | BJJ Graph"
+description: "Learn Stack Defense in BJJ. Step-by-step execution. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Stack Defense",
+  "description": "Learn how to execute Stack Defense in Brazilian Jiu-Jitsu from Closed Guard Bottom to Guard Recovery. Success: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Begin in a Closed",
+      "text": "Begin in a Closed Guard Bottom or Open Guard Bottom position, maintaining awareness of the opponent's movements and recognizing the initiation of a stacking pass when they drive forward and lift your hips.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "React instantly by breaking",
+      "text": "React instantly by breaking their posture with a strong pull on their collar or wrists, opening your guard if closed to gain mobility and keeping your elbows tight to prevent them from posturing up.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Push with your legs",
+      "text": "Push with your legs against their hips or thighs to create space, using your core to pull your hips back down to the mat to reduce their stacking pressure.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Keep one hand controlling",
+      "text": "Keep one hand controlling their head or neck to maintain the posture break, using your other hand to frame against their shoulder or bicep to block their advance.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Maintain active hip movement",
+      "text": "Maintain active hip movement during the transition to prevent them from re-establishing the stack, keeping your legs ready to re-guard or push off further.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Complete the Stack Defense",
+      "text": "Complete the Stack Defense by either pulling them back into your guard, locking your legs around their torso or hips for Guard Recovery, or pushing them away to reset to a Neutral Position.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Ensure control over their",
+      "text": "Ensure control over their posture and your base to prevent follow-up passes, preparing to continue the fight from a recovered guard or neutral stance.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Remain aware of their",
+      "text": "Remain aware of their offensive responses like chaining passes or adjusting grips, adapting your grip strength, framing, and hip movement to counter and consolidate the defense.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Stack Defense",
+  "description": "Learn Stack Defense in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/stack-defense",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Stack Defense",
+      "item": "https://bjjgraph.com/transitions/stack-defense"
+    }
+  ]
+}
+</script>
+
+
 # Stack Defense
 #bjj #transition #guard_defense #defense #ground_game
 
@@ -217,6 +336,11 @@ Updates to this standard should be reflected across related transition setup fil
 
 ## Historical Context
 Stack Defense has evolved as a fundamental guard retention technique in Brazilian Jiu-Jitsu, particularly in response to aggressive stacking passes popularized in competitive gi and no-gi contexts. It reflects the strategic emphasis on posture control and space management taught by instructors like John Danaher and has become a staple in modern guard play to counter dominant top game strategies.
+
+
+## Related Techniques
+
+- [[Stack Pass]] - Related technique
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels in gi and no-gi competition

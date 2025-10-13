@@ -1,3 +1,155 @@
+---
+title: "Closed Guard Top | BJJ Position Guide | BJJ Graph"
+description: "Master Closed Guard Top in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 40%, Intermediate 50%, Advanced 60%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Closed Guard Top in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Closed Guard Top.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Standing Guard Break",
+      "text": "From this position, execute Standing Guard Break to transition to Open Guard Top.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Pin Break",
+      "text": "From this position, execute Knee Pin Break to transition to Combat Base.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Double Lapel Break",
+      "text": "From this position, execute Double Lapel Break to transition to Headquarters Position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Log Splitter Break",
+      "text": "From this position, execute Log Splitter Break to transition to Open Guard Top.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Stack Break",
+      "text": "From this position, execute Stack Break to transition to Stacking Position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Combat Base Transition",
+      "text": "From this position, execute Combat Base Transition to transition to Combat Base.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Poor posture?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to submission vulnerability, making it easier for the bottom player to break your posture and set up attacks like triangles or armbars. The correction is: Maintain a strong, upright posture with your head up and elbows in, using your hands to control their hips or break their grips."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Neglecting grip fighting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results in loss of control, allowing the bottom player to establish dominant grips and initiate sweeps or submissions. The correction is: Actively engage in grip fighting, focusing on breaking their collar or wrist grips while establishing your own to limit their offense."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Overcommitting to single break attempts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Causes energy inefficiency, draining your stamina as you force a single guard break technique without adapting to their resistance. The correction is: Use a systematic approach, alternating between different guard break techniques to create dilemmas and conserve energy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Passive positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to extended time in a disadvantageous position, increasing the risk of being swept or submitted by the bottom player. The correction is: Stay active with constant pressure and movement, working to open the guard or transition to a more favorable position."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Telegraphing guard opening intent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Allows defensive adaptation by the bottom player, who can counter your predictable moves with prepared defenses or attacks. The correction is: Vary your guard breaking attempts and maintain subtle movements to avoid signaling your intentions, keeping the opponent guessing."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Closed Guard Top",
+      "item": "https://bjjgraph.com/positions/closed-guard-top"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Closed Guard Top",
+  "description": "Master Closed Guard Top in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 40%, Intermediate 50%, Advanced 60%.",
+  "url": "https://bjjgraph.com/positions/closed-guard-top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Closed Guard Top
 #bjj #state #top #guard_passing
 
@@ -95,6 +247,15 @@ You are positioned on top of your opponent, kneeling or in a combat base within 
 - [[Defensive Posture]] - Safety position within closed guard
 - [[Stacking Position]] - Pressure position during guard opening
 - [[Headquarters Position]] - Common destination after guard opening
+
+
+## Related Positions
+
+- [[Open Guard Top]] - Related position
+- [[Combat Base]] - Related position
+- [[Headquarters Position]] - Related position
+- [[Standing Guard]] - Related position
+- [[Closed Guard Bottom]] - Related position
 
 ## Decision Tree
 If opponent establishes strong collar grips:

@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Competition Scoring Strategy",
+  "description": "The Competition Scoring Strategy represents a comprehensive approach to BJJ competition that optimizes decision-making based on rule structures, scoring systems, and time management to maximize com...",
+  "url": "https://bjjgraph.com/systems/competition-scoring-strategy",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Systems",
+      "item": "https://bjjgraph.com/systems/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Competition Scoring Strategy",
+      "item": "https://bjjgraph.com/systems/competition-scoring-strategy"
+    }
+  ]
+}
+</script>
+
+
 # Competition Scoring Strategy
 #bjj #strategy #framework #competition #scoring
 

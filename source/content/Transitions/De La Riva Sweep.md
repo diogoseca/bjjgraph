@@ -1,3 +1,124 @@
+---
+title: "De La Riva Sweep | BJJ Technique | BJJ Graph"
+description: "Learn De La Riva Sweep in BJJ. Step-by-step execution. Success: Beginner 30%, Intermediate 55%, Advanced 75%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "De La Riva Sweep",
+  "description": "Learn how to execute De La Riva Sweep in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Start in De La Riva Guard with leg hooked behind opponent's lead leg",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Grip Control",
+      "text": "Secure strong grips on opponent's sleeve or collar with both hands",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Distance Management",
+      "text": "Use pushing leg on far hip or knee to maintain distance",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Angle Creation",
+      "text": "Shift hips to side of hooked leg to off-balance opponent",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Posture Break",
+      "text": "Pull forward with grips to disrupt opponent's balance",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hook Deepening",
+      "text": "Pull with De La Riva hook to further unbalance opponent",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Leverage Extension",
+      "text": "Extend pushing leg to create additional sweeping leverage",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Sweep Initiation",
+      "text": "Thrust hips and pull upper body to roll opponent over lead leg",
+      "position": 8
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Follow Through",
+      "text": "Come up on top to establish side control or top position",
+      "position": 9
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "De La Riva Sweep",
+      "item": "https://bjjgraph.com/transitions/de-la-riva-sweep"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "De La Riva Sweep",
+  "description": "Learn De La Riva Sweep in BJJ. Step-by-step execution. Success: Beginner 30%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.com/transitions/de-la-riva-sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # De La Riva Sweep
 #bjj #transition #sweep #open_guard #gi_specific
 
@@ -224,10 +345,12 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **De La Riva Guard** - Starting point for this transition
-- **Berimbolo** - Alternative transition from De La Riva setup
-- **Side Control** - Common ending position after successful sweep
-- **Open Guard Bottom** - General category of starting position
+
+- [[Muscle Sweep]] - Related technique
+- [[Lumberjack Sweep]] - Related technique
+- [[Heel Grab Sweep]] - Related technique
+- [[Tripod Sweep]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points)

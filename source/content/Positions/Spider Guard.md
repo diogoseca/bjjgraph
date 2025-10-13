@@ -1,10 +1,166 @@
+---
+title: "Spider Guard | BJJ Position Guide | BJJ Graph"
+description: "Master Spider Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Spider Guard in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Spider Guard.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Omoplata Sweep**",
+      "text": "From this position, execute **Omoplata Sweep** to transition to Next Position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Tripod Sweep**",
+      "text": "From this position, execute **Tripod Sweep** to transition to Next Position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Triangle Setup**",
+      "text": "From this position, execute **Triangle Setup** to transition to Next Position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Lasso Transition**",
+      "text": "From this position, execute **Lasso Transition** to transition to Next Position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Spider X Sweep**",
+      "text": "From this position, execute **Spider X Sweep** to transition to Next Position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Bicep Slicer**",
+      "text": "From this position, execute **Bicep Slicer** to transition to Next Position.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Gripping too close to the wrists instead of deep sleeve grips?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent can easily break grips and pass guard The correction is: Secure deep sleeve grips near the elbows for maximum control"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Placing feet too high on the arms near shoulders?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reduces sweep leverage and makes position unstable The correction is: Position feet on biceps for optimal control and sweep mechanics"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Failing to maintain constant tension on the sleeves?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Allows opponent to recover posture and initiate passing The correction is: Keep arms extended and create spring-like tension throughout position"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Staying static instead of constantly attacking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "High energy cost without offensive progress The correction is: Flow between attacks and use position as transition hub"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Neglecting hip mobility and staying flat?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reduces effectiveness of sweeps and submissions The correction is: Stay mobile with hips elevated and ready to adjust angles"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Spider Guard",
+  "description": "Master Spider Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.com/positions/spider-guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Spider Guard",
+      "item": "https://bjjgraph.com/positions/spider-guard"
+    }
+  ]
+}
+</script>
+
+
 # Spider Guard
 #bjj #state #guard #open_guard #bottom #spider
 
 ## Required Properties for State Machine
 
 ### Core Identifiers
-- **State ID**: S011
+- **State ID**: S067
 - **Position Name**: Spider Guard
 - **Alternative Names**: Aranha Guard, Spider Web Guard, Sleeve and Foot Guard
 
@@ -50,7 +206,16 @@ From this position:
 
 Format: `[[Technique Name]] → [[Resulting State]] (Success Rate: Beginner X%, Intermediate Y%, Advanced Z%)`
 
-### Decision Tree Logic
+#
+## Related Positions
+
+- [[Lasso Guard]] - Related position
+- [[Triangle Control]] - Related position
+- [[Open Guard Bottom]] - Related position
+- [[De La Riva Guard]] - Related position
+- [[Omoplata Control]] - Related position
+
+## Decision Tree Logic
 Structured decision-making logic:
 ```
 If [opponent attempts to stack]:

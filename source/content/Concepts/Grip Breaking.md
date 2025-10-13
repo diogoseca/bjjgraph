@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Grip Breaking",
+  "description": "Grip Breaking represents the fundamental defensive skill of removing an opponent's established hand controls that would otherwise restrict movement, dictate positioning, or facilitate attacks. Unli...",
+  "url": "https://bjjgraph.com/concepts/grip-breaking",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.com/concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Grip Breaking",
+      "item": "https://bjjgraph.com/concepts/grip-breaking"
+    }
+  ]
+}
+</script>
+
+
 # Grip Breaking
 #bjj #concept #grips #defense #fundamental
 

@@ -1,3 +1,107 @@
+---
+title: "Guillotine Control | BJJ Position Guide | BJJ Graph"
+description: "Master Guillotine Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Guillotine Control in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Guillotine Control.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Arm-in Guillotine",
+      "text": "From this position, execute Arm-in Guillotine to transition to Won by Submission.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute High-Elbow Guillotine",
+      "text": "From this position, execute High-Elbow Guillotine to transition to Won by Submission.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Guillotine to Mount",
+      "text": "From this position, execute Guillotine to Mount to transition to Mounted Guillotine.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Guillotine to Closed Guard",
+      "text": "From this position, execute Guillotine to Closed Guard to transition to Closed Guard Guillotine.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Front Headlock Transition",
+      "text": "From this position, execute Front Headlock Transition to transition to Front Headlock.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Guillotine to D'arce",
+      "text": "From this position, execute Guillotine to D'arce to transition to D'arce Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Guillotine Control",
+      "item": "https://bjjgraph.com/positions/guillotine-control"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guillotine Control",
+  "description": "Master Guillotine Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%.",
+  "url": "https://bjjgraph.com/positions/guillotine-control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Guillotine Control
 #bjj #state #submission #choke #guillotine
 
@@ -11,6 +115,10 @@
 
 ## State Description
 Guillotine Control is a powerful submission position where one practitioner controls their opponent's head and neck in a front headlock-type position with the intent to apply a strangle. The controlling practitioner wraps one arm around the opponent's neck, typically with the forearm against the throat, while securing their choking arm with their other hand. This position can be established from numerous scenarios including sprawls, guard positions, and scrambles, making it one of the most versatile submission controls in BJJ. The position serves as both an immediate submission threat and a powerful positional control mechanism.
+
+## Visual Description
+
+The controlling practitioner wraps one arm deeply around the opponent's neck, with the forearm or wrist positioned against the throat and carotid arteries, creating a choking mechanism. The free hand grasps the choking arm's wrist or forearm to secure the grip and add leverage, forming a closed loop around the opponent's neck. The opponent's head is pulled tightly into the practitioner's chest or hip, with their posture broken and neck compressed. The controlling practitioner's body position varies - they may be standing with the opponent bent forward, seated in guard pulling the opponent into them, or mounted on top - but the fundamental head and arm configuration remains consistent. The opponent's restricted movement and compressed neck create both immediate submission danger and powerful positional control, as defending the choke limits their ability to escape or counter-attack. This distinctive head-and-arm trap creates a visible C-shape or hook configuration when viewed from the side.
 
 ## Key Principles
 - Secure deep grip around opponent's neck
@@ -81,6 +189,15 @@ Guillotine Control is a powerful submission position where one practitioner cont
 - [[Closed Guard Guillotine]] - Positional variation
 - [[Arm Triangle]] - Related head and arm submission
 - [[D'arce Control]] - Related front headlock submission
+
+
+## Related Positions
+
+- [[Front Headlock]] - Related position
+- [[Mount]] - Related position
+- [[Won by Submission]] - Related position
+- [[D'arce Control]] - Related position
+- [[Inside Sankaku]] - Related position
 
 ## Decision Tree
 If opponent's arm is inside (between bodies):

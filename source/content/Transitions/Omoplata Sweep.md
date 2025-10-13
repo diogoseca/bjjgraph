@@ -1,3 +1,130 @@
+---
+title: "Omoplata Sweep | BJJ Technique | BJJ Graph"
+description: "Learn Omoplata Sweep in BJJ. Step-by-step execution. Success: Beginner 15%, Intermediate 35%, Advanced 55%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Omoplata Sweep",
+  "description": "Learn how to execute Omoplata Sweep in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Start in Closed Guard Bottom with legs locked around opponent's waist",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Posture Control",
+      "text": "Break opponent's posture with grip on head/collar, squeeze legs",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Arm Isolation",
+      "text": "Control opponent's wrist on attack side, maintain posture control",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Guard Opening",
+      "text": "Open guard, swing one leg over shoulder to trap targeted arm",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Pivot",
+      "text": "Pivot hips to side, create perpendicular angle to opponent's body",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Omoplata Lock",
+      "text": "Sit up, isolate arm with legs, press top leg on back, hook bottom leg under armpit",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Arm Control",
+      "text": "Pull arm straight with wrist grip, increase shoulder pressure",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Shift",
+      "text": "Shift hips further to side to prepare for sweep leverage",
+      "position": 8
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Sweep Action",
+      "text": "Roll opponent over trapped shoulder, drive upper body down with legs",
+      "position": 9
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Position Consolidation",
+      "text": "Follow through to top position, secure underhook/crossface",
+      "position": 10
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Omoplata Sweep",
+      "item": "https://bjjgraph.com/transitions/omoplata-sweep"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Omoplata Sweep",
+  "description": "Learn Omoplata Sweep in BJJ. Step-by-step execution. Success: Beginner 15%, Intermediate 35%, Advanced 55%.",
+  "url": "https://bjjgraph.com/transitions/omoplata-sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Omoplata Sweep
 #bjj #transition #sweep #closed_guard #intermediate
 
@@ -225,10 +352,12 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **Closed Guard Bottom** - Primary starting position for this sweep
-- **Omoplata** - Related submission technique from similar setup
-- **Hip Bump Sweep** - Alternative closed guard sweep with different mechanics
-- **Top Position** - Common outcome after successful sweep
+
+- [[100% Sweep]] - Related technique
+- [[Muscle Sweep]] - Related technique
+- [[Heel Grab Sweep]] - Related technique
+- [[Transition to Omoplata]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points)

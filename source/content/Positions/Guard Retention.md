@@ -1,3 +1,106 @@
+---
+title: "Guard Retention | BJJ Position Guide | BJJ Graph"
+description: "Master Guard Retention in BJJ. Complete guide covering setup, control, escapes, and transitions."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Static defensive positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Progressive loss of guard"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Isolated defensive components?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Systematic bypass"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Frame collapse under pressure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Defensive breakdown"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Delayed recognition of passing sequences?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reactionary defense"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Overcommitment to single guard variation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Limited recovery options"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Retention",
+  "description": "Master Guard Retention in BJJ. Complete guide covering setup, control, escapes, and transitions.",
+  "url": "https://bjjgraph.com/positions/guard-retention",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Guard Retention",
+      "item": "https://bjjgraph.com/positions/guard-retention"
+    }
+  ]
+}
+</script>
+
+
 # Guard Retention
 #bjj #concept #defense #guard #fundamental
 

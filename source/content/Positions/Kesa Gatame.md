@@ -1,3 +1,107 @@
+---
+title: "Kesa Gatame | BJJ Position Guide | BJJ Graph"
+description: "Master Kesa Gatame in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 80%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Kesa Gatame in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Kesa Gatame.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kesa Gatame Arm Lock",
+      "text": "From this position, execute Kesa Gatame Arm Lock to transition to Arm Lock Control.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Mount",
+      "text": "From this position, execute Transition to Mount to transition to Mount.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Modified Kesa to Side Control",
+      "text": "From this position, execute Modified Kesa to Side Control to transition to Side Control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Far Side Armbar",
+      "text": "From this position, execute Far Side Armbar to transition to Armbar Control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Reverse Kesa Transition",
+      "text": "From this position, execute Reverse Kesa Transition to transition to Reverse Kesa Gatame.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute North-South Transition",
+      "text": "From this position, execute North-South Transition to transition to North-South.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kesa Gatame",
+      "item": "https://bjjgraph.com/positions/kesa-gatame"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kesa Gatame",
+  "description": "Master Kesa Gatame in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 80%.",
+  "url": "https://bjjgraph.com/positions/kesa-gatame",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Kesa Gatame
 #bjj #state #pin #control #judo #kesa_gatame
 
@@ -11,6 +115,10 @@
 
 ## State Description
 Kesa Gatame, often referred to as the "scarf hold" in English, is a powerful side control variation where the top player secures head and arm control while facing the opponent's head rather than their chest. This position offers exceptional control through deliberate weight distribution and leverage, making it one of the most energy-efficient yet controlling pins in grappling. With roots in Judo, Kesa Gatame has been adapted to BJJ with modifications that emphasize control while defending against common BJJ-specific escapes.
+
+## Visual Description
+
+The practitioner sits beside the opponent's upper body, oriented towards their head rather than perpendicular as in standard side control. The practitioner's arm wraps around and controls the opponent's head, pulling it tightly to their chest or ribs, while the other arm traps the opponent's near-side arm by threading under the armpit and controlling at the wrist or tricep. The practitioner's hips are positioned low against the opponent's side, with their hip wedged tightly into the opponent's armpit to prevent turning or creating space. The practitioner's legs are spread wide for base, with one leg extended towards the opponent's legs and the other posting near their head. The opponent lies on their back with their head controlled and one arm trapped, severely limiting their ability to bridge effectively or create defensive frames. This scarf-hold configuration creates exceptional control through the head-and-arm connection while allowing the top person to distribute weight efficiently across the opponent's upper chest and face.
 
 ## Key Principles
 - Secure tight head and arm control
@@ -81,6 +189,15 @@ Kesa Gatame, often referred to as the "scarf hold" in English, is a powerful sid
 - [[Reverse Kesa Gatame]] - Reversed variation of the position
 - [[Modified Scarf Hold]] - Variation with under-arm control
 - [[Knee on Belly]] - Related transitional control position
+
+
+## Related Positions
+
+- [[Side Control]] - Related position
+- [[North-South]] - Related position
+- [[Mount]] - Related position
+- [[Knee on Belly]] - Related position
+- [[Armbar Control]] - Related position
 
 ## Decision Tree
 If opponent bridges strongly:

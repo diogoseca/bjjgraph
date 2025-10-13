@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hand Fighting",
+  "description": "Hand Fighting represents the dynamic battle for upper body positional control through strategic management of hand positioning, engagement, and prevention. Unlike grip fighting which focuses specif...",
+  "url": "https://bjjgraph.com/concepts/hand-fighting",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.com/concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Hand Fighting",
+      "item": "https://bjjgraph.com/concepts/hand-fighting"
+    }
+  ]
+}
+</script>
+
+
 # Hand Fighting
 #bjj #concept #fundamental #control #grips
 

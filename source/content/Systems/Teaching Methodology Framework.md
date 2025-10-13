@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Teaching Methodology Framework",
+  "description": "The Teaching Methodology Framework provides a comprehensive system for effective Brazilian Jiu-Jitsu instruction across all skill levels and learning contexts. This framework addresses the unique c...",
+  "url": "https://bjjgraph.com/systems/teaching-methodology-framework",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Systems",
+      "item": "https://bjjgraph.com/systems/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Teaching Methodology Framework",
+      "item": "https://bjjgraph.com/systems/teaching-methodology-framework"
+    }
+  ]
+}
+</script>
+
+
 # Teaching Methodology Framework
 #bjj #pedagogy #teaching #methodology
 

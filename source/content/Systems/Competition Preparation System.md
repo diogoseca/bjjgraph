@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Competition Preparation System",
+  "description": "The Competition Preparation System provides a holistic methodology for optimizing performance in Brazilian Jiu-Jitsu tournaments. This framework addresses the multifaceted requirements of competiti...",
+  "url": "https://bjjgraph.com/systems/competition-preparation-system",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Systems",
+      "item": "https://bjjgraph.com/systems/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Competition Preparation System",
+      "item": "https://bjjgraph.com/systems/competition-preparation-system"
+    }
+  ]
+}
+</script>
+
+
 # Competition Preparation System
 #bjj #competition #preparation #system
 

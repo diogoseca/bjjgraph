@@ -1,3 +1,51 @@
+---
+title: "Arm Triangle | BJJ Submission Guide | BJJ Graph"
+description: "From a dominant position like mount or side control, you begin by isolating one of the opponent's arms, pushing it against their neck to set up the choke. Your head is positioned on the same side..."
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Triangle",
+  "description": "From a dominant position like mount or side control, you begin by isolating one of the opponent's arms, pushing it against their neck to set up the choke. Your head is positioned on the same side...",
+  "url": "https://bjjgraph.com/submissions/arm-triangle",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Arm Triangle",
+      "item": "https://bjjgraph.com/submissions/arm-triangle"
+    }
+  ]
+}
+</script>
+
 # Arm Triangle
 #bjj #transition #submission #choke #arm_triangle
 
@@ -31,18 +79,69 @@
 ### Visual Execution Sequence
 Detailed step-by-step description for clear movement sequence visualization:
 
-From a dominant position like mount or side control, you begin by isolating one of the opponent's arms, pushing it against their neck to set up the choke. Your head is positioned on the same side as the trapped arm, ensuring tight control as you thread your arm around their head and arm, connecting your hands in a figure-four or gable grip. You then position your chest over their shoulder, creating compression by eliminating any space between your body and theirs, while aligning your shoulder to apply pressure directly against their carotid artery. As their resistance weakens, you slide to the side opposite the trapped arm, increasing the angle and pressure, expanding your chest and squeezing with your arms to finalize the blood choke until they submit or tap out.
+From a dominant position such as mount or side control, you begin by identifying and isolating one of the opponent's defensive arms, deliberately pushing it across their own neck to establish the foundational structure of the choke, with their own limb becoming an integral part of the choking mechanism. You position your head on the same side as the trapped arm to prevent them from pulling it back to safety, maintaining heavy pressure on their chest with your body weight while you carefully thread your choking arm around both their head and their trapped arm together. Your hands connect in either a figure-four grip (one wrist grasping the opposite bicep) or a gable grip (palms together or fingers interlocked), locking the choke structure in place and creating a sealed frame around their neck and shoulder. You methodically position your chest directly over their shoulder on the choking side, eliminating all defensive space between your torso and their upper body, while simultaneously aligning your shoulder to press against the side of their neck where the carotid artery runs. As you sense their defensive efforts weakening under the mounting pressure, you slide your entire body to the side opposite their trapped arm, transitioning from a more perpendicular position to a parallel alignment that dramatically increases the angle and compression force on their neck. You expand your chest outward while simultaneously squeezing your arms together and driving your shoulder into their carotid artery, creating a tightening vice that progressively restricts blood flow to their brain until the mounting pressure forces them to tap repeatedly on your body or the mat in clear submission, at which point you immediately release all pressure and allow them to recover safely.
 
-**Template**: "From mount or side control, isolate their arm against their neck and position your head on the same side. Thread your arm around their head and arm, connecting hands in a grip. Position chest over their shoulder for compression, aligning shoulder to carotid artery. Slide to the opposite side, expand chest, and squeeze for the submission."
+**Template**: "From mount or side control, isolate opponent's arm and push against their neck, position head same side. Thread arm around their head and trapped arm, connect hands in figure-four or gable grip. Position chest over shoulder eliminating space, align shoulder to carotid artery. Slide body to opposite side increasing angle, expand chest and squeeze arms while driving shoulder into carotid. Apply progressive pressure until tap, release immediately for safe recovery."
 
-### Execution Steps (Numbered Sequence)
-1. **Setup Requirements**: Establish dominant position (mount or side control) with control
-2. **Initial Movement**: Isolate opponent's arm, pushing it against their neck
-3. **Opponent Response**: Opponent may frame or attempt to pull arm down
-4. **Adaptation**: Position head on trapped arm side, thread arm around head and arm
-5. **Positioning**: Connect hands in figure-four or gable grip, chest over shoulder
-6. **Pressure Application**: Align shoulder to carotid artery, eliminate space
-7. **Completion**: Slide to opposite side, expand chest, squeeze for submission
+## Execution Steps
+
+**SAFETY REMINDER**: Apply pressure SLOWLY over 3-5 seconds. Watch for tap signals continuously. Blood chokes cause unconsciousness - monitor partner's consciousness and color.
+
+### Step-by-Step Execution
+
+### Step 1: Position and Arm Isolation (Setup Phase)
+From mount or side control, isolate one of the opponent's arms by pushing it against their neck, setting up the choking configuration.
+- Their arm becomes part of the choke structure
+- Push their arm across their own neck
+- Maintain dominant top position throughout
+- Safety check: Ensure partner can tap with free hand
+
+### Step 2: Head Positioning (Alignment Phase)
+Position your head on the same side as the trapped arm, creating tight connection and control.
+- Your head goes next to their trapped arm
+- This prevents them from pulling the arm back
+- Keep your weight heavy on their chest
+- Partner check: They should be able to breathe normally at this stage
+
+### Step 3: Arm Threading and Grip Connection (Lock Phase)
+Thread your arm around their head and trapped arm, connecting your hands in a figure-four or gable grip.
+- Your arm encircles both their head and arm
+- Figure-four: One wrist grips opposite bicep
+- Gable: Palms together or fingers interlocked
+- Speed: Smooth threading motion, not rushed
+- Watch for: Hand fighting or bridging attempts
+
+### Step 4: Chest-to-Shoulder Connection (Compression Phase)
+Position your chest directly over their shoulder, eliminating all space between your body and theirs.
+- Your chest weight compresses down onto their shoulder
+- No daylight between your chest and their shoulder
+- This connection is critical for pressure
+- Monitor: Their facial expression and breathing pattern
+
+### Step 5: Shoulder Alignment to Carotid (Execution Phase - APPLY SLOWLY)
+Align your shoulder to apply pressure directly against their carotid artery while expanding your chest over 3-5 seconds.
+- Your shoulder should be on the "choking" side of their neck
+- Expand chest outward to increase pressure
+- The opponent's own shoulder helps compress their carotid
+- Critical: WATCH FOR TAP - loss of consciousness occurs quickly
+- If partner's face turns red/purple, they're seconds from passing out
+
+### Step 6: Angle Adjustment and Finish (Completion Phase)
+Slide to the side opposite the trapped arm, increasing the angle and pressure while squeezing with your arms and expanding your chest.
+- Slide your body perpendicular to theirs
+- This angle maximizes carotid compression
+- Squeeze arms while expanding chest
+- **FEEL FOR TAP**: Hand tapping, verbal "tap", body going limp
+- **RELEASE IMMEDIATELY**:
+  - Release your grip instantly
+  - Remove all chest pressure
+  - Roll off to give them space
+  - Check consciousness: "You okay? Can you hear me?"
+  - If they passed out: Elevate legs, monitor breathing, check for alertness
+- Post-submission: Verify normal color, alertness, no confusion
+- Watch for: Dizziness, disorientation, delayed response (signs of brief unconsciousness)
+
+**Total Execution Time in Training**: 3-5 seconds from chest compression to tap. In drilling, stop at 60-70% pressure to safely develop technique without risking unconsciousness.
 
 ### Key Technical Details
 Critical elements that determine success:

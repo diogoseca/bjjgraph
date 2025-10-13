@@ -1,3 +1,51 @@
+---
+title: "Far Side Armbar | BJJ Submission Guide | BJJ Graph"
+description: "From a dominant top position such as Side Control, North-South, or Knee on Belly, you start by isolating the opponent's far arm, which is the arm furthest from your body, using your near arm to..."
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Far Side Armbar",
+  "description": "From a dominant top position such as Side Control, North-South, or Knee on Belly, you start by isolating the opponent's far arm, which is the arm furthest from your body, using your near arm to...",
+  "url": "https://bjjgraph.com/submissions/far-side-armbar",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Far Side Armbar",
+      "item": "https://bjjgraph.com/submissions/far-side-armbar"
+    }
+  ]
+}
+</script>
+
 # Far Side Armbar
 #bjj #submission #armbar #joint_lock #control
 
@@ -27,6 +75,50 @@
 - **Endurance Requirements**: Low for quick execution
 
 ## State Machine Content Elements
+
+## ⚠️ Safety Considerations
+
+### Injury Risks
+Far side armbars can cause serious joint injuries if applied incorrectly:
+- **Elbow Hyperextension** (Severity: High, Recovery: 4-8 weeks; can cause ligament tears or permanent damage)
+- **Elbow Dislocation** (Severity: Critical, Recovery: 3-6 months; requires immediate medical attention)
+- **Bicep/Tricep Tendon Strain** (Severity: Medium, Recovery: 2-4 weeks; from resisting or sudden pressure)
+- **Shoulder Impingement** (Severity: Medium, Recovery: 2-6 weeks; from improper arm positioning during setup)
+
+### Application Speed
+- Apply submissions SLOWLY and progressively over 3-5 seconds minimum
+- Never "spike" or jerk the arm when initiating pressure
+- Gradually increase hip pressure to allow partner time to recognize the lock
+- Maintain constant awareness of partner's tap signals throughout
+
+### Tap Signals
+Partners must establish clear tap signals before training:
+- **Verbal Tap**: Saying "tap" loudly (essential if arm is trapped and can't physically tap)
+- **Physical Tap**: Tapping partner's body, mat, or own body with free hand (minimum 2 taps)
+- **Emergency Signal**: Rapid verbal "tap tap tap" or foot tapping if both hands are controlled
+
+### Release Protocol
+When partner taps:
+1. Immediately stop hip pressure and release downward pull on arm
+2. Lower hips away from hyperextension angle
+3. Release wrist/elbow grip and allow arm to return to natural position
+4. Check partner's elbow mobility and ask "Elbow okay?"
+5. Observe arm for any immediate swelling or inability to bend
+6. Return to neutral position and give partner 10-15 seconds to assess joint
+
+### Training Progression
+- **Weeks 1-2**: Positional control from side control/north-south only, no arm isolation
+- **Weeks 3-4**: Slow arm isolation drills with zero resistance (10% speed, partner taps to setup position)
+- **Weeks 5-8**: Add light defensive frames, practice reading resistance (40% speed, tap at 20% pressure)
+- **Weeks 9-12**: Realistic application with progressive pressure (60% speed, tap at 40-50% pressure)
+- **Ongoing**: Full speed only with experienced partners, never spike or jerk the joint
+
+### Partner Communication
+- Establish tap protocol before drilling, emphasize verbal tap if arm is trapped
+- Communicate elbow comfort during setup: "pressure okay?" or "elbow safe?"
+- Discuss partner's elbow injury history to adjust pressure limits accordingly
+- Agree on maximum pressure for drilling (typically 40-60% of full extension)
+- Watch for partner's facial expressions of pain - release immediately even without tap
 
 ### Visual Execution Sequence
 Detailed step-by-step description for clear movement sequence visualization:
@@ -110,6 +202,71 @@ Methods to mitigate threats:
 - **Adaptation Readiness**: Be prepared to switch to other submissions or controls if armbar fails
 
 ## Educational Content
+
+## Common Errors
+
+### 1. Insufficient Arm Isolation Before Transition
+**Problem**: Attempting to transition to armbar position before fully controlling the far arm, allowing opponent to retract it.
+
+**Why it happens**: Practitioners rush to finish position without establishing secure control, anxious to complete the technique quickly.
+
+**Correction**: Establish firm wrist control and pin the far arm against your body before any hip movement. Ensure opponent cannot pull arm back by trapping it with chest pressure or underhook.
+
+**Result if uncorrected**: Opponent pulls arm free during transition, escaping the submission and potentially reversing position or recovering guard.
+
+### 2. Poor Hip Alignment with Elbow Joint
+**Problem**: Hips positioned too far from opponent's elbow, reducing leverage and pressure application.
+
+**Why it happens**: Focus on controlling upper arm instead of proper hip placement relative to the joint being attacked.
+
+**Correction**: Position your hip directly against opponent's elbow joint, creating a fulcrum. Ensure shoulder-to-hip alignment creates maximum leverage on the elbow.
+
+**Result if uncorrected**: Weak armbar pressure that opponent can resist with strength, reducing success rate dramatically and wasting energy.
+
+### 3. Failing to Control Opponent's Torso
+**Problem**: Not pinning opponent's chest or torso effectively, allowing them to turn, bridge, or escape.
+
+**Why it happens**: Over-focus on the arm being attacked while neglecting base control and weight distribution.
+
+**Correction**: Maintain heavy chest pressure or knee pressure on opponent's torso throughout the setup. Use body weight to pin them to the mat.
+
+**Result if uncorrected**: Opponent turns into you, stacks, or bridges to escape, losing the submission and potentially the dominant position.
+
+### 4. Incorrect Thumb Position (Thumb Down)
+**Problem**: Allowing opponent's thumb to rotate downward instead of keeping it pointed upward.
+
+**Why it happens**: Lack of awareness about proper arm alignment for joint lock effectiveness.
+
+**Correction**: Actively maintain opponent's thumb in the upward position throughout the technique. This ensures proper elbow alignment and prevents hitchhiker escape.
+
+**Result if uncorrected**: Opponent can relieve pressure by rotating their arm (hitchhiker escape), significantly reducing armbar effectiveness.
+
+### 5. ⚠️ DANGER: Explosive Hip Extension
+**Problem**: Jerking or spiking hips explosively to finish the armbar without progressive pressure.
+
+**Why it happens**: Frustration with slow progress or competition mindset during training, attempting to force the tap.
+
+**Correction**: Apply hip pressure progressively over 3-5 seconds, increasing pressure incrementally. Never spike or jerk the joint.
+
+**Result if uncorrected**: SERIOUS ELBOW INJURY - hyperextension, ligament tears, or dislocation. Can cause 4-8 weeks to 6+ months recovery time. This is the most common cause of training injuries in armbar techniques.
+
+### 6. ⚠️ DANGER: Continuing Pressure After Tap
+**Problem**: Maintaining or increasing pressure after partner has tapped, not releasing immediately.
+
+**Why it happens**: Delayed reaction time, focus on technique rather than partner safety, or not feeling/hearing the tap.
+
+**Correction**: Develop sensitivity to tap signals. Release ALL pressure immediately upon any tap - verbal or physical. Watch for partner's free hand tapping continuously.
+
+**Result if uncorrected**: Unnecessary elbow injury to training partner, breach of trust, potential expulsion from academy. Joint damage occurs very quickly once hyperextension begins.
+
+### 7. Insufficient Weight Distribution During Setup
+**Problem**: Not distributing body weight effectively across opponent's torso, leaving them mobile.
+
+**Why it happens**: Poor understanding of weight distribution and balance during transition phase.
+
+**Correction**: As you step over head, momentarily distribute weight across their chest. Then settle weight strategically: some on torso, some on attacking position.
+
+**Result if uncorrected**: Opponent can roll, turn to their knees, or escape to turtle, losing the submission entirely.
 
 ### Expert Insights
 Commentary as if from recognized authorities:

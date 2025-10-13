@@ -1,3 +1,122 @@
+---
+title: "Double Leg Entry | BJJ Technique | BJJ Graph"
+description: "Learn Double Leg Entry in BJJ. Step-by-step execution from Standing Position to Double Leg Takedown Setup. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Double Leg Entry",
+  "description": "Learn how to execute Double Leg Entry in Brazilian Jiu-Jitsu from Standing Position to Double Leg Takedown Setup. Success: Beginner 55%, Intermediate 70%, Advanced 85%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Establish proper stance with",
+      "text": "Establish proper stance with lead foot forward, knees slightly bent, and weight centered for balance and reactivity.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Create entry opportunity through",
+      "text": "Create entry opportunity through feints, level changes, or timed reactions to opponent's movement to disrupt their defensive posture.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Drop level by bending",
+      "text": "Drop level by bending knees while maintaining an upright spine and head position to avoid telegraphing intent.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Step forward with lead",
+      "text": "Step forward with lead leg while driving forward with rear leg for explosive penetration to close distance effectively.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Align head, hands, and",
+      "text": "Align head, hands, and hips in a coordinated line of attack aimed at opponent's midsection for optimal impact.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Time penetration step with",
+      "text": "Time penetration step with opponent's weight shift or movement to catch them off-balance.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Transition seamlessly from entry",
+      "text": "Transition seamlessly from entry to penetration phase of the takedown, maintaining momentum.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Maintain defensive awareness throughout",
+      "text": "Maintain defensive awareness throughout to counter potential sprawls or other defenses, ready to adapt as needed.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Double Leg Entry",
+  "description": "Learn Double Leg Entry in BJJ. Step-by-step execution from Standing Position to Double Leg Takedown Setup. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/double-leg-entry",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Double Leg Entry",
+      "item": "https://bjjgraph.com/transitions/double-leg-entry"
+    }
+  ]
+}
+</script>
+
+
 # Double Leg Entry
 #bjj #transition #takedown #wrestling #setup
 
@@ -190,6 +309,14 @@ The Double Leg Entry has proven highly effective in competition contexts across 
 - Gi competition: Can be adapted with grip fighting to create entry opportunities.
 - No-gi competition: Relies heavily on timing and level change speed for success.
 - MMA crossover: Modified for striking defense awareness, offers safe takedown entry.
+
+
+## Related Techniques
+
+- [[Double leg takedown]] - Related technique
+- [[Ankle Pick]] - Related technique
+- [[Osoto Gari]] - Related technique
+- [[Collar Drag]] - Related technique
 
 ## Historical Context
 The Double Leg Entry has roots in freestyle and folkstyle wrestling, adapted into Brazilian Jiu-Jitsu for its effectiveness in controlling an opponent's position from standing. It became a staple in BJJ through cross-training with wrestlers and the emphasis on takedowns in competitive formats like IBJJF and ADCC. The technique showcases BJJ's evolution as a hybrid martial art, integrating wrestling principles with ground control strategies. Its prominence grew with practitioners like Rodolfo Vieira and Gordon Ryan, who demonstrated its value in high-level competition.

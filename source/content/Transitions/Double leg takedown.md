@@ -1,3 +1,122 @@
+---
+title: "Double Leg Takedown | BJJ Technique | BJJ Graph"
+description: "Learn Double Leg Takedown in BJJ. Step-by-step execution from Standing Position to Side Control. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Double Leg Takedown",
+  "description": "Learn how to execute Double Leg Takedown in Brazilian Jiu-Jitsu from Standing Position to Side Control. Success: Beginner 40%, Intermediate 70%, Advanced 85%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Create an opening through",
+      "text": "Create an opening through feints, level changes, or timed reactions to disrupt opponent's defensive posture.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Drop level with bent",
+      "text": "Drop level with bent knees, keeping back straight and head up to maintain balance and avoid counters.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Drive forward with lead",
+      "text": "Drive forward with lead leg while penetrating hips forward to close distance explosively.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Wrap both arms around",
+      "text": "Wrap both arms around opponent's legs at or above the knees for secure control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Connect hands or clasp",
+      "text": "Connect hands or clasp wrists behind opponent's legs to lock in the grip.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Drive forward and upward",
+      "text": "Drive forward and upward with shoulder pressure against opponent's lower abdomen, lifting them off balance.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Guide opponent to ground",
+      "text": "Guide opponent to ground while maintaining control of legs to prevent guard recovery.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Transition immediately to secure",
+      "text": "Transition immediately to secure top position, passing legs if necessary to achieve side control.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Double Leg Takedown",
+  "description": "Learn Double Leg Takedown in BJJ. Step-by-step execution from Standing Position to Side Control. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/double-leg-takedown",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Double Leg Takedown",
+      "item": "https://bjjgraph.com/transitions/double-leg-takedown"
+    }
+  ]
+}
+</script>
+
+
 # Double Leg Takedown
 #bjj #transition #takedown #wrestling
 
@@ -189,6 +308,14 @@ The Double Leg Takedown has proven highly effective in competition contexts acro
 - Gi competition: Can be adapted with grip fighting to create takedown opportunities.
 - No-gi competition: Relies heavily on timing and penetration speed for success.
 - MMA crossover: Modified for striking defense awareness, offers safe takedown option.
+
+
+## Related Techniques
+
+- [[Osoto Gari]] - Related technique
+- [[Double Leg Entry]] - Related technique
+- [[Ankle Pick]] - Related technique
+- [[Collar Drag]] - Related technique
 
 ## Historical Context
 The Double Leg Takedown originates from freestyle and folkstyle wrestling, becoming a staple in Brazilian Jiu-Jitsu through cross-training and the emphasis on takedowns in competitive formats like IBJJF and ADCC. Its adaptation into BJJ reflects the art's evolution as a hybrid martial system, integrating wrestling principles with ground control strategies. The technique gained prominence with practitioners like Rodolfo Vieira and Gordon Ryan, who demonstrated its effectiveness in high-level competition. It remains a foundational takedown for controlling an opponent's position from standing.

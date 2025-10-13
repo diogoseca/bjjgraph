@@ -1,3 +1,155 @@
+---
+title: "Flattened Half Guard | BJJ Position Guide | BJJ Graph"
+description: "Master Flattened Half Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 60%, Intermediate 75%, Advanced..."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Flattened Half Guard in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Flattened Half Guard.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Pressure Pass",
+      "text": "From this position, execute Pressure Pass to transition to Side Control.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Slide Completion",
+      "text": "From this position, execute Knee Slide Completion to transition to Side Control.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Flattened Half to Mount",
+      "text": "From this position, execute Flattened Half to Mount to transition to Mount.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Back Step",
+      "text": "From this position, execute Back Step to transition to Back Control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kimura Trap",
+      "text": "From this position, execute Kimura Trap to transition to Kimura Control.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute D'arce Setup",
+      "text": "From this position, execute D'arce Setup to transition to D'arce Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Insufficient head/shoulder pressure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Allows defensive mobility, as the opponent can turn their head or body to create angles for escapes or frames. The correction is: Maintain a strong crossface or shoulder pressure against their jaw, turning their head away to disrupt their posture."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Poor weight distribution?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to loss of control, as improper weight placement allows the opponent to shrimp or bridge effectively. The correction is: Keep your chest heavy on their torso and position your free leg to pin their hip, ensuring maximum control."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Neglecting hip control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Provides recovery opportunity, as the opponent can use hip movement to regain guard or create space. The correction is: Drive your knee or leg into their hip to block movement, or post your free leg wide to limit their hip rotation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Premature passing attempt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results in position compromise, as rushing to pass without full control can lead to the opponent recovering guard. The correction is: Ensure all defensive frames are neutralized and pressure is maximized before initiating a pass."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Static pressure application?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Causes energy inefficiency, as maintaining constant pressure without adjustment can tire you out unnecessarily. The correction is: Adjust pressure dynamically based on the opponent's reactions, easing off slightly to conserve energy when control is secure."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Flattened Half Guard",
+      "item": "https://bjjgraph.com/positions/flattened-half-guard"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Flattened Half Guard",
+  "description": "Master Flattened Half Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 60%, Intermediate 75%, Advanced...",
+  "url": "https://bjjgraph.com/positions/flattened-half-guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Flattened Half Guard
 #bjj #state #halfguard #passing #control
 
@@ -100,6 +252,15 @@ You are on top in a half guard position, with one of the opponent's legs trapped
 - [[Knee Shield Half Guard]] - Defensive counter position
 - [[Mount]] - Alternative dominant transition
 - [[Back Control]] - Alternative dominant transition
+
+
+## Related Positions
+
+- [[Side Control]] - Related position
+- [[Mount]] - Related position
+- [[Back Control]] - Related position
+- [[Knee Shield Half Guard]] - Related position
+- [[Half Guard Top]] - Related position
 
 ## Decision Tree
 If opponent attempts to bridge:

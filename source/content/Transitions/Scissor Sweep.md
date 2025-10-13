@@ -1,3 +1,106 @@
+---
+title: "Scissor Sweep | BJJ Technique | BJJ Graph"
+description: "Learn Scissor Sweep in BJJ. Step-by-step execution from Closed Guard Bottom to Mount. Success: Beginner 55%, Intermediate 75%, Advanced 90%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Scissor Sweep",
+  "description": "Learn how to execute Scissor Sweep in Brazilian Jiu-Jitsu from Closed Guard Bottom to Mount.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish collar grip and same-side sleeve control from closed guard",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Open your guard while maintaining grip control",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically tries to maintain base or advance position",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Adjust leg positioning and grip tension based on their movement",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Execute scissor motion while pulling collar and pushing sleeve",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Follow through by transitioning to mount position",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Scissor Sweep",
+      "item": "https://bjjgraph.com/transitions/scissor-sweep"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Scissor Sweep",
+  "description": "Learn Scissor Sweep in BJJ. Step-by-step execution from Closed Guard Bottom to Mount. Success: Beginner 55%, Intermediate 75%, Advanced 90%.",
+  "url": "https://bjjgraph.com/transitions/scissor-sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Scissor Sweep
 #bjj #transition #sweep #closed_guard #fundamental
 
@@ -217,11 +320,12 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **Hip Bump Sweep** - Alternative closed guard sweep with different mechanics
-- **Flower Sweep** - Another fundamental closed guard sweep option
-- **Balloon Sweep** - Advanced closed guard sweep using similar grip control
-- **Triangle Setup** - Common follow-up if sweep is defended
-- **Armbar from Guard** - Alternative attack using similar grip establishment
+
+- [[Flower Sweep]] - Related technique
+- [[Hip Bump Sweep]] - Related technique
+- [[Balloon Sweep]] - Related technique
+- [[Waiter Sweep]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points) plus mount (4 points)

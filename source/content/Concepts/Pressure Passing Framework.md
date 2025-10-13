@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pressure Passing Framework",
+  "description": "The Pressure Passing Framework represents a comprehensive strategic approach to guard passing that prioritizes continuous pressure application, weight distribution, and connection management as the...",
+  "url": "https://bjjgraph.com/concepts/pressure-passing-framework",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.com/concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Pressure Passing Framework",
+      "item": "https://bjjgraph.com/concepts/pressure-passing-framework"
+    }
+  ]
+}
+</script>
+
+
 # Pressure Passing Framework
 #bjj #strategy #framework #pressure #passing
 

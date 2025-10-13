@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "IBJJF Strategy Guide",
+  "description": "The IBJJF Strategy Guide provides a comprehensive approach to competing under the International Brazilian Jiu-Jitsu Federation ruleset. This framework addresses the unique scoring dynamics, time co...",
+  "url": "https://bjjgraph.com/systems/ibjjf-strategy-guide",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Systems",
+      "item": "https://bjjgraph.com/systems/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "IBJJF Strategy Guide",
+      "item": "https://bjjgraph.com/systems/ibjjf-strategy-guide"
+    }
+  ]
+}
+</script>
+
+
 # IBJJF Strategy Guide
 #bjj #competition #strategy #ibjjf
 

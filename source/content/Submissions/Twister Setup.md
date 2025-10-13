@@ -1,10 +1,58 @@
+---
+title: "Twister Setup | BJJ Submission Guide | BJJ Graph"
+description: "Begin from a control position such as the Truck Position, Back Control, or occasionally Side Control, with the most common entry being from the Truck Position where your legs are already in a..."
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Twister Setup",
+  "description": "Begin from a control position such as the Truck Position, Back Control, or occasionally Side Control, with the most common entry being from the Truck Position where your legs are already in a...",
+  "url": "https://bjjgraph.com/submissions/twister-setup",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Twister Setup",
+      "item": "https://bjjgraph.com/submissions/twister-setup"
+    }
+  ]
+}
+</script>
+
 # Twister Setup
 #bjj #technique #submission #10thplanet #setup
 
 ## Required Properties for State Machine
 
 ### Core Identifiers
-- **Submission ID**: S103
+- **Submission ID**: SUB029
 - **Submission Name**: Twister Setup
 - **Alternative Names**: Twister Entry, Spinal Lock Setup
 
@@ -13,7 +61,48 @@
 - **Ending State**: [[Twister Control]]
 - **Submission Type**: Setup - Prepares for spinal lock submission
 
-### Submission Properties
+## ⚠️ Safety Considerations
+
+### Injury Risks
+Twister setup carries significant risks as it prepares for a dangerous spinal lock:
+- **Premature Spinal Pressure** (Severity: High to Critical, Recovery: Varies) - Applying pressure before full control can cause unexpected spinal stress
+- **Trapped Leg Injury** (Severity: Medium, Recovery: 2-4 weeks) - Excessive leg control can damage knee or hip of trapped leg
+- **Neck Strain** (Severity: Medium, Recovery: 2-4 weeks) - Threading arm too aggressively can strain neck muscles
+- **Hip/Lower Back Strain** (Severity: Medium, Recovery: 2-6 weeks) - Forcing perpendicular alignment can stress lower back
+
+### Application Speed
+- Establish twister setup SLOWLY over 5-10 seconds
+- Never rush the threading arm or leg control establishment
+- Ensure partner can tap freely throughout setup process
+- Communicate verbally during each phase of setup
+
+### Tap Signals
+During setup phase, tap signals are critical as position can become dangerous:
+- **Verbal Tap**: Saying "tap" or "stop" if position feels uncomfortable
+- **Physical Tap**: Tapping with free hand on partner's body or mat (minimum 2 taps)
+- **Emergency Signal**: ANY indication of discomfort in spine, neck, or trapped leg
+
+### Release Protocol
+When partner taps during setup:
+1. Immediately stop all movement toward twister control
+2. Release threading arm from under neck carefully
+3. Release leg triangle around trapped leg gradually
+4. Allow partner to return to neutral position slowly
+5. Check on partner's spine, neck, and leg mobility
+
+### Training Progression
+- **Weeks 1-4**: Learn position entries without applying any twisting pressure
+- **Weeks 5-8**: Slow setup practice (10% speed) with zero rotational pressure
+- **Weeks 9-12**: Medium setup practice (50% speed), establish position control only
+- **Advanced Only**: Full twister setup should only be practiced by advanced practitioners (purple belt+)
+- **Ongoing**: Many academies restrict twister techniques to advanced students only
+
+### Partner Communication
+- Establish clear understanding that twister setup leads to dangerous submission
+- Discuss any back, neck, hip, or knee issues before attempting
+- Verbal check-ins during setup: "Pressure okay?" "Too much?"
+- Agreement that partner will tap early if setup feels uncomfortable
+- Consider practicing with experienced partners only who understand twister risks
 - **Success Probability**: Beginner 30%, Intermediate 55%, Advanced 75% - core probability data
 - **Execution Complexity**: High - technical difficulty assessment
 - **Energy Cost**: Medium - physical demand of execution

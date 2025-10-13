@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Control Point Hierarchy",
+  "description": "The Control Point Hierarchy represents a systematic framework for understanding, establishing, and maintaining optimal control relationships in grappling exchanges. Unlike technique-specific approa...",
+  "url": "https://bjjgraph.com/concepts/control-point-hierarchy",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.com/concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Control Point Hierarchy",
+      "item": "https://bjjgraph.com/concepts/control-point-hierarchy"
+    }
+  ]
+}
+</script>
+
+
 # Control Point Hierarchy
 #bjj #strategy #framework #control #hierarchy
 

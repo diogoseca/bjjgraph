@@ -1,3 +1,106 @@
+---
+title: "Osoto Gari | BJJ Technique | BJJ Graph"
+description: "Learn Osoto Gari in BJJ. Step-by-step execution from Standing Position to Side Control. Success: Beginner 30%, Intermediate 55%, Advanced 75%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Osoto Gari",
+  "description": "Learn how to execute Osoto Gari in Brazilian Jiu-Jitsu from Standing Position to Side Control.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish strong collar and sleeve grips from standing position",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Step your right foot close to opponent's right foot (outside position)",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically maintains stance or attempts defensive grips",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Adjust grip tension and body position based on their resistance",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Lift with grips while reaping their leg in large circular motion",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Follow through to land in dominant top position",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Osoto Gari",
+      "item": "https://bjjgraph.com/transitions/osoto-gari"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Osoto Gari",
+  "description": "Learn Osoto Gari in BJJ. Step-by-step execution from Standing Position to Side Control. Success: Beginner 30%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.com/transitions/osoto-gari",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Osoto Gari
 #bjj #transition #takedown #judo #throw #standing
 
@@ -217,11 +320,12 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **Ouchi Gari** - Inside reaping variation with similar principles
-- **Kouchi Gari** - Minor inner reap as setup or combination
-- **Tai Otoshi** - Hand technique throw with different mechanics
-- **Double Leg Takedown** - Wrestling alternative for similar situations
-- **Foot Sweeps** - Timing-based techniques using similar concepts
+
+- [[Double leg takedown]] - Related technique
+- [[Ankle Pick]] - Related technique
+- [[Tani Otoshi]] - Related technique
+- [[Knee Tap]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as takedown (2 points)

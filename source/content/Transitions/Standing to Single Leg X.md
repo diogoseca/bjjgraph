@@ -1,3 +1,122 @@
+---
+title: "Standing to Single Leg X | BJJ Technique | BJJ Graph"
+description: "Learn Standing to Single Leg X in BJJ. Step-by-step execution. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Standing to Single Leg X",
+  "description": "Learn how to execute Standing to Single Leg X in Brazilian Jiu-Jitsu from Standing Position to Single Leg X Guard. Success: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Begin in a Standing",
+      "text": "Begin in a Standing Position or Neutral Position, maintaining awareness of the opponent's stance and balance, identifying an opportunity to target one of their legs while keeping a low defensive posture.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Feint or engage their",
+      "text": "Feint or engage their upper body with a grip on their collar or wrist to distract them, preparing to drop your level for the guard entry.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Drop down by bending",
+      "text": "Drop down by bending your knees and sitting back toward the mat, simultaneously reaching for one of their legs near the knee or ankle with both hands to start the entanglement.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Pull their leg toward",
+      "text": "Pull their leg toward you as you sit, guiding it across your hip or thigh with one leg while hooking behind their knee or shin with your other leg to secure the Single Leg X configuration.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Lock your legs into",
+      "text": "Lock your legs into position, placing one foot on their hip to control distance and the other hooking their leg to prevent escape, while angling your upper body to maintain control.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Maintain active hip movement",
+      "text": "Maintain active hip movement during the transition to off-balance them, adjusting your grip on their leg to tighten the entanglement and prevent them from stepping out.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Complete the Standing to",
+      "text": "Complete the Standing to Single Leg X by fully establishing Single Leg X Guard, securing their leg tightly against your shoulder, or transitioning to a general Guard Position if they partially escape.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Remain aware of their",
+      "text": "Remain aware of their counter responses like pulling their leg free or attempting passes, adapting your leg positioning, hip angle, and grip strength to consolidate the guard and prepare for attacks.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Standing to Single Leg X",
+  "description": "Learn Standing to Single Leg X in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/standing-to-single-leg-x",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Standing to Single Leg X",
+      "item": "https://bjjgraph.com/transitions/standing-to-single-leg-x"
+    }
+  ]
+}
+</script>
+
+
 # Standing to Single Leg X
 #bjj #transition #guard_entry #offense #ground_game
 
@@ -212,3 +331,11 @@ Updates to this standard should be reflected across related transition setup fil
 ## Related Transitions
 - **Guard Pull** - Alternative method to enter guard from standing
 - **Single Leg X Entry** - Similar guard entry with different setup
+
+## Related Techniques
+
+- [[Leg Drag Pass]] - Related technique
+- [[Leg Drag Setup]] - Related technique
+- [[Single Leg X Entry]] - Related technique
+- [[Leg Weave Pass]] - Related technique
+

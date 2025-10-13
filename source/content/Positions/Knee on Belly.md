@@ -1,3 +1,107 @@
+---
+title: "Knee on Belly | BJJ Position Guide | BJJ Graph"
+description: "Master Knee on Belly in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Knee on Belly in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Knee on Belly.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Mount",
+      "text": "From this position, execute Transition to Mount to transition to Mount.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Back Step",
+      "text": "From this position, execute Back Step to transition to Back Control.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Return to Side Control",
+      "text": "From this position, execute Return to Side Control to transition to Side Control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Far Side Armbar",
+      "text": "From this position, execute Far Side Armbar to transition to Armbar Control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Baseball Choke Setup",
+      "text": "From this position, execute Baseball Choke Setup to transition to Baseball Bat Choke.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Nearside Armbar",
+      "text": "From this position, execute Nearside Armbar to transition to Armbar Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Knee on Belly",
+      "item": "https://bjjgraph.com/positions/knee-on-belly"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee on Belly",
+  "description": "Master Knee on Belly in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
+  "url": "https://bjjgraph.com/positions/knee-on-belly",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Knee on Belly
 #bjj #state #dominant #pin #control
 
@@ -11,6 +115,10 @@
 
 ## State Description
 Knee on Belly (KOB) is a dominant control position where the top practitioner places one knee on the opponent's abdomen or sternum while keeping the other foot on the ground. This creates a powerful pinning position that combines pressure, mobility, and control while maintaining the ability to quickly transition to other dominant positions or submissions. Unlike more static controlling positions, Knee on Belly creates a dynamic control state that forces defensive reactions while providing exceptional leverage for striking in self-defense scenarios. It serves as both a controlling position in its own right and as a tactical bridge between side control and mount or back control.
+
+## Visual Description
+
+The practitioner stands in a dominant position with one knee placed firmly on the opponent's abdomen or lower chest, creating direct downward pressure through the kneecap into the soft tissue. The other leg is extended with the foot posted on the mat for balance and mobility, typically positioned near the opponent's hip or legs. The practitioner's upper body remains upright or slightly forward, with one hand controlling the opponent's near-side collar or head while the other arm posts on the mat or controls the far-side arm. The opponent lies flat on their back with breathing restricted by the knee pressure, shoulders pinned, and movement severely limited. This elevated stance creates a precarious balance point for the top person but allows for exceptional mobility and quick transitions to mount, back control, or submissions. The position distinctly differs from mount or side control through its asymmetric weight distribution and the top person's ability to quickly shift weight or change sides in response to defensive movements.
 
 ## Key Principles
 - Distribute weight precisely through the knee on opponent's abdomen/sternum
@@ -88,6 +196,15 @@ Knee on Belly (KOB) is a dominant control position where the top practitioner pl
 - [[Back Control]] - Alternative transition from KOB
 - [[Technical Mount]] - Related control position with similar mechanics
 - [[Combat Base]] - Related base position used in different context
+
+
+## Related Positions
+
+- [[Side Control]] - Related position
+- [[Mount]] - Related position
+- [[Back Control]] - Related position
+- [[Armbar Control]] - Related position
+- [[Inside Sankaku]] - Related position
 
 ## Decision Tree
 If opponent frames strongly against knee:

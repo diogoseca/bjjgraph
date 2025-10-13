@@ -1,3 +1,106 @@
+---
+title: "Ankle Pick | BJJ Technique | BJJ Graph"
+description: "Learn Ankle Pick in BJJ. Step-by-step execution from Standing Position to Top Position. Success: Beginner 25%, Intermediate 50%, Advanced 70%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Ankle Pick",
+  "description": "Learn how to execute Ankle Pick in Brazilian Jiu-Jitsu from Standing Position to Top Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish collar tie or underhook from standing position",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Drop level by going to one knee while maintaining upper control",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically tries to sprawl or maintain balance",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Adjust timing and angle based on their defensive reaction",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Grab far ankle with outside hand while driving forward",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Follow through to secure top position control",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Ankle Pick",
+      "item": "https://bjjgraph.com/transitions/ankle-pick"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ankle Pick",
+  "description": "Learn Ankle Pick in BJJ. Step-by-step execution from Standing Position to Top Position. Success: Beginner 25%, Intermediate 50%, Advanced 70%.",
+  "url": "https://bjjgraph.com/transitions/ankle-pick",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Ankle Pick
 #bjj #transition #takedown #wrestling #standing
 
@@ -217,11 +320,12 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **Single Leg Takedown** - Similar mechanics with different target
-- **Double Leg Takedown** - Alternative wrestling takedown
-- **Osoto Gari** - Judo alternative with different mechanics
-- **Knee Tap** - Similar level change with different target
-- **Foot Sweeps** - Timing-based techniques using similar concepts
+
+- [[Tani Otoshi]] - Related technique
+- [[Knee Tap]] - Related technique
+- [[Collar Drag]] - Related technique
+- [[Osoto Gari]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as takedown (2 points)

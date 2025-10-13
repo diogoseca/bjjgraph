@@ -1,3 +1,107 @@
+---
+title: "Open Guard Bottom | BJJ Position Guide | BJJ Graph"
+description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Open Guard Bottom in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Open Guard Bottom.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Butterfly Sweep",
+      "text": "From this position, execute Butterfly Sweep to transition to Top Position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Scissor Sweep",
+      "text": "From this position, execute Scissor Sweep to transition to Mount.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Single Leg X Entry",
+      "text": "From this position, execute Single Leg X Entry to transition to Single Leg X Guard.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute De La Riva Entry",
+      "text": "From this position, execute De La Riva Entry to transition to De La Riva Guard.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Spider Guard Transition",
+      "text": "From this position, execute Spider Guard Transition to transition to Spider Guard.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Triangle Setup from Open Guard",
+      "text": "From this position, execute Triangle Setup from Open Guard to transition to Triangle Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Open Guard Bottom",
+      "item": "https://bjjgraph.com/positions/open-guard-bottom"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Open Guard Bottom",
+  "description": "Master Open Guard Bottom in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%.",
+  "url": "https://bjjgraph.com/positions/open-guard-bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Open Guard Bottom
 #bjj #state #guard #open_guard #bottom
 
@@ -11,6 +115,10 @@
 
 ## State Description
 Open Guard is a dynamic family of guard positions where the bottom player's legs are not closed around the opponent, allowing for greater mobility and attack variety at the cost of some defensive security. This position offers exceptional offensive versatility through numerous variations (butterfly, spider, lasso, de la riva, etc.), creating a complex strategic landscape. Open Guard serves as both a starting point for sweeps and submissions and as a transitional hub connecting various guard systems.
+
+## Visual Description
+
+You are on your back or partially seated with your legs actively engaged but not locked around your opponent, creating a dynamic barrier between you and them. Your feet may be on their hips, biceps, or in various hook positions depending on the specific open guard variation you're employing, while your hands grip their sleeves, collars, belt, or control their arms and legs. Your opponent is either standing over you, kneeling in combat base, or in a crouched position attempting to pass your legs, with their hands fighting for grips or attempting to control your legs and torso. The distance between your bodies varies constantly based on your guard retention efforts and their passing pressure, creating space that you actively manage through extensions and retractions. Your back may range from flat on the mat to fully seated upright, your spine angle constantly adjusting to maintain optimal framing and control points. This fluid configuration allows you to threaten sweeps, submissions, and guard transitions while preventing your opponent from establishing chest-to-chest pressure or bypassing your leg barriers.
 
 ## Key Principles
 - Maintain active foot and hand engagement
@@ -82,6 +190,15 @@ Open Guard is a dynamic family of guard positions where the bottom player's legs
 - [[Seated Guard]] - Upright open guard position
 - [[X-Guard]] - Open guard with leg positioning under and around opponent's leg
 - [[Single Leg X]] - Modified X-guard targeting one leg
+
+
+## Related Positions
+
+- [[Spider Guard]] - Related position
+- [[De La Riva Guard]] - Related position
+- [[X-Guard]] - Related position
+- [[Butterfly Guard]] - Related position
+- [[Lasso Guard]] - Related position
 
 ## Decision Tree
 If opponent stands tall:

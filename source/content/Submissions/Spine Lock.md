@@ -1,3 +1,51 @@
+---
+title: "Spine Lock | BJJ Submission Guide | BJJ Graph"
+description: "From a dominant Top Position, Side Control, or Back Control, you start by securing a strong control over the opponent's upper body, often with an underhook on one arm and a crossface or grip on..."
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Spine Lock",
+  "description": "From a dominant Top Position, Side Control, or Back Control, you start by securing a strong control over the opponent's upper body, often with an underhook on one arm and a crossface or grip on...",
+  "url": "https://bjjgraph.com/submissions/spine-lock",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Spine Lock",
+      "item": "https://bjjgraph.com/submissions/spine-lock"
+    }
+  ]
+}
+</script>
+
 # Spine Lock
 #bjj #submission #spine_lock #dangerous #advanced
 

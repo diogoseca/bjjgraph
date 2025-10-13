@@ -1,3 +1,107 @@
+---
+title: "Rubber Guard | BJJ Position Guide | BJJ Graph"
+description: "Master Rubber Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Rubber Guard in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Rubber Guard.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Mission Control",
+      "text": "From this position, execute Mission Control to transition to New York Control.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute New York to Williams",
+      "text": "From this position, execute New York to Williams to transition to Williams Guard.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Rubber Guard to Omoplata",
+      "text": "From this position, execute Rubber Guard to Omoplata to transition to Omoplata Control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Gogoplata Setup",
+      "text": "From this position, execute Gogoplata Setup to transition to Gogoplata Control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Dead Orchard Entry",
+      "text": "From this position, execute Dead Orchard Entry to transition to Dead Orchard Control.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Triangle from Rubber Guard",
+      "text": "From this position, execute Triangle from Rubber Guard to transition to Triangle Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Rubber Guard",
+      "item": "https://bjjgraph.com/positions/rubber-guard"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rubber Guard",
+  "description": "Master Rubber Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%.",
+  "url": "https://bjjgraph.com/positions/rubber-guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Rubber Guard
 #bjj #state #guard #10thplanet #control
 
@@ -11,6 +115,10 @@
 
 ## State Description
 The Rubber Guard is a specialized guard position developed and popularized by Eddie Bravo within his 10th Planet Jiu-Jitsu system. This position builds upon the closed guard by adding a high degree of upper body control through a series of complex leg and arm configurations. At its core, the Rubber Guard involves the bottom player using their leg to trap the opponent's arm against their own chest, typically by bringing one leg high across the opponent's back and securing the shin or foot with the opposite arm. This creates exceptional posture control and provides unique attacking opportunities, particularly for triangles, omoplatas, and various 10th Planet-specific submissions. The position is especially effective in no-gi grappling and MMA contexts where it can neutralize the opponent's striking while setting up submissions.
+
+## Visual Description
+
+You are on your back with your legs locked around your opponent in closed guard, but with one leg elevated extremely high, your shin or foot pulled across your opponent's upper back or neck using your opposite arm. Your elevated leg traps one of their arms against your own chest, pinning it in place as your hand grips your own shin or foot to maintain the connection. Your opponent is bent forward at the waist, their posture severely broken with their head pulled down near your chest or shoulder, while their trapped arm is immobilized between your leg and torso. Your other leg maintains the closed guard lock around their waist or hips, anchoring their lower body, while your free hand may control their head, neck, or opposite arm. This extreme flexibility requirement creates a pretzel-like configuration where your opponent's entire upper body is controlled through the combination of your leg elevation, arm entrapment, and closed guard base. The position requires exceptional hip and hamstring flexibility to maintain while creating a suffocating level of control that prevents both offensive action and defensive posturing from your opponent.
 
 ## Key Principles
 - Establish and maintain strong posture control
@@ -81,6 +189,15 @@ The Rubber Guard is a specialized guard position developed and popularized by Ed
 - [[Omoplata Control]] - Common submission transition
 - [[Triangle Control]] - Related submission position
 - [[Gogoplata Control]] - Specialized 10th Planet submission
+
+
+## Related Positions
+
+- [[Williams Guard]] - Related position
+- [[Mission Control]] - Related position
+- [[Gogoplata Control]] - Related position
+- [[Omoplata Control]] - Related position
+- [[New York Control]] - Related position
 
 ## Decision Tree
 If opponent postures strongly:

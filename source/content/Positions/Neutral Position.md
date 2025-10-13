@@ -1,3 +1,107 @@
+---
+title: "Neutral Position | BJJ Position Guide | BJJ Graph"
+description: "Master Neutral Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 50%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Neutral Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Neutral Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Guard Pull",
+      "text": "From this position, execute Guard Pull to transition to Guard Position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Takedown Entry",
+      "text": "From this position, execute Takedown Entry to transition to Takedown Attempt.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Clinch Engagement",
+      "text": "From this position, execute Clinch Engagement to transition to Clinch Position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Leg Attack Entry",
+      "text": "From this position, execute Leg Attack Entry to transition to Leg Entanglement.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Snap Down",
+      "text": "From this position, execute Snap Down to transition to Front Headlock.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Duck Under",
+      "text": "From this position, execute Duck Under to transition to Back Control Standing.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Neutral Position",
+      "item": "https://bjjgraph.com/positions/neutral-position"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Neutral Position",
+  "description": "Master Neutral Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 50%.",
+  "url": "https://bjjgraph.com/positions/neutral-position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Neutral Position
 #bjj #state #transition #neutral #fundamental
 
@@ -11,6 +115,10 @@
 
 ## State Description
 The Neutral Position represents a dynamic equilibrium state in BJJ where neither practitioner has established clear positional dominance, resulting in a temporary balance point between offensive and defensive scenarios. Unlike the standing position or specific dominant positions, the neutral position is characterized by a lack of clear control structures, often occurring during transitions, after escape sequences, or when established positions break down. This state functions as a critical reset point in grappling exchanges where new offensive sequences can be initiated by either practitioner. The ability to recognize, navigate, and capitalize on neutral positions is fundamental to advanced BJJ strategy, as these moments often represent key decision points where matches can be decisively influenced through superior tactical choices.
+
+## Visual Description
+
+Both practitioners face each other with roughly equal positioning, neither having established clear dominant control. The spatial relationship varies - they may be standing and circling, seated facing each other, or in a partially grounded state with both attempting to establish grips or advantageous angles. Arms are extended for grip fighting or frames, with both practitioners actively working to establish hand control on collars, sleeves, or body parts. Bodies remain mobile and dynamic, with constant weight shifting and positional adjustments as each person seeks tactical advantages. Neither practitioner has their back exposed, is pinned beneath the other, or has their guard passed. The visual symmetry is notable - no clear top/bottom hierarchy exists, and both practitioners have similar offensive and defensive options available. This balanced configuration creates a chess-like standoff where the next move by either person could decisively shift the positional advantage.
 
 ## Key Principles
 - Maintain balanced posture and stable base
@@ -85,6 +193,15 @@ The Neutral Position represents a dynamic equilibrium state in BJJ where neither
 - [[Guard Position]] - Potential outcome from neutral
 - [[Grip Fighting]] - Fundamental component
 - [[Clinch Position]] - Related neutral engagement
+
+
+## Related Positions
+
+- [[Guard Position]] - Related position
+- [[Clinch Position]] - Related position
+- [[Scramble Position]] - Related position
+- [[Standing Position]] - Related position
+- [[Guard Pull]] - Related position
 
 ## Decision Tree
 If opponent shows defensive posture:

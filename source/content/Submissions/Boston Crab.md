@@ -1,3 +1,51 @@
+---
+title: "Boston Crab | BJJ Submission Guide | BJJ Graph"
+description: "Starting from a top position, often after taking the opponent's back or breaking down their turtle position, you face their lower body while they are prone or on their knees, with your chest..."
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Boston Crab",
+  "description": "Starting from a top position, often after taking the opponent's back or breaking down their turtle position, you face their lower body while they are prone or on their knees, with your chest...",
+  "url": "https://bjjgraph.com/submissions/boston-crab",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Boston Crab",
+      "item": "https://bjjgraph.com/submissions/boston-crab"
+    }
+  ]
+}
+</script>
+
 # Boston Crab
 #bjj #submission #spine_lock #control #advanced
 
@@ -37,16 +85,77 @@ Starting from a top position, often after taking the opponent's back or breaking
 
 **Template**: "From top position after taking back or breaking turtle, face opponent's lower body while they are prone. Step over to straddle lower back, hook arms under thighs or knees, pull legs up. Sit back towards their head, increase leg angle for spinal pressure. Lock legs under armpits or over shoulders, lean back to maximize extension. Hold until opponent taps or referee stops, monitor to prevent injury."
 
-### Execution Steps (Numbered Sequence)
-1. **Setup Requirements**: Achieve top position, often from back control or turtle breakdown
-2. **Orientation**: Face opponent's lower body while they are prone or on knees
-3. **Straddle Position**: Step over to straddle their lower back or hips
-4. **Leg Securement**: Hook arms under opponent's thighs or knees, one or both legs
-5. **Initial Pull**: Pull legs up towards opponent's back to start spinal extension
-6. **Sit Back**: Lean back towards opponent's head, increase leg angle for pressure
-7. **Lock Position**: Secure legs under armpits or over shoulders for control
-8. **Apply Pressure**: Use body weight and arm pull to hyperextend spine
-9. **Monitor Response**: Hold until tap or stoppage, watch for injury signals
+## Execution Steps
+
+**EXTREME DANGER WARNING**: This technique targets the SPINE - VERY HIGH risk of permanent injury. Apply pressure SLOWLY over 5-7 seconds minimum. Often ILLEGAL in competitions. EXTREME CAUTION required.
+
+### Step-by-Step Execution
+
+### Step 1: Top Position Establishment (Setup Phase)
+Achieve top position over the opponent, often from back control or after breaking down their turtle position.
+- You should be behind them with them face-down or on knees
+- Establish positional dominance before attempting
+- Verify they're in a stable position (not off-balance)
+- Safety check: Ensure partner can tap with both hands or verbally
+
+### Step 2: Orientation and Facing (Alignment Phase)
+Turn to face the opponent's lower body while they remain prone or on their knees, positioning yourself for leg control.
+- You face their legs/feet, they face away from you
+- Step or pivot to get into proper orientation
+- They should be relatively flat or on knees
+- Partner check: Confirm they understand the danger of this technique
+
+### Step 3: Straddle Positioning (Entry Phase - SLOW)
+Step over to straddle their lower back or hips, placing your legs on either side of their body.
+- One leg on each side of their torso
+- Your weight is over their lower back/hips
+- Don't drop your weight suddenly
+- Speed: Move deliberately into position
+- Watch for: Any back discomfort or pain signals
+
+### Step 4: Leg Securement (Control Phase)
+Hook your arms under one or both of the opponent's thighs or knees, securing their legs for the submission.
+- Hook under their knees or thighs
+- Can secure one leg or both (both increases pressure)
+- Grip firmly but allow them tap capability
+- Monitor: Their body tension and any protective reflexes
+
+### Step 5: Initial Leg Pull and Spinal Extension (Entry Phase - MINIMAL PRESSURE)
+Pull their legs upward toward their back VERY SLOWLY, initiating spinal hyperextension over 5-7 seconds minimum.
+- Lift legs gradually, NOT suddenly
+- This begins extending (arching) their spine backwards
+- Start with MINIMAL pull - assess their flexibility
+- Critical: WATCH FOR TAP - spinal injuries are devastating
+- If partner shows any sharp pain response, STOP immediately
+
+### Step 6: Sitting Back and Angle Increase (Execution Phase - EXTREME CAUTION)
+Lean your body weight back toward their head, increasing the angle of their legs relative to their torso, intensifying spinal pressure.
+- Sit back SLOWLY and progressively
+- This increases the backwards arch of their spine
+- Their lower back is under significant stress
+- **DANGER ZONE**: This is where permanent injury occurs
+- Apply MINIMAL pressure in training (20-30% maximum)
+- If partner's back starts shaking or they show distress, STOP
+
+### Step 7: Lock Position (Optional - ONLY if partner consents)
+Secure their legs under your armpits or over your shoulders for enhanced control (ONLY with experienced partner).
+- This locks the position more securely
+- **IN TRAINING**: Skip this step - too dangerous
+- **COMPETITION**: Check rules - often illegal
+
+### Step 8: Final Pressure and Release (Completion Phase - IMMEDIATE RELEASE)
+**IN TRAINING**: Apply ZERO additional pressure beyond positioning.
+- **FEEL FOR TAP**: Hand tapping, verbal "tap", ANY distress
+- **RELEASE IMMEDIATELY**:
+  - Lower their legs to mat instantly and gently
+  - Step off their back carefully
+  - Allow their spine to return to neutral
+  - Check partner: "Back okay? Any sharp pain? Numbness in legs?"
+- Post-submission: Have them move slowly, check for any back spasms
+- Watch for: Inability to straighten back, shooting leg pain, numbness (signs of nerve damage)
+- **SEEK MEDICAL ATTENTION** if any unusual pain or numbness persists
+
+**CRITICAL SAFETY NOTE**: This technique should RARELY if ever be practiced with real pressure. It's documented for awareness and defensive recognition. The Boston Crab is ILLEGAL in most BJJ competitions due to extreme spinal injury risk. Modern training emphasizes safer back attacks. NEVER apply full pressure in training.
 
 ### Key Technical Details
 Critical elements that determine success:

@@ -1,3 +1,107 @@
+---
+title: "Scramble Position | BJJ Position Guide | BJJ Graph"
+description: "Master Scramble Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 50%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Scramble Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Scramble Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Back Take Opportunity",
+      "text": "From this position, execute Back Take Opportunity to transition to Back Control.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Front Headlock Entry",
+      "text": "From this position, execute Front Headlock Entry to transition to Front Headlock.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Leg Entanglement Access",
+      "text": "From this position, execute Leg Entanglement Access to transition to Single Leg X Guard.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Guard Establishment",
+      "text": "From this position, execute Guard Establishment to transition to Guard Position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Top Position Secure",
+      "text": "From this position, execute Top Position Secure to transition to Side Control.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Mount Opportunity",
+      "text": "From this position, execute Mount Opportunity to transition to Mount.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Scramble Position",
+      "item": "https://bjjgraph.com/positions/scramble-position"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Scramble Position",
+  "description": "Master Scramble Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 50%.",
+  "url": "https://bjjgraph.com/positions/scramble-position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Scramble Position
 #bjj #state #transition #neutral #dynamic
 
@@ -11,6 +115,10 @@
 
 ## State Description
 The Scramble Position refers to a highly dynamic transitional state in BJJ where neither practitioner has established clear positional dominance, resulting in a chaotic exchange with rapidly changing configurations. Unlike stable positions with clear structural definitions, scrambles are characterized by fluid movement, temporary connections, and continuous positional battles where both practitioners simultaneously attempt to improve position while preventing the opponent from doing the same. Scrambles often result from failed techniques, escapes, or transitions, and represent critical junctures where matches can be decisively won or lost based on split-second decision making and instinctive technical application. The ability to navigate scrambles effectively is considered a hallmark skill that separates elite competitors from average practitioners.
+
+## Visual Description
+
+Both practitioners are in rapid, continuous motion with bodies tumbling, rolling, and spinning in unpredictable patterns as each seeks to establish control. Legs and arms are extended, retracted, and repositioned frantically, with neither person maintaining consistent top or bottom orientation for more than a second or two. Bodies may be horizontal, vertical, inverted, or at any angle in between, with weight distribution constantly shifting as both athletes scramble for grips, hooks, and base. One practitioner might be partially on top while the other is turtled or on their side, but these configurations change before they can be fully established into recognizable positions. Hands grasp for collars, wrists, ankles, or heads in fleeting attempts at control, while feet search for mats, hips, or legs to establish hooks or push off from. The overall visual impression is one of controlled chaos, where two highly skilled athletes are engaged in a high-speed chess match of body positioning, each racing to resolve the uncertain situation into a favorable stable position before their opponent does. This explosive exchange typically lasts only seconds but feels like an eternity to the participants.
 
 ## Key Principles
 - Maintain constant awareness of weight distribution and base
@@ -86,6 +194,15 @@ The Scramble Position refers to a highly dynamic transitional state in BJJ where
 - [[Turtle Position]] - Often intersects with scramble exchanges
 - [[Leg Entanglement]] - Modern scramble resolution pathway
 - [[Guard Recovery]] - Defensive objective during many scrambles
+
+
+## Related Positions
+
+- [[Front Headlock]] - Related position
+- [[Back Control]] - Related position
+- [[Guard Recovery]] - Related position
+- [[Single Leg X Guard]] - Related position
+- [[Guard Position]] - Related position
 
 ## Decision Tree
 If opponent shows back exposure:

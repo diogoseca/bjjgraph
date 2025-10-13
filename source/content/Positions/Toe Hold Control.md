@@ -1,3 +1,107 @@
+---
+title: "Toe Hold Control | BJJ Position Guide | BJJ Graph"
+description: "Master Toe Hold Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Toe Hold Control in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Toe Hold Control.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Toe Hold Finish",
+      "text": "From this position, execute Toe Hold Finish to transition to Won by Submission.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Ankle Lock",
+      "text": "From this position, execute Transition to Ankle Lock to transition to Straight Ankle Lock.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Toe Hold to Knee Bar",
+      "text": "From this position, execute Toe Hold to Knee Bar to transition to Kneebar Control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Toe Hold to 50/50",
+      "text": "From this position, execute Toe Hold to 50/50 to transition to 50/50 Guard.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Top Position Transition",
+      "text": "From this position, execute Top Position Transition to transition to Top Position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Toe Hold to Heel Hook",
+      "text": "From this position, execute Toe Hold to Heel Hook to transition to Inside Heel Hook.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Toe Hold Control",
+      "item": "https://bjjgraph.com/positions/toe-hold-control"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Toe Hold Control",
+  "description": "Master Toe Hold Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%.",
+  "url": "https://bjjgraph.com/positions/toe-hold-control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Toe Hold Control
 #bjj #state #submission #leglock #control
 
@@ -85,6 +189,15 @@ Toe Hold Control is a specialized submission position where the practitioner man
 - [[Inside Heel Hook]] - Connected leg lock
 - [[50/50 Guard]] - Related leg entanglement
 - [[Ashi Garami]] - Foundational leg control position
+
+
+## Related Positions
+
+- [[Kneebar Control]] - Related position
+- [[Top Position]] - Related position
+- [[Ashi Garami]] - Related position
+- [[Won by Submission]] - Related position
+- [[North-South]] - Related position
 
 ## Decision Tree
 If opponent attempts to boot escape:

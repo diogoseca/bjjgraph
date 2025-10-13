@@ -1,3 +1,122 @@
+---
+title: "Toreando Pass | BJJ Technique | BJJ Graph"
+description: "Learn Toreando Pass in BJJ. Step-by-step execution. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Toreando Pass",
+  "description": "Learn how to execute Toreando Pass in Brazilian Jiu-Jitsu from Open Guard Top to Side Control. Success: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Begin in an Open",
+      "text": "Begin in an Open Guard Top or Standing Guard position, maintaining awareness of the opponent's guard movements and identifying an opportunity to initiate a pass while keeping a strong upright posture.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Establish control by gripping",
+      "text": "Establish control by gripping their pants at the knees or ankles in gi, or controlling their shins or ankles in no-gi, preparing to redirect their legs to one side.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Step to one side",
+      "text": "Step to one side with quick footwork to begin moving their guard frame out of your path, using lateral movement to avoid their control points like feet on hips.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Drive their legs further",
+      "text": "Drive their legs further to the chosen side with your grips, circling around their legs with a lateral step while keeping your hips low and base wide for stability.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Maintain control of their",
+      "text": "Maintain control of their legs, pushing them aside as if waving a bullfighter's cape, adjusting your angle and speed to step fully around their guard while preventing re-engagement.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Step past their hip",
+      "text": "Step past their hip line to secure the pass, keeping your weight centered and hands active to block any attempts to re-guard or sweep.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Complete the Toreando Pass",
+      "text": "Complete the Toreando Pass by transitioning into Side Control, dropping your weight and establishing a crossface and underhook to pin their upper body, or settling into a stable Top Position if they partially recover.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Remain aware of their",
+      "text": "Remain aware of their defensive responses like hip escapes or submission attempts, adapting your grip tightness, foot positioning, and lateral movement to consolidate the pass and maintain dominance.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Toreando Pass",
+  "description": "Learn Toreando Pass in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/toreando-pass",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Toreando Pass",
+      "item": "https://bjjgraph.com/transitions/toreando-pass"
+    }
+  ]
+}
+</script>
+
+
 # Toreando Pass
 #bjj #transition #guard_pass #offense #ground_game
 
@@ -217,6 +336,14 @@ Updates to this standard should be reflected across related transition setup fil
 
 ## Historical Context
 Toreando Pass has been a staple in Brazilian Jiu-Jitsu as a dynamic guard passing technique, particularly effective in competitive gi contexts where mobility and points are prioritized. It reflects the strategic emphasis on agile top game movement taught by modern BJJ schools and has been refined by competitors like Rafael Mendes to counter evolving guard styles.
+
+
+## Related Techniques
+
+- [[Stack Pass]] - Related technique
+- [[Smash Pass]] - Related technique
+- [[Leg Drag Pass]] - Related technique
+- [[Knee Cut Pass]] - Related technique
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels in gi and no-gi competition

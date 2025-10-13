@@ -1,3 +1,90 @@
+---
+title: "Standing Up | BJJ Position Guide | BJJ Graph"
+description: "Master Standing Up in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake regarding Overcommitting weight forward or backward\n- **Why It Fails**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Overcommitting weight forward or backward\n- **Why It Fails**: Makes you vulnerable to takedowns or guard pulls by disrupting balance\n- **Correction**: Keep weight centered with a balanced stance to maintain reaction capability\n- **Recognition**: Opponent easily off-balances you or initiates a successful attack"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake regarding Hands too low or not ready for engagement\n- **Why It Fails**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hands too low or not ready for engagement\n- **Why It Fails**: Delays defensive reactions and allows opponent to establish dominant grips\n- **Correction**: Keep hands up near chest or face level for grip fighting and defense\n- **Recognition**: Opponent secures grips or lands takedown setups without resistance"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake regarding Static positioning without movement or adjustment\n- **Why It Fails**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Static positioning without movement or adjustment\n- **Why It Fails**: Limits reaction time and makes you predictable to opponent's attacks\n- **Correction**: Constantly adjust stance and distance to stay dynamic and ready\n- **Recognition**: Difficulty countering opponent's movements or feeling 'stuck' in place"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Standing Up",
+  "description": "Master Standing Up in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%.",
+  "url": "https://bjjgraph.com/positions/standing-up",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Standing Up",
+      "item": "https://bjjgraph.com/positions/standing-up"
+    }
+  ]
+}
+</script>
+
+
 # Standing Up
 #bjj #position #fundamental #neutral_position
 
@@ -241,10 +328,10 @@ This standard ensures:
 Updates to this standard should be reflected across all position files to maintain consistency and educational value.
 
 ## Related Positions
-- **Standing Position** - General category of neutral standing
-- **Clinch Position** - Common engagement from standing
-- **Top Position** - Potential result of successful takedown
-- **Closed Guard Bottom** - Result of guard pull strategy
+
+- [[Standing Guard]] - Related position
+- [[Standing Position]] - Related position
+
 
 ## Historical Context
 Standing Up is the fundamental starting position in Brazilian Jiu-Jitsu and many other grappling arts, reflecting the initial engagement phase where strategic decisions shape the match's direction. It has been a core element since BJJ's inception, adapted from judo and wrestling traditions.

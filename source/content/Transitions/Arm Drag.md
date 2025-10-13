@@ -1,3 +1,122 @@
+---
+title: "Arm Drag | BJJ Technique | BJJ Graph"
+description: "Learn Arm Drag in BJJ. Step-by-step execution from Standing Position to Back Control. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Arm Drag",
+  "description": "Learn how to execute Arm Drag in Brazilian Jiu-Jitsu from Standing Position to Back Control. Success: Beginner 55%, Intermediate 75%, Advanced 90%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Establish appropriate grip on",
+      "text": "Establish appropriate grip on opponent's arm (typically at wrist, sleeve, or tricep)",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Create misdirection or timing",
+      "text": "Create misdirection or timing opportunity through feint or reaction",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Pull opponent's arm across",
+      "text": "Pull opponent's arm across their centerline while simultaneously moving your body",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Control opponent's dragged arm",
+      "text": "Control opponent's dragged arm to prevent defensive recovery",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Move body to appropriate",
+      "text": "Move body to appropriate angle created by the arm drag",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Secure secondary control points",
+      "text": "Secure secondary control points to solidify positional advantage",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Transition to dominant position",
+      "text": "Transition to dominant position (back control, side control, etc.)",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidate position through appropriate",
+      "text": "Consolidate position through appropriate pressure and control",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Drag",
+  "description": "Learn Arm Drag in BJJ. Step-by-step execution from Standing Position to Back Control. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/arm-drag",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Arm Drag",
+      "item": "https://bjjgraph.com/transitions/arm-drag"
+    }
+  ]
+}
+</script>
+
+
 # Arm Drag
 #bjj #transition #control #takedown #sweep
 
@@ -185,6 +304,14 @@ The Arm Drag has proven highly effective in competition contexts across all leve
 - Gi competition: Leverages secure cloth grips for enhanced control
 - No-gi competition: Relies more on body positioning and timing
 - MMA crossover: Valuable for creating angles for strikes or takedowns
+
+
+## Related Techniques
+
+- [[Collar Drag]] - Related technique
+- [[Ankle Pick]] - Related technique
+- [[Osoto Gari]] - Related technique
+- [[Tani Otoshi]] - Related technique
 
 ## Historical Context
 The Arm Drag represents one of the oldest and most universal grappling techniques, appearing in wrestling traditions worldwide. In folk and freestyle wrestling, variations of the arm drag have been cornerstones of offensive wrestling for centuries. In Brazilian Jiu-Jitsu, the technique was adapted to work effectively from guard positions and for facilitating back takes rather than just takedowns. The technique gained particular prominence through the influence of wrestlers who transitioned to BJJ, bringing refined arm drag mechanics that were then adapted to the specific needs of ground-based grappling. The universality of the arm drag across grappling traditions speaks to its fundamental mechanical efficiency and effectiveness.

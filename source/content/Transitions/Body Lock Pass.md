@@ -1,3 +1,122 @@
+---
+title: "Body Lock Pass | BJJ Technique | BJJ Graph"
+description: "Learn Body Lock Pass in BJJ. Step-by-step execution from Open Guard Top to Side Control. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Body Lock Pass",
+  "description": "Learn how to execute Body Lock Pass in Brazilian Jiu-Jitsu from Open Guard Top to Side Control. Success: Beginner 65%, Intermediate 75%, Advanced 90%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Establish upper body control",
+      "text": "Establish upper body control through the body lock grip by wrapping arms around opponent's torso and clasping hands near their lower back.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Create and maintain high",
+      "text": "Create and maintain high posture with your chest up to prevent opponent's offensive hooks or sweeps.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Apply forward pressure with",
+      "text": "Apply forward pressure with chest and shoulders to limit opponent's mobility and defensive options.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Control opponent's knees or",
+      "text": "Control opponent's knees or legs with your own legs or hands to prevent guard retention or elevation.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Step one leg back",
+      "text": "Step one leg back to create an angle for passing while maintaining body lock control to restrict hip movement.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Drive weight forward and",
+      "text": "Drive weight forward and down with persistent pressure to collapse opponent's posture and reduce their defensive space.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Progress systematically around legs,",
+      "text": "Progress systematically around legs, using hip connection and shoulder pressure to clear remaining defenses.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Transition to side control",
+      "text": "Transition to side control or mount upon clearing the legs, consolidating the new dominant position.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Body Lock Pass",
+  "description": "Learn Body Lock Pass in BJJ. Step-by-step execution from Open Guard Top to Side Control. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/body-lock-pass",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Body Lock Pass",
+      "item": "https://bjjgraph.com/transitions/body-lock-pass"
+    }
+  ]
+}
+</script>
+
+
 # Body Lock Pass
 #bjj #transition #guardpass #pressure #modern
 
@@ -185,6 +304,14 @@ The Body Lock Pass has proven highly effective in competition contexts across al
 - Gi competition: Leverages gi for additional grip options in body lock
 - No-gi competition: Relies on tight upper body control without gi grips
 - MMA crossover: Useful for maintaining top control to avoid strikes or submissions
+
+
+## Related Techniques
+
+- [[Osoto Gari]] - Related technique
+- [[Double leg takedown]] - Related technique
+- [[Smash Pass]] - Related technique
+- [[Toreando Pass]] - Related technique
 
 ## Historical Context
 The Body Lock Pass represents a relatively recent evolution in BJJ passing methodology, gaining prominence in the 2010s as a response to the increasing sophistication of seated open guard play, particularly butterfly guard variations. While elements of upper body control have always existed in traditional passing, the systematic development of the Body Lock Pass as a comprehensive approach is largely credited to the Danaher Death Squad's influence on modern grappling. The technique's effectiveness has been demonstrated at the highest levels of competition by practitioners like Gordon Ryan, Craig Jones, and Lachlan Giles, establishing it as a cornerstone of modern passing strategy.

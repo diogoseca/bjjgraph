@@ -1,3 +1,155 @@
+---
+title: "Crab Ride | BJJ Position Guide | BJJ Graph"
+description: "Master Crab Ride in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Crab Ride in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Crab Ride.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Crab Ride to Back",
+      "text": "From this position, execute Crab Ride to Back to transition to Back Control.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Berimbolo Completion",
+      "text": "From this position, execute Berimbolo Completion to transition to Back Control.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Leg Drag from Crab",
+      "text": "From this position, execute Leg Drag from Crab to transition to Leg Drag Position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Crucifix Entry",
+      "text": "From this position, execute Crucifix Entry to transition to Crucifix Position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Crab to Armbar",
+      "text": "From this position, execute Crab to Armbar to transition to Armbar Control.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Leg Entanglement Entry",
+      "text": "From this position, execute Leg Entanglement Entry to transition to Single Leg X Guard.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Insufficient hip connection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to loss of control, as weak hip engagement allows the opponent to turn or escape more easily. The correction is: Ensure your hooking leg is deeply connected around their waist or hip, maintaining constant pressure to limit their mobility."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Poor upper body control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results in increased defensive mobility for the opponent, enabling them to posture up or initiate escapes. The correction is: Secure strong grips, such as a seatbelt or harness, to keep their upper body compromised and prevent turning motions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Overcommitment to single attack?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Creates predictability, allowing the opponent to anticipate and counter your intended submission or transition. The correction is: Vary your attacks and transitions, using feints or multiple threats to keep the opponent guessing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Crossing feet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Increases vulnerability to leg locks, as crossed feet provide an easy target for the opponent to attack. The correction is: Keep your legs positioned asymmetrically, avoiding crossing them, and be mindful of leg lock threats during transitions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Neglecting grip control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Offers escape opportunities, as without strong grips, the opponent can break connections and regain position. The correction is: Actively fight for and maintain grip control, prioritizing upper body connections to limit their defensive options."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Crab Ride",
+      "item": "https://bjjgraph.com/positions/crab-ride"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crab Ride",
+  "description": "Master Crab Ride in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.com/positions/crab-ride",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Crab Ride
 #bjj #state #back_attack #modern #control
 
@@ -94,6 +246,15 @@ You are positioned to the side of your opponent, not directly behind, maintainin
 - [[Inverted Guard]] - Related modern position
 - [[Leg Drag Position]] - Connected passing position
 - [[Truck Position]] - Eddie Bravo's specialized control position
+
+
+## Related Positions
+
+- [[Back Control]] - Related position
+- [[Leg Drag Position]] - Related position
+- [[Truck Position]] - Related position
+- [[Armbar Control]] - Related position
+- [[Inverted Guard]] - Related position
 
 ## Decision Tree
 If opponent turns away defensively:

@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura Trap System",
+  "description": "The Kimura Trap System represents one of the most versatile and powerful control frameworks in Brazilian Jiu-Jitsu. Unlike a singular submission technique, the Kimura Trap functions as both a contr...",
+  "url": "https://bjjgraph.com/systems/kimura-trap-system",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Systems",
+      "item": "https://bjjgraph.com/systems/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kimura Trap System",
+      "item": "https://bjjgraph.com/systems/kimura-trap-system"
+    }
+  ]
+}
+</script>
+
+
 # Kimura Trap System
 #bjj #submission #chain #kimura #control #trap
 

@@ -1,3 +1,107 @@
+---
+title: "Knee Shield Half Guard | BJJ Position Guide | BJJ Graph"
+description: "Master Knee Shield Half Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 80%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Knee Shield Half Guard in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Knee Shield Half Guard.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Shield to Deep Half",
+      "text": "From this position, execute Knee Shield to Deep Half to transition to Deep Half Guard.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Old School Sweep",
+      "text": "From this position, execute Old School Sweep to transition to Top Half Guard.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute John Wayne Sweep",
+      "text": "From this position, execute John Wayne Sweep to transition to Top Position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Shield to Single Leg X",
+      "text": "From this position, execute Knee Shield to Single Leg X to transition to Single Leg X Guard.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Butterfly Half Transition",
+      "text": "From this position, execute Butterfly Half Transition to transition to Butterfly Half Guard.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Shield to Closed Guard",
+      "text": "From this position, execute Knee Shield to Closed Guard to transition to Closed Guard Bottom.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Knee Shield Half Guard",
+      "item": "https://bjjgraph.com/positions/knee-shield-half-guard"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Shield Half Guard",
+  "description": "Master Knee Shield Half Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 80%.",
+  "url": "https://bjjgraph.com/positions/knee-shield-half-guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Knee Shield Half Guard
 #bjj #state #guard #halfguard #defensive
 
@@ -81,6 +185,15 @@ Knee Shield Half Guard is a variation of the half guard where the bottom player 
 - [[Deep Half Guard]] - Lower engagement half guard variation
 - [[Butterfly Half Guard]] - Hybrid position with butterfly hook
 - [[Closed Guard Bottom]] - Full guard position
+
+
+## Related Positions
+
+- [[Deep Half Guard]] - Related position
+- [[Half Guard Bottom]] - Related position
+- [[Z-Guard]] - Related position
+- [[Butterfly Half Guard]] - Related position
+- [[Closed Guard Bottom]] - Related position
 
 ## Decision Tree
 If opponent drives forward with pressure:

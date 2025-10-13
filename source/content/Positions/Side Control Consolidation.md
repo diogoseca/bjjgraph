@@ -1,3 +1,90 @@
+---
+title: "Side Control Consolidation | BJJ Position Guide | BJJ Graph"
+description: "Master Side Control Consolidation in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake regarding Insufficient chest pressure or high hips\n- **Why It Fails**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Insufficient chest pressure or high hips\n- **Why It Fails**: Allows opponent space to frame or shrimp for guard recovery\n- **Correction**: Drop hips low and center weight over opponent's chest for maximum pressure\n- **Recognition**: Opponent creates space or initiates escape easily"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake regarding Exposed head or neck during control\n- **Why It Fails**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Exposed head or neck during control\n- **Why It Fails**: Leaves vulnerability to guillotine or other submission counters\n- **Correction**: Keep head tight to opponent's shoulder or low to avoid attacks\n- **Recognition**: Opponent reaches for head or neck with arms during control"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake regarding Neglecting far arm or hip control\n- **Why It Fails**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Neglecting far arm or hip control\n- **Why It Fails**: Allows opponent to frame or turn into you for escapes or reversals\n- **Correction**: Secure underhook on far arm or block hip to prevent movement\n- **Recognition**: Opponent turns towards you or frames effectively to disrupt control"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Side Control Consolidation",
+  "description": "Master Side Control Consolidation in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%.",
+  "url": "https://bjjgraph.com/positions/side-control-consolidation",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Side Control Consolidation",
+      "item": "https://bjjgraph.com/positions/side-control-consolidation"
+    }
+  ]
+}
+</script>
+
+
 # Side Control Consolidation
 #bjj #position #control #top_position
 
@@ -241,10 +328,9 @@ This standard ensures:
 Updates to this standard should be reflected across all position files to maintain consistency and educational value.
 
 ## Related Positions
-- **Side Control** - Base position before consolidation
-- **Mount** - Common advancement from consolidated side control
-- **North-South** - Alternative control position if opponent turns away
-- **Knee on Belly** - Dynamic variation for pressure before consolidating
+
+- [[Side Control]] - Related position
+
 
 ## Historical Context
 Side Control Consolidation has been a fundamental aspect of Brazilian Jiu-Jitsu since its early development, emphasizing the importance of control and pressure in top positions. It reflects the strategic focus on dominance and submission setups that define BJJ as a martial art.

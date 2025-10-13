@@ -1,3 +1,107 @@
+---
+title: "Truck Position | BJJ Position Guide | BJJ Graph"
+description: "Master Truck Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Truck Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Truck Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Twister Setup",
+      "text": "From this position, execute Twister Setup to transition to Twister Control.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Calf Slicer",
+      "text": "From this position, execute Calf Slicer to transition to Won by Submission.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Banana Split",
+      "text": "From this position, execute Banana Split to transition to Won by Submission.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Truck to Back",
+      "text": "From this position, execute Truck to Back to transition to Back Control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Lockdown from Truck",
+      "text": "From this position, execute Lockdown from Truck to transition to Electric Chair.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Honeyhole Transition",
+      "text": "From this position, execute Honeyhole Transition to transition to Inside Sankaku.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Truck Position",
+      "item": "https://bjjgraph.com/positions/truck-position"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Truck Position",
+  "description": "Master Truck Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
+  "url": "https://bjjgraph.com/positions/truck-position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Truck Position
 #bjj #state #control #10thplanet #submission
 
@@ -11,6 +115,10 @@
 
 ## State Description
 The Truck Position (also known as "The Twister Position") is a specialized control position developed and popularized by Eddie Bravo within his 10th Planet Jiu-Jitsu system. In this position, the controlling practitioner is positioned perpendicular to their opponent, with one leg threaded underneath the opponent's leg and the other leg hooked over top, creating a figure-four leg entanglement that controls the opponent's lower body while maintaining upper body control through various grips. This position offers exceptional control with multiple high-percentage submission options including the Twister, Banana Split, Calf Slicer, and back takes, making it one of the most versatile specialized control positions in modern BJJ.
+
+## Visual Description
+
+You are positioned on your side, your body perpendicular to your opponent who lies on their side or partially inverted, with your legs forming a figure-four lock around one of their legs. Your bottom leg threads under their leg while your top leg hooks over it, your feet locking together to create a tight leg entanglement that immobilizes their lower body. Your opponent's trapped leg is bent and controlled, preventing them from using it to create base or mobility, while their free leg struggles to find purchase on the mat. Your hands control their upper body through grips on their far arm, shoulder, or head, or you may establish an underhook or use a gi grip to prevent them from turning away or establishing defensive frames. The opponent is twisted uncomfortably, their hips and shoulders facing different directions due to your perpendicular alignment and leg control, creating significant strain on their back and hip. Your chest presses against their hip or lower back, applying pressure that pins them in place while you maintain the figure-four leg lock. This asymmetric configuration severely limits their mobility and creates openings for multiple submission attacks, as they struggle against the conflicting pressures on their upper and lower body, unable to generate the coordinated movement needed to escape.
 
 ## Key Principles
 - Establish figure-four leg entanglement around opponent's leg
@@ -81,6 +189,15 @@ The Truck Position (also known as "The Twister Position") is a specialized contr
 - [[Twister Control]] - Specialized submission position
 - [[Electric Chair]] - Related 10th Planet position
 - [[Back Control]] - Common transition destination
+
+
+## Related Positions
+
+- [[Electric Chair]] - Related position
+- [[Twister Control]] - Related position
+- [[Back Control]] - Related position
+- [[Inside Sankaku]] - Related position
+- [[Crab Ride]] - Related position
 
 ## Decision Tree
 If opponent actively defends upper body:

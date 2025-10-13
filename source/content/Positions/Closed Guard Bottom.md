@@ -1,3 +1,155 @@
+---
+title: "Closed Guard Bottom | BJJ Position Guide | BJJ Graph"
+description: "Master Closed Guard Bottom in BJJ. Complete guide covering setup, control, sweeps, and submissions. Success rates: Beginner 60%, Intermediate 70%, Advanced 80%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Closed Guard Bottom in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Closed Guard Bottom.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Hip Bump Sweep",
+      "text": "From this position, execute Hip Bump Sweep to transition to Mount.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Scissor Sweep",
+      "text": "From this position, execute Scissor Sweep to transition to Mount.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Pendulum Sweep",
+      "text": "From this position, execute Pendulum Sweep to transition to Mount.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Triangle Choke",
+      "text": "From this position, execute Triangle Choke to transition to Triangle Control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Armbar",
+      "text": "From this position, execute Armbar to transition to Armbar Control.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Omoplata",
+      "text": "From this position, execute Omoplata to transition to Omoplata Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Keeping a flat, square position?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Makes it easy for the opponent to maintain posture, reducing your ability to initiate effective attacks or sweeps. The correction is: Shift your hips to create angles, using off-balancing techniques to disrupt the opponent's posture and open attack opportunities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Focusing on only one attack?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to predictable offense, allowing the opponent to anticipate and counter your moves with prepared defenses. The correction is: Chain multiple attacks together, such as combining sweeps with submissions, to keep the opponent guessing and create openings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Loose legs/ankles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Allows the opponent space to initiate passes, weakening your control and increasing the risk of guard loss. The correction is: Keep your legs tight around the opponent's waist with ankles crossed securely, maintaining constant hip connection to eliminate space."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Ineffective gripping?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results in an inability to control the opponent's posture, making it harder to set up attacks or prevent passes. The correction is: Use strong, strategic grips on the collar, sleeves, or wrists to break the opponent's posture and maintain upper body control."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Staying too flat?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Limits offensive options, reducing your ability to create angles or initiate dynamic attacks from the guard. The correction is: Engage your core to elevate your upper body slightly or shift your hips, creating better leverage for sweeps and submissions."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Closed Guard Bottom",
+      "item": "https://bjjgraph.com/positions/closed-guard-bottom"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Closed Guard Bottom",
+  "description": "Master Closed Guard Bottom in BJJ. Complete guide covering setup, control, sweeps, and submissions. Success rates: Beginner 60%, Intermediate 70%, Advanced 80%.",
+  "url": "https://bjjgraph.com/positions/closed-guard-bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Closed Guard Bottom
 #bjj #state #guard #bottom
 
@@ -90,6 +242,15 @@ You are lying on your back on the mat, with your legs tightly wrapped around you
 - [[Rubber Guard]] - Specialized closed guard variation (Eddie Bravo)
 - [[Williams Guard]] - High closed guard variation (Eddie Bravo)
 - [[Butterfly Guard]] - Open guard with hooks under opponent's thighs
+
+
+## Related Positions
+
+- [[Mount]] - Related position
+- [[Half Guard Bottom]] - Related position
+- [[Open Guard Bottom]] - Related position
+- [[Butterfly Guard]] - Related position
+- [[Reverse De La Riva Guard]] - Related position
 
 ## Decision Tree
 If opponent establishes strong posture:

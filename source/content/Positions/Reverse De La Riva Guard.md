@@ -1,3 +1,107 @@
+---
+title: "Reverse De La Riva Guard | BJJ Position Guide | BJJ Graph"
+description: "Master Reverse De La Riva Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Reverse De La Riva Guard in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Reverse De La Riva Guard.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute RDLR Inversion",
+      "text": "From this position, execute RDLR Inversion to transition to Berimbolo.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kiss of the Dragon",
+      "text": "From this position, execute Kiss of the Dragon to transition to Back Control.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute RDLR to Single Leg X",
+      "text": "From this position, execute RDLR to Single Leg X to transition to Single Leg X Guard.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Reverse X Transition",
+      "text": "From this position, execute Reverse X Transition to transition to Reverse X Guard.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute RDLR to X-Guard",
+      "text": "From this position, execute RDLR to X-Guard to transition to X-Guard.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute RDLR Back Take",
+      "text": "From this position, execute RDLR Back Take to transition to Back Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Reverse De La Riva Guard",
+      "item": "https://bjjgraph.com/positions/reverse-de-la-riva-guard"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reverse De La Riva Guard",
+  "description": "Master Reverse De La Riva Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
+  "url": "https://bjjgraph.com/positions/reverse-de-la-riva-guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Reverse De La Riva Guard
 #bjj #state #guard #open_guard #rdlr
 
@@ -11,6 +115,10 @@
 
 ## State Description
 Reverse De La Riva Guard (RDLR) is a modern guard variation that emerged as a counter to specific passing strategies, particularly the knee cut and leg drag passes. The position is characterized by the bottom player hooking the opponent's non-passing leg with their outside leg, while the inside leg creates a frame across the opponent's hip or thigh. RDLR serves as both a defensive position to prevent passes and an offensive launching pad for sweeps, back takes, and transitions to other guards, making it a crucial component of the modern guard system.
+
+## Visual Description
+
+You are on your side or partially inverted, with your outside leg hooking deep behind your opponent's far knee or thigh, your foot curling around to secure the back of their leg. Your inside leg extends as an active frame against their nearside hip or thigh, preventing them from driving their knee across your body to complete a pass. Your far arm typically grips their sleeve or wrist on the same side as your hooking leg, controlling their ability to base or grip, while your near arm may control their belt, pants at the hip, or reach for their far collar. Your opponent is typically bent forward in a passing posture, one knee attempting to cut across your legs or one leg extended back as they work to clear your frame and establish side control. Your hips remain mobile and angled, not flat on your back, creating the spatial relationship necessary to both defend the pass and initiate offensive attacks. This asymmetric configuration creates a defensive shield against specific passes while loading your outside leg hook for sweeps, inversions, and back take attempts.
 
 ## Key Principles
 - Hook opponent's non-passing leg with your outside leg
@@ -82,6 +190,15 @@ Reverse De La Riva Guard (RDLR) is a modern guard variation that emerged as a co
 - [[X-Guard]] - Related leg control position
 - [[Half Guard Bottom]] - Alternative defensive position
 - [[Butterfly Guard]] - Complementary guard system
+
+
+## Related Positions
+
+- [[X-Guard]] - Related position
+- [[Single Leg X Guard]] - Related position
+- [[De La Riva Guard]] - Related position
+- [[Half Guard Bottom]] - Related position
+- [[Butterfly Guard]] - Related position
 
 ## Decision Tree
 If opponent attempts knee cut pass:

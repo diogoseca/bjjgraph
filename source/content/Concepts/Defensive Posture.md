@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Defensive Posture",
+  "description": "Defensive Posture represents the foundational body positioning and structural alignment that maximizes defensive capability while minimizing vulnerability during all phases of BJJ. Unlike specific ...",
+  "url": "https://bjjgraph.com/concepts/defensive-posture",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.com/concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Defensive Posture",
+      "item": "https://bjjgraph.com/concepts/defensive-posture"
+    }
+  ]
+}
+</script>
+
+
 # Defensive Posture
 #bjj #concept #defense #fundamental #structure
 

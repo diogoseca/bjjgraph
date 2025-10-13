@@ -1,3 +1,106 @@
+---
+title: "Won by Submission | BJJ Position Guide | BJJ Graph"
+description: "Master Won by Submission in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common error in this position?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Forcing Submission**: Overcommitting to a single submission without adapting to defense (Correction: Chain attacks based on opponent response)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common error in this position?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Poor Control Maintenance**: Losing positional dominance before submission attempt (Correction: Prioritize control points before attacking)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common error in this position?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Incorrect Timing**: Applying submission too early or late, missing optimal window (Correction: Recognize defensive triggers for attack)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common error in this position?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Neglecting Safety**: Failing to release submission promptly upon tap (Correction: Maintain awareness of submission signals)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common error in this position?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Lack of Sportsmanship**: Not displaying respect post-victory (Correction: Adhere to BJJ etiquette with handshake or bow)."
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Won by Submission",
+  "description": "Master Won by Submission in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
+  "url": "https://bjjgraph.com/positions/won-by-submission",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Won by Submission",
+      "item": "https://bjjgraph.com/positions/won-by-submission"
+    }
+  ]
+}
+</script>
+
+
 # Won by Submission
 #bjj #state #end_state #victory
 

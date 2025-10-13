@@ -1,3 +1,106 @@
+---
+title: "Balloon Sweep | BJJ Technique | BJJ Graph"
+description: "Learn Balloon Sweep in BJJ. Step-by-step execution from Closed Guard Bottom to Mount. Success: Beginner 35%, Intermediate 60%, Advanced 80%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Balloon Sweep",
+  "description": "Learn how to execute Balloon Sweep in Brazilian Jiu-Jitsu from Closed Guard Bottom to Mount.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish cross-collar grip and same-side sleeve control from closed guard",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Bring both knees up toward chest while maintaining grip control",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically tries to maintain base or adjust their posture",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Adjust timing and grip tension based on their balance and reaction",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Explosively extend legs upward and over their head while pulling with grips",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Follow through by rolling over opponent to secure mount position",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Balloon Sweep",
+      "item": "https://bjjgraph.com/transitions/balloon-sweep"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Balloon Sweep",
+  "description": "Learn Balloon Sweep in BJJ. Step-by-step execution from Closed Guard Bottom to Mount. Success: Beginner 35%, Intermediate 60%, Advanced 80%.",
+  "url": "https://bjjgraph.com/transitions/balloon-sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Balloon Sweep
 #bjj #transition #sweep #closed_guard #fundamental
 
@@ -217,11 +320,12 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **Hip Bump Sweep** - Similar closed guard sweep with different mechanics
-- **Flower Sweep** - Alternative fundamental sweep from closed guard
-- **Scissor Sweep** - Another closed guard sweep option
-- **Triangle Setup** - Common follow-up if sweep is defended
-- **Armbar from Guard** - Alternative attack using similar grip control
+
+- [[Flower Sweep]] - Related technique
+- [[Hip Bump Sweep]] - Related technique
+- [[Scissor Sweep]] - Related technique
+- [[Waiter Sweep]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points) plus mount (4 points)

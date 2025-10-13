@@ -1,3 +1,122 @@
+---
+title: "Leg Drag Setup | BJJ Technique | BJJ Graph"
+description: "Learn Leg Drag Setup in BJJ. Step-by-step execution. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Leg Drag Setup",
+  "description": "Learn how to execute Leg Drag Setup in Brazilian Jiu-Jitsu from Open Guard to Leg Drag Pass. Success: Beginner 60%, Intermediate 75%, Advanced 85%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Begin in top Open",
+      "text": "Begin in top Open Guard or De La Riva Guard, recognizing the opportunity to set up a pass when the opponent's legs are accessible for control.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Establish a strong posture",
+      "text": "Establish a strong posture by straightening your back and tucking your elbows in to break their grip control over your upper body, maintaining balance to prevent submissions.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Step to one side",
+      "text": "Step to one side (opposite the leg you intend to drag) to angle your body for the setup, keeping your weight centered to avoid overcommitting and exposing yourself to sweeps.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Secure a grip on",
+      "text": "Secure a grip on the targeted leg near the ankle with one hand, using a firm hold to prepare for dragging, while controlling their knee or shin with your other hand to prevent re-entanglement or framing.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Maintain your posture and",
+      "text": "Maintain your posture and grips, keeping your hips slightly back to avoid being pulled into their guard, ensuring the targeted leg is isolated and ready for the subsequent drag across their body.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Monitor their other leg",
+      "text": "Monitor their other leg and upper body for defensive adjustments, mentally preparing for the next step of dragging the leg to initiate the full Leg Drag Pass, conserving energy during this preparatory phase.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Remain aware of their",
+      "text": "Remain aware of their attempts to break your grips or re-guard, adjusting your stance and grip strength to counter their defenses and maintain control of the setup position.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Transition smoothly into the",
+      "text": "Transition smoothly into the Leg Drag Pass by visualizing the drag direction and preparing your body to step forward, having established the necessary control points for the pass.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Drag Setup",
+  "description": "Learn Leg Drag Setup in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/leg-drag-setup",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Leg Drag Setup",
+      "item": "https://bjjgraph.com/transitions/leg-drag-setup"
+    }
+  ]
+}
+</script>
+
+
 # Leg Drag Setup
 #bjj #transition #guard_pass #setup #offense
 
@@ -217,6 +336,14 @@ Updates to this standard should be reflected across related transition setup fil
 
 ## Historical Context
 The Leg Drag Setup and subsequent pass gained prominence in modern BJJ through practitioners like Rafa Mendes and the Atos team, revolutionizing guard passing strategies in competition by focusing on leg control to disrupt guard retention systems.
+
+
+## Related Techniques
+
+- [[Single Leg X Entry]] - Related technique
+- [[Snap Down]] - Related technique
+- [[Collar Drag]] - Related technique
+- [[Leg Drag Pass]] - Related technique
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels in gi and no-gi competition

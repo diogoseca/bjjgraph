@@ -1,3 +1,155 @@
+---
+title: "Backside 50/50 | BJJ Position Guide | BJJ Graph"
+description: "Master Backside 50/50 in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 70%, Intermediate 80%, Advanced 90%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Backside 50/50 in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Backside 50/50.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Backside 50/50 Heel Hook",
+      "text": "From this position, execute Backside 50/50 Heel Hook to transition to Inside Heel Hook.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Cross Ashi Transition",
+      "text": "From this position, execute Cross Ashi Transition to transition to Cross Ashi Garami.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Top Position",
+      "text": "From this position, execute Transition to Top Position to transition to Top Position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Backside 50/50 Ankle Lock",
+      "text": "From this position, execute Backside 50/50 Ankle Lock to transition to Straight Ankle Lock.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Leg Reap Variation",
+      "text": "From this position, execute Leg Reap Variation to transition to Inside Sankaku.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Back Step to Mount",
+      "text": "From this position, execute Back Step to Mount to transition to Mount.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Insufficient backside angle?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to reduced heel exposure, making submissions like the heel hook less effective and increasing the chance of defensive rotation. The correction is: Ensure you position yourself fully behind the opponent's leg, maintaining a clear backside angle to maximize submission potential."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Poor knee line control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Creates a defensive rotation opportunity for the opponent, allowing them to turn and reduce your control or counter-attack. The correction is: Focus on controlling the opponent's knee line with your legs and hips to prevent any rotational movement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Premature breaking attempt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results in position compromise as rushing the submission can loosen your control, giving the opponent a chance to escape. The correction is: Establish complete control over the leg and upper body before initiating breaking mechanics for submissions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Neglecting upper body positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to reduced overall control, allowing the opponent to create frames or disrupt your position with their hands. The correction is: Use your arms to control the opponent's posture or hands, ensuring they cannot establish defensive grips."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Insufficient hip pressure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Causes suboptimal breaking mechanics, making it harder to finish submissions like the heel hook effectively. The correction is: Apply strategic hip pressure to isolate the opponent's leg and enhance the leverage for breaking mechanics."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Backside 50/50",
+      "item": "https://bjjgraph.com/positions/backside-50-50"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Backside 50/50",
+  "description": "Master Backside 50/50 in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 70%, Intermediate 80%, Advanced 90%.",
+  "url": "https://bjjgraph.com/positions/backside-50-50",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Backside 50/50
 #bjj #state #leglock #entanglement #modern
 
@@ -97,6 +249,15 @@ You are positioned behind your opponent's leg, seated or on your side, with thei
 - [[Cross Ashi Garami]] - Related leg control position
 - [[Inside Heel Hook]] - Primary submission threat
 - [[Straight Ankle Lock]] - Secondary submission option
+
+
+## Related Positions
+
+- [[Inside Sankaku]] - Related position
+- [[Top Position]] - Related position
+- [[Ashi Garami]] - Related position
+- [[Guillotine Control]] - Related position
+- [[Knee on Belly]] - Related position
 
 ## Decision Tree
 If opponent attempts to hide heel:

@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Whizzer Control",
+  "description": "The Whizzer (also known as an overhook or \"wizzer\") is a defensive control mechanism where the practitioner places their arm over the opponent's underhooking arm and applies downward pressure to ne...",
+  "url": "https://bjjgraph.com/concepts/whizzer-control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.com/concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Whizzer Control",
+      "item": "https://bjjgraph.com/concepts/whizzer-control"
+    }
+  ]
+}
+</script>
+
+
 # Whizzer Control
 #bjj #control #defense #wrestling #counter
 

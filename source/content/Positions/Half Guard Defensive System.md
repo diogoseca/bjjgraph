@@ -1,3 +1,106 @@
+---
+title: "Half Guard Defensive System | BJJ Position Guide | BJJ Graph"
+description: "Master Half Guard Defensive System in BJJ. Complete guide covering setup, control, escapes, and transitions."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Failing to establish frames before being flattened?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Progressive positional deterioration"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Reaching for full guard recovery prematurely?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Exposure to passing sequences"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Neglecting underhook priority?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Crossface vulnerability and flattening"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor knee position in half guard?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Smash pass vulnerability"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Insufficient hip mobility?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Limited defensive options"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Half Guard Defensive System",
+  "description": "Master Half Guard Defensive System in BJJ. Complete guide covering setup, control, escapes, and transitions.",
+  "url": "https://bjjgraph.com/positions/half-guard-defensive-system",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Half Guard Defensive System",
+      "item": "https://bjjgraph.com/positions/half-guard-defensive-system"
+    }
+  ]
+}
+</script>
+
+
 # Half Guard Defensive System
 #bjj #defense #system #halfguard #guard #recovery
 
@@ -44,6 +147,15 @@ The Half Guard Defensive System serves as a critical capability that transforms 
 6. Neutralize opponent's primary passing pressure
 7. Progressively improve position through incremental defensive movements
 8. Create counter-offensive opportunity or full guard recovery when appropriate
+
+
+## Related Positions
+
+- [[Half Guard Top]] - Related position
+- [[Half Guard to Back Take]] - Related position
+- [[Deep Half Guard]] - Related position
+- [[Guard Recovery System]] - Related position
+- [[Defensive Position]] - Related position
 
 ## Decision Tree
 - If opponent has not secured crossface in half guard → Execute [[Underhook Acquisition]] → [[Knee Shield Establishment]]

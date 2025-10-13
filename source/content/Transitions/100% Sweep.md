@@ -1,3 +1,130 @@
+---
+title: "100% Sweep | BJJ Technique | BJJ Graph"
+description: "Learn 100% Sweep in BJJ. Step-by-step execution. Success: Beginner 20%, Intermediate 40%, Advanced 60%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "100% Sweep",
+  "description": "Learn how to execute 100% Sweep in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Start in Closed Guard Bottom with legs locked around opponent",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Grip Establishment",
+      "text": "Control opponent's wrists or sleeves to limit their actions",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Posture Control",
+      "text": "Maintain tight guard, squeeze knees to break opponent's posture",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Arm Isolation",
+      "text": "Trap one arm across your body using overhook or grip control",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Preparation",
+      "text": "Shift hips to side of trapped arm, create angle for sweep",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Leg Adjustment",
+      "text": "Unlock one leg, plant foot on mat for leverage and hip escape",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Off-Balance Action",
+      "text": "Pull opponent forward/down with legs, swing trapped arm across",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Drive",
+      "text": "Drive hips upward and to side, use planted foot to push off mat",
+      "position": 8
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Sweep Completion",
+      "text": "Roll opponent over trapped arm/shoulder, maintain upper body control",
+      "position": 9
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Position Consolidation",
+      "text": "Follow through to top position, secure underhook/head control",
+      "position": 10
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "100% Sweep",
+      "item": "https://bjjgraph.com/transitions/100-sweep"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "100% Sweep",
+  "description": "Learn 100% Sweep in BJJ. Step-by-step execution. Success: Beginner 20%, Intermediate 40%, Advanced 60%.",
+  "url": "https://bjjgraph.com/transitions/100%-sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # 100% Sweep
 #bjj #transition #sweep #closed_guard #advanced
 
@@ -225,10 +352,12 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **Closed Guard Bottom** - Primary starting position for this sweep
-- **Hip Bump Sweep** - Similar fundamental closed guard sweep with different mechanics
-- **Scissor Sweep** - Alternative closed guard sweep with different leverage
-- **Top Position** - Common outcome after successful sweep
+
+- [[Omoplata Sweep]] - Related technique
+- [[Muscle Sweep]] - Related technique
+- [[Heel Grab Sweep]] - Related technique
+- [[Tripod Sweep]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points)

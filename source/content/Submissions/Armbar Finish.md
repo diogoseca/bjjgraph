@@ -1,3 +1,51 @@
+---
+title: "Armbar Finish | BJJ Submission Guide | BJJ Graph"
+description: "From the armbar control position, you have the opponent's arm fully isolated, with their elbow secured against your hip or pelvis as you prepare to apply the finishing pressure. Your hips are..."
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Armbar Finish",
+  "description": "From the armbar control position, you have the opponent's arm fully isolated, with their elbow secured against your hip or pelvis as you prepare to apply the finishing pressure. Your hips are...",
+  "url": "https://bjjgraph.com/submissions/armbar-finish",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Armbar Finish",
+      "item": "https://bjjgraph.com/submissions/armbar-finish"
+    }
+  ]
+}
+</script>
+
 # Armbar Finish
 #bjj #transition #submission #armlock #finish
 
@@ -35,14 +83,64 @@ From the armbar control position, you have the opponent's arm fully isolated, wi
 
 **Template**: "From armbar control, isolate their arm with elbow at your hip, hips perpendicular to their arm. Squeeze legs together to block rotation and grip their wrist with thumb up. Apply initial pressure to remove slack, then extend hips and pull grip for hyperextension. Increase force perpendicular to elbow until submission or tap."
 
-### Execution Steps (Numbered Sequence)
-1. **Setup Requirements**: Establish armbar control with opponent's arm fully isolated
-2. **Initial Movement**: Position hips perpendicular to opponent's arm alignment
-3. **Opponent Response**: Opponent may attempt to rotate arm or stack position
-4. **Adaptation**: Establish optimal grip (palm-to-palm or figure-four) on wrist/forearm
-5. **Positioning**: Squeeze legs together, top leg applying downward pressure
-6. **Pressure Application**: Apply initial pressure to eliminate defensive slack
-7. **Completion**: Extend hips and pull grip to hyperextend elbow for submission
+## Execution Steps
+
+**SAFETY REMINDER**: Apply pressure SLOWLY over 3-5 seconds. Watch for tap signals continuously. Elbow hyperextension can cause permanent joint damage.
+
+### Step-by-Step Execution
+
+### Step 1: Arm Isolation Verification (Setup Phase)
+From armbar control position, verify that the opponent's arm is fully isolated with their elbow positioned against your hip or pelvis.
+- Their arm should be completely trapped between your legs
+- Your legs should be squeezed together to prevent arm rotation
+- Their elbow is the fulcrum point - it must be at your hip
+- Safety check: Ensure partner can tap with their free hand or verbally
+
+### Step 2: Hip Positioning (Alignment Phase)
+Position your hips perpendicular to the opponent's arm, creating the optimal angle for hyperextension leverage.
+- Your body should form a "T" shape with their body
+- Elevate your hips off the mat slightly to create tension
+- Keep your back arched to maintain pressure on their shoulder
+- Partner check: Confirm their elbow is locked at the correct angle
+
+### Step 3: Grip Establishment (Control Phase)
+Secure a strong grip on their wrist or forearm using either a palm-to-palm or figure-four configuration, ensuring their thumb points upward.
+- Thumb-up position aligns the elbow for proper hyperextension
+- Your grip should be tight but allow them to tap
+- Pull their arm close to your chest to eliminate slack
+- Speed: Grip firmly but don't yank or jerk
+- Watch for: Any defensive hand fighting or grip breaks
+
+### Step 4: Leg Squeeze and Control (Stabilization Phase)
+Squeeze your legs together tightly, with your top leg applying downward pressure across their face or chest to prevent rotation.
+- Your knees and thighs should be compressed together
+- Top leg controls their ability to turn into the submission
+- Bottom leg hooks behind their head for additional control
+- Monitor: Any bridging or stacking attempts
+
+### Step 5: Slack Elimination (Pre-Pressure Phase)
+Pull their wrist toward your chest while slightly extending your hips to remove all defensive space from the joint.
+- This "pre-load" phase sets up the final submission
+- There should be no bend or "play" left in their elbow
+- Their arm should feel taut but not yet hyperextending
+- Critical: This is where you prepare for final pressure - check for tap first
+
+### Step 6: Hip Extension and Finish (Completion Phase)
+Extend your hips upward while simultaneously pulling down on their wrist over 3-5 seconds, creating controlled hyperextension of the elbow joint.
+- Hip extension provides the primary force
+- Pulling the wrist enhances the hyperextension angle
+- Pressure should be perpendicular to their elbow joint
+- **FEEL FOR TAP**: Hand tapping your leg/body, foot tapping, verbal "tap"
+- **RELEASE IMMEDIATELY**:
+  - Stop hip extension instantly
+  - Release wrist grip smoothly (don't drop their arm)
+  - Open your legs to free their arm
+  - Allow their elbow to return to neutral slowly
+  - Ask: "Elbow okay? Any pain or popping?"
+- Post-submission: Check their elbow range of motion and comfort
+- Watch for: Any swelling, inability to straighten arm, or unusual pain
+
+**Total Execution Time in Training**: 3-5 seconds from slack elimination to tap. In drilling, stop at 70% extension (when resistance is felt) to prevent injury.
 
 ### Key Technical Details
 Critical elements that determine success:

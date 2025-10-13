@@ -1,3 +1,155 @@
+---
+title: "Armbar Control | BJJ Position Guide | BJJ Graph"
+description: "Master Armbar Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 60%, Intermediate 70%, Advanced 80%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Armbar Control in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Armbar Control.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Armbar Finish",
+      "text": "From this position, execute Armbar Finish to transition to Won by Submission.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Armbar to Triangle",
+      "text": "From this position, execute Armbar to Triangle to transition to Triangle Control.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Armbar to Omoplata",
+      "text": "From this position, execute Armbar to Omoplata to transition to Omoplata Control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Juji Gatame Variation",
+      "text": "From this position, execute Juji Gatame Variation to transition to Won by Submission.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Switch to Kimura",
+      "text": "From this position, execute Switch to Kimura to transition to Kimura Control.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Armbar to Back Control",
+      "text": "From this position, execute Armbar to Back Control to transition to Back Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Insufficient arm isolation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Creates defensive escape opportunities as the opponent can pull their arm free or posture up. The correction is: Ensure both hands control the opponent's wrist, pulling it tightly to your chest before securing with your legs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Poor hip positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results in reduced leverage, making it harder to hyperextend the arm for the submission. The correction is: Align your hips directly with the opponent's elbow joint to maximize pressure and control."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Crossing ankles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Increases vulnerability to counters, as the opponent can apply pressure to break your position. The correction is: Keep your ankles uncrossed, with one leg over the opponent's body and the other under their arm or back for stability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Pulling with arms rather than using hips?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to energy inefficiency, tiring you out quickly and reducing the effectiveness of the submission. The correction is: Focus on extending your hips to apply pressure against the elbow, using your arms only to maintain control."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Telegraphing submission intent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Increases defensive awareness, allowing the opponent to prepare counters or escapes before the attack is fully set. The correction is: Set up the armbar subtly, maintaining control and transitioning smoothly without obvious signals of intent."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Armbar Control",
+      "item": "https://bjjgraph.com/positions/armbar-control"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Armbar Control",
+  "description": "Master Armbar Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 60%, Intermediate 70%, Advanced 80%.",
+  "url": "https://bjjgraph.com/positions/armbar-control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Armbar Control
 #bjj #state #submission #jointlock #armbar
 
@@ -94,6 +246,15 @@ You are positioned either on top of or beside your opponent, depending on the en
 - [[Omoplata Control]] - Related shoulder submission
 - [[Cross Body Control]] - Potential transition position
 - [[Top Mount]] - Common entry position
+
+
+## Related Positions
+
+- [[Omoplata Control]] - Related position
+- [[Triangle Control]] - Related position
+- [[Won by Submission]] - Related position
+- [[Inside Sankaku]] - Related position
+- [[Guillotine Control]] - Related position
 
 ## Decision Tree
 If opponent defends with hand grip:

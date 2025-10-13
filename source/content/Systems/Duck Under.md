@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Duck Under",
+  "description": "The Duck Under is a fundamental wrestling-derived technique adapted for BJJ that creates a powerful positional advantage by allowing the practitioner to move from a neutral or clinch position to be...",
+  "url": "https://bjjgraph.com/systems/duck-under",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Systems",
+      "item": "https://bjjgraph.com/systems/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Duck Under",
+      "item": "https://bjjgraph.com/systems/duck-under"
+    }
+  ]
+}
+</script>
+
+
 # Duck Under
 #bjj #technique #takedown #wrestling #clinch
 

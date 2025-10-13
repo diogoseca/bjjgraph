@@ -1,3 +1,107 @@
+---
+title: "X-Guard | BJJ Position Guide | BJJ Graph"
+description: "Master X-Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use X-Guard in BJJ",
+  "description": "Complete guide to executing techniques and transitions from X-Guard.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Classic X-Guard Sweep",
+      "text": "From this position, execute Classic X-Guard Sweep to transition to Top Position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Technical Stand-up Sweep",
+      "text": "From this position, execute Technical Stand-up Sweep to transition to Top Position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute X-Guard to Single Leg X",
+      "text": "From this position, execute X-Guard to Single Leg X to transition to Single Leg X Guard.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute X-Guard to Ashi Garami",
+      "text": "From this position, execute X-Guard to Ashi Garami to transition to Ashi Garami.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Reverse X Transition",
+      "text": "From this position, execute Reverse X Transition to transition to Reverse X Guard.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Ankle Pick from X-Guard",
+      "text": "From this position, execute Ankle Pick from X-Guard to transition to Top Position.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "X-Guard",
+      "item": "https://bjjgraph.com/positions/x-guard"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "X-Guard",
+  "description": "Master X-Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
+  "url": "https://bjjgraph.com/positions/x-guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # X-Guard
 #bjj #state #guard #leg_entanglement #open_guard
 
@@ -11,6 +115,10 @@
 
 ## State Description
 X-Guard is an advanced open guard variation where the bottom player entangles one of the opponent's legs, using both of their own legs to control it while creating strong leverage for sweeps and transitions. This position provides exceptional control over the opponent's balance and mobility, creating powerful sweeping opportunities and serving as a gateway to various leg entanglements. X-Guard is characterized by the "X" formation created by the bottom player's legs around the opponent's leg.
+
+## Visual Description
+
+You are on your back or partially seated with both of your legs forming an X-shaped entanglement around one of your opponent's legs, your top leg hooking over the outside of their thigh while your bottom leg hooks under and inside their same leg, creating a scissoring control. Your opponent stands on their free leg above you, their trapped leg elevated and completely controlled between your crossed legs, severely compromising their balance and ability to generate base. Your hands typically grip their pants at the ankle or knee of the trapped leg, or control their belt, collar, or other leg to prevent them from establishing a stable base or initiating passing sequences. The opponent's weight is unevenly distributed, forced to balance on one leg while you control the other, their upper body often leaning or shifting as they struggle to maintain equilibrium. Your hips remain mobile, able to generate angles and leverage by extending or retracting your legs, while your back may be flat or partially elevated depending on the specific sweeping or transitional attack you're setting up. This configuration creates a powerful mechanical advantage where small hip movements translate into large disruptions of your opponent's balance, making them vulnerable to sweeps in multiple directions while providing direct entries into modern leg entanglement systems.
 
 ## Key Principles
 - Control opponent's base leg through proper leg positioning
@@ -77,6 +185,15 @@ X-Guard is an advanced open guard variation where the bottom player entangles on
 - [[Reverse X Guard]] - Inverted variation with different control angles
 - [[Ashi Garami]] - Leg entanglement often entered from X-Guard
 - [[Shin-to-Shin Guard]] - Preliminary control position for X-Guard entry
+
+
+## Related Positions
+
+- [[Ashi Garami]] - Related position
+- [[Single Leg X Guard]] - Related position
+- [[Butterfly Guard]] - Related position
+- [[Shin-to-Shin Guard]] - Related position
+- [[Top Position]] - Related position
 
 ## Decision Tree
 If opponent stands tall with weight on trapped leg:

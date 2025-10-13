@@ -1,3 +1,51 @@
+---
+title: "Williams Shoulder Lock | BJJ Submission Guide | BJJ Graph"
+description: "From the Williams Guard position, you begin by establishing control with your shin crossed behind the opponent's head or upper back, securing their posture down while trapping their arm against..."
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Williams Shoulder Lock",
+  "description": "From the Williams Guard position, you begin by establishing control with your shin crossed behind the opponent's head or upper back, securing their posture down while trapping their arm against...",
+  "url": "https://bjjgraph.com/submissions/williams-shoulder-lock",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Williams Shoulder Lock",
+      "item": "https://bjjgraph.com/submissions/williams-shoulder-lock"
+    }
+  ]
+}
+</script>
+
 # Williams Shoulder Lock
 #bjj #transition #submission #10thplanet #shoulderlock
 

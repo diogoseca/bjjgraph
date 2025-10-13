@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pressure Application",
+  "description": "Pressure Application represents the strategic utilization of bodyweight, positioning, and connection points to create discomfort, restriction, and control against an opponent. Unlike specific techn...",
+  "url": "https://bjjgraph.com/concepts/pressure-application",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.com/concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Pressure Application",
+      "item": "https://bjjgraph.com/concepts/pressure-application"
+    }
+  ]
+}
+</script>
+
+
 # Pressure Application
 #bjj #concept #control #offense #fundamental
 

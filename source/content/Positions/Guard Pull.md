@@ -1,3 +1,106 @@
+---
+title: "Guard Pull | BJJ Position Guide | BJJ Graph"
+description: "Master Guard Pull in BJJ. Complete guide covering setup, control, escapes, and transitions."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Insufficient grip control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Loss of control during transition"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor timing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to counters"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Uncontrolled descent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Positional disadvantage on landing"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Telegraphing intent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Defensive readiness"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Improper leg positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Compromised guard establishment"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Pull",
+  "description": "Master Guard Pull in BJJ. Complete guide covering setup, control, escapes, and transitions.",
+  "url": "https://bjjgraph.com/positions/guard-pull",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Guard Pull",
+      "item": "https://bjjgraph.com/positions/guard-pull"
+    }
+  ]
+}
+</script>
+
+
 # Guard Pull
 #bjj #transition #guard #strategy #fundamental
 
@@ -10,7 +113,11 @@
 - **Physical Attributes**: Grip Strength (Medium), Timing (High), Hip Mobility (Medium)
 
 ## Transition Description
-The Guard Pull is a strategic transition technique where a practitioner deliberately initiates a ground engagement by pulling the opponent into their guard from a standing position. Unlike takedowns that aim to land the practitioner in a top position, the Guard Pull specifically seeks bottom position as a tactical choice, reflecting the BJJ paradigm where bottom position can offer significant offensive opportunities through the guard system. This technique serves as a fundamental competitive strategy, particularly for practitioners whose skillset is optimized for guard play rather than wrestling or judo. The Guard Pull represents an important strategic concept in BJJ that differentiates it from many other grappling arts, acknowledging that controlling an opponent from guard can be as strategically viable as controlling from top position in certain contexts.
+The Guard Pull is a strategic transition technique where a practitioner deliberately initiates a ground engagement by pulling the opponent into their guard from a standing position.
+
+## Visual Description
+
+Visually, the Guard Pull appears as a fluid transitional sequence that begins with both practitioners standing face-to-face in a gripping exchange, typically with the pulling practitioner establishing strategic grips on the opponent's collar and sleeve or controlling their posture through collar ties and wrist control. As the pull initiates, the pulling practitioner sits or drops backward while simultaneously pulling the opponent's upper body forward and downward, creating a coordinated falling motion that guides both practitioners to the ground in a controlled manner. The pulling practitioner's legs begin to engage around or against the opponent's body during the descent, positioning for the desired guard configuration even before making full contact with the mat. The practitioner's hips move backward and down while their arms pull the opponent forward, creating a vector that brings the opponent into the practitioner's guard space rather than allowing them to land in a passing position. As ground contact is established, the pulling practitioner's back touches the mat while their legs complete the guard establishment, wrapping around the opponent's waist for closed guard or positioning for specific open guard variations like De La Riva or butterfly hooks. Throughout the entire sequence, the pulling practitioner maintains continuous grip and leg control to prevent the opponent from disengaging or immediately initiating a pass, creating a smooth transition from standing engagement to established guard position where the puller now controls distance and initiates their bottom game strategy. Unlike takedowns that aim to land the practitioner in a top position, the Guard Pull specifically seeks bottom position as a tactical choice, reflecting the BJJ paradigm where bottom position can offer significant offensive opportunities through the guard system. This technique serves as a fundamental competitive strategy, particularly for practitioners whose skillset is optimized for guard play rather than wrestling or judo. The Guard Pull represents an important strategic concept in BJJ that differentiates it from many other grappling arts, acknowledging that controlling an opponent from guard can be as strategically viable as controlling from top position in certain contexts.
 
 ## Execution Steps
 1. Establish dominant grips on opponent (typically collar and sleeve in gi, collar tie and wrist/arm control in no-gi)

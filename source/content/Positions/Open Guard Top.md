@@ -1,3 +1,107 @@
+---
+title: "Open Guard Top | BJJ Position Guide | BJJ Graph"
+description: "Master Open Guard Top in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Open Guard Top in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Open Guard Top.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Headquarters Entry",
+      "text": "From this position, execute Headquarters Entry to transition to Headquarters Position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Leg Drag Setup",
+      "text": "From this position, execute Leg Drag Setup to transition to Leg Drag Pass.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Toreando Pass",
+      "text": "From this position, execute Toreando Pass to transition to Side Control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Cut Entry",
+      "text": "From this position, execute Knee Cut Entry to transition to Knee Cut Pass.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Double Under Pass",
+      "text": "From this position, execute Double Under Pass to transition to Side Control.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Over Under Pass",
+      "text": "From this position, execute Over Under Pass to transition to Side Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Open Guard Top",
+      "item": "https://bjjgraph.com/positions/open-guard-top"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Open Guard Top",
+  "description": "Master Open Guard Top in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%.",
+  "url": "https://bjjgraph.com/positions/open-guard-top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Open Guard Top
 #bjj #state #top #guard_passing
 
@@ -11,6 +115,10 @@
 
 ## State Description
 Open Guard Top is the fundamental position where the top player engages with an opponent who is utilizing an open guard (any guard where the legs are not closed around the opponent's waist). The position encompasses a wide range of specific scenarios depending on the bottom player's guard configuration, but generally involves the top player standing or in combat base, working to navigate past the opponent's legs to establish a more dominant position. This position serves as the starting point for all guard passing sequences and represents one of the most complex and dynamic positional battles in BJJ.
+
+## Visual Description
+
+You are standing upright or crouched in combat base over your opponent, who lies on their back or sits up with their legs between you and their torso. Your hands actively grip their sleeves, pants, belt, or control their legs and arms to establish passing grips, while your weight distributes forward on the balls of your feet or through your knees if kneeling. Your opponent's feet press against your hips, thighs, biceps, or hook various parts of your legs, creating active barriers you must navigate around or through. The space between your chest and their torso is actively contested territory that you seek to close while they work to maintain, with your posture ranging from fully upright to bent forward depending on your passing strategy. Your head position varies based on your approach, staying high and back to avoid submissions in standing passes or tucked close when applying pressure passes. This dynamic configuration creates a chess match of grips, base, and positioning as you systematically work to bypass their leg barriers while defending against sweeps and submissions.
 
 ## Key Principles
 - Maintain proper posture and base to avoid sweeps
@@ -84,6 +192,15 @@ Open Guard Top is the fundamental position where the top player engages with an 
 - [[Standing Position]] - Neutral upright position
 - [[Closed Guard Top]] - Related guard top position
 - [[Side Control]] - Common destination after successful pass
+
+
+## Related Positions
+
+- [[Side Control]] - Related position
+- [[Headquarters Position]] - Related position
+- [[Combat Base]] - Related position
+- [[Standing Position]] - Related position
+- [[Closed Guard Top]] - Related position
 
 ## Decision Tree
 If opponent establishes collar/sleeve grips:

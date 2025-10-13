@@ -1,3 +1,122 @@
+---
+title: "Technical Stand-up | BJJ Technique | BJJ Graph"
+description: "Learn Technical Stand-up in BJJ. Step-by-step execution. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Technical Stand-up",
+  "description": "Learn how to execute Technical Stand-up in Brazilian Jiu-Jitsu from Guard Position to Standing Position. Success: Beginner 50%, Intermediate 65%, Advanced 80%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Begin in a Guard",
+      "text": "Begin in a Guard Position or Bottom Position, maintaining awareness of the opponent's position and movements, identifying an opportunity to escape while keeping a defensive frame with hands and legs.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Establish a strong base",
+      "text": "Establish a strong base by sitting up if necessary, posting one hand behind you on the mat for support, and placing your opposite foot flat on the ground near your hip for stability.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Position your other leg",
+      "text": "Position your other leg extended or bent in front to block the opponent's advance, ensuring a protective barrier as you prepare to stand.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Engage your core and",
+      "text": "Engage your core and push off with your posted hand and foot, lifting your hips off the mat while bringing your extended leg back to step up, keeping your head up for awareness.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Stand up by driving",
+      "text": "Stand up by driving through your posted foot, bringing your other leg under you to complete the stance, maintaining a low posture with hands up to defend against attacks.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Maintain balance and control",
+      "text": "Maintain balance and control during the transition by keeping your weight centered, stepping back if needed to create space from the opponent.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Complete the Technical Stand-up",
+      "text": "Complete the Technical Stand-up by establishing a solid Standing Position with a strong base, or settling into a Neutral Position if the opponent engages immediately.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Remain aware of their",
+      "text": "Remain aware of their counter responses like guard pulls or takedowns, adapting your hand positioning, foot placement, and body angle to maintain a safe defensive stance.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Technical Stand-up",
+  "description": "Learn Technical Stand-up in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/technical-stand-up",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Technical Stand-up",
+      "item": "https://bjjgraph.com/transitions/technical-stand-up"
+    }
+  ]
+}
+</script>
+
+
 # Technical Stand-up
 #bjj #transition #escape #defense #ground_game
 

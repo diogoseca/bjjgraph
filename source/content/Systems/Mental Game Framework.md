@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mental Game Framework",
+  "description": "The Mental Game Framework represents a comprehensive approach to the psychological aspects of Brazilian Jiu-Jitsu, addressing both training and competition contexts. Unlike technical or tactical fr...",
+  "url": "https://bjjgraph.com/systems/mental-game-framework",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Systems",
+      "item": "https://bjjgraph.com/systems/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Mental Game Framework",
+      "item": "https://bjjgraph.com/systems/mental-game-framework"
+    }
+  ]
+}
+</script>
+
+
 # Mental Game Framework
 #bjj #psychology #framework #mental #competition
 

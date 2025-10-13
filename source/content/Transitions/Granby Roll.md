@@ -1,3 +1,122 @@
+---
+title: "Granby Roll | BJJ Technique | BJJ Graph"
+description: "Learn Granby Roll in BJJ. Step-by-step execution. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Granby Roll",
+  "description": "Learn how to execute Granby Roll in Brazilian Jiu-Jitsu from Turtle Position to Guard Position. Success: Beginner 55%, Intermediate 75%, Advanced 85%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Identify the appropriate scenario",
+      "text": "Identify the appropriate scenario for a Granby Roll, such as defending from Turtle Position against back control attempts or escaping Side Control pressure.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Shift your weight onto",
+      "text": "Shift your weight onto the shoulder opposite the direction of the roll, preparing to invert over the other shoulder towards open space.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Tuck your chin to",
+      "text": "Tuck your chin to your chest to protect your neck during the inversion, minimizing the risk of strain or impact injury.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Kick the leg on",
+      "text": "Kick the leg on the rolling side high over the opposite shoulder while driving with the other leg to generate rotational momentum for the inversion.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Roll inverted over your",
+      "text": "Roll inverted over your shoulder, maintaining a tight, compact body position to protect against submissions and ensure a smooth rotation.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Complete the 180-degree rotation,",
+      "text": "Complete the 180-degree rotation, landing on your back or hip, and immediately post with a hand to establish a base for stability.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Turn to face your",
+      "text": "Turn to face your opponent, who should now be in front of you, having lost their dominant control angle during the roll.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Assess the situation and",
+      "text": "Assess the situation and transition to Guard Position, Neutral Position, or Scramble Position, capitalizing on the opponent’s momentary disorientation.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Granby Roll",
+  "description": "Learn Granby Roll in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/granby-roll",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Granby Roll",
+      "item": "https://bjjgraph.com/transitions/granby-roll"
+    }
+  ]
+}
+</script>
+
+
 # Granby Roll
 #bjj #transition #defense #movement #escape
 
@@ -157,3 +276,10 @@ Else if [roll fails] due to insufficient momentum or space:
 - **Space Confirmation**: Ensure open space exists before committing to inversion.
 - **Pressure Peak**: Roll at peak of opponent’s forward pressure to use their momentum.
 - **Submission Avoidance**: Prioritize roll before submission is fully locked in.
+
+## Related Techniques
+
+- [[Forward Roll]] - Related technique
+- [[Hip Escape]] - Related technique
+- [[Bridge and Roll]] - Related technique
+

@@ -1,3 +1,106 @@
+---
+title: "Knee Tap | BJJ Technique | BJJ Graph"
+description: "Learn Knee Tap in BJJ. Step-by-step execution from Standing Position to Top Position. Success: Beginner 35%, Intermediate 60%, Advanced 80%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Knee Tap",
+  "description": "Learn how to execute Knee Tap in Brazilian Jiu-Jitsu from Standing Position to Top Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish collar tie or underhook from standing position",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Drop level significantly by stepping deep and lowering body",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically tries to sprawl or maintain balance",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Adjust timing and angle based on their defensive reaction",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Grab behind knee with outside hand while driving forward",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Follow through to secure top position control",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Knee Tap",
+      "item": "https://bjjgraph.com/transitions/knee-tap"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Tap",
+  "description": "Learn Knee Tap in BJJ. Step-by-step execution from Standing Position to Top Position. Success: Beginner 35%, Intermediate 60%, Advanced 80%.",
+  "url": "https://bjjgraph.com/transitions/knee-tap",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Knee Tap
 #bjj #transition #takedown #wrestling #standing
 
@@ -217,11 +320,12 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **Ankle Pick** - Similar low-level takedown with different target
-- **Single Leg Takedown** - Alternative wrestling takedown
-- **Double Leg Takedown** - Two-leg variation of takedown
-- **Osoto Gari** - Judo alternative with different mechanics
-- **High Crotch** - High-level wrestling takedown alternative
+
+- [[Ankle Pick]] - Related technique
+- [[Tani Otoshi]] - Related technique
+- [[Collar Drag]] - Related technique
+- [[Osoto Gari]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as takedown (2 points)

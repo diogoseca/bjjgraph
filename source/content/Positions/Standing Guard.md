@@ -1,3 +1,107 @@
+---
+title: "Standing Guard | BJJ Position Guide | BJJ Graph"
+description: "Master Standing Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Standing Guard in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Standing Guard.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, execute Technical Stand-up to transition to Standing Position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Defensive Sprawl",
+      "text": "From this position, execute Defensive Sprawl to transition to Front Headlock.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Single Leg Counter",
+      "text": "From this position, execute Single Leg Counter to transition to Single Leg Takedown.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Pull Guard",
+      "text": "From this position, execute Pull Guard to transition to Guard Position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Ankle Pick",
+      "text": "From this position, execute Ankle Pick to transition to Top Position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Distance Creation",
+      "text": "From this position, execute Distance Creation to transition to Disengagement.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Standing Guard",
+      "item": "https://bjjgraph.com/positions/standing-guard"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Standing Guard",
+  "description": "Master Standing Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%.",
+  "url": "https://bjjgraph.com/positions/standing-guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Standing Guard
 #bjj #state #guard #standing #defense
 
@@ -11,6 +115,10 @@
 
 ## State Description
 Standing Guard represents a specialized defensive position where the practitioner maintains a guard-like defensive structure while standing upright, typically following a technical stand-up from a ground position. Unlike traditional seated or supine guard positions, the Standing Guard creates a defensive framework from an upright posture that prevents the opponent from easily closing distance or securing dominant grips, while simultaneously creating opportunities for the practitioner to disengage, counter-attack, or initiate their own offensive sequences. This position is characterized by the practitioner maintaining proper distance management, strategic grip fighting, and balanced footwork that facilitates defensive maneuverability. Standing Guard serves multiple critical functions including defensive resetting, tactical disengagement, and creating transitional opportunities to more advantageous positions.
+
+## Visual Description
+
+You are standing upright with your feet staggered in a defensive stance, weight balanced and distributed to allow quick movement in any direction, your knees slightly bent and hips mobile. Your hands are extended forward in a defensive posture, palms facing your opponent or gripping their gi to control distance, preventing them from easily establishing dominant grips or closing the distance for takedowns. Your opponent is also standing, attempting to close the gap, establish grips, or set up takedown entries, their body angled toward you seeking control or engagement. Your head and torso maintain an upright athletic posture, not bent forward or backward, with your eyes locked on your opponent's chest and hips to read their movement intentions. Your rear foot typically maintains contact with the mat while your lead foot may be light and mobile, ready to sprawl, step back, or push off for movement. This configuration creates a defensive buffer zone where you maintain the initiative to transition back to ground positions on your terms, disengage from the exchange, or launch counter-attacks when opportunities arise, all while denying your opponent the grips and positioning they need to execute their takedown game.
 
 ## Key Principles
 - Establish and maintain proper defensive posture
@@ -85,6 +193,15 @@ Standing Guard represents a specialized defensive position where the practitione
 - [[Standing Position]] - Neutral upright state
 - [[Clinch Position]] - Related standing control
 - [[Neutral Position]] - Strategic reset state
+
+
+## Related Positions
+
+- [[Standing Position]] - Related position
+- [[Open Guard Bottom]] - Related position
+- [[Guard Position]] - Related position
+- [[Neutral Position]] - Related position
+- [[Clinch Position]] - Related position
 
 ## Decision Tree
 If opponent changes level for takedown:

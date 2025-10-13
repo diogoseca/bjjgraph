@@ -1,3 +1,122 @@
+---
+title: "Closed Guard to Triangle | BJJ Technique | BJJ Graph"
+description: "Learn Closed Guard to Triangle in BJJ. Step-by-step execution from Closed Guard Bottom to Triangle Control. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Closed Guard to Triangle",
+  "description": "Learn how to execute Closed Guard to Triangle in Brazilian Jiu-Jitsu from Closed Guard Bottom to Triangle Control. Success: Beginner 40%, Intermediate 65%, Advanced 85%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Establish secure closed guard",
+      "text": "Establish secure closed guard with proper hip position and posture control",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Create arm isolation by",
+      "text": "Create arm isolation by breaking opponent's posture or baiting defensive reactions",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Identify and control target",
+      "text": "Identify and control target arm (one arm in, one arm out positioning)",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Open guard while maintaining",
+      "text": "Open guard while maintaining control of opponent's isolated arm and posture",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Insert hip-side leg high",
+      "text": "Insert hip-side leg high on opponent's back/shoulder while controlling isolated arm",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Pivot to create proper",
+      "text": "Pivot to create proper angle (perpendicular to opponent)",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Lock triangle by placing",
+      "text": "Lock triangle by placing ankle behind opposite knee, forming figure-four with legs",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Secure final control position",
+      "text": "Secure final control position with proper head control and posture breaking",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Closed Guard to Triangle",
+  "description": "Learn Closed Guard to Triangle in BJJ. Step-by-step execution from Closed Guard Bottom to Triangle Control. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/closed-guard-to-triangle",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Closed Guard to Triangle",
+      "item": "https://bjjgraph.com/transitions/closed-guard-to-triangle"
+    }
+  ]
+}
+</script>
+
+
 # Closed Guard to Triangle
 #bjj #transition #guard #closed_guard #triangle #submission
 
@@ -113,3 +232,11 @@ The Closed Guard to Triangle transition functions as a "state transformation fun
 The transition represents a form of "input validation exploitation," where defensive inputs that would normally maintain system stability are redirected to create a vulnerability in the system architecture. This pattern demonstrates the concept of "edge case handling" in computing, where specific input patterns can trigger state changes that bypass normal system protections.
 
 The multiple setup variations illustrate "polymorphic initialization," where the same destination state can be reached through different input sequences depending on the opponent's defensive patterns. In essence, the Closed Guard to Triangle transition exemplifies how BJJ's offensive framework manipulates defensive structures to create submission opportunities, similar to how security researchers identify and exploit specific input patterns that can transform a secure system state into a vulnerable one when precise conditions are met.
+
+## Related Techniques
+
+- [[Waiter Sweep]] - Related technique
+- [[Flower Sweep]] - Related technique
+- [[Hip Bump Sweep]] - Related technique
+- [[Scissor Sweep]] - Related technique
+

@@ -1,3 +1,107 @@
+---
+title: "Kneebar Control | BJJ Position Guide | BJJ Graph"
+description: "Master Kneebar Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Kneebar Control in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Kneebar Control.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kneebar Finish",
+      "text": "From this position, execute Kneebar Finish to transition to Won by Submission.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Inside Sankaku",
+      "text": "From this position, execute Transition to Inside Sankaku to transition to Inside Sankaku.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kneebar to Heel Hook",
+      "text": "From this position, execute Kneebar to Heel Hook to transition to Inside Heel Hook.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kneebar to Toe Hold",
+      "text": "From this position, execute Kneebar to Toe Hold to transition to Toe Hold Control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kneebar to Backside 50/50",
+      "text": "From this position, execute Kneebar to Backside 50/50 to transition to Backside 50/50.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Hip Heist Transition",
+      "text": "From this position, execute Hip Heist Transition to transition to Top Position.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kneebar Control",
+      "item": "https://bjjgraph.com/positions/kneebar-control"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kneebar Control",
+  "description": "Master Kneebar Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
+  "url": "https://bjjgraph.com/positions/kneebar-control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Kneebar Control
 #bjj #state #submission #leglocks #control
 
@@ -84,6 +188,15 @@ Kneebar Control is a specialized submission position where the practitioner isol
 - [[Straight Ankle Lock]] - Related leg submission
 - [[Toe Hold Control]] - Complementary leg attack
 - [[Inside Heel Hook]] - Common transition option
+
+
+## Related Positions
+
+- [[Inside Sankaku]] - Related position
+- [[Toe Hold Control]] - Related position
+- [[Won by Submission]] - Related position
+- [[North-South]] - Related position
+- [[Side Control]] - Related position
 
 ## Decision Tree
 If opponent rotates toward control:

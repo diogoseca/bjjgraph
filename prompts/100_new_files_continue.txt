@@ -1,0 +1,1 @@
+sorry, we got cutoff - proceed where you were - then, when you're done, check what files are missing/are done in current batch, then check which files are missing and distribute those to new subagents (10 subagents) then finally recheck files to see none are missing then finally mark batch from Locked to Done. thanks!

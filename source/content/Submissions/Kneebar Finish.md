@@ -1,3 +1,51 @@
+---
+title: "Kneebar Finish | BJJ Submission Guide | BJJ Graph"
+description: "From the Kneebar Control position, you start by consolidating your final control with the opponent's leg fully isolated, ensuring their defensive options are minimized through tight control...."
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kneebar Finish",
+  "description": "From the Kneebar Control position, you start by consolidating your final control with the opponent's leg fully isolated, ensuring their defensive options are minimized through tight control....",
+  "url": "https://bjjgraph.com/submissions/kneebar-finish",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kneebar Finish",
+      "item": "https://bjjgraph.com/submissions/kneebar-finish"
+    }
+  ]
+}
+</script>
+
 # Kneebar Finish
 #bjj #transition #submission #leglock #finish
 

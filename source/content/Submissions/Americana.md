@@ -1,3 +1,51 @@
+---
+title: "Americana | BJJ Submission Guide | BJJ Graph"
+description: "Final positioning with opponent's arm in figure-four configuration Pressure application creating external rotation of the shoulder"
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Americana",
+  "description": "Final positioning with opponent's arm in figure-four configuration Pressure application creating external rotation of the shoulder",
+  "url": "https://bjjgraph.com/submissions/americana",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Americana",
+      "item": "https://bjjgraph.com/submissions/americana"
+    }
+  ]
+}
+</script>
+
 # Americana
 #bjj #submission #joint_lock #shoulder_lock #endstate #fundamental
 
@@ -32,12 +80,10 @@
 
 ### Visual Finishing Sequence
 Detailed description for technical completion:
-- Final positioning with opponent's arm in figure-four configuration
-- Pressure application creating external rotation of the shoulder
-- Opponent's physical response showing discomfort and defensive attempts
-- Moment of technical completion with clear submission signal
 
-**Template**: "With opponent's wrist controlled and elbow at 90 degrees, you thread your arm under their forearm creating a figure-four grip. You apply slow, controlled pressure rotating their shoulder externally. Your opponent grimaces, attempts to roll or bridge, signals submission by tapping, and the technique is complete."
+From a dominant position such as mount or side control, you have pinned the opponent's arm to the mat with their wrist controlled by your hand closest to their head, their elbow bent at approximately 90 degrees and positioned away from their body at a perpendicular angle to their torso. You thread your free arm underneath their forearm near the elbow, bringing your hand up to grasp your own wrist and creating the characteristic figure-four grip configuration that locks their arm in place. Your bodyweight settles over their torso preventing any bridging or rolling attempts, while you begin applying external rotation pressure by pulling your figure-four grip downward toward the mat in small, controlled increments. The opponent's shoulder joint experiences increasing rotational stress as you methodically increase the pressure, their forearm being leveraged against their upper arm to create torque on the glenohumeral joint. Your opponent's face shows escalating discomfort, their free hand desperately seeking to tap on your body or the mat as the shoulder approaches its structural limit, unable to escape or relieve the mounting pressure despite attempts to bridge, roll, or adjust their body position. You maintain steady, controlled pressure watching continuously for their submission signal, and as their hand taps repeatedly against your arm or the mat in clear acknowledgment of defeat, you immediately release the figure-four grip and carefully return their arm to a neutral position, the americana submission successfully completed with proper technical control and safety awareness.
+
+**Template**: "From mount or side control, pin opponent's wrist with hand near head, elbow at 90 degrees perpendicular to body. Thread free arm under their forearm, grasp own wrist for figure-four grip. Settle bodyweight, apply external rotation by pulling grip downward in controlled increments. Opponent's shoulder experiences rotational stress, face shows discomfort, attempts to bridge/roll fail. Maintain pressure watching for tap signal, release immediately when opponent taps on your arm or mat."
 
 ### Setup Requirements (Pre-Submission Checklist)
 Conditions that must be satisfied before attempting:
@@ -48,13 +94,59 @@ Conditions that must be satisfied before attempting:
 5. **Space Elimination**: Preventing opponent from pulling arm back to body
 6. **Timing Recognition**: Optimal moment when arm is isolated and vulnerable
 
-### Execution Steps (Finishing Sequence)
-1. **Initial Grip**: Control opponent's wrist with your hand nearest their head
-2. **Position Adjustment**: Ensure their elbow is at 90-degree angle to body
-3. **Pressure Application**: Thread your other arm under their forearm
-4. **Progressive Tightening**: Create figure-four grip and begin external rotation
-5. **Final Adjustment**: Increase rotation pressure while maintaining wrist control
-6. **Submission Recognition**: Identify opponent's tap or verbal submission
+## Execution Steps
+
+**SAFETY REMINDER**: Apply pressure SLOWLY over 3-5 seconds minimum. Watch for tap signals continuously. Monitor partner's shoulder for any signs of distress.
+
+### Step-by-Step Execution
+
+### Step 1: Initial Wrist Control (Setup Phase)
+Establish firm wrist control with your hand nearest to the opponent's head, gripping just above their wrist with your palm facing down.
+- Position your grip to prevent them from pulling their arm back to their body
+- Maintain constant downward pressure to keep their arm pinned
+- Safety check: Ensure partner can tap with their free hand
+
+### Step 2: Elbow Positioning (Alignment Phase)
+Move the opponent's arm to a 90-degree angle relative to their body, with their elbow bent at approximately 90 degrees.
+- The upper arm should be perpendicular to their torso
+- Their forearm should point upward toward the ceiling
+- Adjust your body weight to prevent them from straightening their arm
+- Partner check: Confirm arm position is comfortable before continuing
+
+### Step 3: Figure-Four Grip Entry (Entry Phase)
+Thread your free arm under their forearm, bringing your hand up to grip your own wrist, creating the characteristic figure-four configuration.
+- Your forearm acts as a lever under their forearm
+- Lock your grip on your own wrist firmly
+- Ensure their wrist remains controlled throughout
+- Speed: SLOW and deliberate threading motion
+- Watch for: Early defensive movements or bridging attempts
+
+### Step 4: Progressive External Rotation (Execution Phase)
+Begin applying external rotation pressure by pulling your grip downward toward the mat while maintaining the figure-four lock over 3-5 seconds.
+- Rotate their shoulder externally in small incremental movements
+- Keep their wrist pinned to prevent compensatory movement
+- Monitor: Partner's face and body language for distress signals
+- Maintain: Steady base with your hips and chest pressure
+
+### Step 5: Angle Optimization (Completion Phase)
+Fine-tune the rotation angle by adjusting your body position slightly toward their head, increasing the leverage on their shoulder.
+- Small adjustments in your position dramatically increase pressure
+- Ensure the rotation remains smooth and controlled
+- Critical: WATCH FOR TAP continuously - shoulder locks can injure quickly
+- If partner's face shows extreme distress, pause and check verbally
+
+### Step 6: Submission Recognition & Release (Finish/Safety Phase)
+FEEL FOR TAP: Hand tapping your body or mat, verbal "tap", or any distress signal
+- **RELEASE IMMEDIATELY**:
+  - Release the figure-four grip instantly
+  - Return their arm to a neutral position slowly
+  - Do not drop or release the arm suddenly
+  - Open your wrist control gently
+- Post-submission: Check partner's shoulder comfort and range of motion
+- Ask: "Shoulder okay? Feel alright?"
+- Monitor for any signs of injury or unusual pain
+
+**Total Execution Time in Training**: Minimum 3-5 seconds from figure-four lock to tap. In drilling, apply even slower (7-10 seconds) to develop sensitivity to resistance levels.
 
 ### Anatomical Targeting
 Precise technical details for educational accuracy:

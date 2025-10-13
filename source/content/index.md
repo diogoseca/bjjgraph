@@ -2,6 +2,23 @@
 title: BJJ State Machine
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "BJJ State Machine",
+  "description": "This file serves as documentation for the BJJ State Machine Canvas visualization. To view the canvas, click on the filename in Obsidian's file explorer and select \"Open as canvas\" or create a new c...",
+  "url": "https://bjjgraph.com",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # BJJ State Machine Canvas
 #bjj #system #visualization #canvas
 

@@ -1,3 +1,130 @@
+---
+title: "Tripod Sweep | BJJ Technique | BJJ Graph"
+description: "Learn Tripod Sweep in BJJ. Step-by-step execution. Success: Beginner 35%, Intermediate 55%, Advanced 75%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Tripod Sweep",
+  "description": "Learn how to execute Tripod Sweep in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Start in Open Guard Bottom or De La Riva Guard",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Leg Positioning",
+      "text": "Hook one foot behind opponent's ankle or on hip, other foot on mat/hip for tripod",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Grip Establishment",
+      "text": "Secure ankle/pants grip with one hand, sleeve/collar grip with other",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Posture Control",
+      "text": "Maintain tight connection, elbows in, control opponent's forward movement",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Preparation",
+      "text": "Elevate or angle hips, engage core for leverage and tension",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Off-Balance Action",
+      "text": "Pull ankle grip, push with hooked foot, post on tripod leg to unbalance",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Drive",
+      "text": "Drive hips upward, use tripod base to topple opponent backward or sideways",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Sweep Completion",
+      "text": "Roll opponent over trapped ankle/hip, maintain leg and upper body control",
+      "position": 8
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Position Transition",
+      "text": "Follow through to come up on top, land in side control or mount",
+      "position": 9
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Position Consolidation",
+      "text": "Secure underhook or crossface to prevent immediate escape",
+      "position": 10
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Tripod Sweep",
+      "item": "https://bjjgraph.com/transitions/tripod-sweep"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Tripod Sweep",
+  "description": "Learn Tripod Sweep in BJJ. Step-by-step execution. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.com/transitions/tripod-sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Tripod Sweep
 #bjj #transition #sweep #open_guard #fundamental
 
@@ -225,10 +352,12 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **Open Guard Bottom** - Primary starting position for this sweep
-- **De La Riva Guard** - Alternative starting position with similar mechanics
-- **Scissor Sweep** - Similar fundamental open guard sweep with different leverage
-- **Top Position** - Common outcome after successful sweep
+
+- [[Tomahawk Sweep]] - Related technique
+- [[Muscle Sweep]] - Related technique
+- [[Heel Grab Sweep]] - Related technique
+- [[Waiter Sweep]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points)

@@ -1,10 +1,58 @@
+---
+title: "Twister Finish | BJJ Submission Guide | BJJ Graph"
+description: "From the Twister Control position, you begin by ensuring complete perpendicular alignment to your opponent, with your threading arm deeply positioned under their neck or head, palm-up for maximum..."
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Twister Finish",
+  "description": "From the Twister Control position, you begin by ensuring complete perpendicular alignment to your opponent, with your threading arm deeply positioned under their neck or head, palm-up for maximum...",
+  "url": "https://bjjgraph.com/submissions/twister-finish",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Twister Finish",
+      "item": "https://bjjgraph.com/submissions/twister-finish"
+    }
+  ]
+}
+</script>
+
 # Twister Finish
 #bjj #transition #submission #10thplanet #spinal_lock
 
 ## Required Properties for State Machine
 
 ### Core Identifiers
-- **Submission ID**: S102
+- **Submission ID**: SUB028
 - **Submission Name**: Twister Finish
 - **Alternative Names**: Twister Submission, Spinal Lock Finish
 
@@ -13,7 +61,51 @@
 - **Ending State**: [[Won by Submission]]
 - **Submission Type**: Spinal Lock - Targets spine and neck rotation
 
-### Submission Properties
+## ⚠️ Safety Considerations
+
+### Injury Risks
+Twister submissions are EXTREMELY dangerous and can cause catastrophic injuries:
+- **Spinal Cord Damage** (Severity: CRITICAL, Recovery: Permanent paralysis possible) - Excessive rotation can damage vertebrae and spinal cord
+- **Disc Herniation** (Severity: Critical, Recovery: 6-12 months, surgery often required) - Twisting force can herniate cervical or thoracic discs
+- **Vertebrae Fracture** (Severity: Critical, Recovery: 3-6 months minimum) - Extreme pressure can fracture vertebrae
+- **Nerve Damage** (Severity: High to Critical, Recovery: Weeks to permanent) - Spinal rotation can compress or damage nerves
+- **Neck Strain/Tear** (Severity: High, Recovery: 4-8 weeks) - Rotational forces can tear cervical ligaments and muscles
+
+### Application Speed
+- Apply twister EXTREMELY SLOWLY over 5-10 seconds MINIMUM
+- This is NOT a submission to rush - spinal injuries are career-ending
+- Increase rotation incrementally in tiny degrees
+- Constant verbal communication: "Pressure okay?" throughout application
+- NEVER apply explosive or sudden rotational force
+
+### Tap Signals
+Given the extreme danger, tap protocols are CRITICAL:
+- **Verbal Tap**: Saying "tap" or "stop" IMMEDIATELY - do not wait for pain
+- **Physical Tap**: Tapping with any available limb (minimum 2 taps)
+- **Emergency Signal**: ANY indication of discomfort should stop technique immediately
+- **Pre-tap Communication**: Partner should tap at FIRST sign of pressure, not pain
+
+### Release Protocol
+When partner taps (or shows any distress):
+1. IMMEDIATELY stop all rotational pressure
+2. Slowly and carefully release threading arm from neck
+3. Gradually release leg control on trapped leg
+4. Allow partner's spine to return to neutral alignment slowly
+5. Check on partner extensively - ask about neck, back, breathing
+
+### Training Progression
+- **Weeks 1-4**: Position control ONLY - absolutely NO finishing attempts
+- **Weeks 5-8**: EXTREMELY slow positional flow (5% speed), partner taps at 10% pressure
+- **Weeks 9-16**: Very slow application (20% speed), partner taps at 20% pressure
+- **Advanced Only**: This submission should ONLY be practiced by advanced practitioners (purple belt+)
+- **Competition Only**: Many instructors recommend never finishing twisters in training
+
+### Partner Communication
+- Establish EXPLICIT understanding that this is a dangerous submission
+- Discuss any back, neck, or spinal issues before even attempting position
+- Verbal communication throughout: "Okay?" "Too much?" "Stop?"
+- Agreement to tap at FIRST hint of pressure, not waiting for pain
+- Consider avoiding this submission entirely with newer training partners
 - **Success Probability**: Beginner 25%, Intermediate 60%, Advanced 85% - core probability data
 - **Execution Complexity**: High - technical difficulty assessment
 - **Energy Cost**: High - physical demand of execution

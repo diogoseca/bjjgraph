@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Grip Advantage",
+  "description": "Grip Advantage represents the positional and tactical superiority achieved through establishing dominant hand controls before an opponent can secure their preferred grips. Unlike specific technique...",
+  "url": "https://bjjgraph.com/concepts/grip-advantage",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.com/concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Grip Advantage",
+      "item": "https://bjjgraph.com/concepts/grip-advantage"
+    }
+  ]
+}
+</script>
+
+
 # Grip Advantage
 #bjj #concept #control #strategy #grip
 

@@ -1,3 +1,116 @@
+---
+title: "Bridge and Roll | BJJ Technique | BJJ Graph"
+description: "Learn Bridge and Roll in BJJ. Step-by-step execution from Mount to Guard Recovery. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Bridge and Roll",
+  "description": "Learn how to execute Bridge and Roll in Brazilian Jiu-Jitsu from Mount to Guard Recovery. Success: Beginner 65%, Intermediate 75%, Advanced 85%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "From bottom position, position",
+      "text": "From bottom position, position arms to control opponent's posting capabilities by securing an underhook or collar/sleeve grip on the side you intend to roll toward.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Place foot flat on",
+      "text": "Place foot flat on mat on the same side as your control grip for maximum leverage during the bridge.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Keep opposite foot positioned",
+      "text": "Keep opposite foot positioned to trap opponent's leg or prevent them from basing out, creating directional focus.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Lift hips explosively upward",
+      "text": "Lift hips explosively upward at an angle while pulling opponent in the direction of the roll with your grip.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Simultaneously turn your head",
+      "text": "Simultaneously turn your head and shoulders in the roll direction to facilitate body rotation and momentum.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Continue rolling motion until",
+      "text": "Continue rolling motion until position is reversed, using continuous movement to maintain control of opponent.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Immediately secure advantageous position",
+      "text": "Immediately secure advantageous position (guard, top control, etc.) to prevent opponent from regaining dominance.",
+      "position": 7
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bridge and Roll",
+  "description": "Learn Bridge and Roll in BJJ. Step-by-step execution from Mount to Guard Recovery. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/bridge-and-roll",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Bridge and Roll",
+      "item": "https://bjjgraph.com/transitions/bridge-and-roll"
+    }
+  ]
+}
+</script>
+
+
 # Bridge and Roll
 #bjj #transition #escape #fundamental #defense
 
@@ -186,6 +299,13 @@ The Bridge and Roll has proven highly effective in competition contexts across a
 - Gi competition: Leverages gi for additional grip options in arm control
 - No-gi competition: Relies on tight underhooks without gi grips
 - MMA crossover: Useful for escaping bottom positions to avoid strikes
+
+
+## Related Techniques
+
+- [[Mount to Armbar]] - Related technique
+- [[Forward Roll]] - Related technique
+- [[Granby Roll]] - Related technique
 
 ## Historical Context
 The Bridge and Roll represents one of the oldest and most universal techniques in grappling, appearing in various forms across wrestling traditions worldwide. In BJJ, it was emphasized by Helio Gracie as a primary escape that demonstrated his principle of leverage over strength, allowing smaller practitioners to escape from underneath larger opponents. The technique has remained fundamentally unchanged through generations of instruction while being refined in its mechanical details and application contexts. In modern BJJ, the Bridge and Roll continues to serve as both an essential fundamental movement for beginners and a sophisticated tactical option for advanced practitioners when applied with proper setup and timing.

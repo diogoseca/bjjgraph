@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hip Elevation",
+  "description": "Hip Elevation is a fundamental movement pattern in Brazilian Jiu-Jitsu that serves as the biomechanical foundation for numerous escapes, sweeps, submissions, and positional transitions. This core t...",
+  "url": "https://bjjgraph.com/concepts/hip-elevation",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.com/concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Hip Elevation",
+      "item": "https://bjjgraph.com/concepts/hip-elevation"
+    }
+  ]
+}
+</script>
+
+
 # Hip Elevation
 #bjj #technique #fundamental #movement #escape
 

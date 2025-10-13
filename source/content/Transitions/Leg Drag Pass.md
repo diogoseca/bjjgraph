@@ -1,3 +1,122 @@
+---
+title: "Leg Drag Pass | BJJ Technique | BJJ Graph"
+description: "Learn Leg Drag Pass in BJJ. Step-by-step execution. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Leg Drag Pass",
+  "description": "Learn how to execute Leg Drag Pass in Brazilian Jiu-Jitsu from Open Guard to Side Control. Success: Beginner 55%, Intermediate 70%, Advanced 85%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Begin in top Open",
+      "text": "Begin in top Open Guard or De La Riva Guard, recognizing the opportunity to pass when the opponent's legs are accessible and their guard structure can be disrupted.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Establish a strong posture",
+      "text": "Establish a strong posture by straightening your back and tucking your elbows in to break their grip control over your upper body, maintaining balance.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Step to one side",
+      "text": "Step to one side to angle your body for the pass, targeting one of their legs (typically the leg on the opposite side of your stepping direction) for the drag.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Secure a grip on",
+      "text": "Secure a grip on the targeted leg near the ankle with one hand, and control their knee or shin with your other hand to prevent re-entanglement, preparing to drag the leg across their body.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Pull the targeted leg",
+      "text": "Pull the targeted leg across their centerline towards the opposite side with force, disrupting their guard alignment, while stepping forward with your lead leg to place your knee near their hip, pinning the dragged leg in place.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Push their other leg",
+      "text": "Push their other leg down with your free hand or elbow to clear the path, preventing it from blocking your advance, as you drop your hips low to apply pressure and slide your torso past their defenses.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Maintain control of the",
+      "text": "Maintain control of the dragged leg, keeping it pinned across their body, and complete the pass by settling into Side Control on the dragged leg’s side, securing their head and far hip, or circling to Back Control if they turn away.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Remain aware of their",
+      "text": "Remain aware of their defensive attempts like re-guarding or sweeping, adjusting your grips, weight distribution, and pressure to counter and consolidate the dominant position.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Drag Pass",
+  "description": "Learn Leg Drag Pass in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/leg-drag-pass",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Leg Drag Pass",
+      "item": "https://bjjgraph.com/transitions/leg-drag-pass"
+    }
+  ]
+}
+</script>
+
+
 # Leg Drag Pass
 #bjj #transition #guard_pass #offense #control
 
@@ -53,3 +172,11 @@ Factors that influence the success rate of the transition:
 
 ## Common Counters and Counter-Attacks
 Analysis of
+
+## Related Techniques
+
+- [[Smash Pass]] - Related technique
+- [[Knee Cut Pass]] - Related technique
+- [[Leg Weave Pass]] - Related technique
+- [[Single Leg Takedown]] - Related technique
+

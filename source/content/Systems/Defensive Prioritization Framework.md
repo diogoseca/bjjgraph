@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Defensive Prioritization Framework",
+  "description": "The Defensive Prioritization Framework represents a comprehensive strategic approach to BJJ defense that establishes a hierarchical decision-making system for defensive responses based on threat se...",
+  "url": "https://bjjgraph.com/systems/defensive-prioritization-framework",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Systems",
+      "item": "https://bjjgraph.com/systems/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Defensive Prioritization Framework",
+      "item": "https://bjjgraph.com/systems/defensive-prioritization-framework"
+    }
+  ]
+}
+</script>
+
+
 # Defensive Prioritization Framework
 #bjj #strategy #framework #defense #hierarchy
 

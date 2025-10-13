@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Gi-Specific Strategy",
+  "description": "The Gi-Specific Strategy represents a comprehensive approach to BJJ that leverages the unique control opportunities, mechanical advantages, and strategic considerations created by the uniform (gi) ...",
+  "url": "https://bjjgraph.com/systems/gi-specific-strategy",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Systems",
+      "item": "https://bjjgraph.com/systems/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Gi-Specific Strategy",
+      "item": "https://bjjgraph.com/systems/gi-specific-strategy"
+    }
+  ]
+}
+</script>
+
+
 # Gi-Specific Strategy
 #bjj #strategy #framework #gi #grips
 

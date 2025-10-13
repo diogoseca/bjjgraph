@@ -1,3 +1,155 @@
+---
+title: "D'arce Control | BJJ Position Guide | BJJ Graph"
+description: "Master D'arce Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 55%, Intermediate 70%, Advanced 80%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use D'arce Control in BJJ",
+  "description": "Complete guide to executing techniques and transitions from D'arce Control.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute D'arce Choke Finish",
+      "text": "From this position, execute D'arce Choke Finish to transition to Won by Submission.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute D'arce to Mount",
+      "text": "From this position, execute D'arce to Mount to transition to Mounted D'arce.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Switch to Anaconda",
+      "text": "From this position, execute Switch to Anaconda to transition to Anaconda Control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute D'arce to North-South",
+      "text": "From this position, execute D'arce to North-South to transition to North-South.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Japanese Necktie Transition",
+      "text": "From this position, execute Japanese Necktie Transition to transition to Japanese Necktie.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute D'arce to Back Control",
+      "text": "From this position, execute D'arce to Back Control to transition to Back Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Insufficient arm depth?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to ineffective compression, as the choking arm isn't positioned deeply enough to apply pressure on the neck. The correction is: Ensure your choking arm threads deeply under their armpit and around their neck, reaching towards their far shoulder or back."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Poor body alignment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results in reduced choking pressure, as improper alignment diminishes leverage and control over the opponent. The correction is: Align your body to maintain leverage, with your chest or shoulder pressing against their head or upper back, and hips controlling their lower body."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Overreliance on arm strength?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Causes energy inefficiency, tiring you out quickly and reducing the effectiveness of the choke over time. The correction is: Focus on mechanical alignment and shoulder pressure rather than brute strength to compress their neck and carotid arteries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Losing body connection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Offers space creation opportunities, allowing the opponent to alleviate pressure or initiate escapes. The correction is: Maintain tight body connection, keeping your hips and chest positioned to prevent them from creating space or turning."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Rushing the finish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to position compromise, as hastening the submission can create openings for the opponent to counter or escape. The correction is: Secure control first, ensuring all connection points are tight before attempting to finish the choke."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "D'arce Control",
+      "item": "https://bjjgraph.com/positions/darce-control"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "D'arce Control",
+  "description": "Master D'arce Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 55%, Intermediate 70%, Advanced 80%.",
+  "url": "https://bjjgraph.com/positions/d'arce-control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # D'arce Control
 #bjj #state #submission #choke #darce
 
@@ -94,6 +246,15 @@ You are positioned facing your opponent, often from a top position like side con
 - [[Anaconda Control]] - Complementary front headlock submission
 - [[Japanese Necktie]] - Similar mechanics with different configuration
 - [[Arm Triangle]] - Related head and arm choke
+
+
+## Related Positions
+
+- [[Anaconda Control]] - Related position
+- [[Guillotine Control]] - Related position
+- [[North-South]] - Related position
+- [[Mount]] - Related position
+- [[Front Headlock]] - Related position
 
 ## Decision Tree
 If opponent turns away:

@@ -1,3 +1,107 @@
+---
+title: "Z-Guard | BJJ Position Guide | BJJ Graph"
+description: "Master Z-Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 85%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Z-Guard in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Z-Guard.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Z-Guard Sweep",
+      "text": "From this position, execute Z-Guard Sweep to transition to Top Position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Deep Half",
+      "text": "From this position, execute Transition to Deep Half to transition to Deep Half Guard.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Z-Guard to RDLR",
+      "text": "From this position, execute Z-Guard to RDLR to transition to Reverse De La Riva Guard.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Z-Guard to X-Guard",
+      "text": "From this position, execute Z-Guard to X-Guard to transition to X-Guard.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Z-Guard Triangle",
+      "text": "From this position, execute Z-Guard Triangle to transition to Triangle Control.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Omoplata from Z-Guard",
+      "text": "From this position, execute Omoplata from Z-Guard to transition to Omoplata Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Z-Guard",
+      "item": "https://bjjgraph.com/positions/z-guard"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Z-Guard",
+  "description": "Master Z-Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 85%.",
+  "url": "https://bjjgraph.com/positions/z-guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Z-Guard
 #bjj #state #guard #halfguard #defensive #z_guard
 
@@ -82,6 +186,15 @@ Z-Guard is an advanced variation of the Knee Shield Half Guard where the bottom 
 - [[Butterfly Half Guard]] - Related half guard with butterfly hook
 - [[Deep Half Guard]] - Lower engagement half guard system
 - [[Reverse De La Riva Guard]] - Related guard with similar mechanics
+
+
+## Related Positions
+
+- [[Reverse De La Riva Guard]] - Related position
+- [[Deep Half Guard]] - Related position
+- [[Knee Shield Half Guard]] - Related position
+- [[X-Guard]] - Related position
+- [[Half Guard Bottom]] - Related position
 
 ## Decision Tree
 If opponent drives forward with heavy pressure:

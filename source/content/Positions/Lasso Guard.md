@@ -1,3 +1,159 @@
+---
+title: "Lasso Guard | BJJ Position Guide | BJJ Graph"
+description: "Master Lasso Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Lasso Guard in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Lasso Guard.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Lasso Sweep**",
+      "text": "From this position, execute **Lasso Sweep** to transition to Next Position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Omoplata Setup**",
+      "text": "From this position, execute **Omoplata Setup** to transition to Next Position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Triangle Setup**",
+      "text": "From this position, execute **Triangle Setup** to transition to Next Position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Spider Transition**",
+      "text": "From this position, execute **Spider Transition** to transition to Next Position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Back Take**",
+      "text": "From this position, execute **Back Take** to transition to Next Position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Arm Drag**",
+      "text": "From this position, execute **Arm Drag** to transition to Next Position.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Failing to maintain constant tension on the sleeve grip?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent can break grip easily and neutralize lasso control The correction is: Keep consistent pulling pressure on sleeve throughout position"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Allowing opponent to clear the lassoed leg passively?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Loses primary control mechanism and positional advantage The correction is: Actively adjust leg position and maintain weave when opponent moves"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Staying static without transitioning between attacks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "High energy cost without offensive progress or advancement The correction is: Flow between sweeps, submissions, and position changes"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Inadequate hip mobility and angle adjustment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reduces effectiveness of sweeps and submission setups The correction is: Stay mobile with active hip movement to maintain optimal angles"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Neglecting control of opponent's free arm?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent can use free arm to defend and counter-attack The correction is: Monitor and control free arm with other leg or grip"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lasso Guard",
+  "description": "Master Lasso Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.com/positions/lasso-guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Lasso Guard",
+      "item": "https://bjjgraph.com/positions/lasso-guard"
+    }
+  ]
+}
+</script>
+
+
 # Lasso Guard
 #bjj #state #guard #open_guard #bottom #lasso
 
@@ -50,7 +206,16 @@ From this position:
 
 Format: `[[Technique Name]] → [[Resulting State]] (Success Rate: Beginner X%, Intermediate Y%, Advanced Z%)`
 
-### Decision Tree Logic
+#
+## Related Positions
+
+- [[Spider Guard]] - Related position
+- [[Triangle Control]] - Related position
+- [[Open Guard Bottom]] - Related position
+- [[De La Riva Guard]] - Related position
+- [[Omoplata Control]] - Related position
+
+## Decision Tree Logic
 Structured decision-making logic:
 ```
 If [opponent attempts to pass lasso side]:

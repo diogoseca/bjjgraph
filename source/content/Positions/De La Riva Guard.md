@@ -1,3 +1,155 @@
+---
+title: "De La Riva Guard | BJJ Position Guide | BJJ Graph"
+description: "Master De La Riva Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 50%, Intermediate 65%, Advanced 75%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use De La Riva Guard in BJJ",
+  "description": "Complete guide to executing techniques and transitions from De La Riva Guard.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute DLR Basic Sweep",
+      "text": "From this position, execute DLR Basic Sweep to transition to Top Position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Berimbolo",
+      "text": "From this position, execute Berimbolo to transition to Back Control.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Babybolo",
+      "text": "From this position, execute Babybolo to transition to Back Control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute DLR to X-Guard",
+      "text": "From this position, execute DLR to X-Guard to transition to X-Guard.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute DLR to Single Leg X",
+      "text": "From this position, execute DLR to Single Leg X to transition to Single Leg X Guard.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute DLR to Reverse De La Riva",
+      "text": "From this position, execute DLR to Reverse De La Riva to transition to Reverse De La Riva Guard.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Passive hook placement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to easy disengagement by the opponent, as a loose or inactive hook fails to control their leg effectively. The correction is: Maintain active tension in the DLR hook, ensuring your foot is securely wrapped around their knee or thigh."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Poor distance management?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results in vulnerability to pressure passing, as being too close or too far allows the opponent to smash or disengage. The correction is: Keep proper distance by adjusting your hips and using your free leg to block or push, maintaining an off-angle position."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Overcommitment to single attack?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Creates predictable patterns, making it easier for the opponent to anticipate and counter your primary move. The correction is: Vary your attacks, chaining sweeps and transitions to keep the opponent guessing and off-balance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Losing sleeve/collar control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to compromised upper body control, allowing the opponent to posture up and initiate passes. The correction is: Secure a strong grip on their sleeve or collar, pulling down to disrupt their posture and maintain control."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Static hip positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results in reduced defensive capability, as immobile hips limit your ability to adjust angles or react to passes. The correction is: Keep your hips active and mobile, constantly shifting to create leverage and prevent the opponent from squaring up."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "De La Riva Guard",
+      "item": "https://bjjgraph.com/positions/de-la-riva-guard"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "De La Riva Guard",
+  "description": "Master De La Riva Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 50%, Intermediate 65%, Advanced 75%.",
+  "url": "https://bjjgraph.com/positions/de-la-riva-guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # De La Riva Guard
 #bjj #state #guard #open_guard #dlr
 
@@ -91,6 +243,15 @@ You are on your back in an open guard position, with your outside foot hooking b
 - [[X-Guard]] - Related leg entanglement guard
 - [[Butterfly Guard]] - Complementary open guard system
 - [[Matrix Position]] - Advanced transitional position from DLR
+
+
+## Related Positions
+
+- [[X-Guard]] - Related position
+- [[Reverse De La Riva Guard]] - Related position
+- [[Single Leg X Guard]] - Related position
+- [[Butterfly Guard]] - Related position
+- [[Back Control]] - Related position
 
 ## Decision Tree
 If opponent stands tall with weight on back foot:

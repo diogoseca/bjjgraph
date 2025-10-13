@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Base Maintenance",
+  "description": "Base Maintenance represents the fundamental skill of establishing and preserving structural stability through proper weight distribution, alignment, and connection points that maximize control whil...",
+  "url": "https://bjjgraph.com/concepts/base-maintenance",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.com/concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Base Maintenance",
+      "item": "https://bjjgraph.com/concepts/base-maintenance"
+    }
+  ]
+}
+</script>
+
+
 # Base Maintenance
 #bjj #concept #fundamental #stability #control
 

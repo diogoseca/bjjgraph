@@ -1,3 +1,124 @@
+---
+title: "Ouchi Gari | BJJ Technique | BJJ Graph"
+description: "Learn Ouchi Gari in BJJ. Step-by-step execution. Success: Beginner 35%, Intermediate 55%, Advanced 75%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Ouchi Gari",
+  "description": "Learn how to execute Ouchi Gari in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Start in Standing or Clinch Position with strong grip control",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Grip Engagement",
+      "text": "Secure collar and sleeve or over-under grip for upper body control",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Posture Break",
+      "text": "Pull opponent forward or sideways to disrupt balance",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Step",
+      "text": "Step forward with lead foot to close distance and position body",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Inside Step",
+      "text": "Place trailing leg inside opponent's stance, between their legs",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Turn",
+      "text": "Rotate hips inward to align for reaping motion",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Reaping Action",
+      "text": "Hook inside leg backward against opponent's near leg, behind knee or calf",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Takedown Completion",
+      "text": "Pull upper body down across hip, drive opponent to ground",
+      "position": 8
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Position Secure",
+      "text": "Land in top position or side control, maintain control and pressure",
+      "position": 9
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Ouchi Gari",
+      "item": "https://bjjgraph.com/transitions/ouchi-gari"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ouchi Gari",
+  "description": "Learn Ouchi Gari in BJJ. Step-by-step execution. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.com/transitions/ouchi-gari",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Ouchi Gari
 #bjj #transition #takedown #judo #fundamental
 
@@ -224,10 +345,10 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **Standing Position** - Starting point for this transition
-- **Clinch Position** - Alternative starting point with closer control
-- **Osoto Gari** - Similar judo takedown with outside reaping action
-- **Side Control** - Common ending position after successful takedown
+
+- [[High Crotch]] - Related technique
+- [[Osoto Gari]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as takedown (2 points)

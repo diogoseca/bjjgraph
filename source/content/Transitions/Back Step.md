@@ -1,3 +1,122 @@
+---
+title: "Back Step | BJJ Technique | BJJ Graph"
+description: "Learn Back Step in BJJ. Step-by-step execution from Leg Drag Position to Back Control. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Back Step",
+  "description": "Learn how to execute Back Step in Brazilian Jiu-Jitsu from Leg Drag Position to Back Control. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Establish control in a",
+      "text": "Establish control in a passing position (e.g., leg drag or headquarters) with hip and upper body connection.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Recognize opponent's defensive turn",
+      "text": "Recognize opponent's defensive turn or rotation away from you as a trigger for the back step.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Lift your back leg",
+      "text": "Lift your back leg (typically the one furthest from their turning direction) and step it in a circular motion around their body.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Maintain upper body connection",
+      "text": "Maintain upper body connection by keeping chest close and controlling their near arm to prevent framing.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adjust your supporting leg",
+      "text": "Adjust your supporting leg to maintain balance and avoid overcommitting weight forward.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Pivot your hips to",
+      "text": "Pivot your hips to face their back, securing an underhook or other control point on the far side.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Complete the transition by",
+      "text": "Complete the transition by inserting hooks for back control or establishing alternative dominant positions like crucifix.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidate the new position",
+      "text": "Consolidate the new position with appropriate pressure and control to prevent escapes.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Back Step",
+  "description": "Learn Back Step in BJJ. Step-by-step execution from Leg Drag Position to Back Control. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/back-step",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Back Step",
+      "item": "https://bjjgraph.com/transitions/back-step"
+    }
+  ]
+}
+</script>
+
+
 # Back Step
 #bjj #transition #passing #back_take
 
@@ -185,6 +304,13 @@ The Back Step has proven highly effective in competition contexts across all lev
 - Gi competition: Leverages gi grips for enhanced upper body control
 - No-gi competition: Relies more on body locks and timing for connection
 - MMA crossover: Useful for transitioning to back control for strikes or submissions
+
+
+## Related Techniques
+
+- [[Turtle to Back Control]] - Related technique
+- [[Arm Drag]] - Related technique
+- [[Back Control to Crucifix]] - Related technique
 
 ## Historical Context
 The Back Step has evolved as a critical component of modern BJJ passing systems, particularly with the rise of dynamic guard passing in the late 20th and early 21st centuries. Influenced by wrestlers transitioning to BJJ, the movement mirrors mat returns and back-taking techniques from wrestling, adapted for ground-based grappling. It gained prominence through practitioners like Marcelo Garcia, who showcased its effectiveness in chaining passes to back takes. The technique reflects the sport's evolution towards fluid, reaction-based transitions that capitalize on defensive patterns.

@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Top Half Guard",
+  "description": "Top Half Guard represents the conceptual framework for controlling, neutralizing, and ultimately passing the half guard position from the top position. Unlike the state-specific perspective which f...",
+  "url": "https://bjjgraph.com/concepts/top-half-guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.com/concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Top Half Guard",
+      "item": "https://bjjgraph.com/concepts/top-half-guard"
+    }
+  ]
+}
+</script>
+
+
 # Top Half Guard
 #bjj #concept #position #control #passing
 

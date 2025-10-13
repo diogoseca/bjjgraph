@@ -1,3 +1,122 @@
+---
+title: "Transition to Omoplata | BJJ Technique | BJJ Graph"
+description: "Learn Transition to Omoplata in BJJ. Step-by-step execution. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Transition to Omoplata",
+  "description": "Learn how to execute Transition to Omoplata in Brazilian Jiu-Jitsu from Closed Guard Bottom to Omoplata Control. Success: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Begin in Closed Guard",
+      "text": "Begin in Closed Guard Bottom or Open Guard Bottom, maintaining awareness of the opponent's arm positioning and posture, identifying an opportunity to isolate an arm while keeping active legs to control their movement.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Isolate one of their",
+      "text": "Isolate one of their arms by pulling it across your body with a strong two-on-one grip, breaking their posture further in Closed Guard with leg pulls, or creating an angle in Open Guard by shifting your hips to the side.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initiate the transition by",
+      "text": "Initiate the transition by swinging one leg over their trapped arm, pivoting your hips to spin your body perpendicular to theirs, placing your leg over their shoulder with the arm bent at the elbow and wrist near your hip.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Lock the Omoplata by",
+      "text": "Lock the Omoplata by sitting up slightly, adjusting your position to counter their resistance like pulling the arm back or posturing up, while controlling the trapped arm tightly with your legs and grip.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Maintain control during the",
+      "text": "Maintain control during the transition by keeping your hips elevated to apply pressure on their shoulder, using your other leg to post or hook to prevent them from standing or rolling easily.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Secure the full Omoplata",
+      "text": "Secure the full Omoplata Control by tightening your legs around their arm and torso, applying pressure to their shoulder by leaning forward or extending your legs, ensuring their movement is restricted.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Complete the Transition to",
+      "text": "Complete the Transition to Omoplata by either finishing the shoulder lock in Omoplata Control or preparing a Submission Setup by chaining to other attacks if they resist, having turned your guard into a submission threat.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Remain aware of their",
+      "text": "Remain aware of their defensive responses like rolling escapes or guard passes, adapting your grip tightness, hip angle, and leg positioning to consolidate the submission position.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Transition to Omoplata",
+  "description": "Learn Transition to Omoplata in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/transition-to-omoplata",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Transition to Omoplata",
+      "item": "https://bjjgraph.com/transitions/transition-to-omoplata"
+    }
+  ]
+}
+</script>
+
+
 # Transition to Omoplata
 #bjj #transition #submission_setup #offense #ground_game
 
@@ -217,6 +336,13 @@ Updates to this standard should be reflected across related transition setup fil
 
 ## Historical Context
 Transition to Omoplata has been a technical staple in Brazilian Jiu-Jitsu, particularly in sport contexts where guard attacks are prioritized. It reflects the strategic emphasis on submission chains taught by modern BJJ schools and has been popularized by competitors like Clark Gracie to counter aggressive top players.
+
+
+## Related Techniques
+
+- [[Transition to Truck]] - Related technique
+- [[Truck Entry]] - Related technique
+- [[Omoplata Sweep]] - Related technique
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels in gi and no-gi competition

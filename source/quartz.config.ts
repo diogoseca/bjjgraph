@@ -17,7 +17,14 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "bjjgraph.org",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: [
+      "private",
+      "templates",
+      ".obsidian",
+      "CONTRIBUTING-*.md",
+      "**/CONTRIBUTING*.md",
+      "*.old",
+    ],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",

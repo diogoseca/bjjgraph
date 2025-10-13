@@ -1,3 +1,107 @@
+---
+title: "Half Guard Top | BJJ Position Guide | BJJ Graph"
+description: "Master Half Guard Top in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Half Guard Top in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Half Guard Top.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Cut Pass",
+      "text": "From this position, execute Knee Cut Pass to transition to Side Control.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Backstep Pass",
+      "text": "From this position, execute Backstep Pass to transition to Back Control.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Smash Pass from Half",
+      "text": "From this position, execute Smash Pass from Half to transition to Side Control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kimura Trap",
+      "text": "From this position, execute Kimura Trap to transition to Kimura Control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Mount Transition",
+      "text": "From this position, execute Mount Transition to transition to Mount.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Folding Pass",
+      "text": "From this position, execute Folding Pass to transition to Side Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Half Guard Top",
+      "item": "https://bjjgraph.com/positions/half-guard-top"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Half Guard Top",
+  "description": "Master Half Guard Top in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
+  "url": "https://bjjgraph.com/positions/half-guard-top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Half Guard Top
 #bjj #state #top #passing #halfguard
 
@@ -11,6 +115,10 @@
 
 ## State Description
 Half Guard Top is the dominant counterpart to the Half Guard Bottom position, where the top player has one leg trapped between the bottom player's legs, while the other leg remains free. This position represents a transitional state between guard and side control, offering the top player significant passing opportunities while still requiring methodical work to advance position. The Half Guard Top position encompasses numerous variations based on the specific configuration of upper body control, leg positioning, and defensive structures employed by the bottom player. This position has evolved significantly in modern BJJ, transforming from a simple transition point into a complex positional battleground with specialized offensive and defensive approaches.
+
+## Visual Description
+
+The practitioner is positioned on top with one leg trapped between the bottom player's legs, while the free leg is posted outside for base and passing angles. The practitioner typically maintains forward pressure with their chest driving towards the opponent's upper body, attempting to establish a crossface or underhook control. The opponent lies partially on their side or back, using their leg entanglement as an anchor point while fighting for underhooks and frames with their upper body. The practitioner's hips are positioned low and forward, working to flatten the opponent and eliminate the space needed for sweeps or guard recovery. The trapped leg creates an asymmetric geometry where the practitioner must carefully balance their weight to prevent sweeps while maintaining enough pressure to advance towards a pass. This dynamic configuration creates a constant battle between the bottom player attempting to create angles and offensive threats versus the top player working to consolidate control and free their trapped leg for passing sequences.
 
 ## Key Principles
 - Establish and maintain proper weight distribution
@@ -83,6 +191,15 @@ Half Guard Top is the dominant counterpart to the Half Guard Bottom position, wh
 - [[Knee Shield Half Guard]] - Defensive variant to address
 - [[Deep Half Guard]] - Specialized defensive configuration
 - [[Z-Guard]] - Modern defensive half guard variation
+
+
+## Related Positions
+
+- [[Side Control]] - Related position
+- [[Mount]] - Related position
+- [[Deep Half Guard]] - Related position
+- [[Half Guard Bottom]] - Related position
+- [[Knee Shield Half Guard]] - Related position
 
 ## Decision Tree
 If opponent establishes underhook:

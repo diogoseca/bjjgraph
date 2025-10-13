@@ -1,3 +1,124 @@
+---
+title: "Tomahawk Sweep | BJJ Technique | BJJ Graph"
+description: "Learn Tomahawk Sweep in BJJ. Step-by-step execution. Success: Beginner 30%, Intermediate 55%, Advanced 70%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Tomahawk Sweep",
+  "description": "Learn how to execute Tomahawk Sweep in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Engage in open guard with active legs and grips",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Grip Establishment",
+      "text": "Control opponent's sleeves or wrists for leverage",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Distance Management",
+      "text": "Place feet on hips or biceps to frame and prevent passes",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent attempts to pass by stepping or driving forward",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Adjustment",
+      "text": "Shift hips to create angle for sweep on passing side",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Arm Control",
+      "text": "Pull opponent's arm across body with grip to guide movement",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Leg Hook",
+      "text": "Swing outside leg down and across to hook behind far knee or ankle",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Sweep Execution",
+      "text": "Drive hooked leg up and in with chopping motion to off-balance",
+      "position": 8
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Follow Through",
+      "text": "Roll over shoulder or hip to come on top, establish top position",
+      "position": 9
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Tomahawk Sweep",
+      "item": "https://bjjgraph.com/transitions/tomahawk-sweep"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Tomahawk Sweep",
+  "description": "Learn Tomahawk Sweep in BJJ. Step-by-step execution. Success: Beginner 30%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.com/transitions/tomahawk-sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Tomahawk Sweep
 #bjj #transition #sweep #open_guard #dynamic
 
@@ -224,10 +345,12 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **De La Riva Sweep** - Similar open guard sweep with different mechanics
-- **Tripod Sweep** - Alternative open guard sweep option
-- **Open Guard Bottom** - Common starting point for this transition
-- **Guard Recovery** - Fallback option if sweep fails
+
+- [[Tripod Sweep]] - Related technique
+- [[Muscle Sweep]] - Related technique
+- [[Heel Grab Sweep]] - Related technique
+- [[Waiter Sweep]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points)

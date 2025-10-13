@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mount Escape Hierarchy",
+  "description": "The Mount Escape Hierarchy represents a comprehensive defensive system for escaping one of BJJ's most dominant positions. Rather than presenting mount escapes as isolated techniques, this system or...",
+  "url": "https://bjjgraph.com/concepts/mount-escape-hierarchy",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.com/concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Mount Escape Hierarchy",
+      "item": "https://bjjgraph.com/concepts/mount-escape-hierarchy"
+    }
+  ]
+}
+</script>
+
+
 # Mount Escape Hierarchy
 #bjj #defense #system #mount #escape #hierarchy
 

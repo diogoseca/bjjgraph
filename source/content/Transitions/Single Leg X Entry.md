@@ -1,3 +1,122 @@
+---
+title: "Single Leg X Entry | BJJ Technique | BJJ Graph"
+description: "Learn Single Leg X Entry in BJJ. Step-by-step execution. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Single Leg X Entry",
+  "description": "Learn how to execute Single Leg X Entry in Brazilian Jiu-Jitsu from Standing Position to Single Leg X Guard. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Begin in a Standing",
+      "text": "Begin in a Standing Position or seated Open Guard, recognizing the opportunity to enter Single Leg X Guard when the opponent's stance exposes a leg or during a guard pass attempt.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Establish control by securing",
+      "text": "Establish control by securing a grip on their sleeve or wrist with one hand to manage their upper body, sitting back if standing or adjusting your hips if already seated, dropping your level to prepare for the leg entanglement.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Shift your hips to",
+      "text": "Shift your hips to angle towards the targeted side, bringing one leg across their shin to hook behind their knee or ankle with your instep, while your other leg frames against their opposite hip or thigh to block their advance.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Pull them towards you",
+      "text": "Pull them towards you using your grip while threading your hooking leg deeper to lock their targeted leg in place, elevating your hips slightly to create tension in the entanglement.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Maintain your grip on",
+      "text": "Maintain your grip on their upper body during the transition to prevent them from posturing up fully, keeping your hooking leg tight around their leg to control it at the knee line, as you adjust your framing leg to push against their hip or thigh for distance.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Complete the transition by",
+      "text": "Complete the transition by settling into Single Leg X Guard, tightening the entanglement by pulling your heel towards your hip and keeping your framing foot active on their hip to manage space.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Ensure control over their",
+      "text": "Ensure control over their leg to prevent recovery or passing, preparing for sweeps or submissions from this dynamic guard position.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Remain aware of their",
+      "text": "Remain aware of their defensive attempts like passing, freeing their leg, or countering with submissions, adjusting your grip strength, hip elevation, and leg tension to counter and consolidate the guard entry.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Single Leg X Entry",
+  "description": "Learn Single Leg X Entry in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/single-leg-x-entry",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Single Leg X Entry",
+      "item": "https://bjjgraph.com/transitions/single-leg-x-entry"
+    }
+  ]
+}
+</script>
+
+
 # Single Leg X Entry
 #bjj #transition #guard_entry #offense #leg_entanglement
 
@@ -217,6 +336,14 @@ Updates to this standard should be reflected across related transition setup fil
 
 ## Historical Context
 The Single Leg X Entry emerged as part of the modern leg entanglement meta in BJJ, popularized by practitioners like Marcelo Garcia and the Danaher Death Squad in the 2010s, becoming a staple in competition for setting up sweeps and leg locks, especially in no-gi contexts.
+
+
+## Related Techniques
+
+- [[Leg Drag Setup]] - Related technique
+- [[Snap Down]] - Related technique
+- [[Truck Entry]] - Related technique
+- [[Leg Drag Pass]] - Related technique
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels in gi and no-gi competition

@@ -1,3 +1,116 @@
+---
+title: "North-South to Kimura | BJJ Technique | BJJ Graph"
+description: "Learn North-South to Kimura in BJJ. Step-by-step execution. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "North-South to Kimura",
+  "description": "Learn how to execute North-South to Kimura in Brazilian Jiu-Jitsu. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Establish a secure North-South",
+      "text": "Establish a secure North-South position with proper weight distribution, chest pressing heavily on opponent's torso, knees tucked under their shoulders, and arms framing their hips to prevent escapes.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Identify and target the",
+      "text": "Identify and target the opponent's exposed arm, typically the near-side arm, securing initial wrist control with one hand to prevent retraction or defensive tucking.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Create space on the",
+      "text": "Create space on the target side while maintaining chest pressure with the shoulder on the opposite side, ensuring control to block their ability to turn or escape.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Thread the non-control arm",
+      "text": "Thread the non-control arm under the opponent's upper arm on the target side, reaching to establish a figure-four grip by connecting hands, typically palm-to-palm or with a wrist grip.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Secure the figure-four grip,",
+      "text": "Secure the figure-four grip, locking their arm in place, ensuring the grip is tight to isolate the shoulder and prevent defensive hand fighting.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adjust body position to",
+      "text": "Adjust body position to maximize leverage on the isolated shoulder, sliding hips slightly to align perpendicular to their arm, maintaining chest connection to limit space.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Stabilize the final Kimura",
+      "text": "Stabilize the final Kimura control position with proper weight distribution, posting a knee near their head for base, ready to apply submission pressure while countering defensive reactions like bridging or rolling.",
+      "position": 7
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "North-South to Kimura",
+  "description": "Learn North-South to Kimura in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/north-south-to-kimura",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "North-South to Kimura",
+      "item": "https://bjjgraph.com/transitions/north-south-to-kimura"
+    }
+  ]
+}
+</script>
+
+
 # North-South to Kimura
 #bjj #transition #north_south #kimura #submission
 
@@ -90,3 +203,8 @@ Else [maintain control]:
 
 ## Expert Insights
 - **John Danaher**: "Establishing complete control of the opponent's upper arm before attempting the figure-four grip is paramount. Create mechanical disadvantages through precise positioning that render
+
+## Related Techniques
+
+- [[Mount to Armbar]] - Related technique
+

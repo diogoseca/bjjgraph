@@ -1,3 +1,122 @@
+---
+title: "Turtle to Back Control | BJJ Technique | BJJ Graph"
+description: "Learn Turtle to Back Control in BJJ. Step-by-step execution from Turtle Position to Back Control. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Turtle to Back Control",
+  "description": "Learn how to execute Turtle to Back Control in Brazilian Jiu-Jitsu from Turtle Position to Back Control. Success: Beginner 45%, Intermediate 75%, Advanced 90%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Approach turtled opponent with",
+      "text": "Approach turtled opponent with proper positioning and grips",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Establish initial upper body",
+      "text": "Establish initial upper body control (typically over/under, two-on-one, or seatbelt grip)",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Control opponent's hip to",
+      "text": "Control opponent's hip to prevent forward movement or guard recovery",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Create angle by positioning",
+      "text": "Create angle by positioning to side rather than directly behind opponent",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Insert first hook (leg)",
+      "text": "Insert first hook (leg) while maintaining upper body control",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Secure second hook while",
+      "text": "Secure second hook while preventing defensive roll",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidate position with appropriate",
+      "text": "Consolidate position with appropriate upper body control (typically seatbelt grip)",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Establish final back control",
+      "text": "Establish final back control with proper weight distribution and connection points",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Turtle to Back Control",
+  "description": "Learn Turtle to Back Control in BJJ. Step-by-step execution from Turtle Position to Back Control. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/turtle-to-back-control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Turtle to Back Control",
+      "item": "https://bjjgraph.com/transitions/turtle-to-back-control"
+    }
+  ]
+}
+</script>
+
+
 # Turtle to Back Control
 #bjj #transition #turtle #back_control #positional
 
@@ -113,3 +232,11 @@ The Turtle to Back Control transition functions as a "privilege escalation explo
 The process represents a form of "vulnerability chain exploitation," where initial access (upper body control) enables subsequent privilege escalation (hook establishment) that ultimately leads to complete system compromise (back control). This pattern demonstrates the concept of "attack surface reduction" in reverse, where each control point established further restricts the defensive options available.
 
 The various hook configurations illustrate "implementation-specific exploits," where the same fundamental vulnerability can be leveraged through different technical approaches depending on the specific defensive configuration encountered. In essence, the Turtle to Back Control transition exemplifies how BJJ's positional hierarchy systematically identifies and exploits inherent weaknesses in defensive structures, similar to how penetration testing methodologies identify and leverage security vulnerabilities to gain unauthorized system access.
+
+## Related Techniques
+
+- [[Back Step]] - Related technique
+- [[Arm Drag]] - Related technique
+- [[Side Control to Mount]] - Related technique
+- [[Back Control to Crucifix]] - Related technique
+

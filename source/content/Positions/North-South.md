@@ -1,3 +1,107 @@
+---
+title: "North-South | BJJ Position Guide | BJJ Graph"
+description: "Master North-South in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 85%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use North-South in BJJ",
+  "description": "Complete guide to executing techniques and transitions from North-South.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute North-South Choke",
+      "text": "From this position, execute North-South Choke to transition to Won by Submission.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kimura from North-South",
+      "text": "From this position, execute Kimura from North-South to transition to Kimura Control.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Side Control",
+      "text": "From this position, execute Transition to Side Control to transition to Side Control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Mount",
+      "text": "From this position, execute Transition to Mount to transition to Mount.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Armbar from North-South",
+      "text": "From this position, execute Armbar from North-South to transition to Armbar Control.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Back Take from North-South",
+      "text": "From this position, execute Back Take from North-South to transition to Back Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "North-South",
+      "item": "https://bjjgraph.com/positions/north-south"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "North-South",
+  "description": "Master North-South in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 85%.",
+  "url": "https://bjjgraph.com/positions/north-south",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # North-South
 #bjj #state #pin #control #north_south
 
@@ -80,6 +184,15 @@ North-South is a dominant control position where the top player lies perpendicul
 - [[Mount]] - Vertical pin position
 - [[Reverse North-South]] - Inverted variation
 - [[Front Headlock]] - Related upper body control position
+
+
+## Related Positions
+
+- [[Side Control]] - Related position
+- [[Mount]] - Related position
+- [[Kesa Gatame]] - Related position
+- [[Front Headlock]] - Related position
+- [[Armbar Control]] - Related position
 
 ## Decision Tree
 If opponent bridges strongly:

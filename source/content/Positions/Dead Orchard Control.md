@@ -1,3 +1,155 @@
+---
+title: "Dead Orchard Control | BJJ Position Guide | BJJ Graph"
+description: "Master Dead Orchard Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 60%, Intermediate 75%, Advanced..."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Dead Orchard Control in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Dead Orchard Control.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Dead Orchard Armbar",
+      "text": "From this position, execute Dead Orchard Armbar to transition to Armbar Control.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Dead Orchard Triangle Finish",
+      "text": "From this position, execute Dead Orchard Triangle Finish to transition to Won by Submission.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Double Arm Crush",
+      "text": "From this position, execute Double Arm Crush to transition to Won by Submission.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Mounted Triangle",
+      "text": "From this position, execute Transition to Mounted Triangle to transition to Triangle Control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Switch to Williams",
+      "text": "From this position, execute Switch to Williams to transition to Williams Guard.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Dead Orchard Omoplata",
+      "text": "From this position, execute Dead Orchard Omoplata to transition to Omoplata Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Insufficient angle creation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to reduced compression pressure, as improper alignment fails to maximize the choke or arm attacks. The correction is: Ensure your body is angled to apply downward pressure on their neck, using your hips and legs to create the optimal compression angle."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Poor leg lock maintenance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results in control vulnerability, as loose legs allow the opponent to posture or extract their head. The correction is: Maintain a tight triangle by gripping your shin or ankle, keeping constant pressure to secure their neck and arms."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Inadequate arm control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Offers defensive escape opportunities, as uncontrolled arms can be used to frame or push against your hold. The correction is: Secure both arms tightly within the triangle, using your hands or legs to prevent any movement or extraction."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Improper hip positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to suboptimal pressure application, reducing the effectiveness of submissions due to lack of leverage. The correction is: Elevate and angle your hips to apply downward force on their neck, ensuring maximum compression and control."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Overreliance on strength?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Causes energy depletion, tiring you out quickly and diminishing your ability to maintain the position over time. The correction is: Focus on mechanical pressure and leverage through proper positioning rather than brute strength to apply submissions."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Dead Orchard Control",
+      "item": "https://bjjgraph.com/positions/dead-orchard-control"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Dead Orchard Control",
+  "description": "Master Dead Orchard Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 60%, Intermediate 75%, Advanced...",
+  "url": "https://bjjgraph.com/positions/dead-orchard-control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Dead Orchard Control
 #bjj #state #guard #10thplanet #submission
 
@@ -100,6 +252,15 @@ You are positioned on your back or slightly on your side, with your legs locked 
 - [[Armbar Control]] - Common transition
 - [[Williams Guard]] - Related 10th Planet position
 - [[High Guard]] - Foundational position
+
+
+## Related Positions
+
+- [[Triangle Control]] - Related position
+- [[Williams Guard]] - Related position
+- [[Armbar Control]] - Related position
+- [[Won by Submission]] - Related position
+- [[Rubber Guard]] - Related position
 
 ## Decision Tree
 If opponent attempts to posture or bridge:

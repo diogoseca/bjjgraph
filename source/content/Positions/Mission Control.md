@@ -1,3 +1,107 @@
+---
+title: "Mission Control | BJJ Position Guide | BJJ Graph"
+description: "Master Mission Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Mission Control in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Mission Control.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Mission Control to New York",
+      "text": "From this position, execute Mission Control to New York to transition to New York Control.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Secure Gogoplata Setup",
+      "text": "From this position, execute Secure Gogoplata Setup to transition to Gogoplata Control.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Mission Control Omoplata",
+      "text": "From this position, execute Mission Control Omoplata to transition to Omoplata Control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Williams",
+      "text": "From this position, execute Transition to Williams to transition to Williams Guard.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Mission Control Sweep",
+      "text": "From this position, execute Mission Control Sweep to transition to Top Position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Mission Control Triangle",
+      "text": "From this position, execute Mission Control Triangle to transition to Triangle Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Mission Control",
+      "item": "https://bjjgraph.com/positions/mission-control"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mission Control",
+  "description": "Master Mission Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
+  "url": "https://bjjgraph.com/positions/mission-control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Mission Control
 #bjj #state #guard #10thplanet #rubberguard
 
@@ -85,6 +189,15 @@ Mission Control is the foundational control position within Eddie Bravo's Rubber
 - [[Williams Guard]] - Advanced position in progression
 - [[Closed Guard Bottom]] - Foundation position
 - [[Gogoplata Control]] - Related submission position
+
+
+## Related Positions
+
+- [[Williams Guard]] - Related position
+- [[New York Control]] - Related position
+- [[Rubber Guard]] - Related position
+- [[Gogoplata Control]] - Related position
+- [[Closed Guard Bottom]] - Related position
 
 ## Decision Tree
 If opponent postures strongly:

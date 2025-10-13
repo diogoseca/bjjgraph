@@ -1,3 +1,46 @@
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pin Escape Methodology",
+  "description": "The Pin Escape Methodology represents a comprehensive framework for escaping the full spectrum of pinning positions in BJJ. Rather than presenting isolated techniques for specific positions, this s...",
+  "url": "https://bjjgraph.com/concepts/pin-escape-methodology",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.com/concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Pin Escape Methodology",
+      "item": "https://bjjgraph.com/concepts/pin-escape-methodology"
+    }
+  ]
+}
+</script>
+
+
 # Pin Escape Methodology
 #bjj #defense #system #pin #escape #fundamental
 

@@ -1,3 +1,51 @@
+---
+title: "Omoplata | BJJ Submission Guide | BJJ Graph"
+description: "Final positioning with opponent's arm trapped in leg triangle configuration Hip control creating rotational pressure on shoulder joint"
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Omoplata",
+  "description": "Final positioning with opponent's arm trapped in leg triangle configuration Hip control creating rotational pressure on shoulder joint",
+  "url": "https://bjjgraph.com/submissions/omoplata",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Omoplata",
+      "item": "https://bjjgraph.com/submissions/omoplata"
+    }
+  ]
+}
+</script>
+
 # Omoplata
 #bjj #submission #shoulder_lock #joint_lock #endstate #fundamental
 
@@ -32,12 +80,10 @@
 
 ### Visual Finishing Sequence
 Detailed description for technical completion:
-- Final positioning with opponent's arm trapped in leg triangle configuration
-- Hip control creating rotational pressure on shoulder joint
-- Opponent's physical response showing discomfort and defensive attempts
-- Moment of technical completion with clear submission signal
 
-**Template**: "With opponent's arm trapped in your leg triangle, you control their posture and apply hip pressure. You create shoulder rotation while maintaining leg control. Your opponent attempts to defend or adjust position, signals submission by tapping, and the technique is complete."
+From a guard position, you have successfully isolated and threaded the opponent's arm through your leg triangle, with their shoulder trapped beneath your thigh and their arm extended and controlled behind their back in a compromised angle. Your legs form a secure triangle configuration around their shoulder and upper arm, preventing them from extracting the limb as you begin to transition your hips forward and upward. You sit up and rotate your torso toward their trapped arm side, using your body weight and hip positioning to apply progressive rotational pressure directly onto their shoulder joint and scapula. The opponent experiences mounting discomfort as the external rotation stresses their rotator cuff muscles and shoulder capsule, their face showing strain as they attempt unsuccessfully to roll forward, posture out, or extract their trapped arm from your leg control. You maintain tight leg pressure around their shoulder while continuing to drive your hips forward and rotate your upper body, methodically increasing the torque on their shoulder joint until the mounting pressure becomes unsustainable. Their free hand desperately taps on your leg, their body, or the mat in clear submission, and you immediately release the leg pressure and allow their arm to return to a safe position, the omoplata successfully completed with controlled technique and proper safety protocols observed throughout.
+
+**Template**: "From guard, isolate opponent's arm and thread through leg triangle, trap shoulder under thigh. Form tight triangle around shoulder/arm. Sit up, rotate torso toward trapped arm, apply hip pressure. Opponent's shoulder experiences rotational stress, attempts to roll/posture fail. Drive hips forward, maintain leg pressure, increase torque methodically. Opponent taps on leg/mat, release immediately and return arm safely."
 
 ### Setup Requirements (Pre-Submission Checklist)
 Conditions that must be satisfied before attempting:

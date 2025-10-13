@@ -1,3 +1,106 @@
+---
+title: "Waiter Sweep | BJJ Technique | BJJ Graph"
+description: "Learn Waiter Sweep in BJJ. Step-by-step execution from Closed Guard Bottom to Mount. Success: Beginner 40%, Intermediate 65%, Advanced 80%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Waiter Sweep",
+  "description": "Learn how to execute Waiter Sweep in Brazilian Jiu-Jitsu from Closed Guard Bottom to Mount.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish closed guard with strong posture control",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Secure a two-on-one grip on opponent's arm",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically postures up or pulls arm back",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Use arm drag to pull their arm across and to the side",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Positioning",
+      "text": "Open guard, shift hips for angle, trap their opposite leg",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Push off with one foot, thrust hips, roll opponent over to mount",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Waiter Sweep",
+      "item": "https://bjjgraph.com/transitions/waiter-sweep"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Waiter Sweep",
+  "description": "Learn Waiter Sweep in BJJ. Step-by-step execution from Closed Guard Bottom to Mount. Success: Beginner 40%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.com/transitions/waiter-sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Waiter Sweep
 #bjj #transition #sweep #closed_guard #fundamental
 
@@ -217,11 +320,12 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **Hip Bump Sweep** - Similar closed guard sweep with different mechanics
-- **Scissor Sweep** - Alternative closed guard sweep
-- **Flower Sweep** - Another fundamental closed guard sweep
-- **Triangle Choke** - Common follow-up if sweep fails
-- **Armbar** - Alternative attack from similar setup
+
+- [[Flower Sweep]] - Related technique
+- [[Hip Bump Sweep]] - Related technique
+- [[Scissor Sweep]] - Related technique
+- [[Balloon Sweep]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points)

@@ -1,3 +1,107 @@
+---
+title: "Side Control | BJJ Position Guide | BJJ Graph"
+description: "Master Side Control in BJJ. Complete guide covering control, pressure, submissions, and transitions. Dominant 3-point position with 85% retention rate and 45% submission probability."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Side Control in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Side Control.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Mount",
+      "text": "From this position, execute Transition to Mount to transition to Mount.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to North-South",
+      "text": "From this position, execute Transition to North-South to transition to North-South.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee on Belly",
+      "text": "From this position, execute Knee on Belly to transition to Knee on Belly.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Gift Wrap Control",
+      "text": "From this position, execute Gift Wrap Control to transition to Back Control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Americana Setup",
+      "text": "From this position, execute Americana Setup to transition to Americana Control.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kimura Setup",
+      "text": "From this position, execute Kimura Setup to transition to Kimura Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Side Control",
+      "item": "https://bjjgraph.com/positions/side-control"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Side Control",
+  "description": "Master Side Control in BJJ. Complete guide covering control, pressure, submissions, and transitions. Dominant 3-point position with 85% retention rate and 45% submission probability.",
+  "url": "https://bjjgraph.com/positions/side-control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Side Control
 #bjj #state #dominant #pin #side_control
 
@@ -11,6 +115,10 @@
 
 ## State Description
 Side Control (also known as side mount or cross-side) is a dominant ground position where the top practitioner lies perpendicularly across the opponent's torso, controlling them without the opponent's legs interfering. This position offers significant control and multiple attacking opportunities while providing a stable base from which to advance to more dominant positions.
+
+## Visual Description
+
+The practitioner lies horizontally across the opponent's upper body, forming a T-shape or cross configuration when viewed from above. The practitioner's chest presses firmly against the opponent's chest or face, with their near-side arm typically controlling the opponent's head or neck through an underhook or crossface. The far-side arm posts on the mat or controls the opponent's far arm, creating a solid base with legs spread wide for stability. The practitioner's hips are positioned low against the opponent's near-side ribs, preventing space creation and hip movement. The opponent lies flat on their back with their guard completely passed, shoulders pinned to the mat, and defensive options severely limited by the crossface pressure and chest-to-chest connection. This perpendicular orientation makes it nearly impossible for the bottom person to use their legs defensively or offensively, while the top person maintains a stable platform for both control and attacks.
 
 ## Key Principles
 - Distribute weight strategically across opponent's chest and hips
@@ -78,6 +186,15 @@ Side Control (also known as side mount or cross-side) is a dominant ground posit
 - [[Modified Scarf Hold]] - Variation with near-side underhook
 - [[North-South]] - Head-to-head control position
 - [[Quarter Mount]] - Transitional position between side control and mount
+
+
+## Related Positions
+
+- [[North-South]] - Related position
+- [[Knee on Belly]] - Related position
+- [[Mount]] - Related position
+- [[Kesa Gatame]] - Related position
+- [[Back Control]] - Related position
 
 ## Decision Tree
 If opponent frames strongly with near arm:

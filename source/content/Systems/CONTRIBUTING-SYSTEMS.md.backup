@@ -1,0 +1,1010 @@
+# System Standard V2 for BJJ State Machine
+#bjj #standard #systems #statemachine
+
+## Overview
+This document defines the required structure and content for all System files in the BJJ knowledge graph. Systems represent comprehensive frameworks or methodologies—often based on one expert's approach—that connect multiple positions, transitions, and submissions into cohesive attacking or controlling sequences. Systems differ from individual transitions or positions by emphasizing interconnected chains, decision trees with extensive branching, and systematic progression through multiple states.
+
+Every System must include the standardized elements below to ensure proper integration with state machine processing, probability calculations, strategic analysis, and comprehensive technical documentation for both human education and LLM/game engine consumption.
+
+---
+
+## YAML Frontmatter Section
+
+All System files must begin with structured YAML frontmatter for machine processing:
+
+```yaml
+---
+title: "[System Name]"
+system_id: "SC###"
+primary_submissions:
+  - "[[Submission 1]]"
+  - "[[Submission 2]]"
+  - "[[Submission 3]]"
+starting_positions:
+  - "[[Position 1]]"
+  - "[[Position 2]]"
+  - "[[Position 3]]"
+difficulty_level: "[Beginner/Intermediate/Advanced/Expert]"
+strategic_value: "[Low/Medium/High/Extremely High]"
+submission_sequence:
+  - step: 1
+    attack: "[[Primary Submission]]"
+    trigger: "Description of when/why this is the first attack"
+    success_rate:
+      beginner: 25
+      intermediate: 40
+      advanced: 55
+  - step: 2
+    attack: "[[Secondary Submission]]"
+    trigger: "Description of defensive response that triggers this"
+    success_rate:
+      beginner: 30
+      intermediate: 45
+      advanced: 60
+  - step: 3
+    attack: "[[Tertiary Submission]]"
+    trigger: "Description of continued defensive response"
+    success_rate:
+      beginner: 35
+      intermediate: 50
+      advanced: 65
+tags:
+  - bjj
+  - system
+  - [submission/control/escape/sweep]
+  - [specific_technique_names]
+---
+```
+
+### YAML Field Definitions
+
+- **title**: Official system name
+- **system_id**: Unique identifier (format: SC###, e.g., SC009)
+- **primary_submissions**: 3-5 main finishing techniques within the system
+- **starting_positions**: 3-6 positions from which system can be initiated
+- **difficulty_level**: Skill level required to execute system effectively
+- **strategic_value**: Overall effectiveness and importance in BJJ strategy
+- **submission_sequence**: Ordered array of attacks with triggers and success rates
+- **tags**: Categorization for search and filtering
+
+---
+
+## Required Content Sections
+
+### 1. System Description
+
+Comprehensive overview paragraph (300-500 words) that addresses:
+
+- **Core Philosophy**: What makes this system unique or powerful
+- **Systematic Approach**: How techniques interconnect rather than function in isolation
+- **Positional Framework**: Which controlling positions serve as hubs for the system
+- **Defensive Dilemmas**: How the system creates unsolvable problems for opponents
+- **Adaptability**: How system adjusts across body types, skill levels, and competitive contexts
+- **Historical Context**: Origins or development (if attributed to specific expert)
+
+**Template Structure**:
+```
+The [System Name] represents [fundamental characterization]. This system encompasses [scope description including positions, submissions, and control mechanisms].
+
+What distinguishes [System Name] is [unique properties that separate it from alternatives]. [Explain systematic interconnection and decision-tree approach]. This creates [description of strategic advantages].
+
+The system operates from [list related positions], offering [submission pathways] that exploit [common defensive patterns]. This creates [comprehensive attacking framework description] with [adaptability characteristics].
+```
+
+---
+
+### 2. Core Mechanical Principles
+
+Bulleted list (6-10 principles) of fundamental concepts that govern the system:
+
+- **Control Mechanisms**: Primary methods for maintaining position dominance
+- **Pressure Application**: How force is strategically applied
+- **Defensive Neutralization**: How opponent options are systematically eliminated
+- **Transition Mechanics**: Movement patterns that connect system components
+- **Leverage Optimization**: Biomechanical advantages to maximize
+- **Timing Coordination**: When to initiate different phases
+- **Energy Management**: Sustainable vs. explosive effort allocation
+- **Anticipatory Defense**: Preventing common escape attempts before they develop
+
+Each principle should be 3-8 words describing a specific technical or strategic concept.
+
+---
+
+### 3. Submission Sequence (Detailed)
+
+Expand on the YAML frontmatter with rich technical detail:
+
+#### Primary Attack: [[Submission Name]]
+- **Execution Focus**: Key technical elements that determine success
+- **Control Prerequisites**: What must be established before attempting
+- **Defensive Triggers**: Specific opponent responses that signal need to transition
+- **Success Indicators**: How you know the submission is progressing correctly
+- **Common Failures**: Why this attack fails and how to prevent
+
+#### Secondary Attack: [[Submission Name]]
+- **Transition Mechanics**: Exactly how you move from primary to secondary
+- **Execution Focus**: Adjusted technical priorities for this attack
+- **Defensive Recognition**: How opponent's defense led to this opportunity
+- **Position Maintenance**: How to preserve control during transition
+- **Alternative Pathways**: Other options if this also fails
+
+#### Tertiary Attack: [[Submission Name]]
+- **Transition Mechanics**: Movement from secondary to tertiary attack
+- **Execution Focus**: Final technical adjustments
+- **Last-Resort Applications**: When this becomes the optimal choice
+- **Completion Requirements**: Critical details for successful finish
+
+*(Include 3-5 submission attacks in typical progression order)*
+
+---
+
+### 4. Comprehensive Decision Tree
+
+Structured branching logic with extensive coverage of defensive scenarios:
+
+```
+PRIMARY POSITION CONTROL:
+
+If opponent establishes [defensive structure A]:
+- Execute [[Response Technique 1]] → [[Result State]] (Probability: X%)
+- Or Execute [[Response Technique 2]] → [[Result State]] (Probability: Y%)
+- Or Execute [[Response Technique 3]] → [[Result State]] (Probability: Z%)
+
+Else if opponent attempts [defensive action B]:
+- Execute [[Counter Action 1]] → [[Result State]] (Probability: X%)
+- Or Execute [[Counter Action 2]] → [[Result State]] (Probability: Y%)
+
+Else if opponent creates [defensive scenario C]:
+- Execute [[Adjustment 1]] → [[Intermediate State]] (Probability: X%)
+  - Then if [condition], Execute [[Follow-up 1]] → [[Terminal State]]
+  - Else Execute [[Follow-up 2]] → [[Alternative State]]
+
+TRANSITION PHASE CONTROL:
+
+If opponent defends by [specific movement D]:
+- Maintain [[Control Grip]] and Execute [[Pursuit Technique]] → [[Advanced Position]]
+- Or Release to [[Reset Position]] and restart system
+
+If opponent successfully initiates [escape attempt E]:
+- Counter with [[Defensive Technique]] → Maintain system (Probability: X%)
+- Or Transition to [[Alternative System]] (Probability: Y%)
+
+SUBMISSION PHASE CONTROL:
+
+If opponent defends primary submission with [defense F]:
+- Tighten control and increase pressure (Continue primary attack)
+- Or Transition to [[Secondary Submission]] (Probability: X%)
+
+If opponent defends secondary submission with [defense G]:
+- Execute [[Tertiary Submission]] (Probability: X%)
+- Or Return to [[Control Position]] and reassess
+
+Default/No Strong Defense:
+- Continue primary attack progression to completion
+```
+
+**Decision Tree Requirements**:
+- Minimum 10 branching conditions
+- Each branch includes specific opponent action and your response
+- Probabilities for each outcome
+- Nested decision logic where appropriate
+- Clear "if/else if/else" structure for AI parsing
+
+---
+
+### 5. Expert Insights (Systematic Integration)
+
+Commentary as if from recognized authorities, emphasizing how they integrate this system into their broader methodology:
+
+#### John Danaher
+2-4 sentences focusing on:
+- Biomechanical analysis and mechanical advantages
+- Systematic problem-solving approach
+- How system fits into his broader positional hierarchy
+- Specific technical details he emphasizes
+- Training methodology for system development
+
+#### Gordon Ryan
+2-4 sentences focusing on:
+- Competition application and match strategy
+- High-percentage technical details that create success
+- Psychological pressure and opponent breaking
+- Integration with his personal game
+- Specific competitive contexts where system excels
+
+#### Eddie Bravo
+2-4 sentences focusing on:
+- Unconventional applications and innovative variations
+- Connections to 10th Planet system positions
+- No-gi specific adaptations
+- Alternative entries or finishes
+- How system addresses common defensive patterns
+
+**Each expert insight must**:
+- Be specific to this system (not generic advice)
+- Include technical or strategic details
+- Explain their unique perspective on the system
+- Connect to their broader methodological framework
+
+---
+
+### 6. Setup Positions and Entries
+
+How to enter the system from various starting points:
+
+Format:
+```
+[[Starting Position]] → [Intermediate Action/Control] → [[System Entry State]]
+```
+
+Requirements:
+- Minimum 5 entry pathways
+- Cover diverse starting scenarios (top, bottom, standing, transitional)
+- Include brief technical note on entry mechanism where complex
+- Link to existing position files using [[Wikilink]] syntax
+
+**Example**:
+```
+- [[Turtle Top]] → Establish cross-face control → [[Back Exposure]] → [[System Entry]]
+- [[Side Control]] → Far-arm isolation with underhook → [[Kimura Grip]] → [[System Hub]]
+- [[Closed Guard Bottom]] → Break posture and secure overhook → [[Bottom Control]] → [[System Attack]]
+```
+
+---
+
+### 7. Common Defensive Reactions and System Responses
+
+How the system adapts to defend actions:
+
+Format:
+```
+[Defensive Action Description] → [System Response] with [Technical Details]
+```
+
+Requirements:
+- Minimum 7 defensive reactions
+- Each includes specific system response
+- Brief technical explanation of why response is effective
+- Cover range of defensive strategies (passive, aggressive, scrambling)
+
+**Example**:
+```
+- Hand fighting with two-on-one grip → Systematic grip stripping using staged approach, isolating one hand at a time, or transition to alternative attack that doesn't require that grip
+- Explosive bridging and rolling → Follow opponent's momentum while maintaining core control, using their movement to advance to superior position
+- Creating frames and pushing away → Use opponent's extension to facilitate sweep or position change, converting their defensive structure into offensive opportunity
+```
+
+---
+
+### 8. Training Methodology
+
+Structured approach to developing system mastery:
+
+#### Progressive Drilling
+- Specific drills with clear objectives
+- Partner cooperation levels (compliant → resistant → live)
+- Focus areas for each training phase
+
+#### Recognition Training
+- How to identify opportunities to enter system
+- Defensive pattern recognition drills
+- Decision-making under pressure scenarios
+
+#### Troubleshooting Practice
+- Common failure points and correction drills
+- Recovery sequences when system breaks down
+- Adaptation training for body type differences
+
+#### Integration Sparring
+- Positional sparring from system states
+- Full sparring with system emphasis
+- Competition simulation protocols
+
+Format each as bulleted sub-items with specific actionable training activities.
+
+---
+
+### 9. Competition Application
+
+Real-world effectiveness analysis (200-300 words):
+
+Must address:
+- **Statistical Effectiveness**: Success rates at various competition levels
+- **Tactical Advantages**: Why system succeeds in competition contexts
+- **Format Variations**: Effectiveness in gi vs. no-gi vs. MMA
+- **Psychological Impact**: Mental pressure system creates on opponents
+- **High-Level Examples**: Notable competition applications (if applicable)
+- **Strategic Positioning**: How system fits into broader match strategy
+- **Risk Assessment**: Potential vulnerabilities and when to avoid system
+
+---
+
+### 10. LLM Context Block (For AI/Game Engine)
+
+Structured data section specifically for AI consumption and game engine decision-making:
+
+```markdown
+## LLM_CONTEXT_BLOCK_START
+
+### System Logic Summary
+[2-3 sentences describing system in pure logical terms: if X condition exists, apply Y technique, which leads to Z state or creates A dilemma]
+
+### State Progression Map
+Primary Entry State: [[Position Name]] (State ID: S###)
+↓
+Control Hub State: [[Position Name]] (State ID: S###)
+↓
+Submission Attack State: [[Position Name]] (State ID: S###)
+↓
+Terminal States:
+  - [[Submission 1]] (Success Rate: X%)
+  - [[Submission 2]] (Success Rate: Y%)
+  - [[Submission 3]] (Success Rate: Z%)
+
+### Decision Logic for AI
+```python
+def system_decision_logic(current_state, opponent_defense, energy_level, skill_level):
+    """
+    Pseudo-code for AI decision-making within system
+    """
+    if current_state == "system_entry":
+        if opponent_defense == "passive":
+            return advance_to_control_hub(probability=0.75)
+        elif opponent_defense == "aggressive":
+            return counter_and_advance(probability=0.60)
+        else:
+            return maintain_and_reassess(probability=0.85)
+
+    elif current_state == "control_hub":
+        if opponent_defense == "strong_frames":
+            return attack_submission_1(probability=0.55)
+        elif opponent_defense == "weak_base":
+            return attack_submission_2(probability=0.65)
+        else:
+            return default_primary_attack(probability=0.50)
+
+    elif current_state == "submission_attack":
+        if opponent_defense == "hand_fight":
+            return transition_secondary_attack(probability=0.70)
+        elif opponent_defense == "explosive_escape":
+            return strengthen_control_and_reset(probability=0.60)
+        else:
+            return complete_submission(probability=skill_level * 0.80)
+
+    return maintain_current_state()
+```
+
+### Key Control Checkpoints
+1. **Entry Control**: [What must be established to enter system]
+2. **Hub Control**: [What must be maintained at control hub]
+3. **Submission Control**: [What must be secured to finish]
+4. **Recovery Control**: [How to recover if system breaks down]
+
+### Energy Cost Model
+- Entry Phase: [Low/Medium/High] energy cost
+- Control Phase: [Low/Medium/High] energy cost (sustainable for X seconds)
+- Submission Phase: [Low/Medium/High] energy cost
+- Total System Energy: [Low/Medium/High] (affects fatigue accumulation)
+
+### Success Probability Modifiers
+Base success rates from YAML frontmatter are modified by:
+- Setup Quality: +/- 15%
+- Opponent Fatigue: +10% per fatigue level
+- Position Control: +/- 10%
+- Technical Knowledge: +/- 15% (based on knowledge test)
+- Skill Level Gap: +/- 20% (attacker skill vs defender skill)
+
+## LLM_CONTEXT_BLOCK_END
+```
+
+This block provides structured data for:
+- AI opponent decision-making in game engine
+- Probabilistic calculations for state transitions
+- Energy/fatigue system integration
+- Narrative generation context
+
+---
+
+### 11. Computer Science Analogy
+
+Technical/theoretical analysis using CS concepts (150-250 words):
+
+Should include comparisons to:
+- **Algorithm Design**: Search algorithms, optimization, decision trees
+- **Data Structures**: Graphs, trees, state machines, finite automata
+- **Game Theory**: Nash equilibrium, minimax, dominant strategies
+- **Complexity Theory**: Problem reduction, NP-completeness, computational difficulty
+- **Security Concepts**: Attack vectors, privilege escalation, resource exhaustion
+- **Software Engineering**: Design patterns, system architecture, modularity
+
+Purpose: Provides alternative conceptual framework for understanding system mechanics, useful for technical audience and LLM comprehension.
+
+---
+
+## Validation Checklist
+
+Every System file must include:
+
+- [ ] YAML frontmatter with all required fields and valid syntax
+- [ ] System Description (300-500 words) explaining philosophy and interconnection
+- [ ] 6-10 Core Mechanical Principles
+- [ ] 3-5 Submission Attacks with detailed progression
+- [ ] Comprehensive Decision Tree with minimum 10 branches
+- [ ] Expert Insights from all three authorities (Danaher, Ryan, Bravo)
+- [ ] Minimum 5 Setup Position entry pathways
+- [ ] Minimum 7 Common Defensive Reactions with responses
+- [ ] Complete Training Methodology section
+- [ ] Competition Application analysis (200-300 words)
+- [ ] LLM Context Block with decision logic and state progression
+- [ ] Computer Science Analogy (150-250 words)
+- [ ] All [[Wikilinks]] point to existing or planned content files
+- [ ] Success probabilities included for all major transitions
+- [ ] Consistent formatting and markdown structure
+
+---
+
+## Complete Example Implementation
+
+Below is a complete example showing how to implement this standard:
+
+---
+
+```markdown
+---
+title: "Back Attack System"
+system_id: "SC009"
+primary_submissions:
+  - "[[Rear Naked Choke]]"
+  - "[[Bow and Arrow Choke]]"
+  - "[[Armbar from Back]]"
+  - "[[Triangle from Back]]"
+starting_positions:
+  - "[[Back Control]]"
+  - "[[Turtle Top]]"
+  - "[[Technical Back Mount]]"
+  - "[[Side Control]]"
+  - "[[Mount]]"
+difficulty_level: "Beginner to Advanced"
+strategic_value: "Extremely High"
+submission_sequence:
+  - step: 1
+    attack: "[[Rear Naked Choke]]"
+    trigger: "Primary attack from back control with seatbelt grip established"
+    success_rate:
+      beginner: 30
+      intermediate: 50
+      advanced: 70
+  - step: 2
+    attack: "[[Bow and Arrow Choke]]"
+    trigger: "Opponent defends RNC by protecting neck or tucking chin"
+    success_rate:
+      beginner: 35
+      intermediate: 55
+      advanced: 75
+  - step: 3
+    attack: "[[Armbar from Back]]"
+    trigger: "Opponent overcommits to neck defense, isolating arm"
+    success_rate:
+      beginner: 40
+      intermediate: 60
+      advanced: 80
+tags:
+  - bjj
+  - system
+  - submission
+  - back_control
+  - back_attack
+  - choke
+  - strangle
+---
+
+# Back Attack System
+
+## System Description
+
+The Back Attack System represents the most comprehensive and statistically dominant submission framework in Brazilian Jiu-Jitsu, built around the premier offensive position in grappling: back control. This system encompasses a complete attacking methodology that addresses all aspects of offensive back control, including the establishment and maintenance of the position, the systematic breakdown of defensive resources, and the execution of various submission attacks.
+
+What distinguishes the Back Attack System is its exceptional positional dominance combined with high-percentage submission threats. Unlike many positions that offer either strong control or submission opportunities, back control provides both simultaneously at an unparalleled level. This creates a uniquely advantageous attacking platform where the practitioner can maintain positional superiority while systematically working through a progression of submission threats based on the opponent's defensive reactions.
+
+The system operates from several related back control variations, including traditional back mount with hooks, the body triangle, technical back mount, and turtle-based back control. From these controlling positions, the system offers multiple submission pathways focusing primarily on strangulations (Rear Naked Choke, Bow and Arrow Choke, Collar Chokes) with complementary joint locks (Armbar, Kimura) that exploit common defensive patterns. This creates a comprehensive attacking framework with exceptional adaptability across body types, defensive styles, and competitive contexts.
+
+The Back Attack System's power lies in its ability to create unsolvable defensive dilemmas. Every defensive choice opens alternative attacking pathways, creating a systematic progression that leads inevitably toward submission. The position's structural advantages—controlling the opponent's back while remaining outside their offensive range—provide both maximum attacking opportunity and maximum defensive safety, making it the most sought-after position across all grappling disciplines.
+
+## Core Mechanical Principles
+
+- **Chest-to-Back Connection**: Maintaining persistent spinal alignment and connection throughout transitions
+- **Hip Control**: Controlling opponent's hip movement through hooks or body triangle configuration
+- **Defensive Neutralization**: Systematically eliminating defensive hand fighting resources before submission attempts
+- **Space Elimination**: Removing all defensive space to maximize control and submission effectiveness
+- **Harness Control**: Establishing and maintaining upper body control through proper seatbelt gripping mechanics
+- **Submission Chaining**: Connecting different submission threats based on defensive responses in fluid sequence
+- **Preventative Defense**: Anticipating and preventing common escape attempts before they fully develop
+- **Incremental Pressure**: Building control and submission pressure progressively rather than explosively to maintain sustainability
+
+## Submission Sequence
+
+### 1. Primary Attack: [[Rear Naked Choke]]
+
+**Execution Focus**: The Rear Naked Choke serves as the primary weapon from back control, emphasizing the establishment of proper seatbelt control (one arm over shoulder, one under armpit) and systematically eliminating hand defenses before securing the choke. The key is patient grip fighting that progressively removes the opponent's defensive frames.
+
+**Control Prerequisites**: Must establish chest-to-back connection, secure at least one hook (or body triangle), and control opponent's upper body through seatbelt grip before attempting choking arm insertion.
+
+**Defensive Triggers**: Opponent defends by protecting neck with hands (two-on-one grip), tucking chin aggressively, or creating frames that prevent choking arm from reaching across neck. These defensive actions signal the need to transition to alternative attacks.
+
+**Success Indicators**: Choking arm successfully crosses neck, forearm contacts carotid arteries, rear hand grabs bicep of choking arm, and opponent's defensive hands are systematically stripped or controlled.
+
+**Common Failures**: Attempting choke without first establishing dominant control, failing to remove defensive hands before inserting choking arm, or applying pressure without proper arm positioning across neck rather than under chin.
+
+### 2. Secondary Attack: [[Bow and Arrow Choke]] (Gi) / [[Short Choke]] (No-Gi)
+
+**Transition Mechanics**: When opponent successfully defends RNC through chin tucking or strong hand fighting, utilize collar grip (gi) or modified arm positioning (no-gi) to create choking pressure from different angle. Maintain back control while adjusting body position to create proper leverage for alternative choke.
+
+**Execution Focus**: In gi, establish deep collar grip with primary hand while using leg positioning to extend opponent's body and create choking pressure. In no-gi, modify standard RNC grip to create pressure on neck from different configuration that bypasses opponent's defensive hand positioning.
+
+**Defensive Recognition**: This attack becomes optimal when opponent successfully establishes strong chin tuck or two-on-one grip that makes standard RNC difficult. Their defensive success with primary attack creates the opening for this alternative strangulation.
+
+**Position Maintenance**: Critical to maintain back control fundamentals (hooks or body triangle, chest-to-back connection) throughout the transition. The change is in upper body mechanics, not positional abandonment.
+
+**Alternative Pathways**: If Bow and Arrow/Short Choke also fails, opponent's defensive focus on neck creates arm isolation opportunities for joint lock attacks.
+
+### 3. Tertiary Attack: [[Armbar from Back]]
+
+**Transition Mechanics**: When opponent overcommits to defending neck attacks by creating strong frames or pulling hands tightly to chest, their arms become isolated and vulnerable. Transition involves maintaining back control while adjusting body position to proper armbar alignment, typically by swinging leg over opponent's head while controlling isolated arm.
+
+**Execution Focus**: The key is maintaining some form of back control (at least one hook) during the transition to armbar position. Control the isolated arm at the wrist and elbow, ensuring proper arm alignment before committing fully to the armbar position.
+
+**Last-Resort Applications**: This attack typically succeeds because opponent has exhausted their defensive resources on neck defense. By the time the armbar is available, opponent is often mentally and physically fatigued from defending multiple choke attempts, making the arm isolation easier to achieve.
+
+**Completion Requirements**: Proper hip positioning under opponent's elbow, legs controlling head and body, wrist control preventing grip escapes, and patient extension rather than explosive yanking of the arm.
+
+## Comprehensive Decision Tree
+
+**PRIMARY POSITION ESTABLISHMENT:**
+
+If opponent is in turtle position:
+- Execute [[Back Take from Turtle]] → [[Back Control]] (Probability: 70%)
+- Or Execute [[Clock Choke]] → Immediate submission (Probability: 45%)
+- Or Execute [[Crucifix Control]] → [[Alternative Attack Position]] (Probability: 55%)
+
+Else if opponent turns away from side control:
+- Maintain connection and Execute [[Back Take Transition]] → [[Back Control]] (Probability: 75%)
+- Or Establish [[Technical Back Mount]] (Probability: 80%)
+
+Else if opponent attempts to stand from ground:
+- Execute [[Standing Back Take]] → [[Back Control]] (Probability: 65%)
+- Or Execute [[Mat Return]] → Force back to ground with control (Probability: 70%)
+
+**CONTROL HUB MAINTENANCE:**
+
+If opponent establishes strong defensive posture with hands protecting neck:
+- Execute systematic hand fighting to [[Strip Defensive Grips]] (Probability: 60%)
+- Or Transition to [[Bow and Arrow Choke]] (Probability: 55%)
+- Or Create arm isolation for [[Armbar from Back]] (Probability: 50%)
+
+Else if opponent tucks chin aggressively:
+- Apply face-covering variation of RNC with jaw pressure (Probability: 45%)
+- Or Transition to [[Short Choke]] variation (Probability: 50%)
+- Or Execute [[Bow and Arrow Choke]] (Probability: 60%)
+
+Else if opponent attempts to roll forward:
+- Follow movement maintaining back control (Probability: 80%)
+- Or Establish [[Mount]] during roll (Probability: 65%)
+- Or Allow roll and transition to [[Turtle Top]] (Probability: 90%)
+
+Else if opponent bridges and attempts to drive backward:
+- Adjust hook placement and maintain spinal connection (Probability: 85%)
+- Or Transition to [[Body Triangle]] for more secure control (Probability: 75%)
+- Or Execute [[Technical Adjustment]] to strengthen position (Probability: 90%)
+
+Else if opponent attempts to peel hooks with hands:
+- Switch to [[Body Triangle]] (Probability: 70%)
+- Or Adjust hook position to knee-on-hip configuration (Probability: 75%)
+- Or Capitalize on hand distraction to attack neck (Probability: 55%)
+
+**SUBMISSION ATTACK PHASE:**
+
+If opponent defends RNC with two-on-one grip:
+- Systematically strip grips using staged approach (Probability: 60%)
+- Or Transition to [[Bow and Arrow Choke]] (Probability: 65%)
+- Or Create arm isolation for [[Kimura from Back]] (Probability: 50%)
+
+Else if opponent defends RNC by tucking chin:
+- Apply modified RNC with jaw pressure (Probability: 50%)
+- Or Transition to [[Short Choke]] (Probability: 55%)
+- Or Execute [[Bow and Arrow Choke]] (Probability: 60%)
+
+Else if opponent defends by rolling aggressively:
+- Follow movement and re-establish [[Back Control]] (Probability: 75%)
+- Or Transition to [[Mount]] during roll (Probability: 60%)
+- Or Establish [[Armbar from Back]] during roll (Probability: 55%)
+
+Else if opponent overcommits to neck defense:
+- Attack isolated arm with [[Armbar from Back]] (Probability: 70%)
+- Or Execute [[Kimura from Back]] (Probability: 65%)
+- Or Transition to [[Triangle from Back]] (Probability: 50%)
+
+Else if opponent turns slightly to face attacker:
+- Adjust to [[Technical Back Mount]] (Probability: 80%)
+- Or Execute [[Bow and Arrow Choke]] (Probability: 70%)
+- Or Transition to [[Armbar]] (Probability: 60%)
+
+Else if opponent creates separation by pushing on arms:
+- Re-establish harness control (Probability: 85%)
+- Or Strengthen [[Body Triangle]] (Probability: 70%)
+- Or Reset attack sequence from improved control (Probability: 90%)
+
+**DEFAULT/OPTIMAL CONDITIONS:**
+
+If opponent shows no strong defense:
+- Execute standard [[Rear Naked Choke]] progression (Probability: 80%)
+- Maintain patient pressure and systematic grip fighting
+- Progress to submission through incremental improvements
+
+## Expert Insights
+
+### John Danaher
+
+John Danaher has revolutionized back attacking methodology through his comprehensive "Straitjacket System," which focuses on methodically breaking down defensive hand structures before attempting submissions. His approach emphasizes precise mechanical details in both the control and submission phases, treating back control as a systematic problem-solving process rather than a single technique. Danaher particularly focuses on specific grip configurations and body positioning that maximize control while minimizing energy expenditure, creating a sustainable attacking platform that can be maintained for extended periods against strong defensive opposition. He teaches that the back attack system succeeds not through explosive power but through patient, incremental improvements in position that make submission inevitable.
+
+### Gordon Ryan
+
+As Danaher's most accomplished student, Ryan has refined the back attack system to unprecedented competitive effectiveness, demonstrating perhaps the highest percentage back control finishing rate in elite competition. His approach emphasizes creating and maintaining a specific "harness grip" from the back that provides maximum control while systematically eliminating defensive options. Ryan particularly focuses on patience and incremental improvements in position, often maintaining back control for extended periods while methodically breaking down defensive resources until submission becomes inevitable. His competition record demonstrates that properly executed back control succeeds even against opponents who fully understand the attacking mechanics, showcasing the position's fundamental structural advantages.
+
+### Eddie Bravo
+
+Within the 10th Planet system, Bravo has developed specialized back control mechanisms including his "Twister Side Control" and "Truck" positions that create unique entries to traditional back control. His system emphasizes unconventional entries to the back and specialized control variations that opponents are less familiar defending. When attacking from the back, Bravo focuses on creating control positions that facilitate his signature submissions, including the Twister and various Rubber Guard-based transitions that can be applied from back control variations. His no-gi emphasis has led to innovations in maintaining back control without gi grips, using body positioning and pressure to maintain dominance in situations where traditional grip-based control isn't available.
+
+## Setup Positions and Entries
+
+- [[Turtle Top]] → Establish cross-face or back control grips → [[Back Control]]
+- [[Side Control]] → Far-arm isolation and roll → [[Back Taking Sequence]] → [[Back Control]]
+- [[Mount]] → Technical transition as opponent turns → [[Technical Back Mount]]
+- [[Half Guard Top]] → Flatten opponent and advance → [[Back Exposure]] → [[Back Control]]
+- [[Standing Rear Clinch]] → Body lock takedown → [[Back Control]]
+- [[Closed Guard Bottom]] → Sweep to [[Turtle Top]] → [[Back Take]] → [[Back Control]]
+- [[North-South]] → Opponent turns defensively → [[Back Take Opportunity]] → [[Back Control]]
+- [[Knee on Belly]] → Opponent turns away → [[Back Taking Transition]] → [[Technical Back Mount]]
+
+## Common Defensive Reactions and System Responses
+
+- **Hand fighting with two-on-one grip** → Systematic grip stripping using staged approach (isolate one hand, remove it, then address second hand), or transition to [[Bow and Arrow Choke]] that bypasses hand fighting entirely
+- **Aggressive chin tucking** → Apply modified RNC with jaw pressure to force chin up, or transition to [[Short Choke]] or [[Bow and Arrow Choke]] that attacks from different angle
+- **Forward rolling escape attempt** → Follow opponent's movement while maintaining chest-to-back connection and hook control, re-establishing dominant back control after roll completes
+- **Bridging and hip movement** → Adjust hook placement dynamically, maintain spinal connection through movement, strengthen control with [[Body Triangle]] if necessary
+- **Attempting to turn into attacker** → Transition to [[Technical Mount]] or [[Armbar]] as opponent exposes themselves during turn, using their movement to advance position
+- **Creating separation by pushing on arms** → Re-establish harness control immediately, eliminate space through chest pressure, reset attack sequence from strengthened position
+- **Peeling hooks with hands** → Switch to [[Body Triangle]] for more secure lower body control, or adjust hooks to knee-on-hip configuration that's harder to remove
+- **Explosive scrambling** → Maintain core connection points (chest-to-back, at least one control point), follow movement without releasing, re-establish full control when opponent exhausts themselves
+- **Defensive turtling** → Adjust to turtle-specific back control variations, maintain control while working to flatten opponent, establish hooks as space becomes available
+
+## Training Methodology
+
+### Progressive Drilling
+- Begin with static back control maintenance against zero resistance, focusing on proper body positioning and hook placement
+- Progress to back control maintenance against progressive resistance levels, with partner attempting specific escapes at 25%, 50%, 75%, and 100% intensity
+- Flow drilling connecting different back control variations (standard hooks, body triangle, technical back mount) with smooth transitions between them
+- Submission chain drilling where partner's defensive reaction dictates next attack in sequence
+- Position sparring starting from back control with increasing time limits (1 min, 2 min, 5 min, 10 min rounds)
+
+### Recognition Training
+- Turtle top position sparring with focus on recognizing back take opportunities during opponent's movement
+- Transition-based drilling where partner creates back exposure from various positions and you capitalize immediately
+- Video analysis of competition footage identifying back take opportunities and entry timing
+- Decision-making drills where partner randomly selects defensive reactions and you identify and execute proper counter
+- Pattern recognition training focusing on common defensive postures that signal specific attack opportunities
+
+### Troubleshooting Practice
+- Scenario training for each common escape attempt with specific counter-strategies
+- Recovery sequences when hooks are lost but upper body control remains
+- Re-establishment drilling when back control is partially compromised
+- Adaptation practice for different body types (longer/shorter opponents, heavier/lighter opponents)
+- Grip fighting sequences to overcome strong hand fighting defense
+- Energy-efficient control practice focusing on sustainable pressure rather than explosive effort
+
+### Integration Sparring
+- Positional sparring from back control with goals (maintain 2 min, submit within 5 min, etc.)
+- Full sparring with specific objective to reach and finish from back control
+- Competition simulation rounds with scoring and time limits
+- Handicap sparring where you start in back control against fresh opponent
+- Back-and-forth drilling where partners alternate attacking from back control
+
+## Competition Application
+
+The Back Attack System remains the most statistically dominant positional framework across all levels of competition and all grappling formats. Analysis of competition data consistently shows that back control leads to the highest submission rates of any position, with elite competitors finishing approximately 60-70% of back control positions they establish. This makes back control the ultimate positional goal in competitive grappling, representing the best combination of control security and submission probability.
+
+The system demonstrates exceptional effectiveness in high-level competition where other attacking approaches often fail against elite defensive skills. When properly executed, the mechanical dominance of back control allows it to succeed even against fully informed defenders who understand the attacking mechanics. This creates a uniquely powerful competitive tool, representing the position most likely to lead to definitive victory across all competitive contexts. Elite competitors like Gordon Ryan, Garry Tonon, and many Danaher Death Squad members have built their competitive success largely around exceptional back attack proficiency.
+
+In gi competition, the system benefits from additional control through collar and sleeve grips, allowing for enhanced control during transitions and additional submission options like the Bow and Arrow Choke and various collar chokes. In no-gi and submission grappling formats, the system remains highly effective through body positioning and mechanical control, though requiring more emphasis on precise body positioning without fabric grips. In MMA and combat sports contexts, back control offers the additional advantage of providing both offensive opportunities and defensive safety, with the controlling practitioner largely protected from strikes while maintaining powerful submission threats.
+
+The psychological impact of back control creates additional competitive advantages beyond the direct submission threat. Competitors forced to defend the back often demonstrate increased respiratory rates, elevated stress responses, and compromised decision-making, creating compounding advantages for the controlling practitioner. This makes the back attack system not only a technical solution but a strategic weapon that can fundamentally alter the competitive dynamics of a match. Many competitors report that defending back control is the most mentally exhausting position in BJJ, leading to increased error rates and submission vulnerability even from experienced athletes.
+
+## LLM_CONTEXT_BLOCK_START
+
+### System Logic Summary
+The Back Attack System operates as a dominant control position that systematically eliminates defensive resources through progressive submission threats. If opponent is in inferior position (turtle, exposed back, turning away), apply back taking technique to establish back control. Once back control is established, if opponent defends primary attack (RNC), transition to secondary attack (Bow and Arrow/Short Choke). If secondary attack is defended, transition to tertiary attack (Armbar/Kimura) that exploits the defensive overcommitment. This creates an inevitable progression toward submission through systematic elimination of defensive options.
+
+### State Progression Map
+Entry States: [[Turtle Top]] (S023) OR [[Side Control]] (S012) OR [[Mount]] (S001)
+↓
+Transition States: [[Back Take Sequence]] (T### multiple options)
+↓
+Control Hub State: [[Back Control]] (S015)
+↓
+Submission Attack States: [[Rear Naked Choke Attack]] (S016) OR [[Bow and Arrow Position]] (S017)
+↓
+Terminal States:
+  - [[Rear Naked Choke]] (Success Rate: 70%)
+  - [[Bow and Arrow Choke]] (Success Rate: 75%)
+  - [[Armbar from Back]] (Success Rate: 80%)
+  - [[Triangle from Back]] (Success Rate: 65%)
+
+Alternative States:
+  - [[Body Triangle]] (S018) - Enhanced control variation
+  - [[Technical Back Mount]] (S019) - Asymmetric control variation
+
+### Decision Logic for AI
+
+```python
+def back_attack_system_logic(current_state, opponent_defense, energy_level, skill_level, control_quality):
+    """
+    Decision-making logic for Back Attack System in game engine
+    Skill levels: beginner (1), intermediate (2), advanced (3)
+    Energy levels: 0-100 scale
+    Control quality: 0-100 scale
+    """
+
+    # Entry Phase
+    if current_state in ["turtle_top", "side_control", "mount"]:
+        if opponent_defense == "passive" and control_quality > 60:
+            return {
+                "action": "back_take_sequence",
+                "target_state": "back_control",
+                "probability": 0.70 + (skill_level * 0.10),
+                "energy_cost": 15
+            }
+        elif opponent_defense == "aggressive_escape":
+            return {
+                "action": "maintain_control_and_setup",
+                "target_state": current_state,
+                "probability": 0.85,
+                "energy_cost": 10
+            }
+        else:
+            return {
+                "action": "improve_control_quality",
+                "target_state": current_state,
+                "probability": 0.90,
+                "energy_cost": 5
+            }
+
+    # Control Hub Phase
+    elif current_state == "back_control":
+        if control_quality < 50:
+            return {
+                "action": "strengthen_control",
+                "target_state": "back_control",
+                "probability": 0.85,
+                "energy_cost": 10
+            }
+        elif opponent_defense == "weak" or opponent_defense == "none":
+            return {
+                "action": "rear_naked_choke_attack",
+                "target_state": "rnc_attempt",
+                "probability": 0.50 + (skill_level * 0.10) + (control_quality * 0.002),
+                "energy_cost": 20
+            }
+        elif opponent_defense == "strong_hand_fighting":
+            return {
+                "action": "strip_grips_or_bow_and_arrow",
+                "target_state": "bow_and_arrow_attempt",
+                "probability": 0.55 + (skill_level * 0.10),
+                "energy_cost": 25
+            }
+        elif opponent_defense == "chin_tuck":
+            return {
+                "action": "short_choke_or_jaw_pressure",
+                "target_state": "alternative_choke_attempt",
+                "probability": 0.50 + (skill_level * 0.10),
+                "energy_cost": 20
+            }
+        elif opponent_defense == "peeling_hooks":
+            return {
+                "action": "transition_body_triangle",
+                "target_state": "body_triangle",
+                "probability": 0.70,
+                "energy_cost": 15
+            }
+
+    # Submission Attack Phase
+    elif current_state == "rnc_attempt":
+        if opponent_defense == "two_on_one_grip":
+            if skill_level >= 2:
+                return {
+                    "action": "systematic_grip_stripping",
+                    "target_state": "rnc_completion",
+                    "probability": 0.60 + (skill_level * 0.05),
+                    "energy_cost": 25
+                }
+            else:
+                return {
+                    "action": "transition_bow_and_arrow",
+                    "target_state": "bow_and_arrow_attempt",
+                    "probability": 0.65,
+                    "energy_cost": 20
+                }
+        elif opponent_defense == "neck_defense_overcommit":
+            return {
+                "action": "transition_armbar",
+                "target_state": "armbar_from_back",
+                "probability": 0.70 + (skill_level * 0.05),
+                "energy_cost": 20
+            }
+        elif opponent_defense == "weak" or energy_level < 30:
+            return {
+                "action": "complete_submission",
+                "target_state": "submission_victory",
+                "probability": 0.70 + (skill_level * 0.10),
+                "energy_cost": 30
+            }
+
+    elif current_state == "bow_and_arrow_attempt":
+        if opponent_defense == "strong":
+            return {
+                "action": "transition_armbar",
+                "target_state": "armbar_from_back",
+                "probability": 0.60 + (skill_level * 0.10),
+                "energy_cost": 25
+            }
+        else:
+            return {
+                "action": "complete_submission",
+                "target_state": "submission_victory",
+                "probability": 0.75 + (skill_level * 0.05),
+                "energy_cost": 30
+            }
+
+    elif current_state == "armbar_from_back":
+        if opponent_defense == "strong_grip":
+            return {
+                "action": "break_grip_and_extend",
+                "target_state": "submission_victory",
+                "probability": 0.70 + (skill_level * 0.05),
+                "energy_cost": 35
+            }
+        else:
+            return {
+                "action": "complete_submission",
+                "target_state": "submission_victory",
+                "probability": 0.80 + (skill_level * 0.05),
+                "energy_cost": 30
+            }
+
+    # Default: maintain current state
+    return {
+        "action": "maintain_position",
+        "target_state": current_state,
+        "probability": 0.90,
+        "energy_cost": 5
+    }
+
+
+def calculate_modified_success_rate(base_rate, modifiers):
+    """
+    Apply modifiers to base success rate
+    """
+    modified_rate = base_rate
+
+    modified_rate += modifiers.get('setup_quality_bonus', 0) * 0.15
+    modified_rate += modifiers.get('opponent_fatigue_level', 0) * 0.10
+    modified_rate += modifiers.get('control_quality_bonus', 0) * 0.10
+    modified_rate += modifiers.get('knowledge_test_bonus', 0) * 0.15
+    modified_rate += modifiers.get('skill_gap_bonus', 0) * 0.20
+
+    return max(0.05, min(0.95, modified_rate))  # Clamp between 5% and 95%
+```
+
+### Key Control Checkpoints
+
+1. **Entry Control**: Must establish chest-to-back connection and at least one controlling point (hook, body triangle, or harness grip) before considering position secured
+2. **Hub Control**: Must maintain both lower body control (hooks or body triangle) and upper body control (seatbelt/harness grip) to prevent escape while attacking
+3. **Submission Control**: Must systematically eliminate defensive hand fighting before committing fully to submission attempts; rushing submissions from weak control leads to escape
+4. **Recovery Control**: If control weakens, immediately prioritize re-establishing control checkpoints over continuing submission attempts; reset to control hub rather than losing position
+
+### Energy Cost Model
+
+- **Entry Phase**: Medium energy cost (15-20 points) - requires active movement to take the back
+- **Control Phase**: Low energy cost (5-10 points per 30-second interval) - sustainable for extended periods with proper technique
+- **Submission Phase**: Medium to High energy cost (20-35 points) - depends on opponent resistance and grip fighting intensity
+- **Total System Energy**: Medium overall (favorable for attacker, unfavorable for defender)
+- **Defender Energy Drain**: High (2x normal rate) - defending back control is physically and mentally exhausting
+
+### Success Probability Modifiers
+
+Base success rates from YAML frontmatter are modified by:
+
+- **Setup Quality**: +/- 15% (quality of back control establishment and hook/harness positioning)
+- **Opponent Fatigue**: +10% per fatigue level (1-5 scale, defending back is exhausting)
+- **Control Quality**: +/- 10% (security of hooks/body triangle and harness grip)
+- **Technical Knowledge**: +/- 15% (based on knowledge test performance for both attacker and defender)
+- **Skill Level Gap**: +/- 20% (difference between attacker and defender skill levels)
+- **Time in Position**: +5% per 30 seconds (defender's defensive resources deplete over time)
+- **Previous Submission Attempts**: +3% per previous attempt (defender fatigues from repeated defense)
+
+Example Calculation:
+- Base RNC Success Rate (Advanced): 70%
+- Setup Quality: Good (+10%)
+- Opponent Fatigue: Level 3 (+30%)
+- Control Quality: Excellent (+10%)
+- Knowledge Test: Correct (+15%)
+- Skill Gap: Even (0%)
+- Time in Position: 60 seconds (+10%)
+- **Final Success Rate: 145% → Capped at 95%**
+
+## LLM_CONTEXT_BLOCK_END
+
+## Computer Science Analogy
+
+The Back Attack System exemplifies what computer scientists would recognize as a "resource exhaustion attack" in cybersecurity. The system methodically targets and depletes the defender's critical resources (defensive grips, frames, energy, and movement options) until the defensive system can no longer maintain its integrity, creating an inevitable path to submission. This parallels denial-of-service attacks where the attacker forces the defender to expend resources faster than they can be replenished, eventually causing system failure.
+
+From a state machine perspective, back control represents the most advantageous non-terminal node in the BJJ positional graph. What makes this state particularly powerful is its asymmetric transition properties—the controlling player has many high-value transition options (to submissions or other dominant positions) with relatively high success probabilities, while the controlled player has very few viable escape paths, each with low probability of success. This creates a positional state with exceptionally high expected value across all possible future sequences, analogous to a dominant board position in chess where most continuations lead to victory.
+
+The relationship between control and submission in the back attack system demonstrates the concept of "privilege escalation" in security systems. The attacker begins with positional privileges (back control) and systematically leverages these initial privileges to gain additional access (breaking defensive structures, isolating limbs) until achieving complete system compromise (submission). This staged approach to attacking complex defensive systems proves far more effective than attempting to achieve submission directly without first establishing the prerequisite control conditions, similar to how sophisticated cyberattacks establish footholds before executing primary objectives.
+
+In terms of algorithmic design, the back attack system implements a form of "gradient descent optimization," where each adjustment and transition serves to incrementally minimize the distance to the optimal solution (submission) through small, iterative improvements. Rather than attempting to force a direct path to submission, the system continuously makes small adjustments that cumulatively lead to inevitable success, similar to how sophisticated optimization algorithms find global maxima through incremental local improvements.
+
+From a game theory perspective, back control represents a position of such significant advantage that it fundamentally alters the strategic landscape of the match. The position creates what game theorists call a "dominant strategy"—one that yields better outcomes than alternative approaches regardless of the opponent's defensive choices. This explains its persistent effectiveness across competition formats and skill levels, as it represents a fundamental structural advantage that cannot be fully neutralized through defensive knowledge alone. Even perfect defensive technique only delays submission rather than preventing it when facing skilled back attack execution.
+
+---
+
+## Notes for Developers and Content Creators
+
+This standard ensures:
+
+1. **Machine Readability**: YAML frontmatter provides structured data for parsing and processing
+2. **State Machine Integration**: Clear state progressions and transition probabilities
+3. **AI Decision Logic**: Explicit pseudocode for game engine implementation
+4. **Educational Depth**: Comprehensive technical detail for human learners
+5. **LLM Optimization**: Structured context blocks specifically for AI consumption
+6. **Probabilistic Modeling**: Success rates with modifier systems for dynamic calculation
+7. **Expert Frameworks**: Multiple perspectives from recognized authorities
+8. **Systematic Interconnection**: Emphasis on how techniques chain together
+9. **Competition Relevance**: Real-world application and effectiveness data
+10. **Training Pathways**: Clear progression from beginner to advanced execution
+
+### Updates and Maintenance
+
+- When updating this standard, increment version number in title (V2 → V3)
+- Document changes in a changelog section
+- Ensure backward compatibility with existing System files where possible
+- Provide migration guide when making breaking changes
+- All new System files MUST follow the latest version of this standard
+- Existing System files should be gradually updated to match new standard
+
+### File Naming Convention
+
+System files should be named: `[System Name].md`
+- Example: `Back Attack System.md`
+- Example: `Kimura Trap System.md`
+- Example: `Guard Passing System.md`
+
+Standard file: `000.STANDARD-V2.md` (numbered for alphabetical sorting)
+
+---
+
+*This standard was created to ensure consistency, machine readability, and comprehensive technical depth across all BJJ System documentation while supporting both human education and AI/game engine integration.*
+```
+
+---
+
+## Summary
+
+This System Standard V2 provides comprehensive requirements for creating systematic BJJ frameworks that serve multiple purposes:
+
+- **Human Education**: Rich technical detail, expert insights, training methodologies
+- **State Machine Integration**: Clear state progression and transition logic
+- **Game Engine Implementation**: Structured decision logic and probability calculations
+- **LLM Consumption**: Dedicated context blocks with pseudocode for AI processing
+- **SEO & Discoverability**: Proper frontmatter and structured content
+- **Competition Relevance**: Real-world application analysis
+
+All new System files should follow this standard to maintain consistency and maximize utility across the BJJGraph project.

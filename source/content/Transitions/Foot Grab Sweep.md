@@ -1,3 +1,130 @@
+---
+title: "Foot Grab Sweep | BJJ Technique | BJJ Graph"
+description: "Learn Foot Grab Sweep in BJJ. Step-by-step execution. Success: Beginner 25%, Intermediate 45%, Advanced 65%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Foot Grab Sweep",
+  "description": "Learn how to execute Foot Grab Sweep in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Start in Half Guard Bottom with opponent's leg trapped",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Control Establishment",
+      "text": "Secure underhook on far side, frame with outside arm",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Posture Defense",
+      "text": "Maintain tight underhook, keep hips turned for mobility",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Foot Grab",
+      "text": "Reach with outside hand to grab foot/ankle of trapped leg",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Base Disruption",
+      "text": "Pull foot towards you to off-balance opponent's stance",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Preparation",
+      "text": "Shift hips underneath opponent's center of gravity for leverage",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Elevation Action",
+      "text": "Push with knee shield against chest/shoulder, tighten hook on leg",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Drive",
+      "text": "Drive hips upward, use underhook to guide opponent down",
+      "position": 8
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Sweep Completion",
+      "text": "Roll opponent over trapped leg side, maintain foot/leg control",
+      "position": 9
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Position Consolidation",
+      "text": "Follow through to top position, secure underhook/crossface",
+      "position": 10
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Foot Grab Sweep",
+      "item": "https://bjjgraph.com/transitions/foot-grab-sweep"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Foot Grab Sweep",
+  "description": "Learn Foot Grab Sweep in BJJ. Step-by-step execution. Success: Beginner 25%, Intermediate 45%, Advanced 65%.",
+  "url": "https://bjjgraph.com/transitions/foot-grab-sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Foot Grab Sweep
 #bjj #transition #sweep #half_guard #intermediate
 
@@ -225,10 +352,12 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **Half Guard Bottom** - Primary starting position for this sweep
-- **John Wayne Sweep** - Similar half guard sweep with different mechanics
-- **Pendulum Sweep** - Alternative half guard sweep with different leverage
-- **Top Position** - Common outcome after successful sweep
+
+- [[John Wayne Sweep]] - Related technique
+- [[Pendulum Sweep]] - Related technique
+- [[Muscle Sweep]] - Related technique
+- [[Heel Grab Sweep]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points)

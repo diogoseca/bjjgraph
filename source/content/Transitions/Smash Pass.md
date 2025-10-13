@@ -1,3 +1,122 @@
+---
+title: "Smash Pass | BJJ Technique | BJJ Graph"
+description: "Learn Smash Pass in BJJ. Step-by-step execution. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Smash Pass",
+  "description": "Learn how to execute Smash Pass in Brazilian Jiu-Jitsu from Open Guard Top to Side Control. Success: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Begin in Open Guard",
+      "text": "Begin in Open Guard Top or Standing Guard, recognizing the opportunity to pass when the opponent's guard is open or dynamic, exposing potential space to apply pressure.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Establish control by securing",
+      "text": "Establish control by securing grips on their pants at the knees or ankles with both hands to manage their leg movement, stepping forward to close the distance if standing, or dropping your hips low if already on your knees to prepare for the pass.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Drive forward with your",
+      "text": "Drive forward with your hips, pushing their legs to one side, using your shoulder and chest to apply heavy pressure on their thigh or knee, collapsing their guard structure.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Keep your head low",
+      "text": "Keep your head low and tight to their hip or torso to avoid submission threats, driving your weight through your shoulder to pin their leg to the mat while stepping one leg wide to block their hip escape.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Maintain your grip on",
+      "text": "Maintain your grip on their pants during the transition to prevent them from re-establishing guard, keeping your hips heavy and low to crush any framing attempts, as you slide your knee through the space created between their legs.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Complete the pass by",
+      "text": "Complete the pass by clearing their legs entirely, ensuring you bypass their guard defenses to settle into Side Control with control over their torso.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Secure the position with",
+      "text": "Secure the position with an underhook and crossface in Side Control, or stabilize in a Top Position if they turn away, maintaining control to prevent recovery.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Remain aware of their",
+      "text": "Remain aware of their defensive attempts like framing, shrimping, or countering with submissions, adjusting your pressure, head position, and grip strength to counter and consolidate the pass.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Smash Pass",
+  "description": "Learn Smash Pass in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/smash-pass",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Smash Pass",
+      "item": "https://bjjgraph.com/transitions/smash-pass"
+    }
+  ]
+}
+</script>
+
+
 # Smash Pass
 #bjj #transition #guard_pass #offense #top_game
 
@@ -217,6 +336,14 @@ Updates to this standard should be reflected across related transition setup fil
 
 ## Historical Context
 The Smash Pass has been a staple in BJJ guard passing, evolving from traditional pressure passing concepts, and has been refined by modern competitors like Rodolfo Vieira and Lucas Lepri, becoming a go-to technique for applying dominant pressure to bypass guards in both gi and no-gi competition.
+
+
+## Related Techniques
+
+- [[Leg Drag Pass]] - Related technique
+- [[Knee Cut Pass]] - Related technique
+- [[Leg Weave Pass]] - Related technique
+- [[Transition to Mount]] - Related technique
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels in gi and no-gi competition

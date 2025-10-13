@@ -1,3 +1,90 @@
+---
+title: "Double Jump | BJJ Position Guide | BJJ Graph"
+description: "Master Double Jump in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake regarding Poor underhook grip or hand positioning\n- **Why It Fails**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Poor underhook grip or hand positioning\n- **Why It Fails**: Allows opponent to break control or initiate escapes\n- **Correction**: Ensure hands are locked tightly behind opponent's back\n- **Recognition**: Opponent easily frees arms or creates space"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake regarding Insufficient chest pressure or weight distribution\n- **Why It Fails**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Insufficient chest pressure or weight distribution\n- **Why It Fails**: Permits opponent to bridge or turn for escapes\n- **Correction**: Apply heavy downward force with chest on opponent's torso\n- **Recognition**: Opponent gains leverage to initiate bridge or hip escape"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake regarding Incorrect knee or base positioning\n- **Why It Fails**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Incorrect knee or base positioning\n- **Why It Fails**: Reduces stability, making control vulnerable to counters\n- **Correction**: Position knees wide, one near hip and one near shoulder\n- **Recognition**: Difficulty maintaining balance or control during resistance"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Double Jump",
+  "description": "Master Double Jump in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
+  "url": "https://bjjgraph.com/positions/double-jump",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Double Jump",
+      "item": "https://bjjgraph.com/positions/double-jump"
+    }
+  ]
+}
+</script>
+
+
 # Double Jump
 #bjj #position #control #top_position #advanced
 

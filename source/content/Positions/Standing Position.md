@@ -1,3 +1,107 @@
+---
+title: "Standing Position | BJJ Position Guide | BJJ Graph"
+description: "Master Standing Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 50%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Standing Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Standing Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Double Leg Entry",
+      "text": "From this position, execute Double Leg Entry to transition to Double leg takedown.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Single Leg Setup",
+      "text": "From this position, execute Single Leg Setup to transition to Single Leg Takedown.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Collar Drag",
+      "text": "From this position, execute Collar Drag to transition to Top Position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Arm Drag",
+      "text": "From this position, execute Arm Drag to transition to Back Control Standing.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Pull Guard",
+      "text": "From this position, execute Pull Guard to transition to Closed Guard Bottom.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Foot Sweep",
+      "text": "From this position, execute Foot Sweep to transition to Osoto Gari.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Standing Position",
+      "item": "https://bjjgraph.com/positions/standing-position"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Standing Position",
+  "description": "Master Standing Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 50%.",
+  "url": "https://bjjgraph.com/positions/standing-position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Standing Position
 #bjj #state #neutral #takedown #standing
 
@@ -11,6 +115,10 @@
 
 ## State Description
 The Standing Position represents the fundamental neutral starting state in BJJ and grappling. This position is characterized by both practitioners standing upright and engaging through various grips, postures, and movements while seeking advantageous entries to ground exchanges. In competition, this is typically the position where matches begin and can also result from stand-ups or resets. The Standing Position encompasses a wide range of specific scenarios depending on grip configurations, stance, and relative positioning, but generally involves both practitioners seeking to establish dominant grips, create off-balancing opportunities, and set up either takedowns or tactical guard pulls. This position serves as the gateway to all subsequent BJJ exchanges and requires a unique blend of skills that differ from ground-based grappling.
+
+## Visual Description
+
+Both practitioners stand upright on their feet, facing each other with athletic stances, their knees slightly bent and weight distributed for mobility and balance. Hands actively fight for grips on collars, sleeves, belt, or wrists in gi, or underhooks, overhooks, and body locks in no-gi, with constant adjustment and repositioning as each seeks advantageous control. Bodies circle and move laterally, neither person fully squared to the other, creating angles through footwork while maintaining balance and preventing the opponent from establishing superior positioning. Heads typically remain at roughly the same height or one person may lower their level to threaten a takedown, causing the other to adjust posture defensively. The distance between practitioners varies from fully engaged clinch range to arms' length depending on grip fighting and tactical objectives, with both maintaining enough balance and base to defend takedowns while being close enough to threaten their own offensive attacks. This dynamic exchange continues until one person secures a dominant grip, executes a successful takedown, pulls guard strategically, or forces a break in contact, with both athletes constantly reading each other's intentions through hand fighting, footwork, and weight shifts.
 
 ## Key Principles
 - Establish proper base and balance through effective stance
@@ -84,6 +192,15 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 - [[Pull guard]] - Strategic transition to ground
 - [[Front Headlock]] - Standing control position
 - [[Clinch Position]] - Close-range standing control
+
+
+## Related Positions
+
+- [[Clinch Position]] - Related position
+- [[Closed Guard Bottom]] - Related position
+- [[Standing Guard]] - Related position
+- [[Front Headlock]] - Related position
+- [[Top Position]] - Related position
 
 ## Decision Tree
 If opponent establishes collar tie:

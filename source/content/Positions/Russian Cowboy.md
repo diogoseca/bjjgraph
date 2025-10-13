@@ -1,3 +1,159 @@
+---
+title: "Russian Cowboy | BJJ Position Guide | BJJ Graph"
+description: "Master Russian Cowboy in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 30%, Intermediate 55%, Advanced 75%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Russian Cowboy in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Russian Cowboy.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Straight Ankle Lock**",
+      "text": "From this position, execute **Straight Ankle Lock** to transition to Next Position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Heel Hook Setup**",
+      "text": "From this position, execute **Heel Hook Setup** to transition to Next Position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Calf Slicer**",
+      "text": "From this position, execute **Calf Slicer** to transition to Next Position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Leg Knot Transition**",
+      "text": "From this position, execute **Leg Knot Transition** to transition to Next Position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Back Take**",
+      "text": "From this position, execute **Back Take** to transition to Next Position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute **Sweep Attempt**",
+      "text": "From this position, execute **Sweep Attempt** to transition to Next Position.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Staying too static without threatening attacks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "High energy cost with limited offensive progress The correction is: Constantly flow between different attack and transition options"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Allowing opponent to turn toward the trapped leg?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reduces control and allows easier escape opportunities The correction is: Use hip pressure and leg positioning to prevent turning"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Inadequate leg control allowing easy escape?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent can extract leg and nullify position The correction is: Maintain tight leg configuration with proper hooks and pressure"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Rushing to submissions without proper setup?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Low success rate and potential counter-attacks The correction is: Focus on improving position before attempting finishes"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Neglecting upper body positioning and distance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent can create frames and defend effectively The correction is: Maintain proper distance and angle to prevent defensive reactions"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Russian Cowboy",
+  "description": "Master Russian Cowboy in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 30%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.com/positions/russian-cowboy",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Russian Cowboy",
+      "item": "https://bjjgraph.com/positions/russian-cowboy"
+    }
+  ]
+}
+</script>
+
+
 # Russian Cowboy
 #bjj #state #leg_entanglement #leglock #position #russian_cowboy
 
@@ -50,7 +206,16 @@ From this position:
 
 Format: `[[Technique Name]] → [[Resulting State]] (Success Rate: Beginner X%, Intermediate Y%, Advanced Z%)`
 
-### Decision Tree Logic
+#
+## Related Positions
+
+- [[Saddle Position]] - Related position
+- [[Back Control]] - Related position
+- [[Open Guard Bottom]] - Related position
+- [[Leg Knot Position]] - Related position
+- [[Won by Submission]] - Related position
+
+## Decision Tree Logic
 Structured decision-making logic:
 ```
 If [opponent's heel is accessible]:

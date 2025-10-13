@@ -1,3 +1,122 @@
+---
+title: "Switch to Triangle | BJJ Technique | BJJ Graph"
+description: "Learn Switch to Triangle in BJJ. Step-by-step execution. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Switch to Triangle",
+  "description": "Learn how to execute Switch to Triangle in Brazilian Jiu-Jitsu from Closed Guard Bottom to Triangle Control. Success: Beginner 45%, Intermediate 70%, Advanced 85%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "From the initial position",
+      "text": "From the initial position like closed guard bottom, recognize the opponent's defensive structure and arm positioning, identifying a momentary lapse as they defend another threat.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Control the opponent's wrist",
+      "text": "Control the opponent's wrist or sleeve on one side with a firm grip, ensuring their arm is positioned for isolation across their centerline.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Create an angle by",
+      "text": "Create an angle by shifting your hips perpendicular to the opponent, breaking their alignment to facilitate the leg placement for the triangle.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Insert your leg over",
+      "text": "Insert your leg over the opponent's shoulder on the controlled arm side, trapping their arm and neck while the other leg prepares to hook under their opposite arm.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Secure the opponent's arm",
+      "text": "Secure the opponent's arm across their centerline, maintaining control to prevent defensive framing or posture recovery during the transition.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Lock your legs in",
+      "text": "Lock your legs in a figure-four configuration, with one leg over their shoulder and the other under their arm, forming the base of triangle control.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Pull down on the",
+      "text": "Pull down on the opponent's head with both hands to close any defensive space, ensuring they cannot posture up or escape the position.",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adjust your angle and",
+      "text": "Adjust your angle and leg positioning to maximize pressure on the carotid arteries, stabilizing in Triangle Control, ready for the choke or further transitions.",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Switch to Triangle",
+  "description": "Learn Switch to Triangle in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/switch-to-triangle",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Switch to Triangle",
+      "item": "https://bjjgraph.com/transitions/switch-to-triangle"
+    }
+  ]
+}
+</script>
+
+
 # Switch to Triangle
 #bjj #transition #submission #triangle
 
@@ -82,3 +201,8 @@ Else [maintain transition]:
 
 ## Variants
 - Armbar to Triangle Transition (switching from arm
+
+## Related Techniques
+
+- [[Closed Guard to Triangle]] - Related technique
+

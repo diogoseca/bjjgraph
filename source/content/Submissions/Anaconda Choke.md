@@ -1,3 +1,51 @@
+---
+title: "Anaconda Choke | BJJ Submission Guide | BJJ Graph"
+description: "From a Front Headlock position or while controlling the opponent in Turtle Position Top, you start by securing a tight grip around the opponent's neck with one arm, typically your dominant arm,..."
+---
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Anaconda Choke",
+  "description": "From a Front Headlock position or while controlling the opponent in Turtle Position Top, you start by securing a tight grip around the opponent's neck with one arm, typically your dominant arm,...",
+  "url": "https://bjjgraph.com/submissions/anaconda-choke",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Anaconda Choke",
+      "item": "https://bjjgraph.com/submissions/anaconda-choke"
+    }
+  ]
+}
+</script>
+
 # Anaconda Choke
 #bjj #submission #choke #front_headlock #advanced
 
@@ -36,16 +84,64 @@ From a Front Headlock position or while controlling the opponent in Turtle Posit
 
 **Template**: "From Front Headlock or Turtle Position Top, secure tight grip around opponent's neck with dominant arm, trap near arm with other hand. Apply chest pressure to pin them, position knees for stability. Shift to trapped arm side, pull head into armpit, thread free arm under far armpit for figure-four or gable grip. Roll forward over trapped arm to back or side, keep choke tight during rotation. Land on back or hip, squeeze elbows, arch hips for carotid pressure to force submission."
 
-### Execution Steps (Numbered Sequence)
-1. **Setup Requirements**: Start in Front Headlock or Turtle Position Top with control
-2. **Initial Grip**: Encircle opponent's neck with dominant arm, bicep and forearm on throat
-3. **Arm Trap**: Secure opponent's near arm across body or under armpit to limit defense
-4. **Pressure Application**: Use chest to pin opponent, position knees for stable base
-5. **Position Shift**: Move to side of trapped arm, pull head deeper into armpit
-6. **Grip Lock**: Thread free arm under far armpit, lock figure-four or gable grip
-7. **Rolling Motion**: Drive forward over trapped arm, roll to back or side with opponent
-8. **Choke Tightening**: Maintain grip during roll, land with opponent facing up or sideways
-9. **Submission Finish**: Squeeze elbows together, arch hips to apply carotid pressure for tap
+## Execution Steps
+
+**SAFETY REMINDER**: Apply pressure SLOWLY over 3-5 seconds. Watch for tap signals continuously. Blood chokes can cause unconsciousness - monitor partner's color and consciousness.
+
+### Step-by-Step Execution
+
+### Step 1: Initial Neck Encirclement (Setup Phase)
+From front headlock or turtle top control, thread your dominant arm around the opponent's neck, positioning your bicep against one side of their throat and your forearm against the other side.
+- Your arm should encircle their neck completely, creating a tight seal
+- Keep your head position close to theirs to maintain control
+- Ensure they can still breathe initially - this is a blood choke, not an air choke
+- Safety check: Verify partner can tap with at least one free limb
+
+### Step 2: Arm Trap and Isolation (Control Phase)
+Trap the opponent's near-side arm by pulling it across their body or securing it under your armpit, preventing them from using that arm to defend the choke.
+- Use your free hand to grab their wrist or tricep
+- Pull their arm tight to their body or tuck it under your control
+- This isolation is critical - without it, they can block the choke
+- Partner check: Confirm their other arm is free to tap clearly
+
+### Step 3: Chest Pressure and Base (Stabilization Phase)
+Apply heavy chest pressure on their upper back or head to keep them pinned while positioning your knees for stability.
+- One knee should be posted near their shoulder for base
+- The other leg can be extended or posted for balance
+- Drive your weight downward to prevent them from standing or escaping
+- Speed: Maintain steady pressure throughout setup
+- Watch for: Any bridging or explosive escape attempts
+
+### Step 4: Grip Configuration (Lock Phase)
+Thread your free arm under their far armpit, reaching to grip your own bicep or wrist to form a figure-four or gable grip that locks the choke structure.
+- Your choking arm stays tight around their neck
+- Reach deep under their far armpit to maximize control
+- Lock grip firmly - this connection is what creates the choke pressure
+- Monitor: Partner's breathing and any signs of distress
+
+### Step 5: Rolling Transition (Dynamic Phase)
+Initiate a controlled rolling motion by driving forward over their trapped arm, using your legs to push off and roll both of you onto your back or side.
+- Keep the choke grip TIGHT throughout the entire roll
+- Roll toward the side of their trapped arm for maximum control
+- Use momentum smoothly - not explosively
+- Maintain head control as you rotate together
+- Critical: Keep monitoring for tap during this transition
+
+### Step 6: Finishing Position and Pressure (Completion Phase)
+Land on your back or hip with the opponent facing up or sideways, their neck still locked in your arm, and squeeze your elbows together while arching your hips.
+- Bring your elbows close together to compress their neck
+- Arch your hips upward to create additional pressure
+- Your legs can extend or squeeze for added control
+- **FEEL FOR TAP**: Hand tapping your body or mat, foot tapping, verbal "tap"
+- **RELEASE IMMEDIATELY**:
+  - Open your grip instantly upon tap
+  - Allow their neck to return to neutral position
+  - Don't release too suddenly - control the transition
+  - Check partner: "You okay? Breathing alright?"
+- Post-submission: Monitor for full consciousness recovery
+- Watch for: Color returning to normal, clear alertness
+
+**Total Execution Time in Training**: 3-5 seconds from choke lock to tap. In drilling, practice the roll slowly (5-7 seconds) and stop at 50% squeeze pressure.
 
 ### Key Technical Details
 Critical elements that determine success:

@@ -1,3 +1,118 @@
+---
+title: "Heel Grab Sweep | BJJ Technique | BJJ Graph"
+description: "Learn Heel Grab Sweep in BJJ. Step-by-step execution. Success: Beginner 35%, Intermediate 60%, Advanced 75%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Heel Grab Sweep",
+  "description": "Learn how to execute Heel Grab Sweep in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish open guard or De La Riva with leg control",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Positioning",
+      "text": "Place one foot on opponent's hip, hook other behind far leg",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Grip Establishment",
+      "text": "Secure grip on opponent's near ankle or heel",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent attempts to pass or advance forward",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Off-Balance Initiation",
+      "text": "Pull heel and push hip foot to disrupt their base",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Adjustment",
+      "text": "Shift hips sideways to align perpendicular to opponent",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Sweep Execution",
+      "text": "Pull heel across, drive hooked leg down, roll opponent over",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Follow Through",
+      "text": "Come up on top into side control or mount with control",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Heel Grab Sweep",
+      "item": "https://bjjgraph.com/transitions/heel-grab-sweep"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Heel Grab Sweep",
+  "description": "Learn Heel Grab Sweep in BJJ. Step-by-step execution. Success: Beginner 35%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.com/transitions/heel-grab-sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Heel Grab Sweep
 #bjj #transition #sweep #open_guard #dynamic
 
@@ -223,10 +338,12 @@ This standard ensures:
 Updates to this standard should be reflected across all transition files to maintain consistency and educational value.
 
 ## Related Techniques
-- **De La Riva Sweep** - Similar open guard sweep with different mechanics
-- **Tripod Sweep** - Alternative open guard sweep option
-- **Open Guard Bottom** - Common starting point for this transition
-- **Guard Retention** - Fallback option if sweep fails
+
+- [[Muscle Sweep]] - Related technique
+- [[Tripod Sweep]] - Related technique
+- [[Waiter Sweep]] - Related technique
+- [[100% Sweep]] - Related technique
+
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points)

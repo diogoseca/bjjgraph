@@ -1,3 +1,155 @@
+---
+title: "Butterfly Guard | BJJ Position Guide | BJJ Graph"
+description: "Master Butterfly Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 60%, Intermediate 70%, Advanced 80%."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Butterfly Guard in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Butterfly Guard.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Basic Butterfly Sweep",
+      "text": "From this position, execute Basic Butterfly Sweep to transition to Top Position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Arm Drag from Butterfly",
+      "text": "From this position, execute Arm Drag from Butterfly to transition to Back Control.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Single Leg X Entry",
+      "text": "From this position, execute Single Leg X Entry to transition to Single Leg X Guard.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Guillotine Setup",
+      "text": "From this position, execute Guillotine Setup to transition to Guillotine Control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Elevator Sweep",
+      "text": "From this position, execute Elevator Sweep to transition to Mount.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute X-Guard Transition",
+      "text": "From this position, execute X-Guard Transition to transition to X-Guard.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Flat back positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to reduced leverage and vulnerability to pressure, making it easier for the opponent to flatten you and pass your guard. The correction is: Maintain an upright seated posture with your core engaged to maximize leverage and defensive capability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Inactive hooks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results in ineffective elevation mechanics, limiting your ability to off-balance or sweep the opponent. The correction is: Keep your hooks active by driving your feet under the opponent's thighs to create constant upward pressure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Poor grip sequencing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Causes inability to control opponent's posture, allowing them to stand tall or apply passing pressure. The correction is: Establish strong upper body grips like collar or underhooks before initiating attacks to break their posture."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Overcommitment to single attacks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads to predictability, making it easier for the opponent to anticipate and counter your moves. The correction is: Chain multiple attacks together, using feints or misdirection to keep the opponent guessing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Failure to maintain posture?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Increases vulnerability to smash passing as the opponent can collapse your structure and control your upper body. The correction is: Focus on keeping your elbows in and shoulders forward to maintain a strong defensive posture against pressure."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.com/positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Butterfly Guard",
+      "item": "https://bjjgraph.com/positions/butterfly-guard"
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Butterfly Guard",
+  "description": "Master Butterfly Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 60%, Intermediate 70%, Advanced 80%.",
+  "url": "https://bjjgraph.com/positions/butterfly-guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
 # Butterfly Guard
 #bjj #state #guard #open_guard #butterfly
 
@@ -90,6 +242,15 @@ You are seated on the mat in an upright position, facing your opponent who is ty
 - [[Shin-to-Shin Guard]] - Hybrid butterfly variation
 - [[Seated Guard]] - Similar upright position without hooks
 - [[Half Butterfly]] - Hybrid with one butterfly hook and half guard
+
+
+## Related Positions
+
+- [[Single Leg X Guard]] - Related position
+- [[Shin-to-Shin Guard]] - Related position
+- [[X-Guard]] - Related position
+- [[Butterfly Half Guard]] - Related position
+- [[Reverse De La Riva Guard]] - Related position
 
 ## Decision Tree
 If opponent stands tall with upright posture:

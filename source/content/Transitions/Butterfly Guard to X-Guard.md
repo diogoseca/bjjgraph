@@ -1,3 +1,122 @@
+---
+title: "Butterfly Guard to X-Guard | BJJ Technique | BJJ Graph"
+description: "Learn Butterfly Guard to X-Guard in BJJ. Step-by-step execution. Complete technique guide with expert insights."
+---
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Butterfly Guard to X-Guard",
+  "description": "Learn how to execute Butterfly Guard to X-Guard in Brazilian Jiu-Jitsu. Success: Beginner 35%, Intermediate 60%, Advanced 85%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Establish proper butterfly guard",
+      "text": "Establish proper butterfly guard position with both hooks inserted",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Create upper body connection",
+      "text": "Create upper body connection through collar, sleeve, or underhook control",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Identify target leg (typically",
+      "text": "Identify target leg (typically opponent's lead leg)",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initiate shallow leg control",
+      "text": "Initiate shallow leg control by shifting one butterfly hook higher on opponent's leg",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Use opposite-side hook to",
+      "text": "Use opposite-side hook to control opponent's other leg temporarily",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Extend target leg control",
+      "text": "Extend target leg control by inserting foot across opponent's hip line",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Transition second leg to",
+      "text": "Transition second leg to form the \"X\" configuration around opponent's controlled leg",
+      "position": 7
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Solidify X-Guard with proper",
+      "text": "Solidify X-Guard with proper upper body connection and off-balancing grips",
+      "position": 8
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Butterfly Guard to X-Guard",
+  "description": "Learn Butterfly Guard to X-Guard in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
+  "url": "https://bjjgraph.com/transitions/butterfly-guard-to-x-guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Butterfly Guard to X-Guard",
+      "item": "https://bjjgraph.com/transitions/butterfly-guard-to-x-guard"
+    }
+  ]
+}
+</script>
+
+
 # Butterfly Guard to X-Guard
 #bjj #transition #guard #butterfly #x_guard
 
@@ -113,3 +232,11 @@ The Butterfly Guard to X-Guard transition functions as a "specialization algorit
 The transition represents a form of "adaptive state optimization," where the control system reconfigures its architecture to maximize effectiveness against the current conditions. This pattern demonstrates the concept of "just-in-time compilation" in computing, where general code is transformed into highly specialized instructions only when specific execution paths become probable. The multiple variants of this transition illustrate "polymorphic adaptation," where the same fundamental state evolution can be achieved through different pathways depending on the opponent's defensive patterns and posture.
 
 In essence, the Butterfly to X-Guard transition exemplifies an adaptive control system that dynamically restructures its configuration to maximize leverage and control efficiency as conditions change, similar to how modern AI systems dynamically reconfigure their processing architecture based on incoming data patterns.
+
+## Related Techniques
+
+- [[Butterfly Sweep]] - Related technique
+- [[Basic Butterfly Sweep]] - Related technique
+- [[Closed Guard to Triangle]] - Related technique
+- [[Pull guard]] - Related technique
+
