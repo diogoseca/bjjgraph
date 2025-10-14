@@ -4,7 +4,7 @@ submission_id: "SUB087"
 alternative_names: ['Half Guard Kneebar', 'Lockdown Kneebar']
 submission_category: "Joint Lock"
 submission_type: "Leg Lock"
-target_area: "Knee joint" if "Kneebar" in sub['name'] or "Heel Hook" in sub['name'] else "Ankle and foot"
+target_area: "Knee joint"
 
 starting_state: "S018"
 starting_position_name: "Half Guard Bottom"

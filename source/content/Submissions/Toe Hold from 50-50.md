@@ -4,7 +4,7 @@ submission_id: "SUB089"
 alternative_names: ['50-50 Toe Hold', 'Mutual Entanglement Toe Hold']
 submission_category: "Joint Lock"
 submission_type: "Leg Lock"
-target_area: "Knee joint" if "Kneebar" in sub['name'] or "Heel Hook" in sub['name'] else "Ankle and foot"
+target_area: "Ankle and foot"
 
 starting_state: "S008"
 starting_position_name: "50-50 Guard"

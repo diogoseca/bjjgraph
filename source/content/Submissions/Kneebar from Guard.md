@@ -4,7 +4,7 @@ submission_id: "SUB086"
 alternative_names: ['Guard Kneebar', 'Bottom Kneebar']
 submission_category: "Joint Lock"
 submission_type: "Leg Lock"
-target_area: "Knee joint" if "Kneebar" in sub['name'] or "Heel Hook" in sub['name'] else "Ankle and foot"
+target_area: "Knee joint"
 
 starting_state: "S016"
 starting_position_name: "Open Guard Bottom"

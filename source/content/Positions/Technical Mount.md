@@ -481,7 +481,6 @@ llm_context:
   success_modifiers:
     - condition: "Arm properly isolated"
       modifier: +15
-      modifier: +15
       applies_to: "armbar_success"
       description: "Isolated arm dramatically increases armbar finish rate"
 

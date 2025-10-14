@@ -13,9 +13,6 @@ related_positions:
   - Turtle Position Top
   - Back Control
 
-## Key Principles
-Head control is fundamental to maintaining [[Back Control]] position and preventing escapes through spinal alignment control.
-
 related_transitions:
   - Darce Choke
   - Guillotine Choke

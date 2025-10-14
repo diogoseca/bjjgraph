@@ -4,7 +4,7 @@ submission_id: "SUB084"
 alternative_names: ['Inside Heel Hook Attack', 'Ashi Heel Hook']
 submission_category: "Joint Lock"
 submission_type: "Leg Lock"
-target_area: "Knee joint" if "Kneebar" in sub['name'] or "Heel Hook" in sub['name'] else "Ankle and foot"
+target_area: "Ankle and foot"
 
 starting_state: "S056"
 starting_position_name: "Inside Ashi Garami"

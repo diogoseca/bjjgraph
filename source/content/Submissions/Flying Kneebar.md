@@ -4,7 +4,7 @@ submission_id: "SUB088"
 alternative_names: ['Jumping Kneebar', 'Flying Leg Attack']
 submission_category: "Joint Lock"
 submission_type: "Leg Lock"
-target_area: "Knee joint" if "Kneebar" in sub['name'] or "Heel Hook" in sub['name'] else "Ankle and foot"
+target_area: "Knee joint"
 
 starting_state: "S003"
 starting_position_name: "Standing Position"

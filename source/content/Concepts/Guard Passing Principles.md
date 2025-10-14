@@ -21,9 +21,6 @@ related_transitions:
   - Pressure Pass
   - Toreando Pass
 
-## Key Principles
-Guard Pass is the direct technical implementation of guard passing principles.
-
 related_concepts:
   - Pressure Application
   - Base Maintenance
