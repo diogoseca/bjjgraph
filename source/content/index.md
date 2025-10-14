@@ -175,3 +175,14 @@ The canvas can be reorganized to highlight different aspects of the BJJ system:
 ## Canvas Updates
 
 As you add more states and transitions to your knowledge base, update the canvas to include these new elements, maintaining the visual coherence of the system while expanding its complexity and comprehensiveness.
+
+---
+
+## 🚀 Premium Services
+
+Ready to take your BJJ to the next level? Check out our premium services:
+
+- **[Publish Your BJJ Content →](https://contribute.bjjgraph.org/guest-posts)** - Get your articles featured on BJJGraph ($49-$99)
+- **[Get Your Game Analyzed →](https://contribute.bjjgraph.org/game-analysis)** - Personalized BJJ game plan tailored to YOUR style ($49)
+
+[**Explore All Services →**](https://contribute.bjjgraph.org)
