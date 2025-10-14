@@ -27,7 +27,14 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer({
+      mapFn: (node) => {
+        // Strip everything after the first " | " for cleaner Explorer display
+        if (node.displayName && node.displayName.includes(" | ")) {
+          node.displayName = node.displayName.split(" | ")[0]
+        }
+      }
+    })),
   ],
   right: [
     Component.Graph(),
@@ -44,7 +51,14 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer({
+      mapFn: (node) => {
+        // Strip everything after the first " | " for cleaner Explorer display
+        if (node.displayName && node.displayName.includes(" | ")) {
+          node.displayName = node.displayName.split(" | ")[0]
+        }
+      }
+    })),
   ],
   right: [],
 }
