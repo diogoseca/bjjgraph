@@ -123,7 +123,7 @@ description: "Learn Double Leg Entry in BJJ. Step-by-step execution from Standin
 ## Transition Properties
 - **Transition ID**: T305
 - **Starting State**: [[Standing Position]]
-- **Ending State**: [[Double Leg Takedown Setup]] (preparatory to [[Top Position]])
+- **Ending State**: [[Double leg takedown]] (preparatory to [[Top Position]])
 - **Success Probability**: Beginner (55%), Intermediate (70%), Advanced (85%)
 - **Execution Complexity**: Intermediate
 - **Physical Attributes**: Explosiveness (High), Timing (High), Balance (Medium)
@@ -171,7 +171,7 @@ Analysis of opponent responses with success rates for counter-attacks:
 - [[Defensive Posture]] → [[Penetration Difficulty]] (Success Rate: 50%, Conditions: opponent maintains strong base to resist entry)
 - [[Sprawl Defense]] → [[Entry Shutdown]] (Success Rate: 60%, Conditions: opponent sprawls hips back to counter penetration)
 - [[Head Position Counter]] → [[Directional Control Loss]] (Success Rate: 45%, Conditions: opponent pushes head down to disrupt alignment)
-- [[Distance Control]] → [[Entry Timing Disruption]] (Success Rate: 40%, Conditions: opponent steps back to maintain distance)
+- [[D'arce Control]] → [[Entry Timing Disruption]] (Success Rate: 40%, Conditions: opponent steps back to maintain distance)
 - [[Underhook Defense]] → [[Angle Restriction]] (Success Rate: 55%, Conditions: opponent secures underhooks to block entry angle)
 - [[Submission Counter]] → [[Guillotine Opportunity]] (Success Rate: 35%, Conditions: opponent capitalizes on lowered head for choke)
 

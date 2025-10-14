@@ -88,7 +88,7 @@ Pressure Reduction represents the essential defensive skill of strategically min
 - [[Submission Defense]] - Requires pressure reduction to create escape opportunities
 - [[Hip Escape]] - Fundamental movement that reduces side pressure
 - [[Technical Stand-up]] - Uses structural alignment to minimize downward pressure
-- [[Turtle Recovery]] - Employs strategic pressure management to create space
+- [[Posture Up]] - Employs strategic pressure management to create space
 
 ## Concept Relationships
 - **[[Frame Creation]]** - Frames are primary tools for implementing pressure reduction

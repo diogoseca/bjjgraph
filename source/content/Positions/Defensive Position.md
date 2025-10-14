@@ -130,6 +130,7 @@ From a visual standpoint, Defensive Position typically manifests as a practition
 8. Transition from pure defensive structure to offensive escape sequence when opportunity arises
 
 ## Key Details
+- **Frame Creation**: Create and maintain effective defensive frames to control distance and prevent advancement
 - **Frame Hierarchy**: Prioritize frames based on immediate threat level (primary frames first)
 - **Connection Points**: Maintain strategic points of contact to limit opponent's mobility
 - **Weight Distribution**: Position your body to redirect opponent's weight away from your center
@@ -143,15 +144,15 @@ From a visual standpoint, Defensive Position typically manifests as a practition
 - [[Preventative Framing]] → [[Frame Recovery]]
 - [[Bridge and Shrimp]] → [[Guard Recovery]]
 - [[Technical Stand-up]] → [[Standing Position]]
-- [[Turtle Recovery]] → [[Turtle Position]]
+- [[Posture Recovery]] → [[Turtle Position]]
 - [[Half Guard Recapture]] → [[Half Guard Bottom]]
 
 ## Counter Techniques
 - [[Pressure Passing]] - Opponent uses pressure to collapse defensive frames
 - [[Frame Stripping]] - Opponent systematically removes established frames
-- [[Submission Chain]] - Opponent uses submission threats to compromise defensive structure
+- [[Submission Chains]] - Opponent uses submission threats to compromise defensive structure
 - [[Position Surfing]] - Opponent flows between positions to bypass defensive frames
-- [[Weight Distribution Shifts]] - Opponent manipulates weight to create defensive openings
+- [[Weight Distribution]] - Opponent manipulates weight to create defensive openings
 - [[Grip Fighting Dominance]] - Opponent establishes dominant grips to limit defensive options
 
 ## Variations
@@ -164,7 +165,7 @@ From a visual standpoint, Defensive Position typically manifests as a practition
 
 ## Setup Opportunities
 - [[Submission Defense]] → [[Defensive Position]]
-- [[Failed Guard Retention]] → [[Defensive Position]]
+- [[Guard Retention]] → [[Defensive Position]]
 - [[Takedown Defense]] → [[Defensive Position]]
 - [[Scramble Disadvantage]] → [[Defensive Position]]
 - [[Position Transition]] → [[Defensive Position]]

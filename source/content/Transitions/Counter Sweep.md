@@ -346,6 +346,7 @@ Every transition file must include:
 - [[Sprawl]] - Counter to specific takedown sweeps
 - [[Guard Pass]] - Advancing after successful counter
 - [[Sweep Attempt]] - Understanding sweeps to counter them effectively
+- [[Guard Retention]] - Defensive complement to counter sweeps
 
 
 ## Competition Applications

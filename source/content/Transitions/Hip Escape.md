@@ -124,7 +124,7 @@ description: "Learn Hip Escape in BJJ. Step-by-step execution. Complete techniqu
 - **Transition ID**: T807
 - **Classification**: Defensive Movement
 - **Starting Position**: [[Side Control]] (defending), [[Mount]] (defending), or [[North-South]] (defending)
-- **Target Position**: [[Guard Position]], [[Half Guard]], or [[Neutral Position]]
+- **Target Position**: [[Guard Position]], [[Half Guard Top]], or [[Neutral Position]]
 - **Success Probability**: Beginner (65%), Intermediate (80%), Advanced (90%)
 - **Execution Complexity**: Low
 - **Physical Attributes**: Coordination (Medium), Mobility (High), Timing (Medium)

@@ -78,12 +78,12 @@ related_positions:
   - "[[Closed Guard Bottom]]"
   - "[[Half Guard Bottom]]"
 related_transitions:
-  - "[[Guillotine Entry]]"
+  - "[[Guillotine Control]]"
   - "[[Front Headlock Control]]"
   - "[[Guard Pull]]"
 related_defenses:
   - "[[Guillotine Defense - Hand Position]]"
-  - "[[Guillotine Escape - Von Flue Counter]]"
+  - "[[Von Flue Choke]]"
 
 # Metadata
 date_created: "2025-10-12"
@@ -94,7 +94,7 @@ version: "2.0"
 
 ## ⚠️ SAFETY NOTICE
 
-**This submission can cause LOSS OF CONSCIOUSNESS if applied improperly or held after tap.**
+**This submission can cause LOSS OF CONSCIOUSNESS if applied improperly or held after tap. Terminal state: [[Won by Submission]]**
 
 - **Injury Risks**:
   - Loss of consciousness (4-10 seconds after full pressure)
@@ -299,7 +299,7 @@ Conditions that **must** be satisfied before attempting:
 - Safety note: Still possible to escape if grip not completed
 
 **Technical Escape** (Grip connected but not tight)
-- [[Von Flue Counter]] → [[Top Control]] (Success Rate: 30%, Window: 1-2 seconds)
+- [[Von Flue Choke]] → [[Top Control]] (Success Rate: 30%, Window: 1-2 seconds)
 - Defender action: Drive shoulder into choking side, turn into choke, pass guard
 - Attacker response: Adjust angle, tighten grip immediately, threaten triangle
 - Safety critical: Requires specific technique - if fails, tap immediately
@@ -319,7 +319,7 @@ If [arm wrapping] AND [grip not connected]:
 - Action: Posture, hand fight, prevent deep wrap
 
 Else if [grip connected] but [not fully tight]:
-- Execute [[Von Flue Counter]] or [[Posture Escape]] (Success Rate: 30%)
+- Execute [[von flue choke]] or [[Posture Escape]] (Success Rate: 30%)
 - Window: 1-2 seconds before full tightness
 - HIGH URGENCY: Window closing rapidly
 

@@ -143,15 +143,15 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 - [[Pressure Passing]] → [[Smash Pass Position]]
 - [[Leg Pin Strategy]] → [[Headquarters Position]]
 - [[Stack Pressure]] → [[Stack Pass]]
-- [[Leg Drag Counter]] → [[Leg Drag Position]]
+- [[Leg Drag Control]] → [[Leg Drag Position]]
 - [[Force Turtle]] → [[Turtle Top]]
 
 ## Offensive Transitions (Available From This State)
 - [[Berimbolo Entry]] → [[Berimbolo]]
 - [[Back Take from Inversion]] → [[Back Control]]
-- [[Leg Entanglement Entry]] → [[Single Leg X Guard]]
+- [[Leg Entanglement]] → [[Single Leg X Guard]]
 - [[De La Riva Transition]] → [[De La Riva Guard]]
-- [[Reverse De La Riva Setup]] → [[Reverse De La Riva Guard]]
+- [[Reverse De La Riva Guard]] → [[Reverse De La Riva Guard]]
 - [[Kiss of the Dragon]] → [[Back Control]]
 - [[Crab Ride Transition]] → [[Crab Ride]]
 - [[Re-Invert to Guard]] → [[Open Guard Bottom]]
@@ -198,7 +198,7 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 
 ## Decision Tree
 If opponent stands tall with weight back:
-- Execute [[Berimbolo Entry]] or [[Leg Entanglement Entry]]
+- Execute [[Berimbolo Entry]] or [[Leg Entanglement]]
 
 Else if opponent pressures forward aggressively:
 - Execute [[Kiss of the Dragon]] or [[Back Take from Inversion]]
@@ -207,7 +207,7 @@ Else if opponent attempts to pin legs:
 - Execute [[Re-Invert to Guard]] or [[De La Riva Transition]]
 
 Else if opponent tries to circle around legs:
-- Execute [[Reverse De La Riva Setup]] or [[Crab Ride Transition]]
+- Execute [[Reverse De La Riva Guard]] or [[Crab Ride Transition]]
 
 ## Position Metrics
 - Success Rate: 60% defensive effectiveness (competition data)
@@ -222,7 +222,7 @@ Back-taking path:
 [[Inverted Guard]] → [[Berimbolo Entry]] → [[Berimbolo]] → [[Back Control]] → [[Rear Naked Choke]] → [[Won by Submission]]
 
 Leg entanglement path:
-[[Inverted Guard]] → [[Leg Entanglement Entry]] → [[Single Leg X Guard]] → [[Ashi Garami]] → [[Inside Heel Hook]] → [[Won by Submission]]
+[[Inverted Guard]] → [[Leg Entanglement]] → [[Single Leg X Guard]] → [[Ashi Garami]] → [[Inside Heel Hook]] → [[Won by Submission]]
 
 Direct back take path:
 [[Inverted Guard]] → [[Kiss of the Dragon]] → [[Back Control]] → [[Rear Naked Choke]] → [[Won by Submission]]

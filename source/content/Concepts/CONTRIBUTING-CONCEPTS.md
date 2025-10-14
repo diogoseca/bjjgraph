@@ -563,3 +563,502 @@ When migrating existing concept files to V2:
 4. Ensure all required sections are present with minimum content requirements
 5. Validate developmental metrics show clear progression
 6. Confirm expert insights provide specific technical guidance rather than general philosophy
+
+---
+
+## SEO Optimization for Concept Pages
+
+Concept pages require specialized SEO optimization that differs significantly from position and transition pages. Unlike techniques with specific success rates and executable steps, concepts represent abstract principles and frameworks that improve understanding across multiple positions and scenarios.
+
+### Title Format
+
+All concept pages must follow this strict title format:
+
+```yaml
+title: "[Concept Name] | BJJ Concept | BJJ Graph"
+```
+
+**Examples**:
+- "Base Maintenance | BJJ Concept | BJJ Graph"
+- "Weight Distribution | BJJ Concept | BJJ Graph"
+- "Frame Creation | BJJ Concept | BJJ Graph"
+- "Pressure Application | BJJ Concept | BJJ Graph"
+
+This format:
+- Signals educational intent (concepts are learning tools, not techniques)
+- Includes "BJJ Concept" for semantic clarity
+- Maintains brand consistency with "BJJ Graph"
+- Optimizes for search queries like "BJJ [concept] explained" or "understanding [concept] in Brazilian jiu-jitsu"
+
+### Meta Description Template
+
+Concept descriptions must emphasize understanding and cross-position application rather than execution:
+
+```yaml
+description: "Understand [Concept Name] in Brazilian Jiu-Jitsu. Learn key principles, application contexts, and how this concept improves your technique across positions. Expert insights included."
+```
+
+**Length**: 150-160 characters (strict enforcement)
+
+**Key differences from technique descriptions**:
+- Use "Understand" or "Learn" (educational framing)
+- No success rates (concepts don't have probabilities)
+- Emphasize "across positions" (cross-cutting application)
+- Focus on "principles" and "frameworks" rather than "steps"
+
+**Examples**:
+- "Understand Base Maintenance in BJJ. Learn stability principles, weight distribution, and how this concept improves control across all positions. Expert insights included."
+- "Learn Frame Creation fundamentals in Brazilian Jiu-Jitsu. Discover defensive framing principles and applications in guard retention, escapes, and control. Expert analysis."
+
+### Target Keywords
+
+Concept pages target educational and explanatory search queries:
+
+**Primary keyword patterns**:
+- "BJJ [concept name]"
+- "[concept name] in Brazilian jiu-jitsu"
+- "understanding [concept name] BJJ"
+- "[concept name] explained jiu-jitsu"
+- "what is [concept name] BJJ"
+
+**Secondary keyword patterns**:
+- "[concept name] principles BJJ"
+- "how to improve [concept name] grappling"
+- "[concept name] across positions BJJ"
+- "learning [concept name] jiu-jitsu"
+
+**Avoid technique-specific keywords**:
+- Do NOT target "[concept name] technique"
+- Do NOT target "[concept name] tutorial"
+- Do NOT target "[concept name] step-by-step"
+
+### No Success Rates
+
+Critical distinction: **Concept pages must never include success rates or probabilistic data**.
+
+Concepts are measured by:
+- Quality of understanding (developmental metrics)
+- Breadth of application (related positions/transitions)
+- Depth of integration (concept relationships)
+- Observable skill markers (beginner to expert progression)
+
+If you find yourself writing success percentages in a concept page, you're documenting a technique (transition) rather than a concept.
+
+### Internal Linking Strategy
+
+Concept pages serve as **hub nodes** in the knowledge graph, connecting to positions and transitions where the concept applies:
+
+**Required internal links**:
+1. **Related positions** (minimum 5): Link to specific position pages where concept is critical
+2. **Related transitions** (minimum 5): Link to techniques that exemplify or require the concept
+3. **Related concepts** (minimum 4): Link to complementary or dependent principles
+
+**Linking format in content**:
+```markdown
+This concept is particularly critical in [[Mount Top]] and [[Side Control Top]] positions,
+where proper base maintenance determines whether you can maintain dominance or become vulnerable
+to [[Bridge and Roll]] and [[Hip Escape]] attempts.
+```
+
+**Strategic linking approach**:
+- Link first mention of each related position/transition in main content
+- Use natural language that demonstrates conceptual relationship
+- Create bidirectional links (position pages link back to concepts)
+- Link to concepts in "Key Principles" section when concepts build on each other
+
+### Schema Requirements
+
+Concept pages require specific schema markup optimized for educational content:
+
+**Required schema types**:
+1. **WebPage schema** - Establishes page as part of BJJ Graph website
+2. **BreadcrumbList schema** - Navigation hierarchy (Home → Concepts → [Concept Name])
+
+**Recommended schema types**:
+3. **HowTo schema** (adapted for understanding) - Frames concept learning as process
+4. **FAQPage schema** - Educational questions about concept application
+
+**Schema implementation notes**:
+- **HowTo schema** should focus on "How to understand/apply [concept]" not "How to perform [technique]"
+- Steps in HowTo schema describe understanding progression, not physical execution
+- FAQ questions must be conceptual, not technique-specific
+
+### FAQ Focus for Concept Pages
+
+FAQ sections on concept pages must emphasize conceptual understanding and cross-position application:
+
+**Required FAQ question types** (6-8 questions minimum):
+
+1. **Understanding questions**: "What is [concept name] in BJJ?"
+2. **Application questions**: "When should I apply [concept]?"
+3. **Position-specific questions**: "How does [concept] apply in [position]?"
+4. **Common mistake questions**: "What are common errors when learning [concept]?"
+5. **Development questions**: "How do I improve my [concept]?"
+6. **Relationship questions**: "How does [concept] relate to [other concept]?"
+
+**Example FAQ for Base Maintenance concept**:
+- Q: "What is base maintenance in Brazilian Jiu-Jitsu?"
+- A: "Base maintenance is the fundamental skill of establishing and preserving structural stability through proper weight distribution..."
+
+- Q: "When is base maintenance most critical in BJJ?"
+- A: "Base maintenance becomes critical in any top position where your opponent attempts sweeps or reversals, particularly in Mount, Side Control..."
+
+- Q: "How does base maintenance apply in mount position?"
+- A: "In mount, base maintenance requires wide knee positioning with weight distributed toward opponent's head, creating stable structure..."
+
+- Q: "What are common base maintenance errors?"
+- A: "Common errors include narrow base structures that increase sweep vulnerability, high center of gravity enabling forward/backward off-balancing..."
+
+- Q: "How do I develop better base maintenance?"
+- A: "Base maintenance develops through static drills against increasing pressure, dynamic challenges with disruption attempts..."
+
+- Q: "How does base maintenance relate to frame creation?"
+- A: "Frames often form extended structural components of your base architecture, creating additional support points..."
+
+**Avoid technique-specific FAQs**: Don't ask "How do I perform [specific technique]?" in concept pages. That belongs in transition pages.
+
+---
+
+## Learning Article References
+
+Concept pages play a crucial role in aggregated learning articles and educational content within BJJ Graph. Understanding how concepts are referenced and simplified in these articles ensures consistency and effective knowledge transfer.
+
+### How Concepts Are Explained in Learning Articles
+
+Learning articles (such as "BJJ-Fundamentals-Visual-System.md") simplify and aggregate multiple concepts into accessible educational progressions. When referencing concept pages:
+
+**Simplification approach**:
+- Extract 2-3 core principles from the full concept page
+- Provide concrete examples from common positions
+- Use visual analogies when possible (e.g., "base like a tripod")
+- Link back to full concept page for comprehensive understanding
+
+**Example reference in learning article**:
+```markdown
+**Base Maintenance** is one of the foundational concepts every beginner must develop.
+Think of your base like a tripod—three points of contact create stability. In mount,
+your knees and head form this tripod. Learn more about advanced base configurations
+in [[Base Maintenance]].
+```
+
+### Concept Aggregation in Educational Content
+
+Learning articles group related concepts into thematic progressions:
+
+**Common aggregation patterns**:
+
+1. **Defensive Fundamentals**: Groups concepts like [[Frame Creation]], [[Space Management]], [[Hip Escape]], [[Defensive Posture]]
+2. **Control Concepts**: Groups [[Base Maintenance]], [[Weight Distribution]], [[Pressure Application]], [[Connection Control]]
+3. **Guard Concepts**: Groups [[Guard Retention]], [[Distance Management]], [[Angle Creation]], [[Grip Advantage]]
+4. **Submission Framework**: Groups [[Leverage Principles]], [[Joint Isolation]], [[Escape Prevention]], [[Finishing Mechanics]]
+
+Each aggregation presents simplified 1-2 sentence summaries with links to full concept pages for detailed study.
+
+### Cross-Position Applications in Learning Guides
+
+Learning articles emphasize how concepts manifest differently across positions:
+
+**Template for cross-position concept application**:
+```markdown
+### [Concept Name] Across Positions
+
+**In Mount**: [Brief description of how concept applies in mount]
+- Example: [[Trap and Roll from Mount Bottom]]
+
+**In Guard**: [Brief description of how concept applies in guard scenarios]
+- Example: [[Hip Bump Sweep]]
+
+**In Side Control**: [Brief description of how concept applies in side control]
+- Example: [[Frame and Shrimp]]
+
+**In Transitions**: [Brief description of how concept applies during movement]
+- Example: [[Technical Stand]]
+
+*For complete understanding, see [[Concept Name]] concept page.*
+```
+
+This format helps learners understand that concepts are not position-specific but rather cross-cutting principles with position-specific manifestations.
+
+### Reference to BJJ-Fundamentals-Visual-System.md
+
+The BJJ-Fundamentals-Visual-System learning article serves as the primary aggregator for foundational concepts. When creating or updating concept pages:
+
+**Coordination requirements**:
+1. Ensure concept simplifications in BJJ-Fundamentals-Visual-System.md accurately reflect the full concept page
+2. Update learning article when concept page undergoes major revisions
+3. Maintain consistency in terminology between simplified and detailed versions
+4. Add new fundamental concepts to learning article when appropriate
+
+**When to add concept to BJJ-Fundamentals-Visual-System.md**:
+- Concept applies across multiple positions (not position-specific)
+- Concept is teachable to white/blue belts
+- Concept has clear observable success markers
+- Concept complements existing fundamental concepts without redundancy
+
+### Linking Strategy for Concept References
+
+When creating bidirectional links between concept pages and learning articles:
+
+**From learning article to concept page**:
+```markdown
+Proper [[Base Maintenance]] prevents sweeps and reversals in all top positions.
+```
+
+**From concept page back to learning article** (in "Related Content" or similar section):
+```markdown
+This concept is introduced in [[BJJ-Fundamentals-Visual-System]] as part of
+defensive and control fundamentals.
+```
+
+**Best practices**:
+- Link first mention of each concept in learning article
+- Create "Further Reading" section in learning articles listing all referenced concepts
+- Ensure concept pages reference which learning articles feature them
+- Maintain updated cross-references when new learning articles are created
+
+---
+
+## Schema Markup Quick Reference
+
+Concept pages require specific schema markup that differs from position and transition pages. This quick reference provides templates and examples for implementing schema correctly.
+
+### Required Schema: WebPage
+
+Every concept page must include WebPage schema establishing it as part of the BJJ Graph website:
+
+```json
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "[Concept Name] | BJJ Concept | BJJ Graph",
+  "description": "Understand [Concept Name] in Brazilian Jiu-Jitsu. Learn key principles, application contexts, and how this concept improves your technique across positions.",
+  "url": "https://bjjgraph.com/concepts/[concept-slug]",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+</script>
+```
+
+**Field requirements**:
+- `name`: Must match page title exactly
+- `description`: Must match meta description (150-160 characters)
+- `url`: Full canonical URL with correct slug
+- `isPartOf`: Links to BJJ Graph website entity
+
+### Required Schema: BreadcrumbList
+
+Every concept page must include breadcrumb navigation schema:
+
+```json
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.com/concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "[Concept Name]",
+      "item": "https://bjjgraph.com/concepts/[concept-slug]"
+    }
+  ]
+}
+</script>
+```
+
+**Breadcrumb structure**:
+- Position 1: Always "Home" (homepage)
+- Position 2: Always "Concepts" (category page)
+- Position 3: Current concept name
+
+### Recommended Schema: HowTo (Adapted for Understanding)
+
+Concept pages should include HowTo schema focused on understanding rather than physical execution:
+
+```json
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Understand and Apply [Concept Name] in BJJ",
+  "description": "Learn the key principles of [concept name] and how to apply them across positions in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Understand the Core Principle",
+      "text": "[Brief explanation of fundamental principle from Concept Description section]"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Learn Key Components",
+      "text": "[Summary of 2-3 primary component skills]"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Apply in Common Positions",
+      "text": "[Example of concept application in 1-2 positions]"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Recognize Common Errors",
+      "text": "[1-2 most critical errors to avoid]"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Develop Through Training",
+      "text": "[1-2 primary training approaches]"
+    }
+  ],
+  "totalTime": "P3M",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": "0"
+  }
+}
+</script>
+```
+
+**HowTo schema notes for concepts**:
+- `name`: Frame as "How to understand/apply" not "How to perform"
+- `step`: 4-6 steps focused on conceptual understanding, not physical execution
+- `totalTime`: Realistic development timeline (e.g., "P3M" = 3 months, "P6M" = 6 months)
+- `estimatedCost`: Always $0 (concept learning is free)
+
+### Recommended Schema: FAQPage
+
+Concept pages should include FAQ schema with 6-8 conceptual questions:
+
+```json
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is [concept name] in Brazilian Jiu-Jitsu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[2-3 sentence definition from Concept Description]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should I apply [concept name] in BJJ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Summary of application contexts]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does [concept name] apply in [position]?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Position-specific application example]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are common [concept name] errors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[2-3 most critical errors from Common Errors section]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I improve my [concept name]?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[1-2 primary training approaches]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does [concept name] relate to [related concept]?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Relationship explanation from Concept Relationships section]"
+      }
+    }
+  ]
+}
+</script>
+```
+
+### Concept-Specific FAQ Examples
+
+**Base Maintenance concept**:
+- "What is base maintenance in Brazilian Jiu-Jitsu?"
+- "When is base maintenance most critical in BJJ?"
+- "How does base maintenance apply in mount position?"
+- "What are common base maintenance errors?"
+- "How do I develop better base maintenance?"
+- "How does base maintenance relate to frame creation?"
+
+**Frame Creation concept**:
+- "What are frames in Brazilian Jiu-Jitsu?"
+- "When should I create frames in BJJ?"
+- "How do frames help in guard retention?"
+- "What are common framing mistakes?"
+- "How do I strengthen my frames?"
+- "How does framing relate to distance management?"
+
+**Pressure Application concept**:
+- "What is pressure application in BJJ?"
+- "When should I apply maximum pressure?"
+- "How does pressure differ in side control vs mount?"
+- "What are common pressure errors?"
+- "How do I improve my pressure?"
+- "How does pressure relate to base maintenance?"
+
+### No ItemList Schema for Concepts
+
+Unlike hub pages or transition/position pages, concept pages typically do **not** include ItemList schema because:
+
+- Concepts are not ranked or ordered in hierarchies
+- Concepts represent peer relationships rather than sequential progressions
+- Concept relationships are network structures, not lists
+
+**Exception**: If creating a "Fundamental Concepts" hub page that lists core principles, ItemList schema would be appropriate for that aggregation page, but not for individual concept pages.
+
+### Schema Validation Checklist
+
+Before publishing or updating concept pages, validate schema:
+
+- [ ] WebPage schema present with correct name, description, and URL
+- [ ] BreadcrumbList schema present with correct hierarchy (Home → Concepts → [Concept])
+- [ ] HowTo schema present with 4-6 understanding-focused steps (if applicable)
+- [ ] FAQPage schema present with 6-8 conceptual questions
+- [ ] No technique-specific language in HowTo steps
+- [ ] No success rates or probabilities in any schema
+- [ ] All URLs are canonical (https://bjjgraph.com/concepts/[slug])
+- [ ] Schema validates via Google Rich Results Test
+- [ ] Schema validates via Schema.org validator
+
+**Validation tools**:
+1. Google Rich Results Test: https://search.google.com/test/rich-results
+2. Schema.org Validator: https://validator.schema.org/
+3. Chrome extension: "Structured Data Testing Tool"
+
+---
+
+*These three sections (SEO Optimization, Learning Article References, Schema Markup Quick Reference) complete the comprehensive Concept Standard V2 documentation. All concept pages must follow these guidelines to maintain consistency, SEO effectiveness, and integration with the broader BJJ Graph knowledge base.*

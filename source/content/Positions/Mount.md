@@ -141,13 +141,13 @@ From a top-down view, the practitioner sits directly on the opponent's chest and
 - Top player facing opponent's head
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Bridge and Roll Escape]] → [[Guard Recovery]] or [[Top Half Guard]]
-- [[Elbow-Knee Escape]] → [[Half Guard Bottom]]
-- [[Hip Bump Escape]] → [[Half Guard Bottom]]
+- [[Bridge and Roll]] → [[Guard Recovery]] or [[Top Half Guard]]
+- [[Elbow Escape]] → [[Half Guard Bottom]]
+- [[Hip Escape]] → [[Half Guard Bottom]]
 - [[Heel Drag Escape]] → [[Closed Guard Bottom]]
 
 ## Offensive Transitions (Available From This State)
-- [[S-Mount Transition]] → [[S-Mount]]
+- [[S-Mount Position]] → [[S-Mount Position]]
 - [[High Mount Transition]] → [[High Mount]]
 - [[Technical Mount Transition]] → [[Technical Mount]]
 - [[Gift Wrap from Mount]] → [[Back Control]]
@@ -156,11 +156,11 @@ From a top-down view, the practitioner sits directly on the opponent's chest and
 - [[Ezekiel Choke]] → [[Won by Submission]]
 - [[Armbar from Mount]] → [[Armbar Control]]
 - [[Triangle from Mount]] → [[Triangle Control]]
-- [[Arm Triangle Setup]] → [[Arm Triangle Control]]
+- [[Triangle Setup]] → [[Triangle Control]]
 
 ## Counter Transitions
 - [[Re-establish Mount]] → [[Mount]] (against escape attempts)
-- [[Technical Mount Switch]] → [[Technical Mount]] (when opponent turns away)
+- [[Technical Mount]] → [[Technical Mount]] (when opponent turns away)
 - [[Back Take from Mount]] → [[Back Control]] (if opponent turns fully)
 
 ## Expert Insights
@@ -184,7 +184,7 @@ From a top-down view, the practitioner sits directly on the opponent's chest and
 
 ## Related States
 - [[High Mount]] - Mount with chest-to-chest connection and higher position
-- [[S-Mount]] - Modified mount with one leg positioned for armbar attacks
+- [[S-Mount Position]] - Modified mount with one leg positioned for armbar attacks
 - [[Technical Mount]] - Modified mount used when opponent turns to side
 - [[Low Mount]] - Lower positioned mount with hips closer to opponent's hips
 - [[Mounted Triangle]] - Hybrid position combining mount and triangle control
@@ -209,7 +209,7 @@ Else if opponent turns to side:
 - Execute [[Technical Mount Transition]] → [[Back Control]]
 
 Else (stable control established):
-- Execute [[Hand Trap]] → [[Cross Collar Choke]] or [[Arm Triangle Setup]]
+- Execute [[Hand Trap]] → [[Cross Collar Choke]] or [[Triangle Control]]
 
 ## Position Metrics
 - Success Rate: 75% retention (competition data)
@@ -223,7 +223,7 @@ The shortest path to submission from this position:
 [[Mount]] → [[Cross Collar Choke]] → [[Won by Submission]]
 
 High-percentage path:
-[[Mount]] → [[Arm Triangle Setup]] → [[Arm Triangle Control]] → [[Won by Submission]]
+[[Mount]] → [[Triangle Control]] → [[Won by Submission]]
 
 Alternative control-oriented path:
 [[Mount]] → [[Technical Mount Transition]] → [[Back Control]] → [[Rear Naked Choke]] → [[Won by Submission]]

@@ -1,0 +1,185 @@
+{
+  "chunk_metadata": {
+    "chunk_number": 2,
+    "total_chunks": 10,
+    "start_index": 21,
+    "end_index": 41,
+    "count": 21,
+    "confidence_filter": "≥95%"
+  },
+  "summary": {
+    "total_processed": 21,
+    "applied": 20,
+    "skipped_exists": 1,
+    "skipped_no_target": 0,
+    "errors_resolved_manually": 8
+  },
+  "automated_applications": [
+    {
+      "source": "Side Control",
+      "target": "Pressure Application",
+      "section": "Key Principles",
+      "file": "source/content/Positions/Side Control.md"
+    },
+    {
+      "source": "Smash Pass Position",
+      "target": "Guard Pass",
+      "section": "Related Positions",
+      "file": "source/content/Positions/Smash Pass Position.md"
+    },
+    {
+      "source": "Combat Base",
+      "target": "Base Maintenance",
+      "section": "Key Principles",
+      "file": "source/content/Positions/Combat Base.md"
+    },
+    {
+      "source": "Z-Guard Variations Bottom",
+      "target": "Half Guard Bottom",
+      "section": "Related Positions",
+      "file": "source/content/Positions/Z-Guard Variations Bottom.md"
+    },
+    {
+      "source": "Truck Position Bottom",
+      "target": "Back Control",
+      "section": "Related Positions",
+      "file": "source/content/Positions/Truck Position Bottom.md"
+    },
+    {
+      "source": "Leg Drag Position",
+      "target": "Guard Pass",
+      "section": "Related Positions",
+      "file": "source/content/Positions/Leg Drag Position.md"
+    },
+    {
+      "source": "Scarf Hold Top",
+      "target": "Side Control",
+      "section": "Related Positions",
+      "file": "source/content/Positions/Scarf Hold Top.md"
+    },
+    {
+      "source": "Leg Drag Control",
+      "target": "Side Control Top",
+      "section": "Offensive Transitions",
+      "file": "source/content/Positions/Leg Drag Control.md"
+    },
+    {
+      "source": "Lapel Guard Variations Bottom",
+      "target": "Guard Retention",
+      "section": "Key Principles",
+      "file": "source/content/Positions/Lapel Guard Variations Bottom.md"
+    },
+    {
+      "source": "Truck Position Top",
+      "target": "Turtle Position",
+      "section": "Related Positions",
+      "file": "source/content/Positions/Truck Position Top.md"
+    },
+    {
+      "source": "Saddle Variations Bottom",
+      "target": "Guard Recovery",
+      "section": "Defensive Responses",
+      "file": "source/content/Positions/Saddle Variations Bottom.md"
+    },
+    {
+      "source": "Single Leg X Position Bottom",
+      "target": "Single Leg X Guard",
+      "section": "Related Positions",
+      "file": "source/content/Positions/Single Leg X Position Bottom.md"
+    }
+  ],
+  "manual_applications": [
+    {
+      "source": "Crucifix Control Position",
+      "target": "Rear Naked Choke",
+      "section": "Offensive Transitions > Chokes",
+      "file": "source/content/Positions/Crucifix Control Position.md",
+      "reason": "Section has subsections, added to appropriate subsection"
+    },
+    {
+      "source": "Guard Establishment",
+      "target": "Closed Guard Bottom",
+      "section": "Concept Relationships",
+      "file": "source/content/Positions/Guard Establishment.md",
+      "reason": "Concept file uses different section structure"
+    },
+    {
+      "source": "Neutral Position",
+      "target": "Pull Guard",
+      "section": "Offensive Transitions",
+      "file": "source/content/Positions/Neutral Position.md",
+      "reason": "Successfully added to existing section"
+    },
+    {
+      "source": "North South Control",
+      "target": "North-South",
+      "section": "Related Positions",
+      "file": "source/content/Positions/North South Control.md",
+      "reason": "Section was missing, created and added link"
+    },
+    {
+      "source": "Kuzure Kesa Gatame",
+      "target": "North-South",
+      "section": "Transition Opportunities",
+      "file": "source/content/Positions/Kuzure Kesa Gatame.md",
+      "reason": "Added to High-Probability Transitions subsection"
+    },
+    {
+      "source": "Open Guard Top",
+      "target": "Guard Pass",
+      "section": "Offensive Transitions",
+      "file": "source/content/Positions/Open Guard Top.md",
+      "reason": "Successfully added to existing section"
+    },
+    {
+      "source": "Pull Guard",
+      "target": "Guard Retention",
+      "section": "Related Transitions",
+      "file": "source/content/Transitions/Pull Guard.md",
+      "reason": "Successfully added to existing section"
+    },
+    {
+      "source": "Guard Recovery Position",
+      "target": "Guard Retention",
+      "section": "Related Positions",
+      "file": "source/content/Positions/Guard Recovery Position.md",
+      "reason": "Added to Related Positions section"
+    }
+  ],
+  "skipped": [
+    {
+      "source": "Submission Control Position",
+      "target": "Rear Naked Choke",
+      "reason": "Wikilink already exists in the file"
+    }
+  ],
+  "files_modified": [
+    "source/content/Positions/Side Control.md",
+    "source/content/Positions/Smash Pass Position.md",
+    "source/content/Positions/Combat Base.md",
+    "source/content/Positions/Z-Guard Variations Bottom.md",
+    "source/content/Positions/Truck Position Bottom.md",
+    "source/content/Positions/Leg Drag Position.md",
+    "source/content/Positions/Scarf Hold Top.md",
+    "source/content/Positions/Leg Drag Control.md",
+    "source/content/Positions/Lapel Guard Variations Bottom.md",
+    "source/content/Positions/Truck Position Top.md",
+    "source/content/Positions/Saddle Variations Bottom.md",
+    "source/content/Positions/Single Leg X Position Bottom.md",
+    "source/content/Positions/Crucifix Control Position.md",
+    "source/content/Positions/Guard Establishment.md",
+    "source/content/Positions/Neutral Position.md",
+    "source/content/Positions/North South Control.md",
+    "source/content/Positions/Kuzure Kesa Gatame.md",
+    "source/content/Positions/Open Guard Top.md",
+    "source/content/Transitions/Pull Guard.md",
+    "source/content/Positions/Guard Recovery Position.md"
+  ],
+  "notes": [
+    "Automated script successfully processed 12 suggestions",
+    "8 suggestions required manual intervention due to non-standard section structures",
+    "All 8 manual cases were successfully resolved",
+    "1 suggestion was skipped as the link already existed",
+    "Total success rate: 95.2% (20/21 applied)"
+  ]
+}

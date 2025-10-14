@@ -376,10 +376,10 @@ Your body is typically angled slightly on your side facing toward their trapped 
 - [[Counter Kimura]] → [[Kimura Control]] (Success Rate: 15%)
 
 ## Offensive Transitions (Available From This State)
-- [[Electric Chair Sweep]] → [[Top Position]] (Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%)
+- [[Electric Chair]] → [[Top Position]] (Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%)
 - [[Back Take from Trap]] → [[Back Control]] (Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%)
 - [[Kimura Submission]] → [[Won by Submission]] (Success Rate: Beginner 25%, Intermediate 45%, Advanced 70%)
-- [[Dog Fight Transition]] → [[Dogfight Position]] (Success Rate: Beginner 45%, Intermediate 65%, Advanced 85%)
+- [[Dogfight Position]] → [[Dogfight Position]] (Success Rate: Beginner 45%, Intermediate 65%, Advanced 85%)
 - [[Old School Sweep]] → [[Top Position]] (Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%)
 - [[Triangle from Trap]] → [[Triangle Control]] (Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%)
 
@@ -458,8 +458,8 @@ Your body is typically angled slightly on your side facing toward their trapped 
 
 ## Decision Tree
 If opponent tries to posture up:
-- Execute [[Electric Chair Sweep]] → [[Top Position]] (Probability: 60%)
-- Or Transition to [[Dog Fight]] → [[Dogfight Position]] (Probability: 65%)
+- Execute [[Electric Chair]] → [[Top Position]] (Probability: 60%)
+- Or Transition to [[Dogfight Position]] → [[Dogfight Position]] (Probability: 65%)
 
 Else if opponent flattens to defend:
 - Execute [[Back Take from Trap]] → [[Back Control]] (Probability: 55%)
@@ -467,11 +467,11 @@ Else if opponent flattens to defend:
 
 Else if opponent defends Kimura grip:
 - Transition to [[Triangle from Trap]] → [[Triangle Control]] (Probability: 40%)
-- Or Switch to [[Dog Fight Transition]] → [[Dogfight Position]] (Probability: 65%)
+- Or Switch to [[Dogfight Position]] → [[Dogfight Position]] (Probability: 65%)
 
 Else (Default - opponent balanced):
 - Threaten [[Kimura Submission]] to create reaction → [[Kimura Trap]] (Probability: 50%)
-- Or Setup [[Electric Chair Sweep]] → [[Top Position]] (Probability: 55%)
+- Or Setup [[Electric Chair]] → [[Top Position]] (Probability: 55%)
 
 ## Position Metrics
 - **Position Retention Rate**: Beginner 40%, Intermediate 60%, Advanced 80%
@@ -482,7 +482,7 @@ Else (Default - opponent balanced):
 
 ## Optimal Submission Paths
 **High-percentage sweep path:**
-[[Kimura Trap]] → [[Electric Chair Sweep]] → [[Top Position]] → [[Side Control]] → [[Mount]] → [[Submission]]
+[[Kimura Trap]] → [[Electric Chair]] → [[Top Position]] → [[Side Control]] → [[Mount]] → [[Submission]]
 *Reasoning: Electric chair has highest success rate (60-80%), establishes top position for systematic finishing*
 
 **Direct back attack path:**
@@ -498,5 +498,5 @@ Else (Default - opponent balanced):
 *Reasoning: When Kimura is defended, switching to triangle attacks different target with 40-60% success rate*
 
 **System-based path (10th Planet methodology):**
-[[Kimura Trap]] → [[Dog Fight Transition]] → [[Dogfight Position]] → [[Back Take]] → [[Back Control]] → [[Won by Submission]]
+[[Kimura Trap]] → [[Dogfight Position]] → [[Dogfight Position]] → [[Back Take]] → [[Back Control]] → [[Won by Submission]]
 *Reasoning: Using Eddie Bravo's systematic approach, dog fight provides stable transition platform to back attacks with high success rate*

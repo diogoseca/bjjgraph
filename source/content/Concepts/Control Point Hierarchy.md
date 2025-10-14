@@ -69,7 +69,7 @@ The Control Point Hierarchy represents a systematic framework for understanding,
 - [[Side Control]] - Primary upper body control position with multiple control points
 - [[Mount]] - Superior position demonstrating comprehensive control hierarchy
 - [[Back Control]] - Ultimate control position with optimal control point arrangement
-- [[Front Headlock]] - Standing control position with specialized neck/upper body control
+- [[Front Headlock Series]] - Standing control position with specialized neck/upper body control
 - [[Inside Sankaku]] - Lower body control position with sophisticated control hierarchy
 - [[Closed Guard Bottom]] - Bottom position with strategic upper body control potential
 - [[Headquarters Position]] - Transitional position with specific lower body control hierarchy
@@ -80,7 +80,7 @@ The Control Point Hierarchy represents a systematic framework for understanding,
 - [[Arm Drag]] - Strategic upper body control transition from neutral position
 - [[Leg Drag Pass]] - Lower body control transition establishing passing dominance
 - [[Inside Sankaku Entry]] - Specialized transition establishing leg entanglement control
-- [[Front Headlock Entry]] - Upper body control sequence from standing or kneeling
+- [[Front Headlock Series]] - Upper body control sequence from standing or kneeling
 - [[Kimura Trap]] - Control transition using shoulder lock as positional control mechanism
 
 ## Decision Hierarchy

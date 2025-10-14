@@ -99,12 +99,13 @@ The IBJJF Strategy Guide provides a comprehensive approach to competing under th
 ## Technical Focus Areas
 - [[Guard Pull]] - Strategic application with immediate tactical follow-up to prevent disadvantageous scoring
 - [[Takedown Entry]] - Competition-specific setups that establish clear control for points
-- [[Guard Passing]] - Emphasis on establishing clear side control or north-south positions for points
+- [[guard pass]] - Emphasis on establishing clear side control or north-south positions for points
 - [[Back Control]] - Prioritized position due to point value and submission opportunity
 - [[Mount]] - Strategic establishment meeting IBJJF criteria for points
 - [[Knee on Belly]] - Tactical position for both scoring and transitional advantage
+- [[Side Control]] - IBJJF awards 3 points for side control, making it a critical scoring position in competition strategy
 - [[Sweep Techniques]] - Application with emphasis on top position establishment
-- [[Submission Control]] - Position-specific control mechanics that generate advantages even when submissions aren't completed
+- [[mission control]] - Position-specific control mechanics that generate advantages even when submissions aren't completed
 
 ## Strategic Adaptations
 - **Leading by 2 or fewer points** → Maintain offensive initiative while prioritizing position retention

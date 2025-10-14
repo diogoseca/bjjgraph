@@ -136,7 +136,7 @@ Key elements that define the position:
 Benefits of maintaining this position:
 - **Dominant Control**: High level of control over opponent's movement
 - **Submission Access**: Opens paths to chokes, arm locks, and transitions
-- **Pressure Application**: Ability to exhaust opponent with sustained weight
+- **[[Pressure Application]]**: Ability to exhaust opponent with sustained weight and proper mechanics
 - **Escape Prevention**: Strong barrier against common guard recovery attempts
 - **Transition Options**: Facilitates movement to mount or other dominant positions
 
@@ -180,8 +180,8 @@ Else [maintain control] during escape attempts:
 Primary risks while in this position:
 - **Guard Recovery**: Opponent shrimps or frames to regain guard → [[Open Guard Bottom]] (Threat Level: Medium)
 - **Submission Counter**: Opponent attacks with guillotine → [[Guillotine Control]] (Threat Level: Medium)
-- **Reversal**: Opponent bridges explosively → [[Bottom Position]] (Threat Level: Low)
-- **Escape to Turtle**: Opponent turns to knees → [[Turtle Position]] (Threat Level: Low)
+- **Reversal**: Opponent bridges explosively → [[Standing up]] (Threat Level: Low)
+- **Escape to Turtle**: Opponent turns to knees → [[Bottom Turtle]] (Threat Level: Low)
 
 Format: `[[Threat Type]] → [[Resulting Position]] (Threat Level: X)`
 

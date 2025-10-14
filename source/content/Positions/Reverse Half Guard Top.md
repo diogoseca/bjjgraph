@@ -239,6 +239,7 @@ Partner establishes reverse half guard top while you (bottom player) work defens
 - [[Leg Drag Position]] - Alternative passing option
 - [[Crab Ride]] - Control position accessible from reverse half
 - [[Deep Half Guard]] - Opponent's defensive recovery option
+- [[Side Control]] - Primary target position for completed passes
 
 ## Optimal Submission Paths
 

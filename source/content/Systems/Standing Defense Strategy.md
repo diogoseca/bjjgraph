@@ -51,6 +51,8 @@
 - **Energy Efficiency**: Medium to High
 - **Complexity Level**: Intermediate
 
+Standing Defense Strategy directly addresses defensive tactics from the [[Standing Position]], making this a fundamental position-to-system relationship.
+
 ## System Description
 The Standing Defense Strategy represents a comprehensive framework for defending against takedown attempts, clinch controls, and standing attacks in both sport BJJ and self-defense contexts. Unlike isolated takedown defense techniques, this system provides an integrated approach that addresses the full spectrum of standing threats through proper defensive posture, strategic distance management, and appropriate technical responses.
 
@@ -73,7 +75,7 @@ The Standing Defense Strategy serves as a critical capability that addresses a f
 ## Preventative Measures
 - **Defensive Stance** - Establish proper foot positioning, posture, and hand placement that inherently defends against common takedown entries
 - **Grip Prevention** - Actively disrupt opponent's attempts to secure control grips through hand fighting and grip breaking
-- **Distance Management** - Control engagement range to prevent opponent from achieving optimal takedown entry distance
+- **[[Space Management]]** - Control engagement range to prevent opponent from achieving optimal takedown entry distance
 - **Strategic Head Position** - Position head to prevent opponent from establishing head control or collar ties
 - **Level Change Recognition** - Develop sensitivity to opponent's level changes that telegraph takedown attempts
 - **Preventative Framing** - Establish frames that create defensive barriers against penetration steps and level changes
@@ -101,7 +103,7 @@ The Standing Defense Strategy serves as a critical capability that addresses a f
 - If opponent secures body lock → Execute [[Hip Distance]] → [[Frame Creation]] → [[Base Widening]]
 
 ## Counter-Offensive Opportunities
-- From [[Sprawl Position]] → [[Front Headlock Control]] → [[Guillotine Entry]] when opponent drives forward
+- From [[Scramble Position]] → [[Front Headlock Control]] → [[Guillotine Control]] when opponent drives forward
 - From [[Whizzer Position]] → [[Lateral Drop]] when opponent overcommits to single leg
 - From [[Underhook Defense]] → [[Reactive Double Leg]] when opponent shifts weight forward
 - From [[Head Position Control]] → [[Snap Down]] → [[Front Headlock]] when opponent postures up

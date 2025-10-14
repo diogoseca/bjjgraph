@@ -1,0 +1,216 @@
+{
+  "chunk_metadata": {
+    "chunk_number": 9,
+    "total_chunks": 10,
+    "start_index": 168,
+    "end_index": 188,
+    "count": 21,
+    "confidence_filter": "\u226595%"
+  },
+  "suggestions": [
+    {
+      "source_file": "Arm Crush",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Arm Crush is executed from Side Control Top, which is listed as a starting position for this submission.",
+      "suggested_section": "Starting Position",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Baseball Bat Choke",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Baseball Bat Choke is primarily executed from Side Control, making this the most essential positional prerequisite.",
+      "suggested_section": "Starting State",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Kimura",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Kimura is explicitly mentioned as being executed from Side Control, making this a primary starting position.",
+      "suggested_section": "Starting State",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Kimura from Side Control",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "This is the primary starting position for this Kimura variation and should be linked in the setup requirements.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Shoulder Pressure",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Shoulder pressure is a fundamental control mechanism in side control, making this the most directly relevant position for applying this concept.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Side Control Defensive Framework",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "The framework is specifically designed to defend against side control position, making this the primary reference position.",
+      "suggested_section": "System Properties",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Distance Creation",
+      "target_file": "Frame Creation",
+      "confidence": 95.0,
+      "reason": "Frames are explicitly mentioned as the primary tool for creating distance and preventing opponents from closing space.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "concept-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Base Maintenance",
+      "target_file": "Mount",
+      "confidence": 95.0,
+      "reason": "Mount position is a prime example where base maintenance is critical for maintaining dominant control and preventing escapes.",
+      "suggested_section": "Position Applications",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Hip Elevation",
+      "target_file": "Frame Creation",
+      "confidence": 95.0,
+      "reason": "Hip elevation and frame creation are complementary fundamental movements that work together in bottom position escapes and defensive techniques.",
+      "suggested_section": "Related Concepts",
+      "relationship_type": "concept-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Top Half Guard",
+      "target_file": "Half Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Direct counterpart position showing the bottom perspective of the same half guard position being controlled from top.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Sprawl Defense",
+      "target_file": "Standing Position",
+      "confidence": 95.0,
+      "reason": "Sprawl defense is executed from standing position and is the primary defensive framework in that context.",
+      "suggested_section": "Concept Description",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Submission Chains",
+      "target_file": "Mount",
+      "confidence": 95.0,
+      "reason": "Mount is a dominant position where submission chains are most effectively applied with high finishing probability.",
+      "suggested_section": "Concept Description",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Submission Chains",
+      "target_file": "Triangle-Armbar-Omoplata Chain",
+      "confidence": 95.0,
+      "reason": "This is a specific example of submission chain theory applied from guard, directly illustrating the concept.",
+      "suggested_section": "Concept Description",
+      "relationship_type": "concept-to-system",
+      "existing_link": false
+    },
+    {
+      "source_file": "Space Creation",
+      "target_file": "Space Management",
+      "confidence": 95.0,
+      "reason": "Space Management is the complementary concept to Space Creation, representing the defensive perspective of controlling distance and gaps.",
+      "suggested_section": "Related Concepts",
+      "relationship_type": "concept-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Guard Passing Principles",
+      "target_file": "Guard Pass",
+      "confidence": 95.0,
+      "reason": "Direct implementation of guard passing principles as specific techniques and transitions",
+      "suggested_section": "Key Principles",
+      "relationship_type": "concept-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Defense Technique",
+      "target_file": "Defensive Posture",
+      "confidence": 95.0,
+      "reason": "Defensive Posture is a fundamental concept directly related to implementing defense technique principles and maintaining structural integrity under pressure.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "concept-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Pin Escape Methodology",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Pin Escape Methodology directly addresses escaping side control as one of the primary pinning positions.",
+      "suggested_section": "System Properties",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Pin Escape Methodology",
+      "target_file": "Mount",
+      "confidence": 95.0,
+      "reason": "Mount is explicitly listed as a target pin position in the methodology's scope.",
+      "suggested_section": "System Properties",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Guard Retention Concepts",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Direct technique implementation of guard retention concepts, essential practical application of the conceptual framework.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "concept-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Head Control",
+      "target_file": "Back Control",
+      "confidence": 95.0,
+      "reason": "Head control is fundamental to maintaining back control position and preventing escapes through spinal alignment control.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Leg Entanglement",
+      "target_file": "Ashi Garami",
+      "confidence": 95.0,
+      "reason": "Ashi Garami is a fundamental leg entanglement position that directly exemplifies the concept being discussed.",
+      "suggested_section": "Concept Description",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    }
+  ],
+  "instructions": {
+    "task": "Apply these wikilink suggestions to markdown files",
+    "validation": [
+      "Check if wikilink already exists",
+      "Verify target file exists",
+      "Add to specified section only",
+      "Maintain markdown formatting"
+    ],
+    "reporting": [
+      "Track: applied, skipped_exists, skipped_no_target, error",
+      "Report file paths modified",
+      "Report line numbers where links added",
+      "Report any errors encountered"
+    ]
+  }
+}

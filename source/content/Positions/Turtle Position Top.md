@@ -254,6 +254,7 @@ Standard positional sparring from turtle position but with specific restrictions
 - [[Crucifix Position]] - Advanced control with arm isolation
 - [[Side Control]] - Breakdown target position
 - [[Turtle Position]] - Opponent's position (bottom turtle)
+- [[Top Position]] - Parent category for top control positions
 
 ## Decision Tree
 

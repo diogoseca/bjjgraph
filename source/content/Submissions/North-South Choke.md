@@ -112,7 +112,7 @@ Factors that increase/decrease probability:
 
 ### Common Counters
 Opponent responses with success rates:
-- **Frame and Create Space**: Framing to prevent pressure → [[North-South Escape]] (Success Rate: 25%, Conditions: early reaction)
+- **Frame and Create Space**: Framing to prevent pressure → [[Standing Position]] (Success Rate: 25%, Conditions: early reaction)
 - **Roll to Side**: Rolling to disrupt control → [[Side Control Escape]] (Success Rate: 20%, Conditions: strong hip movement)
 - **Shoulder Walk**: Walking shoulders to create angle → [[Guard Recovery]] (Success Rate: 15%, Conditions: quick adjustment)
 - **Hand Fighting**: Fighting arms to break grip → [[Defensive Position]] (Success Rate: 10%, Conditions: significant grip strength)
@@ -129,7 +129,7 @@ Else if [rolling] can disrupt control:
 - Execute [[Roll to Side]] (Probability: 20%)
 
 Else if [shoulder walk] allows angle creation:
-- Execute [[Shoulder Walk]] (Probability: 15%)
+- Execute [[Guard Recovery]] (Probability: 15%)
 
 Else if [grip strength] permits breaking control:
 - Execute [[Hand Fighting]] (Probability: 10%)
@@ -316,9 +316,9 @@ The North-South Choke has been a staple in Brazilian Jiu-Jitsu and submission gr
 ## Submission Integration
 **Common North-South Choke combinations:**
 - [[North-South]] → [[North-South Choke]] → [[Won by Submission]]
-- [[Failed North-South Choke]] → [[Kimura from North-South]] → [[Kimura]]
-- [[Failed North-South Choke]] → [[Armbar from North-South]] → [[Armbar Finish]]
-- [[Failed North-South Choke]] → [[Transition to Side Control]] → [[Side Control]]
+- [[North-South]] → [[Kimura from North-South]] → [[Kimura]]
+- [[North-South]] → [[Armbar from North-South]] → [[Armbar Finish]]
+- [[North-South]] → [[Transition to Side Control]] → [[Side Control]]
 
 ## Training Applications
 - **Positional Specialization**: Essential for competitors focusing on North-South control

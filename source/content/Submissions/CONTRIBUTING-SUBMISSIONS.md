@@ -1977,4 +1977,880 @@ This content is part of the BJJGraph knowledge base. Free for educational use. W
 
 ---
 
+## SEO Optimization for Submission Pages
+
+Submission pages represent terminal states in the BJJ state machine and are among the highest-value content for organic search traffic. Users search for submissions to learn techniques, understand safety, find defenses, and avoid injury. This section defines SEO best practices specifically for submission content.
+
+### Title Format & Structure
+
+**Standard Title Template**:
+```
+[Submission Name] | BJJ Submission | Safety & Technique Guide
+```
+
+**Examples**:
+- "Triangle Choke | BJJ Submission | Safety & Technique Guide"
+- "Rear Naked Choke | BJJ Submission | Safety & Technique Guide"
+- "Armbar | BJJ Submission | Safety & Technique Guide"
+
+**Title Requirements**:
+- Include exact submission name (primary keyword)
+- Include "BJJ Submission" or "BJJ [Type]" (e.g., "BJJ Choke")
+- Emphasize safety when possible
+- Stay within 60 characters for full display in SERPs
+- Front-load most important keywords
+
+**Title Format Rationale**: Safety emphasis differentiates our content from competitors and builds trust with searchers concerned about injury prevention.
+
+### Meta Description Template
+
+**Standard Format**:
+```
+Learn [Submission Name] in BJJ. Complete guide from [Primary Position]. Success rates: Beginner X%, Intermediate Y%, Advanced Z%. Safety-first approach with proper tap signals, release protocol, and injury prevention.
+```
+
+**Examples**:
+- "Learn Triangle Choke in BJJ. Complete guide from closed guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Safety-first approach with proper tap signals, release protocol, and injury prevention."
+- "Learn Rear Naked Choke in BJJ. Complete guide from back control. Success rates: Beginner 40%, Intermediate 60%, Advanced 80%. Safety-first approach with proper tap signals, release protocol, and injury prevention."
+
+**Meta Description Requirements**:
+- 150-160 characters for optimal SERP display
+- Include success rates (unique differentiator)
+- Mention starting position
+- Emphasize safety explicitly
+- Use active voice ("Learn", "Master")
+- Include target keywords naturally
+- End with safety/injury prevention mention
+
+**Why Success Rates Matter for SEO**:
+- Unique data point competitors lack
+- Creates rich snippet potential
+- Demonstrates expertise/authority
+- Increases click-through rate
+- Provides immediate value to searcher
+
+### Target Keywords Strategy
+
+**Primary Keywords** (High Volume, High Competition):
+- "bjj [submission name]" (e.g., "bjj triangle choke")
+- "[submission name] bjj" (alternative word order)
+- "[submission name] technique"
+- "[submission name] tutorial"
+
+**Secondary Keywords** (Medium Volume, Medium Competition):
+- "how to do [submission name]"
+- "[submission name] setup"
+- "[submission name] from [position]"
+- "[submission name] step by step"
+- "learn [submission name]"
+
+**Long-Tail Keywords** (Lower Volume, Lower Competition, Higher Intent):
+- "[submission name] safety"
+- "how to escape [submission name]"
+- "[submission name] defense"
+- "[submission name] injury prevention"
+- "[submission name] tap protocol"
+- "[submission name] common mistakes"
+- "is [submission name] dangerous"
+
+**Safety Keywords Are Critical**:
+
+Safety-related keywords are a major differentiator and competitive advantage:
+
+1. **Lower Competition**: Most BJJ sites focus on technique, not safety
+2. **High Intent**: Searchers concerned about safety are quality visitors
+3. **Trust Building**: Safety content establishes authority and responsibility
+4. **Beginner Focus**: Safety queries often come from beginners (high conversion)
+5. **Defensive Market**: "How to escape X" and "X defense" are underserved queries
+6. **Medical/Legal**: Safety content demonstrates due diligence and professionalism
+
+**Recommended Safety Keyword Targets**:
+- "[submission name] safety"
+- "[submission name] injury risk"
+- "[submission name] tap signals"
+- "[submission name] release protocol"
+- "how to escape [submission name]"
+- "[submission name] defense"
+- "[submission name] injury prevention"
+- "[submission name] dangers"
+- "is [submission name] safe"
+
+**Content Strategy for Safety Keywords**:
+- Dedicate prominent sections to safety (we already do this)
+- Use safety keywords in headings (H2, H3 levels)
+- Create FAQ questions around safety concerns
+- Link safety sections from submission overview
+- Include "Safety First" or similar messaging in meta descriptions
+- Feature safety in schema markup (HowTo steps emphasizing safety)
+
+### Success Rate Prominence in SEO
+
+Success rates are unique structured data that improve SEO performance:
+
+**Where to Feature Success Rates**:
+1. **Meta Description**: "Success rates: Beginner X%, Intermediate Y%, Advanced Z%"
+2. **Page Introduction**: First or second paragraph
+3. **Properties Section**: Dedicated "Success Rates" subsection
+4. **HowTo Schema**: Include in "estimatedCost" or custom properties
+5. **FAQ Schema**: "What is the success rate of [submission]?"
+6. **Visual Elements**: Consider adding progress bars or charts (future enhancement)
+
+**SEO Value of Success Rates**:
+- **Unique Data**: Competitors don't provide this structured data
+- **Rich Snippet Potential**: Can appear in featured snippets
+- **Authority Signal**: Demonstrates systematic knowledge
+- **User Engagement**: Specific data increases click-through rates
+- **Long-Tail Matches**: Captures "X success rate" queries
+- **Skill Level Segmentation**: Matches queries by experience level
+
+**Best Practices**:
+- Always present in Beginner/Intermediate/Advanced format
+- Use consistent formatting across all submission pages
+- Include in YAML frontmatter for machine readability
+- Mention in first 100 words of content
+- Reference in multiple sections (overview, properties, FAQ)
+
+### Internal Linking Strategy
+
+**Minimum Required Links**: 5-7 internal links per submission page
+
+**Required Link Categories**:
+
+1. **Starting Position** (1-2 links):
+   - Primary setup position (e.g., [[Closed Guard Bottom]])
+   - Alternative setup position (e.g., [[High Guard]])
+
+2. **Related Submissions** (2-3 links):
+   - Same category (e.g., other chokes)
+   - Chain combinations (e.g., armbar → triangle)
+   - Alternative finishes from same position
+
+3. **Defense Techniques** (1-2 links):
+   - Primary defensive technique
+   - Emergency escape method
+
+4. **Related Transitions** (1-2 links):
+   - Setup techniques leading to submission
+   - Position changes during setup
+
+5. **Related Concepts** (0-1 links):
+   - Underlying principles (e.g., [[Blood Chokes vs Air Chokes]])
+   - Safety concepts (e.g., [[Tap Protocols]])
+
+**Internal Linking Best Practices**:
+- Link to content early in article (first 300 words)
+- Use descriptive anchor text (not "click here")
+- Link to both higher and lower in content hierarchy
+- Update hub pages when adding new submissions
+- Cross-link related submissions bidirectionally
+- Prioritize links to underperforming pages (boost SEO)
+
+**Hub Page Integration**:
+Every submission must be linked from:
+- [[BJJ Submissions]] hub page
+- Appropriate category hub page (if exists)
+- Related position pages
+- Related transition pages
+
+### Schema Markup Requirements
+
+**Required Schema Types**:
+
+1. **WebPage Schema** (Universal):
+   - Identifies page as part of BJJ Graph
+   - Connects to Organization schema
+   - Required on ALL pages
+
+2. **BreadcrumbList Schema** (Universal):
+   - Shows navigation path: Home → Submissions → [Submission Name]
+   - Improves SERP display
+   - Required on ALL pages
+
+3. **FAQPage Schema** (Mandatory for Submissions):
+   - Minimum 6 questions required
+   - MUST include 2+ safety-critical questions
+   - Enables FAQ rich snippets in search results
+
+4. **HowTo Schema** (Strongly Recommended):
+   - Step-by-step execution instructions
+   - Emphasize safety steps prominently
+   - Include estimated time and difficulty
+   - Enables HowTo rich snippets
+
+5. **ItemList Schema** (For Variations):
+   - List of submission variations/setups
+   - Ordered list of related techniques
+   - Optional but recommended for submissions with multiple entries
+
+**Schema Markup Best Practices**:
+- Place all schema in `<script type="application/ld+json">` tags
+- Validate with Google Rich Results Test before deployment
+- Update schema when content changes significantly
+- Include safety emphasis in HowTo steps
+- Feature safety questions prominently in FAQ schema
+
+### Featured Snippet Optimization
+
+Submission pages are strong candidates for featured snippets. Target these snippet types:
+
+**1. Definition Snippets** (What is X?):
+- Place concise definition in first paragraph (40-60 words)
+- Use format: "[Submission Name] is a [type] submission that [brief description]."
+- Include in H2 "Overview" section
+
+**2. List Snippets** (How to do X?):
+- Use numbered execution steps (6-8 steps ideal)
+- Keep each step concise (1-2 sentences)
+- Include in H2 "Execution Steps" section
+- Format with markdown ordered lists
+
+**3. Table Snippets** (Success rates, properties):
+- Consider adding markdown tables for success rates
+- Use consistent formatting across pages
+- Include in "Properties" or "Success Rates" section
+
+**4. Safety Protocol Snippets** (tap signals, release protocol):
+- Format safety information as lists
+- Use clear H2/H3 headings: "Tap Signals", "Release Protocol"
+- Keep instructions concise and actionable
+
+**Featured Snippet Targeting**:
+- Structure content to answer specific questions
+- Use heading hierarchy (H2 → H3) to organize information
+- Place target content in first 500 words when possible
+- Use formatting (lists, tables, bold) to highlight key info
+- Answer the question directly before elaborating
+
+### FAQ Schema Requirements (Detailed)
+
+**Minimum Questions**: 6 per submission page
+
+**Required Question Categories**:
+
+1. **Safety Questions** (2+ required):
+   - "How fast should pressure be applied in training?"
+   - "What are the tap signals for [submission]?"
+   - "What happens if [submission] is held after tap?"
+   - "What are the injury risks of [submission]?"
+   - "How do you safely release [submission]?"
+
+2. **Technical Questions** (2+ required):
+   - "What position is [submission] performed from?"
+   - "What are the success rates for [submission]?"
+   - "What creates the pressure in [submission]?"
+   - "What is the proper angle/positioning for [submission]?"
+
+3. **Defense Questions** (1+ required):
+   - "How do you defend against [submission]?"
+   - "How do you escape [submission]?"
+   - "When should you tap to [submission]?"
+
+4. **Application Questions** (1+ optional):
+   - "What are common mistakes in [submission]?"
+   - "What are variations of [submission]?"
+   - "How long does [submission] take to finish?"
+
+**FAQ Answer Format**:
+- Keep answers concise (50-150 words)
+- Answer question directly in first sentence
+- Elaborate with 2-3 additional sentences
+- Include safety reminders where relevant
+- Link to related content when appropriate
+
+**FAQ Schema Example (JSON-LD)**:
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How fast should pressure be applied in the triangle choke during training?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pressure should be applied progressively over 3-5 seconds minimum in training. In drilling, apply even slower (7-10 seconds) to develop sensitivity. Competition speed (1-2 seconds) should only be used in actual competition, not training."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the tap signals for triangle choke?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Valid tap signals include: verbal 'tap', physical tap with free hand on opponent or mat (multiple taps), physical tap with feet on opponent or mat, or any indication of distress (color change, eyes closing, body going limp). Verbal tap is especially important if arms are trapped."
+      }
+    }
+  ]
+}
+```
+
+**SEO Impact of FAQ Schema**:
+- Enables FAQ rich snippets in search results (accordion format)
+- Increases visibility and click-through rate
+- Captures long-tail question queries
+- Demonstrates expertise and thoroughness
+- Safety-focused FAQs build trust with searchers
+
+---
+
+## Chart Integration Requirements
+
+Submission pages must integrate with the [[BJJ-Submissions-Chart-Guide.md]] hub page to maintain consistency and support chart-based navigation. This section defines requirements for chart integration.
+
+### Overview: BJJ Submissions Chart Guide
+
+The [[BJJ-Submissions-Chart-Guide.md]] is a strategic hub page that:
+- Aggregates all submissions by category and position
+- Provides visual hierarchy for submission relationships
+- Enables chart-based learning progression
+- Serves as SEO hub for submission-related keywords
+- Acts as internal linking nexus for all submission pages
+
+**Chart Integration Purpose**:
+- Ensure consistency across individual pages and chart
+- Enable bidirectional navigation (chart ↔ individual page)
+- Support filtering/sorting by category, success rate, position
+- Aggregate safety information across all submissions
+- Create comprehensive learning pathways
+
+### Position-Based Organization Alignment
+
+The chart organizes submissions by starting position. Individual submission pages must align with this structure:
+
+**Position Categories** (must match chart):
+- **Guard Bottom Submissions**: Closed Guard, Open Guard, Butterfly Guard, Half Guard, etc.
+- **Mount Submissions**: Standard Mount, S-Mount, High Mount
+- **Side Control Submissions**: Standard Side Control, North-South, Scarf Hold
+- **Back Control Submissions**: Back Mount, Turtle Top, Truck
+- **Standing Submissions**: Standing Guillotine, Standing Kimura, etc.
+- **Transition Submissions**: Scramble-based, opportunistic finishes
+
+**Requirements**:
+1. **Starting Position Field**: YAML `starting_position_name` must match position name exactly as it appears in chart
+2. **Position ID**: `starting_state` (S###) must be valid and consistent
+3. **Category Alignment**: Submission must appear in correct position-based section of chart
+4. **Cross-References**: Chart entry must link to individual submission page
+5. **Bidirectional Links**: Individual page must link back to chart guide
+
+**Validation Checklist**:
+- [ ] Starting position name matches chart exactly
+- [ ] Starting position ID (S###) is valid
+- [ ] Submission appears in chart under correct position category
+- [ ] Chart links to individual submission page
+- [ ] Individual page links to chart guide
+- [ ] Alternative starting positions (if any) are also listed in chart
+
+### Success Rate Consistency for Chart Rankings
+
+The chart includes sortable/filterable success rates. Individual submission pages must maintain consistency:
+
+**Success Rate Requirements**:
+1. **Format Consistency**: Always Beginner/Intermediate/Advanced (no exceptions)
+2. **Value Range**: 0-100 (integers only)
+3. **Ordering**: Beginner ≤ Intermediate ≤ Advanced (strictly enforced)
+4. **Realistic Progression**: Typical increase of 10-20% per level
+5. **Cross-Page Consistency**: Similar submissions should have similar rates
+
+**Chart Display Format**:
+```
+Triangle Choke: 30% / 50% / 70%
+Rear Naked Choke: 40% / 60% / 80%
+Armbar: 35% / 55% / 75%
+```
+
+**Why Consistency Matters**:
+- Chart enables success rate sorting/comparison
+- Inconsistent data undermines credibility
+- Users may compare rates across submissions
+- Success rate is key SEO differentiator
+- Machine learning models require consistent data format
+
+**Validation Process**:
+- Check YAML frontmatter `success_rate` field matches page content
+- Verify values follow proper ordering (beginner ≤ intermediate ≤ advanced)
+- Compare similar submissions for consistency
+- Update chart when individual page rates change
+- Run validation script to catch discrepancies
+
+### Safety Information Aggregation
+
+The chart aggregates safety data from individual submission pages. Ensure consistency:
+
+**Required Safety Fields** (from YAML):
+```yaml
+safety:
+  injury_risks: ["List of specific injuries"]
+  risk_level: "Low|Medium|High|CRITICAL"
+  application_speed: "SLOW and progressive - 3-5 seconds minimum"
+  tap_signals: ["Verbal tap", "Physical tap", "Verbal 'tap'"]
+  release_protocol: "Step-by-step release instructions"
+  minimum_skill_level: "Beginner|Intermediate|Advanced|Expert Only"
+```
+
+**Chart Displays**:
+- Risk level (color-coded: green/yellow/orange/red)
+- Minimum skill level requirement
+- Primary injury risks (hover/tooltip)
+- Application speed warning for high-risk submissions
+
+**Safety Aggregation Rules**:
+1. Risk level must be consistently categorized:
+   - **Low**: Minor discomfort, no injury risk (e.g., basic pins)
+   - **Medium**: Injury possible if misapplied (e.g., joint locks, blood chokes)
+   - **High**: Serious injury likely if misapplied (e.g., heel hooks, neck cranks)
+   - **CRITICAL**: Catastrophic injury possible (e.g., certain spinal submissions)
+
+2. Minimum skill level must be realistic:
+   - **Beginner**: Safe with supervision (e.g., triangle, armbar)
+   - **Intermediate**: Requires control development (e.g., omoplata, darce)
+   - **Advanced**: Complex positioning required (e.g., calf slicer, wrist locks)
+   - **Expert Only**: Dangerous without mastery (e.g., certain heel hooks, neck cranks)
+
+3. Injury risks must be specific and actionable:
+   - Bad: "Neck injury"
+   - Good: "Cervical strain from hyperextension (1-2 week recovery)"
+
+### Submission Category Consistency
+
+Every submission must have consistent categorization:
+
+**Primary Category** (YAML `submission_category`):
+- **Choke**: Blood chokes, air chokes, compression chokes
+- **Joint Lock**: Arm locks, leg locks, shoulder locks, wrist locks
+- **Compression**: Pressure-based submissions (e.g., can opener)
+- **Crank**: Spinal manipulation (e.g., neck crank, twister)
+
+**Submission Type** (YAML `submission_type`):
+- **Chokes**: Blood Choke, Air Choke
+- **Joint Locks**: Arm Lock, Leg Lock, Shoulder Lock, Wrist Lock, Ankle Lock
+- **Compression**: Rib Compression, Neck Compression
+- **Crank**: Neck Crank, Spine Lock
+
+**Chart Organization**:
+The chart groups submissions by category and displays type as subheading:
+
+```markdown
+### Chokes
+#### Blood Chokes
+- [[Triangle Choke]] (from Closed Guard)
+- [[Rear Naked Choke]] (from Back Control)
+
+#### Air Chokes
+- [[Guillotine Choke]] (from Standing/Guard)
+```
+
+**Requirements**:
+- Category and type must match chart structure exactly
+- Each submission appears under correct category/type heading
+- Alternative categories (if applicable) are noted
+- Category tags in YAML match chart categories
+
+### Chain Sequence Documentation
+
+The chart displays submission chains (technique → failed defense → alternative submission). Individual pages must document these chains:
+
+**Chain Format in YAML**:
+```yaml
+chains:
+  - from: "[[Triangle Choke]]"
+    trigger: "Opponent defends by stacking"
+    to: "[[Armbar from Guard]]"
+    success_rate: 65
+  - from: "[[Armbar from Guard]]"
+    trigger: "Opponent pulls arm out"
+    to: "[[Triangle Choke]]"
+    success_rate: 60
+```
+
+**Chain Display in Content**:
+Include in "Chain Combinations" section:
+```markdown
+### Chain Combinations
+
+After failed [[Triangle Choke]]:
+- When opponent stacks to defend triangle, transition to [[Armbar from Guard]]
+- Transition cue: Feel opponent's weight driving forward
+- Success rate: 65% (Intermediate level)
+
+After failed [[Armbar from Guard]]:
+- When opponent extracts arm from armbar, trap arm for [[Triangle Choke]]
+- Transition cue: Arm crosses centerline during extraction
+- Success rate: 60% (Intermediate level)
+```
+
+**Chart Integration**:
+- Chart displays submission chains as interconnected nodes
+- Clicking chain link navigates to source submission
+- Chain success rates aggregate to show high-percentage sequences
+- Safety notes carry through chain (if transitioning from dangerous position)
+
+**Why Chain Documentation Matters**:
+- Systematic approach to offense (not isolated techniques)
+- Demonstrates technique interconnections
+- Creates learning pathways for students
+- Differentiates content from "technique collection" sites
+- Supports game engine decision trees
+
+### Cross-Referencing to Chart Guide
+
+Every submission page must link to the chart guide and vice versa:
+
+**Required Link on Submission Page**:
+Place in "Related Content" or "See Also" section near bottom:
+```markdown
+## Related Content
+
+**Chart Navigation**:
+- [[BJJ-Submissions-Chart-Guide]] - Complete submission chart with success rates and progressions
+- [[BJJ Submissions]] - Hub page for all submission techniques
+```
+
+**Required Link on Chart Guide**:
+Every submission in chart must link to individual page:
+```markdown
+### Guard Bottom Submissions
+- [[Triangle Choke]] (30% / 50% / 70%) - Blood choke from closed guard
+```
+
+**Bidirectional Linking Benefits**:
+- Improves internal linking structure (SEO)
+- Enables multiple navigation paths
+- Supports different learning styles (chart vs text)
+- Reduces bounce rate (users stay in BJJGraph ecosystem)
+- Facilitates content discovery
+
+**Update Protocol**:
+When adding new submission:
+1. Create individual submission page
+2. Add to appropriate category in chart guide
+3. Link from chart to individual page
+4. Link from individual page back to chart
+5. Update related submissions with chain links
+6. Validate all links resolve correctly
+
+---
+
+## Schema Markup Quick Reference
+
+This section provides condensed schema markup reference for submission pages. For complete schema documentation, see [[CONTRIBUTING-YAML-SCHEMA.md]].
+
+### Required Schema Types
+
+**1. WebPage Schema** (Universal - All Pages):
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle Choke | BJJ Submission | Safety & Technique Guide",
+  "description": "Learn Triangle Choke in BJJ. Complete guide from closed guard...",
+  "url": "https://bjjgraph.com/submissions/triangle-choke",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+```
+
+**Purpose**: Identifies page as part of BJJ Graph website structure
+**SEO Impact**: Helps search engines understand site architecture
+**Required Fields**: name, description, url, isPartOf
+
+---
+
+**2. BreadcrumbList Schema** (Universal - All Pages):
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.com/submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Triangle Choke",
+      "item": "https://bjjgraph.com/submissions/triangle-choke"
+    }
+  ]
+}
+```
+
+**Purpose**: Displays breadcrumb navigation in search results
+**SEO Impact**: Improves SERP appearance, helps users understand page location
+**Required Fields**: itemListElement array with position, name, item
+
+---
+
+**3. FAQPage Schema** (Mandatory for Submissions):
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How fast should pressure be applied in [submission] during training?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pressure should be applied progressively over 3-5 seconds minimum..."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the tap signals for [submission]?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Valid tap signals include: verbal 'tap', physical tap with hand/foot..."
+      }
+    }
+  ]
+}
+```
+
+**Purpose**: Enables FAQ rich snippets (accordion format in search results)
+**SEO Impact**: Increases SERP real estate, captures question-based queries
+**Required Fields**: mainEntity array with Question/Answer pairs
+**Minimum Questions**: 6 (MUST include 2+ safety questions)
+
+**Safety-Focused FAQ Examples**:
+
+Required safety questions to include:
+1. "How fast should pressure be applied in [submission] during training?"
+2. "What are the tap signals for [submission]?"
+3. "What happens if [submission] is held after tap?"
+4. "What are the injury risks of [submission]?"
+5. "How do you safely release [submission]?"
+
+Technical questions to include:
+1. "What position is [submission] performed from?"
+2. "What are the success rates for [submission]?"
+3. "What creates the pressure in [submission]?"
+
+Defense questions to include:
+1. "How do you defend against [submission]?"
+2. "When should you tap to [submission]?"
+
+---
+
+**4. HowTo Schema** (Strongly Recommended for Submissions):
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Perform Triangle Choke",
+  "description": "Step-by-step guide to performing triangle choke safely",
+  "totalTime": "PT5M",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": "0"
+  },
+  "tool": ["Training partner", "Mat space"],
+  "supply": ["Gi or No-Gi"],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Establish Closed Guard",
+      "text": "Begin in closed guard with hooks in and posture broken...",
+      "url": "https://bjjgraph.com/submissions/triangle-choke#step-1"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Trap Opponent's Arm (SAFETY: Ensure free limb to tap)",
+      "text": "Control opponent's left arm across centerline. Ensure right arm is free to tap...",
+      "url": "https://bjjgraph.com/submissions/triangle-choke#step-2"
+    }
+  ]
+}
+```
+
+**Purpose**: Enables HowTo rich snippets with step-by-step instructions
+**SEO Impact**: Increases visibility for "how to" queries, displays structured steps in SERP
+**Required Fields**: name, description, step array
+**Recommended Fields**: totalTime, tool, supply
+**Safety Emphasis**: Include safety reminders in step names/text where critical
+
+**HowTo Best Practices**:
+- Include 6-8 steps (complete execution sequence)
+- Emphasize safety steps prominently (use "SAFETY:" prefix)
+- Keep step text concise (1-3 sentences)
+- Provide URLs for deep linking to steps
+- Include time estimates when possible
+- List required equipment/materials
+
+---
+
+**5. ItemList Schema** (For Submission Variations):
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke Variations",
+  "description": "Common variations and setups for triangle choke",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Standard Triangle from Closed Guard",
+      "url": "https://bjjgraph.com/submissions/triangle-choke#standard"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Triangle from High Guard",
+      "url": "https://bjjgraph.com/submissions/triangle-choke#high-guard"
+    }
+  ]
+}
+```
+
+**Purpose**: Displays list of variations/setups in structured format
+**SEO Impact**: Creates list-based rich snippets, improves navigation
+**When to Use**: Submissions with 3+ distinct variations or setup methods
+**Required Fields**: name, itemListElement array with position, name, url
+
+---
+
+### Schema Placement & Formatting
+
+**Where to Place Schema**:
+1. After frontmatter (YAML header)
+2. Before first markdown heading
+3. In `<script type="application/ld+json">` tags
+4. Each schema type in separate `<script>` tag
+
+**Example Placement**:
+```markdown
+---
+title: "Triangle Choke | BJJ Submission | Safety & Technique Guide"
+description: "Learn Triangle Choke in BJJ..."
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  ...
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  ...
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  ...
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  ...
+}
+</script>
+
+## Overview
+
+[Content begins here...]
+```
+
+**Formatting Requirements**:
+- Valid JSON syntax (no comments, trailing commas)
+- Proper escaping of quotes within text
+- Consistent indentation (2 spaces recommended)
+- No minification (keep readable for maintenance)
+
+**Validation Process**:
+1. Validate JSON syntax: [JSONLint](https://jsonlint.com/)
+2. Test with Google Rich Results Test: https://search.google.com/test/rich-results
+3. Validate with Schema.org validator: https://validator.schema.org/
+4. Check Search Console for schema errors (post-deployment)
+
+---
+
+### Common Schema Mistakes to Avoid
+
+**1. Missing Required Fields**:
+- WebPage without `isPartOf`
+- BreadcrumbList with incorrect position numbering
+- FAQPage with fewer than 6 questions
+- HowTo without step URLs
+
+**2. Incorrect Field Values**:
+- URLs without protocol (http:// or https://)
+- Dates in wrong format (use ISO 8601)
+- Time durations not in ISO 8601 format (use PT5M, not "5 minutes")
+- Position values not sequential (1, 2, 3...)
+
+**3. JSON Syntax Errors**:
+- Trailing commas in arrays/objects
+- Unescaped quotes in text
+- Missing closing braces/brackets
+- Comments in JSON (not allowed)
+
+**4. Duplicate Schema Types**:
+- Multiple FAQPage schemas on same page (combine into one)
+- Multiple HowTo schemas when one would suffice
+- Redundant WebPage schemas
+
+**5. Safety Omissions**:
+- HowTo steps without safety emphasis
+- FAQPage without safety-critical questions
+- Missing release protocol in HowTo steps
+
+---
+
+### Schema Maintenance & Updates
+
+**When to Update Schema**:
+- Content structure changes significantly
+- New FAQ questions added/removed
+- Execution steps modified
+- Success rates updated
+- Safety protocols revised
+- URLs change (redirects)
+
+**Schema Update Checklist**:
+- [ ] Update affected schema type (WebPage, FAQPage, HowTo)
+- [ ] Validate updated JSON syntax
+- [ ] Test with Google Rich Results Test
+- [ ] Submit updated sitemap to Search Console
+- [ ] Monitor Search Console for schema errors (1-2 weeks)
+- [ ] Check SERP appearance for changes
+
+**Schema Versioning**:
+Consider adding internal version comments (outside JSON):
+```html
+<!-- Schema Version: 2.1 | Last Updated: 2025-10-14 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  ...
+}
+</script>
+```
+
+---
+
 **End of Submission Standard V2**

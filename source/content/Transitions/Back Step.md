@@ -170,7 +170,7 @@ Factors that influence the success rate of the transition:
 Analysis of opponent responses with success rates for counter-attacks:
 - [[Counter Rotation]] → [[Guard Recovery]] (Success Rate: 60%, Conditions: opponent quickly rotates back to face you)
 - [[Underhook Defense]] → [[Half Guard Recovery]] (Success Rate: 55%, Conditions: opponent secures underhook to block back take)
-- [[Turtle Position]] → [[Turtle Position]] (Success Rate: 70%, Conditions: opponent fully commits to turtle to prevent hooks)
+- [[Triangle Control]] → [[Turtle Position]] (Success Rate: 70%, Conditions: opponent fully commits to turtle to prevent hooks)
 - [[Roll Through]] → [[Top Position]] (Success Rate: 40%, Conditions: opponent rolls to invert and gain top position)
 - [[Frame and Create Space]] → [[Open Guard Bottom]] (Success Rate: 50%, Conditions: opponent frames to push away and recover guard)
 
@@ -186,7 +186,7 @@ Else if [opponent reaction] is to face you with counter rotation:
 - Transition to [[Switch to Side Control]] (Probability: 60%)
 
 Else if [opponent rolls] through to invert:
-- Adjust to [[Turtle Control]] (Probability: 55%)
+- Adjust to [[Triangle Control]] (Probability: 55%)
 
 Else [maintain control]:
 - Re-direct to [[Leg Drag Recovery]] for another attempt (Probability: 50%)

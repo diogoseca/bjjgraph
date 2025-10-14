@@ -209,6 +209,7 @@ Start each round in knee shield half guard (neutral position), then live spar wi
 - [[Lockdown Guard]] - Can be combined with knee shield in some systems
 - [[Back Control]] - Common destination from knee shield back takes
 - [[Mount]] - Common destination from knee shield sweeps
+- [[Guard Retention]] - Fundamental concept for all knee shield variations
 
 ## Optimal Submission Paths
 

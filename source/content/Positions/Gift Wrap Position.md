@@ -73,7 +73,7 @@ Your opponent's arm is trapped and controlled, pulled across their own chest or 
 - [[Back Take from Gift Wrap]] → [[Back Control]] (Beginner 50%, Intermediate 65%, Advanced 80%)
 - [[Crucifix Entry]] → [[Crucifix Position]] (Beginner 30%, Intermediate 45%, Advanced 60%)
 - [[Armbar from Gift Wrap]] → [[Armbar Control]] (Beginner 25%, Intermediate 40%, Advanced 55%)
-- [[Rear Naked Choke Setup]] → [[Back Control]] (Beginner 35%, Intermediate 50%, Advanced 65%)
+- [[Rear Naked Choke]] → [[Back Control]] (Beginner 35%, Intermediate 50%, Advanced 65%)
 
 ## Expert Insights
 **John Danaher**: "The gift wrap is primarily a transitional control that creates pathways to back control. The key is not holding it indefinitely but using it decisively to advance position."

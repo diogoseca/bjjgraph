@@ -831,6 +831,7 @@ Start in bottom 50-50 with partner on top. Full live sparring with submissions a
 - [[Backside 50-50]] - Alternative 50-50 configuration; can be entered from bottom 50-50 during reversal attempts
 - [[Standing Position]] - Primary escape target from bottom 50-50; safe disengagement when reversal is not viable
 - [[Inside Sankaku]] - Related leg entanglement position that can be transitioned to from 50-50 bottom
+- [[Guard Recovery]] - Escape strategy to re-establish safer guard position from bottom 50-50
 
 ## Optimal Submission Paths
 

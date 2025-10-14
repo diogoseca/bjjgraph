@@ -62,7 +62,7 @@ tags:
 related_positions:
   - "[[Outside Ashi Garami Bottom]]"
   - "[[Cross Ashi Garami]]"
-  - "[[50/50 Guard]]"
+  - "[[50-50 Guard]]"
 related_transitions:
   - "[[Outside Ashi Entry]]"
   - "[[Inside Heel Hook]]"
@@ -618,7 +618,7 @@ From [[Cross Ashi Garami]]:
 - Best for: Practitioners comfortable with ashi transitions
 
 ### Alternative Setup 2: From 50/50 Transition
-From [[50/50 Guard]]:
+From [[50-50 Guard]]:
 - Transition to outside position
 - Clear inside leg, establish outside ashi
 - Secure exposed heel
@@ -648,6 +648,7 @@ After failed [[Inside Heel Hook]]:
 - [[Cross Ashi Garami]] - alternative position
 - [[Leg Lock Safety]] - safety protocols
 - [[Heel Hook Defense - Clear Grip]] - defense technique
+- [[Won by Submission]] - terminal state when submission succeeds
 
 ---
 

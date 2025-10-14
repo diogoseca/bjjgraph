@@ -393,7 +393,7 @@ You are lying on your back on the mat, with your legs tightly wrapped around you
 - [[Hip Bump Sweep]] → [[Mount]] (Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%)
 - [[Scissor Sweep]] → [[Mount]] or [[Side Control Top]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
 - [[Pendulum Sweep]] → [[Mount]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
-- [[Triangle Choke]] → [[Triangle Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
+- [[Triangle Choke Side]] → [[Triangle Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
 - [[Armbar]] → [[Armbar Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
 - [[Omoplata]] → [[Omoplata Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
 - [[Kimura]] → [[Kimura Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
@@ -403,7 +403,7 @@ You are lying on your back on the mat, with your legs tightly wrapped around you
 ## Counter Transitions
 - [[Re-guard]] → [[Closed Guard Bottom]] (against pass attempts)
 - [[Sweep Combination]] → [[Top Position]] (chaining multiple sweeps)
-- [[Submission Chain]] → [[Won by Submission]] (linking submission attempts)
+- [[Submission Chains]] → [[Won by Submission]] (linking submission attempts)
 
 ## Expert Insights
 - **Danaher System**: Emphasizes the "Inside Position Theory" where controlling the inside space is paramount. Focuses on systematically breaking posture and maintaining constant pressure between two primary attack systems - the upper body (triangle/armbar) and lower body (sweeps).
@@ -456,13 +456,13 @@ If opponent establishes strong posture:
 
 Else if opponent drives forward with pressure:
 - Execute [[Pendulum Sweep]] → [[Mount]] (Probability: 45%)
-- Or Execute [[Triangle Choke]] → [[Triangle Control]] (Probability: 40%)
+- Or Execute [[Triangle Choke Side]] → [[Triangle Control]] (Probability: 40%)
 
 Else if opponent stands up:
 - Transition to [[Open Guard Bottom]] → [[Open Guard Bottom]] (Probability: 60%)
 
 Else (balanced opponent):
-- Break posture and initiate [[Triangle Choke]] → [[Triangle Control]] (Probability: 40%)
+- Break posture and initiate [[Triangle Choke Side]] → [[Triangle Control]] (Probability: 40%)
 - Or Execute [[Armbar]] → [[Armbar Control]] (Probability: 35%)
 
 ## Position Metrics
@@ -477,10 +477,10 @@ The shortest path to submission from this position:
 [[Closed Guard Bottom]] → [[Cross Collar Choke]] → [[Won by Submission]]
 
 High-percentage path:
-[[Closed Guard Bottom]] → [[Break Posture]] → [[Triangle Choke]] → [[Triangle Control]] → [[Won by Submission]]
+[[Closed Guard Bottom]] → [[Break Posture]] → [[Triangle Choke Side]] → [[Triangle Control]] → [[Won by Submission]]
 
 Alternative submission path:
 [[Closed Guard Bottom]] → [[Break Posture]] → [[Armbar]] → [[Armbar Control]] → [[Won by Submission]]
 
 Sweep to dominance path:
-[[Closed Guard Bottom]] → [[Hip Bump Sweep]] → [[Mount]] → [[Submission Chain]] → [[Won by Submission]]
+[[Closed Guard Bottom]] → [[Hip Bump Sweep]] → [[Mount]] → [[Submission Chains]] → [[Won by Submission]]

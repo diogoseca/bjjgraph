@@ -190,7 +190,7 @@ Else if [personal strategy] favors leg attacks or sweeps:
 - Attempt [[Single Leg X Entry]] to set up attacks (Probability: 60%)
 
 Else if [opponent resists] with strong posture or leg freeing mid-entry:
-- Adjust to [[Open Guard Retention]] for safety (Probability: 50%)
+- Adjust to [[Guard Retention]] for safety (Probability: 50%)
 
 Else if [entry fails] due to pass or submission threat:
 - Transition to [[Guard Recovery]] to mitigate (Probability: 40%)

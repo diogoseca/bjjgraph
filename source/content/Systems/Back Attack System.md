@@ -46,8 +46,8 @@
 
 ## Chain Properties
 - **Chain ID**: SC009
-- **Primary Submissions**: [[Rear Naked Choke]], [[Bow and Arrow Choke]], [[Armbar from Back]], [[Triangle from Back]]
-- **Starting Positions**: [[Back Control]], [[Turtle Top]], [[Technical Back Mount]]
+- **Primary Submissions**: [[Rear Naked Choke]], [[Bow and Arrow Choke]], [[Armbar from Back]], [[Triangle Choke Back]]
+- **Starting Positions**: [[Back Control]], [[Turtle Top]], [[Technical Mount]]
 - **Difficulty Level**: Beginner to Advanced
 - **Strategic Value**: Extremely High
 
@@ -86,7 +86,7 @@ The system operates from several related back control variations, including trad
 - If opponent defends RNC by tucking chin → Apply face covering variation or transition to [[Short Choke]]
 - If opponent defends by rolling → Follow movement and re-establish [[Back Control]]
 - If opponent overcommits to neck defense → Attack isolated arm with [[Armbar from Back]] or [[Kimura from Back]]
-- If opponent turns slightly → Adjust to [[Technical Back Mount]] and apply [[Bow and Arrow Choke]]
+- If opponent turns slightly → Adjust to [[Technical Mount]] and apply [[Bow and Arrow Choke]]
 - If opponent defends by creating space → Strengthen [[Body Triangle]] and reset attack sequence
 - If opponent attempts to peel hooks → Switch to [[Body Triangle]] or adjust hook position
 
@@ -98,12 +98,14 @@ The system operates from several related back control variations, including trad
 - **Eddie Bravo**: Within the 10th Planet system, Bravo has developed specialized back control mechanisms including his "Twister Side Control" and "Truck" positions that create unique entries to traditional back control. His system emphasizes unconventional entries to the back and specialized control variations that opponents are less familiar defending. When attacking from the back, Bravo focuses on creating control positions that facilitate his signature submissions, including the Twister and various Rubber Guard-based transitions that can be applied from back control variations.
 
 ## Setup Positions
+[[Turtle Position]] is explicitly listed as a starting position for the Back Attack System and is a critical transition point to back control.
+
 - [[Turtle Top]] → Back exposure → [[Back Control]]
 - [[Side Control]] → Far-arm isolation → [[Back Taking Sequence]]
-- [[Mount]] → Technical transition → [[Technical Back Mount]]
+- [[Mount]] → Technical transition → [[Technical Mount]]
 - [[Half Guard Top]] → Flattening control → [[Back Exposure]]
 - [[Standing Rear Clinch]] → Takedown → [[Back Control]]
-- [[Guard]] → Sweep to [[Turtle Top]] → [[Back Control]]
+- [[X-Guard]] → Sweep to [[Turtle Top]] → [[Back Control]]
 
 ## Common Defensive Reactions
 - Hand fighting (two-on-one grip) → Systematic grip stripping or transition to alternative choke

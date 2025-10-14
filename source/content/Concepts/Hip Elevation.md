@@ -83,6 +83,10 @@ Hip Elevation is a fundamental movement pattern in Brazilian Jiu-Jitsu that serv
 - [[Timing Errors]] → [[Opponent Adjustment]]
 - [[Isolated Muscle Use]] → [[Energy Inefficiency]]
 
+## Related Concepts
+- **[[Frame Creation]]** - Hip elevation complements frame creation in bottom position escapes
+- Frames create structural barriers while hip elevation generates space
+
 ## Variations
 - Standard Bridge (maximum vertical elevation)
 - Directional Bridge (angled elevation for specific techniques)
@@ -101,18 +105,18 @@ Hip Elevation is a fundamental movement pattern in Brazilian Jiu-Jitsu that serv
 
 ## Setup Opportunities
 - [[Mount Bottom]] → [[Hip Elevation]]
-- [[Side Control Bottom]] → [[Hip Elevation]]
+- [[Side Control to Mount]] → [[Hip Elevation]]
 - [[Closed Guard Top]] → [[Hip Elevation]]
 - [[Half Guard Bottom]] → [[Hip Elevation]]
 - [[Submission Defense]] → [[Hip Elevation]]
-- [[Pressure Position]] → [[Hip Elevation]]
+- [[Pressure Application]] → [[Hip Elevation]]
 
 ## Follow-up Options
 - [[Bridge and Roll]] (escape from mount)
 - [[Elbow Escape]] (creating space from bottom positions)
 - [[Sweep Execution]] (off-balancing techniques)
 - [[Half Guard Recovery]] (creating space to re-establish guard)
-- [[Shrimping Escape]] (combined with hip escape movement)
+- [[Shrimp Escape]] (combined with hip escape movement)
 - [[Technical Stand-up]] (when creating space to disengage)
 
 ## Expert Insights

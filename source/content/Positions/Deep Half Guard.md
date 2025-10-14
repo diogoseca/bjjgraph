@@ -45,8 +45,8 @@ description: "Master Deep Half Guard in BJJ. Complete guide covering setup, cont
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Deep Half to X-Guard",
-      "text": "From this position, execute Deep Half to X-Guard to transition to X-Guard.",
+      "name": "Execute Deep Half Guard to X-Guard",
+      "text": "From this position, execute Deep Half Guard transition to X-Guard.",
       "position": 6
     }
   ],
@@ -202,7 +202,7 @@ You are on your back or slightly on your side, positioned deeply underneath the 
 - [[Homer Simpson Sweep]] → [[Back Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
 - [[Waiter Sweep]] → [[Top Position]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
 - [[Deep Half to Single Leg X]] → [[Single Leg X Guard]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
-- [[Deep Half to X-Guard]] → [[X-Guard]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
+- [[Deep Half Guard]] → [[X-Guard]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
 - [[Back Door Escape]] → [[Back Control]] (Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%)
 - [[Deep Half to Dogfight]] → [[Dogfight Position]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
 
@@ -270,7 +270,7 @@ Else if opponent attempts to backstep:
 
 Else if opponent attempts to crossface:
 - Execute [[Deep Half to Single Leg X]] → [[Single Leg X Guard]] (Probability: 30%)
-- Or Execute [[Deep Half to X-Guard]] → [[X-Guard]] (Probability: 30%)
+- Or Execute [[Deep Half Guard]] → [[X-Guard]] (Probability: 30%)
 
 ## Position Metrics
 - **Position Retention Rate**: Beginner 55%, Intermediate 70%, Advanced 80%
@@ -288,7 +288,7 @@ Back-taking path:
 [[Deep Half Guard]] → [[Homer Simpson Sweep]] → [[Back Control]] → [[Rear Naked Choke]] → [[Won by Submission]]
 
 Modern transition path:
-[[Deep Half Guard]] → [[Deep Half to Single Leg X]] → [[Single Leg X Guard]] → [[Technical Stand-up Sweep]] → [[Top Position]]
+[[Deep Half Guard]] → [[Deep Half to Single Leg X]] → [[Single Leg X Guard]] → [[Technical Stand-up]] → [[Top Position]]
 
 ## Computer Science Analogy
 Deep Half Guard functions as a specialized optimization algorithm in the BJJ state graph, leveraging mechanical advantage (the fulcrum principle) to solve the problem of sweeping a potentially heavier opponent. It implements an efficient "leverage multiplier" by positioning the bottom player's body as a fulcrum underneath the opponent's center of gravity, creating a favorable force ratio that enables a smaller force to move a larger mass - similar to how a well-designed algorithm can process large datasets with minimal computational resources.

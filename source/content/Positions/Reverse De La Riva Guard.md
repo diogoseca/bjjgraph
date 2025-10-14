@@ -157,7 +157,7 @@ You are on your side or partially inverted, with your outside leg hooking deep b
 - [[Reverse X Transition]] → [[Reverse X Guard]]
 - [[RDLR to X-Guard]] → [[X-Guard]]
 - [[RDLR Back Take]] → [[Back Control]]
-- [[Technical Stand-up]] → [[Single Leg Takedown]]
+- [[Technical Standup]] → [[Single Leg Takedown]]
 - [[RDLR to De La Riva]] → [[De La Riva Guard]]
 
 ## Counter Transitions
@@ -208,7 +208,7 @@ Else if opponent attempts leg drag:
 - Execute [[RDLR Inversion]] → [[Berimbolo]]
 
 Else if opponent stands tall:
-- Execute [[RDLR Back Take]] or [[Technical Stand-up]]
+- Execute [[RDLR Back Take]] or [[Technical Standup]]
 
 Else if opponent drives weight forward:
 - Execute [[Reverse X Transition]] or [[RDLR to X-Guard]]
@@ -228,7 +228,7 @@ Leg lock path:
 [[Reverse De La Riva Guard]] → [[RDLR to Single Leg X]] → [[Single Leg X Guard]] → [[Ashi Garami]] → [[Inside Heel Hook]] → [[Won by Submission]]
 
 Sweep path:
-[[Reverse De La Riva Guard]] → [[RDLR to X-Guard]] → [[X-Guard]] → [[Technical Stand-up Sweep]] → [[Top Position]]
+[[Reverse De La Riva Guard]] → [[RDLR to X-Guard]] → [[X-Guard]] → [[Technical Standup]] → [[Top Position]]
 
 ## Computer Science Analogy
 RDLR functions as an adaptive response algorithm in the BJJ state graph, specifically designed to counter certain passing patterns (knee cut, leg drag). It implements a "conditional branching" logic where defensive responses trigger predetermined offensive sequences. The position can be modeled as a state with high branch factor but specialized effectiveness against certain opponent states, similar to how specific algorithms are optimized to handle particular input patterns.

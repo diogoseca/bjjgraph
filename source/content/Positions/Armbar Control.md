@@ -198,13 +198,13 @@ You are positioned either on top of or beside your opponent, depending on the en
 
 ## Offensive Transitions (Available From This State)
 - [[Armbar Finish]] → [[Won by Submission]] (Success Rate: Beginner 55%, Intermediate 65%, Advanced 75%)
-- [[Armbar to Triangle]] → [[Triangle Control]] (Success Rate: Beginner 30%, Intermediate 40%, Advanced 50%)
+- [[arm triangle]] → [[Triangle Control]] (Success Rate: Beginner 30%, Intermediate 40%, Advanced 50%)
 - [[Armbar to Omoplata]] → [[Omoplata Control]] (Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%)
 - [[Juji Gatame Variation]] → [[Won by Submission]] (Success Rate: Beginner 40%, Intermediate 50%, Advanced 60%)
 - [[Switch to Kimura]] → [[Kimura Control]] (Success Rate: Beginner 20%, Intermediate 30%, Advanced 40%)
 - [[Armbar to Back Control]] → [[Back Control]] (Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%)
 - [[Armbar to Cross Body]] → [[Side Control]] (Success Rate: Beginner 35%, Intermediate 45%, Advanced 55%)
-- [[Far Side Armbar]] → [[Second Armbar Control]] (Success Rate: Beginner 20%, Intermediate 30%, Advanced 40%)
+- [[Far Side Armbar]] → [[Armbar Control]] (Success Rate: Beginner 20%, Intermediate 30%, Advanced 40%)
 
 ## Counter Transitions
 - [[Re-establish Armbar]] → [[Armbar Control]] (against escapes)
@@ -259,7 +259,7 @@ You are positioned either on top of or beside your opponent, depending on the en
 ## Decision Tree
 If opponent defends with hand grip:
 - Execute [[Switch to Kimura]] → [[Kimura Control]] (Probability: 30%)
-- Or Execute [[Armbar to Triangle]] → [[Triangle Control]] (Probability: 40%)
+- Or Execute [[arm triangle]] → [[Triangle Control]] (Probability: 40%)
 
 Else if opponent attempts to stack:
 - Execute [[Armbar to Omoplata]] → [[Omoplata Control]] (Probability: 35%)
@@ -267,7 +267,7 @@ Else if opponent attempts to stack:
 
 Else if opponent rolls to belly:
 - Execute [[Armbar to Back Control]] → [[Back Control]] (Probability: 35%)
-- Or Execute [[Far Side Armbar]] → [[Second Armbar Control]] (Probability: 30%)
+- Or Execute [[Far Side Armbar]] → [[armbar control]] (Probability: 30%)
 
 Else if opponent postures defensively:
 - Execute [[Juji Gatame Variation]] → [[Won by Submission]] (Probability: 50%)
@@ -285,7 +285,7 @@ Standard finish path:
 [[Armbar Control]] → [[Armbar Finish]] → [[Won by Submission]]
 
 Transition path 1:
-[[Armbar Control]] → [[Armbar to Triangle]] → [[Triangle Control]] → [[Triangle Finish]] → [[Won by Submission]]
+[[Armbar Control]] → [[arm triangle]] → [[Triangle Control]] → [[Triangle Finish]] → [[Won by Submission]]
 
 Transition path 2:
 [[Armbar Control]] → [[Armbar to Back Control]] → [[Back Control]] → [[Rear Naked Choke]] → [[Won by Submission]]

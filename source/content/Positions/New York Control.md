@@ -144,8 +144,8 @@ New York Control is the second major control position in Eddie Bravo's Rubber Gu
 
 ## Defensive Responses (When Opponent Has This State)
 - [[Posture and Stack]] → [[Stack Pressure]]
-- [[Two-on-One Wrist Control]] → [[Grip Breaking]]
-- [[Forward Pressure]] → [[Guard Breaking]]
+- [[Two-on-One Wrist Control]] → [[Hand Fighting]]
+- [[Forward Pressure]] → [[Connection Breaking]]
 - [[Frame Creation]] → [[Space Generation]]
 - [[Shoulder Drive]] → [[Defensive Posture]]
 

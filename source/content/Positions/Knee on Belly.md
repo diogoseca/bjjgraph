@@ -45,8 +45,8 @@ description: "Master Knee on Belly in BJJ. Complete guide covering setup, contro
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Nearside Armbar",
-      "text": "From this position, execute Nearside Armbar to transition to Armbar Control.",
+      "name": "Execute Far Side Armbar",
+      "text": "From this position, execute Far Side Armbar to transition to Armbar Control.",
       "position": 6
     }
   ],
@@ -157,7 +157,7 @@ The practitioner stands in a dominant position with one knee placed firmly on th
 - [[Return to Side Control]] → [[Side Control]]
 - [[Far Side Armbar]] → [[Armbar Control]]
 - [[Baseball Choke Setup]] → [[Baseball Bat Choke]]
-- [[Nearside Armbar]] → [[Armbar Control]]
+- [[Far Side Armbar]] → [[Armbar Control]]
 - [[Kimura Trap]] → [[Kimura Control]]
 - [[North-South Transition]] → [[North-South]]
 - [[Technical Mount Transition]] → [[Technical Mount]]

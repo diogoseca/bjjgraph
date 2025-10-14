@@ -29,7 +29,7 @@ success_modifiers:
 schema_type: "HowTo"
 total_time: "PT4M"
 tags: ["bjj", "transition", "defense", "guard", "posture", "escape"]
-related_positions: ["Closed Guard Top", "Open Guard Top", "Guard Top"]
+related_positions: ["Closed Guard Top", "Open Guard Top", "Guard Top", "Closed Guard Bottom"]
 related_techniques: ["Base Widening", "Grip Break", "Defensive Frame"]
 ---
 
@@ -142,8 +142,8 @@ related_techniques: ["Base Widening", "Grip Break", "Defensive Frame"]
 - **Alternative Names**: Posture Restoration, Breaking Posture Defense, Uprighting
 
 ### State Machine Properties
-- **Starting State**: [[Guard Top Broken Posture]]
-- **Ending State**: [[Guard Top Posture Restored]]
+- **Starting State**: [[Half Guard Bottom]]
+- **Ending State**: [[Half Guard Pass Position]]
 - **Transition Type**: Escape - defensive recovery
 
 ### Transition Properties
@@ -196,7 +196,7 @@ Factors that increase/decrease probability:
 Bottom player responses with success rates:
 - **Submission Attack**: Threatening triangle, guillotine, or armbar during recovery → [[Submission Position]] (Success Rate: 45%, Conditions: when posture recovery is slow or predictable)
 - **Posture Re-Break**: Pulling down again immediately after recovery attempt → [[Guard Top Broken Posture]] (Success Rate: 40%, Conditions: when recovery lacks full commitment)
-- **Sweep Attempt**: Attacking during vulnerable recovery phase → [[Guard Bottom]] (Success Rate: 35%, Conditions: when base isn't established first)
+- **Sweep Attempt**: Attacking during vulnerable recovery phase → [[Half Guard Bottom]] (Success Rate: 35%, Conditions: when base isn't established first)
 - **Hip Escape**: Using recovery movement to create escape space → [[Open Guard]] (Success Rate: 30%, Conditions: when top player overcommits to posture)
 
 Format: `[[Counter Technique]] → [[Result State]] (Success Rate: X%, Conditions: [when applicable])`
@@ -556,7 +556,7 @@ Posture recovery has always been fundamental to guard passing in Brazilian Jiu-J
 
 ## Position Integration
 **Common posture recovery applications:**
-- [[Closed Guard Top]] → [[Posture Recovery]] → [[Guard Passing Position]]
+- [[Closed Guard Top]] → [[Posture Recovery]] → [[Half Guard Pass Position]]
 - [[Open Guard Top]] → [[Posture Recovery]] → [[Guard Top Stable]]
 - [[Guard Top Broken Posture]] → [[Posture Recovery]] → [[Guard Top]]
 

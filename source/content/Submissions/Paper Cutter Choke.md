@@ -728,6 +728,7 @@ After failed [[Back Take]]:
 **Why It Matters**: Proper release and monitoring prevents complications and demonstrates respect for training partner's safety.
 
 ## Related Submissions
+- [[Rear Naked Choke]] - Blood choke variation from back control position
 - [[Clock Choke]] - Related collar choke from back
 - [[Loop Choke]] - Similar collar mechanics
 - [[Cross Collar Choke]] - Related collar compression choke

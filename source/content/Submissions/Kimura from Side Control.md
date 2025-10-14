@@ -78,7 +78,7 @@ description: "Master Kimura from Side Control in BJJ. Complete guide covering se
 - **Alternative Names**: Double Wristlock, Reverse Ude-Garami, Chicken Wing
 
 ### State Machine Properties
-- **Starting State**: [[Side Control Top]]
+- **Starting State**: [[Side Control Top]], [[Side Control]]
 - **Ending State**: [[Won by Submission]]
 - **Submission Type**: Shoulder Lock - Targets shoulder joint and rotator cuff
 

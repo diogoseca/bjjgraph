@@ -174,7 +174,7 @@ Factors that influence the success rate of the transition:
 Analysis of opponent responses with success rates for counter-attacks during the transition:
 - [[Posture Up]] → [[Triangle Escape Position]] (Success Rate: 50%, Conditions: opponent postures before triangle is locked)
 - [[Stack Defense]] → [[Triangle Escape Position]] (Success Rate: 45%, Conditions: opponent stacks weight to prevent leg lock)
-- [[Hand Fight]] → [[Grip Breaking]] (Success Rate: 40%, Conditions: opponent fights initial arm control)
+- [[Hand Fighting]] → [[Grip Breaking]] (Success Rate: 40%, Conditions: opponent fights initial arm control)
 - [[Shoulder Walk]] → [[Defensive Posture]] (Success Rate: 35%, Conditions: opponent walks shoulder to escape angle)
 - [[Arm Positioning Defense]] → [[Combat Base]] (Success Rate: 30%, Conditions: opponent positions arm to block triangle entry)
 

@@ -64,7 +64,7 @@ From half guard bottom, you release your outside leg hook and swim your inside a
 Opponent defensive responses with success rates and conditions:
 
 - **[[Sprawl and Flatten]]** → [[Half Guard Top]] (Success Rate: 45%, Conditions: sprawls immediately preventing entry)
-- **[[Push Head Away]]** → [[Half Guard Pressure]] (Success Rate: 40%, Conditions: crossfaces and drives pressure)
+- **[[Push Head Away]]** → [[Cross Face Control]] (Success Rate: 40%, Conditions: crossfaces and drives pressure)
 - **[[Step Over to Mount]]** → [[Mount]] (Success Rate: 35%, Conditions: uses entry attempt to establish mount)
 - **[[Whizzer Control]]** → [[Half Guard Top]] (Success Rate: 50%, Conditions: overhooks entering arm preventing full entry)
 
@@ -168,4 +168,4 @@ Opponent defensive responses with success rates and conditions:
 **Common combinations and sequences:**
 - [[Half Guard Bottom]] → [[Deep Half Entry]] → [[Deep Half Guard]]
 - [[Half Guard Bottom]] → [[Deep Half Entry]] → [[Waiter Sweep]] → [[Top Position]]
-- [[Half Guard Bottom]] → [[Failed Entry]] → [[Old School Sweep]] (if they defend)
+- [[Half Guard Bottom]] → [[Deep Half Entry]] → [[Old School Sweep]] (if they defend)

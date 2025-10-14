@@ -182,18 +182,18 @@ The Open Guard to Deep Half transition represents a sophisticated guard evolutio
 - Execute following initial guard recovery to create offensive opportunity
 
 ## Setup Connections
-- [[Failed Guard Retention]] → [[Open Guard to Deep Half]]
+- [[Guard Retention]] → [[Open Guard to Deep Half]]
 - [[Half Guard Bottom]] → [[Open Guard to Deep Half]]
-- [[Knee Shield Half]] → [[Open Guard to Deep Half]]
+- [[Knee Shield Half Guard]] → [[Open Guard to Deep Half]]
 - [[Butterfly Guard]] → [[Open Guard to Deep Half]]
 - [[Seated Guard]] → [[Open Guard to Deep Half]]
-- [[Defensive Frames]] → [[Open Guard to Deep Half]]
+- [[Defensive Frame]] → [[Open Guard to Deep Half]]
 
 ## Follow-up Options
 - [[Waiter Sweep]] → [[Top Position]]
 - [[Homer Simpson Sweep]] → [[Top Position]]
 - [[Double Under Sweep]] → [[Top Position]]
-- [[Deep Half to X-Guard]] → [[X-Guard]]
+- [[Deep Half Guard]] → [[X-Guard]]
 - [[Deep Half to Single Leg X]] → [[Single Leg X Guard]]
 - [[Deep Half to Back Take]] → [[Back Control]]
 
@@ -238,4 +238,5 @@ The deep half position itself operates as a specialized "computational architect
 - [[Butterfly Guard to X-Guard]] - Related technique
 - [[Closed Guard to Triangle]] - Related technique
 - [[Pull guard]] - Related technique
+- [[Guard Retention]] - Key guard retention position
 

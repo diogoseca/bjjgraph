@@ -1,6 +1,71 @@
-# BJJ Graph Content Validation Scripts
+# BJJ Graph Scripts
 
-This directory contains Python scripts for validating and maintaining BJJ Graph content files.
+This directory contains Python scripts for validating, maintaining, and automating BJJ Graph content.
+
+## Directory Structure
+
+```
+scripts/
+├── README.md                          # This file
+├── validate_content.py                # Content validation (root tool)
+├── select_oldest_files.sh             # Utility script
+│
+├── seo/                               # SEO & schema markup scripts
+│   ├── README.md
+│   ├── add_breadcrumb_schema.py       # V2 breadcrumb schema
+│   ├── add_webpage_schema.py          # V2 webpage schema
+│   ├── add_position_schema_v2.py      # V2 position HowTo + FAQ
+│   └── add_transition_schema_v2.py    # V2 transition HowTo + FAQ
+│
+├── link_optimizer/                    # Link validation & optimization
+│   ├── README.md
+│   ├── link_optimizer_cli.py          # Main CLI
+│   ├── graph_builder.py
+│   ├── link_validator.py
+│   ├── semantic_suggester.py
+│   └── ... (see link_optimizer/README.md)
+│
+└── deprecated/                        # Archived/superseded scripts
+    ├── README.md
+    ├── add_position_schema.py         # V1 (superseded)
+    ├── add_transition_schema.py       # V1 (superseded)
+    └── ... (one-time fix scripts)
+```
+
+**Documentation**: Script-specific docs are in `/docs/scripts/` (QUICK_START.md, VALIDATION_SUMMARY.md, etc.)
+
+---
+
+## Quick Start
+
+### Content Validation
+```bash
+# Validate all content
+python3 scripts/validate_content.py source/content/
+
+# Validate specific type
+python3 scripts/validate_content.py source/content/ --type Positions --verbose
+```
+
+### SEO Schema Markup
+```bash
+# Add all schema to new pages
+python3 scripts/seo/add_webpage_schema.py
+python3 scripts/seo/add_breadcrumb_schema.py
+python3 scripts/seo/add_position_schema_v2.py
+python3 scripts/seo/add_transition_schema_v2.py
+```
+
+### Link Optimization
+```bash
+# Full validation + AI suggestions
+python3 scripts/link_optimizer/link_optimizer_cli.py --mode full --verbose
+
+# Validation only
+python3 scripts/link_optimizer/link_optimizer_cli.py --mode validate --verbose
+```
+
+---
 
 ## validate_content.py
 
@@ -9,7 +74,7 @@ A comprehensive validation script that checks markdown content files against the
 ### Features
 
 - **Multi-Type Validation**: Validates all 5 content types (Positions, Transitions, Submissions, Concepts, Systems)
-- **Schema Compliance**: Checks against `/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/CONTRIBUTING-YAML-SCHEMA.md`
+- **Schema Compliance**: Checks against `/source/content/CONTRIBUTING-YAML-SCHEMA.md`
 - **ID Format Validation**: Ensures correct ID formats (S###, T###, SUB###, C###, SC###)
 - **Duplicate Detection**: Identifies duplicate IDs across files
 - **Wikilink Resolution**: Verifies all internal links resolve to existing files
@@ -156,6 +221,35 @@ This script can be integrated into:
 - **Editor integration**: VS Code tasks
 - **Documentation builds**: Fail builds on validation errors
 
+**GitHub Actions Integration Example:**
+
+```yaml
+name: Validate Content
+
+on:
+  pull_request:
+    paths:
+      - 'source/content/**/*.md'
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Validate Content
+        run: |
+          python scripts/validate_content.py source/content/ --verbose
+```
+
 ### Common Issues
 
 **Missing Visual Description**
@@ -213,14 +307,64 @@ FILES WITH ERRORS:
 
 ## Related Files
 
-- `/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/CONTRIBUTING-YAML-SCHEMA.md` - Complete schema documentation
-- `/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/Positions/CONTRIBUTING-POSITIONS.md` - Position contributor guide
-- `/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/Transitions/CONTRIBUTING-TRANSITIONS.md` - Transition contributor guide
-- `/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/Submissions/CONTRIBUTING-SUBMISSIONS.md` - Submission contributor guide
-- `/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/Systems/CONTRIBUTING-SYSTEMS.md` - Systems contributor guide
-- `/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/Concepts/CONTRIBUTING-CONCEPTS.md` - Concepts contributor guide
+- `/source/content/CONTRIBUTING-YAML-SCHEMA.md` - Complete schema documentation
+- `/source/content/Positions/CONTRIBUTING-POSITIONS.md` - Position contributor guide
+- `/source/content/Transitions/CONTRIBUTING-TRANSITIONS.md` - Transition contributor guide
+- `/source/content/Submissions/CONTRIBUTING-SUBMISSIONS.md` - Submission contributor guide
+- `/source/content/Systems/CONTRIBUTING-SYSTEMS.md` - Systems contributor guide
+- `/source/content/Concepts/CONTRIBUTING-CONCEPTS.md` - Concepts contributor guide
 
 **Note**: The CONTRIBUTING-*.md files are excluded from the website (see quartz.config.ts) and serve as references for content creators and the automated improvement bot.
+
+## Link Optimizer Scripts
+
+Located in `scripts/link_optimizer/` - A comprehensive link validation and optimization system.
+
+### Quick Commands
+
+```bash
+# Full validation + AI suggestions
+python3 scripts/link_optimizer/link_optimizer_cli.py --mode full --verbose
+
+# Validation only (fast)
+python3 scripts/link_optimizer/link_optimizer_cli.py --mode validate --verbose
+
+# AI Suggestions only
+python3 scripts/link_optimizer/link_optimizer_cli.py --mode suggest --max-concurrent 20
+
+# Random walk traversal
+python3 scripts/link_optimizer/link_optimizer_cli.py --mode random-walk --walk-length 1000
+```
+
+### Scripts Overview
+
+- **link_optimizer_cli.py** - Main CLI interface for all operations
+- **graph_builder.py** - Builds NetworkX graph from markdown files
+- **link_validator.py** - Validates wikilinks and finds broken links
+- **semantic_suggester.py** - Claude AI-powered link suggestions
+- **graph_optimizer.py** - Graph traversal strategies (PageRank, random walk, etc.)
+- **apply_suggestions.py** - Apply link fixes automatically
+- **create_filtered_views.py** - Filter suggestions by confidence level
+- **config.py** - Configuration settings
+- **utils.py** - Utility functions
+
+### Documentation
+
+- **Complete Guide**: `/docs/link-optimizer.md` - Comprehensive documentation (consolidated from 5 files)
+- **Reports**: `/reports/link_optimizer/` - All analysis reports and session results
+- **Status**: `/reports/link_optimizer/04_STATUS/` - Current status and next steps
+
+### Features
+
+- **Link Validation**: Validates 11,351+ wikilinks, identifies broken links with fuzzy matching
+- **AI Suggestions**: Claude AI analyzes content to suggest relevant internal links
+- **Graph Theory**: PageRank, centrality, connected components analysis
+- **Random Walk**: Stochastic graph traversal (47% coverage achieved)
+- **Session Results**: 4 cleanup sessions completed, 124 broken links fixed, 98%+ consistency achieved
+
+**See**: `/docs/link-optimizer.md` for complete guide and `/scripts/link_optimizer/README.md` for detailed module documentation
+
+---
 
 ## Contributing
 

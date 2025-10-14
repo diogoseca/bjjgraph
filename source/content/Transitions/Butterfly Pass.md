@@ -403,3 +403,4 @@ The butterfly pass is a fundamental guard passing technique that has evolved sig
 - [[Smash Pass]] - Alternative pressure-based pass from butterfly guard
 - [[Double Under Pass]] - Uses different control system but similar forward pressure principle
 - [[X-Guard Pass]] - Related leg entanglement clearing technique
+- [[Side Control Top]] - Primary destination position from butterfly pass

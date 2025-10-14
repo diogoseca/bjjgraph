@@ -197,12 +197,13 @@ You are positioned in front of or slightly to the side of your opponent, often s
 - [[Shoulder Walk]] → [[Neutral Position]] (Success Rate: 20%)
 
 ## Offensive Transitions (Available From This State)
-- [[Anaconda Choke Finish]] → [[Won by Submission]] (Success Rate: Beginner 50%, Intermediate 60%, Advanced 70%)
+- [[anaconda choke]] → [[Won by Submission]] (Success Rate: Beginner 50%, Intermediate 60%, Advanced 70%)
 - [[Roll to Side Control]] → [[Anaconda Side Finish]] (Success Rate: Beginner 40%, Intermediate 50%, Advanced 60%)
+- [[Side Control]] → [[Anaconda Side Finish]] (Anaconda control naturally transitions to side control variations)
 - [[Gator Roll]] → [[Won by Submission]] (Success Rate: Beginner 45%, Intermediate 55%, Advanced 65%)
 - [[Switch to D'arce]] → [[D'arce Control]] (Success Rate: Beginner 30%, Intermediate 40%, Advanced 50%)
 - [[Transition to Front Headlock]] → [[Front Headlock]] (Success Rate: Beginner 35%, Intermediate 45%, Advanced 55%)
-- [[Anaconda to Back Control]] → [[Back Control]] (Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%)
+- [[anaconda control]] → [[Back Control]] (Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%)
 - [[Transition to North-South]] → [[North-South]] (Success Rate: Beginner 30%, Intermediate 40%, Advanced 50%)
 - [[Peruvian Necktie Transition]] → [[Peruvian Necktie]] (Success Rate: Beginner 20%, Intermediate 30%, Advanced 40%)
 
@@ -258,7 +259,7 @@ You are positioned in front of or slightly to the side of your opponent, often s
 
 ## Decision Tree
 If opponent exposes neck while facing downward:
-- Execute [[Anaconda Choke Finish]] → [[Won by Submission]] (Probability: 60%)
+- Execute [[anaconda choke]] → [[Won by Submission]] (Probability: 60%)
 - Or Execute [[Gator Roll]] → [[Won by Submission]] (Probability: 55%)
 
 Else if opponent turns toward you:
@@ -267,7 +268,7 @@ Else if opponent turns toward you:
 
 Else if opponent attempts to create space:
 - Execute [[Peruvian Necktie Transition]] → [[Peruvian Necktie]] (Probability: 30%)
-- Or Execute [[Anaconda to Back Control]] → [[Back Control]] (Probability: 35%)
+- Or Execute [[anaconda control]] → [[Back Control]] (Probability: 35%)
 
 Else if opponent effectively defends the choke:
 - Execute [[Transition to Front Headlock]] → [[Front Headlock]] (Probability: 50%)
@@ -282,7 +283,7 @@ Else if opponent effectively defends the choke:
 
 ## Optimal Paths
 Standard finish path:
-[[Anaconda Control]] → [[Anaconda Choke Finish]] → [[Won by Submission]]
+[[Anaconda Control]] → [[anaconda choke]] → [[Won by Submission]]
 
 Rolling variation path:
 [[Anaconda Control]] → [[Gator Roll]] → [[Won by Submission]]

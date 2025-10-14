@@ -143,15 +143,15 @@ The controlling practitioner wraps one arm deeply around the opponent's neck, wi
 - Wrist typically flexed to create wedge in neck
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Von Flue Counter]] → [[Von Flue Position]]
+- [[von flue choke]] → [[Von Flue Choke]]
 - [[Posture and Pop]] → [[Neutral Position]]
 - [[Stack Defense]] → [[Top Position]]
 - [[Two-on-One Grip Break]] → [[Grip Fighting]]
-- [[Roll to Guard]] → [[Top Closed Guard]]
+- [[Roll to Guard]] → [[top open guard]]
 
 ## Offensive Transitions (Available From This State)
 - [[Arm-in Guillotine]] → [[Won by Submission]]
-- [[High-Elbow Guillotine]] → [[Won by Submission]]
+- [[high elbow guillotine]] → [[Won by Submission]]
 - [[Guillotine to Mount]] → [[Mounted Guillotine]]
 - [[Guillotine to Closed Guard]] → [[Closed Guard Guillotine]]
 - [[Front Headlock Transition]] → [[Front Headlock]]
@@ -204,7 +204,7 @@ If opponent's arm is inside (between bodies):
 - Execute [[Arm-in Guillotine]] or [[Guillotine to D'arce]]
 
 Else if opponent postures up:
-- Execute [[High-Elbow Guillotine]] or [[Marcelotine Adjustment]]
+- Execute [[high elbow guillotine]] or [[Marcelotine Adjustment]]
 
 Else if opponent drives forward with pressure:
 - Execute [[Guillotine to Closed Guard]] or [[Guillotine to Mount]]
@@ -221,7 +221,7 @@ Else if opponent attempts to grip fight:
 
 ## Optimal Paths
 Standard submission path:
-[[Guillotine Control]] → [[High-Elbow Guillotine]] → [[Won by Submission]]
+[[Guillotine Control]] → [[high elbow guillotine]] → [[Won by Submission]]
 
 Mounted variation path:
 [[Guillotine Control]] → [[Guillotine to Mount]] → [[Mounted Guillotine]] → [[Won by Submission]]

@@ -142,7 +142,7 @@ Factors that influence the success rate of the strategic framework:
 Analysis of opponent responses with success rates for counter-attacks within the framework:
 - [[Position Stabilization]] → [[Positional Sacrifice Counter]] (Success Rate: 50%, Conditions: opponent focuses on stabilizing position over defending submission)
 - [[Defensive Recovery]] → [[Exposure Exploitation]] (Success Rate: 45%, Conditions: opponent recovers defensively after failed submission attempt)
-- [[Energy Management]] → [[Fatigue Exploitation]] (Success Rate: 40%, Conditions: opponent conserves energy to counter high-energy attacks)
+- [[Energy Management System]] → [[Fatigue Exploitation]] (Success Rate: 40%, Conditions: opponent conserves energy to counter high-energy attacks)
 - [[Pattern Interruption]] → [[Predictability Counter]] (Success Rate: 35%, Conditions: opponent disrupts predictable submission sequences)
 - [[Technical Stand-up]] → [[Overcommitment Counter]] (Success Rate: 30%, Conditions: opponent uses stand-up to escape overcommitted submissions)
 

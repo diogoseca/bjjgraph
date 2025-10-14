@@ -597,6 +597,7 @@ Start in established scarf hold. Top person maintains and attacks (submissions a
 - [[Mount]] - Natural progression from scarf hold for more dominant position and points
 - [[North-South]] - Alternative pinning position reached by walking around head from scarf hold
 - [[Back Control]] - Available if opponent turns away attempting back door escape from scarf hold
+- [[Side Control]]
 
 ## Optimal Submission Paths
 

@@ -175,6 +175,7 @@ You are positioned on top, in a dynamic stance with one knee up—typically your
 - Create and exploit angles for passing opportunities
 - Maintain proper distance to avoid submission attempts
 - Prepare for dynamic transitions to passing sequences
+- [[Base Maintenance]]
 
 ## Prerequisites
 - Understanding of base and balance mechanics
@@ -194,22 +195,22 @@ You are positioned on top, in a dynamic stance with one knee up—typically your
 - [[Collar Drag]] → [[Sweep to Mount]] (Success Rate: 25%)
 - [[Single Leg Attempt]] → [[Sweep to Top]] (Success Rate: 20%)
 - [[Shin-to-Shin Entry]] → [[Shin-to-Shin Guard]] (Success Rate: 35%)
-- [[Submission Entry]] → [[Submission Control]] (Success Rate: 15%)
+- [[Submission Entry]] → [[Mission Control]] (Success Rate: 15%)
 
 ## Offensive Transitions (Available From This State)
 - [[Knee Cut Pass]] → [[Side Control]] (Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%)
-- [[Headquarters Transition]] → [[Headquarters Position]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
+- [[Headquarters Position]] → [[Headquarters Position]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
 - [[Leg Drag Setup]] → [[Leg Drag Pass]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
 - [[Smash Pass]] → [[Side Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
 - [[Toreando Setup]] → [[Toreando Pass]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
 - [[Combat Base to Back Take]] → [[Back Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
 - [[Over Under Entry]] → [[Over Under Pass]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
-- [[Standing Transition]] → [[Open Guard Top]] (Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%)
+- [[Standing Position]] → [[Open Guard Top]] (Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%)
 
 ## Counter Transitions
 - [[Re-establish Combat Base]] → [[Combat Base]] (against sweep attempts)
 - [[Sprawl Response]] → [[Front Headlock]] (against shots)
-- [[Post and Base]] → [[Defensive Base]] (against submissions)
+- [[Post and Base]] → [[Defensive Frame]] (against submissions)
 
 ## Expert Insights
 - **Danaher System**: Emphasizes Combat Base as a fundamental "home base" position for guard passing, viewing it as a stable starting point from which multiple passing sequences can be initiated. Focuses on precise weight distribution and posture details that maximize stability while maintaining offensive options. Creates systematic connections between Combat Base and specific passing sequences based on the opponent's guard configuration.
@@ -245,7 +246,7 @@ You are positioned on top, in a dynamic stance with one knee up—typically your
 - [[Open Guard Top]] - General guard passing position
 - [[Top Position]] - Generic dominant position
 - [[Knee Cut Position]] - Dynamic passing position
-- [[Defensive Base]] - Emergency defensive posture
+- [[Defensive Frame]] - Emergency defensive posture
 
 
 ## Related Positions
@@ -258,7 +259,7 @@ You are positioned on top, in a dynamic stance with one knee up—typically your
 
 ## Decision Tree
 If opponent establishes butterfly hooks:
-- Execute [[Headquarters Transition]] → [[Headquarters Position]] (Probability: 50%)
+- Execute [[Headquarters Position]] → [[Headquarters Position]] (Probability: 50%)
 - Or Execute [[Knee Cut Pass]] → [[Side Control]] (Probability: 55%)
 
 Else if opponent attempts to control your posting leg:

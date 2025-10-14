@@ -78,7 +78,7 @@ The Duck Under is a fundamental wrestling-derived technique adapted for BJJ that
 ## Common Defenses
 - [[Whizzer Application]] → [[Whizzer Control]]
 - [[Sprawl Response]] → [[Front Headlock]]
-- [[Crossface Counter]] → [[Neutral Position]]
+- [[Cross Face Control]] → [[Neutral Position]]
 - [[Hip Bump]] → [[Distance Creation]]
 - [[Quick Retreat]] → [[Disengagement]]
 
@@ -107,10 +107,12 @@ The Duck Under is a fundamental wrestling-derived technique adapted for BJJ that
 - [[Standing Grip Break]] → [[Duck Under]]
 
 ## Follow-up Options
+The Duck Under is primarily a technique for achieving [[Back Control]] from standing positions, making this the most natural outcome when executed successfully.
+
 - [[Back Control Standing]] (primary objective)
 - [[Body Lock Takedown]] (to bring opponent to ground)
 - [[Double Leg Conversion]] (if opponent bases hard)
-- [[Back Take System]] (to establish back control on ground)
+- [[Back Attack System]] (to establish back control on ground)
 - [[Rear Clinch]] (if unable to fully secure back)
 - [[Takedown Chain]] (connecting to other takedown options)
 

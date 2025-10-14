@@ -160,7 +160,7 @@ The Leg Drag Position is a dominant control position where the top practitioner 
 ## Counter Transitions
 - [[Re-drag Sequence]] → [[Leg Drag Position]] (against escape attempts)
 - [[Switch to Knee Cut]] → [[Knee Cut Pass]] (if leg drag control compromised)
-- [[Backstep]] → [[Back Control]] (if opponent turns away)
+- [[back step]] → [[Back Control]] (if opponent turns away)
 
 ## Expert Insights
 - **Danaher System**: Emphasizes the leg drag as a control position rather than merely a passing technique, focusing on precise pressure distribution that creates a series of "cascading dominoes" where each defensive option the opponent selects leads to an even more dominant position. Particularly focuses on controlling the opponent's head position to prevent defensive movement.
@@ -199,6 +199,7 @@ The Leg Drag Position is a dominant control position where the top practitioner 
 - [[Mount]] - Related position
 - [[Headquarters Position]] - Related position
 - [[Knee on Belly]] - Related position
+- [[Guard Pass]]
 
 ## Decision Tree
 If opponent attempts to turn in toward you:
@@ -228,7 +229,7 @@ Back-taking path:
 [[Leg Drag Position]] → [[Back Step]] → [[Back Control]] → [[Rear Naked Choke]] → [[Won by Submission]]
 
 Advanced competition path:
-[[Headquarters Position]] → [[Leg Drag Pass]] → [[Leg Drag Position]] → [[Side Control]] → [[Mount]] → [[High Mount]] → [[S-Mount]] → [[Armbar from Mount]] → [[Won by Submission]]
+[[Headquarters Position]] → [[Leg Drag Pass]] → [[Leg Drag Position]] → [[Side Control]] → [[Mount]] → [[High Mount]] → [[mount]] → [[Armbar from Mount]] → [[Won by Submission]]
 
 ## Computer Science Analogy
 The Leg Drag Position functions as a highly efficient "state constriction" node in the BJJ state machine. It dramatically reduces the opponent's available state transitions (defensive options) while simultaneously expanding the controlling player's possible transitions to advantageous states. This creates an asymmetric decision graph where the controlling player enjoys a branching factor advantage - they have numerous high-value paths forward while the controlled player has few viable options, most of which lead to even worse states. This position exemplifies the concept of "asymmetric computational complexity" in adversarial systems, where one agent faces significantly more complex problems than the other.

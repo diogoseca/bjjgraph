@@ -45,7 +45,7 @@ prerequisites:
     - "Hips loaded for pressure"
     - "Partner can tap with free arm"
     - "Proper angle to avoid neck crank"
-  opponent_vulnerability: "Front headlock, failed takedown, or guard pull"
+  opponent_vulnerability: "Front headlock, failed takedown, or guard pull from guillotine control"
   technical_skill_level: "Intermediate - requires grip precision"
 
 schema_type: "HowTo"
@@ -66,12 +66,12 @@ related_positions:
   - "[[Closed Guard Bottom]]"
   - "[[Standing Position]]"
 related_transitions:
-  - "[[Guillotine Setup]]"
-  - "[[Guard Pull]]"
-  - "[[Front Headlock Series]]"
+  - "[[Guillotine Control]]"
+  - "[[Pull guard]]"
+  - "[[Front Headlock]]"
 related_defenses:
-  - "[[Guillotine Defense]]"
-  - "[[Front Headlock Escape]]"
+  - "[[Guillotine Control]]"
+  - "[[Von Flue Choke]]"
 
 date_created: "2025-10-13"
 date_updated: "2025-10-13"

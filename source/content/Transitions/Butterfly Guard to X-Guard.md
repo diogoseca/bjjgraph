@@ -156,7 +156,7 @@ The Butterfly Guard to X-Guard transition represents a sophisticated guard evolu
 - [[Knee Slice Attempt]] → [[Knee Cut Pass]]
 - [[Hook Clearing]] → [[Toreando Pass]]
 - [[Pressure Forward]] → [[Smash Pass]]
-- [[Grip Fighting]] → [[Standing Guard Pass]]
+- [[Grip Fighting]] → [[Standing Guard]]
 
 ## Variants
 - Shin-to-Shin Entry (using shin-to-shin as intermediate position)
@@ -182,7 +182,7 @@ The Butterfly Guard to X-Guard transition represents a sophisticated guard evolu
 - Execute when opponent compromises posture to address butterfly hooks
 
 ## Setup Connections
-- [[Failed Butterfly Sweep]] → [[Butterfly Guard to X-Guard]]
+- [[Basic Butterfly Sweep]] → [[Butterfly Guard to X-Guard]]
 - [[Shin-to-Shin Guard]] → [[Butterfly Guard to X-Guard]]
 - [[Seated Guard]] → [[Butterfly Guard to X-Guard]]
 - [[Standing Opponent Response]] → [[Butterfly Guard to X-Guard]]
@@ -190,7 +190,7 @@ The Butterfly Guard to X-Guard transition represents a sophisticated guard evolu
 - [[Single Leg X Entry]] → [[Butterfly Guard to X-Guard]]
 
 ## Follow-up Options
-- [[Technical Stand-up Sweep]] → [[Top Position]]
+- [[Technical Stand-up]] → [[Top Position]]
 - [[Classic X-Guard Sweep]] → [[Top Position]]
 - [[X-Guard to Single Leg X]] → [[Single Leg X Guard]]
 - [[X-Guard to Ashi Garami]] → [[Ashi Garami]]

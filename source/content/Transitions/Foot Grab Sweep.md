@@ -378,7 +378,7 @@ The Foot Grab Sweep is an intermediate technique in Brazilian Jiu-Jitsu, develop
 **Common Foot Grab Sweep combinations:**
 - [[Half Guard Bottom]] → [[Foot Grab Sweep]] → [[Top Position]]
 - [[Half Guard Bottom]] → [[Foot Grab Sweep]] → [[Side Control]]
-- [[Half Guard Bottom]] → [[Failed Foot Grab Sweep]] → [[Guard Retention]]
+- [[Half Guard Bottom]] → [[Foot Grab Sweep]] → [[Foot Grab Sweep]]
 
 ## Training Applications
 - **Sweep Development**: Essential for intermediate half guard sweeping game

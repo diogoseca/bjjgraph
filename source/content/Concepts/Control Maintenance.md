@@ -65,6 +65,8 @@ Control Maintenance represents the fundamental principle of preserving positiona
 - Coordinate pressure with body positioning to prevent specific escape pathways
 - Maintain awareness of position vulnerabilities and protect them preemptively
 
+Control maintenance is particularly critical in dominant positions like [[Mount]] and [[Side Control]], where continuous adjustment prevents escape opportunities.
+
 ## Component Skills
 - **Pressure Distribution** - Applying force across multiple contact points in ways that maximize control while minimizing energy expenditure
 - **Connection Reinforcement** - Strengthening and multiplying control points to make escape mechanically difficult
@@ -95,7 +97,7 @@ Control Maintenance represents the fundamental principle of preserving positiona
 
 ### Common Scenarios Where Concept is Critical
 
-**Scenario 1: [[Side Control Top]] when opponent attempts hip escape**
+**Scenario 1: [[Side Control]] when opponent attempts hip escape**
 → Apply control maintenance by adjusting hips to block escape angle while maintaining shoulder and cross face pressure, preventing space creation necessary for escape progression.
 
 **Scenario 2: [[Mount Top]] when opponent bridges for escape attempt**

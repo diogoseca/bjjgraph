@@ -1,0 +1,216 @@
+{
+  "chunk_metadata": {
+    "chunk_number": 4,
+    "total_chunks": 10,
+    "start_index": 63,
+    "end_index": 83,
+    "count": 21,
+    "confidence_filter": "\u226595%"
+  },
+  "suggestions": [
+    {
+      "source_file": "Reverse Half Guard Top",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Direct transition target mentioned multiple times in the schema as the destination of Back Step Pass and Reverse Half Guard Pass.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Half Guard Defensive System",
+      "target_file": "Half Guard Bottom",
+      "confidence": 95.0,
+      "reason": "This is the core position that the defensive system is built around, essential for understanding the context of all defensive concepts discussed.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "system-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Mount Control",
+      "target_file": "Mount",
+      "confidence": 95.0,
+      "reason": "Mount is the fundamental position that Mount Control builds upon, essential for readers to understand the base position",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "50-50 Guard Bottom",
+      "target_file": "Guard Recovery",
+      "confidence": 95.0,
+      "reason": "Directly relevant escape strategy from 50-50 bottom to re-establish safer guard position",
+      "suggested_section": "Defensive Responses",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Worm Guard",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Worm Guard is an advanced guard retention system using lapel control to prevent passing.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Submission Position",
+      "target_file": "Rear Naked Choke",
+      "confidence": 95.0,
+      "reason": "Direct example of a submission that is executed from a submission position, highly relevant for illustrating the concept.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Half Guard Pass Position",
+      "target_file": "Knee Cut Pass",
+      "confidence": 95.0,
+      "reason": "Knee cut pass is one of the most common and fundamental techniques to pass half guard, directly relevant to completing the pass from this position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Side Control Consolidation",
+      "target_file": "Pressure Application",
+      "confidence": 95.0,
+      "reason": "Side control consolidation heavily relies on pressure application principles, which is directly mentioned in the content regarding chest pressure and weight distribution.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Knee Shield Half Guard",
+      "target_file": "Frame Creation",
+      "confidence": 95.0,
+      "reason": "Knee shield half guard fundamentally relies on creating frames with the bottom leg to maintain distance and prevent the pass.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Anaconda Control",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Anaconda Control naturally transitions to side control variations and the anaconda choke is often finished from a side control-like position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Side Control Top",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Side Control Top is the offensive variant of the general Side Control position, making this a critical parent position reference.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Quarter Guard Top",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Quarter Guard Top transitions directly to Side Control via multiple passes (Knee Slice, Smash, Cross Body) mentioned in the schema markup.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Closed Guard Bottom-V2",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Guard Retention is a critical defensive concept directly applicable to maintaining Closed Guard Bottom when under pressure.",
+      "suggested_section": "Defensive Responses",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Lapel Guard Bottom",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Lapel guard requires specific retention strategies to maintain the complex grips and configurations against passing attempts.",
+      "suggested_section": "Defensive Responses",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Closed Guard Top",
+      "target_file": "Guard Pass",
+      "confidence": 95.0,
+      "reason": "Closed Guard Top is fundamentally about breaking the guard to pass, making guard passing techniques directly relevant to this position's offensive strategy.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Butterfly Sweep Variations",
+      "target_file": "Butterfly Guard",
+      "confidence": 95.0,
+      "reason": "The source content is about butterfly sweep variations which are executed from butterfly guard position, making this the foundational position reference",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "X-Pass",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "X-Pass explicitly transitions to Side Control Top as its completion state, making this the primary destination position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Muscle Sweep",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Muscle Sweep from Closed Guard Bottom directly transitions to Side Control Top as the dominant ending position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Sasae Tsurikomi Ashi",
+      "target_file": "Standing Position",
+      "confidence": 95.0,
+      "reason": "Sasae Tsurikomi Ashi is executed from standing neutral position, making this the starting state for the technique.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "transition-from-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Sweep Attempt",
+      "target_file": "Closed Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Sweep attempts are most commonly executed from closed guard bottom position, making this the primary starting position for sweeps.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "transition-from-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Guillotine Counter",
+      "target_file": "Front Headlock",
+      "confidence": 95.0,
+      "reason": "Guillotine counter naturally transitions to front headlock position when you escape and establish top control",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    }
+  ],
+  "instructions": {
+    "task": "Apply these wikilink suggestions to markdown files",
+    "validation": [
+      "Check if wikilink already exists",
+      "Verify target file exists",
+      "Add to specified section only",
+      "Maintain markdown formatting"
+    ],
+    "reporting": [
+      "Track: applied, skipped_exists, skipped_no_target, error",
+      "Report file paths modified",
+      "Report line numbers where links added",
+      "Report any errors encountered"
+    ]
+  }
+}

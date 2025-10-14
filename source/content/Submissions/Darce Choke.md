@@ -97,7 +97,7 @@ version: "2.0"
 **Purpose**: Darce Choke is a unilateral blood choke commonly finished from turtle, front headlock, or failed guard pass positions. It requires precise arm threading and shoulder pressure. Safety is paramount - this technique can render opponent unconscious in 4-10 seconds.
 
 **Setup Requirements Checklist**:
-- [ ] Starting position: [[Turtle Position Top]] (S032) or [[Front Headlock Position]] established
+- [ ] Starting position: [[Turtle Position Top]] (S032), [[Front Headlock Position]], or [[Turtle Position]] established
 - [ ] Position control quality: Top control with opponent's near arm trapped
 - [ ] Required grips: Arm threaded under opponent's trapped arm, hand connects to your own bicep
 - [ ] Angle optimization: Shoulder driving into side of neck, perpendicular pressure

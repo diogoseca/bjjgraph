@@ -364,7 +364,7 @@ Heel grab sweep is a modern adaptation in Brazilian Jiu-Jitsu, often used within
 **Common heel grab sweep combinations:**
 - [[Open Guard Bottom]] → [[Heel Grab Sweep]] → [[Side Control]]
 - [[De La Riva Guard]] → [[Heel Grab Sweep]] → [[Mount]]
-- [[Open Guard Bottom]] → [[Failed Heel Grab Sweep]] → [[Guard Retention]]
+- [[Open Guard Bottom]] → [[heel grab sweep]] → [[Guard Retention]]
 
 ## Training Applications
 - **Guard Development**: Essential for open guard sweep arsenal in competition

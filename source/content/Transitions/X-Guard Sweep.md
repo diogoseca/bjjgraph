@@ -314,6 +314,7 @@ Every transition file must include:
 ## Related Techniques
 
 - [[X-Guard Entry]] - Setting up the position
+- [[Single Leg X Guard]] - Related position and transition point
 - [[Single Leg X Sweep]] - Related guard sweep
 - [[De La Riva Sweep]] - Alternative guard sweep
 - [[X-Guard to Back Take]] - Alternative attack from position

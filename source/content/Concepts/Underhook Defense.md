@@ -7,7 +7,7 @@ development_timeline: Beginner to Advanced
 
 related_positions:
   - Half Guard Bottom
-  - Side Control Bottom
+  - Half Guard Top
   - Turtle Bottom
   - Deep Half Guard
   - Standing Clinch
@@ -95,7 +95,7 @@ Underhook Defense represents the strategic and technical framework for preventin
 **Scenario 2: [[Turtle Bottom]] when opponent establishes underhook threatening back take**
 → Apply defensive sequence: trap opponent's underhooking arm with near arm, block hip insertion with positioning, create distance to prevent hook establishment, work to standing position or roll to guard.
 
-**Scenario 3: [[Side Control Bottom]] when attempting to establish underhook for escape**
+**Scenario 3: [[Side Control]] when attempting to establish underhook for escape**
 → Apply offensive underhook establishment: frame to create space first, insert arm for underhook using hip movement, establish connection before opponent can counter, use underhook to recover guard or sweep.
 
 **Scenario 4: [[Deep Half Guard]] when opponent controls both underhooks**
@@ -116,7 +116,7 @@ Underhook Defense represents the strategic and technical framework for preventin
 - Integrates with [[Posture Breaking]] understanding to defend underhook-based attacks
 
 **Advanced Extensions:**
-- Leads to advanced [[Half Guard]] game through superior underhook control
+- Leads to advanced [[Half Guard Top]] game through superior underhook control
 - Enables sophisticated [[Back Take]] defense by neutralizing primary entry mechanism
 - Supports [[Sweep Defense]] through addressing underhook-based sweep attempts
 

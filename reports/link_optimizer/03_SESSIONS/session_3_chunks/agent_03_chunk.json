@@ -1,0 +1,92 @@
+{
+  "session": 3,
+  "agent": 3,
+  "total_agents": 10,
+  "fixes": [
+    {
+      "source_file": "Standing Defense Strategy",
+      "target_link": "Distance Management",
+      "line_number": null,
+      "suggested_fix": "space management",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Standing Guard",
+      "target_link": "Single Leg Counter",
+      "line_number": null,
+      "suggested_fix": "single leg entry",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Standing Guard",
+      "target_link": "Single Leg Counter",
+      "line_number": null,
+      "suggested_fix": "single leg entry",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Standing Position",
+      "target_link": "Distance Management",
+      "line_number": null,
+      "suggested_fix": "space management",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Standing Position",
+      "target_link": "Single Leg Setup",
+      "line_number": null,
+      "suggested_fix": "single leg entry",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Standing Position",
+      "target_link": "Foot Sweep",
+      "line_number": null,
+      "suggested_fix": "hook sweep",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Standing Position",
+      "target_link": "Single Leg Setup",
+      "line_number": null,
+      "suggested_fix": "single leg entry",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Standing up",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Straight Ankle Lock",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Straight Ankle Lock",
+      "target_link": "Failed Straight Ankle Lock",
+      "line_number": null,
+      "suggested_fix": "straight ankle lock",
+      "confidence": 84.44444444444444
+    },
+    {
+      "source_file": "Straight Ankle Lock",
+      "target_link": "Failed Straight Ankle Lock",
+      "line_number": null,
+      "suggested_fix": "straight ankle lock",
+      "confidence": 84.44444444444444
+    },
+    {
+      "source_file": "Straight Ankle Lock",
+      "target_link": "Failed Straight Ankle Lock",
+      "line_number": null,
+      "suggested_fix": "straight ankle lock",
+      "confidence": 84.44444444444444
+    }
+  ],
+  "fix_count": 12
+}

@@ -155,10 +155,10 @@ You are positioned on top with your chest and upper body applying heavy downward
 - [[Folding Pass Completion]] → [[Side Control]]
 - [[Knee Slice Transition]] → [[Knee Cut Pass]]
 - [[Smash to Mount]] → [[Mount]]
-- [[Leg Drag Conversion]] → [[Leg Drag Position]]
+- [[Leg Drag Control]] → [[Leg Drag Control]]
 - [[Switch to North-South]] → [[North-South]]
 - [[Back Step]] → [[Back Control]]
-- [[Kimura Trap Setup]] → [[Kimura Control]]
+- [[Kimura Trap System]] → [[Kimura Control]]
 
 ## Counter Transitions
 - [[Re-establish Pressure]] → [[Smash Pass Position]] (against defensive frames)
@@ -199,19 +199,20 @@ You are positioned on top with your chest and upper body applying heavy downward
 - [[Mount]] - Related position
 - [[Headquarters Position]] - Related position
 - [[Half Guard Top]] - Related position
+- [[Guard Pass]]
 
 ## Decision Tree
 If opponent creates strong frames:
 - Execute [[Smash to Side Control]] or [[Folding Pass Completion]]
 
 Else if opponent attempts to invert:
-- Execute [[Back Step]] or [[Leg Drag Conversion]]
+- Execute [[Back Step]] or [[Leg Drag Control]]
 
 Else if opponent tries to recover guard:
 - Execute [[Smash to Mount]] or [[Switch to North-South]]
 
 Else if opponent exposes arm:
-- Execute [[Kimura Trap Setup]] or [[Knee Slice Transition]]
+- Execute [[Kimura Trap System]] or [[Knee Slice Transition]]
 
 ## Position Metrics
 - Success Rate: 75% pass completion (competition data)
@@ -228,7 +229,7 @@ Mount transition path:
 [[Smash Pass Position]] → [[Smash to Mount]] → [[Mount]] → [[Arm Triangle]] → [[Won by Submission]]
 
 Submission path:
-[[Smash Pass Position]] → [[Kimura Trap Setup]] → [[Kimura Control]] → [[Won by Submission]]
+[[Smash Pass Position]] → [[Kimura Trap System]] → [[Kimura Control]] → [[Won by Submission]]
 
 ## Historical Context
 The Smash Pass has roots in traditional pressure passing methodologies but has evolved significantly in the modern BJJ era as a response to increasingly complex guard systems. While pressure passing has always been a component of BJJ, the systematic development of the Smash Pass as a specific approach gained prominence through practitioners like Bernardo Faria, who demonstrated its effectiveness at the highest levels of competition. The position represents an evolution in passing strategy, emphasizing the neutralization of mobility through pressure rather than attempting to outmaneuver complex guard systems.

@@ -58,7 +58,7 @@ description: "Begin from a control position such as the Truck Position, Back Con
 
 ### State Machine Properties
 - **Starting State**: [[Truck Position]], [[Back Control]], [[Side Control]]
-- **Ending State**: [[Twister Control]]
+- **Ending State**: [[Twister Control]], [[Won by Submission]]
 - **Submission Type**: Setup - Prepares for spinal lock submission
 
 ## ⚠️ Safety Considerations
@@ -154,10 +154,10 @@ Factors that increase/decrease probability:
 ### Common Counters
 Opponent responses with success rates:
 - **Spinal Alignment**: Maintaining neutral spine to prevent twisting → [[Twister Prevention]] (Success Rate: 25%, Conditions: early reaction)
-- **Hip Escape**: Escaping hip control to regain mobility → [[Truck Defense]] (Success Rate: 20%, Conditions: strong movement)
-- **Wrist Control**: Fighting for control of gripped arm → [[Grip Fighting]] (Success Rate: 15%, Conditions: quick adjustment)
+- **Hip Escape**: Escaping hip control to regain mobility → [[Stack Defense]] (Success Rate: 20%, Conditions: strong movement)
+- **Wrist Control**: Fighting for control of gripped arm → [[Twister Control]] (Success Rate: 15%, Conditions: quick adjustment)
 - **Roll to Knees**: Rolling to turtle to escape setup → [[Turtle Position]] (Success Rate: 10%, Conditions: significant leverage)
-- **Leg Extension**: Extending trapped leg to disrupt control → [[Leg Entanglement Escape]] (Success Rate: 10%, Conditions: immediate action)
+- **Leg Extension**: Extending trapped leg to disrupt control → [[Leg Entanglement]] (Success Rate: 10%, Conditions: immediate action)
 
 Format: `[[Counter Technique]] → [[Result State]] (Success Rate: X%, Conditions: [when applicable])`
 
@@ -170,13 +170,13 @@ Else if [hip escape] can regain mobility:
 - Execute [[Hip Escape]] (Probability: 20%)
 
 Else if [wrist control] disrupts grip:
-- Execute [[Wrist Control]] (Probability: 15%)
+- Execute [[Twister Control]] (Probability: 15%)
 
 Else if [roll to knees] escapes setup:
 - Execute [[Roll to Knees]] (Probability: 10%)
 
 Else [optimal setup execution]:
-- Accept transition to [[Twister Control]] (Probability: Success Rate - Modifiers)
+- Accept transition to [[Standing Position]] (Probability: Success Rate - Modifiers)
 ```
 
 ## Defensive Considerations
@@ -184,7 +184,7 @@ Else [optimal setup execution]:
 ### Common Threats During Attempt
 Primary risks while attempting this setup:
 - **Spinal Defense**: Opponent aligns spine to prevent twisting → [[Twister Prevention]] (Threat Level: Medium)
-- **Hip Mobility**: Opponent escapes hip control → [[Truck Defense]] (Threat Level: Medium)
+- **Hip Mobility**: Opponent escapes hip control → [[Stack Defense]] (Threat Level: Medium)
 - **Grip Fighting**: Opponent fights for wrist control → [[Grip Fighting]] (Threat Level: Low)
 - **Positional Escape**: Opponent rolls to knees or other position → [[Turtle Position]] (Threat Level: Low)
 

@@ -5,7 +5,7 @@ transition_id: "T098"
 transition_name: "Old School Sweep"
 alternative_names: ["Old School Half Guard Sweep", "Overhead Sweep"]
 starting_state: "Half Guard Bottom"
-ending_state: "Top Position"
+ending_state: "Closed Guard Top"
 transition_type: "Attack"
 success_probability:
   beginner: 35

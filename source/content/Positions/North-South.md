@@ -141,7 +141,7 @@ North-South is a dominant control position where the top player lies perpendicul
 ## Defensive Responses (When Opponent Has This State)
 - [[Bridge and Roll]] → [[Guard Recovery]]
 - [[Shrimp and Frame]] → [[Half Guard Recovery]]
-- [[Turtle Transition]] → [[Turtle Position]]
+- [[Turtle Position Top]] → [[Turtle Position]]
 - [[Arm Underhook]] → [[Side Control Escape]]
 - [[Technical Stand-up]] → [[Standing Escape]]
 

@@ -142,8 +142,8 @@ related_techniques: ["Posture Recovery", "Guard Passing", "Defensive Frame"]
 - **Alternative Names**: Base Extension, Widening Your Base, Stance Expansion
 
 ### State Machine Properties
-- **Starting State**: [[Guard Top]]
-- **Ending State**: [[Guard Top Stable]]
+- **Starting State**: [[Half Guard Bottom]]
+- **Ending State**: [[Half Guard Pass Position]]
 - **Transition Type**: Setup - defensive positioning
 
 ### Transition Properties
@@ -197,7 +197,7 @@ Bottom player responses with success rates:
 - **Guard Opening**: Attacking guard to force stance change → [[Open Guard]] (Success Rate: 35%, Conditions: when base is too wide to maintain closed guard)
 - **Sweep Switch**: Changing sweep direction to attack new base angle → [[Sweep Attempt]] (Success Rate: 40%, Conditions: if top player overcommits to one side)
 - **Submission Attack**: Threatening submission to force base change → [[Submission Setup]] (Success Rate: 30%, Conditions: when top player is static)
-- **Guard Change**: Transitioning to different guard type → [[Guard Bottom]] (Success Rate: 45%, Conditions: when top player's base is too defensive)
+- **Guard Change**: Transitioning to different guard type → [[Half Guard Bottom]] (Success Rate: 45%, Conditions: when top player's base is too defensive)
 
 Format: `[[Counter Technique]] → [[Result State]] (Success Rate: X%, Conditions: [when applicable])`
 
@@ -549,7 +549,7 @@ Base widening is a fundamental concept that predates organized Brazilian Jiu-Jit
 ## Position Integration
 **Common base widening applications:**
 - [[Closed Guard Top]] → [[Base Widening]] → [[Guard Top Stable]]
-- [[Open Guard Top]] → [[Base Widening]] → [[Guard Passing Position]]
+- [[Open Guard Top]] → [[Base Widening]] → [[Half Guard Pass Position]]
 - [[Half Guard Top]] → [[Base Widening]] → [[Half Guard Pass Position]]
 
 ## Related Techniques

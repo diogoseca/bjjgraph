@@ -68,7 +68,7 @@ From open guard top position facing opponent's guard, you control one of their l
 Opponent defensive responses with success rates and conditions:
 
 - **[[Re-Guard]]** → [[Guard Recovered]] (Success Rate: 45%, Conditions: opponent gets bottom leg back to hip before pass completes)
-- **[[Frame and Shrimp]]** → [[Half Guard]] (Success Rate: 40%, Conditions: opponent creates frames and recovers half guard)
+- **[[Frame and Shrimp]]** → [[half guard top]] (Success Rate: 40%, Conditions: opponent creates frames and recovers half guard)
 - **[[Underhook Battle]]** → [[Deep Half Entry]] (Success Rate: 30%, Conditions: opponent secures underhook on passing side)
 - **[[Roll Under]]** → [[Sweep Attempt]] (Success Rate: 25%, Conditions: opponent inverts or rolls under during pass)
 

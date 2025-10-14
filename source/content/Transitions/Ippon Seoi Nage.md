@@ -328,6 +328,7 @@ Updates to this standard should be reflected across all transition files to main
 - [[Morote Seoi Nage]] - Related technique
 - [[Tai Otoshi]] - Related technique
 - [[Uchi Mata]] - Related technique
+- [[Side Control Top]] - Common ending position from ippon seoi nage
 
 
 ## Competition Applications

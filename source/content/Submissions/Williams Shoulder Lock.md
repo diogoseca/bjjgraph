@@ -316,9 +316,9 @@ The Williams Shoulder Lock is a signature technique from Eddie Bravo's 10th Plan
 ## Submission Integration
 **Common Williams Shoulder Lock combinations:**
 - [[Williams Guard]] → [[Williams Shoulder Lock]] → [[Won by Submission]]
-- [[Failed Williams Shoulder Lock]] → [[Omoplata]] → [[Won by Submission]]
-- [[Failed Williams Shoulder Lock]] → [[Triangle Choke Front]] → [[Won by Submission]]
-- [[Failed Williams Shoulder Lock]] → [[Kimura]] → [[Won by Submission]]
+- [[Williams Shoulder Lock]] → [[Omoplata]] → [[Won by Submission]]
+- [[Williams Shoulder Lock]] → [[Triangle Control]] → [[Won by Submission]]
+- [[Williams Shoulder Lock]] → [[Kimura]] → [[Won by Submission]]
 
 ## Training Applications
 - **Positional Specialization**: Essential for 10th Planet or Rubber Guard practitioners

@@ -123,7 +123,7 @@ Defense Technique represents the systematic application of mechanical principles
 - **Preventive Defense** - Anticipating and preventing attacks through proactive positioning
 
 ## Concept Relationships
-- **[[Defensive Posture]]** - Defensive posture provides the structural foundation for defense technique implementation
+- **[[Defensive Posture]]** - Defensive posture provides the structural foundation for defense technique implementation, essential for implementing defense technique principles
 - **[[Defensive Framing]]** - Frame creation is a primary technical component of defense technique
 - **[[Escape Fundamentals]]** - Escape fundamentals define the core movement patterns used in defense technique
 - **[[Frame Creation]]** - Frame creation enables distance management essential to defensive technique
@@ -142,7 +142,7 @@ Defense Technique represents the systematic application of mechanical principles
 
 ### Common Scenarios Where Concept is Critical
 
-**Scenario 1: [[Mount Bottom]] when opponent has established high mount with strong control**
+**Scenario 1: [[Side Control to Mount]] when opponent has established high mount with strong control**
 → Apply defense technique by creating initial frames to generate breathing room, executing hip escape to create angle, following with elbow-knee escape sequence to recover guard.
 
 **Scenario 2: [[Back Control Bottom]] when opponent has both hooks and is attacking rear naked choke**

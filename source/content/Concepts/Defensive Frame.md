@@ -8,7 +8,7 @@ development_timeline: Beginner to Advanced
 related_positions:
   - Closed Guard Bottom
   - Mount Bottom
-  - Side Control Bottom
+  - Side Control to Mount
   - Knee Shield Half Guard
   - Open Guard Bottom
 
@@ -89,10 +89,10 @@ Defensive Frame represents the fundamental skill of creating structural barriers
 
 ### Common Scenarios Where Concept is Critical
 
-**Scenario 1: [[Mount Bottom]] when opponent establishes high mount with chest pressure**
+**Scenario 1: [[Side Control to Mount]] when opponent establishes high mount with chest pressure**
 → Apply cross-frame (forearm across neck, other hand on hip) to create distance, prevent chest-to-chest contact, and enable bridging and hip escape attempts.
 
-**Scenario 2: [[Side Control Bottom]] when opponent drives shoulder pressure into face/neck**
+**Scenario 2: [[Side Control to Mount]] when opponent drives shoulder pressure into face/neck**
 → Apply near-side elbow frame against neck/jaw combined with far-side hand on hip to redirect pressure and create space for shrimping and guard recovery.
 
 **Scenario 3: [[Knee Shield Half Guard]] when opponent drives crossface and attempts to flatten**

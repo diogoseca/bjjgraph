@@ -143,7 +143,7 @@ state_machine:
         - action: "Engage Clinch"
           target: "Clinch Position"
           probability: 65
-        - action: "Grip Fight"
+        - action: "grip fighting"
           target: "Neutral Starting Position"
           probability: 50
 
@@ -466,7 +466,7 @@ Else if opponent pulls guard:
 
 Else (neutral stance - default):
 - [[Engage Clinch]] → [[Clinch Position]] (Probability: 65%)
-- Or [[Grip Fight]] → [[Neutral Starting Position]] (Probability: 50%)
+- Or [[Hand Fighting]] → [[Neutral Starting Position]] (Probability: 50%)
 
 ## Position Metrics
 - **Position Retention Rate**: Beginner 55%, Intermediate 70%, Advanced 85%
@@ -477,11 +477,11 @@ Else (neutral stance - default):
 
 ## Optimal Submission Paths
 **Guard pull to submission path:**
-[[Neutral Starting Position]] → [[Pull Guard]] → [[Closed Guard Bottom]] → [[Triangle Choke]] → [[Won by Submission]]
+[[Neutral Starting Position]] → [[Pull Guard]] → [[Closed Guard Bottom]] → [[Triangle Choke Side]] → [[Won by Submission]]
 *Reasoning: Direct path to preferred guard position allows immediate offensive implementation*
 
 **Takedown to dominance path:**
-[[Neutral Starting Position]] → [[Takedown Entry]] → [[Side Control]] → [[Mount]] → [[Submission Chain]] → [[Won by Submission]]
+[[Neutral Starting Position]] → [[Takedown Entry]] → [[Side Control]] → [[Mount]] → [[Submission Chains]] → [[Won by Submission]]
 *Reasoning: Establishing top position early creates positional dominance for systematic submission attack*
 
 **Snap down to back take path:**

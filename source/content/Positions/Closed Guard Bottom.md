@@ -186,14 +186,14 @@ You are lying on your back on the mat, with your legs tightly wrapped around you
 - Opponent contained between your legs
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Posture and Base]] → [[Standing in Guard]] (Success Rate: 40%)
+- [[Posture and Base]] → [[Standing Guard]] (Success Rate: 40%)
 - [[Control Arms]] → [[Combat Base]] (Success Rate: 35%)
 - [[Break Grips]] → [[Guard Opening Sequence]] (Success Rate: 30%)
 - [[Create Pressure]] → [[Stack Pass Initiation]] (Success Rate: 25%)
 
 ## Offensive Transitions (Available From This State)
 - [[Hip Bump Sweep]] → [[Mount]] (Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%)
-- [[Scissor Sweep]] → [[Mount]] or [[Side Control Top]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
+- [[Scissor Sweep]] → [[Mount]] or [[Side Control]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
 - [[Pendulum Sweep]] → [[Mount]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
 - [[Triangle Choke]] → [[Triangle Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
 - [[Armbar]] → [[Armbar Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
@@ -205,7 +205,7 @@ You are lying on your back on the mat, with your legs tightly wrapped around you
 ## Counter Transitions
 - [[Re-guard]] → [[Closed Guard Bottom]] (against pass attempts)
 - [[Sweep Combination]] → [[Top Position]] (chaining multiple sweeps)
-- [[Submission Chain]] → [[Won by Submission]] (linking submission attempts)
+- [[Submission Chains]] → [[Won by Submission]] (linking submission attempts)
 
 ## Expert Insights
 - **Danaher System**: Emphasizes the "Inside Position Theory" where controlling the inside space is paramount. Focuses on systematically breaking posture and maintaining constant pressure between two primary attack systems - the upper body (triangle/armbar) and lower body (sweeps).
@@ -255,7 +255,7 @@ You are lying on your back on the mat, with your legs tightly wrapped around you
 ## Decision Tree
 If opponent establishes strong posture:
 - Execute [[Hip Bump Sweep]] → [[Mount]] (Probability: 55%)
-- Or Execute [[Scissor Sweep]] → [[Mount]] or [[Side Control Top]] (Probability: 50%)
+- Or Execute [[Scissor Sweep]] → [[Mount]] or [[Side Control]] (Probability: 50%)
 
 Else if opponent drives forward with pressure:
 - Execute [[Pendulum Sweep]] → [[Mount]] (Probability: 45%)
@@ -286,4 +286,4 @@ Alternative submission path:
 [[Closed Guard Bottom]] → [[Break Posture]] → [[Armbar]] → [[Armbar Control]] → [[Won by Submission]]
 
 Sweep to dominance path:
-[[Closed Guard Bottom]] → [[Hip Bump Sweep]] → [[Mount]] → [[Submission Chain]] → [[Won by Submission]]
+[[Closed Guard Bottom]] → [[Hip Bump Sweep]] → [[Mount]] → [[Submission Chains]] → [[Won by Submission]]

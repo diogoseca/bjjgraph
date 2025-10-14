@@ -8,7 +8,7 @@ development_timeline: Intermediate to Advanced
 related_positions:
   - Mount Top
   - Back Control
-  - Side Control Top
+  - Side Control
   - Half Guard Bottom
   - Closed Guard Bottom
   - Open Guard Bottom
@@ -95,10 +95,10 @@ Risk Assessment represents the strategic principle of evaluating potential outco
 
 ### Common Scenarios Where Concept is Critical
 
-**Scenario 1: In [[Mount Top]] considering armbar attempt with questionable setup**
+**Scenario 1: In [[Mount]] considering armbar attempt with questionable setup**
 → Apply risk assessment recognizing high failure cost (losing mount, potentially ending in opponent's guard or worse), requiring high success probability for justified attempt. Conservative assessment suggests consolidating mount or attempting lower-risk submissions.
 
-**Scenario 2: In [[Mount Bottom]] evaluating desperate sweep attempt with position loss risk**
+**Scenario 2: In [[Mount]] evaluating desperate sweep attempt with position loss risk**
 → Apply risk assessment recognizing current position is already worst defensive scenario, justifying higher-risk escape attempts as downside is limited but upside is significant position improvement.
 
 **Scenario 3: In [[Half Guard Bottom]] considering deep half entry with potential back exposure**
@@ -107,7 +107,7 @@ Risk Assessment represents the strategic principle of evaluating potential outco
 **Scenario 4: In [[Closed Guard Bottom]] with secure control considering triangle attempt**
 → Apply risk assessment considering triangle success probability, recognizing failed attempt may give opponent passing opportunity, weighing against maintaining secure guard position.
 
-**Scenario 5: During competition with points lead in [[Side Control Top]]**
+**Scenario 5: During competition with points lead in [[Side Control]]**
 → Apply risk assessment recognizing conservative strategy is optimal with lead—maintaining position has higher expected value than speculative submission attempts risking position loss.
 
 ### Relationship to Other Concepts

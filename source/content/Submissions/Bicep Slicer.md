@@ -58,7 +58,7 @@ description: "Final positioning with opponent's bicep compressed against your sh
 - **Submission Category**: Joint Lock - categorizes submission type
 
 ### State Machine Properties
-- **Starting State**: [[Spider Guard]], [[Guard Bottom]], [[Side Control]], [[North-South]]
+- **Starting State**: [[Spider Guard]], [[Half Guard Bottom]], [[Side Control]], [[North-South]]
 - **Ending State**: Always "Won by Submission" (terminal state)
 - **Submission Type**: Compression Lock
 - **Target Area**: Bicep muscle and elbow joint

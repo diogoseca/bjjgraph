@@ -1,0 +1,133 @@
+{
+  "session": 3,
+  "agent": 7,
+  "total_agents": 10,
+  "fixes_attempted": 12,
+  "fixes_completed": 7,
+  "fixes_skipped": 5,
+  "results": [
+    {
+      "source_file": "Triangle Control",
+      "target_link": "Von Flue Counter",
+      "suggested_fix": "Von Flue Choke",
+      "status": "FIXED",
+      "actual_fix": "Von Flue Choke",
+      "file_path": "/source/content/Positions/Triangle Control.md",
+      "verification": "File exists: Von Flue Choke.md"
+    },
+    {
+      "source_file": "Triangle Control",
+      "target_link": "Hand Fight",
+      "suggested_fix": "Hand Fighting",
+      "status": "FIXED",
+      "actual_fix": "Hand Fighting",
+      "file_path": "/source/content/Positions/Triangle Control.md",
+      "verification": "File exists: Hand Fighting.md"
+    },
+    {
+      "source_file": "Triangle Control",
+      "target_link": "Triangle to Back",
+      "suggested_fix": "Triangle Choke Back",
+      "status": "FIXED",
+      "actual_fix": "Triangle Choke Back",
+      "file_path": "/source/content/Positions/Triangle Control.md",
+      "verification": "File exists: Triangle Choke Back.md"
+    },
+    {
+      "source_file": "Triangle Control",
+      "target_link": "Triangle Back Control",
+      "suggested_fix": "Triangle Control",
+      "status": "FIXED",
+      "actual_fix": "Triangle Control",
+      "file_path": "/source/content/Positions/Triangle Control.md",
+      "verification": "Self-reference to Triangle Control.md",
+      "notes": "Changed to self-reference in Related States section"
+    },
+    {
+      "source_file": "Triangle Finish",
+      "target_link": "Defensive Arm Position",
+      "suggested_fix": "Defensive Position",
+      "status": "FIXED",
+      "actual_fix": "Defensive Position",
+      "file_path": "/source/content/Submissions/Triangle Finish.md",
+      "verification": "File exists: Defensive Position.md"
+    },
+    {
+      "source_file": "Triangle Finish",
+      "target_link": "Resulting Position",
+      "suggested_fix": "standing position",
+      "status": "SKIPPED",
+      "reason": "This is a format template placeholder, not an actual wikilink. Part of format documentation: '[[Threat Type]] → [[Resulting Position]] (Threat Level: X)'"
+    },
+    {
+      "source_file": "Triangle Setup",
+      "target_link": "Stacked Position",
+      "suggested_fix": "truck position",
+      "status": "SKIPPED",
+      "reason": "Link does not exist in the current file - may have been already fixed or never existed"
+    },
+    {
+      "source_file": "Triangle Setup",
+      "target_link": "Standing Guard Pass",
+      "suggested_fix": "standing guard",
+      "status": "SKIPPED",
+      "reason": "Link does not exist in the current file - may have been already fixed or never existed"
+    },
+    {
+      "source_file": "Triangle Setup",
+      "target_link": "Omoplata Setup",
+      "suggested_fix": "gogoplata setup",
+      "status": "SKIPPED",
+      "reason": "Link does not exist in the current file - may have been already fixed or never existed"
+    },
+    {
+      "source_file": "Triangle Setup",
+      "target_link": "Triangle Choke",
+      "suggested_fix": "triangle choke side",
+      "status": "SKIPPED",
+      "reason": "Triangle Choke is a valid file and link is being used correctly throughout the document. No fix needed."
+    },
+    {
+      "source_file": "Triangle-Armbar-Omoplata Chain",
+      "target_link": "Hand Fight",
+      "suggested_fix": "Hand Fighting",
+      "status": "FIXED",
+      "actual_fix": "Hand Fighting",
+      "file_path": "/source/content/Concepts/Triangle-Armbar-Omoplata Chain.md",
+      "verification": "File exists: Hand Fighting.md"
+    },
+    {
+      "source_file": "Triangle-Armbar-Omoplata Chain",
+      "target_link": "Guard Stack Defense",
+      "suggested_fix": "Stack Defense",
+      "status": "FIXED",
+      "actual_fix": "Stack Defense",
+      "file_path": "/source/content/Concepts/Triangle-Armbar-Omoplata Chain.md",
+      "verification": "File exists: Stack Defense.md"
+    }
+  ],
+  "summary": {
+    "files_modified": 3,
+    "total_edits": 7,
+    "success_rate": "58.3%",
+    "verified_fixes": 7,
+    "skipped_legitimate": 5
+  },
+  "files_modified": [
+    "/source/content/Positions/Triangle Control.md",
+    "/source/content/Submissions/Triangle Finish.md",
+    "/source/content/Concepts/Triangle-Armbar-Omoplata Chain.md"
+  ],
+  "verification": {
+    "all_target_files_exist": true,
+    "files_checked": [
+      "Stack Defense.md",
+      "Hand Fighting.md",
+      "Von Flue Choke.md",
+      "Triangle Choke Back.md",
+      "Defensive Position.md"
+    ]
+  },
+  "agent_notes": "Successfully fixed 7 out of 12 broken links. 5 items were skipped because either they were format templates (not actual links), links that no longer exist in current file versions (possibly already fixed), or links that are actually valid (Triangle Choke). All fixes were verified by checking that target files exist in the content directory.",
+  "timestamp": "2025-10-13T00:00:00Z"
+}

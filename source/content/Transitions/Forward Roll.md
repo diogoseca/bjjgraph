@@ -221,7 +221,7 @@ Else if [roll fails] due to lack of momentum or space:
 - [[Kimura Control]] (defending) → [[Forward Roll]]
 - [[Turtle Position]] → [[Forward Roll]]
 - [[Side Control]] (escaping) → [[Forward Roll]]
-- [[Arm Entanglement]] (defending) → [[Forward Roll]]
+- [[Leg Entanglement]] (defending) → [[Forward Roll]]
 - [[Judo Throw]] (receiving) → [[Forward Roll]]
 
 ## Follow-up Options

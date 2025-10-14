@@ -102,7 +102,7 @@ The Blue to Purple Progression provides a comprehensive developmental framework 
 - [[Back Attack Refinement]] - Advanced control and submission approaches from back position
 - [[Half Guard Systems]] - Development of specialized half guard variations and attacks
 - [[Pressure Application]] - Refined understanding of pressure mechanics in dominant positions
-- [[Submission Chaining]] - Connected submission attempts that create tactical dilemmas
+- [[Submission Chains]] - Connected submission attempts that create tactical dilemmas
 - [[Specialized Guard Development]] - Introduction to modern guard variations with tactical applications
 - [[Advanced Escapes]] - Sophisticated defensive approaches from established control positions
 

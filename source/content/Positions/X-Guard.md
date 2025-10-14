@@ -21,8 +21,8 @@ description: "Master X-Guard in BJJ. Complete guide covering setup, control, esc
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Stand-up Sweep",
-      "text": "From this position, execute Technical Stand-up Sweep to transition to Top Position.",
+      "name": "Execute Technical Standup",
+      "text": "From this position, execute Technical Standup to transition to Top Position.",
       "position": 2
     },
     {
@@ -142,13 +142,13 @@ You are on your back or partially seated with both of your legs forming an X-sha
 
 ## Defensive Responses (When Opponent Has This State)
 - [[Base Widening]] → [[X-Guard Defense]]
-- [[Leg Kick-Through]] → [[Guard Pass]]
+- [[Leg Kick-Through]] → [[Standing up]]
 - [[Hip Pressure]] → [[Smash Pass]]
-- [[Grip Fight]] → [[Standing Pass]]
+- [[Hand Fighting]] → [[Grip Fighting]]
 
 ## Offensive Transitions (Available From This State)
 - [[Classic X-Guard Sweep]] → [[Top Position]]
-- [[Technical Stand-up Sweep]] → [[Top Position]]
+- [[Technical Standup]] → [[Top Position]]
 - [[X-Guard to Single Leg X]] → [[Single Leg X Guard]]
 - [[X-Guard to Ashi Garami]] → [[Ashi Garami]]
 - [[Reverse X Transition]] → [[Reverse X Guard]]
@@ -156,7 +156,7 @@ You are on your back or partially seated with both of your legs forming an X-sha
 - [[Kiss of the Dragon]] → [[Back Control]]
 
 ## Counter Transitions
-- [[X-Guard Recovery]] → [[X-Guard]] (against escape attempts)
+- [[Guard Recovery System]] → [[X-Guard]] (against escape attempts)
 - [[Transition to Butterfly]] → [[Butterfly Guard]] (if position is compromised)
 - [[Shin-to-Shin Fallback]] → [[Shin-to-Shin Guard]] (under pressure)
 
@@ -200,7 +200,7 @@ If opponent stands tall with weight on trapped leg:
 - Execute [[Classic X-Guard Sweep]]
 
 Else if opponent shifts weight backward:
-- Execute [[Technical Stand-up Sweep]]
+- Execute [[Technical Standup]]
 
 Else if opponent drives forward with pressure:
 - Execute [[X-Guard to Single Leg X]]
@@ -217,7 +217,7 @@ Else if opponent attempts to kick through:
 
 ## Optimal Paths
 Highest-percentage sweeping path:
-[[X-Guard]] → [[Technical Stand-up Sweep]] → [[Top Position]] → [[Side Control]] → [[Mount]] → submission chain
+[[X-Guard]] → [[Technical Standup]] → [[Top Position]] → [[Side Control]] → [[Mount]] → submission chain
 
 Leg lock-oriented path:
 [[X-Guard]] → [[X-Guard to Ashi Garami]] → [[Inside Sankaku]] → [[Inside Heel Hook]] → [[Won by Submission]]

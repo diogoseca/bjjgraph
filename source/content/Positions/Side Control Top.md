@@ -271,6 +271,7 @@ You are positioned perpendicular to your opponent who is flat on their back, wit
 
 ## Related Positions
 
+- [[Side Control]] - General side control position that this offensive variant builds upon
 - [[Mount]] - Natural progression
 - [[North-South]] - Related position
 - [[Knee on Belly]] - Related position

@@ -346,7 +346,7 @@ The waiter sweep is a fundamental Brazilian Jiu-Jitsu technique that showcases t
 **Common waiter sweep combinations:**
 - [[Closed Guard Bottom]] → [[Waiter Sweep]] → [[Mount]]
 - [[Closed Guard Bottom]] → [[Waiter Sweep]] → [[Top Position]]
-- [[Closed Guard Bottom]] → [[Failed Waiter Sweep]] → [[Triangle Choke]]
+- [[Closed Guard Bottom]] → [[Failed Waiter Sweep]] → [[Triangle Choke Side]]
 
 ## Training Applications
 - **Guard Development**: Essential technique for closed guard players

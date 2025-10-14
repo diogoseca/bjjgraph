@@ -89,20 +89,20 @@ The Mount Escape Hierarchy serves as a critical defensive capability that not on
 8. Transition to more advantageous position if opportunity presents
 
 ## Decision Tree
-- If opponent has high mount with weight forward → Execute [[Bridge and Roll Escape]] → [[Top Position]] or [[Closed Guard]]
-- If opponent has high mount with weight back → Execute [[Elbow-Knee Escape]] → [[Half Guard Recovery]]
-- If opponent has low mount with tight grapevines → Execute [[Heel Drag Escape]] → [[Half Guard Entry]]
+- If opponent has high mount with weight forward → Execute [[Bridge and Roll]] → [[Top Position]] or [[Closed Guard Top]]
+- If opponent has high mount with weight back → Execute [[Elbow Escape]] → [[Guard Recovery]]
+- If opponent has low mount with tight grapevines → Execute [[Heel Drag Escape]] → [[Half Guard Top]]
 - If opponent has technical mount → Execute [[Hip Escape to Back Defense]] → [[Quarter Guard]]
 - If opponent attempts S-mount → Execute [[Frame and Bridge]] → [[Elbow Escape]] → [[Quarter Guard]]
-- If opponent postures up in mount → Execute [[Upa Bridge]] → [[Hip Escape]] → [[Closed Guard Pull]]
+- If opponent postures up in mount → Execute [[Upa Bridge]] → [[Hip Escape]] → [[Closed Guard Top]]
 - If opponent is attacking cross-collar choke → Execute [[Frame and Bridge]] → [[Trap and Roll]]
 
 ## Counter-Offensive Opportunities
-- From [[Elbow-Knee Position]] → [[Half Guard Sweep]] when opponent shifts weight to prevent escape
+- From [[Elbow-Knee Position]] → [[Half Guard Top]] when opponent shifts weight to prevent escape
 - From [[Trapped Arm Position]] → [[Sweep Reversal]] during bridge and roll execution
-- From [[Half Guard Recovery]] → [[Deep Half Entry]] → [[Sweep Sequence]]
+- From [[Guard Recovery]] → [[Deep Half Entry]] → [[Sweep Sequence]]
 - From [[Bridge Escape]] → [[Submission Counter]] when opponent posts to prevent being rolled
-- From [[Technical Mount Escape]] → [[Back Take Defense]] → [[Scramble Opportunity]]
+- From [[Technical Mount]] → [[Back Take Defense]] → [[Scramble Opportunity]]
 - From [[Heel Drag Recovery]] → [[Single Leg X Entry]] when opponent stands to reestablish position
 
 ## Common Errors

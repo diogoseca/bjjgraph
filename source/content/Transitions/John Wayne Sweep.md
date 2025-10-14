@@ -378,7 +378,7 @@ The John Wayne Sweep, also known as the Old School Sweep, is a traditional Brazi
 **Common John Wayne Sweep combinations:**
 - [[Half Guard Bottom]] → [[John Wayne Sweep]] → [[Side Control]]
 - [[Knee Shield Half Guard]] → [[John Wayne Sweep]] → [[Top Position]]
-- [[Half Guard Bottom]] → [[Failed John Wayne Sweep]] → [[Flattened Half Guard]]
+- [[Half Guard Bottom]] → [[John Wayne Sweep]] → [[Flattened Half Guard]]
 
 ## Training Applications
 - **Sweep Development**: Essential for half guard bottom offensive game

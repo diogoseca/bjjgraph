@@ -173,7 +173,7 @@ Factors that influence the success rate of the transition:
 ## Common Counters and Counter-Attacks
 Analysis of opponent responses with success rates for counter-attacks:
 - **Sprawl Defense** → [[Neutral Position]] (Success Rate: 40%, Conditions: opponent sprawls hips back to avoid leg control)
-- **Guard Pull Counter** → [[Closed Guard]] (Success Rate: 30%, Conditions: opponent pulls guard as you shoot in)
+- **Guard Pull Counter** → [[Closed Guard Top]] (Success Rate: 30%, Conditions: opponent pulls guard as you shoot in)
 - **Guillotine Attempt** → [[Submission Threat]] (Success Rate: 25%, Conditions: opponent catches your head in a guillotine during shot)
 - **Leg Freeing** → [[Standing Position]] (Success Rate: 20%, Conditions: opponent pulls leg free before takedown completion)
 - **Counter Takedown** → [[Bottom Position]] (Success Rate: 15%, Conditions: opponent uses your momentum for their own takedown)

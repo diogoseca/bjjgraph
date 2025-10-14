@@ -191,10 +191,10 @@ Else [optimal submission execution]:
 
 ### Common Threats During Attempt
 Primary risks while attempting this submission:
-- **Grip Break**: Opponent breaks foot/ankle control → [[Ankle Freedom]] (Threat Level: Medium)
-- **Position Loss**: Opponent escapes entanglement during setup → [[Position Change]] (Threat Level: Medium)
-- **Counter Attack**: Opponent initiates leg lock counter → [[Leg Lock Counter]] (Threat Level: Low)
-- **Stalemate**: Opponent straightens leg to stall compression → [[Pressure Reduction]] (Threat Level: Medium)
+- **Grip Break**: Opponent breaks foot/ankle control → [[Standing up]] (Threat Level: Medium)
+- **Position Loss**: Opponent escapes entanglement during setup → [[Guard Recovery]] (Threat Level: Medium)
+- **Counter Attack**: Opponent initiates leg lock counter → [[Kneebar Control]] (Threat Level: Low)
+- **Stalemate**: Opponent straightens leg to stall compression → [[Standing up]] (Threat Level: Medium)
 
 Format: `[[Threat Type]] → [[Resulting Position]] (Threat Level: X)`
 
@@ -366,8 +366,8 @@ The Calf Slicer gained prominence in modern BJJ through the 10th Planet system's
 **Common Calf Slicer combinations:**
 - [[Truck Position]] → [[Calf Slicer]] → [[Won by Submission]]
 - [[Lockdown Guard]] → [[Calf Slicer]] → [[Won by Submission]]
-- [[Failed Calf Slicer]] → [[Banana Split]] → [[Won by Submission]]
-- [[Failed Calf Slicer]] → [[Transition to Twister]] → [[Twister Setup]]
+- [[Calf Slicer]] → [[Banana Split]] → [[Won by Submission]]
+- [[Calf Slicer]] → [[Transition to Truck]] → [[Twister Control]]
 
 ## Training Applications
 - **No-Gi Specialization**: Essential for no-gi competitors focusing on leg attacks

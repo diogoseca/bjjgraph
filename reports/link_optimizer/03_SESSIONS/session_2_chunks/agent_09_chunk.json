@@ -1,0 +1,260 @@
+{
+  "session": 2,
+  "agent": 9,
+  "total_agents": 10,
+  "fixes": [
+    {
+      "source_file": "Scarf Hold Position",
+      "target_link": "Arm Triangle Control",
+      "line_number": null,
+      "suggested_fix": "triangle control",
+      "confidence": 88.88888888888889
+    },
+    {
+      "source_file": "Scarf Hold Position",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Scarf Hold Position",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Scarf Hold Position",
+      "target_link": "North-South Position",
+      "line_number": null,
+      "suggested_fix": "north-south transition",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Scarf Hold Position",
+      "target_link": "Twister Side Control",
+      "line_number": null,
+      "suggested_fix": "twister control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Scarf Hold Position",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Scarf Hold Position",
+      "target_link": "North-South Position",
+      "line_number": null,
+      "suggested_fix": "north-south transition",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Scarf Hold Position",
+      "target_link": "Arm Triangle Control",
+      "line_number": null,
+      "suggested_fix": "triangle control",
+      "confidence": 88.88888888888889
+    },
+    {
+      "source_file": "Scarf Hold Position",
+      "target_link": "North-South Position",
+      "line_number": null,
+      "suggested_fix": "north-south transition",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Scarf Hold Position",
+      "target_link": "Arm Triangle Setup",
+      "line_number": null,
+      "suggested_fix": "triangle setup",
+      "confidence": 87.5
+    },
+    {
+      "source_file": "Scarf Hold Position",
+      "target_link": "Arm Triangle Setup",
+      "line_number": null,
+      "suggested_fix": "triangle setup",
+      "confidence": 87.5
+    },
+    {
+      "source_file": "Scarf Hold Position",
+      "target_link": "Arm Triangle Control",
+      "line_number": null,
+      "suggested_fix": "triangle control",
+      "confidence": 88.88888888888889
+    },
+    {
+      "source_file": "Scarf Hold Position",
+      "target_link": "North-South Position",
+      "line_number": null,
+      "suggested_fix": "north-south transition",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Scissor Sweep",
+      "target_link": "Base Wide",
+      "line_number": null,
+      "suggested_fix": "base widening",
+      "confidence": 81.81818181818183
+    },
+    {
+      "source_file": "Scramble Position",
+      "target_link": "Front Headlock Entry",
+      "line_number": null,
+      "suggested_fix": "front headlock series",
+      "confidence": 82.92682926829268
+    },
+    {
+      "source_file": "Scramble Position",
+      "target_link": "Leg Entanglement Access",
+      "line_number": null,
+      "suggested_fix": "leg entanglement",
+      "confidence": 82.05128205128204
+    },
+    {
+      "source_file": "Scramble Position",
+      "target_link": "Front Headlock Entry",
+      "line_number": null,
+      "suggested_fix": "front headlock series",
+      "confidence": 82.92682926829268
+    },
+    {
+      "source_file": "Scramble Position",
+      "target_link": "Leg Entanglement Access",
+      "line_number": null,
+      "suggested_fix": "leg entanglement",
+      "confidence": 82.05128205128204
+    },
+    {
+      "source_file": "Scramble Position",
+      "target_link": "Front Headlock Entry",
+      "line_number": null,
+      "suggested_fix": "front headlock series",
+      "confidence": 82.92682926829268
+    },
+    {
+      "source_file": "Scramble Position",
+      "target_link": "Leg Entanglement Access",
+      "line_number": null,
+      "suggested_fix": "leg entanglement",
+      "confidence": 82.05128205128204
+    },
+    {
+      "source_file": "Seated Guard",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Seated Guard",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Seated Guard",
+      "target_link": "Ankle Lock",
+      "line_number": null,
+      "suggested_fix": "ankle pick",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Seated Guard",
+      "target_link": "Submission Chain",
+      "line_number": null,
+      "suggested_fix": "submission chains",
+      "confidence": 96.96969696969697
+    },
+    {
+      "source_file": "Self-Defense Application Framework",
+      "target_link": "Distance Management",
+      "line_number": null,
+      "suggested_fix": "space management",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Shin-to-Shin Guard",
+      "target_link": "Backstep",
+      "line_number": null,
+      "suggested_fix": "back step",
+      "confidence": 94.11764705882352
+    },
+    {
+      "source_file": "Shin-to-Shin Guard",
+      "target_link": "Butterfly Hook Insertion",
+      "line_number": null,
+      "suggested_fix": "butterfly hook retention",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Shin-to-Shin Guard",
+      "target_link": "Kiss of the Dragon Setup",
+      "line_number": null,
+      "suggested_fix": "kiss of the dragon",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Shin-to-Shin Guard",
+      "target_link": "Butterfly Hook Insertion",
+      "line_number": null,
+      "suggested_fix": "butterfly hook retention",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Shin-to-Shin Guard",
+      "target_link": "Kiss of the Dragon Setup",
+      "line_number": null,
+      "suggested_fix": "kiss of the dragon",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Shin-to-Shin Guard",
+      "target_link": "Kiss of the Dragon Setup",
+      "line_number": null,
+      "suggested_fix": "kiss of the dragon",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Shoulder Pressure",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Shrimp Escape",
+      "target_link": "Crossface Control",
+      "line_number": null,
+      "suggested_fix": "cross face control",
+      "confidence": 97.14285714285714
+    },
+    {
+      "source_file": "Shrimp Escape",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Shrimp Escape",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Shrimp Escape",
+      "target_link": "Crossface Control",
+      "line_number": null,
+      "suggested_fix": "cross face control",
+      "confidence": 97.14285714285714
+    }
+  ],
+  "fix_count": 36
+}

@@ -330,7 +330,7 @@ You are positioned between your opponent's legs with their thighs wrapped around
 - [[Submit from Guard]] → [[Won by Submission]] (Success Rate: 15%)
 
 ## Offensive Transitions (Available From This State)
-- [[Standing Guard Break]] → [[Open Guard Pass Position]] (Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%)
+- [[Standing Guard]] → [[Half Guard Pass Position]] (Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%)
 - [[Knee Cut Pass]] → [[Side Control]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
 - [[Toreando Pass]] → [[Side Control]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
 - [[Stack Pass]] → [[Side Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
@@ -387,7 +387,7 @@ You are positioned between your opponent's legs with their thighs wrapped around
 
 ## Related States
 - [[Closed Guard Bottom]] - Opponent's perspective
-- [[Open Guard Pass Position]] - After guard opening
+- [[Half Guard Pass Position]] - After guard opening
 - [[Side Control]] - Goal position after successful pass
 - [[Half Guard Top]] - Common position if pass is incomplete
 - [[Mount]] - Advanced passing target
@@ -395,14 +395,14 @@ You are positioned between your opponent's legs with their thighs wrapped around
 ## Related Positions
 - [[Closed Guard Bottom]] - The inverse position
 - [[Side Control]] - Target after passing
-- [[Open Guard Pass Position]] - Next stage in progression
+- [[Half Guard Pass Position]] - Next stage in progression
 - [[Half Guard Top]] - Partial pass position
 - [[Standing Guard Break]] - Guard opening technique
 
 ## Decision Tree
 If guard is tight and posture broken:
 - Execute [[Establish Posture]] → [[Closed Guard Top Position]] (Probability: 50%)
-- Or Execute [[Stand to Break Guard]] → [[Open Guard Pass Position]] (Probability: 60%)
+- Or Execute [[Stand to Break Guard]] → [[Half Guard Pass Position]] (Probability: 60%)
 
 Else if guard is loose or opening:
 - Execute [[Knee Cut Pass]] → [[Side Control]] (Probability: 50%)
@@ -425,7 +425,7 @@ Else if opponent controlling posture strongly:
 *Reasoning: One of few submission options from this position, though very low percentage 10-20%*
 
 **High-percentage escape and advancement:**
-[[Closed Guard Top Position]] → [[Standing Guard Break]] → [[Open Guard Pass Position]] → [[Side Control]] → [[Mount]] → [[Submission Chain]] → [[Won by Submission]]
+[[Closed Guard Top Position]] → [[Standing Guard]] → [[Half Guard Pass Position]] → [[Side Control]] → [[Mount]] → [[Submission Chains]] → [[Won by Submission]]
 *Reasoning: Safest and most reliable path to dominant position and eventual submission, success rate 40-70%*
 
 **Aggressive passing path:**

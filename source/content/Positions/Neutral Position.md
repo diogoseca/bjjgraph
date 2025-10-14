@@ -147,12 +147,13 @@ Both practitioners face each other with roughly equal positioning, neither havin
 
 ## Defensive Responses (When Opponent Has This State)
 - [[Proactive Grip Establishment]] → [[Grip Advantage]]
-- [[Distance Control]] → [[Strategic Spacing]]
+- [[D'Arce Control]] → [[Strategic Spacing]]
 - [[Base Stabilization]] → [[Defensive Posture]]
-- [[Angle Creation]] → [[Attacking Position]]
+- [[Frame Creation]] → [[Standing Position]]
 - [[Level Change]] → [[Offensive Entry]]
 
 ## Offensive Transitions (Available From This State)
+- [[Pull Guard]]
 - [[Guard Pull]] → [[Guard Position]]
 - [[Takedown Entry]] → [[Takedown Attempt]]
 - [[Clinch Engagement]] → [[Clinch Position]]

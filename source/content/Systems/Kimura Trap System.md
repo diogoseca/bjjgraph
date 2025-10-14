@@ -98,10 +98,12 @@ The power of the Kimura Trap lies in its ability to create unsolvable defensive 
 - **Eddie Bravo**: Within the 10th Planet system, Bravo has incorporated the Kimura Trap into his half guard top game, connecting it with his "Twister Side Control" system. His approach often emphasizes using the Kimura grip to set up unorthodox transitions that opponents are less familiar defending, including connections to the Twister and various Truck position entries. Bravo also focuses on the bottom position applications, using the Kimura grip to establish sweeps and reversals.
 
 ## Setup Positions
+The Kimura Trap System explicitly begins from several key positions, with [[Half Guard Bottom]] being one of the primary starting positions for the trap sequence.
+
 - [[Half Guard Top]] → Underhook control → [[Kimura Trap Entry]]
 - [[Side Control]] → Far-side arm isolation → [[Kimura Grip Establishment]]
-- [[Closed Guard Bottom]] → Overhook control → [[Bottom Kimura Control]]
-- [[North-South]] → Head and arm control → [[North-South Kimura]]
+- [[Closed Guard Bottom]] → Overhook control → [[Kimura Control]]
+- [[North-South Control]] → Head and arm control → [[North-South to Kimura]]
 - [[Turtle Top]] → Back exposure → [[Turtle Kimura Trap]]
 - [[Standing Position]] → Two-on-one grip → [[Standing Kimura Entry]]
 

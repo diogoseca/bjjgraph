@@ -142,9 +142,9 @@ The Williams Guard is an advanced variation of the Rubber Guard developed within
 - Connection between practitioner's leg and upper body control
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Posture and Stack]] → [[Guard Breaking]]
+- [[Posture and Stack]] → [[Grip Breaking]]
 - [[Two-on-One Arm Control]] → [[Grip Breaking]]
-- [[Forward Pressure]] → [[Posture Establishment]]
+- [[Forward Pressure]] → [[Guard Establishment]]
 - [[Head Pull]] → [[Neck Clearance]]
 - [[Base Widening]] → [[Stability Creation]]
 
@@ -154,7 +154,7 @@ The Williams Guard is an advanced variation of the Rubber Guard developed within
 - [[Gogoplata Setup]] → [[Gogoplata Control]]
 - [[Push-Pull Sweep]] → [[Top Position]]
 - [[Williams to Triangle]] → [[Triangle Control]]
-- [[Dead Orchard Entry]] → [[Dead Orchard Control]]
+- [[Dead Orchard Control]] → [[Dead Orchard Control]]
 - [[Williams Back Take]] → [[Back Control]]
 - [[Return to New York]] → [[New York Control]]
 
@@ -211,7 +211,7 @@ Else if opponent attempts to stack:
 - Execute [[Push-Pull Sweep]] or [[Williams Back Take]]
 
 Else if opponent creates space and posture:
-- Execute [[Return to New York]] or [[Dead Orchard Entry]]
+- Execute [[Return to New York]] or [[Dead Orchard Control]]
 
 ## Position Metrics
 - Success Rate: 75% control effectiveness when established (competition data)

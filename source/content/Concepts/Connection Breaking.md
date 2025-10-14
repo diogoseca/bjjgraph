@@ -95,7 +95,7 @@ Connection Breaking represents the fundamental principle of disrupting the physi
 
 ### Common Scenarios Where Concept is Critical
 
-**Scenario 1: [[Side Control Bottom]] when opponent has established cross face and hip control**
+**Scenario 1: [[Side Control to Mount]] when opponent has established cross face and hip control**
 → Apply connection breaking by attacking cross face first (highest-value connection), using frames and hip movement to disrupt contact, then breaking hip connection to enable escape progression.
 
 **Scenario 2: [[Mount Bottom]] when opponent has established high mount with underhook control**

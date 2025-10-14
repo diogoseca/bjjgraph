@@ -1,0 +1,260 @@
+{
+  "session": 2,
+  "agent": 8,
+  "total_agents": 10,
+  "fixes": [
+    {
+      "source_file": "Pull Guard",
+      "target_link": "Seated Guard Pull",
+      "line_number": null,
+      "suggested_fix": "seated guard",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "Pull Guard",
+      "target_link": "Re-pull Guard",
+      "line_number": null,
+      "suggested_fix": "pull guard",
+      "confidence": 86.95652173913044
+    },
+    {
+      "source_file": "Pull Guard",
+      "target_link": "Closed Guard Pull",
+      "line_number": null,
+      "suggested_fix": "closed guard top",
+      "confidence": 84.84848484848484
+    },
+    {
+      "source_file": "Pull Guard",
+      "target_link": "Open Guard Pull",
+      "line_number": null,
+      "suggested_fix": "open guard top",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "Pull Guard",
+      "target_link": "De La Riva Guard Pull",
+      "line_number": null,
+      "suggested_fix": "de la riva guard",
+      "confidence": 86.48648648648648
+    },
+    {
+      "source_file": "Pull Guard",
+      "target_link": "X-Guard Pull",
+      "line_number": null,
+      "suggested_fix": "guard pull",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Pull Guard",
+      "target_link": "Spider Guard Pull",
+      "line_number": null,
+      "suggested_fix": "spider guard",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "Pull Guard",
+      "target_link": "Closed Guard Pull",
+      "line_number": null,
+      "suggested_fix": "closed guard top",
+      "confidence": 84.84848484848484
+    },
+    {
+      "source_file": "Pull Guard",
+      "target_link": "Butterfly Guard Pull",
+      "line_number": null,
+      "suggested_fix": "butterfly guard",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Pull Guard",
+      "target_link": "Seated Guard Pull",
+      "line_number": null,
+      "suggested_fix": "seated guard",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "Pull Guard",
+      "target_link": "Submission Chain",
+      "line_number": null,
+      "suggested_fix": "submission chains",
+      "confidence": 96.96969696969697
+    },
+    {
+      "source_file": "Pull Guard",
+      "target_link": "Triangle Choke",
+      "line_number": null,
+      "suggested_fix": "triangle choke side",
+      "confidence": 84.84848484848484
+    },
+    {
+      "source_file": "Pull guard",
+      "target_link": "Closed Guard",
+      "line_number": null,
+      "suggested_fix": "closed guard top",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Pull guard",
+      "target_link": "Closed Guard",
+      "line_number": null,
+      "suggested_fix": "closed guard top",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Rear Naked Choke",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Rear Naked Choke",
+      "target_link": "Failed Rear Naked Choke",
+      "line_number": null,
+      "suggested_fix": "rear naked choke",
+      "confidence": 82.05128205128204
+    },
+    {
+      "source_file": "Rear Naked Choke",
+      "target_link": "Failed Rear Naked Choke",
+      "line_number": null,
+      "suggested_fix": "rear naked choke",
+      "confidence": 82.05128205128204
+    },
+    {
+      "source_file": "Rear Naked Choke",
+      "target_link": "Failed Rear Naked Choke",
+      "line_number": null,
+      "suggested_fix": "rear naked choke",
+      "confidence": 82.05128205128204
+    },
+    {
+      "source_file": "Rear Naked Choke Pathway",
+      "target_link": "Collar Choke",
+      "line_number": null,
+      "suggested_fix": "cross collar choke",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Rear Naked Choke Pathway",
+      "target_link": "Technical Back Mount",
+      "line_number": null,
+      "suggested_fix": "technical mount",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Reverse De La Riva Guard",
+      "target_link": "Technical Stand-up Sweep",
+      "line_number": null,
+      "suggested_fix": "technical stand-up",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Reverse Kesa Gatame",
+      "target_link": "Arm Triangle Control",
+      "line_number": null,
+      "suggested_fix": "triangle control",
+      "confidence": 88.88888888888889
+    },
+    {
+      "source_file": "Risk Assessment",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Rubber Guard",
+      "target_link": "Standing Guard Break",
+      "line_number": null,
+      "suggested_fix": "standing guard",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Rubber Guard",
+      "target_link": "Dead Orchard Entry",
+      "line_number": null,
+      "suggested_fix": "dead orchard control",
+      "confidence": 84.21052631578947
+    },
+    {
+      "source_file": "Rubber Guard",
+      "target_link": "Dead Orchard Entry",
+      "line_number": null,
+      "suggested_fix": "dead orchard control",
+      "confidence": 84.21052631578947
+    },
+    {
+      "source_file": "Russian Cowboy",
+      "target_link": "Leg Knot Transition",
+      "line_number": null,
+      "suggested_fix": "leg knot position",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Russian Cowboy",
+      "target_link": "Leg Knot Transition",
+      "line_number": null,
+      "suggested_fix": "leg knot position",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Russian Cowboy",
+      "target_link": "Leg Knot Transition",
+      "line_number": null,
+      "suggested_fix": "leg knot position",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Russian Leg Lasso",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "S-Mount Position",
+      "target_link": "Transition to Back",
+      "line_number": null,
+      "suggested_fix": "transition to truck",
+      "confidence": 86.48648648648648
+    },
+    {
+      "source_file": "Scarf Hold Position",
+      "target_link": "Bridge and Turn",
+      "line_number": null,
+      "suggested_fix": "bridge and roll",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Scarf Hold Position",
+      "target_link": "Side Control Bottom",
+      "line_number": null,
+      "suggested_fix": "side control to mount",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Scarf Hold Position",
+      "target_link": "Modified Scarf Hold Position",
+      "line_number": null,
+      "suggested_fix": "scarf hold position",
+      "confidence": 80.85106382978722
+    },
+    {
+      "source_file": "Scarf Hold Position",
+      "target_link": "North-South Position",
+      "line_number": null,
+      "suggested_fix": "north-south transition",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Scarf Hold Position",
+      "target_link": "Arm Triangle Setup",
+      "line_number": null,
+      "suggested_fix": "triangle setup",
+      "confidence": 87.5
+    }
+  ],
+  "fix_count": 36
+}

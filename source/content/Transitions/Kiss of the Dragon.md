@@ -123,7 +123,7 @@ description: "Learn Kiss of the Dragon in BJJ. Step-by-step execution. Complete 
 ## Transition Properties
 - **Transition ID**: T808
 - **Classification**: Offensive Sweep
-- **Starting Position**: [[Half Guard]] (bottom)
+- **Starting Position**: [[Half Guard Top]] (bottom)
 - **Target Position**: [[Top Position]], [[Side Control]], or [[Mount]]
 - **Success Probability**: Beginner (50%), Intermediate (70%), Advanced (85%)
 - **Execution Complexity**: High
@@ -172,7 +172,7 @@ Factors that influence the success rate of the transition:
 
 ## Common Counters and Counter-Attacks
 Analysis of opponent responses with success rates for counter-attacks:
-- **Posture Recovery** → [[Top Half Guard]] (Success Rate: 50%, Conditions: opponent postures up to resist underhook control)
+- **Posture Recovery** → [[Half Guard Top]] (Success Rate: 50%, Conditions: opponent postures up to resist underhook control)
 - **Base Adjustment** → [[Side Control]] (Success Rate: 45%, Conditions: opponent widens base to prevent being rolled)
 - **Grip Break** → [[Guard Pass]] (Success Rate: 40%, Conditions: opponent breaks underhook to initiate pass)
 - **Counter Sweep** → [[Back Control]] (Success Rate: 35%, Conditions: opponent uses sweep momentum to take back)

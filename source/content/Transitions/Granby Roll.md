@@ -282,4 +282,5 @@ Else if [roll fails] due to insufficient momentum or space:
 - [[Forward Roll]] - Related technique
 - [[Hip Escape]] - Related technique
 - [[Bridge and Roll]] - Related technique
+- [[Guard Recovery]] - Primary objective for granby roll
 

@@ -58,7 +58,7 @@ description: "Starting from a top position, often after taking the opponent's ba
 
 ### State Machine Properties
 - **Submission Type**: Spine Lock - compression and extension attack
-- **Starting Position**: [[Top Position]], [[Back Control]], [[Turtle Position Top]]
+- **Starting Position**: [[Top Position]], [[Back Control]], [[Turtle Position]]
 - **Target Area**: Lower back and spine
 - **End State**: Opponent submission or referee stoppage
 - **Risk Level**: High - potential for serious spinal injury
@@ -337,7 +337,7 @@ Updates to this standard should be reflected across all submission files to main
 - **Can Opener** - Similar spine lock with different application angle
 - **Spine Lock** - General category of spinal submissions
 - **Back Control** - Common starting point for this submission
-- **Turtle Position Top** - Alternative entry for spine attacks
+- **Turtle Position** - Alternative entry for spine attacks
 
 ## Competition Applications
 - **IBJJF Rules**: Often illegal at all belt levels due to spinal injury risk
@@ -359,8 +359,8 @@ Boston Crab is a professional wrestling technique adapted into submission grappl
 ## Position Integration
 **Common Boston Crab combinations:**
 - [[Back Control]] → [[Boston Crab]] → [[Won by Submission]]
-- [[Turtle Position Top]] → [[Boston Crab]] → [[Opponent Tap]]
-- [[Top Position]] → [[Failed Boston Crab]] → [[Neutral Position]]
+- [[Turtle Position]] → [[Boston Crab]] → [[Won by Submission]]
+- [[Top Position]] → [[Boston Crab]] → [[Standing Position]]
 
 ## Training Applications
 - **Control Development**: Builds skills in dominating from top position

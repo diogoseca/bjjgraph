@@ -189,7 +189,7 @@ You are seated on the mat in an upright position, facing your opponent who is ty
 
 ## Defensive Responses (When Opponent Has This State)
 - [[Pressure Pass Attempt]] → [[Headquarters Position]] (Success Rate: 40%)
-- [[Hook Removal Strategy]] → [[Standing Pass]] (Success Rate: 35%)
+- [[Hook Removal Strategy]] → [[standing up]] (Success Rate: 35%)
 - [[Knee Slice Entry]] → [[Knee Slice Pass]] (Success Rate: 30%)
 - [[Upper Body Control]] → [[Smash Pass]] (Success Rate: 25%)
 
@@ -198,7 +198,7 @@ You are seated on the mat in an upright position, facing your opponent who is ty
 - [[Arm Drag from Butterfly]] → [[Back Control]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
 - [[Single Leg X Entry]] → [[Single Leg X Guard]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
 - [[Guillotine Setup]] → [[Guillotine Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
-- [[Elevator Sweep]] → [[Mount]] or [[Side Control Top]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
+- [[Elevator Sweep]] → [[Mount]] or [[side control]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
 - [[X-Guard Transition]] → [[X-Guard]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
 - [[Shin-to-Shin Transition]] → [[Shin-to-Shin Guard]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
 
@@ -259,7 +259,7 @@ If opponent stands tall with upright posture:
 
 Else if opponent drives forward with pressure:
 - Execute [[Basic Butterfly Sweep]] → [[Top Position]] (Probability: 60%)
-- Or Execute [[Elevator Sweep]] → [[Mount]] or [[Side Control Top]] (Probability: 50%)
+- Or Execute [[Elevator Sweep]] → [[Mount]] or [[side control]] (Probability: 50%)
 
 Else if opponent pulls back defensively:
 - Execute [[Arm Drag from Butterfly]] → [[Back Control]] (Probability: 45%)
@@ -277,7 +277,7 @@ Else if opponent attempts to control upper body:
 
 ## Optimal Paths
 Highest-percentage sweeping path:
-[[Butterfly Guard]] → [[Basic Butterfly Sweep]] → [[Side Control Top]] → [[Mount]] → submission chain
+[[Butterfly Guard]] → [[Basic Butterfly Sweep]] → [[side control]] → [[Mount]] → submission chain
 
 Back-taking path:
 [[Butterfly Guard]] → [[Arm Drag from Butterfly]] → [[Back Control]] → [[Rear Naked Choke]] → [[Won by Submission]]

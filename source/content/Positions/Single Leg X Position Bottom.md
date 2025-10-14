@@ -245,6 +245,7 @@ Partner provides 50% resistance as you flow: SLX → sweep → reset → SLX →
 - [[Ashi Garami]] - Leg lock position accessible from SLX
 - [[Standing Guard]] - Standing variation maintaining leg control
 - [[Deep Half Guard]] - Alternative leg control system
+- [[Single Leg X Guard]]
 
 ## Optimal Submission Paths
 

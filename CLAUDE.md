@@ -20,38 +20,38 @@ All BJJ Graph content follows structured standards defined in the CONTRIBUTING-*
 
 **Complete list of contributor guides:**
 
-1. **CONTRIBUTING-POSITIONS.md** (`/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/Positions/CONTRIBUTING-POSITIONS.md`)
+1. **CONTRIBUTING-POSITIONS.md** (`source/content/Positions/CONTRIBUTING-POSITIONS.md`)
    - Standard for position state files (S### IDs)
    - Includes state machine properties, transition data, decision trees
    - Covers offensive/defensive transitions, success rates by skill level
    - Defines YAML frontmatter structure, LLM context blocks, and markdown content sections
    - Position Standard V2 with unified YAML structure
 
-2. **CONTRIBUTING-TRANSITIONS.md** (`/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/Transitions/CONTRIBUTING-TRANSITIONS.md`)
+2. **CONTRIBUTING-TRANSITIONS.md** (`source/content/Transitions/CONTRIBUTING-TRANSITIONS.md`)
    - Standard for transition technique files (T### IDs)
    - Covers from/to states, execution steps, physical requirements
    - Includes success rates, timing windows, common counters
    - Defines setup requirements, execution sequence, and knowledge assessment
 
-3. **CONTRIBUTING-SUBMISSIONS.md** (`/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/Submissions/CONTRIBUTING-SUBMISSIONS.md`)
+3. **CONTRIBUTING-SUBMISSIONS.md** (`source/content/Submissions/CONTRIBUTING-SUBMISSIONS.md`)
    - Standard for submission files (SUB### IDs)
    - **SAFETY FIRST** - mandatory safety sections, injury awareness, tap protocols
    - Includes setup requirements, execution steps, anatomical targeting
    - Requires progressive training phases (6 phases minimum)
    - Mandatory release protocol and safety Q&A sections
 
-4. **CONTRIBUTING-CONCEPTS.md** (`/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/Concepts/CONTRIBUTING-CONCEPTS.md`)
+4. **CONTRIBUTING-CONCEPTS.md** (`source/content/Concepts/CONTRIBUTING-CONCEPTS.md`)
    - Standard for concept/principle files (C### IDs)
    - Covers fundamental BJJ principles and theoretical frameworks
    - Includes cross-position applications and learning progressions
 
-5. **CONTRIBUTING-SYSTEMS.md** (`/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/Systems/CONTRIBUTING-SYSTEMS.md`)
+5. **CONTRIBUTING-SYSTEMS.md** (`source/content/Systems/CONTRIBUTING-SYSTEMS.md`)
    - Standard for expert system files (SC### IDs)
    - Documents strategic frameworks from Danaher, Gordon Ryan, Eddie Bravo
    - Includes system philosophy, technique chains, training methodology
 
 **Complete schema reference:**
-- **CONTRIBUTING-YAML-SCHEMA.md** (`/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/CONTRIBUTING-YAML-SCHEMA.md`) - Complete data structure documentation for all content types
+- **CONTRIBUTING-YAML-SCHEMA.md** (`source/content/CONTRIBUTING-YAML-SCHEMA.md`) - Complete data structure documentation for all content types
 
 ### Quality Standards for Automated Improvements
 
@@ -213,7 +213,7 @@ When improving content quality, focus on:
 ## Project Structure
 
 ```
-/Users/diogo/Documents/bjjgraph-org/bjjgraph/
+bjjgraph/
 ├── source/
 │   └── content/
 │       ├── Positions/        # 95 position pages (S### IDs)
@@ -282,7 +282,7 @@ Each content type follows a strict YAML-based schema with:
 - Success rates for techniques (Beginner/Intermediate/Advanced)
 - Expert insights from Danaher, Gordon Ryan, and Eddie Bravo
 
-See `/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/CONTRIBUTING-YAML-SCHEMA.md` for complete schema documentation.
+See `source/content/CONTRIBUTING-YAML-SCHEMA.md` for complete schema documentation.
 
 ---
 
@@ -294,18 +294,18 @@ See `/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/CONTRIBUTING-YA
 
 Three strategic hub pages were created to improve site architecture and SEO:
 
-1. **BJJ-Submissions.md** (`/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/BJJ-Submissions.md`)
+1. **BJJ-Submissions.md** (`source/content/BJJ-Submissions.md`)
    - Target Keywords: "BJJ submissions", "Brazilian jiu-jitsu submissions", "submission techniques"
    - 25 submission techniques organized by type
    - Complete learning progression (white → black belt)
    - Competition statistics and safety guidelines
 
-2. **BJJ-Escapes.md** (`/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/BJJ-Escapes.md`)
+2. **BJJ-Escapes.md** (`source/content/BJJ-Escapes.md`)
    - Target Keywords: "BJJ escapes", "escape techniques", "defensive jiu-jitsu"
    - Organized by position hierarchy
    - Emergency escapes and systematic defense
 
-3. **BJJ-Guard-Passing.md** (`/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/BJJ-Guard-Passing.md`)
+3. **BJJ-Guard-Passing.md** (`source/content/BJJ-Guard-Passing.md`)
    - Target Keywords: "guard passing", "BJJ guard pass", "passing the guard"
    - Organized by guard type
    - Strategic frameworks and decision trees
@@ -320,19 +320,19 @@ Six types of JSON-LD schema markup were implemented across 214+ pages:
 - **Coverage**: All positions, transitions, submissions, and hub pages
 - **Purpose**: Helps Google display breadcrumb trails in search results
 - **Structure**: Home → Category → Page
-- **Script**: `/Users/diogo/Documents/bjjgraph-org/bjjgraph/scripts/add_breadcrumb_schema.py`
+- **Script**: `scripts/add_breadcrumb_schema.py`
 
 #### 2. WebPage Schema
 - **Coverage**: All content pages
 - **Purpose**: Identifies page as part of BJJ Graph website
 - **Fields**: name, description, url, isPartOf (website)
-- **Script**: `/Users/diogo/Documents/bjjgraph-org/bjjgraph/scripts/add_webpage_schema.py`
+- **Script**: `scripts/add_webpage_schema.py`
 
 #### 3. HowTo Schema
 - **Coverage**: Position and transition pages
 - **Purpose**: Rich snippets for step-by-step techniques
 - **Fields**: name, description, step-by-step instructions, totalTime, supply (requirements)
-- **Script**: `/Users/diogo/Documents/bjjgraph-org/bjjgraph/scripts/add_position_schema_v2.py` and `add_transition_schema_v2.py`
+- **Script**: `scripts/add_position_schema_v2.py` and `add_transition_schema_v2.py`
 
 #### 4. FAQ Schema
 - **Coverage**: Position, transition, and submission pages
@@ -366,13 +366,12 @@ Six types of JSON-LD schema markup were implemented across 214+ pages:
 Four Python scripts automate schema markup and content validation:
 
 #### 1. add_breadcrumb_schema.py
-**Location**: `/Users/diogo/Documents/bjjgraph-org/bjjgraph/scripts/add_breadcrumb_schema.py`
+**Location**: `scripts/add_breadcrumb_schema.py`
 
 **Purpose**: Adds BreadcrumbList schema to all pages
 
 **Usage**:
 ```bash
-cd /Users/diogo/Documents/bjjgraph-org/bjjgraph
 python3 scripts/add_breadcrumb_schema.py
 ```
 
@@ -384,13 +383,12 @@ python3 scripts/add_breadcrumb_schema.py
 - Skips pages that already have BreadcrumbList schema
 
 #### 2. add_webpage_schema.py
-**Location**: `/Users/diogo/Documents/bjjgraph-org/bjjgraph/scripts/add_webpage_schema.py`
+**Location**: `scripts/add_webpage_schema.py`
 
 **Purpose**: Adds WebPage schema to all content pages
 
 **Usage**:
 ```bash
-cd /Users/diogo/Documents/bjjgraph-org/bjjgraph
 python3 scripts/add_webpage_schema.py
 ```
 
@@ -402,13 +400,12 @@ python3 scripts/add_webpage_schema.py
 - Skips pages that already have WebPage schema
 
 #### 3. add_position_schema_v2.py
-**Location**: `/Users/diogo/Documents/bjjgraph-org/bjjgraph/scripts/add_position_schema_v2.py`
+**Location**: `scripts/add_position_schema_v2.py`
 
 **Purpose**: Adds HowTo and FAQ schema to position pages
 
 **Usage**:
 ```bash
-cd /Users/diogo/Documents/bjjgraph-org/bjjgraph
 python3 scripts/add_position_schema_v2.py
 ```
 
@@ -420,13 +417,12 @@ python3 scripts/add_position_schema_v2.py
 - Adds physical requirements as "supply" items
 
 #### 4. add_transition_schema_v2.py
-**Location**: `/Users/diogo/Documents/bjjgraph-org/bjjgraph/scripts/add_transition_schema_v2.py`
+**Location**: `scripts/add_transition_schema_v2.py`
 
 **Purpose**: Adds HowTo and FAQ schema to transition pages
 
 **Usage**:
 ```bash
-cd /Users/diogo/Documents/bjjgraph-org/bjjgraph
 python3 scripts/add_transition_schema_v2.py
 ```
 
@@ -438,7 +434,7 @@ python3 scripts/add_transition_schema_v2.py
 - Maps starting and ending states
 
 #### 5. validate_content.py
-**Location**: `/Users/diogo/Documents/bjjgraph-org/bjjgraph/scripts/validate_content.py`
+**Location**: `scripts/validate_content.py`
 
 **Purpose**: Comprehensive content validation against YAML schema standards
 
@@ -468,7 +464,7 @@ python3 scripts/validate_content.py source/content/ --strict
 - Execution steps count
 - Visual descriptions length
 
-**See**: `/Users/diogo/Documents/bjjgraph-org/bjjgraph/scripts/README.md` for detailed validation documentation
+**See**: `scripts/README.md` for detailed validation documentation
 
 ### Technical SEO Status
 
@@ -640,14 +636,12 @@ The project includes an automated content improvement workflow that:
 ### Building the Site
 
 ```bash
-cd /Users/diogo/Documents/bjjgraph-org/bjjgraph
 npx quartz build
 ```
 
 ### Running Development Server
 
 ```bash
-cd /Users/diogo/Documents/bjjgraph-org/bjjgraph
 npx quartz serve
 ```
 
@@ -665,7 +659,6 @@ python3 scripts/validate_content.py source/content/ --type Positions --verbose
 
 ```bash
 # Add all schema types to new pages
-cd /Users/diogo/Documents/bjjgraph-org/bjjgraph
 python3 scripts/add_webpage_schema.py
 python3 scripts/add_breadcrumb_schema.py
 python3 scripts/add_position_schema_v2.py  # For positions
@@ -738,24 +731,24 @@ description: "Master [technique name] with step-by-step guide. Learn execution, 
 ## Key Files and Directories
 
 ### Content Standards
-- `/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/CONTRIBUTING-YAML-SCHEMA.md` - Complete schema documentation
-- `/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/Positions/CONTRIBUTING-POSITIONS.md` - Position standard (V2)
-- `/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/Transitions/CONTRIBUTING-TRANSITIONS.md` - Transition standard
-- `/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/Submissions/CONTRIBUTING-SUBMISSIONS.md` - Submission standard (SAFETY FIRST)
-- `/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/Concepts/CONTRIBUTING-CONCEPTS.md` - Concept standard
-- `/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/Systems/CONTRIBUTING-SYSTEMS.md` - System standard
+- `source/content/CONTRIBUTING-YAML-SCHEMA.md` - Complete schema documentation
+- `source/content/Positions/CONTRIBUTING-POSITIONS.md` - Position standard (V2)
+- `source/content/Transitions/CONTRIBUTING-TRANSITIONS.md` - Transition standard
+- `source/content/Submissions/CONTRIBUTING-SUBMISSIONS.md` - Submission standard (SAFETY FIRST)
+- `source/content/Concepts/CONTRIBUTING-CONCEPTS.md` - Concept standard
+- `source/content/Systems/CONTRIBUTING-SYSTEMS.md` - System standard
 
 **Note**: All CONTRIBUTING-*.md files are excluded from the website build. They serve as contributor and automation documentation only.
 
 ### Scripts Documentation
-- `/Users/diogo/Documents/bjjgraph-org/bjjgraph/scripts/README.md` - Scripts overview and usage
-- `/Users/diogo/Documents/bjjgraph-org/bjjgraph/scripts/VALIDATION_SUMMARY.md` - Validation documentation
-- `/Users/diogo/Documents/bjjgraph-org/bjjgraph/scripts/QUICK_START.md` - Quick reference guide
+- `scripts/README.md` - Scripts overview and usage
+- `scripts/VALIDATION_SUMMARY.md` - Validation documentation
+- `scripts/QUICK_START.md` - Quick reference guide
 
 ### Hub Pages
-- `/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/BJJ-Submissions.md`
-- `/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/BJJ-Escapes.md`
-- `/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/BJJ-Guard-Passing.md`
+- `source/content/BJJ-Submissions.md`
+- `source/content/BJJ-Escapes.md`
+- `source/content/BJJ-Guard-Passing.md`
 
 ---
 

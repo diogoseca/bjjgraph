@@ -152,6 +152,7 @@ Difficulties faced in this position:
 
 ### High-Probability Transitions
 Common paths from this position with success rates:
+- **To Position**: [[North-South]]
 - **To Submission**: [[Americana]] (Success Rate: 70%, Conditions: far arm isolated)
 - **To Submission**: [[Kimura]] (Success Rate: 65%, Conditions: far arm control)
 - **To Position**: [[Mount]] (Success Rate: 75%, Conditions: opponent flattened)
@@ -183,7 +184,7 @@ Primary risks while in this position:
 - **Roll Escape**: Opponent rolls you over using bridge → [[Bottom Position]] (Threat Level: Medium)
 - **Frame Creation**: Opponent creates space with frames → [[Neutral Position]] (Threat Level: Low)
 
-Format: `[[Threat Type]] → [[Resulting Position]] (Threat Level: X)`
+Format: `[[Threat Type]] → [[standing position]] (Threat Level: X)`
 
 ### Defensive Strategies
 Methods to mitigate threats:

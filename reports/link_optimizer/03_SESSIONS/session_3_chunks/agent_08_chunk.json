@@ -1,0 +1,92 @@
+{
+  "session": 3,
+  "agent": 8,
+  "total_agents": 10,
+  "fixes": [
+    {
+      "source_file": "Truck Entry",
+      "target_link": "Triangle Choke",
+      "line_number": null,
+      "suggested_fix": "triangle choke side",
+      "confidence": 84.84848484848484
+    },
+    {
+      "source_file": "Turtle Top",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Turtle to Back Control",
+      "target_link": "Sprawl Position",
+      "line_number": null,
+      "suggested_fix": "scramble position",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Turtle to Back Control",
+      "target_link": "Defensive Reaction",
+      "line_number": null,
+      "suggested_fix": "defensive framing",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Turtle to Back Control",
+      "target_link": "Back Triangle",
+      "line_number": null,
+      "suggested_fix": "arm triangle",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Turtle to Back Control",
+      "target_link": "Transition to Crucifix",
+      "line_number": null,
+      "suggested_fix": "transition to truck",
+      "confidence": 82.92682926829268
+    },
+    {
+      "source_file": "Turtle to Back Control",
+      "target_link": "Back Control to Mount",
+      "line_number": null,
+      "suggested_fix": "side control to mount",
+      "confidence": 80.95238095238095
+    },
+    {
+      "source_file": "Twister Control",
+      "target_link": "Submission Concession",
+      "line_number": null,
+      "suggested_fix": "submission position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Twister Control",
+      "target_link": "Leg Entanglement Escape",
+      "line_number": null,
+      "suggested_fix": "leg entanglement",
+      "confidence": 82.05128205128204
+    },
+    {
+      "source_file": "Twister Finish",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Twister Setup",
+      "target_link": "Truck Defense",
+      "line_number": null,
+      "suggested_fix": "stack defense",
+      "confidence": 84.61538461538461
+    },
+    {
+      "source_file": "Twister Setup",
+      "target_link": "Leg Entanglement Escape",
+      "line_number": null,
+      "suggested_fix": "leg entanglement",
+      "confidence": 82.05128205128204
+    }
+  ],
+  "fix_count": 12
+}

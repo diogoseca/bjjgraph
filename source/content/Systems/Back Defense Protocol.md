@@ -52,7 +52,7 @@
 - **Complexity Level**: Intermediate
 
 ## System Description
-The Back Defense Protocol represents a comprehensive defensive system for addressing one of BJJ's most dominant controlling positions. Unlike isolated escape techniques, this protocol establishes a systematic approach to back defense that integrates preventative measures, escape mechanics, and strategic decision-making into a unified framework. This system addresses the full spectrum of back threats from initial back take attempts through fully established back control to submission attempts.
+The Back Defense Protocol represents a comprehensive defensive system for addressing one of BJJ's most dominant controlling positions. Unlike isolated escape techniques, this protocol establishes a systematic approach to back defense that integrates preventative measures, escape mechanics, and strategic decision-making into a unified framework. This system addresses the full spectrum of back threats from initial back take attempts through fully established [[Back Control]] to submission attempts, which is the primary threat this system defends against.
 
 This protocol prioritizes prevention over escape, recognizing that defending early back take attempts requires significantly less energy and carries less risk than escaping fully established back control. When prevention fails, the system provides a structured decision framework for selecting and executing the most appropriate escape based on the specific control mechanisms employed by the opponent and the defensive resources available to the practitioner.
 
@@ -93,9 +93,9 @@ The Back Defense Protocol serves as a critical defensive capability that address
 ## Decision Tree
 - If opponent is attempting initial back take → Execute [[Hook Prevention]] → [[Hand Fighting]] → [[Back Take Defense]]
 - If opponent has seatbelt but no hooks → Execute [[Two-on-One Grip Fight]] → [[Turn Toward Underhook Side]] → [[Half Guard Recovery]]
-- If opponent has seatbelt and one hook → Execute [[Defensive Hand Position]] → [[Single Hook Removal]] → [[Rotation Escape]]
-- If opponent has seatbelt and two hooks → Execute [[Defensive Hand Position]] → [[Slide Escape]] → [[Side Control Rotation]]
-- If opponent has body triangle → Execute [[Defensive Hand Position]] → [[Triangle Pressure Relief]] → [[Hip Escape to Half Guard]]
+- If opponent has seatbelt and one hook → Execute [[Defensive Position]] → [[Single Hook Removal]] → [[Rotation Escape]]
+- If opponent has seatbelt and two hooks → Execute [[Defensive Position]] → [[Slide Escape]] → [[Side Control Consolidation]]
+- If opponent has body triangle → Execute [[Defensive Position]] → [[Triangle Pressure Relief]] → [[Hip Escape to Half Guard]]
 - If opponent is attacking RNC → Execute [[Two Hands on Choking Arm]] → [[Chin Protection]] → [[Rotation Escape]]
 - If opponent is transitioning to crucifix → Execute [[Defensive Framing]] → [[Elbow Recovery]] → [[Technical Stand-up]]
 

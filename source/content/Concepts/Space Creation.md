@@ -92,6 +92,7 @@ Space Creation represents the essential skill of generating strategic gaps and d
 
 ## Concept Relationships
 - **[[Frame Creation]]** - Frames establish the structure that enables space creation
+- **[[Space Management]]** - Distance creation as complementary space management strategy
 - **[[Space Generation]]** - Related concept with more emphasis on offensive applications
 - **[[Pressure Reduction]]** - Space creation is a primary mechanism for reducing pressure
 - **[[Defensive Posture]]** - Proper posture facilitates effective space creation

@@ -1,0 +1,267 @@
+{
+  "session": 1,
+  "agent": 2,
+  "total_agents": 10,
+  "fixes": [
+    {
+      "source_file": "Armbar Finish",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Armbar Finish",
+      "target_link": "Triangle Choke",
+      "line_number": null,
+      "suggested_fix": "triangle choke side",
+      "confidence": 84.84848484848484
+    },
+    {
+      "source_file": "Armbar from Guard",
+      "target_link": "Triangle Choke",
+      "line_number": null,
+      "suggested_fix": "triangle choke side",
+      "confidence": 84.84848484848484
+    },
+    {
+      "source_file": "Armbar from Guard",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Armbar from Guard",
+      "target_link": "Stack Pass Position",
+      "line_number": null,
+      "suggested_fix": "smash pass position",
+      "confidence": 84.21052631578947
+    },
+    {
+      "source_file": "Armbar from Guard",
+      "target_link": "Triangle Choke",
+      "line_number": null,
+      "suggested_fix": "triangle choke side",
+      "confidence": 84.84848484848484
+    },
+    {
+      "source_file": "Armbar from Guard",
+      "target_link": "Triangle Choke",
+      "line_number": null,
+      "suggested_fix": "triangle choke side",
+      "confidence": 84.84848484848484
+    },
+    {
+      "source_file": "Armbar from Side Control",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Armbar from Side Control",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Armbar from Side Control",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Armbar from Side Control",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Armbar from Side Control",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Armbar from Side Control",
+      "target_link": "Arm Retention",
+      "line_number": null,
+      "suggested_fix": "guard retention",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Armbar from Side Control",
+      "target_link": "Side Control Bottom",
+      "line_number": null,
+      "suggested_fix": "side control to mount",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Armbar from Side Control",
+      "target_link": "Arm Retention",
+      "line_number": null,
+      "suggested_fix": "guard retention",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Armbar from Side Control",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Armbar from Side Control",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Armbar from Side Control",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Armbar from Side Control",
+      "target_link": "Kimura from Side Control",
+      "line_number": null,
+      "suggested_fix": "armbar from side control",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Armbar from Side Control",
+      "target_link": "Kimura from Side Control",
+      "line_number": null,
+      "suggested_fix": "armbar from side control",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Armbar from Side Control",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Armbar from Side Control",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Armbar from Side Control",
+      "target_link": "Kimura from Side Control",
+      "line_number": null,
+      "suggested_fix": "armbar from side control",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Ashi Garami",
+      "target_link": "Leg Entanglement Escape",
+      "line_number": null,
+      "suggested_fix": "leg entanglement",
+      "confidence": 82.05128205128204
+    },
+    {
+      "source_file": "Ashi Garami",
+      "target_link": "Counter Leg Entanglement",
+      "line_number": null,
+      "suggested_fix": "leg entanglement",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Ashi Garami",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Ashi Garami",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Ashi Garami",
+      "target_link": "Backside 50/50",
+      "line_number": null,
+      "suggested_fix": "backside 50-50",
+      "confidence": 92.85714285714286
+    },
+    {
+      "source_file": "Ashi Garami",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Ashi Garami",
+      "target_link": "Backside 50/50",
+      "line_number": null,
+      "suggested_fix": "backside 50-50",
+      "confidence": 92.85714285714286
+    },
+    {
+      "source_file": "Ashi Garami",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Ashi Garami",
+      "target_link": "Backside 50/50",
+      "line_number": null,
+      "suggested_fix": "backside 50-50",
+      "confidence": 92.85714285714286
+    },
+    {
+      "source_file": "Back Attack System",
+      "target_link": "Triangle from Back",
+      "line_number": null,
+      "suggested_fix": "triangle choke back",
+      "confidence": 81.08108108108108
+    },
+    {
+      "source_file": "Back Attack System",
+      "target_link": "Technical Back Mount",
+      "line_number": null,
+      "suggested_fix": "technical mount",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Back Attack System",
+      "target_link": "Technical Back Mount",
+      "line_number": null,
+      "suggested_fix": "technical mount",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Back Attack System",
+      "target_link": "Technical Back Mount",
+      "line_number": null,
+      "suggested_fix": "technical mount",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Back Attack System",
+      "target_link": "Guard",
+      "line_number": null,
+      "suggested_fix": "x-guard",
+      "confidence": 83.33333333333334
+    }
+  ],
+  "fix_count": 37
+}

@@ -1,0 +1,100 @@
+{
+  "session": 3,
+  "agent": 9,
+  "total_fixes_attempted": 12,
+  "fixes_completed": 2,
+  "fixes_skipped": 10,
+  "summary": "Processed 12 link fixes from session 3 agent 9. Successfully fixed 2 broken wikilinks. 10 fixes were skipped as the broken links no longer exist in the files (likely already fixed in previous sessions or template text).",
+  "completed_fixes": [
+    {
+      "source_file": "Submissions/Twister Setup.md",
+      "broken_link": "Wrist Control",
+      "fixed_link": "Twister Control",
+      "confidence": 85.71,
+      "line_number": 173,
+      "status": "fixed"
+    },
+    {
+      "source_file": "Concepts/Underhook Defense.md",
+      "broken_link": "Half Guard",
+      "fixed_link": "Half Guard Top",
+      "confidence": 83.33,
+      "line_number": 119,
+      "status": "fixed"
+    }
+  ],
+  "skipped_fixes": [
+    {
+      "source_file": "Twister Setup",
+      "broken_link": "Truck Defense",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "Twister Setup",
+      "broken_link": "Resulting Position",
+      "reason": "Template format text, not actual broken link",
+      "status": "template_text"
+    },
+    {
+      "source_file": "Underhook Defense",
+      "broken_link": "Side Control Bottom",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "Ushiro Ashi Garami",
+      "broken_link": "Resulting Position",
+      "reason": "Template format text, not actual broken link",
+      "status": "template_text"
+    },
+    {
+      "source_file": "Waiter Sweep",
+      "broken_link": "Triangle Choke",
+      "reason": "Link not found in file (possibly already fixed)",
+      "status": "not_found"
+    },
+    {
+      "source_file": "Weight Distribution",
+      "broken_link": "Side Control Top",
+      "reason": "Link not found in file (possibly already fixed)",
+      "status": "not_found"
+    },
+    {
+      "source_file": "Whizzer Control",
+      "broken_link": "Whizzer Sweep",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "Williams Guard",
+      "broken_link": "Guard Breaking",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "Williams Guard",
+      "broken_link": "Posture Establishment",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "Williams Guard",
+      "broken_link": "Dead Orchard Entry",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    }
+  ],
+  "files_modified": [
+    "source/content/Submissions/Twister Setup.md",
+    "source/content/Concepts/Underhook Defense.md"
+  ],
+  "validation_notes": [
+    "Many broken links from this chunk appear to have been fixed in previous cleanup sessions",
+    "Template format text (like 'Resulting Position') was incorrectly identified as broken links",
+    "2 genuine broken links were successfully identified and fixed",
+    "Stack Defense link in Twister Setup is contextually correct and was not changed"
+  ],
+  "completion_time": "2025-10-14",
+  "agent_efficiency": "16.7%"
+}

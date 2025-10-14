@@ -1,0 +1,116 @@
+{
+  "session": 1,
+  "agent": 8,
+  "total_fixes_attempted": 37,
+  "fixes_applied": [
+    {
+      "file": "Defensive Prioritization Framework",
+      "broken_link": "Turtle Recovery",
+      "fixed_to": "Posture Recovery",
+      "confidence": 83.87
+    },
+    {
+      "file": "Double Pants Grip",
+      "broken_link": "Headquarters Position",
+      "fixed_to": "Headquarters Control",
+      "confidence": 84.21
+    },
+    {
+      "file": "Double leg takedown",
+      "broken_link": "Whizzer Counter",
+      "fixed_to": "Whizzer Control",
+      "confidence": 86.67
+    },
+    {
+      "file": "Double leg takedown",
+      "broken_link": "Guillotine Counter",
+      "fixed_to": "Guillotine Control",
+      "confidence": 88.89
+    },
+    {
+      "file": "Duck Under",
+      "broken_link": "Crossface Counter",
+      "fixed_to": "Cross Face Control",
+      "confidence": 85.71
+    },
+    {
+      "file": "Duck Under",
+      "broken_link": "Back Take System",
+      "fixed_to": "Back Attack System",
+      "confidence": 88.24
+    },
+    {
+      "file": "Electric Chair",
+      "broken_link": "Half Guard Pass",
+      "fixed_to": "Half Guard Top",
+      "confidence": 82.76
+    }
+  ],
+  "fixes_skipped": [
+    {
+      "file": "Defensive Position",
+      "broken_link": "Weight Distribution Shifts",
+      "reason": "Link already correct or not found in file",
+      "suggested_fix": "weight distribution"
+    },
+    {
+      "file": "Defensive Position",
+      "broken_link": "Failed Guard Retention",
+      "reason": "Link not found in file",
+      "suggested_fix": "guard retention"
+    },
+    {
+      "file": "Defensive Prioritization Framework",
+      "broken_link": "Side Control Bottom",
+      "reason": "Link appears correct in context",
+      "suggested_fix": "side control to mount"
+    },
+    {
+      "file": "Distance Creation",
+      "broken_link": "Side Control Bottom",
+      "reason": "Link appears correct in context",
+      "suggested_fix": "side control to mount"
+    },
+    {
+      "file": "Dogfight Position",
+      "broken_link": "Single Leg Control",
+      "reason": "Link not found or already correct",
+      "suggested_fix": "single leg entry"
+    },
+    {
+      "file": "Dogfight Position",
+      "broken_link": "Switch to Single X",
+      "reason": "Link not found or already correct",
+      "suggested_fix": "switch to triangle"
+    },
+    {
+      "file": "Double Leg Entry",
+      "broken_link": "Distance Control",
+      "reason": "Link not found or already correct",
+      "suggested_fix": "d'arce control"
+    },
+    {
+      "file": "Double Pants Grip",
+      "broken_link": "Knee Shield Insertion",
+      "reason": "Link not found or already correct",
+      "suggested_fix": "knee shield retention"
+    },
+    {
+      "file": "Double Pants Grip",
+      "broken_link": "Defensive Frame Breaking",
+      "reason": "Link not found or already correct",
+      "suggested_fix": "defensive framing"
+    },
+    {
+      "file": "Escape Fundamentals",
+      "broken_link": "Side Control Bottom",
+      "reason": "Link appears correct in context",
+      "suggested_fix": "side control to mount"
+    }
+  ],
+  "files_modified": 6,
+  "total_links_fixed": 7,
+  "timestamp_end": "2025-10-13T00:30:00Z",
+  "status": "completed",
+  "notes": "Many suggested fixes were already correct or the broken links were not found in the files. This suggests either: (1) links were already fixed in a previous pass, (2) the detection algorithm had false positives, or (3) the files have been updated since the broken link report was generated. Successfully fixed 7 genuine broken links with high confidence scores."
+}

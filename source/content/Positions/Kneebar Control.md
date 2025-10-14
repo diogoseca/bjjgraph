@@ -39,8 +39,8 @@ description: "Master Kneebar Control in BJJ. Complete guide covering setup, cont
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar to Backside 50/50",
-      "text": "From this position, execute Kneebar to Backside 50/50 to transition to Backside 50/50.",
+      "name": "Execute Kneebar to Backside 50-50",
+      "text": "From this position, execute Kneebar to Backside 50-50 to transition to Backside 50-50.",
       "position": 5
     },
     {
@@ -152,15 +152,15 @@ Kneebar Control is a specialized submission position where the practitioner isol
 - [[Transition to Inside Sankaku]] → [[Inside Sankaku]]
 - [[Kneebar to Heel Hook]] → [[Inside Heel Hook]]
 - [[Kneebar to Toe Hold]] → [[Toe Hold Control]]
-- [[Kneebar to Backside 50/50]] → [[Backside 50/50]]
+- [[Kneebar to Backside 50-50]] → [[Backside 50-50]]
 - [[Hip Heist Transition]] → [[Top Position]]
 - [[Saddle Entry]] → [[Inside Sankaku]]
-- [[Straight Ankle Lock Switch]] → [[Straight Ankle Lock]]
+- [[straight ankle lock]] → [[Straight Footlock]]
 
 ## Counter Transitions
 - [[Re-establish Kneebar]] → [[Kneebar Control]] (against defensive movement)
-- [[Switch to Outside Sankaku]] → [[Outside Sankaku]] (if control is compromised)
-- [[Transition to 50/50]] → [[50/50 Guard]] (under pressure)
+- [[Switch to Outside Sankaku]] → [[Inside Sankaku]] (if control is compromised)
+- [[Transition to 50-50]] → [[50-50 Guard]] (under pressure)
 
 ## Expert Insights
 - **Danaher System**: Emphasizes the kneebar as both a powerful submission and an essential control position within the leg entanglement system. Focuses on precise mechanical details that maximize control and leverage while minimizing escape opportunities. Particularly emphasizes understanding the relationship between the kneebar and other leg entanglements, viewing it as a component of an integrated attacking system rather than an isolated technique.
@@ -184,8 +184,8 @@ Kneebar Control is a specialized submission position where the practitioner isol
 
 ## Related States
 - [[Inside Sankaku]] - Connected leg entanglement
-- [[Backside 50/50]] - Related control position
-- [[Straight Ankle Lock]] - Related leg submission
+- [[Backside 50-50]] - Related control position
+- [[Straight Footlock]] - Related leg submission
 - [[Toe Hold Control]] - Complementary leg attack
 - [[Inside Heel Hook]] - Common transition option
 
@@ -203,10 +203,10 @@ If opponent rotates toward control:
 - Execute [[Transition to Inside Sankaku]] or [[Kneebar to Heel Hook]]
 
 Else if opponent pushes foot against control:
-- Execute [[Kneebar Finish]] or [[Straight Ankle Lock Switch]]
+- Execute [[Kneebar Finish]] or [[Straight Footlock]]
 
 Else if opponent attempts to rotate away:
-- Execute [[Kneebar to Backside 50/50]] or [[Saddle Entry]]
+- Execute [[Kneebar to Backside 50-50]] or [[Saddle Entry]]
 
 Else if opponent elevates hips defensively:
 - Execute [[Hip Heist Transition]] or [[Kneebar to Toe Hold]]

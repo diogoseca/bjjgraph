@@ -12,9 +12,11 @@ This document defines the complete YAML frontmatter schema for all content types
 3. [Submissions Schema](#submissions-schema)
 4. [Concepts Schema](#concepts-schema)
 5. [Systems Schema](#systems-schema)
-6. [Validation Rules](#validation-rules)
-7. [Best Practices](#best-practices)
-8. [Schema.org Integration](#schemaorg-integration)
+6. [Learning Articles Schema](#learning-articles-schema)
+7. [Validation Rules](#validation-rules)
+8. [Best Practices](#best-practices)
+9. [Schema.org Integration](#schemaorg-integration)
+10. [SEO Schema Patterns](#seo-schema-patterns)
 
 ---
 
@@ -378,6 +380,173 @@ description: "Master Kimura Trap System in BJJ. Comprehensive framework connecti
 
 ---
 
+## Learning Articles Schema
+
+### Purpose
+Learning articles are educational synthesis content that provide comprehensive overviews, strategic guidance, and narrative explanations of BJJ topics. Unlike technical pages that document specific techniques, Learning articles cluster related content into educational hubs targeting high-search-volume keywords.
+
+### YAML Structure
+
+Learning articles use minimal frontmatter focused on SEO optimization:
+
+```yaml
+---
+title: "[Target Keyword] | [Benefit Statement] | BJJ Graph"
+description: "[150-160 characters including keyword, specific numbers, and 'complete guide']"
+tags:
+  - learning
+  - beginner/intermediate/advanced
+  - topic-category
+  - secondary-keywords
+---
+```
+
+### Field Definitions
+
+#### Required Fields
+
+| Field | Type | Description | Example |
+|-------|------|-------------|---------|
+| `title` | string | SEO-optimized title with keyword and benefit | `"BJJ Guard Types Explained | Master All 15+ Guard Variations | BJJ Graph"` |
+| `description` | string | Meta description 150-160 chars with data | `"Master all 15+ BJJ guard types with this complete guide. Learn open guards, closed guards, half guards, and leg entanglements with success rates and progressions."` |
+| `tags` | array | Minimum 4 tags: learning, skill level, category, keywords | `["learning", "beginner", "guards", "fundamentals"]` |
+
+#### Content Characteristics
+
+**Learning articles differ from technical pages:**
+
+| Aspect | Learning Articles | Technical Pages |
+|--------|------------------|-----------------|
+| **Length** | 2,500-7,000 words | 1,000-2,000 words |
+| **Internal Links** | 15-125 links | 3-10 links |
+| **Schema Types** | 5 concurrent schemas | 3-4 schemas |
+| **Tone** | Narrative, explanatory | Precise, technical |
+| **Purpose** | Educational synthesis | State machine documentation |
+| **Target Keywords** | High-volume educational terms | Long-tail technical terms |
+
+**Schema Requirements (5 types):**
+1. WebPage Schema - Base webpage identification
+2. BreadcrumbList Schema - Navigation with "Learning" category level
+3. HowTo Schema - Educational steps (NOT technical execution, PT10M-PT12M timeframes)
+4. FAQPage Schema - 6-8 questions with 2-3 sentence detailed answers
+5. ItemList Schema - Rankings, categorical lists, Top 10 patterns (when applicable)
+
+### Complete Example
+
+```yaml
+---
+title: "BJJ Position Hierarchy Explained | Learning | BJJ Graph"
+description: "Master BJJ positional hierarchy from standing to submission. Complete guide to the position ladder, IBJJF points, strategic advancement, and defensive priorities with decision trees."
+tags:
+  - learning
+  - hierarchy
+  - strategy
+  - beginner
+  - fundamentals
+  - positions
+  - competition
+---
+```
+
+**Body characteristics:**
+- Word count: 5,800+ words
+- Internal links: 45+ wikilinks to positions and transitions
+- Schema types: All 5 (WebPage, Breadcrumb, HowTo, FAQ, ItemList not applicable)
+- Tables: 6 comparison tables (success rates, pathways, risk assessment)
+- Expert insights: Integrated throughout narrative sections
+- Content sections: 15+ major sections with subsections
+- FAQ questions: 8 detailed questions with 2-3 sentence answers
+
+**Example Schema Markup from Learning Articles:**
+
+**Educational HowTo Schema (PT12M timeframe):**
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Understanding BJJ Position Hierarchy",
+  "description": "Learn to navigate the positional hierarchy in Brazilian Jiu-Jitsu from standing positions through submissions",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Understand Neutral Standing Position",
+      "text": "Begin from the neutral standing position where both competitors have equal opportunity. This is the 0-point baseline where matches start."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Establish Guard Position",
+      "text": "Progress to guard positions (0 points) where you control distance and create offensive opportunities. Guard is defensive but offers strategic advantage."
+    }
+  ],
+  "totalTime": "PT12M"
+}
+```
+
+**Detailed FAQ Schema (2-3 sentence answers):**
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is positional hierarchy in BJJ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Positional hierarchy in BJJ is the systematic ranking of positions from neutral to dominant, where each position offers increasing control, submission opportunities, and point values. The hierarchy progresses from standing (0 points) to guard (0 points) to guard passing (3 points) to pins (4 points) to submissions (match win). This structure reflects biomechanical advantages where certain body configurations provide more control than others."
+      }
+    }
+  ]
+}
+```
+
+**ItemList Schema (Top 10 pattern):**
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "BJJ Guard Types",
+  "description": "Complete list of Brazilian Jiu-Jitsu guard positions organized by category",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Closed Guard Bottom", "url": "https://bjjgraph.com/positions/closed-guard-bottom"},
+    {"@type": "ListItem", "position": 2, "name": "Open Guard Bottom", "url": "https://bjjgraph.com/positions/open-guard-bottom"}
+  ]
+}
+```
+
+### Content Structure
+
+**Required sections for Learning articles:**
+1. Introduction with keyword placement (first 50 words)
+2. Quick Navigation section (table of contents)
+3. Overview/Definition section
+4. 10-15 major topic sections with subsections
+5. Comparison tables (minimum 3)
+6. Expert Insights sections (integrated throughout)
+7. Learning progression section (by belt level or skill)
+8. Strategic guidance section (when/how to apply)
+9. Common mistakes section
+10. Conclusion with actionable takeaways
+11. Related Content links (10-20 wikilinks)
+
+**Internal Linking Density:**
+- Minimum: 15 internal links
+- Typical: 30-50 links
+- Extensive: 100-125 links
+- Examples: "BJJ-Guard-Types-Explained.md" has 125 links, "BJJ-Position-Hierarchy-Explained.md" has 45 links
+
+### Reference Examples
+
+Existing Learning articles demonstrating full schema implementation:
+- `Learning/BJJ-Position-Hierarchy-Explained.md` - 5,800 words, 45+ links, 8 FAQ questions
+- `Learning/BJJ-Guard-Types-Explained.md` - 7,200+ words, 125 links, 6 FAQ questions, ItemList schema
+- `Learning/BJJ-Submissions-Chart-Guide.md` - 6,500+ words, 89 links, ranking tables
+- `Learning/Understanding-Position-Flow.md` - 3,800 words, 32 links, decision trees
+
+See `source/content/Learning/CONTRIBUTING-LEARNING.md` for complete Learning article standards.
+
+---
+
 ## Validation Rules
 
 ### General Rules for All Content Types
@@ -655,6 +824,324 @@ For position files with common errors:
    - Use ISO 8601 duration format
    - PT5M = 5 minutes (typical)
    - Adjust based on technique complexity
+
+---
+
+## SEO Schema Patterns
+
+This section documents the different schema patterns used across BJJ Graph content types, with specific guidance on when to use each pattern and how they differ.
+
+### Educational HowTo vs Technical HowTo
+
+BJJ Graph uses two distinct HowTo schema patterns depending on content type:
+
+#### Educational HowTo (Learning Articles)
+**Purpose**: Teach conceptual understanding and learning progression
+**Timeframe**: PT10M to PT12M (10-12 minutes reading time)
+**Step Focus**: Educational concepts, not physical execution
+
+**Example - Understanding a Concept:**
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Understanding BJJ Position Hierarchy",
+  "description": "Learn to navigate the positional hierarchy in Brazilian Jiu-Jitsu from standing positions through submissions",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Understand Neutral Standing Position",
+      "text": "Begin from the neutral standing position where both competitors have equal opportunity. This is the 0-point baseline where matches start.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Establish Guard Position",
+      "text": "Progress to guard positions (0 points) where you control distance and create offensive opportunities. Guard is defensive but offers strategic advantage.",
+      "position": 2
+    }
+  ],
+  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
+  "totalTime": "PT12M"
+}
+```
+
+**Characteristics:**
+- Steps describe learning progression, not physical technique
+- Time reflects reading/comprehension time
+- Focus on understanding concepts and relationships
+- Narrative explanations in step text
+- 5-7 steps typical
+
+#### Technical HowTo (Positions/Transitions/Submissions)
+**Purpose**: Teach physical technique execution
+**Timeframe**: PT5M to PT8M (5-8 minutes execution time)
+**Step Focus**: Physical execution steps
+
+**Example - Executing a Technique:**
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Execute Hip Bump Sweep from Closed Guard",
+  "description": "Step-by-step guide to performing Hip Bump Sweep technique from Closed Guard Bottom position",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Establish Closed Guard Control",
+      "text": "Lock your legs around opponent's waist with ankles crossed. Break their posture by pulling them forward with grip on collar or back of neck.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Create Off-Balance Angle",
+      "text": "Post your left hand on the mat beside your hip. Sit up at 45-degree angle toward your left side, creating space between your hips and opponent.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Hip Bump",
+      "text": "Drive your hips up and forward into opponent's chest while pulling their head over your left shoulder. Use momentum to sweep them backward.",
+      "position": 3
+    }
+  ],
+  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
+  "totalTime": "PT5M"
+}
+```
+
+**Characteristics:**
+- Steps describe physical movements
+- Time reflects actual execution time
+- Focus on body positioning and mechanics
+- Specific instructions for each step
+- 6-8 steps typical
+
+### FAQ Schema Standards
+
+FAQ schema requirements differ between content types based on educational depth and audience needs.
+
+#### Standard FAQ (Positions/Transitions) - 5 Questions Minimum
+**Audience**: Practitioners seeking technique clarification
+**Answer Length**: 1-2 sentences
+**Focus**: Technical execution, common mistakes, success rates
+
+**Example:**
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the success rate for Hip Bump Sweep?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hip Bump Sweep success rates are: Beginner 50%, Intermediate 70%, Advanced 85%. Success increases with better timing and opponent posture recognition."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the most common mistake with Hip Bump Sweep?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most common mistake is attempting the sweep without first breaking opponent's posture. This results in opponent posting their hand to prevent the sweep (failure rate 70%)."
+      }
+    }
+  ]
+}
+```
+
+#### Enhanced FAQ (Learning Articles) - 6-8 Questions
+**Audience**: Students seeking comprehensive understanding
+**Answer Length**: 2-3 sentences with specific data
+**Focus**: Conceptual understanding, strategic application, comparisons
+
+**Example:**
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is positional hierarchy in BJJ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Positional hierarchy in BJJ is the systematic ranking of positions from neutral to dominant, where each position offers increasing control, submission opportunities, and point values. The hierarchy progresses from standing (0 points) to guard (0 points) to guard passing (3 points) to pins (4 points) to submissions (match win). This structure reflects biomechanical advantages where certain body configurations provide more control than others."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the IBJJF point system reflect positional hierarchy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The IBJJF point system awards points based on positional advancement: Guard Pass (3 points), Knee on Belly (2 points), Mount/Back Control (4 points), Sweep (2 points), Takedown (2 points). Higher point values reflect positions with greater control and submission potential, directly mirroring the hierarchical structure."
+      }
+    }
+  ]
+}
+```
+
+**FAQ Standards by Content Type:**
+
+| Content Type | Minimum Questions | Answer Length | Data Requirements |
+|--------------|------------------|---------------|-------------------|
+| Positions | 5 | 1-2 sentences | Success rates, common errors |
+| Transitions | 5 | 1-2 sentences | Success rates, physical requirements |
+| Submissions | 6 | 2-3 sentences | Safety data, success rates, injuries |
+| Learning Articles | 6-8 | 2-3 sentences | Statistics, comparisons, strategic data |
+| Concepts | 5 | 1-2 sentences | Applications, principles |
+| Systems | 5 | 2-3 sentences | System components, strategic value |
+
+### ItemList Schema Usage
+
+ItemList schema is used for rankings, categorical lists, and Top 10 patterns. It's primarily used in Learning articles and hub pages.
+
+#### When to Use ItemList
+
+**Use ItemList for:**
+- Ranked lists (Top 10 Submissions, Best Guards for Beginners)
+- Categorical organization (All Guards by Type)
+- Learning progressions (White Belt → Black Belt techniques)
+- Comparison rankings (Success Rates by Position)
+
+**Do NOT use ItemList for:**
+- Simple bulleted lists
+- Navigation menus
+- Unordered collections
+- Related content suggestions
+
+#### ItemList Examples
+
+**Ranking Pattern (Top 10):**
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Top 10 BJJ Submissions by Success Rate",
+  "description": "Highest percentage submissions in competition ranked by success rate across all belt levels",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Rear Naked Choke",
+      "url": "https://bjjgraph.com/submissions/rear-naked-choke",
+      "description": "75% average success rate from back control"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Armbar from Mount",
+      "url": "https://bjjgraph.com/submissions/armbar-from-mount",
+      "description": "68% average success rate from mount position"
+    }
+  ]
+}
+```
+
+**Categorical Pattern (Guard Types):**
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "BJJ Guard Types by Category",
+  "description": "Complete list of Brazilian Jiu-Jitsu guard positions organized by category",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Closed Guard Bottom",
+      "url": "https://bjjgraph.com/positions/closed-guard-bottom"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Open Guard Bottom",
+      "url": "https://bjjgraph.com/positions/open-guard-bottom"
+    }
+  ]
+}
+```
+
+### Multiple Schema Coordination
+
+Learning articles use 5 concurrent schemas that work together without conflict. Here's how they coordinate:
+
+**Schema Stack for Learning Articles:**
+
+1. **WebPage** (Base layer)
+   - Identifies page as part of bjjgraph.com
+   - Provides basic metadata
+   - Required for all pages
+
+2. **BreadcrumbList** (Navigation layer)
+   - Shows page location in site hierarchy
+   - Includes "Learning" category level
+   - Helps Google understand content organization
+
+3. **HowTo** (Educational layer)
+   - Teaches conceptual progression
+   - PT10M-PT12M reading timeframe
+   - Educational steps, not technical execution
+
+4. **FAQPage** (Q&A layer)
+   - 6-8 detailed questions
+   - 2-3 sentence answers with data
+   - Addresses common student questions
+
+5. **ItemList** (Organizational layer - when applicable)
+   - Rankings or categorical organization
+   - Only included when content has ranked/ordered lists
+   - Optional based on content structure
+
+**Coordination Rules:**
+- All 5 schemas use same `@context`: "https://schema.org"
+- Each schema in separate `<script type="application/ld+json">` tag
+- Ordered: WebPage → BreadcrumbList → HowTo → FAQ → ItemList (if present)
+- No overlapping properties between schemas
+- Total schema markup: 3-5 KB per page (acceptable overhead)
+
+**Example Schema Placement in Learning Article:**
+```html
+---
+title: "Article Title"
+description: "Article description"
+---
+
+<script type="application/ld+json">
+{WebPage schema}
+</script>
+
+<script type="application/ld+json">
+{BreadcrumbList schema}
+</script>
+
+<script type="application/ld+json">
+{HowTo schema}
+</script>
+
+<script type="application/ld+json">
+{FAQPage schema}
+</script>
+
+<script type="application/ld+json">
+{ItemList schema - if applicable}
+</script>
+
+# Article Content Begins Here
+```
+
+### Schema Pattern Summary Table
+
+| Content Type | HowTo Type | FAQ Count | FAQ Length | ItemList? | Total Schemas |
+|--------------|-----------|-----------|------------|-----------|---------------|
+| **Learning Articles** | Educational (PT12M) | 6-8 | 2-3 sentences | Often | 5 |
+| **Positions** | Technical (PT5M) | 5 | 1-2 sentences | Rarely | 3-4 |
+| **Transitions** | Technical (PT5M) | 5 | 1-2 sentences | No | 3-4 |
+| **Submissions** | Technical (PT5M) | 6 | 2-3 sentences | No | 3-4 |
+| **Hub Pages** | Educational (PT10M) | 6-8 | 2-3 sentences | Yes | 5 |
+| **Concepts** | Educational (PT8M) | 5 | 1-2 sentences | Rarely | 3-4 |
 
 ---
 

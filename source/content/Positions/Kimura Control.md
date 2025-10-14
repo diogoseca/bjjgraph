@@ -386,9 +386,9 @@ Your chest may be pressed against their shoulder to prevent their escape, while 
 ## Offensive Transitions (Available From This State)
 - [[Kimura Finish]] → [[Won by Submission]] (Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%)
 - [[Back Take from Kimura]] → [[Back Control]] (Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%)
-- [[Armbar from Kimura]] → [[Armbar Control]] (Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%)
+- [[Armbar from Guard]] → [[Armbar Control]] (Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%)
 - [[Sweep from Kimura]] → [[Top Position]] (Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%)
-- [[Triangle from Failed Kimura]] → [[Triangle Control]] (Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%)
+- [[Triangle from Failed Kimura]] → [[Triangle Choke Side]] (Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%)
 - [[Omoplata from Kimura]] → [[Omoplata Control]] (Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%)
 - [[Wrist Lock from Kimura]] → [[Won by Submission]] (Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%)
 
@@ -479,7 +479,7 @@ Else if opponent tries to roll:
 - Or Execute [[Sweep from Kimura]] → [[Top Position]] (Probability: 55%)
 
 Else if opponent straightens arm:
-- Switch to [[Armbar from Kimura]] → [[Armbar Control]] (Probability: 50%)
+- Switch to [[Armbar from Guard]] → [[Armbar Control]] (Probability: 50%)
 - Or Maintain [[Kimura Control]] → [[Kimura Control]] (Probability: 40%)
 
 ## Position Metrics
@@ -499,13 +499,13 @@ Else if opponent straightens arm:
 *Reasoning: Following opponent's roll creates highest success rate (60-80%), establishes dominant position before finishing*
 
 **Alternative submission chain:**
-[[Kimura Control]] → [[Armbar from Kimura]] → [[Armbar Control]] → [[Won by Submission]]
+[[Kimura Control]] → [[Armbar from Guard]] → [[Armbar Control]] → [[Won by Submission]]
 *Reasoning: When opponent straightens arm to defend Kimura, switching to armbar becomes highly effective, success rate 50-70%*
 
 **Sweep to dominance path:**
-[[Kimura Control]] → [[Sweep from Kimura]] → [[Top Position]] → [[Side Control]] → [[Mount]] → [[Submission Chain]] → [[Won by Submission]]
+[[Kimura Control]] → [[Sweep from Kimura]] → [[Top Position]] → [[Side Control]] → [[Mount]] → [[Submission Chains]] → [[Won by Submission]]
 *Reasoning: Using Kimura grip as leverage for sweep establishes top position, allowing methodical progression to submissions*
 
 **System-based path (Danaher methodology):**
-[[Kimura Control]] → [[Triangle from Failed Kimura]] → [[Triangle Control]] → [[Triangle Choke]] → [[Won by Submission]]
+[[Kimura Control]] → [[Triangle from Failed Kimura]] → [[Triangle Choke Side]] → [[Won by Submission]]
 *Reasoning: Systematic approach recognizes when primary attack is defended and immediately switches to alternative shoulder/arm attack system*

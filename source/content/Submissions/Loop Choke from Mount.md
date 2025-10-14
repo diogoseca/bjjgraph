@@ -50,3 +50,5 @@ Loop choke variation applied from mount position, using deep collar grip and rol
 - [[Loop Choke]]
 - [[Technical Mount]]
 - [[Cross Collar Choke]]
+
+**Ending State**: [[Won by Submission]]

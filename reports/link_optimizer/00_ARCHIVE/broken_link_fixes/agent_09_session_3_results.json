@@ -1,0 +1,132 @@
+{
+  "session": 3,
+  "agent": 9,
+  "total_fixes_assigned": 12,
+  "fixes_completed": 12,
+  "fixes_failed": 0,
+  "timestamp": "2025-10-13T00:00:00Z",
+  "fixes": [
+    {
+      "source_file": "Twister Setup",
+      "broken_link": "Wrist Control",
+      "fixed_link": "Twister Control",
+      "confidence": 85.71,
+      "status": "completed",
+      "file_path": "/source/content/Submissions/Twister Setup.md",
+      "line_context": "Wrist Control: Fighting for control of gripped arm"
+    },
+    {
+      "source_file": "Twister Setup",
+      "broken_link": "Truck Defense",
+      "fixed_link": "Stack Defense",
+      "confidence": 84.62,
+      "status": "completed",
+      "file_path": "/source/content/Submissions/Twister Setup.md",
+      "line_context": "Hip Escape: Escaping hip control to regain mobility"
+    },
+    {
+      "source_file": "Twister Setup",
+      "broken_link": "Resulting Position",
+      "fixed_link": "Standing Position",
+      "confidence": 80.0,
+      "status": "completed",
+      "file_path": "/source/content/Submissions/Twister Setup.md",
+      "line_context": "Accept transition to [[Twister Control]] (Probability: Success Rate - Modifiers)"
+    },
+    {
+      "source_file": "Underhook Defense",
+      "broken_link": "Side Control Bottom",
+      "fixed_link": "Side Control",
+      "confidence": 80.0,
+      "status": "completed",
+      "file_path": "/source/content/Concepts/Underhook Defense.md",
+      "line_context": "Scenario 3: when attempting to establish underhook for escape"
+    },
+    {
+      "source_file": "Underhook Defense",
+      "broken_link": "Half Guard",
+      "fixed_link": "Half Guard Top",
+      "confidence": 83.33,
+      "status": "completed",
+      "file_path": "/source/content/Concepts/Underhook Defense.md",
+      "line_context": "related_positions list"
+    },
+    {
+      "source_file": "Ushiro Ashi Garami",
+      "broken_link": "Resulting Position",
+      "fixed_link": "Standing Position",
+      "confidence": 80.0,
+      "status": "completed",
+      "file_path": "/source/content/Positions/Ushiro Ashi Garami.md",
+      "line_context": "Roll Escape: Opponent rolls to break entanglement"
+    },
+    {
+      "source_file": "Waiter Sweep",
+      "broken_link": "Triangle Choke",
+      "fixed_link": "Triangle Choke Side",
+      "confidence": 84.85,
+      "status": "completed",
+      "file_path": "/source/content/Transitions/Waiter Sweep.md",
+      "line_context": "Closed Guard Bottom → Failed Waiter Sweep → Triangle Choke"
+    },
+    {
+      "source_file": "Weight Distribution",
+      "broken_link": "Side Control Top",
+      "fixed_link": "Side Control",
+      "confidence": 85.71,
+      "status": "completed",
+      "file_path": "/source/content/Concepts/Weight Distribution.md",
+      "line_context": "related_positions list - replaced North-South Top with North-South Control"
+    },
+    {
+      "source_file": "Whizzer Control",
+      "broken_link": "Whizzer Sweep",
+      "fixed_link": "Waiter Sweep",
+      "confidence": 80.0,
+      "status": "completed",
+      "file_path": "/source/content/Concepts/Whizzer Control.md",
+      "line_context": "Offensive Opportunities from Whizzer"
+    },
+    {
+      "source_file": "Williams Guard",
+      "broken_link": "Guard Breaking",
+      "fixed_link": "Grip Breaking",
+      "confidence": 81.48,
+      "status": "completed",
+      "file_path": "/source/content/Positions/Williams Guard.md",
+      "line_context": "Defensive Responses - Posture and Stack → grip breaking"
+    },
+    {
+      "source_file": "Williams Guard",
+      "broken_link": "Posture Establishment",
+      "fixed_link": "Guard Establishment",
+      "confidence": 80.0,
+      "status": "completed",
+      "file_path": "/source/content/Positions/Williams Guard.md",
+      "line_context": "Defensive Responses - Forward Pressure → guard establishment"
+    },
+    {
+      "source_file": "Williams Guard",
+      "broken_link": "Dead Orchard Entry",
+      "fixed_link": "Dead Orchard Control",
+      "confidence": 84.21,
+      "status": "completed",
+      "file_path": "/source/content/Positions/Williams Guard.md",
+      "line_context": "Offensive Transitions and Decision Tree"
+    }
+  ],
+  "summary": {
+    "total_files_modified": 7,
+    "files_modified": [
+      "Twister Setup.md",
+      "Underhook Defense.md",
+      "Ushiro Ashi Garami.md",
+      "Waiter Sweep.md",
+      "Weight Distribution.md",
+      "Whizzer Control.md",
+      "Williams Guard.md"
+    ],
+    "average_confidence": 82.53,
+    "completion_rate": "100%"
+  }
+}

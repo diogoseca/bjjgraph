@@ -7,6 +7,7 @@ development_timeline: Intermediate to Expert
 
 related_positions:
   - Mount Top
+  - Mount
   - Back Control
   - Closed Guard Bottom
   - Side Control Top
@@ -76,6 +77,7 @@ Submission Chains represent the advanced tactical principle of linking multiple 
 - **Submission Setup** - Establishing control points that enable multiple submission pathways
 
 ## Concept Relationships
+- **[[Triangle-Armbar-Omoplata Chain]]** - Specific example of submission chain theory applied from guard
 - **[[Control Maintenance]]** - Maintaining position throughout chains prevents losing dominance during submission transitions
 - **[[Position-Over-Submission Approach]]** - Chains enable aggressive submission attempts while preserving position security
 - **[[Pressure Application]]** - Continuous pressure throughout chains prevents opponent's defensive recovery
@@ -95,7 +97,7 @@ Submission Chains represent the advanced tactical principle of linking multiple 
 
 ### Common Scenarios Where Concept is Critical
 
-**Scenario 1: [[Mount Top]] when executing armbar-to-triangle chain**
+**Scenario 1: [[Mount Top]], [[Mount]] when executing armbar-to-triangle chain**
 → Apply submission chains by attempting armbar, recognizing opponent's arm extraction defense, transitioning to triangle using defensive positioning, then potentially to armbar on opposite arm creating three-submission chain.
 
 **Scenario 2: [[Back Control]] when executing rear naked choke chains**
@@ -104,7 +106,7 @@ Submission Chains represent the advanced tactical principle of linking multiple 
 **Scenario 3: [[Closed Guard Bottom]] when executing triangle-armbar-omoplata chain**
 → Apply submission chains by setting up triangle, recognizing opponent's posture defense, transitioning to armbar using defensive arm positioning, then to omoplata if opponent defends armbar by stacking.
 
-**Scenario 4: [[Side Control Top]] when executing arm triangle-to-back-take chain**
+**Scenario 4: [[Side Control]] when executing arm triangle-to-back-take chain**
 → Apply submission chains by attempting arm triangle, recognizing opponent's turning defense, using defensive rotation to transition to back control establishing new submission options.
 
 **Scenario 5: [[Triangle Control]] when chaining triangle-to-armbar-to-omoplata**

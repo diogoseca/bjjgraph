@@ -195,24 +195,24 @@ You are positioned behind your opponent's leg, seated or on your side, with thei
 ## Defensive Responses (When Opponent Has This State)
 - [[Emergency Heel Protection]] → [[Submission Defense]] (Success Rate: 30%)
 - [[Hip Elevation]] → [[Pressure Reduction]] (Success Rate: 25%)
-- [[Knee Line Recovery]] → [[Defensive Positioning]] (Success Rate: 20%)
+- [[Knee Line Recovery]] → [[Defensive Position]] (Success Rate: 20%)
 - [[Leg Retraction Attempt]] → [[Space Creation]] (Success Rate: 15%)
 - [[Upper Body Movement]] → [[Frame Creation]] (Success Rate: 10%)
 
 ## Offensive Transitions (Available From This State)
 - [[Backside 50/50 Heel Hook]] → [[Inside Heel Hook]] (Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%)
-- [[Cross Ashi Transition]] → [[Cross Ashi Garami]] (Success Rate: Beginner 40%, Intermediate 50%, Advanced 60%)
+- [[Cross Ashi Transition]] → [[Ushiro Ashi Garami]] (Success Rate: Beginner 40%, Intermediate 50%, Advanced 60%)
 - [[Transition to Top Position]] → [[Top Position]] (Success Rate: Beginner 35%, Intermediate 45%, Advanced 55%)
 - [[Backside 50/50 Ankle Lock]] → [[Straight Ankle Lock]] (Success Rate: Beginner 30%, Intermediate 40%, Advanced 50%)
 - [[Leg Reap Variation]] → [[Inside Sankaku]] (Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%)
 - [[Back Step to Mount]] → [[Mount]] (Success Rate: Beginner 20%, Intermediate 30%, Advanced 40%)
-- [[Full Leg Control]] → [[Leg Control Position]] (Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%)
-- [[Return to 50/50]] → [[50/50 Guard]] (Success Rate: Beginner 40%, Intermediate 50%, Advanced 60%)
+- [[Full Leg Control]] → [[Leg Knot Position]] (Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%)
+- [[Return to 50/50]] → [[50-50 Guard]] (Success Rate: Beginner 40%, Intermediate 50%, Advanced 60%)
 
 ## Counter Transitions
-- [[Re-establish Backside 50/50]] → [[Backside 50/50]] (against defensive movements)
+- [[Re-establish Backside 50/50]] → [[Backside 50-50]] (against defensive movements)
 - [[Switch to Inside Sankaku]] → [[Inside Sankaku]] (if position is compromised)
-- [[Transition to Cross Ashi]] → [[Cross Ashi Garami]] (under pressure)
+- [[Transition to Cross Ashi]] → [[Ushiro Ashi Garami]] (under pressure)
 
 ## Expert Insights
 - **Danaher System**: Views the Backside 50/50 as one of the premier control positions within the leg entanglement hierarchy, emphasizing its role as an improved variation of the standard 50/50. Focuses on precise mechanical details for controlling the opponent's knee line and preventing defensive rotations while maximizing heel exposure. Particularly emphasizes methodical progression from control to breaking mechanics when applying the heel hook.
@@ -244,9 +244,9 @@ You are positioned behind your opponent's leg, seated or on your side, with thei
 - **Position Maintenance**: Practice position maintenance against active defensive movement, maintaining control over the knee line and upper body.
 
 ## Related States
-- [[50/50 Guard]] - Related but less advantageous position
+- [[50-50 Guard]] - Related but less advantageous position
 - [[Inside Sankaku]] - Connected leg entanglement
-- [[Cross Ashi Garami]] - Related leg control position
+- [[Ushiro Ashi Garami]] - Related leg control position
 - [[Inside Heel Hook]] - Primary submission threat
 - [[Straight Ankle Lock]] - Secondary submission option
 
@@ -262,18 +262,18 @@ You are positioned behind your opponent's leg, seated or on your side, with thei
 ## Decision Tree
 If opponent attempts to hide heel:
 - Execute [[Backside 50/50 Heel Hook]] → [[Inside Heel Hook]] (Probability: 70%)
-- Or Execute [[Cross Ashi Transition]] → [[Cross Ashi Garami]] (Probability: 50%)
+- Or Execute [[Cross Ashi Transition]] → [[Ushiro Ashi Garami]] (Probability: 50%)
 
 Else if opponent elevates hips defensively:
 - Execute [[Leg Reap Variation]] → [[Inside Sankaku]] (Probability: 40%)
 - Or Execute [[Back Step to Mount]] → [[Mount]] (Probability: 35%)
 
 Else if opponent tries to create frames:
-- Execute [[Full Leg Control]] → [[Leg Control Position]] (Probability: 45%)
+- Execute [[Full Leg Control]] → [[Leg Knot Position]] (Probability: 45%)
 - Or Execute [[Backside 50/50 Ankle Lock]] → [[Straight Ankle Lock]] (Probability: 40%)
 
 Else if position becomes compromised:
-- Execute [[Return to 50/50]] → [[50/50 Guard]] (Probability: 55%)
+- Execute [[Return to 50/50]] → [[50-50 Guard]] (Probability: 55%)
 - Or Execute [[Transition to Top Position]] → [[Top Position]] (Probability: 50%)
 
 ## Position Metrics
@@ -285,13 +285,13 @@ Else if position becomes compromised:
 
 ## Optimal Paths
 Standard heel hook path:
-[[Backside 50/50]] → [[Backside 50/50 Heel Hook]] → [[Inside Heel Hook]] → [[Won by Submission]]
+[[Backside 50-50]] → [[Backside 50/50 Heel Hook]] → [[Inside Heel Hook]] → [[Won by Submission]]
 
 Positional advancement path:
-[[Backside 50/50]] → [[Transition to Top Position]] → [[Top Position]] → positional progression sequence
+[[Backside 50-50]] → [[Transition to Top Position]] → [[Top Position]] → positional progression sequence
 
 Alternative submission path:
-[[Backside 50/50]] → [[Cross Ashi Transition]] → [[Cross Ashi Garami]] → [[Inside Heel Hook]] → [[Won by Submission]]
+[[Backside 50-50]] → [[Cross Ashi Transition]] → [[Ushiro Ashi Garami]] → [[Inside Heel Hook]] → [[Won by Submission]]
 
 ## Historical Context
 The Backside 50/50 gained prominence in the mid-2010s as part of the broader evolution of the modern leg lock game. While the standard 50/50 had been established earlier, the backside variation represented a significant refinement that addressed many of the criticisms of the traditional position (such as its symmetrical nature and defensive stalemates). The position was popularized by practitioners from the Danaher Death Squad, particularly Gordon Ryan and Craig Jones, who demonstrated its effectiveness in high-level competition. The position exemplifies the ongoing technical evolution in BJJ, where established positions are continually refined and improved upon as the meta-game develops.

@@ -190,7 +190,7 @@ Else if [opponent leg] can be targeted with minimal resistance:
 - Attempt [[Leg Drag Setup]] to prepare for pass (Probability: 70%)
 
 Else if [opponent counters] with grip breaks or re-entanglement mid-setup:
-- Adjust to [[Posture Maintenance]] for defense (Probability: 60%)
+- Adjust to [[base maintenance]] for defense (Probability: 60%)
 
 Else if [setup fails] due to strong guard retention or sweep threat:
 - Reinforce [[Standing Guard]] to reset approach (Probability: 50%)

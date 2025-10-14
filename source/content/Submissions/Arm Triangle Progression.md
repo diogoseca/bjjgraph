@@ -53,7 +53,7 @@ description: "The Arm Triangle Progression is a systematic sequence of technique
 - **Submission ID**: S101
 - **Submission Name**: Arm Triangle Progression
 - **Alternative Names**: Kata Gatame Progression, Head and Arm Choke Sequence
-- **Starting Position**: [[Side Control]] or [[Mount]]
+- **Starting Position**: [[Side Control Top]], [[Side Control]], or [[Mount]]
 - **Ending State**: Submission (Opponent taps out or loses consciousness)
 - **Success Probability**: Beginner (30%), Intermediate (60%), Advanced (80%)
 - **Risk Level**: Medium - requires precise control to avoid losing position

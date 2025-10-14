@@ -103,9 +103,9 @@ The Banana Split is a groin stretch submission from truck position, spreading op
 ## Execution Steps
 
 1. Secure truck position
-2. Control both legs
+2. Control both legs with [[Angle Creation]]
 3. SLOWLY spread legs (5-7 seconds)
-4. Release SLOWLY upon tap
+4. Release SLOWLY upon tap to [[Standing Position]]
 
 ## Expert Insights
 

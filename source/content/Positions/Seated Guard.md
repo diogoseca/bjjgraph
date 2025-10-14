@@ -82,7 +82,7 @@ state_machine:
 
       - name: "Single Leg Takedown"
         target_state: "S003"
-        target_position: "Side Control Top"
+        target_position: "Side Control"
         success_rate:
           beginner: 30
           intermediate: 45
@@ -136,21 +136,21 @@ state_machine:
     defensive:
       - name: "Standing Pass"
         target_state: "S003"
-        target_position: "Side Control Top"
+        target_position: "Side Control"
         success_rate: 45
         counter_category: "pass"
         description: "Opponent stands and passes seated guard"
 
       - name: "Pressure Pass"
         target_state: "S003"
-        target_position: "Side Control Top"
+        target_position: "Side Control"
         success_rate: 40
         counter_category: "pass"
         description: "Opponent applies forward pressure and passes"
 
       - name: "Leg Drag"
         target_state: "S003"
-        target_position: "Side Control Top"
+        target_position: "Side Control"
         success_rate: 35
         counter_category: "pass"
         description: "Opponent drags legs and passes to side"

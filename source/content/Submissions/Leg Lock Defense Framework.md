@@ -54,7 +54,7 @@ description: "The Leg Lock Defense Framework is a comprehensive system designed 
 - **Defense Name**: Leg Lock Defense Framework
 - **Alternative Names**: Modern Leg Lock Defense System, Leg Entanglement Escape Protocol
 - **Target Threats**: Heel Hooks, Ankle Locks, Kneebars, Toe Holds, Leg Entanglements
-- **Starting Position**: Various Leg Entanglement Positions ([[Ashi Garami]], [[Inside Sankaku]], [[50/50 Guard]])
+- **Starting Position**: Various Leg Entanglement Positions ([[Ashi Garami]], [[Inside Sankaku]], [[50-50 Guard]])
 - **Ending State**: Escape (Return to neutral or dominant position)
 - **Success Probability**: Beginner (30%), Intermediate (60%), Advanced (80%)
 - **Risk Level**: High - leg locks pose significant injury risk if not defended properly
@@ -169,7 +169,7 @@ Else if [opponent secures Inside Sankaku]:
 Else if [opponent attacks straight ankle lock]:
 - Apply [[Defensive Posture]] then [[Stack Escape]] (Probability: 50%)
 
-Else if [opponent establishes 50/50 position]:
+Else if [opponent establishes 50-50 guard position]:
 - Use [[Internal Rotation Control]] then [[Entanglement Clearing]] (Probability: 45%)
 
 Else if [opponent targets kneebar]:

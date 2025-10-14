@@ -76,6 +76,7 @@ You are in mount position but with one leg posted high near opponent's head (kne
 - [[Triangle from S-Mount]] → [[Triangle Control]] (Beginner 35%, Intermediate 50%, Advanced 65%)
 - [[Return to Standard Mount]] → [[Mount]] (Beginner 70%, Intermediate 85%, Advanced 95%)
 - [[Transition to Back]] → [[Back Control]] (Beginner 30%, Intermediate 45%, Advanced 60%)
+- [[Won by Submission]] - Terminal state for successful submissions
 
 ## Expert Insights
 **John Danaher**: "The S-mount is one of the highest percentage positions for finishing armbars from mount. The leg configuration creates optimal angle and pressure for the armbar while maintaining mount control."

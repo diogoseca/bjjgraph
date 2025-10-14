@@ -21,6 +21,9 @@ related_transitions:
   - Pressure Pass
   - Toreando Pass
 
+## Key Principles
+Guard Pass is the direct technical implementation of guard passing principles.
+
 related_concepts:
   - Pressure Application
   - Base Maintenance
@@ -104,10 +107,10 @@ Guard Passing Principles represent the fundamental strategic and biomechanical c
 **Scenario 3: [[Half Guard Top]] when opponent establishes underhook defense**
 → Apply guard passing principles by preventing underhook, controlling opponent's head and far hip, then progressing through sequential stages to achieve side control or mount consolidation.
 
-**Scenario 4: [[De La Riva Guard Top]] when opponent establishes hooks and grips**
+**Scenario 4: [[De La Riva Guard]] when opponent establishes hooks and grips**
 → Apply guard passing principles by removing DLR hook through systematic positioning, controlling grips, and transitioning to advantageous passing position.
 
-**Scenario 5: [[Spider Guard Top]] when opponent establishes foot-in-biceps control**
+**Scenario 5: [[spider guard]] when opponent establishes foot-in-biceps control**
 → Apply guard passing principles by removing or controlling spider hooks, establishing grip control, and applying passing pressure while maintaining postural stability.
 
 ### Relationship to Other Concepts

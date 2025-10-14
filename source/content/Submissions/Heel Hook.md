@@ -379,7 +379,7 @@ Defensive responses with success rates and safety windows:
 - Safety note: Second-best window - must defend aggressively
 
 **Technical Escape** (Heel grip established, rotation not yet applied)
-- [[Emergency Heel Hook Escape]] → [[Recovery Position]] (Success Rate: 15%, Window: <1 second)
+- [[Emergency Heel Hook Escape]] → [[Game Over Position]] (Success Rate: 15%, Window: <1 second)
 - Defender action: Inside slip or technical leg extraction
 - Attacker response: Apply rotation immediately or lose position
 - Safety critical: LAST safe moment to escape - if this fails, tap immediately

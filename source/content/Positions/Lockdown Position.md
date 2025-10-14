@@ -45,7 +45,7 @@ state_machine:
 
   transitions:
     offensive:
-      - name: "Electric Chair Sweep"
+      - name: "electric chair"
         target_state: "S011"
         target_position: "Top Half Guard"
         success_rate:
@@ -73,7 +73,7 @@ state_machine:
 
       - name: "Whip Up to Dog Fight"
         target_state: "S028"
-        target_position: "Dog Fight Position"
+        target_position: "dogfight position"
         success_rate:
           beginner: 50
           intermediate: 65
@@ -97,9 +97,9 @@ state_machine:
         execution_time: "Slow"
         description: "Attack calf/knee from lockdown position"
 
-      - name: "Transition to Electric Chair"
+      - name: "Transition to electric chair"
         target_state: "S221"
-        target_position: "Electric Chair Position"
+        target_position: "electric chair submission"
         success_rate:
           beginner: 45
           intermediate: 60
@@ -126,21 +126,21 @@ state_machine:
     defensive:
       - name: "Lockdown Counter to Knee Slice"
         target_state: "S003"
-        target_position: "Side Control Bottom"
+        target_position: "Side Control"
         success_rate: 45
         counter_category: "pass"
         description: "Opponent extracts leg and passes to side control"
 
       - name: "Lockdown Break and Stack Pass"
         target_state: "S001"
-        target_position: "Mount Bottom"
+        target_position: "Mount"
         success_rate: 35
         counter_category: "pass"
         description: "Breaking lockdown by stacking pressure"
 
       - name: "Opponent Maintains Half Guard Top"
         target_state: "S010"
-        target_position: "Half Guard Top"
+        target_position: "side control"
         success_rate: 40
         counter_category: "control"
         description: "Opponent defends lockdown and maintains top position"
@@ -160,7 +160,7 @@ state_machine:
         description: "Use their posture to come up to knees"
 
       - opponent_action: "Knee Slice Pass Attempt"
-        your_counter: "Electric Chair"
+        your_counter: "electric chair"
         target_state: "S221"
         success_rate: 50
         description: "Trap leg and elevate before pass completes"
@@ -177,7 +177,7 @@ state_machine:
           target_state: "S011"
           probability: 55
           reasoning: "Low posture creates rolling sweep opportunity"
-        - technique: "Electric Chair Setup"
+        - technique: "electric chair"
           target_state: "S221"
           probability: 50
           reasoning: "Heavy pressure prevents posting, allows elevation"
@@ -189,7 +189,7 @@ state_machine:
         - "Hips pulling away"
         - "Leg attempting to clear"
       actions:
-        - technique: "Whip Up to Dog Fight"
+        - technique: "Whip Up to Dogfight"
           target_state: "S028"
           probability: 65
           reasoning: "Forward momentum aids coming to knees"
@@ -221,7 +221,7 @@ state_machine:
         - "Waiting for opening"
         - "Maintaining control"
       actions:
-        - technique: "Begin Electric Chair Setup"
+        - technique: "Begin electric chair"
           target_state: "S221"
           probability: 50
           reasoning: "Proactive attack from lockdown"
@@ -283,12 +283,12 @@ state_machine:
   progressions:
     leads_to:
       - state_id: "S221"
-        position: "Electric Chair Position"
+        position: "electric chair submission"
         relationship: "natural_progression"
         description: "Elevating opponent from lockdown"
 
       - state_id: "S028"
-        position: "Dog Fight Position"
+        position: "dogfight position"
         relationship: "natural_progression"
         description: "Coming up to knees from lockdown"
 
@@ -328,12 +328,12 @@ schema_org:
         text: "Roll backwards using lockdown to sweep opponent over your head to top half guard position."
         position: 3
 
-      - name: "Execute Electric Chair"
+      - name: "Execute electric chair"
         text: "Underhook opponent and elevate using lockdown, creating sweeping or submission opportunities."
         position: 4
 
-      - name: "Whip Up to Dog Fight"
-        text: "Use lockdown to off-balance opponent and come up to your knees into dog fight position."
+      - name: "Whip Up to dogfight"
+        text: "Use lockdown to off-balance opponent and come up to your knees into dogfight position."
         position: 5
 
     tools:
@@ -350,8 +350,8 @@ schema_org:
       answer: "Keep your locked ankle hidden beneath opponent's leg, maintain constant tension, and be ready to unlock if opponent commits to leg attack. The Lockdown should control opponent's leg, not expose yours."
       category: "defense"
 
-    - question: "When should I use Old School Sweep vs Electric Chair from Lockdown?"
-      answer: "Use Old School when opponent's posture is low and forward - roll them backwards. Use Electric Chair when opponent is more upright - elevate them sideways. Old School works against heavy pressure; Electric Chair against extension."
+    - question: "When should I use Old School Sweep vs electric chair from Lockdown?"
+      answer: "Use Old School when opponent's posture is low and forward - roll them backwards. Use electric chair when opponent is more upright - elevate them sideways. Old School works against heavy pressure; electric chair against extension."
       category: "tactics"
 
     - question: "How tight should the Lockdown be?"
@@ -468,7 +468,7 @@ llm_context:
 
     - condition: "Underhook secured"
       modifier: +10
-      applies_to: "Electric Chair transitions"
+      applies_to: "electric chair transitions"
       description: "Underhook critical for elevation"
 
     - condition: "Opponent fatigued"
@@ -493,7 +493,7 @@ llm_context:
 
   dilemmas:
     - scenario: "Opponent drives heavy pressure to pass"
-      dilemma_created: "Forward pressure creates Old School Sweep opportunity but makes Electric Chair difficult"
+      dilemma_created: "Forward pressure creates Old School Sweep opportunity but makes electric chair difficult"
       offensive_options:
         - "Old School Sweep → Top Half Guard (Success: 55%)"
         - "Roll to Deep Half → Deep Half Guard (Success: 45%)"
@@ -502,28 +502,28 @@ llm_context:
     - scenario: "Opponent posts hands to extract trapped leg"
       dilemma_created: "Posting creates space but removes base, allowing Whip Up or back exposure"
       offensive_options:
-        - "Whip Up to Dog Fight → Dog Fight Position (Success: 65%)"
+        - "Whip Up to dogfight → dogfight position (Success: 65%)"
         - "Homer Simpson Back Take → Back Control (Success: 40%)"
       narrative: "Your opponent posts their hands, trying to pull their leg free. This extension gives you the momentum to either come up to your knees or take their back."
 
     - scenario: "Opponent maintains neutral position in lockdown"
       dilemma_created: "Staying still allows you to attack but prevents their passing progress"
       offensive_options:
-        - "Electric Chair Setup → Electric Chair Position (Success: 50%)"
+        - "electric chair Setup → electric chair position (Success: 50%)"
         - "Vaporizer Attack → Submission (Success: 35%)"
-      narrative: "Your opponent freezes, trapped in your lockdown. They're safe from being swept, but now you have time to attack their trapped leg with submissions or set up the Electric Chair."
+      narrative: "Your opponent freezes, trapped in your lockdown. They're safe from being swept, but now you have time to attack their trapped leg with submissions or set up the electric chair."
 
   narrative_prompts:
     entry: "You secure half guard and feel their leg trapped between yours. Your bottom leg snakes over their shin as your top leg clamps down, locking your ankle behind their knee. The lockdown is set. Their leg is yours."
     control: "Your legs are a vice around their trapped leg. Every movement they make, you counter with a pulse of your lockdown. They're stuck, frustrated, unable to pass or escape. You control the pace now."
-    attack_initiation: "You feel their weight shift forward - it's time. You secure the underhook and begin to elevate. The Electric Chair is coming. Or they post to resist, and you whip your hips up, coming to your knees. Either way, you're attacking."
+    attack_initiation: "You feel their weight shift forward - it's time. You secure the underhook and begin to elevate. The electric chair is coming. Or they post to resist, and you whip your hips up, coming to your knees. Either way, you're attacking."
     success: "The Old School Sweep completes perfectly. You roll backwards over your shoulder, your lockdown pulling them over you like a catapult. You land in top half guard, the position reversed. The sweep worked beautifully."
     failure: "They time it perfectly, sprawling their weight back as you attempt the sweep. Your lockdown loses tension. They pull their leg free and drive forward into a passing position. You must recover quickly."
     position_loss: "Your lockdown breaks as they extract their leg, sliding it free with a powerful pull. They're passing to side control. Frame, shrimp, and recover your guard before they establish control."
 
   knowledge_questions:
     - question: "What are the two main sweep options from Lockdown Position and when do you use each?"
-      answer: "Old School Sweep (rolling backwards) works best when opponent has low posture and forward pressure; Electric Chair (elevation sweep) works best when opponent is more upright. Old School uses their pressure against them; Electric Chair uses elevation and off-balancing."
+      answer: "Old School Sweep (rolling backwards) works best when opponent has low posture and forward pressure; electric chair (elevation sweep) works best when opponent is more upright. Old School uses their pressure against them; electric chair uses elevation and off-balancing."
       difficulty: "beginner"
       category: "fundamentals"
       points: 10
@@ -547,7 +547,7 @@ llm_context:
       points: 15
 
     - question: "Explain the relationship between upper body control and sweep selection from Lockdown."
-      answer: "Underhook enables Electric Chair by allowing you to elevate opponent sideways; inside bicep grip enables Old School by controlling their shoulder as you roll backwards. Crossface (opponent's control) shuts down most sweeps. The grip dictates which attacks are available - adapt your sweep to your upper body position."
+      answer: "Underhook enables electric chair by allowing you to elevate opponent sideways; inside bicep grip enables Old School by controlling their shoulder as you roll backwards. Crossface (opponent's control) shuts down most sweeps. The grip dictates which attacks are available - adapt your sweep to your upper body position."
       difficulty: "advanced"
       category: "tactics|integration"
       points: 20
@@ -592,18 +592,18 @@ From this position, you can execute:
 
 ### Sweeps
 
-- [[Electric Chair Sweep]] → [[Top Half Guard]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
+- [[electric chair]] → [[Top Half Guard]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
   - Secure underhook on trapped leg side, use lockdown to elevate opponent sideways, completing sweep to top position or submission
 
 - [[Old School Sweep]] → [[Top Half Guard]] (Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%)
   - Classic rolling sweep going backwards over your shoulder, using lockdown to pull opponent over you like a catapult
 
-- [[Whip Up to Dog Fight]] → [[Dog Fight Position]] (Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%)
+- [[Whip Up to Dog Fight]] → [[dogfight position]] (Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%)
   - Use lockdown to off-balance opponent and come up to your knees, entering scramble position
 
 ### Position Improvements
 
-- [[Transition to Electric Chair]] → [[Electric Chair Position]] (Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%)
+- [[Transition to electric chair]] → [[electric chair submission]] (Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%)
   - Secure underhook and elevate opponent using lockdown, creating elevated control position
 
 - [[Lockdown to Deep Half]] → [[Deep Half Guard]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
@@ -640,11 +640,11 @@ When opponent has this position against you, available counters:
 **If** opponent maintains low posture and heavy pressure:
 - Execute [[Old School Sweep]] → [[Top Half Guard]] (Probability: 55%)
   - Reasoning: Low forward pressure loads the rolling sweep perfectly - use their weight against them
-- Or Execute [[Electric Chair Setup]] → [[Electric Chair Position]] (Probability: 50%)
+- Or Execute [[electric chair]] → [[electric chair submission]] (Probability: 50%)
   - Reasoning: Heavy pressure prevents them from posting, allows elevation
 
 **Else if** opponent posts and tries to extract leg:
-- Execute [[Whip Up to Dog Fight]] → [[Dog Fight Position]] (Probability: 65%)
+- Execute [[Whip Up to Dog Fight]] → [[dogfight position]] (Probability: 65%)
   - Reasoning: Their forward momentum and extension aids coming to knees
 - Or Execute [[Homer Simpson Back Take]] → [[Back Control]] (Probability: 40%)
   - Reasoning: Extension creates back exposure opportunity
@@ -656,7 +656,7 @@ When opponent has this position against you, available counters:
   - Reasoning: Reset position and wait for cleaner opening
 
 **Else** (balanced opponent / default):
-- Begin [[Electric Chair Setup]] → [[Electric Chair Position]] (Probability: 50%)
+- Begin [[electric chair Setup]] → [[electric chair position]] (Probability: 50%)
   - Reasoning: Proactive attack from lockdown creates dilemma
 - Or Execute [[Vaporizer Attack]] → [[Vaporizer Lock]] (Probability: 35%)
   - Reasoning: Direct submission threat on trapped leg
@@ -726,9 +726,9 @@ Partner locks lockdown on you. Practice the defensive sequence: sprawl weight ba
 ## Related Positions
 
 - [[Half Guard Bottom]] - Traditional half guard is the foundation; lockdown is an advanced variation with leg triangle control
-- [[Electric Chair Position]] - Natural progression from lockdown when you secure underhook and elevate opponent
+- [[electric chair position]] - Natural progression from lockdown when you secure underhook and elevate opponent
 - [[Deep Half Guard]] - Alternative bottom half guard variation; can transition from lockdown by inverting
-- [[Dog Fight Position]] - Common transition when you whip up to your knees from lockdown
+- [[dogfight position]] - Common transition when you whip up to your knees from lockdown
 - [[Rubber Guard]] - Related 10th Planet position also using leg control from guard, sharing systematic philosophy
 - [[Z-Guard]] - Another half guard variation using knee shield; can transition between lockdown and Z-guard
 - [[Half Guard Top]] - Understanding top position helps anticipate opponent's counters and defenses
@@ -740,8 +740,8 @@ Partner locks lockdown on you. Practice the defensive sequence: sprawl weight ba
 *Reasoning: Direct leg attack from lockdown when opponent's leg is trapped. Requires specific knowledge and opponent vulnerability, but available immediately without transitions. Success rate lower but time to submission fastest.*
 
 **High-percentage path** (systematic):
-[[Lockdown Position]] → [[Electric Chair Position]] → [[Electric Chair Sweep]] → [[Top Half Guard]] → [[Pass to Mount]] → [[Submission from Mount]] → [[Won by Submission]]
-*Reasoning: Using lockdown to establish Electric Chair control, sweeping to top, then passing and submitting. More steps but each has high success rate. Follows 10th Planet systematic approach.*
+[[Lockdown Position]] → [[electric chair position]] → [[electric chair Sweep]] → [[Top Half Guard]] → [[Pass to Mount]] → [[Submission from Mount]] → [[Won by Submission]]
+*Reasoning: Using lockdown to establish electric chair control, sweeping to top, then passing and submitting. More steps but each has high success rate. Follows 10th Planet systematic approach.*
 
 **Old School Sweep path** (classic):
 [[Lockdown Position]] → [[Old School Sweep]] → [[Top Half Guard]] → [[Pass to Side Control]] → [[Submission from Side Control]] → [[Won by Submission]]

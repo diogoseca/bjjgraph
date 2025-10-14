@@ -99,8 +99,9 @@ You are positioned to the side of your opponent with one of their legs dragged a
 
 ## Offensive Transitions
 - [[Complete Leg Drag to Side]] → [[Side Control]] (Beginner 55%, Intermediate 70%, Advanced 85%)
-- [[Leg Drag to Back]] → [[Back Control]] (Beginner 35%, Intermediate 50%, Advanced 65%)
+- [[arm drag to back]] → [[Back Control]] (Beginner 35%, Intermediate 50%, Advanced 65%)
 - [[Leg Drag to Mount]] → [[Mount]] (Beginner 25%, Intermediate 40%, Advanced 55%)
+- [[Side Control Top]]
 
 ## Expert Insights
 **John Danaher**: "The leg drag is about creating an angle that makes guard retention impossible. Once you've dragged the leg across and established hip control, the opponent's defensive structure collapses."

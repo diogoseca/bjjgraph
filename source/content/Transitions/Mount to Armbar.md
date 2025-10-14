@@ -149,7 +149,7 @@ From a secure mount position atop your opponent, your knees pinch their ribs, hi
 - **Weight Shift**: Progressive redistribution from full mount to a transitional S-mount for better control.
 - **Hip Positioning**: Critical elevation and pivot of hips before and during the leg swing for leverage.
 - **Grip Security**: Maintaining constant control of the target arm throughout the transition to prevent escapes.
-- **Base Management**: Strategic posting with the free hand to prevent defensive bridging or rolling.
+- **Space Management**: Strategic posting with the free hand to prevent defensive bridging or rolling.
 - **Leg Swing Mechanics**: Precise trajectory of the leg over the opponent's head to avoid losing position.
 - **Alignment Principles**: Achieving perpendicular final position relative to the opponent's arm for optimal breaking mechanics.
 - **Control Continuity**: Ensuring uninterrupted control sequence despite positional changes by securing new control points before releasing old ones.
@@ -168,7 +168,7 @@ Analysis of opponent responses with success rates for counter-attacks after the 
 - [[Hitchhiker Escape]] → [[Top Position Recovery]] (Success Rate: 35%, Conditions: opponent rotates thumb to escape armbar grip)
 - [[Defensive Frame]] → [[Failed Isolation]] (Success Rate: 30%, Conditions: opponent frames early to prevent arm isolation)
 - [[Stack Counter]] → [[Positional Reversal]] (Success Rate: 25%, Conditions: opponent stacks weight forward to disrupt armbar setup)
-- [[Grip Fighting]] → [[Arm Retention]] (Success Rate: 45%, Conditions: opponent fights wrist control before leg swing)
+- [[Hand Fighting]] → [[Guard Recovery]] (Success Rate: 45%, Conditions: opponent fights wrist control before leg swing)
 - [[Roll to Knees]] → [[Turtle Position]] (Success Rate: 20%, Conditions: opponent rolls to knees during transition to escape)
 
 ## Decision Logic for Opponent Behavior
@@ -186,7 +186,7 @@ Else if [opponent stacks forward] to disrupt setup:
 - Transition to [[Return to Mount]] if armbar fails (Probability: 45%)
 
 Else if [opponent fights wrist grip] before leg swing:
-- Apply [[Collar Attack]] to distract and secure grip (Probability: 40%)
+- Apply [[Control Maintenance]] to distract and secure grip (Probability: 40%)
 
 Else if [opponent rolls to knees] during transition:
 - Follow to [[Back Control]] or maintain top pressure (Probability: 35%)

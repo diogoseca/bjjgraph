@@ -6,7 +6,7 @@ complexity_level: Medium
 development_timeline: Beginner to Advanced
 
 related_positions:
-  - Side Control Bottom
+  - Side Control to Mount
   - Mount Bottom
   - Back Control Bottom
   - North-South Bottom
@@ -95,7 +95,7 @@ Escape Fundamentals represent the core principles and mechanical patterns underl
 
 ### Common Scenarios Where Concept is Critical
 
-**Scenario 1: [[Side Control Bottom]] when opponent establishes chest-to-chest pressure**
+**Scenario 1: [[Side Control to Mount]] when opponent establishes chest-to-chest pressure**
 → Apply escape fundamentals by establishing near-side frame, shrimping hips away to create angle and space, then inserting knee shield or recovering guard through sequential movements.
 
 **Scenario 2: [[Mount Bottom]] when opponent achieves mounted position**

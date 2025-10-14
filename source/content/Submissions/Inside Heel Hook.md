@@ -44,8 +44,11 @@ tags:
   - advanced
 
 related_positions:
-  - "[[Inside Ashi Garami]]"
+  - "[[Inside Sankaku]]"
   - "[[Ashi Garami]]"
+  - "[[50-50 Guard]]"
+  - "[[Leg Entanglement]]"
+  - "[[Kneebar Control]]"
 
 date_created: "2025-10-13"
 author: "BJJGraph Agent 9"

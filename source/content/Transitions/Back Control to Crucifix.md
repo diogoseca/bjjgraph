@@ -154,9 +154,9 @@ The Back Control to Crucifix transition represents a sophisticated positional ad
 ## Common Counters
 - [[Arm Retraction]] → [[Back Control Recovery]]
 - [[Defensive Bridge]] → [[Escape Attempt]]
-- [[Head Fighting]] → [[Neck Protection]]
+- [[Hand Fighting]] → [[Neck Protection]]
 - [[Roll to Guard]] → [[Guard Recovery]]
-- [[Turtle Tuck]] → [[Defensive Turtle]]
+- [[Turtle Tuck]] → [[Defensive Position]]
 
 ## Variants
 - Traditional Crucifix Entry (classic back control transition)
@@ -182,11 +182,11 @@ The Back Control to Crucifix transition represents a sophisticated positional ad
 - Execute following failed submission attempt that creates defensive reaction
 
 ## Setup Connections
-- [[Rear Naked Choke Defense]] → [[Back Control to Crucifix]]
+- [[Rear Naked Choke]] → [[Back Control to Crucifix]]
 - [[Back Escape Attempt]] → [[Back Control to Crucifix]]
 - [[Defensive Turtle Turn]] → [[Back Control to Crucifix]]
-- [[Hand Fighting Sequence]] → [[Back Control to Crucifix]]
-- [[Body Triangle Control]] → [[Back Control to Crucifix]]
+- [[Hand Fighting]] → [[Back Control to Crucifix]]
+- [[Triangle Control]] → [[Back Control to Crucifix]]
 - [[Failed Collar Choke]] → [[Back Control to Crucifix]]
 
 ## Follow-up Options
@@ -194,7 +194,7 @@ The Back Control to Crucifix transition represents a sophisticated positional ad
 - [[Straight Armbar from Crucifix]] → [[Won by Submission]]
 - [[Crucifix Choke]] → [[Won by Submission]]
 - [[Wrist Lock from Crucifix]] → [[Won by Submission]]
-- [[Return to Back Control]] → [[Back Control]]
+- [[Turtle to Back Control]] → [[Back Control]]
 - [[Transition to North-South]] → [[North-South]]
 
 ## Common Errors

@@ -113,7 +113,7 @@ description: "Learn Tani Otoshi in BJJ. Step-by-step execution from Standing Pos
 
 ### State Machine Properties
 - **Starting State**: [[Standing Position]], [[Clinch Position]]
-- **Ending State**: [[Top Position]], [[Side Control]], [[Guard]]
+- **Ending State**: [[Top Position]], [[Side Control]], [[X-Guard]]
 - **Transition Type**: Attack - categorizes transition purpose
 
 ### Transition Properties
@@ -346,7 +346,7 @@ Tani otoshi is one of the classical judo techniques (gokyo) developed by Jigoro 
 **Common tani otoshi combinations:**
 - [[Standing Position]] → [[Tani Otoshi]] → [[Top Position]]
 - [[Clinch Position]] → [[Tani Otoshi]] → [[Side Control]]
-- [[Standing Position]] → [[Failed Tani Otoshi]] → [[Guard Bottom]]
+- [[Standing Position]] → [[Failed Tani Otoshi]] → [[Half Guard Bottom]]
 
 ## Training Applications
 - **Judo Integration**: Essential technique for BJJ practitioners learning throws

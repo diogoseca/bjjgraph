@@ -358,7 +358,7 @@ Transition to Omoplata has been a technical staple in Brazilian Jiu-Jitsu, parti
 
 ## Transition Integration
 **Common Transition to Omoplata combinations:**
-- [[Transition to Omoplata]] → [[Omoplata Control]] → [[Submission Finish]]
+- [[Transition to Omoplata]] → [[Omoplata Control]] → [[Submission Chains]]
 - [[Transition to Omoplata]] → [[Triangle Control]] → [[Submission Setup]]
 - [[Transition to Omoplata]] → [[Omoplata Sweep]] → [[Top Position]]
 

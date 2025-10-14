@@ -7,9 +7,9 @@ development_timeline: Beginner to Expert
 
 related_positions:
   - Mount Top
-  - Side Control Top
+  - Side Control
   - Knee on Belly
-  - North-South Top
+  - North-South Control
   - Half Guard Top
 
 related_transitions:
@@ -92,7 +92,7 @@ Weight Distribution represents the strategic management of bodyweight allocation
 **Scenario 1: [[Mount Top]] when opponent attempts to bridge and roll**
 → Apply dynamic weight distribution: shift weight toward opponent's head preemptively (60-70% forward), maintain base with knees lowered, redistribute to hips if opponent attempts different escape.
 
-**Scenario 2: [[Side Control Top]] when opponent attempts hip escape**
+**Scenario 2: [[Side Control]] when opponent attempts hip escape**
 → Apply strategic distribution: concentrate weight through shoulder on opponent's chest (preventing upper body movement), maintain lighter hip connection (enabling mobility), shift to hip pressure if opponent exposes hips.
 
 **Scenario 3: [[Knee on Belly]] when opponent attempts to shrimp away**

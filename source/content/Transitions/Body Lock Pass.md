@@ -283,6 +283,7 @@ Else [maintain control]:
 
 ## Follow-up Options
 - [[Side Control Consolidation]] → [[Side Control]]
+- [[Side Control Top]] - Primary destination position
 - [[Transition to Mount]] → [[Mount]]
 - [[Knee on Belly]] → [[Knee on Belly Position]]
 - [[North-South Transition]] → [[North-South]]

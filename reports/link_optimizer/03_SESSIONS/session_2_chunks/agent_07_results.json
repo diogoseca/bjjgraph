@@ -1,0 +1,273 @@
+{
+  "session": 2,
+  "agent": 7,
+  "total_fixes_attempted": 36,
+  "total_fixes_completed": 33,
+  "fixes_applied": [
+    {
+      "file": "Open Guard Bottom.md",
+      "original_link": "[[guard recovery]]",
+      "fixed_link": "[[Guard Recovery]]",
+      "line_context": "Offensive Transitions section",
+      "status": "completed"
+    },
+    {
+      "file": "Open Guard Bottom.md",
+      "original_link": "[[single leg x guard]]",
+      "fixed_link": "[[Single Leg X Guard]]",
+      "line_context": "Related States section",
+      "status": "completed"
+    },
+    {
+      "file": "Open Guard Top.md",
+      "original_link": "[[Guard Control]]",
+      "fixed_link": "[[Head Control]]",
+      "line_context": "Defensive Responses section",
+      "status": "completed"
+    },
+    {
+      "file": "Open Guard Top.md",
+      "original_link": "[[Distance Management]]",
+      "fixed_link": "[[Space Creation]]",
+      "line_context": "Defensive Responses section",
+      "status": "completed"
+    },
+    {
+      "file": "Open Guard Top.md",
+      "original_link": "[[Submission Control]]",
+      "fixed_link": "[[Mission Control]]",
+      "line_context": "Defensive Responses section",
+      "status": "completed"
+    },
+    {
+      "file": "Open Guard Top.md",
+      "original_link": "[[Headquarters Entry]]",
+      "fixed_link": "[[Headquarters Control]]",
+      "line_context": "Offensive Transitions section (3 instances)",
+      "status": "completed"
+    },
+    {
+      "file": "Open Guard Top.md",
+      "original_link": "[[Body Lock Pass Setup]]",
+      "fixed_link": "[[Body Lock Pass]]",
+      "line_context": "Offensive Transitions section",
+      "status": "completed"
+    },
+    {
+      "file": "Open Guard Top.md",
+      "original_link": "[[Defensive Base]]",
+      "fixed_link": "[[Defensive Frame]]",
+      "line_context": "Counter Transitions section",
+      "status": "completed"
+    },
+    {
+      "file": "Open Guard to Deep Half.md",
+      "original_link": "[[Failed Guard Retention]]",
+      "fixed_link": "[[Guard Retention]]",
+      "line_context": "Setup Connections section",
+      "status": "completed"
+    },
+    {
+      "file": "Open Guard to Deep Half.md",
+      "original_link": "[[Knee Shield Half]]",
+      "fixed_link": "[[Knee Shield Half Guard]]",
+      "line_context": "Setup Connections section",
+      "status": "completed"
+    },
+    {
+      "file": "Open Guard to Deep Half.md",
+      "original_link": "[[Defensive Frames]]",
+      "fixed_link": "[[Defensive Frame]]",
+      "line_context": "Setup Connections section",
+      "status": "completed"
+    },
+    {
+      "file": "Open Guard to Deep Half.md",
+      "original_link": "[[Deep Half to X-Guard]]",
+      "fixed_link": "[[Deep Half Guard]]",
+      "line_context": "Follow-up Options section",
+      "status": "completed"
+    },
+    {
+      "file": "Passing Counter System.md",
+      "original_link": "[[Defensive Frames]]",
+      "fixed_link": "[[Defensive Frame]]",
+      "line_context": "Decision Tree section",
+      "status": "completed"
+    },
+    {
+      "file": "Passing Counter System.md",
+      "original_link": "[[X-Guard Recovery]]",
+      "fixed_link": "[[Guard Recovery]]",
+      "line_context": "Decision Tree section",
+      "status": "completed"
+    },
+    {
+      "file": "Passing Counter System.md",
+      "original_link": "[[Reverse De La Riva Hook]]",
+      "fixed_link": "[[Reverse De La Riva Guard]]",
+      "line_context": "Decision Tree section",
+      "status": "completed"
+    },
+    {
+      "file": "Pin Escape Methodology.md",
+      "original_link": "[[Early Frame Creation]]",
+      "fixed_link": "[[Frame Creation]]",
+      "line_context": "Decision Tree section",
+      "status": "completed"
+    },
+    {
+      "file": "Pin Escape Methodology.md",
+      "original_link": "[[Space Preservation]]",
+      "fixed_link": "[[Space Creation]]",
+      "line_context": "Decision Tree section",
+      "status": "completed"
+    },
+    {
+      "file": "Pin Escape Methodology.md",
+      "original_link": "[[Elbow-Frame Creation]]",
+      "fixed_link": "[[Frame Creation]]",
+      "line_context": "Decision Tree section",
+      "status": "completed"
+    },
+    {
+      "file": "Pin Escape Methodology.md",
+      "original_link": "[[Turtle Transition]]",
+      "fixed_link": "[[Turtle Position]]",
+      "line_context": "Decision Tree section",
+      "status": "completed"
+    },
+    {
+      "file": "Pin Escape Methodology.md",
+      "original_link": "[[Half Guard Position]]",
+      "fixed_link": "[[Half Guard Pass Position]]",
+      "line_context": "Decision Tree section",
+      "status": "completed"
+    },
+    {
+      "file": "Pin Escape Methodology.md",
+      "original_link": "[[Leg Drag Counter]]",
+      "fixed_link": "[[Leg Drag Position]]",
+      "line_context": "Counter-Offensive Opportunities section",
+      "status": "completed"
+    },
+    {
+      "file": "Positional Hierarchy.md",
+      "original_link": "[[Side Control]]",
+      "fixed_link": "[[Side Control Top]]",
+      "line_context": "LLM Context Block scenario",
+      "status": "completed"
+    },
+    {
+      "file": "Posture Recovery.md",
+      "original_link": "[[Guard Bottom]]",
+      "fixed_link": "[[Half Guard Bottom]]",
+      "line_context": "Starting State property",
+      "status": "completed"
+    },
+    {
+      "file": "Posture Recovery.md",
+      "original_link": "[[Guard Passing Position]]",
+      "fixed_link": "[[Half Guard Pass Position]]",
+      "line_context": "Ending State property",
+      "status": "completed"
+    },
+    {
+      "file": "Posture Up.md",
+      "original_link": "[[Standing Guard]]",
+      "fixed_link": "[[Standing Position]]",
+      "line_context": "Common Counters section",
+      "status": "completed"
+    },
+    {
+      "file": "Pressure Reduction.md",
+      "original_link": "[[Turtle Recovery]]",
+      "fixed_link": "[[Posture Up]]",
+      "line_context": "Related Techniques section",
+      "status": "completed"
+    },
+    {
+      "file": "Pull Guard.md",
+      "original_link": "[[Closed Guard Pull]]",
+      "fixed_link": "[[Closed Guard Bottom]]",
+      "line_context": "Related Transitions section",
+      "status": "completed"
+    },
+    {
+      "file": "Pull Guard.md",
+      "original_link": "[[Open Guard Pull]]",
+      "fixed_link": "[[Open Guard Bottom]]",
+      "line_context": "Related Transitions section",
+      "status": "completed"
+    },
+    {
+      "file": "Pull Guard.md",
+      "original_link": "[[De La Riva Guard Pull]]",
+      "fixed_link": "[[De La Riva Guard]]",
+      "line_context": "Related Transitions section",
+      "status": "completed"
+    },
+    {
+      "file": "Pull Guard.md",
+      "original_link": "[[X-Guard Pull]]",
+      "fixed_link": "[[Guard Pull]]",
+      "line_context": "Related Transitions section",
+      "status": "completed"
+    },
+    {
+      "file": "Pull Guard.md",
+      "original_link": "[[Single Leg X Pull]]",
+      "fixed_link": "[[Single Leg X Guard]]",
+      "line_context": "Related Transitions section",
+      "status": "completed"
+    },
+    {
+      "file": "Pull Guard.md",
+      "original_link": "[[Butterfly Guard Pull]]",
+      "fixed_link": "[[Butterfly Guard]]",
+      "line_context": "Related Transitions section",
+      "status": "completed"
+    },
+    {
+      "file": "Pull Guard.md",
+      "original_link": "[[Spider Guard Pull]]",
+      "fixed_link": "[[Spider Guard]]",
+      "line_context": "Related Transitions section",
+      "status": "completed"
+    }
+  ],
+  "fixes_skipped": [
+    {
+      "file": "Pendulum Sweep.md",
+      "original_link": "[[Failed Pendulum Sweep]]",
+      "reason": "Link not found in file content",
+      "status": "not_found"
+    },
+    {
+      "file": "Posture Up.md",
+      "original_link": "[[Standing Guard]]",
+      "reason": "Already fixed by earlier edit",
+      "status": "duplicate"
+    },
+    {
+      "file": "Pull Guard.md",
+      "original_link": "[[Closed Guard Top]]",
+      "reason": "Property not found in exact format specified",
+      "status": "not_found"
+    }
+  ],
+  "summary": {
+    "files_modified": 10,
+    "total_edits": 33,
+    "success_rate": "91.7%",
+    "confidence_range": "80.0% - 96.8%",
+    "average_confidence": "85.2%"
+  },
+  "notes": [
+    "All high-confidence fixes (>80%) were successfully applied",
+    "Most fixes involved capitalizing link names or changing to the correct file name",
+    "Some broken links in decision trees and transition sections were fixed",
+    "Pull Guard had the most fixes (7 links) in the Related Transitions section",
+    "All fixes maintain proper wikilink syntax [[Page Name]]"
+  ]
+}

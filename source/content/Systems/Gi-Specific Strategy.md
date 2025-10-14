@@ -66,6 +66,8 @@ The Gi-Specific Strategy represents a comprehensive approach to BJJ that leverag
 - Integrate gi control with foundational body positioning mechanics
 
 ## Key Positions
+Gi-specific strategy heavily emphasizes grip-based [[Guard Retention]] as a core defensive concept, utilizing collar, sleeve, and pant grips to maintain guard position.
+
 - [[Closed Guard Bottom]] - Primary bottom position with specialized gi grip strategies
 - [[De La Riva Guard]] - Guard position maximizing gi-specific foot and pant controls
 - [[Spider Guard]] - Specialized distance guard leveraging sleeve control mechanics
@@ -76,7 +78,7 @@ The Gi-Specific Strategy represents a comprehensive approach to BJJ that leverag
 
 ## Critical Transitions
 - [[Collar Drag]] - Gi-specific takedown/control transition from standing
-- [[Spider Guard Sweep]] - Specialized transition utilizing sleeve control mechanics
+- [[Spider Guard]] - Specialized transition utilizing sleeve control mechanics
 - [[Berimbolo]] - Modern transition sequence optimized for gi grip utilization
 - [[Cross Collar Choke]] - Signature gi submission from multiple positions
 - [[Toreando Pass]] - Gi passing system focused on pant grip control

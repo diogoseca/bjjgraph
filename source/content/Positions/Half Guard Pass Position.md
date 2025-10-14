@@ -174,6 +174,7 @@ You are on top with your chest or shoulder applying downward pressure on your op
 
 ## Offensive Transitions
 - [[Knee Slide Pass]] → [[Side Control]] (Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%)
+- [[Knee Cut Pass]] → [[Side Control]] (One of the most common and fundamental techniques to pass half guard)
 - [[Underhook Pass]] → [[Side Control]] (Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%)
 - [[Crossface Pass]] → [[Side Control]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
 - [[Knee Cut from Half]] → [[Side Control]] (Success Rate: Beginner 50%, Intermediate 65%, Advanced 78%)

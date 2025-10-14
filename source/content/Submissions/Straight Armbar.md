@@ -76,6 +76,7 @@ related_positions:
   - "[[Mount]]"
   - "[[Side Control]]"
   - "[[Back Control]]"
+  - "[[Armbar Control]]"
 related_transitions:
   - "[[Armbar from Guard]]"
   - "[[Armbar from Mount]]"

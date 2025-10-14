@@ -145,6 +145,7 @@ Visually, Guard Establishment appears as a transitional sequence where the pract
 - **[[Space Generation]]** - Often necessary to create room for guard establishment
 - **[[Guard Pull]]** - Specific technique utilizing guard establishment principles
 - **[[Defensive Posture]]** - Essential for safe and effective guard establishment
+- **[[Closed Guard Bottom]]** - Fundamental guard position to establish
 
 ## Expert Insights
 - **Danaher System**: Views guard establishment as a systematic process requiring precise understanding of biomechanical principles and sequential control development. Emphasizes establishing upper body controls before committing lower body positioning, creating what he terms a "connection hierarchy" where initial controls enable subsequent, higher-value control points. Particularly focuses on the concept of "positional prerequisites," ensuring defensive safety is secured before offensive guard establishment.

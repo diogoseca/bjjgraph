@@ -6,7 +6,7 @@ complexity_level: Low
 development_timeline: Beginner to Advanced
 
 related_positions:
-  - Side Control Top
+  - Side Control
   - North-South Top
   - Knee on Belly
   - Mount Top
@@ -70,6 +70,7 @@ Shoulder Pressure represents the tactical application of bodyweight and force th
 - **Shoulder Mobility** - Moving shoulders smoothly during transitions while maintaining pressure continuity
 
 ## Concept Relationships
+- **[[Side Control]]** - Shoulder pressure is fundamental control mechanism in side control position
 - **[[Weight Distribution]]** - Shoulder pressure is specific application of weight distribution through upper body
 - **[[Pressure Application]]** - General pressure principles applied specifically through shoulder positioning
 - **[[Hip Pressure]]** - Complementary pressure technique creating full-body top control
@@ -89,7 +90,7 @@ Shoulder Pressure represents the tactical application of bodyweight and force th
 
 ### Common Scenarios Where Concept is Critical
 
-**Scenario 1: [[Side Control Top]] when establishing crossface control**
+**Scenario 1: [[Side Control]] when establishing crossface control**
 → Apply shoulder pressure by driving near shoulder across opponent's face toward far side, turning their head away from escape direction, freeing near hand for underhook or grips.
 
 **Scenario 2: [[North-South]] when controlling for kimura or armbar**

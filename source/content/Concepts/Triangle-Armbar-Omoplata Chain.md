@@ -95,10 +95,10 @@ Factors that influence the success rate of the chain:
 ## Common Counters and Counter-Attacks
 Analysis of opponent responses with success rates for counter-attacks within the chain:
 - [[Posture Up]] → [[Triangle Escape Position]] (Success Rate: 50%, Conditions: opponent postures strongly during triangle attempt)
-- [[Hand Fight]] → [[Grip Breaking]] (Success Rate: 45%, Conditions: opponent fights initial arm control)
+- [[Hand Fighting]] → [[Grip Breaking]] (Success Rate: 45%, Conditions: opponent fights initial arm control)
 - [[Tuck Elbow]] → [[Armbar Defense Position]] (Success Rate: 40%, Conditions: opponent tucks elbow to defend armbar)
 - [[Forward Roll]] → [[Omoplata Escape]] (Success Rate: 35%, Conditions: opponent rolls forward to escape omoplata)
-- [[Stack Pressure]] → [[Guard Stack Defense]] (Success Rate: 30%, Conditions: opponent stacks during any submission attempt)
+- [[Stack Pressure]] → [[Stack Defense]] (Success Rate: 30%, Conditions: opponent stacks during any submission attempt)
 
 ## Decision Logic for Opponent Behavior
 ```

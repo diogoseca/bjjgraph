@@ -565,3 +565,545 @@ This standard ensures:
 - **Educational Value**: Complete learning resource beyond state machine data
 
 Updates to this standard should be reflected across all system files to maintain consistency, technical depth, and game engine compatibility.
+
+---
+
+## SEO Optimization for System Pages
+
+System pages require specialized SEO optimization that emphasizes the comprehensive framework nature of the content while highlighting expert attribution and systematic methodology. Unlike individual technique pages that focus on single movements, system pages must communicate the interconnected nature of multiple techniques working together as a unified strategic approach.
+
+### Title Format Standards
+
+System page titles follow a strict three-part format that maximizes keyword targeting while maintaining brand consistency:
+
+**Format**: `"[System Name] | BJJ System | BJJ Graph"`
+
+**Examples**:
+- "Back Attack System | BJJ System | BJJ Graph"
+- "Kimura Trap System | BJJ System | BJJ Graph"
+- "Danaher Guard Passing System | BJJ System | BJJ Graph"
+- "10th Planet Lockdown System | BJJ System | BJJ Graph"
+- "Gordon Ryan Mount System | BJJ System | BJJ Graph"
+
+The first segment should use the established name of the system (Danaher System, Eddie Bravo System, etc.) when applicable, as this captures search intent from practitioners familiar with these expert frameworks. For systems without established names, use descriptive names that include the primary position or tactical goal (e.g., "Triangle Attack System", "Half Guard Escape System").
+
+### Meta Description Template
+
+System descriptions must communicate the comprehensive framework nature in 150-160 characters while including key success indicators:
+
+**Template**: "Master [System Name] in BJJ. Comprehensive framework connecting [X technique types] across [Y positions] for high-percentage outcomes. Expert insights from [attributed expert]."
+
+**Examples**:
+- "Master Back Attack System in BJJ. Comprehensive framework connecting 5+ submissions from back control for 80%+ finishing rates. Expert insights from John Danaher."
+- "Master Kimura Trap System in BJJ. Comprehensive framework connecting Kimura control to 8+ submissions and back takes. Danaher's systematic approach."
+- "Master 10th Planet Lockdown System in BJJ. Comprehensive framework connecting half guard control to sweeps and submissions. Eddie Bravo's innovative method."
+
+The description should emphasize: (1) comprehensive framework nature, (2) multiple connected techniques, (3) success metrics when available, (4) expert attribution for credibility.
+
+### Target Keywords
+
+System pages should target both general system keywords and expert-specific search patterns:
+
+**Primary Keywords**:
+- "[system name] bjj"
+- "bjj [position] system"
+- "[expert name] [position] system"
+- "[position] attack system"
+- "bjj submission chains"
+
+**Long-Tail Keywords**:
+- "how to use [system name] in bjj"
+- "[expert name] system instructional"
+- "bjj [position] systematic approach"
+- "submission chains from [position]"
+- "[position] attack sequence bjj"
+
+**Expert Attribution Keywords**:
+- "john danaher [system] system"
+- "gordon ryan [position] approach"
+- "eddie bravo [technique] system"
+- "10th planet system bjj"
+- "danaher systematic approach"
+
+### Content Structure for SEO
+
+System pages should structure content to maximize relevance signals:
+
+**Opening Paragraphs**: Include primary keywords and expert attribution within first 100 words. State the system's strategic value explicitly.
+
+**Chain Sequence Prominence**: The submission sequence section should appear early in content (within first 50% of page) and use structured formatting (numbered lists, clear progression) that search engines can parse easily.
+
+**Expert Attribution Throughout**: Mention attributed expert multiple times naturally throughout content, not just in dedicated expert insights section. This reinforces topical authority.
+
+**Internal Linking Strategy**: Every technique mentioned in system should link to its individual page using consistent wikilink format. This creates strong topical clustering and distributes PageRank effectively.
+
+**Position Interconnections**: Link all setup positions and related positions mentioned throughout system documentation. This establishes the system as a hub page within the broader positional graph.
+
+### Schema Requirements
+
+System pages require comprehensive schema markup that communicates the framework structure:
+
+**Required Schema Types**:
+
+1. **HowTo Schema**: For learning/applying the system
+   - Name: "[System Name] in BJJ"
+   - Description: Full system overview
+   - Steps: High-level system implementation phases (not individual techniques)
+   - Supply: Prerequisites, required positions, foundational techniques
+   - TotalTime: Estimated learning timeframe
+
+2. **FAQPage Schema**: 6-8 system-specific questions
+   - "What is the [System Name]?"
+   - "How does the [System Name] work?"
+   - "What positions can I start [System Name] from?"
+   - "What submissions are included in [System Name]?"
+   - "How long does it take to learn [System Name]?"
+   - "[Expert name] approach to [system concept]?"
+
+3. **ItemList Schema**: Chain sequences
+   - Ordered list of techniques in primary attack chain
+   - Each item links to individual technique page
+   - Demonstrates system structure to search engines
+
+4. **WebPage Schema**: Standard metadata
+   - Name, description, URL
+   - isPartOf relationship to BJJ Graph site
+
+5. **BreadcrumbList Schema**: Navigation hierarchy
+   - Home → Systems → [System Name]
+
+**Schema Example for Back Attack System**:
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Back Attack System in BJJ",
+  "description": "Comprehensive framework for attacking from back control with multiple submission chains",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Establish Back Control",
+      "text": "Secure dominant back position with proper hook and harness control"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Break Defensive Structures",
+      "text": "Systematically eliminate hand fighting and defensive frames"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Primary Attack",
+      "text": "Apply Rear Naked Choke with proper mechanics"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Chain to Alternatives",
+      "text": "Transition to Bow and Arrow or Armbar based on defensive response"
+    }
+  ],
+  "supply": ["Back Control", "Seatbelt Grip", "Hook Control"],
+  "totalTime": "PT6M"
+}
+```
+
+### FAQ Focus for System Pages
+
+System FAQs should address strategic and systematic questions rather than technical mechanics:
+
+**Strategic Questions**:
+- When should I use this system in competition?
+- What skill level is required for this system?
+- How does this system compare to [alternative approach]?
+
+**Learning Questions**:
+- What's the learning progression for this system?
+- What prerequisites do I need before learning this system?
+- How long does it take to become proficient with this system?
+
+**Integration Questions**:
+- How does this system integrate with other attacking frameworks?
+- What positions lead into this system?
+- Which submissions work best from this system?
+
+**Expert Attribution Questions**:
+- How does [expert name] teach this system?
+- What makes [expert name]'s approach to this system unique?
+- Where can I learn more about [expert name]'s system?
+
+### Expert Attribution in Descriptions
+
+Schema descriptions should explicitly mention attributed expert for topical authority:
+
+**Examples**:
+- "John Danaher's systematic approach to back attacks"
+- "Gordon Ryan's competition-proven mount system"
+- "Eddie Bravo's innovative 10th Planet Lockdown framework"
+
+This helps capture search queries that include expert names alongside technique searches.
+
+---
+
+## Learning Article Synthesis
+
+System pages serve as both technical documentation and educational resources, requiring integration with broader learning content across the BJJ Graph ecosystem. Understanding how systems are explained in educational contexts ensures system pages support the full learning journey from conceptual understanding to practical application.
+
+### System Representation in Educational Content
+
+When systems appear in learning articles, guides, and educational content, they are typically presented through several complementary lenses:
+
+**Conceptual Introduction**: Learning articles introduce systems by explaining the strategic problem they solve and the philosophical foundation underlying the systematic approach. For example, articles explaining back control don't just list techniques—they explain why systematic breakdown of defensive resources is more effective than isolated submission attempts.
+
+**Progressive Skill Building**: Educational content presents systems in staged learning progressions, often breaking the full system into digestible components that build upon each other. A beginner article might introduce basic back control maintenance, while advanced articles explore the complete submission chain structure.
+
+**Comparative Analysis**: Learning articles often compare different expert systems addressing the same tactical situation, helping practitioners understand when different approaches might be optimal. For example, comparing Danaher's systematic back attacks versus Eddie Bravo's unconventional back control variations provides strategic context for system selection.
+
+**Troubleshooting Guidance**: Educational articles address common challenges practitioners face when implementing systems, providing targeted solutions that aren't always evident in technical documentation alone.
+
+### Expert System Philosophies in Learning Articles
+
+Different expert systems embody distinct teaching philosophies that should be reflected consistently across all educational content:
+
+**John Danaher Systems**: Learning articles emphasizing Danaher systems focus on mechanical precision, systematic problem-solving, defensive structure breakdown, and incremental progression. Educational content should communicate the patient, methodical nature of his approach and the emphasis on understanding underlying principles rather than memorizing technique sequences.
+
+**Gordon Ryan Approach**: Educational content featuring Gordon Ryan's competitive refinements emphasizes proven effectiveness under elite resistance, tactical patience, positional consolidation before submission attempts, and practical adaptations that maximize finishing percentages. Learning articles should communicate the competitive pragmatism of his approach.
+
+**Eddie Bravo Innovation**: Educational articles covering 10th Planet systems emphasize creative problem-solving, unconventional entries, signature position integration, and modern defensive adaptations. Learning content should communicate the innovative spirit while acknowledging both advantages and contextual limitations of unorthodox approaches.
+
+### Systematic Approaches in Guides
+
+BJJ Graph learning guides reference systems in several strategic contexts:
+
+**Competition Preparation**: Articles on competition strategy discuss which systems are most effective under specific rule sets (IBJJF, ADCC, submission-only) and how to build game plans around systematic frameworks.
+
+**Skill Level Progression**: Learning roadmaps identify which systems are appropriate for different belt levels, creating structured learning pathways from fundamental systems (mount escapes) to advanced frameworks (leg lock systems).
+
+**Positional Specialization**: Educational content helps practitioners develop systematic expertise in specific positional categories (guard passing systems, back attack systems, submission chains from mount), creating focused training plans.
+
+**Defensive Strategy**: Learning articles on defensive BJJ present defensive systems with the same systematic rigor as offensive frameworks, ensuring balanced skill development.
+
+### Integration with Position/Transition/Submission Content
+
+System pages create natural hubs that connect and contextualize individual technique pages:
+
+**Technique Contextualization**: When learning articles reference individual techniques, they should link to both the technique page and the relevant system page, helping practitioners understand how isolated techniques fit within broader strategic frameworks.
+
+**Positional Strategy**: Articles explaining positions should reference applicable systems, showing how systematic approaches leverage positional advantages. For example, mount articles should reference mount attack systems and mount escape systems.
+
+**Training Programming**: Educational content on training methodology should organize technique practice around systematic frameworks rather than isolated drills, reflecting how systems are actually learned and applied.
+
+---
+
+## Schema Markup Quick Reference
+
+System pages require multiple schema types working together to communicate the comprehensive framework structure to search engines. This quick reference provides templates and examples specific to system content.
+
+### Required Schema Types
+
+**1. WebPage Schema**
+Standard metadata for all pages. Establishes page identity and site relationship.
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "[System Name] | BJJ System | BJJ Graph",
+  "description": "Master [System Name] in BJJ. [Brief system description]",
+  "url": "https://bjjgraph.com/systems/[system-name]",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+```
+
+**2. BreadcrumbList Schema**
+Navigation hierarchy. Helps Google display breadcrumb trails in search results.
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Systems",
+      "item": "https://bjjgraph.com/systems/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "[System Name]",
+      "item": "https://bjjgraph.com/systems/[system-name]"
+    }
+  ]
+}
+```
+
+### Recommended Schema Types
+
+**3. HowTo Schema**
+For learning/applying the system. Focus on high-level system implementation, not individual technique steps.
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "[System Name] in BJJ",
+  "description": "Learn to apply the [System Name] framework with systematic progression",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Phase 1: [System Entry]",
+      "text": "[How to establish system starting position]"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Phase 2: [Control Establishment]",
+      "text": "[How to maintain systematic control]"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Phase 3: [Attack Initiation]",
+      "text": "[How to begin attacking sequence]"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Phase 4: [Chain Execution]",
+      "text": "[How to chain techniques based on defense]"
+    }
+  ],
+  "supply": [
+    "[Required position or prerequisite 1]",
+    "[Required position or prerequisite 2]",
+    "[Required control or grip 3]"
+  ],
+  "totalTime": "PT10M"
+}
+```
+
+**4. FAQPage Schema**
+6-8 system-specific questions focusing on strategic application, learning progression, and expert attribution.
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the [System Name]?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Brief system overview with strategic purpose]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the [System Name] work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Explanation of system mechanics and chain logic]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What positions can I start the [System Name] from?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[List of entry positions with brief context]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What submissions are included in the [System Name]?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[List of primary submissions in attack chain]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What skill level is required for the [System Name]?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Skill level requirements and prerequisites]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to learn the [System Name]?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Realistic timeframe with progressive milestones]"
+      }
+    }
+  ]
+}
+```
+
+**5. ItemList Schema**
+For primary attack chains. Shows technique sequences and system structure.
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "[System Name] Attack Chain",
+  "description": "Primary submission sequence in [System Name]",
+  "itemListOrder": "https://schema.org/ItemListOrderAscending",
+  "numberOfItems": 4,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "[Primary Attack Name]",
+      "url": "https://bjjgraph.com/submissions/[primary-attack]"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "[Secondary Attack Name]",
+      "url": "https://bjjgraph.com/submissions/[secondary-attack]"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "[Tertiary Attack Name]",
+      "url": "https://bjjgraph.com/submissions/[tertiary-attack]"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "[Additional Attack Name]",
+      "url": "https://bjjgraph.com/submissions/[additional-attack]"
+    }
+  ]
+}
+```
+
+### System-Specific Schema Examples
+
+**Example: Kimura Trap System**
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Kimura Trap System in BJJ",
+  "description": "John Danaher's systematic approach to Kimura-based attacks with 8+ submission options",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Establish Kimura Control",
+      "text": "Secure figure-four grip on opponent's arm with proper body positioning"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Create Control Hierarchy",
+      "text": "Establish dominant positioning that prioritizes control over submission"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Recognize Defensive Pattern",
+      "text": "Identify how opponent defends the Kimura finish"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Chain to Alternative",
+      "text": "Transition to appropriate submission based on defensive commitment"
+    }
+  ],
+  "supply": ["Kimura Grip", "Top Position", "Arm Isolation"],
+  "totalTime": "PT8M"
+}
+```
+
+**Example: Eddie Bravo Lockdown System**
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "10th Planet Lockdown System Attack Chain",
+  "description": "Eddie Bravo's systematic approach to attacks from lockdown half guard",
+  "itemListOrder": "https://schema.org/ItemListOrderAscending",
+  "numberOfItems": 5,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Electric Chair Sweep",
+      "url": "https://bjjgraph.com/transitions/electric-chair-sweep"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Old School Sweep",
+      "url": "https://bjjgraph.com/transitions/old-school-sweep"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Banana Split",
+      "url": "https://bjjgraph.com/submissions/banana-split"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Back Take from Lockdown",
+      "url": "https://bjjgraph.com/transitions/lockdown-back-take"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Twister Setup",
+      "url": "https://bjjgraph.com/submissions/twister-setup"
+    }
+  ]
+}
+```
+
+### Expert Attribution in Schema Descriptions
+
+When attributing systems to specific experts, include expert names in schema descriptions for topical authority:
+
+**Danaher Systems**:
+- "John Danaher's systematic approach to [tactical goal]"
+- "Danaher Death Squad methodology for [position]"
+- "Systematic breakdown framework developed by John Danaher"
+
+**Gordon Ryan Systems**:
+- "Gordon Ryan's competition-proven approach to [position]"
+- "High-percentage system refined by Gordon Ryan"
+- "Elite-level framework demonstrated by Gordon Ryan"
+
+**Eddie Bravo Systems**:
+- "Eddie Bravo's innovative 10th Planet system for [position]"
+- "Unconventional framework developed by Eddie Bravo"
+- "10th Planet systematic approach to [tactical situation]"
+
+### Schema Validation Checklist
+
+Before publishing system pages, verify:
+
+- [ ] All five required schema types present (WebPage, BreadcrumbList, HowTo, FAQPage, ItemList)
+- [ ] HowTo steps describe system phases, not individual technique steps
+- [ ] FAQ questions focus on strategic/learning aspects, not just mechanics
+- [ ] ItemList includes all techniques in primary attack chain with working URLs
+- [ ] Expert attribution included in descriptions where applicable
+- [ ] All JSON-LD is valid (no syntax errors)
+- [ ] URLs match actual page locations
+- [ ] Breadcrumbs follow Home → Systems → [System Name] hierarchy
+
+---
+
+*End of System Standard V2 Documentation*

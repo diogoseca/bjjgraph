@@ -46,7 +46,7 @@
 
 ## System Properties
 - **System ID**: DS003
-- **Target Threats**: Side control variations, submission attacks from side control, transitions to mount/north-south
+- **Target Threats**: [[Side Control]] variations, submission attacks from side control, transitions to mount/north-south
 - **Defensive Priority**: Escape > Prevention > Counter-attack
 - **Energy Efficiency**: Medium
 - **Complexity Level**: Beginner to Intermediate
@@ -71,11 +71,11 @@ This defensive system addresses both the immediate need to escape disadvantageou
 - Maintain defensive awareness throughout escape attempts to prevent positional regression
 
 ## Preventative Measures
-- **Early Frame Establishment** - Create defensive frames before opponent can settle weight, positioning bone structures at shoulders, hips, and neck to maintain critical space
+- **Early Frame Creation** - Create defensive frames before opponent can settle weight, positioning bone structures at shoulders, hips, and neck to maintain critical space
 - **Defensive Hand Position** - Position hands to protect neck and prevent submission setups while maintaining defensive frames
 - **Hip Direction Management** - Control hip orientation and movement to prevent opponent from securing full control or advancing to more dominant positions
 - **Preventative Gripping** - Establish grips that impede opponent's ability to control and consolidate position
-- **Space Preservation** - Maintain micro-spaces that can be exploited during escape sequences, focusing especially on preventing chest-to-chest compression
+- **Space Generation** - Maintain micro-spaces that can be exploited during escape sequences, focusing especially on preventing chest-to-chest compression
 - **Head Position Control** - Position head to prevent cross-face control and maintain mobility for defensive movement
 
 ## Primary Escape Sequence
@@ -90,21 +90,21 @@ This defensive system addresses both the immediate need to escape disadvantageou
 9. Transition to more advantageous position when opportunity presents
 
 ## Decision Tree
-- If opponent has not fully consolidated side control → Execute [[Early Frame Establishment]] → [[Space Preservation]] → [[Guard Recovery]]
-- If opponent has standard side control with shoulder pressure → Execute [[Elbow-Frame Creation]] → [[Hip Escape]] → [[Half Guard Recovery]]
+- If opponent has not fully consolidated side control → Execute [[Frame Creation]] → [[Space Generation]] → [[Guard Recovery]]
+- If opponent has standard side control with shoulder pressure → Execute [[Frame Creation]] → [[Hip Escape]] → [[Half Guard Bottom]]
 - If opponent has cross-face control → Execute [[Bridge and Frame]] → [[Elbow-Knee Connection]] → [[Underhook Establishment]]
-- If opponent is transitioning to mount → Execute [[Hip Frame]] → [[Knee Insertion]] → [[Half Guard Entry]]
+- If opponent is transitioning to mount → Execute [[Hip Frame]] → [[Knee Shield Retention]] → [[Half Guard Top]]
 - If opponent has scarfhold/kesa gatame → Execute [[Inside Frame]] → [[Bridge and Roll]] → [[Top Position]]
-- If opponent has north-south control → Execute [[Double Hip Escape]] → [[Turtle Position]] or [[Half Guard Recovery]]
-- If opponent has far-side control → Execute [[Near-Side Frame]] → [[Hip Escape]] → [[Knee Shield Insertion]]
+- If opponent has north-south control → Execute [[Double Hip Escape]] → [[Bottom Turtle]] or [[Half Guard Bottom]]
+- If opponent has far-side control → Execute [[Near-Side Frame]] → [[Hip Escape]] → [[Knee Shield Retention]]
 
 ## Counter-Offensive Opportunities
 - From [[Initial Frame Position]] → [[Underhook Reversal]] when opponent shifts weight forward
-- From [[Bridge and Frame]] → [[Turtle Transition]] → [[Single Leg Counterattack]]
-- From [[Half Guard Recovery]] → [[Deep Half Entry]] → [[Sweep Sequence]]
-- From [[Knee Shield Insertion]] → [[Control Establishment]] → [[Butterfly Hook Sweep]]
+- From [[Bridge and Frame]] → [[Bottom Turtle]] → [[Single Leg Counterattack]]
+- From [[Half Guard Bottom]] → [[Deep Half Entry]] → [[Sweep Sequence]]
+- From [[Knee Shield Retention]] → [[Control Establishment]] → [[Butterfly Sweep]]
 - From [[Defensive Underhook]] → [[Back Take Entry]] when opponent attempts to flatten
-- From [[Turtle Position]] → [[Granby Roll]] → [[Leg Entanglement]]
+- From [[Bottom Turtle]] → [[Granby Roll]] → [[Leg Entanglement]]
 
 ## Common Errors
 - Creating frames without skeletal alignment → Frame collapse under pressure

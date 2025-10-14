@@ -371,7 +371,7 @@ Tomahawk Sweep is a modern open guard technique in Brazilian Jiu-Jitsu, showcasi
 **Common Tomahawk Sweep combinations:**
 - [[Open Guard Bottom]] → [[Tomahawk Sweep]] → [[Mount]]
 - [[De La Riva Guard]] → [[Tomahawk Sweep]] → [[Side Control]]
-- [[Open Guard Bottom]] → [[Failed Tomahawk Sweep]] → [[Guard Recovery]]
+- [[Open Guard Bottom]] → [[Tomahawk Sweep]] → [[Guard Recovery]]
 
 ## Training Applications
 - **Guard Development**: Essential for open guard sweep arsenal in competition

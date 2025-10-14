@@ -1,0 +1,216 @@
+{
+  "chunk_metadata": {
+    "chunk_number": 8,
+    "total_chunks": 10,
+    "start_index": 147,
+    "end_index": 167,
+    "count": 21,
+    "confidence_filter": "\u226595%"
+  },
+  "suggestions": [
+    {
+      "source_file": "Anaconda Choke",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Anaconda choke is commonly applied from side control after securing the front headlock, making this a critical position-to-submission relationship.",
+      "suggested_section": "Starting Position",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Darce Choke",
+      "target_file": "Front Headlock",
+      "confidence": 95.0,
+      "reason": "Darce Choke is commonly finished from Front Headlock position, which is explicitly mentioned in the setup requirements.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Darce Choke",
+      "target_file": "Turtle Position",
+      "confidence": 95.0,
+      "reason": "Turtle Position Top is explicitly listed as a primary starting position for the Darce Choke in the setup requirements.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Twister Setup",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Twister Setup leads directly to a submission finish, making Won by Submission the natural terminal state for successful execution.",
+      "suggested_section": "Ending State",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Arm Triangle Progression",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Arm triangle progression typically begins from side control, making this a critical starting position link.",
+      "suggested_section": "Starting Position",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Breadcutter Choke",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Breadcutter Choke is executed from Side Control Top position, which is the primary starting position for this submission.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Straight Armbar",
+      "target_file": "Armbar Control",
+      "confidence": 95.0,
+      "reason": "Armbar Control is the position state that directly precedes the Straight Armbar submission, representing the control phase before applying finishing pressure.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Submission-Focused Strategy",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Terminal state that represents the ultimate goal of a submission-focused strategy, directly aligned with the framework's primary objective.",
+      "suggested_section": "Strategic Framework Properties",
+      "relationship_type": "strategy-to-outcome",
+      "existing_link": false
+    },
+    {
+      "source_file": "Flying Armbar",
+      "target_file": "Standing Position",
+      "confidence": 95.0,
+      "reason": "Flying Armbar starts from standing clinch position, making this the primary starting state for this aerial technique.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Americana",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Americana is most commonly executed from Side Control, which is explicitly listed as a starting state for this submission.",
+      "suggested_section": "Starting State",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Straight Footlock",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Straight Footlock is a terminal submission that directly results in match victory, making this the natural end state.",
+      "suggested_section": "Submission Outcome",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Loop Choke from Mount",
+      "target_file": "Mount",
+      "confidence": 95.0,
+      "reason": "Loop Choke from Mount is executed from the mount position, making this the primary starting position.",
+      "suggested_section": "Overview",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Williams Shoulder Lock",
+      "target_file": "Triangle Control",
+      "confidence": 95.0,
+      "reason": "Williams Guard is derived from rubber guard/triangle control systems, making this a core related position for the shoulder lock setup.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Arm-in Guillotine",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "The arm-in guillotine is a finishing submission that leads directly to this terminal state when successfully applied.",
+      "suggested_section": "Overview",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Gogoplata Setup",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Gogoplata Setup leads directly to a submission finish, making this the natural terminal state for successful execution.",
+      "suggested_section": "Ending State",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Clock Choke",
+      "target_file": "Turtle Position",
+      "confidence": 95.0,
+      "reason": "Clock Choke is executed from turtle top position, making this the primary starting position.",
+      "suggested_section": "Overview",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Can Opener",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "The Can Opener submission explicitly states it ends in 'Won by Submission' as the terminal state.",
+      "suggested_section": "Ending State",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Marce Choke",
+      "target_file": "Front Headlock",
+      "confidence": 95.0,
+      "reason": "Marce Choke is explicitly described as being executed from front headlock position, making this a critical positional setup link.",
+      "suggested_section": "Overview",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Triangle Choke",
+      "target_file": "Triangle Control",
+      "confidence": 95.0,
+      "reason": "Triangle Control is the position that precedes and enables the Triangle Choke submission, representing the control phase before finishing.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Mir Lock",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Mir Lock is explicitly mentioned as starting from Side Control, making this a critical position-to-submission relationship.",
+      "suggested_section": "Starting Position",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Triangle from Guard",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Triangle from Guard is a submission technique that leads to this terminal state when successfully applied",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    }
+  ],
+  "instructions": {
+    "task": "Apply these wikilink suggestions to markdown files",
+    "validation": [
+      "Check if wikilink already exists",
+      "Verify target file exists",
+      "Add to specified section only",
+      "Maintain markdown formatting"
+    ],
+    "reporting": [
+      "Track: applied, skipped_exists, skipped_no_target, error",
+      "Report file paths modified",
+      "Report line numbers where links added",
+      "Report any errors encountered"
+    ]
+  }
+}

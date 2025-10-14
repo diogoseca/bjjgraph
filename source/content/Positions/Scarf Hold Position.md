@@ -144,8 +144,8 @@ From a top-down view, the practitioner sits beside the opponent's upper body at 
 
 ## Offensive Transitions (Available From This State)
 - [[Modified Scarf Hold]] → [[Modified Scarf Hold Position]]
-- [[North-South Transition]] → [[North-South Position]]
-- [[Arm Triangle Setup]] → [[Arm Triangle Control]]
+- [[North-South Transition]] → [[North-South]]
+- [[Triangle Setup]] → [[Triangle Control]]
 - [[Americana from Scarf Hold]] → [[Won by Submission]]
 - [[Armbar from Scarf Hold]] → [[Armbar Control]]
 - [[Reverse Scarf Hold]] → [[Reverse Kesa Gatame]]
@@ -153,7 +153,7 @@ From a top-down view, the practitioner sits beside the opponent's upper body at 
 ## Counter Transitions
 - [[Re-establish Scarf Hold]] → [[Scarf Hold Position]] (against escape attempts)
 - [[Transition to Mount]] → [[Mount]] (if opponent creates space)
-- [[Transition to Side Control]] → [[Side Control Top]] (if angle is compromised)
+- [[Transition to Side Control]] → [[Side Control]] (if angle is compromised)
 
 ## Expert Insights
 - **Danaher System**: Emphasizes the importance of hip pressure and head control in scarf hold, viewing it as a transitional position rather than a final destination. Focuses on using the position to set up arm attacks and transitions to more dominant positions when opponent attempts to escape. The key is maintaining the angle and preventing opponent from turning into you.
@@ -181,15 +181,15 @@ From a top-down view, the practitioner sits beside the opponent's upper body at 
 - [[Modified Scarf Hold]] - Variation with different arm and head control
 - [[Reverse Kesa Gatame]] - Reverse orientation scarf hold
 - [[Side Control Top]] - Adjacent pinning position
-- [[North-South Position]] - Related pinning position
-- [[Twister Side Control]] - Advanced variation with leg control
+- [[North-South Transition]] - Related pinning position
+- [[Twister Control]] - Advanced variation with leg control
 
 ## Related Positions
 
-- [[Side Control Top]] - Related position
-- [[North-South Position]] - Related position
+- [[Side Control]] - Related position
+- [[North-South]] - Related position
 - [[Mount]] - Related position
-- [[Arm Triangle Control]] - Related position
+- [[Triangle Control]] - Related position
 - [[Turtle Position]] - Related position
 
 ## Decision Tree
@@ -200,10 +200,10 @@ Else if opponent bridges toward you:
 - Execute [[Modified Scarf Hold]] to adjust angle and maintain control
 
 Else if opponent turns away:
-- Execute [[North-South Transition]] → [[North-South Position]]
+- Execute [[North-South Transition]] → [[North-South]]
 
 Else (stable control established):
-- Execute [[Arm Triangle Setup]] or maintain position for control points
+- Execute [[Triangle Setup]] or maintain position for control points
 
 ## Position Metrics
 - Success Rate: 70% retention (varies by experience level)
@@ -217,7 +217,7 @@ The shortest path to submission from this position:
 [[Scarf Hold Position]] → [[Americana from Scarf Hold]] → [[Won by Submission]]
 
 High-percentage path:
-[[Scarf Hold Position]] → [[Arm Triangle Setup]] → [[Arm Triangle Control]] → [[Won by Submission]]
+[[Scarf Hold Position]] → [[Triangle Setup]] → [[Triangle Control]] → [[Won by Submission]]
 
 Alternative control-oriented path:
-[[Scarf Hold Position]] → [[North-South Transition]] → [[North-South Position]] → [[Kimura]] → [[Won by Submission]]
+[[Scarf Hold Position]] → [[North-South Transition]] → [[North-South]] → [[Kimura]] → [[Won by Submission]]

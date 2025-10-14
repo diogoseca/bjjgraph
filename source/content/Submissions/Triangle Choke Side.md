@@ -58,7 +58,8 @@ description: "From a dominant side control position, you control the opponent's 
 
 ### State Machine Properties
 - **Submission Type**: Choke - blood choke using legs
-- **Starting Position**: [[Side Control]], [[Top Position]]
+- **Starting Position**: [[Triangle Control]] - Setup position required before finishing
+- **Secondary Starting Position**: [[Side Control]], [[Top Position]]
 - **Target Area**: Neck - carotid arteries compression
 - **End State**: Opponent submission or unconsciousness
 
@@ -292,7 +293,7 @@ The side triangle choke is a variation of the traditional triangle choke, adapte
 ## Position Integration
 **Common side triangle combinations:**
 - [[Side Control]] → [[Triangle Choke Side]] → [[Won by Submission]]
-- [[Side Control]] → [[Failed Triangle Choke Side]] → [[Side Control]]
+- [[Side Control]] → [[Triangle Choke Side]] → [[Side Control]]
 - [[Side Control]] → [[Triangle Choke Side]] → [[Mount]]
 
 ## Training Applications

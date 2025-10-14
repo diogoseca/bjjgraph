@@ -23,7 +23,9 @@ REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
 # Claude CLI settings
-CLAUDE_CLI_PATH = "/Users/diogo/anaconda3/bin/claude"
+# Try to find Claude CLI automatically, fallback to PATH
+import shutil
+CLAUDE_CLI_PATH = shutil.which("claude") or "claude"
 MAX_CONCURRENT_CLAUDE_CALLS = 20  # Rate limiting
 CLAUDE_MODEL = "sonnet"  # Model alias: 'sonnet', 'opus', or 'haiku'
 CLAUDE_TIMEOUT = 60  # seconds

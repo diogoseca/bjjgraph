@@ -45,8 +45,8 @@ description: "Master Crab Ride in BJJ. Complete guide covering setup, control, e
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Entanglement Entry",
-      "text": "From this position, execute Leg Entanglement Entry to transition to Single Leg X Guard.",
+      "name": "Execute Leg Entanglement",
+      "text": "From this position, execute Leg Entanglement to transition to Single Leg X Guard.",
       "position": 6
     }
   ],
@@ -202,7 +202,7 @@ You are positioned to the side of your opponent, not directly behind, maintainin
 - [[Leg Drag from Crab]] → [[Leg Drag Position]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
 - [[Crucifix Entry]] → [[Crucifix Position]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
 - [[Crab to Armbar]] → [[Armbar Control]] (Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%)
-- [[Leg Entanglement Entry]] → [[Single Leg X Guard]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
+- [[Leg Entanglement]] → [[Single Leg X Guard]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
 - [[Rolling Back Attack]] → [[Back Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
 - [[Truck Entry]] → [[Truck Position]] (Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%)
 
@@ -263,7 +263,7 @@ If opponent turns away defensively:
 
 Else if opponent turns in aggressively:
 - Execute [[Leg Drag from Crab]] → [[Leg Drag Position]] (Probability: 35%)
-- Or Execute [[Leg Entanglement Entry]] → [[Single Leg X Guard]] (Probability: 35%)
+- Or Execute [[Leg Entanglement]] → [[Single Leg X Guard]] (Probability: 35%)
 
 Else if opponent reaches across body:
 - Execute [[Crucifix Entry]] → [[Crucifix Position]] (Probability: 30%)

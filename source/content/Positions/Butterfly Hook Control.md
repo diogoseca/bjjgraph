@@ -172,14 +172,14 @@ This configuration allows you to threaten multiple sweep directions while mainta
 - Opponent on knees with forward pressure
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Posture and Base]] → [[Standing Guard Break]] (Success Rate: 45%)
+- [[Posture and Base]] → [[Standing Guard]] (Success Rate: 45%)
 - [[Flatten Guard]] → [[Half Guard Top]] (Success Rate: 40%)
 - [[Under-hook Control]] → [[Smash Pass]] (Success Rate: 35%)
-- [[Backstep Pass]] → [[Side Control Top]] (Success Rate: 30%)
+- [[Backstep Pass]] → [[Side Control]] (Success Rate: 30%)
 
 ## Offensive Transitions (Available From This State)
-- [[Butterfly Sweep]] → [[Mount]] or [[Side Control Top]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
-- [[Hook Sweep]] → [[Side Control Top]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
+- [[Butterfly Sweep]] → [[Mount]] or [[Side Control]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
+- [[Hook Sweep]] → [[Side Control]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
 - [[Arm Drag to Back]] → [[Back Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
 - [[Sit-up Sweep]] → [[Mount]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
 - [[Elevator Sweep]] → [[Mount]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
@@ -264,10 +264,11 @@ Start in butterfly guard, then flow to: Single Leg X → Back to butterfly → X
 
 ## Related Positions
 - [[Mount]] - Common sweep destination
-- [[Side Control Top]] - Alternative sweep destination
+- [[Side Control]] - Alternative sweep destination
 - [[Back Control]] - Back take destination from posts
 - [[Half Guard Bottom]] - Transition option
 - [[Open Guard Bottom]] - General guard category
+- [[Guard Retention]] - Essential defensive concept for maintaining guard
 
 ## Decision Tree
 
@@ -311,7 +312,7 @@ Start in butterfly guard, then flow to: Single Leg X → Back to butterfly → X
 ## Optimal Submission Paths
 
 **Fastest path to sweep (most common goal):**
-[[Butterfly Hook Control]] → [[Butterfly Sweep]] → [[Mount]] → [[Submission Chain]] → [[Won by Submission]]
+[[Butterfly Hook Control]] → [[Butterfly Sweep]] → [[Mount]] → [[Submission Chains]] → [[Won by Submission]]
 *Reasoning: Direct sweep to dominant mount position provides quickest path to submissions. High percentage and most direct route.*
 
 **High-percentage back take path:**
@@ -323,9 +324,9 @@ Start in butterfly guard, then flow to: Single Leg X → Back to butterfly → X
 *Reasoning: When opponent reaches forward with poor posture, guillotine presents itself as direct submission without needing to sweep first.*
 
 **Systematic progression path:**
-[[Butterfly Hook Control]] → [[Single Leg X Transition]] → [[Single Leg X Guard]] → [[Sweep]] → [[Top Position]] → [[Submission Chain]] → [[Won by Submission]]
+[[Butterfly Hook Control]] → [[Single Leg X Transition]] → [[Single Leg X Guard]] → [[Sweep]] → [[Top Position]] → [[Submission Chains]] → [[Won by Submission]]
 *Reasoning: Danaher-style systematic approach, transitioning to single leg X for more controlled sweep before attacking from top.*
 
 **Alternative guard transition path:**
-[[Butterfly Hook Control]] → [[Deep Half Entry]] → [[Deep Half Guard]] → [[Homer Simpson Sweep]] → [[Top Position]] → [[Submission Chain]] → [[Won by Submission]]
+[[Butterfly Hook Control]] → [[Deep Half Entry]] → [[Deep Half Guard]] → [[Homer Simpson Sweep]] → [[Top Position]] → [[Submission Chains]] → [[Won by Submission]]
 *Reasoning: When butterfly is defended, deep half provides alternative attack vector with different mechanical advantages.*

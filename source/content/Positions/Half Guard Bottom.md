@@ -141,23 +141,24 @@ You are positioned on your side or back with one of the opponent's legs captured
 ## Defensive Responses (When Opponent Has This State)
 - [[Crossface and Underhook]] → [[Half Guard Pass Sequence]]
 - [[Knee Cut Attempt]] → [[Knee Cut Pass]]
-- [[Flatten and Control]] → [[Half Guard Pin]]
+- [[Flatten and Control]] → [[half guard top]]
 - [[Back Step]] → [[Reverse Half Guard]]
+- [[Guard Retention]] - Essential defensive concept for maintaining half guard
 
 ## Offensive Transitions (Available From This State)
 - [[Old School Sweep]] → [[Top Half Guard]] or [[Side Control]]
 - [[Deep Half Entry]] → [[Deep Half Guard]]
 - [[Underhook Sweep]] → [[Top Position]]
-- [[Knee Shield Transition]] → [[Knee Shield Half Guard]]
+- [[knee shield retention]] → [[Knee Shield Half Guard]]
 - [[Half Guard to Closed Guard]] → [[Closed Guard Bottom]]
 - [[Kimura from Half Guard]] → [[Kimura Control]]
-- [[Electric Chair Sweep]] → [[Electric Chair Control]]
-- [[John Wayne Sweep]] → [[Side Control Top]]
+- [[electric chair]] → [[Electric Chair]]
+- [[John Wayne Sweep]] → [[Side Control]]
 
 ## Counter Transitions
 - [[Half Guard Recovery]] → [[Half Guard Bottom]] (against pass attempts)
 - [[Half Guard Reguard]] → [[Half Guard Bottom]] (from worse positions)
-- [[Lockdown Control]] → [[Lockdown Half Guard]] (stabilizing control)
+- [[Lockdown Control]] → [[lockdown guard]] (stabilizing control)
 
 ## Expert Insights
 - **Danaher System**: Emphasizes the "Inside Position Theory" in half guard, focusing on establishing the underhook as the primary battle. Creates systematic defensive structures to prevent flattening while setting up a methodical progression of sweeps and back takes.
@@ -181,7 +182,7 @@ You are positioned on your side or back with one of the opponent's legs captured
 ## Related States
 - [[Knee Shield Half Guard]] - Defensive variation with additional framing
 - [[Deep Half Guard]] - Offensive variation with upper body control
-- [[Lockdown Half Guard]] - Eddie Bravo's control-focused variation
+- [[lockdown guard]] - Eddie Bravo's control-focused variation
 - [[Z-Guard]] - Angled knee shield variation
 - [[93 Guard]] - Modified half guard with lapel control (gi)
 
@@ -205,7 +206,7 @@ Else if you secure strong underhook:
 - Execute [[Old School Sweep]] or [[Plan B Sweep]]
 
 Else if opponent is driving forward:
-- Execute [[Lockdown]] → [[Electric Chair Sweep]]
+- Execute [[Lockdown]] → [[electric chair]]
 
 ## Position Metrics
 - Success Rate: 55% recovery/advance (competition data)
@@ -216,10 +217,10 @@ Else if opponent is driving forward:
 
 ## Optimal Paths
 The highest-percentage offensive path from this position:
-[[Half Guard Bottom]] → [[Underhook Secure]] → [[Old School Sweep]] → [[Side Control Top]] → [[Mount]] → [[Arm Triangle]] → [[Won by Submission]]
+[[Half Guard Bottom]] → [[Underhook Sweep]] → [[Old School Sweep]] → [[side control]] → [[Mount]] → [[Arm Triangle]] → [[Won by Submission]]
 
 Defensive recovery path:
-[[Half Guard Bottom]] → [[Knee Shield Transition]] → [[Half Guard to Closed Guard]] → [[Closed Guard Bottom]] → Offensive sequence
+[[Half Guard Bottom]] → [[knee shield retention]] → [[Half Guard to Closed Guard]] → [[Closed Guard Bottom]] → Offensive sequence
 
 ## Computer Science Analogy
 Half guard represents a key "branching node" in the BJJ state machine with high connectivity to multiple paths - it offers transitions to both better positions (closed guard, deep half) and worse ones (side control). This makes it a critical decision point with significant impact on the match trajectory.

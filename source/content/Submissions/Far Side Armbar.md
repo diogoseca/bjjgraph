@@ -159,7 +159,7 @@ Opponent responses with success rates:
 - **Arm Pull-Back**: Retracting arm to prevent isolation → [[Arm Defense]] (Success Rate: 30%, Conditions: early reaction)
 - **Turn to Knees**: Turning to turtle to escape pin → [[Turtle Position]] (Success Rate: 20%, Conditions: quick movement)
 - **Hitchhiker Escape**: Rotating thumb down to relieve pressure → [[Pressure Reduction]] (Success Rate: 15%, Conditions: correct angle)
-- **Stack Defense**: Stacking to disrupt hip alignment → [[Stacking Defense]] (Success Rate: 10%, Conditions: strong base)
+- **Stack Defense**: Stacking to disrupt hip alignment → [[Stack Defense]] (Success Rate: 10%, Conditions: strong base)
 - **Bridge Escape**: Bridging to create space → [[Position Disruption]] (Success Rate: 10%, Conditions: explosive movement)
 
 Format: `[[Counter Technique]] → [[Result State]] (Success Rate: X%, Conditions: [when applicable])`
@@ -189,7 +189,7 @@ Primary risks while attempting this submission:
 - **Arm Retraction**: Opponent pulls arm back to prevent isolation → [[Arm Defense]] (Threat Level: Medium)
 - **Positional Escape**: Opponent turns to knees or other position → [[Turtle Position]] (Threat Level: Medium)
 - **Pressure Relief**: Opponent uses hitchhiker escape → [[Pressure Reduction]] (Threat Level: Low)
-- **Alignment Disruption**: Opponent stacks or bridges → [[Stacking Defense]] (Threat Level: Low)
+- **Alignment Disruption**: Opponent stacks or bridges → [[Stack Defense]] (Threat Level: Low)
 
 Format: `[[Threat Type]] → [[Resulting Position]] (Threat Level: X)`
 

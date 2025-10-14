@@ -42,7 +42,7 @@ state_machine:
     defender_burn_rate: 3.5
     explosive_escape_multiplier: 4.5
     cooking_rate: 3.0
-  related_states: ["Back Control", "Rear Naked Choke", "Armbar Control"]
+  related_states: ["Back Control", "Rear Naked Choke", "Armbar Control", "Triangle Control"]
 ---
 
 # Body Triangle Position

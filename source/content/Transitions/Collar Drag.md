@@ -285,7 +285,7 @@ Else [maintain control]:
 - [[Seated Guard]] → [[Collar Drag]]
 - [[Standing Grip Break]] → [[Collar Drag]]
 - [[Posture Control]] → [[Collar Drag]]
-- [[Defensive Reaction]] → [[Collar Drag]]
+- [[Defensive Framing]] → [[Collar Drag]]
 
 ## Follow-up Options
 - [[Side Control Establishment]] → [[Side Control]]

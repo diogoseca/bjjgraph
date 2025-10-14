@@ -127,6 +127,7 @@ The practitioner lies horizontally across the opponent's upper body, forming a T
 - Maintain low center of gravity
 - Use shoulder pressure to restrict breathing and movement
 - Create and maintain multiple points of control
+- [[Pressure Application]]
 
 ## Prerequisites
 - Successful guard pass or takedown
@@ -143,8 +144,8 @@ The practitioner lies horizontally across the opponent's upper body, forming a T
 ## Defensive Responses (When Opponent Has This State)
 - [[Frame and Shrimp]] → [[Guard Recovery]]
 - [[Bridge and Roll]] → [[Guard Recovery]] or [[Top Position]]
-- [[Elbow-Knee Escape]] → [[Half Guard Bottom]]
-- [[Turtle Transition]] → [[Turtle Position]]
+- [[Elbow Escape]] → [[Half Guard Bottom]]
+- [[Bottom Turtle]] → [[Bottom Turtle]]
 
 ## Offensive Transitions (Available From This State)
 - [[Transition to Mount]] → [[Mount]]
@@ -154,12 +155,12 @@ The practitioner lies horizontally across the opponent's upper body, forming a T
 - [[Americana Setup]] → [[Americana Control]]
 - [[Kimura Setup]] → [[Kimura Control]]
 - [[Paper Cutter Choke]] → [[Won by Submission]]
-- [[Arm Triangle Setup]] → [[Arm Triangle Control]]
+- [[Triangle Setup]] → [[Triangle Control]]
 
 ## Counter Transitions
 - [[Re-establish Side Control]] → [[Side Control]] (against escape attempts)
 - [[Switch Sides]] → [[Side Control]] (when opponent turns away)
-- [[Technical Stand-up]] → [[Standing Top Position]] (if control is disrupted)
+- [[Technical Stand-up]] → [[Standing up]] (if control is disrupted)
 
 ## Expert Insights
 - **Danaher System**: Emphasizes a shoulder of justice (direct shoulder pressure into opponent's jaw/neck) combined with precise weight distribution that makes bridging ineffective. Creates a systematic approach to shutting down each common escape pathway while maintaining constant attack threats.
@@ -207,7 +208,7 @@ Else if opponent bridges explosively:
 - Execute [[Switch to North-South]]
 
 Else (stable control established):
-- Progress to [[Transition to Mount]] or [[Arm Triangle Setup]]
+- Progress to [[Transition to Mount]] or [[Triangle Setup]]
 
 ## Position Metrics
 - Success Rate: 85% retention (competition data)

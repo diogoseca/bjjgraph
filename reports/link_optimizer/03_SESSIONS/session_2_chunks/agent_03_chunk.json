@@ -1,0 +1,260 @@
+{
+  "session": 2,
+  "agent": 3,
+  "total_agents": 10,
+  "fixes": [
+    {
+      "source_file": "Knee Cut Position",
+      "target_link": "Backstep",
+      "line_number": null,
+      "suggested_fix": "back step",
+      "confidence": 94.11764705882352
+    },
+    {
+      "source_file": "Knee Cut Position",
+      "target_link": "Near Side Armbar",
+      "line_number": null,
+      "suggested_fix": "far side armbar",
+      "confidence": 90.32258064516128
+    },
+    {
+      "source_file": "Knee Cut Position",
+      "target_link": "Backstep",
+      "line_number": null,
+      "suggested_fix": "back step",
+      "confidence": 94.11764705882352
+    },
+    {
+      "source_file": "Knee Cut Position",
+      "target_link": "Heavy Shoulder Pressure",
+      "line_number": null,
+      "suggested_fix": "shoulder pressure",
+      "confidence": 85.0
+    },
+    {
+      "source_file": "Knee Shield Half Guard",
+      "target_link": "Half Guard Pin",
+      "line_number": null,
+      "suggested_fix": "half guard top",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Knee Shield Half Guard",
+      "target_link": "Defensive Frames",
+      "line_number": null,
+      "suggested_fix": "defensive frame",
+      "confidence": 96.7741935483871
+    },
+    {
+      "source_file": "Knee Shield Half Guard",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Knee Tap",
+      "target_link": "Whizzer Counter",
+      "line_number": null,
+      "suggested_fix": "whizzer control",
+      "confidence": 86.66666666666667
+    },
+    {
+      "source_file": "Knee on Belly",
+      "target_link": "Nearside Armbar",
+      "line_number": null,
+      "suggested_fix": "far side armbar",
+      "confidence": 86.66666666666667
+    },
+    {
+      "source_file": "Kneebar Control",
+      "target_link": "Backside 50/50",
+      "line_number": null,
+      "suggested_fix": "backside 50-50",
+      "confidence": 92.85714285714286
+    },
+    {
+      "source_file": "Kneebar Control",
+      "target_link": "Straight Ankle Lock Switch",
+      "line_number": null,
+      "suggested_fix": "straight ankle lock",
+      "confidence": 84.44444444444444
+    },
+    {
+      "source_file": "Kneebar Control",
+      "target_link": "Outside Sankaku",
+      "line_number": null,
+      "suggested_fix": "inside sankaku",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "Kneebar Control",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Kneebar Control",
+      "target_link": "Backside 50/50",
+      "line_number": null,
+      "suggested_fix": "backside 50-50",
+      "confidence": 92.85714285714286
+    },
+    {
+      "source_file": "Kneebar Control",
+      "target_link": "Straight Ankle Lock Switch",
+      "line_number": null,
+      "suggested_fix": "straight ankle lock",
+      "confidence": 84.44444444444444
+    },
+    {
+      "source_file": "Kneebar Finish",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Kneebar Finish",
+      "target_link": "Failed Kneebar Finish",
+      "line_number": null,
+      "suggested_fix": "kneebar finish",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Kneebar Finish",
+      "target_link": "Ankle Lock",
+      "line_number": null,
+      "suggested_fix": "ankle pick",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Kneebar Finish",
+      "target_link": "Failed Kneebar Finish",
+      "line_number": null,
+      "suggested_fix": "kneebar finish",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Kneebar Finish",
+      "target_link": "Failed Kneebar Finish",
+      "line_number": null,
+      "suggested_fix": "kneebar finish",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Kneebar from 50-50",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Kneebar from 50-50",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Kneebar from 50-50",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Kneebar from 50-50",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Kneebar from 50-50",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Kneebar from 50-50",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Kuzure Kesa Gatame",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Lapel Guard",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Lasso Guard",
+      "target_link": "Omoplata Setup",
+      "line_number": null,
+      "suggested_fix": "gogoplata setup",
+      "confidence": 89.65517241379311
+    },
+    {
+      "source_file": "Lasso Guard",
+      "target_link": "Omoplata Setup",
+      "line_number": null,
+      "suggested_fix": "gogoplata setup",
+      "confidence": 89.65517241379311
+    },
+    {
+      "source_file": "Lasso Guard",
+      "target_link": "Omoplata Setup",
+      "line_number": null,
+      "suggested_fix": "gogoplata setup",
+      "confidence": 89.65517241379311
+    },
+    {
+      "source_file": "Leg Drag Control",
+      "target_link": "Leg Drag to Back",
+      "line_number": null,
+      "suggested_fix": "arm drag to back",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Leg Drag Position",
+      "target_link": "Backstep",
+      "line_number": null,
+      "suggested_fix": "back step",
+      "confidence": 94.11764705882352
+    },
+    {
+      "source_file": "Leg Drag Position",
+      "target_link": "S-Mount",
+      "line_number": null,
+      "suggested_fix": "mount",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Leg Drag Setup",
+      "target_link": "Posture Maintenance",
+      "line_number": null,
+      "suggested_fix": "base maintenance",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Leg Entanglement",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    }
+  ],
+  "fix_count": 36
+}

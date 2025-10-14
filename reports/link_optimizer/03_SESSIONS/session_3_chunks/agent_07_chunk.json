@@ -1,0 +1,92 @@
+{
+  "session": 3,
+  "agent": 7,
+  "total_agents": 10,
+  "fixes": [
+    {
+      "source_file": "Triangle Control",
+      "target_link": "Von Flue Counter",
+      "line_number": null,
+      "suggested_fix": "von flue choke",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Triangle Control",
+      "target_link": "Hand Fight",
+      "line_number": null,
+      "suggested_fix": "hand fighting",
+      "confidence": 86.95652173913044
+    },
+    {
+      "source_file": "Triangle Control",
+      "target_link": "Triangle to Back",
+      "line_number": null,
+      "suggested_fix": "triangle choke back",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Triangle Control",
+      "target_link": "Triangle Back Control",
+      "line_number": null,
+      "suggested_fix": "triangle control",
+      "confidence": 86.48648648648648
+    },
+    {
+      "source_file": "Triangle Finish",
+      "target_link": "Defensive Arm Position",
+      "line_number": null,
+      "suggested_fix": "defensive position",
+      "confidence": 90.0
+    },
+    {
+      "source_file": "Triangle Finish",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Triangle Setup",
+      "target_link": "Stacked Position",
+      "line_number": null,
+      "suggested_fix": "truck position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Triangle Setup",
+      "target_link": "Standing Guard Pass",
+      "line_number": null,
+      "suggested_fix": "standing guard",
+      "confidence": 84.84848484848484
+    },
+    {
+      "source_file": "Triangle Setup",
+      "target_link": "Omoplata Setup",
+      "line_number": null,
+      "suggested_fix": "gogoplata setup",
+      "confidence": 89.65517241379311
+    },
+    {
+      "source_file": "Triangle Setup",
+      "target_link": "Triangle Choke",
+      "line_number": null,
+      "suggested_fix": "triangle choke side",
+      "confidence": 84.84848484848484
+    },
+    {
+      "source_file": "Triangle-Armbar-Omoplata Chain",
+      "target_link": "Hand Fight",
+      "line_number": null,
+      "suggested_fix": "hand fighting",
+      "confidence": 86.95652173913044
+    },
+    {
+      "source_file": "Triangle-Armbar-Omoplata Chain",
+      "target_link": "Guard Stack Defense",
+      "line_number": null,
+      "suggested_fix": "stack defense",
+      "confidence": 81.25
+    }
+  ],
+  "fix_count": 12
+}

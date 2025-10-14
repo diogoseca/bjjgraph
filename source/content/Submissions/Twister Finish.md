@@ -186,10 +186,10 @@ Else [optimal submission execution]:
 
 ### Common Threats During Attempt
 Primary risks while attempting this submission:
-- **Spinal Adjustment**: Opponent aligns spine to reduce pressure → [[Pressure Reduction]] (Threat Level: Medium)
-- **Leg Escape**: Opponent extends trapped leg → [[Control Escape]] (Threat Level: Medium)
-- **Bridging Defense**: Opponent bridges to disrupt position → [[Position Disruption]] (Threat Level: Low)
-- **Counter Movement**: Opponent drives forward or rolls → [[Mechanical Prevention]] (Threat Level: Low)
+- **Spinal Adjustment**: Opponent aligns spine to reduce pressure → [[Standing Position]] (Threat Level: Medium)
+- **Leg Escape**: Opponent extends trapped leg → [[Guard Recovery]] (Threat Level: Medium)
+- **Bridging Defense**: Opponent bridges to disrupt position → [[Turtle Position]] (Threat Level: Low)
+- **Counter Movement**: Opponent drives forward or rolls → [[Standing Position]] (Threat Level: Low)
 
 Format: `[[Threat Type]] → [[Resulting Position]] (Threat Level: X)`
 

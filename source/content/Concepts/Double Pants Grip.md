@@ -77,7 +77,7 @@ The Double Pants Grip is a fundamental grip configuration in Gi BJJ where the pr
 
 ## Defensive Counters
 - [[Grip Breaking]] → [[Control Liberation]]
-- [[Knee Shield Insertion]] → [[Distance Creation]]
+- [[Knee Shield Retention]] → [[Distance Creation]]
 - [[Pant Grip Counter]] → [[Grip Fighting]]
 - [[Leg Curl]] → [[Guard Recovery]]
 - [[Hip Movement]] → [[Angle Creation]]
@@ -119,15 +119,15 @@ The Double Pants Grip is a fundamental grip configuration in Gi BJJ where the pr
 - [[Grip Fighting Sequence]] → [[Double Pants Grip]]
 - [[Standing Pass Initiation]] → [[Double Pants Grip]]
 - [[Guard Opening]] → [[Double Pants Grip]]
-- [[Headquarters Entry]] → [[Double Pants Grip]]
-- [[Defensive Frame Breaking]] → [[Double Pants Grip]]
+- [[Headquarters Control]] → [[Double Pants Grip]]
+- [[Defensive Framing]] → [[Double Pants Grip]]
 - [[Grip Break Sequence]] → [[Double Pants Grip]]
 
 ## Follow-up Options
 - [[Toreando Pass]] → [[Side Control]]
 - [[Knee Cut Pass]] → [[Side Control]]
 - [[Leg Drag Pass]] → [[Leg Drag Position]]
-- [[Headquarters Position]] → various passing options
+- [[Headquarters Control]] → various passing options
 - [[Stack Pass]] → [[Side Control]]
 - [[Over-Under Pass]] → [[Side Control]]
 

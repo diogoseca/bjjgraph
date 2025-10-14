@@ -169,8 +169,8 @@ Factors that influence the success rate of the transition:
 ## Common Counters and Counter-Attacks
 Analysis of opponent responses with success rates for counter-attacks:
 - [[Sprawl Defense]] → [[Front Headlock]] (Success Rate: 60%, Conditions: opponent sprawls hips back to counter takedown)
-- [[Whizzer Counter]] → [[Underhook Standing]] (Success Rate: 50%, Conditions: opponent overhooks arm to resist lift)
-- [[Guillotine Counter]] → [[Guillotine Control]] (Success Rate: 45%, Conditions: opponent capitalizes on lowered head for choke)
+- [[Whizzer Control]] → [[Underhook Standing]] (Success Rate: 50%, Conditions: opponent overhooks arm to resist lift)
+- [[Guillotine Control]] → [[Guillotine Control]] (Success Rate: 45%, Conditions: opponent capitalizes on lowered head for choke)
 - [[Crossface Defense]] → [[Neutral Standing]] (Success Rate: 40%, Conditions: opponent uses crossface to redirect attack)
 - [[Limp Leg Escape]] → [[Neutral Standing]] (Success Rate: 35%, Conditions: opponent pulls legs out during descent)
 - [[Underhook Defense]] → [[Angle Restriction]] (Success Rate: 55%, Conditions: opponent secures underhooks to block penetration angle)
@@ -287,6 +287,7 @@ Else [maintain control]:
 ## Follow-up Options
 - [[Leg Pass]] → [[Side Control]]
 - [[Knee Cut Pass]] → [[Side Control]]
+- [[Side Control Top]] - Explicit primary finishing position
 - [[Pin and Control]] → [[Top Half Guard]]
 - [[Back Step]] → [[Top Headquarters]]
 - [[Transition to Mount]] → [[Mount]]

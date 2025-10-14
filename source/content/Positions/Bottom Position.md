@@ -102,7 +102,7 @@ state_machine:
       success_rate: 35
 
     - technique: "Submission Attack"
-      target_state: "Submission Control Position"
+      target_state: "Submission Position"
       success_rate: 25
 
     - technique: "Pin and Control"
@@ -367,7 +367,7 @@ Your legs are in a dynamic position, either attempting to insert between you and
 ## Defensive Responses (When Opponent Has This State Against You)
 - [[Pass to Side Control]] → [[Side Control]] (Success Rate: 45%)
 - [[Pass to Mount]] → [[Mount]] (Success Rate: 35%)
-- [[Submission Attack]] → [[Submission Control Position]] (Success Rate: 25%)
+- [[Submission Attack]] → [[Submission Position]] (Success Rate: 25%)
 - [[Pin and Control]] → [[Top Control]] (Success Rate: 40%)
 
 ## Offensive Transitions (Available From This State)
@@ -493,5 +493,5 @@ Else (Default - neutral scramble):
 *Reasoning: Sometimes standing and resetting (45-65% success) is more efficient than fighting from bottom, especially against larger opponents*
 
 **Turtle transition path:**
-[[Bottom Position]] → [[Turtle Position]] → [[Granby Roll or Back Defense]] → [[Guard Recovery]] → [[Submission Chain]]
+[[Bottom Position]] → [[Turtle Position]] → [[Granby Roll or Back Defense]] → [[Guard Recovery]] → [[Submission Chains]]
 *Reasoning: Turtle provides defensive platform (55-75% success) from which to work back to guard or create scrambles*

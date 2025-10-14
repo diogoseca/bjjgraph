@@ -34,7 +34,7 @@ schema_tools:
   - "Mat space"
 tags: ["bjj", "transition", "escape", "standing", "fundamental", "defensive"]
 related_positions: ["Guard Bottom", "Standing", "Seated Guard"]
-related_techniques: ["Guard Replacement", "Re-Guard", "Sprawl Defense"]
+related_techniques: ["Guard Replacement", "X-Guard", "Sprawl Defense"]
 ---
 
 # Technical Standup
@@ -52,7 +52,7 @@ From guard bottom or seated position, you begin by posting your hand on the mat 
 2. **Initial Movement**: Bring far leg underneath body while extending near leg as barrier toward opponent
 3. **Base Creation**: Form tripod base with posted hand, near knee, and far foot planted firmly
 4. **Hip Elevation**: Push explosively off posted hand and far foot, lifting hips off mat
-5. **Standup Completion**: Bring far leg forward while rising to standing position, maintaining frame throughout
+5. **Standup Completion**: Bring far leg forward while rising to [[Standing Position]], maintaining frame throughout
 6. **Consolidation**: Establish standing posture with hands ready, distance controlled from opponent
 
 ## Key Technical Details
@@ -400,13 +400,13 @@ The technical standup is a fundamental movement taught in wrestling, judo, and s
 ## Position Integration
 
 **Common combinations and sequences:**
-- [[Guard Bottom]] → [[Technical Standup]] → [[Standing]]
-- [[Seated Guard]] → [[Technical Standup]] → [[Standing]]
-- [[Guard Bottom]] → [[Technical Standup]] → [[Wrestling Stance]]
+- [[Half Guard Bottom]] → [[Technical Standup]] → [[Standing up]]
+- [[Seated Guard]] → [[Technical Standup]] → [[Standing up]]
+- [[Half Guard Bottom]] → [[Technical Standup]] → [[Wrestling Stance]]
 
 ## Related Techniques
 
 - [[Guard Replacement]] - Alternative for staying in guard rather than standing
-- [[Re-Guard]] - Recovering guard after escape instead of standing
+- [[X-Guard]] - Recovering guard after escape instead of standing
 - [[Sprawl Defense]] - Related standing defensive technique
 - [[Wrestling Stance]] - Position established after successful standup

@@ -139,8 +139,8 @@ Half Guard Recovery is a critical defensive skill set that enables a practitione
 - [[Crossface Pressure]] → [[Head Immobilization]]
 - [[Opponent Underhook]] → [[Upper Body Control]]
 - [[Flattened Hips]] → [[Limited Mobility]]
-- [[Knee Cut Passing]] → [[Half Guard Compromise]]
-- [[Heavy Hip Pressure]] → [[Space Elimination]]
+- [[knee cut pass]] → [[Half Guard Compromise]]
+- [[hip pressure]] → [[Space Elimination]]
 - [[Shoulder Pressure]] → [[Breathing Restriction]]
 
 ## Variations
@@ -157,7 +157,7 @@ Half Guard Recovery is a critical defensive skill set that enables a practitione
 - [[Position Maintenance]] - Sustaining offensive initiative during exchanges
 - [[Sweep Setup]] - Creating conditions for reversals from recovered position
 - [[Submission Defense]] - Addressing vulnerabilities during half guard attacks
-- [[Scramble Situations]] - Stabilizing position during transitional exchanges
+- [[scramble position]] - Stabilizing position during transitional exchanges
 
 ## Setup Opportunities
 - [[Flattened Half Guard]] → [[Half Guard Recovery]]
@@ -170,7 +170,7 @@ Half Guard Recovery is a critical defensive skill set that enables a practitione
 ## Follow-up Options
 - [[Knee Shield Half Guard]] (defensive consolidation)
 - [[Z-Guard]] (enhanced defensive framing)
-- [[Deep Half Guard Entry]] (offensive transition)
+- [[deep half guard]] (offensive transition)
 - [[Underhook to Dogfight]] (offensive sequence)
 - [[Butterfly Half Transition]] (hybrid guard development)
 - [[Lockdown Control]] (stabilization technique)

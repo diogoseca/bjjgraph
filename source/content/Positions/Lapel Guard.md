@@ -183,7 +183,7 @@ Primary risks while in this position:
 - **Counter Sweep**: Opponent uses lapel against you → [[Top Position]] (Threat Level: Medium)
 - **Submission Counter**: Opponent attacks with leg locks → [[Leg Lock Control]] (Threat Level: Low)
 
-Format: `[[Threat Type]] → [[Resulting Position]] (Threat Level: X)`
+Format: `[[Threat Type]] → [[standing position]] (Threat Level: X)`
 
 ### Defensive Strategies
 Methods to mitigate threats:

@@ -1,0 +1,94 @@
+{
+  "session": 3,
+  "agent": 2,
+  "total_fixes_attempted": 12,
+  "fixes_completed": 4,
+  "fixes_skipped": 8,
+  "summary": "Completed 4 wikilink fixes across 2 files. 8 fixes were skipped as the broken links were not found in the source files (likely already fixed or incorrectly reported).",
+  "completed_fixes": [
+    {
+      "source_file": "Sprawl Defense",
+      "source_path": "/source/content/Concepts/Sprawl Defense.md",
+      "old_link": "Guillotine Setup",
+      "new_link": "Guillotine Control",
+      "status": "success",
+      "confidence": 82.35
+    },
+    {
+      "source_file": "Squid Guard",
+      "source_path": "/source/content/Positions/Squid Guard.md",
+      "old_link": "Omoplata Entry",
+      "new_link": "Omoplata Control",
+      "occurrences": 3,
+      "status": "success",
+      "confidence": 80.0,
+      "locations": [
+        "Line 30: Schema HowTo step",
+        "Line 202: Offensive Transitions list",
+        "Line 228: Decision Tree",
+        "Line 366: Decision Tree (second occurrence)"
+      ]
+    },
+    {
+      "source_file": "Standing Defense Strategy",
+      "source_path": "/source/content/Systems/Standing Defense Strategy.md",
+      "old_link": "Sprawl Position",
+      "new_link": "Scramble Position",
+      "status": "success",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Standing Defense Strategy",
+      "source_path": "/source/content/Systems/Standing Defense Strategy.md",
+      "old_link": "Guillotine Entry",
+      "new_link": "Guillotine Control",
+      "status": "success",
+      "confidence": 82.35
+    }
+  ],
+  "skipped_fixes": [
+    {
+      "source_file": "Sprawl Defense",
+      "target_link": "Double Leg Control",
+      "suggested_fix": "Double Leg Entry",
+      "reason": "Link not found in source file - may have been already fixed",
+      "confidence": 82.35
+    },
+    {
+      "source_file": "Sprawl Defense",
+      "target_link": "Guard Bottom",
+      "suggested_fix": "Half Guard Bottom",
+      "reason": "Link not found in source file - may have been already fixed",
+      "confidence": 82.76
+    },
+    {
+      "source_file": "Sprawl Defense",
+      "target_link": "Standing",
+      "suggested_fix": "Standing up",
+      "reason": "Link not found in source file - may have been already fixed or false positive (found 'Standing Position' instead)",
+      "occurrences": 4,
+      "confidence": 84.21
+    },
+    {
+      "source_file": "Sprawl Defense",
+      "target_link": "Sprawl Position",
+      "suggested_fix": "Scramble Position",
+      "reason": "Link not found in source file - may have been already fixed",
+      "occurrences": 2,
+      "confidence": 81.25
+    }
+  ],
+  "files_modified": [
+    "/source/content/Concepts/Sprawl Defense.md",
+    "/source/content/Positions/Squid Guard.md",
+    "/source/content/Systems/Standing Defense Strategy.md"
+  ],
+  "validation_notes": [
+    "All suggested fix targets were validated to exist before replacement",
+    "Files: Double Leg Entry.md, Half Guard Bottom.md, Standing up.md, Scramble Position.md, Omoplata Control.md, Guillotine Control.md all confirmed to exist",
+    "Squid Guard had 3 occurrences of 'Omoplata Entry' replaced with 'Omoplata Control' (in schema, offensive transitions, and decision tree sections)",
+    "Several broken links listed in the chunk JSON were not found in the actual source files, suggesting they may have been fixed in a previous session or were false positives"
+  ],
+  "completion_time": "2025-10-13",
+  "agent_efficiency": "33.3% (4 of 12 attempted fixes completed)"
+}

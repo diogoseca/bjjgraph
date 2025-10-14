@@ -1,0 +1,260 @@
+{
+  "session": 2,
+  "agent": 4,
+  "total_agents": 10,
+  "fixes": [
+    {
+      "source_file": "Leg Entanglement",
+      "target_link": "Backside 50/50",
+      "line_number": null,
+      "suggested_fix": "backside 50-50",
+      "confidence": 92.85714285714286
+    },
+    {
+      "source_file": "Leg Knot Position",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Leg Lock Defense Framework",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Leg Weave Pass",
+      "target_link": "Half Guard",
+      "line_number": null,
+      "suggested_fix": "half guard top",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Lockdown Guard",
+      "target_link": "Flatten Half Guard",
+      "line_number": null,
+      "suggested_fix": "flattened half guard",
+      "confidence": 94.73684210526315
+    },
+    {
+      "source_file": "Lockdown Guard",
+      "target_link": "Half Guard Pass",
+      "line_number": null,
+      "suggested_fix": "half guard top",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "Lockdown Guard",
+      "target_link": "Electric Chair Entry",
+      "line_number": null,
+      "suggested_fix": "electric chair",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Lockdown Guard",
+      "target_link": "Electric Chair Entry",
+      "line_number": null,
+      "suggested_fix": "electric chair",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Lockdown Guard",
+      "target_link": "Electric Chair Entry",
+      "line_number": null,
+      "suggested_fix": "electric chair",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Lockdown Guard",
+      "target_link": "Switch to Single X",
+      "line_number": null,
+      "suggested_fix": "switch to triangle",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Lockdown Position",
+      "target_link": "Electric Chair Sweep",
+      "line_number": null,
+      "suggested_fix": "electric chair",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Lockdown Position",
+      "target_link": "Dog Fight Position",
+      "line_number": null,
+      "suggested_fix": "dogfight position",
+      "confidence": 97.14285714285714
+    },
+    {
+      "source_file": "Lockdown Position",
+      "target_link": "Electric Chair Position",
+      "line_number": null,
+      "suggested_fix": "electric chair submission",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Lockdown Position",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Lockdown Position",
+      "target_link": "Electric Chair Setup",
+      "line_number": null,
+      "suggested_fix": "electric chair",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Lockdown Position",
+      "target_link": "Electric Chair Position",
+      "line_number": null,
+      "suggested_fix": "electric chair submission",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Lockdown Position",
+      "target_link": "Dog Fight Position",
+      "line_number": null,
+      "suggested_fix": "dogfight position",
+      "confidence": 97.14285714285714
+    },
+    {
+      "source_file": "Lockdown Position",
+      "target_link": "Electric Chair Setup",
+      "line_number": null,
+      "suggested_fix": "electric chair",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Lockdown Position",
+      "target_link": "Electric Chair Position",
+      "line_number": null,
+      "suggested_fix": "electric chair submission",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Lockdown Position",
+      "target_link": "Electric Chair Position",
+      "line_number": null,
+      "suggested_fix": "electric chair submission",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Lockdown Position",
+      "target_link": "Dog Fight Position",
+      "line_number": null,
+      "suggested_fix": "dogfight position",
+      "confidence": 97.14285714285714
+    },
+    {
+      "source_file": "Lockdown Position",
+      "target_link": "Electric Chair Position",
+      "line_number": null,
+      "suggested_fix": "electric chair submission",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Lockdown Position",
+      "target_link": "Electric Chair Sweep",
+      "line_number": null,
+      "suggested_fix": "electric chair",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Loop Choke",
+      "target_link": "Space Maintenance",
+      "line_number": null,
+      "suggested_fix": "base maintenance",
+      "confidence": 84.84848484848484
+    },
+    {
+      "source_file": "Loop Choke",
+      "target_link": "Space Maintenance",
+      "line_number": null,
+      "suggested_fix": "base maintenance",
+      "confidence": 84.84848484848484
+    },
+    {
+      "source_file": "Loop Choke",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Lumberjack Sweep",
+      "target_link": "Failed Lumberjack Sweep",
+      "line_number": null,
+      "suggested_fix": "lumberjack sweep",
+      "confidence": 82.05128205128204
+    },
+    {
+      "source_file": "Mission Control",
+      "target_link": "Posture Establishment",
+      "line_number": null,
+      "suggested_fix": "guard establishment",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Mission Control",
+      "target_link": "Secure Gogoplata Setup",
+      "line_number": null,
+      "suggested_fix": "gogoplata setup",
+      "confidence": 81.08108108108108
+    },
+    {
+      "source_file": "Mission Control",
+      "target_link": "Mission Control Sweep",
+      "line_number": null,
+      "suggested_fix": "mission control",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Mission Control",
+      "target_link": "Secure Gogoplata Setup",
+      "line_number": null,
+      "suggested_fix": "gogoplata setup",
+      "confidence": 81.08108108108108
+    },
+    {
+      "source_file": "Mission Control",
+      "target_link": "Mission Control Sweep",
+      "line_number": null,
+      "suggested_fix": "mission control",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Mission Control",
+      "target_link": "Secure Gogoplata Setup",
+      "line_number": null,
+      "suggested_fix": "gogoplata setup",
+      "confidence": 81.08108108108108
+    },
+    {
+      "source_file": "Modern Leg Lock Meta",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Modern Leg Lock Meta",
+      "target_link": "Grip Reestablishment",
+      "line_number": null,
+      "suggested_fix": "guard establishment",
+      "confidence": 82.05128205128204
+    },
+    {
+      "source_file": "Modern Leg Lock Meta",
+      "target_link": "Grip Reestablishment",
+      "line_number": null,
+      "suggested_fix": "guard establishment",
+      "confidence": 82.05128205128204
+    }
+  ],
+  "fix_count": 36
+}

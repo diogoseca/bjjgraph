@@ -44,7 +44,7 @@ state_machine:
 
   # Available Transitions
   offensive_transitions:
-    - technique: "Closed Guard Pull"
+    - technique: "closed guard top"
       target_state: "Closed Guard Bottom"
       transition_id: "T230"
       success_rate:
@@ -84,7 +84,7 @@ state_machine:
         intermediate: 58
         advanced: 78
 
-    - technique: "Butterfly Guard Pull"
+    - technique: "butterfly guard"
       target_state: "Butterfly Guard"
       transition_id: "T235"
       success_rate:
@@ -92,7 +92,7 @@ state_machine:
         intermediate: 68
         advanced: 82
 
-    - technique: "Spider Guard Pull"
+    - technique: "spider guard"
       target_state: "Spider Guard"
       transition_id: "T236"
       success_rate:
@@ -100,7 +100,7 @@ state_machine:
         intermediate: 62
         advanced: 80
 
-    - technique: "Seated Guard Pull"
+    - technique: "seated guard"
       target_state: "Seated Guard"
       transition_id: "T237"
       success_rate:
@@ -393,17 +393,17 @@ During the transition, your body moves from upright standing to seated or supine
 - [[Stand and Clear]] → [[Standing Position]] (Success Rate: 25%)
 
 ## Offensive Transitions (Available From This Action)
-- [[Closed Guard Pull]] → [[Closed Guard Bottom]] (Success Rate: Beginner 60%, Intermediate 75%, Advanced 90%)
-- [[Open Guard Pull]] → [[Open Guard Bottom]] (Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%)
-- [[De La Riva Guard Pull]] → [[De La Riva Guard]] (Success Rate: Beginner 35%, Intermediate 60%, Advanced 80%)
-- [[X-Guard Pull]] → [[X-Guard]] (Success Rate: Beginner 30%, Intermediate 55%, Advanced 75%)
-- [[Single Leg X Pull]] → [[Single Leg X Guard]] (Success Rate: Beginner 32%, Intermediate 58%, Advanced 78%)
-- [[Butterfly Guard Pull]] → [[Butterfly Guard]] (Success Rate: Beginner 50%, Intermediate 68%, Advanced 82%)
-- [[Spider Guard Pull]] → [[Spider Guard]] (Success Rate: Beginner 40%, Intermediate 62%, Advanced 80%)
-- [[Seated Guard Pull]] → [[Seated Guard]] (Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%)
+- [[Closed Guard Bottom]] → [[Closed Guard Bottom]] (Success Rate: Beginner 60%, Intermediate 75%, Advanced 90%)
+- [[Open Guard Bottom]] → [[Open Guard Bottom]] (Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%)
+- [[De La Riva Guard]] → [[De La Riva Guard]] (Success Rate: Beginner 35%, Intermediate 60%, Advanced 80%)
+- [[X-Guard]] → [[X-Guard]] (Success Rate: Beginner 30%, Intermediate 55%, Advanced 75%)
+- [[Single Leg X Guard]] → [[Single Leg X Guard]] (Success Rate: Beginner 32%, Intermediate 58%, Advanced 78%)
+- [[Butterfly Guard]] → [[Butterfly Guard]] (Success Rate: Beginner 50%, Intermediate 68%, Advanced 82%)
+- [[Spider Guard]] → [[Spider Guard]] (Success Rate: Beginner 40%, Intermediate 62%, Advanced 80%)
+- [[Seated Guard]] → [[Seated Guard]] (Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%)
 
 ## Counter Transitions
-- [[Re-pull Guard]] → Various guard types (after failed first attempt)
+- [[Pull Guard]] → Various guard types (after failed first attempt)
 - [[Stand Back Up]] → [[Standing Position]] (if guard pull is defended)
 - [[Guard Recovery]] → Target guard (if initially landed poorly)
 
@@ -479,20 +479,20 @@ During the transition, your body moves from upright standing to seated or supine
 
 ## Decision Tree
 If standing engagement with grips established:
-- Execute [[Closed Guard Pull]] → [[Closed Guard Bottom]] (Probability: 75%)
-- Or Execute [[Open Guard Pull]] → [[Open Guard Bottom]] (Probability: 70%)
+- Execute [[Closed Guard Bottom]] → [[Closed Guard Bottom]] (Probability: 75%)
+- Or Execute [[Open Guard Bottom]] → [[Open Guard Bottom]] (Probability: 70%)
 
 Else if opponent is aggressive and forward:
-- Execute [[De La Riva Guard Pull]] → [[De La Riva Guard]] (Probability: 60%)
-- Or Execute [[X-Guard Pull]] → [[X-Guard]] (Probability: 55%)
+- Execute [[De La Riva Guard]] → [[De La Riva Guard]] (Probability: 60%)
+- Or Execute [[X-Guard]] → [[X-Guard]] (Probability: 55%)
 
 Else if gi grips on sleeves/collar:
-- Execute [[Spider Guard Pull]] → [[Spider Guard]] (Probability: 62%)
-- Or Execute [[Closed Guard Pull]] → [[Closed Guard Bottom]] (Probability: 75%)
+- Execute [[Spider Guard]] → [[Spider Guard]] (Probability: 62%)
+- Or Execute [[Closed Guard Bottom]] → [[Closed Guard Bottom]] (Probability: 75%)
 
 Else if no-gi or limited grips:
-- Execute [[Butterfly Guard Pull]] → [[Butterfly Guard]] (Probability: 68%)
-- Or Execute [[Seated Guard Pull]] → [[Seated Guard]] (Probability: 65%)
+- Execute [[Butterfly Guard]] → [[Butterfly Guard]] (Probability: 68%)
+- Or Execute [[Seated Guard]] → [[Seated Guard]] (Probability: 65%)
 
 ## Position Metrics
 - **Position Retention Rate**: Beginner 50%, Intermediate 70%, Advanced 85%
@@ -503,7 +503,7 @@ Else if no-gi or limited grips:
 
 ## Optimal Paths from Guard Pull
 **High-percentage sweep path:**
-[[Pull Guard]] → [[Closed Guard Bottom]] → [[Hip Bump Sweep]] → [[Mount]] → [[Submission Chain]]
+[[Pull Guard]] → [[Closed Guard Bottom]] → [[Hip Bump Sweep]] → [[Mount]] → [[Submission Chains]]
 *Reasoning: Pulling to closed guard offers stable platform for high-percentage sweeps, success rate 60-90% for pull, 40-70% for sweep*
 
 **Immediate sweep threat path:**

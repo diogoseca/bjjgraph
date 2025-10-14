@@ -155,7 +155,7 @@ Common paths from this position with success rates:
 - **To Guard Pass**: [[Side Control]] (Success Rate: 65%, Conditions: successful leg control break)
 - **To Submission**: [[Straight Ankle Lock]] (Success Rate: 50%, Conditions: leg isolation)
 - **To Alternative Control**: [[Headquarters Position]] (Success Rate: 60%, Conditions: partial pass)
-- **To Position Maintenance**: [[Top Open Guard]] (Success Rate: 75%, Conditions: during sweep defense)
+- **To Standing Position**: [[Standing Position]] (Success Rate: 75%, Conditions: during sweep defense)
 
 Format: `[[Target Position/Transition]] (Success Rate: X%, Conditions: [when applicable])`
 

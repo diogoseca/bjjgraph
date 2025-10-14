@@ -159,8 +159,8 @@ Opponent responses with success rates:
 - **Chin Tuck Defense**: Tucking chin to prevent choke → [[Neck Protection]] (Success Rate: 30%, Conditions: early reaction)
 - **Posture Up**: Posturing to create space → [[Space Creation]] (Success Rate: 25%, Conditions: strong base)
 - **Arm Frame**: Framing with arms to block pressure → [[Defensive Frame]] (Success Rate: 15%, Conditions: quick adjustment)
-- **Stack Pressure**: Stacking to disrupt alignment → [[Stacking Defense]] (Success Rate: 10%, Conditions: significant leverage)
-- **Roll Escape**: Rolling to escape hold → [[Position Reversal]] (Success Rate: 10%, Conditions: explosive movement)
+- **Stack Pressure**: Stacking to disrupt alignment → [[Sprawl Defense]] (Success Rate: 10%, Conditions: significant leverage)
+- **Roll Escape**: Rolling to escape hold → [[standing position]] (Success Rate: 10%, Conditions: explosive movement)
 
 Format: `[[Counter Technique]] → [[Result State]] (Success Rate: X%, Conditions: [when applicable])`
 
@@ -189,9 +189,9 @@ Primary risks while attempting this submission:
 - **Neck Protection**: Opponent tucks chin to prevent choke → [[Neck Protection]] (Threat Level: Medium)
 - **Space Creation**: Opponent postures up to create space → [[Space Creation]] (Threat Level: Medium)
 - **Defensive Frame**: Opponent frames with arms → [[Defensive Frame]] (Threat Level: Low)
-- **Stacking Defense**: Opponent stacks to disrupt alignment → [[Stacking Defense]] (Threat Level: Low)
+- **Stacking Defense**: Opponent stacks to disrupt alignment → [[Stack Defense]] (Threat Level: Low)
 
-Format: `[[Threat Type]] → [[Resulting Position]] (Threat Level: X)`
+Format: `[[Threat Type]] → [[standing position]] (Threat Level: X)`
 
 ### Defensive Strategies
 Methods to mitigate threats:

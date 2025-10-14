@@ -1,0 +1,92 @@
+{
+  "session": 3,
+  "agent": 1,
+  "total_agents": 10,
+  "fixes": [
+    {
+      "source_file": "Single Leg Takedown",
+      "target_link": "Closed Guard",
+      "line_number": null,
+      "suggested_fix": "closed guard top",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Single Leg X Entry",
+      "target_link": "Open Guard Retention",
+      "line_number": null,
+      "suggested_fix": "guard retention",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Single Leg X Guard",
+      "target_link": "Standing Pass",
+      "line_number": null,
+      "suggested_fix": "standing up",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Single Leg X Guard",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Single Leg X Guard",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Smash Pass",
+      "target_link": "Triangle Choke",
+      "line_number": null,
+      "suggested_fix": "triangle choke side",
+      "confidence": 84.84848484848484
+    },
+    {
+      "source_file": "Smash Pass Position",
+      "target_link": "Leg Drag Conversion",
+      "line_number": null,
+      "suggested_fix": "leg drag control",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Smash Pass Position",
+      "target_link": "Kimura Trap Setup",
+      "line_number": null,
+      "suggested_fix": "kimura trap system",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Smash Pass Position",
+      "target_link": "Leg Drag Conversion",
+      "line_number": null,
+      "suggested_fix": "leg drag control",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Smash Pass Position",
+      "target_link": "Kimura Trap Setup",
+      "line_number": null,
+      "suggested_fix": "kimura trap system",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Smash Pass Position",
+      "target_link": "Kimura Trap Setup",
+      "line_number": null,
+      "suggested_fix": "kimura trap system",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Sprawl Defense",
+      "target_link": "Single Leg Control",
+      "line_number": null,
+      "suggested_fix": "single leg entry",
+      "confidence": 82.35294117647058
+    }
+  ],
+  "fix_count": 12
+}

@@ -124,7 +124,7 @@ description: "Learn Pull Guard in BJJ. Step-by-step execution. Complete techniqu
 - **Transition ID**: T814
 - **Classification**: Defensive Transition
 - **Starting Position**: [[Standing Position]]
-- **Target Position**: [[Closed Guard]] (bottom), [[Open Guard]] (bottom)
+- **Target Position**: [[Closed Guard Bottom]], [[Open Guard Bottom]]
 - **Success Probability**: Beginner (60%), Intermediate (75%), Advanced (90%)
 - **Execution Complexity**: Low
 - **Physical Attributes**: Coordination (Medium), Timing (Medium), Strength (Low)
@@ -172,7 +172,7 @@ Factors that influence the success rate of the transition:
 
 ## Common Counters and Counter-Attacks
 Analysis of opponent responses with success rates for counter-attacks:
-- **Posture Resistance** → [[Standing Guard]] (Success Rate: 35%, Conditions: opponent maintains strong posture and resists being pulled down)
+- **Posture Resistance** → [[Open Guard Top]] (Success Rate: 35%, Conditions: opponent maintains strong posture and resists being pulled down)
 - **Takedown Attempt** → [[Top Position]] (Success Rate: 30%, Conditions: opponent capitalizes on pull to initiate a takedown)
 - **Guard Pass Attempt** → [[Side Control]] (Success Rate: 25%, Conditions: opponent immediately attempts to pass as you sit down)
 - **Sprawl Defense** → [[Neutral Position]] (Success Rate: 20%, Conditions: opponent sprawls to avoid being pulled into guard)
@@ -329,10 +329,13 @@ This standard ensures:
 Updates to this standard should be reflected across related transition setup files to maintain consistency and educational value.
 
 ## Related Transitions
-- **Closed Guard Establishment** - Following pull to secure Closed Guard
-- **Open Guard Setup** - Alternative guard after pulling
-- **De La Riva Guard Pull** - Specific guard variation after pulling
-- **Guard Retention** - Defensive adjustment if pull is resisted
+- [[Guard Retention]]
+- [[Closed Guard Bottom]] - Following pull to secure Closed Guard
+- [[Open Guard Bottom]] - Alternative guard after pulling
+- [[De La Riva Guard]] - Specific guard variation after pulling
+- [[Butterfly Guard]] - Variation with butterfly hooks
+- [[Single Leg X Guard]] - Leg entanglement guard variation
+- [[Spider Guard]] - Distance guard with sleeve control
 
 ## Historical Context
 The Pull Guard technique has been a foundational strategy in BJJ since its early development, popularized by practitioners who specialized in guard play to counter wrestling-based takedown approaches, becoming a staple in modern competition to initiate complex guard games.
@@ -358,8 +361,8 @@ The Pull Guard technique has been a foundational strategy in BJJ since its early
 
 ## Transition Integration
 **Common Pull Guard combinations:**
-- [[Pull Guard]] → [[Closed Guard]] → [[Triangle Setup]]
-- [[Pull Guard]] → [[Open Guard]] → [[Sweep Attempt]]
+- [[Pull Guard]] → [[Closed Guard Bottom]] → [[Triangle Setup]]
+- [[Pull Guard]] → [[Open Guard Bottom]] → [[Sweep Attempt]]
 - [[Pull Guard]] → [[De La Riva Guard]] → [[Back Take]]
 
 ## Training Applications

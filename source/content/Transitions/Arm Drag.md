@@ -171,7 +171,7 @@ Analysis of opponent responses with success rates for counter-attacks:
 - [[Arm Retraction]] → [[Grip Breaking]] (Success Rate: 60%, Conditions: quick reaction to pull arm back)
 - [[Counter Drag]] → [[Grip Fighting]] (Success Rate: 50%, Conditions: opponent anticipates and counters with own drag)
 - [[Sprawl]] → [[Takedown Defense]] (Success Rate: 70%, Conditions: opponent drops hips to prevent angle)
-- [[Head Position]] → [[Posture Control]] (Success Rate: 55%, Conditions: opponent adjusts head to block angle)
+- [[guard position]] → [[Posture Control]] (Success Rate: 55%, Conditions: opponent adjusts head to block angle)
 - [[Whizzer]] → [[Lateral Control]] (Success Rate: 65%, Conditions: opponent secures overhook to resist)
 
 ## Decision Logic for Opponent Behavior
@@ -279,7 +279,7 @@ Else [maintain control]:
 - [[Butterfly Guard]] → [[Arm Drag]]
 - [[Seated Guard]] → [[Arm Drag]]
 - [[Standing Grip Break]] → [[Arm Drag]]
-- [[Defensive Reaction]] → [[Arm Drag]]
+- [[defensive framing]] → [[Arm Drag]]
 
 ## Follow-up Options
 - [[Back Take]] → [[Back Control]]

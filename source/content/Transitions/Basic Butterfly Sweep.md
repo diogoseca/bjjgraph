@@ -176,9 +176,9 @@ Factors that influence the success rate of the transition:
 ## Common Counters and Counter-Attacks
 Analysis of opponent responses with success rates for counter-attacks:
 - [[Base Widening]] → [[Hook Ineffectiveness]] (Success Rate: 50%, Conditions: opponent widens knees to lower base)
-- [[Crossface Counter]] → [[Flattened Butterfly]] (Success Rate: 55%, Conditions: opponent applies crossface to flatten you)
+- [[Cross Face Control]] → [[Flattened Butterfly]] (Success Rate: 55%, Conditions: opponent applies crossface to flatten you)
 - [[Limp Arm Escape]] → [[Standing Defense]] (Success Rate: 40%, Conditions: opponent pulls arm out of underhook to stand)
-- [[Backstep]] → [[Leg Drag Position]] (Success Rate: 45%, Conditions: opponent backsteps to avoid elevation)
+- [[Back Step]] → [[Leg Drag Position]] (Success Rate: 45%, Conditions: opponent backsteps to avoid elevation)
 - [[Pressure Forward]] → [[Smash Pass Attempt]] (Success Rate: 60%, Conditions: opponent drives forward to smash guard)
 
 ## Decision Logic for Opponent Behavior
@@ -279,7 +279,7 @@ Else [maintain control]:
 
 ## Setup Connections
 - [[Butterfly Guard]] → [[Basic Butterfly Sweep]]
-- [[Half Butterfly Guard]] → [[Basic Butterfly Sweep]]
+- [[Butterfly Guard]] → [[Basic Butterfly Sweep]]
 - [[Open Guard Bottom]] → [[Basic Butterfly Sweep]]
 - [[Guard Recovery]] → [[Basic Butterfly Sweep]]
 - [[Guard Retention]] → [[Basic Butterfly Sweep]]
@@ -290,7 +290,7 @@ Else [maintain control]:
 - [[Mount Transition]] → [[Mount]]
 - [[Knee Slice Pass]] → [[Side Control]]
 - [[Kimura Trap]] → [[Kimura Control]]
-- [[Near Side Armbar]] → [[Armbar Control]]
+- [[Far Side Armbar]] → [[Armbar Control]]
 - [[Back Take Opportunity]] → [[Back Control]]
 
 ## Training Approaches

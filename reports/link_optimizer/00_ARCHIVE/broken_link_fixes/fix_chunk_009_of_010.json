@@ -1,0 +1,624 @@
+{
+  "chunk_metadata": {
+    "chunk_number": 9,
+    "total_chunks": 10,
+    "start_index": 680,
+    "end_index": 764,
+    "count": 85,
+    "task_type": "broken_link_fix",
+    "confidence_filter": "\u226580%"
+  },
+  "broken_links": [
+    {
+      "source_file": "Guillotine Sequence",
+      "target_link": "Stacking Defense",
+      "line_number": null,
+      "suggested_fix": "stack defense",
+      "confidence": 89.65517241379311
+    },
+    {
+      "source_file": "Guillotine Sequence",
+      "target_link": "Stacking Defense",
+      "line_number": null,
+      "suggested_fix": "stack defense",
+      "confidence": 89.65517241379311
+    },
+    {
+      "source_file": "Guillotine Sequence",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Submission-Focused Strategy",
+      "target_link": "Energy Management",
+      "line_number": null,
+      "suggested_fix": "energy management system",
+      "confidence": 82.92682926829268
+    },
+    {
+      "source_file": "D'arce-Anaconda Connection",
+      "target_link": "Guillotine Counter",
+      "line_number": null,
+      "suggested_fix": "guillotine control",
+      "confidence": 88.88888888888889
+    },
+    {
+      "source_file": "D'arce-Anaconda Connection",
+      "target_link": "Front Headlock Reset",
+      "line_number": null,
+      "suggested_fix": "front headlock series",
+      "confidence": 87.8048780487805
+    },
+    {
+      "source_file": "Williams Shoulder Lock",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Williams Shoulder Lock",
+      "target_link": "Failed Williams Shoulder Lock",
+      "line_number": null,
+      "suggested_fix": "williams shoulder lock",
+      "confidence": 86.27450980392157
+    },
+    {
+      "source_file": "Williams Shoulder Lock",
+      "target_link": "Failed Williams Shoulder Lock",
+      "line_number": null,
+      "suggested_fix": "williams shoulder lock",
+      "confidence": 86.27450980392157
+    },
+    {
+      "source_file": "Williams Shoulder Lock",
+      "target_link": "Failed Williams Shoulder Lock",
+      "line_number": null,
+      "suggested_fix": "williams shoulder lock",
+      "confidence": 86.27450980392157
+    },
+    {
+      "source_file": "Arm-in Guillotine",
+      "target_link": "Guillotine Entry",
+      "line_number": null,
+      "suggested_fix": "guillotine control",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Arm-in Guillotine",
+      "target_link": "Von Flue Counter",
+      "line_number": null,
+      "suggested_fix": "von flue choke",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Arm-in Guillotine",
+      "target_link": "Von Flue Counter",
+      "line_number": null,
+      "suggested_fix": "von flue choke",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Rear Naked Choke",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Rear Naked Choke",
+      "target_link": "Failed Rear Naked Choke",
+      "line_number": null,
+      "suggested_fix": "rear naked choke",
+      "confidence": 82.05128205128204
+    },
+    {
+      "source_file": "Rear Naked Choke",
+      "target_link": "Failed Rear Naked Choke",
+      "line_number": null,
+      "suggested_fix": "rear naked choke",
+      "confidence": 82.05128205128204
+    },
+    {
+      "source_file": "Rear Naked Choke",
+      "target_link": "Failed Rear Naked Choke",
+      "line_number": null,
+      "suggested_fix": "rear naked choke",
+      "confidence": 82.05128205128204
+    },
+    {
+      "source_file": "Gogoplata Setup",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Front Headlock Submission System",
+      "target_link": "Posture Break",
+      "line_number": null,
+      "suggested_fix": "posture breaking",
+      "confidence": 89.65517241379311
+    },
+    {
+      "source_file": "Front Headlock Submission System",
+      "target_link": "D'arce Setup",
+      "line_number": null,
+      "suggested_fix": "darce setup",
+      "confidence": 95.65217391304348
+    },
+    {
+      "source_file": "Front Headlock Submission System",
+      "target_link": "Front Headlock Reset",
+      "line_number": null,
+      "suggested_fix": "front headlock series",
+      "confidence": 87.8048780487805
+    },
+    {
+      "source_file": "Bow and Arrow Choke",
+      "target_link": "Turtle Position Bottom",
+      "line_number": null,
+      "suggested_fix": "turtle position",
+      "confidence": 81.08108108108108
+    },
+    {
+      "source_file": "Bow and Arrow Choke",
+      "target_link": "Side Control Bottom",
+      "line_number": null,
+      "suggested_fix": "side control to mount",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Bow and Arrow Choke",
+      "target_link": "Side Control Bottom",
+      "line_number": null,
+      "suggested_fix": "side control to mount",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Bow and Arrow Choke",
+      "target_link": "Turtle Position Bottom",
+      "line_number": null,
+      "suggested_fix": "turtle position",
+      "confidence": 81.08108108108108
+    },
+    {
+      "source_file": "Bow and Arrow Choke",
+      "target_link": "Turtle Position Bottom",
+      "line_number": null,
+      "suggested_fix": "turtle position",
+      "confidence": 81.08108108108108
+    },
+    {
+      "source_file": "Kneebar Finish",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Kneebar Finish",
+      "target_link": "Failed Kneebar Finish",
+      "line_number": null,
+      "suggested_fix": "kneebar finish",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Kneebar Finish",
+      "target_link": "Ankle Lock",
+      "line_number": null,
+      "suggested_fix": "ankle pick",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Kneebar Finish",
+      "target_link": "Failed Kneebar Finish",
+      "line_number": null,
+      "suggested_fix": "kneebar finish",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Kneebar Finish",
+      "target_link": "Failed Kneebar Finish",
+      "line_number": null,
+      "suggested_fix": "kneebar finish",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Ezekiel Choke",
+      "target_link": "Guard Bottom",
+      "line_number": null,
+      "suggested_fix": "half guard bottom",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "Ezekiel Choke",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Ezekiel Choke",
+      "target_link": "High Mount Control",
+      "line_number": null,
+      "suggested_fix": "mount control",
+      "confidence": 83.87096774193549
+    },
+    {
+      "source_file": "Ezekiel Choke",
+      "target_link": "Guard Bottom",
+      "line_number": null,
+      "suggested_fix": "half guard bottom",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "Electric Chair Submission",
+      "target_link": "Angle Prevention",
+      "line_number": null,
+      "suggested_fix": "angle creation",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Electric Chair Submission",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Electric Chair Submission",
+      "target_link": "Failed Electric Chair Submission",
+      "line_number": null,
+      "suggested_fix": "electric chair submission",
+      "confidence": 87.71929824561403
+    },
+    {
+      "source_file": "Electric Chair Submission",
+      "target_link": "Electric Chair Sweep",
+      "line_number": null,
+      "suggested_fix": "electric chair",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Electric Chair Submission",
+      "target_link": "Failed Electric Chair Submission",
+      "line_number": null,
+      "suggested_fix": "electric chair submission",
+      "confidence": 87.71929824561403
+    },
+    {
+      "source_file": "Baseball Bat Choke",
+      "target_link": "Submission Prevention",
+      "line_number": null,
+      "suggested_fix": "submission position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Baseball Bat Choke",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Baseball Bat Choke",
+      "target_link": "Failed Baseball Bat Choke",
+      "line_number": null,
+      "suggested_fix": "baseball bat choke",
+      "confidence": 83.72093023255815
+    },
+    {
+      "source_file": "Baseball Bat Choke",
+      "target_link": "Failed Baseball Bat Choke",
+      "line_number": null,
+      "suggested_fix": "baseball bat choke",
+      "confidence": 83.72093023255815
+    },
+    {
+      "source_file": "Baseball Bat Choke",
+      "target_link": "Mounted Position",
+      "line_number": null,
+      "suggested_fix": "s-mount position",
+      "confidence": 87.5
+    },
+    {
+      "source_file": "Kimura",
+      "target_link": "Kimura Counter",
+      "line_number": null,
+      "suggested_fix": "kimura control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Kimura",
+      "target_link": "Kimura Counter",
+      "line_number": null,
+      "suggested_fix": "kimura control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Kimura",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "North-South to Kimura",
+      "target_link": "North-South Control",
+      "line_number": null,
+      "suggested_fix": "north south control",
+      "confidence": 94.73684210526315
+    },
+    {
+      "source_file": "North-South to Kimura",
+      "target_link": "Failed North-South Choke",
+      "line_number": null,
+      "suggested_fix": "north-south choke",
+      "confidence": 82.92682926829268
+    },
+    {
+      "source_file": "North-South to Kimura",
+      "target_link": "Sprawl Position",
+      "line_number": null,
+      "suggested_fix": "scramble position",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "North-South to Kimura",
+      "target_link": "Cross-Face Control",
+      "line_number": null,
+      "suggested_fix": "cross face control",
+      "confidence": 94.44444444444444
+    },
+    {
+      "source_file": "North-South to Kimura",
+      "target_link": "Near-Side Armbar",
+      "line_number": null,
+      "suggested_fix": "far side armbar",
+      "confidence": 83.87096774193549
+    },
+    {
+      "source_file": "Rear Naked Choke Pathway",
+      "target_link": "Collar Choke",
+      "line_number": null,
+      "suggested_fix": "cross collar choke",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Rear Naked Choke Pathway",
+      "target_link": "Technical Back Mount",
+      "line_number": null,
+      "suggested_fix": "technical mount",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "North-South Choke",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "North-South Choke",
+      "target_link": "Failed North-South Choke",
+      "line_number": null,
+      "suggested_fix": "north-south choke",
+      "confidence": 82.92682926829268
+    },
+    {
+      "source_file": "North-South Choke",
+      "target_link": "Failed North-South Choke",
+      "line_number": null,
+      "suggested_fix": "north-south choke",
+      "confidence": 82.92682926829268
+    },
+    {
+      "source_file": "North-South Choke",
+      "target_link": "Failed North-South Choke",
+      "line_number": null,
+      "suggested_fix": "north-south choke",
+      "confidence": 82.92682926829268
+    },
+    {
+      "source_file": "Heel Hook Dilemma",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Bicep Slicer",
+      "target_link": "Guard Bottom",
+      "line_number": null,
+      "suggested_fix": "half guard bottom",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "Shoulder Pressure",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Side Control Defensive Framework",
+      "target_link": "Space Preservation",
+      "line_number": null,
+      "suggested_fix": "space generation",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Side Control Defensive Framework",
+      "target_link": "Elbow-Frame Creation",
+      "line_number": null,
+      "suggested_fix": "frame creation",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Side Control Defensive Framework",
+      "target_link": "Half Guard Entry",
+      "line_number": null,
+      "suggested_fix": "half guard top",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Side Control Defensive Framework",
+      "target_link": "Knee Shield Insertion",
+      "line_number": null,
+      "suggested_fix": "knee shield retention",
+      "confidence": 80.95238095238095
+    },
+    {
+      "source_file": "Side Control Defensive Framework",
+      "target_link": "Turtle Transition",
+      "line_number": null,
+      "suggested_fix": "turtle position",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Side Control Defensive Framework",
+      "target_link": "Knee Shield Insertion",
+      "line_number": null,
+      "suggested_fix": "knee shield retention",
+      "confidence": 80.95238095238095
+    },
+    {
+      "source_file": "Side Control Defensive Framework",
+      "target_link": "Butterfly Hook Sweep",
+      "line_number": null,
+      "suggested_fix": "butterfly sweep",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Distance Creation",
+      "target_link": "Side Control Bottom",
+      "line_number": null,
+      "suggested_fix": "side control to mount",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Hip Elevation",
+      "target_link": "Side Control Bottom",
+      "line_number": null,
+      "suggested_fix": "side control to mount",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Hip Elevation",
+      "target_link": "Pressure Position",
+      "line_number": null,
+      "suggested_fix": "pressure application",
+      "confidence": 81.08108108108108
+    },
+    {
+      "source_file": "Hip Elevation",
+      "target_link": "Shrimping Escape",
+      "line_number": null,
+      "suggested_fix": "shrimp escape",
+      "confidence": 89.65517241379311
+    },
+    {
+      "source_file": "Cross Face Control",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Cross Face Control",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Cross Face Control",
+      "target_link": "Half Guard Pass",
+      "line_number": null,
+      "suggested_fix": "half guard top",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "Submission Chains",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Guard Passing Principles",
+      "target_link": "De La Riva Guard Top",
+      "line_number": null,
+      "suggested_fix": "de la riva guard",
+      "confidence": 88.88888888888889
+    },
+    {
+      "source_file": "Guard Passing Principles",
+      "target_link": "Spider Guard Top",
+      "line_number": null,
+      "suggested_fix": "spider guard",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Defense Technique",
+      "target_link": "Side Control Bottom",
+      "line_number": null,
+      "suggested_fix": "side control to mount",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Pin Escape Methodology",
+      "target_link": "Early Frame Creation",
+      "line_number": null,
+      "suggested_fix": "frame creation",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Pin Escape Methodology",
+      "target_link": "Space Preservation",
+      "line_number": null,
+      "suggested_fix": "space generation",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Pin Escape Methodology",
+      "target_link": "Elbow-Frame Creation",
+      "line_number": null,
+      "suggested_fix": "frame creation",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Pin Escape Methodology",
+      "target_link": "Turtle Transition",
+      "line_number": null,
+      "suggested_fix": "turtle position",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Pin Escape Methodology",
+      "target_link": "Half Guard Position",
+      "line_number": null,
+      "suggested_fix": "half guard pass position",
+      "confidence": 88.37209302325581
+    }
+  ],
+  "instructions": {
+    "task": "Fix broken wikilinks by replacing with suggested fixes",
+    "operation": "Find [[broken_link]] and replace with [[suggested_fix]]",
+    "validation": [
+      "Verify suggested fix file exists before replacing",
+      "Use Edit tool to replace the exact broken wikilink",
+      "Check for case sensitivity issues",
+      "Track all modifications"
+    ],
+    "reporting": [
+      "Track: fixed, skipped_exists, skipped_no_fix, error",
+      "Report file paths modified",
+      "Report original \u2192 replacement for each fix",
+      "Report any errors encountered"
+    ]
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "session": 1,
+  "agent": 3,
+  "total_agents": 10,
+  "fixes": [
+    {
+      "source_file": "Back Control",
+      "target_link": "Escape Position",
+      "line_number": null,
+      "suggested_fix": "scramble position",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Back Control",
+      "target_link": "Triangle from Back",
+      "line_number": null,
+      "suggested_fix": "triangle choke back",
+      "confidence": 81.08108108108108
+    },
+    {
+      "source_file": "Back Control",
+      "target_link": "Crucifix Transition",
+      "line_number": null,
+      "suggested_fix": "crucifix position",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Back Control",
+      "target_link": "Back Triangle",
+      "line_number": null,
+      "suggested_fix": "arm triangle",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Back Control",
+      "target_link": "Technical Back Mount",
+      "line_number": null,
+      "suggested_fix": "technical mount",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Back Control",
+      "target_link": "Technical Back Mount",
+      "line_number": null,
+      "suggested_fix": "technical mount",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Back Control to Crucifix",
+      "target_link": "Head Fighting",
+      "line_number": null,
+      "suggested_fix": "hand fighting",
+      "confidence": 92.3076923076923
+    },
+    {
+      "source_file": "Back Control to Crucifix",
+      "target_link": "Defensive Turtle",
+      "line_number": null,
+      "suggested_fix": "defensive posture",
+      "confidence": 84.84848484848484
+    },
+    {
+      "source_file": "Back Control to Crucifix",
+      "target_link": "Rear Naked Choke Defense",
+      "line_number": null,
+      "suggested_fix": "rear naked choke",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Back Control to Crucifix",
+      "target_link": "Body Triangle Control",
+      "line_number": null,
+      "suggested_fix": "triangle control",
+      "confidence": 86.48648648648648
+    },
+    {
+      "source_file": "Back Control to Crucifix",
+      "target_link": "Return to Back Control",
+      "line_number": null,
+      "suggested_fix": "turtle to back control",
+      "confidence": 86.36363636363636
+    },
+    {
+      "source_file": "Back Defense Protocol",
+      "target_link": "Defensive Hand Position",
+      "line_number": null,
+      "suggested_fix": "defensive position",
+      "confidence": 87.8048780487805
+    },
+    {
+      "source_file": "Back Defense Protocol",
+      "target_link": "Defensive Hand Position",
+      "line_number": null,
+      "suggested_fix": "defensive position",
+      "confidence": 87.8048780487805
+    },
+    {
+      "source_file": "Back Defense Protocol",
+      "target_link": "Side Control Rotation",
+      "line_number": null,
+      "suggested_fix": "side control consolidation",
+      "confidence": 80.85106382978722
+    },
+    {
+      "source_file": "Back Defense Protocol",
+      "target_link": "Defensive Hand Position",
+      "line_number": null,
+      "suggested_fix": "defensive position",
+      "confidence": 87.8048780487805
+    },
+    {
+      "source_file": "Back Step",
+      "target_link": "Turtle Control",
+      "line_number": null,
+      "suggested_fix": "triangle control",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Back Step",
+      "target_link": "Turtle Control",
+      "line_number": null,
+      "suggested_fix": "triangle control",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Backside 50-50",
+      "target_link": "Defensive Positioning",
+      "line_number": null,
+      "suggested_fix": "defensive position",
+      "confidence": 92.3076923076923
+    },
+    {
+      "source_file": "Backside 50-50",
+      "target_link": "Cross Ashi Garami",
+      "line_number": null,
+      "suggested_fix": "ushiro ashi garami",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Backside 50-50",
+      "target_link": "Leg Control Position",
+      "line_number": null,
+      "suggested_fix": "leg knot position",
+      "confidence": 81.08108108108108
+    },
+    {
+      "source_file": "Backside 50-50",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Backside 50-50",
+      "target_link": "Backside 50/50",
+      "line_number": null,
+      "suggested_fix": "backside 50-50",
+      "confidence": 92.85714285714286
+    },
+    {
+      "source_file": "Backside 50-50",
+      "target_link": "Cross Ashi Garami",
+      "line_number": null,
+      "suggested_fix": "ushiro ashi garami",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Backside 50-50",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Backside 50-50",
+      "target_link": "Cross Ashi Garami",
+      "line_number": null,
+      "suggested_fix": "ushiro ashi garami",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Backside 50-50",
+      "target_link": "Cross Ashi Garami",
+      "line_number": null,
+      "suggested_fix": "ushiro ashi garami",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Backside 50-50",
+      "target_link": "Leg Control Position",
+      "line_number": null,
+      "suggested_fix": "leg knot position",
+      "confidence": 81.08108108108108
+    },
+    {
+      "source_file": "Backside 50-50",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Backside 50-50",
+      "target_link": "Backside 50/50",
+      "line_number": null,
+      "suggested_fix": "backside 50-50",
+      "confidence": 92.85714285714286
+    },
+    {
+      "source_file": "Backside 50-50",
+      "target_link": "Backside 50/50",
+      "line_number": null,
+      "suggested_fix": "backside 50-50",
+      "confidence": 92.85714285714286
+    },
+    {
+      "source_file": "Backside 50-50",
+      "target_link": "Backside 50/50",
+      "line_number": null,
+      "suggested_fix": "backside 50-50",
+      "confidence": 92.85714285714286
+    },
+    {
+      "source_file": "Backside 50-50",
+      "target_link": "Cross Ashi Garami",
+      "line_number": null,
+      "suggested_fix": "ushiro ashi garami",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Banana Split",
+      "target_link": "Angle Reduction",
+      "line_number": null,
+      "suggested_fix": "angle creation",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "Banana Split",
+      "target_link": "Angle Reduction",
+      "line_number": null,
+      "suggested_fix": "angle creation",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "Banana Split",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Base Widening",
+      "target_link": "Guard Bottom",
+      "line_number": null,
+      "suggested_fix": "half guard bottom",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "Base Widening",
+      "target_link": "Guard Passing Position",
+      "line_number": null,
+      "suggested_fix": "half guard pass position",
+      "confidence": 82.6086956521739
+    }
+  ],
+  "fix_count": 37
+}

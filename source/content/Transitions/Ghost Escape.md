@@ -67,7 +67,7 @@ From side control bottom position, you begin by creating a frame with your insid
 
 Opponent defensive responses with success rates and conditions:
 
-- **[[Crossface Control]]** → [[Side Control Top]] (Success Rate: 60%, Conditions: opponent controls head preventing rotation)
+- **[[Cross Face Control]]** → [[Side Control]] (Success Rate: 60%, Conditions: opponent controls head preventing rotation)
 - **[[Back Take]]** → [[Back Control]] (Success Rate: 55%, Conditions: opponent capitalizes on exposed back during rotation)
 - **[[North-South Transition]]** → [[North-South]] (Success Rate: 50%, Conditions: opponent follows rotation and reestablishes control)
 - **[[Scramble]]** → [[Neutral Position]] (Success Rate: 45%, Conditions: both competitors enter scramble situation)
@@ -76,7 +76,7 @@ Opponent defensive responses with success rates and conditions:
 
 ```
 If [rotation_speed] < 60%:
-- Execute [[Crossface Control]] (Probability: 60%)
+- Execute [[Cross Face Control]] (Probability: 60%)
 
 Else if [back is exposed]:
 - Execute [[Back Take]] (Probability: 55%)
@@ -401,7 +401,7 @@ The ghost escape emerged in modern sport BJJ as practitioners developed more mov
 
 **Common combinations and sequences:**
 - [[Side Control Bottom]] → [[Ghost Escape]] → [[Turtle Position]]
-- [[Side Control Bottom]] → [[Ghost Escape]] → [[Guard Recovery]]
+- [[Side Control Bottom]] → [[Ghost Escape]] → [[Side Control to Mount]]
 - [[North-South Bottom]] → [[Ghost Escape]] → [[Turtle Position]]
 
 ## Related Techniques

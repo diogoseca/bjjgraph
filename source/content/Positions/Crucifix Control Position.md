@@ -141,6 +141,7 @@ The controlling practitioner is typically positioned on the opponent's side or b
 
 ## Offensive Transitions (Available From This State)
 ### Chokes
+- [[Rear Naked Choke]]
 - [[Rear Naked Choke from Crucifix]] → [[Won by Submission]] (Success Rate: Beginner 55%, Intermediate 72%, Advanced 88%)
 - [[Clock Choke]] → [[Won by Submission]] (Success Rate: Beginner 50%, Intermediate 68%, Advanced 82%)
 - [[Bow and Arrow Choke]] → [[Won by Submission]] (Success Rate: Beginner 48%, Intermediate 65%, Advanced 80%)

@@ -164,7 +164,7 @@ The practitioner is positioned on top with one leg trapped between the bottom pl
 ## Counter Transitions
 - [[Re-establish Top Half]] → [[Half Guard Top]] (against sweep attempts)
 - [[Switch to Headquarters]] → [[Headquarters Position]] (when leg becomes freed)
-- [[Defensive Base]] → [[Combat Base]] (against submissions)
+- [[defensive frame]] → [[Combat Base]] (against submissions)
 
 ## Expert Insights
 - **Danaher System**: Emphasizes Half Guard Top as a primary battleground for passing, focusing on systematic neutralization of the opponent's defensive and offensive options. Creates a methodical approach to first establishing positional dominance through upper body control before progressing to passing sequences. Particularly focuses on understanding the relationship between head position, crossfacing mechanics, and the opponent's framing structures.

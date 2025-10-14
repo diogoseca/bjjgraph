@@ -153,7 +153,7 @@ The Turtle to Back Control transition represents one of the most valuable positi
 
 ## Common Counters
 - [[Forward Pressure]] → [[Guard Recovery]]
-- [[Defensive Roll]] → [[Guard Recovery]]
+- [[Defensive Framing]] → [[Guard Recovery]]
 - [[Sit-Through Escape]] → [[Half Guard Recovery]]
 - [[Standing Escape]] → [[Standing Position]]
 - [[Hip Heist]] → [[Scramble Position]]
@@ -183,19 +183,19 @@ The Turtle to Back Control transition represents one of the most valuable positi
 
 ## Setup Connections
 - [[Failed Guard Pass]] → [[Turtle to Back Control]]
-- [[Sprawl Position]] → [[Turtle to Back Control]]
+- [[Scramble Position]] → [[Turtle to Back Control]]
 - [[Top Half Guard]] → [[Turtle to Back Control]]
 - [[Front Headlock]] → [[Turtle to Back Control]]
-- [[Defensive Reaction]] → [[Turtle to Back Control]]
+- [[Defensive Framing]] → [[Turtle to Back Control]]
 - [[Takedown Defense]] → [[Turtle to Back Control]]
 
 ## Follow-up Options
 - [[Rear Naked Choke]] → [[Won by Submission]]
 - [[Bow and Arrow Choke]] → [[Won by Submission]]
-- [[Back Triangle]] → [[Triangle Control]]
+- [[Arm Triangle Progression]] → [[Triangle Control]]
 - [[Armbar from Back]] → [[Armbar Control]]
-- [[Transition to Crucifix]] → [[Crucifix Position]]
-- [[Back Control to Mount]] → [[Mount]]
+- [[Transition to Truck]] → [[Crucifix Control Position]]
+- [[Side Control to Mount]] → [[Mount]]
 
 ## Common Errors
 - Approaching directly behind opponent → Defensive visibility

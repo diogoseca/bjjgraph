@@ -143,9 +143,9 @@ You are on your back or partially seated with your legs actively engaged but not
 ## Defensive Responses (When Opponent Has This State)
 - [[Pressure Passing]] → [[Headquarters Position]]
 - [[Toreando Attempt]] → [[Guard Pass]]
-- [[Leg Drag Entry]] → [[Leg Drag Position]]
-- [[Stack Passing]] → [[Stack Pass]]
-- [[Standing Guard Break]] → [[Standing Pass Sequence]]
+- [[Leg Drag Control]] → [[Leg Drag Position]]
+- [[Stack Pass]] → [[Stack Pass]]
+- [[Standing Guard]] → [[Standing Pass Sequence]]
 
 ## Offensive Transitions (Available From This State)
 - [[Butterfly Sweep]] → [[Top Position]]
@@ -155,7 +155,7 @@ You are on your back or partially seated with your legs actively engaged but not
 - [[Spider Guard Transition]] → [[Spider Guard]]
 - [[Triangle Setup from Open Guard]] → [[Triangle Control]]
 - [[Omoplata from Open Guard]] → [[Omoplata Control]]
-- [[Closed Guard Recovery]] → [[Closed Guard Bottom]]
+- [[Guard Recovery]] → [[Closed Guard Bottom]]
 - [[X-Guard Entry]] → [[X-Guard]]
 
 ## Counter Transitions
@@ -189,7 +189,7 @@ You are on your back or partially seated with your legs actively engaged but not
 - [[Lasso Guard]] - Open guard with sleeve wrap and leg positioning
 - [[Seated Guard]] - Upright open guard position
 - [[X-Guard]] - Open guard with leg positioning under and around opponent's leg
-- [[Single Leg X]] - Modified X-guard targeting one leg
+- [[Single Leg X Guard]] - Modified X-guard targeting one leg
 
 
 ## Related Positions

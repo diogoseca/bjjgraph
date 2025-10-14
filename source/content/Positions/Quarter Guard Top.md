@@ -174,9 +174,9 @@ You are positioned above your opponent with your torso and hips angled across th
 ## Offensive Transitions (Available From This State)
 
 ### Primary Passing Options
-- [[Knee Slice Pass Completion]] → [[Side Control Top]] (Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%)
+- [[Knee Slice Pass Completion]] → [[Side Control]] (Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%)
   - Slide passing knee across opponent's belly to complete knee slice mechanics
-- [[Smash Pass]] → [[Side Control Top]] (Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%)
+- [[Smash Pass]] → [[Side Control]] (Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%)
   - Drive pressure through opponent's defensive structure to flatten and pass
 - [[Leg Drag Finish]] → [[Back Exposure Position]] (Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%)
   - Control opponent's top leg and drag it across to expose back or complete pass

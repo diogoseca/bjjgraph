@@ -154,8 +154,8 @@ Both practitioners are in rapid, continuous motion with bodies tumbling, rolling
 
 ## Offensive Transitions (Available From This State)
 - [[Back Take Opportunity]] → [[Back Control]]
-- [[Front Headlock Entry]] → [[Front Headlock]]
-- [[Leg Entanglement Access]] → [[Single Leg X Guard]]
+- [[Front Headlock Series]] → [[Front Headlock Series]]
+- [[Leg Entanglement]] → [[Leg Entanglement]]
 - [[Guard Establishment]] → [[Guard Position]]
 - [[Top Position Secure]] → [[Side Control]]
 - [[Mount Opportunity]] → [[Mount]]
@@ -190,15 +190,15 @@ Both practitioners are in rapid, continuous motion with bodies tumbling, rolling
 
 ## Related States
 - [[Back Control]] - Premium destination from scrambles
-- [[Front Headlock]] - Common control position emerging from scrambles
+- [[Front Headlock Series]] - Common control position emerging from scrambles
 - [[Turtle Position]] - Often intersects with scramble exchanges
-- [[Leg Entanglement]] - Modern scramble resolution pathway
+- [[Leg Entanglement Position]] - Modern scramble resolution pathway
 - [[Guard Recovery]] - Defensive objective during many scrambles
 
 
 ## Related Positions
 
-- [[Front Headlock]] - Related position
+- [[Front Headlock Series]] - Related position
 - [[Back Control]] - Related position
 - [[Guard Recovery]] - Related position
 - [[Single Leg X Guard]] - Related position
@@ -209,10 +209,10 @@ If opponent shows back exposure:
 - Execute [[Back Take Opportunity]] or [[Crucifix Entry]]
 
 Else if opponent's head is exposed without base:
-- Execute [[Front Headlock Entry]] or [[Guillotine Setup]]
+- Execute [[Front Headlock Series]] → [[Front Headlock Series]] or [[Guillotine Setup]]
 
 Else if opponent's legs become accessible:
-- Execute [[Leg Entanglement Access]] or [[Ankle Pick Opportunity]]
+- Execute [[Leg Entanglement]] or [[Ankle Pick Opportunity]]
 
 Else if positional disadvantage is developing:
 - Execute [[Re-scramble]] or [[Defensive Recovery]]
@@ -230,10 +230,10 @@ Back-taking path:
 [[Scramble Position]] → [[Back Take Opportunity]] → [[Back Control]] → [[Rear Naked Choke]] → [[Won by Submission]]
 
 Front headlock path:
-[[Scramble Position]] → [[Front Headlock Entry]] → [[Front Headlock]] → [[Guillotine Control]] → [[Won by Submission]]
+[[Scramble Position]] → [[Front Headlock Series]] → [[Front Headlock Series]] → [[Guillotine Control]] → [[Won by Submission]]
 
 Modern leg entanglement path:
-[[Scramble Position]] → [[Leg Entanglement Access]] → [[Single Leg X Guard]] → [[Ashi Garami]] → [[Inside Heel Hook]] → [[Won by Submission]]
+[[Scramble Position]] → [[Leg Entanglement]] → [[Leg Entanglement]] → [[Ashi Garami]] → [[Inside Heel Hook]] → [[Won by Submission]]
 
 ## Competition Context
 Scramble proficiency has become increasingly important in modern competition BJJ, with many high-level matches being decided during these chaotic transitions rather than in established positions. Different competition rulesets significantly impact scramble strategies:

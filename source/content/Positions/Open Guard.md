@@ -76,7 +76,7 @@ state_machine:
         intermediate: 65
         advanced: 85
 
-    - technique: "Closed Guard Recovery"
+    - technique: "Guard Recovery"
       target_state: "Closed Guard Bottom"
       transition_id: "T246"
       success_rate:
@@ -372,7 +372,7 @@ Your upper body is upright or propped on elbows rather than flat on the mat, all
 - [[De La Riva Guard]] → [[De La Riva Guard]] (Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%)
 - [[X-Guard]] → [[X-Guard]] (Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%)
 - [[Butterfly Guard]] → [[Butterfly Guard]] (Success Rate: Beginner 45%, Intermediate 65%, Advanced 85%)
-- [[Closed Guard Recovery]] → [[Closed Guard Bottom]] (Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%)
+- [[Guard Recovery]] → [[Closed Guard Bottom]] (Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%)
 - [[Technical Standup]] → [[Standing Position]] (Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%)
 
 ## Counter Transitions
@@ -463,7 +463,7 @@ Else if opponent on knees trying to pass:
 
 Else if opponent backing away creating distance:
 - Execute [[Technical Standup]] → [[Standing Position]] (Probability: 70%)
-- Or [[Closed Guard Recovery]] → [[Closed Guard Bottom]] (Probability: 60%)
+- Or [[Guard Recovery]] → [[Closed Guard Bottom]] (Probability: 60%)
 
 Else (Default - neutral open guard):
 - Maintain distance and probe → [[Open Guard]] (Probability: 60%)
@@ -491,7 +491,7 @@ Else (Default - neutral open guard):
 *Reasoning: Close-range butterfly sweeps are high percentage (65-85%). Sweep creates scramble opportunities to advance position.*
 
 **X-Guard sweep path:**
-[[Open Guard]] → [[X-Guard]] → [[X-Guard Sweep]] → [[Top Control]] → [[Submission Chain]] → [[Won by Submission]]
+[[Open Guard]] → [[X-Guard]] → [[X-Guard Sweep]] → [[Top Control]] → [[Submission Chains]] → [[Won by Submission]]
 *Reasoning: X-Guard provides powerful sweep mechanics with excellent control of opponent's base. Creates favorable scrambles.*
 
 **Technical standup reset path:**

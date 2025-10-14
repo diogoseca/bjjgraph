@@ -45,8 +45,8 @@ description: "Master Flattened Half Guard in BJJ. Complete guide covering setup,
     },
     {
       "@type": "HowToStep",
-      "name": "Execute D'arce Setup",
-      "text": "From this position, execute D'arce Setup to transition to D'arce Control.",
+      "name": "Execute Darce Setup",
+      "text": "From this position, execute Darce Setup to transition to Darce Choke.",
       "position": 6
     }
   ],
@@ -205,7 +205,7 @@ You are on top in a half guard position, with one of the opponent's legs trapped
 - [[Flattened Half to Mount]] → [[Mount]] (Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%)
 - [[Back Step]] → [[Back Control]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
 - [[Kimura Trap]] → [[Kimura Control]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
-- [[D'arce Setup]] → [[D'arce Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
+- [[Darce Setup]] → [[Darce Choke]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
 - [[North-South Transition]] → [[North-South]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
 - [[Leg Weave Pass]] → [[Side Control]] (Success Rate: Beginner 50%, Intermediate 65%, Advanced 75%)
 
@@ -269,7 +269,7 @@ If opponent attempts to bridge:
 
 Else if opponent fights for underhook:
 - Execute [[Kimura Trap]] → [[Kimura Control]] (Probability: 45%)
-- Or Execute [[D'arce Setup]] → [[D'arce Control]] (Probability: 40%)
+- Or Execute [[Darce Setup]] → [[Darce Choke]] (Probability: 40%)
 
 Else if opponent attempts knee shield recovery:
 - Execute [[Knee Slide Completion]] → [[Side Control]] (Probability: 70%)

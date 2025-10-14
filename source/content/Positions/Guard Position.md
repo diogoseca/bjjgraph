@@ -147,15 +147,15 @@ Visually, Guard Position presents as a practitioner on their back or seated on t
 ## Defensive Responses (When Opponent Has This State)
 - [[Guard Pass Attempt]] → [[Headquarters Position]]
 - [[Pressure and Smash]] → [[Stack Pass]]
-- [[Standing Pass]] → [[Toreando Pass]]
+- [[standing up]] → [[Toreando Pass]]
 - [[Closed Guard Break]] → [[Combat Base]]
-- [[Leg Drag Entry]] → [[Leg Drag Position]]
+- [[leg drag control]] → [[Leg Drag Position]]
 
 ## Offensive Transitions (Available From This State)
 - [[Sweep Attempt]] → [[Top Position]]
 - [[Submission Entry]] → Various submission controls
 - [[Guard Variation Transition]] → Specific guard positions
-- [[Technical Stand-up]] → [[Standing Position]]
+- [[technical stand-up]] → [[Standing Position]]
 - [[Pull to Closed Guard]] → [[Closed Guard Bottom]]
 - [[Butterfly Entry]] → [[Butterfly Guard]]
 - [[Half Guard Recovery]] → [[Half Guard Bottom]]
@@ -234,7 +234,7 @@ Submission-oriented path:
 [[Guard Position]] → [[Closed Guard Bottom]] → [[Triangle Setup]] → [[Triangle Control]] → [[Won by Submission]]
 
 Modern competition path:
-[[Guard Position]] → [[Single Leg X Entry]] → [[Single Leg X Guard]] → [[Technical Stand-up Sweep]] → [[Top Position]] → passing sequence
+[[Guard Position]] → [[Single Leg X Entry]] → [[Single Leg X Guard]] → [[technical stand-up]] → [[Top Position]] → passing sequence
 
 ## Computer Science Analogy
 The Guard Position functions as an abstract base class in object-oriented programming, defining a common interface and shared properties that are inherited and specialized by concrete guard variations (derived classes). This creates a polymorphic relationship where specific guard types implement the core defensive and offensive principles in unique ways while maintaining the fundamental characteristics of the parent class. The guard system as a whole represents a form of dynamic dispatch where the appropriate specialized behavior (guard variation) is selected at runtime based on the current context (opponent's actions and available grips/frames).

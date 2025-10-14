@@ -123,7 +123,7 @@ description: "Learn Knee Cut Pass in BJJ. Step-by-step execution. Complete techn
 ## Transition Properties
 - **Transition ID**: T809
 - **Classification**: Offensive Guard Pass
-- **Starting Position**: [[Half Guard]] (top), [[Open Guard]] (top)
+- **Starting Position**: [[Half Guard Top]], [[Open Guard Top]]
 - **Target Position**: [[Side Control]], [[Mount]]
 - **Success Probability**: Beginner (60%), Intermediate (75%), Advanced (85%)
 - **Execution Complexity**: Medium

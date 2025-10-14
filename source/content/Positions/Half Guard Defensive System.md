@@ -151,6 +151,7 @@ The Half Guard Defensive System serves as a critical capability that transforms 
 
 ## Related Positions
 
+- [[Half Guard Bottom]] - Core position that defensive system is built around
 - [[Half Guard Top]] - Related position
 - [[Half Guard to Back Take]] - Related position
 - [[Deep Half Guard]] - Related position
@@ -171,7 +172,7 @@ The Half Guard Defensive System serves as a critical capability that transforms 
 - From [[Knee Shield Position]] → [[Hook Sweep]] when opponent stands to pass
 - From [[Deep Half Entry]] → [[Waiter Sweep]] when opponent posts to prevent back take
 - From [[Half Butterfly Position]] → [[Butterfly Sweep]] when opponent drives forward
-- From [[Lockdown Half Guard]] → [[Electric Chair Sweep]] when opponent attempts to flatten
+- From [[lockdown guard]] → [[electric chair]] when opponent attempts to flatten
 - From [[Z-Guard]] → [[John Wayne Sweep]] when opponent reaches for collar control
 - From [[93 Guard]] → [[Back Take]] when opponent postures to strike or pass
 

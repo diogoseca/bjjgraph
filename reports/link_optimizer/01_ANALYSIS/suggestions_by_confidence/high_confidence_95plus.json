@@ -1,0 +1,1842 @@
+{
+  "filter": "confidence >= 95%",
+  "count": 204,
+  "suggestions": [
+    {
+      "source_file": "Armbar from Guard",
+      "target_file": "Won by Submission",
+      "confidence": 100.0,
+      "reason": "Won by Submission is the terminal state for all successful submissions including Armbar from Guard.",
+      "suggested_section": "Submission Finish",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Kneebar from 50-50",
+      "target_file": "50-50 Guard",
+      "confidence": 98.0,
+      "reason": "This is the starting position for the kneebar technique and should be referenced in the setup requirements.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "RNC Defense",
+      "target_file": "Rear Naked Choke",
+      "confidence": 98.0,
+      "reason": "RNC Defense is specifically about defending against the Rear Naked Choke submission, making this the primary offensive technique being countered.",
+      "suggested_section": "Concept Description",
+      "relationship_type": "concept-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Scarf Hold Position",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Scarf Hold (Kesa Gatame) is a variation of side control and shares similar control principles and pressure mechanics.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "S-Mount Position",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "S-Mount is a submission-focused position optimized for finishing attacks, making the terminal submission state highly relevant.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Knee Cut Position",
+      "target_file": "Knee Cut Pass",
+      "confidence": 95.0,
+      "reason": "The Knee Cut Position is directly created by executing the Knee Cut Pass technique, making this a critical transition-to-position relationship.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Headquarters Position Top",
+      "target_file": "Guard Pass",
+      "confidence": 95.0,
+      "reason": "Headquarters is fundamentally a guard passing position, making guard pass concepts directly applicable.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Guard Recovery System",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Guard retention is the core defensive skill that Guard Recovery System addresses when guard has been compromised but not fully passed.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "system-to-technique",
+      "existing_link": false
+    },
+    {
+      "source_file": "Body Triangle Back Control",
+      "target_file": "Triangle Control",
+      "confidence": 95.0,
+      "reason": "Body Triangle Back Control is a specific application of triangle mechanics applied to back control, making this a fundamental related position.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Defensive Position",
+      "target_file": "Frame Creation",
+      "confidence": 95.0,
+      "reason": "Frame creation is a fundamental concept explicitly mentioned in defensive positioning and essential for maintaining defensive structure.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Float Passing Position Top",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Float passing is a transitional position that methodically advances toward side control as the primary completion target.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Half Guard Bottom",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Essential defensive concept for maintaining half guard when under passing pressure.",
+      "suggested_section": "Defensive Responses",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Knee Shield Variations Bottom",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Knee shield variations are fundamentally defensive guard retention positions that manage distance and prevent passing pressure.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "concept-to-technique",
+      "existing_link": false
+    },
+    {
+      "source_file": "Bottom Turtle",
+      "target_file": "Turtle Position",
+      "confidence": 95.0,
+      "reason": "Bottom Turtle is the defensive perspective of Turtle Position, making this the most directly related page for understanding both sides of this position.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Deep Half Guard Top",
+      "target_file": "Half Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Deep Half Guard Top is the inverse position of Half Guard Bottom, and understanding the bottom player's perspective is essential for defending and passing.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "X-Guard",
+      "target_file": "Technical Stand-up",
+      "confidence": 95.0,
+      "reason": "Explicitly mentioned in schema as 'Technical Stand-up Sweep' transition from X-Guard to Top Position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Knee on Belly",
+      "target_file": "Pressure Application",
+      "confidence": 95.0,
+      "reason": "Knee on Belly is a quintessential pressure-based control position, making pressure application concepts directly relevant to understanding and maximizing its effectiveness.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Bottom Position",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Core defensive technique for maintaining bottom position and preventing opponent from passing guard.",
+      "suggested_section": "Defensive Responses",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Spider Guard Bottom",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Spider Guard Bottom is a guard retention system that heavily relies on guard retention principles to maintain distance and control.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Inverted Guard",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Inverted Guard is an advanced guard retention technique, making this a fundamental conceptual link for understanding why inversion is used defensively.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Lasso Guard Variations Bottom",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Lasso variations require advanced guard retention principles to maintain control during dynamic movements and inversions.",
+      "suggested_section": "Related Concepts",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Side Control",
+      "target_file": "Pressure Application",
+      "confidence": 95.0,
+      "reason": "Side control is fundamentally a pressure-based position where understanding pressure application principles is essential for maintaining dominance.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Smash Pass Position",
+      "target_file": "Guard Pass",
+      "confidence": 95.0,
+      "reason": "Smash Pass Position is a specific type of guard pass, making this the parent concept that provides essential context.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "technique-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Combat Base",
+      "target_file": "Base Maintenance",
+      "confidence": 95.0,
+      "reason": "Combat Base is fundamentally about maintaining a stable base while passing guard, making this concept directly central to the position.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Z-Guard Variations Bottom",
+      "target_file": "Half Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Z-Guard is an advanced half guard system that builds directly on Half Guard Bottom principles and mechanics.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Truck Position Bottom",
+      "target_file": "Back Control",
+      "confidence": 95.0,
+      "reason": "The Truck Position is a specialized back attack position that transitions directly to or from standard Back Control, making this a critical related position.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Crucifix Control Position",
+      "target_file": "Rear Naked Choke",
+      "confidence": 95.0,
+      "reason": "Schema markup explicitly lists Rear Naked Choke as a primary offensive technique from Crucifix Control Position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Guard Establishment",
+      "target_file": "Closed Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Guard Establishment is the process of achieving guard positions like Closed Guard, which is the most fundamental guard to establish.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Leg Drag Position",
+      "target_file": "Guard Pass",
+      "confidence": 95.0,
+      "reason": "Leg Drag Position is fundamentally a guard passing position, making this a core conceptual link.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Neutral Position",
+      "target_file": "Pull Guard",
+      "confidence": 95.0,
+      "reason": "Direct offensive transition from neutral position to establish guard, explicitly mentioned in schema markup as Guard Pull.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "North South Control",
+      "target_file": "North-South",
+      "confidence": 95.0,
+      "reason": "This appears to be the same position or a duplicate page that should be cross-referenced to maintain consistency in the knowledge graph.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Kuzure Kesa Gatame",
+      "target_file": "North-South",
+      "confidence": 95.0,
+      "reason": "Kuzure Kesa Gatame is a modified scarf hold variation that naturally transitions to North-South position as a pin progression option.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Open Guard Top",
+      "target_file": "Guard Pass",
+      "confidence": 95.0,
+      "reason": "Open Guard Top is fundamentally about passing the guard, making this transition technique directly central to the position's offensive strategy.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Scarf Hold Top",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Scarf Hold Top is a variation of side control and shares similar control principles, making it a natural related position reference.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Pull Guard",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Guard retention is the immediate follow-up concept after pulling guard, essential for preventing passes after establishing position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Leg Drag Control",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Leg Drag Control is a primary passing position that most commonly transitions to side control, making this the most natural and high-value offensive transition.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Guard Recovery Position",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Guard Retention is the core defensive technique directly used within Guard Recovery position to prevent guard passing.",
+      "suggested_section": "Defensive Responses",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Lapel Guard Variations Bottom",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Lapel guard variations heavily rely on guard retention principles to maintain complex control configurations against passing attempts.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Submission Control Position",
+      "target_file": "Rear Naked Choke",
+      "confidence": 95.0,
+      "reason": "Direct example of a specific submission that leads to submission control position before finishing.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Truck Position Top",
+      "target_file": "Turtle Position",
+      "confidence": 95.0,
+      "reason": "Truck Position Top is directly entered from opponent's turtle position, making this a fundamental prerequisite relationship.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Saddle Variations Bottom",
+      "target_file": "Guard Recovery",
+      "confidence": 95.0,
+      "reason": "Primary escape goal from saddle variations is to recover guard position, making this a natural defensive transition.",
+      "suggested_section": "Defensive Responses",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Single Leg X Position Bottom",
+      "target_file": "Single Leg X Guard",
+      "confidence": 95.0,
+      "reason": "This is the top-side perspective of the same position, essential for understanding both roles in Single Leg X Guard.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Butterfly Hook Control",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Butterfly hook control is fundamentally a guard retention position requiring active maintenance of hooks and frames to prevent passing.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "De La Riva Guard",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "De La Riva Guard is fundamentally a guard retention position, and understanding guard retention principles is essential for maintaining DLR position effectively.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Triangle Control",
+      "target_file": "Closed Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Triangle Control is typically achieved from Closed Guard Bottom, making this the primary setup position.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Turtle Position Top",
+      "target_file": "Top Position",
+      "confidence": 95.0,
+      "reason": "Turtle Position Top is a specific variant of the broader Top Position category and should reference the parent position concept.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-parent-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "50-50 Guard",
+      "target_file": "Backside 50-50",
+      "confidence": 95.0,
+      "reason": "Direct transition explicitly mentioned in the schema markup as a primary offensive option from 50/50.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Top Open Guard",
+      "target_file": "Knee Cut Pass",
+      "confidence": 95.0,
+      "reason": "A fundamental passing technique directly used from the Top Open Guard position to advance past the guard.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Knee on Stomach Top",
+      "target_file": "Mount",
+      "confidence": 95.0,
+      "reason": "Direct transition from knee on stomach to mount is a fundamental offensive progression mentioned in the state description.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Technical Mount",
+      "target_file": "Transition to Mount",
+      "confidence": 95.0,
+      "reason": "Technical mount is an advanced variation of mount, so understanding the basic transition to mount is essential prerequisite knowledge for practitioners.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Flattened Half Guard",
+      "target_file": "Half Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Flattened Half Guard is a specific state of half guard where the bottom player has been flattened, making this the direct parent position and essential context for understanding escape options.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Top Control Generic",
+      "target_file": "Top Position",
+      "confidence": 95.0,
+      "reason": "Top Position is a closely related parent category to Top Control Generic, providing essential context for readers understanding the broader top game framework.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Body Triangle Position",
+      "target_file": "Back Control",
+      "confidence": 95.0,
+      "reason": "Body Triangle Position is a variation of Back Control and should reference the parent position for comprehensive understanding.",
+      "suggested_section": "State Description",
+      "relationship_type": "position-variation",
+      "existing_link": false
+    },
+    {
+      "source_file": "Seated Guard",
+      "target_file": "Standing Position",
+      "confidence": 95.0,
+      "reason": "Seated Guard explicitly mentions transitions to standing and is commonly used when opponent stands, making this a direct positional relationship.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Guard Position",
+      "target_file": "Pull Guard",
+      "confidence": 95.0,
+      "reason": "Guard Position is the result of a successful pull guard entry, making this a fundamental prerequisite transition.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Half Guard Recovery",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Half Guard Recovery is fundamentally about guard retention principles when recovering from a compromised position.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "concept-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Bottom Position Generic",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Guard retention is the primary defensive strategy from bottom position to prevent passing and maintain guard structure.",
+      "suggested_section": "Defensive Responses",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Guard Pull",
+      "target_file": "Guard Recovery",
+      "confidence": 95.0,
+      "reason": "Guard pull is the initiating technique that leads directly to establishing guard positions, and guard recovery is the defensive counterpart when guard is lost after pulling.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Triangle Escape Position",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Triangle escape directly transitions to guard retention as the escaping player must maintain defensive guard structure after breaking the triangle.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Butterfly Half Guard",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Butterfly Half Guard is a guard retention position and this transition explains the defensive tactics to maintain guard positions.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Headquarters Position",
+      "target_file": "Guard Pass",
+      "confidence": 95.0,
+      "reason": "Headquarters is a guard passing position, so linking to the general guard pass technique provides essential context for the passing strategy.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Guard Retention",
+      "target_file": "Guard Recovery",
+      "confidence": 95.0,
+      "reason": "Guard Recovery is the direct tactical outcome when guard retention fails, making it the essential next step in defensive positioning.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Open Guard",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Guard retention is the fundamental defensive skill required to maintain open guard when opponent attempts to pass.",
+      "suggested_section": "Defensive Responses",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Reverse Half Guard Top",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Direct transition target mentioned multiple times in the schema as the destination of Back Step Pass and Reverse Half Guard Pass.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Half Guard Defensive System",
+      "target_file": "Half Guard Bottom",
+      "confidence": 95.0,
+      "reason": "This is the core position that the defensive system is built around, essential for understanding the context of all defensive concepts discussed.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "system-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Mount Control",
+      "target_file": "Mount",
+      "confidence": 95.0,
+      "reason": "Mount is the fundamental position that Mount Control builds upon, essential for readers to understand the base position",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "50-50 Guard Bottom",
+      "target_file": "Guard Recovery",
+      "confidence": 95.0,
+      "reason": "Directly relevant escape strategy from 50-50 bottom to re-establish safer guard position",
+      "suggested_section": "Defensive Responses",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Worm Guard",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Worm Guard is an advanced guard retention system using lapel control to prevent passing.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Submission Position",
+      "target_file": "Rear Naked Choke",
+      "confidence": 95.0,
+      "reason": "Direct example of a submission that is executed from a submission position, highly relevant for illustrating the concept.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Half Guard Pass Position",
+      "target_file": "Knee Cut Pass",
+      "confidence": 95.0,
+      "reason": "Knee cut pass is one of the most common and fundamental techniques to pass half guard, directly relevant to completing the pass from this position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Side Control Consolidation",
+      "target_file": "Pressure Application",
+      "confidence": 95.0,
+      "reason": "Side control consolidation heavily relies on pressure application principles, which is directly mentioned in the content regarding chest pressure and weight distribution.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Knee Shield Half Guard",
+      "target_file": "Frame Creation",
+      "confidence": 95.0,
+      "reason": "Knee shield half guard fundamentally relies on creating frames with the bottom leg to maintain distance and prevent the pass.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Anaconda Control",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Anaconda Control naturally transitions to side control variations and the anaconda choke is often finished from a side control-like position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Side Control Top",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Side Control Top is the offensive variant of the general Side Control position, making this a critical parent position reference.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Quarter Guard Top",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Quarter Guard Top transitions directly to Side Control via multiple passes (Knee Slice, Smash, Cross Body) mentioned in the schema markup.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Closed Guard Bottom-V2",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Guard Retention is a critical defensive concept directly applicable to maintaining Closed Guard Bottom when under pressure.",
+      "suggested_section": "Defensive Responses",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Lapel Guard Bottom",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Lapel guard requires specific retention strategies to maintain the complex grips and configurations against passing attempts.",
+      "suggested_section": "Defensive Responses",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Closed Guard Top",
+      "target_file": "Guard Pass",
+      "confidence": 95.0,
+      "reason": "Closed Guard Top is fundamentally about breaking the guard to pass, making guard passing techniques directly relevant to this position's offensive strategy.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Butterfly Sweep Variations",
+      "target_file": "Butterfly Guard",
+      "confidence": 95.0,
+      "reason": "The source content is about butterfly sweep variations which are executed from butterfly guard position, making this the foundational position reference",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "X-Pass",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "X-Pass explicitly transitions to Side Control Top as its completion state, making this the primary destination position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Muscle Sweep",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Muscle Sweep from Closed Guard Bottom directly transitions to Side Control Top as the dominant ending position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Sasae Tsurikomi Ashi",
+      "target_file": "Standing Position",
+      "confidence": 95.0,
+      "reason": "Sasae Tsurikomi Ashi is executed from standing neutral position, making this the starting state for the technique.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "transition-from-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Sweep Attempt",
+      "target_file": "Closed Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Sweep attempts are most commonly executed from closed guard bottom position, making this the primary starting position for sweeps.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "transition-from-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Guillotine Counter",
+      "target_file": "Front Headlock",
+      "confidence": 95.0,
+      "reason": "Guillotine counter naturally transitions to front headlock position when you escape and establish top control",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Posture Recovery",
+      "target_file": "Closed Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Posture recovery is most commonly needed when opponent is in closed guard and has broken your posture down.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "technique-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "De La Riva Sweep",
+      "target_file": "Open Guard Bottom",
+      "confidence": 95.0,
+      "reason": "De La Riva Sweep originates from De La Riva Guard, which is a specific type of open guard bottom position",
+      "suggested_section": "Related Positions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Leg Lock Control",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Leg Lock Control is a submission control position that directly leads to winning by submission when successfully executed.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Counter Sweep",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Guard Retention is the defensive complement to Counter Sweep - both involve recognizing and defending against sweep attempts.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "transition-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Pressure Pass",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Pressure Pass directly establishes Side Control as its completion state, making this the primary destination position.",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Kosoto Gari",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Kosoto Gari is a takedown that commonly ends in Side Control Top, making this the primary position to link.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Knee Tap",
+      "target_file": "Neutral Position",
+      "confidence": 95.0,
+      "reason": "Knee Tap is a takedown technique that begins from neutral/standing position, making this the primary starting state.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "transition-from-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Standing up in Base",
+      "target_file": "Top Position",
+      "confidence": 95.0,
+      "reason": "Standing up in base directly transitions from turtle to top position, making this the primary destination state.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Butterfly Pass",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "The butterfly pass explicitly transitions to side control as its finishing position, making this the primary destination state.",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Position Change",
+      "target_file": "Transition to Mount",
+      "confidence": 95.0,
+      "reason": "Directly demonstrates a specific type of position change with detailed execution steps and success rates.",
+      "suggested_section": "Related Transitions",
+      "relationship_type": "technique-to-specific-example",
+      "existing_link": false
+    },
+    {
+      "source_file": "Guard Pass",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Guard passing typically culminates in side control as explicitly mentioned in the execution sequence and completion step.",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Knee Slice Pass",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Knee slice pass directly transitions to side control as the ending position of this technique",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Butterfly Hook Retention",
+      "target_file": "Closed Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Butterfly guard and closed guard are closely related guard positions that often transition between each other, making this a natural related position",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Deashi Harai",
+      "target_file": "Neutral Position",
+      "confidence": 95.0,
+      "reason": "Deashi Harai is a standing technique executed from neutral position, which is the natural starting state for this throw",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "transition-from-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Open Guard to Deep Half",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Deep half guard is a key guard retention position, making this transition directly relevant to maintaining guard when passing pressure occurs.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "transition-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Ippon Seoi Nage",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Ippon Seoi Nage is a standing throw that transitions directly to Side Control Top as the dominant landing position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Single Leg Entry",
+      "target_file": "Standing Position",
+      "confidence": 95.0,
+      "reason": "Single Leg Entry explicitly starts from standing position, making this the primary starting state for this transition.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "transition-from-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Bodylock Pass",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "The bodylock pass completes in side control, making this the primary destination position from this transition",
+      "suggested_section": "Completion",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Spider Guard Pass",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Spider Guard Pass explicitly states it results in side control as the ending position, making this the primary destination of the technique.",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Granby Roll",
+      "target_file": "Guard Recovery",
+      "confidence": 95.0,
+      "reason": "Granby Roll is a primary technique for recovering guard position, making this a fundamental position-to-transition relationship.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Pendulum Sweep",
+      "target_file": "Closed Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Pendulum Sweep is a fundamental technique executed from Closed Guard Bottom position, which is the primary starting position for this sweep.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Body Lock Pass",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Body Lock Pass is a guard passing technique that ends in Side Control Top, making this the primary destination position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Knee Shield Retention",
+      "target_file": "Guard Recovery",
+      "confidence": 95.0,
+      "reason": "Knee shield retention is a primary defensive technique used during guard recovery to prevent passing and reestablish full guard.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "technique-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Harai Goshi",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Harai Goshi is a standing throw that typically ends in side control, making this the natural landing position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "X-Guard Sweep",
+      "target_file": "Single Leg X Guard",
+      "confidence": 95.0,
+      "reason": "X-Guard Sweep originates from X-Guard Bottom position, which is closely related to Single Leg X Guard and practitioners often transition between these positions.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "North-South to Kimura",
+      "target_file": "Kimura",
+      "confidence": 95.0,
+      "reason": "This technique transitions to the Kimura submission, which is the target control position and finishing technique.",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "transition-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Lumberjack Sweep",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Lumberjack Sweep is executed from closed guard and typically results in side control as the finishing position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Technical Standup",
+      "target_file": "Standing Position",
+      "confidence": 95.0,
+      "reason": "Technical standup transitions directly to standing position, making this the most natural end state for this technique.",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Ashi Garami Escape",
+      "target_file": "Guard Recovery",
+      "confidence": 95.0,
+      "reason": "Ashi garami escape leads directly to guard recovery or standing, making this a natural progression from the escape.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Triangle Escape",
+      "target_file": "Triangle Control",
+      "confidence": 95.0,
+      "reason": "Triangle Escape directly counters Triangle Control position, making this the primary related position",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "escape-from-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Half Guard Pass",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Side Control is the most common successful outcome position when passing half guard.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Half Guard Pass",
+      "target_file": "Half Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Half Guard Bottom is the complementary position that the passer is working to escape from.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-complement",
+      "existing_link": false
+    },
+    {
+      "source_file": "Double leg takedown",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "The double leg takedown explicitly transitions to Side Control as its primary finishing position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Snap Down",
+      "target_file": "Front Headlock",
+      "confidence": 95.0,
+      "reason": "Snap Down directly transitions to Front Headlock position as stated in the execution sequence.",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Spider Guard Variations",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Spider Guard variations are fundamentally about guard retention tactics using specific grip and leg configurations.",
+      "suggested_section": "Related Concepts",
+      "relationship_type": "technique-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Over-Under Pass",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "The Over-Under Pass explicitly transitions to Side Control Top as its completion state, making this the primary destination position.",
+      "suggested_section": "Completion",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Paper Cutter Choke",
+      "target_file": "Rear Naked Choke",
+      "confidence": 95.0,
+      "reason": "Paper Cutter Choke is a gi variation closely related to the Rear Naked Choke, both being blood chokes from back control positions with similar finishing mechanics.",
+      "suggested_section": "Related Submissions",
+      "relationship_type": "submission-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Von Flue Choke",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Von Flue Choke is executed from side control position, which is the primary setup position for this submission",
+      "suggested_section": "Overview",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Switch to Triangle",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "The triangle is a common submission finish, making this the natural terminal state for a successful switch to triangle.",
+      "suggested_section": "Target Position",
+      "relationship_type": "transition-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Aoki Lock",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Aoki Lock is a terminal submission that leads directly to Won by Submission state when successfully applied.",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "submission-to-terminal",
+      "existing_link": false
+    },
+    {
+      "source_file": "Triangle Finish",
+      "target_file": "Closed Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Triangle finishes are one of the primary submissions from closed guard bottom position, making this a fundamental position-to-submission relationship.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Triangle Choke Side",
+      "target_file": "Triangle Control",
+      "confidence": 95.0,
+      "reason": "Triangle Control is the setup position required before finishing Triangle Choke Side, representing the immediate prerequisite state.",
+      "suggested_section": "Starting Position",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Omoplata from Guard",
+      "target_file": "Triangle Control",
+      "confidence": 95.0,
+      "reason": "Omoplata and triangle are part of the classic triangle-armbar-omoplata chain from guard, sharing similar mechanics and entry positions.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Armbar Finish",
+      "target_file": "Mount",
+      "confidence": 95.0,
+      "reason": "Mount is one of the most common positions to set up and finish armbars from, directly relevant to armbar execution.",
+      "suggested_section": "Starting Positions",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Armbar from Side Control",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "The source page explicitly states starting position is 'Side Control Top (S008)' making this the required prerequisite position.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "submission-to-starting-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Omoplata",
+      "target_file": "Closed Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Omoplata is most commonly executed from closed guard bottom, making this a primary starting position link",
+      "suggested_section": "Starting State",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Modern Leg Lock Meta",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Modern Leg Lock Meta focuses on submission strategies and systems, making the terminal submission state directly relevant as the goal of these leg lock sequences.",
+      "suggested_section": "Framework Properties or Introduction",
+      "relationship_type": "framework-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Triangle Choke Back",
+      "target_file": "Rear Naked Choke",
+      "confidence": 95.0,
+      "reason": "Triangle Choke Back and Rear Naked Choke are both primary attacks from back control position and often used in combination when one is defended.",
+      "suggested_section": "Related Submissions",
+      "relationship_type": "submission-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Outside Heel Hook",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Outside Heel Hook is a terminal submission that leads directly to Won by Submission state when successfully applied",
+      "suggested_section": "Submission Finish",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Crucifix Submissions",
+      "target_file": "Rear Naked Choke",
+      "confidence": 95.0,
+      "reason": "Rear naked choke is a primary crucifix submission and shares the same back attack context with verbal tap requirements.",
+      "suggested_section": "Related Submissions",
+      "relationship_type": "submission-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Toe Hold",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Toe Hold is a terminal state that ends in submission, making this the natural endpoint relationship.",
+      "suggested_section": "Ending State",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Brabo Choke",
+      "target_file": "Front Headlock",
+      "confidence": 95.0,
+      "reason": "Front Headlock is the primary starting position for the Brabo Choke setup and should be linked as a prerequisite position.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Leg Lock Defense Framework",
+      "target_file": "Saddle Position",
+      "confidence": 95.0,
+      "reason": "Saddle (honey hole) is the most dangerous leg lock position requiring specific defensive protocols covered in this framework.",
+      "suggested_section": "Target Threats",
+      "relationship_type": "defense-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Peruvian Necktie",
+      "target_file": "Turtle Position",
+      "confidence": 95.0,
+      "reason": "Peruvian Necktie is executed specifically from turtle top position, making this the primary setup position.",
+      "suggested_section": "Overview",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Estima Lock",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Estima Lock is a terminal submission that leads directly to Won by Submission state when successfully completed.",
+      "suggested_section": "Submission Completion",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Armbar from Back",
+      "target_file": "Armbar Control",
+      "confidence": 95.0,
+      "reason": "Armbar Control is the finishing position for the Armbar from Back submission and represents the control phase before applying the joint lock.",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Twister Finish",
+      "target_file": "Truck Position",
+      "confidence": 95.0,
+      "reason": "Twister Finish is executed from Truck Position, which is the prerequisite setup position for achieving Twister Control.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Guillotine Choke",
+      "target_file": "Front Headlock",
+      "confidence": 95.0,
+      "reason": "Guillotine choke is commonly applied from the front headlock position, making this a direct positional prerequisite.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Americana from Side Control",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "The Americana from Side Control requires Side Control Top (S033) as the starting position, making this the fundamental prerequisite position.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Arm Triangle",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Arm Triangle is most commonly set up from side control, making this a primary starting position.",
+      "suggested_section": "Starting State",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Triangle from Back",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Triangle from Back is a finishing submission that leads to this terminal state when successful",
+      "suggested_section": "Overview",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Far Side Armbar",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Far Side Armbar is explicitly listed as starting from Side Control, making this a direct position-to-submission relationship.",
+      "suggested_section": "Starting State",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Kneebar from 50-50",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Kneebar from 50/50 is a finishing technique that leads directly to this terminal state upon successful completion.",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Anaconda Choke",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Anaconda choke is commonly applied from side control after securing the front headlock, making this a critical position-to-submission relationship.",
+      "suggested_section": "Starting Position",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Darce Choke",
+      "target_file": "Front Headlock",
+      "confidence": 95.0,
+      "reason": "Darce Choke is commonly finished from Front Headlock position, which is explicitly mentioned in the setup requirements.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Darce Choke",
+      "target_file": "Turtle Position",
+      "confidence": 95.0,
+      "reason": "Turtle Position Top is explicitly listed as a primary starting position for the Darce Choke in the setup requirements.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Twister Setup",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Twister Setup leads directly to a submission finish, making Won by Submission the natural terminal state for successful execution.",
+      "suggested_section": "Ending State",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Arm Triangle Progression",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Arm triangle progression typically begins from side control, making this a critical starting position link.",
+      "suggested_section": "Starting Position",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Breadcutter Choke",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Breadcutter Choke is executed from Side Control Top position, which is the primary starting position for this submission.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Straight Armbar",
+      "target_file": "Armbar Control",
+      "confidence": 95.0,
+      "reason": "Armbar Control is the position state that directly precedes the Straight Armbar submission, representing the control phase before applying finishing pressure.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Submission-Focused Strategy",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Terminal state that represents the ultimate goal of a submission-focused strategy, directly aligned with the framework's primary objective.",
+      "suggested_section": "Strategic Framework Properties",
+      "relationship_type": "strategy-to-outcome",
+      "existing_link": false
+    },
+    {
+      "source_file": "Flying Armbar",
+      "target_file": "Standing Position",
+      "confidence": 95.0,
+      "reason": "Flying Armbar starts from standing clinch position, making this the primary starting state for this aerial technique.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Americana",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Americana is most commonly executed from Side Control, which is explicitly listed as a starting state for this submission.",
+      "suggested_section": "Starting State",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Straight Footlock",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Straight Footlock is a terminal submission that directly results in match victory, making this the natural end state.",
+      "suggested_section": "Submission Outcome",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Loop Choke from Mount",
+      "target_file": "Mount",
+      "confidence": 95.0,
+      "reason": "Loop Choke from Mount is executed from the mount position, making this the primary starting position.",
+      "suggested_section": "Overview",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Williams Shoulder Lock",
+      "target_file": "Triangle Control",
+      "confidence": 95.0,
+      "reason": "Williams Guard is derived from rubber guard/triangle control systems, making this a core related position for the shoulder lock setup.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Arm-in Guillotine",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "The arm-in guillotine is a finishing submission that leads directly to this terminal state when successfully applied.",
+      "suggested_section": "Overview",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Gogoplata Setup",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Gogoplata Setup leads directly to a submission finish, making this the natural terminal state for successful execution.",
+      "suggested_section": "Ending State",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Clock Choke",
+      "target_file": "Turtle Position",
+      "confidence": 95.0,
+      "reason": "Clock Choke is executed from turtle top position, making this the primary starting position.",
+      "suggested_section": "Overview",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Can Opener",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "The Can Opener submission explicitly states it ends in 'Won by Submission' as the terminal state.",
+      "suggested_section": "Ending State",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Marce Choke",
+      "target_file": "Front Headlock",
+      "confidence": 95.0,
+      "reason": "Marce Choke is explicitly described as being executed from front headlock position, making this a critical positional setup link.",
+      "suggested_section": "Overview",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Triangle Choke",
+      "target_file": "Triangle Control",
+      "confidence": 95.0,
+      "reason": "Triangle Control is the position that precedes and enables the Triangle Choke submission, representing the control phase before finishing.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Mir Lock",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Mir Lock is explicitly mentioned as starting from Side Control, making this a critical position-to-submission relationship.",
+      "suggested_section": "Starting Position",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Triangle from Guard",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Triangle from Guard is a submission technique that leads to this terminal state when successfully applied",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Arm Crush",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Arm Crush is executed from Side Control Top, which is listed as a starting position for this submission.",
+      "suggested_section": "Starting Position",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Baseball Bat Choke",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Baseball Bat Choke is primarily executed from Side Control, making this the most essential positional prerequisite.",
+      "suggested_section": "Starting State",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Kimura",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Kimura is explicitly mentioned as being executed from Side Control, making this a primary starting position.",
+      "suggested_section": "Starting State",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Kimura from Side Control",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "This is the primary starting position for this Kimura variation and should be linked in the setup requirements.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Shoulder Pressure",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Shoulder pressure is a fundamental control mechanism in side control, making this the most directly relevant position for applying this concept.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Side Control Defensive Framework",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "The framework is specifically designed to defend against side control position, making this the primary reference position.",
+      "suggested_section": "System Properties",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Distance Creation",
+      "target_file": "Frame Creation",
+      "confidence": 95.0,
+      "reason": "Frames are explicitly mentioned as the primary tool for creating distance and preventing opponents from closing space.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "concept-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Base Maintenance",
+      "target_file": "Mount",
+      "confidence": 95.0,
+      "reason": "Mount position is a prime example where base maintenance is critical for maintaining dominant control and preventing escapes.",
+      "suggested_section": "Position Applications",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Hip Elevation",
+      "target_file": "Frame Creation",
+      "confidence": 95.0,
+      "reason": "Hip elevation and frame creation are complementary fundamental movements that work together in bottom position escapes and defensive techniques.",
+      "suggested_section": "Related Concepts",
+      "relationship_type": "concept-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Top Half Guard",
+      "target_file": "Half Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Direct counterpart position showing the bottom perspective of the same half guard position being controlled from top.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Sprawl Defense",
+      "target_file": "Standing Position",
+      "confidence": 95.0,
+      "reason": "Sprawl defense is executed from standing position and is the primary defensive framework in that context.",
+      "suggested_section": "Concept Description",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Submission Chains",
+      "target_file": "Mount",
+      "confidence": 95.0,
+      "reason": "Mount is a dominant position where submission chains are most effectively applied with high finishing probability.",
+      "suggested_section": "Concept Description",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Submission Chains",
+      "target_file": "Triangle-Armbar-Omoplata Chain",
+      "confidence": 95.0,
+      "reason": "This is a specific example of submission chain theory applied from guard, directly illustrating the concept.",
+      "suggested_section": "Concept Description",
+      "relationship_type": "concept-to-system",
+      "existing_link": false
+    },
+    {
+      "source_file": "Space Creation",
+      "target_file": "Space Management",
+      "confidence": 95.0,
+      "reason": "Space Management is the complementary concept to Space Creation, representing the defensive perspective of controlling distance and gaps.",
+      "suggested_section": "Related Concepts",
+      "relationship_type": "concept-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Guard Passing Principles",
+      "target_file": "Guard Pass",
+      "confidence": 95.0,
+      "reason": "Direct implementation of guard passing principles as specific techniques and transitions",
+      "suggested_section": "Key Principles",
+      "relationship_type": "concept-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Defense Technique",
+      "target_file": "Defensive Posture",
+      "confidence": 95.0,
+      "reason": "Defensive Posture is a fundamental concept directly related to implementing defense technique principles and maintaining structural integrity under pressure.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "concept-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Pin Escape Methodology",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Pin Escape Methodology directly addresses escaping side control as one of the primary pinning positions.",
+      "suggested_section": "System Properties",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Pin Escape Methodology",
+      "target_file": "Mount",
+      "confidence": 95.0,
+      "reason": "Mount is explicitly listed as a target pin position in the methodology's scope.",
+      "suggested_section": "System Properties",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Guard Retention Concepts",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Direct technique implementation of guard retention concepts, essential practical application of the conceptual framework.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "concept-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Head Control",
+      "target_file": "Back Control",
+      "confidence": 95.0,
+      "reason": "Head control is fundamental to maintaining back control position and preventing escapes through spinal alignment control.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Leg Entanglement",
+      "target_file": "Ashi Garami",
+      "confidence": 95.0,
+      "reason": "Ashi Garami is a fundamental leg entanglement position that directly exemplifies the concept being discussed.",
+      "suggested_section": "Concept Description",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Leg Entanglement",
+      "target_file": "Saddle Position",
+      "confidence": 95.0,
+      "reason": "Saddle Position (Honey Hole) is a primary leg entanglement configuration used to control and attack the legs.",
+      "suggested_section": "Concept Description",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Control Maintenance",
+      "target_file": "Mount",
+      "confidence": 95.0,
+      "reason": "Mount is a fundamental dominant position requiring continuous control maintenance principles discussed in the source content.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Control Maintenance",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Side Control is a primary dominant position where control maintenance through pressure and connection points is essential.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "No-Gi Competition Approach",
+      "target_file": "Back Control",
+      "confidence": 95.0,
+      "reason": "Back control is a dominant no-gi position with high submission potential, essential for no-gi competition strategy.",
+      "suggested_section": "Framework Description",
+      "relationship_type": "strategy-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Duck Under",
+      "target_file": "Back Control",
+      "confidence": 95.0,
+      "reason": "Duck Under is a primary technique for achieving back control from standing, making this the most natural target position outcome.",
+      "suggested_section": "Target Position",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Kimura Trap System",
+      "target_file": "Half Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Kimura Trap System explicitly lists Half Guard Bottom as a starting position for the trap sequence.",
+      "suggested_section": "Starting Positions",
+      "relationship_type": "system-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Competition Strategy",
+      "target_file": "Back Control",
+      "confidence": 95.0,
+      "reason": "Critical high-scoring position for competition strategy, worth 4 points and offering high submission probability.",
+      "suggested_section": "Strategic Frameworks by Competition Type",
+      "relationship_type": "strategy-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "No-Gi Tactical Framework",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "No-gi guard retention is a critical tactical element requiring specific framing and movement principles without gi grips.",
+      "suggested_section": "Framework Description",
+      "relationship_type": "framework-to-technique",
+      "existing_link": false
+    },
+    {
+      "source_file": "Self-Defense Application Framework",
+      "target_file": "Standing Position",
+      "confidence": 95.0,
+      "reason": "Self-defense scenarios typically begin from standing positions, making this fundamental to the framework's application context.",
+      "suggested_section": "Framework Description",
+      "relationship_type": "system-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Back Defense Protocol",
+      "target_file": "Back Control",
+      "confidence": 95.0,
+      "reason": "Back Defense Protocol directly addresses defending against Back Control position, which is the primary threat this system defends against",
+      "suggested_section": "System Description",
+      "relationship_type": "system-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Defensive Prioritization Framework",
+      "target_file": "Back Control",
+      "confidence": 95.0,
+      "reason": "Back control is the highest priority defensive threat to escape from, making it directly relevant to a defensive prioritization framework.",
+      "suggested_section": "Threat Level Assessment",
+      "relationship_type": "framework-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Standing Defense Strategy",
+      "target_file": "Standing Position",
+      "confidence": 95.0,
+      "reason": "Standing Defense Strategy directly addresses defensive tactics from the Standing Position, making this a fundamental position-to-system relationship.",
+      "suggested_section": "System Properties",
+      "relationship_type": "system-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Gi-Specific Strategy",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Gi-specific strategy heavily emphasizes grip-based guard retention as a core defensive concept.",
+      "suggested_section": "Guard Strategy",
+      "relationship_type": "strategy-to-technique",
+      "existing_link": false
+    },
+    {
+      "source_file": "IBJJF Strategy Guide",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "IBJJF awards 3 points for side control, making it a critical scoring position in competition strategy.",
+      "suggested_section": "Scoring Positions",
+      "relationship_type": "strategy-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Back Attack System",
+      "target_file": "Turtle Position",
+      "confidence": 95.0,
+      "reason": "Turtle Position is explicitly listed as a starting position for the Back Attack System and is a critical transition point to back control.",
+      "suggested_section": "Starting Positions",
+      "relationship_type": "system-to-position",
+      "existing_link": false
+    }
+  ]
+}

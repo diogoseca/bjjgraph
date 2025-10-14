@@ -369,7 +369,7 @@ Fireman's carry is a classic wrestling technique adapted for Brazilian Jiu-Jitsu
 **Common fireman's carry combinations:**
 - [[Standing Position]] → [[Fireman's Carry]] → [[Side Control]]
 - [[Clinch Position]] → [[Fireman's Carry]] → [[Mount]]
-- [[Standing Position]] → [[Failed Fireman's Carry]] → [[Neutral Position]]
+- [[Standing Position]] → [[Fireman's Carry]] → [[Neutral Position]]
 
 ## Training Applications
 - **Stand-Up Development**: Essential for wrestling takedown arsenal in competition

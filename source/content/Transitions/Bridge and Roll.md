@@ -162,9 +162,9 @@ Factors that influence the success rate of the transition:
 ## Common Counters and Counter-Attacks
 Analysis of opponent responses with success rates for counter-attacks:
 - [[Base Widening]] → [[Escape Prevention]] (Success Rate: 50%, Conditions: opponent widens base before bridge)
-- [[Cross-Face Control]] → [[Flattening]] (Success Rate: 55%, Conditions: opponent uses cross-face to pin shoulders)
+- [[Cross Face Control]] → [[Flattening]] (Success Rate: 55%, Conditions: opponent uses cross-face to pin shoulders)
 - [[Posting Defense]] → [[Maintained Position]] (Success Rate: 45%, Conditions: opponent posts arm or leg to stop roll)
-- [[Weight Shift]] → [[Recovery Position]] (Success Rate: 40%, Conditions: opponent shifts weight back to center)
+- [[Weight Shift]] → [[Game Over Position]] (Success Rate: 40%, Conditions: opponent shifts weight back to center)
 - [[Hip Switch]] → [[Technical Mount]] (Success Rate: 60%, Conditions: opponent switches hips to maintain control)
 - [[Submission Counter]] → [[Armbar Opportunity]] (Success Rate: 35%, Conditions: opponent capitalizes on exposed arm during roll)
 
@@ -272,7 +272,7 @@ Else [maintain defense]:
 - [[Frame Creation]] → [[Bridge and Roll]]
 - [[Defensive Underhook]] → [[Bridge and Roll]]
 - [[Posture Disruption]] → [[Bridge and Roll]]
-- [[Grip Establishment]] → [[Bridge and Roll]]
+- [[Guard Establishment]] → [[Bridge and Roll]]
 - [[Weight Shift Recognition]] → [[Bridge and Roll]]
 - [[Space Generation]] → [[Bridge and Roll]]
 
@@ -281,7 +281,7 @@ Else [maintain defense]:
 - [[Top Position Establishment]] → [[Side Control]] or [[Knee on Belly]]
 - [[Scramble Initiative]] → various positional opportunities
 - [[Half Guard Insertion]] → [[Half Guard Bottom]]
-- [[Tactical Stand-up]] → [[Standing Position]]
+- [[Technical Stand-up]] → [[Standing Position]]
 - [[Sweep Combination]] → subsequent offensive options
 
 ## Training Approaches

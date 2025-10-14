@@ -94,10 +94,10 @@ The Passing Counter System serves as an advanced defensive capability that compl
 - If opponent attempts toreando pass → Execute [[Leg Frame]] → [[Collar Drag Counter]] → [[Modified Single X Entry]]
 - If opponent attempts knee slice pass → Execute [[Inside Frame]] → [[Underhook Sweep]] → [[Cross Sleeve Control]]
 - If opponent attempts body lock pass → Execute [[Hip Frame]] → [[Hip Bump Counter]] → [[Guillotine Opportunity]]
-- If opponent attempts pressure passing → Execute [[Defensive Frames]] → [[Pendulum Sweep]] → [[Mount Transition]]
+- If opponent attempts pressure passing → Execute [[Defensive Frame]] → [[Pendulum Sweep]] → [[Mount Transition]]
 - If opponent attempts leg drag pass → Execute [[Hip Recovery]] → [[Double Ankle Counter]] → [[Berimbolo Entry]]
-- If opponent attempts stack pass → Execute [[Over-under Counter]] → [[Tripod Sweep]] → [[X-Guard Recovery]]
-- If opponent attempts headquarters passing → Execute [[Reverse De La Riva Hook]] → [[Kiss of the Dragon]] → [[Back Take]]
+- If opponent attempts stack pass → Execute [[Over-under Counter]] → [[Tripod Sweep]] → [[Guard Recovery]]
+- If opponent attempts headquarters passing → Execute [[Reverse De La Riva Guard]] → [[Kiss of the Dragon]] → [[Back Take]]
 
 ## Counter-Offensive Opportunities
 - From [[Toreando Defense]] → [[Modified Single Leg X]] → [[Ankle Lock Entry]] when opponent posts to pass

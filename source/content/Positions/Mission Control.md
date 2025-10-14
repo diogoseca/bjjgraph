@@ -21,8 +21,8 @@ description: "Master Mission Control in BJJ. Complete guide covering setup, cont
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Secure Gogoplata Setup",
-      "text": "From this position, execute Secure Gogoplata Setup to transition to Gogoplata Control.",
+      "name": "Execute gogoplata setup",
+      "text": "From this position, execute gogoplata setup to transition to Gogoplata Control.",
       "position": 2
     },
     {
@@ -39,8 +39,8 @@ description: "Master Mission Control in BJJ. Complete guide covering setup, cont
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Mission Control Sweep",
-      "text": "From this position, execute Mission Control Sweep to transition to Top Position.",
+      "name": "Execute mission control",
+      "text": "From this position, execute mission control to transition to Top Position.",
       "position": 5
     },
     {
@@ -142,7 +142,7 @@ Mission Control is the foundational control position within Eddie Bravo's Rubber
 - Clear pathway to related control positions
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Posture and Frame]] → [[Posture Establishment]]
+- [[Posture and Frame]] → [[guard establishment]]
 - [[Two-on-One Grip Break]] → [[Grip Advantage]]
 - [[Shoulder Drive Forward]] → [[Guard Opening]]
 - [[Hip Elevation]] → [[Stack Pressure]]
@@ -150,10 +150,10 @@ Mission Control is the foundational control position within Eddie Bravo's Rubber
 
 ## Offensive Transitions (Available From This State)
 - [[Mission Control to New York]] → [[New York Control]]
-- [[Secure Gogoplata Setup]] → [[Gogoplata Control]]
+- [[gogoplata setup]] → [[Gogoplata Control]]
 - [[Mission Control Omoplata]] → [[Omoplata Control]]
 - [[Transition to Williams]] → [[Williams Guard]]
-- [[Mission Control Sweep]] → [[Top Position]]
+- [[mission control]] → [[Top Position]]
 - [[Mission Control Triangle]] → [[Triangle Control]]
 - [[Arm Control to Dead Orchard]] → [[Dead Orchard Control]]
 - [[Return to Closed Guard]] → [[Closed Guard Bottom]]
@@ -204,13 +204,13 @@ If opponent postures strongly:
 - Execute [[Mission Control to New York]] or [[Mission Control Triangle]]
 
 Else if opponent drives forward with pressure:
-- Execute [[Secure Gogoplata Setup]] or [[Mission Control Omoplata]]
+- Execute [[gogoplata setup]] or [[Mission Control Omoplata]]
 
 Else if opponent attempts hand fighting:
 - Execute [[Transition to Williams]] or [[Arm Control to Dead Orchard]]
 
 Else if position is compromised:
-- Execute [[Return to Closed Guard]] or [[Mission Control Sweep]]
+- Execute [[Return to Closed Guard]] or [[mission control]]
 
 ## Position Metrics
 - Success Rate: 70% control effectiveness (practitioner data)
@@ -221,7 +221,7 @@ Else if position is compromised:
 
 ## Optimal Paths
 Gogoplata path:
-[[Mission Control]] → [[Mission Control to New York]] → [[New York Control]] → [[Secure Gogoplata Setup]] → [[Gogoplata Control]] → [[Won by Submission]]
+[[Mission Control]] → [[Mission Control to New York]] → [[New York Control]] → [[gogoplata setup]] → [[Gogoplata Control]] → [[Won by Submission]]
 
 Williams Guard path:
 [[Mission Control]] → [[Transition to Williams]] → [[Williams Guard]] → [[Williams Shoulder Lock]] → [[Won by Submission]]

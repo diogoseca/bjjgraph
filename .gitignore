@@ -38,3 +38,4 @@ temp/
 # yarn.lock
 # pnpm-lock.yaml
 __pycache__/
+.claude

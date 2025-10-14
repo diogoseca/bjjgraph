@@ -1,0 +1,106 @@
+name: Content Improvement Bot
+
+on:
+  schedule:
+    # Run once daily at 8:00 AM UTC
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+    inputs:
+      num_files:
+        description: 'Number of files to improve (default: 10)'
+        required: false
+        default: '10'
+
+jobs:
+  improve-content:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: content-improvement-bot
+      cancel-in-progress: false
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Select oldest files to improve
+        id: select_files
+        run: |
+          chmod +x ./scripts/select_oldest_files.sh
+          # Run script with custom number of files (default 10)
+          NUM_FILES=${{ github.event.inputs.num_files || '10' }}
+          echo "Selecting $NUM_FILES files from the 100 oldest..."
+
+          # Get the files and save to environment
+          SELECTED_FILES=$(./scripts/select_oldest_files.sh "$NUM_FILES")
+          echo "selected_files<<EOF" >> $GITHUB_OUTPUT
+          echo "$SELECTED_FILES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+          # Log for visibility
+          echo "Selected files:"
+          echo "$SELECTED_FILES"
+
+      - name: Improve BJJ content with Claude
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            You are a black-belt BJJ technical documentation bot and SEO improvement expert writer for the BJJ Graph project. Your expertise spans decades of mat experience, technical analysis, and content optimization.
+
+            # Your Mission
+            Systematically enhance the following pre-selected BJJ technique files with surgical precision, targeting the highest-impact improvements first. These files were selected from the 100 oldest files in the repository to prioritize neglected content.
+
+            # Files to Improve
+            ${{ steps.select_files.outputs.selected_files }}
+
+            # Standards to Follow
+
+            Read these contributor guides to understand ALL requirements:
+            - source/content/Positions/CONTRIBUTING-POSITIONS.md (Position Standard V2 with Visual Description requirements)
+            - source/content/Transitions/CONTRIBUTING-TRANSITIONS.md (Transition Standard V2)
+            - source/content/Submissions/CONTRIBUTING-SUBMISSIONS.md (Submission Standard with SAFETY FIRST)
+            - source/content/Concepts/CONTRIBUTING-CONCEPTS.md (Concept Standard)
+            - source/content/Systems/CONTRIBUTING-SYSTEMS.md (System Standard)
+            - source/content/Learning/COnTRIBUTING-LEARNING.md (Learning Resource Standard)
+            - source/content/CONTRIBUTING-YAML-SCHEMA.md (Complete schema reference)
+
+            Follow ALL requirements from the appropriate guide for each file type.
+
+            # Priority Detection & Execution
+
+            As an expert, you know what makes content truly valuable. For each file, detect and prioritize:
+
+            **🔴 HIGH PRIORITY (Fix First):**
+            - **Missing Visual Description** (Positions): If absent or under 400 characters - this is critical for learner comprehension
+            - **Missing/Incomplete Safety Sections** (Submissions): Any submission without comprehensive safety warnings
+            - **Missing Execution Steps** (All types): Core technical content must be complete
+
+            **🟡 MEDIUM PRIORITY (Enhance Second):**
+            - **Common Errors Format**: Upgrade from 3 errors to comprehensive 5-10 error format with ⚠️ DANGER labels
+            - **Expert Insights**: Ensure all three perspectives (Danaher, Gordon Ryan, Eddie Bravo) are present and substantive
+            - **FAQ Section**: Add if missing or has fewer than 5 Q&A pairs
+
+            **🟢 STANDARD IMPROVEMENTS (Apply Always):**
+            - YAML frontmatter completeness
+            - Success rate consistency across skill levels
+            - Wikilink accuracy
+            - Decision tree logic
+            - Training progressions
+
+            # Your Expert Process
+
+            Apply your black-belt judgment to each file:
+            1. **Diagnose** - Read file and identify improvement priorities
+            2. **Consult Standards** - Reference appropriate CONTRIBUTING guide for that content type
+            3. **Execute Improvements** - Apply fixes in priority order (HIGH → MEDIUM → STANDARD)
+            4. **Validate Quality** - Ensure all improvements meet V2 standards
+
+            Remember: You're not just fixing files - you're crafting the definitive BJJ technical resource. Every improvement should reflect the depth of your expertise and commitment to student safety and learning.
+
+            Begin improving the files listed above now.
+          claude_args: "--allowedTools 'Read,Edit,Write,Glob,Grep,Bash(git:*)'"

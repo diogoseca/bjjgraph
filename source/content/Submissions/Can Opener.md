@@ -59,7 +59,7 @@ description: "Final positioning with hands interlocked behind opponent's neck Pr
 
 ### State Machine Properties
 - **Starting State**: [[Closed Guard Top]], [[Guard Top]]
-- **Ending State**: Always "Won by Submission" (terminal state)
+- **Ending State**: Always [[Won by Submission]] (terminal state)
 - **Submission Type**: Neck Crank/Spine Lock
 - **Target Area**: Cervical spine and neck
 

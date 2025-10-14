@@ -54,6 +54,8 @@
 ## Framework Description
 The No-Gi Tactical Framework represents a comprehensive approach to grappling without the gi that addresses the unique technical demands, control paradigms, and strategic considerations of the no-gi environment. Unlike gi-dependent frameworks, this system focuses on the distinctive dynamics created by the absence of cloth grips, providing integrated understanding of alternative control mechanisms, friction management, and position-specific adaptations required for effective no-gi grappling. The framework delineates how the removal of traditional gi grips fundamentally alters control relationships, transition speeds, and submission pathways compared to gi-based grappling. Central to this approach is the concept of "connection control" where body-to-body contact points, limb entanglements, and weight distribution become the primary mechanisms for establishing and maintaining control rather than cloth manipulation. This framework is particularly valuable for practitioners focusing on no-gi competition formats, those with interests in MMA application, and grapplers seeking to develop technical versatility across different grappling contexts.
 
+No-gi [[Guard Retention]] is a critical tactical element requiring specific framing and movement principles without gi grips.
+
 ## Core Principles
 - Prioritize body control mechanisms over traditional grip-based control
 - Develop proactive hand fighting strategies that establish upper body dominance
@@ -78,10 +80,10 @@ The No-Gi Tactical Framework represents a comprehensive approach to grappling wi
 - [[Arm Drag]] - No-gi control acquisition from neutral position
 - [[Butterfly Sweep]] - Core transition utilizing no-gi specific mechanics
 - [[Single Leg X Entry]] - Strategic lower body control transition
-- [[Front Headlock Entry]] - Primary upper body control acquisition
+- [[Front Headlock]] - Primary upper body control acquisition
 - [[Duck Under]] - Wrestling-influenced positional transition
 - [[Transition to Truck]] - Specialized no-gi control sequence
-- [[Inside Sankaku Entry]] - Modern leg entanglement transition
+- [[Inside Sankaku]] - Modern leg entanglement transition
 
 ## Decision Hierarchy
 1. Establish initial connection through offensive engagement

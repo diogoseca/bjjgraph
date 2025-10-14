@@ -67,7 +67,7 @@ The Competition Scoring Strategy represents a comprehensive approach to BJJ comp
 
 ## Key Positions
 - [[Standing Position]] - Initial neutral position with takedown scoring opportunity
-- [[Guard Bottom]] - Strategic starting position with sweep scoring potential
+- [[Half Guard Bottom]] - Strategic starting position with sweep scoring potential
 - [[Top Half Guard]] - Critical position after takedown or during passing sequence
 - [[Side Control]] - Post-pass position that secures passing points
 - [[Mount]] - High-value scoring position with maximum point allocation

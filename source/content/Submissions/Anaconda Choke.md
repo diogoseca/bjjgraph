@@ -58,7 +58,7 @@ description: "From a Front Headlock position or while controlling the opponent i
 
 ### State Machine Properties
 - **Submission Type**: Strangle - blood choke from front headlock
-- **Starting Position**: [[Front Headlock]], [[Turtle Position Top]]
+- **Starting Position**: [[Front Headlock]], [[turtle position]], [[Side Control]]
 - **Ending Position**: [[Won by Submission]]
 - **Submission Path**: Front control to terminal choke
 
@@ -344,8 +344,8 @@ The Anaconda Choke is a modern Brazilian Jiu-Jitsu submission, popularized in no
 ## Position Integration
 **Common Anaconda Choke combinations:**
 - [[Front Headlock]] → [[Anaconda Choke]] → [[Won by Submission]]
-- [[Turtle Position Top]] → [[Anaconda Choke]] → [[Won by Submission]]
-- [[Front Headlock]] → [[Failed Anaconda Choke]] → [[Neutral Position]]
+- [[turtle position]] → [[Anaconda Choke]] → [[Won by Submission]]
+- [[Front Headlock]] → [[anaconda choke]] → [[Neutral Position]]
 
 ## Training Applications
 - **Submission Development**: Essential for front headlock submission arsenal

@@ -328,6 +328,7 @@ Updates to this standard should be reflected across all transition files to main
 - [[Kosoto Gake]] - Related technique
 - [[Deashi Harai]] - Related technique
 - [[Foot Sweep Series]] - Related technique
+- [[Side Control Top]] - Common ending position from kosoto gari
 
 
 ## Competition Applications

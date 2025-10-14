@@ -76,6 +76,7 @@ tags:
 # Related Content (Wikilinks)
 related_positions:
   - "[[Standing Clinch]]"
+  - "[[Standing Position]]"
   - "[[Armbar Control]]"
 related_transitions:
   - "[[Armbar from Guard]]"

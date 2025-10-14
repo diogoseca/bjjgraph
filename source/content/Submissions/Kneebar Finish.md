@@ -147,7 +147,7 @@ Primary risks while attempting this submission:
 - **Counter Attack**: Opponent counters with hip elevation → [[Pressure Reduction]] (Threat Level: Low)
 - **Stalemate**: Opponent breaks grip to stall submission → [[Control Compromise]] (Threat Level: Medium)
 
-Format: `[[Threat Type]] → [[Resulting Position]] (Threat Level: X)`
+Format: `[[Threat Type]] → [[standing position]] (Threat Level: X)`
 
 ### Defensive Strategies
 Methods to mitigate threats:
@@ -316,9 +316,9 @@ The Kneebar has roots in catch wrestling and other traditional grappling arts, r
 ## Submission Integration
 **Common Kneebar Finish combinations:**
 - [[Kneebar Control]] → [[Kneebar Finish]] → [[Won by Submission]]
-- [[Failed Kneebar Finish]] → [[Transition to Ankle Lock]] → [[Ankle Lock]]
-- [[Failed Kneebar Finish]] → [[Transition to Toe Hold]] → [[Toe Hold]]
-- [[Failed Kneebar Finish]] → [[Transition to Top Control]] → [[Top Position]]
+- [[kneebar finish]] → [[Transition to Ankle Lock]] → [[ankle pick]]
+- [[kneebar finish]] → [[Transition to Toe Hold]] → [[Toe Hold]]
+- [[kneebar finish]] → [[Transition to Top Control]] → [[Top Position]]
 
 ## Training Applications
 - **No-Gi Specialization**: Essential for no-gi competitors focusing on leg locks

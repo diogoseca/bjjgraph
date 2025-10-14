@@ -1,0 +1,216 @@
+{
+  "chunk_metadata": {
+    "chunk_number": 1,
+    "total_chunks": 10,
+    "start_index": 0,
+    "end_index": 20,
+    "count": 21,
+    "confidence_filter": "\u226595%"
+  },
+  "suggestions": [
+    {
+      "source_file": "Armbar from Guard",
+      "target_file": "Won by Submission",
+      "confidence": 100.0,
+      "reason": "Won by Submission is the terminal state for all successful submissions including Armbar from Guard.",
+      "suggested_section": "Submission Finish",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Kneebar from 50-50",
+      "target_file": "50-50 Guard",
+      "confidence": 98.0,
+      "reason": "This is the starting position for the kneebar technique and should be referenced in the setup requirements.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "RNC Defense",
+      "target_file": "Rear Naked Choke",
+      "confidence": 98.0,
+      "reason": "RNC Defense is specifically about defending against the Rear Naked Choke submission, making this the primary offensive technique being countered.",
+      "suggested_section": "Concept Description",
+      "relationship_type": "concept-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Scarf Hold Position",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Scarf Hold (Kesa Gatame) is a variation of side control and shares similar control principles and pressure mechanics.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "S-Mount Position",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "S-Mount is a submission-focused position optimized for finishing attacks, making the terminal submission state highly relevant.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Knee Cut Position",
+      "target_file": "Knee Cut Pass",
+      "confidence": 95.0,
+      "reason": "The Knee Cut Position is directly created by executing the Knee Cut Pass technique, making this a critical transition-to-position relationship.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Headquarters Position Top",
+      "target_file": "Guard Pass",
+      "confidence": 95.0,
+      "reason": "Headquarters is fundamentally a guard passing position, making guard pass concepts directly applicable.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Guard Recovery System",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Guard retention is the core defensive skill that Guard Recovery System addresses when guard has been compromised but not fully passed.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "system-to-technique",
+      "existing_link": false
+    },
+    {
+      "source_file": "Body Triangle Back Control",
+      "target_file": "Triangle Control",
+      "confidence": 95.0,
+      "reason": "Body Triangle Back Control is a specific application of triangle mechanics applied to back control, making this a fundamental related position.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Defensive Position",
+      "target_file": "Frame Creation",
+      "confidence": 95.0,
+      "reason": "Frame creation is a fundamental concept explicitly mentioned in defensive positioning and essential for maintaining defensive structure.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Float Passing Position Top",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Float passing is a transitional position that methodically advances toward side control as the primary completion target.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Half Guard Bottom",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Essential defensive concept for maintaining half guard when under passing pressure.",
+      "suggested_section": "Defensive Responses",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Knee Shield Variations Bottom",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Knee shield variations are fundamentally defensive guard retention positions that manage distance and prevent passing pressure.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "concept-to-technique",
+      "existing_link": false
+    },
+    {
+      "source_file": "Bottom Turtle",
+      "target_file": "Turtle Position",
+      "confidence": 95.0,
+      "reason": "Bottom Turtle is the defensive perspective of Turtle Position, making this the most directly related page for understanding both sides of this position.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Deep Half Guard Top",
+      "target_file": "Half Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Deep Half Guard Top is the inverse position of Half Guard Bottom, and understanding the bottom player's perspective is essential for defending and passing.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "X-Guard",
+      "target_file": "Technical Stand-up",
+      "confidence": 95.0,
+      "reason": "Explicitly mentioned in schema as 'Technical Stand-up Sweep' transition from X-Guard to Top Position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Knee on Belly",
+      "target_file": "Pressure Application",
+      "confidence": 95.0,
+      "reason": "Knee on Belly is a quintessential pressure-based control position, making pressure application concepts directly relevant to understanding and maximizing its effectiveness.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Bottom Position",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Core defensive technique for maintaining bottom position and preventing opponent from passing guard.",
+      "suggested_section": "Defensive Responses",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Spider Guard Bottom",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Spider Guard Bottom is a guard retention system that heavily relies on guard retention principles to maintain distance and control.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Inverted Guard",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Inverted Guard is an advanced guard retention technique, making this a fundamental conceptual link for understanding why inversion is used defensively.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Lasso Guard Variations Bottom",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Lasso variations require advanced guard retention principles to maintain control during dynamic movements and inversions.",
+      "suggested_section": "Related Concepts",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    }
+  ],
+  "instructions": {
+    "task": "Apply these wikilink suggestions to markdown files",
+    "validation": [
+      "Check if wikilink already exists",
+      "Verify target file exists",
+      "Add to specified section only",
+      "Maintain markdown formatting"
+    ],
+    "reporting": [
+      "Track: applied, skipped_exists, skipped_no_target, error",
+      "Report file paths modified",
+      "Report line numbers where links added",
+      "Report any errors encountered"
+    ]
+  }
+}

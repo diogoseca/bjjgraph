@@ -1,0 +1,162 @@
+{
+  "chunk_metadata": {
+    "chunk_number": 10,
+    "total_chunks": 10,
+    "start_index": 189,
+    "end_index": 203,
+    "count": 15,
+    "confidence_filter": "\u226595%"
+  },
+  "suggestions": [
+    {
+      "source_file": "Leg Entanglement",
+      "target_file": "Saddle Position",
+      "confidence": 95.0,
+      "reason": "Saddle Position (Honey Hole) is a primary leg entanglement configuration used to control and attack the legs.",
+      "suggested_section": "Concept Description",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Control Maintenance",
+      "target_file": "Mount",
+      "confidence": 95.0,
+      "reason": "Mount is a fundamental dominant position requiring continuous control maintenance principles discussed in the source content.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Control Maintenance",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Side Control is a primary dominant position where control maintenance through pressure and connection points is essential.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "concept-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "No-Gi Competition Approach",
+      "target_file": "Back Control",
+      "confidence": 95.0,
+      "reason": "Back control is a dominant no-gi position with high submission potential, essential for no-gi competition strategy.",
+      "suggested_section": "Framework Description",
+      "relationship_type": "strategy-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Duck Under",
+      "target_file": "Back Control",
+      "confidence": 95.0,
+      "reason": "Duck Under is a primary technique for achieving back control from standing, making this the most natural target position outcome.",
+      "suggested_section": "Target Position",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Kimura Trap System",
+      "target_file": "Half Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Kimura Trap System explicitly lists Half Guard Bottom as a starting position for the trap sequence.",
+      "suggested_section": "Starting Positions",
+      "relationship_type": "system-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Competition Strategy",
+      "target_file": "Back Control",
+      "confidence": 95.0,
+      "reason": "Critical high-scoring position for competition strategy, worth 4 points and offering high submission probability.",
+      "suggested_section": "Strategic Frameworks by Competition Type",
+      "relationship_type": "strategy-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "No-Gi Tactical Framework",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "No-gi guard retention is a critical tactical element requiring specific framing and movement principles without gi grips.",
+      "suggested_section": "Framework Description",
+      "relationship_type": "framework-to-technique",
+      "existing_link": false
+    },
+    {
+      "source_file": "Self-Defense Application Framework",
+      "target_file": "Standing Position",
+      "confidence": 95.0,
+      "reason": "Self-defense scenarios typically begin from standing positions, making this fundamental to the framework's application context.",
+      "suggested_section": "Framework Description",
+      "relationship_type": "system-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Back Defense Protocol",
+      "target_file": "Back Control",
+      "confidence": 95.0,
+      "reason": "Back Defense Protocol directly addresses defending against Back Control position, which is the primary threat this system defends against",
+      "suggested_section": "System Description",
+      "relationship_type": "system-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Defensive Prioritization Framework",
+      "target_file": "Back Control",
+      "confidence": 95.0,
+      "reason": "Back control is the highest priority defensive threat to escape from, making it directly relevant to a defensive prioritization framework.",
+      "suggested_section": "Threat Level Assessment",
+      "relationship_type": "framework-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Standing Defense Strategy",
+      "target_file": "Standing Position",
+      "confidence": 95.0,
+      "reason": "Standing Defense Strategy directly addresses defensive tactics from the Standing Position, making this a fundamental position-to-system relationship.",
+      "suggested_section": "System Properties",
+      "relationship_type": "system-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Gi-Specific Strategy",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Gi-specific strategy heavily emphasizes grip-based guard retention as a core defensive concept.",
+      "suggested_section": "Guard Strategy",
+      "relationship_type": "strategy-to-technique",
+      "existing_link": false
+    },
+    {
+      "source_file": "IBJJF Strategy Guide",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "IBJJF awards 3 points for side control, making it a critical scoring position in competition strategy.",
+      "suggested_section": "Scoring Positions",
+      "relationship_type": "strategy-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Back Attack System",
+      "target_file": "Turtle Position",
+      "confidence": 95.0,
+      "reason": "Turtle Position is explicitly listed as a starting position for the Back Attack System and is a critical transition point to back control.",
+      "suggested_section": "Starting Positions",
+      "relationship_type": "system-to-position",
+      "existing_link": false
+    }
+  ],
+  "instructions": {
+    "task": "Apply these wikilink suggestions to markdown files",
+    "validation": [
+      "Check if wikilink already exists",
+      "Verify target file exists",
+      "Add to specified section only",
+      "Maintain markdown formatting"
+    ],
+    "reporting": [
+      "Track: applied, skipped_exists, skipped_no_target, error",
+      "Report file paths modified",
+      "Report line numbers where links added",
+      "Report any errors encountered"
+    ]
+  }
+}

@@ -198,7 +198,7 @@ Opponent responses with success rates:
 - **Posture Recovery**: Regaining posture to resist shoulder lock → [[Top Position]] (Success Rate: 40%, Conditions: early recognition)
 - **Arm Extraction**: Pulling arm free from omoplata setup → [[Neutral Position]] (Success Rate: 30%, Conditions: strong grip break)
 - **Roll Defense**: Rolling with sweep to regain top position → [[Top Position]] (Success Rate: 20%, Conditions: quick reaction)
-- **Counter Submission**: Attacking with own submission during setup → [[Submission Control]] (Success Rate: 10%, Conditions: advanced skill)
+- **Counter Submission**: Attacking with own submission during setup → [[Mission Control]] (Success Rate: 10%, Conditions: advanced skill)
 
 Format: `[[Counter Technique]] → [[Result State]] (Success Rate: X%, Conditions: [when applicable])`
 
@@ -378,7 +378,7 @@ The Omoplata Sweep is an intermediate technique in Brazilian Jiu-Jitsu, develope
 **Common Omoplata Sweep combinations:**
 - [[Closed Guard Bottom]] → [[Omoplata Sweep]] → [[Top Position]]
 - [[Closed Guard Bottom]] → [[Omoplata Sweep]] → [[Side Control]]
-- [[Closed Guard Bottom]] → [[Failed Omoplata Sweep]] → [[Guard Retention]]
+- [[Closed Guard Bottom]] → [[Omoplata Sweep]] → [[Guard Retention]]
 
 ## Training Applications
 - **Sweep Development**: Essential for intermediate closed guard sweeping game

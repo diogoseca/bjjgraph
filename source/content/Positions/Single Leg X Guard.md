@@ -143,7 +143,7 @@ You are on your back or partially seated with one of your opponent's legs trappe
 ## Defensive Responses (When Opponent Has This State)
 - [[Base and Pressure]] → [[SLX Escape Sequence]]
 - [[Leg Kick Through]] → [[Knee Cut Pass]]
-- [[Limp Leg Retreat]] → [[Standing Pass]]
+- [[Limp Leg Retreat]] → [[Standing up]]
 - [[Pressure and Smash]] → [[Top Pressure Position]]
 
 ## Offensive Transitions (Available From This State)
@@ -157,7 +157,7 @@ You are on your back or partially seated with one of your opponent's legs trappe
 
 ## Counter Transitions
 - [[SLX Recomposition]] → [[Single Leg X Guard]] (against escape attempts)
-- [[SLX to 50/50]] → [[50/50 Guard]] (against certain counters)
+- [[SLX to 50/50]] → [[50-50 Guard]] (against certain counters)
 - [[SLX to Butterfly]] → [[Butterfly Guard]] (against smashing pressure)
 
 ## Expert Insights
@@ -183,7 +183,7 @@ You are on your back or partially seated with one of your opponent's legs trappe
 - [[X-Guard]] - Similar leg entanglement with additional leg control
 - [[Ashi Garami]] - Leg entanglement focused on submission
 - [[Reverse X Guard]] - Inverted variation of leg entanglement
-- [[50/50 Guard]] - Mutually entangled leg position
+- [[50-50 Guard]] - Mutually entangled leg position
 - [[De La Riva Guard]] - Related open guard with exterior leg hook
 
 

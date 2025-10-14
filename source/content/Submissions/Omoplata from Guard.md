@@ -978,6 +978,7 @@ Test understanding before live application. Minimum 5/6 correct required.
 - [[Spider Guard Bottom]] - Gi-specific guard with excellent omoplata setups
 - [[Omoplata Control]] - Intermediate position after entry, before finish
 - [[Back Control]] - Common transition from omoplata roll
+- [[Triangle Control]] - Part of triangle-armbar-omoplata chain, shares similar entry mechanics
 
 **Related Concepts**:
 - [[Submission Chains]] - Understanding attack progressions and combinations

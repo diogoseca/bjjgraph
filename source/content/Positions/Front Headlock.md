@@ -21,14 +21,14 @@ description: "Master Front Headlock in BJJ. Complete guide covering setup, contr
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Anaconda Entry",
-      "text": "From this position, execute Anaconda Entry to transition to Anaconda Control.",
+      "name": "Execute Anaconda Control",
+      "text": "From this position, execute Anaconda Control to transition to Anaconda Choke.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute D'arce Setup",
-      "text": "From this position, execute D'arce Setup to transition to D'arce Control.",
+      "name": "Execute Darce Setup",
+      "text": "From this position, execute Darce Setup to transition to Darce Choke.",
       "position": 3
     },
     {
@@ -198,8 +198,8 @@ You are in a frontal position, either standing or kneeling, facing your opponent
 
 ## Offensive Transitions (Available From This State)
 - [[Guillotine Control]] → [[Guillotine Choke]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
-- [[Anaconda Entry]] → [[Anaconda Control]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
-- [[D'arce Setup]] → [[D'arce Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
+- [[Anaconda Control]] → [[Anaconda Choke]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
+- [[Darce Setup]] → [[Darce Choke]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
 - [[Snap Down]] → [[Turtle Top]] (Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%)
 - [[Go Behind]] → [[Back Control]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
 - [[Front Headlock to Mount]] → [[Mount]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
@@ -243,7 +243,7 @@ You are in a frontal position, either standing or kneeling, facing your opponent
 
 ## Related States
 - [[Guillotine Control]] - Submission position from front headlock
-- [[D'arce Control]] - Related submission control
+- [[Darce Choke]] - Related submission control
 - [[Anaconda Control]] - Related submission control
 - [[Turtle Top]] - Related top control position
 - [[Back Control]] - Common transition from front headlock
@@ -252,15 +252,15 @@ You are in a frontal position, either standing or kneeling, facing your opponent
 ## Related Positions
 
 - [[Guillotine Control]] - Related position
-- [[D'arce Control]] - Related position
+- [[Darce Choke]] - Related position
 - [[Anaconda Control]] - Related position
 - [[Turtle Top]] - Related position
 - [[Back Control]] - Related position
 
 ## Decision Tree
 If opponent keeps head low and arm in:
-- Execute [[Anaconda Entry]] → [[Anaconda Control]] (Probability: 45%)
-- Or Execute [[D'arce Setup]] → [[D'arce Control]] (Probability: 40%)
+- Execute [[Anaconda Control]] → [[Anaconda Choke]] (Probability: 45%)
+- Or Execute [[Darce Setup]] → [[Darce Choke]] (Probability: 40%)
 
 Else if opponent raises head while defending:
 - Execute [[Guillotine Control]] → [[Guillotine Choke]] (Probability: 50%)
@@ -289,7 +289,7 @@ Back-taking path:
 [[Front Headlock]] → [[Go Behind]] → [[Back Control]] → [[Rear Naked Choke]] → [[Won by Submission]]
 
 Alternative submission path:
-[[Front Headlock]] → [[D'arce Setup]] → [[D'arce Control]] → [[D'arce Choke]] → [[Won by Submission]]
+[[Front Headlock]] → [[Darce Setup]] → [[Darce Choke]] → [[Marce Choke]] → [[Won by Submission]]
 
 ## Computer Science Analogy
 The Front Headlock represents a high-connectivity node in the BJJ state graph with multiple weighted edges to submission states and advantageous positions. It functions as a "gateway" control position with exceptional branching factor, where the controlling player can select from numerous high-probability paths based on the opponent's reactions. This creates a decision tree optimization problem where the player must select actions that maximize expected value while accounting for defensive responses.

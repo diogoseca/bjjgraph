@@ -222,7 +222,7 @@ If [opponent attempts to pass lasso side]:
 - Execute [[Lasso Sweep]] → [[Top Position]] (Probability: 65%)
 
 Else if [opponent postures high with trapped arm]:
-- Execute [[Omoplata Setup]] → [[Omoplata Control]] (Probability: 55%)
+- Execute [[gogoplata setup]] → [[Omoplata Control]] (Probability: 55%)
 
 Else if [opponent leans forward significantly]:
 - Execute [[Triangle Setup]] → [[Triangle Control]] (Probability: 50%)
@@ -360,7 +360,7 @@ If opponent attempts to pass lasso side:
 - Execute [[Lasso Sweep]] → [[Top Position]]
 
 Else if opponent postures high with trapped arm:
-- Execute [[Omoplata Setup]] → [[Omoplata Control]]
+- Execute [[gogoplata setup]] → [[Omoplata Control]]
 
 Else if opponent leans forward:
 - Execute [[Triangle Setup]] → [[Triangle Control]]
@@ -380,7 +380,7 @@ The highest-percentage offensive path from this position:
 [[Lasso Guard]] → [[Lasso Sweep]] → [[Top Position]] → [[Side Control]] → [[Mount]] → [[Won by Submission]]
 
 Alternative high-percentage path:
-[[Lasso Guard]] → [[Omoplata Setup]] → [[Omoplata Control]] → [[Omoplata]] → [[Won by Submission]]
+[[Lasso Guard]] → [[gogoplata setup]] → [[Omoplata Control]] → [[Omoplata]] → [[Won by Submission]]
 
 ## Computer Science Analogy
 Lasso guard functions as a "mutex lock" in the BJJ state machine, providing exclusive control over one of the opponent's critical resources (their arm) while maintaining read/write access to multiple attack vectors, preventing the opponent from executing their preferred operations.

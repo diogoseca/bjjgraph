@@ -1408,4 +1408,853 @@ Before publishing a new transition file:
 
 ---
 
+## Part 10: SEO Optimization for Transition Pages
+
+### Overview
+
+Transition pages represent technique executions in the BJJ state machine and must be optimized for both human learning and search engine visibility. This section provides comprehensive SEO guidelines specific to transition/technique content.
+
+### Title Format Requirements
+
+**Standard Template**: `"[Technique Name] | BJJ Technique | BJJ Graph"`
+
+**Examples:**
+- `"Hip Bump Sweep | BJJ Technique | BJJ Graph"`
+- `"Kimura from Closed Guard | BJJ Technique | BJJ Graph"`
+- `"Knee Cut Pass | BJJ Technique | BJJ Graph"`
+
+**Why this format works:**
+1. **Primary keyword first**: Technique name is what users search for
+2. **Category signal**: "BJJ Technique" helps search engines categorize content
+3. **Brand consistency**: "BJJ Graph" establishes site authority
+4. **Character count**: Keeps title under 60 characters for full SERP display
+
+### Meta Description Template
+
+**Standard Template**: `"Learn [Technique Name] in BJJ. Step-by-step execution from [Starting Position] to [Ending Position]. Success: Beginner X%, Intermediate Y%, Advanced Z%."`
+
+**Examples:**
+- `"Learn Hip Bump Sweep in BJJ. Step-by-step execution from Closed Guard Bottom to Mount. Success: Beginner 50%, Intermediate 70%, Advanced 85%."`
+- `"Learn Kimura from Closed Guard in BJJ. Step-by-step execution from Closed Guard Bottom to Submission. Success: Beginner 40%, Intermediate 60%, Advanced 80%."`
+
+**Why this format works:**
+1. **Action-oriented**: "Learn" signals instructional content
+2. **Specific positioning**: Starting and ending states provide context
+3. **Success rates**: Unique differentiator showing progression data
+4. **Character limit**: 150-160 characters optimizes SERP snippet display
+5. **Search intent match**: Matches "how to" queries perfectly
+
+### Target Keyword Patterns
+
+Transition pages should target multiple keyword patterns:
+
+**Primary Keywords:**
+- `"[technique name]"` - Core technique term
+- `"[technique name] bjj"` - BJJ-specific version
+- `"how to do [technique name]"` - How-to query
+- `"[technique name] technique"` - Technique-focused
+
+**Secondary Keywords:**
+- `"[starting position] to [ending position]"` - Position-based
+- `"[technique name] tutorial"` - Educational query
+- `"[technique name] step by step"` - Instructional query
+- `"[technique name] from [position]"` - Context-specific
+
+**Long-Tail Keywords:**
+- `"how to do [technique] from [position]"` - Detailed query
+- `"[technique] mistakes"` - Error-prevention query
+- `"[technique] success rate"` - Data-driven query
+- `"when to use [technique]"` - Strategic query
+
+**Example keyword targeting for Hip Bump Sweep:**
+- Primary: "hip bump sweep", "hip bump sweep bjj"
+- Secondary: "closed guard to mount", "hip bump tutorial"
+- Long-tail: "how to do hip bump sweep from closed guard", "hip bump sweep mistakes"
+
+### Success Rate Prominence
+
+Success rates are a unique differentiator and should be prominently featured:
+
+**In Title/Description:**
+- Always include in meta description (as shown in template)
+- Provides unique value proposition vs. competitor content
+
+**In Headers:**
+- Create dedicated "Success Rates by Skill Level" section
+- Use table format for visual clarity
+- Include success modifiers explanation
+
+**In Content:**
+- Mention in first paragraph (introductory hook)
+- Reference in timing considerations
+- Compare across skill levels in training progressions
+- Link to success rate definitions in glossary
+
+**Example Success Rate Table:**
+```markdown
+### Success Rates by Skill Level
+
+| Skill Level | Base Success Rate | With Optimal Setup | Against Defensive Counter |
+|------------|------------------|-------------------|-------------------------|
+| Beginner | 50% | 60% (+10%) | 35% (-15%) |
+| Intermediate | 70% | 80% (+10%) | 55% (-15%) |
+| Advanced | 85% | 95% (+10%) | 70% (-15%) |
+```
+
+### Internal Linking Strategy
+
+Every transition page should link to minimum 5-7 related pages:
+
+**Mandatory Links:**
+1. **Starting Position**: `[[Closed Guard Bottom]]`
+2. **Ending Position**: `[[Mount]]`
+3. **Related Techniques**: 2-3 similar techniques
+4. **Common Counters**: 2-3 defensive responses
+5. **Setup Techniques**: 1-2 techniques that create optimal conditions
+
+**Example internal linking structure for Hip Bump Sweep:**
+```markdown
+- Starting: [[Closed Guard Bottom]]
+- Ending: [[Mount]]
+- Related: [[Flower Sweep]], [[Scissor Sweep]], [[Pendulum Sweep]]
+- Counters: [[Base Out]], [[Drive Forward Defense]]
+- Setups: [[Triangle Threat]], [[Kimura Grip]]
+```
+
+**Linking best practices:**
+- Use descriptive anchor text (technique/position names)
+- Link to hub pages (BJJ-Transitions.md, BJJ-Guard-Passing.md)
+- Cross-reference to concept pages (Base Maintenance, Timing Windows)
+- Link to related learning articles when applicable
+
+### Schema Markup Requirements
+
+**Required Schema Types:**
+
+1. **WebPage Schema** (mandatory)
+   - Establishes page identity
+   - Links to parent website
+   - Auto-generated by build system
+
+2. **BreadcrumbList Schema** (mandatory)
+   - Navigation hierarchy
+   - Improves SERP display
+   - Auto-generated by build system
+
+3. **HowTo Schema** (strongly recommended)
+   - Core schema for technique pages
+   - Generated from Execution Steps section
+   - Includes totalTime, supply, and step-by-step instructions
+   - Enables rich snippets in search results
+
+4. **FAQPage Schema** (strongly recommended)
+   - Generated from Knowledge Assessment section
+   - 6-8 technical questions with detailed answers
+   - Enables FAQ rich snippets
+   - Improves "People Also Ask" visibility
+
+**Schema Generation Process:**
+- Build system automatically generates schema from YAML frontmatter + markdown content
+- No manual JSON-LD blocks needed in V2 standard
+- Validation happens at build time
+
+**HowTo Schema Data Sources:**
+- `name`: From `transition_name` in YAML
+- `description`: From `description` in YAML
+- `totalTime`: From `total_time` in YAML (ISO 8601 format)
+- `step`: From Execution Steps section (minimum 6 steps)
+- `supply/tool`: From `schema_tools` in YAML
+
+**FAQPage Schema Data Sources:**
+- Questions: From Knowledge Assessment section
+- Answers: Expanded from answer explanations in same section
+- Minimum 6 questions required (5 in assessment + 1 timing/safety)
+
+### Featured Snippet Strategies
+
+Transition pages are prime candidates for featured snippets:
+
+**Step-by-Step Lists** (Most common snippet type for techniques)
+- Use numbered Execution Steps section
+- Keep each step concise (1-2 sentences)
+- Include 6-8 steps for optimal snippet length
+- Bold step titles for scannability
+
+**Example snippet-optimized execution steps:**
+```markdown
+## Execution Steps
+
+1. **Establish Collar Grip**: Secure deep collar grip with one hand for control
+2. **Post Your Hand**: Place other hand on mat beside hip for leverage
+3. **Initiate Sit-Up**: Begin sit-up motion while maintaining closed guard
+4. **Drive Shoulder**: Push posted hand into opponent's opposite shoulder
+5. **Bump Hips**: Explosively bump hips upward and to the side
+6. **Complete Sweep**: Follow through to mount position
+```
+
+**Comparison Tables** (Good for success rates, physical requirements)
+- Use markdown tables for skill level comparisons
+- Include 3-4 columns for easy scanning
+- Keep table under 8 rows for snippet display
+
+**Definition Boxes** (Good for technique descriptions)
+- Place one-sentence summary in bold at start of Visual Execution Sequence
+- Format: "**One-Sentence Summary**: [description]"
+- Example: "**One-Sentence Summary**: From closed guard with collar grip, you sit up while bumping hips and pushing shoulder to sweep opponent to mount."
+
+### FAQ Best Practices (Updated Standards)
+
+The Knowledge Assessment section now serves dual purpose: testing technical understanding AND generating FAQ schema.
+
+**Minimum Requirements:**
+- 6-8 questions (increased from 5)
+- Detailed answers (50-100 words each)
+- Cover 6 core categories:
+  1. Mechanical Understanding (biomechanics)
+  2. Timing Recognition (when to execute)
+  3. Error Prevention (common mistakes)
+  4. Setup Requirements (prerequisites)
+  5. Adaptation (counters and adjustments)
+  6. Safety/Strategic Considerations (context-specific)
+
+**FAQ Question Format:**
+```markdown
+## Knowledge Assessment
+
+1. **Mechanical Understanding**: "What creates the sweeping force in the hip bump sweep?"
+
+   The sweeping force comes from the combination of three synchronized movements: the sit-up motion generates upward momentum, the hip bump creates lateral displacement, and the shoulder push provides directional control. None of these actions alone would create sufficient off-balancing force - it's the coordinated timing and integration of all three that makes the technique effective. The posted hand acts as a fulcrum point, allowing you to generate maximum leverage from your core muscles.
+
+   - **Answer**: B) The combination of sit-up motion, hip bump, and shoulder push
+```
+
+**Key differences from V1:**
+- Answers are now detailed paragraphs (not just letter choices)
+- Explanations include biomechanical reasoning
+- Questions test understanding, not memorization
+- Schema-ready format for FAQPage markup
+
+**Question Categories Explained:**
+
+1. **Mechanical Understanding**: Tests comprehension of leverage, force application, biomechanics
+2. **Timing Recognition**: Tests ability to identify optimal execution windows
+3. **Error Prevention**: Tests knowledge of common mistakes and their consequences
+4. **Setup Requirements**: Tests understanding of prerequisites and positioning
+5. **Adaptation**: Tests ability to adjust based on opponent responses
+6. **Safety/Strategic**: Tests contextual awareness (when to use, when to avoid)
+
+### Content Length and Depth
+
+**Minimum Word Counts:**
+- Total page: 2,500+ words (comprehensive coverage)
+- Visual Execution Sequence: 200+ words
+- Expert Insights: 150+ words (50 per expert)
+- Common Errors: 300+ words (100 per error × 3 errors minimum)
+- Knowledge Assessment: 400+ words (detailed answers)
+
+**Depth Indicators:**
+- Minimum 6 execution steps
+- Minimum 3 common counters with conditions
+- Minimum 3 common errors with corrections
+- All 3 expert insights present
+- All 5 physical requirements defined
+- Complete LLM Context Block
+
+**Why depth matters for SEO:**
+1. **Search intent satisfaction**: Comprehensive content answers multiple user queries
+2. **Dwell time**: Longer, detailed content keeps users engaged
+3. **Internal linking**: More content = more linking opportunities
+4. **Topical authority**: Demonstrates expertise on subject
+5. **Long-tail targeting**: Covers variations and edge cases
+
+### URL Structure and Naming
+
+**Recommended URL Pattern**: `/transitions/[technique-name]`
+
+**Examples:**
+- `/transitions/hip-bump-sweep`
+- `/transitions/kimura-from-closed-guard`
+- `/transitions/knee-cut-pass`
+
+**URL Best Practices:**
+- Use hyphens (not underscores) for word separation
+- Keep under 60 characters when possible
+- Use lowercase only
+- Match filename to URL slug
+- Avoid stop words (from, the, to) unless necessary for clarity
+
+### Header Structure and Hierarchy
+
+**Proper H1-H6 usage:**
+- H1: Technique name (one per page)
+- H2: Major sections (Visual Execution, Expert Insights, etc.)
+- H3: Subsections within major sections
+- H4: Sub-subsections (rare, for complex breakdowns)
+
+**Example header hierarchy:**
+```
+# Hip Bump Sweep (H1)
+## Visual Execution Sequence (H2)
+## Expert Insights (H2)
+### John Danaher (H3)
+### Gordon Ryan (H3)
+## Common Errors (H2)
+### Error 1: Grip Mistake (H3)
+```
+
+**Why hierarchy matters:**
+- Search engines use headers to understand content structure
+- Proper nesting improves accessibility (screen readers)
+- Featured snippets often pull from H2/H3 sections
+- Users scan headers to find relevant information
+
+### Content Freshness Signals
+
+**Date Stamps:**
+- Include "Last Updated" in footer or frontmatter
+- Update when significant changes made
+- Avoid showing "last modified" for minor edits
+
+**Version Tracking:**
+- Document version in YAML frontmatter
+- Track major content revisions
+- Link to changelog if applicable
+
+**Competitive Updates:**
+- Monitor for new variations in competition footage
+- Update success rates based on competition data
+- Add new expert insights when available
+
+### Mobile Optimization Considerations
+
+**Responsive Design:**
+- Tables should scroll horizontally on mobile
+- Images should scale appropriately
+- Text should be readable without zooming (16px minimum)
+
+**Mobile-Specific Content:**
+- Keep paragraphs short (3-4 sentences max)
+- Use bullet points for scannability
+- Break up long sections with subheaders
+- Ensure tap targets are 48px minimum
+
+**Mobile Performance:**
+- Optimize image file sizes
+- Lazy-load images below fold
+- Minimize render-blocking resources
+- Target <3 second load time on 3G
+
+---
+
+## Part 11: Learning Article Integration
+
+### Overview
+
+Transition data is aggregated and referenced in larger learning articles that provide systematic overviews of BJJ techniques. Understanding how transition pages integrate with these hub articles ensures consistency and maximizes SEO value.
+
+### Hub Article Types That Reference Transitions
+
+**Primary Learning Guides:**
+1. **Guard-Passing-System-Overview.md**: Aggregates all guard passing transitions
+2. **BJJ-Sweeps-Complete-System.md**: Aggregates all sweep transitions
+3. **BJJ-Escapes.md**: Aggregates all escape transitions
+4. **BJJ-Submissions.md**: References transitions that lead to submissions
+5. **BJJ-Transitions.md**: Master hub page linking to all transition content
+
+### Data Aggregation in Comparison Tables
+
+Learning articles use transition data to create comparison tables:
+
+**Success Rate Consistency:**
+- Success rates in transition pages MUST match aggregated tables
+- When updating success rates, check for references in learning articles
+- Build system can validate consistency across files
+
+**Example Comparison Table (from BJJ-Sweeps-Complete-System.md):**
+```markdown
+| Sweep Technique | Starting Position | Ending Position | Beginner | Intermediate | Advanced | Complexity |
+|----------------|------------------|----------------|----------|--------------|----------|------------|
+| [[Hip Bump Sweep]] | Closed Guard | Mount | 50% | 70% | 85% | Low |
+| [[Flower Sweep]] | Closed Guard | Mount | 45% | 65% | 80% | Medium |
+| [[Scissor Sweep]] | Closed Guard | Mount | 55% | 75% | 90% | Low |
+```
+
+**Why consistency matters:**
+- Users may compare techniques across pages
+- Inconsistent data damages credibility
+- Automated validation can catch discrepancies
+- Comparison tables help users make training decisions
+
+### Execution Steps Simplification
+
+Learning articles present simplified versions of execution steps:
+
+**Full Version (Transition Page):**
+```markdown
+1. **Setup Requirements**: Establish collar grip and post hand on mat beside hip
+2. **Initial Movement**: Begin sit-up motion while maintaining closed guard
+3. **Opponent Response**: Opponent typically tries to maintain posture
+4. **Adaptation**: Adjust timing based on opponent's balance
+5. **Completion**: Complete hip bump while pushing shoulder
+6. **Consolidation**: Follow through to mount position
+```
+
+**Simplified Version (Learning Article):**
+```markdown
+**Hip Bump Sweep**: From closed guard, grip collar and post hand. Sit up while bumping hips and pushing shoulder. Sweep to mount. [[Full Details →|Hip Bump Sweep]]
+```
+
+**Simplification Guidelines:**
+- Reduce 6+ steps to 2-3 key movements
+- Focus on primary mechanics only
+- Always link to full transition page
+- Use consistent terminology across both versions
+
+### Chain Sequences in Systems
+
+Learning articles describe technique chains using transition data:
+
+**Example Chain (from Guard-Passing-System-Overview.md):**
+```markdown
+### Pressure Passing Chain
+
+1. [[Closed Guard Top]] → [[Break Guard]] → [[Open Guard Top]]
+2. [[Open Guard Top]] → [[Knee Cut Pass]] → [[Side Control]]
+3. If opponent recovers: [[Side Control]] → [[Knee Slice]] → [[Mount]]
+4. If opponent turtles: [[Side Control]] → [[Back Take]] → [[Back Control]]
+```
+
+**Chain Requirements:**
+- Each arrow represents a transition
+- Starting state of next transition must match ending state of previous
+- Success rates compound (multiply probabilities)
+- Alternatives provided for defensive responses
+
+**Example with probabilities:**
+```markdown
+### High-Percentage Mount Attack Chain
+
+**Success Path Analysis:**
+1. [[Side Control Top]] → [[Mount Transition]] (75% advanced)
+2. [[Mount]] → [[High Mount]] (80% advanced)
+3. [[High Mount]] → [[Armbar from Mount]] (70% advanced)
+4. **Overall Success**: 75% × 80% × 70% = 42% complete chain
+
+**If step 2 fails:**
+- [[Mount]] → [[S-Mount]] → [[Armbar Variation]] (alternative path)
+```
+
+### Expert Insights Alignment
+
+When learning articles discuss systematic approaches, they reference expert insights from transition pages:
+
+**Example from Danaher System Article:**
+```markdown
+### John Danaher's Entry System Philosophy
+
+Danaher emphasizes systematic entries before finishing mechanics. As noted in [[Knee Cut Pass]]: "The success of any passing technique depends on proper initial positioning and grip control before movement begins."
+
+This philosophy extends across his entire system:
+- [[Headquarters Position]]: Control before movement
+- [[Leg Drag Position]]: Isolation before advancement
+- [[Knee Cut Pass]]: Setup before execution
+```
+
+**Alignment Requirements:**
+- Quotes from expert insights must be attributed
+- Link to source transition page
+- Maintain expert's voice and perspective
+- Show connections between related techniques
+
+### Cross-References to Learning Guides
+
+Every transition page should reference relevant learning guides:
+
+**In "Related Techniques" Section:**
+```markdown
+## Related Techniques
+
+**Systematic Guides:**
+- [[BJJ-Sweeps-Complete-System]] - Complete sweep methodology
+- [[Guard-Passing-System-Overview]] - Passing system integration
+- [[Competition-Strategy-Framework]] - Tournament application
+
+**Individual Techniques:**
+- [[Flower Sweep]] - Similar mechanics
+- [[Scissor Sweep]] - Alternative from same position
+```
+
+**In "Position Integration" Section:**
+```markdown
+## Position Integration
+
+This technique is part of the closed guard offensive system. See [[BJJ-Sweeps-Complete-System#Closed-Guard-Sweeps]] for complete context.
+
+**Common Sequences:**
+- [[Closed Guard Bottom]] → [[Hip Bump Sweep]] → [[Mount]]
+- Referenced in: [[Competition-Strategy-Framework#Point-Scoring-Sweeps]]
+```
+
+### Learning Progression References
+
+Learning articles organize techniques by skill level. Transition pages support this:
+
+**In Learning Articles:**
+```markdown
+### Beginner Sweeps (White Belt Curriculum)
+
+1. [[Hip Bump Sweep]] - Success: 50% | Complexity: Low | **Start Here**
+2. [[Scissor Sweep]] - Success: 55% | Complexity: Low
+3. [[Flower Sweep]] - Success: 45% | Complexity: Medium
+
+Progression Path: Master Hip Bump → Add Scissor → Integrate Flower
+```
+
+**In Transition Pages:**
+```markdown
+## Prerequisites
+
+- **Experience Level**: Beginner-friendly technique, excellent first sweep to learn
+- **Recommended Progression**:
+  - Learn this technique first in sweep curriculum
+  - See [[BJJ-Sweeps-Complete-System#Beginner-Progression]] for complete path
+  - Master before advancing to [[Flower Sweep]] or [[Pendulum Sweep]]
+```
+
+### Training Program Integration
+
+Learning articles provide training programs that reference transitions:
+
+**Example 8-Week Program (from learning article):**
+```markdown
+## Week 1-2: Fundamental Sweeps
+
+**Focus Techniques:**
+- [[Hip Bump Sweep]] - 20 reps per session
+- [[Scissor Sweep]] - 15 reps per session
+
+**Success Metrics:**
+- Week 1: 30% success in drilling
+- Week 2: 40% success in light rolling
+- Goal: Match beginner success rate (50%) by week 3
+```
+
+**Corresponding Transition Page Content:**
+```markdown
+## Training Progressions
+
+1. **Solo Practice**: Sit-up motion and hip bump mechanics - Week 1
+2. **Cooperative Drilling**: Partner allows sweep completion - Week 1-2
+3. **Resistant Practice**: Progressive defensive resistance - Week 3-4
+4. **Sparring Integration**: Live rolling application - Week 5+
+
+**Referenced In**: [[BJJ-Sweeps-Complete-System#8-Week-Sweep-Program]]
+```
+
+---
+
+## Part 12: Schema Markup Quick Reference
+
+### Overview
+
+Schema.org structured data enables rich snippets in search results and helps search engines understand BJJ technique content. This reference provides transition-specific schema requirements.
+
+### Required Schema Types
+
+**1. WebPage Schema** (Mandatory)
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hip Bump Sweep | BJJ Technique | BJJ Graph",
+  "description": "Learn Hip Bump Sweep in BJJ...",
+  "url": "https://bjjgraph.com/transitions/hip-bump-sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.com"
+  }
+}
+```
+
+**Purpose**: Establishes page identity and relationship to site
+**Generated From**: YAML frontmatter (title, description) + URL path
+**Validation**: Required for all pages
+
+**2. BreadcrumbList Schema** (Mandatory)
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.com/transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Hip Bump Sweep",
+      "item": "https://bjjgraph.com/transitions/hip-bump-sweep"
+    }
+  ]
+}
+```
+
+**Purpose**: Navigation hierarchy for search results
+**Generated From**: URL path + page title
+**Validation**: Must have 2-4 levels, Home → Category → Page
+
+### Strongly Recommended Schema Types
+
+**3. HowTo Schema** (Strongly Recommended)
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Hip Bump Sweep",
+  "description": "Learn how to execute Hip Bump Sweep from Closed Guard to Mount",
+  "totalTime": "PT5M",
+  "supply": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish collar grip and post hand on mat beside hip",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Begin sit-up motion while maintaining closed guard",
+      "position": 2
+    }
+  ]
+}
+```
+
+**Purpose**: Rich snippets showing step-by-step instructions
+**Generated From**:
+- `name`: YAML `transition_name`
+- `totalTime`: YAML `total_time` (ISO 8601 format: PT5M = 5 minutes)
+- `supply`: YAML `schema_tools` array
+- `step`: Execution Steps section (minimum 6 steps)
+
+**ISO 8601 Duration Examples:**
+- `PT5M` = 5 minutes
+- `PT10M` = 10 minutes
+- `PT1H` = 1 hour
+- `PT30S` = 30 seconds
+- `PT1H30M` = 1 hour 30 minutes
+
+**4. FAQPage Schema** (Strongly Recommended)
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What creates the sweeping force in the hip bump sweep?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The sweeping force comes from the combination of three synchronized movements: the sit-up motion generates upward momentum, the hip bump creates lateral displacement, and the shoulder push provides directional control. None of these actions alone would create sufficient off-balancing force."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When is the optimal moment to execute hip bump sweep?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Execute when opponent has upright posture with centered weight. This is typically after defending a submission attempt or during grip fighting when their base is narrow and vertical."
+      }
+    }
+  ]
+}
+```
+
+**Purpose**: FAQ rich snippets and "People Also Ask" visibility
+**Generated From**: Knowledge Assessment section (6-8 questions)
+**Requirements**:
+- Minimum 6 questions
+- Detailed answers (50-100 words)
+- Cover all 6 assessment categories
+
+### Updated FAQ Standards (V2)
+
+**Question Format:**
+```markdown
+## Knowledge Assessment
+
+1. **Mechanical Understanding**: "What creates the sweeping force in the hip bump sweep?"
+
+   The sweeping force comes from the combination of three synchronized movements: the sit-up motion generates upward momentum, the hip bump creates lateral displacement, and the shoulder push provides directional control. None of these actions alone would create sufficient off-balancing force - it's the coordinated timing and integration of all three that makes the technique effective.
+
+   - A) Only the shoulder push
+   - B) The combination of sit-up motion, hip bump, and shoulder push
+   - C) Only the hip bump
+   - D) The collar grip alone
+   - **Answer**: B
+```
+
+**Key Changes from V1:**
+1. **Detailed Answers**: 50-100 words explaining the reasoning
+2. **Biomechanical Explanation**: Why the answer is correct
+3. **Schema-Ready**: Answer text directly converted to FAQPage schema
+4. **Educational Value**: Teaches concepts, not just testing knowledge
+
+**Six Required Question Categories:**
+
+1. **Mechanical Understanding**: Biomechanics, leverage, force application
+   - Example: "What creates the [primary force/movement] in this technique?"
+
+2. **Timing Recognition**: When to execute, optimal windows
+   - Example: "When is the optimal moment to execute [technique]?"
+
+3. **Error Prevention**: Common mistakes and their causes
+   - Example: "What is the most common mistake that causes this technique to fail?"
+
+4. **Setup Requirements**: Prerequisites, positioning, grips
+   - Example: "What must be established before attempting [technique]?"
+
+5. **Adaptation**: Adjustments based on opponent responses
+   - Example: "How should you adjust if opponent responds with [counter]?"
+
+6. **Safety/Strategic Considerations**: Context-specific guidance
+   - Example: "When should you avoid attempting [technique]?"
+
+### Schema Validation Tools
+
+**Google Rich Results Test:**
+- URL: https://search.google.com/test/rich-results
+- Input: Page URL after deployment
+- Checks: Valid schema types, required properties, errors
+
+**Schema.org Validator:**
+- URL: https://validator.schema.org/
+- Input: JSON-LD code or page URL
+- Checks: Schema compliance, warnings, suggestions
+
+**Google Search Console:**
+- Monitor: Rich results report
+- Track: Impressions, clicks, errors
+- Fix: Schema errors flagged by Google
+
+### Common Schema Errors and Fixes
+
+**Error 1: Missing Required Property**
+```
+Error: "step" is missing in HowTo schema
+Fix: Ensure Execution Steps section has minimum 6 steps
+```
+
+**Error 2: Invalid Duration Format**
+```
+Error: totalTime "5 minutes" is not valid
+Fix: Use ISO 8601 format: "PT5M" (not "5 minutes")
+```
+
+**Error 3: Empty Answer Text**
+```
+Error: Answer text is empty in FAQPage
+Fix: Ensure Knowledge Assessment has detailed answer paragraphs
+```
+
+**Error 4: Duplicate Schema Types**
+```
+Error: Multiple FAQPage schemas on one page
+Fix: Combine all Q&A into single FAQPage schema
+```
+
+### Build System Integration
+
+**Automatic Generation:**
+- Quartz plugin parses YAML frontmatter
+- Extracts Execution Steps for HowTo schema
+- Extracts Knowledge Assessment for FAQPage schema
+- Generates JSON-LD and inserts before closing `</head>` tag
+
+**No Manual JSON-LD Blocks:**
+- V2 standard removes inline `<script>` blocks
+- All schema generated at build time
+- Reduces maintenance overhead
+- Ensures consistency across pages
+
+**Validation at Build:**
+- Build system validates YAML structure
+- Checks for required fields
+- Verifies execution step count
+- Warns if FAQ count < 6
+
+### Schema Testing Checklist
+
+Before deploying new transition pages:
+
+- [ ] **WebPage Schema**: Title and description populated
+- [ ] **BreadcrumbList Schema**: Correct hierarchy (Home → Transitions → Page)
+- [ ] **HowTo Schema**: Minimum 6 execution steps present
+- [ ] **HowTo totalTime**: ISO 8601 format (PT#M or PT#H#M)
+- [ ] **HowTo supply**: Schema tools array populated
+- [ ] **FAQPage Schema**: Minimum 6 questions with detailed answers
+- [ ] **FAQ Answers**: 50-100 words per answer
+- [ ] **Google Rich Results Test**: No errors reported
+- [ ] **Schema.org Validator**: Warnings addressed
+- [ ] **Search Console**: No critical errors after indexing
+
+### Example: Complete Schema Set for Transition Page
+
+**Data Sources from YAML + Markdown:**
+```yaml
+# YAML Frontmatter
+title: "Hip Bump Sweep | BJJ Technique | BJJ Graph"
+description: "Learn Hip Bump Sweep in BJJ. Step-by-step execution from Closed Guard Bottom to Mount. Success: Beginner 50%, Intermediate 70%, Advanced 85%."
+transition_name: "Hip Bump Sweep"
+total_time: "PT5M"
+schema_tools:
+  - "BJJ Gi or No-Gi attire"
+  - "Training partner"
+  - "Mat space"
+```
+
+```markdown
+## Execution Steps
+
+1. **Setup Requirements**: Establish collar grip and post hand
+2. **Initial Movement**: Begin sit-up motion
+3. **Opponent Response**: Maintain posture or grip fight
+4. **Adaptation**: Adjust timing based on balance
+5. **Completion**: Complete hip bump with shoulder push
+6. **Consolidation**: Transition to mount position
+
+## Knowledge Assessment
+
+1. **Mechanical Understanding**: "What creates the sweeping force?"
+   [Detailed 50-100 word answer explaining biomechanics]
+
+2. **Timing Recognition**: "When to execute?"
+   [Detailed answer]
+```
+
+**Generated Schema Output:**
+- WebPage (from title, description, URL)
+- BreadcrumbList (from URL path)
+- HowTo (from transition_name, total_time, schema_tools, execution steps)
+- FAQPage (from Knowledge Assessment questions + answers)
+
+**Result**: 4 schema types, 99%+ coverage, eligible for multiple rich snippet types.
+
+---
+
 **End of Standard V2 Documentation**

@@ -1,0 +1,260 @@
+{
+  "session": 2,
+  "agent": 7,
+  "total_agents": 10,
+  "fixes": [
+    {
+      "source_file": "Open Guard Bottom",
+      "target_link": "Closed Guard Recovery",
+      "line_number": null,
+      "suggested_fix": "guard recovery",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Open Guard Bottom",
+      "target_link": "Single Leg X",
+      "line_number": null,
+      "suggested_fix": "single leg x guard",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Open Guard Top",
+      "target_link": "Guard Control",
+      "line_number": null,
+      "suggested_fix": "head control",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Open Guard Top",
+      "target_link": "Distance Management",
+      "line_number": null,
+      "suggested_fix": "space management",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Open Guard Top",
+      "target_link": "Submission Control",
+      "line_number": null,
+      "suggested_fix": "mission control",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Open Guard Top",
+      "target_link": "Headquarters Entry",
+      "line_number": null,
+      "suggested_fix": "headquarters control",
+      "confidence": 84.21052631578947
+    },
+    {
+      "source_file": "Open Guard Top",
+      "target_link": "Body Lock Pass Setup",
+      "line_number": null,
+      "suggested_fix": "body lock pass",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Open Guard Top",
+      "target_link": "Defensive Base",
+      "line_number": null,
+      "suggested_fix": "defensive frame",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "Open Guard Top",
+      "target_link": "Headquarters Entry",
+      "line_number": null,
+      "suggested_fix": "headquarters control",
+      "confidence": 84.21052631578947
+    },
+    {
+      "source_file": "Open Guard Top",
+      "target_link": "Headquarters Entry",
+      "line_number": null,
+      "suggested_fix": "headquarters control",
+      "confidence": 84.21052631578947
+    },
+    {
+      "source_file": "Open Guard to Deep Half",
+      "target_link": "Failed Guard Retention",
+      "line_number": null,
+      "suggested_fix": "guard retention",
+      "confidence": 81.08108108108108
+    },
+    {
+      "source_file": "Open Guard to Deep Half",
+      "target_link": "Knee Shield Half",
+      "line_number": null,
+      "suggested_fix": "knee shield half guard",
+      "confidence": 84.21052631578947
+    },
+    {
+      "source_file": "Open Guard to Deep Half",
+      "target_link": "Defensive Frames",
+      "line_number": null,
+      "suggested_fix": "defensive frame",
+      "confidence": 96.7741935483871
+    },
+    {
+      "source_file": "Open Guard to Deep Half",
+      "target_link": "Deep Half to X-Guard",
+      "line_number": null,
+      "suggested_fix": "deep half guard",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Passing Counter System",
+      "target_link": "Defensive Frames",
+      "line_number": null,
+      "suggested_fix": "defensive frame",
+      "confidence": 96.7741935483871
+    },
+    {
+      "source_file": "Passing Counter System",
+      "target_link": "X-Guard Recovery",
+      "line_number": null,
+      "suggested_fix": "guard recovery",
+      "confidence": 93.33333333333333
+    },
+    {
+      "source_file": "Passing Counter System",
+      "target_link": "Reverse De La Riva Hook",
+      "line_number": null,
+      "suggested_fix": "reverse de la riva guard",
+      "confidence": 80.85106382978722
+    },
+    {
+      "source_file": "Pendulum Sweep",
+      "target_link": "Failed Pendulum Sweep",
+      "line_number": null,
+      "suggested_fix": "pendulum sweep",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Pin Escape Methodology",
+      "target_link": "Early Frame Creation",
+      "line_number": null,
+      "suggested_fix": "frame creation",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Pin Escape Methodology",
+      "target_link": "Space Preservation",
+      "line_number": null,
+      "suggested_fix": "space generation",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Pin Escape Methodology",
+      "target_link": "Elbow-Frame Creation",
+      "line_number": null,
+      "suggested_fix": "frame creation",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Pin Escape Methodology",
+      "target_link": "Turtle Transition",
+      "line_number": null,
+      "suggested_fix": "turtle position",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Pin Escape Methodology",
+      "target_link": "Half Guard Position",
+      "line_number": null,
+      "suggested_fix": "half guard pass position",
+      "confidence": 88.37209302325581
+    },
+    {
+      "source_file": "Pin Escape Methodology",
+      "target_link": "Leg Drag Counter",
+      "line_number": null,
+      "suggested_fix": "leg drag control",
+      "confidence": 87.5
+    },
+    {
+      "source_file": "Positional Hierarchy",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Posture Recovery",
+      "target_link": "Guard Bottom",
+      "line_number": null,
+      "suggested_fix": "half guard bottom",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "Posture Recovery",
+      "target_link": "Guard Passing Position",
+      "line_number": null,
+      "suggested_fix": "half guard pass position",
+      "confidence": 82.6086956521739
+    },
+    {
+      "source_file": "Posture Up",
+      "target_link": "Standing Pass Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 87.17948717948718
+    },
+    {
+      "source_file": "Pressure Reduction",
+      "target_link": "Turtle Recovery",
+      "line_number": null,
+      "suggested_fix": "posture recovery",
+      "confidence": 83.87096774193549
+    },
+    {
+      "source_file": "Pull Guard",
+      "target_link": "Closed Guard Pull",
+      "line_number": null,
+      "suggested_fix": "closed guard top",
+      "confidence": 84.84848484848484
+    },
+    {
+      "source_file": "Pull Guard",
+      "target_link": "Open Guard Pull",
+      "line_number": null,
+      "suggested_fix": "open guard top",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "Pull Guard",
+      "target_link": "De La Riva Guard Pull",
+      "line_number": null,
+      "suggested_fix": "de la riva guard",
+      "confidence": 86.48648648648648
+    },
+    {
+      "source_file": "Pull Guard",
+      "target_link": "X-Guard Pull",
+      "line_number": null,
+      "suggested_fix": "guard pull",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Pull Guard",
+      "target_link": "Single Leg X Pull",
+      "line_number": null,
+      "suggested_fix": "single leg x guard",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Pull Guard",
+      "target_link": "Butterfly Guard Pull",
+      "line_number": null,
+      "suggested_fix": "butterfly guard",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Pull Guard",
+      "target_link": "Spider Guard Pull",
+      "line_number": null,
+      "suggested_fix": "spider guard",
+      "confidence": 82.75862068965517
+    }
+  ],
+  "fix_count": 36
+}

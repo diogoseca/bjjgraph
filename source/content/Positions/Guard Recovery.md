@@ -153,9 +153,9 @@ Visually, Guard Recovery appears as an active, energetic state where the practit
 
 ## Offensive Transitions (Available From This State)
 - [[Technical Stand-up]] → [[Standing Position]]
-- [[Turtle Transition]] → [[Turtle Position]]
+- [[Bottom Turtle]] → [[Turtle Position]]
 - [[Half Guard Recovery]] → [[Half Guard Bottom]]
-- [[Closed Guard Recovery]] → [[Closed Guard Bottom]]
+- [[Guard Recovery]] → [[Closed Guard Bottom]]
 - [[Butterfly Guard Recovery]] → [[Butterfly Guard]]
 - [[Single Leg X Entry]] → [[Single Leg X Guard]]
 - [[Inversion]] → [[Inverted Guard]]
@@ -210,13 +210,13 @@ If opponent has head control but legs are not past yours:
 - Execute [[Elbow-Knee Connection]] → [[Half Guard Recovery]]
 
 Else if opponent has established cross-face control:
-- Execute [[Frame and Shrimp]] → [[Defensive Half Guard]]
+- Execute [[Frame and Shrimp]] → [[Deep Half Guard Top]]
 
 Else if opponent is attempting to mount:
 - Execute [[Bridge and Half Guard Recovery]] → [[Half Guard Bottom]]
 
 Else if opponent is transitioning to back control:
-- Execute [[Turtle Transition]] → [[Turtle Position]]
+- Execute [[Bottom Turtle]] → [[Turtle Position]]
 
 ## Position Metrics
 - Success Rate: 60% (competition data)
@@ -227,10 +227,10 @@ Else if opponent is transitioning to back control:
 
 ## Optimal Paths
 Primary recovery path:
-[[Guard Recovery]] → [[Frame and Shrimp]] → [[Half Guard Bottom]] → [[Full Guard Recovery]] → [[Closed Guard Bottom]]
+[[Guard Recovery]] → [[Frame and Shrimp]] → [[Half Guard Bottom]] → [[Guard Recovery]] → [[Closed Guard Bottom]]
 
 Emergency recovery path:
-[[Guard Recovery]] → [[Turtle Transition]] → [[Turtle Position]] → [[Technical Stand-up]] → [[Standing Position]]
+[[Guard Recovery]] → [[Bottom Turtle]] → [[Turtle Position]] → [[Technical Stand-up]] → [[Standing Position]]
 
 Dynamic recovery path:
 [[Guard Recovery]] → [[Inversion]] → [[Leg Entanglement]] → [[Single Leg X Guard]]

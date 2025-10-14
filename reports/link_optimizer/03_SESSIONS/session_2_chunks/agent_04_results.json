@@ -1,0 +1,126 @@
+{
+  "session": 2,
+  "agent": 4,
+  "total_agents": 10,
+  "fixes_attempted": 36,
+  "fixes_completed": 33,
+  "fixes_summary": [
+    {
+      "source_file": "Leg Entanglement",
+      "broken_link": "Backside 50/50",
+      "fixed_to": "backside 50-50",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Leg Knot Position",
+      "broken_link": "Resulting Position",
+      "fixed_to": "standing position",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Leg Lock Defense Framework",
+      "broken_link": "50/50 Guard",
+      "fixed_to": "50-50 guard",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Leg Weave Pass",
+      "broken_link": "Half Guard",
+      "fixed_to": "half guard top",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Lockdown Guard",
+      "broken_link": "Dogfight Setup",
+      "fixed_to": "dogfight position",
+      "status": "fixed (2 instances)"
+    },
+    {
+      "source_file": "Lockdown Guard",
+      "broken_link": "Electric Chair Entry",
+      "fixed_to": "electric chair",
+      "status": "already lowercase, no changes needed"
+    },
+    {
+      "source_file": "Lockdown Position",
+      "broken_link": "Electric Chair Sweep",
+      "fixed_to": "electric chair",
+      "status": "fixed (14+ instances)"
+    },
+    {
+      "source_file": "Lockdown Position",
+      "broken_link": "Dog Fight Position",
+      "fixed_to": "dogfight position",
+      "status": "fixed (5 instances)"
+    },
+    {
+      "source_file": "Lockdown Position",
+      "broken_link": "Electric Chair Position",
+      "fixed_to": "electric chair submission",
+      "status": "fixed (7 instances)"
+    },
+    {
+      "source_file": "Lockdown Position",
+      "broken_link": "Side Control Top",
+      "fixed_to": "side control",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Loop Choke",
+      "broken_link": "Space Maintenance",
+      "fixed_to": "base maintenance",
+      "status": "no changes needed (not found in content)"
+    },
+    {
+      "source_file": "Loop Choke",
+      "broken_link": "Resulting Position",
+      "fixed_to": "standing position",
+      "status": "no changes needed (not found in content)"
+    },
+    {
+      "source_file": "Lumberjack Sweep",
+      "broken_link": "Failed Lumberjack Sweep",
+      "fixed_to": "lumberjack sweep",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Mission Control",
+      "broken_link": "Posture Establishment",
+      "fixed_to": "guard establishment",
+      "status": "no changes needed (already correct)"
+    },
+    {
+      "source_file": "Mission Control",
+      "broken_link": "Secure Gogoplata Setup",
+      "fixed_to": "gogoplata setup",
+      "status": "no changes needed (already correct)"
+    },
+    {
+      "source_file": "Mission Control",
+      "broken_link": "Mission Control Sweep",
+      "fixed_to": "mission control",
+      "status": "no changes needed (already correct)"
+    },
+    {
+      "source_file": "Modern Leg Lock Meta",
+      "broken_link": "50/50 Guard",
+      "fixed_to": "50-50 guard",
+      "status": "fixed (2 instances)"
+    },
+    {
+      "source_file": "Modern Leg Lock Meta",
+      "broken_link": "Grip Reestablishment",
+      "fixed_to": "guard establishment",
+      "status": "fixed"
+    }
+  ],
+  "notes": [
+    "Most Electric Chair and Dogfight Position links have been standardized to lowercase",
+    "50/50 Guard variations have been corrected to '50-50 guard' format",
+    "Lockdown Position file had the most fixes required (20+ instances)",
+    "Some links were already correct and required no changes",
+    "A few coaching cue instances couldn't be found in the exact format specified"
+  ],
+  "completion_time": "2025-01-13",
+  "agent_status": "completed"
+}

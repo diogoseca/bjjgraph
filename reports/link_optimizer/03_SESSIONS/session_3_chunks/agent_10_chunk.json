@@ -1,0 +1,92 @@
+{
+  "session": 3,
+  "agent": 10,
+  "total_agents": 10,
+  "fixes": [
+    {
+      "source_file": "Williams Guard",
+      "target_link": "Dead Orchard Entry",
+      "line_number": null,
+      "suggested_fix": "dead orchard control",
+      "confidence": 84.21052631578947
+    },
+    {
+      "source_file": "Williams Shoulder Lock",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Williams Shoulder Lock",
+      "target_link": "Failed Williams Shoulder Lock",
+      "line_number": null,
+      "suggested_fix": "williams shoulder lock",
+      "confidence": 86.27450980392157
+    },
+    {
+      "source_file": "Williams Shoulder Lock",
+      "target_link": "Failed Williams Shoulder Lock",
+      "line_number": null,
+      "suggested_fix": "williams shoulder lock",
+      "confidence": 86.27450980392157
+    },
+    {
+      "source_file": "Williams Shoulder Lock",
+      "target_link": "Failed Williams Shoulder Lock",
+      "line_number": null,
+      "suggested_fix": "williams shoulder lock",
+      "confidence": 86.27450980392157
+    },
+    {
+      "source_file": "Won by Submission",
+      "target_link": "Submission Chain",
+      "line_number": null,
+      "suggested_fix": "submission chains",
+      "confidence": 96.96969696969697
+    },
+    {
+      "source_file": "X-Guard",
+      "target_link": "Grip Fight",
+      "line_number": null,
+      "suggested_fix": "grip fighting",
+      "confidence": 86.95652173913044
+    },
+    {
+      "source_file": "X-Guard",
+      "target_link": "Standing Pass",
+      "line_number": null,
+      "suggested_fix": "standing up",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "X-Guard",
+      "target_link": "Technical Stand-up Sweep",
+      "line_number": null,
+      "suggested_fix": "technical stand-up",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "X-Guard",
+      "target_link": "X-Guard Recovery",
+      "line_number": null,
+      "suggested_fix": "guard recovery",
+      "confidence": 93.33333333333333
+    },
+    {
+      "source_file": "X-Guard",
+      "target_link": "Technical Stand-up Sweep",
+      "line_number": null,
+      "suggested_fix": "technical stand-up",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "X-Guard",
+      "target_link": "Technical Stand-up Sweep",
+      "line_number": null,
+      "suggested_fix": "technical stand-up",
+      "confidence": 85.71428571428571
+    }
+  ],
+  "fix_count": 12
+}

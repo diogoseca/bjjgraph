@@ -33,7 +33,7 @@ schema_tools:
   - "Training partner"
   - "Mat space"
 tags: ["bjj", "transition", "grip_fighting", "fundamental", "defensive", "counter"]
-related_positions: ["Standing", "Closed Guard Bottom", "Guard Top"]
+related_positions: ["Standing Up", "Closed Guard Bottom", "Guard Top"]
 related_techniques: ["Frame", "Hand Fighting", "Posture Control"]
 ---
 
@@ -395,7 +395,7 @@ Grip fighting has been fundamental to grappling arts throughout history, from an
 
 **Common combinations and sequences:**
 - [[Closed Guard Bottom]] → [[Grip Break]] → [[Posture Control]]
-- [[Standing]] → [[Grip Break]] → [[Distance Control]]
+- [[Standing Up]] → [[Grip Break]] → [[D'arce Control]]
 - [[Guard Top]] → [[Grip Break]] → [[Guard Pass]]
 - [[Various Positions]] → [[Grip Break]] → [[Frame Establishment]]
 
@@ -404,4 +404,4 @@ Grip fighting has been fundamental to grappling arts throughout history, from an
 - [[Frame]] - Often combined with grip breaks to establish control
 - [[Posture Control]] - Goal after breaking grips from guard
 - [[Hand Fighting]] - Broader category that includes grip breaking
-- [[Distance Management]] - Follow-up after successful grip break
+- [[Space Management]] - Follow-up after successful grip break

@@ -156,6 +156,7 @@ You are positioned with specific body mechanics that define Guard Recovery. Your
 - **Transition Flow Drill**: Practice transitioning between related positions smoothly. 10 repetitions per transition path.
 
 ## Related Positions
+- [[Guard Retention]]
 - [[Guard Position]] - Related foundational position
 - [[Side Control]] - Common transition target
 - [[Mount]] - Advanced position progression

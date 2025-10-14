@@ -57,7 +57,7 @@ description: "From a dominant position like Side Control or during a deceptive s
 - **Alternative Names**: Cross-Collar Strangle, Bat Grip Choke
 
 ### State Machine Properties
-- **Starting State**: [[Side Control]] (primary) or [[Knee Shield Half Guard]]
+- **Starting State**: [[Side Control Top]], [[Side Control]] (primary) or [[Knee Shield Half Guard]]
 - **Ending State**: [[Won by Submission]]
 - **Submission Type**: Choke - Blood choke via carotid artery compression
 
@@ -164,7 +164,7 @@ Opponent responses with success rates:
 - **Collar Grip Break**: Hand fighting to release grips → [[Hand Fighting]] (Success Rate: 30%, Conditions: strong grip defense)
 - **Turn Toward Choke**: Rotating body to relieve pressure → [[Defensive Posture]] (Success Rate: 25%, Conditions: mobility available)
 - **Hip Escape**: Shrimping to change position → [[Position Change]] (Success Rate: 20%, Conditions: significant space)
-- **Prevent Second Grip**: Blocking second hand placement → [[Submission Prevention]] (Success Rate: 15%, Conditions: quick anticipation)
+- **Prevent Second Grip**: Blocking second hand placement → [[Submission Position]] (Success Rate: 15%, Conditions: quick anticipation)
 
 Format: `[[Counter Technique]] → [[Result State]] (Success Rate: X%, Conditions: [when applicable])`
 
@@ -191,7 +191,7 @@ Else [optimal submission execution]:
 ### Common Threats During Attempt
 Primary risks while attempting this submission:
 - **Grip Break**: Opponent breaks collar grips → [[Hand Fighting]] (Threat Level: Medium)
-- **Position Loss**: Opponent escapes position during setup → [[Position Change]] (Threat Level: Low)
+- **Position Loss**: Opponent escapes position during setup → [[Standing Position]] (Threat Level: Low)
 - **Counter Attack**: Opponent uses framing to initiate sweep → [[Sweep Attempt]] (Threat Level: Low)
 - **Stalemate**: Opponent tucks chin to stall choke → [[Defensive Posture]] (Threat Level: Medium)
 
@@ -365,8 +365,8 @@ The Baseball Bat Choke has been a staple in Brazilian Jiu-Jitsu for decades, gai
 **Common Baseball Bat Choke combinations:**
 - [[Side Control]] → [[Baseball Bat Choke]] → [[Won by Submission]]
 - [[Knee Shield Half Guard]] → [[Baseball Bat Choke]] → [[Won by Submission]]
-- [[Failed Baseball Bat Choke]] → [[Ezekiel Choke]] → [[Won by Submission]]
-- [[Failed Baseball Bat Choke]] → [[Transition to Mount]] → [[Mounted Position]]
+- [[Baseball Bat Choke]] → [[Ezekiel Choke]] → [[Won by Submission]]
+- [[Baseball Bat Choke]] → [[Transition to Mount]] → [[S-Mount Position]]
 
 ## Training Applications
 - **Gi Specialization**: Essential for gi competitors focusing on chokes

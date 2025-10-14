@@ -143,7 +143,7 @@ You are on your back with your legs locked around your opponent in closed guard,
 - Connection between practitioner's leg and upper body
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Posture and Stack]] → [[Standing Guard Break]]
+- [[Posture and Stack]] → [[Standing Guard]]
 - [[Arm Frame and Push]] → [[Break Connection]]
 - [[Forward Pressure]] → [[Flatten Guard]]
 - [[Hip Elevation]] → [[Base Reestablishment]]
@@ -154,7 +154,7 @@ You are on your back with your legs locked around your opponent in closed guard,
 - [[New York to Williams]] → [[Williams Guard]]
 - [[Rubber Guard to Omoplata]] → [[Omoplata Control]]
 - [[Gogoplata Setup]] → [[Gogoplata Control]]
-- [[Dead Orchard Entry]] → [[Dead Orchard Control]]
+- [[Dead Orchard Control]] → [[Dead Orchard Control]]
 - [[Triangle from Rubber Guard]] → [[Triangle Control]]
 - [[Meathook Entry]] → [[Meathook Control]]
 - [[Transition to Closed Guard]] → [[Closed Guard Bottom]]
@@ -210,7 +210,7 @@ Else if opponent attempts to stack:
 - Execute [[New York to Williams]] or [[Triangle from Rubber Guard]]
 
 Else if opponent pushes arm through:
-- Execute [[Dead Orchard Entry]] or [[Meathook Entry]]
+- Execute [[Dead Orchard Control]] or [[Meathook Entry]]
 
 ## Position Metrics
 - Success Rate: 60% control effectiveness (competition data)

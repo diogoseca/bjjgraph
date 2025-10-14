@@ -58,8 +58,8 @@ description: "From a top control position like side control, you start by pinnin
 
 ### State Machine Properties
 - **Submission Type**: Joint Lock - shoulder lock
-- **Starting Position**: [[Side Control]], [[Top Half Guard]]
-- **Ending State**: Opponent taps or suffers shoulder injury
+- **Starting Position**: [[Side Control]], [[Side Control Top]], [[Top Half Guard]]
+- **Ending State**: [[Won by Submission]] (Opponent taps or suffers shoulder injury)
 - **Target Area**: Shoulder joint and rotator cuff
 - **Submission Path**: Top control to submission finish
 

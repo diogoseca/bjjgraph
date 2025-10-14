@@ -1,0 +1,183 @@
+{
+  "session": 2,
+  "agent": 6,
+  "total_fixes_attempted": 36,
+  "fixes_completed": 0,
+  "fixes_skipped": 36,
+  "summary": "Processed 36 link fixes from session 2 agent 6. All 36 fixes were skipped as the broken links no longer exist in the files. This indicates these links were either already fixed in previous cleanup sessions, were template text incorrectly identified as broken links, or the content has been updated since the broken link analysis was performed.",
+  "completed_fixes": [],
+  "skipped_fixes": [
+    {
+      "source_file": "No-Gi Tactical Framework",
+      "broken_link": "Front Headlock Entry",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "No-Gi Tactical Framework",
+      "broken_link": "Inside Sankaku Entry",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "North-South",
+      "broken_link": "Turtle Transition",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "North-South Choke",
+      "broken_link": "Resulting Position",
+      "reason": "Template format text, not actual broken link",
+      "status": "template_text"
+    },
+    {
+      "source_file": "North-South Choke",
+      "broken_link": "Failed North-South Choke",
+      "reason": "Link not found in file (3 instances)",
+      "status": "not_found"
+    },
+    {
+      "source_file": "North-South Transition",
+      "broken_link": "Bridge and Turn",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "North-South Transition",
+      "broken_link": "North-South Kimura",
+      "reason": "Link not found in file (3 instances)",
+      "status": "not_found"
+    },
+    {
+      "source_file": "North-South Transition",
+      "broken_link": "Submission Chain",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "North-South to Kimura",
+      "broken_link": "North-South Control",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "North-South to Kimura",
+      "broken_link": "Failed North-South Choke",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "North-South to Kimura",
+      "broken_link": "Sprawl Position",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "North-South to Kimura",
+      "broken_link": "Cross-Face Control",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "North-South to Kimura",
+      "broken_link": "Near-Side Armbar",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "Old School Sweep",
+      "broken_link": "Closed Guard",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "Omoplata",
+      "broken_link": "Guard Bottom",
+      "reason": "Link not found in file (2 instances)",
+      "status": "not_found"
+    },
+    {
+      "source_file": "Omoplata Control",
+      "broken_link": "Gomoplata Control",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "Omoplata Control",
+      "broken_link": "Omoplata to Back Control",
+      "reason": "Link not found in file (3 instances)",
+      "status": "not_found"
+    },
+    {
+      "source_file": "Omoplata Control",
+      "broken_link": "Omoplata to Side Control",
+      "reason": "Link not found in file (2 instances)",
+      "status": "not_found"
+    },
+    {
+      "source_file": "Omoplata Sweep",
+      "broken_link": "Submission Control",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "Omoplata Sweep",
+      "broken_link": "Failed Omoplata Sweep",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "Open Guard",
+      "broken_link": "Closed Guard Recovery",
+      "reason": "Link not found in file (2 instances)",
+      "status": "not_found"
+    },
+    {
+      "source_file": "Open Guard",
+      "broken_link": "Spider Guard Sweep",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "Open Guard",
+      "broken_link": "Submission Chain",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "Open Guard Bottom",
+      "broken_link": "Leg Drag Entry",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "Open Guard Bottom",
+      "broken_link": "Stack Passing",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "Open Guard Bottom",
+      "broken_link": "Standing Guard Break",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    },
+    {
+      "source_file": "Open Guard Bottom",
+      "broken_link": "Side Control Top",
+      "reason": "Link not found in file",
+      "status": "not_found"
+    }
+  ],
+  "files_modified": [],
+  "validation_notes": [
+    "All 36 broken links from this chunk were not found in current files",
+    "This suggests extensive prior cleanup has already occurred",
+    "Many files may have been restructured or updated since original analysis",
+    "Template format text was incorrectly flagged as broken links",
+    "Recommend re-running broken link detection on current codebase for accurate results"
+  ],
+  "completion_time": "2025-10-14",
+  "agent_efficiency": "0%"
+}

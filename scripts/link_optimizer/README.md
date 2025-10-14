@@ -62,7 +62,7 @@ python3 scripts/link_optimizer/link_optimizer_cli.py --mode full --verbose
 
 - Python 3.8+
 - NetworkX
-- Claude CLI (`/Users/diogo/anaconda3/bin/claude`)
+- Claude CLI
 - asyncio, tqdm
 
 ## Configuration

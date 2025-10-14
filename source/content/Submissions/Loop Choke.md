@@ -46,5 +46,8 @@ Single-handed collar choke from guard using opponent's own shoulder to compress 
 
 ## Related Techniques
 - [[Closed Guard Bottom]]
-- [[Loop Choke from Mount]]
+- [[Mount]]
 - [[Cross Collar Choke]]
+
+## Position Integration
+- [[Closed Guard Bottom]] → [[Loop Choke]] → [[Won by Submission]]

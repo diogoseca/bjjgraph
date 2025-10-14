@@ -143,7 +143,7 @@ The Headquarters Position (HQ) is a fundamental guard passing control position w
 - [[Inversion]] → [[Inverted Guard]]
 - [[Shin-to-Shin Counter]] → [[Shin-to-Shin Guard]]
 - [[Underhook Drive]] → [[Half Guard Bottom]]
-- [[Leg Entanglement Entry]] → [[Single Leg X Guard]]
+- [[leg entanglement]] → [[Single Leg X Guard]]
 
 ## Offensive Transitions (Available From This State)
 - [[Knee Cut Pass]] → [[Side Control]]

@@ -192,19 +192,19 @@ You are on your back in a bottom half guard position, with your legs forming a t
 ## Defensive Responses (When Opponent Has This State)
 - [[Posture and Base]] → [[Base Maintenance]] (Success Rate: 30%)
 - [[Whizzer Control]] → [[Whizzer Defense]] (Success Rate: 25%)
-- [[Free Trapped Leg]] → [[Half Guard Pass]] (Success Rate: 20%)
+- [[Free Trapped Leg]] → [[Half Guard Top]] (Success Rate: 20%)
 - [[Combat Base Recovery]] → [[Combat Base]] (Success Rate: 15%)
 - [[Forward Pressure]] → [[Flattening Pressure]] (Success Rate: 10%)
 
 ## Offensive Transitions (Available From This State)
 - [[Electric Chair Submission]] → [[Won by Submission]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
-- [[Electric Chair Sweep]] → [[Top Position]] (Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%)
+- [[Electric Chair]] → [[Top Position]] (Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%)
 - [[Vaporizer Entry]] → [[Vaporizer Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
 - [[Transition to Truck]] → [[Truck Position]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
 - [[Dogfight Entry]] → [[Dogfight Position]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
 - [[Switch to Honey Hole]] → [[Inside Sankaku]] (Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%)
 - [[Clamp to Lockdown Sweep]] → [[Top Position]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
-- [[Old School Sweep Combo]] → [[Top Position]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
+- [[Old School Sweep]] → [[Top Position]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
 
 ## Counter Transitions
 - [[Re-establish Electric Chair]] → [[Electric Chair]] (against escapes)
@@ -258,7 +258,7 @@ You are on your back in a bottom half guard position, with your legs forming a t
 
 ## Decision Tree
 If opponent posts strongly with hands:
-- Execute [[Electric Chair Sweep]] → [[Top Position]] (Probability: 55%)
+- Execute [[Electric Chair]] → [[Top Position]] (Probability: 55%)
 - Or Execute [[Clamp to Lockdown Sweep]] → [[Top Position]] (Probability: 45%)
 
 Else if opponent drives forward with pressure:
@@ -271,7 +271,7 @@ Else if opponent attempts to free trapped leg:
 
 Else if opponent elevates for guard pass:
 - Execute [[Dogfight Entry]] → [[Dogfight Position]] (Probability: 35%)
-- Or Execute [[Old School Sweep Combo]] → [[Top Position]] (Probability: 40%)
+- Or Execute [[Old School Sweep]] → [[Top Position]] (Probability: 40%)
 
 ## Position Metrics
 - **Position Retention Rate**: Beginner 55%, Intermediate 70%, Advanced 80%
@@ -286,7 +286,7 @@ Submission path:
 [[Electric Chair]] → [[Electric Chair Submission]] → [[Won by Submission]]
 
 Sweep path:
-[[Electric Chair]] → [[Electric Chair Sweep]] → [[Top Position]] → [[Side Control]] → dominant position sequence
+[[Electric Chair]] → [[Electric Chair]] → [[Top Position]] → [[Side Control]] → dominant position sequence
 
 Specialized path:
 [[Electric Chair]] → [[Transition to Truck]] → [[Truck Position]] → [[Twister Control]] → [[Twister Finish]] → [[Won by Submission]]

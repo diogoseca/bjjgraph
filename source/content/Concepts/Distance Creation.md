@@ -70,6 +70,7 @@ Distance Creation represents the fundamental strategic principle of generating a
 - **Distance Recovery** - Rapidly recreating separation when opponent successfully closes gaps
 
 ## Concept Relationships
+- **[[Frame Creation]]** - Frames are primary technical tool for creating and maintaining distance
 - **[[Defensive Frame]]** - Frames are primary technical tool for creating and maintaining distance
 - **[[Space Management]]** - Distance creation is fundamental space management strategy in defensive contexts
 - **[[Defensive Framing]]** - Framing technique is tactical implementation of distance creation principles

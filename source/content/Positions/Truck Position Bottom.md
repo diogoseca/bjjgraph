@@ -258,6 +258,7 @@ You are on your side in a tightly entangled position with your opponent behind a
 - [[Crab Ride Bottom]] - Related position
 - [[Turtle Position]] - Entry point
 - [[Half Guard Bottom]] - Potential escape target
+- [[Back Control]]
 
 ## Decision Tree
 **If** opponent attacking twister (hand to far shoulder):

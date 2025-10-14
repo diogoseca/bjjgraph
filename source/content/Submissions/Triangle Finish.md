@@ -154,7 +154,7 @@ Factors that increase/decrease probability:
 Opponent responses with success rates:
 - **Posture Defense**: Maintaining strong posture to avoid choke → [[Triangle Escape Position]] (Success Rate: 25%, Conditions: early reaction)
 - **Stack Counter**: Stacking to disrupt angle and pressure → [[Position Reset]] (Success Rate: 20%, Conditions: strong base)
-- **Defensive Arm Position**: Positioning arm to block choke → [[Triangle Stall]] (Success Rate: 15%, Conditions: quick adjustment)
+- **Defensive Position**: Positioning arm to block choke → [[Triangle Stall]] (Success Rate: 15%, Conditions: quick adjustment)
 - **Roll Through**: Rolling to escape triangle frame → [[Guard Pass]] (Success Rate: 10%, Conditions: significant leverage)
 - **Hip Escape**: Escaping hips to reduce pressure → [[Pressure Reduction]] (Success Rate: 10%, Conditions: quick movement)
 
@@ -169,7 +169,7 @@ Else if [stack counter] can disrupt angle:
 - Execute [[Stack Counter]] (Probability: 20%)
 
 Else if [defensive arm position] blocks choke:
-- Execute [[Defensive Arm Position]] (Probability: 15%)
+- Execute [[Defensive Position]] (Probability: 15%)
 
 Else if [roll through] escapes frame:
 - Execute [[Roll Through]] (Probability: 10%)
@@ -262,3 +262,8 @@ Skill development pathway:
 - **Control Drilling**: Work with partner on head and arm control
 - **Pressure Integration**: Add hip lift and leg squeeze for carotid compression
 - **Positioning Practice**: Incorporate angle adjustments to counter defense
+
+## Related Positions
+- [[Closed Guard Bottom]] - Primary position for triangle finishes from guard
+- [[Triangle Control]] - Setup position required before finishing
+- [[Open Guard Bottom]] - Alternative starting position for triangle entries

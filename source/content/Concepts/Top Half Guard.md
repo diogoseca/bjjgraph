@@ -75,6 +75,9 @@ Top Half Guard represents the conceptual framework for controlling, neutralizing
 - **Passing Sequencing** - Chaining techniques based on opponent's defensive responses
 - **Defensive Awareness** - Recognizing and countering common offensive threats from half guard
 
+## Related Positions
+- **[[Half Guard Bottom]]** - Direct counterpart position showing bottom perspective of same position
+
 ## Application Contexts
 - **Standard Half Guard** - Basic application against traditional half guard
 - **Knee Shield Configurations** - Adapted principles for dealing with frame-heavy variations

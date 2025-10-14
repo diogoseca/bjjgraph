@@ -137,7 +137,7 @@ The Half Guard to Back Take transition represents a sophisticated positional adv
 
 ## Common Counters
 - [[Half Guard Recovery]] → [[Half Guard Bottom]]
-- [[Knee Shield Insertion]] → [[Knee Shield Half Guard]]
+- [[knee shield retention]] → [[Knee Shield Half Guard]]
 - [[Defensive Granby]] → [[Inverted Guard]]
 - [[Turn-in Escape]] → [[Turtle Position]]
 - [[Bridge and Inversion]] → [[Leg Entanglement]]
@@ -166,7 +166,7 @@ The Half Guard to Back Take transition represents a sophisticated positional adv
 - Execute following a submission threat that divides attention
 
 ## Setup Connections
-- [[Flatten Half Guard]] → [[Half Guard to Back Take]]
+- [[flattened half guard]] → [[Half Guard to Back Take]]
 - [[Kimura Threat from Half]] → [[Half Guard to Back Take]]
 - [[Half Guard Knee Cut Attempt]] → [[Half Guard to Back Take]]
 - [[Crossface Pressure]] → [[Half Guard to Back Take]]
@@ -175,9 +175,9 @@ The Half Guard to Back Take transition represents a sophisticated positional adv
 ## Follow-up Options
 - [[Rear Naked Choke]] → [[Won by Submission]]
 - [[Bow and Arrow Choke]] → [[Won by Submission]]
-- [[Back Triangle]] → [[Triangle Control]]
+- [[arm triangle]] → [[Triangle Control]]
 - [[Armbar from Back]] → [[Armbar Control]]
-- [[Crucifix Transition]] → [[Crucifix Position]]
+- [[crucifix position]] → [[Crucifix Position]]
 - [[Back to Mount Transition]] → [[Mount]]
 
 ## Common Errors

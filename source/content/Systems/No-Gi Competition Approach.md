@@ -54,6 +54,8 @@
 ## Framework Description
 The No-Gi Competition Approach provides a strategic framework for optimizing performance in submission grappling contests without the gi. This system addresses the unique dynamics of no-gi competition, including increased movement speed, different control mechanics, and ruleset variations across organizations like ADCC, NAGA, and various submission-only formats. Unlike gi-based competition where grips provide stable control points, no-gi requires adaptive control systems and strategic positioning that accounts for the heightened slipperiness and mobility of opponents. This framework integrates positional control without cloth grips, explosive transition management, and submission chain development specifically optimized for no-gi scenarios. Success in no-gi competition requires understanding both the technical modifications necessary without gi grips and the meta-strategic considerations of various no-gi rulesets, making this framework essential for competitors transitioning between gi and no-gi or specializing in no-gi formats.
 
+Key high-value positions in no-gi competition include [[Back Control]], which offers both dominant positioning and high submission potential.
+
 ## Core Principles
 - Control through connection points rather than fixed grips
 - Dynamic transition chains rather than static position maintenance
@@ -98,13 +100,13 @@ The No-Gi Competition Approach provides a strategic framework for optimizing per
 
 ## Technical Focus Areas
 - [[Underhook Control]] - Primary connection point replacing many gi-grip functions
-- [[Inside Position]] - Fundamental concept for controlling space in the absence of gi grips
-- [[Head Position]] - Critical control element for limiting mobility in key positions
+- [[Saddle Position]] - Fundamental concept for controlling space in the absence of gi grips
+- [[Head Control]] - Critical control element for limiting mobility in key positions
 - [[Body Lock Control]] - Stable control system effective without gi grips
 - [[Front Headlock]] - High-value position with multiple submission branches in no-gi
 - [[Leg Entanglement]] - Strategic position family with heightened effectiveness in no-gi
 - [[Modified Guard Retention]] - Adapted techniques accounting for reduced friction
-- [[Connection Maintenance]] - Conceptual framework for maintaining control through transitions
+- [[Control Maintenance]] - Conceptual framework for maintaining control through transitions
 
 ## Strategic Adaptations
 - **Against superior wrestlers** → Focus on defensive wrestling and guard pulling to neutralize takedown advantage

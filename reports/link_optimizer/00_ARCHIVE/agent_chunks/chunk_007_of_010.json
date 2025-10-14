@@ -1,0 +1,216 @@
+{
+  "chunk_metadata": {
+    "chunk_number": 7,
+    "total_chunks": 10,
+    "start_index": 126,
+    "end_index": 146,
+    "count": 21,
+    "confidence_filter": "\u226595%"
+  },
+  "suggestions": [
+    {
+      "source_file": "Omoplata from Guard",
+      "target_file": "Triangle Control",
+      "confidence": 95.0,
+      "reason": "Omoplata and triangle are part of the classic triangle-armbar-omoplata chain from guard, sharing similar mechanics and entry positions.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Armbar Finish",
+      "target_file": "Mount",
+      "confidence": 95.0,
+      "reason": "Mount is one of the most common positions to set up and finish armbars from, directly relevant to armbar execution.",
+      "suggested_section": "Starting Positions",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Armbar from Side Control",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "The source page explicitly states starting position is 'Side Control Top (S008)' making this the required prerequisite position.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "submission-to-starting-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Omoplata",
+      "target_file": "Closed Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Omoplata is most commonly executed from closed guard bottom, making this a primary starting position link",
+      "suggested_section": "Starting State",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Modern Leg Lock Meta",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Modern Leg Lock Meta focuses on submission strategies and systems, making the terminal submission state directly relevant as the goal of these leg lock sequences.",
+      "suggested_section": "Framework Properties or Introduction",
+      "relationship_type": "framework-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Triangle Choke Back",
+      "target_file": "Rear Naked Choke",
+      "confidence": 95.0,
+      "reason": "Triangle Choke Back and Rear Naked Choke are both primary attacks from back control position and often used in combination when one is defended.",
+      "suggested_section": "Related Submissions",
+      "relationship_type": "submission-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Outside Heel Hook",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Outside Heel Hook is a terminal submission that leads directly to Won by Submission state when successfully applied",
+      "suggested_section": "Submission Finish",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Crucifix Submissions",
+      "target_file": "Rear Naked Choke",
+      "confidence": 95.0,
+      "reason": "Rear naked choke is a primary crucifix submission and shares the same back attack context with verbal tap requirements.",
+      "suggested_section": "Related Submissions",
+      "relationship_type": "submission-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Toe Hold",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Toe Hold is a terminal state that ends in submission, making this the natural endpoint relationship.",
+      "suggested_section": "Ending State",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Brabo Choke",
+      "target_file": "Front Headlock",
+      "confidence": 95.0,
+      "reason": "Front Headlock is the primary starting position for the Brabo Choke setup and should be linked as a prerequisite position.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Leg Lock Defense Framework",
+      "target_file": "Saddle Position",
+      "confidence": 95.0,
+      "reason": "Saddle (honey hole) is the most dangerous leg lock position requiring specific defensive protocols covered in this framework.",
+      "suggested_section": "Target Threats",
+      "relationship_type": "defense-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Peruvian Necktie",
+      "target_file": "Turtle Position",
+      "confidence": 95.0,
+      "reason": "Peruvian Necktie is executed specifically from turtle top position, making this the primary setup position.",
+      "suggested_section": "Overview",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Estima Lock",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Estima Lock is a terminal submission that leads directly to Won by Submission state when successfully completed.",
+      "suggested_section": "Submission Completion",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Armbar from Back",
+      "target_file": "Armbar Control",
+      "confidence": 95.0,
+      "reason": "Armbar Control is the finishing position for the Armbar from Back submission and represents the control phase before applying the joint lock.",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Twister Finish",
+      "target_file": "Truck Position",
+      "confidence": 95.0,
+      "reason": "Twister Finish is executed from Truck Position, which is the prerequisite setup position for achieving Twister Control.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Guillotine Choke",
+      "target_file": "Front Headlock",
+      "confidence": 95.0,
+      "reason": "Guillotine choke is commonly applied from the front headlock position, making this a direct positional prerequisite.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Americana from Side Control",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "The Americana from Side Control requires Side Control Top (S033) as the starting position, making this the fundamental prerequisite position.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Arm Triangle",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Arm Triangle is most commonly set up from side control, making this a primary starting position.",
+      "suggested_section": "Starting State",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Triangle from Back",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Triangle from Back is a finishing submission that leads to this terminal state when successful",
+      "suggested_section": "Overview",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Far Side Armbar",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Far Side Armbar is explicitly listed as starting from Side Control, making this a direct position-to-submission relationship.",
+      "suggested_section": "Starting State",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Kneebar from 50-50",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Kneebar from 50/50 is a finishing technique that leads directly to this terminal state upon successful completion.",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "submission-to-terminal-state",
+      "existing_link": false
+    }
+  ],
+  "instructions": {
+    "task": "Apply these wikilink suggestions to markdown files",
+    "validation": [
+      "Check if wikilink already exists",
+      "Verify target file exists",
+      "Add to specified section only",
+      "Maintain markdown formatting"
+    ],
+    "reporting": [
+      "Track: applied, skipped_exists, skipped_no_target, error",
+      "Report file paths modified",
+      "Report line numbers where links added",
+      "Report any errors encountered"
+    ]
+  }
+}

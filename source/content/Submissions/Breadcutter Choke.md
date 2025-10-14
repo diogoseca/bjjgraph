@@ -97,7 +97,7 @@ version: "2.0"
 **Purpose**: Breadcutter Choke (Kata Ha Jime) is a gi-specific blood choke from side control. Terminal state resulting in unconsciousness if held beyond tap. Safety paramount - renders opponent unconscious in 4-8 seconds.
 
 **Setup Requirements Checklist**:
-- [ ] Starting position: [[Side Control]] (S005) consolidated
+- [ ] Starting position: [[Side Control]] (S005), [[Side Control Top]] consolidated
 - [ ] Position control quality: Crossface established, hip pressure maintained
 - [ ] Required grips: Deep collar grip, forearm across face/neck
 - [ ] Angle optimization: Chest driving perpendicular to opponent

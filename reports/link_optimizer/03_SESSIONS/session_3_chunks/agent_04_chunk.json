@@ -1,0 +1,92 @@
+{
+  "session": 3,
+  "agent": 4,
+  "total_agents": 10,
+  "fixes": [
+    {
+      "source_file": "Submission Chains",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Submission Defense Principles",
+      "target_link": "Defensive Structure",
+      "line_number": null,
+      "suggested_fix": "defensive posture",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Submission Position",
+      "target_link": "Secure Position",
+      "line_number": null,
+      "suggested_fix": "scramble position",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Submission Position",
+      "target_link": "Transition to Control",
+      "line_number": null,
+      "suggested_fix": "transition to mount",
+      "confidence": 85.0
+    },
+    {
+      "source_file": "Submission-Focused Strategy",
+      "target_link": "Energy Management",
+      "line_number": null,
+      "suggested_fix": "energy management system",
+      "confidence": 82.92682926829268
+    },
+    {
+      "source_file": "Switch to Triangle",
+      "target_link": "Hand Fight",
+      "line_number": null,
+      "suggested_fix": "hand fighting",
+      "confidence": 86.95652173913044
+    },
+    {
+      "source_file": "Switch to Triangle",
+      "target_link": "Hand Fight",
+      "line_number": null,
+      "suggested_fix": "hand fighting",
+      "confidence": 86.95652173913044
+    },
+    {
+      "source_file": "Switch to Triangle",
+      "target_link": "Triangle to Back",
+      "line_number": null,
+      "suggested_fix": "triangle choke back",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Takedown Entry",
+      "target_link": "Distance Control",
+      "line_number": null,
+      "suggested_fix": "d'arce control",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Takedown Entry",
+      "target_link": "Range Management",
+      "line_number": null,
+      "suggested_fix": "space management",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Takedown Entry",
+      "target_link": "Angle Negation",
+      "line_number": null,
+      "suggested_fix": "angle creation",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Takedown Entry",
+      "target_link": "Energy Management",
+      "line_number": null,
+      "suggested_fix": "energy management system",
+      "confidence": 82.92682926829268
+    }
+  ],
+  "fix_count": 12
+}

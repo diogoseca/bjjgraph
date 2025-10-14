@@ -79,7 +79,7 @@ graph TD
    - Control pace through strategic positional transitions
 
 #### Position Hierarchy (Point Value)
-- Back Control (4 points) - Target position when ahead
+- [[Back Control]] (4 points) - Critical high-scoring position for competition strategy, worth 4 points and offering high submission probability
 - Mount (4 points) - Secondary target position
 - Side Control (3 points via guard pass) - Transitional position
 - Guard Top after Sweep (2 points) - Initial advantage position
@@ -97,7 +97,7 @@ graph TD
     C -->|Transition| D[Inside Sankaku]
     D -->|Inside Heel Hook| E[Submission Victory]
     
-    A -->|Collar Tie| F[Front Headlock]
+    A -->|Collar Tie| F[Front Headlock Series]
     F -->|Guillotine Control| G[Submission Victory]
     
     A -->|Takedown| H[Side Control]
@@ -137,7 +137,7 @@ If opponent has superior wrestling/judo credentials:
 Else if you have superior takedown skills:
     Execute [[Double Leg Takedown]] or [[Single Leg Takedown]]
 Else if opponent is aggressive forward mover:
-    Execute [[Front Headlock Entry]] or [[Collar Drag]]
+    Execute [[Front Headlock Series]] or [[Collar Drag]]
 Else (neutral initial engagement):
     Execute your highest-percentage initial movement
 ```
@@ -169,7 +169,7 @@ Else if trailing by 8+ points:
 ### IBJJF/UAEJJF Rules
 - Prioritize legal submission pathways based on belt level
 - White/Blue belt: Focus on [[Closed Guard Bottom]] → [[Triangle Control]] pathway
-- Purple and above: Incorporate [[Single Leg X]] but avoid heel hook transitions
+- Purple and above: Incorporate [[Single Leg X Guard]] but avoid heel hook transitions
 - Maintain awareness of advantage-scoring movements for tiebreakers
 
 ### ADCC Rules

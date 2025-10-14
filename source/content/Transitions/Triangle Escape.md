@@ -44,7 +44,7 @@ From triangle control bottom where your opponent has locked the triangle around 
 
 ## Execution Steps
 
-1. **Setup Requirements**: Recognize triangle lock immediately; establish both hands posted on mat beside opponent's hips; maintain base to prevent further tightening of triangle
+1. **Setup Requirements**: Recognize [[Triangle Control]] lock immediately; establish both hands posted on mat beside opponent's hips; maintain base to prevent further tightening of triangle
 
 2. **Initial Movement**: Drive weight forward and upward, beginning to stack opponent's hips over their shoulders while keeping head low to prevent initial squeeze
 

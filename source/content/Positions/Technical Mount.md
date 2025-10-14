@@ -609,7 +609,7 @@ From technical mount, you can execute:
 - [[Armbar]] → Armbar Control (Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%)
   - Primary finish from technical mount. Control wrist, fall back while maintaining leg over head, pinch knees, lift hips. The leg position prevents defensive posture.
 
-- [[Triangle Choke]] → Triangle Control (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
+- [[Triangle Choke Side]] → Triangle Control (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
   - When opponent retracts arm to defend armbar, immediately bring other leg over head for triangle. Their defensive movement positions head perfectly.
 
 - [[Mounted Triangle]] → Triangle Control (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
@@ -633,7 +633,7 @@ When opponent has technical mount against you:
 - [[Elbow Escape]] → [[Half Guard Bottom]] (Success Rate: 35%)
   - Primary escape is to recover guard by pulling elbow back, creating space, and shrimping out while recovering half guard with inside leg.
 
-- [[Bridge and Roll]] → [[Guard Bottom]] (Success Rate: 25%)
+- [[Bridge and Roll]] → [[Half Guard Bottom]] (Success Rate: 25%)
   - Bridge explosively while pulling attacking arm to roll opponent over. Timing is critical - must catch them during submission attempt when weight is distributed.
 
 - [[Arm Pull Defense]] → [[Mount Bottom]] (Success Rate: 30%)
@@ -645,7 +645,7 @@ When opponent has technical mount against you:
 ## Decision Tree
 
 **If** opponent defends armbar by pulling arm back:
-- Execute [[Triangle Choke]] → [[Triangle Control]] (Probability: 55%)
+- Execute [[Triangle Choke Side]] → [[Triangle Control]] (Probability: 55%)
   - Reasoning: Pulled arm brings head into triangle position while they focus on arm defense
 - Or Execute [[Gift Wrap]] → [[Gift Wrap Position]] (Probability: 50%)
   - Reasoning: Trap the retracted arm for enhanced control before re-attacking
@@ -766,7 +766,7 @@ Focus on: Energy-efficient pressure application, breathing rhythmically despite 
 *Reasoning: When opponent's arm is isolated and extended, direct armbar from technical mount is one of highest percentage finishes in BJJ. The leg over head prevents postural escape, making the finish very tight. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.*
 
 **High-percentage path** (systematic):
-[[Technical Mount]] → [[Arm Isolation]] → [[Armbar Attempt]] → [[Triangle Choke]] (when defended) → [[Won by Submission]]
+[[Technical Mount]] → [[Arm Isolation]] → [[Armbar Attempt]] → [[Triangle Choke Side]] (when defended) → [[Won by Submission]]
 *Reasoning: This path accepts that initial armbar may be defended and has immediate follow-up ready. The system approach increases overall finish rate to approximately 60-75% because it doesn't rely on single attack success. When opponent defends armbar by retracting arm, their defensive movement positions head perfectly for triangle.*
 
 **Alternative submission path** (control first):

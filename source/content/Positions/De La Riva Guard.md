@@ -171,7 +171,7 @@ You are on your back in an open guard position, with your outside foot hooking b
 - Control opponent's lead leg with both foot hook and hand grip
 - Maintain grip on sleeve/collar to limit opponent's upper body mobility
 - Create and manipulate angles to off-balance opponent
-- Keep active hip movement to prevent passing
+- Keep active hip movement to prevent passing through [[Guard Retention]]
 - Connect upper and lower body controls for complete control
 - Maintain proper distance to prevent opponent from smashing or pressuring
 
@@ -191,7 +191,7 @@ You are on your back in an open guard position, with your outside foot hooking b
 ## Defensive Responses (When Opponent Has This State)
 - [[DLR Hook Removal]] → [[Toreando Pass]] (Success Rate: 30%)
 - [[Base and Posture]] → [[Leg Drag Attempt]] (Success Rate: 25%)
-- [[Heavy Forward Pressure]] → [[Smash Pass]] (Success Rate: 20%)
+- [[Forward Pressure]] → [[Smash Pass]] (Success Rate: 20%)
 - [[Backward Weight Shift]] → [[Long Step Pass]] (Success Rate: 15%)
 - [[Knee Cut Entry]] → [[Knee Cut Pass]] (Success Rate: 20%)
 
@@ -282,7 +282,7 @@ Leg lock-oriented path:
 [[De La Riva Guard]] → [[DLR to Single Leg X]] → [[Single Leg X Guard]] → [[Ashi Garami]] → [[Inside Heel Hook]] → [[Won by Submission]]
 
 Traditional sweep path:
-[[De La Riva Guard]] → [[DLR Basic Sweep]] → [[Side Control Top]] → [[Mount]] → [[Arm Triangle]] → [[Won by Submission]]
+[[De La Riva Guard]] → [[DLR Basic Sweep]] → [[Side Control]] → [[Mount]] → [[Arm Triangle]] → [[Won by Submission]]
 
 ## Computer Science Analogy
 De La Riva Guard functions as a versatile routing node in the BJJ state graph with multiple weighted edges to different advantageous states. Its connectivity to both conventional positional paths and modern leg lock/back attack systems makes it a strategic vertex with high decision-tree branching factor, allowing tactical flexibility based on opponent responses.

@@ -113,7 +113,7 @@ When facing a submission threat, such as an armbar from guard, you begin by main
 ## Execution Steps
 1. Maintain a preventative defensive posture, keeping limbs connected to the torso, elbows tight, and chin tucked to minimize vulnerability to submission attacks.
 2. Recognize early submission setups by identifying opponent's grip patterns, limb isolation attempts, and positional adjustments, triggering an immediate defensive response.
-3. Create a defensive structure using skeletal alignment, framing with hands or legs against opponent's control points to prevent submission progression.
+3. Create a defensive posture using skeletal alignment, framing with hands or legs against opponent's control points to prevent submission progression.
 4. Address the control mechanism before the submission attack, disrupting opponent's initial grips or positioning to break their leverage and control.
 5. Establish a proper defensive angle relative to the submission force, shifting hips or body position to reduce mechanical advantage and create breathing space.
 6. Incrementally increase defensive space through controlled movements like shrimping or bridging, regaining connection points to neutralize the threat.

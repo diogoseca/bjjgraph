@@ -1,0 +1,299 @@
+{
+  "session": 2,
+  "agent": 3,
+  "total_fixes": 36,
+  "processed": 36,
+  "successful": 13,
+  "failed": 0,
+  "skipped": 23,
+  "fixes": [
+    {
+      "source_file": "Knee Cut Position",
+      "target_link": "Backstep",
+      "suggested_fix": "back step",
+      "status": "skipped",
+      "message": "Link [[Backstep]] not found in file",
+      "file_path": "/source/content/Positions/Knee Cut Position.md"
+    },
+    {
+      "source_file": "Knee Cut Position",
+      "target_link": "Near Side Armbar",
+      "suggested_fix": "far side armbar",
+      "status": "skipped",
+      "message": "Link [[Near Side Armbar]] not found in file",
+      "file_path": "/source/content/Positions/Knee Cut Position.md"
+    },
+    {
+      "source_file": "Knee Cut Position",
+      "target_link": "Backstep",
+      "suggested_fix": "back step",
+      "status": "skipped",
+      "message": "Link [[Backstep]] not found in file",
+      "file_path": "/source/content/Positions/Knee Cut Position.md"
+    },
+    {
+      "source_file": "Knee Cut Position",
+      "target_link": "Heavy Shoulder Pressure",
+      "suggested_fix": "shoulder pressure",
+      "status": "skipped",
+      "message": "Link [[Heavy Shoulder Pressure]] not found in file",
+      "file_path": "/source/content/Positions/Knee Cut Position.md"
+    },
+    {
+      "source_file": "Knee Shield Half Guard",
+      "target_link": "Half Guard Pin",
+      "suggested_fix": "half guard top",
+      "status": "skipped",
+      "message": "Link [[Half Guard Pin]] not found in file",
+      "file_path": "/source/content/Positions/Knee Shield Half Guard.md"
+    },
+    {
+      "source_file": "Knee Shield Half Guard",
+      "target_link": "Defensive Frames",
+      "suggested_fix": "defensive frame",
+      "status": "skipped",
+      "message": "Link [[Defensive Frames]] not found in file",
+      "file_path": "/source/content/Positions/Knee Shield Half Guard.md"
+    },
+    {
+      "source_file": "Knee Shield Half Guard",
+      "target_link": "Side Control Top",
+      "suggested_fix": "side control",
+      "status": "skipped",
+      "message": "Link [[Side Control Top]] not found in file",
+      "file_path": "/source/content/Positions/Knee Shield Half Guard.md"
+    },
+    {
+      "source_file": "Knee Tap",
+      "target_link": "Whizzer Counter",
+      "suggested_fix": "whizzer control",
+      "status": "skipped",
+      "message": "Link [[Whizzer Counter]] not found in file",
+      "file_path": "/source/content/Transitions/Knee Tap.md"
+    },
+    {
+      "source_file": "Knee on Belly",
+      "target_link": "Nearside Armbar",
+      "suggested_fix": "far side armbar",
+      "status": "skipped",
+      "message": "Link [[Nearside Armbar]] not found in file",
+      "file_path": "/source/content/Positions/Knee on Belly.md"
+    },
+    {
+      "source_file": "Kneebar Control",
+      "target_link": "Backside 50/50",
+      "suggested_fix": "backside 50-50",
+      "status": "skipped",
+      "message": "Link [[Backside 50/50]] not found in file",
+      "file_path": "/source/content/Positions/Kneebar Control.md"
+    },
+    {
+      "source_file": "Kneebar Control",
+      "target_link": "Straight Ankle Lock Switch",
+      "suggested_fix": "straight ankle lock",
+      "status": "success",
+      "message": "Fixed 1 occurrence(s) of [[Straight Ankle Lock Switch]] \u2192 [[straight ankle lock]]",
+      "file_path": "/source/content/Positions/Kneebar Control.md"
+    },
+    {
+      "source_file": "Kneebar Control",
+      "target_link": "Outside Sankaku",
+      "suggested_fix": "inside sankaku",
+      "status": "skipped",
+      "message": "Link [[Outside Sankaku]] not found in file",
+      "file_path": "/source/content/Positions/Kneebar Control.md"
+    },
+    {
+      "source_file": "Kneebar Control",
+      "target_link": "50/50 Guard",
+      "suggested_fix": "50-50 guard",
+      "status": "skipped",
+      "message": "Link [[50/50 Guard]] not found in file",
+      "file_path": "/source/content/Positions/Kneebar Control.md"
+    },
+    {
+      "source_file": "Kneebar Control",
+      "target_link": "Backside 50/50",
+      "suggested_fix": "backside 50-50",
+      "status": "skipped",
+      "message": "Link [[Backside 50/50]] not found in file",
+      "file_path": "/source/content/Positions/Kneebar Control.md"
+    },
+    {
+      "source_file": "Kneebar Control",
+      "target_link": "Straight Ankle Lock Switch",
+      "suggested_fix": "straight ankle lock",
+      "status": "skipped",
+      "message": "Link [[Straight Ankle Lock Switch]] not found in file",
+      "file_path": "/source/content/Positions/Kneebar Control.md"
+    },
+    {
+      "source_file": "Kneebar Finish",
+      "target_link": "Resulting Position",
+      "suggested_fix": "standing position",
+      "status": "success",
+      "message": "Fixed 1 occurrence(s) of [[Resulting Position]] \u2192 [[standing position]]",
+      "file_path": "/source/content/Submissions/Kneebar Finish.md"
+    },
+    {
+      "source_file": "Kneebar Finish",
+      "target_link": "Failed Kneebar Finish",
+      "suggested_fix": "kneebar finish",
+      "status": "success",
+      "message": "Fixed 3 occurrence(s) of [[Failed Kneebar Finish]] \u2192 [[kneebar finish]]",
+      "file_path": "/source/content/Submissions/Kneebar Finish.md"
+    },
+    {
+      "source_file": "Kneebar Finish",
+      "target_link": "Ankle Lock",
+      "suggested_fix": "ankle pick",
+      "status": "success",
+      "message": "Fixed 1 occurrence(s) of [[Ankle Lock]] \u2192 [[ankle pick]]",
+      "file_path": "/source/content/Submissions/Kneebar Finish.md"
+    },
+    {
+      "source_file": "Kneebar Finish",
+      "target_link": "Failed Kneebar Finish",
+      "suggested_fix": "kneebar finish",
+      "status": "skipped",
+      "message": "Link [[Failed Kneebar Finish]] not found in file",
+      "file_path": "/source/content/Submissions/Kneebar Finish.md"
+    },
+    {
+      "source_file": "Kneebar Finish",
+      "target_link": "Failed Kneebar Finish",
+      "suggested_fix": "kneebar finish",
+      "status": "skipped",
+      "message": "Link [[Failed Kneebar Finish]] not found in file",
+      "file_path": "/source/content/Submissions/Kneebar Finish.md"
+    },
+    {
+      "source_file": "Kneebar from 50-50",
+      "target_link": "50/50 Guard",
+      "suggested_fix": "50-50 guard",
+      "status": "success",
+      "message": "Fixed 5 occurrence(s) of [[50/50 Guard]] \u2192 [[50-50 guard]]",
+      "file_path": "/source/content/Submissions/Kneebar from 50-50.md"
+    },
+    {
+      "source_file": "Kneebar from 50-50",
+      "target_link": "50/50 Guard",
+      "suggested_fix": "50-50 guard",
+      "status": "skipped",
+      "message": "Link [[50/50 Guard]] not found in file",
+      "file_path": "/source/content/Submissions/Kneebar from 50-50.md"
+    },
+    {
+      "source_file": "Kneebar from 50-50",
+      "target_link": "50/50 Guard",
+      "suggested_fix": "50-50 guard",
+      "status": "skipped",
+      "message": "Link [[50/50 Guard]] not found in file",
+      "file_path": "/source/content/Submissions/Kneebar from 50-50.md"
+    },
+    {
+      "source_file": "Kneebar from 50-50",
+      "target_link": "50/50 Guard",
+      "suggested_fix": "50-50 guard",
+      "status": "skipped",
+      "message": "Link [[50/50 Guard]] not found in file",
+      "file_path": "/source/content/Submissions/Kneebar from 50-50.md"
+    },
+    {
+      "source_file": "Kneebar from 50-50",
+      "target_link": "50/50 Guard",
+      "suggested_fix": "50-50 guard",
+      "status": "skipped",
+      "message": "Link [[50/50 Guard]] not found in file",
+      "file_path": "/source/content/Submissions/Kneebar from 50-50.md"
+    },
+    {
+      "source_file": "Kneebar from 50-50",
+      "target_link": "50/50 Guard",
+      "suggested_fix": "50-50 guard",
+      "status": "skipped",
+      "message": "Link [[50/50 Guard]] not found in file",
+      "file_path": "/source/content/Submissions/Kneebar from 50-50.md"
+    },
+    {
+      "source_file": "Kuzure Kesa Gatame",
+      "target_link": "Resulting Position",
+      "suggested_fix": "standing position",
+      "status": "success",
+      "message": "Fixed 1 occurrence(s) of [[Resulting Position]] \u2192 [[standing position]]",
+      "file_path": "/source/content/Positions/Kuzure Kesa Gatame.md"
+    },
+    {
+      "source_file": "Lapel Guard",
+      "target_link": "Resulting Position",
+      "suggested_fix": "standing position",
+      "status": "success",
+      "message": "Fixed 1 occurrence(s) of [[Resulting Position]] \u2192 [[standing position]]",
+      "file_path": "/source/content/Positions/Lapel Guard.md"
+    },
+    {
+      "source_file": "Lasso Guard",
+      "target_link": "Omoplata Setup",
+      "suggested_fix": "gogoplata setup",
+      "status": "success",
+      "message": "Fixed 3 occurrence(s) of [[Omoplata Setup]] \u2192 [[gogoplata setup]]",
+      "file_path": "/source/content/Positions/Lasso Guard.md"
+    },
+    {
+      "source_file": "Lasso Guard",
+      "target_link": "Omoplata Setup",
+      "suggested_fix": "gogoplata setup",
+      "status": "skipped",
+      "message": "Link [[Omoplata Setup]] not found in file",
+      "file_path": "/source/content/Positions/Lasso Guard.md"
+    },
+    {
+      "source_file": "Lasso Guard",
+      "target_link": "Omoplata Setup",
+      "suggested_fix": "gogoplata setup",
+      "status": "skipped",
+      "message": "Link [[Omoplata Setup]] not found in file",
+      "file_path": "/source/content/Positions/Lasso Guard.md"
+    },
+    {
+      "source_file": "Leg Drag Control",
+      "target_link": "Leg Drag to Back",
+      "suggested_fix": "arm drag to back",
+      "status": "success",
+      "message": "Fixed 1 occurrence(s) of [[Leg Drag to Back]] \u2192 [[arm drag to back]]",
+      "file_path": "/source/content/Positions/Leg Drag Control.md"
+    },
+    {
+      "source_file": "Leg Drag Position",
+      "target_link": "Backstep",
+      "suggested_fix": "back step",
+      "status": "success",
+      "message": "Fixed 1 occurrence(s) of [[Backstep]] \u2192 [[back step]]",
+      "file_path": "/source/content/Positions/Leg Drag Position.md"
+    },
+    {
+      "source_file": "Leg Drag Position",
+      "target_link": "S-Mount",
+      "suggested_fix": "mount",
+      "status": "success",
+      "message": "Fixed 1 occurrence(s) of [[S-Mount]] \u2192 [[mount]]",
+      "file_path": "/source/content/Positions/Leg Drag Position.md"
+    },
+    {
+      "source_file": "Leg Drag Setup",
+      "target_link": "Posture Maintenance",
+      "suggested_fix": "base maintenance",
+      "status": "success",
+      "message": "Fixed 1 occurrence(s) of [[Posture Maintenance]] \u2192 [[base maintenance]]",
+      "file_path": "/source/content/Transitions/Leg Drag Setup.md"
+    },
+    {
+      "source_file": "Leg Entanglement",
+      "target_link": "50/50 Guard",
+      "suggested_fix": "50-50 guard",
+      "status": "success",
+      "message": "Fixed 1 occurrence(s) of [[50/50 Guard]] \u2192 [[50-50 guard]]",
+      "file_path": "/source/content/Concepts/Leg Entanglement.md"
+    }
+  ]
+}

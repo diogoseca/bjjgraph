@@ -146,10 +146,10 @@ Factors that influence the success rate of the submission:
 Analysis of opponent responses with success rates for counter-attacks:
 - [[Turn Away Defense]] → [[Back Exposure]] (Success Rate: 45%, Conditions: opponent turns away from D'arce, exposing back for potential control)
 - [[Turn Inward Defense]] → [[Anaconda Setup]] (Success Rate: 50%, Conditions: opponent turns into D'arce, setting up Anaconda entry)
-- [[Head Positioning Defense]] → [[Guillotine Counter]] (Success Rate: 40%, Conditions: opponent tucks chin or adjusts head to resist choke)
+- [[Head Positioning Defense]] → [[Guillotine Control]] (Success Rate: 40%, Conditions: opponent tucks chin or adjusts head to resist choke)
 - [[Space Creation Defense]] → [[Guard Recovery]] (Success Rate: 35%, Conditions: opponent frames and creates space to recover guard)
 - [[Arm Pull Escape]] → [[Arm Freed]] (Success Rate: 30%, Conditions: opponent pulls trapped arm out before choke is fully locked)
-- [[Stand Up Attempt]] → [[Front Headlock Reset]] (Success Rate: 55%, Conditions: opponent attempts to stand, allowing reset to control position)
+- [[Stand Up Attempt]] → [[Front Headlock Series]] (Success Rate: 55%, Conditions: opponent attempts to stand, allowing reset to control position)
 
 ## Decision Logic for Opponent Behavior
 ```
@@ -163,7 +163,7 @@ Else if [opponent defends both] with head positioning:
 - Transition to [[Guillotine Control]] (Probability: 50%)
 
 Else if [opponent creates space] and postures:
-- Reset to [[Front Headlock]] control and reassess (Probability: 55%)
+- Reset to [[Front Headlock Series]] control and reassess (Probability: 55%)
 
 Else if [opponent goes flat] to deny angle:
 - Transition to [[Arm Triangle]] or [[North-South Choke]] (Probability: 45%)

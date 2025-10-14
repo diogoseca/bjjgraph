@@ -144,7 +144,7 @@ You are seated or semi-reclined on the mat with your shin placed firmly across y
 
 ## Defensive Responses (When Opponent Has This State)
 - [[Leg Frame Clear]] → [[Headquarters Position]]
-- [[Backstep]] → [[Knee Cut Position]]
+- [[Back Step]] → [[Knee Cut Position]]
 - [[Double Pants Grip]] → [[Toreando Pass]]
 - [[Shin Slice Pass]] → [[Smash Pass Position]]
 - [[Leg Pin and Pressure]] → [[Combat Base]]
@@ -155,9 +155,9 @@ You are seated or semi-reclined on the mat with your shin placed firmly across y
 - [[X-Guard Transition]] → [[X-Guard]]
 - [[Technical Stand-up]] → [[Single Leg Takedown]]
 - [[Deep De La Riva Entry]] → [[De La Riva Guard]]
-- [[Butterfly Hook Insertion]] → [[Butterfly Guard]]
+- [[Butterfly Hook Retention]] → [[Butterfly Guard]]
 - [[Inversion Entry]] → [[Inverted Guard]]
-- [[Kiss of the Dragon Setup]] → [[Back Control]]
+- [[Kiss of the Dragon]] → [[Back Control]]
 
 ## Counter Transitions
 - [[Re-establish Shin-to-Shin]] → [[Shin-to-Shin Guard]] (against pass attempts)
@@ -207,10 +207,10 @@ Else if opponent pressures forward with weight:
 - Execute [[X-Guard Transition]] or [[Technical Stand-up]]
 
 Else if opponent attempts to back away:
-- Execute [[Butterfly Hook Insertion]] or [[Deep De La Riva Entry]]
+- Execute [[Butterfly Hook Retention]] or [[Deep De La Riva Entry]]
 
 Else if opponent attempts to backstep:
-- Execute [[Inversion Entry]] or [[Kiss of the Dragon Setup]]
+- Execute [[Inversion Entry]] or [[Kiss of the Dragon]]
 
 ## Position Metrics
 - Success Rate: 65% offensive advancement (competition data)
@@ -227,7 +227,7 @@ Leg entanglement path:
 [[Shin-to-Shin Guard]] → [[Single Leg X Entry]] → [[Single Leg X Guard]] → [[Ashi Garami]] → [[Inside Heel Hook]] → [[Won by Submission]]
 
 Back take path:
-[[Shin-to-Shin Guard]] → [[Kiss of the Dragon Setup]] → [[Back Control]] → [[Rear Naked Choke]] → [[Won by Submission]]
+[[Shin-to-Shin Guard]] → [[Kiss of the Dragon]] → [[Back Control]] → [[Rear Naked Choke]] → [[Won by Submission]]
 
 ## Computer Science Analogy
 The Shin-to-Shin Guard functions as a "routing node" in the BJJ state graph, serving as an efficient intermediary position that connects multiple subsystems (guard types) while providing its own operational capabilities. This creates an architecture similar to a "hub-and-spoke" network topology, where the position serves as a central hub with high connectivity to other positions. The shin-to-shin connection implements a mechanical constraint similar to a "mutex lock" in concurrent programming, temporarily restricting the opponent's movement options while the guard player executes transitions to more specialized control states.

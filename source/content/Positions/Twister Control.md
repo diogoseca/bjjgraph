@@ -139,9 +139,9 @@ Twister Control is a highly specialized submission position developed and popula
 - Opponent's spine in compromised rotational position
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Emergency Tap]] → [[Submission Concession]]
+- [[Emergency Tap]] → [[Submission Position]]
 - [[Spine Alignment Defense]] → [[Neutral Position]]
-- [[Leg Extension]] → [[Leg Entanglement Escape]]
+- [[Leg Extension]] → [[Leg Entanglement]]
 - [[Hip Drive and Bridge]] → [[Scramble Position]]
 - [[Roll to Knees]] → [[Turtle Position]]
 

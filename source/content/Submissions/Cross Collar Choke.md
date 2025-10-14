@@ -7,7 +7,7 @@ submission_category: "Choke"
 submission_type: "Blood Choke"
 target_area: "Carotid arteries"
 starting_state: "S001"
-starting_position_name: "Mount"
+starting_position_name: "Standing Position"
 ending_state: "Terminal - Won by Submission"
 is_terminal: true
 success_rate:
@@ -40,3 +40,8 @@ Fundamental gi choke from mount or guard using crossed collar grips to compress 
 - [[Bow and Arrow Choke]]
 - [[Baseball Bat Choke]]
 - [[Loop Choke]]
+
+## Position Integration
+- [[Mount]] → [[Cross Collar Choke]] → [[Won by Submission]]
+- [[Closed Guard Bottom]] → [[Cross Collar Choke]] → [[Won by Submission]]
+- [[Standing Position]] → [[Cross Collar Choke]] → [[Won by Submission]]

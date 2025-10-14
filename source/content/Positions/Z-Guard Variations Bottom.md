@@ -883,6 +883,7 @@ Start in Z-Guard and attempt sequence of sweeps based on partner's defensive rea
 - [[Deep Half Guard]] - Alternative half guard system offering different angle and control mechanisms
 - [[Butterfly Guard]] - Related open guard with similar emphasis on off-balancing and dynamic sweeps
 - [[Back Control]] - Dominant position accessed via limp leg back take from Z-Guard Variations
+- [[Half Guard Bottom]]
 
 ## Optimal Submission Paths
 

@@ -1,0 +1,216 @@
+{
+  "chunk_metadata": {
+    "chunk_number": 6,
+    "total_chunks": 10,
+    "start_index": 105,
+    "end_index": 125,
+    "count": 21,
+    "confidence_filter": "\u226595%"
+  },
+  "suggestions": [
+    {
+      "source_file": "Body Lock Pass",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Body Lock Pass is a guard passing technique that ends in Side Control Top, making this the primary destination position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Knee Shield Retention",
+      "target_file": "Guard Recovery",
+      "confidence": 95.0,
+      "reason": "Knee shield retention is a primary defensive technique used during guard recovery to prevent passing and reestablish full guard.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "technique-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Harai Goshi",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Harai Goshi is a standing throw that typically ends in side control, making this the natural landing position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "X-Guard Sweep",
+      "target_file": "Single Leg X Guard",
+      "confidence": 95.0,
+      "reason": "X-Guard Sweep originates from X-Guard Bottom position, which is closely related to Single Leg X Guard and practitioners often transition between these positions.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "North-South to Kimura",
+      "target_file": "Kimura",
+      "confidence": 95.0,
+      "reason": "This technique transitions to the Kimura submission, which is the target control position and finishing technique.",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "transition-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Lumberjack Sweep",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Lumberjack Sweep is executed from closed guard and typically results in side control as the finishing position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Technical Standup",
+      "target_file": "Standing Position",
+      "confidence": 95.0,
+      "reason": "Technical standup transitions directly to standing position, making this the most natural end state for this technique.",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Ashi Garami Escape",
+      "target_file": "Guard Recovery",
+      "confidence": 95.0,
+      "reason": "Ashi garami escape leads directly to guard recovery or standing, making this a natural progression from the escape.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Triangle Escape",
+      "target_file": "Triangle Control",
+      "confidence": 95.0,
+      "reason": "Triangle Escape directly counters Triangle Control position, making this the primary related position",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "escape-from-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Half Guard Pass",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Side Control is the most common successful outcome position when passing half guard.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Half Guard Pass",
+      "target_file": "Half Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Half Guard Bottom is the complementary position that the passer is working to escape from.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-complement",
+      "existing_link": false
+    },
+    {
+      "source_file": "Double leg takedown",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "The double leg takedown explicitly transitions to Side Control as its primary finishing position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Snap Down",
+      "target_file": "Front Headlock",
+      "confidence": 95.0,
+      "reason": "Snap Down directly transitions to Front Headlock position as stated in the execution sequence.",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Spider Guard Variations",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Spider Guard variations are fundamentally about guard retention tactics using specific grip and leg configurations.",
+      "suggested_section": "Related Concepts",
+      "relationship_type": "technique-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Over-Under Pass",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "The Over-Under Pass explicitly transitions to Side Control Top as its completion state, making this the primary destination position.",
+      "suggested_section": "Completion",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Paper Cutter Choke",
+      "target_file": "Rear Naked Choke",
+      "confidence": 95.0,
+      "reason": "Paper Cutter Choke is a gi variation closely related to the Rear Naked Choke, both being blood chokes from back control positions with similar finishing mechanics.",
+      "suggested_section": "Related Submissions",
+      "relationship_type": "submission-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Von Flue Choke",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Von Flue Choke is executed from side control position, which is the primary setup position for this submission",
+      "suggested_section": "Overview",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Switch to Triangle",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "The triangle is a common submission finish, making this the natural terminal state for a successful switch to triangle.",
+      "suggested_section": "Target Position",
+      "relationship_type": "transition-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Aoki Lock",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Aoki Lock is a terminal submission that leads directly to Won by Submission state when successfully applied.",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "submission-to-terminal",
+      "existing_link": false
+    },
+    {
+      "source_file": "Triangle Finish",
+      "target_file": "Closed Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Triangle finishes are one of the primary submissions from closed guard bottom position, making this a fundamental position-to-submission relationship.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-submission",
+      "existing_link": false
+    },
+    {
+      "source_file": "Triangle Choke Side",
+      "target_file": "Triangle Control",
+      "confidence": 95.0,
+      "reason": "Triangle Control is the setup position required before finishing Triangle Choke Side, representing the immediate prerequisite state.",
+      "suggested_section": "Starting Position",
+      "relationship_type": "submission-to-position",
+      "existing_link": false
+    }
+  ],
+  "instructions": {
+    "task": "Apply these wikilink suggestions to markdown files",
+    "validation": [
+      "Check if wikilink already exists",
+      "Verify target file exists",
+      "Add to specified section only",
+      "Maintain markdown formatting"
+    ],
+    "reporting": [
+      "Track: applied, skipped_exists, skipped_no_target, error",
+      "Report file paths modified",
+      "Report line numbers where links added",
+      "Report any errors encountered"
+    ]
+  }
+}

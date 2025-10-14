@@ -6,7 +6,7 @@ complexity_level: Low
 development_timeline: Beginner to Advanced
 
 related_positions:
-  - Side Control Top
+  - Side Control
   - Half Guard Top
   - North-South Top
   - Knee on Belly
@@ -89,7 +89,7 @@ Hip Pressure represents the specific tactical application of bodyweight through 
 
 ### Common Scenarios Where Concept is Critical
 
-**Scenario 1: [[Side Control Top]] when opponent attempts hip escape**
+**Scenario 1: [[Side Control]] when opponent attempts hip escape**
 → Apply hip pressure by driving hips forward and down toward opponent's hips, pinning them to mat, preventing shrimping movement that creates escape space.
 
 **Scenario 2: [[Half Guard Top]] when passing to side control**

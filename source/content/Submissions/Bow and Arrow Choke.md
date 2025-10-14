@@ -74,8 +74,8 @@ tags:
 # Related Content (Wikilinks)
 related_positions:
   - "[[Back Control]]"
-  - "[[Turtle Position Bottom]]"
-  - "[[Side Control Bottom]]"
+  - "[[Turtle Position]]"
+  - "[[Side Control To Mount]]"
 related_transitions:
   - "[[Back Take]]"
   - "[[Turtle to Back Take]]"
@@ -367,7 +367,7 @@ Defensive responses with success rates and safety windows:
 - Safety note: Window exists but closing - once leg is controlled, escape becomes very difficult
 
 **Technical Escape** (Leg controlled but not fully extended)
-- [[Bow and Arrow Escape - Hip Explosion]] → [[Side Control Bottom]] (Success Rate: 30%, Window: 1-2 seconds)
+- [[Bow and Arrow Escape - Hip Explosion]] → [[Side Control To Mount]] (Success Rate: 30%, Window: 1-2 seconds)
 - Defender action: Explosive hip rotation toward attacker, try to face attacker before leg extends fully
 - Attacker response: Extend leg immediately, increase collar pressure, maintain perpendicular angle
 - Safety critical: Last moment to escape - if leg extends fully and bow shape is created, must tap
@@ -645,7 +645,7 @@ From [[Back Control]]:
 - Safety considerations: Most common entry, ensure gradual leg extension
 
 ### Alternative Setup 1: Turtle to Back to Bow and Arrow
-From [[Turtle Position Bottom]] (opponent in turtle):
+From [[Turtle Position]] (opponent in turtle):
 - Take back from turtle with one hook in
 - Immediately secure collar grip while opponent defends
 - As you secure second hook, maintain collar grip
@@ -955,7 +955,7 @@ Test understanding before live application. Minimum 5/6 correct required.
 
 ### Internal Linking (Minimum 3-5)
 - [[Back Control]] (S005) - primary setup position
-- [[Turtle Position Bottom]] - alternative back take entry
+- [[Turtle Position]] - alternative back take entry
 - [[Rear Naked Choke]] - related submission and setup combination
 - [[Bow and Arrow Defense - Hand Fighting]] - main defensive counter
 - [[Armbar from Back]] - related submission and chain combination

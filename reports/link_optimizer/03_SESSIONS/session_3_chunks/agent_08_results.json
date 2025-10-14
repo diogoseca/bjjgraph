@@ -1,0 +1,75 @@
+{
+  "session": 3,
+  "agent": 8,
+  "total_agents": 10,
+  "fixes_attempted": 12,
+  "fixes_applied": 5,
+  "fixes_skipped": 7,
+  "successful_fixes": [
+    {
+      "file": "Turtle to Back Control",
+      "broken_link": "Defensive Reaction",
+      "fixed_to": "Defensive Framing",
+      "status": "applied"
+    },
+    {
+      "file": "Turtle to Back Control",
+      "broken_link": "Back Triangle",
+      "fixed_to": "Arm Triangle Progression",
+      "status": "applied"
+    },
+    {
+      "file": "Turtle to Back Control",
+      "broken_link": "Transition to Crucifix",
+      "fixed_to": "Crucifix Control Position",
+      "status": "applied"
+    },
+    {
+      "file": "Twister Control",
+      "broken_link": "Submission Concession",
+      "fixed_to": "Submission Position",
+      "status": "applied"
+    },
+    {
+      "file": "Twister Control",
+      "broken_link": "Leg Entanglement Escape",
+      "fixed_to": "Leg Entanglement",
+      "status": "applied"
+    },
+    {
+      "file": "Twister Setup",
+      "broken_link": "Truck Defense",
+      "fixed_to": "Stack Defense",
+      "status": "applied (2 occurrences)"
+    },
+    {
+      "file": "Twister Setup",
+      "broken_link": "Leg Entanglement Escape",
+      "fixed_to": "Leg Entanglement",
+      "status": "applied"
+    }
+  ],
+  "skipped_fixes": [
+    {
+      "file": "Truck Entry",
+      "broken_link": "Triangle Choke",
+      "reason": "Link does not exist in file - false positive or already correct"
+    },
+    {
+      "file": "Turtle Top",
+      "broken_link": "Resulting Position",
+      "reason": "Only appears in format template string, not an actual link"
+    },
+    {
+      "file": "Twister Finish",
+      "broken_link": "Resulting Position",
+      "reason": "Only appears in format template string, not an actual link"
+    }
+  ],
+  "summary": {
+    "files_modified": 3,
+    "total_link_replacements": 7,
+    "success_rate": "58.3%",
+    "notes": "Several suggested fixes were false positives (format template strings or links that don't exist). Successfully fixed all genuine broken links in Turtle to Back Control, Twister Control, and Twister Setup files."
+  }
+}

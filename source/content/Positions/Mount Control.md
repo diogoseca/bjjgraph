@@ -24,7 +24,7 @@ state_machine:
     - "Opponent flat on back with limited mobility"
   offensive_transitions:
     - {technique: "High Mount Transition", target_state: "High Mount", transition_id: "T380", success_rate: {beginner: 45, intermediate: 60, advanced: 75}}
-    - {technique: "S-Mount Transition", target_state: "S-Mount", transition_id: "T381", success_rate: {beginner: 40, intermediate: 55, advanced: 70}}
+    - {technique: "S-Mount Transition", target_state: "S-Mount Position", transition_id: "T381", success_rate: {beginner: 40, intermediate: 55, advanced: 70}}
     - {technique: "Technical Mount", target_state: "Technical Mount", transition_id: "T382", success_rate: {beginner: 35, intermediate: 50, advanced: 65}}
     - {technique: "Armbar from Mount", target_state: "Armbar Control", transition_id: "T383", success_rate: {beginner: 35, intermediate: 50, advanced: 65}}
     - {technique: "Cross Collar Choke", target_state: "Won by Submission", transition_id: "T384", success_rate: {beginner: 30, intermediate: 45, advanced: 60}}
@@ -39,7 +39,7 @@ state_machine:
         - {action: "Cross Collar Choke", target: "Won by Submission", probability: 45}
     - condition: "Opponent attempting to escape"
       options:
-        - {action: "S-Mount Transition", target: "S-Mount", probability: 55}
+        - {action: "S-Mount Transition", target: "S-Mount Position", probability: 55}
         - {action: "Technical Mount", target: "Technical Mount", probability: 50}
   energy_dynamics:
     maintainer_burn_rate: 2.0
@@ -76,7 +76,7 @@ You are seated on top of your opponent's torso, straddling their body with your 
 
 ## Offensive Transitions
 - [[High Mount Transition]] → [[High Mount]] (Beginner 45%, Intermediate 60%, Advanced 75%)
-- [[S-Mount Transition]] → [[S-Mount]] (Beginner 40%, Intermediate 55%, Advanced 70%)
+- [[S-Mount Position]] → [[S-Mount Position]] (Beginner 40%, Intermediate 55%, Advanced 70%)
 - [[Technical Mount]] → [[Technical Mount]] (Beginner 35%, Intermediate 50%, Advanced 65%)
 - [[Armbar from Mount]] → [[Armbar Control]] (Beginner 35%, Intermediate 50%, Advanced 65%)
 - [[Cross Collar Choke]] → [[Won by Submission]] (Beginner 30%, Intermediate 45%, Advanced 60%)
@@ -94,3 +94,10 @@ You are seated on top of your opponent's torso, straddling their body with your 
 - **Advancement Probability**: Beginner 45%, Intermediate 60%, Advanced 75%
 - **Submission Probability**: Beginner 50%, Intermediate 65%, Advanced 80%
 - **Average Time**: 2-3 minutes
+
+## Related Positions
+
+- [[Mount]] - Fundamental mount position that mount control builds upon
+- [[High Mount]] - Advanced mount variation
+- [[S-Mount Position]] - Technical mount variation for submissions
+- [[Technical Mount]] - Asymmetric mount for armbar attacks

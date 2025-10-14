@@ -53,6 +53,8 @@
 ## Concept Description
 Leg Entanglement represents the systematic control and positioning of lower extremities to establish dominant control configurations that facilitate leg locks and positional advantage. Unlike specific leg lock techniques, leg entanglement is a comprehensive conceptual framework encompassing the principles, mechanics, and strategic approach to establishing and maintaining complex leg control positions. This concept includes understanding optimal entry paths, mechanical control principles, hierarchical relationships between different entanglements, and defensive countermeasures within the leg lock ecosystem. Leg entanglement serves as both the positional foundation for applying leg lock submissions and a sophisticated positional control system in its own right. The ability to effectively establish and navigate leg entanglements often determines success in modern leg lock-oriented BJJ, making it one of the most strategically significant conceptual elements in contemporary grappling.
 
+Key leg entanglement positions include the [[Saddle Position]] (also known as Honey Hole) and [[Ashi Garami]], which are fundamental leg entanglement positions that directly exemplify the concept being discussed.
+
 ## Key Principles
 - Establish control of opponent's lower extremities through systematic positioning
 - Maintain proper alignment between your hips and opponent's leg joints
@@ -79,8 +81,8 @@ Leg Entanglement represents the systematic control and positioning of lower extr
 - **[[Kneebar Control]]** - Often connected through transitional sequences
 - **[[Toe Hold Control]]** - Can be accessed from various entanglement positions
 - **[[Straight Ankle Lock]]** - Foundational submission within leg entanglement systems
-- **[[50/50 Guard]]** - Specific named entanglement with unique properties
-- **[[Backside 50/50]]** - Advanced entanglement configuration in modern systems
+- **[[50-50 guard]]** - Specific named entanglement with unique properties
+- **[[backside 50-50]]** - Advanced entanglement configuration in modern systems
 
 ## Expert Insights
 - **Danaher System**: Views leg entanglement as a systematic positional hierarchy, where specific configurations offer varying degrees of control and submission opportunity. Emphasizes understanding the mechanical relationships between different entanglements and their appropriate applications, creating what he terms the "lower body control system." Particularly focuses on the concept of "inside position" as the determining factor in entanglement effectiveness, with inside sankaku (inside heel hook position) representing the pinnacle of the entanglement hierarchy.

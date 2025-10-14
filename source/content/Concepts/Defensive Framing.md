@@ -7,7 +7,7 @@ development_timeline: Beginner to Advanced
 
 related_positions:
   - Mount Bottom
-  - Side Control Bottom
+  - Side Control to Mount
   - Knee on Belly Bottom
   - North-South Bottom
   - Turtle Bottom
@@ -89,10 +89,10 @@ Defensive Framing represents the practical application and technical execution o
 
 ### Common Scenarios Where Concept is Critical
 
-**Scenario 1: [[Mount Bottom]] when opponent drops chest toward your chest**
+**Scenario 1: [[Side Control to Mount]] when opponent drops chest toward your chest**
 → Apply cross-frame immediately: near forearm across neck/collarbone, far hand on hip, elbows at 90-degree angles creating skeletal structure that prevents chest-to-chest contact.
 
-**Scenario 2: [[Side Control Bottom]] when opponent establishes shoulder pressure**
+**Scenario 2: [[Side Control to Mount]] when opponent establishes shoulder pressure**
 → Apply near-elbow frame against neck/jaw while far hand frames on hip, creating space to initiate shrimping movement. Maintain elbow alignment to prevent collapse under shoulder drive.
 
 **Scenario 3: [[Knee on Belly Bottom]] when opponent positions knee on stomach**

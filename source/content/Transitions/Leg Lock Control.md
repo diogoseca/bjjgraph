@@ -346,6 +346,7 @@ Every transition file must include:
 - [[Inside Heel Hook]] - Primary submission from strong control
 - [[Straight Ankle Lock]] - Fundamental leg submission
 - [[Saddle Position]] - Advanced leg entanglement with multiple attack options
+- [[Won by Submission]] - Terminal state when leg lock control succeeds
 
 
 ## Competition Applications

@@ -261,6 +261,7 @@ You are positioned behind and partially on top of your opponent who is on their 
 - [[Crab Ride Position]] - Entry position
 - [[Turtle Position Top]] - Entry point
 - [[Half Guard Top]] - Entry point
+- [[Turtle Position]]
 
 ## Decision Tree
 **If** opponent's near arm is trapped and accessible:

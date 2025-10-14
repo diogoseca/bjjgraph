@@ -51,7 +51,7 @@
 - **Development Timeline**: Beginner to Advanced
 
 ## Concept Description
-Sprawl Defense represents the fundamental defensive technique and strategic framework for neutralizing takedown attacks through rapid hip displacement, weight distribution, and positional control that protects the lower body from wrestling-based entries. Unlike specific counter-techniques, sprawl defense is a comprehensive defensive principle that applies across all standing grappling scenarios where an opponent attempts to attack the legs or hips. This concept encompasses the biomechanical responses, timing patterns, and tactical understanding required to transform defensive reactions into offensive opportunities. Sprawl defense serves as both a protective mechanism that prevents takedowns and ground control, and a transitional platform that enables counter-attacks and dominant position establishment. The ability to execute effective sprawl defense often determines whether a practitioner maintains standing control or concedes bottom position, making it one of the most critical defensive elements in BJJ, wrestling, and MMA contexts.
+Sprawl Defense represents the fundamental defensive technique and strategic framework for neutralizing takedown attacks through rapid hip displacement, weight distribution, and positional control that protects the lower body from wrestling-based entries from [[Standing Position]]. Unlike specific counter-techniques, sprawl defense is a comprehensive defensive principle that applies across all standing grappling scenarios where an opponent attempts to attack the legs or hips. This concept encompasses the biomechanical responses, timing patterns, and tactical understanding required to transform defensive reactions into offensive opportunities. Sprawl defense serves as both a protective mechanism that prevents takedowns and ground control, and a transitional platform that enables counter-attacks and dominant position establishment. The ability to execute effective sprawl defense often determines whether a practitioner maintains standing control or concedes bottom position, making it one of the most critical defensive elements in BJJ, wrestling, and MMA contexts.
 
 ## Key Principles
 - React explosively to takedown initiation with immediate hip retraction
@@ -76,7 +76,7 @@ Sprawl Defense represents the fundamental defensive technique and strategic fram
 
 ## Concept Relationships
 - **[[Front Headlock Series]]** - Natural offensive transition from successful sprawl position
-- **[[Guillotine Setup]]** - Common submission attack available from sprawl control
+- **[[Guillotine Control]]** - Common submission attack available from sprawl control
 - **[[Base Maintenance]]** - Foundational stability principle that underpins sprawl effectiveness
 - **[[Takedown Defense]]** - Broader defensive framework that includes sprawl as primary tool
 - **[[Back Take Generic]]** - Advanced transition from sprawl to back control position

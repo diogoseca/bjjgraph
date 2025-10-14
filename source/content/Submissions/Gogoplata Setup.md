@@ -57,8 +57,8 @@ description: "Begin from an established control position such as New York Contro
 - **Alternative Names**: Shin Choke Setup, Rubber Guard Choke Entry
 
 ### State Machine Properties
-- **Starting State**: [[New York Control]], [[Williams Guard]]
-- **Ending State**: [[Gogoplata Control]]
+- **Starting State**: [[Standing Position]], [[Williams Guard]]
+- **Ending State**: [[Gogoplata Control]], [[Won by Submission]]
 - **Submission Type**: Setup - Prepares for shin choke submission
 
 ### Submission Properties

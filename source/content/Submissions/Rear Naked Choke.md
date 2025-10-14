@@ -58,7 +58,7 @@ description: "From the Back Control position, you begin by establishing seatbelt
 
 ### State Machine Properties
 - **Starting State**: [[Back Control]]
-- **Ending State**: [[Won by Submission]]
+- **Ending State**: [[Standing Position]]
 - **Submission Type**: Choke - Targets carotid arteries
 
 ### Submission Properties
@@ -316,9 +316,9 @@ The Rear Naked Choke, known as "Mata Leão" in Portuguese and "Hadaka Jime" in J
 ## Submission Integration
 **Common Rear Naked Choke combinations:**
 - [[Back Control]] → [[Rear Naked Choke]] → [[Won by Submission]]
-- [[Failed Rear Naked Choke]] → [[Face Crank]] → [[Won by Submission]]
-- [[Failed Rear Naked Choke]] → [[Armbar from Back]] → [[Armbar Finish]]
-- [[Failed Rear Naked Choke]] → [[Bow and Arrow Choke]] → [[Won by Submission]]
+- [[Rear Naked Choke]] → [[Face Crank]] → [[Won by Submission]]
+- [[Rear Naked Choke]] → [[Armbar from Back]] → [[Armbar Finish]]
+- [[Rear Naked Choke]] → [[Bow and Arrow Choke]] → [[Won by Submission]]
 
 ## Training Applications
 - **Positional Specialization**: Essential for competitors focusing on back attacks

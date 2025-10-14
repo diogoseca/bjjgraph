@@ -67,10 +67,10 @@ From standing position, you recognize your opponent beginning a takedown attempt
 
 Opponent defensive responses with success rates and conditions:
 
-- **[[Run the Pipe]]** → [[Single Leg Control]] (Success Rate: 40%, Conditions: opponent drives through despite sprawl with leg elevation)
-- **[[Switch to Double]]** → [[Double Leg Control]] (Success Rate: 35%, Conditions: opponent adjusts to both legs if sprawl incomplete)
-- **[[Pull Guard]]** → [[Guard Bottom]] (Success Rate: 30%, Conditions: opponent accepts bottom position instead of completing takedown)
-- **[[Granby Roll]]** → [[Standing]] (Success Rate: 25%, Conditions: opponent rolls out escaping sprawl pressure)
+- **[[Run the Pipe]]** → [[Single Leg Entry]] (Success Rate: 40%, Conditions: opponent drives through despite sprawl with leg elevation)
+- **[[Switch to Double]]** → [[Double Leg Entry]] (Success Rate: 35%, Conditions: opponent adjusts to both legs if sprawl incomplete)
+- **[[Pull Guard]]** → [[Half Guard Bottom]] (Success Rate: 30%, Conditions: opponent accepts bottom position instead of completing takedown)
+- **[[Granby Roll]]** → [[Standing Up]] (Success Rate: 25%, Conditions: opponent rolls out escaping sprawl pressure)
 
 ### Decision Logic for AI Opponent
 
@@ -394,10 +394,10 @@ The sprawl is one of the oldest and most fundamental wrestling techniques, with 
 ## Position Integration
 
 **Common combinations and sequences:**
-- [[Standing]] → [[Sprawl Defense]] → [[Sprawl Position]]
-- [[Standing]] → [[Sprawl Defense]] → [[Front Headlock]]
-- [[Standing]] → [[Sprawl Defense]] → [[Guillotine Setup]]
-- [[Sprawl Position]] → [[Back Take]] (if opponent turns)
+- [[Standing Up]] → [[Sprawl Defense]] → [[Scramble Position]]
+- [[Standing Up]] → [[Sprawl Defense]] → [[Front Headlock]]
+- [[Standing Up]] → [[Sprawl Defense]] → [[Guillotine Setup]]
+- [[Scramble Position]] → [[Back Take]] (if opponent turns)
 
 ## Related Techniques
 

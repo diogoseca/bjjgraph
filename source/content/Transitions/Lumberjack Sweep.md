@@ -369,9 +369,10 @@ Lumberjack Sweep is a fundamental Brazilian Jiu-Jitsu technique developed as par
 
 ## Position Integration
 **Common Lumberjack Sweep combinations:**
+- [[Closed Guard Bottom]] → [[Lumberjack Sweep]] → [[Side Control]] - Typical finishing position
 - [[Closed Guard Bottom]] → [[Lumberjack Sweep]] → [[Mount]]
 - [[Closed Guard Bottom]] → [[Lumberjack Sweep]] → [[Top Position]]
-- [[Closed Guard Bottom]] → [[Failed Lumberjack Sweep]] → [[Neutral Position]]
+- [[Closed Guard Bottom]] → [[lumberjack sweep]] → [[Neutral Position]]
 
 ## Training Applications
 - **Sweep Development**: Essential for closed guard sweeping arsenal

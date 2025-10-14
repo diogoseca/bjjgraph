@@ -166,7 +166,7 @@ Factors that increase/decrease probability:
 
 ### Common Counters
 Opponent responses with success rates:
-- **Base Wide**: Widening base to prevent scissor effectiveness → [[Closed Guard Top]] (Success Rate: 45%, Conditions: early recognition)
+- **Base Widening**: Widening base to prevent scissor effectiveness → [[Closed Guard Top]] (Success Rate: 45%, Conditions: early recognition)
 - **Grip Break**: Breaking collar or sleeve grip to neutralize control → [[Open Guard]] (Success Rate: 40%, Conditions: superior grip fighting)
 - **Drive Forward**: Pressuring forward to pass before sweep → [[Guard Pass]] (Success Rate: 35%, Conditions: timing dependent)
 - **Post Hand**: Posting hand to prevent rollover completion → [[Closed Guard Top]] (Success Rate: 50%, Conditions: quick reaction)
@@ -176,7 +176,7 @@ Format: `[[Counter Technique]] → [[Result State]] (Success Rate: X%, Condition
 ### Decision Logic
 ```
 If [scissor setup] is recognized early:
-- Execute [[Base Wide]] (Probability: 45%)
+- Execute [[Base Widening]] (Probability: 45%)
 
 Else if [grips are not secure]:
 - Execute [[Grip Break]] (Probability: 40%)

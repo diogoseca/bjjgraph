@@ -92,7 +92,7 @@ version: "2.0"
 
 ## LLM Context: Submission Data Structure
 
-**Purpose**: The Straight Footlock is a leg lock submission targeting the ankle joint and Achilles tendon. Success results in immediate match victory. Safety is paramount - ankle injuries can sideline training for weeks or months.
+**Purpose**: The Straight Footlock is a leg lock submission targeting the ankle joint and Achilles tendon. Success results in immediate match victory ([[Won by Submission]]). Safety is paramount - ankle injuries can sideline training for weeks or months.
 
 **Setup Requirements Checklist**:
 - [ ] Starting position: [[Ashi Garami]] (S075) or similar leg entanglement established

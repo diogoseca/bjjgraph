@@ -1,0 +1,239 @@
+{
+  "session": 2,
+  "agent": 10,
+  "total_agents": 10,
+  "fixes": [
+    {
+      "source_file": "Shrimp Escape",
+      "target_link": "Side Control Bottom",
+      "line_number": null,
+      "suggested_fix": "side control to mount",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Shrimp Escape",
+      "target_link": "Guard Bottom",
+      "line_number": null,
+      "suggested_fix": "half guard bottom",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "Shrimp Escape",
+      "target_link": "Side Control Bottom",
+      "line_number": null,
+      "suggested_fix": "side control to mount",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Shrimp Escape",
+      "target_link": "Side Control Bottom",
+      "line_number": null,
+      "suggested_fix": "side control to mount",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Side Control",
+      "target_link": "Elbow-Knee Escape",
+      "line_number": null,
+      "suggested_fix": "elbow escape",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "Side Control",
+      "target_link": "Turtle Transition",
+      "line_number": null,
+      "suggested_fix": "turtle position",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Side Control",
+      "target_link": "Arm Triangle Setup",
+      "line_number": null,
+      "suggested_fix": "triangle setup",
+      "confidence": 87.5
+    },
+    {
+      "source_file": "Side Control",
+      "target_link": "Arm Triangle Control",
+      "line_number": null,
+      "suggested_fix": "triangle control",
+      "confidence": 88.88888888888889
+    },
+    {
+      "source_file": "Side Control",
+      "target_link": "Standing Top Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 89.47368421052632
+    },
+    {
+      "source_file": "Side Control",
+      "target_link": "Arm Triangle Setup",
+      "line_number": null,
+      "suggested_fix": "triangle setup",
+      "confidence": 87.5
+    },
+    {
+      "source_file": "Side Control Consolidation",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Side Control Defensive Framework",
+      "target_link": "Space Preservation",
+      "line_number": null,
+      "suggested_fix": "space generation",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Side Control Defensive Framework",
+      "target_link": "Elbow-Frame Creation",
+      "line_number": null,
+      "suggested_fix": "frame creation",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Side Control Defensive Framework",
+      "target_link": "Half Guard Entry",
+      "line_number": null,
+      "suggested_fix": "half guard top",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Side Control Defensive Framework",
+      "target_link": "Knee Shield Insertion",
+      "line_number": null,
+      "suggested_fix": "knee shield retention",
+      "confidence": 80.95238095238095
+    },
+    {
+      "source_file": "Side Control Defensive Framework",
+      "target_link": "Turtle Transition",
+      "line_number": null,
+      "suggested_fix": "turtle position",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Side Control Defensive Framework",
+      "target_link": "Knee Shield Insertion",
+      "line_number": null,
+      "suggested_fix": "knee shield retention",
+      "confidence": 80.95238095238095
+    },
+    {
+      "source_file": "Side Control Defensive Framework",
+      "target_link": "Butterfly Hook Sweep",
+      "line_number": null,
+      "suggested_fix": "butterfly sweep",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Side Control to Mount",
+      "target_link": "Knee Shield Insertion",
+      "line_number": null,
+      "suggested_fix": "knee shield retention",
+      "confidence": 80.95238095238095
+    },
+    {
+      "source_file": "Side Control to Mount",
+      "target_link": "Kimura Threat",
+      "line_number": null,
+      "suggested_fix": "kimura trap",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Side Control to Mount",
+      "target_link": "Mounted Armbar",
+      "line_number": null,
+      "suggested_fix": "mount to armbar",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "Side Control to Mount",
+      "target_link": "S-Mount Transition",
+      "line_number": null,
+      "suggested_fix": "s-mount position",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Side Control to Mount",
+      "target_link": "S-Mount",
+      "line_number": null,
+      "suggested_fix": "mount",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Single Leg Entry",
+      "target_link": "Standing",
+      "line_number": null,
+      "suggested_fix": "standing up",
+      "confidence": 84.21052631578947
+    },
+    {
+      "source_file": "Single Leg Entry",
+      "target_link": "Whizzer Counter",
+      "line_number": null,
+      "suggested_fix": "whizzer control",
+      "confidence": 86.66666666666667
+    },
+    {
+      "source_file": "Single Leg Entry",
+      "target_link": "Crossface Counter",
+      "line_number": null,
+      "suggested_fix": "cross face control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Single Leg Entry",
+      "target_link": "Standing",
+      "line_number": null,
+      "suggested_fix": "standing up",
+      "confidence": 84.21052631578947
+    },
+    {
+      "source_file": "Single Leg Entry",
+      "target_link": "Standing",
+      "line_number": null,
+      "suggested_fix": "standing up",
+      "confidence": 84.21052631578947
+    },
+    {
+      "source_file": "Single Leg Entry",
+      "target_link": "Whizzer Counter",
+      "line_number": null,
+      "suggested_fix": "whizzer control",
+      "confidence": 86.66666666666667
+    },
+    {
+      "source_file": "Single Leg Entry",
+      "target_link": "Crossface Counter",
+      "line_number": null,
+      "suggested_fix": "cross face control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Single Leg Entry",
+      "target_link": "Standing",
+      "line_number": null,
+      "suggested_fix": "standing up",
+      "confidence": 84.21052631578947
+    },
+    {
+      "source_file": "Single Leg Entry",
+      "target_link": "Single Leg Control",
+      "line_number": null,
+      "suggested_fix": "single leg entry",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Single Leg Entry",
+      "target_link": "Standing",
+      "line_number": null,
+      "suggested_fix": "standing up",
+      "confidence": 84.21052631578947
+    }
+  ],
+  "fix_count": 33
+}

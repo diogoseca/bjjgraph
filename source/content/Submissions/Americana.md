@@ -58,7 +58,7 @@ description: "Final positioning with opponent's arm in figure-four configuration
 - **Submission Category**: Joint Lock - categorizes submission type
 
 ### State Machine Properties
-- **Starting State**: [[Mount]], [[Side Control]], [[North-South]], [[Knee on Belly]]
+- **Starting State**: [[Mount]], [[Side Control]], [[Side Control Top]], [[North-South]], [[Knee on Belly]]
 - **Ending State**: Always "Won by Submission" (terminal state)
 - **Submission Type**: Shoulder Lock
 - **Target Area**: Shoulder joint and rotator cuff

@@ -188,18 +188,18 @@ You are typically seated or on your side, facing your opponent, with one of thei
 - Angle established for potential submission
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Leg Slip and Hip Escape]] → [[Leg Entanglement Escape]] (Success Rate: 40%)
+- [[Leg Slip and Hip Escape]] → [[Leg Entanglement]] (Success Rate: 40%)
 - [[Rotational Defense]] → [[Neutral Position]] (Success Rate: 35%)
-- [[Counter Leg Entanglement]] → [[50/50 Guard]] (Success Rate: 30%)
+- [[leg entanglement]] → [[50-50 Guard]] (Success Rate: 30%)
 - [[Turn to Knees]] → [[Turtle Position]] (Success Rate: 25%)
 - [[Boot Escape]] → [[Standing Escape]] (Success Rate: 20%)
 
 ## Offensive Transitions (Available From This State)
 - [[Straight Ankle Lock]] → [[Won by Submission]] (Success Rate: Beginner 35%, Intermediate 45%, Advanced 55%)
 - [[Transition to Inside Sankaku]] → [[Inside Sankaku]] (Success Rate: Beginner 30%, Intermediate 40%, Advanced 50%)
-- [[Transition to Outside Sankaku]] → [[50/50 Guard]] (Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%)
+- [[Transition to Outside Sankaku]] → [[50-50 Guard Bottom]] (Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%)
 - [[Transition to Cross Ashi]] → [[Cross Ashi]] (Success Rate: Beginner 20%, Intermediate 30%, Advanced 40%)
-- [[Back Step to Backside 50/50]] → [[Backside 50/50]] (Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%)
+- [[Back Step to Backside 50/50]] → [[Backside 50-50]] (Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%)
 - [[Crab Ride Transition]] → [[Crab Ride]] (Success Rate: Beginner 20%, Intermediate 30%, Advanced 40%)
 - [[Technical Stand-up]] → [[Top Position]] (Success Rate: Beginner 30%, Intermediate 40%, Advanced 50%)
 
@@ -239,10 +239,10 @@ You are typically seated or on your side, facing your opponent, with one of thei
 
 ## Related States
 - [[Inside Sankaku]] - Advanced leg entanglement targeting inside heel hook
-- [[50/50 Guard]] - Mutual leg entanglement position
+- [[50-50 Guard]] - Mutual leg entanglement position
 - [[Single Leg X Guard]] - Precursor leg entanglement position
 - [[Cross Ashi]] - Modified leg entanglement with cross-body control
-- [[Backside 50/50]] - Attacking from behind the leg entanglement
+- [[Backside 50-50]] - Attacking from behind the leg entanglement
 
 
 ## Related Positions
@@ -259,8 +259,8 @@ If opponent turns away (exposing heel):
 - Or Execute [[Straight Ankle Lock]] → [[Won by Submission]] (Probability: 40%)
 
 Else if opponent turns in defensively:
-- Execute [[Transition to Outside Sankaku]] → [[50/50 Guard]] (Probability: 35%)
-- Or Execute [[Back Step to Backside 50/50]] → [[Backside 50/50]] (Probability: 30%)
+- Execute [[Transition to Outside Sankaku]] → [[50-50 Guard Bottom]] (Probability: 35%)
+- Or Execute [[Back Step to Backside 50/50]] → [[Backside 50-50]] (Probability: 30%)
 
 Else if opponent stands up:
 - Execute [[Elevate to X-Guard]] → [[X-Guard]] (Probability: 40%)

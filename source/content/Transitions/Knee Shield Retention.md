@@ -193,6 +193,7 @@ This technique represents an important element in Brazilian Jiu-Jitsu's technica
 
 ## Related Techniques
 
+- [[Guard Recovery]] - Primary defensive goal for guard retention
 - [[Similar Technique 1]] - Related through common mechanics or position
 - [[Similar Technique 2]] - Alternative approach from same position
 - [[Similar Technique 3]] - Natural follow-up or combination option

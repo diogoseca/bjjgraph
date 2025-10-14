@@ -174,11 +174,11 @@ The Kneebar from 50/50 is one of the highest-percentage leg lock submissions in 
 
 The kneebar attacks multiple knee structures simultaneously - primarily the ACL, MCL, and joint capsule - through controlled hyperextension. When properly applied with correct angle and control, the submission can be finished quickly, but this efficiency makes safety protocols absolutely critical in training. The technique exemplifies the modern leg lock game where position control precedes submission attempt.
 
-From [[50/50 Guard]] position, the kneebar is typically set up when you successfully clear your inside leg and isolate the opponent's target leg across your body. The technique requires precise hip positioning, proper leg control with the arms, and progressive pressure application to avoid injury while maintaining effectiveness.
+From [[50-50 Guard]] position, the kneebar is typically set up when you successfully clear your inside leg and isolate the opponent's target leg across your body. The technique requires precise hip positioning, proper leg control with the arms, and progressive pressure application to avoid injury while maintaining effectiveness.
 
 ### Submission Properties
 
-From [[50/50 Guard]]:
+From [[50-50 guard]]:
 
 **Success Rates**:
 - Beginner: 25%
@@ -208,7 +208,7 @@ Your opponent experiences increasing pressure on multiple knee structures simult
 
 Conditions that **must** be satisfied before attempting:
 
-1. **Position Establishment**: [[50/50 Guard]] established with both legs entangled, outside leg controlling opponent's hip
+1. **Position Establishment**: [[50-50 guard]] established with both legs entangled, outside leg controlling opponent's hip
 
 2. **Control Points**:
    - Outside leg hook maintaining hip control
@@ -359,19 +359,19 @@ Conditions that **must** be satisfied before attempting:
 Defensive responses with success rates and safety windows:
 
 **Early Defense** (Setup <70% complete - leg not isolated)
-- [[50/50 Leg Pummeling]] → [[50/50 Guard Maintained]] (Success Rate: 65%, Window: 2-3 seconds)
+- [[50-50 Leg Pummeling]] → [[50-50 Guard Maintained]] (Success Rate: 65%, Window: 2-3 seconds)
 - Defender action: Fight to keep inside leg engaged, prevent leg isolation through active pummeling
 - Attacker response: Secure outside leg hip control, use hip movement to clear inside leg
 - Safety note: Best time to defend - submission not locked yet, no injury risk
 
 **Hand Fighting** (Leg isolated but not secured)
-- [[Clear Grip Defense]] → [[50/50 Reset]] (Success Rate: 45%, Window: 1-2 seconds)
+- [[Clear Grip Defense]] → [[50-50 Reset]] (Success Rate: 45%, Window: 1-2 seconds)
 - Defender action: Use hands to clear leg grips, pull knee back, fight arm control aggressively
 - Attacker response: Secure grips quickly, pull leg tight to body, establish knee position in elbow
 - Safety note: Still safe window for escape before pressure applied
 
 **Hip Alignment Defense** (Leg secured but angle not perfect)
-- [[Hip Alignment Counter]] → [[50/50 Neutral]] (Success Rate: 30%, Window: 1-2 seconds)
+- [[Hip Alignment Counter]] → [[50-50 Neutral]] (Success Rate: 30%, Window: 1-2 seconds)
 - Defender action: Turn hips to keep knee line aligned with attacker's body, prevent perpendicular angle
 - Attacker response: Adjust body angle, use outside leg to control opponent's hip rotation
 - Safety critical: Last moment to escape - once angle set, must tap
@@ -649,7 +649,7 @@ Safe learning pathway emphasizing control before completion:
 ## Variations & Setups
 
 ### Primary Setup (Most Common)
-From [[50/50 Guard]]:
+From [[50-50 guard]]:
 - Enter 50/50 position with both legs entangled
 - Clear inside leg using hip movement and active pummeling
 - Isolate target leg, pulling it across your body
@@ -803,7 +803,7 @@ Test understanding before live application. Minimum 5/6 correct required.
 ### Question 1: Setup Recognition (Safety Critical)
 **Q**: What position and controls must be established before attempting this submission safely?
 
-**A**: Starting position must be [[50/50 Guard]] with both legs entangled. Required controls: (1) Outside leg hook controlling opponent's hip (maintains position), (2) Inside leg cleared from entanglement (allows leg isolation), (3) Target leg isolated and secured across your body with both arms (controls leg completely), (4) Opponent's knee positioned in crook of your elbow or armpit (fulcrum point), (5) Hip angle perpendicular to opponent's leg (creates leverage), (6) Space eliminated between your chest and back of their knee (maximizes pressure). Safety verification includes ensuring both of partner's hands are free to tap clearly and that clear verbal communication is established beforehand.
+**A**: Starting position must be [[50-50 guard]] with both legs entangled. Required controls: (1) Outside leg hook controlling opponent's hip (maintains position), (2) Inside leg cleared from entanglement (allows leg isolation), (3) Target leg isolated and secured across your body with both arms (controls leg completely), (4) Opponent's knee positioned in crook of your elbow or armpit (fulcrum point), (5) Hip angle perpendicular to opponent's leg (creates leverage), (6) Space eliminated between your chest and back of their knee (maximizes pressure). Safety verification includes ensuring both of partner's hands are free to tap clearly and that clear verbal communication is established beforehand.
 
 **Why It Matters**: Attempting kneebar without proper setup leads to forcing/muscling the position, which increases injury risk dramatically and teaches poor technique. Proper setup makes the finish inevitable and safe through mechanical advantage, not dangerous force.
 
@@ -975,7 +975,7 @@ Test understanding before live application. Minimum 5/6 correct required.
 - **Variations**: "knee bar", "50 50 leg lock", "leg attack from 50/50"
 
 ### Internal Linking (Minimum 3-5)
-- [[50/50 Guard]] - primary setup position
+- [[50-50 guard]] - primary setup position
 - [[Heel Hook from 50/50]] - related submission and chain combination
 - [[Calf Slicer from 50/50]] - related submission and chain combination
 - [[Deep Half Guard]] - alternative entry position

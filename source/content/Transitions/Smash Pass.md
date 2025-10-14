@@ -174,7 +174,7 @@ Factors that influence the success rate of the transition:
 Analysis of opponent responses with success rates for counter-attacks:
 - **Hip Escape** → [[Open Guard Bottom]] (Success Rate: 35%, Conditions: opponent shrimps to create space and recover guard)
 - **Frame Defense** → [[Guard Retention]] (Success Rate: 30%, Conditions: opponent establishes strong frames to block pressure)
-- **Submission Attempt** → [[Triangle Choke]] (Success Rate: 25%, Conditions: opponent catches your head or arm during pass attempt)
+- **Submission Attempt** → [[Triangle Choke Side]] (Success Rate: 25%, Conditions: opponent catches your head or arm during pass attempt)
 - **Sweep Counter** → [[Bottom Position]] (Success Rate: 20%, Conditions: opponent uses your forward pressure for a sweep)
 - **Leg Lock Threat** → [[Leg Lock Attempt]] (Success Rate: 15%, Conditions: opponent counters with a leg attack as legs are exposed)
 

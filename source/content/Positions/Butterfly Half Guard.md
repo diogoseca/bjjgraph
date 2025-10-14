@@ -15,8 +15,8 @@ description: "Master Butterfly Half Guard in BJJ. Complete guide covering setup,
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Butterfly Half Sweep",
-      "text": "From this position, execute Butterfly Half Sweep to transition to Top Position.",
+      "name": "Execute Butterfly Sweep",
+      "text": "From this position, execute Butterfly Sweep to transition to Top Position.",
       "position": 1
     },
     {
@@ -197,7 +197,7 @@ You are positioned on the mat in a seated or slightly reclined posture, facing y
 - [[Leg Weave Pass]] → [[Leg Drag Position]] (Success Rate: 15%)
 
 ## Offensive Transitions (Available From This State)
-- [[Butterfly Half Sweep]] → [[Top Position]] (Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%)
+- [[butterfly sweep]] → [[Top Position]] (Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%)
 - [[Modified Butterfly Sweep]] → [[Mount]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
 - [[Transition to Full Butterfly]] → [[Butterfly Guard]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
 - [[Hook Sweep to Back]] → [[Back Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
@@ -258,7 +258,7 @@ You are positioned on the mat in a seated or slightly reclined posture, facing y
 
 ## Decision Tree
 If opponent stands with weight on trapped leg:
-- Execute [[Butterfly Half Sweep]] → [[Top Position]] (Probability: 55%)
+- Execute [[Butterfly Sweep]] → [[Top Position]] (Probability: 55%)
 - Or Execute [[Hook Sweep to Back]] → [[Back Control]] (Probability: 40%)
 
 Else if opponent drives forward with pressure:
@@ -273,7 +273,7 @@ Else if opponent drives forward with pressure:
 
 ## Optimal Paths
 Primary sweeping path:
-[[Butterfly Half Guard]] → [[Butterfly Half Sweep]] → [[Top Position]] → [[Side Control]] → [[Mount]] → submission chain
+[[Butterfly Half Guard]] → [[Butterfly Sweep]] → [[Top Position]] → [[Side Control]] → [[Mount]] → submission chain
 
 Back-taking path:
 [[Butterfly Half Guard]] → [[Hook Sweep to Back]] → [[Back Control]] → [[Rear Naked Choke]] → [[Won by Submission]]

@@ -81,7 +81,7 @@ The Defensive Prioritization Framework represents a comprehensive strategic appr
 - [[Bridge and Roll]] - Fundamental defensive escape from mount
 - [[Hip Escape]] - Core defensive movement creating space and angles
 - [[Frame Creation]] - Foundational defensive structure establishment
-- [[Turtle Recovery]] - Specialized defensive transition sequence
+- [[Posture Recovery]] - Specialized defensive transition sequence
 
 ## Decision Hierarchy
 1. Address immediate submission threats through survival-focused defense
@@ -92,6 +92,8 @@ The Defensive Prioritization Framework represents a comprehensive strategic appr
 6. Recognize and exploit transitional recovery opportunities
 7. Establish neutral or advantageous position when possible
 8. Maintain defensive awareness even during offensive transitions
+
+[[Back Control]] is the highest priority defensive threat to escape from, making it directly relevant to a defensive prioritization framework.
 
 ## Strategic Vulnerabilities
 - Defensive overcommitment - Counter with [[Defensive Posture]] maintenance

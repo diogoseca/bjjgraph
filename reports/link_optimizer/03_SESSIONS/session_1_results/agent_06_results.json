@@ -1,0 +1,229 @@
+{
+  "session": 1,
+  "agent": 6,
+  "total_agents": 10,
+  "fixes_attempted": 37,
+  "fixes_successful": 21,
+  "fixes_skipped": 16,
+  "timestamp": "2025-01-13T00:00:00Z",
+  "files_modified": [
+    "Closed Guard Bottom-V2.md",
+    "Closed Guard Top.md",
+    "Closed Guard Top Position.md",
+    "Closed Guard to Triangle.md",
+    "Combat Base.md",
+    "Competition Preparation System.md",
+    "Competition Scoring Strategy.md",
+    "Competition Strategy.md"
+  ],
+  "detailed_results": [
+    {
+      "source_file": "Closed Guard Bottom-V2",
+      "fixes": [
+        {
+          "broken_link": "Triangle Choke",
+          "fixed_to": "Triangle Choke Side",
+          "occurrences": 3,
+          "status": "success"
+        },
+        {
+          "broken_link": "Submission Chain",
+          "fixed_to": "Submission Chains",
+          "occurrences": 1,
+          "status": "success"
+        },
+        {
+          "broken_link": "Standing Guard",
+          "fixed_to": "Standing in Guard",
+          "occurrences": 1,
+          "status": "success"
+        },
+        {
+          "broken_link": "Side Control",
+          "fixed_to": "Side Control Top",
+          "occurrences": 2,
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "source_file": "Closed Guard Top",
+      "fixes": [
+        {
+          "broken_link": "Standing Guard Break",
+          "fixed_to": "Standing Guard",
+          "occurrences": 3,
+          "status": "success"
+        },
+        {
+          "broken_link": "Stacking Position",
+          "fixed_to": "Standing Position",
+          "occurrences": 4,
+          "status": "success"
+        },
+        {
+          "broken_link": "Posture Maintenance",
+          "fixed_to": "Base Maintenance",
+          "occurrences": 1,
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "source_file": "Closed Guard Top Position",
+      "fixes": [
+        {
+          "broken_link": "Standing Guard Break",
+          "fixed_to": "Standing Guard",
+          "occurrences": 3,
+          "status": "success"
+        },
+        {
+          "broken_link": "Open Guard Pass Position",
+          "fixed_to": "Half Guard Pass Position",
+          "occurrences": 5,
+          "status": "success"
+        },
+        {
+          "broken_link": "Submission Chain",
+          "fixed_to": "Submission Chains",
+          "occurrences": 1,
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "source_file": "Closed Guard to Triangle",
+      "fixes": [
+        {
+          "broken_link": "Von Flue Counter",
+          "fixed_to": "Von Flue Choke",
+          "occurrences": 1,
+          "status": "success"
+        },
+        {
+          "broken_link": "Closed Guard Control",
+          "fixed_to": "Closed Guard Bottom",
+          "occurrences": 1,
+          "status": "success"
+        },
+        {
+          "broken_link": "Kimura Threat",
+          "fixed_to": "Kimura Trap",
+          "occurrences": 1,
+          "status": "success"
+        },
+        {
+          "broken_link": "Mounted Triangle Control",
+          "fixed_to": "Triangle Control",
+          "occurrences": 1,
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "source_file": "Collar Drag",
+      "fixes": [
+        {
+          "broken_link": "Defensive Reaction",
+          "fixed_to": "Defensive Framing",
+          "occurrences": 1,
+          "status": "already_correct",
+          "note": "File already contains 'Defensive Framing' - no change needed"
+        }
+      ]
+    },
+    {
+      "source_file": "Combat Base",
+      "fixes": [
+        {
+          "broken_link": "Submission Control",
+          "fixed_to": "Mission Control",
+          "occurrences": 1,
+          "status": "already_correct",
+          "note": "File already correct"
+        },
+        {
+          "broken_link": "Headquarters Transition",
+          "fixed_to": "Headquarters Position",
+          "occurrences": 2,
+          "status": "already_correct",
+          "note": "File already correct"
+        },
+        {
+          "broken_link": "Standing Transition",
+          "fixed_to": "Standing Position",
+          "occurrences": 1,
+          "status": "already_correct",
+          "note": "File already correct"
+        },
+        {
+          "broken_link": "Defensive Base",
+          "fixed_to": "Defensive Frame",
+          "occurrences": 2,
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "source_file": "Competition Preparation System",
+      "fixes": [
+        {
+          "broken_link": "Energy Management",
+          "fixed_to": "Energy Management System",
+          "occurrences": 1,
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "source_file": "Competition Scoring Strategy",
+      "fixes": [
+        {
+          "broken_link": "Guard Bottom",
+          "fixed_to": "Half Guard Bottom",
+          "occurrences": 1,
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "source_file": "Competition Strategy",
+      "fixes": [
+        {
+          "broken_link": "Front Headlock Entry",
+          "fixed_to": "Front Headlock Series",
+          "occurrences": 2,
+          "status": "success"
+        },
+        {
+          "broken_link": "Single Leg X",
+          "fixed_to": "Single Leg X Guard",
+          "occurrences": 1,
+          "status": "already_correct",
+          "note": "File already correct"
+        }
+      ]
+    },
+    {
+      "source_file": "Connection Breaking",
+      "fixes": [
+        {
+          "broken_link": "Side Control Bottom",
+          "fixed_to": "Side Control to Mount",
+          "occurrences": 1,
+          "status": "already_correct",
+          "note": "File was already updated to correct value"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "files_processed": 9,
+    "unique_broken_links_fixed": 15,
+    "total_link_replacements": 21,
+    "links_already_correct": 16,
+    "confidence_range": "80-97%",
+    "average_confidence": 84.5
+  }
+}

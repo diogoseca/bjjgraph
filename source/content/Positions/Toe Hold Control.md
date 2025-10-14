@@ -34,7 +34,7 @@ description: "Master Toe Hold Control in BJJ. Complete guide covering setup, con
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold to 50/50",
-      "text": "From this position, execute Toe Hold to 50/50 to transition to 50/50 Guard.",
+      "text": "From this position, execute Toe Hold to 50/50 to transition to 50-50 Guard.",
       "position": 4
     },
     {
@@ -144,7 +144,7 @@ Toe Hold Control is a specialized submission position where the practitioner man
 ## Defensive Responses (When Opponent Has This State)
 - [[Boot Escape]] → [[Grip Breaking]]
 - [[Hip Rotation]] → [[Angle Change]]
-- [[Leg Entanglement Counter]] → [[Positional Recovery]]
+- [[Leg Entanglement]] → [[Positional Recovery]]
 - [[Forward Roll]] → [[Scramble Position]]
 - [[Defensive Frame]] → [[Space Creation]]
 
@@ -152,7 +152,7 @@ Toe Hold Control is a specialized submission position where the practitioner man
 - [[Toe Hold Finish]] → [[Won by Submission]]
 - [[Transition to Ankle Lock]] → [[Straight Ankle Lock]]
 - [[Toe Hold to Knee Bar]] → [[Kneebar Control]]
-- [[Toe Hold to 50/50]] → [[50/50 Guard]]
+- [[Toe Hold to 50/50]] → [[50-50 Guard]]
 - [[Top Position Transition]] → [[Top Position]]
 - [[Toe Hold to Heel Hook]] → [[Inside Heel Hook]]
 - [[Cross Body Toe Hold]] → [[Modified Toe Hold]]
@@ -187,7 +187,7 @@ Toe Hold Control is a specialized submission position where the practitioner man
 - [[Straight Ankle Lock]] - Related foot/ankle attack
 - [[Kneebar Control]] - Common transitional option
 - [[Inside Heel Hook]] - Connected leg lock
-- [[50/50 Guard]] - Related leg entanglement
+- [[50-50 Guard]] - Related leg entanglement
 - [[Ashi Garami]] - Foundational leg control position
 
 

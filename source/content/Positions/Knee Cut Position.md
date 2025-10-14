@@ -33,8 +33,8 @@ description: "Master Knee Cut Position in BJJ. Complete guide covering setup, co
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Backstep",
-      "text": "From this position, execute Backstep to transition to Leg Drag Position.",
+      "name": "Execute Back Step",
+      "text": "From this position, execute Back Step to transition to Leg Drag Position.",
       "position": 4
     },
     {
@@ -150,12 +150,13 @@ The Knee Cut Position represents a dominant transitional control point during th
 
 ## Offensive Transitions (Available From This State)
 - [[Complete Knee Cut]] → [[Side Control]]
+- [[Knee Cut Pass]] → [[Side Control]]
 - [[Knee Cut to Mount]] → [[Mount]]
 - [[Knee Cut to North-South]] → [[North-South]]
-- [[Backstep]] → [[Leg Drag Position]]
+- [[Back Step]] → [[Leg Drag Position]]
 - [[Folding Pass Transition]] → [[Smash Pass Position]]
 - [[Kimura Trap from Knee Cut]] → [[Kimura Control]]
-- [[Near Side Armbar]] → [[Armbar Control]]
+- [[Far Side Armbar]] → [[Armbar Control]]
 - [[Knee Cut to Back Take]] → [[Back Control]]
 
 ## Counter Transitions
@@ -204,7 +205,7 @@ The Knee Cut Position represents a dominant transitional control point during th
 
 ## Decision Tree
 If opponent establishes knee shield:
-- Execute [[Float and Redirect]] or [[Backstep]]
+- Execute [[Float and Redirect]] or [[Back Step]]
 
 Else if opponent secures underhook:
 - Execute [[Crossface and Pressure]] or [[Switch Base]]
@@ -213,7 +214,7 @@ Else if opponent turns away:
 - Execute [[Follow to Back]] or [[Switch to North-South]]
 
 Else if opponent creates space with frame:
-- Execute [[Folding Pass Transition]] or [[Heavy Shoulder Pressure]]
+- Execute [[Folding Pass Transition]] or [[Shoulder Pressure]]
 
 ## Position Metrics
 - Success Rate: 75% pass completion (competition data)

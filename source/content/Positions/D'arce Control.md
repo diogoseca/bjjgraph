@@ -45,8 +45,8 @@ description: "Master D'arce Control in BJJ. Complete guide covering setup, contr
     },
     {
       "@type": "HowToStep",
-      "name": "Execute D'arce to Back Control",
-      "text": "From this position, execute D'arce to Back Control to transition to Back Control.",
+      "name": "Execute Turtle to Back Control",
+      "text": "From this position, execute Turtle to Back Control to transition to Back Control.",
       "position": 6
     }
   ],
@@ -202,7 +202,7 @@ You are positioned facing your opponent, often from a top position like side con
 - [[Switch to Anaconda]] → [[Anaconda Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
 - [[D'arce to North-South]] → [[North-South]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
 - [[Japanese Necktie Transition]] → [[Japanese Necktie]] (Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%)
-- [[D'arce to Back Control]] → [[Back Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
+- [[Turtle to Back Control]] → [[Back Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
 - [[Marce Variation]] → [[Won by Submission]] (Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%)
 - [[Transition to Front Headlock]] → [[Front Headlock]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
 
@@ -258,7 +258,7 @@ You are positioned facing your opponent, often from a top position like side con
 
 ## Decision Tree
 If opponent turns away:
-- Execute [[D'arce to Back Control]] → [[Back Control]] (Probability: 35%)
+- Execute [[Turtle to Back Control]] → [[Back Control]] (Probability: 35%)
 - Or Execute [[Marce Variation]] → [[Won by Submission]] (Probability: 30%)
 
 Else if opponent drives forward:
@@ -288,7 +288,7 @@ Mounted variation path:
 [[D'arce Control]] → [[D'arce to Mount]] → [[Mounted D'arce]] → [[Won by Submission]]
 
 Transitional path:
-[[D'arce Control]] → [[D'arce to Back Control]] → [[Back Control]] → [[Rear Naked Choke]] → [[Won by Submission]]
+[[D'arce Control]] → [[Turtle to Back Control]] → [[Back Control]] → [[Rear Naked Choke]] → [[Won by Submission]]
 
 ## Historical Context
 The D'arce choke (named after Joe D'arce who popularized it in the US) emerged as a prominent submission in the early 2000s, becoming increasingly prevalent in high-level competition. While the mechanics relate to traditional arm triangles, the specific configuration and versatile application made it a staple technique in modern BJJ. The position's effectiveness against common defensive postures like the turtle and technical stand-up has contributed to its prominence in contemporary competition.

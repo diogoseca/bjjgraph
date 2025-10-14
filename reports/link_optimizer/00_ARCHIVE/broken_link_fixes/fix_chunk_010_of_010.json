@@ -1,0 +1,603 @@
+{
+  "chunk_metadata": {
+    "chunk_number": 10,
+    "total_chunks": 10,
+    "start_index": 765,
+    "end_index": 846,
+    "count": 82,
+    "task_type": "broken_link_fix",
+    "confidence_filter": "\u226580%"
+  },
+  "broken_links": [
+    {
+      "source_file": "Pin Escape Methodology",
+      "target_link": "Leg Drag Counter",
+      "line_number": null,
+      "suggested_fix": "leg drag control",
+      "confidence": 87.5
+    },
+    {
+      "source_file": "Connection Breaking",
+      "target_link": "Side Control Bottom",
+      "line_number": null,
+      "suggested_fix": "side control to mount",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Control Point Hierarchy",
+      "target_link": "Inside Sankaku Entry",
+      "line_number": null,
+      "suggested_fix": "inside sankaku",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Control Point Hierarchy",
+      "target_link": "Front Headlock Entry",
+      "line_number": null,
+      "suggested_fix": "front headlock series",
+      "confidence": 82.92682926829268
+    },
+    {
+      "source_file": "Hand Fighting",
+      "target_link": "Wrist Control",
+      "line_number": null,
+      "suggested_fix": "twister control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Pressure Reduction",
+      "target_link": "Turtle Recovery",
+      "line_number": null,
+      "suggested_fix": "posture recovery",
+      "confidence": 83.87096774193549
+    },
+    {
+      "source_file": "Mount Escape Hierarchy",
+      "target_link": "Bridge and Roll Escape",
+      "line_number": null,
+      "suggested_fix": "bridge and roll",
+      "confidence": 81.08108108108108
+    },
+    {
+      "source_file": "Mount Escape Hierarchy",
+      "target_link": "Closed Guard",
+      "line_number": null,
+      "suggested_fix": "closed guard top",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Mount Escape Hierarchy",
+      "target_link": "Elbow-Knee Escape",
+      "line_number": null,
+      "suggested_fix": "elbow escape",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "Mount Escape Hierarchy",
+      "target_link": "Half Guard Entry",
+      "line_number": null,
+      "suggested_fix": "half guard top",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Mount Escape Hierarchy",
+      "target_link": "Closed Guard Pull",
+      "line_number": null,
+      "suggested_fix": "closed guard top",
+      "confidence": 84.84848484848484
+    },
+    {
+      "source_file": "Mount Escape Hierarchy",
+      "target_link": "Half Guard Sweep",
+      "line_number": null,
+      "suggested_fix": "half guard top",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Mount Escape Hierarchy",
+      "target_link": "Technical Mount Escape",
+      "line_number": null,
+      "suggested_fix": "technical mount",
+      "confidence": 81.08108108108108
+    },
+    {
+      "source_file": "Risk Assessment",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Escape Fundamentals",
+      "target_link": "Side Control Bottom",
+      "line_number": null,
+      "suggested_fix": "side control to mount",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Weight Distribution",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Double Pants Grip",
+      "target_link": "Knee Shield Insertion",
+      "line_number": null,
+      "suggested_fix": "knee shield retention",
+      "confidence": 80.95238095238095
+    },
+    {
+      "source_file": "Double Pants Grip",
+      "target_link": "Headquarters Entry",
+      "line_number": null,
+      "suggested_fix": "headquarters control",
+      "confidence": 84.21052631578947
+    },
+    {
+      "source_file": "Double Pants Grip",
+      "target_link": "Defensive Frame Breaking",
+      "line_number": null,
+      "suggested_fix": "defensive framing",
+      "confidence": 82.92682926829268
+    },
+    {
+      "source_file": "Whizzer Control",
+      "target_link": "Whizzer Sweep",
+      "line_number": null,
+      "suggested_fix": "waiter sweep",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Positional Hierarchy",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Defensive Framing",
+      "target_link": "Side Control Bottom",
+      "line_number": null,
+      "suggested_fix": "side control to mount",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Energy Management System",
+      "target_link": "Phase-Specific Strategy",
+      "line_number": null,
+      "suggested_fix": "gi-specific strategy",
+      "confidence": 83.72093023255815
+    },
+    {
+      "source_file": "Posture Up",
+      "target_link": "Standing Pass Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 87.17948717948718
+    },
+    {
+      "source_file": "Passing Counter System",
+      "target_link": "Defensive Frames",
+      "line_number": null,
+      "suggested_fix": "defensive frame",
+      "confidence": 96.7741935483871
+    },
+    {
+      "source_file": "Passing Counter System",
+      "target_link": "X-Guard Recovery",
+      "line_number": null,
+      "suggested_fix": "guard recovery",
+      "confidence": 93.33333333333333
+    },
+    {
+      "source_file": "Passing Counter System",
+      "target_link": "Reverse De La Riva Hook",
+      "line_number": null,
+      "suggested_fix": "reverse de la riva guard",
+      "confidence": 80.85106382978722
+    },
+    {
+      "source_file": "Underhook Defense",
+      "target_link": "Side Control Bottom",
+      "line_number": null,
+      "suggested_fix": "side control to mount",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Underhook Defense",
+      "target_link": "Half Guard",
+      "line_number": null,
+      "suggested_fix": "half guard top",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Hip Pressure",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Defensive Frame",
+      "target_link": "Side Control Bottom",
+      "line_number": null,
+      "suggested_fix": "side control to mount",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Angle Creation",
+      "target_link": "Side Control Bottom",
+      "line_number": null,
+      "suggested_fix": "side control to mount",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Takedown Entry",
+      "target_link": "Distance Control",
+      "line_number": null,
+      "suggested_fix": "d'arce control",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Takedown Entry",
+      "target_link": "Range Management",
+      "line_number": null,
+      "suggested_fix": "space management",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Takedown Entry",
+      "target_link": "Angle Negation",
+      "line_number": null,
+      "suggested_fix": "angle creation",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Takedown Entry",
+      "target_link": "Energy Management",
+      "line_number": null,
+      "suggested_fix": "energy management system",
+      "confidence": 82.92682926829268
+    },
+    {
+      "source_file": "Takedown Entry",
+      "target_link": "Defensive Reaction",
+      "line_number": null,
+      "suggested_fix": "defensive framing",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Takedown Entry",
+      "target_link": "Foot Sweep",
+      "line_number": null,
+      "suggested_fix": "hook sweep",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Head Control",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Head Control",
+      "target_link": "Turtle Position Top",
+      "line_number": null,
+      "suggested_fix": "turtle position",
+      "confidence": 88.23529411764706
+    },
+    {
+      "source_file": "Leg Entanglement",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Leg Entanglement",
+      "target_link": "Backside 50/50",
+      "line_number": null,
+      "suggested_fix": "backside 50-50",
+      "confidence": 92.85714285714286
+    },
+    {
+      "source_file": "Control Maintenance",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Triangle-Armbar-Omoplata Chain",
+      "target_link": "Hand Fight",
+      "line_number": null,
+      "suggested_fix": "hand fighting",
+      "confidence": 86.95652173913044
+    },
+    {
+      "source_file": "Triangle-Armbar-Omoplata Chain",
+      "target_link": "Guard Stack Defense",
+      "line_number": null,
+      "suggested_fix": "stack defense",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Berimbolo",
+      "target_link": "Leg Drag Counter",
+      "line_number": null,
+      "suggested_fix": "leg drag control",
+      "confidence": 87.5
+    },
+    {
+      "source_file": "Berimbolo",
+      "target_link": "Backstep",
+      "line_number": null,
+      "suggested_fix": "back step",
+      "confidence": 94.11764705882352
+    },
+    {
+      "source_file": "Berimbolo",
+      "target_link": "Back Control Consolidation",
+      "line_number": null,
+      "suggested_fix": "side control consolidation",
+      "confidence": 84.61538461538461
+    },
+    {
+      "source_file": "Berimbolo",
+      "target_link": "Crucifix Transition",
+      "line_number": null,
+      "suggested_fix": "crucifix position",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Berimbolo",
+      "target_link": "Back Triangle",
+      "line_number": null,
+      "suggested_fix": "arm triangle",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "No-Gi Competition Approach",
+      "target_link": "Inside Position",
+      "line_number": null,
+      "suggested_fix": "saddle position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "No-Gi Competition Approach",
+      "target_link": "Head Position",
+      "line_number": null,
+      "suggested_fix": "guard position",
+      "confidence": 81.48148148148148
+    },
+    {
+      "source_file": "No-Gi Competition Approach",
+      "target_link": "Connection Maintenance",
+      "line_number": null,
+      "suggested_fix": "control maintenance",
+      "confidence": 82.92682926829268
+    },
+    {
+      "source_file": "Duck Under",
+      "target_link": "Crossface Counter",
+      "line_number": null,
+      "suggested_fix": "cross face control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Duck Under",
+      "target_link": "Back Take System",
+      "line_number": null,
+      "suggested_fix": "back attack system",
+      "confidence": 88.23529411764706
+    },
+    {
+      "source_file": "Kimura Trap System",
+      "target_link": "Bottom Kimura Control",
+      "line_number": null,
+      "suggested_fix": "kimura control",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Kimura Trap System",
+      "target_link": "North-South Kimura",
+      "line_number": null,
+      "suggested_fix": "north-south to kimura",
+      "confidence": 92.3076923076923
+    },
+    {
+      "source_file": "Blue to Purple Progression",
+      "target_link": "Submission Chaining",
+      "line_number": null,
+      "suggested_fix": "submission chains",
+      "confidence": 88.88888888888889
+    },
+    {
+      "source_file": "Competition Strategy",
+      "target_link": "Front Headlock Entry",
+      "line_number": null,
+      "suggested_fix": "front headlock series",
+      "confidence": 82.92682926829268
+    },
+    {
+      "source_file": "Competition Strategy",
+      "target_link": "Single Leg X",
+      "line_number": null,
+      "suggested_fix": "single leg x guard",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "No-Gi Tactical Framework",
+      "target_link": "Front Headlock Entry",
+      "line_number": null,
+      "suggested_fix": "front headlock series",
+      "confidence": 82.92682926829268
+    },
+    {
+      "source_file": "No-Gi Tactical Framework",
+      "target_link": "Inside Sankaku Entry",
+      "line_number": null,
+      "suggested_fix": "inside sankaku",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Self-Defense Application Framework",
+      "target_link": "Distance Management",
+      "line_number": null,
+      "suggested_fix": "space management",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Back Defense Protocol",
+      "target_link": "Defensive Hand Position",
+      "line_number": null,
+      "suggested_fix": "defensive position",
+      "confidence": 87.8048780487805
+    },
+    {
+      "source_file": "Back Defense Protocol",
+      "target_link": "Defensive Hand Position",
+      "line_number": null,
+      "suggested_fix": "defensive position",
+      "confidence": 87.8048780487805
+    },
+    {
+      "source_file": "Back Defense Protocol",
+      "target_link": "Side Control Rotation",
+      "line_number": null,
+      "suggested_fix": "side control consolidation",
+      "confidence": 80.85106382978722
+    },
+    {
+      "source_file": "Back Defense Protocol",
+      "target_link": "Defensive Hand Position",
+      "line_number": null,
+      "suggested_fix": "defensive position",
+      "confidence": 87.8048780487805
+    },
+    {
+      "source_file": "Competition Preparation System",
+      "target_link": "Energy Management",
+      "line_number": null,
+      "suggested_fix": "energy management system",
+      "confidence": 82.92682926829268
+    },
+    {
+      "source_file": "Defensive Prioritization Framework",
+      "target_link": "Side Control Bottom",
+      "line_number": null,
+      "suggested_fix": "side control to mount",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Defensive Prioritization Framework",
+      "target_link": "Turtle Recovery",
+      "line_number": null,
+      "suggested_fix": "posture recovery",
+      "confidence": 83.87096774193549
+    },
+    {
+      "source_file": "Standing Defense Strategy",
+      "target_link": "Sprawl Position",
+      "line_number": null,
+      "suggested_fix": "scramble position",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Standing Defense Strategy",
+      "target_link": "Guillotine Entry",
+      "line_number": null,
+      "suggested_fix": "guillotine control",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Standing Defense Strategy",
+      "target_link": "Distance Management",
+      "line_number": null,
+      "suggested_fix": "space management",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Gi-Specific Strategy",
+      "target_link": "Spider Guard Sweep",
+      "line_number": null,
+      "suggested_fix": "spider guard",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Competition Scoring Strategy",
+      "target_link": "Guard Bottom",
+      "line_number": null,
+      "suggested_fix": "half guard bottom",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "IBJJF Strategy Guide",
+      "target_link": "Guard Passing",
+      "line_number": null,
+      "suggested_fix": "guard pass",
+      "confidence": 86.95652173913044
+    },
+    {
+      "source_file": "IBJJF Strategy Guide",
+      "target_link": "Submission Control",
+      "line_number": null,
+      "suggested_fix": "mission control",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Back Attack System",
+      "target_link": "Triangle from Back",
+      "line_number": null,
+      "suggested_fix": "triangle choke back",
+      "confidence": 81.08108108108108
+    },
+    {
+      "source_file": "Back Attack System",
+      "target_link": "Technical Back Mount",
+      "line_number": null,
+      "suggested_fix": "technical mount",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Back Attack System",
+      "target_link": "Technical Back Mount",
+      "line_number": null,
+      "suggested_fix": "technical mount",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Back Attack System",
+      "target_link": "Technical Back Mount",
+      "line_number": null,
+      "suggested_fix": "technical mount",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Back Attack System",
+      "target_link": "Guard",
+      "line_number": null,
+      "suggested_fix": "x-guard",
+      "confidence": 83.33333333333334
+    }
+  ],
+  "instructions": {
+    "task": "Fix broken wikilinks by replacing with suggested fixes",
+    "operation": "Find [[broken_link]] and replace with [[suggested_fix]]",
+    "validation": [
+      "Verify suggested fix file exists before replacing",
+      "Use Edit tool to replace the exact broken wikilink",
+      "Check for case sensitivity issues",
+      "Track all modifications"
+    ],
+    "reporting": [
+      "Track: fixed, skipped_exists, skipped_no_fix, error",
+      "Report file paths modified",
+      "Report original \u2192 replacement for each fix",
+      "Report any errors encountered"
+    ]
+  }
+}

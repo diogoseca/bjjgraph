@@ -13,6 +13,9 @@ related_positions:
   - Turtle Position Top
   - Back Control
 
+## Key Principles
+Head control is fundamental to maintaining [[Back Control]] position and preventing escapes through spinal alignment control.
+
 related_transitions:
   - Darce Choke
   - Guillotine Choke
@@ -95,10 +98,10 @@ Head Control represents the fundamental principle of controlling an opponent's h
 
 ### Common Scenarios Where Concept is Critical
 
-**Scenario 1: [[Side Control Top]] when opponent attempts to turn toward defender**
+**Scenario 1: [[Side Control]] when opponent attempts to turn toward defender**
 → Apply cross face control to turn head away from escape direction, disrupting hip escape mechanics and frame establishment. Maintain heavy shoulder pressure through controlled head position.
 
-**Scenario 2: [[Turtle Position Top]] when attacking for back control or submissions**
+**Scenario 2: [[Turtle Position]] when attacking for back control or submissions**
 → Apply head control to limit opponent's ability to turn and face defender, preventing turtle escape options and creating submission opportunities (darce, anaconda, guillotine).
 
 **Scenario 3: [[Mount Top]] when transitioning to high mount or submission attacks**

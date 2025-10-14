@@ -175,7 +175,7 @@ Analysis of opponent responses with success rates for counter-attacks:
 - **Hip Escape** → [[Guard Recovery]] (Success Rate: 30%, Conditions: opponent shrimps to recover guard during transition)
 - **Leg Freeing** → [[Half Guard Bottom]] (Success Rate: 25%, Conditions: opponent frees trapped leg before Truck is locked)
 - **Reversal Attempt** → [[Bottom Position]] (Success Rate: 20%, Conditions: opponent uses transition momentum for reversal)
-- **Submission Counter** → [[Triangle Choke]] (Success Rate: 15%, Conditions: opponent attacks from bottom during transition)
+- **Submission Counter** → [[Triangle Choke Side]] (Success Rate: 15%, Conditions: opponent attacks from bottom during transition)
 - **Torso Escape** → [[Side Control Escape]] (Success Rate: 10%, Conditions: opponent breaks torso control before Truck is secured)
 
 ## Decision Logic for Transition

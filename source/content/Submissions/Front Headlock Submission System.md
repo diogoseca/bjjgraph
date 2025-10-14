@@ -144,11 +144,11 @@ Factors that influence the success rate of the submission:
 
 ## Common Counters and Counter-Attacks
 Analysis of opponent responses with success rates for counter-attacks:
-- [[Posture Defense]] → [[Posture Break]] (Success Rate: 50%, Conditions: opponent postures up strongly to resist Guillotine)
-- [[Head Lowering Defense]] → [[D'arce Setup]] (Success Rate: 55%, Conditions: opponent lowers head to defend Guillotine, setting up D'arce)
-- [[Turn Away Defense]] → [[Anaconda Setup]] (Success Rate: 45%, Conditions: opponent turns away from D'arce, setting up Anaconda)
+- [[Posture Defense]] → [[Posture Breaking]] (Success Rate: 50%, Conditions: opponent postures up strongly to resist Guillotine)
+- [[Head Lowering Defense]] → [[Darce Setup]] (Success Rate: 55%, Conditions: opponent lowers head to defend Guillotine, setting up Darce)
+- [[Turn Away Defense]] → [[Anaconda Setup]] (Success Rate: 45%, Conditions: opponent turns away from Darce, setting up Anaconda)
 - [[Space Creation Defense]] → [[Guard Recovery]] (Success Rate: 40%, Conditions: opponent frames and creates space to recover guard)
-- [[Stand Up Attempt]] → [[Front Headlock Reset]] (Success Rate: 60%, Conditions: opponent attempts to stand, allowing reset to control position)
+- [[Stand Up Attempt]] → [[Front Headlock Series]] (Success Rate: 60%, Conditions: opponent attempts to stand, allowing reset to control position)
 - [[Flat Defense]] → [[North-South Transition]] (Success Rate: 35%, Conditions: opponent goes flat to avoid chokes, setting up North-South Choke)
 
 ## Decision Logic for Opponent Behavior
@@ -157,12 +157,12 @@ If [opponent postures up] to defend Guillotine:
 - Apply Guillotine pressure or transition to [[Back Control]] (Probability: 55%)
 
 Else if [opponent lowers head] to resist Guillotine:
-- Transition to [[D'arce Control]] (Probability: 60%)
+- Transition to [[Darce Choke]] (Probability: 60%)
 
-Else if [opponent turns away] from D'arce pressure:
+Else if [opponent turns away] from Darce pressure:
 - Switch to [[Anaconda Control]] (Probability: 50%)
 
-Else if [opponent turns inward] to defend D'arce:
+Else if [opponent turns inward] to defend Darce:
 - Return to [[Guillotine Control]] (Probability: 55%)
 
 Else if [opponent frames] to create space:

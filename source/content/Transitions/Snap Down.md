@@ -46,7 +46,7 @@ From standing position, you establish control of your opponent's head or neck wi
 2. **Initial Movement**: Begin the transition with proper body mechanics and timing
 3. **Opponent Response**: Anticipate and react to typical defensive reactions
 4. **Adaptation**: Adjust technique based on opponent's specific response
-5. **Completion**: Execute final movements to achieve the ending position
+5. **Completion**: Execute final movements to achieve the ending position, transitioning to [[Front Headlock]]
 6. **Consolidation**: Secure and stabilize the new position
 
 ## Key Technical Details

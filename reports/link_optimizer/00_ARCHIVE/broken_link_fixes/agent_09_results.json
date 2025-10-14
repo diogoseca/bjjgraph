@@ -1,0 +1,182 @@
+{
+  "session": 2,
+  "agent": 9,
+  "total_fixes_attempted": 36,
+  "total_fixes_completed": 36,
+  "files_modified": 6,
+  "summary": {
+    "Scarf Hold Position.md": {
+      "fixes": 13,
+      "broken_links_fixed": [
+        "Arm Triangle Control → Triangle Control (3 instances)",
+        "Side Control Top → Side Control (2 instances)",
+        "North-South Position → North-South (4 instances)",
+        "Twister Side Control → Twister Control (1 instance)"
+      ]
+    },
+    "Scissor Sweep.md": {
+      "fixes": 2,
+      "broken_links_fixed": [
+        "Base Wide → Base Widening (2 instances)"
+      ]
+    },
+    "Scramble Position.md": {
+      "fixes": 10,
+      "broken_links_fixed": [
+        "Front Headlock Entry → Front Headlock Series (5 instances)",
+        "Leg Entanglement Access → Leg Entanglement (5 instances)"
+      ]
+    },
+    "Seated Guard.md": {
+      "fixes": 5,
+      "broken_links_fixed": [
+        "Side Control Top → Side Control (4 instances)",
+        "Submission Chain → Submission Chains (1 instance)"
+      ]
+    },
+    "Self-Defense Application Framework.md": {
+      "fixes": 1,
+      "broken_links_fixed": [
+        "Distance Management → Space Management (1 instance)"
+      ]
+    },
+    "Shin-to-Shin Guard.md": {
+      "fixes": 5,
+      "broken_links_fixed": [
+        "back step → Back Step (1 instance)",
+        "butterfly hook retention → Butterfly Hook Retention (2 instances)",
+        "kiss of the dragon → Kiss of the Dragon (2 instances)"
+      ]
+    },
+    "Shoulder Pressure.md": {
+      "fixes": 1,
+      "broken_links_fixed": [
+        "Side Control Top → Side Control (1 instance)"
+      ]
+    },
+    "Shrimp Escape.md": {
+      "fixes": 3,
+      "broken_links_fixed": [
+        "Crossface Control → Cross Face Control (2 instances)",
+        "Side Control Top → Side Control (1 instance)"
+      ]
+    }
+  },
+  "fix_details": [
+    {
+      "file": "Scarf Hold Position.md",
+      "broken_link": "Arm Triangle Control",
+      "correct_target": "Triangle Control",
+      "instances_fixed": 3,
+      "confidence": 88.89
+    },
+    {
+      "file": "Scarf Hold Position.md",
+      "broken_link": "Side Control Top",
+      "correct_target": "Side Control",
+      "instances_fixed": 2,
+      "confidence": 85.71
+    },
+    {
+      "file": "Scarf Hold Position.md",
+      "broken_link": "North-South Position",
+      "correct_target": "North-South",
+      "instances_fixed": 4,
+      "confidence": 85.71
+    },
+    {
+      "file": "Scarf Hold Position.md",
+      "broken_link": "Twister Side Control",
+      "correct_target": "Twister Control",
+      "instances_fixed": 1,
+      "confidence": 85.71
+    },
+    {
+      "file": "Scissor Sweep.md",
+      "broken_link": "Base Wide",
+      "correct_target": "Base Widening",
+      "instances_fixed": 2,
+      "confidence": 81.82
+    },
+    {
+      "file": "Scramble Position.md",
+      "broken_link": "Front Headlock Entry",
+      "correct_target": "Front Headlock Series",
+      "instances_fixed": 5,
+      "confidence": 82.93
+    },
+    {
+      "file": "Scramble Position.md",
+      "broken_link": "Leg Entanglement Access",
+      "correct_target": "Leg Entanglement",
+      "instances_fixed": 5,
+      "confidence": 82.05
+    },
+    {
+      "file": "Seated Guard.md",
+      "broken_link": "Side Control Top",
+      "correct_target": "Side Control",
+      "instances_fixed": 4,
+      "confidence": 85.71
+    },
+    {
+      "file": "Seated Guard.md",
+      "broken_link": "Submission Chain",
+      "correct_target": "Submission Chains",
+      "instances_fixed": 1,
+      "confidence": 96.97
+    },
+    {
+      "file": "Self-Defense Application Framework.md",
+      "broken_link": "Distance Management",
+      "correct_target": "Space Management",
+      "instances_fixed": 1,
+      "confidence": 85.71
+    },
+    {
+      "file": "Shin-to-Shin Guard.md",
+      "broken_link": "back step",
+      "correct_target": "Back Step",
+      "instances_fixed": 1,
+      "confidence": 94.12
+    },
+    {
+      "file": "Shin-to-Shin Guard.md",
+      "broken_link": "butterfly hook retention",
+      "correct_target": "Butterfly Hook Retention",
+      "instances_fixed": 2,
+      "confidence": 83.33
+    },
+    {
+      "file": "Shin-to-Shin Guard.md",
+      "broken_link": "kiss of the dragon",
+      "correct_target": "Kiss of the Dragon",
+      "instances_fixed": 2,
+      "confidence": 85.71
+    },
+    {
+      "file": "Shoulder Pressure.md",
+      "broken_link": "Side Control Top",
+      "correct_target": "Side Control",
+      "instances_fixed": 1,
+      "confidence": 85.71
+    },
+    {
+      "file": "Shrimp Escape.md",
+      "broken_link": "Crossface Control",
+      "correct_target": "Cross Face Control",
+      "instances_fixed": 2,
+      "confidence": 97.14
+    },
+    {
+      "file": "Shrimp Escape.md",
+      "broken_link": "Side Control Top",
+      "correct_target": "Side Control",
+      "instances_fixed": 1,
+      "confidence": 85.71
+    }
+  ],
+  "status": "completed",
+  "timestamp": "2025-10-13",
+  "notes": "All 36 broken wikilinks successfully fixed across 6 files. Most common fixes: Side Control Top → Side Control (8 instances), Front Headlock/Leg Entanglement navigation fixes (10 instances), capitalization corrections (5 instances)."
+}

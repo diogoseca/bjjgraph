@@ -1,0 +1,242 @@
+{
+  "session": 1,
+  "agent": 4,
+  "total_agents": 10,
+  "status": "completed",
+  "fixes_attempted": 37,
+  "fixes_completed": 20,
+  "fixes_skipped": 17,
+  "details": [
+    {
+      "source_file": "Baseball Bat Choke",
+      "broken_link": "Submission Prevention",
+      "fixed_to": "Submission Position",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Baseball Bat Choke",
+      "broken_link": "Resulting Position",
+      "fixed_to": "Standing Position",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Baseball Bat Choke",
+      "broken_link": "Failed Baseball Bat Choke",
+      "fixed_to": "Baseball Bat Choke",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Baseball Bat Choke",
+      "broken_link": "Failed Baseball Bat Choke",
+      "fixed_to": "Baseball Bat Choke",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Baseball Bat Choke",
+      "broken_link": "Mounted Position",
+      "fixed_to": "S-Mount Position",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Basic Butterfly Sweep",
+      "broken_link": "Crossface Counter",
+      "fixed_to": "Cross Face Control",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Basic Butterfly Sweep",
+      "broken_link": "Backstep",
+      "fixed_to": "Back Step",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Basic Butterfly Sweep",
+      "broken_link": "Half Butterfly Guard",
+      "fixed_to": "Butterfly Guard",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Basic Butterfly Sweep",
+      "broken_link": "Near Side Armbar",
+      "fixed_to": "Far Side Armbar",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Berimbolo",
+      "broken_link": "Leg Drag Counter",
+      "fixed_to": "Leg Drag Control",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Berimbolo",
+      "broken_link": "Backstep",
+      "fixed_to": "Back Step",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Berimbolo",
+      "broken_link": "Back Control Consolidation",
+      "fixed_to": "Side Control Consolidation",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Berimbolo",
+      "broken_link": "Crucifix Transition",
+      "fixed_to": "Crucifix Position",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Berimbolo",
+      "broken_link": "Back Triangle",
+      "fixed_to": "Arm Triangle",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Bicep Slicer",
+      "broken_link": "Guard Bottom",
+      "fixed_to": "Half Guard Bottom",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Blue to Purple Progression",
+      "broken_link": "Submission Chaining",
+      "fixed_to": "Submission Chains",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Boston Crab",
+      "broken_link": "Turtle Position Top",
+      "fixed_to": "Turtle Position",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Boston Crab",
+      "broken_link": "Turtle Position Top",
+      "fixed_to": "Turtle Position",
+      "status": "duplicate_already_fixed"
+    },
+    {
+      "source_file": "Bottom Position",
+      "broken_link": "Submission Control Position",
+      "fixed_to": "Submission Position",
+      "status": "not_found_in_file"
+    },
+    {
+      "source_file": "Bottom Position",
+      "broken_link": "Submission Chain",
+      "fixed_to": "Submission Chains",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Bow and Arrow Choke",
+      "broken_link": "Turtle Position Bottom",
+      "fixed_to": "Turtle Position",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Bow and Arrow Choke",
+      "broken_link": "Side Control Bottom",
+      "fixed_to": "Side Control To Mount",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Bow and Arrow Choke",
+      "broken_link": "Side Control Bottom",
+      "fixed_to": "Side Control To Mount",
+      "status": "duplicate_already_fixed"
+    },
+    {
+      "source_file": "Bow and Arrow Choke",
+      "broken_link": "Turtle Position Bottom",
+      "fixed_to": "Turtle Position",
+      "status": "duplicate_already_fixed"
+    },
+    {
+      "source_file": "Bow and Arrow Choke",
+      "broken_link": "Turtle Position Bottom",
+      "fixed_to": "Turtle Position",
+      "status": "duplicate_already_fixed"
+    },
+    {
+      "source_file": "Bridge and Roll",
+      "broken_link": "Cross-Face Control",
+      "fixed_to": "Cross Face Control",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Bridge and Roll",
+      "broken_link": "Recovery Position",
+      "fixed_to": "Game Over Position",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Bridge and Roll",
+      "broken_link": "Grip Establishment",
+      "fixed_to": "Guard Establishment",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Bridge and Roll",
+      "broken_link": "Tactical Stand-up",
+      "fixed_to": "Technical Stand-up",
+      "status": "fixed"
+    },
+    {
+      "source_file": "Butterfly Guard",
+      "broken_link": "Standing Pass",
+      "fixed_to": "Standing Up",
+      "status": "not_found_in_file"
+    },
+    {
+      "source_file": "Butterfly Guard",
+      "broken_link": "Side Control Top",
+      "fixed_to": "Side Control",
+      "status": "not_found_in_file"
+    },
+    {
+      "source_file": "Butterfly Guard",
+      "broken_link": "Side Control Top",
+      "fixed_to": "Side Control",
+      "status": "not_found_in_file"
+    },
+    {
+      "source_file": "Butterfly Guard",
+      "broken_link": "Side Control Top",
+      "fixed_to": "Side Control",
+      "status": "not_found_in_file"
+    },
+    {
+      "source_file": "Butterfly Guard to X-Guard",
+      "broken_link": "Standing Guard Pass",
+      "fixed_to": "Standing Guard",
+      "status": "already_correct"
+    },
+    {
+      "source_file": "Butterfly Guard to X-Guard",
+      "broken_link": "Failed Butterfly Sweep",
+      "fixed_to": "Basic Butterfly Sweep",
+      "status": "not_found_in_file"
+    },
+    {
+      "source_file": "Butterfly Guard to X-Guard",
+      "broken_link": "Technical Stand-up Sweep",
+      "fixed_to": "Technical Stand-up",
+      "status": "not_found_in_file"
+    },
+    {
+      "source_file": "Butterfly Half Guard",
+      "broken_link": "Butterfly Half Sweep",
+      "fixed_to": "Butterfly Sweep",
+      "status": "fixed"
+    }
+  ],
+  "summary": {
+    "files_modified": 11,
+    "total_link_fixes": 20,
+    "skipped_reasons": {
+      "not_found_in_file": 10,
+      "already_correct": 1,
+      "duplicate_already_fixed": 6
+    }
+  }
+}

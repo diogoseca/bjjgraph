@@ -1,0 +1,216 @@
+{
+  "chunk_metadata": {
+    "chunk_number": 5,
+    "total_chunks": 10,
+    "start_index": 84,
+    "end_index": 104,
+    "count": 21,
+    "confidence_filter": "\u226595%"
+  },
+  "suggestions": [
+    {
+      "source_file": "Posture Recovery",
+      "target_file": "Closed Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Posture recovery is most commonly needed when opponent is in closed guard and has broken your posture down.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "technique-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "De La Riva Sweep",
+      "target_file": "Open Guard Bottom",
+      "confidence": 95.0,
+      "reason": "De La Riva Sweep originates from De La Riva Guard, which is a specific type of open guard bottom position",
+      "suggested_section": "Related Positions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Leg Lock Control",
+      "target_file": "Won by Submission",
+      "confidence": 95.0,
+      "reason": "Leg Lock Control is a submission control position that directly leads to winning by submission when successfully executed.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-terminal-state",
+      "existing_link": false
+    },
+    {
+      "source_file": "Counter Sweep",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Guard Retention is the defensive complement to Counter Sweep - both involve recognizing and defending against sweep attempts.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "transition-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Pressure Pass",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Pressure Pass directly establishes Side Control as its completion state, making this the primary destination position.",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Kosoto Gari",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Kosoto Gari is a takedown that commonly ends in Side Control Top, making this the primary position to link.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Knee Tap",
+      "target_file": "Neutral Position",
+      "confidence": 95.0,
+      "reason": "Knee Tap is a takedown technique that begins from neutral/standing position, making this the primary starting state.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "transition-from-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Standing up in Base",
+      "target_file": "Top Position",
+      "confidence": 95.0,
+      "reason": "Standing up in base directly transitions from turtle to top position, making this the primary destination state.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Butterfly Pass",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "The butterfly pass explicitly transitions to side control as its finishing position, making this the primary destination state.",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Position Change",
+      "target_file": "Transition to Mount",
+      "confidence": 95.0,
+      "reason": "Directly demonstrates a specific type of position change with detailed execution steps and success rates.",
+      "suggested_section": "Related Transitions",
+      "relationship_type": "technique-to-specific-example",
+      "existing_link": false
+    },
+    {
+      "source_file": "Guard Pass",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Guard passing typically culminates in side control as explicitly mentioned in the execution sequence and completion step.",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Knee Slice Pass",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Knee slice pass directly transitions to side control as the ending position of this technique",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Butterfly Hook Retention",
+      "target_file": "Closed Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Butterfly guard and closed guard are closely related guard positions that often transition between each other, making this a natural related position",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Deashi Harai",
+      "target_file": "Neutral Position",
+      "confidence": 95.0,
+      "reason": "Deashi Harai is a standing technique executed from neutral position, which is the natural starting state for this throw",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "transition-from-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Open Guard to Deep Half",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Deep half guard is a key guard retention position, making this transition directly relevant to maintaining guard when passing pressure occurs.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "transition-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Ippon Seoi Nage",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "Ippon Seoi Nage is a standing throw that transitions directly to Side Control Top as the dominant landing position.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Single Leg Entry",
+      "target_file": "Standing Position",
+      "confidence": 95.0,
+      "reason": "Single Leg Entry explicitly starts from standing position, making this the primary starting state for this transition.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "transition-from-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Bodylock Pass",
+      "target_file": "Side Control Top",
+      "confidence": 95.0,
+      "reason": "The bodylock pass completes in side control, making this the primary destination position from this transition",
+      "suggested_section": "Completion",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Spider Guard Pass",
+      "target_file": "Side Control",
+      "confidence": 95.0,
+      "reason": "Spider Guard Pass explicitly states it results in side control as the ending position, making this the primary destination of the technique.",
+      "suggested_section": "Execution Steps",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Granby Roll",
+      "target_file": "Guard Recovery",
+      "confidence": 95.0,
+      "reason": "Granby Roll is a primary technique for recovering guard position, making this a fundamental position-to-transition relationship.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Pendulum Sweep",
+      "target_file": "Closed Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Pendulum Sweep is a fundamental technique executed from Closed Guard Bottom position, which is the primary starting position for this sweep.",
+      "suggested_section": "Setup Requirements",
+      "relationship_type": "transition-to-position",
+      "existing_link": false
+    }
+  ],
+  "instructions": {
+    "task": "Apply these wikilink suggestions to markdown files",
+    "validation": [
+      "Check if wikilink already exists",
+      "Verify target file exists",
+      "Add to specified section only",
+      "Maintain markdown formatting"
+    ],
+    "reporting": [
+      "Track: applied, skipped_exists, skipped_no_target, error",
+      "Report file paths modified",
+      "Report line numbers where links added",
+      "Report any errors encountered"
+    ]
+  }
+}

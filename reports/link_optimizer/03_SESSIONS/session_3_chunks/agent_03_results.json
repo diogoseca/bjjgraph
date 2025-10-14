@@ -1,0 +1,110 @@
+{
+  "session": 3,
+  "agent": 3,
+  "status": "completed",
+  "fixes_attempted": 12,
+  "fixes_successful": 8,
+  "fixes_already_fixed": 4,
+  "summary": {
+    "total_files_modified": 4,
+    "total_wikilinks_fixed": 8,
+    "broken_links_already_resolved": 4
+  },
+  "detailed_results": [
+    {
+      "source_file": "Standing Defense Strategy",
+      "target_link": "Distance Management",
+      "suggested_fix": "Space Management",
+      "status": "fixed",
+      "action": "Replaced [[Distance Management]] with [[Space Management]] in Preventative Measures section"
+    },
+    {
+      "source_file": "Standing Guard",
+      "target_link": "Single Leg Counter",
+      "suggested_fix": "Single Leg Entry",
+      "status": "fixed",
+      "action": "Replaced [[single leg entry]] with [[Single Leg Entry]] in Offensive Transitions (2 instances)"
+    },
+    {
+      "source_file": "Standing Position",
+      "target_link": "Distance Management",
+      "suggested_fix": "Space Management",
+      "status": "fixed",
+      "action": "Replaced [[Distance Management]] with [[Space Management]] in Defensive Responses"
+    },
+    {
+      "source_file": "Standing Position",
+      "target_link": "Single Leg Setup",
+      "suggested_fix": "Single Leg Entry",
+      "status": "fixed",
+      "action": "Replaced [[Single Leg Setup]] with [[Single Leg Entry]] in Offensive Transitions and Decision Tree (2 instances)"
+    },
+    {
+      "source_file": "Standing Position",
+      "target_link": "Foot Sweep",
+      "suggested_fix": "Hook Sweep",
+      "status": "fixed",
+      "action": "Replaced [[Foot Sweep]] with [[Hook Sweep]] in Offensive Transitions"
+    },
+    {
+      "source_file": "Standing up",
+      "target_link": "Resulting Position",
+      "suggested_fix": "Standing Position",
+      "status": "not_applicable",
+      "action": "Link appears in format template only, not as broken wikilink"
+    },
+    {
+      "source_file": "Straight Ankle Lock",
+      "target_link": "Resulting Position",
+      "suggested_fix": "Standing Position",
+      "status": "already_fixed",
+      "action": "File has been updated to V2 format, broken links no longer exist"
+    },
+    {
+      "source_file": "Straight Ankle Lock",
+      "target_link": "Failed Straight Ankle Lock",
+      "suggested_fix": "Straight Ankle Lock",
+      "status": "already_fixed",
+      "action": "File has been updated to V2 format, broken links no longer exist (3 instances)"
+    }
+  ],
+  "files_modified": [
+    "/source/content/Systems/Standing Defense Strategy.md",
+    "/source/content/Positions/Standing Guard.md",
+    "/source/content/Positions/Standing Position.md",
+    "/source/content/Positions/Standing up.md"
+  ],
+  "verified_fixes": [
+    {
+      "broken_link": "Distance Management",
+      "correct_link": "Space Management",
+      "file_exists": true,
+      "path": "source/content/Concepts/Space Management.md"
+    },
+    {
+      "broken_link": "Single Leg Counter / Single Leg Setup",
+      "correct_link": "Single Leg Entry",
+      "file_exists": true,
+      "path": "source/content/Transitions/Single Leg Entry.md"
+    },
+    {
+      "broken_link": "Foot Sweep",
+      "correct_link": "Hook Sweep",
+      "file_exists": true,
+      "path": "source/content/Transitions/Hook Sweep.md"
+    },
+    {
+      "broken_link": "standing position (lowercase)",
+      "correct_link": "Standing Position",
+      "file_exists": true,
+      "path": "source/content/Positions/Standing Position.md"
+    }
+  ],
+  "notes": [
+    "The Straight Ankle Lock file has been updated to V2 format and no longer contains the broken links listed in the chunk",
+    "The 'Resulting Position' reference in Standing up.md is part of a format template (line 186), not an actual broken wikilink",
+    "All suggested fixes were verified to exist before making replacements",
+    "Fixed capitalization issues (e.g., 'single leg entry' -> 'Single Leg Entry')"
+  ],
+  "completion_time": "2025-10-13T00:00:00Z"
+}

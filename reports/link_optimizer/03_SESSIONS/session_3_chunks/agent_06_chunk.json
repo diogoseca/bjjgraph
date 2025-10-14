@@ -1,0 +1,92 @@
+{
+  "session": 3,
+  "agent": 6,
+  "total_agents": 10,
+  "fixes": [
+    {
+      "source_file": "Technical Standup",
+      "target_link": "Re-Guard",
+      "line_number": null,
+      "suggested_fix": "x-guard",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Toe Hold Control",
+      "target_link": "Leg Entanglement Counter",
+      "line_number": null,
+      "suggested_fix": "leg entanglement",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Toe Hold Control",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Toe Hold Control",
+      "target_link": "50/50 Guard",
+      "line_number": null,
+      "suggested_fix": "50-50 guard",
+      "confidence": 90.9090909090909
+    },
+    {
+      "source_file": "Tomahawk Sweep",
+      "target_link": "Failed Tomahawk Sweep",
+      "line_number": null,
+      "suggested_fix": "tomahawk sweep",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Top Open Guard",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Transition to Omoplata",
+      "target_link": "Submission Finish",
+      "line_number": null,
+      "suggested_fix": "submission chains",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Transition to Truck",
+      "target_link": "Turtle Position Top",
+      "line_number": null,
+      "suggested_fix": "turtle position",
+      "confidence": 88.23529411764706
+    },
+    {
+      "source_file": "Triangle Choke Back",
+      "target_link": "Turtle Position Top",
+      "line_number": null,
+      "suggested_fix": "turtle position",
+      "confidence": 88.23529411764706
+    },
+    {
+      "source_file": "Triangle Choke Back",
+      "target_link": "Turtle Position Top",
+      "line_number": null,
+      "suggested_fix": "turtle position",
+      "confidence": 88.23529411764706
+    },
+    {
+      "source_file": "Triangle Choke Back",
+      "target_link": "Failed Triangle Choke Back",
+      "line_number": null,
+      "suggested_fix": "triangle choke back",
+      "confidence": 84.44444444444444
+    },
+    {
+      "source_file": "Triangle Choke Side",
+      "target_link": "Failed Triangle Choke Side",
+      "line_number": null,
+      "suggested_fix": "triangle choke side",
+      "confidence": 84.44444444444444
+    }
+  ],
+  "fix_count": 12
+}

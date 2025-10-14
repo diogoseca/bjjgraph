@@ -27,8 +27,8 @@ description: "Master Squid Guard in BJJ. Complete guide covering setup, control,
     },
     {
       "@type": "HowToStep",
-      "name": "Execute **Omoplata Entry**",
-      "text": "From this position, execute **Omoplata Entry** to transition to Next Position.",
+      "name": "Execute **Omoplata Control**",
+      "text": "From this position, execute **Omoplata Control** to transition to Next Position.",
       "position": 3
     },
     {
@@ -199,7 +199,7 @@ Format: `[[Technique Name]] → [[Resulting State]] (Success Rate: X%)`
 From this position:
 - **Squid Sweep**: Using lapel control to off-balance and sweep → [[Top Position]] (Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%)
 - **Triangle Setup**: Converting lapel control to triangle entry → [[Triangle Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%)
-- **Omoplata Entry**: Using lapel to set up omoplata shoulder lock → [[Omoplata Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%)
+- **Omoplata Control**: Using lapel to set up omoplata shoulder lock → [[Omoplata Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%)
 - **Back Take**: Using lapel control to access back position → [[Back Control]] (Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%)
 - **Arm Drag**: Using lapel grip for arm drag sweep → [[Top Position]] (Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%)
 - **Lapel Choke**: Utilizing lapel for choking attack → [[Won by Submission]] (Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%)
@@ -225,7 +225,7 @@ Else if [opponent leans forward with arm exposed]:
 - Execute [[Triangle Setup]] → [[Triangle Control]] (Probability: 50%)
 
 Else if [opponent postures high]:
-- Execute [[Omoplata Entry]] → [[Omoplata Control]] (Probability: 45%)
+- Execute [[Omoplata Control]] → [[Omoplata Control]] (Probability: 45%)
 
 Else [opponent maintains defensive distance]:
 - Execute [[Arm Drag]] → [[Top Position]] (Probability: 55%)
@@ -363,7 +363,7 @@ Else if opponent leans forward with arm exposed:
 - Execute [[Triangle Setup]] → [[Triangle Control]]
 
 Else if opponent postures high:
-- Execute [[Omoplata Entry]] → [[Omoplata Control]]
+- Execute [[Omoplata Control]] → [[Omoplata Control]]
 
 Else (opponent maintains defensive distance):
 - Execute [[Arm Drag]] → [[Top Position]]

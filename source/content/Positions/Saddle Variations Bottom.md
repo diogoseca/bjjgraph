@@ -219,6 +219,7 @@ Available defensive actions specific to each variation:
 
 - [[Frame Against Modified Entry]] → [[Open Guard Bottom]] (Success Rate: 30%)
   - Specific framing against unusual entry angles
+- [[Guard Recovery]]
 
 ## Decision Tree
 

@@ -155,7 +155,7 @@ Common paths from this position with success rates:
 - **To Takedown**: [[Double Leg Takedown]] (Success Rate: 60%, Conditions: proper setup and timing)
 - **To Guard Pull**: [[Pull Guard]] (Success Rate: 80%, Conditions: controlled descent)
 - **To Engagement**: [[Clinch Position]] (Success Rate: 70%, Conditions: grip establishment)
-- **To Position Maintenance**: [[Standing Up]] (Success Rate: 90%, Conditions: disengagement)
+- **To Position Maintenance**: [[Standing Position]] (Success Rate: 90%, Conditions: disengagement)
 
 Format: `[[Target Position/Transition]] (Success Rate: X%, Conditions: [when applicable])`
 

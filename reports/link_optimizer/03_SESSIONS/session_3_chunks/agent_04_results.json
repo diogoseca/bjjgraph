@@ -1,0 +1,106 @@
+{
+  "session": 3,
+  "agent": 4,
+  "total_agents": 10,
+  "fixes_attempted": 12,
+  "fixes_completed": 10,
+  "fixes_failed": 2,
+  "results": [
+    {
+      "source_file": "Submission Chains",
+      "broken_link": "Side Control Top",
+      "replacement": "Side Control",
+      "status": "SUCCESS",
+      "confidence": 85.71
+    },
+    {
+      "source_file": "Submission Defense Principles",
+      "broken_link": "Defensive Structure",
+      "replacement": "defensive posture",
+      "status": "SUCCESS",
+      "confidence": 83.33
+    },
+    {
+      "source_file": "Submission Position",
+      "broken_link": "Secure Position",
+      "replacement": "Scramble Position",
+      "status": "SUCCESS",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Submission Position",
+      "broken_link": "Transition to Control",
+      "replacement": "Transition to Mount",
+      "status": "SUCCESS",
+      "confidence": 85.0
+    },
+    {
+      "source_file": "Submission-Focused Strategy",
+      "broken_link": "Energy Management",
+      "replacement": "Energy Management System",
+      "status": "SUCCESS",
+      "confidence": 82.93
+    },
+    {
+      "source_file": "Switch to Triangle",
+      "broken_link": "Hand Fight",
+      "replacement": "Hand Fighting",
+      "status": "ALREADY_CORRECT",
+      "confidence": 86.96,
+      "note": "Link was already correct in file"
+    },
+    {
+      "source_file": "Switch to Triangle",
+      "broken_link": "Hand Fight",
+      "replacement": "Hand Fighting",
+      "status": "DUPLICATE",
+      "confidence": 86.96,
+      "note": "Duplicate fix entry"
+    },
+    {
+      "source_file": "Switch to Triangle",
+      "broken_link": "Triangle to Back",
+      "replacement": "Triangle Choke Back",
+      "status": "NOT_FOUND",
+      "confidence": 85.71,
+      "note": "Link not found in file (may have been removed by linter)"
+    },
+    {
+      "source_file": "Takedown Entry",
+      "broken_link": "Distance Control",
+      "replacement": "D'Arce Control",
+      "status": "SUCCESS",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Takedown Entry",
+      "broken_link": "Range Management",
+      "replacement": "Space Management",
+      "status": "SUCCESS",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Takedown Entry",
+      "broken_link": "Angle Negation",
+      "replacement": "Angle Creation",
+      "status": "SUCCESS",
+      "confidence": 85.71
+    },
+    {
+      "source_file": "Takedown Entry",
+      "broken_link": "Energy Management",
+      "replacement": "Energy Management System",
+      "status": "SUCCESS",
+      "confidence": 82.93
+    }
+  ],
+  "summary": {
+    "total_fixes": 12,
+    "successful": 10,
+    "already_correct": 1,
+    "not_found": 1,
+    "duplicates": 0,
+    "success_rate": 83.33,
+    "files_modified": 5
+  }
+}

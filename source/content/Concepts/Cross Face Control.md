@@ -89,7 +89,7 @@ Cross Face Control represents the tactical application of arm and shoulder press
 
 ### Common Scenarios Where Concept is Critical
 
-**Scenario 1: [[Side Control Top]] immediately after establishing position**
+**Scenario 1: [[Side Control]] immediately after establishing position**
 → Apply crossface by driving near arm across opponent's face toward far side, turn their head away, pressure through forearm and shoulder, free far hand for underhook or control.
 
 **Scenario 2: [[Half Guard Top]] when passing to side control**
@@ -101,7 +101,7 @@ Cross Face Control represents the tactical application of arm and shoulder press
 **Scenario 4: Side Control when opponent attempts to turn in**
 → Apply increased crossface pressure driving head back away from escape direction, coordinate with hip pressure to flatten opponent and prevent frames, maintain control while advancing position.
 
-**Scenario 5: Transition from [[Side Control Top]] to [[Mount Top]]**
+**Scenario 5: Transition from [[Side Control]] to [[Mount Top]]**
 → Apply continuous crossface throughout transition to prevent opponent creating frames during movement, maintain head control enabling smooth position advancement.
 
 ### Relationship to Other Concepts

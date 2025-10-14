@@ -219,6 +219,7 @@ Start in turtle. Partner attempts various attacks (back take, crucifix, choke se
 
 ## Related Positions
 - [[Turtle Top]] - Opponent's position when you're in bottom turtle
+- [[Turtle Position]] - General turtle position (both perspectives)
 - [[Back Control]] - Position opponent is hunting for from your turtle
 - [[Crucifix Position]] - Dangerous position opponent can achieve from turtle
 - [[Guard Bottom]] - Target position for your turtle escapes

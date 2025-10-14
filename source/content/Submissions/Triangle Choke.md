@@ -74,6 +74,7 @@ tags:
 related_positions:
   - "[[Closed Guard Bottom]]"
   - "[[High Guard]]"
+  - "[[Triangle Control]]"
 related_transitions:
   - "[[Hip Bump Sweep]]"
   - "[[Armbar from Guard]]"

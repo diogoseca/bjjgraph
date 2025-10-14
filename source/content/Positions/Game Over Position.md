@@ -201,7 +201,7 @@ From this position:
 - **Calf Slicer**: Applying pressure to calf muscle → [[Won by Submission]] (Success Rate: Beginner 20%, Intermediate 40%, Advanced 65%)
 - **Toe Hold**: Attacking the ankle and foot → [[Won by Submission]] (Success Rate: Beginner 25%, Intermediate 45%, Advanced 70%)
 - **Knee Bar**: Attacking the knee joint → [[Won by Submission]] (Success Rate: Beginner 15%, Intermediate 35%, Advanced 60%)
-- **Saddle Transition**: Moving to more dominant leg position → [[Saddle Position]] (Success Rate: Beginner 40%, Intermediate 65%, Advanced 85%)
+- **Saddle Position**: Moving to more dominant leg position → [[Saddle Position]] (Success Rate: Beginner 40%, Intermediate 65%, Advanced 85%)
 - **Back Take**: Using leg control to access back → [[Back Control]] (Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%)
 
 Format: `[[Technique Name]] → [[Resulting State]] (Success Rate: Beginner X%, Intermediate Y%, Advanced Z%)`
@@ -225,7 +225,7 @@ Else if [ankle is exposed for attack]:
 - Execute [[Toe Hold]] → [[Won by Submission]] (Probability: Beginner 25%, Intermediate 45%, Advanced 70%)
 
 Else if [position can be improved]:
-- Execute [[Saddle Transition]] → [[Saddle Position]] (Probability: Beginner 40%, Intermediate 65%, Advanced 85%)
+- Execute [[Saddle Position]] → [[Saddle Position]] (Probability: Beginner 40%, Intermediate 65%, Advanced 85%)
 
 Else [maintain control and set up]:
 - Execute [[Calf Slicer]] → [[Won by Submission]] (Probability: Beginner 20%, Intermediate 40%, Advanced 65%)
@@ -363,7 +363,7 @@ Else if ankle is exposed for attack:
 - Execute [[Toe Hold]] → [[Won by Submission]] (Probability: Beginner 25%, Intermediate 45%, Advanced 70%)
 
 Else if position can be improved:
-- Execute [[Saddle Transition]] → [[Saddle Position]] (Probability: Beginner 40%, Intermediate 65%, Advanced 85%)
+- Execute [[Saddle Position]] → [[Saddle Position]] (Probability: Beginner 40%, Intermediate 65%, Advanced 85%)
 
 Else (maintain control and set up):
 - Execute [[Calf Slicer]] → [[Won by Submission]] (Probability: Beginner 20%, Intermediate 40%, Advanced 65%)
@@ -381,7 +381,7 @@ The highest-percentage offensive path from this position:
 [[Game Over Position]] → [[Heel Hook]] → [[Won by Submission]]
 
 Alternative high-percentage path:
-[[Game Over Position]] → [[Saddle Transition]] → [[Saddle Position]] → [[Inside Heel Hook]] → [[Won by Submission]]
+[[Game Over Position]] → [[Saddle Position]] → [[Saddle Position]] → [[Inside Heel Hook]] → [[Won by Submission]]
 
 ## Safety Considerations
 **CRITICAL WARNING**: The game over position provides access to extremely dangerous leg lock submissions that can cause permanent injury. This position should only be practiced by advanced students under qualified instruction. All attacks must be applied with extreme control and immediate response to submission signals.

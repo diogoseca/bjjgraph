@@ -168,11 +168,11 @@ Factors that influence the success rate of the transition:
 
 ## Common Counters and Counter-Attacks
 Analysis of opponent responses with success rates for counter-attacks:
-- [[Base Widening]] → [[Stability Enhancement]] (Success Rate: 50%, Conditions: opponent widens knees before elevation)
+- [[Base Maintenance]] → [[Stability Enhancement]] (Success Rate: 50%, Conditions: opponent widens knees before elevation)
 - [[Head Position Control]] → [[Posture Maintenance]] (Success Rate: 55%, Conditions: opponent keeps head up to resist pull)
 - [[Sprawl]] → [[Pressure Application]] (Success Rate: 45%, Conditions: opponent sprawls hips back to counter lift)
 - [[Counter Underhook]] → [[Upper Body Control]] (Success Rate: 40%, Conditions: opponent fights for underhook to block pull)
-- [[Hook Defense]] → [[Leg Positioning]] (Success Rate: 60%, Conditions: opponent steps over hooks to prevent lift)
+- [[Underhook Defense]] → [[Leg Positioning]] (Success Rate: 60%, Conditions: opponent steps over hooks to prevent lift)
 - [[Submission Counter]] → [[Armbar Opportunity]] (Success Rate: 35%, Conditions: opponent capitalizes on exposed arm during sweep)
 
 ## Decision Logic for Opponent Behavior
@@ -181,13 +181,13 @@ If [opponent weight] is committed forward:
 - Execute [[Butterfly Sweep]] (Probability: 80%)
 
 Else if [opponent base] is wide and stable:
-- Attempt [[Arm Drag]] first to disrupt posture (Probability: 50%)
+- Attempt [[Butterfly Sweep]] first to disrupt posture (Probability: 50%)
 
 Else if [opponent head] is postured up strongly:
 - Transition to [[Collar Tie Control]] (Probability: 55%)
 
 Else if [opponent pass] attempt begins:
-- Adjust to [[Double Butterfly Sweep]] (Probability: 60%)
+- Adjust to [[Butterfly Sweep]] (Probability: 60%)
 
 Else [maintain control]:
 - Reinforce hooks and wait for weight shift (Probability: 45%)
@@ -283,7 +283,7 @@ Else [maintain control]:
 - [[Seated Guard]] → [[Butterfly Guard]] → [[Butterfly Sweep]]
 - [[Arm Drag]] → [[Underhook Control]] → [[Butterfly Sweep]]
 - [[Collar Tie]] → [[Head Control]] → [[Butterfly Sweep]]
-- [[Guard Retention]] → [[Butterfly Hook Insertion]] → [[Butterfly Sweep]]
+- [[Guard Retention]] → [[Butterfly Hook Retention]] → [[Butterfly Sweep]]
 - [[Overhook Control]] → [[Butterfly Sweep]]
 - [[Defensive Framing]] → [[Butterfly Guard Recovery]] → [[Butterfly Sweep]]
 
@@ -291,8 +291,8 @@ Else [maintain control]:
 - [[Side Control Establishment]] → [[Side Control]]
 - [[Mount Attainment]] → [[Mount]]
 - [[Knee on Belly]] → [[Knee on Belly Position]]
-- [[Transition to Back]] → [[Back Control]]
-- [[Near Side Armbar]] → [[Armbar Control]]
+- [[Transition to Truck]] → [[Back Control]]
+- [[Armbar from Side Control]] → [[Armbar Control]]
 - [[Kimura Trap]] → [[Kimura Control]]
 
 ## Training Approaches

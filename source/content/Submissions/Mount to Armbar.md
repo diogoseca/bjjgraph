@@ -123,10 +123,10 @@ When partner taps:
 
 ## Common Counters
 - [[Bridge and Roll]] → [[Guard Recovery]]
-- [[Hitchhiker Escape]] → [[Top Position Recovery]]
-- [[Defensive Frame]] → [[Failed Isolation]]
-- [[Stack Counter]] → [[Positional Reversal]]
-- [[Grip Fighting]] → [[Arm Retention]]
+- [[Hitchhiker Escape]] → [[Mount]]
+- [[Defensive Frame]] → [[Mount]]
+- [[Stack Counter]] → [[Mount]]
+- [[Grip Fighting]] → [[Guard Retention]]
 - [[Roll to Knees]] → [[Turtle Position]]
 
 ## Variants
@@ -153,12 +153,12 @@ When partner taps:
 - Execute following cross-collar choke attempt that forced defensive arm movement
 
 ## Setup Connections
-- [[High Mount]] → [[Mount to Armbar]]
-- [[S-Mount]] → [[Mount to Armbar]]
-- [[Cross Collar Choke Attempt]] → [[Mount to Armbar]]
-- [[Gift Wrap Control]] → [[Mount to Armbar]]
-- [[Technical Mount]] → [[Mount to Armbar]]
-- [[Americana Threat]] → [[Mount to Armbar]]
+- [[Mount]] → [[Mount to Armbar]]
+- [[Mount]] → [[Mount to Armbar]]
+- [[Cross Collar Choke]] → [[Mount to Armbar]]
+- [[Mount]] → [[Mount to Armbar]]
+- [[Mount]] → [[Mount to Armbar]]
+- [[Americana]] → [[Mount to Armbar]]
 
 ## Follow-up Options
 - [[Armbar Finish]] → [[Won by Submission]]

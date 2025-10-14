@@ -1,0 +1,307 @@
+{
+  "session": 1,
+  "agent": 10,
+  "total_fixes": 37,
+  "processed": 37,
+  "successful": 2,
+  "failed": 0,
+  "skipped": 35,
+  "fixes": [
+    {
+      "source_file": "Guard Passing Principles",
+      "target_link": "Spider Guard Top",
+      "suggested_fix": "spider guard",
+      "status": "skipped",
+      "message": "Link [[Spider Guard Top]] not found in file",
+      "file_path": "/source/content/Concepts/Guard Passing Principles.md"
+    },
+    {
+      "source_file": "Guard Position",
+      "target_link": "Standing Pass",
+      "suggested_fix": "standing up",
+      "status": "skipped",
+      "message": "Link [[Standing Pass]] not found in file",
+      "file_path": "/source/content/Positions/Guard Position.md"
+    },
+    {
+      "source_file": "Guard Position",
+      "target_link": "Leg Drag Entry",
+      "suggested_fix": "leg drag control",
+      "status": "skipped",
+      "message": "Link [[Leg Drag Entry]] not found in file",
+      "file_path": "/source/content/Positions/Guard Position.md"
+    },
+    {
+      "source_file": "Guard Position",
+      "target_link": "Technical Stand-up Sweep",
+      "suggested_fix": "technical stand-up",
+      "status": "success",
+      "message": "Fixed 1 occurrence(s) of [[Technical Stand-up Sweep]] \u2192 [[technical stand-up]]",
+      "file_path": "/source/content/Positions/Guard Position.md"
+    },
+    {
+      "source_file": "Guard Pull",
+      "target_link": "Downward Pressure",
+      "suggested_fix": "forward pressure",
+      "status": "skipped",
+      "message": "Link [[Downward Pressure]] not found in file",
+      "file_path": "/source/content/Positions/Guard Pull.md"
+    },
+    {
+      "source_file": "Guard Pull",
+      "target_link": "Defensive Reaction",
+      "suggested_fix": "defensive framing",
+      "status": "skipped",
+      "message": "Link [[Defensive Reaction]] not found in file",
+      "file_path": "/source/content/Positions/Guard Pull.md"
+    },
+    {
+      "source_file": "Guard Pull",
+      "target_link": "Closed Guard Control",
+      "suggested_fix": "closed guard bottom",
+      "status": "skipped",
+      "message": "Link [[Closed Guard Control]] not found in file",
+      "file_path": "/source/content/Positions/Guard Pull.md"
+    },
+    {
+      "source_file": "Guard Pull",
+      "target_link": "Open Guard Establishment",
+      "suggested_fix": "guard establishment",
+      "status": "skipped",
+      "message": "Link [[Open Guard Establishment]] not found in file",
+      "file_path": "/source/content/Positions/Guard Pull.md"
+    },
+    {
+      "source_file": "Guard Recovery",
+      "target_link": "Turtle Transition",
+      "suggested_fix": "turtle position",
+      "status": "skipped",
+      "message": "Link [[Turtle Transition]] not found in file",
+      "file_path": "/source/content/Positions/Guard Recovery.md"
+    },
+    {
+      "source_file": "Guard Recovery",
+      "target_link": "Closed Guard Recovery",
+      "suggested_fix": "guard recovery",
+      "status": "skipped",
+      "message": "Link [[Closed Guard Recovery]] not found in file",
+      "file_path": "/source/content/Positions/Guard Recovery.md"
+    },
+    {
+      "source_file": "Guard Recovery",
+      "target_link": "Defensive Half Guard",
+      "suggested_fix": "deep half guard",
+      "status": "skipped",
+      "message": "Link [[Defensive Half Guard]] not found in file",
+      "file_path": "/source/content/Positions/Guard Recovery.md"
+    },
+    {
+      "source_file": "Guard Recovery",
+      "target_link": "Turtle Transition",
+      "suggested_fix": "turtle position",
+      "status": "skipped",
+      "message": "Link [[Turtle Transition]] not found in file",
+      "file_path": "/source/content/Positions/Guard Recovery.md"
+    },
+    {
+      "source_file": "Guard Recovery",
+      "target_link": "Full Guard Recovery",
+      "suggested_fix": "guard recovery",
+      "status": "skipped",
+      "message": "Link [[Full Guard Recovery]] not found in file",
+      "file_path": "/source/content/Positions/Guard Recovery.md"
+    },
+    {
+      "source_file": "Guard Recovery",
+      "target_link": "Turtle Transition",
+      "suggested_fix": "turtle position",
+      "status": "skipped",
+      "message": "Link [[Turtle Transition]] not found in file",
+      "file_path": "/source/content/Positions/Guard Recovery.md"
+    },
+    {
+      "source_file": "Guard Recovery System",
+      "target_link": "Inside Space Creation",
+      "suggested_fix": "space creation",
+      "status": "skipped",
+      "message": "Link [[Inside Space Creation]] not found in file",
+      "file_path": "/source/content/Positions/Guard Recovery System.md"
+    },
+    {
+      "source_file": "Guard Recovery System",
+      "target_link": "Knee Shield Insertion",
+      "suggested_fix": "knee shield retention",
+      "status": "skipped",
+      "message": "Link [[Knee Shield Insertion]] not found in file",
+      "file_path": "/source/content/Positions/Guard Recovery System.md"
+    },
+    {
+      "source_file": "Guard Recovery System",
+      "target_link": "Turtle Transition",
+      "suggested_fix": "turtle position",
+      "status": "skipped",
+      "message": "Link [[Turtle Transition]] not found in file",
+      "file_path": "/source/content/Positions/Guard Recovery System.md"
+    },
+    {
+      "source_file": "Guillotine Control",
+      "target_link": "Von Flue Counter",
+      "suggested_fix": "von flue choke",
+      "status": "skipped",
+      "message": "Link [[Von Flue Counter]] not found in file",
+      "file_path": "/source/content/Positions/Guillotine Control.md"
+    },
+    {
+      "source_file": "Guillotine Control",
+      "target_link": "Top Closed Guard",
+      "suggested_fix": "top open guard",
+      "status": "skipped",
+      "message": "Link [[Top Closed Guard]] not found in file",
+      "file_path": "/source/content/Positions/Guillotine Control.md"
+    },
+    {
+      "source_file": "Guillotine Control",
+      "target_link": "High-Elbow Guillotine",
+      "suggested_fix": "high elbow guillotine",
+      "status": "skipped",
+      "message": "Link [[High-Elbow Guillotine]] not found in file",
+      "file_path": "/source/content/Positions/Guillotine Control.md"
+    },
+    {
+      "source_file": "Guillotine Control",
+      "target_link": "High-Elbow Guillotine",
+      "suggested_fix": "high elbow guillotine",
+      "status": "skipped",
+      "message": "Link [[High-Elbow Guillotine]] not found in file",
+      "file_path": "/source/content/Positions/Guillotine Control.md"
+    },
+    {
+      "source_file": "Guillotine Control",
+      "target_link": "High-Elbow Guillotine",
+      "suggested_fix": "high elbow guillotine",
+      "status": "skipped",
+      "message": "Link [[High-Elbow Guillotine]] not found in file",
+      "file_path": "/source/content/Positions/Guillotine Control.md"
+    },
+    {
+      "source_file": "Guillotine Sequence",
+      "target_link": "Stacking Defense",
+      "suggested_fix": "stack defense",
+      "status": "skipped",
+      "message": "Link [[Stacking Defense]] not found in file",
+      "file_path": "/source/content/Submissions/Guillotine Sequence.md"
+    },
+    {
+      "source_file": "Guillotine Sequence",
+      "target_link": "Stacking Defense",
+      "suggested_fix": "stack defense",
+      "status": "skipped",
+      "message": "Link [[Stacking Defense]] not found in file",
+      "file_path": "/source/content/Submissions/Guillotine Sequence.md"
+    },
+    {
+      "source_file": "Guillotine Sequence",
+      "target_link": "Resulting Position",
+      "suggested_fix": "standing position",
+      "status": "success",
+      "message": "Fixed 1 occurrence(s) of [[Resulting Position]] \u2192 [[standing position]]",
+      "file_path": "/source/content/Submissions/Guillotine Sequence.md"
+    },
+    {
+      "source_file": "Half Guard Bottom",
+      "target_link": "Half Guard Pin",
+      "suggested_fix": "half guard top",
+      "status": "skipped",
+      "message": "Link [[Half Guard Pin]] not found in file",
+      "file_path": "/source/content/Positions/Half Guard Bottom.md"
+    },
+    {
+      "source_file": "Half Guard Bottom",
+      "target_link": "Knee Shield Transition",
+      "suggested_fix": "knee shield retention",
+      "status": "skipped",
+      "message": "Link [[Knee Shield Transition]] not found in file",
+      "file_path": "/source/content/Positions/Half Guard Bottom.md"
+    },
+    {
+      "source_file": "Half Guard Bottom",
+      "target_link": "Electric Chair Sweep",
+      "suggested_fix": "electric chair",
+      "status": "skipped",
+      "message": "Link [[Electric Chair Sweep]] not found in file",
+      "file_path": "/source/content/Positions/Half Guard Bottom.md"
+    },
+    {
+      "source_file": "Half Guard Bottom",
+      "target_link": "Side Control Top",
+      "suggested_fix": "side control",
+      "status": "skipped",
+      "message": "Link [[Side Control Top]] not found in file",
+      "file_path": "/source/content/Positions/Half Guard Bottom.md"
+    },
+    {
+      "source_file": "Half Guard Bottom",
+      "target_link": "Lockdown Half Guard",
+      "suggested_fix": "lockdown guard",
+      "status": "skipped",
+      "message": "Link [[Lockdown Half Guard]] not found in file",
+      "file_path": "/source/content/Positions/Half Guard Bottom.md"
+    },
+    {
+      "source_file": "Half Guard Bottom",
+      "target_link": "Lockdown Half Guard",
+      "suggested_fix": "lockdown guard",
+      "status": "skipped",
+      "message": "Link [[Lockdown Half Guard]] not found in file",
+      "file_path": "/source/content/Positions/Half Guard Bottom.md"
+    },
+    {
+      "source_file": "Half Guard Bottom",
+      "target_link": "Electric Chair Sweep",
+      "suggested_fix": "electric chair",
+      "status": "skipped",
+      "message": "Link [[Electric Chair Sweep]] not found in file",
+      "file_path": "/source/content/Positions/Half Guard Bottom.md"
+    },
+    {
+      "source_file": "Half Guard Bottom",
+      "target_link": "Underhook Secure",
+      "suggested_fix": "underhook sweep",
+      "status": "skipped",
+      "message": "Link [[Underhook Secure]] not found in file",
+      "file_path": "/source/content/Positions/Half Guard Bottom.md"
+    },
+    {
+      "source_file": "Half Guard Bottom",
+      "target_link": "Side Control Top",
+      "suggested_fix": "side control",
+      "status": "skipped",
+      "message": "Link [[Side Control Top]] not found in file",
+      "file_path": "/source/content/Positions/Half Guard Bottom.md"
+    },
+    {
+      "source_file": "Half Guard Bottom",
+      "target_link": "Knee Shield Transition",
+      "suggested_fix": "knee shield retention",
+      "status": "skipped",
+      "message": "Link [[Knee Shield Transition]] not found in file",
+      "file_path": "/source/content/Positions/Half Guard Bottom.md"
+    },
+    {
+      "source_file": "Half Guard Defensive System",
+      "target_link": "Lockdown Half Guard",
+      "suggested_fix": "lockdown guard",
+      "status": "skipped",
+      "message": "Link [[Lockdown Half Guard]] not found in file",
+      "file_path": "/source/content/Positions/Half Guard Defensive System.md"
+    },
+    {
+      "source_file": "Half Guard Defensive System",
+      "target_link": "Electric Chair Sweep",
+      "suggested_fix": "electric chair",
+      "status": "skipped",
+      "message": "Link [[Electric Chair Sweep]] not found in file",
+      "file_path": "/source/content/Positions/Half Guard Defensive System.md"
+    }
+  ]
+}

@@ -163,10 +163,10 @@ Factors that increase/decrease probability:
 ### Common Counters
 Opponent responses with success rates:
 - **Defensive Grip Fighting**: Breaking grip on wrist before pressure → [[Grip Breaking]] (Success Rate: 35%, Conditions: early reaction)
-- **Hitchhiker Escape**: Rotating arm with thumb down to escape → [[Defensive Rotation]] (Success Rate: 30%, Conditions: quick adjustment)
-- **Stack Defense**: Stacking practitioner to disrupt angle → [[Posture Compromise]] (Success Rate: 25%, Conditions: strong base)
-- **Arm Rotation**: Turning arm to change joint alignment → [[Joint Alignment Change]] (Success Rate: 20%, Conditions: space available)
-- **Bridge and Roll**: Explosive movement to roll out → [[Positional Escape]] (Success Rate: 15%, Conditions: significant leverage)
+- **Hitchhiker Escape**: Rotating arm with thumb down to escape → [[Defensive Position]] (Success Rate: 30%, Conditions: quick adjustment)
+- **Stack Defense**: Stacking practitioner to disrupt angle → [[Stack Defense]] (Success Rate: 25%, Conditions: strong base)
+- **Arm Rotation**: Turning arm to change joint alignment → [[Defensive Position]] (Success Rate: 20%, Conditions: space available)
+- **Bridge and Roll**: Explosive movement to roll out → [[Guard Recovery]] (Success Rate: 15%, Conditions: significant leverage)
 
 Format: `[[Counter Technique]] → [[Result State]] (Success Rate: X%, Conditions: [when applicable])`
 
@@ -192,12 +192,12 @@ Else [optimal submission execution]:
 
 ### Common Threats During Attempt
 Primary risks while attempting this submission:
-- **Position Loss**: Opponent rolls or escapes → [[Positional Escape]] (Threat Level: Medium)
-- **Counter Submission**: Opponent attacks with leg locks if hips exposed → [[Leg Lock Control]] (Threat Level: Low)
-- **Escape**: Opponent breaks grip and rotates arm → [[Defensive Rotation]] (Threat Level: Medium)
-- **Stalemate**: Opponent stalls with strong defense → [[Posture Compromise]] (Threat Level: Low)
+- **Position Loss**: Opponent rolls or escapes → [[Guard Recovery]] (Threat Level: Medium)
+- **Counter Submission**: Opponent attacks with leg locks if hips exposed → [[Kneebar Control]] (Threat Level: Low)
+- **Escape**: Opponent breaks grip and rotates arm → [[Defensive Position]] (Threat Level: Medium)
+- **Stalemate**: Opponent stalls with strong defense → [[Standing up]] (Threat Level: Low)
 
-Format: `[[Threat Type]] → [[Resulting Position]] (Threat Level: X)`
+Format: `[[Threat Type]] → [[standing position]] (Threat Level: X)`
 
 ### Defensive Strategies
 Methods to mitigate threats:
@@ -347,6 +347,10 @@ Updates to this standard should be reflected across all submission files to main
 - **Americana** - Complementary shoulder lock from similar positions
 - **Wrist Lock** - Secondary attack if armbar control is partial
 
+## Related Positions
+- **[[Mount]]** - One of the most common positions for armbar setup and finish
+- **[[Armbar Control]]** - The control position preceding this submission finish
+
 ## Historical Context
 The armbar finish, known as Ude-Hishigi-Juji-Gatame in Judo, is one of the oldest grappling submissions, with variations in nearly every grappling culture. In Brazilian Jiu-Jitsu, it became a cornerstone technique through the Gracie family's emphasis on leverage, allowing smaller practitioners to submit larger opponents effectively.
 
@@ -366,9 +370,10 @@ The armbar finish, known as Ude-Hishigi-Juji-Gatame in Judo, is one of the oldes
 ## Submission Integration
 **Common armbar finish combinations:**
 - [[Armbar Control]] → [[Armbar Finish]] → [[Won by Submission]]
-- [[Failed Armbar Finish]] → [[Triangle Choke]] → [[Won by Submission]]
-- [[Failed Armbar Finish]] → [[Omoplata]] → [[Won by Submission]]
-- [[Failed Armbar Finish]] → [[Back Control]] → [[Rear Naked Choke]]
+- [[Mount]] → [[Armbar Finish]] → [[Won by Submission]]
+- [[Armbar Finish]] → [[triangle choke side]] → [[Won by Submission]]
+- [[Armbar Finish]] → [[Omoplata]] → [[Won by Submission]]
+- [[Armbar Finish]] → [[Back Control]] → [[Rear Naked Choke]]
 
 ## Training Applications
 - **Fundamental Development**: Essential for understanding joint lock mechanics

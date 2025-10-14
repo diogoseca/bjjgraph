@@ -328,6 +328,7 @@ Updates to this standard should be reflected across all transition files to main
 - [[Kosoto Gari]] - Related technique
 - [[Sasae Tsurikomi Ashi]] - Related technique
 - [[Osoto Gari]] - Related technique
+- [[Neutral Position]] - Primary starting state for deashi harai
 
 
 ## Competition Applications

@@ -155,7 +155,7 @@ You are standing upright with your feet staggered in a defensive stance, weight 
 ## Offensive Transitions (Available From This State)
 - [[Technical Stand-up]] → [[Standing Position]]
 - [[Defensive Sprawl]] → [[Front Headlock]]
-- [[Single Leg Counter]] → [[Single Leg Takedown]]
+- [[Single Leg Entry]] → [[Single Leg Takedown]]
 - [[Pull Guard]] → [[Guard Position]]
 - [[Ankle Pick]] → [[Top Position]]
 - [[Distance Creation]] → [[Disengagement]]
@@ -214,7 +214,7 @@ Else if opponent creates distance:
 - Execute [[Technical Stand-up]] or [[Distance Creation]]
 
 Else if opponent pressures aggressively:
-- Execute [[Single Leg Counter]] or [[Ankle Pick]]
+- Execute [[Single Leg Entry]] or [[Ankle Pick]]
 
 ## Position Metrics
 - Success Rate: 60% defensive effectiveness

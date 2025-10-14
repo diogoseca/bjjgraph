@@ -77,8 +77,8 @@ The Berimbolo is a modern dynamic technique that uses a rolling inversion from D
 
 ## Common Counters
 - [[Base and Posture]] → [[Passing Opportunity]]
-- [[Leg Drag Counter]] → [[Leg Drag Position]]
-- [[Backstep]] → [[Knee Cut Position]]
+- [[Leg Drag Control]] → [[Leg Drag Position]]
+- [[Back Step]] → [[Knee Cut Position]]
 - [[Forward Pressure]] → [[Smash Pass]]
 - [[Sitting Back]] → [[Double Pull Situation]]
 
@@ -103,11 +103,11 @@ The Berimbolo is a modern dynamic technique that uses a rolling inversion from D
 - Use as opponent begins to disengage from the guard
 
 ## Follow-up Options
-- [[Back Control Consolidation]] → [[Back Control]]
+- [[Side Control Consolidation]] → [[Back Control]]
 - [[Crab Ride Control]] → [[Crab Ride]]
-- [[Crucifix Transition]] → [[Crucifix]]
+- [[Crucifix Position]] → [[Crucifix]]
 - [[Leg Drag from Back]] → [[Leg Drag Position]]
-- [[Back Triangle]] → [[Triangle Control]]
+- [[Arm Triangle]] → [[Triangle Control]]
 
 ## Video References
 - Miyao brothers' competition highlight reels

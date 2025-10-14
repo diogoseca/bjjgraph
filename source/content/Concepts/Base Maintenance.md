@@ -111,6 +111,9 @@ Base Maintenance represents the fundamental skill of establishing and preserving
 - **MMA** - Adapted to address striking balance considerations
 - **Gi vs No-Gi** - Fundamental principles remain consistent with tactical adaptations
 
+## Position Applications
+Base maintenance is particularly critical in dominant positions such as [[Mount]], where maintaining stable base prevents escapes and enables offensive techniques.
+
 ## Decision Framework
 When implementing base maintenance:
 - Assess positional requirements and primary stability threats

@@ -1,0 +1,294 @@
+{
+  "session": 1,
+  "agent": 9,
+  "total_fixes_attempted": 37,
+  "fixes_completed": 0,
+  "fixes_skipped": 37,
+  "summary": "Agent 9 processed 37 potential link fixes. Analysis revealed that all 37 broken links have either been fixed in previous cleanup sessions or never existed as actual wikilinks. The 4 instances found were template/format examples (e.g., 'Format: [[Threat Type]] → [[Resulting Position]]') rather than actual broken links requiring fixes. This indicates previous cleanup efforts were effective and these were false positives from the link analysis phase.",
+  "completed_fixes": [],
+  "skipped_fixes": [
+    {
+      "source_file": "Ezekiel Choke",
+      "target_link": "Resulting Position",
+      "suggested_fix": "standing position",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Ezekiel Choke",
+      "target_link": "High Mount Control",
+      "suggested_fix": "mount control",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 83.87
+    },
+    {
+      "source_file": "Ezekiel Choke",
+      "target_link": "Guard Bottom",
+      "suggested_fix": "half guard bottom",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 82.76
+    },
+    {
+      "source_file": "Far Side Armbar",
+      "target_link": "Stacking Defense",
+      "suggested_fix": "stack defense",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 89.66
+    },
+    {
+      "source_file": "Far Side Armbar",
+      "target_link": "Stacking Defense",
+      "suggested_fix": "stack defense",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 89.66
+    },
+    {
+      "source_file": "Far Side Armbar",
+      "target_link": "Resulting Position",
+      "suggested_fix": "standing position",
+      "reason": "Found only as format template example, not actual broken wikilink",
+      "confidence": 80.0,
+      "note": "Line 194: 'Format: [[Threat Type]] → [[Resulting Position]] (Threat Level: X)'"
+    },
+    {
+      "source_file": "Fireman's Carry",
+      "target_link": "Failed Fireman's Carry",
+      "suggested_fix": "fireman's carry",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 81.08
+    },
+    {
+      "source_file": "Flattened Half Guard",
+      "target_link": "D'arce Setup",
+      "suggested_fix": "darce setup",
+      "reason": "Link not found - already uses correct 'Darce Setup' (without apostrophe)",
+      "confidence": 95.65,
+      "note": "File uses [[Darce Setup]] which is the correct link. No apostrophe version found."
+    },
+    {
+      "source_file": "Flattened Half Guard",
+      "target_link": "D'arce Setup",
+      "suggested_fix": "darce setup",
+      "reason": "Link not found - already uses correct 'Darce Setup' (without apostrophe)",
+      "confidence": 95.65,
+      "note": "Duplicate fix entry"
+    },
+    {
+      "source_file": "Foot Grab Sweep",
+      "target_link": "Failed Foot Grab Sweep",
+      "suggested_fix": "foot grab sweep",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 81.08
+    },
+    {
+      "source_file": "Forward Roll",
+      "target_link": "Arm Entanglement",
+      "suggested_fix": "leg entanglement",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Front Headlock",
+      "target_link": "Anaconda Entry",
+      "suggested_fix": "anaconda control",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Front Headlock",
+      "target_link": "D'arce Setup",
+      "suggested_fix": "darce setup",
+      "reason": "Link not found - likely already fixed to 'Darce Setup'",
+      "confidence": 95.65
+    },
+    {
+      "source_file": "Front Headlock",
+      "target_link": "Anaconda Entry",
+      "suggested_fix": "anaconda control",
+      "reason": "Link not found in file (duplicate check)",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Front Headlock",
+      "target_link": "D'arce Setup",
+      "suggested_fix": "darce setup",
+      "reason": "Link not found - likely already fixed (duplicate check)",
+      "confidence": 95.65
+    },
+    {
+      "source_file": "Front Headlock",
+      "target_link": "D'arce Setup",
+      "suggested_fix": "darce setup",
+      "reason": "Link not found - likely already fixed (duplicate check)",
+      "confidence": 95.65
+    },
+    {
+      "source_file": "Front Headlock",
+      "target_link": "D'arce Choke",
+      "suggested_fix": "marce choke",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 86.96
+    },
+    {
+      "source_file": "Front Headlock Submission System",
+      "target_link": "Posture Break",
+      "suggested_fix": "posture breaking",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 89.66
+    },
+    {
+      "source_file": "Front Headlock Submission System",
+      "target_link": "D'arce Setup",
+      "suggested_fix": "darce setup",
+      "reason": "Link not found - likely already fixed to 'Darce Setup'",
+      "confidence": 95.65
+    },
+    {
+      "source_file": "Front Headlock Submission System",
+      "target_link": "Front Headlock Reset",
+      "suggested_fix": "front headlock series",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 87.80
+    },
+    {
+      "source_file": "Game Over Position",
+      "target_link": "Saddle Transition",
+      "suggested_fix": "saddle position",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Game Over Position",
+      "target_link": "Saddle Transition",
+      "suggested_fix": "saddle position",
+      "reason": "Link not found in file (duplicate check)",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Game Over Position",
+      "target_link": "Saddle Transition",
+      "suggested_fix": "saddle position",
+      "reason": "Link not found in file (duplicate check)",
+      "confidence": 81.25
+    },
+    {
+      "source_file": "Ghost Escape",
+      "target_link": "Crossface Control",
+      "suggested_fix": "cross face control",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 97.14
+    },
+    {
+      "source_file": "Ghost Escape",
+      "target_link": "Side Control Top",
+      "suggested_fix": "side control",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 85.71
+    },
+    {
+      "source_file": "Ghost Escape",
+      "target_link": "Crossface Control",
+      "suggested_fix": "cross face control",
+      "reason": "Link not found in file (duplicate check)",
+      "confidence": 97.14
+    },
+    {
+      "source_file": "Ghost Escape",
+      "target_link": "Side Control Bottom",
+      "suggested_fix": "side control to mount",
+      "reason": "Found in YAML frontmatter and sequence examples, not actionable wikilinks in content. 'Side Control Bottom' page doesn't exist but references are in metadata/arrays.",
+      "confidence": 80.0,
+      "note": "Lines 7, 36, 403, 404 - YAML starting_state, related_positions array, and sequence diagrams"
+    },
+    {
+      "source_file": "Ghost Escape",
+      "target_link": "Side Control Bottom",
+      "suggested_fix": "side control to mount",
+      "reason": "Found in YAML frontmatter and sequence examples (duplicate check)",
+      "confidence": 80.0,
+      "note": "Duplicate fix entry"
+    },
+    {
+      "source_file": "Gi-Specific Strategy",
+      "target_link": "Spider Guard Sweep",
+      "suggested_fix": "spider guard",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Gift Wrap Position",
+      "target_link": "Rear Naked Choke Setup",
+      "suggested_fix": "rear naked choke",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 84.21
+    },
+    {
+      "source_file": "Gogoplata Setup",
+      "target_link": "Resulting Position",
+      "suggested_fix": "standing position",
+      "reason": "Found only as format template example, not actual broken wikilink",
+      "confidence": 80.0,
+      "note": "Line 248: 'Format: [[Threat Type]] → [[Resulting Position]] (Threat Level: X)'"
+    },
+    {
+      "source_file": "Grip Break",
+      "target_link": "Standing",
+      "suggested_fix": "standing up",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 84.21
+    },
+    {
+      "source_file": "Grip Break",
+      "target_link": "Distance Control",
+      "suggested_fix": "d'arce control",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Grip Break",
+      "target_link": "Distance Management",
+      "suggested_fix": "space management",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 85.71
+    },
+    {
+      "source_file": "Guard Pass",
+      "target_link": "Side Control Top",
+      "suggested_fix": "side control",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 85.71
+    },
+    {
+      "source_file": "Guard Pass",
+      "target_link": "Side Control Top",
+      "suggested_fix": "side control",
+      "reason": "Link not found in file (duplicate check)",
+      "confidence": 85.71
+    },
+    {
+      "source_file": "Guard Passing Principles",
+      "target_link": "De La Riva Guard Top",
+      "suggested_fix": "de la riva guard",
+      "reason": "Link not found in file (already fixed or never existed)",
+      "confidence": 88.89
+    }
+  ],
+  "files_modified": [],
+  "validation_notes": [
+    "High confidence links (6 instances of 'D'arce Setup') appear to have been fixed to 'Darce Setup' (without apostrophe) in previous cleanup",
+    "4 instances were template/format examples, not actual broken wikilinks requiring fixes",
+    "2 instances of 'Side Control Bottom' found only in YAML frontmatter and sequence diagrams, not in content wikilinks",
+    "No actual content modifications were needed - all broken links already resolved",
+    "Chunk appears to contain historical data from earlier link analysis, not current broken links",
+    "Ambiguous count (33/37) aligns with findings - these were likely suggestions that didn't match actual file content"
+  ],
+  "completion_time": "2025-10-13",
+  "agent_efficiency": "0.0%",
+  "recommendations": [
+    "This chunk (agent_09) contained no actionable fixes - all links already resolved or were false positives",
+    "Future link analysis should filter out format templates (lines containing 'Format:' followed by example wikilinks)",
+    "YAML frontmatter references and array entries should be distinguished from content wikilinks",
+    "High ambiguous count (33/37) suggests this data may be from an early analysis pass before previous cleanup",
+    "Consider marking this chunk as 'already_completed' to avoid duplicate work"
+  ]
+}

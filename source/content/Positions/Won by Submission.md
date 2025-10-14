@@ -174,7 +174,7 @@ Else if [submission opportunity missed] due to timing:
 - Return to [[Positional Control]] for reset (Probability: 50%)
 
 Else [maintain offensive pressure]:
-- Continue with [[Submission Chain]] for relentless attack (Probability: 75%)
+- Continue with [[Submission Chains]] for relentless attack (Probability: 75%)
 ```
 
 ## Expert Insights

@@ -9,7 +9,7 @@ target_area: "Elbow joint (hyperextension)"
 
 # State Machine Properties
 starting_state: "S008"
-starting_position_name: "Side Control Top"
+starting_position_name: "Side Control"
 ending_state: "Terminal - Won by Submission"
 is_terminal: true
 
@@ -72,9 +72,9 @@ tags:
 
 # Related Content (Wikilinks)
 related_positions:
-  - "[[Side Control Top]]"
+  - "[[Side Control]]"
   - "[[Armbar Control]]"
-  - "[[Mount Top]]"
+  - "[[Mount]]"
 related_transitions:
   - "[[Side Control to Mount]]"
   - "[[Arm Isolation]]"
@@ -96,7 +96,7 @@ version: "2.0"
 **Purpose**: This submission is a terminal state in the BJJ state machine. Success results in immediate match victory. Safety is paramount - elbow joint damage can be permanent.
 
 **Setup Requirements Checklist**:
-- [ ] Starting position: [[Side Control Top]] (S008) established
+- [ ] Starting position: [[Side Control]] (S008) established
 - [ ] Position control quality: Dominant side control with chest pressure
 - [ ] Required grips: Near-side arm controlled, wrist grip secured
 - [ ] Angle optimization: Hip positioned to allow leg swing over head
@@ -162,13 +162,13 @@ ELSE:
 
 The Armbar from Side Control is a high-percentage submission that capitalizes on the dominant position of side control to isolate and attack the opponent's near-side arm. This technique is particularly effective because it maintains positional dominance while transitioning to a submission, and the opponent often cannot defend without giving up position.
 
-From [[Side Control Top]] (S008), the practitioner controls the opponent's near-side arm (closest to their chest) and uses their body weight and leg positioning to isolate the elbow joint. The submission works by creating a fulcrum at the opponent's elbow while applying hyperextension pressure through hip elevation and wrist control.
+From [[Side Control]] (S008), the practitioner controls the opponent's near-side arm (closest to their chest) and uses their body weight and leg positioning to isolate the elbow joint. The submission works by creating a fulcrum at the opponent's elbow while applying hyperextension pressure through hip elevation and wrist control.
 
 This armbar variation is favored in competition because it can be executed with minimal risk of losing position. Even if the submission fails, the practitioner can often return to side control or transition to mount. The technique exemplifies efficient BJJ principles: using leverage and positional control to create submission opportunities.
 
 ### Submission Properties
 
-From [[Side Control Top]] (S008):
+From [[Side Control]] (S008):
 
 **Success Rates**:
 - Beginner: 35%
@@ -198,7 +198,7 @@ You secure a tight grip on their wrist with their thumb pointing up to align the
 
 Conditions that **must** be satisfied before attempting:
 
-1. **Position Establishment**: [[Side Control Top]] (S008) established with dominant chest pressure and weight distribution across opponent's torso
+1. **Position Establishment**: [[Side Control]] (S008) established with dominant chest pressure and weight distribution across opponent's torso
 
 2. **Control Points**:
    - Dominant side control with hip pressure
@@ -343,13 +343,13 @@ Conditions that **must** be satisfied before attempting:
 Defensive responses with success rates and safety windows:
 
 **Early Defense** (Submission <70% complete - before leg swing)
-- [[Arm Retention]] → [[Side Control Bottom]] (Success Rate: 60%, Window: 2-3 seconds)
+- [[Guard Retention]] → [[Side Control]] (Success Rate: 60%, Window: 2-3 seconds)
 - Defender action: Pull arm tight to body, prevent wrist control, maintain defensive frames
 - Attacker response: Break grips with hand fighting, use weight to extend arm, transition to other attacks
 - Safety note: Best time to defend - submission not initiated yet
 
 **Hand Fighting** (Wrist controlled but leg not over head)
-- [[Grip Breaking]] → [[Side Control Escape]] (Success Rate: 45%, Window: 1-2 seconds)
+- [[Grip Breaking]] → [[Guard Recovery]] (Success Rate: 45%, Window: 1-2 seconds)
 - Defender action: Fight wrist control, prevent leg from swinging over head, bridge and turn
 - Attacker response: Secure wrist grip firmly, use momentum for leg swing, maintain pressure
 - Safety note: Window still exists for safe escape before full armbar position
@@ -361,7 +361,7 @@ Defensive responses with success rates and safety windows:
 - Safety critical: Must execute immediately or tap - delayed attempt risks injury
 
 **Technical Escape 2** (Full armbar but pre-pressure)
-- [[Stack Defense]] → [[Top Position Recovery]] (Success Rate: 25%, Window: <1 second)
+- [[Stack Defense]] → [[Mount]] (Success Rate: 25%, Window: <1 second)
 - Defender action: Post free hand, stack body weight over attacker, create pressure to escape
 - Attacker response: Pull head down with legs, extend hips, complete submission quickly
 - Safety critical: High energy cost, last-ditch effort before inevitable submission
@@ -376,7 +376,7 @@ Defensive responses with success rates and safety windows:
 
 ```
 If [wrist control not established] AND [leg not swung]:
-- Execute [[Arm Retention]] (Success Rate: 60%)
+- Execute [[guard retention]] (Success Rate: 60%)
 - Window: 2-3 seconds to prevent setup
 - Action: Pull arm tight, fight grips, maintain frames
 
@@ -612,7 +612,7 @@ Safe learning pathway emphasizing control before completion:
 ## Variations & Setups
 
 ### Primary Setup (Most Common)
-From [[Side Control Top]]:
+From [[Side Control]]:
 - Opponent frames with near-side arm to create space
 - Secure both hands on their wrist immediately
 - Slide hips up toward their head while maintaining control
@@ -623,7 +623,7 @@ From [[Side Control Top]]:
 - Safety considerations: Most direct entry, ensure wrist control before leg swing
 
 ### Alternative Setup 1: Mount Transition Armbar
-From [[Side Control Top]] transitioning to [[Mount Top]]:
+From [[Side Control]] transitioning to [[Mount]]:
 - Begin mount transition by bringing knee up
 - As opponent defends mount, arm becomes extended
 - Intercept extended arm with wrist control
@@ -632,7 +632,7 @@ From [[Side Control Top]] transitioning to [[Mount Top]]:
 - Safety notes: Faster transition, maintain control throughout
 
 ### Alternative Setup 2: Near-Side Armbar (Stepover)
-From [[Side Control Top]]:
+From [[Side Control]]:
 - Control near-side arm at elbow
 - Step your near-side leg over their head (stepover variation)
 - Sit through to armbar position
@@ -657,7 +657,7 @@ After failed [[Kimura from Side Control]]:
 - Transition cue: Feel their arm extend fully
 - Safety: Maintain control during transition, verify setup before pressure
 
-After failed [[Mount Top]] transition:
+After failed [[Mount]] transition:
 - Opponent blocks mount by extending arm
 - Extended arm is perfect armbar setup
 - Decision point: When they push on your hip or knee
@@ -762,7 +762,7 @@ Test understanding before live application. Minimum 5/6 correct required.
 ### Question 1: Setup Recognition (Safety Critical)
 **Q**: What position and controls must be established before attempting this submission safely?
 
-**A**: Starting position must be [[Side Control Top]] (S008) with dominant chest pressure and weight distribution. Required controls: (1) Near-side arm isolated and wrist controlled with both hands, (2) Hips slid high toward opponent's head (shoulder level), (3) Head controlled or space created for leg swing, (4) Opponent's defensive frames broken, (5) Base stable with far leg posted, (6) Partner can tap with free hand or verbally. Safety verification includes confirming wrist control is secure before leg swing begins.
+**A**: Starting position must be [[side control]] (S008) with dominant chest pressure and weight distribution. Required controls: (1) Near-side arm isolated and wrist controlled with both hands, (2) Hips slid high toward opponent's head (shoulder level), (3) Head controlled or space created for leg swing, (4) Opponent's defensive frames broken, (5) Base stable with far leg posted, (6) Partner can tap with free hand or verbally. Safety verification includes confirming wrist control is secure before leg swing begins.
 
 **Why It Matters**: Attempting armbar without proper setup leads to rushed movements and forcing pressure from bad angles, which dramatically increases injury risk and teaches poor technique. Proper setup makes finish inevitable and safe.
 
@@ -994,9 +994,9 @@ Test understanding before live application. Minimum 5/6 correct required.
 - Long-tail: "how to armbar from side control", "side control armbar defense", "side control armbar tutorial"
 
 ### Internal Linking (Minimum 3-5)
-- [[Side Control Top]] (S008) - primary starting position
+- [[side control]] (S008) - primary starting position
 - [[Armbar Control]] - transition position
-- [[Mount Top]] - alternative transition
+- [[Mount]] - alternative transition
 - [[Kimura from Side Control]] - related submission
-- [[Armbar Defense - Hitchhiker]] - primary counter
-- [[Joint Lock Principles]] - underlying mechanics
+- [[Guard Retention]] - primary counter
+- [[Stack Defense]] - defensive technique

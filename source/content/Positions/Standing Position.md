@@ -145,18 +145,18 @@ Both practitioners stand upright on their feet, facing each other with athletic 
 
 ## Defensive Responses (When Opponent Has This State)
 - [[Grip Fighting]] → [[Grip Advantage]]
-- [[Distance Management]] → [[Safe Range]]
+- [[Space Management]] → [[Safe Range]]
 - [[Defensive Stance]] → [[Takedown Prevention]]
 - [[Sprawl Ready Position]] → [[Takedown Defense]]
 - [[Collar Tie Counter]] → [[Tie-Up Negation]]
 
 ## Offensive Transitions (Available From This State)
 - [[Double Leg Entry]] → [[Double leg takedown]]
-- [[Single Leg Setup]] → [[Single Leg Takedown]]
+- [[Single Leg Entry]] → [[Single Leg Takedown]]
 - [[Collar Drag]] → [[Top Position]]
 - [[Arm Drag]] → [[Back Control Standing]]
 - [[Pull Guard]] → [[Closed Guard Bottom]]
-- [[Foot Sweep]] → [[Osoto Gari]]
+- [[Hook Sweep]] → [[Osoto Gari]]
 - [[Hip Throw Setup]] → [[Seoi Nage]]
 - [[Ankle Pick]] → [[Top Position]]
 - [[Snap Down]] → [[Front Headlock]]
@@ -210,7 +210,7 @@ Else if opponent bends at waist:
 - Execute [[Double Leg Entry]] or [[Front Headlock]]
 
 Else if opponent has wide stance:
-- Execute [[Single Leg Setup]] or [[Ankle Pick]]
+- Execute [[Single Leg Entry]] or [[Ankle Pick]]
 
 Else if opponent maintains upright posture:
 - Execute [[Collar Drag]] or [[Hip Throw Setup]]

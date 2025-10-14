@@ -1,0 +1,138 @@
+{
+  "applied": [
+    {
+      "source": "Side Control",
+      "target": "Pressure Application",
+      "section": "Key Principles",
+      "file": "source/content/Positions/Side Control.md",
+      "line": 130
+    },
+    {
+      "source": "Smash Pass Position",
+      "target": "Guard Pass",
+      "section": "Related Positions",
+      "file": "source/content/Positions/Smash Pass Position.md",
+      "line": 202
+    },
+    {
+      "source": "Combat Base",
+      "target": "Base Maintenance",
+      "section": "Key Principles",
+      "file": "source/content/Positions/Combat Base.md",
+      "line": 178
+    },
+    {
+      "source": "Z-Guard Variations Bottom",
+      "target": "Half Guard Bottom",
+      "section": "Related Positions",
+      "file": "source/content/Positions/Z-Guard Variations Bottom.md",
+      "line": 886
+    },
+    {
+      "source": "Truck Position Bottom",
+      "target": "Back Control",
+      "section": "Related Positions",
+      "file": "source/content/Positions/Truck Position Bottom.md",
+      "line": 261
+    },
+    {
+      "source": "Leg Drag Position",
+      "target": "Guard Pass",
+      "section": "Related Positions",
+      "file": "source/content/Positions/Leg Drag Position.md",
+      "line": 202
+    },
+    {
+      "source": "Scarf Hold Top",
+      "target": "Side Control",
+      "section": "Related Positions",
+      "file": "source/content/Positions/Scarf Hold Top.md",
+      "line": 600
+    },
+    {
+      "source": "Leg Drag Control",
+      "target": "Side Control Top",
+      "section": "Offensive Transitions",
+      "file": "source/content/Positions/Leg Drag Control.md",
+      "line": 104
+    },
+    {
+      "source": "Lapel Guard Variations Bottom",
+      "target": "Guard Retention",
+      "section": "Key Principles",
+      "file": "source/content/Positions/Lapel Guard Variations Bottom.md",
+      "line": 48
+    },
+    {
+      "source": "Truck Position Top",
+      "target": "Turtle Position",
+      "section": "Related Positions",
+      "file": "source/content/Positions/Truck Position Top.md",
+      "line": 264
+    },
+    {
+      "source": "Saddle Variations Bottom",
+      "target": "Guard Recovery",
+      "section": "Defensive Responses",
+      "file": "source/content/Positions/Saddle Variations Bottom.md",
+      "line": 222
+    },
+    {
+      "source": "Single Leg X Position Bottom",
+      "target": "Single Leg X Guard",
+      "section": "Related Positions",
+      "file": "source/content/Positions/Single Leg X Position Bottom.md",
+      "line": 248
+    }
+  ],
+  "skipped_exists": [
+    {
+      "source": "Submission Control Position",
+      "target": "Rear Naked Choke",
+      "reason": "Wikilink already exists"
+    }
+  ],
+  "skipped_no_target": [],
+  "errors": [
+    {
+      "source": "Crucifix Control Position",
+      "target": "Rear Naked Choke",
+      "error": "Section \"Offensive Transitions\" not found"
+    },
+    {
+      "source": "Guard Establishment",
+      "target": "Closed Guard Bottom",
+      "error": "Section \"Offensive Transitions\" not found"
+    },
+    {
+      "source": "Neutral Position",
+      "target": "Pull Guard",
+      "error": "Section \"Offensive Transitions\" not found"
+    },
+    {
+      "source": "North South Control",
+      "target": "North-South",
+      "error": "Section \"Related Positions\" not found"
+    },
+    {
+      "source": "Kuzure Kesa Gatame",
+      "target": "North-South",
+      "error": "Section \"Offensive Transitions\" not found"
+    },
+    {
+      "source": "Open Guard Top",
+      "target": "Guard Pass",
+      "error": "Section \"Offensive Transitions\" not found"
+    },
+    {
+      "source": "Pull Guard",
+      "target": "Guard Retention",
+      "error": "Section \"Offensive Transitions\" not found"
+    },
+    {
+      "source": "Guard Recovery Position",
+      "target": "Guard Retention",
+      "error": "Section \"Defensive Responses\" not found"
+    }
+  ]
+}

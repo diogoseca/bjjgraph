@@ -95,7 +95,7 @@ version: "2.0"
 
 ## LLM Context: Submission Data Structure
 
-**Purpose**: Triangle from Guard is a high-percentage blood choke submission from guard positions. It's a terminal state that results in unconsciousness if held beyond tap. Safety is paramount - this technique can render opponent unconscious in 3-8 seconds with full pressure applied.
+**Purpose**: Triangle from Guard is a high-percentage blood choke submission from guard positions. It's a terminal state ([[Won by Submission]]) that results in unconsciousness if held beyond tap. Safety is paramount - this technique can render opponent unconscious in 3-8 seconds with full pressure applied.
 
 **Setup Requirements Checklist**:
 - [ ] Starting position: [[Closed Guard Bottom]] (S015) or related guard position established

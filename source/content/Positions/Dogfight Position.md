@@ -200,10 +200,10 @@ You are on your knees, facing the same direction as your opponent, with both of 
 - [[Dogfight Back Take]] → [[Back Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
 - [[Roll Under Sweep]] → [[Top Position]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
 - [[Knee Tap Takedown]] → [[Side Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
-- [[Dogfight to Single Leg]] → [[Single Leg Control]] (Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%)
+- [[Dogfight to Single Leg]] → [[Single Leg Entry]] (Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%)
 - [[Transition to X-Guard]] → [[X-Guard]] (Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%)
 - [[Modified Duck Under]] → [[Back Control]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
-- [[Switch to Single X]] → [[Single Leg X Guard]] (Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%)
+- [[Switch to Triangle]] → [[Triangle Control]] (Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%)
 - [[Dogfight to Mount]] → [[Mount]] (Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%)
 
 ## Counter Transitions
@@ -266,7 +266,7 @@ Else if opponent's base is compromised forward:
 - Or Execute [[Modified Duck Under]] → [[Back Control]] (Probability: 35%)
 
 Else if opponent stands to create space:
-- Execute [[Dogfight to Single Leg]] → [[Single Leg Control]] (Probability: 30%)
+- Execute [[Dogfight to Single Leg]] → [[Single Leg Entry]] (Probability: 30%)
 - Or Execute [[Transition to X-Guard]] → [[X-Guard]] (Probability: 30%)
 
 Else if opponent tries to switch base:
@@ -289,7 +289,7 @@ Sweeping path:
 [[Dogfight Position]] → [[Roll Under Sweep]] → [[Top Position]] → [[Side Control]] → dominant position sequence
 
 Modern transition path:
-[[Dogfight Position]] → [[Switch to Single X]] → [[Single Leg X Guard]] → leg entanglement sequence
+[[Dogfight Position]] → [[Switch to Triangle]] → [[Triangle Control]] → submission sequence
 
 ## Computer Science Analogy
 The Dogfight Position represents a critical decision node in the BJJ state graph with high branching factor and bidirectional state transitions. It functions as an "unstable equilibrium" in dynamic systems theory, where small inputs can lead to drastically different outputs. The position creates a complex game theory scenario where both practitioners must simultaneously optimize their control parameters while anticipating the opponent's adaptive responses, similar to a minimax algorithm in adversarial search problems.

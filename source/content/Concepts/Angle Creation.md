@@ -91,7 +91,7 @@ Angle Creation represents the strategic principle of generating off-axis positio
 
 ### Common Scenarios Where Concept is Critical
 
-**Scenario 1: [[Side Control Bottom]] when escaping opponent's pressure**
+**Scenario 1: [[side control to mount]] when escaping opponent's pressure**
 → Apply angle creation by shrimping hips away from opponent's pressure, creating perpendicular alignment that compromises their weight distribution and opens escape pathways.
 
 **Scenario 2: [[Deep Half Guard]] when setting up sweeps**

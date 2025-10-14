@@ -371,7 +371,8 @@ De La Riva Sweep is a modern Brazilian Jiu-Jitsu technique developed as part of 
 **Common De La Riva Sweep combinations:**
 - [[De La Riva Guard]] → [[De La Riva Sweep]] → [[Side Control]]
 - [[De La Riva Guard]] → [[De La Riva Sweep]] → [[Top Position]]
-- [[De La Riva Guard]] → [[Failed De La Riva Sweep]] → [[Neutral Position]]
+- [[De La Riva Guard]] → [[De La Riva Sweep]] → [[Neutral Position]]
+- [[Open Guard Bottom]] → [[De La Riva Sweep]] → [[Top Position]]
 
 ## Training Applications
 - **Sweep Development**: Essential for open guard sweeping arsenal

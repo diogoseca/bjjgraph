@@ -46,7 +46,7 @@
 
 ## System Properties
 - **System ID**: DS009
-- **Target Threats**: Side control, mount, knee on belly, north-south, kesa gatame, and other pinning positions
+- **Target Threats**: [[Side Control]], [[Mount]], knee on belly, north-south, kesa gatame, and other pinning positions
 - **Defensive Priority**: Escape > Prevention > Counter-attack
 - **Energy Efficiency**: Medium to High
 - **Complexity Level**: Beginner to Advanced
@@ -91,20 +91,20 @@ The system organizes escape protocols in a hierarchy based on energy efficiency,
 10. Transition to more advantageous position when opportunity presents
 
 ## Decision Tree
-- If opponent is establishing initial pin control → Execute [[Early Frame Creation]] → [[Space Preservation]] → [[Pin Prevention]]
-- If opponent has side control with cross-face → Execute [[Elbow-Frame Creation]] → [[Hip Escape]] → [[Half Guard Recovery]]
+- If opponent is establishing initial pin control → Execute [[Frame Creation]] → [[Space Creation]] → [[Pin Prevention]]
+- If opponent has side control with cross-face → Execute [[Frame Creation]] → [[Hip Escape]] → [[Half Guard Recovery]]
 - If opponent has mount → Execute [[Bridge and Frame]] → [[Elbow-Knee Connection]] → [[Half Guard Insertion]]
 - If opponent has knee on belly → Execute [[Inside Frame]] → [[Outside Hook]] → [[Technical Stand-up]] or [[Half Guard Recovery]]
-- If opponent has north-south → Execute [[Lateral Frames]] → [[Hip Escape Sequence]] → [[Turtle Transition]]
+- If opponent has north-south → Execute [[Lateral Frames]] → [[Hip Escape Sequence]] → [[Turtle Position]]
 - If opponent has kesa gatame → Execute [[Inside Frame]] → [[Bridge and Roll]] → [[Top Position]] or [[Guard Recovery]]
-- If opponent has back mount → Execute [[Hand Defense]] → [[Rotation Escape]] → [[Half Guard Position]]
+- If opponent has back mount → Execute [[Hand Defense]] → [[Rotation Escape]] → [[Half Guard Pass Position]]
 
 ## Counter-Offensive Opportunities
 - From [[Elbow-Frame Position]] → [[Underhook Reversal]] when opponent shifts weight forward during side control
 - From [[Bridge Position]] → [[Sweep Opportunity]] when opponent posts to prevent being rolled
 - From [[Half Guard Recovery]] → [[Deep Half Entry]] → [[Sweep Sequence]]
 - From [[Inside Frame]] → [[Single Leg Entry]] when opponent adjusts pressure in knee on belly
-- From [[Turtle Position]] → [[Sit-Through Counter]] → [[Leg Drag Counter]]
+- From [[Turtle Position]] → [[Sit-Through Counter]] → [[Leg Drag Position]]
 - From [[Active Bridge]] → [[Hip Bump Reversal]] when opponent rises high in mount
 - From [[Defensive Underhook]] → [[Back Take Entry]] when opponent overcommits to pin
 

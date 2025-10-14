@@ -8,7 +8,7 @@ development_timeline: Beginner to Intermediate
 related_positions:
   - Mount Top
   - Back Control
-  - Side Control Top
+  - Side Control
   - Knee on Belly
   - Half Guard Top
   - Closed Guard Bottom

@@ -139,17 +139,17 @@ The Lockdown Guard is a specialized half guard control mechanism developed and p
 - Opponent's trapped leg immobilized
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Knee Drive Pressure]] → [[Flatten Half Guard]]
-- [[Free Trapped Leg]] → [[Half Guard Pass]]
+- [[Knee Drive Pressure]] → [[flattened half guard]]
+- [[Free Trapped Leg]] → [[half guard top]]
 - [[Underhook and Crossface]] → [[Upper Body Control]]
 - [[Posture Up]] → [[Standing Pass Attempt]]
 - [[Hip Switch]] → [[Back Step Escape]]
 
 ## Offensive Transitions (Available From This State)
 - [[Whip Up to Lockdown Sweep]] → [[Top Position]]
-- [[Electric Chair Entry]] → [[Electric Chair]]
+- [[electric chair]] → [[Electric Chair]]
 - [[Deep Half Transition]] → [[Deep Half Guard]]
-- [[Dogfight Setup]] → [[Dogfight Position]]
+- [[Dogfight Setup]] → [[dogfight position]]
 - [[Lockdown to Traditional Half]] → [[Half Guard Bottom]]
 - [[Lockdown to Closed Guard]] → [[Closed Guard Bottom]]
 - [[Butterfly Half Transition]] → [[Butterfly Half Guard]]
@@ -200,7 +200,7 @@ If opponent establishes strong crossface:
 - Execute [[Lockdown to Traditional Half]] or [[Deep Half Transition]]
 
 Else if opponent postures up with base:
-- Execute [[Whip Up to Lockdown Sweep]] or [[Electric Chair Entry]]
+- Execute [[Whip Up to Lockdown Sweep]] or [[electric chair]]
 
 Else if opponent drives knee through middle:
 - Execute [[Butterfly Half Transition]] or [[Plan C Sweep]]
@@ -217,13 +217,13 @@ Else if opponent attempts to free leg:
 
 ## Optimal Paths
 Electric Chair path:
-[[Lockdown Guard]] → [[Electric Chair Entry]] → [[Electric Chair]] → [[Electric Chair Submission]] → [[Won by Submission]]
+[[Lockdown Guard]] → [[electric chair]] → [[Electric Chair]] → [[Electric Chair Submission]] → [[Won by Submission]]
 
 Sweep path:
 [[Lockdown Guard]] → [[Whip Up to Lockdown Sweep]] → [[Top Position]] → dominant position sequence
 
 Transition path:
-[[Lockdown Guard]] → [[Dogfight Setup]] → [[Dogfight Position]] → [[Switch to Single X]] → [[Single Leg X Guard]] → leg entanglement sequence
+[[Lockdown Guard]] → [[Dogfight Setup]] → [[dogfight position]] → [[switch to triangle]] → [[Single Leg X Guard]] → leg entanglement sequence
 
 ## Historical Context
 The Lockdown was developed and popularized by Eddie Bravo as a core component of his 10th Planet Jiu-Jitsu system in the early 2000s. Initially met with skepticism from traditional BJJ practitioners who saw it as too limiting or defensive, the position has gained wider acceptance as its effectiveness has been demonstrated in competition and MMA. The Lockdown represented a significant innovation in half guard play, shifting focus from purely upper body controls to powerful leg-based control mechanisms that could neutralize size and strength advantages.

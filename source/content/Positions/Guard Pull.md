@@ -143,7 +143,7 @@ Visually, the Guard Pull appears as a fluid transitional sequence that begins wi
 - [[Sprawl]] → [[Front Headlock]]
 - [[Base Widening]] → [[Takedown Defense]]
 - [[Grip Fighting]] → [[Grip Advantage]]
-- [[Downward Pressure]] → [[Posture Control]]
+- [[forward pressure]] → [[Posture Control]]
 - [[Toreando Response]] → [[Guard Pass Initiative]]
 
 ## Variants
@@ -182,14 +182,14 @@ Visually, the Guard Pull appears as a fluid transitional sequence that begins wi
 ## Setup Connections
 - [[Grip Fighting Sequence]] → [[Guard Pull]]
 - [[Feint Takedown]] → [[Guard Pull]]
-- [[Defensive Reaction]] → [[Guard Pull]]
+- [[defensive framing]] → [[Guard Pull]]
 - [[Standing Grip Establishment]] → [[Guard Pull]]
 - [[Stance Adjustment]] → [[Guard Pull]]
 - [[Strategic Assessment]] → [[Guard Pull]]
 
 ## Follow-up Options
-- [[Closed Guard Control]] → [[Closed Guard Bottom]]
-- [[Open Guard Establishment]] → Various open guard positions
+- [[closed guard bottom]] → [[Closed Guard Bottom]]
+- [[guard establishment]] → Various open guard positions
 - [[Immediate Sweep Attempt]] → [[Top Position]]
 - [[Submission Attack]] → Various submission options
 - [[Specific Guard Development]] → Practitioner's specialized guard

@@ -57,7 +57,7 @@ description: "From a dominant position like Side Control or Half Guard Top, or e
 - **Alternative Names**: Figure-Four Armlock, Chicken Wing
 
 ### State Machine Properties
-- **Starting State**: Multiple ([[Side Control]], [[Half Guard Top]], [[Closed Guard Bottom]], [[North-South]])
+- **Starting State**: Multiple ([[Side Control Top]], [[Side Control]], [[Half Guard Top]], [[Closed Guard Bottom]], [[North-South]])
 - **Ending State**: [[Won by Submission]]
 - **Submission Type**: Joint Lock - Targets shoulder joint
 
@@ -116,7 +116,7 @@ Opponent responses with success rates:
 - **Grip Breaking**: Breaking figure-four grip to escape → [[Neutral Position]] (Success Rate: 20%, Conditions: strong grip defense)
 - **Hitchhiker Escape**: Turning thumb down to rotate out → [[Guard Recovery]] (Success Rate: 15%, Conditions: quick adjustment)
 - **Bridge and Roll**: Bridging to disrupt position → [[Top Position]] (Success Rate: 10%, Conditions: significant leverage)
-- **Counter Grip**: Gripping to counter with own submission → [[Kimura Counter]] (Success Rate: 10%, Conditions: quick anticipation)
+- **Counter Grip**: Gripping to counter with own submission → [[Kimura Control]] (Success Rate: 10%, Conditions: quick anticipation)
 
 Format: `[[Counter Technique]] → [[Result State]] (Success Rate: X%, Conditions: [when applicable])`
 
@@ -144,7 +144,7 @@ Else [optimal submission execution]:
 Primary risks while attempting this submission:
 - **Grip Break**: Opponent breaks figure-four grip → [[Neutral Position]] (Threat Level: Medium)
 - **Position Loss**: Opponent escapes arm control during setup → [[Defensive Position]] (Threat Level: Low)
-- **Counter Attack**: Opponent counters with roll or own submission → [[Kimura Counter]] (Threat Level: Low)
+- **Counter Attack**: Opponent counters with roll or own submission → [[Kimura Control]] (Threat Level: Low)
 - **Stalemate**: Opponent retracts arm to stall submission → [[Guard Recovery]] (Threat Level: Medium)
 
 Format: `[[Threat Type]] → [[Resulting Position]] (Threat Level: X)`

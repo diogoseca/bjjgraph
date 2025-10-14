@@ -191,6 +191,7 @@ Start every round with partner in deep half guard (realistic grip configuration)
 ## Related Positions
 
 - [[Half Guard Top]] - Simpler position to retreat to when deep half is too challenging
+- [[Half Guard Bottom]] - Related position (inverse perspective)
 - [[Deep Half Guard]] - The bottom position (opponent's perspective)
 - [[Side Control Top]] - Primary passing destination from deep half top
 - [[Back Control]] - Risk position if defense fails and opponent transitions

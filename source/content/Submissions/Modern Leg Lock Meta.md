@@ -53,7 +53,7 @@ description: "The Modern Leg Lock Meta provides a comprehensive analysis of cont
 - **Framework ID**: F101
 - **Framework Name**: Modern Leg Lock Meta
 - **Alternative Names**: Contemporary Leg Lock Strategy, Leg Lock System Evolution
-- **Starting Position**: Various Leg Entanglement Positions ([[Ashi Garami]], [[Inside Sankaku]], [[50/50 Guard]])
+- **Starting Position**: Various Leg Entanglement Positions ([[Ashi Garami]], [[Inside Sankaku]], [[50-50 guard]])
 - **Ending State**: Submission (Opponent taps out or loses consciousness)
 - **Success Probability**: Beginner (15%), Intermediate (40%), Advanced (65%)
 - **Risk Level**: High - requires precise control and exposes practitioner to counters
@@ -157,7 +157,7 @@ Factors that influence the success rate of the framework:
 Analysis of opponent responses with success rates for counter-attacks:
 - [[Rotational Defense]] → [[Rotational Control Break]] (Success Rate: 45%, Conditions: opponent internally rotates to hide submission targets)
 - [[Hip Elevation Defense]] → [[Hip Control Counter]] (Success Rate: 40%, Conditions: opponent elevates hips to reduce entanglement pressure)
-- [[Grip Disruption Defense]] → [[Grip Reestablishment]] (Success Rate: 35%, Conditions: opponent breaks initial control grips)
+- [[Grip Disruption Defense]] → [[guard establishment]] (Success Rate: 35%, Conditions: opponent breaks initial control grips)
 - [[Counter Leg Lock Attempt]] → [[Defensive Prevention]] (Success Rate: 30%, Conditions: opponent counters with their own leg lock entry)
 - [[Positional Escape]] → [[Entanglement Progression]] (Success Rate: 50%, Conditions: opponent attempts to escape to a neutral position)
 - [[Upper Body Attack Shift]] → [[Combined Threat Counter]] (Success Rate: 25%, Conditions: opponent shifts focus to upper body submissions)
@@ -171,7 +171,7 @@ Else if [opponent elevates hips] to reduce pressure:
 - Implement [[Hip Control Counter]] to maintain entanglement (Probability: 45%)
 
 Else if [opponent disrupts grips] to break control:
-- Execute [[Grip Reestablishment]] for attack setup (Probability: 40%)
+- Execute [[Guard Establishment]] for attack setup (Probability: 40%)
 
 Else if [opponent counters with leg lock]:
 - Use [[Defensive Prevention]] to neutralize threat (Probability: 35%)
@@ -274,5 +274,16 @@ Else [maintain positional control]:
 **Correction**: Learn leg locks under qualified instruction ONLY. Many academies restrict leg locks by belt level for good reason. Follow academy rules absolutely. Minimum 1-2 years training before serious leg lock study.
 
 **Result if uncorrected**: Serious injuries to training partners and self. Potential expulsion from academy. Development of dangerously incorrect technique that causes injuries.
+
+## Related Positions & Terminal States
+
+**Leg Entanglement Positions**:
+- [[Ashi Garami]] - Foundational leg entanglement position
+- [[Inside Sankaku]] - Advanced entanglement position
+- [[50-50 guard]] - Mutual leg entanglement
+- [[Saddle Position]] - Highest-value leg lock position
+
+**Terminal State**:
+- [[Won by Submission]] - Goal of modern leg lock systems when submissions succeed
 
 ## Variants

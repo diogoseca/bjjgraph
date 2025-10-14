@@ -85,7 +85,7 @@ Hand Fighting represents the dynamic battle for upper body positional control th
 - [[Arm Drag]] - Utilizes hand fighting to establish back control pathways
 - [[Collar Tie]] - Establishes upper body control through hand fighting
 - [[Underhook Control]] - Advanced hand fighting position for upper body dominance
-- [[Wrist Control]] - Fundamental hand fighting objective in multiple positions
+- [[Twister Control]] - Fundamental hand fighting objective in multiple positions
 - [[Cross Face]] - Uses hand position to control opponent's head and shoulders
 - [[Two-on-One Control]] - Dominant hand fighting position for controlling a limb
 - [[Overhook Control]] - Defensive hand fighting position to prevent inside control

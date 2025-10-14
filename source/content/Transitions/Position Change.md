@@ -346,6 +346,7 @@ Every transition file must include:
 - [[Knee on Belly]] - Alternative control position
 - [[Transition to North-South]] - Lateral position change
 - [[Mount Maintenance]] - Consolidating position after change
+- [[Transition to Mount]] - Specific example of position change
 
 
 ## Competition Applications

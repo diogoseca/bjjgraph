@@ -80,7 +80,7 @@ related_positions:
 related_transitions:
   - "[[Arm Drag]]"
   - "[[Hip Bump Sweep]]"
-  - "[[Triangle Choke]]"
+  - "[[triangle choke side]]"
 related_defenses:
   - "[[Armbar Defense - Hitchhiker]]"
   - "[[Armbar Escape - Stack]]"
@@ -358,13 +358,13 @@ Defensive responses with success rates and safety windows:
 - Safety note: Critical window - must escape now or armbar will lock
 
 **Technical Escape 1** (Leg over face but hips not positioned)
-- [[Armbar Escape - Hitchhiker]] → [[Side Control Top]] (Success Rate: 40%, Window: 2-3 seconds)
+- [[Armbar Escape - Hitchhiker]] → [[Side Control]] (Success Rate: 40%, Window: 2-3 seconds)
 - Defender action: Point thumb toward face ("hitchhiker"), turn toward attacker, stack weight
 - Attacker response: Adjust angle immediately, switch to omoplata or triangle
 - Safety critical: If attacker locks hips high, hitchhiker becomes much harder
 
 **Technical Escape 2** (Armbar locked but arm not fully extended)
-- [[Armbar Escape - Stack]] → [[Stack Pass Position]] (Success Rate: 30%, Window: 1-2 seconds)
+- [[Armbar Escape - Stack]] → [[Smash Pass Position]] (Success Rate: 30%, Window: 1-2 seconds)
 - Defender action: Stand up, stack opponent's weight back over their head, pass weight over
 - Attacker response: Pull arm straight quickly, transition to triangle or sweep
 - Safety critical: Last realistic escape - if arm extends, must tap
@@ -660,7 +660,7 @@ From [[High Guard]]:
 - Safety notes: Drop hips to mat before applying pressure
 
 ### Alternative Setup 3: From Triangle Attempt
-From [[Triangle Choke]] setup:
+From [[triangle choke side]] setup:
 - Attempting triangle, opponent defends by pulling arm out
 - As they extract arm, it's often extended and exposed
 - Switch from triangle to armbar by adjusting legs
@@ -1031,7 +1031,7 @@ supply_needed: ["Gi or No-Gi", "Mat space", "Training partner"]
 - [[High Guard]] - alternative setup position
 - [[Armbar Position]] - finishing position
 - [[Armbar Defense - Hitchhiker]] - main defensive counter
-- [[Triangle Choke]] - related submission and chain combination
+- [[Triangle Choke Side]] - related submission and chain combination
 - [[Omoplata]] - related submission and chain combination
 - [[Hip Bump Sweep]] - setup opportunity from failed sweep
 - [[Guard Bottom Concepts]] - underlying positional principles

@@ -152,11 +152,11 @@ The Side Control to Mount transition represents a fundamental positional advance
 - **Control Prioritization**: Upper body control precedes leg positioning
 
 ## Common Counters
-- [[Bridge and Elbow Escape]] → [[Half Guard Recovery]]
-- [[Knee Shield Insertion]] → [[Half Guard Bottom]]
-- [[Underhook and Turn In]] → [[Turtle Position]]
+- [[Bridge and Elbow Escape]] → [[Half Guard Bottom]]
+- [[Knee Shield Retention]] → [[Half Guard Bottom]]
+- [[Underhook and Turn In]] → [[Bottom Turtle]]
 - [[Hip Frame and Shrimp]] → [[Guard Recovery]]
-- [[Roll to Knees]] → [[Turtle Position]]
+- [[Roll to Knees]] → [[Bottom Turtle]]
 
 ## Variants
 - Knee-first Mount Transition (technical mount pathway)
@@ -184,16 +184,16 @@ The Side Control to Mount transition represents a fundamental positional advance
 ## Setup Connections
 - [[Knee on Belly]] → [[Side Control to Mount]]
 - [[Side Control Consolidation]] → [[Side Control to Mount]]
-- [[Kimura Threat]] → [[Side Control to Mount]]
+- [[Kimura Trap]] → [[Side Control to Mount]]
 - [[North-South Transition]] → [[Side Control to Mount]]
 - [[Paper Cutter Choke Attempt]] → [[Side Control to Mount]]
 
 ## Follow-up Options
 - [[High Mount Transition]] → [[High Mount]]
 - [[Cross Collar Choke]] → [[Won by Submission]]
-- [[Mounted Armbar]] → [[Armbar Control]]
+- [[Mount to Armbar]] → [[Armbar Control]]
 - [[Americana from Mount]] → [[Won by Submission]]
-- [[S-Mount Transition]] → [[S-Mount]]
+- [[S-Mount Position]] → [[S-Mount Position]]
 - [[Gift Wrap Control]] → [[Back Control]]
 
 ## Common Errors

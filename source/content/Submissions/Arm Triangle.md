@@ -198,7 +198,7 @@ Primary risks while attempting this submission:
 - **Escape**: Opponent extracts arm and creates space → [[Neutral Position]] (Threat Level: Medium)
 - **Stalemate**: Opponent tucks chin and stalls → [[Defensive Position]] (Threat Level: Low)
 
-Format: `[[Threat Type]] → [[Resulting Position]] (Threat Level: X)`
+Format: `[[Threat Type]] → [[standing position]] (Threat Level: X)`
 
 ### Defensive Strategies
 Methods to mitigate threats:

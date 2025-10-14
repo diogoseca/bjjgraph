@@ -54,6 +54,8 @@
 ## Framework Description
 The Self-Defense Application Framework provides a systematic methodology for adapting Brazilian Jiu-Jitsu skills to practical self-defense scenarios. This system bridges the gap between sport-oriented training and real-world defensive applications, addressing the unique constraints, objectives, and contextual factors present in self-defense situations. Unlike sport BJJ frameworks that optimize for competitive success, this framework prioritizes personal safety, threat management, and scenario-appropriate responses. The system integrates situational awareness, preventative measures, tactical decision-making, and technical modification to create a comprehensive approach to self-defense that leverages BJJ's positional control while accounting for the specific demands of non-sport confrontations. This framework serves both as a training guide for practitioners seeking practical self-defense capabilities and as an instructional structure for coaches developing specialized self-defense curriculum.
 
+Self-defense scenarios typically begin from [[Standing Position]], making this fundamental to the framework's application context.
+
 ## Core Principles
 - Safety prioritization above all other objectives
 - Scenario-specific technical adaptation rather than sport application
@@ -104,7 +106,7 @@ The Self-Defense Application Framework provides a systematic methodology for ada
 - [[Back Escape]] - Critical defensive capability from vulnerable position
 - [[Guard Retention]] - Adapted for defensive application rather than sport objectives
 - [[Standing up]] - Essential skill for strategic disengagement from ground positions
-- [[Distance Management]] - Fundamental concept for preventative positioning
+- [[Space Management]] - Fundamental concept for preventative positioning
 
 ## Strategic Adaptations
 - **Against untrained attackers** → Focus on fundamental control and positional advantage

@@ -36,7 +36,7 @@ version: "2.0"
 **Shoulder pressure on carotid. Apply SLOWLY. RELEASE immediately upon tap.**
 
 ## Overview
-Von Flue Choke punishes guillotine attempts by using shoulder pressure against carotid from top side control.
+Von Flue Choke punishes guillotine attempts by using shoulder pressure against carotid from top [[Side Control]] position.
 
 **Success Rates**: Beginner 25%, Intermediate 45%, Advanced 65%
 

@@ -5,7 +5,7 @@ submission_category: "Choke"
 submission_type: "Blood Choke"
 target_area: "Carotid artery"
 starting_state: "S050"
-starting_position_name: "Front Headlock"
+starting_position_name: "Front Headlock / Front Headlock Position"
 ending_state: "Terminal - Won by Submission"
 is_terminal: true
 success_rate:

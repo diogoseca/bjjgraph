@@ -4,8 +4,8 @@ description: "Learn Single Leg Entry in BJJ. Step-by-step execution from Standin
 transition_id: "T201"
 transition_name: "Single Leg Entry"
 alternative_names: ["Single Leg Takedown Entry", "Single Leg Setup", "Single Leg Access"]
-starting_state: "Standing"
-ending_state: "Single Leg Control"
+starting_state: "Standing up"
+ending_state: "Single Leg Entry"
 transition_type: "Setup"
 success_probability:
   beginner: 45
@@ -33,7 +33,7 @@ schema_tools:
   - "Training partner"
   - "Mat space"
 tags: ["bjj", "transition", "takedown", "wrestling", "single_leg", "setup"]
-related_positions: ["Standing", "Single Leg Control", "Double Leg Control"]
+related_positions: ["Standing up", "Single Leg Entry", "Double Leg Control"]
 related_techniques: ["Snap Down", "Arm Drag", "Level Change", "Double Leg Entry"]
 ---
 
@@ -67,10 +67,10 @@ From standing position, you establish grip control while maintaining good postur
 
 Opponent defensive responses with success rates and conditions:
 
-- **[[Sprawl Defense]]** → [[Standing]] (Success Rate: 55%, Conditions: opponent sprawls hips back before penetration completes)
-- **[[Whizzer Counter]]** → [[Front Headlock]]** (Success Rate: 45%, Conditions: opponent overhooks arm preventing full leg control)
-- **[[Crossface Counter]]** → [[Standing]] (Success Rate: 40%, Conditions: opponent controls head pushing it across body)
-- **[[Hopping Defense]]** → [[Standing]] (Success Rate: 50%, Conditions: opponent hops away on free leg if control weak)
+- **[[Sprawl Defense]]** → [[Standing up]] (Success Rate: 55%, Conditions: opponent sprawls hips back before penetration completes)
+- **[[Whizzer Control]]** → [[Front Headlock]]** (Success Rate: 45%, Conditions: opponent overhooks arm preventing full leg control)
+- **[[Cross Face Control]]** → [[Standing up]] (Success Rate: 40%, Conditions: opponent controls head pushing it across body)
+- **[[Hopping Defense]]** → [[Standing up]] (Success Rate: 50%, Conditions: opponent hops away on free leg if control weak)
 
 ### Decision Logic for AI Opponent
 
@@ -400,9 +400,9 @@ The single leg takedown entry is one of the most fundamental techniques in wrest
 ## Position Integration
 
 **Common combinations and sequences:**
-- [[Standing]] → [[Single Leg Entry]] → [[Single Leg Control]]
+- [[Standing up]] → [[Single Leg Entry]] → [[Single Leg Entry]]
 - [[Collar Tie]] → [[Single Leg Entry]] → [[Single Leg Finish]]
-- [[Standing]] → [[Single Leg Entry]] → [[Double Leg Transition]] (if defended)
+- [[Standing up]] → [[Single Leg Entry]] → [[Double Leg Transition]] (if defended)
 - [[Arm Drag]] → [[Single Leg Entry]] → [[Back Take]] (if whizzered)
 
 ## Related Techniques
@@ -411,3 +411,4 @@ The single leg takedown entry is one of the most fundamental techniques in wrest
 - [[Snap Down]] - Setup technique that creates openings for single leg entry
 - [[Arm Drag]] - Creates angle advantageous for single leg entry
 - [[Sprawl Defense]] - Primary defense against single leg entry that must be understood
+- [[Standing up]] - Primary starting position for single leg entry

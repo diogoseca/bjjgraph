@@ -1,0 +1,216 @@
+{
+  "chunk_metadata": {
+    "chunk_number": 3,
+    "total_chunks": 10,
+    "start_index": 42,
+    "end_index": 62,
+    "count": 21,
+    "confidence_filter": "\u226595%"
+  },
+  "suggestions": [
+    {
+      "source_file": "Butterfly Hook Control",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Butterfly hook control is fundamentally a guard retention position requiring active maintenance of hooks and frames to prevent passing.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "De La Riva Guard",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "De La Riva Guard is fundamentally a guard retention position, and understanding guard retention principles is essential for maintaining DLR position effectively.",
+      "suggested_section": "Key Principles",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Triangle Control",
+      "target_file": "Closed Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Triangle Control is typically achieved from Closed Guard Bottom, making this the primary setup position.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Turtle Position Top",
+      "target_file": "Top Position",
+      "confidence": 95.0,
+      "reason": "Turtle Position Top is a specific variant of the broader Top Position category and should reference the parent position concept.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-parent-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "50-50 Guard",
+      "target_file": "Backside 50-50",
+      "confidence": 95.0,
+      "reason": "Direct transition explicitly mentioned in the schema markup as a primary offensive option from 50/50.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Top Open Guard",
+      "target_file": "Knee Cut Pass",
+      "confidence": 95.0,
+      "reason": "A fundamental passing technique directly used from the Top Open Guard position to advance past the guard.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Knee on Stomach Top",
+      "target_file": "Mount",
+      "confidence": 95.0,
+      "reason": "Direct transition from knee on stomach to mount is a fundamental offensive progression mentioned in the state description.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Technical Mount",
+      "target_file": "Transition to Mount",
+      "confidence": 95.0,
+      "reason": "Technical mount is an advanced variation of mount, so understanding the basic transition to mount is essential prerequisite knowledge for practitioners.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Flattened Half Guard",
+      "target_file": "Half Guard Bottom",
+      "confidence": 95.0,
+      "reason": "Flattened Half Guard is a specific state of half guard where the bottom player has been flattened, making this the direct parent position and essential context for understanding escape options.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Top Control Generic",
+      "target_file": "Top Position",
+      "confidence": 95.0,
+      "reason": "Top Position is a closely related parent category to Top Control Generic, providing essential context for readers understanding the broader top game framework.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Body Triangle Position",
+      "target_file": "Back Control",
+      "confidence": 95.0,
+      "reason": "Body Triangle Position is a variation of Back Control and should reference the parent position for comprehensive understanding.",
+      "suggested_section": "State Description",
+      "relationship_type": "position-variation",
+      "existing_link": false
+    },
+    {
+      "source_file": "Seated Guard",
+      "target_file": "Standing Position",
+      "confidence": 95.0,
+      "reason": "Seated Guard explicitly mentions transitions to standing and is commonly used when opponent stands, making this a direct positional relationship.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Guard Position",
+      "target_file": "Pull Guard",
+      "confidence": 95.0,
+      "reason": "Guard Position is the result of a successful pull guard entry, making this a fundamental prerequisite transition.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Half Guard Recovery",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Half Guard Recovery is fundamentally about guard retention principles when recovering from a compromised position.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "concept-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Bottom Position Generic",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Guard retention is the primary defensive strategy from bottom position to prevent passing and maintain guard structure.",
+      "suggested_section": "Defensive Responses",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Guard Pull",
+      "target_file": "Guard Recovery",
+      "confidence": 95.0,
+      "reason": "Guard pull is the initiating technique that leads directly to establishing guard positions, and guard recovery is the defensive counterpart when guard is lost after pulling.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Triangle Escape Position",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Triangle escape directly transitions to guard retention as the escaping player must maintain defensive guard structure after breaking the triangle.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Butterfly Half Guard",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Butterfly Half Guard is a guard retention position and this transition explains the defensive tactics to maintain guard positions.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-concept",
+      "existing_link": false
+    },
+    {
+      "source_file": "Headquarters Position",
+      "target_file": "Guard Pass",
+      "confidence": 95.0,
+      "reason": "Headquarters is a guard passing position, so linking to the general guard pass technique provides essential context for the passing strategy.",
+      "suggested_section": "Offensive Transitions",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    },
+    {
+      "source_file": "Guard Retention",
+      "target_file": "Guard Recovery",
+      "confidence": 95.0,
+      "reason": "Guard Recovery is the direct tactical outcome when guard retention fails, making it the essential next step in defensive positioning.",
+      "suggested_section": "Related Positions",
+      "relationship_type": "position-to-position",
+      "existing_link": false
+    },
+    {
+      "source_file": "Open Guard",
+      "target_file": "Guard Retention",
+      "confidence": 95.0,
+      "reason": "Guard retention is the fundamental defensive skill required to maintain open guard when opponent attempts to pass.",
+      "suggested_section": "Defensive Responses",
+      "relationship_type": "position-to-transition",
+      "existing_link": false
+    }
+  ],
+  "instructions": {
+    "task": "Apply these wikilink suggestions to markdown files",
+    "validation": [
+      "Check if wikilink already exists",
+      "Verify target file exists",
+      "Add to specified section only",
+      "Maintain markdown formatting"
+    ],
+    "reporting": [
+      "Track: applied, skipped_exists, skipped_no_target, error",
+      "Report file paths modified",
+      "Report line numbers where links added",
+      "Report any errors encountered"
+    ]
+  }
+}

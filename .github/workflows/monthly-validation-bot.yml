@@ -1,0 +1,188 @@
+name: Monthly Validation & Quality Improvement Bot
+
+on:
+  schedule:
+    # Run on the 1st of every month at 3:00 AM UTC
+    - cron: '0 3 1 * *'
+  workflow_dispatch:
+    inputs:
+      num_files:
+        description: 'Number of files to validate and improve (default: 20)'
+        required: false
+        default: '20'
+
+jobs:
+  validate-and-improve:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: monthly-validation-bot
+      cancel-in-progress: false
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Select random files from oldest 100
+        id: select_files
+        run: |
+          chmod +x ./scripts/select_oldest_files.sh
+          # Run script with custom number of files (default 20 for monthly deep dive)
+          NUM_FILES=${{ github.event.inputs.num_files || '20' }}
+          echo "Selecting $NUM_FILES files from the 100 oldest for validation..."
+
+          # Get the files and save to environment
+          SELECTED_FILES=$(./scripts/select_oldest_files.sh "$NUM_FILES")
+          echo "selected_files<<EOF" >> $GITHUB_OUTPUT
+          echo "$SELECTED_FILES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+          # Log for visibility
+          echo "Selected files:"
+          echo "$SELECTED_FILES"
+
+      - name: Run validation on selected files
+        id: validate
+        run: |
+          echo "Running validation on selected files..."
+
+          # Save selected files to temp file for validation
+          echo "${{ steps.select_files.outputs.selected_files }}" > /tmp/selected_files.txt
+
+          # Run validation with verbose output and capture results
+          python3 scripts/validate_content.py source/content/ --verbose > /tmp/validation_report.txt 2>&1 || true
+
+          # Extract validation issues for Claude
+          cat /tmp/validation_report.txt
+
+          # Save validation report
+          VALIDATION_REPORT=$(cat /tmp/validation_report.txt)
+          echo "validation_report<<EOF" >> $GITHUB_OUTPUT
+          echo "$VALIDATION_REPORT" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+          echo ""
+          echo "Validation complete. Passing results to Claude for fixing..."
+
+      - name: Fix validation issues with Claude
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            You are a BJJ technical documentation quality assurance bot for the BJJ Graph project.
+
+            # Your Mission
+            Fix validation errors and warnings in the following pre-selected files.
+            These files were randomly selected from the oldest 100 files and validated against V2 standards.
+
+            # Files Selected for Validation
+            ${{ steps.select_files.outputs.selected_files }}
+
+            # Validation Report
+            Here are the validation results showing errors and warnings that need fixing:
+
+            ```
+            ${{ steps.validate.outputs.validation_report }}
+            ```
+
+            # Standards to Follow
+
+            Read these contributor guides to understand ALL requirements:
+            - source/content/Positions/CONTRIBUTING-POSITIONS.md (Position Standard V2)
+            - source/content/Transitions/CONTRIBUTING-TRANSITIONS.md (Transition Standard V2)
+            - source/content/Submissions/CONTRIBUTING-SUBMISSIONS.md (Submission Standard with SAFETY FIRST)
+            - source/content/Concepts/CONTRIBUTING-CONCEPTS.md (Concept Standard)
+            - source/content/Systems/CONTRIBUTING-SYSTEMS.md (System Standard)
+            - source/content/Learning/CONTRIBUTING-LEARNING.md (Learning Resource Standard)
+            - source/content/CONTRIBUTING-YAML-SCHEMA.md (Complete schema reference)
+
+            # Your Process
+
+            1. **Analyze the validation report**:
+               - Identify all files with errors or warnings
+               - Group issues by file
+               - Prioritize errors over warnings
+
+            2. **For each file with issues, fix them**:
+               - Read the current file content
+               - Determine its type (Position/Transition/Submission/Concept/System/Learning)
+               - Read the appropriate CONTRIBUTING standard
+               - Fix ALL validation errors and warnings
+               - Use Edit tool to update the file
+
+            3. **Common fixes needed**:
+               - Add missing required sections
+               - Fix invalid or missing IDs (S###, T###, SUB###, C###, SC###)
+               - Add or fix success rates (ensure Beginner ≤ Intermediate ≤ Advanced)
+               - Add missing expert insights (Danaher, Gordon Ryan, Eddie Bravo)
+               - Fix wikilinks that don't resolve
+               - Add missing safety sections (submissions only)
+               - Improve SEO metadata (title, description)
+               - Add missing state properties
+               - Fix incomplete execution steps
+
+            4. **After fixing all files, commit your changes**:
+               - Configure git user:
+                 git config user.name "BJJ Graph Validation Bot"
+                 git config user.email "validation-bot@bjjgraph.com"
+
+               - Create/checkout branch:
+                 git fetch origin
+                 if git show-ref --verify --quiet refs/remotes/origin/bot/monthly-validation; then
+                   git checkout bot/monthly-validation
+                   git pull origin bot/monthly-validation
+                 else
+                   git checkout -b bot/monthly-validation
+                 fi
+
+               - Commit with detailed message:
+                 git add .
+                 git commit -m "Fix validation errors from monthly QA check
+
+                 Fixed validation issues in ${{ github.event.inputs.num_files || '20' }} files:
+                 - Corrected missing/invalid IDs
+                 - Added required sections
+                 - Fixed success rate ordering
+                 - Added missing expert insights
+                 - Improved SEO metadata
+                 - Fixed broken wikilinks
+                 - Enhanced safety sections (submissions)
+
+                 Files fixed: [list filenames here]
+
+                 Generated by Monthly Validation Bot"
+
+               - Push changes:
+                 git push origin bot/monthly-validation
+
+            # Quality Focus
+            This is a QUALITY-DRIVEN improvement run. Focus on:
+            - **Correctness**: Fix all errors
+            - **Completeness**: Add all missing required sections
+            - **Consistency**: Ensure standards compliance
+            - **Safety**: Verify safety sections in submissions
+
+            Begin analyzing the validation report and fixing issues now.
+          claude_args: "--allowedTools 'Read,Edit,Write,Glob,Grep,Bash(git:*)'"
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "================================================"
+          echo "Monthly Validation & Quality Improvement Complete"
+          echo "================================================"
+          echo ""
+          echo "Files processed: ${{ github.event.inputs.num_files || '20' }}"
+          echo "Validation report and fixes pushed to branch: bot/monthly-validation"
+          echo ""
+          echo "Check the PR for detailed changes and review before merging."
+          echo "================================================"

@@ -138,9 +138,9 @@ Inside Sankaku, also known as the "Honey Hole" or "411", is an advanced leg enta
 - Control of opponent's knee line
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Hip Elevation and Escape]] → [[Leg Entanglement Escape]]
-- [[Knee Line Fight]] → [[Leg Entanglement Neutral]]
-- [[Counter Rotation]] → [[50/50 Guard]]
+- [[Hip Elevation and Escape]] → [[Leg Entanglement]]
+- [[Knee Line Fight]] → [[Leg Entanglement]]
+- [[Counter Rotation]] → [[50-50 Guard Bottom]]
 - [[Leg Extension Defense]] → [[Neutral Position]]
 - [[Hands-On-Mat Escape]] → [[Standing Position]]
 
@@ -148,14 +148,14 @@ Inside Sankaku, also known as the "Honey Hole" or "411", is an advanced leg enta
 - [[Inside Heel Hook]] → [[Won by Submission]]
 - [[Ankle Lock from Inside Sankaku]] → [[Won by Submission]]
 - [[Toe Hold Transition]] → [[Toe Hold Control]]
-- [[Back Step to Backside 50/50]] → [[Backside 50/50]]
+- [[Back Step to Backside 50/50]] → [[Backside 50-50]]
 - [[Back Take from Inside Sankaku]] → [[Back Control]]
 - [[Cross Ashi Transition]] → [[Cross Ashi]]
 - [[Technical Stand-up]] → [[Top Position]]
 
 ## Counter Transitions
 - [[Re-establish Inside Sankaku]] → [[Inside Sankaku]] (against escape attempts)
-- [[Switch to Outside Sankaku]] → [[Outside Sankaku]] (if position is compromised)
+- [[Switch to 50-50]] → [[50-50 Guard]] (if position is compromised)
 - [[Retreat to Standard Ashi]] → [[Ashi Garami]] (under strong pressure)
 
 ## Expert Insights
@@ -179,10 +179,10 @@ Inside Sankaku, also known as the "Honey Hole" or "411", is an advanced leg enta
 
 ## Related States
 - [[Ashi Garami]] - Basic leg entanglement position
-- [[Outside Sankaku]] - Related 50/50 position
+- [[50-50 Guard]] - Related 50/50 position
 - [[Single Leg X Guard]] - Common entry position
 - [[Cross Ashi]] - Alternative advanced leg entanglement
-- [[Backside 50/50]] - Attacking from behind the leg
+- [[Backside 50-50]] - Attacking from behind the leg
 
 
 ## Related Positions

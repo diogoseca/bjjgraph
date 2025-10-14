@@ -180,7 +180,7 @@ Else if [pass attempt] is initiated:
 Primary risks while in this position:
 - **Leg Lock Counter**: Opponent attacks your legs → [[Leg Lock Control]] (Threat Level: High)
 - **Entanglement Break**: Opponent frees their leg → [[Neutral Position]] (Threat Level: Medium)
-- **Stand-Up Escape**: Opponent stands to disengage → [[Standing Position]] (Threat Level: Medium)
+- **Stand-Up Escape**: Opponent stands to disengage → [[standing position]] (Threat Level: Medium)
 - **Sweep Counter**: Opponent uses entanglement for sweep → [[Bottom Position]] (Threat Level: Medium)
 
 Format: `[[Threat Type]] → [[Resulting Position]] (Threat Level: X)`

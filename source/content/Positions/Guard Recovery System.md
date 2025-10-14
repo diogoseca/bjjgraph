@@ -163,7 +163,7 @@ This defensive system emphasizes a hierarchical approach to recovery that priori
 ## Decision Tree
 - If opponent has initiated but not completed pass → Execute [[Frame and Angle Creation]] → [[Early Recovery]]
 - If opponent has established cross-face control → Execute [[Elbow-Knee Connection]] → [[Half Guard Recovery]]
-- If opponent is passing with headquarters position → Execute [[Inside Space Creation]] → [[Knee Shield Insertion]]
+- If opponent is passing with headquarters position → Execute [[Space Creation]] → [[knee shield retention]]
 - If opponent is using pressure passing → Execute [[Frame and Bridge]] → [[Hip Escape]] → [[Guard Insertion]]
 - If opponent has established side control → Execute [[Elbow-Hip Connection]] → [[Knee Insertion]] → [[Half Guard Recovery]]
 - If opponent attempts to mount from side control → Execute [[Elbow Frame]] → [[Hip Escape]] → [[Half Guard Insertion]]
@@ -173,7 +173,7 @@ This defensive system emphasizes a hierarchical approach to recovery that priori
 - From [[Initial Frame Position]] → [[Sweep Reversal]] when opponent overcommits to pass
 - From [[Half Guard Recovery]] → [[Deep Half Entry]] → [[Sweep Sequence]]
 - From [[Knee Shield Position]] → [[Underhook Acquisition]] → [[Back Take Opportunity]]
-- From [[Turtle Transition]] → [[Single Leg Counterattack]]
+- From [[Bottom Turtle]] → [[Single Leg Counterattack]]
 - From [[Granby Recovery]] → [[Leg Entanglement]] → [[Leg Attack Sequence]]
 - From [[Technical Stand-up]] → [[Standing Guard Recovery]] → [[Takedown Opportunity]]
 

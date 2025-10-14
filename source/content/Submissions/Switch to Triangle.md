@@ -165,6 +165,7 @@ When partner taps during or after triangle switch:
 ## Follow-up Options
 - [[Switch to Triangle]] → [[Triangle Control]]
 - [[Switch to Triangle]] → [[Triangle Finish]]
+- [[Switch to Triangle]] → [[Won by Submission]] - Terminal state when triangle is completed
 - [[Switch to Triangle]] → [[Triangle to Armbar]]
 - [[Switch to Triangle]] → [[Triangle to Omoplata]]
 - [[Switch to Triangle]] → [[Triangle to Mount]]

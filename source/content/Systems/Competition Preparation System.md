@@ -101,7 +101,7 @@ The Competition Preparation System provides a holistic methodology for optimizin
 - [[Personal Game Refinement]] - Optimization of individualized technical approaches for competition
 - [[Competition-Specific Skills]] - Development of techniques particularly relevant to competitive formats
 - [[Position Conservation]] - Strategic position maintenance approaches for competitive advantage
-- [[Energy Management]] - Technical and tactical approaches to optimizing energy expenditure
+- [[Energy Management System]] - Technical and tactical approaches to optimizing energy expenditure
 - [[Scoring Awareness]] - Strategic understanding of scoring mechanics within specific rulesets
 - [[Defensive Specialization]] - Refinement of defensive capabilities against common competitive threats
 - [[Game Planning]] - Development of strategic approaches for competition execution

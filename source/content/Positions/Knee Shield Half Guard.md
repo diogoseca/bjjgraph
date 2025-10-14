@@ -117,7 +117,7 @@ description: "Master Knee Shield Half Guard in BJJ. Complete guide covering setu
 Knee Shield Half Guard is a variation of the half guard where the bottom player uses their top knee as a defensive frame (shield) against the opponent's torso. This creates space and prevents the opponent from establishing chest-to-chest pressure, providing defensive security while maintaining offensive options. The knee shield acts as both a defensive barrier and a mechanical lever for sweeps and transitions, making this position a cornerstone of modern defensive guard play.
 
 ## Key Principles
-- Maintain strong knee shield frame against opponent's chest/shoulder
+- **Frame Creation**: Maintain strong knee shield frame against opponent's chest/shoulder
 - Control opponent's sleeve/wrist or collar with far-side arm
 - Establish underhook with near-side arm when possible
 - Create and maintain an angle rather than lying flat
@@ -142,7 +142,7 @@ Knee Shield Half Guard is a variation of the half guard where the bottom player 
 - [[Knee Cut Entry]] → [[Knee Cut Pass]]
 - [[Smash Pass Attempt]] → [[Flattened Half Guard]]
 - [[Shield Collapse]] → [[Headquarters Position]]
-- [[Cross-Face and Underhook]] → [[Half Guard Pin]]
+- [[Cross-Face and Underhook]] → [[Half Guard Top]]
 - [[Leg Weave Pass]] → [[Leg Drag Position]]
 
 ## Offensive Transitions (Available From This State)
@@ -203,7 +203,7 @@ Else if opponent stands up to pass:
 - Execute [[Knee Shield to Deep Half]] or [[Single Leg Entry]]
 
 Else if opponent establishes crossface:
-- Execute [[Defensive Frames]] → [[Frame and Recover]]
+- Execute [[Defensive Frame]] → [[Frame and Recover]]
 
 Else if opponent gives space:
 - Execute [[Knee Shield to Closed Guard]] or [[Back Take from Knee Shield]]
@@ -217,7 +217,7 @@ Else if opponent gives space:
 
 ## Optimal Paths
 Sweeping path:
-[[Knee Shield Half Guard]] → [[John Wayne Sweep]] → [[Side Control Top]] → dominant position sequence
+[[Knee Shield Half Guard]] → [[John Wayne Sweep]] → [[Side Control]] → dominant position sequence
 
 Back-taking path:
 [[Knee Shield Half Guard]] → [[Back Take from Knee Shield]] → [[Back Control]] → [[Rear Naked Choke]] → [[Won by Submission]]

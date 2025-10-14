@@ -378,6 +378,7 @@ Your opponent is actively defending, potentially gripping their own hands togeth
 
 ## Offensive Transitions (Available From This State)
 - [[Finish Submission]] → [[Won by Submission]] (Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%)
+- [[Rear Naked Choke]] → [[Won by Submission]] (Direct example of submission from position)
 - [[Adjust Position]] → [[Submission Position]] (Success Rate: Beginner 50%, Intermediate 70%, Advanced 85%)
 - [[Transition to Alternative Submission]] → [[Submission Position]] (Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%)
 - [[Maintain Control]] → [[Top Control]] (Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%)
@@ -387,7 +388,7 @@ Your opponent is actively defending, potentially gripping their own hands togeth
 ## Counter Transitions
 - [[Re-establish Submission]] → [[Submission Position]] (when opponent defends but doesn't escape)
 - [[Switch Attack]] → [[Submission Position]] (chain to alternative submission)
-- [[Secure Position]] → [[Top Control]] (abandon submission to maintain control)
+- [[Scramble Position]] → [[Top Control]] (abandon submission to maintain control)
 
 ## Expert Insights
 **John Danaher**: "The submission position is where technical precision becomes paramount. The fundamental principle is that submission effectiveness depends on control preceding pressure. Many practitioners make the error of attempting to finish before establishing proper control, which leads to escapes and lost opportunities. The systematic approach is to identify all required control points for your chosen submission, secure them methodically, then apply progressive pressure while maintaining those control points. Understanding submission positions as part of a larger attacking system rather than isolated techniques creates multiple paths to success."
@@ -467,7 +468,7 @@ Else if opponent defending but position secure:
 - Or [[Chain to Alternative]] → [[Submission Position]] (Probability: 60%)
 
 Else if opponent escaping submission:
-- [[Transition to Control]] → [[Top Control]] (Probability: 65%)
+- [[Transition to Mount]] → [[Top Control]] (Probability: 65%)
 - Or [[Switch Submission]] → [[Submission Position]] (Probability: 50%)
 
 Else if submission defended successfully:

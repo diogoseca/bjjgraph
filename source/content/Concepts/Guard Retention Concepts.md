@@ -19,6 +19,9 @@ related_transitions:
   - Re-guard
   - Frame and Shrimp
 
+## Related Positions
+Guard Retention is the direct positional implementation of guard retention concepts.
+
 related_concepts:
   - Frame Creation
   - Space Management

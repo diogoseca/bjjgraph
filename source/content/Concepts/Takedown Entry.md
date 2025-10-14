@@ -79,8 +79,8 @@ Takedown Entry encompasses the fundamental principles and tactical approaches th
 - [[Defensive Posture]] → [[Entry Prevention]]
 - [[Grip Fighting]] → [[Control Denial]]
 - [[Sprawl Readiness]] → [[Penetration Counter]]
-- [[Distance Control]] → [[Range Management]]
-- [[Stance Adjustment]] → [[Angle Negation]]
+- [[D'Arce Control]] → [[Space Management]]
+- [[Stance Adjustment]] → [[Angle Creation]]
 - [[Head Position Defense]] → [[Entry Disruption]]
 
 ## Variations
@@ -97,7 +97,7 @@ Takedown Entry encompasses the fundamental principles and tactical approaches th
 - [[MMA Integration]] - Modified for striking awareness and cage positioning
 - [[No-Gi Dynamics]] - Specialized approaches without cloth grips
 - [[Gi Strategy]] - Leveraging fabric controls for enhanced setups
-- [[Energy Management]] - Efficient approaches to minimize exertion
+- [[Energy Management System]] - Efficient approaches to minimize exertion
 
 ## Setup Opportunities
 - [[Standing Position]] → [[Takedown Entry]]
@@ -105,7 +105,7 @@ Takedown Entry encompasses the fundamental principles and tactical approaches th
 - [[Clinch Position]] → [[Takedown Entry]]
 - [[Failed Guard Pull]] → [[Takedown Entry]]
 - [[Opponent Aggression]] → [[Takedown Entry]]
-- [[Defensive Reaction]] → [[Takedown Entry]]
+- [[Defensive Framing]] → [[Takedown Entry]]
 
 ## Follow-up Options
 - [[Double Leg Entry]] (specific lower body attack)
@@ -113,7 +113,7 @@ Takedown Entry encompasses the fundamental principles and tactical approaches th
 - [[Hip Throw Setup]] (upper body throw entry)
 - [[Ankle Pick]] (distal leg attack)
 - [[Snap Down]] (front headlock creation)
-- [[Foot Sweep]] (destabilizing attack)
+- [[Hook Sweep]] (destabilizing attack)
 
 ## Expert Insights
 - **Danaher System**: Views takedown entries as systematic processes governed by clear mechanical principles rather than opportunistic actions. Emphasizes establishing dominant grips that create predictable defensive reactions, enabling calculated entry selections. Particularly focuses on the relationship between grip configurations and specific entry opportunities, creating a decision tree approach to standing exchanges.

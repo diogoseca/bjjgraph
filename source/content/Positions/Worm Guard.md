@@ -199,6 +199,7 @@ You are on your back or partially seated with your opponent's gi lapel threaded 
 - [[Spider Guard]] - Related position
 - [[Squid Guard]] - Related position
 - [[X-Guard]] - Related position
+- [[Guard Retention]] - Advanced guard retention system using lapel control
 
 ## Decision Tree
 If opponent stands tall with weight back:

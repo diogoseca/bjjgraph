@@ -144,27 +144,28 @@ You are standing upright or crouched in combat base over your opponent, who lies
 - Dynamic engagement with opponent's legs
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Establish Specific Guard]] → [[Guard Control]]
+- [[Establish Specific Guard]] → [[Head Control]]
 - [[Offensive Gripping]] → [[Sweep Setup]]
-- [[Distance Management]] → [[Guard Retention]]
+- [[Space Creation]] → [[Guard Retention]]
 - [[Off-Balancing Attempt]] → [[Sweep Execution]]
-- [[Submission Entry]] → [[Submission Control]]
+- [[Submission Entry]] → [[Mission Control]]
 
 ## Offensive Transitions (Available From This State)
-- [[Headquarters Entry]] → [[Headquarters Position]]
+- [[Guard Pass]]
+- [[Headquarters Entry]] → [[Headquarters Control]]
 - [[Leg Drag Setup]] → [[Leg Drag Pass]]
 - [[Toreando Pass]] → [[Side Control]]
 - [[Knee Cut Entry]] → [[Knee Cut Pass]]
 - [[Double Under Pass]] → [[Side Control]]
 - [[Over Under Pass]] → [[Side Control]]
-- [[Body Lock Pass Setup]] → [[Body Lock Pass]]
+- [[Body Lock Pass]] → [[Side Control]]
 - [[Stack Pass]] → [[Side Control]]
 - [[Pressure Pass]] → [[Side Control]]
 - [[Combat Base Transition]] → [[Combat Base]]
 
 ## Counter Transitions
 - [[Re-establish Standing]] → [[Open Guard Top]] (against sweeps)
-- [[Defensive Base]] → [[Combat Base]] (against submissions)
+- [[Defensive Frame]] → [[Combat Base]] (against submissions)
 - [[Switch Passing Strategy]] → [[Open Guard Top]] (adapting approach)
 
 ## Expert Insights
@@ -204,7 +205,7 @@ You are standing upright or crouched in combat base over your opponent, who lies
 
 ## Decision Tree
 If opponent establishes collar/sleeve grips:
-- Execute [[Grip Break Sequence]] → [[Headquarters Entry]]
+- Execute [[Grip Break Sequence]] → [[Headquarters Control]]
 
 Else if opponent plays with feet on hips:
 - Execute [[Leg Drag Setup]] or [[Double Under Pass]]
@@ -224,7 +225,7 @@ Else if opponent plays supine (lying) open guard:
 
 ## Optimal Paths
 Standard passing path:
-[[Open Guard Top]] → [[Headquarters Entry]] → [[Headquarters Position]] → [[Knee Cut Pass]] → [[Side Control]]
+[[Open Guard Top]] → [[Headquarters Control]] → [[Headquarters Position]] → [[Knee Cut Pass]] → [[Side Control]]
 
 Pressure passing path:
 [[Open Guard Top]] → [[Double Under Pass]] → [[Side Control]] → [[Mount]] → submission options

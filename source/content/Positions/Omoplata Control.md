@@ -39,8 +39,8 @@ description: "Master Omoplata Control in BJJ. Complete guide covering setup, con
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Gomoplata Transition",
-      "text": "From this position, execute Gomoplata Transition to transition to Gomoplata Control.",
+      "name": "Execute Gogoplata Transition",
+      "text": "From this position, execute Gogoplata Transition to transition to Omoplata Control.",
       "position": 5
     },
     {
@@ -154,10 +154,10 @@ You are positioned on your side with your hips angled toward your opponent, one 
 - [[Omoplata Sweep]] → [[Top Position]]
 - [[Omoplata to Armbar]] → [[Armbar Control]]
 - [[Omoplata to Triangle]] → [[Triangle Control]]
-- [[Gomoplata Transition]] → [[Gomoplata Control]]
+- [[Gogoplata Transition]] → [[Omoplata Control]]
 - [[Tarikoplata Variation]] → [[Won by Submission]]
-- [[Omoplata to Back Control]] → [[Back Control]]
-- [[Omoplata to Side Control]] → [[Side Control]]
+- [[Omoplata Control]] → [[Back Control]]
+- [[Omoplata Control]] → [[Side Control]]
 
 ## Counter Transitions
 - [[Re-establish Omoplata]] → [[Omoplata Control]] (against escapes)
@@ -201,16 +201,16 @@ You are positioned on your side with your hips angled toward your opponent, one 
 
 ## Decision Tree
 If opponent attempts to roll forward:
-- Execute [[Omoplata Sweep]] or [[Omoplata to Back Control]]
+- Execute [[Omoplata Sweep]] → [[Top Position]]
 
 Else if opponent postures up defensively:
 - Execute [[Omoplata to Triangle]] or [[Tarikoplata Variation]]
 
 Else if opponent defends shoulder pressure:
-- Execute [[Omoplata to Armbar]] or [[Gomoplata Transition]]
+- Execute [[Omoplata to Armbar]] or [[Gogoplata Transition]]
 
 Else if opponent remains stationary:
-- Execute [[Omoplata Finish]] or [[Omoplata to Side Control]]
+- Execute [[Omoplata Finish]] → [[Won by Submission]]
 
 ## Position Metrics
 - Success Rate: 60% submission or advancement (competition data)
@@ -227,7 +227,7 @@ Sweep path:
 [[Omoplata Control]] → [[Omoplata Sweep]] → [[Top Position]] → [[Side Control]] → dominant position sequence
 
 Transition path:
-[[Omoplata Control]] → [[Omoplata to Back Control]] → [[Back Control]] → [[Rear Naked Choke]] → [[Won by Submission]]
+[[Omoplata Control]] → [[Omoplata Control]] → [[Back Control]] → [[Rear Naked Choke]] → [[Won by Submission]]
 
 ## Historical Context
 The Omoplata gained prominence in BJJ in the 1990s and early 2000s as practitioners expanded beyond the fundamental submissions like armbars and triangle chokes. While the shoulder lock itself has roots in Japanese Jiu-Jitsu and catch wrestling, its integration into the guard game of BJJ represents a technical evolution of the art. Modern competition has further refined the position, with practitioners increasingly using it as a control position and sweeping mechanism rather than solely as a submission.

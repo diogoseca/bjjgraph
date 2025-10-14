@@ -52,7 +52,7 @@ state_machine:
         intermediate: 85
         advanced: 95
 
-    - technique: "North-South Kimura"
+    - technique: "North-South to Kimura"
       target_state: "Kimura Control"
       transition_id: "T302"
       success_rate:
@@ -85,7 +85,7 @@ state_machine:
         advanced: 70
 
   defensive_responses:
-    - technique: "Bridge and Turn"
+    - technique: "Bridge and Roll"
       target_state: "Guard Recovery"
       success_rate: 25
 
@@ -104,7 +104,7 @@ state_machine:
         - action: "Complete North-South"
           target: "North-South"
           probability: 85
-        - action: "North-South Kimura"
+        - action: "North-South to Kimura"
           target: "Kimura Control"
           probability: 50
 
@@ -327,13 +327,13 @@ You are moving in a circular path around your opponent's head, transitioning fro
 - Head control or upper body control maintained throughout
 
 ## Defensive Responses (When Opponent Has This State Against You)
-- [[Bridge and Turn]] → [[Guard Recovery]] (Success Rate: 25%)
+- [[Bridge and Roll]] → [[Guard Recovery]] (Success Rate: 25%)
 - [[Frame and Create Space]] → [[Half Guard Bottom]] (Success Rate: 30%)
 - [[Hip Escape]] → [[Guard Recovery]] (Success Rate: 20%)
 
 ## Offensive Transitions (Available From This State)
 - [[Complete North-South]] → [[North-South]] (Success Rate: Beginner 70%, Intermediate 85%, Advanced 95%)
-- [[North-South Kimura]] → [[Kimura Control]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
+- [[North-South to Kimura]] → [[Kimura Control]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
 - [[North-South Choke]] → [[Won by Submission]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
 - [[Return to Side Control]] → [[Side Control]] (Success Rate: Beginner 75%, Intermediate 85%, Advanced 92%)
 - [[Transition to Mount]] → [[Mount]] (Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%)
@@ -404,7 +404,7 @@ You are moving in a circular path around your opponent's head, transitioning fro
 ## Decision Tree
 If opponent creates space on the side:
 - Execute [[Complete North-South]] → [[North-South]] (Probability: 85%)
-- Or Execute [[North-South Kimura]] → [[Kimura Control]] (Probability: 50%)
+- Or Execute [[North-South to Kimura]] → [[Kimura Control]] (Probability: 50%)
 
 Else if opponent frames with near arm:
 - Execute [[Return to Side Control]] → [[Side Control]] (Probability: 85%)
@@ -431,9 +431,9 @@ Else if opponent turns away:
 *Reasoning: Establish the position fully before attacking, increasing control and submission success*
 
 **Opportunistic attack path:**
-[[North-South Transition]] → [[North-South Kimura]] → [[Kimura Control]] → [[Kimura Finish]] → [[Won by Submission]]
+[[North-South Transition]] → [[North-South to Kimura]] → [[Kimura Control]] → [[Kimura Finish]] → [[Won by Submission]]
 *Reasoning: If arm becomes available during transition, kimura offers high success rate 50-75%*
 
 **Positional advancement path:**
-[[North-South Transition]] → [[Return to Side Control]] → [[Side Control]] → [[Mount]] → [[Submission Chain]] → [[Won by Submission]]
+[[North-South Transition]] → [[Return to Side Control]] → [[Side Control]] → [[Mount]] → [[Submission Chains]] → [[Won by Submission]]
 *Reasoning: Use transition to tire opponent and create reaction, then advance positionally for methodical finish*

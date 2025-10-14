@@ -5,7 +5,7 @@ transition_id: "T212"
 transition_name: "Guard Pass"
 alternative_names: ["Pass Guard", "Guard Passing", "Pass the Guard"]
 starting_state: "Guard Top"
-ending_state: "Side Control Top"
+ending_state: "Side Control"
 transition_type: "Advancement"
 success_probability:
   beginner: 40
@@ -397,9 +397,9 @@ Guard passing is one of the most fundamental and continuously evolving aspects o
 ## Position Integration
 
 **Common combinations and sequences:**
-- [[Closed Guard Top]] → [[Guard Pass]] → [[Side Control Top]]
+- [[Closed Guard Top]] → [[Guard Pass]] → [[Side Control]]
 - [[Open Guard Top]] → [[Guard Pass]] → [[Mount]]
-- [[Half Guard Top]] → [[Guard Pass]] → [[Side Control Top]]
+- [[Half Guard Top]] → [[Guard Pass]] → [[Side Control]]
 - [[Guard Pass]] → [[Knee on Belly]] (if opponent creates space during consolidation)
 
 ## Related Techniques

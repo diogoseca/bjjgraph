@@ -567,6 +567,7 @@ Harai Goshi is one of the 40 original throws of Kodokan Judo, classified in the 
 
 **Common combinations and sequences:**
 - [[Standing Position]] → [[Harai Goshi]] → [[Side Control]]
+- [[Standing Position]] → [[Harai Goshi]] → [[Side Control Top]] - Primary landing position
 - [[Standing Position]] → [[Harai Goshi]] → [[Top Position]]
 - [[Clinch Position]] → [[Harai Goshi]] → [[Side Control]]
 - [[Standing Position]] → [[Failed Harai Goshi]] → [[Arm Drag]] (if countered)

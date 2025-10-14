@@ -4,8 +4,8 @@ description: "Learn Shrimp Escape in BJJ. Step-by-step execution from Side Contr
 transition_id: "T201"
 transition_name: "Shrimp Escape"
 alternative_names: ["Hip Escape", "Shrimping", "Elbow Knee Escape"]
-starting_state: "Side Control Bottom"
-ending_state: "Guard Bottom"
+starting_state: "Side Control to Mount"
+ending_state: "Half Guard Bottom"
 transition_type: "Escape"
 success_probability:
   beginner: 35
@@ -33,7 +33,7 @@ schema_tools:
   - "Training partner"
   - "Mat space"
 tags: ["bjj", "transition", "escape", "side_control", "fundamental", "shrimping"]
-related_positions: ["Side Control Bottom", "Guard Bottom", "Half Guard Bottom"]
+related_positions: ["Side Control to Mount", "Half Guard Bottom", "Half Guard Bottom"]
 related_techniques: ["Hip Escape", "Elbow Escape", "Bridge and Shrimp", "Frame and Shrimp"]
 ---
 
@@ -67,8 +67,8 @@ From side control bottom, you begin by creating a defensive frame with your near
 
 Opponent defensive responses with success rates and conditions:
 
-- **[[Crossface Control]]** → [[Side Control Top]] (Success Rate: 65%, Conditions: opponent controls head with heavy crossface preventing effective bridging)
-- **[[Underhook Control]]** → [[Side Control Top]] (Success Rate: 55%, Conditions: opponent secures deep underhook preventing hip escape)
+- **[[Cross Face Control]]** → [[Side Control]] (Success Rate: 65%, Conditions: opponent controls head with heavy crossface preventing effective bridging)
+- **[[Underhook Control]]** → [[Side Control]] (Success Rate: 55%, Conditions: opponent secures deep underhook preventing hip escape)
 - **[[Knee on Belly]]** → [[Knee on Belly]] (Success Rate: 60%, Conditions: opponent transitions to knee on belly as hips escape)
 - **[[Mount Transition]]** → [[Mount]] (Success Rate: 50%, Conditions: opponent capitalizes on space creation by advancing to mount)
 
@@ -76,7 +76,7 @@ Opponent defensive responses with success rates and conditions:
 
 ```
 If [frame_strength] < 50%:
-- Execute [[Crossface Control]] (Probability: 65%)
+- Execute [[Cross Face Control]] (Probability: 65%)
 
 Else if [hip escape is shallow]:
 - Execute [[Underhook Control]] (Probability: 55%)

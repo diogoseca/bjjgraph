@@ -52,8 +52,8 @@ description: "The Rear Naked Choke (RNC) Pathway represents the most statistical
 ## Submission Chain Properties
 - **Chain ID**: SC006
 - **Primary Submission**: [[Rear Naked Choke]]
-- **Secondary Submissions**: [[Bow and Arrow Choke]], [[Collar Choke]], [[Short Choke]]
-- **Starting Positions**: [[Back Control]], [[Technical Back Mount]], [[Turtle Top]]
+- **Secondary Submissions**: [[Bow and Arrow Choke]], [[Cross Collar Choke]], [[Short Choke]]
+- **Starting Positions**: [[Back Control]], [[Technical Mount]], [[Turtle Top]]
 - **Ending State**: Submission (Opponent taps out or loses consciousness)
 - **Success Probability**: Beginner (30%), Intermediate (60%), Advanced (80%)
 - **Risk Level**: Medium - requires strong positional control but exposes practitioner to defensive counters

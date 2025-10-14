@@ -167,7 +167,7 @@ Factors that increase/decrease probability:
 ### Common Counters
 Opponent responses with success rates:
 - **Sprawl Defense**: Dropping hips back to avoid knee grab → [[Standing Position]] (Success Rate: 55%, Conditions: early recognition)
-- **Whizzer Counter**: Using overhook to counter and reverse → [[Top Position]] (Success Rate: 45%, Conditions: superior positioning)
+- **Whizzer Control**: Using overhook to counter and reverse → [[Top Position]] (Success Rate: 45%, Conditions: superior positioning)
 - **Knee Shield**: Using knee to prevent level change access → [[Clinch Position]] (Success Rate: 50%, Conditions: timing dependent)
 - **Circle Away**: Moving away from takedown angle → [[Standing Position]] (Success Rate: 40%, Conditions: mobility)
 
@@ -182,7 +182,7 @@ Else if [level change] is recognized:
 - Execute [[Knee Shield]] (Probability: 50%)
 
 Else if [takedown timing] can be reversed:
-- Execute [[Whizzer Counter]] (Probability: 45%)
+- Execute [[Whizzer Control]] (Probability: 45%)
 
 Else [optimal takedown execution]:
 - Accept transition (Probability: Success Rate - Modifiers)
@@ -325,6 +325,7 @@ Updates to this standard should be reflected across all transition files to main
 - [[Tani Otoshi]] - Related technique
 - [[Collar Drag]] - Related technique
 - [[Osoto Gari]] - Related technique
+- [[Neutral Position]] - Primary starting position for knee tap
 
 
 ## Competition Applications

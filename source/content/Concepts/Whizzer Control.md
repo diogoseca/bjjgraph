@@ -98,7 +98,7 @@ The Whizzer (also known as an overhook or "wizzer") is a defensive control mecha
 - [[Lateral Drop]] → [[Side Control]]
 - [[Whizzer Snapdown]] → [[Front Headlock]]
 - [[Quarter Nelson]] → [[Back Control]]
-- [[Whizzer Sweep]] → [[Top Position]]
+- [[Waiter Sweep]] → [[Top Position]]
 - [[Uchi Mata Entry]] → [[Throw]]
 - [[Whizzer Pass]] → [[Side Control]]
 

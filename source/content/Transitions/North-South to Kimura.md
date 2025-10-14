@@ -116,7 +116,7 @@ description: "Learn North-South to Kimura in BJJ. Step-by-step execution. Comple
 
 ## Transition Properties
 - **Transition ID**: T912
-- **Starting State**: [[North-South]]
+- **Starting State**: [[North South Control]]
 - **Ending State**: [[Kimura Control]]
 - **Success Probability**: Beginner (50%), Intermediate (70%), Advanced (85%)
 - **Execution Complexity**: Medium
@@ -142,7 +142,7 @@ From a secure North-South position, your chest presses heavily on your opponent'
 4. Thread the non-control arm under the opponent's upper arm on the target side, reaching to establish a figure-four grip by connecting hands, typically palm-to-palm or with a wrist grip.
 5. Secure the figure-four grip, locking their arm in place, ensuring the grip is tight to isolate the shoulder and prevent defensive hand fighting.
 6. Adjust body position to maximize leverage on the isolated shoulder, sliding hips slightly to align perpendicular to their arm, maintaining chest connection to limit space.
-7. Stabilize the final Kimura control position with proper weight distribution, posting a knee near their head for base, ready to apply submission pressure while countering defensive reactions like bridging or rolling.
+7. Stabilize the final Kimura control position with proper weight distribution, posting a knee near their head for base, ready to apply submission pressure while countering defensive reactions like bridging or rolling, transitioning to [[Kimura]] submission.
 
 ## Key Details
 - **Arm Isolation**: Creating and maintaining separation of the target arm from the opponent's body to enable submission setup.
@@ -202,7 +202,9 @@ Else [maintain control]:
 - Kimura/Armbar Combination (dual-threat approach to force defensive reactions)
 
 ## Expert Insights
-- **John Danaher**: "Establishing complete control of the opponent's upper arm before attempting the figure-four grip is paramount. Create mechanical disadvantages through precise positioning that render
+- **John Danaher**: "Establishing complete control of the opponent's upper arm before attempting the figure-four grip is paramount. Create mechanical disadvantages through precise positioning that render the shoulder vulnerable to the kimura lock."
+- **Gordon Ryan**: "The North-South to Kimura transition is a high-percentage attack when the opponent focuses on defending the choke. The key is maintaining chest pressure while isolating the arm systematically."
+- **Eddie Bravo**: "This transition opens up multiple attack paths from the North-South position. The kimura threat forces opponents into defensive reactions that create opportunities for other submissions or positional advances."
 
 ## Related Techniques
 

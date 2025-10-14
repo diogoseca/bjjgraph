@@ -188,7 +188,7 @@ You are positioned directly behind your opponent, with your chest pressed tightl
 - Control of hips through hooks or body triangle
 
 ## Defensive Responses (When Opponent Has This State)
-- [[Hand Fighting Defense]] → [[Escape Position]] (Success Rate: 25%)
+- [[Hand Fighting Defense]] → [[Scramble Position]] (Success Rate: 25%)
 - [[Hook Removal]] → [[Half Guard Recovery]] (Success Rate: 20%)
 - [[Chair Sit Escape]] → [[Guard Recovery]] (Success Rate: 15%)
 - [[Rolling Escape]] → [[Guard Recovery]] or [[Scramble]] (Success Rate: 10%)
@@ -197,10 +197,10 @@ You are positioned directly behind your opponent, with your chest pressed tightl
 - [[Rear Naked Choke]] → [[Won by Submission]] (Success Rate: Beginner 60%, Intermediate 70%, Advanced 80%)
 - [[Bow and Arrow Choke]] → [[Won by Submission]] (Success Rate: Beginner 40%, Intermediate 50%, Advanced 60%)
 - [[Armbar from Back]] → [[Armbar Control]] (Success Rate: Beginner 30%, Intermediate 40%, Advanced 50%)
-- [[Triangle from Back]] → [[Triangle Control]] (Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%)
+- [[Triangle from Back]] → [[Triangle Choke Back]] (Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%)
 - [[Transition to Mount]] → [[Mount]] (Success Rate: Beginner 35%, Intermediate 45%, Advanced 55%)
-- [[Crucifix Transition]] → [[Crucifix Control]] (Success Rate: Beginner 30%, Intermediate 40%, Advanced 50%)
-- [[Back Triangle]] → [[Triangle Control]] (Success Rate: Beginner 20%, Intermediate 30%, Advanced 40%)
+- [[Crucifix Transition]] → [[Crucifix Position]] (Success Rate: Beginner 30%, Intermediate 40%, Advanced 50%)
+- [[Back Triangle]] → [[Arm Triangle]] (Success Rate: Beginner 20%, Intermediate 30%, Advanced 40%)
 
 ## Counter Transitions
 - [[Re-establish Back Control]] → [[Back Control]] (against escape attempts)
@@ -238,7 +238,7 @@ You are positioned directly behind your opponent, with your chest pressed tightl
 
 ## Related States
 - [[Back Mount]] - Back control with opponent flat on stomach
-- [[Technical Back Mount]] - Modified back control with opponent on side
+- [[Technical Mount]] - Modified back control with opponent on side
 - [[Crucifix]] - Specialized back control with arm isolation
 - [[Body Triangle]] - Specific back control configuration with legs
 - [[Turtle Top]] - Controlling opponent in defensive turtle position

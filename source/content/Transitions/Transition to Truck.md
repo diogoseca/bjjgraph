@@ -123,7 +123,7 @@ description: "Learn Transition to Truck in BJJ. Step-by-step execution. Complete
 ## Transition Properties
 - **Transition ID**: T827
 - **Classification**: Offensive Submission Setup
-- **Starting Position**: [[Back Control]], [[Turtle Position Top]]
+- **Starting Position**: [[Back Control]], [[Bottom Turtle]]
 - **Target Position**: [[Truck Position]], [[Submission Setup]]
 - **Success Probability**: Beginner (30%), Intermediate (45%), Advanced (60%)
 - **Execution Complexity**: High

@@ -58,7 +58,7 @@ description: "From a dominant back control position, you secure the opponent's b
 
 ### State Machine Properties
 - **Submission Type**: Choke - blood strangle from back position
-- **Starting Position**: [[Back Control]], [[Turtle Position Top]]
+- **Starting Position**: [[Back Control]], [[Bottom Turtle]]
 - **Ending Position**: [[Won by Submission]] or [[Neutral Position]] (if escaped)
 - **Target Area**: Opponent's neck (carotid arteries)
 - **Submission Path**: Back control to neck strangle finish
@@ -116,9 +116,9 @@ Factors that increase/decrease probability:
 ### Common Counters
 Opponent responses with success rates:
 - **Head Escape**: Pulling head out before triangle locks → [[Back Control]] (Success Rate: 45%, Conditions: early recognition)
-- **Arm Withdrawal**: Freeing trapped arm to break structure → [[Neutral Position]] (Success Rate: 40%, Conditions: quick reaction)
+- **Arm Withdrawal**: Freeing trapped arm to break structure → [[Standing Position]] (Success Rate: 40%, Conditions: quick reaction)
 - **Hip Turn**: Turning hips to face attacker and escape → [[Guard Recovery]] (Success Rate: 35%, Conditions: strong base)
-- **Counter Submission**: Attacking legs or counter choke → [[Submission Counter]] (Success Rate: 25%, Conditions: advanced skill)
+- **Counter Submission**: Attacking legs or counter choke → [[Guard Recovery]] (Success Rate: 25%, Conditions: advanced skill)
 
 Format: `[[Counter Technique]] → [[Result State]] (Success Rate: X%, Conditions: [when applicable])`
 
@@ -275,7 +275,7 @@ Updates to this standard should be reflected across all submission files to main
 - **Triangle Choke Front** - Similar choke from front position
 - **Triangle Choke Side** - Alternative triangle application
 - **Back Control** - Primary starting point for this submission
-- **Rear Naked Choke** - Common alternative back attack
+- **[[Rear Naked Choke]]** - Primary back attack, often used in combination with triangle choke back
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, classified as choke
@@ -296,8 +296,8 @@ Triangle Choke Back is a modern variation of the triangle choke in Brazilian Jiu
 ## Position Integration
 **Common triangle choke back combinations:**
 - [[Back Control]] → [[Triangle Choke Back]] → [[Won by Submission]]
-- [[Turtle Position Top]] → [[Triangle Choke Back]] → [[Won by Submission]]
-- [[Back Control]] → [[Failed Triangle Choke Back]] → [[Back Control]]
+- [[Bottom Turtle]] → [[Triangle Choke Back]] → [[Won by Submission]]
+- [[Back Control]] → [[Triangle Choke Back]] → [[Back Control]]
 
 ## Training Applications
 - **Submission Development**: Essential for diversifying back attack arsenal

@@ -211,7 +211,7 @@ You are positioned on your back or slightly on your side, with your legs locked 
 
 ## Counter Transitions
 - [[Re-establish Dead Orchard]] → [[Dead Orchard Control]] (against defensive movement)
-- [[Switch to Standard Triangle]] → [[Triangle Control]] (if one arm escapes)
+- [[Switch to Triangle]] → [[Triangle Control]] (if one arm escapes)
 - [[Transition to Armbar]] → [[Armbar Control]] (under pressure)
 
 ## Expert Insights

@@ -5,7 +5,7 @@ submission_category: "Choke"
 submission_type: "Blood Choke"
 target_area: "Carotid arteries"
 starting_state: "S101"
-starting_position_name: "Turtle Top"
+starting_position_name: "Turtle Top / Turtle Position"
 ending_state: "Terminal - Won by Submission"
 is_terminal: true
 success_rate:

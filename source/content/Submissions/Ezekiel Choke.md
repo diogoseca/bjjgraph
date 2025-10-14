@@ -72,9 +72,9 @@ tags:
 # Related Content (Wikilinks)
 related_positions:
   - "[[Mount]]"
-  - "[[High Mount Top]]"
+  - "[[Mount Control]]"
 related_transitions:
-  - "[[Transition to Mount]]"
+  - "[[Standing Position]]"
   - "[[Armbar from Mount]]"
 related_defenses:
   - "[[Bridge and Roll]]"
@@ -476,7 +476,7 @@ From [[High Mount Top]]:
 - Safety notes: More weight on neck - extra caution
 
 ### Alternative Setup 2: From Side Control
-From [[Side Control]]:
+From [[Half Guard Bottom]]:
 - Thread hand through sleeve before mounting
 - Complete mount transition with grip established
 - Safety notes: Ensure mount is secure before full pressure

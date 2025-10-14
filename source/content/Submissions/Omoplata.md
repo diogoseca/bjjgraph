@@ -58,7 +58,7 @@ description: "Final positioning with opponent's arm trapped in leg triangle conf
 - **Submission Category**: Joint Lock - categorizes submission type
 
 ### State Machine Properties
-- **Starting State**: [[Guard Bottom]], [[Spider Guard]], [[Triangle Control]]
+- **Starting State**: [[Half Guard Bottom]], [[Spider Guard]], [[Triangle Control]]
 - **Ending State**: Always "Won by Submission" (terminal state)
 - **Submission Type**: Shoulder Lock
 - **Target Area**: Shoulder joint and scapula
@@ -297,7 +297,8 @@ The omoplata represents the evolution of Brazilian Jiu-Jitsu's ground fighting s
 
 ## Position Combinations
 **High-percentage omoplata paths:**
-- [[Guard Bottom]] → [[Omoplata]] → [[Won by Submission]]
+- [[Half Guard Bottom]] → [[Omoplata]] → [[Won by Submission]]
+- [[Closed Guard Bottom]] → [[Omoplata]] → [[Won by Submission]]
 - [[Spider Guard]] → [[Omoplata]] → [[Won by Submission]]
 - [[Triangle Control]] → [[Omoplata]] → [[Won by Submission]]
 

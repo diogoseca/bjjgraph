@@ -155,7 +155,7 @@ The Closed Guard to Triangle transition represents a fundamental submission path
 - [[Posture and Stack]] → [[Triangle Defense]]
 - [[Base Widening]] → [[Defensive Posture]]
 - [[Arm Withdrawal]] → [[Posture Recovery]]
-- [[Von Flue Counter]] → [[Side Control]]
+- [[Von Flue Choke]] → [[Side Control]]
 - [[Stand and Slam]] → [[Triangle Defense]] (illegal in most competition)
 
 ## Variants
@@ -182,9 +182,9 @@ The Closed Guard to Triangle transition represents a fundamental submission path
 - Execute following failed guard pass attempt that creates arm isolation
 
 ## Setup Connections
-- [[Closed Guard Control]] → [[Closed Guard to Triangle]]
+- [[Closed Guard Bottom]] → [[Closed Guard to Triangle]]
 - [[Arm Drag Attempt]] → [[Closed Guard to Triangle]]
-- [[Kimura Threat]] → [[Closed Guard to Triangle]]
+- [[Kimura Trap]] → [[Closed Guard to Triangle]]
 - [[Collar Grip Control]] → [[Closed Guard to Triangle]]
 - [[Hip Bump Sweep Attempt]] → [[Closed Guard to Triangle]]
 - [[Omoplata Threat]] → [[Closed Guard to Triangle]]
@@ -193,7 +193,7 @@ The Closed Guard to Triangle transition represents a fundamental submission path
 - [[Triangle Finish]] → [[Won by Submission]]
 - [[Triangle to Armbar]] → [[Armbar Control]]
 - [[Triangle to Omoplata]] → [[Omoplata Control]]
-- [[Mounted Triangle]] → [[Mounted Triangle Control]]
+- [[Mounted Triangle]] → [[Triangle Control]]
 - [[Triangle to Back Take]] → [[Back Control]]
 - [[Sweep from Triangle]] → [[Top Position]]
 

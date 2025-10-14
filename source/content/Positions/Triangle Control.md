@@ -136,15 +136,15 @@ You are on your back with your legs wrapped around your opponent's neck and one 
 ## Defensive Responses (When Opponent Has This State)
 - [[Posture Up]] → [[Triangle Escape Position]]
 - [[Stack Defense]] → [[Triangle Escape Position]]
-- [[Von Flue Counter]] → [[Von Flue Position]]
-- [[Hand Fight]] → [[Triangle Escape Position]]
+- [[Von Flue Choke]] → [[Von Flue Position]]
+- [[Hand Fighting]] → [[Triangle Escape Position]]
 
 ## Offensive Transitions (Available From This State)
 - [[Triangle Finish]] → [[Won by Submission]]
 - [[Transition to Armbar]] → [[Armbar Control]]
 - [[Transition to Omoplata]] → [[Omoplata Control]]
 - [[Triangle to Mount]] → [[Mount]]
-- [[Triangle to Back]] → [[Back Control]]
+- [[Triangle Choke Back]] → [[Back Control]]
 
 ## Counter Transitions
 - [[Readjust Triangle]] → [[Triangle Control]] (against escape attempts)
@@ -175,11 +175,12 @@ You are on your back with your legs wrapped around your opponent's neck and one 
 - [[Omoplata Control]] - Related shoulder lock position
 - [[Mounted Triangle]] - Triangle applied from top position
 - [[Inverted Triangle]] - Variation with different angle
-- [[Triangle Back Control]] - Triangle combined with back control
+- [[Triangle Control]] - Triangle combined with back control
 
 
 ## Related Positions
 
+- [[Closed Guard Bottom]] - Primary setup position for triangle
 - [[Mount]] - Related position
 - [[Armbar Control]] - Related position
 - [[Omoplata Control]] - Related position

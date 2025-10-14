@@ -58,7 +58,7 @@ description: "From a dominant top position such as side control or mount, you is
 
 ### State Machine Properties
 - **Submission Type**: Joint Lock - compression attack on arm
-- **Starting Position**: [[Side Control]], [[Mount]], [[Top Half Guard]]
+- **Starting Position**: [[Side Control Top]], [[Side Control]], [[Mount]], [[Top Half Guard]]
 - **Ending Position**: [[Won by Submission]] or [[Neutral Position]] (if escaped)
 - **Target Area**: Opponent's arm (bicep or elbow joint)
 - **Submission Path**: Control position to arm compression finish

@@ -179,8 +179,8 @@ Else [upper body control] is strong:
 ### Common Threats
 Primary risks while in this position:
 - **Turn Escape**: Opponent turns to face you → [[Guard Recovery]] (Threat Level: High)
-- **Upper Body Counter**: Opponent attacks with arms or chokes → [[Neutral Position]] (Threat Level: Medium)
-- **Roll Escape**: Opponent rolls to break entanglement → [[Scramble Position]] (Threat Level: Medium)
+- **Upper Body Counter**: Opponent attacks with arms or chokes → [[Standing Position]] (Threat Level: Medium)
+- **Roll Escape**: Opponent rolls to break entanglement → [[Standing Position]] (Threat Level: Medium)
 - **Counter Leg Lock**: Opponent attacks your legs → [[Leg Lock Defense]] (Threat Level: Low)
 
 Format: `[[Threat Type]] → [[Resulting Position]] (Threat Level: X)`

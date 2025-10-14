@@ -400,6 +400,7 @@ Ashi garami gained prominence in modern Brazilian Jiu-Jitsu through the systemat
 
 ## Related Techniques
 
+- [[Guard Recovery]] - Natural progression after successful escape
 - [[50-50 Pass]] - Related leg entanglement clearing technique
 - [[Saddle Defense]] - Defense from more dangerous leg entanglement position
 - [[Leg Lock Defense Framework]] - Overarching defensive concepts for all leg locks

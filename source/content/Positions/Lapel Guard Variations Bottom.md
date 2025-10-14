@@ -45,6 +45,7 @@ Your position varies significantly based on which specific variation is employed
 - **Complementary System Understanding**: Must understand both lapel guard fundamentals AND the traditional guard being integrated
 - **Transition Fluidity**: Flow smoothly between variations as opponent counters or changes strategy
 - **Strategic Depth Building**: Develop multiple variations to create unpredictable, adaptive guard system
+- [[Guard Retention]]
 
 ## Offensive Transitions
 

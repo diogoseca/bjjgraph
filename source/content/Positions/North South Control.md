@@ -90,3 +90,9 @@ You are lying on top of your opponent with your chest pressed against theirs, bu
 - **Advancement Probability**: Beginner 35%, Intermediate 50%, Advanced 65%
 - **Submission Probability**: Beginner 30%, Intermediate 45%, Advanced 60%
 - **Average Time**: 1-2 minutes
+
+## Related Positions
+- [[North-South]]
+- [[Side Control]]
+- [[Mount]]
+- [[Kimura Control]]

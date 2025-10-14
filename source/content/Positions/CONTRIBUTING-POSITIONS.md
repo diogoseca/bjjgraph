@@ -879,7 +879,7 @@ When opponent has this position against you, available counters:
 
 ## Complete Working Example
 
-See separate file: `/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/Positions/000.STANDARD-V2-EXAMPLE.md`
+See separate file: `/source/content/Positions/000.STANDARD-V2-EXAMPLE.md`
 
 **Key features of example**:
 - Complete YAML frontmatter with all sections
@@ -1243,7 +1243,7 @@ dilemmas:
 
 2. **Build Site Locally**
    ```bash
-   cd bjjgraph/source
+   cd source
    npx quartz build
    ```
 
@@ -1490,7 +1490,7 @@ A Python script for automated V1 to V2 conversion:
 - Inline Schema.org JSON-LD blocks
 - State machine data in markdown sections
 - Manual parsing required for data extraction
-- See `/Users/diogo/Documents/bjjgraph-org/bjjgraph/source/content/Positions/000.STANDARD.md` for V1 specification
+- See `/source/content/Positions/000.STANDARD.md` for V1 specification
 
 ---
 
@@ -1560,8 +1560,8 @@ A Python script for automated V1 to V2 conversion:
 - [JSON Schema](https://json-schema.org/) - Schema validation
 
 **Project Files**:
-- `/bjjgraph/todo/structure.md` - Game engine architecture
-- `/bjjgraph/todo/seo.md` - SEO strategy and implementation
+- `/todo/structure.md` - Game engine architecture
+- `/todo/seo.md` - SEO strategy and implementation
 - `/bjjgraph-game/concepts/PLAN-2-bjjgraph-game.md` - Game implementation plan
 
 ---
@@ -1655,6 +1655,645 @@ A Python script for automated V1 to V2 conversion:
   }
 }
 ```
+
+---
+
+## SEO Optimization for Position Pages
+
+Position pages are the foundation of BJJ Graph's organic search strategy. As state nodes in the knowledge graph, they serve dual purposes: educating human practitioners and providing structured data for AI/LLM consumption. Proper SEO optimization ensures these pages rank for competitive BJJ keywords while maintaining technical accuracy and educational value.
+
+### Title Format and Examples
+
+Every position page title follows this exact template:
+
+**Template**: `"[Position Name] | BJJ Position Guide | BJJ Graph"`
+
+**Good Examples**:
+- `"Closed Guard Bottom | BJJ Position Guide | BJJ Graph"` - Clear, concise, includes target keyword
+- `"Mount | BJJ Position Guide | BJJ Graph"` - Simple position, properly branded
+- `"De La Riva Guard | BJJ Position Guide | BJJ Graph"` - Multi-word position, correctly formatted
+- `"50-50 Guard Bottom | BJJ Position Guide | BJJ Graph"` - Numeric position, hyphenated correctly
+
+**Bad Examples**:
+- `"Closed Guard Bottom"` - Missing branding and category
+- `"BJJ Closed Guard | Position"` - Incorrect structure, keywords in wrong order
+- `"How to Use Closed Guard in BJJ"` - Question format inappropriate for position pages
+- `"Closed Guard Bottom Position | BJJ Graph"` - Missing "BJJ Position Guide" component
+
+**Why This Format Works**:
+- **Primary Keyword First**: "Closed Guard Bottom" captures long-tail searches
+- **Category Indicator**: "BJJ Position Guide" signals content type to Google
+- **Brand Component**: "BJJ Graph" builds brand recognition and click-through
+- **Consistent Structure**: Pattern recognition helps Google understand site architecture
+- **Length Optimization**: 50-70 characters ideal for search display
+
+### Meta Description Template and Examples
+
+Meta descriptions must be 150-160 characters and include success rates to differentiate from competitors.
+
+**Template**: `"Master [Position Name] in BJJ. Complete guide covering [key aspects]. Success rates: Beginner X%, Intermediate Y%, Advanced Z%."`
+
+**Good Examples**:
+1. `"Master Closed Guard Bottom in BJJ. Complete guide covering sweeps, submissions, posture control, and defensive frames. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%."` (159 chars)
+
+2. `"Master Mount in BJJ. Complete guide covering control maintenance, submission chains, and position transitions. Success rates: Beginner 65%, Intermediate 80%, Advanced 90%."` (158 chars)
+
+3. `"Master De La Riva Guard in BJJ. Guide to sweeps, back takes, technical stand-ups. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%."` (145 chars - acceptable)
+
+**Bad Examples**:
+1. `"Closed Guard Bottom is a fundamental BJJ position where..."` - Too verbose, no success rates, passive voice
+
+2. `"Learn Closed Guard"` - Too short (19 chars), no detail, no success rates, no call to action
+
+3. `"Master Closed Guard Bottom in Brazilian Jiu-Jitsu with this comprehensive guide covering sweeps, submissions, and defensive strategies for all skill levels from beginner to advanced"` (187 chars - too long, truncates in search)
+
+4. `"Closed Guard guide with success rates"` - Missing key details, no specific percentages, poor structure
+
+**Success Rate Presentation Requirements**:
+- **All Three Levels**: Always include Beginner, Intermediate, Advanced
+- **Realistic Values**: Based on actual YAML data, must match frontmatter
+- **Ordered Correctly**: Beginner < Intermediate < Advanced (strictly enforced)
+- **Context-Appropriate**: Defensive positions have lower rates, offensive positions higher rates
+- **Integer Percentages**: No decimals (40%, not 40.5%)
+
+### Target Keywords by Position Type
+
+**Primary Keywords (High Volume)**:
+- `"[position name]"` - e.g., "closed guard", "mount", "side control"
+- `"bjj [position name]"` - e.g., "bjj closed guard", "bjj mount"
+- `"[position name] bjj"` - e.g., "closed guard bjj", "mount bjj"
+
+**Secondary Keywords (Medium Volume)**:
+- `"[position name] techniques"` - e.g., "closed guard techniques"
+- `"[position name] guide"` - e.g., "mount guide"
+- `"how to use [position name]"` - e.g., "how to use closed guard"
+- `"[position name] for beginners"` - e.g., "mount for beginners"
+
+**Long-Tail Keywords (Low Competition, High Intent)**:
+- `"[position name] sweeps"` - e.g., "closed guard sweeps"
+- `"[position name] submissions"` - e.g., "mount submissions"
+- `"escaping [position name]"` - e.g., "escaping side control"
+- `"[position name] success rate"` - e.g., "closed guard success rate"
+- `"[position name] decision tree"` - e.g., "closed guard decision tree"
+
+**Competition-Specific Keywords**:
+- `"[position name] competition"` - e.g., "closed guard competition"
+- `"[position name] ibjjf"` - e.g., "mount ibjjf points"
+- `"[position name] adcc"` - e.g., "back control adcc rules"
+
+### Internal Linking Requirements
+
+Every position page MUST include a minimum of 8 internal links to establish knowledge graph connections:
+
+**Required Link Categories**:
+1. **Offensive Transitions** (minimum 3): Links to techniques you can execute from this position
+   - Format: `[[Hip Bump Sweep]]`, `[[Triangle Choke from Closed Guard]]`
+
+2. **Defensive Transitions** (minimum 2): Links to techniques opponent can execute or counters
+   - Format: `[[Guard Pass Defense]]`, `[[Posture Recovery]]`
+
+3. **Related Positions** (minimum 3): Links to similar or connected positions
+   - Format: `[[Open Guard Bottom]]`, `[[Half Guard Bottom]]`, `[[Mount]]`
+
+**Example Internal Linking Structure**:
+```markdown
+## Offensive Transitions
+- [[Hip Bump Sweep]] → [[Mount]] (Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%)
+- [[Triangle Choke from Closed Guard]] → [[Triangle Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%)
+- [[Scissor Sweep]] → [[Side Control Top]] (Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%)
+
+## Defensive Responses
+- [[Guard Pass Counter]] → [[Closed Guard Bottom]] (Success Rate: 45%)
+- [[Hip Escape]] → [[Open Guard Bottom]] (Success Rate: 50%)
+
+## Related Positions
+- [[Open Guard Bottom]] - Natural progression when opponent stands
+- [[Half Guard Bottom]] - Defensive fallback when guard is partially passed
+- [[Mount]] - Target position from successful sweeps
+```
+
+**Why 8+ Links Matter**:
+- **PageRank Distribution**: More internal links = more authority passed
+- **User Engagement**: Related content reduces bounce rate
+- **Crawl Depth**: Better indexation of connected pages
+- **Topic Clustering**: Establishes semantic relationships
+- **Conversion Paths**: Guides users deeper into content
+
+### Schema Markup Requirements for Position Pages
+
+Every position page requires four types of Schema.org structured data:
+
+**1. WebPage Schema** (Required):
+```yaml
+"@type": "WebPage"
+"name": "[Position Name]"
+"description": "[Meta description]"
+"url": "https://bjjgraph.com/positions/[slug]"
+```
+
+**2. BreadcrumbList Schema** (Required):
+```yaml
+"@type": "BreadcrumbList"
+"itemListElement":
+  - position: 1, name: "Home"
+  - position: 2, name: "Positions"
+  - position: 3, name: "[Position Name]"
+```
+
+**3. HowTo Schema** (Strongly Recommended):
+- **Minimum 5 steps**, maximum 8 for readability
+- Each step describes a technique or transition available from this position
+- Steps should map to offensive transitions in YAML
+- Example: "Execute Hip Bump Sweep to transition to Mount with 55% success rate"
+
+**4. FAQPage Schema** (Strongly Recommended):
+- **Minimum 6 questions**, maximum 8 to avoid overwhelming snippets
+- Questions must be actual questions (with "?" at end)
+- Answers must be 2-3 complete sentences with technical detail
+- Cover tactical, technical, and strategic aspects
+
+### Featured Snippet Optimization
+
+Position pages are ideal candidates for Google's featured snippets. Optimize for these formats:
+
+**1. Table Format** (Position Comparison):
+```markdown
+| Position | Point Value | Success Rate (Advanced) | Primary Purpose |
+|----------|-------------|-------------------------|-----------------|
+| Mount | 4 | 80-90% | Control + Submission |
+| Closed Guard Bottom | 0 | 60-75% | Sweep + Submit |
+| Side Control Top | 3 | 70-85% | Control + Advance |
+```
+
+**2. Bulleted List Format** (Key Principles):
+```markdown
+Key principles for Closed Guard Bottom:
+- Maintain closed legs around opponent's waist for structural control
+- Break opponent's posture to create offensive opportunities
+- Control distance with grips and frames to prevent passing
+- Create angles to access sweeps and submissions
+```
+
+**3. Direct Answer Format** (Decision Trees):
+```markdown
+When should you use Hip Bump Sweep from Closed Guard?
+
+Execute Hip Bump Sweep when opponent establishes strong upright posture (55% success rate). This technique exploits their rigid base and elevated center of gravity. Alternative: if opponent drives forward, use Pendulum Sweep instead (45% success rate).
+```
+
+**4. Step-by-Step Format** (Technique Execution):
+```markdown
+How to execute Triangle Choke from Closed Guard:
+1. Break opponent's posture down and forward
+2. Control one arm across your centerline
+3. Pivot hips at 45-degree angle
+4. Throw leg over shoulder and under chin
+5. Lock triangle by placing foot behind knee
+6. Squeeze knees together while pulling head down
+```
+
+### FAQ Best Practices for Position Pages
+
+FAQ sections serve dual purposes: featured snippet capture and natural user questions. Position pages should include 6-8 questions covering these categories:
+
+**Tactical Questions** (2-3 questions):
+- "When should I use [Technique A] vs [Technique B] from [Position]?"
+- "How do I respond when opponent [specific action] in [Position]?"
+- "What are the highest percentage techniques from [Position]?"
+
+**Technical Questions** (2-3 questions):
+- "What are the key control points in [Position]?"
+- "How do I maintain [Position] against resistance?"
+- "What is the correct body positioning for [Position]?"
+
+**Strategic Questions** (1-2 questions):
+- "What are the common mistakes in [Position]?"
+- "How does [Position] score in IBJJF competition?"
+- "What positions lead naturally to [Position]?"
+
+**Example FAQ Structure**:
+```yaml
+faq:
+  - question: "What is the most common mistake in Closed Guard Bottom?"
+    answer: "The most common mistake is maintaining a flat, square position without creating angles. This allows the opponent to maintain strong posture and distribute their weight evenly, making sweeps and submissions difficult. The correction is to constantly shift your hips to create angles, using off-balancing techniques to disrupt their posture and open attack opportunities."
+    category: "errors"
+
+  - question: "When should I use Hip Bump Sweep vs Scissor Sweep from Closed Guard?"
+    answer: "Use Hip Bump Sweep when opponent establishes strong upright posture with a rigid base (55% success rate for advanced practitioners). Use Scissor Sweep when opponent leans forward or has a narrow base, as it exploits their compromised balance (50% success rate). If opponent stands up, transition to Open Guard instead."
+    category: "tactics"
+```
+
+**Answer Format Requirements**:
+- **Length**: 2-3 complete sentences (50-120 words)
+- **Specificity**: Include technical details, not vague advice
+- **Actionable**: Provide clear steps or decisions
+- **Data**: Reference success rates when relevant
+- **Context**: Explain *why*, not just *what*
+
+### SEO Checklist for Position Pages
+
+Before publishing or updating a position page, verify these SEO elements:
+
+- [ ] Title follows exact template format with position name, category, and brand
+- [ ] Meta description is 150-160 characters with success rates included
+- [ ] All three success rate skill levels specified correctly
+- [ ] Minimum 8 internal links present (3 offensive, 2 defensive, 3 related)
+- [ ] All wikilinks resolve to actual content files
+- [ ] WebPage and BreadcrumbList schemas present in frontmatter
+- [ ] HowTo schema includes 5-8 actionable steps
+- [ ] FAQPage schema includes 6-8 questions across tactical/technical/strategic categories
+- [ ] H1 header matches position name exactly
+- [ ] First paragraph includes target keyword within first 100 words
+- [ ] Alt text for images (if applicable) includes descriptive keywords
+- [ ] URL slug is lowercase, hyphenated, matches position name
+
+---
+
+## Integration with Learning Articles
+
+Position pages serve as data sources for aggregated Learning articles (hub pages) that provide strategic overviews and learning pathways. This integration creates a content hierarchy: detailed position pages → strategic hub pages → comprehensive guides.
+
+### How Position Data Is Used in Learning Articles
+
+**1. Success Rate Aggregation and Comparison**:
+Learning articles like "BJJ-Positions.md" create comparison tables using success rate data from multiple position pages:
+
+```markdown
+| Position | Beginner | Intermediate | Advanced | Point Value | Primary Purpose |
+|----------|----------|--------------|----------|-------------|-----------------|
+| Mount | 50% | 65% | 80% | 4 | Control + Submission |
+| Closed Guard Bottom | 40% | 55% | 70% | 0 | Sweep + Submit |
+| Side Control Top | 55% | 70% | 85% | 3 | Control + Pass |
+```
+
+**Requirements for Consistency**:
+- Success rates must be consistent across related positions
+- Point values must follow IBJJF standards exactly
+- Position types (Offensive/Defensive/Neutral) must be correctly categorized
+- Energy costs should be calibrated relative to similar positions
+
+**Example of Inconsistent Data** (avoid):
+- Closed Guard Bottom: "Sweep success: Beginner 60%" (position page)
+- Hip Bump Sweep: "From Closed Guard: Beginner 40%" (transition page)
+- *These conflict - position page suggests 60% sweep success but specific sweep only has 40%*
+
+**Example of Consistent Data** (correct):
+- Closed Guard Bottom: "Average sweep success: Beginner 45%" (average of all sweeps)
+- Hip Bump Sweep: "From Closed Guard: Beginner 55%" (specific sweep)
+- Scissor Sweep: "From Closed Guard: Beginner 40%" (specific sweep)
+- Pendulum Sweep: "From Closed Guard: Beginner 40%" (specific sweep)
+- *Average: (55 + 40 + 40) / 3 = 45% - consistent!*
+
+**2. Expert Insights Alignment**:
+Learning articles aggregate expert perspectives from multiple positions to identify patterns:
+
+**John Danaher Pattern** (Systematic Approach):
+- Across all guard positions: Emphasizes posture control as prerequisite
+- Across all top positions: Stresses pressure + immobilization hierarchy
+- Consistent theme: "Control position before seeking submission"
+
+**Gordon Ryan Pattern** (Competition Focus):
+- Across all positions: Prioritizes high-percentage techniques
+- Competition considerations: IBJJF vs ADCC rule set adaptations
+- Consistent theme: "What actually works in live competition"
+
+**Eddie Bravo Pattern** (Innovation):
+- Across rubber guard positions: Unique grips and unorthodox angles
+- 10th Planet specific: Lockdown, electric chair, truck progressions
+- Consistent theme: "Challenge conventional defensive structures"
+
+**Consistency Requirements**:
+- Expert insights must match their known teaching philosophy
+- Technical emphasis should align across similar positions
+- Competition strategies should reflect actual competitive success
+- Innovation should be grounded in mechanical advantage, not gimmicks
+
+**3. Position Relationships Create Navigation**:
+Learning articles use the `related_positions` and `progressions` sections to create visual navigation and logical flows:
+
+```markdown
+### Guard Bottom Learning Pathway
+
+**Fundamental Progression**:
+[[Closed Guard Bottom]] (Master first) → [[Open Guard Bottom]] (When opponent stands) → [[Half Guard Bottom]] (Defensive fallback) → [[Deep Half Guard]] (Advanced recovery)
+
+**Sweep Chain Learning**:
+From [[Closed Guard Bottom]]: Learn [[Hip Bump Sweep]] → Then [[Scissor Sweep]] → Then [[Pendulum Sweep]] → Advanced: [[Flower Sweep]]
+```
+
+**Requirements for Position Relationships**:
+- `related_positions` must list actual related content (not aspirational)
+- `leads_to` must reference natural progressions backed by technique data
+- `progressions` should indicate skill level (beginner → intermediate → advanced)
+- Relationships should be bidirectional (if A relates to B, B should relate to A)
+
+**4. Training Drills Aggregation**:
+Learning articles compile training drills from multiple positions to create comprehensive training programs:
+
+**Example from "BJJ-Guard-Passing.md"**:
+```markdown
+### Week 1-2: Fundamental Guard Passing Drills
+- Knee Cut Pass pressure drill (from [[Knee Cut Position]])
+- Leg Drag control drill (from [[Leg Drag Position]])
+- Toreando movement drill (from [[Standing Guard]])
+- Stack Pass pressure maintenance (from [[Half Guard Top]])
+```
+
+**Consistency Requirements**:
+- Drill descriptions must match source position pages exactly
+- Progressive resistance levels (0%, 25%, 50%, 75%, 100%) should be consistent
+- Sets/reps/duration recommendations should align across similar positions
+- Focus points should emphasize the same principles in related drills
+
+### Success Rate Consistency Standards
+
+Success rate data forms the foundation of Learning article comparisons and decision trees. Inconsistencies create confusion and undermine credibility.
+
+**Calibration Rules**:
+
+1. **Additive Consistency**: If Position A → B has 60% success and B → C has 70% success, then A → C through this path has ~42% success (0.60 × 0.70)
+
+2. **Alternative Consistency**: If Technique 1 has 50% success and Technique 2 has 50% success from same position, overall success rate for "any technique" shouldn't exceed 75% (account for overlap)
+
+3. **Skill Progression Consistency**: Advanced practitioners should succeed at beginner-rated techniques 10-15% more than intermediate practitioners who succeed 10-15% more than beginners
+
+4. **Position Type Consistency**:
+   - Offensive positions (Mount, Back Control): Higher technique success rates (60-90%)
+   - Neutral positions (Standing, Neutral Start): Balanced success rates (40-60%)
+   - Defensive positions (Bottom positions): Lower technique success rates (30-60%)
+
+**Example of Calibrated Success Rates**:
+
+**Closed Guard Bottom → Mount Progression**:
+- Hip Bump Sweep: Beginner 40%, Intermediate 55%, Advanced 70%
+- Maintain Mount: Beginner 60%, Intermediate 75%, Advanced 85%
+- Combined A→B→Maintain: Beginner 24% (0.40 × 0.60), Intermediate 41% (0.55 × 0.75), Advanced 60% (0.70 × 0.85)
+
+This calibration ensures realistic expectations and helps Learning articles accurately represent progression difficulty.
+
+### Cross-Referencing Standards
+
+Position pages must cross-reference relevant Learning articles to create bidirectional navigation:
+
+**In Position Frontmatter**:
+```yaml
+tags:
+  - bjj
+  - position
+  - guard
+  - closed-guard
+  - bottom
+  - fundamental
+  - learning-pathway-guard-bottom  # Links to Learning article
+```
+
+**In Position Markdown Content**:
+```markdown
+## Related Learning Pathways
+
+This position is part of the **[[Guard Bottom Learning Pathway]]**, which provides a comprehensive progression from fundamental to advanced guard techniques.
+
+For competition-specific applications, see **[[BJJ-Guard-Passing]]** for common passing attempts you'll defend against from this position.
+
+For a complete overview of all bottom positions, see **[[BJJ-Positions]]** hub page.
+```
+
+**In Learning Article** (e.g., "BJJ-Positions.md"):
+```markdown
+### Closed Guard Bottom
+
+Master the **[[Closed Guard Bottom]]** as your foundational guard position. Focus on:
+- Posture control to prevent opponent's offense
+- High-percentage sweeps (Hip Bump, Scissor, Pendulum)
+- Submission threats (Triangle, Armbar, Kimura)
+
+**Success Rates**: Beginner 40% | Intermediate 55% | Advanced 70%
+
+**Learning Priority**: **High** - Master before progressing to open guard variations
+```
+
+**Requirements**:
+- Every position should be referenced in at least one Learning article
+- Learning articles should link back to 5-10 detailed position pages
+- Cross-references should provide context, not just bare links
+- Tags should indicate which Learning pathway the position belongs to
+
+---
+
+## Schema Markup Quick Reference
+
+Schema.org structured data is implemented in YAML frontmatter (not inline JSON-LD as in V1). This section provides position-specific guidance for required and recommended schemas.
+
+### Required Schemas: WebPage and BreadcrumbList
+
+**WebPage Schema** (automatically generated if not specified):
+```yaml
+"@context": "https://schema.org"
+"@type": "WebPage"
+"name": "Closed Guard Bottom"
+"description": "Master Closed Guard Bottom in BJJ. Complete guide covering sweeps, submissions, posture control. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%."
+"url": "https://bjjgraph.com/positions/closed-guard-bottom"
+"isPartOf":
+  "@type": "WebSite"
+  "name": "BJJ Graph"
+  "url": "https://bjjgraph.com"
+```
+
+**BreadcrumbList Schema** (automatically generated):
+```yaml
+"@context": "https://schema.org"
+"@type": "BreadcrumbList"
+"itemListElement":
+  - "@type": "ListItem"
+    "position": 1
+    "name": "Home"
+    "item": "https://bjjgraph.com/"
+  - "@type": "ListItem"
+    "position": 2
+    "name": "Positions"
+    "item": "https://bjjgraph.com/positions/"
+  - "@type": "ListItem"
+    "position": 3
+    "name": "Closed Guard Bottom"
+    "item": "https://bjjgraph.com/positions/closed-guard-bottom"
+```
+
+**Note**: These schemas are generated by build scripts and don't need manual implementation unless customization is required.
+
+### Recommended Schema: HowTo (5-8 Steps)
+
+HowTo schema provides step-by-step guidance for using the position effectively. Map steps to offensive transitions for accuracy.
+
+**Implementation in YAML Frontmatter**:
+```yaml
+schema_org:
+  howto:
+    type: "HowTo"
+    name: "How to Use Closed Guard Bottom in BJJ"
+    description: "Complete guide to executing techniques and transitions from Closed Guard Bottom position."
+    total_time: "PT5M"
+
+    steps:
+      - name: "Break Opponent's Posture"
+        text: "From Closed Guard Bottom, use collar grips and hip movement to break opponent's upright posture, bringing their head and shoulders down toward you. This creates offensive opportunities and prevents passing attempts."
+        position: 1
+
+      - name: "Execute Hip Bump Sweep"
+        text: "When opponent establishes strong upright posture, sit up and execute Hip Bump Sweep to transition to Mount position. Success rate: Beginner 40%, Intermediate 55%, Advanced 70%."
+        position: 2
+
+      - name: "Execute Triangle Choke"
+        text: "When opponent's posture is broken and one arm crosses your centerline, pivot hips and throw leg over for Triangle Choke. Success rate: Beginner 25%, Intermediate 40%, Advanced 60%."
+        position: 3
+
+      - name: "Execute Scissor Sweep"
+        text: "When opponent leans forward with narrow base, use Scissor Sweep mechanics to transition to Side Control Top. Success rate: Beginner 35%, Intermediate 50%, Advanced 65%."
+        position: 4
+
+      - name: "Maintain Guard Retention"
+        text: "If opponent stands up or creates distance, transition to Open Guard Bottom to maintain guard structure and prevent passing. Success rate: Beginner 50%, Intermediate 65%, Advanced 80%."
+        position: 5
+
+    tools:
+      - "BJJ Gi or No-Gi attire"
+      - "Training partner"
+      - "Mat space"
+```
+
+**Step Requirements**:
+- **Minimum 5 steps**, maximum 8 for optimal snippet display
+- Each step should reference an actual offensive transition from YAML
+- Include success rates in step text for featured snippet capture
+- Steps should follow logical progression (setup → execution → alternatives)
+- Use active voice and imperative mood ("Execute X", not "You should execute X")
+
+**Position-Specific Step Examples**:
+
+**Bottom Positions** (Guard, Turtle):
+- Step 1: Establish control and structure
+- Step 2: Primary sweep or reversal
+- Step 3: Primary submission
+- Step 4: Alternative attack
+- Step 5: Guard retention or recovery
+
+**Top Positions** (Mount, Side Control, Back Control):
+- Step 1: Establish and maintain control
+- Step 2: Isolate limb or control posture
+- Step 3: Primary submission attempt
+- Step 4: Alternative submission
+- Step 5: Transition to better position
+
+### Updated FAQ Standards (6-8 Questions)
+
+FAQ schema has been updated to require 6-8 questions (increased from 5 minimum) with 2-3 sentence answers for better featured snippet capture.
+
+**Implementation in YAML Frontmatter**:
+```yaml
+schema_org:
+  faq:
+    - question: "What is the most common mistake in Closed Guard Bottom?"
+      answer: "The most common mistake is maintaining a flat, square position without creating angles, which allows the opponent to maintain strong posture. This makes sweeps and submissions much more difficult to execute. The correction is to constantly shift your hips to create angles and use off-balancing techniques."
+      category: "errors"
+
+    - question: "When should I use Hip Bump Sweep vs Scissor Sweep from Closed Guard?"
+      answer: "Use Hip Bump Sweep when opponent establishes strong upright posture with a rigid base (55% success rate for advanced practitioners). Use Scissor Sweep when opponent leans forward or has a narrow base, exploiting their compromised balance (50% success rate for advanced). The decision depends on opponent's posture and base width."
+      category: "tactics"
+
+    - question: "What are the key control points in Closed Guard Bottom?"
+      answer: "The primary control points are: (1) legs locked around opponent's waist creating structural control, (2) grips on collar or sleeves to break and maintain broken posture, (3) hip pressure to prevent opponent from creating distance. Secondary controls include head control with overhooks and ankle grip for opponent's belt or gi."
+      category: "fundamentals"
+
+    - question: "How do I prevent my guard from being passed from Closed Guard?"
+      answer: "Maintain closed legs around opponent's waist as your first line of defense. If opponent begins standing or creating pressure, immediately transition to Open Guard or establish defensive frames. Keep your hips mobile and ready to re-guard if opponent breaks your closed guard structure."
+      category: "defense"
+
+    - question: "What techniques should beginners focus on from Closed Guard Bottom?"
+      answer: "Beginners should master three fundamental techniques: (1) Hip Bump Sweep for when opponent has upright posture, (2) Triangle Choke setup when opponent's arm crosses centerline, (3) Scissor Sweep for when opponent leans forward. These three techniques cover most opponent positions and have beginner success rates of 40%, 25%, and 35% respectively."
+      category: "tactics"
+
+    - question: "How does Closed Guard Bottom score in IBJJF competition?"
+      answer: "Closed Guard Bottom itself scores 0 points under IBJJF rules - it's a neutral position. However, sweeping opponent from closed guard to a top position scores 2 points, and submissions from closed guard win the match. Guard bottom is considered a strong competitive position despite zero point value because of sweep and submission opportunities."
+      category: "fundamentals"
+```
+
+**Answer Format Requirements** (Updated):
+- **Length**: 2-3 complete sentences (50-120 words per answer)
+- **Completeness**: Each answer must fully address the question without requiring additional context
+- **Specificity**: Include technical details, success rates, specific control points
+- **Actionable**: Provide clear decisions or steps, not vague advice
+- **Paragraph Structure**: Use 2-3 sentences structured as: (1) Direct answer, (2) Supporting detail, (3) Practical application
+
+**Question Categories for Position Pages** (Updated):
+
+1. **Fundamentals** (2-3 questions):
+   - "What are the key control points in [Position]?"
+   - "How does [Position] score in IBJJF competition?"
+   - "What makes [Position] effective/defensive/neutral?"
+
+2. **Tactics** (2-3 questions):
+   - "When should I use [Technique A] vs [Technique B]?"
+   - "What techniques should beginners focus on from [Position]?"
+   - "How do I respond when opponent [specific action]?"
+
+3. **Defense** (1-2 questions):
+   - "How do I prevent [common problem] in [Position]?"
+   - "What should I do when opponent [defensive action]?"
+
+4. **Errors** (1-2 questions):
+   - "What is the most common mistake in [Position]?"
+   - "How do I recognize when I'm [making specific error]?"
+
+### When to Add ItemList Schema
+
+ItemList schema is appropriate when a position page lists multiple variations, techniques, or related positions as an ordered or unordered collection.
+
+**Use ItemList When**:
+- Position has 5+ well-defined variations (e.g., "X-Guard Variations")
+- Creating a "Position Family" page (e.g., "Guard Bottom Positions")
+- Listing systematic technique progressions (e.g., "Mount Submission Sequence")
+- Hub pages aggregating related positions (e.g., "BJJ-Positions.md")
+
+**Example ItemList for Position Variations**:
+```yaml
+schema_org:
+  itemlist:
+    type: "ItemList"
+    name: "Guard Bottom Position Variations"
+    description: "Complete list of guard bottom position variations in BJJ"
+    numberOfItems: 8
+
+    itemListElement:
+      - "@type": "ListItem"
+        "position": 1
+        "name": "Closed Guard Bottom"
+        "url": "https://bjjgraph.com/positions/closed-guard-bottom"
+        "description": "Fundamental guard with legs locked around opponent's waist"
+
+      - "@type": "ListItem"
+        "position": 2
+        "name": "Open Guard Bottom"
+        "url": "https://bjjgraph.com/positions/open-guard-bottom"
+        "description": "Guard with legs not locked, using hooks and grips for control"
+
+      - "@type": "ListItem"
+        "position": 3
+        "name": "Half Guard Bottom"
+        "url": "https://bjjgraph.com/positions/half-guard-bottom"
+        "description": "Defensive guard with one leg trapped between yours"
+
+      # Continue for remaining variations...
+```
+
+**When NOT to Use ItemList**:
+- Individual position pages (not aggregating variations)
+- Fewer than 5 items in the list
+- Items are transitions/techniques rather than position variations (use HowTo instead)
+- Hub pages already have ItemList (avoid duplication)
+
+**Position-Specific ItemList Guidelines**:
+- **Guard Positions**: List variations when family has 5+ distinct types
+- **Top Positions**: List submission chains or control progressions if systematic
+- **Individual Positions**: Generally don't use ItemList unless listing variations within that specific position
 
 ---
 

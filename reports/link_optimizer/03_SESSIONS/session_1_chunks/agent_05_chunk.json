@@ -1,0 +1,267 @@
+{
+  "session": 1,
+  "agent": 5,
+  "total_agents": 10,
+  "fixes": [
+    {
+      "source_file": "Butterfly Half Guard",
+      "target_link": "Butterfly Half to X-Guard",
+      "line_number": null,
+      "suggested_fix": "butterfly half guard",
+      "confidence": 88.88888888888889
+    },
+    {
+      "source_file": "Butterfly Half Guard",
+      "target_link": "Butterfly Half Sweep",
+      "line_number": null,
+      "suggested_fix": "butterfly sweep",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Butterfly Half Guard",
+      "target_link": "Butterfly Half Sweep",
+      "line_number": null,
+      "suggested_fix": "butterfly sweep",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Butterfly Hook Control",
+      "target_link": "Standing Guard Break",
+      "line_number": null,
+      "suggested_fix": "standing guard",
+      "confidence": 82.35294117647058
+    },
+    {
+      "source_file": "Butterfly Hook Control",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Butterfly Hook Control",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Butterfly Hook Control",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Butterfly Hook Control",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Butterfly Hook Control",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Butterfly Hook Control",
+      "target_link": "Submission Chain",
+      "line_number": null,
+      "suggested_fix": "submission chains",
+      "confidence": 96.96969696969697
+    },
+    {
+      "source_file": "Butterfly Hook Control",
+      "target_link": "Submission Chain",
+      "line_number": null,
+      "suggested_fix": "submission chains",
+      "confidence": 96.96969696969697
+    },
+    {
+      "source_file": "Butterfly Hook Control",
+      "target_link": "Submission Chain",
+      "line_number": null,
+      "suggested_fix": "submission chains",
+      "confidence": 96.96969696969697
+    },
+    {
+      "source_file": "Butterfly Sweep",
+      "target_link": "Posture Maintenance",
+      "line_number": null,
+      "suggested_fix": "base maintenance",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Butterfly Sweep",
+      "target_link": "Hook Defense",
+      "line_number": null,
+      "suggested_fix": "underhook defense",
+      "confidence": 82.75862068965517
+    },
+    {
+      "source_file": "Butterfly Sweep",
+      "target_link": "Double Butterfly Sweep",
+      "line_number": null,
+      "suggested_fix": "butterfly sweep",
+      "confidence": 81.08108108108108
+    },
+    {
+      "source_file": "Butterfly Sweep",
+      "target_link": "Butterfly Hook Insertion",
+      "line_number": null,
+      "suggested_fix": "butterfly hook retention",
+      "confidence": 83.33333333333334
+    },
+    {
+      "source_file": "Butterfly Sweep",
+      "target_link": "Transition to Back",
+      "line_number": null,
+      "suggested_fix": "transition to truck",
+      "confidence": 86.48648648648648
+    },
+    {
+      "source_file": "Butterfly Sweep",
+      "target_link": "Near Side Armbar",
+      "line_number": null,
+      "suggested_fix": "far side armbar",
+      "confidence": 90.32258064516128
+    },
+    {
+      "source_file": "Calf Slicer",
+      "target_link": "Resulting Position",
+      "line_number": null,
+      "suggested_fix": "standing position",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Calf Slicer",
+      "target_link": "Transition to Twister",
+      "line_number": null,
+      "suggested_fix": "transition to truck",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Closed Guard Bottom",
+      "target_link": "Standing in Guard",
+      "line_number": null,
+      "suggested_fix": "standing guard",
+      "confidence": 90.32258064516128
+    },
+    {
+      "source_file": "Closed Guard Bottom",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Closed Guard Bottom",
+      "target_link": "Triangle Choke",
+      "line_number": null,
+      "suggested_fix": "triangle choke side",
+      "confidence": 84.84848484848484
+    },
+    {
+      "source_file": "Closed Guard Bottom",
+      "target_link": "Re-guard",
+      "line_number": null,
+      "suggested_fix": "x-guard",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Closed Guard Bottom",
+      "target_link": "Submission Chain",
+      "line_number": null,
+      "suggested_fix": "submission chains",
+      "confidence": 96.96969696969697
+    },
+    {
+      "source_file": "Closed Guard Bottom",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Closed Guard Bottom",
+      "target_link": "Triangle Choke",
+      "line_number": null,
+      "suggested_fix": "triangle choke side",
+      "confidence": 84.84848484848484
+    },
+    {
+      "source_file": "Closed Guard Bottom",
+      "target_link": "Triangle Choke",
+      "line_number": null,
+      "suggested_fix": "triangle choke side",
+      "confidence": 84.84848484848484
+    },
+    {
+      "source_file": "Closed Guard Bottom",
+      "target_link": "Triangle Choke",
+      "line_number": null,
+      "suggested_fix": "triangle choke side",
+      "confidence": 84.84848484848484
+    },
+    {
+      "source_file": "Closed Guard Bottom",
+      "target_link": "Submission Chain",
+      "line_number": null,
+      "suggested_fix": "submission chains",
+      "confidence": 96.96969696969697
+    },
+    {
+      "source_file": "Closed Guard Bottom-V2",
+      "target_link": "Standing in Guard",
+      "line_number": null,
+      "suggested_fix": "standing guard",
+      "confidence": 90.32258064516128
+    },
+    {
+      "source_file": "Closed Guard Bottom-V2",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Closed Guard Bottom-V2",
+      "target_link": "Triangle Choke",
+      "line_number": null,
+      "suggested_fix": "triangle choke side",
+      "confidence": 84.84848484848484
+    },
+    {
+      "source_file": "Closed Guard Bottom-V2",
+      "target_link": "Re-guard",
+      "line_number": null,
+      "suggested_fix": "x-guard",
+      "confidence": 80.0
+    },
+    {
+      "source_file": "Closed Guard Bottom-V2",
+      "target_link": "Submission Chain",
+      "line_number": null,
+      "suggested_fix": "submission chains",
+      "confidence": 96.96969696969697
+    },
+    {
+      "source_file": "Closed Guard Bottom-V2",
+      "target_link": "Side Control Top",
+      "line_number": null,
+      "suggested_fix": "side control",
+      "confidence": 85.71428571428571
+    },
+    {
+      "source_file": "Closed Guard Bottom-V2",
+      "target_link": "Triangle Choke",
+      "line_number": null,
+      "suggested_fix": "triangle choke side",
+      "confidence": 84.84848484848484
+    }
+  ],
+  "fix_count": 37
+}

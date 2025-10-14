@@ -5,7 +5,7 @@ transition_id: "T250"
 transition_name: "Standing up in Base"
 alternative_names: ["Base Stand-up", "Turtle Stand", "Defensive Stand-up from Base"]
 starting_state: "Turtle Position"
-ending_state: "Standing Position"
+ending_state: "Standing Position, Top Position"
 transition_type: "Escape"
 success_probability:
   beginner: 55
