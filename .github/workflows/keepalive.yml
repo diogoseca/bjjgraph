@@ -1,0 +1,56 @@
+name: Repository Keepalive
+
+# This workflow prevents GitHub from auto-disabling scheduled workflows
+# due to repository inactivity (60-day threshold)
+# It runs weekly and creates minimal activity to keep workflows enabled
+
+on:
+  schedule:
+    # Run every Sunday at 1:00 AM UTC
+    - cron: '0 1 * * 0'
+  workflow_dispatch:
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      
+      - name: Keep repository active
+        run: |
+          # Get current date for the keepalive file
+          echo "Last keepalive: $(date -u)" > .github/keepalive.txt
+          echo "This file prevents workflow auto-disable due to inactivity" >> .github/keepalive.txt
+          
+          # Configure git
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          
+          # Check if there are changes
+          if git diff --quiet .github/keepalive.txt; then
+            echo "No changes needed - repository is already active"
+          else
+            # Commit and push the keepalive file
+            git add .github/keepalive.txt
+            git commit -m "chore: keepalive to prevent workflow auto-disable [skip ci]"
+            git push
+            echo "✓ Keepalive committed successfully"
+          fi
+      
+      - name: Summary
+        run: |
+          echo "================================================"
+          echo "Repository Keepalive Complete"
+          echo "================================================"
+          echo ""
+          echo "This keepalive prevents GitHub from disabling"
+          echo "scheduled workflows after 60 days of inactivity."
+          echo ""
+          echo "Next run: One week from now"
+          echo "================================================"
