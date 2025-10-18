@@ -153,10 +153,10 @@ The bot will automatically:
 - `CLAUDE.md` - Project overview and content standards
 - `source/content/CONTRIBUTING-*.md` - Content type standards
 - `docs/seo-strategy.md` - Overall SEO strategy
-- `docs/seo-implementation-complete.md` - Current SEO status
+- `docs/seo/seo-implementation-report.md` - Current SEO status
 
 ---
 
 **Created**: October 18, 2025  
 **Author**: GitHub Copilot  
-**Issue**: #[issue_number] - improve content improvement bot
+**Purpose**: Improve content improvement bot with AI search optimization
