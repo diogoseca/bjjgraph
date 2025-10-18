@@ -26,15 +26,31 @@ fi
 # Exclude CONTRIBUTING-*.md files and index.md
 echo "Finding 100 oldest content files..." >&2
 
-OLDEST_100=$(find "$CONTENT_DIR" -name "*.md" \
-    ! -name "CONTRIBUTING-*.md" \
-    ! -name "index.md" \
-    ! -name "000.STANDARD.md" \
-    -type f \
-    -exec stat -f "%m %N" {} \; 2>/dev/null | \
-    sort -n | \
-    head -n 100 | \
-    cut -d' ' -f2-)
+# Use portable stat command that works on both Linux (GNU) and macOS (BSD)
+# Linux uses -c, BSD uses -f
+if stat -c "%Y" /dev/null >/dev/null 2>&1; then
+    # GNU stat (Linux) - use null-terminated output for filenames with spaces
+    OLDEST_100=$(find "$CONTENT_DIR" -name "*.md" \
+        ! -name "CONTRIBUTING-*.md" \
+        ! -name "index.md" \
+        ! -name "000.STANDARD.md" \
+        -type f -print0 | \
+        xargs -0 stat -c "%Y %n" 2>/dev/null | \
+        sort -n | \
+        head -n 100 | \
+        cut -d' ' -f2-)
+else
+    # BSD stat (macOS)
+    OLDEST_100=$(find "$CONTENT_DIR" -name "*.md" \
+        ! -name "CONTRIBUTING-*.md" \
+        ! -name "index.md" \
+        ! -name "000.STANDARD.md" \
+        -type f -print0 | \
+        xargs -0 stat -f "%m %N" 2>/dev/null | \
+        sort -n | \
+        head -n 100 | \
+        cut -d' ' -f2-)
+fi
 
 # Check if we found any files
 if [ -z "$OLDEST_100" ]; then
