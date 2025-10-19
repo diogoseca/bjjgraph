@@ -15,6 +15,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "posthog",
       apiKey: process.env.POSTHOG_API_KEY || "",
+      host: process.env.POSTHOG_API_HOST,
     },
     locale: "en-US",
     baseUrl: "bjjgraph.org",

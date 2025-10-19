@@ -124,7 +124,13 @@ The following secrets must be configured in GitHub repository settings (Settings
    - Used to track page views and user interactions
    - The site will build without this, but analytics won't work
 
-2. **`INDEXNOW_KEY`** (Optional for SEO)
+2. **`POSTHOG_API_HOST`** (Optional for analytics)
+   - Your PostHog instance host URL (e.g., `https://us.i.posthog.com`)
+   - Only needed if you're using a specific PostHog region or self-hosted instance
+   - Defaults to `https://app.posthog.com` if not set
+   - Common values: `https://us.i.posthog.com`, `https://eu.i.posthog.com`
+
+3. **`INDEXNOW_KEY`** (Optional for SEO)
    - IndexNow key for instant search engine notifications
    - Improves indexing speed for search engines
    - Not required for site functionality

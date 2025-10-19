@@ -44,6 +44,7 @@ jobs:
     env:
       INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
       POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
+      POSTHOG_API_HOST: ${{ secrets.POSTHOG_API_HOST }}
     permissions:
       contents: read
       pages: write

@@ -24,16 +24,27 @@ This guide walks through setting up PostHog analytics for BJJ Graph.
 2. Navigate to Project Settings
 3. Copy your Project API Key
 
-## Step 2: Add API Key to GitHub Secrets
+## Step 2: Add API Key and Host to GitHub Secrets
 
 1. Go to the BJJ Graph repository: https://github.com/diogoseca/bjjgraph
 2. Click on **Settings** (top navigation)
 3. In the left sidebar, click **Secrets and variables** → **Actions**
+
+### Add POSTHOG_API_KEY:
 4. Click **New repository secret**
 5. Enter the following:
    - **Name:** `POSTHOG_API_KEY`
-   - **Secret:** Paste your PostHog API key (the one you copied in Step 1)
+   - **Secret:** Paste your PostHog API key (starts with `phc_`)
 6. Click **Add secret**
+
+### Add POSTHOG_API_HOST (Optional but Recommended):
+7. Click **New repository secret** again
+8. Enter the following:
+   - **Name:** `POSTHOG_API_HOST`
+   - **Secret:** Paste your PostHog host URL (e.g., `https://us.i.posthog.com`)
+9. Click **Add secret**
+
+**Note:** If you don't add `POSTHOG_API_HOST`, it will default to `https://app.posthog.com`. However, if you're using a regional instance (US or EU), you should add this secret with the correct host URL.
 
 ## Step 3: Verify Setup
 
