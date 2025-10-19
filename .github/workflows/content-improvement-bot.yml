@@ -152,7 +152,6 @@ jobs:
                ```yaml
                bot_metadata:
                  last_improved: "2025-10-19"
-                 bot_run: "content-improvement"
                ```
                Use today's date in YYYY-MM-DD format. This MUST be done even if no other changes were made.
             7. **Validate Quality** - Ensure all improvements meet V2 standards and are production-ready

@@ -108,7 +108,6 @@ bot_metadata:
   last_improved: "2025-10-19"        # Date last processed by content improvement bot
   last_validated: "2025-10-19"       # Date last validated by monthly validation bot
   validation_status: "passed"        # passed | fixed
-  bot_run: "content-improvement"     # Which bot last touched this file
 ---
 ```
 
@@ -121,7 +120,8 @@ bot_metadata:
 | `last_improved` | string | ISO date when Content Improvement Bot last processed this file | `"2025-10-19"` |
 | `last_validated` | string | ISO date when Monthly Validation Bot last checked this file | `"2025-10-19"` |
 | `validation_status` | string | Validation result: "passed" (no issues) or "fixed" (issues corrected) | `"passed"` |
-| `bot_run` | string | Which bot last updated this metadata | `"content-improvement"` or `"monthly-validation"` |
+
+**Note**: Which bot last touched the file can be determined by comparing dates - whichever date is more recent indicates which bot ran last.
 
 ### Usage Notes
 
@@ -141,9 +141,10 @@ bot_metadata:
   last_improved: "2025-10-15"
   last_validated: "2025-10-19"
   validation_status: "passed"
-  bot_run: "monthly-validation"
 ---
 ```
+
+In this example, the monthly validation bot ran last (2025-10-19 is more recent than 2025-10-15).
 
 ---
 

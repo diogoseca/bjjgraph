@@ -137,7 +137,6 @@ jobs:
                  bot_metadata:
                    last_validated: "2025-10-19"
                    validation_status: "passed"
-                   bot_run: "monthly-validation"
                  ```
                - Use today's date in YYYY-MM-DD format
                - Set `validation_status` to "passed" if no errors, or "fixed" if you made corrections
