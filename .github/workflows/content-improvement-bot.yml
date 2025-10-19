@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       num_files:
-        description: 'Number of files to improve (default: 10)'
+        description: 'Number of files to improve (default: 2)'
         required: false
-        default: '10'
+        default: '2'
 
 jobs:
   improve-content:
@@ -32,8 +32,8 @@ jobs:
         id: select_files
         run: |
           chmod +x ./scripts/select_oldest_files.sh
-          # Run script with custom number of files (default 10)
-          NUM_FILES=${{ github.event.inputs.num_files || '10' }}
+          # Run script with custom number of files (default 2)
+          NUM_FILES=${{ github.event.inputs.num_files || '2' }}
           echo "Selecting $NUM_FILES files from the 100 oldest..."
 
           # Get the files and save to environment
@@ -148,7 +148,14 @@ jobs:
             3. **Consult Standards** - Reference appropriate CONTRIBUTING guide for that content type
             4. **Optimize for AI Search** - Apply Microsoft's principles: clear headings, short sections, direct language
             5. **Execute Improvements** - Apply fixes in priority order (HIGH → MEDIUM → STANDARD)
-            6. **Validate Quality** - Ensure all improvements meet V2 standards and are production-ready
+            6. **Update Bot Metadata** - For EVERY file processed, add/update this in YAML frontmatter:
+               ```yaml
+               bot_metadata:
+                 last_improved: "2025-10-19"
+                 bot_run: "content-improvement"
+               ```
+               Use today's date in YYYY-MM-DD format. This MUST be done even if no other changes were made.
+            7. **Validate Quality** - Ensure all improvements meet V2 standards and are production-ready
 
             Remember: You're crafting production-ready, AI-optimized content that serves both human learners and AI search engines. Every improvement should reflect technical depth, student safety, and clarity for AI parsing. No development artifacts should remain in published content.
 

@@ -93,6 +93,60 @@ description: "Master Closed Guard Bottom in BJJ. Complete guide covering setup, 
 
 ---
 
+## Optional: Bot Metadata (All Content Types)
+
+### Purpose
+Bot metadata tracks automated processing of content files by the content improvement and validation bots. This field is automatically managed by automation bots and prevents the "infinite loop" bug where files with no content changes never rotate out of the oldest files pool.
+
+### YAML Structure
+
+```yaml
+---
+title: "Page Title | BJJ Graph"
+description: "Page description"
+bot_metadata:
+  last_improved: "2025-10-19"        # Date last processed by content improvement bot
+  last_validated: "2025-10-19"       # Date last validated by monthly validation bot
+  validation_status: "passed"        # passed | fixed
+  bot_run: "content-improvement"     # Which bot last touched this file
+---
+```
+
+### Field Definitions
+
+#### Optional Fields (Auto-generated)
+
+| Field | Type | Description | Example |
+|-------|------|-------------|---------|
+| `last_improved` | string | ISO date when Content Improvement Bot last processed this file | `"2025-10-19"` |
+| `last_validated` | string | ISO date when Monthly Validation Bot last checked this file | `"2025-10-19"` |
+| `validation_status` | string | Validation result: "passed" (no issues) or "fixed" (issues corrected) | `"passed"` |
+| `bot_run` | string | Which bot last updated this metadata | `"content-improvement"` or `"monthly-validation"` |
+
+### Usage Notes
+
+- **Automatically Managed**: This field is added/updated by automation bots. Manual editing is not required.
+- **Timestamp Updates**: Even if no content changes are made, the bot updates this metadata, which changes the file's modification time.
+- **Rotation Mechanism**: Updated timestamps ensure files naturally rotate out of the "oldest 100" pool after being processed.
+- **Audit Trail**: Provides a record of when each file was last reviewed by automation.
+- **All Content Types**: Applies to Positions, Transitions, Submissions, Concepts, Systems, and Learning articles.
+
+### Complete Example
+
+```yaml
+---
+title: "Mount Position | BJJ Position Guide | BJJ Graph"
+description: "Master Mount position in BJJ. Complete guide covering control, submissions, and transitions."
+bot_metadata:
+  last_improved: "2025-10-15"
+  last_validated: "2025-10-19"
+  validation_status: "passed"
+  bot_run: "monthly-validation"
+---
+```
+
+---
+
 ## Transitions Schema
 
 ### Purpose
