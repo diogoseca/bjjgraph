@@ -43,6 +43,7 @@ jobs:
     needs: build-and-test
     env:
       INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+      POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
     permissions:
       contents: read
       pages: write
