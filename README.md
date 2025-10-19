@@ -21,7 +21,7 @@ Built on [Quartz 4.0](https://quartz.jzhao.xyz/) - a fast, batteries-included st
 - Backlink support
 - Tag-based organization
 - Mobile-responsive design
-- Analytics (Plausible)
+- Analytics (PostHog)
 
 ## Local Development
 
@@ -113,6 +113,27 @@ If opponent establishes strong posture:
 Auto-deploys to [bjjgraph.org](https://bjjgraph.org) via GitHub Actions when pushing to main branch.
 
 See `.github/workflows/` for deployment configuration.
+
+### Required GitHub Secrets
+
+The following secrets must be configured in GitHub repository settings (Settings → Secrets and variables → Actions):
+
+1. **`POSTHOG_API_KEY`** (Required for analytics)
+   - Your PostHog project API key
+   - Found in PostHog project settings
+   - Used to track page views and user interactions
+   - The site will build without this, but analytics won't work
+
+2. **`INDEXNOW_KEY`** (Optional for SEO)
+   - IndexNow key for instant search engine notifications
+   - Improves indexing speed for search engines
+   - Not required for site functionality
+
+To add a secret:
+1. Go to repository Settings
+2. Navigate to Secrets and variables → Actions
+3. Click "New repository secret"
+4. Add secret name and value
 
 ## Raw HTML Support
 

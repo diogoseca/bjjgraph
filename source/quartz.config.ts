@@ -13,7 +13,8 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "posthog",
+      apiKey: process.env.POSTHOG_API_KEY || "",
     },
     locale: "en-US",
     baseUrl: "bjjgraph.org",
