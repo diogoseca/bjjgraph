@@ -77,7 +77,7 @@ source/content/
 ├── Systems/             # Integrated systems and strategies (21+ files)
 │   ├── CONTRIBUTING-SYSTEMS.md  # Systems contributor guide
 │   └── ...
-└── Pedagogy/            # Learning methodology
+└── Learning/            # Learning methodology
 ```
 
 ### Contributor Guide Files
