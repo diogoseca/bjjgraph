@@ -9,7 +9,7 @@ Quartz-based static site generator hosting the complete BJJ knowledge graph. Thi
 - **50+ Submissions**: Terminal states and finishing techniques
 - **Expert Systems**: Systematic approaches from Danaher, Gordon Ryan, Eddie Bravo
 - **Concepts**: Fundamental BJJ principles (base, frames, leverage)
-- **Pedagogy**: Learning theory and skill progression frameworks
+- **Learning**: Learning theory and skill progression frameworks
 
 ## Technology
 
@@ -56,7 +56,7 @@ content/
 ├── Submissions/        # 50+ submissions
 ├── Systems/           # Expert systematic approaches
 ├── Concepts/          # Fundamental principles
-└── Pedagogy/          # Learning frameworks
+└── Learning/          # Learning frameworks
 ```
 
 ### Content Standards
