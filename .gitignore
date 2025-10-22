@@ -33,6 +33,11 @@ yarn-error.log*
 tmp/
 temp/
 
+# Workflow temporary outputs (DO NOT COMMIT)
+paa_output/
+output.txt
+**/output.txt
+
 # Package manager lock files (optional - uncomment if needed)
 # package-lock.json
 # yarn.lock
