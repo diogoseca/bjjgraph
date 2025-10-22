@@ -237,11 +237,14 @@ jobs:
           echo "**Run ID**: ${{ github.run_id }}" >> /tmp/pr-body.md
           echo "**Triggered**: $(date -u '+%Y-%m-%dT%H:%M:%SZ')" >> /tmp/pr-body.md
           
-          # Create the PR using GitHub CLI
-          gh pr create \
+          # Create the PR using GitHub CLI (without labels to ensure it always succeeds)
+          PR_URL=$(gh pr create \
             --title "Automated content improvements ($(date +%Y-%m-%d))" \
             --body-file /tmp/pr-body.md \
             --base main \
-            --head "$BRANCH_NAME" \
-            --label "automated" \
-            --label "content-improvement"
+            --head "$BRANCH_NAME")
+
+          echo "Created PR: $PR_URL"
+
+          # Try to add labels (optional - won't fail if labels don't exist)
+          gh pr edit "$BRANCH_NAME" --add-label "automated" --add-label "content-improvement" || echo "Labels not found, skipping label addition"
