@@ -1,0 +1,110 @@
+@use "../../styles/variables.scss" as *;
+
+.development-banner {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 900;
+  background-color: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 0.75rem 1rem;
+  max-width: 400px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  @media all and ($mobile) {
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    max-width: none;
+  }
+
+  .banner-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+
+    @media all and ($mobile) {
+      gap: 0.5rem;
+    }
+  }
+
+  .banner-text {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: $semiBoldWeight;
+    color: var(--darkgray);
+
+    .banner-emoji {
+      font-size: 1.1rem;
+      line-height: 1;
+    }
+
+    .banner-message {
+      white-space: nowrap;
+    }
+
+    @media all and ($mobile) {
+      font-size: 0.85rem;
+      justify-content: center;
+    }
+  }
+
+  .banner-actions {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+
+    @media all and ($mobile) {
+      justify-content: center;
+    }
+  }
+
+  .banner-button {
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: $semiBoldWeight;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    border: 1px solid;
+
+    &.bug {
+      background-color: var(--light);
+      color: #d73a4a;
+      border-color: #d73a4a;
+
+      &:hover {
+        background-color: #d73a4a;
+        color: white;
+      }
+    }
+
+    &.enhancement {
+      background-color: var(--secondary);
+      color: white;
+      border-color: var(--secondary);
+
+      &:hover {
+        background-color: var(--tertiary);
+        border-color: var(--tertiary);
+      }
+    }
+
+    @media all and ($mobile) {
+      font-size: 0.75rem;
+      padding: 0.35rem 0.7rem;
+      flex: 1;
+      text-align: center;
+    }
+  }
+}
