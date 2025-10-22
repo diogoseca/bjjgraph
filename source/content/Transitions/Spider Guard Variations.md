@@ -11,51 +11,68 @@ description: "Learn Spider Guard Variations in BJJ. Multiple setups and attacks 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Spider Guard Variations",
-  "description": "Learn how to execute Spider Guard Variations in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute Spider Guard Variations in Brazilian Jiu-Jitsu. Success: Beginner 40%, Intermediate 55%, Advanced 70%.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Spider Guard Grips",
-      "text": "From open guard, establish spider guard with both feet on opponent's biceps and sleeve grips",
+      "name": "Setup Requirements",
+      "text": "Establish fundamental spider guard with sleeve grips and feet on biceps",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "One Leg Spider Configuration",
-      "text": "Transition to one leg spider with one foot on bicep, other leg positioned for sweep or triangle",
+      "name": "Initial Configuration",
+      "text": "Begin with double spider guard to assess opponent's reactions and posture",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Spider Guard with Lasso",
-      "text": "Combine spider guard with lasso control on one side for enhanced control",
+      "name": "Opponent Assessment",
+      "text": "Read opponent's base, posture, and grip fighting to determine best variation",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Collar and Spider Combination",
-      "text": "Use collar grip with one hand while maintaining spider control with legs",
+      "name": "Variation Selection",
+      "text": "Choose appropriate spider variation based on opponent's position and weaknesses",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Attack or Sweep",
-      "text": "From variation, execute appropriate sweep, triangle, or transition based on opponent's reaction",
+      "name": "Execution",
+      "text": "Implement selected variation with proper grips, leg positioning, and off-balancing",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Recover or Transition",
-      "text": "If attack defended, flow to different spider variation or guard system",
+      "name": "Consolidation",
+      "text": "Complete the attack (sweep, submission) or flow to next variation if defended",
       "position": 6
     }
   ],
   "tool": [
-    "BJJ Gi",
+    "BJJ Gi or No-Gi attire",
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT8M"
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Spider Guard Variations",
+  "description": "Learn Spider Guard Variations in BJJ. Multiple setups and attacks from Spider Guard. Success: Beginner 40%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Spider-Guard-Variations",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -67,38 +84,24 @@ description: "Learn Spider Guard Variations in BJJ. Multiple setups and attacks 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Spider Guard Variations",
-      "item": "https://bjjgraph.com/transitions/spider-guard-variations"
+      "item": "https://bjjgraph.org/Transitions/Spider-Guard-Variations"
     }
   ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Spider Guard Variations",
-  "description": "Learn Spider Guard Variations in BJJ. Multiple setups and attacks from Spider Guard. Success: Beginner 40%, Intermediate 55%, Advanced 70%.",
-  "url": "https://bjjgraph.com/transitions/spider-guard-variations",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Spider Guard Variations
 #bjj #transition #guard #spider #variations

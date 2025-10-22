@@ -44,6 +44,50 @@ application_contexts:
 tags: [bjj, concept, fundamental, crossface, control, head]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Cross Face Control",
+  "description": "Cross Face Control represents the tactical application of arm and shoulder pressure across opponent's face and neck to control head positioning, restrict rotation toward escape directions, and esta...",
+  "url": "https://bjjgraph.org/Concepts/Cross-Face-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Cross Face Control",
+      "item": "https://bjjgraph.org/Concepts/Cross-Face-Control"
+    }
+  ]
+}
+</script>
+
+
 # Cross Face Control
 #bjj #concept #fundamental #crossface #control
 

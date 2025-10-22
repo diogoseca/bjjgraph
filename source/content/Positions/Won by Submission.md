@@ -63,16 +63,14 @@ description: "Master Won by Submission in BJJ. Complete guide covering setup, co
   "@type": "WebPage",
   "name": "Won by Submission",
   "description": "Master Won by Submission in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
-  "url": "https://bjjgraph.com/positions/won-by-submission",
+  "url": "https://bjjgraph.org/Positions/Won-by-Submission",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,19 +80,19 @@ description: "Master Won by Submission in BJJ. Complete guide covering setup, co
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Won by Submission",
-      "item": "https://bjjgraph.com/positions/won-by-submission"
+      "item": "https://bjjgraph.org/Positions/Won-by-Submission"
     }
   ]
 }

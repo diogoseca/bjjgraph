@@ -48,6 +48,50 @@ application_contexts:
 tags: [bjj, concept, fundamental, defense, submission, survival]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Submission Defense Concepts",
+  "description": "Submission Defense Concepts represents the comprehensive defensive framework for preventing, escaping, and surviving submission attempts across all submission categories. Unlike specific submission...",
+  "url": "https://bjjgraph.org/Concepts/Submission-Defense-Concepts",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Submission Defense Concepts",
+      "item": "https://bjjgraph.org/Concepts/Submission-Defense-Concepts"
+    }
+  ]
+}
+</script>
+
+
 # Submission Defense Concepts
 #bjj #concept #fundamental #defense #submission
 

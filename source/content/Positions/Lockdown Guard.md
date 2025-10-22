@@ -21,8 +21,8 @@ description: "Master Lockdown Guard in BJJ. Complete guide covering setup, contr
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Entry",
-      "text": "From this position, execute Electric Chair Entry to transition to Electric Chair.",
+      "name": "Execute electric chair",
+      "text": "From this position, execute electric chair to transition to Electric Chair.",
       "position": 2
     },
     {
@@ -34,7 +34,7 @@ description: "Master Lockdown Guard in BJJ. Complete guide covering setup, contr
     {
       "@type": "HowToStep",
       "name": "Execute Dogfight Setup",
-      "text": "From this position, execute Dogfight Setup to transition to Dogfight Position.",
+      "text": "From this position, execute Dogfight Setup to transition to dogfight position.",
       "position": 4
     },
     {
@@ -58,6 +58,72 @@ description: "Master Lockdown Guard in BJJ. Complete guide covering setup, contr
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Insufficient tension application?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reduced control effectiveness"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor upper body framing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to flattening"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Crossing feet instead of figure-four?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Technical inefficiency"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Static positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Missed offensive opportunities"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Overcommitment to the position?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Energy depletion"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lockdown Guard",
+  "description": "Master Lockdown Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%.",
+  "url": "https://bjjgraph.org/Positions/Lockdown-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Lockdown Guard in BJJ. Complete guide covering setup, contr
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Lockdown Guard",
-      "item": "https://bjjgraph.com/positions/lockdown-guard"
+      "item": "https://bjjgraph.org/Positions/Lockdown-Guard"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Lockdown Guard",
-  "description": "Master Lockdown Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%.",
-  "url": "https://bjjgraph.com/positions/lockdown-guard",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Lockdown Guard
 #bjj #state #halfguard #10thplanet #control
@@ -185,7 +235,6 @@ The Lockdown Guard is a specialized half guard control mechanism developed and p
 - [[Deep Half Guard]] - Connected half guard variant
 - [[Butterfly Half Guard]] - Related half guard configuration
 - [[Dogfight Position]] - Potential transition position
-
 
 ## Related Positions
 

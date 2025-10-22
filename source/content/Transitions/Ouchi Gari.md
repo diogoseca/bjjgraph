@@ -11,7 +11,7 @@ description: "Learn Ouchi Gari in BJJ. Step-by-step execution. Success: Beginner
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Ouchi Gari",
-  "description": "Learn how to execute Ouchi Gari in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute Ouchi Gari in Brazilian Jiu-Jitsu from Standing Position to Top Position. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -73,7 +73,24 @@ description: "Learn Ouchi Gari in BJJ. Step-by-step execution. Success: Beginner
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT5M"
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ouchi Gari",
+  "description": "Learn Ouchi Gari in BJJ. Step-by-step execution. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Ouchi-Gari",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -85,39 +102,24 @@ description: "Learn Ouchi Gari in BJJ. Step-by-step execution. Success: Beginner
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Ouchi Gari",
-      "item": "https://bjjgraph.com/transitions/ouchi-gari"
+      "item": "https://bjjgraph.org/Transitions/Ouchi-Gari"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Ouchi Gari",
-  "description": "Learn Ouchi Gari in BJJ. Step-by-step execution. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
-  "url": "https://bjjgraph.com/transitions/ouchi-gari",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Ouchi Gari
 #bjj #transition #takedown #judo #fundamental
@@ -348,7 +350,6 @@ Updates to this standard should be reflected across all transition files to main
 
 - [[High Crotch]] - Related technique
 - [[Osoto Gari]] - Related technique
-
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as takedown (2 points)

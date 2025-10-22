@@ -3,6 +3,7 @@ title: "Rear Naked Choke Pathway | BJJ Submission Guide | BJJ Graph"
 description: "The Rear Naked Choke (RNC) Pathway represents the most statistically dominant submission chain in Brazilian Jiu-Jitsu, built around what many consider the most high-percentage submission in the art..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "The Rear Naked Choke (RNC) Pathway represents the most statistical
   "@type": "WebPage",
   "name": "Rear Naked Choke Pathway",
   "description": "The Rear Naked Choke (RNC) Pathway represents the most statistically dominant submission chain in Brazilian Jiu-Jitsu, built around what many consider the most high-percentage submission in the art...",
-  "url": "https://bjjgraph.com/submissions/rear-naked-choke-pathway",
+  "url": "https://bjjgraph.org/Submissions/Rear-Naked-Choke-Pathway",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "The Rear Naked Choke (RNC) Pathway represents the most statistical
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Rear Naked Choke Pathway",
-      "item": "https://bjjgraph.com/submissions/rear-naked-choke-pathway"
+      "item": "https://bjjgraph.org/Submissions/Rear-Naked-Choke-Pathway"
     }
   ]
 }
 </script>
+
 
 # Rear Naked Choke Pathway
 #bjj #submission #chain #back_attack #choke #rnc

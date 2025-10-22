@@ -45,6 +45,50 @@ application_contexts:
 tags: [bjj, concept, escape, defense, armbar, submission-defense, fundamental]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Armbar Escape",
+  "description": "Armbar Escape represents the systematic approach to preventing, defending against, and escaping from the armbar submission, one of the most fundamental and high-percentage finishing techniques in B...",
+  "url": "https://bjjgraph.org/Concepts/Armbar-Escape",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Armbar Escape",
+      "item": "https://bjjgraph.org/Concepts/Armbar-Escape"
+    }
+  ]
+}
+</script>
+
+
 # Armbar Escape
 #bjj #concept #escape #defense #submission-defense
 

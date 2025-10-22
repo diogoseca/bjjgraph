@@ -11,7 +11,7 @@ description: "Learn Waiter Sweep in BJJ. Step-by-step execution from Closed Guar
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Waiter Sweep",
-  "description": "Learn how to execute Waiter Sweep in Brazilian Jiu-Jitsu from Closed Guard Bottom to Mount.",
+  "description": "Learn how to execute Waiter Sweep in Brazilian Jiu-Jitsu from Closed Guard Bottom to Mount. Success: Beginner 40%, Intermediate 65%, Advanced 80%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -58,6 +58,23 @@ description: "Learn Waiter Sweep in BJJ. Step-by-step execution from Closed Guar
   "totalTime": "PT5M"
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Waiter Sweep",
+  "description": "Learn Waiter Sweep in BJJ. Step-by-step execution from Closed Guard Bottom to Mount. Success: Beginner 40%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Transitions/Waiter-Sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,39 +84,24 @@ description: "Learn Waiter Sweep in BJJ. Step-by-step execution from Closed Guar
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Waiter Sweep",
-      "item": "https://bjjgraph.com/transitions/waiter-sweep"
+      "item": "https://bjjgraph.org/Transitions/Waiter-Sweep"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Waiter Sweep",
-  "description": "Learn Waiter Sweep in BJJ. Step-by-step execution from Closed Guard Bottom to Mount. Success: Beginner 40%, Intermediate 65%, Advanced 80%.",
-  "url": "https://bjjgraph.com/transitions/waiter-sweep",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Waiter Sweep
 #bjj #transition #sweep #closed_guard #fundamental
@@ -325,7 +327,6 @@ Updates to this standard should be reflected across all transition files to main
 - [[Hip Bump Sweep]] - Related technique
 - [[Scissor Sweep]] - Related technique
 - [[Balloon Sweep]] - Related technique
-
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points)

@@ -46,6 +46,50 @@ application_contexts:
 tags: [bjj, concept, intermediate, escapes, hierarchy, defense]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Escape Hierarchy",
+  "description": "Escape Hierarchy represents the systematic framework for prioritizing and selecting escape techniques based on positional danger, energy efficiency, success probability, and tactical objectives. Un...",
+  "url": "https://bjjgraph.org/Concepts/Escape-Hierarchy",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Escape Hierarchy",
+      "item": "https://bjjgraph.org/Concepts/Escape-Hierarchy"
+    }
+  ]
+}
+</script>
+
+
 # Escape Hierarchy
 #bjj #concept #intermediate #escapes #hierarchy
 

@@ -37,6 +37,106 @@ related_positions: ["Closed Guard Bottom", "Triangle Control", "High Guard"]
 related_techniques: ["Armbar Setup", "Omoplata Setup", "Guillotine Setup", "Triangle Choke"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Triangle Setup",
+  "description": "Learn how to execute Triangle Setup in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish posture control in closed guard, breaking opponent's upright position",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Arm Isolation",
+      "text": "Control one arm and pull it across your centerline, creating separation from their body",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Leg Positioning",
+      "text": "Bring opposite leg up and over their shoulder on controlled arm side",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Triangle Configuration",
+      "text": "Position shin across back of neck, bring other leg up",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Lock Creation",
+      "text": "Place ankle behind knee to create triangle lock around neck and arm",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Angle Adjustment",
+      "text": "Angle hips to create proper compression, position trapped arm across their neck",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle Setup",
+  "description": "Learn Triangle Setup in BJJ. Step-by-step execution from Closed Guard Bottom to Triangle Control. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Triangle-Setup",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Triangle Setup",
+      "item": "https://bjjgraph.org/Transitions/Triangle-Setup"
+    }
+  ]
+}
+</script>
+
+
 # Triangle Setup
 #bjj #transition #setup #triangle #guard #submission
 

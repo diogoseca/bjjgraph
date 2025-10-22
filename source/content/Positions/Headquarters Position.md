@@ -58,6 +58,72 @@ description: "Master Headquarters Position in BJJ. Complete guide covering setup
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor knee control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Guard recovery opportunities"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Excessive forward lean?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to butterfly hooks"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Insufficient base width?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Instability during transitions"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Passive positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Giving opponent time to recover"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Telegraphing pass direction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Predictable pattern"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Headquarters Position",
+  "description": "Master Headquarters Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 80%.",
+  "url": "https://bjjgraph.org/Positions/Headquarters-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Headquarters Position in BJJ. Complete guide covering setup
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Headquarters Position",
-      "item": "https://bjjgraph.com/positions/headquarters-position"
+      "item": "https://bjjgraph.org/Positions/Headquarters-Position"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Headquarters Position",
-  "description": "Master Headquarters Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 80%.",
-  "url": "https://bjjgraph.com/positions/headquarters-position",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Headquarters Position
 #bjj #state #pass #top #control
@@ -185,7 +235,6 @@ The Headquarters Position (HQ) is a fundamental guard passing control position w
 - [[Knee Cut Position]] - Dynamic passing position often entered from HQ
 - [[Leg Drag Position]] - Another passing position commonly accessed from HQ
 - [[Smash Pass Position]] - Pressure-based passing position
-
 
 ## Related Positions
 

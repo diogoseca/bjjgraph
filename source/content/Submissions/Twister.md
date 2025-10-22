@@ -91,6 +91,50 @@ author: "BJJGraph Agent 4"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Twister",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"EXTREMELY SLOW - 5-10 seconds MINIMUM. This attacks the spine. Never explosive. EVER.\"",
+  "url": "https://bjjgraph.org/Submissions/Twister",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Twister",
+      "item": "https://bjjgraph.org/Submissions/Twister"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Twister is a CRITICAL DANGER spinal lock submission from truck position. Banned in most competitions. Can cause permanent injury. ONLY for advanced practitioners with explicit consent and supervision.

@@ -175,33 +175,39 @@ state_machine:
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Body Triangle",
-      "text": "From back control, thread one leg across opponent's torso and lock figure-four triangle around their body.",
+      "name": "Execute Rear Naked Choke",
+      "text": "From this position, execute Rear Naked Choke to transition to Won by Submission.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Secure Upper Body Control",
-      "text": "Maintain seatbelt grip or collar control while body triangle controls lower body.",
+      "name": "Execute Bow and Arrow Choke",
+      "text": "From this position, execute Bow and Arrow Choke to transition to Won by Submission.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rear Naked Choke",
-      "text": "When opponent's chin is exposed, slide arm under chin and secure rear naked choke.",
+      "name": "Execute Armbar from Back",
+      "text": "From this position, execute Armbar from Back to transition to Armbar Control.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Apply Bow and Arrow",
-      "text": "If opponent turns defensively, switch to bow and arrow choke using gi grips.",
+      "name": "Execute Short Choke",
+      "text": "From this position, execute Short Choke to transition to Won by Submission.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Transition to Armbar",
-      "text": "When opponent hand fights, isolate arm and transition to armbar from back.",
+      "name": "Execute Crucifix Transition",
+      "text": "From this position, execute Crucifix Transition to transition to Crucifix Position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Back to Mount Transition",
+      "text": "From this position, execute Back to Mount Transition to transition to Mount.",
+      "position": 6
     }
   ],
   "tool": [
@@ -270,16 +276,14 @@ state_machine:
   "@type": "WebPage",
   "name": "Body Triangle Back Control",
   "description": "Master Body Triangle Back Control in BJJ. Complete guide covering leg triangle control from back position. Success rates: Beginner 60%, Intermediate 75%, Advanced 88%.",
-  "url": "https://bjjgraph.com/positions/body-triangle-back-control",
+  "url": "https://bjjgraph.org/Positions/Body-Triangle-Back-Control",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -289,19 +293,19 @@ state_machine:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Body Triangle Back Control",
-      "item": "https://bjjgraph.com/positions/body-triangle-back-control"
+      "item": "https://bjjgraph.org/Positions/Body-Triangle-Back-Control"
     }
   ]
 }

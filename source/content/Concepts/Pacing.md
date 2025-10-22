@@ -45,6 +45,50 @@ application_contexts:
 tags: [bjj, concept, pacing, energy, tempo, competition, training]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pacing",
+  "description": "Pacing represents the fundamental skill of controlling match tempo and energy expenditure throughout a training session or competition, optimizing the rhythm of technical execution to maximize effe...",
+  "url": "https://bjjgraph.org/Concepts/Pacing",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Pacing",
+      "item": "https://bjjgraph.org/Concepts/Pacing"
+    }
+  ]
+}
+</script>
+
+
 # Pacing
 #bjj #concept #pacing #energy #tempo
 

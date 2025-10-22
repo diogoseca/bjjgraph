@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "No-Gi Tactical Framework",
   "description": "The No-Gi Tactical Framework represents a comprehensive approach to grappling without the gi that addresses the unique technical demands, control paradigms, and strategic considerations of the no-g...",
-  "url": "https://bjjgraph.com/systems/no-gi-tactical-framework",
+  "url": "https://bjjgraph.org/Systems/No-Gi-Tactical-Framework",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Systems",
-      "item": "https://bjjgraph.com/systems/"
+      "item": "https://bjjgraph.org/Systems/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "No-Gi Tactical Framework",
-      "item": "https://bjjgraph.com/systems/no-gi-tactical-framework"
+      "item": "https://bjjgraph.org/Systems/No-Gi-Tactical-Framework"
     }
   ]
 }

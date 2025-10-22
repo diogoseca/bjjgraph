@@ -4,12 +4,12 @@
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Standing Defense Strategy",
-  "description": "The Standing Defense Strategy represents a comprehensive framework for defending against takedown attempts, clinch controls, and standing attacks in both sport BJJ and self-defense contexts. Unlike...",
-  "url": "https://bjjgraph.com/systems/standing-defense-strategy",
+  "description": "Standing Defense Strategy directly addresses defensive tactics from the [[Standing Position]], making this a fundamental position-to-system relationship.",
+  "url": "https://bjjgraph.org/Systems/Standing-Defense-Strategy",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Systems",
-      "item": "https://bjjgraph.com/systems/"
+      "item": "https://bjjgraph.org/Systems/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Standing Defense Strategy",
-      "item": "https://bjjgraph.com/systems/standing-defense-strategy"
+      "item": "https://bjjgraph.org/Systems/Standing-Defense-Strategy"
     }
   ]
 }

@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "No-Gi Competition Approach",
   "description": "The No-Gi Competition Approach provides a strategic framework for optimizing performance in submission grappling contests without the gi. This system addresses the unique dynamics of no-gi competit...",
-  "url": "https://bjjgraph.com/systems/no-gi-competition-approach",
+  "url": "https://bjjgraph.org/Systems/No-Gi-Competition-Approach",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Systems",
-      "item": "https://bjjgraph.com/systems/"
+      "item": "https://bjjgraph.org/Systems/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "No-Gi Competition Approach",
-      "item": "https://bjjgraph.com/systems/no-gi-competition-approach"
+      "item": "https://bjjgraph.org/Systems/No-Gi-Competition-Approach"
     }
   ]
 }

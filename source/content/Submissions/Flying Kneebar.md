@@ -52,6 +52,50 @@ author: "BJJGraph Agent 9"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Flying Kneebar | Leg Lock",
+  "description": "Flying Kneebar is a highly specialized and dangerous leg lock technique from [[Standing Position]]. Success rates: Beginner 10%, Intermediate 25%, Advanced 45%.",
+  "url": "https://bjjgraph.org/Submissions/Flying-Kneebar",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Flying Kneebar",
+      "item": "https://bjjgraph.org/Submissions/Flying-Kneebar"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ SAFETY NOTICE
 
 **FLYING KNEEBAR - CRITICAL INJURY RISK**

@@ -3,6 +3,7 @@ title: "North-South Choke | BJJ Submission Guide | BJJ Graph"
 description: "From the North-South position, you start by sliding your non-choking arm under the opponent's head to establish a base for control and leverage. Position your choking arm across their neck,..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "From the North-South position, you start by sliding your non-choki
   "@type": "WebPage",
   "name": "North-South Choke",
   "description": "From the North-South position, you start by sliding your non-choking arm under the opponent's head to establish a base for control and leverage. Position your choking arm across their neck,...",
-  "url": "https://bjjgraph.com/submissions/north-south-choke",
+  "url": "https://bjjgraph.org/Submissions/North-South-Choke",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "From the North-South position, you start by sliding your non-choki
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "North-South Choke",
-      "item": "https://bjjgraph.com/submissions/north-south-choke"
+      "item": "https://bjjgraph.org/Submissions/North-South-Choke"
     }
   ]
 }
 </script>
+
 
 # North-South Choke
 #bjj #transition #submission #choke #north_south

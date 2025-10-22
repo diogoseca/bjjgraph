@@ -79,16 +79,14 @@ description: "Learn Stack Pass in BJJ. Step-by-step execution. Complete techniqu
   "@type": "WebPage",
   "name": "Stack Pass",
   "description": "Learn Stack Pass in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/stack-pass",
+  "url": "https://bjjgraph.org/Transitions/Stack-Pass",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Stack Pass in BJJ. Step-by-step execution. Complete techniqu
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Stack Pass",
-      "item": "https://bjjgraph.com/transitions/stack-pass"
+      "item": "https://bjjgraph.org/Transitions/Stack-Pass"
     }
   ]
 }
@@ -336,7 +334,6 @@ Updates to this standard should be reflected across related transition setup fil
 
 ## Historical Context
 Stack Pass has been a staple in Brazilian Jiu-Jitsu as a fundamental pressure passing technique, particularly effective in competitive gi contexts where control and points are prioritized. It reflects the strategic emphasis on heavy top game pressure taught by traditional BJJ schools and has been refined by modern competitors to counter evolving guard styles.
-
 
 ## Related Techniques
 

@@ -58,6 +58,72 @@ description: "Master Half Guard Top in BJJ. Complete guide covering setup, contr
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor weight distribution?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Sweep vulnerability"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Neglecting upper body control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Defensive mobility"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Premature passing attempts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Position compromise"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Overcommitment to single technique?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Predictability"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Inadequate pressure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Extended time in transition"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Half Guard Top",
+  "description": "Master Half Guard Top in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
+  "url": "https://bjjgraph.org/Positions/Half-Guard-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Half Guard Top in BJJ. Complete guide covering setup, contr
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Half Guard Top",
-      "item": "https://bjjgraph.com/positions/half-guard-top"
+      "item": "https://bjjgraph.org/Positions/Half-Guard-Top"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Half Guard Top",
-  "description": "Master Half Guard Top in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
-  "url": "https://bjjgraph.com/positions/half-guard-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Half Guard Top
 #bjj #state #top #passing #halfguard
@@ -191,7 +241,6 @@ The practitioner is positioned on top with one leg trapped between the bottom pl
 - [[Knee Shield Half Guard]] - Defensive variant to address
 - [[Deep Half Guard]] - Specialized defensive configuration
 - [[Z-Guard]] - Modern defensive half guard variation
-
 
 ## Related Positions
 

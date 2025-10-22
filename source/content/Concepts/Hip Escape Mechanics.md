@@ -46,6 +46,50 @@ application_contexts:
 tags: [bjj, concept, fundamental, escapes, movement, hip-mechanics]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hip Escape Mechanics | Concept",
+  "description": "Hip Escape Mechanics represents the fundamental biomechanical framework for creating space and escaping inferior positions through coordinated hip movement, bridging, and frame utilization. Unlike ...",
+  "url": "https://bjjgraph.org/Concepts/Hip-Escape-Mechanics",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Hip Escape Mechanics",
+      "item": "https://bjjgraph.org/Concepts/Hip-Escape-Mechanics"
+    }
+  ]
+}
+</script>
+
+
 # Hip Escape Mechanics
 #bjj #concept #fundamental #escapes #movement
 

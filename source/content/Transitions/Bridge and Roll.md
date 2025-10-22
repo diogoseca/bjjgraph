@@ -73,16 +73,14 @@ description: "Learn Bridge and Roll in BJJ. Step-by-step execution from Mount to
   "@type": "WebPage",
   "name": "Bridge and Roll",
   "description": "Learn Bridge and Roll in BJJ. Step-by-step execution from Mount to Guard Recovery. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/bridge-and-roll",
+  "url": "https://bjjgraph.org/Transitions/Bridge-and-Roll",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -92,19 +90,19 @@ description: "Learn Bridge and Roll in BJJ. Step-by-step execution from Mount to
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Bridge and Roll",
-      "item": "https://bjjgraph.com/transitions/bridge-and-roll"
+      "item": "https://bjjgraph.org/Transitions/Bridge-and-Roll"
     }
   ]
 }
@@ -299,7 +297,6 @@ The Bridge and Roll has proven highly effective in competition contexts across a
 - Gi competition: Leverages gi for additional grip options in arm control
 - No-gi competition: Relies on tight underhooks without gi grips
 - MMA crossover: Useful for escaping bottom positions to avoid strikes
-
 
 ## Related Techniques
 

@@ -11,7 +11,7 @@ description: "Learn Single Leg X Sweep in BJJ. Step-by-step execution from Singl
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Single Leg X Sweep",
-  "description": "Learn how to execute Single Leg X Sweep in Brazilian Jiu-Jitsu from Single Leg X Guard to Top Position.",
+  "description": "Learn how to execute Single Leg X Sweep in Brazilian Jiu-Jitsu from Single Leg X Guard to Top Position. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -58,6 +58,23 @@ description: "Learn Single Leg X Sweep in BJJ. Step-by-step execution from Singl
   "totalTime": "PT5M"
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Single Leg X Sweep",
+  "description": "Learn Single Leg X Sweep in BJJ. Step-by-step execution from Single Leg X Guard to Top Position. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Transitions/Single-Leg-X-Sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,39 +84,24 @@ description: "Learn Single Leg X Sweep in BJJ. Step-by-step execution from Singl
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Single Leg X Sweep",
-      "item": "https://bjjgraph.com/transitions/single-leg-x-sweep"
+      "item": "https://bjjgraph.org/Transitions/Single-Leg-X-Sweep"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Single Leg X Sweep",
-  "description": "Learn Single Leg X Sweep in BJJ. Step-by-step execution from Single Leg X Guard to Top Position. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
-  "url": "https://bjjgraph.com/transitions/single-leg-x-sweep",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Single Leg X Sweep
 #bjj #transition #sweep #single_leg_x #leg_entanglement

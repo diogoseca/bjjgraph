@@ -58,6 +58,72 @@ description: "Master Z-Guard in BJJ. Complete guide covering setup, control, esc
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Low knee shield placement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to smash passing"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Passive framing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Defensive collapse under pressure"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Disconnected frames?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Systematic defensive failure"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Flat positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Loss of guard mechanics"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Overcommitment to single controls?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Predictable defense"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Z-Guard",
+  "description": "Master Z-Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 85%.",
+  "url": "https://bjjgraph.org/Positions/Z-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Z-Guard in BJJ. Complete guide covering setup, control, esc
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Z-Guard",
-      "item": "https://bjjgraph.com/positions/z-guard"
+      "item": "https://bjjgraph.org/Positions/Z-Guard"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Z-Guard",
-  "description": "Master Z-Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 85%.",
-  "url": "https://bjjgraph.com/positions/z-guard",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Z-Guard
 #bjj #state #guard #halfguard #defensive #z_guard
@@ -186,7 +236,6 @@ Z-Guard is an advanced variation of the Knee Shield Half Guard where the bottom 
 - [[Butterfly Half Guard]] - Related half guard with butterfly hook
 - [[Deep Half Guard]] - Lower engagement half guard system
 - [[Reverse De La Riva Guard]] - Related guard with similar mechanics
-
 
 ## Related Positions
 

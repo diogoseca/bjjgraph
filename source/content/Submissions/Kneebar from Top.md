@@ -52,6 +52,50 @@ author: "BJJGraph Agent 9"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kneebar from Top | Leg Lock",
+  "description": "Kneebar from Top is a serious leg lock technique from [[Top Half Guard]]. Success rates: Beginner 25%, Intermediate 45%, Advanced 60%.",
+  "url": "https://bjjgraph.org/Submissions/Kneebar-from-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kneebar from Top",
+      "item": "https://bjjgraph.org/Submissions/Kneebar-from-Top"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ SAFETY NOTICE
 
 **KNEEBAR FROM TOP - HIGH INJURY RISK**

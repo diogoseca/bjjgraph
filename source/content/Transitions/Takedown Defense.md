@@ -11,7 +11,7 @@ description: "Learn Takedown Defense in BJJ. Step-by-step execution from Standin
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Takedown Defense",
-  "description": "Learn how to execute Takedown Defense in Brazilian Jiu-Jitsu from Standing Position.",
+  "description": "Learn how to execute Takedown Defense in Brazilian Jiu-Jitsu from Standing Position to Standing Position. Success: Beginner 45%, Intermediate 65%, Advanced 85%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -55,7 +55,24 @@ description: "Learn Takedown Defense in BJJ. Step-by-step execution from Standin
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT6M"
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Takedown Defense",
+  "description": "Learn Takedown Defense in BJJ. Step-by-step execution from Standing Position to defensive stance. Success: Beginner 45%, Intermediate 65%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Transitions/Takedown-Defense",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -67,39 +84,24 @@ description: "Learn Takedown Defense in BJJ. Step-by-step execution from Standin
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Takedown Defense",
-      "item": "https://bjjgraph.com/transitions/takedown-defense"
+      "item": "https://bjjgraph.org/Transitions/Takedown-Defense"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Takedown Defense",
-  "description": "Learn Takedown Defense in BJJ. Step-by-step execution from Standing Position to defensive stance. Success: Beginner 45%, Intermediate 65%, Advanced 85%.",
-  "url": "https://bjjgraph.com/transitions/takedown-defense",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Takedown Defense
 #bjj #transition #defensive #standing #fundamental
@@ -346,7 +348,6 @@ Every transition file must include:
 - [[Front Headlock]] - Advantageous position after successful defense
 - [[Snap Down]] - Offensive response to failed takedown
 - [[Guard Pull]] - Alternative to defending takedown
-
 
 ## Competition Applications
 - **IBJJF Rules**: Successfully defending takedowns prevents opponent from scoring and expending your energy

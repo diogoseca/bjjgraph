@@ -46,18 +46,19 @@ application_contexts:
 tags: [bjj, concept, fundamental, positions, transitions, movement, hierarchy]
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Position Transitions | Concept | BJJ Graph",
+  "name": "Position Transitions | Concept",
   "description": "Master position transitions in BJJ - understanding the mechanics and strategies of moving between positional states. Learn transition types, success factors, and positional hierarchy navigation.",
-  "url": "https://bjjgraph.com/concepts/position-transitions",
+  "url": "https://bjjgraph.org/Concepts/Position-Transitions",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -70,23 +71,24 @@ tags: [bjj, concept, fundamental, positions, transitions, movement, hierarchy]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Position Transitions",
-      "item": "https://bjjgraph.com/concepts/position-transitions"
+      "item": "https://bjjgraph.org/Concepts/Position-Transitions"
     }
   ]
 }
 </script>
+
 
 # Position Transitions
 #bjj #concept #fundamental #positions #transitions #movement

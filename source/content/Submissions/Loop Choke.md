@@ -17,6 +17,50 @@ success_rate:
 tags: [submission, choke, gi_only, guard, intermediate]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Loop Choke",
+  "description": "Master Loop Choke in BJJ. Complete guide. Success: Beginner 20%, Intermediate 35%, Advanced 55%.",
+  "url": "https://bjjgraph.org/Submissions/Loop-Choke",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Loop Choke",
+      "item": "https://bjjgraph.org/Submissions/Loop-Choke"
+    }
+  ]
+}
+</script>
+
+
 # Loop Choke
 
 ## ⚠️ SAFETY NOTICE

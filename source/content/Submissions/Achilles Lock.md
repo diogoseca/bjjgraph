@@ -69,6 +69,50 @@ author: "BJJGraph Agent 9"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Achilles Lock | Leg Lock",
+  "description": "The Achilles lock applies direct compression to the Achilles tendon using the blade of the forearm while securing the foot. Unlike the straight ankle lock which hyperextends the joint, this variati...",
+  "url": "https://bjjgraph.org/Submissions/Achilles-Lock",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Achilles Lock",
+      "item": "https://bjjgraph.org/Submissions/Achilles-Lock"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ SAFETY NOTICE
 
 **ACHILLES TENDON RUPTURE RISK - This is a HIGH-RISK submission.**

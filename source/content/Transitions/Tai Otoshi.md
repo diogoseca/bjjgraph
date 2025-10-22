@@ -11,7 +11,7 @@ description: "Learn Tai Otoshi in BJJ. Step-by-step execution from Standing Posi
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Tai Otoshi",
-  "description": "Learn how to execute Tai Otoshi in Brazilian Jiu-Jitsu from Standing Position to Side Control.",
+  "description": "Learn how to execute Tai Otoshi in Brazilian Jiu-Jitsu from Standing Position to Side Control. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -58,6 +58,23 @@ description: "Learn Tai Otoshi in BJJ. Step-by-step execution from Standing Posi
   "totalTime": "PT5M"
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Tai Otoshi",
+  "description": "Learn Tai Otoshi in BJJ. Step-by-step execution from Standing Position to Side Control. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Tai-Otoshi",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,39 +84,24 @@ description: "Learn Tai Otoshi in BJJ. Step-by-step execution from Standing Posi
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Tai Otoshi",
-      "item": "https://bjjgraph.com/transitions/tai-otoshi"
+      "item": "https://bjjgraph.org/Transitions/Tai-Otoshi"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Tai Otoshi",
-  "description": "Learn Tai Otoshi in BJJ. Step-by-step execution from Standing Position to Side Control. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
-  "url": "https://bjjgraph.com/transitions/tai-otoshi",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Tai Otoshi
 #bjj #transition #takedown #judo #throw #standing
@@ -325,7 +327,6 @@ Updates to this standard should be reflected across all transition files to main
 - [[Seoi Nage]] - Related technique
 - [[Uchi Mata]] - Related technique
 - [[Harai Goshi]] - Related technique
-
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as takedown (2 points)

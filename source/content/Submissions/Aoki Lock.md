@@ -80,6 +80,50 @@ author: "BJJGraph System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Aoki Lock | Shoulder Lock",
+  "description": "The Aoki Lock, named after Shinya Aoki who famously used it in competition, is an extremely dangerous shoulder lock from guard positions. The technique traps the opponent's arm and uses leg leverag...",
+  "url": "https://bjjgraph.org/Submissions/Aoki-Lock",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Aoki Lock",
+      "item": "https://bjjgraph.org/Submissions/Aoki-Lock"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ CRITICAL SAFETY NOTICE
 
 **This submission can cause SHOULDER DISLOCATION and PERMANENT DAMAGE if applied improperly.**

@@ -37,6 +37,106 @@ related_positions: ["Side Control Bottom", "Mount Bottom", "North-South"]
 related_techniques: ["Hip Escape", "Elbow Escape", "Frame Creation"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Arm Extraction",
+  "description": "Learn how to execute Arm Extraction in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Recognize arm is trapped under opponent's weight or control; identify which direction offers best extraction path; maintain composure and avoid panic pulling",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Use free hand to grip trapped wrist or forearm; create subtle body movement to shift opponent's weight distribution slightly",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically adjusts weight or grip to maintain control; may increase pressure or attempt submission",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Time extraction for moment when opponent's weight shifts or adjusts; pull arm toward centerline while creating hip space",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Execute quick, decisive pull to extract arm completely; immediately establish frames with both arms",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Use recovered arm position to create defensive structure; transition to more favorable escape position",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Extraction",
+  "description": "Learn Arm Extraction in BJJ. Step-by-step execution from compromised positions to defensive recovery. Success: Beginner 45%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Transitions/Arm-Extraction",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Arm Extraction",
+      "item": "https://bjjgraph.org/Transitions/Arm-Extraction"
+    }
+  ]
+}
+</script>
+
+
 # Arm Extraction
 #bjj #transition #escape #defense #fundamental
 

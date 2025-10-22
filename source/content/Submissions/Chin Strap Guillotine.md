@@ -33,6 +33,50 @@ author: "BJJGraph Agent 4"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Chin Strap Guillotine",
+  "description": "Chin Strap Guillotine uses high grip under chin combined with guard closure, creating blood choke by compressing carotid artery against opponent's own shoulder.",
+  "url": "https://bjjgraph.org/Submissions/Chin-Strap-Guillotine",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Chin Strap Guillotine",
+      "item": "https://bjjgraph.org/Submissions/Chin-Strap-Guillotine"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ SAFETY NOTICE
 **Blood choke. Apply SLOWLY over 3-5 seconds. RELEASE upon tap.**
 

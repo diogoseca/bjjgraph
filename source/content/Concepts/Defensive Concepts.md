@@ -47,18 +47,19 @@ application_contexts:
 tags: [bjj, concept, defense, strategy, advanced]
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Defensive Concepts | BJJ Concept | BJJ Graph",
+  "name": "Defensive Concepts",
   "description": "Master defensive concepts in BJJ with comprehensive protection frameworks. Learn defensive philosophy, strategic principles, and survival methodology. Expert insights from Danaher, Ryan, and Bravo.",
-  "url": "https://bjjgraph.com/concepts/defensive-concepts",
+  "url": "https://bjjgraph.org/Concepts/Defensive-Concepts",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -71,23 +72,24 @@ tags: [bjj, concept, defense, strategy, advanced]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Defensive Concepts",
-      "item": "https://bjjgraph.com/concepts/defensive-concepts"
+      "item": "https://bjjgraph.org/Concepts/Defensive-Concepts"
     }
   ]
 }
 </script>
+
 
 # Defensive Concepts
 #bjj #concept #defense #strategy

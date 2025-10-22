@@ -107,6 +107,23 @@ description: "Master Crucifix Position Top in BJJ. Complete guide covering setup
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crucifix Position Top",
+  "description": "Master Crucifix Position Top in BJJ. Complete guide covering setup, control, escapes, and submissions. Success rates: Beginner 65%, Intermediate 80%, Advanced 90%.",
+  "url": "https://bjjgraph.org/Positions/Crucifix-Position-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Crucifix Position Top in BJJ. Complete guide covering setup
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Crucifix Position Top",
-      "item": "https://bjjgraph.com/positions/crucifix-position-top"
+      "item": "https://bjjgraph.org/Positions/Crucifix-Position-Top"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Crucifix Position Top",
-  "description": "Master Crucifix Position Top in BJJ. Complete guide covering setup, control, escapes, and submissions. Success rates: Beginner 65%, Intermediate 80%, Advanced 90%.",
-  "url": "https://bjjgraph.com/positions/crucifix-position-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Crucifix Position Top
 #bjj #state #control #submission #crucifix #top

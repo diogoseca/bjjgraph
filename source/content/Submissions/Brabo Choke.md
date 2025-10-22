@@ -73,6 +73,7 @@ author: "BJJGraph System - Agent 8"
 version: "2.0"
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -80,15 +81,14 @@ version: "2.0"
   "@type": "WebPage",
   "name": "Brabo Choke",
   "description": "Master Brabo Choke (D'Arce variation) in BJJ. Complete guide covering setup from front headlock, execution, safety protocols, and injury prevention. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.",
-  "url": "https://bjjgraph.com/submissions/brabo-choke",
+  "url": "https://bjjgraph.org/Submissions/Brabo-Choke",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,23 +98,24 @@ version: "2.0"
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Brabo Choke",
-      "item": "https://bjjgraph.com/submissions/brabo-choke"
+      "item": "https://bjjgraph.org/Submissions/Brabo-Choke"
     }
   ]
 }
 </script>
+
 
 # Brabo Choke
 #bjj #submission #choke #front_headlock #safety_critical

@@ -82,6 +82,50 @@ author: "BJJGraph Content Team - Agent 7"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Monoplata from Guard",
+  "description": "Master Monoplata from Guard in BJJ. Complete shoulder lock guide with safe setup, execution, defenses, and injury prevention. Success: Beginner 25%, Intermediate 45%, Advanced 65%.",
+  "url": "https://bjjgraph.org/Submissions/Monoplata-from-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Monoplata from Guard",
+      "item": "https://bjjgraph.org/Submissions/Monoplata-from-Guard"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Advanced shoulder lock submission from guard. Terminal state with HIGH injury risk. Requires exceptional control and sensitivity. Safety is absolutely paramount.

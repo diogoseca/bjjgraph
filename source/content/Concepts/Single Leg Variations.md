@@ -45,18 +45,19 @@ application_contexts:
 tags: [bjj, concept, takedown, wrestling, standing, intermediate]
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Single Leg Variations",
-  "description": "Master single leg takedown variations in BJJ. Complete framework covering entries, finishes, and defensive counters. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-  "url": "https://bjjgraph.com/concepts/single-leg-variations",
+  "description": "Single Leg Variations represent the comprehensive system of takedown techniques, entries, finishes, and counter-strategies centered around capturing one of the opponent's legs to create takedown op...",
+  "url": "https://bjjgraph.org/Concepts/Single-Leg-Variations",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -69,23 +70,24 @@ tags: [bjj, concept, takedown, wrestling, standing, intermediate]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Single Leg Variations",
-      "item": "https://bjjgraph.com/concepts/single-leg-variations"
+      "item": "https://bjjgraph.org/Concepts/Single-Leg-Variations"
     }
   ]
 }
 </script>
+
 
 # Single Leg Variations
 #bjj #concept #takedown #wrestling #standing

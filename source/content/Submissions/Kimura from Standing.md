@@ -67,6 +67,50 @@ author: "BJJGraph Content Team - Agent 7"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Standing",
+  "description": "Master Kimura from Standing in BJJ. Standing shoulder lock variation. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Submissions/Kimura-from-Standing",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kimura from Standing",
+      "item": "https://bjjgraph.org/Submissions/Kimura-from-Standing"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ SAFETY NOTICE
 **Standing shoulder lock with takedown coordination required. EXTREMELY HIGH injury risk if applied while both standing. Apply slowly and coordinate safe landing.**
 

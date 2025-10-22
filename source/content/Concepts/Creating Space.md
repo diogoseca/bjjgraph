@@ -45,21 +45,19 @@ application_contexts:
 tags: [bjj, concept, fundamental, defense, space, escapes, positioning]
 ---
 
-# Creating Space
-#bjj #concept #fundamental #defense #space
 
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Creating Space | Concept | BJJ Graph",
-  "description": "Master creating space in BJJ. Learn frame coordination, hip movement, and progressive space development for effective escapes. Expert insights from Danaher, Gordon Ryan, and Eddie Bravo.",
-  "url": "https://bjjgraph.com/concepts/creating-space",
+  "name": "Creating Space | Concept",
+  "description": "Creating Space represents the fundamental strategic principle of generating distance between oneself and opponent through coordinated mechanical actions that overcome opponent's pressure and contro...",
+  "url": "https://bjjgraph.org/Concepts/Creating-Space",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -72,23 +70,27 @@ tags: [bjj, concept, fundamental, defense, space, escapes, positioning]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Creating Space",
-      "item": "https://bjjgraph.com/concepts/creating-space"
+      "item": "https://bjjgraph.org/Concepts/Creating-Space"
     }
   ]
 }
 </script>
+
+
+# Creating Space
+#bjj #concept #fundamental #defense #space
 
 ## Concept Description
 

@@ -47,16 +47,14 @@ description: "Master Russian Leg Lasso in BJJ. Complete guide covering setup, co
   "@type": "WebPage",
   "name": "Russian Leg Lasso",
   "description": "Master Russian Leg Lasso in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
-  "url": "https://bjjgraph.com/positions/russian-leg-lasso",
+  "url": "https://bjjgraph.org/Positions/Russian-Leg-Lasso",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,19 +64,19 @@ description: "Master Russian Leg Lasso in BJJ. Complete guide covering setup, co
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Russian Leg Lasso",
-      "item": "https://bjjgraph.com/positions/russian-leg-lasso"
+      "item": "https://bjjgraph.org/Positions/Russian-Leg-Lasso"
     }
   ]
 }
@@ -334,7 +332,6 @@ Updates to this standard should be reflected across all position files to mainta
 - [[Reverse De La Riva Guard]] - Related position
 - [[Deep Half Guard]] - Related position
 - [[Inverted Guard]] - Related position
-
 
 ## Historical Context
 Russian Leg Lasso guard represents a modern innovation in Brazilian Jiu-Jitsu, particularly in gi competition, showcasing how traditional uniform elements can be used for unique control. Developed in recent years by creative practitioners, it has become a niche but effective position in high-level tournaments.

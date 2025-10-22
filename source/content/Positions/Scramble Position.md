@@ -21,14 +21,14 @@ description: "Master Scramble Position in BJJ. Complete guide covering setup, co
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Front Headlock Entry",
-      "text": "From this position, execute Front Headlock Entry to transition to Front Headlock.",
+      "name": "Execute Front Headlock Series",
+      "text": "From this position, execute Front Headlock Series to transition to Front Headlock Series.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Entanglement Access",
-      "text": "From this position, execute Leg Entanglement Access to transition to Single Leg X Guard.",
+      "name": "Execute Leg Entanglement",
+      "text": "From this position, execute Leg Entanglement to transition to Leg Entanglement.",
       "position": 3
     },
     {
@@ -58,6 +58,72 @@ description: "Master Scramble Position in BJJ. Complete guide covering setup, co
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Hesitation during critical moments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Missed opportunities"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Over-commitment to low-percentage options?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Positional vulnerability"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Neglecting defensive awareness?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Submission exposure"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Expending excessive energy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Premature fatigue"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Lack of strategic direction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Inefficient movement patterns"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Scramble Position",
+  "description": "Master Scramble Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 50%.",
+  "url": "https://bjjgraph.org/Positions/Scramble-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Scramble Position in BJJ. Complete guide covering setup, co
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Scramble Position",
-      "item": "https://bjjgraph.com/positions/scramble-position"
+      "item": "https://bjjgraph.org/Positions/Scramble-Position"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Scramble Position",
-  "description": "Master Scramble Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 50%.",
-  "url": "https://bjjgraph.com/positions/scramble-position",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Scramble Position
 #bjj #state #transition #neutral #dynamic
@@ -194,7 +244,6 @@ Both practitioners are in rapid, continuous motion with bodies tumbling, rolling
 - [[Turtle Position]] - Often intersects with scramble exchanges
 - [[Leg Entanglement Position]] - Modern scramble resolution pathway
 - [[Guard Recovery]] - Defensive objective during many scrambles
-
 
 ## Related Positions
 

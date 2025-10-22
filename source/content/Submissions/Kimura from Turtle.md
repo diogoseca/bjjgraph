@@ -67,6 +67,50 @@ author: "BJJGraph Content Team - Agent 7"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Turtle",
+  "description": "Master Kimura from Turtle in BJJ. High-percentage shoulder lock from turtle top position. Success: Beginner 45%, Intermediate 65%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Submissions/Kimura-from-Turtle",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kimura from Turtle",
+      "item": "https://bjjgraph.org/Submissions/Kimura-from-Turtle"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ SAFETY NOTICE
 **Shoulder lock with rotator cuff injury risk. Apply slowly over 3-5 seconds. Release immediately upon tap.**
 

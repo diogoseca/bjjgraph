@@ -11,42 +11,42 @@ description: "Learn Rolling to Guard in BJJ. Step-by-step execution from Bottom 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Rolling to Guard",
-  "description": "Learn how to execute Rolling to Guard recovery in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute Rolling to Guard in Brazilian Jiu-Jitsu from Bottom Position to Open Guard Bottom. Success: Beginner 55%, Intermediate 75%, Advanced 90%.",
   "step": [
     {
       "@type": "HowToStep",
       "name": "Assess Position",
-      "text": "Evaluate current bottom position and opponent's control points",
+      "text": "Evaluate current bottom position, opponent's control points, and pressure direction",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Create Space",
-      "text": "Use frames or shrimping to create minimal space for roll",
+      "text": "Use frames, shrimping, or small movements to create minimal space for rolling motion",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Initiate Roll",
-      "text": "Roll to your back while creating frames on opponent",
+      "text": "Roll smoothly to your back while creating frames on opponent's hips or shoulders",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Insert Hooks",
-      "text": "Insert guard hooks or establish guard configuration during roll",
+      "text": "Insert guard hooks, knee shields, or other guard configuration during rolling motion",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Control Distance",
-      "text": "Use frames to maintain optimal distance and prevent passing",
+      "text": "Use active frames to maintain optimal distance and prevent passing immediately",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Establish Guard",
-      "text": "Secure closed, open, or half guard with grips and control",
+      "text": "Secure closed guard, open guard, or half guard with appropriate grips and control",
       "position": 6
     }
   ],
@@ -55,7 +55,24 @@ description: "Learn Rolling to Guard in BJJ. Step-by-step execution from Bottom 
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT3M"
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rolling to Guard",
+  "description": "Learn Rolling to Guard in BJJ. Step-by-step execution from Bottom Position to Guard. Success: Beginner 55%, Intermediate 75%, Advanced 90%.",
+  "url": "https://bjjgraph.org/Transitions/Rolling-to-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -67,39 +84,24 @@ description: "Learn Rolling to Guard in BJJ. Step-by-step execution from Bottom 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Rolling to Guard",
-      "item": "https://bjjgraph.com/transitions/rolling-to-guard"
+      "item": "https://bjjgraph.org/Transitions/Rolling-to-Guard"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Rolling to Guard",
-  "description": "Learn Rolling to Guard in BJJ. Step-by-step execution from Bottom Position to Guard. Success: Beginner 55%, Intermediate 75%, Advanced 90%.",
-  "url": "https://bjjgraph.com/transitions/rolling-to-guard",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Rolling to Guard
 #bjj #transition #escape #guard_recovery #defensive #fundamental

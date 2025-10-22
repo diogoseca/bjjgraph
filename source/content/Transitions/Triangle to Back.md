@@ -37,6 +37,106 @@ related_positions: ["Triangle Control", "Back Control", "Closed Guard Bottom"]
 related_techniques: ["Triangle Choke", "Back Take", "Triangle to Armbar"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Triangle to Back",
+  "description": "Learn how to execute Triangle to Back in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Defensive Recognition",
+      "text": "From triangle control, identify opponent attempting to stack by driving weight forward and upward",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Momentum Utilization",
+      "text": "Allow opponent's stacking pressure to continue, preparing to use their momentum",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Triangle Release",
+      "text": "Release triangle lock while maintaining arm control, creating space for rotation",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Body Rotation",
+      "text": "Rotate your body toward opponent's back, using their forward momentum to assist movement",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hook Establishment",
+      "text": "As body rotates, establish first hook on near side hip, then second hook on far side",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Back Control",
+      "text": "Secure seatbelt control (one arm under armpit, one over shoulder) with both hooks in",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle to Back",
+  "description": "Learn Triangle to Back transition in BJJ. Step-by-step execution from Triangle Control to Back Control. Success: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Triangle-to-Back",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Triangle to Back",
+      "item": "https://bjjgraph.org/Transitions/Triangle-to-Back"
+    }
+  ]
+}
+</script>
+
+
 # Triangle to Back
 #bjj #transition #back_take #triangle #advanced
 

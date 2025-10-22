@@ -79,16 +79,14 @@ description: "Learn Leg Drag Pass in BJJ. Step-by-step execution. Complete techn
   "@type": "WebPage",
   "name": "Leg Drag Pass",
   "description": "Learn Leg Drag Pass in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/leg-drag-pass",
+  "url": "https://bjjgraph.org/Transitions/Leg-Drag-Pass",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Leg Drag Pass in BJJ. Step-by-step execution. Complete techn
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Leg Drag Pass",
-      "item": "https://bjjgraph.com/transitions/leg-drag-pass"
+      "item": "https://bjjgraph.org/Transitions/Leg-Drag-Pass"
     }
   ]
 }

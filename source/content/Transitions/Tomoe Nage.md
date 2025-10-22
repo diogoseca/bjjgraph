@@ -11,7 +11,7 @@ description: "Learn Tomoe Nage in BJJ. Step-by-step execution. Success: Beginner
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Tomoe Nage",
-  "description": "Learn how to execute Tomoe Nage in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute Tomoe Nage in Brazilian Jiu-Jitsu from Standing Position to Top Position. Success: Beginner 25%, Intermediate 45%, Advanced 65%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -79,7 +79,24 @@ description: "Learn Tomoe Nage in BJJ. Step-by-step execution. Success: Beginner
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT5M"
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Tomoe Nage",
+  "description": "Learn Tomoe Nage in BJJ. Step-by-step execution. Success: Beginner 25%, Intermediate 45%, Advanced 65%.",
+  "url": "https://bjjgraph.org/Transitions/Tomoe-Nage",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -91,39 +108,24 @@ description: "Learn Tomoe Nage in BJJ. Step-by-step execution. Success: Beginner
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Tomoe Nage",
-      "item": "https://bjjgraph.com/transitions/tomoe-nage"
+      "item": "https://bjjgraph.org/Transitions/Tomoe-Nage"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Tomoe Nage",
-  "description": "Learn Tomoe Nage in BJJ. Step-by-step execution. Success: Beginner 25%, Intermediate 45%, Advanced 65%.",
-  "url": "https://bjjgraph.com/transitions/tomoe-nage",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Tomoe Nage
 #bjj #transition #takedown #judo #sacrifice_throw
@@ -354,7 +356,6 @@ Updates to this standard should be reflected across all transition files to main
 ## Related Techniques
 
 - [[Seoi Nage]] - Related technique
-
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as takedown (2 points)

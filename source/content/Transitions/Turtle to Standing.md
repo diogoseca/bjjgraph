@@ -11,42 +11,42 @@ description: "Learn Turtle to Standing in BJJ. Step-by-step execution from Turtl
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Turtle to Standing",
-  "description": "Learn how to execute Turtle to Standing recovery in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute Turtle to Standing in Brazilian Jiu-Jitsu from Turtle Position Bottom to Standing Position. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
   "step": [
     {
       "@type": "HowToStep",
       "name": "Establish Base",
-      "text": "Maintain strong defensive turtle with head up and arms protecting",
+      "text": "Maintain strong defensive turtle with head up, knees under hips, arms protecting neck and controlling space",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Post Far Hand",
-      "text": "Post your far hand flat on mat for base and leverage",
+      "text": "Post your far hand flat on mat away from opponent for stable base and leverage point",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Drive Near Leg",
-      "text": "Step near-side foot forward flat on mat, creating strong post",
+      "text": "Step your near-side foot forward flat on mat, creating strong posting point for explosion",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Stand Explosively",
-      "text": "Drive off posted foot and hand to stand up explosively",
+      "text": "Drive off posted foot and hand simultaneously to stand up quickly and explosively",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Clear Grips",
-      "text": "Strip opponent's grips or turn to face them during stand-up",
+      "text": "Strip opponent's grips on your hips, legs, or upper body while standing, or turn into them",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Establish Stance",
-      "text": "Achieve standing position with proper defensive posture and distance",
+      "text": "Achieve standing position with proper wrestling stance, hands up, maintaining safe distance",
       "position": 6
     }
   ],
@@ -55,7 +55,24 @@ description: "Learn Turtle to Standing in BJJ. Step-by-step execution from Turtl
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT3M"
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Turtle to Standing",
+  "description": "Learn Turtle to Standing in BJJ. Step-by-step execution from Turtle Bottom to Standing Position. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Transitions/Turtle-to-Standing",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -67,39 +84,24 @@ description: "Learn Turtle to Standing in BJJ. Step-by-step execution from Turtl
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Turtle to Standing",
-      "item": "https://bjjgraph.com/transitions/turtle-to-standing"
+      "item": "https://bjjgraph.org/Transitions/Turtle-to-Standing"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Turtle to Standing",
-  "description": "Learn Turtle to Standing in BJJ. Step-by-step execution from Turtle Bottom to Standing Position. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
-  "url": "https://bjjgraph.com/transitions/turtle-to-standing",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Turtle to Standing
 #bjj #transition #escape #turtle #standup #wrestling

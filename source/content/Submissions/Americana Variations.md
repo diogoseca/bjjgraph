@@ -102,6 +102,50 @@ author: "BJJGraph System - Agent 13"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Americana Variations | Joint Lock System",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. Americana rotations should take 5-7 seconds MINIMUM in training. Posterior shoulder structures are vulnerable to external rotatio...",
+  "url": "https://bjjgraph.org/Submissions/Americana-Variations",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Americana Variations",
+      "item": "https://bjjgraph.org/Submissions/Americana-Variations"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Americana Variations represent a system of shoulder attacks using external rotation pressure from dominant top positions. Unlike kimura (internal rotation), americana creates external rotation stress attacking posterior shoulder structures. Success results in terminal victory. Safety is paramount.

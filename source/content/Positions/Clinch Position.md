@@ -107,6 +107,23 @@ description: "Master Clinch Position in BJJ. Complete guide covering setup, cont
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Clinch Position",
+  "description": "Master Clinch Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 50%, Intermediate 60%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Positions/Clinch-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Clinch Position in BJJ. Complete guide covering setup, cont
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Clinch Position",
-      "item": "https://bjjgraph.com/positions/clinch-position"
+      "item": "https://bjjgraph.org/Positions/Clinch-Position"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Clinch Position",
-  "description": "Master Clinch Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 50%, Intermediate 60%, Advanced 70%.",
-  "url": "https://bjjgraph.com/positions/clinch-position",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Clinch Position
 #bjj #state #standing #wrestling #control
@@ -249,7 +251,6 @@ You are standing face-to-face with your opponent in a close-range engagement, bo
 - [[Front Headlock]] - Related control position
 - [[Back Control Standing]] - Advanced transition goal
 - [[Neutral Position]] - Related reset state
-
 
 ## Related Positions
 

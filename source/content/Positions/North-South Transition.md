@@ -148,37 +148,37 @@ state_machine:
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Execute North-South Transition in BJJ",
-  "description": "Complete guide to transitioning between side control and north-south position.",
+  "name": "How to Use North-South Transition in BJJ",
+  "description": "Complete guide to executing techniques and transitions from North-South Transition.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Maintain Upper Body Control",
-      "text": "Keep chest-to-chest or chest-to-abdomen pressure while beginning the circular movement around opponent's head.",
+      "name": "Execute Complete North-South",
+      "text": "From this position, execute Complete North-South to transition to North-South.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Step Over Head",
-      "text": "Move your near-side leg in a circular arc around opponent's head while maintaining downward pressure.",
+      "name": "Execute North-South to Kimura",
+      "text": "From this position, execute North-South to Kimura to transition to Kimura Control.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Control Opponent's Head",
-      "text": "Use your arms to control opponent's head and upper back during the transition to prevent escape.",
+      "name": "Execute North-South Choke",
+      "text": "From this position, execute North-South Choke to transition to Won by Submission.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Complete the Transition",
-      "text": "Settle into north-south position with chest-to-chest pressure and hips low.",
+      "name": "Execute Return to Side Control",
+      "text": "From this position, execute Return to Side Control to transition to Side Control.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Attack Options",
-      "text": "From here, execute north-south choke, kimura control, or return to side control based on opponent's reaction.",
+      "name": "Execute Transition to Mount",
+      "text": "From this position, execute Transition to Mount to transition to Mount.",
       "position": 5
     }
   ],
@@ -198,42 +198,42 @@ state_machine:
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in lifting hips too high?",
+      "name": "What is a common mistake in Lifting hips too high?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Reduces pressure and allows opponent to create frames and escape during the transition. The correction is: Keep your hips low and heavy throughout the transition, maintaining constant downward pressure on opponent's chest."
+        "text": "Reduces pressure and allows opponent to create frames and escape during the transition. The correction is: Keep your hips low and heavy throughout the transition, maintaining constant downward pressure on opponent's chest.\n  - **Recognition**: If you feel your weight coming off opponent or they're able to insert frames, your hips are too high."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in moving too slowly?",
+      "name": "What is a common mistake in Moving too slowly?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Gives opponent time to establish defensive frames or begin escape sequences. The correction is: Execute the transition smoothly and decisively in one continuous motion without pausing midway."
+        "text": "Gives opponent time to establish defensive frames or begin escape sequences. The correction is: Execute the transition smoothly and decisively in one continuous motion without pausing midway.\n  - **Recognition**: If opponent has time to prepare defenses or you feel yourself stuck mid-transition, increase your movement speed."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in losing head control?",
+      "name": "What is a common mistake in Losing head control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to turn away or create space for escape attempts. The correction is: Maintain constant control of opponent's head with your arms or chest pressure throughout the entire transition."
+        "text": "Allows opponent to turn away or create space for escape attempts. The correction is: Maintain constant control of opponent's head with your arms or chest pressure throughout the entire transition.\n  - **Recognition**: If opponent is able to turn their head away or look at you, you've lost head control."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in stepping too wide?",
+      "name": "What is a common mistake in Stepping too wide?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Creates space under your hips that opponent can exploit to escape or re-guard. The correction is: Keep your transition arc tight and close to opponent's body, maintaining constant connection."
+        "text": "Creates space under your hips that opponent can exploit to escape or re-guard. The correction is: Keep your transition arc tight and close to opponent's body, maintaining constant connection.\n  - **Recognition**: If there's visible space between your hips and opponent's body during the transition, your arc is too wide."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in not anticipating the escape?",
+      "name": "What is a common mistake in Not anticipating the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent catches you mid-transition with hip escape or frame insertion. The correction is: Be aware of opponent's hips and arms, ready to abort transition and return to side control if needed."
+        "text": "Opponent catches you mid-transition with hip escape or frame insertion. The correction is: Be aware of opponent's hips and arms, ready to abort transition and return to side control if needed.\n  - **Recognition**: If opponent successfully escapes or re-guards during your transition, you missed defensive cues."
       }
     }
   ]
@@ -248,16 +248,14 @@ state_machine:
   "@type": "WebPage",
   "name": "North-South Transition",
   "description": "Master North-South Transition in BJJ. Complete guide covering the transitional movement between side control and north-south position. Success rates: Beginner 60%, Intermediate 75%, Advanced 85%.",
-  "url": "https://bjjgraph.com/positions/north-south-transition",
+  "url": "https://bjjgraph.org/Positions/North-South-Transition",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -267,19 +265,19 @@ state_machine:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "North-South Transition",
-      "item": "https://bjjgraph.com/positions/north-south-transition"
+      "item": "https://bjjgraph.org/Positions/North-South-Transition"
     }
   ]
 }

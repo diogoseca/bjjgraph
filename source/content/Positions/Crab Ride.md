@@ -107,6 +107,23 @@ description: "Master Crab Ride in BJJ. Complete guide covering setup, control, e
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crab Ride",
+  "description": "Master Crab Ride in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Positions/Crab-Ride",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Crab Ride in BJJ. Complete guide covering setup, control, e
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Crab Ride",
-      "item": "https://bjjgraph.com/positions/crab-ride"
+      "item": "https://bjjgraph.org/Positions/Crab-Ride"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Crab Ride",
-  "description": "Master Crab Ride in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.",
-  "url": "https://bjjgraph.com/positions/crab-ride",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Crab Ride
 #bjj #state #back_attack #modern #control
@@ -246,7 +248,6 @@ You are positioned to the side of your opponent, not directly behind, maintainin
 - [[Inverted Guard]] - Related modern position
 - [[Leg Drag Position]] - Connected passing position
 - [[Truck Position]] - Eddie Bravo's specialized control position
-
 
 ## Related Positions
 

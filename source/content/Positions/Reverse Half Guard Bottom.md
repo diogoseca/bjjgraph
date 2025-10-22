@@ -4,6 +4,7 @@ description: "Master Reverse Half Guard Bottom in BJJ. Inverted half guard posit
 ---
 
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -14,33 +15,39 @@ description: "Master Reverse Half Guard Bottom in BJJ. Inverted half guard posit
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Reverse Half Guard",
-      "text": "Secure reverse half guard by controlling opponent's leg while facing away from them, with your back toward their chest.",
+      "name": "Execute Reverse Half Guard Sweep",
+      "text": "From this position, execute Reverse Half Guard Sweep to transition to Top Position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Reverse Half Guard Sweep",
-      "text": "From reverse half guard, execute sweep by using leg control and hip rotation to off-balance opponent.",
+      "name": "Execute Back Take from Reverse Half",
+      "text": "From this position, execute Back Take from Reverse Half to transition to Back Control.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Transition to Back Control",
-      "text": "From reverse half guard, rotate toward opponent's back while maintaining leg control to achieve back control.",
+      "name": "Execute Roll Under Sweep",
+      "text": "From this position, execute Roll Under Sweep to transition to Mount.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Roll Under Sweep",
-      "text": "From reverse half guard, roll under opponent while controlling leg to achieve top position.",
+      "name": "Execute Dog Fight Transition",
+      "text": "From this position, execute Dog Fight Transition to transition to Dogfight Position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Transition to Dog Fight",
-      "text": "From reverse half guard, establish underhook and come up to dog fight position for additional sweeps.",
+      "name": "Execute Waiter Sweep",
+      "text": "From this position, execute Waiter Sweep to transition to Top Position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Return to Standard Half Guard",
+      "text": "From this position, execute Return to Standard Half Guard to transition to Half Guard Bottom.",
+      "position": 6
     }
   ],
   "tool": [
@@ -62,7 +69,7 @@ description: "Master Reverse Half Guard Bottom in BJJ. Inverted half guard posit
       "name": "What is a common mistake in Weak leg control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to extract their leg and pass to side control or mount, losing position. The correction is: Maintain tight leg control on opponent's trapped leg with active clamping and constant tension, using both legs to create secure entanglement despite inverted positioning."
+        "text": "Allows opponent to extract their leg and pass to side control or mount, losing position. The correction is: Maintain tight leg control on opponent's trapped leg with active clamping and constant tension, using both legs to create secure entanglement despite inverted positioning.\n  - **Recognition**: If opponent's leg feels loose or they're making progress extracting it, immediately tighten your leg configuration."
       }
     },
     {
@@ -70,7 +77,7 @@ description: "Master Reverse Half Guard Bottom in BJJ. Inverted half guard posit
       "name": "What is a common mistake in Exposing back to opponent?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Creates vulnerability to back takes, chokes, and control positions if leg control is lost. The correction is: Maintain constant awareness of back exposure—keep head mobile, protect neck with shoulder positioning, and move quickly through vulnerable positions during sweeps and transitions."
+        "text": "Creates vulnerability to back takes, chokes, and control positions if leg control is lost. The correction is: Maintain constant awareness of back exposure—keep head mobile, protect neck with shoulder positioning, and move quickly through vulnerable positions during sweeps and transitions.\n  - **Recognition**: If you feel opponent's chest heavy on your back without active offensive movement, you're staying too long in vulnerable position."
       }
     },
     {
@@ -78,7 +85,7 @@ description: "Master Reverse Half Guard Bottom in BJJ. Inverted half guard posit
       "name": "What is a common mistake in Static positioning?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to settle into controlling position and work for passes or submissions. The correction is: Stay dynamic with constant hip movement, leg adjustments, and sweep attempts to prevent opponent from establishing stable control and to create offensive opportunities."
+        "text": "Allows opponent to settle into controlling position and work for passes or submissions. The correction is: Stay dynamic with constant hip movement, leg adjustments, and sweep attempts to prevent opponent from establishing stable control and to create offensive opportunities.\n  - **Recognition**: If opponent feels settled and comfortable, you need more movement and offensive threats."
       }
     },
     {
@@ -86,7 +93,7 @@ description: "Master Reverse Half Guard Bottom in BJJ. Inverted half guard posit
       "name": "What is a common mistake in Poor timing on sweeps?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Results in failed sweep attempts that waste energy and potentially worsen position. The correction is: Time sweeps based on opponent's weight distribution and movement—sweep when they commit weight forward or post hands, using their momentum to facilitate the reversal."
+        "text": "Results in failed sweep attempts that waste energy and potentially worsen position. The correction is: Time sweeps based on opponent's weight distribution and movement—sweep when they commit weight forward or post hands, using their momentum to facilitate the reversal.\n  - **Recognition**: If sweeps consistently fail despite good technique, focus on timing and opponent's weight commitment."
       }
     },
     {
@@ -94,10 +101,27 @@ description: "Master Reverse Half Guard Bottom in BJJ. Inverted half guard posit
       "name": "What is a common mistake in Neglecting upper body control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent can use grips and frames to control your upper body and prevent sweeps or transitions. The correction is: Establish underhooks, control grips, or use frames to manage opponent's upper body despite inverted positioning, creating full-body control system."
+        "text": "Opponent can use grips and frames to control your upper body and prevent sweeps or transitions. The correction is: Establish underhooks, control grips, or use frames to manage opponent's upper body despite inverted positioning, creating full-body control system.\n  - **Recognition**: If opponent easily controls your upper body or prevents your movements, you lack upper body management."
       }
     }
   ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reverse Half Guard Bottom",
+  "description": "Master Reverse Half Guard Bottom in BJJ. Inverted half guard position with unique sweeps and back takes. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Positions/Reverse-Half-Guard-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -109,39 +133,24 @@ description: "Master Reverse Half Guard Bottom in BJJ. Inverted half guard posit
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Reverse Half Guard Bottom",
-      "item": "https://bjjgraph.com/positions/reverse-half-guard-bottom"
+      "item": "https://bjjgraph.org/Positions/Reverse-Half-Guard-Bottom"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Reverse Half Guard Bottom",
-  "description": "Master Reverse Half Guard Bottom in BJJ. Inverted half guard position with unique sweeps and back takes. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.",
-  "url": "https://bjjgraph.com/positions/reverse-half-guard-bottom",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Reverse Half Guard Bottom
 #bjj #state #half-guard #bottom #advanced

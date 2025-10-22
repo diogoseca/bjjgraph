@@ -3,6 +3,7 @@ title: "Can Opener | BJJ Submission Guide | BJJ Graph"
 description: "Final positioning with hands interlocked behind opponent's neck Pressure application creating severe cervical spine flexion"
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "Final positioning with hands interlocked behind opponent's neck Pr
   "@type": "WebPage",
   "name": "Can Opener",
   "description": "Final positioning with hands interlocked behind opponent's neck Pressure application creating severe cervical spine flexion",
-  "url": "https://bjjgraph.com/submissions/can-opener",
+  "url": "https://bjjgraph.org/Submissions/Can-Opener",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "Final positioning with hands interlocked behind opponent's neck Pr
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Can Opener",
-      "item": "https://bjjgraph.com/submissions/can-opener"
+      "item": "https://bjjgraph.org/Submissions/Can-Opener"
     }
   ]
 }
 </script>
+
 
 # Can Opener
 #bjj #submission #neck_crank #spine_lock #endstate #controversial

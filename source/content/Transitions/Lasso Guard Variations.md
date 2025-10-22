@@ -37,6 +37,106 @@ related_positions: ["Lasso Guard", "Spider Guard", "De La Riva Guard", "Mount", 
 related_techniques: ["Lasso Sweep", "Spider Guard Sweeps", "De La Riva Sweep", "Omoplata Setup"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Lasso Guard Variations",
+  "description": "Learn how to execute Lasso Guard Variations in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish lasso guard with opponent's arm threaded through your shin/calf, maintaining strong sleeve grip, other leg active for pushing or hooking, and additional grip on collar or pants",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Control",
+      "text": "Apply pressure with lasso leg to control their arm and posture, preventing them from posturing up or driving forward while establishing your supplementary grips",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Angle Creation",
+      "text": "Use your free leg to push their hip, hook their leg, or create angles that off-balance them in the direction your lasso control facilitates",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Read their defensive reaction - if they pull arm back you tighten lasso, if they drive forward you use momentum for sweeps, if they widen base you attack their posted leg",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Variation Execution",
+      "text": "Based on their positioning and reactions, execute specific variation: sweep to mount, back take, omoplata submission, or transition to spider or DLR guard",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Position Consolidation",
+      "text": "As they fall or position changes, maintain controls through transition and immediately establish secure position or submission control",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lasso Guard Variations",
+  "description": "Learn Lasso Guard Variations in BJJ. Multiple control and sweeping options from lasso guard configurations. Success: Beginner 40%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Lasso-Guard-Variations",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Lasso Guard Variations",
+      "item": "https://bjjgraph.org/Transitions/Lasso-Guard-Variations"
+    }
+  ]
+}
+</script>
+
+
 # Lasso Guard Variations
 #bjj #transition #guard #lasso #sweep #advanced
 

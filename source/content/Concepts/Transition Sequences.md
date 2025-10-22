@@ -45,6 +45,50 @@ application_contexts:
 tags: [bjj, concept, transitions, sequences, flow, combinations, strategy]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Transition Sequences",
+  "description": "Transition Sequences represent the sophisticated skill of linking multiple positional changes and technical actions into coherent tactical flows that create compound advantages through connected mo...",
+  "url": "https://bjjgraph.org/Concepts/Transition-Sequences",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Transition Sequences",
+      "item": "https://bjjgraph.org/Concepts/Transition-Sequences"
+    }
+  ]
+}
+</script>
+
+
 # Transition Sequences
 #bjj #concept #transitions #sequences #flow
 

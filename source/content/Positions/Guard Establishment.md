@@ -63,16 +63,14 @@ description: "Master Guard Establishment in BJJ. Complete guide covering setup, 
   "@type": "WebPage",
   "name": "Guard Establishment",
   "description": "Master Guard Establishment in BJJ. Complete guide covering setup, control, escapes, and transitions.",
-  "url": "https://bjjgraph.com/positions/guard-establishment",
+  "url": "https://bjjgraph.org/Positions/Guard-Establishment",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,19 +80,19 @@ description: "Master Guard Establishment in BJJ. Complete guide covering setup, 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Guard Establishment",
-      "item": "https://bjjgraph.com/positions/guard-establishment"
+      "item": "https://bjjgraph.org/Positions/Guard-Establishment"
     }
   ]
 }

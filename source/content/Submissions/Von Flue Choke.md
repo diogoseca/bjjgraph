@@ -32,6 +32,50 @@ author: "BJJGraph System - Agent 9"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Von Flue Choke | Blood Choke",
+  "description": "Von Flue Choke punishes guillotine attempts by using shoulder pressure against carotid from top [[Side Control]] position.",
+  "url": "https://bjjgraph.org/Submissions/Von-Flue-Choke",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Von Flue Choke",
+      "item": "https://bjjgraph.org/Submissions/Von-Flue-Choke"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ SAFETY NOTICE
 **Shoulder pressure on carotid. Apply SLOWLY. RELEASE immediately upon tap.**
 

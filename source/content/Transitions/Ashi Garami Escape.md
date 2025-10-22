@@ -37,6 +37,106 @@ related_positions: ["Ashi Garami", "Standing Position", "Top Position", "50-50 G
 related_techniques: ["50-50 Pass", "Saddle Defense", "Leg Lock Defense Framework"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Ashi Garami Escape",
+  "description": "Learn how to execute Ashi Garami Escape in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Recognize ashi garami control on your leg, identify your trapped leg and free leg, establish hand posts for stability",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Hide your heel by internally rotating trapped leg and flexing toes toward shin, post hands for base",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically tightens leg control, advances heel hook grips, or attempts to break your defensive posture",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Pull trapped knee toward your chest while maintaining heel hiding, create pressure against their legs with your free leg",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Circle your free leg around their legs while extracting trapped leg, stand up explosively once leg clears",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Establish standing position with distance from their guard, maintain awareness of re-engagement attempts",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ashi Garami Escape",
+  "description": "Learn Ashi Garami Escape in BJJ. Step-by-step execution from Ashi Garami Bottom to Standing Position. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Ashi-Garami-Escape",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Ashi Garami Escape",
+      "item": "https://bjjgraph.org/Transitions/Ashi-Garami-Escape"
+    }
+  ]
+}
+</script>
+
+
 # Ashi Garami Escape
 #bjj #transition #escape #leg-entanglement #advanced
 

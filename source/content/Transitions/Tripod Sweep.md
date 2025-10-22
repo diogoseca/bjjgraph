@@ -11,7 +11,7 @@ description: "Learn Tripod Sweep in BJJ. Step-by-step execution. Success: Beginn
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Tripod Sweep",
-  "description": "Learn how to execute Tripod Sweep in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute Tripod Sweep in Brazilian Jiu-Jitsu from Open Guard Bottom to Top Position. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -79,7 +79,24 @@ description: "Learn Tripod Sweep in BJJ. Step-by-step execution. Success: Beginn
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT5M"
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Tripod Sweep",
+  "description": "Learn Tripod Sweep in BJJ. Step-by-step execution. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Tripod-Sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -91,39 +108,24 @@ description: "Learn Tripod Sweep in BJJ. Step-by-step execution. Success: Beginn
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Tripod Sweep",
-      "item": "https://bjjgraph.com/transitions/tripod-sweep"
+      "item": "https://bjjgraph.org/Transitions/Tripod-Sweep"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Tripod Sweep",
-  "description": "Learn Tripod Sweep in BJJ. Step-by-step execution. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
-  "url": "https://bjjgraph.com/transitions/tripod-sweep",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Tripod Sweep
 #bjj #transition #sweep #open_guard #fundamental
@@ -357,7 +359,6 @@ Updates to this standard should be reflected across all transition files to main
 - [[Muscle Sweep]] - Related technique
 - [[Heel Grab Sweep]] - Related technique
 - [[Waiter Sweep]] - Related technique
-
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points)

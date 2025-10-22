@@ -94,6 +94,50 @@ author: "BJJGraph System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Omoplata Variations",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"EXTREMELY SLOW - slower than most submissions. Shoulder joints are complex with multiple injury vectors. 5-7 seconds minimum from lock to tap. In drill...",
+  "url": "https://bjjgraph.org/Submissions/Omoplata-Variations",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Omoplata Variations",
+      "item": "https://bjjgraph.org/Submissions/Omoplata-Variations"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Omoplata Variations represent a system of shoulder lock attacks from guard positions. These are terminal states resulting in shoulder joint damage if not tapped. Omoplata is HIGH-RISK due to complex shoulder anatomy and multiple injury vectors.

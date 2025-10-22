@@ -94,6 +94,50 @@ author: "BJJGraph System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reverse Kimura",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive - 4-5 seconds minimum. Shoulder external rotation under elevation is extremely vulnerable. In drilling, 7-10 seconds.\"",
+  "url": "https://bjjgraph.org/Submissions/Reverse-Kimura",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Reverse Kimura",
+      "item": "https://bjjgraph.org/Submissions/Reverse-Kimura"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: The Reverse Kimura is a shoulder lock applied with opponent's arm trapped behind their back in "chicken wing" or "hammerlock" position. It's a terminal state resulting in shoulder injury if not tapped. This is HIGH-RISK due to vulnerable shoulder external rotation combined with elevation.

@@ -66,16 +66,14 @@ description: "Master Dynamic Guard System in BJJ. Complete guide covering setup,
   "@type": "WebPage",
   "name": "Dynamic Guard System",
   "description": "Master Dynamic Guard System in BJJ. Complete guide covering setup, control, escapes, and transitions.",
-  "url": "https://bjjgraph.com/positions/dynamic-guard-system",
+  "url": "https://bjjgraph.org/Positions/Dynamic-Guard-System",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -85,19 +83,19 @@ description: "Master Dynamic Guard System in BJJ. Complete guide covering setup,
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Dynamic Guard System",
-      "item": "https://bjjgraph.com/positions/dynamic-guard-system"
+      "item": "https://bjjgraph.org/Positions/Dynamic-Guard-System"
     }
   ]
 }

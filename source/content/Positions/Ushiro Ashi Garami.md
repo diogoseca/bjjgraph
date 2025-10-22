@@ -47,16 +47,14 @@ description: "Master Ushiro Ashi Garami in BJJ. Complete guide covering setup, c
   "@type": "WebPage",
   "name": "Ushiro Ashi Garami",
   "description": "Master Ushiro Ashi Garami in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
-  "url": "https://bjjgraph.com/positions/ushiro-ashi-garami",
+  "url": "https://bjjgraph.org/Positions/Ushiro-Ashi-Garami",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,19 +64,19 @@ description: "Master Ushiro Ashi Garami in BJJ. Complete guide covering setup, c
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Ushiro Ashi Garami",
-      "item": "https://bjjgraph.com/positions/ushiro-ashi-garami"
+      "item": "https://bjjgraph.org/Positions/Ushiro-Ashi-Garami"
     }
   ]
 }
@@ -330,7 +328,6 @@ Updates to this standard should be reflected across all position files to mainta
 ## Related Positions
 
 - [[Ashi Garami]] - Related position
-
 
 ## Historical Context
 Ushiro Ashi Garami represents a modern evolution in Brazilian Jiu-Jitsu, particularly in leg attack systems, showcasing how traditional grappling concepts can be adapted for specialized control. Developed within the last decade by leg lock specialists, it has become a key position in no-gi and submission grappling tournaments.

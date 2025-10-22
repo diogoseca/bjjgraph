@@ -164,6 +164,7 @@ state_machine:
 ---
 
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -174,38 +175,38 @@ state_machine:
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Control Points",
-      "text": "Secure all necessary control points for your chosen submission, eliminating opponent's ability to escape before applying pressure.",
+      "name": "Execute Finish Submission",
+      "text": "From this position, execute Finish Submission to transition to Won by Submission.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Isolate Target",
-      "text": "Isolate the target limb, joint, or neck from opponent's defensive structure, creating mechanical advantage for submission.",
+      "name": "Execute Rear Naked Choke",
+      "text": "From this position, execute Rear Naked Choke to transition to Won by Submission.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Apply Progressive Pressure",
-      "text": "Apply submission pressure gradually and progressively, allowing partner to tap safely before injury occurs.",
+      "name": "Execute Adjust Position",
+      "text": "From this position, execute Adjust Position to transition to Submission Position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Adjust for Defense",
-      "text": "If opponent defends, adjust angle, grip, or pressure point to maintain submission threat and control.",
+      "name": "Execute Transition to Alternative Submission",
+      "text": "From this position, execute Transition to Alternative Submission to transition to Submission Position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Chain Submissions",
-      "text": "When primary submission is defended, immediately transition to alternative submission based on opponent's defensive movement.",
+      "name": "Execute Maintain Control",
+      "text": "From this position, execute Maintain Control to transition to Top Control.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Finish or Reset",
-      "text": "Either complete the submission for tap out, or release safely and maintain positional control for next attack.",
+      "name": "Execute Chain to Next Attack",
+      "text": "From this position, execute Chain to Next Attack to transition to Submission Position.",
       "position": 6
     }
   ],
@@ -228,7 +229,7 @@ state_machine:
       "name": "What is a common mistake in Applying pressure too quickly?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Risks injury to training partner and doesn't allow time for safe tap, creating dangerous training environment. The correction is: Apply pressure progressively over 3-5 seconds minimum, watching for tap signal at all times during application."
+        "text": "Risks injury to training partner and doesn't allow time for safe tap, creating dangerous training environment. The correction is: Apply pressure progressively over 3-5 seconds minimum, watching for tap signal at all times during application.\n  - **Recognition**: In training, if partner shows sudden distress or joint sounds occur, you're applying pressure too fast."
       }
     },
     {
@@ -236,7 +237,7 @@ state_machine:
       "name": "What is a common mistake in Incomplete control points?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to escape or counter the submission, wasting the positional advantage and energy expenditure. The correction is: Ensure all control points are secure before applying finishing pressure - check position before committing to submission."
+        "text": "Allows opponent to escape or counter the submission, wasting the positional advantage and energy expenditure. The correction is: Ensure all control points are secure before applying finishing pressure - check position before committing to submission.\n  - **Recognition**: If opponent escapes easily or you feel them creating space, control points weren't fully established."
       }
     },
     {
@@ -244,7 +245,7 @@ state_machine:
       "name": "What is a common mistake in Tunnel vision on single submission?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Limits your options when opponent defends, allowing them to escape while you fixate on defended attack. The correction is: Recognize multiple submission options from position and flow between them based on opponent's defensive reactions."
+        "text": "Limits your options when opponent defends, allowing them to escape while you fixate on defended attack. The correction is: Recognize multiple submission options from position and flow between them based on opponent's defensive reactions.\n  - **Recognition**: If you're stuck trying the same submission while opponent successfully defends, you've missed transition opportunities."
       }
     },
     {
@@ -252,7 +253,7 @@ state_machine:
       "name": "What is a common mistake in Losing base or balance?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Compromises submission effectiveness and allows opponent to escape or reverse position entirely. The correction is: Maintain stable base with proper weight distribution even while applying submission pressure."
+        "text": "Compromises submission effectiveness and allows opponent to escape or reverse position entirely. The correction is: Maintain stable base with proper weight distribution even while applying submission pressure.\n  - **Recognition**: If opponent is able to roll you or create significant movement, your base has been compromised."
       }
     },
     {
@@ -260,7 +261,7 @@ state_machine:
       "name": "What is a common mistake in Releasing too early?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Gives up submission opportunity and allows opponent to escape when submission was nearly successful. The correction is: Maintain submission pressure until clear tap or until opponent has completely escaped the mechanism."
+        "text": "Gives up submission opportunity and allows opponent to escape when submission was nearly successful. The correction is: Maintain submission pressure until clear tap or until opponent has completely escaped the mechanism.\n  - **Recognition**: If you frequently \"almost get\" submissions but they escape at the last moment, you may be releasing prematurely."
       }
     }
   ]
@@ -275,16 +276,14 @@ state_machine:
   "@type": "WebPage",
   "name": "Submission Position",
   "description": "Master Submission Position in BJJ. Complete guide covering control, finishing mechanics, and defense patterns. Success rates: Beginner 40%, Intermediate 60%, Advanced 80%.",
-  "url": "https://bjjgraph.com/positions/submission-position",
+  "url": "https://bjjgraph.org/Positions/Submission-Position",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -294,19 +293,19 @@ state_machine:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Submission Position",
-      "item": "https://bjjgraph.com/positions/submission-position"
+      "item": "https://bjjgraph.org/Positions/Submission-Position"
     }
   ]
 }

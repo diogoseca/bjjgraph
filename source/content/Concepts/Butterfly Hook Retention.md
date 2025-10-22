@@ -46,6 +46,50 @@ application_contexts:
 tags: [bjj, concept, intermediate, guard, retention, butterfly, hooks]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Butterfly Hook Retention",
+  "description": "Butterfly Hook Retention represents the fundamental skill of maintaining and preserving butterfly hooks as primary control mechanisms in seated guard positions, preventing hook removal and guard pa...",
+  "url": "https://bjjgraph.org/Concepts/Butterfly-Hook-Retention",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Butterfly Hook Retention",
+      "item": "https://bjjgraph.org/Concepts/Butterfly-Hook-Retention"
+    }
+  ]
+}
+</script>
+
+
 # Butterfly Hook Retention
 #bjj #concept #intermediate #guard #retention #butterfly
 

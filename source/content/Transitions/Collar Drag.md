@@ -79,16 +79,14 @@ description: "Learn Collar Drag in BJJ. Step-by-step execution from Standing Pos
   "@type": "WebPage",
   "name": "Collar Drag",
   "description": "Learn Collar Drag in BJJ. Step-by-step execution from Standing Position to Top Position. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/collar-drag",
+  "url": "https://bjjgraph.org/Transitions/Collar-Drag",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Collar Drag in BJJ. Step-by-step execution from Standing Pos
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Collar Drag",
-      "item": "https://bjjgraph.com/transitions/collar-drag"
+      "item": "https://bjjgraph.org/Transitions/Collar-Drag"
     }
   ]
 }
@@ -311,7 +309,6 @@ The Collar Drag has proven highly effective in competition contexts across all l
 - Gi competition: Leverages secure cloth grips for enhanced control and power.
 - No-gi competition: Relies more on timing and neck/shoulder control for success.
 - MMA crossover: Offers takedown option with minimal risk exposure to strikes.
-
 
 ## Related Techniques
 

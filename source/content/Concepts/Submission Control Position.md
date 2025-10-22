@@ -47,6 +47,50 @@ application_contexts:
 tags: [bjj, concept, advanced, submissions, control, finishing, maintenance]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Submission Control Position | Concept",
+  "description": "Submission Control Position represents the advanced framework for maintaining positional dominance and control integrity during active submission attempts while opponent actively defends, escapes, ...",
+  "url": "https://bjjgraph.org/Concepts/Submission-Control-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Submission Control Position",
+      "item": "https://bjjgraph.org/Concepts/Submission-Control-Position"
+    }
+  ]
+}
+</script>
+
+
 # Submission Control Position
 #bjj #concept #advanced #submissions #control
 

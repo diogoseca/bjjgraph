@@ -93,6 +93,50 @@ author: "BJJGraph System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Heel Hook | Joint Lock",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"EXTREMELY SLOW in training. 5-7 seconds minimum. Competition speed only in high-level competition with ref present. Injuries occur in 1-2 seconds with ...",
+  "url": "https://bjjgraph.org/Submissions/Heel-Hook",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Heel Hook",
+      "item": "https://bjjgraph.org/Submissions/Heel-Hook"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Heel Hook is one of the most dangerous submissions in BJJ, capable of causing career-ending injuries in seconds. This is a terminal state in the BJJ state machine. Success results in immediate match victory OR catastrophic injury. Safety is absolutely paramount.

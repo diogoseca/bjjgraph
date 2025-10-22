@@ -3,6 +3,7 @@ title: "Guillotine Sequence | BJJ Submission Guide | BJJ Graph"
 description: "From a position such as Front Headlock, Closed Guard Bottom, or Half Guard Bottom, initiate the Guillotine by capturing the opponent's head under your armpit, securing a chin strap grip with your..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "From a position such as Front Headlock, Closed Guard Bottom, or Ha
   "@type": "WebPage",
   "name": "Guillotine Sequence",
   "description": "From a position such as Front Headlock, Closed Guard Bottom, or Half Guard Bottom, initiate the Guillotine by capturing the opponent's head under your armpit, securing a chin strap grip with your...",
-  "url": "https://bjjgraph.com/submissions/guillotine-sequence",
+  "url": "https://bjjgraph.org/Submissions/Guillotine-Sequence",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "From a position such as Front Headlock, Closed Guard Bottom, or Ha
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Guillotine Sequence",
-      "item": "https://bjjgraph.com/submissions/guillotine-sequence"
+      "item": "https://bjjgraph.org/Submissions/Guillotine-Sequence"
     }
   ]
 }
 </script>
+
 
 # Guillotine Sequence
 #bjj #submission #choke #front_headlock #guillotine

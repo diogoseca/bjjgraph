@@ -89,6 +89,50 @@ author: "BJJGraph Agent System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guillotine Choke",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"VERY SLOW and progressive. Guillotine should take 4-6 seconds minimum in training. This choke affects trachea which is fragile. Never spike or jerk.\"",
+  "url": "https://bjjgraph.org/Submissions/Guillotine-Choke",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Guillotine Choke",
+      "item": "https://bjjgraph.org/Submissions/Guillotine-Choke"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Guillotine Choke is a versatile front choke that can be applied from standing or ground positions. It's a terminal state with HIGH RISK due to trachea pressure. Extra safety emphasis required.

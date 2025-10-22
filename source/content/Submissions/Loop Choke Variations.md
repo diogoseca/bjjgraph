@@ -90,6 +90,50 @@ author: "BJJGraph System - Agent 12"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Loop Choke Variations | Submission",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. Loop choke should take minimum 3-5 seconds in training. Partner will feel pressure building gradually.\"",
+  "url": "https://bjjgraph.org/Submissions/Loop-Choke-Variations",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Loop Choke Variations",
+      "item": "https://bjjgraph.org/Submissions/Loop-Choke-Variations"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Loop Choke Variations are gi-specific blood choke submissions from top positions. Success results in unconsciousness if held beyond tap. Safety is paramount - this technique can render opponent unconscious in 4-10 seconds.

@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Competition Preparation System",
   "description": "The Competition Preparation System provides a holistic methodology for optimizing performance in Brazilian Jiu-Jitsu tournaments. This framework addresses the multifaceted requirements of competiti...",
-  "url": "https://bjjgraph.com/systems/competition-preparation-system",
+  "url": "https://bjjgraph.org/Systems/Competition-Preparation-System",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Systems",
-      "item": "https://bjjgraph.com/systems/"
+      "item": "https://bjjgraph.org/Systems/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Competition Preparation System",
-      "item": "https://bjjgraph.com/systems/competition-preparation-system"
+      "item": "https://bjjgraph.org/Systems/Competition-Preparation-System"
     }
   ]
 }

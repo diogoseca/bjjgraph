@@ -4,6 +4,7 @@ description: "Master Inside Ashi Garami Top in BJJ. Leg entanglement control for
 ---
 
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -14,33 +15,39 @@ description: "Master Inside Ashi Garami Top in BJJ. Leg entanglement control for
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Inside Position",
-      "text": "Secure inside position by placing your inside leg across opponent's hip while controlling their far leg with your legs.",
+      "name": "Execute Straight Ankle Lock",
+      "text": "From this position, execute Straight Ankle Lock to transition to Won by Submission.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock",
-      "text": "From inside ashi, execute straight ankle lock by controlling heel and extending hips.",
+      "name": "Execute Inside Heel Hook",
+      "text": "From this position, execute Inside Heel Hook to transition to Won by Submission.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Heel Hook",
-      "text": "From inside ashi, transition to inside heel hook by adjusting grip and rotating heel.",
+      "name": "Execute Kneebar",
+      "text": "From this position, execute Kneebar to transition to Kneebar Control.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Transition to Honey Hole",
-      "text": "From inside ashi, transition to honey hole position by adjusting leg configuration and achieving deeper control.",
+      "name": "Execute Honey Hole Transition",
+      "text": "From this position, execute Honey Hole Transition to transition to Honey Hole Position Top.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar",
-      "text": "From inside ashi, execute kneebar by isolating knee and extending opponent's leg.",
+      "name": "Execute Saddle Transition",
+      "text": "From this position, execute Saddle Transition to transition to Saddle Position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Outside Ashi Transition",
+      "text": "From this position, execute Outside Ashi Transition to transition to Outside Ashi Garami Top.",
+      "position": 6
     }
   ],
   "tool": [
@@ -62,7 +69,7 @@ description: "Master Inside Ashi Garami Top in BJJ. Leg entanglement control for
       "name": "What is a common mistake in Loose leg control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to extract leg and escape entanglement, losing attacking position. The correction is: Maintain tight leg control by keeping your legs clamped around opponent's trapped leg, using inside leg across hip and outside leg hooking behind their knee."
+        "text": "Allows opponent to extract leg and escape entanglement, losing attacking position. The correction is: Maintain tight leg control by keeping your legs clamped around opponent's trapped leg, using inside leg across hip and outside leg hooking behind their knee.\n  - **Recognition**: If opponent's leg feels loose or they're making progress extracting it, your leg control needs tightening."
       }
     },
     {
@@ -70,7 +77,7 @@ description: "Master Inside Ashi Garami Top in BJJ. Leg entanglement control for
       "name": "What is a common mistake in Poor body angle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Reduces submission effectiveness and makes position easier to counter or escape. The correction is: Position body perpendicular to opponent with proper alignment—inside leg controls hip, outside leg controls knee, upper body angled for optimal leverage on trapped leg."
+        "text": "Reduces submission effectiveness and makes position easier to counter or escape. The correction is: Position body perpendicular to opponent with proper alignment—inside leg controls hip, outside leg controls knee, upper body angled for optimal leverage on trapped leg.\n  - **Recognition**: If submissions feel weak or opponent easily defends, examine your body angle and alignment."
       }
     },
     {
@@ -78,7 +85,7 @@ description: "Master Inside Ashi Garami Top in BJJ. Leg entanglement control for
       "name": "What is a common mistake in Neglecting upper body control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent can use hands to defend leg or create frames that neutralize attacks. The correction is: Control opponent's upper body with grips, frames, or positioning to limit their defensive capabilities while setting up leg attacks."
+        "text": "Opponent can use hands to defend leg or create frames that neutralize attacks. The correction is: Control opponent's upper body with grips, frames, or positioning to limit their defensive capabilities while setting up leg attacks.\n  - **Recognition**: If opponent successfully blocks submissions with hand fighting, you need better upper body control."
       }
     },
     {
@@ -86,7 +93,7 @@ description: "Master Inside Ashi Garami Top in BJJ. Leg entanglement control for
       "name": "What is a common mistake in Rushing submission attempts?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Results in lost position as opponent escapes during premature attack, losing control before securing finish. The correction is: Build control progressively—establish entanglement, eliminate space, control hips, isolate leg, then apply submission slowly with full control."
+        "text": "Results in lost position as opponent escapes during premature attack, losing control before securing finish. The correction is: Build control progressively—establish entanglement, eliminate space, control hips, isolate leg, then apply submission slowly with full control.\n  - **Recognition**: If opponent frequently escapes during your attacks, you're rushing the finish before securing position."
       }
     },
     {
@@ -94,10 +101,27 @@ description: "Master Inside Ashi Garami Top in BJJ. Leg entanglement control for
       "name": "What is a common mistake in Ignoring opponent's free leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to use free leg for frames, escapes, or even counter-attacks. The correction is: Monitor and control opponent's free leg positioning with your body angle and leg placement to prevent them from using it effectively in defense."
+        "text": "Allows opponent to use free leg for frames, escapes, or even counter-attacks. The correction is: Monitor and control opponent's free leg positioning with your body angle and leg placement to prevent them from using it effectively in defense.\n  - **Recognition**: If opponent's free leg interferes with your attacks or creates escape opportunities, you're not managing it properly."
       }
     }
   ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inside Ashi Garami Top",
+  "description": "Master Inside Ashi Garami Top in BJJ. Leg entanglement control for heel hooks and knee attacks. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Positions/Inside-Ashi-Garami-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -109,39 +133,24 @@ description: "Master Inside Ashi Garami Top in BJJ. Leg entanglement control for
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Inside Ashi Garami Top",
-      "item": "https://bjjgraph.com/positions/inside-ashi-garami-top"
+      "item": "https://bjjgraph.org/Positions/Inside-Ashi-Garami-Top"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Inside Ashi Garami Top",
-  "description": "Master Inside Ashi Garami Top in BJJ. Leg entanglement control for heel hooks and knee attacks. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.",
-  "url": "https://bjjgraph.com/positions/inside-ashi-garami-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Inside Ashi Garami Top
 #bjj #state #leg-entanglement #top #intermediate

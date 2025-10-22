@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Grip Fighting",
   "description": "Grip Fighting represents the fundamental tactical battle for control through hand engagement that occurs throughout all phases of Brazilian Jiu-Jitsu. Unlike specific techniques or positions, grip ...",
-  "url": "https://bjjgraph.com/concepts/grip-fighting",
+  "url": "https://bjjgraph.org/Concepts/Grip-Fighting",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Grip Fighting",
-      "item": "https://bjjgraph.com/concepts/grip-fighting"
+      "item": "https://bjjgraph.org/Concepts/Grip-Fighting"
     }
   ]
 }

@@ -186,43 +186,43 @@ state_machine:
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Pull Guard in BJJ",
-  "description": "Complete guide to executing guard pulls and establishing preferred guard positions.",
+  "name": "How to Use Pull Guard in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Pull Guard.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Grips",
-      "text": "Secure appropriate grips on opponent's collar, sleeves, or body to control their posture and balance.",
+      "name": "Execute Closed Guard Bottom",
+      "text": "From this position, execute Closed Guard Bottom to transition to Closed Guard Bottom.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Control Distance",
-      "text": "Manage distance and timing to prevent opponent from establishing strong base before pull.",
+      "name": "Execute Open Guard Bottom",
+      "text": "From this position, execute Open Guard Bottom to transition to Open Guard Bottom.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Pull Motion",
-      "text": "Sit to the mat while pulling opponent forward and controlling their posture with grips.",
+      "name": "Execute De La Riva Guard",
+      "text": "From this position, execute De La Riva Guard to transition to De La Riva Guard.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Establish Guard Configuration",
-      "text": "Immediately establish chosen guard type (closed, open, spider, etc.) to prevent passing.",
+      "name": "Execute X-Guard",
+      "text": "From this position, execute X-Guard to transition to X-Guard.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Control Opponent's Base",
-      "text": "Use grips and leg positioning to break opponent's balance and prevent immediate passing attempts.",
+      "name": "Execute Single Leg X Guard",
+      "text": "From this position, execute Single Leg X Guard to transition to Single Leg X Guard.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Begin Offensive Sequence",
-      "text": "Transition immediately to sweeps, submissions, or advanced guard positions from established guard.",
+      "name": "Execute Butterfly Guard",
+      "text": "From this position, execute Butterfly Guard to transition to Butterfly Guard.",
       "position": 6
     }
   ],
@@ -231,7 +231,7 @@ state_machine:
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT2M"
+  "totalTime": "PT5M"
 }
 </script>
 
@@ -245,7 +245,7 @@ state_machine:
       "name": "What is a common mistake in Pulling without grips?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to immediately establish passing position or dominant control without resistance. The correction is: Always secure grips on collar, sleeves, or body before initiating guard pull to maintain control throughout transition."
+        "text": "Allows opponent to immediately establish passing position or dominant control without resistance. The correction is: Always secure grips on collar, sleeves, or body before initiating guard pull to maintain control throughout transition.\n  - **Recognition**: If opponent is standing freely after you land, you pulled without adequate grip control."
       }
     },
     {
@@ -253,7 +253,7 @@ state_machine:
       "name": "What is a common mistake in Pulling too early or late?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Early pull gives opponent time to prepare defense; late pull allows them to establish dominant grips and base. The correction is: Time your pull when opponent is off-balance or moving forward, maximizing effectiveness of your pulling motion."
+        "text": "Early pull gives opponent time to prepare defense; late pull allows them to establish dominant grips and base. The correction is: Time your pull when opponent is moving forward or off-balance, maximizing effectiveness of your pulling motion.\n  - **Recognition**: If opponent easily establishes passing position or you feel like you're pulling against strong resistance, timing was off."
       }
     },
     {
@@ -261,7 +261,7 @@ state_machine:
       "name": "What is a common mistake in Landing on back without guard?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Creates immediate passing opportunity for opponent, negating the purpose of guard pull entirely. The correction is: Establish guard configuration (closed legs, hooks, grips) simultaneously with landing to prevent immediate pass."
+        "text": "Creates immediate passing opportunity for opponent, negating the purpose of guard pull entirely. The correction is: Establish guard configuration (closed legs, hooks, grips) simultaneously with landing to prevent immediate pass.\n  - **Recognition**: If there's any delay between landing and establishing guard, you're vulnerable to passing."
       }
     },
     {
@@ -269,7 +269,7 @@ state_machine:
       "name": "What is a common mistake in Weak or lazy guard pull?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Concedes top position without establishing effective guard, essentially giving opponent advantageous position. The correction is: Commit fully to guard pull with strong grips and immediate guard establishment, treating it as active technique not passive retreat."
+        "text": "Concedes top position without establishing effective guard, essentially giving opponent advantageous position. The correction is: Commit fully to guard pull with strong grips and immediate guard establishment, treating it as active technique not passive retreat.\n  - **Recognition**: If opponent is able to maintain upright posture or disengage from your guard easily, your pull was too weak."
       }
     },
     {
@@ -277,7 +277,7 @@ state_machine:
       "name": "What is a common mistake in Wrong guard choice for situation?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Pulling to guard that doesn't match your strengths or opponent's position creates disadvantageous starting point. The correction is: Choose guard type based on grips available, gi vs no-gi, opponent's stance, and your strongest guard game."
+        "text": "Pulling to guard that doesn't match your strengths or opponent's position creates disadvantageous starting point. The correction is: Choose guard type based on grips available, gi vs no-gi, opponent's stance, and your strongest guard game.\n  - **Recognition**: If you land in a guard and don't know your next move, you chose the wrong guard for the situation."
       }
     }
   ]
@@ -292,16 +292,14 @@ state_machine:
   "@type": "WebPage",
   "name": "Pull Guard",
   "description": "Master pulling guard in BJJ. Complete guide covering entries, control establishment, and tactical guard pulling. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.",
-  "url": "https://bjjgraph.com/positions/pull-guard",
+  "url": "https://bjjgraph.org/Positions/Pull-Guard",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -311,19 +309,19 @@ state_machine:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Pull Guard",
-      "item": "https://bjjgraph.com/positions/pull-guard"
+      "item": "https://bjjgraph.org/Positions/Pull-Guard"
     }
   ]
 }

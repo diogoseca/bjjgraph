@@ -47,18 +47,19 @@ application_contexts:
 tags: [bjj, concept, fundamental, posture, guard, passing]
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Posture Up | BJJ Concept | BJJ Graph",
+  "name": "Posture Up",
   "description": "Master posture recovery in BJJ with systematic elevation methods. Learn postural mechanics, breaking strategies, and defensive posture. Expert insights from Danaher, Ryan, and Bravo.",
-  "url": "https://bjjgraph.com/concepts/posture-up",
+  "url": "https://bjjgraph.org/Concepts/Posture-Up",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -71,23 +72,24 @@ tags: [bjj, concept, fundamental, posture, guard, passing]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Posture Up",
-      "item": "https://bjjgraph.com/concepts/posture-up"
+      "item": "https://bjjgraph.org/Concepts/Posture-Up"
     }
   ]
 }
 </script>
+
 
 # Posture Up
 #bjj #concept #fundamental #posture #guard

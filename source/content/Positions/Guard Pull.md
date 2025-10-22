@@ -63,16 +63,14 @@ description: "Master Guard Pull in BJJ. Complete guide covering setup, control, 
   "@type": "WebPage",
   "name": "Guard Pull",
   "description": "Master Guard Pull in BJJ. Complete guide covering setup, control, escapes, and transitions.",
-  "url": "https://bjjgraph.com/positions/guard-pull",
+  "url": "https://bjjgraph.org/Positions/Guard-Pull",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,19 +80,19 @@ description: "Master Guard Pull in BJJ. Complete guide covering setup, control, 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Guard Pull",
-      "item": "https://bjjgraph.com/positions/guard-pull"
+      "item": "https://bjjgraph.org/Positions/Guard-Pull"
     }
   ]
 }

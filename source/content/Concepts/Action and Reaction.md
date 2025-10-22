@@ -44,6 +44,50 @@ application_contexts:
 tags: [bjj, concept, intermediate, strategy, tactics, reaction]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Action and Reaction | Concept",
+  "description": "Action and Reaction represents the fundamental strategic principle of creating deliberate opponent responses through specific actions, then exploiting the predictable counter-movements and defensiv...",
+  "url": "https://bjjgraph.org/Concepts/Action-and-Reaction",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Action and Reaction",
+      "item": "https://bjjgraph.org/Concepts/Action-and-Reaction"
+    }
+  ]
+}
+</script>
+
+
 # Action and Reaction
 #bjj #concept #intermediate #strategy #tactics
 

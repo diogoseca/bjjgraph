@@ -11,7 +11,7 @@ description: "Learn Guillotine from Turtle in BJJ. Step-by-step execution from T
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Guillotine from Turtle",
-  "description": "Learn how to execute Guillotine from Turtle in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute Guillotine from Turtle in Brazilian Jiu-Jitsu from Turtle Position Top to Guillotine Control. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -22,31 +22,31 @@ description: "Learn Guillotine from Turtle in BJJ. Step-by-step execution from T
     {
       "@type": "HowToStep",
       "name": "Arm Insertion",
-      "text": "Thread arm under opponent's neck from the side, palm up position",
+      "text": "Thread arm under opponent's neck from the side, palm up position for proper choking mechanics",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Wrist Control",
-      "text": "Secure wrist-to-wrist or palm-to-palm grip configuration",
+      "text": "Secure wrist-to-wrist or palm-to-palm grip configuration, eliminating space",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Hip Position",
-      "text": "Adjust hip position to side or guard pull for optimal angle",
+      "text": "Adjust hip position to side or guard pull for optimal choking angle and opponent immobilization",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Neck Control",
-      "text": "Apply progressive choking pressure by lifting elbow and pulling wrist",
+      "text": "Apply progressive choking pressure by lifting elbow and pulling wrist while maintaining body position",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Finish or Maintain",
-      "text": "Complete submission or maintain guillotine control position",
+      "text": "Complete submission or maintain guillotine control position for positional dominance",
       "position": 6
     }
   ],
@@ -58,6 +58,23 @@ description: "Learn Guillotine from Turtle in BJJ. Step-by-step execution from T
   "totalTime": "PT5M"
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guillotine from Turtle",
+  "description": "Learn Guillotine from Turtle in BJJ. Step-by-step execution from Turtle Top to Guillotine Control. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Guillotine-from-Turtle",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,39 +84,24 @@ description: "Learn Guillotine from Turtle in BJJ. Step-by-step execution from T
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Guillotine from Turtle",
-      "item": "https://bjjgraph.com/transitions/guillotine-from-turtle"
+      "item": "https://bjjgraph.org/Transitions/Guillotine-from-Turtle"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Guillotine from Turtle",
-  "description": "Learn Guillotine from Turtle in BJJ. Step-by-step execution from Turtle Top to Guillotine Control. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
-  "url": "https://bjjgraph.com/transitions/guillotine-from-turtle",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Guillotine from Turtle
 #bjj #transition #submission_setup #turtle #front_headlock

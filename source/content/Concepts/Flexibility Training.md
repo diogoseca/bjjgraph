@@ -44,6 +44,50 @@ application_contexts:
 tags: [bjj, concept, fundamental, flexibility, mobility, training, conditioning]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Flexibility Training",
+  "description": "Flexibility Training represents the systematic development of range of motion, joint mobility, and muscle elasticity that enables technical execution, injury prevention, and positional versatility ...",
+  "url": "https://bjjgraph.org/Concepts/Flexibility-Training",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Flexibility Training",
+      "item": "https://bjjgraph.org/Concepts/Flexibility-Training"
+    }
+  ]
+}
+</script>
+
+
 # Flexibility Training
 #bjj #concept #fundamental #flexibility #mobility
 

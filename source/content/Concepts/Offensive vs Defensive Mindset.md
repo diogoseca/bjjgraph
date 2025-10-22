@@ -44,6 +44,50 @@ application_contexts:
 tags: [bjj, concept, fundamental, psychology, strategy, mindset]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Offensive vs Defensive Mindset | Concept",
+  "description": "Offensive vs Defensive Mindset represents the fundamental strategic orientation that determines whether a practitioner prioritizes initiative, advancement, and attacking (offensive) or preservation...",
+  "url": "https://bjjgraph.org/Concepts/Offensive-vs-Defensive-Mindset",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Offensive vs Defensive Mindset",
+      "item": "https://bjjgraph.org/Concepts/Offensive-vs-Defensive-Mindset"
+    }
+  ]
+}
+</script>
+
+
 # Offensive vs Defensive Mindset
 #bjj #concept #fundamental #psychology #strategy
 

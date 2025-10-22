@@ -46,18 +46,19 @@ application_contexts:
 tags: [bjj, concept, intermediate, transitions, timing, control, strategy]
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Transition Management | Concept | BJJ Graph",
+  "name": "Transition Management | Concept",
   "description": "Master transition management in BJJ - the systematic control of position changes between states. Learn timing, risk assessment, and decision-making frameworks to maximize success during dynamic movements.",
-  "url": "https://bjjgraph.com/concepts/transition-management",
+  "url": "https://bjjgraph.org/Concepts/Transition-Management",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -70,23 +71,24 @@ tags: [bjj, concept, intermediate, transitions, timing, control, strategy]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Transition Management",
-      "item": "https://bjjgraph.com/concepts/transition-management"
+      "item": "https://bjjgraph.org/Concepts/Transition-Management"
     }
   ]
 }
 </script>
+
 
 # Transition Management
 #bjj #concept #intermediate #transitions #timing #control

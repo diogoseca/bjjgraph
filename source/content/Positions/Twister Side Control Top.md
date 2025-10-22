@@ -16,32 +16,20 @@ description: "Master Twister Side Control Top in BJJ. Complete guide covering co
     {
       "@type": "HowToStep",
       "name": "Execute Twister Entry",
-      "text": "From this position, execute Twister Entry to transition to Twister Control.",
+      "text": "From Twister Side Control Top, execute Twister Entry to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Calf Slicer Setup",
-      "text": "From this position, execute Calf Slicer Setup to transition to Calf Slicer Control.",
+      "name": "Execute Twister Control",
+      "text": "From Twister Side Control Top, execute Twister Control to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Setup",
-      "text": "From this position, execute Electric Chair Setup to transition to Electric Chair Position.",
+      "name": "Execute Calf Slicer Setup",
+      "text": "From Twister Side Control Top, execute Calf Slicer Setup to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Back Transition",
-      "text": "From this position, execute Back Transition to transition to Back Control.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Standard Side Control",
-      "text": "From this position, execute Standard Side Control to transition to Side Control Top.",
-      "position": 5
     }
   ],
   "tool": [
@@ -50,6 +38,40 @@ description: "Master Twister Side Control Top in BJJ. Complete guide covering co
     "Mat space"
   ],
   "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Twister Side Control Top?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Dual-Plane Control**: Combine upper body pressure with lower body leg entanglement for comprehensive immobilization"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Twister Side Control Top",
+  "description": "Master Twister Side Control Top in BJJ. Complete guide covering control, pressure, and twister setups. Specialized position with 70% retention and submission paths to Twister.",
+  "url": "https://bjjgraph.org/Positions/Twister-Side-Control-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -61,40 +83,24 @@ description: "Master Twister Side Control Top in BJJ. Complete guide covering co
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Twister Side Control Top",
-      "item": "https://bjjgraph.com/positions/twister-side-control-top"
+      "item": "https://bjjgraph.org/Positions/Twister-Side-Control-Top"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Twister Side Control Top",
-  "description": "Master Twister Side Control Top in BJJ. Complete guide covering control, pressure, and twister setups. Specialized position with 70% retention and submission paths to Twister.",
-  "url": "https://bjjgraph.com/positions/twister-side-control-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Twister Side Control Top
 #bjj #state #dominant #10thplanet #side_control

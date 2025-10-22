@@ -58,6 +58,72 @@ description: "Master Neutral Position in BJJ. Complete guide covering setup, con
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Hesitation during critical decision points?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Initiative loss"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Premature commitment to low-percentage options?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Defensive vulnerability"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Neglecting grip establishment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Control disadvantage"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor distance management?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Compromised position"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Lack of strategic direction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reactive rather than proactive positioning"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Neutral Position",
+  "description": "Master Neutral Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 50%.",
+  "url": "https://bjjgraph.org/Positions/Neutral-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Neutral Position in BJJ. Complete guide covering setup, con
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Neutral Position",
-      "item": "https://bjjgraph.com/positions/neutral-position"
+      "item": "https://bjjgraph.org/Positions/Neutral-Position"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Neutral Position",
-  "description": "Master Neutral Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 50%.",
-  "url": "https://bjjgraph.com/positions/neutral-position",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Neutral Position
 #bjj #state #transition #neutral #fundamental
@@ -194,7 +244,6 @@ Both practitioners face each other with roughly equal positioning, neither havin
 - [[Guard Position]] - Potential outcome from neutral
 - [[Grip Fighting]] - Fundamental component
 - [[Clinch Position]] - Related neutral engagement
-
 
 ## Related Positions
 

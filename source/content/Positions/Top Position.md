@@ -58,6 +58,72 @@ description: "Master Top Position in BJJ. Complete guide covering setup, control
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Overcommitting weight?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to sweeps"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor base management?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Instability during transitions"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Neglecting hip control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Guard recovery opportunities"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Passive positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Giving opponent time to recover"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Rushing to finish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Skipping consolidation steps"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Top Position",
+  "description": "Master Top Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
+  "url": "https://bjjgraph.org/Positions/Top-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Top Position in BJJ. Complete guide covering setup, control
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Top Position",
-      "item": "https://bjjgraph.com/positions/top-position"
+      "item": "https://bjjgraph.org/Positions/Top-Position"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Top Position",
-  "description": "Master Top Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
-  "url": "https://bjjgraph.com/positions/top-position",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Top Position
 #bjj #state #top #positional_control
@@ -186,7 +236,6 @@ The practitioner is positioned above the opponent with their weight distributed 
 - [[Headquarters Position]] - Specialized top control position
 - [[Combat Base]] - Specific kneeling posture for top control
 - [[Knee Cut Position]] - Dynamic passing position
-
 
 ## Related Positions
 

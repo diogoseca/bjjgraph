@@ -39,8 +39,8 @@ description: "Master Triangle Control in BJJ. Complete guide covering setup, con
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle to Back",
-      "text": "From this position, execute Triangle to Back to transition to Back Control.",
+      "name": "Execute Triangle Choke Back",
+      "text": "From this position, execute Triangle Choke Back to transition to Back Control.",
       "position": 5
     }
   ],
@@ -52,6 +52,72 @@ description: "Master Triangle Control in BJJ. Complete guide covering setup, con
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor angle (staying square to opponent)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reduced choking pressure"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Crossing ankles incorrectly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Ineffective lock"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Focusing solely on leg squeeze?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Insufficient pressure on arteries"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Allowing space above shoulders?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Opponent can create defensive frames"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Pulling on head only?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Strain on your own neck/back"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle Control",
+  "description": "Master Triangle Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
+  "url": "https://bjjgraph.org/Positions/Triangle-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -61,40 +127,24 @@ description: "Master Triangle Control in BJJ. Complete guide covering setup, con
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Triangle Control",
-      "item": "https://bjjgraph.com/positions/triangle-control"
+      "item": "https://bjjgraph.org/Positions/Triangle-Control"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Triangle Control",
-  "description": "Master Triangle Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
-  "url": "https://bjjgraph.com/positions/triangle-control",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Triangle Control
 #bjj #state #submission #control
@@ -176,7 +226,6 @@ You are on your back with your legs wrapped around your opponent's neck and one 
 - [[Mounted Triangle]] - Triangle applied from top position
 - [[Inverted Triangle]] - Variation with different angle
 - [[Triangle Control]] - Triangle combined with back control
-
 
 ## Related Positions
 

@@ -37,6 +37,106 @@ related_positions: ["Omoplata Control", "Mount", "Closed Guard Bottom"]
 related_techniques: ["Omoplata", "Mount Transition", "Omoplata to Back"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Omoplata to Sweep",
+  "description": "Learn how to execute Omoplata to Sweep in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Omoplata Control",
+      "text": "Establish omoplata control position with opponent's arm trapped behind back, your leg over shoulder",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Roll Recognition",
+      "text": "Identify opponent beginning forward roll to escape shoulder pressure",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Base Establishment",
+      "text": "Sit up and post outside hand on mat for base and drive leverage",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Forward Drive",
+      "text": "Drive forward over opponent's rolling body, maintaining arm control throughout",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Roll Follow-Through",
+      "text": "Follow opponent's forward momentum through complete roll",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Position Establishment",
+      "text": "Land in mount or side control on top with arm still controlled",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Omoplata to Sweep",
+  "description": "Learn Omoplata to Sweep transition in BJJ. Step-by-step execution from Omoplata Control to Mount/Top Position. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Transitions/Omoplata-to-Sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Omoplata to Sweep",
+      "item": "https://bjjgraph.org/Transitions/Omoplata-to-Sweep"
+    }
+  ]
+}
+</script>
+
+
 # Omoplata to Sweep
 #bjj #transition #sweep #omoplata #intermediate
 

@@ -74,6 +74,50 @@ author: "BJJGraph System - Agent 6"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rear Naked Choke Setup",
+  "description": "Master Rear Naked Choke Setup in BJJ. Complete guide covering safe preparation, control establishment, and positioning. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Submissions/Rear-Naked-Choke-Setup",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Rear Naked Choke Setup",
+      "item": "https://bjjgraph.org/Submissions/Rear-Naked-Choke-Setup"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Setup Data Structure
 
 **Purpose**: This is the setup phase for Rear Naked Choke, one of the most high-percentage submissions in BJJ. Setup involves establishing optimal back control and positioning the choking arm for RNC entry. Setup alone does not create submission - it creates the position from which RNC can be applied. Safety during setup requires managing partner's defensive capabilities and avoiding accidental choke application.

@@ -10,38 +10,44 @@ description: "Master Truck Position Top in BJJ. Complete guide covering twister,
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Attack from Truck Position Top in BJJ",
-  "description": "Complete guide to executing submissions and attacks from Truck Position Top.",
+  "name": "How to Use Truck Position Top in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Truck Position Top.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Boot Control",
-      "text": "Secure boot (foot) to opponent's hip to create torque and control their orientation.",
+      "name": "Execute Twister",
+      "text": "From this position, execute Twister to transition to Won by Submission.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Control Upper Body",
-      "text": "Establish upper body control reaching for far shoulder or neck position.",
+      "name": "Execute Calf Slicer from Truck",
+      "text": "From this position, execute Calf Slicer from Truck to transition to Won by Submission.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Create Dilemma",
-      "text": "Set up multiple attacks simultaneously to overwhelm opponent's defense.",
+      "name": "Execute Banana Split",
+      "text": "From this position, execute Banana Split to transition to Won by Submission.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Twister or Calf Slicer",
-      "text": "Apply chosen submission based on opponent's defensive positioning.",
+      "name": "Execute Back Control Transition",
+      "text": "From this position, execute Back Control Transition to transition to Back Control.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Adjust to Defense",
-      "text": "Chain to alternative submissions or back control based on opponent's reactions.",
+      "name": "Execute Rear Naked Choke from Truck",
+      "text": "From this position, execute Rear Naked Choke from Truck to transition to Won by Submission.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Electric Chair",
+      "text": "From this position, execute Electric Chair to transition to Won by Submission.",
+      "position": 6
     }
   ],
   "tool": [
@@ -60,45 +66,62 @@ description: "Master Truck Position Top in BJJ. Complete guide covering twister,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary submission from truck position top?",
+      "name": "What is a common mistake in Losing boot pressure during submission attempts?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The twister (spinal lock) is the signature submission, but calf slicer, banana split, and back control transitions are all high-percentage attacks. The position creates multiple submission threats simultaneously."
+        "text": "Opponent escapes the torque control and can roll through or untangle legs, losing the dominant position entirely. The correction is: Maintain constant boot pressure even while working upper body attacks; the boot is the foundation of all control.\n  - **Recognition**: If opponent seems mobile or can change orientation easily, boot pressure is insufficient."
       }
     },
     {
       "@type": "Question",
-      "name": "How do I maintain boot control in the truck?",
+      "name": "What is a common mistake in Rushing the twister without proper setup?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep your boot (foot) firmly pressed against opponent's hip or thigh, creating constant pressure. If they grab your foot, adjust pressure angle but don't let them peel it completely off."
+        "text": "Opponent defends easily and escapes because the position wasn't fully established. The correction is: Ensure leg entanglement and boot control are solid before committing to twister grip; use feints and alternative attacks to create openings.\n  - **Recognition**: If opponent sees the twister coming and defends before you're close to finishing, you rushed."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the twister and is it legal?",
+      "name": "What is a common mistake in Ignoring opponent's boot grip defense?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The twister is a spinal lock that combines leg entanglement with upper body rotation. It's illegal in IBJJF at lower belts (legal at brown/black) but legal in most submission-only events. Apply slowly and carefully in training."
+        "text": "Opponent grabs and controls your boot, eventually peeling it off and escaping the truck. The correction is: Adjust boot angle and pressure when grabbed, or transition to alternative attack while boot is defended.\n  - **Recognition**: If opponent successfully removes your boot, you ignored their defense too long."
       }
     },
     {
       "@type": "Question",
-      "name": "How do I enter the truck position?",
+      "name": "What is a common mistake in Applying twister too aggressively in training?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Common entries include: from turtle (taking the back with wrong orientation), from crab ride, from half guard (taking the back), or from rolling back takes. The key is establishing the boot control first."
+        "text": "Risk of serious spinal injury to training partner, losing training partners, or developing bad safety habits. The correction is: Apply all truck submissions slowly and progressively, giving partner ample time to tap; never crank or jerk the twister.\n  - **Recognition**: If partner doesn't tap and is in danger, you're going too hard."
       }
     },
     {
       "@type": "Question",
-      "name": "Should I finish from truck or take the back?",
+      "name": "What is a common mistake in Not transitioning to back control when needed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If opponent is inexperienced or defending poorly, finish from truck. If they defend well or you're in competition, transition to traditional back control for more reliable control and points."
+        "text": "Wastes time in truck when opponent has solid defense, missing scoring opportunities or better submission setups. The correction is: Recognize when truck submissions aren't developing quickly and transition to traditional back control for points and new attacks.\n  - **Recognition**: If you're in truck for more than 30-45 seconds without submission progress, transition."
       }
     }
   ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Truck Position Top",
+  "description": "Master Truck Position Top in BJJ. Complete guide covering twister, calf slicer, and back attacks. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Positions/Truck-Position-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -110,39 +133,24 @@ description: "Master Truck Position Top in BJJ. Complete guide covering twister,
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Truck Position Top",
-      "item": "https://bjjgraph.com/positions/truck-position-top"
+      "item": "https://bjjgraph.org/Positions/Truck-Position-Top"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Truck Position Top",
-  "description": "Master Truck Position Top in BJJ. Complete guide covering twister, calf slicer, and back attacks. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.",
-  "url": "https://bjjgraph.com/positions/truck-position-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Truck Position Top
 #bjj #state #truck #top #offensive #10thplanet

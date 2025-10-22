@@ -93,6 +93,50 @@ author: "BJJGraph Agent System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle from Guard",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. Triangle should take minimum 5-7 seconds in training. Partner will feel pressure building gradually over multiple seconds. Compet...",
+  "url": "https://bjjgraph.org/Submissions/Triangle-from-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Triangle from Guard",
+      "item": "https://bjjgraph.org/Submissions/Triangle-from-Guard"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Triangle from Guard is a high-percentage blood choke submission from guard positions. It's a terminal state ([[Won by Submission]]) that results in unconsciousness if held beyond tap. Safety is paramount - this technique can render opponent unconscious in 3-8 seconds with full pressure applied.

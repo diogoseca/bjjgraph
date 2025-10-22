@@ -3,6 +3,7 @@ title: "Spine Lock | BJJ Submission Guide | BJJ Graph"
 description: "From a dominant Top Position, Side Control, or Back Control, you start by securing a strong control over the opponent's upper body, often with an underhook on one arm and a crossface or grip on..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "From a dominant Top Position, Side Control, or Back Control, you s
   "@type": "WebPage",
   "name": "Spine Lock",
   "description": "From a dominant Top Position, Side Control, or Back Control, you start by securing a strong control over the opponent's upper body, often with an underhook on one arm and a crossface or grip on...",
-  "url": "https://bjjgraph.com/submissions/spine-lock",
+  "url": "https://bjjgraph.org/Submissions/Spine-Lock",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "From a dominant Top Position, Side Control, or Back Control, you s
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Spine Lock",
-      "item": "https://bjjgraph.com/submissions/spine-lock"
+      "item": "https://bjjgraph.org/Submissions/Spine-Lock"
     }
   ]
 }
 </script>
+
 
 # Spine Lock
 #bjj #submission #spine_lock #dangerous #advanced

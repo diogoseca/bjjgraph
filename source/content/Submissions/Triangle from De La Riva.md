@@ -89,6 +89,50 @@ author: "BJJGraph Agent System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle from De La Riva",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. 3-5 seconds minimum once triangle locked. DLR to triangle requires complex transition - ensure partner recognizes position change.\"",
+  "url": "https://bjjgraph.org/Submissions/Triangle-from-De-La-Riva",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Triangle from De La Riva",
+      "item": "https://bjjgraph.org/Submissions/Triangle-from-De-La-Riva"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Triangle from De La Riva is an advanced blood choke that transitions from the asymmetric DLR guard position. Requires exceptional technical skill and smooth movement patterns.

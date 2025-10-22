@@ -47,18 +47,19 @@ application_contexts:
 tags: [bjj, concept, defense, escape, fundamental]
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Defense Technique | BJJ Concept | BJJ Graph",
+  "name": "Defense Technique",
   "description": "Master defensive technique in BJJ with systematic protection methods. Learn defensive mechanics, escape principles, and survival strategies. Expert insights from Danaher, Ryan, and Bravo.",
-  "url": "https://bjjgraph.com/concepts/defense-technique",
+  "url": "https://bjjgraph.org/Concepts/Defense-Technique",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -71,23 +72,24 @@ tags: [bjj, concept, defense, escape, fundamental]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Defense Technique",
-      "item": "https://bjjgraph.com/concepts/defense-technique"
+      "item": "https://bjjgraph.org/Concepts/Defense-Technique"
     }
   ]
 }
 </script>
+
 
 # Defense Technique
 #bjj #concept #defense #escape

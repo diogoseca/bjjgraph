@@ -41,6 +41,106 @@ author: "BJJGraph Content Team - Agent 7"
 version: "2.0"
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Kimura to Back Take",
+  "description": "Learn how to execute Kimura to Back Take in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Kimura Control",
+      "text": "Establish figure-four kimura grip from any position",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Pressure Application",
+      "text": "Apply kimura pressure to force opponent's reaction",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Recognition",
+      "text": "Identify moment when opponent turns to defend shoulder",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Release and Transition",
+      "text": "Release kimura grip, immediately pursue back",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hook Insertion",
+      "text": "Secure first hook as opponent turns",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Complete back take with both hooks and control",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura to Back Take",
+  "description": "Learn Kimura to Back Take in BJJ. Use kimura control to transition to back control. Success: Beginner 45%, Intermediate 65%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Transitions/Kimura-to-Back-Take",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kimura to Back Take",
+      "item": "https://bjjgraph.org/Transitions/Kimura-to-Back-Take"
+    }
+  ]
+}
+</script>
+
+
 # Kimura to Back Take
 #bjj #transition #kimura #back_control #advancement
 

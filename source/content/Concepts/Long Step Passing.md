@@ -45,21 +45,19 @@ application_contexts:
 tags: [bjj, concept, intermediate, passing, long-step, pressure-passing, guard-passing]
 ---
 
-# Long Step Passing
-#bjj #concept #intermediate #passing #long-step
 
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Long Step Passing | Concept | BJJ Graph",
-  "description": "Master long step passing in BJJ. Learn deep step mechanics, hip control, and pressure application to overcome guard retention. Expert insights from Danaher, Gordon Ryan, and Eddie Bravo.",
-  "url": "https://bjjgraph.com/concepts/long-step-passing",
+  "name": "Long Step Passing | Concept",
+  "description": "Long Step Passing represents the strategic principle of advancing the lead leg deeply past the opponent's guard line to establish dominant hip control position while simultaneously pinning guard re...",
+  "url": "https://bjjgraph.org/Concepts/Long-Step-Passing",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -72,23 +70,27 @@ tags: [bjj, concept, intermediate, passing, long-step, pressure-passing, guard-p
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Long Step Passing",
-      "item": "https://bjjgraph.com/concepts/long-step-passing"
+      "item": "https://bjjgraph.org/Concepts/Long-Step-Passing"
     }
   ]
 }
 </script>
+
+
+# Long Step Passing
+#bjj #concept #intermediate #passing #long-step
 
 ## Concept Description
 

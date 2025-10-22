@@ -58,6 +58,72 @@ description: "Master Leg Drag Position in BJJ. Complete guide covering setup, co
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Insufficient upper body control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Opponent creates defensive frames"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Allowing space between bodies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Recovery opportunities"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor pressure distribution?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Decreased control effectiveness"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Failing to pin leg completely?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Guard recovery pathways"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Rushing to complete the pass?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Loss of control and position"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Drag Position",
+  "description": "Master Leg Drag Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 85%.",
+  "url": "https://bjjgraph.org/Positions/Leg-Drag-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Leg Drag Position in BJJ. Complete guide covering setup, co
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Leg Drag Position",
-      "item": "https://bjjgraph.com/positions/leg-drag-position"
+      "item": "https://bjjgraph.org/Positions/Leg-Drag-Position"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Leg Drag Position",
-  "description": "Master Leg Drag Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 85%.",
-  "url": "https://bjjgraph.com/positions/leg-drag-position",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Leg Drag Position
 #bjj #state #passing #control #top
@@ -190,7 +240,6 @@ The Leg Drag Position is a dominant control position where the top practitioner 
 - [[Headquarters Position]] - Common setup position before leg drag
 - [[Knee Cut Pass]] - Related passing system with similar mechanics
 - [[Folding Pass Position]] - Complementary pressure passing position
-
 
 ## Related Positions
 

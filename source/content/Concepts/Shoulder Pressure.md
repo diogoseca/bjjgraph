@@ -44,6 +44,50 @@ application_contexts:
 tags: [bjj, concept, fundamental, pressure, control, shoulder]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Shoulder Pressure",
+  "description": "Shoulder Pressure represents the tactical application of bodyweight and force through shoulder contact to control opponent's upper body, restrict head movement, create discomfort that discourages e...",
+  "url": "https://bjjgraph.org/Concepts/Shoulder-Pressure",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Shoulder Pressure",
+      "item": "https://bjjgraph.org/Concepts/Shoulder-Pressure"
+    }
+  ]
+}
+</script>
+
+
 # Shoulder Pressure
 #bjj #concept #fundamental #pressure #shoulder
 

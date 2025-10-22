@@ -46,6 +46,50 @@ application_contexts:
 tags: [bjj, concept, intermediate, power, explosiveness, strength, speed, athletic-development]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Explosive Power",
+  "description": "Explosive Power represents the capacity to generate maximum force in minimum time, enabling rapid positional changes, dynamic technique execution, and successful exploitation of brief tactical wind...",
+  "url": "https://bjjgraph.org/Concepts/Explosive-Power",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Explosive Power",
+      "item": "https://bjjgraph.org/Concepts/Explosive-Power"
+    }
+  ]
+}
+</script>
+
+
 # Explosive Power
 #bjj #concept #intermediate #power #explosiveness
 

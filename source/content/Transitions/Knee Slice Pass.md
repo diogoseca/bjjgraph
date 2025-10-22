@@ -33,6 +33,106 @@ related_positions: ["Half Guard Top", "Side Control Top", "Knee Shield Half Guar
 related_techniques: ["Underhook Pass", "Long Step Pass", "Crossface Control"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Knee Slice Pass",
+  "description": "Learn how to execute Knee Slice Pass in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish underhook with inside arm, create strong crossface pressure with head/shoulder, control opponent's far arm or hip with free hand",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Drive weight forward onto opponent's chest, begin directing knee forward and across their bottom leg in slicing motion",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent attempts to maintain half guard by gripping trapped leg, creates frames to prevent crossface, works to recover full guard",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Adjust knee angle and pressure based on opponent's leg position; increase crossface pressure if opponent frames; shift hip positioning to prevent guard recovery",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Drive knee fully across bottom leg while extracting trapped leg; settle hips to mat as knee clears; establish side control chest-to-chest position",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Secure crossface control, establish hip pressure, control near arm with underhook, prevent opponent's escape attempts",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Slice Pass",
+  "description": "Learn Knee Slice Pass in BJJ. Step-by-step execution from Half Guard Top to Side Control. Success: Beginner 45%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Transitions/Knee-Slice-Pass",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Knee Slice Pass",
+      "item": "https://bjjgraph.org/Transitions/Knee-Slice-Pass"
+    }
+  ]
+}
+</script>
+
+
 # Knee Slice Pass
 #bjj #transition #guard_passing #half_guard #fundamental
 

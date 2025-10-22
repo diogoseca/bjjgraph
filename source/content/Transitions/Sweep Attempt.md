@@ -37,6 +37,106 @@ related_positions: ["Guard Bottom", "Open Guard", "Closed Guard", "Top Position"
 related_techniques: ["Hip Bump Sweep", "Scissor Sweep", "Butterfly Sweep", "X-Guard Sweep"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Sweep Attempt",
+  "description": "Learn how to execute Sweep Attempt in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish necessary grips (collar, sleeve, pants, ankle depending on sweep type); identify opponent's base weaknesses through pressure testing",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Begin off-balancing action with subtle weight shift or grip adjustment; create initial reaction from opponent",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically posts, adjusts base, or resists in direction of perceived threat",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Commit to sweep when opponent's base is compromised; adjust direction and force based on their response",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Continue movement until opponent's weight passes point of no return; drive through to complete reversal",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Follow opponent to mat and establish control in top position; secure position before they can recover guard",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sweep Attempt",
+  "description": "Learn Sweep Attempt in BJJ. Step-by-step execution from guard bottom to top position. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Sweep-Attempt",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Sweep Attempt",
+      "item": "https://bjjgraph.org/Transitions/Sweep-Attempt"
+    }
+  ]
+}
+</script>
+
+
 # Sweep Attempt
 #bjj #transition #sweep #guard #offensive
 

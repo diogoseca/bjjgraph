@@ -37,6 +37,106 @@ related_positions: ["Open Guard Top", "Side Control", "Knee Cut Position", "Half
 related_techniques: ["Knee Cut Pass", "Pressure Pass", "Smash Pass", "Over Under Pass"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Crossface Pass",
+  "description": "Learn how to execute Crossface Pass in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish open guard top with posture up, create angle to thread arm across opponent's face for crossface, opposite hand controls far hip or pants",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Apply crossface pressure driving their head to the side while beginning forward hip drive toward their legs",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically attempts to frame against crossface, recover guard by getting knee back in, or turn away from pressure",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Pressure Application",
+      "text": "Drive shoulder forward and down through crossface while advancing hips past their knee line, flattening their defensive structure",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Leg Clearing",
+      "text": "As you pass knee line, use hip pressure and positioning to clear their legs, preventing reguard attempts",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Establish side control with chest pressure, crossface maintained, and hip positioning preventing their escape as you secure the pass",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crossface Pass",
+  "description": "Learn Crossface Pass in BJJ. Step-by-step execution from open guard top to side control using crossface pressure. Success: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Crossface-Pass",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Crossface Pass",
+      "item": "https://bjjgraph.org/Transitions/Crossface-Pass"
+    }
+  ]
+}
+</script>
+
+
 # Crossface Pass
 #bjj #transition #pass #guard-passing #side-control #fundamental
 

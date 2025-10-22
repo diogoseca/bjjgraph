@@ -21,8 +21,8 @@ description: "Master Combat Base in BJJ. Complete guide covering setup, control,
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Headquarters Transition",
-      "text": "From this position, execute Headquarters Transition to transition to Headquarters Position.",
+      "name": "Execute Headquarters Position",
+      "text": "From this position, execute Headquarters Position to transition to Headquarters Position.",
       "position": 2
     },
     {
@@ -107,6 +107,23 @@ description: "Master Combat Base in BJJ. Complete guide covering setup, control,
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Combat Base",
+  "description": "Master Combat Base in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 60%, Intermediate 70%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Positions/Combat-Base",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Combat Base in BJJ. Complete guide covering setup, control,
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Combat Base",
-      "item": "https://bjjgraph.com/positions/combat-base"
+      "item": "https://bjjgraph.org/Positions/Combat-Base"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Combat Base",
-  "description": "Master Combat Base in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 60%, Intermediate 70%, Advanced 80%.",
-  "url": "https://bjjgraph.com/positions/combat-base",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Combat Base
 #bjj #state #top #guard_passing
@@ -247,7 +249,6 @@ You are positioned on top, in a dynamic stance with one knee up—typically your
 - [[Top Position]] - Generic dominant position
 - [[Knee Cut Position]] - Dynamic passing position
 - [[Defensive Frame]] - Emergency defensive posture
-
 
 ## Related Positions
 

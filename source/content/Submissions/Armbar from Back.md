@@ -3,6 +3,7 @@ title: "Armbar from Back | BJJ Submission Guide | BJJ Graph"
 description: "Master Armbar from Back in BJJ. Complete guide covering setup from back control, execution, safety protocols, and injury prevention. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "Master Armbar from Back in BJJ. Complete guide covering setup from
   "@type": "WebPage",
   "name": "Armbar from Back",
   "description": "Master Armbar from Back in BJJ. Complete guide covering setup from back control, execution, safety protocols, and injury prevention. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.",
-  "url": "https://bjjgraph.com/submissions/armbar-from-back",
+  "url": "https://bjjgraph.org/Submissions/Armbar-from-Back",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "Master Armbar from Back in BJJ. Complete guide covering setup from
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Armbar from Back",
-      "item": "https://bjjgraph.com/submissions/armbar-from-back"
+      "item": "https://bjjgraph.org/Submissions/Armbar-from-Back"
     }
   ]
 }
 </script>
+
 
 # Armbar from Back
 #bjj #submission #joint_lock #back_attack

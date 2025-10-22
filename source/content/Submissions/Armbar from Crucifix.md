@@ -4,58 +4,19 @@ description: "Master Armbar from Crucifix in BJJ. Complete safety guide with set
 ---
 
 
-
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "HowTo",
+  "@type": "WebPage",
   "name": "Armbar from Crucifix",
-  "description": "Learn how to safely execute Armbar from Crucifix in Brazilian Jiu-Jitsu.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Establish Crucifix",
-      "text": "Secure crucifix position with both of opponent's arms trapped by your legs",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Isolate Target Arm",
-      "text": "Control opponent's near arm with both hands, securing wrist and elbow",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Release Near Hook",
-      "text": "Release near-side leg hook while maintaining far arm trap with other leg",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Swing Leg Over",
-      "text": "Swing freed leg over opponent's head for armbar configuration",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Apply Pressure",
-      "text": "Lift hips and pull arm slowly over 3-5 seconds while watching for tap",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Release Immediately",
-      "text": "Release pressure instantly upon tap signal and check partner safety",
-      "position": 6
-    }
-  ],
-  "tool": [
-    "BJJ Gi or No-Gi attire",
-    "Training partner",
-    "Mat space"
-  ],
-  "totalTime": "PT5M"
+  "description": "Master Armbar from Crucifix in BJJ. Complete safety guide with setup, execution, defenses, and injury prevention. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Submissions/Armbar-from-Crucifix",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -67,39 +28,24 @@ description: "Master Armbar from Crucifix in BJJ. Complete safety guide with set
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Armbar from Crucifix",
-      "item": "https://bjjgraph.com/submissions/armbar-from-crucifix"
+      "item": "https://bjjgraph.org/Submissions/Armbar-from-Crucifix"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Armbar from Crucifix",
-  "description": "Master Armbar from Crucifix in BJJ. Complete safety guide with setup, execution, defenses, and injury prevention. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
-  "url": "https://bjjgraph.com/submissions/armbar-from-crucifix",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Armbar from Crucifix
 #bjj #submission #armlock #crucifix #control #safety_critical

@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "IBJJF Strategy Guide",
   "description": "The IBJJF Strategy Guide provides a comprehensive approach to competing under the International Brazilian Jiu-Jitsu Federation ruleset. This framework addresses the unique scoring dynamics, time co...",
-  "url": "https://bjjgraph.com/systems/ibjjf-strategy-guide",
+  "url": "https://bjjgraph.org/Systems/IBJJF-Strategy-Guide",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Systems",
-      "item": "https://bjjgraph.com/systems/"
+      "item": "https://bjjgraph.org/Systems/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "IBJJF Strategy Guide",
-      "item": "https://bjjgraph.com/systems/ibjjf-strategy-guide"
+      "item": "https://bjjgraph.org/Systems/IBJJF-Strategy-Guide"
     }
   ]
 }

@@ -37,6 +37,106 @@ related_positions: ["Side Control Top", "Standing Position", "Turtle Top"]
 related_techniques: ["Double Leg Setup", "Single Leg Takedown", "Body Lock Takedown", "Trip Finish"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Double Leg Finish",
+  "description": "Learn how to execute Double Leg Finish in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Achieve deep penetration from [[Double Leg Setup]] with head tight to torso, shoulders square to hips, weight on balls of feet",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Explosively drive forward and slightly upward through legs while clasping hands behind opponent's knees or thighs",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent attempts sprawl, widens base, or tries to push head down and away",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Maintain continuous forward pressure, adjust driving angle based on opponent's weight distribution and balance reaction",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Elevate hips slightly while driving forward until opponent's balance breaks, trip or run them to their back",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Land in side control position, immediately establish cross-face and hip control to prevent recovery",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Double Leg Finish",
+  "description": "Learn Double Leg Finish in BJJ. Step-by-step execution from Penetration Step to Side Control Top. Success: Beginner 55%, Intermediate 75%, Advanced 88%.",
+  "url": "https://bjjgraph.org/Transitions/Double-Leg-Finish",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Double Leg Finish",
+      "item": "https://bjjgraph.org/Transitions/Double-Leg-Finish"
+    }
+  ]
+}
+</script>
+
+
 # Double Leg Finish
 #bjj #transition #takedown #finish #wrestling
 

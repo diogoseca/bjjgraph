@@ -15,33 +15,21 @@ description: "Master Quarter Guard Top in BJJ. Complete guide covering passing s
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Slice Pass",
-      "text": "From this position, execute Knee Slice Pass to transition to Side Control Top.",
+      "name": "Execute Underhook Recovery",
+      "text": "From Quarter Guard Top, execute Underhook Recovery to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control Top.",
+      "name": "Execute Half Guard Bottom Recovery",
+      "text": "From Quarter Guard Top, execute Half Guard Bottom Recovery to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Drag Finish",
-      "text": "From this position, execute Leg Drag Finish to transition to back exposure or side control.",
+      "name": "Execute Knee Shield Reinforcement",
+      "text": "From Quarter Guard Top, execute Knee Shield Reinforcement to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Quarter Mount Transition",
-      "text": "From this position, execute Quarter Mount Transition to transition to mount position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Cross Body Pass",
-      "text": "From this position, execute Cross Body Pass to transition to Side Control Top.",
-      "position": 5
     }
   ],
   "tool": [
@@ -50,6 +38,40 @@ description: "Master Quarter Guard Top in BJJ. Complete guide covering passing s
     "Mat space"
   ],
   "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Quarter Guard Top?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Pressure Application**: Maintain constant forward and downward pressure toward opponent's far shoulder to limit their defensive mobility"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Quarter Guard Top",
+  "description": "Master Quarter Guard Top in BJJ. Complete guide covering passing strategies, pressure application, and advancement. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Positions/Quarter-Guard-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -61,40 +83,24 @@ description: "Master Quarter Guard Top in BJJ. Complete guide covering passing s
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Quarter Guard Top",
-      "item": "https://bjjgraph.com/positions/quarter-guard-top"
+      "item": "https://bjjgraph.org/Positions/Quarter-Guard-Top"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Quarter Guard Top",
-  "description": "Master Quarter Guard Top in BJJ. Complete guide covering passing strategies, pressure application, and advancement. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
-  "url": "https://bjjgraph.com/positions/quarter-guard-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Quarter Guard Top
 #bjj #state #passing #topposition #pressure #control

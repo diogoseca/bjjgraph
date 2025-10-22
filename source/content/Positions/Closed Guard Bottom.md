@@ -107,6 +107,23 @@ description: "Master Closed Guard Bottom in BJJ. Complete guide covering setup, 
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Closed Guard Bottom",
+  "description": "Master Closed Guard Bottom in BJJ. Complete guide covering setup, control, sweeps, and submissions. Success rates: Beginner 60%, Intermediate 70%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Positions/Closed-Guard-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Closed Guard Bottom in BJJ. Complete guide covering setup, 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Closed Guard Bottom",
-      "item": "https://bjjgraph.com/positions/closed-guard-bottom"
+      "item": "https://bjjgraph.org/Positions/Closed-Guard-Bottom"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Closed Guard Bottom",
-  "description": "Master Closed Guard Bottom in BJJ. Complete guide covering setup, control, sweeps, and submissions. Success rates: Beginner 60%, Intermediate 70%, Advanced 80%.",
-  "url": "https://bjjgraph.com/positions/closed-guard-bottom",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Closed Guard Bottom
 #bjj #state #guard #bottom
@@ -242,7 +244,6 @@ You are lying on your back on the mat, with your legs tightly wrapped around you
 - [[Rubber Guard]] - Specialized closed guard variation (Eddie Bravo)
 - [[Williams Guard]] - High closed guard variation (Eddie Bravo)
 - [[Butterfly Guard]] - Open guard with hooks under opponent's thighs
-
 
 ## Related Positions
 

@@ -39,8 +39,8 @@ description: "Master Game Over Position in BJJ. Complete guide covering setup, c
     },
     {
       "@type": "HowToStep",
-      "name": "Execute **Saddle Transition**",
-      "text": "From this position, execute **Saddle Transition** to transition to Next Position.",
+      "name": "Execute **Saddle Position**",
+      "text": "From this position, execute **Saddle Position** to transition to Next Position.",
       "position": 5
     },
     {
@@ -116,16 +116,14 @@ description: "Master Game Over Position in BJJ. Complete guide covering setup, c
   "@type": "WebPage",
   "name": "Game Over Position",
   "description": "Master Game Over Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 25%, Intermediate 45%, Advanced 70%.",
-  "url": "https://bjjgraph.com/positions/game-over-position",
+  "url": "https://bjjgraph.org/Positions/Game-Over-Position",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -135,19 +133,19 @@ description: "Master Game Over Position in BJJ. Complete guide covering setup, c
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Game Over Position",
-      "item": "https://bjjgraph.com/positions/game-over-position"
+      "item": "https://bjjgraph.org/Positions/Game-Over-Position"
     }
   ]
 }

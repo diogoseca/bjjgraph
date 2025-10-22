@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Teaching Methodology Framework",
   "description": "The Teaching Methodology Framework provides a comprehensive system for effective Brazilian Jiu-Jitsu instruction across all skill levels and learning contexts. This framework addresses the unique c...",
-  "url": "https://bjjgraph.com/systems/teaching-methodology-framework",
+  "url": "https://bjjgraph.org/Systems/Teaching-Methodology-Framework",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Systems",
-      "item": "https://bjjgraph.com/systems/"
+      "item": "https://bjjgraph.org/Systems/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Teaching Methodology Framework",
-      "item": "https://bjjgraph.com/systems/teaching-methodology-framework"
+      "item": "https://bjjgraph.org/Systems/Teaching-Methodology-Framework"
     }
   ]
 }

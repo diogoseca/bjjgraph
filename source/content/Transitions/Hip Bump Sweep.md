@@ -11,7 +11,7 @@ description: "Learn Hip Bump Sweep in BJJ. Step-by-step execution from Closed Gu
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Hip Bump Sweep",
-  "description": "Learn how to execute Hip Bump Sweep in Brazilian Jiu-Jitsu from Closed Guard Bottom to Mount.",
+  "description": "Learn how to execute Hip Bump Sweep in Brazilian Jiu-Jitsu from Closed Guard Bottom to Mount. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -58,6 +58,23 @@ description: "Learn Hip Bump Sweep in BJJ. Step-by-step execution from Closed Gu
   "totalTime": "PT5M"
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hip Bump Sweep",
+  "description": "Learn Hip Bump Sweep in BJJ. Step-by-step execution from Closed Guard Bottom to Mount. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Transitions/Hip-Bump-Sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,39 +84,24 @@ description: "Learn Hip Bump Sweep in BJJ. Step-by-step execution from Closed Gu
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Hip Bump Sweep",
-      "item": "https://bjjgraph.com/transitions/hip-bump-sweep"
+      "item": "https://bjjgraph.org/Transitions/Hip-Bump-Sweep"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Hip Bump Sweep",
-  "description": "Learn Hip Bump Sweep in BJJ. Step-by-step execution from Closed Guard Bottom to Mount. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
-  "url": "https://bjjgraph.com/transitions/hip-bump-sweep",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Hip Bump Sweep
 #bjj #transition #sweep #closed_guard #fundamental
@@ -325,7 +327,6 @@ Updates to this standard should be reflected across all transition files to main
 - [[Scissor Sweep]] - Related technique
 - [[Balloon Sweep]] - Related technique
 - [[Waiter Sweep]] - Related technique
-
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points) plus mount (4 points)

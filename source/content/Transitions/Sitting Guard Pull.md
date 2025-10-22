@@ -33,6 +33,106 @@ related_positions: ["Standing Position", "Open Guard Bottom", "Butterfly Guard",
 related_techniques: ["Pull Guard", "Jumping Guard", "Guard Establishment"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Sitting Guard Pull",
+  "description": "Learn how to execute Sitting Guard Pull in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish grip control on opponent's sleeves, collar, or wrists while in standing position",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Lower your hips smoothly and sit to mat in controlled manner, maintaining grip tension",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically maintains standing position or follows you down",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "As you sit, immediately establish guard structure with legs (butterfly hooks, shin guard, or foot placement)",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Secure active guard position with proper leg and grip configuration",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Begin guard retention movements or attacks, preventing opponent from passing or disengaging",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sitting Guard Pull",
+  "description": "Learn Sitting Guard Pull in BJJ. Step-by-step execution from Standing Position to Open Guard Bottom. Success: Beginner 70%, Intermediate 85%, Advanced 95%.",
+  "url": "https://bjjgraph.org/Transitions/Sitting-Guard-Pull",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Sitting Guard Pull",
+      "item": "https://bjjgraph.org/Transitions/Sitting-Guard-Pull"
+    }
+  ]
+}
+</script>
+
+
 # Sitting Guard Pull
 #bjj #transition #guard-pull #sitting #fundamental
 

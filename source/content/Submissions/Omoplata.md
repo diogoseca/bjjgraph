@@ -3,6 +3,7 @@ title: "Omoplata | BJJ Submission Guide | BJJ Graph"
 description: "Final positioning with opponent's arm trapped in leg triangle configuration Hip control creating rotational pressure on shoulder joint"
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "Final positioning with opponent's arm trapped in leg triangle conf
   "@type": "WebPage",
   "name": "Omoplata",
   "description": "Final positioning with opponent's arm trapped in leg triangle configuration Hip control creating rotational pressure on shoulder joint",
-  "url": "https://bjjgraph.com/submissions/omoplata",
+  "url": "https://bjjgraph.org/Submissions/Omoplata",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "Final positioning with opponent's arm trapped in leg triangle conf
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Omoplata",
-      "item": "https://bjjgraph.com/submissions/omoplata"
+      "item": "https://bjjgraph.org/Submissions/Omoplata"
     }
   ]
 }
 </script>
+
 
 # Omoplata
 #bjj #submission #shoulder_lock #joint_lock #endstate #fundamental

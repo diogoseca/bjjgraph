@@ -107,6 +107,23 @@ description: "Master De La Riva Guard in BJJ. Complete guide covering setup, con
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "De La Riva Guard",
+  "description": "Master De La Riva Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 50%, Intermediate 65%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Positions/De-La-Riva-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master De La Riva Guard in BJJ. Complete guide covering setup, con
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "De La Riva Guard",
-      "item": "https://bjjgraph.com/positions/de-la-riva-guard"
+      "item": "https://bjjgraph.org/Positions/De-La-Riva-Guard"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "De La Riva Guard",
-  "description": "Master De La Riva Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 50%, Intermediate 65%, Advanced 75%.",
-  "url": "https://bjjgraph.com/positions/de-la-riva-guard",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # De La Riva Guard
 #bjj #state #guard #open_guard #dlr
@@ -243,7 +245,6 @@ You are on your back in an open guard position, with your outside foot hooking b
 - [[X-Guard]] - Related leg entanglement guard
 - [[Butterfly Guard]] - Complementary open guard system
 - [[Matrix Position]] - Advanced transitional position from DLR
-
 
 ## Related Positions
 

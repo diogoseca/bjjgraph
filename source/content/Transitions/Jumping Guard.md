@@ -33,6 +33,106 @@ related_positions: ["Standing Position", "Closed Guard Bottom", "Triangle Contro
 related_techniques: ["Pull Guard", "Sitting Guard Pull", "Flying Triangle"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Jumping Guard",
+  "description": "Learn how to execute Jumping Guard in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish strong grip control on collar and sleeve (gi) or head and arm (no-gi) while standing close to opponent",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Step close to opponent, loading your jump while pulling their upper body forward with grips",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically either stands still, steps forward, or begins to counter",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Execute explosive upward jump while simultaneously pulling opponent forward and raising knees to chest",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Wrap legs around opponent's waist mid-air, securing closed guard position as you land",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Tighten leg closure and establish breaking grips or begin immediate attacks to prevent them from standing or opening guard",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Jumping Guard",
+  "description": "Learn Jumping Guard in BJJ. Step-by-step execution from Standing Position to Closed Guard Bottom. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Jumping-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Jumping Guard",
+      "item": "https://bjjgraph.org/Transitions/Jumping-Guard"
+    }
+  ]
+}
+</script>
+
+
 # Jumping Guard
 #bjj #transition #guard-pull #jumping #dynamic
 

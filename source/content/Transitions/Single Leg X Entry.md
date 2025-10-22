@@ -79,16 +79,14 @@ description: "Learn Single Leg X Entry in BJJ. Step-by-step execution. Complete 
   "@type": "WebPage",
   "name": "Single Leg X Entry",
   "description": "Learn Single Leg X Entry in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/single-leg-x-entry",
+  "url": "https://bjjgraph.org/Transitions/Single-Leg-X-Entry",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Single Leg X Entry in BJJ. Step-by-step execution. Complete 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Single Leg X Entry",
-      "item": "https://bjjgraph.com/transitions/single-leg-x-entry"
+      "item": "https://bjjgraph.org/Transitions/Single-Leg-X-Entry"
     }
   ]
 }
@@ -336,7 +334,6 @@ Updates to this standard should be reflected across related transition setup fil
 
 ## Historical Context
 The Single Leg X Entry emerged as part of the modern leg entanglement meta in BJJ, popularized by practitioners like Marcelo Garcia and the Danaher Death Squad in the 2010s, becoming a staple in competition for setting up sweeps and leg locks, especially in no-gi contexts.
-
 
 ## Related Techniques
 

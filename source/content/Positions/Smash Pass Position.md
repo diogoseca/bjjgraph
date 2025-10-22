@@ -39,8 +39,8 @@ description: "Master Smash Pass Position in BJJ. Complete guide covering setup, 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Drag Conversion",
-      "text": "From this position, execute Leg Drag Conversion to transition to Leg Drag Position.",
+      "name": "Execute Leg Drag Control",
+      "text": "From this position, execute Leg Drag Control to transition to Leg Drag Control.",
       "position": 5
     },
     {
@@ -58,6 +58,72 @@ description: "Master Smash Pass Position in BJJ. Complete guide covering setup, 
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Insufficient pressure application?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Defensive mobility"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor weight distribution?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Instability and gaps"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Neglecting upper body control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Defensive framing opportunities"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Premature progression?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Position compromise"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Telegraphing passing direction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Predictable patterns"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Smash Pass Position",
+  "description": "Master Smash Pass Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
+  "url": "https://bjjgraph.org/Positions/Smash-Pass-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Smash Pass Position in BJJ. Complete guide covering setup, 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Smash Pass Position",
-      "item": "https://bjjgraph.com/positions/smash-pass-position"
+      "item": "https://bjjgraph.org/Positions/Smash-Pass-Position"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Smash Pass Position",
-  "description": "Master Smash Pass Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
-  "url": "https://bjjgraph.com/positions/smash-pass-position",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Smash Pass Position
 #bjj #state #passing #pressure #control
@@ -190,7 +240,6 @@ You are positioned on top with your chest and upper body applying heavy downward
 - [[Knee Cut Pass]] - Complementary pressure passing option
 - [[Leg Drag Position]] - Related control position
 - [[Pressure Passing]] - Broader passing methodology
-
 
 ## Related Positions
 

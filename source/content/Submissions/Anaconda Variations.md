@@ -33,6 +33,50 @@ author: "BJJGraph Agent 4"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Anaconda Variations",
+  "description": "Anaconda Variations include multiple setups and finishing positions: standard anaconda with roll, no-roll anaconda, standing anaconda, guard pull anaconda, and counter anaconda setups.",
+  "url": "https://bjjgraph.org/Submissions/Anaconda-Variations",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Anaconda Variations",
+      "item": "https://bjjgraph.org/Submissions/Anaconda-Variations"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ SAFETY NOTICE
 **Blood choke variations. Apply SLOWLY over 3-5 seconds. RELEASE upon tap. Be careful during rolling transitions.**
 

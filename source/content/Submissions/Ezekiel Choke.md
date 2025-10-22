@@ -86,6 +86,50 @@ author: "BJJGraph Agent System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ezekiel Choke",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. 3-5 seconds minimum. Gi material can cause tracheal damage if explosive.\"",
+  "url": "https://bjjgraph.org/Submissions/Ezekiel-Choke",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Ezekiel Choke",
+      "item": "https://bjjgraph.org/Submissions/Ezekiel-Choke"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Ezekiel Choke is a gi-based blood/air choke from mount. Terminal state causing unconsciousness in 5-10 seconds if held. CRITICAL: Gi material can cause tracheal damage if applied explosively.

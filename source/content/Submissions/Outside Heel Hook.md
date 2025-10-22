@@ -75,6 +75,50 @@ author: "BJJGraph System - Agent 9"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Outside Heel Hook",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"EXTREMELY SLOW. 3-5 seconds MINIMUM in training. This is THE most dangerous leg lock. Damage occurs in microseconds at full pressure.\"",
+  "url": "https://bjjgraph.org/Submissions/Outside-Heel-Hook",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Outside Heel Hook",
+      "item": "https://bjjgraph.org/Submissions/Outside-Heel-Hook"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: CRITICAL leg lock submission from [[Outside Ashi Garami Bottom]]. Terminal state with EXTREME injury potential. This is one of the most dangerous submissions in BJJ - can cause career-ending knee damage in milliseconds.

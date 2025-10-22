@@ -590,6 +590,105 @@ llm_context:
 
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use 50-50 Guard Top in BJJ",
+  "description": "Complete guide to executing techniques and transitions from 50-50 Guard Top.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Heel Hook",
+      "text": "From 50-50 Guard Top, execute Heel Hook to advance your position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kneebar from 50-50",
+      "text": "From 50-50 Guard Top, execute Kneebar from 50-50 to advance your position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Ankle Lock",
+      "text": "From 50-50 Guard Top, execute Ankle Lock to advance your position.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of 50-50 Guard Top?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Inside Position Dominance**: Maintaining inside control with your left leg is critical for all offensive opportunities and prevents opponent from attacking your legs effectively"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "50-50 Guard Top",
+  "description": "Master 50-50 Guard Top in BJJ. Complete guide covering leg entanglement control, transitions, and submissions. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Positions/50-50-Guard-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "50-50 Guard Top",
+      "item": "https://bjjgraph.org/Positions/50-50-Guard-Top"
+    }
+  ]
+}
+</script>
+
+
 # 50-50 Guard Top
 #bjj #position #leg_lock #guard #50-50 #advanced
 

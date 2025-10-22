@@ -73,6 +73,89 @@ state_machine:
   related_states: ["Open Guard", "Side Control", "Back Control"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Leg Drag Control in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Leg Drag Control.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Complete Leg Drag to Side",
+      "text": "From this position, execute Complete Leg Drag to Side to transition to Side Control.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute arm drag to back",
+      "text": "From this position, execute arm drag to back to transition to Back Control.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Leg Drag to Mount",
+      "text": "From this position, execute Leg Drag to Mount to transition to Mount.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Drag Control",
+  "description": "Master Leg Drag Control in BJJ. Transitional passing position controlling opponent's leg to bypass guard. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Positions/Leg-Drag-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Leg Drag Control",
+      "item": "https://bjjgraph.org/Positions/Leg-Drag-Control"
+    }
+  ]
+}
+</script>
+
+
 # Leg Drag Control
 #bjj #state #passing #transitional #leg-drag
 

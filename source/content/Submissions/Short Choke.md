@@ -89,6 +89,50 @@ author: "BJJ Graph Content Team"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Short Choke",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. Short choke should take minimum 3-5 seconds in training. Competition speed only in competition.\"",
+  "url": "https://bjjgraph.org/Submissions/Short-Choke",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Short Choke",
+      "item": "https://bjjgraph.org/Submissions/Short-Choke"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Short Choke is a gi-based blood choke from back control or transitional positions. Success depends on deep collar grip and proper angle creation. Safety is paramount - this technique can render opponent unconscious in 3-8 seconds.

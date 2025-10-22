@@ -43,6 +43,106 @@ related_positions: ["Mount", "Side Control", "Back Control", "Closed Guard Botto
 related_techniques: ["Armbar Setup", "Triangle Setup", "Kimura Setup", "Rear Naked Choke Setup"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Submission Setup",
+  "description": "Learn how to execute Submission Setup in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish dominant position with strong control (mount, side control, back control, dominant guard), secure base and pressure to limit opponent's movement",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Begin isolating target limb or position through grip acquisition and pressure adjustment, use strategic grips to threaten and distract",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent defends by pulling arms tight, creating frames, or attempting to escape position",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Use opponent's defensive reactions to create openings, threaten alternative submissions to force defensive choices, maintain pressure while adjusting grips",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Secure submission-specific control points (arm isolation, neck access, leg control) while maintaining or improving dominant position",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Establish submission control position with target fully isolated, adjust body positioning for optimal submission mechanics, prepare for finishing sequence",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Submission Setup",
+  "description": "Learn Submission Setup in BJJ. Step-by-step execution from Control Position to Submission Control. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Submission-Setup",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Submission Setup",
+      "item": "https://bjjgraph.org/Transitions/Submission-Setup"
+    }
+  ]
+}
+</script>
+
+
 # Submission Setup
 #bjj #transition #attack #submission #control
 

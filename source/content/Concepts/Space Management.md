@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Space Management",
   "description": "Space Management represents the strategic control and tactical utilization of available distance, gaps, and positioning between practitioners during all phases of BJJ. Unlike specific techniques, s...",
-  "url": "https://bjjgraph.com/concepts/space-management",
+  "url": "https://bjjgraph.org/Concepts/Space-Management",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Space Management",
-      "item": "https://bjjgraph.com/concepts/space-management"
+      "item": "https://bjjgraph.org/Concepts/Space-Management"
     }
   ]
 }

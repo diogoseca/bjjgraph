@@ -21,8 +21,8 @@ description: "Master Armbar Control in BJJ. Complete guide covering setup, contr
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar to Triangle",
-      "text": "From this position, execute Armbar to Triangle to transition to Triangle Control.",
+      "name": "Execute arm triangle",
+      "text": "From this position, execute arm triangle to transition to Triangle Control.",
       "position": 2
     },
     {
@@ -107,6 +107,23 @@ description: "Master Armbar Control in BJJ. Complete guide covering setup, contr
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Armbar Control",
+  "description": "Master Armbar Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 60%, Intermediate 70%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Positions/Armbar-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Armbar Control in BJJ. Complete guide covering setup, contr
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Armbar Control",
-      "item": "https://bjjgraph.com/positions/armbar-control"
+      "item": "https://bjjgraph.org/Positions/Armbar-Control"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Armbar Control",
-  "description": "Master Armbar Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 60%, Intermediate 70%, Advanced 80%.",
-  "url": "https://bjjgraph.com/positions/armbar-control",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Armbar Control
 #bjj #state #submission #jointlock #armbar
@@ -246,7 +248,6 @@ You are positioned either on top of or beside your opponent, depending on the en
 - [[Omoplata Control]] - Related shoulder submission
 - [[Cross Body Control]] - Potential transition position
 - [[Top Mount]] - Common entry position
-
 
 ## Related Positions
 

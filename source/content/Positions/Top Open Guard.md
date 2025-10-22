@@ -47,16 +47,14 @@ description: "Master Top Open Guard in BJJ. Complete guide covering setup, contr
   "@type": "WebPage",
   "name": "Top Open Guard",
   "description": "Master Top Open Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%.",
-  "url": "https://bjjgraph.com/positions/top-open-guard",
+  "url": "https://bjjgraph.org/Positions/Top-Open-Guard",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,19 +64,19 @@ description: "Master Top Open Guard in BJJ. Complete guide covering setup, contr
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Top Open Guard",
-      "item": "https://bjjgraph.com/positions/top-open-guard"
+      "item": "https://bjjgraph.org/Positions/Top-Open-Guard"
     }
   ]
 }
@@ -334,7 +332,6 @@ Updates to this standard should be reflected across all position files to mainta
 - [[Reverse De La Riva Guard]] - Related position
 - [[Deep Half Guard]] - Related position
 - [[Inverted Guard]] - Related position
-
 
 ## Historical Context
 Top Open Guard has been a critical position in Brazilian Jiu-Jitsu since the art's focus on guard passing evolved, reflecting the strategic importance of mobility and control in overcoming active bottom guards. It has become increasingly significant with the development of dynamic passing styles in modern competition.

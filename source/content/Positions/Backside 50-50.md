@@ -22,7 +22,7 @@ description: "Master Backside 50/50 in BJJ. Complete guide covering setup, contr
     {
       "@type": "HowToStep",
       "name": "Execute Cross Ashi Transition",
-      "text": "From this position, execute Cross Ashi Transition to transition to Cross Ashi Garami.",
+      "text": "From this position, execute Cross Ashi Transition to transition to Ushiro Ashi Garami.",
       "position": 2
     },
     {
@@ -107,6 +107,23 @@ description: "Master Backside 50/50 in BJJ. Complete guide covering setup, contr
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Backside 50/50",
+  "description": "Master Backside 50/50 in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 70%, Intermediate 80%, Advanced 90%.",
+  "url": "https://bjjgraph.org/Positions/Backside-50-50",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Backside 50/50 in BJJ. Complete guide covering setup, contr
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Backside 50/50",
-      "item": "https://bjjgraph.com/positions/backside-50-50"
+      "item": "https://bjjgraph.org/Positions/Backside-50-50"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Backside 50/50",
-  "description": "Master Backside 50/50 in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 70%, Intermediate 80%, Advanced 90%.",
-  "url": "https://bjjgraph.com/positions/backside-50-50",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Backside 50/50
 #bjj #state #leglock #entanglement #modern
@@ -249,7 +251,6 @@ You are positioned behind your opponent's leg, seated or on your side, with thei
 - [[Ushiro Ashi Garami]] - Related leg control position
 - [[Inside Heel Hook]] - Primary submission threat
 - [[Straight Ankle Lock]] - Secondary submission option
-
 
 ## Related Positions
 

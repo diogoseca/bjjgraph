@@ -16,7 +16,7 @@ description: "Master Open Guard Top in BJJ. Complete guide covering setup, contr
     {
       "@type": "HowToStep",
       "name": "Execute Headquarters Entry",
-      "text": "From this position, execute Headquarters Entry to transition to Headquarters Position.",
+      "text": "From this position, execute Headquarters Entry to transition to Headquarters Control.",
       "position": 1
     },
     {
@@ -58,6 +58,72 @@ description: "Master Open Guard Top in BJJ. Complete guide covering setup, contr
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor posture?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to sweeps"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Neglecting grip fighting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Loss of control"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Committing prematurely?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Defensive counters"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Passive engagement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Allowing guard establishment"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Telegraphing passes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Predictable patterns"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Open Guard Top",
+  "description": "Master Open Guard Top in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%.",
+  "url": "https://bjjgraph.org/Positions/Open-Guard-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Open Guard Top in BJJ. Complete guide covering setup, contr
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Open Guard Top",
-      "item": "https://bjjgraph.com/positions/open-guard-top"
+      "item": "https://bjjgraph.org/Positions/Open-Guard-Top"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Open Guard Top",
-  "description": "Master Open Guard Top in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%.",
-  "url": "https://bjjgraph.com/positions/open-guard-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Open Guard Top
 #bjj #state #top #guard_passing
@@ -193,7 +243,6 @@ You are standing upright or crouched in combat base over your opponent, who lies
 - [[Standing Position]] - Neutral upright position
 - [[Closed Guard Top]] - Related guard top position
 - [[Side Control]] - Common destination after successful pass
-
 
 ## Related Positions
 

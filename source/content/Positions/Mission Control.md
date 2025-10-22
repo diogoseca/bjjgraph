@@ -58,6 +58,72 @@ description: "Master Mission Control in BJJ. Complete guide covering setup, cont
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Insufficient leg elevation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reduced control effectiveness"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor shin grip placement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Control vulnerability"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Inadequate closed guard base?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Position instability"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Overreliance on arm strength?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Premature fatigue"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Neglecting hip engagement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reduced pressure"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mission Control",
+  "description": "Master Mission Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
+  "url": "https://bjjgraph.org/Positions/Mission-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Mission Control in BJJ. Complete guide covering setup, cont
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Mission Control",
-      "item": "https://bjjgraph.com/positions/mission-control"
+      "item": "https://bjjgraph.org/Positions/Mission-Control"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Mission Control",
-  "description": "Master Mission Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
-  "url": "https://bjjgraph.com/positions/mission-control",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Mission Control
 #bjj #state #guard #10thplanet #rubberguard
@@ -189,7 +239,6 @@ Mission Control is the foundational control position within Eddie Bravo's Rubber
 - [[Williams Guard]] - Advanced position in progression
 - [[Closed Guard Bottom]] - Foundation position
 - [[Gogoplata Control]] - Related submission position
-
 
 ## Related Positions
 

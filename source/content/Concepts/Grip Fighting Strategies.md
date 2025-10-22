@@ -46,6 +46,50 @@ application_contexts:
 tags: [bjj, concept, fundamental, grips, control, strategy]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Grip Fighting Strategies",
+  "description": "Grip Fighting Strategies represents the fundamental skill of establishing, maintaining, and denying grips to create tactical advantages in both standing and ground positions. Unlike specific techni...",
+  "url": "https://bjjgraph.org/Concepts/Grip-Fighting-Strategies",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Grip Fighting Strategies",
+      "item": "https://bjjgraph.org/Concepts/Grip-Fighting-Strategies"
+    }
+  ]
+}
+</script>
+
+
 # Grip Fighting Strategies
 #bjj #concept #fundamental #grips #control
 

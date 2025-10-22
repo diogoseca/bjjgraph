@@ -79,16 +79,14 @@ description: "Learn Turtle to Back Control in BJJ. Step-by-step execution from T
   "@type": "WebPage",
   "name": "Turtle to Back Control",
   "description": "Learn Turtle to Back Control in BJJ. Step-by-step execution from Turtle Position to Back Control. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/turtle-to-back-control",
+  "url": "https://bjjgraph.org/Transitions/Turtle-to-Back-Control",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Turtle to Back Control in BJJ. Step-by-step execution from T
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Turtle to Back Control",
-      "item": "https://bjjgraph.com/transitions/turtle-to-back-control"
+      "item": "https://bjjgraph.org/Transitions/Turtle-to-Back-Control"
     }
   ]
 }

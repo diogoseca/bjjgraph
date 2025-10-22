@@ -107,6 +107,23 @@ description: "Master Front Headlock in BJJ. Complete guide covering setup, contr
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Front Headlock",
+  "description": "Master Front Headlock in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 55%, Intermediate 70%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Positions/Front-Headlock",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Front Headlock in BJJ. Complete guide covering setup, contr
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Front Headlock",
-      "item": "https://bjjgraph.com/positions/front-headlock"
+      "item": "https://bjjgraph.org/Positions/Front-Headlock"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Front Headlock",
-  "description": "Master Front Headlock in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 55%, Intermediate 70%, Advanced 80%.",
-  "url": "https://bjjgraph.com/positions/front-headlock",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Front Headlock
 #bjj #state #control #takedown #submission
@@ -247,7 +249,6 @@ You are in a frontal position, either standing or kneeling, facing your opponent
 - [[Anaconda Control]] - Related submission control
 - [[Turtle Top]] - Related top control position
 - [[Back Control]] - Common transition from front headlock
-
 
 ## Related Positions
 

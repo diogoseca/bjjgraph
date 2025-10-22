@@ -11,7 +11,7 @@ description: "Learn De La Riva Sweep in BJJ. Step-by-step execution. Success: Be
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "De La Riva Sweep",
-  "description": "Learn how to execute De La Riva Sweep in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute De La Riva Sweep in Brazilian Jiu-Jitsu from De La Riva Guard to Top Position. Success: Beginner 30%, Intermediate 55%, Advanced 75%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -73,7 +73,24 @@ description: "Learn De La Riva Sweep in BJJ. Step-by-step execution. Success: Be
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT5M"
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "De La Riva Sweep",
+  "description": "Learn De La Riva Sweep in BJJ. Step-by-step execution. Success: Beginner 30%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/De-La-Riva-Sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -85,39 +102,24 @@ description: "Learn De La Riva Sweep in BJJ. Step-by-step execution. Success: Be
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "De La Riva Sweep",
-      "item": "https://bjjgraph.com/transitions/de-la-riva-sweep"
+      "item": "https://bjjgraph.org/Transitions/De-La-Riva-Sweep"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "De La Riva Sweep",
-  "description": "Learn De La Riva Sweep in BJJ. Step-by-step execution. Success: Beginner 30%, Intermediate 55%, Advanced 75%.",
-  "url": "https://bjjgraph.com/transitions/de-la-riva-sweep",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # De La Riva Sweep
 #bjj #transition #sweep #open_guard #gi_specific
@@ -350,7 +352,6 @@ Updates to this standard should be reflected across all transition files to main
 - [[Lumberjack Sweep]] - Related technique
 - [[Heel Grab Sweep]] - Related technique
 - [[Tripod Sweep]] - Related technique
-
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points)

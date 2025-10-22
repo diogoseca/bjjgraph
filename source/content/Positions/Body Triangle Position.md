@@ -45,6 +45,95 @@ state_machine:
   related_states: ["Back Control", "Rear Naked Choke", "Armbar Control", "Triangle Control"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Body Triangle Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Body Triangle Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Rear Naked Choke",
+      "text": "From this position, execute Rear Naked Choke to transition to Won by Submission.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Armbar from Back",
+      "text": "From this position, execute Armbar from Back to transition to Armbar Control.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Collar Choke from Back",
+      "text": "From this position, execute Collar Choke from Back to transition to Won by Submission.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Body Triangle Squeeze",
+      "text": "From this position, execute Body Triangle Squeeze to transition to Won by Submission.",
+      "position": 4
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Body Triangle Position",
+  "description": "Master Body Triangle Position in BJJ. Powerful leg control from back control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Positions/Body-Triangle-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Body Triangle Position",
+      "item": "https://bjjgraph.org/Positions/Body-Triangle-Position"
+    }
+  ]
+}
+</script>
+
+
 # Body Triangle Position
 #bjj #state #back-control #dominant #submission
 

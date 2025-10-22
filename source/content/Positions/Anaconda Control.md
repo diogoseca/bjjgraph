@@ -15,8 +15,8 @@ description: "Master Anaconda Control in BJJ. Complete guide covering setup, con
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Anaconda Choke Finish",
-      "text": "From this position, execute Anaconda Choke Finish to transition to Won by Submission.",
+      "name": "Execute anaconda choke",
+      "text": "From this position, execute anaconda choke to transition to Won by Submission.",
       "position": 1
     },
     {
@@ -27,26 +27,26 @@ description: "Master Anaconda Control in BJJ. Complete guide covering setup, con
     },
     {
       "@type": "HowToStep",
+      "name": "Execute Side Control",
+      "text": "From this position, execute Side Control to transition to Anaconda Side Finish.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
       "name": "Execute Gator Roll",
       "text": "From this position, execute Gator Roll to transition to Won by Submission.",
-      "position": 3
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Switch to D'arce",
       "text": "From this position, execute Switch to D'arce to transition to D'arce Control.",
-      "position": 4
+      "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Transition to Front Headlock",
       "text": "From this position, execute Transition to Front Headlock to transition to Front Headlock.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Anaconda to Back Control",
-      "text": "From this position, execute Anaconda to Back Control to transition to Back Control.",
       "position": 6
     }
   ],
@@ -107,6 +107,23 @@ description: "Master Anaconda Control in BJJ. Complete guide covering setup, con
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Anaconda Control",
+  "description": "Master Anaconda Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 50%, Intermediate 60%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Positions/Anaconda-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Anaconda Control in BJJ. Complete guide covering setup, con
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Anaconda Control",
-      "item": "https://bjjgraph.com/positions/anaconda-control"
+      "item": "https://bjjgraph.org/Positions/Anaconda-Control"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Anaconda Control",
-  "description": "Master Anaconda Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 50%, Intermediate 60%, Advanced 70%.",
-  "url": "https://bjjgraph.com/positions/anaconda-control",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Anaconda Control
 #bjj #state #submission #choke #anaconda
@@ -247,7 +249,6 @@ You are positioned in front of or slightly to the side of your opponent, often s
 - [[D'arce Control]] - Complementary front headlock submission
 - [[Peruvian Necktie]] - Related head and arm control
 - [[North-South]] - Potential transition position
-
 
 ## Related Positions
 

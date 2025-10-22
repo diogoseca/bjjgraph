@@ -33,6 +33,106 @@ related_positions: ["Front Headlock Control Position", "Turtle Position Top", "S
 related_techniques: ["Japanese Necktie", "Darce Setup", "Arm Triangle"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Japanese Necktie Setup",
+  "description": "Learn how to execute Japanese Necktie Setup in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Front headlock with opponent turtled, head controlled",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Arm Threading",
+      "text": "Thread arm under near side of opponent's neck deeply",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Far Arm Control",
+      "text": "Secure opponent's far arm with your free hand",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Rolling Motion",
+      "text": "Roll over your own shoulder while pulling opponent",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Arm Trap",
+      "text": "Position opponent's arm across their own neck during roll",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Establish side control with necktie locked, begin applying pressure",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Japanese Necktie Setup",
+  "description": "Learn Japanese Necktie Setup in BJJ. Step-by-step execution from Front Headlock to Japanese Necktie position. Success: Beginner 20%, Intermediate 35%, Advanced 50%.",
+  "url": "https://bjjgraph.org/Transitions/Japanese-Necktie-Setup",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Japanese Necktie Setup",
+      "item": "https://bjjgraph.org/Transitions/Japanese-Necktie-Setup"
+    }
+  ]
+}
+</script>
+
+
 # Japanese Necktie Setup
 #bjj #transition #submission_setup #front_headlock #advanced
 

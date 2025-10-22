@@ -11,7 +11,7 @@ description: "Learn Tap Out in BJJ. Understanding submission signals and safety 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Tap Out",
-  "description": "Learn how to execute Tap Out safely in Brazilian Jiu-Jitsu to prevent injury and signal submission.",
+  "description": "Learn how to execute Tap Out in Brazilian Jiu-Jitsu from Submission Position to Won by Submission. Success: Beginner 100%, Intermediate 100%, Advanced 100%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -55,7 +55,24 @@ description: "Learn Tap Out in BJJ. Understanding submission signals and safety 
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT1M"
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Tap Out",
+  "description": "Learn Tap Out in BJJ. Understanding submission signals and safety protocols. Success: Beginner 100%, Intermediate 100%, Advanced 100%.",
+  "url": "https://bjjgraph.org/Transitions/Tap-Out",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -67,39 +84,24 @@ description: "Learn Tap Out in BJJ. Understanding submission signals and safety 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Tap Out",
-      "item": "https://bjjgraph.com/transitions/tap-out"
+      "item": "https://bjjgraph.org/Transitions/Tap-Out"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Tap Out",
-  "description": "Learn Tap Out in BJJ. Understanding submission signals and safety protocols. Success: Beginner 100%, Intermediate 100%, Advanced 100%.",
-  "url": "https://bjjgraph.com/transitions/tap-out",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Tap Out
 #bjj #safety #submission #fundamental #critical
@@ -342,7 +344,6 @@ Every transition file must include:
 - [[Escape Fundamentals]] - Technical skills for avoiding submission positions
 - [[Won by Submission]] - Resulting state when tap occurs
 - [[Rear Naked Choke]] - Common submission requiring tap recognition
-
 
 ## Competition Applications
 - **IBJJF Rules**: Tap ends match immediately, results in submission loss

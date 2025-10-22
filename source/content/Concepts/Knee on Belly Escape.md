@@ -46,6 +46,50 @@ application_contexts:
 tags: [bjj, concept, intermediate, escape, defensive, knee-on-belly]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee on Belly Escape",
+  "description": "Knee on Belly Escape represents the systematic approach to recovering from one of BJJ's most oppressive control positions, where the opponent uses knee pressure on your torso to establish dominant ...",
+  "url": "https://bjjgraph.org/Concepts/Knee-on-Belly-Escape",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Knee on Belly Escape",
+      "item": "https://bjjgraph.org/Concepts/Knee-on-Belly-Escape"
+    }
+  ]
+}
+</script>
+
+
 # Knee on Belly Escape
 #bjj #concept #intermediate #escape #defensive
 

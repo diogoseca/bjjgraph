@@ -4,6 +4,111 @@ description: "Master Outside Ashi Garami Bottom in BJJ. Complete guide covering 
 ---
 
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Outside Ashi Garami Bottom in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Outside Ashi Garami Bottom.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Outside Heel Hook",
+      "text": "From this position, execute Outside Heel Hook to transition to Won by Submission.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Straight Ankle Lock",
+      "text": "From this position, execute Straight Ankle Lock to transition to Won by Submission.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Saddle Position",
+      "text": "From this position, execute Transition to Saddle Position to transition to Saddle Position Bottom.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Cross Ashi Entry",
+      "text": "From this position, execute Cross Ashi Entry to transition to Cross Ashi Garami Bottom.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Inside Ashi Transition",
+      "text": "From this position, execute Inside Ashi Transition to transition to Inside Ashi Garami Bottom.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Leg Drag to Back",
+      "text": "From this position, execute Leg Drag to Back to transition to Back Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Loose leg triangle with space?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent can extract their leg or rotate hip to escape, position becomes unstable The correction is: Squeeze legs together tightly, right foot pulled back toward buttocks to tighten figure-4, eliminate all space"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Flat body position (not angled)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reduces leverage for submissions, makes it easier for opponent to stack or pass The correction is: Angle body 45-90 degrees perpendicular to opponent, hip toward their trapped leg"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Weak upper body grips?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent rotates hip out, extracts leg, or counterattacks with top leg lock position The correction is: Strong two-handed control - one hand on heel/foot, other hand on knee/thigh to block rotation"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Staying static in outside ashi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent has time to establish standing posture or work escape, position becomes stalemate The correction is: Constantly threaten submissions and transitions, use opponent's defensive reactions to advance position"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Ignoring opponent's free leg?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent uses free leg to kick, push, or establish frames that aid escape The correction is: Monitor free leg, use grips and body positioning to control or neutralize free leg's effectiveness"
+      }
+    }
+  ]
+}
+</script>
+
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -11,11 +116,11 @@ description: "Master Outside Ashi Garami Bottom in BJJ. Complete guide covering 
   "@type": "WebPage",
   "name": "Outside Ashi Garami Bottom",
   "description": "Master Outside Ashi Garami Bottom in BJJ. Complete guide covering leg entanglement control, heel hooks, and transitions. Success rates: Beginner 30%, Intermediate 45%, Advanced 65%.",
-  "url": "https://bjjgraph.com/positions/outside-ashi-garami-bottom",
+  "url": "https://bjjgraph.org/Positions/Outside-Ashi-Garami-Bottom",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -28,19 +133,19 @@ description: "Master Outside Ashi Garami Bottom in BJJ. Complete guide covering 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Outside Ashi Garami Bottom",
-      "item": "https://bjjgraph.com/positions/outside-ashi-garami-bottom"
+      "item": "https://bjjgraph.org/Positions/Outside-Ashi-Garami-Bottom"
     }
   ]
 }

@@ -44,6 +44,50 @@ application_contexts:
 tags: [bjj, concept, intermediate, mental-game, competition, psychology, performance, mindset]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Competition Mindset",
+  "description": "Competition Mindset represents the psychological state, cognitive patterns, and emotional regulation capabilities that enable optimal performance under the stress, uncertainty, and pressure inheren...",
+  "url": "https://bjjgraph.org/Concepts/Competition-Mindset",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Competition Mindset",
+      "item": "https://bjjgraph.org/Concepts/Competition-Mindset"
+    }
+  ]
+}
+</script>
+
+
 # Competition Mindset
 #bjj #concept #intermediate #mental-game #competition
 

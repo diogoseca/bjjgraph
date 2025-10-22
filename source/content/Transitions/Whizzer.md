@@ -37,6 +37,106 @@ related_positions: ["Side Control", "Turtle Position", "Standing Position", "Hal
 related_techniques: ["Underhook Control", "Back Take", "Single Leg Defense", "Arm Drag Counter"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Whizzer",
+  "description": "Learn how to execute Whizzer in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Recognize opponent's underhook attempt or established underhook position",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Thread your arm over their underhooking arm creating overhook configuration",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically tries to maintain underhook depth and drive forward",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Trap their arm tightly against your body while adjusting hips away from pressure",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Apply downward pressure on their shoulder while controlling their posture",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Establish stable defensive framework with options for counters and attacks",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Whizzer",
+  "description": "Learn Whizzer in BJJ. Step-by-step execution from Various Positions to Defensive Control. Success: Beginner 60%, Intermediate 75%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Transitions/Whizzer",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Whizzer",
+      "item": "https://bjjgraph.org/Transitions/Whizzer"
+    }
+  ]
+}
+</script>
+
+
 # Whizzer
 #bjj #transition #counter #defensive #fundamental
 

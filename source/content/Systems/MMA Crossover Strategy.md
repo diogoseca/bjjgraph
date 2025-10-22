@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "MMA Crossover Strategy",
   "description": "The MMA Crossover Strategy provides a comprehensive framework for adapting Brazilian Jiu-Jitsu skills to the mixed martial arts context. This system addresses the fundamental differences between pu...",
-  "url": "https://bjjgraph.com/systems/mma-crossover-strategy",
+  "url": "https://bjjgraph.org/Systems/MMA-Crossover-Strategy",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Systems",
-      "item": "https://bjjgraph.com/systems/"
+      "item": "https://bjjgraph.org/Systems/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "MMA Crossover Strategy",
-      "item": "https://bjjgraph.com/systems/mma-crossover-strategy"
+      "item": "https://bjjgraph.org/Systems/MMA-Crossover-Strategy"
     }
   ]
 }

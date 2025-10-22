@@ -9,6 +9,105 @@ tags:
   - fundamental
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Collar Ties Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Collar Ties Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Snap Down",
+      "text": "From Collar Ties Position, execute Snap Down to advance your position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Front Headlock",
+      "text": "From Collar Ties Position, execute Front Headlock to advance your position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Ankle Pick",
+      "text": "From Collar Ties Position, execute Ankle Pick to advance your position.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Collar Ties Position?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Control opponent's head to control their body and posture"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Collar Ties Position",
+  "description": "Master Collar Ties Position in BJJ. Complete guide covering control, entries, and transitions. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Positions/Collar-Ties-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Collar Ties Position",
+      "item": "https://bjjgraph.org/Positions/Collar-Ties-Position"
+    }
+  ]
+}
+</script>
+
+
 # Collar Ties Position
 #bjj #state #standing #clinch #fundamental
 

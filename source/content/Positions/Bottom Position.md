@@ -170,38 +170,44 @@ state_machine:
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Manage Bottom Position in BJJ",
-  "description": "Complete guide to defensive strategies and guard establishment from bottom position.",
+  "name": "How to Use Bottom Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Bottom Position.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Protect Yourself First",
-      "text": "Establish defensive frames and protect your neck and limbs from submission attacks.",
+      "name": "Execute Establish Closed Guard",
+      "text": "From this position, execute Establish Closed Guard to transition to Closed Guard Bottom.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Create Space",
-      "text": "Use hip escapes and frames to create space between you and your opponent.",
+      "name": "Execute Create Open Guard",
+      "text": "From this position, execute Create Open Guard to transition to Open Guard Bottom.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Establish Guard",
-      "text": "Work to get your legs between you and opponent to establish closed or open guard.",
+      "name": "Execute Technical Standup",
+      "text": "From this position, execute Technical Standup to transition to Standing Position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Control Distance",
-      "text": "Use your legs and frames to manage distance and prevent opponent from establishing dominant pins.",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, execute Hip Escape to Guard to transition to Guard Position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Transition to Better Position",
-      "text": "Move to half guard, full guard, or technical standup based on available opportunities.",
+      "name": "Execute Turtle Position",
+      "text": "From this position, execute Turtle Position to transition to Turtle Position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Half Guard Recovery",
+      "text": "From this position, execute Half Guard Recovery to transition to Half Guard Bottom.",
+      "position": 6
     }
   ],
   "tool": [
@@ -223,7 +229,7 @@ state_machine:
       "name": "What is a common mistake in Staying flat on back?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Makes it easy for opponent to pass guard, establish mount, or apply submission pressure without resistance. The correction is: Stay on your side or hip, creating angles that make it harder for opponent to control you and easier to establish guard."
+        "text": "Makes it easy for opponent to pass guard, establish mount, or apply submission pressure without resistance. The correction is: Stay on your side or hip, creating angles that make it harder for opponent to control you and easier to establish guard.\n  - **Recognition**: If you feel heavy pressure and can't move your hips, you're likely too flat."
       }
     },
     {
@@ -231,7 +237,7 @@ state_machine:
       "name": "What is a common mistake in Not using frames?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to close distance and establish dominant control positions without having to overcome defensive structures. The correction is: Establish frames using your forearms, shins, and feet to create barriers that prevent opponent from advancing position."
+        "text": "Allows opponent to close distance and establish dominant control positions without having to overcome defensive structures. The correction is: Establish frames using your forearms, shins, and feet to create barriers that prevent opponent from advancing position.\n  - **Recognition**: If opponent is able to settle their weight on you easily, you're not framing properly."
       }
     },
     {
@@ -239,7 +245,7 @@ state_machine:
       "name": "What is a common mistake in Panic and explosive movements?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Wastes energy quickly and often gives opponent better position or submission opportunities through uncontrolled movement. The correction is: Stay calm, breathe, and make deliberate technical movements focused on creating guard or escaping to safety."
+        "text": "Wastes energy quickly and often gives opponent better position or submission opportunities through uncontrolled movement. The correction is: Stay calm, breathe, and make deliberate technical movements focused on creating guard or escaping to safety.\n  - **Recognition**: If you're exhausted after 30 seconds and position hasn't improved, you're moving too explosively."
       }
     },
     {
@@ -247,7 +253,7 @@ state_machine:
       "name": "What is a common mistake in Giving up back?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Transitions from bad position to worse position, giving opponent the most dominant control position in BJJ. The correction is: Protect your back at all times - avoid rolling away from opponent or turning your back during scrambles."
+        "text": "Transitions from bad position to worse position, giving opponent the most dominant control position in BJJ. The correction is: Protect your back at all times - avoid rolling away from opponent or turning your back during scrambles.\n  - **Recognition**: If you find opponent behind you with hooks going in, you've given up your back."
       }
     },
     {
@@ -255,7 +261,7 @@ state_machine:
       "name": "What is a common mistake in Not establishing guard quickly?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Leaves you in vulnerable no-man's land where opponent can establish dominant pins or attempt submissions. The correction is: Prioritize getting your legs between you and opponent as quickly as possible to establish guard control."
+        "text": "Leaves you in vulnerable no-man's land where opponent can establish dominant pins or attempt submissions. The correction is: Prioritize getting your legs between you and opponent as quickly as possible to establish guard control.\n  - **Recognition**: If you're on your back but not in guard for more than a few seconds, you need to work faster to establish it."
       }
     }
   ]
@@ -270,16 +276,14 @@ state_machine:
   "@type": "WebPage",
   "name": "Bottom Position",
   "description": "Master Bottom Position in BJJ. Complete guide covering defensive strategies, guard establishment, and escape fundamentals. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-  "url": "https://bjjgraph.com/positions/bottom-position",
+  "url": "https://bjjgraph.org/Positions/Bottom-Position",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -289,19 +293,19 @@ state_machine:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Bottom Position",
-      "item": "https://bjjgraph.com/positions/bottom-position"
+      "item": "https://bjjgraph.org/Positions/Bottom-Position"
     }
   ]
 }

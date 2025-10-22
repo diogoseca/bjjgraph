@@ -4,105 +4,22 @@ submission_id: "SUB071"
 description: "Master Kneebar from 50/50 in BJJ. Complete guide covering safe setup, execution, defenses, and injury prevention. Learn from expert insights with step-by-step instructions for all skill levels."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Execute Kneebar from 50/50",
-  "description": "Complete guide to executing Kneebar from 50/50 position with proper safety protocols.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Establish 50/50 Control",
-      "text": "Secure 50/50 guard position with both legs entangled, ensuring your outside leg controls their hip.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Isolate Target Leg",
-      "text": "Clear your inside leg and secure the target leg across your body with proper hip alignment.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Secure Leg Grip",
-      "text": "Grip the leg with both arms, positioning their knee in the crook of your elbow or armpit.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Adjust Hip Angle",
-      "text": "Angle your hips perpendicular to opponent's leg, creating proper leverage for the submission.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Apply Progressive Pressure",
-      "text": "Extend your hips SLOWLY while pulling the leg, applying pressure over 3-5 seconds minimum.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Release Upon Tap",
-      "text": "Release immediately upon tap signal, controlling the leg descent to prevent injury.",
-      "position": 6
-    }
-  ],
-  "tool": ["Gi or No-Gi", "Mat space", "Training partner"],
-  "totalTime": "PT5M"
+  "@type": "WebPage",
+  "name": "Kneebar from 50/50",
+  "description": "Master Kneebar from 50/50 in BJJ. Complete guide covering safe setup, execution, defenses, and injury prevention. Learn from expert insights with step-by-step instructions for all skill levels.",
+  "url": "https://bjjgraph.org/Submissions/Kneebar-from-50-50",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What position is required to attempt Kneebar from 50/50 safely?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Starting position must be 50/50 Guard with both legs entangled. Required controls: (1) Outside leg controlling opponent's hip, (2) Target leg isolated and controlled across body, (3) Both arms securing leg with knee in crook of elbow or armpit, (4) Hip angle perpendicular to opponent's leg, (5) Partner awareness of tap signals."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How fast should pressure be applied in Kneebar training?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "SLOW and progressive - 3-5 seconds minimum in training. The kneebar affects multiple knee structures simultaneously. Application speed: Drilling 7-10 seconds at 30-40% pressure, Light rolling 5-7 seconds at 50-60% pressure, Competition 2-3 seconds at full pressure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the injury risks of Kneebar?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "ACL tear (partial or complete, 6-12 months recovery), MCL strain or tear (2-8 weeks recovery), LCL damage (2-6 weeks recovery), Meniscus tear (4-12 weeks recovery), Patellar tendon strain (2-4 weeks recovery). Always apply SLOWLY and release immediately upon tap."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When must you tap to a Kneebar?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Tap immediately when: leg is fully isolated and controlled, hip angle is perpendicular, pressure begins on knee joint, any discomfort or instability felt in knee. Unlike chokes, knee damage occurs before pain, so tap to position, not pain."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the immediate action required when partner taps to Kneebar?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "RELEASE IMMEDIATELY: (1) Stop hip extension instantly, (2) Release arm pressure on leg, (3) Control leg descent carefully, (4) Disentangle legs slowly, (5) Allow partner to straighten leg naturally, (6) Monitor for 10-15 seconds, asking 'knee okay?'"
-      }
-    }
-  ]
-}
-</script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -112,38 +29,24 @@ description: "Master Kneebar from 50/50 in BJJ. Complete guide covering safe set
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Kneebar from 50/50",
-      "item": "https://bjjgraph.com/submissions/kneebar-from-50-50"
+      "item": "https://bjjgraph.org/Submissions/Kneebar-from-50-50"
     }
   ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Kneebar from 50/50",
-  "description": "Master Kneebar from 50/50 in BJJ. Complete guide covering safe setup, execution, defenses, and injury prevention.",
-  "url": "https://bjjgraph.com/submissions/kneebar-from-50-50",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Kneebar from 50/50
 #bjj #submission #joint_lock #leg_lock #50/50

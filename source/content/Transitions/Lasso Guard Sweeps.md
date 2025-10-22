@@ -37,6 +37,106 @@ related_positions: ["Lasso Guard", "De La Riva Guard", "Open Guard Bottom", "Sid
 related_techniques: ["De La Riva Sweep", "Scissor Sweep", "Omoplata Sweep", "Tripod Sweep"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Lasso Guard Sweeps",
+  "description": "Learn how to execute Lasso Guard Sweeps in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish lasso control with foot threaded through opponent's arm and secure sleeve grip on lasso side, while second leg creates additional control point (bicep, spider hook, or hip)",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Begin extending lasso leg straight while maintaining sleeve grip tension, creating initial off-balancing pressure",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically posts hand on mat or attempts to remove lasso by circling away",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Read posting direction and adjust free leg pressure accordingly - push against their posted base or control their far hip to prevent base recovery",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Fully extend lasso leg while pulling sleeve hard, using free leg to drive them over while following their momentum",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Release lasso during rotation and establish mount or side control position as they fall, securing grips and pressure immediately",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lasso Guard Sweeps",
+  "description": "Learn Lasso Guard Sweeps in BJJ. Step-by-step execution from Lasso Guard to Top Position. Success: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "url": "https://bjjgraph.org/Transitions/Lasso-Guard-Sweeps",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Lasso Guard Sweeps",
+      "item": "https://bjjgraph.org/Transitions/Lasso-Guard-Sweeps"
+    }
+  ]
+}
+</script>
+
+
 # Lasso Guard Sweeps
 #bjj #transition #sweep #lasso-guard #intermediate
 

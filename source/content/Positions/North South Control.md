@@ -46,6 +46,101 @@ state_machine:
   related_states: ["Side Control", "Mount", "Kimura Control"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use North South Control in BJJ",
+  "description": "Complete guide to executing techniques and transitions from North South Control.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute North-South Choke",
+      "text": "From this position, execute North-South Choke to transition to Won by Submission.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kimura from North-South",
+      "text": "From this position, execute Kimura from North-South to transition to Kimura Control.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Mount",
+      "text": "From this position, execute Transition to Mount to transition to Mount.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Return to Side Control",
+      "text": "From this position, execute Return to Side Control to transition to Side Control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Armbar from North-South",
+      "text": "From this position, execute Armbar from North-South to transition to Armbar Control.",
+      "position": 5
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "North South Control",
+  "description": "Master North South Control in BJJ. Dominant pin position with chest-to-chest pressure and submission opportunities. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Positions/North-South-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "North South Control",
+      "item": "https://bjjgraph.org/Positions/North-South-Control"
+    }
+  ]
+}
+</script>
+
+
 # North South Control
 #bjj #state #pin #control #dominant
 

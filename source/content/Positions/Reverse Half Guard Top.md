@@ -16,32 +16,20 @@ description: "Master Reverse Half Guard Top in BJJ. Complete guide covering cont
     {
       "@type": "HowToStep",
       "name": "Execute Back Step Pass",
-      "text": "From this position, execute Back Step Pass to transition to Side Control Top.",
+      "text": "From Reverse Half Guard Top, execute Back Step Pass to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Backstep to Back Take",
-      "text": "From this position, execute Backstep to Back Take to transition to Back Control.",
+      "name": "Execute Side Control Top",
+      "text": "From Reverse Half Guard Top, execute Side Control Top to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Crossface and Flatten",
-      "text": "From this position, establish crossface control and flatten opponent to maintain dominant position.",
+      "name": "Execute Leg Drag Pass",
+      "text": "From Reverse Half Guard Top, execute Leg Drag Pass to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Reverse Half Guard Pass",
-      "text": "From this position, complete the pass to transition to Side Control Top.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Leg Drag Transition",
-      "text": "From this position, execute Leg Drag to transition to Leg Drag Position.",
-      "position": 5
     }
   ],
   "tool": [
@@ -50,6 +38,40 @@ description: "Master Reverse Half Guard Top in BJJ. Complete guide covering cont
     "Mat space"
   ],
   "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Reverse Half Guard Top?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Maintain Chest Pressure**: Keep constant pressure toward opponent's hips"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reverse Half Guard Top",
+  "description": "Master Reverse Half Guard Top in BJJ. Complete guide covering control, passing strategies, and transitions. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Positions/Reverse-Half-Guard-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -61,40 +83,24 @@ description: "Master Reverse Half Guard Top in BJJ. Complete guide covering cont
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Reverse Half Guard Top",
-      "item": "https://bjjgraph.com/positions/reverse-half-guard-top"
+      "item": "https://bjjgraph.org/Positions/Reverse-Half-Guard-Top"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Reverse Half Guard Top",
-  "description": "Master Reverse Half Guard Top in BJJ. Complete guide covering control, passing strategies, and transitions. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
-  "url": "https://bjjgraph.com/positions/reverse-half-guard-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Reverse Half Guard Top
 #bjj #state #guard #halfguard #top #passing

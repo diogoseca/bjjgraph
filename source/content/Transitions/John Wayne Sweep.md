@@ -11,7 +11,7 @@ description: "Learn John Wayne Sweep in BJJ. Step-by-step execution. Success: Be
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "John Wayne Sweep",
-  "description": "Learn how to execute John Wayne Sweep in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute John Wayne Sweep in Brazilian Jiu-Jitsu from Half Guard Bottom to Top Position. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -79,7 +79,24 @@ description: "Learn John Wayne Sweep in BJJ. Step-by-step execution. Success: Be
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT5M"
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "John Wayne Sweep",
+  "description": "Learn John Wayne Sweep in BJJ. Step-by-step execution. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/John-Wayne-Sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -91,39 +108,24 @@ description: "Learn John Wayne Sweep in BJJ. Step-by-step execution. Success: Be
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "John Wayne Sweep",
-      "item": "https://bjjgraph.com/transitions/john-wayne-sweep"
+      "item": "https://bjjgraph.org/Transitions/John-Wayne-Sweep"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "John Wayne Sweep",
-  "description": "Learn John Wayne Sweep in BJJ. Step-by-step execution. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
-  "url": "https://bjjgraph.com/transitions/john-wayne-sweep",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # John Wayne Sweep
 #bjj #transition #sweep #half_guard #intermediate
@@ -357,7 +359,6 @@ Updates to this standard should be reflected across all transition files to main
 - [[Pendulum Sweep]] - Related technique
 - [[Muscle Sweep]] - Related technique
 - [[Heel Grab Sweep]] - Related technique
-
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points)

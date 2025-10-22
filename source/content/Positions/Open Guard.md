@@ -163,43 +163,51 @@ state_machine:
     - "Closed Guard Bottom"
 ---
 
+
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Use Open Guard in BJJ",
-  "description": "Complete guide to open guard position, distance management, and transitioning to specific guards and sweeps.",
+  "description": "Complete guide to executing techniques and transitions from Open Guard.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Distance Control",
-      "text": "Position legs between you and opponent using feet on hips, shins on thighs, or knees as frames to manage distance.",
+      "name": "Execute Spider Guard",
+      "text": "From this position, execute Spider Guard to transition to Spider Guard.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Secure Grips",
-      "text": "Establish upper body grips on gi sleeves and collars, or wrist and elbow control in no-gi to prevent opponent from closing distance freely.",
+      "name": "Execute De La Riva Guard",
+      "text": "From this position, execute De La Riva Guard to transition to De La Riva Guard.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Read Opponent's Posture",
-      "text": "Observe whether opponent is standing, on knees, or backing away to determine which specific guard variation to enter.",
+      "name": "Execute X-Guard",
+      "text": "From this position, execute X-Guard to transition to X-Guard.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Enter Specific Guard",
-      "text": "Transition to appropriate guard type: Spider for kneeling opponents, De La Riva for standing, Butterfly for close range.",
+      "name": "Execute Butterfly Guard",
+      "text": "From this position, execute Butterfly Guard to transition to Butterfly Guard.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Sweep or Submission",
-      "text": "From specific guard position, execute high-percentage sweep or submission appropriate to that guard system.",
+      "name": "Execute Guard Recovery",
+      "text": "From this position, execute Guard Recovery to transition to Closed Guard Bottom.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Technical Standup",
+      "text": "From this position, execute Technical Standup to transition to Standing Position.",
+      "position": 6
     }
   ],
   "tool": [
@@ -218,63 +226,64 @@ state_machine:
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the difference between open guard and closed guard?",
+      "name": "What is a common mistake in Staying flat on back with legs extended?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Open guard uses legs positioned between you and opponent to create distance and manage angles, while closed guard locks legs around opponent's back for closer control. Open guard offers more mobility and diverse attacks but requires more active leg movement."
+        "text": "Removes your ability to create angles and makes it easy for opponent to pass over or around your legs. The correction is: Stay on your side or sit up, keeping your hips mobile and ready to adjust angles. Legs should be bent and active, not straight and passive.\n  - **Recognition**: If opponent easily controls your legs and passes your guard, you're likely too flat."
       }
     },
     {
       "@type": "Question",
-      "name": "What are common mistakes in open guard?",
+      "name": "What is a common mistake in Not maintaining active leg frames?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Staying flat on back reduces mobility and makes guard passing easier. Correct by staying on side or sitting up, maintaining constant leg movement, and actively managing distance with your feet and shins."
+        "text": "Opponent closes distance freely and establishes pressure on your legs, leading to guard pass. The correction is: Constantly adjust leg positioning to maintain frames - feet on hips, shins on thighs, knees creating distance.\n  - **Recognition**: If you feel opponent's weight settling on your legs, your frames have failed."
       }
     },
     {
       "@type": "Question",
-      "name": "When should I transition from open guard to specific guard?",
+      "name": "What is a common mistake in Weak or absent upper body grips?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Transition based on opponent's posture: Spider Guard when they're on knees, De La Riva when standing, Butterfly when close range, X-Guard for single leg control. Each position requires specific grips and leg configurations."
+        "text": "Opponent controls the pace and can freely move to passing positions without resistance. The correction is: Establish strong grips on sleeves/collar in gi, or wrist/elbow control in no-gi, and maintain them throughout.\n  - **Recognition**: If opponent easily changes angles and positions without you controlling their movement, your grips are inadequate."
       }
     },
     {
       "@type": "Question",
-      "name": "How do I prevent guard passing from open guard?",
+      "name": "What is a common mistake in Staying in generic open guard too long?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintain active leg frames creating distance, control opponent's sleeves or wrists, stay mobile by constantly adjusting angles, and don't let opponent settle their weight on your legs. If they start passing, immediately work to recover guard or stand up."
+        "text": "Against skilled opponents, generic open guard doesn't provide specific attacking opportunities and gets passed. The correction is: Quickly read opponent's posture and transition to appropriate specific guard (Spider, De La Riva, Butterfly, etc.).\n  - **Recognition**: If you're in open guard for more than 10-15 seconds without transitioning, you're staying too long."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the energy cost of open guard?",
+      "name": "What is a common mistake in Not reading opponent's passing approach?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Open guard requires medium to high energy expenditure due to constant leg movement and active distance management. Proper technique and timing can reduce energy cost, but it's more demanding than closed guard."
+        "text": "You enter a guard variation that doesn't counter opponent's specific passing style. The correction is: Watch opponent's posture and hand positioning to determine their passing intention, then enter the counter-guard.\n  - **Recognition**: If opponent easily passes despite you having \"good\" open guard, you chose the wrong guard variation for their passing style."
       }
     }
   ]
 }
 </script>
 
+
+<!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Open Guard",
   "description": "Master Open Guard in BJJ. Complete guide covering distance management, sweep systems, and submission attacks. Success rates: Beginner 40%, Intermediate 60%, Advanced 80%.",
-  "url": "https://bjjgraph.com/positions/open-guard",
+  "url": "https://bjjgraph.org/Positions/Open-Guard",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -284,23 +293,24 @@ state_machine:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Open Guard",
-      "item": "https://bjjgraph.com/positions/open-guard"
+      "item": "https://bjjgraph.org/Positions/Open-Guard"
     }
   ]
 }
 </script>
+
 
 <!-- LLM CONTEXT BLOCK - For AI/Game Engine Consumption -->
 <!--

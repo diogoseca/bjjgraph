@@ -16,32 +16,20 @@ description: "Master Kuzure Kesa Gatame Top in BJJ. Complete guide covering brok
     {
       "@type": "HowToStep",
       "name": "Execute Americana Setup",
-      "text": "From this position, execute Americana Setup to transition to Americana Control.",
+      "text": "From Kuzure Kesa Gatame Top, execute Americana Setup to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Triangle",
-      "text": "From this position, execute Arm Triangle to transition to submission.",
+      "name": "Execute Americana Control",
+      "text": "From Kuzure Kesa Gatame Top, execute Americana Control to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Mount Transition",
-      "text": "From this position, execute Mount Transition to transition to Mount.",
+      "name": "Execute Arm Triangle",
+      "text": "From Kuzure Kesa Gatame Top, execute Arm Triangle to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute North-South Transition",
-      "text": "From this position, execute North-South Transition to transition to North-South.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Side Control",
-      "text": "From this position, execute Side Control to transition to Side Control Top.",
-      "position": 5
     }
   ],
   "tool": [
@@ -50,6 +38,40 @@ description: "Master Kuzure Kesa Gatame Top in BJJ. Complete guide covering brok
     "Mat space"
   ],
   "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Kuzure Kesa Gatame Top?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Deep Underhook Control**: Maintain deep underhook on opponent's far arm to prevent their arm from escaping and creating defensive frames"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kuzure Kesa Gatame Top",
+  "description": "Master Kuzure Kesa Gatame Top in BJJ. Complete guide covering broken scarf hold control, pressure, and submissions. Modified kesa with 75% retention rate.",
+  "url": "https://bjjgraph.org/Positions/Kuzure-Kesa-Gatame-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -61,40 +83,24 @@ description: "Master Kuzure Kesa Gatame Top in BJJ. Complete guide covering brok
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Kuzure Kesa Gatame Top",
-      "item": "https://bjjgraph.com/positions/kuzure-kesa-gatame-top"
+      "item": "https://bjjgraph.org/Positions/Kuzure-Kesa-Gatame-Top"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Kuzure Kesa Gatame Top",
-  "description": "Master Kuzure Kesa Gatame Top in BJJ. Complete guide covering broken scarf hold control, pressure, and submissions. Modified kesa with 75% retention rate.",
-  "url": "https://bjjgraph.com/positions/kuzure-kesa-gatame-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Kuzure Kesa Gatame Top
 #bjj #state #dominant #pin #kesa_gatame #judo

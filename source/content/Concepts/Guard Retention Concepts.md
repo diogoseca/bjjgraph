@@ -46,6 +46,50 @@ application_contexts:
 tags: [bjj, concept, fundamental, guard, retention, defense]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Retention Concepts",
+  "description": "Guard Retention Concepts represents the comprehensive defensive framework for maintaining guard position against opponent's passing attempts and preventing advancement to dominant positions. Unlike...",
+  "url": "https://bjjgraph.org/Concepts/Guard-Retention-Concepts",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Guard Retention Concepts",
+      "item": "https://bjjgraph.org/Concepts/Guard-Retention-Concepts"
+    }
+  ]
+}
+</script>
+
+
 # Guard Retention Concepts
 #bjj #concept #fundamental #guard #retention
 

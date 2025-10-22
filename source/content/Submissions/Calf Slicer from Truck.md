@@ -92,6 +92,50 @@ author: "BJJ Graph System - Agent 10"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Calf Slicer from Truck",
+  "description": "Master Calf Slicer from Truck in BJJ. Complete guide covering safe setup, execution, defenses, and injury prevention. Success: Beginner 20%, Intermediate 40%, Advanced 60%.",
+  "url": "https://bjjgraph.org/Submissions/Calf-Slicer-from-Truck",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calf Slicer from Truck",
+      "item": "https://bjjgraph.org/Submissions/Calf-Slicer-from-Truck"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Calf Slicer from Truck is a compression submission targeting the calf muscle and Achilles tendon. This is a terminal state with HIGH injury risk. Safety is paramount - this submission can cause severe muscle and tendon damage.

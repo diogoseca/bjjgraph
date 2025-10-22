@@ -679,6 +679,105 @@ llm_context:
 
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Cross Ashi Garami Bottom in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Cross Ashi Garami Bottom.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kneebar Control",
+      "text": "From Cross Ashi Garami Bottom, execute Kneebar Control to advance your position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Saddle Position",
+      "text": "From Cross Ashi Garami Bottom, execute Saddle Position to advance your position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Backside 50-50",
+      "text": "From Cross Ashi Garami Bottom, execute Backside 50-50 to advance your position.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Cross Ashi Garami Bottom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Hip Connection Priority**: Maintaining hip-to-hip proximity or connection is the most critical control element—distance creation is opponent's primary escape path and must be prevented through constant pressure and grips"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Cross Ashi Garami Bottom",
+  "description": "Master Cross Ashi Garami Bottom in BJJ. Complete guide covering leg entanglement controls, heel hook entries, and transitions. Success rates: Beginner 30%, Intermediate 45%, Advanced 65%.",
+  "url": "https://bjjgraph.org/Positions/Cross-Ashi-Garami-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Cross Ashi Garami Bottom",
+      "item": "https://bjjgraph.org/Positions/Cross-Ashi-Garami-Bottom"
+    }
+  ]
+}
+</script>
+
+
 # Cross Ashi Garami Bottom
 #bjj #state #leg-lock #ashi-garami #advanced #bottom
 

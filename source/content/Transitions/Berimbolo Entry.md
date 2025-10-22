@@ -11,42 +11,42 @@ description: "Learn Berimbolo Entry in BJJ. Step-by-step execution from De La Ri
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Berimbolo Entry",
-  "description": "Learn how to execute Berimbolo Entry in Brazilian Jiu-Jitsu from De La Riva Guard to Back Control.",
+  "description": "Learn how to execute Berimbolo Entry in Brazilian Jiu-Jitsu from De La Riva Guard Bottom to Back Control Top. Success: Beginner 25%, Intermediate 50%, Advanced 75%.",
   "step": [
     {
       "@type": "HowToStep",
       "name": "Setup Requirements",
-      "text": "Establish De La Riva hook with far-side collar grip and ankle control",
+      "text": "Establish De La Riva hook with far-side collar grip and near ankle control",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Initial Movement",
-      "text": "Invert underneath opponent by rolling toward hooking side",
+      "text": "Invert underneath opponent by rolling toward your hooking side",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Opponent Response",
-      "text": "Opponent attempts to maintain balance or counter with pressure",
+      "text": "Opponent attempts to maintain balance or pressure down to prevent inversion",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Adaptation",
-      "text": "Thread leg through while maintaining cuff control on near ankle",
+      "text": "Thread hooking leg through while maintaining tight cuff control on ankle",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Completion",
-      "text": "Complete rotation to come up behind opponent's back",
+      "text": "Complete spiral rotation to come up behind opponent's back",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Consolidation",
-      "text": "Establish back control with hooks in and upper body control",
+      "text": "Establish back control with hooks in and upper body control (seatbelt)",
       "position": 6
     }
   ],
@@ -55,7 +55,24 @@ description: "Learn Berimbolo Entry in BJJ. Step-by-step execution from De La Ri
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT10M"
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Berimbolo Entry",
+  "description": "Learn Berimbolo Entry in BJJ. Step-by-step execution from De La Riva Guard to Back Control. Success: Beginner 25%, Intermediate 50%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Berimbolo-Entry",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -67,39 +84,24 @@ description: "Learn Berimbolo Entry in BJJ. Step-by-step execution from De La Ri
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Berimbolo Entry",
-      "item": "https://bjjgraph.com/transitions/berimbolo-entry"
+      "item": "https://bjjgraph.org/Transitions/Berimbolo-Entry"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Berimbolo Entry",
-  "description": "Learn Berimbolo Entry in BJJ. Step-by-step execution from De La Riva Guard to Back Control. Success: Beginner 25%, Intermediate 50%, Advanced 75%.",
-  "url": "https://bjjgraph.com/transitions/berimbolo-entry",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Berimbolo Entry
 #bjj #transition #back_attack #inversion #advanced

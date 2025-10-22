@@ -45,21 +45,19 @@ application_contexts:
 tags: [bjj, concept, training, flow-rolling, movement, technical-development]
 ---
 
-# Flow Rolling
-#bjj #concept #training #flow-rolling #movement
 
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Flow Rolling | Concept | BJJ Graph",
-  "description": "Master flow rolling methodology in BJJ. Learn cooperative movement training, technical variation development, and transitional fluidity for enhanced technical repertoire and injury prevention.",
-  "url": "https://bjjgraph.com/concepts/flow-rolling",
+  "name": "Flow Rolling | Concept",
+  "description": "Flow Rolling represents the cooperative movement practice methodology where partners engage in continuous technical exchange at reduced intensity, emphasizing movement quality, positional transitio...",
+  "url": "https://bjjgraph.org/Concepts/Flow-Rolling",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -72,23 +70,27 @@ tags: [bjj, concept, training, flow-rolling, movement, technical-development]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Flow Rolling",
-      "item": "https://bjjgraph.com/concepts/flow-rolling"
+      "item": "https://bjjgraph.org/Concepts/Flow-Rolling"
     }
   ]
 }
 </script>
+
+
+# Flow Rolling
+#bjj #concept #training #flow-rolling #movement
 
 ## Concept Description
 

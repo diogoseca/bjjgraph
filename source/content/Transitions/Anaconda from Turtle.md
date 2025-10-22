@@ -11,42 +11,42 @@ description: "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Tur
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Anaconda from Turtle",
-  "description": "Learn how to execute Anaconda from Turtle in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute Anaconda from Turtle in Brazilian Jiu-Jitsu from Turtle Position Top to Anaconda Control. Success: Beginner 30%, Intermediate 50%, Advanced 65%.",
   "step": [
     {
       "@type": "HowToStep",
       "name": "Establish Position",
-      "text": "Secure turtle top with chest pressure, control opponent's near arm",
+      "text": "Secure turtle top with chest pressure, control opponent's near-side arm with your hand",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Arm Threading",
-      "text": "Thread your far arm under opponent's neck toward their near shoulder, palm down",
+      "text": "Thread your far-side arm under opponent's neck toward their near shoulder, palm down position",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Trap Near Arm",
-      "text": "Ensure opponent's near arm is trapped between your arm and their neck",
+      "text": "Ensure opponent's near arm is trapped between your choking arm and their neck - critical element",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Lock Grip",
-      "text": "Secure figure-four grip by grabbing your own bicep with opposite hand",
+      "text": "Secure figure-four grip by grabbing your own bicep with opposite hand, eliminating space",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Roll to Side",
-      "text": "Roll to your side or back, bringing opponent with you for optimal angle",
+      "text": "Roll to your side or onto your back, bringing opponent with you for optimal pressure angle",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Apply Pressure",
-      "text": "Squeeze with bicep and back muscles to create anaconda choke pressure",
+      "text": "Squeeze with bicep and engage lat muscles to create anaconda choke compression",
       "position": 6
     }
   ],
@@ -58,6 +58,23 @@ description: "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Tur
   "totalTime": "PT5M"
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Anaconda from Turtle",
+  "description": "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Turtle Top to Anaconda Control. Success: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "url": "https://bjjgraph.org/Transitions/Anaconda-from-Turtle",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,39 +84,24 @@ description: "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Tur
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Anaconda from Turtle",
-      "item": "https://bjjgraph.com/transitions/anaconda-from-turtle"
+      "item": "https://bjjgraph.org/Transitions/Anaconda-from-Turtle"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Anaconda from Turtle",
-  "description": "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Turtle Top to Anaconda Control. Success: Beginner 30%, Intermediate 50%, Advanced 65%.",
-  "url": "https://bjjgraph.com/transitions/anaconda-from-turtle",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Anaconda from Turtle
 #bjj #transition #submission_setup #turtle #front_headlock #nogi

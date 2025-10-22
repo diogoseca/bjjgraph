@@ -16,40 +16,28 @@ description: "Master Collar Sleeve Guard Bottom in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Collar Drag Sweep",
-      "text": "From this position, execute Collar Drag Sweep using gi control to off-balance opponent.",
+      "text": "From Collar Sleeve Guard Bottom, execute Collar Drag Sweep to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Sleeve Drag to Back",
-      "text": "From this position, use sleeve control to take opponent's back.",
+      "name": "Execute Top Position",
+      "text": "From Collar Sleeve Guard Bottom, execute Top Position to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Setup",
-      "text": "From this position, break posture and attack triangle choke.",
+      "name": "Execute Scissor Sweep Variation",
+      "text": "From Collar Sleeve Guard Bottom, execute Scissor Sweep Variation to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Omoplata Entry",
-      "text": "From this position, transition to omoplata control.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Balloon Sweep",
-      "text": "From this position, lift opponent overhead with collar control.",
-      "position": 5
     }
   ],
   "tool": [
-    "BJJ Gi required",
+    "BJJ Gi or No-Gi attire",
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT6M"
+  "totalTime": "PT5M"
 }
 </script>
 
@@ -60,45 +48,30 @@ description: "Master Collar Sleeve Guard Bottom in BJJ. Complete guide covering 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Passive gripping?",
+      "name": "What is a key principle of Collar Sleeve Guard Bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to control posture and establish passing angles without resistance. The correction is: Maintain active grips that constantly break posture and create off-balancing moments."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Same-side grips?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Reduces effectiveness of sweeps and allows opponent to stack or circle away. The correction is: Use cross-collar and opposite-sleeve grips for maximum control and angle creation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Neglecting foot positioning?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Limits control over opponent's posture and distance, reducing sweep and attack effectiveness. The correction is: Use feet on hips, biceps, or collar to manage distance and create angles."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Static guard play?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Opponent establishes solid posture and passing position without facing threats. The correction is: Constantly transition between attacks, creating continuous pressure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Poor grip fighting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Opponent breaks your grips easily and establishes their preferred grips. The correction is: Fight actively for grips, break opponent's grips, and re-establish your controls quickly."
+        "text": "**Asymmetric Control**: Cross-body grip pattern (collar and opposite sleeve) creates powerful leverage and off-balancing opportunities"
       }
     }
   ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Collar Sleeve Guard Bottom",
+  "description": "Master Collar Sleeve Guard Bottom in BJJ. Complete guide covering grip control, sweeps, and gi-specific attacks. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Positions/Collar-Sleeve-Guard-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -110,39 +83,24 @@ description: "Master Collar Sleeve Guard Bottom in BJJ. Complete guide covering 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Collar Sleeve Guard Bottom",
-      "item": "https://bjjgraph.com/positions/collar-sleeve-guard-bottom"
+      "item": "https://bjjgraph.org/Positions/Collar-Sleeve-Guard-Bottom"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Collar Sleeve Guard Bottom",
-  "description": "Master Collar Sleeve Guard Bottom in BJJ. Complete guide covering grip control, sweeps, and gi-specific attacks. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
-  "url": "https://bjjgraph.com/positions/collar-sleeve-guard-bottom",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Collar Sleeve Guard Bottom
 #bjj #state #guard #bottom #gi

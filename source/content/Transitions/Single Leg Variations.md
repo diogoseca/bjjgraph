@@ -37,6 +37,106 @@ related_positions: ["Standing Position", "Top Position", "Clinch Position", "Com
 related_techniques: ["Single Leg Takedown", "Double Leg Takedown", "Ankle Pick", "High Crotch"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Single Leg Variations",
+  "description": "Learn how to execute Single Leg Variations in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Secure single leg control with leg captured against your body, head positioned on appropriate side",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Read opponent's defensive reaction and weight distribution to determine optimal finish variation",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically sprawls backward, squares stance with base, or attempts to hop away",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Transition smoothly between variations based on ongoing defensive adjustments and balance changes",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Execute chosen finish variation driving through to completion with opponent on mat",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Establish top position immediately, securing side control or passing to dominant position",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Single Leg Variations",
+  "description": "Learn Single Leg Variations in BJJ. Step-by-step execution from Standing Position to Top Position. Success: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Single-Leg-Variations",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Single Leg Variations",
+      "item": "https://bjjgraph.org/Transitions/Single-Leg-Variations"
+    }
+  ]
+}
+</script>
+
+
 # Single Leg Variations
 #bjj #transition #takedown #single_leg #wrestling
 

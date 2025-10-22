@@ -49,18 +49,19 @@ bot_metadata:
   last_improved: "2025-10-22"
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Dealing with Pressure | BJJ Concept | BJJ Graph",
-  "description": "Understand how to deal with pressure in Brazilian Jiu-Jitsu. Learn defensive principles, frame creation, and breathing techniques to survive and escape heavy top pressure across all positions.",
-  "url": "https://bjjgraph.com/concepts/dealing-with-pressure",
+  "name": "Dealing with Pressure | Concept",
+  "description": "Dealing with Pressure represents the fundamental skill of maintaining defensive effectiveness, structural integrity, and tactical options when subjected to heavy top pressure from an opponent's con...",
+  "url": "https://bjjgraph.org/Concepts/Dealing-with-Pressure",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -73,137 +74,19 @@ bot_metadata:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Dealing with Pressure",
-      "item": "https://bjjgraph.com/concepts/dealing-with-pressure"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Understand and Apply Pressure Management in BJJ",
-  "description": "Learn the fundamental principles of dealing with heavy top pressure in Brazilian Jiu-Jitsu through frames, breathing, and strategic movement.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Understand the Core Principle",
-      "text": "Dealing with pressure is the fundamental skill of maintaining defensive effectiveness and structural integrity when subjected to heavy top pressure. It combines physical endurance, technical positioning, and psychological composure to survive and create escape opportunities."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Learn Key Components",
-      "text": "Master pressure recognition to identify pressure type and direction, frame establishment to create structural barriers, and breathing under load using diaphragmatic technique despite chest compression."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Apply Defensive Frames",
-      "text": "Establish frames immediately with forearms and elbows against opponent's weight points. Never allow flat back position—maintain angle to one side. Create 2-4 inches of space for breathing and movement."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Manage Energy and Breathing",
-      "text": "Use diaphragmatic breathing despite compression. Make small sequential movements rather than explosive attempts that waste energy. Conserve energy using structural frames instead of muscular effort."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Recognize Common Errors",
-      "text": "Avoid flat back position which allows maximum pressure, absent frames causing complete compression, explosive struggling leading to exhaustion, and panicked hyperventilation causing psychological breakdown."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Develop Through Training",
-      "text": "Practice pressure acclimation drills with larger partners, frame maintenance under increasing load, breathing practice under chest compression, and positional survival rounds focusing on endurance over escape."
-    }
-  ],
-  "totalTime": "P4M",
-  "estimatedCost": {
-    "@type": "MonetaryAmount",
-    "currency": "USD",
-    "value": "0"
-  }
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is dealing with pressure in Brazilian Jiu-Jitsu?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Dealing with pressure is the fundamental skill of maintaining defensive effectiveness, structural integrity, and tactical options when subjected to heavy top pressure from an opponent's controlled position. It encompasses physical endurance, technical positioning, psychological composure, and strategic approach to surviving and escaping pressure-based control systems."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When is pressure management most critical in BJJ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Pressure management becomes critical in any bottom position where opponent establishes heavy top pressure, including Side Control, Mount, North-South, and Knee on Belly. It's especially important when opponent transitions weight onto chest or ribcage restricting breathing, during scrambles where opponent secures top position, and when tired or outmatched physically."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I breathe under heavy pressure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Use diaphragmatic breathing technique despite chest compression. Breathe strategically rather than panicking into hyperventilation. Establish frames to create minimal space (2-4 inches) for breathing room. Focus on controlled, steady breathing to maintain oxygen supply and psychological composure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the most critical pressure defense errors?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The most critical errors include flat back position allowing maximum pressure, absent or collapsed frames preventing breathing and movement, explosive struggling causing rapid energy depletion, panicked hyperventilation leading to psychological breakdown, and giving up mentally before reaching physical limits."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I develop better pressure tolerance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Develop pressure tolerance through pressure acclimation drills with larger training partners, frame maintenance under progressively increasing load, specific breathing practice while partner applies chest compression, positional survival rounds focusing on endurance, and psychological stress inoculation through extended pressure exposure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does pressure management relate to frame creation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Frames are the primary technical tool for managing pressure. They create structural barriers between opponent's weight and your torso, preventing complete chest-to-chest compression. Effective framing with forearms and elbows creates 2-4 inches of space essential for breathing and initiating escape movements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Should I try to escape immediately under heavy pressure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Attempting complex escapes under maximum pressure typically fails and wastes energy. Instead, focus first on establishing frames, maintaining breathing, and creating small sequential movements. Wait for opponent's transitions or weight shifts to create escape windows when pressure temporarily reduces."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does pressure defense differ in gi versus no-gi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Fundamental principles remain consistent with tactical adaptations. Gi allows more grip-based pressure maintenance but also provides grip options for the defender to manipulate opponent's pressure distribution and create frames. No-gi requires more emphasis on body positioning and frame angles without grip assistance."
-      }
+      "item": "https://bjjgraph.org/Concepts/Dealing-with-Pressure"
     }
   ]
 }

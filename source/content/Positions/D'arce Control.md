@@ -107,6 +107,23 @@ description: "Master D'arce Control in BJJ. Complete guide covering setup, contr
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "D'arce Control",
+  "description": "Master D'arce Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 55%, Intermediate 70%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Positions/D'arce-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master D'arce Control in BJJ. Complete guide covering setup, contr
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "D'arce Control",
-      "item": "https://bjjgraph.com/positions/darce-control"
+      "item": "https://bjjgraph.org/Positions/Darce-Control"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "D'arce Control",
-  "description": "Master D'arce Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 55%, Intermediate 70%, Advanced 80%.",
-  "url": "https://bjjgraph.com/positions/d'arce-control",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # D'arce Control
 #bjj #state #submission #choke #darce
@@ -246,7 +248,6 @@ You are positioned facing your opponent, often from a top position like side con
 - [[Anaconda Control]] - Complementary front headlock submission
 - [[Japanese Necktie]] - Similar mechanics with different configuration
 - [[Arm Triangle]] - Related head and arm choke
-
 
 ## Related Positions
 

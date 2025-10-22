@@ -593,6 +593,105 @@ llm_context:
 
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Kuzure Kesa Gatame Variations Top in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Kuzure Kesa Gatame Variations Top.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Standard Kesa Gatame",
+      "text": "From Kuzure Kesa Gatame Variations Top, execute Transition to Standard Kesa Gatame to advance your position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kesa Gatame",
+      "text": "From Kuzure Kesa Gatame Variations Top, execute Kesa Gatame to advance your position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to North-South",
+      "text": "From Kuzure Kesa Gatame Variations Top, execute Transition to North-South to advance your position.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Kuzure Kesa Gatame Variations Top?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Diagonal Chest Pressure**: Applying weight across opponent's upper chest diagonally restricts breathing and prevents sitting up or turning"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kuzure Kesa Gatame Variations Top",
+  "description": "Master Kuzure Kesa Gatame variations from top position in BJJ. Broken scarf hold control and submissions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Positions/Kuzure-Kesa-Gatame-Variations-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kuzure Kesa Gatame Variations Top",
+      "item": "https://bjjgraph.org/Positions/Kuzure-Kesa-Gatame-Variations-Top"
+    }
+  ]
+}
+</script>
+
+
 # Kuzure Kesa Gatame Variations Top
 #bjj #position #pin #kesa-gatame #judo #intermediate
 

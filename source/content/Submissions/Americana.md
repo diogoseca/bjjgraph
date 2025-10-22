@@ -3,6 +3,7 @@ title: "Americana | BJJ Submission Guide | BJJ Graph"
 description: "Final positioning with opponent's arm in figure-four configuration Pressure application creating external rotation of the shoulder"
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "Final positioning with opponent's arm in figure-four configuration
   "@type": "WebPage",
   "name": "Americana",
   "description": "Final positioning with opponent's arm in figure-four configuration Pressure application creating external rotation of the shoulder",
-  "url": "https://bjjgraph.com/submissions/americana",
+  "url": "https://bjjgraph.org/Submissions/Americana",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "Final positioning with opponent's arm in figure-four configuration
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Americana",
-      "item": "https://bjjgraph.com/submissions/americana"
+      "item": "https://bjjgraph.org/Submissions/Americana"
     }
   ]
 }
 </script>
+
 
 # Americana
 #bjj #submission #joint_lock #shoulder_lock #endstate #fundamental

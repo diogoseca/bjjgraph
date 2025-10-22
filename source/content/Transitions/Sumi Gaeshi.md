@@ -11,7 +11,7 @@ description: "Learn Sumi Gaeshi in BJJ. Step-by-step execution. Success: Beginne
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Sumi Gaeshi",
-  "description": "Learn how to execute Sumi Gaeshi in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute Sumi Gaeshi in Brazilian Jiu-Jitsu from Standing Position to Top Position. Success: Beginner 30%, Intermediate 55%, Advanced 70%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -67,7 +67,24 @@ description: "Learn Sumi Gaeshi in BJJ. Step-by-step execution. Success: Beginne
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT5M"
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sumi Gaeshi",
+  "description": "Learn Sumi Gaeshi in BJJ. Step-by-step execution. Success: Beginner 30%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Sumi-Gaeshi",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -79,39 +96,24 @@ description: "Learn Sumi Gaeshi in BJJ. Step-by-step execution. Success: Beginne
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Sumi Gaeshi",
-      "item": "https://bjjgraph.com/transitions/sumi-gaeshi"
+      "item": "https://bjjgraph.org/Transitions/Sumi-Gaeshi"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Sumi Gaeshi",
-  "description": "Learn Sumi Gaeshi in BJJ. Step-by-step execution. Success: Beginner 30%, Intermediate 55%, Advanced 70%.",
-  "url": "https://bjjgraph.com/transitions/sumi-gaeshi",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Sumi Gaeshi
 #bjj #transition #takedown #judo #sacrifice_throw

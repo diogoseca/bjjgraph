@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Pin Escape Methodology",
   "description": "The Pin Escape Methodology represents a comprehensive framework for escaping the full spectrum of pinning positions in BJJ. Rather than presenting isolated techniques for specific positions, this s...",
-  "url": "https://bjjgraph.com/concepts/pin-escape-methodology",
+  "url": "https://bjjgraph.org/Concepts/Pin-Escape-Methodology",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Pin Escape Methodology",
-      "item": "https://bjjgraph.com/concepts/pin-escape-methodology"
+      "item": "https://bjjgraph.org/Concepts/Pin-Escape-Methodology"
     }
   ]
 }

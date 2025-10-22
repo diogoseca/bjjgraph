@@ -15,33 +15,39 @@ description: "Master Scarf Hold (Kesa Gatame) in BJJ. Complete guide covering co
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute North-South Transition",
-      "text": "From this position, transition to North-South position for additional control.",
+      "name": "Execute Modified Scarf Hold",
+      "text": "From this position, execute Modified Scarf Hold to transition to Modified Scarf Hold Position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Modified Scarf Hold",
-      "text": "Adjust position to modified scarf hold for better submission opportunities.",
+      "name": "Execute North-South Transition",
+      "text": "From this position, execute North-South Transition to transition to North-South.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana from Scarf Hold",
-      "text": "From this position, attack the near arm with Americana submission.",
+      "name": "Execute Triangle Setup",
+      "text": "From this position, execute Triangle Setup to transition to Triangle Control.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Triangle",
-      "text": "From this position, transition to arm triangle control.",
+      "name": "Execute Americana from Scarf Hold",
+      "text": "From this position, execute Americana from Scarf Hold to transition to Won by Submission.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Scarf Hold",
-      "text": "From this position, attack the far arm with armbar.",
+      "text": "From this position, execute Armbar from Scarf Hold to transition to Armbar Control.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Reverse Scarf Hold",
+      "text": "From this position, execute Reverse Scarf Hold to transition to Reverse Kesa Gatame.",
+      "position": 6
     }
   ],
   "tool": [
@@ -50,6 +56,72 @@ description: "Master Scarf Hold (Kesa Gatame) in BJJ. Complete guide covering co
     "Mat space"
   ],
   "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Opponent's near arm not adequately controlled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Easy arm extraction"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Head control too loose?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Opponent can bridge and turn"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Hips too high?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reduced pressure and control"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Weight too far forward?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to bridging escapes"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Base too narrow?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Instability when opponent moves explosively"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Scarf Hold Position",
+  "description": "Master Scarf Hold (Kesa Gatame) in BJJ. Complete guide covering control, transitions, and submissions. Success rates: Beginner 60%, Intermediate 75%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Positions/Scarf-Hold-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -61,40 +133,24 @@ description: "Master Scarf Hold (Kesa Gatame) in BJJ. Complete guide covering co
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Scarf Hold Position",
-      "item": "https://bjjgraph.com/positions/scarf-hold-position"
+      "item": "https://bjjgraph.org/Positions/Scarf-Hold-Position"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Scarf Hold Position",
-  "description": "Master Scarf Hold (Kesa Gatame) in BJJ. Complete guide covering control, transitions, and submissions. Success rates: Beginner 60%, Intermediate 75%, Advanced 85%.",
-  "url": "https://bjjgraph.com/positions/scarf-hold-position",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Scarf Hold Position
 #bjj #state #pin #control #kesa-gatame

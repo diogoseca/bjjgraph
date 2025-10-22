@@ -37,6 +37,106 @@ related_positions: ["Open Guard Top", "Side Control", "Half Guard Top"]
 related_techniques: ["Knee Cut Pass", "Pressure Pass", "Leg Drag Pass"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Leg Weave Pass",
+  "description": "Learn how to execute Leg Weave Pass in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish open guard top position; secure grip on opponent's leg (often knee area); control their hip or belt on opposite side",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Thread one arm underneath their near knee; establish grip on far hip or belt",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically attempts to create frames, re-guard with bottom leg, or create space to prevent pressure",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Drive head toward their far shoulder while applying chest pressure; walk hips around the weave",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Clear their bottom leg completely; establish chest-to-chest pressure; secure side control position",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Trap passed leg between your legs; establish crossface or underhook control; settle weight",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Weave Pass",
+  "description": "Learn Leg Weave Pass in BJJ. Step-by-step execution from open guard top to side control. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Leg-Weave-Pass",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Leg Weave Pass",
+      "item": "https://bjjgraph.org/Transitions/Leg-Weave-Pass"
+    }
+  ]
+}
+</script>
+
+
 # Leg Weave Pass
 #bjj #transition #guard_pass #pressure
 

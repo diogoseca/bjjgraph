@@ -11,7 +11,7 @@ description: "Master Headquarters Position Top in BJJ. Complete guide covering s
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Use Headquarters Position Top in BJJ",
-  "description": "Complete guide to executing guard passing techniques from Headquarters Position Top.",
+  "description": "Complete guide to executing techniques and transitions from Headquarters Position Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -107,6 +107,23 @@ description: "Master Headquarters Position Top in BJJ. Complete guide covering s
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Headquarters Position Top",
+  "description": "Master Headquarters Position Top in BJJ. Complete guide covering setup, control, passing strategies, and transitions. Success rates: Beginner 70%, Intermediate 85%, Advanced 95%.",
+  "url": "https://bjjgraph.org/Positions/Headquarters-Position-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Headquarters Position Top in BJJ. Complete guide covering s
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Headquarters Position Top",
-      "item": "https://bjjgraph.com/positions/headquarters-position-top"
+      "item": "https://bjjgraph.org/Positions/Headquarters-Position-Top"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Headquarters Position Top",
-  "description": "Master Headquarters Position Top in BJJ. Complete guide covering setup, control, passing strategies, and transitions. Success rates: Beginner 70%, Intermediate 85%, Advanced 95%.",
-  "url": "https://bjjgraph.com/positions/headquarters-position-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Headquarters Position Top
 #bjj #state #pass #top #control #systematic

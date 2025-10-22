@@ -4,12 +4,12 @@
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Bridge and Shrimp",
-  "description": "Bridge and Shrimp represent the fundamental escape movement patterns that form the foundation of all BJJ defensive techniques through hip elevation and lateral displacement that create space and enable...",
-  "url": "https://bjjgraph.com/concepts/bridge-and-shrimp",
+  "description": "Bridge and Shrimp represent the fundamental escape movement patterns that form the foundation of all BJJ defensive techniques through hip elevation and lateral displacement that create space and en...",
+  "url": "https://bjjgraph.org/Concepts/Bridge-and-Shrimp",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Bridge and Shrimp",
-      "item": "https://bjjgraph.com/concepts/bridge-and-shrimp"
+      "item": "https://bjjgraph.org/Concepts/Bridge-and-Shrimp"
     }
   ]
 }

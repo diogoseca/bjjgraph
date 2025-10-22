@@ -79,16 +79,14 @@ description: "Learn Toreando Pass in BJJ. Step-by-step execution. Complete techn
   "@type": "WebPage",
   "name": "Toreando Pass",
   "description": "Learn Toreando Pass in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/toreando-pass",
+  "url": "https://bjjgraph.org/Transitions/Toreando-Pass",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Toreando Pass in BJJ. Step-by-step execution. Complete techn
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Toreando Pass",
-      "item": "https://bjjgraph.com/transitions/toreando-pass"
+      "item": "https://bjjgraph.org/Transitions/Toreando-Pass"
     }
   ]
 }
@@ -336,7 +334,6 @@ Updates to this standard should be reflected across related transition setup fil
 
 ## Historical Context
 Toreando Pass has been a staple in Brazilian Jiu-Jitsu as a dynamic guard passing technique, particularly effective in competitive gi contexts where mobility and points are prioritized. It reflects the strategic emphasis on agile top game movement taught by modern BJJ schools and has been refined by competitors like Rafael Mendes to counter evolving guard styles.
-
 
 ## Related Techniques
 

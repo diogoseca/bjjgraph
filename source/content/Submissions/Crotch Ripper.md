@@ -83,6 +83,50 @@ author: "BJJGraph Agent 4"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crotch Ripper",
+  "description": "The Crotch Ripper is an extremely dangerous submission that attacks the hip joint and groin from truck position. **It is NOT recommended for training use** due to severe injury risk including hip d...",
+  "url": "https://bjjgraph.org/Submissions/Crotch-Ripper",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Crotch Ripper",
+      "item": "https://bjjgraph.org/Submissions/Crotch-Ripper"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ CRITICAL DANGER NOTICE
 
 **THIS SUBMISSION CAN CAUSE HIP DISLOCATION AND PERMANENT INJURY. NOT RECOMMENDED FOR TRAINING.**

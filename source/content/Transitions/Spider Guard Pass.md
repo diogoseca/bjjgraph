@@ -33,6 +33,106 @@ related_positions: ["Spider Guard Bottom", "Spider Guard Top", "Side Control Top
 related_techniques: ["Lasso Guard Pass", "Knee Cut Pass", "Toreando Pass"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Spider Guard Pass",
+  "description": "Learn how to execute Spider Guard Pass in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish strong upright posture with wide base, breaking opponent's ability to off-balance you with spider hooks",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Grip one of opponent's ankles or pants while maintaining heavy downward pressure to neutralize extension",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically maintains sleeve grips and attempts to extend legs to create distance",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Break the sleeve grip on your chosen side using a combination of pulling and circular motion while staying heavy",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Circle your body around the freed spider hook while controlling their shin, transitioning your weight forward",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Drive through the opening created, establishing crossface and achieving side control with heavy chest pressure",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Spider Guard Pass",
+  "description": "Learn Spider Guard Pass in BJJ. Step-by-step execution from Spider Guard Top to Side Control Top. Success: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "url": "https://bjjgraph.org/Transitions/Spider-Guard-Pass",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Spider Guard Pass",
+      "item": "https://bjjgraph.org/Transitions/Spider-Guard-Pass"
+    }
+  ]
+}
+</script>
+
+
 # Spider Guard Pass
 #bjj #transition #guard-pass #spider-guard #intermediate
 

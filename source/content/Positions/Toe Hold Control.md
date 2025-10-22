@@ -58,6 +58,72 @@ description: "Master Toe Hold Control in BJJ. Complete guide covering setup, con
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Insufficient figure-four grip pressure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reduced leverage"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Improper angle of application?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Inefficient pressure"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Premature breaking attempt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Position compromise"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Neglecting leg control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Defensive mobility"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Incorrect positioning of hands?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Suboptimal leverage"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Toe Hold Control",
+  "description": "Master Toe Hold Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%.",
+  "url": "https://bjjgraph.org/Positions/Toe-Hold-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Toe Hold Control in BJJ. Complete guide covering setup, con
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Toe Hold Control",
-      "item": "https://bjjgraph.com/positions/toe-hold-control"
+      "item": "https://bjjgraph.org/Positions/Toe-Hold-Control"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Toe Hold Control",
-  "description": "Master Toe Hold Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%.",
-  "url": "https://bjjgraph.com/positions/toe-hold-control",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Toe Hold Control
 #bjj #state #submission #leglock #control
@@ -189,7 +239,6 @@ Toe Hold Control is a specialized submission position where the practitioner man
 - [[Inside Heel Hook]] - Connected leg lock
 - [[50-50 Guard]] - Related leg entanglement
 - [[Ashi Garami]] - Foundational leg control position
-
 
 ## Related Positions
 

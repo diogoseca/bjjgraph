@@ -92,6 +92,50 @@ author: "BJJGraph System - Agent 12"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Breadcutter Choke | Submission",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. Breadcutter should take minimum 3-5 seconds in training. Lateral neck pressure builds gradually.\"",
+  "url": "https://bjjgraph.org/Submissions/Breadcutter-Choke",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Breadcutter Choke",
+      "item": "https://bjjgraph.org/Submissions/Breadcutter-Choke"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Breadcutter Choke (Kata Ha Jime) is a gi-specific blood choke from side control. Terminal state resulting in unconsciousness if held beyond tap. Safety paramount - renders opponent unconscious in 4-8 seconds.

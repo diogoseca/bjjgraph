@@ -41,6 +41,106 @@ author: "BJJGraph Content Team - Agent 7"
 version: "2.0"
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Rolling Kimura",
+  "description": "Learn how to execute Rolling Kimura in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Kimura Grip Setup",
+      "text": "Establish figure-four kimura grip from turtle top position",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Head Position",
+      "text": "Position your head near opponent's trapped arm side",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initiation",
+      "text": "Drive forward and begin rolling over your outside shoulder",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Momentum",
+      "text": "Use rolling momentum to sweep opponent over",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Land in top position with kimura control maintained",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Secure top position and maintain shoulder lock control",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rolling Kimura",
+  "description": "Learn Rolling Kimura in BJJ. Dynamic transition using kimura grip to create sweep or submission. Success: Beginner 40%, Intermediate 60%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Transitions/Rolling-Kimura",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Rolling Kimura",
+      "item": "https://bjjgraph.org/Transitions/Rolling-Kimura"
+    }
+  ]
+}
+</script>
+
+
 # Rolling Kimura
 #bjj #transition #kimura #turtle #sweep
 

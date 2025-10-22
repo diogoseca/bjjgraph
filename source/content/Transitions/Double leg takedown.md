@@ -79,16 +79,14 @@ description: "Learn Double Leg Takedown in BJJ. Step-by-step execution from Stan
   "@type": "WebPage",
   "name": "Double Leg Takedown",
   "description": "Learn Double Leg Takedown in BJJ. Step-by-step execution from Standing Position to Side Control. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/double-leg-takedown",
+  "url": "https://bjjgraph.org/Transitions/Double-leg-takedown",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Double Leg Takedown in BJJ. Step-by-step execution from Stan
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Double Leg Takedown",
-      "item": "https://bjjgraph.com/transitions/double-leg-takedown"
+      "item": "https://bjjgraph.org/Transitions/Double-leg-takedown"
     }
   ]
 }
@@ -309,7 +307,6 @@ The Double Leg Takedown has proven highly effective in competition contexts acro
 - Gi competition: Can be adapted with grip fighting to create takedown opportunities.
 - No-gi competition: Relies heavily on timing and penetration speed for success.
 - MMA crossover: Modified for striking defense awareness, offers safe takedown option.
-
 
 ## Related Techniques
 

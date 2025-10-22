@@ -171,33 +171,39 @@ state_machine:
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish S-Mount Position",
-      "text": "From high mount, slide one knee high near opponent's head while isolating their arm between your legs.",
+      "name": "Execute Armbar from S-Mount",
+      "text": "From this position, execute Armbar from S-Mount to transition to Armbar Control.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Secure Wide Base",
-      "text": "Post other leg wide for stability, creating strong base to prevent rolling.",
+      "name": "Execute Triangle from S-Mount",
+      "text": "From this position, execute Triangle from S-Mount to transition to Triangle Control.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Isolate the Arm",
-      "text": "Trap opponent's arm between your legs, controlling it with your knees and hips.",
+      "name": "Execute Americana from S-Mount",
+      "text": "From this position, execute Americana from S-Mount to transition to Won by Submission.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar",
-      "text": "Fall back for armbar, maintaining arm isolation and extending for submission.",
+      "name": "Execute Mounted Triangle",
+      "text": "From this position, execute Mounted Triangle to transition to Triangle Control.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Alternative Triangle Attack",
-      "text": "If armbar defended, transition to mounted triangle by sliding leg over neck.",
+      "name": "Execute Technical Mount Transition",
+      "text": "From this position, execute Technical Mount Transition to transition to Technical Mount Top.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Return to High Mount",
+      "text": "From this position, execute Return to High Mount to transition to High Mount Top.",
+      "position": 6
     }
   ],
   "tool": [
@@ -205,7 +211,7 @@ state_machine:
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT3M"
+  "totalTime": "PT5M"
 }
 </script>
 
@@ -266,16 +272,14 @@ state_machine:
   "@type": "WebPage",
   "name": "S-Mount Top",
   "description": "Master S-Mount Top in BJJ. Complete guide covering advanced mount control with isolated arm positioning. Success rates: Beginner 58%, Intermediate 73%, Advanced 87%.",
-  "url": "https://bjjgraph.com/positions/s-mount-top",
+  "url": "https://bjjgraph.org/Positions/S-Mount-Top",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -285,19 +289,19 @@ state_machine:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "S-Mount Top",
-      "item": "https://bjjgraph.com/positions/s-mount-top"
+      "item": "https://bjjgraph.org/Positions/S-Mount-Top"
     }
   ]
 }

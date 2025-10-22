@@ -47,6 +47,50 @@ application_contexts:
 tags: [bjj, concept, strategy, competition, planning, game-plan, advanced]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Game Planning",
+  "description": "Game Planning represents the strategic framework for developing comprehensive pre-match strategies that optimize technique selection, energy allocation, and tactical approaches based on your streng...",
+  "url": "https://bjjgraph.org/Concepts/Game-Planning",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Cross-references to related content",
+      "item": "https://bjjgraph.org/Concepts/Game-Planning"
+    }
+  ]
+}
+</script>
+
+
 # Game Planning
 #bjj #concept #strategy #competition #planning #advanced
 

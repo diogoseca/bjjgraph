@@ -91,6 +91,50 @@ author: "BJJ Graph Content Team - Agent 9"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Estima Lock",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. Estima Lock should take 5-7 seconds minimum in training. This is a HIGH RISK ankle lock with Achilles tendon danger.\"",
+  "url": "https://bjjgraph.org/Submissions/Estima-Lock",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Estima Lock",
+      "item": "https://bjjgraph.org/Submissions/Estima-Lock"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: The Estima Lock is a specialized inverted straight ankle lock submission from seated guard or leg entanglement positions. Named after Braulio Estima who popularized this variation, it creates high ankle and Achilles pressure through an inverted grip configuration. This is a HIGH RISK submission requiring advanced understanding of leg lock mechanics.

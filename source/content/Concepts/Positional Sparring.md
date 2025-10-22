@@ -45,21 +45,19 @@ application_contexts:
 tags: [bjj, concept, training, positional-sparring, skill-development, resistance-training]
 ---
 
-# Positional Sparring
-#bjj #concept #training #positional-sparring #resistance
 
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Positional Sparring | Concept | BJJ Graph",
-  "description": "Master positional sparring methodology in BJJ. Learn structured resistance training, position-specific problem solving, and objective-based development for accelerated skill acquisition.",
-  "url": "https://bjjgraph.com/concepts/positional-sparring",
+  "name": "Positional Sparring | Concept",
+  "description": "Positional Sparring represents the structured resistance training methodology where practitioners begin from predetermined positions with specific objectives and constraints, creating focused devel...",
+  "url": "https://bjjgraph.org/Concepts/Positional-Sparring",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -72,23 +70,27 @@ tags: [bjj, concept, training, positional-sparring, skill-development, resistanc
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Positional Sparring",
-      "item": "https://bjjgraph.com/concepts/positional-sparring"
+      "item": "https://bjjgraph.org/Concepts/Positional-Sparring"
     }
   ]
 }
 </script>
+
+
+# Positional Sparring
+#bjj #concept #training #positional-sparring #resistance
 
 ## Concept Description
 

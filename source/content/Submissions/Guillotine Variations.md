@@ -3,6 +3,50 @@ title: "Guillotine Variations | BJJ Submission Guide | BJJ Graph"
 description: "Master Guillotine choke variations in BJJ with comprehensive safety protocols. Learn multiple grips and setups. Beginner 35%, Intermediate 55%, Advanced 75%."
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guillotine Variations",
+  "description": "Master Guillotine choke variations in BJJ with comprehensive safety protocols. Learn multiple grips and setups. Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Submissions/Guillotine-Variations",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Guillotine Variations",
+      "item": "https://bjjgraph.org/Submissions/Guillotine-Variations"
+    }
+  ]
+}
+</script>
+
+
 # Guillotine Variations
 #bjj #submission #choke #nogi #gi #front_headlock
 

@@ -37,6 +37,106 @@ related_positions: ["Armbar Control", "Guard Recovery", "Top Position", "Closed 
 related_techniques: ["Armbar Defense", "Submission Defense", "Stack Defense", "Guard Recovery"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Hitchhiker Escape",
+  "description": "Learn how to execute Hitchhiker Escape in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Recognize armbar threat immediately; maintain calm and technical focus under submission pressure",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Bend captured arm's elbow and rotate thumb aggressively toward your opposite shoulder (hitchhiker gesture)",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Body Rotation",
+      "text": "Spin your entire body toward the trapped arm side while maintaining thumb orientation",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Positioning",
+      "text": "Keep your hips close to opponent's body during rotation to prevent them from adjusting angle",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Continue rotation until your elbow exits the dangerous extension line and submission pressure releases",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Transition immediately to guard recovery or top position before opponent can reattack",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hitchhiker Escape",
+  "description": "Learn Hitchhiker Escape in BJJ. Step-by-step execution from Armbar Control to Guard Recovery. Success: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Hitchhiker-Escape",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Hitchhiker Escape",
+      "item": "https://bjjgraph.org/Transitions/Hitchhiker-Escape"
+    }
+  ]
+}
+</script>
+
+
 # Hitchhiker Escape
 #bjj #transition #escape #defense #armbar #advanced
 

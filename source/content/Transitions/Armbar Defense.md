@@ -37,6 +37,106 @@ related_positions: ["Armbar Control", "Guard Recovery", "Side Control", "Mount",
 related_techniques: ["Submission Defense", "Hitchhiker Escape", "Stack Defense", "Guard Recovery"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Armbar Defense",
+  "description": "Learn how to execute Armbar Defense in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Immediately recognize armbar threat before full extension occurs; maintain calm under pressure",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Tuck attacking elbow tightly against your body and rotate thumb toward your face to protect joint",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Weight Application",
+      "text": "Stack your weight forward onto opponent's lower body and hips to reduce their extension leverage",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Base Creation",
+      "text": "Establish strong base with free hand and legs to support stacking pressure",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Angle Creation",
+      "text": "Turn your body perpendicular or angle away from armbar extension line to reduce leverage",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Either prevent finish through maintained defense or escape to guard recovery, side control, or other position",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Armbar Defense",
+  "description": "Learn Armbar Defense in BJJ. Step-by-step execution from Armbar Control to Guard Recovery. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Armbar-Defense",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Armbar Defense",
+      "item": "https://bjjgraph.org/Transitions/Armbar-Defense"
+    }
+  ]
+}
+</script>
+
+
 # Armbar Defense
 #bjj #transition #escape #defense #armbar #submission-defense
 

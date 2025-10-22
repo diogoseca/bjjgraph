@@ -37,6 +37,112 @@ related_positions: ["De La Riva Guard", "Side Control Top", "X-Guard", "Single L
 related_techniques: ["Berimbolo", "X-Guard Sweep", "Single Leg Takedown", "Kiss of the Dragon"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "De La Riva Sweep Variations",
+  "description": "Learn how to execute De La Riva Sweep Variations in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish deep DLR hook behind opponent's near leg, secure collar grip with one hand and sleeve grip with other hand, free foot positioned on hip or opposite thigh",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Pull sleeve across opponent's centerline while extending DLR hook to compromise their base and create off-balancing tension",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically reacts by posting far leg, circling away, or driving pressure forward to counter the sweep threat",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Read opponent's weight distribution and base reaction - if posting back choose tomahawk sweep, if circling away execute baby bolo entry, if driving forward use forward hook sweep",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execution Options",
+      "text": "Execute chosen sweep variation with coordinated hook extension, grip pull direction, and hip movement to complete off-balance",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Follow opponent's falling direction while maintaining grips, transition to side control or knee on belly based on sweep angle",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Secure crossface and underhook control in side control, establish stable top position before opponent can recover guard",
+      "position": 7
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "De La Riva Sweep Variations",
+  "description": "Learn De La Riva Sweep Variations in BJJ. Step-by-step execution from De La Riva Guard to Side Control Top. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/De-La-Riva-Sweep-Variations",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "De La Riva Sweep Variations",
+      "item": "https://bjjgraph.org/Transitions/De-La-Riva-Sweep-Variations"
+    }
+  ]
+}
+</script>
+
+
 # De La Riva Sweep Variations
 #bjj #transition #sweep #de_la_riva #advanced
 

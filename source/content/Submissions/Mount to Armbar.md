@@ -3,6 +3,7 @@ title: "Mount to Armbar | BJJ Submission Guide | BJJ Graph"
 description: "The Mount to Armbar transition represents a critical offensive sequence that converts a dominant positional control (Mount) into a submission control position (Armbar Control). This transition leve..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "The Mount to Armbar transition represents a critical offensive seq
   "@type": "WebPage",
   "name": "Mount to Armbar",
   "description": "The Mount to Armbar transition represents a critical offensive sequence that converts a dominant positional control (Mount) into a submission control position (Armbar Control). This transition leve...",
-  "url": "https://bjjgraph.com/submissions/mount-to-armbar",
+  "url": "https://bjjgraph.org/Submissions/Mount-to-Armbar",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "The Mount to Armbar transition represents a critical offensive seq
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Mount to Armbar",
-      "item": "https://bjjgraph.com/submissions/mount-to-armbar"
+      "item": "https://bjjgraph.org/Submissions/Mount-to-Armbar"
     }
   ]
 }
 </script>
+
 
 # Mount to Armbar
 #bjj #transition #mount #armbar #submission

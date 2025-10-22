@@ -10,38 +10,26 @@ description: "Master Lockdown Half Guard Variations in BJJ. Complete guide cover
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Use Lockdown Half Guard Variations in BJJ",
-  "description": "Complete guide to executing techniques and transitions from Lockdown Half Guard Variations.",
+  "name": "How to Use Lockdown Half Guard Variations Bottom in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Lockdown Half Guard Variations Bottom.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Setup",
-      "text": "From this position, execute Electric Chair Setup to transition to Electric Chair control position.",
+      "name": "Execute Knee Slide Pressure",
+      "text": "From Lockdown Half Guard Variations Bottom, execute Knee Slide Pressure to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Vaporizer Entry",
-      "text": "From this position, execute Vaporizer Entry to transition to advanced control.",
+      "name": "Execute Flattened Half Guard",
+      "text": "From Lockdown Half Guard Variations Bottom, execute Flattened Half Guard to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Plan B Sweep",
-      "text": "From this position, execute Plan B Sweep to transition to top position.",
+      "name": "Execute Free Trapped Leg",
+      "text": "From Lockdown Half Guard Variations Bottom, execute Free Trapped Leg to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Whip Up Variations",
-      "text": "From this position, execute Whip Up Variations to transition to dominant position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Dogfight Transition",
-      "text": "From this position, execute Dogfight Transition to transition to Dogfight Position.",
-      "position": 5
     }
   ],
   "tool": [
@@ -50,6 +38,40 @@ description: "Master Lockdown Half Guard Variations in BJJ. Complete guide cover
     "Mat space"
   ],
   "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Lockdown Half Guard Variations Bottom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Lockdown Tension Maintenance**: Establish and maintain strong figure-four leg control as foundation for all variations"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lockdown Half Guard Variations Bottom",
+  "description": "Master Lockdown Half Guard Variations in BJJ. Complete guide covering Electric Chair, Vaporizer, and Plan B setups. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "url": "https://bjjgraph.org/Positions/Lockdown-Half-Guard-Variations-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -61,40 +83,24 @@ description: "Master Lockdown Half Guard Variations in BJJ. Complete guide cover
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Lockdown Half Guard Variations Bottom",
-      "item": "https://bjjgraph.com/positions/lockdown-half-guard-variations-bottom"
+      "item": "https://bjjgraph.org/Positions/Lockdown-Half-Guard-Variations-Bottom"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Lockdown Half Guard Variations Bottom",
-  "description": "Master Lockdown Half Guard Variations in BJJ. Complete guide covering Electric Chair, Vaporizer, and Plan B setups. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-  "url": "https://bjjgraph.com/positions/lockdown-half-guard-variations-bottom",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Lockdown Half Guard Variations Bottom
 #bjj #state #halfguard #10thplanet #lockdown #variations #bottom

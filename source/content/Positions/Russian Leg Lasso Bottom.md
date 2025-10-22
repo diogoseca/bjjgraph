@@ -10,38 +10,26 @@ description: "Master Russian Leg Lasso Bottom in BJJ. Complete guide covering ho
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Use Russian Leg Lasso in BJJ",
+  "name": "How to Use Russian Leg Lasso Bottom in BJJ",
   "description": "Complete guide to executing techniques and transitions from Russian Leg Lasso Bottom.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Russian Leg Lasso Sweep",
-      "text": "From this position, execute Russian Leg Lasso Sweep to transition to top position.",
+      "name": "Execute Remove Leg Hook",
+      "text": "From Russian Leg Lasso Bottom, execute Remove Leg Hook to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Entry",
-      "text": "From this position, execute Back Take Entry to transition to Back Control.",
+      "name": "Execute Open Guard Top",
+      "text": "From Russian Leg Lasso Bottom, execute Open Guard Top to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Setup",
-      "text": "From this position, execute Triangle Setup to transition to Triangle Control.",
+      "name": "Execute Circle Away from Hook",
+      "text": "From Russian Leg Lasso Bottom, execute Circle Away from Hook to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Omoplata Entry",
-      "text": "From this position, execute Omoplata Entry to transition to Omoplata Control.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Kiss of the Dragon",
-      "text": "From this position, execute Kiss of the Dragon to transition to back exposure.",
-      "position": 5
     }
   ],
   "tool": [
@@ -50,6 +38,40 @@ description: "Master Russian Leg Lasso Bottom in BJJ. Complete guide covering ho
     "Mat space"
   ],
   "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Russian Leg Lasso Bottom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Deep Hook Establishment**: Secure leg hook as deeply as possible over opponent's shoulder or head for maximum control"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Russian Leg Lasso Bottom",
+  "description": "Master Russian Leg Lasso Bottom in BJJ. Complete guide covering hook mechanics, sweeps, and back takes. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.",
+  "url": "https://bjjgraph.org/Positions/Russian-Leg-Lasso-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -61,40 +83,24 @@ description: "Master Russian Leg Lasso Bottom in BJJ. Complete guide covering ho
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Russian Leg Lasso Bottom",
-      "item": "https://bjjgraph.com/positions/russian-leg-lasso-bottom"
+      "item": "https://bjjgraph.org/Positions/Russian-Leg-Lasso-Bottom"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Russian Leg Lasso Bottom",
-  "description": "Master Russian Leg Lasso Bottom in BJJ. Complete guide covering hook mechanics, sweeps, and back takes. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.",
-  "url": "https://bjjgraph.com/positions/russian-leg-lasso-bottom",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Russian Leg Lasso Bottom
 #bjj #state #openguard #leglasso #sweep #backtake #advanced

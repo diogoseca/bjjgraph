@@ -79,16 +79,14 @@ description: "Learn Sprawl in BJJ. Step-by-step execution. Complete technique gu
   "@type": "WebPage",
   "name": "Sprawl",
   "description": "Learn Sprawl in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/sprawl",
+  "url": "https://bjjgraph.org/Transitions/Sprawl",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Sprawl in BJJ. Step-by-step execution. Complete technique gu
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Sprawl",
-      "item": "https://bjjgraph.com/transitions/sprawl"
+      "item": "https://bjjgraph.org/Transitions/Sprawl"
     }
   ]
 }

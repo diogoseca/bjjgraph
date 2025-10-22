@@ -48,6 +48,50 @@ application_contexts:
 tags: [bjj, concept, intermediate, control, top-game, pressure]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Control Maintenance",
+  "description": "Control Maintenance represents the fundamental principle of preserving positional dominance through continuous adjustment, pressure application, and connection reinforcement that prevents opponent'...",
+  "url": "https://bjjgraph.org/Concepts/Control-Maintenance",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Control Maintenance",
+      "item": "https://bjjgraph.org/Concepts/Control-Maintenance"
+    }
+  ]
+}
+</script>
+
+
 # Control Maintenance
 #bjj #concept #intermediate #control
 

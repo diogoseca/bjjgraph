@@ -48,6 +48,50 @@ application_contexts:
 tags: [bjj, concept, intermediate, defense, escape, control]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Connection Breaking",
+  "description": "Connection Breaking represents the fundamental principle of disrupting the physical contact points and control mechanisms that enable an opponent to maintain positional dominance, creating the prer...",
+  "url": "https://bjjgraph.org/Concepts/Connection-Breaking",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Connection Breaking",
+      "item": "https://bjjgraph.org/Concepts/Connection-Breaking"
+    }
+  ]
+}
+</script>
+
+
 # Connection Breaking
 #bjj #concept #intermediate #defense #escape
 

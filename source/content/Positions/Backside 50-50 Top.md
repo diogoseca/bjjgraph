@@ -16,40 +16,28 @@ description: "Master Backside 50-50 Top in BJJ. Complete guide covering dominant
     {
       "@type": "HowToStep",
       "name": "Execute Inside Heel Hook",
-      "text": "From this position, execute Inside Heel Hook with superior angle and pressure.",
+      "text": "From Backside 50-50 Top, execute Inside Heel Hook to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, transition from leg entanglement to back control.",
+      "name": "Execute Heel Hook Control",
+      "text": "From Backside 50-50 Top, execute Heel Hook Control to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar Attack",
-      "text": "From this position, attack opponent's knee with compression lock.",
+      "name": "Execute Kneebar from 50-50",
+      "text": "From Backside 50-50 Top, execute Kneebar from 50-50 to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Pressure Control",
-      "text": "From this position, maintain dominant pressure to prevent opponent's movement.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Pass Transition",
-      "text": "From this position, extract legs and transition to passing position.",
-      "position": 5
     }
   ],
   "tool": [
-    "No-Gi attire recommended",
+    "BJJ Gi or No-Gi attire",
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT6M"
+  "totalTime": "PT5M"
 }
 </script>
 
@@ -60,45 +48,30 @@ description: "Master Backside 50-50 Top in BJJ. Complete guide covering dominant
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Insufficient chest pressure?",
+      "name": "What is a key principle of Backside 50-50 Top?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows bottom player to create movement and attempt sweeps or position improvements. The correction is: Maintain heavy chest pressure on opponent's back to limit their hip mobility."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Ignoring back control opportunities?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Misses chance to advance to superior 4-point position with better submission opportunities. The correction is: Monitor opportunities to abandon leg entanglement for back control transition."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Poor leg positioning for attacks?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Reduces effectiveness of leg lock attempts and gives bottom player escape opportunities. The correction is: Maintain proper heel control and leg configuration for maximum attacking efficiency."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Neglecting base maintenance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Bottom player successfully executes sweep, reversing position to their advantage. The correction is: Keep wide base and distribute weight properly to prevent sweeps while attacking."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Stalling without attacking?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Referee intervention or bottom player finds escape opportunity during static position. The correction is: Constantly work toward submission or position advancement."
+        "text": "**Pressure Maintenance**: Constant chest pressure on opponent's back limits their mobility and offensive options"
       }
     }
   ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Backside 50-50 Top",
+  "description": "Master Backside 50-50 Top in BJJ. Complete guide covering dominant leg entanglement control, back attacks, and leg locks. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Positions/Backside-50-50-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -110,39 +83,24 @@ description: "Master Backside 50-50 Top in BJJ. Complete guide covering dominant
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Backside 50-50 Top",
-      "item": "https://bjjgraph.com/positions/backside-50-50-top"
+      "item": "https://bjjgraph.org/Positions/Backside-50-50-Top"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Backside 50-50 Top",
-  "description": "Master Backside 50-50 Top in BJJ. Complete guide covering dominant leg entanglement control, back attacks, and leg locks. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.",
-  "url": "https://bjjgraph.com/positions/backside-50-50-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Backside 50-50 Top
 #bjj #state #leg-entanglement #top #no-gi

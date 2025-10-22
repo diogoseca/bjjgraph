@@ -440,6 +440,105 @@ llm_context:
       points: 20
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Scarf Hold Top in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Scarf Hold Top.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Americana from Scarf Hold",
+      "text": "From Scarf Hold Top, execute Americana from Scarf Hold to advance your position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Americana Control",
+      "text": "From Scarf Hold Top, execute Americana Control to advance your position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Arm Triangle from Scarf Hold",
+      "text": "From Scarf Hold Top, execute Arm Triangle from Scarf Hold to advance your position.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Scarf Hold Top?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Hip Pressure**: Heavy, constant weight through your hip into opponent's ribs restricts breathing and movement"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Scarf Hold Top",
+  "description": "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional pinning position with strong control. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Positions/Scarf-Hold-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Scarf Hold Top",
+      "item": "https://bjjgraph.org/Positions/Scarf-Hold-Top"
+    }
+  ]
+}
+</script>
+
+
 # Scarf Hold Top
 #bjj #position #pin #kesa-gatame #top
 

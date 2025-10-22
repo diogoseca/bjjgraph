@@ -3,6 +3,7 @@ title: "Switch to Triangle | BJJ Submission Guide | BJJ Graph"
 description: "The Switch to Triangle is a tactical transition that redirects an existing attack or control position into the powerful triangle choke position. This transition capitalizes on the opponent's defens..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "The Switch to Triangle is a tactical transition that redirects an 
   "@type": "WebPage",
   "name": "Switch to Triangle",
   "description": "The Switch to Triangle is a tactical transition that redirects an existing attack or control position into the powerful triangle choke position. This transition capitalizes on the opponent's defens...",
-  "url": "https://bjjgraph.com/submissions/switch-to-triangle",
+  "url": "https://bjjgraph.org/Submissions/Switch-to-Triangle",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "The Switch to Triangle is a tactical transition that redirects an 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Switch to Triangle",
-      "item": "https://bjjgraph.com/submissions/switch-to-triangle"
+      "item": "https://bjjgraph.org/Submissions/Switch-to-Triangle"
     }
   ]
 }
 </script>
+
 
 # Switch to Triangle
 #bjj #transition #submission #triangle

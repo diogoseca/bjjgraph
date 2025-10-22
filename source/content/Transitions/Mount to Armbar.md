@@ -73,16 +73,14 @@ description: "Learn Mount to Armbar in BJJ. Step-by-step execution from Mount to
   "@type": "WebPage",
   "name": "Mount to Armbar",
   "description": "Learn Mount to Armbar in BJJ. Step-by-step execution from Mount to Armbar Control. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/mount-to-armbar",
+  "url": "https://bjjgraph.org/Transitions/Mount-to-Armbar",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -92,19 +90,19 @@ description: "Learn Mount to Armbar in BJJ. Step-by-step execution from Mount to
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Mount to Armbar",
-      "item": "https://bjjgraph.com/transitions/mount-to-armbar"
+      "item": "https://bjjgraph.org/Transitions/Mount-to-Armbar"
     }
   ]
 }

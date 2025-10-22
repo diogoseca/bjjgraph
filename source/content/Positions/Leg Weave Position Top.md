@@ -681,6 +681,105 @@ llm_context:
 
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Leg Weave Position Top in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Leg Weave Position Top.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute North-South",
+      "text": "From Leg Weave Position Top, execute North-South to advance your position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Cut Position",
+      "text": "From Leg Weave Position Top, execute Knee Cut Position to advance your position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Closed Guard Bottom",
+      "text": "From Leg Weave Position Top, execute Closed Guard Bottom to advance your position.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Leg Weave Position Top?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Leg Threading Mechanics and Balance**: Successfully threading leg through guard while maintaining stable balance creates the entanglement that collapses defensive structures, requiring coordination between leg movement and weight distribution"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Weave Position Top",
+  "description": "Master Leg Weave Position Top in BJJ. Complete guide covering leg weaving mechanics, guard passing, and control transitions. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Positions/Leg-Weave-Position-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Leg Weave Position Top",
+      "item": "https://bjjgraph.org/Positions/Leg-Weave-Position-Top"
+    }
+  ]
+}
+</script>
+
+
 # Leg Weave Position Top
 #bjj #state #guard-passing #top #advanced
 

@@ -70,6 +70,50 @@ author: "BJJGraph Content Team - Agent 7"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Mount",
+  "description": "Master Kimura from Mount in BJJ. Powerful shoulder lock from dominant position. Success: Beginner 40%, Intermediate 60%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Submissions/Kimura-from-Mount",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kimura from Mount",
+      "item": "https://bjjgraph.org/Submissions/Kimura-from-Mount"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Fundamental shoulder lock from mount. Terminal state. Moderate-high injury risk requires controlled application.

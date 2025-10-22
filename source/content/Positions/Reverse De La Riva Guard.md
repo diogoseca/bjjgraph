@@ -58,6 +58,72 @@ description: "Master Reverse De La Riva Guard in BJJ. Complete guide covering se
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Passive hook placement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Ineffective control"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Weak inside leg frame?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to knee cut"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Flat back positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Loss of defensive structure"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Focusing solely on defense?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Missing offensive opportunities"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor grip management?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Inability to control opponent's movements"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reverse De La Riva Guard",
+  "description": "Master Reverse De La Riva Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
+  "url": "https://bjjgraph.org/Positions/Reverse-De-La-Riva-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Reverse De La Riva Guard in BJJ. Complete guide covering se
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Reverse De La Riva Guard",
-      "item": "https://bjjgraph.com/positions/reverse-de-la-riva-guard"
+      "item": "https://bjjgraph.org/Positions/Reverse-De-La-Riva-Guard"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Reverse De La Riva Guard",
-  "description": "Master Reverse De La Riva Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
-  "url": "https://bjjgraph.com/positions/reverse-de-la-riva-guard",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Reverse De La Riva Guard
 #bjj #state #guard #open_guard #rdlr
@@ -190,7 +240,6 @@ You are on your side or partially inverted, with your outside leg hooking deep b
 - [[X-Guard]] - Related leg control position
 - [[Half Guard Bottom]] - Alternative defensive position
 - [[Butterfly Guard]] - Complementary guard system
-
 
 ## Related Positions
 

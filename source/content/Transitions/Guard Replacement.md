@@ -43,6 +43,106 @@ related_positions: ["Guard Position", "Top Position", "Half Guard", "Closed Guar
 related_techniques: ["Hip Escape", "Frame Creation", "Shrimp Escape", "Technical Stand-up"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Guard Replacement",
+  "description": "Learn how to execute Guard Replacement in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish strong frames (forearm to bicep, hand to hip) to create space and prevent opponent from flattening you",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Shrimp hips explosively away from opponent while maintaining frame pressure",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically follows your movement, driving forward to maintain pressure and complete pass",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Use opponent's forward pressure against them, creating more space as they drive into your frames",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Insert knee or shin between your body and opponent, establishing guard position (knee shield, closed guard, or open guard depending on space)",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Secure guard position with grips, hooks, or control points while adjusting distance and angle",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Replacement",
+  "description": "Learn Guard Replacement in BJJ. Step-by-step execution from Top Position Under Attack to Guard Recovery. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Guard-Replacement",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Guard Replacement",
+      "item": "https://bjjgraph.org/Transitions/Guard-Replacement"
+    }
+  ]
+}
+</script>
+
+
 # Guard Replacement
 #bjj #transition #escape #guard #defensive
 

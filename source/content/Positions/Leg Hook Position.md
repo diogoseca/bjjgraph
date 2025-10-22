@@ -97,15 +97,112 @@ state_machine:
     - "Mount"
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Leg Hook Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Leg Hook Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Primary Technique",
+      "text": "From this position, execute Primary Technique to transition to Improved Position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Secondary Technique",
+      "text": "From this position, execute Secondary Technique to transition to Alternative Position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Submission Attack",
+      "text": "From this position, execute Submission Attack to transition to Submission Position.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Losing key control points?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Position becomes unstable, opponent can escape or reverse The correction is: Maintain tight connections and proper body positioning throughout"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Poor pressure application?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent has space to defend or escape effectively The correction is: Use body weight and leverage efficiently, eliminate space systematically"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Leg Hook Position",
-  "description": "Master Leg Hook Position in BJJ. Complete guide covering leg hooking mechanics and control.",
-  "url": "https://bjjgraph.com/positions/leg-hook-position"
+  "description": "Master Leg Hook Position in BJJ. Complete guide covering leg hooking mechanics and control. Success rates vary by skill level.",
+  "url": "https://bjjgraph.org/Positions/Leg-Hook-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Leg Hook Position",
+      "item": "https://bjjgraph.org/Positions/Leg-Hook-Position"
+    }
+  ]
+}
+</script>
+
 
 # Leg Hook Position
 #bjj #state #leg-hook-position #neutral

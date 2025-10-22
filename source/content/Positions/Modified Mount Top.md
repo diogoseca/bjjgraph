@@ -3,6 +3,8 @@ title: "Modified Mount Top | BJJ Position Guide | BJJ Graph"
 description: "Master Modified Mount Top in BJJ. Complete guide covering technical mount variations, submissions, and transitions. Success rates: Beginner 58%, Intermediate 72%, Advanced 85%."
 ---
 
+
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -13,33 +15,21 @@ description: "Master Modified Mount Top in BJJ. Complete guide covering technica
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar Transition",
-      "text": "From this position, execute Armbar Transition to transition to Armbar Control.",
+      "name": "Execute Exploit Modified Base",
+      "text": "From Modified Mount Top, execute Exploit Modified Base to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, execute Back Take to transition to Back Control.",
+      "name": "Execute Half Guard Recovery",
+      "text": "From Modified Mount Top, execute Half Guard Recovery to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Mount",
-      "text": "From this position, execute Technical Mount to transition to Technical Mount.",
+      "name": "Execute Bridge During Transition",
+      "text": "From Modified Mount Top, execute Bridge During Transition to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Americana Lock",
-      "text": "From this position, execute Americana Lock to transition to Won by Submission.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Return to Full Mount",
-      "text": "From this position, execute Return to Full Mount to transition to Mount.",
-      "position": 5
     }
   ],
   "tool": [
@@ -48,6 +38,40 @@ description: "Master Modified Mount Top in BJJ. Complete guide covering technica
     "Mat space"
   ],
   "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Modified Mount Top?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Purpose-Driven Modification**: Each modification addresses specific defensive reactions or creates specific attacks"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Modified Mount Top",
+  "description": "Master Modified Mount Top in BJJ. Complete guide covering technical mount variations, submissions, and transitions. Success rates: Beginner 58%, Intermediate 72%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Positions/Modified-Mount-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -59,38 +83,24 @@ description: "Master Modified Mount Top in BJJ. Complete guide covering technica
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Modified Mount Top",
-      "item": "https://bjjgraph.com/positions/modified-mount-top"
+      "item": "https://bjjgraph.org/Positions/Modified-Mount-Top"
     }
   ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Modified Mount Top",
-  "description": "Master Modified Mount Top in BJJ. Complete guide covering technical mount variations, submissions, and transitions. Success rates: Beginner 58%, Intermediate 72%, Advanced 85%.",
-  "url": "https://bjjgraph.com/positions/modified-mount-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Modified Mount Top
 #bjj #state #mount #dominant #technical

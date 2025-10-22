@@ -34,7 +34,7 @@ description: "Master Inside Sankaku in BJJ. Complete guide covering setup, contr
     {
       "@type": "HowToStep",
       "name": "Execute Back Step to Backside 50/50",
-      "text": "From this position, execute Back Step to Backside 50/50 to transition to Backside 50/50.",
+      "text": "From this position, execute Back Step to Backside 50/50 to transition to Backside 50-50.",
       "position": 4
     },
     {
@@ -58,6 +58,72 @@ description: "Master Inside Sankaku in BJJ. Complete guide covering setup, contr
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor hip connection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Escape opportunities"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Failure to control knee line?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Loss of inside heel exposure"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Crossing ankles improperly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reduced control and vulnerability"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Hunting submissions prematurely?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Position compromise"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Neglecting upper body awareness?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to counter attacks"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inside Sankaku",
+  "description": "Master Inside Sankaku in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 85%.",
+  "url": "https://bjjgraph.org/Positions/Inside-Sankaku",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Inside Sankaku in BJJ. Complete guide covering setup, contr
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Inside Sankaku",
-      "item": "https://bjjgraph.com/positions/inside-sankaku"
+      "item": "https://bjjgraph.org/Positions/Inside-Sankaku"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Inside Sankaku",
-  "description": "Master Inside Sankaku in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 85%.",
-  "url": "https://bjjgraph.com/positions/inside-sankaku",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Inside Sankaku
 #bjj #state #leg_entanglement #submission_position #leglock
@@ -183,7 +233,6 @@ Inside Sankaku, also known as the "Honey Hole" or "411", is an advanced leg enta
 - [[Single Leg X Guard]] - Common entry position
 - [[Cross Ashi]] - Alternative advanced leg entanglement
 - [[Backside 50-50]] - Attacking from behind the leg
-
 
 ## Related Positions
 

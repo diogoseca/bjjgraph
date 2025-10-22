@@ -4,114 +4,19 @@ description: "Master Omoplata from Guard in BJJ. Complete safe setup, execution,
 ---
 
 
-
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Execute Omoplata from Guard in BJJ",
-  "description": "Complete guide to safely executing Omoplata shoulder lock from guard position with proper mechanics and injury prevention.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Establish Guard Control",
-      "text": "Begin from closed or open guard with opponent's posture broken.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Control Opponent's Arm",
-      "text": "Secure opponent's arm across your body, controlling wrist and elbow.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Pivot and Swing Leg Over",
-      "text": "Pivot your hips and swing leg over opponent's shoulder and head.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Rotate to Side Position",
-      "text": "Rotate your body toward opponent's trapped arm side, sitting up.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Control Opponent's Posture",
-      "text": "Control opponent's back and head to prevent rolling escape.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Apply Progressive Shoulder Pressure",
-      "text": "Slowly apply rotational pressure to shoulder over 5-7 seconds minimum.",
-      "position": 6
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Release Immediately Upon Tap",
-      "text": "Release pressure and allow opponent to extract arm safely.",
-      "position": 7
-    }
-  ],
-  "tool": [
-    "BJJ Gi or No-Gi attire",
-    "Training partner",
-    "Mat space",
-    "Instructor supervision for beginners"
-  ],
-  "totalTime": "PT7M"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the primary safety concern with omoplata submissions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Shoulder joint damage including rotator cuff tears, labrum injuries, and shoulder dislocation if pressure is applied too quickly or held after tap. Always apply pressure SLOWLY over 5-7 seconds minimum in training."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How should pressure be applied in omoplata training?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "SLOW and progressive over 5-7 seconds minimum. Never spike or jerk the shoulder. Apply rotational pressure gradually while monitoring partner's signals continuously."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are valid tap signals for omoplata?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Verbal tap, physical tap with free hand on opponent or mat, physical tap with feet, verbal 'tap' or 'stop'. Partner must have clear tap access with free limbs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When should I transition from omoplata to sweep versus finishing the submission?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If opponent's arm is not properly isolated or they maintain good base, transition to omoplata sweep for positional advantage. Only finish submission when arm control is complete and opponent's base is broken."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the roll escape from omoplata and how should attacker respond?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Opponent rolls forward over trapped shoulder to escape pressure. Attacker should follow the roll maintaining control or release and take back/top position. Never hold submission against the roll - serious injury risk."
-      }
-    }
-  ]
+  "@type": "WebPage",
+  "name": "Omoplata from Guard",
+  "description": "Master Omoplata from Guard in BJJ. Complete safe setup, execution, shoulder lock mechanics, and injury prevention. Success rates: Beginner 20%, Intermediate 35%, Advanced 55%.",
+  "url": "https://bjjgraph.org/Submissions/Omoplata-from-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -123,39 +28,24 @@ description: "Master Omoplata from Guard in BJJ. Complete safe setup, execution,
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Omoplata from Guard",
-      "item": "https://bjjgraph.com/submissions/omoplata-from-guard"
+      "item": "https://bjjgraph.org/Submissions/Omoplata-from-Guard"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Omoplata from Guard",
-  "description": "Master Omoplata from Guard in BJJ. Complete safe setup, execution, shoulder lock mechanics, and injury prevention. Success rates: Beginner 20%, Intermediate 35%, Advanced 55%.",
-  "url": "https://bjjgraph.com/submissions/omoplata-from-guard",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Omoplata from Guard
 #bjj #submission #shoulder-lock #guard #safety-critical

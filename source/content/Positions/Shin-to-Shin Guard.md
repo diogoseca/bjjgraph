@@ -45,8 +45,8 @@ description: "Master Shin-to-Shin Guard in BJJ. Complete guide covering setup, c
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Butterfly Hook Insertion",
-      "text": "From this position, execute Butterfly Hook Insertion to transition to Butterfly Guard.",
+      "name": "Execute Butterfly Hook Retention",
+      "text": "From this position, execute Butterfly Hook Retention to transition to Butterfly Guard.",
       "position": 6
     }
   ],
@@ -58,6 +58,72 @@ description: "Master Shin-to-Shin Guard in BJJ. Complete guide covering setup, c
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Insufficient shin pressure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Limited control"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor upper body posture?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to smash passes"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Incorrect angle of shin placement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reduced leverage"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Neglecting upper body grips?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Opponent mobility"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Static positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Missing transition opportunities"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Shin-to-Shin Guard",
+  "description": "Master Shin-to-Shin Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%.",
+  "url": "https://bjjgraph.org/Positions/Shin-to-Shin-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Shin-to-Shin Guard in BJJ. Complete guide covering setup, c
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Shin-to-Shin Guard",
-      "item": "https://bjjgraph.com/positions/shin-to-shin-guard"
+      "item": "https://bjjgraph.org/Positions/Shin-to-Shin-Guard"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Shin-to-Shin Guard",
-  "description": "Master Shin-to-Shin Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%.",
-  "url": "https://bjjgraph.com/positions/shin-to-shin-guard",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Shin-to-Shin Guard
 #bjj #state #guard #open_guard
@@ -189,7 +239,6 @@ You are seated or semi-reclined on the mat with your shin placed firmly across y
 - [[Butterfly Guard]] - Complementary seated guard
 - [[De La Riva Guard]] - Related open guard
 - [[Open Guard Bottom]] - Generic guard position
-
 
 ## Related Positions
 

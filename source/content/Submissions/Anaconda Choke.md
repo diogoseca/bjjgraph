@@ -3,6 +3,7 @@ title: "Anaconda Choke | BJJ Submission Guide | BJJ Graph"
 description: "From a Front Headlock position or while controlling the opponent in Turtle Position Top, you start by securing a tight grip around the opponent's neck with one arm, typically your dominant arm,..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "From a Front Headlock position or while controlling the opponent i
   "@type": "WebPage",
   "name": "Anaconda Choke",
   "description": "From a Front Headlock position or while controlling the opponent in Turtle Position Top, you start by securing a tight grip around the opponent's neck with one arm, typically your dominant arm,...",
-  "url": "https://bjjgraph.com/submissions/anaconda-choke",
+  "url": "https://bjjgraph.org/Submissions/Anaconda-Choke",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "From a Front Headlock position or while controlling the opponent i
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Anaconda Choke",
-      "item": "https://bjjgraph.com/submissions/anaconda-choke"
+      "item": "https://bjjgraph.org/Submissions/Anaconda-Choke"
     }
   ]
 }
 </script>
+
 
 # Anaconda Choke
 #bjj #submission #choke #front_headlock #advanced

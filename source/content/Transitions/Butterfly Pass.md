@@ -37,6 +37,106 @@ related_positions: ["Butterfly Guard", "Side Control", "Half Guard Top"]
 related_techniques: ["Knee Slide Pass", "Smash Pass", "Pressure Passing"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Butterfly Pass",
+  "description": "Learn how to execute Butterfly Pass in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish strong posture with wide base, control opponent's upper body with collar grips or overhooks, prevent underhooks",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Lower your hips and drive forward pressure to flatten opponent and reduce hook elevation power",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically attempts to maintain butterfly hooks, establish underhooks, or sweep to the side",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Step your leg over their bottom hook while maintaining pressure, use head control to prevent them turning away",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Circle your hips around remaining hook, drive knee across their body toward far hip",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Establish side control with crossface, chest pressure, and hip control before they can re-guard",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Butterfly Pass",
+  "description": "Learn Butterfly Pass in BJJ. Step-by-step execution from Butterfly Guard Top to Side Control. Success: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Butterfly-Pass",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Butterfly Pass",
+      "item": "https://bjjgraph.org/Transitions/Butterfly-Pass"
+    }
+  ]
+}
+</script>
+
+
 # Butterfly Pass
 #bjj #transition #guard-pass #butterfly-guard #fundamental
 

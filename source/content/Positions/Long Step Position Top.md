@@ -677,6 +677,105 @@ llm_context:
 
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Long Step Position Top in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Long Step Position Top.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Cut Position",
+      "text": "From Long Step Position Top, execute Knee Cut Position to advance your position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Top Position",
+      "text": "From Long Step Position Top, execute Top Position to advance your position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Leg Drag Position",
+      "text": "From Long Step Position Top, execute Leg Drag Position to advance your position.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Long Step Position Top?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Distance and Leg Clearing**: Extended leg stance creates distance preventing guard recovery while clearing opponent's leg positioning, providing primary mechanism for pass completion through geometric control"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Long Step Position Top",
+  "description": "Master Long Step Position Top in BJJ. Complete guide covering guard passing mechanics, leg clearing, and control transitions. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Positions/Long-Step-Position-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Long Step Position Top",
+      "item": "https://bjjgraph.org/Positions/Long-Step-Position-Top"
+    }
+  ]
+}
+</script>
+
+
 # Long Step Position Top
 #bjj #state #guard-passing #top #intermediate
 

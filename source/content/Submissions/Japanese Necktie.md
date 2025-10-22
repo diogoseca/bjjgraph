@@ -86,6 +86,50 @@ author: "BJJGraph System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Japanese Necktie | Blood Choke",
+  "description": "The Japanese Necktie is a blood choke from front headlock positions where the attacker threads their arm under the opponent's trapped arm to create bilateral carotid compression. The technique requ...",
+  "url": "https://bjjgraph.org/Submissions/Japanese-Necktie",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Japanese Necktie",
+      "item": "https://bjjgraph.org/Submissions/Japanese-Necktie"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ SAFETY NOTICE
 
 **This submission can cause LOSS OF CONSCIOUSNESS and NECK INJURY if applied improperly.**

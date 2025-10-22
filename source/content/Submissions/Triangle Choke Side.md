@@ -3,6 +3,7 @@ title: "Triangle Choke Side | BJJ Submission Guide | BJJ Graph"
 description: "From a dominant side control position, you control the opponent's upper body with a strong crossface and underhook, keeping their near arm isolated. As the opponent attempts to turn into you or..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "From a dominant side control position, you control the opponent's 
   "@type": "WebPage",
   "name": "Triangle Choke Side",
   "description": "From a dominant side control position, you control the opponent's upper body with a strong crossface and underhook, keeping their near arm isolated. As the opponent attempts to turn into you or...",
-  "url": "https://bjjgraph.com/submissions/triangle-choke-side",
+  "url": "https://bjjgraph.org/Submissions/Triangle-Choke-Side",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "From a dominant side control position, you control the opponent's 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Triangle Choke Side",
-      "item": "https://bjjgraph.com/submissions/triangle-choke-side"
+      "item": "https://bjjgraph.org/Submissions/Triangle-Choke-Side"
     }
   ]
 }
 </script>
+
 
 # Triangle Choke Side
 #bjj #submission #choke #triangle #side_position

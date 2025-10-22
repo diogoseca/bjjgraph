@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Space Creation",
   "description": "Space Creation represents the essential skill of generating strategic gaps and distance between yourself and your opponent to enable mobility, prevent control, and create pathways for technical exe...",
-  "url": "https://bjjgraph.com/concepts/space-creation",
+  "url": "https://bjjgraph.org/Concepts/Space-Creation",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Space Creation",
-      "item": "https://bjjgraph.com/concepts/space-creation"
+      "item": "https://bjjgraph.org/Concepts/Space-Creation"
     }
   ]
 }

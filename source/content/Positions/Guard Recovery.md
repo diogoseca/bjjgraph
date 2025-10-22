@@ -21,8 +21,8 @@ description: "Master Guard Recovery in BJJ. Complete guide covering setup, contr
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle Transition",
-      "text": "From this position, execute Turtle Transition to transition to Turtle Position.",
+      "name": "Execute Bottom Turtle",
+      "text": "From this position, execute Bottom Turtle to transition to Turtle Position.",
       "position": 2
     },
     {
@@ -33,8 +33,8 @@ description: "Master Guard Recovery in BJJ. Complete guide covering setup, contr
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Closed Guard Recovery",
-      "text": "From this position, execute Closed Guard Recovery to transition to Closed Guard Bottom.",
+      "name": "Execute Guard Recovery",
+      "text": "From this position, execute Guard Recovery to transition to Closed Guard Bottom.",
       "position": 4
     },
     {
@@ -58,6 +58,72 @@ description: "Master Guard Recovery in BJJ. Complete guide covering setup, contr
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Attempting recovery without proper frames?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Immediate pass completion"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Turning away from opponent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Back exposure"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Pushing directly against opponent's strength?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Energy depletion"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Overcommitment to initial recovery attempt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to counters"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Neglecting upper body control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Submission vulnerability"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Recovery",
+  "description": "Master Guard Recovery in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%.",
+  "url": "https://bjjgraph.org/Positions/Guard-Recovery",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Guard Recovery in BJJ. Complete guide covering setup, contr
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Guard Recovery",
-      "item": "https://bjjgraph.com/positions/guard-recovery"
+      "item": "https://bjjgraph.org/Positions/Guard-Recovery"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Guard Recovery",
-  "description": "Master Guard Recovery in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%.",
-  "url": "https://bjjgraph.com/positions/guard-recovery",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Guard Recovery
 #bjj #state #guard #defensive #fundamentals
@@ -195,7 +245,6 @@ Visually, Guard Recovery appears as an active, energetic state where the practit
 - [[Scramble Position]] - Dynamic transitional state during recovery attempts
 - [[Turtle Position]] - Alternative defensive position during failed recovery
 - [[Open Guard Bottom]] - Common target state after successful recovery
-
 
 ## Related Positions
 

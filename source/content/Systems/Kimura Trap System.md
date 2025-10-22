@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Kimura Trap System",
   "description": "The Kimura Trap System represents one of the most versatile and powerful control frameworks in Brazilian Jiu-Jitsu. Unlike a singular submission technique, the Kimura Trap functions as both a contr...",
-  "url": "https://bjjgraph.com/systems/kimura-trap-system",
+  "url": "https://bjjgraph.org/Systems/Kimura-Trap-System",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Systems",
-      "item": "https://bjjgraph.com/systems/"
+      "item": "https://bjjgraph.org/Systems/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Kimura Trap System",
-      "item": "https://bjjgraph.com/systems/kimura-trap-system"
+      "item": "https://bjjgraph.org/Systems/Kimura-Trap-System"
     }
   ]
 }

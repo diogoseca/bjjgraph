@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Double Pants Grip",
   "description": "The Double Pants Grip is a fundamental grip configuration in Gi BJJ where the practitioner establishes control by gripping both sides of the opponent's pants at the knee or lower leg area. Unlike s...",
-  "url": "https://bjjgraph.com/concepts/double-pants-grip",
+  "url": "https://bjjgraph.org/Concepts/Double-Pants-Grip",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Double Pants Grip",
-      "item": "https://bjjgraph.com/concepts/double-pants-grip"
+      "item": "https://bjjgraph.org/Concepts/Double-Pants-Grip"
     }
   ]
 }

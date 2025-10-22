@@ -58,6 +58,72 @@ description: "Master X-Guard in BJJ. Complete guide covering setup, control, esc
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor leg positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reduced leverage and control"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Neglecting upper body connections?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Escape opportunities"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Static positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Predictable patterns"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Overextending?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Loss of control structure"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Premature sweep attempts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Failed offensive opportunities"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "X-Guard",
+  "description": "Master X-Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
+  "url": "https://bjjgraph.org/Positions/X-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master X-Guard in BJJ. Complete guide covering setup, control, esc
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "X-Guard",
-      "item": "https://bjjgraph.com/positions/x-guard"
+      "item": "https://bjjgraph.org/Positions/X-Guard"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "X-Guard",
-  "description": "Master X-Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
-  "url": "https://bjjgraph.com/positions/x-guard",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # X-Guard
 #bjj #state #guard #leg_entanglement #open_guard
@@ -185,7 +235,6 @@ You are on your back or partially seated with both of your legs forming an X-sha
 - [[Reverse X Guard]] - Inverted variation with different control angles
 - [[Ashi Garami]] - Leg entanglement often entered from X-Guard
 - [[Shin-to-Shin Guard]] - Preliminary control position for X-Guard entry
-
 
 ## Related Positions
 

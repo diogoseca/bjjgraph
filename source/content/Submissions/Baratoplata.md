@@ -92,6 +92,50 @@ author: "BJJ Graph Content System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Baratoplata | Shoulder Lock Submission",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. Baratoplata should take 5-7 seconds minimum in training. Shoulder locks are extremely dangerous if applied quickly. Competition s...",
+  "url": "https://bjjgraph.org/Submissions/Baratoplata",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Baratoplata",
+      "item": "https://bjjgraph.org/Submissions/Baratoplata"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: The Baratoplata is a shoulder lock submission from guard positions. It's a terminal state resulting in severe shoulder injury if held beyond tap. This is an advanced technique with HIGH injury risk - safety is absolutely paramount.

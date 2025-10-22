@@ -3,6 +3,8 @@ title: "De La Riva Guard Top | BJJ Position Guide | BJJ Graph"
 description: "Master De La Riva Guard Top in BJJ. Complete guide covering passing strategies, pressure points, and guard neutralization. Success rates: Beginner 42%, Intermediate 58%, Advanced 74%."
 ---
 
+
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -13,33 +15,9 @@ description: "Master De La Riva Guard Top in BJJ. Complete guide covering passin
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute DLR Pass",
-      "text": "From this position, execute DLR Pass to transition to Side Control.",
+      "name": "Execute You're Top)",
+      "text": "From this position, execute You're Top) to transition to Next Position.",
       "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Backstep Pass",
-      "text": "From this position, execute Backstep Pass to transition to Back Control.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Leg Drag",
-      "text": "From this position, execute Leg Drag to transition to Side Control Top.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Knee Cut Counter",
-      "text": "From this position, execute Knee Cut Counter to transition to Half Guard Top.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Smash Pass",
-      "text": "From this position, execute Smash Pass to transition to Side Control Top.",
-      "position": 5
     }
   ],
   "tool": [
@@ -48,6 +26,24 @@ description: "Master De La Riva Guard Top in BJJ. Complete guide covering passin
     "Mat space"
   ],
   "totalTime": "PT5M"
+}
+</script>
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "De La Riva Guard Top",
+  "description": "Master De La Riva Guard Top in BJJ. Complete guide covering passing strategies, pressure points, and guard neutralization. Success rates: Beginner 42%, Intermediate 58%, Advanced 74%.",
+  "url": "https://bjjgraph.org/Positions/De-La-Riva-Guard-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -59,38 +55,24 @@ description: "Master De La Riva Guard Top in BJJ. Complete guide covering passin
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "De La Riva Guard Top",
-      "item": "https://bjjgraph.com/positions/de-la-riva-guard-top"
+      "item": "https://bjjgraph.org/Positions/De-La-Riva-Guard-Top"
     }
   ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "De La Riva Guard Top",
-  "description": "Master De La Riva Guard Top in BJJ. Complete guide covering passing strategies, pressure points, and guard neutralization. Success rates: Beginner 42%, Intermediate 58%, Advanced 74%.",
-  "url": "https://bjjgraph.com/positions/de-la-riva-guard-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # De La Riva Guard Top
 #bjj #state #guardpassing #delariva #top

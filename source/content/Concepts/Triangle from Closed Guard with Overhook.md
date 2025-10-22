@@ -42,18 +42,19 @@ application_contexts:
 tags: [bjj, concept, submission, triangle, closed-guard, intermediate, overhook]
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Triangle from Closed Guard with Overhook | Concept | BJJ Graph",
+  "name": "Triangle from Closed Guard with Overhook | Concept",
   "description": "Master the triangle choke from closed guard using overhook control - a high-percentage submission setup. Learn angle creation, leg configuration, and control principles for this classical attack.",
-  "url": "https://bjjgraph.com/concepts/triangle-from-closed-guard-with-overhook",
+  "url": "https://bjjgraph.org/Concepts/Triangle-from-Closed-Guard-with-Overhook",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -66,23 +67,24 @@ tags: [bjj, concept, submission, triangle, closed-guard, intermediate, overhook]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Triangle from Closed Guard with Overhook",
-      "item": "https://bjjgraph.com/concepts/triangle-from-closed-guard-with-overhook"
+      "item": "https://bjjgraph.org/Concepts/Triangle-from-Closed-Guard-with-Overhook"
     }
   ]
 }
 </script>
+
 
 # Triangle from Closed Guard with Overhook
 #bjj #concept #submission #triangle #closed-guard #intermediate

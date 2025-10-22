@@ -16,7 +16,7 @@ description: "Master Lockdown Position Bottom in BJJ. Complete guide covering se
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Mount or Top Position.",
+      "text": "From this position, execute Old School Sweep to transition to Mount.",
       "position": 1
     },
     {
@@ -39,14 +39,14 @@ description: "Master Lockdown Position Bottom in BJJ. Complete guide covering se
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Twister Entry",
-      "text": "From this position, execute Twister Entry to transition to Twister Control.",
+      "name": "Execute Homer Simpson Sweep",
+      "text": "From this position, execute Homer Simpson Sweep to transition to Top Position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Banana Split Setup",
-      "text": "From this position, execute Banana Split Setup to transition to submission position.",
+      "name": "Execute Twister Entry",
+      "text": "From this position, execute Twister Entry to transition to Twister Control.",
       "position": 6
     }
   ],
@@ -107,6 +107,23 @@ description: "Master Lockdown Position Bottom in BJJ. Complete guide covering se
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lockdown Position Bottom",
+  "description": "Master Lockdown Position Bottom in BJJ. Complete guide covering setup, control, sweeps, and submissions. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Positions/Lockdown-Position-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Lockdown Position Bottom in BJJ. Complete guide covering se
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Lockdown Position Bottom",
-      "item": "https://bjjgraph.com/positions/lockdown-position-bottom"
+      "item": "https://bjjgraph.org/Positions/Lockdown-Position-Bottom"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Lockdown Position Bottom",
-  "description": "Master Lockdown Position Bottom in BJJ. Complete guide covering setup, control, sweeps, and submissions. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.",
-  "url": "https://bjjgraph.com/positions/lockdown-position-bottom",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Lockdown Position Bottom
 #bjj #state #half_guard #lockdown #10th_planet

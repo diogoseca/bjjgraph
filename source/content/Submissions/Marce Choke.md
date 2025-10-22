@@ -32,6 +32,50 @@ author: "BJJGraph System - Agent 9"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Marce Choke | Blood Choke",
+  "description": "The Marce Choke (Darce variation) targets carotid artery from front headlock or guard positions using arm threading and shoulder pressure.",
+  "url": "https://bjjgraph.org/Submissions/Marce-Choke",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Marce Choke",
+      "item": "https://bjjgraph.org/Submissions/Marce-Choke"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ SAFETY NOTICE
 **Blood choke causing rapid unconsciousness. Apply SLOWLY over 3-5 seconds. RELEASE upon tap.**
 

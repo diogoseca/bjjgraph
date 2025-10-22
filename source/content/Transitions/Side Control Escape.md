@@ -11,7 +11,7 @@ description: "Learn Side Control Escape in BJJ. Step-by-step execution from Side
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Side Control Escape",
-  "description": "Learn how to execute Side Control Escape in Brazilian Jiu-Jitsu from Side Control Bottom to Guard Recovery.",
+  "description": "Learn how to execute Side Control Escape in Brazilian Jiu-Jitsu from Side Control to Guard Recovery. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -55,7 +55,24 @@ description: "Learn Side Control Escape in BJJ. Step-by-step execution from Side
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT6M"
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Side Control Escape",
+  "description": "Learn Side Control Escape in BJJ. Step-by-step execution from Side Control Bottom to Guard Recovery. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Side-Control-Escape",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -67,39 +84,24 @@ description: "Learn Side Control Escape in BJJ. Step-by-step execution from Side
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Side Control Escape",
-      "item": "https://bjjgraph.com/transitions/side-control-escape"
+      "item": "https://bjjgraph.org/Transitions/Side-Control-Escape"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Side Control Escape",
-  "description": "Learn Side Control Escape in BJJ. Step-by-step execution from Side Control Bottom to Guard Recovery. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
-  "url": "https://bjjgraph.com/transitions/side-control-escape",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Side Control Escape
 #bjj #transition #escape #defensive #fundamental
@@ -346,7 +348,6 @@ Every transition file must include:
 - [[Hip Escape]] - Fundamental movement component
 - [[Bridge and Shrimp]] - Combined escape technique
 - [[Ghost Escape]] - Advanced escape variation
-
 
 ## Competition Applications
 - **IBJJF Rules**: Critical defensive skill to prevent opponent point scoring from dominant positions

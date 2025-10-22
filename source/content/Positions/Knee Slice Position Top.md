@@ -10,32 +10,26 @@ description: "Master Knee Slice Position Top in BJJ. Complete guide covering gua
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Execute Knee Slice Position Top in BJJ",
-  "description": "Complete guide to passing guard with knee slice technique.",
+  "name": "How to Use Knee Slice Position Top in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Knee Slice Position Top.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Knee Shield Control",
-      "text": "Control opponent's knee shield and create passing angle.",
+      "name": "Execute Knee Slice to Side Control",
+      "text": "From Knee Slice Position Top, execute Knee Slice to Side Control to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Drive Knee Across",
-      "text": "Slice your knee across opponent's legs while maintaining pressure.",
+      "name": "Execute Knee Slice to North-South",
+      "text": "From Knee Slice Position Top, execute Knee Slice to North-South to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Control Upper Body",
-      "text": "Use crossface and underhook to prevent re-guard.",
+      "name": "Execute North-South",
+      "text": "From Knee Slice Position Top, execute North-South to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Complete the Pass",
-      "text": "Establish side control with full hip control.",
-      "position": 4
     }
   ],
   "tool": [
@@ -43,7 +37,7 @@ description: "Master Knee Slice Position Top in BJJ. Complete guide covering gua
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT3M"
+  "totalTime": "PT5M"
 }
 </script>
 
@@ -54,48 +48,32 @@ description: "Master Knee Slice Position Top in BJJ. Complete guide covering gua
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What makes the knee slice effective?",
+      "name": "What is a key principle of Knee Slice Position Top?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The knee slice creates a wedge that separates opponent's legs while your knee pressure prevents re-guarding. Combined with upper body control, it provides systematic path to dominant position."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I prevent the opponent from recovering guard during knee slice?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintain constant forward pressure with your knee, use crossface to control head, secure underhook on far side, and keep your hips heavy to prevent them from inserting knee shield or recovering full guard."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Should I use knee slice in gi or no-gi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Knee slice works in both gi and no-gi. In gi, you can use collar and pants grips for control. In no-gi, focus on underhook and head control. The core mechanics remain the same."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the most common counter to knee slice?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most common counter is opponent recovering knee shield or butterfly hook on the slicing side. Prevent this by keeping constant pressure and controlling the space where their knee wants to go."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I transition if knee slice is defended?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If knee slice is blocked, common transitions include switching to leg drag, stepping around to back take, or converting to over-under pass. Never force a stalled knee slice - adapt to alternative passing angles."
+        "text": "**Knee Pressure and Direction**: Drive knee in slicing motion toward far hip, creating wedge between legs and torso"
       }
     }
   ]
 }
 </script>
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Slice Position Top",
+  "description": "Master Knee Slice Position Top in BJJ. Complete guide covering guard passing mechanics and transitions. Success rates: Beginner 52%, Intermediate 68%, Advanced 82%.",
+  "url": "https://bjjgraph.org/Positions/Knee-Slice-Position-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -105,38 +83,24 @@ description: "Master Knee Slice Position Top in BJJ. Complete guide covering gua
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Knee Slice Position Top",
-      "item": "https://bjjgraph.com/positions/knee-slice-position-top"
+      "item": "https://bjjgraph.org/Positions/Knee-Slice-Position-Top"
     }
   ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Knee Slice Position Top",
-  "description": "Master Knee Slice Position Top in BJJ. Complete guide covering guard passing mechanics and transitions. Success rates: Beginner 52%, Intermediate 68%, Advanced 82%.",
-  "url": "https://bjjgraph.com/positions/knee-slice-position-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Knee Slice Position Top
 #bjj #state #guard_passing #offensive_position #pressure_passing

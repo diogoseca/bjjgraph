@@ -3,6 +3,50 @@ title: "Bow and Arrow Variations | BJJ Submission Guide | BJJ Graph"
 description: "Master Bow and Arrow choke variations in BJJ with comprehensive safety protocols. Learn multiple setup methods from back control. Beginner 40%, Intermediate 60%, Advanced 80%."
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bow and Arrow Variations",
+  "description": "Master Bow and Arrow choke variations in BJJ with comprehensive safety protocols. Learn multiple setup methods from back control. Beginner 40%, Intermediate 60%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Submissions/Bow-and-Arrow-Variations",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Bow and Arrow Variations",
+      "item": "https://bjjgraph.org/Submissions/Bow-and-Arrow-Variations"
+    }
+  ]
+}
+</script>
+
+
 # Bow and Arrow Variations
 #bjj #submission #choke #gi #back_attack
 

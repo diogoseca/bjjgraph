@@ -3,6 +3,7 @@ title: "Heel Hook Dilemma | BJJ Submission Guide | BJJ Graph"
 description: "From a leg entanglement position such as Inside Sankaku (also known as Honey Hole or 411), Ashi Garami, or 50-50 Guard, initiate the Inside Heel Hook by securing control over the opponent's leg,..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "From a leg entanglement position such as Inside Sankaku (also know
   "@type": "WebPage",
   "name": "Heel Hook Dilemma",
   "description": "From a leg entanglement position such as Inside Sankaku (also known as Honey Hole or 411), Ashi Garami, or 50-50 Guard, initiate the Inside Heel Hook by securing control over the opponent's leg,...",
-  "url": "https://bjjgraph.com/submissions/heel-hook-dilemma",
+  "url": "https://bjjgraph.org/Submissions/Heel-Hook-Dilemma",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "From a leg entanglement position such as Inside Sankaku (also know
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Heel Hook Dilemma",
-      "item": "https://bjjgraph.com/submissions/heel-hook-dilemma"
+      "item": "https://bjjgraph.org/Submissions/Heel-Hook-Dilemma"
     }
   ]
 }
 </script>
+
 
 # Heel Hook Dilemma
 #bjj #submission #leglock #heel_hook #rotational_lock

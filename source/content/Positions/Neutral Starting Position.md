@@ -164,6 +164,7 @@ state_machine:
 ---
 
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -174,33 +175,39 @@ state_machine:
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Athletic Stance",
-      "text": "Stand with feet shoulder-width apart, knees slightly bent, maintaining balanced posture with hands ready.",
+      "name": "Execute Pull Guard",
+      "text": "From this position, execute Pull Guard to transition to Closed Guard Bottom.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Control Distance",
-      "text": "Maintain optimal distance for offense and defense, circling and adjusting positioning as needed.",
+      "name": "Execute Takedown Entry",
+      "text": "From this position, execute Takedown Entry to transition to Top Position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Engage in Grip Fighting",
-      "text": "Fight for dominant grips while preventing opponent from securing controlling grips on you.",
+      "name": "Execute Snap Down",
+      "text": "From this position, execute Snap Down to transition to Front Headlock.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Takedown or Pull Guard",
-      "text": "Based on opportunity and strategy, initiate takedown attempt or transition to guard position.",
+      "name": "Execute Clinch Engagement",
+      "text": "From this position, execute Clinch Engagement to transition to Clinch Position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Defend Opponent's Attacks",
-      "text": "Counter opponent's takedown attempts with sprawls, frames, or grip breaks as appropriate.",
+      "name": "Execute Ankle Pick",
+      "text": "From this position, execute Ankle Pick to transition to Top Position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Arm Drag",
+      "text": "From this position, execute Arm Drag to transition to Back Control.",
+      "position": 6
     }
   ],
   "tool": [
@@ -222,7 +229,7 @@ state_machine:
       "name": "What is a common mistake in Upright posture without bend?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Makes you vulnerable to takedowns and reduces ability to defend or attack effectively. The correction is: Maintain slight knee bend and hip hinge to create athletic stance with explosive potential and defensive stability."
+        "text": "Makes you vulnerable to takedowns and reduces ability to defend or attack effectively. The correction is: Maintain slight knee bend and hip hinge to create athletic stance with explosive potential and defensive stability.\n  - **Recognition**: If you feel off-balance easily or get taken down frequently, check if your stance is too upright."
       }
     },
     {
@@ -230,7 +237,7 @@ state_machine:
       "name": "What is a common mistake in Crossing feet or narrow stance?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Compromises balance and makes you easy to off-balance or take down. The correction is: Keep feet shoulder-width apart with toes pointed forward or slightly outward for maximum base and mobility."
+        "text": "Compromises balance and makes you easy to off-balance or take down. The correction is: Keep feet shoulder-width apart with toes pointed forward or slightly outward for maximum base and mobility.\n  - **Recognition**: If you stumble or lose balance when opponent pushes or pulls, your stance is likely too narrow."
       }
     },
     {
@@ -238,7 +245,7 @@ state_machine:
       "name": "What is a common mistake in Passive grip fighting?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to dominate grips and control the engagement, putting you at strategic disadvantage. The correction is: Actively fight for grips while breaking opponent's grips, maintaining initiative in the standing phase."
+        "text": "Allows opponent to dominate grips and control the engagement, putting you at strategic disadvantage. The correction is: Actively fight for grips while breaking opponent's grips, maintaining initiative in the standing phase.\n  - **Recognition**: If opponent consistently gets their preferred grips while you struggle to establish yours, you're being too passive."
       }
     },
     {
@@ -246,7 +253,7 @@ state_machine:
       "name": "What is a common mistake in Reaching without setup?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Exposes you to counters and creates predictable attack patterns easy to defend. The correction is: Use feints, footwork, and grip sequences to set up attacks rather than reaching directly."
+        "text": "Exposes you to counters and creates predictable attack patterns easy to defend. The correction is: Use feints, footwork, and grip sequences to set up attacks rather than reaching directly.\n  - **Recognition**: If opponent easily avoids or counters your attempts, you're likely reaching without proper setup."
       }
     },
     {
@@ -254,7 +261,7 @@ state_machine:
       "name": "What is a common mistake in Static positioning?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Makes you an easy target and reduces your ability to create angles for attacks. The correction is: Constantly circle, adjust distance, and change levels to maintain dynamic positioning and create opportunities."
+        "text": "Makes you an easy target and reduces your ability to create angles for attacks. The correction is: Constantly circle, adjust distance, and change levels to maintain dynamic positioning and create opportunities.\n  - **Recognition**: If you feel stuck in place or opponent is dictating movement, you need more dynamic footwork."
       }
     }
   ]
@@ -269,16 +276,14 @@ state_machine:
   "@type": "WebPage",
   "name": "Neutral Starting Position",
   "description": "Master Neutral Starting Position in BJJ. Complete guide covering stance, grip fighting, and transitions. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
-  "url": "https://bjjgraph.com/positions/neutral-starting-position",
+  "url": "https://bjjgraph.org/Positions/Neutral-Starting-Position",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -288,19 +293,19 @@ state_machine:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Neutral Starting Position",
-      "item": "https://bjjgraph.com/positions/neutral-starting-position"
+      "item": "https://bjjgraph.org/Positions/Neutral-Starting-Position"
     }
   ]
 }

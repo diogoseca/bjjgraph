@@ -37,6 +37,106 @@ related_positions: ["Closed Guard Top", "Open Guard Top", "Side Control Top", "H
 related_techniques: ["Knee Slice Pass", "Toreando Pass", "Stack Pass", "Leg Drag"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Guard Pass",
+  "description": "Learn how to execute Guard Pass in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish strong posture, dominant grips (collar/sleeve or leg control), and solid base to resist sweeps",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Begin breaking guard structure through grip fighting, leg control, or pressure application",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent creates frames, uses hooks to maintain distance, and attempts to recover guard structure",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Adjust passing angle, switch grips, or change pressure direction based on opponent's defensive frames and hip escapes",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Drive past opponent's legs while maintaining chest-to-chest connection and establishing hip control",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Secure side control position with crossface, underhook, or knee on belly, preventing guard recovery",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Pass",
+  "description": "Learn Guard Pass techniques in BJJ. Comprehensive guide to passing guard from various positions. Success: Beginner 40%, Intermediate 60%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Transitions/Guard-Pass",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Guard Pass",
+      "item": "https://bjjgraph.org/Transitions/Guard-Pass"
+    }
+  ]
+}
+</script>
+
+
 # Guard Pass
 #bjj #transition #guard-pass #advancement #fundamental
 

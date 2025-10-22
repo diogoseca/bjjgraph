@@ -37,6 +37,106 @@ related_positions: ["Triangle Control", "Omoplata Control", "Closed Guard Bottom
 related_techniques: ["Triangle Choke", "Omoplata", "Triangle to Armbar", "TAO System"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Triangle to Omoplata",
+  "description": "Learn how to execute Triangle to Omoplata in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Triangle Defense Recognition",
+      "text": "From triangle control, identify opponent defending by pulling trapped arm down and driving forward",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Adjustment",
+      "text": "Create space by adjusting hips while maintaining triangle lock configuration",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Body Rotation",
+      "text": "Begin rotating your torso underneath opponent's trapped arm toward their back",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Leg Transition",
+      "text": "Shift legs from triangle around neck to pinning trapped arm against opponent's back",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Omoplata Establishment",
+      "text": "Sit up over opponent's trapped shoulder, isolating the arm behind their back",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Control Consolidation",
+      "text": "Secure omoplata position with trapped arm controlled and body weight over shoulder",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle to Omoplata",
+  "description": "Learn Triangle to Omoplata transition in BJJ. Step-by-step execution from Triangle Control to Omoplata Control. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Triangle-to-Omoplata",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Triangle to Omoplata",
+      "item": "https://bjjgraph.org/Transitions/Triangle-to-Omoplata"
+    }
+  ]
+}
+</script>
+
+
 # Triangle to Omoplata
 #bjj #transition #submission_chain #triangle #omoplata #advanced
 

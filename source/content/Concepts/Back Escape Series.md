@@ -48,18 +48,19 @@ bot_metadata:
   last_improved: "2025-10-22"
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Back Escape Series | BJJ Concept | BJJ Graph",
-  "description": "Understand the back escape series in Brazilian Jiu-Jitsu. Learn systematic defensive framework for escaping back control through hand fighting, hook removal, and sequential techniques.",
-  "url": "https://bjjgraph.com/concepts/back-escape-series",
+  "name": "Back Escape Series",
+  "description": "Back Escape Series represents the systematic framework for defending and escaping from back control through prioritized defensive sequences, hand fighting protocols, and progressive position recove...",
+  "url": "https://bjjgraph.org/Concepts/Back-Escape-Series",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -72,19 +73,19 @@ bot_metadata:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Back Escape Series",
-      "item": "https://bjjgraph.com/concepts/back-escape-series"
+      "item": "https://bjjgraph.org/Concepts/Back-Escape-Series"
     }
   ]
 }
@@ -207,6 +208,7 @@ bot_metadata:
   ]
 }
 </script>
+
 
 # Back Escape Series
 #bjj #concept #escape #back-control #defensive

@@ -27,8 +27,8 @@ description: "Master Inverted Guard in BJJ. Complete guide covering setup, contr
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Entanglement Entry",
-      "text": "From this position, execute Leg Entanglement Entry to transition to Single Leg X Guard.",
+      "name": "Execute Leg Entanglement",
+      "text": "From this position, execute Leg Entanglement to transition to Single Leg X Guard.",
       "position": 3
     },
     {
@@ -39,8 +39,8 @@ description: "Master Inverted Guard in BJJ. Complete guide covering setup, contr
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Reverse De La Riva Setup",
-      "text": "From this position, execute Reverse De La Riva Setup to transition to Reverse De La Riva Guard.",
+      "name": "Execute Reverse De La Riva Guard",
+      "text": "From this position, execute Reverse De La Riva Guard to transition to Reverse De La Riva Guard.",
       "position": 5
     },
     {
@@ -58,6 +58,72 @@ description: "Master Inverted Guard in BJJ. Complete guide covering setup, contr
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Insufficient shoulder pressure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Neck strain"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor weight distribution?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Balance compromise"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Overextension of legs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to passes"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Extended time in position?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Energy depletion"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Lack of clear transitional intent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Positional stalling"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inverted Guard",
+  "description": "Master Inverted Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%.",
+  "url": "https://bjjgraph.org/Positions/Inverted-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Inverted Guard in BJJ. Complete guide covering setup, contr
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Inverted Guard",
-      "item": "https://bjjgraph.com/positions/inverted-guard"
+      "item": "https://bjjgraph.org/Positions/Inverted-Guard"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Inverted Guard",
-  "description": "Master Inverted Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%.",
-  "url": "https://bjjgraph.com/positions/inverted-guard",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Inverted Guard
 #bjj #state #guard #open_guard #modern
@@ -186,7 +236,6 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 - [[Reverse De La Riva Guard]] - Complementary modern guard
 - [[Single Leg X Guard]] - Connected leg entanglement
 - [[Crab Ride]] - Advanced back-taking control position
-
 
 ## Related Positions
 

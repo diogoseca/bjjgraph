@@ -3,6 +3,7 @@ title: "Arm Crush | BJJ Submission Guide | BJJ Graph"
 description: "From a dominant top position such as side control or mount, you isolate one of the opponent's arms, typically pinning it to the mat or against their body with your knee or shin to prevent..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "From a dominant top position such as side control or mount, you is
   "@type": "WebPage",
   "name": "Arm Crush",
   "description": "From a dominant top position such as side control or mount, you isolate one of the opponent's arms, typically pinning it to the mat or against their body with your knee or shin to prevent...",
-  "url": "https://bjjgraph.com/submissions/arm-crush",
+  "url": "https://bjjgraph.org/Submissions/Arm-Crush",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "From a dominant top position such as side control or mount, you is
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Arm Crush",
-      "item": "https://bjjgraph.com/submissions/arm-crush"
+      "item": "https://bjjgraph.org/Submissions/Arm-Crush"
     }
   ]
 }
 </script>
+
 
 # Arm Crush
 #bjj #submission #joint_lock #arm_attack #compression

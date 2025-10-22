@@ -3,6 +3,7 @@ title: "Leg Lock Defense Framework | BJJ Submission Guide | BJJ Graph"
 description: "The Leg Lock Defense Framework is a comprehensive system designed to counter modern leg lock attacks that have become prevalent in contemporary Brazilian Jiu-Jitsu, applicable in both gi and no-gi ..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "The Leg Lock Defense Framework is a comprehensive system designed 
   "@type": "WebPage",
   "name": "Leg Lock Defense Framework",
   "description": "The Leg Lock Defense Framework is a comprehensive system designed to counter modern leg lock attacks that have become prevalent in contemporary Brazilian Jiu-Jitsu, applicable in both gi and no-gi ...",
-  "url": "https://bjjgraph.com/submissions/leg-lock-defense-framework",
+  "url": "https://bjjgraph.org/Submissions/Leg-Lock-Defense-Framework",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "The Leg Lock Defense Framework is a comprehensive system designed 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Leg Lock Defense Framework",
-      "item": "https://bjjgraph.com/submissions/leg-lock-defense-framework"
+      "item": "https://bjjgraph.org/Submissions/Leg-Lock-Defense-Framework"
     }
   ]
 }
 </script>
+
 
 # Leg Lock Defense Framework
 #bjj #defense #system #leglock #submission #modern

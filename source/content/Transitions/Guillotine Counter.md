@@ -37,6 +37,106 @@ related_positions: ["Turtle Position", "Half Guard Top", "Side Control", "Standi
 related_techniques: ["Guillotine Choke", "Front Headlock Defense", "Head Position Recovery", "Posture Control"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Guillotine Counter",
+  "description": "Learn how to execute Guillotine Counter in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Recognize guillotine has been applied or is being applied with head trapped and arm around neck",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Immediately tuck chin protecting airway and create frame against opponent's hip with trapped-side hand",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically tries to tighten choke by sitting back, closing guard, or falling to side",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Drive forward with your free shoulder removing space while stepping legs into strong base configuration",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Work head to safe side (away from choking arm) while improving posture and establishing dominant grips",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Establish secure top position with head free and safe, consolidate side control or half guard top",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guillotine Counter",
+  "description": "Learn Guillotine Counter in BJJ. Step-by-step execution from Guillotine Defense to Safe Position. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Transitions/Guillotine-Counter",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Guillotine Counter",
+      "item": "https://bjjgraph.org/Transitions/Guillotine-Counter"
+    }
+  ]
+}
+</script>
+
+
 # Guillotine Counter
 #bjj #transition #counter #defense #submission-defense
 

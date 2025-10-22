@@ -37,6 +37,106 @@ related_positions: ["Standing Position", "Guard Bottom", "Closed Guard Bottom", 
 related_techniques: ["Pull Guard", "Guard Establishment", "Technical Stand-up"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Guard Bottom Transition",
+  "description": "Learn how to execute Guard Bottom Transition in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish control grips on opponent (collar, sleeves, or control points) while maintaining upright posture",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Begin sitting back to mat while maintaining grip control and pulling opponent forward",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically follows forward to maintain pressure or attempts to establish passing position",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Adjust guard type (closed vs open) based on opponent's distance and reaction speed",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Secure guard position with legs while maintaining upper body grips and postural control",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Establish full guard structure with ability to attack sweeps, submissions, or maintain defensive position",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Bottom Transition",
+  "description": "Learn Guard Bottom Transition in BJJ. Step-by-step execution from Standing Position to Guard Bottom. Success: Beginner 70%, Intermediate 80%, Advanced 90%.",
+  "url": "https://bjjgraph.org/Transitions/Guard-Bottom-Transition",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Guard Bottom Transition",
+      "item": "https://bjjgraph.org/Transitions/Guard-Bottom-Transition"
+    }
+  ]
+}
+</script>
+
+
 # Guard Bottom Transition
 #bjj #transition #guard #setup #fundamental
 

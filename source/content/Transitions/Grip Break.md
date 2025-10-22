@@ -37,6 +37,106 @@ related_positions: ["Standing Up", "Closed Guard Bottom", "Guard Top"]
 related_techniques: ["Frame", "Hand Fighting", "Posture Control"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Grip Break",
+  "description": "Learn how to execute Grip Break in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Identify opponent's grip type, location, and purpose on your gi or body",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Position your free hand to attack the breaking point, typically thumb or fingers",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Leverage Creation",
+      "text": "Use two-on-one principle or perpendicular force against weak point of grip",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Explosive Break",
+      "text": "Apply sudden forceful movement breaking grip completely in one motion",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Distance Creation",
+      "text": "Immediately create distance or establish frames preventing re-grip",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Establish your own grips or control to maintain advantage gained from break",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Grip Break",
+  "description": "Learn Grip Break in BJJ. Step-by-step execution from Various Positions to Grip Released. Success: Beginner 60%, Intermediate 75%, Advanced 90%.",
+  "url": "https://bjjgraph.org/Transitions/Grip-Break",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Grip Break",
+      "item": "https://bjjgraph.org/Transitions/Grip-Break"
+    }
+  ]
+}
+</script>
+
+
 # Grip Break
 #bjj #transition #grip_fighting #fundamental #defensive
 

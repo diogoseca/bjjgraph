@@ -58,6 +58,72 @@ description: "Master Knee on Belly in BJJ. Complete guide covering setup, contro
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Insufficient base with outside leg?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to sweeps"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Knee placement too high or low?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reduced control and pressure"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor posture and weight distribution?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Decreased pressure effectiveness"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Neglecting upper body control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Defensive counters"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Overcommitting weight?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to reversal when opponent turns"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee on Belly",
+  "description": "Master Knee on Belly in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
+  "url": "https://bjjgraph.org/Positions/Knee-on-Belly",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Knee on Belly in BJJ. Complete guide covering setup, contro
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Knee on Belly",
-      "item": "https://bjjgraph.com/positions/knee-on-belly"
+      "item": "https://bjjgraph.org/Positions/Knee-on-Belly"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Knee on Belly",
-  "description": "Master Knee on Belly in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
-  "url": "https://bjjgraph.com/positions/knee-on-belly",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Knee on Belly
 #bjj #state #dominant #pin #control
@@ -196,7 +246,6 @@ The practitioner stands in a dominant position with one knee placed firmly on th
 - [[Back Control]] - Alternative transition from KOB
 - [[Technical Mount]] - Related control position with similar mechanics
 - [[Combat Base]] - Related base position used in different context
-
 
 ## Related Positions
 

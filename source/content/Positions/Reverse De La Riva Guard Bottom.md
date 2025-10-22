@@ -21,8 +21,8 @@ description: "Master Reverse De La Riva Guard Bottom in BJJ. Complete guide cove
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take Entry",
-      "text": "From this position, execute Back Take Entry to transition to Back Control.",
+      "name": "Execute Kiss of the Dragon",
+      "text": "From this position, execute Kiss of the Dragon to transition to Back Control.",
       "position": 2
     },
     {
@@ -33,15 +33,21 @@ description: "Master Reverse De La Riva Guard Bottom in BJJ. Complete guide cove
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kiss of the Dragon",
-      "text": "From this position, execute Kiss of the Dragon to transition to Back Control.",
+      "name": "Execute Single Leg X Entry",
+      "text": "From this position, execute Single Leg X Entry to transition to Single Leg X Guard.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Single Leg X Entry",
-      "text": "From this position, execute Single Leg X Entry to transition to Single Leg X Guard.",
+      "name": "Execute Berimbolo Entry",
+      "text": "From this position, execute Berimbolo Entry to transition to Back Control.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Technical Standup",
+      "text": "From this position, execute Technical Standup to transition to Standing Position.",
+      "position": 6
     }
   ],
   "tool": [
@@ -60,45 +66,62 @@ description: "Master Reverse De La Riva Guard Bottom in BJJ. Complete guide cove
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the key control mechanism in Reverse De La Riva Guard?",
+      "name": "What is a common mistake in Keeping hips flat on the mat?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The inverted De La Riva hook (near leg threaded through opponent's far leg from behind) combined with far leg control creates the primary leverage system. This configuration allows you to control opponent's balance and create off-balancing opportunities."
+        "text": "Reduces mobility and eliminates the off-balancing pressure that makes the position effective, allowing opponent to easily control distance and initiate passes. The correction is: Actively elevate your hips off the mat by engaging your core and maintaining tension in your hook structure, creating dynamic pressure that keeps opponent off-balance.\n  - **Recognition**: If you feel static or unable to generate movement, your hips are likely too flat."
       }
     },
     {
       "@type": "Question",
-      "name": "When should I use Reverse De La Riva Guard versus regular De La Riva?",
+      "name": "What is a common mistake in Losing far leg control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use Reverse De La Riva when opponent is attempting to pass to your opposite side, when their weight is shifted away from the hooking side, or when you want to attack the back. Regular De La Riva is better for direct sweeps and leg entanglements."
+        "text": "Opponent can step away with their far leg, eliminating the hook's effectiveness and allowing them to escape the guard system entirely. The correction is: Maintain strong hook control behind opponent's far knee or secure ankle grip with your hand, never allowing them freedom of movement with that leg.\n  - **Recognition**: If opponent easily steps back or changes stance, you've lost far leg control."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the most common error in Reverse De La Riva?",
+      "name": "What is a common mistake in Allowing shoulders to flatten toward the mat?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keeping your hips flat on the mat instead of elevating them. This reduces your mobility and sweep effectiveness. Always maintain hip elevation and active positioning to generate off-balancing pressure."
+        "text": "Exposes your back to the opponent, creating immediate passing opportunities and potentially giving up points or back control. The correction is: Keep shoulders turned toward the opponent at all times, maintaining a side-facing orientation that protects your back while allowing offensive movement.\n  - **Recognition**: If you feel opponent's weight on your back or hear your coach yelling to turn in, your shoulders are too flat."
       }
     },
     {
       "@type": "Question",
-      "name": "How do I prevent opponent from passing to my back from this position?",
+      "name": "What is a common mistake in Static hook position without active pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintain strong far leg control (hook behind their far knee or ankle grip) and keep your shoulders turned toward the opponent. Never let them flatten you out or collapse your hook structure."
+        "text": "Transforms an offensive guard into a passive holding position, giving opponent time to establish grips and initiate their passing strategy. The correction is: Constantly push and pull with your hooks, creating dynamic tension that forces opponent to react and defend rather than attack.\n  - **Recognition**: If opponent seems comfortable and unhurried in your guard, you're not generating enough active pressure."
       }
     },
     {
       "@type": "Question",
-      "name": "What are the primary attack chains from Reverse De La Riva?",
+      "name": "What is a common mistake in Attempting techniques without proper setup?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The main chains are: 1) Waiter Sweep to top position, 2) Kiss of the Dragon to back take, 3) Crab Ride to back control, and 4) Single Leg X transition for sweeps. All chains exploit opponent's weight distribution."
+        "text": "Telegraphs your intentions and allows opponent to counter before you can complete the technique, wasting energy and potentially losing position. The correction is: Use off-balancing movements and grip fighting to create reactions, then capitalize on opponent's defensive adjustments with your actual attack.\n  - **Recognition**: If your attacks are consistently defended early in their execution, you're not setting them up properly."
       }
     }
   ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reverse De La Riva Guard Bottom",
+  "description": "Master Reverse De La Riva Guard Bottom in BJJ. Complete guide covering sweeps, back takes, and transitions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Positions/Reverse-De-La-Riva-Guard-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -110,39 +133,24 @@ description: "Master Reverse De La Riva Guard Bottom in BJJ. Complete guide cove
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Reverse De La Riva Guard Bottom",
-      "item": "https://bjjgraph.com/positions/reverse-de-la-riva-guard-bottom"
+      "item": "https://bjjgraph.org/Positions/Reverse-De-La-Riva-Guard-Bottom"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Reverse De La Riva Guard Bottom",
-  "description": "Master Reverse De La Riva Guard Bottom in BJJ. Complete guide covering sweeps, back takes, and transitions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
-  "url": "https://bjjgraph.com/positions/reverse-de-la-riva-guard-bottom",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Reverse De La Riva Guard Bottom
 #bjj #state #guard #bottom #advanced

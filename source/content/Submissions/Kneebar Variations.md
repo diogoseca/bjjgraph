@@ -3,6 +3,7 @@ title: "Kneebar Variations | BJJ Submission Guide | BJJ Graph"
 description: "Master kneebar variations in BJJ including standard, inverted, and rolling entries. Complete guide with safety protocols, setup requirements, and success rates across all skill levels."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "Master kneebar variations in BJJ including standard, inverted, and
   "@type": "WebPage",
   "name": "Kneebar Variations",
   "description": "Master kneebar variations in BJJ including standard, inverted, and rolling entries. Complete guide with safety protocols, setup requirements, and success rates across all skill levels.",
-  "url": "https://bjjgraph.com/submissions/kneebar-variations",
+  "url": "https://bjjgraph.org/Submissions/Kneebar-Variations",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "Master kneebar variations in BJJ including standard, inverted, and
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Kneebar Variations",
-      "item": "https://bjjgraph.com/submissions/kneebar-variations"
+      "item": "https://bjjgraph.org/Submissions/Kneebar-Variations"
     }
   ]
 }
 </script>
+
 
 # Kneebar Variations
 #bjj #submission #leglock #kneebar #variations

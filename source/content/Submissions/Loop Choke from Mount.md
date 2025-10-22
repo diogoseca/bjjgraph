@@ -17,6 +17,50 @@ success_rate:
 tags: [submission, choke, gi_only, mount, intermediate]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Loop Choke from Mount",
+  "description": "Master Loop Choke from Mount. Complete guide. Success: Beginner 25%, Intermediate 40%, Advanced 60%.",
+  "url": "https://bjjgraph.org/Submissions/Loop-Choke-from-Mount",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Loop Choke from Mount",
+      "item": "https://bjjgraph.org/Submissions/Loop-Choke-from-Mount"
+    }
+  ]
+}
+</script>
+
+
 # Loop Choke from Mount
 
 ## ⚠️ SAFETY NOTICE

@@ -4,6 +4,7 @@ description: "Master Kimura Trap Position in BJJ. Control system using kimura gr
 ---
 
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -14,33 +15,39 @@ description: "Master Kimura Trap Position in BJJ. Control system using kimura gr
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Kimura Grip",
-      "text": "Secure kimura grip by grabbing opponent's wrist with same-side hand and threading other hand under their arm to grip your own wrist.",
+      "name": "Execute Kimura Sweep",
+      "text": "From this position, execute Kimura Sweep to transition to Top Position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura Sweep",
-      "text": "From kimura trap, execute sweep by using grip to off-balance opponent and roll them over your shoulder.",
+      "name": "Execute Kimura Submission",
+      "text": "From this position, execute Kimura Submission to transition to Won by Submission.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura Submission",
-      "text": "From kimura trap, apply kimura lock by isolating arm and rotating opponent's shoulder joint.",
+      "name": "Execute Back Take from Kimura",
+      "text": "From this position, execute Back Take from Kimura to transition to Back Control.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Transition to Back",
-      "text": "If opponent defends kimura, use grip to control and transition to their back.",
+      "name": "Execute Rolling Kimura",
+      "text": "From this position, execute Rolling Kimura to transition to Mount.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Kimura",
-      "text": "From kimura trap, roll under opponent while maintaining grip to achieve submission or sweep.",
+      "name": "Execute Kimura to Triangle",
+      "text": "From this position, execute Kimura to Triangle to transition to Triangle Control.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kimura to Armbar",
+      "text": "From this position, execute Kimura to Armbar to transition to Armbar Control.",
+      "position": 6
     }
   ],
   "tool": [
@@ -62,7 +69,7 @@ description: "Master Kimura Trap Position in BJJ. Control system using kimura gr
       "name": "What is a common mistake in Weak kimura grip?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to strip grip or posture up, eliminating control and attack opportunities. The correction is: Maintain strong wrist-to-wrist grip with elbows tight to body, using your entire frame to control opponent's trapped arm and prevent them from breaking your grip or creating distance."
+        "text": "Allows opponent to strip grip or posture up, eliminating control and attack opportunities. The correction is: Maintain strong wrist-to-wrist grip with elbows tight to body, using your entire frame to control opponent's trapped arm and prevent them from breaking your grip or creating distance.\n  - **Recognition**: If opponent easily breaks your grip or maintains good posture, your grip needs strengthening through proper structure and tension."
       }
     },
     {
@@ -70,7 +77,7 @@ description: "Master Kimura Trap Position in BJJ. Control system using kimura gr
       "name": "What is a common mistake in Focusing only on submission?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Misses sweep opportunities and makes offense predictable, allowing opponent to defend submission specifically. The correction is: Treat kimura trap as control position first—use grip to threaten both sweeps and submissions, forcing opponent to defend multiple attacks and creating openings."
+        "text": "Misses sweep opportunities and makes offense predictable, allowing opponent to defend submission specifically. The correction is: Treat kimura trap as control position first—use grip to threaten both sweeps and submissions, forcing opponent to defend multiple attacks and creating openings.\n  - **Recognition**: If your kimura attempts consistently fail, you're likely telegraphing the submission and need to incorporate sweeps and transitions."
       }
     },
     {
@@ -78,7 +85,7 @@ description: "Master Kimura Trap Position in BJJ. Control system using kimura gr
       "name": "What is a common mistake in Poor hip positioning?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Reduces sweep effectiveness and limits ability to generate power for kimura finish. The correction is: Keep hips active and mobile, using hip movement to create angles, generate sweep momentum, and apply pressure to opponent's trapped shoulder during submission attempts."
+        "text": "Reduces sweep effectiveness and limits ability to generate power for kimura finish. The correction is: Keep hips active and mobile, using hip movement to create angles, generate sweep momentum, and apply pressure to opponent's trapped shoulder during submission attempts.\n  - **Recognition**: If your sweeps lack power or your kimura submissions don't create sufficient shoulder pressure, examine your hip positioning and mobility."
       }
     },
     {
@@ -86,7 +93,7 @@ description: "Master Kimura Trap Position in BJJ. Control system using kimura gr
       "name": "What is a common mistake in Releasing grip prematurely?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Loses primary control mechanism before securing position or submission, allowing opponent to escape. The correction is: Maintain kimura grip throughout transitions—release only when you've achieved dominant position (mount, back control) or secured alternative control mechanism."
+        "text": "Loses primary control mechanism before securing position or submission, allowing opponent to escape. The correction is: Maintain kimura grip throughout transitions—release only when you've achieved dominant position (mount, back control) or secured alternative control mechanism.\n  - **Recognition**: If opponent escapes during your transitions, you're likely releasing the grip too early in the sequence."
       }
     },
     {
@@ -94,10 +101,27 @@ description: "Master Kimura Trap Position in BJJ. Control system using kimura gr
       "name": "What is a common mistake in Neglecting opponent's free arm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to establish frames, grips, or defensive postures that neutralize kimura trap effectiveness. The correction is: Control or monitor opponent's free arm with your legs, hip positioning, or off-hand to prevent them from creating defensive structures."
+        "text": "Allows opponent to establish frames, grips, or defensive postures that neutralize kimura trap effectiveness. The correction is: Control or monitor opponent's free arm with your legs, hip positioning, or off-hand to prevent them from creating defensive structures.\n  - **Recognition**: If opponent successfully uses their free arm to defend or create space, you need better free arm management."
       }
     }
   ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura Trap Position",
+  "description": "Master Kimura Trap Position in BJJ. Control system using kimura grip for sweeps and submissions. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Positions/Kimura-Trap-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -109,39 +133,24 @@ description: "Master Kimura Trap Position in BJJ. Control system using kimura gr
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Kimura Trap Position",
-      "item": "https://bjjgraph.com/positions/kimura-trap-position"
+      "item": "https://bjjgraph.org/Positions/Kimura-Trap-Position"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Kimura Trap Position",
-  "description": "Master Kimura Trap Position in BJJ. Control system using kimura grip for sweeps and submissions. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
-  "url": "https://bjjgraph.com/positions/kimura-trap-position",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Kimura Trap Position
 #bjj #state #control-position #kimura #intermediate

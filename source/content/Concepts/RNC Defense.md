@@ -4,12 +4,12 @@
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "RNC Defense",
-  "description": "RNC Defense represents the systematic defensive framework for preventing, escaping, and countering Rear Naked Choke attacks through hand positioning, posture control, and strategic escapes.",
-  "url": "https://bjjgraph.com/concepts/rnc-defense",
+  "description": "RNC Defense represents the systematic defensive framework for preventing, escaping, and countering Rear Naked Choke (RNC) attacks through proper hand positioning, posture control, and strategic esc...",
+  "url": "https://bjjgraph.org/Concepts/RNC-Defense",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "RNC Defense",
-      "item": "https://bjjgraph.com/concepts/rnc-defense"
+      "item": "https://bjjgraph.org/Concepts/RNC-Defense"
     }
   ]
 }

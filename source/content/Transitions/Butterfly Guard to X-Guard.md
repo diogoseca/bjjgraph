@@ -79,16 +79,14 @@ description: "Learn Butterfly Guard to X-Guard in BJJ. Step-by-step execution. C
   "@type": "WebPage",
   "name": "Butterfly Guard to X-Guard",
   "description": "Learn Butterfly Guard to X-Guard in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/butterfly-guard-to-x-guard",
+  "url": "https://bjjgraph.org/Transitions/Butterfly-Guard-to-X-Guard",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Butterfly Guard to X-Guard in BJJ. Step-by-step execution. C
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Butterfly Guard to X-Guard",
-      "item": "https://bjjgraph.com/transitions/butterfly-guard-to-x-guard"
+      "item": "https://bjjgraph.org/Transitions/Butterfly-Guard-to-X-Guard"
     }
   ]
 }

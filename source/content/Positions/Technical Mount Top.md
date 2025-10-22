@@ -15,26 +15,26 @@ description: "Master Technical Mount Top in BJJ. Complete guide covering armbar 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar",
-      "text": "From this position, execute Armbar to transition to Armbar Control.",
+      "name": "Execute Armbar from Mount",
+      "text": "From this position, execute Armbar from Mount to transition to Armbar Control.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, execute Back Take to transition to Back Control.",
+      "name": "Execute Back Take from Mount",
+      "text": "From this position, execute Back Take from Mount to transition to Back Control.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Setup",
-      "text": "From this position, execute Triangle Setup to transition to Triangle Control.",
+      "name": "Execute Triangle from Mount",
+      "text": "From this position, execute Triangle from Mount to transition to Triangle Control.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Return to Full Mount",
-      "text": "From this position, return to Full Mount to re-establish dominant position.",
+      "name": "Execute Return to Mount",
+      "text": "From this position, execute Return to Mount to transition to Mount.",
       "position": 4
     },
     {
@@ -42,6 +42,12 @@ description: "Master Technical Mount Top in BJJ. Complete guide covering armbar 
       "name": "Execute S-Mount Transition",
       "text": "From this position, execute S-Mount Transition to transition to S-Mount.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Americana from Tech Mount",
+      "text": "From this position, execute Americana from Tech Mount to transition to Americana Control.",
+      "position": 6
     }
   ],
   "tool": [
@@ -60,45 +66,62 @@ description: "Master Technical Mount Top in BJJ. Complete guide covering armbar 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What defines Technical Mount versus regular mount?",
+      "name": "What is a common mistake in Staying in Technical Mount too long without attacking?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Technical Mount is characterized by posting one leg out (shin perpendicular to opponent) while keeping the other leg hooked under their body, creating a base for armbar or back take attacks. Regular mount has both knees on the mat with legs on either side of opponent."
+        "text": "Gives opponent time to recover their arm and establish defensive frames, eliminating the submission opportunities that Technical Mount creates. The correction is: Enter Technical Mount with immediate attacking intent—armbar swing-over or back take should begin within 2-3 seconds of establishing the position.\n  - **Recognition**: If you feel static or opponent seems comfortable, you're hesitating too long."
       }
     },
     {
       "@type": "Question",
-      "name": "When should I transition to Technical Mount?",
+      "name": "What is a common mistake in Insufficient arm control before posting leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Transition to Technical Mount when opponent extends their arm defensively (armbar opportunity), when they begin to turn away (back take opportunity), or when you want to create submission angles from mount. It's a transitional position for attacks, not long-term control."
+        "text": "Opponent can retract their extended arm while you're transitioning, losing the attacking opportunity and potentially losing mount position entirely. The correction is: Secure strong control of both wrist and elbow/shoulder before posting your leg out, ensuring arm is isolated before transitioning.\n  - **Recognition**: If opponent easily pulls their arm back as you post, your control was insufficient."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the primary attack from Technical Mount?",
+      "name": "What is a common mistake in Posted leg too far from body?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The armbar is the primary attack, as Technical Mount positions you perfectly for controlling the extended arm while your posted leg provides the base to swing over for the finish. Back takes are the secondary high-percentage option."
+        "text": "Reduces base stability and makes you vulnerable to rolling attempts, while also creating poor armbar angle that's difficult to finish. The correction is: Keep posted shin relatively close to opponent's body (within 12-18 inches), maintaining tripod base structure.\n  - **Recognition**: If you feel unstable or opponent can easily bridge you over, your posted leg is too far out."
       }
     },
     {
       "@type": "Question",
-      "name": "How do I maintain balance in Technical Mount?",
+      "name": "What is a common mistake in Incorrect weight distribution?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Your posted leg (shin on mat) creates a tripod base with your other knee, while your hands control opponent's arm and head. The posted leg acts as a stabilizing pillar that prevents opponent from rolling you over."
+        "text": "Either too much weight on posted leg (losing control) or too much on inside leg (easy to roll), creating instability in both cases. The correction is: Balance weight approximately 60% on posted leg, 40% on inside knee, adjusting based on opponent's movements.\n  - **Recognition**: If you feel light and easily moved, or if opponent can bridge effectively, weight distribution is wrong."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the most common error in Technical Mount?",
+      "name": "What is a common mistake in Not committing to the armbar swing-over?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Not committing fully to the armbar or back take, staying in Technical Mount too long. This is a transitional position—execute your attack quickly or return to mount. Hesitation allows opponent to recover."
+        "text": "Half-hearted armbar attempts give opponent time to defend and recover, wasting the opportunity created by Technical Mount. The correction is: Once arm control is secured and leg is posted, commit fully to swinging over and dropping back for the armbar.\n  - **Recognition**: If you're hesitating at the swing-over point, you lack commitment."
       }
     }
   ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Technical Mount Top",
+  "description": "Master Technical Mount Top in BJJ. Complete guide covering armbar setups, back takes, and control. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Positions/Technical-Mount-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -110,39 +133,24 @@ description: "Master Technical Mount Top in BJJ. Complete guide covering armbar 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Technical Mount Top",
-      "item": "https://bjjgraph.com/positions/technical-mount-top"
+      "item": "https://bjjgraph.org/Positions/Technical-Mount-Top"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Technical Mount Top",
-  "description": "Master Technical Mount Top in BJJ. Complete guide covering armbar setups, back takes, and control. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
-  "url": "https://bjjgraph.com/positions/technical-mount-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Technical Mount Top
 #bjj #state #mount #top #submission

@@ -10,37 +10,37 @@ description: "Master Truck Position Bottom in BJJ. Complete guide covering twist
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Defend Truck Position Bottom in BJJ",
-  "description": "Complete guide to defending and escaping from Truck Position Bottom.",
+  "name": "How to Use Truck Position Bottom in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Truck Position Bottom.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Protect Neck",
-      "text": "Immediately secure neck and prevent twister control by keeping chin tucked and hands defending.",
+      "name": "Execute Truck Escape via Granby",
+      "text": "From this position, execute Truck Escape via Granby to transition to Guard Position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Address Boot",
-      "text": "Work to clear the controlling boot from your hip to reduce leverage.",
+      "name": "Execute Boot Clear Defense",
+      "text": "From this position, execute Boot Clear Defense to transition to Leg Extraction.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Create Space",
-      "text": "Generate separation by straightening trapped leg and creating distance.",
+      "name": "Execute Back Roll Escape",
+      "text": "From this position, execute Back Roll Escape to transition to Top Scramble.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Roll Through",
-      "text": "Execute granby roll or back roll to escape the truck configuration.",
+      "name": "Execute Twister Defense",
+      "text": "From this position, execute Twister Defense to transition to Survival Hold.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Recover Guard",
-      "text": "Complete escape by recovering guard or returning to neutral position.",
+      "name": "Execute Counter Roll",
+      "text": "From this position, execute Counter Roll to transition to Reversal.",
       "position": 5
     }
   ],
@@ -60,45 +60,62 @@ description: "Master Truck Position Bottom in BJJ. Complete guide covering twist
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the truck position in BJJ?",
+      "name": "What is a common mistake in Panicking and burning energy with frantic movements?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The truck is a twisting back control variation where the top player controls one leg while attacking twister, calf slicer, and back attacks. The bottom player is on their side with legs entangled and back exposed."
+        "text": "Rapid exhaustion leaves you defenseless against submissions and unable to execute escape sequences. The correction is: Breathe calmly, prioritize neck protection, and work systematically through escape steps without wasting energy.\n  - **Recognition**: If you're breathing hard and feeling weak after 10-15 seconds, you're panicking."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the most dangerous submission from truck bottom?",
+      "name": "What is a common mistake in Ignoring the boot control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The twister (spinal lock) is the most dangerous, as it attacks the spine and can cause serious injury. Always tap early if caught. Calf slicers and banana splits are also high-risk submissions."
+        "text": "Boot creates the torque necessary for all truck submissions; ignoring it makes escape nearly impossible. The correction is: Address the boot early by grabbing it and working to peel it off your hip.\n  - **Recognition**: If opponent easily controls your orientation, the boot is doing its job."
       }
     },
     {
       "@type": "Question",
-      "name": "How do I escape the truck position?",
+      "name": "What is a common mistake in Trying to turn to face opponent?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Priority one is protecting your neck from twister control. Then work to clear the boot from your hip, straighten your trapped leg, and execute a granby roll or back roll to escape the configuration."
+        "text": "Plays directly into twister mechanics, tightening the spinal lock and making submission more likely. The correction is: Don't fight the rotation; instead work to roll through it (granby roll direction).\n  - **Recognition**: If you feel increasing spinal pressure when turning, you're making the error."
       }
     },
     {
       "@type": "Question",
-      "name": "When should I tap from truck position?",
+      "name": "What is a common mistake in Waiting too long to tap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Tap immediately when feeling spinal pressure (twister), severe calf pressure (calf slicer), or groin/hip pressure (banana split). These submissions can cause serious injury if held too long."
+        "text": "Risk of serious injury to spine (twister), calf, or groin/hip (banana split). The correction is: Tap as soon as you feel locked submission pressure—these attacks can injure you quickly.\n  - **Recognition**: Any pain in spine, calf, or groin is tap signal."
       }
     },
     {
       "@type": "Question",
-      "name": "Is the truck position legal in all competitions?",
+      "name": "What is a common mistake in Neglecting neck defense for leg escape?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The truck position is legal, but specific submissions from it have restrictions. Twister is illegal in IBJJF at lower belts, calf slicers are illegal at lower belts, and banana split legality varies by ruleset."
+        "text": "Opponent secures twister control while you work on leg escape, leading to immediate submission. The correction is: Always prioritize neck/twister defense as first defensive layer.\n  - **Recognition**: If opponent gets hand to your far shoulder/neck, you neglected priority one."
       }
     }
   ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Truck Position Bottom",
+  "description": "Master Truck Position Bottom in BJJ. Complete guide covering twister defense, calf slicer escapes, and survival. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.",
+  "url": "https://bjjgraph.org/Positions/Truck-Position-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -110,39 +127,24 @@ description: "Master Truck Position Bottom in BJJ. Complete guide covering twist
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Truck Position Bottom",
-      "item": "https://bjjgraph.com/positions/truck-position-bottom"
+      "item": "https://bjjgraph.org/Positions/Truck-Position-Bottom"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Truck Position Bottom",
-  "description": "Master Truck Position Bottom in BJJ. Complete guide covering twister defense, calf slicer escapes, and survival. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.",
-  "url": "https://bjjgraph.com/positions/truck-position-bottom",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Truck Position Bottom
 #bjj #state #truck #bottom #defensive #10thplanet

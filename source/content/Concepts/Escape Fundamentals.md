@@ -48,6 +48,50 @@ application_contexts:
 tags: [bjj, concept, fundamental, defense, escape, survival]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Escape Fundamentals",
+  "description": "Escape Fundamentals represent the core principles and mechanical patterns underlying all successful escapes from inferior positions in BJJ, providing systematic framework for defensive survival and...",
+  "url": "https://bjjgraph.org/Concepts/Escape-Fundamentals",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Escape Fundamentals",
+      "item": "https://bjjgraph.org/Concepts/Escape-Fundamentals"
+    }
+  ]
+}
+</script>
+
+
 # Escape Fundamentals
 #bjj #concept #fundamental #defense #escape
 

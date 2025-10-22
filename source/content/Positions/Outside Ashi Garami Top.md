@@ -4,6 +4,99 @@ description: "Master Outside Ashi Garami Top in BJJ. Complete guide covering def
 ---
 
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Outside Ashi Garami Top in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Outside Ashi Garami Top.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Counter Outside Heel Hook",
+      "text": "From this position, execute Counter Outside Heel Hook to transition to Won by Submission.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Counter Ankle Lock",
+      "text": "From this position, execute Counter Ankle Lock to transition to Won by Submission.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Establish Top Leg Lock",
+      "text": "From this position, execute Establish Top Leg Lock to transition to Inside Ashi Top.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Pass to Side Control",
+      "text": "From this position, execute Pass to Side Control to transition to Side Control Top.",
+      "position": 4
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Pulling leg straight out against figure-4?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Strengthens opponent's leg triangle, exposes heel to heel hook grip, accelerates submission threat The correction is: Rotate hip internally (inward), collapse opponent's triangle structure, thread leg out systematically"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Dropping down to opponent's level (lowering hips)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Removes height advantage, makes escape more difficult, allows opponent to improve angle and grip The correction is: Maintain elevated posture (standing if possible), keep hips high, use gravity to your advantage"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Exposing heel to opponent's grips?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Immediate heel hook threat, submission can finish rapidly, high injury risk The correction is: Keep heel hidden by tucking foot toward buttocks, controlling heel position away from opponent's hands"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Static position without movement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Allows opponent to perfect their grips and positioning, increases submission probability The correction is: Constant small adjustments, hip rotation, frame pressure - make it difficult for opponent to settle controls"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Panicking and explosive movement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wastes energy, creates worse positioning, often exposes heel or allows opponent to advance entanglement The correction is: Calm, systematic escape process, methodical execution of defensive techniques"
+      }
+    }
+  ]
+}
+</script>
+
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -11,11 +104,11 @@ description: "Master Outside Ashi Garami Top in BJJ. Complete guide covering def
   "@type": "WebPage",
   "name": "Outside Ashi Garami Top",
   "description": "Master Outside Ashi Garami Top in BJJ. Complete guide covering defensive strategies, escapes, and counter leg locks. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.",
-  "url": "https://bjjgraph.com/positions/outside-ashi-garami-top",
+  "url": "https://bjjgraph.org/Positions/Outside-Ashi-Garami-Top",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -28,19 +121,19 @@ description: "Master Outside Ashi Garami Top in BJJ. Complete guide covering def
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Outside Ashi Garami Top",
-      "item": "https://bjjgraph.com/positions/outside-ashi-garami-top"
+      "item": "https://bjjgraph.org/Positions/Outside-Ashi-Garami-Top"
     }
   ]
 }

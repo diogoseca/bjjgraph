@@ -45,21 +45,19 @@ application_contexts:
 tags: [bjj, concept, strength, conditioning, physical-development, training]
 ---
 
-# Strength Development
-#bjj #concept #strength #conditioning #physical-development
 
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Strength Development | Concept | BJJ Graph",
-  "description": "Master strength development methodology for BJJ. Learn position-specific strength training, grip conditioning, and functional power development for enhanced technical performance.",
-  "url": "https://bjjgraph.com/concepts/strength-development",
+  "name": "Strength Development | Concept",
+  "description": "Strength Development represents the systematic approach to building position-specific force production capacity, structural resilience, and functional power that enhances technical execution while ...",
+  "url": "https://bjjgraph.org/Concepts/Strength-Development",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -72,23 +70,27 @@ tags: [bjj, concept, strength, conditioning, physical-development, training]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Strength Development",
-      "item": "https://bjjgraph.com/concepts/strength-development"
+      "item": "https://bjjgraph.org/Concepts/Strength-Development"
     }
   ]
 }
 </script>
+
+
+# Strength Development
+#bjj #concept #strength #conditioning #physical-development
 
 ## Concept Description
 

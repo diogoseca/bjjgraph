@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Forward Pressure",
   "description": "Forward Pressure represents the strategic application of advancing force, momentum, and weight distribution to overcome defensive barriers, eliminate space, and create positional advancement opport...",
-  "url": "https://bjjgraph.com/concepts/forward-pressure",
+  "url": "https://bjjgraph.org/Concepts/Forward-Pressure",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Forward Pressure",
-      "item": "https://bjjgraph.com/concepts/forward-pressure"
+      "item": "https://bjjgraph.org/Concepts/Forward-Pressure"
     }
   ]
 }

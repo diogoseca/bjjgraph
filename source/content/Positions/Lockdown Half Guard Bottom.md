@@ -4,6 +4,7 @@ description: "Master Lockdown Half Guard Bottom in BJJ. Eddie Bravo's signature 
 ---
 
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -14,33 +15,39 @@ description: "Master Lockdown Half Guard Bottom in BJJ. Eddie Bravo's signature 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Lockdown",
-      "text": "Secure lockdown by threading your inside leg under opponent's trapped leg and hooking your ankle over your own shin.",
+      "name": "Execute Electric Chair Sweep",
+      "text": "From this position, execute Electric Chair Sweep to transition to Electric Chair.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Sweep",
-      "text": "From lockdown, execute Electric Chair sweep by extending trapped leg and rolling opponent.",
+      "name": "Execute Old School Sweep",
+      "text": "From this position, execute Old School Sweep to transition to Mount.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Old School Sweep",
-      "text": "From lockdown, execute Old School sweep by controlling arm and rolling backward.",
+      "name": "Execute Dog Fight Transition",
+      "text": "From this position, execute Dog Fight Transition to transition to Dogfight Position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Transition to Dog Fight",
-      "text": "From lockdown, come up on elbow and transition to Dog Fight position for sweeps.",
+      "name": "Execute Whip Up Sweep",
+      "text": "From this position, execute Whip Up Sweep to transition to Top Position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Attack Whip Up Sweep",
-      "text": "From lockdown, execute whip-up motion to off-balance opponent and sweep to top position.",
+      "name": "Execute Back Take",
+      "text": "From this position, execute Back Take to transition to Back Control.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Homer Sweep",
+      "text": "From this position, execute Homer Sweep to transition to Mount.",
+      "position": 6
     }
   ],
   "tool": [
@@ -62,7 +69,7 @@ description: "Master Lockdown Half Guard Bottom in BJJ. Eddie Bravo's signature 
       "name": "What is a common mistake in Weak lockdown tension?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to maintain mobility and potentially pass guard or escape lockdown. The correction is: Maintain constant tension in lockdown by pulling your ankles tight together and extending your hips slightly to stretch opponent's trapped leg, limiting their movement options."
+        "text": "Allows opponent to maintain mobility and potentially pass guard or escape lockdown. The correction is: Maintain constant tension in lockdown by pulling your ankles tight together and extending your hips slightly to stretch opponent's trapped leg, limiting their movement options.\n  - **Recognition**: If opponent can still move their trapped leg significantly or advance position, your lockdown tension is insufficient."
       }
     },
     {
@@ -70,7 +77,7 @@ description: "Master Lockdown Half Guard Bottom in BJJ. Eddie Bravo's signature 
       "name": "What is a common mistake in Neglecting upper body control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent can posture up, create distance, or initiate passes despite lockdown control. The correction is: Establish strong underhooks, whip-ups, or grip controls on upper body to complement lockdown, creating full-body control system that prevents opponent's escape or advancement."
+        "text": "Opponent can posture up, create distance, or initiate passes despite lockdown control. The correction is: Establish strong underhooks, whip-ups, or grip controls on upper body to complement lockdown, creating full-body control system that prevents opponent's escape or advancement.\n  - **Recognition**: If opponent maintains upright posture or controls your head/shoulders, you lack adequate upper body control."
       }
     },
     {
@@ -78,7 +85,7 @@ description: "Master Lockdown Half Guard Bottom in BJJ. Eddie Bravo's signature 
       "name": "What is a common mistake in Static lockdown position?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Becomes predictable and allows opponent to defend effectively or counter your attacks. The correction is: Constantly adjust lockdown tension, change angles by moving hips, and threaten multiple attacks to keep opponent defensive and create openings for sweeps or submissions."
+        "text": "Becomes predictable and allows opponent to defend effectively or counter your attacks. The correction is: Constantly adjust lockdown tension, change angles by moving hips, and threaten multiple attacks to keep opponent defensive and create openings for sweeps or submissions.\n  - **Recognition**: If opponent settles into stable defensive position, you're being too static and need to create more movement."
       }
     },
     {
@@ -86,7 +93,7 @@ description: "Master Lockdown Half Guard Bottom in BJJ. Eddie Bravo's signature 
       "name": "What is a common mistake in Incorrect foot positioning?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Weakens lockdown control and makes it easier for opponent to escape or clear the lockdown. The correction is: Ensure inside foot threads deep under opponent's leg with ankle hooking over your own shin near the knee—this creates maximum leverage and control."
+        "text": "Weakens lockdown control and makes it easier for opponent to escape or clear the lockdown. The correction is: Ensure inside foot threads deep under opponent's leg with ankle hooking over your own shin near the knee—this creates maximum leverage and control.\n  - **Recognition**: If your lockdown feels loose or opponent can easily move their leg, check your foot positioning."
       }
     },
     {
@@ -94,10 +101,27 @@ description: "Master Lockdown Half Guard Bottom in BJJ. Eddie Bravo's signature 
       "name": "What is a common mistake in Forcing sweeps without setup?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Results in failed sweep attempts and wasted energy while opponent maintains position. The correction is: Build sweep setups through off-balancing movements, whip-ups, and controlling opponent's upper body before committing to full sweep execution—timing and preparation are essential."
+        "text": "Results in failed sweep attempts and wasted energy while opponent maintains position. The correction is: Build sweep setups through off-balancing movements, whip-ups, and controlling opponent's upper body before committing to full sweep execution—timing and preparation are essential.\n  - **Recognition**: If your sweeps consistently fail or opponent easily counters, you're likely forcing them without proper setup."
       }
     }
   ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lockdown Half Guard Bottom",
+  "description": "Master Lockdown Half Guard Bottom in BJJ. Eddie Bravo's signature half guard control with lockdown. Success rates: Beginner 50%, Intermediate 65%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Positions/Lockdown-Half-Guard-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -109,39 +133,24 @@ description: "Master Lockdown Half Guard Bottom in BJJ. Eddie Bravo's signature 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Lockdown Half Guard Bottom",
-      "item": "https://bjjgraph.com/positions/lockdown-half-guard-bottom"
+      "item": "https://bjjgraph.org/Positions/Lockdown-Half-Guard-Bottom"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Lockdown Half Guard Bottom",
-  "description": "Master Lockdown Half Guard Bottom in BJJ. Eddie Bravo's signature half guard control with lockdown. Success rates: Beginner 50%, Intermediate 65%, Advanced 75%.",
-  "url": "https://bjjgraph.com/positions/lockdown-half-guard-bottom",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Lockdown Half Guard Bottom
 #bjj #state #half-guard #bottom #10th-planet

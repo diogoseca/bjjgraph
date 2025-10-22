@@ -37,6 +37,106 @@ related_positions: ["Closed Guard Top", "Standing Guard", "Open Guard Top", "Com
 related_techniques: ["Guard Break", "Standing Pass", "Knee Cut Pass", "Toreando Pass"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Posture Up",
+  "description": "Learn how to execute Posture Up in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish solid base with feet positioned correctly (one forward, one back or both beside hips), create strong spinal alignment",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Drive hips forward and down toward opponent's hips to reduce guard closure leverage",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hand Positioning",
+      "text": "Post hands strategically on opponent's hips, biceps, or chest to create distance and prevent upper body control",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Weight Transfer",
+      "text": "Shift weight backward onto heels while maintaining forward hip pressure to prepare for explosive stand",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Drive explosively upward through legs while maintaining posture, breaking guard closure or creating standing position",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Establish stable standing guard with hands controlling opponent's legs or hips, preparing for passing attack",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Posture Up",
+  "description": "Learn Posture Up in BJJ. Step-by-step execution from Closed Guard Top to Standing Guard. Success: Beginner 60%, Intermediate 75%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Transitions/Posture-Up",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Posture Up",
+      "item": "https://bjjgraph.org/Transitions/Posture-Up"
+    }
+  ]
+}
+</script>
+
+
 # Posture Up
 #bjj #transition #guard #passing #posture #advancement
 

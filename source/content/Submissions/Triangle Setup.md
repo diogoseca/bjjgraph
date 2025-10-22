@@ -87,6 +87,50 @@ author: "BJJGraph Agent System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle Setup",
+  "description": "Q: \"Should pressure be applied during triangle setup drilling?\"\nA: \"NO. Triangle setup drilling focuses on positioning, configuration, and angle creation WITHOUT applying finishing pressure. Goal i...",
+  "url": "https://bjjgraph.org/Submissions/Triangle-Setup",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Triangle Setup",
+      "item": "https://bjjgraph.org/Submissions/Triangle-Setup"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Position Data Structure
 
 **Purpose**: Triangle Setup is the preliminary control position and configuration phase before executing Triangle Choke. This is a LEARNING and POSITIONING phase, not a finishing technique. Focus is on correct configuration, not pressure application.

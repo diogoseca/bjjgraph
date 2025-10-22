@@ -37,6 +37,106 @@ related_positions: ["Standing Position", "Top Position", "Side Control", "Mount"
 related_techniques: ["Double Leg Takedown", "Single Leg Takedown", "High Crotch", "Penetration Step"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Double Leg Variations",
+  "description": "Learn how to execute Double Leg Variations in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish proper stance, distance management, and grip fighting to create shooting opportunity",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Execute level change with explosive penetration step, driving lead leg deep between opponent's legs",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically sprawls, defends with underhooks, or attempts to create distance",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Select appropriate finishing variation based on opponent's defensive reaction and body position",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Execute chosen variation (drive through, lift and dump, trip, or sweep) to complete takedown",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Establish top position control immediately after takedown, transitioning to side control or mount",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Double Leg Variations",
+  "description": "Learn Double Leg Variations in BJJ. Step-by-step execution from Standing Position to Top Position. Success: Beginner 45%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Transitions/Double-Leg-Variations",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Double Leg Variations",
+      "item": "https://bjjgraph.org/Transitions/Double-Leg-Variations"
+    }
+  ]
+}
+</script>
+
+
 # Double Leg Variations
 #bjj #transition #takedown #standing #wrestling
 

@@ -21,32 +21,32 @@ description: "Master Knee Cut Position in BJJ. Complete guide covering setup, co
     },
     {
       "@type": "HowToStep",
+      "name": "Execute Knee Cut Pass",
+      "text": "From this position, execute Knee Cut Pass to transition to Side Control.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
       "name": "Execute Knee Cut to Mount",
       "text": "From this position, execute Knee Cut to Mount to transition to Mount.",
-      "position": 2
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Cut to North-South",
       "text": "From this position, execute Knee Cut to North-South to transition to North-South.",
-      "position": 3
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
       "text": "From this position, execute Back Step to transition to Leg Drag Position.",
-      "position": 4
+      "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Folding Pass Transition",
       "text": "From this position, execute Folding Pass Transition to transition to Smash Pass Position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Kimura Trap from Knee Cut",
-      "text": "From this position, execute Kimura Trap from Knee Cut to transition to Kimura Control.",
       "position": 6
     }
   ],
@@ -58,6 +58,72 @@ description: "Master Knee Cut Position in BJJ. Complete guide covering setup, co
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Insufficient control of bottom leg?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Guard recovery opportunity"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor upper body control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Defensive framing options"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Incorrect knee angle?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Limited passing pressure"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Disconnected upper and lower body control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Compromised structure"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Premature advancement attempts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Position compromise"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Cut Position",
+  "description": "Master Knee Cut Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
+  "url": "https://bjjgraph.org/Positions/Knee-Cut-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Knee Cut Position in BJJ. Complete guide covering setup, co
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Knee Cut Position",
-      "item": "https://bjjgraph.com/positions/knee-cut-position"
+      "item": "https://bjjgraph.org/Positions/Knee-Cut-Position"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Knee Cut Position",
-  "description": "Master Knee Cut Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
-  "url": "https://bjjgraph.com/positions/knee-cut-position",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Knee Cut Position
 #bjj #state #passing #halfguard #top
@@ -193,7 +243,6 @@ The Knee Cut Position represents a dominant transitional control point during th
 - [[Half Guard Top]] - Related control position
 - [[Leg Drag Position]] - Alternative passing position
 - [[Flattened Half Guard]] - Potential transition state
-
 
 ## Related Positions
 

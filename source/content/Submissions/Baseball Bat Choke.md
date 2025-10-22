@@ -3,6 +3,7 @@ title: "Baseball Bat Choke | BJJ Submission Guide | BJJ Graph"
 description: "From a dominant position like Side Control or during a deceptive setup from Knee Shield Half Guard, you begin by establishing a deep cross-grip on the opponent's collar with your first hand,..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "From a dominant position like Side Control or during a deceptive s
   "@type": "WebPage",
   "name": "Baseball Bat Choke",
   "description": "From a dominant position like Side Control or during a deceptive setup from Knee Shield Half Guard, you begin by establishing a deep cross-grip on the opponent's collar with your first hand,...",
-  "url": "https://bjjgraph.com/submissions/baseball-bat-choke",
+  "url": "https://bjjgraph.org/Submissions/Baseball-Bat-Choke",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "From a dominant position like Side Control or during a deceptive s
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Baseball Bat Choke",
-      "item": "https://bjjgraph.com/submissions/baseball-bat-choke"
+      "item": "https://bjjgraph.org/Submissions/Baseball-Bat-Choke"
     }
   ]
 }
 </script>
+
 
 # Baseball Bat Choke
 #bjj #transition #submission #choke #gi

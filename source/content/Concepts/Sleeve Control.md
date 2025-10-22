@@ -46,6 +46,50 @@ application_contexts:
 tags: [bjj, concept, fundamental, grips, sleeve, control]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sleeve Control",
+  "description": "Sleeve Control represents the fundamental skill of gripping and manipulating opponent's sleeves to establish distance management, limit opponent mobility, and create opportunities for sweeps and su...",
+  "url": "https://bjjgraph.org/Concepts/Sleeve-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Sleeve Control",
+      "item": "https://bjjgraph.org/Concepts/Sleeve-Control"
+    }
+  ]
+}
+</script>
+
+
 # Sleeve Control
 #bjj #concept #fundamental #grips #sleeve
 

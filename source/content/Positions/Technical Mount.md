@@ -567,6 +567,105 @@ llm_context:
 
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Technical Mount in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Technical Mount.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Armbar",
+      "text": "From Technical Mount, execute Armbar to advance your position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Triangle Choke Side",
+      "text": "From Technical Mount, execute Triangle Choke Side to advance your position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Mounted Triangle",
+      "text": "From Technical Mount, execute Mounted Triangle to advance your position.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Technical Mount?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Arm Isolation First**: Never commit to technical mount without first securing control of opponent's arm. The position's power comes from the armbar threat, which requires arm control. Enter technical mount during armbar attempts or after isolating the arm from regular mount."
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Technical Mount",
+  "description": "Master Technical Mount in BJJ. Complete guide covering control mechanics, submissions, and transitions. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Positions/Technical-Mount",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Technical Mount",
+      "item": "https://bjjgraph.org/Positions/Technical-Mount"
+    }
+  ]
+}
+</script>
+
+
 # Technical Mount
 #bjj #state #mount #top #advanced
 

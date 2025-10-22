@@ -16,32 +16,20 @@ description: "Master Cross Ashi Garami Top in BJJ. Complete guide covering setup
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock",
-      "text": "From this position, execute Straight Ankle Lock to transition to Won by Submission.",
+      "text": "From Cross Ashi Garami Top, execute Straight Ankle Lock to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar Control",
-      "text": "From this position, execute Kneebar to transition to Won by Submission.",
+      "name": "Execute Kneebar Finish",
+      "text": "From Cross Ashi Garami Top, execute Kneebar Finish to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Heel Hook Transition",
-      "text": "From this position, execute Heel Hook setup by crossing over opponent's leg.",
+      "name": "Execute Inside Heel Hook",
+      "text": "From Cross Ashi Garami Top, execute Inside Heel Hook to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Back Step Transition",
-      "text": "From this position, execute Back Step to transition to Saddle Position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Inside Position Transition",
-      "text": "From this position, execute transition to Inside Ashi Garami for better control.",
-      "position": 5
     }
   ],
   "tool": [
@@ -60,48 +48,32 @@ description: "Master Cross Ashi Garami Top in BJJ. Complete guide covering setup
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the key difference between Cross Ashi and Standard Ashi?",
+      "name": "What is a key principle of Cross Ashi Garami Top?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Cross Ashi involves crossing your legs over the opponent's trapped leg, creating a different angle of control and opening up different submission opportunities, particularly for kneebar and cross-body attacks."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When should I transition to Cross Ashi from other positions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Transition to Cross Ashi when opponent defends standard attacks by turning their knee away, when you need a different angle for ankle locks, or when setting up transitions to the saddle position."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Cross Ashi Garami?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Losing hip pressure while crossing legs, which allows opponent to slip their leg free. The correction is: Maintain constant hip pressure and control the distance between your hips and opponent's knee joint."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I prevent the opponent from standing up from Cross Ashi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Control their upper body with grips or by pulling them forward, keep your hips heavy on their trapped leg, and be ready to elevate to X-Guard or Single Leg X if they begin to stand."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the main submission options from Cross Ashi Top?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Primary submissions include straight ankle lock, kneebar, and setup for heel hooks (in appropriate rulesets). The cross-body angle provides excellent leverage for all ankle and knee attacks."
+        "text": "**Cross-body Control**: Maintain the crossed leg configuration to control the opponent's leg at multiple points (hip, knee, ankle)"
       }
     }
   ]
 }
 </script>
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Cross Ashi Garami Top",
+  "description": "Master Cross Ashi Garami Top in BJJ. Complete guide covering setup, control, transitions, and submissions. Success rates: Beginner 50%, Intermediate 65%, Advanced 78%.",
+  "url": "https://bjjgraph.org/Positions/Cross-Ashi-Garami-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -111,38 +83,24 @@ description: "Master Cross Ashi Garami Top in BJJ. Complete guide covering setup
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Cross Ashi Garami Top",
-      "item": "https://bjjgraph.com/positions/cross-ashi-garami-top"
+      "item": "https://bjjgraph.org/Positions/Cross-Ashi-Garami-Top"
     }
   ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Cross Ashi Garami Top",
-  "description": "Master Cross Ashi Garami Top in BJJ. Complete guide covering setup, control, transitions, and submissions. Success rates: Beginner 50%, Intermediate 65%, Advanced 78%.",
-  "url": "https://bjjgraph.com/positions/cross-ashi-garami-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Cross Ashi Garami Top
 #bjj #state #leg_entanglement #offensive_position #leglock #advanced

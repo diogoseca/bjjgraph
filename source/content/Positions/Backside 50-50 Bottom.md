@@ -15,41 +15,29 @@ description: "Master Backside 50-50 Bottom in BJJ. Complete guide covering leg e
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Heel Hook Entry",
-      "text": "From this position, execute Inside Heel Hook Entry to transition to leg lock control.",
+      "name": "Execute Inside Heel Hook",
+      "text": "From Backside 50-50 Bottom, execute Inside Heel Hook to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Backside 50-50 Sweep",
-      "text": "From this position, execute sweeping motion to transition to top position.",
+      "name": "Execute Heel Hook Control",
+      "text": "From Backside 50-50 Bottom, execute Heel Hook Control to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Lock Control",
-      "text": "From this position, control opponent's leg for submission opportunities.",
+      "name": "Execute Kneebar from 50-50",
+      "text": "From Backside 50-50 Bottom, execute Kneebar from 50-50 to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Position Escape",
-      "text": "From this position, extract leg and escape to neutral.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Standard 50-50 Transition",
-      "text": "From this position, transition to standard 50-50 configuration.",
-      "position": 5
     }
   ],
   "tool": [
-    "No-Gi attire recommended",
+    "BJJ Gi or No-Gi attire",
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT7M"
+  "totalTime": "PT5M"
 }
 </script>
 
@@ -60,45 +48,30 @@ description: "Master Backside 50-50 Bottom in BJJ. Complete guide covering leg e
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Insufficient hip control?",
+      "name": "What is a key principle of Backside 50-50 Bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to create space and escape the leg entanglement, losing position control. The correction is: Maintain tight hip connection and use your free leg to control opponent's hip movement."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Poor leg positioning?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Reduces control and submission opportunities while exposing yourself to counters. The correction is: Keep legs properly configured with heel control and maintain proper angle throughout."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Ignoring top control threats?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Opponent establishes dominant top position with superior leg lock opportunities. The correction is: Constantly monitor opponent's position and address threats before they develop."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Over-committing to submissions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Creates opportunities for opponent to escape or reverse position. The correction is: Maintain position control first, then work submissions systematically."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Flat back position?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Limits offensive options and makes it easier for opponent to maintain top pressure. The correction is: Stay active on your side, use angles to create sweep opportunities."
+        "text": "**Leg Entanglement Mechanics**: Maintain proper leg configuration to control opponent's movement while protecting your own legs from attacks"
       }
     }
   ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Backside 50-50 Bottom",
+  "description": "Master Backside 50-50 Bottom in BJJ. Complete guide covering leg entanglement control, sweeps, and leg lock attacks. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Positions/Backside-50-50-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -110,39 +83,24 @@ description: "Master Backside 50-50 Bottom in BJJ. Complete guide covering leg e
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Backside 50-50 Bottom",
-      "item": "https://bjjgraph.com/positions/backside-50-50-bottom"
+      "item": "https://bjjgraph.org/Positions/Backside-50-50-Bottom"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Backside 50-50 Bottom",
-  "description": "Master Backside 50-50 Bottom in BJJ. Complete guide covering leg entanglement control, sweeps, and leg lock attacks. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.",
-  "url": "https://bjjgraph.com/positions/backside-50-50-bottom",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Backside 50-50 Bottom
 #bjj #state #leg-entanglement #bottom #no-gi

@@ -17,6 +17,50 @@ success_rate:
 tags: [submission, choke, gi_only, back_attack, intermediate]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bow and Arrow Choke Variations",
+  "description": "Master Bow and Arrow Choke variations. Complete guide. Success: Beginner 25%, Intermediate 40%, Advanced 60%.",
+  "url": "https://bjjgraph.org/Submissions/Bow-and-Arrow-Choke-Variations",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Bow and Arrow Choke Variations",
+      "item": "https://bjjgraph.org/Submissions/Bow-and-Arrow-Choke-Variations"
+    }
+  ]
+}
+</script>
+
+
 # Bow and Arrow Choke Variations
 
 ## ⚠️ SAFETY NOTICE

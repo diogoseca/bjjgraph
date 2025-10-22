@@ -11,7 +11,7 @@ description: "Learn Kiss of the Dragon in BJJ. Step-by-step execution. Complete 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Kiss of the Dragon",
-  "description": "Learn how to execute Kiss of the Dragon in Brazilian Jiu-Jitsu from Half Guard to Top Position. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "description": "Learn how to execute Kiss of the Dragon in Brazilian Jiu-Jitsu from Half Guard Top to Top Position. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -79,16 +79,14 @@ description: "Learn Kiss of the Dragon in BJJ. Step-by-step execution. Complete 
   "@type": "WebPage",
   "name": "Kiss of the Dragon",
   "description": "Learn Kiss of the Dragon in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/kiss-of-the-dragon",
+  "url": "https://bjjgraph.org/Transitions/Kiss-of-the-Dragon",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Kiss of the Dragon in BJJ. Step-by-step execution. Complete 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Kiss of the Dragon",
-      "item": "https://bjjgraph.com/transitions/kiss-of-the-dragon"
+      "item": "https://bjjgraph.org/Transitions/Kiss-of-the-Dragon"
     }
   ]
 }

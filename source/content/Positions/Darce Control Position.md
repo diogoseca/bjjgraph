@@ -33,20 +33,20 @@ description: "Master Darce Control Position in BJJ. Complete guide covering setu
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Darce to North-South",
-      "text": "From this position, execute Darce to North-South to transition to North-South.",
+      "name": "Execute Rolling Darce",
+      "text": "From this position, execute Rolling Darce to transition to Darce Control Position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Darce Entry from Turtle",
-      "text": "From this position, execute Darce Entry from Turtle to establish control.",
+      "name": "Execute Darce to North-South",
+      "text": "From this position, execute Darce to North-South to transition to North-South.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Darce",
-      "text": "From this position, execute Rolling Darce to improve angle and finish.",
+      "name": "Execute Darce to Guillotine Switch",
+      "text": "From this position, execute Darce to Guillotine Switch to transition to Front Headlock.",
       "position": 6
     }
   ],
@@ -107,6 +107,23 @@ description: "Master Darce Control Position in BJJ. Complete guide covering setu
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Darce Control Position",
+  "description": "Master Darce Control Position in BJJ. Complete guide covering setup, control, escapes, and submissions. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Positions/Darce-Control-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Darce Control Position in BJJ. Complete guide covering setu
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Darce Control Position",
-      "item": "https://bjjgraph.com/positions/darce-control-position"
+      "item": "https://bjjgraph.org/Positions/Darce-Control-Position"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Darce Control Position",
-  "description": "Master Darce Control Position in BJJ. Complete guide covering setup, control, escapes, and submissions. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.",
-  "url": "https://bjjgraph.com/positions/darce-control-position",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Darce Control Position
 #bjj #state #control #submission #choke

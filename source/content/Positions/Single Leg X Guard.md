@@ -58,6 +58,72 @@ description: "Master Single Leg X Guard in BJJ. Complete guide covering setup, c
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Passive foot positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reduced control and leverage"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Failing to elevate opponent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to smashing pressure"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Inadequate ankle control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Escape opportunities for opponent"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor hip positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Ineffective sweep mechanics"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Telegraphing leg lock entries?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Defensive counters"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Single Leg X Guard",
+  "description": "Master Single Leg X Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
+  "url": "https://bjjgraph.org/Positions/Single-Leg-X-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Single Leg X Guard in BJJ. Complete guide covering setup, c
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Single Leg X Guard",
-      "item": "https://bjjgraph.com/positions/single-leg-x-guard"
+      "item": "https://bjjgraph.org/Positions/Single-Leg-X-Guard"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Single Leg X Guard",
-  "description": "Master Single Leg X Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
-  "url": "https://bjjgraph.com/positions/single-leg-x-guard",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Single Leg X Guard
 #bjj #state #guard #leg_entanglement #open_guard
@@ -185,7 +235,6 @@ You are on your back or partially seated with one of your opponent's legs trappe
 - [[Reverse X Guard]] - Inverted variation of leg entanglement
 - [[50-50 Guard]] - Mutually entangled leg position
 - [[De La Riva Guard]] - Related open guard with exterior leg hook
-
 
 ## Related Positions
 

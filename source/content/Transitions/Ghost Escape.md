@@ -37,6 +37,106 @@ related_positions: ["Side Control Bottom", "Turtle Position", "Guard Bottom"]
 related_techniques: ["Shrimp Escape", "Granby Roll", "Sit Through"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Ghost Escape",
+  "description": "Learn how to execute Ghost Escape in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish inside elbow frame on opponent's hip, outside hand controlling far shoulder or neck",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Bridge explosively while turning toward outside shoulder, creating space under hips",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Knee Insertion",
+      "text": "Pull inside knee toward chest and shoot it underneath body in circular motion",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Rolling Motion",
+      "text": "Execute shoulder roll/granby bringing inside shoulder and upper back to mat",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Escape",
+      "text": "Continue rotational momentum bringing hips through the created space",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Emerge on opposite side in turtle position, immediately establish defensive posture",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ghost Escape",
+  "description": "Learn Ghost Escape in BJJ. Step-by-step execution from Side Control Bottom to Turtle Position. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Ghost-Escape",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Ghost Escape",
+      "item": "https://bjjgraph.org/Transitions/Ghost-Escape"
+    }
+  ]
+}
+</script>
+
+
 # Ghost Escape
 #bjj #transition #escape #side_control #advanced
 

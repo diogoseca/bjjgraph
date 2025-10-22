@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Straight Footlock to Kneebar Chain",
   "description": "The Straight Footlock to Kneebar Chain represents a fundamental attack sequence in the leg lock arsenal of Brazilian Jiu-Jitsu. This system connects two of the most widely legal and applicable leg ...",
-  "url": "https://bjjgraph.com/systems/straight-footlock-to-kneebar-chain",
+  "url": "https://bjjgraph.org/Systems/Straight-Footlock-to-Kneebar-Chain",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Systems",
-      "item": "https://bjjgraph.com/systems/"
+      "item": "https://bjjgraph.org/Systems/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Straight Footlock to Kneebar Chain",
-      "item": "https://bjjgraph.com/systems/straight-footlock-to-kneebar-chain"
+      "item": "https://bjjgraph.org/Systems/Straight-Footlock-to-Kneebar-Chain"
     }
   ]
 }

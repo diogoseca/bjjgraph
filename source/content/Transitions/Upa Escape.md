@@ -37,6 +37,106 @@ related_positions: ["Mount", "Closed Guard Top", "Side Control"]
 related_techniques: ["Bridge and Roll", "Hip Escape", "Elbow Escape"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Upa Escape",
+  "description": "Learn how to execute Upa Escape in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish secure trap on opponent's arm against your chest and their foot on the same side, creating connection points for the escape",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Place your free hand on the mat for additional leverage and prepare to bridge by planting both feet firmly",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically maintains weight forward or tries to base out on the free side to prevent the roll",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Adjust bridge direction and timing based on their weight distribution, bridging toward the trapped side",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Execute explosive bridge while maintaining tight control of trapped limbs, rolling them over completely",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Follow through by establishing closed guard from top position or advancing to better control",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Upa Escape",
+  "description": "Learn Upa Escape in BJJ. Step-by-step execution from Mount Bottom to Closed Guard Top. Success: Beginner 40%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Upa-Escape",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Upa Escape",
+      "item": "https://bjjgraph.org/Transitions/Upa-Escape"
+    }
+  ]
+}
+</script>
+
+
 # Upa Escape
 #bjj #transition #escape #mount #fundamental
 

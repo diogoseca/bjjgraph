@@ -79,16 +79,14 @@ description: "Learn Leg Drag Setup in BJJ. Step-by-step execution. Complete tech
   "@type": "WebPage",
   "name": "Leg Drag Setup",
   "description": "Learn Leg Drag Setup in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/leg-drag-setup",
+  "url": "https://bjjgraph.org/Transitions/Leg-Drag-Setup",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Leg Drag Setup in BJJ. Step-by-step execution. Complete tech
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Leg Drag Setup",
-      "item": "https://bjjgraph.com/transitions/leg-drag-setup"
+      "item": "https://bjjgraph.org/Transitions/Leg-Drag-Setup"
     }
   ]
 }
@@ -336,7 +334,6 @@ Updates to this standard should be reflected across related transition setup fil
 
 ## Historical Context
 The Leg Drag Setup and subsequent pass gained prominence in modern BJJ through practitioners like Rafa Mendes and the Atos team, revolutionizing guard passing strategies in competition by focusing on leg control to disrupt guard retention systems.
-
 
 ## Related Techniques
 

@@ -101,6 +101,50 @@ author: "BJJGraph System - Agent 13"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura Variations | Joint Lock System",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. Kimura rotations should take 5-7 seconds MINIMUM in training. The shoulder joint is complex and fragile. Never spike or jerk the ...",
+  "url": "https://bjjgraph.org/Submissions/Kimura-Variations",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kimura Variations",
+      "item": "https://bjjgraph.org/Submissions/Kimura-Variations"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Kimura Variations represent a systematic approach to shoulder attacks using the figure-four grip configuration. This is NOT a single submission but a family of related techniques attacking the shoulder joint from multiple positions. Success results in terminal victory. Safety is paramount due to shoulder complexity and fragility.

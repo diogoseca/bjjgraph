@@ -11,7 +11,7 @@ description: "Learn Guillotine Defense in BJJ. Step-by-step escape from Guilloti
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Guillotine Defense",
-  "description": "Learn how to defend and escape Guillotine Choke attacks in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute Guillotine Defense in Brazilian Jiu-Jitsu from Guillotine Control to Side Control. Success: Beginner 45%, Intermediate 65%, Advanced 80%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -58,6 +58,23 @@ description: "Learn Guillotine Defense in BJJ. Step-by-step escape from Guilloti
   "totalTime": "PT5M"
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guillotine Defense",
+  "description": "Learn Guillotine Defense in BJJ. Step-by-step escape from Guillotine Choke attacks. Success: Beginner 45%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Transitions/Guillotine-Defense",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,39 +84,24 @@ description: "Learn Guillotine Defense in BJJ. Step-by-step escape from Guilloti
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Guillotine Defense",
-      "item": "https://bjjgraph.com/transitions/guillotine-defense"
+      "item": "https://bjjgraph.org/Transitions/Guillotine-Defense"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Guillotine Defense",
-  "description": "Learn Guillotine Defense in BJJ. Step-by-step escape from Guillotine Choke attacks. Success: Beginner 45%, Intermediate 65%, Advanced 80%.",
-  "url": "https://bjjgraph.com/transitions/guillotine-defense",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Guillotine Defense
 #bjj #transition #defense #guillotine #escape

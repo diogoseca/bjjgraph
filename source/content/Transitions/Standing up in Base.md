@@ -45,7 +45,7 @@ related_techniques: ["Technical Stand-up", "Turtle Defense", "Base Maintenance",
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Standing up in Base",
-  "description": "Learn how to execute Standing up in Base in Brazilian Jiu-Jitsu from Turtle Position to Standing Position. Success: Beginner 55%, Intermediate 70%, Advanced 85%.",
+  "description": "Learn how to execute Standing up in Base in Brazilian Jiu-Jitsu.",
   "step": [
     {
       "@type": "HowToStep",
@@ -89,25 +89,26 @@ related_techniques: ["Technical Stand-up", "Turtle Defense", "Base Maintenance",
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT4M"
+  "totalTime": "PT5M"
 }
 </script>
 
+
+<!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Standing up in Base",
   "description": "Learn Standing up in Base in BJJ. Step-by-step execution from Turtle Position to Standing Position. Success: Beginner 55%, Intermediate 70%, Advanced 85%.",
-  "url": "https://bjjgraph.com/transitions/standing-up-in-base",
+  "url": "https://bjjgraph.org/Transitions/Standing-up-in-Base",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -117,19 +118,19 @@ related_techniques: ["Technical Stand-up", "Turtle Defense", "Base Maintenance",
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Standing up in Base",
-      "item": "https://bjjgraph.com/transitions/standing-up-in-base"
+      "item": "https://bjjgraph.org/Transitions/Standing-up-in-Base"
     }
   ]
 }

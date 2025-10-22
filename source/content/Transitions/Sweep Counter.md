@@ -37,6 +37,106 @@ related_positions: ["Closed Guard Top", "Open Guard Top", "Half Guard Top", "Mou
 related_techniques: ["Base Widening", "Posture Recovery", "Guard Pass", "Pressure Pass"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Sweep Counter",
+  "description": "Learn how to execute Sweep Counter in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Maintain awareness of opponent's grips, hip movement, and weight shifts indicating sweep preparation",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Recognize sweep initiation through pressure changes or telegraphed movements",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent commits to sweep direction with hip movement, grip pulls, or hook insertions",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Base out in direction opposing sweep vector with hand or leg post while redistributing weight",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Redirect or neutralize sweep momentum through structural resistance and weight distribution",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Transition to improved position (passing position, heavy pressure, or dominant control)",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sweep Counter",
+  "description": "Learn Sweep Counter in BJJ. Step-by-step execution from multiple guard positions to dominant top positions. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Sweep-Counter",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Sweep Counter",
+      "item": "https://bjjgraph.org/Transitions/Sweep-Counter"
+    }
+  ]
+}
+</script>
+
+
 # Sweep Counter
 #bjj #transition #counter #defense #sweep
 

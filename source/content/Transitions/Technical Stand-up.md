@@ -79,16 +79,14 @@ description: "Learn Technical Stand-up in BJJ. Step-by-step execution. Complete 
   "@type": "WebPage",
   "name": "Technical Stand-up",
   "description": "Learn Technical Stand-up in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/technical-stand-up",
+  "url": "https://bjjgraph.org/Transitions/Technical-Stand-up",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Technical Stand-up in BJJ. Step-by-step execution. Complete 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Technical Stand-up",
-      "item": "https://bjjgraph.com/transitions/technical-stand-up"
+      "item": "https://bjjgraph.org/Transitions/Technical-Stand-up"
     }
   ]
 }

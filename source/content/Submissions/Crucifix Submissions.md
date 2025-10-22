@@ -79,6 +79,50 @@ author: "BJJGraph System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crucifix Submissions | Back Attack",
+  "description": "The [[Crucifix Position]] is one of the most dominant positions in BJJ, trapping both of the opponent's arms and leaving them defenseless. From this position, multiple submissions become available ...",
+  "url": "https://bjjgraph.org/Submissions/Crucifix-Submissions",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Crucifix Submissions",
+      "item": "https://bjjgraph.org/Submissions/Crucifix-Submissions"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ SAFETY NOTICE
 
 **Crucifix submissions trap both of opponent's arms, limiting their ability to tap physically.**

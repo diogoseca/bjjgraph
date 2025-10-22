@@ -96,6 +96,50 @@ author: "BJJGraph Content Team"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Guard",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. Kimura from guard should take minimum 5-7 seconds in training. Shoulder rotates slowly - never jerk or spike the rotation. Compet...",
+  "url": "https://bjjgraph.org/Submissions/Kimura-from-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kimura from Guard",
+      "item": "https://bjjgraph.org/Submissions/Kimura-from-Guard"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Kimura from Guard is a shoulder lock submission from bottom guard position. It's a terminal state resulting in shoulder dislocation or rotator cuff tear if held after tap. Safety is paramount - this technique can cause permanent shoulder damage in 5-7 seconds with full pressure.

@@ -74,6 +74,7 @@ author: "BJJGraph System - Agent 8"
 version: "2.0"
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -81,15 +82,14 @@ version: "2.0"
   "@type": "WebPage",
   "name": "Monoplata",
   "description": "Master Monoplata submission in BJJ. Complete guide covering setup from guard, execution, safety protocols, and injury prevention. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.",
-  "url": "https://bjjgraph.com/submissions/monoplata",
+  "url": "https://bjjgraph.org/Submissions/Monoplata",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -99,23 +99,24 @@ version: "2.0"
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Monoplata",
-      "item": "https://bjjgraph.com/submissions/monoplata"
+      "item": "https://bjjgraph.org/Submissions/Monoplata"
     }
   ]
 }
 </script>
+
 
 # Monoplata
 #bjj #submission #joint_lock #guard #safety_critical

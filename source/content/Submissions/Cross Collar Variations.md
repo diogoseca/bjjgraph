@@ -3,6 +3,50 @@ title: "Cross Collar Variations | BJJ Submission Guide | BJJ Graph"
 description: "Master Cross Collar choke variations in BJJ with comprehensive safety protocols. Learn setups from guard, mount, and side control. Beginner 45%, Intermediate 65%, Advanced 85%."
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Cross Collar Variations",
+  "description": "Master Cross Collar choke variations in BJJ with comprehensive safety protocols. Learn setups from guard, mount, and side control. Beginner 45%, Intermediate 65%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Submissions/Cross-Collar-Variations",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Cross Collar Variations",
+      "item": "https://bjjgraph.org/Submissions/Cross-Collar-Variations"
+    }
+  ]
+}
+</script>
+
+
 # Cross Collar Variations
 #bjj #submission #choke #gi #fundamental
 

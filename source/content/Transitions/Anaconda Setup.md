@@ -37,6 +37,112 @@ related_positions: ["Turtle Position Top", "Anaconda Control Position", "Front H
 related_techniques: ["Anaconda Choke", "Darce Choke", "Guillotine Choke", "Front Headlock Series"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Anaconda Setup",
+  "description": "Learn how to execute Anaconda Setup in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish top position on turtle with front headlock control (arm wrapped around opponent's neck/head from above)",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Thread your free arm under opponent's near armpit while maintaining neck control with primary arm",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Grip Connection",
+      "text": "Connect your hands in gable grip (palm-to-palm) or S-grip, creating closed circuit around neck and arm",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically tries to pull arm free, turn toward you, or maintain turtle base against pressure",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Base Collapse",
+      "text": "Drive shoulder into opponent's head while pulling them toward you, forcing them from all fours to their side",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Body Positioning",
+      "text": "As opponent falls to side, move your body around their head (not over their back), staying close to maintain control",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Final Position",
+      "text": "Establish chest-over-shoulder positioning with arm encircling neck and trapped arm, weight driving into shoulder, ready for anaconda choke finish",
+      "position": 7
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Anaconda Setup",
+  "description": "Learn Anaconda Setup in BJJ. Step-by-step execution from Turtle Position Top to Anaconda Control. Success: Beginner 40%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Anaconda-Setup",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Anaconda Setup",
+      "item": "https://bjjgraph.org/Transitions/Anaconda-Setup"
+    }
+  ]
+}
+</script>
+
+
 # Anaconda Setup
 #bjj #transition #setup #turtle #intermediate
 

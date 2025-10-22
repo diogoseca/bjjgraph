@@ -45,21 +45,19 @@ application_contexts:
 tags: [bjj, concept, competition, training, preparation, performance]
 ---
 
-# Competition Training
-#bjj #concept #competition #training #preparation
 
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Competition Training | Concept | BJJ Graph",
-  "description": "Master competition training methodology in BJJ. Learn systematic preparation protocols, performance optimization strategies, and mental preparation frameworks for tournament success.",
-  "url": "https://bjjgraph.com/concepts/competition-training",
+  "name": "Competition Training | Concept",
+  "description": "Competition Training represents the systematic preparation methodology that transforms general BJJ skill into competition-ready performance through structured periodization, scenario-specific drill...",
+  "url": "https://bjjgraph.org/Concepts/Competition-Training",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -72,23 +70,27 @@ tags: [bjj, concept, competition, training, preparation, performance]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Competition Training",
-      "item": "https://bjjgraph.com/concepts/competition-training"
+      "item": "https://bjjgraph.org/Concepts/Competition-Training"
     }
   ]
 }
 </script>
+
+
+# Competition Training
+#bjj #concept #competition #training #preparation
 
 ## Concept Description
 

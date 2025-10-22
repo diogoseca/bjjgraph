@@ -33,6 +33,106 @@ related_positions: ["Front Headlock", "Guillotine Control", "Darce Control", "An
 related_techniques: ["Snap Down", "Guillotine Choke", "Darce Choke", "Anaconda Choke", "Front Headlock to Back"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Front Headlock Series",
+  "description": "Learn how to execute Front Headlock Series in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish front headlock position with one arm controlling opponent's head, other arm controlling their near arm or ready to attack",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Apply heavy shoulder pressure while reading opponent's defensive reaction and weight distribution",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent attempts to escape via standing, circling, turtling, or driving forward",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Flow to appropriate attack: guillotine if standing, darce/anaconda if turtling, back take if turning",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Secure finishing position or submission control based on path taken",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Maintain control and prepare for finish or next attack in series",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Front Headlock Series",
+  "description": "Learn Front Headlock Series in BJJ. Step-by-step execution from Front Headlock to Multiple Control Positions. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Front-Headlock-Series-Transition",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Front Headlock Series",
+      "item": "https://bjjgraph.org/Transitions/Front-Headlock-Series-Transition"
+    }
+  ]
+}
+</script>
+
+
 # Front Headlock Series Transition
 #bjj #transition #front-headlock #series #advanced
 

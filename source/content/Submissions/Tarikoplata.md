@@ -91,6 +91,50 @@ author: "BJJGraph System Agent 14"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Tarikoplata | Shoulder Lock",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"VERY SLOW and progressive. Tarikoplata should take 5-7 seconds minimum in training. Shoulder locks are unforgiving - apply gradually.\"",
+  "url": "https://bjjgraph.org/Submissions/Tarikoplata",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Tarikoplata",
+      "item": "https://bjjgraph.org/Submissions/Tarikoplata"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Tarikoplata is a modified omoplata shoulder lock submission from guard positions. Success results in immediate match victory. Safety is paramount due to high shoulder injury risk.

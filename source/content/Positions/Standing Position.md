@@ -21,8 +21,8 @@ description: "Master Standing Position in BJJ. Complete guide covering setup, co
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Single Leg Setup",
-      "text": "From this position, execute Single Leg Setup to transition to Single Leg Takedown.",
+      "name": "Execute Single Leg Entry",
+      "text": "From this position, execute Single Leg Entry to transition to Single Leg Takedown.",
       "position": 2
     },
     {
@@ -45,8 +45,8 @@ description: "Master Standing Position in BJJ. Complete guide covering setup, co
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Foot Sweep",
-      "text": "From this position, execute Foot Sweep to transition to Osoto Gari.",
+      "name": "Execute Hook Sweep",
+      "text": "From this position, execute Hook Sweep to transition to Osoto Gari.",
       "position": 6
     }
   ],
@@ -58,6 +58,72 @@ description: "Master Standing Position in BJJ. Complete guide covering setup, co
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor posture?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to takedowns"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Neglecting grip fighting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Loss of control"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Stationary positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Predictable patterns"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Overextended stance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Balance compromise"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Telegraphing intentions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Defensive reads"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Standing Position",
+  "description": "Master Standing Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 50%.",
+  "url": "https://bjjgraph.org/Positions/Standing-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Standing Position in BJJ. Complete guide covering setup, co
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Standing Position",
-      "item": "https://bjjgraph.com/positions/standing-position"
+      "item": "https://bjjgraph.org/Positions/Standing-Position"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Standing Position",
-  "description": "Master Standing Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 50%.",
-  "url": "https://bjjgraph.com/positions/standing-position",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Standing Position
 #bjj #state #neutral #takedown #standing
@@ -192,7 +242,6 @@ Both practitioners stand upright on their feet, facing each other with athletic 
 - [[Pull guard]] - Strategic transition to ground
 - [[Front Headlock]] - Standing control position
 - [[Clinch Position]] - Close-range standing control
-
 
 ## Related Positions
 

@@ -58,6 +58,72 @@ description: "Master Kesa Gatame in BJJ. Complete guide covering setup, control,
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Lifting head too high?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Space creation underneath"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Insufficient arm control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to underhook escapes"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Narrow base?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Susceptibility to being reversed"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Driving force horizontally?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Inefficient control mechanism"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Neglecting hip connection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reduced control effectiveness"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kesa Gatame",
+  "description": "Master Kesa Gatame in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 80%.",
+  "url": "https://bjjgraph.org/Positions/Kesa-Gatame",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Kesa Gatame in BJJ. Complete guide covering setup, control,
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Kesa Gatame",
-      "item": "https://bjjgraph.com/positions/kesa-gatame"
+      "item": "https://bjjgraph.org/Positions/Kesa-Gatame"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Kesa Gatame",
-  "description": "Master Kesa Gatame in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 80%.",
-  "url": "https://bjjgraph.com/positions/kesa-gatame",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Kesa Gatame
 #bjj #state #pin #control #judo #kesa_gatame
@@ -189,7 +239,6 @@ The practitioner sits beside the opponent's upper body, oriented towards their h
 - [[Reverse Kesa Gatame]] - Reversed variation of the position
 - [[Modified Scarf Hold]] - Variation with under-arm control
 - [[Knee on Belly]] - Related transitional control position
-
 
 ## Related Positions
 

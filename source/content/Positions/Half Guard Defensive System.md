@@ -63,16 +63,14 @@ description: "Master Half Guard Defensive System in BJJ. Complete guide covering
   "@type": "WebPage",
   "name": "Half Guard Defensive System",
   "description": "Master Half Guard Defensive System in BJJ. Complete guide covering setup, control, escapes, and transitions.",
-  "url": "https://bjjgraph.com/positions/half-guard-defensive-system",
+  "url": "https://bjjgraph.org/Positions/Half-Guard-Defensive-System",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,19 +80,19 @@ description: "Master Half Guard Defensive System in BJJ. Complete guide covering
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Half Guard Defensive System",
-      "item": "https://bjjgraph.com/positions/half-guard-defensive-system"
+      "item": "https://bjjgraph.org/Positions/Half-Guard-Defensive-System"
     }
   ]
 }
@@ -147,7 +145,6 @@ The Half Guard Defensive System serves as a critical capability that transforms 
 6. Neutralize opponent's primary passing pressure
 7. Progressively improve position through incremental defensive movements
 8. Create counter-offensive opportunity or full guard recovery when appropriate
-
 
 ## Related Positions
 

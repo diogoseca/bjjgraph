@@ -90,6 +90,50 @@ author: "BJJGraph Content Team - Agent 7"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Armbar from Back with Legs",
+  "description": "Master Armbar from Back with Legs in BJJ. Complete guide covering safe setup, execution, defenses, and injury prevention. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Submissions/Armbar-from-Back-with-Legs",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Armbar from Back with Legs",
+      "item": "https://bjjgraph.org/Submissions/Armbar-from-Back-with-Legs"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: This submission is a terminal state in the BJJ state machine executed from back control. Success results in immediate match victory. Safety is paramount due to high elbow injury risk.

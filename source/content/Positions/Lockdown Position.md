@@ -553,6 +553,105 @@ llm_context:
       points: 20
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Lockdown Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Lockdown Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute electric chair",
+      "text": "From Lockdown Position, execute electric chair to advance your position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Top Half Guard",
+      "text": "From Lockdown Position, execute Top Half Guard to advance your position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Old School Sweep",
+      "text": "From Lockdown Position, execute Old School Sweep to advance your position.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Lockdown Position?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Leg Triangle Mechanics**: The lockdown's power comes from the triangle lock around opponent's leg, not just trapping it between your legs. Your bottom leg weaves over their shin while your top leg hooks your own ankle behind their knee, creating immobilizing pressure similar to how legs control in back mount. This triangle must be tight and maintained with constant tension."
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lockdown Position",
+  "description": "Master Lockdown Position in BJJ. Complete guide covering half guard control, leg entanglement, sweeps, and transitions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Positions/Lockdown-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Lockdown Position",
+      "item": "https://bjjgraph.org/Positions/Lockdown-Position"
+    }
+  ]
+}
+</script>
+
+
 # Lockdown Position
 #bjj #state #half-guard #bottom #10th-planet #intermediate
 

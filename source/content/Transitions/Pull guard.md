@@ -11,7 +11,7 @@ description: "Learn Pull Guard in BJJ. Step-by-step execution. Complete techniqu
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Pull Guard",
-  "description": "Learn how to execute Pull Guard in Brazilian Jiu-Jitsu from Standing Position to Closed Guard. Success: Beginner 60%, Intermediate 75%, Advanced 90%.",
+  "description": "Learn how to execute Pull Guard in Brazilian Jiu-Jitsu from Standing Position to Closed Guard Bottom. Success: Beginner 60%, Intermediate 75%, Advanced 90%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -79,16 +79,14 @@ description: "Learn Pull Guard in BJJ. Step-by-step execution. Complete techniqu
   "@type": "WebPage",
   "name": "Pull Guard",
   "description": "Learn Pull Guard in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/pull-guard",
+  "url": "https://bjjgraph.org/Transitions/Pull-guard",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Pull Guard in BJJ. Step-by-step execution. Complete techniqu
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Pull Guard",
-      "item": "https://bjjgraph.com/transitions/pull-guard"
+      "item": "https://bjjgraph.org/Transitions/Pull-guard"
     }
   ]
 }
@@ -339,7 +337,6 @@ Updates to this standard should be reflected across related transition setup fil
 
 ## Historical Context
 The Pull Guard technique has been a foundational strategy in BJJ since its early development, popularized by practitioners who specialized in guard play to counter wrestling-based takedown approaches, becoming a staple in modern competition to initiate complex guard games.
-
 
 ## Related Techniques
 

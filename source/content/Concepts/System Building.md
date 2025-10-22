@@ -44,6 +44,50 @@ application_contexts:
 tags: [bjj, concept, advanced, systems, methodology, development]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "System Building | Concept",
+  "description": "System Building represents the advanced developmental principle of constructing interconnected, position-specific technique frameworks where individual movements are organized into comprehensive se...",
+  "url": "https://bjjgraph.org/Concepts/System-Building",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "System Building",
+      "item": "https://bjjgraph.org/Concepts/System-Building"
+    }
+  ]
+}
+</script>
+
+
 # System Building
 #bjj #concept #advanced #systems #methodology
 

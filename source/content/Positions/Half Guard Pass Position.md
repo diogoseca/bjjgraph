@@ -132,6 +132,129 @@ state_machine:
     - "Mount"
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Half Guard Pass Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Half Guard Pass Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Slide Pass",
+      "text": "From this position, execute Knee Slide Pass to transition to Side Control.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Cut Pass",
+      "text": "From this position, execute Knee Cut Pass to transition to Side Control.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Underhook Pass",
+      "text": "From this position, execute Underhook Pass to transition to Side Control.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Crossface Pass",
+      "text": "From this position, execute Crossface Pass to transition to Side Control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Cut from Half",
+      "text": "From this position, execute Knee Cut from Half to transition to Side Control.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Back Take from Half",
+      "text": "From this position, execute Back Take from Half to transition to Back Control.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Rushing the leg extraction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leaves you off-balance and vulnerable to sweeps or deeper half guard entries. The correction is: Establish solid upper body control first, then work leg free systematically.\n  - **Recognition**: If you frequently get swept or pulled into deep half, you're rushing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Insufficient pressure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Allows opponent to remain mobile and maintain effective half guard. The correction is: Keep chest and shoulder heavy on opponent, driving them flat to the mat.\n  - **Recognition**: If opponent can easily turn to their side or create space, increase pressure."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Half Guard Pass Position",
+  "description": "Master Half Guard Pass Position in BJJ. Complete guide covering passing techniques, pressure control, and advancement from half guard top. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Positions/Half-Guard-Pass-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Half Guard Pass Position",
+      "item": "https://bjjgraph.org/Positions/Half-Guard-Pass-Position"
+    }
+  ]
+}
+</script>
+
+
+
 <!-- Schema Markup omitted for brevity -->
 
 # Half Guard Pass Position
