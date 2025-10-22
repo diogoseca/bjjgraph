@@ -64,6 +64,9 @@ jobs:
           node-version: 20
 
       - name: Build Quartz
+        env:
+          POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
+          POSTHOG_API_HOST: ${{ secrets.POSTHOG_API_HOST }}
         run: |
           npm install
           npx quartz build
