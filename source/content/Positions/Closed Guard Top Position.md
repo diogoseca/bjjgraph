@@ -148,37 +148,37 @@ state_machine:
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Pass from Closed Guard Top Position in BJJ",
-  "description": "Complete guide to passing and escaping closed guard from the top position.",
+  "name": "How to Use Closed Guard Top Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Closed Guard Top Position.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Posture",
-      "text": "Sit upright with strong spine positioning to prevent opponent from breaking your posture and initiating attacks.",
+      "name": "Execute Standing Guard",
+      "text": "From this position, execute Standing Guard to transition to Half Guard Pass Position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Create Space",
-      "text": "Use proper hand positioning on hips or collar to create space and prevent opponent from closing distance.",
+      "name": "Execute Knee Cut Pass",
+      "text": "From this position, execute Knee Cut Pass to transition to Side Control.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Break the Guard",
-      "text": "Stand up or use pressure-based guard break to open opponent's closed guard.",
+      "name": "Execute Toreando Pass",
+      "text": "From this position, execute Toreando Pass to transition to Side Control.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Initiate Pass",
-      "text": "Execute passing technique such as knee cut, toreando, or leg drag once guard is opened.",
+      "name": "Execute Stack Pass",
+      "text": "From this position, execute Stack Pass to transition to Side Control.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Complete Pass",
-      "text": "Settle into side control or other dominant position, establishing control before opponent can re-guard.",
+      "name": "Execute Leg Drag",
+      "text": "From this position, execute Leg Drag to transition to Side Control.",
       "position": 5
     }
   ],
@@ -198,42 +198,42 @@ state_machine:
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in poor posture maintenance?",
+      "name": "What is a common mistake in Poor posture maintenance?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to break your posture and attack with submissions or sweeps from guard. The correction is: Keep your spine straight, chest up, and head over your hips to maintain strong structural posture."
+        "text": "Allows opponent to break your posture and attack with submissions or sweeps from guard. The correction is: Keep your spine straight, chest up, and head over your hips to maintain strong structural posture.\n  - **Recognition**: If opponent can pull your head down or collapse your chest toward them, your posture is compromised."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in placing hands on mat?",
+      "name": "What is a common mistake in Placing hands on mat?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Gives opponent easy sweep opportunities and arm attack openings. The correction is: Keep hands on opponent's hips, collar, or sleeves rather than posting on the mat."
+        "text": "Gives opponent easy sweep opportunities and arm attack openings. The correction is: Keep hands on opponent's hips, collar, or sleeves rather than posting on the mat.\n  - **Recognition**: If your hands are flat on the mat beside opponent, you're vulnerable to sweeps and arm locks."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in rushing the pass?",
+      "name": "What is a common mistake in Rushing the pass?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Leads to poor technique execution and leaves you vulnerable to sweeps and submissions. The correction is: Be patient, establish control first, then execute passing technique with proper timing."
+        "text": "Leads to poor technique execution and leaves you vulnerable to sweeps and submissions. The correction is: Be patient, establish control first, then execute passing technique with proper timing.\n  - **Recognition**: If you find yourself frequently getting swept or submitted while attempting passes, you're likely rushing."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in not controlling distance?",
+      "name": "What is a common mistake in Not controlling distance?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to close distance and break your posture for attacks. The correction is: Maintain proper distance management with frames on hips or grips preventing opponent from pulling you down."
+        "text": "Allows opponent to close distance and break your posture for attacks. The correction is: Maintain proper distance management with frames on hips or grips preventing opponent from pulling you down.\n  - **Recognition**: If opponent easily pulls you down or controls your upper body, you're not managing distance properly."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in staying static?",
+      "name": "What is a common mistake in Staying static?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Gives opponent time to set up attacks and increases fatigue from maintaining defensive position. The correction is: Constantly work toward guard opening and passing while maintaining posture and defensive awareness."
+        "text": "Gives opponent time to set up attacks and increases fatigue from maintaining defensive position. The correction is: Constantly work toward guard opening and passing while maintaining posture and defensive awareness.\n  - **Recognition**: If you find yourself stuck in guard for extended periods with no progress, you're too static."
       }
     }
   ]
@@ -241,21 +241,21 @@ state_machine:
 </script>
 
 
+<!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Closed Guard Top Position",
   "description": "Master Closed Guard Top Position in BJJ. Complete guide covering passing strategies, posture, and defensive tactics from inside closed guard. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-  "url": "https://bjjgraph.com/positions/closed-guard-top-position",
+  "url": "https://bjjgraph.org/Positions/Closed-Guard-Top-Position",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -265,19 +265,19 @@ state_machine:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Closed Guard Top Position",
-      "item": "https://bjjgraph.com/positions/closed-guard-top-position"
+      "item": "https://bjjgraph.org/Positions/Closed-Guard-Top-Position"
     }
   ]
 }

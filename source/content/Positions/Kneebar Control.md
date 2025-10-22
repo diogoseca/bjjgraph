@@ -58,6 +58,72 @@ description: "Master Kneebar Control in BJJ. Complete guide covering setup, cont
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Improper hip positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reduced leverage"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Inadequate leg isolation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Defensive mobility"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor perpendicular alignment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Technical inefficiency"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Premature finishing attempt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Escape opportunity"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Neglecting upper body control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Defensive counter"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kneebar Control",
+  "description": "Master Kneebar Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
+  "url": "https://bjjgraph.org/Positions/Kneebar-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Kneebar Control in BJJ. Complete guide covering setup, cont
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Kneebar Control",
-      "item": "https://bjjgraph.com/positions/kneebar-control"
+      "item": "https://bjjgraph.org/Positions/Kneebar-Control"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Kneebar Control",
-  "description": "Master Kneebar Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
-  "url": "https://bjjgraph.com/positions/kneebar-control",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Kneebar Control
 #bjj #state #submission #leglocks #control
@@ -188,7 +238,6 @@ Kneebar Control is a specialized submission position where the practitioner isol
 - [[Straight Footlock]] - Related leg submission
 - [[Toe Hold Control]] - Complementary leg attack
 - [[Inside Heel Hook]] - Common transition option
-
 
 ## Related Positions
 

@@ -11,7 +11,7 @@ description: "Learn Back Take Generic in BJJ. Step-by-step execution from variou
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Back Take Generic",
-  "description": "Learn how to execute Back Take Generic in Brazilian Jiu-Jitsu from various positions to Back Control.",
+  "description": "Learn how to execute Back Take Generic in Brazilian Jiu-Jitsu from Turtle Position to Back Control. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -58,6 +58,23 @@ description: "Learn Back Take Generic in BJJ. Step-by-step execution from variou
   "totalTime": "PT5M"
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Back Take Generic",
+  "description": "Learn Back Take Generic in BJJ. Step-by-step execution from various positions to Back Control. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Back-Take-Generic",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,39 +84,24 @@ description: "Learn Back Take Generic in BJJ. Step-by-step execution from variou
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Back Take Generic",
-      "item": "https://bjjgraph.com/transitions/back-take-generic"
+      "item": "https://bjjgraph.org/Transitions/Back-Take-Generic"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Back Take Generic",
-  "description": "Learn Back Take Generic in BJJ. Step-by-step execution from various positions to Back Control. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
-  "url": "https://bjjgraph.com/transitions/back-take-generic",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Back Take Generic
 #bjj #transition #back_attack #advancement #intermediate
@@ -346,7 +348,6 @@ Every transition file must include:
 - [[Arm Drag to Back]] - Back take using arm drag setup
 - [[Rolling Back Take]] - Dynamic rolling entry to back control
 - [[Berimbolo]] - Advanced back take from De La Riva Guard
-
 
 ## Competition Applications
 - **IBJJF Rules**: Back control scores 4 points, opens submission opportunities

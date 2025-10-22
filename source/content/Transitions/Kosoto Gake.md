@@ -3,6 +3,106 @@ title: "Kosoto Gake | BJJ Technique | BJJ Graph"
 description: "Learn Kosoto Gake in BJJ. Step-by-step execution from Standing Position to Top Position. Success: Beginner 40%, Intermediate 60%, Advanced 75%."
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Kosoto Gake",
+  "description": "Learn how to execute Kosoto Gake in Brazilian Jiu-Jitsu from Standing Position to Top Position. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish standing position with collar and sleeve grips",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Close distance and step forward between opponent's legs",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically maintains balance or attempts to grip fight",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Hook rear leg behind opponent's far ankle at heel level",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Pull forward with upper body while driving hooked leg back",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Follow through by establishing top position or side control",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kosoto Gake",
+  "description": "Learn Kosoto Gake in BJJ. Step-by-step execution from Standing Position to Top Position. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Kosoto-Gake",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kosoto Gake",
+      "item": "https://bjjgraph.org/Transitions/Kosoto-Gake"
+    }
+  ]
+}
+</script>
+
+
 # Kosoto Gake
 #bjj #transition #takedown #judo #standing
 

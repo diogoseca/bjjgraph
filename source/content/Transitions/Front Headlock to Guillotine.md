@@ -33,6 +33,106 @@ related_positions: ["Front Headlock Control Position", "Guillotine Control", "Cl
 related_techniques: ["Guillotine Choke", "Darce Setup", "High Elbow Guillotine"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Front Headlock to Guillotine",
+  "description": "Learn how to execute Front Headlock to Guillotine in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Front headlock established with head controlled",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Deepen Arm",
+      "text": "Bring choking arm deeper around neck, forearm across throat",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Secure Grip",
+      "text": "Grip your own wrist or bicep with free hand",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Position Adjustment",
+      "text": "Sit to guard, jump guard, or maintain standing",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Apply Pressure",
+      "text": "Lift forearm while extending hips for choking pressure",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Maintain until tap or transition to another attack",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Front Headlock to Guillotine",
+  "description": "Learn Front Headlock to Guillotine transition in BJJ. Step-by-step execution from Front Headlock to Guillotine Control. Success: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "url": "https://bjjgraph.org/Transitions/Front-Headlock-to-Guillotine",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Front Headlock to Guillotine",
+      "item": "https://bjjgraph.org/Transitions/Front-Headlock-to-Guillotine"
+    }
+  ]
+}
+</script>
+
+
 # Front Headlock to Guillotine
 #bjj #transition #submission #front_headlock #guillotine
 

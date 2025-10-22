@@ -3,6 +3,7 @@ title: "Calf Slicer | BJJ Submission Guide | BJJ Graph"
 description: "From the Truck Position or Lockdown Guard, you start by securing a figure-four leg entanglement, trapping the opponent's leg with your own to isolate their calf muscle. Position your shin bone..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "From the Truck Position or Lockdown Guard, you start by securing a
   "@type": "WebPage",
   "name": "Calf Slicer",
   "description": "From the Truck Position or Lockdown Guard, you start by securing a figure-four leg entanglement, trapping the opponent's leg with your own to isolate their calf muscle. Position your shin bone...",
-  "url": "https://bjjgraph.com/submissions/calf-slicer",
+  "url": "https://bjjgraph.org/Submissions/Calf-Slicer",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "From the Truck Position or Lockdown Guard, you start by securing a
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Calf Slicer",
-      "item": "https://bjjgraph.com/submissions/calf-slicer"
+      "item": "https://bjjgraph.org/Submissions/Calf-Slicer"
     }
   ]
 }
 </script>
+
 
 # Calf Slicer
 #bjj #transition #submission #10thplanet #leglock

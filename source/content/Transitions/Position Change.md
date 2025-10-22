@@ -11,7 +11,7 @@ description: "Learn Position Change in BJJ. Step-by-step execution from one posi
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Position Change",
-  "description": "Learn how to execute Position Change in Brazilian Jiu-Jitsu from one position to another.",
+  "description": "Learn how to execute Position Change in Brazilian Jiu-Jitsu from Side Control to Side Control. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -55,7 +55,24 @@ description: "Learn Position Change in BJJ. Step-by-step execution from one posi
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT4M"
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Position Change",
+  "description": "Learn Position Change in BJJ. Step-by-step execution from one position to another. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Transitions/Position-Change",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -67,39 +84,24 @@ description: "Learn Position Change in BJJ. Step-by-step execution from one posi
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Position Change",
-      "item": "https://bjjgraph.com/transitions/position-change"
+      "item": "https://bjjgraph.org/Transitions/Position-Change"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Position Change",
-  "description": "Learn Position Change in BJJ. Step-by-step execution from one position to another. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
-  "url": "https://bjjgraph.com/transitions/position-change",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Position Change
 #bjj #transition #advancement #tactical #intermediate
@@ -347,7 +349,6 @@ Every transition file must include:
 - [[Transition to North-South]] - Lateral position change
 - [[Mount Maintenance]] - Consolidating position after change
 - [[Transition to Mount]] - Specific example of position change
-
 
 ## Competition Applications
 - **IBJJF Rules**: Strategic position changes can score additional points and create submission setups

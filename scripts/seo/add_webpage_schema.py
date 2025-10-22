@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Dict, Optional, Tuple
 
 # Base URL for the site
-BASE_URL = "https://bjjgraph.com"
+BASE_URL = "https://bjjgraph.org"
 
 def extract_frontmatter(content: str) -> Tuple[Optional[Dict], str]:
     """Extract YAML frontmatter from content."""
@@ -99,12 +99,12 @@ def generate_url_from_filepath(filepath: Path, content_dir: Path) -> str:
     else:
         path_parts[-1] = path_parts[-1].replace('.md', '')
 
-    # Handle hub pages (BJJ-Positions.md -> positions)
+    # Handle hub pages (BJJ-Positions.md -> BJJ-Positions)
     if path_parts and path_parts[-1].startswith('BJJ-'):
-        path_parts[-1] = path_parts[-1].replace('BJJ-', '').lower()
+        path_parts[-1] = path_parts[-1].replace('BJJ-', '')
 
-    # Build URL
-    url_path = '/'.join(path_parts).lower()
+    # Build URL preserving case to match Quartz output
+    url_path = '/'.join(path_parts)
     url_path = url_path.replace(' ', '-')
 
     return f"{BASE_URL}/{url_path}" if url_path else BASE_URL
@@ -225,7 +225,7 @@ def process_file(filepath: Path, content_dir: Path) -> bool:
 def main():
     """Main function to process all markdown files."""
     script_dir = Path(__file__).parent
-    content_dir = script_dir.parent / 'source' / 'content'
+    content_dir = script_dir.parent.parent / 'source' / 'content'
 
     if not content_dir.exists():
         print(f"Error: Content directory not found at {content_dir}")

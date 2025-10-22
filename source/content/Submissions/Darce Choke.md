@@ -92,6 +92,50 @@ author: "BJJGraph Agent System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Darce Choke",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. Darce should take minimum 3-5 seconds in training. Partner will feel pressure building gradually on one side of neck. Competition...",
+  "url": "https://bjjgraph.org/Submissions/Darce-Choke",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Darce Choke",
+      "item": "https://bjjgraph.org/Submissions/Darce-Choke"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Darce Choke is a unilateral blood choke commonly finished from turtle, front headlock, or failed guard pass positions. It requires precise arm threading and shoulder pressure. Safety is paramount - this technique can render opponent unconscious in 4-10 seconds.

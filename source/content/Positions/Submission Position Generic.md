@@ -106,15 +106,112 @@ state_machine:
     - "Won by Submission"
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Submission Position Generic in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Submission Position Generic.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Finish Submission",
+      "text": "From this position, execute Finish Submission to transition to Won by Submission.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Mount",
+      "text": "From this position, execute Transition to Mount to transition to Mount.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Adjust Control",
+      "text": "From this position, execute Adjust Control to transition to Submission Position.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Rushing the finish without proper control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent escapes, position is lost, energy wasted The correction is: Establish complete control first, then apply finishing pressure slowly and progressively"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a common mistake in Allowing escape routes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent finds defensive pathway and escapes submission The correction is: Close all escape routes by maintaining tight control and proper body positioning"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Submission Position Generic",
   "description": "Master generic submission control positions in BJJ. Guide covering control, finishing mechanics, and defense. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-  "url": "https://bjjgraph.com/positions/submission-position-generic"
+  "url": "https://bjjgraph.org/Positions/Submission-Position-Generic",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Submission Position Generic",
+      "item": "https://bjjgraph.org/Positions/Submission-Position-Generic"
+    }
+  ]
+}
+</script>
+
 
 # Submission Position Generic
 #bjj #state #submission #offensive

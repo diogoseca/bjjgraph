@@ -47,6 +47,50 @@ application_contexts:
 tags: [bjj, concept, fundamental, passing, guard, strategy]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Passing Concepts",
+  "description": "Guard Passing Concepts represents the comprehensive strategic and tactical framework for overcoming an opponent's guard and advancing to more dominant positions. Unlike specific passing techniques,...",
+  "url": "https://bjjgraph.org/Concepts/Guard-Passing-Concepts",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Guard Passing Concepts",
+      "item": "https://bjjgraph.org/Concepts/Guard-Passing-Concepts"
+    }
+  ]
+}
+</script>
+
+
 # Guard Passing Concepts
 #bjj #concept #fundamental #passing #guard
 

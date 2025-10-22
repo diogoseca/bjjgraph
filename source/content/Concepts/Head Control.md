@@ -48,6 +48,50 @@ application_contexts:
 tags: [bjj, concept, fundamental, control, pressure, positioning]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Head Control",
+  "description": "Head Control represents the fundamental principle of controlling an opponent's head position to dictate their spinal alignment, postural options, and available movements throughout BJJ engagement. ...",
+  "url": "https://bjjgraph.org/Concepts/Head-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Head Control",
+      "item": "https://bjjgraph.org/Concepts/Head-Control"
+    }
+  ]
+}
+</script>
+
+
 # Head Control
 #bjj #concept #fundamental #control #pressure
 

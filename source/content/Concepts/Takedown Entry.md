@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Takedown Entry",
   "description": "Takedown Entry encompasses the fundamental principles and tactical approaches that create optimal conditions for executing successful takedowns in BJJ. This concept refers to the critical prelimina...",
-  "url": "https://bjjgraph.com/concepts/takedown-entry",
+  "url": "https://bjjgraph.org/Concepts/Takedown-Entry",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Takedown Entry",
-      "item": "https://bjjgraph.com/concepts/takedown-entry"
+      "item": "https://bjjgraph.org/Concepts/Takedown-Entry"
     }
   ]
 }

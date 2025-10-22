@@ -15,8 +15,8 @@ description: "Master Closed Guard Top in BJJ. Complete guide covering setup, con
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Standing Guard Break",
-      "text": "From this position, execute Standing Guard Break to transition to Open Guard Top.",
+      "name": "Execute Standing Guard",
+      "text": "From this position, execute Standing Guard to transition to Open Guard Top.",
       "position": 1
     },
     {
@@ -40,7 +40,7 @@ description: "Master Closed Guard Top in BJJ. Complete guide covering setup, con
     {
       "@type": "HowToStep",
       "name": "Execute Stack Break",
-      "text": "From this position, execute Stack Break to transition to Stacking Position.",
+      "text": "From this position, execute Stack Break to transition to Standing Position.",
       "position": 5
     },
     {
@@ -107,6 +107,23 @@ description: "Master Closed Guard Top in BJJ. Complete guide covering setup, con
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Closed Guard Top",
+  "description": "Master Closed Guard Top in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 40%, Intermediate 50%, Advanced 60%.",
+  "url": "https://bjjgraph.org/Positions/Closed-Guard-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Closed Guard Top in BJJ. Complete guide covering setup, con
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Closed Guard Top",
-      "item": "https://bjjgraph.com/positions/closed-guard-top"
+      "item": "https://bjjgraph.org/Positions/Closed-Guard-Top"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Closed Guard Top",
-  "description": "Master Closed Guard Top in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 40%, Intermediate 50%, Advanced 60%.",
-  "url": "https://bjjgraph.com/positions/closed-guard-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Closed Guard Top
 #bjj #state #top #guard_passing
@@ -247,7 +249,6 @@ You are positioned on top of your opponent, kneeling or in a combat base within 
 - [[Defensive Posture]] - Safety position within closed guard
 - [[Standing Position]] - Pressure position during guard opening
 - [[Headquarters Position]] - Common destination after guard opening
-
 
 ## Related Positions
 

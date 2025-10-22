@@ -3,6 +3,8 @@ title: "Crucifix Control Position | BJJ Position Guide | BJJ Graph"
 description: "Master Crucifix Control Position in BJJ. Complete guide covering arm isolation, chokes, and submission chains. Success rates: Beginner 52%, Intermediate 68%, Advanced 82%."
 ---
 
+
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -13,33 +15,21 @@ description: "Master Crucifix Control Position in BJJ. Complete guide covering a
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Rear Naked Choke",
-      "text": "From this position, execute Rear Naked Choke to transition to Won by Submission.",
+      "name": "Execute Pull Arms In",
+      "text": "From Crucifix Control Position, execute Pull Arms In to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Crucifix",
-      "text": "From this position, execute Armbar from Crucifix to transition to Won by Submission.",
+      "name": "Execute Defensive Curl",
+      "text": "From Crucifix Control Position, execute Defensive Curl to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Clock Choke",
-      "text": "From this position, execute Clock Choke to transition to Won by Submission.",
+      "name": "Execute Roll to Guard",
+      "text": "From Crucifix Control Position, execute Roll to Guard to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Straight Armbar",
-      "text": "From this position, execute Straight Armbar to transition to Won by Submission.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Bow and Arrow Setup",
-      "text": "From this position, execute Bow and Arrow Setup to transition to Won by Submission.",
-      "position": 5
     }
   ],
   "tool": [
@@ -48,6 +38,40 @@ description: "Master Crucifix Control Position in BJJ. Complete guide covering a
     "Mat space"
   ],
   "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Crucifix Control Position?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Arm Isolation**: Both arms must be trapped and extended, unable to return to defensive positions"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crucifix Control Position",
+  "description": "Master Crucifix Control Position in BJJ. Complete guide covering arm isolation, chokes, and submission chains. Success rates: Beginner 52%, Intermediate 68%, Advanced 82%.",
+  "url": "https://bjjgraph.org/Positions/Crucifix-Control-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -59,38 +83,24 @@ description: "Master Crucifix Control Position in BJJ. Complete guide covering a
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Crucifix Control Position",
-      "item": "https://bjjgraph.com/positions/crucifix-control-position"
+      "item": "https://bjjgraph.org/Positions/Crucifix-Control-Position"
     }
   ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Crucifix Control Position",
-  "description": "Master Crucifix Control Position in BJJ. Complete guide covering arm isolation, chokes, and submission chains. Success rates: Beginner 52%, Intermediate 68%, Advanced 82%.",
-  "url": "https://bjjgraph.com/positions/crucifix-control-position",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Crucifix Control Position
 #bjj #state #dominant #crucifix #submission

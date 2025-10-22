@@ -47,18 +47,19 @@ application_contexts:
 tags: [bjj, concept, fundamental, grips, control, strategy]
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Grip Strategy | BJJ Concept | BJJ Graph",
+  "name": "Grip Strategy",
   "description": "Master grip strategy in BJJ with systematic control methods. Learn grip hierarchies, fighting principles, and strategic dominance. Expert insights from Danaher, Ryan, and Bravo.",
-  "url": "https://bjjgraph.com/concepts/grip-strategy",
+  "url": "https://bjjgraph.org/Concepts/Grip-Strategy",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -71,23 +72,24 @@ tags: [bjj, concept, fundamental, grips, control, strategy]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Grip Strategy",
-      "item": "https://bjjgraph.com/concepts/grip-strategy"
+      "item": "https://bjjgraph.org/Concepts/Grip-Strategy"
     }
   ]
 }
 </script>
+
 
 # Grip Strategy
 #bjj #concept #fundamental #grips #control

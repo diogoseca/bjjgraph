@@ -45,6 +45,50 @@ application_contexts:
 tags: [bjj, concept, offense, combinations, attacks, submissions, strategy]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Offensive Combinations",
+  "description": "Offensive Combinations represent the sophisticated tactical framework of linking multiple attacking actions into coordinated sequences where each technique creates setup conditions for subsequent a...",
+  "url": "https://bjjgraph.org/Concepts/Offensive-Combinations",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Offensive Combinations",
+      "item": "https://bjjgraph.org/Concepts/Offensive-Combinations"
+    }
+  ]
+}
+</script>
+
+
 # Offensive Combinations
 #bjj #concept #offense #combinations #attacks
 

@@ -79,16 +79,14 @@ description: "Learn Transition to Truck in BJJ. Step-by-step execution. Complete
   "@type": "WebPage",
   "name": "Transition to Truck",
   "description": "Learn Transition to Truck in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/transition-to-truck",
+  "url": "https://bjjgraph.org/Transitions/Transition-to-Truck",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Transition to Truck in BJJ. Step-by-step execution. Complete
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Transition to Truck",
-      "item": "https://bjjgraph.com/transitions/transition-to-truck"
+      "item": "https://bjjgraph.org/Transitions/Transition-to-Truck"
     }
   ]
 }
@@ -336,7 +334,6 @@ Updates to this standard should be reflected across related transition setup fil
 
 ## Historical Context
 Transition to Truck has been a technical innovation in Brazilian Jiu-Jitsu, particularly associated with Eddie Bravo's 10th Planet system, where unconventional attacks like the Twister are prioritized. It reflects the strategic emphasis on creative submission chains and has been popularized in no-gi and MMA contexts to exploit turtling opponents.
-
 
 ## Related Techniques
 

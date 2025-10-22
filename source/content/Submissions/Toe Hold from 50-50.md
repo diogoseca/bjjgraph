@@ -52,6 +52,50 @@ author: "BJJGraph Agent 9"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Toe Hold from 50-50 | Leg Lock",
+  "description": "Toe Hold from 50-50 is a serious leg lock technique from [[50-50 Guard]]. Success rates: Beginner 20%, Intermediate 40%, Advanced 60%.",
+  "url": "https://bjjgraph.org/Submissions/Toe-Hold-from-50-50",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Toe Hold from 50-50",
+      "item": "https://bjjgraph.org/Submissions/Toe-Hold-from-50-50"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ SAFETY NOTICE
 
 **TOE HOLD FROM 50-50 - HIGH INJURY RISK**

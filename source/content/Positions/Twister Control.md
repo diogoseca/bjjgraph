@@ -58,6 +58,72 @@ description: "Master Twister Control in BJJ. Complete guide covering setup, cont
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Insufficient shoulder control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Loss of submission mechanics"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor neck connection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reduced leverage"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Inadequate leg control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Defensive mobility"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Premature application of pressure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Escape opportunities"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Improper angle of pressure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Ineffective submission mechanics"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Twister Control",
+  "description": "Master Twister Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 85%.",
+  "url": "https://bjjgraph.org/Positions/Twister-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Twister Control in BJJ. Complete guide covering setup, cont
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Twister Control",
-      "item": "https://bjjgraph.com/positions/twister-control"
+      "item": "https://bjjgraph.org/Positions/Twister-Control"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Twister Control",
-  "description": "Master Twister Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 85%.",
-  "url": "https://bjjgraph.com/positions/twister-control",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Twister Control
 #bjj #state #submission #10thplanet #spinal_lock
@@ -185,7 +235,6 @@ Twister Control is a highly specialized submission position developed and popula
 - [[Banana Split]] - Connected 10th Planet submission
 - [[Back Control]] - Potential transition position
 - [[Spinal Crank]] - Related submission mechanic
-
 
 ## Related Positions
 

@@ -45,6 +45,50 @@ application_contexts:
 tags: [bjj, concept, intermediate, competition, preparation, strategy, match-planning, performance]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Match Preparation",
+  "description": "Match Preparation represents the comprehensive process of readying technical, physical, tactical, and psychological capabilities for specific competitive encounters, integrating training adaptation...",
+  "url": "https://bjjgraph.org/Concepts/Match-Preparation",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Match Preparation",
+      "item": "https://bjjgraph.org/Concepts/Match-Preparation"
+    }
+  ]
+}
+</script>
+
+
 # Match Preparation
 #bjj #concept #intermediate #competition #preparation
 

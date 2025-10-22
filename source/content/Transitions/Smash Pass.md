@@ -79,16 +79,14 @@ description: "Learn Smash Pass in BJJ. Step-by-step execution. Complete techniqu
   "@type": "WebPage",
   "name": "Smash Pass",
   "description": "Learn Smash Pass in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/smash-pass",
+  "url": "https://bjjgraph.org/Transitions/Smash-Pass",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Smash Pass in BJJ. Step-by-step execution. Complete techniqu
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Smash Pass",
-      "item": "https://bjjgraph.com/transitions/smash-pass"
+      "item": "https://bjjgraph.org/Transitions/Smash-Pass"
     }
   ]
 }
@@ -336,7 +334,6 @@ Updates to this standard should be reflected across related transition setup fil
 
 ## Historical Context
 The Smash Pass has been a staple in BJJ guard passing, evolving from traditional pressure passing concepts, and has been refined by modern competitors like Rodolfo Vieira and Lucas Lepri, becoming a go-to technique for applying dominant pressure to bypass guards in both gi and no-gi competition.
-
 
 ## Related Techniques
 

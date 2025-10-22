@@ -79,16 +79,14 @@ description: "Learn Arm Drag in BJJ. Step-by-step execution from Standing Positi
   "@type": "WebPage",
   "name": "Arm Drag",
   "description": "Learn Arm Drag in BJJ. Step-by-step execution from Standing Position to Back Control. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/arm-drag",
+  "url": "https://bjjgraph.org/Transitions/Arm-Drag",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Arm Drag in BJJ. Step-by-step execution from Standing Positi
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Arm Drag",
-      "item": "https://bjjgraph.com/transitions/arm-drag"
+      "item": "https://bjjgraph.org/Transitions/Arm-Drag"
     }
   ]
 }
@@ -304,7 +302,6 @@ The Arm Drag has proven highly effective in competition contexts across all leve
 - Gi competition: Leverages secure cloth grips for enhanced control
 - No-gi competition: Relies more on body positioning and timing
 - MMA crossover: Valuable for creating angles for strikes or takedowns
-
 
 ## Related Techniques
 

@@ -3,6 +3,7 @@ title: "North-South to Kimura | BJJ Submission Guide | BJJ Graph"
 description: "The North-South to Kimura transition represents a high-percentage submission pathway that converts a strong controlling position (North-South) into a powerful shoulder lock setup (Kimura Control). ..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "The North-South to Kimura transition represents a high-percentage 
   "@type": "WebPage",
   "name": "North-South to Kimura",
   "description": "The North-South to Kimura transition represents a high-percentage submission pathway that converts a strong controlling position (North-South) into a powerful shoulder lock setup (Kimura Control). ...",
-  "url": "https://bjjgraph.com/submissions/north-south-to-kimura",
+  "url": "https://bjjgraph.org/Submissions/North-South-to-Kimura",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "The North-South to Kimura transition represents a high-percentage 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "North-South to Kimura",
-      "item": "https://bjjgraph.com/submissions/north-south-to-kimura"
+      "item": "https://bjjgraph.org/Submissions/North-South-to-Kimura"
     }
   ]
 }
 </script>
+
 
 # North-South to Kimura
 #bjj #transition #north_south #kimura #submission

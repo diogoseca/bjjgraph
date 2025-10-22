@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Passing Counter System",
   "description": "The Passing Counter System represents a comprehensive framework for not just preventing guard passes but actively capitalizing on passing attempts to create offensive opportunities. Unlike traditio...",
-  "url": "https://bjjgraph.com/concepts/passing-counter-system",
+  "url": "https://bjjgraph.org/Concepts/Passing-Counter-System",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Passing Counter System",
-      "item": "https://bjjgraph.com/concepts/passing-counter-system"
+      "item": "https://bjjgraph.org/Concepts/Passing-Counter-System"
     }
   ]
 }

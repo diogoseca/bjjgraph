@@ -107,6 +107,23 @@ description: "Master Butterfly Guard in BJJ. Complete guide covering setup, cont
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Butterfly Guard",
+  "description": "Master Butterfly Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 60%, Intermediate 70%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Positions/Butterfly-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Butterfly Guard in BJJ. Complete guide covering setup, cont
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Butterfly Guard",
-      "item": "https://bjjgraph.com/positions/butterfly-guard"
+      "item": "https://bjjgraph.org/Positions/Butterfly-Guard"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Butterfly Guard",
-  "description": "Master Butterfly Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 60%, Intermediate 70%, Advanced 80%.",
-  "url": "https://bjjgraph.com/positions/butterfly-guard",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Butterfly Guard
 #bjj #state #guard #open_guard #butterfly
@@ -242,7 +244,6 @@ You are seated on the mat in an upright position, facing your opponent who is ty
 - [[Shin-to-Shin Guard]] - Hybrid butterfly variation
 - [[Seated Guard]] - Similar upright position without hooks
 - [[Half Butterfly]] - Hybrid with one butterfly hook and half guard
-
 
 ## Related Positions
 

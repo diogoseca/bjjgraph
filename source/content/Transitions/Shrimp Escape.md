@@ -37,6 +37,106 @@ related_positions: ["Side Control to Mount", "Half Guard Bottom", "Half Guard Bo
 related_techniques: ["Hip Escape", "Elbow Escape", "Bridge and Shrimp", "Frame and Shrimp"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Shrimp Escape",
+  "description": "Learn how to execute Shrimp Escape in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish defensive frames with near elbow on their hip and far hand on their neck or shoulder",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Execute small bridge to create temporary separation and weight redistribution",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Escape",
+      "text": "Shrimp hips explosively away from opponent by pushing with bottom foot, creating space",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Knee Insertion",
+      "text": "Bring bottom knee inside between your bodies as hips escape, using it as barrier",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Guard Recovery",
+      "text": "Continue shrimping and bring both legs inside to establish guard position",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Secure closed guard or transition to open guard with proper distance and control",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Shrimp Escape",
+  "description": "Learn Shrimp Escape in BJJ. Step-by-step execution from Side Control Bottom to Guard Recovery. Success: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Shrimp-Escape",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Shrimp Escape",
+      "item": "https://bjjgraph.org/Transitions/Shrimp-Escape"
+    }
+  ]
+}
+</script>
+
+
 # Shrimp Escape
 #bjj #transition #escape #side_control #fundamental
 

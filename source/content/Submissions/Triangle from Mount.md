@@ -68,6 +68,50 @@ author: "BJJGraph System - Agent 9"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle from Mount",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. Triangle from mount should take 3-5 seconds minimum in training after lock. Monitor partner's consciousness continuously.\"",
+  "url": "https://bjjgraph.org/Submissions/Triangle-from-Mount",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Triangle from Mount",
+      "item": "https://bjjgraph.org/Submissions/Triangle-from-Mount"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Blood choke submission from [[Mount]] position. Terminal state resulting in unconsciousness if held. Safety paramount - affects blood flow to brain rapidly.

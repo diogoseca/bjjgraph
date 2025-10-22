@@ -47,18 +47,19 @@ application_contexts:
 tags: [bjj, concept, defense, strategy, competition, advanced]
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Defensive Strategy | BJJ Concept | BJJ Graph",
+  "name": "Defensive Strategy",
   "description": "Master defensive strategy in BJJ with competition-focused planning. Learn opponent analysis, strategic defense, and tactical frameworks. Expert insights from Danaher, Ryan, and Bravo.",
-  "url": "https://bjjgraph.com/concepts/defensive-strategy",
+  "url": "https://bjjgraph.org/Concepts/Defensive-Strategy",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -71,23 +72,24 @@ tags: [bjj, concept, defense, strategy, competition, advanced]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Defensive Strategy",
-      "item": "https://bjjgraph.com/concepts/defensive-strategy"
+      "item": "https://bjjgraph.org/Concepts/Defensive-Strategy"
     }
   ]
 }
 </script>
+
 
 # Defensive Strategy
 #bjj #concept #defense #strategy #competition

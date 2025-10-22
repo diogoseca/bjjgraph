@@ -45,7 +45,7 @@ related_techniques: ["Osoto Gari", "Seoi Nage", "Uchi Mata", "O Goshi"]
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Harai Goshi",
-  "description": "Learn how to execute Harai Goshi (Sweeping Hip Throw) in Brazilian Jiu-Jitsu from Standing Position to Side Control.",
+  "description": "Learn how to execute Harai Goshi in Brazilian Jiu-Jitsu.",
   "step": [
     {
       "@type": "HowToStep",
@@ -99,21 +99,22 @@ related_techniques: ["Osoto Gari", "Seoi Nage", "Uchi Mata", "O Goshi"]
 }
 </script>
 
+
+<!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Harai Goshi",
   "description": "Learn Harai Goshi in BJJ. Step-by-step execution from Standing to Side Control. Success: Beginner 20%, Intermediate 45%, Advanced 70%.",
-  "url": "https://bjjgraph.com/transitions/harai-goshi",
+  "url": "https://bjjgraph.org/Transitions/Harai-Goshi",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -123,68 +124,19 @@ related_techniques: ["Osoto Gari", "Seoi Nage", "Uchi Mata", "O Goshi"]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Harai Goshi",
-      "item": "https://bjjgraph.com/transitions/harai-goshi"
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What creates the throwing force in Harai Goshi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The combination of hip rotation, leg sweep, and arm pull working simultaneously creates the off-balancing force."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When is the optimal moment to execute Harai Goshi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When opponent is moving forward or has their weight committed to the front leg."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the most common mistake when learning Harai Goshi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Insufficient hip insertion or turning body away from opponent before sweep."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which grips are essential for effective Harai Goshi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Strong sleeve control and collar grip to break posture and control rotation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you adjust if opponent sprawls during Harai Goshi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Transition to alternative throw or switch to collar drag depending on their base position."
-      }
+      "item": "https://bjjgraph.org/Transitions/Harai-Goshi"
     }
   ]
 }

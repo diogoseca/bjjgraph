@@ -58,6 +58,72 @@ description: "Master New York Control in BJJ. Complete guide covering setup, con
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Premature transition from Mission Control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Unstable control"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Improper wrist/forearm grip?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Control vulnerability"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Insufficient leg elevation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reduced pressure"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor closed guard maintenance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Base instability"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Overreliance on arm strength?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Energy depletion"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "New York Control",
+  "description": "Master New York Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 80%.",
+  "url": "https://bjjgraph.org/Positions/New-York-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master New York Control in BJJ. Complete guide covering setup, con
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "New York Control",
-      "item": "https://bjjgraph.com/positions/new-york-control"
+      "item": "https://bjjgraph.org/Positions/New-York-Control"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "New York Control",
-  "description": "Master New York Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 80%.",
-  "url": "https://bjjgraph.com/positions/new-york-control",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # New York Control
 #bjj #state #guard #10thplanet #rubberguard
@@ -190,7 +240,6 @@ New York Control is the second major control position in Eddie Bravo's Rubber Gu
 - [[Gogoplata Control]] - Primary submission objective
 - [[Rubber Guard]] - Overall system category
 - [[Dead Orchard Control]] - Related advanced control
-
 
 ## Related Positions
 

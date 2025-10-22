@@ -3,6 +3,106 @@ title: "Rolling Back Take | BJJ Technique | BJJ Graph"
 description: "Learn Rolling Back Take in BJJ. Step-by-step execution from Turtle Top to Back Control. Success: Beginner 45%, Intermediate 65%, Advanced 80%."
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Rolling Back Take",
+  "description": "Learn how to execute Rolling Back Take in Brazilian Jiu-Jitsu from Turtle Top to Back Control. Success: Beginner 45%, Intermediate 65%, Advanced 80%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish turtle top position with seatbelt grips on opponent's side",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Drive shoulder into opponent's hip while pulling with seatbelt",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically tries to resist roll or base out",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Maintain tight control throughout rolling motion",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Insert first hook during roll, second hook as roll completes",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Establish full back control with both hooks and seatbelt secured",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rolling Back Take",
+  "description": "Learn Rolling Back Take in BJJ. Step-by-step execution from Turtle Top to Back Control. Success: Beginner 45%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Transitions/Rolling-Back-Take",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Rolling Back Take",
+      "item": "https://bjjgraph.org/Transitions/Rolling-Back-Take"
+    }
+  ]
+}
+</script>
+
+
 # Rolling Back Take
 #bjj #transition #back_attack #turtle #dynamic
 

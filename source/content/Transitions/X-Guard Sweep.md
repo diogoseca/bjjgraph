@@ -11,42 +11,42 @@ description: "Learn X-Guard Sweep in BJJ. Step-by-step execution from X-Guard Bo
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "X-Guard Sweep",
-  "description": "Learn how to execute X-Guard Sweep in Brazilian Jiu-Jitsu from X-Guard Bottom to Top Position.",
+  "description": "Learn how to execute X-Guard Sweep in Brazilian Jiu-Jitsu. Success: Beginner 40%, Intermediate 60%, Advanced 80%.",
   "step": [
     {
       "@type": "HowToStep",
       "name": "Setup Requirements",
-      "text": "Establish X-Guard with hooks controlling both legs and ankle control",
+      "text": "Establish X-Guard with both leg hooks controlling opponent and ankle grip",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Initial Movement",
-      "text": "Extend bottom leg while pulling ankle to off-balance opponent",
+      "text": "Extend bottom leg forcefully while pulling controlled ankle toward you",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Opponent Response",
-      "text": "Opponent attempts to maintain base or pull leg free",
+      "text": "Opponent attempts to maintain balance or free their leg",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Adaptation",
-      "text": "Sweep leg through while maintaining ankle control",
+      "text": "Sweep top leg through in direction of off-balance",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Completion",
-      "text": "Complete sweep to establish top position with control",
+      "text": "Follow through with body rotation to come up on top",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Consolidation",
-      "text": "Pass to side control or establish mount from top",
+      "text": "Pass to side control or mount while maintaining forward pressure",
       "position": 6
     }
   ],
@@ -55,7 +55,24 @@ description: "Learn X-Guard Sweep in BJJ. Step-by-step execution from X-Guard Bo
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT7M"
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "X-Guard Sweep",
+  "description": "Learn X-Guard Sweep in BJJ. Step-by-step execution from X-Guard Bottom to Top Position. Success: Beginner 40%, Intermediate 60%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Transitions/X-Guard-Sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -67,39 +84,24 @@ description: "Learn X-Guard Sweep in BJJ. Step-by-step execution from X-Guard Bo
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "X-Guard Sweep",
-      "item": "https://bjjgraph.com/transitions/x-guard-sweep"
+      "item": "https://bjjgraph.org/Transitions/X-Guard-Sweep"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "X-Guard Sweep",
-  "description": "Learn X-Guard Sweep in BJJ. Step-by-step execution from X-Guard Bottom to Top Position. Success: Beginner 40%, Intermediate 60%, Advanced 80%.",
-  "url": "https://bjjgraph.com/transitions/x-guard-sweep",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # X-Guard Sweep
 #bjj #transition #sweep #x_guard #leg_control

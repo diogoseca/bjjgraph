@@ -46,6 +46,50 @@ application_contexts:
 tags: [bjj, concept, fundamental, defense, pressure, escapes]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Dealing with Pressure | Concept",
+  "description": "Dealing with Pressure represents the fundamental skill of maintaining defensive effectiveness, structural integrity, and tactical options when subjected to heavy top pressure from an opponent's con...",
+  "url": "https://bjjgraph.org/Concepts/Dealing-with-Pressure",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Dealing with Pressure",
+      "item": "https://bjjgraph.org/Concepts/Dealing-with-Pressure"
+    }
+  ]
+}
+</script>
+
+
 # Dealing with Pressure
 #bjj #concept #fundamental #defense #pressure
 

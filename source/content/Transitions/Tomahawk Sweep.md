@@ -11,7 +11,7 @@ description: "Learn Tomahawk Sweep in BJJ. Step-by-step execution. Success: Begi
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Tomahawk Sweep",
-  "description": "Learn how to execute Tomahawk Sweep in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute Tomahawk Sweep in Brazilian Jiu-Jitsu from Open Guard Bottom to Top Position. Success: Beginner 30%, Intermediate 55%, Advanced 70%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -73,7 +73,24 @@ description: "Learn Tomahawk Sweep in BJJ. Step-by-step execution. Success: Begi
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT5M"
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Tomahawk Sweep",
+  "description": "Learn Tomahawk Sweep in BJJ. Step-by-step execution. Success: Beginner 30%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Tomahawk-Sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -85,39 +102,24 @@ description: "Learn Tomahawk Sweep in BJJ. Step-by-step execution. Success: Begi
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Tomahawk Sweep",
-      "item": "https://bjjgraph.com/transitions/tomahawk-sweep"
+      "item": "https://bjjgraph.org/Transitions/Tomahawk-Sweep"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Tomahawk Sweep",
-  "description": "Learn Tomahawk Sweep in BJJ. Step-by-step execution. Success: Beginner 30%, Intermediate 55%, Advanced 70%.",
-  "url": "https://bjjgraph.com/transitions/tomahawk-sweep",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Tomahawk Sweep
 #bjj #transition #sweep #open_guard #dynamic
@@ -350,7 +352,6 @@ Updates to this standard should be reflected across all transition files to main
 - [[Muscle Sweep]] - Related technique
 - [[Heel Grab Sweep]] - Related technique
 - [[Waiter Sweep]] - Related technique
-
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points)

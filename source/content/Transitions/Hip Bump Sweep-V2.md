@@ -193,16 +193,14 @@ state_machine:
   "@type": "WebPage",
   "name": "Hip Bump Sweep",
   "description": "Learn Hip Bump Sweep in BJJ. Step-by-step execution from Closed Guard Bottom to Mount. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
-  "url": "https://bjjgraph.com/transitions/hip-bump-sweep-v2",
+  "url": "https://bjjgraph.org/Transitions/Hip-Bump-Sweep-V2",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -212,19 +210,19 @@ state_machine:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Hip Bump Sweep",
-      "item": "https://bjjgraph.com/transitions/hip-bump-sweep-v2"
+      "item": "https://bjjgraph.org/Transitions/Hip-Bump-Sweep-V2"
     }
   ]
 }

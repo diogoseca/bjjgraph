@@ -58,6 +58,72 @@ description: "Master Side Control in BJJ. Complete guide covering control, press
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Posting arms too wide?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to sweeps"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Weight too high?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Allowing space for escapes"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Hips too high?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Opponent can recover guard"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Focusing only on upper body control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Leg entanglement vulnerabilities"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Hunting submissions too early?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Losing position"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Side Control",
+  "description": "Master Side Control in BJJ. Complete guide covering control, pressure, submissions, and transitions. Dominant 3-point position with 85% retention rate and 45% submission probability.",
+  "url": "https://bjjgraph.org/Positions/Side-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Side Control in BJJ. Complete guide covering control, press
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Side Control",
-      "item": "https://bjjgraph.com/positions/side-control"
+      "item": "https://bjjgraph.org/Positions/Side-Control"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Side Control",
-  "description": "Master Side Control in BJJ. Complete guide covering control, pressure, submissions, and transitions. Dominant 3-point position with 85% retention rate and 45% submission probability.",
-  "url": "https://bjjgraph.com/positions/side-control",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Side Control
 #bjj #state #dominant #pin #side_control
@@ -187,7 +237,6 @@ The practitioner lies horizontally across the opponent's upper body, forming a T
 - [[Modified Scarf Hold]] - Variation with near-side underhook
 - [[North-South]] - Head-to-head control position
 - [[Quarter Mount]] - Transitional position between side control and mount
-
 
 ## Related Positions
 

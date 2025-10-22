@@ -3,6 +3,7 @@ title: "Armbar Finish | BJJ Submission Guide | BJJ Graph"
 description: "From the armbar control position, you have the opponent's arm fully isolated, with their elbow secured against your hip or pelvis as you prepare to apply the finishing pressure. Your hips are..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "From the armbar control position, you have the opponent's arm full
   "@type": "WebPage",
   "name": "Armbar Finish",
   "description": "From the armbar control position, you have the opponent's arm fully isolated, with their elbow secured against your hip or pelvis as you prepare to apply the finishing pressure. Your hips are...",
-  "url": "https://bjjgraph.com/submissions/armbar-finish",
+  "url": "https://bjjgraph.org/Submissions/Armbar-Finish",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "From the armbar control position, you have the opponent's arm full
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Armbar Finish",
-      "item": "https://bjjgraph.com/submissions/armbar-finish"
+      "item": "https://bjjgraph.org/Submissions/Armbar-Finish"
     }
   ]
 }
 </script>
+
 
 # Armbar Finish
 #bjj #transition #submission #armlock #finish

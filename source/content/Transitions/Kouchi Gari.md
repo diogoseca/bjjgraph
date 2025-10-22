@@ -45,7 +45,7 @@ related_techniques: ["Ouchi Gari", "Osoto Gari", "Sasae Tsurikomi Ashi", "De Ash
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Kouchi Gari",
-  "description": "Learn how to execute Kouchi Gari in Brazilian Jiu-Jitsu from Standing Position to Top Position.",
+  "description": "Learn how to execute Kouchi Gari in Brazilian Jiu-Jitsu.",
   "step": [
     {
       "@type": "HowToStep",
@@ -93,6 +93,22 @@ related_techniques: ["Ouchi Gari", "Osoto Gari", "Sasae Tsurikomi Ashi", "De Ash
 }
 </script>
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kouchi Gari",
+  "description": "Learn Kouchi Gari in BJJ. Step-by-step execution from Standing Position to Top Position. Success: Beginner 40%, Intermediate 60%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Transitions/Kouchi-Gari",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -102,87 +118,24 @@ related_techniques: ["Ouchi Gari", "Osoto Gari", "Sasae Tsurikomi Ashi", "De Ash
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Kouchi Gari",
-      "item": "https://bjjgraph.com/transitions/kouchi-gari"
+      "item": "https://bjjgraph.org/Transitions/Kouchi-Gari"
     }
   ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Kouchi Gari",
-  "description": "Learn Kouchi Gari in BJJ. Step-by-step execution from Standing Position to Top Position. Success: Beginner 40%, Intermediate 60%, Advanced 80%.",
-  "url": "https://bjjgraph.com/transitions/kouchi-gari",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What creates the off-balance in Kouchi Gari?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The combination of backward pushing pressure on the upper body while simultaneously removing the rear support leg creates the off-balance. The small reaping action targets the ankle/lower calf when opponent's weight is committed to that leg, making it impossible to maintain balance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When is the optimal moment to execute Kouchi Gari?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The optimal moment is when opponent is stepping backward or has weight distributed primarily on their rear leg. This occurs naturally when you push them backward with your grips, forcing them to retreat. The timing is critical - reap as their weight transfers fully to the rear leg but before they can adjust."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the most common footwork mistake in Kouchi Gari?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The most common mistake is sweeping with too large an arc or trying to hook too high on the leg. Kouchi gari is a small reap targeting the ankle or lower calf, not a large sweeping motion. The technique name literally means 'small inner reap' - the action should be compact and precise."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which grips are essential for effective Kouchi Gari?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Traditional collar and sleeve grips work best, with the collar grip providing pushing power and the sleeve grip controlling arm position. In no-gi, an underhook combined with wrist or triceps control achieves similar mechanical advantage. The key is having sufficient control to push opponent backward."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you adjust if opponent widens their stance during Kouchi Gari?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If they widen their stance, switch to Ouchi Gari (attacking the front leg from inside) or use Kouchi Gari as a setup technique to force reactions, then attack with combinations. The widened stance prevents effective rear leg targeting, so adapt your attack to the new position."
-      }
-    }
-  ]
-}
-</script>
 
 # Kouchi Gari
 #bjj #transition #takedown #judo #throw #standing

@@ -37,6 +37,106 @@ related_positions: ["Guard Bottom", "Standing", "Seated Guard"]
 related_techniques: ["Guard Replacement", "X-Guard", "Sprawl Defense"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Technical Standup",
+  "description": "Learn how to execute Technical Standup in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "From seated or guard bottom position, establish posting hand behind body at 45-degree angle",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Bring far leg underneath body while extending near leg as barrier toward opponent",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Base Creation",
+      "text": "Form tripod base with posted hand, near knee, and far foot planted firmly",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Elevation",
+      "text": "Push explosively off posted hand and far foot, lifting hips off mat",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Standup Completion",
+      "text": "Bring far leg forward while rising to [[Standing Position]], maintaining frame throughout",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Establish standing posture with hands ready, distance controlled from opponent",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Technical Standup",
+  "description": "Learn Technical Standup in BJJ. Step-by-step execution from Guard Bottom to Standing. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Transitions/Technical-Standup",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Technical Standup",
+      "item": "https://bjjgraph.org/Transitions/Technical-Standup"
+    }
+  ]
+}
+</script>
+
+
 # Technical Standup
 #bjj #transition #escape #standing #fundamental
 

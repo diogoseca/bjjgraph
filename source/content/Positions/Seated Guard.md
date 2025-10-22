@@ -568,6 +568,105 @@ llm_context:
 
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Seated Guard in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Seated Guard.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Ankle Pick Sweep",
+      "text": "From Seated Guard, execute Ankle Pick Sweep to advance your position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Sit-Up Sweep",
+      "text": "From Seated Guard, execute Sit-Up Sweep to advance your position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Single Leg Takedown",
+      "text": "From Seated Guard, execute Single Leg Takedown to advance your position.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Seated Guard?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Active Base Maintenance**: Posted hands provide stability but must allow movement - rigid base limits mobility, too loose base allows opponent to flatten you. Find dynamic balance."
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Seated Guard",
+  "description": "Master Seated Guard in BJJ. Complete guide covering entries, sweeps, and transitions. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Positions/Seated-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Seated Guard",
+      "item": "https://bjjgraph.org/Positions/Seated-Guard"
+    }
+  ]
+}
+</script>
+
+
 # Seated Guard
 #bjj #position #guard #open-guard #fundamental
 

@@ -52,6 +52,50 @@ author: "BJJGraph Agent 9"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kneebar from Guard | Leg Lock",
+  "description": "Kneebar from Guard is a serious leg lock technique from [[Open Guard Bottom]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "url": "https://bjjgraph.org/Submissions/Kneebar-from-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kneebar from Guard",
+      "item": "https://bjjgraph.org/Submissions/Kneebar-from-Guard"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ SAFETY NOTICE
 
 **KNEEBAR FROM GUARD - HIGH INJURY RISK**

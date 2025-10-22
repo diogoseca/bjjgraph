@@ -21,8 +21,8 @@ description: "Master Guillotine Control in BJJ. Complete guide covering setup, c
     },
     {
       "@type": "HowToStep",
-      "name": "Execute High-Elbow Guillotine",
-      "text": "From this position, execute High-Elbow Guillotine to transition to Won by Submission.",
+      "name": "Execute high elbow guillotine",
+      "text": "From this position, execute high elbow guillotine to transition to Won by Submission.",
       "position": 2
     },
     {
@@ -58,6 +58,72 @@ description: "Master Guillotine Control in BJJ. Complete guide covering setup, c
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Insufficient wrist flexion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reduced choking pressure"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Squeezing with arms only?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Energy inefficiency"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor body positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Leverage compromise"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Telegraphing submission intent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Defensive counters"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Overcommitment to single variation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Adaptability limitations"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guillotine Control",
+  "description": "Master Guillotine Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%.",
+  "url": "https://bjjgraph.org/Positions/Guillotine-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Guillotine Control in BJJ. Complete guide covering setup, c
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Guillotine Control",
-      "item": "https://bjjgraph.com/positions/guillotine-control"
+      "item": "https://bjjgraph.org/Positions/Guillotine-Control"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Guillotine Control",
-  "description": "Master Guillotine Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%.",
-  "url": "https://bjjgraph.com/positions/guillotine-control",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Guillotine Control
 #bjj #state #submission #choke #guillotine
@@ -189,7 +239,6 @@ The controlling practitioner wraps one arm deeply around the opponent's neck, wi
 - [[Closed Guard Guillotine]] - Positional variation
 - [[Arm Triangle]] - Related head and arm submission
 - [[D'arce Control]] - Related front headlock submission
-
 
 ## Related Positions
 

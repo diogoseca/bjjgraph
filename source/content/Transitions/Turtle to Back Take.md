@@ -3,6 +3,106 @@ title: "Turtle to Back Take | BJJ Technique | BJJ Graph"
 description: "Learn Turtle to Back Take in BJJ. Step-by-step execution from Turtle Top to Back Control. Success: Beginner 55%, Intermediate 70%, Advanced 85%."
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Turtle to Back Take",
+  "description": "Learn how to execute Turtle to Back Take in Brazilian Jiu-Jitsu from Turtle Top to Back Control. Success: Beginner 55%, Intermediate 70%, Advanced 85%.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish turtle top position with chest pressure and seatbelt control",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Secure one arm over shoulder, one under armpit for seatbelt grip",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically maintains turtle structure or attempts to turn",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Insert first hook by sliding leg inside their near leg",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Transition weight to side and insert second hook",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Establish full back control with both hooks and seatbelt grips",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Turtle to Back Take",
+  "description": "Learn Turtle to Back Take in BJJ. Step-by-step execution from Turtle Top to Back Control. Success: Beginner 55%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Transitions/Turtle-to-Back-Take",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Turtle to Back Take",
+      "item": "https://bjjgraph.org/Transitions/Turtle-to-Back-Take"
+    }
+  ]
+}
+</script>
+
+
 # Turtle to Back Take
 #bjj #transition #back_attack #turtle #control
 

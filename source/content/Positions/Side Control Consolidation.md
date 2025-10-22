@@ -47,16 +47,14 @@ description: "Master Side Control Consolidation in BJJ. Complete guide covering 
   "@type": "WebPage",
   "name": "Side Control Consolidation",
   "description": "Master Side Control Consolidation in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%.",
-  "url": "https://bjjgraph.com/positions/side-control-consolidation",
+  "url": "https://bjjgraph.org/Positions/Side-Control-Consolidation",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,19 +64,19 @@ description: "Master Side Control Consolidation in BJJ. Complete guide covering 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Side Control Consolidation",
-      "item": "https://bjjgraph.com/positions/side-control-consolidation"
+      "item": "https://bjjgraph.org/Positions/Side-Control-Consolidation"
     }
   ]
 }
@@ -330,7 +328,6 @@ Updates to this standard should be reflected across all position files to mainta
 ## Related Positions
 
 - [[Side Control]] - Related position
-
 
 ## Historical Context
 Side Control Consolidation has been a fundamental aspect of Brazilian Jiu-Jitsu since its early development, emphasizing the importance of control and pressure in top positions. It reflects the strategic focus on dominance and submission setups that define BJJ as a martial art.

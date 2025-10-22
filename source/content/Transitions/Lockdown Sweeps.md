@@ -33,6 +33,88 @@ related_positions: ["Lockdown Half Guard Bottom", "Top Position"]
 related_techniques: ["Old School Sweep", "Electric Chair Submission", "Twister Setup"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Lockdown Sweeps",
+  "description": "Learn how to execute Lockdown Sweeps in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Position",
+      "text": "Begin the Lockdown Sweeps from the starting position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Technique",
+      "text": "Execute the Lockdown Sweeps technique with proper form and timing.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Complete Transition",
+      "text": "Complete the technique and establish control.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT2M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lockdown Sweeps",
+  "description": "Learn Lockdown Sweeps from Half Guard in BJJ. 10th Planet system sweeps from lockdown. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Lockdown-Sweeps",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Lockdown Sweeps",
+      "item": "https://bjjgraph.org/Transitions/Lockdown-Sweeps"
+    }
+  ]
+}
+</script>
+
+
 # Lockdown Sweeps
 
 Sweeping system from lockdown half guard position, signature of 10th Planet Jiu-Jitsu. Uses lockdown leg control to break opponent's base and create sweeping opportunities to top position. Includes electric chair threat and multiple sweep variations.

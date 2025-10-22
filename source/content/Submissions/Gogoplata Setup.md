@@ -3,6 +3,7 @@ title: "Gogoplata Setup | BJJ Submission Guide | BJJ Graph"
 description: "Begin from an established control position such as New York Control or Williams Guard within the Rubber Guard system, where you have already secured a strong wrist or arm control with one hand to..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "Begin from an established control position such as New York Contro
   "@type": "WebPage",
   "name": "Gogoplata Setup",
   "description": "Begin from an established control position such as New York Control or Williams Guard within the Rubber Guard system, where you have already secured a strong wrist or arm control with one hand to...",
-  "url": "https://bjjgraph.com/submissions/gogoplata-setup",
+  "url": "https://bjjgraph.org/Submissions/Gogoplata-Setup",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "Begin from an established control position such as New York Contro
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Gogoplata Setup",
-      "item": "https://bjjgraph.com/submissions/gogoplata-setup"
+      "item": "https://bjjgraph.org/Submissions/Gogoplata-Setup"
     }
   ]
 }
 </script>
+
 
 # Gogoplata Setup
 #bjj #transition #submission #10thplanet #setup

@@ -3,6 +3,8 @@ title: "Knee Shield Position Bottom | BJJ Position Guide | BJJ Graph"
 description: "Master Knee Shield Position Bottom in BJJ. Complete guide covering defensive structure, sweeps, and guard retention. Success rates: Beginner 50%, Intermediate 65%, Advanced 78%."
 ---
 
+
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -13,39 +15,21 @@ description: "Master Knee Shield Position Bottom in BJJ. Complete guide covering
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Shield Sweep",
-      "text": "From this position, execute Knee Shield Sweep to transition to Top Position.",
+      "name": "Execute Knee Slice Pass",
+      "text": "From Knee Shield Position Bottom, execute Knee Slice Pass to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard.",
+      "name": "Execute Side Control Top",
+      "text": "From Knee Shield Position Bottom, execute Side Control Top to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Setup",
-      "text": "From this position, execute Triangle Setup to transition to Triangle Control.",
+      "name": "Execute Knee Shield Smash",
+      "text": "From Knee Shield Position Bottom, execute Knee Shield Smash to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Arm Drag",
-      "text": "From this position, execute Arm Drag to transition to Back Control.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Kimura Trap",
-      "text": "From this position, execute Kimura Trap to transition to Kimura Control Position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Distance Recovery",
-      "text": "From this position, execute Distance Recovery to transition to Open Guard Bottom.",
-      "position": 6
     }
   ],
   "tool": [
@@ -54,6 +38,40 @@ description: "Master Knee Shield Position Bottom in BJJ. Complete guide covering
     "Mat space"
   ],
   "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Knee Shield Position Bottom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Active Knee Shield**: Keep constant pressure through the shin into opponent's chest or stomach, never passive"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Shield Position Bottom",
+  "description": "Master Knee Shield Position Bottom in BJJ. Complete guide covering defensive structure, sweeps, and guard retention. Success rates: Beginner 50%, Intermediate 65%, Advanced 78%.",
+  "url": "https://bjjgraph.org/Positions/Knee-Shield-Position-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -65,38 +83,24 @@ description: "Master Knee Shield Position Bottom in BJJ. Complete guide covering
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Knee Shield Position Bottom",
-      "item": "https://bjjgraph.com/positions/knee-shield-position-bottom"
+      "item": "https://bjjgraph.org/Positions/Knee-Shield-Position-Bottom"
     }
   ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Knee Shield Position Bottom",
-  "description": "Master Knee Shield Position Bottom in BJJ. Complete guide covering defensive structure, sweeps, and guard retention. Success rates: Beginner 50%, Intermediate 65%, Advanced 78%.",
-  "url": "https://bjjgraph.com/positions/knee-shield-position-bottom",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Knee Shield Position Bottom
 #bjj #state #halfguard #defensive #kneeshield

@@ -586,6 +586,105 @@ llm_context:
       points: 10
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Seated Guard Bottom in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Seated Guard Bottom.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Open Guard Bottom",
+      "text": "From Seated Guard Bottom, execute Open Guard Bottom to advance your position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Butterfly Guard Bottom",
+      "text": "From Seated Guard Bottom, execute Butterfly Guard Bottom to advance your position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Distance Management",
+      "text": "From Seated Guard Bottom, execute Distance Management to advance your position.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Seated Guard Bottom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Core Engagement**: Constant core activation maintains upright seated posture which is fundamental to all seated guard capabilities"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Seated Guard Bottom",
+  "description": "Master Seated Guard Bottom in BJJ. Complete guide covering leg attacks, sweeps, and transitions. Success rates: Beginner 60%, Intermediate 70%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Positions/Seated-Guard-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Seated Guard Bottom",
+      "item": "https://bjjgraph.org/Positions/Seated-Guard-Bottom"
+    }
+  ]
+}
+</script>
+
+
 # Seated Guard Bottom
 #bjj #position #guard #open_guard #intermediate
 

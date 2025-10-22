@@ -16,32 +16,20 @@ description: "Master Single Leg X Guard Bottom in BJJ. Complete guide covering l
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Sweep",
-      "text": "From this position, execute Single Leg X Sweep to transition to Top Position.",
+      "text": "From Single Leg X Guard Bottom, execute Single Leg X Sweep to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position.",
+      "name": "Execute Top Position",
+      "text": "From Single Leg X Guard Bottom, execute Top Position to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ashi Garami Entry",
-      "text": "From this position, execute Ashi Garami Entry to transition to leg lock position.",
+      "name": "Execute Technical Standup Sweep",
+      "text": "From Single Leg X Guard Bottom, execute Technical Standup Sweep to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute X-Guard Transition",
-      "text": "From this position, execute X-Guard Transition when opponent bases.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, execute Back Take when opponent reacts to sweep.",
-      "position": 5
     }
   ],
   "tool": [
@@ -50,6 +38,40 @@ description: "Master Single Leg X Guard Bottom in BJJ. Complete guide covering l
     "Mat space"
   ],
   "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Single Leg X Guard Bottom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**X-Frame Integrity**: Maintain the X-shape of legs - inside leg hooks, outside leg pushes"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Single Leg X Guard Bottom",
+  "description": "Master Single Leg X Guard Bottom in BJJ. Complete guide covering leg control, sweeps, and transitions. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Positions/Single-Leg-X-Position-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -61,40 +83,24 @@ description: "Master Single Leg X Guard Bottom in BJJ. Complete guide covering l
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Single Leg X Guard Bottom",
-      "item": "https://bjjgraph.com/positions/single-leg-x-guard-bottom"
+      "item": "https://bjjgraph.org/Positions/Single-Leg-X-Position-Bottom"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Single Leg X Guard Bottom",
-  "description": "Master Single Leg X Guard Bottom in BJJ. Complete guide covering leg control, sweeps, and transitions. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.",
-  "url": "https://bjjgraph.com/positions/single-leg-x-guard-bottom",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Single Leg X Guard Bottom
 #bjj #state #guard #singlegx #bottom #legentanglement

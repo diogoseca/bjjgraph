@@ -588,6 +588,105 @@ llm_context:
 
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Float Passing Position Top in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Float Passing Position Top.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Slice Pass",
+      "text": "From Float Passing Position Top, execute Knee Slice Pass to advance your position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Side Control Top",
+      "text": "From Float Passing Position Top, execute Side Control Top to advance your position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Leg Drag Pass",
+      "text": "From Float Passing Position Top, execute Leg Drag Pass to advance your position.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Float Passing Position Top?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Sustained Hip Pressure**: Maintain constant downward pressure toward opponent's hips using bodyweight positioning rather than muscle tension"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Float Passing Position Top",
+  "description": "Master Float Passing Position Top in BJJ. Complete guide covering entries, pressure application, and transitions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Positions/Float-Passing-Position-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Float Passing Position Top",
+      "item": "https://bjjgraph.org/Positions/Float-Passing-Position-Top"
+    }
+  ]
+}
+</script>
+
+
 # Float Passing Position Top
 #bjj #position #guard-passing #top-position #intermediate
 

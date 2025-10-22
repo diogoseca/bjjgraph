@@ -32,6 +32,50 @@ author: "BJJGraph System - Agent 9"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Peruvian Necktie | Blood Choke",
+  "description": "The Peruvian Necktie is an advanced blood choke from turtle involving threading your arm and rolling while creating pressure with opponent's trapped arm.",
+  "url": "https://bjjgraph.org/Submissions/Peruvian-Necktie",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Peruvian Necktie",
+      "item": "https://bjjgraph.org/Submissions/Peruvian-Necktie"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ SAFETY NOTICE
 **Loss of consciousness can occur in 4-10 seconds. Apply SLOWLY. RELEASE IMMEDIATELY upon tap.**
 

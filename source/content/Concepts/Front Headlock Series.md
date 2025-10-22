@@ -46,6 +46,50 @@ application_contexts:
 tags: [bjj, concept, intermediate, system, offensive, front-headlock, control]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Front Headlock Series",
+  "description": "Front Headlock Series represents a systematic offensive framework centered around controlling the opponent's head and one arm from a perpendicular or diagonal angle, creating a hub position that le...",
+  "url": "https://bjjgraph.org/Concepts/Front-Headlock-Series",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Front Headlock Series",
+      "item": "https://bjjgraph.org/Concepts/Front-Headlock-Series"
+    }
+  ]
+}
+</script>
+
+
 # Front Headlock Series
 #bjj #concept #intermediate #system #offensive
 

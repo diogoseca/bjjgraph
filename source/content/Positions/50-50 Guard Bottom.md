@@ -647,6 +647,105 @@ llm_context:
 
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use 50-50 Guard Bottom in BJJ",
+  "description": "Complete guide to executing techniques and transitions from 50-50 Guard Bottom.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Position Reversal to Top",
+      "text": "From 50-50 Guard Bottom, execute Position Reversal to Top to advance your position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute 50-50 Guard Top",
+      "text": "From 50-50 Guard Bottom, execute 50-50 Guard Top to advance your position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Single Leg X Transition",
+      "text": "From 50-50 Guard Bottom, execute Single Leg X Transition to advance your position.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of 50-50 Guard Bottom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Heel Protection Priority**: Defending your heel from heel hook is absolute first priority; hide heel through knee rotation inward and aggressive grip fighting"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "50-50 Guard Bottom",
+  "description": "Master 50-50 Guard Bottom in BJJ. Complete guide covering defensive strategies, escapes, and counter-attacks. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "url": "https://bjjgraph.org/Positions/50-50-Guard-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "50-50 Guard Bottom",
+      "item": "https://bjjgraph.org/Positions/50-50-Guard-Bottom"
+    }
+  ]
+}
+</script>
+
+
 # 50-50 Guard Bottom
 #bjj #position #leg_lock #guard #50-50 #defensive #advanced
 

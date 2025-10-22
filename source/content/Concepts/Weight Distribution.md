@@ -44,6 +44,50 @@ application_contexts:
 tags: [bjj, concept, fundamental, weight, pressure, control]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Weight Distribution | Concept",
+  "description": "Weight Distribution represents the strategic management of bodyweight allocation across contact points to maximize control effectiveness, minimize escape opportunities, and optimize technical execu...",
+  "url": "https://bjjgraph.org/Concepts/Weight-Distribution",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Weight Distribution",
+      "item": "https://bjjgraph.org/Concepts/Weight-Distribution"
+    }
+  ]
+}
+</script>
+
+
 # Weight Distribution
 #bjj #concept #fundamental #weight #pressure
 

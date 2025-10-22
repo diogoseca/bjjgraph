@@ -37,6 +37,62 @@ related_positions: ["Half Guard Top", "Side Control Top", "Half Guard Bottom"]
 related_techniques: ["Knee Slice from Half", "Underhook Pass", "Crossface Pass"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Half Guard Pass",
+  "description": "Learn how to execute Half Guard Pass in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish half guard top position with crossface and underhook control",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Apply forward pressure with chest, drive opponent flat",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent tries to maintain half guard, potentially seeking underhook",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Adjust pressure angle, work knee position to create extraction angle",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Slide trapped knee across and free the leg, establish side control",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Secure side control with crossface, settle weight, establish grips",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
 # Half Guard Pass
 #bjj #transition #guard_pass #half_guard #fundamental
 
@@ -67,9 +123,9 @@ From half guard top position, you establish control with crossface and underhook
 
 Opponent defensive responses with success rates and conditions:
 
-- **[[Underhook Recovery]]** ’ [[Half Guard Bottom Improved]] (Success Rate: 50%, Conditions: strong underhook fight)
-- **[[Lockdown]]** ’ [[Half Guard Maintained]] (Success Rate: 40%, Conditions: locks leg early)
-- **[[Knee Shield Frame]]** ’ [[Half Guard Distance]] (Success Rate: 45%, Conditions: creates frames)
+- **[[Underhook Recovery]]**  [[Half Guard Bottom Improved]] (Success Rate: 50%, Conditions: strong underhook fight)
+- **[[Lockdown]]**  [[Half Guard Maintained]] (Success Rate: 40%, Conditions: locks leg early)
+- **[[Knee Shield Frame]]**  [[Half Guard Distance]] (Success Rate: 45%, Conditions: creates frames)
 
 ### Decision Logic for AI Opponent
 

@@ -96,6 +96,50 @@ author: "BJJGraph System Agent 14"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Heel Hook Variations | Leg Lock System",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"EXTREMELY SLOW in training - 7-10+ seconds minimum. Heel hooks damage knees BEFORE severe pain. Tap on position, not on pain. Competition speed ONLY in...",
+  "url": "https://bjjgraph.org/Submissions/Heel-Hook-Variations",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Heel Hook Variations",
+      "item": "https://bjjgraph.org/Submissions/Heel-Hook-Variations"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Heel hook variations are EXTREMELY DANGEROUS leg lock submissions targeting knee ligaments. Success results in immediate match victory. SAFETY IS CRITICAL - these submissions can cause career-ending injuries.

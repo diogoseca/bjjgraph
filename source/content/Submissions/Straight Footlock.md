@@ -90,6 +90,50 @@ author: "BJJGraph Agent 3"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Straight Footlock",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. Footlocks should take 3-5 seconds minimum in training. Never explosive application. Competition speed only in competition.\"",
+  "url": "https://bjjgraph.org/Submissions/Straight-Footlock",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Straight Footlock",
+      "item": "https://bjjgraph.org/Submissions/Straight-Footlock"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: The Straight Footlock is a leg lock submission targeting the ankle joint and Achilles tendon. Success results in immediate match victory ([[Won by Submission]]). Safety is paramount - ankle injuries can sideline training for weeks or months.

@@ -68,6 +68,50 @@ author: "BJJGraph System - Agent 9"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Americana from Side Control",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. Americana should take 3-5 seconds minimum in training. Competition speed only in competition.\"",
+  "url": "https://bjjgraph.org/Submissions/Americana-from-Side-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Americana from Side Control",
+      "item": "https://bjjgraph.org/Submissions/Americana-from-Side-Control"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: This submission is a terminal state in the BJJ state machine from [[Side Control Top]] position. Success results in immediate match victory. Safety is paramount - shoulder locks carry high injury risk.

@@ -58,6 +58,72 @@ description: "Master Turtle Position in BJJ. Complete guide covering setup, cont
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Flat, wide turtle?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to breakdowns"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Extended neck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Choke opportunities"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Space between elbows and knees?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Hook insertion points"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Static positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Settled control opportunities"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Telegraphed escape attempts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Counter vulnerability"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Turtle Position",
+  "description": "Master Turtle Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 40%.",
+  "url": "https://bjjgraph.org/Positions/Turtle-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Turtle Position in BJJ. Complete guide covering setup, cont
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Turtle Position",
-      "item": "https://bjjgraph.com/positions/turtle-position"
+      "item": "https://bjjgraph.org/Positions/Turtle-Position"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Turtle Position",
-  "description": "Master Turtle Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 40%.",
-  "url": "https://bjjgraph.com/positions/turtle-position",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Turtle Position
 #bjj #state #defensive #transition #turtle
@@ -189,7 +239,6 @@ You are on your hands and knees in a compact, ball-like configuration, your head
 - [[Half Guard Bottom]] - Common recovery position
 - [[Crucifix Position]] - Special control from turtle
 - [[Standing Position]] - Potential escape position
-
 
 ## Related Positions
 

@@ -37,6 +37,106 @@ related_positions: ["Butterfly Guard", "Side Control", "Half Guard Top"]
 related_techniques: ["Smash Pass", "Butterfly Pass", "Pressure Passing"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Butterfly Smash",
+  "description": "Learn how to execute Butterfly Smash in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Secure head control or collar grip, control one side to prevent underhook, establish strong forward posture",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Drop your hip heavily to one side while driving shoulder pressure into opponent's face or chest",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically attempts to maintain butterfly hooks, create frames, or escape their hips to the side",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Increase shoulder and hip pressure to pin their bottom leg, use weight to flatten their hook and prevent elevation",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Drive knee across their body toward far hip while maintaining crushing shoulder pressure",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Slide into side control with immediate crossface, chest pressure, and hip control before guard recovery",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Butterfly Smash",
+  "description": "Learn Butterfly Smash in BJJ. Step-by-step execution from Butterfly Guard Top to Side Control. Success: Beginner 40%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Butterfly-Smash",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Butterfly Smash",
+      "item": "https://bjjgraph.org/Transitions/Butterfly-Smash"
+    }
+  ]
+}
+</script>
+
+
 # Butterfly Smash
 #bjj #transition #guard-pass #butterfly-guard #pressure-passing
 

@@ -3,6 +3,8 @@ title: "Bottom Turtle Position | BJJ Position Guide | BJJ Graph"
 description: "Master Bottom Turtle Position in BJJ. Complete guide covering defensive structure, escapes, and guard recovery. Success rates: Beginner 38%, Intermediate 52%, Advanced 68%."
 ---
 
+
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -13,33 +15,21 @@ description: "Master Bottom Turtle Position in BJJ. Complete guide covering defe
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll",
-      "text": "From this position, execute Granby Roll to transition to Guard Bottom.",
+      "name": "Execute Crucifix Entry",
+      "text": "From Bottom Turtle Position, execute Crucifix Entry to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Standup",
-      "text": "From this position, execute Technical Standup to transition to Standing Position.",
+      "name": "Execute Crucifix Position",
+      "text": "From Bottom Turtle Position, execute Crucifix Position to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Sit Through",
-      "text": "From this position, execute Sit Through to transition to Guard Recovery.",
+      "name": "Execute Back Take from Turtle",
+      "text": "From Bottom Turtle Position, execute Back Take from Turtle to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Roll to Guard",
-      "text": "From this position, execute Roll to Guard to transition to Closed Guard Bottom.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Standing Escape",
-      "text": "From this position, execute Standing Escape to transition to Neutral Position.",
-      "position": 5
     }
   ],
   "tool": [
@@ -48,6 +38,40 @@ description: "Master Bottom Turtle Position in BJJ. Complete guide covering defe
     "Mat space"
   ],
   "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Bottom Turtle Position?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Tight Structure**: Keep elbows in, chin tucked, back rounded - no openings"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bottom Turtle Position",
+  "description": "Master Bottom Turtle Position in BJJ. Complete guide covering defensive structure, escapes, and guard recovery. Success rates: Beginner 38%, Intermediate 52%, Advanced 68%.",
+  "url": "https://bjjgraph.org/Positions/Bottom-Turtle",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -59,38 +83,24 @@ description: "Master Bottom Turtle Position in BJJ. Complete guide covering defe
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Bottom Turtle Position",
-      "item": "https://bjjgraph.com/positions/bottom-turtle"
+      "item": "https://bjjgraph.org/Positions/Bottom-Turtle"
     }
   ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Bottom Turtle Position",
-  "description": "Master Bottom Turtle Position in BJJ. Complete guide covering defensive structure, escapes, and guard recovery. Success rates: Beginner 38%, Intermediate 52%, Advanced 68%.",
-  "url": "https://bjjgraph.com/positions/bottom-turtle",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Bottom Turtle Position
 #bjj #state #turtle #defensive #escape

@@ -79,16 +79,14 @@ description: "Learn Truck Entry in BJJ. Step-by-step execution. Complete techniq
   "@type": "WebPage",
   "name": "Truck Entry",
   "description": "Learn Truck Entry in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/truck-entry",
+  "url": "https://bjjgraph.org/Transitions/Truck-Entry",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Truck Entry in BJJ. Step-by-step execution. Complete techniq
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Truck Entry",
-      "item": "https://bjjgraph.com/transitions/truck-entry"
+      "item": "https://bjjgraph.org/Transitions/Truck-Entry"
     }
   ]
 }
@@ -336,7 +334,6 @@ Updates to this standard should be reflected across related transition setup fil
 
 ## Historical Context
 Truck Entry has been a technical innovation in Brazilian Jiu-Jitsu, particularly associated with Eddie Bravo's 10th Planet system, where unconventional attacks like the Twister are prioritized. It reflects the strategic emphasis on creative submission chains and has been popularized in no-gi and MMA contexts to exploit escaping opponents from top positions.
-
 
 ## Related Techniques
 

@@ -170,33 +170,39 @@ state_machine:
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Leg Entanglement",
-      "text": "Control opponent's leg between your legs with outside leg securing heel and inside leg across hip.",
+      "name": "Execute Inside Heel Hook",
+      "text": "From this position, execute Inside Heel Hook to transition to Won by Submission.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Control the Heel",
-      "text": "Secure opponent's heel with proper grip, preparing for heel hook or ankle lock attacks.",
+      "name": "Execute Straight Ankle Lock",
+      "text": "From this position, execute Straight Ankle Lock to transition to Won by Submission.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Heel Hook",
-      "text": "When heel is exposed, apply inside heel hook rotation towards opponent's knee line.",
+      "name": "Execute Transition to Saddle",
+      "text": "From this position, execute Transition to Saddle to transition to Saddle Position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Alternative Ankle Lock",
-      "text": "If heel defended, transition to straight ankle lock with proper positioning.",
+      "name": "Execute Transition to 50-50",
+      "text": "From this position, execute Transition to 50-50 to transition to 50-50 Guard Bottom.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Transition to Saddle",
-      "text": "If opponent defends submissions, transition to saddle position for better control.",
+      "name": "Execute Outside Ashi Transition",
+      "text": "From this position, execute Outside Ashi Transition to transition to Ashi Garami.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Sweep to Top",
+      "text": "From this position, execute Sweep to Top to transition to Inside Ashi Garami Top.",
+      "position": 6
     }
   ],
   "tool": [
@@ -242,7 +248,7 @@ state_machine:
       "name": "What is a common mistake in Applying heel hooks without proper control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "DANGER: Can cause serious injury to partner and indicates lack of control mastery. The correction is: Master position control and straight ankle locks first, only apply heel hooks in controlled training environment with experienced partners and proper safety protocols."
+        "text": "DANGER - Can cause serious injury to partner and indicates lack of control mastery. The correction is: Master position control and straight ankle locks first, only apply heel hooks in controlled training environment with experienced partners and proper safety protocols."
       }
     },
     {
@@ -265,16 +271,14 @@ state_machine:
   "@type": "WebPage",
   "name": "Inside Ashi Garami Bottom",
   "description": "Master Inside Ashi Garami Bottom in BJJ. Complete guide covering leg entanglement control and heel hook attacks. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.",
-  "url": "https://bjjgraph.com/positions/inside-ashi-garami-bottom",
+  "url": "https://bjjgraph.org/Positions/Inside-Ashi-Garami-Bottom",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -284,19 +288,19 @@ state_machine:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Inside Ashi Garami Bottom",
-      "item": "https://bjjgraph.com/positions/inside-ashi-garami-bottom"
+      "item": "https://bjjgraph.org/Positions/Inside-Ashi-Garami-Bottom"
     }
   ]
 }

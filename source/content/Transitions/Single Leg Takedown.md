@@ -79,16 +79,14 @@ description: "Learn Single Leg Takedown in BJJ. Step-by-step execution. Complete
   "@type": "WebPage",
   "name": "Single Leg Takedown",
   "description": "Learn Single Leg Takedown in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/single-leg-takedown",
+  "url": "https://bjjgraph.org/Transitions/Single-Leg-Takedown",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Single Leg Takedown in BJJ. Step-by-step execution. Complete
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Single Leg Takedown",
-      "item": "https://bjjgraph.com/transitions/single-leg-takedown"
+      "item": "https://bjjgraph.org/Transitions/Single-Leg-Takedown"
     }
   ]
 }
@@ -336,7 +334,6 @@ Updates to this standard should be reflected across related transition setup fil
 
 ## Historical Context
 The Single Leg Takedown has roots in wrestling and was adapted into BJJ as a key method to bring the fight to the ground, becoming a staple in modern competition for practitioners aiming to establish top control, especially in no-gi and MMA contexts.
-
 
 ## Related Techniques
 

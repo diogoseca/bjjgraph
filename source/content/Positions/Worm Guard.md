@@ -58,6 +58,72 @@ description: "Master Worm Guard in BJJ. Complete guide covering setup, control, 
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Insufficient lapel tension?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reduced control effectiveness"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor lapel threading depth?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Easy for opponent to extract"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Flat positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to pressure passing"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Overcommitment to lapel grip?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Neglecting defensive awareness"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Passive De La Riva hook?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Ineffective leg control"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Worm Guard",
+  "description": "Master Worm Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
+  "url": "https://bjjgraph.org/Positions/Worm-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Worm Guard in BJJ. Complete guide covering setup, control, 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Worm Guard",
-      "item": "https://bjjgraph.com/positions/worm-guard"
+      "item": "https://bjjgraph.org/Positions/Worm-Guard"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Worm Guard",
-  "description": "Master Worm Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
-  "url": "https://bjjgraph.com/positions/worm-guard",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Worm Guard
 #bjj #state #guard #open_guard #lapel #gi
@@ -190,7 +240,6 @@ You are on your back or partially seated with your opponent's gi lapel threaded 
 - [[Lapel Guard]] - Generic category of lapel-based guards
 - [[Squid Guard]] - Related lapel control position
 - [[Reverse De La Riva Guard]] - Complementary guard system
-
 
 ## Related Positions
 

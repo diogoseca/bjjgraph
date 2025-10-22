@@ -79,16 +79,14 @@ description: "Learn Back Step in BJJ. Step-by-step execution from Leg Drag Posit
   "@type": "WebPage",
   "name": "Back Step",
   "description": "Learn Back Step in BJJ. Step-by-step execution from Leg Drag Position to Back Control. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/back-step",
+  "url": "https://bjjgraph.org/Transitions/Back-Step",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Back Step in BJJ. Step-by-step execution from Leg Drag Posit
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Back Step",
-      "item": "https://bjjgraph.com/transitions/back-step"
+      "item": "https://bjjgraph.org/Transitions/Back-Step"
     }
   ]
 }
@@ -304,7 +302,6 @@ The Back Step has proven highly effective in competition contexts across all lev
 - Gi competition: Leverages gi grips for enhanced upper body control
 - No-gi competition: Relies more on body locks and timing for connection
 - MMA crossover: Useful for transitioning to back control for strikes or submissions
-
 
 ## Related Techniques
 

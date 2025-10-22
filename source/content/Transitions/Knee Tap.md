@@ -11,7 +11,7 @@ description: "Learn Knee Tap in BJJ. Step-by-step execution from Standing Positi
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Knee Tap",
-  "description": "Learn how to execute Knee Tap in Brazilian Jiu-Jitsu from Standing Position to Top Position.",
+  "description": "Learn how to execute Knee Tap in Brazilian Jiu-Jitsu from Standing Position to Top Position. Success: Beginner 35%, Intermediate 60%, Advanced 80%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -58,6 +58,23 @@ description: "Learn Knee Tap in BJJ. Step-by-step execution from Standing Positi
   "totalTime": "PT5M"
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Tap",
+  "description": "Learn Knee Tap in BJJ. Step-by-step execution from Standing Position to Top Position. Success: Beginner 35%, Intermediate 60%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Transitions/Knee-Tap",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,39 +84,24 @@ description: "Learn Knee Tap in BJJ. Step-by-step execution from Standing Positi
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Knee Tap",
-      "item": "https://bjjgraph.com/transitions/knee-tap"
+      "item": "https://bjjgraph.org/Transitions/Knee-Tap"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Knee Tap",
-  "description": "Learn Knee Tap in BJJ. Step-by-step execution from Standing Position to Top Position. Success: Beginner 35%, Intermediate 60%, Advanced 80%.",
-  "url": "https://bjjgraph.com/transitions/knee-tap",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Knee Tap
 #bjj #transition #takedown #wrestling #standing
@@ -326,7 +328,6 @@ Updates to this standard should be reflected across all transition files to main
 - [[Collar Drag]] - Related technique
 - [[Osoto Gari]] - Related technique
 - [[Neutral Position]] - Primary starting position for knee tap
-
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as takedown (2 points)

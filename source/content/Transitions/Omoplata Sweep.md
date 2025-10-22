@@ -11,7 +11,7 @@ description: "Learn Omoplata Sweep in BJJ. Step-by-step execution. Success: Begi
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Omoplata Sweep",
-  "description": "Learn how to execute Omoplata Sweep in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute Omoplata Sweep in Brazilian Jiu-Jitsu from Closed Guard Bottom to Top Position. Success: Beginner 15%, Intermediate 35%, Advanced 55%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -79,7 +79,24 @@ description: "Learn Omoplata Sweep in BJJ. Step-by-step execution. Success: Begi
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT5M"
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Omoplata Sweep",
+  "description": "Learn Omoplata Sweep in BJJ. Step-by-step execution. Success: Beginner 15%, Intermediate 35%, Advanced 55%.",
+  "url": "https://bjjgraph.org/Transitions/Omoplata-Sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -91,39 +108,24 @@ description: "Learn Omoplata Sweep in BJJ. Step-by-step execution. Success: Begi
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Omoplata Sweep",
-      "item": "https://bjjgraph.com/transitions/omoplata-sweep"
+      "item": "https://bjjgraph.org/Transitions/Omoplata-Sweep"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Omoplata Sweep",
-  "description": "Learn Omoplata Sweep in BJJ. Step-by-step execution. Success: Beginner 15%, Intermediate 35%, Advanced 55%.",
-  "url": "https://bjjgraph.com/transitions/omoplata-sweep",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Omoplata Sweep
 #bjj #transition #sweep #closed_guard #intermediate
@@ -357,7 +359,6 @@ Updates to this standard should be reflected across all transition files to main
 - [[Muscle Sweep]] - Related technique
 - [[Heel Grab Sweep]] - Related technique
 - [[Transition to Omoplata]] - Related technique
-
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points)

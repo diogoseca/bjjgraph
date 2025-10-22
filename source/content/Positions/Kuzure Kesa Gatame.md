@@ -47,16 +47,14 @@ description: "Master Kuzure Kesa Gatame in BJJ. Complete guide covering setup, c
   "@type": "WebPage",
   "name": "Kuzure Kesa Gatame",
   "description": "Master Kuzure Kesa Gatame in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 70%.",
-  "url": "https://bjjgraph.com/positions/kuzure-kesa-gatame",
+  "url": "https://bjjgraph.org/Positions/Kuzure-Kesa-Gatame",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,19 +64,19 @@ description: "Master Kuzure Kesa Gatame in BJJ. Complete guide covering setup, c
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Kuzure Kesa Gatame",
-      "item": "https://bjjgraph.com/positions/kuzure-kesa-gatame"
+      "item": "https://bjjgraph.org/Positions/Kuzure-Kesa-Gatame"
     }
   ]
 }
@@ -331,7 +329,6 @@ Updates to this standard should be reflected across all position files to mainta
 ## Related Positions
 
 - [[Kesa Gatame]] - Related position
-
 
 ## Historical Context
 Kuzure Kesa Gatame is a traditional judo position adapted into Brazilian Jiu-Jitsu, showcasing the influence of judo on BJJ's control systems. It represents a modification of the classic Kesa Gatame, optimized for submission opportunities in modern grappling.

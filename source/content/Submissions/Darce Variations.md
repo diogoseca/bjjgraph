@@ -33,6 +33,50 @@ author: "BJJGraph Agent 4"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Darce Variations",
+  "description": "Darce Variations include multiple setups and finishing positions for the D'arce choke system: standard D'arce, no-gi D'arce, rolling D'arce, mounted D'arce, and standing D'arce.",
+  "url": "https://bjjgraph.org/Submissions/Darce-Variations",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Darce Variations",
+      "item": "https://bjjgraph.org/Submissions/Darce-Variations"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ SAFETY NOTICE
 **Blood choke variations. Apply SLOWLY over 3-5 seconds. RELEASE upon tap.**
 

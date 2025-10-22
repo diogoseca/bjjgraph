@@ -46,6 +46,50 @@ application_contexts:
 tags: [bjj, concept, intermediate, defense, guard, retention, knee-shield]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Shield Retention",
+  "description": "Knee Shield Retention represents the fundamental skill of maintaining and preserving the knee shield frame as a primary defensive barrier in half guard, preventing guard passing while creating oppo...",
+  "url": "https://bjjgraph.org/Concepts/Knee-Shield-Retention",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Knee Shield Retention",
+      "item": "https://bjjgraph.org/Concepts/Knee-Shield-Retention"
+    }
+  ]
+}
+</script>
+
+
 # Knee Shield Retention
 #bjj #concept #intermediate #defense #guard #retention
 

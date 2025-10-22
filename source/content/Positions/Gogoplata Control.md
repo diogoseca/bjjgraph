@@ -107,6 +107,23 @@ description: "Master Gogoplata Control in BJJ. Complete guide covering setup, co
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Gogoplata Control",
+  "description": "Master Gogoplata Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Positions/Gogoplata-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Gogoplata Control in BJJ. Complete guide covering setup, co
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Gogoplata Control",
-      "item": "https://bjjgraph.com/positions/gogoplata-control"
+      "item": "https://bjjgraph.org/Positions/Gogoplata-Control"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Gogoplata Control",
-  "description": "Master Gogoplata Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.",
-  "url": "https://bjjgraph.com/positions/gogoplata-control",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Gogoplata Control
 #bjj #state #submission #10thplanet #control
@@ -251,7 +253,6 @@ You are on your back in a Rubber Guard configuration, with your opponent trapped
 - [[New York Control]] - Preceding control position
 - [[Williams Guard]] - Alternative control position
 - [[Omoplata Control]] - Related submission position
-
 
 ## Related Positions
 

@@ -21,8 +21,8 @@ description: "Master Electric Chair in BJJ. Complete guide covering setup, contr
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Sweep",
-      "text": "From this position, execute Electric Chair Sweep to transition to Top Position.",
+      "name": "Execute Electric Chair",
+      "text": "From this position, execute Electric Chair to transition to Top Position.",
       "position": 2
     },
     {
@@ -107,6 +107,23 @@ description: "Master Electric Chair in BJJ. Complete guide covering setup, contr
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Electric Chair",
+  "description": "Master Electric Chair in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 55%, Intermediate 70%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Positions/Electric-Chair",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Electric Chair in BJJ. Complete guide covering setup, contr
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Electric Chair",
-      "item": "https://bjjgraph.com/positions/electric-chair"
+      "item": "https://bjjgraph.org/Positions/Electric-Chair"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Electric Chair",
-  "description": "Master Electric Chair in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 55%, Intermediate 70%, Advanced 80%.",
-  "url": "https://bjjgraph.com/positions/electric-chair",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Electric Chair
 #bjj #state #submission #10thplanet #halfguard
@@ -246,7 +248,6 @@ You are on your back in a bottom half guard position, with your legs forming a t
 - [[Truck Position]] - Connected 10th Planet position
 - [[Dogfight Position]] - Half guard transition position
 - [[Half Guard Bottom]] - Parent position category
-
 
 ## Related Positions
 

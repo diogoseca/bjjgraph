@@ -37,6 +37,106 @@ related_positions: ["Front Headlock", "Darce Control", "Turtle Position", "Spraw
 related_techniques: ["Anaconda Choke", "Guillotine Choke", "Arm-in Guillotine", "Front Headlock Series"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Front Headlock to Darce",
+  "description": "Learn how to execute Front Headlock to Darce in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish solid front headlock control with opponent's near arm trapped across their body",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Begin threading your controlling arm deeper under opponent's near armpit while maintaining head pressure",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically tries to pull their head free or come up to knees, tightening your control",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Circle your body toward the trapped arm side, using your movement to deepen the arm penetration",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Reach your rear hand through to grab your own bicep, establishing the figure-four Darce configuration",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Continue circling and drop your weight while expanding chest to apply choking pressure and secure the position",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Front Headlock to Darce",
+  "description": "Learn Front Headlock to Darce in BJJ. Step-by-step execution from Front Headlock to Darce Control. Success: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Front-Headlock-to-Darce",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Front Headlock to Darce",
+      "item": "https://bjjgraph.org/Transitions/Front-Headlock-to-Darce"
+    }
+  ]
+}
+</script>
+
+
 # Front Headlock to Darce
 #bjj #transition #submission #darce #front_headlock
 

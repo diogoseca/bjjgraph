@@ -79,16 +79,14 @@ description: "Learn Body Lock Pass in BJJ. Step-by-step execution from Open Guar
   "@type": "WebPage",
   "name": "Body Lock Pass",
   "description": "Learn Body Lock Pass in BJJ. Step-by-step execution from Open Guard Top to Side Control. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/body-lock-pass",
+  "url": "https://bjjgraph.org/Transitions/Body-Lock-Pass",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Body Lock Pass in BJJ. Step-by-step execution from Open Guar
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Body Lock Pass",
-      "item": "https://bjjgraph.com/transitions/body-lock-pass"
+      "item": "https://bjjgraph.org/Transitions/Body-Lock-Pass"
     }
   ]
 }
@@ -305,7 +303,6 @@ The Body Lock Pass has proven highly effective in competition contexts across al
 - Gi competition: Leverages gi for additional grip options in body lock
 - No-gi competition: Relies on tight upper body control without gi grips
 - MMA crossover: Useful for maintaining top control to avoid strikes or submissions
-
 
 ## Related Techniques
 

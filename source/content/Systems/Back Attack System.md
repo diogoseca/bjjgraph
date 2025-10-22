@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Back Attack System",
   "description": "The Back Attack System represents the most comprehensive and statistically dominant submission framework in Brazilian Jiu-Jitsu, built around the premier offensive position in grappling: back contr...",
-  "url": "https://bjjgraph.com/systems/back-attack-system",
+  "url": "https://bjjgraph.org/Systems/Back-Attack-System",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Systems",
-      "item": "https://bjjgraph.com/systems/"
+      "item": "https://bjjgraph.org/Systems/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Back Attack System",
-      "item": "https://bjjgraph.com/systems/back-attack-system"
+      "item": "https://bjjgraph.org/Systems/Back-Attack-System"
     }
   ]
 }

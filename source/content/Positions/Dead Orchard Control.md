@@ -107,6 +107,23 @@ description: "Master Dead Orchard Control in BJJ. Complete guide covering setup,
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Dead Orchard Control",
+  "description": "Master Dead Orchard Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 60%, Intermediate 75%, Advanced...",
+  "url": "https://bjjgraph.org/Positions/Dead-Orchard-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Dead Orchard Control in BJJ. Complete guide covering setup,
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Dead Orchard Control",
-      "item": "https://bjjgraph.com/positions/dead-orchard-control"
+      "item": "https://bjjgraph.org/Positions/Dead-Orchard-Control"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Dead Orchard Control",
-  "description": "Master Dead Orchard Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 60%, Intermediate 75%, Advanced...",
-  "url": "https://bjjgraph.com/positions/dead-orchard-control",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Dead Orchard Control
 #bjj #state #guard #10thplanet #submission
@@ -252,7 +254,6 @@ You are positioned on your back or slightly on your side, with your legs locked 
 - [[Armbar Control]] - Common transition
 - [[Williams Guard]] - Related 10th Planet position
 - [[High Guard]] - Foundational position
-
 
 ## Related Positions
 

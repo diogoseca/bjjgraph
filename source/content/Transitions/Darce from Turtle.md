@@ -11,42 +11,42 @@ description: "Learn Darce from Turtle in BJJ. Step-by-step execution from Turtle
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Darce from Turtle",
-  "description": "Learn how to execute Darce from Turtle in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute Darce from Turtle in Brazilian Jiu-Jitsu from Turtle Position Top to Darce Control. Success: Beginner 35%, Intermediate 55%, Advanced 70%.",
   "step": [
     {
       "@type": "HowToStep",
       "name": "Establish Control",
-      "text": "Secure turtle top position with chest pressure and control opponent's far arm",
+      "text": "Secure turtle top position with chest pressure and control opponent's far arm with your hand",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Arm Threading",
-      "text": "Thread your arm under opponent's neck toward their far shoulder, palm down",
+      "text": "Thread your near-side arm under opponent's neck toward their far shoulder, palm down orientation",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Trap Far Arm",
-      "text": "Ensure opponent's far arm is trapped between your body and their neck",
+      "text": "Ensure opponent's far arm is trapped between your chest/arm and their neck - this is critical",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Lock Grip",
-      "text": "Connect hands in figure-four grip, securing bicep around neck",
+      "text": "Connect hands in figure-four grip by grabbing your own bicep, securing choking arm around neck",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Position Adjustment",
-      "text": "Roll to side or adjust angle for optimal shoulder pressure on carotid",
+      "text": "Roll to side or adjust angle so your shoulder is directly on neck's carotid artery",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Apply Pressure",
-      "text": "Squeeze bicep and drive shoulder to create D'arce choke pressure",
+      "text": "Squeeze bicep and drive shoulder forward to create D'arce choke pressure on trapped side",
       "position": 6
     }
   ],
@@ -58,6 +58,23 @@ description: "Learn Darce from Turtle in BJJ. Step-by-step execution from Turtle
   "totalTime": "PT5M"
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Darce from Turtle",
+  "description": "Learn Darce from Turtle in BJJ. Step-by-step execution from Turtle Top to Darce Control. Success: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Darce-from-Turtle",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,39 +84,24 @@ description: "Learn Darce from Turtle in BJJ. Step-by-step execution from Turtle
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Darce from Turtle",
-      "item": "https://bjjgraph.com/transitions/darce-from-turtle"
+      "item": "https://bjjgraph.org/Transitions/Darce-from-Turtle"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Darce from Turtle",
-  "description": "Learn Darce from Turtle in BJJ. Step-by-step execution from Turtle Top to Darce Control. Success: Beginner 35%, Intermediate 55%, Advanced 70%.",
-  "url": "https://bjjgraph.com/transitions/darce-from-turtle",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Darce from Turtle
 #bjj #transition #submission_setup #turtle #front_headlock #nogi

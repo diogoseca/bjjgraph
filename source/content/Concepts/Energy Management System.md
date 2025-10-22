@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Energy Management System",
   "description": "The Energy Management System represents a comprehensive strategic framework for optimizing energy expenditure, physiological resource allocation, and strategic pacing in BJJ. Unlike technique-focus...",
-  "url": "https://bjjgraph.com/concepts/energy-management-system",
+  "url": "https://bjjgraph.org/Concepts/Energy-Management-System",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Energy Management System",
-      "item": "https://bjjgraph.com/concepts/energy-management-system"
+      "item": "https://bjjgraph.org/Concepts/Energy-Management-System"
     }
   ]
 }

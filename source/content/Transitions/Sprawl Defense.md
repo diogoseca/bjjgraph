@@ -37,6 +37,106 @@ related_positions: ["Standing", "Sprawl Position", "Front Headlock"]
 related_techniques: ["Crossface", "Front Headlock", "Guillotine Setup"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Sprawl Defense",
+  "description": "Learn how to execute Sprawl Defense in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Maintain ready stance with good posture, recognize level change or shooting motion early",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Begin moving hips back immediately upon recognizing takedown attempt",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Explosion",
+      "text": "Throw hips back explosively while extending legs straight behind you",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Weight Transfer",
+      "text": "Drive chest and weight down onto opponent's shoulders and upper back",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Control Establishment",
+      "text": "Establish crossface, underhooks, or front headlock control with hands",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Maintain sprawling pressure then transition to offense or reset to standing",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sprawl Defense",
+  "description": "Learn Sprawl Defense in BJJ. Step-by-step execution from Standing to Sprawl Position. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Transitions/Sprawl-Defense",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Sprawl Defense",
+      "item": "https://bjjgraph.org/Transitions/Sprawl-Defense"
+    }
+  ]
+}
+</script>
+
+
 # Sprawl Defense
 #bjj #transition #defense #wrestling #takedown
 

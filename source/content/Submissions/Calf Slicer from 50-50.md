@@ -92,6 +92,50 @@ author: "BJJ Graph System - Agent 10"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Calf Slicer from 50-50",
+  "description": "Master Calf Slicer from 50-50 Guard in BJJ. Complete guide covering safe setup, execution, defenses, and injury prevention. Success: Beginner 15%, Intermediate 35%, Advanced 55%.",
+  "url": "https://bjjgraph.org/Submissions/Calf-Slicer-from-50-50",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calf Slicer from 50-50",
+      "item": "https://bjjgraph.org/Submissions/Calf-Slicer-from-50-50"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Calf Slicer from 50-50 is a compression submission targeting the calf muscle. Terminal state with HIGH injury risk. Often used as counter to opponent's leg attack attempts.

@@ -11,7 +11,7 @@ description: "Learn Fireman's Carry in BJJ. Step-by-step execution. Success: Beg
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Fireman's Carry",
-  "description": "Learn how to execute Fireman's Carry in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute Fireman's Carry in Brazilian Jiu-Jitsu from Standing Position to Top Position. Success: Beginner 30%, Intermediate 55%, Advanced 70%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -73,7 +73,24 @@ description: "Learn Fireman's Carry in BJJ. Step-by-step execution. Success: Beg
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT5M"
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Fireman's Carry",
+  "description": "Learn Fireman's Carry in BJJ. Step-by-step execution. Success: Beginner 30%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Fireman's-Carry",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -85,39 +102,24 @@ description: "Learn Fireman's Carry in BJJ. Step-by-step execution. Success: Beg
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Fireman's Carry",
-      "item": "https://bjjgraph.com/transitions/firemans-carry"
+      "item": "https://bjjgraph.org/Transitions/Firemans-Carry"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Fireman's Carry",
-  "description": "Learn Fireman's Carry in BJJ. Step-by-step execution. Success: Beginner 30%, Intermediate 55%, Advanced 70%.",
-  "url": "https://bjjgraph.com/transitions/fireman's-carry",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Fireman's Carry
 #bjj #transition #takedown #wrestling #dynamic

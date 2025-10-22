@@ -25,7 +25,7 @@ import re
 import json
 from pathlib import Path
 
-SITE_URL = "https://bjjgraph.com"
+SITE_URL = "https://bjjgraph.org"
 
 def extract_page_name(content, filename):
     """Extract page name from title or heading."""
@@ -51,10 +51,10 @@ def extract_page_name(content, filename):
 def slug_from_filename(filename):
     """Convert filename to URL slug."""
     slug = filename.replace('.md', '')
-    # Convert spaces and special characters to hyphens
-    slug = re.sub(r'[^\w\s-]', '', slug)
-    slug = re.sub(r'[-\s]+', '-', slug)
-    slug = slug.lower()
+    # Convert spaces to hyphens, keep case to match Quartz output
+    slug = slug.replace(' ', '-')
+    # Remove special characters except hyphens
+    slug = re.sub(r'[^\w-]', '', slug)
     return slug
 
 def generate_breadcrumb_schema(category, page_name, page_slug):
@@ -296,7 +296,7 @@ def main():
     """Main function to process all markdown files."""
     # Get the content directory
     script_dir = Path(__file__).parent
-    content_dir = script_dir.parent / 'source' / 'content'
+    content_dir = script_dir.parent.parent / 'source' / 'content'
 
     if not content_dir.exists():
         print(f"❌ Error: Content directory not found at {content_dir}")
@@ -316,35 +316,35 @@ def main():
 
     # Process Positions
     positions_dir = content_dir / 'Positions'
-    pos_updated, pos_skipped = process_directory(positions_dir, 'positions', 'Positions')
+    pos_updated, pos_skipped = process_directory(positions_dir, 'Positions', 'Positions')
     total_updated += pos_updated
     total_skipped += pos_skipped
     total_files += pos_updated + pos_skipped
 
     # Process Transitions
     transitions_dir = content_dir / 'Transitions'
-    trans_updated, trans_skipped = process_directory(transitions_dir, 'transitions', 'Transitions')
+    trans_updated, trans_skipped = process_directory(transitions_dir, 'Transitions', 'Transitions')
     total_updated += trans_updated
     total_skipped += trans_skipped
     total_files += trans_updated + trans_skipped
 
     # Process Submissions
     submissions_dir = content_dir / 'Submissions'
-    sub_updated, sub_skipped = process_directory(submissions_dir, 'submissions', 'Submissions')
+    sub_updated, sub_skipped = process_directory(submissions_dir, 'Submissions', 'Submissions')
     total_updated += sub_updated
     total_skipped += sub_skipped
     total_files += sub_updated + sub_skipped
 
     # Process Concepts
     concepts_dir = content_dir / 'Concepts'
-    con_updated, con_skipped = process_directory(concepts_dir, 'concepts', 'Concepts')
+    con_updated, con_skipped = process_directory(concepts_dir, 'Concepts', 'Concepts')
     total_updated += con_updated
     total_skipped += con_skipped
     total_files += con_updated + con_skipped
 
     # Process Systems
     systems_dir = content_dir / 'Systems'
-    sys_updated, sys_skipped = process_directory(systems_dir, 'systems', 'Systems')
+    sys_updated, sys_skipped = process_directory(systems_dir, 'Systems', 'Systems')
     total_updated += sys_updated
     total_skipped += sys_skipped
     total_files += sys_updated + sys_skipped

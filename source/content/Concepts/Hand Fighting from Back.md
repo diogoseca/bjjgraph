@@ -46,6 +46,50 @@ application_contexts:
 tags: [bjj, concept, defense, back-control, hand-fighting, intermediate]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hand Fighting from Back",
+  "description": "Hand Fighting from Back represents the critical defensive skill set required when an opponent has achieved back control and is attempting to establish choking attacks, particularly the rear naked c...",
+  "url": "https://bjjgraph.org/Concepts/Hand-Fighting-from-Back",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Hand Fighting from Back",
+      "item": "https://bjjgraph.org/Concepts/Hand-Fighting-from-Back"
+    }
+  ]
+}
+</script>
+
+
 # Hand Fighting from Back
 #bjj #concept #defense #back-control #hand-fighting
 

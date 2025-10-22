@@ -11,7 +11,7 @@ description: "Learn Double Leg Entry in BJJ. Step-by-step execution from Standin
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Double Leg Entry",
-  "description": "Learn how to execute Double Leg Entry in Brazilian Jiu-Jitsu from Standing Position to Double Leg Takedown Setup. Success: Beginner 55%, Intermediate 70%, Advanced 85%.",
+  "description": "Learn how to execute Double Leg Entry in Brazilian Jiu-Jitsu from Standing Position to Double leg takedown. Success: Beginner 55%, Intermediate 70%, Advanced 85%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -79,16 +79,14 @@ description: "Learn Double Leg Entry in BJJ. Step-by-step execution from Standin
   "@type": "WebPage",
   "name": "Double Leg Entry",
   "description": "Learn Double Leg Entry in BJJ. Step-by-step execution from Standing Position to Double Leg Takedown Setup. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/double-leg-entry",
+  "url": "https://bjjgraph.org/Transitions/Double-Leg-Entry",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Double Leg Entry in BJJ. Step-by-step execution from Standin
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Double Leg Entry",
-      "item": "https://bjjgraph.com/transitions/double-leg-entry"
+      "item": "https://bjjgraph.org/Transitions/Double-Leg-Entry"
     }
   ]
 }
@@ -309,7 +307,6 @@ The Double Leg Entry has proven highly effective in competition contexts across 
 - Gi competition: Can be adapted with grip fighting to create entry opportunities.
 - No-gi competition: Relies heavily on timing and level change speed for success.
 - MMA crossover: Modified for striking defense awareness, offers safe takedown entry.
-
 
 ## Related Techniques
 

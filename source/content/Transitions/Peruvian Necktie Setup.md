@@ -33,6 +33,106 @@ related_positions: ["Front Headlock Control Position", "Turtle Position Top"]
 related_techniques: ["Peruvian Necktie", "Darce Choke", "Japanese Necktie"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Peruvian Necktie Setup",
+  "description": "Learn how to execute Peruvian Necktie Setup in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Front headlock established, opponent turtled",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Arm Threading",
+      "text": "Thread arm around neck from unconventional angle",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Near Arm Control",
+      "text": "Trap opponent's near arm against their neck",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Rolling Motion",
+      "text": "Roll over your opposite shoulder pulling opponent",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Position Establishment",
+      "text": "Land in inverted position with choke locked",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Apply pressure by extending and arching back",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Peruvian Necktie Setup",
+  "description": "Learn Peruvian Necktie Setup in BJJ. Step-by-step execution from Front Headlock to Peruvian Necktie position. Success: Beginner 20%, Intermediate 35%, Advanced 50%.",
+  "url": "https://bjjgraph.org/Transitions/Peruvian-Necktie-Setup",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Peruvian Necktie Setup",
+      "item": "https://bjjgraph.org/Transitions/Peruvian-Necktie-Setup"
+    }
+  ]
+}
+</script>
+
+
 # Peruvian Necktie Setup
 #bjj #transition #submission_setup #front_headlock #advanced
 

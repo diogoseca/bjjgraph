@@ -38,6 +38,106 @@ related_positions: ["Submission Position", "Guard Recovery", "Defensive Position
 related_techniques: ["Hip Escape", "Bridge and Roll", "Frame Creation", "Posture Recovery"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Submission Counter",
+  "description": "Learn how to execute Submission Counter in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Recognition Phase",
+      "text": "Immediately identify the submission type and assess your current vulnerability level",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Defensive Structure",
+      "text": "Create emergency frames and protective positioning (chin tuck, elbow position, leg withdrawal)",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Space Creation",
+      "text": "Generate critical space through hip escape, bridge, or explosive movement",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Mechanical Counter",
+      "text": "Execute submission-specific counter (arm straightening for armbar, posture for triangle, etc.)",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Position Transition",
+      "text": "Use created space to move toward safer position (guard, scramble, standing)",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Establish defensive control and reset to neutral or advantageous position",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Submission Counter",
+  "description": "Learn Submission Counter in BJJ. Step-by-step defensive response when caught in submission attempts. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Submission-Counter",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Submission Counter",
+      "item": "https://bjjgraph.org/Transitions/Submission-Counter"
+    }
+  ]
+}
+</script>
+
+
 # Submission Counter
 #bjj #transition #counter #defense #submission_defense
 

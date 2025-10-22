@@ -381,7 +381,7 @@ def has_schema_markup(content: str) -> bool:
 
 def process_transition_file(filepath: Path) -> bool:
     """Process a single transition file."""
-    with open(filepath, 'r', encoding='utf-8') as f:
+    with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
         content = f.read()
 
     # Skip if already has schema
@@ -441,7 +441,7 @@ def process_transition_file(filepath: Path) -> bool:
 def main():
     """Main function to process all transition files."""
     script_dir = Path(__file__).parent
-    transitions_dir = script_dir.parent / 'source' / 'content' / 'Transitions'
+    transitions_dir = script_dir.parent.parent / 'source' / 'content' / 'Transitions'
 
     if not transitions_dir.exists():
         print(f"❌ Error: Transitions directory not found at {transitions_dir}")

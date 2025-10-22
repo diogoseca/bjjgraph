@@ -15,33 +15,21 @@ description: "Master Turtle Position Top in BJJ. Complete guide covering back ta
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Top Control on Turtle",
-      "text": "Control opponent's turtle position with seatbelt grip or harness control, preventing them from standing or returning to guard.",
+      "name": "Execute Sit Through to Guard",
+      "text": "From Turtle Position Top, execute Sit Through to Guard to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "Insert hooks and transition to back control by controlling hips and establishing harness position.",
+      "name": "Execute Stand Up from Turtle",
+      "text": "From Turtle Position Top, execute Stand Up from Turtle to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle Breakdown",
-      "text": "Break opponent flat to the mat by removing their posting arms and collapsing their base.",
+      "name": "Execute Roll Through",
+      "text": "From Turtle Position Top, execute Roll Through to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Submission Attack",
-      "text": "Apply guillotine, darce, or anaconda choke from top turtle position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Crucifix Entry",
-      "text": "Trap both arms and transition to crucifix position for submissions or back control.",
-      "position": 5
     }
   ],
   "tool": [
@@ -50,6 +38,40 @@ description: "Master Turtle Position Top in BJJ. Complete guide covering back ta
     "Mat space"
   ],
   "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Turtle Position Top?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Active Control Seeking**: Constantly work to improve control - turtle is a transitional position, not a resting position"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Turtle Position Top",
+  "description": "Master Turtle Position Top in BJJ. Complete guide covering back takes, breakdowns, and submissions. Control position with 75% back take probability and 50% submission rate.",
+  "url": "https://bjjgraph.org/Positions/Turtle-Position-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -61,40 +83,24 @@ description: "Master Turtle Position Top in BJJ. Complete guide covering back ta
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Turtle Position Top",
-      "item": "https://bjjgraph.com/positions/turtle-position-top"
+      "item": "https://bjjgraph.org/Positions/Turtle-Position-Top"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Turtle Position Top",
-  "description": "Master Turtle Position Top in BJJ. Complete guide covering back takes, breakdowns, and submissions. Control position with 75% back take probability and 50% submission rate.",
-  "url": "https://bjjgraph.com/positions/turtle-position-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Turtle Position Top
 #bjj #state #control #turtle #transitional

@@ -79,16 +79,14 @@ description: "Learn Hip Escape in BJJ. Step-by-step execution. Complete techniqu
   "@type": "WebPage",
   "name": "Hip Escape",
   "description": "Learn Hip Escape in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/hip-escape",
+  "url": "https://bjjgraph.org/Transitions/Hip-Escape",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Hip Escape in BJJ. Step-by-step execution. Complete techniqu
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Hip Escape",
-      "item": "https://bjjgraph.com/transitions/hip-escape"
+      "item": "https://bjjgraph.org/Transitions/Hip-Escape"
     }
   ]
 }

@@ -3,6 +3,8 @@ title: "Spider Guard Bottom | BJJ Position Guide | BJJ Graph"
 description: "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve control, sweeps, and distance management. Success rates: Beginner 45%, Intermediate 62%, Advanced 76%."
 ---
 
+
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -13,33 +15,9 @@ description: "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Spider Guard Sweep",
-      "text": "From this position, execute Spider Guard Sweep to transition to Top Position.",
+      "name": "Execute You're Bottom)",
+      "text": "From this position, execute You're Bottom) to transition to Next Position.",
       "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Triangle Setup",
-      "text": "From this position, execute Triangle Setup to transition to Triangle Control.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Omoplata Entry",
-      "text": "From this position, execute Omoplata Entry to transition to Omoplata Control.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Armbar Setup",
-      "text": "From this position, execute Armbar Setup to transition to Armbar Control.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Lasso Transition",
-      "text": "From this position, execute Lasso Transition to transition to Lasso Guard.",
-      "position": 5
     }
   ],
   "tool": [
@@ -48,6 +26,24 @@ description: "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve 
     "Mat space"
   ],
   "totalTime": "PT5M"
+}
+</script>
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Spider Guard Bottom",
+  "description": "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve control, sweeps, and distance management. Success rates: Beginner 45%, Intermediate 62%, Advanced 76%.",
+  "url": "https://bjjgraph.org/Positions/Spider-Guard-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -59,38 +55,24 @@ description: "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Spider Guard Bottom",
-      "item": "https://bjjgraph.com/positions/spider-guard-bottom"
+      "item": "https://bjjgraph.org/Positions/Spider-Guard-Bottom"
     }
   ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Spider Guard Bottom",
-  "description": "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve control, sweeps, and distance management. Success rates: Beginner 45%, Intermediate 62%, Advanced 76%.",
-  "url": "https://bjjgraph.com/positions/spider-guard-bottom",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Spider Guard Bottom
 #bjj #state #spiderguard #gi #openguard

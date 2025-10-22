@@ -3,6 +3,7 @@ title: "Kimura from Side Control | BJJ Submission Guide | BJJ Graph"
 description: "Master Kimura from Side Control in BJJ. Complete guide covering setup, execution, safety protocols, and injury prevention. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "Master Kimura from Side Control in BJJ. Complete guide covering se
   "@type": "WebPage",
   "name": "Kimura from Side Control",
   "description": "Master Kimura from Side Control in BJJ. Complete guide covering setup, execution, safety protocols, and injury prevention. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
-  "url": "https://bjjgraph.com/submissions/kimura-from-side-control",
+  "url": "https://bjjgraph.org/Submissions/Kimura-from-Side-Control",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "Master Kimura from Side Control in BJJ. Complete guide covering se
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Kimura from Side Control",
-      "item": "https://bjjgraph.com/submissions/kimura-from-side-control"
+      "item": "https://bjjgraph.org/Submissions/Kimura-from-Side-Control"
     }
   ]
 }
 </script>
+
 
 # Kimura from Side Control
 #bjj #submission #joint_lock #side_control

@@ -37,6 +37,106 @@ related_positions: ["Mount Bottom", "Half Guard Bottom", "Guard Bottom"]
 related_techniques: ["Bridge and Roll", "Shrimp Escape", "Hip Escape"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Elbow Escape",
+  "description": "Learn how to execute Elbow Escape in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish defensive posture with hands protecting neck, identify which foot to trap based on opponent's base",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Foot Trap",
+      "text": "Hook opponent's foot with your same-side foot, securing it to prevent posting and base",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Bridge Execution",
+      "text": "Bridge explosively toward the trapped side, elevating hips high and turning slightly into opponent",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Escape",
+      "text": "As you land from bridge, immediately shrimp hips out toward the trapped side",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Elbow Insertion",
+      "text": "Drive elbow into the space created between you and opponent, followed by knee",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Complete half guard recovery by securing trapped leg with both legs and establishing frames",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Elbow Escape",
+  "description": "Learn Elbow Escape in BJJ. Step-by-step execution from Mount Bottom to Half Guard Bottom. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Elbow-Escape",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Elbow Escape",
+      "item": "https://bjjgraph.org/Transitions/Elbow-Escape"
+    }
+  ]
+}
+</script>
+
+
 # Elbow Escape
 #bjj #transition #escape #mount #fundamental
 

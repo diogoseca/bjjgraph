@@ -58,6 +58,72 @@ description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, co
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Passive legs/feet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Easily bypassed barriers"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Overextending arms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to grip breaks and armbars"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Disconnected upper and lower body?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Passing lanes"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Static positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Predictable patterns"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor distance management?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to pressure and smashing"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Open Guard Bottom",
+  "description": "Master Open Guard Bottom in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%.",
+  "url": "https://bjjgraph.org/Positions/Open-Guard-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, co
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Open Guard Bottom",
-      "item": "https://bjjgraph.com/positions/open-guard-bottom"
+      "item": "https://bjjgraph.org/Positions/Open-Guard-Bottom"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Open Guard Bottom",
-  "description": "Master Open Guard Bottom in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%.",
-  "url": "https://bjjgraph.com/positions/open-guard-bottom",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Open Guard Bottom
 #bjj #state #guard #open_guard #bottom
@@ -190,7 +240,6 @@ You are on your back or partially seated with your legs actively engaged but not
 - [[Seated Guard]] - Upright open guard position
 - [[X-Guard]] - Open guard with leg positioning under and around opponent's leg
 - [[Single Leg X Guard]] - Modified X-guard targeting one leg
-
 
 ## Related Positions
 

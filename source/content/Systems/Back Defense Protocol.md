@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Back Defense Protocol",
   "description": "The Back Defense Protocol represents a comprehensive defensive system for addressing one of BJJ's most dominant controlling positions. Unlike isolated escape techniques, this protocol establishes a...",
-  "url": "https://bjjgraph.com/systems/back-defense-protocol",
+  "url": "https://bjjgraph.org/Systems/Back-Defense-Protocol",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Systems",
-      "item": "https://bjjgraph.com/systems/"
+      "item": "https://bjjgraph.org/Systems/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Back Defense Protocol",
-      "item": "https://bjjgraph.com/systems/back-defense-protocol"
+      "item": "https://bjjgraph.org/Systems/Back-Defense-Protocol"
     }
   ]
 }

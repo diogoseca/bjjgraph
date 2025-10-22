@@ -49,6 +49,50 @@ application_contexts:
 tags: [bjj, concept, intermediate, passing, pressure, guard-passing]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pressure Passing",
+  "description": "Pressure Passing represents the strategic framework of using forward pressure, weight distribution, and body positioning to systematically flatten opponent's guard, eliminate space for movement, an...",
+  "url": "https://bjjgraph.org/Concepts/Pressure-Passing",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Pressure Passing",
+      "item": "https://bjjgraph.org/Concepts/Pressure-Passing"
+    }
+  ]
+}
+</script>
+
+
 # Pressure Passing
 #bjj #concept #intermediate #passing #pressure
 

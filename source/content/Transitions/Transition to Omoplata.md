@@ -79,16 +79,14 @@ description: "Learn Transition to Omoplata in BJJ. Step-by-step execution. Compl
   "@type": "WebPage",
   "name": "Transition to Omoplata",
   "description": "Learn Transition to Omoplata in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/transition-to-omoplata",
+  "url": "https://bjjgraph.org/Transitions/Transition-to-Omoplata",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Transition to Omoplata in BJJ. Step-by-step execution. Compl
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Transition to Omoplata",
-      "item": "https://bjjgraph.com/transitions/transition-to-omoplata"
+      "item": "https://bjjgraph.org/Transitions/Transition-to-Omoplata"
     }
   ]
 }
@@ -336,7 +334,6 @@ Updates to this standard should be reflected across related transition setup fil
 
 ## Historical Context
 Transition to Omoplata has been a technical staple in Brazilian Jiu-Jitsu, particularly in sport contexts where guard attacks are prioritized. It reflects the strategic emphasis on submission chains taught by modern BJJ schools and has been popularized by competitors like Clark Gracie to counter aggressive top players.
-
 
 ## Related Techniques
 

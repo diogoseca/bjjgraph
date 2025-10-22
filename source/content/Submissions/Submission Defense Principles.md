@@ -3,6 +3,7 @@ title: "Submission Defense Principles | BJJ Submission Guide | BJJ Graph"
 description: "The Submission Defense Principles system represents a comprehensive framework for defending against the full spectrum of submission attacks in Brazilian Jiu-Jitsu. Rather than presenting isolated d..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "The Submission Defense Principles system represents a comprehensiv
   "@type": "WebPage",
   "name": "Submission Defense Principles",
   "description": "The Submission Defense Principles system represents a comprehensive framework for defending against the full spectrum of submission attacks in Brazilian Jiu-Jitsu. Rather than presenting isolated d...",
-  "url": "https://bjjgraph.com/submissions/submission-defense-principles",
+  "url": "https://bjjgraph.org/Submissions/Submission-Defense-Principles",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "The Submission Defense Principles system represents a comprehensiv
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Submission Defense Principles",
-      "item": "https://bjjgraph.com/submissions/submission-defense-principles"
+      "item": "https://bjjgraph.org/Submissions/Submission-Defense-Principles"
     }
   ]
 }
 </script>
+
 
 # Submission Defense Principles
 #bjj #defense #system #submission #principles #escapes

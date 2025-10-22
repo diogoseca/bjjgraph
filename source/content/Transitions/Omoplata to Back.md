@@ -37,6 +37,106 @@ related_positions: ["Omoplata Control", "Back Control", "Closed Guard Bottom"]
 related_techniques: ["Omoplata", "Back Take", "Omoplata to Sweep"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Omoplata to Back",
+  "description": "Learn how to execute Omoplata to Back in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Omoplata Assessment",
+      "text": "From omoplata control, recognize opponent maintaining strong base preventing finish",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Sitting Up",
+      "text": "Sit up fully behind opponent's trapped shoulder, establishing hand base on mat",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Leg Removal",
+      "text": "Remove leg from over shoulder while maintaining arm isolation and position pressure",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "First Hook Establishment",
+      "text": "Plant removed leg on mat and immediately establish first hook on near hip",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Body Transition",
+      "text": "Climb onto opponent's back, rotating from perpendicular to parallel position",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Second Hook & Control",
+      "text": "Secure second hook on far hip and establish seatbelt control for back mount",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Omoplata to Back",
+  "description": "Learn Omoplata to Back transition in BJJ. Step-by-step execution from Omoplata Control to Back Control. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Omoplata-to-Back",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Omoplata to Back",
+      "item": "https://bjjgraph.org/Transitions/Omoplata-to-Back"
+    }
+  ]
+}
+</script>
+
+
 # Omoplata to Back
 #bjj #transition #back_take #omoplata #advanced
 

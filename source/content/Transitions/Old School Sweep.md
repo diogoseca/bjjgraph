@@ -33,6 +33,88 @@ related_positions: ["Half Guard Bottom", "Top Position"]
 related_techniques: ["Underhook Sweep from Half", "Lockdown Sweeps", "Half Guard System"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Old School Sweep",
+  "description": "Learn how to execute Old School Sweep in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Position",
+      "text": "Begin the Old School Sweep from the starting position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Technique",
+      "text": "Execute the Old School Sweep technique with proper form and timing.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Complete Transition",
+      "text": "Complete the technique and establish control.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT2M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Old School Sweep",
+  "description": "Learn Old School Sweep from Half Guard in BJJ. Step-by-step execution to top position. Success: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Old-School-Sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Old School Sweep",
+      "item": "https://bjjgraph.org/Transitions/Old-School-Sweep"
+    }
+  ]
+}
+</script>
+
+
 # Old School Sweep
 
 From half guard bottom, you trap opponent's arm overhead while rolling backwards over your shoulder to sweep them. Classic half guard sweep requiring precise timing and coordination but highly effective when executed properly.

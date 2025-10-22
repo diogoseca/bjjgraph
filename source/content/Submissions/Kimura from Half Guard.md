@@ -74,6 +74,7 @@ author: "BJJGraph System - Agent 8"
 version: "2.0"
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -81,15 +82,14 @@ version: "2.0"
   "@type": "WebPage",
   "name": "Kimura from Half Guard",
   "description": "Master Kimura from Half Guard in BJJ. Complete guide covering setup, execution, safety protocols, and injury prevention. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.",
-  "url": "https://bjjgraph.com/submissions/kimura-from-half-guard",
+  "url": "https://bjjgraph.org/Submissions/Kimura-from-Half-Guard",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -99,23 +99,24 @@ version: "2.0"
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Kimura from Half Guard",
-      "item": "https://bjjgraph.com/submissions/kimura-from-half-guard"
+      "item": "https://bjjgraph.org/Submissions/Kimura-from-Half-Guard"
     }
   ]
 }
 </script>
+
 
 # Kimura from Half Guard
 #bjj #submission #joint_lock #half_guard #safety_critical

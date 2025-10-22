@@ -214,8 +214,8 @@ state_machine:
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Choke",
-      "text": "From this position, execute Triangle Choke to transition to Triangle Control.",
+      "name": "Execute Triangle Choke Side",
+      "text": "From this position, execute Triangle Choke Side to transition to Triangle Control.",
       "position": 4
     },
     {
@@ -297,16 +297,14 @@ state_machine:
   "@type": "WebPage",
   "name": "Closed Guard Bottom",
   "description": "Master Closed Guard Bottom in BJJ. Complete guide covering setup, control, sweeps, and submissions. Success rates: Beginner 60%, Intermediate 70%, Advanced 80%.",
-  "url": "https://bjjgraph.com/positions/closed-guard-bottom-v2",
+  "url": "https://bjjgraph.org/Positions/Closed-Guard-Bottom-V2",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -316,19 +314,19 @@ state_machine:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Closed Guard Bottom",
-      "item": "https://bjjgraph.com/positions/closed-guard-bottom-v2"
+      "item": "https://bjjgraph.org/Positions/Closed-Guard-Bottom-V2"
     }
   ]
 }

@@ -183,33 +183,39 @@ state_machine:
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish High Mount",
-      "text": "Walk your knees up towards opponent's armpits, raising your hips high on their chest.",
+      "name": "Execute Ezekiel Choke",
+      "text": "From this position, execute Ezekiel Choke to transition to Won by Submission.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Control Posture",
-      "text": "Maintain upright posture with weight forward, controlling opponent's head and arms.",
+      "name": "Execute Americana from High Mount",
+      "text": "From this position, execute Americana from High Mount to transition to Won by Submission.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar",
-      "text": "When opponent extends arms defensively, execute armbar transition to Armbar Control.",
+      "name": "Execute Armbar from High Mount",
+      "text": "From this position, execute Armbar from High Mount to transition to Armbar Control.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Apply Ezekiel Choke",
-      "text": "If opponent frames, slide forearm under their neck for Ezekiel Choke submission.",
+      "name": "Execute Cross Collar Choke from Mount",
+      "text": "From this position, execute Cross Collar Choke from Mount to transition to Won by Submission.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Transition to S-Mount",
-      "text": "For maximum control, transition to S-Mount by sliding knee up near opponent's head.",
+      "name": "Execute S-Mount Transition",
+      "text": "From this position, execute S-Mount Transition to transition to S-Mount Top.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Technical Mount Transition",
+      "text": "From this position, execute Technical Mount Transition to transition to Technical Mount Top.",
+      "position": 6
     }
   ],
   "tool": [
@@ -278,16 +284,14 @@ state_machine:
   "@type": "WebPage",
   "name": "High Mount Top",
   "description": "Master High Mount Top in BJJ. Complete guide covering advanced mount control, submissions, and dominance. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
-  "url": "https://bjjgraph.com/positions/high-mount-top",
+  "url": "https://bjjgraph.org/Positions/High-Mount-Top",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -297,19 +301,19 @@ state_machine:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "High Mount Top",
-      "item": "https://bjjgraph.com/positions/high-mount-top"
+      "item": "https://bjjgraph.org/Positions/High-Mount-Top"
     }
   ]
 }

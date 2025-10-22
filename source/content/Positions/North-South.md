@@ -58,6 +58,72 @@ description: "Master North-South in BJJ. Complete guide covering setup, control,
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Lifting head too high?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Creating space"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Narrow base?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to being rolled"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Insufficient arm control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Allowing defensive frames"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Passive positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Missing offensive opportunities"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor weight distribution?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reduced pressure effectiveness"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "North-South",
+  "description": "Master North-South in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 85%.",
+  "url": "https://bjjgraph.org/Positions/North-South",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master North-South in BJJ. Complete guide covering setup, control,
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "North-South",
-      "item": "https://bjjgraph.com/positions/north-south"
+      "item": "https://bjjgraph.org/Positions/North-South"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "North-South",
-  "description": "Master North-South in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 85%.",
-  "url": "https://bjjgraph.com/positions/north-south",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # North-South
 #bjj #state #pin #control #north_south
@@ -184,7 +234,6 @@ North-South is a dominant control position where the top player lies perpendicul
 - [[Mount]] - Vertical pin position
 - [[Reverse North-South]] - Inverted variation
 - [[Front Headlock]] - Related upper body control position
-
 
 ## Related Positions
 

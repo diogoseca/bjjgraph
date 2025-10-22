@@ -11,7 +11,7 @@ description: "Learn Balloon Sweep in BJJ. Step-by-step execution from Closed Gua
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Balloon Sweep",
-  "description": "Learn how to execute Balloon Sweep in Brazilian Jiu-Jitsu from Closed Guard Bottom to Mount.",
+  "description": "Learn how to execute Balloon Sweep in Brazilian Jiu-Jitsu from Closed Guard Bottom to Mount. Success: Beginner 35%, Intermediate 60%, Advanced 80%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -58,6 +58,23 @@ description: "Learn Balloon Sweep in BJJ. Step-by-step execution from Closed Gua
   "totalTime": "PT5M"
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Balloon Sweep",
+  "description": "Learn Balloon Sweep in BJJ. Step-by-step execution from Closed Guard Bottom to Mount. Success: Beginner 35%, Intermediate 60%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Transitions/Balloon-Sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,39 +84,24 @@ description: "Learn Balloon Sweep in BJJ. Step-by-step execution from Closed Gua
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Balloon Sweep",
-      "item": "https://bjjgraph.com/transitions/balloon-sweep"
+      "item": "https://bjjgraph.org/Transitions/Balloon-Sweep"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Balloon Sweep",
-  "description": "Learn Balloon Sweep in BJJ. Step-by-step execution from Closed Guard Bottom to Mount. Success: Beginner 35%, Intermediate 60%, Advanced 80%.",
-  "url": "https://bjjgraph.com/transitions/balloon-sweep",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Balloon Sweep
 #bjj #transition #sweep #closed_guard #fundamental
@@ -325,7 +327,6 @@ Updates to this standard should be reflected across all transition files to main
 - [[Hip Bump Sweep]] - Related technique
 - [[Scissor Sweep]] - Related technique
 - [[Waiter Sweep]] - Related technique
-
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points) plus mount (4 points)

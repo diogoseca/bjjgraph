@@ -3,6 +3,7 @@ title: "Kimura | BJJ Submission Guide | BJJ Graph"
 description: "From a dominant position like Side Control or Half Guard Top, or even a defensive position like Closed Guard Bottom, you begin by controlling the opponent's wrist or forearm with your same-side..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "From a dominant position like Side Control or Half Guard Top, or e
   "@type": "WebPage",
   "name": "Kimura",
   "description": "From a dominant position like Side Control or Half Guard Top, or even a defensive position like Closed Guard Bottom, you begin by controlling the opponent's wrist or forearm with your same-side...",
-  "url": "https://bjjgraph.com/submissions/kimura",
+  "url": "https://bjjgraph.org/Submissions/Kimura",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "From a dominant position like Side Control or Half Guard Top, or e
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Kimura",
-      "item": "https://bjjgraph.com/submissions/kimura"
+      "item": "https://bjjgraph.org/Submissions/Kimura"
     }
   ]
 }
 </script>
+
 
 # Kimura
 #bjj #transition #submission #jointlock #shoulder_lock

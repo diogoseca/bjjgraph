@@ -63,16 +63,14 @@ description: "Master Half Guard to Back Take in BJJ. Complete guide covering set
   "@type": "WebPage",
   "name": "Half Guard to Back Take",
   "description": "Master Half Guard to Back Take in BJJ. Complete guide covering setup, control, escapes, and transitions.",
-  "url": "https://bjjgraph.com/positions/half-guard-to-back-take",
+  "url": "https://bjjgraph.org/Positions/Half-Guard-to-Back-Take",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,19 +80,19 @@ description: "Master Half Guard to Back Take in BJJ. Complete guide covering set
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Half Guard to Back Take",
-      "item": "https://bjjgraph.com/positions/half-guard-to-back-take"
+      "item": "https://bjjgraph.org/Positions/Half-Guard-to-Back-Take"
     }
   ]
 }

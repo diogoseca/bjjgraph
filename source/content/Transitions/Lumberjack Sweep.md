@@ -11,7 +11,7 @@ description: "Learn Lumberjack Sweep in BJJ. Step-by-step execution. Success: Be
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Lumberjack Sweep",
-  "description": "Learn how to execute Lumberjack Sweep in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute Lumberjack Sweep in Brazilian Jiu-Jitsu from Closed Guard Bottom to Mount. Success: Beginner 40%, Intermediate 65%, Advanced 80%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -73,7 +73,24 @@ description: "Learn Lumberjack Sweep in BJJ. Step-by-step execution. Success: Be
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT5M"
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lumberjack Sweep",
+  "description": "Learn Lumberjack Sweep in BJJ. Step-by-step execution. Success: Beginner 40%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Transitions/Lumberjack-Sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -85,39 +102,24 @@ description: "Learn Lumberjack Sweep in BJJ. Step-by-step execution. Success: Be
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Lumberjack Sweep",
-      "item": "https://bjjgraph.com/transitions/lumberjack-sweep"
+      "item": "https://bjjgraph.org/Transitions/Lumberjack-Sweep"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Lumberjack Sweep",
-  "description": "Learn Lumberjack Sweep in BJJ. Step-by-step execution. Success: Beginner 40%, Intermediate 65%, Advanced 80%.",
-  "url": "https://bjjgraph.com/transitions/lumberjack-sweep",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Lumberjack Sweep
 #bjj #transition #sweep #closed_guard #fundamental
@@ -350,7 +352,6 @@ Updates to this standard should be reflected across all transition files to main
 - [[De La Riva Sweep]] - Related technique
 - [[Heel Grab Sweep]] - Related technique
 - [[Tripod Sweep]] - Related technique
-
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as sweep (2 points)

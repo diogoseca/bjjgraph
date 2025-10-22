@@ -48,6 +48,50 @@ application_contexts:
 tags: [bjj, concept, intermediate, sweeps, mechanics, reversal]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sweep Mechanics",
+  "description": "Sweep Mechanics represents the biomechanical and tactical principles governing successful reversals from guard positions that transition control from opponent to you. Unlike specific sweep techniqu...",
+  "url": "https://bjjgraph.org/Concepts/Sweep-Mechanics",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Sweep Mechanics",
+      "item": "https://bjjgraph.org/Concepts/Sweep-Mechanics"
+    }
+  ]
+}
+</script>
+
+
 # Sweep Mechanics
 #bjj #concept #intermediate #sweeps #mechanics
 

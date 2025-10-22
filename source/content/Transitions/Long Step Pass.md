@@ -33,6 +33,106 @@ related_positions: ["Open Guard Top", "Side Control Top", "Headquarters Position
 related_techniques: ["Knee Slice Pass", "Leg Drag Pass", "Toreando Pass"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Long Step Pass",
+  "description": "Learn how to execute Long Step Pass in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish grips on both pants near knees or ankles, posture up with good base, control distance",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Drive one knee forward and across, past opponent's near leg, while keeping far hand posted for base",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "They typically try to recover guard with legs, push your knee away, or attempt to frame",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Keep forward pressure on your stepping knee, drag their legs to opposite side with grips, pin legs to mat",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Complete the step by bringing your trailing leg over, establish chest pressure, secure side control grips",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Cross face, underhook, apply full side control pressure to prevent escape attempts",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Long Step Pass",
+  "description": "Learn Long Step Pass in BJJ. Step-by-step execution from Open Guard Top to Side Control Top. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Long-Step-Pass",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Long Step Pass",
+      "item": "https://bjjgraph.org/Transitions/Long-Step-Pass"
+    }
+  ]
+}
+</script>
+
+
 # Long Step Pass
 #bjj #transition #pass #guard
 

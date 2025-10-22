@@ -179,42 +179,42 @@ state_machine:
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Use Kimura Control in BJJ",
-  "description": "Complete guide to executing techniques and transitions from Kimura Control position.",
+  "description": "Complete guide to executing techniques and transitions from Kimura Control.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Figure-Four Grip",
-      "text": "Secure the figure-four grip on opponent's arm with your hands interlocked behind their wrist.",
+      "name": "Execute Kimura Finish",
+      "text": "From this position, execute Kimura Finish to transition to Won by Submission.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Control Opponent's Shoulder",
-      "text": "Apply pressure to opponent's shoulder joint through controlled rotation of the trapped arm.",
+      "name": "Execute Back Take from Kimura",
+      "text": "From this position, execute Back Take from Kimura to transition to Back Control.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura Finish",
-      "text": "From this position, execute Kimura Finish to achieve submission by rotating opponent's arm behind their back.",
+      "name": "Execute Armbar from Guard",
+      "text": "From this position, execute Armbar from Guard to transition to Armbar Control.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Back Take Option",
-      "text": "If opponent rolls to defend, follow their movement to transition to Back Control with superior positioning.",
+      "name": "Execute Sweep from Kimura",
+      "text": "From this position, execute Sweep from Kimura to transition to Top Position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Armbar Alternative",
-      "text": "If opponent straightens their arm, switch to Armbar Control for alternative submission path.",
+      "name": "Execute Triangle from Failed Kimura",
+      "text": "From this position, execute Triangle from Failed Kimura to transition to Triangle Choke Side.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Sweep to Dominance",
-      "text": "Use Kimura grip as lever to sweep opponent and establish top position control.",
+      "name": "Execute Omoplata from Kimura",
+      "text": "From this position, execute Omoplata from Kimura to transition to Omoplata Control.",
       "position": 6
     }
   ],
@@ -237,7 +237,7 @@ state_machine:
       "name": "What is a common mistake in Insufficient figure-four tightness?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to slip their arm out or reduces control, weakening the submission threat and positional dominance. The correction is: Keep your hands tightly interlocked with your wrists close together, eliminating any space in the figure-four configuration."
+        "text": "Allows opponent to slip their arm out or reduces control, weakening the submission threat and positional dominance. The correction is: Keep your hands tightly interlocked with your wrists close together, eliminating any space in the figure-four configuration.\n  - **Recognition**: If you feel the opponent's arm moving independently or your grip feels loose, immediately retighten the lock."
       }
     },
     {
@@ -245,7 +245,7 @@ state_machine:
       "name": "What is a common mistake in Over-rotating too quickly?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Causes opponent to roll out of the submission or injures the shoulder before they can tap safely. The correction is: Apply progressive pressure gradually, allowing your partner time to recognize the submission and tap safely."
+        "text": "Causes opponent to roll out of the submission or injures the shoulder before they can tap safely. The correction is: Apply progressive pressure gradually, allowing your partner time to recognize the submission and tap safely.\n  - **Recognition**: In training, if your partner's body moves suddenly or you hear joint sounds, you're applying pressure too fast."
       }
     },
     {
@@ -253,7 +253,7 @@ state_machine:
       "name": "What is a common mistake in Losing hip position?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Reduces leverage and allows opponent to escape or counter the Kimura control effectively. The correction is: Maintain hip pressure toward opponent's shoulder, keeping your body weight distributed to prevent them from turning into you."
+        "text": "Reduces leverage and allows opponent to escape or counter the Kimura control effectively. The correction is: Maintain hip pressure toward opponent's shoulder, keeping your body weight distributed to prevent them from turning into you.\n  - **Recognition**: If opponent is able to face you or create space between your bodies, your hip position has been compromised."
       }
     },
     {
@@ -261,7 +261,7 @@ state_machine:
       "name": "What is a common mistake in Focusing only on submission?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Limits your options when opponent defends, making you predictable and easier to counter. The correction is: Recognize Kimura as a control position with multiple attack options including sweeps, back takes, and other submissions."
+        "text": "Limits your options when opponent defends, making you predictable and easier to counter. The correction is: Recognize Kimura as a control position with multiple attack options including sweeps, back takes, and other submissions.\n  - **Recognition**: If you're stuck trying to finish while opponent successfully defends, you've missed transition opportunities."
       }
     },
     {
@@ -269,7 +269,7 @@ state_machine:
       "name": "What is a common mistake in Incorrect grip configuration?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Weakens the Kimura lock and reduces your ability to finish or transition to other techniques. The correction is: Ensure proper figure-four with your hand through opponent's elbow, gripping your own wrist to form a strong structural lock."
+        "text": "Weakens the Kimura lock and reduces your ability to finish or transition to other techniques. The correction is: Ensure proper figure-four with your hand through opponent's elbow, gripping your own wrist to form a strong structural lock.\n  - **Recognition**: If opponent can straighten their arm easily or your grip feels unstable, check your hand positioning."
       }
     }
   ]
@@ -284,16 +284,14 @@ state_machine:
   "@type": "WebPage",
   "name": "Kimura Control",
   "description": "Master Kimura Control in BJJ. Complete guide covering setup, control, and submissions from the figure-four shoulder lock position. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.",
-  "url": "https://bjjgraph.com/positions/kimura-control",
+  "url": "https://bjjgraph.org/Positions/Kimura-Control",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -303,19 +301,19 @@ state_machine:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Kimura Control",
-      "item": "https://bjjgraph.com/positions/kimura-control"
+      "item": "https://bjjgraph.org/Positions/Kimura-Control"
     }
   ]
 }

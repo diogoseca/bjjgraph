@@ -17,6 +17,50 @@ success_rate:
 tags: [submission, choke, gi_only, mount, beginner]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Cross Collar Choke",
+  "description": "Master Cross Collar Choke in BJJ. Complete guide. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Submissions/Cross-Collar-Choke",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Cross Collar Choke",
+      "item": "https://bjjgraph.org/Submissions/Cross-Collar-Choke"
+    }
+  ]
+}
+</script>
+
+
 # Cross Collar Choke
 
 ## ⚠️ SAFETY NOTICE

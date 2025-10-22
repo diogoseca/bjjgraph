@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Hand Fighting",
   "description": "Hand Fighting represents the dynamic battle for upper body positional control through strategic management of hand positioning, engagement, and prevention. Unlike grip fighting which focuses specif...",
-  "url": "https://bjjgraph.com/concepts/hand-fighting",
+  "url": "https://bjjgraph.org/Concepts/Hand-Fighting",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Hand Fighting",
-      "item": "https://bjjgraph.com/concepts/hand-fighting"
+      "item": "https://bjjgraph.org/Concepts/Hand-Fighting"
     }
   ]
 }

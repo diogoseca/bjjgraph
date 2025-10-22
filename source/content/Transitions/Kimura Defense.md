@@ -11,7 +11,7 @@ description: "Learn Kimura Defense in BJJ. Step-by-step defensive strategy to es
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Kimura Defense",
-  "description": "Learn how to defend against Kimura attacks in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute Kimura Defense in Brazilian Jiu-Jitsu from Kimura Control to Guard Recovery. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -58,6 +58,23 @@ description: "Learn Kimura Defense in BJJ. Step-by-step defensive strategy to es
   "totalTime": "PT5M"
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura Defense",
+  "description": "Learn Kimura Defense in BJJ. Step-by-step defensive strategy to escape Kimura attacks. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Kimura-Defense",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,39 +84,24 @@ description: "Learn Kimura Defense in BJJ. Step-by-step defensive strategy to es
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Kimura Defense",
-      "item": "https://bjjgraph.com/transitions/kimura-defense"
+      "item": "https://bjjgraph.org/Transitions/Kimura-Defense"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Kimura Defense",
-  "description": "Learn Kimura Defense in BJJ. Step-by-step defensive strategy to escape Kimura attacks. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
-  "url": "https://bjjgraph.com/transitions/kimura-defense",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Kimura Defense
 #bjj #transition #defense #kimura #escape

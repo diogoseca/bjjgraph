@@ -11,7 +11,7 @@ description: "Learn Deashi Harai in BJJ. Step-by-step execution from Standing Po
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Deashi Harai",
-  "description": "Learn how to execute Deashi Harai in Brazilian Jiu-Jitsu from Standing Position to Side Control.",
+  "description": "Learn how to execute Deashi Harai in Brazilian Jiu-Jitsu from Standing Position to Side Control. Success: Beginner 40%, Intermediate 60%, Advanced 80%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -58,6 +58,23 @@ description: "Learn Deashi Harai in BJJ. Step-by-step execution from Standing Po
   "totalTime": "PT5M"
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Deashi Harai",
+  "description": "Learn Deashi Harai in BJJ. Step-by-step execution from Standing Position to Side Control. Success: Beginner 40%, Intermediate 60%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Transitions/Deashi-Harai",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,39 +84,24 @@ description: "Learn Deashi Harai in BJJ. Step-by-step execution from Standing Po
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Deashi Harai",
-      "item": "https://bjjgraph.com/transitions/deashi-harai"
+      "item": "https://bjjgraph.org/Transitions/Deashi-Harai"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Deashi Harai",
-  "description": "Learn Deashi Harai in BJJ. Step-by-step execution from Standing Position to Side Control. Success: Beginner 40%, Intermediate 60%, Advanced 80%.",
-  "url": "https://bjjgraph.com/transitions/deashi-harai",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Deashi Harai
 #bjj #transition #takedown #judo #ashiwaza #footsweep
@@ -329,7 +331,6 @@ Updates to this standard should be reflected across all transition files to main
 - [[Sasae Tsurikomi Ashi]] - Related technique
 - [[Osoto Gari]] - Related technique
 - [[Neutral Position]] - Primary starting state for deashi harai
-
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as takedown (2 points)

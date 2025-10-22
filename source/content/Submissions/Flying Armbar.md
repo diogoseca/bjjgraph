@@ -91,6 +91,50 @@ author: "BJJGraph Agent System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Flying Armbar",
+  "description": "Q: \"When should I attempt a flying armbar?\"\nA: \"In competition when you have strong armbar fundamentals and have practiced the technique 100+ times under supervision. NEVER in casual rolling. The r...",
+  "url": "https://bjjgraph.org/Submissions/Flying-Armbar",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Flying Armbar",
+      "item": "https://bjjgraph.org/Submissions/Flying-Armbar"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Flying Armbar is a high-risk, high-reward aerial submission attempting to secure armbar control while transitioning from standing to ground. Terminal state if successful. CRITICAL SAFETY: This technique involves falling/jumping mechanics with significant injury potential for both practitioners. Should be considered competition-only for most practitioners.

@@ -47,16 +47,14 @@ description: "Master Standing Up in BJJ. Complete guide covering setup, control,
   "@type": "WebPage",
   "name": "Standing Up",
   "description": "Master Standing Up in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 60%.",
-  "url": "https://bjjgraph.com/positions/standing-up",
+  "url": "https://bjjgraph.org/Positions/Standing-up",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,19 +64,19 @@ description: "Master Standing Up in BJJ. Complete guide covering setup, control,
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Standing Up",
-      "item": "https://bjjgraph.com/positions/standing-up"
+      "item": "https://bjjgraph.org/Positions/Standing-up"
     }
   ]
 }
@@ -331,7 +329,6 @@ Updates to this standard should be reflected across all position files to mainta
 
 - [[Standing Guard]] - Related position
 - [[Standing Position]] - Related position
-
 
 ## Historical Context
 Standing Up is the fundamental starting position in Brazilian Jiu-Jitsu and many other grappling arts, reflecting the initial engagement phase where strategic decisions shape the match's direction. It has been a core element since BJJ's inception, adapted from judo and wrestling traditions.

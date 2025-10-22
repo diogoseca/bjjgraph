@@ -49,6 +49,50 @@ application_contexts:
 tags: [bjj, concept, advanced, submissions, offense, strategy]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Submission Chains",
+  "description": "Submission Chains represent the advanced tactical principle of linking multiple submission attempts in connected sequences where opponent's defense against one submission creates vulnerability to s...",
+  "url": "https://bjjgraph.org/Concepts/Submission-Chains",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Submission Chains",
+      "item": "https://bjjgraph.org/Concepts/Submission-Chains"
+    }
+  ]
+}
+</script>
+
+
 # Submission Chains
 #bjj #concept #advanced #submissions #offense
 

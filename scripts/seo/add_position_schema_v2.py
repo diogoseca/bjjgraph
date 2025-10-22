@@ -413,7 +413,7 @@ def main():
     """Main function to process all position files."""
     # Get the positions directory
     script_dir = Path(__file__).parent
-    positions_dir = script_dir.parent / 'source' / 'content' / 'Positions'
+    positions_dir = script_dir.parent.parent / 'source' / 'content' / 'Positions'
 
     if not positions_dir.exists():
         print(f"Error: Positions directory not found at {positions_dir}")

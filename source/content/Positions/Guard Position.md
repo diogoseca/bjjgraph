@@ -21,8 +21,8 @@ description: "Master Guard Position in BJJ. Complete guide covering setup, contr
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Stand-up",
-      "text": "From this position, execute Technical Stand-up to transition to Standing Position.",
+      "name": "Execute technical stand-up",
+      "text": "From this position, execute technical stand-up to transition to Standing Position.",
       "position": 2
     },
     {
@@ -58,6 +58,72 @@ description: "Master Guard Position in BJJ. Complete guide covering setup, contr
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Static positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Predictable patterns easily passed"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Overextension of limbs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to isolations and submissions"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor distance management?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Inability to control opponent's pressure"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Disconnected upper and lower body?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Passing lanes"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Passive defensive mindset?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Limited offensive development"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Position",
+  "description": "Master Guard Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%.",
+  "url": "https://bjjgraph.org/Positions/Guard-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Guard Position in BJJ. Complete guide covering setup, contr
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Guard Position",
-      "item": "https://bjjgraph.com/positions/guard-position"
+      "item": "https://bjjgraph.org/Positions/Guard-Position"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Guard Position",
-  "description": "Master Guard Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%.",
-  "url": "https://bjjgraph.com/positions/guard-position",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Guard Position
 #bjj #state #guard #fundamental
@@ -196,7 +246,6 @@ Visually, Guard Position presents as a practitioner on their back or seated on t
 - [[Butterfly Guard]] - Specialized guard with hooks under opponent's thighs
 - [[Half Guard Bottom]] - Partial guard with one leg trapped
 - [[Guard Recovery]] - Transitional state returning to guard positions
-
 
 ## Related Positions
 

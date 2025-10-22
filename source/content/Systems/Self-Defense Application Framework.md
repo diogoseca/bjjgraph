@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Self-Defense Application Framework",
   "description": "The Self-Defense Application Framework provides a systematic methodology for adapting Brazilian Jiu-Jitsu skills to practical self-defense scenarios. This system bridges the gap between sport-orien...",
-  "url": "https://bjjgraph.com/systems/self-defense-application-framework",
+  "url": "https://bjjgraph.org/Systems/Self-Defense-Application-Framework",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Systems",
-      "item": "https://bjjgraph.com/systems/"
+      "item": "https://bjjgraph.org/Systems/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Self-Defense Application Framework",
-      "item": "https://bjjgraph.com/systems/self-defense-application-framework"
+      "item": "https://bjjgraph.org/Systems/Self-Defense-Application-Framework"
     }
   ]
 }

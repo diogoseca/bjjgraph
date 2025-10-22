@@ -3,6 +3,7 @@ title: "Electric Chair Submission | BJJ Submission Guide | BJJ Graph"
 description: "From the Electric Chair position or Lockdown Guard, you start by securing full control with a lockdown on the opponent's trapped leg, ensuring maximum tension to isolate their lower body. With..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "From the Electric Chair position or Lockdown Guard, you start by s
   "@type": "WebPage",
   "name": "Electric Chair Submission",
   "description": "From the Electric Chair position or Lockdown Guard, you start by securing full control with a lockdown on the opponent's trapped leg, ensuring maximum tension to isolate their lower body. With...",
-  "url": "https://bjjgraph.com/submissions/electric-chair-submission",
+  "url": "https://bjjgraph.org/Submissions/Electric-Chair-Submission",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "From the Electric Chair position or Lockdown Guard, you start by s
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Electric Chair Submission",
-      "item": "https://bjjgraph.com/submissions/electric-chair-submission"
+      "item": "https://bjjgraph.org/Submissions/Electric-Chair-Submission"
     }
   ]
 }
 </script>
+
 
 # Electric Chair Submission
 #bjj #transition #submission #10thplanet #lockdown

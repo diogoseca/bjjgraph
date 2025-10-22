@@ -45,21 +45,19 @@ application_contexts:
 tags: [bjj, concept, fundamental, defense, frames, escapes, structure]
 ---
 
-# Frame Management
-#bjj #concept #fundamental #defense #frames
 
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Frame Management | Concept | BJJ Graph",
-  "description": "Master frame management in BJJ. Learn defensive framing, pressure redirection, and structural maintenance for effective escapes. Expert insights from Danaher, Gordon Ryan, and Eddie Bravo.",
-  "url": "https://bjjgraph.com/concepts/frame-management",
+  "name": "Frame Management | Concept",
+  "description": "Frame Management represents the fundamental skill of creating, maintaining, and strategically utilizing structural barriers using limbs and body alignment to control distance, redirect pressure, an...",
+  "url": "https://bjjgraph.org/Concepts/Frame-Management",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -72,23 +70,27 @@ tags: [bjj, concept, fundamental, defense, frames, escapes, structure]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Frame Management",
-      "item": "https://bjjgraph.com/concepts/frame-management"
+      "item": "https://bjjgraph.org/Concepts/Frame-Management"
     }
   ]
 }
 </script>
+
+
+# Frame Management
+#bjj #concept #fundamental #defense #frames
 
 ## Concept Description
 

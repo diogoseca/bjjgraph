@@ -171,42 +171,42 @@ state_machine:
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Use Kimura Trap in BJJ",
-  "description": "Complete guide to executing techniques and transitions from Kimura Trap position.",
+  "description": "Complete guide to executing techniques and transitions from Kimura Trap.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Lockdown Control",
-      "text": "From half guard bottom, secure the lockdown by crossing your legs and trapping opponent's leg between yours.",
+      "name": "Execute Electric Chair",
+      "text": "From this position, execute Electric Chair to transition to Top Position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Secure Kimura Grip",
-      "text": "Establish figure-four Kimura grip on opponent's near arm, creating the trap position.",
+      "name": "Execute Back Take from Trap",
+      "text": "From this position, execute Back Take from Trap to transition to Back Control.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Break Opponent's Posture",
-      "text": "Use lockdown control to break opponent's base and posture, setting up offensive attacks.",
+      "name": "Execute Kimura Submission",
+      "text": "From this position, execute Kimura Submission to transition to Won by Submission.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Sweep",
-      "text": "When opponent postures up, execute Electric Chair sweep by extending lockdown and rotating opponent over.",
+      "name": "Execute Dogfight Position",
+      "text": "From this position, execute Dogfight Position to transition to Dogfight Position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Alternative Back Take",
-      "text": "If opponent flattens, transition to back control by climbing up their back while maintaining Kimura grip.",
+      "name": "Execute Old School Sweep",
+      "text": "From this position, execute Old School Sweep to transition to Top Position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Finish Kimura or Sweep",
-      "text": "Complete the position with Kimura submission, electric chair sweep, or back take based on opponent's defense.",
+      "name": "Execute Triangle from Trap",
+      "text": "From this position, execute Triangle from Trap to transition to Triangle Control.",
       "position": 6
     }
   ],
@@ -229,7 +229,7 @@ state_machine:
       "name": "What is a common mistake in Loose lockdown control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to escape the trap easily and pass to side control or remove their leg from lockdown. The correction is: Keep your legs tightly crossed with your top foot hooking over your bottom shin, squeezing your knees together to maintain control."
+        "text": "Allows opponent to escape the trap easily and pass to side control or remove their leg from lockdown. The correction is: Keep your legs tightly crossed with your top foot hooking over your bottom shin, squeezing your knees together to maintain control.\n  - **Recognition**: If opponent can easily move their leg or step over, your lockdown isn't tight enough."
       }
     },
     {
@@ -237,7 +237,7 @@ state_machine:
       "name": "What is a common mistake in Weak Kimura grip?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Reduces the offensive threat and allows opponent to slip their arm free or counter the position. The correction is: Maintain tight figure-four grip with your hands interlocked and wrists close together, keeping constant pressure on the shoulder."
+        "text": "Reduces the offensive threat and allows opponent to slip their arm free or counter the position. The correction is: Maintain tight figure-four grip with your hands interlocked and wrists close together, keeping constant pressure on the shoulder.\n  - **Recognition**: If opponent can straighten their arm or rotate it freely, your grip needs to be tightened."
       }
     },
     {
@@ -245,7 +245,7 @@ state_machine:
       "name": "What is a common mistake in Not creating opponent reactions?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Leads to static position where neither person can advance, wasting energy without creating opportunities. The correction is: Actively threaten the Kimura finish, electric chair, or back take to force opponent into defensive choices that open other attacks."
+        "text": "Leads to static position where neither person can advance, wasting energy without creating opportunities. The correction is: Actively threaten the Kimura finish, electric chair, or back take to force opponent into defensive choices that open other attacks.\n  - **Recognition**: If the position feels stuck and opponent isn't moving or reacting defensively, you need to apply more threatening pressure."
       }
     },
     {
@@ -253,7 +253,7 @@ state_machine:
       "name": "What is a common mistake in Over-committing to one attack?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Makes you predictable and allows opponent to defend effectively while countering your position. The correction is: Flow between electric chair, back take, and Kimura finish based on opponent's reactions rather than forcing one technique."
+        "text": "Makes you predictable and allows opponent to defend effectively while countering your position. The correction is: Flow between electric chair, back take, and Kimura finish based on opponent's reactions rather than forcing one technique.\n  - **Recognition**: If you keep trying the same technique and it's not working, you're missing the other opportunities the position creates."
       }
     },
     {
@@ -261,7 +261,7 @@ state_machine:
       "name": "What is a common mistake in Poor timing on electric chair?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Results in failed sweep attempts that waste energy and give opponent recovery time. The correction is: Execute electric chair when opponent postures up or drives forward, using their momentum to complete the sweep."
+        "text": "Results in failed sweep attempts that waste energy and give opponent recovery time. The correction is: Execute electric chair when opponent postures up or drives forward, using their momentum to complete the sweep.\n  - **Recognition**: If your sweep attempts feel like you're fighting their weight, you're attacking at the wrong moment."
       }
     }
   ]
@@ -276,16 +276,14 @@ state_machine:
   "@type": "WebPage",
   "name": "Kimura Trap",
   "description": "Master Kimura Trap in BJJ. Complete guide covering control, back attacks, and sweeps from the lockdown Kimura position. Success rates: Beginner 40%, Intermediate 60%, Advanced 80%.",
-  "url": "https://bjjgraph.com/positions/kimura-trap",
+  "url": "https://bjjgraph.org/Positions/Kimura-Trap",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -295,19 +293,19 @@ state_machine:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Kimura Trap",
-      "item": "https://bjjgraph.com/positions/kimura-trap"
+      "item": "https://bjjgraph.org/Positions/Kimura-Trap"
     }
   ]
 }

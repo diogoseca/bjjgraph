@@ -11,42 +11,42 @@ description: "Learn Crucifix from Turtle in BJJ. Step-by-step execution from Tur
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Crucifix from Turtle",
-  "description": "Learn how to execute Crucifix from Turtle in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute Crucifix from Turtle in Brazilian Jiu-Jitsu from Turtle Position Top to Crucifix Position. Success: Beginner 45%, Intermediate 65%, Advanced 80%.",
   "step": [
     {
       "@type": "HowToStep",
       "name": "Establish Control",
-      "text": "Secure turtle top position with hooks and chest pressure on opponent's back",
+      "text": "Secure turtle top position with both hooks in and chest pressure on opponent's back",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Insert Near Hook",
-      "text": "Insert near-side hook under opponent's armpit, controlling near arm",
+      "text": "Insert your near-side hook under opponent's armpit, controlling and trapping near arm",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Trap Far Arm",
-      "text": "Use your far hand to control and trap opponent's far arm across their body",
+      "text": "Use your far hand to reach across and control opponent's far arm across their body",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Roll to Side",
-      "text": "Roll to your side, bringing opponent with you while maintaining hooks",
+      "text": "Roll to your side bringing opponent with you while maintaining both hooks securely",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Secure Second Hook",
-      "text": "Insert second hook to trap opponent's far arm, establishing crucifix configuration",
+      "text": "Insert your second hook to trap opponent's far arm, creating crucifix configuration",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Establish Control",
-      "text": "Secure crucifix position with both arms trapped and submission opportunities available",
+      "text": "Secure crucifix position with both opponent arms trapped, ready for submissions or strikes",
       "position": 6
     }
   ],
@@ -58,6 +58,23 @@ description: "Learn Crucifix from Turtle in BJJ. Step-by-step execution from Tur
   "totalTime": "PT5M"
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crucifix from Turtle",
+  "description": "Learn Crucifix from Turtle in BJJ. Step-by-step execution from Turtle Top to Crucifix Position. Success: Beginner 45%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Transitions/Crucifix-from-Turtle",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,39 +84,24 @@ description: "Learn Crucifix from Turtle in BJJ. Step-by-step execution from Tur
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Crucifix from Turtle",
-      "item": "https://bjjgraph.com/transitions/crucifix-from-turtle"
+      "item": "https://bjjgraph.org/Transitions/Crucifix-from-Turtle"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Crucifix from Turtle",
-  "description": "Learn Crucifix from Turtle in BJJ. Step-by-step execution from Turtle Top to Crucifix Position. Success: Beginner 45%, Intermediate 65%, Advanced 80%.",
-  "url": "https://bjjgraph.com/transitions/crucifix-from-turtle",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Crucifix from Turtle
 #bjj #transition #position_advancement #turtle #back_attack #control

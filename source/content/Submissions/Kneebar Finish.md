@@ -3,6 +3,7 @@ title: "Kneebar Finish | BJJ Submission Guide | BJJ Graph"
 description: "From the Kneebar Control position, you start by consolidating your final control with the opponent's leg fully isolated, ensuring their defensive options are minimized through tight control...."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "From the Kneebar Control position, you start by consolidating your
   "@type": "WebPage",
   "name": "Kneebar Finish",
   "description": "From the Kneebar Control position, you start by consolidating your final control with the opponent's leg fully isolated, ensuring their defensive options are minimized through tight control....",
-  "url": "https://bjjgraph.com/submissions/kneebar-finish",
+  "url": "https://bjjgraph.org/Submissions/Kneebar-Finish",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "From the Kneebar Control position, you start by consolidating your
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Kneebar Finish",
-      "item": "https://bjjgraph.com/submissions/kneebar-finish"
+      "item": "https://bjjgraph.org/Submissions/Kneebar-Finish"
     }
   ]
 }
 </script>
+
 
 # Kneebar Finish
 #bjj #transition #submission #leglock #finish

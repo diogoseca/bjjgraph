@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Gi-Specific Strategy",
   "description": "The Gi-Specific Strategy represents a comprehensive approach to BJJ that leverages the unique control opportunities, mechanical advantages, and strategic considerations created by the uniform (gi) ...",
-  "url": "https://bjjgraph.com/systems/gi-specific-strategy",
+  "url": "https://bjjgraph.org/Systems/Gi-Specific-Strategy",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Systems",
-      "item": "https://bjjgraph.com/systems/"
+      "item": "https://bjjgraph.org/Systems/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Gi-Specific Strategy",
-      "item": "https://bjjgraph.com/systems/gi-specific-strategy"
+      "item": "https://bjjgraph.org/Systems/Gi-Specific-Strategy"
     }
   ]
 }

@@ -46,6 +46,50 @@ application_contexts:
 tags: [bjj, concept, transition, spider-guard, omoplata, submission-chain, gi-technique]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Spider Guard to Omoplata | Concept",
+  "description": "Spider Guard to Omoplata represents the tactical framework for converting spider guard's extension and posture-breaking mechanics into the shoulder-locking control and finishing position of the omo...",
+  "url": "https://bjjgraph.org/Concepts/Spider-Guard-to-Omoplata",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Spider Guard to Omoplata",
+      "item": "https://bjjgraph.org/Concepts/Spider-Guard-to-Omoplata"
+    }
+  ]
+}
+</script>
+
+
 # Spider Guard to Omoplata
 #bjj #concept #submission-chain #spider-guard
 

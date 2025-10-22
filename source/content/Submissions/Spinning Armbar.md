@@ -92,6 +92,50 @@ author: "BJJGraph System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Spinning Armbar",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. After landing the spinning motion, the actual armbar pressure should take 3-5 seconds minimum. The spin can be fast, but the fini...",
+  "url": "https://bjjgraph.org/Submissions/Spinning-Armbar",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Spinning Armbar",
+      "item": "https://bjjgraph.org/Submissions/Spinning-Armbar"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: The Spinning Armbar is a dynamic, acrobatic armbar executed through a spinning rotation while maintaining arm control. It's a terminal state resulting in elbow hyperextension if not tapped. This is a HIGH-RISK technique requiring extensive drilling before live application.

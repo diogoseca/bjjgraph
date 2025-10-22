@@ -45,21 +45,19 @@ application_contexts:
 tags: [bjj, concept, fundamental, movement, hips, escapes, mobility]
 ---
 
-# Hip Movement
-#bjj #concept #fundamental #movement #hips
 
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Hip Movement | Concept | BJJ Graph",
-  "description": "Master hip movement in BJJ. Learn shrimping, bridging, and hip rotation for effective escapes and positioning. Expert insights from Danaher, Gordon Ryan, and Eddie Bravo.",
-  "url": "https://bjjgraph.com/concepts/hip-movement",
+  "name": "Hip Movement | Concept",
+  "description": "Hip Movement represents the fundamental capability of generating purposeful pelvic displacement, rotation, and elevation to create space, escape inferior positions, establish advantageous positioni...",
+  "url": "https://bjjgraph.org/Concepts/Hip-Movement",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -72,23 +70,27 @@ tags: [bjj, concept, fundamental, movement, hips, escapes, mobility]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Hip Movement",
-      "item": "https://bjjgraph.com/concepts/hip-movement"
+      "item": "https://bjjgraph.org/Concepts/Hip-Movement"
     }
   ]
 }
 </script>
+
+
+# Hip Movement
+#bjj #concept #fundamental #movement #hips
 
 ## Concept Description
 

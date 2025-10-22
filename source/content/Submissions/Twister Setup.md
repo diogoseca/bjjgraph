@@ -3,6 +3,7 @@ title: "Twister Setup | BJJ Submission Guide | BJJ Graph"
 description: "Begin from a control position such as the Truck Position, Back Control, or occasionally Side Control, with the most common entry being from the Truck Position where your legs are already in a..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "Begin from a control position such as the Truck Position, Back Con
   "@type": "WebPage",
   "name": "Twister Setup",
   "description": "Begin from a control position such as the Truck Position, Back Control, or occasionally Side Control, with the most common entry being from the Truck Position where your legs are already in a...",
-  "url": "https://bjjgraph.com/submissions/twister-setup",
+  "url": "https://bjjgraph.org/Submissions/Twister-Setup",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "Begin from a control position such as the Truck Position, Back Con
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Twister Setup",
-      "item": "https://bjjgraph.com/submissions/twister-setup"
+      "item": "https://bjjgraph.org/Submissions/Twister-Setup"
     }
   ]
 }
 </script>
+
 
 # Twister Setup
 #bjj #technique #submission #10thplanet #setup

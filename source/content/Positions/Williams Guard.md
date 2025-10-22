@@ -45,8 +45,8 @@ description: "Master Williams Guard in BJJ. Complete guide covering setup, contr
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Dead Orchard Entry",
-      "text": "From this position, execute Dead Orchard Entry to transition to Dead Orchard Control.",
+      "name": "Execute Dead Orchard Control",
+      "text": "From this position, execute Dead Orchard Control to transition to Dead Orchard Control.",
       "position": 6
     }
   ],
@@ -58,6 +58,72 @@ description: "Master Williams Guard in BJJ. Complete guide covering setup, contr
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Insufficient hip flexibility?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Positional strain and ineffectiveness"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor shin positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reduced control effectiveness"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Inadequate arm control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Defensive escape opportunities"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Overreliance on leg strength?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Energy depletion"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Neglecting proper shoulder alignment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Potential injury risk"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Williams Guard",
+  "description": "Master Williams Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
+  "url": "https://bjjgraph.org/Positions/Williams-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Williams Guard in BJJ. Complete guide covering setup, contr
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Williams Guard",
-      "item": "https://bjjgraph.com/positions/williams-guard"
+      "item": "https://bjjgraph.org/Positions/Williams-Guard"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Williams Guard",
-  "description": "Master Williams Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
-  "url": "https://bjjgraph.com/positions/williams-guard",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Williams Guard
 #bjj #state #guard #10thplanet #rubberguard
@@ -190,7 +240,6 @@ The Williams Guard is an advanced variation of the Rubber Guard developed within
 - [[New York Control]] - Entry position to Williams
 - [[Omoplata Control]] - Common submission transition
 - [[Gogoplata Control]] - Specialized submission option
-
 
 ## Related Positions
 

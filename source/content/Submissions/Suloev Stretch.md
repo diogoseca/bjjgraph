@@ -81,6 +81,50 @@ author: "BJJGraph System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Suloev Stretch | Leg Lock",
+  "description": "The Suloev Stretch is an extremely dangerous inverted leg lock that attacks the knee from the [[Turtle Position]]. Named after Russian fighter Amar Suloev, this submission creates severe torque on ...",
+  "url": "https://bjjgraph.org/Submissions/Suloev-Stretch",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Suloev Stretch",
+      "item": "https://bjjgraph.org/Submissions/Suloev-Stretch"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ CRITICAL SAFETY NOTICE
 
 **This submission can cause PERMANENT KNEE INJURY including ACL tears requiring surgery.**

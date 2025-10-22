@@ -43,18 +43,19 @@ application_contexts:
 tags: [bjj, concept, submission, armbar, back-control, intermediate, attack]
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Armbar from Back with Legs | Concept | BJJ Graph",
+  "name": "Armbar from Back with Legs | Concept",
   "description": "Master the armbar from back control using leg configuration - a high-percentage finishing concept. Learn body mechanics, leg positioning, and control principles for this dominant submission attack.",
-  "url": "https://bjjgraph.com/concepts/armbar-from-back-with-legs",
+  "url": "https://bjjgraph.org/Concepts/Armbar-from-Back-with-Legs",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -67,23 +68,24 @@ tags: [bjj, concept, submission, armbar, back-control, intermediate, attack]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Armbar from Back with Legs",
-      "item": "https://bjjgraph.com/concepts/armbar-from-back-with-legs"
+      "item": "https://bjjgraph.org/Concepts/Armbar-from-Back-with-Legs"
     }
   ]
 }
 </script>
+
 
 # Armbar from Back with Legs
 #bjj #concept #submission #armbar #back-control #intermediate

@@ -37,6 +37,106 @@ related_positions: ["Saddle Position", "Standing Position", "50-50 Guard", "Ashi
 related_techniques: ["Ashi Garami Escape", "50-50 Pass", "Leg Lock Defense Framework"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Saddle Defense",
+  "description": "Learn how to execute Saddle Defense in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Recognize saddle position immediately, identify trapped leg with knee pointing toward their chest, establish heel protection priority",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Hide heel by internal rotation and tucking toward opposite hip, establish hand posts for base and rotation",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically tightens leg control, advances heel hook grips and breaking mechanics, or adjusts body position to prevent rotation",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Create angle by turning hips away from their control, begin rotation using your shoulders and back as pivot points",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Invert over their body while maintaining heel protection, use rotation momentum to extract trapped leg as angles change",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Complete rotation to standing position or counter leg attack position, maintain heel protection until fully clear",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Saddle Defense",
+  "description": "Learn Saddle Defense in BJJ. Step-by-step execution from Saddle Position Bottom to Standing Position. Success: Beginner 25%, Intermediate 45%, Advanced 65%.",
+  "url": "https://bjjgraph.org/Transitions/Saddle-Defense",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Saddle Defense",
+      "item": "https://bjjgraph.org/Transitions/Saddle-Defense"
+    }
+  ]
+}
+</script>
+
+
 # Saddle Defense
 #bjj #transition #escape #leg-entanglement #advanced #heel-hook-defense
 

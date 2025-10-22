@@ -168,37 +168,43 @@ state_machine:
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Use Standing Back Control in BJJ",
-  "description": "Complete guide to executing takedowns and transitions from Standing Back Control.",
+  "description": "Complete guide to executing techniques and transitions from Standing Back Control.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Secure Body Lock",
-      "text": "Establish chest-to-back contact with body lock or hooks while both grapplers are standing.",
+      "name": "Execute Rear Naked Choke",
+      "text": "From this position, execute Rear Naked Choke to transition to Won by Submission.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Control Opponent's Hips",
-      "text": "Maintain tight connection to opponent's hips to prevent escape and establish control.",
+      "name": "Execute Mat Return",
+      "text": "From this position, execute Mat Return to transition to Back Control.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Mat Return",
-      "text": "Bring opponent to mat while maintaining back control for dominant position.",
+      "name": "Execute Suplex Takedown",
+      "text": "From this position, execute Suplex Takedown to transition to Back Control.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Apply Rear Naked Choke",
-      "text": "If opponent's posture is upright, attack the neck with rear naked choke.",
+      "name": "Execute Body Lock Takedown",
+      "text": "From this position, execute Body Lock Takedown to transition to Side Control.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Finish Takedown",
-      "text": "Complete takedown transition to secure back control on the mat.",
+      "name": "Execute Drag Down",
+      "text": "From this position, execute Drag Down to transition to Turtle Top.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Inside Trip",
+      "text": "From this position, execute Inside Trip to transition to Back Control.",
+      "position": 6
     }
   ],
   "tool": [
@@ -206,7 +212,7 @@ state_machine:
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT3M"
+  "totalTime": "PT5M"
 }
 </script>
 
@@ -217,42 +223,42 @@ state_machine:
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Standing Back Control?",
+      "name": "What is a common mistake in Allowing opponent to widen their base?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allowing opponent to widen their base gives them stability and makes takedowns difficult. The correction is: Stay tight to opponent's back and constantly attack their balance with trips or pulls."
+        "text": "Gives opponent stability, making takedowns difficult and allowing them to defend more effectively. Wide base neutralizes your leverage advantages and makes it easier for them to hand fight. The correction is: Stay tight to opponent's back and constantly attack their balance with trips, pulls, or pressure changes. Keep them moving and off-balance so they cannot establish a wide, stable base.\n  - **Recognition**: If opponent feels stable and you're not making progress on takedown attempts, their base is too wide."
       }
     },
     {
       "@type": "Question",
-      "name": "When should I use Mat Return vs Suplex?",
+      "name": "What is a common mistake in Loosening body lock or grip?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Mat Return is safer and higher percentage when opponent has weak base. Suplex is used when opponent is defending hands and you need explosive takedown."
+        "text": "Creates space for opponent to turn into you, strip your grips, or escape entirely. Loss of grip often means immediate position loss. The correction is: Maintain unbreakable grip with hands locked at centerline. Squeeze elbows together and keep chest pressure constant. Never let opponent create separation.\n  - **Recognition**: If you feel opponent creating space between your bodies or starting to turn, your grip has loosened."
       }
     },
     {
       "@type": "Question",
-      "name": "How do I prevent the sit-down escape?",
+      "name": "What is a common mistake in Stalling without attacking?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintain chest pressure and anticipate the sit by following them down while securing hooks or transitioning to turtle top control."
+        "text": "Opponent recovers, finds defensive solutions, and eventually escapes. Standing positions are energy-intensive and unsustainable without progression. The correction is: Immediately begin attacking with takedowns or submissions. Create movement and force opponent to make defensive choices under pressure.\n  - **Recognition**: If more than 5-10 seconds pass without you attempting a technique, you're stalling."
       }
     },
     {
       "@type": "Question",
-      "name": "What are the key control points in Standing Back Control?",
+      "name": "What is a common mistake in Overcommitting to choke when takedown is available?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Body lock around waist or over-under control, chest-to-back pressure, hooks or inside position on legs, and head position over opponent's shoulder."
+        "text": "Wastes energy on low-percentage standing choke while higher-percentage takedown option exists. Can result in losing position entirely. The correction is: Prioritize securing mat-based back control first. Attack choke opportunistically when opponent defends takedowns and neck is exposed.\n  - **Recognition**: If opponent's chin is tucked and hands are defending neck, takedown is better option."
       }
     },
     {
       "@type": "Question",
-      "name": "Is it better to finish standing or take to mat?",
+      "name": "What is a common mistake in Poor base management?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Taking to mat is generally higher percentage as it secures back control points. Standing choke is opportunistic when opponent's posture is upright and neck is exposed."
+        "text": "Makes you vulnerable to counter throws or reversal attempts. Can result in losing dominant position or being taken down yourself. The correction is: Maintain low center of gravity with knees slightly bent. Keep feet active and ready to step to maintain balance as opponent moves.\n  - **Recognition**: If you feel off-balance or opponent is controlling your movement, your base is compromised."
       }
     }
   ]
@@ -267,16 +273,14 @@ state_machine:
   "@type": "WebPage",
   "name": "Standing Back Control",
   "description": "Master Standing Back Control in BJJ. Complete guide covering hooks, control, takedowns, and submissions. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.",
-  "url": "https://bjjgraph.com/positions/standing-back-control",
+  "url": "https://bjjgraph.org/Positions/Standing-Back-Control",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -286,19 +290,19 @@ state_machine:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Standing Back Control",
-      "item": "https://bjjgraph.com/positions/standing-back-control"
+      "item": "https://bjjgraph.org/Positions/Standing-Back-Control"
     }
   ]
 }

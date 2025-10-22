@@ -28,7 +28,7 @@ description: "Master Ashi Garami in BJJ. Complete guide covering setup, control,
     {
       "@type": "HowToStep",
       "name": "Execute Transition to Outside Sankaku",
-      "text": "From this position, execute Transition to Outside Sankaku to transition to 50/50 Guard.",
+      "text": "From this position, execute Transition to Outside Sankaku to transition to 50-50 Guard Bottom.",
       "position": 3
     },
     {
@@ -40,7 +40,7 @@ description: "Master Ashi Garami in BJJ. Complete guide covering setup, control,
     {
       "@type": "HowToStep",
       "name": "Execute Back Step to Backside 50/50",
-      "text": "From this position, execute Back Step to Backside 50/50 to transition to Backside 50/50.",
+      "text": "From this position, execute Back Step to Backside 50/50 to transition to Backside 50-50.",
       "position": 5
     },
     {
@@ -107,6 +107,23 @@ description: "Master Ashi Garami in BJJ. Complete guide covering setup, control,
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ashi Garami",
+  "description": "Master Ashi Garami in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 55%, Intermediate 65%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Positions/Ashi-Garami",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Ashi Garami in BJJ. Complete guide covering setup, control,
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Ashi Garami",
-      "item": "https://bjjgraph.com/positions/ashi-garami"
+      "item": "https://bjjgraph.org/Positions/Ashi-Garami"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Ashi Garami",
-  "description": "Master Ashi Garami in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 55%, Intermediate 65%, Advanced 75%.",
-  "url": "https://bjjgraph.com/positions/ashi-garami",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Ashi Garami
 #bjj #state #leg_entanglement #submission_position #leglock
@@ -243,7 +245,6 @@ You are typically seated or on your side, facing your opponent, with one of thei
 - [[Single Leg X Guard]] - Precursor leg entanglement position
 - [[Cross Ashi]] - Modified leg entanglement with cross-body control
 - [[Backside 50-50]] - Attacking from behind the leg entanglement
-
 
 ## Related Positions
 

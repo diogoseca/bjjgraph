@@ -90,6 +90,50 @@ author: "BJJGraph Agent System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle from Spider Guard",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. Triangle should take minimum 3-5 seconds in training. More setup time than closed guard version due to transition complexity. Com...",
+  "url": "https://bjjgraph.org/Submissions/Triangle-from-Spider-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Triangle from Spider Guard",
+      "item": "https://bjjgraph.org/Submissions/Triangle-from-Spider-Guard"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Triangle from Spider Guard is an advanced blood choke submission that transitions from spider guard control. Setup requires more technical precision than standard closed guard triangle due to the open guard nature.

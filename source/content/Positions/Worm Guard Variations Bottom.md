@@ -14,6 +14,105 @@ tags:
   - gi-only
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Worm Guard Variations Bottom in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Worm Guard Variations Bottom.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Squid Guard Sweep",
+      "text": "From Worm Guard Variations Bottom, execute Squid Guard Sweep to advance your position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Inverted Squid Sweep",
+      "text": "From Worm Guard Variations Bottom, execute Inverted Squid Sweep to advance your position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Ringworm Bilateral Sweep",
+      "text": "From Worm Guard Variations Bottom, execute Ringworm Bilateral Sweep to advance your position.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Worm Guard Variations Bottom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Advanced Lapel Weave Mastery**: Maintain complex multi-point lapel configurations through dynamic movements and opponent's resistance"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Worm Guard Variations Bottom",
+  "description": "Master Worm Guard Variations in BJJ. Advanced lapel systems including squid guard, ringworm, and inverted worm attacks. Success rates: Beginner 20%, Intermediate 40%, Advanced 60%.",
+  "url": "https://bjjgraph.org/Positions/Worm-Guard-Variations-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Worm Guard Variations Bottom",
+      "item": "https://bjjgraph.org/Positions/Worm-Guard-Variations-Bottom"
+    }
+  ]
+}
+</script>
+
+
 # Worm Guard Variations Bottom
 #bjj #state #guard #open-guard #lapel-guard #worm #variations #advanced
 

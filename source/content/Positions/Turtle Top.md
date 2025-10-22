@@ -47,16 +47,14 @@ description: "Master Turtle Top in BJJ. Complete guide covering setup, control, 
   "@type": "WebPage",
   "name": "Turtle Top",
   "description": "Master Turtle Top in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 75%.",
-  "url": "https://bjjgraph.com/positions/turtle-top",
+  "url": "https://bjjgraph.org/Positions/Turtle-Top",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,19 +64,19 @@ description: "Master Turtle Top in BJJ. Complete guide covering setup, control, 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Turtle Top",
-      "item": "https://bjjgraph.com/positions/turtle-top"
+      "item": "https://bjjgraph.org/Positions/Turtle-Top"
     }
   ]
 }
@@ -330,7 +328,6 @@ Updates to this standard should be reflected across all position files to mainta
 ## Related Positions
 
 - [[Turtle Position]] - Related position
-
 
 ## Historical Context
 Turtle Top has been a significant position in Brazilian Jiu-Jitsu since its early development, reflecting the importance of controlling an opponent's back as a pathway to submission. It has evolved with modern grappling to include sophisticated back attack systems, particularly emphasized in competitive and no-gi contexts.

@@ -92,6 +92,50 @@ author: "BJJGraph System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bow and Arrow Choke",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. Never extend leg explosively. Apply collar pressure and leg extension gradually over 3-5 seconds minimum. The combination of twis...",
+  "url": "https://bjjgraph.org/Submissions/Bow-and-Arrow-Choke",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Bow and Arrow Choke",
+      "item": "https://bjjgraph.org/Submissions/Bow-and-Arrow-Choke"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: The Bow and Arrow Choke is a gi-specific blood choke submission from back control that combines collar grips with leg extension to create a powerful strangling mechanism. Success results in immediate match victory. Safety is paramount - this technique combines rotational pressure with compression.

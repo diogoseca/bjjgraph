@@ -94,6 +94,50 @@ author: "BJJGraph Agent System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rolling Omoplata",
+  "description": "Q: \"How fast should rolling omoplata be applied?\"\nA: \"Entry is dynamic but pressure application MUST BE SLOW. Dynamic entry does NOT mean explosive finishing. Control roll speed, land in position, ...",
+  "url": "https://bjjgraph.org/Submissions/Rolling-Omoplata",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Rolling Omoplata",
+      "item": "https://bjjgraph.org/Submissions/Rolling-Omoplata"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Rolling Omoplata is an advanced dynamic shoulder lock executed via rolling entry from scrambles, turtle, or standing positions. VERY HIGH injury risk due to dynamic nature. ADVANCED PRACTITIONERS ONLY.

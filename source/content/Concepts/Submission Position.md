@@ -47,6 +47,50 @@ application_contexts:
 tags: [bjj, concept, intermediate, submissions, control, finishing, position]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Submission Position | Concept",
+  "description": "Submission Position represents the comprehensive framework for establishing, maintaining, and optimizing the positional control necessary to execute submissions successfully, emphasizing that posit...",
+  "url": "https://bjjgraph.org/Concepts/Submission-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Submission Position",
+      "item": "https://bjjgraph.org/Concepts/Submission-Position"
+    }
+  ]
+}
+</script>
+
+
 # Submission Position
 #bjj #concept #intermediate #submissions #control
 

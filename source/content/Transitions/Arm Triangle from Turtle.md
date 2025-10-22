@@ -11,42 +11,42 @@ description: "Learn Arm Triangle from Turtle in BJJ. Step-by-step execution from
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Arm Triangle from Turtle",
-  "description": "Learn how to execute Arm Triangle from Turtle in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute Arm Triangle from Turtle in Brazilian Jiu-Jitsu from Turtle Position Top to Arm Triangle Control. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
   "step": [
     {
       "@type": "HowToStep",
       "name": "Establish Position",
-      "text": "Secure turtle top with chest pressure, control opponent's far arm across their neck",
+      "text": "Secure turtle top with chest pressure, control opponent's far arm and force it across their neck",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Thread Head",
-      "text": "Position your head on opposite side of opponent's trapped arm",
+      "text": "Position your head on the opposite side of opponent's trapped arm for proper configuration",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Connect Hands",
-      "text": "Connect hands in gable or S-grip around opponent's neck and their own shoulder",
+      "text": "Connect hands in gable grip or S-grip around opponent's neck and their own shoulder",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Flatten Opponent",
-      "text": "Drive opponent flat to mat while maintaining arm position across neck",
+      "text": "Drive opponent flat to mat while maintaining arm position across neck securely",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Walk to Side",
-      "text": "Walk your body perpendicular to opponent for optimal shoulder pressure angle",
+      "text": "Walk your body perpendicular to opponent (90-degree angle) for optimal shoulder pressure",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Apply Pressure",
-      "text": "Squeeze arms together while driving shoulder into neck to create choke",
+      "text": "Squeeze arms together while driving shoulder into neck to create arm triangle choke",
       "position": 6
     }
   ],
@@ -58,6 +58,23 @@ description: "Learn Arm Triangle from Turtle in BJJ. Step-by-step execution from
   "totalTime": "PT5M"
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Triangle from Turtle",
+  "description": "Learn Arm Triangle from Turtle in BJJ. Step-by-step execution from Turtle Top to Arm Triangle Control. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Arm-Triangle-from-Turtle",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,39 +84,24 @@ description: "Learn Arm Triangle from Turtle in BJJ. Step-by-step execution from
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Arm Triangle from Turtle",
-      "item": "https://bjjgraph.com/transitions/arm-triangle-from-turtle"
+      "item": "https://bjjgraph.org/Transitions/Arm-Triangle-from-Turtle"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Arm Triangle from Turtle",
-  "description": "Learn Arm Triangle from Turtle in BJJ. Step-by-step execution from Turtle Top to Arm Triangle Control. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
-  "url": "https://bjjgraph.com/transitions/arm-triangle-from-turtle",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Arm Triangle from Turtle
 #bjj #transition #submission_setup #turtle #choke #kata_gatame

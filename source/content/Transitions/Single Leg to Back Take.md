@@ -11,7 +11,7 @@ description: "Learn Single Leg to Back Take in BJJ. Convert failed takedown to b
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Single Leg to Back Take",
-  "description": "Learn how to transition from Single Leg control to Back Take in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute Single Leg to Back Take in Brazilian Jiu-Jitsu from Single Leg Entry to Back Control. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -58,6 +58,23 @@ description: "Learn Single Leg to Back Take in BJJ. Convert failed takedown to b
   "totalTime": "PT5M"
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Single Leg to Back Take",
+  "description": "Learn Single Leg to Back Take in BJJ. Convert failed takedown to back control position. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Single-Leg-to-Back-Take",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,39 +84,24 @@ description: "Learn Single Leg to Back Take in BJJ. Convert failed takedown to b
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Single Leg to Back Take",
-      "item": "https://bjjgraph.com/transitions/single-leg-to-back-take"
+      "item": "https://bjjgraph.org/Transitions/Single-Leg-to-Back-Take"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Single Leg to Back Take",
-  "description": "Learn Single Leg to Back Take in BJJ. Convert failed takedown to back control position. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
-  "url": "https://bjjgraph.com/transitions/single-leg-to-back-take",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Single Leg to Back Take
 #bjj #transition #back_take #wrestling #advanced

@@ -37,6 +37,106 @@ related_positions: ["Standing Position", "Neutral Starting Position", "Standing 
 related_techniques: ["Double Leg Finish", "Single Leg Takedown", "Sprawl Defense", "Level Change"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Double Leg Setup",
+  "description": "Learn how to execute Double Leg Setup in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish neutral grip control (collar tie, wrist control, or handfighting position) while maintaining upright posture and balanced stance",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Create subtle forward pressure, grip distraction, or feint to occupy opponent's hands and attention",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically maintains stance, attempts counter-grips, or adjusts balance in response to pressure",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Recognize optimal timing window when opponent's hands are occupied or weight is slightly forward",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Execute explosive level change by dropping hips and stepping lead foot deep between opponent's legs with penetration",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Position head tight to opponent's torso, shoulders square to hips, weight forward on balls of feet for finish setup",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Double Leg Setup",
+  "description": "Learn Double Leg Setup in BJJ. Step-by-step execution from Standing Position to Penetration Step. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Double-Leg-Setup",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Double Leg Setup",
+      "item": "https://bjjgraph.org/Transitions/Double-Leg-Setup"
+    }
+  ]
+}
+</script>
+
+
 # Double Leg Setup
 #bjj #transition #takedown #setup #wrestling
 

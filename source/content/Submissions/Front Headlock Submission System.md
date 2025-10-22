@@ -3,6 +3,7 @@ title: "Front Headlock Submission System | BJJ Submission Guide | BJJ Graph"
 description: "The Front Headlock Submission System is a versatile and effective attacking framework in Brazilian Jiu-Jitsu, applicable in both gi and no-gi contexts, with significant relevance to MMA and combat ..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "The Front Headlock Submission System is a versatile and effective 
   "@type": "WebPage",
   "name": "Front Headlock Submission System",
   "description": "The Front Headlock Submission System is a versatile and effective attacking framework in Brazilian Jiu-Jitsu, applicable in both gi and no-gi contexts, with significant relevance to MMA and combat ...",
-  "url": "https://bjjgraph.com/submissions/front-headlock-submission-system",
+  "url": "https://bjjgraph.org/Submissions/Front-Headlock-Submission-System",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "The Front Headlock Submission System is a versatile and effective 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Front Headlock Submission System",
-      "item": "https://bjjgraph.com/submissions/front-headlock-submission-system"
+      "item": "https://bjjgraph.org/Submissions/Front-Headlock-Submission-System"
     }
   ]
 }
 </script>
+
 
 # Front Headlock Submission System
 #bjj #submission #choke #chain #front_headlock #guillotine #darce #anaconda

@@ -3,6 +3,7 @@ title: "Triangle Finish | BJJ Submission Guide | BJJ Graph"
 description: "From the Triangle Control position, you start by ensuring a perpendicular angle to your opponent, positioning your body to maximize leverage with one of their arms and their head trapped between..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "From the Triangle Control position, you start by ensuring a perpen
   "@type": "WebPage",
   "name": "Triangle Finish",
   "description": "From the Triangle Control position, you start by ensuring a perpendicular angle to your opponent, positioning your body to maximize leverage with one of their arms and their head trapped between...",
-  "url": "https://bjjgraph.com/submissions/triangle-finish",
+  "url": "https://bjjgraph.org/Submissions/Triangle-Finish",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "From the Triangle Control position, you start by ensuring a perpen
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Triangle Finish",
-      "item": "https://bjjgraph.com/submissions/triangle-finish"
+      "item": "https://bjjgraph.org/Submissions/Triangle-Finish"
     }
   ]
 }
 </script>
+
 
 # Triangle Finish
 #bjj #transition #submission #finish #choke

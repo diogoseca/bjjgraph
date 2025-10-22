@@ -37,6 +37,62 @@ related_positions: ["Reverse De La Riva Guard Top", "Side Control Top", "Half Gu
 related_techniques: ["DLR Pass", "Leg Drag Pass", "Back Step Pass"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "RDLR Pass",
+  "description": "Learn how to execute RDLR Pass in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish RDLR top position with appropriate grips (pants, belt, or collar)",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Create angle and begin to step hooked leg back and around",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent tries to maintain hook or transition to different guard",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Adjust angle based on hook retention, control far leg to prevent re-guard",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Clear hook completely, drive forward to passing position",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Establish side control, knee slice, or continue to back depending on angle",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
 # RDLR Pass
 #bjj #transition #guard_pass #rdlr #advanced
 
@@ -65,9 +121,9 @@ From reverse De La Riva guard top position, the opponent has their hook behind y
 
 ## Common Counters
 
-- **[[Hook Retention]]** ’ [[RDLR Maintained]] (Success Rate: 45%, Conditions: deep hook)
-- **[[Transition to DLR]]** ’ [[DLR Guard]] (Success Rate: 40%, Conditions: opponent switches guards)
-- **[[Butterfly Recovery]]** ’ [[Butterfly Guard]] (Success Rate: 35%, Conditions: loses leg control)
+- **[[Hook Retention]]**  [[RDLR Maintained]] (Success Rate: 45%, Conditions: deep hook)
+- **[[Transition to DLR]]**  [[DLR Guard]] (Success Rate: 40%, Conditions: opponent switches guards)
+- **[[Butterfly Recovery]]**  [[Butterfly Guard]] (Success Rate: 35%, Conditions: loses leg control)
 
 ## Expert Insights
 

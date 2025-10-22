@@ -13,6 +13,105 @@ tags:
   - gi-only
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Worm Guard Bottom in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Worm Guard Bottom.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Worm Guard Sweep",
+      "text": "From Worm Guard Bottom, execute Worm Guard Sweep to advance your position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Side Control Top",
+      "text": "From Worm Guard Bottom, execute Side Control Top to advance your position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Squid Guard Transition Sweep",
+      "text": "From Worm Guard Bottom, execute Squid Guard Transition Sweep to advance your position.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Worm Guard Bottom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Lapel Weave Integrity**: Maintain constant tension on the lapel wrapped through opponent's leg and around your shin to preserve primary control mechanism"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Worm Guard Bottom",
+  "description": "Master Worm Guard Bottom in BJJ. Keenan Cornelius's lapel guard system with sleeve and pant control. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.",
+  "url": "https://bjjgraph.org/Positions/Worm-Guard-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Worm Guard Bottom",
+      "item": "https://bjjgraph.org/Positions/Worm-Guard-Bottom"
+    }
+  ]
+}
+</script>
+
+
 # Worm Guard Bottom
 #bjj #state #guard #open-guard #lapel-guard #worm #advanced
 

@@ -116,16 +116,14 @@ description: "Master Russian Cowboy in BJJ. Complete guide covering setup, contr
   "@type": "WebPage",
   "name": "Russian Cowboy",
   "description": "Master Russian Cowboy in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 30%, Intermediate 55%, Advanced 75%.",
-  "url": "https://bjjgraph.com/positions/russian-cowboy",
+  "url": "https://bjjgraph.org/Positions/Russian-Cowboy",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -135,19 +133,19 @@ description: "Master Russian Cowboy in BJJ. Complete guide covering setup, contr
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Russian Cowboy",
-      "item": "https://bjjgraph.com/positions/russian-cowboy"
+      "item": "https://bjjgraph.org/Positions/Russian-Cowboy"
     }
   ]
 }

@@ -79,16 +79,14 @@ description: "Learn Closed Guard to Triangle in BJJ. Step-by-step execution from
   "@type": "WebPage",
   "name": "Closed Guard to Triangle",
   "description": "Learn Closed Guard to Triangle in BJJ. Step-by-step execution from Closed Guard Bottom to Triangle Control. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/closed-guard-to-triangle",
+  "url": "https://bjjgraph.org/Transitions/Closed-Guard-to-Triangle",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Closed Guard to Triangle in BJJ. Step-by-step execution from
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Closed Guard to Triangle",
-      "item": "https://bjjgraph.com/transitions/closed-guard-to-triangle"
+      "item": "https://bjjgraph.org/Transitions/Closed-Guard-to-Triangle"
     }
   ]
 }

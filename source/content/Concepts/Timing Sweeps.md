@@ -48,6 +48,50 @@ application_contexts:
 tags: [bjj, concept, intermediate, timing, sweeps, reaction, rhythm]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Timing Sweeps | Concept",
+  "description": "Timing Sweeps represents the sophisticated principle of executing sweeping techniques during specific temporal windows when opponent's base, weight distribution, or attention is naturally compromis...",
+  "url": "https://bjjgraph.org/Concepts/Timing-Sweeps",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Timing Sweeps",
+      "item": "https://bjjgraph.org/Concepts/Timing-Sweeps"
+    }
+  ]
+}
+</script>
+
+
 # Timing Sweeps
 #bjj #concept #intermediate #timing #sweeps
 

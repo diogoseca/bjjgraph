@@ -15,8 +15,8 @@ description: "Master Butterfly Half Guard in BJJ. Complete guide covering setup,
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Butterfly Sweep",
-      "text": "From this position, execute Butterfly Sweep to transition to Top Position.",
+      "name": "Execute butterfly sweep",
+      "text": "From this position, execute butterfly sweep to transition to Top Position.",
       "position": 1
     },
     {
@@ -107,6 +107,23 @@ description: "Master Butterfly Half Guard in BJJ. Complete guide covering setup,
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Butterfly Half Guard",
+  "description": "Master Butterfly Half Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 55%, Intermediate 65%, Advanced...",
+  "url": "https://bjjgraph.org/Positions/Butterfly-Half-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Butterfly Half Guard in BJJ. Complete guide covering setup,
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Butterfly Half Guard",
-      "item": "https://bjjgraph.com/positions/butterfly-half-guard"
+      "item": "https://bjjgraph.org/Positions/Butterfly-Half-Guard"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Butterfly Half Guard",
-  "description": "Master Butterfly Half Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 55%, Intermediate 65%, Advanced...",
-  "url": "https://bjjgraph.com/positions/butterfly-half-guard",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Butterfly Half Guard
 #bjj #state #guard #halfguard #butterfly #hybrid
@@ -246,7 +248,6 @@ You are positioned on the mat in a seated or slightly reclined posture, facing y
 - [[X-Guard]] - Advanced guard with similar elevation mechanics
 - [[Single Leg X Guard]] - Related leg entanglement position
 - [[Knee Shield Half Guard]] - Defensive half guard variation
-
 
 ## Related Positions
 

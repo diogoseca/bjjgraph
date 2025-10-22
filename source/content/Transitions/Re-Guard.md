@@ -31,48 +31,50 @@ total_time: "PT6M"
 tags: ["bjj", "transition", "escape", "defense", "guard_recovery"]
 ---
 
+
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Re-Guard",
-  "description": "Learn how to execute Re-Guard in Brazilian Jiu-Jitsu from Side Control Bottom to Closed Guard Bottom. Success: Beginner 55%, Intermediate 70%, Advanced 85%.",
+  "description": "Learn how to execute Re-Guard in Brazilian Jiu-Jitsu.",
   "step": [
     {
       "@type": "HowToStep",
       "name": "Frame Creation",
-      "text": "Establish defensive frames against opponent's neck and hip to create initial space and prevent them from consolidating pressure.",
+      "text": "Establish frames with near forearm on neck and far hand on hip, creating initial defensive structure",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Hip Escape",
-      "text": "Execute hip escape (shrimp) to create distance between your hips and opponent's control, moving your hips away from their pressure.",
+      "text": "Execute shrimp movement to slide hips away from opponent's control, creating separation",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Knee Insertion",
-      "text": "Insert your near knee between your body and opponent's torso, creating a barrier to prevent them from closing the distance.",
+      "text": "Insert near knee between bodies as barrier, preventing opponent from closing distance",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Guard Construction",
-      "text": "Bring your far leg through while maintaining frames and knee shield, beginning to establish guard structure.",
+      "text": "Thread far leg through space while maintaining frames, beginning guard recovery",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Hook Establishment",
-      "text": "Close your guard by locking your ankles behind opponent's back or establish open guard with hooks and grips.",
+      "text": "Lock ankles behind opponent's back or establish open guard hooks and grips",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Position Consolidation",
-      "text": "Secure guard position with proper grips and posture control, transitioning from defensive escape to offensive guard position.",
+      "text": "Secure guard with proper grips and posture control, transitioning to offensive mindset",
       "position": 6
     }
   ],
@@ -81,25 +83,26 @@ tags: ["bjj", "transition", "escape", "defense", "guard_recovery"]
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT6M"
+  "totalTime": "PT5M"
 }
 </script>
 
+
+<!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Re-Guard",
   "description": "Learn Re-Guard in BJJ. Step-by-step execution from inferior positions back to guard. Success: Beginner 55%, Intermediate 70%, Advanced 85%.",
-  "url": "https://bjjgraph.com/transitions/re-guard",
+  "url": "https://bjjgraph.org/Transitions/Re-Guard",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -109,23 +112,24 @@ tags: ["bjj", "transition", "escape", "defense", "guard_recovery"]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Re-Guard",
-      "item": "https://bjjgraph.com/transitions/re-guard"
+      "item": "https://bjjgraph.org/Transitions/Re-Guard"
     }
   ]
 }
 </script>
+
 
 # Re-Guard
 #bjj #transition #escape #defense #guard_recovery

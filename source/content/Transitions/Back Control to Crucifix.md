@@ -79,16 +79,14 @@ description: "Learn Back Control to Crucifix in BJJ. Step-by-step execution from
   "@type": "WebPage",
   "name": "Back Control to Crucifix",
   "description": "Learn Back Control to Crucifix in BJJ. Step-by-step execution from Back Control to Crucifix Position. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/back-control-to-crucifix",
+  "url": "https://bjjgraph.org/Transitions/Back-Control-to-Crucifix",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Back Control to Crucifix in BJJ. Step-by-step execution from
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Back Control to Crucifix",
-      "item": "https://bjjgraph.com/transitions/back-control-to-crucifix"
+      "item": "https://bjjgraph.org/Transitions/Back-Control-to-Crucifix"
     }
   ]
 }

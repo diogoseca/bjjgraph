@@ -167,38 +167,44 @@ state_machine:
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Escape from Bottom Position in BJJ",
-  "description": "Complete guide to defensive concepts and escape principles from bottom position.",
+  "name": "How to Use Bottom Position Generic in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Bottom Position Generic.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Defensive Frames",
-      "text": "Create frames with arms and legs to prevent opponent from settling into dominant control.",
+      "name": "Execute Guard Recovery",
+      "text": "From this position, execute Guard Recovery to transition to Guard Position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Create Space",
-      "text": "Use bridge, shrimp, or hip movement to create space between you and opponent.",
+      "name": "Execute Hip Escape",
+      "text": "From this position, execute Hip Escape to transition to Guard Position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Insert Guard",
-      "text": "Use created space to insert knee, hip, or leg to establish guard position.",
+      "name": "Execute Bridge and Roll",
+      "text": "From this position, execute Bridge and Roll to transition to Top Position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Recover Guard",
-      "text": "Complete guard recovery to establish defensive position with offensive potential.",
+      "name": "Execute Technical Stand Up",
+      "text": "From this position, execute Technical Stand Up to transition to Standing Position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Alternative: Technical Stand Up",
-      "text": "If guard recovery blocked, use technical stand up to return to standing position.",
+      "name": "Execute Submission from Bottom",
+      "text": "From this position, execute Submission from Bottom to transition to Submission Position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Sweep",
+      "text": "From this position, execute Sweep to transition to Top Position.",
+      "position": 6
     }
   ],
   "tool": [
@@ -206,7 +212,7 @@ state_machine:
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT4M"
+  "totalTime": "PT5M"
 }
 </script>
 
@@ -217,42 +223,42 @@ state_machine:
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most important principle in bottom position?",
+      "name": "What is a common mistake in Staying flat on back?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Never stay flat. Staying flat eliminates your ability to create frames, generate movement, or escape. Always stay on your side or create angles to maintain defensive capability and escape options."
+        "text": "Eliminates ability to create frames, generate movement, or escape. Makes you vulnerable to pressure and submissions. Prevents proper defensive posture. The correction is: Always stay on your side or create angles. Use hip movement to prevent being flattened. Maintain active defensive posture even under pressure.\n  - **Recognition**: If you feel completely pinned with no movement options, you've been flattened."
       }
     },
     {
       "@type": "Question",
-      "name": "When should I bridge vs shrimp from bottom?",
+      "name": "What is a common mistake in Panic and explosive thrashing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bridge when opponent's weight is forward over you to create explosive space. Shrimp when you need lateral movement to create angles or when opponent's pressure is perpendicular to your body."
+        "text": "Wastes enormous energy without achieving positional improvement. Often makes position worse by creating space for opponent to advance. Exhausts defender quickly. The correction is: Breathe, stay calm, and work systematic technique. Small, precise movements are more effective than large explosive ones. Save explosive energy for committed escape attempts.\n  - **Recognition**: If you're breathing heavily after 20 seconds with no positional improvement, you're panicking."
       }
     },
     {
       "@type": "Question",
-      "name": "How do I prevent being submitted from bottom?",
+      "name": "What is a common mistake in Extending arms into opponent's control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintain defensive awareness of submission threats, keep elbows tight to body, protect neck, and never extend arms into opponent's control. Priority is escaping position before submissions become available."
+        "text": "Creates armbar, kimura, and americana opportunities. Gives opponent easy control points and submission entries. Eliminates your framing capability. The correction is: Keep elbows tight to body. Frame with forearms, not straight arms. Never push opponent with extended arms—this is an invitation to be submitted.\n  - **Recognition**: If opponent easily controls your wrists or attacks your arms, you've extended them improperly."
       }
     },
     {
       "@type": "Question",
-      "name": "What are the key escape priorities from bottom?",
+      "name": "What is a common mistake in Ignoring submission threats while trying to escape?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "First priority: prevent submissions. Second: create frames and space. Third: escape to guard or standing. Fourth: attempt reversals if opponent overcommits."
+        "text": "Tapping out while attempting escape. Prioritizing positional improvement over survival leads to submission losses. The correction is: Always defend submissions first, escape second. If neck is attacked, forget the escape and defend. Re-evaluate escape plan after immediate submission threat is neutralized.\n  - **Recognition**: If you're in immediate danger of tapping, you've missed a submission threat."
       }
     },
     {
       "@type": "Question",
-      "name": "Is it better to escape to guard or stand up?",
+      "name": "What is a common mistake in Using same escape attempt repeatedly?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Depends on rule set and energy levels. Guard recovery is typically higher percentage and offers offensive options. Standing is valuable in self-defense or when exhausted and needing to create distance."
+        "text": "Opponent learns your pattern and defends easily. Wastes energy on predictable attempts. Allows opponent to prepare counters. The correction is: Chain multiple escape attempts. If one fails, immediately transition to alternative. Use feints to create openings. Vary timing and direction.\n  - **Recognition**: If opponent easily defends your escape multiple times, you've become predictable."
       }
     }
   ]
@@ -267,16 +273,14 @@ state_machine:
   "@type": "WebPage",
   "name": "Bottom Position Generic",
   "description": "Master Bottom Position fundamentals in BJJ. Complete guide covering defensive concepts, escape principles, and guard systems. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-  "url": "https://bjjgraph.com/positions/bottom-position-generic",
+  "url": "https://bjjgraph.org/Positions/Bottom-Position-Generic",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -286,19 +290,19 @@ state_machine:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Bottom Position Generic",
-      "item": "https://bjjgraph.com/positions/bottom-position-generic"
+      "item": "https://bjjgraph.org/Positions/Bottom-Position-Generic"
     }
   ]
 }

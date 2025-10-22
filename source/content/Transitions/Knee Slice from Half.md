@@ -37,6 +37,62 @@ related_positions: ["Half Guard Top", "Side Control Top", "Knee Slice Position"]
 related_techniques: ["Half Guard Pass", "Knee Slice Pass", "Leg Drag Control"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Knee Slice from Half",
+  "description": "Learn how to execute Knee Slice from Half in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish half guard top with grips (collar, head, or underhook)",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Create separation and angle your hips for knee insertion",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent tries to maintain half guard hooks or establish frames",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Use upper body control to suppress frames, drive knee aggressively across",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Step trailing leg over, drive knee past their legs completely",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Establish side control with knee pressure, secure crossface",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
 # Knee Slice from Half
 #bjj #transition #guard_pass #knee_slice #dynamic
 
@@ -65,9 +121,9 @@ From half guard top, you establish grips and create space to extract your trappe
 
 ## Common Counters
 
-- **[[Underhook Defense]]** ’ [[Half Guard Maintained]] (Success Rate: 50%, Conditions: strong underhook)
-- **[[Knee Shield Frame]]** ’ [[Guard Retention]] (Success Rate: 45%, Conditions: frames knee early)
-- **[[Back Take Attempt]]** ’ [[Scramble]] (Success Rate: 30%, Conditions: opponent aggressive)
+- **[[Underhook Defense]]**  [[Half Guard Maintained]] (Success Rate: 50%, Conditions: strong underhook)
+- **[[Knee Shield Frame]]**  [[Guard Retention]] (Success Rate: 45%, Conditions: frames knee early)
+- **[[Back Take Attempt]]**  [[Scramble]] (Success Rate: 30%, Conditions: opponent aggressive)
 
 ## Expert Insights
 

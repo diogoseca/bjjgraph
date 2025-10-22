@@ -46,6 +46,50 @@ application_contexts:
 tags: [bjj, concept, defense, fundamental, chin, neck-protection, survival]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Chin Protection",
+  "description": "Chin Protection represents the fundamental defensive principle of maintaining proper head and neck positioning to eliminate available space for opponent's choking attacks, particularly in back cont...",
+  "url": "https://bjjgraph.org/Concepts/Chin-Protection",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Chin Protection",
+      "item": "https://bjjgraph.org/Concepts/Chin-Protection"
+    }
+  ]
+}
+</script>
+
+
 # Chin Protection
 #bjj #concept #defense #fundamental #chin-protection
 

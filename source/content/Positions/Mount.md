@@ -15,8 +15,8 @@ description: "Master Mount position in BJJ. Complete guide covering control, sub
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute S-Mount Transition",
-      "text": "From this position, execute S-Mount Transition to transition to S-Mount.",
+      "name": "Execute S-Mount Position",
+      "text": "From this position, execute S-Mount Position to transition to S-Mount Position.",
       "position": 1
     },
     {
@@ -58,6 +58,72 @@ description: "Master Mount position in BJJ. Complete guide covering control, sub
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Weight too far forward?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to back rolls"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Posture too high?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reduced control and stability"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Knees positioned too wide?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Allows space for escapes"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Hands posted too far out?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Susceptible to sweeps"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Hunting submissions prematurely?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Position compromise"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mount Position",
+  "description": "Master Mount position in BJJ. Complete guide covering control, submissions, and transitions. Dominant 4-point position with 75% retention rate and 55% submission probability.",
+  "url": "https://bjjgraph.org/Positions/Mount",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Mount position in BJJ. Complete guide covering control, sub
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Mount Position",
-      "item": "https://bjjgraph.com/positions/mount"
+      "item": "https://bjjgraph.org/Positions/Mount"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Mount Position",
-  "description": "Master Mount position in BJJ. Complete guide covering control, submissions, and transitions. Dominant 4-point position with 75% retention rate and 55% submission probability.",
-  "url": "https://bjjgraph.com/positions/mount",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Mount
 #bjj #state #dominant #pin #mount
@@ -188,7 +238,6 @@ From a top-down view, the practitioner sits directly on the opponent's chest and
 - [[Technical Mount]] - Modified mount used when opponent turns to side
 - [[Low Mount]] - Lower positioned mount with hips closer to opponent's hips
 - [[Mounted Triangle]] - Hybrid position combining mount and triangle control
-
 
 ## Related Positions
 

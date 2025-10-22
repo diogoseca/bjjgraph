@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Pressure Reduction",
   "description": "Pressure Reduction represents the essential defensive skill of strategically minimizing, redirecting, and dissipating an opponent's applied force and control to create more manageable conditions fo...",
-  "url": "https://bjjgraph.com/concepts/pressure-reduction",
+  "url": "https://bjjgraph.org/Concepts/Pressure-Reduction",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Pressure Reduction",
-      "item": "https://bjjgraph.com/concepts/pressure-reduction"
+      "item": "https://bjjgraph.org/Concepts/Pressure-Reduction"
     }
   ]
 }

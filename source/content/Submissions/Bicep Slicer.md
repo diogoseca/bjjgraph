@@ -3,6 +3,7 @@ title: "Bicep Slicer | BJJ Submission Guide | BJJ Graph"
 description: "Final positioning with opponent's bicep compressed against your shin or forearm Pressure application creating pain and potential muscle damage"
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "Final positioning with opponent's bicep compressed against your sh
   "@type": "WebPage",
   "name": "Bicep Slicer",
   "description": "Final positioning with opponent's bicep compressed against your shin or forearm Pressure application creating pain and potential muscle damage",
-  "url": "https://bjjgraph.com/submissions/bicep-slicer",
+  "url": "https://bjjgraph.org/Submissions/Bicep-Slicer",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "Final positioning with opponent's bicep compressed against your sh
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Bicep Slicer",
-      "item": "https://bjjgraph.com/submissions/bicep-slicer"
+      "item": "https://bjjgraph.org/Submissions/Bicep-Slicer"
     }
   ]
 }
 </script>
+
 
 # Bicep Slicer
 #bjj #submission #joint_lock #compression #endstate #bicep

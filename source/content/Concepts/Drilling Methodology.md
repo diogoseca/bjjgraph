@@ -45,21 +45,19 @@ application_contexts:
 tags: [bjj, concept, training, drilling, methodology, skill-development]
 ---
 
-# Drilling Methodology
-#bjj #concept #training #drilling #methodology
 
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Drilling Methodology | Concept | BJJ Graph",
-  "description": "Master drilling methodology in BJJ. Learn effective repetition structures, progressive resistance integration, and skill development frameworks for optimal technique acquisition.",
-  "url": "https://bjjgraph.com/concepts/drilling-methodology",
+  "name": "Drilling Methodology | Concept",
+  "description": "Drilling Methodology represents the systematic approach to technique repetition and skill acquisition through structured, progressive practice that emphasizes quality movement patterns, error corre...",
+  "url": "https://bjjgraph.org/Concepts/Drilling-Methodology",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -72,23 +70,27 @@ tags: [bjj, concept, training, drilling, methodology, skill-development]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Drilling Methodology",
-      "item": "https://bjjgraph.com/concepts/drilling-methodology"
+      "item": "https://bjjgraph.org/Concepts/Drilling-Methodology"
     }
   ]
 }
 </script>
+
+
+# Drilling Methodology
+#bjj #concept #training #drilling #methodology
 
 ## Concept Description
 

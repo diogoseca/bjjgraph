@@ -33,6 +33,106 @@ related_positions: ["North-South Bottom", "Guard Recovery", "Turtle Position"]
 related_techniques: ["Bridge and Shrimp", "Hip Escape", "Guard Recovery"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "North-South Escape",
+  "description": "Learn how to execute North-South Escape in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Frame hands ready on opponent's hips, hips aligned for bridge, timing moment of reduced pressure",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Explosive bridge upward and toward one side, creating maximum space between chests",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "They typically try to follow your bridge, maintain chest pressure, or transition to different control",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "As you bridge, push with frames to extend space, quickly capitalize on any space created",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Shrimp hips out while bringing knees to chest, insert feet on hips or create butterfly hooks",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Establish guard controls, prevent them from passing again, create safe distance",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "North-South Escape",
+  "description": "Learn North-South Escape in BJJ. Step-by-step execution from North-South Bottom to Guard Recovery. Success: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "url": "https://bjjgraph.org/Transitions/North-South-Escape",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "North-South Escape",
+      "item": "https://bjjgraph.org/Transitions/North-South-Escape"
+    }
+  ]
+}
+</script>
+
+
 # North-South Escape
 #bjj #transition #escape #defensive
 

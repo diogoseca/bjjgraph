@@ -11,7 +11,7 @@ description: "Learn Transition to North-South in BJJ. Step-by-step execution fro
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Transition to North-South",
-  "description": "Learn how to execute Transition to North-South in Brazilian Jiu-Jitsu from Side Control to North-South.",
+  "description": "Learn how to execute Transition to North-South in Brazilian Jiu-Jitsu. Success: Beginner 55%, Intermediate 70%, Advanced 85%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -55,7 +55,24 @@ description: "Learn Transition to North-South in BJJ. Step-by-step execution fro
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT4M"
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Transition to North-South",
+  "description": "Learn Transition to North-South in BJJ. Step-by-step execution from Side Control to North-South. Success: Beginner 55%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Transitions/Transition-to-North-South",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -67,39 +84,24 @@ description: "Learn Transition to North-South in BJJ. Step-by-step execution fro
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Transition to North-South",
-      "item": "https://bjjgraph.com/transitions/transition-to-north-south"
+      "item": "https://bjjgraph.org/Transitions/Transition-to-North-South"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Transition to North-South",
-  "description": "Learn Transition to North-South in BJJ. Step-by-step execution from Side Control to North-South. Success: Beginner 55%, Intermediate 70%, Advanced 85%.",
-  "url": "https://bjjgraph.com/transitions/transition-to-north-south",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Transition to North-South
 #bjj #transition #advancement #position_change #intermediate
@@ -346,7 +348,6 @@ Every transition file must include:
 - [[North-South to Kimura]] - Arm attack from north-south
 - [[Side Control to Mount]] - Alternative advancement from side control
 - [[North-South Escape]] - Defensive counters to position
-
 
 ## Competition Applications
 - **IBJJF Rules**: No additional points for transition but creates submission opportunities

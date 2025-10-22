@@ -11,7 +11,7 @@ description: "Learn Kosoto Gari in BJJ. Step-by-step execution from Standing Pos
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Kosoto Gari",
-  "description": "Learn how to execute Kosoto Gari in Brazilian Jiu-Jitsu from Standing Position to Side Control.",
+  "description": "Learn how to execute Kosoto Gari in Brazilian Jiu-Jitsu from Standing Position to Side Control. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -58,6 +58,23 @@ description: "Learn Kosoto Gari in BJJ. Step-by-step execution from Standing Pos
   "totalTime": "PT5M"
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kosoto Gari",
+  "description": "Learn Kosoto Gari in BJJ. Step-by-step execution from Standing Position to Side Control. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Kosoto-Gari",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,39 +84,24 @@ description: "Learn Kosoto Gari in BJJ. Step-by-step execution from Standing Pos
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Kosoto Gari",
-      "item": "https://bjjgraph.com/transitions/kosoto-gari"
+      "item": "https://bjjgraph.org/Transitions/Kosoto-Gari"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Kosoto Gari",
-  "description": "Learn Kosoto Gari in BJJ. Step-by-step execution from Standing Position to Side Control. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
-  "url": "https://bjjgraph.com/transitions/kosoto-gari",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Kosoto Gari
 #bjj #transition #takedown #judo #ashiwaza #reap
@@ -329,7 +331,6 @@ Updates to this standard should be reflected across all transition files to main
 - [[Deashi Harai]] - Related technique
 - [[Foot Sweep Series]] - Related technique
 - [[Side Control Top]] - Common ending position from kosoto gari
-
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as takedown (2 points)

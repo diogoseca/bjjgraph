@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Competition Scoring Strategy",
   "description": "The Competition Scoring Strategy represents a comprehensive approach to BJJ competition that optimizes decision-making based on rule structures, scoring systems, and time management to maximize com...",
-  "url": "https://bjjgraph.com/systems/competition-scoring-strategy",
+  "url": "https://bjjgraph.org/Systems/Competition-Scoring-Strategy",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Systems",
-      "item": "https://bjjgraph.com/systems/"
+      "item": "https://bjjgraph.org/Systems/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Competition Scoring Strategy",
-      "item": "https://bjjgraph.com/systems/competition-scoring-strategy"
+      "item": "https://bjjgraph.org/Systems/Competition-Scoring-Strategy"
     }
   ]
 }

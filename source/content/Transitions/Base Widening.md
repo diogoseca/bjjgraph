@@ -41,7 +41,7 @@ related_techniques: ["Posture Recovery", "Guard Passing", "Defensive Frame"]
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Base Widening",
-  "description": "Learn how to execute Base Widening in Brazilian Jiu-Jitsu for defensive stability.",
+  "description": "Learn how to execute Base Widening in Brazilian Jiu-Jitsu from Half Guard Bottom to Half Guard Pass Position. Success: Beginner 60%, Intermediate 75%, Advanced 90%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -85,7 +85,24 @@ related_techniques: ["Posture Recovery", "Guard Passing", "Defensive Frame"]
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT2M"
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Base Widening",
+  "description": "Learn Base Widening in BJJ. Defensive technique for establishing stability and preventing sweeps. Success: Beginner 60%, Intermediate 75%, Advanced 90%.",
+  "url": "https://bjjgraph.org/Transitions/Base-Widening",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -97,39 +114,24 @@ related_techniques: ["Posture Recovery", "Guard Passing", "Defensive Frame"]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Base Widening",
-      "item": "https://bjjgraph.com/transitions/base-widening"
+      "item": "https://bjjgraph.org/Transitions/Base-Widening"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Base Widening",
-  "description": "Learn Base Widening in BJJ. Defensive technique for establishing stability and preventing sweeps. Success: Beginner 60%, Intermediate 75%, Advanced 90%.",
-  "url": "https://bjjgraph.com/transitions/base-widening",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Base Widening
 #bjj #transition #defense #guard #fundamental #base

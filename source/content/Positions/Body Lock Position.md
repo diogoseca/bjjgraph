@@ -9,6 +9,105 @@ tags:
   - control
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Body Lock Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Body Lock Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Mat Return",
+      "text": "From Body Lock Position, execute Mat Return to advance your position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Body Lock Takedown",
+      "text": "From Body Lock Position, execute Body Lock Takedown to advance your position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Hip Toss",
+      "text": "From Body Lock Position, execute Hip Toss to advance your position.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Body Lock Position?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Double underhooks or over-under grip provides overwhelming control"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Body Lock Position",
+  "description": "Master Body Lock Position in BJJ. Complete guide covering control, throws, and back takes. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Positions/Body-Lock-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Body Lock Position",
+      "item": "https://bjjgraph.org/Positions/Body-Lock-Position"
+    }
+  ]
+}
+</script>
+
+
 # Body Lock Position
 #bjj #state #standing #clinch #control
 

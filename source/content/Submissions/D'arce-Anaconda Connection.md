@@ -3,6 +3,7 @@ title: "D'arce-Anaconda Connection | BJJ Submission Guide | BJJ Graph"
 description: "The D'arce-Anaconda Connection is a sophisticated submission system that leverages the arm triangle choke family, focusing on the D'arce (Brabo) and Anaconda chokes as primary attacks. This progres..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "The D'arce-Anaconda Connection is a sophisticated submission syste
   "@type": "WebPage",
   "name": "D'arce-Anaconda Connection",
   "description": "The D'arce-Anaconda Connection is a sophisticated submission system that leverages the arm triangle choke family, focusing on the D'arce (Brabo) and Anaconda chokes as primary attacks. This progres...",
-  "url": "https://bjjgraph.com/submissions/d'arce-anaconda-connection",
+  "url": "https://bjjgraph.org/Submissions/D'arce-Anaconda-Connection",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "The D'arce-Anaconda Connection is a sophisticated submission syste
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "D'arce-Anaconda Connection",
-      "item": "https://bjjgraph.com/submissions/darce-anaconda-connection"
+      "item": "https://bjjgraph.org/Submissions/Darce-Anaconda-Connection"
     }
   ]
 }
 </script>
+
 
 # D'arce-Anaconda Connection
 #bjj #submission #choke #chain #darce #anaconda

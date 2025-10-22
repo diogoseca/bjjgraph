@@ -3,6 +3,7 @@ title: "Arm Triangle | BJJ Submission Guide | BJJ Graph"
 description: "From a dominant position like mount or side control, you begin by isolating one of the opponent's arms, pushing it against their neck to set up the choke. Your head is positioned on the same side..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "From a dominant position like mount or side control, you begin by 
   "@type": "WebPage",
   "name": "Arm Triangle",
   "description": "From a dominant position like mount or side control, you begin by isolating one of the opponent's arms, pushing it against their neck to set up the choke. Your head is positioned on the same side...",
-  "url": "https://bjjgraph.com/submissions/arm-triangle",
+  "url": "https://bjjgraph.org/Submissions/Arm-Triangle",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "From a dominant position like mount or side control, you begin by 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Arm Triangle",
-      "item": "https://bjjgraph.com/submissions/arm-triangle"
+      "item": "https://bjjgraph.org/Submissions/Arm-Triangle"
     }
   ]
 }
 </script>
+
 
 # Arm Triangle
 #bjj #transition #submission #choke #arm_triangle

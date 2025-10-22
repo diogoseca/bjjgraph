@@ -78,6 +78,50 @@ author: "BJJGraph System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle from Back | Blood Choke",
+  "description": "The Triangle from Back is an advanced variation where the attacker uses their legs to create a triangle configuration while maintaining [[Back Control]]. This hybrid submission combines elements of...",
+  "url": "https://bjjgraph.org/Submissions/Triangle-from-Back",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Triangle from Back",
+      "item": "https://bjjgraph.org/Submissions/Triangle-from-Back"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ SAFETY NOTICE
 
 **This submission combines leg pressure with neck choke - monitor partner for BOTH rib pain and consciousness.**

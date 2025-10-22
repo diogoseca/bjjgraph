@@ -15,33 +15,39 @@ description: "Master Reverse Kesa Gatame Top in BJJ. Complete guide covering con
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Reverse Kesa Gatame Control",
-      "text": "From side control, turn your back to opponent's head, securing their far arm with your armpit while maintaining chest pressure on their torso.",
+      "name": "Execute Transition to Side Control",
+      "text": "From this position, execute Transition to Side Control to transition to Side Control.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Side Control",
-      "text": "Pivot your hips and shoulders to return to traditional side control for more offensive options.",
+      "name": "Execute Transition to North-South",
+      "text": "From this position, execute Transition to North-South to transition to North-South.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to North-South",
-      "text": "Walk your body around opponent's head to establish north-south control.",
+      "name": "Execute Transition to Mount",
+      "text": "From this position, execute Transition to Mount to transition to Mount.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura Attack",
-      "text": "Isolate and attack the trapped arm with kimura grip and pressure.",
+      "name": "Execute Kimura from Reverse Kesa",
+      "text": "From this position, execute Kimura from Reverse Kesa to transition to Kimura Control.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Crush Submission",
-      "text": "Apply pressure to the trapped arm for shoulder compression and potential submission.",
+      "text": "From this position, execute Arm Crush Submission to transition to Won by Submission.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Straight Armbar",
+      "text": "From this position, execute Straight Armbar to transition to Armbar Control.",
+      "position": 6
     }
   ],
   "tool": [
@@ -50,6 +56,24 @@ description: "Master Reverse Kesa Gatame Top in BJJ. Complete guide covering con
     "Mat space"
   ],
   "totalTime": "PT5M"
+}
+</script>
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reverse Kesa Gatame Top",
+  "description": "Master Reverse Kesa Gatame Top in BJJ. Complete guide covering control, pressure, submissions, and transitions. Dominant pinning position with 80% retention rate.",
+  "url": "https://bjjgraph.org/Positions/Reverse-Kesa-Gatame-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -61,40 +85,24 @@ description: "Master Reverse Kesa Gatame Top in BJJ. Complete guide covering con
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Reverse Kesa Gatame Top",
-      "item": "https://bjjgraph.com/positions/reverse-kesa-gatame-top"
+      "item": "https://bjjgraph.org/Positions/Reverse-Kesa-Gatame-Top"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Reverse Kesa Gatame Top",
-  "description": "Master Reverse Kesa Gatame Top in BJJ. Complete guide covering control, pressure, submissions, and transitions. Dominant pinning position with 80% retention rate.",
-  "url": "https://bjjgraph.com/positions/reverse-kesa-gatame-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Reverse Kesa Gatame Top
 #bjj #state #dominant #pin #scarf_hold

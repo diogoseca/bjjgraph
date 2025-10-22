@@ -33,8 +33,8 @@ description: "Master Half Guard Bottom in BJJ. Complete guide covering setup, co
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Shield Transition",
-      "text": "From this position, execute Knee Shield Transition to transition to Knee Shield Half Guard.",
+      "name": "Execute knee shield retention",
+      "text": "From this position, execute knee shield retention to transition to Knee Shield Half Guard.",
       "position": 4
     },
     {
@@ -58,6 +58,72 @@ description: "Master Half Guard Bottom in BJJ. Complete guide covering setup, co
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Staying flat on back?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to crossface and pressure"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Failing to establish underhook?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Limited offensive options"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Focusing only on defense?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Allowing opponent to advance position"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor knee/elbow connection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to passing"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Over-committing to single techniques?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Predictable patterns"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Half Guard Bottom",
+  "description": "Master Half Guard Bottom in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 55%.",
+  "url": "https://bjjgraph.org/Positions/Half-Guard-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Half Guard Bottom in BJJ. Complete guide covering setup, co
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Half Guard Bottom",
-      "item": "https://bjjgraph.com/positions/half-guard-bottom"
+      "item": "https://bjjgraph.org/Positions/Half-Guard-Bottom"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Half Guard Bottom",
-  "description": "Master Half Guard Bottom in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 55%.",
-  "url": "https://bjjgraph.com/positions/half-guard-bottom",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Half Guard Bottom
 #bjj #state #guard #halfguard #bottom
@@ -185,7 +235,6 @@ You are positioned on your side or back with one of the opponent's legs captured
 - [[lockdown guard]] - Eddie Bravo's control-focused variation
 - [[Z-Guard]] - Angled knee shield variation
 - [[93 Guard]] - Modified half guard with lapel control (gi)
-
 
 ## Related Positions
 

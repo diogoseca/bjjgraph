@@ -595,6 +595,105 @@ llm_context:
 
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Back Control Standing Top in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Back Control Standing Top.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Back Take to Mat",
+      "text": "From Back Control Standing Top, execute Back Take to Mat to advance your position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Mat Return from Standing",
+      "text": "From Back Control Standing Top, execute Mat Return from Standing to advance your position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Rear Trip Takedown",
+      "text": "From Back Control Standing Top, execute Rear Trip Takedown to advance your position.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Back Control Standing Top?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Chest-to-Back Connection**: Maintaining constant pressure from chest to opponent's back prevents their turn and establishes control foundation"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Back Control Standing Top",
+  "description": "Master Back Control from standing position in BJJ. Takedown control and submission setups. Success rates: Beginner 40%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Positions/Back-Control-Standing-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Back Control Standing Top",
+      "item": "https://bjjgraph.org/Positions/Back-Control-Standing-Top"
+    }
+  ]
+}
+</script>
+
+
 # Back Control Standing Top
 #bjj #position #back-control #standing #takedown #advanced
 

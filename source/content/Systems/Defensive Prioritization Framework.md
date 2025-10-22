@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Defensive Prioritization Framework",
   "description": "The Defensive Prioritization Framework represents a comprehensive strategic approach to BJJ defense that establishes a hierarchical decision-making system for defensive responses based on threat se...",
-  "url": "https://bjjgraph.com/systems/defensive-prioritization-framework",
+  "url": "https://bjjgraph.org/Systems/Defensive-Prioritization-Framework",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Systems",
-      "item": "https://bjjgraph.com/systems/"
+      "item": "https://bjjgraph.org/Systems/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Defensive Prioritization Framework",
-      "item": "https://bjjgraph.com/systems/defensive-prioritization-framework"
+      "item": "https://bjjgraph.org/Systems/Defensive-Prioritization-Framework"
     }
   ]
 }

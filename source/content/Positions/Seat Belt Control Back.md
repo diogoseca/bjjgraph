@@ -573,6 +573,105 @@ llm_context:
 
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Seat Belt Control Back in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Seat Belt Control Back.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Rear Naked Choke",
+      "text": "From Seat Belt Control Back, execute Rear Naked Choke to advance your position.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Bow and Arrow Choke",
+      "text": "From Seat Belt Control Back, execute Bow and Arrow Choke to advance your position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Armbar from Back",
+      "text": "From Seat Belt Control Back, execute Armbar from Back to advance your position.",
+      "position": 3
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Seat Belt Control Back?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Diagonal Grip Dominance**: The over-under seat belt configuration creates superior control through diagonal force distribution across opponent's body"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Seat Belt Control Back",
+  "description": "Master Seat Belt Control Back in BJJ. Complete guide covering control mechanics, transitions, and submission paths. Success rates: Beginner 65%, Intermediate 75%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Positions/Seat-Belt-Control-Back",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Seat Belt Control Back",
+      "item": "https://bjjgraph.org/Positions/Seat-Belt-Control-Back"
+    }
+  ]
+}
+</script>
+
+
 # Seat Belt Control Back
 #bjj #state #back-control #seatbelt #dominant
 

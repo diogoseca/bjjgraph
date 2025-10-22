@@ -45,18 +45,19 @@ application_contexts:
 tags: [bjj, concept, guard-passing, knee-slice, underhook, intermediate, pressure]
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Knee Slice with Underhook | Concept | BJJ Graph",
+  "name": "Knee Slice with Underhook | Concept",
   "description": "Master the knee slice pass with underhook control - a fundamental guard passing concept. Learn pressure mechanics, angle creation, and control principles for this essential passing technique.",
-  "url": "https://bjjgraph.com/concepts/knee-slice-with-underhook",
+  "url": "https://bjjgraph.org/Concepts/Knee-Slice-with-Underhook",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -69,23 +70,24 @@ tags: [bjj, concept, guard-passing, knee-slice, underhook, intermediate, pressur
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Knee Slice with Underhook",
-      "item": "https://bjjgraph.com/concepts/knee-slice-with-underhook"
+      "item": "https://bjjgraph.org/Concepts/Knee-Slice-with-Underhook"
     }
   ]
 }
 </script>
+
 
 # Knee Slice with Underhook
 #bjj #concept #guard-passing #knee-slice #underhook #intermediate

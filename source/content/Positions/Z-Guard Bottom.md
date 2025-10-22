@@ -183,33 +183,39 @@ state_machine:
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Knee Shield",
-      "text": "Create a strong knee shield against opponent's chest, maintaining distance and frame.",
+      "name": "Execute Old School Sweep",
+      "text": "From this position, execute Old School Sweep to transition to Side Control Top.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Control Bottom Leg",
-      "text": "Use your bottom leg to control opponent's trapped leg, preventing them from freeing it.",
+      "name": "Execute Homer Simpson Sweep",
+      "text": "From this position, execute Homer Simpson Sweep to transition to Mount.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Old School Sweep",
-      "text": "When opponent drives forward, execute Old School Sweep to transition to Side Control Top.",
+      "name": "Execute Underhook Sweep",
+      "text": "From this position, execute Underhook Sweep to transition to Side Control Top.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Underhook Sweep",
-      "text": "Secure underhook and execute sweep to Side Control Top position.",
+      "name": "Execute Kimura from Z-Guard",
+      "text": "From this position, execute Kimura from Z-Guard to transition to Kimura Control.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Attack with Kimura",
-      "text": "When opponent attempts to flatten, attack with Kimura to Kimura Control.",
+      "name": "Execute Triangle from Z-Guard",
+      "text": "From this position, execute Triangle from Z-Guard to transition to Triangle Control.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Deep Half Entry",
+      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard.",
+      "position": 6
     }
   ],
   "tool": [
@@ -278,16 +284,14 @@ state_machine:
   "@type": "WebPage",
   "name": "Z-Guard Bottom",
   "description": "Master Z-Guard Bottom in BJJ. Complete guide covering knee shield control, sweeps, and submissions. Success rates: Beginner 50%, Intermediate 65%, Advanced 75%.",
-  "url": "https://bjjgraph.com/positions/z-guard-bottom",
+  "url": "https://bjjgraph.org/Positions/Z-Guard-Bottom",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -297,19 +301,19 @@ state_machine:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Z-Guard Bottom",
-      "item": "https://bjjgraph.com/positions/z-guard-bottom"
+      "item": "https://bjjgraph.org/Positions/Z-Guard-Bottom"
     }
   ]
 }

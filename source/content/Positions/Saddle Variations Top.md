@@ -10,38 +10,26 @@ description: "Master Saddle Variations Top in BJJ. Learn reverse saddle, shallow
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Attack from Saddle Variations Top in BJJ",
-  "description": "Complete guide to attacking with reverse saddle, shallow saddle, and modified saddle entries.",
+  "name": "How to Use Saddle Variations Top in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Saddle Variations Top.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Choose Appropriate Variation",
-      "text": "Select saddle variation based on opponent's defensive positioning.",
+      "name": "Execute Heel Hook from Outside",
+      "text": "From Saddle Variations Top, execute Heel Hook from Outside to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Clean Entry",
-      "text": "Establish specific saddle variation with proper mechanics.",
+      "name": "Execute Toe Hold from Outside",
+      "text": "From Saddle Variations Top, execute Toe Hold from Outside to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Consolidate Control",
-      "text": "Tighten shallow entries into secure position.",
+      "name": "Execute Straight Ankle Lock",
+      "text": "From Saddle Variations Top, execute Straight Ankle Lock to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Apply Variation-Specific Attack",
-      "text": "Use submission appropriate for the saddle variation.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Switch Variations as Needed",
-      "text": "Flow between different saddle types based on defense.",
-      "position": 5
     }
   ],
   "tool": [
@@ -60,48 +48,32 @@ description: "Master Saddle Variations Top in BJJ. Learn reverse saddle, shallow
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "When should I use reverse saddle instead of inside saddle?",
+      "name": "What is a key principle of Saddle Variations Top?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Use reverse saddle when opponent defends inside position well, when entry angle favors outside control, or when transitioning from certain guard passes. While mechanically inferior, it's still highly effective and creates different defensive problems."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the advantage of knowing multiple saddle variations?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Multiple variations allow you to attack opponents who specialize in defending only standard saddle, create dilemmas through variation switching, and adapt to different entry opportunities. It makes your leg attack game less predictable and harder to defend."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I consolidate a shallow saddle entry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Use hip pressure to close distance, adjust leg configuration to tighter figure-four, control upper body to prevent frames, and secure heel grip progressively. Work systematically rather than rushing the consolidation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I finish from shallow saddle or should I always tighten first?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Against less experienced opponents, finishing from shallow saddle is possible. Against skilled defenders, tighten first as they'll escape loose positions. Balance opportunity recognition with positional security."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What submissions work best from reverse saddle?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Heel hooks still work from reverse saddle though with less optimal leverage. Toe holds and straight ankle locks are high-percentage. The outside angle provides unique submission opportunities compared to inside saddle."
+        "text": "**Variation Selection**: Choose saddle type based on entry opportunity and opponent's defensive knowledge"
       }
     }
   ]
 }
 </script>
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Saddle Variations Top",
+  "description": "Master Saddle Variations Top in BJJ. Learn reverse saddle, shallow entries, and modified attacks. Success rates: Beginner 58%, Intermediate 73%, Advanced 86%.",
+  "url": "https://bjjgraph.org/Positions/Saddle-Variations-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -111,38 +83,24 @@ description: "Master Saddle Variations Top in BJJ. Learn reverse saddle, shallow
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Saddle Variations Top",
-      "item": "https://bjjgraph.com/positions/saddle-variations-top"
+      "item": "https://bjjgraph.org/Positions/Saddle-Variations-Top"
     }
   ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Saddle Variations Top",
-  "description": "Master Saddle Variations Top in BJJ. Learn reverse saddle, shallow entries, and modified attacks. Success rates: Beginner 58%, Intermediate 73%, Advanced 86%.",
-  "url": "https://bjjgraph.com/positions/saddle-variations-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Saddle Variations Top
 #bjj #state #leg_entanglement #offensive_position #variations #advanced

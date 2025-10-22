@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Berimbolo",
   "description": "The Berimbolo is a modern dynamic technique that uses a rolling inversion from De La Riva guard to take the opponent's back. This sophisticated movement combines principles of guard sweeping with i...",
-  "url": "https://bjjgraph.com/systems/berimbolo",
+  "url": "https://bjjgraph.org/Systems/Berimbolo",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Systems",
-      "item": "https://bjjgraph.com/systems/"
+      "item": "https://bjjgraph.org/Systems/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Berimbolo",
-      "item": "https://bjjgraph.com/systems/berimbolo"
+      "item": "https://bjjgraph.org/Systems/Berimbolo"
     }
   ]
 }

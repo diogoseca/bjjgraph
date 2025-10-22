@@ -92,6 +92,50 @@ author: "BJJGraph System Agent 14"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Calf Slicer Variations | Compression Lock",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive - 5-7 seconds minimum. Calf muscle and Achilles damage occurs before severe pain. Tap to discomfort.\"",
+  "url": "https://bjjgraph.org/Submissions/Calf-Slicer-Variations",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calf Slicer Variations",
+      "item": "https://bjjgraph.org/Submissions/Calf-Slicer-Variations"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Calf slicer variations are compression submissions targeting calf muscle and Achilles tendon. Success results in immediate match victory. Safety is critical - muscle tears and tendon damage are common.

@@ -709,6 +709,93 @@ llm_context:
 
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use Z-Guard Variations Bottom in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Z-Guard Variations Bottom.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Top Position",
+      "text": "From Z-Guard Variations Bottom, execute Transition to Top Position to advance your position.",
+      "position": 1
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Z-Guard Variations Bottom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Dynamic Frame Management**: Knee shield must remain active with foot pressure adjusting based on opponent's movement rather than passive barrier, enabling quick transitions and maintaining space under varying pressure levels"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Z-Guard Variations Bottom",
+  "description": "Master Z-Guard Variations Bottom in BJJ. Complete guide covering advanced modifications, sweeps, and back attacks. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "url": "https://bjjgraph.org/Positions/Z-Guard-Variations-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Z-Guard Variations Bottom",
+      "item": "https://bjjgraph.org/Positions/Z-Guard-Variations-Bottom"
+    }
+  ]
+}
+</script>
+
+
 # Z-Guard Variations Bottom
 #bjj #state #guard #z-guard #advanced #bottom
 

@@ -37,6 +37,62 @@ related_positions: ["Half Guard Top", "Side Control Top", "Underhook Position"]
 related_techniques: ["Half Guard Pass", "Crossface Pass", "Hip Switch"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Underhook Pass",
+  "description": "Learn how to execute Underhook Pass in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish half guard top with deep underhook and head control",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Drive opponent flat using underhook pressure, prevent side recovery",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent tries to maintain half guard or establish frames",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Work hip movement and angle to free trapped leg while maintaining underhook",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Extract leg completely, drive into side control position",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Secure side control with underhook maintained, establish crossface",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
 # Underhook Pass
 #bjj #transition #guard_pass #underhook #control
 
@@ -65,9 +121,9 @@ From half guard top, you secure a deep underhook on the opponent's far side, thr
 
 ## Common Counters
 
-- **[[Underhook Counter]]** ’ [[Half Guard Battle]] (Success Rate: 45%, Conditions: opponent gets own underhook)
-- **[[Lockdown]]** ’ [[Half Guard Maintained]] (Success Rate: 40%, Conditions: locks leg early)
-- **[[Frame and Shrimp]]** ’ [[Distance Created]] (Success Rate: 35%, Conditions: creates space)
+- **[[Underhook Counter]]**  [[Half Guard Battle]] (Success Rate: 45%, Conditions: opponent gets own underhook)
+- **[[Lockdown]]**  [[Half Guard Maintained]] (Success Rate: 40%, Conditions: locks leg early)
+- **[[Frame and Shrimp]]**  [[Distance Created]] (Success Rate: 35%, Conditions: creates space)
 
 ## Expert Insights
 

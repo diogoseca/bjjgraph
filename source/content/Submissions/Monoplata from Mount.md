@@ -72,6 +72,50 @@ author: "BJJGraph Content Team - Agent 7"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Monoplata from Mount",
+  "description": "Master Monoplata from Mount in BJJ. Advanced shoulder lock with safe setup from top position. Success: Beginner 20%, Intermediate 40%, Advanced 60%.",
+  "url": "https://bjjgraph.org/Submissions/Monoplata-from-Mount",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Monoplata from Mount",
+      "item": "https://bjjgraph.org/Submissions/Monoplata-from-Mount"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Advanced shoulder lock from mount. HIGH injury risk. Requires advanced skill and exceptional partner trust.

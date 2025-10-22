@@ -42,6 +42,12 @@ description: "Master Modified Scarf Hold Top in BJJ. Complete guide covering con
       "name": "Execute North-South Transition",
       "text": "From this position, execute North-South Transition to transition to North-South.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Americana from Modified Kesa",
+      "text": "From this position, execute Americana from Modified Kesa to transition to Americana Control.",
+      "position": 6
     }
   ],
   "tool": [
@@ -50,6 +56,72 @@ description: "Master Modified Scarf Hold Top in BJJ. Complete guide covering con
     "Mat space"
   ],
   "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: **Insufficient hip pressure into armpit**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Opponent creates space to turn and escape → **Correction**: Drive hip deeply into armpit, eliminating all space between hip and opponent's body → **Recognition**: If you feel opponent's body turning toward you, hip pressure is inadequate"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: **Head position too high**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Creates space underneath for opponent to insert frames → **Correction**: Keep head low and tight to opponent's upper chest, limiting vertical space → **Recognition**: If opponent can wedge their free arm between your bodies, your head position needs adjustment"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: **Weak under-arm control**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Trapped arm escapes or provides leverage for turning → **Correction**: Maintain tight figure-four or wrist control on trapped arm, keeping it isolated from opponent's body → **Recognition**: If trapped arm can move freely or touch opponent's torso, control is insufficient"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: **Narrow base configuration**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to bridge and roll escapes → **Correction**: Spread legs wide with one extended toward opponent's legs, creating stable base → **Recognition**: If opponent's bridges move your upper body significantly, base is too narrow"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: **Static weight distribution**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Opponent adapts and finds escape pathways → **Correction**: Adjust weight dynamically, shifting between chest and shoulder pressure based on opponent's movements → **Recognition**: If opponent is making steady progress in their escape attempts, vary pressure distribution"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Modified Scarf Hold Top",
+  "description": "Master Modified Scarf Hold Top in BJJ. Complete guide covering control, transitions, and submissions. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Positions/Modified-Scarf-Hold-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -61,40 +133,24 @@ description: "Master Modified Scarf Hold Top in BJJ. Complete guide covering con
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Modified Scarf Hold Top",
-      "item": "https://bjjgraph.com/positions/modified-scarf-hold-top"
+      "item": "https://bjjgraph.org/Positions/Modified-Scarf-Hold-Top"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Modified Scarf Hold Top",
-  "description": "Master Modified Scarf Hold Top in BJJ. Complete guide covering control, transitions, and submissions. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
-  "url": "https://bjjgraph.com/positions/modified-scarf-hold-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Modified Scarf Hold Top
 #bjj #state #pin #control #scarf_hold #modified

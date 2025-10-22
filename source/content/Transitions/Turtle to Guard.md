@@ -11,42 +11,42 @@ description: "Learn Turtle to Guard in BJJ. Step-by-step execution from Turtle B
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Turtle to Guard",
-  "description": "Learn how to execute Turtle to Guard recovery in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute Turtle to Guard in Brazilian Jiu-Jitsu from Turtle Position Bottom to Open Guard Bottom. Success: Beginner 60%, Intermediate 75%, Advanced 85%.",
   "step": [
     {
       "@type": "HowToStep",
       "name": "Establish Base",
-      "text": "Maintain strong turtle base with head up and arms protecting",
+      "text": "Maintain strong turtle base with head up, knees under hips, arms protecting neck",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Choose Direction",
-      "text": "Select direction to roll based on opponent's pressure and hook position",
+      "text": "Select direction to roll based on opponent's pressure direction and hook positions",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Initiate Roll",
-      "text": "Roll to your back while using momentum to create space",
+      "text": "Roll explosively to your back while using momentum to create separation from opponent",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Create Frames",
-      "text": "Establish frames on opponent's hips or shoulders during roll",
+      "text": "Establish frames on opponent's hips, shoulders, or biceps during rolling motion",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Establish Guard",
-      "text": "Insert hooks or establish guard position while controlling distance",
+      "text": "Insert hooks, close guard, or establish open guard position while maintaining frames",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Secure Position",
-      "text": "Consolidate guard with grips and posture control",
+      "text": "Consolidate guard with appropriate grips and posture control to prevent immediate pass",
       "position": 6
     }
   ],
@@ -55,7 +55,24 @@ description: "Learn Turtle to Guard in BJJ. Step-by-step execution from Turtle B
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT3M"
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Turtle to Guard",
+  "description": "Learn Turtle to Guard in BJJ. Step-by-step execution from Turtle Bottom to Guard Position. Success: Beginner 60%, Intermediate 75%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Transitions/Turtle-to-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -67,39 +84,24 @@ description: "Learn Turtle to Guard in BJJ. Step-by-step execution from Turtle B
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Turtle to Guard",
-      "item": "https://bjjgraph.com/transitions/turtle-to-guard"
+      "item": "https://bjjgraph.org/Transitions/Turtle-to-Guard"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Turtle to Guard",
-  "description": "Learn Turtle to Guard in BJJ. Step-by-step execution from Turtle Bottom to Guard Position. Success: Beginner 60%, Intermediate 75%, Advanced 85%.",
-  "url": "https://bjjgraph.com/transitions/turtle-to-guard",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Turtle to Guard
 #bjj #transition #escape #turtle #guard_recovery #defensive

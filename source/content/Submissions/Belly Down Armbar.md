@@ -95,6 +95,50 @@ author: "BJJGraph System - Agent 13"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Belly Down Armbar | Joint Lock",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"EXTREMELY SLOW and progressive. Belly down armbar should take 5-7 seconds MINIMUM in training. The elbow is highly vulnerable in this position. Never s...",
+  "url": "https://bjjgraph.org/Submissions/Belly-Down-Armbar",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Belly Down Armbar",
+      "item": "https://bjjgraph.org/Submissions/Belly-Down-Armbar"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Belly Down Armbar is a terminal state submission executed from mount by transitioning to a belly-down position while maintaining arm isolation. This technique creates extreme mechanical advantage but carries CRITICAL injury risk due to elbow vulnerability. Safety is paramount.

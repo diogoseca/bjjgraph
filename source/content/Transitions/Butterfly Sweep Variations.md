@@ -33,6 +33,106 @@ related_positions: ["Butterfly Guard", "Top Position", "Mount", "Side Control"]
 related_techniques: ["Butterfly Sweep", "Hook Sweep", "Arm Drag", "Underhook Sweep"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Butterfly Sweep Variations",
+  "description": "Learn how to execute Butterfly Sweep Variations in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish butterfly guard with hooks in; secure appropriate grips based on situation; assess opponent's weight distribution",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Choose variation based on opponent's positioning - traditional lift, arm drag angle, or underhook control",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent attempts to base out, change posture, or counter with pressure",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Switch between variations fluidly as their defense changes; chain sweeps together",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Complete selected sweep variation; follow to top position",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Establish mount, side control, or other dominant top position; secure control",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Butterfly Sweep Variations",
+  "description": "Learn Butterfly Sweep Variations in BJJ. Multiple sweeping options from butterfly guard. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Butterfly-Sweep-Variations",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Butterfly Sweep Variations",
+      "item": "https://bjjgraph.org/Transitions/Butterfly-Sweep-Variations"
+    }
+  ]
+}
+</script>
+
+
 # Butterfly Sweep Variations
 #bjj #transition #sweep #butterfly_guard #variations
 

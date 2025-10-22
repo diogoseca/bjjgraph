@@ -10,38 +10,26 @@ description: "Master Saddle Position Top in BJJ. Complete guide covering control
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Attack from Saddle Position Top in BJJ",
-  "description": "Complete guide to controlling and finishing from the Saddle Position (Honey Hole/411).",
+  "name": "How to Use Saddle Position Top in BJJ",
+  "description": "Complete guide to executing techniques and transitions from Saddle Position Top.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Secure Inside Control",
-      "text": "Establish inside position on opponent's trapped leg with your legs.",
+      "name": "Execute Inside Heel Hook",
+      "text": "From Saddle Position Top, execute Inside Heel Hook to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Isolate the Heel",
-      "text": "Grip opponent's heel and control it for submission setup.",
+      "name": "Execute Toe Hold",
+      "text": "From Saddle Position Top, execute Toe Hold to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Control Upper Body",
-      "text": "Prevent opponent from sitting up or creating frames.",
+      "name": "Execute Straight Ankle Lock",
+      "text": "From Saddle Position Top, execute Straight Ankle Lock to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Apply Heel Hook",
-      "text": "Execute inside heel hook with controlled rotation.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Finish Submission",
-      "text": "Increase pressure progressively until tap.",
-      "position": 5
     }
   ],
   "tool": [
@@ -49,7 +37,7 @@ description: "Master Saddle Position Top in BJJ. Complete guide covering control
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT4M"
+  "totalTime": "PT5M"
 }
 </script>
 
@@ -60,48 +48,32 @@ description: "Master Saddle Position Top in BJJ. Complete guide covering control
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What makes the Saddle the most dominant leg lock position?",
+      "name": "What is a key principle of Saddle Position Top?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Saddle provides inside control of opponent's leg with optimal leverage for heel hook attacks. Your opponent's knee is compromised and their heel is exposed, while their escape options are severely limited by your leg configuration."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I enter the Saddle position?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common entries include: back step from Cross Ashi, transition from Inside Ashi when opponent turns away, direct entry from leg drag positions, and advancement from standard Ashi Garami through systematic control improvements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I do if opponent hides their heel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintain position and apply pressure to force heel exposure. Use hip pressure, control their upper body to prevent bridging, or transition to toe holds and knee attacks to create dilemmas that force heel exposure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the Saddle legal in IBJJF competition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The position itself is legal, but heel hook submissions from it are restricted to brown and black belt only. At lower belts, you can control the position but must attack with straight ankle locks or transition to legal positions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much pressure should I use when training heel hooks?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Always use minimal pressure in training - just enough for partner to feel the position. Heel hooks can cause injury before pain signals register, so prioritize safety. Your training partner's knee health is more important than proving the submission works."
+        "text": "**Inside Control Priority**: Maintain inside position on trapped leg - this is the source of mechanical advantage"
       }
     }
   ]
 }
 </script>
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Saddle Position Top",
+  "description": "Master Saddle Position Top in BJJ. Complete guide covering control, submissions, and entries. Success rates: Beginner 60%, Intermediate 75%, Advanced 88%.",
+  "url": "https://bjjgraph.org/Positions/Saddle-Position-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -111,38 +83,24 @@ description: "Master Saddle Position Top in BJJ. Complete guide covering control
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Saddle Position Top",
-      "item": "https://bjjgraph.com/positions/saddle-position-top"
+      "item": "https://bjjgraph.org/Positions/Saddle-Position-Top"
     }
   ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Saddle Position Top",
-  "description": "Master Saddle Position Top in BJJ. Complete guide covering control, submissions, and entries. Success rates: Beginner 60%, Intermediate 75%, Advanced 88%.",
-  "url": "https://bjjgraph.com/positions/saddle-position-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Saddle Position Top
 #bjj #state #leg_entanglement #offensive_position #heel_hook #dominant

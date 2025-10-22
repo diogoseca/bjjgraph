@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Blue to Purple Progression",
   "description": "The Blue to Purple Progression provides a comprehensive developmental framework for the critical intermediate phase of a practitioner's jiu-jitsu journey. This system builds upon the fundamental sk...",
-  "url": "https://bjjgraph.com/systems/blue-to-purple-progression",
+  "url": "https://bjjgraph.org/Systems/Blue-to-Purple-Progression",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Systems",
-      "item": "https://bjjgraph.com/systems/"
+      "item": "https://bjjgraph.org/Systems/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Blue to Purple Progression",
-      "item": "https://bjjgraph.com/systems/blue-to-purple-progression"
+      "item": "https://bjjgraph.org/Systems/Blue-to-Purple-Progression"
     }
   ]
 }

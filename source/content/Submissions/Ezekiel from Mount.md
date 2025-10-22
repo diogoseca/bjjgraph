@@ -78,6 +78,50 @@ author: "BJJGraph System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ezekiel from Mount | Gi Choke",
+  "description": "The Ezekiel Choke from [[Mount]] is one of the most fundamental gi chokes in Brazilian Jiu-Jitsu. It uses the practitioner's own gi sleeve as a handle to create a sliding choking pressure across th...",
+  "url": "https://bjjgraph.org/Submissions/Ezekiel-from-Mount",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Ezekiel from Mount",
+      "item": "https://bjjgraph.org/Submissions/Ezekiel-from-Mount"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ SAFETY NOTICE
 
 **This submission can cause LOSS OF CONSCIOUSNESS if applied improperly.**

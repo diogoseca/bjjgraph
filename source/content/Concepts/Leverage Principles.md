@@ -44,6 +44,50 @@ application_contexts:
 tags: ["bjj", "concept", "fundamental", "biomechanics", "leverage", "efficiency"]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leverage Principles",
+  "description": "Leverage Principles represent the fundamental biomechanical framework of using mechanical advantage to multiply force application, enabling practitioners to overcome size, strength, and weight disa...",
+  "url": "https://bjjgraph.org/Concepts/Leverage-Principles",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Leverage Principles",
+      "item": "https://bjjgraph.org/Concepts/Leverage-Principles"
+    }
+  ]
+}
+</script>
+
+
 # Leverage Principles
 #bjj #concept #fundamental #biomechanics
 

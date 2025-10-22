@@ -37,6 +37,106 @@ related_positions: ["Standing up", "Single Leg Entry", "Double Leg Control"]
 related_techniques: ["Snap Down", "Arm Drag", "Level Change", "Double Leg Entry"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Single Leg Entry",
+  "description": "Learn how to execute Single Leg Entry in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish standing grips (collar/sleeve or underhooks), maintain good posture with head up and back straight",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Create opening through hand fighting or feint motion to draw reaction or create opening",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Level Change",
+      "text": "Drop hips rapidly by bending knees while keeping back straight, preparing to penetrate",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Penetration Step",
+      "text": "Step deep with lead leg between or outside opponent's legs while driving forward",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Leg Capture",
+      "text": "Wrap arms around isolated leg with hands behind knee and at ankle, securing it",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Pull leg tight to chest with head outside hip, establish control preventing escape",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Single Leg Entry",
+  "description": "Learn Single Leg Entry in BJJ. Step-by-step execution from Standing to Single Leg Control. Success: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Single-Leg-Entry",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Single Leg Entry",
+      "item": "https://bjjgraph.org/Transitions/Single-Leg-Entry"
+    }
+  ]
+}
+</script>
+
+
 # Single Leg Entry
 #bjj #transition #takedown #wrestling #single_leg
 

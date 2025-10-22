@@ -79,6 +79,50 @@ author: "BJJGraph System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "High Elbow Guillotine | Blood Choke",
+  "description": "The High Elbow Guillotine, popularized by Marcelo Garcia, is a highly effective blood choke modification of the traditional guillotine. By raising the elbow high and creating a specific angle, the ...",
+  "url": "https://bjjgraph.org/Submissions/High-Elbow-Guillotine",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "High Elbow Guillotine",
+      "item": "https://bjjgraph.org/Submissions/High-Elbow-Guillotine"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ SAFETY NOTICE
 
 **This submission can cause RAPID LOSS OF CONSCIOUSNESS if applied improperly.**

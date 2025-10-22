@@ -44,6 +44,50 @@ application_contexts:
 tags: [bjj, concept, fundamental, underhook, defense, control]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Underhook Defense",
+  "description": "Underhook Defense represents the strategic and technical framework for preventing, controlling, and neutralizing opponent's underhook positions that threaten positional control, back takes, and swe...",
+  "url": "https://bjjgraph.org/Concepts/Underhook-Defense",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Underhook Defense",
+      "item": "https://bjjgraph.org/Concepts/Underhook-Defense"
+    }
+  ]
+}
+</script>
+
+
 # Underhook Defense
 #bjj #concept #fundamental #underhook #defense
 

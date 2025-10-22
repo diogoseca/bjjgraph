@@ -48,6 +48,50 @@ application_contexts:
 tags: [bjj, concept, intermediate, energy, strategy, efficiency]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Energy Conservation",
+  "description": "Energy Conservation represents the strategic principle of managing physical and mental resources through selective resistance, tactical concessions, and efficient movement patterns that maximize lo...",
+  "url": "https://bjjgraph.org/Concepts/Energy-Conservation",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Energy Conservation",
+      "item": "https://bjjgraph.org/Concepts/Energy-Conservation"
+    }
+  ]
+}
+</script>
+
+
 # Energy Conservation
 #bjj #concept #intermediate #energy #strategy
 

@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Position-Over-Submission Approach",
   "description": "The Position-Over-Submission Approach represents a comprehensive strategic framework that prioritizes the systematic acquisition and maintenance of dominant positions before pursuing submission opp...",
-  "url": "https://bjjgraph.com/concepts/position-over-submission-approach",
+  "url": "https://bjjgraph.org/Concepts/Position-Over-Submission-Approach",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Position-Over-Submission Approach",
-      "item": "https://bjjgraph.com/concepts/position-over-submission-approach"
+      "item": "https://bjjgraph.org/Concepts/Position-Over-Submission-Approach"
     }
   ]
 }

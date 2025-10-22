@@ -37,6 +37,62 @@ related_positions: ["Open Guard Top", "Side Control", "Standing Guard"]
 related_techniques: ["Toreando Pass", "Leg Drag Pass", "Over-Under Pass"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Bullfighter Pass",
+  "description": "Learn how to execute Bullfighter Pass in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish grips on both ankles or pants legs, maintaining upright posture and distance",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Lift opponent's legs slightly off the mat while staying mobile and balanced",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically tries to kick legs free or establish frames to prevent pass",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Choose direction based on opponent's resistance, preparing to move explosively",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Throw legs to one side while stepping laterally past in opposite direction",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Drop chest pressure on opponent's upper body, securing side control immediately",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
 # Bullfighter Pass
 #bjj #transition #pass #open_guard #speed
 
@@ -67,10 +123,10 @@ From open guard top position, you establish control of both opponent's ankles or
 
 Opponent defensive responses with success rates and conditions:
 
-- **[[De La Riva Guard]]** ’ [[De La Riva Guard Bottom]] (Success Rate: 40%, Conditions: hooking leg before pass completion)
-- **[[Sit Up Defense]]** ’ [[Seated Guard]] (Success Rate: 35%, Conditions: following legs during throw)
-- **[[Frame and Shrimp]]** ’ [[Open Guard Bottom]] (Success Rate: 38%, Conditions: creating distance during transition)
-- **[[Inversion Entry]]** ’ [[Inverted Guard]] (Success Rate: 25%, Conditions: advanced defensive movement)
+- **[[De La Riva Guard]]**  [[De La Riva Guard Bottom]] (Success Rate: 40%, Conditions: hooking leg before pass completion)
+- **[[Sit Up Defense]]**  [[Seated Guard]] (Success Rate: 35%, Conditions: following legs during throw)
+- **[[Frame and Shrimp]]**  [[Open Guard Bottom]] (Success Rate: 38%, Conditions: creating distance during transition)
+- **[[Inversion Entry]]**  [[Inverted Guard]] (Success Rate: 25%, Conditions: advanced defensive movement)
 
 ### Decision Logic for AI Opponent
 
@@ -394,9 +450,9 @@ The bullfighter pass gained prominence through Brazilian competitors who emphasi
 ## Position Integration
 
 **Common combinations and sequences:**
-- [[Open Guard Top]] ’ [[Bullfighter Pass]] ’ [[Side Control]]
-- [[Open Guard Top]] ’ [[Bullfighter Pass]] ’ [[Knee on Belly]] (if advanced)
-- [[Open Guard Top]] ’ [[Bullfighter Pass]] ’ [[Leg Drag Pass]] (if first attempt defended)
+- [[Open Guard Top]]  [[Bullfighter Pass]]  [[Side Control]]
+- [[Open Guard Top]]  [[Bullfighter Pass]]  [[Knee on Belly]] (if advanced)
+- [[Open Guard Top]]  [[Bullfighter Pass]]  [[Leg Drag Pass]] (if first attempt defended)
 
 ## Related Techniques
 

@@ -11,7 +11,7 @@ description: "Learn Counter Sweep in BJJ. Step-by-step execution from Guard Top 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Counter Sweep",
-  "description": "Learn how to execute Counter Sweep in Brazilian Jiu-Jitsu from Guard Top position.",
+  "description": "Learn how to execute Counter Sweep in Brazilian Jiu-Jitsu from Closed Guard Top to Top Position. Success: Beginner 40%, Intermediate 60%, Advanced 80%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -58,6 +58,23 @@ description: "Learn Counter Sweep in BJJ. Step-by-step execution from Guard Top 
   "totalTime": "PT5M"
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Counter Sweep",
+  "description": "Learn Counter Sweep in BJJ. Step-by-step execution from Guard Top to dominant position. Success: Beginner 40%, Intermediate 60%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Transitions/Counter-Sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,39 +84,24 @@ description: "Learn Counter Sweep in BJJ. Step-by-step execution from Guard Top 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Counter Sweep",
-      "item": "https://bjjgraph.com/transitions/counter-sweep"
+      "item": "https://bjjgraph.org/Transitions/Counter-Sweep"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Counter Sweep",
-  "description": "Learn Counter Sweep in BJJ. Step-by-step execution from Guard Top to dominant position. Success: Beginner 40%, Intermediate 60%, Advanced 80%.",
-  "url": "https://bjjgraph.com/transitions/counter-sweep",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Counter Sweep
 #bjj #transition #counter #defensive #advanced
@@ -347,7 +349,6 @@ Every transition file must include:
 - [[Guard Pass]] - Advancing after successful counter
 - [[Sweep Attempt]] - Understanding sweeps to counter them effectively
 - [[Guard Retention]] - Defensive complement to counter sweeps
-
 
 ## Competition Applications
 - **IBJJF Rules**: Successfully countering sweeps denies opponent 2-point scoring opportunities

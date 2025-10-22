@@ -48,6 +48,50 @@ application_contexts:
 tags: [bjj, concept, fundamental, defense, survival, safety]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Submission Defense",
+  "description": "Submission Defense represents the comprehensive skill set of recognizing, preventing, and escaping submission attempts through proper positioning, timing, and technical knowledge that maximizes sur...",
+  "url": "https://bjjgraph.org/Concepts/Submission-Defense",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Submission Defense",
+      "item": "https://bjjgraph.org/Concepts/Submission-Defense"
+    }
+  ]
+}
+</script>
+
+
 # Submission Defense
 #bjj #concept #fundamental #defense #survival
 

@@ -37,6 +37,106 @@ related_positions: ["Butterfly Guard", "Side Control Top", "Open Guard Bottom"]
 related_techniques: ["Butterfly Sweep", "Arm Drag", "X-Guard Entry"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Hook Sweep",
+  "description": "Learn how to execute Hook Sweep in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish butterfly guard with hooks under opponent's thighs, secure underhooks or collar grips for control",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Pull opponent slightly forward to compromise their base and bring weight onto your hooks",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically attempts to maintain base by widening stance or posting hands",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Adjust sweeping direction based on where opponent's weight is distributed and which side offers least resistance",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Lift powerfully with your hook while pulling with upper body and rotating toward sweep direction",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Follow through by coming up on top and establishing side control position with crossface and hip pressure",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hook Sweep",
+  "description": "Learn Hook Sweep in BJJ. Step-by-step execution from Butterfly Guard to Side Control Top. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Hook-Sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Hook Sweep",
+      "item": "https://bjjgraph.org/Transitions/Hook-Sweep"
+    }
+  ]
+}
+</script>
+
+
 # Hook Sweep
 #bjj #transition #sweep #butterfly_guard #fundamental
 

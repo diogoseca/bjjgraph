@@ -116,16 +116,14 @@ description: "Master Squid Guard in BJJ. Complete guide covering setup, control,
   "@type": "WebPage",
   "name": "Squid Guard",
   "description": "Master Squid Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.",
-  "url": "https://bjjgraph.com/positions/squid-guard",
+  "url": "https://bjjgraph.org/Positions/Squid-Guard",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -135,19 +133,19 @@ description: "Master Squid Guard in BJJ. Complete guide covering setup, control,
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Squid Guard",
-      "item": "https://bjjgraph.com/positions/squid-guard"
+      "item": "https://bjjgraph.org/Positions/Squid-Guard"
     }
   ]
 }

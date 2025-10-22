@@ -11,7 +11,7 @@ description: "Learn Seoi Nage in BJJ. Step-by-step execution. Success: Beginner 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Seoi Nage",
-  "description": "Learn how to execute Seoi Nage in Brazilian Jiu-Jitsu.",
+  "description": "Learn how to execute Seoi Nage in Brazilian Jiu-Jitsu from Standing Position to Top Position. Success: Beginner 25%, Intermediate 45%, Advanced 65%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -79,7 +79,24 @@ description: "Learn Seoi Nage in BJJ. Step-by-step execution. Success: Beginner 
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT5M"
+  "totalTime": "PT7M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Seoi Nage",
+  "description": "Learn Seoi Nage in BJJ. Step-by-step execution. Success: Beginner 25%, Intermediate 45%, Advanced 65%.",
+  "url": "https://bjjgraph.org/Transitions/Seoi-Nage",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -91,39 +108,24 @@ description: "Learn Seoi Nage in BJJ. Step-by-step execution. Success: Beginner 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Seoi Nage",
-      "item": "https://bjjgraph.com/transitions/seoi-nage"
+      "item": "https://bjjgraph.org/Transitions/Seoi-Nage"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Seoi Nage",
-  "description": "Learn Seoi Nage in BJJ. Step-by-step execution. Success: Beginner 25%, Intermediate 45%, Advanced 65%.",
-  "url": "https://bjjgraph.com/transitions/seoi-nage",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Seoi Nage
 #bjj #transition #takedown #judo #throw
@@ -354,7 +356,6 @@ Updates to this standard should be reflected across all transition files to main
 ## Related Techniques
 
 - [[Tomoe Nage]] - Related technique
-
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as takedown (2 points)

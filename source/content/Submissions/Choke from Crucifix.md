@@ -88,6 +88,50 @@ author: "BJJGraph Agent 4"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Choke from Crucifix",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. Choke should take minimum 3-5 seconds in training. Opponent has limited tap ability - watch for verbal signals closely.\"",
+  "url": "https://bjjgraph.org/Submissions/Choke-from-Crucifix",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Choke from Crucifix",
+      "item": "https://bjjgraph.org/Submissions/Choke-from-Crucifix"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Choke from Crucifix is a blood choke submission from the dominant crucifix control position. It's a terminal state resulting in unconsciousness if held beyond tap. Safety is paramount - opponent has limited tap ability with both arms controlled.

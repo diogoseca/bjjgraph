@@ -3,51 +3,72 @@ title: "Kimura Control Position | BJJ Position Guide | BJJ Graph"
 description: "Master Kimura Control in BJJ. Submission control position with shoulder lock threat. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%. Complete attacking guide."
 ---
 
+
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Use Kimura Control Position in BJJ",
-  "description": "Complete guide to executing techniques and transitions from Kimura Control Position.",
-  "step": [
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-      "@type": "HowToStep",
-      "name": "Establish Kimura Grip",
-      "text": "From this position, establish figure-four grip on opponent's arm with wrist control and secure shoulder lock position.",
-      "position": 1
+      "@type": "Question",
+      "name": "What happens if you make this mistake: **Shallow grip without full figure-four completion**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Allows opponent to escape through grip breaking"
+      }
     },
     {
-      "@type": "HowToStep",
-      "name": "Execute Kimura Submission",
-      "text": "Apply rotational pressure to opponent's shoulder joint while maintaining control of their body position.",
-      "position": 2
+      "@type": "Question",
+      "name": "What happens if you make this mistake: **Poor angle creation limiting rotational leverage**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Reduces submission pressure effectiveness"
+      }
     },
     {
-      "@type": "HowToStep",
-      "name": "Transition to Back Take",
-      "text": "If opponent defends submission, use kimura control to establish back control for positional advancement.",
-      "position": 3
+      "@type": "Question",
+      "name": "What happens if you make this mistake: **Static position without progressive pressure application**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Gives opponent time to develop defensive responses"
+      }
     },
     {
-      "@type": "HowToStep",
-      "name": "Execute Rolling Kimura",
-      "text": "Roll opponent over their trapped shoulder to complete submission while maintaining figure-four grip.",
-      "position": 4
+      "@type": "Question",
+      "name": "What happens if you make this mistake: **Releasing grip prematurely during transitions**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Loses control point and attacking opportunity"
+      }
     },
     {
-      "@type": "HowToStep",
-      "name": "Transition to Mount",
-      "text": "Use kimura control to pass opponent's guard and establish mount position with maintained arm control.",
-      "position": 5
+      "@type": "Question",
+      "name": "What happens if you make this mistake: **Explosive jerking movements creating injury risk**?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Dangerous application and telegraphs submission attempt"
+      }
     }
-  ],
-  "tool": [
-    "BJJ Gi or No-Gi attire",
-    "Training partner",
-    "Mat space"
-  ],
-  "totalTime": "PT5M"
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura Control Position",
+  "description": "Master Kimura Control in BJJ. Submission control position with shoulder lock threat. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%. Complete attacking guide.",
+  "url": "https://bjjgraph.org/Positions/Kimura-Control-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -59,38 +80,24 @@ description: "Master Kimura Control in BJJ. Submission control position with sho
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Kimura Control Position",
-      "item": "https://bjjgraph.com/positions/kimura-control-position"
+      "item": "https://bjjgraph.org/Positions/Kimura-Control-Position"
     }
   ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Kimura Control Position",
-  "description": "Master Kimura Control in BJJ. Submission control position with shoulder lock threat. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%. Complete attacking guide.",
-  "url": "https://bjjgraph.com/positions/kimura-control-position",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Kimura Control Position
 #bjj #state #submission-control #shoulder-lock #kimura

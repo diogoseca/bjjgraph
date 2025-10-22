@@ -3,6 +3,7 @@ title: "Modern Leg Lock Meta | BJJ Submission Guide | BJJ Graph"
 description: "The Modern Leg Lock Meta provides a comprehensive analysis of contemporary leg lock strategies, systems, and counter-systems as they exist in current competitive Brazilian Jiu-Jitsu environments, a..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "The Modern Leg Lock Meta provides a comprehensive analysis of cont
   "@type": "WebPage",
   "name": "Modern Leg Lock Meta",
   "description": "The Modern Leg Lock Meta provides a comprehensive analysis of contemporary leg lock strategies, systems, and counter-systems as they exist in current competitive Brazilian Jiu-Jitsu environments, a...",
-  "url": "https://bjjgraph.com/submissions/modern-leg-lock-meta",
+  "url": "https://bjjgraph.org/Submissions/Modern-Leg-Lock-Meta",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "The Modern Leg Lock Meta provides a comprehensive analysis of cont
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Modern Leg Lock Meta",
-      "item": "https://bjjgraph.com/submissions/modern-leg-lock-meta"
+      "item": "https://bjjgraph.org/Submissions/Modern-Leg-Lock-Meta"
     }
   ]
 }
 </script>
+
 
 # Modern Leg Lock Meta
 #bjj #competition #leglocks #strategy #meta

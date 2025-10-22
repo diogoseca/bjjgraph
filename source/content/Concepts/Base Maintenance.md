@@ -5,11 +5,11 @@
   "@type": "WebPage",
   "name": "Base Maintenance",
   "description": "Base Maintenance represents the fundamental skill of establishing and preserving structural stability through proper weight distribution, alignment, and connection points that maximize control whil...",
-  "url": "https://bjjgraph.com/concepts/base-maintenance",
+  "url": "https://bjjgraph.org/Concepts/Base-Maintenance",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -22,19 +22,19 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Base Maintenance",
-      "item": "https://bjjgraph.com/concepts/base-maintenance"
+      "item": "https://bjjgraph.org/Concepts/Base-Maintenance"
     }
   ]
 }

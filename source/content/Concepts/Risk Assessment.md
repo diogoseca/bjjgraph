@@ -48,6 +48,50 @@ application_contexts:
 tags: [bjj, concept, intermediate, strategy, decision-making, tactics]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Risk Assessment",
+  "description": "Risk Assessment represents the strategic principle of evaluating potential outcomes, success probabilities, and associated costs before executing technical actions, enabling intelligent tactical de...",
+  "url": "https://bjjgraph.org/Concepts/Risk-Assessment",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Risk Assessment",
+      "item": "https://bjjgraph.org/Concepts/Risk-Assessment"
+    }
+  ]
+}
+</script>
+
+
 # Risk Assessment
 #bjj #concept #intermediate #strategy #decision-making
 

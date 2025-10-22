@@ -10,11 +10,11 @@ title: BJJ State Machine
   "@type": "WebPage",
   "name": "BJJ State Machine",
   "description": "This file serves as documentation for the BJJ State Machine Canvas visualization. To view the canvas, click on the filename in Obsidian's file explorer and select \"Open as canvas\" or create a new c...",
-  "url": "https://bjjgraph.com",
+  "url": "https://bjjgraph.org",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>

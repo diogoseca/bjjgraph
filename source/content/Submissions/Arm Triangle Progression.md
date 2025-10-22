@@ -3,6 +3,7 @@ title: "Arm Triangle Progression | BJJ Submission Guide | BJJ Graph"
 description: "The Arm Triangle Progression is a systematic sequence of techniques designed to secure an arm triangle choke, also known as Kata Gatame, by isolating the opponent's arm and head while applying pres..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "The Arm Triangle Progression is a systematic sequence of technique
   "@type": "WebPage",
   "name": "Arm Triangle Progression",
   "description": "The Arm Triangle Progression is a systematic sequence of techniques designed to secure an arm triangle choke, also known as Kata Gatame, by isolating the opponent's arm and head while applying pres...",
-  "url": "https://bjjgraph.com/submissions/arm-triangle-progression",
+  "url": "https://bjjgraph.org/Submissions/Arm-Triangle-Progression",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "The Arm Triangle Progression is a systematic sequence of technique
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Arm Triangle Progression",
-      "item": "https://bjjgraph.com/submissions/arm-triangle-progression"
+      "item": "https://bjjgraph.org/Submissions/Arm-Triangle-Progression"
     }
   ]
 }
 </script>
+
 
 # Arm Triangle Progression
 #bjj #submission #choke #progression

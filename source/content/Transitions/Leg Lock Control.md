@@ -11,7 +11,7 @@ description: "Learn Leg Lock Control in BJJ. Step-by-step execution from Leg Ent
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Leg Lock Control",
-  "description": "Learn how to execute Leg Lock Control in Brazilian Jiu-Jitsu from Leg Entanglement positions.",
+  "description": "Learn how to execute Leg Lock Control in Brazilian Jiu-Jitsu from Ashi Garami to Leg Lock Control Position. Success: Beginner 35%, Intermediate 60%, Advanced 80%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -55,7 +55,24 @@ description: "Learn Leg Lock Control in BJJ. Step-by-step execution from Leg Ent
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT7M"
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Lock Control",
+  "description": "Learn Leg Lock Control in BJJ. Step-by-step execution from Leg Entanglement to submission control. Success: Beginner 35%, Intermediate 60%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Transitions/Leg-Lock-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -67,39 +84,24 @@ description: "Learn Leg Lock Control in BJJ. Step-by-step execution from Leg Ent
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Leg Lock Control",
-      "item": "https://bjjgraph.com/transitions/leg-lock-control"
+      "item": "https://bjjgraph.org/Transitions/Leg-Lock-Control"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Leg Lock Control",
-  "description": "Learn Leg Lock Control in BJJ. Step-by-step execution from Leg Entanglement to submission control. Success: Beginner 35%, Intermediate 60%, Advanced 80%.",
-  "url": "https://bjjgraph.com/transitions/leg-lock-control",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Leg Lock Control
 #bjj #transition #leg_locks #submission_setup #advanced
@@ -347,7 +349,6 @@ Every transition file must include:
 - [[Straight Ankle Lock]] - Fundamental leg submission
 - [[Saddle Position]] - Advanced leg entanglement with multiple attack options
 - [[Won by Submission]] - Terminal state when leg lock control succeeds
-
 
 ## Competition Applications
 - **IBJJF Rules**: Restricted leg locks (straight ankle only for most belts, no heel hooks)

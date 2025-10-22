@@ -37,6 +37,106 @@ related_positions: ["Open Guard Bottom", "Butterfly Guard", "Seated Guard", "Sid
 related_techniques: ["Tripod Sweep", "Sickle Sweep", "Foot Grab Sweep", "Butterfly Sweep"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Ankle Pick Sweep",
+  "description": "Learn how to execute Ankle Pick Sweep in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish open guard distance with opponent standing or kneeling, secure two-handed grip on one ankle or foot, position your legs to control distance and prepare sweep",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Begin pulling controlled ankle toward you with both hands while scooting your hips closer to create better angle",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically attempts to pull leg free, post other leg wider for balance, or pressure forward to maintain base",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "As they adjust base on free leg, time your sweep of that leg using your foot/shin to hook or push it away, coordinating with continued ankle pull",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Execute simultaneous pulling of controlled ankle and sweeping/pushing of free leg, eliminating all base points and causing them to fall backward or to side",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Release ankle grip as they fall and immediately advance to side control or turtle top position, establishing control before they can recover guard",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ankle Pick Sweep",
+  "description": "Learn Ankle Pick Sweep in BJJ. Step-by-step execution from Open Guard to Top Position. Success: Beginner 40%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Ankle-Pick-Sweep",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Ankle Pick Sweep",
+      "item": "https://bjjgraph.org/Transitions/Ankle-Pick-Sweep"
+    }
+  ]
+}
+</script>
+
+
 # Ankle Pick Sweep
 #bjj #transition #sweep #open-guard #fundamental
 

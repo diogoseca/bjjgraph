@@ -34,7 +34,7 @@ description: "Master Dogfight Position in BJJ. Complete guide covering setup, co
     {
       "@type": "HowToStep",
       "name": "Execute Dogfight to Single Leg",
-      "text": "From this position, execute Dogfight to Single Leg to transition to Single Leg Control.",
+      "text": "From this position, execute Dogfight to Single Leg to transition to Single Leg Entry.",
       "position": 4
     },
     {
@@ -107,6 +107,23 @@ description: "Master Dogfight Position in BJJ. Complete guide covering setup, co
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Dogfight Position",
+  "description": "Master Dogfight Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 50%, Intermediate 65%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Positions/Dogfight-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Dogfight Position in BJJ. Complete guide covering setup, co
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Dogfight Position",
-      "item": "https://bjjgraph.com/positions/dogfight-position"
+      "item": "https://bjjgraph.org/Positions/Dogfight-Position"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Dogfight Position",
-  "description": "Master Dogfight Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 50%, Intermediate 65%, Advanced 75%.",
-  "url": "https://bjjgraph.com/positions/dogfight-position",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Dogfight Position
 #bjj #state #halfguard #transition #dogfight
@@ -246,7 +248,6 @@ You are on your knees, facing the same direction as your opponent, with both of 
 - [[Back Control]] - Common destination from dogfight
 - [[Single Leg X Guard]] - Potential transition option
 - [[Deep Half Guard]] - Alternative position from half guard
-
 
 ## Related Positions
 

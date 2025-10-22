@@ -93,6 +93,50 @@ author: "BJJGraph Content Team - Agent 9"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Gogoplata | Submission",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"VERY SLOW and progressive. This is a throat choke - minimum 4-6 seconds. Never explosive. This can damage the trachea if applied incorrectly.\"",
+  "url": "https://bjjgraph.org/Submissions/Gogoplata",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Gogoplata",
+      "item": "https://bjjgraph.org/Submissions/Gogoplata"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: The Gogoplata is an air choke submission from high guard positions. It's a terminal state resulting in breathing obstruction. Safety is paramount - this technique applies pressure directly to the trachea.

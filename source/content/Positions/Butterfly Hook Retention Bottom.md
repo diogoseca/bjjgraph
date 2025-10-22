@@ -16,32 +16,20 @@ description: "Master Butterfly Hook Retention Bottom in BJJ. Complete guide cove
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, execute Butterfly Sweep to transition to Top Position.",
+      "text": "From Butterfly Hook Retention Bottom, execute Butterfly Sweep to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hook Sweep",
-      "text": "From this position, execute Hook Sweep using maintained hooks to sweep opponent.",
+      "name": "Execute Top Position",
+      "text": "From Butterfly Hook Retention Bottom, execute Top Position to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute X-Guard Entry",
-      "text": "From this position, execute X-Guard Entry to transition to X-Guard.",
+      "name": "Execute Hook Sweep",
+      "text": "From Butterfly Hook Retention Bottom, execute Hook Sweep to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Single Leg X Entry",
-      "text": "From this position, execute Single Leg X Entry to transition to Single Leg X Guard.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Arm Drag",
-      "text": "From this position, execute Arm Drag to transition to Back Take or Top Position.",
-      "position": 5
     }
   ],
   "tool": [
@@ -50,6 +38,40 @@ description: "Master Butterfly Hook Retention Bottom in BJJ. Complete guide cove
     "Mat space"
   ],
   "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Butterfly Hook Retention Bottom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Hook Depth Control**: Maintain optimal hook depth - not too shallow (easily cleared) or too deep (limits mobility)"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Butterfly Hook Retention Bottom",
+  "description": "Master Butterfly Hook Retention Bottom in BJJ. Complete guide covering hook maintenance, sweep setups, and transitions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Positions/Butterfly-Hook-Retention-Bottom",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -61,40 +83,24 @@ description: "Master Butterfly Hook Retention Bottom in BJJ. Complete guide cove
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Butterfly Hook Retention Bottom",
-      "item": "https://bjjgraph.com/positions/butterfly-hook-retention-bottom"
+      "item": "https://bjjgraph.org/Positions/Butterfly-Hook-Retention-Bottom"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Butterfly Hook Retention Bottom",
-  "description": "Master Butterfly Hook Retention Bottom in BJJ. Complete guide covering hook maintenance, sweep setups, and transitions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
-  "url": "https://bjjgraph.com/positions/butterfly-hook-retention-bottom",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Butterfly Hook Retention Bottom
 #bjj #state #guard #butterfly #bottom #retention

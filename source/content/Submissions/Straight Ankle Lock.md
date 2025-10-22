@@ -82,6 +82,50 @@ author: "BJJGraph Content Team - Agent 9"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Straight Ankle Lock | Leg Lock",
+  "description": "The straight ankle lock is the most fundamental leg lock in BJJ, targeting the ankle joint through hyperextension while applying pressure to the Achilles tendon. Legal at all belt levels in IBJJF, ...",
+  "url": "https://bjjgraph.org/Submissions/Straight-Ankle-Lock",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Straight Ankle Lock",
+      "item": "https://bjjgraph.org/Submissions/Straight-Ankle-Lock"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ SAFETY NOTICE
 
 **This submission can cause ACHILLES TENDON RUPTURE if applied improperly.**

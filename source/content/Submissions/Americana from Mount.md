@@ -4,113 +4,19 @@ description: "Master Americana from Mount in BJJ. Complete safe setup, keylock m
 ---
 
 
-
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Execute Americana from Mount in BJJ",
-  "description": "Complete guide to safely executing Americana shoulder lock from mount position with proper mechanics and injury prevention.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Establish Mount Control",
-      "text": "Begin from mount position with weight distributed and opponent controlled.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Isolate Opponent's Arm",
-      "text": "Pin opponent's wrist to mat and secure figure-four grip.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Create 90-Degree Angle",
-      "text": "Position opponent's arm at right angle to their body with wrist near head.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Establish Weight Distribution",
-      "text": "Shift weight to control opponent's torso and prevent bridging.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Apply Progressive Shoulder Pressure",
-      "text": "Slowly rotate arm toward mat over 5-7 seconds, creating shoulder lock.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Monitor Tap Signals",
-      "text": "Watch for tap signals continuously while maintaining control.",
-      "position": 6
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Release Immediately Upon Tap",
-      "text": "Stop pressure, release grips, allow arm to return to neutral position.",
-      "position": 7
-    }
-  ],
-  "tool": [
-    "BJJ Gi or No-Gi attire",
-    "Training partner",
-    "Mat space"
-  ],
-  "totalTime": "PT5M"
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the primary safety concern with Americana submissions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Shoulder damage including rotator cuff tears, labrum injuries, and potential shoulder dislocation from excessive rotation. Always apply pressure slowly over 5-7 seconds minimum and stop immediately at tap signal."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you properly position the arm for Americana?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Arm must be at 90-degree angle to opponent's body with wrist near their head at ear level. Elbow stays on mat as fulcrum point. Figure-four grip controls wrist with your hand and forearm."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the difference between Americana and Kimura?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Both are shoulder locks with figure-four grip, but Americana rotates arm toward mat (external rotation) while Kimura rotates arm toward head/back (internal rotation). Americana typically done from mount/side control, Kimura from various positions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I do if opponent bridges or escapes mount during Americana?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintain figure-four grip and position while adjusting your base. If mount is lost but arm control remains, can transition to side control with maintained Americana. Prioritize position before completing submission."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is maintaining mount important during Americana?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Mount provides weight distribution to prevent opponent's escape and bridge. Your body weight prevents them from rolling or elevating while you control the arm. Lost mount significantly reduces submission effectiveness."
-      }
-    }
-  ]
+  "@type": "WebPage",
+  "name": "Americana from Mount",
+  "description": "Master Americana from Mount in BJJ. Complete safe setup, keylock mechanics, shoulder injury prevention. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Submissions/Americana-from-Mount",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -122,39 +28,24 @@ description: "Master Americana from Mount in BJJ. Complete safe setup, keylock m
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Americana from Mount",
-      "item": "https://bjjgraph.com/submissions/americana-from-mount"
+      "item": "https://bjjgraph.org/Submissions/Americana-from-Mount"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Americana from Mount",
-  "description": "Master Americana from Mount in BJJ. Complete safe setup, keylock mechanics, shoulder injury prevention. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.",
-  "url": "https://bjjgraph.com/submissions/americana-from-mount",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Americana from Mount
 #bjj #submission #shoulder-lock #mount #keylock

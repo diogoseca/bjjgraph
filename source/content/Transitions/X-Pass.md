@@ -11,7 +11,7 @@ description: "Learn X-Pass in BJJ. Step-by-step execution from Open Guard Top to
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "X-Pass",
-  "description": "Learn how to execute X-Pass in Brazilian Jiu-Jitsu from Open Guard Top to Side Control Top.",
+  "description": "Learn how to execute X-Pass in Brazilian Jiu-Jitsu from Open Guard Top to Side Control Top. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -22,31 +22,31 @@ description: "Learn X-Pass in BJJ. Step-by-step execution from Open Guard Top to
     {
       "@type": "HowToStep",
       "name": "Initial Movement",
-      "text": "Stack legs to one side while maintaining cross control",
+      "text": "Stack opponent's legs to one side while maintaining cross control",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Opponent Response",
-      "text": "Opponent attempts to recover guard or create frames",
+      "text": "Opponent attempts to separate legs or create defensive frames",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Adaptation",
-      "text": "Step around legs while keeping them pinned together",
+      "text": "Step around controlled legs while keeping them pinned together",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Completion",
-      "text": "Clear legs completely and transition to side control",
+      "text": "Clear legs completely by moving hips past their knees",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Consolidation",
-      "text": "Establish side control with shoulder pressure and cross-face",
+      "text": "Establish side control with shoulder pressure and cross-face control",
       "position": 6
     }
   ],
@@ -55,7 +55,24 @@ description: "Learn X-Pass in BJJ. Step-by-step execution from Open Guard Top to
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT6M"
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "X-Pass",
+  "description": "Learn X-Pass in BJJ. Step-by-step execution from Open Guard Top to Side Control Top. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Transitions/X-Pass",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -67,39 +84,24 @@ description: "Learn X-Pass in BJJ. Step-by-step execution from Open Guard Top to
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "X-Pass",
-      "item": "https://bjjgraph.com/transitions/x-pass"
+      "item": "https://bjjgraph.org/Transitions/X-Pass"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "X-Pass",
-  "description": "Learn X-Pass in BJJ. Step-by-step execution from Open Guard Top to Side Control Top. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
-  "url": "https://bjjgraph.com/transitions/x-pass",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # X-Pass
 #bjj #transition #guard_pass #leg_control #intermediate

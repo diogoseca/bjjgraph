@@ -46,6 +46,95 @@ state_machine:
   related_states: ["Mount", "Armbar Control", "Triangle Control", "Back Control"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Use S-Mount Position in BJJ",
+  "description": "Complete guide to executing techniques and transitions from S-Mount Position.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Armbar from S-Mount",
+      "text": "From this position, execute Armbar from S-Mount to transition to Armbar Control.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Triangle from S-Mount",
+      "text": "From this position, execute Triangle from S-Mount to transition to Triangle Control.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Return to Standard Mount",
+      "text": "From this position, execute Return to Standard Mount to transition to Mount.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Back",
+      "text": "From this position, execute Transition to Back to transition to Back Control.",
+      "position": 4
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "S-Mount Position",
+  "description": "Master S-Mount Position in BJJ. Advanced mount variation optimized for armbar attacks. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Positions/S-Mount-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "S-Mount Position",
+      "item": "https://bjjgraph.org/Positions/S-Mount-Position"
+    }
+  ]
+}
+</script>
+
+
 # S-Mount Position
 #bjj #state #mount #armbar #submission
 

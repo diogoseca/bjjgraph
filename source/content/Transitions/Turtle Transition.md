@@ -11,7 +11,7 @@ description: "Learn Turtle Transition in BJJ. Step-by-step execution from variou
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Turtle Transition",
-  "description": "Learn how to execute Turtle Transition in Brazilian Jiu-Jitsu from various positions to Turtle Position.",
+  "description": "Learn how to execute Turtle Transition in Brazilian Jiu-Jitsu from Bottom Position to Turtle Position. Success: Beginner 60%, Intermediate 75%, Advanced 85%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -55,7 +55,24 @@ description: "Learn Turtle Transition in BJJ. Step-by-step execution from variou
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT3M"
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Turtle Transition",
+  "description": "Learn Turtle Transition in BJJ. Step-by-step execution from various positions to Turtle Position. Success: Beginner 60%, Intermediate 75%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Transitions/Turtle-Transition",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -67,39 +84,24 @@ description: "Learn Turtle Transition in BJJ. Step-by-step execution from variou
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Turtle Transition",
-      "item": "https://bjjgraph.com/transitions/turtle-transition"
+      "item": "https://bjjgraph.org/Transitions/Turtle-Transition"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Turtle Transition",
-  "description": "Learn Turtle Transition in BJJ. Step-by-step execution from various positions to Turtle Position. Success: Beginner 60%, Intermediate 75%, Advanced 85%.",
-  "url": "https://bjjgraph.com/transitions/turtle-transition",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Turtle Transition
 #bjj #transition #turtle #defensive #fundamental
@@ -346,7 +348,6 @@ Every transition file must include:
 - [[Granby Roll]] - Rolling escape from turtle position
 - [[Sit Through]] - Transitional movement from turtle to guard
 - [[Rolling Back Take]] - Counter-attacking from turtle position
-
 
 ## Competition Applications
 - **IBJJF Rules**: No points for achieving turtle, but exposes back for opponent's points

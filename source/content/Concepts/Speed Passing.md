@@ -45,21 +45,19 @@ application_contexts:
 tags: [bjj, concept, intermediate, passing, speed, guard-passing, movement]
 ---
 
-# Speed Passing
-#bjj #concept #intermediate #passing #speed
 
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Speed Passing | Concept | BJJ Graph",
-  "description": "Master speed passing in BJJ. Learn explosive movement, timing, and directional changes to overcome guard retention. Expert insights from Danaher, Gordon Ryan, and Eddie Bravo.",
-  "url": "https://bjjgraph.com/concepts/speed-passing",
+  "name": "Speed Passing | Concept",
+  "description": "Speed Passing represents the strategic principle of using explosive movement, rapid directional changes, and timing to bypass guard retention mechanisms before the opponent can establish defensive ...",
+  "url": "https://bjjgraph.org/Concepts/Speed-Passing",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -72,23 +70,27 @@ tags: [bjj, concept, intermediate, passing, speed, guard-passing, movement]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Concepts",
-      "item": "https://bjjgraph.com/concepts/"
+      "item": "https://bjjgraph.org/Concepts/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Speed Passing",
-      "item": "https://bjjgraph.com/concepts/speed-passing"
+      "item": "https://bjjgraph.org/Concepts/Speed-Passing"
     }
   ]
 }
 </script>
+
+
+# Speed Passing
+#bjj #concept #intermediate #passing #speed
 
 ## Concept Description
 

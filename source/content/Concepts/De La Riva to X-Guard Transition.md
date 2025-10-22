@@ -46,6 +46,50 @@ application_contexts:
 tags: [bjj, concept, transition, de-la-riva, x-guard, guard-system, sweeps]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "De La Riva to X-Guard Transition | Concept",
+  "description": "The De La Riva to X-Guard Transition represents the systematic framework for converting the controlling mechanics of De La Riva Guard into the elevating and sweeping power of X-Guard position. Unli...",
+  "url": "https://bjjgraph.org/Concepts/De-La-Riva-to-X-Guard-Transition",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "De La Riva to X-Guard Transition",
+      "item": "https://bjjgraph.org/Concepts/De-La-Riva-to-X-Guard-Transition"
+    }
+  ]
+}
+</script>
+
+
 # De La Riva to X-Guard Transition
 #bjj #concept #transition #guard-system
 

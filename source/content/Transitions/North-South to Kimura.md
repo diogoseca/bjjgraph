@@ -11,7 +11,7 @@ description: "Learn North-South to Kimura in BJJ. Step-by-step execution. Comple
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "North-South to Kimura",
-  "description": "Learn how to execute North-South to Kimura in Brazilian Jiu-Jitsu. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "description": "Learn how to execute North-South to Kimura in Brazilian Jiu-Jitsu from North South Control to Kimura Control. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -52,7 +52,7 @@ description: "Learn North-South to Kimura in BJJ. Step-by-step execution. Comple
     {
       "@type": "HowToStep",
       "name": "Stabilize the final Kimura",
-      "text": "Stabilize the final Kimura control position with proper weight distribution, posting a knee near their head for base, ready to apply submission pressure while countering defensive reactions like bridging or rolling.",
+      "text": "Stabilize the final Kimura control position with proper weight distribution, posting a knee near their head for base, ready to apply submission pressure while countering defensive reactions like bridging or rolling, transitioning to [[Kimura]] submission.",
       "position": 7
     }
   ],
@@ -73,16 +73,14 @@ description: "Learn North-South to Kimura in BJJ. Step-by-step execution. Comple
   "@type": "WebPage",
   "name": "North-South to Kimura",
   "description": "Learn North-South to Kimura in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/north-south-to-kimura",
+  "url": "https://bjjgraph.org/Transitions/North-South-to-Kimura",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -92,19 +90,19 @@ description: "Learn North-South to Kimura in BJJ. Step-by-step execution. Comple
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "North-South to Kimura",
-      "item": "https://bjjgraph.com/transitions/north-south-to-kimura"
+      "item": "https://bjjgraph.org/Transitions/North-South-to-Kimura"
     }
   ]
 }

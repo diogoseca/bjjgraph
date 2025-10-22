@@ -11,7 +11,7 @@ description: "Learn Knee Cut Pass in BJJ. Step-by-step execution. Complete techn
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Knee Cut Pass",
-  "description": "Learn how to execute Knee Cut Pass in Brazilian Jiu-Jitsu from Half Guard to Side Control. Success: Beginner 60%, Intermediate 75%, Advanced 85%.",
+  "description": "Learn how to execute Knee Cut Pass in Brazilian Jiu-Jitsu from Half Guard Top to Side Control. Success: Beginner 60%, Intermediate 75%, Advanced 85%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -79,16 +79,14 @@ description: "Learn Knee Cut Pass in BJJ. Step-by-step execution. Complete techn
   "@type": "WebPage",
   "name": "Knee Cut Pass",
   "description": "Learn Knee Cut Pass in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/knee-cut-pass",
+  "url": "https://bjjgraph.org/Transitions/Knee-Cut-Pass",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Knee Cut Pass in BJJ. Step-by-step execution. Complete techn
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Knee Cut Pass",
-      "item": "https://bjjgraph.com/transitions/knee-cut-pass"
+      "item": "https://bjjgraph.org/Transitions/Knee-Cut-Pass"
     }
   ]
 }

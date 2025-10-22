@@ -92,6 +92,50 @@ author: "BJJGraph System - Agent 9"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm-in Guillotine | Blood Choke",
+  "description": "The Arm-in Guillotine is a highly effective blood choke variation of the standard guillotine where the opponent's own arm is trapped inside the choke alongside their head. This configuration create...",
+  "url": "https://bjjgraph.org/Submissions/Arm-in-Guillotine",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Arm-in Guillotine",
+      "item": "https://bjjgraph.org/Submissions/Arm-in-Guillotine"
+    }
+  ]
+}
+</script>
+
+
 ## ⚠️ SAFETY NOTICE
 
 **This submission can cause LOSS OF CONSCIOUSNESS if applied improperly or held after tap. Terminal state: [[Won by Submission]]**

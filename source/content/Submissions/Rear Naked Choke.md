@@ -3,6 +3,7 @@ title: "Rear Naked Choke | BJJ Submission Guide | BJJ Graph"
 description: "From the Back Control position, you begin by establishing seatbelt control with one arm over the opponent's shoulder and the other under their armpit, securing a strong grip to limit their..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "From the Back Control position, you begin by establishing seatbelt
   "@type": "WebPage",
   "name": "Rear Naked Choke",
   "description": "From the Back Control position, you begin by establishing seatbelt control with one arm over the opponent's shoulder and the other under their armpit, securing a strong grip to limit their...",
-  "url": "https://bjjgraph.com/submissions/rear-naked-choke",
+  "url": "https://bjjgraph.org/Submissions/Rear-Naked-Choke",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "From the Back Control position, you begin by establishing seatbelt
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Rear Naked Choke",
-      "item": "https://bjjgraph.com/submissions/rear-naked-choke"
+      "item": "https://bjjgraph.org/Submissions/Rear-Naked-Choke"
     }
   ]
 }
 </script>
+
 
 # Rear Naked Choke
 #bjj #transition #submission #choke #back_attack

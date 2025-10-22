@@ -79,16 +79,14 @@ description: "Learn Stack Defense in BJJ. Step-by-step execution. Complete techn
   "@type": "WebPage",
   "name": "Stack Defense",
   "description": "Learn Stack Defense in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/stack-defense",
+  "url": "https://bjjgraph.org/Transitions/Stack-Defense",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Stack Defense in BJJ. Step-by-step execution. Complete techn
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Stack Defense",
-      "item": "https://bjjgraph.com/transitions/stack-defense"
+      "item": "https://bjjgraph.org/Transitions/Stack-Defense"
     }
   ]
 }
@@ -336,7 +334,6 @@ Updates to this standard should be reflected across related transition setup fil
 
 ## Historical Context
 Stack Defense has evolved as a fundamental guard retention technique in Brazilian Jiu-Jitsu, particularly in response to aggressive stacking passes popularized in competitive gi and no-gi contexts. It reflects the strategic emphasis on posture control and space management taught by instructors like John Danaher and has become a staple in modern guard play to counter dominant top game strategies.
-
 
 ## Related Techniques
 

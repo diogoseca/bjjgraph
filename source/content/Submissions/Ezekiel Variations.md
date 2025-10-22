@@ -3,6 +3,50 @@ title: "Ezekiel Variations | BJJ Submission Guide | BJJ Graph"
 description: "Master Ezekiel choke variations in BJJ with comprehensive safety protocols. Learn setups from mount, guard, and side control. Beginner 40%, Intermediate 60%, Advanced 75%."
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ezekiel Variations",
+  "description": "Master Ezekiel choke variations in BJJ with comprehensive safety protocols. Learn setups from mount, guard, and side control. Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Submissions/Ezekiel-Variations",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Ezekiel Variations",
+      "item": "https://bjjgraph.org/Submissions/Ezekiel-Variations"
+    }
+  ]
+}
+</script>
+
+
 # Ezekiel Variations
 #bjj #submission #choke #gi #nogi #versatile
 

@@ -33,6 +33,106 @@ related_positions: ["Triangle Control Bottom", "Guard Recovery", "Stack Pass Pos
 related_techniques: ["Posture Recovery", "Stack Pass", "Triangle Defense - Posture"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Triangle Escape",
+  "description": "Learn how to execute Triangle Escape in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Recognize [[Triangle Control]] lock immediately; establish both hands posted on mat beside opponent's hips; maintain base to prevent further tightening of triangle",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Drive weight forward and upward, beginning to stack opponent's hips over their shoulders while keeping head low to prevent initial squeeze",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent attempts to adjust angle by shifting hips off-center, pulls down on head to break posture, squeezes knees together to tighten triangle",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Continuously adjust forward pressure based on opponent's angle changes; if opponent pulls head, use that tension to create leverage for stacking motion",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Extract trapped arm by pulling elbow back and down while maintaining stack pressure; as arm frees, immediately work head position to slip free from triangle",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Once head is free, maintain forward pressure to prevent re-guard; establish passing position or controlled recovery position",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle Escape",
+  "description": "Learn Triangle Escape in BJJ. Step-by-step execution from Triangle Control to Guard Recovery. Success: Beginner 25%, Intermediate 45%, Advanced 60%.",
+  "url": "https://bjjgraph.org/Transitions/Triangle-Escape",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Triangle Escape",
+      "item": "https://bjjgraph.org/Transitions/Triangle-Escape"
+    }
+  ]
+}
+</script>
+
+
 # Triangle Escape
 #bjj #transition #escape #defense #triangle
 

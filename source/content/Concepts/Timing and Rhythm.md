@@ -45,6 +45,50 @@ application_contexts:
 tags: [bjj, concept, timing, rhythm, intermediate, advanced]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Timing and Rhythm",
+  "description": "Timing and Rhythm represents the fundamental skill of recognizing, synchronizing with, and exploiting temporal patterns in grappling exchanges to optimize technique execution and success probabilit...",
+  "url": "https://bjjgraph.org/Concepts/Timing-and-Rhythm",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Timing and Rhythm",
+      "item": "https://bjjgraph.org/Concepts/Timing-and-Rhythm"
+    }
+  ]
+}
+</script>
+
+
 # Timing and Rhythm
 #bjj #concept #timing #rhythm #intermediate
 

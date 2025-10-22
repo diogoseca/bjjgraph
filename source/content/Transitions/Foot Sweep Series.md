@@ -11,7 +11,7 @@ description: "Learn Foot Sweep Series in BJJ. Step-by-step execution from Standi
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Foot Sweep Series",
-  "description": "Learn how to execute Foot Sweep Series in Brazilian Jiu-Jitsu from Standing Position to Side Control.",
+  "description": "Learn how to execute Foot Sweep Series in Brazilian Jiu-Jitsu from Standing Position to Side Control. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -58,6 +58,23 @@ description: "Learn Foot Sweep Series in BJJ. Step-by-step execution from Standi
   "totalTime": "PT5M"
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Foot Sweep Series",
+  "description": "Learn Foot Sweep Series in BJJ. Step-by-step execution from Standing Position to Side Control. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Foot-Sweep-Series",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,39 +84,24 @@ description: "Learn Foot Sweep Series in BJJ. Step-by-step execution from Standi
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Foot Sweep Series",
-      "item": "https://bjjgraph.com/transitions/foot-sweep-series"
+      "item": "https://bjjgraph.org/Transitions/Foot-Sweep-Series"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Foot Sweep Series",
-  "description": "Learn Foot Sweep Series in BJJ. Step-by-step execution from Standing Position to Side Control. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
-  "url": "https://bjjgraph.com/transitions/foot-sweep-series",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Foot Sweep Series
 #bjj #transition #takedown #judo #ashiwaza #standing
@@ -328,7 +330,6 @@ Updates to this standard should be reflected across all transition files to main
 - [[Kosoto Gari]] - Related technique
 - [[Osoto Gari]] - Related technique
 - [[Sasae Tsurikomi Ashi]] - Related technique
-
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as takedown (2 points)

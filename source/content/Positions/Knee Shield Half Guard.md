@@ -58,6 +58,72 @@ description: "Master Knee Shield Half Guard in BJJ. Complete guide covering setu
   "totalTime": "PT5M"
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Improper knee shield angle?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Collapsed frame"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Passive positioning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Vulnerability to pressure"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Overcommitment to shield?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Neglecting other controls"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Insufficient hip mobility?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Limited offensive options"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you make this mistake: Poor distance management?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This leads to: Pass vulnerability"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Knee Shield Half Guard",
+  "description": "Master Knee Shield Half Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 80%.",
+  "url": "https://bjjgraph.org/Positions/Knee-Shield-Half-Guard",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,40 +133,24 @@ description: "Master Knee Shield Half Guard in BJJ. Complete guide covering setu
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Knee Shield Half Guard",
-      "item": "https://bjjgraph.com/positions/knee-shield-half-guard"
+      "item": "https://bjjgraph.org/Positions/Knee-Shield-Half-Guard"
     }
   ]
 }
 </script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Knee Shield Half Guard",
-  "description": "Master Knee Shield Half Guard in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 80%.",
-  "url": "https://bjjgraph.com/positions/knee-shield-half-guard",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Knee Shield Half Guard
 #bjj #state #guard #halfguard #defensive
@@ -185,7 +235,6 @@ Knee Shield Half Guard is a variation of the half guard where the bottom player 
 - [[Deep Half Guard]] - Lower engagement half guard variation
 - [[Butterfly Half Guard]] - Hybrid position with butterfly hook
 - [[Closed Guard Bottom]] - Full guard position
-
 
 ## Related Positions
 

@@ -73,6 +73,7 @@ author: "BJJGraph System - Agent 8"
 version: "2.0"
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -80,15 +81,14 @@ version: "2.0"
   "@type": "WebPage",
   "name": "Paper Cutter Choke",
   "description": "Master Paper Cutter Choke in BJJ. Complete guide covering setup from turtle/back, execution, safety protocols, and injury prevention. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.",
-  "url": "https://bjjgraph.com/submissions/paper-cutter-choke",
+  "url": "https://bjjgraph.org/Submissions/Paper-Cutter-Choke",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,23 +98,24 @@ version: "2.0"
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Paper Cutter Choke",
-      "item": "https://bjjgraph.com/submissions/paper-cutter-choke"
+      "item": "https://bjjgraph.org/Submissions/Paper-Cutter-Choke"
     }
   ]
 }
 </script>
+
 
 # Paper Cutter Choke
 #bjj #submission #choke #gi #turtle #safety_critical

@@ -3,6 +3,7 @@ title: "Twister Finish | BJJ Submission Guide | BJJ Graph"
 description: "From the Twister Control position, you begin by ensuring complete perpendicular alignment to your opponent, with your threading arm deeply positioned under their neck or head, palm-up for maximum..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "From the Twister Control position, you begin by ensuring complete 
   "@type": "WebPage",
   "name": "Twister Finish",
   "description": "From the Twister Control position, you begin by ensuring complete perpendicular alignment to your opponent, with your threading arm deeply positioned under their neck or head, palm-up for maximum...",
-  "url": "https://bjjgraph.com/submissions/twister-finish",
+  "url": "https://bjjgraph.org/Submissions/Twister-Finish",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "From the Twister Control position, you begin by ensuring complete 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Twister Finish",
-      "item": "https://bjjgraph.com/submissions/twister-finish"
+      "item": "https://bjjgraph.org/Submissions/Twister-Finish"
     }
   ]
 }
 </script>
+
 
 # Twister Finish
 #bjj #transition #submission #10thplanet #spinal_lock

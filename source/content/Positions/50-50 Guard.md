@@ -180,42 +180,42 @@ state_machine:
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Use 50/50 Guard in BJJ",
-  "description": "Complete guide to executing techniques and transitions from 50/50 Guard position.",
+  "description": "Complete guide to executing techniques and transitions from 50/50 Guard.",
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Leg Entanglement",
-      "text": "Create symmetrical leg entanglement where both legs are intertwined with opponent's leg across hip line.",
+      "name": "Execute Straight Ankle Lock",
+      "text": "From this position, execute Straight Ankle Lock to transition to Won by Submission.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Control Opponent's Foot",
-      "text": "Secure control of opponent's foot and ankle while preventing them from controlling yours.",
+      "name": "Execute Heel Hook from 50/50",
+      "text": "From this position, execute Heel Hook from 50/50 to transition to Won by Submission.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock",
-      "text": "From this position, execute Straight Ankle Lock by securing opponent's foot to your hip and extending.",
+      "name": "Execute Calf Slicer from 50/50",
+      "text": "From this position, execute Calf Slicer from 50/50 to transition to Won by Submission.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Heel Hook Option",
-      "text": "If opponent exposes their heel, transition to Heel Hook for powerful rotational submission.",
+      "name": "Execute Backside 50/50 Transition",
+      "text": "From this position, execute Backside 50/50 Transition to transition to Backside 50/50.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Backside Transition",
-      "text": "If stalemate occurs, transition to Backside 50/50 by inverting under opponent's legs.",
+      "name": "Execute Saddle Entry from 50/50",
+      "text": "From this position, execute Saddle Entry from 50/50 to transition to Saddle Position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Saddle Entry",
-      "text": "Elevate opponent's trapped leg higher to enter Saddle Position for increased control and submission options.",
+      "name": "Execute X-Guard Entry",
+      "text": "From this position, execute X-Guard Entry to transition to X-Guard.",
       "position": 6
     }
   ],
@@ -238,7 +238,7 @@ state_machine:
       "name": "What is a common mistake in Equal or passive positioning?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Creates stalemate where neither person can advance, resulting in referee standup or wasted energy. The correction is: Actively work to break symmetry by controlling opponent's foot, elevating their leg, or transitioning to superior positions."
+        "text": "Creates stalemate where neither person can advance, resulting in referee standup or wasted energy. The correction is: Actively work to break symmetry by controlling opponent's foot, elevating their leg, or transitioning to superior positions.\n  - **Recognition**: If both you and opponent are static for more than 10-15 seconds without attempting techniques, you're being too passive."
       }
     },
     {
@@ -246,7 +246,7 @@ state_machine:
       "name": "What is a common mistake in Loose leg control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to easily extract their leg or reverse position, losing your positional advantage. The correction is: Keep your legs tightly locked around opponent's leg with active squeeze pressure, maintaining constant connection throughout."
+        "text": "Allows opponent to easily extract their leg or reverse position, losing your positional advantage. The correction is: Keep your legs tightly locked around opponent's leg with active squeeze pressure, maintaining constant connection throughout.\n  - **Recognition**: If you feel opponent's leg moving freely or creating space, tighten your leg triangle and hip connection."
       }
     },
     {
@@ -254,7 +254,7 @@ state_machine:
       "name": "What is a common mistake in Ignoring opponent's grips?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Permits opponent to control your foot and ankle, setting up their own submissions effectively. The correction is: Fight for superior grips on opponent's foot while denying their attempts to control yours, establishing grip dominance."
+        "text": "Permits opponent to control your foot and ankle, setting up their own submissions effectively. The correction is: Fight for superior grips on opponent's foot while denying their attempts to control yours, establishing grip dominance.\n  - **Recognition**: If opponent secures clean grips on your foot while you have no grips on theirs, you've lost the grip battle."
       }
     },
     {
@@ -262,7 +262,7 @@ state_machine:
       "name": "What is a common mistake in Attempting illegal techniques?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Results in disqualification or penalties in competition depending on ruleset and belt level. The correction is: Know the legal submissions for your ruleset - heel hooks typically illegal in gi and at lower belt levels in IBJJF."
+        "text": "Results in disqualification or penalties in competition depending on ruleset and belt level. The correction is: Know the legal submissions for your ruleset - heel hooks typically illegal in gi and at lower belt levels in IBJJF.\n  - **Recognition**: Before training or competing, verify which leg locks are legal for your belt level and ruleset."
       }
     },
     {
@@ -270,7 +270,7 @@ state_machine:
       "name": "What is a common mistake in Poor hip positioning?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Reduces submission leverage and allows opponent to clear the position or establish superior control. The correction is: Keep your hips mobile and positioned perpendicular to opponent's hip line, maximizing your leverage for leg attacks."
+        "text": "Reduces submission leverage and allows opponent to clear the position or establish superior control. The correction is: Keep your hips mobile and positioned perpendicular to opponent's hip line, maximizing your leverage for leg attacks.\n  - **Recognition**: If you can't create pressure on opponent's foot or they can easily face you squarely, your hip angle is wrong."
       }
     }
   ]
@@ -285,16 +285,14 @@ state_machine:
   "@type": "WebPage",
   "name": "50/50 Guard",
   "description": "Master 50/50 Guard in BJJ. Complete guide covering leg entanglements, control, and submissions from the symmetrical leg lock position. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.",
-  "url": "https://bjjgraph.com/positions/50-50-guard",
+  "url": "https://bjjgraph.org/Positions/50-50-Guard",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -304,19 +302,19 @@ state_machine:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "50/50 Guard",
-      "item": "https://bjjgraph.com/positions/50-50-guard"
+      "item": "https://bjjgraph.org/Positions/50-50-Guard"
     }
   ]
 }

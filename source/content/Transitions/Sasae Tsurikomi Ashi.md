@@ -33,6 +33,106 @@ related_positions: ["Standing Neutral", "Top Position Ground"]
 related_techniques: ["Uchi Mata", "Kouchi Gari", "Deashi Harai"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Sasae Tsurikomi Ashi",
+  "description": "Learn how to execute Sasae Tsurikomi Ashi in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish strong grips - right hand on opponent's left collar (high and deep), left hand controlling their right sleeve near elbow. Maintain upright posture and balanced stance.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Create forward movement in opponent through pulling action with sleeve grip, causing them to step forward with right foot to maintain balance.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent steps forward with right foot to regain balance and resist your pulling pressure, creating the exact moment of vulnerability.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "As opponent's right foot commits forward, time your blocking action to intercept their ankle just as weight transfers onto that foot.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Place sole of left foot against opponent's right ankle/lower shin, simultaneously execute strong upward and circular pulling motion with collar grip while pulling sleeve across their body.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Drive through the throw by continuing pulling motion, following opponent to ground while maintaining grips to establish top position control immediately.",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sasae Tsurikomi Ashi",
+  "description": "Learn Sasae Tsurikomi Ashi in BJJ. Step-by-step execution from Standing to Opponent Down. Success: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Sasae-Tsurikomi-Ashi",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Sasae Tsurikomi Ashi",
+      "item": "https://bjjgraph.org/Transitions/Sasae-Tsurikomi-Ashi"
+    }
+  ]
+}
+</script>
+
+
 # Sasae Tsurikomi Ashi
 #bjj #transition #judo #takedown #standing
 

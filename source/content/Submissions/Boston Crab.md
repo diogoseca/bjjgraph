@@ -3,6 +3,7 @@ title: "Boston Crab | BJJ Submission Guide | BJJ Graph"
 description: "Starting from a top position, often after taking the opponent's back or breaking down their turtle position, you face their lower body while they are prone or on their knees, with your chest..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "Starting from a top position, often after taking the opponent's ba
   "@type": "WebPage",
   "name": "Boston Crab",
   "description": "Starting from a top position, often after taking the opponent's back or breaking down their turtle position, you face their lower body while they are prone or on their knees, with your chest...",
-  "url": "https://bjjgraph.com/submissions/boston-crab",
+  "url": "https://bjjgraph.org/Submissions/Boston-Crab",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "Starting from a top position, often after taking the opponent's ba
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Boston Crab",
-      "item": "https://bjjgraph.com/submissions/boston-crab"
+      "item": "https://bjjgraph.org/Submissions/Boston-Crab"
     }
   ]
 }
 </script>
+
 
 # Boston Crab
 #bjj #submission #spine_lock #control #advanced

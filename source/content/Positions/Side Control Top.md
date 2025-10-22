@@ -16,37 +16,37 @@ description: "Master Side Control Top in BJJ. Complete guide covering submission
     {
       "@type": "HowToStep",
       "name": "Execute Americana",
-      "text": "From this position, execute Americana to transition to Submission Control.",
+      "text": "From this position, execute Americana to transition to Americana Control.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura",
-      "text": "From this position, execute Kimura to transition to Submission Control.",
+      "text": "From this position, execute Kimura to transition to Kimura Control.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar Transition",
-      "text": "From this position, execute Armbar Transition to transition to Armbar Control.",
+      "name": "Execute Straight Armbar",
+      "text": "From this position, execute Straight Armbar to transition to Armbar Control.",
       "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Head and Arm Choke",
+      "text": "From this position, execute Head and Arm Choke to transition to Submission Control.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mount Transition",
       "text": "From this position, execute Mount Transition to transition to Mount.",
-      "position": 4
+      "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee on Belly",
       "text": "From this position, execute Knee on Belly to transition to Knee on Belly.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute North-South Transition",
-      "text": "From this position, execute North-South Transition to transition to North-South.",
       "position": 6
     }
   ],
@@ -66,45 +66,62 @@ description: "Master Side Control Top in BJJ. Complete guide covering submission
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most important control point in Side Control Top?",
+      "name": "What is a common mistake in Positioning too high on opponent's chest?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The crossface (forearm across opponent's neck/face) combined with hip pressure creates the primary control mechanism. This prevents opponent from turning into you and escaping while allowing you to distribute weight effectively."
+        "text": "Allows opponent to create space with their hips and insert a knee for guard recovery, losing the dominant position and potentially the pass points. The correction is: Keep your hips low and in contact with opponent's hips, distributing weight across their torso rather than stacking it high on their chest.\n  - **Recognition**: If opponent easily recovers guard or you feel unstable, you're likely too high."
       }
     },
     {
       "@type": "Question",
-      "name": "When should I transition to mount versus staying in side control?",
+      "name": "What is a common mistake in Insufficient crossface pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Transition to mount when opponent's arms are exposed and they cannot defend the mount entry, or when you need points in competition. Stay in side control when you have active submission opportunities or when mount entry is well-defended."
+        "text": "Opponent can turn into you, establish an underhook, and begin escape sequences that lead to guard recovery or scrambles. The correction is: Maintain constant forearm pressure across their face and neck, driving their head away from you to prevent turning.\n  - **Recognition**: If opponent's face is pointed toward you or they're comfortable turning, your crossface is weak."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the most common error in Side Control Top?",
+      "name": "What is a common mistake in Raising hips off opponent?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Being too high on the opponent's chest instead of controlling their hips. This allows them to create space and escape. Always maintain hip-to-hip connection and distribute weight to prevent movement."
+        "text": "Creates space underneath that opponent can exploit for shrimping, bridging, or inserting frames that lead to escape. The correction is: Keep hips low and heavy, maintaining hip-to-hip contact that eliminates space for movement.\n  - **Recognition**: If you can feel air between your hip and theirs, or they're creating distance easily, your hips are too high."
       }
     },
     {
       "@type": "Question",
-      "name": "How do I prevent the opponent from recovering guard?",
+      "name": "What is a common mistake in Static weight without active control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep your hips low and heavy, maintain crossface pressure, and control their far hip with your near hand. Never allow space between your hip and their hip, as this is the primary escape path."
+        "text": "Allows athletic opponents to explosively escape using bridge-and-shrimp combinations or creates stalemates where neither player advances. The correction is: Maintain active pressure adjustments, constantly reading and responding to opponent's movements with weight shifts and grip adjustments.\n  - **Recognition**: If opponent successfully escapes despite your weight advantage, or if you feel stuck, you're being too static."
       }
     },
     {
       "@type": "Question",
-      "name": "What are the primary submission chains from Side Control?",
+      "name": "What is a common mistake in Telegraphing submission attempts?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The main chains are: 1) Americana to armbar, 2) Kimura to back take, 3) Head-and-arm choke variations, 4) Straight armbar, and 5) North-south choke transitions. All chain together based on opponent's defensive reactions."
+        "text": "Opponent anticipates attacks and establishes defensive frames or escape sequences before you can secure the submission. The correction is: Use feints and positional threats (mount, knee on belly) to create defensive reactions, then capitalize on the openings created.\n  - **Recognition**: If submissions are consistently defended early, you're not setting them up properly."
       }
     }
   ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Side Control Top",
+  "description": "Master Side Control Top in BJJ. Complete guide covering submissions, transitions, and control. Success rates: Beginner 65%, Intermediate 75%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Positions/Side-Control-Top",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -116,39 +133,24 @@ description: "Master Side Control Top in BJJ. Complete guide covering submission
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Side Control Top",
-      "item": "https://bjjgraph.com/positions/side-control-top"
+      "item": "https://bjjgraph.org/Positions/Side-Control-Top"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Side Control Top",
-  "description": "Master Side Control Top in BJJ. Complete guide covering submissions, transitions, and control. Success rates: Beginner 65%, Intermediate 75%, Advanced 85%.",
-  "url": "https://bjjgraph.com/positions/side-control-top",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Side Control Top
 #bjj #state #top #control #fundamental

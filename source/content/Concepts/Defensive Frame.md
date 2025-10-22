@@ -44,6 +44,50 @@ application_contexts:
 tags: [bjj, concept, fundamental, defense, framing, structure]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Defensive Frame",
+  "description": "Defensive Frame represents the fundamental skill of creating structural barriers using skeletal alignment and limb positioning to manage distance, redirect pressure, and prevent opponent advancemen...",
+  "url": "https://bjjgraph.org/Concepts/Defensive-Frame",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Defensive Frame",
+      "item": "https://bjjgraph.org/Concepts/Defensive-Frame"
+    }
+  ]
+}
+</script>
+
+
 # Defensive Frame
 #bjj #concept #fundamental #defense #framing
 

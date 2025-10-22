@@ -33,6 +33,106 @@ related_positions: ["Lasso Guard Bottom", "Lasso Guard Top", "Side Control Top"]
 related_techniques: ["Spider Guard Pass", "Knee Cut Pass", "Leg Weave Pass"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Lasso Guard Pass",
+  "description": "Learn how to execute Lasso Guard Pass in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish upright posture with trapped arm maintaining strong structure, control opponent's opposite leg or hip",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Drive trapped arm downward and across opponent's centerline while maintaining forward pressure with your body",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent attempts to maintain lasso grip tightness and may try to off-balance you toward the lasso side",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Rotate your shoulder forward inside the lasso loop while keeping your elbow tight, reducing the leverage of their shin control",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Step forward with your leg on the lasso side creating a backstep angle, driving your hip toward their head while maintaining arm pressure",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Extract your arm as the lasso opens, immediately establishing crossface and achieving side control with chest pressure",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lasso Guard Pass",
+  "description": "Learn Lasso Guard Pass in BJJ. Step-by-step execution from Lasso Guard Top to Side Control Top. Success: Beginner 30%, Intermediate 45%, Advanced 60%.",
+  "url": "https://bjjgraph.org/Transitions/Lasso-Guard-Pass",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Lasso Guard Pass",
+      "item": "https://bjjgraph.org/Transitions/Lasso-Guard-Pass"
+    }
+  ]
+}
+</script>
+
+
 # Lasso Guard Pass
 #bjj #transition #guard-pass #lasso-guard #advanced
 

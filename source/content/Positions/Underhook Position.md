@@ -3,6 +3,8 @@ title: "Underhook Position | BJJ Position Guide | BJJ Graph"
 description: "Master Underhook Position in BJJ. Complete guide covering control mechanics, sweeps, and back takes. Success rates: Beginner 48%, Intermediate 62%, Advanced 76%."
 ---
 
+
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -13,33 +15,21 @@ description: "Master Underhook Position in BJJ. Complete guide covering control 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Underhook Sweep",
-      "text": "From this position, execute Underhook Sweep to transition to Top Position.",
+      "name": "Execute Underhook Strip",
+      "text": "From Underhook Position, execute Underhook Strip to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, execute Back Take to transition to Back Control.",
+      "name": "Execute Crossface Control",
+      "text": "From Underhook Position, execute Crossface Control to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Old School Sweep",
-      "text": "From this position, execute Old School Sweep to transition to Mount.",
+      "name": "Execute Limp Arm Escape",
+      "text": "From Underhook Position, execute Limp Arm Escape to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Deep Half Entry",
-      "text": "From this position, execute Deep Half Entry to transition to Deep Half Guard.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Waiter Sweep",
-      "text": "From this position, execute Waiter Sweep to transition to Top Half Guard.",
-      "position": 5
     }
   ],
   "tool": [
@@ -48,6 +38,40 @@ description: "Master Underhook Position in BJJ. Complete guide covering control 
     "Mat space"
   ],
   "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Underhook Position?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Deep Underhook**: Penetrate as deep as possible under their armpit, grip high on back or shoulder"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Underhook Position",
+  "description": "Master Underhook Position in BJJ. Complete guide covering control mechanics, sweeps, and back takes. Success rates: Beginner 48%, Intermediate 62%, Advanced 76%.",
+  "url": "https://bjjgraph.org/Positions/Underhook-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -59,38 +83,24 @@ description: "Master Underhook Position in BJJ. Complete guide covering control 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Underhook Position",
-      "item": "https://bjjgraph.com/positions/underhook-position"
+      "item": "https://bjjgraph.org/Positions/Underhook-Position"
     }
   ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Underhook Position",
-  "description": "Master Underhook Position in BJJ. Complete guide covering control mechanics, sweeps, and back takes. Success rates: Beginner 48%, Intermediate 62%, Advanced 76%.",
-  "url": "https://bjjgraph.com/positions/underhook-position",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Underhook Position
 #bjj #state #halfguard #control #underhook

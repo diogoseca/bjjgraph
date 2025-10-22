@@ -11,7 +11,7 @@ description: "Learn Ippon Seoi Nage in BJJ. Step-by-step execution from Standing
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Ippon Seoi Nage",
-  "description": "Learn how to execute Ippon Seoi Nage in Brazilian Jiu-Jitsu from Standing Position to Side Control.",
+  "description": "Learn how to execute Ippon Seoi Nage in Brazilian Jiu-Jitsu from Standing Position to Side Control. Success: Beginner 25%, Intermediate 45%, Advanced 70%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -58,6 +58,23 @@ description: "Learn Ippon Seoi Nage in BJJ. Step-by-step execution from Standing
   "totalTime": "PT5M"
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ippon Seoi Nage",
+  "description": "Learn Ippon Seoi Nage in BJJ. Step-by-step execution from Standing Position to Side Control. Success: Beginner 25%, Intermediate 45%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Ippon-Seoi-Nage",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,39 +84,24 @@ description: "Learn Ippon Seoi Nage in BJJ. Step-by-step execution from Standing
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Ippon Seoi Nage",
-      "item": "https://bjjgraph.com/transitions/ippon-seoi-nage"
+      "item": "https://bjjgraph.org/Transitions/Ippon-Seoi-Nage"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Ippon Seoi Nage",
-  "description": "Learn Ippon Seoi Nage in BJJ. Step-by-step execution from Standing Position to Side Control. Success: Beginner 25%, Intermediate 45%, Advanced 70%.",
-  "url": "https://bjjgraph.com/transitions/ippon-seoi-nage",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Ippon Seoi Nage
 #bjj #transition #takedown #judo #throw #standing
@@ -329,7 +331,6 @@ Updates to this standard should be reflected across all transition files to main
 - [[Tai Otoshi]] - Related technique
 - [[Uchi Mata]] - Related technique
 - [[Side Control Top]] - Common ending position from ippon seoi nage
-
 
 ## Competition Applications
 - **IBJJF Rules**: Legal at all belt levels, scores as takedown (2 points)

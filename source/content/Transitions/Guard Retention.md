@@ -37,6 +37,106 @@ related_positions: ["Guard Bottom", "Open Guard", "Half Guard", "Closed Guard"]
 related_techniques: ["Hip Escape", "Shrimp Escape", "Granby Roll", "Technical Standup"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Guard Retention",
+  "description": "Learn how to execute Guard Retention in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish guard position with hip mobility; maintain connection through grips or hooks; recognize passing attempt direction early",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Create frames with hands to control opponent's upper body distance; position legs/hips to obstruct passing path",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent attempts to control legs, secure grips, or establish pressure to pass; may use speed or pressure passing approach",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Adjust hip position continuously based on opponent's pressure direction; replace guard when momentarily lost",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Return legs to guard position when passing attempt fails; re-establish hooks, frames, or closed guard",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Secure guard position with improved grips or positioning; prepare for next passing attempt or launch offensive",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guard Retention",
+  "description": "Learn Guard Retention in BJJ. Defensive tactics from guard bottom to maintain position. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Transitions/Guard-Retention",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Guard Retention",
+      "item": "https://bjjgraph.org/Transitions/Guard-Retention"
+    }
+  ]
+}
+</script>
+
+
 # Guard Retention
 #bjj #transition #defense #guard #movement
 

@@ -88,6 +88,50 @@ author: "BJJGraph Agent System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle Choke",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. Triangle should take minimum 3-5 seconds in training. Partner will feel pressure building gradually. Competition speed only in co...",
+  "url": "https://bjjgraph.org/Submissions/Triangle-Choke",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Triangle Choke",
+      "item": "https://bjjgraph.org/Submissions/Triangle-Choke"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Triangle Choke is a blood choke submission from guard positions. It's a terminal state resulting in unconsciousness if held beyond tap. Safety is paramount - this technique can render opponent unconscious in 3-8 seconds.

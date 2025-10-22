@@ -47,16 +47,14 @@ description: "Master Leg Knot Position in BJJ. Complete guide covering setup, co
   "@type": "WebPage",
   "name": "Leg Knot Position",
   "description": "Master Leg Knot Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rate: 65%.",
-  "url": "https://bjjgraph.com/positions/leg-knot-position",
+  "url": "https://bjjgraph.org/Positions/Leg-Knot-Position",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,19 +64,19 @@ description: "Master Leg Knot Position in BJJ. Complete guide covering setup, co
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Leg Knot Position",
-      "item": "https://bjjgraph.com/positions/leg-knot-position"
+      "item": "https://bjjgraph.org/Positions/Leg-Knot-Position"
     }
   ]
 }
@@ -332,7 +330,6 @@ Updates to this standard should be reflected across all position files to mainta
 - [[Leg Drag Position]] - Related position
 - [[Russian Leg Lasso]] - Related position
 - [[Single Leg X Guard]] - Related position
-
 
 ## Historical Context
 Leg knot position represents a modern development in Brazilian Jiu-Jitsu, particularly in no-gi and leg lock focused grappling, showcasing the evolution of lower body control systems. Popularized by practitioners in the 2010s, it has become a key position in advanced leg lock strategies.

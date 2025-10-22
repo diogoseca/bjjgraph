@@ -46,6 +46,50 @@ application_contexts:
 tags: [bjj, concept, strategy, intermediate, position, chains, planning]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Position Chains",
+  "description": "Position Chains represents the strategic principle of linking multiple positional transitions into planned sequences that systematically advance toward dominant control or submission outcomes. Unli...",
+  "url": "https://bjjgraph.org/Concepts/Position-Chains",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Cross-references to related content",
+      "item": "https://bjjgraph.org/Concepts/Position-Chains"
+    }
+  ]
+}
+</script>
+
+
 # Position Chains
 #bjj #concept #strategy #intermediate #position #chains
 

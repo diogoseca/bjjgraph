@@ -48,6 +48,50 @@ application_contexts:
 tags: [bjj, concept, intermediate, sweeps, kuzushi, balance, takedowns]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Off-Balancing | Concept",
+  "description": "Off-Balancing represents the fundamental principle of disrupting an opponent's structural stability through strategic manipulation of their center of gravity, base configuration, and weight distrib...",
+  "url": "https://bjjgraph.org/Concepts/Off-Balancing",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Off-Balancing",
+      "item": "https://bjjgraph.org/Concepts/Off-Balancing"
+    }
+  ]
+}
+</script>
+
+
 # Off-Balancing
 #bjj #concept #intermediate #sweeps #kuzushi
 

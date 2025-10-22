@@ -37,6 +37,106 @@ related_positions: ["Side Control", "Guard Recovery", "Half Guard Bottom", "Clos
 related_techniques: ["Hip Escape", "Elbow Escape", "Bridge and Roll", "Shrimp Escape"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Frame and Shrimp",
+  "description": "Learn how to execute Frame and Shrimp in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish forearm frame across opponent's neck and hand on their hip to create initial space",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Turn onto your side toward the opponent while pushing with both frames to generate separation",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent typically drives forward with shoulder pressure trying to flatten you back down",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Maintain frame integrity while timing your hip escape for when their pressure momentarily lightens",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Shrimp hips away explosively while keeping frames active, creating space for knee insertion",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Insert knee shield or recover full guard while maintaining defensive posture and control",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Frame and Shrimp",
+  "description": "Learn Frame and Shrimp in BJJ. Step-by-step execution from Bottom Pin to Guard Recovery. Success: Beginner 45%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Transitions/Frame-and-Shrimp",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Frame and Shrimp",
+      "item": "https://bjjgraph.org/Transitions/Frame-and-Shrimp"
+    }
+  ]
+}
+</script>
+
+
 # Frame and Shrimp
 #bjj #transition #escape #side_control #defense
 

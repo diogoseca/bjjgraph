@@ -79,16 +79,14 @@ description: "Learn Switch to Triangle in BJJ. Step-by-step execution. Complete 
   "@type": "WebPage",
   "name": "Switch to Triangle",
   "description": "Learn Switch to Triangle in BJJ. Step-by-step execution. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/switch-to-triangle",
+  "url": "https://bjjgraph.org/Transitions/Switch-to-Triangle",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Switch to Triangle in BJJ. Step-by-step execution. Complete 
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Switch to Triangle",
-      "item": "https://bjjgraph.com/transitions/switch-to-triangle"
+      "item": "https://bjjgraph.org/Transitions/Switch-to-Triangle"
     }
   ]
 }

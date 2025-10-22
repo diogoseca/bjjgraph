@@ -44,6 +44,50 @@ application_contexts:
 tags: [bjj, concept, intermediate, strategy, offensive, proactive]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Creating Reactions | Concept",
+  "description": "Creating Reactions represents the proactive strategic skill of deliberately generating specific opponent responses through calculated threat presentation, pressure application, and tactical stimulu...",
+  "url": "https://bjjgraph.org/Concepts/Creating-Reactions",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Creating Reactions",
+      "item": "https://bjjgraph.org/Concepts/Creating-Reactions"
+    }
+  ]
+}
+</script>
+
+
 # Creating Reactions
 #bjj #concept #intermediate #strategy #offensive
 

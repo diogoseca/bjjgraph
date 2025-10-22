@@ -45,7 +45,7 @@ related_techniques: ["Osoto Gari", "Ouchi Gari", "Seoi Nage", "Harai Goshi"]
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Uchi Mata",
-  "description": "Learn how to execute Uchi Mata (Inner Thigh Throw) in Brazilian Jiu-Jitsu from Standing Position to Side Control.",
+  "description": "Learn how to execute Uchi Mata in Brazilian Jiu-Jitsu.",
   "step": [
     {
       "@type": "HowToStep",
@@ -101,10 +101,26 @@ related_techniques: ["Osoto Gari", "Ouchi Gari", "Seoi Nage", "Harai Goshi"]
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT5M"
+  "totalTime": "PT7M"
 }
 </script>
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Uchi Mata",
+  "description": "Learn Uchi Mata in BJJ. Step-by-step execution from Standing Position to Side Control. Success: Beginner 25%, Intermediate 50%, Advanced 70%.",
+  "url": "https://bjjgraph.org/Transitions/Uchi-Mata",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -114,87 +130,24 @@ related_techniques: ["Osoto Gari", "Ouchi Gari", "Seoi Nage", "Harai Goshi"]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Uchi Mata",
-      "item": "https://bjjgraph.com/transitions/uchi-mata"
+      "item": "https://bjjgraph.org/Transitions/Uchi-Mata"
     }
   ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Uchi Mata",
-  "description": "Learn Uchi Mata in BJJ. Step-by-step execution from Standing Position to Side Control. Success: Beginner 25%, Intermediate 50%, Advanced 70%.",
-  "url": "https://bjjgraph.com/transitions/uchi-mata",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What creates the throwing force in Uchi Mata?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The throwing force in Uchi Mata comes from the combination of hip rotation, upward leg sweep against the inner thigh, and pulling action with the arms. These three elements work together to lift and rotate the opponent over your hip."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When is the optimal moment to execute Uchi Mata?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The optimal moment is when the opponent is moving forward or has their weight on their toes, making them vulnerable to the forward-upward off-balancing required for Uchi Mata."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the most common mistake in Uchi Mata execution?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The most common mistake is insufficient hip penetration and rotation. Without getting your hips deep and fully turned, you cannot generate the leverage needed to lift and throw the opponent effectively."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which grips are essential for Uchi Mata?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "High collar grip and sleeve control are essential for Uchi Mata, allowing you to pull the opponent forward and upward while controlling their posture throughout the throw."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you adjust if opponent defends by stepping back?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If the opponent steps back, you can follow their movement with continued forward pressure, chain into Osoto Gari or Ouchi Gari, or use the backward movement to set up a different throw that capitalizes on their momentum."
-      }
-    }
-  ]
-}
-</script>
 
 # Uchi Mata
 #bjj #transition #takedown #judo #throw #standing #advanced

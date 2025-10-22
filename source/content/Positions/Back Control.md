@@ -34,7 +34,7 @@ description: "Master Back Control in BJJ. Complete guide covering setup, control
     {
       "@type": "HowToStep",
       "name": "Execute Triangle from Back",
-      "text": "From this position, execute Triangle from Back to transition to Triangle Control.",
+      "text": "From this position, execute Triangle from Back to transition to Triangle Choke Back.",
       "position": 4
     },
     {
@@ -46,7 +46,7 @@ description: "Master Back Control in BJJ. Complete guide covering setup, control
     {
       "@type": "HowToStep",
       "name": "Execute Crucifix Transition",
-      "text": "From this position, execute Crucifix Transition to transition to Crucifix Control.",
+      "text": "From this position, execute Crucifix Transition to transition to Crucifix Position.",
       "position": 6
     }
   ],
@@ -107,6 +107,23 @@ description: "Master Back Control in BJJ. Complete guide covering setup, control
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Back Control",
+  "description": "Master Back Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 80%, Intermediate 85%, Advanced 90%.",
+  "url": "https://bjjgraph.org/Positions/Back-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Back Control in BJJ. Complete guide covering setup, control
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Back Control",
-      "item": "https://bjjgraph.com/positions/back-control"
+      "item": "https://bjjgraph.org/Positions/Back-Control"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Back Control",
-  "description": "Master Back Control in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 80%, Intermediate 85%, Advanced 90%.",
-  "url": "https://bjjgraph.com/positions/back-control",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Back Control
 #bjj #state #dominant #control #back_control
@@ -242,7 +244,6 @@ You are positioned directly behind your opponent, with your chest pressed tightl
 - [[Crucifix]] - Specialized back control with arm isolation
 - [[Body Triangle]] - Specific back control configuration with legs
 - [[Turtle Top]] - Controlling opponent in defensive turtle position
-
 
 ## Related Positions
 

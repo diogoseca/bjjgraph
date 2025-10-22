@@ -37,6 +37,62 @@ related_positions: ["Open Guard Top", "Side Control Top", "Leg Drag Position"]
 related_techniques: ["Toreando Pass", "Leg Weave Pass", "Back Take from Leg Drag"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Leg Drag Control",
+  "description": "Learn how to execute Leg Drag Control in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish open guard top with grips on leg or pants",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Grip one leg and begin to move it across opponent's centerline",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent tries to maintain guard structure or turn to face you",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Drive leg aggressively across while moving your body to the side angle",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Secure dragged leg position, establish upper body control",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Choose between back take or side control based on opponent's reaction",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
 # Leg Drag Control
 #bjj #transition #guard_pass #leg_drag #advanced
 
@@ -65,9 +121,9 @@ From open guard top, you establish grips on the opponent's legs or pants. As the
 
 ## Common Counters
 
-- **[[Turn In Defense]]** ’ [[Guard Recovered]] (Success Rate: 45%, Conditions: opponent fast turn)
-- **[[Leg Recovery]]** ’ [[Guard Maintained]] (Success Rate: 40%, Conditions: strong leg control)
-- **[[Scramble to Knees]]** ’ [[Neutral Position]] (Success Rate: 35%, Conditions: explosive response)
+- **[[Turn In Defense]]**  [[Guard Recovered]] (Success Rate: 45%, Conditions: opponent fast turn)
+- **[[Leg Recovery]]**  [[Guard Maintained]] (Success Rate: 40%, Conditions: strong leg control)
+- **[[Scramble to Knees]]**  [[Neutral Position]] (Success Rate: 35%, Conditions: explosive response)
 
 ## Expert Insights
 

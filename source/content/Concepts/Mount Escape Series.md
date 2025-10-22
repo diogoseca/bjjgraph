@@ -48,6 +48,50 @@ application_contexts:
 tags: [bjj, concept, fundamental, escape, mount, defense]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Mount Escape Series",
+  "description": "Mount Escape Series represents the systematic approach to escaping from mount position through coordinated application of multiple escape techniques organized in logical progression based on oppone...",
+  "url": "https://bjjgraph.org/Concepts/Mount-Escape-Series",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Mount Escape Series",
+      "item": "https://bjjgraph.org/Concepts/Mount-Escape-Series"
+    }
+  ]
+}
+</script>
+
+
 # Mount Escape Series
 #bjj #concept #fundamental #escape #mount
 

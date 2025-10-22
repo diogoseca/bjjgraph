@@ -37,6 +37,106 @@ related_positions: ["Turtle Position", "Back Control", "Turtle Top"]
 related_techniques: ["Truck Entry", "Turtle to Back Control", "Crab Ride"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Matrix Back Take",
+  "description": "Learn how to execute Matrix Back Take in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish turtle top position with opponent defensive, secure far hip control with one hand, create angle by stepping to side",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Step near leg high and over opponent's back in arcing motion, begin cartwheel rotation of body",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Thread Position",
+      "text": "Thread your leg between opponent's nearside arm and their body while maintaining hip control with hand",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Rotation Completion",
+      "text": "Complete cartwheel motion by rotating your body, near shoulder approaching mat, leg threading deeper",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hook Establishment",
+      "text": "As rotation completes, hook near leg inside their thigh, bring far leg over for second hook",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Secure seatbelt grip (one arm over shoulder, one under arm), establish back control with both hooks, adjust body position for control",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Matrix Back Take",
+  "description": "Learn Matrix Back Take in BJJ. Step-by-step execution from Turtle Position to Back Control. Success: Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Matrix-Back-Take",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Matrix Back Take",
+      "item": "https://bjjgraph.org/Transitions/Matrix-Back-Take"
+    }
+  ]
+}
+</script>
+
+
 # Matrix Back Take
 #bjj #transition #back_take #turtle #advanced
 

@@ -37,6 +37,106 @@ related_positions: ["Triangle Control", "Armbar Control", "Closed Guard Bottom"]
 related_techniques: ["Triangle Choke", "Armbar from Guard", "Triangle to Omoplata"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Triangle to Armbar",
+  "description": "Learn how to execute Triangle to Armbar in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Triangle Control Assessment",
+      "text": "From triangle control position, assess opponent's defensive posture and recognize opportunity for armbar transition",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hand Positioning",
+      "text": "Secure two-on-one wrist/arm control on the trapped arm before releasing triangle configuration",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Ankle Release",
+      "text": "Unhook ankle from behind knee to release triangle lock while maintaining arm control",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Leg Pivot",
+      "text": "Swing top leg over opponent's face to opposite side, creating perpendicular angle",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Hip Rotation",
+      "text": "Pivot hips to align perpendicular to opponent's body while maintaining arm isolation",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Armbar Completion",
+      "text": "Fall back with arm controlled, elevate hips, and establish armbar control with legs pinning shoulder",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle to Armbar",
+  "description": "Learn Triangle to Armbar transition in BJJ. Step-by-step execution from Triangle Control to Armbar Control. Success: Beginner 45%, Intermediate 65%, Advanced 80%.",
+  "url": "https://bjjgraph.org/Transitions/Triangle-to-Armbar",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Triangle to Armbar",
+      "item": "https://bjjgraph.org/Transitions/Triangle-to-Armbar"
+    }
+  ]
+}
+</script>
+
+
 # Triangle to Armbar
 #bjj #transition #submission_chain #triangle #armbar #intermediate
 

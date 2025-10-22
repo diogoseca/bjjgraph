@@ -3,6 +3,8 @@ title: "Butterfly Hook Control | BJJ Position Guide | BJJ Graph"
 description: "Master Butterfly Hook Control in BJJ. Complete guide covering setup, control, sweeps, and back takes. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
 ---
 
+
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -13,33 +15,39 @@ description: "Master Butterfly Hook Control in BJJ. Complete guide covering setu
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Establish Butterfly Hooks",
-      "text": "Position your feet inside opponent's thighs to create elevation and sweeping control.",
+      "name": "Execute Butterfly Sweep",
+      "text": "From this position, execute Butterfly Sweep to transition to Mount.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Control Upper Body",
-      "text": "Maintain overhooks or underhooks to break opponent's posture and create off-balancing opportunities.",
+      "name": "Execute Hook Sweep",
+      "text": "From this position, execute Hook Sweep to transition to Side Control.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Butterfly Sweep",
-      "text": "Use hooks to elevate opponent while pulling with upper body grips to complete the sweep.",
+      "name": "Execute Arm Drag to Back",
+      "text": "From this position, execute Arm Drag to Back to transition to Back Control.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "When opponent posts out to defend sweep, transition to back control.",
+      "name": "Execute Sit-up Sweep",
+      "text": "From this position, execute Sit-up Sweep to transition to Mount.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hook Sweep",
-      "text": "Use single hook with momentum to sweep opponent to side control.",
+      "name": "Execute Elevator Sweep",
+      "text": "From this position, execute Elevator Sweep to transition to Mount.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Single Leg X Transition",
+      "text": "From this position, execute Single Leg X Transition to transition to Single Leg X Guard.",
+      "position": 6
     }
   ],
   "tool": [
@@ -51,39 +59,23 @@ description: "Master Butterfly Hook Control in BJJ. Complete guide covering setu
 }
 </script>
 
+
+
+<!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Butterfly Hook Control?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Keeping hooks too shallow allows opponent to step over and pass easily. The correction is: Insert hooks deep between opponent's legs, with toes pointing toward their hips for maximum leverage and control."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When should I use butterfly hooks vs other guards?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Use butterfly hooks when opponent has strong forward pressure and is on their knees. The hooks allow you to redirect their momentum for sweeps. Avoid against standing opponents or those who can create distance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I prevent opponent from passing my butterfly guard?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintain active hooks that constantly elevate and off-balance. Use upper body grips to break posture and prevent them from getting low. If they try to step over, immediately transition to back takes or other guards."
-      }
-    }
-  ]
+  "@type": "WebPage",
+  "name": "Butterfly Hook Control",
+  "description": "Master Butterfly Hook Control in BJJ. Complete guide covering setup, control, sweeps, and back takes. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "url": "https://bjjgraph.org/Positions/Butterfly-Hook-Control",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -93,38 +85,24 @@ description: "Master Butterfly Hook Control in BJJ. Complete guide covering setu
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Butterfly Hook Control",
-      "item": "https://bjjgraph.com/positions/butterfly-hook-control"
+      "item": "https://bjjgraph.org/Positions/Butterfly-Hook-Control"
     }
   ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Butterfly Hook Control",
-  "description": "Master Butterfly Hook Control in BJJ. Complete guide covering setup, control, sweeps, and back takes. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-  "url": "https://bjjgraph.com/positions/butterfly-hook-control",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Butterfly Hook Control
 #bjj #state #guard #bottom #butterfly

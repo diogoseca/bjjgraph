@@ -3,6 +3,7 @@ title: "Far Side Armbar | BJJ Submission Guide | BJJ Graph"
 description: "From a dominant top position such as Side Control, North-South, or Knee on Belly, you start by isolating the opponent's far arm, which is the arm furthest from your body, using your near arm to..."
 ---
 
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -10,15 +11,14 @@ description: "From a dominant top position such as Side Control, North-South, or
   "@type": "WebPage",
   "name": "Far Side Armbar",
   "description": "From a dominant top position such as Side Control, North-South, or Knee on Belly, you start by isolating the opponent's far arm, which is the arm furthest from your body, using your near arm to...",
-  "url": "https://bjjgraph.com/submissions/far-side-armbar",
+  "url": "https://bjjgraph.org/Submissions/Far-Side-Armbar",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,23 +28,24 @@ description: "From a dominant top position such as Side Control, North-South, or
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Submissions",
-      "item": "https://bjjgraph.com/submissions/"
+      "item": "https://bjjgraph.org/Submissions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Far Side Armbar",
-      "item": "https://bjjgraph.com/submissions/far-side-armbar"
+      "item": "https://bjjgraph.org/Submissions/Far-Side-Armbar"
     }
   ]
 }
 </script>
+
 
 # Far Side Armbar
 #bjj #submission #armbar #joint_lock #control

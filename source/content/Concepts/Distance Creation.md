@@ -44,6 +44,50 @@ application_contexts:
 tags: [bjj, concept, fundamental, distance, spacing, defense]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Distance Creation",
+  "description": "Distance Creation represents the fundamental strategic principle of generating and maintaining spatial separation between vulnerable body parts and opponent's attacking tools or controlling positio...",
+  "url": "https://bjjgraph.org/Concepts/Distance-Creation",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Distance Creation",
+      "item": "https://bjjgraph.org/Concepts/Distance-Creation"
+    }
+  ]
+}
+</script>
+
+
 # Distance Creation
 #bjj #concept #fundamental #distance #spacing
 

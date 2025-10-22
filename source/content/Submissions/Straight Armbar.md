@@ -92,6 +92,50 @@ author: "BJJGraph System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Straight Armbar",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. Armbar should take minimum 3-5 seconds in training. Never spike hips - progressive lift only. Competition speed only in competiti...",
+  "url": "https://bjjgraph.org/Submissions/Straight-Armbar",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Straight Armbar",
+      "item": "https://bjjgraph.org/Submissions/Straight-Armbar"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Straight Armbar is a joint lock submission targeting the elbow joint. It's a terminal state resulting in hyperextension or dislocation if held beyond tap. Safety is paramount - elbow joints are particularly vulnerable to permanent damage.

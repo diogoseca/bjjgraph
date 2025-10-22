@@ -33,6 +33,106 @@ related_positions: ["Spider Guard", "Top Position", "Mount", "Side Control"]
 related_techniques: ["Lasso Guard Sweeps", "De La Riva Sweep", "Scissor Sweep"]
 ---
 
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Spider Guard Sweeps",
+  "description": "Learn how to execute Spider Guard Sweeps in Brazilian Jiu-Jitsu.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Setup Requirements",
+      "text": "Establish spider guard with feet on biceps; secure strong sleeve grips; assess opponent's posture and base",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Initial Movement",
+      "text": "Choose sweep variation based on posture - scissor action for upright, overhead roll for forward pressure, or push-pull for square",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Opponent Response",
+      "text": "Opponent attempts to maintain posture, remove feet from biceps, or break grips",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Adaptation",
+      "text": "Adjust leg pressure and angles; maintain grip control; switch variations based on defense",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Completion",
+      "text": "Complete selected sweep; follow opponent to mat; establish top position",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Consolidation",
+      "text": "Secure mount, side control, or knee on belly; maintain control over opponent",
+      "position": 6
+    }
+  ],
+  "tool": [
+    "BJJ Gi or No-Gi attire",
+    "Training partner",
+    "Mat space"
+  ],
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Spider Guard Sweeps",
+  "description": "Learn Spider Guard Sweeps in BJJ. Multiple sweeping options from spider guard. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "url": "https://bjjgraph.org/Transitions/Spider-Guard-Sweeps",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Transitions",
+      "item": "https://bjjgraph.org/Transitions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Spider Guard Sweeps",
+      "item": "https://bjjgraph.org/Transitions/Spider-Guard-Sweeps"
+    }
+  ]
+}
+</script>
+
+
 # Spider Guard Sweeps
 #bjj #transition #sweep #spider_guard #gi
 

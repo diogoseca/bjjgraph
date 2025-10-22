@@ -94,6 +94,50 @@ author: "BJJGraph Agent System"
 version: "2.0"
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Armbar from Mount",
+  "description": "Q: \"How fast should pressure be applied?\"\nA: \"SLOW and progressive. Armbar should take minimum 3-5 seconds in training. Arm extends slowly - never jerk or spike the joint. The transition from mount...",
+  "url": "https://bjjgraph.org/Submissions/Armbar-from-Mount",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Submissions",
+      "item": "https://bjjgraph.org/Submissions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Armbar from Mount",
+      "item": "https://bjjgraph.org/Submissions/Armbar-from-Mount"
+    }
+  ]
+}
+</script>
+
+
 ## LLM Context: Submission Data Structure
 
 **Purpose**: Armbar from Mount is a fundamental joint lock submission attacking the elbow from a dominant top position. It's a terminal state resulting in joint damage if held after tap. Safety is paramount - this technique can cause elbow dislocation in under 2 seconds with full pressure. The transition from mount to armbar requires careful control to prevent both the submission partner from falling and premature application during setup.

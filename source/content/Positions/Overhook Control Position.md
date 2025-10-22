@@ -3,6 +3,8 @@ title: "Overhook Control Position | BJJ Position Guide | BJJ Graph"
 description: "Master Overhook Control Position in BJJ. Complete guide covering whizzer control, submissions, and defensive strategies. Success rates: Beginner 42%, Intermediate 58%, Advanced 72%."
 ---
 
+
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -13,33 +15,21 @@ description: "Master Overhook Control Position in BJJ. Complete guide covering w
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura Lock",
-      "text": "From this position, execute Kimura Lock to transition to Kimura Control Position.",
+      "name": "Execute Limp Arm Escape",
+      "text": "From Overhook Control Position, execute Limp Arm Escape to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Darce Choke",
-      "text": "From this position, execute Darce Choke to transition to Won by Submission.",
+      "name": "Execute Circle Away",
+      "text": "From Overhook Control Position, execute Circle Away to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, execute Back Take to transition to Back Control.",
+      "name": "Execute Create Separation",
+      "text": "From Overhook Control Position, execute Create Separation to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Arm Triangle",
-      "text": "From this position, execute Arm Triangle to transition to Arm Triangle Control.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Crucifix Entry",
-      "text": "From this position, execute Crucifix Entry to transition to Crucifix Position.",
-      "position": 5
     }
   ],
   "tool": [
@@ -48,6 +38,40 @@ description: "Master Overhook Control Position in BJJ. Complete guide covering w
     "Mat space"
   ],
   "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Overhook Control Position?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Tight Connection**: Keep armpit sealed tightly over opponent's shoulder, no gap"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Overhook Control Position",
+  "description": "Master Overhook Control Position in BJJ. Complete guide covering whizzer control, submissions, and defensive strategies. Success rates: Beginner 42%, Intermediate 58%, Advanced 72%.",
+  "url": "https://bjjgraph.org/Positions/Overhook-Control-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -59,38 +83,24 @@ description: "Master Overhook Control Position in BJJ. Complete guide covering w
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Overhook Control Position",
-      "item": "https://bjjgraph.com/positions/overhook-control-position"
+      "item": "https://bjjgraph.org/Positions/Overhook-Control-Position"
     }
   ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Overhook Control Position",
-  "description": "Master Overhook Control Position in BJJ. Complete guide covering whizzer control, submissions, and defensive strategies. Success rates: Beginner 42%, Intermediate 58%, Advanced 72%.",
-  "url": "https://bjjgraph.com/positions/overhook-control-position",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Overhook Control Position
 #bjj #state #control #overhook #whizzer

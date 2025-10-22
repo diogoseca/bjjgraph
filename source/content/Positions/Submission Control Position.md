@@ -3,6 +3,8 @@ title: "Submission Control Position | BJJ Position Guide | BJJ Graph"
 description: "Master Submission Control Position in BJJ. Complete guide covering submission holds, finishing mechanics, and control maintenance. Success rates: Beginner 65%, Intermediate 80%, Advanced 92%."
 ---
 
+
+
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
@@ -13,33 +15,21 @@ description: "Master Submission Control Position in BJJ. Complete guide covering
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Submission Finish",
-      "text": "From this position, execute Submission Finish to transition to Won by Submission.",
+      "name": "Execute Tap Immediately",
+      "text": "From Submission Control Position, execute Tap Immediately to advance your position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Adjust Control",
-      "text": "From this position, execute Adjust Control to perfect submission mechanics.",
+      "name": "Execute Reset Training",
+      "text": "From Submission Control Position, execute Reset Training to advance your position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Transition to Alternative Submission",
-      "text": "From this position, execute Transition to Alternative Submission if primary is defended.",
+      "name": "Execute Defend Submission",
+      "text": "From Submission Control Position, execute Defend Submission to advance your position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Position Maintenance",
-      "text": "From this position, execute Position Maintenance against escape attempts.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Return to Dominant Position",
-      "text": "From this position, execute Return to Dominant Position if submission fails.",
-      "position": 5
     }
   ],
   "tool": [
@@ -48,6 +38,40 @@ description: "Master Submission Control Position in BJJ. Complete guide covering
     "Mat space"
   ],
   "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a key principle of Submission Control Position?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "**Mechanical Advantage**: Body positioning creates leverage that overwhelms strength"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Submission Control Position",
+  "description": "Master Submission Control Position in BJJ. Complete guide covering submission holds, finishing mechanics, and control maintenance. Success rates: Beginner 65%, Intermediate 80%, Advanced 92%.",
+  "url": "https://bjjgraph.org/Positions/Submission-Control-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -59,38 +83,24 @@ description: "Master Submission Control Position in BJJ. Complete guide covering
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Submission Control Position",
-      "item": "https://bjjgraph.com/positions/submission-control-position"
+      "item": "https://bjjgraph.org/Positions/Submission-Control-Position"
     }
   ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Submission Control Position",
-  "description": "Master Submission Control Position in BJJ. Complete guide covering submission holds, finishing mechanics, and control maintenance. Success rates: Beginner 65%, Intermediate 80%, Advanced 92%.",
-  "url": "https://bjjgraph.com/positions/submission-control-position",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Submission Control Position
 #bjj #state #submission #control #finishing

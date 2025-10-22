@@ -79,16 +79,14 @@ description: "Learn Butterfly Sweep in BJJ. Step-by-step execution from Butterfl
   "@type": "WebPage",
   "name": "Butterfly Sweep",
   "description": "Learn Butterfly Sweep in BJJ. Step-by-step execution from Butterfly Guard to Top Position. Complete technique guide with expert insights.",
-  "url": "https://bjjgraph.com/transitions/butterfly-sweep",
+  "url": "https://bjjgraph.org/Transitions/Butterfly-Sweep",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,19 +96,19 @@ description: "Learn Butterfly Sweep in BJJ. Step-by-step execution from Butterfl
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Butterfly Sweep",
-      "item": "https://bjjgraph.com/transitions/butterfly-sweep"
+      "item": "https://bjjgraph.org/Transitions/Butterfly-Sweep"
     }
   ]
 }
@@ -312,7 +310,6 @@ The Butterfly Sweep has proven consistently effective across competition context
 - Self-defense relevance: Creates powerful positional change with minimal risk.
 - Lower belt competition: High percentage technique with straightforward mechanics.
 - Elite competition: Continues to prove effective at highest levels with precision.
-
 
 ## Related Techniques
 

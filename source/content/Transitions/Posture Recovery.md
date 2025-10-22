@@ -41,7 +41,7 @@ related_techniques: ["Base Widening", "Grip Break", "Defensive Frame"]
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Posture Recovery",
-  "description": "Learn how to execute Posture Recovery in Brazilian Jiu-Jitsu to restore upright position from broken posture.",
+  "description": "Learn how to execute Posture Recovery in Brazilian Jiu-Jitsu from Half Guard Bottom to Half Guard Pass Position. Success: Beginner 55%, Intermediate 70%, Advanced 85%.",
   "step": [
     {
       "@type": "HowToStep",
@@ -85,7 +85,24 @@ related_techniques: ["Base Widening", "Grip Break", "Defensive Frame"]
     "Training partner",
     "Mat space"
   ],
-  "totalTime": "PT4M"
+  "totalTime": "PT5M"
+}
+</script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Posture Recovery",
+  "description": "Learn Posture Recovery in BJJ. Defensive technique for regaining upright position from broken posture. Success: Beginner 55%, Intermediate 70%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Transitions/Posture-Recovery",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -97,39 +114,24 @@ related_techniques: ["Base Widening", "Grip Break", "Defensive Frame"]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Transitions",
-      "item": "https://bjjgraph.com/transitions/"
+      "item": "https://bjjgraph.org/Transitions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Posture Recovery",
-      "item": "https://bjjgraph.com/transitions/posture-recovery"
+      "item": "https://bjjgraph.org/Transitions/Posture-Recovery"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Posture Recovery",
-  "description": "Learn Posture Recovery in BJJ. Defensive technique for regaining upright position from broken posture. Success: Beginner 55%, Intermediate 70%, Advanced 85%.",
-  "url": "https://bjjgraph.com/transitions/posture-recovery",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Posture Recovery
 #bjj #transition #defense #guard #posture #escape

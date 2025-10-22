@@ -107,6 +107,23 @@ description: "Master Crucifix Position in BJJ. Complete guide covering setup, co
   ]
 }
 </script>
+
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Crucifix Position",
+  "description": "Master Crucifix Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 60%, Intermediate 75%, Advanced 85%.",
+  "url": "https://bjjgraph.org/Positions/Crucifix-Position",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -116,39 +133,24 @@ description: "Master Crucifix Position in BJJ. Complete guide covering setup, co
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/Positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Crucifix Position",
-      "item": "https://bjjgraph.com/positions/crucifix-position"
+      "item": "https://bjjgraph.org/Positions/Crucifix-Position"
     }
   ]
 }
 </script>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Crucifix Position",
-  "description": "Master Crucifix Position in BJJ. Complete guide covering setup, control, escapes, and transitions. Success rates: Beginner 60%, Intermediate 75%, Advanced 85%.",
-  "url": "https://bjjgraph.com/positions/crucifix-position",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
-  }
-}
-</script>
 
 # Crucifix Position
 #bjj #state #control #submission #crucifix
@@ -246,7 +248,6 @@ You are positioned perpendicular to your opponent, forming a cross-like alignmen
 - [[North-South]] - Related perpendicular control position
 - [[Triangle Control]] - Related submission control
 - [[Arm Triangle]] - Potential transitional submission
-
 
 ## Related Positions
 

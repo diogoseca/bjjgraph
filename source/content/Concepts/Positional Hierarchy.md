@@ -48,6 +48,50 @@ application_contexts:
 tags: [bjj, concept, fundamental, strategy, positioning, hierarchy]
 ---
 
+
+<!-- Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Positional Hierarchy",
+  "description": "Positional Hierarchy represents the fundamental strategic concept of ranking BJJ positions by their relative value based on control capability, submission potential, escape difficulty, and competit...",
+  "url": "https://bjjgraph.org/Concepts/Positional-Hierarchy",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Concepts",
+      "item": "https://bjjgraph.org/Concepts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Positional Hierarchy",
+      "item": "https://bjjgraph.org/Concepts/Positional-Hierarchy"
+    }
+  ]
+}
+</script>
+
+
 # Positional Hierarchy
 #bjj #concept #fundamental #strategy #positioning
 
