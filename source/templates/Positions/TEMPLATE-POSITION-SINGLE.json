@@ -1,0 +1,304 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BJJ Position Single Template - Neutral Position",
+  "description": "Template for neutral/asymmetric positions with NO clear top/bottom distinction (Standing, Clinch, Scramble). Generates single comprehensive page.",
+
+  "metadata": {
+    "state_id": "S001",
+    "title": "Standing Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master standing position in BJJ. Complete guide to grips, takedowns, guard pulls, and maintaining balance with offensive and defensive strategies.",
+    "tags": ["bjj", "position", "standing", "neutral", "takedowns"]
+  },
+
+  "overview": "Standing position is the neutral starting state in Brazilian Jiu-Jitsu where both practitioners are on their feet and engagement begins. From standing, players can attempt takedowns, execute guard pulls, or work for advantageous grips and positioning. While BJJ is primarily known for ground fighting, understanding standing position and takedown defense is essential for complete grappling skill. The standing phase determines initial positioning and can set the tone for the entire match. Both gi and no-gi standing positions require distinct grip and strategy considerations. (400+ words minimum)",
+
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Neutral",
+    "risk_level": "Low",
+    "energy_cost": "Low",
+    "time_sustainability": "Long"
+  },
+
+  "state_invariants": [
+    "Both practitioners on feet in athletic stance with balanced posture",
+    "Engagement through grips (gi) or body control (no-gi) being established",
+    "Equal opportunity for both players to initiate attacks or defensive positioning"
+  ],
+
+  "prerequisites": [
+    "Basic athletic stance and balance",
+    "Understanding of grip fighting principles",
+    "Awareness of takedown and guard pull mechanics",
+    "Ability to maintain posture under pressure"
+  ],
+
+  "key_principles": [
+    "Maintain good posture with bent knees and low center of gravity",
+    "Establish dominant grips before attempting takedowns or pulls",
+    "Control distance and angles to set up attacks",
+    "Stay mobile and avoid remaining static in one position",
+    "Use grip fighting to deny opponent's attacks while setting up your own",
+    "Protect against sudden takedown attempts with defensive awareness"
+  ],
+
+  "offensive_transitions": [
+    {
+      "technique": "Single Leg Takedown",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Double Leg Takedown",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Guard Pull to Closed Guard",
+      "target_position": "Closed Guard Bottom",
+      "success_rates": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "Foot Sweep",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Hip Throw (O-Goshi)",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 45
+      }
+    },
+    {
+      "technique": "Arm Drag to Back",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Snap Down to Front Headlock",
+      "target_position": "Front Headlock Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    }
+  ],
+
+  "defensive_responses": [
+    {
+      "technique": "Sprawl Defense",
+      "target_position": "Front Headlock Top",
+      "success_rate": 55
+    },
+    {
+      "technique": "Grip Break",
+      "target_position": "Standing Position",
+      "success_rate": 60
+    },
+    {
+      "technique": "Counter Takedown",
+      "target_position": "Top Position",
+      "success_rate": 40
+    },
+    {
+      "technique": "Pull Guard on Takedown Attempt",
+      "target_position": "Guard Bottom",
+      "success_rate": 65
+    }
+  ],
+
+  "counter_transitions": [
+    {
+      "technique": "Sprawl to Front Headlock",
+      "target_position": "Front Headlock Top",
+      "trigger": "When opponent shoots for legs, sprawl and secure front headlock control"
+    },
+    {
+      "technique": "Counter Single Leg",
+      "target_position": "Top Position",
+      "trigger": "When opponent attacks single leg, use whizzer and drive forward"
+    },
+    {
+      "technique": "Pull Guard on Failed Defense",
+      "target_position": "Guard Bottom",
+      "trigger": "If takedown defense failing, immediately pull guard to avoid being taken down"
+    }
+  ],
+
+  "decision_tree": [
+    {
+      "condition": "If opponent establishes dominant collar and sleeve grips (gi)",
+      "actions": [
+        {
+          "technique": "Break Grips and Re-Establish",
+          "target": "Standing Position",
+          "probability": 55
+        },
+        {
+          "technique": "Pull Guard Before Sweep",
+          "target": "Closed Guard Bottom",
+          "probability": 70
+        }
+      ]
+    },
+    {
+      "condition": "If opponent shoots for double leg takedown",
+      "actions": [
+        {
+          "technique": "Sprawl Defense",
+          "target": "Front Headlock Top",
+          "probability": 60
+        },
+        {
+          "technique": "Pull Guard",
+          "target": "Guard Bottom",
+          "probability": 65
+        }
+      ]
+    },
+    {
+      "condition": "If both players are neutral with no dominant grips",
+      "actions": [
+        {
+          "technique": "Single Leg Entry",
+          "target": "Top Position",
+          "probability": 45
+        },
+        {
+          "technique": "Arm Drag to Back",
+          "target": "Back Control Top",
+          "probability": 50
+        },
+        {
+          "technique": "Planned Guard Pull",
+          "target": "Guard Bottom",
+          "probability": 75
+        }
+      ]
+    }
+  ],
+
+  "common_errors": [
+    {
+      "error": "Standing completely upright with straight legs",
+      "consequence": "Easy to be taken down or swept",
+      "correction": "Maintain athletic stance with bent knees and low hips"
+    },
+    {
+      "error": "Allowing opponent to establish dominant grips without fighting",
+      "consequence": "Opponent controls pace and initiates attacks freely",
+      "correction": "Constantly fight for grip dominance and break disadvantageous grips"
+    },
+    {
+      "error": "Remaining static in one position",
+      "consequence": "Predictable and easy to attack",
+      "correction": "Stay mobile, circle, and change angles constantly"
+    },
+    {
+      "error": "Shooting takedowns without setting up or grip fighting first",
+      "consequence": "Low success rate and exposure to counters",
+      "correction": "Establish grips and create reactions before shooting"
+    },
+    {
+      "error": "Not protecting against sudden guard pulls",
+      "consequence": "Falling into bad positions when opponent pulls guard",
+      "correction": "Maintain posture and be ready for guard pull attempts"
+    }
+  ],
+
+  "training_drills": [
+    {
+      "name": "Grip Fighting Drill",
+      "description": "Practice establishing and breaking grips with partner. Focus on dominant grip combinations and denying opponent's grips.",
+      "duration": "3 minutes"
+    },
+    {
+      "name": "Takedown Entry Drill",
+      "description": "Practice level change and penetration step for single and double leg entries. Focus on mechanics without finishing.",
+      "duration": "5 minutes"
+    },
+    {
+      "name": "Sprawl Reaction Drill",
+      "description": "Partner shoots randomly while you practice sprawl defense and counter attacks.",
+      "duration": "2 minutes"
+    }
+  ],
+
+  "optimal_submission_paths": [
+    {
+      "name": "Takedown to dominant position",
+      "path": "Standing → Single Leg → Top Position → Side Control → Mount"
+    },
+    {
+      "name": "Guard pull to submission",
+      "path": "Standing → Guard Pull → Closed Guard → Sweep → Mount → Submission"
+    },
+    {
+      "name": "Snap down to submission",
+      "path": "Standing → Snap Down → Front Headlock → Guillotine or D'arce → Submission"
+    },
+    {
+      "name": "Back take from standing",
+      "path": "Standing → Arm Drag → Back Control → Rear Naked Choke → Submission"
+    }
+  ],
+
+  "related_content": [
+    {"name": "Closed Guard Bottom", "relationship": "Common destination via guard pull"},
+    {"name": "Front Headlock Top", "relationship": "Common destination via snap down"},
+    {"name": "Top Position", "relationship": "Destination after successful takedown"},
+    {"name": "Clinch Position", "relationship": "Standing position with close contact"}
+  ],
+
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 70,
+      "intermediate": 75,
+      "advanced": 80,
+      "description": "Percentage of time maintaining standing without being taken down"
+    },
+    "advancement_probability": {
+      "beginner": 40,
+      "intermediate": 55,
+      "advanced": 70,
+      "description": "Probability of successfully transitioning to advantageous position"
+    },
+    "submission_probability": {
+      "beginner": 5,
+      "intermediate": 10,
+      "advanced": 15,
+      "description": "Probability of finishing directly from standing (rare - via standing submissions)"
+    },
+    "average_time": "30-90 seconds in competitive BJJ (varies significantly by ruleset and strategy)"
+  },
+
+  "expert_insights": {
+    "danaher": "The standing phase in BJJ is often neglected but sets the foundation for everything that follows. Your grip fighting and positioning here determine whether you start on top or bottom, which has massive implications for the rest of the match. Develop a systematic approach to standing - either become excellent at takedowns or become very good at controlled guard pulls that put you in advantageous guard positions immediately.",
+    "gordon_ryan": "In no-gi, I prefer to establish wrist control and use arm drags or front headlock setups rather than traditional wrestling takedowns. The key is not expending huge energy on takedowns when you can use technique to get to advantageous positions. If someone is a better wrestler, I'll pull guard to my strongest position and work from there. Know your strengths.",
+    "eddie_bravo": "10th Planet doesn't focus heavily on takedowns - we're guard pullers by design. I teach students to pull to rubber guard or lockdown immediately. If you have a good closed guard or rubber guard game, why risk getting taken down? Pull to your strength, establish control, and start working your game. The standup phase should be brief and strategic."
+  }
+}

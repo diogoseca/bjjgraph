@@ -11,7 +11,7 @@
       "target_link": "Side Control Top",
       "suggested_fix": "side control",
       "status": "fixed",
-      "file_path": "/source/content/Concepts/Head Control.md",
+      "file_path": "/source/content/Principles/Head Control.md",
       "line_number": 101,
       "confidence": 85.71
     },
@@ -20,7 +20,7 @@
       "target_link": "Turtle Position Top",
       "suggested_fix": "turtle position",
       "status": "fixed",
-      "file_path": "/source/content/Concepts/Head Control.md",
+      "file_path": "/source/content/Principles/Head Control.md",
       "line_number": 104,
       "confidence": 88.24
     },
@@ -268,7 +268,7 @@
     }
   ],
   "files_modified": [
-    "/source/content/Concepts/Head Control.md",
+    "/source/content/Principles/Head Control.md",
     "/source/content/Submissions/Heel Hook.md"
   ],
   "validation_notes": [

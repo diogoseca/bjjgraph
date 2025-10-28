@@ -13,7 +13,7 @@
       "suggested_fix": "spider guard",
       "status": "skipped",
       "message": "Link [[Spider Guard Top]] not found in file",
-      "file_path": "/source/content/Concepts/Guard Passing Principles.md"
+      "file_path": "/source/content/Principles/Guard Passing Principles.md"
     },
     {
       "source_file": "Guard Position",

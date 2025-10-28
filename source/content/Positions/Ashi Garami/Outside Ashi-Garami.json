@@ -1,0 +1,739 @@
+{
+  "metadata": {
+    "title": "Outside Ashi Garami Bottom | BJJ Position Guide | BJJ Graph",
+    "description": "Master Outside Ashi Garami Bottom in BJJ. Complete guide covering leg entanglement control, heel hooks, and transitions. Success rates: 30-65%.",
+    "state_id": "S075",
+    "tags": [
+      "bjj",
+      "position",
+      "leg-entanglement",
+      "bottom",
+      "advanced",
+      "no-gi",
+      "outside-ashi"
+    ],
+    "parent_variant": "Ashi Garami",
+    "sibling_variants": [
+      "Ashi Garami Top",
+      "Inside Ashi-Garami Bottom",
+      "Inside Ashi-Garami Top",
+      "Cross Ashi-Garami Bottom",
+      "Cross Ashi-Garami Top"
+    ]
+  },
+  "overview": "Outside Ashi Garami Bottom is a leg entanglement position where you control your opponent's right leg from the outside while on your back or side, with your legs creating a figure-4 configuration that isolates and controls their leg. This position is foundational in modern leg lock systems, particularly in no-gi and submission-only formats, offering multiple heel hook and ankle lock opportunities.\n\nThe position is characterized by your outside leg (left leg) crossing over their thigh while your inside leg (right leg) triangles underneath their knee, creating a locked configuration. Your upper body is typically perpendicular or angled to your opponent, with grips controlling their leg and preventing their hip rotation.\n\nFrom this position, the practitioner has access to outside heel hooks, straight ankle locks, and transitions to more dominant leg entanglements. The position represents a neutral starting point in the leg entanglement game where both practitioners are working to improve their position or finish submissions. Understanding outside ashi is essential for modern no-gi competition, as it serves as the gateway to more advanced leg lock positions like saddle and inside ashi.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+  "state_invariants": [
+    "Your legs form figure-4 around opponent's right leg with left leg crossing over their thigh and right leg hooking underneath their knee, creating a tight triangular lock that isolates the limb",
+    "Hip angle maintained perpendicular or diagonal to opponent (45-90 degrees), positioning your torso facing toward their trapped leg to maximize leverage for submissions and control",
+    "Opponent's trapped leg controlled and isolated with both upper body grips preventing hip rotation - typically one hand controlling heel/foot and other controlling knee/thigh to lock their leg in place",
+    "Your right foot actively pulls back toward your buttocks to tighten the figure-4 configuration, eliminating all space between your legs and their trapped leg"
+  ],
+  "prerequisites": [
+    "Understanding of leg entanglement mechanics and risks, including knowledge of when positions become dangerous and proper tapping protocols",
+    "Knowledge of heel hook anatomy and safety protocols, specifically understanding the rotational nature of heel hooks and their potential for rapid injury",
+    "Experience with inside ashi garami or basic leg lock positions to understand fundamental leg control concepts before attempting outside ashi",
+    "Training in leg lock-legal environments (no-gi, submission-only, ADCC rules) where heel hooks are permitted and training partners understand risks",
+    "Proper instruction from qualified instructor experienced in modern leg lock systems and safety awareness"
+  ],
+  "key_principles": [
+    "Leg triangle must be tight with no space between your legs and opponent's leg - squeeze constantly and adjust configuration to eliminate gaps",
+    "Hip angle is critical - maintain perpendicular or diagonal angle (45-90 degrees) to opponent to create optimal leverage for submissions and prevent them from stacking",
+    "Control opponent's hip rotation by preventing external rotation of their knee - use hand grips on knee/thigh to block their escape attempts",
+    "Upper body grips dictate attacks - heel control enables heel hooks, ankle control enables ankle locks, knee control prevents escapes",
+    "Active legs create control - squeeze figure-4 configuration constantly, adjust pressure based on opponent movement, never remain static",
+    "Threaten submissions to prevent escapes - constant submission pressure keeps opponent defensive and limits their ability to work escapes",
+    "Transition mindset - view outside ashi as entry position to more dominant entanglements rather than primary finishing position"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Outside Heel Hook",
+      "target_position": "Submission Position Generic Bottom",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Straight Ankle Lock",
+      "target_position": "Straight Ankle Lock Control Bottom",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Saddle Entry from Top",
+      "target_position": "Saddle Position Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Inside Ashi Entry",
+      "target_position": "Inside Ashi-Garami Bottom",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Transition to Cross Ashi",
+      "target_position": "Cross Ashi-Garami Bottom",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "50-50 Entry from Standing",
+      "target_position": "50-50 Guard Bottom",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Kneebar Setup",
+      "target_position": "Kneebar Control Bottom",
+      "success_rates": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 45
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Ashi Garami Escape",
+      "target_position": "Neutral Starting Position",
+      "success_rate": 45
+    },
+    {
+      "technique": "Knee Extraction",
+      "target_position": "Top Position",
+      "success_rate": 40
+    },
+    {
+      "technique": "Standing Escape",
+      "target_position": "Standing Position",
+      "success_rate": 35
+    },
+    {
+      "technique": "Counter Entry to Inside Ashi",
+      "target_position": "Inside Ashi-Garami Top",
+      "success_rate": 30
+    },
+    {
+      "technique": "Saddle Defense",
+      "target_position": "Neutral Starting Position",
+      "success_rate": 25
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Inside Ashi Entry",
+      "target_position": "Inside Ashi-Garami Bottom",
+      "trigger": "Opponent attempts to rotate hip externally to escape"
+    },
+    {
+      "technique": "Saddle Entry from Top",
+      "target_position": "Saddle Position Bottom",
+      "trigger": "Opponent leans back or attempts to stand creating space"
+    },
+    {
+      "technique": "Kneebar Setup",
+      "target_position": "Kneebar Control Bottom",
+      "trigger": "Opponent pulls knee back aggressively or attempts leg extraction"
+    },
+    {
+      "technique": "Outside Heel Hook",
+      "target_position": "Submission Position Generic Bottom",
+      "trigger": "Opponent remains static or posts hands to prevent being pulled down"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent attempts to rotate hip externally (turning knee outward) to escape",
+      "actions": [
+        {
+          "technique": "Inside Ashi Entry",
+          "target": "Inside Ashi-Garami Bottom",
+          "probability": 60
+        },
+        {
+          "technique": "Outside Heel Hook",
+          "target": "Submission Position Generic Bottom",
+          "probability": 40
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent leans back or attempts to stand creating distance",
+      "actions": [
+        {
+          "technique": "Saddle Entry from Top",
+          "target": "Saddle Position Bottom",
+          "probability": 65
+        },
+        {
+          "technique": "Transition to Cross Ashi",
+          "target": "Cross Ashi-Garami Bottom",
+          "probability": 35
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent remains static with leg trapped",
+      "actions": [
+        {
+          "technique": "Straight Ankle Lock",
+          "target": "Straight Ankle Lock Control Bottom",
+          "probability": 50
+        },
+        {
+          "technique": "Outside Heel Hook",
+          "target": "Submission Position Generic Bottom",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent drives forward attempting to stack or smash",
+      "actions": [
+        {
+          "technique": "Inside Ashi Entry",
+          "target": "Inside Ashi-Garami Bottom",
+          "probability": 55
+        },
+        {
+          "technique": "Kneebar Setup",
+          "target": "Kneebar Control Bottom",
+          "probability": 45
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Loose leg triangle with space between legs and opponent's leg",
+      "consequence": "Opponent can extract their leg or rotate hip to escape, position becomes unstable and ineffective for both control and submissions",
+      "correction": "Squeeze legs together tightly, pull right foot back toward buttocks to tighten figure-4, eliminate all space by actively adjusting leg configuration"
+    },
+    {
+      "error": "Flat body position without proper hip angle to opponent",
+      "consequence": "Reduces leverage for submissions, makes it easier for opponent to stack or pass over, limits effectiveness of heel hook and ankle lock mechanics",
+      "correction": "Maintain perpendicular or diagonal angle (45-90 degrees) to opponent, angle torso toward their trapped leg, adjust hip position to face their leg"
+    },
+    {
+      "error": "Failing to control opponent's hip rotation with upper body grips",
+      "consequence": "Opponent can externally rotate their knee and hip to escape leg entanglement, renders submissions ineffective as their leg rotates away",
+      "correction": "Use hand grip on opponent's knee or thigh to block external rotation, second hand controls heel/ankle for submission setup, maintain both grips simultaneously"
+    },
+    {
+      "error": "Static position without submission threats or transitions",
+      "consequence": "Opponent has time to work systematic escape, position becomes stalemate without offensive pressure, allows opponent to develop escape strategy",
+      "correction": "Constantly threaten submissions (heel hook, ankle lock) to keep opponent defensive, flow between submission attempts and positional improvements, never remain static"
+    },
+    {
+      "error": "Attempting to finish outside heel hook without proper hip angle or leg configuration",
+      "consequence": "Submission lacks leverage and power, risks opponent escaping or countering, can injure opponent accidentally with improper mechanics",
+      "correction": "Ensure tight figure-4 first, establish perpendicular hip angle, secure heel grip properly, rotate smoothly rather than explosively, tap early in training"
+    },
+    {
+      "error": "Ignoring opponent's free leg and allowing them to establish base",
+      "consequence": "Opponent can post with free leg to stand or create angles for escape, reduces control effectiveness, allows opponent to pressure forward",
+      "correction": "Monitor opponent's free leg positioning, adjust body angle to prevent strong posting, use leg configuration adjustments to nullify their base attempts"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Leg Configuration Isolation Drill",
+      "description": "Partner's leg is stationary, practice establishing tight figure-4 from various starting positions (seated, lying, on side), focus on eliminating space and achieving proper perpendicular angle, 10 repetitions each side",
+      "duration": "5 minutes per side"
+    },
+    {
+      "name": "Hip Control Maintenance Drill",
+      "description": "Partner attempts to rotate hip externally (turning knee outward) with progressive resistance levels (25%, 50%, 75%), practice blocking rotation with hand grips on knee/thigh and body position, develop sensitivity to hip movement and escape attempts",
+      "duration": "5 minutes per resistance level"
+    },
+    {
+      "name": "Submission Threat Flow Drill",
+      "description": "From established outside ashi, flow between outside heel hook and straight ankle lock setups without finishing pressure, partner stationary then slowly moving, build pattern recognition for which submission is available based on leg position and opponent reactions",
+      "duration": "10 minutes continuous flow"
+    },
+    {
+      "name": "Positional Sparring from Outside Ashi",
+      "description": "Start in established outside ashi garami, bottom player works to maintain position and advance to saddle or inside ashi, top player works to escape, reset when escape achieved or position advanced, 3-minute rounds",
+      "duration": "3 minutes per round, 5 rounds"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Direct Outside Heel Hook Path",
+      "path": "Outside Ashi-Garami Bottom → Outside Heel Hook finish (if opponent remains static)"
+    },
+    {
+      "name": "Saddle Advancement Path (Highest Percentage)",
+      "path": "Outside Ashi-Garami Bottom → Saddle Position Bottom → Inside Heel Hook finish"
+    },
+    {
+      "name": "Inside Ashi Transition Path",
+      "path": "Outside Ashi-Garami Bottom → Inside Ashi-Garami Bottom → Straight Ankle Lock or Heel Hook finish"
+    },
+    {
+      "name": "Cross Ashi System Path",
+      "path": "Outside Ashi-Garami Bottom → Cross Ashi-Garami Bottom → Toe Hold or Heel Hook finish"
+    },
+    {
+      "name": "Kneebar Counter Path",
+      "path": "Outside Ashi-Garami Bottom → Kneebar Control Bottom (when opponent extends leg) → Kneebar finish"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Inside Ashi-Garami Bottom",
+      "relationship": "More dominant leg entanglement variation with higher finish rate"
+    },
+    {
+      "name": "Saddle Position Bottom",
+      "relationship": "Primary advancement target from outside ashi"
+    },
+    {
+      "name": "Cross Ashi-Garami Bottom",
+      "relationship": "Perpendicular variation offering different submission angles"
+    },
+    {
+      "name": "50-50 Guard Bottom",
+      "relationship": "Alternative leg entanglement with mutual control"
+    },
+    {
+      "name": "Ashi Garami Top",
+      "relationship": "Top perspective of same leg entanglement system"
+    },
+    {
+      "name": "Outside Heel Hook",
+      "relationship": "Primary submission from this position"
+    },
+    {
+      "name": "Straight Ankle Lock",
+      "relationship": "Alternative submission targeting ankle joint"
+    },
+    {
+      "name": "Ashi Garami Escape",
+      "relationship": "Opponent's primary escape sequence to understand"
+    },
+    {
+      "name": "Single Leg X Guard Bottom",
+      "relationship": "Related leg control position with different angles"
+    },
+    {
+      "name": "Danaher Leg Lock System",
+      "relationship": "Systematic approach to leg entanglement hierarchy"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "advancement_probability": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "submission_probability": {
+      "beginner": 20,
+      "intermediate": 35,
+      "advanced": 50
+    },
+    "average_time": "30-60 seconds before transition or escape"
+  },
+  "expert_insights": {
+    "danaher": "Outside ashi garami represents the entry point to my leg lock system hierarchy, teaching fundamental concepts of hip control, leg configuration mechanics, and submission threat management. The position should never be viewed as a primary finishing position but rather as a transitional gateway toward more dominant configurations like saddle or inside ashi. The key principle is 'legs follow the hips' - if you control your opponent's hip rotation first through proper hand positioning on their knee and thigh, their leg positioning becomes controllable. Beginners often make the critical error of chasing immediate submissions from outside ashi rather than using submission threats strategically to prevent escapes while advancing position. The outside heel hook from this position, while mechanically possible, has significantly lower percentage success compared to advancing to saddle first. Focus on creating a systematic hierarchy: establish outside ashi, threaten outside heel hook to freeze opponent, read their defensive reaction, then transition to inside ashi or saddle based on how they defend.",
+    "gordon_ryan": "In competition, I use outside ashi extremely aggressively as an entry position after leg drag passes or when pulling guard, but I rarely attempt to finish from it. The position's value lies in its ability to immediately threaten submissions which forces opponents into defensive mode, buying time to advance to saddle where my actual finishing percentage is dramatically higher. Against high-level opponents, staying in outside ashi too long is dangerous because experienced grapplers know the escape mechanics and can systematically work to external rotation. My approach is to threaten the outside heel hook immediately upon entry - this freezes most opponents for 2-3 seconds, which is enough time to begin transitioning to saddle. If they defend the heel hook by turning their knee inward, that's the perfect reaction to enter inside ashi. The key is speed and aggression - slow, methodical outside ashi play allows opponents to establish defensive grips and postures. Modern competition has shown that outside ashi is most effective as a 5-10 second transitional position rather than a place to spend significant time.",
+    "eddie_bravo": "While 10th Planet's traditional focus has been rubber guard and back control systems, we've integrated modern leg entanglement positions as no-gi competition has evolved, particularly for advanced students competing in EBI or submission-only formats. Outside ashi fits into our system as an entry from failed lockdown half guard attempts or when electric chair setups are defended. The critical awareness for our students is understanding tournament rule sets - many IBJJF gi competitions still restrict heel hooks, so practitioners must be able to switch between heel hook threats and straight ankle locks based on context. What I emphasize is the creativity aspect - outside ashi creates unique angles for submissions that aren't available from top positions, and understanding this leg entanglement game opens up entirely new strategic dimensions. However, safety is paramount, especially with heel hooks. The rotational nature of heel hooks means injuries happen rapidly with minimal warning, so we drill these positions extensively with zero finishing pressure in training, focusing on control and position rather than completion."
+  }
+}
+{
+  "metadata": {
+    "title": "Outside Ashi Garami Top | BJJ Position Guide | BJJ Graph",
+    "description": "Master Outside Ashi Garami Top defense in BJJ. Complete guide covering leg extraction, counter leg locks, and escape strategies. Success rates: Beginner 40%, Advanced 70%.",
+    "state_id": "S076",
+    "tags": [
+      "bjj",
+      "position",
+      "leglock",
+      "top",
+      "advanced",
+      "defensive",
+      "leg-entanglement",
+      "escape"
+    ],
+    "parent_variant": "Outside Ashi-Garami",
+    "sibling_variants": ["Outside Ashi-Garami Bottom"]
+  },
+  "overview": "Outside Ashi Garami Top is the defensive counterpart to Outside Ashi Garami Bottom, where your right leg is trapped in your opponent's outside leg entanglement while you are on top or in a more elevated position. This is generally considered a disadvantageous position requiring immediate defensive action to prevent heel hooks or ankle locks and to extract your leg from the entanglement.\n\nIn this position, your opponent has their legs configured in a figure-4 around your right leg, with their outside leg (left) crossing over your thigh and their inside leg (right) triangling under your knee. Your primary objectives are to prevent your hip from being controlled (stopping external rotation), extract your trapped leg, and either pass to a dominant position or establish your own leg entanglement.\n\nThis position represents a defensive challenge where understanding leg lock mechanics, maintaining proper posture, and executing timely escapes are critical to preventing submission and recovering advantageous position. The key to success lies in maintaining calm composure under submission threat while systematically working through escape sequences that protect the heel and create extraction opportunities.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive",
+    "risk_level": "High",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short"
+  },
+  "state_invariants": [
+    "Your right leg is trapped in opponent's figure-4 configuration with their left leg crossing over your thigh and right leg triangling under your knee, creating a locked clamp around your leg",
+    "Opponent positioned on their back or side below you at a perpendicular or diagonal angle (45-90 degrees), facing your trapped leg with their body aligned to threaten leg locks",
+    "You maintain elevated position on knees, hip, or standing with trapped leg while opponent remains lower, creating height differential that favors escape opportunities",
+    "Opponent controls your trapped leg with grips, typically one hand on heel/foot threatening heel hook and other on knee/thigh preventing hip rotation and escape"
+  ],
+  "prerequisites": [
+    "Understanding of leg entanglement risks and submission mechanics, particularly heel hook finishing mechanics",
+    "Knowledge of heel exposure and protection techniques, including hiding the heel and controlling hip rotation",
+    "Experience with leg lock defense and escape drilling under controlled conditions",
+    "Mental composure under submission threat and ability to remain calm while working systematic escapes",
+    "Familiarity with counter leg entanglement entries as alternative escape routes",
+    "Understanding of proper posture mechanics and how height advantage creates escape opportunities"
+  ],
+  "key_principles": [
+    "Protect your heel immediately by keeping it hidden from opponent's grip, preventing heel exposure that enables heel hook finish",
+    "Maintain standing or elevated posture with height advantage, as standing position creates best escape opportunities and limits opponent's leverage",
+    "Prevent hip external rotation by keeping knee pointing forward and not allowing knee to turn outward, which would expose heel to finishing position",
+    "Create frames on opponent's hips/chest using hands and free leg to establish distance that prevents submission leverage",
+    "Extract leg using proper mechanics through internal hip rotation and systematic threading rather than straight pulling",
+    "Stay calm under pressure and work methodically through escape sequences, as panic leads to exposed heel and rushed movements",
+    "Counter-entangle when appropriate by establishing your own leg lock position as alternative escape route that creates mutual threats"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Ashi Garami Escape",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Outside Ashi Entry",
+      "target_position": "Outside Ashi-Garami Bottom",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Inside Ashi Entry",
+      "target_position": "Inside Ashi-Garami Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Saddle Entry from Top",
+      "target_position": "Saddle Position Bottom",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Standing to Single Leg X",
+      "target_position": "Single Leg X Guard Top",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Leg Weave Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Technical Stand-up",
+      "target_position": "Standing Top Position",
+      "success_rates": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Heel Hook",
+      "target_position": "Lost by Submission",
+      "success_rate": 60
+    },
+    {
+      "technique": "Straight Ankle Lock",
+      "target_position": "Straight Ankle Lock Control Bottom",
+      "success_rate": 45
+    },
+    {
+      "technique": "Toe Hold",
+      "target_position": "Toe Hold Control Bottom",
+      "success_rate": 40
+    },
+    {
+      "technique": "Kneebar",
+      "target_position": "Kneebar Control Bottom",
+      "success_rate": 35
+    },
+    {
+      "technique": "Saddle Entry from Top",
+      "target_position": "Saddle Position Bottom",
+      "success_rate": 50
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Outside Ashi Entry",
+      "target_position": "Outside Ashi-Garami Bottom",
+      "trigger": "Opponent releases leg triangle to readjust position"
+    },
+    {
+      "technique": "Inside Ashi Entry",
+      "target_position": "Inside Ashi-Garami Bottom",
+      "trigger": "Opponent's inside leg becomes exposed during transition attempt"
+    },
+    {
+      "technique": "Saddle Entry from Top",
+      "target_position": "Saddle Position Bottom",
+      "trigger": "Opponent commits to heel hook attempt, creating counter-entanglement opportunity"
+    },
+    {
+      "technique": "Standing to Single Leg X",
+      "target_position": "Single Leg X Guard Top",
+      "trigger": "Opponent loses control of trapped leg as you elevate to standing"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent has strong heel grip and is threatening immediate heel hook finish",
+      "actions": [
+        {
+          "technique": "Saddle Defense",
+          "target": "Outside Ashi-Garami Bottom",
+          "probability": 50
+        },
+        {
+          "technique": "Ashi Garami Escape",
+          "target": "Top Position",
+          "probability": 40
+        }
+      ]
+    },
+    {
+      "condition": "If opponent's leg triangle is loose or you have established standing position",
+      "actions": [
+        {
+          "technique": "Technical Stand-up",
+          "target": "Standing Top Position",
+          "probability": 70
+        },
+        {
+          "technique": "Ashi Garami Escape",
+          "target": "Top Position",
+          "probability": 65
+        }
+      ]
+    },
+    {
+      "condition": "If opponent is transitioning to saddle/honey hole and creating exposure",
+      "actions": [
+        {
+          "technique": "Outside Ashi Entry",
+          "target": "Outside Ashi-Garami Bottom",
+          "probability": 55
+        },
+        {
+          "technique": "Saddle Entry from Top",
+          "target": "Saddle Position Bottom",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If you have created sufficient distance with frames and opponent's control is weakened",
+      "actions": [
+        {
+          "technique": "Leg Weave Pass",
+          "target": "Side Control Top",
+          "probability": 60
+        },
+        {
+          "technique": "Standing to Single Leg X",
+          "target": "Single Leg X Guard Top",
+          "probability": 55
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Pulling leg straight out against figure-4 triangle",
+      "consequence": "Strengthens opponent's leg triangle, exposes heel to heel hook grip, accelerates submission threat by creating leverage for opponent",
+      "correction": "Rotate hip internally (inward), collapse opponent's triangle structure, thread leg out systematically using circular hip movements rather than straight-line pulling"
+    },
+    {
+      "error": "Dropping down to opponent's level by lowering hips to mat",
+      "consequence": "Removes height advantage, makes escape significantly more difficult, allows opponent to improve angle and grip control, eliminates standing escape options",
+      "correction": "Maintain elevated posture on knees or standing, keep hips high, use height differential to create extraction opportunities and limit opponent's leverage"
+    },
+    {
+      "error": "Exposing heel by allowing foot to turn outward or become accessible",
+      "consequence": "Opponent can secure heel hook grip immediately, dramatically increases submission danger, may result in instant tap or injury",
+      "correction": "Keep heel hidden by maintaining inward foot position, actively control heel placement, shield foot with free leg if necessary, prioritize heel protection above all else"
+    },
+    {
+      "error": "Panicking and making rushed, uncontrolled movements",
+      "consequence": "Creates opportunities for opponent to improve position, increases likelihood of heel exposure, wastes energy, leads to poor decision-making under pressure",
+      "correction": "Remain calm and methodical, work through systematic escape sequences, breathe deeply, trust your drilling and technique rather than explosive scrambling"
+    },
+    {
+      "error": "Neglecting to create frames on opponent's hips and chest",
+      "consequence": "Allows opponent to close distance and improve finishing mechanics, eliminates space needed for leg extraction, gives opponent better leverage for submissions",
+      "correction": "Immediately establish frames using hands on opponent's hips/chest and free leg, maintain distance throughout escape sequence, use frames to prevent opponent advancement"
+    },
+    {
+      "error": "Ignoring counter-entanglement opportunities when they arise",
+      "consequence": "Misses chances to create mutual threats that force opponent to defend, limits escape options to pure defense only, reduces overall escape success rate",
+      "correction": "Recognize moments when opponent's legs become exposed, establish counter leg entanglements when appropriate, use mutual threat dynamics to facilitate escapes"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Posture Maintenance Under Pressure",
+      "description": "Partner establishes outside ashi control on your leg, practice maintaining standing or elevated posture while they apply downward pressure, 30-60 second holds with progressive resistance levels (25%, 50%, 75% resistance), develop postural strength and stability under leg entanglement threat",
+      "duration": "5 rounds of 60 seconds"
+    },
+    {
+      "name": "Hip Rotation Escape Mechanics",
+      "description": "From standing in opponent's outside ashi, practice internal hip rotation and leg extraction in slow motion with no resistance initially, focus on proper mechanical sequence of hip rotation, triangle collapse, and leg threading, 10 repetitions per side with increasing speed",
+      "duration": "10 minutes"
+    },
+    {
+      "name": "Frame and Extract Progression",
+      "description": "Partner establishes outside ashi, you create frames on hips/chest and systematically extract leg, partner provides progressive resistance (25%, 50%, 75%), develop frame strength, coordination, and ability to maintain distance while escaping",
+      "duration": "8 rounds of 90 seconds"
+    },
+    {
+      "name": "Counter-Entanglement from Defense",
+      "description": "Start trapped in outside ashi top, practice recognizing opportunities for counter leg entanglements, establish your own outside ashi or saddle when opponent creates exposure, drill transitions from defense to offense",
+      "duration": "6 rounds of 2 minutes"
+    },
+    {
+      "name": "Heel Protection Sensitivity",
+      "description": "Partner establishes outside ashi and slowly attempts to access your heel, practice maintaining heel hidden position and recognizing when heel becomes exposed, develop sensitivity to heel vulnerability and protective positioning",
+      "duration": "5 rounds of 90 seconds"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Escape to Pass Path",
+      "path": "Outside Ashi-Garami Top → Ashi Garami Escape → Top Position → Leg Weave Pass → Side Control Top"
+    },
+    {
+      "name": "Standing Escape Path",
+      "path": "Outside Ashi-Garami Top → Technical Stand-up → Standing Top Position → Pressure Pass → Side Control Top"
+    },
+    {
+      "name": "Counter-Entanglement Path",
+      "path": "Outside Ashi-Garami Top → Outside Ashi Entry → Outside Ashi-Garami Bottom → Heel Hook → Won by Submission"
+    },
+    {
+      "name": "Single Leg X Transition Path",
+      "path": "Outside Ashi-Garami Top → Standing to Single Leg X → Single Leg X Guard Top → Single Leg X Sweep → Top Position"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Outside Ashi-Garami Bottom",
+      "relationship": "Offensive counterpart - same position from attacking perspective"
+    },
+    {
+      "name": "Inside Ashi-Garami Top",
+      "relationship": "Similar defensive leg entanglement with inside variation"
+    },
+    {
+      "name": "Saddle Position Top",
+      "relationship": "Advanced defensive challenge with both legs trapped"
+    },
+    {
+      "name": "Ashi Garami Escape",
+      "relationship": "Primary escape technique from this position"
+    },
+    {
+      "name": "Saddle Defense",
+      "relationship": "Related defensive concept for leg entanglement escapes"
+    },
+    {
+      "name": "Heel Hook",
+      "relationship": "Primary submission threat from opponent"
+    },
+    {
+      "name": "Straight Ankle Lock",
+      "relationship": "Secondary submission threat from opponent"
+    },
+    {
+      "name": "50-50 Guard Top",
+      "relationship": "Related defensive leg entanglement position"
+    },
+    {
+      "name": "Leg Entanglement Position",
+      "relationship": "General category this position belongs to"
+    },
+    {
+      "name": "Craig Jones Leg Lock System",
+      "relationship": "Expert system covering this position's offensive and defensive aspects"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "advancement_probability": {
+      "beginner": 40,
+      "intermediate": 55,
+      "advanced": 70
+    },
+    "submission_probability": {
+      "beginner": 20,
+      "intermediate": 35,
+      "advanced": 50
+    },
+    "average_time": "15-30 seconds (immediate escape required)"
+  },
+  "expert_insights": {
+    "danaher": "The fundamental principle when caught on top in outside ashi garami is understanding that elevation equals escape opportunity. The standing position is your strongest defensive posture because it removes the opponent's ability to control your hips effectively and creates maximum distance for leg extraction. The critical mechanical sequence involves internal hip rotation to collapse the opponent's triangle structure - this is biomechanically superior to attempting straight-line leg withdrawal. Your trapped leg must move in a circular pattern, threading through the collapsing entanglement rather than pulling against it. The common error is attempting to muscle out of the position through brute force, which actually tightens the opponent's control and exposes the heel. Instead, small, controlled circular movements of the hip joint progressively weaken the figure-4 until extraction becomes possible. Additionally, maintaining proper heel protection by keeping the foot positioned inward and away from opponent's grip is non-negotiable - a single moment of heel exposure can result in immediate submission.",
+    "gordon_ryan": "When I'm trapped on top in leg entanglement, my competition mindset is never purely defensive - I'm immediately looking for counter-attack opportunities. If someone has my leg in outside ashi, they've committed their legs to controlling mine, which means their legs are now vulnerable to my attack. I'll often establish my own leg entanglement simultaneously, creating what I call 'mutual destruction' scenarios where both of us are threatening heel hooks. This forces my opponent to make a choice: continue pursuing their attack while being threatened themselves, or release to defend. Most competitors will choose defense, giving me the opening to escape. When pure escape is necessary, standing is absolutely critical - I want maximum height to minimize their leverage. The key detail people miss is that you don't just stand up randomly; you stand with strategic positioning that creates specific passing opportunities. I'll often stand into positions that set up leg weave passes or allow me to pressure pass once I've extracted. Competition footage shows that the fighters who escape leg entanglements fastest are those who create immediate offensive threats during their defensive sequences.",
+    "eddie_bravo": "In the 10th Planet system, we drill leg lock defense extensively because we know these positions are incredibly dangerous regardless of whether you're on top or bottom. When trapped in outside ashi from the top position, the first thing I teach is mental composure - students who panic in leg locks get submitted, period. Your mind has to stay calm even when someone's gripping your heel. The technical approach involves systematic extraction techniques that we drill until they become automatic reflexes. One detail that's often overlooked is using your free leg actively as both a frame and a posting point - it's not just dead weight, it's a critical tool for creating distance and maintaining balance during escape. We also emphasize understanding competition rule contexts; in IBJJF competitions where heel hooks are restricted at many belt levels, the defensive priorities shift compared to submission-only formats where all leg attacks are legal. This position perfectly illustrates why leg lock awareness is essential for modern BJJ - you can't just ignore 50% of the body in training and expect to be safe when someone attacks your legs. Regular drilling of both offensive and defensive leg lock positions creates well-rounded grapplers who can handle these situations confidently."
+  }
+}

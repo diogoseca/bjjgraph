@@ -16,7 +16,7 @@
       "fixed_to": "Defensive Framing",
       "confidence": 80.0,
       "status": "✓ FIXED",
-      "file_path": "/source/content/Concepts/Takedown Entry.md",
+      "file_path": "/source/content/Principles/Takedown Entry.md",
       "line_context": "Setup Opportunities section"
     },
     {
@@ -26,7 +26,7 @@
       "fixed_to": "Hook Sweep",
       "confidence": 80.0,
       "status": "✓ FIXED",
-      "file_path": "/source/content/Concepts/Takedown Entry.md",
+      "file_path": "/source/content/Principles/Takedown Entry.md",
       "line_context": "Follow-up Options section"
     },
     {
@@ -139,7 +139,7 @@
     "broken_links_not_found": 2,
     "average_confidence": 82.81,
     "files_list": [
-      "source/content/Concepts/Takedown Entry.md",
+      "source/content/Principles/Takedown Entry.md",
       "source/content/Positions/Technical Mount.md",
       "source/content/Transitions/Technical Standup.md"
     ]

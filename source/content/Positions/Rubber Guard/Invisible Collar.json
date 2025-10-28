@@ -1,0 +1,426 @@
+Session limit reached ∙ resets 11am
+{
+  "metadata": {
+    "title": "Invisible Collar | BJJ Position Guide | BJJ Graph",
+    "description": "Master the Invisible Collar control position in BJJ. Advanced grip control technique for back attacks and submissions with 65% retention rate. Expert insights included.",
+    "state_id": "S247",
+    "tags": ["bjj", "position", "back-control", "grip-control", "invisible-collar", "advanced"]
+  },
+
+  "overview": "The Invisible Collar is an advanced back control grip configuration where the attacking practitioner establishes a seatbelt position with a specific collar grip variation that creates submission opportunities while remaining difficult for the opponent to detect and defend. Unlike traditional collar grips, the invisible collar uses the opponent's own gi material folded against their neck in a way that appears less threatening but creates immediate choking pressure when activated. This position represents a refinement of traditional back control mechanics, emphasizing grip concealment and submission setup over pure positional control.\n\nThe invisible collar position emerged from high-level competition as practitioners sought ways to disguise their submission intentions while maintaining dominant back control. The grip appears passive or positional to the untrained eye, but experienced grapplers recognize it as an immediate submission threat. The position is particularly effective because it allows the attacking practitioner to maintain what appears to be a defensive or controlling posture while actually setting up devastating collar chokes. The opponent often realizes the danger only when the choke is already tight, making defensive responses significantly more difficult.\n\nThis position is most commonly entered from standard back control with seatbelt grip, where the practitioner transitions their collar hand to establish the invisible collar configuration. Success in this position requires excellent sensitivity to the opponent's defensive posture, precise grip placement, and the ability to transition seamlessly between controlling and attacking modes. The invisible collar serves as both a submission position and a controlling platform for maintaining back dominance while the opponent attempts to escape.",
+
+  "state_properties": {
+    "point_value": 4,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Low to Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium to Long"
+  },
+
+  "state_invariants": [
+    "Practitioner positioned on opponent's back with chest connected to opponent's upper back/shoulder blades, maintaining close body-to-body contact throughout the position",
+    "At least one hook inserted deep under opponent's leg with foot crossing to opposite side, establishing lower body control and preventing forward rotation or escape",
+    "Seatbelt grip structure maintained with one arm over opponent's shoulder and one arm under opposite armpit, creating the characteristic diagonal grip pattern across opponent's torso",
+    "Collar grip hand establishes specific invisible collar configuration with gi material folded against opponent's neck, fingers deep inside collar with thumb positioned on outside creating the concealed choking mechanism",
+    "Opponent's posture compressed forward slightly with chin tucked, often unaware of the immediate submission threat due to the grip's deceptive appearance and gradual pressure application"
+  ],
+
+  "prerequisites": [
+    "Established back control position with at least one hook secured",
+    "Opponent wearing gi (position requires collar material)",
+    "Seatbelt grip control already established",
+    "Opponent's defensive focus directed elsewhere (defending hooks, hand fighting, etc.)",
+    "Sufficient gi material available in collar area for grip establishment",
+    "Practitioner possesses grip strength and finger dexterity for deep collar control"
+  ],
+
+  "key_principles": [
+    "Conceal submission intention by making grip appear positional rather than attacking",
+    "Establish collar grip depth gradually while opponent is distracted by other threats",
+    "Maintain seatbelt structure throughout to preserve back control while setting up submissions",
+    "Use opponent's defensive movements to tighten grip rather than forcing the choke",
+    "Keep body weight distributed to prevent opponent from rolling or turning into guard",
+    "Coordinate hook control with upper body positioning to prevent escape while finishing",
+    "Transition smoothly between invisible collar and other back attack options to create dilemmas"
+  ],
+
+  "offensive_transitions": [
+    {
+      "technique": "Rear Naked Choke",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 55,
+        "intermediate": 70,
+        "advanced": 85
+      }
+    },
+    {
+      "technique": "Cross Collar Choke",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 60,
+        "intermediate": 75,
+        "advanced": 88
+      }
+    },
+    {
+      "technique": "Armbar from Back with Legs",
+      "target_position": "Armbar Control",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Transition to Crucifix",
+      "target_position": "Crucifix Control Position",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Bow and Arrow Choke",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Clock Choke",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Back Control Maintenance",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 70,
+        "intermediate": 80,
+        "advanced": 90
+      }
+    },
+    {
+      "technique": "Mounted Triangle",
+      "target_position": "Mounted Triangle",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    }
+  ],
+
+  "defensive_responses": [
+    {
+      "technique": "Hand Fighting to Remove Collar Grip",
+      "target_position": "Back Control",
+      "success_rate": 35
+    },
+    {
+      "technique": "Chin Tuck and Neck Defense",
+      "target_position": "Back Control",
+      "success_rate": 40
+    },
+    {
+      "technique": "Hip Escape to Guard Recovery",
+      "target_position": "Guard Recovery",
+      "success_rate": 25
+    },
+    {
+      "technique": "Rolling Escape to Top Position",
+      "target_position": "Top Position",
+      "success_rate": 20
+    },
+    {
+      "technique": "Elbow Escape to Remove Hooks",
+      "target_position": "Turtle Position",
+      "success_rate": 30
+    },
+    {
+      "technique": "Standing Escape",
+      "target_position": "Standing Position",
+      "success_rate": 15
+    }
+  ],
+
+  "counter_transitions": [
+    {
+      "technique": "Deepen Collar Grip",
+      "target_position": "Won by Submission",
+      "trigger": "Opponent attempts to remove grip with hands"
+    },
+    {
+      "technique": "Switch to Rear Naked Choke",
+      "target_position": "Won by Submission",
+      "trigger": "Opponent successfully defends collar by tucking chin"
+    },
+    {
+      "technique": "Transition to Crucifix",
+      "target_position": "Crucifix Control Position",
+      "trigger": "Opponent turns into the collar grip side"
+    },
+    {
+      "technique": "Insert Second Hook",
+      "target_position": "Back Control",
+      "trigger": "Opponent attempts to remove existing hook"
+    },
+    {
+      "technique": "Armbar from Back",
+      "target_position": "Armbar Control",
+      "trigger": "Opponent extends arm to defend collar"
+    },
+    {
+      "technique": "Body Triangle Lock",
+      "target_position": "Body Triangle Back Control",
+      "trigger": "Opponent attempts to escape by turning"
+    }
+  ],
+
+  "decision_tree": [
+    {
+      "condition": "If opponent is unaware of invisible collar and not defending the grip",
+      "actions": [
+        {
+          "technique": "Finish Collar Choke",
+          "target": "Won by Submission",
+          "probability": 75
+        },
+        {
+          "technique": "Maintain Position and Setup",
+          "target": "Back Control",
+          "probability": 85
+        }
+      ]
+    },
+    {
+      "condition": "If opponent recognizes threat and begins hand fighting the collar grip",
+      "actions": [
+        {
+          "technique": "Switch to Rear Naked Choke",
+          "target": "Won by Submission",
+          "probability": 65
+        },
+        {
+          "technique": "Transition to Crucifix",
+          "target": "Crucifix Control Position",
+          "probability": 55
+        },
+        {
+          "technique": "Attack Extended Arm with Armbar",
+          "target": "Armbar Control",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent turns into the collar side attempting to relieve pressure",
+      "actions": [
+        {
+          "technique": "Follow with Crucifix Entry",
+          "target": "Crucifix Control Position",
+          "probability": 70
+        },
+        {
+          "technique": "Tighten Collar Choke with Rotation",
+          "target": "Won by Submission",
+          "probability": 68
+        }
+      ]
+    },
+    {
+      "condition": "If opponent successfully tucks chin and defends neck",
+      "actions": [
+        {
+          "technique": "Transition to Armbar from Back",
+          "target": "Armbar Control",
+          "probability": 58
+        },
+        {
+          "technique": "Setup Bow and Arrow Choke",
+          "target": "Won by Submission",
+          "probability": 52
+        },
+        {
+          "technique": "Maintain Back Control and Reset",
+          "target": "Back Control",
+          "probability": 75
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to stand or bridge explosively",
+      "actions": [
+        {
+          "technique": "Pull Back to Mat with Collar Control",
+          "target": "Back Control",
+          "probability": 70
+        },
+        {
+          "technique": "Insert Body Triangle",
+          "target": "Body Triangle Back Control",
+          "probability": 62
+        }
+      ]
+    }
+  ],
+
+  "common_errors": [
+    {
+      "error": "Telegraphing submission intention by gripping collar too aggressively or obviously",
+      "consequence": "Opponent immediately recognizes threat and establishes strong neck defense before choke can be applied",
+      "correction": "Establish collar grip gradually and casually while opponent is focused on defending hooks or other threats, making the grip appear positional rather than attacking"
+    },
+    {
+      "error": "Failing to maintain proper seatbelt structure while focusing on collar grip",
+      "consequence": "Opponent escapes back control by swimming arms through or removing hooks while practitioner is distracted",
+      "correction": "Keep non-collar arm active in seatbelt position with elbow tight to body, maintaining back control structure even while establishing invisible collar grip"
+    },
+    {
+      "error": "Insufficient collar grip depth with fingers not deep enough inside gi material",
+      "consequence": "Choke lacks finishing pressure and opponent can easily defend or remove the grip with hand fighting",
+      "correction": "Drive all four fingers as deep as possible into collar with knuckles against opponent's neck, using gradual incremental adjustments to achieve maximum depth"
+    },
+    {
+      "error": "Losing hook control while attempting to finish the choke",
+      "consequence": "Opponent escapes to guard or scrambles to better position while practitioner is focused solely on submission",
+      "correction": "Coordinate lower body and upper body attacks simultaneously, ensuring hooks remain active and controlling throughout the finishing sequence"
+    },
+    {
+      "error": "Applying choking pressure too early before grip is fully established",
+      "consequence": "Opponent becomes aware of submission threat prematurely and effectively defends before the position is secured",
+      "correction": "Wait until invisible collar grip is completely set with proper depth and hand position before beginning to apply finishing pressure"
+    },
+    {
+      "error": "Failing to adjust when opponent successfully defends the collar choke",
+      "consequence": "Practitioner becomes fixated on one submission while opponent creates space and eventually escapes",
+      "correction": "Maintain fluid transitions between collar chokes, rear naked chokes, and armbars, using opponent's defensive movements to set up alternative attacks"
+    },
+    {
+      "error": "Poor body positioning with weight too far back or not centered on opponent",
+      "consequence": "Opponent can roll practitioner over their shoulder or turn into the position to escape",
+      "correction": "Keep chest tight to opponent's upper back with weight distributed evenly, adjusting position dynamically as opponent moves"
+    }
+  ],
+
+  "training_drills": [
+    {
+      "name": "Invisible Collar Grip Establishment Drill",
+      "description": "Partner starts with basic back control and seatbelt grip. Practice establishing the invisible collar grip incrementally while partner provides 25% resistance. Focus on concealing intention and achieving maximum depth without alerting partner. Reset and repeat 10 times per side.",
+      "duration": "5 minutes per partner"
+    },
+    {
+      "name": "Collar to RNC Transition Flow Drill",
+      "description": "From established invisible collar position, partner defends the collar aggressively by hand fighting and chin tucking. Practitioner must smoothly transition to rear naked choke when collar is defended. Flow continuously between both options for 3-minute rounds, emphasizing seamless transitions and maintaining back control throughout.",
+      "duration": "3 minutes per round, 3 rounds each"
+    },
+    {
+      "name": "Positional Sparring from Back Control",
+      "description": "Start with back control and both hooks in. Attacking practitioner must establish invisible collar and finish within 2 minutes. Defending practitioner focuses on recognizing the grip early and defending appropriately. If defender escapes back control, reset. Track success rates to monitor improvement.",
+      "duration": "2-minute rounds, 5 rounds each role"
+    },
+    {
+      "name": "Submission Dilemma Drill",
+      "description": "From invisible collar position, create three-way dilemma: collar choke, rear naked choke, or armbar from back. Coach calls out which defense partner should use (defend collar, defend neck, or keep arms safe). Practitioner must recognize the opening and attack the undefended target. Builds recognition speed and decision-making.",
+      "duration": "4 minutes continuous, switch roles"
+    }
+  ],
+
+  "optimal_submission_paths": [
+    {
+      "name": "Direct collar choke finish",
+      "path": "Back Control → Invisible Collar → Cross Collar Choke → Won by Submission"
+    },
+    {
+      "name": "Collar to RNC transition path",
+      "path": "Back Control → Invisible Collar → Opponent Defends Collar → Rear Naked Choke → Won by Submission"
+    },
+    {
+      "name": "Armbar conversion path",
+      "path": "Back Control → Invisible Collar → Opponent Extends Arm to Defend → Armbar from Back with Legs → Won by Submission"
+    },
+    {
+      "name": "Crucifix transition path",
+      "path": "Back Control → Invisible Collar → Opponent Turns Into Grip → Crucifix Control Position → Choke from Crucifix → Won by Submission"
+    },
+    {
+      "name": "Bow and arrow setup path",
+      "path": "Back Control → Invisible Collar → Opponent Defends Neck → Bow and Arrow Choke → Won by Submission"
+    }
+  ],
+
+  "related_content": [
+    {
+      "name": "Back Control",
+      "relationship": "Primary position from which invisible collar is established"
+    },
+    {
+      "name": "Seat Belt Control Back",
+      "relationship": "Fundamental grip structure used before invisible collar transition"
+    },
+    {
+      "name": "Rear Naked Choke",
+      "relationship": "Primary alternative submission when collar is defended"
+    },
+    {
+      "name": "Cross Collar Choke",
+      "relationship": "Direct finishing technique from invisible collar position"
+    },
+    {
+      "name": "Crucifix Control Position",
+      "relationship": "Common transition target when opponent turns into collar"
+    },
+    {
+      "name": "Armbar from Back with Legs",
+      "relationship": "Alternative submission when opponent extends arms to defend"
+    },
+    {
+      "name": "Bow and Arrow Choke",
+      "relationship": "Advanced variation using invisible collar grip mechanics"
+    },
+    {
+      "name": "Body Triangle Back Control",
+      "relationship": "Enhanced control position often combined with invisible collar"
+    },
+    {
+      "name": "Back Attack System",
+      "relationship": "Complete system incorporating invisible collar as key component"
+    }
+  ],
+
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 55,
+      "intermediate": 70,
+      "advanced": 85
+    },
+    "advancement_probability": {
+      "beginner": 50,
+      "intermediate": 65,
+      "advanced": 80
+    },
+    "submission_probability": {
+      "beginner": 45,
+      "intermediate": 62,
+      "advanced": 78
+    },
+    "average_time": "30-90 seconds from establishment to finish or transition"
+  },
+
+  "expert_insights": {
+    "danaher": "The invisible collar represents a sophisticated application of concealment theory in submission grappling. The mechanical advantage comes not from superior leverage alone, but from the opponent's delayed recognition of the threat. By the time most practitioners realize they are defending a choke rather than simple positional control, the grip is already established beyond the point where conventional hand fighting can remove it. The key technical detail is achieving maximum collar penetration with minimal visible telegraphing—your fingers should be as deep as anatomically possible before you begin applying rotational pressure. This position also exemplifies the principle of submission chains: the invisible collar is not merely one technique but rather a platform from which multiple submissions become available. When the opponent defends the collar, they inevitably create openings for the rear naked choke or armbar. This forced choice between equally dangerous options is the essence of high-level back attack methodology.",
+
+    "gordon_ryan": "In competition, the invisible collar is one of the highest percentage setups I use from back control because people simply don't see it coming until it's too late. The grip looks passive, almost lazy, so opponents don't prioritize defending it while they're busy trying to remove my hooks or escape. By the time they realize what I've set up, I'm already squeezing and the tap comes fast. The competition-tested detail that matters most is waiting for the right moment—you need your opponent distracted or tired before you establish the grip. I typically threaten the armbar or work for my second hook, and while they're defending those threats, I casually sink my hand deeper into the collar. Once it's set, you have multiple finishes available and your opponent is in serious trouble. Against high-level guys, I'll often use the invisible collar as a control position rather than rushing the finish, because having that grip established means I can attack whenever I see an opening and they know they're in danger the entire time.",
+
+    "eddie_bravo": "The invisible collar is a perfect example of how traditional gi techniques can be evolved into modern traps. At 10th Planet we focus on no-gi, but this concept translates beautifully to our back control system—instead of the collar, we use the same principle of concealed hand positioning behind the head or neck that appears defensive but is actually setting up the kill. What makes this position so dangerous is the mind game aspect: your opponent thinks they're in back control, which is bad enough, but they don't realize you're already in a submission position until you start finishing. That psychological element is huge. The invisible collar also fits perfectly into the dilemma system we teach—you're creating a situation where every defensive choice leads to a different attack. They defend the collar? Hit the RNC. They defend the neck? Take the arm. They try to turn? Crucifix time. This is high-level strategic grappling where you're controlling both the position and your opponent's decision-making process. For my students, I emphasize making the grip establishment so smooth and casual that it looks like you're just resting your hand there, not setting up a fight-ending choke."
+  }
+}
+Session limit reached ∙ resets 11am

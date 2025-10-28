@@ -1,0 +1,483 @@
+Session limit reached ∙ resets 11am
+Session limit reached ∙ resets 11am
+{
+  "metadata": {
+    "title": "Leg Entanglement Top Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master Leg Entanglement Top Position in BJJ. Complete guide covering control, leg locks, and transitions. Dominant leg entanglement with 70% retention rate.",
+    "state_id": "S207",
+    "tags": [
+      "bjj",
+      "position",
+      "leg-entanglement",
+      "top-position",
+      "leg-locks",
+      "ashi-garami",
+      "advanced"
+    ],
+    "child_variants": [
+      "Ashi Garami Top",
+      "Inside Ashi-Garami Top",
+      "Outside Ashi-Garami Top",
+      "Cross Ashi-Garami Top",
+      "Saddle Position Top",
+      "Honey Hole Position Top",
+      "Ushiro Ashi-Garami Top",
+      "50-50 Guard Top",
+      "Kneebar Control Top",
+      "Straight Ankle Lock Control Top",
+      "Toe Hold Control Top",
+      "Inside Sankaku Top"
+    ]
+  },
+
+  "overview": "Leg Entanglement Top Position represents a category of advanced positional control in modern BJJ where the top practitioner controls and attacks their opponent's lower body through various configurations of leg positioning and entanglement. These positions form the foundation of modern leg lock systems, characterized by superior control mechanics that isolate specific joints (ankle, knee, hip) while maintaining positional dominance. The top player has secured an entanglement configuration that provides both control and attacking opportunities, typically involving their legs wrapping, hooking, or triangling around the opponent's leg or legs. This position family has revolutionized modern no-gi grappling, with systematic approaches developed by John Danaher, Craig Jones, and others transforming leg attacks from opportunistic submissions into a comprehensive positional hierarchy. Success in top leg entanglements requires understanding the biomechanical principles of joint isolation, recognizing the specific finishing mechanics for different leg locks, and maintaining proper positioning to prevent escapes or counters. The position offers multiple pathways to finishing submissions (heel hooks, kneebar variations, ankle locks) while also providing transition opportunities to other dominant positions if the opponent defends successfully.",
+
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+
+  "state_invariants": [
+    "Top practitioner maintains superior positioning with at least one of opponent's legs controlled through leg entanglement (wrapping, hooking, or triangling configuration)",
+    "Top player's upper body positioning allows weight distribution and base maintenance while hands control opponent's leg or establish grips on foot/ankle for submission attacks",
+    "Opponent's mobility is restricted through the specific entanglement configuration, with their leg(s) isolated and controlled, typically with their knee line compromised or ankle exposed",
+    "Top practitioner's hips are positioned to generate rotational force or extension pressure against isolated joint (ankle, knee, or hip depending on specific configuration)",
+    "Clear line of attack exists to at least one submission target (heel, ankle, knee) based on the specific entanglement variant being employed"
+  ],
+
+  "prerequisites": [
+    "Successful entry from standing position, open guard passing, or transition from other top positions",
+    "Control established over at least one of opponent's legs through specific entanglement configuration",
+    "Opponent's defensive structure compromised allowing leg isolation",
+    "Top practitioner's base and balance sufficient to maintain position during opponent's escape attempts",
+    "Understanding of specific entanglement variant mechanics and associated submission opportunities"
+  ],
+
+  "key_principles": [
+    "Maintain constant pressure and control on the isolated leg to prevent opponent from clearing the entanglement and recovering guard",
+    "Keep hips close to the attack point (foot, ankle, or knee) to maximize control and finishing leverage while minimizing escape opportunities",
+    "Control opponent's upper body or free leg to prevent them from turning into you or establishing defensive frames",
+    "Understand the specific biomechanics of your entanglement variant to recognize which submissions are available and which transitions are necessary",
+    "Maintain proper angle relative to opponent's knee line to prevent them from straightening their leg and escaping the entanglement",
+    "Use grip fighting on the foot/ankle to control opponent's ability to spin or rotate out of danger",
+    "Recognize when to transition between entanglement variants based on opponent's defensive reactions and positioning changes"
+  ],
+
+  "offensive_transitions": [
+    {
+      "technique": "Heel Hook",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Inside Heel Hook",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Outside Heel Hook",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 40,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Kneebar from Top",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Straight Ankle Lock",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Toe Hold from Top",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Inside Ashi Entry",
+      "target_position": "Inside Ashi-Garami Top",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 65,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "Outside Ashi Entry",
+      "target_position": "Outside Ashi-Garami Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Saddle Entry from Top",
+      "target_position": "Saddle Position Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Transition to Mount",
+      "target_position": "Mount Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Transition to Back Control",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    }
+  ],
+
+  "defensive_responses": [
+    {
+      "technique": "Ashi Garami Escape",
+      "target_position": "Open Guard Bottom",
+      "success_rate": 35
+    },
+    {
+      "technique": "Saddle Defense",
+      "target_position": "Headquarters Position Top",
+      "success_rate": 30
+    },
+    {
+      "technique": "Hip Escape",
+      "target_position": "Guard Recovery Bottom",
+      "success_rate": 25
+    },
+    {
+      "technique": "Technical Standup",
+      "target_position": "Standing Position",
+      "success_rate": 20
+    },
+    {
+      "technique": "Rolling to Guard",
+      "target_position": "Closed Guard Bottom",
+      "success_rate": 30
+    },
+    {
+      "technique": "Counter Transition",
+      "target_position": "Leg Entanglement Bottom Position",
+      "success_rate": 25
+    }
+  ],
+
+  "counter_transitions": [
+    {
+      "technique": "Saddle Entry from Top",
+      "target_position": "Saddle Position Top",
+      "trigger": "Opponent attempts to turn away and clear the knee line"
+    },
+    {
+      "technique": "Inside Ashi Entry",
+      "target_position": "Inside Ashi-Garami Top",
+      "trigger": "Opponent tries to pull their leg straight and extract"
+    },
+    {
+      "technique": "Outside Ashi Entry",
+      "target_position": "Outside Ashi-Garami Top",
+      "trigger": "Opponent rolls toward their trapped leg"
+    },
+    {
+      "technique": "Kneebar from Top",
+      "target_position": "Kneebar Control Top",
+      "trigger": "Opponent extends their leg attempting to push you away"
+    },
+    {
+      "technique": "Transition to Back Control",
+      "target_position": "Back Control Top",
+      "trigger": "Opponent turns into you giving up their back to escape leg attack"
+    },
+    {
+      "technique": "Heel Hook",
+      "target_position": "Won by Submission",
+      "trigger": "Opponent's foot becomes exposed during escape attempt"
+    }
+  ],
+
+  "decision_tree": [
+    {
+      "condition": "If opponent has their knee bent and is defending by keeping their heel hidden from attack",
+      "actions": [
+        {
+          "technique": "Saddle Entry from Top",
+          "target": "Saddle Position Top",
+          "probability": 65
+        },
+        {
+          "technique": "Transition to Mount",
+          "target": "Mount Top",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent extends their leg trying to create distance and push away",
+      "actions": [
+        {
+          "technique": "Kneebar from Top",
+          "target": "Kneebar Control Top",
+          "probability": 70
+        },
+        {
+          "technique": "Straight Ankle Lock",
+          "target": "Straight Ankle Lock Control Top",
+          "probability": 65
+        }
+      ]
+    },
+    {
+      "condition": "If opponent's heel becomes exposed with proper inside or outside positioning",
+      "actions": [
+        {
+          "technique": "Inside Heel Hook",
+          "target": "Won by Submission",
+          "probability": 70
+        },
+        {
+          "technique": "Outside Heel Hook",
+          "target": "Won by Submission",
+          "probability": 65
+        }
+      ]
+    },
+    {
+      "condition": "If opponent turns away from you exposing their back to escape the leg entanglement",
+      "actions": [
+        {
+          "technique": "Transition to Back Control",
+          "target": "Back Control Top",
+          "probability": 75
+        },
+        {
+          "technique": "Saddle Entry from Top",
+          "target": "Saddle Position Top",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent successfully clears the knee line and begins to escape",
+      "actions": [
+        {
+          "technique": "Outside Ashi Entry",
+          "target": "Outside Ashi-Garami Top",
+          "probability": 55
+        },
+        {
+          "technique": "Transition to Mount",
+          "target": "Mount Top",
+          "probability": 50
+        }
+      ]
+    }
+  ],
+
+  "common_errors": [
+    {
+      "error": "Allowing too much space between hips and the target joint (ankle or knee)",
+      "consequence": "Opponent can create distance, rotate their leg out of danger, and eventually escape the entanglement completely",
+      "correction": "Maintain constant hip pressure toward the attack point, keeping your hips glued to their leg and closing any gaps that develop during transitions"
+    },
+    {
+      "error": "Neglecting to control opponent's upper body or free leg during submission attempts",
+      "consequence": "Opponent can establish defensive frames, turn into you, or use their free leg to push and create escape opportunities",
+      "correction": "Use grips on the belt, collar, or pants to control upper body positioning, and actively manage their free leg with your hands or legs"
+    },
+    {
+      "error": "Forcing submissions without proper angle and positioning relative to the knee line",
+      "consequence": "Ineffective submission attempts that allow opponent to defend easily and potentially counter or escape the position",
+      "correction": "Ensure your body is positioned at the correct angle for the specific submission before applying pressure, following the systematic entries taught in leg lock systems"
+    },
+    {
+      "error": "Remaining static in one entanglement configuration when opponent is successfully defending",
+      "consequence": "Opponent eventually finds the escape pathway for that specific configuration and recovers guard or worse",
+      "correction": "Flow between different entanglement variants based on opponent's reactions, transitioning from ashi to saddle to 50-50 as defenses require"
+    },
+    {
+      "error": "Gripping the foot with incorrect hand positioning that telegraphs the submission",
+      "consequence": "Opponent recognizes the attack early and can defend by hiding their heel, straightening their leg, or spinning",
+      "correction": "Use deceptive grips and maintain control positions that allow multiple submission pathways, only committing to specific grips at the moment of finishing"
+    },
+    {
+      "error": "Ignoring positional hierarchy and going directly for low-percentage submissions",
+      "consequence": "Failed submission attempts that result in loss of position and opportunity to finish",
+      "correction": "Follow the systematic approach of establishing dominant entanglement first, then transitioning to better variants before committing to submission attempts"
+    },
+    {
+      "error": "Not understanding the specific biomechanics and danger zones of each leg lock variation",
+      "consequence": "Applying dangerous submissions incorrectly, potentially causing injury to training partners or failing in competition due to poor technique",
+      "correction": "Study the biomechanical principles of each submission thoroughly, practice with control and awareness, and only train heel hooks with experienced practitioners"
+    }
+  ],
+
+  "training_drills": [
+    {
+      "name": "Entanglement Configuration Flow Drill",
+      "description": "Partner starts with leg entangled in basic ashi position. Top player flows through all major entanglement variants (inside ashi, outside ashi, saddle, 50-50) based on bottom player's defensive movements. Focus on smooth transitions and maintaining constant control throughout configuration changes. 5 minutes per partner.",
+      "duration": "5 minutes per partner"
+    },
+    {
+      "name": "Submission Chain Development",
+      "description": "From established leg entanglement, practice transitioning between different submission attacks based on partner's defensive reactions. When heel is hidden, transition to kneebar. When leg extends, switch between ankle lock and toe hold. When partner turns away, recognize back exposure. Build automatic response patterns. 3-minute rounds.",
+      "duration": "3 minutes per round"
+    },
+    {
+      "name": "Positional Sparring from Entanglement",
+      "description": "Start in basic ashi garami top position with 30 seconds on shot clock. Top player works for submission or better entanglement position. Bottom player works for escape to guard recovery. Reset and switch every 2 minutes. Emphasizes real-time decision making and pressure maintenance under resistance.",
+      "duration": "2 minutes per round"
+    },
+    {
+      "name": "Entry Sequence Repetition",
+      "description": "Partner presents various top positions (headquarters, knee cut, leg drag). Top player practices recognizing entry opportunities and executing smooth transitions to leg entanglement positions. Focus on timing, angle creation, and securing control immediately upon entry. 10 repetitions per entry type.",
+      "duration": "20 minutes total"
+    },
+    {
+      "name": "Escape Prevention Drill",
+      "description": "Partner attempts specific escapes from leg entanglement (hip escape, knee clearing, rolling escape, technical standup). Top player practices recognizing and countering each escape attempt with appropriate position adjustments or submission attacks. Builds defensive awareness and counter-transition timing. 5 minutes continuous.",
+      "duration": "5 minutes continuous"
+    }
+  ],
+
+  "optimal_submission_paths": [
+    {
+      "name": "Fastest heel hook path",
+      "path": "Leg Entanglement Top Position → Inside Ashi-Garami Top → Inside Heel Hook → Won by Submission"
+    },
+    {
+      "name": "High-percentage kneebar sequence",
+      "path": "Leg Entanglement Top Position → Outside Ashi-Garami Top → Kneebar from Top → Won by Submission"
+    },
+    {
+      "name": "Systematic saddle progression",
+      "path": "Leg Entanglement Top Position → Ashi Garami Top → Saddle Position Top → Inside Heel Hook → Won by Submission"
+    },
+    {
+      "name": "Straight ankle lock foundation",
+      "path": "Leg Entanglement Top Position → Ashi Garami Top → Straight Ankle Lock Control Top → Straight Ankle Lock → Won by Submission"
+    },
+    {
+      "name": "Advanced 50-50 entry",
+      "path": "Leg Entanglement Top Position → 50-50 Guard Top → Saddle Position Top → Heel Hook → Won by Submission"
+    },
+    {
+      "name": "Positional advancement path",
+      "path": "Leg Entanglement Top Position → Saddle Position Top → Transition to Back Control → Back Control Top → Rear Naked Choke → Won by Submission"
+    }
+  ],
+
+  "related_content": [
+    {
+      "name": "Ashi Garami Top",
+      "relationship": "Primary child variant - standard leg entanglement configuration"
+    },
+    {
+      "name": "Inside Ashi-Garami Top",
+      "relationship": "Child variant - inside heel hook specialization"
+    },
+    {
+      "name": "Outside Ashi-Garami Top",
+      "relationship": "Child variant - outside heel hook and kneebar attacks"
+    },
+    {
+      "name": "Saddle Position Top",
+      "relationship": "Child variant - most dominant leg entanglement position"
+    },
+    {
+      "name": "50-50 Guard Top",
+      "relationship": "Child variant - bilateral leg entanglement"
+    },
+    {
+      "name": "Danaher Leg Lock System",
+      "relationship": "Systematic framework for understanding position hierarchy and attack sequences"
+    },
+    {
+      "name": "Craig Jones Leg Lock System",
+      "relationship": "Modern competitive application of leg entanglement principles"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Core concept - biomechanical principles and control theory"
+    },
+    {
+      "name": "Heel Hook Variations",
+      "relationship": "Primary submission family from leg entanglements"
+    },
+    {
+      "name": "Kneebar from Top",
+      "relationship": "Alternative submission when heel is defended"
+    },
+    {
+      "name": "Headquarters Position Top",
+      "relationship": "Common entry position before establishing leg entanglement"
+    },
+    {
+      "name": "X-Guard to Ashi Transition",
+      "relationship": "Guard-to-leg-entanglement transition sequence"
+    }
+  ],
+
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 45,
+      "intermediate": 65,
+      "advanced": 80
+    },
+    "advancement_probability": {
+      "beginner": 35,
+      "intermediate": 55,
+      "advanced": 70
+    },
+    "submission_probability": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "average_time": "45-90 seconds in competition, 2-3 minutes in training"
+  },
+
+  "expert_insights": {
+    "danaher": "The leg entanglement positions represent a complete positional hierarchy that mirrors the traditional upper body hierarchy of guard, half guard, side control, mount, and back control. Each entanglement configuration has specific control characteristics and submission opportunities, and understanding the systematic transitions between them is essential for effective leg lock attacking. The key principle is that position comes before submission - you must first establish dominant control through proper entanglement before attempting to finish. The biomechanical principle underlying all successful leg entanglements is the isolation of the target joint through creating opposing forces: your legs control their leg while your upper body prevents compensatory movement. Master the entries from top positions first, as controlling from top allows you to maintain positional dominance even if submissions are defended. The heel hook is the king of leg locks due to its devastating effectiveness, but it requires perfect positional control and understanding of the knee line concept - your ability to break their knee line determines which submissions become available.",
+    "gordon_ryan": "In modern competition, leg entanglements from top position are absolutely essential for high-level success, especially in no-gi where the lack of gi grips makes traditional passing more difficult. I use leg entanglements as both a passing tool and a finishing system - when opponents defend my passes by creating distance with their legs, I enter into leg entanglement positions that give me both control and submission threats. The most important skill is recognizing which entanglement variant you're in and knowing the highest percentage submission for that specific configuration. Don't waste time forcing low-percentage attacks from poor positions. If you're in outside ashi and they're defending the outside heel hook well, transition to inside ashi or saddle rather than continuing to fight a losing battle. The competitive advantage of leg entanglements is that many opponents still don't understand the positions well, so they make defensive errors that create easy finishes. My approach is to establish the entanglement, secure the dominant variant (usually saddle), then attack with maximum efficiency. Time management is crucial in competition - know when to finish from legs and when to abandon for positional advancement.",
+    "eddie_bravo": "Leg entanglements completely changed the game when we started really developing them in the 10th Planet system, especially from positions like the lockdown where you already have leg control. The beauty of top leg entanglements is that you can attack them from anywhere - failed guard passes, scrambles, even from bottom positions if you're creative. What I love about the leg game is that it forces opponents to deal with threats they're not comfortable with, creating openings everywhere. My philosophy is to stay unpredictable - don't just hunt heel hooks, use the leg entanglement to threaten multiple attacks and transitions. From top leg positions, I'm always looking at the back take opportunities when they turn away to defend the legs. The leg game pairs perfectly with the truck position and twister mechanics we developed - both systems use leg control to create devastating attacks. The key innovation in modern leg locks is understanding that you don't need to finish the first submission you enter - use the threat to create reactions, then capitalize on their defensive movements with chain attacks. Train the positions with the same intensity you train traditional top positions, because in no-gi they're equally important for controlling and finishing opponents."
+  }
+}

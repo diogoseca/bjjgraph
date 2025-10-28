@@ -1,0 +1,393 @@
+Session limit reached ∙ resets 11am
+{
+  "metadata": {
+    "title": "Hindulotine Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master the Hindulotine position in BJJ. High-pressure guillotine variation combining head control with body positioning. Learn setups, finishes, and defensive counters.",
+    "state_id": "S246",
+    "tags": [
+      "bjj",
+      "position",
+      "submission-control",
+      "guillotine-variation",
+      "head-control",
+      "front-headlock",
+      "hindulotine",
+      "submission-position",
+      "no-gi",
+      "advanced-technique"
+    ]
+  },
+  "overview": "The Hindulotine is a specialized guillotine variation that combines elements of traditional guillotine mechanics with unique body positioning that creates exceptional pressure on the opponent's neck and spine. Named for its origins in catch wrestling and modern no-gi grappling, this position represents an evolution of front headlock attacks where the controlling practitioner uses their hips and legs to generate torque while maintaining the guillotine grip.\n\nUnlike the standard guillotine where the attacker typically pulls guard or maintains standing control, the Hindulotine involves a specific hip placement and leg configuration that allows the attacker to apply rotational pressure while controlling the opponent's posture. This creates a submission threat that is difficult to defend against once fully locked in, as the opponent faces both the choking pressure of the guillotine and the cranking pressure from the body positioning.\n\nThe Hindulotine is most commonly entered from front headlock positions, failed takedown attempts, or scrambles where the opponent's head becomes exposed. It requires precise timing and positioning to establish properly, but once secured, it offers a high-percentage finishing opportunity. The position is particularly effective in no-gi grappling where collar grips are unavailable and practitioners must rely on body mechanics and leverage to control and submit opponents.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short"
+  },
+  "state_invariants": [
+    "Attacker maintains guillotine grip around opponent's neck with arm wrapped under the chin, hands locked with either gable grip or arm-in configuration, creating direct pressure on the carotid arteries and trachea",
+    "Attacker's hips are positioned perpendicular or at an angle to opponent's body, with weight distributed to create rotational torque on the neck rather than straight pulling force",
+    "Opponent's head is trapped and controlled with limited ability to posture up or extract their head, typically with their body bent forward and spine curved due to the neck pressure",
+    "Attacker's legs are configured to prevent opponent's escape, either with hooks controlling the hips, butterfly hooks, or feet planted to maintain base and pressure angle",
+    "The angle of attack creates a combination of blood choke and neck crank, with the fulcrum point at the opponent's neck and leverage applied through hip rotation and grip retention"
+  ],
+  "prerequisites": [
+    "Successful control of opponent's head from front headlock, failed takedown defense, or scramble situation",
+    "Ability to establish guillotine grip (gable grip, arm-in, or high elbow configuration) before opponent establishes strong defensive posture",
+    "Proper hip positioning to create the angle necessary for Hindulotine mechanics rather than standard guillotine position",
+    "Opponent's posture must be broken forward with their head lower than their hips to facilitate the setup",
+    "Sufficient grip strength and arm endurance to maintain the choking grip while adjusting body position"
+  ],
+  "key_principles": [
+    "Maintain constant pressure on the neck through grip retention - any loosening of the guillotine grip eliminates the submission threat",
+    "Create rotational torque by angling hips perpendicular to opponent's spine rather than pulling straight back",
+    "Control opponent's hips with legs to prevent them from circling out or achieving the angle needed to relieve pressure",
+    "Keep opponent's posture broken by combining neck control with hip pressure, preventing them from achieving vertical base",
+    "Adjust grip position (higher on neck toward jaw or deeper under chin) based on opponent's defensive reactions",
+    "Use leg configuration strategically - butterfly hooks for mobility and angle adjustments, or extended legs for maximum leverage",
+    "Prevent opponent's near-side arm from creating a frame between their shoulder and your body, which would relieve neck pressure"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Guillotine Choke",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Transition to Darce Choke",
+      "target_position": "Darce Control Position",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Transition to Anaconda Choke",
+      "target_position": "Anaconda Control",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Arm Triangle from Turtle",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 40,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Back Take Generic",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Front Headlock to Anaconda",
+      "target_position": "Anaconda Control",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Transition to Mount",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "North-South to Kimura",
+      "target_position": "Kimura Control Position",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 65
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Guillotine Defense",
+      "target_position": "Guard Recovery",
+      "success_rate": 45
+    },
+    {
+      "technique": "Hip Escape",
+      "target_position": "Guard Recovery",
+      "success_rate": 40
+    },
+    {
+      "technique": "Guillotine Counter",
+      "target_position": "Top Position",
+      "success_rate": 35
+    },
+    {
+      "technique": "Technical Standup",
+      "target_position": "Standing Position",
+      "success_rate": 30
+    },
+    {
+      "technique": "Rolling to Guard",
+      "target_position": "Closed Guard Bottom",
+      "success_rate": 25
+    },
+    {
+      "technique": "Posture Recovery",
+      "target_position": "Turtle Position",
+      "success_rate": 35
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Front Headlock to Darce",
+      "target_position": "Darce Control Position",
+      "trigger": "Opponent attempts to pull head out and creates space on near side"
+    },
+    {
+      "technique": "Back Take Generic",
+      "target_position": "Back Control",
+      "trigger": "Opponent turns away to relieve neck pressure and exposes back"
+    },
+    {
+      "technique": "Transition to Mount",
+      "target_position": "Mount",
+      "trigger": "Opponent flattens out defensively and you step over to mount while maintaining head control"
+    },
+    {
+      "technique": "Arm Triangle from Turtle",
+      "target_position": "Won by Submission",
+      "trigger": "Opponent tucks chin and creates arm-in guillotine defense, allowing transition to arm triangle mechanics"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent keeps good posture and prevents you from breaking them down forward",
+      "actions": [
+        {
+          "technique": "Snap Down to Front Headlock",
+          "target": "Front Headlock Control Position",
+          "probability": 60
+        },
+        {
+          "technique": "Guillotine Setup",
+          "target": "Guillotine Control",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent's head is controlled but they create defensive frames with their arms",
+      "actions": [
+        {
+          "technique": "Front Headlock to Darce",
+          "target": "Darce Control Position",
+          "probability": 55
+        },
+        {
+          "technique": "Front Headlock to Anaconda",
+          "target": "Anaconda Control",
+          "probability": 50
+        },
+        {
+          "technique": "Transition to Mount",
+          "target": "Mount",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent turns away to escape the choke and exposes their back",
+      "actions": [
+        {
+          "technique": "Back Take Generic",
+          "target": "Back Control",
+          "probability": 70
+        },
+        {
+          "technique": "Transition to North-South",
+          "target": "North-South",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent flattens out completely or achieves turtle position while you maintain head control",
+      "actions": [
+        {
+          "technique": "Arm Triangle from Turtle",
+          "target": "Won by Submission",
+          "probability": 50
+        },
+        {
+          "technique": "Front Headlock to Guillotine",
+          "target": "Guillotine Control",
+          "probability": 55
+        },
+        {
+          "technique": "Turtle to Back Take",
+          "target": "Back Control",
+          "probability": 60
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Pulling straight back on the guillotine grip instead of creating rotational torque with hip positioning",
+      "consequence": "Opponent can defend by tucking chin and driving forward, neutralizing the choking pressure and potentially passing guard or achieving top position",
+      "correction": "Focus on hip angle and rotation rather than arm strength - position hips perpendicular to opponent and use core rotation to create the finishing pressure"
+    },
+    {
+      "error": "Gripping too low on the neck near the shoulder rather than high under the chin",
+      "consequence": "Choke becomes ineffective as pressure is applied to muscular areas rather than carotid arteries, allowing opponent to withstand pressure and escape",
+      "correction": "Ensure grip is positioned high on the neck with the blade of your forearm or wrist directly under opponent's chin, maximizing choking efficiency"
+    },
+    {
+      "error": "Failing to control opponent's hips with legs, allowing them to circle out",
+      "consequence": "Opponent can rotate their body to achieve an angle that relieves neck pressure, eventually escaping the submission attempt entirely",
+      "correction": "Use butterfly hooks, closed guard, or strategic foot placement to control opponent's hip movement and maintain the optimal angle for submission"
+    },
+    {
+      "error": "Loosening the grip to adjust body position or transition",
+      "consequence": "Any loss of grip tightness allows opponent to extract their head, breathe freely, and escape the position completely",
+      "correction": "Maintain maximum grip pressure throughout all transitions and adjustments - if grip must be adjusted, do so incrementally while maintaining neck control"
+    },
+    {
+      "error": "Allowing opponent's near-side shoulder to create a frame between their body and yours",
+      "consequence": "The frame creates space that relieves choking pressure and gives opponent leverage to push away and escape",
+      "correction": "Control opponent's near arm with your legs or body positioning, preventing them from establishing the defensive frame"
+    },
+    {
+      "error": "Abandoning the position too early when opponent shows initial defensive resistance",
+      "consequence": "Missing high-percentage submission opportunities by transitioning before fully exploring finishing details and adjustments",
+      "correction": "Make multiple grip and angle adjustments before transitioning - try high elbow variation, arm-in adjustment, or hip rotation changes to find the finish"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Hindulotine Entry from Sprawl",
+      "description": "Partner shoots for takedown, you sprawl and immediately establish guillotine grip. Focus on transitioning from sprawl position to Hindulotine configuration with proper hip angle. Practice both sides and emphasize smooth grip establishment before opponent can defend. Duration: 5 minutes per side.",
+      "duration": "10 minutes total"
+    },
+    {
+      "name": "Grip Retention Under Pressure",
+      "description": "Start in established Hindulotine position with partner actively defending by driving forward, creating frames, and attempting to circle out. Your goal is to maintain grip and position for 60 seconds against increasing resistance. Focus on grip endurance and making micro-adjustments to maintain control. Reset and repeat 5 times.",
+      "duration": "5 rounds x 60 seconds"
+    },
+    {
+      "name": "Hindulotine to Transition Flow Drill",
+      "description": "Start with Hindulotine grip established. Partner gives specific defensive reactions (tucking chin, turning away, flattening out, creating frame). Practice flowing to appropriate counter: Darce for near-side space, back take for turn away, mount for flatten out, anaconda for frame creation. Work for smooth recognition and transition. 3-minute rounds.",
+      "duration": "15 minutes (5 rounds)"
+    },
+    {
+      "name": "Angle and Finish Refinement",
+      "description": "Partner gives 50% resistance in Hindulotine position. Experiment with different hip angles, grip positions (high elbow vs traditional vs arm-in), and leg configurations to understand which combinations create maximum pressure. Partner provides feedback on pressure level. Focus on technical refinement rather than speed or power.",
+      "duration": "10 minutes"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Direct finish from setup",
+      "path": "Front Headlock Control Position → Hindulotine Position → Guillotine Choke → Won by Submission"
+    },
+    {
+      "name": "High-percentage transition path",
+      "path": "Standing Position → Snap Down to Front Headlock → Hindulotine Position → Guillotine Choke → Won by Submission"
+    },
+    {
+      "name": "Scramble to submission",
+      "path": "Scramble Position → Guillotine Setup → Hindulotine Position → Guillotine Choke → Won by Submission"
+    },
+    {
+      "name": "Failed takedown counter",
+      "path": "Standing Position → Sprawl Defense → Front Headlock Control Position → Hindulotine Position → Guillotine Choke → Won by Submission"
+    },
+    {
+      "name": "Turtle attack sequence",
+      "path": "Turtle Position Top → Front Headlock to Guillotine → Hindulotine Position → Guillotine Choke → Won by Submission"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Guillotine Control",
+      "relationship": "Parent position - standard guillotine mechanics"
+    },
+    {
+      "name": "Front Headlock Control Position",
+      "relationship": "Common entry position"
+    },
+    {
+      "name": "Darce Control Position",
+      "relationship": "Alternative finish from same setup"
+    },
+    {
+      "name": "Anaconda Control",
+      "relationship": "Alternative finish from same setup"
+    },
+    {
+      "name": "High Elbow Guillotine",
+      "relationship": "Variation using different grip mechanics"
+    },
+    {
+      "name": "Arm in Guillotine",
+      "relationship": "Variation allowing opponent's arm to be trapped"
+    },
+    {
+      "name": "Marcelo Garcia Guillotine System",
+      "relationship": "Systematic approach including this variation"
+    },
+    {
+      "name": "Danaher Front Headlock System",
+      "relationship": "Comprehensive system including Hindulotine entries"
+    },
+    {
+      "name": "Head Control",
+      "relationship": "Fundamental concept for position control"
+    },
+    {
+      "name": "Submission Defense",
+      "relationship": "Defensive concepts for opponents"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 45,
+      "intermediate": 65,
+      "advanced": 80
+    },
+    "advancement_probability": {
+      "beginner": 35,
+      "intermediate": 55,
+      "advanced": 75
+    },
+    "submission_probability": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "average_time": "15-45 seconds"
+  },
+  "expert_insights": {
+    "danaher": "The Hindulotine represents a sophisticated evolution of guillotine mechanics where the traditional pulling motion is replaced with rotational torque generated through precise hip positioning. The key to understanding this position lies in recognizing that the human neck is most vulnerable to combined forces - both the anterior compression of the trachea and carotid arteries, and the rotational stress placed on the cervical spine. When you establish the Hindulotine, you create a mechanical system where your grip provides the choking force while your hip angle and leg configuration create the fulcrum and lever that amplify that force exponentially. The position requires exceptional attention to grip detail - the difference between a high grip under the chin versus a low grip near the shoulder is the difference between an immediate tap and a complete escape. Focus on establishing your grip before your opponent can establish their defensive posture, and once secured, make incremental adjustments to find the optimal angle rather than muscling through with brute force.",
+    "gordon_ryan": "In competition, the Hindulotine is one of my highest percentage attacks from front headlock situations because it creates immediate danger that forces opponents to make defensive decisions under extreme pressure. When I catch this position in matches, I'm looking for the finish first, but I'm equally prepared to transition to back control or darce variations when opponents defend predictably. The reality is that most grapplers panic when they feel the neck pressure and will turn away to escape, which is exactly what I want - their defensive movement gifts me either the tap or an even better position. The key in live competition is maintaining absolute grip pressure while staying patient enough to feel which direction your opponent is trying to escape. If they're driving forward, I'll adjust my hip angle to increase the choke. If they're turning, I'm already working to their back. The mistake I see competitors make is abandoning the position too early - if you've got the grip and the angle, stay patient and make your adjustments before giving it up.",
+    "eddie_bravo": "The Hindulotine is exactly the kind of position that shows why no-gi grappling has evolved so much - you can't rely on collar grips, so you have to get creative with body mechanics and leverage. In the 10th Planet system, we approach this position as part of a larger front headlock network where you're constantly flowing between guillotine variations, darces, and anacondas based on how your opponent defends. What makes the Hindulotine special is that the hip angle creates pressure that feels different from a standard guillotine, so even experienced grapplers who can defend traditional guillotines will sometimes get caught by the rotational torque. When I'm teaching this, I emphasize the importance of grip fighting and hand position before you even think about finishing - if your opponent gets their chin down and creates a frame, the position becomes much harder to finish. But if you can catch them in transition, maybe off a failed shot or during a scramble, and you lock up that grip while their posture is broken, it's lights out. The creativity comes in how you enter the position and how you transition out when they defend - this isn't a position where you just muscle through, it's about feeling their reactions and flowing with the movement."
+  }
+}
+Session limit reached ∙ resets 11am

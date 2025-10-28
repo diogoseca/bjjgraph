@@ -1391,7 +1391,7 @@ if (!successRateRegex.test(successRate)) {
 - [[Transitions/CONTRIBUTING-TRANSITIONS]] - Transition content creation guide (for contributors and improvement bot)
 - [[Submissions/CONTRIBUTING-SUBMISSIONS]] - Submission content creation guide (for contributors and improvement bot)
 - [[Systems/CONTRIBUTING-SYSTEMS]] - Systems content creation guide (for contributors and improvement bot)
-- [[Concepts/CONTRIBUTING-CONCEPTS]] - Concepts content creation guide (for contributors and improvement bot)
+- [[Principles/CONTRIBUTING-CONCEPTS]] - Concepts content creation guide (for contributors and improvement bot)
 - [Quartz Documentation](https://quartz.jzhao.xyz/) - Static site generator
 - [Schema.org HowTo](https://schema.org/HowTo) - Structured data reference
 - [YAML Specification](https://yaml.org/spec/) - YAML syntax reference

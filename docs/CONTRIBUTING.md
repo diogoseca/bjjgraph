@@ -71,7 +71,7 @@ source/content/
 │   ├── CONTRIBUTING-SUBMISSIONS.md  # Submission contributor guide
 │   ├── Triangle Finish.md
 │   └── ...
-├── Concepts/            # Fundamental principles (30+ files)
+├── Principles/            # Fundamental principles (30+ files)
 │   ├── CONTRIBUTING-CONCEPTS.md  # Concepts contributor guide
 │   └── ...
 ├── Systems/             # Integrated systems and strategies (21+ files)

@@ -1,0 +1,1231 @@
+{
+  "metadata": {
+    "title": "Combat Base Bottom | BJJ Position Guide | BJJ Graph",
+    "description": "Master Combat Base Bottom in BJJ. Essential defensive posture for guard retention with 60% recovery success. Complete guide covering framing and guard recovery.",
+    "state_id": "S121",
+    "tags": ["bjj", "position", "combat-base", "guard-bottom", "defensive", "guard-retention", "technical-standup"],
+    "parent_variant": "Combat Base",
+    "sibling_variants": ["Combat Base Top"]
+  },
+
+  "overview": "Combat Base Bottom is a critical defensive position where the bottom practitioner adopts a posting stance with one hand and one knee on the mat while their opponent attempts to consolidate passing position. This position represents a transitional state between full guard retention and being passed, requiring active defensive framing and explosive movement to prevent advancement. The bottom player must maintain proper base distribution, create frames against the passer's pressure, and utilize hip mobility to either recover guard or execute a technical stand-up.\n\nThis position is characterized by asymmetrical weight distribution, with the bottom player posting on one hand (typically the hand closest to the opponent) and one knee, while the opposite leg extends or creates distance. Combat Base Bottom is both a recovery position when escaping bad positions and a proactive stance when preparing to stand or re-establish guard. The position demands constant awareness of the opponent's pressure direction, grip configurations, and passing mechanics to successfully navigate back to more favorable positions.\n\nMastery of Combat Base Bottom is essential for modern BJJ practitioners, as it serves as a fundamental building block for guard retention systems, wrestling-based defensive tactics, and submission defense. The position's effectiveness relies on proper framing hierarchy, explosive hip movement, and the ability to transition quickly between defensive postures and offensive guard recovery.",
+
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive with offensive options",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short to Medium"
+  },
+
+  "state_invariants": [
+    "One hand posted on the mat with extended arm creating a vertical post, typically the hand closest to opponent's hips or upper body, bearing partial body weight and creating structural frame",
+    "One knee posted on the mat with shin perpendicular to ground, creating stable triangular base with posted hand and opposite foot, weight distributed through knee and hand to maintain elevation",
+    "Opposite leg extended or bent defensively with foot active on opponent's hips, thighs, or creating distance, prepared to push, hook, or pivot as needed for guard recovery or technical stand-up",
+    "Hips elevated off the mat with space between buttocks and ground, creating mobility for shrimping, pivoting, or explosive movement, preventing opponent from settling their weight",
+    "Spine maintained in neutral or slightly rounded position to protect from submissions, with head and shoulders facing opponent to maintain visual contact and defensive awareness",
+    "Body positioned on side rather than flat on back, with posted hand and knee on same side creating strong structural frame, opposite side free for movement and guard recovery"
+  ],
+
+  "prerequisites": [
+    "Opponent attempting to pass guard or consolidate passing position",
+    "Bottom player transitioning from guard position or defensive position",
+    "Space created between bottom player's back and the mat",
+    "At least one leg free to create distance or frame",
+    "Sufficient base to support posted hand and knee configuration",
+    "Opponent not yet achieving dominant control points (crossface, hip control, etc.)"
+  ],
+
+  "key_principles": [
+    "Maintain strong posting structure with extended arm and perpendicular shin to create maximum structural integrity and prevent collapse under pressure",
+    "Keep hips elevated and mobile, never allowing them to settle flat on mat, enabling quick pivoting, shrimping, or explosive technical stand-up movements",
+    "Use extended leg actively to create distance, frame against opponent's hips or chest, and prevent them from closing space or consolidating control",
+    "Maintain head position awareness with chin tucked and eyes on opponent, protecting neck from guillotines and monitoring opponent's grip attempts",
+    "Create constant movement and pressure adjustments to prevent opponent from settling their weight or establishing grip control",
+    "Coordinate posting hand and knee on same side of body to create strong structural frame while keeping opposite side mobile for guard recovery",
+    "Transition quickly between combat base and other positions (guard, technical stand-up) based on opponent's pressure direction and passing strategy"
+  ],
+
+  "offensive_transitions": [
+    {
+      "technique": "Technical Stand Up to Single Leg",
+      "target_position": "Standing Position",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Re-Guard",
+      "target_position": "Closed Guard Bottom",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Butterfly Sweep",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Hip Escape",
+      "target_position": "Open Guard Bottom",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Guard Recovery",
+      "target_position": "Half Guard Bottom",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Standing up in Base",
+      "target_position": "Standing Guard Bottom",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Shrimp Escape",
+      "target_position": "Butterfly Guard Bottom",
+      "success_rates": {
+        "beginner": 38,
+        "intermediate": 52,
+        "advanced": 67
+      }
+    },
+    {
+      "technique": "Granby Roll",
+      "target_position": "Deep Half Guard Bottom",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    }
+  ],
+
+  "defensive_responses": [
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 45
+    },
+    {
+      "technique": "Toreando Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 40
+    },
+    {
+      "technique": "Leg Drag Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 42
+    },
+    {
+      "technique": "Pressure Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 48
+    },
+    {
+      "technique": "Smash Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 50
+    },
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 38
+    }
+  ],
+
+  "counter_transitions": [
+    {
+      "technique": "Frame and Shrimp",
+      "target_position": "Closed Guard Bottom",
+      "trigger": "Opponent attempts to settle hips or establish crossface"
+    },
+    {
+      "technique": "Technical Standup",
+      "target_position": "Standing Position",
+      "trigger": "Opponent creates excessive distance or backs away from engagement"
+    },
+    {
+      "technique": "Underhook Sweep",
+      "target_position": "Top Position",
+      "trigger": "Opponent overcommits weight forward without proper base"
+    },
+    {
+      "technique": "Butterfly Hook Retention",
+      "target_position": "Butterfly Guard Bottom",
+      "trigger": "Opponent steps into range with knee or leg"
+    },
+    {
+      "technique": "Shin Shield Recovery",
+      "target_position": "Knee Shield Half Guard Bottom",
+      "trigger": "Opponent drives forward with upper body pressure"
+    }
+  ],
+
+  "decision_tree": [
+    {
+      "condition": "If opponent drives forward with heavy chest pressure attempting to flatten bottom player",
+      "actions": [
+        {
+          "technique": "Frame and Shrimp",
+          "target": "Open Guard Bottom",
+          "probability": 60
+        },
+        {
+          "technique": "Hip Escape",
+          "target": "Butterfly Guard Bottom",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent creates distance or backs away from engagement",
+      "actions": [
+        {
+          "technique": "Technical Stand Up to Single Leg",
+          "target": "Standing Position",
+          "probability": 65
+        },
+        {
+          "technique": "Standing up in Base",
+          "target": "Standing Guard Bottom",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts knee slice or leg weave with forward pressure",
+      "actions": [
+        {
+          "technique": "Re-Guard",
+          "target": "Half Guard Bottom",
+          "probability": 58
+        },
+        {
+          "technique": "Shin Shield Recovery",
+          "target": "Knee Shield Half Guard Bottom",
+          "probability": 52
+        }
+      ]
+    },
+    {
+      "condition": "If opponent overcommits weight forward without establishing grips",
+      "actions": [
+        {
+          "technique": "Butterfly Sweep",
+          "target": "Top Position",
+          "probability": 55
+        },
+        {
+          "technique": "Underhook Sweep",
+          "target": "Top Position",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent controls posted hand or attempts to break posting structure",
+      "actions": [
+        {
+          "technique": "Granby Roll",
+          "target": "Deep Half Guard Bottom",
+          "probability": 48
+        },
+        {
+          "technique": "Guard Recovery",
+          "target": "Closed Guard Bottom",
+          "probability": 45
+        }
+      ]
+    }
+  ],
+
+  "common_errors": [
+    {
+      "error": "Allowing hips to settle flat on mat instead of maintaining elevation",
+      "consequence": "Loss of mobility and inability to shrimp or pivot, making guard recovery nearly impossible and allowing opponent to consolidate passing position",
+      "correction": "Actively drive posted knee and hand into mat to create constant upward pressure on hips, never allowing buttocks to touch mat for more than brief moment during transitions"
+    },
+    {
+      "error": "Posting with bent arm instead of fully extended structural post",
+      "consequence": "Weak frame that collapses under opponent's pressure, allowing them to flatten bottom player and advance to side control or mount",
+      "correction": "Extend posting arm completely with locked elbow, creating vertical post from shoulder to mat, using skeletal structure rather than muscular strength to support weight"
+    },
+    {
+      "error": "Keeping extended leg passive without active framing or distance creation",
+      "consequence": "Opponent easily controls or passes the inactive leg, consolidating position and advancing to dominant control",
+      "correction": "Actively push extended foot into opponent's hips, chest, or biceps, creating constant pressure and distance while monitoring their passing attempts"
+    },
+    {
+      "error": "Looking away from opponent or dropping head toward mat",
+      "consequence": "Loss of visual awareness and increased vulnerability to guillotines, anacondas, or other front headlock attacks",
+      "correction": "Keep head up with eyes on opponent at all times, chin tucked to protect neck, maintaining constant visual monitoring of their grips and pressure direction"
+    },
+    {
+      "error": "Remaining static in combat base without transitioning to better positions",
+      "consequence": "Opponent settles into passing position with grips and pressure, eventually overwhelming the defensive structure",
+      "correction": "Use combat base as transitional position only, immediately working toward guard recovery, technical stand-up, or sweep based on opponent's reactions"
+    },
+    {
+      "error": "Posting hand and knee on opposite sides of body instead of same side",
+      "consequence": "Weak, unstable base that easily collapses under lateral pressure, preventing effective guard recovery or technical stand-up",
+      "correction": "Always post hand and knee on same side of body to create strong triangular base, keeping opposite side free and mobile for defensive movement"
+    },
+    {
+      "error": "Failing to coordinate posting structure with hip movement",
+      "consequence": "Disconnected defensive efforts that don't prevent passing and waste energy without achieving guard recovery",
+      "correction": "Synchronize posting pressure with hip escapes and shrimping, using posted structures to create leverage for explosive hip movement"
+    }
+  ],
+
+  "training_drills": [
+    {
+      "name": "Combat Base Retention Drill",
+      "description": "Partner applies varying levels of passing pressure while bottom player maintains combat base structure, focusing on keeping hips elevated, posting arm extended, and active leg framing. Partner increases pressure gradually from 30% to 70% over 3-minute rounds. Reset position if bottom player is flattened.",
+      "duration": "3 minutes x 3 rounds"
+    },
+    {
+      "name": "Technical Stand-Up from Combat Base",
+      "description": "Starting in combat base bottom, bottom player executes technical stand-up sequence repeatedly: post hand, post knee, extend free leg, create base, drive up to standing position. Partner applies light resistance (25-40%) to posting structures. Focus on explosive hip drive and maintaining balance throughout transition. Complete 10 successful stand-ups per round.",
+      "duration": "5 minutes x 2 rounds"
+    },
+    {
+      "name": "Guard Recovery Chains from Combat Base",
+      "description": "Bottom player starts in combat base with partner attempting to pass. Bottom player must successfully recover to closed guard, half guard, butterfly guard, or open guard within 30 seconds. If passed, reset to combat base and try different recovery path. Track which guards are easier to recover and identify patterns in successful recoveries.",
+      "duration": "5 minutes x 3 rounds"
+    },
+    {
+      "name": "Combat Base Sweep Drill",
+      "description": "Partner stands in front of bottom player who is in combat base position. Bottom player executes butterfly sweeps, hip bump sweeps, or underhook sweeps when partner overcommits weight forward. Partner alternates between backing away (triggering technical stand-up) and pressing forward (triggering sweeps). Focus on reading partner's weight distribution and timing sweeps precisely.",
+      "duration": "4 minutes x 3 rounds"
+    },
+    {
+      "name": "Pressure Response Drill",
+      "description": "Bottom player in combat base, partner applies specific passing pressure patterns: (1) heavy chest pressure, (2) leg weave/knee slice, (3) distance creation, (4) grip attacks on posting structures. Bottom player must respond appropriately: shrimp and frame for pressure, re-guard for leg attacks, technical stand-up for distance, Granby roll for posting attacks. Partner calls out scenario number, bottom player executes appropriate response.",
+      "duration": "6 minutes x 2 rounds"
+    }
+  ],
+
+  "optimal_submission_paths": [
+    {
+      "name": "Technical stand-up to wrestling-based control path",
+      "path": "Combat Base Bottom → Technical Stand Up to Single Leg → Standing Position → Single Leg Takedown → Top Position → Transition to dominant position → Submission"
+    },
+    {
+      "name": "Guard recovery to closed guard attack path",
+      "path": "Combat Base Bottom → Re-Guard → Closed Guard Bottom → Triangle Setup → Triangle Control Bottom → Triangle Choke Front"
+    },
+    {
+      "name": "Butterfly sweep to mount submission path",
+      "path": "Combat Base Bottom → Butterfly Sweep → Mount Top → Armbar from Mount"
+    },
+    {
+      "name": "Hip escape to half guard submission path",
+      "path": "Combat Base Bottom → Hip Escape → Half Guard Bottom → Underhook Sweep from Half → Top Position → Kimura from Side Control"
+    },
+    {
+      "name": "Granby roll to deep half sweep path",
+      "path": "Combat Base Bottom → Granby Roll → Deep Half Guard Bottom → Deep Half Entry → Sweep to Top Position → Pressure Pass → Side Control Top → Kimura from Side Control"
+    }
+  ],
+
+  "related_content": [
+    {
+      "name": "Technical Standup",
+      "relationship": "Primary offensive transition for creating distance and standing"
+    },
+    {
+      "name": "Guard Recovery",
+      "relationship": "Core defensive strategy for returning to guard positions"
+    },
+    {
+      "name": "Closed Guard Bottom",
+      "relationship": "Common transition target when successfully recovering guard"
+    },
+    {
+      "name": "Half Guard Bottom",
+      "relationship": "Alternative guard recovery target with easier entry requirements"
+    },
+    {
+      "name": "Butterfly Guard Bottom",
+      "relationship": "Transition target when opponent steps into range with forward pressure"
+    },
+    {
+      "name": "Standing Guard Bottom",
+      "relationship": "Advanced transition when executing technical stand-up successfully"
+    },
+    {
+      "name": "Frame Management",
+      "relationship": "Essential concept for maintaining posting structures and creating space"
+    },
+    {
+      "name": "Hip Escape Mechanics",
+      "relationship": "Fundamental movement pattern for guard recovery from combat base"
+    },
+    {
+      "name": "Guard Retention Concepts",
+      "relationship": "Theoretical framework for defensive tactics in this position"
+    },
+    {
+      "name": "Defensive Framing",
+      "relationship": "Core principle for using posted hand and extended leg effectively"
+    },
+    {
+      "name": "Technical Standup Concept",
+      "relationship": "Conceptual understanding of explosive standing transitions"
+    },
+    {
+      "name": "Shrimping",
+      "relationship": "Essential hip movement pattern for creating space and recovering guard"
+    }
+  ],
+
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 45,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "advancement_probability": {
+      "beginner": 35,
+      "intermediate": 50,
+      "advanced": 65
+    },
+    "submission_probability": {
+      "beginner": 5,
+      "intermediate": 10,
+      "advanced": 18
+    },
+    "average_time": "15-45 seconds"
+  },
+
+  "expert_insights": {
+    "danaher": "Combat base bottom represents a critical junction point in the guard retention hierarchy where the practitioner must make rapid decisions based on the opponent's pressure vectors and grip configurations. The biomechanical efficiency of this position derives from its triangular base structure—posting hand, posting knee, and extended leg create three points of stability that can be dynamically adjusted based on incoming pressure. The key systematic error I observe in developing practitioners is their tendency to remain passive in combat base, treating it as a static defensive position rather than an active transitional state. Combat base should function as a launching platform for explosive movements toward either vertical displacement through technical stand-ups or horizontal guard recovery through shrimping and re-guarding sequences. The posting structures must maintain maximum structural integrity through skeletal alignment rather than muscular tension—locked elbow, vertical forearm, perpendicular shin—allowing the practitioner to sustain defensive pressure efficiently. When the opponent applies forward pressure, the correct response involves converting that pressure into rotational movement through hip escapes while maintaining frame integrity. The decision tree from combat base must prioritize the most energy-efficient path to improvement: if distance exists, stand up; if the opponent is close, recover guard; if they overcommit, sweep. This systematic approach to combat base transforms a potentially vulnerable position into a dynamic defensive platform with multiple high-percentage escape routes.",
+    "gordon_ryan": "Combat base bottom is one of those positions where you can't afford to just hang out and think about your options—you need to move immediately and decisively or you're getting passed. In competition, I use combat base as a springboard position when guys are working hard to pass my guard, and the key is recognizing instantly whether to stand up or pull them back into guard based on their pressure and grips. If they're backing away or creating distance, I'm immediately hitting a technical stand-up because that's a free transition to neutral or even a takedown opportunity if I'm quick. If they're driving forward hard, that's when I'm using their pressure against them with hip escapes and re-guarding to closed guard or half guard—their forward momentum actually helps me create the angles I need for guard recovery. The biggest mistake I see competitors make in combat base is being too defensive and not recognizing sweep opportunities when the passer overcommits their weight forward. Against less experienced passers, I'm constantly looking for butterfly sweeps or underhook sweeps from combat base because they get eager and lean too far forward without securing proper grips. The posting hand is absolutely critical—you need it fully extended and locked out, not bent, because a bent arm collapses instantly under pressure and then you're flat on your back getting passed. In no-gi especially, combat base becomes even more important because the technical stand-up options are so readily available without gi grips slowing you down. I drill combat base transitions constantly because it's such a common position in modern competition BJJ—everyone is trying to pass aggressively, and you need to be comfortable in that scramble space where combat base lives.",
+    "eddie_bravo": "Combat base bottom is an underrated position in the 10th Planet system because most people think of it as just a defensive position, but we use it offensively as a setup for technical stand-ups and unconventional guard recoveries that confuse traditional passers. When you're in combat base, you've got this explosive potential energy stored up in your posting structures, and you can release it in multiple directions depending on what the top guy is doing—it's like a compressed spring ready to launch you either vertically to standing or horizontally back to guard. One technique we emphasize heavily is the Granby roll from combat base when the top guy is trying to break down your posting hand or control your head—instead of fighting their grip, you use that commitment to execute a rolling motion that takes you under their base and into deep half guard or even taking the back in some situations. The key innovation in our approach to combat base is treating it as part of a larger guard retention matrix where you're constantly flowing between combat base, seated guard, and standing positions based on the passer's reactions. We also integrate rubber guard entries from combat base when the opponent gets too close—if they drive their head down near your chest while you're in combat base, you can sometimes catch a high guard or mission control entry that completely changes the dynamic. The technical stand-up from combat base is fundamental in our system because it transitions seamlessly into wrestling-based attacks or re-engagement on your terms, and we drill it extensively with resistance so it becomes automatic when you feel that space opening up. Don't sleep on the offensive potential of combat base—it's not just about surviving the pass, it's about creating dilemmas for the passer where they have to choose between staying close and getting swept or backing off and letting you stand up, and either way you're improving your position."
+  }
+}
+{
+  "metadata": {
+    "title": "Combat Base | BJJ Position Guide | BJJ Graph",
+    "description": "Master Combat Base in BJJ. Essential top position for guard passing with 70% retention rate. Learn control principles, passing entries, and defensive responses.",
+    "state_id": "S028",
+    "tags": ["bjj", "position", "combat-base", "guard-passing", "top-position", "neutral"]
+  },
+  "overview": "Combat Base is a fundamental top position in Brazilian Jiu-Jitsu where the practitioner establishes a stable, mobile platform inside the opponent's guard. The position is characterized by one knee posted on the mat and the opposite foot planted flat, creating a triangulated base that allows for effective weight distribution, posture maintenance, and guard passing opportunities. This position serves as the primary platform for initiating most standing and kneeling guard passes while providing strong defensive structure against sweeps and submission attempts.\n\nCombat Base represents the critical transition point between simply being inside the opponent's guard and actively working to pass. The position balances offensive pressure with defensive stability, allowing the top practitioner to control distance, break grips, and create passing angles while remaining resistant to the bottom player's attacks. The asymmetrical stance—with one knee down and one foot planted—provides mobility for circling, stepping, and pressure application while maintaining a low center of gravity that prevents being swept or elevated.\n\nMastery of Combat Base is essential for all guard passing systems, as it forms the foundation from which techniques like the Toreando Pass, Knee Slice Pass, and Long Step Pass are initiated. The position emphasizes proper weight distribution through the posted knee and planted foot, active hand positioning to control the opponent's hips and legs, and dynamic posture that can shift between offensive pressure and defensive structure. Understanding Combat Base mechanics is crucial for developing a well-rounded top game and effective guard passing strategy.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Neutral",
+    "risk_level": "Low to Medium",
+    "energy_cost": "Low",
+    "time_sustainability": "Long"
+  },
+  "state_invariants": [
+    "One knee posted on the mat with foot extended back, creating a stable triangular base point that distributes weight efficiently",
+    "Opposite foot planted flat on the mat with knee raised, positioned near opponent's hip line to control distance and create mobility",
+    "Upright posture maintained with spine straight and head above hips, preventing forward collapse while maintaining structural integrity",
+    "Hands actively engaged with opponent's hips, legs, or gi grips to control distance and prevent the opponent from closing guard or establishing dominant grips",
+    "Weight distributed between posted knee and planted foot in approximately 60-40 ratio, allowing for quick weight shifts and directional changes",
+    "Hips positioned above opponent's hip line, maintaining sufficient distance to prevent triangle attacks while close enough to apply passing pressure"
+  ],
+  "prerequisites": [
+    "Successfully opened opponent's closed guard or entered open guard position",
+    "Established initial grip control on opponent's legs, hips, or gi",
+    "Cleared immediate submission threats such as triangle or armbar setups",
+    "Created sufficient space to transition from kneeling to combat base stance",
+    "Maintained upright posture with proper head and spine alignment"
+  ],
+  "key_principles": [
+    "Maintain triangulated base with posted knee, planted foot, and hips forming stable geometric structure",
+    "Keep spine upright and head positioned above hips to prevent forward collapse and maintain structural integrity",
+    "Distribute weight dynamically between posted knee and planted foot based on passing direction and opponent reactions",
+    "Control opponent's hips and legs with active hand positioning to manage distance and prevent guard retention",
+    "Use planted foot to generate mobility for circling, stepping, and angle creation while maintaining base stability",
+    "Keep elbows tight to body and avoid overextending arms to prevent armbars and omoplata attacks",
+    "Adjust stance width and knee position based on opponent's guard type and defensive strategy"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Knee Slice Position Top",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Toreando Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Long Step Pass",
+      "target_position": "Long Step Position Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Double Under Pass",
+      "target_position": "Double Unders Position",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Knee Cut Pass",
+      "target_position": "Knee Cut Position",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Leg Drag Pass",
+      "target_position": "Leg Drag Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Headquarters Pass",
+      "target_position": "Headquarters Position Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Smash Pass",
+      "target_position": "Smash Pass Position",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "De La Riva Guard Entry",
+      "target_position": "De La Riva Guard Bottom",
+      "success_rate": 40
+    },
+    {
+      "technique": "X-Guard Entry",
+      "target_position": "X-Guard Bottom",
+      "success_rate": 35
+    },
+    {
+      "technique": "Single Leg X Entry",
+      "target_position": "Single Leg X Guard Bottom",
+      "success_rate": 35
+    },
+    {
+      "technique": "Butterfly Guard Retention",
+      "target_position": "Butterfly Guard Bottom",
+      "success_rate": 40
+    },
+    {
+      "technique": "Reverse De La Riva Entry",
+      "target_position": "Reverse De La Riva Guard Bottom",
+      "success_rate": 30
+    },
+    {
+      "technique": "Spider Guard Establishment",
+      "target_position": "Spider Guard Bottom",
+      "success_rate": 35
+    },
+    {
+      "technique": "Lasso Guard Entry",
+      "target_position": "Lasso Guard Bottom",
+      "success_rate": 30
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Knee Slice Position Top",
+      "trigger": "Opponent attempts to re-establish closed guard or frames against chest"
+    },
+    {
+      "technique": "Leg Drag Pass",
+      "target_position": "Leg Drag Control Top",
+      "trigger": "Opponent extends legs for distance creation or attempts to establish De La Riva hook"
+    },
+    {
+      "technique": "Toreando Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent elevates hips for sweep attempt or creates space between bodies"
+    },
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent pulls knees to chest in defensive turtle position"
+    },
+    {
+      "technique": "Over-Under Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent attempts to create frames with legs extended"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent maintains open guard with feet on hips and active frames",
+      "actions": [
+        {
+          "technique": "Toreando Pass",
+          "target": "Side Control Top",
+          "probability": 55
+        },
+        {
+          "technique": "Leg Drag Pass",
+          "target": "Leg Drag Control Top",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to close guard or establish butterfly hooks",
+      "actions": [
+        {
+          "technique": "Knee Slice Pass",
+          "target": "Knee Slice Position Top",
+          "probability": 60
+        },
+        {
+          "technique": "Smash Pass",
+          "target": "Smash Pass Position",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent establishes De La Riva or X-Guard hooks",
+      "actions": [
+        {
+          "technique": "Leg Drag Pass",
+          "target": "Leg Drag Control Top",
+          "probability": 50
+        },
+        {
+          "technique": "Headquarters Pass",
+          "target": "Headquarters Position Top",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent creates distance and extends legs defensively",
+      "actions": [
+        {
+          "technique": "Long Step Pass",
+          "target": "Long Step Position Top",
+          "probability": 50
+        },
+        {
+          "technique": "Toreando Pass",
+          "target": "Side Control Top",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent pulls knees to chest in defensive posture",
+      "actions": [
+        {
+          "technique": "Double Under Pass",
+          "target": "Double Unders Position",
+          "probability": 45
+        },
+        {
+          "technique": "Stack Pass",
+          "target": "Side Control Top",
+          "probability": 50
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Posting with ball of foot instead of flat foot on planted side",
+      "consequence": "Reduces stability and mobility, making it difficult to generate passing pressure or react to opponent's movements",
+      "correction": "Plant entire foot flat on mat with toes pointing forward, creating maximum surface contact and allowing for explosive movement in any direction"
+    },
+    {
+      "error": "Leaning forward with weight over opponent's chest and head down",
+      "consequence": "Makes practitioner vulnerable to triangle chokes, armbars, and omoplata attacks while reducing base stability",
+      "correction": "Keep spine upright with head above hips, distributing weight through posted knee and planted foot rather than leaning on opponent"
+    },
+    {
+      "error": "Keeping both knees on mat without establishing combat base stance",
+      "consequence": "Eliminates mobility and makes it impossible to generate passing pressure or create angles effectively",
+      "correction": "Transition to proper combat base with one knee posted and opposite foot planted, creating asymmetrical stance for dynamic movement"
+    },
+    {
+      "error": "Extending arms fully to post on opponent's hips or legs",
+      "consequence": "Creates vulnerability to armbars, kimuras, and omoplatas while losing ability to control opponent's movement",
+      "correction": "Keep elbows bent at approximately 90 degrees with hands actively controlling opponent's hips and legs close to body"
+    },
+    {
+      "error": "Allowing opponent to establish strong collar and sleeve grips",
+      "consequence": "Gives bottom player ability to break posture, create angles, and set up sweeps and submissions effectively",
+      "correction": "Fight grips aggressively before establishing combat base, breaking opponent's grips by circling wrists and controlling sleeves"
+    },
+    {
+      "error": "Positioning hips too far back from opponent's hip line",
+      "consequence": "Creates too much distance for effective passing pressure and allows opponent to easily establish distance-based guards",
+      "correction": "Keep hips positioned directly above opponent's hip line while maintaining enough distance to prevent triangle entries"
+    },
+    {
+      "error": "Remaining static in combat base without creating angles or pressure",
+      "consequence": "Allows opponent time to establish preferred guard and set up attacks without facing passing pressure",
+      "correction": "Use planted foot to constantly create new angles, circle around opponent's guard, and apply dynamic pressure variations"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Combat Base Establishment Drill",
+      "description": "Partner starts in closed guard. Top player opens guard and immediately establishes combat base with proper posture, hand positioning, and base structure. Bottom player provides moderate resistance. Repeat 10 times per round, alternating sides.",
+      "duration": "5 minutes"
+    },
+    {
+      "name": "Dynamic Base Retention Against Sweeps",
+      "description": "Top player maintains combat base while bottom player attempts various sweep entries (butterfly, X-guard, De La Riva). Top player focuses on weight distribution, base recovery, and maintaining structural integrity. Work 2-minute rounds with active resistance.",
+      "duration": "10 minutes"
+    },
+    {
+      "name": "Combat Base Passing Combinations",
+      "description": "From combat base, practice flowing between different passing entries (Toreando, Knee Slice, Long Step) based on opponent's defensive reactions. Bottom player provides realistic guard retention. Focus on smooth transitions between passing options.",
+      "duration": "8 minutes"
+    },
+    {
+      "name": "Posture Recovery Drill",
+      "description": "Bottom player establishes strong grips and attempts to break top player's posture. Top player practices recovering upright combat base position using proper mechanics: grip breaks, circular wrist movements, and base reestablishment. 1-minute rounds.",
+      "duration": "6 minutes"
+    },
+    {
+      "name": "Angle Creation Flow Drill",
+      "description": "From combat base, use planted foot to circle around opponent's guard, creating new passing angles every 3-5 seconds. Bottom player maintains guard retention efforts. Focus on fluid movement while maintaining base integrity.",
+      "duration": "5 minutes"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Shortest path to submission",
+      "path": "Combat Base → Toreando Pass → Side Control Top → Kimura"
+    },
+    {
+      "name": "High-percentage control path",
+      "path": "Combat Base → Knee Slice Pass → Knee Slice Position Top → Mount Top → Armbar from Mount"
+    },
+    {
+      "name": "Pressure-based submission path",
+      "path": "Combat Base → Smash Pass → Side Control Top → North-South Top → North-South Choke"
+    },
+    {
+      "name": "Back attack path",
+      "path": "Combat Base → Long Step Pass → Back Control Top → Rear Naked Choke"
+    },
+    {
+      "name": "Leg entanglement path",
+      "path": "Combat Base → Headquarters Pass → Headquarters Position Top → Saddle Position Top → Heel Hook"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Closed Guard Top",
+      "relationship": "Precursor position - Combat Base is established after opening closed guard"
+    },
+    {
+      "name": "Open Guard Top",
+      "relationship": "Parent category - Combat Base is primary stance for top player in open guard"
+    },
+    {
+      "name": "Knee Slice Position Top",
+      "relationship": "Transition target - Primary passing entry from combat base"
+    },
+    {
+      "name": "Headquarters Position Top",
+      "relationship": "Transition target - Alternative passing position from combat base"
+    },
+    {
+      "name": "Toreando Pass",
+      "relationship": "Primary transition - Most common dynamic pass from combat base"
+    },
+    {
+      "name": "Guard Passing Principles",
+      "relationship": "Foundational concept - Core principles applied in combat base"
+    },
+    {
+      "name": "Base Maintenance",
+      "relationship": "Core concept - Essential for maintaining combat base integrity"
+    },
+    {
+      "name": "Posture Up",
+      "relationship": "Core concept - Critical for effective combat base structure"
+    },
+    {
+      "name": "Pressure Passing",
+      "relationship": "System concept - Combat base serves as platform for pressure passing"
+    },
+    {
+      "name": "De La Riva Guard Bottom",
+      "relationship": "Counter position - Common guard retention response to combat base"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 50,
+      "intermediate": 65,
+      "advanced": 75
+    },
+    "advancement_probability": {
+      "beginner": 35,
+      "intermediate": 50,
+      "advanced": 65
+    },
+    "submission_probability": {
+      "beginner": 5,
+      "intermediate": 10,
+      "advanced": 15
+    },
+    "average_time": "30-90 seconds"
+  },
+  "expert_insights": {
+    "danaher": "Combat Base represents the fundamental mechanical platform from which all guard passing systems must originate. The position's efficacy derives from its geometric efficiency—the triangulated structure created by the posted knee, planted foot, and elevated hips forms a stable base that can withstand multi-directional forces while maintaining mobility. The key biomechanical principle is weight distribution: approximately 60% of body weight should transfer through the posted knee to create downward pressure that limits the opponent's hip mobility, while 40% remains on the planted foot to enable rapid directional changes and angular movement. The upright posture is non-negotiable—forward lean compromises structural integrity and creates vulnerability to submission attacks by placing the head and arms within the opponent's offensive sphere. When executed correctly, combat base transforms the guard passing game from a chaotic scramble into a systematic progression where each movement maintains structural advantages while progressively limiting the opponent's defensive options.",
+    "gordon_ryan": "In competition, combat base is your default position whenever you're working to pass guard—it's the position you return to after every passing attempt, every grip fight, every scramble. The difference between good combat base and great combat base is your ability to make micro-adjustments based on what the opponent is doing. If they're trying to establish De La Riva hooks, you adjust your stance wider and shift weight to the threatened side. If they're setting up butterfly hooks, you narrow your base and drive forward pressure. The planted foot is your mobility engine—use it constantly to circle, to create new angles, to step over legs. I'm never static in combat base; I'm always moving, always pressuring, always forcing the bottom player to react to my movements rather than executing their game plan. The moment you become stationary in combat base, you've given the bottom player time to establish their preferred guard and start their attacks. Modern guard retention is too good to allow that luxury—you need to pass before they can get settled.",
+    "eddie_bravo": "Combat base in no-gi is completely different than in the gi—you can't rely on collar and sleeve grips to maintain distance and control, so your base has to be even more dynamic and pressure-oriented. In 10th Planet system, we think of combat base as the launching pad for our passing sequences, but we're also hyper-aware of leg entanglement threats. The modern leg lock game has changed combat base mechanics because you can't just post a knee without considering inside heel hook entries or X-guard transitions. We teach a more mobile, pressure-heavy version where you're constantly switching which leg is posted, which foot is planted, creating this flowing movement that makes it hard for the bottom player to establish hooks or control points. The key innovation is integrating upper body pressure with lower body mobility—use your shoulder and chest to create frames against the opponent's legs while your base structure allows you to flow around their guard. It's less about static stability and more about controlled chaos where you're always moving but never off-balance."
+  }
+}
+{
+  "metadata": {
+    "title": "Combat Base Top | BJJ Position Guide | BJJ Graph",
+    "description": "Master Combat Base Top in BJJ. Essential guard passing posture with 70% passing success. Learn weight distribution, pressure application, and passing sequences.",
+    "state_id": "S201",
+    "tags": ["bjj", "position", "combat-base", "guard-passing", "top-position", "passing-posture"],
+    "parent_variant": "Combat Base",
+    "sibling_variants": ["Combat Base Bottom"]
+  },
+  "overview": "Combat Base Top is the fundamental guard passing posture where the top player maintains a stable, defensive stance while applying forward pressure to initiate guard passes. This position represents the critical transitional state between standing and engaging with the guard player's legs. The practitioner establishes a wide base with one knee posted on the mat and the other foot flat, creating a tripod structure that maximizes stability while allowing dynamic movement. Combat Base serves as the launching platform for virtually all seated guard passing sequences, providing the structural foundation necessary to break grips, control distance, and advance position. The position emphasizes defensive posture to prevent sweeps and submissions while maintaining offensive pressure through strategic weight distribution and grip fighting. Mastery of Combat Base Top is essential for effective guard passing, as it allows the practitioner to safely navigate the dangerous transition from standing to ground engagement while maintaining superior position and control.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium to Long"
+  },
+  "state_invariants": [
+    "One knee posted on mat inside opponent's guard with shin perpendicular to their centerline, creating stable base point that anchors entire structure",
+    "Opposite foot flat on mat outside opponent's guard with knee elevated above hips, forming tripod base with posted knee and both hands",
+    "Torso upright with head elevated above hips, chin tucked to chest, and shoulders squared to opponent preventing forward rolls or triangle entries",
+    "Both hands posted on opponent's hips, thighs, or grips with elbows inside knees, maintaining frame that controls distance and prevents guard closure",
+    "Weight distributed approximately 60% on posted knee, 40% on flat foot, with center of gravity low and mobile for quick directional changes"
+  ],
+  "prerequisites": [
+    "Successful grip break from closed guard or initial engagement with open guard",
+    "Establishment of distance control preventing opponent from controlling head or upper body",
+    "One knee successfully placed inside opponent's guard with stable posting",
+    "Opposite leg positioned outside guard creating wide base for stability",
+    "Defensive posture established with upright torso and protected neck"
+  ],
+  "key_principles": [
+    "Maintain tripod base with posted knee, flat foot, and both hands creating stable three-point contact structure",
+    "Keep weight distributed low through hips with center of gravity below opponent's center preventing easy sweeps",
+    "Protect neck by keeping chin tucked and head elevated above hips at all times",
+    "Control distance through active hand posting on opponent's hips, thighs, or grips preventing guard closure",
+    "Stay mobile and ready to adjust base in any direction responding to opponent's sweep attempts",
+    "Apply forward pressure through posted knee driving into opponent's centerline creating passing opportunities",
+    "Keep elbows inside knees maintaining compact defensive frame that prevents arm drags and triangles"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Knee Slice Position Top",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Toreando Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Long Step Pass",
+      "target_position": "Long Step Position Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Smash Pass",
+      "target_position": "Smash Pass Position",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "X Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 68
+      }
+    },
+    {
+      "technique": "Leg Drag Pass",
+      "target_position": "Leg Drag Control",
+      "success_rates": {
+        "beginner": 38,
+        "intermediate": 52,
+        "advanced": 67
+      }
+    },
+    {
+      "technique": "Double Under Pass",
+      "target_position": "Double Unders Position",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 32,
+        "intermediate": 47,
+        "advanced": 62
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "De La Riva Hook",
+      "target_position": "De La Riva Guard Bottom",
+      "success_rate": 55
+    },
+    {
+      "technique": "Butterfly Hook Retention",
+      "target_position": "Butterfly Guard Bottom",
+      "success_rate": 50
+    },
+    {
+      "technique": "Collar Drag",
+      "target_position": "Back Control Bottom",
+      "success_rate": 35
+    },
+    {
+      "technique": "Arm Drag to Back",
+      "target_position": "Back Control Bottom",
+      "success_rate": 40
+    },
+    {
+      "technique": "Shin Shield Recovery",
+      "target_position": "Knee Shield Half Guard Bottom",
+      "success_rate": 45
+    },
+    {
+      "technique": "X-Guard Sweep",
+      "target_position": "X-Guard Bottom",
+      "success_rate": 42
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Base Widening",
+      "target_position": "Combat Base Top",
+      "trigger": "Opponent attempts sweep by pulling posted knee"
+    },
+    {
+      "technique": "Knee Cut Pass",
+      "target_position": "Knee Slice Position Top",
+      "trigger": "Opponent over-commits to De La Riva hook"
+    },
+    {
+      "technique": "Sprawl Defense",
+      "target_position": "Front Headlock Top",
+      "trigger": "Opponent shoots for single leg on posted knee"
+    },
+    {
+      "technique": "Guillotine Defense",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent attempts guillotine from guard"
+    },
+    {
+      "technique": "Pressure Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent creates excessive distance with frames"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent establishes strong De La Riva hook on posted leg",
+      "actions": [
+        {
+          "technique": "Leg Drag Pass",
+          "target": "Leg Drag Control",
+          "probability": 65
+        },
+        {
+          "technique": "Back Step",
+          "target": "Headquarters Position Top",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent frames with both feet on hips maintaining distance",
+      "actions": [
+        {
+          "technique": "Toreando Pass",
+          "target": "Side Control Top",
+          "probability": 70
+        },
+        {
+          "technique": "Knee Slice Pass",
+          "target": "Knee Slice Position Top",
+          "probability": 65
+        }
+      ]
+    },
+    {
+      "condition": "If opponent closes guard or attempts triangle entry",
+      "actions": [
+        {
+          "technique": "Posture Recovery",
+          "target": "Closed Guard Top",
+          "probability": 60
+        },
+        {
+          "technique": "Stack Pass",
+          "target": "Side Control Top",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent establishes butterfly hooks on posted knee",
+      "actions": [
+        {
+          "technique": "Smash Pass",
+          "target": "Smash Pass Position",
+          "probability": 68
+        },
+        {
+          "technique": "Long Step Pass",
+          "target": "Long Step Position Top",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts collar drag or arm drag",
+      "actions": [
+        {
+          "technique": "Base Widening",
+          "target": "Combat Base Top",
+          "probability": 75
+        },
+        {
+          "technique": "Sprawl Defense",
+          "target": "Front Headlock Top",
+          "probability": 65
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Keeping weight too high on shoulders instead of hips",
+      "consequence": "Makes practitioner susceptible to easy sweeps and off-balancing, reducing passing effectiveness by 40%",
+      "correction": "Lower hips below shoulders, distribute weight through posted knee and flat foot creating low center of gravity"
+    },
+    {
+      "error": "Posting hands too far from body on opponent's shins or feet",
+      "consequence": "Creates vulnerability to arm drags, triangle entries, and reduces ability to control distance effectively",
+      "correction": "Keep hands posted on opponent's hips or thighs with elbows inside knees maintaining compact defensive frame"
+    },
+    {
+      "error": "Keeping head down looking at mat instead of opponent",
+      "consequence": "Exposes neck to guillotines and chokes, reduces awareness of opponent's movements and attacking opportunities",
+      "correction": "Keep chin tucked but eyes forward looking at opponent's chest, maintaining awareness while protecting neck"
+    },
+    {
+      "error": "Keeping posted knee too close to opponent's centerline",
+      "consequence": "Reduces base width making sweeps easier and limits mobility for passing sequences",
+      "correction": "Post knee at 45-degree angle from centerline creating wider base that resists sweeps in multiple directions"
+    },
+    {
+      "error": "Maintaining static posture without dynamic weight shifting",
+      "consequence": "Allows opponent to time sweeps and attacks, reduces passing opportunities and control effectiveness",
+      "correction": "Constantly shift weight between posted knee and flat foot creating movement that disrupts opponent's timing"
+    },
+    {
+      "error": "Allowing elbows to flare outside knees during hand posting",
+      "consequence": "Opens gaps for arm drags, triangle entries, and omoplata attacks reducing defensive integrity",
+      "correction": "Keep elbows tight inside knees with hands posted creating compact frame that protects arms"
+    },
+    {
+      "error": "Extending posted leg too straight reducing mobility",
+      "consequence": "Limits ability to adjust base quickly for passing or defensive movements",
+      "correction": "Maintain slight bend in posted knee allowing quick directional changes while maintaining stability"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Combat Base Retention Drill",
+      "description": "Partner attempts to sweep or off-balance from guard while practitioner maintains combat base using only base adjustments and weight distribution. Practice 2-minute rounds focusing on staying centered and mobile. No passing allowed, only defensive base maintenance.",
+      "duration": "5 rounds of 2 minutes"
+    },
+    {
+      "name": "Dynamic Passing Entry Drill",
+      "description": "From combat base, practice entering 5 different passing sequences (knee slice, toreando, long step, smash, leg drag) with partner providing 50% resistance. Focus on smooth transitions from static base to dynamic passing movement. Complete 10 reps of each pass.",
+      "duration": "3 sets of 50 total reps"
+    },
+    {
+      "name": "Grip Fighting from Combat Base",
+      "description": "Partner attempts to establish controlling grips (collar, sleeve, pants) while practitioner maintains combat base and breaks grips systematically. Practice defensive hand fighting while maintaining posture and base. Switch roles every 90 seconds.",
+      "duration": "6 rounds of 90 seconds"
+    },
+    {
+      "name": "Reaction Base Adjustment Drill",
+      "description": "Partner calls out directions (left, right, forward, back) and practitioner must adjust combat base quickly in that direction while maintaining structure. Increases to including sweep attempts from those directions. Develops reflexive base adjustment patterns.",
+      "duration": "4 rounds of 2 minutes"
+    },
+    {
+      "name": "Progressive Resistance Passing",
+      "description": "Start from combat base with partner providing graduated resistance: 25% (rounds 1-2), 50% (rounds 3-4), 75% (rounds 5-6), 100% (rounds 7-8). Practice same passing sequence each round focusing on maintaining technique under increasing pressure.",
+      "duration": "8 rounds of 1.5 minutes"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Shortest submission path",
+      "path": "Combat Base Top → Knee Slice Pass → Side Control Top → Americana"
+    },
+    {
+      "name": "High-percentage path from combat base",
+      "path": "Combat Base Top → Toreando Pass → Side Control Top → Kimura"
+    },
+    {
+      "name": "Leg lock entry path",
+      "path": "Combat Base Top → Leg Drag Pass → Ashi Garami Top → Heel Hook"
+    },
+    {
+      "name": "Back attack path",
+      "path": "Combat Base Top → Leg Drag Pass → Truck Position Top → Rear Naked Choke"
+    },
+    {
+      "name": "Mount submission path",
+      "path": "Combat Base Top → Knee Slice Pass → Mount Top → Armbar from Mount"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Knee Slice Pass",
+      "relationship": "Primary offensive transition from combat base"
+    },
+    {
+      "name": "Toreando Pass",
+      "relationship": "Alternative passing sequence from same position"
+    },
+    {
+      "name": "Headquarters Position Top",
+      "relationship": "Advanced variation with deeper knee position"
+    },
+    {
+      "name": "De La Riva Guard Bottom",
+      "relationship": "Common guard retention response to combat base"
+    },
+    {
+      "name": "Pressure Passing",
+      "relationship": "Strategic concept for passing from combat base"
+    },
+    {
+      "name": "Guard Passing Principles",
+      "relationship": "Fundamental concepts underlying combat base effectiveness"
+    },
+    {
+      "name": "Base Maintenance",
+      "relationship": "Core principle for maintaining combat base structure"
+    },
+    {
+      "name": "Grip Fighting",
+      "relationship": "Essential skill for establishing and maintaining combat base"
+    },
+    {
+      "name": "Posture Up",
+      "relationship": "Related defensive concept for guard top positions"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 55,
+      "intermediate": 70,
+      "advanced": 85
+    },
+    "advancement_probability": {
+      "beginner": 40,
+      "intermediate": 58,
+      "advanced": 75
+    },
+    "submission_probability": {
+      "beginner": 5,
+      "intermediate": 8,
+      "advanced": 12
+    },
+    "average_time": "30-90 seconds before initiating pass or being swept"
+  },
+  "expert_insights": {
+    "danaher": "Combat base represents the fundamental structural principle of guard passing - the creation of a stable platform from which dynamic movement can occur. The position embodies the essential paradox of guard passing: you must be simultaneously stable enough to resist sweeps while mobile enough to advance position. The tripod structure created by the posted knee, flat foot, and hand placement provides maximum resistance to off-balancing in multiple vectors while maintaining the capacity for explosive directional change. The key mechanical principle is weight distribution - approximately 60% through the posted knee creates sufficient pressure to limit opponent movement while maintaining enough weight on the rear leg to enable quick base adjustments. The elevation of the head and chest above the hips is critical for neck defense, as virtually all submissions from guard require controlling or attacking the head. From a systematic perspective, combat base serves as the universal starting point for pressure passing, distance passing, and leg-drag-based passing systems, making it perhaps the most important position to master for effective guard passing across all contexts.",
+    "gordon_ryan": "Combat base is where every guard pass starts, and if you can't maintain this position under pressure, you're not passing anyone's guard at the highest level. The difference between my combat base and a lower-level player's is constant micro-adjustments - I'm never static, always shifting weight, changing angles, and forcing my opponent to react to my movement rather than setting up their attacks. When I'm in combat base, I'm already thinking two moves ahead: if they hook my posted leg, I'm going into a leg drag; if they frame on my hips, I'm switching to toreando or knee slice. The position is all about creating dilemmas through pressure and movement. I use forward pressure through my posted knee to make them defensive, then the moment they react to that pressure, I'm using their reaction to enter my passing sequence. Against high-level guys, you can't just sit in combat base - you need to be threatening passes immediately while maintaining the structure. My success in passing comes from making combat base feel oppressive to the bottom player through constant pressure and grip fighting, so they're already mentally defeated before I even initiate the actual pass.",
+    "eddie_bravo": "Combat base is the traditional approach, but in the 10th Planet system, we've adapted it for no-gi contexts where the dynamics are completely different without gi grips to control. Without collar and sleeve grips, the bottom player has much more mobility, so your combat base needs to be more dynamic and pressure-oriented. We focus heavily on using the posted knee as a pressure point into the opponent's hip or thigh, creating discomfort that limits their movement options. The key innovation we've developed is using combat base as a transitional position rather than a static one - you're in combat base for maybe 2-3 seconds before entering your passing sequence, using that time to read their guard style and choose your attack. Against rubber guard players, combat base is critical because it's the last moment before they can establish mission control or other control positions. We drill transitioning from combat base directly into leg weaves, smash passes, and headquarters positions, treating it as a launching pad rather than a destination. The evolution of leg lock games has also changed combat base strategy - you need to be aware of how your posted leg positioning affects your vulnerability to inside heel hooks and other leg attacks, which changes the traditional wide-base approach to a more nuanced positioning system."
+  }
+}

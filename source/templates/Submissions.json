@@ -1,0 +1,366 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BJJ Submission Template Schema V3",
+  "description": "Standardized JSON schema for BJJ submission pages - strict 
+14-section structure with safety emphasis",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "metadata",
+    "overview",
+    "safety_considerations",
+    "key_principles",
+    "setup_requirements",
+    "execution_steps",
+    "opponent_defense_patterns",
+    "common_errors",
+    "variations_and_setups",
+    "knowledge_assessment",
+    "training_progressions_and_safety_protocols",
+    "related_content",
+    "expert_insights"
+  ],
+
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "description": "Page metadata and SEO information",
+      "additionalProperties": false,
+      "required": ["title", "description", "submission_id", "tags", 
+"submission_category", "submission_type", "target_area", "starting_position", 
+"success_rates"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "SEO title format: '[Submission Name] | BJJ Submission | 
+BJJ Graph'",
+          "pattern": "^.+ \\| BJJ Submission \\| BJJ Graph$",
+          "examples": ["Armbar from Mount | BJJ Submission | BJJ Graph"]
+        },
+        "description": {
+          "type": "string",
+          "description": "Meta description 140-180 characters (SEO optimal: 
+150-160)",
+          "minLength": 140,
+          "maxLength": 180,
+          "examples": ["Master Armbar from Mount in BJJ. Complete guide with 
+safety protocols, setup, execution. Success rates: Beginner 45%, Intermediate 60%,
+ Advanced 75%."]
+        },
+        "submission_id": {
+          "type": "string",
+          "description": "Unique submission identifier SUB###",
+          "pattern": "^SUB[0-9]{3}$",
+          "examples": ["SUB001", "SUB042"]
+        },
+        "tags": {
+          "type": "array",
+          "description": "Content tags (minimum 3)",
+          "minItems": 3,
+          "items": {"type": "string"},
+          "examples": [["bjj", "submission", "armbar", "joint-lock"]]
+        },
+        "submission_category": {
+          "type": "string",
+          "enum": ["Choke", "Joint Lock", "Compression", "Combination"],
+          "description": "Primary category"
+        },
+        "submission_type": {
+          "type": "string",
+          "description": "Specific type within category",
+          "examples": ["Arm Lock", "Blood Choke", "Leg Lock", "Shoulder Lock"]
+        },
+        "target_area": {
+          "type": "string",
+          "description": "Anatomical target",
+          "examples": ["Elbow joint", "Carotid arteries", "Ankle and knee 
+ligaments"]
+        },
+        "starting_position": {
+          "type": "string",
+          "description": "Position where submission can be attempted",
+          "examples": ["Mount", "Closed Guard Bottom", "Ashi Garami"]
+        },
+        "success_rates": {
+          "$ref": "#/$defs/skill_level_success_rates"
+        }
+      }
+    },
+
+    "overview": {
+      "type": "string",
+      "description": "2-3 paragraph submission description with strategic 
+context",
+      "minLength": 400,
+      "examples": ["The Armbar from Mount is a fundamental finishing technique 
+targeting the elbow joint..."]
+    },
+
+    "safety_considerations": {
+      "type": "object",
+      "description": "Mandatory safety content (standardized name, consistent 
+across all submissions)",
+      "additionalProperties": false,
+      "required": ["injury_risks", "application_speed", "tap_signals", 
+"release_protocol", "training_restrictions"],
+      "properties": {
+        "injury_risks": {
+          "type": "array",
+          "description": "Specific injuries with severity and recovery time",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["injury", "severity", "recovery_time"],
+            "properties": {
+              "injury": {"type": "string"},
+              "severity": {
+                "type": "string",
+                "enum": ["Low", "Medium", "High", "CRITICAL"]
+              },
+              "recovery_time": {"type": "string"}
+            }
+          }
+        },
+        "application_speed": {
+          "type": "string",
+          "description": "Minimum application time in training",
+          "examples": ["SLOW and progressive - 3-5 seconds minimum", "EXTREMELY 
+SLOW - 5-7 seconds minimum"]
+        },
+        "tap_signals": {
+          "type": "array",
+          "description": "All valid tap signals",
+          "minItems": 3,
+          "items": {"type": "string"},
+          "examples": [["Verbal tap", "Physical hand tap", "Physical foot tap", 
+"Any distress signal"]]
+        },
+        "release_protocol": {
+          "type": "array",
+          "description": "Step-by-step release instructions",
+          "minItems": 3,
+          "items": {"type": "string"}
+        },
+        "training_restrictions": {
+          "type": "array",
+          "description": "Prohibited actions in training",
+          "minItems": 2,
+          "items": {"type": "string"},
+          "examples": [["Never spike or jerk the submission", "Never use 
+competition speed in training", "Always allow tap access"]]
+        }
+      }
+    },
+
+    "key_principles": {
+      "type": "array",
+      "description": "5-7 fundamental principles for this submission",
+      "minItems": 5,
+      "maxItems": 7,
+      "items": {"type": "string"}
+    },
+
+    "setup_requirements": {
+      "type": "array",
+      "description": "Prerequisites before attempting submission",
+      "minItems": 4,
+      "items": {"type": "string"}
+    },
+
+    "execution_steps": {
+      "type": "array",
+      "description": "Step-by-step finishing sequence (with timing)",
+      "minItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["step_number", "action", "description"],
+        "properties": {
+          "step_number": {"type": "integer", "minimum": 1},
+          "action": {"type": "string"},
+          "description": {
+            "type": "string",
+            "minLength": 50
+          },
+          "timing": {"type": "string"},
+          "pressure_level": {
+            "type": "string",
+            "enum": ["Light", "Moderate", "Firm", "Maximum"],
+            "description": "Pressure level for this step"
+          }
+        }
+      }
+    },
+
+    "opponent_defense_patterns": {
+      "type": "array",
+      "description": "How opponents defend against submission",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["defense", "effectiveness"],
+        "properties": {
+          "defense": {"type": "string"},
+          "effectiveness": {
+            "type": "string",
+            "enum": ["High", "Medium", "Low"]
+          },
+          "your_adjustment": {
+            "type": "string",
+            "description": "How to maintain submission despite defense"
+          }
+        }
+      }
+    },
+
+    "common_errors": {
+      "type": "array",
+      "description": "Mistakes + corrections (including DANGER labels for safety 
+errors)",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["error", "consequence", "correction"],
+        "properties": {
+          "error": {"type": "string"},
+          "consequence": {"type": "string"},
+          "correction": {"type": "string"},
+          "danger_level": {
+            "type": "string",
+            "enum": ["CRITICAL", "High", "Medium", "Low"],
+            "description": "Safety danger level (CRITICAL for injury-risk errors)"
+          }
+        }
+      }
+    },
+
+    "variations_and_setups": {
+      "type": "array",
+      "description": "Different entries and variations",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["variation_name", "description"],
+        "properties": {
+          "variation_name": {"type": "string"},
+          "description": {"type": "string"},
+          "when_to_use": {"type": "string"}
+        }
+      }
+    },
+
+    "knowledge_assessment": {
+      "type": "array",
+      "description": "Questions including safety-critical items",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["question", "answer"],
+        "properties": {
+          "question": {
+            "type": "string",
+            "pattern": ".*\\?$"
+          },
+          "answer": {
+            "type": "string",
+            "minLength": 50
+          },
+          "safety_critical": {
+            "type": "boolean",
+            "description": "True if this question tests safety knowledge"
+          }
+        }
+      }
+    },
+
+    "training_progressions_and_safety_protocols": {
+      "type": "array",
+      "description": "6-phase progression with safety emphasis",
+      "minItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["phase", "timeframe", "focus", "resistance_level", 
+"safety_emphasis"],
+        "properties": {
+          "phase": {
+            "type": "string",
+            "description": "Phase name (e.g., 'Technical Understanding', 'Slow 
+Practice', etc.)"
+          },
+          "timeframe": {"type": "string"},
+          "focus": {"type": "string"},
+          "resistance_level": {
+            "type": "string",
+            "enum": ["None", "Zero resistance", "Mild resistance", "Realistic 
+resistance", "Full resistance"]
+          },
+          "safety_emphasis": {
+            "type": "string",
+            "description": "Safety focus for this phase"
+          }
+        }
+      }
+    },
+
+    "related_content": {
+      "type": "array",
+      "description": "Related submissions/positions/techniques",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "relationship"],
+        "properties": {
+          "name": {"type": "string"},
+          "relationship": {"type": "string"}
+        }
+      }
+    },
+
+    "expert_insights": {
+      "type": "object",
+      "description": "Insights from all 3 experts (REQUIRED, 200+ chars, safety 
+emphasis)",
+      "additionalProperties": false,
+      "required": ["danaher", "gordon_ryan", "eddie_bravo"],
+      "properties": {
+        "danaher": {
+          "type": "string",
+          "minLength": 200,
+          "description": "John Danaher - systematic approach with safety notes"
+        },
+        "gordon_ryan": {
+          "type": "string",
+          "minLength": 200,
+          "description": "Gordon Ryan - competition vs training distinction"
+        },
+        "eddie_bravo": {
+          "type": "string",
+          "minLength": 200,
+          "description": "Eddie Bravo - innovation with safety culture"
+        }
+      }
+    }
+  },
+
+  "$defs": {
+    "skill_level_success_rates": {
+      "type": "object",
+      "description": "Success rates by skill level - REQUIRED (beginner ≤ 
+intermediate ≤ advanced)",
+      "additionalProperties": false,
+      "required": ["beginner", "intermediate", "advanced"],
+      "properties": {
+        "beginner": {"type": "integer", "minimum": 0, "maximum": 100},
+        "intermediate": {"type": "integer", "minimum": 0, "maximum": 100},
+        "advanced": {"type": "integer", "minimum": 0, "maximum": 100}
+      }
+    }
+  }
+}

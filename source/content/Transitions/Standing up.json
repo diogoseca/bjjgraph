@@ -1,0 +1,398 @@
+{
+  "metadata": {
+    "title": "Standing Up | BJJ Position Guide | BJJ Graph",
+    "description": "Master the Standing Up position in BJJ. Complete guide covering technical standup mechanics, guard recovery, and defensive positioning. Essential fundamental skill.",
+    "state_id": "S096",
+    "tags": [
+      "bjj",
+      "position",
+      "fundamental",
+      "neutral_position",
+      "guard_recovery",
+      "defensive_skill"
+    ]
+  },
+  "overview": "Standing Up (also known as Technical Standup) is a fundamental defensive position and skill in Brazilian Jiu-Jitsu that allows a grounded practitioner to safely return to their feet while maintaining defensive frames and preventing takedowns. This position represents a critical transition state between ground and standing combat, serving as both an escape mechanism from inferior positions and a method of disengagement when desired. The technical standup is essential for maintaining distance management, creating space, and resetting the engagement to a more favorable position. It is particularly crucial in self-defense scenarios, MMA contexts, and competitive situations where standing offers strategic advantages. The position requires precise weight distribution, balance, timing, and spatial awareness to execute safely without compromising defensive integrity. Mastery of the standing up sequence provides practitioners with autonomy over engagement range and the ability to dictate whether the match remains on the ground or returns to standing combat.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Neutral",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short"
+  },
+  "state_invariants": [
+    "Base hand posted behind body with palm flat on mat, fingers pointed away from hips, supporting approximately 40% of total body weight while maintaining straight arm structure to prevent collapse",
+    "Near leg (same side as posted hand) bent with foot flat on ground, knee pointed upward, positioned close to hips to create compact base and enable explosive drive",
+    "Far leg extended forward with heel on ground, acting as defensive barrier and distance management tool, preventing opponent from closing distance or driving forward",
+    "Hips elevated off mat with weight distributed between base hand, near foot, and far heel, creating triangular base that allows for quick pivoting and movement adjustments",
+    "Torso angled at approximately 45 degrees to mat, chest facing toward opponent with head up and eyes maintaining visual contact, ready to track opponent movement and respond to attacks"
+  ],
+  "prerequisites": [
+    "Opponent in standing position or attempting to engage from top position",
+    "Sufficient space created through shrimping, framing, or distance management to begin standup sequence",
+    "No immediate submission threats or controlling grips that would prevent arm posting",
+    "Practitioner on their back or side with ability to rotate hips and post supporting hand",
+    "Clear understanding of weight distribution and base mechanics",
+    "Awareness of opponent's position and distance relative to legs"
+  ],
+  "key_principles": [
+    "Maintain strong base hand posting with locked elbow and weight distributed through palm to prevent collapse or sweep",
+    "Keep near leg (same side as base hand) bent and loaded for explosive drive when transitioning to full standing position",
+    "Use far leg as active defensive barrier, maintaining distance through heel placement and leg extension",
+    "Elevate hips immediately to create distance from mat and establish mobile base structure",
+    "Keep head up with eyes on opponent at all times to track movement and maintain spatial awareness",
+    "Never turn back toward opponent during standup sequence - maintain chest facing toward threat",
+    "Time the transition to feet with opponent's movement, standing explosively when opponent commits to forward pressure"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Technical Standup",
+      "target_position": "Standing Position",
+      "success_rates": {
+        "beginner": 50,
+        "intermediate": 70,
+        "advanced": 85
+      }
+    },
+    {
+      "technique": "Standing up in Base",
+      "target_position": "Combat Base",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 65,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "Technical Stand Up to Single Leg",
+      "target_position": "Single Leg X Position Bottom",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Re-Guard",
+      "target_position": "Seated Guard Bottom",
+      "success_rates": {
+        "beginner": 55,
+        "intermediate": 70,
+        "advanced": 85
+      }
+    },
+    {
+      "technique": "Single Leg X Entry",
+      "target_position": "Single Leg X Guard",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Sitting Guard Pull",
+      "target_position": "Butterfly Guard",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Pull guard",
+      "target_position": "Closed Guard Bottom",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 65,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "Granby to Closed Guard",
+      "target_position": "Closed Guard Bottom",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 55
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Single Leg Takedown",
+      "target_position": "Bottom Position",
+      "success_rate": 35
+    },
+    {
+      "technique": "Double leg takedown",
+      "target_position": "Bottom Position Generic",
+      "success_rate": 30
+    },
+    {
+      "technique": "Snap Down to Front Headlock",
+      "target_position": "Front Headlock",
+      "success_rate": 40
+    },
+    {
+      "technique": "Sprawl",
+      "target_position": "Front Headlock Control Position",
+      "success_rate": 45
+    },
+    {
+      "technique": "Guard Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 25
+    },
+    {
+      "technique": "Pressure Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 30
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Frame and Shrimp",
+      "target_position": "Guard Recovery",
+      "trigger": "Opponent drives forward to prevent standup"
+    },
+    {
+      "technique": "Hip Escape",
+      "target_position": "Open Guard Bottom",
+      "trigger": "Opponent attempts to pass around extended leg"
+    },
+    {
+      "technique": "Granby Roll",
+      "target_position": "Turtle Position",
+      "trigger": "Base hand is compromised or swept"
+    },
+    {
+      "technique": "Guard Replacement",
+      "target_position": "Butterfly Guard",
+      "trigger": "Opponent closes distance aggressively"
+    },
+    {
+      "technique": "Shrimp Escape",
+      "target_position": "Half Guard Bottom",
+      "trigger": "Opponent secures control of near leg during standup"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent maintains distance and does not engage",
+      "actions": [
+        {
+          "technique": "Technical Standup",
+          "target": "Standing Position",
+          "probability": 80
+        },
+        {
+          "technique": "Standing up in Base",
+          "target": "Combat Base",
+          "probability": 75
+        }
+      ]
+    },
+    {
+      "condition": "If opponent rushes forward to prevent standup",
+      "actions": [
+        {
+          "technique": "Re-Guard",
+          "target": "Seated Guard Bottom",
+          "probability": 65
+        },
+        {
+          "technique": "Guard Replacement",
+          "target": "Butterfly Guard",
+          "probability": 60
+        },
+        {
+          "technique": "Single Leg X Entry",
+          "target": "Single Leg X Guard",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to control extended leg",
+      "actions": [
+        {
+          "technique": "Technical Stand Up to Single Leg",
+          "target": "Single Leg X Position Bottom",
+          "probability": 55
+        },
+        {
+          "technique": "Hip Escape",
+          "target": "Open Guard Bottom",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If base hand is swept or compromised",
+      "actions": [
+        {
+          "technique": "Granby Roll",
+          "target": "Turtle Position",
+          "probability": 50
+        },
+        {
+          "technique": "Frame and Shrimp",
+          "target": "Guard Recovery",
+          "probability": 55
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Posting base hand too close to hips, creating weak base structure",
+      "consequence": "Insufficient leverage to elevate hips properly, making sweep or collapse more likely, and reducing ability to drive to standing position",
+      "correction": "Post base hand approximately 12-18 inches behind hips with arm fully extended and locked, creating strong triangular base structure"
+    },
+    {
+      "error": "Turning head or chest away from opponent during standup sequence",
+      "consequence": "Loss of visual contact with opponent, exposure of back, and vulnerability to attacks from blind spots",
+      "correction": "Maintain constant visual contact with opponent, keep chest facing toward threat throughout entire sequence, rotate body around base hand rather than turning away"
+    },
+    {
+      "error": "Attempting to stand with both legs simultaneously without proper base",
+      "consequence": "Loss of balance, exposure to takedowns, and inability to defend or create distance",
+      "correction": "Use proper technical standup sequence: post hand, elevate hips, load near leg, drive to standing while maintaining far leg as defensive barrier"
+    },
+    {
+      "error": "Keeping hips too low to mat during standup position",
+      "consequence": "Reduced mobility, slower reaction time to opponent's movement, and easier for opponent to close distance or attack",
+      "correction": "Immediately elevate hips high off mat upon posting hand, maintaining tension in base hand and near leg to create active defensive posture"
+    },
+    {
+      "error": "Allowing opponent to control or trap extended leg without response",
+      "consequence": "Loss of distance management, exposure to leg attacks or passes, inability to complete standup sequence",
+      "correction": "Actively pump and reposition extended leg, retract if gripped, and transition to alternative guard recovery rather than fighting for compromised standup"
+    },
+    {
+      "error": "Standing up without timing or awareness of opponent's position",
+      "consequence": "Vulnerability to takedowns during transition, poor positioning when reaching standing, and wasted energy on ill-timed attempts",
+      "correction": "Time standup with opponent's movement, create distance first through framing and leg extensions, then commit to standing explosively when window opens"
+    },
+    {
+      "error": "Bending base arm or allowing elbow to collapse under pressure",
+      "consequence": "Immediate loss of base structure, fall back to mat, and return to inferior bottom position with opponent advancing",
+      "correction": "Lock base arm completely straight with scapula depressed and stable, redirect pressure through bone structure rather than muscular tension"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Technical Standup Repetitions",
+      "description": "Practice technical standup sequence from both sides (left and right hand posts) with focus on proper base positioning, hip elevation, and smooth transition to standing position. Start slowly emphasizing correct mechanics, then gradually increase speed while maintaining quality of movement.",
+      "duration": "5 minutes per side"
+    },
+    {
+      "name": "Standup Against Pressure",
+      "description": "Partner applies moderate forward pressure while bottom practitioner executes technical standup, working on timing the transition and maintaining base integrity under pressure. Partner gradually increases pressure level as bottom player improves competency.",
+      "duration": "3 x 3-minute rounds"
+    },
+    {
+      "name": "Standup to Guard Recovery Flow",
+      "description": "Flow drill alternating between technical standup attempts and guard recovery when partner prevents standup. Develops decision-making ability and smooth transitions between standing and re-guarding options based on opponent's reactions.",
+      "duration": "5 x 2-minute rounds"
+    },
+    {
+      "name": "Standup from Side Control Escape",
+      "description": "Start in side control bottom, escape to create space, then immediately transition to technical standup position. Partner provides realistic resistance and attempts to prevent standup while allowing practitioner to work mechanics.",
+      "duration": "10 repetitions per round, 4 rounds"
+    },
+    {
+      "name": "Standup to Takedown Defense",
+      "description": "Bottom practitioner stands up while partner immediately attempts single leg or double leg takedown. Focuses on maintaining defensive posture and balance immediately after achieving standing position.",
+      "duration": "6 x 2-minute rounds"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Direct submission from standing up position",
+      "path": "Standing up position → Straight Ankle Lock control (if opponent grabs extended leg) → Straight Ankle Lock"
+    },
+    {
+      "name": "Re-guard to closed guard submission",
+      "path": "Standing up → Re-Guard → Closed Guard Bottom → Triangle Setup → Triangle Choke"
+    },
+    {
+      "name": "Single leg entry to leg lock",
+      "path": "Standing up → Technical Stand Up to Single Leg → Single Leg X Guard → Inside Heel Hook"
+    },
+    {
+      "name": "Guard recovery to back attack",
+      "path": "Standing up → Guard Replacement → Butterfly Guard → Arm Drag to Back → Back Control → Rear Naked Choke"
+    },
+    {
+      "name": "Standup to guillotine opportunity",
+      "path": "Standing up → Standing Position → Opponent shoots takedown → Guillotine Setup → Guillotine Choke"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Technical Standup",
+      "relationship": "Primary technique for executing this position"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Alternative standing up method using different base structure"
+    },
+    {
+      "name": "Guard Recovery",
+      "relationship": "Alternative when standup is prevented by opponent"
+    },
+    {
+      "name": "Seated Guard Bottom",
+      "relationship": "Transition target when re-establishing guard instead of standing"
+    },
+    {
+      "name": "Standing Position",
+      "relationship": "Target position after successful technical standup"
+    },
+    {
+      "name": "Bottom Position",
+      "relationship": "Starting position requiring standup to escape"
+    },
+    {
+      "name": "Frame and Shrimp",
+      "relationship": "Prerequisite movement to create space for standup"
+    },
+    {
+      "name": "Hip Escape",
+      "relationship": "Alternative escape method when standup is unavailable"
+    },
+    {
+      "name": "Shrimp Escape",
+      "relationship": "Complementary escape fundamental"
+    },
+    {
+      "name": "Technical Standup Concept",
+      "relationship": "Conceptual framework for understanding standup mechanics"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 40,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "advancement_probability": {
+      "beginner": 45,
+      "intermediate": 65,
+      "advanced": 80
+    },
+    "submission_probability": {
+      "beginner": 5,
+      "intermediate": 10,
+      "advanced": 20
+    },
+    "average_time": "3-8 seconds for successful transition to standing"
+  },
+  "expert_insights": {
+    "danaher": "The technical standup represents one of the most fundamental yet frequently neglected skills in Brazilian Jiu-Jitsu. From a biomechanical perspective, the position creates a stable triangular base through the strategic placement of three contact points: the base hand, the near foot, and the far heel. This configuration maximizes stability while maintaining mobility, allowing the practitioner to pivot, adjust distance, and transition to standing with minimal vulnerability. The critical element is the immediate elevation of the hips upon posting the base hand - this single action creates distance from the mat and establishes a defensive structure that makes it exceedingly difficult for the opponent to close distance or establish control. The extended far leg functions as an active barrier, using heel placement and leg extension to manage distance precisely. When executed with proper technical precision, the standup position provides complete autonomy over engagement range, allowing the practitioner to dictate whether the match continues on the ground or returns to standing combat. This positional control is invaluable in self-defense contexts and represents a fundamental skill that should be drilled with the same dedication as any guard passing or submission technique.",
+    "gordon_ryan": "In competition, the technical standup is your insurance policy against being held down by opponents who want to stall or control without advancing position. I use the standup constantly when I want to reset the engagement or force my opponent to actually engage rather than hold position. The key is being explosive and decisive with the movement - don't telegraph the standup, just execute it quickly and confidently when the window opens. I particularly like using the standup position as a bait to draw opponents into single leg attempts, which I can then counter with entries into leg entanglement systems or guillotine attacks. In no-gi especially, the standup becomes even more important because without the gi grips, it's harder for opponents to prevent you from disengaging when you decide to stand. The standup also creates excellent opportunities for re-guard entries into my preferred guard systems like butterfly or seated guard, giving me control over which guard position I'm working from rather than being forced into whatever position my opponent wants. Master the standup and you'll never feel trapped on your back - you always have the option to reset and re-engage on your terms.",
+    "eddie_bravo": "The technical standup is absolutely essential in the 10th Planet system because it gives you the freedom to choose your battles and control the pace of engagement. What's really interesting about the standup position is how it integrates with our lockdown and rubber guard systems - when opponents try to prevent the standup by grabbing the extended leg, that's actually an excellent entry into leg lock positions or deep half guard variations. I teach my students to use the standup not just as an escape mechanism but as an active offensive tool for creating reactions and entries. The standup also becomes crucial in the transition game between standing and ground fighting, especially in MMA contexts where you need to be able to move fluidly between ranges. One variation I really like is using the standup position to create angles for back attacks - as the opponent tries to prevent you from standing, you can pivot and spin to their back while they're committed to controlling your legs. The standup also sets up some excellent guillotine opportunities when opponents shoot takedowns as you're rising to your feet. Don't just think of standup as defensive - it's an active position with offensive potential if you're creative with it."
+  }
+}

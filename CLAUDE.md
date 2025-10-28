@@ -40,7 +40,7 @@ All BJJ Graph content follows structured standards defined in the CONTRIBUTING-*
    - Requires progressive training phases (6 phases minimum)
    - Mandatory release protocol and safety Q&A sections
 
-4. **CONTRIBUTING-CONCEPTS.md** (`source/content/Concepts/CONTRIBUTING-CONCEPTS.md`)
+4. **CONTRIBUTING-CONCEPTS.md** (`source/content/Principles/CONTRIBUTING-CONCEPTS.md`)
    - Standard for concept/principle files (C### IDs)
    - Covers fundamental BJJ principles and theoretical frameworks
    - Includes cross-position applications and learning progressions
@@ -219,7 +219,7 @@ bjjgraph/
 │       ├── Positions/        # 95 position pages (S### IDs)
 │       ├── Transitions/      # 71 transition pages (T### IDs)
 │       ├── Submissions/      # 49 submission pages (SUB### IDs)
-│       ├── Concepts/         # Conceptual principles (C### IDs)
+│       ├── Principles/         # Conceptual principles (C### IDs)
 │       ├── Systems/          # Expert systems (SC### IDs)
 │       ├── BJJ-Positions.md      # Hub page for positions
 │       ├── BJJ-Transitions.md    # Hub page for transitions
@@ -283,6 +283,240 @@ Each content type follows a strict YAML-based schema with:
 - Expert insights from Danaher, Gordon Ryan, and Eddie Bravo
 
 See `source/content/CONTRIBUTING-YAML-SCHEMA.md` for complete schema documentation.
+
+---
+
+## A/B Testing Infrastructure (Cloudflare Edge)
+
+**Status**: Production-ready edge-based A/B testing with Dirichlet sampling
+
+### Architecture Overview
+
+BJJ Graph uses **Cloudflare Pages Functions** (Workers at the edge) combined with **PostHog** for generative A/B testing:
+
+- **Edge Worker** (`source/functions/_middleware.ts`): Generates and applies variants before HTML reaches browser
+- **Dirichlet Distribution**: Randomly assigns section priorities using uniform Dirichlet (α=1)
+- **PostHog Integration**: Tracks user engagement metrics and visual enhancement variant
+- **Zero FOUC**: Variants applied server-side, no flash of content
+- **Weekly Refresh**: New priorities generated every week per user
+
+### Generative A/B Testing Approach
+
+Instead of preset variants (A vs B), we use **continuous multivariate testing**:
+
+**Section Ordering (Dirichlet-based):**
+- Each section gets random priority from Dirichlet distribution (α=1, uniform)
+- Priorities sum to 1.0 (e.g., `{decision-tree: 0.23, offensive-transitions: 0.18, expert-insights: 0.15, ...}`)
+- Sections ordered by priority (higher priority = earlier in page)
+- **Derived visibility**: Sections with priority < 0.01 (1%) are hidden
+
+**Visual Enhancement (PostHog Feature Flag):**
+- `control` (50%): Plain text styling
+- `enhanced` (50%): Styled boxes with borders/backgrounds on expert insights, key principles, decision trees
+
+**Persistence:**
+- Priorities stored in cookie for 1 week
+- New Dirichlet sample generated every week (based on week-of-year)
+- Consistent experience across pages within the same week
+
+### How It Works
+
+1. **User requests** `/positions/mount`
+2. **Edge Worker intercepts** request before reaching static HTML
+3. **Generates/retrieves assignment**:
+   - Extract `distinct_id` from cookie or generate new UUID
+   - Calculate current week number (week-of-year)
+   - Check cookie for existing assignment with matching week
+   - If expired/missing: Generate new Dirichlet sample
+4. **Calls PostHog API** (cached 60s): Get `position-visual-elements` feature flag
+5. **Injects inline CSS** into `<head>`:
+   ```html
+   <style id="bjjgraph-ab-styles">
+     #decision-tree { order: 23; }
+     #offensive-transitions { order: 18; }
+     #common-errors { display: none !important; } <!-- priority < 0.01 -->
+   </style>
+   ```
+6. **Sets cookies**: Assignment data for consistency
+7. **Serves modified HTML** to user
+8. **Client-side PostHog**: Tracks events with flat priority/visibility properties
+
+### PostHog Event Data
+
+**ab_page_view event:**
+```json
+{
+  "slug": "/positions/mount",
+  "contentType": "positions",
+  "pageName": "mount",
+  "week_seed": 43,
+  "visual_elements": "enhanced",
+  "section_decision_tree_priority": 0.23,
+  "section_offensive_transitions_priority": 0.18,
+  "section_expert_insights_priority": 0.15,
+  "section_decision_tree_visible": true,
+  "section_common_errors_visible": false,
+  ...
+}
+```
+
+**ab_time_on_page event:**
+```json
+{
+  "slug": "/positions/mount",
+  "time_on_page": 145,
+  "week_seed": 43,
+  "visual_elements": "enhanced"
+}
+```
+
+**ab_scroll_depth event:**
+```json
+{
+  "scroll_depth": 75,
+  "slug": "/positions/mount",
+  "week_seed": 43
+}
+```
+
+### Analysis Capabilities
+
+With flat priority properties, PostHog can correlate:
+
+1. **Section Priority Impact**: "Pages with decision-tree priority > 0.20 had +15% time-on-page"
+2. **Optimal Ordering**: "When offensive-transitions priority > expert-insights priority, +22% scroll completion"
+3. **Visibility Impact**: "Hiding common-errors (priority < 0.01) decreased engagement by 8%"
+4. **Visual Enhancement**: "Enhanced styling increased time-on-page by 12%"
+
+### Implementation Files
+
+**Edge Infrastructure:**
+- `source/functions/_middleware.ts` - Cloudflare Worker (580 lines)
+  - Dirichlet sampling with uniform alpha=1
+  - Weekly seed logic (week-of-year)
+  - Derived visibility (priority threshold: 0.01)
+  - PostHog API integration with 60s caching
+  - HTMLRewriter for inline CSS injection
+  - Cookie management for persistence
+
+**Client-Side Tracking:**
+- `source/quartz/components/scripts/posthog-ab-tracking.inline.ts` - PostHog event tracking
+  - Reads assignment from cookie
+  - Sends flat priority/visibility properties
+  - Tracks time on page and scroll depth
+
+**Frontend:**
+- `source/quartz/styles/custom.scss` - Flexbox layout for dynamic reordering
+- `source/content/*/TEMPLATE.md.jinja2` - Section IDs for CSS targeting (all 5 categories)
+
+**Configuration:**
+- `source/wrangler.toml` - Wrangler configuration for Cloudflare Pages
+- `.github/workflows/ci.yaml` - Deployment with wrangler-action
+
+**Documentation:**
+- `CLOUDFLARE-SETUP.md` - Deployment guide and troubleshooting
+
+### PostHog Feature Flags
+
+Only 1 feature flag needed:
+
+**position-visual-elements** (active):
+- **Type**: String (multivariate)
+- **Variants**: `control` (50%), `enhanced` (50%)
+- **Purpose**: Tests visual styling on expert insights, key principles, decision trees
+- **URL**: https://us.posthog.com/project/236155/feature_flags/228212
+
+### Local Development & Testing
+
+**Run with Cloudflare Functions:**
+```bash
+cd source
+
+# Build Quartz
+npx quartz build
+
+# Run with Functions support
+npx wrangler pages dev public --compatibility-date=2024-01-01
+
+# Access at http://localhost:8788
+```
+
+**Debug Mode:**
+Add `?debug` to any content URL to see debug headers:
+```
+https://bjjgraph.pages.dev/positions/mount?debug
+
+Response Headers:
+X-BJJGraph-AB-Week: 43
+X-BJJGraph-AB-Priorities: {"section_decision_tree_priority":0.23,...}
+X-BJJGraph-AB-Visual: enhanced
+X-BJJGraph-AB-ContentType: positions
+```
+
+**Test Dirichlet Sampling:**
+Open multiple incognito windows - each gets unique section ordering.
+
+### Performance Benchmarks
+
+- **Cache hit** (<5ms): Just HTMLRewriter transformation
+- **Cache miss** (<100ms): PostHog API call + HTMLRewriter
+- **Cache hit rate**: ~99% (60s TTL, typical sessions 5-10 min)
+- **Cookie size**: ~800 bytes (15 section priorities + metadata)
+
+### Deployment (Cloudflare Pages)
+
+**Automatic via GitHub Actions:**
+```bash
+git push origin main
+```
+
+GitHub Actions workflow:
+1. Builds Quartz → `source/public/`
+2. Deploys to Cloudflare Pages via wrangler-action
+3. Automatically deploys `functions/_middleware.ts` as Edge Worker
+
+**Required Secrets:**
+- `CLOUDFLARE_API_TOKEN` - API token with "Cloudflare Pages - Edit" permission
+- `CLOUDFLARE_ACCOUNT_ID` - From Cloudflare dashboard
+
+**Required Environment Variables (Set in Cloudflare Pages UI):**
+- `POSTHOG_API_KEY` - PostHog project API key (phc_***)
+- `POSTHOG_API_HOST` - https://app.posthog.com (or custom host)
+
+**URLs:**
+- Production: https://bjjgraph.pages.dev (or custom domain)
+- Preview: Auto-generated for each PR
+
+### Monitoring & Analysis
+
+**PostHog Insights to Create:**
+
+1. **Time on Page by Section Priority:**
+   - Event: `ab_time_on_page`
+   - Group by: `section_decision_tree_priority` (binned)
+   - Metric: Average `time_on_page`
+
+2. **Scroll Completion by Visual Variant:**
+   - Event: `ab_scroll_depth`
+   - Filter: `scroll_depth = 100`
+   - Group by: `visual_elements`
+   - Metric: Unique users
+
+3. **Optimal Section Ordering:**
+   - Event: `ab_page_view`
+   - Correlation analysis: Which priority distributions maximize engagement?
+
+**Expected Results Timeline:**
+- Week 1-2: Data collection, monitor for errors
+- Week 3-4: Statistical patterns emerge (~1,000 users per week)
+- Week 5+: Implement winning configurations
+
+### Rollback Strategy
+
+If issues arise:
+1. **Instant**: Set `position-visual-elements` flag to 100% control in PostHog
+2. **Fast**: Remove inline CSS generation in `_middleware.ts` (return response as-is)
+3. **Nuclear**: Redeploy without `functions/` directory
 
 ---
 
@@ -735,7 +969,7 @@ description: "Master [technique name] with step-by-step guide. Learn execution, 
 - `source/content/Positions/CONTRIBUTING-POSITIONS.md` - Position standard (V2)
 - `source/content/Transitions/CONTRIBUTING-TRANSITIONS.md` - Transition standard
 - `source/content/Submissions/CONTRIBUTING-SUBMISSIONS.md` - Submission standard (SAFETY FIRST)
-- `source/content/Concepts/CONTRIBUTING-CONCEPTS.md` - Concept standard
+- `source/content/Principles/CONTRIBUTING-CONCEPTS.md` - Concept standard
 - `source/content/Systems/CONTRIBUTING-SYSTEMS.md` - System standard
 
 **Note**: All CONTRIBUTING-*.md files are excluded from the website build. They serve as contributor and automation documentation only.

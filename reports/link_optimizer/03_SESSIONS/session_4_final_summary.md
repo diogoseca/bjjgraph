@@ -101,7 +101,7 @@ The 86.8% skip rate indicates **excellent prior cleanup work**:
 7. Positions/Leg Drag Control.md
 8. Positions/Leg Drag Position.md
 9. Transitions/Leg Drag Setup.md
-10. Concepts/Leg Entanglement.md
+10. Principles/Leg Entanglement.md
 11. Positions/Guard Position.md
 12. Submissions/Guillotine Sequence.md
 
@@ -122,7 +122,7 @@ The 86.8% skip rate indicates **excellent prior cleanup work**:
 3. Systems/Competition Strategy.md
 
 ### Agent 7 (2 files)
-1. Concepts/Head Control.md
+1. Principles/Head Control.md
 2. Submissions/Heel Hook.md
 
 ### Agent 8 (2 files)
@@ -131,7 +131,7 @@ The 86.8% skip rate indicates **excellent prior cleanup work**:
 
 ### Agent 9 (2 files)
 1. Submissions/Twister Setup.md
-2. Concepts/Underhook Defense.md
+2. Principles/Underhook Defense.md
 
 ---
 

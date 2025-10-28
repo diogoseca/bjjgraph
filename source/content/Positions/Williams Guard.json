@@ -1,0 +1,1086 @@
+{
+  "metadata": {
+    "title": "Williams Guard Bottom | BJJ Position Guide | BJJ Graph",
+    "description": "Master Williams Guard Bottom in BJJ. Innovative shoulder lock guard with unique control mechanics. Learn sweeps, submissions, and transitions from this creative position.",
+    "state_id": "S198",
+    "tags": ["bjj", "position", "williams-guard", "open-guard", "shoulder-lock", "bottom", "innovative"],
+    "parent_variant": "Williams Guard",
+    "sibling_variants": ["Williams Guard Top"]
+  },
+
+  "overview": "Williams Guard Bottom is an innovative open guard position characterized by controlling the opponent's arm with a shoulder lock grip while maintaining guard structure. Named after creator Roy Williams, this position combines elements of traditional guard retention with a unique shoulder manipulation that creates both offensive and defensive opportunities. The practitioner on bottom secures the opponent's arm in a shoulder lock configuration while using their legs to maintain distance and create angles for sweeps and submissions. This guard is particularly effective against opponents who attempt aggressive passing strategies, as it neutralizes their posting ability and creates immediate submission threats. Williams Guard exemplifies the evolution of modern BJJ guard systems by integrating joint manipulation with positional control, forcing opponents into defensive reactions that open sweep opportunities.",
+
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive with offensive options",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+
+  "state_invariants": [
+    "Bottom practitioner controls opponent's arm in shoulder lock configuration with figure-four grip or similar shoulder manipulation, creating constant submission threat while maintaining positional control",
+    "Bottom practitioner maintains guard structure with legs positioned to create distance, prevent passing, and generate sweeping leverage through hip movement and leg engagement",
+    "Opponent's controlled arm is isolated and manipulated away from their centerline, disrupting their base and limiting their ability to establish pressure or complete guard passes",
+    "Bottom practitioner's hips remain mobile and able to angle away from opponent's pressure while maintaining shoulder lock control, creating dynamic position for transitions"
+  ],
+
+  "prerequisites": [
+    "Successful grip establishment on opponent's arm with shoulder lock configuration",
+    "Opponent positioned in standing or combat base within guard range",
+    "Bottom practitioner has space to establish leg frames and maintain distance",
+    "Isolation of opponent's arm away from their defensive grips"
+  ],
+
+  "key_principles": [
+    "Maintain constant shoulder lock pressure to create submission threat and control opponent's movement",
+    "Use legs actively to create distance and prevent opponent from establishing chest-to-chest pressure",
+    "Angle hips away from opponent's free arm while keeping controlled arm isolated",
+    "Transition between shoulder lock variations based on opponent's defensive reactions",
+    "Create sweeping opportunities when opponent attempts to defend shoulder lock",
+    "Maintain grip integrity throughout transitions to prevent opponent from recovering arm",
+    "Use opponent's attempts to free their arm as triggers for sweeps and position advancement"
+  ],
+
+  "offensive_transitions": [
+    {
+      "technique": "Williams Shoulder Lock",
+      "target_position": "Submission Position Generic Bottom",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Omoplata Sweep",
+      "target_position": "Mount Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Triangle Setup",
+      "target_position": "Triangle Control Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Transition to Omoplata",
+      "target_position": "Omoplata Control Bottom",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Back Take Generic",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Kimura to Back Take",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    }
+  ],
+
+  "defensive_responses": [
+    {
+      "technique": "Arm Extraction",
+      "target_position": "Open Guard Top",
+      "success_rate": 40
+    },
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 35
+    },
+    {
+      "technique": "Guard Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 30
+    },
+    {
+      "technique": "Posture Recovery",
+      "target_position": "Combat Base Top",
+      "success_rate": 45
+    }
+  ],
+
+  "counter_transitions": [
+    {
+      "technique": "Rolling Armbar",
+      "target_position": "Armbar Control Bottom",
+      "trigger": "Opponent attempts to yank arm free aggressively"
+    },
+    {
+      "technique": "Omoplata to Back",
+      "target_position": "Back Control Top",
+      "trigger": "Opponent drives forward to escape shoulder lock"
+    },
+    {
+      "technique": "Triangle from Guard",
+      "target_position": "Triangle Control Bottom",
+      "trigger": "Opponent posts free hand on mat to defend shoulder lock"
+    }
+  ],
+
+  "decision_tree": [
+    {
+      "condition": "If opponent defends shoulder lock by pulling arm back aggressively",
+      "actions": [
+        {
+          "technique": "Rolling Armbar",
+          "target": "Armbar Control Bottom",
+          "probability": 60
+        },
+        {
+          "technique": "Omoplata Sweep",
+          "target": "Mount Top",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent drives forward to pressure and escape shoulder lock",
+      "actions": [
+        {
+          "technique": "Omoplata to Back",
+          "target": "Back Control Top",
+          "probability": 65
+        },
+        {
+          "technique": "Triangle Setup",
+          "target": "Triangle Control Bottom",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent posts free hand on mat to create base",
+      "actions": [
+        {
+          "technique": "Triangle from Guard",
+          "target": "Triangle Control Bottom",
+          "probability": 70
+        },
+        {
+          "technique": "Kimura to Back Take",
+          "target": "Back Control Top",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent attempts to circle away from controlled arm",
+      "actions": [
+        {
+          "technique": "Transition to Omoplata",
+          "target": "Omoplata Control Bottom",
+          "probability": 75
+        },
+        {
+          "technique": "Back Take Generic",
+          "target": "Back Control Top",
+          "probability": 60
+        }
+      ]
+    }
+  ],
+
+  "common_errors": [
+    {
+      "error": "Releasing shoulder lock pressure to adjust grips or leg position",
+      "consequence": "Opponent immediately recovers their arm and establishes dominant passing position or escapes guard entirely",
+      "correction": "Maintain constant shoulder lock tension throughout all transitions, adjusting legs and hips while keeping arm control as primary focus"
+    },
+    {
+      "error": "Allowing opponent to establish chest-to-chest pressure while maintaining shoulder lock",
+      "consequence": "Opponent can stack guard despite arm control, leading to guard pass or escape from submission threat",
+      "correction": "Use legs actively to create frames and distance, preventing opponent from closing distance while shoulder lock is engaged"
+    },
+    {
+      "error": "Overcommitting to shoulder lock submission without setting up sweeping opportunities",
+      "consequence": "Opponent defends submission effectively and transitions to passing attack without facing sweep threat",
+      "correction": "Use shoulder lock as control mechanism to create sweep openings, transitioning between submission and sweep based on opponent reactions"
+    },
+    {
+      "error": "Failing to angle hips away from opponent's free arm",
+      "consequence": "Opponent uses free arm to establish underhook or control that neutralizes shoulder lock effectiveness",
+      "correction": "Constantly adjust hip angle to keep controlled arm isolated while positioning body away from opponent's free arm reach"
+    },
+    {
+      "error": "Gripping with arms only without engaging full body mechanics",
+      "consequence": "Shoulder lock lacks sufficient pressure and opponent can muscle through defenses or escape relatively easily",
+      "correction": "Engage core, hips, and legs to generate shoulder lock pressure, using entire body structure rather than arm strength alone"
+    },
+    {
+      "error": "Holding static Williams Guard position without creating movement or reactions",
+      "consequence": "Opponent settles into defensive posture and systematically works to extract arm without facing immediate threats",
+      "correction": "Create constant movement and pressure variations to force opponent into reactive defensive actions that open sweep and submission chains"
+    }
+  ],
+
+  "training_drills": [
+    {
+      "name": "Williams Guard Entry Drill",
+      "description": "Partner starts in combat base. Practice establishing shoulder lock grip from various open guard positions, focusing on arm isolation and initial control establishment. Work both sides, 2 minutes per side.",
+      "duration": "4 minutes"
+    },
+    {
+      "name": "Shoulder Lock to Omoplata Flow",
+      "description": "Start in established Williams Guard Bottom. Partner defends shoulder lock using different methods. Practice flowing between shoulder lock pressure and omoplata transitions based on defensive reactions. 5 minute rounds.",
+      "duration": "5 minutes"
+    },
+    {
+      "name": "Williams Guard Retention Drill",
+      "description": "Partner attempts to extract arm and pass guard using various methods. Focus on maintaining shoulder lock control while using legs to prevent passing and create sweeping opportunities. Progressive resistance from 30% to 70% intensity.",
+      "duration": "3 minutes per round"
+    },
+    {
+      "name": "Williams Guard Submission Chain Drill",
+      "description": "Flow drill connecting Williams shoulder lock to omoplata to triangle to armbar. Partner provides appropriate reactions at each transition point. Focus on maintaining arm control throughout chain.",
+      "duration": "6 minutes"
+    }
+  ],
+
+  "optimal_submission_paths": [
+    {
+      "name": "Direct shoulder lock finish",
+      "path": "Williams Guard Bottom → Williams Shoulder Lock (finish)"
+    },
+    {
+      "name": "Omoplata progression path",
+      "path": "Williams Guard Bottom → Transition to Omoplata → Omoplata Control Bottom → Omoplata (finish)"
+    },
+    {
+      "name": "Triangle combination path",
+      "path": "Williams Guard Bottom → Triangle Setup → Triangle Control Bottom → Triangle Choke Front (finish)"
+    },
+    {
+      "name": "Armbar transition path",
+      "path": "Williams Guard Bottom → Rolling Armbar → Armbar Control Bottom → Armbar Finish"
+    },
+    {
+      "name": "Back attack path",
+      "path": "Williams Guard Bottom → Omoplata to Back → Back Control Top → Rear Naked Choke"
+    }
+  ],
+
+  "related_content": [
+    {
+      "name": "Williams Guard",
+      "relationship": "Parent position"
+    },
+    {
+      "name": "Williams Guard Top",
+      "relationship": "Opposite perspective (sibling variant)"
+    },
+    {
+      "name": "Omoplata Control Bottom",
+      "relationship": "Primary transition target from shoulder lock"
+    },
+    {
+      "name": "Triangle Control Bottom",
+      "relationship": "Alternative submission control from guard"
+    },
+    {
+      "name": "Open Guard Bottom",
+      "relationship": "General guard category"
+    },
+    {
+      "name": "Rubber Guard Bottom",
+      "relationship": "Similar arm control guard concept"
+    },
+    {
+      "name": "Overhook Guard Bottom",
+      "relationship": "Similar arm isolation principle"
+    },
+    {
+      "name": "Williams Shoulder Lock",
+      "relationship": "Primary submission threat"
+    },
+    {
+      "name": "Omoplata",
+      "relationship": "Common submission transition"
+    },
+    {
+      "name": "Triangle Choke Front",
+      "relationship": "Alternative submission when opponent defends shoulder lock"
+    }
+  ],
+
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 50,
+      "intermediate": 65,
+      "advanced": 75
+    },
+    "advancement_probability": {
+      "beginner": 35,
+      "intermediate": 50,
+      "advanced": 65
+    },
+    "submission_probability": {
+      "beginner": 30,
+      "intermediate": 45,
+      "advanced": 60
+    },
+    "average_time": "30-90 seconds"
+  },
+
+  "expert_insights": {
+    "danaher": "Williams Guard represents a fascinating integration of joint manipulation and positional control that challenges conventional guard retention theory. The position's effectiveness stems from its ability to create a mechanical dilemma where the opponent must simultaneously defend a shoulder lock submission while attempting to pass guard—two goals that are often mutually exclusive. From a systems perspective, Williams Guard functions as a forcing mechanism that channels opponent responses into predictable patterns, each of which opens specific sweep or submission opportunities. The critical technical element is maintaining what I call 'constant tension integrity'—the shoulder lock must apply sufficient pressure to occupy the opponent's defensive focus without overcommitting to the finish prematurely. This creates a state where every defensive movement opens a new attacking vector. The position's true sophistication lies in its transition architecture: the shoulder lock itself functions less as a finishing mechanism and more as a control hub from which omoplatas, triangles, and back takes emerge with high efficiency. Understanding this conceptual framework transforms Williams Guard from a novelty technique into a systematic positional approach.",
+
+    "gordon_ryan": "I've used Williams Guard in competition and it's a legitimate weapon when you understand the timing and psychology behind it. The key is recognizing that most opponents have zero experience defending this position, which creates immediate psychological pressure. In matches, I use Williams Guard primarily as a sweep setup rather than hunting the shoulder lock finish—the submission threat forces defensive reactions that open much higher percentage sweeping opportunities. The position works exceptionally well against aggressive passers who like to drive forward with pressure, because their natural instinct to pressure into you actually accelerates the omoplata or back take. What makes it competition-viable is the arm control—once you have that shoulder lock established, you've effectively neutralized one of their arms completely, meaning they're passing with diminished resources. I focus heavily on the transition to omoplata when they try to yank their arm out, and the triangle when they post their free hand. The finish rate on the shoulder lock itself is lower at high levels, but it doesn't matter because the position control and transition options are what create the success. It's particularly effective in no-gi where the shoulder lock bite is sharper and harder to defend.",
+
+    "eddie_bravo": "Williams Guard is one of those positions that perfectly embodies the 10th Planet philosophy of innovation and control—it takes a submission hold and turns it into a positional strategy, which is exactly the kind of creative thinking that advances the art. What I love about Williams Guard is how it creates the same kind of dilemma structure we see in Rubber Guard but through a completely different mechanical approach. The opponent is constantly dealing with shoulder pressure and submission threat, which opens up the entire game tree of sweeps and transitions. In our system, we've integrated Williams Guard into the larger open guard framework, particularly as an entry point to Omoplata or Triangle when traditional setups are defended. The position's effectiveness increases dramatically when you understand the relationship between shoulder lock pressure and hip angle—by constantly adjusting your hip position while maintaining shoulder control, you create a dynamic threat environment where the opponent can never settle. We drill Williams Guard extensively as part of our submission chain development, emphasizing the flow between shoulder lock, omoplata, triangle, and armbar. The real mastery comes when you stop thinking of it as separate techniques and start seeing it as one continuous control system where you're just riding the opponent's defensive reactions to different finish points."
+  }
+}
+{
+  "metadata": {
+    "title": "Williams Guard | BJJ Position Guide | BJJ Graph",
+    "description": "Master Williams Guard in BJJ. Innovative butterfly-based guard using shoulder immobilization for sweeps and submissions. Learn techniques, transitions, and expert strategies.",
+    "state_id": "S097",
+    "tags": ["bjj", "position", "williams-guard", "butterfly-guard", "open-guard", "innovation", "shoulder-lock", "sweep-position"]
+  },
+
+  "overview": "Williams Guard is an innovative open guard position characterized by controlling one of the opponent's arms while using butterfly hooks and hip positioning to create powerful sweeping and submission opportunities. Named after its creator, this position combines elements of butterfly guard with a unique shoulder lock control that immobilizes the opponent's posture and creates a potent attacking platform. The guard player typically secures one of the opponent's arms in a bent position behind their own neck while maintaining butterfly hooks, creating a structural imbalance that leads to high-percentage sweeps and the signature Williams shoulder lock submission.\n\nThe position is particularly effective in no-gi grappling where traditional grip-based guards are unavailable, though it translates well to gi competition as well. Williams Guard exemplifies modern BJJ innovation by combining familiar guard retention mechanics with novel control points that disrupt conventional passing strategies. The bent-arm control creates a dilemma for the opponent: attempting to free the trapped arm opens sweep opportunities, while maintaining connection allows the guard player to work toward submissions or off-balancing sweeps. This position has gained popularity in competitive grappling for its effectiveness against wrestlers and pressure passers who rely heavily on upper body control.",
+
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+
+  "state_invariants": [
+    "Guard player on their back or side with hips mobile and elevated off the mat, maintaining active butterfly hooks with at least one foot placed inside opponent's thigh",
+    "One of opponent's arms controlled in bent position, typically wrapped around guard player's neck or shoulder, creating structural immobilization of upper body",
+    "Opponent in kneeling or combat base position with weight distributed forward, unable to achieve flat base due to arm entrapment",
+    "Guard player's outside arm (same side as trapped opponent arm) controlling opponent's triceps or shoulder to maintain arm position while inside arm manages grips or frames",
+    "Hips positioned at angle to opponent's centerline, creating off-balancing vector and preventing opponent from establishing square pressure passing position"
+  ],
+
+  "prerequisites": [
+    "Opponent in kneeling or combat base position within guard player's range",
+    "Ability to secure one of opponent's arms in bent position behind guard player's neck/shoulder",
+    "Active butterfly hooks established with feet inside opponent's thighs",
+    "Hip mobility and elevation to maintain off-balancing pressure",
+    "Guard player has secured initial arm control before opponent establishes heavy pressure"
+  ],
+
+  "key_principles": [
+    "Maintain constant tension on trapped arm to prevent opponent from straightening and recovering posture",
+    "Use butterfly hooks actively to elevate and off-balance opponent rather than passively holding position",
+    "Keep hips mobile and angled to create sweeping vectors and prevent opponent from settling weight",
+    "Control opponent's shoulder/triceps with outside hand to reinforce arm trap and prevent escape",
+    "Create dilemma by threatening both sweeps and shoulder lock submission simultaneously",
+    "Maintain head position close to opponent's trapped shoulder to maximize control leverage",
+    "Use inside arm strategically for additional grips, frames, or to initiate transitions"
+  ],
+
+  "offensive_transitions": [
+    {
+      "technique": "Williams Sweep",
+      "target_position": "Mount Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Butterfly Sweep",
+      "target_position": "Mount Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Williams Shoulder Lock",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Transition to X-Guard",
+      "target_position": "X-Guard Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Transition to Single Leg X",
+      "target_position": "Single Leg X Guard Bottom",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Back Take from Williams",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Kimura from Williams Guard",
+      "target_position": "Kimura Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    }
+  ],
+
+  "defensive_responses": [
+    {
+      "technique": "Arm Extraction and Posture Recovery",
+      "target_position": "Open Guard Top",
+      "success_rate": 40
+    },
+    {
+      "technique": "Stack Pass Counter",
+      "target_position": "Side Control Top",
+      "success_rate": 30
+    },
+    {
+      "technique": "Knee Slice Around Hooks",
+      "target_position": "Side Control Top",
+      "success_rate": 35
+    },
+    {
+      "technique": "Back Step to Leg Attack",
+      "target_position": "Ashi Garami Top",
+      "success_rate": 25
+    },
+    {
+      "technique": "Standing and Grip Breaking",
+      "target_position": "Standing Position",
+      "success_rate": 45
+    }
+  ],
+
+  "counter_transitions": [
+    {
+      "technique": "Sweep to Mount on Arm Extraction Attempt",
+      "target_position": "Mount Top",
+      "trigger": "Opponent pulls trapped arm to free it from behind neck"
+    },
+    {
+      "technique": "Shoulder Lock Finish on Posture Recovery",
+      "target_position": "Won by Submission",
+      "trigger": "Opponent attempts to straighten trapped arm while maintaining forward pressure"
+    },
+    {
+      "technique": "Technical Stand-up",
+      "target_position": "Standing Position",
+      "trigger": "Opponent backs away to disengage from arm trap"
+    },
+    {
+      "technique": "Transition to Deep Half",
+      "target_position": "Deep Half Guard Bottom",
+      "trigger": "Opponent drives weight forward to smash guard"
+    },
+    {
+      "technique": "Roll-Under Sweep",
+      "target_position": "Top Position",
+      "trigger": "Opponent posts far hand to prevent initial sweep"
+    }
+  ],
+
+  "decision_tree": [
+    {
+      "condition": "If opponent's trapped arm is secure and they are driving forward pressure without extracting arm",
+      "actions": [
+        {
+          "technique": "Williams Shoulder Lock",
+          "target": "Won by Submission",
+          "probability": 55
+        },
+        {
+          "technique": "Williams Sweep",
+          "target": "Mount Top",
+          "probability": 65
+        }
+      ]
+    },
+    {
+      "condition": "If opponent successfully extracts arm or achieves strong posture",
+      "actions": [
+        {
+          "technique": "Transition to Standard Butterfly Guard",
+          "target": "Butterfly Guard Bottom",
+          "probability": 70
+        },
+        {
+          "technique": "Technical Stand-up",
+          "target": "Standing Position",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent posts far hand to prevent sweep while maintaining arm trap",
+      "actions": [
+        {
+          "technique": "Transition to Single Leg X",
+          "target": "Single Leg X Guard Bottom",
+          "probability": 65
+        },
+        {
+          "technique": "Kimura from Williams Guard",
+          "target": "Kimura Control Top",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent backs away to disengage from position",
+      "actions": [
+        {
+          "technique": "Follow with Butterfly Hook Sweep",
+          "target": "Top Position",
+          "probability": 55
+        },
+        {
+          "technique": "Technical Standup to Re-engage",
+          "target": "Standing Position",
+          "probability": 70
+        }
+      ]
+    }
+  ],
+
+  "common_errors": [
+    {
+      "error": "Releasing tension on trapped arm during sweep attempt",
+      "consequence": "Opponent easily extracts arm and recovers posture, nullifying the position's primary control mechanism",
+      "correction": "Maintain constant pulling pressure on trapped arm throughout all transitions, treating arm control as non-negotiable anchor point"
+    },
+    {
+      "error": "Using static butterfly hooks without active elevation",
+      "consequence": "Opponent settles weight and passes around inactive hooks, converting position into standard butterfly guard where arm trap provides no advantage",
+      "correction": "Continuously elevate hips and extend butterfly hooks to keep opponent's weight off-balanced and prevent pressure settling"
+    },
+    {
+      "error": "Failing to angle hips away from opponent's centerline",
+      "consequence": "Opponent achieves square position and can drive forward pressure directly, making sweeps ineffective and arm control difficult to maintain",
+      "correction": "Keep hips angled 45 degrees to opponent's centerline, creating diagonal sweeping vectors and preventing direct forward pressure"
+    },
+    {
+      "error": "Attempting shoulder lock submission without proper setup or timing",
+      "consequence": "Premature submission attempt allows opponent to escape arm trap and advance position, wasting the control you've established",
+      "correction": "Only commit to shoulder lock when opponent drives forward pressure into the trapped arm; use threat as setup for sweeps rather than forcing finish"
+    },
+    {
+      "error": "Neglecting head position near opponent's trapped shoulder",
+      "consequence": "Creates space for opponent to straighten arm and recover, losing the structural control that makes Williams Guard effective",
+      "correction": "Keep head tight to opponent's shoulder with trapped arm behind neck, using head pressure as additional control point"
+    },
+    {
+      "error": "Overcommitting to one attack without reading opponent's reaction",
+      "consequence": "Opponent defends single attack and passes while guard player persists with unsuccessful technique",
+      "correction": "Chain between sweeps and submissions based on opponent's defensive movements, treating Williams Guard as system of interconnected attacks"
+    }
+  ],
+
+  "training_drills": [
+    {
+      "name": "Arm Trap Retention Drill",
+      "description": "Partner starts in combat base while you establish Williams Guard arm trap. Partner attempts to extract their arm using various methods (pulling, posting, straightening) while you maintain control for 2-minute rounds. Focus on keeping constant tension and adjusting grip as needed. Reset and repeat 5 rounds.",
+      "duration": "10 minutes (5 x 2-minute rounds)"
+    },
+    {
+      "name": "Sweep Chain Flow Drill",
+      "description": "From established Williams Guard, practice flowing between different sweep options (Williams sweep, butterfly sweep, roll-under) based on partner's defensive posts and weight shifts. Partner provides 50% resistance and changes defensive response each attempt. Complete 20 sweep attempts focusing on smooth transitions between options.",
+      "duration": "10 minutes"
+    },
+    {
+      "name": "Submission Timing Drill",
+      "description": "Partner in Williams Guard begins driving forward pressure into trapped arm at varying speeds and intensities. Practice recognizing optimal moment to finish shoulder lock versus when to redirect to sweep. Partner taps when pressure is correct, continues when timing is off. Build sensitivity to submission window through 15 repetitions.",
+      "duration": "8 minutes"
+    },
+    {
+      "name": "Entry Sequence Drill",
+      "description": "Start from various open guard positions (standard butterfly, seated guard, closed guard opening) and practice establishing Williams Guard arm trap against partner attempting to maintain posture. Focus on timing entry when opponent reaches forward or attempts to grip. Complete 10 successful entries from each starting position.",
+      "duration": "12 minutes"
+    }
+  ],
+
+  "optimal_submission_paths": [
+    {
+      "name": "Direct Williams Shoulder Lock Path",
+      "path": "Williams Guard Bottom → Williams Shoulder Lock → Won by Submission"
+    },
+    {
+      "name": "Sweep to Mount Submission Path",
+      "path": "Williams Guard Bottom → Williams Sweep → Mount Top → Armbar from Mount → Won by Submission"
+    },
+    {
+      "name": "Kimura Transition Path",
+      "path": "Williams Guard Bottom → Kimura from Williams Guard → Kimura Control Top → Kimura → Won by Submission"
+    },
+    {
+      "name": "Back Attack Path",
+      "path": "Williams Guard Bottom → Back Take from Williams → Back Control Top → Rear Naked Choke → Won by Submission"
+    },
+    {
+      "name": "X-Guard Submission Path",
+      "path": "Williams Guard Bottom → Transition to X-Guard → X-Guard Bottom → X-Guard Sweep → Mount Top → Triangle from Mount → Won by Submission"
+    }
+  ],
+
+  "related_content": [
+    {
+      "name": "Butterfly Guard Bottom",
+      "relationship": "Parent position - Williams Guard is specialized variation with arm trap"
+    },
+    {
+      "name": "Butterfly Half Guard Bottom",
+      "relationship": "Similar position - combines butterfly hooks with different control mechanism"
+    },
+    {
+      "name": "Williams Shoulder Lock",
+      "relationship": "Signature submission - primary finishing technique from this position"
+    },
+    {
+      "name": "X-Guard Bottom",
+      "relationship": "Common transition target - natural progression when opponent posts"
+    },
+    {
+      "name": "Single Leg X Guard Bottom",
+      "relationship": "Alternative transition - used when opponent creates distance"
+    },
+    {
+      "name": "Kimura from Guard",
+      "relationship": "Alternative submission - available from similar arm control"
+    },
+    {
+      "name": "Deep Half Guard Bottom",
+      "relationship": "Defensive transition - used when opponent smashes forward"
+    },
+    {
+      "name": "Open Guard Bottom",
+      "relationship": "General category - Williams Guard is specialized open guard variation"
+    }
+  ],
+
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 45,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "advancement_probability": {
+      "beginner": 35,
+      "intermediate": 50,
+      "advanced": 65
+    },
+    "submission_probability": {
+      "beginner": 20,
+      "intermediate": 35,
+      "advanced": 50
+    },
+    "average_time": "30-90 seconds"
+  },
+
+  "expert_insights": {
+    "danaher": "Williams Guard represents an excellent case study in biomechanical efficiency through structural control. The genius of this position lies in its ability to create a locked structure where the opponent's arm becomes a lever against their own upper body. By securing the arm in a bent position behind your neck, you create a biomechanical situation where any forward pressure the opponent applies actually feeds into both the sweep mechanism and the shoulder lock finish. The butterfly hooks serve not merely as retention tools but as active elevation devices that prevent the opponent from settling their weight and accessing their primary defensive resource - a flat, heavy base. The position exemplifies the principle that superior structure defeats superior strength. Notice how the arm trap creates a unilateral control that breaks the opponent's symmetry - they cannot distribute weight evenly, cannot establish bilateral grips, and cannot generate coordinated passing pressure. This asymmetry is the foundation of the position's effectiveness. When teaching this guard, emphasize that the arm control must be non-negotiable - it is the anchor point from which all attacks flow, and its loss represents the position's complete failure.",
+
+    "gordon_ryan": "I've used Williams Guard extensively in competition because it solves a specific problem: how to attack wrestlers and pressure passers who want to smash you with forward pressure. The beauty of this position is that it turns their greatest strength into their weakness. When they drive forward trying to pass, they're literally feeding into the shoulder lock and making the sweep easier. In matches, I look to establish this when opponents are being aggressive with their passing - the more pressure they apply, the better the position works. The key competitive adjustment I make is using the Williams sweep primarily as a setup for the shoulder lock rather than viewing them as separate attacks. When opponents defend the sweep by posting their far hand, their weight shifts perfectly for the submission. When they defend the submission by pulling their arm back, they're already off-balanced for the sweep. At the highest levels, you can't just play guard anymore - you need positions that create offensive dilemmas, and Williams Guard does exactly that. It's particularly effective in no-gi where traditional collar-and-sleeve guards don't exist, giving you a powerful butterfly-based option that actually finishes matches.",
+
+    "eddie_bravo": "Williams Guard is pure innovation, man - taking something familiar like butterfly guard and adding a completely unique control mechanism that changes the entire game. What I love about this position is that it breaks the conventional passing game. Guys are used to dealing with hooks and grips, but when you trap their arm behind your neck, they're in completely unfamiliar territory. It's like you've hacked their defensive programming. In the 10th Planet system, we appreciate positions that make opponents uncomfortable and force them to problem-solve in real-time, and Williams Guard delivers on that completely. The shoulder lock submission is particularly nasty because it comes on gradually - opponents often don't realize they're in danger until it's too late to defend. I encourage my students to experiment with this position from various entries - from closed guard breaks, from seated guard, even from failed takedown attempts where you end up on bottom. The arm trap can be established in multiple ways, and finding your own entry sequences keeps opponents guessing. This is exactly the kind of creative guard play that pushes BJJ forward and gives you techniques your opponents haven't trained specifically to defend."
+  }
+}
+{
+  "metadata": {
+    "title": "Williams Guard Top | BJJ Position Guide | BJJ Graph",
+    "description": "Master Williams Guard Top defense and passing strategies. Learn to defend shoulder lock threats, extract trapped arm, and complete guard passes from this unique position.",
+    "state_id": "S199",
+    "tags": ["bjj", "position", "williams-guard", "open-guard", "guard-passing", "top", "defense"],
+    "parent_variant": "Williams Guard",
+    "sibling_variants": ["Williams Guard Bottom"]
+  },
+
+  "overview": "Williams Guard Top represents the challenging defensive and passing position faced when an opponent secures Williams Guard Bottom control with a shoulder lock threat on your arm. This position requires technical understanding of shoulder lock defense mechanics combined with systematic guard passing principles. The top practitioner must simultaneously defend the shoulder lock submission threat while working to extract their trapped arm and establish guard passing control. Success in this position demands patience, proper defensive posture, and recognition of the opponent's transition triggers. Williams Guard Top exemplifies modern guard passing challenges where submission threats and positional control are integrated, requiring the passer to address multiple layers of offense while advancing their passing game. Understanding the mechanical relationship between shoulder lock defense and guard passing is essential for navigating this position effectively and preventing the bottom player from transitioning to more dominant attacking positions.",
+
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive",
+    "risk_level": "High",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short to Medium"
+  },
+
+  "state_invariants": [
+    "Top practitioner's arm is controlled in shoulder lock configuration by bottom player, with figure-four grip or similar shoulder manipulation creating constant submission threat that must be actively defended",
+    "Top practitioner maintains posture and base with free arm and legs while working to prevent bottom player from completing shoulder lock submission or transitioning to more dominant attacking positions",
+    "Bottom player uses legs to maintain distance and create frames that prevent top player from establishing chest-to-chest pressure or completing immediate guard passes",
+    "Top practitioner's trapped arm is isolated away from centerline by bottom player's control, limiting posting ability and reducing base stability until arm extraction is completed"
+  ],
+
+  "prerequisites": [
+    "Bottom player has established shoulder lock grip configuration on your arm",
+    "You are positioned in combat base, standing, or transitional passing position within guard range",
+    "Bottom player has created sufficient space with legs to maintain guard structure",
+    "Your arm has been isolated away from your defensive gripping opportunities"
+  ],
+
+  "key_principles": [
+    "Protect shoulder joint by maintaining proper alignment and preventing full extension or rotation into submission",
+    "Keep weight distributed on free arm and legs to maintain base while defending shoulder lock",
+    "Create small, controlled movements to extract trapped arm without triggering sweep or submission transitions",
+    "Recognize opponent's transition triggers and counter offensive attempts before they develop",
+    "Establish head control or upper body pressure when opportunities arise to neutralize guard retention",
+    "Use circling and angle changes to create arm extraction opportunities while maintaining defensive posture",
+    "Transition to secure passing positions immediately upon arm extraction to prevent guard re-establishment"
+  ],
+
+  "offensive_transitions": [
+    {
+      "technique": "Arm Extraction",
+      "target_position": "Combat Base Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Pressure Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Guard Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Posture Recovery",
+      "target_position": "Open Guard Top",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Knee Slice Position Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    }
+  ],
+
+  "defensive_responses": [
+    {
+      "technique": "Williams Shoulder Lock",
+      "target_position": "Submission Position Generic Bottom",
+      "success_rate": 45
+    },
+    {
+      "technique": "Omoplata Sweep",
+      "target_position": "Mount Bottom",
+      "success_rate": 50
+    },
+    {
+      "technique": "Triangle Setup",
+      "target_position": "Triangle Control Bottom",
+      "success_rate": 40
+    },
+    {
+      "technique": "Transition to Omoplata",
+      "target_position": "Omoplata Control Bottom",
+      "success_rate": 55
+    },
+    {
+      "technique": "Back Take Generic",
+      "target_position": "Back Control Bottom",
+      "success_rate": 35
+    }
+  ],
+
+  "counter_transitions": [
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent commits heavily to shoulder lock finish and loses leg frame pressure"
+    },
+    {
+      "technique": "Pressure Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent transitions to omoplata and creates space during rotation"
+    },
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Knee Slice Position Top",
+      "trigger": "Opponent opens guard to adjust shoulder lock angle"
+    }
+  ],
+
+  "decision_tree": [
+    {
+      "condition": "If opponent applies increasing shoulder lock pressure for submission finish",
+      "actions": [
+        {
+          "technique": "Arm Extraction",
+          "target": "Combat Base Top",
+          "probability": 60
+        },
+        {
+          "technique": "Stack Pass",
+          "target": "Side Control Top",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent begins transitioning to omoplata position",
+      "actions": [
+        {
+          "technique": "Pressure Pass",
+          "target": "Side Control Top",
+          "probability": 65
+        },
+        {
+          "technique": "Posture Recovery",
+          "target": "Open Guard Top",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent sets up triangle by opening guard wider",
+      "actions": [
+        {
+          "technique": "Guard Pass",
+          "target": "Side Control Top",
+          "probability": 70
+        },
+        {
+          "technique": "Knee Slice Pass",
+          "target": "Knee Slice Position Top",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent maintains static shoulder lock control without progression",
+      "actions": [
+        {
+          "technique": "Arm Extraction",
+          "target": "Combat Base Top",
+          "probability": 75
+        },
+        {
+          "technique": "Posture Recovery",
+          "target": "Open Guard Top",
+          "probability": 65
+        }
+      ]
+    }
+  ],
+
+  "common_errors": [
+    {
+      "error": "Yanking trapped arm back aggressively to force extraction",
+      "consequence": "Creates sudden jerking motion that increases shoulder lock pressure and opens immediate armbar or omoplata transitions for opponent",
+      "correction": "Extract arm using small, controlled circular movements while maintaining shoulder alignment and protecting joint integrity throughout process"
+    },
+    {
+      "error": "Driving forward with chest pressure while arm is still controlled",
+      "consequence": "Opponent uses forward pressure to accelerate omoplata rotation or back take transitions, losing position entirely",
+      "correction": "Maintain upright posture and work systematically on arm extraction before attempting to establish passing pressure or advance position"
+    },
+    {
+      "error": "Posting free hand on mat near opponent's hip for base",
+      "consequence": "Opponent immediately attacks posted arm with triangle setup or uses post as leverage point for sweep execution",
+      "correction": "Keep free hand in defensive position near own centerline or use for head control rather than creating vulnerable posting positions"
+    },
+    {
+      "error": "Remaining stationary in Williams Guard Top without creating movement",
+      "consequence": "Opponent settles into optimal shoulder lock position and systematically increases submission pressure or sets up transitions without resistance",
+      "correction": "Create constant small movements and angle changes to disrupt opponent's control and create arm extraction opportunities continuously"
+    },
+    {
+      "error": "Focusing exclusively on shoulder lock defense while ignoring guard passing objectives",
+      "consequence": "Successfully defends submission but remains trapped in guard indefinitely, expending energy without advancing position or scoring",
+      "correction": "Balance shoulder lock defense with systematic guard passing work, using arm extraction as transition point to immediate passing attacks"
+    },
+    {
+      "error": "Attempting to muscle through shoulder lock using strength rather than technique",
+      "consequence": "Increases injury risk to own shoulder joint and fatigues arm muscles while opponent maintains control through technical leverage",
+      "correction": "Use technical arm extraction methods that address mechanical components of shoulder lock rather than relying on strength or force"
+    },
+    {
+      "error": "Allowing hips to square up directly with opponent's body",
+      "consequence": "Opponent optimizes shoulder lock angle and creates easier pathways to omoplata, triangle, and back take transitions",
+      "correction": "Maintain angled hip position relative to opponent's body to reduce shoulder lock effectiveness and limit transition opportunities"
+    }
+  ],
+
+  "training_drills": [
+    {
+      "name": "Williams Guard Arm Extraction Drill",
+      "description": "Partner establishes Williams Guard Bottom with shoulder lock control. Practice systematic arm extraction using circular movements and shoulder protection mechanics. Focus on extracting without triggering submission or sweep. 2 minutes per side.",
+      "duration": "4 minutes"
+    },
+    {
+      "name": "Williams Guard Defense to Pass Flow",
+      "description": "Start with arm controlled in Williams Guard Bottom. Work through defensive sequence: protect shoulder, extract arm, establish passing position, complete pass. Partner provides progressive resistance from 30% to 70%. 5 minute rounds.",
+      "duration": "5 minutes"
+    },
+    {
+      "name": "Williams Guard Counter-Transition Drill",
+      "description": "Partner attempts various attacks from Williams Guard Bottom (shoulder lock finish, omoplata, triangle, back take). Practice recognizing transition triggers and countering with appropriate passing attacks. Focus on timing and recognition.",
+      "duration": "6 minutes"
+    },
+    {
+      "name": "Williams Guard Positional Sparring",
+      "description": "Start in Williams Guard Top with arm controlled. Partner works for submissions and sweeps. You work for arm extraction and guard pass. Reset if submission occurs or guard is passed. Alternate 3 minute rounds.",
+      "duration": "3 minutes per round"
+    }
+  ],
+
+  "optimal_submission_paths": [
+    {
+      "name": "Escape to pass completion",
+      "path": "Williams Guard Top → Arm Extraction → Combat Base Top → Guard Pass → Side Control Top"
+    },
+    {
+      "name": "Stack pass counter",
+      "path": "Williams Guard Top → Stack Pass → Side Control Top"
+    },
+    {
+      "name": "Knee slice escape",
+      "path": "Williams Guard Top → Knee Slice Pass → Knee Slice Position Top → Side Control Top"
+    }
+  ],
+
+  "related_content": [
+    {
+      "name": "Williams Guard",
+      "relationship": "Parent position"
+    },
+    {
+      "name": "Williams Guard Bottom",
+      "relationship": "Opposite perspective (sibling variant)"
+    },
+    {
+      "name": "Combat Base Top",
+      "relationship": "Target position after arm extraction"
+    },
+    {
+      "name": "Open Guard Top",
+      "relationship": "General guard category"
+    },
+    {
+      "name": "Side Control Top",
+      "relationship": "Primary passing target from this position"
+    },
+    {
+      "name": "Omoplata Control Bottom",
+      "relationship": "Common defensive threat to defend against"
+    },
+    {
+      "name": "Triangle Control Bottom",
+      "relationship": "Common defensive threat to defend against"
+    },
+    {
+      "name": "Williams Shoulder Lock",
+      "relationship": "Primary submission threat to defend"
+    },
+    {
+      "name": "Arm Extraction",
+      "relationship": "Key defensive technique"
+    },
+    {
+      "name": "Stack Pass",
+      "relationship": "Primary counter-passing technique"
+    },
+    {
+      "name": "Guard Passing Principles",
+      "relationship": "Fundamental concept for this position"
+    },
+    {
+      "name": "Submission Defense",
+      "relationship": "Essential defensive concept"
+    }
+  ],
+
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 35,
+      "intermediate": 50,
+      "advanced": 65
+    },
+    "advancement_probability": {
+      "beginner": 40,
+      "intermediate": 55,
+      "advanced": 70
+    },
+    "submission_probability": {
+      "beginner": 5,
+      "intermediate": 10,
+      "advanced": 15
+    },
+    "average_time": "30-90 seconds"
+  },
+
+  "expert_insights": {
+    "danaher": "Williams Guard Top presents a sophisticated defensive problem that requires understanding the mechanical hierarchy of shoulder lock defense and guard passing. The fundamental principle is that submission defense must take absolute priority over passing advancement—attempting to pass while your arm remains in a compromised shoulder lock position virtually guarantees either submission or sweep. The arm extraction process must be approached systematically: first, protect the shoulder joint by maintaining proper alignment and preventing full extension or rotation; second, create small circular movements that gradually reduce the opponent's leverage without triggering their transition responses; third, time the final extraction to coincide with establishing a dominant passing position. The critical error most practitioners make is treating arm extraction and guard passing as separate problems when they are actually interconnected elements of the same defensive sequence. The opponent's Williams Guard effectiveness stems from creating a mechanical dilemma where defending the shoulder lock opens sweep opportunities and pursuing the pass opens submission opportunities. Breaking this dilemma requires what I call 'defensive priority sequencing'—address the immediate submission threat first, then advance position only when the threat is neutralized. Understanding this principle transforms Williams Guard Top from a panicked defensive scramble into a systematic problem-solving sequence.",
+    "gordon_ryan": "When I get caught in Williams Guard, my first reaction is to recognize I made a mistake earlier in the passing sequence that allowed the arm isolation. The key is not panicking about the shoulder lock—yes it's uncomfortable, but if you protect your shoulder properly it's very hard for them to finish it quickly. My approach is to stay calm, protect the joint, and work methodically on the extraction while watching for their transitions. The most important thing is recognizing when they're about to go to omoplata or triangle, because those transitions create the openings for your passing attacks. I specifically bait the omoplata transition sometimes because when they commit to it, there's a window where I can stack them or pressure pass. The shoulder lock finish itself is actually the least of my concerns at high levels because most advanced players know how to defend it—what's dangerous is getting swept or having them take your back during the transition phases. I focus heavily on keeping my hips angled and maintaining base with my free side while I work the extraction. Once the arm is free, I immediately attack with passing pressure before they can re-establish guard structure. The position is definitely uncomfortable and risky, but with proper defensive mechanics and patience, it's very passable.",
+    "eddie_bravo": "Williams Guard Top is one of those positions where you're essentially paying the price for not respecting the opponent's arm isolation game earlier. From the 10th Planet perspective, we train extensively in Williams Guard from both sides because it embodies the kind of submission-based guard retention we build our entire system around. When you're on top in this position, the first thing to understand is that your opponent has created a control system very similar to our Rubber Guard philosophy—they're using a submission hold as a positional control mechanism. Your defense needs to address both layers: the immediate submission threat and the positional control that's keeping you stuck in their guard. The key technical element is the circular arm extraction movement—you can't just yank straight back because that's exactly what they want you to do. Instead, you need to create small circles with your shoulder while maintaining proper joint alignment, gradually working your way out of the shoulder lock configuration. What makes this challenging is that you have to do this while also preventing them from transitioning to omoplata, triangle, or back attacks. The best defense is actually recognizing the Williams Guard setup before it's fully established and shutting it down early, but once you're in it, you need patience, technical extraction mechanics, and constant awareness of their transition triggers. It's a humbling position that teaches respect for arm isolation and submission-based guard systems."
+  }
+}

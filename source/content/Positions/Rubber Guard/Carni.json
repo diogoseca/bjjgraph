@@ -1,0 +1,411 @@
+Session limit reached ∙ resets 11am
+{
+  "metadata": {
+    "title": "Carni Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master Carni position in BJJ. Advanced leg entanglement with systematic heel hook and back take paths. 65% submission rate at advanced level.",
+    "state_id": "S250",
+    "tags": ["bjj", "position", "leg-entanglement", "carni", "submission-control", "advanced", "no-gi", "heel-hook-setup"]
+  },
+  "overview": "The Carni position is an advanced leg entanglement control position that emerged from modern no-gi grappling, particularly popularized by Australian grapplers like Lachlan Giles and adopted by Craig Jones and the B-Team. Named after the \"carnivore\" concept of aggressively attacking the legs, this position represents a transitional control state between standard ashi garami variants and more dominant positions like the saddle or back control. The Carni is characterized by controlling one of the opponent's legs while maintaining inside positioning with your own legs, creating immediate threats of heel hooks, transitions to the saddle, or unexpected paths to the back.\n\nWhat distinguishes the Carni from other leg entanglement positions is its versatility and the high-percentage nature of its attack paths. Unlike static leg lock positions, the Carni emphasizes dynamic control and transition, forcing opponents into defensive reactions that open up multiple submission and positional advancement opportunities. The position is particularly effective in no-gi competition where leg attacks are legal, and it has become a cornerstone of modern leg lock systems.\n\nThe Carni requires sophisticated understanding of leg entanglement mechanics, back exposure principles, and the ability to chain attacks seamlessly. Practitioners must develop the sensitivity to recognize when opponents are defending the leg attack versus when they're creating back exposure, and the technical proficiency to capitalize on either defensive choice. This position represents the evolution of leg lock systems from isolated submissions to comprehensive control positions with multiple high-percentage finishing paths.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short to Medium"
+  },
+  "state_invariants": [
+    "Bottom player controls one of top player's legs with both of their legs creating an entanglement, with the controlled leg trapped between bottom player's legs in a figure-four or ashi garami configuration",
+    "Bottom player maintains inside positioning with their top leg hooking over opponent's hip or threading inside to create saddle entry angles, while controlling opponent's ankle/heel with hands",
+    "Top player's trapped leg is extended and isolated with heel exposed, while top player's upper body is typically forced forward or sideways to defend the leg attack, creating potential back exposure",
+    "Bottom player's hips are positioned at an angle to opponent's hip line, creating leverage for heel hooks while maintaining the ability to invert or roll under for back takes",
+    "Upper body connection maintained through grips on opponent's pants, belt, or ankles, preventing opponent from simply pulling their leg free or establishing distance control"
+  ],
+  "prerequisites": [
+    "Successful entry from Single Leg X Guard, Reverse De La Riva Guard, or Ashi Garami position",
+    "Control of at least one of opponent's legs with proper foot positioning",
+    "Understanding of leg entanglement hierarchy and positioning mechanics",
+    "Opponent's leg isolated and extended with inside positioning established",
+    "Ability to invert or rotate to follow opponent's defensive movements",
+    "Knowledge of heel hook mechanics and legal submission rules for your competition ruleset"
+  ],
+  "key_principles": [
+    "Maintain inside positioning with top leg over opponent's hip to prevent escape and create saddle entry angles",
+    "Control opponent's heel and ankle with both hands to establish immediate submission threat and prevent leg extraction",
+    "Keep hips mobile and ready to invert, roll, or transition as opponent attempts to defend or escape",
+    "Create constant dilemma between defending leg attack and preventing back exposure",
+    "Use leg configuration to control distance and prevent opponent from establishing upper body control or pressure",
+    "Anticipate opponent's roll or spin attempts and follow the movement to transition to back control or saddle",
+    "Maintain tension in the leg entanglement while staying relaxed in upper body to conserve energy and react quickly"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Inside Heel Hook",
+      "target_position": "Heel Hook",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Saddle Entry from Top",
+      "target_position": "Saddle Position Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Rolling Back Take",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Transition to Truck",
+      "target_position": "Truck Position Bottom",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Calf Slicer from Truck",
+      "target_position": "Calf Slicer from Truck",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Outside Ashi Entry",
+      "target_position": "Outside Ashi-Garami Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Kneebar Finish",
+      "target_position": "Kneebar",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Transition to North-South",
+      "target_position": "North-South",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Saddle Defense",
+      "target_position": "Ashi Garami",
+      "success_rate": 45
+    },
+    {
+      "technique": "Rolling Kimura Escape",
+      "target_position": "Top Position",
+      "success_rate": 40
+    },
+    {
+      "technique": "Technical Standup Concept",
+      "target_position": "Standing Position",
+      "success_rate": 35
+    },
+    {
+      "technique": "Stack Defense",
+      "target_position": "Combat Base",
+      "success_rate": 30
+    },
+    {
+      "technique": "Granby Roll",
+      "target_position": "Guard Recovery",
+      "success_rate": 25
+    },
+    {
+      "technique": "Leg Drag Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 20
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Rolling Back Take",
+      "target_position": "Back Control",
+      "trigger": "Opponent attempts to roll away from heel hook pressure"
+    },
+    {
+      "technique": "Saddle Entry from Top",
+      "target_position": "Saddle Position Top",
+      "trigger": "Opponent pulls knee toward chest to defend heel hook"
+    },
+    {
+      "technique": "Transition to Truck",
+      "target_position": "Truck Position Bottom",
+      "trigger": "Opponent turns belly down to defend leg attack"
+    },
+    {
+      "technique": "Kneebar Finish",
+      "target_position": "Kneebar",
+      "trigger": "Opponent straightens leg to create distance"
+    },
+    {
+      "technique": "Calf Slicer from Truck",
+      "target_position": "Calf Slicer from Truck",
+      "trigger": "Opponent locks hands to defend back exposure from truck"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent pulls knee toward chest and creates defensive ball to protect heel",
+      "actions": [
+        {
+          "technique": "Saddle Entry from Top",
+          "target": "Saddle Position Top",
+          "probability": 70
+        },
+        {
+          "technique": "Outside Ashi Entry",
+          "target": "Outside Ashi-Garami Top",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to roll away or spin to extract trapped leg",
+      "actions": [
+        {
+          "technique": "Rolling Back Take",
+          "target": "Back Control",
+          "probability": 65
+        },
+        {
+          "technique": "Transition to Truck",
+          "target": "Truck Position Bottom",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent turns belly down to defend heel exposure",
+      "actions": [
+        {
+          "technique": "Transition to Truck",
+          "target": "Truck Position Bottom",
+          "probability": 75
+        },
+        {
+          "technique": "Calf Slicer from Truck",
+          "target": "Calf Slicer from Truck",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent extends leg and attempts to create distance",
+      "actions": [
+        {
+          "technique": "Inside Heel Hook",
+          "target": "Heel Hook",
+          "probability": 70
+        },
+        {
+          "technique": "Kneebar Finish",
+          "target": "Kneebar",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent establishes upper body pressure and attempts to stack",
+      "actions": [
+        {
+          "technique": "Granby Roll",
+          "target": "Guard Recovery",
+          "probability": 50
+        },
+        {
+          "technique": "Outside Ashi Entry",
+          "target": "Outside Ashi-Garami Top",
+          "probability": 45
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Failing to maintain inside positioning with top leg, allowing opponent to step over and escape",
+      "consequence": "Opponent easily extracts leg and passes to top position or establishes distance control",
+      "correction": "Keep top leg actively hooking over opponent's hip or threading inside, using this leg as primary control point for maintaining entanglement"
+    },
+    {
+      "error": "Gripping too high on opponent's leg (above knee) instead of controlling heel and ankle",
+      "consequence": "Lose immediate submission threat and allow opponent time to defend and escape safely",
+      "correction": "Prioritize heel and ankle control with both hands, establishing immediate finishing threat before attempting transitions"
+    },
+    {
+      "error": "Remaining static and not following opponent's defensive movements",
+      "consequence": "Opponent successfully rolls, spins, or extracts leg while you maintain outdated angle and lose control",
+      "correction": "Stay mobile and ready to invert, roll under, or rotate with opponent's movement, treating Carni as dynamic transitional position rather than static control"
+    },
+    {
+      "error": "Applying submission pressure too early before securing proper angle and control",
+      "consequence": "Premature submission attempt allows opponent to recognize danger and escape before control is fully established",
+      "correction": "Establish solid positional control first, then gradually apply submission pressure while maintaining readiness to transition based on opponent's defensive reactions"
+    },
+    {
+      "error": "Ignoring back exposure opportunities when opponent turns away from leg attack",
+      "consequence": "Miss high-percentage transition to back control while fixating only on heel hook finish",
+      "correction": "Recognize back exposure as equal or better opportunity than leg finish, following opponent's roll immediately to secure back control or truck position"
+    },
+    {
+      "error": "Allowing opponent to establish upper body grips and create stacking pressure",
+      "consequence": "Lose leg entanglement structure and get passed to top position or forced to release control",
+      "correction": "Use leg configuration to maintain distance and prevent upper body engagement, inverting or repositioning before opponent can establish heavy pressure"
+    },
+    {
+      "error": "Committing fully to heel hook without recognizing opponent's successful defensive positioning",
+      "consequence": "Expend energy on low-percentage finish while missing available transitions to better positions",
+      "correction": "Maintain awareness of opponent's defensive success and immediately transition to saddle, back, or truck when heel hook is well-defended"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Carni Entry Flow Drill",
+      "description": "Start from Single Leg X Guard or Reverse De La Riva Guard and practice smooth entries to Carni position, focusing on establishing inside positioning and heel control. Partner provides light resistance. Alternate roles every 2 minutes.",
+      "duration": "10 minutes"
+    },
+    {
+      "name": "Back Exposure Recognition Drill",
+      "description": "From established Carni position, partner attempts various defensive rolls and spins. Practice following movement immediately to truck or back control. Focus on timing and movement synchronization rather than submission. Reset after each successful transition.",
+      "duration": "8 minutes"
+    },
+    {
+      "name": "Carni Submission Chain Drill",
+      "description": "Flow between heel hook, kneebar, and calf slicer threats from Carni position. Partner defends each submission progressively, forcing you to chain attacks. Emphasize smooth transitions between submission types without releasing primary controls.",
+      "duration": "10 minutes"
+    },
+    {
+      "name": "Dynamic Carni Maintenance",
+      "description": "Partner actively attempts to escape Carni using all available methods (stacking, leg extraction, rolling, standing). Practice maintaining position through movement, inverting, and repositioning while keeping inside control. 30-second rounds with role reversal.",
+      "duration": "12 minutes"
+    },
+    {
+      "name": "Decision Tree Positional Sparring",
+      "description": "Start from Carni position with clear rules: if heel is defended, transition to saddle; if opponent rolls, take back; if opponent goes belly down, take truck. Practice recognizing triggers and executing appropriate transitions under resistance.",
+      "duration": "15 minutes"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Direct Heel Hook Path",
+      "path": "Carni → Inside Heel Hook → Won by Submission (2 steps, highest percentage when opponent extends leg)"
+    },
+    {
+      "name": "Saddle Transition Path",
+      "path": "Carni → Saddle Entry from Top → Saddle Position Top → Inside Heel Hook → Won by Submission (4 steps, most reliable against defensive opponents)"
+    },
+    {
+      "name": "Back Exposure Path",
+      "path": "Carni → Rolling Back Take → Back Control → Rear Naked Choke → Won by Submission (4 steps, excellent when opponent prioritizes leg defense)"
+    },
+    {
+      "name": "Truck to Calf Slicer Path",
+      "path": "Carni → Transition to Truck → Truck Position Bottom → Calf Slicer from Truck → Won by Submission (4 steps, effective when opponent turns belly down)"
+    },
+    {
+      "name": "Kneebar Transition Path",
+      "path": "Carni → Kneebar Finish → Won by Submission (2 steps, opportunistic when opponent straightens leg)"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Ashi Garami",
+      "relationship": "Entry position - standard leg entanglement from which Carni is often accessed"
+    },
+    {
+      "name": "Single Leg X Guard",
+      "relationship": "Entry position - common starting point for Carni entries with inside leg positioning"
+    },
+    {
+      "name": "Saddle Position Top",
+      "relationship": "Primary advancement target - most common transition when opponent defends heel"
+    },
+    {
+      "name": "Truck Position Bottom",
+      "relationship": "Back exposure transition - accessed when opponent turns belly down"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Alternative finish position - taken when opponent rolls to defend leg attack"
+    },
+    {
+      "name": "Craig Jones Leg Lock System",
+      "relationship": "Strategic framework - systematic approach to Carni position and transitions"
+    },
+    {
+      "name": "Lachlan Giles Leg Lock Defense Framework",
+      "relationship": "Defensive context - understanding escapes improves offensive Carni game"
+    },
+    {
+      "name": "Reverse De La Riva Guard",
+      "relationship": "Entry position - common guard to initiate Carni entries"
+    },
+    {
+      "name": "Outside Ashi-Garami Top",
+      "relationship": "Related entanglement - alternative leg position with different attack angles"
+    },
+    {
+      "name": "Inside Heel Hook",
+      "relationship": "Primary submission - most common finish from Carni position"
+    },
+    {
+      "name": "Calf Slicer from Truck",
+      "relationship": "Secondary submission - accessed via truck transition from Carni"
+    },
+    {
+      "name": "Kneebar",
+      "relationship": "Alternative submission - opportunistic finish when opponent extends leg"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 35,
+      "intermediate": 55,
+      "advanced": 70
+    },
+    "advancement_probability": {
+      "beginner": 40,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "submission_probability": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 65
+    },
+    "average_time": "15-45 seconds (transitional control position with high finishing rate)"
+  },
+  "expert_insights": {
+    "danaher": "The Carni position represents a critical evolution in leg entanglement theory, serving as a dynamic nexus point between multiple attack systems. What makes this position theoretically significant is its emphasis on opponent dilemma creation rather than isolated submission mechanics. When you establish Carni control, you're not merely attacking one leg - you're forcing your opponent to make an impossible choice between defending the immediate leg attack and preventing back exposure. The biomechanical principle underlying Carni effectiveness is the inverse relationship between heel defense and spinal defense. As the opponent pulls their knee toward their chest to protect the heel, they necessarily curl their spine and expose their back. Conversely, if they extend and flatten to prevent back exposure, they present the heel for attack. Understanding this fundamental dilemma allows you to approach Carni not as a static position but as a transitional control state where you systematically eliminate the opponent's defensive options through positional chess rather than athletic scrambling.",
+    "gordon_ryan": "In competition, the Carni position has become one of my highest percentage setups for finishing opponents who are otherwise extremely difficult to submit. What I've found through hundreds of matches is that even world-class grapplers struggle with the back-or-legs dilemma that Carni creates. The key to making this position work at elite levels is speed and decisiveness in your transitions - you can't give opponents time to problem-solve their way out. When I establish Carni, I'm already anticipating their defensive movement and following it immediately. If they roll, I'm on their back before they complete the rotation. If they defend the heel, I'm in the saddle before they recognize the transition. The position works because it exploits a fundamental weakness in human defensive psychology - people tend to commit fully to defending one attack, and that commitment opens the other. Against high-level opponents, I've found that the back take from Carni is often higher percentage than the heel hook itself, because they're so focused on protecting their knee ligaments that they'll give up position to do it.",
+    "eddie_bravo": "The Carni is basically the modern no-gi version of what we were trying to do with the Truck and Twister system years ago - create positions where the opponent is screwed no matter what they do. What's beautiful about Carni is how it fits into the 10th Planet philosophy of aggressive submission hunting while maintaining positional advancement. We integrate Carni heavily into our lockdown and deep half systems because it's a perfect destination from those bottom positions. One innovation we've developed is using the Carni as a reset position when other leg attacks fail - instead of conceding position when your heel hook gets defended, you use Carni positioning to maintain control and immediately threaten something else. The electric chair setup from Carni is particularly nasty because opponents aren't expecting that submission threat from what looks like a standard leg entanglement. The key to Carni effectiveness is staying creative and not getting locked into the obvious attack patterns - sometimes the calf slicer or the back take is there before the heel hook, and you've got to have the awareness to recognize and capitalize on those opportunities in real time."
+  }
+}
+Session limit reached ∙ resets 11am

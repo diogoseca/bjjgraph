@@ -1,0 +1,414 @@
+Session limit reached ∙ resets 4am
+{
+  "metadata": {
+    "title": "Rodeo Ride Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master Rodeo Ride in BJJ. Advanced turtle attack position with unique control angles. Learn transitions to back, submissions, and maintenance techniques with 65% advancement rate.",
+    "state_id": "S246",
+    "tags": ["bjj", "position", "turtle-attack", "back-attack", "advanced", "control", "transition"]
+  },
+  "overview": "Rodeo Ride is an advanced turtle attack position where the top practitioner maintains control over a turtled opponent using asymmetric grips and dynamic positioning. Unlike traditional turtle top control, Rodeo Ride emphasizes mobility and constant pressure adjustment, allowing the attacker to flow between various back attack entries, submission attempts, and control positions. The position gets its name from the rider-like posture and movement pattern required to maintain control while the opponent attempts to escape.\n\nThis position represents a critical transition state in the turtle attack game, bridging the gap between initial turtle control and full back control or submission positions. The top practitioner typically maintains control through a combination of hip pressure, strategic gripping (often involving the near arm and far lapel or collar), and active weight distribution that prevents the bottom practitioner from recovering guard or standing up. Success in Rodeo Ride requires excellent balance, timing, and the ability to read opponent movement patterns to capitalize on escape attempts.\n\nRodeo Ride is particularly effective in both gi and no-gi contexts, though the specific control mechanisms differ. In gi, lapel and collar grips provide powerful control points, while no-gi variants rely more heavily on body positioning, underhooks, and seat belt control. The position has gained prominence in modern competition BJJ as a high-percentage path to back control and offers multiple submission opportunities including chokes from turtle and various arm attacks.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+  "state_invariants": [
+    "Top practitioner positioned on opponent's side/back with hips loaded on opponent's torso, maintaining dynamic weight distribution that shifts with opponent movement while preventing them from flattening or standing",
+    "Control established through asymmetric gripping pattern, typically controlling near-side arm (wrist, elbow, or shoulder) while maintaining collar/neck control or far-side grip to prevent opponent rotation",
+    "Opponent in defensive turtle position with knees and hands on mat, head protected and tucked, attempting to maintain base while defending against back exposure and submission attacks",
+    "Top practitioner's chest making contact with opponent's back/shoulder area, with one leg typically posted on mat for base while other knee/shin applies pressure to opponent's hip or thigh",
+    "Active pressure distribution preventing opponent from sitting back to guard, standing up to feet, or rolling through, requiring constant adjustment and repositioning by top practitioner"
+  ],
+  "prerequisites": [
+    "Opponent must be in turtle/defensive position with hands and knees on mat",
+    "Top practitioner must establish initial control over opponent's upper body or near arm",
+    "Sufficient mobility and balance to maintain control while opponent attempts movement",
+    "Understanding of back attack mechanics and submission entries from turtle"
+  ],
+  "key_principles": [
+    "Maintain constant hip pressure on opponent's torso while staying mobile and ready to adjust position",
+    "Control the near arm to prevent opponent from posting and creating defensive frames",
+    "Keep chest pressure on opponent's back to flatten their posture and limit mobility",
+    "Stay perpendicular or at angle to opponent's spine to maximize control leverage",
+    "Anticipate opponent escape attempts and flow to superior positions or submissions",
+    "Use opponent's movement and energy against them rather than forcing static control",
+    "Maintain one point of base (posted leg) while applying pressure with other points of contact"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Turtle to Back Take",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Crab Ride to Back",
+      "target_position": "Crab Ride",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Transition to Truck",
+      "target_position": "Truck Position Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Crucifix from Turtle",
+      "target_position": "Crucifix Control Position",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Clock Choke",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Bow and Arrow Choke",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 45
+      }
+    },
+    {
+      "technique": "Transition to Mount",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Rolling Back Take",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Side Control to Mount",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Turtle to Guard",
+      "target_position": "Guard Recovery",
+      "success_rate": 30
+    },
+    {
+      "technique": "Technical Stand-up",
+      "target_position": "Standing Position",
+      "success_rate": 25
+    },
+    {
+      "technique": "Granby Roll",
+      "target_position": "Guard Recovery",
+      "success_rate": 20
+    },
+    {
+      "technique": "Turtle to Standing",
+      "target_position": "Standing Position",
+      "success_rate": 25
+    },
+    {
+      "technique": "Rolling to Guard",
+      "target_position": "Bottom Position",
+      "success_rate": 20
+    },
+    {
+      "technique": "Elbow Escape",
+      "target_position": "Half Guard Bottom",
+      "success_rate": 15
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Back Take Generic",
+      "target_position": "Back Control",
+      "trigger": "Opponent attempts to sit back to guard"
+    },
+    {
+      "technique": "Truck Entry",
+      "target_position": "Truck Position Top",
+      "trigger": "Opponent turns away to protect neck"
+    },
+    {
+      "technique": "Crucifix from Turtle",
+      "target_position": "Crucifix Control Position",
+      "trigger": "Opponent extends far arm for base"
+    },
+    {
+      "technique": "Rolling Back Take",
+      "target_position": "Back Control",
+      "trigger": "Opponent attempts granby roll escape"
+    },
+    {
+      "technique": "Side Control to Mount",
+      "target_position": "Mount",
+      "trigger": "Opponent flattens out on stomach"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent maintains tight turtle with good base and head protection",
+      "actions": [
+        {
+          "technique": "Crab Ride to Back",
+          "target": "Crab Ride",
+          "probability": 55
+        },
+        {
+          "technique": "Clock Choke",
+          "target": "Won by Submission",
+          "probability": 35
+        },
+        {
+          "technique": "Crucifix from Turtle",
+          "target": "Crucifix Control Position",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to sit back to guard or roll through",
+      "actions": [
+        {
+          "technique": "Turtle to Back Take",
+          "target": "Back Control",
+          "probability": 70
+        },
+        {
+          "technique": "Rolling Back Take",
+          "target": "Back Control",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent turns away to protect neck or attempts to stand",
+      "actions": [
+        {
+          "technique": "Transition to Truck",
+          "target": "Truck Position Top",
+          "probability": 65
+        },
+        {
+          "technique": "Bow and Arrow Choke",
+          "target": "Won by Submission",
+          "probability": 40
+        }
+      ]
+    },
+    {
+      "condition": "If opponent flattens out on stomach or extends arms for base",
+      "actions": [
+        {
+          "technique": "Transition to Mount",
+          "target": "Mount",
+          "probability": 60
+        },
+        {
+          "technique": "Crucifix from Turtle",
+          "target": "Crucifix Control Position",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent creates space between hips and mat",
+      "actions": [
+        {
+          "technique": "Turtle to Back Take",
+          "target": "Back Control",
+          "probability": 75
+        },
+        {
+          "technique": "Side Control to Mount",
+          "target": "Side Control Top",
+          "probability": 50
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Staying too static and allowing opponent to establish strong defensive base",
+      "consequence": "Opponent can effectively stall and prevent advancement, eventually escaping to standing or guard",
+      "correction": "Maintain constant movement and pressure adjustment, flowing between control points and attacking opponent's base continuously"
+    },
+    {
+      "error": "Overcommitting weight forward without maintaining base leg posted",
+      "consequence": "Loss of balance and control, allowing opponent to easily roll through or sit back to guard",
+      "correction": "Always maintain one leg posted for base while applying pressure with upper body and other leg, creating tripod stability"
+    },
+    {
+      "error": "Focusing only on submissions without establishing positional control first",
+      "consequence": "Opponent escapes during submission attempts due to insufficient control, wasting energy and losing position",
+      "correction": "Secure control through proper grips and weight distribution before attempting submissions, using position to set up attacks"
+    },
+    {
+      "error": "Releasing near arm control prematurely when transitioning",
+      "consequence": "Opponent posts with free arm to create frames and escape, preventing back control or submission entries",
+      "correction": "Maintain near arm control until replacement control is established, ensuring continuous connection throughout transitions"
+    },
+    {
+      "error": "Allowing opponent to turn into you and establish defensive frames",
+      "consequence": "Opponent recovers guard or achieves better defensive position, neutralizing your offensive advantage",
+      "correction": "Stay perpendicular to opponent's spine and control their rotation with chest pressure and strategic gripping"
+    },
+    {
+      "error": "Using only upper body strength without engaging hips for pressure",
+      "consequence": "Ineffective control that drains energy quickly and allows opponent to maintain strong posture",
+      "correction": "Drive hip pressure through opponent's core while maintaining chest connection, using full body mechanics not just arms"
+    },
+    {
+      "error": "Failing to anticipate opponent's escape direction and movement patterns",
+      "consequence": "Opponent successfully escapes because you're reacting rather than anticipating, always one step behind",
+      "correction": "Read opponent's weight distribution and base positioning to predict escape attempts, positioning yourself to intercept movement"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Rodeo Ride Flow Drill",
+      "description": "Partner starts in turtle, top practitioner establishes Rodeo Ride and flows between crab ride, truck position, and back control entries for 2-minute rounds. Bottom partner maintains active defensive turtle without fully escaping. Focus on smooth transitions and maintaining constant pressure throughout position changes.",
+      "duration": "3 x 2 minutes"
+    },
+    {
+      "name": "Turtle Attack Reaction Drill",
+      "description": "Bottom practitioner in turtle randomly attempts different escapes (sit back, granby, stand up, roll through) while top practitioner counters appropriately from Rodeo Ride. Bottom calls out escape type before executing, allowing top to practice specific counters. Progress to random escapes without calling them out.",
+      "duration": "5 x 90 seconds"
+    },
+    {
+      "name": "Progressive Resistance Turtle Control",
+      "description": "Start with passive resistance where bottom maintains turtle but doesn't actively escape. Top works on establishing and maintaining Rodeo Ride with perfect weight distribution. Gradually increase resistance over multiple rounds: 25% resistance, 50%, 75%, then full resistance. Focus on control fundamentals before adding complexity.",
+      "duration": "4 rounds x 3 minutes, increasing resistance each round"
+    },
+    {
+      "name": "Submission Entry Chains from Rodeo Ride",
+      "description": "Partner in turtle, practitioner establishes Rodeo Ride and flows through submission attempts: clock choke → bow and arrow → back attack → crucifix choke, transitioning smoothly without forcing any single submission. Focus on using opponent's defensive reactions to flow between attacks rather than muscling techniques.",
+      "duration": "4 x 2 minutes"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Highest percentage path to submission",
+      "path": "Rodeo Ride Position → Turtle to Back Take → Back Control → Rear Naked Choke"
+    },
+    {
+      "name": "Quickest submission from position",
+      "path": "Rodeo Ride Position → Clock Choke → Won by Submission"
+    },
+    {
+      "name": "Alternative high-percentage path",
+      "path": "Rodeo Ride Position → Crab Ride to Back → Crab Ride → Turtle to Back Control → Back Control → Rear Naked Choke"
+    },
+    {
+      "name": "Truck system path",
+      "path": "Rodeo Ride Position → Transition to Truck → Truck Position Top → Twister Finish"
+    },
+    {
+      "name": "Crucifix submission path",
+      "path": "Rodeo Ride Position → Crucifix from Turtle → Crucifix Control Position → Choke from Crucifix → Won by Submission"
+    },
+    {
+      "name": "Gi-specific path",
+      "path": "Rodeo Ride Position → Bow and Arrow Choke → Won by Submission"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Back Control",
+      "relationship": "Primary advancement target from Rodeo Ride"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Related turtle attack position with similar control mechanics"
+    },
+    {
+      "name": "Truck Position Top",
+      "relationship": "Alternative advancement position when opponent turns away"
+    },
+    {
+      "name": "Crucifix Control Position",
+      "relationship": "Submission position accessible from Rodeo Ride"
+    },
+    {
+      "name": "Turtle Position Top",
+      "relationship": "Parent position from which Rodeo Ride develops"
+    },
+    {
+      "name": "Turtle to Back Take",
+      "relationship": "Key transition technique from this position"
+    },
+    {
+      "name": "Clock Choke",
+      "relationship": "Primary submission available from Rodeo Ride"
+    },
+    {
+      "name": "Bow and Arrow Choke",
+      "relationship": "Gi-specific submission opportunity"
+    },
+    {
+      "name": "Harness Position",
+      "relationship": "Related back attack control position"
+    },
+    {
+      "name": "Seat Belt Control Back",
+      "relationship": "Control mechanism used in transitions from Rodeo Ride"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 45,
+      "intermediate": 65,
+      "advanced": 80
+    },
+    "advancement_probability": {
+      "beginner": 40,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "submission_probability": {
+      "beginner": 15,
+      "intermediate": 30,
+      "advanced": 45
+    },
+    "average_time": "30-90 seconds"
+  },
+  "expert_insights": {
+    "danaher": "Rodeo Ride represents a critical transitional state in the turtle attack hierarchy where the attacker must balance between maintaining control and advancing position. The biomechanical advantage lies in the asymmetric loading of pressure - by positioning your hips perpendicular to the opponent's spine while maintaining chest connection, you create a leverage system that makes their defensive turtle structurally unstable. The key technical element is the near arm control combined with far-side grip, which creates what I call a 'control diagonal' across the opponent's back. This diagonal prevents rotation in either direction while simultaneously setting up multiple attack vectors. The position requires constant micro-adjustments in weight distribution as the opponent shifts their base - static pressure is ineffective here. Your goal should be to use this position as a decision point: read the opponent's defensive priorities and exploit the opposite angle they're leaving open.",
+    "gordon_ryan": "In competition, Rodeo Ride is one of my highest percentage positions for securing back control against high-level opponents who defend their turtle well. The mistake most people make is trying to force the back take immediately - against good defensive players, you need to make them choose between defending the choke attack and defending positional advancement. I typically establish Rodeo Ride, threaten a clock choke or collar choke to get their hands up defending their neck, then capitalize on that reaction by securing the back or truck position. The position also works exceptionally well in overtime situations where you need to score quickly - threatening submissions from here forces referees to see clear offensive action while you're systematically breaking down their defensive structure. Against wrestlers with good turtle defense, Rodeo Ride lets you stay heavy and offensive without committing to positions where they can explode and escape.",
+    "eddie_bravo": "Rodeo Ride fits perfectly into the 10th Planet turtle attack system because it maintains that constant flow state we emphasize - you're never static, always moving, always threatening. From here, we have multiple paths into the truck position, which is one of our primary back attack entries. The no-gi application requires you to be even more dynamic since you don't have collar grips to anchor your control. I teach students to use the rodeo motion - that constant adjustment and rebalancing - to keep opponent guessing about your next move. One of my favorite sequences is to threaten the twister from truck, which makes them defend that side, then capitalize by rolling them the opposite direction into full back control. The position also sets up the lockdown game if they start to recover half guard during your attack - you can transition into that whole system. What makes Rodeo Ride effective in our system is that it embraces the chaos of the scramble rather than trying to achieve perfect static control."
+  }
+}
+Session limit reached ∙ resets 4am

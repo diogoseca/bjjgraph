@@ -26,6 +26,11 @@ const config: QuartzConfig = {
       "CONTRIBUTING-*.md",
       "**/CONTRIBUTING*.md",
       "*.old",
+      "*.bak.*",
+      "TEMPLATE.*",
+      "**/TEMPLATE.*",
+      "**/*.json",
+      "**/*.jinja2",
     ],
     defaultDateType: "created",
     theme: {

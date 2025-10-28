@@ -22,6 +22,7 @@ Built on [Quartz 4.0](https://quartz.jzhao.xyz/) - a fast, batteries-included st
 - Tag-based organization
 - Mobile-responsive design
 - Analytics (PostHog)
+- **Edge-based A/B testing** - Dirichlet sampling for optimal content layout
 
 ## Local Development
 
@@ -55,7 +56,7 @@ content/
 ├── Transitions/        # 70+ transition techniques
 ├── Submissions/        # 50+ submissions
 ├── Systems/           # Expert systematic approaches
-├── Concepts/          # Fundamental principles
+├── Principles/          # Fundamental principles
 └── Learning/          # Learning frameworks
 ```
 
@@ -67,7 +68,7 @@ content/
    - Transitions: `Transitions/CONTRIBUTING-TRANSITIONS.md`
    - Submissions: `Submissions/CONTRIBUTING-SUBMISSIONS.md`
    - Systems: `Systems/CONTRIBUTING-SYSTEMS.md`
-   - Concepts: `Concepts/CONTRIBUTING-CONCEPTS.md`
+   - Concepts: `Principles/CONTRIBUTING-CONCEPTS.md`
 2. Maintain all required fields (State ID, success probabilities, decision trees)
 3. Use consistent formatting
 4. Link related content with `[[Wikilink]]` syntax
@@ -110,32 +111,112 @@ If opponent establishes strong posture:
 
 ## Deployment
 
-Auto-deploys to [bjjgraph.org](https://bjjgraph.org) via GitHub Actions when pushing to main branch.
+Auto-deploys to **Cloudflare Pages** via GitHub Actions when pushing to main branch.
 
-See `.github/workflows/` for deployment configuration.
+### Infrastructure
+
+- **Static Hosting**: Cloudflare Pages (global CDN)
+- **Edge Functions**: Cloudflare Workers (A/B testing middleware)
+- **Analytics**: PostHog (event tracking and feature flags)
+- **CI/CD**: GitHub Actions with wrangler-action
+
+### A/B Testing (Edge-Based)
+
+BJJ Graph uses **generative A/B testing** at the edge to optimize content layout:
+
+**Approach:**
+- Dirichlet distribution generates random section priorities per user
+- Sections ordered by priority (higher = earlier on page)
+- Sections with priority < 1% are hidden
+- Priorities persist for 1 week, then refresh
+- PostHog tracks engagement metrics with priority/visibility data
+
+**Implementation:**
+- Edge Worker: `source/functions/_middleware.ts`
+- Client Tracking: `source/quartz/components/scripts/posthog-ab-tracking.inline.ts`
+- Feature Flag: `position-visual-elements` (control vs enhanced styling)
+
+See `CLAUDE.md` for complete A/B testing architecture and analysis guide.
+
+### PostHog Dashboards
+
+**Project:** https://us.posthog.com/project/236155
+
+**Custom Analytics Dashboards:**
+- **📄 Content Performance** - https://us.posthog.com/project/236155/dashboard/611436
+  - Most viewed BJJ positions, techniques, and content pages
+  - Track what content resonates with users
+
+- **🧭 Navigation Patterns** - https://us.posthog.com/project/236155/dashboard/611437
+  - User journey analysis - how visitors explore the knowledge graph
+  - Identify common paths through content
+
+- **🌐 Traffic Sources** - https://us.posthog.com/project/236155/dashboard/611439
+  - Where your BJJ Graph visitors come from
+  - Referrers, search engines, direct traffic
+
+- **📊 User Analytics** - https://us.posthog.com/project/236155/dashboard/610768
+  - Unique visitors, active users, and retention metrics
+  - Overall growth tracking
+
+**A/B Testing Dashboards:**
+- **🎨 Visual Elements Test** - https://us.posthog.com/project/236155/dashboard/616953
+  - Control vs enhanced styling performance
+  - Impact on engagement metrics
+
+**Feedback & Configuration:**
+- **💬 Surveys** - https://us.posthog.com/project/236155/surveys
+  - Feedback & Bug Reports: https://us.posthog.com/project/236155/surveys/019a20d5-80cf-0000-05cf-9254e6711799
+  - Check user feedback and bug reports daily
+
+- **🎯 Feature Flags** - https://us.posthog.com/project/236155/feature_flags
+  - Manage A/B tests and feature rollouts
+  - position-visual-elements: https://us.posthog.com/project/236155/feature_flags/228212
 
 ### Required GitHub Secrets
 
 The following secrets must be configured in GitHub repository settings (Settings → Secrets and variables → Actions):
 
-1. **`POSTHOG_API_KEY`** (Required for analytics)
+1. **`CLOUDFLARE_API_TOKEN`** (Required for deployment)
+   - API token with "Cloudflare Pages - Edit" permission
+   - Created in Cloudflare Dashboard → My Profile → API Tokens
+   - Used by wrangler-action for automated deployments
+
+2. **`CLOUDFLARE_ACCOUNT_ID`** (Required for deployment)
+   - Your Cloudflare account ID
+   - Found in Cloudflare Dashboard → Account Home → Account ID
+   - Or in URL: `https://dash.cloudflare.com/<ACCOUNT_ID>/`
+
+3. **`POSTHOG_API_KEY`** (Required for analytics)
    - Your PostHog project API key
    - Found in PostHog project settings
-   - Used to track page views and user interactions
-   - The site will build without this, but analytics won't work
+   - Used for analytics tracking and A/B testing
+   - The site will build without this, but analytics/A/B testing won't work
 
-2. **`POSTHOG_API_HOST`** (Optional for analytics)
+4. **`POSTHOG_API_HOST`** (Optional for analytics)
    - Your PostHog instance host URL (e.g., `https://us.i.posthog.com`)
    - Only needed if you're using a specific PostHog region or self-hosted instance
    - Defaults to `https://app.posthog.com` if not set
    - Common values: `https://us.i.posthog.com`, `https://eu.i.posthog.com`
 
-3. **`INDEXNOW_KEY`** (Optional for SEO)
+5. **`INDEXNOW_KEY`** (Optional for SEO)
    - IndexNow key for instant search engine notifications
    - Improves indexing speed for search engines
    - Not required for site functionality
 
-To add a secret:
+### Required Cloudflare Environment Variables
+
+Set in Cloudflare Dashboard → Pages → bjjgraph → Settings → Environment Variables:
+
+1. **`POSTHOG_API_KEY`** (Production & Preview)
+   - PostHog project API key (phc_***)
+   - Used by Edge Worker at runtime for feature flag API calls
+
+2. **`POSTHOG_API_HOST`** (Production & Preview)
+   - https://app.posthog.com (or custom host)
+   - Used by Edge Worker for PostHog API endpoint
+
+To add a GitHub secret:
 1. Go to repository Settings
 2. Navigate to Secrets and variables → Actions
 3. Click "New repository secret"

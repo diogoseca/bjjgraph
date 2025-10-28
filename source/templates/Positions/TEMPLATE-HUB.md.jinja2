@@ -1,0 +1,124 @@
+{# BJJ Position Hub Page Template #}
+{# Generates hub pages with summaries from bottom and top perspectives #}
+{# Input: hub, bottom_summary, top_summary, slug #}
+
+---
+title: "{{ hub.title }}"
+description: "{{ hub.description }}"
+---
+
+# {{ hub.title.split('|')[0].strip() }}
+
+> **Quick Overview**: {{ hub.overview[:200] }}...
+
+## Position Properties
+
+- **Point Value**: {{ hub.state_properties.point_value }} ({% if hub.state_properties.point_value == 0 %}Neutral{% elif hub.state_properties.point_value == 2 %}Advantage{% elif hub.state_properties.point_value == 3 %}Guard pass{% elif hub.state_properties.point_value == 4 %}Dominant{% endif %})
+- **Position Type**: {{ hub.state_properties.position_type }}
+- **Risk Level**: {{ hub.state_properties.risk_level }}
+- **Energy Cost**: {{ hub.state_properties.energy_cost }}
+- **Time Sustainability**: {{ hub.state_properties.time_sustainability }}
+
+---
+
+## What is {{ hub.title.split('|')[0].strip() }}?
+
+{{ hub.overview }}
+
+### Key Principles
+
+{% for principle in hub.key_principles %}
+- {{ principle }}
+{% endfor %}
+
+---
+
+## {{ hub.title.split('|')[0].strip() }} Defense (Bottom Perspective)
+
+The bottom player in {{ hub.title.split('|')[0].strip().lower() }} must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+
+### Key Defensive Principles
+
+{% for principle in bottom_summary.key_principles %}
+- {{ principle }}
+{% endfor %}
+
+### Primary Escapes
+
+{% for escape in bottom_summary.top_escapes %}
+- **[[{{ escape.technique }}]]** → [[{{ escape.target_position }}]]
+  - Success Rate: Beginner {{ escape.success_rates.beginner }}%, Intermediate {{ escape.success_rates.intermediate }}%, Advanced {{ escape.success_rates.advanced }}%
+{% endfor %}
+
+### Common Defensive Errors
+
+{% for error in bottom_summary.top_errors %}
+- ❌ **{{ error.error }}**
+  - Consequence: {{ error.consequence }}
+  - ✅ Correction: {{ error.correction }}
+{% endfor %}
+
+👉 **[Complete Defensive Guide with Drills and Expert Insights →]({{ slug }}/bottom)**
+
+---
+
+## {{ hub.title.split('|')[0].strip() }} Attacks (Top Perspective)
+
+The top player in {{ hub.title.split('|')[0].strip().lower() }} enjoys significant offensive advantages with access to numerous submission opportunities while maintaining stable control.
+
+### Key Offensive Principles
+
+{% for principle in top_summary.key_principles %}
+- {{ principle }}
+{% endfor %}
+
+### Primary Attacks
+
+{% for attack in top_summary.top_attacks %}
+- **[[{{ attack.technique }}]]** → [[{{ attack.target_position }}]]
+  - Success Rate: Beginner {{ attack.success_rates.beginner }}%, Intermediate {{ attack.success_rates.intermediate }}%, Advanced {{ attack.success_rates.advanced }}%
+{% endfor %}
+
+### Common Offensive Errors
+
+{% for error in top_summary.top_errors %}
+- ❌ **{{ error.error }}**
+  - Consequence: {{ error.consequence }}
+  - ✅ Correction: {{ error.correction }}
+{% endfor %}
+
+👉 **[Complete Attack Guide with Submission Chains and Drills →]({{ slug }}/top)**
+
+---
+
+## Position Variations
+
+{% for variation in hub.variations %}
+### [[{{ variation.name }}]]
+
+{{ variation.description }}
+
+[Explore {{ variation.name }} →]({{ slug }}/{{ variation.slug }})
+
+{% endfor %}
+
+---
+
+## Related Positions
+
+{% for related in hub.related_positions %}
+- **[[{{ related.name }}]]** - {{ related.relationship }}
+{% endfor %}
+
+---
+
+## Navigation
+
+### By Perspective
+- 🛡️ **[Defense (Bottom)]({{ slug }}/bottom)** - Escapes, frames, and survival strategies
+- ⚔️ **[Attacks (Top)]({{ slug }}/top)** - Submissions, control, and finishing sequences
+
+### By Variation
+{% for variation in hub.variations %}
+- **[{{ variation.name }}]({{ slug }}/{{ variation.slug }})** - {{ variation.description }}
+{% endfor %}

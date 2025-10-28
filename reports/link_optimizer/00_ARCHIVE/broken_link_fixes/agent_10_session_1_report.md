@@ -22,7 +22,7 @@ Successfully fixed **37 broken wikilinks** across **9 content files** in the BJJ
 
 ## Files Modified
 
-1. `/source/content/Concepts/Guard Passing Principles.md` (1 fix)
+1. `/source/content/Principles/Guard Passing Principles.md` (1 fix)
 2. `/source/content/Positions/Guard Position.md` (3 fixes)
 3. `/source/content/Positions/Guard Pull.md` (4 fixes)
 4. `/source/content/Positions/Guard Recovery.md` (5 fixes)

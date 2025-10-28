@@ -765,7 +765,7 @@ Tasks:
 ### Minor Issues (Non-blocking)
 1. **28 Position pages lack HowTo schema** - Need content enhancement to add meaningful steps
 2. **70 Position pages lack FAQ schema** - Only 24 have sufficient Q&A content
-3. **Some wikilinks unresolved** - Link to positions/concepts not yet created
+3. **Some wikilinks unresolved** - Link to positions/Principles not yet created
 4. **Duplicate State IDs** - 4 cases identified in validation (need reassignment)
 
 ### Future Enhancements

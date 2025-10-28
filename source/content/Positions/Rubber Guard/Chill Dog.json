@@ -1,0 +1,391 @@
+Session limit reached ∙ resets 11am
+{
+  "metadata": {
+    "title": "Chill Dog | BJJ Position Guide | BJJ Graph",
+    "description": "Master Chill Dog position in BJJ. Defensive turtle variant with recovery options and back exposure prevention. Learn entries, escapes, and transitions.",
+    "state_id": "S229",
+    "tags": ["bjj", "position", "turtle", "defensive", "chill-dog", "10th-planet"]
+  },
+  "overview": "Chill Dog is a defensive turtle position popularized by Eddie Bravo and the 10th Planet Jiu-Jitsu system. It represents a specific turtle variant where the bottom practitioner maintains a low, compact posture with hips turned slightly to one side while protecting the neck and preventing back exposure. Unlike traditional turtle where the goal is often to return to guard or stand up, Chill Dog emphasizes staying safe while creating opportunities for specific escapes and recoveries.\n\nThe position derives its name from the relaxed yet defensive nature of the posture - staying 'chill' while defending like a protective dog. The practitioner keeps their elbows tight to their knees, head tucked, and weight distributed to prevent easy rolling or flattening. This creates a strong defensive shell that makes it difficult for opponents to secure dominant positions like back control or establish powerful submission controls.\n\nChill Dog is particularly effective in no-gi competition where traditional turtle attacks like clock chokes and collar chokes are unavailable. The position allows the defender to weather aggressive attacks while waiting for opportunities to execute specific escapes like the Granby roll, technical stand-up, or transitions to half guard. It serves as a strategic position in the defensive hierarchy between full turtle exposure and complete guard recovery.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+  "state_invariants": [
+    "Bottom practitioner on hands and knees with chest facing mat, weight distributed across four points of contact (both hands, both knees) creating stable base",
+    "Hips turned slightly to one side (typically away from opponent's attacking direction) with back rounded and head tucked between shoulders to protect neck from chokes",
+    "Elbows connected tight to inside of knees, creating compact defensive frame that prevents opponent from inserting hooks or establishing harness grips",
+    "Top practitioner positioned behind or to the side of bottom player, typically with chest pressure on bottom player's back and hands fighting for control of hips, arms, or neck",
+    "Minimal space between bottom player's thighs and torso, with knees pulled close to chest in protective ball-like configuration that prevents easy flattening or rolling"
+  ],
+  "prerequisites": [
+    "Opponent has passed guard or swept to top position",
+    "Bottom player has turned to turtle to prevent being flattened to back",
+    "Bottom player maintains base on hands and knees",
+    "Opponent is attempting to establish back control or submission from turtle",
+    "Bottom player has defended initial back take attempts",
+    "Position used as transitional defensive posture rather than sustained position"
+  ],
+  "key_principles": [
+    "Keep elbows connected tight to knees to prevent hooks and harness control",
+    "Maintain rounded back with head tucked to protect neck from chokes and prevent opponent from driving weight forward",
+    "Turn hips away from opponent's primary attacking side to create defensive angle",
+    "Stay heavy on hands to prevent easy rolling or flipping movements",
+    "Keep breathing controlled and patient - wait for opponent to overcommit before escaping",
+    "Use reactive movements rather than proactive movements to conserve energy and prevent exposure",
+    "Protect the far side hip and shoulder to prevent opponent from establishing cross-body control"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Granby Roll",
+      "target_position": "Closed Guard Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Granby to Closed Guard",
+      "target_position": "Closed Guard Bottom",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Technical Standup",
+      "target_position": "Standing Position",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Rolling to Guard",
+      "target_position": "Half Guard Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Turtle to Guard",
+      "target_position": "Open Guard Bottom",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Sit Through to Guard",
+      "target_position": "Butterfly Guard",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Turtle to Back Control",
+      "target_position": "Back Control",
+      "success_rate": 50
+    },
+    {
+      "technique": "Crucifix from Turtle",
+      "target_position": "Crucifix Control Position",
+      "success_rate": 35
+    },
+    {
+      "technique": "Darce from Turtle",
+      "target_position": "Darce Control Position",
+      "success_rate": 30
+    },
+    {
+      "technique": "Anaconda from Turtle",
+      "target_position": "Anaconda Control",
+      "success_rate": 30
+    },
+    {
+      "technique": "Guillotine from Turtle",
+      "target_position": "Guillotine Control",
+      "success_rate": 25
+    },
+    {
+      "technique": "Front Headlock to Back",
+      "target_position": "Back Control",
+      "success_rate": 40
+    },
+    {
+      "technique": "Truck Entry",
+      "target_position": "Truck Position Top",
+      "success_rate": 35
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Hip Escape to Guard",
+      "target_position": "Half Guard Bottom",
+      "trigger": "Opponent overcommits to one side attempting to establish hooks"
+    },
+    {
+      "technique": "Reverse Granby",
+      "target_position": "Closed Guard Bottom",
+      "trigger": "Opponent drives forward with chest pressure attempting to flatten"
+    },
+    {
+      "technique": "Sit Back to Butterfly",
+      "target_position": "Butterfly Guard",
+      "trigger": "Opponent attempts to circle around to far side for back take"
+    },
+    {
+      "technique": "Technical Stand Up to Single Leg",
+      "target_position": "Standing Position",
+      "trigger": "Opponent's weight shifts backwards or they attempt front headlock control"
+    },
+    {
+      "technique": "Rolling Escape",
+      "target_position": "Guard Recovery",
+      "trigger": "Opponent commits to crucifix or truck position setup"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent establishes strong chest pressure and attempts to flatten turtle",
+      "actions": [
+        {
+          "technique": "Granby Roll",
+          "target": "Closed Guard Bottom",
+          "probability": 45
+        },
+        {
+          "technique": "Hip Escape to Guard",
+          "target": "Half Guard Bottom",
+          "probability": 40
+        }
+      ]
+    },
+    {
+      "condition": "If opponent circles to attack back or attempts to establish hooks",
+      "actions": [
+        {
+          "technique": "Turn into opponent",
+          "target": "Butterfly Guard",
+          "probability": 40
+        },
+        {
+          "technique": "Reverse Granby",
+          "target": "Closed Guard Bottom",
+          "probability": 35
+        },
+        {
+          "technique": "Technical Standup",
+          "target": "Standing Position",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts front headlock control or guillotine setup",
+      "actions": [
+        {
+          "technique": "Technical Stand Up to Single Leg",
+          "target": "Standing Position",
+          "probability": 55
+        },
+        {
+          "technique": "Pull head free and sit to guard",
+          "target": "Open Guard Bottom",
+          "probability": 40
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to isolate arm for crucifix or kimura",
+      "actions": [
+        {
+          "technique": "Pull arm back and roll",
+          "target": "Half Guard Bottom",
+          "probability": 45
+        },
+        {
+          "technique": "Post on isolated arm and stand",
+          "target": "Standing Position",
+          "probability": 40
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to establish truck or twister control",
+      "actions": [
+        {
+          "technique": "Rolling Escape",
+          "target": "Guard Recovery",
+          "probability": 50
+        },
+        {
+          "technique": "Straighten bottom leg and turn in",
+          "target": "Half Guard Bottom",
+          "probability": 45
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Keeping hips too high and weight back on heels",
+      "consequence": "Opponent can easily insert hooks and establish back control or roll defender to their back",
+      "correction": "Keep weight forward on hands with hips low and heavy, distributing weight across all four points of contact equally"
+    },
+    {
+      "error": "Allowing elbows to separate from knees",
+      "consequence": "Creates space for opponent to insert hooks, establish harness control, or attack with arm isolation techniques like crucifix",
+      "correction": "Maintain constant connection between elbows and inside of knees, keeping compact defensive frame at all times"
+    },
+    {
+      "error": "Lifting head up to look around or track opponent",
+      "consequence": "Exposes neck to front headlock controls, guillotines, and allows opponent to drive weight forward to flatten turtle",
+      "correction": "Keep head tucked between shoulders with chin to chest, using peripheral awareness and feel rather than visual tracking"
+    },
+    {
+      "error": "Staying static and not recognizing escape windows",
+      "consequence": "Opponent consolidates position and eventually establishes dominant control like back mount or submission controls",
+      "correction": "Stay patient but alert for opponent overcommitment or weight shifts, then explosively execute escape technique when window opens"
+    },
+    {
+      "error": "Attempting to stand up before clearing opponent's grips",
+      "consequence": "Opponent uses standing attempt to secure back control with both hooks or establish standing back control",
+      "correction": "Clear opponent's primary grips first, create separation with hip movement, then stand with proper base and posture"
+    },
+    {
+      "error": "Turning into opponent's attacks instead of away",
+      "consequence": "Makes it easier for opponent to establish cross-body controls, mount, or side control positions",
+      "correction": "Identify opponent's primary attacking direction and keep hips turned away from that side while maintaining defensive frame"
+    },
+    {
+      "error": "Holding breath or tensing entire body",
+      "consequence": "Rapid fatigue, inability to feel opponent's movements, and delayed reaction time for escapes",
+      "correction": "Maintain controlled breathing and selective tension - tight in defensive frames but relaxed in non-critical areas to conserve energy"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Chill Dog Position Hold",
+      "description": "Partner applies varying levels of pressure and attack attempts while defender maintains proper Chill Dog posture. Focus on keeping elbows to knees, head tucked, and base solid for 2-minute rounds. Partner progresses from light pressure to aggressive back take attempts.",
+      "duration": "5 rounds x 2 minutes"
+    },
+    {
+      "name": "Granby Roll Chains from Chill Dog",
+      "description": "Start in Chill Dog with partner attempting to flatten or take back. Defender executes Granby roll to guard when partner commits forward. Reset and repeat, working both directions. Focus on timing the roll when opponent's weight is committed and maintaining momentum through completion.",
+      "duration": "10 minutes alternating"
+    },
+    {
+      "name": "Technical Stand-up Progression",
+      "description": "From Chill Dog, practice clearing grips and executing technical stand-up while partner provides progressive resistance. Start with cooperative drilling, then add timing requirements as partner attempts various turtle attacks. Emphasize proper grip breaks, base creation, and standing posture.",
+      "duration": "15 minutes"
+    },
+    {
+      "name": "Turtle Escape Flow Drill",
+      "description": "Partner attacks turtle with various controls (harness, front headlock, truck setup, crucifix attempt). Defender must identify attack and execute appropriate escape: Granby for flattening, stand-up for front headlock, sit-through for hook attempts, etc. Continuous flow for time.",
+      "duration": "5 rounds x 3 minutes"
+    },
+    {
+      "name": "Chill Dog Positional Sparring",
+      "description": "Start every round in Chill Dog with partner behind attempting any legal attack. Defender scores points for successful escapes to guard or standing. Attacker scores for back control, mount, or submissions. Reset after each score. Emphasizes realistic timing and decision-making under pressure.",
+      "duration": "6 rounds x 4 minutes"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Opponent submission path from top",
+      "path": "Chill Dog → Back Control → Rear Naked Choke"
+    },
+    {
+      "name": "Opponent crucifix path",
+      "path": "Chill Dog → Crucifix Control Position → Armbar from Crucifix"
+    },
+    {
+      "name": "Opponent choke path from front headlock",
+      "path": "Chill Dog → Front Headlock Control Position → Darce Choke or Anaconda Choke"
+    },
+    {
+      "name": "Defensive escape path to counter-attack",
+      "path": "Chill Dog → Technical Standup → Standing Position → Double leg takedown"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Turtle Position",
+      "relationship": "Parent position - Chill Dog is a specific variant of turtle"
+    },
+    {
+      "name": "Bottom Turtle",
+      "relationship": "Similar defensive position with different escape priorities"
+    },
+    {
+      "name": "Defensive Position",
+      "relationship": "Category - Chill Dog is a defensive position in hierarchy"
+    },
+    {
+      "name": "Granby Roll",
+      "relationship": "Primary escape technique from Chill Dog to guard"
+    },
+    {
+      "name": "Technical Standup",
+      "relationship": "Alternative escape method when space is available"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Primary opponent objective from this position"
+    },
+    {
+      "name": "Crucifix Control Position",
+      "relationship": "Common opponent attack if arm is isolated"
+    },
+    {
+      "name": "Closed Guard Bottom",
+      "relationship": "Target position after successful Granby escape"
+    },
+    {
+      "name": "Half Guard Bottom",
+      "relationship": "Common intermediate position during escape sequences"
+    },
+    {
+      "name": "Twister Control",
+      "relationship": "10th Planet-specific attack opponent may attempt from this position"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 40,
+      "intermediate": 55,
+      "advanced": 70
+    },
+    "advancement_probability": {
+      "beginner": 30,
+      "intermediate": 45,
+      "advanced": 60
+    },
+    "submission_probability": {
+      "beginner": 5,
+      "intermediate": 10,
+      "advanced": 15
+    },
+    "average_time": "20-45 seconds before escape or position change"
+  },
+  "expert_insights": {
+    "danaher": "Chill Dog represents an intelligent application of defensive positioning principles where the practitioner creates a protective shell through specific body mechanics. The key technical element is the connection between the elbows and knees - this closed frame prevents the opponent from establishing the fundamental controls necessary for back attacks. From a biomechanical perspective, keeping the back rounded and head tucked removes the opponent's ability to use your spine as a lever for control. The position works because it denies your opponent the primary entries they need while maintaining your ability to execute explosive escapes. However, understand that this is fundamentally a transitional position - the goal is always to escape to a more favorable position, not to remain in Chill Dog indefinitely. The patient practitioner waits for the opponent to overcommit their weight or grips, then capitalizes on that momentary imbalance to execute their escape. This requires both technical precision in maintaining the defensive frame and tactical awareness to recognize the escape window.",
+    "gordon_ryan": "In competition, Chill Dog is a strategic position I use when I know my opponent is hunting for the back or trying to set up their specific turtle attacks. The reality is that in no-gi especially, you can't stay here long against high-level opponents, but you can use it to frustrate their offense and create escape opportunities. When guys like Garry Tonon or Craig Jones are behind you, they're looking for very specific reactions - if you give them the traditional turtle posture, they'll take your back in seconds. Chill Dog gives you a different defensive look that disrupts their timing and preferred attack sequences. The key to making this work at elite levels is not just holding the position, but being ready to explode into your escape the moment you feel their weight shift or their grips loosen. Against world-class guys, I'm usually looking for the technical stand-up or the Granby roll, and I'm making my decision based on which direction they're pressuring. The position buys you time to make smart decisions rather than panicking and getting submitted from turtle.",
+    "eddie_bravo": "Chill Dog is straight out of the 10th Planet system and it's all about being defensively sound while setting up your escapes to positions where you can actually work. In our system, we're not trying to win from turtle - we're trying to survive long enough to get back to our game, which usually means some variation of the rubber guard or lockdown. The beauty of Chill Dog is that it protects you from the traditional turtle attacks while giving you multiple exit strategies. If they're pressuring heavy from behind, you've got the Granby roll to guard. If they're lighter or going for front headlock, you can stand up and potentially even score a takedown. The compact posture with elbows to knees is critical - this is what prevents them from establishing the truck or getting the twister setup, which are serious threats in no-gi. We drill this position extensively because in modern no-gi competition, you're going to end up in some form of turtle, and you need to know how to survive and escape without getting your back taken or getting caught in a submission. The mental game is important too - stay chill, don't panic, feel what they're doing, and execute your escape when the moment is right."
+  }
+}
+Session limit reached ∙ resets 11am

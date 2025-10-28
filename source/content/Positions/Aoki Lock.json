@@ -1,0 +1,1116 @@
+{
+  "metadata": {
+    "title": "Aoki Lock Bottom Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master Aoki Lock Bottom Position in BJJ. Defensive control position with shoulder lock pressure. Learn escapes, defensive strategies, and counter-attacks with 40% escape rate.",
+    "state_id": "S199",
+    "tags": ["bjj", "position", "aoki-lock", "submission-defense", "bottom-position", "shoulder-lock", "defensive"],
+    "parent_variant": "Aoki Lock Position",
+    "sibling_variants": ["Aoki Lock Top Position"]
+  },
+
+  "overview": "The Aoki Lock Bottom Position represents a critical defensive scenario where you are being attacked with a modified shoulder lock submission. Named after legendary Japanese fighter Shinya Aoki, this position occurs when your opponent has secured a double wrist grip while controlling your arm in a kimura-like configuration, typically from side control, turtle, or transitional scrambles. Unlike traditional kimura control where the opponent focuses on the shoulder joint, the Aoki Lock adds unique wrist control that creates multiple attack vectors.\n\nFrom bottom, your primary objectives are escape, preventing the finish, and creating offensive opportunities from defensive positions. The position requires understanding shoulder mechanics, maintaining defensive posture, and recognizing the specific grip breaks needed to neutralize the attack. While highly uncomfortable, proper defensive technique can turn this dangerous position into a pathway back to guard or even submission reversals. The key distinguishing factor from standard kimura defense is the double wrist control your opponent maintains, which limits your traditional escape routes and requires specific counter-strategies.\n\nThis position commonly arises when attempting turtle escapes, defending against kimura attacks from side control, or during scrambles where your opponent capitalizes on an extended arm. Understanding the mechanical differences between Aoki Lock and traditional kimura control is essential for mounting an effective defense and preventing catastrophic shoulder or wrist injuries.",
+
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive",
+    "risk_level": "High",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short"
+  },
+
+  "state_invariants": [
+    "Your arm is controlled in a figure-four kimura-like grip with opponent holding your wrist with both hands, creating dual control points on both the shoulder joint and wrist articulation",
+    "Opponent maintains chest pressure on your shoulder or upper back, driving forward to maximize leverage on the trapped limb while limiting your mobility and hip escape options",
+    "Your defensive posture focuses on keeping your trapped arm's elbow close to your body, preventing full extension of the shoulder joint which would complete the submission lock",
+    "Your free hand actively fights to break grips, create frames, or establish connection points to relieve pressure on the trapped shoulder and wrist complex",
+    "Your hips remain mobile and ready to turn into or away from the lock depending on the specific angle of attack and grip configuration your opponent has established"
+  ],
+
+  "prerequisites": [
+    "Opponent has secured kimura grip on one of your arms",
+    "Opponent has added second hand to your wrist, establishing double wrist control",
+    "You are in bottom position (typically from side control, turtle, or scramble)",
+    "Your trapped arm's shoulder is under significant pressure",
+    "Your mobility is restricted by opponent's chest pressure and grip control"
+  ],
+
+  "key_principles": [
+    "Keep trapped elbow close to ribs to prevent shoulder joint hyperextension and maintain structural integrity of the shoulder complex",
+    "Prevent wrist rotation by keeping your fist clenched and maintaining internal rotation resistance against opponent's torque attempts",
+    "Use free hand to attack opponent's grip, particularly targeting the thumb of their lower hand on your wrist which is the weakest link in the chain",
+    "Maintain hip mobility to create angles that relieve shoulder pressure, typically by turning into the lock rather than away from it in most scenarios",
+    "Create frames with free arm to prevent chest-to-chest pressure that amplifies the submission's effectiveness and limits your escape pathways",
+    "Focus on posture management to avoid being flattened completely, as flat positioning removes all defensive leverage and escape options",
+    "Identify whether opponent is attacking shoulder, wrist, or both, as this determines your priority defensive response and escape sequence selection"
+  ],
+
+  "offensive_transitions": [
+    {
+      "technique": "Rolling Kimura Escape",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Guard Recovery",
+      "target_position": "Closed Guard Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Counter Kimura",
+      "target_position": "Kimura Control Top",
+      "success_rates": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 45
+      }
+    },
+    {
+      "technique": "Granby Roll",
+      "target_position": "Guard Recovery Bottom",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Technical Standup",
+      "target_position": "Standing Bottom Position",
+      "success_rates": {
+        "beginner": 10,
+        "intermediate": 25,
+        "advanced": 40
+      }
+    },
+    {
+      "technique": "Turtle Recovery",
+      "target_position": "Turtle Bottom",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    }
+  ],
+
+  "defensive_responses": [
+    {
+      "technique": "Wrist Control Tightening",
+      "target_position": "Aoki Lock Top Position",
+      "success_rate": 70
+    },
+    {
+      "technique": "Shoulder Pressure Increase",
+      "target_position": "Aoki Lock Top Position",
+      "success_rate": 65
+    },
+    {
+      "technique": "Transition to Kimura",
+      "target_position": "Kimura Control Top",
+      "success_rate": 55
+    },
+    {
+      "technique": "Transition to Omoplata",
+      "target_position": "Omoplata Control Top",
+      "success_rate": 45
+    }
+  ],
+
+  "counter_transitions": [
+    {
+      "technique": "Grip Break to Guard Pull",
+      "target_position": "Closed Guard Bottom",
+      "trigger": "Opponent loosens wrist control to adjust position"
+    },
+    {
+      "technique": "Roll Through Counter",
+      "target_position": "Top Position",
+      "trigger": "Opponent commits too much weight forward during finish attempt"
+    },
+    {
+      "technique": "Hip Escape to Turtle",
+      "target_position": "Turtle Bottom",
+      "trigger": "Opponent's chest pressure reduces while maintaining wrist control"
+    },
+    {
+      "technique": "Counter Kimura Grip",
+      "target_position": "Kimura Control Top",
+      "trigger": "Opponent releases one hand from wrist to readjust shoulder control"
+    }
+  ],
+
+  "decision_tree": [
+    {
+      "condition": "If opponent is primarily attacking the wrist with both hands focused on wrist articulation",
+      "actions": [
+        {
+          "technique": "Wrist Defense Protocol",
+          "target": "Defensive Position",
+          "probability": 60
+        },
+        {
+          "technique": "Rolling Escape",
+          "target": "Guard Recovery Bottom",
+          "probability": 40
+        }
+      ]
+    },
+    {
+      "condition": "If opponent is primarily attacking the shoulder with kimura-style pressure",
+      "actions": [
+        {
+          "technique": "Elbow Positioning Defense",
+          "target": "Turtle Bottom",
+          "probability": 55
+        },
+        {
+          "technique": "Guard Recovery",
+          "target": "Closed Guard Bottom",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent transitions to standard kimura or loosens wrist control",
+      "actions": [
+        {
+          "technique": "Kimura Defense",
+          "target": "Guard Recovery Bottom",
+          "probability": 65
+        },
+        {
+          "technique": "Counter Kimura",
+          "target": "Kimura Control Top",
+          "probability": 35
+        }
+      ]
+    },
+    {
+      "condition": "If you create space with hip escape or opponent's pressure reduces",
+      "actions": [
+        {
+          "technique": "Turtle Recovery",
+          "target": "Turtle Bottom",
+          "probability": 70
+        },
+        {
+          "technique": "Guard Pull",
+          "target": "Closed Guard Bottom",
+          "probability": 30
+        }
+      ]
+    }
+  ],
+
+  "common_errors": [
+    {
+      "error": "Pulling arm away from body in panic response to submission pressure",
+      "consequence": "Creates distance between elbow and ribs, allowing opponent to fully extend shoulder joint and complete submission or cause injury",
+      "correction": "Keep elbow glued to ribs at all times, treating your trapped arm like it's in a sling - focus on keeping the joint compressed rather than trying to pull free"
+    },
+    {
+      "error": "Allowing wrist to be rotated externally while defending shoulder",
+      "consequence": "Opens up wrist lock finish even if shoulder is protected, creating dual submission threat that's nearly impossible to defend simultaneously",
+      "correction": "Maintain internal rotation of forearm with fist clenched tight, actively resisting any external rotation attempts while keeping elbow close to body"
+    },
+    {
+      "error": "Becoming flat on back or stomach without hip mobility",
+      "consequence": "Eliminates all leverage for escape, makes grip breaks impossible, and allows opponent to apply maximum pressure without resistance",
+      "correction": "Stay on your side with hips mobile and ready to rotate, maintaining ability to create angles and generate escape momentum through hip movement"
+    },
+    {
+      "error": "Neglecting to use free hand actively for grip breaks",
+      "consequence": "Wastes your primary offensive tool for escape, allowing opponent to maintain perfect control while you struggle ineffectively with trapped limb",
+      "correction": "Immediately engage free hand in attacking opponent's lower grip on your wrist, targeting thumb or using two-on-one grip breaks to create escape opportunities"
+    },
+    {
+      "error": "Attempting to roll away from the lock instead of into it",
+      "consequence": "Increases shoulder torque and tightens the lock mechanism, often leading to submission or injury as you do opponent's work for them",
+      "correction": "Roll toward your trapped arm's direction, following the path of least resistance and using opponent's control against them to create escape momentum"
+    },
+    {
+      "error": "Failing to identify whether attack is wrist-focused or shoulder-focused",
+      "consequence": "Wastes energy defending wrong joint, allows opponent to finish while you're focused on wrong defensive priority",
+      "correction": "Quickly assess pressure distribution - if both hands are on wrist prioritize wrist defense, if pressure is on shoulder prioritize elbow-to-ribs positioning"
+    }
+  ],
+
+  "training_drills": [
+    {
+      "name": "Progressive Aoki Lock Defense Drill",
+      "description": "Partner establishes Aoki Lock control from side control at 30% pressure. Bottom player practices elbow positioning, wrist defense, and hip mobility for 2 minutes. Gradually increase resistance over 3 rounds to 50%, then 70%. Focus on maintaining defensive structure while creating escape opportunities.",
+      "duration": "3 rounds of 2 minutes"
+    },
+    {
+      "name": "Grip Break Sequences",
+      "description": "Isolated drill focusing solely on breaking the double wrist grip. Partner maintains Aoki Lock grip while you use free hand to attack grips using various breaking techniques (thumb pressure, two-on-one breaks, wrist manipulation). Practice 10 successful breaks from each starting position (side control, turtle, scramble).",
+      "duration": "15 minutes"
+    },
+    {
+      "name": "Rolling Escape Flow Drill",
+      "description": "Start in fully locked Aoki Lock bottom position. Practice rolling toward trapped arm to relieve pressure, then continue roll to recover guard or reverse position. Partner maintains grip but allows movement. Focus on smooth, continuous motion and understanding the mechanics of rolling into rather than away from the lock.",
+      "duration": "5 minutes per side"
+    },
+    {
+      "name": "Aoki Lock to Submission Defense Chain",
+      "description": "Partner alternates between Aoki Lock, standard kimura, and omoplata attacks from same side control position. Bottom player must identify which attack is coming and apply appropriate defense. Develops recognition skills and adaptive defensive responses critical for competition scenarios.",
+      "duration": "10 minutes continuous flow"
+    }
+  ],
+
+  "optimal_submission_paths": [
+    {
+      "name": "Shortest path to safety",
+      "path": "Aoki Lock Bottom Position → Grip Break → Turtle Bottom → Guard Recovery Bottom → Closed Guard Bottom"
+    },
+    {
+      "name": "Counter-attack reversal path",
+      "path": "Aoki Lock Bottom Position → Rolling Kimura Escape → Counter Kimura Grip → Kimura Control Top → Kimura"
+    },
+    {
+      "name": "Conservative escape to standing",
+      "path": "Aoki Lock Bottom Position → Elbow Defense → Hip Escape → Turtle Bottom → Technical Standup → Standing Bottom Position"
+    },
+    {
+      "name": "High-percentage guard recovery",
+      "path": "Aoki Lock Bottom Position → Wrist Defense → Frame Creation → Hip Escape → Guard Recovery Bottom → Closed Guard Bottom → Offensive Transitions"
+    }
+  ],
+
+  "related_content": [
+    {
+      "name": "Aoki Lock Position",
+      "relationship": "Parent position - base category encompassing both top and bottom variations"
+    },
+    {
+      "name": "Aoki Lock Top Position",
+      "relationship": "Sibling variant - offensive perspective of same position"
+    },
+    {
+      "name": "Kimura Control Bottom",
+      "relationship": "Similar position - closely related defensive scenario with different wrist control"
+    },
+    {
+      "name": "Omoplata Control Bottom",
+      "relationship": "Related submission defense - similar shoulder attack requiring comparable defensive principles"
+    },
+    {
+      "name": "Side Control Bottom",
+      "relationship": "Common entry position - Aoki Lock frequently initiated from side control scenarios"
+    },
+    {
+      "name": "Turtle Bottom",
+      "relationship": "Common entry position - Aoki Lock often attacked from turtle defensive posture"
+    },
+    {
+      "name": "Kimura Defense",
+      "relationship": "Related defensive concept - overlapping defensive principles and escape mechanics"
+    },
+    {
+      "name": "Rolling Kimura Escape",
+      "relationship": "Primary escape technique - most effective offensive response from bottom"
+    },
+    {
+      "name": "Aoki Lock",
+      "relationship": "Submission being defended - understanding the finish helps prevent it"
+    },
+    {
+      "name": "Guard Recovery Bottom",
+      "relationship": "Common escape target - primary safe position to reach from Aoki Lock defense"
+    }
+  ],
+
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 20,
+      "intermediate": 35,
+      "advanced": 50
+    },
+    "advancement_probability": {
+      "beginner": 25,
+      "intermediate": 40,
+      "advanced": 60
+    },
+    "submission_probability": {
+      "beginner": 5,
+      "intermediate": 15,
+      "advanced": 30
+    },
+    "average_time": "15-45 seconds before escape or submission"
+  },
+
+  "expert_insights": {
+    "danaher": "The Aoki Lock bottom position represents a fascinating biomechanical puzzle that combines elements of shoulder manipulation and wrist control in ways that differ significantly from traditional kimura defense. The key to successful defense lies in understanding that your opponent has created a dual-lever system where they can attack either the shoulder girdle or the wrist articulation depending on your defensive reactions. Your primary biomechanical defense must focus on maintaining what I call 'compressive integrity' - keeping the elbow joint compressed against your torso eliminates the distance necessary for shoulder hyperextension. Simultaneously, internal rotation of the forearm with active wrist flexion prevents the wrist lock component. The critical error most practitioners make is treating this as a simple kimura defense and focusing solely on shoulder protection while neglecting the wrist vulnerability. The sophisticated escape artist recognizes that the double wrist grip, while appearing to strengthen opponent control, actually creates a mechanical inefficiency - both of their hands are committed to one of your limbs, leaving your free hand to attack their base or grips with numerical superiority. The rolling escape toward the trapped arm utilizes the opponent's own control against them, following the path of least resistance while simultaneously reducing pressure on both joints.",
+    
+    "gordon_ryan": "From a competition standpoint, ending up in Aoki Lock bottom is a serious problem because it's not a position you can stall in or wait for the referee to stand you up - you're in active submission danger and the clock is ticking against you. I've defended this position in ADCC and the key is immediate, aggressive action rather than passive defense. The moment you feel that double wrist grip establish, you need to make a decision: am I grip breaking and recovering guard, or am I rolling through for a reversal? Waiting to see what happens or trying to defend statically almost always results in the tap. My preference is the rolling escape because it's proactive and can lead to position reversals or at minimum gets you back to turtle where you have more options. The grip break approach works too but requires perfect timing when opponent adjusts their position. In competition, I've found that most people attacking Aoki Lock get overconfident and commit too much weight forward trying to finish, which makes the rolling counter extremely high percentage if you time it when they're driving into you. The other competition consideration is that this position drains a massive amount of energy - if you're defending for more than 20-30 seconds, your shoulder fatigue becomes a major factor and your defense degrades rapidly. Make your escape attempt early while you still have full strength and mobility.",
+    
+    "eddie_bravo": "The Aoki Lock bottom position is one of those spots where the 10th Planet philosophy of staying mobile and creating chaos really shines through. Traditional jiu-jitsu teaches you to defend passively and wait for opportunities, but when someone has that double wrist control on you, passive defense is just delaying the inevitable tap. We train our guys to immediately start the Granby roll sequence or what we call the 'truck entry counter' where you're using the momentum of their attack against them. The beautiful thing about this position is that your opponent is so focused on finishing the submission that they often completely neglect their base and positioning, which opens up all kinds of reversal opportunities if you're willing to take some calculated risks. I've seen Eddie Cummings and some of our other high-level guys turn Aoki Lock bottom into almost an offensive position by using the roll-through to truck entries or leg entanglements. The key is understanding that the double wrist grip, while dangerous for submissions, actually limits their ability to defend against your legs and hips if you stay mobile. We also emphasize the rubber guard recovery option - if you can get your leg up and establish mission control or zombie even while they have the wrist control, you've completely neutralized their attack and actually created offensive opportunities. It's unconventional but it works, especially in no-gi where the grips are less secure and you have more slipping opportunities."
+  }
+}
+{
+  "metadata": {
+    "title": "Aoki Lock Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master the Aoki Lock position in BJJ. Complete guide covering wrist control, leg entanglement integration, and submission finishing. Advanced leg lock hybrid position.",
+    "state_id": "S218",
+    "tags": ["bjj", "position", "leg-lock", "submission-position", "aoki-lock", "wrist-lock", "advanced"]
+  },
+  "overview": "The Aoki Lock Position is an advanced hybrid submission control position that combines wrist manipulation with leg entanglement control. Named after Japanese MMA fighter Shinya Aoki, this position is characterized by controlling the opponent's wrist while maintaining leg entanglement control, typically from variations of ashi garami or saddle positions. The position creates a unique submission threat that attacks the wrist joint while using leg control to prevent escapes and maintain positional dominance.\n\nThis position represents a sophisticated integration of upper and lower body control systems. The practitioner secures a double wrist lock configuration (similar to a kimura grip but applied to the wrist) while maintaining ankle or leg entanglement control with their legs. The position is most commonly entered from inside ashi garami, outside ashi garami, or saddle positions when the opponent posts their hand defensively. The dual-threat nature of the position forces opponents into difficult defensive choices between protecting their wrist and defending leg lock attacks.\n\nThe Aoki Lock Position is primarily seen in submission-only and MMA contexts where wrist locks are legal. It requires significant technical precision and understanding of both leg entanglement mechanics and small joint manipulation. The position carries moderate to high risk for both practitioners, as aggressive defense can create scrambles, while the submission itself can cause serious wrist injuries if applied without control. Success in this position depends on timing the entry when the opponent is focused on leg lock defense and maintaining tight connection between upper and lower body control systems.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "High",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short to Medium"
+  },
+  "state_invariants": [
+    "Practitioner maintains leg entanglement control (inside ashi, outside ashi, or saddle configuration) with opponent's leg secured between practitioner's legs, creating baseline positional control",
+    "Practitioner controls opponent's wrist with double wrist lock grip (figure-four configuration around wrist joint) with both hands securing the lock, one hand gripping own wrist while controlling opponent's hand",
+    "Opponent's arm is extended or semi-extended with wrist isolated from their core, preventing them from creating strong defensive frames or regaining wrist control",
+    "Practitioner's upper body is positioned to create rotational pressure on the wrist while lower body maintains leg entanglement, integrating both control systems into unified submission threat",
+    "Opponent is typically seated, supine, or in defensive posture with limited mobility due to dual-threat control of both leg and wrist, forcing defensive prioritization decisions"
+  ],
+  "prerequisites": [
+    "Established leg entanglement position (inside ashi, outside ashi, saddle, or related positions)",
+    "Opponent posts hand defensively on mat or practitioner's body creating wrist exposure",
+    "Practitioner has sufficient wrist lock technical knowledge and control to apply submission safely",
+    "Legal ruleset allowing wrist locks (submission-only, MMA, or advanced no-gi competition)",
+    "Timing window when opponent's attention is focused on leg lock defense rather than hand position"
+  ],
+  "key_principles": [
+    "Maintain primary leg entanglement control throughout wrist lock application to prevent opponent from escaping base position",
+    "Isolate opponent's wrist away from their core and center of gravity to maximize leverage advantage on small joint",
+    "Create rotational pressure on wrist joint through figure-four grip configuration and controlled torque application",
+    "Integrate upper and lower body control systems so leg position supports wrist lock and vice versa",
+    "Apply submission pressure progressively and controlled due to fragility of wrist joint and potential for serious injury",
+    "Be prepared to transition to leg lock finishes if opponent defends wrist aggressively or creates space in leg entanglement",
+    "Control opponent's free hand to prevent them from defending wrist or attacking practitioner's leg entanglement"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Aoki Lock",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Inside Heel Hook",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Kneebar Finish",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 40,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Straight Ankle Lock",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Toe Hold",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Inside Ashi Entry",
+      "target_position": "Inside Ashi-Garami Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Saddle Entry from Top",
+      "target_position": "Saddle Position Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Outside Ashi Entry",
+      "target_position": "Outside Ashi-Garami Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Ashi Garami Escape",
+      "target_position": "Guard Recovery",
+      "success_rate": 45
+    },
+    {
+      "technique": "Rolling Back Take",
+      "target_position": "Top Position",
+      "success_rate": 30
+    },
+    {
+      "technique": "Wrist Control Break",
+      "target_position": "Inside Ashi-Garami Bottom",
+      "success_rate": 40
+    },
+    {
+      "technique": "Reverse De La Riva Recovery",
+      "target_position": "Open Guard Bottom",
+      "success_rate": 35
+    },
+    {
+      "technique": "Inside Heel Hook",
+      "target_position": "Inside Ashi-Garami Bottom",
+      "success_rate": 25
+    },
+    {
+      "technique": "Saddle Defense",
+      "target_position": "Defensive Position",
+      "success_rate": 50
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Inside Heel Hook",
+      "target_position": "Won by Submission",
+      "trigger": "Opponent pulls hand back aggressively to defend wrist lock"
+    },
+    {
+      "technique": "Saddle Entry from Top",
+      "target_position": "Saddle Position Top",
+      "trigger": "Opponent turns away from wrist lock pressure creating saddle entry opportunity"
+    },
+    {
+      "technique": "Kneebar Finish",
+      "target_position": "Won by Submission",
+      "trigger": "Opponent sits up to defend wrist exposing knee joint"
+    },
+    {
+      "technique": "Turtle to Back Take",
+      "target_position": "Back Control",
+      "trigger": "Opponent turns belly down to escape leg entanglement"
+    },
+    {
+      "technique": "Straight Ankle Lock",
+      "target_position": "Won by Submission",
+      "trigger": "Opponent focuses entirely on wrist defense creating ankle exposure"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent defends wrist aggressively by pulling hand back and creating tension in arm",
+      "actions": [
+        {
+          "technique": "Inside Heel Hook",
+          "target": "Won by Submission",
+          "probability": 60
+        },
+        {
+          "technique": "Kneebar Finish",
+          "target": "Won by Submission",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent turns away from wrist pressure to protect joint and creates rotation",
+      "actions": [
+        {
+          "technique": "Saddle Entry from Top",
+          "target": "Saddle Position Top",
+          "probability": 65
+        },
+        {
+          "technique": "Outside Heel Hook",
+          "target": "Won by Submission",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent sits up aggressively to defend wrist or create posture",
+      "actions": [
+        {
+          "technique": "Kneebar Finish",
+          "target": "Won by Submission",
+          "probability": 70
+        },
+        {
+          "technique": "Toe Hold",
+          "target": "Won by Submission",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent goes belly down to escape leg entanglement control",
+      "actions": [
+        {
+          "technique": "Turtle to Back Take",
+          "target": "Back Control",
+          "probability": 60
+        },
+        {
+          "technique": "Truck Entry",
+          "target": "Truck Position Top",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent successfully breaks wrist control but leg entanglement remains",
+      "actions": [
+        {
+          "technique": "Inside Ashi Entry",
+          "target": "Inside Ashi-Garami Top",
+          "probability": 75
+        },
+        {
+          "technique": "Straight Ankle Lock",
+          "target": "Won by Submission",
+          "probability": 60
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Abandoning leg entanglement control to focus solely on wrist lock application",
+      "consequence": "Opponent easily escapes base position by clearing leg entanglement, neutralizing both wrist lock and positional control entirely",
+      "correction": "Maintain primary leg entanglement as foundation and use wrist lock as secondary control layer that enhances rather than replaces positional dominance"
+    },
+    {
+      "error": "Applying wrist lock pressure too explosively or aggressively without progressive tension",
+      "consequence": "Serious wrist injury to training partner, loss of training partners, and development of unsafe submission application habits",
+      "correction": "Apply wrist lock pressure slowly and progressively over 3-5 seconds minimum, allowing partner time to recognize submission and tap safely"
+    },
+    {
+      "error": "Gripping opponent's fingers or hand improperly instead of isolating wrist joint specifically",
+      "consequence": "Ineffective submission pressure that allows opponent to defend easily, wasted energy, and loss of submission opportunity",
+      "correction": "Ensure figure-four grip is positioned directly on wrist joint with rotation point on carpal bones, not on fingers or mid-forearm"
+    },
+    {
+      "error": "Failing to control opponent's free hand during wrist lock attempt",
+      "consequence": "Opponent uses free hand to defend wrist lock, attack practitioner's leg entanglement, or create frames for escape",
+      "correction": "Pin opponent's free hand with leg pressure, body weight, or positional control before fully committing to wrist lock finish"
+    },
+    {
+      "error": "Attempting wrist lock when opponent's arm is too close to their core and has strong defensive structure",
+      "consequence": "Opponent easily defends by keeping wrist close to body, practitioner cannot generate sufficient leverage, submission attempt fails",
+      "correction": "Only attack wrist when arm is extended away from opponent's core, typically when they post hand defensively on mat or practitioner's body"
+    },
+    {
+      "error": "Neglecting leg lock finish options when wrist lock is defended",
+      "consequence": "Missed submission opportunities as opponent focuses on wrist defense while leaving leg vulnerable to attack",
+      "correction": "Be prepared to immediately transition to heel hook, kneebar, or ankle lock when opponent successfully defends wrist, capitalizing on their defensive focus"
+    },
+    {
+      "error": "Using excessive upper body effort to force wrist lock instead of using proper body positioning and leverage",
+      "consequence": "Rapid fatigue, loss of positional control, and failed submission as arm muscles tire quickly under strain",
+      "correction": "Use body weight, hip pressure, and rotational mechanics to create wrist lock pressure rather than relying on arm and shoulder strength alone"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Wrist Lock Entry from Ashi Garami Drill",
+      "description": "Partner starts in inside ashi garami bottom position. Practitioner maintains leg entanglement and watches for partner to post hand on mat or body. When hand posts, practitioner secures figure-four wrist lock grip and applies controlled pressure. Reset and repeat 10 times, focusing on timing the entry when hand is maximally extended.",
+      "duration": "5 minutes per partner"
+    },
+    {
+      "name": "Dual Threat Maintenance Drill",
+      "description": "Practitioner establishes Aoki Lock position with both wrist control and leg entanglement. Partner attempts to escape by defending either the wrist or the leg. Practitioner must maintain both control systems simultaneously for 30 seconds. Switch roles. Focus on integrating upper and lower body control so defending one creates vulnerability in the other.",
+      "duration": "5 rounds of 30 seconds per partner"
+    },
+    {
+      "name": "Wrist Lock to Heel Hook Transition Drill",
+      "description": "Practitioner starts with Aoki Lock position established. Partner defends wrist by pulling hand back aggressively. Practitioner immediately releases wrist control and transitions to inside heel hook finish. Repeat 8 times with controlled pressure (no actual heel hook finishing). Focus on seamless transition when wrist defense is strong.",
+      "duration": "4 minutes per partner"
+    },
+    {
+      "name": "Progressive Resistance Aoki Lock Drill",
+      "description": "Partner starts with 0% resistance in ashi garami, allowing practitioner to secure wrist lock. Gradually increase resistance over 5 repetitions to 50% resistance where partner defends moderately but allows position. Practitioner focuses on grip security, isolation mechanics, and safe pressure application. Never exceed 50% resistance in training.",
+      "duration": "6 minutes per partner"
+    },
+    {
+      "name": "Counter Transition Flow Drill",
+      "description": "Practitioner establishes Aoki Lock position. Partner defends using one of four escapes: wrist pull-back, turn away rotation, sit-up posture, or belly-down escape. Practitioner must recognize defense and execute appropriate counter transition (heel hook, saddle, kneebar, or back take respectively). Flow continuously for 3-minute rounds.",
+      "duration": "3 rounds of 3 minutes per partner"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Direct Wrist Lock Finish Path",
+      "path": "Inside Ashi-Garami Top → Aoki Lock Position → Won by Submission (Aoki Lock)"
+    },
+    {
+      "name": "Wrist-to-Heel-Hook Path",
+      "path": "Inside Ashi-Garami Top → Aoki Lock Position → Inside Ashi-Garami Top → Won by Submission (Inside Heel Hook)"
+    },
+    {
+      "name": "Dual Threat Saddle Path",
+      "path": "Outside Ashi-Garami Top → Aoki Lock Position → Saddle Position Top → Won by Submission (Outside Heel Hook)"
+    },
+    {
+      "name": "Kneebar Counter Path",
+      "path": "Ashi Garami → Aoki Lock Position → Kneebar Control → Won by Submission (Kneebar)"
+    },
+    {
+      "name": "Back Attack Path",
+      "path": "Inside Ashi-Garami Top → Aoki Lock Position → Truck Position Top → Back Control → Won by Submission (Rear Naked Choke)"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Inside Ashi-Garami Top",
+      "relationship": "Primary entry position and fallback position when wrist lock is defended"
+    },
+    {
+      "name": "Outside Ashi-Garami Top",
+      "relationship": "Alternative entry position with similar wrist exposure opportunities"
+    },
+    {
+      "name": "Saddle Position Top",
+      "relationship": "Common transition target when opponent defends wrist by turning away"
+    },
+    {
+      "name": "Aoki Lock",
+      "relationship": "Primary submission finish from this position"
+    },
+    {
+      "name": "Inside Heel Hook",
+      "relationship": "Most common follow-up submission when wrist lock is defended"
+    },
+    {
+      "name": "Kneebar Control",
+      "relationship": "Alternative submission when opponent sits up to defend wrist"
+    },
+    {
+      "name": "Danaher Leg Lock System",
+      "relationship": "Systematic framework incorporating wrist lock integration with leg entanglements"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Foundational concept for maintaining positional control during wrist attacks"
+    },
+    {
+      "name": "Submission Control Position",
+      "relationship": "Conceptual framework for dual-threat submission positions"
+    },
+    {
+      "name": "Kimura",
+      "relationship": "Similar figure-four joint lock principle applied to shoulder instead of wrist"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 35,
+      "intermediate": 55,
+      "advanced": 70
+    },
+    "advancement_probability": {
+      "beginner": 25,
+      "intermediate": 45,
+      "advanced": 65
+    },
+    "submission_probability": {
+      "beginner": 20,
+      "intermediate": 40,
+      "advanced": 60
+    },
+    "average_time": "15-45 seconds"
+  },
+  "expert_insights": {
+    "danaher": "The Aoki Lock position represents a fascinating integration of our leg entanglement system with upper extremity control. What makes this position mechanically effective is not the wrist lock itself, which is a relatively weak submission compared to strangles or major joint locks, but rather the way it exploits divided attention in your opponent's defensive hierarchy. When an opponent is deeply focused on defending heel hooks, kneebars, and other high-danger leg attacks, their hands often become secondary defensive tools rather than primary escape mechanisms. This creates windows where the posted hand becomes isolated and vulnerable. The key technical principle is maintaining your primary leg entanglement as the foundation while using the wrist lock as an opportunistic secondary attack. The figure-four configuration on the wrist joint creates a lever arm that can generate significant rotational force, but this submission must be applied with extreme care due to the fragility of carpal bones and ligaments. The true value of this position lies in creating a dilemma where defending the wrist weakens leg lock defense and vice versa, forcing your opponent into a lose-lose situation where any defensive movement creates submission opportunities in the neglected area.",
+    "gordon_ryan": "In competition, the Aoki Lock position is more of a control position and transition setup than a high-percentage finishing position for me. I've seen it work at the highest levels, but usually when the opponent makes a specific mistake of posting their hand too aggressively while I have leg entanglement control. The reality is that most elite competitors are aware of wrist lock danger and will keep their hands closer to their body or use frames that don't expose the wrist joint. Where this position becomes valuable is in creating scrambles and transitions. When I threaten the wrist lock, even if I don't finish it, the opponent often makes defensive movements that open up heel hooks, saddle entries, or back takes. I use it more as a distraction and control tool than a primary submission. In MMA contexts, I've seen it work more effectively because opponents are less familiar with leg entanglement escape protocols and more likely to post hands aggressively for base. If you do get the position, the most important thing is not losing your leg entanglement while attacking the wrist. Too many people abandon their primary control system to chase a low-percentage wrist lock and end up getting their guard passed or scrambled out. Keep the legs tight, use the wrist as a secondary control, and be ready to transition to heel hooks immediately when they defend.",
+    "eddie_bravo": "The Aoki Lock is one of those submissions that represents the evolution of no-gi grappling beyond traditional BJJ limitations. In 10th Planet, we've always been about attacking from everywhere and not limiting ourselves to the standard submission set. What I love about this position is how it combines leg control with upper body attacks in a way that creates total system overload for the opponent. They're already stressed about heel hooks and leg locks, and now you're threatening their wrist too. It's beautiful chaos. We drill entries from various ashi garami positions and saddle variations, looking for that moment when they post to defend or create base. The key is being smooth with the entry - if you telegraph the wrist attack, they'll pull their hand back and you've lost your opportunity. I teach my students to secure the wrist lock grip almost incidentally while maintaining their leg entanglement, making it seem like they're just controlling the arm for positional purposes. Then, when the opponent is focused on their leg, you start applying the rotational pressure on the wrist. The psychological component is huge - most people aren't expecting wrist locks from leg entanglement positions, so there's a surprise factor that increases your success rate. From a system perspective, this position fits perfectly into our leg attack game because it creates another layer of offensive threat that opponents have to account for in their defensive decision-making."
+  }
+}
+{
+  "metadata": {
+    "title": "Aoki Lock Top Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master Aoki Lock top position in BJJ. Complete control guide with shoulder lock mechanics, transitions, and finishing strategies. Advanced submission control.",
+    "state_id": "S187",
+    "tags": ["bjj", "position", "aoki-lock", "top", "submission-control", "shoulder-lock", "leg-entanglement", "advanced"],
+    "parent_variant": "Aoki Lock Position",
+    "sibling_variants": ["Aoki Lock Bottom Position"]
+  },
+
+  "overview": "The Aoki Lock Top Position represents an advanced submission control state where the top practitioner has secured a leg-entangled shoulder lock position, named after Shinya Aoki's signature application. This position combines elements of leg entanglement control with an omoplata-style shoulder lock, creating a powerful finishing position that controls the opponent's mobility while applying pressure to the shoulder joint. The top player maintains dominant leverage through hip pressure and precise limb control, making this one of the most controlling submission positions in modern no-gi grappling.\n\nFrom the top perspective, this position offers exceptional control over the opponent's upper body rotation and shoulder mobility while simultaneously managing their leg positioning. The practitioner uses their legs to trap the opponent's arm and shoulder while maintaining base and applying rotational pressure to the shoulder joint. Success in this position requires precise technical execution, strong positional awareness, and deep understanding of shoulder lock mechanics and safety protocols. The Aoki Lock top position is particularly effective in no-gi competition where the absence of gi grips makes traditional shoulder lock escapes more difficult.",
+
+  "state_properties": {
+    "point_value": 4,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short to Medium"
+  },
+
+  "state_invariants": [
+    "Top player's legs are entangled with opponent's trapped arm, with the thigh positioned over the shoulder and shin controlling the upper arm/shoulder complex",
+    "Opponent is typically on their side or stomach with trapped shoulder isolated and unable to rotate freely, with limited defensive mobility",
+    "Top player maintains base through free leg posted on mat and hands controlling opponent's hips or far-side limbs, creating stable platform for shoulder pressure",
+    "Hip pressure is directed downward and forward onto opponent's shoulder joint, creating rotational stress on the shoulder capsule and limiting escape angles",
+    "Opponent's trapped arm is extended and isolated between top player's legs with elbow pointing away from their body in vulnerable position"
+  ],
+
+  "prerequisites": [
+    "Successful entry from front headlock, turtle, or guard passing position with arm isolated",
+    "Control of opponent's shoulder with legs positioned for entanglement",
+    "Opponent's shoulder trapped with limited rotation capability",
+    "Base established through posting leg and hip positioning",
+    "Understanding of shoulder lock mechanics and safety protocols"
+  ],
+
+  "key_principles": [
+    "Maintain constant hip pressure directed into opponent's shoulder to prevent rotation and create submission threat",
+    "Control opponent's trapped arm angle with legs, keeping elbow pointed away from their body",
+    "Post free leg strongly to create stable base and prevent opponent from rolling through",
+    "Apply pressure gradually and progressively, monitoring opponent's tap signals carefully",
+    "Control opponent's hips with hands to prevent them from turning into pressure",
+    "Keep weight distributed through hips into opponent's shoulder rather than relying on arm strength",
+    "Maintain leg entanglement tightness to prevent arm extraction and position escape"
+  ],
+
+  "offensive_transitions": [
+    {
+      "technique": "Aoki Lock",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Transition to Truck",
+      "target_position": "Truck Top Position",
+      "success_rates": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "Transition to Back Control",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 55,
+        "intermediate": 70,
+        "advanced": 85
+      }
+    },
+    {
+      "technique": "Transition to Crucifix",
+      "target_position": "Crucifix Top Position",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Kimura from Aoki Lock",
+      "target_position": "Kimura Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Transition to North-South",
+      "target_position": "North-South Top",
+      "success_rates": {
+        "beginner": 60,
+        "intermediate": 75,
+        "advanced": 85
+      }
+    }
+  ],
+
+  "defensive_responses": [
+    {
+      "technique": "Roll Through Escape",
+      "target_position": "Turtle Bottom",
+      "success_rate": 25
+    },
+    {
+      "technique": "Arm Extraction",
+      "target_position": "Guard Recovery Bottom",
+      "success_rate": 20
+    },
+    {
+      "technique": "Hip Escape to Guard",
+      "target_position": "Guard Recovery Bottom",
+      "success_rate": 15
+    },
+    {
+      "technique": "Scramble to Turtle",
+      "target_position": "Turtle Bottom",
+      "success_rate": 30
+    }
+  ],
+
+  "counter_transitions": [
+    {
+      "technique": "Back Take from Roll Attempt",
+      "target_position": "Back Control Top",
+      "trigger": "Opponent attempts to roll forward through the position"
+    },
+    {
+      "technique": "Truck Entry from Hip Movement",
+      "target_position": "Truck Top Position",
+      "trigger": "Opponent tries to turn away or create distance with hips"
+    },
+    {
+      "technique": "Crucifix Capture",
+      "target_position": "Crucifix Top Position",
+      "trigger": "Opponent exposes far arm while defending shoulder lock"
+    },
+    {
+      "technique": "Increased Shoulder Pressure",
+      "target_position": "Won by Submission",
+      "trigger": "Opponent stops moving and tightens defensive posture"
+    }
+  ],
+
+  "decision_tree": [
+    {
+      "condition": "If opponent attempts to roll forward through the position",
+      "actions": [
+        {
+          "technique": "Back Take from Roll",
+          "target": "Back Control Top",
+          "probability": 70
+        },
+        {
+          "technique": "Maintain Aoki Lock",
+          "target": "Aoki Lock Top Position",
+          "probability": 25
+        }
+      ]
+    },
+    {
+      "condition": "If opponent turns away or creates hip distance",
+      "actions": [
+        {
+          "technique": "Truck Entry",
+          "target": "Truck Top Position",
+          "probability": 65
+        },
+        {
+          "technique": "Follow to Back Control",
+          "target": "Back Control Top",
+          "probability": 30
+        }
+      ]
+    },
+    {
+      "condition": "If opponent exposes far arm while defending",
+      "actions": [
+        {
+          "technique": "Crucifix Transition",
+          "target": "Crucifix Top Position",
+          "probability": 60
+        },
+        {
+          "technique": "Kimura Switch",
+          "target": "Kimura Control Top",
+          "probability": 35
+        }
+      ]
+    },
+    {
+      "condition": "If opponent's shoulder is fully controlled with no escape attempts",
+      "actions": [
+        {
+          "technique": "Finish Aoki Lock",
+          "target": "Won by Submission",
+          "probability": 75
+        },
+        {
+          "technique": "Maintain Pressure",
+          "target": "Aoki Lock Top Position",
+          "probability": 20
+        }
+      ]
+    }
+  ],
+
+  "common_errors": [
+    {
+      "error": "Posting too far from opponent with free leg, reducing hip pressure on shoulder",
+      "consequence": "Opponent gains space to rotate shoulder and escape the lock, or extract their trapped arm",
+      "correction": "Keep posted leg close to opponent's body, maintaining constant downward hip pressure into the shoulder joint"
+    },
+    {
+      "error": "Allowing opponent's elbow to bend and come back toward their body",
+      "consequence": "Shoulder lock loses effectiveness as joint alignment changes, opponent can defend or escape",
+      "correction": "Use leg positioning to keep opponent's arm extended with elbow pointing away from their torso"
+    },
+    {
+      "error": "Failing to control opponent's hips with hands",
+      "consequence": "Opponent can turn into pressure or create angles for escape, negating the shoulder lock",
+      "correction": "Maintain active hand control on opponent's far hip or pants to prevent rotation and movement"
+    },
+    {
+      "error": "Applying shoulder pressure too quickly or explosively",
+      "consequence": "Risk of serious shoulder injury to opponent, potential disqualification, unsafe training environment",
+      "correction": "Apply pressure gradually and progressively, staying alert for tap signals, prioritizing safety over speed"
+    },
+    {
+      "error": "Losing leg entanglement tension around opponent's arm",
+      "consequence": "Opponent can extract their arm and escape to guard or turtle position",
+      "correction": "Maintain constant squeeze with legs around opponent's shoulder and upper arm complex"
+    },
+    {
+      "error": "Looking away from opponent or losing positional awareness",
+      "consequence": "Miss defensive movements, fail to see tap signals, or get swept to inferior position",
+      "correction": "Keep head position aware, eyes on opponent's body language and hand signals throughout"
+    }
+  ],
+
+  "training_drills": [
+    {
+      "name": "Aoki Lock Entry Repetitions",
+      "description": "From turtle position, partner allows you to secure arm isolation and enter Aoki Lock position. Focus on smooth leg entanglement, base establishment, and proper shoulder angle. Repeat 10-15 times per side, emphasizing positional control over submission finish.",
+      "duration": "10 minutes"
+    },
+    {
+      "name": "Position Maintenance Against Resistance",
+      "description": "Partner provides 50% resistance while you maintain Aoki Lock top position. They attempt common escapes (roll through, arm extraction, hip escape) while you maintain control and counter. Focus on weight distribution, base posting, and hip pressure. 3-minute rounds.",
+      "duration": "15 minutes"
+    },
+    {
+      "name": "Transition Flow Drill",
+      "description": "From Aoki Lock top position, partner gives specific defensive reactions (rolling, turning away, exposing far arm). Practice flowing to appropriate transitions: back control, truck, crucifix, or finishing the lock. Emphasize smooth transitions and maintaining control throughout. 5 repetitions of each defensive scenario.",
+      "duration": "12 minutes"
+    },
+    {
+      "name": "Safety-First Finish Practice",
+      "description": "With compliant partner, practice applying Aoki Lock pressure using 3-5 second gradual increases. Partner taps at first discomfort. Focus on immediate release protocol and communication. Develop sensitivity to submission depth and tap recognition. 8-10 controlled repetitions per side.",
+      "duration": "10 minutes"
+    }
+  ],
+
+  "optimal_submission_paths": [
+    {
+      "name": "Direct finish from control",
+      "path": "Aoki Lock Top Position → Aoki Lock (finish)"
+    },
+    {
+      "name": "Back control to finish path",
+      "path": "Aoki Lock Top Position → Back Control Top → Rear Naked Choke"
+    },
+    {
+      "name": "Truck system path",
+      "path": "Aoki Lock Top Position → Truck Top Position → Twister Finish"
+    },
+    {
+      "name": "Crucifix control path",
+      "path": "Aoki Lock Top Position → Crucifix Top Position → Choke from Crucifix"
+    },
+    {
+      "name": "North-South pressure path",
+      "path": "Aoki Lock Top Position → North-South Top → North-South Choke"
+    }
+  ],
+
+  "related_content": [
+    {
+      "name": "Aoki Lock Position",
+      "relationship": "Parent position - base position concept"
+    },
+    {
+      "name": "Aoki Lock Bottom Position",
+      "relationship": "Sibling variant - defensive perspective"
+    },
+    {
+      "name": "Aoki Lock",
+      "relationship": "Primary submission - finishing technique"
+    },
+    {
+      "name": "Truck Top Position",
+      "relationship": "Transition target - alternative control position"
+    },
+    {
+      "name": "Back Control Top",
+      "relationship": "Transition target - superior control position"
+    },
+    {
+      "name": "Crucifix Top Position",
+      "relationship": "Transition target - alternative submission control"
+    },
+    {
+      "name": "Kimura Control Top",
+      "relationship": "Transition target - related shoulder lock control"
+    },
+    {
+      "name": "Omoplata",
+      "relationship": "Related submission - similar shoulder lock mechanics"
+    },
+    {
+      "name": "Kimura Trap System",
+      "relationship": "Related system - shoulder lock control methodology"
+    },
+    {
+      "name": "Submission Control Position",
+      "relationship": "Concept - submission position fundamentals"
+    }
+  ],
+
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 55,
+      "intermediate": 70,
+      "advanced": 85
+    },
+    "advancement_probability": {
+      "beginner": 50,
+      "intermediate": 65,
+      "advanced": 80
+    },
+    "submission_probability": {
+      "beginner": 45,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "average_time": "30-90 seconds"
+  },
+
+  "expert_insights": {
+    "danaher": "The Aoki Lock top position represents a sophisticated blend of leg entanglement control and shoulder lock mechanics that requires deep understanding of both systems. The key to success lies in the precise geometric relationship between your hip pressure vector and the opponent's shoulder joint axis of rotation. Your legs function as a clamping mechanism that isolates the shoulder while your hips provide the directional force that creates the submission threat. The position's effectiveness stems from the opponent's limited defensive options - they cannot simply roll out as in traditional shoulder locks because your leg entanglement controls their rotation, and they cannot extract their arm without first escaping your hip pressure. Focus on maintaining three points of control simultaneously: leg pressure on the shoulder complex, hip pressure directed into the joint, and hand control preventing hip rotation. The submission finish requires gradual, progressive pressure application with constant awareness of the opponent's tap signals, as shoulder locks can cause serious injury if applied too quickly or forcefully.",
+    "gordon_ryan": "From a competition standpoint, the Aoki Lock top position is one of the highest-percentage finishes available once you've secured proper control. In my matches, I use this position primarily as a finishing sequence rather than a holding position - if I've isolated the shoulder and established the leg entanglement correctly, I'm looking to finish within 15-30 seconds or transition to back control. The key competitive advantage is that most opponents don't train this position extensively, so their defensive reactions are often incorrect, creating multiple transition opportunities. When they try to roll through (the most common defense), you have a direct path to back control. When they turn away, you can enter the truck system. The position also works exceptionally well in no-gi competition where traditional shoulder lock escapes using gi grips aren't available. I prioritize quick entries from turtle and front headlock positions, securing the arm isolation before the opponent recognizes the danger. Once you have the position, focus on finishing efficiently rather than holding - the longer you maintain the position without finishing, the more time the opponent has to find defensive solutions.",
+    "eddie_bravo": "The Aoki Lock top position fits perfectly into the 10th Planet philosophy of control positions that create multiple submission and transition paths while keeping you safe from counters. What makes this position special is how it combines elements from our truck system with shoulder lock finishing mechanics - you're essentially creating a submission control position that can flow into our entire back attack system if the opponent defends the shoulder lock. We teach students to think of this position as a hub in their submission game rather than just an isolated technique. From here, you can finish the shoulder lock, transition to the truck for twister setups, take the back for rear naked choke, or capture the crucifix if they expose their far arm. The innovation comes from recognizing that the leg entanglement doesn't just control the arm - it also limits their ability to create the angles needed for most escapes. We drill this position extensively with resistance, teaching students to read the opponent's defensive energy and flow with it rather than fighting against it. If they roll, you roll to back control. If they turn away, you follow to truck. If they freeze up, you finish the lock. The key is staying relaxed and maintaining your control points while reading their movement patterns."
+  }
+}

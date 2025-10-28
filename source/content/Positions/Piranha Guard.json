@@ -1,0 +1,1085 @@
+{
+  "metadata": {
+    "title": "Piranha Guard Bottom | BJJ Position Guide | BJJ Graph",
+    "description": "Master Piranha Guard Bottom in BJJ. Aggressive lapel-based guard with 65% sweep success. Learn grips, transitions, and attacks from this innovative position.",
+    "state_id": "S347",
+    "tags": ["bjj", "position", "guard", "piranha-guard", "lapel-guard", "bottom", "open-guard", "gi"],
+    "parent_variant": "Piranha Guard",
+    "sibling_variants": ["Piranha Guard Top"]
+  },
+
+  "overview": "Piranha Guard Bottom is an innovative lapel-based guard position characterized by controlling the opponent's lapel and feeding it around their leg while maintaining strategic grips and hooks. Named for its aggressive, opportunistic nature, this guard creates constant threats of sweeps, back takes, and submissions through creative use of the gi. The position was popularized by modern no-gi practitioners who adapted lapel control concepts from the Berimbolo and Worm Guard systems.\n\nThe Piranha Guard excels at neutralizing pressure passing while simultaneously creating offensive opportunities through the lapel entanglement. By wrapping the opponent's own lapel around their leg and controlling it with strategic grips, the bottom player creates a mechanical disadvantage that restricts the top player's mobility and base. This position is particularly effective against opponents who rely on knee slice or smash passing variations, as the lapel configuration disrupts their weight distribution and passing mechanics.\n\nFrom a tactical perspective, Piranha Guard represents the evolution of modern lapel guard systems, combining elements from Worm Guard, Squid Guard, and traditional De La Riva concepts. The position demands excellent grip fighting, spatial awareness, and understanding of leverage principles. While technically complex, mastery of Piranha Guard provides practitioners with a comprehensive attacking system that flows seamlessly between sweeps, back attacks, and guard retention scenarios.",
+
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+
+  "state_invariants": [
+    "Bottom player controls opponent's lapel with strategic grips, typically feeding it around the opponent's leg to create entanglement with lapel wrapped around thigh or knee, restricting top player's mobility and base structure",
+    "Bottom player maintains at least one hook or foot contact on opponent's hip, leg, or shoulder to control distance and create angle opportunities, often using De La Riva hook or collar tie variations for positional control",
+    "Opponent is in standing or combat base position attempting to pass, with their lapel compromised and movement patterns disrupted by the lapel configuration around their own body",
+    "Bottom player's hips remain mobile and angled, creating off-balancing opportunities through lapel tension combined with hook placement, maintaining ability to invert or change angles as needed"
+  ],
+
+  "prerequisites": [
+    "Successful lapel grip establishment and feed around opponent's leg",
+    "Opponent in standing or combat base attempting to pass guard",
+    "Control of lapel with strategic grip configuration",
+    "Bottom player positioned with hip mobility and hook placement capability",
+    "Understanding of lapel management and tension principles"
+  ],
+
+  "key_principles": [
+    "Maintain constant tension on the lapel to restrict opponent's movement and create mechanical disadvantage in their base structure",
+    "Use lapel configuration in combination with hooks to create sweep angles and off-balancing opportunities through coordinated tension and direction changes",
+    "Control opponent's posture and distance through strategic grip placement, preventing them from establishing strong passing pressure or clearing the lapel entanglement",
+    "Stay active with hip movement and angle changes to prevent opponent from settling into static passing positions",
+    "Coordinate lapel tension with hook movements to multiply sweeping power and create back exposure opportunities",
+    "Maintain grip security on the lapel while being prepared to transition to alternative guards if opponent begins clearing the configuration",
+    "Use the lapel as both defensive barrier against passing pressure and offensive weapon for attacks, creating constant dilemmas for the top player"
+  ],
+
+  "offensive_transitions": [
+    {
+      "technique": "Piranha Sweep",
+      "target_position": "Mount Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Lapel Drag to Back",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Triangle Setup",
+      "target_position": "Triangle Control Bottom",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Omoplata Sweep",
+      "target_position": "Omoplata Control Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "De La Riva Sweep",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Berimbolo Entry",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 40,
+        "advanced": 60
+      }
+    }
+  ],
+
+  "defensive_responses": [
+    {
+      "technique": "Lapel Clear and Stack Pass",
+      "target_position": "Headquarters Position Top",
+      "success_rate": 45
+    },
+    {
+      "technique": "Leg Weave Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 40
+    },
+    {
+      "technique": "Knee Cut Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 35
+    },
+    {
+      "technique": "Toreando Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 30
+    }
+  ],
+
+  "counter_transitions": [
+    {
+      "technique": "Lapel Re-Feed and Sweep",
+      "target_position": "Mount Top",
+      "trigger": "Opponent attempts to clear lapel configuration"
+    },
+    {
+      "technique": "Inversion to Back Take",
+      "target_position": "Back Control Top",
+      "trigger": "Opponent commits weight forward to pass"
+    },
+    {
+      "technique": "Triangle Transition",
+      "target_position": "Triangle Control Bottom",
+      "trigger": "Opponent postures up to escape lapel control"
+    }
+  ],
+
+  "decision_tree": [
+    {
+      "condition": "If opponent establishes strong base and attempts to clear lapel with both hands",
+      "actions": [
+        {
+          "technique": "Inversion to Back Take",
+          "target": "Back Control Top",
+          "probability": 55
+        },
+        {
+          "technique": "Transition to Worm Guard",
+          "target": "Worm Guard Bottom",
+          "probability": 40
+        }
+      ]
+    },
+    {
+      "condition": "If opponent drives forward with pressure attempting knee cut or smash pass",
+      "actions": [
+        {
+          "technique": "Piranha Sweep",
+          "target": "Mount Top",
+          "probability": 65
+        },
+        {
+          "technique": "Omoplata Sweep",
+          "target": "Omoplata Control Bottom",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent stands tall and attempts to disengage from lapel entanglement",
+      "actions": [
+        {
+          "technique": "De La Riva Sweep",
+          "target": "Side Control Top",
+          "probability": 60
+        },
+        {
+          "technique": "Berimbolo Entry",
+          "target": "Back Control Top",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent commits to one side to clear hooks",
+      "actions": [
+        {
+          "technique": "Lapel Drag to Back",
+          "target": "Back Control Top",
+          "probability": 60
+        },
+        {
+          "technique": "Triangle Setup",
+          "target": "Triangle Control Bottom",
+          "probability": 45
+        }
+      ]
+    }
+  ],
+
+  "common_errors": [
+    {
+      "error": "Losing lapel tension and allowing opponent to easily clear the configuration",
+      "consequence": "Opponent escapes lapel entanglement and establishes dominant passing position with free movement",
+      "correction": "Maintain constant tension on lapel through active grip management and hip positioning, adjusting tension as opponent moves"
+    },
+    {
+      "error": "Remaining static without angle changes or hip movement",
+      "consequence": "Opponent settles into stable passing position and systematically clears lapel control",
+      "correction": "Stay active with hip movement, constantly adjusting angles and creating new off-balancing opportunities through lapel tension changes"
+    },
+    {
+      "error": "Over-committing to lapel control while neglecting hook placement and distance management",
+      "consequence": "Opponent bypasses guard through leg weave or toreando despite lapel configuration",
+      "correction": "Balance lapel control with strategic hook placement on hips and legs to control distance and prevent passing angles"
+    },
+    {
+      "error": "Failing to coordinate lapel tension with hook movements for sweeps",
+      "consequence": "Sweep attempts lack power and opponent easily bases out or counters",
+      "correction": "Time lapel pulls with hook extensions to multiply sweeping force, creating simultaneous off-balancing from multiple directions"
+    },
+    {
+      "error": "Using inadequate grip strength or poor grip placement on the lapel",
+      "consequence": "Lapel slips out of position or opponent strips grips, nullifying the guard system",
+      "correction": "Establish deep, secure grips on the lapel with proper hand positioning, using thumb-inside grips for maximum control and retention"
+    },
+    {
+      "error": "Neglecting to transition when opponent successfully begins clearing lapel",
+      "consequence": "Guard becomes compromised with no backup plan, leading to successful pass",
+      "correction": "Recognize lapel clearing sequences early and transition to alternative guards like De La Riva, Spider, or Butterfly before position is fully compromised"
+    }
+  ],
+
+  "training_drills": [
+    {
+      "name": "Lapel Feed and Retention Drill",
+      "description": "Partner in combat base, practice feeding lapel around their leg and maintaining configuration while they attempt to clear it. Focus on grip security, tension maintenance, and quick re-feeds when lapel is cleared. Alternate 2-minute rounds with partner resistance increasing progressively.",
+      "duration": "5 minutes per round, 3 rounds"
+    },
+    {
+      "name": "Sweep Combination Flow Drill",
+      "description": "From established Piranha Guard, flow through different sweep options based on partner's base adjustments. Practice reading their weight distribution and selecting appropriate sweep angles. Partner provides moderate resistance. Focus on smooth transitions between sweep attempts.",
+      "duration": "3 minutes per round, 4 rounds"
+    },
+    {
+      "name": "Back Take Transition Drill",
+      "description": "Partner attempts to clear lapel configuration, practice inverting or using lapel drag to take the back. Start with cooperative partner, progress to resistant. Emphasize timing the inversion with opponent's lapel clearing motion to create back exposure.",
+      "duration": "4 minutes per round, 3 rounds"
+    },
+    {
+      "name": "Piranha Guard Entry Drill",
+      "description": "Starting from various open guard positions (De La Riva, Spider, Seated), practice entering Piranha Guard by establishing grips and feeding lapel. Partner provides realistic passing pressure. Focus on efficient entry sequences and grip transitions.",
+      "duration": "6 minutes continuous rotation"
+    }
+  ],
+
+  "optimal_submission_paths": [
+    {
+      "name": "Triangle Path",
+      "path": "Piranha Guard Bottom → Triangle Setup → Triangle Control Bottom → Triangle Choke"
+    },
+    {
+      "name": "Back Attack Path",
+      "path": "Piranha Guard Bottom → Berimbolo Entry → Back Control Top → Rear Naked Choke"
+    },
+    {
+      "name": "Omoplata Path",
+      "path": "Piranha Guard Bottom → Omoplata Sweep → Omoplata Control Bottom → Omoplata"
+    },
+    {
+      "name": "Sweep to Mount Submission",
+      "path": "Piranha Guard Bottom → Piranha Sweep → Mount Top → Armbar from Mount"
+    }
+  ],
+
+  "related_content": [
+    {
+      "name": "Worm Guard Bottom",
+      "relationship": "Similar lapel-based guard with related control concepts and transition opportunities"
+    },
+    {
+      "name": "Squid Guard Bottom",
+      "relationship": "Alternative lapel guard variation with similar entry mechanics and sweep angles"
+    },
+    {
+      "name": "De La Riva Guard Bottom",
+      "relationship": "Foundational guard position that shares hooking concepts and can transition to Piranha Guard"
+    },
+    {
+      "name": "Lapel Guard Bottom",
+      "relationship": "Parent category of lapel-based guard systems including Piranha variations"
+    },
+    {
+      "name": "Berimbolo",
+      "relationship": "Key transition technique from Piranha Guard leading to back control"
+    },
+    {
+      "name": "Keenan Cornelius Lapel Guard System",
+      "relationship": "Systematic approach to lapel guards that includes Piranha Guard concepts"
+    },
+    {
+      "name": "Triangle Control Bottom",
+      "relationship": "Common submission position accessed from Piranha Guard through triangle setup"
+    },
+    {
+      "name": "Guard Retention Concepts",
+      "relationship": "Fundamental concepts that apply to maintaining and recovering Piranha Guard"
+    }
+  ],
+
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 40,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "advancement_probability": {
+      "beginner": 35,
+      "intermediate": 55,
+      "advanced": 70
+    },
+    "submission_probability": {
+      "beginner": 20,
+      "intermediate": 35,
+      "advanced": 50
+    },
+    "average_time": "45-90 seconds before sweep or pass attempt"
+  },
+
+  "expert_insights": {
+    "danaher": "The Piranha Guard represents an evolution in lapel-based guard systems where we use the opponent's own gi as a mechanical restraint that fundamentally disrupts their passing structure. The critical understanding is that the lapel configuration around the leg creates a three-dimensional constraint that affects their base, posture, and mobility simultaneously. When properly executed, the lapel tension acts as a lever that multiplies the force of your hooks and hip movements, allowing you to generate sweeping power from angles that would normally be biomechanically weak. The position demands precise grip management and constant tension adjustment—the lapel must remain taut enough to restrict movement but not so tight that it can be easily cleared. Study the geometry of how lapel tension interacts with different base configurations, and you'll discover that seemingly small adjustments in grip position or tension angle can dramatically alter the effectiveness of your attacks. The systematic approach to Piranha Guard involves mastering the entry sequences, developing reliable sweep mechanics based on opponent reactions, and understanding the transition pathways to back control when the sweep is defended.",
+
+    "gordon_ryan": "Piranha Guard is one of those positions that looks flashy but actually has serious competition value when you understand the fundamentals. I've used variations of this against world-class opponents because it creates legitimate problems for pressure passers who want to settle into knee cut or smash positions. The key to making it work at high levels is being extremely aggressive with your attacks—you can't just hold the position and wait, you need to constantly threaten sweeps and back takes to keep them defensive. When I play Piranha Guard, I'm always thinking three moves ahead: if they defend the sweep this way, I go to the back; if they defend it that way, I switch to triangle. The lapel configuration is just a tool to create those opportunities, not the end goal itself. In competition, I've found that combining Piranha Guard with traditional De La Riva creates a nightmare scenario for passers because they can't commit fully to clearing either position without exposing themselves to the other. The sweep percentages are legitimate if you've drilled the mechanics properly—I've hit Piranha sweeps on black belts who outweigh me by 30 pounds because the leverage is that effective when timed correctly.",
+
+    "eddie_bravo": "Piranha Guard is exactly the kind of creative innovation that keeps gi jiu-jitsu evolving and interesting. What I love about this position is that it takes the lapel control concept and weaponizes it in a way that most traditional guys aren't prepared for. At 10th Planet we obviously don't train with the gi, but the principles here translate directly to no-gi concepts around limb entanglement and creating mechanical disadvantages through creative positioning. The Piranha Guard mindset is pure guerrilla warfare—you're using their own equipment against them in ways they didn't anticipate. When teaching this to my students who cross-train in gi, I emphasize the inversion opportunities and back take entries because those translate directly to our no-gi system. The berimbolo transitions from Piranha Guard are particularly nasty because the lapel configuration forces them to react in predictable ways that set up the roll. What's brilliant about this guard is that it represents the next generation of lapel guards—not just holding lapels for grips, but actually using the gi fabric as a physical barrier that restricts their movement. That's the kind of outside-the-box thinking that creates new meta-games in jiu-jitsu. Drill the hell out of the entries and the basic sweeps until they're muscle memory, then start experimenting with your own variations."
+  }
+}
+{
+  "metadata": {
+    "title": "Piranha Guard | BJJ Position Guide | BJJ Graph",
+    "description": "Master Piranha Guard in BJJ. Advanced lapel guard with powerful sweeps and submissions. Features collar control through legs with 60% sweep success rate.",
+    "state_id": "S247",
+    "tags": ["bjj", "position", "guard", "lapel-guard", "open-guard", "advanced", "gi", "sweeps", "collar-control"]
+  },
+
+  "overview": "Piranha Guard is an advanced lapel-based guard system where the bottom player feeds the opponent's collar through their legs, creating a powerful control mechanism similar to how a piranha's teeth lock onto prey. This guard is characterized by the unique gripping configuration where the practitioner holds the opponent's collar with both hands after threading it between their legs, creating exceptional breaking posture and sweep opportunities. The position derives its name from the relentless, biting control it establishes on the opponent's posture and balance.\n\nThe Piranha Guard is particularly effective against opponents who attempt to establish standing passes or maintain upright posture in open guard. By controlling the collar through the legs, the guard player creates a direct connection to the opponent's upper body while keeping their own hands free for grips and attacks. This system excels at off-balancing opponents forward and creating angular attacks that are difficult to defend. The guard integrates seamlessly with other lapel guard systems like Worm Guard and can transition effectively to traditional open guard positions when needed.\n\nWhile technically demanding and primarily applicable in gi competition, the Piranha Guard represents an evolution in modern guard play that emphasizes creative problem-solving and unconventional control methods. It requires significant practice to master the lapel feeding mechanics and timing, but rewards practitioners with a highly effective attacking system that many opponents struggle to counter effectively.",
+
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+
+  "state_invariants": [
+    "Opponent's collar threaded between bottom player's legs, creating direct connection from collar through leg triangle to hips and core",
+    "Bottom player gripping opponent's collar with both hands after it has passed through the legs, establishing dual control points on the gi material",
+    "Bottom player's legs creating barrier and control frame, with feet and shins positioned to manage distance while maintaining collar thread integrity",
+    "Opponent's posture broken forward due to collar tension, with upper body pulled down toward bottom player's hips and shoulders rounded",
+    "Bottom player on back with active hip movement capability, able to shift angles and adjust positioning while maintaining collar control through legs"
+  ],
+
+  "prerequisites": [
+    "Opponent wearing gi with accessible collar",
+    "Bottom player has established open guard connection",
+    "Space and timing to feed collar through legs",
+    "Basic lapel guard understanding and grip fighting skills",
+    "Ability to maintain guard retention during lapel feeding process"
+  ],
+
+  "key_principles": [
+    "Maintain constant tension on collar through legs to prevent opponent from recovering posture or extracting collar",
+    "Use both hands on collar after threading to create compound breaking power and directional control",
+    "Keep legs active and mobile to adjust angles and prevent opponent from clearing the lapel thread",
+    "Break opponent's posture forward aggressively before attempting sweeps or submissions",
+    "Transition smoothly between collar grips and leg positions to maintain control during attacks",
+    "Create off-balancing moments by combining collar pull with hip movement and angular changes",
+    "Protect against opponent's attempts to pass by keeping knees between your body and their advancing position"
+  ],
+
+  "offensive_transitions": [
+    {
+      "technique": "Omoplata Sweep",
+      "target_position": "Omoplata Control",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Triangle Setup",
+      "target_position": "Triangle Control",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Pendulum Sweep",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Collar Drag",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Transition to Omoplata",
+      "target_position": "Omoplata Control",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Flower Sweep",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Armbar from Guard",
+      "target_position": "Armbar Control",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Lasso Guard Sweeps",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    }
+  ],
+
+  "defensive_responses": [
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Knee Slice Position Top",
+      "success_rate": 35
+    },
+    {
+      "technique": "Smash Pass",
+      "target_position": "Smash Pass Position",
+      "success_rate": 30
+    },
+    {
+      "technique": "Long Step Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 25
+    },
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 30
+    },
+    {
+      "technique": "Toreando Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 35
+    },
+    {
+      "technique": "Guard Opening Sequence",
+      "target_position": "Top Open Guard",
+      "success_rate": 40
+    }
+  ],
+
+  "counter_transitions": [
+    {
+      "technique": "Triangle Setup",
+      "target_position": "Triangle Control",
+      "trigger": "Opponent attempts to posture up and pull collar free"
+    },
+    {
+      "technique": "Omoplata Sweep",
+      "target_position": "Omoplata Control",
+      "trigger": "Opponent posts arm to defend sweep attempt"
+    },
+    {
+      "technique": "Collar Drag",
+      "target_position": "Back Control",
+      "trigger": "Opponent steps forward attempting to clear legs"
+    },
+    {
+      "technique": "Pendulum Sweep",
+      "target_position": "Mount",
+      "trigger": "Opponent bases out to one side to prevent initial sweep"
+    }
+  ],
+
+  "decision_tree": [
+    {
+      "condition": "If opponent maintains low posture and grips pants to prevent sweeps",
+      "actions": [
+        {
+          "technique": "Triangle Setup",
+          "target": "Triangle Control",
+          "probability": 55
+        },
+        {
+          "technique": "Omoplata Sweep",
+          "target": "Omoplata Control",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent stands tall attempting to break collar grip and extract lapel",
+      "actions": [
+        {
+          "technique": "Pendulum Sweep",
+          "target": "Mount",
+          "probability": 65
+        },
+        {
+          "technique": "Flower Sweep",
+          "target": "Mount",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts aggressive forward pass clearing legs to one side",
+      "actions": [
+        {
+          "technique": "Collar Drag",
+          "target": "Back Control",
+          "probability": 50
+        },
+        {
+          "technique": "Guard Recovery",
+          "target": "Lasso Guard",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent posts arm while defending sweep or attempting to stabilize base",
+      "actions": [
+        {
+          "technique": "Armbar from Guard",
+          "target": "Armbar Control",
+          "probability": 55
+        },
+        {
+          "technique": "Transition to Omoplata",
+          "target": "Omoplata Control",
+          "probability": 60
+        }
+      ]
+    }
+  ],
+
+  "common_errors": [
+    {
+      "error": "Releasing collar tension while attempting to adjust grips or reposition",
+      "consequence": "Opponent immediately recovers posture and can extract collar from legs, neutralizing entire guard system",
+      "correction": "Maintain constant tension with one hand while adjusting the other, never releasing both grips simultaneously, and keep legs squeezing to hold collar thread"
+    },
+    {
+      "error": "Threading collar too shallow through legs without sufficient depth",
+      "consequence": "Weak control that opponent can easily escape by pulling collar back through, losing primary control mechanism",
+      "correction": "Feed collar deep between legs until significant length passes through, ensuring grip points are far from opponent's body for maximum leverage"
+    },
+    {
+      "error": "Remaining static on back without hip movement or angular adjustments",
+      "consequence": "Opponent can establish stable base and systematically work to clear legs or pass guard",
+      "correction": "Constantly adjust hip angles, move in circles, and create off-balancing moments to keep opponent reactive rather than allowing them to set their pass"
+    },
+    {
+      "error": "Pulling collar straight down without directional or angular control",
+      "consequence": "Opponent can stack weight forward or maintain balance despite collar tension, preventing effective sweeps",
+      "correction": "Pull collar at angles—toward your hip, across your body, or in circles—to create rotational off-balancing that disrupts opponent's structure"
+    },
+    {
+      "error": "Neglecting leg positioning and allowing opponent to control or collapse legs",
+      "consequence": "Opponent can clear the lapel thread by controlling your legs or can establish passing position despite collar control",
+      "correction": "Keep legs active with feet on hips, knees creating frames, and constant readjustment to prevent opponent from controlling your lower body"
+    },
+    {
+      "error": "Attempting attacks without first breaking opponent's posture sufficiently",
+      "consequence": "Sweeps and submissions fail because opponent maintains strong base and can defend with good posture",
+      "correction": "Prioritize breaking posture completely before attacking—pull collar aggressively, use legs to collapse structure, then execute techniques from compromised position"
+    },
+    {
+      "error": "Failing to transition when opponent begins to successfully defend or extract collar",
+      "consequence": "Gets stuck in deteriorating position as opponent escapes Piranha Guard mechanics, leading to pass",
+      "correction": "Recognize early signs of escape and immediately transition to Lasso Guard, Spider Guard, or other open guard systems rather than fighting lost battle"
+    }
+  ],
+
+  "training_drills": [
+    {
+      "name": "Collar Threading Flow Drill",
+      "description": "Partner in combat base. Practice feeding collar through legs from various open guard positions, focusing on speed and efficiency of thread while maintaining guard retention. Reset and repeat from different angles and starting grips.",
+      "duration": "5 minutes"
+    },
+    {
+      "name": "Posture Breaking with Collar Control",
+      "description": "Start with collar already threaded. Partner attempts to maintain good posture while you work collar grips and leg positioning to break them down. Focus on creating maximum breaking power with minimal effort through proper mechanics and angles.",
+      "duration": "3 minutes per person"
+    },
+    {
+      "name": "Sweep Chain from Piranha Guard",
+      "description": "Partner gives progressive resistance. Execute chain of Pendulum Sweep → Flower Sweep → Omoplata Sweep based on opponent's defensive reactions. Develop ability to read defenses and flow between attacks maintaining collar control throughout.",
+      "duration": "5 minutes per person"
+    },
+    {
+      "name": "Piranha Guard Retention vs Pass Attempts",
+      "description": "Partner attempts various guard passes (knee slice, toreando, long step) while you maintain Piranha Guard structure and recover position when compromised. Focus on using collar control to disrupt passing mechanics and create recovery opportunities.",
+      "duration": "3-4 minute rounds"
+    }
+  ],
+
+  "optimal_submission_paths": [
+    {
+      "name": "High-percentage triangle path",
+      "path": "Piranha Guard → Triangle Setup (opponent postures) → Triangle Control → Triangle Choke"
+    },
+    {
+      "name": "Omoplata attack path",
+      "path": "Piranha Guard → Omoplata Sweep (opponent posts arm) → Omoplata Control → Omoplata"
+    },
+    {
+      "name": "Armbar from posted arm",
+      "path": "Piranha Guard → Pendulum Sweep attempt → Armbar from Guard (opponent posts) → Armbar Control → Armbar Finish"
+    },
+    {
+      "name": "Back attack path",
+      "path": "Piranha Guard → Collar Drag (opponent steps forward) → Back Control → Rear Naked Choke"
+    }
+  ],
+
+  "related_content": [
+    {
+      "name": "Lapel Guard",
+      "relationship": "Parent system - Piranha Guard is variation of lapel guard family"
+    },
+    {
+      "name": "Worm Guard",
+      "relationship": "Sister system - shares lapel control principles with different configuration"
+    },
+    {
+      "name": "Spider Guard",
+      "relationship": "Alternative guard - can transition between systems based on opponent's reactions"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Complementary system - similar sweeping mechanics and attack angles"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Primary submission target - natural finish from Piranha Guard attacks"
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "Primary submission target - high-percentage finish when opponent postures"
+    },
+    {
+      "name": "Collar Sleeve Guard Bottom",
+      "relationship": "Transition option - can simplify to collar-sleeve when lapel control lost"
+    },
+    {
+      "name": "Open Guard Bottom",
+      "relationship": "Position category - Piranha Guard is specialized open guard variation"
+    }
+  ],
+
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 40,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "advancement_probability": {
+      "beginner": 35,
+      "intermediate": 55,
+      "advanced": 70
+    },
+    "submission_probability": {
+      "beginner": 20,
+      "intermediate": 40,
+      "advanced": 55
+    },
+    "average_time": "30-90 seconds"
+  },
+
+  "expert_insights": {
+    "danaher": "The Piranha Guard represents an excellent example of how modern guard development has expanded the tactical options available to bottom players through creative use of the gi. The mechanical advantage created by threading the collar through the legs fundamentally changes the geometry of posture breaking—what would normally require significant strength becomes a matter of leverage and angles. The key systematic principle is understanding that the collar thread creates a pulley-like mechanism where your legs act as the fulcrum, allowing relatively small pulling forces to generate large breaking effects on the opponent's posture. When teaching this position, I emphasize the importance of maintaining what I call 'constant collar tension'—the thread must never go slack, as this is your primary control mechanism. The position works because it attacks the opponent's structure at multiple points simultaneously: their collar controls their head and shoulders, while your legs control distance and create barriers to passing. This multi-point control system is what makes the position so effective despite its apparent complexity.",
+    "gordon_ryan": "In high-level competition, Piranha Guard is one of those positions that can really frustrate opponents who haven't specifically trained against it. I've used variations of this system to set up omoplatas and triangles when guys try to stand and break my guard aggressively. The beauty of it is that the harder they pull trying to get their collar back, the more they break their own posture, which sets up your attacks perfectly. The key to making this work in competition is being extremely fast with the collar feed—you need to thread that lapel in one smooth motion when the opportunity presents itself, because if you're slow, good passers will shut it down immediately. Once you have it locked in though, you're in a great position to attack because their defensive options become very limited. I specifically like using the pendulum sweep when they try to stand up tall, and the triangle when they lean forward trying to control my legs. Don't overcomplicate it—collar tension, broken posture, and aggressive attacking mentality will get you most of your sweeps and submissions from here.",
+    "eddie_bravo": "Piranha Guard is exactly the kind of creative, outside-the-box thinking that keeps jiu-jitsu evolving and keeps it interesting. This is pure innovation—someone looked at the gi and figured out a completely new way to use it that traditional players never thought of. What I love about this position is that it completely messes with people's expectations and their trained responses. Most players have thousands of reps dealing with standard open guard positions, but when you thread that collar through your legs, suddenly they're in unfamiliar territory and their usual solutions don't work. The psychological aspect is huge—people get frustrated and make mistakes when they can't solve a position quickly. From a 10th Planet perspective, while we don't use the gi, the underlying principle of creating unconventional control mechanisms that disrupt opponent's trained responses is something we apply in no-gi with different tools. The innovation here is recognizing that you can turn the gi into additional limbs for control. If I were teaching this, I'd emphasize the creativity aspect and encourage students to experiment with their own variations and combinations rather than just copying exactly what they've seen—that's how new techniques and entire systems get developed."
+  }
+}
+{
+  "metadata": {
+    "title": "Piranha Guard Top | BJJ Position Guide | BJJ Graph",
+    "description": "Master Piranha Guard Top in BJJ. Complete guide covering passing strategies, pressure application, and control methods. Dominant passing position with 65% pass success.",
+    "state_id": "S382",
+    "tags": ["bjj", "position", "guard-passing", "top-position", "piranha-guard", "pressure-passing", "gi", "advanced"],
+    "parent_variant": "Piranha Guard",
+    "sibling_variants": ["Piranha Guard Bottom"]
+  },
+
+  "overview": "Piranha Guard Top represents the passing position against the Piranha Guard, a lapel-based open guard variation where the bottom player uses lapel grips to control distance and create attacking opportunities. From the top position, the practitioner faces a complex web of lapel controls and must navigate carefully to avoid sweeps and submissions while maintaining posture and working toward guard passing opportunities.\n\nThe Piranha Guard Top position requires excellent grip fighting skills, strong base maintenance, and an understanding of how to neutralize lapel-based guards. The top player must simultaneously defend against sweeps, maintain proper posture to avoid chokes, and systematically work to pass the guard. Success in this position comes from controlling the pace, breaking down the lapel grips methodically, and choosing the right moment to initiate passing sequences. This position is particularly common in gi competition at advanced levels where lapel guards have become increasingly prevalent in modern Brazilian Jiu-Jitsu.",
+
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium to Long"
+  },
+
+  "state_invariants": [
+    "Top player maintains standing or combat base posture with hands engaged in grip fighting against the bottom player's lapel controls, preventing full extension of lapel wraps around the body or neck",
+    "Bottom player is on their back with at least one leg extended or creating frames using the lapel configuration, with the lapel wrapped around their own leg or the top player's body to create control points",
+    "Top player's weight distribution is centered over their base with hips positioned away from the bottom player's immediate control, maintaining distance management to avoid being pulled into disadvantageous positions",
+    "Lapel is actively being controlled by the bottom player in some configuration around legs, arms, or torso, creating a web of control that limits the top player's movement options",
+    "Top player maintains head position above the bottom player's hip line to prevent choke entries while keeping arms actively defending against lapel manipulation"
+  ],
+
+  "prerequisites": [
+    "Bottom player has established Piranha Guard with lapel configuration",
+    "Top player is standing or in combat base position",
+    "Lapel grips have been established by bottom player",
+    "Top player must be aware of lapel-based threats",
+    "Proper grip fighting fundamentals understood"
+  ],
+
+  "key_principles": [
+    "Maintain strong upright posture to prevent lapel chokes and maintain balance against sweeps",
+    "Control the pace of engagement by managing distance and preventing bottom player from fully extending their lapel web",
+    "Systematically break down lapel grips starting with the most dangerous controls first (neck/back controls before leg controls)",
+    "Keep hands active in grip fighting to prevent bottom player from reinforcing or improving their lapel configuration",
+    "Maintain base width and weight distribution to defend against off-balancing attempts and sweep entries",
+    "Create pressure and forward movement when opportunities arise while protecting against counter-attacks",
+    "Use strategic grips on pants and belt to anchor position and limit bottom player's mobility"
+  ],
+
+  "offensive_transitions": [
+    {
+      "technique": "Toreando Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Long Step Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Leg Drag Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Pressure Pass",
+      "target_position": "Half Guard Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "X Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    }
+  ],
+
+  "defensive_responses": [
+    {
+      "technique": "Piranha Sweep",
+      "target_position": "Piranha Guard Top",
+      "success_rate": 40
+    },
+    {
+      "technique": "Triangle Setup",
+      "target_position": "Triangle Control Bottom",
+      "success_rate": 30
+    },
+    {
+      "technique": "Omoplata Setup",
+      "target_position": "Omoplata Control Bottom",
+      "success_rate": 25
+    },
+    {
+      "technique": "Lapel Choke Entry",
+      "target_position": "Guillotine Control Bottom",
+      "success_rate": 20
+    }
+  ],
+
+  "counter_transitions": [
+    {
+      "technique": "Grip Break to Toreando",
+      "target_position": "Side Control Top",
+      "trigger": "Bottom player attempts to reinforce lapel grips"
+    },
+    {
+      "technique": "Smash Pass",
+      "target_position": "Half Guard Top",
+      "trigger": "Bottom player commits weight forward for sweep attempt"
+    },
+    {
+      "technique": "Backstep to Leg Drag",
+      "target_position": "Side Control Top",
+      "trigger": "Bottom player extends leg for off-balancing"
+    },
+    {
+      "technique": "Knee Cut Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Bottom player loses lapel grip control"
+    }
+  ],
+
+  "decision_tree": [
+    {
+      "condition": "If bottom player has lapel wrapped around your neck or back",
+      "actions": [
+        {
+          "technique": "Immediate Lapel Strip",
+          "target": "Combat Base",
+          "probability": 70
+        },
+        {
+          "technique": "Posture Recovery",
+          "target": "Piranha Guard Top",
+          "probability": 85
+        }
+      ]
+    },
+    {
+      "condition": "If bottom player has single lapel around own leg only",
+      "actions": [
+        {
+          "technique": "Toreando Pass",
+          "target": "Side Control Top",
+          "probability": 65
+        },
+        {
+          "technique": "Long Step Pass",
+          "target": "Side Control Top",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If bottom player is off-balancing with lapel grips",
+      "actions": [
+        {
+          "technique": "Base Widening",
+          "target": "Combat Base",
+          "probability": 75
+        },
+        {
+          "technique": "Smash Pass",
+          "target": "Half Guard Top",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If bottom player has weak or broken lapel configuration",
+      "actions": [
+        {
+          "technique": "Knee Slice Pass",
+          "target": "Side Control Top",
+          "probability": 70
+        },
+        {
+          "technique": "Pressure Pass",
+          "target": "Half Guard Top",
+          "probability": 65
+        }
+      ]
+    }
+  ],
+
+  "common_errors": [
+    {
+      "error": "Ignoring lapel wrapped around neck or shoulders",
+      "consequence": "Exposes top player to lapel choke finishes and loss of posture control",
+      "correction": "Immediately strip lapel from neck area before attempting any passing sequences, treating neck control as highest priority threat"
+    },
+    {
+      "error": "Standing too upright with narrow base",
+      "consequence": "Makes top player vulnerable to off-balancing sweeps using lapel leverage",
+      "correction": "Maintain wide athletic stance with bent knees and low center of gravity, keeping base wider than shoulder width"
+    },
+    {
+      "error": "Gripping the lapel that is already controlled by bottom player",
+      "consequence": "Creates tension that allows bottom player to use lapel as lever for sweeps and positional improvements",
+      "correction": "Focus grips on pants, belt, or free lapel while systematically breaking down controlled lapel grips"
+    },
+    {
+      "error": "Rushing forward into passing attempts without clearing lapel grips",
+      "consequence": "Bottom player can use forward momentum against top player to execute sweeps or transition to submissions",
+      "correction": "Methodically clear dangerous lapel configurations before committing weight forward, working grip breaks systematically"
+    },
+    {
+      "error": "Allowing bottom player to reinforce lapel grips without contest",
+      "consequence": "Gives bottom player time to improve position and set up more complex lapel configurations",
+      "correction": "Maintain constant pressure on bottom player's grips through active hand fighting and grip stripping"
+    },
+    {
+      "error": "Keeping hands static on initial grips",
+      "consequence": "Bottom player can predict movement and set traps using lapel configurations",
+      "correction": "Keep hands moving and grip fighting actively, changing grip targets to disrupt bottom player's timing"
+    }
+  ],
+
+  "training_drills": [
+    {
+      "name": "Lapel Strip Progression Drill",
+      "description": "Partner establishes various lapel configurations while top player practices systematic grip breaking and posture recovery. Start with single lapel around leg, progress to double lapel configurations, and finish with neck/back wraps. Focus on efficient movement patterns and maintaining base throughout.",
+      "duration": "5 minutes per configuration"
+    },
+    {
+      "name": "Dynamic Base Maintenance Against Off-Balancing",
+      "description": "Bottom player uses lapel grips to create off-balancing pressure in multiple directions while top player maintains base and posture. Top player practices weight shifting, base widening, and recovery movements without losing structural integrity. Emphasize staying calm under pressure.",
+      "duration": "4 minutes per round"
+    },
+    {
+      "name": "Passing Windows Recognition Drill",
+      "description": "Bottom player alternates between strong and weak lapel configurations. Top player must recognize passing opportunities when grips are broken or weak, immediately transitioning to appropriate passing technique. Develop timing and decision-making skills for recognizing optimal passing moments.",
+      "duration": "6 minutes continuous flow"
+    },
+    {
+      "name": "Progressive Resistance Passing",
+      "description": "Start with bottom player using 50% resistance with lapel grips. Top player works through complete passing sequences while managing lapel threats. Gradually increase resistance to 75% and then 100% over multiple rounds. Build confidence in passing methodology against realistic resistance.",
+      "duration": "3 rounds of 5 minutes with increasing resistance"
+    }
+  ],
+
+  "optimal_submission_paths": [
+    {
+      "name": "Shortest path to control",
+      "path": "Piranha Guard Top → Toreando Pass → Side Control Top → Mount Top → Armbar from Mount"
+    },
+    {
+      "name": "High-percentage pressure path",
+      "path": "Piranha Guard Top → Pressure Pass → Half Guard Top → Crossface Pass → Side Control Top → Kimura from Side Control"
+    },
+    {
+      "name": "Leg drag control path",
+      "path": "Piranha Guard Top → Leg Drag Pass → Side Control Top → Transition to Mount → Triangle from Mount"
+    },
+    {
+      "name": "Stack passing path",
+      "path": "Piranha Guard Top → Stack Pass → Side Control Top → North-South Top → North-South Choke"
+    }
+  ],
+
+  "related_content": [
+    {
+      "name": "Piranha Guard Bottom",
+      "relationship": "Complementary bottom position"
+    },
+    {
+      "name": "Lasso Guard Top",
+      "relationship": "Similar lapel-based guard passing position"
+    },
+    {
+      "name": "Worm Guard Top",
+      "relationship": "Related lapel guard passing scenario"
+    },
+    {
+      "name": "Spider Guard Top",
+      "relationship": "Similar guard passing concepts"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Common transitional position for posture recovery"
+    },
+    {
+      "name": "Toreando Pass",
+      "relationship": "Primary passing technique"
+    },
+    {
+      "name": "Grip Fighting",
+      "relationship": "Essential concept for managing lapel controls"
+    },
+    {
+      "name": "Guard Passing Principles",
+      "relationship": "Fundamental concepts applied to this position"
+    },
+    {
+      "name": "Pressure Passing",
+      "relationship": "Alternative passing strategy"
+    },
+    {
+      "name": "Base Maintenance",
+      "relationship": "Critical concept for defending sweeps"
+    }
+  ],
+
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 40,
+      "intermediate": 55,
+      "advanced": 70
+    },
+    "advancement_probability": {
+      "beginner": 35,
+      "intermediate": 50,
+      "advanced": 65
+    },
+    "submission_probability": {
+      "beginner": 5,
+      "intermediate": 10,
+      "advanced": 15
+    },
+    "average_time": "45-90 seconds"
+  },
+
+  "expert_insights": {
+    "danaher": "The Piranha Guard represents an evolution in lapel-based guard systems that requires the top player to understand the hierarchical threat structure inherent in lapel configurations. The most dangerous lapel positions are those that compromise the neck and back, as these create immediate submission threats and positional control. When facing this guard, your primary objective must be systematic threat reduction - first eliminate neck wraps, then back controls, then leg entanglements. The biomechanical principle at work is that the lapel creates extension points beyond the normal reach of the bottom player's limbs, effectively giving them longer levers for control. To counter this, you must close the distance these extensions create while simultaneously maintaining the base width necessary to defend against leverage-based sweeps. Your passing strategy should exploit the fundamental weakness of all lapel guards: they require the bottom player to maintain grip integrity on a piece of cloth that can be stripped with proper technique. Focus on grip breaking methodology that addresses the specific hand configurations used in Piranha Guard, and time your passing entries for the moments immediately following successful grip breaks when the bottom player is reorganizing their defensive structure.",
+    "gordon_ryan": "From competition experience, the Piranha Guard is most dangerous when you give the bottom player time to fully establish their lapel web and set their grips. My approach is aggressive grip fighting from the moment I recognize the guard configuration - I'm immediately working to strip lapel grips and prevent them from completing their setup. The key is understanding that most competitors using Piranha Guard have specific sweep and submission sequences they're trying to hit, and these all require certain lapel configurations to be in place. If you can disrupt their grip pattern before they complete it, you take away their entire attacking system. When I pass lapel guards, I'm looking for the toreando or long step pass because these capitalize on the bottom player's extended leg position which is necessary for their lapel configuration. The moment I break a critical grip, I'm immediately moving to pass - there's no waiting, no reorganizing my own grips. Speed is crucial here because good Piranha Guard players can reestablish their controls very quickly. Also, I always protect my neck first, even if it means giving up other grips. A lapel choke finish is way more dangerous than a sweep, so prioritize your defensive hierarchy correctly.",
+    "eddie_bravo": "The Piranha Guard is a perfect example of the innovation happening in modern gi jiu-jitsu, using the uniform as an extension of your body to create control. When you're on top, you've got to respect the creativity of the position but not be paralyzed by it. My approach is to stay super active with my hands, never letting them get comfortable with their lapel configuration. One thing people miss is that you can use your own lapel against their grips - if they're holding your lapel, you can sometimes use that connection to control their posture and set up your passing. The real key though is understanding the rhythm of lapel guards. There's a moment right after they establish a grip where they're transitioning to the next part of their setup - that's your window to explode into your pass. Don't try to methodically break down every grip like you've got all day. Hit them with movement, change levels, make them react to you instead of you reacting to their lapel web. And if you're training no-gi like we do at 10th Planet, study these gi positions anyway because the concepts of distance management and grip fighting translate directly to no-gi control positions. The lapel is just a tool - the real battle is about controlling distance and breaking your opponent's structural integrity."
+  }
+}

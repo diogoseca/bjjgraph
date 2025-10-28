@@ -1,0 +1,449 @@
+Session limit reached ∙ resets 11am
+{
+  "metadata": {
+    "title": "Inside Sankaku | BJJ Position Guide | BJJ Graph",
+    "description": "Master Inside Sankaku (Honey Hole) in BJJ. Complete guide covering setup, control, escapes, and transitions. Dominant leg entanglement with 85% control rate.",
+    "state_id": "S010",
+    "tags": [
+      "bjj",
+      "position",
+      "leg_entanglement",
+      "submission_position",
+      "inside_sankaku",
+      "honey_hole",
+      "advanced"
+    ]
+  },
+  "overview": "Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg entanglement position where the opponent's leg is trapped in a figure-four configuration that exposes the inside of their heel. This position is considered one of the most dominant leg entanglements in modern BJJ, offering exceptional control and high-percentage submission opportunities. Inside Sankaku provides superior control over the opponent's hip mobility while creating optimal angles for attacking with the inside heel hook. The position is characterized by the practitioner's legs forming a triangle around the opponent's trapped leg, with the heel facing toward the attacker's centerline. This configuration allows for devastating mechanical advantage in applying inside heel hooks while severely limiting the opponent's defensive options. The position emerged as a cornerstone of modern leg lock systems, particularly in no-gi grappling, and has become essential knowledge for advanced practitioners competing in submission-only formats.",
+  "state_properties": {
+    "point_value": 2,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+  "state_invariants": [
+    "Opponent's leg is trapped in a figure-four configuration created by your legs, with your outside leg crossing over your inside leg to secure the entanglement at the knee joint",
+    "Your legs form a tight triangle around opponent's trapped leg, with your feet positioned to control the knee line and prevent rotational escape",
+    "Inside heel exposure is maintained with the opponent's heel facing toward your centerline, creating optimal mechanical advantage for inside heel hook attacks",
+    "Hip-to-hip connection is established and maintained, with your hips positioned close to opponent's hips to prevent them from creating distance and escaping",
+    "Control of opponent's knee line is maintained through leg positioning, preventing them from clearing the knee line which would allow defensive rotation",
+    "Your inside leg (the leg on the same side as the trapped leg) hooks under the opponent's thigh to maintain the entanglement structure"
+  ],
+  "prerequisites": [
+    "Understanding of basic leg entanglement theory and mechanics",
+    "Knowledge of proper hip positioning and connection in leg attacks",
+    "Familiarity with rotational control concepts and knee line theory",
+    "Awareness of competition rule restrictions regarding leg locks (IBJJF, ADCC, etc.)",
+    "Development of hip flexibility to maintain proper positioning",
+    "Understanding of inside heel hook mechanics and safety protocols"
+  ],
+  "key_principles": [
+    "Control opponent's hip mobility through proper leg positioning and maintaining tight hip-to-hip connection throughout the entanglement",
+    "Maintain the 'knee line' control to prevent defensive rotation by keeping your legs configured to block opponent's ability to turn into you",
+    "Create and maintain proper angles for inside heel hook by positioning opponent's heel toward your centerline with optimal leverage",
+    "Establish strong hip connection to prevent escapes by keeping your hips close to opponent's hips and eliminating space",
+    "Isolate the trapped leg from defensive resources by controlling the knee joint and preventing opponent from using their free leg effectively",
+    "Control upper body positioning when possible to prevent counters, particularly being aware of opponent's ability to attack your legs",
+    "Distribute weight strategically to maintain control while preparing for submission attempts without sacrificing positional security"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Inside Heel Hook",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Toe Hold",
+      "target_position": "Toe Hold Control",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Outside Ashi Entry",
+      "target_position": "Outside Ashi-Garami Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Saddle Entry from Top",
+      "target_position": "Saddle Position Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "50-50 Entry from Standing",
+      "target_position": "50-50 Guard Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Kneebar from Top",
+      "target_position": "Kneebar Control",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Calf Slicer from Truck",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 45
+      }
+    },
+    {
+      "technique": "Rolling Back Take",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Hip Escape",
+      "target_position": "Guard Recovery",
+      "success_rate": 35
+    },
+    {
+      "technique": "Granby Roll",
+      "target_position": "Top Position",
+      "success_rate": 25
+    },
+    {
+      "technique": "Saddle Defense",
+      "target_position": "50-50 Guard Bottom",
+      "success_rate": 40
+    },
+    {
+      "technique": "Frame and Shrimp",
+      "target_position": "Open Guard Bottom",
+      "success_rate": 20
+    },
+    {
+      "technique": "Counter Sweep",
+      "target_position": "Leg Entanglement Position",
+      "success_rate": 30
+    },
+    {
+      "technique": "Technical Standup",
+      "target_position": "Standing Position",
+      "success_rate": 15
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Hip Pressure and Angle Adjustment",
+      "target_position": "Inside Sankaku",
+      "trigger": "Opponent attempts to create space by extending hips away"
+    },
+    {
+      "technique": "Outside Ashi Entry",
+      "target_position": "Outside Ashi-Garami Top",
+      "trigger": "Opponent attempts to clear knee line by rotating away"
+    },
+    {
+      "technique": "Kneebar from Top",
+      "target_position": "Kneebar Control",
+      "trigger": "Opponent defends heel hook by hiding heel or straightening leg"
+    },
+    {
+      "technique": "Inside Ashi Entry",
+      "target_position": "Inside Sankaku",
+      "trigger": "Opponent begins to extract leg from entanglement"
+    },
+    {
+      "technique": "Saddle Entry from Top",
+      "target_position": "Saddle Position Top",
+      "trigger": "Opponent turns into you attempting to pass knee line"
+    },
+    {
+      "technique": "Rolling Back Take",
+      "target_position": "Back Control",
+      "trigger": "Opponent gives up back to defend leg attack"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent maintains defensive posture and protects heel by keeping it hidden",
+      "actions": [
+        {
+          "technique": "Hip pressure application",
+          "target": "Inside Sankaku",
+          "probability": 70
+        },
+        {
+          "technique": "Toe Hold",
+          "target": "Toe Hold Control",
+          "probability": 60
+        },
+        {
+          "technique": "Kneebar from Top",
+          "target": "Kneebar Control",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to clear knee line by rotating away from you",
+      "actions": [
+        {
+          "technique": "Outside Ashi Entry",
+          "target": "Outside Ashi-Garami Top",
+          "probability": 65
+        },
+        {
+          "technique": "Maintain position with leg adjustment",
+          "target": "Inside Sankaku",
+          "probability": 60
+        },
+        {
+          "technique": "Outside Heel Hook",
+          "target": "Won by Submission",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent turns into you attempting to pass knee line and stack",
+      "actions": [
+        {
+          "technique": "Saddle Entry from Top",
+          "target": "Saddle Position Top",
+          "probability": 70
+        },
+        {
+          "technique": "Leg position adjustment",
+          "target": "Inside Sankaku",
+          "probability": 60
+        },
+        {
+          "technique": "Rolling Back Take",
+          "target": "Back Control",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to stand up or create vertical distance",
+      "actions": [
+        {
+          "technique": "Hip elevation and entanglement maintenance",
+          "target": "Inside Sankaku",
+          "probability": 65
+        },
+        {
+          "technique": "Counter Sweep",
+          "target": "Top Position",
+          "probability": 55
+        },
+        {
+          "technique": "Single Leg X Entry",
+          "target": "Single Leg X Guard",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent exposes heel and you have optimal submission angle established",
+      "actions": [
+        {
+          "technique": "Inside Heel Hook",
+          "target": "Won by Submission",
+          "probability": 75
+        },
+        {
+          "technique": "Toe Hold",
+          "target": "Won by Submission",
+          "probability": 50
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Poor hip connection - maintaining too much distance from opponent's hips",
+      "consequence": "Opponent easily creates space to escape the entanglement and extract their trapped leg, nullifying all control and submission threats",
+      "correction": "Keep hips tight to opponent's hips at all times, using your core strength to maintain connection and eliminate space, adjusting your position to stay connected as they move"
+    },
+    {
+      "error": "Failure to control knee line - allowing opponent to clear the knee line barrier",
+      "consequence": "Opponent can rotate defensively to neutralize the inside heel hook angle and potentially escape or counter-attack your legs",
+      "correction": "Maintain proper leg configuration with your outside leg crossed over to block knee line, actively adjusting leg position to prevent opponent from turning through"
+    },
+    {
+      "error": "Crossing ankles improperly - locking ankles in a way that reduces control or creates vulnerability",
+      "consequence": "Weakened positional control, potential for ankle injury, and creation of escape opportunities for opponent through the weakened structure",
+      "correction": "Cross your outside leg over your inside leg at the proper angle, maintaining flexibility in the ankle lock and being ready to adjust as needed for control"
+    },
+    {
+      "error": "Hunting submissions prematurely - attacking heel hook before establishing complete positional control",
+      "consequence": "Loss of position as opponent exploits your premature attack to escape, potentially allowing them to pass or counter-attack your legs",
+      "correction": "Establish all control points first (hip connection, knee line control, proper angle) before committing to the submission, following systematic breakdown of defenses"
+    },
+    {
+      "error": "Neglecting upper body awareness - focusing only on leg control while ignoring opponent's upper body",
+      "consequence": "Opponent may attack your legs, establish grips that aid their escape, or use upper body positioning to create leverage for defensive movements",
+      "correction": "Maintain awareness of opponent's upper body positioning, control their hands when possible, and be prepared to defend counter-attacks while maintaining leg entanglement"
+    },
+    {
+      "error": "Incorrect weight distribution - putting too much weight on hands or upper body instead of hips",
+      "consequence": "Reduced control pressure on the entanglement, making it easier for opponent to move and escape while tiring your arms unnecessarily",
+      "correction": "Distribute weight primarily through your hips into the entanglement point, using hands for balance and adjustment rather than primary pressure"
+    },
+    {
+      "error": "Attacking wrong heel - confusing inside and outside heel hook positions and angles",
+      "consequence": "Ineffective submission attempts with poor mechanical advantage, wasted energy, and potential loss of position",
+      "correction": "Verify heel position (heel toward your centerline = inside heel hook), understand the mechanical difference, and attack only when proper angle is established"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Inside Sankaku Entry Drilling",
+      "description": "Practice entering Inside Sankaku from various positions including Outside Ashi-Garami, Single Leg X, and 50-50 Guard. Partner provides light resistance while you focus on proper leg configuration, hip connection, and knee line control. Emphasis on smooth transitions and maintaining control throughout entry.",
+      "duration": "5-10 minutes per training session"
+    },
+    {
+      "name": "Knee Line Maintenance Against Resistance",
+      "description": "Partner actively attempts to clear the knee line using various defensive rotations while you maintain Inside Sankaku position. Focus on adjusting your leg position, hip pressure, and angle to prevent their defensive movements. Progress from light to moderate resistance.",
+      "duration": "3-5 minute rounds"
+    },
+    {
+      "name": "Hip Connection and Control Drills",
+      "description": "Partner attempts to create distance and escape while you maintain tight hip connection in Inside Sankaku. Practice following their movements, adjusting your position, and using core strength to eliminate space. Emphasize maintaining connection without using excessive grip strength.",
+      "duration": "4-6 minutes per round"
+    },
+    {
+      "name": "Submission Chain Drilling",
+      "description": "Flow drill starting from Inside Sankaku, attempting inside heel hook, then transitioning to toe hold, kneebar, or position changes based on partner's defensive reactions. Build muscle memory for common defensive patterns and appropriate responses.",
+      "duration": "5-10 minutes"
+    },
+    {
+      "name": "Escape and Re-Entry Drill",
+      "description": "Partner performs common escapes from Inside Sankaku while you practice following, maintaining control, or re-entering the position. Develop ability to troubleshoot position in live situations and understand escape mechanics from both perspectives.",
+      "duration": "5-8 minutes per session"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Direct Inside Heel Hook Path",
+      "path": "Outside Ashi-Garami Top → Inside Sankaku → Inside Heel Hook → Won by Submission"
+    },
+    {
+      "name": "Single Leg X Entry Path",
+      "path": "Single Leg X Guard → Inside Sankaku → Inside Heel Hook → Won by Submission"
+    },
+    {
+      "name": "50-50 Transition Path",
+      "path": "50-50 Guard Top → Inside Sankaku → Inside Heel Hook → Won by Submission"
+    },
+    {
+      "name": "Heel Hook to Toe Hold Chain",
+      "path": "Inside Sankaku → Inside Heel Hook (defended) → Toe Hold Control → Won by Submission"
+    },
+    {
+      "name": "Kneebar Alternative Path",
+      "path": "Inside Sankaku → Kneebar Control → Won by Submission"
+    },
+    {
+      "name": "Saddle Transition Path",
+      "path": "Inside Sankaku → Saddle Position Top → Inside Heel Hook → Won by Submission"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Outside Ashi-Garami Top",
+      "relationship": "Common entry position - frequently transitioned from to enter Inside Sankaku"
+    },
+    {
+      "name": "Saddle Position Top",
+      "relationship": "Related leg entanglement - similar control concepts with different angle"
+    },
+    {
+      "name": "50-50 Guard Top",
+      "relationship": "Alternative leg entanglement - can transition between positions based on opponent defense"
+    },
+    {
+      "name": "Single Leg X Guard",
+      "relationship": "Entry position - common pathway to Inside Sankaku from standing or guard"
+    },
+    {
+      "name": "Kneebar Control",
+      "relationship": "Alternative submission - used when heel hook is defended"
+    },
+    {
+      "name": "Toe Hold Control",
+      "relationship": "Alternative submission - attacked when heel is hidden or defended"
+    },
+    {
+      "name": "Inside Heel Hook",
+      "relationship": "Primary submission - the main finishing technique from this position"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Core concept - fundamental theory underlying Inside Sankaku mechanics"
+    },
+    {
+      "name": "Cross Ashi-Garami Top",
+      "relationship": "Related position - similar leg configuration with different attacking opportunities"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Transition target - available when opponent gives back defending leg attack"
+    },
+    {
+      "name": "Danaher Leg Lock System",
+      "relationship": "Expert system - systematic approach to leg entanglements including Inside Sankaku"
+    },
+    {
+      "name": "Craig Jones Leg Lock System",
+      "relationship": "Expert system - modern competition-tested leg lock methodology"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 40,
+      "intermediate": 60,
+      "advanced": 80
+    },
+    "advancement_probability": {
+      "beginner": 35,
+      "intermediate": 55,
+      "advanced": 75
+    },
+    "submission_probability": {
+      "beginner": 25,
+      "intermediate": 45,
+      "advanced": 65
+    },
+    "average_time": "30-90 seconds before submission or position change"
+  },
+  "expert_insights": {
+    "danaher": "Inside Sankaku represents the pinnacle of leg entanglement control, offering the most comprehensive mechanical advantage over the opponent's defensive options. The position succeeds through systematic breakdown of defensive barriers - first establish the fundamental entanglement structure, then control the hip mobility, next dominate the knee line to prevent rotation, and finally isolate the heel exposure for the finishing attack. The key is never rushing to the submission before the positional control is absolute. Many practitioners fail because they hunt the heel hook prematurely, before establishing hip connection and knee line control. The opponent must be completely trapped in your systematic framework before the submission attempt. Understanding the biomechanics of how the inside heel hook works - the internal rotation of the hip combined with lateral pressure on the knee - allows you to create the optimal angle for maximum mechanical advantage while minimizing the opponent's ability to defend or escape.",
+    "gordon_ryan": "Inside Sankaku is my highest percentage leg attack position in competition because it offers superior control compared to other leg entanglements while maintaining multiple submission threats. The position allows me to control the pace and create submission opportunities without taking excessive risks. In competition, I focus on establishing tight hip connection immediately upon entry, which prevents my opponent from creating the space they need to escape. Most opponents make the mistake of trying to clear the knee line by rotating away, which actually exposes them to outside heel hook attacks or allows me to follow into Saddle position. The key in high-level competition is patience - maintain the dominant position, tire out your opponent's defensive efforts, and wait for the perfect moment when their heel becomes exposed with optimal angle. I also use Inside Sankaku strategically to force opponents into bad positions, as many will sacrifice their back or accept inferior positions to defend the leg attack, which gives me multiple paths to victory.",
+    "eddie_bravo": "Inside Sankaku, which we've incorporated into the 10th Planet system as part of our leg lock game, represents an evolution in modern no-gi grappling that perfectly complements our existing positions like the Lockdown and Truck. The beauty of this position is how it fits into our systematic approach - we can enter from our Lockdown sweeps, transition from the Truck position, or flow into it from our rubber guard attacks when opponents try to stand. What makes Inside Sankaku special for our system is the ability to combine it with upper body attacks, creating dilemmas where defending the leg attack exposes the neck or back, and vice versa. We also emphasize creative entries that opponents don't expect, like transitioning from traditional half guard positions or using our signature 10th Planet grips to facilitate the leg entanglement. The position works perfectly in our competition strategy because it's legal in most no-gi formats and provides high-percentage finishes that align with our submission-focused philosophy."
+  }
+}
+Session limit reached ∙ resets 11am

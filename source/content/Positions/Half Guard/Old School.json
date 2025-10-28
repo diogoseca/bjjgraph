@@ -1,0 +1,1045 @@
+{
+  "metadata": {
+    "title": "Old School Bottom Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master Old School Bottom position in BJJ half guard. Classic Eddie Bravo sweep with 60% success rate. Control opponent's head and arm for powerful sweep to mount or back.",
+    "state_id": "S186",
+    "tags": ["bjj", "position", "half-guard", "old-school", "10th-planet", "bottom", "sweep", "lockdown"],
+    "parent_variant": "Old School Position",
+    "sibling_variants": ["Old School Top Position"]
+  },
+  
+  "overview": "Old School Bottom Position is a classical half guard bottom position made famous by Eddie Bravo and the 10th Planet system. From half guard bottom with lockdown control, the practitioner secures a deep underhook on one side while controlling the opponent's head with the opposite arm, creating a powerful sweeping position. This position is characterized by the bottom player's ability to break the opponent's posture down while maintaining lockdown control of their trapped leg, setting up the signature Old School sweep to mount or back control.\n\nThe position represents a fundamental component of the 10th Planet half guard system, offering both offensive sweeping opportunities and defensive frames against passing attempts. The head and arm control combined with lockdown creates a dilemma for the top player: defending the sweep requires posture, but maintaining posture breaks the lockdown control. This position is particularly effective in no-gi grappling where the lockdown's leg entanglement provides superior control compared to traditional gi grips.\n\nOld School Bottom is considered a transitional attacking position rather than a static control position. Practitioners typically enter this position with the specific intent of executing the Old School sweep, using the lockdown to prevent the opponent from establishing a strong base while the underhook and head control create the sweeping lever. Success depends on timing the sweep during the opponent's weight shift and maintaining tight connection throughout the rotation.",
+  
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short to Medium"
+  },
+  
+  "state_invariants": [
+    "Bottom player on their side with one leg trapped between opponent's legs in half guard configuration, with lockdown controlling the trapped leg by hooking opponent's ankle with bottom foot and extending the leg",
+    "Deep underhook established on one side with bottom player's arm threaded under opponent's armpit and hand gripping high on their back or shoulder, creating sweeping leverage",
+    "Head control established with opposite arm wrapping around opponent's head, with hand gripping behind the neck or back of the head, pulling opponent's posture down and forward",
+    "Opponent in top half guard position with one leg trapped, weight distributed forward onto hands and knees, with head and posture broken down toward bottom player's chest",
+    "Bottom player's hips angled toward the underhook side, creating the geometric alignment necessary for the sweeping motion with shoulder positioned under opponent's center of gravity"
+  ],
+  
+  "prerequisites": [
+    "Established half guard bottom position with one opponent's leg trapped between both of bottom player's legs",
+    "Lockdown control secured on trapped leg with bottom foot hooking opponent's ankle and top knee driving into back of their thigh",
+    "Successful underhook established on one side with arm threaded deep under opponent's armpit",
+    "Opponent's posture broken down enough to establish head control with opposite arm",
+    "Bottom player positioned on their side rather than flat on back, creating the angle necessary for sweeping leverage"
+  ],
+  
+  "key_principles": [
+    "Maintain deep underhook with elbow tight to ribs and hand gripping high on opponent's back to maximize sweeping leverage",
+    "Control opponent's head by pulling it down and across toward the underhook side, breaking their posture and preventing defensive posting",
+    "Keep lockdown tight by actively extending the controlling leg while hooking ankle, preventing opponent from extracting their leg or establishing stable base",
+    "Position shoulder under opponent's center of gravity on the underhook side, creating the fulcrum point for the sweeping rotation",
+    "Time the sweep during opponent's forward weight shift or when they attempt to clear the lockdown, capitalizing on their compromised base",
+    "Maintain tight connection between body and opponent throughout the sweep, preventing space that would allow them to recover base or posture",
+    "Drive the sweep in a circular motion from side to mount, using the underhook and head control to guide opponent over while hips drive forward and up"
+  ],
+  
+  "offensive_transitions": [
+    {
+      "technique": "Old School Sweep",
+      "target_position": "Mount Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Old School Sweep",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Lockdown Sweeps",
+      "target_position": "Half Guard Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Electric Chair Submission",
+      "target_position": "Electric Chair Bottom",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Underhook Sweep from Half",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Half Guard to Back Take",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    }
+  ],
+  
+  "defensive_responses": [
+    {
+      "technique": "Half Guard Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 45
+    },
+    {
+      "technique": "Underhook Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 40
+    },
+    {
+      "technique": "Knee Slice from Half",
+      "target_position": "Side Control Top",
+      "success_rate": 50
+    },
+    {
+      "technique": "Lockdown Defense",
+      "target_position": "Half Guard Top",
+      "success_rate": 35
+    }
+  ],
+  
+  "counter_transitions": [
+    {
+      "technique": "Deep Half Entry",
+      "target_position": "Deep Half Guard Bottom",
+      "trigger": "Opponent drives forward to smash and flatten lockdown"
+    },
+    {
+      "technique": "Electric Chair Submission",
+      "target_position": "Electric Chair Bottom",
+      "trigger": "Opponent extends leg to clear lockdown while head is controlled"
+    },
+    {
+      "technique": "Underhook Sweep from Half",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent posts hand on mat to prevent Old School sweep"
+    },
+    {
+      "technique": "Half Guard to Back Take",
+      "target_position": "Back Control Top",
+      "trigger": "Opponent turns away from underhook to defend sweep"
+    }
+  ],
+  
+  "decision_tree": [
+    {
+      "condition": "If opponent maintains low posture and drives weight forward with heavy shoulder pressure",
+      "actions": [
+        {
+          "technique": "Old School Sweep",
+          "target": "Mount Top",
+          "probability": 75
+        },
+        {
+          "technique": "Old School Sweep",
+          "target": "Back Control Top",
+          "probability": 70
+        }
+      ]
+    },
+    {
+      "condition": "If opponent extends their trapped leg to clear the lockdown while maintaining forward pressure",
+      "actions": [
+        {
+          "technique": "Electric Chair Submission",
+          "target": "Electric Chair Bottom",
+          "probability": 60
+        },
+        {
+          "technique": "Deep Half Entry",
+          "target": "Deep Half Guard Bottom",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent posts hand on mat or brings weight back to defend the sweep",
+      "actions": [
+        {
+          "technique": "Half Guard to Back Take",
+          "target": "Back Control Top",
+          "probability": 65
+        },
+        {
+          "technique": "Underhook Sweep from Half",
+          "target": "Side Control Top",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent turns away from underhook or attempts to remove head control",
+      "actions": [
+        {
+          "technique": "Half Guard to Back Take",
+          "target": "Back Control Top",
+          "probability": 70
+        },
+        {
+          "technique": "Lockdown Sweeps",
+          "target": "Half Guard Top",
+          "probability": 50
+        }
+      ]
+    }
+  ],
+  
+  "common_errors": [
+    {
+      "error": "Shallow underhook with elbow away from body",
+      "consequence": "Insufficient sweeping leverage allows opponent to base out and prevent the rotation, resulting in stalled position or loss of underhook",
+      "correction": "Drive underhook deep with elbow tight to ribs, hand gripping high on opponent's back or over shoulder, creating maximum leverage for the sweep"
+    },
+    {
+      "error": "Releasing or loosening head control during sweep attempt",
+      "consequence": "Opponent regains posture and posts hand to prevent sweep, often resulting in loss of position or successful pass",
+      "correction": "Maintain constant pressure pulling head down and across throughout entire sweeping motion, only releasing after achieving top position"
+    },
+    {
+      "error": "Weak or absent lockdown allowing opponent's leg to remain mobile",
+      "consequence": "Opponent establishes stable base with free leg movement, making sweep nearly impossible and increasing vulnerability to passing",
+      "correction": "Actively extend controlling leg while hooking ankle, creating constant tension that immobilizes trapped leg and prevents base establishment"
+    },
+    {
+      "error": "Attempting sweep while flat on back rather than on side",
+      "consequence": "Geometric disadvantage prevents effective leverage, resulting in failed sweep and exposure to smash passing attacks",
+      "correction": "Turn onto side toward underhook, positioning shoulder under opponent's center of gravity to create proper sweeping angle and leverage"
+    },
+    {
+      "error": "Sweeping in linear direction rather than circular rotation",
+      "consequence": "Opponent can step over or post to defend, often resulting in scramble or loss of control during transition",
+      "correction": "Execute sweep in circular arc from side to mount, using underhook and head control to guide opponent's rotation while hips drive up and forward"
+    },
+    {
+      "error": "Creating space between bodies during sweep execution",
+      "consequence": "Opponent escapes rotation or recovers guard, negating sweeping momentum and often resulting in neutral or disadvantageous position",
+      "correction": "Maintain chest-to-chest connection throughout sweep, using underhook and head control to keep opponent's weight on your body during rotation"
+    },
+    {
+      "error": "Timing sweep when opponent has established strong base and posture",
+      "consequence": "Insufficient mechanical advantage to overcome opponent's structural stability, resulting in wasted energy and lost opportunity",
+      "correction": "Wait for opponent's forward weight shift or lockdown clearing attempt, capitalizing on compromised base for high-percentage sweep execution"
+    }
+  ],
+  
+  "training_drills": [
+    {
+      "name": "Old School Entry and Control Drill",
+      "description": "Partner starts in top half guard with neutral posture. Bottom player establishes lockdown, secures underhook, and controls head in proper Old School position. Hold position for 30 seconds maintaining all controls while partner applies moderate resistance. Focus on deep underhook depth, head control tightness, and lockdown extension. Repeat 5 times per side.",
+      "duration": "3 rounds of 5 minutes"
+    },
+    {
+      "name": "Old School Sweep Repetition Drill",
+      "description": "Partner starts in top half guard with broken posture. Bottom player has full Old School position established. Execute Old School sweep in slow motion, focusing on circular sweeping path, maintaining connection, and landing in mount or back control. Partner provides 25% resistance. Perform 10 repetitions per side, gradually increasing speed. Emphasize shoulder positioning under opponent's center of gravity and hip drive during sweep.",
+      "duration": "2 rounds of 6 minutes"
+    },
+    {
+      "name": "Old School Sweep Timing Drill",
+      "description": "Partner starts in top half guard alternating between forward pressure and backward weight shift. Bottom player must recognize optimal timing window (forward weight shift) and execute Old School sweep. Partner provides 50% resistance. Develop recognition of opponent's base vulnerabilities and capitalize on weight distribution changes. Perform 15 sweep attempts per side, focusing on timing rather than force.",
+      "duration": "3 rounds of 5 minutes"
+    },
+    {
+      "name": "Old School to Electric Chair Flow Drill",
+      "description": "Start in Old School position. Partner attempts to clear lockdown by extending trapped leg. Bottom player transitions seamlessly to Electric Chair position, maintaining underhook and head control while rolling under to attack the leg. Flow between Old School sweep attempt and Electric Chair transition based on partner's defensive reactions. Perform 8-10 flow cycles per side.",
+      "duration": "2 rounds of 5 minutes"
+    },
+    {
+      "name": "Old School Positional Sparring",
+      "description": "Start in Old School position with full controls established. Bottom player attempts to execute Old School sweep or transition to other attacks (Electric Chair, back take). Top player attempts to pass or break controls. Reset to Old School position after successful sweep, pass, or submission. Top player provides progressive resistance (50% → 75% → 100%). Focus on maintaining controls under pressure and recognizing high-percentage attack opportunities.",
+      "duration": "5 rounds of 4 minutes"
+    }
+  ],
+  
+  "optimal_submission_paths": [
+    {
+      "name": "Shortest path to submission",
+      "path": "Old School Bottom Position → Electric Chair Bottom → Electric Chair Submission"
+    },
+    {
+      "name": "High-percentage sweep to mount submission path",
+      "path": "Old School Bottom Position → Old School Sweep → Mount Top → Americana from Mount"
+    },
+    {
+      "name": "High-percentage sweep to back submission path",
+      "path": "Old School Bottom Position → Old School Sweep → Back Control Top → Rear Naked Choke"
+    },
+    {
+      "name": "Lockdown control to leg attack path",
+      "path": "Old School Bottom Position → Electric Chair Bottom → Electric Chair Submission → Achilles Lock"
+    },
+    {
+      "name": "Underhook to kimura path",
+      "path": "Old School Bottom Position → Underhook Sweep from Half → Side Control Top → Kimura from Side Control"
+    }
+  ],
+  
+  "related_content": [
+    {
+      "name": "Old School Position",
+      "relationship": "Parent position - generic version without top/bottom specification"
+    },
+    {
+      "name": "Old School Top Position",
+      "relationship": "Sibling variant - opponent's perspective and defensive considerations"
+    },
+    {
+      "name": "Lockdown Position Bottom",
+      "relationship": "Prerequisite position - foundational control before establishing Old School setup"
+    },
+    {
+      "name": "Half Guard Bottom",
+      "relationship": "Parent category - broader positional family"
+    },
+    {
+      "name": "Electric Chair Bottom",
+      "relationship": "Common transition - natural follow-up when opponent defends sweep"
+    },
+    {
+      "name": "Deep Half Guard Bottom",
+      "relationship": "Alternative transition - option when opponent smashes forward"
+    },
+    {
+      "name": "Mount Top",
+      "relationship": "Primary target position - most common sweep destination"
+    },
+    {
+      "name": "Back Control Top",
+      "relationship": "Alternative target position - second sweep destination option"
+    },
+    {
+      "name": "Old School Sweep",
+      "relationship": "Primary technique - signature attack from this position"
+    },
+    {
+      "name": "10th Planet Half Guard Bottom System",
+      "relationship": "System context - part of comprehensive Eddie Bravo half guard system"
+    },
+    {
+      "name": "Lockdown to Electric Chair System",
+      "relationship": "System integration - tactical framework connecting related positions"
+    },
+    {
+      "name": "Underhook Control Position",
+      "relationship": "Similar position - shares underhook control theme with different leg configuration"
+    }
+  ],
+  
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 50,
+      "intermediate": 65,
+      "advanced": 80
+    },
+    "advancement_probability": {
+      "beginner": 40,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "submission_probability": {
+      "beginner": 15,
+      "intermediate": 30,
+      "advanced": 45
+    },
+    "average_time": "20-45 seconds"
+  },
+  
+  "expert_insights": {
+    "danaher": "The Old School position represents a sophisticated mechanical system that exploits fundamental principles of leverage and rotational dynamics. The position's effectiveness derives from the geometric relationship between the underhook's sweeping lever, the head control's posture disruption, and the lockdown's base elimination. When properly configured, these three control points create a mechanical advantage that makes the sweep nearly inevitable during the opponent's forward weight distribution. The critical technical element most practitioners overlook is the precise shoulder positioning under the opponent's center of gravity on the underhook side, which establishes the fulcrum point for rotational force application. The sweep should be conceptualized not as a lifting or pushing action, but rather as a controlled rotation around this shoulder fulcrum, with the underhook and head control guiding the opponent's trajectory while the hips provide the rotational drive. The lockdown's function extends beyond simple leg control; it eliminates the opponent's ability to establish a wide base or post the trapped leg, forcing their weight distribution forward onto the hands and the controlled shoulder, which paradoxically facilitates the very sweep they're trying to prevent.",
+    
+    "gordon_ryan": "Old School is one of those positions that looks simple but requires perfect timing and connection to hit at the highest levels. Against good competitors, you get maybe a three-second window when their weight shifts forward or they try to break your lockdown—that's when you need to execute. The key difference between beginners missing this sweep and advanced guys hitting it consistently is maintaining chest-to-chest contact throughout the entire rotation. Any space and they step over or recover guard. I also see a lot of people trying to muscle the sweep with just the underhook, but the head control is equally important—you need to pull their head down and across to break their sight line and prevent them from seeing where to post. In competition, I prefer this position in no-gi where the lockdown control is superior and there's less opportunity for them to grip fight their way out. The Electric Chair threat when they defend the sweep makes this even more dangerous because you're forcing them into a true dilemma: defend the sweep and expose the leg, or defend the leg and get swept. That's winning BJJ at the highest level—controlling not just their body but their decision-making process.",
+    
+    "eddie_bravo": "Old School is the original gangster of the 10th Planet half guard game, man. This is where the whole lockdown system started—I created this position because I was tired of getting smashed and passed in traditional half guard. The beauty of Old School is it turns half guard from a defensive holding position into an offensive launching pad. People don't realize that the lockdown isn't just controlling their leg, it's cooking them, draining their energy while you're chilling on your side setting up the sweep. The deeper you get that underhook, the easier everything becomes—I want that elbow so far through it's poking out the other side. And the head control is crucial; you're not just holding their head, you're steering the whole sweep with it like a steering wheel. When you hit Old School clean, they're going over whether they want to or not. The position also opens up the whole Electric Chair game, which is my favorite submission from the system. If they stand up to defend the sweep, boom, you're already in position to roll under and attack that leg. That's the 10th Planet philosophy: create positions where every defensive option they choose opens up a different attack. Old School embodies that perfectly—it's not just a sweep, it's a strategic trap that keeps them guessing and you attacking."
+  }
+}
+{
+  "metadata": {
+    "title": "Old School Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master the Old School position in BJJ half guard. Learn the signature 10th Planet sweep with 65% advanced success rate. Complete guide with Eddie Bravo insights.",
+    "state_id": "S096",
+    "tags": ["bjj", "position", "half-guard", "old-school", "10th-planet", "lockdown", "sweep"],
+    "parent_variant": "Half Guard Bottom",
+    "sibling_variants": ["Lockdown Half Guard Bottom", "Deep Half Guard Bottom", "Z-Guard Bottom", "Knee Shield Half Guard Bottom", "Butterfly Half Guard Bottom"]
+  },
+
+  "overview": "The Old School position is a highly effective offensive configuration from half guard bottom, popularized by Eddie Bravo and the 10th Planet Jiu-Jitsu system. From this position, the bottom practitioner controls their opponent's near arm while simultaneously establishing a whipdown grip on the far shoulder, creating a powerful sweeping angle. The position derives its name from being one of the original techniques in Eddie Bravo's no-gi system, predating many of the more complex lockdown-based attacks.\n\nThe Old School represents a fundamental departure from traditional half guard philosophy by creating immediate offensive threats rather than merely preventing the pass. By controlling both the near arm and establishing the whipdown grip, the bottom player generates tremendous leverage to execute the Old School sweep, often catching opponents by surprise with its speed and effectiveness. The position excels in no-gi contexts where traditional gi grips are unavailable, though it remains highly effective in gi competition as well.\n\nStrategically, the Old School serves as both a standalone sweep and an entry point into the broader 10th Planet half guard system. When opponents defend the initial sweep attempt, the bottom player can transition seamlessly into electric chair attacks, dogfight positions, or deep half guard entries. This multi-layered threat makes the Old School position particularly dangerous, as defenders must account for multiple attack vectors simultaneously while being broken down and controlled.",
+
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive",
+    "risk_level": "Low to Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short to Medium"
+  },
+
+  "state_invariants": [
+    "Bottom player controls opponent's near arm (same side as their bottom leg) with an overhook or underhook grip, preventing posting and base recovery",
+    "Bottom player establishes whipdown grip on opponent's far shoulder or lat muscle, creating downward pulling leverage toward their legs",
+    "Bottom player's bottom leg is positioned between opponent's legs in half guard configuration, with the knee creating inward pressure against opponent's hip",
+    "Bottom player's top leg is free and mobile, often with the foot on the mat or hooking opponent's far leg to assist with the sweep",
+    "Opponent is broken down forward with their weight distributed over the bottom player, shoulders pulled toward bottom player's hips",
+    "Bottom player's hips are angled away from opponent, creating the sweeping angle necessary for the Old School technique"
+  ],
+
+  "prerequisites": [
+    "Established half guard bottom position with bottom leg between opponent's legs",
+    "Control of opponent's near arm to prevent posting during sweep attempt",
+    "Ability to reach and secure whipdown grip on opponent's far shoulder or lat",
+    "Opponent's weight committed forward or broken down toward bottom player",
+    "Sufficient hip mobility to create angling and generate sweeping leverage"
+  ],
+
+  "key_principles": [
+    "Control the near arm completely before attempting the whipdown grip - opponent cannot post with controlled arm",
+    "The whipdown grip must pull opponent's far shoulder downward toward your legs, not across your body",
+    "Create maximum angle by turning your hips away from opponent while maintaining half guard control",
+    "Use your bottom leg to block opponent's hip and prevent them from stepping over during the sweep",
+    "Combine whipdown pull with hip extension to generate explosive sweeping power",
+    "Keep your head away from opponent's crossface side to maintain posture and prevent flattening",
+    "Transition immediately to mount or take the back if the sweep is successful - don't settle for half guard top"
+  ],
+
+  "offensive_transitions": [
+    {
+      "technique": "Old School Sweep",
+      "target_position": "Mount Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Electric Chair Sweep",
+      "target_position": "Electric Chair Bottom",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Deep Half Entry",
+      "target_position": "Deep Half Guard Bottom",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Dogfight Sweep",
+      "target_position": "Dogfight Position Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Lockdown to Back",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Homer Simpson Sweep",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    }
+  ],
+
+  "defensive_responses": [
+    {
+      "technique": "Base Recovery",
+      "target_position": "Half Guard Top",
+      "success_rate": 45
+    },
+    {
+      "technique": "Crossface and Flatten",
+      "target_position": "Flattened Half Guard Top",
+      "success_rate": 40
+    },
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 35
+    },
+    {
+      "technique": "Smash Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 30
+    }
+  ],
+
+  "counter_transitions": [
+    {
+      "technique": "Electric Chair Entry",
+      "target_position": "Electric Chair Bottom",
+      "trigger": "Opponent attempts to pull their trapped leg free from half guard"
+    },
+    {
+      "technique": "Deep Half Entry",
+      "target_position": "Deep Half Guard Bottom",
+      "trigger": "Opponent drives forward to smash pass or flatten"
+    },
+    {
+      "technique": "Underhook Battle",
+      "target_position": "Underhook Battle Position Bottom",
+      "trigger": "Opponent fights for underhook position and breaks whipdown grip"
+    }
+  ],
+
+  "decision_tree": [
+    {
+      "condition": "If opponent maintains high posture and prevents whipdown grip",
+      "actions": [
+        {
+          "technique": "Deep Half Entry",
+          "target": "Deep Half Guard Bottom",
+          "probability": 60
+        },
+        {
+          "technique": "Lockdown Control",
+          "target": "Lockdown Half Guard Bottom",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent's weight is broken down forward and near arm is controlled",
+      "actions": [
+        {
+          "technique": "Old School Sweep",
+          "target": "Mount Top",
+          "probability": 65
+        },
+        {
+          "technique": "Electric Chair Sweep",
+          "target": "Electric Chair Bottom",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to crossface and flatten",
+      "actions": [
+        {
+          "technique": "Deep Half Entry",
+          "target": "Deep Half Guard Bottom",
+          "probability": 70
+        },
+        {
+          "technique": "Underhook Recovery",
+          "target": "Underhook Battle Position Bottom",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If sweep is partially successful but opponent recovers base",
+      "actions": [
+        {
+          "technique": "Dogfight Transition",
+          "target": "Dogfight Position Bottom",
+          "probability": 60
+        },
+        {
+          "technique": "Take the Back",
+          "target": "Back Control Top",
+          "probability": 45
+        }
+      ]
+    }
+  ],
+
+  "common_errors": [
+    {
+      "error": "Attempting the whipdown grip before securing control of the near arm",
+      "consequence": "Opponent posts with their near arm and maintains base, completely shutting down the sweep",
+      "correction": "Always establish near arm control first (overhook, underhook, or wrist control) before reaching for the whipdown grip"
+    },
+    {
+      "error": "Pulling the whipdown grip across your body instead of downward toward your legs",
+      "consequence": "Creates no sweeping angle and actually helps opponent maintain top position",
+      "correction": "Direct the whipdown pull downward toward your hips and legs, creating vertical rather than horizontal force"
+    },
+    {
+      "error": "Failing to angle hips away from opponent before initiating the sweep",
+      "consequence": "Sweep has no leverage and opponent easily maintains top position",
+      "correction": "Turn your shoulders and hips away from opponent while maintaining half guard, creating the necessary angle for the sweep"
+    },
+    {
+      "error": "Allowing opponent to establish a strong crossface before setting up the position",
+      "consequence": "Flattened to the mat with no ability to create the necessary angle or leverage",
+      "correction": "Keep your head away from crossface side and immediately frame or pummel for underhook if opponent attempts crossface"
+    },
+    {
+      "error": "Settling for half guard top position after a successful sweep",
+      "consequence": "Opponent can immediately re-guard or create scrambles instead of being controlled",
+      "correction": "Continue the sweep all the way to mount or take the back as opponent's base is already compromised"
+    },
+    {
+      "error": "Releasing the near arm control too early during the sweep",
+      "consequence": "Opponent posts and recovers base mid-sweep, stopping your momentum",
+      "correction": "Maintain near arm control throughout the entire sweeping motion until you have established top position"
+    }
+  ],
+
+  "training_drills": [
+    {
+      "name": "Old School Grip Fighting Drill",
+      "description": "From half guard bottom, partner maintains high posture while you work to secure near arm control and establish whipdown grip. Partner provides progressive resistance. Focus on grip sequencing: near arm control first, then whipdown. 3-minute rounds.",
+      "duration": "3 minutes per round, 3 rounds per partner"
+    },
+    {
+      "name": "Angle Creation and Hip Movement Drill",
+      "description": "With partner holding half guard top position, practice creating maximum angle by turning hips away while maintaining bottom leg control. Partner stays static. Emphasize hip mobility and maintaining connection. 2-minute rounds focusing purely on positioning.",
+      "duration": "2 minutes per round, 4 rounds"
+    },
+    {
+      "name": "Old School Sweep Repetitions",
+      "description": "Partner starts with broken down posture in half guard top. Execute Old School sweep repeatedly, resetting after each rep. Partner provides 50% resistance, allowing sweep to complete. Focus on technique refinement and muscle memory. 10 reps per side.",
+      "duration": "10 repetitions per side, 3 sets"
+    },
+    {
+      "name": "Old School to Electric Chair Chain Drill",
+      "description": "Partner defends Old School sweep by pulling their trapped leg backward. Immediately transition to Electric Chair position and sweep. Flow between both attacks continuously. 4-minute rounds with increasing resistance.",
+      "duration": "4 minutes per round, 3 rounds"
+    }
+  ],
+
+  "optimal_submission_paths": [
+    {
+      "name": "Old School to Mount Submissions",
+      "path": "Old School Position → Old School Sweep → Mount Top → Armbar from Mount / Americana from Mount / Ezekiel from Mount"
+    },
+    {
+      "name": "Electric Chair Submission Path",
+      "path": "Old School Position → Electric Chair Entry → Electric Chair Bottom → Electric Chair Submission / Toe Hold / Kneebar from Half Guard"
+    },
+    {
+      "name": "Back Attack Path",
+      "path": "Old School Position → Old School Sweep → Take the Back → Back Control Top → Rear Naked Choke / Armbar from Back"
+    }
+  ],
+
+  "related_content": [
+    {
+      "name": "Lockdown Half Guard Bottom",
+      "relationship": "Complementary position - often combined with Old School attacks"
+    },
+    {
+      "name": "Electric Chair Bottom",
+      "relationship": "Direct transition when opponent defends Old School sweep"
+    },
+    {
+      "name": "Deep Half Guard Bottom",
+      "relationship": "Alternative entry when Old School grips are denied"
+    },
+    {
+      "name": "Dogfight Position Bottom",
+      "relationship": "Common transition after partial sweep completion"
+    },
+    {
+      "name": "Half Guard Top",
+      "relationship": "Opponent's starting position before Old School setup"
+    },
+    {
+      "name": "10th Planet Half Guard Bottom System",
+      "relationship": "Parent system containing Old School as foundational technique"
+    },
+    {
+      "name": "Lockdown to Electric Chair System",
+      "relationship": "Related systematic approach combining these positions"
+    }
+  ],
+
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 50,
+      "intermediate": 65,
+      "advanced": 75
+    },
+    "advancement_probability": {
+      "beginner": 35,
+      "intermediate": 50,
+      "advanced": 65
+    },
+    "submission_probability": {
+      "beginner": 15,
+      "intermediate": 25,
+      "advanced": 40
+    },
+    "average_time": "15-30 seconds before sweep attempt or transition"
+  },
+
+  "expert_insights": {
+    "danaher": "The Old School position represents an elegant solution to one of half guard's fundamental problems: how to create sweeping angles against an opponent who maintains good posture. By controlling the near arm and establishing the whipdown grip simultaneously, you create a biomechanical situation where the opponent's base is compromised in multiple directions. The near arm control prevents lateral posting, while the whipdown grip eliminates vertical base. This dual-axis control is what makes the position so effective. The key technical detail that many practitioners miss is the direction of the whipdown pull - it must be downward toward your legs, not across your body. This creates a vertical collapse of their structure rather than a horizontal rotation, which is far more difficult to defend. When executed with proper timing and angle creation, the Old School sweep becomes nearly unstoppable.",
+    "gordon_ryan": "In competition, the Old School is one of my favorite positions because it creates immediate threats that force opponents to react, and their reactions open up additional attacks. When I establish the Old School grips, my opponent has maybe 2-3 seconds to address the problem before I execute the sweep. If they try to pull their trapped leg free, I immediately switch to the electric chair. If they drive forward to smash me, I go to deep half. If they try to crossface, I'm already angled away and they can't flatten me. The position is incredibly versatile and the success rate is high even against elite opponents because the mechanics are so sound. I've finished matches at ADCC with the Old School sweep followed by immediate mount attacks. The key is not telegraphing the sweep - maintain the grips but stay patient until their weight commits forward, then execute explosively.",
+    "eddie_bravo": "The Old School is the foundation of the entire 10th Planet half guard system, and it's called 'Old School' because it was one of the first techniques I developed when creating the system back in the late 90s. What makes it so effective is that it works against every body type and skill level - I've seen white belts use it successfully against black belts because the mechanics are that strong. The whipdown is the secret weapon. Once you get that grip on the far shoulder or lat, you can literally pull them down like you're pulling down a window shade. The beauty of the position is how it chains with everything else - electric chair, deep half, dogfight, lockdown - they all connect. If they defend one attack, you flow to the next. In no-gi especially, where people can't rely on gi grips, the Old School absolutely dominates. Just remember: near arm first, whipdown second, angle away, then sweep. That's the formula."
+  }
+}
+{
+  "metadata": {
+    "title": "Old School Top Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master Old School Top in BJJ half guard. Control opponent's lockdown with whizzer, crossface pressure. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+    "state_id": "S142",
+    "tags": ["bjj", "position", "half-guard", "top-position", "old-school", "10th-planet", "pressure-passing"],
+    "parent_variant": "Old School Position",
+    "sibling_variants": ["Old School Bottom Position"]
+  },
+  "overview": "Old School Top Position is a defensive counter-position used when caught in an opponent's lockdown from half guard bottom. This position requires the top player to control the opponent's lockdown attempt while maintaining dominant pressure and working toward a pass or submission. The position is characterized by a whizzer (overhook) on the opponent's far arm, heavy crossface pressure with the opposite shoulder, and strategic base positioning to neutralize the lockdown's sweeping power.\n\nThe position gained prominence through 10th Planet Jiu-Jitsu's lockdown system, forcing top players to develop specific counters. The Old School Top position represents a critical battleground where the top player must balance maintaining control while preventing the opponent from executing lockdown sweeps like the Electric Chair or Old School Sweep. Success in this position requires understanding hip pressure mechanics, proper weight distribution, and timing for counter-attacks.\n\nFrom Old School Top, the practitioner can transition to passing positions like side control, mount, or back control, or can attack with submissions including the straight ankle lock, toe hold, or even kimura from the whizzer grip. The position demands patience and systematic pressure application rather than explosive movements, as hasty actions often lead directly into the opponent's lockdown sweep attempts.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive with offensive options",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium to Long"
+  },
+  "state_invariants": [
+    "Top player's trapped leg is caught in opponent's lockdown (figure-four leg configuration around the thigh), creating a mechanical connection that must be carefully managed to prevent sweeps",
+    "Whizzer (overhook) control established on opponent's far arm, with top player's arm threaded deep under opponent's armpit and hand gripping own thigh or opponent's hip to create structural leverage",
+    "Heavy crossface pressure applied with opposite shoulder driving into opponent's face/jaw, forcing head turn and creating uncomfortable defensive posture that limits mobility",
+    "Top player's free leg posted wide for base, with knee and foot positioned to create tripod stability and prevent being rolled or swept to the lockdown side",
+    "Chest pressure directed downward and forward into opponent's torso, using body weight to flatten opponent and reduce space for hip movement critical to lockdown attacks"
+  ],
+  "prerequisites": [
+    "Opponent has established lockdown position from half guard bottom",
+    "Top player's leg is caught in figure-four lockdown configuration",
+    "Top player recognizes lockdown threat and initiates defensive posture",
+    "Sufficient base established to prevent immediate sweep",
+    "Understanding of whizzer mechanics and crossface pressure principles"
+  ],
+  "key_principles": [
+    "Establish whizzer immediately upon recognizing lockdown - delay allows opponent to secure better angles for sweeps",
+    "Drive heavy crossface pressure to turn opponent's head away and limit their vision and breathing comfort",
+    "Keep hips low and weight distributed through chest into opponent's sternum to flatten their posture",
+    "Post free leg wide with knee out for maximum base - narrow base invites sweeps and rolls",
+    "Maintain patience and avoid explosive movements that feed into opponent's sweep timing",
+    "Work systematically to free trapped leg through hip pressure and ankle manipulation rather than forceful extraction",
+    "Use whizzer grip to control opponent's upper body rotation and prevent them from coming up to dogfight position"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Old School Sweep Counter to Side Control",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Half Guard Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Transition to Mount",
+      "target_position": "Mount Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Back Take Generic",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Kimura from Half Guard",
+      "target_position": "Kimura Control Top Position",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Old School Sweep",
+      "target_position": "Old School Bottom Position",
+      "success_rate": 45
+    },
+    {
+      "technique": "Electric Chair Submission",
+      "target_position": "Electric Chair Bottom",
+      "success_rate": 30
+    },
+    {
+      "technique": "Lockdown Sweeps",
+      "target_position": "Lockdown Guard Bottom",
+      "success_rate": 35
+    },
+    {
+      "technique": "Dogfight Entry",
+      "target_position": "Dogfight Position Bottom",
+      "success_rate": 40
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Whizzer to Back Take",
+      "target_position": "Back Control Top",
+      "trigger": "Opponent attempts to come up to dogfight position"
+    },
+    {
+      "technique": "Crossface Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent releases lockdown to reguard"
+    },
+    {
+      "technique": "Kimura from Whizzer",
+      "target_position": "Kimura Control Top Position",
+      "trigger": "Opponent extends whizzered arm to frame"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent maintains tight lockdown and attempts Old School Sweep with underhook",
+      "actions": [
+        {
+          "technique": "Heavy crossface and whizzer pressure",
+          "target": "Old School Top Position",
+          "probability": 70
+        },
+        {
+          "technique": "Sprawl hips back and post free leg",
+          "target": "Old School Top Position",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent releases lockdown to transition to different guard",
+      "actions": [
+        {
+          "technique": "Immediate knee slice pass",
+          "target": "Side Control Top",
+          "probability": 65
+        },
+        {
+          "technique": "Smash pass with shoulder pressure",
+          "target": "Side Control Top",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to come up to dogfight position",
+      "actions": [
+        {
+          "technique": "Whizzer control to back take",
+          "target": "Back Control Top",
+          "probability": 55
+        },
+        {
+          "technique": "Sprawl and guillotine attack",
+          "target": "Guillotine Control Top",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent extends whizzered arm to create frames",
+      "actions": [
+        {
+          "technique": "Kimura attack from whizzer grip",
+          "target": "Kimura Control Top Position",
+          "probability": 50
+        },
+        {
+          "technique": "Transition to mount via arm control",
+          "target": "Mount Top",
+          "probability": 40
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Posting weight on hands instead of driving chest pressure into opponent",
+      "consequence": "Creates space for opponent to execute hip escapes and sweep entries, significantly reducing control effectiveness",
+      "correction": "Keep hands light and use them only for balance - drive weight through chest into opponent's sternum to flatten their posture and limit hip mobility"
+    },
+    {
+      "error": "Pulling trapped leg forcefully in attempt to free it from lockdown",
+      "consequence": "Feeds directly into opponent's sweep mechanics by creating the hip extension they need for Old School or Electric Chair sweeps",
+      "correction": "Work to free leg through systematic hip pressure, ankle manipulation, and proper angles rather than explosive pulling motions"
+    },
+    {
+      "error": "Keeping free leg posted too close to body with narrow base",
+      "consequence": "Creates instability that makes sweeps and rolls much easier for the bottom player to execute",
+      "correction": "Post free leg wide with knee angled out at approximately 45 degrees to create maximum base and sweep resistance"
+    },
+    {
+      "error": "Failing to establish deep whizzer grip immediately upon recognizing lockdown",
+      "consequence": "Allows opponent time to secure optimal angles and grips for sweeps before defensive structure is established",
+      "correction": "Thread whizzer deep under armpit as soon as lockdown is felt, gripping own thigh or opponent's hip to create immediate control"
+    },
+    {
+      "error": "Raising hips high off opponent's body to escape lockdown",
+      "consequence": "Creates massive space underneath that opponent can use to reguard, sweep, or enter into more dangerous positions",
+      "correction": "Keep hips low and heavy on opponent while working small technical adjustments to address the lockdown"
+    },
+    {
+      "error": "Allowing opponent to establish underhook on the crossface side",
+      "consequence": "Eliminates crossface pressure and gives opponent the grips needed for powerful sweeps and back takes",
+      "correction": "Maintain active crossface pressure and block opponent's underhook attempts by keeping elbow tight to their body"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Lockdown Entry and Counter Drill",
+      "description": "Bottom player starts in half guard and establishes lockdown. Top player must react immediately with proper whizzer, crossface, and base positioning. Work 2-minute rounds alternating roles, focusing on initial defensive reactions and structure establishment.",
+      "duration": "5 rounds of 2 minutes each side"
+    },
+    {
+      "name": "Old School Top Position Hold Drill",
+      "description": "Start in established Old School Top position. Bottom player works full resistance to sweep or submit. Top player maintains position for timed intervals, focusing on pressure maintenance and preventing sweeps. Gradually increase bottom player resistance from 50% to 100%.",
+      "duration": "4 rounds of 3 minutes, increasing resistance each round"
+    },
+    {
+      "name": "Pass from Old School Top Drill",
+      "description": "From Old School Top position, top player works to pass to side control or mount while bottom player provides graduated resistance. Focus on reading when opponent releases lockdown and capitalizing with immediate passing attacks. Reset after each successful pass or sweep.",
+      "duration": "6 rounds of 2 minutes each side"
+    },
+    {
+      "name": "Sweep vs Counter-Sweep Drill",
+      "description": "Bottom player attempts Old School Sweep or Electric Chair entries while top player works to counter and maintain position or advance. Emphasize timing, base management, and reading opponent's weight shifts. Full resistance after technique familiarity is established.",
+      "duration": "5 rounds of 2 minutes each position"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Whizzer to Kimura Path",
+      "path": "Old School Top Position → Kimura Control Top Position (when opponent extends arm) → Kimura (finish or back take)"
+    },
+    {
+      "name": "Leg Attack Opportunity Path",
+      "path": "Old School Top Position → Free trapped leg → Straight Ankle Lock Control Top (on formerly locked leg) → Straight Ankle Lock"
+    },
+    {
+      "name": "Back Attack Path",
+      "path": "Old School Top Position → Opponent attempts dogfight → Whizzer to Back Take → Back Control Top → Rear Naked Choke"
+    },
+    {
+      "name": "Passing to Submission Path",
+      "path": "Old School Top Position → Knee Slice Pass → Side Control Top → Kimura from Side Control or Americana from Side Control"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Lockdown Guard Bottom",
+      "relationship": "Complementary position - what opponent is attempting from bottom"
+    },
+    {
+      "name": "Old School Bottom Position",
+      "relationship": "Opposite perspective - defending against this position"
+    },
+    {
+      "name": "Half Guard Top",
+      "relationship": "Parent position category"
+    },
+    {
+      "name": "Electric Chair Bottom",
+      "relationship": "Primary submission threat to defend against"
+    },
+    {
+      "name": "10th Planet Half Guard Bottom System",
+      "relationship": "System this position counters"
+    },
+    {
+      "name": "Lockdown to Electric Chair System",
+      "relationship": "Opponent's systematic approach from bottom"
+    },
+    {
+      "name": "Whizzer Control",
+      "relationship": "Key control concept utilized in this position"
+    },
+    {
+      "name": "Old School Sweep",
+      "relationship": "Primary sweep threat to defend against"
+    },
+    {
+      "name": "Half Guard Pass",
+      "relationship": "Primary offensive transition goal"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 45,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "advancement_probability": {
+      "beginner": 30,
+      "intermediate": 45,
+      "advanced": 60
+    },
+    "submission_probability": {
+      "beginner": 15,
+      "intermediate": 25,
+      "advanced": 35
+    },
+    "average_time": "45-90 seconds before pass or sweep"
+  },
+  "expert_insights": {
+    "danaher": "The Old School Top position represents a critical defensive junction in the half guard passing game, particularly against lockdown-based systems. The mechanical advantage of the lockdown creates a powerful lever system that can generate tremendous sweeping force, so the top player must understand the biomechanical principles of neutralizing this leverage. The whizzer functions not merely as a grip but as a structural frame that prevents the opponent from rotating their torso - rotation being essential for sweep completion. The crossface serves dual purposes: it turns the opponent's head away, limiting their visual tracking of your movements, and it creates an uncomfortable compression that discourages extended positional battles. Weight distribution is paramount - your chest pressure must create a downward vector that opposes the upward and rotational vectors the opponent seeks to generate with their lockdown. The free leg base is your ultimate insurance policy against sweeps, functioning as a tripod point that provides rotational stability. Systematically, you must think in terms of graduated pressure application - start with position retention, then work toward grip improvements, then capitalize on opponent errors to advance position. Patience is not passive; it is active pressure maintenance while waiting for the correct moment to pass.",
+    "gordon_ryan": "Old School Top is one of those positions where competition experience really separates who understands the position from who's just surviving. I've been caught in lockdown plenty of times against high-level 10th Planet guys, and the biggest thing I learned is you cannot be reactive - you have to impose your game immediately. The whizzer has to be deep and tight from the second you feel that lockdown lock in, because if they get even two seconds to adjust their angle, you're going for a ride on the Old School Sweep. I personally like to use a lot of shoulder pressure on the crossface side - not just laying there, but actively driving through their face to make them uncomfortable and limit their breathing rhythm. That discomfort often forces them to abandon their sweep attempts prematurely. The key to passing from here is recognizing when they're committed to the lockdown versus when they're thinking about transitioning - there's always that micro-moment when the lockdown loosens slightly, and that's your window to explode into the pass. I also look for the kimura from the whizzer grip constantly because when they start defending the pass, that arm often extends right into the submission. In competition, time management matters - if you're up on points, holding this position safely is perfectly acceptable strategy, but if you need to advance, you have to be willing to take calculated risks during those transition windows.",
+    "eddie_bravo": "As the guy who basically forced everyone to learn Old School Top defense through the lockdown system, I can tell you exactly what makes this position tough for the top guy - it's all about the battle of angles and timing. The lockdown creates this amazing lever system that turns your leg into a crank, and if the top guy doesn't immediately establish the right structure with that whizzer and crossface, they're getting swept or submitted, period. But here's the thing - even perfect Old School Top defense can be beaten if the bottom guy is slick with transitions between Electric Chair, Old School Sweep, and the dogfight. The top player has to understand they're not just defending one attack, they're defending an entire system of interconnected threats. The whizzer is crucial, but it can't be passive - you have to actively pull that arm tight and use it to control their upper body rotation. One thing I tell my students who get caught on top is to think about creating a 'dead zone' with their pressure - you want to make it so uncomfortable that staying in lockdown becomes more exhausting for them than it is for you. Also, leg attacks from this position are super underutilized - when you finally free that trapped leg, you're in perfect position to attack straight ankle locks or toe holds on that same leg because it's already isolated and extended. The innovation in this position is still evolving - we're seeing more calf slices and variations that blur the lines between top and bottom control, which is exactly how jiu-jitsu should evolve."
+  }
+}

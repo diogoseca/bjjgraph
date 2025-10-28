@@ -562,7 +562,7 @@ npx quartz build --serve
    - Priority: Low (quality over quantity)
 
 3. **Some wikilinks unresolved**
-   - Reason: Link to positions/concepts not yet created
+   - Reason: Link to positions/Principles not yet created
    - Solution: Create missing content or remove links
    - Priority: Low (see /todo/new_files_to_create.md)
 

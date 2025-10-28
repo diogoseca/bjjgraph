@@ -93,7 +93,7 @@
       "suggested_fix": "Hand Fighting",
       "status": "FIXED",
       "actual_fix": "Hand Fighting",
-      "file_path": "/source/content/Concepts/Triangle-Armbar-Omoplata Chain.md",
+      "file_path": "/source/content/Principles/Triangle-Armbar-Omoplata Chain.md",
       "verification": "File exists: Hand Fighting.md"
     },
     {
@@ -102,7 +102,7 @@
       "suggested_fix": "Stack Defense",
       "status": "FIXED",
       "actual_fix": "Stack Defense",
-      "file_path": "/source/content/Concepts/Triangle-Armbar-Omoplata Chain.md",
+      "file_path": "/source/content/Principles/Triangle-Armbar-Omoplata Chain.md",
       "verification": "File exists: Stack Defense.md"
     }
   ],
@@ -116,7 +116,7 @@
   "files_modified": [
     "/source/content/Positions/Triangle Control.md",
     "/source/content/Submissions/Triangle Finish.md",
-    "/source/content/Concepts/Triangle-Armbar-Omoplata Chain.md"
+    "/source/content/Principles/Triangle-Armbar-Omoplata Chain.md"
   ],
   "verification": {
     "all_target_files_exist": true,

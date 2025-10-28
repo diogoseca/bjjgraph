@@ -1,0 +1,2272 @@
+{
+  "metadata": {
+    "title": "Kimura Control Bottom | BJJ Position Guide | BJJ Graph",
+    "description": "Master Kimura Control from bottom position in BJJ. Defensive position with high sweep potential (40-70%) and submission threat. Control opponent's posture while defending.",
+    "state_id": "S142",
+    "tags": ["bjj", "position", "kimura control", "bottom position", "defensive", "sweep threat", "submission control"],
+    "parent_variant": "Kimura Control",
+    "sibling_variants": ["Kimura Control Top"]
+  },
+
+  "overview": "Kimura Control Bottom represents a defensive yet opportunistic position where the bottom practitioner has secured a Kimura grip on their opponent while being on their back or side. This position emerges frequently from failed guard passes, scrambles, or as a defensive response to top pressure. The Kimura grip—characterized by securing the opponent's wrist with one hand while threading the other arm under their armpit and clasping your own wrist—provides exceptional control over the opponent's posture, shoulder mobility, and base.\n\nWhile classified as a bottom position, Kimura Control Bottom is far from purely defensive. The grip itself creates a powerful fulcrum that can be used to off-balance opponents, create space, facilitate sweeps, or even finish the submission directly. The position is particularly valuable in no-gi grappling where it compensates for the lack of collar and sleeve grips, though it remains highly effective in the gi as well. Understanding how to maintain this control while managing distance, creating angles, and capitalizing on the opponent's defensive reactions is essential for transforming a potentially disadvantageous position into a pathway to dominance.\n\nThe beauty of Kimura Control Bottom lies in its dual nature: it simultaneously defends against passes and attacks while threatening both positional advancement and submission. High-level practitioners like Craig Jones and Garry Tonon have demonstrated how this position can be a central component of a comprehensive ground game, seamlessly transitioning between defensive frames, sweeps, and submission attempts based on opponent reactions.",
+
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive with offensive options",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+
+  "state_invariants": [
+    "Bottom practitioner maintains Kimura grip on opponent's arm with wrist control and figure-four lock, creating a rigid connection that controls shoulder mobility and restricts opponent's posting ability",
+    "Bottom practitioner's body is positioned on back or side with hips mobile enough to create angles and distance, preventing opponent from establishing stable chest-to-chest pressure or completing the pass",
+    "Opponent is partially extended or compromised in their base due to the Kimura grip, unable to fully posture up or apply maximum pressure while defending the shoulder lock threat",
+    "Bottom practitioner's free arm is actively framing against opponent's hip, shoulder, or creating space to prevent full mount or side control consolidation while maintaining the Kimura grip structure"
+  ],
+
+  "prerequisites": [
+    "Kimura grip established with proper wrist control and figure-four configuration",
+    "Opponent engaged in passing attempt or pressure from top position",
+    "Bottom practitioner has defensive frames or hip mobility to prevent immediate pass completion",
+    "Understanding of basic Kimura mechanics and shoulder lock principles",
+    "Ability to maintain grip under pressure while managing distance"
+  ],
+
+  "key_principles": [
+    "Maintain relentless wrist control with grip fighting hand while keeping elbow tight to prevent opponent from extracting their arm",
+    "Use the Kimura grip as a steering wheel to control opponent's posture, driving them forward, pulling them off-balance, or creating lateral angles",
+    "Keep hips active and mobile, constantly adjusting distance to prevent opponent from settling weight while creating sweep opportunities",
+    "Integrate the free arm as a dynamic frame against hips or shoulders to manage distance and prevent consolidation to side control or mount",
+    "Transition smoothly between defensive frames, off-balancing attempts, and submission finishing mechanics based on opponent's defensive reactions",
+    "Create a dilemma for the opponent: defend the shoulder lock and maintain base, or advance position but expose the submission",
+    "Use hip movement and angle changes to complement the Kimura grip, making it progressively more difficult for opponent to escape or counter"
+  ],
+
+  "offensive_transitions": [
+    {
+      "technique": "Kimura from Guard",
+      "target_position": "Kimura Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Kimura Sweep",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Rolling Kimura",
+      "target_position": "Mount Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Kimura to Back Take",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Triangle Setup",
+      "target_position": "Triangle Control Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Omoplata Sweep",
+      "target_position": "Omoplata Control Bottom",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Technical Standup",
+      "target_position": "Standing Top Position",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Underhook Sweep from Half",
+      "target_position": "Half Guard Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    }
+  ],
+
+  "defensive_responses": [
+    {
+      "technique": "Kimura Defense",
+      "target_position": "Side Control Top",
+      "success_rate": 45
+    },
+    {
+      "technique": "Rolling Kimura Escape",
+      "target_position": "Turtle Top",
+      "success_rate": 40
+    },
+    {
+      "technique": "Base Widening",
+      "target_position": "Half Guard Top",
+      "success_rate": 50
+    },
+    {
+      "technique": "Pressure Pass",
+      "target_position": "Mount Top",
+      "success_rate": 35
+    },
+    {
+      "technique": "Grip Break",
+      "target_position": "Side Control Top",
+      "success_rate": 40
+    }
+  ],
+
+  "counter_transitions": [
+    {
+      "technique": "Kimura Sweep",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent attempts to pass by driving forward with weight"
+    },
+    {
+      "technique": "Rolling Kimura",
+      "target_position": "Mount Top",
+      "trigger": "Opponent rolls to defend shoulder pressure or escape grip"
+    },
+    {
+      "technique": "Kimura to Back Take",
+      "target_position": "Back Control Top",
+      "trigger": "Opponent turns away to escape Kimura pressure exposing back"
+    },
+    {
+      "technique": "Triangle Setup",
+      "target_position": "Triangle Control Bottom",
+      "trigger": "Opponent posts free hand near hip creating triangle opportunity"
+    },
+    {
+      "technique": "Technical Standup",
+      "target_position": "Standing Top Position",
+      "trigger": "Opponent backs away to defend Kimura creating space to stand"
+    }
+  ],
+
+  "decision_tree": [
+    {
+      "condition": "If opponent drives forward with weight attempting to complete pass while defending Kimura",
+      "actions": [
+        {
+          "technique": "Kimura Sweep",
+          "target": "Side Control Top",
+          "probability": 55
+        },
+        {
+          "technique": "Rolling Kimura",
+          "target": "Mount Top",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent turns away or rolls to escape Kimura shoulder pressure",
+      "actions": [
+        {
+          "technique": "Kimura to Back Take",
+          "target": "Back Control Top",
+          "probability": 60
+        },
+        {
+          "technique": "Rolling Kimura",
+          "target": "Turtle Top",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent widens base and posts with free hand near hips to defend",
+      "actions": [
+        {
+          "technique": "Triangle Setup",
+          "target": "Triangle Control Bottom",
+          "probability": 50
+        },
+        {
+          "technique": "Omoplata Sweep",
+          "target": "Omoplata Control Bottom",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent backs away or creates distance to defend Kimura submission threat",
+      "actions": [
+        {
+          "technique": "Technical Standup",
+          "target": "Standing Top Position",
+          "probability": 65
+        },
+        {
+          "technique": "Guard Recovery",
+          "target": "Closed Guard Bottom",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to stack or apply vertical pressure while defending grip",
+      "actions": [
+        {
+          "technique": "Underhook Sweep from Half",
+          "target": "Half Guard Top",
+          "probability": 50
+        },
+        {
+          "technique": "Kimura from Guard",
+          "target": "Kimura Control Top",
+          "probability": 45
+        }
+      ]
+    }
+  ],
+
+  "common_errors": [
+    {
+      "error": "Releasing or loosening Kimura grip under pressure to adjust position",
+      "consequence": "Opponent escapes grip entirely and consolidates to dominant position (side control or mount) with full weight and pressure control",
+      "correction": "Maintain death grip on wrist and figure-four lock even when adjusting hips or creating angles—grip maintenance takes absolute priority over positional adjustment"
+    },
+    {
+      "error": "Allowing opponent to settle their weight chest-to-chest without active hip movement",
+      "consequence": "Position becomes purely defensive with no sweep or submission opportunities as opponent's weight pins bottom player and neutralizes Kimura mechanics",
+      "correction": "Keep hips in constant motion using shrimps, bridges, and angle changes to prevent opponent from establishing stable pressure while maintaining grip structure"
+    },
+    {
+      "error": "Failing to frame with free arm against opponent's hips or shoulders",
+      "consequence": "Opponent advances to full mount or side control consolidation despite Kimura grip as there's no distance management or secondary control point",
+      "correction": "Use free arm dynamically to frame against hips when creating space or against shoulders when preventing forward pressure—coordinate frames with hip movement"
+    },
+    {
+      "error": "Attempting to finish Kimura submission without first off-balancing or controlling opponent's base",
+      "consequence": "Opponent easily defends by widening base and maintaining posture, then systematically works to escape grip or pass guard while submission threat is neutralized",
+      "correction": "Use Kimura grip as control mechanism first—off-balance opponent, compromise their base, then transition to finishing mechanics when structure is broken"
+    },
+    {
+      "error": "Keeping legs static or inactive during Kimura control from bottom",
+      "consequence": "Opponent easily passes around legs or establishes leg control leading to mount or side control as lower body provides no defensive barrier",
+      "correction": "Integrate butterfly hooks, knee shields, or closed guard legs to complement upper body Kimura control and create comprehensive defensive structure"
+    },
+    {
+      "error": "Focusing exclusively on submission finish while ignoring sweep opportunities",
+      "consequence": "Miss high-percentage sweeps when opponent defends submission by changing weight distribution and base positioning",
+      "correction": "Recognize Kimura control creates multiple pathways—when opponent defends submission by posting or changing base, immediately capitalize with sweeps to top position"
+    }
+  ],
+
+  "training_drills": [
+    {
+      "name": "Kimura Grip Retention Under Pressure",
+      "description": "Bottom partner establishes Kimura grip from guard or half guard. Top partner attempts to break grip using hand fighting, pressure, and movement while trying to pass. Bottom partner maintains grip and adjusts position for 2-minute rounds. Focus: grip endurance, wrist control, and maintaining figure-four lock under dynamic pressure.",
+      "duration": "5 rounds of 2 minutes"
+    },
+    {
+      "name": "Kimura Sweep Flow Drill",
+      "description": "Starting from Kimura Control Bottom with partner applying moderate passing pressure. Bottom partner uses Kimura grip to execute sweep variations: basic Kimura sweep to side control, rolling Kimura to mount, and back take when opponent turns away. Partner offers different defensive reactions (driving forward, backing away, turning) to create realistic sweep opportunities. Emphasize smooth transitions between sweep options based on opponent's weight distribution.",
+      "duration": "10 minutes continuous flow"
+    },
+    {
+      "name": "Kimura to Triangle/Omoplata Transitions",
+      "description": "Partner establishes Kimura Control Bottom while opponent defends by posting free hand or widening base. Practice recognizing posting patterns and smoothly transitioning to triangle setups when hand is near hip or omoplata when opponent's weight shifts forward. Focus on maintaining Kimura grip during initial phases of transition before releasing to secure new position. Alternate between submission options based on opponent's defensive posture.",
+      "duration": "15 minutes with position reset"
+    },
+    {
+      "name": "Distance Management with Frames and Grips",
+      "description": "Bottom partner maintains Kimura grip while top partner applies various passing pressures (knee slice, over-under, stack). Bottom partner coordinates free arm frames with hip movement and Kimura grip adjustments to maintain optimal distance—close enough to threaten sweeps and submissions, far enough to prevent pass completion. Practice creating angles and space without releasing primary grip control.",
+      "duration": "3-minute rounds, 6 rounds total"
+    }
+  ],
+
+  "optimal_submission_paths": [
+    {
+      "name": "Direct Kimura Finish",
+      "path": "Kimura Control Bottom → Off-balance with grip → Kimura from Guard → Won by Submission"
+    },
+    {
+      "name": "Triangle Transition Path",
+      "path": "Kimura Control Bottom → Opponent posts near hip → Triangle Setup → Triangle Control Bottom → Triangle Choke → Won by Submission"
+    },
+    {
+      "name": "Back Attack Path",
+      "path": "Kimura Control Bottom → Opponent turns to defend → Kimura to Back Take → Back Control Top → Rear Naked Choke → Won by Submission"
+    },
+    {
+      "name": "Sweep to Mount Submission",
+      "path": "Kimura Control Bottom → Rolling Kimura → Mount Top → Kimura from Mount → Won by Submission"
+    },
+    {
+      "name": "Omoplata Path",
+      "path": "Kimura Control Bottom → Opponent drives forward → Omoplata Sweep → Omoplata Control Bottom → Omoplata → Won by Submission"
+    }
+  ],
+
+  "related_content": [
+    {
+      "name": "Kimura Control Top",
+      "relationship": "Opposite perspective - same grip from top position"
+    },
+    {
+      "name": "Kimura Trap Bottom Position",
+      "relationship": "Advanced variation with deeper control mechanics"
+    },
+    {
+      "name": "Half Guard Bottom",
+      "relationship": "Common position where Kimura Control is established"
+    },
+    {
+      "name": "Closed Guard Bottom",
+      "relationship": "Primary guard position for securing initial Kimura grip"
+    },
+    {
+      "name": "Kimura",
+      "relationship": "Primary submission threat from this control position"
+    },
+    {
+      "name": "Kimura Trap System",
+      "relationship": "Comprehensive system built around this control position"
+    },
+    {
+      "name": "Triangle Control Bottom",
+      "relationship": "Common transition when opponent defends Kimura by posting"
+    },
+    {
+      "name": "Omoplata Control Bottom",
+      "relationship": "Alternative shoulder lock when opponent drives into grip"
+    },
+    {
+      "name": "Kimura to Back Take",
+      "relationship": "High-percentage transition when opponent turns away"
+    },
+    {
+      "name": "Rolling Kimura",
+      "relationship": "Dynamic sweep option that maintains submission threat"
+    },
+    {
+      "name": "Danaher Straight Jacket System",
+      "relationship": "Systematic approach to Kimura control and applications"
+    },
+    {
+      "name": "Americana Control Bottom",
+      "relationship": "Similar shoulder lock control from bottom position"
+    }
+  ],
+
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 50,
+      "intermediate": 65,
+      "advanced": 80
+    },
+    "advancement_probability": {
+      "beginner": 40,
+      "intermediate": 55,
+      "advanced": 70
+    },
+    "submission_probability": {
+      "beginner": 25,
+      "intermediate": 40,
+      "advanced": 55
+    },
+    "average_time": "30-90 seconds before transition or resolution"
+  },
+
+  "expert_insights": {
+    "danaher": "The Kimura grip from bottom position represents one of the most versatile control mechanisms in grappling because it simultaneously addresses three critical elements: it restricts the opponent's ability to generate pressure through arm isolation, it creates a mechanical advantage for off-balancing through the lever arm principle, and it threatens immediate submission forcing defensive reactions. The key to maximizing this position lies in understanding that the grip itself is more valuable than the submission finish—once you have secured proper wrist control and figure-four configuration, you possess a steering wheel that controls your opponent's entire upper body structure. From bottom position, this becomes particularly powerful because you can use the grip to prevent consolidation while your legs and hips work to create the angles necessary for sweeps. The most common error I observe is practitioners rushing to finish the submission when the opponent's base is still sound, rather than first using the grip to compromise their structure through off-balancing and then capitalizing on the defensive reactions with sweeps or positional advancement. Think of Kimura Control Bottom not as a submission position, but as a positional control system that creates multiple pathways based on systematic pressure testing of the opponent's defensive priorities.",
+
+    "gordon_ryan": "In competition, Kimura Control from bottom is one of my highest-percentage positions for generating both sweeps and back takes, especially against opponents who are primarily focused on passing rather than submission defense. The beautiful thing about this position is that it puts your opponent in an impossible dilemma: they can either defend the shoulder lock and stay relatively safe but immobile, or they can try to advance their position and immediately expose themselves to sweeps and back attacks. I've found that most competitors, especially in no-gi where the Kimura grip compensates for lack of gi grips, will prioritize defending the submission which gives you extended time to work your sweeps and create angles. My go-to sequence is to use the Kimura grip to off-balance them forward, and when they post with their free hand to defend, I immediately switch to triangle or omoplata attacks. If they try to back away to escape the grip entirely, I use that space to technical stand or recover guard. The key is maintaining absolute control of that wrist—never let them pull their arm out, even if it means giving up some positional ground temporarily. A solid Kimura grip from bottom can completely stall even the best passers because they can't effectively generate pressure or advance with one arm compromised.",
+
+    "eddie_bravo": "The Kimura grip from bottom position is central to the entire 10th Planet system because it's one of the most effective ways to control an opponent when you don't have gi grips to work with in no-gi grappling. What makes this position so deadly is that it integrates perfectly with rubber guard, lockdown, and our whole approach to creating submission chains from bottom. When you have someone in Kimura Control from bottom, you're not just defending—you're setting up an entire attack sequence that can go to triangle, omoplata, sweeps, or the Kimura finish itself depending on how they react. We drill this extensively with what we call the Kimura trap game, where you learn to recognize the specific defensive reactions and automatically flow to the appropriate attack. The innovation we've added is using the Kimura grip in conjunction with foot on hip or lockdown control to create even more dynamic sweep and back take opportunities. One thing I emphasize is that you need to get comfortable finishing from weird angles—don't just think of Kimura as a traditional shoulder lock from standard positions. You can hit it while inverting, rolling, standing up, whatever. The grip is the foundation, and once you have it locked in solid, you can get creative with how you manipulate their body and create the angles needed to finish or sweep. Keep that grip at all costs and let the opponent's defensive movements create the opportunities for you."
+  }
+}
+{
+  "metadata": {
+    "title": "Kimura Control | BJJ Position Guide | BJJ Graph",
+    "description": "Master Kimura Control in BJJ. Complete guide covering setup, control, and submissions from the figure-four shoulder lock position. 55% advanced submission rate.",
+    "state_id": "S095",
+    "tags": [
+      "bjj",
+      "position",
+      "control",
+      "shoulder-lock",
+      "offensive",
+      "submission-control"
+    ]
+  },
+  "overview": "Kimura Control is a dominant control position in BJJ where you've secured a figure-four grip on your opponent's arm, isolating their shoulder joint and creating a powerful lever for submissions, sweeps, and positional advancement. Named after the Japanese judoka Masahiko Kimura, this position features exceptional versatility as it can be established from multiple starting positions including side control, half guard, closed guard, and standing positions.\n\nThe Kimura Control position is characterized by its offensive potential while maintaining strong positional control. Unlike a pure submission attempt, Kimura Control emphasizes maintaining the grip while using it as a foundation for multiple attack options. The figure-four configuration creates structural integrity that's difficult for opponents to break, making it a reliable control mechanism even at high levels of competition.\n\nThis position serves as a hub for multiple offensive pathways - you can finish the Kimura submission directly, transition to back control when opponent rolls, sweep to top position using the grip as leverage, or switch to other submissions like armbars or triangles when defenses are presented. The persistent threat of the Kimura forces opponents into defensive dilemmas where each defensive choice opens a different offensive opportunity.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+  "state_invariants": [
+    "Figure-four grip on opponent's arm with your hands interlocked in a locked configuration, one hand controlling their wrist while your other arm threads through their elbow and grips your own wrist to form structural integrity",
+    "Control of opponent's wrist with one hand, your other hand through opponent's elbow creating the classic figure-four shape with their arm bent at approximately 90 degrees and their elbow pointing away from their body",
+    "Ability to apply pressure to shoulder joint through rotation with your hips positioned to generate leverage toward the trapped shoulder, creating submission threat while maintaining positional control",
+    "Your chest pressed against their shoulder to prevent escape, with your body positioned to maintain connection and pressure whether attacking from top in side control, from guard bottom, or during transitions through other positions"
+  ],
+  "prerequisites": [
+    "Understanding of figure-four grip mechanics and hand placement sequence",
+    "Shoulder rotation awareness for safe application and injury prevention",
+    "Hip positioning for leverage generation and weight distribution",
+    "Recognition of entry opportunities from multiple positions including side control, half guard, closed guard, and standing"
+  ],
+  "key_principles": [
+    "Figure-Four Structural Integrity: The interlocked grip creates a strong frame that's difficult to break, providing reliable control throughout transitions",
+    "Shoulder Joint Isolation: Separating the arm from the body's defensive structure maximizes your leverage advantage and submission potential",
+    "Multi-Directional Threat: Maintain simultaneous threats of submission, back take, sweep, and alternative submissions to create defensive dilemmas",
+    "Progressive Pressure Application: Apply submission pressure gradually to maintain safety while testing opponent's defensive reactions",
+    "Hip Connection Management: Keep your hips positioned to maximize leverage while preventing opponent's escape or counter opportunities",
+    "Transition Sensitivity: Recognize when direct submission isn't available and seamlessly flow to alternative attacks based on opponent's defensive choices"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Kimura",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Kimura to Back Take",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Transition to Mount",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "North-South to Kimura",
+      "target_position": "North-South",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Armbar from Side Control",
+      "target_position": "Armbar Control",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Triangle Setup",
+      "target_position": "Triangle Control",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Omoplata Sweep",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Side Control to Mount",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Kimura Defense",
+      "target_position": "Guard Recovery",
+      "success_rate": 35
+    },
+    {
+      "technique": "Rolling Kimura Escape",
+      "target_position": "Guard Recovery",
+      "success_rate": 30
+    },
+    {
+      "technique": "Hip Escape",
+      "target_position": "Half Guard Bottom",
+      "success_rate": 25
+    },
+    {
+      "technique": "Frame and Shrimp",
+      "target_position": "Closed Guard Bottom",
+      "success_rate": 20
+    },
+    {
+      "technique": "Turtle Transition",
+      "target_position": "Bottom Turtle",
+      "success_rate": 40
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Kimura to Back Take",
+      "target_position": "Back Control",
+      "trigger": "Opponent rolls away to escape Kimura pressure"
+    },
+    {
+      "technique": "Armbar from Side Control",
+      "target_position": "Armbar Control",
+      "trigger": "Opponent straightens arm to defend Kimura"
+    },
+    {
+      "technique": "Triangle Setup",
+      "target_position": "Triangle Control",
+      "trigger": "Opponent pulls arm away and creates space with their posture"
+    },
+    {
+      "technique": "North-South to Kimura",
+      "target_position": "North-South",
+      "trigger": "Opponent turns into you to relieve shoulder pressure"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent is defending the Kimura by keeping their arm tight to their body and preventing rotation",
+      "actions": [
+        {
+          "technique": "Kimura to Back Take",
+          "target": "Back Control",
+          "probability": 65
+        },
+        {
+          "technique": "North-South to Kimura",
+          "target": "North-South",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent straightens their arm to resist the shoulder lock",
+      "actions": [
+        {
+          "technique": "Armbar from Side Control",
+          "target": "Armbar Control",
+          "probability": 60
+        },
+        {
+          "technique": "Straight Armbar",
+          "target": "Won by Submission",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent creates space by bridging or turning away from the Kimura",
+      "actions": [
+        {
+          "technique": "Triangle Setup",
+          "target": "Triangle Control",
+          "probability": 50
+        },
+        {
+          "technique": "Omoplata Sweep",
+          "target": "Mount",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent grabs their own belt or gi to defend the Kimura",
+      "actions": [
+        {
+          "technique": "Kimura",
+          "target": "Won by Submission",
+          "probability": 55
+        },
+        {
+          "technique": "Side Control to Mount",
+          "target": "Mount",
+          "probability": 60
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Insufficient figure-four tightness allowing space between your wrists",
+      "consequence": "Allows opponent to slip their arm out or reduces control, weakening the submission threat and positional dominance",
+      "correction": "Keep your hands tightly interlocked with your wrists close together, eliminating any space in the figure-four configuration. If you feel the opponent's arm moving independently or your grip feels loose, immediately retighten the lock"
+    },
+    {
+      "error": "Over-rotating too quickly without establishing proper control",
+      "consequence": "Opponent can roll with the rotation to escape or counter, potentially reversing position or injuring their shoulder before they can tap",
+      "correction": "Apply rotation gradually and progressively, ensuring your hips are connected and your body position is secure before increasing pressure. Control the pace of submission to maintain safety and positional dominance"
+    },
+    {
+      "error": "Losing hip connection while pursuing the Kimura finish",
+      "consequence": "Opponent creates space to escape or counter-attack, negating your positional advantage and potentially allowing them to recover guard or reverse",
+      "correction": "Maintain constant hip pressure and connection throughout the Kimura attack. Your hips should always be positioned to generate leverage while preventing opponent's movement"
+    },
+    {
+      "error": "Failing to control opponent's head or other arm",
+      "consequence": "Opponent can use their free limbs to create frames, push away, or establish defensive grips that compromise your Kimura control",
+      "correction": "Use your free hand (when not gripping) to control their head with a crossface or secure their far arm. This eliminates their ability to create effective defensive structures"
+    },
+    {
+      "error": "Not recognizing when to transition to alternative attacks",
+      "consequence": "Wasting energy forcing a Kimura that's well-defended while missing high-percentage opportunities for back takes, armbars, or other submissions",
+      "correction": "Develop sensitivity to opponent's defensive reactions. When Kimura is blocked, immediately flow to back control when they roll, armbar when they straighten, or triangle when they create space"
+    },
+    {
+      "error": "Gripping too high on opponent's wrist instead of controlling near the hand",
+      "consequence": "Reduces leverage and gives opponent more range of motion to defend, making the figure-four weaker and easier to escape",
+      "correction": "Control their wrist as close to their hand as possible, maximizing your leverage advantage and minimizing their ability to rotate out of the position"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Figure-Four Grip Establishment Drill",
+      "description": "Practice establishing the figure-four grip from various positions with partner providing progressive resistance from 0% to 75%, focusing on quick hand transitions and proper wrist locking. Start from side control, half guard, closed guard, and standing positions, performing 10 repetitions from each starting position. Emphasize smooth entry and tight grip completion.",
+      "duration": "10 minutes"
+    },
+    {
+      "name": "Kimura to Back Take Flow Drill",
+      "description": "Drill the transition from Kimura Control to Back Control when partner rolls to escape. Partner should roll at moderate speed while you focus on maintaining the Kimura grip throughout the transition and establishing hooks smoothly. Practice 15 repetitions per side, alternating who has the Kimura. Focus on following their movement fluidly without losing control.",
+      "duration": "8 minutes"
+    },
+    {
+      "name": "Multi-Option Kimura Chain Drill",
+      "description": "Practice flowing between Kimura finish, armbar, triangle, and sweep based on partner's defensive reactions. Partner defends realistically at 50-60% intensity, varying their responses randomly. Perform 20 total transitions, focusing on smooth recognition of which option is available based on opponent's response. Develop sensitivity to defensive patterns and automatic transition reflexes.",
+      "duration": "12 minutes"
+    },
+    {
+      "name": "Kimura Retention Under Pressure",
+      "description": "Establish Kimura Control from side control and maintain the position while partner attempts to escape at 70-80% intensity for 2-minute rounds. Focus on keeping the figure-four tight, maintaining hip connection, and controlling their movement without necessarily finishing. Reset when position is lost or submission is achieved. Perform 5 rounds with 1-minute rest between rounds.",
+      "duration": "15 minutes"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Direct Kimura Finish Path",
+      "path": "Kimura Control → Progressive shoulder rotation → Kimura finish → Won by Submission"
+    },
+    {
+      "name": "Back Attack Path via Roll Defense",
+      "path": "Kimura Control → Opponent rolls to escape → Kimura to Back Take → Back Control → Rear Naked Choke → Won by Submission"
+    },
+    {
+      "name": "Armbar Chain via Arm Straightening",
+      "path": "Kimura Control → Opponent straightens arm → Armbar from Side Control → Armbar Control → Straight Armbar → Won by Submission"
+    },
+    {
+      "name": "Triangle Path via Space Creation",
+      "path": "Kimura Control → Opponent creates space → Triangle Setup → Triangle Control → Triangle Choke → Won by Submission"
+    },
+    {
+      "name": "Sweep to Mount Submission Path",
+      "path": "Kimura Control from bottom → Kimura sweep → Mount → Armbar from Mount → Armbar Control → Won by Submission"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Kimura Trap Position",
+      "relationship": "Specialized variation emphasizing extended control and multiple attack chains"
+    },
+    {
+      "name": "Kimura Trap System",
+      "relationship": "Strategic framework built around Kimura Control as central hub"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "High-percentage transition target when opponent rolls to escape"
+    },
+    {
+      "name": "Armbar Control",
+      "relationship": "Alternative submission when opponent straightens arm to defend"
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "Switching option when opponent creates space defending Kimura"
+    },
+    {
+      "name": "Side Control Top",
+      "relationship": "Common starting position for establishing Kimura Control"
+    },
+    {
+      "name": "Half Guard Bottom",
+      "relationship": "Bottom position where Kimura is highly effective for sweeps and back takes"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Transition position that maintains Kimura grip with different angle"
+    },
+    {
+      "name": "Kimura from Side Control",
+      "relationship": "Primary entry method for establishing control from top position"
+    },
+    {
+      "name": "Kimura from Half Guard",
+      "relationship": "Bottom position entry emphasizing sweeps and back attacks"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "advancement_probability": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "submission_probability": {
+      "beginner": 20,
+      "intermediate": 35,
+      "advanced": 50
+    },
+    "average_time": "30-90 seconds before transition or finish"
+  },
+  "expert_insights": {
+    "danaher": "The Kimura Control position represents one of the most biomechanically advantageous configurations in grappling. The figure-four grip creates what I call a 'structural lock' - a configuration where the opponent's defensive strength is minimized while your offensive leverage is maximized through mechanical advantage. The key to understanding Kimura Control is recognizing it as a control position first and submission second. When you maintain proper hip connection and figure-four integrity, you create a steering mechanism that allows you to direct the opponent's movement while threatening multiple offensive pathways. The shoulder joint's vulnerability to rotation combined with your ability to use your entire body weight against their single arm creates an asymmetrical advantage that persists across skill levels. Most importantly, the Kimura Control serves as a hub in what I call the 'submission ecosystem' - from this single position, you have immediate access to back attacks when they roll, armbars when they straighten, and triangles when they create space. This multi-directional threat matrix forces opponents into decision-making dilemmas where every defensive choice opens a different offensive pathway.",
+    "gordon_ryan": "In competition, the Kimura is my go-to control from multiple positions because it works at every level. From half guard bottom, I use it to sweep or take the back - the opponent has to choose which one to give me. From top positions, I use it to maintain dominance while threatening the finish. The most important aspect is understanding that the Kimura grip is a steering wheel - you're not just trying to submit, you're using it to control where the match goes. When someone defends the Kimura by grabbing their belt, that's when I switch to wrist locks or use their defensive grip against them. I've finished world champions with the Kimura, and I've used it to set up back takes against the best in the world. The percentage on the direct finish is actually higher than people think when you apply it correctly - I probably tap people with straight Kimuras about 40% of the time I lock it in during competition. The other 60% turns into back control or mount, which is still a win. My advice is to never let go of the Kimura grip unless you're switching to something better. That grip is gold, and you can ride it through multiple positions if you maintain your connection and keep the pressure on their shoulder.",
+    "eddie_bravo": "The Kimura is central to the 10th Planet system, especially from the lockdown position in half guard. We use it to create what I call the 'Kimura Trap' - a position where the opponent is completely stuck dealing with the Kimura threat while we attack their back or go for other submissions. The beauty of the Kimura Control is how it chains into everything else. From the trap, you can hit the electric chair sweep, take the back, or finish the Kimura itself. It's about creating multiple threats simultaneously so the opponent can't focus on defending just one attack. What makes the Kimura so special in our system is that it works without the gi, which is crucial for MMA and no-gi competition. I've seen fighters use the Kimura to completely control where a fight goes - you get that grip and suddenly you're dictating whether it stays standing, goes to the ground, or where the ground position ends up. We drill Kimura entries from everywhere - from standing, from bottom guard, from top position, even from weird scrambles. The more you understand the Kimura as a control position rather than just a submission, the more dangerous you become because you start seeing opportunities everywhere."
+  }
+}
+{
+  "metadata": {
+    "title": "Kimura Control Top | BJJ Position Guide | BJJ Graph",
+    "description": "Master Kimura Control Top in BJJ. Dominant shoulder lock control position with 80% submission rate. Complete guide covering setup, finishing mechanics, and transitions.",
+    "state_id": "S096",
+    "tags": ["bjj", "position", "kimura", "submission-control", "shoulder-lock", "top-position", "arm-control"],
+    "parent_variant": "Kimura Control",
+    "sibling_variants": ["Kimura Control Bottom"]
+  },
+  "overview": "Kimura Control Top represents one of the most versatile control positions in Brazilian Jiu-Jitsu, where the top practitioner secures a figure-four grip on the opponent's arm while maintaining dominant positional control. This position combines elements of both positional dominance and submission threat, creating a powerful dilemma for the bottom player who must defend against both the immediate shoulder lock danger and potential positional advancement. The Kimura grip itself - achieved by controlling the opponent's wrist with one hand while threading the other arm under their elbow and clasping the hands together - provides exceptional control over the opponent's shoulder girdle and upper body movement.\n\nThe strategic value of Kimura Control Top extends far beyond the submission itself. The grip serves as a powerful control mechanism that can be used to break down defensive postures, facilitate sweeps from bottom positions, or create pathways to superior positions like back control or mount. From top positions, the Kimura grip allows the practitioner to manipulate the opponent's base, prevent escapes, and systematically advance position while maintaining the submission threat. This dual-purpose nature makes it a cornerstone technique in modern BJJ, particularly in no-gi contexts where traditional collar and sleeve grips are unavailable.\n\nHistorically named after Japanese judoka Masahiko Kimura, who famously defeated Hélio Gracie using this technique in 1951, the position has evolved significantly in contemporary grappling. Modern applications emphasize the grip as a control position rather than purely as a submission finish, with practitioners like John Danaher systematizing its use as part of comprehensive attacking sequences. The position's effectiveness stems from its mechanical advantage - the figure-four configuration allows the practitioner to apply rotational force against the shoulder joint while using their entire body weight and core strength, creating leverage that is extremely difficult to counter through strength alone.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Low to Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium to Long"
+  },
+  "state_invariants": [
+    "Figure-four grip secured on opponent's arm with practitioner's hand controlling opponent's wrist, other arm threaded under opponent's elbow, and hands clasped together creating locked configuration",
+    "Opponent's arm isolated and controlled with elbow directed away from their body, creating angular pressure on shoulder joint and limiting defensive options",
+    "Top practitioner's body positioned to generate rotational torque through hip pressure and upper body positioning, using core engagement to amplify mechanical advantage of the grip",
+    "Opponent's shoulder mobility restricted with trapped arm unable to return to defensive position against torso, creating vulnerability to both submission and positional advancement",
+    "Top practitioner's base stable and structured to prevent counters while maintaining ability to follow opponent's defensive movements and adjust pressure angles"
+  ],
+  "prerequisites": [
+    "Successful isolation of opponent's arm from defensive position or frame",
+    "Ability to thread arm under opponent's elbow and establish wrist control",
+    "Secure figure-four hand clasp with proper palm-to-palm or wrist-to-wrist connection",
+    "Top position established with ability to generate downward pressure",
+    "Opponent's defensive posture compromised or shoulder exposed through positional work",
+    "Understanding of shoulder joint mechanics and safe submission application"
+  ],
+  "key_principles": [
+    "Maintain constant tension in the figure-four grip without allowing opponent's arm to collapse back to defensive position",
+    "Use hip pressure and body weight to pin opponent's shoulder to mat while creating rotational torque",
+    "Keep opponent's elbow directed away from their centerline at 90-degree angle to maximize leverage",
+    "Control opponent's upper body movement through grip while preventing escape to neutral positions",
+    "Adjust grip position and body angle dynamically as opponent attempts to relieve pressure",
+    "Combine submission threat with positional advancement opportunities to create offensive dilemmas",
+    "Apply rotational pressure progressively and safely, respecting joint integrity while securing tap"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Kimura",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 65,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "Kimura to Back Take",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Side Control to Mount",
+      "target_position": "Mount Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Transition to North-South",
+      "target_position": "North-South Top",
+      "success_rates": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "Armbar from Side Control",
+      "target_position": "Armbar Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Rolling Kimura",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Hip Escape",
+      "target_position": "Half Guard Bottom",
+      "success_rate": 25
+    },
+    {
+      "technique": "Elbow Escape",
+      "target_position": "Closed Guard Bottom",
+      "success_rate": 20
+    },
+    {
+      "technique": "Bridge and Roll",
+      "target_position": "Mount Bottom",
+      "success_rate": 15
+    },
+    {
+      "technique": "Kimura Defense",
+      "target_position": "Side Control Bottom",
+      "success_rate": 30
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Kimura to Back Take",
+      "target_position": "Back Control Top",
+      "trigger": "Opponent attempts to roll away from pressure to relieve shoulder torque"
+    },
+    {
+      "technique": "Transition to Mount",
+      "target_position": "Mount Top",
+      "trigger": "Opponent turns into position to defend Kimura, exposing back and creating mount entry"
+    },
+    {
+      "technique": "Armbar from Side Control",
+      "target_position": "Armbar Control Top",
+      "trigger": "Opponent straightens arm in defensive response to Kimura pressure"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent keeps arm bent and tight to body defending submission finish",
+      "actions": [
+        {
+          "technique": "Kimura to Back Take",
+          "target": "Back Control Top",
+          "probability": 65
+        },
+        {
+          "technique": "Transition to Mount",
+          "target": "Mount Top",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent extends arm or posts to prevent positional advancement",
+      "actions": [
+        {
+          "technique": "Kimura",
+          "target": "Won by Submission",
+          "probability": 75
+        },
+        {
+          "technique": "Armbar from Side Control",
+          "target": "Armbar Control Top",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent turns shoulders toward trapped arm to relieve rotational pressure",
+      "actions": [
+        {
+          "technique": "Rolling Kimura",
+          "target": "Back Control Top",
+          "probability": 70
+        },
+        {
+          "technique": "Transition to North-South",
+          "target": "North-South Top",
+          "probability": 65
+        }
+      ]
+    },
+    {
+      "condition": "If opponent bridges or attempts to create space with hips",
+      "actions": [
+        {
+          "technique": "Side Control to Mount",
+          "target": "Mount Top",
+          "probability": 60
+        },
+        {
+          "technique": "Transition to North-South",
+          "target": "North-South Top",
+          "probability": 55
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Releasing grip tension prematurely when transitioning positions",
+      "consequence": "Opponent escapes arm control and recovers defensive guard or neutral position",
+      "correction": "Maintain figure-four grip throughout all transitions, using it as anchor point for position changes"
+    },
+    {
+      "error": "Applying excessive rotational force too quickly without progressive pressure",
+      "consequence": "Risk of shoulder injury to training partner and development of dangerous training habits",
+      "correction": "Build pressure gradually with controlled rotation, allowing partner time to tap and developing sensitivity to joint limits"
+    },
+    {
+      "error": "Failing to pin opponent's shoulder to mat while attempting finish",
+      "consequence": "Opponent creates space and relieves pressure by lifting shoulder, neutralizing submission threat",
+      "correction": "Use chest and shoulder pressure to anchor opponent's shoulder girdle before applying rotational torque"
+    },
+    {
+      "error": "Allowing opponent's elbow to return to centerline defensive position",
+      "consequence": "Loss of mechanical advantage and submission threat, returning to neutral control position",
+      "correction": "Actively maintain 90-degree angle with opponent's elbow directed away from their body using constant grip pressure"
+    },
+    {
+      "error": "Neglecting base and hip positioning while focusing solely on arm control",
+      "consequence": "Opponent bridges or shrimps to escape, using top practitioner's lack of base to create space",
+      "correction": "Coordinate grip control with proper hip positioning and base, using lower body to control opponent's movement"
+    },
+    {
+      "error": "Gripping opponent's gi sleeve instead of direct wrist control in no-gi situations",
+      "consequence": "Loss of grip control when opponent pulls arm free from sleeve grip",
+      "correction": "Establish direct skin-to-skin wrist control with thumb-side grip, securing bone-on-bone connection"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Kimura Grip Retention Drill",
+      "description": "Partner starts in side control bottom with Kimura grip established. Bottom partner attempts to defend and escape using various methods (pulling elbow to centerline, bridging, turning into position) while top partner maintains grip and adjusts position. Practice 2-minute rounds focusing on grip retention without submission finish.",
+      "duration": "3 rounds of 2 minutes"
+    },
+    {
+      "name": "Kimura to Back Take Flow Drill",
+      "description": "Top partner establishes Kimura grip from side control. Bottom partner rolls away to defend, top partner follows with rolling motion to establish back control while maintaining Kimura grip throughout transition. Repeat 10 repetitions each side, focusing on smooth connection between positions.",
+      "duration": "5 minutes per side"
+    },
+    {
+      "name": "Progressive Kimura Pressure Application",
+      "description": "With cooperative partner, practice applying Kimura submission with graduated pressure levels. Start at 20% pressure, gradually increase to 50%, then 70%, communicating throughout. Partner provides feedback on pressure sensation and taps at appropriate threshold. Develops sensitivity and control for safe application.",
+      "duration": "10 repetitions at each pressure level"
+    },
+    {
+      "name": "Kimura Position Transitions",
+      "description": "Starting from Kimura Control Top, flow between mount, north-south, and back control while maintaining grip. Partner provides light resistance. Focus on using Kimura grip as steering mechanism for position changes. Complete 5 full cycles of all three positions.",
+      "duration": "10 minutes"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Direct submission path",
+      "path": "Side Control Top → Kimura Control Top → Kimura → Won by Submission"
+    },
+    {
+      "name": "Back take variation path",
+      "path": "Side Control Top → Kimura Control Top → Kimura to Back Take → Back Control Top → Rear Naked Choke → Won by Submission"
+    },
+    {
+      "name": "Mount attack path",
+      "path": "Side Control Top → Kimura Control Top → Transition to Mount → Mount Top → Armbar from Mount → Won by Submission"
+    },
+    {
+      "name": "North-South transition path",
+      "path": "Side Control Top → Kimura Control Top → Transition to North-South → North-South Top → North-South to Kimura → Kimura → Won by Submission"
+    },
+    {
+      "name": "Armbar switch path",
+      "path": "Side Control Top → Kimura Control Top → Armbar from Side Control → Armbar Control Top → Armbar Finish → Won by Submission"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Kimura Trap Top",
+      "relationship": "Variation - uses Kimura grip with different body configuration for control"
+    },
+    {
+      "name": "Side Control Top",
+      "relationship": "Entry position - common starting point for establishing Kimura Control"
+    },
+    {
+      "name": "Back Control Top",
+      "relationship": "Transition target - frequent advancement when opponent defends Kimura"
+    },
+    {
+      "name": "Kimura from Side Control",
+      "relationship": "Primary submission - finishing technique from this control position"
+    },
+    {
+      "name": "Kimura Trap System",
+      "relationship": "Related system - comprehensive approach to Kimura-based attacks"
+    },
+    {
+      "name": "North-South Top",
+      "relationship": "Transition target - alternative position maintaining Kimura grip"
+    },
+    {
+      "name": "Americana Control Top",
+      "relationship": "Similar position - related shoulder lock control from top"
+    },
+    {
+      "name": "Mount Top",
+      "relationship": "Transition target - advanced position accessible via Kimura grip control"
+    },
+    {
+      "name": "Submission Control Position",
+      "relationship": "Concept - theoretical framework for submission-focused positions"
+    },
+    {
+      "name": "Danaher Straight Jacket System",
+      "relationship": "Related system - includes Kimura Control as key component"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 55,
+      "intermediate": 70,
+      "advanced": 85
+    },
+    "advancement_probability": {
+      "beginner": 45,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "submission_probability": {
+      "beginner": 40,
+      "intermediate": 60,
+      "advanced": 80
+    },
+    "average_time": "30-90 seconds"
+  },
+  "expert_insights": {
+    "danaher": "The Kimura grip represents far more than a simple submission hold - it is a comprehensive control system that fundamentally alters the strategic landscape of positional grappling. When we analyze the biomechanics of the figure-four configuration, we observe that it creates a closed kinetic chain where the practitioner's two arms working in concert generate rotational torque against a single joint, the shoulder. This mechanical advantage is profound, but the true sophistication lies in understanding the Kimura as a steering mechanism for the entire upper body. The grip allows you to manipulate your opponent's shoulder girdle, effectively controlling their ability to base, frame, or generate explosive movement. From a systematic perspective, I teach my students to view Kimura Control not as a destination but as a highway intersection - a position from which multiple high-percentage pathways emerge. The key principle is maintaining constant tension in the grip while using it to nullify defensive frames and create positional advancement opportunities. When the opponent defends the submission by keeping their arm bent and close to their body, this very defense exposes their back. When they extend the arm to prevent back exposure, they surrender to the submission. This is the essence of systematic offense - creating scenarios where every defensive option available to the opponent leads to a different form of defeat.",
+    "gordon_ryan": "In competition, Kimura Control Top is one of my highest-percentage positions because it puts opponents in an impossible bind - they have to choose between getting submitted or giving up their back, and either way I'm winning. The thing most people don't understand is that I'm never really trying to finish the Kimura from side control in a match. I'm using that grip to make them panic and move, and when they move, I'm taking their back or moving to mount. Against high-level guys, the second I lock up that figure-four grip, I can feel them tense up because they know what's coming. If they try to defend by keeping their elbow tight, I'm already stepping over for the back take. If they extend to prevent the back take, I'm cranking the finish. In my matches against guys like Felipe Pena or Marcus Almeida, I used the Kimura grip as my primary control mechanism to break down their defensive structures. The beauty of this position is that it works at every level - white belts tap to the submission, black belts give up their back trying to defend it. I've won multiple ADCC and No-Gi Worlds matches by securing this grip from various positions and then methodically working through the decision tree until my opponent makes a mistake. The key in competition is patience - once you have the grip, you're in control, so don't rush. Let them make the defensive error that creates your finishing opportunity.",
+    "eddie_bravo": "The Kimura grip is absolutely fundamental to the 10th Planet system, and we approach it way differently than traditional schools. We call it the 'power grip' because once you lock it in, you basically have a joystick to control their whole upper body. From our rubber guard system, we use the Kimura as both a sweep mechanism and a back-take entry. The zombie position, the crack-head control - these are all built around that Kimura grip configuration. What I love about Kimura Control from top is how it translates perfectly to MMA. When I was coaching Tony Ferguson, we worked extensively on using the Kimura grip to control posture in the clinch and on the ground. In MMA, you can't always finish the submission because of the gloves and the sweat, but that grip lets you control position and land strikes while your opponent is helpless. One thing we emphasize in 10th Planet that you don't see as much in traditional BJJ is the dynamic Kimura - we're constantly switching angles, rolling through, and using that grip to create momentum for sweeps and reversals. From top position specifically, we teach the 'prison rules' variation where you walk your feet around their head while maintaining the grip, creating different angles of attack. The innovation in our approach is recognizing that the Kimura isn't just a shoulder lock - it's a complete control system that opens up a whole world of attacks, transitions, and submissions that most people never explore."
+  }
+}
+{
+  "metadata": {
+    "title": "Kimura Control Bottom Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master Kimura Control from bottom in BJJ. Comprehensive guide covering shoulder lock setup, sweeps, and transitions. Control position with 60% submission rate from bottom.",
+    "state_id": "S321",
+    "tags": ["bjj", "position", "kimura-control", "submission-control", "bottom-position", "shoulder-lock", "sweep-opportunity"],
+    "parent_variant": "Kimura Control",
+    "sibling_variants": ["Kimura Control Top"]
+  },
+
+  "overview": "Kimura Control Bottom Position represents a powerful controlling state where the bottom practitioner has secured a kimura grip on their opponent's arm while being underneath. This position fundamentally inverts the traditional power dynamic of bottom positions by giving the bottom player a dominant shoulder lock control that can lead to sweeps, submissions, or transitions to superior positions. The kimura grip (figure-four lock on the opponent's arm with wrist control) creates a mechanical advantage that allows the bottom practitioner to manipulate their opponent's posture, base, and movement options.\n\nFrom bottom, the kimura control serves as both an offensive weapon and a positional improvement tool. The grip itself threatens immediate submission while simultaneously compromising the top player's ability to maintain base and pass guard effectively. This dual-threat nature makes kimura control from bottom one of the highest-percentage positions for reversing disadvantageous situations. The position is particularly effective from half guard bottom, closed guard bottom, and side control bottom escapes, where the kimura grip can be used to sweep, transition to back control, or finish the submission directly.\n\nThe strategic value of kimura control from bottom lies in its ability to create multiple dilemmas for the opponent. The top player must defend the submission threat while maintaining base and position, often leading to compromised posture that opens sweep opportunities. Expert practitioners use kimura control as an entry point into systematic attacking sequences rather than isolated submission attempts, making it a cornerstone of modern bottom game development.",
+
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive with offensive options",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium to Long"
+  },
+
+  "state_invariants": [
+    "Bottom practitioner maintains figure-four kimura grip on opponent's arm with their far hand controlling opponent's wrist, near hand threaded under opponent's arm to grip own wrist, creating closed loop that controls shoulder joint and prevents escape",
+    "Bottom practitioner's body positioned underneath opponent with hips maintaining mobility and ability to bridge, shrimp, or elevate, preventing full settling of opponent's weight while maintaining grip integrity",
+    "Opponent's trapped arm bent at approximately 90 degrees or greater with elbow raised away from their body, creating leverage for shoulder lock and limiting their ability to post, base, or apply pressure effectively",
+    "Bottom practitioner's head and shoulders angled toward opponent's trapped arm side, maintaining close connection that prevents opponent from straightening arm or creating distance to escape the grip",
+    "Bottom practitioner's legs actively engaged with hooks, frames, or guard retention structures that prevent opponent from advancing position while kimura control is maintained"
+  ],
+
+  "prerequisites": [
+    "Establishment of kimura grip (figure-four) on opponent's arm from bottom position",
+    "Opponent's arm isolated and bent at elbow with wrist control secured",
+    "Bottom practitioner has sufficient space and mobility to maintain grip while moving hips",
+    "Opponent positioned on top with trapped arm creating structural weakness in their base",
+    "Bottom practitioner's body not completely flattened, maintaining ability to generate movement"
+  ],
+
+  "key_principles": [
+    "Maintain constant pressure on kimura grip by keeping elbows tight to body and pulling opponent's wrist toward own shoulder, creating continuous submission threat that prevents opponent from settling",
+    "Use kimura grip to control opponent's shoulder rotation and posture, preventing them from achieving stable base or effective passing pressure",
+    "Keep hips mobile and active underneath opponent, using bridge, shrimp, and hip escape movements to create angles while maintaining grip integrity",
+    "Angle body and head toward opponent's trapped arm side to prevent arm straightening and maintain close connection that maximizes control",
+    "Coordinate grip maintenance with leg activity (guard retention, hooks, frames) to prevent position advancement while setting up sweeps or transitions",
+    "Use opponent's defensive reactions to kimura threat as triggers for sweep entries or positional improvements",
+    "Maintain tension in the grip throughout all movements, never releasing pressure even when transitioning between positions or sweep attempts"
+  ],
+
+  "offensive_transitions": [
+    {
+      "technique": "Kimura Sweep from Half Guard",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Kimura to Back Take",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Rolling Kimura",
+      "target_position": "Mount Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Kimura from Guard",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Kimura Sweep to Mount",
+      "target_position": "Mount Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Kimura to Triangle Setup",
+      "target_position": "Triangle Control Bottom",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Guard Recovery with Kimura",
+      "target_position": "Closed Guard Bottom",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Kimura Armbar Transition",
+      "target_position": "Armbar Control Bottom",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    }
+  ],
+
+  "defensive_responses": [
+    {
+      "technique": "Kimura Defense with Arm Extraction",
+      "target_position": "Side Control Top",
+      "success_rate": 35
+    },
+    {
+      "technique": "Posture Recovery and Grip Break",
+      "target_position": "Half Guard Top",
+      "success_rate": 40
+    },
+    {
+      "technique": "Base Widening with Pressure",
+      "target_position": "Side Control Top",
+      "success_rate": 30
+    },
+    {
+      "technique": "Roll Through Counter",
+      "target_position": "Kimura Control Top",
+      "success_rate": 25
+    },
+    {
+      "technique": "Arm Straightening Escape",
+      "target_position": "Guard Top Position",
+      "success_rate": 35
+    }
+  ],
+
+  "counter_transitions": [
+    {
+      "technique": "Kimura Adjustment to Sweep",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent attempts to pull arm free by straightening elbow"
+    },
+    {
+      "technique": "Switch to Triangle",
+      "target_position": "Triangle Control Bottom",
+      "trigger": "Opponent postures up aggressively to escape kimura grip"
+    },
+    {
+      "technique": "Back Take Counter",
+      "target_position": "Back Control Top",
+      "trigger": "Opponent rolls to defend kimura submission"
+    },
+    {
+      "technique": "Armbar Finish",
+      "target_position": "Armbar Control Bottom",
+      "trigger": "Opponent attempts to stack or drive forward with trapped arm"
+    },
+    {
+      "technique": "Reverse Kimura Sweep",
+      "target_position": "Mount Top",
+      "trigger": "Opponent shifts weight away from trapped arm side"
+    }
+  ],
+
+  "decision_tree": [
+    {
+      "condition": "If opponent maintains forward pressure and tries to settle weight while defending kimura grip",
+      "actions": [
+        {
+          "technique": "Hip Escape and Kimura Sweep",
+          "target": "Side Control Top",
+          "probability": 60
+        },
+        {
+          "technique": "Transition to Guard Recovery",
+          "target": "Closed Guard Bottom",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent postures up aggressively to break kimura grip or create distance",
+      "actions": [
+        {
+          "technique": "Switch to Triangle Setup",
+          "target": "Triangle Control Bottom",
+          "probability": 50
+        },
+        {
+          "technique": "Elevate and Roll to Mount",
+          "target": "Mount Top",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent attempts to roll or turn into trapped arm to defend shoulder lock",
+      "actions": [
+        {
+          "technique": "Kimura to Back Take",
+          "target": "Back Control Top",
+          "probability": 65
+        },
+        {
+          "technique": "Rolling Kimura Finish",
+          "target": "Won by Submission",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent bases out wide with free arm to prevent sweep",
+      "actions": [
+        {
+          "technique": "Armbar Transition from Kimura",
+          "target": "Armbar Control Bottom",
+          "probability": 55
+        },
+        {
+          "technique": "Adjust Angle for Sweep",
+          "target": "Side Control Top",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent attempts to stack or drive through kimura control",
+      "actions": [
+        {
+          "technique": "Granby Roll to Back",
+          "target": "Back Control Top",
+          "probability": 45
+        },
+        {
+          "technique": "Omoplata Transition",
+          "target": "Omoplata Control Bottom",
+          "probability": 40
+        }
+      ]
+    }
+  ],
+
+  "common_errors": [
+    {
+      "error": "Releasing grip tension during movement or sweep attempts",
+      "consequence": "Opponent easily extracts arm and escapes control, often advancing to dominant passing position",
+      "correction": "Maintain constant pulling pressure on wrist toward your shoulder throughout all movements, treating grip as primary control point that must never weaken"
+    },
+    {
+      "error": "Allowing hips to become completely flattened underneath opponent",
+      "consequence": "Loss of mobility and ability to generate sweeping force, making position static and purely defensive",
+      "correction": "Keep hips active with constant micro-adjustments, maintaining space and angles that allow bridging, shrimping, and elevating movements"
+    },
+    {
+      "error": "Focusing solely on submission finish without using grip to set up sweeps",
+      "consequence": "Opponent defends by maintaining base and posture, stalling position without providing sweep opportunities",
+      "correction": "Use submission threat as tool to manipulate opponent's base and reactions, creating openings for sweeps and positional improvements"
+    },
+    {
+      "error": "Letting opponent straighten trapped arm by creating distance with head and shoulders",
+      "consequence": "Loss of kimura control as opponent pulls arm free and regains proper structure",
+      "correction": "Keep head and shoulders tight to opponent's trapped arm side, maintaining close connection that prevents arm extension"
+    },
+    {
+      "error": "Neglecting leg activity and guard retention while maintaining upper body grip",
+      "consequence": "Opponent advances position or achieves dominant control despite kimura grip being maintained",
+      "correction": "Coordinate kimura control with active guard retention using hooks, frames, and leg positioning to prevent passing"
+    },
+    {
+      "error": "Gripping only with arms without engaging core and back muscles",
+      "consequence": "Weak grip that fatigues quickly and provides insufficient control for sweeps or submissions",
+      "correction": "Engage lats and core to pull opponent's arm across your body, using whole upper body strength rather than isolated arm strength"
+    },
+    {
+      "error": "Attempting kimura finish before establishing proper angle and leverage",
+      "consequence": "Failed submission attempt that wastes energy and potentially allows opponent to escape control",
+      "correction": "Set up proper perpendicular angle to opponent's shoulder before applying finishing pressure, ensuring mechanical advantage is established"
+    }
+  ],
+
+  "training_drills": [
+    {
+      "name": "Kimura Grip Retention Drill",
+      "description": "Partner starts in side control top or half guard top while you maintain kimura grip from bottom. Partner attempts various escape methods (pulling arm free, posting, rolling) while you maintain grip integrity and adjust body position to prevent escape. Focus on grip maintenance under movement pressure.",
+      "duration": "3 minutes per round, 3-4 rounds"
+    },
+    {
+      "name": "Kimura Sweep Progression Drill",
+      "description": "From half guard bottom with kimura control established, practice systematic sweep entries using hip escape, bridge, and elevation. Partner provides progressive resistance from passive (50%) to active (90%). Complete sweep to side control or mount, then reset. Emphasize coordination of grip maintenance with sweeping mechanics.",
+      "duration": "5 minutes continuous, alternating roles"
+    },
+    {
+      "name": "Kimura to Back Take Flow Drill",
+      "description": "Partner in turtle or bottom position attempts to defend kimura control by rolling or turning into trapped arm. Practice following their roll to establish back control, maintaining grip throughout transition. Chain multiple repetitions smoothly, focusing on grip retention during dynamic movement.",
+      "duration": "4 minutes per round, both roles"
+    },
+    {
+      "name": "Kimura Multi-Attack Chain Drill",
+      "description": "From kimura control bottom position, flow through sequences: kimura sweep → if defended, switch to triangle setup → if defended, transition to armbar → if defended, return to kimura sweep with adjusted angle. Partner provides realistic defensive reactions to each attack, creating true branching decision tree practice.",
+      "duration": "6 minutes continuous flow"
+    },
+    {
+      "name": "Guard Recovery with Kimura Drill",
+      "description": "Start in compromised bottom positions (flattened half guard, side control bottom escape, turtle bottom) and establish kimura grip as first priority. Use grip to create space and movement to recover to better guard positions (closed guard, butterfly guard, half guard). Focus on using kimura control as recovery tool rather than immediate submission.",
+      "duration": "5 minutes, multiple scenarios"
+    }
+  ],
+
+  "optimal_submission_paths": [
+    {
+      "name": "Direct Kimura Finish Path",
+      "path": "Kimura Control Bottom → Angle Adjustment (perpendicular to shoulder) → Kimura → Won by Submission"
+    },
+    {
+      "name": "Sweep to Submission Path",
+      "path": "Kimura Control Bottom → Kimura Sweep → Side Control Top → Kimura from Side Control → Won by Submission"
+    },
+    {
+      "name": "Back Take Submission Path",
+      "path": "Kimura Control Bottom → Kimura to Back Take → Back Control Top → Rear Naked Choke → Won by Submission"
+    },
+    {
+      "name": "Triangle Transition Path",
+      "path": "Kimura Control Bottom → Switch to Triangle (when opponent postures) → Triangle Control Bottom → Triangle Choke → Won by Submission"
+    },
+    {
+      "name": "Armbar Conversion Path",
+      "path": "Kimura Control Bottom → Armbar Transition (when opponent bases out) → Armbar Control Bottom → Armbar Finish → Won by Submission"
+    },
+    {
+      "name": "Rolling Kimura Path",
+      "path": "Kimura Control Bottom → Rolling Kimura (when opponent defends by rolling) → Mount Top → Kimura from Mount → Won by Submission"
+    }
+  ],
+
+  "related_content": [
+    {
+      "name": "Kimura Control Top",
+      "relationship": "Sibling variant - opposite perspective of same control position"
+    },
+    {
+      "name": "Kimura Control",
+      "relationship": "Parent position - general kimura control framework"
+    },
+    {
+      "name": "Kimura Trap Bottom",
+      "relationship": "Similar position - related shoulder lock control from bottom"
+    },
+    {
+      "name": "Kimura from Half Guard",
+      "relationship": "Common entry submission - frequently accessed from this position"
+    },
+    {
+      "name": "Kimura to Back Take",
+      "relationship": "Primary offensive transition - highest percentage advancement"
+    },
+    {
+      "name": "Half Guard Bottom",
+      "relationship": "Common starting position - frequent entry point for kimura control"
+    },
+    {
+      "name": "Closed Guard Bottom",
+      "relationship": "Alternative entry position - kimura control often established from here"
+    },
+    {
+      "name": "Triangle Control Bottom",
+      "relationship": "Transition alternative - common switch when kimura is defended"
+    },
+    {
+      "name": "Armbar Control Bottom",
+      "relationship": "Transition alternative - conversion option from kimura grip"
+    },
+    {
+      "name": "Rolling Kimura",
+      "relationship": "Key transition technique - dynamic kimura application from bottom"
+    },
+    {
+      "name": "Submission Control Position",
+      "relationship": "Conceptual framework - principles of submission control from bottom"
+    },
+    {
+      "name": "Kimura Trap System",
+      "relationship": "System integration - systematic approach to kimura control positions"
+    }
+  ],
+
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 50,
+      "intermediate": 65,
+      "advanced": 80
+    },
+    "advancement_probability": {
+      "beginner": 40,
+      "intermediate": 55,
+      "advanced": 70
+    },
+    "submission_probability": {
+      "beginner": 25,
+      "intermediate": 40,
+      "advanced": 60
+    },
+    "average_time": "45-90 seconds before sweep, submission, or position change"
+  },
+
+  "expert_insights": {
+    "danaher": "The kimura control from bottom represents one of the most mechanically advantageous positions in grappling because it creates a fundamental asymmetry in the engagement - the bottom player controls the top player's shoulder joint through a figure-four configuration that provides tremendous leverage advantage despite the positional disadvantage of being underneath. The key to maximizing this position lies in understanding that the kimura grip functions as a positional control tool first and submission second. By maintaining constant tension in the grip while keeping your body angled toward the trapped arm, you create a situation where the opponent cannot effectively use that arm for posting, basing, or applying pressure. This structural compromise opens multiple attacking pathways - if they maintain forward pressure to prevent the sweep, you can finish the kimura; if they posture up to defend the submission, you can sweep; if they attempt to roll away from the pressure, you can take the back. The systematic approach is to use the kimura grip as a control point that forces the opponent into defensive reactions, then capitalize on those reactions with the appropriate counter-technique. The biomechanical principle at work is that shoulder joint manipulation from a figure-four grip provides sufficient control to negate the positional advantage of top position, making this one of the most powerful bottom position controls in the entire grappling system.",
+
+    "gordon_ryan": "Kimura control from bottom is one of my highest percentage positions for turning defense into offense, especially from half guard bottom where I can get the grip and immediately start hunting for the sweep or back take. The thing most people miss is that you don't hold the kimura grip passively - you need to be constantly pulling their wrist toward your shoulder with serious pressure, making them feel the submission threat every second. That constant threat is what makes them react, and their reactions are what give you the sweep. From competition experience, I've found that the kimura sweep from half guard has about a 70-80% success rate at the highest levels because even when they know it's coming, the mechanical advantage is so strong that they can't prevent it without giving up something else. The key details are keeping your outside leg butterfly hook active to elevate them as you sweep, and making sure you're angled toward their trapped arm so they can't pull it out. When I get this position in matches, I'm thinking about three things in order: first, can I sweep immediately; second, can I take the back if they defend the sweep by rolling; third, can I finish the kimura if they try to pressure through it. Having that clear hierarchy of attacks based on their defensive reactions is what makes the position work consistently at the championship level. The kimura from bottom is also a great recovery position - if you're in a bad spot getting smashed, establishing that grip gives you immediate relief and puts you back on offense.",
+
+    "eddie_bravo": "The kimura grip from bottom is absolutely essential in the 10th Planet system because it's one of the most versatile control positions that works both gi and no-gi, and it's a perfect example of how a submission hold can be used primarily as a positional control rather than just a finish. From the lockdown half guard, getting the kimura grip is one of our primary goals because it immediately neutralizes their top pressure and gives us multiple sweeping options - we can electric chair sweep them, we can use the kimura to help extend into old school sweep, or we can transition to the truck position if they defend by rolling. The creativity aspect comes in how you chain the kimura control with other 10th Planet positions - like using it to enter the rubber guard if you're in closed guard, or transitioning to the twister side control if you sweep them. One thing I emphasize with my students is not getting fixated on finishing the kimura from bottom unless the angle is perfect - the grip is more valuable as a control and sweeping tool than as a submission from most bottom positions. However, when you do get that perfect perpendicular angle where your body is at 90 degrees to their shoulder, finish it hard and fast because that's a high-percentage tap. The innovation in this position continues to evolve - we're always finding new ways to integrate kimura control with our leg lock entries, our back takes, and our rubber guard attacks, making it a central hub in the whole system rather than an isolated technique."
+  }
+}
+{
+  "metadata": {
+    "title": "Kimura Control Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master Kimura Control in BJJ. Figure-four grip creates shoulder lock threats and back takes. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.",
+    "state_id": "S101",
+    "tags": [
+      "bjj",
+      "position",
+      "submission-control",
+      "shoulder-lock",
+      "kimura",
+      "offensive",
+      "controlling"
+    ]
+  },
+  "overview": "Kimura Control Position is a specialized submission control state where the practitioner has established a figure-four grip (kimura grip) on one of the opponent's arms, creating immediate submission threats through shoulder rotation while simultaneously providing positional control and advancement opportunities. This position can be established from numerous scenarios including guard, top positions, scrambles, and defensive situations, making it one of BJJ's most versatile attacking configurations. The kimura grip functions as both a finishing mechanism for shoulder lock submission and a powerful control tool for sweeps, position advancement, and back takes.\n\nThe position's strategic value derives from creating multiple simultaneous threats that force opponents into defensive dilemmas where protecting against one attack opens vulnerabilities to others. Whether used as a primary submission attempt, a positional control tool, or a transitional mechanism, kimura control represents a high-level attacking framework that bridges positional grappling with submission-oriented strategy. The grip itself becomes a steering wheel that directs opponent movement, allowing the attacking practitioner to maintain offensive pressure while transitioning between positions, setting up complementary submissions, or advancing toward more dominant control positions.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+  "state_invariants": [
+    "Figure-four grip established on opponent's arm with your controlling hand gripping your own wrist firmly, creating a closed loop that secures the opponent's wrist while your other arm threads behind their elbow joint, forming the characteristic kimura configuration that provides both submission leverage and positional steering control",
+    "Opponent's arm bent at approximately 90 degrees at the elbow joint, creating the leverage fulcrum necessary for shoulder rotation and submission pressure, with their hand positioned near their own body centerline or pulled across toward your hip depending on the specific kimura variation being applied",
+    "Attacking practitioner's body positioned at an angle to the opponent's shoulder, typically 45-90 degrees off their centerline, allowing rotational force application through hip and torso movement rather than arm strength alone, with weight distribution optimized for maintaining grip security while generating effective leverage",
+    "Opponent displaying defensive awareness through base widening, posture adjustment, grip fighting attempts, or rolling movements to prevent submission completion or position advancement, requiring constant grip maintenance and pressure adjustment from the attacking practitioner"
+  ],
+  "prerequisites": [
+    "Access to opponent's arm in vulnerable position with wrist control established through gripping their hand, wrist, or sleeve",
+    "Ability to thread controlling arm behind opponent's elbow while maintaining wrist grip without opponent's defensive frames blocking access",
+    "Body positioning allowing figure-four grip completion with sufficient angle and distance for leverage application",
+    "Understanding of shoulder rotation mechanics and leverage principles for safe, effective pressure application that protects training partner from injury"
+  ],
+  "key_principles": [
+    "Maintain figure-four grip security throughout all transitions and submission attempts, treating the grip as foundational to all offensive options and never releasing prematurely",
+    "Control opponent's elbow position as the fulcrum for all shoulder pressure applications, keeping their elbow tight to your body to prevent leverage loss",
+    "Create angle and distance optimization between your body and their shoulder for maximum leverage through hip positioning and torso rotation",
+    "Use grip not only for submission but as positional control preventing opponent's movement and escapes, functioning as a steering wheel for position advancement",
+    "Apply rotational pressure gradually and progressively rather than explosive jerking movements to ensure safety and technical effectiveness while building submission pressure",
+    "Coordinate grip control with body positioning to create multiple simultaneous attacking threats including submission, sweeps, and back takes",
+    "Recognize and adapt to opponent's defensive responses with appropriate technical variations and position transitions rather than forcing single predetermined outcomes"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Kimura",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Kimura to Back Take",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Rolling Kimura",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Side Control to Mount",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Transition to North-South",
+      "target_position": "North-South",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "North-South to Kimura",
+      "target_position": "Kimura Trap Position",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Americana from Side Control",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Armbar from Side Control",
+      "target_position": "Armbar Control",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Kimura Defense",
+      "target_position": "Guard Recovery",
+      "success_rate": 40
+    },
+    {
+      "technique": "Rolling to Guard",
+      "target_position": "Closed Guard Bottom",
+      "success_rate": 35
+    },
+    {
+      "technique": "Hip Escape",
+      "target_position": "Half Guard Bottom",
+      "success_rate": 30
+    },
+    {
+      "technique": "Frame and Shrimp",
+      "target_position": "Defensive Position",
+      "success_rate": 45
+    },
+    {
+      "technique": "Standing up in Base",
+      "target_position": "Standing Position",
+      "success_rate": 25
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Kimura to Back Take",
+      "target_position": "Back Control",
+      "trigger": "Opponent attempts to roll out of kimura pressure by turning away from controlled arm, exposing their back"
+    },
+    {
+      "technique": "Rolling Kimura",
+      "target_position": "Mount",
+      "trigger": "Opponent drives into you attempting to relieve shoulder pressure by moving forward, allowing you to roll them over into mount"
+    },
+    {
+      "technique": "Side Control to Mount",
+      "target_position": "Mount",
+      "trigger": "Opponent flattens out and turns away from kimura grip, exposing back and allowing mount transition while maintaining grip control"
+    },
+    {
+      "technique": "Transition to North-South",
+      "target_position": "North-South",
+      "trigger": "Opponent bridges or attempts to create space by pushing into you, allowing weight transfer to north-south while maintaining kimura grip"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent keeps arm bent and defends shoulder by keeping elbow tight to body with strong posture",
+      "actions": [
+        {
+          "technique": "Kimura to Back Take",
+          "target": "Back Control",
+          "probability": 60
+        },
+        {
+          "technique": "Transition to North-South",
+          "target": "North-South",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent straightens arm attempting to relieve rotational pressure on shoulder",
+      "actions": [
+        {
+          "technique": "Kimura",
+          "target": "Won by Submission",
+          "probability": 65
+        },
+        {
+          "technique": "Armbar from Side Control",
+          "target": "Armbar Control",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent turns into kimura attempting to roll through and escape the shoulder lock",
+      "actions": [
+        {
+          "technique": "Rolling Kimura",
+          "target": "Mount",
+          "probability": 70
+        },
+        {
+          "technique": "North-South to Kimura",
+          "target": "Kimura Trap Position",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent creates strong frames and attempts to push you away to create space",
+      "actions": [
+        {
+          "technique": "Side Control to Mount",
+          "target": "Mount",
+          "probability": 60
+        },
+        {
+          "technique": "Transition to North-South",
+          "target": "North-South",
+          "probability": 65
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Shallow grip without full figure-four completion where wrist grip is loose or arm threading is incomplete",
+      "consequence": "Opponent easily strips the grip or escapes the control, nullifying all attacking opportunities and allowing them to recover guard or reverse position",
+      "correction": "Ensure complete figure-four by gripping your own wrist firmly with full hand contact, threading your arm deep behind opponent's elbow, and pulling their wrist tight to your chest before attempting any submission or transition"
+    },
+    {
+      "error": "Poor angle creation limiting rotational leverage with body positioned directly in line with opponent's shoulder",
+      "consequence": "Insufficient pressure on shoulder joint makes submission impossible and allows opponent to defend comfortably, often leading to stalemate or position loss",
+      "correction": "Step over opponent's head or adjust hips to create 45-90 degree angle relative to their shoulder, ensuring your body weight and rotation can generate effective leverage rather than relying on arm strength"
+    },
+    {
+      "error": "Static position without progressive pressure application, maintaining same grip position without adjustment",
+      "consequence": "Opponent adapts to static pressure and finds defensive solutions, often timing escapes or counters when you attempt to adjust grip or position",
+      "correction": "Constantly adjust angle, distance, and pressure intensity in progressive increments, keeping opponent reacting to evolving threats rather than settling into defensive patterns"
+    },
+    {
+      "error": "Releasing grip prematurely during transitions to other positions or submissions",
+      "consequence": "Loss of primary control mechanism allows opponent to immediately recover arm position, escape to better position, or counter-attack with their freed arm",
+      "correction": "Maintain kimura grip throughout all transitions, treating it as a steering wheel that controls opponent's movement even when shifting between positions or attacks"
+    },
+    {
+      "error": "Explosive jerking movements creating injury risk through rapid shoulder rotation",
+      "consequence": "Dangerous shoulder, elbow, or wrist injuries to training partner, loss of training partners due to unsafe technique application, and potential disciplinary action in competition or academy",
+      "correction": "Apply rotational pressure gradually and progressively over 3-5 seconds, allowing opponent time to tap and protecting joint integrity while developing technical precision in submission mechanics"
+    },
+    {
+      "error": "Focusing exclusively on submission finish without recognizing positional opportunities that defensive reactions create",
+      "consequence": "Missing high-percentage back takes, sweeps, or position advancements that opponent's defensive reactions create, leading to stalled positions or lost attacking opportunities",
+      "correction": "Recognize kimura control as a system with multiple branching paths, reading opponent's defensive choices and flowing to whichever attack they open rather than forcing single outcome"
+    },
+    {
+      "error": "Insufficient control of opponent's elbow position allowing it to move away from your body",
+      "consequence": "Loss of leverage fulcrum eliminates submission threat and allows opponent to straighten arm, strip grip, or escape control entirely",
+      "correction": "Pin opponent's elbow tight to your ribcage or hip, treating elbow control as the foundation of all kimura mechanics and preventing any space that allows arm movement"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Grip Establishment Practice",
+      "description": "Repetitive drilling of figure-four grip creation from various starting positions (side control, half guard, guard, turtle, scrambles) with focus on hand positioning and grip security, building automatic response patterns when arm becomes available. Partner provides progressive resistance starting passive and increasing to active grip fighting.",
+      "duration": "5 minutes per position, 3 rounds"
+    },
+    {
+      "name": "Submission Pressure Application",
+      "description": "Controlled submission attempts with partner providing feedback on pressure intensity and angle optimization, developing ability to apply effective submission pressure without injury risk. Partner taps at 50% pressure to train control, then practitioner releases immediately and resets. Focus on gradual progressive pressure over explosive movements.",
+      "duration": "10 minutes, 20-30 repetitions"
+    },
+    {
+      "name": "Positional Flow Drilling",
+      "description": "Flowing from kimura control to back take, mount, and side control transitions with increasing resistance levels. Partner defends kimura with specified responses (turning away, rolling through, pushing frames) while practitioner maintains grip and transitions to appropriate attack. Builds ability to maintain grip while advancing position.",
+      "duration": "5 minutes per defensive response, 3 rounds"
+    },
+    {
+      "name": "Kimura System Decision Tree Training",
+      "description": "Partner randomly selects defensive responses from decision tree options while practitioner must recognize and execute correct counter-transition. Emphasizes reading opponent reactions and flowing to appropriate attack rather than forcing predetermined sequences.",
+      "duration": "10 minutes, multiple rounds"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Direct Kimura Finish",
+      "path": "Kimura Control Position → Kimura (shoulder lock submission) → Won by Submission"
+    },
+    {
+      "name": "Back Attack Path",
+      "path": "Kimura Control Position → Kimura to Back Take → Back Control → Rear Naked Choke → Won by Submission"
+    },
+    {
+      "name": "Mount Transition Path",
+      "path": "Kimura Control Position → Rolling Kimura → Mount → Armbar from Mount → Won by Submission"
+    },
+    {
+      "name": "Kimura Trap System",
+      "path": "Kimura Control Position → North-South to Kimura → Kimura Trap Position → Kimura Variations → Won by Submission"
+    },
+    {
+      "name": "Americana Conversion",
+      "path": "Kimura Control Position → Side Control to Mount → Mount → Americana from Mount → Won by Submission"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Kimura Trap Position",
+      "relationship": "Advanced variation with trapped arm positioning creating enhanced control and submission finishing mechanics"
+    },
+    {
+      "name": "Side Control Top",
+      "relationship": "Primary position for establishing kimura control from top position with chest pressure and crossface"
+    },
+    {
+      "name": "Closed Guard Bottom",
+      "relationship": "Common position for initiating kimura attacks from guard, particularly against opponent's posting arm"
+    },
+    {
+      "name": "Half Guard Bottom",
+      "relationship": "Frequent kimura entry position when opponent attempts to pass or establish underhook control"
+    },
+    {
+      "name": "North-South",
+      "relationship": "Transition target that maintains kimura grip while changing angle and pressure vectors"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "High-percentage advancement option when opponent defends kimura by turning away from controlled arm"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Position advancement through rolling kimura when opponent drives into pressure"
+    },
+    {
+      "name": "Kimura Trap System",
+      "relationship": "Comprehensive systematic approach integrating kimura control across multiple positions and scenarios"
+    },
+    {
+      "name": "Submission Chains",
+      "relationship": "Conceptual framework for linking kimura threats with complementary submissions like americana and armbar"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "advancement_probability": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "submission_probability": {
+      "beginner": 20,
+      "intermediate": 35,
+      "advanced": 50
+    },
+    "average_time": "30-90 seconds before transition or submission attempt"
+  },
+  "expert_insights": {
+    "danaher": "The kimura represents far more than a simple shoulder lock submission - it constitutes a comprehensive control system that creates mechanical advantages across multiple positional contexts. The figure-four grip configuration generates what I term 'steering wheel control' where the opponent's arm becomes a lever directing their entire body movement. Systematically, I categorize kimura applications into distinct tactical families: guard kimuras focusing on sweeps and back exposure, top position kimuras emphasizing submission finishing and mount transitions, and scramble kimuras utilizing the grip to win position battles. The critical technical element lies in elbow control - the opponent's elbow must remain tight to your body as the leverage fulcrum, with shoulder rotation generated through hip and torso movement rather than arm strength. This biomechanical principle ensures both submission effectiveness and injury prevention while creating the positional control necessary for systematic position advancement when submission proves unavailable.",
+    "gordon_ryan": "In competition, I value kimura control primarily as a back take tool rather than a submission finish, though the submission threat creates the reactions enabling position advancement. When I establish kimura grip from guard, I'm immediately thinking about opponent's defensive responses - if they defend the shoulder lock by keeping their elbow tight and posture strong, they've given me the exact defensive structure I need to elevate them and take the back as they turn away from the pressure. From top positions like side control or half guard, kimura control functions as insurance against reversals while creating mount and back exposure opportunities when opponents panic about the shoulder lock. The key competitive element is maintaining grip security through transitions - I treat the kimura grip like a seatbelt that never releases regardless of position changes, using it to steer opponents into progressively worse positions. Modern high-level competitors have developed strong kimura defenses, so I've focused on using kimura threats to set up complementary attacks like arm triangles, back takes, and mount transitions rather than purely pursuing the shoulder lock finish.",
+    "eddie_bravo": "Within the 10th Planet system, we've developed numerous kimura variations that opponents typically haven't trained to defend because they emerge from unconventional positions and entry angles. The 'Carni-Kimura' from lockdown half guard creates a kimura grip while controlling opponent's leg, generating a submission control position that threatens both upper and lower body simultaneously. From rubber guard positions, we use kimura grips to break opponent's posture while setting up omoplata and triangle entries - the kimura functions as a destabilizing tool rather than the primary finish. I emphasize creative kimura applications where the grip itself becomes a transitional mechanism - using kimura control to facilitate truck entries, twister setups, and unconventional back takes that exploit opponent's focus on defending their shoulder. The beauty of kimura control lies in its adaptability - whether you're in gi or no-gi, top or bottom position, scrambling or controlling, the figure-four grip creates offensive opportunities that force defensive reactions. My students drill kimura entries from every conceivable position until the grip becomes an automatic response whenever an arm becomes available, building an opportunistic attacking mindset that capitalizes on opponent errors instantly."
+  }
+}
+{
+  "metadata": {
+    "title": "Kimura Control Top Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master Kimura Control Top in BJJ. Dominant shoulder lock control with 70% submission rate. Guide covers control maintenance and transitions.",
+    "state_id": "S121",
+    "tags": ["bjj", "position", "kimura-control", "top-position", "shoulder-lock", "submission-control"],
+    "parent_variant": "Kimura Control",
+    "sibling_variants": ["Kimura Control Bottom"]
+  },
+
+  "overview": "Kimura Control Top Position represents one of the most versatile and powerful control positions in Brazilian Jiu-Jitsu, characterized by securing a figure-four grip on the opponent's arm while maintaining top position. This dominant controlling position offers exceptional submission opportunities through the Kimura shoulder lock while simultaneously providing pathways to various positional advancements including back takes, sweeps when countered, and transitions to other submissions. The position derives its effectiveness from the mechanical advantage created by the double-joint attack on the shoulder, combining rotational pressure with potential hyperextension. Unlike many submission positions that require abandoning control to finish, Kimura Control Top allows the practitioner to maintain dominant positioning throughout the submission process, making it a cornerstone of modern competitive grappling. The position's strategic value extends beyond the immediate submission threat, as opponents attempting to defend the Kimura often expose their back or create opportunities for position advancement, exemplifying the principle of using submissions to improve position.",
+
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Low to Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium to Long"
+  },
+
+  "state_invariants": [
+    "Figure-four grip secured on opponent's arm with your same-side hand grasping your opposite wrist, creating a locked structural frame around the opponent's shoulder joint with your forearms forming perpendicular angles",
+    "Opponent's arm isolated and controlled with elbow bent at approximately 90 degrees, positioned away from their body centerline to prevent defensive framing or grip breaking attempts",
+    "Top position maintained with chest pressure directed toward opponent's shoulder complex, hips positioned to prevent escape while maintaining mobility for position transitions",
+    "Opponent's defensive posture compromised with shoulder girdle exposed and limited ability to create frames or establish guard retention structures due to arm isolation",
+    "Control maintained through combination of grip strength, body weight distribution, and strategic positioning that allows simultaneous submission threat and positional control"
+  ],
+
+  "prerequisites": [
+    "Successful isolation of opponent's arm during scramble, passing sequence, or submission setup",
+    "Establishment of figure-four grip with proper hand positioning and wrist control",
+    "Top position established with ability to apply chest pressure and control opponent's movement",
+    "Opponent's defensive frames broken or prevented through arm isolation",
+    "Sufficient grip strength and shoulder mobility to maintain Kimura grip under resistance"
+  ],
+
+  "key_principles": [
+    "Maintain constant upward and rotational pressure on isolated arm to prevent opponent from flattening elbow or recovering defensive position",
+    "Keep opponent's elbow elevated above their shoulder line to maximize submission pressure and prevent defensive posturing",
+    "Use chest pressure and body weight to pin opponent's shoulder to mat while controlling isolated arm",
+    "Position hips to maintain base and prevent opponent from using legs to create frames or recover guard",
+    "Continuously adjust grip to prevent opponent from straightening arm or breaking figure-four control",
+    "Create submission dilemma where defending Kimura exposes back or other submission opportunities",
+    "Maintain connection between your chest and opponent's shoulder complex to control their upper body rotation"
+  ],
+
+  "offensive_transitions": [
+    {
+      "technique": "Kimura Finish",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Kimura to Back Take",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "Transition to Armbar",
+      "target_position": "Armbar Control Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Transition to Americana",
+      "target_position": "Americana Control Top",
+      "success_rates": {
+        "beginner": 55,
+        "intermediate": 70,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "Transition to Mount",
+      "target_position": "Mount Top",
+      "success_rates": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Transition to North-South",
+      "target_position": "North-South Top",
+      "success_rates": {
+        "beginner": 60,
+        "intermediate": 70,
+        "advanced": 80
+      }
+    }
+  ],
+
+  "defensive_responses": [
+    {
+      "technique": "Hip Escape",
+      "target_position": "Guard Recovery Bottom Position",
+      "success_rate": 25
+    },
+    {
+      "technique": "Roll to Guard",
+      "target_position": "Closed Guard Bottom",
+      "success_rate": 30
+    },
+    {
+      "technique": "Grip Break Attempt",
+      "target_position": "Scramble Position",
+      "success_rate": 20
+    },
+    {
+      "technique": "Counter Roll",
+      "target_position": "Top Position",
+      "success_rate": 15
+    }
+  ],
+
+  "counter_transitions": [
+    {
+      "technique": "Back Take During Roll Defense",
+      "target_position": "Back Control Top",
+      "trigger": "Opponent attempts to roll forward to relieve shoulder pressure"
+    },
+    {
+      "technique": "Mount Transition",
+      "target_position": "Mount Top",
+      "trigger": "Opponent attempts to bridge or create space with hips"
+    },
+    {
+      "technique": "Armbar Switch",
+      "target_position": "Armbar Control Top",
+      "trigger": "Opponent straightens arm while attempting to defend Kimura rotation"
+    }
+  ],
+
+  "decision_tree": [
+    {
+      "condition": "If opponent attempts to roll forward to relieve shoulder pressure",
+      "actions": [
+        {
+          "technique": "Follow the roll maintaining Kimura grip",
+          "target": "Back Control Top",
+          "probability": 75
+        },
+        {
+          "technique": "Release and transition to mount during roll",
+          "target": "Mount Top",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent keeps elbow bent and defends rotation",
+      "actions": [
+        {
+          "technique": "Apply upward lifting pressure for submission",
+          "target": "Won by Submission",
+          "probability": 65
+        },
+        {
+          "technique": "Transition to Americana by changing angle",
+          "target": "Americana Control Top",
+          "probability": 70
+        }
+      ]
+    },
+    {
+      "condition": "If opponent straightens arm to defend",
+      "actions": [
+        {
+          "technique": "Switch to straight armbar",
+          "target": "Armbar Control Top",
+          "probability": 70
+        },
+        {
+          "technique": "Return to side control and reset",
+          "target": "Side Control Top",
+          "probability": 80
+        }
+      ]
+    },
+    {
+      "condition": "If opponent creates space with legs or hips",
+      "actions": [
+        {
+          "technique": "Step over to mount while maintaining grip",
+          "target": "Mount Top",
+          "probability": 65
+        },
+        {
+          "technique": "Transition to north-south maintaining control",
+          "target": "North-South Top",
+          "probability": 70
+        }
+      ]
+    }
+  ],
+
+  "common_errors": [
+    {
+      "error": "Releasing chest pressure while focusing on arm rotation",
+      "consequence": "Opponent creates space and escapes hips, recovering guard or defensive position",
+      "correction": "Maintain constant chest-to-shoulder pressure throughout submission attempt; rotation should come from hip movement, not releasing upper body control"
+    },
+    {
+      "error": "Allowing opponent's elbow to drop below shoulder line",
+      "consequence": "Opponent gains mechanical advantage to defend rotation and can potentially reverse position",
+      "correction": "Continuously lift elbow upward above shoulder line; use your body weight to prevent elbow from descending while rotating"
+    },
+    {
+      "error": "Gripping too high on opponent's wrist instead of forearm",
+      "consequence": "Insufficient leverage for rotation and opponent can slip wrist free from figure-four grip",
+      "correction": "Grip should be on opponent's forearm 2-3 inches below wrist joint; ensures maximum leverage and prevents grip escapes"
+    },
+    {
+      "error": "Rotating arm without proper angle away from opponent's body",
+      "consequence": "Reduced submission pressure and opponent can use their body structure to defend",
+      "correction": "Position opponent's arm at 90-degree angle from body before rotating; ensures proper shoulder isolation and maximum mechanical advantage"
+    },
+    {
+      "error": "Neglecting base and hip position while attacking submission",
+      "consequence": "Opponent sweeps or reverses position using legs to create frames or off-balance",
+      "correction": "Maintain wide base with knees and position hips to prevent leg-based escapes; submission and position maintenance are simultaneous priorities"
+    },
+    {
+      "error": "Using only arm strength instead of full body mechanics",
+      "consequence": "Premature fatigue and inability to finish submission against resistance",
+      "correction": "Drive submission with hip rotation and body weight; arms maintain grip while larger muscle groups generate finishing pressure"
+    }
+  ],
+
+  "training_drills": [
+    {
+      "name": "Kimura Grip Maintenance Drill",
+      "description": "Partner attempts to break Kimura grip using various hand fighting techniques while you maintain figure-four control and practice transitioning between different angles without losing grip. Focus on grip endurance and re-establishing control when challenged.",
+      "duration": "3 x 2-minute rounds"
+    },
+    {
+      "name": "Kimura to Back Take Flow Drill",
+      "description": "Starting from side control with Kimura grip secured, partner rolls forward to defend shoulder pressure. Practice following the roll smoothly while maintaining grip and establishing back control with hooks. Emphasize timing and weight distribution during transition.",
+      "duration": "10 repetitions per side"
+    },
+    {
+      "name": "Positional Sparring from Kimura Control",
+      "description": "Start with Kimura grip established from top position. Top player works to finish submission or advance position while bottom player defends and attempts to escape. Reset when submission is achieved or bottom player fully escapes to guard.",
+      "duration": "5-minute rounds, alternating positions"
+    },
+    {
+      "name": "Submission Chain Drill",
+      "description": "Practice flowing between Kimura, Americana, and armbar based on opponent's defensive reactions. Partner provides specific defensive responses (straightening arm, keeping elbow bent, creating space) and you respond with appropriate submission transition.",
+      "duration": "15 transitions, focusing on smooth technical execution"
+    }
+  ],
+
+  "optimal_submission_paths": [
+    {
+      "name": "Direct finish path",
+      "path": "Side Control Top → Kimura Control Top Position → Won by Submission"
+    },
+    {
+      "name": "Back take path from defense",
+      "path": "Side Control Top → Kimura Control Top Position → Back Control Top → Rear Naked Choke"
+    },
+    {
+      "name": "Mount transition path",
+      "path": "Side Control Top → Kimura Control Top Position → Mount Top → Armbar from Mount"
+    },
+    {
+      "name": "Submission chain path",
+      "path": "Side Control Top → Kimura Control Top Position → Americana Control Top → Won by Submission"
+    },
+    {
+      "name": "North-South control path",
+      "path": "Side Control Top → Kimura Control Top Position → North-South Top → North-South Choke"
+    }
+  ],
+
+  "related_content": [
+    {
+      "name": "Kimura Control",
+      "relationship": "Parent position"
+    },
+    {
+      "name": "Kimura Control Bottom",
+      "relationship": "Sibling variant"
+    },
+    {
+      "name": "Side Control Top",
+      "relationship": "Common entry position"
+    },
+    {
+      "name": "North-South Top",
+      "relationship": "Transition target maintaining control"
+    },
+    {
+      "name": "Back Control Top",
+      "relationship": "Primary advancement when opponent defends"
+    },
+    {
+      "name": "Kimura from Side Control",
+      "relationship": "Submission finish"
+    },
+    {
+      "name": "Kimura to Back Take",
+      "relationship": "Key transition technique"
+    },
+    {
+      "name": "Americana Control Top",
+      "relationship": "Alternative submission control"
+    },
+    {
+      "name": "Submission Control Position",
+      "relationship": "Conceptual framework"
+    },
+    {
+      "name": "Kimura Trap System",
+      "relationship": "Strategic system utilizing this position"
+    }
+  ],
+
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 60,
+      "intermediate": 70,
+      "advanced": 80
+    },
+    "advancement_probability": {
+      "beginner": 55,
+      "intermediate": 70,
+      "advanced": 85
+    },
+    "submission_probability": {
+      "beginner": 45,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "average_time": "30-90 seconds"
+  },
+
+  "expert_insights": {
+    "danaher": "The Kimura control position represents one of the most sophisticated examples of biomechanical dominance in grappling, as it creates a structural hierarchy where the attacking practitioner's entire body works against the opponent's single shoulder joint. The mechanical advantage is overwhelming when properly applied - you are using your strongest muscle groups (hips, back, core) to attack their weakest structural point (the rotator cuff). The true genius of this position lies not merely in the submission itself, but in the way it creates a cascade of forced reactions: defend the rotation and expose your back, or defend your back and accept the submission. This is systematic pressure at its finest. The key technical element most practitioners miss is the relationship between chest pressure and arm rotation - these must work in concert, not sequentially. Your chest pins the shoulder girdle to prevent compensation while your hips generate the rotational force. Master this connection and the position becomes nearly unstoppable against opponents of equal or lesser skill.",
+    "gordon_ryan": "Kimura control from top is one of my highest percentage positions in competition because it puts opponents in an impossible situation - everything they do to defend makes their position worse. When I get this grip, I'm not just looking for the tap, I'm looking for the back take that comes when they try to roll out, or the mount when they create space. The submission is almost secondary to the control it gives you. In high-level competition, most guys know not to tap to the Kimura immediately, so they'll roll or try to straighten their arm - that's when you get the back or switch to the armbar. The beauty is you're never losing position, only gaining it. My advice: be patient with the finish, aggressive with the position. Keep that elbow high, your chest heavy, and wait for them to make the mistake. When they do, you'll have multiple paths to victory. I've won major matches where I never even finished the Kimura, but the threat of it gave me everything else I needed.",
+    "eddie_bravo": "The Kimura control is like the gateway drug to all the sick positions in grappling, man. From this one grip, you can go literally everywhere - back take, mount, north-south, even leg attacks if you're creative with the transitions. What I teach my guys is to use the Kimura as a steering wheel - you're driving the opponent wherever you want them to go. They don't get to choose their defense, you're choosing it for them based on what you want next. In the 10th Planet system, we use this position as a hub for so many different paths. One of my favorite setups is getting this from the truck position, but even from traditional positions like side control, it's money. The thing most people don't realize is you can keep this grip through multiple position changes - you can go from side to mount to back without ever letting go, and they're stuck defending that shoulder the whole time. It's beautiful chaos controlled by one simple grip. Get creative with it, don't just think submission, think positional domination."
+  }
+}

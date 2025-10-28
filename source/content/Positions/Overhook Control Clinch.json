@@ -1,0 +1,1182 @@
+{
+  "metadata": {
+    "title": "Overhook Control Clinch Bottom | BJJ Position Guide | BJJ Graph",
+    "description": "Master the bottom Overhook Control Clinch in BJJ. Learn defensive strategies, sweep setups, and transitions with expert insights from Danaher, Ryan, and Bravo.",
+    "state_id": "S421",
+    "tags": ["bjj", "position", "clinch", "overhook", "standing", "defensive", "bottom"],
+    "parent_variant": "Overhook Control Clinch",
+    "sibling_variants": ["Overhook Control Clinch Top"]
+  },
+
+  "overview": "The Overhook Control Clinch Bottom position occurs when you are standing and your opponent has secured an overhook on one of your arms while maintaining upper body control. This is fundamentally a defensive standing position where you must work to neutralize the opponent's control, prevent takedowns, and create opportunities to reverse position or establish your own grips. The overhook is a powerful controlling tool that can lead to various takedowns, throws, and transitions to dominant positions, making this a challenging position that requires strong defensive awareness and technical precision.\n\nFrom this position, your primary objectives are defending against the opponent's offensive options (primarily takedowns and throws), breaking their grip structure, establishing your own underhook or collar ties, and creating angles to escape or counter their attacks. The position is common in wrestling-based BJJ, judo exchanges, and no-gi grappling where grip fighting is paramount. Success in this position requires understanding of weight distribution, hip positioning, and grip fighting fundamentals to prevent being taken down while setting up your own offensive opportunities.",
+
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short to Medium"
+  },
+
+  "state_invariants": [
+    "Opponent has secured an overhook grip on one of your arms, controlling it tightly to their body with their forearm wrapped around your upper arm and shoulder",
+    "Both practitioners are standing with weight distributed on both feet, maintaining upright or slightly bent posture with heads and shoulders in close proximity",
+    "Your overhooked arm is trapped against opponent's torso, limiting your ability to frame or create distance on that side while your free arm remains mobile",
+    "Opponent's hips are typically positioned close to yours or slightly offset, allowing them to control your posture and set up takedown entries",
+    "Your defensive posture requires active hip positioning, head control awareness, and constant adjustment to prevent being taken down or thrown"
+  ],
+
+  "prerequisites": [
+    "Standing engagement initiated with opponent",
+    "Opponent successfully secured overhook grip on one arm",
+    "Both practitioners maintaining standing base",
+    "Close-range clinch distance established",
+    "Loss of initial grip fighting exchange allowing overhook control"
+  ],
+
+  "key_principles": [
+    "Keep hips back and base wide to prevent opponent from closing distance and executing takedowns",
+    "Use free hand to control opponent's head, neck, or create frames to manage distance",
+    "Constantly circle away from the overhook side to prevent opponent from establishing strong hip-to-hip connection",
+    "Fight to establish underhook on opposite side to create positional stalemate or improvement",
+    "Maintain active head position - never let opponent control your head to their chest",
+    "Keep weight on balls of feet ready to sprawl, step back, or change levels defensively",
+    "Break opponent's grip structure by attacking their wrist, elbow, or using circular motion"
+  ],
+
+  "offensive_transitions": [
+    {
+      "technique": "Arm Drag",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Duck Under",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Snap Down",
+      "target_position": "Front Headlock Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Underhook Sweep",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Guard Pull",
+      "target_position": "Closed Guard Bottom",
+      "success_rates": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Guillotine Setup",
+      "target_position": "Guillotine Control Top",
+      "success_rates": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 45
+      }
+    }
+  ],
+
+  "defensive_responses": [
+    {
+      "technique": "Double Leg Entry",
+      "target_position": "Side Control Top",
+      "success_rate": 55
+    },
+    {
+      "technique": "Single Leg Entry",
+      "target_position": "Top Position",
+      "success_rate": 50
+    },
+    {
+      "technique": "Hip Toss",
+      "target_position": "Side Control Top",
+      "success_rate": 45
+    },
+    {
+      "technique": "Body Lock Pass",
+      "target_position": "Back Control Top",
+      "success_rate": 40
+    },
+    {
+      "technique": "Snap Down to Front Headlock",
+      "target_position": "Front Headlock Top",
+      "success_rate": 35
+    }
+  ],
+
+  "counter_transitions": [
+    {
+      "technique": "Sprawl Defense",
+      "target_position": "Front Headlock Top",
+      "trigger": "Opponent shoots for legs or drops level for takedown"
+    },
+    {
+      "technique": "Whizzer",
+      "target_position": "Overhook Control Clinch Top",
+      "trigger": "Opponent attempts underhook on free side"
+    },
+    {
+      "technique": "Frame and Shrimp",
+      "target_position": "Neutral Starting Position",
+      "trigger": "Opponent drives forward with shoulder pressure"
+    },
+    {
+      "technique": "Arm Drag to Back",
+      "target_position": "Back Control Top",
+      "trigger": "Opponent overcommits weight forward during throw attempt"
+    }
+  ],
+
+  "decision_tree": [
+    {
+      "condition": "If opponent has strong overhook and begins closing distance for takedown",
+      "actions": [
+        {
+          "technique": "Sprawl Defense",
+          "target": "Front Headlock Top",
+          "probability": 45
+        },
+        {
+          "technique": "Guard Pull",
+          "target": "Closed Guard Bottom",
+          "probability": 65
+        }
+      ]
+    },
+    {
+      "condition": "If opponent's grip is loose or you can circle to create angle",
+      "actions": [
+        {
+          "technique": "Arm Drag",
+          "target": "Back Control Top",
+          "probability": 55
+        },
+        {
+          "technique": "Duck Under",
+          "target": "Back Control Top",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If you establish underhook on free side creating stalemate",
+      "actions": [
+        {
+          "technique": "Snap Down",
+          "target": "Front Headlock Top",
+          "probability": 60
+        },
+        {
+          "technique": "Underhook Sweep",
+          "target": "Side Control Top",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent commits to throw attempt and raises your elbow",
+      "actions": [
+        {
+          "technique": "Guillotine Setup",
+          "target": "Guillotine Control Top",
+          "probability": 45
+        },
+        {
+          "technique": "Sprawl Defense",
+          "target": "Front Headlock Top",
+          "probability": 50
+        }
+      ]
+    }
+  ],
+
+  "common_errors": [
+    {
+      "error": "Allowing hips to square up directly in front of opponent",
+      "consequence": "Creates ideal positioning for opponent's takedown entries and throws",
+      "correction": "Constantly circle and angle hips away from overhook side while maintaining base width"
+    },
+    {
+      "error": "Failing to control opponent's head or neck with free hand",
+      "consequence": "Opponent gains complete upper body control and can execute throws easily",
+      "correction": "Immediately establish head control, collar tie, or cross-face with free hand to manage distance"
+    },
+    {
+      "error": "Keeping weight on heels or standing too upright",
+      "consequence": "Easy to be swept, thrown, or taken down backward",
+      "correction": "Maintain weight on balls of feet with slight forward lean and bent knees for mobility"
+    },
+    {
+      "error": "Allowing trapped arm to remain passive and extended",
+      "consequence": "Gives opponent leverage for throws and prevents grip breaking attempts",
+      "correction": "Keep elbow tight and actively work to retract arm, attack opponent's grip, or create circular motion"
+    },
+    {
+      "error": "Ignoring underhook opportunities on free side",
+      "consequence": "Misses primary path to neutralizing overhook advantage",
+      "correction": "Aggressively fight for underhook on opposite side to create positional stalemate or reversal"
+    },
+    {
+      "error": "Standing static without footwork or movement",
+      "consequence": "Allows opponent to set up and execute planned techniques without pressure",
+      "correction": "Use constant footwork, level changes, and directional changes to disrupt opponent's timing"
+    },
+    {
+      "error": "Panicking and pulling guard immediately without attempting escapes",
+      "consequence": "Gives up standing position and potential for superior outcomes",
+      "correction": "Work defensive techniques and counters first, using guard pull as calculated tactical choice when needed"
+    }
+  ],
+
+  "training_drills": [
+    {
+      "name": "Overhook Escape Flow Drill",
+      "description": "Partner secures overhook, you work through escape sequence: circle away, establish underhook, arm drag, duck under. Partner maintains light resistance. Practice 2-minute rounds alternating roles.",
+      "duration": "5 rounds of 2 minutes"
+    },
+    {
+      "name": "Sprawl Reaction Drill",
+      "description": "From overhook bottom position, partner randomly shoots for legs. Practice immediate sprawl response, hip positioning, and transition to front headlock. Focus on reaction speed and proper sprawl mechanics.",
+      "duration": "3 rounds of 3 minutes"
+    },
+    {
+      "name": "Grip Fighting Circuit",
+      "description": "Start in overhook bottom, work specific grip breaks and counters in sequence: wrist control break, circular motion escape, underhook establishment, head control. Each technique 30 seconds before transitioning.",
+      "duration": "4 rounds of 2 minutes"
+    },
+    {
+      "name": "Positional Sparring: Overhook Bottom to Superior Position",
+      "description": "Start with opponent having overhook. Bottom player wins by achieving back control, front headlock, or successful takedown. Top player wins with takedown. Full resistance, reset after each score.",
+      "duration": "5 minute rounds"
+    }
+  ],
+
+  "optimal_submission_paths": [
+    {
+      "name": "Arm Drag Counter Path",
+      "path": "Overhook Control Clinch Bottom → Arm Drag → Back Control Top → Rear Naked Choke"
+    },
+    {
+      "name": "Guillotine Counter Path",
+      "path": "Overhook Control Clinch Bottom → Guillotine Setup → Guillotine Control Top → Guillotine Choke"
+    },
+    {
+      "name": "Front Headlock Path",
+      "path": "Overhook Control Clinch Bottom → Snap Down → Front Headlock Top → Darce Choke"
+    },
+    {
+      "name": "Guard Pull Transition Path",
+      "path": "Overhook Control Clinch Bottom → Guard Pull → Closed Guard Bottom → Triangle Choke"
+    }
+  ],
+
+  "related_content": [
+    {
+      "name": "Overhook Control Clinch Top",
+      "relationship": "Sibling variant - opposite perspective"
+    },
+    {
+      "name": "Overhook Control Clinch",
+      "relationship": "Parent position"
+    },
+    {
+      "name": "Underhook Control Position",
+      "relationship": "Related defensive standing position"
+    },
+    {
+      "name": "Collar Ties Position",
+      "relationship": "Alternative standing control position"
+    },
+    {
+      "name": "Front Headlock Bottom",
+      "relationship": "Common transition target from failed defense"
+    },
+    {
+      "name": "Back Control Top",
+      "relationship": "Optimal counter-attack target"
+    },
+    {
+      "name": "Closed Guard Bottom",
+      "relationship": "Common tactical guard pull target"
+    },
+    {
+      "name": "Arm Drag",
+      "relationship": "Primary offensive transition technique"
+    },
+    {
+      "name": "Sprawl Defense",
+      "relationship": "Essential defensive response"
+    },
+    {
+      "name": "Underhook Defense",
+      "relationship": "Key defensive concept"
+    },
+    {
+      "name": "Grip Fighting",
+      "relationship": "Fundamental concept for position improvement"
+    },
+    {
+      "name": "Standing Defense Strategy",
+      "relationship": "Strategic system encompassing this position"
+    }
+  ],
+
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "advancement_probability": {
+      "beginner": 25,
+      "intermediate": 40,
+      "advanced": 60
+    },
+    "submission_probability": {
+      "beginner": 10,
+      "intermediate": 20,
+      "advanced": 35
+    },
+    "average_time": "15-45 seconds"
+  },
+
+  "expert_insights": {
+    "danaher": "The overhook control clinch from bottom is fundamentally about understanding leverage disadvantage and systematically working to neutralize it. The opponent has created a mechanical advantage by controlling one of your primary frames and limiting your ability to create distance or establish superior grips. Your defensive strategy must be built on three pillars: first, preventing the opponent from converting their grip advantage into positional advancement through takedowns or throws by maintaining proper hip positioning and base; second, systematically attacking their grip structure through wrist control, circular motion, and underhook pursuit; and third, creating offensive opportunities through their commitment to maintaining the overhook. The key biomechanical principle is that the overhook, while powerful, requires the opponent to commit significant upper body connection which can be exploited through arm drags, snap downs, and duck unders if you maintain proper timing and angle creation.",
+    "gordon_ryan": "When I'm caught in an overhook bottom position, my immediate priority is either establishing the underhook on the free side or creating an angle for an arm drag to the back. In competition, I've found that most opponents with an overhook are thinking about their takedown entry and aren't defending their back properly. If I can't get the underhook right away, I'm circling hard away from the overhook side and looking to either snap them down to front headlock or time an arm drag when they step forward. The worst thing you can do is stand there static - you need constant movement and pressure on their grips. If none of my primary options are there and they're really closing distance, I'm pulling guard on my terms rather than getting taken down on theirs. The position is definitely defensive, but there are real opportunities to attack if you stay calm and work your escapes systematically.",
+    "eddie_bravo": "The overhook bottom clinch is one of those positions where you've got to think unconventional because the traditional wrestling exchanges might not be your strong suit. I teach my guys to immediately look for the duck under or arm drag because those are movements that can work even if you're not the stronger wrestler. If the opponent is really locked in and you can't create the angle, don't be afraid to pull guard into something active like closed guard where you can work your rubber guard or triangle setups. The mistake I see people make is trying to out-wrestle a wrestler from a disadvantaged position - use your jiu-jitsu. If you can bait them into shooting by moving backward, hit that guillotine on the way down and you've turned a bad position into a submission opportunity. The key is staying creative and not getting locked into that stalling battle where the better wrestler just grinds you down."
+  }
+}
+{
+  "metadata": {
+    "title": "Overhook Control Clinch | BJJ Position Guide | BJJ Graph",
+    "description": "Master Overhook Control Clinch in BJJ. Complete guide covering control, counters, and transitions. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.",
+    "state_id": "S303",
+    "tags": [
+      "bjj",
+      "position",
+      "standing",
+      "clinch",
+      "control",
+      "overhook",
+      "whizzer",
+      "wrestling"
+    ]
+  },
+  "overview": "Overhook Control Clinch (also called Whizzer) is a standing control position where you trap opponent's arm by hooking over it with your arm, controlling their shoulder and restricting their movement. This position is primarily defensive, used to neutralize opponent's underhook or single-leg attempts, but can also be used offensively to create throwing and takedown opportunities. The overhook is a fundamental wrestling control adapted into BJJ standup game.\n\nThe overhook position creates immediate tactical advantages by neutralizing one of opponent's primary weapons - the underhook. By controlling their shoulder and pinning their arm to your body, you eliminate their ability to drive forward, execute throws, or finish single-leg takedowns. This defensive utility makes the overhook essential for any practitioner facing aggressive wrestlers or judoka. However, the position's value extends beyond pure defense - skilled grapplers use the overhook to create angles, snap opponents down into vulnerable positions, and set up their own offensive attacks.\n\nUnderstanding when to use the overhook versus other standing controls is crucial for standup effectiveness. Against aggressive underhook players, the overhook is often your best immediate response. Against opponents who prefer collar ties or two-on-one grips, other control strategies may be more appropriate. The overhook teaches an important lesson about BJJ standup: controlling opponent's weapon (their underhook) is often more valuable than immediately pursuing your own offense.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Controlling",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+  "state_invariants": [
+    "Your arm hooks over opponent's arm (typically their underhook attempt) with your elbow pointing downward and forearm wrapping over their shoulder, hand gripping their back or far side of body",
+    "Your chest presses firmly against opponent's trapped shoulder, pinning their arm to your body and restricting their ability to retract or extend it",
+    "Your free hand controls opponent's opposite wrist, head, or prepares for offensive attacks while maintaining balance and base",
+    "Your hips are positioned either square to opponent (defensive posture) or angled away (offensive setup), with knees bent and weight distributed to resist driving pressure",
+    "Your base is wide and stable with feet positioned to allow lateral movement, forward pressure, or backward resistance depending on tactical situation"
+  ],
+  "prerequisites": [
+    "Standing position with opponent attempting underhook, single-leg, or other arm-based control",
+    "Ability to recognize opponent's underhook or arm commitment early enough to establish overhook",
+    "Sufficient upper body strength and positioning to maintain chest pressure on opponent's shoulder",
+    "Understanding of basic wrestling or standup grappling fundamentals",
+    "Balance and base sufficient to resist opponent's attempts to drive forward or circle away"
+  ],
+  "key_principles": [
+    "Overhook neutralizes opponent's underhook or single-leg attack by controlling their shoulder",
+    "Chest pressure on trapped shoulder is essential - without it, opponent can easily remove their arm",
+    "Combining overhook with head control or opposite wrist control maximizes dominance",
+    "Overhook creates angle for various throws, snap downs, and takedown opportunities",
+    "Position is transitional - must immediately attack or opponent will stalemate or escape",
+    "Overhook is primarily defensive but has significant offensive applications when used actively",
+    "Hip positioning determines whether you're defending (hips square) or attacking (hips angled)"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Snap Down",
+      "target_position": "Front Headlock Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Snap Down to Front Headlock",
+      "target_position": "Front Headlock Control Top Position",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Arm Drag to Back",
+      "target_position": "Standing Back Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Bodylock Pass",
+      "target_position": "Bodylock Top Position",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Body Lock Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Harai Goshi",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Uchi Mata",
+      "target_position": "Mount Top",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Osoto Gari",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Arm Extraction",
+      "target_position": "Neutral Starting Position",
+      "success_rate": 40
+    },
+    {
+      "technique": "Circle Away",
+      "target_position": "Clinch Position",
+      "success_rate": 35
+    },
+    {
+      "technique": "Head Control Counter",
+      "target_position": "Collar Ties Top Position",
+      "success_rate": 45
+    },
+    {
+      "technique": "Drop to Guard",
+      "target_position": "Closed Guard Bottom",
+      "success_rate": 50
+    },
+    {
+      "technique": "Pull guard",
+      "target_position": "Closed Guard Bottom",
+      "success_rate": 55
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Snap Down",
+      "target_position": "Front Headlock Top",
+      "trigger": "Opponent attempts to pull their arm out by leaning backward"
+    },
+    {
+      "technique": "Arm Drag to Back",
+      "target_position": "Standing Back Control Top",
+      "trigger": "Opponent circles toward trapped arm side"
+    },
+    {
+      "technique": "Bodylock Pass",
+      "target_position": "Bodylock Top Position",
+      "trigger": "Opponent attempts to create space by pushing off your chest"
+    },
+    {
+      "technique": "Osoto Gari",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent stands tall or posts weight on trapped arm side leg"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent drives forward aggressively with trapped arm",
+      "actions": [
+        {
+          "technique": "Snap Down",
+          "target": "Front Headlock Top",
+          "probability": 60
+        },
+        {
+          "technique": "Snap Down to Front Headlock",
+          "target": "Front Headlock Control Top Position",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent circles toward trapped arm side",
+      "actions": [
+        {
+          "technique": "Arm Drag to Back",
+          "target": "Standing Back Control Top",
+          "probability": 55
+        },
+        {
+          "technique": "Osoto Gari",
+          "target": "Side Control Top",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to create space or stalemate",
+      "actions": [
+        {
+          "technique": "Bodylock Pass",
+          "target": "Bodylock Top Position",
+          "probability": 50
+        },
+        {
+          "technique": "Harai Goshi",
+          "target": "Side Control Top",
+          "probability": 40
+        }
+      ]
+    },
+    {
+      "condition": "If opponent pulls guard or drops to seated position",
+      "actions": [
+        {
+          "technique": "Body Lock Pass",
+          "target": "Side Control Top",
+          "probability": 65
+        },
+        {
+          "technique": "Snap Down to Front Headlock",
+          "target": "Front Headlock Control Top Position",
+          "probability": 50
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Holding overhook without advancing position or attacking",
+      "consequence": "Opponent can escape or stalemate develops, wasting energy in non-productive position",
+      "correction": "Use overhook as transitional control - immediately attack with snap downs, arm drags, or throws"
+    },
+    {
+      "error": "Insufficient chest pressure on opponent's trapped shoulder",
+      "consequence": "Opponent can easily remove their arm from overhook, escaping control",
+      "correction": "Drive chest into opponent's shoulder, pinning their arm to your body with constant pressure"
+    },
+    {
+      "error": "Neglecting to control opponent's opposite arm or head",
+      "consequence": "Opponent uses free arm to create frames, establish grips, or off-balance you",
+      "correction": "Free hand must always control opponent's wrist, head, or prepare for attacks - never idle"
+    },
+    {
+      "error": "Standing too upright with hips back",
+      "consequence": "Poor leverage for attacks and vulnerable to opponent's counter techniques",
+      "correction": "Maintain slight forward lean with hips engaged, ready to drive through opponent or snap them down"
+    },
+    {
+      "error": "Allowing opponent to establish head control on overhook side",
+      "consequence": "Opponent neutralizes your control and may reverse position or set up their own attacks",
+      "correction": "Keep your head tight to opponent's head/shoulder, preventing them from establishing superior head position"
+    },
+    {
+      "error": "Gripping opponent's back too high (near neck) with overhook hand",
+      "consequence": "Weak control that allows opponent to posture up and escape",
+      "correction": "Grip low on opponent's back or far side body, creating better leverage and control"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Overhook Pummeling Drill",
+      "description": "Partner drill where both practitioners alternate establishing and defending overhooks, practicing smooth transitions between underhook and overhook positions while maintaining base and posture",
+      "duration": "3-5 minutes per round"
+    },
+    {
+      "name": "Overhook Snap Down Series",
+      "description": "Partner starts with underhook, you establish overhook and practice snap downs to front headlock, focusing on timing, pressure, and smooth transition to ground control",
+      "duration": "5-7 minutes"
+    },
+    {
+      "name": "Overhook to Throw Progression",
+      "description": "From established overhook, practice entry and execution of Harai Goshi, Uchi Mata, and Osoto Gari, emphasizing proper hip positioning and timing for each throw",
+      "duration": "10 minutes (light resistance)"
+    },
+    {
+      "name": "Overhook Defense and Counter Drill",
+      "description": "Partner establishes overhook on you, practice escaping via arm extraction, head control, and circling, then reverse roles to practice maintaining overhook against escape attempts",
+      "duration": "4-6 minutes per round"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Guillotine Path",
+      "path": "Overhook Control Clinch → Snap Down → Front Headlock Control Top Position → Guillotine Choke"
+    },
+    {
+      "name": "Back Attack Path",
+      "path": "Overhook Control Clinch → Arm Drag to Back → Standing Back Control Top → Rear Naked Choke"
+    },
+    {
+      "name": "Anaconda Path",
+      "path": "Overhook Control Clinch → Snap Down to Front Headlock → Front Headlock Control Top Position → Anaconda Choke"
+    },
+    {
+      "name": "Darce Path",
+      "path": "Overhook Control Clinch → Snap Down → Front Headlock Top → Darce Choke"
+    },
+    {
+      "name": "Mount Submission Path",
+      "path": "Overhook Control Clinch → Uchi Mata → Mount Top → Armbar from Mount"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Underhook Battle Position",
+      "relationship": "Opposite control - overhook commonly counters underhook"
+    },
+    {
+      "name": "Underhook Control Position",
+      "relationship": "Complementary position - understanding both sides of underhook battle"
+    },
+    {
+      "name": "Collar Ties Position",
+      "relationship": "Alternative standing control option"
+    },
+    {
+      "name": "Front Headlock",
+      "relationship": "Common progression from overhook snap down"
+    },
+    {
+      "name": "Front Headlock Control Position",
+      "relationship": "Primary offensive target from overhook"
+    },
+    {
+      "name": "Standing Back Control",
+      "relationship": "Target position via arm drag from overhook"
+    },
+    {
+      "name": "Bodylock Position",
+      "relationship": "Alternative control when transitioning from overhook"
+    },
+    {
+      "name": "Snap Down",
+      "relationship": "Primary offensive technique from overhook"
+    },
+    {
+      "name": "Arm Drag to Back",
+      "relationship": "Key transition technique from overhook"
+    },
+    {
+      "name": "Whizzer Control",
+      "relationship": "Alternative terminology and conceptual framework for overhook"
+    },
+    {
+      "name": "Underhook Defense",
+      "relationship": "Defensive concept - overhook is primary implementation"
+    },
+    {
+      "name": "Head Control",
+      "relationship": "Complementary control concept - combines with overhook for dominance"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "advancement_probability": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "submission_probability": {
+      "beginner": 20,
+      "intermediate": 35,
+      "advanced": 50
+    },
+    "average_time": "10-30 seconds (transitional position)"
+  },
+  "expert_insights": {
+    "danaher": "The overhook is one of wrestling's most fundamental defensive controls, adapted brilliantly into BJJ standup game. Its mechanical efficiency derives from a simple principle - by controlling opponent's shoulder joint and pinning their arm to your body, you eliminate their ability to generate force or create angles. The underhook is wrestling's primary offensive weapon in the clinch; the overhook is its natural counter. What many BJJ practitioners fail to understand is that the overhook is not a static control - it's a transitional position that creates specific offensive opportunities. When opponent drives forward against your overhook, they create the perfect angle for snap downs. When they attempt to circle toward the trapped arm, they expose their back. The overhook teaches an essential lesson about grappling: controlling opponent's weapon is often more valuable than immediately pursuing your own offense. Study the great wrestlers - they use the overhook not to stall, but to create the split-second openings that lead to dominant positions.",
+    "gordon_ryan": "I use the overhook primarily as a counter to opponent's aggressive underhook game. When they drive forward hard with an underhook, the overhook is my first line of defense - it immediately neutralizes their offense and puts them in a position where they have limited options. From there, I can snap them down, spin behind for back takes, or even pull guard with overhook control if I want to avoid the standup exchange. The overhook teaches opponent that aggressive underhook play against me comes with consequences. In competition, I've found the overhook particularly effective against wrestlers who rely heavily on underhook pressure. They're used to opponents fighting for underhooks against underhooks, creating grinding battles. When you establish the overhook instead, you completely change the dynamic of the exchange. Suddenly their primary weapon is neutralized and they're defending rather than attacking. The key is being active with the overhook - snap them down, arm drag them, throw them. Don't just hold it and let them figure out their escape.",
+    "eddie_bravo": "The overhook position connects perfectly with our guillotine system. When opponent drives forward with underhook and you establish the overhook, they're often exposing their neck. You can transition from overhook directly to guillotine or use the overhook to snap them into front headlock positions. From there, our D'arce and Anaconda systems are available. The overhook isn't just a defensive position for us - it's a gateway to our submission systems. We also use the overhook aggressively in our rubber guard entries. If you can establish overhook control standing and pull guard while maintaining it, you can enter directly into mission control or other rubber guard positions with superior control. The overhook teaches students that wrestling positions aren't just for takedowns - they're entries into our submission game. Most BJJ schools separate standup and ground game too much. We see them as one continuous flow, and the overhook is a perfect example of that philosophy."
+  }
+}
+{
+  "metadata": {
+    "title": "Overhook Control Clinch Top | BJJ Position Guide | BJJ Graph",
+    "description": "Master Overhook Control Clinch Top position in BJJ. Dominant standing control with 65% retention rate. Complete guide covering takedowns, throws, and clinch control techniques.",
+    "state_id": "S156",
+    "tags": ["bjj", "position", "clinch", "overhook", "standing", "wrestling", "control", "top", "takedown", "dominant"]
+  },
+  "overview": "Overhook Control Clinch Top is a dominant standing position where the practitioner controls one of the opponent's arms by hooking over it while maintaining an advantageous posture in the clinch. This position provides excellent control for executing throws, takedowns, and transitions to superior positions. The overhook creates a mechanical advantage by limiting the opponent's defensive frames and postural control while opening pathways to the back, front headlock, or takedown positions. This position is fundamental in both gi and no-gi grappling, featuring prominently in wrestling, judo, and modern BJJ competition.\n\nThe power of the overhook in the clinch comes from its ability to break the opponent's connection to their own centerline while establishing superior head position and hip control. Unlike the underhook battle where both competitors fight for inside control, the overhook position represents a strategic choice to control the outside angle while using head pressure, body weight, and grip fighting to dominate the engagement. This position excels at creating angles for throws, snapping opponents down to front headlock positions, or transitioning to back takes when combined with proper footwork and timing.\n\nStrategically, Overhook Control Clinch Top serves as a critical junction point in standing grappling exchanges, allowing the practitioner to dictate pace, control distance, and choose between multiple high-percentage attacking options. The position requires constant pressure maintenance, active grip fighting, and awareness of the opponent's counter-wrestling attempts. Mastery of this position significantly improves takedown success rates and provides a reliable framework for transitioning from standing to ground-based positions with advantageous control.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Low to Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+  "state_invariants": [
+    "Practitioner maintains overhook control on opponent's arm with the hooking arm wrapped over opponent's shoulder and securing deep around the tricep or elbow, creating mechanical leverage that prevents opponent from establishing inside control or proper defensive frames",
+    "Practitioner's head is positioned on the overhook side, pressing into opponent's shoulder or neck area, applying constant forward pressure that breaks opponent's posture and prevents them from establishing neutral stance or creating separation",
+    "Practitioner's hips are positioned close to opponent's hips or slightly offset to the overhook side, maintaining contact and connection that allows for immediate reaction to opponent movement while setting up angles for throws, trips, or transitions to superior positions",
+    "Practitioner's free hand controls opponent's opposite wrist, collar, or head, creating a two-point control system that limits opponent's mobility and defensive options while establishing multiple attack pathways",
+    "Practitioner maintains active footwork with mobile base, constantly adjusting positioning to maintain superior angles, prevent opponent from squaring up, and create opportunities for level changes or directional throws"
+  ],
+  "prerequisites": [
+    "Successful grip establishment in standing position with ability to secure overhook before opponent can establish double underhooks",
+    "Head position advantage on overhook side with forward pressure preventing opponent from creating space",
+    "Hip contact or close proximity to opponent preventing them from creating distance",
+    "Active control of opponent's opposite side through wrist control, collar grip, or secondary overhook",
+    "Stable base with proper weight distribution allowing for offensive attacks while maintaining defensive readiness"
+  ],
+  "key_principles": [
+    "Maintain constant forward head pressure on overhook side to break opponent's posture and prevent them from establishing neutral frames",
+    "Keep overhook deep with elbow control, preventing opponent from swimming the arm free or establishing their own underhook",
+    "Use hip pressure and connection to control distance, prevent opponent from creating space for strikes or re-gripping",
+    "Combine overhook control with opposite side control (wrist, collar, or head) to create complete upper body dominance",
+    "Stay mobile with active footwork, constantly circling toward the overhook side to maintain superior angles",
+    "Apply downward pressure through the overhook to load opponent's weight forward, setting up throws and off-balancing opportunities",
+    "Maintain awareness of opponent's underhook attempts and counter-wrestling responses, ready to transition or re-establish control"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Snap Down to Front Headlock",
+      "target_position": "Front Headlock Top",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Arm Drag to Back",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Uchi Mata",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Harai Goshi",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Bodylock Pass",
+      "target_position": "Bodylock Top Position",
+      "success_rates": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "Double Leg Takedown",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Front Headlock to Anaconda",
+      "target_position": "Anaconda Control Top",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Front Headlock to Darce",
+      "target_position": "Darce Control Top Position",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Osoto Gari",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Underhook Escape",
+      "target_position": "Underhook Control Bottom Position",
+      "success_rate": 40
+    },
+    {
+      "technique": "Frame and Create Space",
+      "target_position": "Neutral Position",
+      "success_rate": 35
+    },
+    {
+      "technique": "Limp Arm Escape",
+      "target_position": "Clinch Bottom Position",
+      "success_rate": 30
+    },
+    {
+      "technique": "Head Position Battle",
+      "target_position": "Neutral Starting Position",
+      "success_rate": 45
+    },
+    {
+      "technique": "Sprawl Defense",
+      "target_position": "Defensive Position",
+      "success_rate": 50
+    },
+    {
+      "technique": "Wizzer Counter",
+      "target_position": "Overhook Control Bottom Position",
+      "success_rate": 25
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Re-snap to Front Headlock",
+      "target_position": "Front Headlock Top",
+      "trigger": "Opponent attempts to posture up or create space"
+    },
+    {
+      "technique": "Switch to Double Underhooks",
+      "target_position": "Bodylock Top Position",
+      "trigger": "Opponent fights the overhook and exposes their back"
+    },
+    {
+      "technique": "Knee Tap",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent bases wide to counter throw attempts"
+    },
+    {
+      "technique": "Back Step to Back Take",
+      "target_position": "Back Control Top",
+      "trigger": "Opponent turns into the overhook"
+    },
+    {
+      "technique": "Lateral Drop",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent pulls away from overhook pressure"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent's posture is broken forward and head is down",
+      "actions": [
+        {
+          "technique": "Snap Down",
+          "target": "Front Headlock Top",
+          "probability": 70
+        },
+        {
+          "technique": "Front Headlock to Anaconda",
+          "target": "Anaconda Control Top",
+          "probability": 55
+        },
+        {
+          "technique": "Front Headlock to Darce",
+          "target": "Darce Control Top Position",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent maintains upright posture and squares up",
+      "actions": [
+        {
+          "technique": "Uchi Mata",
+          "target": "Side Control Top",
+          "probability": 60
+        },
+        {
+          "technique": "Harai Goshi",
+          "target": "Side Control Top",
+          "probability": 55
+        },
+        {
+          "technique": "Osoto Gari",
+          "target": "Side Control Top",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent turns into the overhook or exposes back",
+      "actions": [
+        {
+          "technique": "Arm Drag to Back",
+          "target": "Back Control Top",
+          "probability": 65
+        },
+        {
+          "technique": "Back Step to Back Take",
+          "target": "Standing Back Control Top",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to create distance or disengage",
+      "actions": [
+        {
+          "technique": "Double Leg Entry",
+          "target": "Side Control Top",
+          "probability": 60
+        },
+        {
+          "technique": "Single Leg Entry",
+          "target": "Side Control Top",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent achieves inside position with underhook",
+      "actions": [
+        {
+          "technique": "Whizzer Control",
+          "target": "Overhook Control Top Position",
+          "probability": 50
+        },
+        {
+          "technique": "Limp Arm Re-entry",
+          "target": "Neutral Position",
+          "probability": 40
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Allowing overhook to become shallow or losing elbow control",
+      "consequence": "Opponent easily swims arm free, establishes underhook, or creates neutral position",
+      "correction": "Constantly drive overhook deeper around tricep, use opposite hand to prevent opponent from peeling grip, maintain downward pressure through the hook"
+    },
+    {
+      "error": "Failing to maintain head pressure on overhook side",
+      "consequence": "Opponent establishes upright posture, neutralizes control, and can easily defend throws or create separation",
+      "correction": "Keep forehead or temple pressed into opponent's shoulder/neck area, drive weight forward through head contact, never allow opponent to achieve neutral head position"
+    },
+    {
+      "error": "Standing too upright with hips too far from opponent",
+      "consequence": "Loss of hip control allows opponent to sprawl, create distance, or establish their own offensive grips",
+      "correction": "Maintain hip-to-hip contact or slight offset, lower center of gravity slightly, use hip pressure to control opponent's movement and prevent separation"
+    },
+    {
+      "error": "Neglecting opposite side control (free hand inactive)",
+      "consequence": "Opponent gains free arm mobility to establish frames, control distance, or set up counters",
+      "correction": "Always control opponent's opposite wrist, collar, or head with free hand, creating two-point control system that limits defensive options"
+    },
+    {
+      "error": "Remaining static without active footwork or angle adjustment",
+      "consequence": "Opponent squares up, establishes defensive base, and neutralizes attacking opportunities",
+      "correction": "Constantly circle toward overhook side, use small steps to adjust angles, maintain mobile base that allows for explosive attacks while preserving defensive stability"
+    },
+    {
+      "error": "Attempting throws without proper setup or off-balancing",
+      "consequence": "Low-percentage throw attempts that waste energy and potentially expose back or allow opponent to counter",
+      "correction": "Use overhook pressure and head control to break opponent's balance first, create directional movement through pulling or pushing, execute throws when opponent's weight is committed in advantageous direction"
+    },
+    {
+      "error": "Over-committing to single attack without recognizing opponent's defensive adjustment",
+      "consequence": "Opponent defends successfully and potentially reverses position or establishes superior control",
+      "correction": "Chain attacks together based on opponent's reactions, if snap down is defended immediately flow to throw or back take, maintain offensive pressure through continuous attack sequences"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Overhook Pummeling Drill",
+      "description": "Partners alternate establishing and defending overhook position in clinch, focusing on grip fighting, head positioning, and hip control. Practice transitioning between overhook, underhook, and neutral positions while maintaining pressure and connection. Emphasize proper depth of overhook and active opposite-side control.",
+      "duration": "3-5 minutes per round"
+    },
+    {
+      "name": "Snap Down Repetitions",
+      "description": "From overhook control, practice explosive snap downs to front headlock position. Partner provides progressive resistance (25%, 50%, 75%). Focus on timing, hip movement, and maintaining overhook control through the transition. Include variations with collar ties and different gripping configurations.",
+      "duration": "5 minutes"
+    },
+    {
+      "name": "Throw Chain Combinations",
+      "description": "Starting from overhook control, drill sequences of 3-4 throws based on opponent's reactions (e.g., Uchi Mata → Osoto Gari → Harai Goshi). Partner provides realistic resistance and defensive movement. Emphasize smooth transitions between techniques and maintaining control throughout.",
+      "duration": "6-8 minutes"
+    },
+    {
+      "name": "Overhook to Back Take Flow",
+      "description": "Practice transitioning from overhook clinch control to back control through various pathways: arm drag, back step, opponent turning in. Include live resistance with partner attempting to defend and re-establish neutral position. Focus on maintaining connection and not losing control during transitions.",
+      "duration": "5 minutes"
+    },
+    {
+      "name": "Positional Sparring from Overhook",
+      "description": "Start standing with one partner having established overhook control. Top player works to maintain position and execute takedowns/transitions. Bottom player works to escape, establish underhooks, or neutralize position. Reset when clear position change occurs. Switch roles every 2 minutes.",
+      "duration": "10 minutes total"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Front Headlock to Anaconda Path",
+      "path": "Overhook Control Clinch Top → Snap Down → Front Headlock Top → Anaconda Control Top → Anaconda Choke"
+    },
+    {
+      "name": "Front Headlock to Darce Path",
+      "path": "Overhook Control Clinch Top → Snap Down → Front Headlock Top → Darce Control Top Position → Darce Choke"
+    },
+    {
+      "name": "Back Take to Rear Naked Choke Path",
+      "path": "Overhook Control Clinch Top → Arm Drag to Back → Back Control Top → Rear Naked Choke"
+    },
+    {
+      "name": "Guillotine from Standing Path",
+      "path": "Overhook Control Clinch Top → Snap Down → Front Headlock Top → Guillotine Control Top → Guillotine Choke"
+    },
+    {
+      "name": "Throw to Mount Submission Path",
+      "path": "Overhook Control Clinch Top → Uchi Mata → Side Control Top → Mount Top → Armbar from Mount"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Clinch Position",
+      "relationship": "Parent position - general clinch control"
+    },
+    {
+      "name": "Clinch Top Position",
+      "relationship": "Parent variant - top control in clinch"
+    },
+    {
+      "name": "Underhook Control Top Position",
+      "relationship": "Contrasting position - inside control vs outside control"
+    },
+    {
+      "name": "Front Headlock Top",
+      "relationship": "Primary transition target from snap downs"
+    },
+    {
+      "name": "Back Control Top",
+      "relationship": "Transition target via arm drag or back step"
+    },
+    {
+      "name": "Bodylock Top Position",
+      "relationship": "Alternative clinch control with double underhooks"
+    },
+    {
+      "name": "Snap Down",
+      "relationship": "Primary offensive technique from this position"
+    },
+    {
+      "name": "Arm Drag to Back",
+      "relationship": "High-percentage transition to back control"
+    },
+    {
+      "name": "Uchi Mata",
+      "relationship": "Effective throw option from overhook control"
+    },
+    {
+      "name": "Grip Fighting",
+      "relationship": "Essential concept for establishing and maintaining overhook"
+    },
+    {
+      "name": "Head Control",
+      "relationship": "Critical concept for overhook effectiveness"
+    },
+    {
+      "name": "Takedown Entry",
+      "relationship": "Concept covering entry strategies from standing"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 50,
+      "intermediate": 65,
+      "advanced": 80
+    },
+    "advancement_probability": {
+      "beginner": 40,
+      "intermediate": 55,
+      "advanced": 70
+    },
+    "submission_probability": {
+      "beginner": 15,
+      "intermediate": 30,
+      "advanced": 50
+    },
+    "average_time": "20-45 seconds before transition or takedown"
+  },
+  "expert_insights": {
+    "danaher": "The overhook in clinch position represents a fascinating strategic paradox in grappling. While conventional wisdom suggests that inside control through underhooks is superior, the overhook position, when properly executed, provides exceptional mechanical advantages through leverage multiplication and angular control. The critical understanding is that the overhook functions not as a static control position but as a dynamic attacking platform. By combining the overhook with superior head positioning, we create what I term 'dual-axis control' - simultaneously controlling the opponent's lateral movement through the hook while dominating their vertical posture through head pressure. This dual control system forces the opponent into a defensive crouch, loading their weight forward and making them vulnerable to both forward throws like Uchi Mata and backward attacks through snap downs to front headlock positions. The key technical detail that separates effective overhook control from ineffective attempts is the depth of the hook combined with active hip engagement - the overhook must reach deep around the tricep or elbow while the hips maintain close contact, creating a closed system that prevents the opponent from generating explosive separation or establishing their own inside control.",
+    "gordon_ryan": "In competition, overhook control in the clinch is one of my favorite positions because it gives me multiple high-percentage pathways to dominant positions without taking significant risks. The beauty of the overhook is that it allows me to control the pace of the engagement - I can choose between explosive throws, grinding pressure into front headlock positions, or opportunistic back takes based on how my opponent reacts. Against wrestlers or judo players who are strong in the clinch, I use the overhook specifically because it neutralizes their underhook game while setting up my snap downs to front headlock, which is one of my best positions. The most important thing I've learned is that you cannot be passive with the overhook - you need constant forward pressure through your head and continuous adjustment of your hip position to maintain the superior angle. I circle toward my overhook side, keep my head heavy on their shoulder, and wait for them to make a mistake - either they stand too tall and I throw them, they bend forward and I snap them down, or they turn in and I take their back. The overhook also sets up my guillotine game perfectly because when they defend the snap down by pulling their head back, that's when I switch to the guillotine grip. It's a complete system that forces opponents into bad choices.",
+    "eddie_bravo": "The overhook in the clinch is underrated in modern no-gi grappling, man. Everyone's fighting for double underhooks, but if you understand how to use the overhook properly, you can completely dominate the standing game. What I teach my guys is that the overhook is your steering wheel - you control where your opponent goes and what options they have. From 10th Planet perspective, we use the overhook as an entry point to our Twister system and our truck positions because the overhook naturally makes people turn their back when they try to escape. We also love the overhook for setting up our standing guillotine entries - when you have the overhook and they try to shoot, boom, you've got the perfect guillotine angle. The key innovation we've developed is combining the overhook with what we call 'active posting' - using your free hand not just to control their wrist but to create frames and angles that open up unconventional attacks. We'll use the overhook to control one side while our free hand creates a collar tie or posts on their hip, and this creates these dilemma situations where they can't defend everything. If they defend the snap down, we're hitting the lateral drop. If they defend the throw, we're transitioning to the back. The overhook is all about creativity and making your opponent guess wrong."
+  }
+}

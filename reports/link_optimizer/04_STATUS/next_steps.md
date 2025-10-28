@@ -48,7 +48,7 @@ Files to commit:
 source/content/Positions/*.md (18 files)
 source/content/Submissions/*.md (7 files)
 source/content/Transitions/*.md (1 file)
-source/content/Concepts/*.md (3 files)
+source/content/Principles/*.md (3 files)
 source/content/Systems/*.md (1 file)
 
 # New reports structure

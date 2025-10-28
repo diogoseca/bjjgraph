@@ -1,0 +1,358 @@
+Session limit reached ∙ resets 11am
+{
+  "metadata": {
+    "title": "Body Triangle Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master Body Triangle Position in BJJ. Powerful leg control from back control creating breathing restriction and submission setups. Beginner 45%, Intermediate 60%, Advanced 75%.",
+    "state_id": "S237",
+    "tags": [
+      "bjj",
+      "position",
+      "back-control",
+      "dominant",
+      "submission",
+      "body-triangle",
+      "leg-control"
+    ]
+  },
+  "overview": "Body Triangle Position is a highly dominant variation of back control where instead of using leg hooks, you've locked your legs around your opponent's torso in a triangle configuration. This provides exceptional control with minimal energy expenditure while creating tremendous pressure and submission opportunities. The body triangle creates a mechanical advantage that restricts breathing, limits hip movement, and prevents common back escape strategies.\n\nThe position is achieved by crossing one leg over the other and tucking it behind your own knee, creating a locked configuration around the opponent's midsection. This figure-four lock creates constant squeezing pressure on the ribcage and diaphragm, making it extremely uncomfortable for the opponent and forcing them to work urgently for escape. Unlike traditional hooks, the body triangle cannot be cleared with simple hip movement, making it one of the most secure forms of back control.\n\nFrom this position, you maintain upper body control with your arms while your legs create immobilizing pressure on the lower body. The breathing restriction creates a psychological urgency that often leads opponents to make defensive mistakes, opening up submission opportunities. Elite practitioners use the body triangle as both a controlling position and a finishing platform, with the constant pressure serving as a force multiplier for choke attacks.",
+  "state_properties": {
+    "point_value": 4,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Low to Medium",
+    "energy_cost": "Low",
+    "time_sustainability": "Long"
+  },
+  "state_invariants": [
+    "Your legs are locked in a figure-four triangle configuration around opponent's torso, with one leg crossing over the other and the foot tucked securely behind your own knee, creating constant squeezing pressure on their ribcage and diaphragm",
+    "Your chest is positioned tight against opponent's back with minimal space between your torso and theirs, maintaining chest-to-back connection that prevents them from turning into you or creating distance",
+    "Your hips are positioned on the mat beside opponent's hips (not directly on their back), allowing you to generate leverage and adjust the angle of squeeze while maintaining stability and balance",
+    "One or both of your arms control opponent's upper body through collar grips, over-under control, or seatbelt configuration, preventing them from defending their neck while your legs immobilize their lower body",
+    "Opponent is on their side or partially turned with their back exposed, unable to effectively turn into you due to the leg lock preventing hip rotation and limiting their mobility options"
+  ],
+  "prerequisites": [
+    "Successful achievement of back control position with access to opponent's back",
+    "Sufficient leg length and flexibility to lock triangle around opponent's torso",
+    "Opponent's body positioned to allow one leg to cross their centerline",
+    "Control of opponent's upper body to prevent them from countering during triangle setup",
+    "Space created to thread leg across opponent's torso and establish lock"
+  ],
+  "key_principles": [
+    "Triangle Lock Security: Ensure proper figure-four configuration with foot locked deep behind knee, creating unbreakable connection that cannot be easily cleared",
+    "Breathing Restriction: Body triangle naturally restricts opponent's breathing and compresses ribcage, creating psychological urgency and physical fatigue that accelerates their defensive errors",
+    "Upper Body Attacks: Focus on chokes and armlocks while legs maintain control, using the immobilizing power of the triangle to free your hands for aggressive submission hunting",
+    "Energy Efficiency: Position requires minimal energy to maintain compared to standard hooks, allowing you to stay patient and wear down opponent while conserving your own stamina",
+    "Squeeze Pressure: Apply gradual squeezing pressure with legs to tire opponent's core muscles and restrict breathing, using pulsing or constant pressure depending on strategic goals",
+    "Hip Position: Keep hips tight to opponent's back and positioned on mat for leverage, preventing them from rolling you over or creating escape angles through hip movement",
+    "Angle Adjustment: Use hip movement to change squeeze angle and pressure points, attacking different areas of ribcage and adapting to opponent's defensive positioning"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Rear Naked Choke",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "Armbar from Back with Legs",
+      "target_position": "Armbar Control",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Bow and Arrow Choke",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Short Choke",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Triangle Choke Back",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Back Control to Crucifix",
+      "target_position": "Crucifix Position",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Transition to Truck",
+      "target_position": "Truck Position Bottom",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Hip Escape",
+      "target_position": "Turtle Position",
+      "success_rate": 25
+    },
+    {
+      "technique": "Rolling Back Take",
+      "target_position": "Guard Recovery",
+      "success_rate": 20
+    },
+    {
+      "technique": "Frame and Shrimp",
+      "target_position": "Half Guard Bottom",
+      "success_rate": 15
+    },
+    {
+      "technique": "Granby Roll",
+      "target_position": "Defensive Position",
+      "success_rate": 18
+    },
+    {
+      "technique": "Chin Protection",
+      "target_position": "Body Triangle Position",
+      "success_rate": 40
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Rear Naked Choke",
+      "target_position": "Won by Submission",
+      "trigger": "Opponent focuses on clearing triangle and exposes neck"
+    },
+    {
+      "technique": "Armbar from Back with Legs",
+      "target_position": "Armbar Control",
+      "trigger": "Opponent attempts to grip-fight and extends arm away from body"
+    },
+    {
+      "technique": "Back Control to Crucifix",
+      "target_position": "Crucifix Position",
+      "trigger": "Opponent reaches back to attack the triangle lock"
+    },
+    {
+      "technique": "Bow and Arrow Choke",
+      "target_position": "Won by Submission",
+      "trigger": "Opponent turns into you trying to escape triangle pressure"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent is defensive with hands protecting neck and not attempting to clear triangle",
+      "actions": [
+        {
+          "technique": "Increase squeeze pressure",
+          "target": "Body Triangle Position",
+          "probability": 70
+        },
+        {
+          "technique": "Work for collar grips",
+          "target": "Rear Naked Choke",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent reaches back to attack triangle lock or grab your legs",
+      "actions": [
+        {
+          "technique": "Armbar from Back with Legs",
+          "target": "Armbar Control",
+          "probability": 65
+        },
+        {
+          "technique": "Back Control to Crucifix",
+          "target": "Crucifix Position",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to turn into you to escape",
+      "actions": [
+        {
+          "technique": "Bow and Arrow Choke",
+          "target": "Won by Submission",
+          "probability": 70
+        },
+        {
+          "technique": "Transition to Truck",
+          "target": "Truck Position Bottom",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent turtles or rolls forward trying to clear position",
+      "actions": [
+        {
+          "technique": "Maintain triangle and take mount",
+          "target": "Mount",
+          "probability": 55
+        },
+        {
+          "technique": "Release and reset back control",
+          "target": "Back Control",
+          "probability": 60
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Locking triangle too high on torso near shoulders instead of around lower ribs and diaphragm",
+      "consequence": "Reduces breathing restriction effectiveness, allows opponent more mobility, and makes it easier for them to defend neck and clear the position",
+      "correction": "Lock triangle around lower ribcage and diaphragm area, ensuring maximum breathing restriction and body control while limiting opponent's ability to expand their chest"
+    },
+    {
+      "error": "Failing to secure proper figure-four lock with foot shallow behind knee",
+      "consequence": "Triangle becomes loose and can be cleared with hip movement, losing the position entirely and allowing opponent to escape back control",
+      "correction": "Thread foot deep behind your own knee and squeeze legs together actively, creating tight unbreakable lock that cannot be opened through standard escape techniques"
+    },
+    {
+      "error": "Positioning hips directly on opponent's back instead of beside them on mat",
+      "consequence": "Creates unstable base that can be rolled over, reduces squeezing power, and makes it difficult to generate proper leverage for chokes",
+      "correction": "Keep hips on mat beside opponent with chest on their back, allowing you to post with hip and generate maximum squeezing pressure while maintaining stable base"
+    },
+    {
+      "error": "Neglecting upper body control while focusing only on leg lock",
+      "consequence": "Opponent can defend neck easily, work to clear triangle without interference, or even counter-attack with reversals and escapes",
+      "correction": "Maintain active upper body control with seatbelt, collar grips, or over-under while legs create lower body immobilization, creating complete control of opponent's body"
+    },
+    {
+      "error": "Constant maximum squeezing without strategic application of pressure",
+      "consequence": "Wastes your energy unnecessarily, causes leg fatigue, and allows opponent to adapt to constant pressure level and work calmly on escapes",
+      "correction": "Use pulsing pressure or strategic squeezing at key moments, conserving energy while keeping opponent uncomfortable and preventing them from settling into defensive rhythm"
+    },
+    {
+      "error": "Crossing leg over opponent's centerline on wrong side of body",
+      "consequence": "Creates weak triangle configuration that opponent can escape by turning, reduces control effectiveness, and may expose you to counter techniques",
+      "correction": "Study proper leg positioning for each body triangle variation, ensuring crossing leg traps opponent on correct side and creates maximum immobilization of their hips"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Triangle Lock Drill",
+      "description": "Partner starts in back control with hooks. Practice transitioning to body triangle on both sides, focusing on threading leg across, securing deep figure-four lock, and maintaining position against resistance. Work both sides equally.",
+      "duration": "5 minutes each side"
+    },
+    {
+      "name": "Submission Flow from Body Triangle",
+      "description": "Start in established body triangle position. Partner defends but doesn't escape. Practice flowing between rear naked choke, armbar setups, bow and arrow attempts, and other submissions while maintaining triangle throughout. Focus on using leg pressure to create submission opportunities.",
+      "duration": "6 minutes"
+    },
+    {
+      "name": "Triangle Retention Against Escapes",
+      "description": "Start in body triangle. Partner uses full effort to escape using approved techniques (hip escapes, rolls, clearing attempts). You must maintain triangle lock and upper body control without finishing submissions. Develops retention skills and pressure management.",
+      "duration": "3-minute rounds"
+    },
+    {
+      "name": "Squeeze Pressure Control Drill",
+      "description": "In body triangle position, practice applying different levels of squeeze pressure from 0-100%. Partner provides feedback on breathing restriction. Learn to conserve energy with minimal squeeze while keeping opponent uncomfortable, then spike pressure at strategic moments.",
+      "duration": "5 minutes"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Shortest path to submission",
+      "path": "Body Triangle Position → Rear Naked Choke → Won by Submission"
+    },
+    {
+      "name": "High-percentage choke path",
+      "path": "Body Triangle Position → Short Choke → Won by Submission"
+    },
+    {
+      "name": "Arm attack path",
+      "path": "Body Triangle Position → Armbar from Back with Legs → Armbar Control → Won by Submission"
+    },
+    {
+      "name": "Gi-specific path",
+      "path": "Body Triangle Position → Bow and Arrow Choke → Won by Submission"
+    },
+    {
+      "name": "Position advancement path",
+      "path": "Body Triangle Position → Back Control to Crucifix → Crucifix Position → Choke from Crucifix → Won by Submission"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Back Control",
+      "relationship": "Parent position - standard back control without triangle lock"
+    },
+    {
+      "name": "Seat Belt Control Back",
+      "relationship": "Upper body control variation commonly used with body triangle"
+    },
+    {
+      "name": "Rear Naked Choke",
+      "relationship": "Primary submission from this position"
+    },
+    {
+      "name": "Armbar from Back with Legs",
+      "relationship": "High-percentage submission when opponent defends neck"
+    },
+    {
+      "name": "Bow and Arrow Choke",
+      "relationship": "Gi-specific submission utilizing triangle control"
+    },
+    {
+      "name": "Crucifix Position",
+      "relationship": "Transition target when opponent reaches back"
+    },
+    {
+      "name": "Truck Position Bottom",
+      "relationship": "Advanced transition option from body triangle"
+    },
+    {
+      "name": "Back Attack System",
+      "relationship": "System incorporating body triangle as key control position"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 55,
+      "intermediate": 70,
+      "advanced": 85
+    },
+    "advancement_probability": {
+      "beginner": 45,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "submission_probability": {
+      "beginner": 35,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "average_time": "2-4 minutes depending on opponent's escape urgency and your submission timing"
+  },
+  "expert_insights": {
+    "danaher": "The body triangle represents a fundamental shift in back control mechanics from dynamic hook retention to static mechanical dominance. What makes this position so theoretically sound is the elimination of the primary escape mechanism - hip rotation. Standard back control with hooks can be cleared through systematic hip movement, but the body triangle creates a structural lock that prevents this entirely. The breathing restriction is not merely a discomfort factor but a biomechanical constraint that limits the opponent's ability to generate explosive escape power. Their diaphragm cannot fully expand, reducing oxygen intake and creating cumulative fatigue that compounds with each breathing cycle. From a systematic perspective, this position should be viewed as a platform for systematic attacks rather than a holding pattern. The leg lock frees your upper body to work exclusively on finishing mechanics without concern for positional maintenance.",
+    "gordon_ryan": "In competition, the body triangle is my go-to position when I want to guarantee a finish within the time limit. Unlike regular hooks where tough opponents can defend for extended periods, the body triangle creates a ticking clock that works in your favor. I've found that most opponents, even high-level ones, start making defensive mistakes within 90 seconds of being locked in a tight body triangle because the breathing restriction creates genuine panic. The key is not just locking it, but positioning it correctly around the lower ribs where it maximizes breathing restriction without being so low that they can hip escape. I typically use the body triangle as my primary control when the opponent is very defensive with their hands - they simply cannot maintain optimal defensive posture while their breathing is being restricted. The psychological pressure is as important as the physical constraint.",
+    "eddie_bravo": "The body triangle is one of those positions that perfectly demonstrates the 10th Planet philosophy of finding mechanical solutions that don't require constant energy expenditure. In no-gi especially, where you don't have fabric to grip, the body triangle gives you that gi-level control without needing constant hand fighting. What I love teaching is the versatility - you can hold it with minimal effort while you rest and pressure your opponent, or you can actively hunt for the finish. From the body triangle, I particularly like transitioning to the truck position because opponents are so focused on defending their neck and clearing the triangle that they don't see the crotch ripper or banana split coming. The innovation here is treating the body triangle not as a static control position but as a launching pad for creative attacks that capitalize on the opponent's predictable defensive reactions to the breathing restriction."
+  }
+}
+Session limit reached ∙ resets 11am

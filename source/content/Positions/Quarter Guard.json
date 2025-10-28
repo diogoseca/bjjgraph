@@ -1,0 +1,817 @@
+{
+  "metadata": {
+    "title": "Quarter Guard Bottom | BJJ Position Guide | BJJ Graph",
+    "description": "Master Quarter Guard Bottom in BJJ. Learn sweeps, back takes, and defensive retention. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.",
+    "state_id": "S204",
+    "tags": [
+      "bjj",
+      "position",
+      "quarter-guard",
+      "half-guard-variation",
+      "defensive",
+      "sweeps"
+    ]
+  },
+  "overview": "Quarter Guard Bottom is a dynamic half guard variation where the bottom player has secured an underhook while the top player has passed one leg, leaving only a quarter of the guard remaining. This transitional position bridges full half guard and complete guard passing, creating opportunities for sweeps, back takes, and re-guards while simultaneously defending against the pass. The position is characterized by asymmetric control where proper underhook management and hip positioning determine success.\n\nThe quarter guard requires active defensive awareness combined with offensive intent. Unlike traditional half guard where both legs are engaged, the bottom player must compensate for reduced leg control through superior upper body connection and hip mobility. This position frequently occurs during scrambles, failed guard retention attempts, or as part of systematic half guard sequences when opponents begin passing.\n\nSuccess in quarter guard bottom depends on maintaining the underhook, creating angles with hip movement, and recognizing when to commit to sweeps versus recovering full guard. The position rewards technical precision over strength, making it accessible to practitioners of all sizes while offering multiple pathways to dominant positions.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive with offensive options",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short to Medium"
+  },
+  "state_invariants": [
+    "Bottom player's lower body has one leg trapped between opponent's legs (quarter guard lockdown or butterfly hook) while the other leg is free or partially controlled by top player",
+    "Bottom player maintains underhook on one side, with forearm connected to opponent's lat or armpit, creating offensive leverage and preventing shoulder pressure",
+    "Top player has advanced hip position past centerline, with weight distributed toward the passed side, attempting to consolidate side control or mount",
+    "Bottom player's head and shoulders remain off the mat or at an angle, using the underhook and frame to prevent full flattening and maintain space for hip mobility"
+  ],
+  "prerequisites": [
+    "Opponent has begun passing half guard, advancing one leg past centerline",
+    "Bottom player has established underhook control on at least one side",
+    "Bottom player maintains some leg engagement (lockdown, butterfly hook, or heel hook)",
+    "Top player is attempting to consolidate position or advance to side control"
+  ],
+  "key_principles": [
+    "Maintain underhook at all costs - this is your primary offensive tool and defensive anchor",
+    "Keep hips mobile and angled away from the passing direction to create space and prevent flattening",
+    "Use the free leg to create frames, hooks, or barriers against further advancement",
+    "Combine upper body pulling (underhook) with lower body pushing (frames) to create opposing forces",
+    "Recognize timing windows for sweeps when opponent commits weight forward or attempts to consolidate",
+    "Stay proactive - quarter guard deteriorates quickly if played passively"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Old School Sweep",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Half Guard to Back Take",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Underhook Sweep from Half",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Deep Half Entry",
+      "target_position": "Deep Half Guard",
+      "success_rates": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "100% Sweep",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Rolling Back Take",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Electric Chair Submission",
+      "target_position": "Electric Chair",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Knee Shield Retention",
+      "target_position": "Knee Shield Half Guard",
+      "success_rates": {
+        "beginner": 55,
+        "intermediate": 70,
+        "advanced": 85
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Half Guard Pass",
+      "target_position": "Side Control",
+      "success_rate": 60
+    },
+    {
+      "technique": "Knee Slice from Half",
+      "target_position": "Side Control Top",
+      "success_rate": 65
+    },
+    {
+      "technique": "Underhook Pass",
+      "target_position": "Side Control",
+      "success_rate": 55
+    },
+    {
+      "technique": "Crossface Pass",
+      "target_position": "Side Control",
+      "success_rate": 70
+    },
+    {
+      "technique": "Smash Pass",
+      "target_position": "Side Control",
+      "success_rate": 50
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Deep Half Entry",
+      "target_position": "Deep Half Guard",
+      "trigger": "Opponent drives weight forward to consolidate pass"
+    },
+    {
+      "technique": "Half Guard to Back Take",
+      "target_position": "Back Control",
+      "trigger": "Opponent posts hand on mat to prevent sweep"
+    },
+    {
+      "technique": "Knee Shield Retention",
+      "target_position": "Knee Shield Half Guard",
+      "trigger": "Opponent attempts to establish crossface"
+    },
+    {
+      "technique": "Old School Sweep",
+      "target_position": "Top Position",
+      "trigger": "Opponent lifts trapped leg to extract knee"
+    },
+    {
+      "technique": "Electric Chair Submission",
+      "target_position": "Electric Chair",
+      "trigger": "Opponent extends trapped leg while driving forward"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent drives weight forward and extends trapped leg",
+      "actions": [
+        {
+          "technique": "Old School Sweep",
+          "target": "Top Position",
+          "probability": 65
+        },
+        {
+          "technique": "Electric Chair Submission",
+          "target": "Electric Chair",
+          "probability": 40
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts crossface or shoulder pressure",
+      "actions": [
+        {
+          "technique": "Knee Shield Retention",
+          "target": "Knee Shield Half Guard",
+          "probability": 70
+        },
+        {
+          "technique": "Deep Half Entry",
+          "target": "Deep Half Guard",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent posts near side hand on mat",
+      "actions": [
+        {
+          "technique": "Half Guard to Back Take",
+          "target": "Back Control",
+          "probability": 55
+        },
+        {
+          "technique": "Underhook Sweep from Half",
+          "target": "Top Position",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent establishes tight chest-to-chest connection",
+      "actions": [
+        {
+          "technique": "Rolling Back Take",
+          "target": "Back Control",
+          "probability": 45
+        },
+        {
+          "technique": "100% Sweep",
+          "target": "Top Position",
+          "probability": 50
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Losing underhook control by allowing opponent to strip it",
+      "consequence": "Without the underhook, offensive options disappear and opponent can establish dominant shoulder pressure and complete the pass easily",
+      "correction": "Fight constantly to maintain underhook depth, pulling opponent's weight onto you and using hip movement to prevent stripping attempts"
+    },
+    {
+      "error": "Staying flat on back with hips parallel to mat",
+      "consequence": "Flattened position eliminates hip mobility, making sweeps impossible and allowing opponent to establish crushing pressure and advance position",
+      "correction": "Maintain hip angle by turning onto your side, keeping shoulders and hips off the mat to preserve mobility and sweep opportunities"
+    },
+    {
+      "error": "Playing passively and waiting for opponent to make mistakes",
+      "consequence": "Quarter guard deteriorates rapidly under pressure - passive play allows opponent time to secure grips, flatten you, and complete the pass",
+      "correction": "Actively attack with sweeps, back takes, or guard recovery immediately - quarter guard is transitional and requires constant offensive pressure"
+    },
+    {
+      "error": "Failing to use free leg for frames or barriers",
+      "consequence": "Without active leg engagement, opponent can easily advance to mount, knee on belly, or full side control",
+      "correction": "Use free leg to create knee shield frames, push against opponent's hip, or establish butterfly hooks to slow advancement"
+    },
+    {
+      "error": "Committing to sweeps without proper angle creation",
+      "consequence": "Sweeps attempted from poor angles fail and leave you more flattened and vulnerable to the pass",
+      "correction": "Create proper angles first through hip escape and underhook pulling before committing to sweep attempts"
+    },
+    {
+      "error": "Neglecting head position and allowing it to be controlled",
+      "consequence": "Head control enables opponent to flatten you completely, eliminating all offensive options and securing the pass",
+      "correction": "Keep head active and mobile, fighting to maintain space between your head and the mat while preventing opponent's crossface"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Quarter Guard Retention Drill",
+      "description": "Start in quarter guard bottom with partner applying 50% passing pressure. Focus on maintaining underhook, creating angles, and preventing flattening. Partner progressively increases pressure to 75% over 3-minute rounds. Reset when passed or when sweep is successful.",
+      "duration": "3 minutes x 5 rounds"
+    },
+    {
+      "name": "Sweep Combination Flow",
+      "description": "From quarter guard bottom, practice flowing between Old School Sweep, Deep Half Entry, and Back Take options. Partner provides realistic resistance but allows completion of techniques. Focus on reading opponent's weight distribution and selecting appropriate technique. 10 successful combinations per round.",
+      "duration": "5 minutes"
+    },
+    {
+      "name": "Underhook Battle Drill",
+      "description": "Start with quarter guard established but underhook stripped. Compete to re-establish underhook against partner's attempts to consolidate pass. Focus on hip mobility, frames, and timing. Winner is whoever achieves their goal (underhook secured or pass completed) within 90 seconds.",
+      "duration": "90 seconds x 8 rounds"
+    },
+    {
+      "name": "Guard Recovery Sequences",
+      "description": "Begin in compromised quarter guard with partner halfway through pass. Practice recovery sequences back to full half guard, knee shield, or butterfly guard. Partner applies 60% pressure. Focus on creating space, using underhook leverage, and leg replacement.",
+      "duration": "2 minutes x 6 rounds"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Leg Attack Pathway",
+      "path": "Quarter Guard Bottom → Electric Chair → Banana Split OR Quarter Guard Bottom → Electric Chair → Calf Slicer from Truck"
+    },
+    {
+      "name": "Back Control to Submission",
+      "path": "Quarter Guard Bottom → Half Guard to Back Take → Back Control → Rear Naked Choke OR Quarter Guard Bottom → Rolling Back Take → Back Control → Armbar from Back"
+    },
+    {
+      "name": "Sweep to Submission Chain",
+      "path": "Quarter Guard Bottom → Old School Sweep → Top Position → Kimura from Top OR Quarter Guard Bottom → Underhook Sweep → Mount → Armbar from Mount"
+    },
+    {
+      "name": "Deep Half Submission Sequence",
+      "path": "Quarter Guard Bottom → Deep Half Entry → Deep Half Guard → Homer Sweep → Top Position → Kimura"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Half Guard Bottom",
+      "relationship": "Parent position - quarter guard is a transitional variation when pass begins"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Common transition target when opponent drives forward"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Recovery position when creating space with free leg"
+    },
+    {
+      "name": "Lockdown Position",
+      "relationship": "Alternative leg configuration for quarter guard control"
+    },
+    {
+      "name": "Underhook Battle Position",
+      "relationship": "Core concept - underhook control is critical in quarter guard"
+    },
+    {
+      "name": "Dogfight Position",
+      "relationship": "Similar underhook-based position with different leg configuration"
+    },
+    {
+      "name": "Electric Chair",
+      "relationship": "Primary submission threat from lockdown quarter guard"
+    },
+    {
+      "name": "Old School Sweep",
+      "relationship": "High-percentage sweep when opponent extends trapped leg"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Position opponent is attempting to reach"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Offensive target via back take sequences"
+    },
+    {
+      "name": "Underhook Defense",
+      "relationship": "Concept - maintaining underhook against stripping attempts"
+    },
+    {
+      "name": "Hip Escape Mechanics",
+      "relationship": "Concept - creating angles and preventing flattening"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 35,
+      "intermediate": 55,
+      "advanced": 70
+    },
+    "advancement_probability": {
+      "beginner": 40,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "submission_probability": {
+      "beginner": 15,
+      "intermediate": 25,
+      "advanced": 35
+    },
+    "average_time": "15-45 seconds"
+  },
+  "expert_insights": {
+    "danaher": "Quarter guard represents a critical inflection point in the guard passing sequence where the defender must make immediate tactical decisions based on biomechanical reality. The underhook becomes mathematically essential here - it provides the only significant lever arm to counteract the passer's forward pressure and weight advantage. What makes quarter guard technically fascinating is the asymmetric control paradigm: you have reduced your base of support by fifty percent while simultaneously increasing your offensive requirements. The solution lies in understanding that quarter guard is not a static position but rather a dynamic transitional state requiring constant angular adjustment and proactive sweep initiation within a narrow time window of opportunity.",
+    "gordon_ryan": "In competition, quarter guard is where matches get decided - you either sweep immediately or you get passed, there's no middle ground at high levels. I focus on the underhook sweep and back take because they're percentage plays that work against elite opponents who are actively trying to smash through. The key is recognizing that quarter guard happens during scrambles and failed retention, so you need to already know your sequences before you end up there. When I feel my guard getting passed to quarter, I'm immediately attacking the back take or hitting the old school sweep before they can settle their weight. Hesitation in quarter guard equals getting passed every single time against good competition.",
+    "eddie_bravo": "Quarter guard is actually a sick position for 10th Planet guys because we train the lockdown variation religiously - when you've got that electric chair threat, suddenly the passer has to worry about getting submitted instead of completing the pass. Most people think quarter guard is defensive, but that's old school thinking. We use it as an offensive weapon, especially the transition to truck position and back takes. The whip-up and swim move to the back are money from here, and if they're defending those, you can hit them with the electric chair or banana split. The whole game changes when you make them afraid of your bottom position instead of just trying to survive their pass."
+  }
+}
+{
+  "metadata": {
+    "title": "Quarter Guard Top | BJJ Position Guide | BJJ Graph",
+    "description": "Master Quarter Guard Top in BJJ. Complete guide covering passing strategies, pressure application, and advancement. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
+    "state_id": "S181",
+    "tags": [
+      "bjj",
+      "position",
+      "passing",
+      "top-position",
+      "pressure",
+      "control",
+      "half-guard-passing",
+      "transitional"
+    ]
+  },
+  "overview": "Quarter Guard Top represents an advanced passing position where the top player has achieved significant pass progress by getting their knee past the bottom player's hip line while the bottom player maintains limited defensive control with one leg partially controlling the passer's lower body. This position sits between traditional half guard (where bottom player has one full leg trapped) and complete passing positions, representing a critical transitional state in the guard passing sequence. Unlike full half guard where the trapped leg provides substantial control, quarter guard control is minimal—typically just the bottom player's knee shield or hook preventing the final pass completion. The position creates significant offensive advantages for the top player who has superior positioning, weight distribution opportunities, and multiple passing pathways available.\n\nQuarter Guard Top is characterized by asymmetric control where the passer has established hip-to-hip connection while the bottom player struggles to maintain defensive frames with limited leverage. This position often emerges when passing half guard, during knee slice attempts when opponent retains partial leg control, or when advancing from headquarters position. Success in this position requires understanding how to apply pressure effectively, eliminate remaining defensive structures, and transition efficiently to completed passes or dominant control positions. The key distinction from half guard top is that the bottom player's defensive capability is severely compromised—they cannot generate effective sweeps, their frames are breaking down, and they are one or two movements away from being completely passed. This makes quarter guard top a high-percentage position that should be capitalized on immediately rather than maintained statically.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Low to Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short"
+  },
+  "state_invariants": [
+    "Top player's hips are positioned forward past opponent's hip line, establishing dominant angle with chest oriented toward opponent's far shoulder",
+    "Passing knee (typically the knee crossing opponent's center line) is actively advancing beyond opponent's hip, creating pressure and eliminating defensive space",
+    "Top player's torso is angled diagonally across opponent's body, creating crossface angle and weight distribution that limits bottom player's mobility",
+    "Bottom player maintains only minimal leg control—typically a weakened knee shield, partial hook, or single leg contact that provides limited defensive capability",
+    "Top player's underhook or overhook controls opponent's far side, preventing them from turning away or creating defensive frames",
+    "Crossface or head control is established or being established, limiting opponent's ability to face into the passer or create frames",
+    "Weight distribution creates forward pressure toward opponent's shoulders while maintaining enough mobility to complete the pass",
+    "Bottom player's near-side arm is controlled, blocked, or rendered ineffective, preventing them from creating frames against the passer's chest",
+    "Bottom player is flat on their back or being flattened, unable to generate hip mobility or recover to their side",
+    "Passing knee is mobile and ready to slide fully across opponent's center line to complete pass at any moment",
+    "Bottom player's defensive structures (frames, knee shield, hooks) are in the process of being systematically eliminated",
+    "Hip pressure from top player limits bottom player's ability to recover full guard or improve their position",
+    "Bottom player has severely limited ability to create space, establish effective frames, or generate sweeping leverage from this compromised position"
+  ],
+  "prerequisites": [
+    "Understanding of guard passing fundamentals and the hierarchy of passing positions",
+    "Competency in pressure passing mechanics and effective weight distribution",
+    "Hip mobility and ability to move fluidly during transitional passing sequences",
+    "Knowledge of crossface control and upper body dominance concepts",
+    "Familiarity with half guard passing principles and common defensive structures",
+    "Base management skills to resist sweeps while maintaining offensive mobility"
+  ],
+  "key_principles": [
+    "Pressure Application: Maintain constant forward and downward pressure toward opponent's far shoulder to limit their defensive mobility and create psychological pressure",
+    "Hip Mobility: Keep your hips mobile and ready to slide across opponent's center line to complete pass—static hips allow opponent to rebuild defenses",
+    "Frame Elimination: Systematically eliminate or control opponent's defensive frames (knee shield, near-side arm) before committing to final pass",
+    "Weight Distribution: Distribute weight to maximize control while maintaining ability to advance position quickly when opening appears",
+    "Crossface Control: Establish and maintain crossface to prevent opponent from turning into you or creating defensive space with frames",
+    "Base Management: Maintain adequate base to resist sweep attempts while staying mobile enough to advance pass immediately when opportunity presents",
+    "Timing Recognition: Identify the precise moment when opponent's defensive structure fails and immediately advance to completed pass without hesitation"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 55,
+        "intermediate": 70,
+        "advanced": 85
+      }
+    },
+    {
+      "technique": "Smash Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "Crossface Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Underhook Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Long Step Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Half Guard to Back Take",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Transition to Mount",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Transition to North-South",
+      "target_position": "North-South",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Kimura from Half Guard",
+      "target_position": "Kimura Control",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Darce Setup",
+      "target_position": "Darce Control Position",
+      "success_rates": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 45
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Knee Shield Retention",
+      "target_position": "Knee Shield Half Guard",
+      "success_rate": 30
+    },
+    {
+      "technique": "Underhook Sweep from Half",
+      "target_position": "Top Position",
+      "success_rate": 20
+    },
+    {
+      "technique": "Re-Guard from Headquarters",
+      "target_position": "Half Guard Bottom",
+      "success_rate": 25
+    },
+    {
+      "technique": "Deep Half Entry",
+      "target_position": "Deep Half Guard",
+      "success_rate": 15
+    },
+    {
+      "technique": "Lockdown Sweeps",
+      "target_position": "Top Position",
+      "success_rate": 10
+    },
+    {
+      "technique": "Rolling to Guard",
+      "target_position": "Open Guard Bottom",
+      "success_rate": 15
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent attempts to recover knee shield or create frames"
+    },
+    {
+      "technique": "Smash Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent flattens out or loses knee shield connection"
+    },
+    {
+      "technique": "Half Guard to Back Take",
+      "target_position": "Back Control",
+      "trigger": "Opponent turns away to defend crossface or creates space"
+    },
+    {
+      "technique": "Crossface Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent attempts to turn into you or frame against chest"
+    },
+    {
+      "technique": "Transition to Mount",
+      "target_position": "Mount",
+      "trigger": "Opponent's legs are completely cleared and they remain flat"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent maintains weak knee shield but cannot generate frames or hip mobility",
+      "actions": [
+        {
+          "technique": "Knee Slice Pass",
+          "target": "Side Control Top",
+          "probability": 70
+        },
+        {
+          "technique": "Smash Pass",
+          "target": "Side Control Top",
+          "probability": 65
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to turn away from crossface or create distance",
+      "actions": [
+        {
+          "technique": "Half Guard to Back Take",
+          "target": "Back Control",
+          "probability": 55
+        },
+        {
+          "technique": "Transition to North-South",
+          "target": "North-South",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent flattens completely and loses all leg control",
+      "actions": [
+        {
+          "technique": "Transition to Mount",
+          "target": "Mount",
+          "probability": 60
+        },
+        {
+          "technique": "Smash Pass",
+          "target": "Side Control Top",
+          "probability": 75
+        }
+      ]
+    },
+    {
+      "condition": "If opponent creates underhook on near side but remains flat",
+      "actions": [
+        {
+          "technique": "Underhook Pass",
+          "target": "Side Control Top",
+          "probability": 55
+        },
+        {
+          "technique": "Long Step Pass",
+          "target": "Side Control Top",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent exposes arm attempting to frame or recover guard",
+      "actions": [
+        {
+          "technique": "Kimura from Half Guard",
+          "target": "Kimura Control",
+          "probability": 45
+        },
+        {
+          "technique": "Darce Setup",
+          "target": "Darce Control Position",
+          "probability": 40
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Holding pressure in quarter guard without actively working to complete pass",
+      "consequence": "Allows opponent time to recover defensive structures, rebuild guard, or create escape opportunities. Energy is wasted maintaining position without progression, and opponent may find unconventional escapes or sweeps.",
+      "correction": "Maintain constant positional advancement mentality—quarter guard top should be transitional state lasting only seconds, not extended control position. Keep passing knee actively sliding across opponent's center line while pressure is applied. If immediate pass isn't available, methodically eliminate defensive frames then immediately advance. Recognize that spending more than 5-10 seconds in quarter guard without completing pass indicates technical deficiency in execution."
+    },
+    {
+      "error": "Failing to establish strong crossface before committing to final pass",
+      "consequence": "Opponent can turn into you, create frames against your chest, or work for underhook recovery. This can lead to guard recovery, sweep attempts, or extended passing battles from what should be advantageous position.",
+      "correction": "Prioritize establishing heavy crossface with shoulder pressure against opponent's far cheek/jaw, preventing them from turning toward you. If crossface isn't immediately available, control their near-side head with your hand. Crossface should be established before or simultaneously with final pass commitment—never sacrifice head control for leg clearing."
+    },
+    {
+      "error": "Over-committing weight forward without maintaining base",
+      "consequence": "Creates vulnerability to sweeps, particularly underhook sweeps or opponent using your forward momentum against you. Can result in scrambles or position loss from what should be dominant passing position.",
+      "correction": "Maintain strategic base with posting hand or leg while applying pressure. Weight should be directed forward and downward, but with enough base to resist sweeps. Think of pressure as controlled and directional rather than simply heavy—quality of pressure matters more than quantity."
+    },
+    {
+      "error": "Allowing opponent to recover knee shield or create frames with near-side arm",
+      "consequence": "Gives opponent defensive structure they can use to prevent pass completion, create space, or even recover full half guard. Transforms high-percentage passing position into extended passing battle.",
+      "correction": "Actively control or eliminate opponent's knee shield by either sliding knee past it, pressuring it down with your shin, or controlling it with your hand. Similarly, trap or control near-side arm before committing to pass—use crossface, underhook, or direct arm control to prevent frames."
+    },
+    {
+      "error": "Failing to track opponent's hips and allowing them to turn to their side",
+      "consequence": "Opponent recovers guard structure, regains defensive capability, or creates scramble situation. Hip mobility is bottom player's primary escape mechanism from quarter guard.",
+      "correction": "Maintain constant awareness of opponent's hip position and prevent them from getting to their side. Use your chest pressure, crossface, and hip positioning to keep them flat. If they begin turning, immediately adjust your angle or switch to back take rather than insisting on pass completion."
+    },
+    {
+      "error": "Hesitating when opponent's defensive structure breaks down",
+      "consequence": "Missed opportunity to complete pass quickly and efficiently. Hesitation allows opponent to rebuild defenses or escape, transforming dominant position into extended battle.",
+      "correction": "Develop recognition of the moment when opponent's knee shield drops, their frames collapse, or their hip mobility fails—immediately advance to completed pass without hesitation. Practice recognizing these moments in drilling so they become automatic in live training. The window for easy pass completion is often only 1-2 seconds."
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Quarter Guard Pass Finishing Drill",
+      "description": "Start in established quarter guard top position with light resistance from partner maintaining weak knee shield. Practice completing various passes (knee slice, smash, crossface) with emphasis on immediate execution when defensive structure breaks. Partner gradually increases resistance as you improve timing and technique.",
+      "duration": "5 minutes per side"
+    },
+    {
+      "name": "Half Guard to Quarter Guard Progression",
+      "description": "Begin in standard half guard top and work methodically to establish quarter guard position by passing partner's knee shield and advancing hip position. Focus on pressure application, crossface establishment, and frame elimination. Once quarter guard is achieved, immediately complete pass. Reset and repeat, building muscle memory for the full passing sequence.",
+      "duration": "6-8 minutes per side"
+    },
+    {
+      "name": "Quarter Guard Counter Reaction Drill",
+      "description": "Partner in quarter guard bottom attempts specific escapes (knee shield recovery, underhook sweep, deep half entry, turning away) while you practice appropriate counters. Develop automatic responses to common defensive reactions, training to immediately capitalize on opponent's movements with correct passing variation.",
+      "duration": "5 minutes per side, rotating through different defensive reactions"
+    },
+    {
+      "name": "Pressure and Weight Distribution Exercise",
+      "description": "Hold quarter guard top position while partner provides moderate resistance attempting to recover guard or create space. Focus exclusively on pressure quality, weight distribution, and maintaining control without muscling. Partner provides feedback on pressure effectiveness. Build endurance for maintaining effective pressure without exhaustion.",
+      "duration": "3-4 minute rounds"
+    },
+    {
+      "name": "Transition Recognition Drill",
+      "description": "Flow rolling from quarter guard top where partner randomly varies their defensive responses. Practice recognizing patterns and selecting appropriate pass variation (knee slice for flat opponent, back take for turning away, smash for broken knee shield). Emphasize decision-making speed and technical execution over force.",
+      "duration": "8-10 minutes continuous flow"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Shortest path to submission",
+      "path": "Quarter Guard Top → Side Control Top → Kimura Control → Kimura"
+    },
+    {
+      "name": "High-percentage path via mount",
+      "path": "Quarter Guard Top → Mount → Americana Control → Americana from Mount"
+    },
+    {
+      "name": "Back attack path",
+      "path": "Quarter Guard Top → Back Control → Rear Naked Choke"
+    },
+    {
+      "name": "Front headlock path",
+      "path": "Quarter Guard Top → Front Headlock Control Position → Darce Control Position → Darce Choke"
+    },
+    {
+      "name": "North-South path",
+      "path": "Quarter Guard Top → North-South → Kimura Control → Kimura from North-South"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Half Guard Top",
+      "relationship": "Parent position from which quarter guard top commonly emerges during passing sequences"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Defensive position opponent is trying to recover when in quarter guard bottom"
+    },
+    {
+      "name": "Headquarters Position Top",
+      "relationship": "Connected passing position for pressure reset and pass initiation"
+    },
+    {
+      "name": "Knee Slice Position Top",
+      "relationship": "Active passing state that leads to quarter guard top when opponent retains partial control"
+    },
+    {
+      "name": "Side Control Top",
+      "relationship": "Primary target position when completing passes from quarter guard top"
+    },
+    {
+      "name": "Smash Pass Position",
+      "relationship": "Related passing position using similar pressure and crossface mechanics"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Defensive position opponent may attempt to recover from quarter guard bottom"
+    },
+    {
+      "name": "Lockdown Half Guard Bottom",
+      "relationship": "Alternative defensive structure opponent may seek when quarter guard fails"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Foundational posture for maintaining quarter guard top with proper pressure"
+    },
+    {
+      "name": "Top Half Guard",
+      "relationship": "Conceptual framework for understanding pressure and control in half guard passing"
+    },
+    {
+      "name": "Knee Slice Pass",
+      "relationship": "Primary finishing technique from quarter guard top position"
+    },
+    {
+      "name": "Crossface Pass",
+      "relationship": "Alternative finishing technique emphasizing upper body control"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 40,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "advancement_probability": {
+      "beginner": 55,
+      "intermediate": 70,
+      "advanced": 85
+    },
+    "submission_probability": {
+      "beginner": 15,
+      "intermediate": 30,
+      "advanced": 45
+    },
+    "average_time": "5-15 seconds (should be transitional, not sustained)"
+  },
+  "expert_insights": {
+    "danaher": "Quarter guard top represents what I term a 'critical decision point' in the guard passing hierarchy—a position where the mechanical advantages have shifted decisively in favor of the passer, but technical execution remains essential for position completion. The biomechanics of quarter guard are instructive: the bottom player's primary defensive tool (the leg entanglement) has been reduced to minimal contact, typically just a weakened knee shield or partial hook that provides insufficient leverage for effective frames or sweeps. At this juncture, the passer's hip position relative to the opponent's center line becomes the determining factor—if your hips are truly past their hip line with proper angle and pressure, the pass is mechanically inevitable unless you make technical errors. The key systematic error I observe in quarter guard top is what I call 'premature commitment'—passers feel the position slipping away and rush to complete the pass without proper preparation. Instead, take the extra second to ensure crossface is established, near-side arm is controlled, and your base is secure. Then, when you commit to the final slide across their center line, there should be no resistance worth noting. The position should feel like pushing a door that's already ajar rather than forcing one that's locked.",
+    "gordon_ryan": "Quarter guard top is a position where I expect immediate pass completion in most situations—if I'm spending more than five seconds here without finishing the pass, I know something is technically wrong with my execution. The biggest thing people miss in quarter guard is that it's not really about strength or pressure at this point; it's about timing and angle. Their defensive structure is already broken if you've achieved true quarter guard, so your job is simply to slide your knee across their center line at the exact moment their last bit of resistance fails. I focus heavily on the hip sliding mechanics in this position, making sure my passing knee stays mobile and ready to advance instantly. When I feel their knee shield drop even slightly or their near-side frame weakens, I'm immediately sliding through to side control—there's no hesitation, no waiting. In competition, I view quarter guard as basically already having passed their guard; I'm just executing the final formality of getting my hips fully across. My passing success rate from quarter guard is probably above ninety percent because I treat it as a transitional position that should be completed within one to three seconds, not a position to hold and control. If you're holding quarter guard for extended time, you're either not truly in quarter guard or you're being too passive with your pass completion.",
+    "eddie_bravo": "Quarter guard top is one of those positions where you need to stay mentally sharp because the bottom player, especially someone trained in 10th Planet stuff, might be using it as a trap to get to lockdown, electric chair, or even to start a truck entry if you're not careful. I've had guys let me recover quarter guard thinking they're in dominant position, then I hit them with the old school sweep or transition to deep half because they got complacent. When I'm teaching quarter guard top, I emphasize staying aware that your opponent might be baiting you—they might be letting you think you're close to passing so you commit your weight in a way they can exploit. That said, if you've got real quarter guard top with good crossface and they're flat, you should be finishing that pass immediately. What I call 'dynamic quarter guard pressure' is key—don't just sit there heavy, keep your pressure moving and shifting so they can't time their defensive movements or set up unconventional escapes. In no-gi especially, quarter guard top can be slippery as hell, so you need more active hip control and crossface pressure than in gi. The leg control is already minimal, so if your upper body control isn't tight, they can slip out or attack. My approach is to finish fast from quarter guard—the longer you stay there, the more chances they have to do something weird that catches you off guard."
+  }
+}

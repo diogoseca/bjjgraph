@@ -655,7 +655,7 @@ safety_considerations:
 
 ### 4. Concepts (C###) - Meta-Knowledge Nodes
 
-**Count**: Variable (30+ files in `/source/content/Concepts/`)
+**Count**: Variable (30+ files in `/source/content/Principles/`)
 
 **Identifier Format**: `C###` (C001, C002, ..., C999)
 

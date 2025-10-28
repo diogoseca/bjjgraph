@@ -1,0 +1,292 @@
+{# BJJ Position Bottom (Defense) Page Template #}
+{# Generates defensive perspective pages from bottom section #}
+{# Input: bottom (full bottom section from JSON) #}
+
+---
+title: "{{ bottom.metadata.title }}"
+description: "{{ bottom.metadata.description }}"
+---
+
+<!-- Schema Markup - HowTo for Escapes -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Escape {{ bottom.metadata.title.split('|')[0].strip() }}",
+  "description": "Step-by-step guide to escaping and defending {{ bottom.metadata.title.split('|')[0].strip().replace(' Bottom', '').replace(' (Defense)', '') }} position in BJJ.",
+  "step": [
+    {%- for transition in bottom.offensive_transitions[:6] %}
+    {
+      "@type": "HowToStep",
+      "name": "Execute {{ transition.technique }}",
+      "text": "From this position, execute {{ transition.technique }} to transition to {{ transition.target_position }}. Success rate for advanced practitioners: {{ transition.success_rates.advanced }}%.",
+      "position": {{ loop.index }}
+    }{{ "," if not loop.last else "" }}
+    {%- endfor %}
+  ],
+  "totalTime": "PT2M"
+}
+</script>
+
+<!-- Schema Markup - FAQ from Common Errors -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for error in bottom.common_errors[:5] %}
+    {
+      "@type": "Question",
+      "name": "What happens if you {{ error.error.lower() }}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ error.consequence }} The correct approach is: {{ error.correction }}"
+      }
+    }{{ "," if not loop.last else "" }}
+    {%- endfor %}
+  ]
+}
+</script>
+
+<!-- Schema Markup - WebPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ bottom.metadata.title.split('|')[0].strip() }}",
+  "description": "{{ bottom.metadata.description }}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ bottom.metadata.title.split('|')[0].strip() }}",
+      "item": "https://bjjgraph.org/Positions/{{ bottom.metadata.title.split('|')[0].strip().replace(' ', '-') }}"
+    }
+  ]
+}
+</script>
+
+# {{ bottom.metadata.title.split('|')[0].strip() }}
+
+{% for tag in bottom.metadata.tags %}#{{ tag }} {% endfor %}
+
+> **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
+>
+> **Quick Stats**: Advanced practitioners escape {{ bottom.position_metrics.advancement_probability.advanced }}% of the time with proper technique.
+
+---
+
+<section id="state-properties" class="content-section">
+
+## Position Properties
+
+- **State ID**: `{{ bottom.state_id }}`
+- **Point Value**: {{ bottom.state_properties.point_value }} ({% if bottom.state_properties.point_value < 0 %}Disadvantaged by {{ bottom.state_properties.point_value|abs }} points{% else %}{{ bottom.state_properties.point_value }} points{% endif %})
+- **Position Type**: {{ bottom.state_properties.position_type }}
+- **Risk Level**: {{ bottom.state_properties.risk_level }}
+- **Energy Cost**: {{ bottom.state_properties.energy_cost }}
+- **Time Sustainability**: {{ bottom.state_properties.time_sustainability }}
+
+</section>
+
+<section id="overview" class="content-section">
+
+## What is {{ bottom.metadata.title.split('|')[0].strip().replace(' (Defense)', '').replace(' Bottom', '') }} from the Bottom?
+
+{{ bottom.overview }}
+
+</section>
+
+<section id="state-invariants" class="content-section">
+
+## What Defines This Position?
+
+{% for invariant in bottom.state_invariants -%}
+- {{ invariant }}
+{% endfor %}
+
+</section>
+
+<section id="prerequisites" class="content-section">
+
+## What Do You Need Before This Position?
+
+{% for prereq in bottom.prerequisites -%}
+- {{ prereq }}
+{% endfor %}
+
+</section>
+
+<section id="key-principles" class="content-section">
+
+## Key Defensive Principles
+
+{% for principle in bottom.key_principles -%}
+- {{ principle }}
+{% endfor %}
+
+</section>
+
+<section id="offensive-transitions" class="content-section">
+
+## What Escapes Are Available?
+
+{% for transition in bottom.offensive_transitions -%}
+### [[{{ transition.technique }}]] → [[{{ transition.target_position }}]]
+
+**Success Rates:**
+- Beginner: {{ transition.success_rates.beginner }}%
+- Intermediate: {{ transition.success_rates.intermediate }}%
+- Advanced: {{ transition.success_rates.advanced }}%
+
+{% endfor %}
+
+</section>
+
+<section id="defensive-responses" class="content-section hide-minimal">
+
+## How Does the Opponent Counter Your Escapes?
+
+{% for response in bottom.defensive_responses -%}
+- **[[{{ response.technique }}]]** → [[{{ response.target_position }}]]{% if response.success_rate %} (Opponent Success: {{ response.success_rate }}%){% endif %}
+{% endfor %}
+
+</section>
+
+<section id="counter-transitions" class="content-section hide-minimal">
+
+## How to Counter Opponent's Attacks
+
+{% for counter in bottom.counter_transitions -%}
+- **[[{{ counter.technique }}]]** → [[{{ counter.target_position }}]]
+  - {{ counter.trigger }}
+{% endfor %}
+
+</section>
+
+<section id="decision-tree" class="content-section">
+
+## Decision Making from This Position
+
+{% for node in bottom.decision_tree -%}
+**{{ node.condition }}:**
+{% for action in node.actions -%}
+- Execute **[[{{ action.technique }}]]** → [[{{ action.target }}]] (Probability: {{ action.probability }}%)
+{% endfor %}
+
+{% endfor %}
+
+</section>
+
+<section id="common-errors" class="content-section hide-minimal">
+
+## Common Defensive Mistakes
+
+{% for error in bottom.common_errors -%}
+### {{ loop.index }}. {{ error.error }}
+
+- ❌ **Consequence**: {{ error.consequence }}
+- ✅ **Correction**: {{ error.correction }}
+
+{% endfor %}
+
+</section>
+
+<section id="training-drills" class="content-section hide-minimal">
+
+## Training Drills for Defense
+
+{% for drill in bottom.training_drills -%}
+### {{ drill.name }}
+
+{{ drill.description }}
+
+{% if drill.duration -%}
+**Duration**: {{ drill.duration }}
+{% endif %}
+
+{% endfor %}
+
+</section>
+
+<section id="optimal-submission-paths" class="content-section">
+
+## Escape and Survival Paths
+
+{% for path in bottom.optimal_submission_paths -%}
+### {{ path.name }}
+
+`{{ path.path }}`
+
+{% endfor %}
+
+</section>
+
+<section id="position-metrics" class="content-section">
+
+## Success Rates and Statistics
+
+| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
+|--------------|----------------|-------------------------|------------------------|
+| Beginner     | {{ bottom.position_metrics.retention_rate.beginner }}% | {{ bottom.position_metrics.advancement_probability.beginner }}% | {{ bottom.position_metrics.submission_probability.beginner }}% |
+| Intermediate | {{ bottom.position_metrics.retention_rate.intermediate }}% | {{ bottom.position_metrics.advancement_probability.intermediate }}% | {{ bottom.position_metrics.submission_probability.intermediate }}% |
+| Advanced     | {{ bottom.position_metrics.retention_rate.advanced }}% | {{ bottom.position_metrics.advancement_probability.advanced }}% | {{ bottom.position_metrics.submission_probability.advanced }}% |
+
+{% if bottom.position_metrics.average_time -%}
+**Average Time in Position**: {{ bottom.position_metrics.average_time }}
+{% endif %}
+
+</section>
+
+<section id="expert-insights" class="content-section expert-insight">
+
+## What Do the Experts Say?
+
+### John Danaher - Systematic Defense
+
+{{ bottom.expert_insights.danaher }}
+
+### Gordon Ryan - Competition Application
+
+{{ bottom.expert_insights.gordon_ryan }}
+
+### Eddie Bravo - 10th Planet Approach
+
+{{ bottom.expert_insights.eddie_bravo }}
+
+</section>
+
+<section id="related-content" class="content-section">
+
+## Related Positions and Techniques
+
+{% for item in bottom.related_content -%}
+- **[[{{ item.name }}]]** - {{ item.relationship }}
+{% endfor %}
+
+</section>

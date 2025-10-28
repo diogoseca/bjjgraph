@@ -1,0 +1,753 @@
+{
+  "metadata": {
+    "title": "Stoner Control Bottom | BJJ Position Guide | BJJ Graph",
+    "description": "Master Stoner Control Bottom in BJJ. Advanced 10th Planet Rubber Guard control with high submission rates. Complete guide covering triangle, omoplata, and gogoplata setups.",
+    "state_id": "S198",
+    "tags": ["bjj", "position", "rubber-guard", "10th-planet", "stoner-control", "offensive", "no-gi"],
+    "parent_variant": "Stoner Control",
+    "sibling_variants": ["Stoner Control Top"]
+  },
+
+  "overview": "Stoner Control Bottom is an advanced control position within the 10th Planet Rubber Guard system, characterized by breaking opponent's posture with the rubber guard while establishing deep overhook control on one side. This position represents a critical checkpoint in the 10th Planet pathway toward high-percentage submissions including the triangle, omoplata, and gogoplata. The position derives its name from the deep shoulder control that 'stones' or freezes the opponent's mobility.\n\nFrom Stoner Control, the bottom practitioner has broken down the opponent's posture completely, secured a deep overhook on one arm, and maintains rubber guard structure on the opposite side. This configuration creates a powerful control platform that severely limits the opponent's defensive options while opening multiple attacking pathways. The position is particularly effective in no-gi contexts where traditional collar grips are unavailable.\n\nStoner Control represents Eddie Bravo's systematic approach to guard retention and offense, where each control position serves as both a defensive stronghold and an offensive launching point. The position requires significant hip flexibility and shoulder mobility but rewards practitioners with an extremely high submission finishing rate once properly established.",
+
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive",
+    "risk_level": "Low to Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+
+  "state_invariants": [
+    "Bottom practitioner's leg crosses over opponent's back in rubber guard configuration, with ankle positioned behind opponent's head/neck, creating strong posture-breaking leverage through hip flexion and external rotation",
+    "Deep overhook secured on one of opponent's arms, with bottom practitioner's arm threading under opponent's armpit and gripping around the back, controlling shoulder and preventing posting",
+    "Opponent's posture is broken forward and down toward bottom practitioner's chest, with upper back rounded and head pulled below the plane of bottom practitioner's shoulders",
+    "Bottom practitioner's hips are elevated off the mat, creating upward pressure through the rubber guard leg while maintaining active overhook control to prevent opponent from establishing defensive base"
+  ],
+
+  "prerequisites": [
+    "Rubber guard already established from closed guard bottom",
+    "Opponent's posture successfully broken with rubber guard leg",
+    "Deep overhook secured on one side with arm threaded under opponent's armpit",
+    "Hip flexibility sufficient to maintain elevated rubber guard while controlling opponent's shoulder",
+    "Opponent's weight committed forward enough to prevent easy posture recovery"
+  ],
+
+  "key_principles": [
+    "Maintain constant upward pressure with rubber guard leg to keep opponent's posture broken and prevent them from establishing base",
+    "Secure deep overhook by threading arm completely under opponent's armpit and gripping around their back, not just surface-level shoulder control",
+    "Use active hip elevation to create space for attacks while simultaneously preventing opponent from driving forward with pressure",
+    "Control opponent's free arm through positioning and angles rather than direct gripping, using body positioning to limit their defensive options",
+    "Transition quickly between submission setups rather than holding static position, as opponent's window for escape increases with time",
+    "Coordinate rubber guard pressure with overhook control to create opposing forces that freeze opponent's mobility and create submission opportunities"
+  ],
+
+  "offensive_transitions": [
+    {
+      "technique": "Triangle Setup",
+      "target_position": "Triangle Control Bottom",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Omoplata to Sweep",
+      "target_position": "Omoplata Control Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Gogoplata Setup",
+      "target_position": "Gogoplata Control Bottom",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 40,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Transition to Invisible Collar",
+      "target_position": "Invisible Collar Bottom",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "Transition to Chill Dog",
+      "target_position": "Chill Dog Bottom",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Transition to Meathook",
+      "target_position": "Meathook Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Rolling Omoplata",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Arm Triangle",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      }
+    }
+  ],
+
+  "defensive_responses": [
+    {
+      "technique": "Stack Defense",
+      "target_position": "Closed Guard Bottom",
+      "success_rate": 25
+    },
+    {
+      "technique": "Posture Recovery",
+      "target_position": "Closed Guard Top",
+      "success_rate": 20
+    },
+    {
+      "technique": "Overhook Defense",
+      "target_position": "Rubber Guard Bottom",
+      "success_rate": 30
+    },
+    {
+      "technique": "Base Widening",
+      "target_position": "Rubber Guard Bottom",
+      "success_rate": 15
+    }
+  ],
+
+  "counter_transitions": [
+    {
+      "technique": "Triangle Setup",
+      "target_position": "Triangle Control Bottom",
+      "trigger": "Opponent attempts to pull arm free from overhook or posts with free hand"
+    },
+    {
+      "technique": "Omoplata to Sweep",
+      "target_position": "Omoplata Control Bottom",
+      "trigger": "Opponent drives weight forward or tries to stack"
+    },
+    {
+      "technique": "Transition to Meathook",
+      "target_position": "Meathook Bottom",
+      "trigger": "Opponent attempts to clear rubber guard leg with free hand"
+    },
+    {
+      "technique": "Transition to Invisible Collar",
+      "target_position": "Invisible Collar Bottom",
+      "trigger": "Opponent successfully recovers some posture but remains within rubber guard range"
+    }
+  ],
+
+  "decision_tree": [
+    {
+      "condition": "If opponent's free arm posts on mat near hip or attempts to establish base",
+      "actions": [
+        {
+          "technique": "Triangle Setup",
+          "target": "Triangle Control Bottom",
+          "probability": 75
+        },
+        {
+          "technique": "Omoplata to Sweep",
+          "target": "Omoplata Control Bottom",
+          "probability": 70
+        }
+      ]
+    },
+    {
+      "condition": "If opponent drives forward with weight or attempts stack pressure",
+      "actions": [
+        {
+          "technique": "Omoplata to Sweep",
+          "target": "Omoplata Control Bottom",
+          "probability": 80
+        },
+        {
+          "technique": "Rolling Omoplata",
+          "target": "Top Position",
+          "probability": 65
+        }
+      ]
+    },
+    {
+      "condition": "If opponent pulls trapped arm backward attempting to escape overhook",
+      "actions": [
+        {
+          "technique": "Transition to Invisible Collar",
+          "target": "Invisible Collar Bottom",
+          "probability": 70
+        },
+        {
+          "technique": "Arm Triangle",
+          "target": "Won by Submission",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent recovers partial posture but remains within guard structure",
+      "actions": [
+        {
+          "technique": "Transition to Chill Dog",
+          "target": "Chill Dog Bottom",
+          "probability": 65
+        },
+        {
+          "technique": "Transition to Meathook",
+          "target": "Meathook Bottom",
+          "probability": 60
+        }
+      ]
+    }
+  ],
+
+  "common_errors": [
+    {
+      "error": "Allowing rubber guard leg to drop below opponent's shoulder line",
+      "consequence": "Opponent recovers posture easily and can begin passing sequence or escape guard entirely",
+      "correction": "Maintain constant upward pressure with rubber guard leg, keeping ankle positioned high behind opponent's head/neck and actively pulling downward with leg"
+    },
+    {
+      "error": "Securing shallow overhook with arm only partially under opponent's armpit",
+      "consequence": "Opponent can easily pull arm free, post for base, or initiate passing attacks without significant resistance",
+      "correction": "Thread arm deeply under opponent's armpit until your shoulder makes contact with their ribcage, then grip around back of shoulder or lat for maximum control"
+    },
+    {
+      "error": "Remaining flat on back instead of elevating hips",
+      "consequence": "Reduces effectiveness of rubber guard pressure, allows opponent to settle weight and establish base, limits mobility for submission setups",
+      "correction": "Keep hips elevated throughout position, creating upward angle that amplifies rubber guard pressure while maintaining freedom to adjust angles for attacks"
+    },
+    {
+      "error": "Holding static position without progressing to submissions",
+      "consequence": "Opponent has time to develop escape strategy, fatigue sets in for bottom player, referee may penalize for stalling in competition",
+      "correction": "Use Stoner Control as transition checkpoint rather than destination, immediately chain toward triangle, omoplata, or other submission setups within 3-5 seconds"
+    },
+    {
+      "error": "Gripping opponent's free arm directly instead of controlling through positioning",
+      "consequence": "Expends energy on grip fighting, reduces available arm for other controls, allows opponent to win grip battles through strength",
+      "correction": "Use body position and angles to limit free arm's effectiveness, save grips for critical moments, rely on rubber guard and overhook as primary control mechanisms"
+    },
+    {
+      "error": "Attempting position without adequate hip flexibility",
+      "consequence": "Cannot maintain proper rubber guard angle, position feels forced and uncomfortable, increased injury risk to hip joint or groin",
+      "correction": "Develop hip flexibility gradually through consistent stretching routine before attempting advanced rubber guard positions, use Mission Control as prerequisite checkpoint"
+    }
+  ],
+
+  "training_drills": [
+    {
+      "name": "Stoner Control Entry Drill",
+      "description": "From closed guard bottom with broken posture, practice securing deep overhook while simultaneously establishing rubber guard on opposite side. Partner provides 50% resistance. Focus on threading overhook deeply under armpit and positioning rubber guard ankle high behind head. Repeat 10 times each side.",
+      "duration": "5 minutes"
+    },
+    {
+      "name": "Stoner Control to Triangle Chain",
+      "description": "Partner starts in defensive posture from Stoner Control. Bottom player establishes position then immediately transitions to triangle setup when partner posts with free arm. Practice recognizing posting moment and executing smooth transition. Work both sides, 8 repetitions each.",
+      "duration": "8 minutes"
+    },
+    {
+      "name": "Stoner Control Retention Under Pressure",
+      "description": "Partner provides 75% resistance attempting to escape overhook, recover posture, and pass guard. Bottom player maintains Stoner Control for 30-second intervals using proper mechanics (hip elevation, rubber guard pressure, deep overhook). Switch roles. 6 rounds total.",
+      "duration": "6 minutes"
+    },
+    {
+      "name": "Four-Way Submission Flow from Stoner Control",
+      "description": "From established Stoner Control, flow continuously between triangle setup, omoplata sweep, gogoplata position, and invisible collar transition. Partner remains passive. Focus on smooth transitions and maintaining control throughout movement chain. 5-minute continuous flow each side.",
+      "duration": "10 minutes"
+    }
+  ],
+
+  "optimal_submission_paths": [
+    {
+      "name": "Shortest path to triangle finish",
+      "path": "Stoner Control Bottom → Triangle Control Bottom → Triangle from Guard → Won by Submission"
+    },
+    {
+      "name": "High-percentage omoplata sweep to back attack",
+      "path": "Stoner Control Bottom → Omoplata Control Bottom → Back Control Top → Rear Naked Choke → Won by Submission"
+    },
+    {
+      "name": "Invisible collar to gogoplata sequence",
+      "path": "Stoner Control Bottom → Invisible Collar Bottom → Gogoplata Control Bottom → Gogoplata → Won by Submission"
+    },
+    {
+      "name": "Meathook to armbar chain",
+      "path": "Stoner Control Bottom → Meathook Bottom → Armbar Control Bottom → Armbar from Guard → Won by Submission"
+    }
+  ],
+
+  "related_content": [
+    {
+      "name": "Rubber Guard Bottom",
+      "relationship": "Prerequisite position"
+    },
+    {
+      "name": "Mission Control Bottom",
+      "relationship": "Alternative rubber guard control"
+    },
+    {
+      "name": "Triangle Control Bottom",
+      "relationship": "Primary submission transition"
+    },
+    {
+      "name": "Omoplata Control Bottom",
+      "relationship": "Primary sweep transition"
+    },
+    {
+      "name": "Invisible Collar Bottom",
+      "relationship": "Advanced progression position"
+    },
+    {
+      "name": "Chill Dog Bottom",
+      "relationship": "Parallel 10th Planet position"
+    },
+    {
+      "name": "Meathook Bottom",
+      "relationship": "Secondary transition option"
+    },
+    {
+      "name": "10th Planet Rubber Guard System",
+      "relationship": "Parent system"
+    },
+    {
+      "name": "Rubber Guard to Triangle System",
+      "relationship": "Related systematic approach"
+    },
+    {
+      "name": "Gogoplata",
+      "relationship": "Advanced submission option"
+    }
+  ],
+
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 45,
+      "intermediate": 65,
+      "advanced": 80
+    },
+    "advancement_probability": {
+      "beginner": 50,
+      "intermediate": 70,
+      "advanced": 85
+    },
+    "submission_probability": {
+      "beginner": 35,
+      "intermediate": 55,
+      "advanced": 75
+    },
+    "average_time": "20-40 seconds"
+  },
+
+  "expert_insights": {
+    "danaher": "Stoner Control represents a sophisticated application of mechanical advantage through coordinated limb entanglement and postural destruction. The position's effectiveness derives from creating opposing vectors of force - the rubber guard generates superior downward pressure on the opponent's head and upper back while the deep overhook eliminates their primary structural support on one side. What makes this position particularly valuable from a systematic perspective is its role as a decision point in the guard bottom hierarchy. The opponent faces a series of losing options: posting with the free arm triggers triangle mechanics, driving forward initiates omoplata sweeps, and attempting to extract the trapped arm opens arm triangle attacks. This multi-directional threat matrix is the hallmark of elite guard play, where every defensive action creates a specific offensive opportunity.",
+    "gordon_ryan": "In high-level no-gi competition, Stoner Control is one of the few rubber guard positions I've found legitimately effective against elite opponents. The key is treating it as a rapid-fire transition checkpoint rather than a holding position. Against world-class competitors, you have maybe 5-10 seconds before they develop a counter-strategy, so you need to be immediately attacking. I prefer using Stoner Control to set up the triangle or omoplata sweep because these paths have proven finishes at the highest levels. The position works best when you've already broken your opponent down mentally with previous submission attempts - they're thinking about defense, not offense. One critical detail most people miss: the overhook needs to be impossibly deep, almost uncomfortable, because good passers will fight tooth and nail to extract that arm. If they succeed, your entire position collapses instantly.",
+    "eddie_bravo": "Stoner Control is a crucial checkpoint in the rubber guard roadmap and represents the moment where you've successfully broken your opponent's defensive structure. From here, you have multiple paths to victory, and that's what makes it so powerful - they can't defend everything simultaneously. The triangle is your bread and butter from this position, but the omoplata sweep opens up when they fight the triangle, and the gogoplata appears when they defend differently. I named it Stoner Control because once you lock it in properly, you've 'stoned' their ability to move effectively. The position requires serious hip flexibility, which is why we emphasize stretching at 10th Planet gyms. If you can't get your ankle behind their head comfortably, you're not ready for this position yet - stick with Mission Control until your flexibility improves. When you hit Stoner Control clean, your opponent knows they're in serious trouble."
+  }
+}
+{
+  "metadata": {
+    "title": "Stoner Control | BJJ Position Guide | BJJ Graph",
+    "description": "Master Stoner Control in BJJ. Advanced 10th Planet half guard variation emphasizing lockdown control and back-take setups. Success rates: 45% beginner to 75% advanced.",
+    "state_id": "S247",
+    "tags": ["bjj", "position", "half-guard", "10th-planet", "lockdown", "stoner-control", "eddie-bravo"]
+  },
+  
+  "overview": "Stoner Control is an advanced half guard variation from the 10th Planet Jiu-Jitsu system that combines lockdown mechanics with specialized upper body control to create powerful attacking opportunities. Named for its association with Eddie Bravo's innovative approach to half guard, this position features the bottom player securing a lockdown on the opponent's leg while establishing a unique overhook grip configuration that severely limits the top player's mobility and posture.\n\nThe position is characterized by an aggressive bottom game where the practitioner uses the lockdown to control distance and prevent the pass while simultaneously working for back takes, sweeps, and submissions. Unlike traditional half guard variations that focus on creating space, Stoner Control emphasizes closing distance and maintaining constant pressure on the opponent's upper body, forcing them into predictable defensive patterns. This control scheme creates a dilemma for the top player: defend the back take and risk being swept, or defend the sweep and expose the back.\n\nStoner Control represents the evolution of 10th Planet's half guard system, building upon the fundamental lockdown position with additional layers of control that increase offensive options while maintaining defensive integrity. The position is particularly effective in no-gi grappling where traditional gi grips are unavailable, though it can be adapted for gi competition with appropriate grip modifications.",
+  
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive with offensive options",
+    "risk_level": "Low to Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium to Long"
+  },
+  
+  "state_invariants": [
+    "Bottom player maintains lockdown on opponent's trapped leg with feet crossed beneath opponent's thigh, creating mechanical control that prevents hip mobility and limits passing options",
+    "Bottom player secures overhook on opponent's far arm with deep grip configuration, pulling opponent's shoulder down toward mat while controlling their upper body rotation",
+    "Bottom player's inside arm controls opponent's near hip or underhooks deeply, creating frame that prevents opponent from flattening bottom player completely to mat",
+    "Opponent positioned on their knees or combat base with trapped leg extended, upper body pulled forward and down by overhook control, limiting their ability to establish strong posture",
+    "Bottom player on their side facing opponent with hips actively engaged in lockdown squeeze, maintaining constant pressure on trapped leg while using underhook/overhook combination to control upper body alignment"
+  ],
+  
+  "prerequisites": [
+    "Successful lockdown establishment on opponent's leg with feet properly crossed",
+    "Opponent attempting to pass half guard or maintain top position",
+    "Ability to secure overhook grip on opponent's far arm",
+    "Bottom player positioned on side with mobile hips",
+    "Opponent's weight forward enough to allow underhook or overhook control"
+  ],
+  
+  "key_principles": [
+    "Maintain active lockdown squeeze throughout position to control opponent's base and prevent leg extraction",
+    "Use overhook to break opponent's posture down continuously, never allowing them to sit back or establish upright position",
+    "Create constant dilemma between defending back take and defending sweep by alternating pressure between upper body control and lockdown",
+    "Keep opponent's weight forward over their trapped knee to limit their ability to generate backward pressure",
+    "Use underhook side frames and hip movement to prevent being flattened to back while maintaining offensive threat",
+    "Coordinate lockdown squeeze timing with upper body pulls to maximize off-balancing effect and create sweep opportunities",
+    "Maintain head position tight to opponent's chest or shoulder to prevent them from creating space for crossface control"
+  ],
+  
+  "offensive_transitions": [
+    {
+      "technique": "Old School Sweep",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Electric Chair Transition",
+      "target_position": "Electric Chair",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Transition to Truck",
+      "target_position": "Truck Position Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Lockdown Sweeps",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Half Guard to Back Take",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Underhook Sweep from Half",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Transition to Rubber Guard",
+      "target_position": "Rubber Guard",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Transition to Deep Half",
+      "target_position": "Deep Half Guard",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    }
+  ],
+  
+  "defensive_responses": [
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 35
+    },
+    {
+      "technique": "Smash Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 30
+    },
+    {
+      "technique": "Crossface Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 40
+    },
+    {
+      "technique": "Lockdown Defense",
+      "target_position": "Half Guard Top",
+      "success_rate": 45
+    },
+    {
+      "technique": "Posture Recovery",
+      "target_position": "Combat Base",
+      "success_rate": 50
+    },
+    {
+      "technique": "Whizzer Control",
+      "target_position": "Half Guard Top",
+      "success_rate": 40
+    }
+  ],
+  
+  "counter_transitions": [
+    {
+      "technique": "Electric Chair Submission",
+      "target_position": "Electric Chair",
+      "trigger": "Opponent attempts to pull their leg free from lockdown by driving backward"
+    },
+    {
+      "technique": "Old School Sweep",
+      "target_position": "Top Position",
+      "trigger": "Opponent pushes into overhook to counter back take attempt"
+    },
+    {
+      "technique": "Truck Entry",
+      "target_position": "Truck Position Bottom",
+      "trigger": "Opponent turns into underhook to prevent sweep"
+    },
+    {
+      "technique": "Calf Slicer",
+      "target_position": "Submission Position Generic",
+      "trigger": "Opponent extends trapped leg aggressively to escape lockdown"
+    }
+  ],
+  
+  "decision_tree": [
+    {
+      "condition": "If opponent establishes strong whizzer control and drives weight forward",
+      "actions": [
+        {
+          "technique": "Transition to Truck",
+          "target": "Truck Position Bottom",
+          "probability": 60
+        },
+        {
+          "technique": "Electric Chair Transition",
+          "target": "Electric Chair",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent pulls back and tries to establish upright posture",
+      "actions": [
+        {
+          "technique": "Old School Sweep",
+          "target": "Top Position",
+          "probability": 65
+        },
+        {
+          "technique": "Lockdown Sweeps",
+          "target": "Mount",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent flattens you to back and attempts crossface control",
+      "actions": [
+        {
+          "technique": "Transition to Deep Half",
+          "target": "Deep Half Guard",
+          "probability": 50
+        },
+        {
+          "technique": "Lockdown Defense",
+          "target": "Lockdown Position Bottom",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent turns away from overhook to counter back take",
+      "actions": [
+        {
+          "technique": "Underhook Sweep from Half",
+          "target": "Side Control Top",
+          "probability": 70
+        },
+        {
+          "technique": "Half Guard to Back Take",
+          "target": "Back Control",
+          "probability": 55
+        }
+      ]
+    }
+  ],
+  
+  "common_errors": [
+    {
+      "error": "Releasing lockdown squeeze prematurely when attempting upper body techniques",
+      "consequence": "Opponent extracts trapped leg and completes pass to side control or establishes dominant half guard top position",
+      "correction": "Maintain constant lockdown pressure throughout all transitions, using squeeze timing to complement upper body attacks rather than replacing lockdown control"
+    },
+    {
+      "error": "Allowing opponent to establish crossface control while focusing only on overhook",
+      "consequence": "Bottom player gets flattened to back, losing offensive options and becoming vulnerable to shoulder pressure and eventual pass",
+      "correction": "Keep inside arm active as frame against opponent's hip or chest, preventing them from driving shoulder across and establishing crossface while maintaining overhook"
+    },
+    {
+      "error": "Gripping overhook too shallow on opponent's triceps instead of deep on shoulder",
+      "consequence": "Opponent easily removes arm from overhook control by straightening and pulling back, recovering posture and neutralizing back take threats",
+      "correction": "Secure overhook deep past opponent's shoulder with grip on back or lat, pulling their shoulder down and forward to break posture completely"
+    },
+    {
+      "error": "Staying flat on back instead of maintaining side position throughout control",
+      "consequence": "Loss of hip mobility and lockdown effectiveness, making sweeps impossible and allowing opponent to establish crushing pressure",
+      "correction": "Stay on side facing opponent with active hip movement, using lockdown and upper body control to prevent being flattened while maintaining offensive capability"
+    },
+    {
+      "error": "Attempting transitions without first breaking opponent's posture and base",
+      "consequence": "All sweep and back take attempts fail because opponent maintains strong posture and can easily defend against poorly timed attacks",
+      "correction": "Use overhook pulls and lockdown squeezes to completely break opponent's posture before initiating transitions, creating unstable base that makes techniques successful"
+    },
+    {
+      "error": "Neglecting to create constant dilemma between defending back and defending sweep",
+      "consequence": "Opponent focuses defensive efforts on single threat and successfully shuts down all offensive options, eventually passing guard",
+      "correction": "Alternate between back take pressure and sweep pressure continuously, forcing opponent to choose defense and opening opposite attack when they commit"
+    }
+  ],
+  
+  "training_drills": [
+    {
+      "name": "Lockdown Control Maintenance Drill",
+      "description": "Partner in half guard top attempts to extract leg and pass while you maintain lockdown squeeze and overhook control for 2-minute rounds. Focus on preventing leg extraction and posture recovery without attempting submissions or sweeps. Gradually increase resistance as control improves.",
+      "duration": "5 rounds of 2 minutes"
+    },
+    {
+      "name": "Back Take to Sweep Flow Drill",
+      "description": "Start in Stoner Control and alternate between back take attempts and sweep attempts based on partner's defensive reactions. Partner provides moderate resistance and switches defense focus every 30 seconds. Practice reading defensive patterns and attacking opposite opening.",
+      "duration": "6 rounds of 3 minutes"
+    },
+    {
+      "name": "Transition Chain Repetition",
+      "description": "Execute smooth transitions between Stoner Control, Electric Chair, Truck Position, and Deep Half Guard in sequence with cooperative partner. Focus on maintaining lockdown throughout transitions and proper timing of releases. Repeat chain 10 times per round.",
+      "duration": "4 rounds of 5 minutes"
+    },
+    {
+      "name": "Posture Breaking Drill",
+      "description": "Partner starts in combat base with good posture while you work exclusively on breaking their posture down using overhook and lockdown coordination. No sweeps or submissions, only posture control. Partner attempts to recover upright position every 20 seconds.",
+      "duration": "5 rounds of 3 minutes"
+    }
+  ],
+  
+  "optimal_submission_paths": [
+    {
+      "name": "Electric Chair Path",
+      "path": "Stoner Control → Electric Chair → Electric Chair Submission (2 transitions)"
+    },
+    {
+      "name": "Truck to Twister Path",
+      "path": "Stoner Control → Truck Position Bottom → Twister Control → Twister (3 transitions)"
+    },
+    {
+      "name": "Back Attack Path",
+      "path": "Stoner Control → Back Control → Rear Naked Choke (2 transitions)"
+    },
+    {
+      "name": "Sweep to Mount Submission Path",
+      "path": "Stoner Control → Old School Sweep → Mount → Americana from Mount (3 transitions)"
+    },
+    {
+      "name": "Calf Slicer Path",
+      "path": "Stoner Control → Lockdown squeeze → Calf Slicer (1 transition, opportunistic)"
+    }
+  ],
+  
+  "related_content": [
+    {
+      "name": "Lockdown Position Bottom",
+      "relationship": "Parent position - foundational lockdown mechanics"
+    },
+    {
+      "name": "Lockdown Half Guard Bottom",
+      "relationship": "Variation - similar lockdown control with different upper body grips"
+    },
+    {
+      "name": "Electric Chair",
+      "relationship": "Primary transition target - natural progression from Stoner Control"
+    },
+    {
+      "name": "Truck Position Bottom",
+      "relationship": "Transition target - back attack setup from Stoner Control"
+    },
+    {
+      "name": "Twister Control",
+      "relationship": "Advanced transition - submission position accessible via truck"
+    },
+    {
+      "name": "10th Planet Half Guard Bottom System",
+      "relationship": "Parent system - comprehensive framework containing Stoner Control"
+    },
+    {
+      "name": "Old School Sweep",
+      "relationship": "Primary offensive technique - high percentage sweep from position"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Defensive transition - escape option when flattened"
+    },
+    {
+      "name": "Rubber Guard",
+      "relationship": "Related 10th Planet position - alternative guard system"
+    }
+  ],
+  
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 55,
+      "intermediate": 70,
+      "advanced": 85
+    },
+    "advancement_probability": {
+      "beginner": 45,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "submission_probability": {
+      "beginner": 20,
+      "intermediate": 35,
+      "advanced": 50
+    },
+    "average_time": "1-3 minutes in competition, 30-90 seconds in training"
+  },
+  
+  "expert_insights": {
+    "danaher": "Stoner Control represents an excellent example of systematic half guard evolution where the practitioner combines mechanical leg control with strategic upper body manipulation to create genuine attacking dilemmas. The lockdown provides the foundational control that prevents the opponent's escape, but it is the overhook configuration that transforms this from purely defensive to genuinely offensive. The biomechanical principle at work is the disruption of the opponent's ability to generate backward force through their trapped leg while simultaneously preventing forward posture recovery through shoulder control. This creates a trapped state where the opponent cannot effectively defend both the back take and the sweep simultaneously. The key to mastering this position lies in understanding that the lockdown and overhook must work in coordination - the lockdown controls the lower body and prevents escape, while the overhook breaks posture and creates the attacking opportunities. Students must develop the ability to maintain constant pressure in both control points while reading which defensive priority the opponent chooses, then immediately attacking the opposite opening.",
+    "gordon_ryan": "In competition, Stoner Control is one of those positions that can completely shut down an opponent's passing game while setting up high-percentage finishes. I've used variations of this control extensively in no-gi matches because it forces the top player into a terrible position where they can't establish the pressure passing game that most modern grapplers rely on. The lockdown prevents them from stepping their leg out for knee slice passes, and the overhook prevents them from getting their weight over you for smash passes. What makes this position championship-level is the back take threat - once you get good at the transition to truck position, opponents become so worried about defending their back that they leave themselves wide open for the old school sweep. In my experience, the highest percentage finish from here is actually the sweep to mounted position rather than the submission attempts, because once you sweep someone from lockdown they're usually so off-balanced that you can take dominant top position immediately. The key in competition is patience - hold the position, break their posture completely, then attack when you feel them commit to a defensive priority. Don't rush the techniques because the position itself is scoring you points in most rulesets and frustrating your opponent.",
+    "eddie_bravo": "Stoner Control is one of the most underrated positions in the entire 10th Planet system because people get so hyped about the rubber guard that they sleep on how nasty the lockdown game can be. This position is all about creating that Eddie Bravo special - the dilemma where your opponent is fucked either way they defend. They defend the back, you sweep them. They defend the sweep, you take the back. It's beautiful, man. What I love about Stoner Control is how it embodies the 10th Planet philosophy of keeping everything tight and controlling the distance. You're not trying to create space like traditional half guard - you're sucking them into your world and keeping them there until they make a mistake. The overhook is crucial because it's not just controlling their arm, it's controlling their whole posture and preventing them from establishing any kind of base. Once you break someone down in Stoner Control, you can flow into the entire truck position system, the electric chair, all the lockdown sweeps - it's a gateway to the whole 10th Planet universe. My advice is to drill the transitions between Stoner Control and electric chair until they're automatic, because that combination alone will get you submissions at every level. Keep it tight, keep it nasty, and make them guess wrong."
+  }
+}
+Session limit reached ∙ resets 11am

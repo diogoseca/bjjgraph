@@ -361,7 +361,7 @@ python3 scripts/validate_content.py source/content/ --type Positions -v
 
 ```
 ✓ Base Maintenance.md
-  Path: source/content/Concepts/Base Maintenance.md
+  Path: source/content/Principles/Base Maintenance.md
   Type: Concept
   INFO: Missing Eddie Bravo expert insight - recommended for comprehensive coverage
   INFO: Missing Concept Relationships section - recommended for context
@@ -1359,7 +1359,7 @@ python3 scripts/validate_content.py source/content/Positions/ --type Positions -
 - `/source/content/Positions/CONTRIBUTING-POSITIONS.md` - Position standards
 - `/source/content/Transitions/CONTRIBUTING-TRANSITIONS.md` - Transition standards
 - `/source/content/Submissions/CONTRIBUTING-SUBMISSIONS.md` - Submission standards
-- `/source/content/Concepts/CONTRIBUTING-CONCEPTS.md` - Concept standards
+- `/source/content/Principles/CONTRIBUTING-CONCEPTS.md` - Concept standards
 - `/source/content/Systems/CONTRIBUTING-SYSTEMS.md` - System standards
 
 **Project Docs**:

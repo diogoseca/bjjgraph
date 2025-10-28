@@ -5,7 +5,7 @@ Main agent responsibilities:
    - `source/content/Positions/CONTRIBUTING-POSITIONS.md`
    - `source/content/Transitions/CONTRIBUTING-TRANSITIONS.md`
    - `source/content/Submissions/CONTRIBUTING-SUBMISSIONS.md`
-   - `source/content/Concepts/CONTRIBUTING-CONCEPTS.md`
+   - `source/content/Principles/CONTRIBUTING-CONCEPTS.md`
    - `source/content/Systems/CONTRIBUTING-SYSTEMS.md`
 2. Identify the next 100 unlocked entries from `new_files_to_create.md`, taking files in order from Batch 1 onwards.
 3. Treat `todo/new_files_to_create.md` as the single source of truth for lock status and completion tracking.

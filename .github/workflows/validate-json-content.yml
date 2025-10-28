@@ -1,0 +1,69 @@
+name: Validate JSON Content
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'source/content/**/*.json'
+      - 'source/content/**/TEMPLATE.json'
+      - 'source/content/**/TEMPLATE.md.jinja2'
+      - 'scripts/validate_json.py'
+      - 'scripts/json_to_md.py'
+      - 'scripts/check_sync.py'
+  pull_request:
+    paths:
+      - 'source/content/**/*.json'
+      - 'source/content/**/TEMPLATE.*'
+      - 'scripts/*.py'
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    name: Validate JSON & Check Sync
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          pip install jsonschema jinja2
+
+      - name: Validate JSON schemas (STRICT)
+        run: |
+          echo "🔍 Validating all JSON files against TEMPLATE.json schemas..."
+          python3 scripts/validate_json.py --all --strict
+
+      - name: Check JSON/MD sync (STRICT)
+        run: |
+          echo "🔍 Checking if JSON and MD files are in sync..."
+          python3 scripts/check_sync.py --all
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install Quartz dependencies
+        run: |
+          cd source
+          npm install
+
+      - name: Verify Quartz build succeeds
+        run: |
+          echo "🏗️  Testing Quartz build with validated content..."
+          cd source
+          npx quartz build
+
+      - name: Summary
+        if: success()
+        run: |
+          echo "✅ All validations passed!"
+          echo "  - JSON schemas valid"
+          echo "  - JSON/MD files in sync"
+          echo "  - Quartz build successful"

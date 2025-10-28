@@ -1856,7 +1856,7 @@ Technical content should be reviewed by BJJ practitioners.
 - Transition Contributor Guide: `/source/content/Transitions/CONTRIBUTING-TRANSITIONS.md`
 - Submission Contributor Guide: `/source/content/Submissions/CONTRIBUTING-SUBMISSIONS.md`
 - Systems Contributor Guide: `/source/content/Systems/CONTRIBUTING-SYSTEMS.md`
-- Concepts Contributor Guide: `/source/content/Concepts/CONTRIBUTING-CONCEPTS.md`
+- Concepts Contributor Guide: `/source/content/Principles/CONTRIBUTING-CONCEPTS.md`
 - Project Overview: `/CLAUDE.md`
 - SEO Strategy: `/todo/seo.md`
 - Game Engine Plan: `/todo/structure.md`

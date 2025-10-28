@@ -52,7 +52,7 @@ bjjgraph/source/
 │   ├── Positions/           # S### state nodes (95 files)
 │   ├── Transitions/         # T### edges (71 files)
 │   ├── Submissions/         # SUB### terminal states (49 files)
-│   ├── Concepts/            # C### principles
+│   ├── Principles/            # C### principles
 │   ├── Systems/             # SC### expert frameworks
 │   └── *.md                 # Hub pages and index
 ├── quartz/                   # Quartz core

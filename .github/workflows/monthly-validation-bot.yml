@@ -101,7 +101,7 @@ jobs:
             - source/content/Positions/CONTRIBUTING-POSITIONS.md (Position Standard V2)
             - source/content/Transitions/CONTRIBUTING-TRANSITIONS.md (Transition Standard V2)
             - source/content/Submissions/CONTRIBUTING-SUBMISSIONS.md (Submission Standard with SAFETY FIRST)
-            - source/content/Concepts/CONTRIBUTING-CONCEPTS.md (Concept Standard)
+            - source/content/Principles/CONTRIBUTING-CONCEPTS.md (Concept Standard)
             - source/content/Systems/CONTRIBUTING-SYSTEMS.md (System Standard)
             - source/content/Learning/CONTRIBUTING-LEARNING.md (Learning Resource Standard)
             - source/content/CONTRIBUTING-YAML-SCHEMA.md (Complete schema reference)
@@ -126,6 +126,7 @@ jobs:
                - Add or fix success rates (ensure Beginner ≤ Intermediate ≤ Advanced)
                - Add missing expert insights (Danaher, Gordon Ryan, Eddie Bravo)
                - Fix wikilinks that don't resolve
+               - Fix variant references (ensure Top/Bottom perspectives link correctly)
                - Add missing safety sections (submissions only)
                - Improve SEO metadata (title, description)
                - Add missing state properties

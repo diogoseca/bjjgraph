@@ -1,0 +1,1010 @@
+{
+  "metadata": {
+    "title": "Double Unders Bottom Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master Double Unders Bottom position in BJJ. Complete defensive guide with escapes, frames, and recovery options. Learn to defend underhook pressure passing with 60% escape rate.",
+    "state_id": "S156",
+    "tags": ["bjj", "position", "bottom", "defensive", "guard-passing-defense", "half-guard", "pressure-passing"]
+  },
+  "overview": "Double Unders Bottom Position occurs when an opponent has established underhooks on both sides while attempting to pass your guard, creating significant pressure and control. This is a critical defensive position commonly encountered during pressure passing sequences, particularly from half guard or when defending knee slice attacks. The bottom player faces immense forward pressure as the top player drives their weight through the underhooks, collapsing posture and threatening to flatten the defender.\n\nThis position represents a transitional state in the guard passing hierarchy where the top player has gained significant control but hasn't yet achieved side control. The bottom practitioner must act quickly to recover frames, create space, and either re-establish guard or accept the pass to a more stable defensive position. Understanding defensive framing, hip movement, and strategic acceptance of position is crucial for survival. While challenging, this position offers opportunities to transition to deep half guard, recover butterfly hooks, or execute granby rolls when timed correctly.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive",
+    "risk_level": "High",
+    "energy_cost": "High",
+    "time_sustainability": "Short"
+  },
+  "state_invariants": [
+    "Opponent has both arms wrapped under your armpits with underhooks established bilaterally, controlling your upper body and eliminating frames",
+    "Your back is curved forward with shoulders rounded as opponent drives weight through underhooks into your chest and torso, collapsing defensive posture",
+    "Opponent's chest pressure is driving forward and downward, forcing your upper body toward the mat while preventing you from sitting up or creating space",
+    "Your hips are being pressured toward the mat with limited mobility as opponent works to flatten you completely and establish side control or mount",
+    "Your legs may be entangled in half guard, butterfly hooks, or transitioning between positions as opponent advances the pass"
+  ],
+  "prerequisites": [
+    "Opponent has secured double underhooks from a passing position",
+    "Your defensive frames have been compromised or removed",
+    "Opponent is driving forward pressure through underhooks",
+    "You are on your back or side with upper body controlled",
+    "Guard passing sequence is in advanced stage"
+  ],
+  "key_principles": [
+    "Create frames immediately - elbows inside, forearms against opponent's face/neck to generate space",
+    "Prevent chest-to-chest contact by maintaining any available distance with frames or hip positioning",
+    "Keep hips mobile and active - shrimping, bridging, or turning to prevent being flattened completely",
+    "Fight to recover at least one underhook to break bilateral control and restore defensive structure",
+    "Use opponent's forward pressure against them - granby rolls and deep half entries work with their momentum",
+    "Protect your back from taking the mat - once flattened, escape difficulty increases exponentially",
+    "Accept strategic transitions when necessary - moving to deep half or turtle may be better than being crushed"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Deep Half Entry",
+      "target_position": "Deep Half Guard Bottom",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Granby Roll",
+      "target_position": "Turtle Bottom",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Butterfly Hook Recovery",
+      "target_position": "Butterfly Guard Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Frame and Shrimp",
+      "target_position": "Half Guard Bottom",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Underhook Recovery",
+      "target_position": "Underhook Battle Position",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Hip Escape",
+      "target_position": "Open Guard Bottom",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Smash Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 65
+    },
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 60
+    },
+    {
+      "technique": "Transition to Mount",
+      "target_position": "Mount Top",
+      "success_rate": 45
+    },
+    {
+      "technique": "Transition to North-South",
+      "target_position": "North-South Top",
+      "success_rate": 50
+    },
+    {
+      "technique": "Pressure Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 70
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Deep Half Entry",
+      "target_position": "Deep Half Guard Bottom",
+      "trigger": "Opponent drives weight forward attempting to flatten"
+    },
+    {
+      "technique": "Granby Roll",
+      "target_position": "Turtle Bottom",
+      "trigger": "Opponent commits weight forward toward head while passing"
+    },
+    {
+      "technique": "Frame Creation",
+      "target_position": "Half Guard Bottom",
+      "trigger": "Opponent pauses pressure to adjust grips or positioning"
+    },
+    {
+      "technique": "Butterfly Hook Retention",
+      "target_position": "Butterfly Guard Bottom",
+      "trigger": "Opponent elevates hips to clear legs during pass"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent drives heavy pressure forward and down attempting to flatten you completely",
+      "actions": [
+        {
+          "technique": "Deep Half Entry",
+          "target": "Deep Half Guard Bottom",
+          "probability": 55
+        },
+        {
+          "technique": "Granby Roll",
+          "target": "Turtle Bottom",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent pauses pressure to consolidate position or adjust grips",
+      "actions": [
+        {
+          "technique": "Frame and Shrimp",
+          "target": "Half Guard Bottom",
+          "probability": 65
+        },
+        {
+          "technique": "Butterfly Hook Recovery",
+          "target": "Butterfly Guard Bottom",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent lifts weight or shifts laterally to clear legs",
+      "actions": [
+        {
+          "technique": "Hip Escape",
+          "target": "Open Guard Bottom",
+          "probability": 60
+        },
+        {
+          "technique": "Underhook Recovery",
+          "target": "Underhook Battle Position",
+          "probability": 40
+        }
+      ]
+    },
+    {
+      "condition": "If you successfully create any frame or space between chests",
+      "actions": [
+        {
+          "technique": "Frame Management",
+          "target": "Half Guard Bottom",
+          "probability": 70
+        },
+        {
+          "technique": "Guard Recovery",
+          "target": "Closed Guard Bottom",
+          "probability": 35
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Accepting both underhooks passively without immediate frame creation",
+      "consequence": "Allows opponent to consolidate double underhook control, flatten your back to the mat, and complete the pass with minimal resistance",
+      "correction": "Fight frames immediately - get elbows inside, forearms on face/neck, create any space possible before being flattened"
+    },
+    {
+      "error": "Keeping hips flat and static on the mat without movement",
+      "consequence": "Opponent easily flattens you completely, removes any guard retention options, and passes directly to side control or mount",
+      "correction": "Keep hips mobile constantly - shrimp, bridge, turn to sides, prevent static flattening at all costs"
+    },
+    {
+      "error": "Fighting both underhooks equally instead of focusing on recovering one",
+      "consequence": "Wastes energy fighting bilateral control symmetrically while opponent maintains dominant position and advances pass",
+      "correction": "Focus energy on recovering one underhook first - breaking bilateral control is more important than perfect frames on both sides"
+    },
+    {
+      "error": "Allowing chest-to-chest contact without resistance",
+      "consequence": "Gives opponent full weight pressure advantage, eliminates all leverage opportunities, and makes escape nearly impossible",
+      "correction": "Fight for any distance - even inches of space between chests allows hip mobility and escape opportunities"
+    },
+    {
+      "error": "Giving up mentally when double underhooks are established",
+      "consequence": "Surrenders defensive opportunities prematurely, allows easy pass, and reinforces bad habits for future similar positions",
+      "correction": "Stay mentally engaged - this position has multiple escape routes if you act quickly with proper technique and timing"
+    },
+    {
+      "error": "Extending legs straight or pushing opponent away with feet",
+      "consequence": "Removes leg entanglement options, eliminates butterfly hook possibilities, and gives opponent clear path to side control",
+      "correction": "Keep legs active with hooks (butterfly, half guard) or transitional positions - never extend straight which surrenders control"
+    },
+    {
+      "error": "Tucking chin to chest defensively instead of maintaining head position",
+      "consequence": "Rounds spine further, makes you easier to flatten, and reduces mobility for granby rolls or hip escapes",
+      "correction": "Keep head active and mobile - look away from pressure direction to maintain spinal extension and mobility options"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Double Underhook Escape Repetition",
+      "description": "Partner establishes double underhooks from various positions (half guard, butterfly, seated). Practice frame creation, underhook recovery, and deep half entries with progressive resistance. Start at 30% resistance, increase to 70% over weeks. Focus on immediate reactions when underhooks are secured.",
+      "duration": "5 minutes per round, 3 rounds"
+    },
+    {
+      "name": "Pressure Passing Defense Positional Sparring",
+      "description": "Start in double unders bottom position with partner applying forward pressure. Bottom player works escapes and recoveries while top player works to complete pass. Reset when side control is achieved or guard is recovered. Track success rates for different escape routes.",
+      "duration": "3 minute rounds, 5 rounds"
+    },
+    {
+      "name": "Granby Roll Timing Drill",
+      "description": "Partner establishes double underhooks and drives forward pressure. Bottom player times granby roll entry as opponent commits weight forward. Practice reading pressure direction and using momentum for roll timing. Start slow, increase speed progressively.",
+      "duration": "10 repetitions each side, 3 sets"
+    },
+    {
+      "name": "Frame Fighting Flow Drill",
+      "description": "Partner continuously seeks double underhooks while you work to maintain frames, recover underhooks, and prevent bilateral control. Light resistance, focus on hand fighting, elbow positioning, and constant frame renewal. Develops defensive awareness and proactive frame maintenance.",
+      "duration": "4 minutes continuous, 3 rounds"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Defensive survival path",
+      "path": "Double Unders Bottom Position → Deep Half Guard Bottom → Deep Half Sweep → Top Position → Submission opportunities from top"
+    },
+    {
+      "name": "Counter-attacking path",
+      "path": "Double Unders Bottom Position → Granby Roll → Turtle Bottom → Turtle to Back Take → Back Control Top → Rear Naked Choke"
+    },
+    {
+      "name": "Guard recovery path",
+      "path": "Double Unders Bottom Position → Frame and Shrimp → Half Guard Bottom → Underhook Sweep from Half → Mount Top → Armbar from Mount"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Double Unders Top Position",
+      "relationship": "Opposite perspective - top player's offensive position"
+    },
+    {
+      "name": "Headquarters Position",
+      "relationship": "Common preceding position where double underhooks are established"
+    },
+    {
+      "name": "Deep Half Guard Bottom",
+      "relationship": "Primary escape target from this position"
+    },
+    {
+      "name": "Half Guard Bottom",
+      "relationship": "Related defensive position with better structure"
+    },
+    {
+      "name": "Smash Pass Position",
+      "relationship": "Common pass attempt from double underhooks"
+    },
+    {
+      "name": "Pressure Passing",
+      "relationship": "Conceptual framework opponent uses from this position"
+    },
+    {
+      "name": "Frame Management",
+      "relationship": "Essential defensive concept for this position"
+    },
+    {
+      "name": "Deep Half Entry",
+      "relationship": "Primary escape transition from this position"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 25,
+      "intermediate": 40,
+      "advanced": 60
+    },
+    "advancement_probability": {
+      "beginner": 15,
+      "intermediate": 30,
+      "advanced": 50
+    },
+    "submission_probability": {
+      "beginner": 5,
+      "intermediate": 10,
+      "advanced": 20
+    },
+    "average_time": "15-45 seconds before pass or escape"
+  },
+  "expert_insights": {
+    "danaher": "The double underhooks bottom position represents a critical failure point in defensive guard structure where bilateral underhook control has been conceded to the opponent. From a systematic perspective, this position exists in the late stages of the guard passing sequence, typically occurring after initial frames have been compromised and the opponent has successfully penetrated your defensive layers. The biomechanical reality is severe - with both underhooks established, the opponent can generate tremendous forward pressure through their shoulder girdle directly into your chest, collapsing your posture and eliminating the spinal extension necessary for effective hip mobility. Your defensive priorities must be hierarchical: first, prevent complete flattening of your back to the mat, as this removes all escape mechanics; second, create any available frame using elbows, forearms, or head positioning to generate minimal space; third, commit to a directional escape rather than passive resistance. The deep half guard entry is biomechanically optimal here because you use the opponent's forward pressure as momentum for your dive under their base. Understanding that this is a transitional crisis position, not a sustainable guard variant, is essential - you must act decisively within seconds or accept the pass to a more stable defensive position.",
+    "gordon_ryan": "When I end up with someone getting double underhooks on me, I know I'm in serious trouble and need to move immediately. This position shows up all the time in competition when guys are pressure passing - they get their head low, wrap both underhooks, and just drive forward trying to flatten you. The key is not panicking when you feel both underhooks lock in. I've escaped this countless times by going straight to deep half - as soon as I feel that pressure coming forward, I'm already diving under for the deep half entry. The timing is critical - you can't wait until you're completely flattened. Against high-level guys, if you let them settle here for even three seconds, you're getting passed. I also look for the granby roll if they commit too much weight forward, but you have to really feel their pressure direction. In competition, I'd rather give up turtle from the granby than get smash passed to side control where I'm giving up points and dealing with heavy shoulder pressure. The absolute worst thing you can do is try to push them away with your hands or feet - that just gives them the space to step over and complete the pass. Keep your legs active, always threatening something, and commit to your escape direction fully.",
+    "eddie_bravo": "Double underhooks on bottom is a nightmare scenario that I see all the time when people don't properly understand lockdown mechanics or butterfly guard retention. This is where the whole 10th Planet system of keeping your opponent in your guard really shows its value - if you let them get double underhooks, you've already failed multiple defensive layers. But when it happens, you've got to have your escape routes wired. The deep half entry is money here, and it actually fits perfectly with the lockdown game because you're used to diving under and working from bottom positions. The granby roll is another excellent option, especially against bigger guys who are driving heavy pressure - use that weight against them and roll right into turtle or even come up on top if you time it right. What I teach is staying loose and mobile - if you tense up and try to match strength when someone has double underhooks, you're done. Flow with the pressure, wait for them to commit their weight in one direction, then explode the opposite way. Also, don't sleep on the electric chair setup from here if you can get that lockdown in - sometimes the best defense is a crazy offense that your opponent isn't expecting. The traditional BJJ approach is too passive in this spot - you need to be attacking, moving, creating chaos."
+  }
+}
+{
+  "metadata": {
+    "title": "Double Unders Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master Double Unders passing position in BJJ. Dominant control with both underhooks creates powerful stack pass and knee slice opportunities with 70% pass success.",
+    "state_id": "S096",
+    "tags": [
+      "bjj",
+      "position",
+      "passing",
+      "top-control",
+      "pressure-passing",
+      "stack-pass",
+      "guard-passing"
+    ],
+    "child_variants": [
+      "Double Unders Top Position",
+      "Double Unders Bottom Position"
+    ]
+  },
+  "overview": "The Double Unders Position is an offensive guard passing position where the top practitioner has both arms wrapped underneath the bottom practitioner's legs with hands locked together behind their back. This position creates significant control and pressure, setting up powerful passing sequences, particularly the stack pass and transitions to knee slice variations.\n\nThe position earns no points itself but represents a dominant passing control that typically leads to guard passing and achieving side control. The double underhook configuration prevents the bottom player from creating effective distance or frames, while the top player's forward pressure restricts hip mobility and guard retention options.\n\nThis position is most effective when the top player maintains constant forward pressure with chest-to-chest connection, uses wide base for stability, and reads defensive reactions to choose between stacking or transitioning to alternative passing methods. The position can be maintained for 1-2 minutes but requires significant grip strength and energy to sustain under resistance.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Low to Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short to Medium"
+  },
+  "state_invariants": [
+    "Both arms threaded deeply underneath opponent's legs with hands locked together behind their back or buttocks, creating unbreakable grip connection that prevents leg separation",
+    "Chest positioned tightly against opponent's legs or hips with constant forward pressure driving weight through upper body, eliminating space between bodies",
+    "Wide base with feet positioned shoulder-width or wider on the mat, providing stability against sweeps and allowing weight distribution through legs rather than arms",
+    "Opponent's hips pinned to mat or elevated for stack pass with shoulders positioned to prevent effective frames on face or chest, restricting defensive mobility"
+  ],
+  "prerequisites": [
+    "Successful establishment of guard passing control from closed guard, open guard, or half guard",
+    "Control of opponent's legs with initial grips or positioning",
+    "Opponent on their back with guard structure compromised or opening",
+    "Sufficient space to thread arms underneath opponent's legs",
+    "Ability to maintain forward pressure despite defensive framing attempts"
+  ],
+  "key_principles": [
+    "Deep Underhooks: Arms must thread deeply under legs with hands locked securely behind back or buttocks",
+    "Forward Pressure: Constant weight driving chest-to-chest, pinning hips to mat",
+    "Shoulder Control: Using shoulder position to prevent effective frames on face or chest",
+    "Base Maintenance: Wide feet position provides stability against sweeps and hip escapes",
+    "Grip Endurance: Locked hands must be maintained throughout passing sequence",
+    "Pressure Efficiency: Using body weight and positioning rather than pure muscle tension",
+    "Reading Reactions: Observing opponent's defensive movements to choose passing method"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Leg Weave Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Over-Under Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Transition to Mount",
+      "target_position": "Mount Top",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Transition to North-South",
+      "target_position": "North-South Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 60
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Hip Escape",
+      "target_position": "Guard Recovery Bottom",
+      "success_rate": 35
+    },
+    {
+      "technique": "Frame Creation",
+      "target_position": "Open Guard Bottom",
+      "success_rate": 40
+    },
+    {
+      "technique": "Butterfly Hook Retention",
+      "target_position": "Butterfly Guard Bottom",
+      "success_rate": 30
+    },
+    {
+      "technique": "Granby Roll",
+      "target_position": "Turtle Bottom",
+      "success_rate": 25
+    },
+    {
+      "technique": "Deep Half Entry",
+      "target_position": "Deep Half Guard Bottom",
+      "success_rate": 20
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent attempts to frame on face or extend hips"
+    },
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent pushes on face creating lateral passing lane"
+    },
+    {
+      "technique": "Leg Weave Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent attempts to insert butterfly hooks or recover guard"
+    },
+    {
+      "technique": "Back Take Generic",
+      "target_position": "Back Control Top",
+      "trigger": "Opponent turns away exposing back during escape attempt"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent maintains flat back and attempts to frame on face or chest",
+      "actions": [
+        {
+          "technique": "Stack Pass",
+          "target": "Side Control Top",
+          "probability": 70
+        },
+        {
+          "technique": "Transition to Mount",
+          "target": "Mount Top",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent creates strong frames pushing face away and preventing stack",
+      "actions": [
+        {
+          "technique": "Knee Slice Pass",
+          "target": "Side Control Top",
+          "probability": 65
+        },
+        {
+          "technique": "Leg Weave Pass",
+          "target": "Side Control Top",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent turns to side or attempts to go to turtle",
+      "actions": [
+        {
+          "technique": "Back Take Generic",
+          "target": "Back Control Top",
+          "probability": 75
+        },
+        {
+          "technique": "Transition to North-South",
+          "target": "North-South Top",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent successfully inserts butterfly hooks or recovers half guard",
+      "actions": [
+        {
+          "technique": "Smash Pass",
+          "target": "Side Control Top",
+          "probability": 55
+        },
+        {
+          "technique": "Half Guard Pass",
+          "target": "Side Control Top",
+          "probability": 50
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Releasing forward pressure prematurely before pass is complete",
+      "consequence": "Allows opponent to create frames and recover guard structure, losing passing advantage and resetting position to neutral",
+      "correction": "Maintain constant chest-to-chest pressure throughout entire passing sequence, only releasing when pass is complete and side control is established"
+    },
+    {
+      "error": "Locking hands too low at opponent's hips instead of mid-back",
+      "consequence": "Reduces leverage for stack pass and allows opponent to maintain better hip mobility and defensive positioning",
+      "correction": "Walk hands higher up opponent's back, ideally reaching mid-back or higher for maximum control and stacking leverage"
+    },
+    {
+      "error": "Maintaining narrow base with feet too close together",
+      "consequence": "Creates instability and vulnerability to sweeps, hip escapes, and granby rolls that exploit poor base structure",
+      "correction": "Keep feet wide, at least shoulder-width apart, distributing weight through legs for stable platform resistant to defensive movement"
+    },
+    {
+      "error": "Using arm strength to maintain grips rather than body weight and positioning",
+      "consequence": "Rapid fatigue and grip failure, allowing opponent to break control and escape back to guard or better defensive position",
+      "correction": "Rely on body weight driving through chest and shoulders to maintain pressure, using grips only to connect rather than to squeeze"
+    },
+    {
+      "error": "Committing to single passing direction without reading opponent's defensive reactions",
+      "consequence": "Opponent can focus all defensive energy on blocking predicted passing direction, significantly reducing pass success rate",
+      "correction": "Read opponent's frames and weight distribution to choose between stack, knee slice, or leg weave based on created openings"
+    },
+    {
+      "error": "Allowing head position to rise too high creating space underneath",
+      "consequence": "Opponent can insert frames, recover butterfly hooks, or execute granby rolls exploiting the created space",
+      "correction": "Keep head low and tight to opponent's legs or hips, eliminating space and maintaining constant pressure connection"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Double Unders Pressure Maintenance Drill",
+      "description": "Partner starts in guard, you establish double unders and maintain pressure for 2 minutes while partner attempts various escape methods. Focus on keeping hands locked, chest tight, and base wide throughout all defensive movements.",
+      "duration": "3 rounds of 2 minutes"
+    },
+    {
+      "name": "Stack to Knee Slice Transition Drill",
+      "description": "From established double unders, alternate between stack pass attempt and knee slice pass based on partner's defensive frames. When partner frames on face, immediately transition to knee slice. When partner allows stack, drive forward to completion. Practice reading reactions and flowing between options.",
+      "duration": "5 minutes continuous"
+    },
+    {
+      "name": "Double Unders Entry Repetitions",
+      "description": "Partner in closed guard or open guard, practice establishing double unders from various guard configurations. Focus on threading arms deeply, locking hands high on back, and immediately establishing pressure before partner can recover defensive structure.",
+      "duration": "10 repetitions each side"
+    },
+    {
+      "name": "Grip Endurance Challenge",
+      "description": "Establish double unders position and maintain locked hands behind partner's back for maximum time while partner actively attempts to break grip and escape. Build grip strength and mental toughness required for sustained passing sequences.",
+      "duration": "3 sets to failure"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Pressure to submission path",
+      "path": "Double Unders Position → Stack Pass → Side Control Top → North-South Top → North-South Choke"
+    },
+    {
+      "name": "Transition to mount path",
+      "path": "Double Unders Position → Stack Pass → Transition to Mount → Mount Top → Armbar from Mount"
+    },
+    {
+      "name": "Back exposure path",
+      "path": "Double Unders Position → Back Take Generic → Back Control Top → Rear Naked Choke"
+    },
+    {
+      "name": "Kimura control path",
+      "path": "Double Unders Position → Over-Under Pass → Side Control Top → Kimura from Side Control"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Stack Pass",
+      "relationship": "Primary finishing technique from double unders control"
+    },
+    {
+      "name": "Knee Slice Pass",
+      "relationship": "Alternative passing method when stack is defended"
+    },
+    {
+      "name": "Over-Under Pass",
+      "relationship": "Related passing position with similar pressure mechanics"
+    },
+    {
+      "name": "Closed Guard Top",
+      "relationship": "Common entry position for establishing double unders"
+    },
+    {
+      "name": "Pressure Passing",
+      "relationship": "Conceptual framework governing double unders strategy"
+    },
+    {
+      "name": "Guard Passing Principles",
+      "relationship": "Fundamental concepts applied in double unders passing"
+    },
+    {
+      "name": "Smash Pass Position",
+      "relationship": "Related pressure passing position with similar control mechanics"
+    },
+    {
+      "name": "Long Step Position Top",
+      "relationship": "Alternative guard passing position with different angle approach"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 40,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "advancement_probability": {
+      "beginner": 35,
+      "intermediate": 55,
+      "advanced": 75
+    },
+    "submission_probability": {
+      "beginner": 10,
+      "intermediate": 20,
+      "advanced": 35
+    },
+    "average_time": "30-90 seconds before pass completion or position loss"
+  },
+  "expert_insights": {
+    "danaher": "The double unders position represents one of the most mechanically sound guard passing configurations because it fundamentally disrupts the opponent's ability to create the distance and frames necessary for guard retention. The locked hands behind the back create a unified structural system where your entire upper body functions as a single passing tool rather than two independent arms that can be separated and controlled individually. The critical technical detail that separates effective double unders passing from ineffective attempts is hand position height - your locked hands must climb as high as possible up the opponent's back, ideally reaching mid-back or higher, which creates maximum leverage for the stack pass while simultaneously preventing hip mobility. The position also creates a strategic dilemma for the defender: if they attempt to frame on your face to prevent the stack, they open lateral passing lanes for knee slice variations; if they defend laterally by controlling your hips or legs, they expose themselves to the stack pass. This forced choice between two unfavorable defensive options is what makes double unders such a high-percentage passing position across all skill levels when executed with proper mechanical principles.",
+    "gordon_ryan": "In competition, double unders is my highest-percentage passing position because it eliminates so many of their offensive options while giving me multiple passing pathways. The secret is getting your underhooks extremely deep - I want my hands locked at their mid-back or higher, not just at their hips. This creates maximum control and makes the stack pass nearly impossible to defend. When they defend the stack by pushing my face or creating frames, I immediately transition to knee slice - that defensive choice opens the passing lane perfectly. The position also fatigues opponents rapidly because they're carrying your weight constantly while trying to maintain defensive structure. I've finished countless matches by establishing double unders early, maintaining heavy pressure for 2-3 minutes until their defensive energy depletes, then passing almost effortlessly as their frames weaken. The key to making this work at elite levels is reading their defensive reactions instantaneously - you need to flow between stack, knee slice, and leg weave options based on micro-adjustments in their weight distribution and framing attempts. Don't commit to one passing direction; let their defense tell you which path is open.",
+    "eddie_bravo": "While double unders is traditionally associated with gi passing, it's incredibly effective in no-gi if you adjust your grip structure and pressure angles. In our system, we use it as a transitional control position - get the underhooks, apply pressure, but be ready to flow immediately to alternatives when they defend. The position also sets up submissions that people don't expect - collar chokes in the gi, shoulder pressure chokes in no-gi, even arm attacks when they create frames. Don't be so focused on passing that you miss submission opportunities. One of my favorite sequences is establishing double unders, waiting for them to frame on my face, then quickly transitioning to a modified darce or anaconda grip when they expose their arms. The double unders position creates so much pressure that they often get desperate with their defensive framing, and desperate frames create submission opportunities. Also, don't underestimate the psychological warfare aspect - when you lock those hands behind their back and start driving pressure, you're sending a message that you're going to pass regardless of their defense. That mental pressure often breaks their technical defense before the physical pressure does. Be creative with your offense from double unders."
+  }
+}
+{
+  "metadata": {
+    "title": "Double Unders Top Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master Double Unders top position in BJJ. Dominant pressure passing control with both arms under opponent's legs. Features 70% pass completion rate and multiple finishing options.",
+    "state_id": "S096",
+    "tags": ["bjj", "position", "top", "pressure-passing", "guard-passing", "double-unders", "control"]
+  },
+  "overview": "Double Unders Top Position is a dominant pressure passing position where the top practitioner controls both of the bottom player's legs by threading their arms underneath, typically securing a grip behind the opponent's back or on their belt. This position represents a critical transition point in guard passing, offering exceptional control over the opponent's hip mobility and creating intense chest-to-chest pressure that makes guard retention extremely difficult. The position is characterized by the top player's ability to stack the opponent's weight onto their shoulders while controlling their legs, effectively neutralizing most guard recovery attempts.\n\nThe Double Unders position excels at breaking down various open guard styles, particularly butterfly guard, half guard, and seated guards where the opponent's legs are elevated. By controlling both legs simultaneously, the passer eliminates the bottom player's ability to create effective frames or establish threatening guard positions. The crushing pressure and limited mobility make this an extremely fatiguing position for the defensive player, often forcing them into poor defensive decisions or creating opportunities for the pass to complete. High-level competitors frequently use this position as a pressure-passing gateway, transitioning smoothly to side control, mount, or back control depending on the opponent's defensive reactions.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Low to Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+  "state_invariants": [
+    "Both arms positioned under opponent's legs with hands meeting behind their back or gripping the belt/pants, creating a tight control loop that restricts hip movement and leg separation",
+    "Chest making heavy contact with opponent's thighs or knees, driving forward pressure that stacks their weight onto their shoulders and upper back while limiting their ability to create space",
+    "Top player's posture angled forward with hips driving into opponent's legs, creating downward pressure vector that prevents guard recovery and forces defensive player into compromised spinal alignment",
+    "Opponent's hips elevated off the mat with legs controlled and compressed together, eliminating their ability to establish effective frames with feet or create separation with knee shields"
+  ],
+  "prerequisites": [
+    "Successful engagement with opponent's open guard (butterfly, seated, half guard variations)",
+    "Control of opponent's legs with both arms positioned underneath",
+    "Forward pressure established with chest contact on opponent's thighs or knees",
+    "Opponent's guard broken or sufficiently opened to allow double underhook positioning",
+    "Base established with knees and feet positioned to drive forward pressure"
+  ],
+  "key_principles": [
+    "Maintain tight connection between both arms under opponent's legs, keeping hands clasped or gripped to prevent leg separation",
+    "Drive constant forward pressure through the chest into opponent's thighs, stacking their weight onto shoulders to limit mobility",
+    "Keep elbows tight to your own body to prevent opponent from creating frames or inserting their arms to break the connection",
+    "Control opponent's hip mobility by preventing them from turning to either side or creating angular escapes",
+    "Advance position methodically by walking knees forward or transitioning weight to complete the pass when opponent's defenses weaken",
+    "Use head position strategically, either on chest for maximum pressure or on hip to prevent turning and prepare for side control transition",
+    "Maintain active base with feet positioned to drive forward, preventing opponent from off-balancing or creating sweep opportunities"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Double Under Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 55,
+        "intermediate": 70,
+        "advanced": 85
+      }
+    },
+    {
+      "technique": "Transition to Mount",
+      "target_position": "Mount Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Transition to North-South",
+      "target_position": "North-South Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Transition to Back Control",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Kimura from Side Control",
+      "target_position": "Kimura Control Top Position",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Armbar from Side Control",
+      "target_position": "Armbar Control Top",
+      "success_rates": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 45
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Hip Escape",
+      "target_position": "Half Guard Bottom",
+      "success_rate": 25
+    },
+    {
+      "technique": "Frame and Shrimp",
+      "target_position": "Open Guard Bottom",
+      "success_rate": 30
+    },
+    {
+      "technique": "Granby Roll",
+      "target_position": "Turtle Bottom",
+      "success_rate": 20
+    },
+    {
+      "technique": "Butterfly Hook Retention",
+      "target_position": "Butterfly Guard Bottom",
+      "success_rate": 15
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Smash Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent attempts to hip escape to recover guard"
+    },
+    {
+      "technique": "Leg Weave Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent tries to insert butterfly hooks or create frames"
+    },
+    {
+      "technique": "Transition to Back Control",
+      "target_position": "Back Control Top",
+      "trigger": "Opponent turns to their side attempting to escape the pressure"
+    },
+    {
+      "technique": "Mount to Armbar",
+      "target_position": "Armbar Control Top",
+      "trigger": "Opponent extends arms trying to push away or create frames"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent keeps legs together and attempts to frame with hands on chest",
+      "actions": [
+        {
+          "technique": "Double Under Pass",
+          "target": "Side Control Top",
+          "probability": 70
+        },
+        {
+          "technique": "Transition to North-South",
+          "target": "North-South Top",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent turns to their side trying to face away and escape",
+      "actions": [
+        {
+          "technique": "Transition to Back Control",
+          "target": "Back Control Top",
+          "probability": 65
+        },
+        {
+          "technique": "Smash Pass",
+          "target": "Side Control Top",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to separate legs or insert butterfly hooks",
+      "actions": [
+        {
+          "technique": "Leg Weave Pass",
+          "target": "Side Control Top",
+          "probability": 55
+        },
+        {
+          "technique": "Transition to Mount",
+          "target": "Mount Top",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent extends arms to create frames or push away",
+      "actions": [
+        {
+          "technique": "Kimura from Side Control",
+          "target": "Kimura Control Top Position",
+          "probability": 40
+        },
+        {
+          "technique": "Armbar from Side Control",
+          "target": "Armbar Control Top",
+          "probability": 35
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Allowing space between chest and opponent's legs, reducing pressure",
+      "consequence": "Opponent can create frames, insert butterfly hooks, or recover guard position",
+      "correction": "Maintain constant forward pressure with chest driving into opponent's thighs, keeping them stacked"
+    },
+    {
+      "error": "Hands separating or losing grip behind opponent's back",
+      "consequence": "Opponent can separate their legs, insert frames, or create angles to escape",
+      "correction": "Keep hands tightly clasped or maintain strong belt/pants grip, treating both arms as a single control unit"
+    },
+    {
+      "error": "Elbows flaring out away from your own body",
+      "consequence": "Opponent can insert their hands or forearms to break the connection and create escape pathways",
+      "correction": "Keep elbows tight to ribs, making it impossible for opponent to wedge their arms in"
+    },
+    {
+      "error": "Standing too upright instead of maintaining forward pressure angle",
+      "consequence": "Reduces stacking pressure, allows opponent to extend legs and recover guard",
+      "correction": "Keep shoulders over opponent's hips with chest angled downward, driving weight through their legs"
+    },
+    {
+      "error": "Failing to advance position when opponent's defense weakens",
+      "consequence": "Allows opponent time to recover energy and mount better defensive responses",
+      "correction": "Walk knees forward progressively, transitioning to side control as soon as hip control is established"
+    },
+    {
+      "error": "Poor head positioning that allows opponent to turn or create angles",
+      "consequence": "Opponent can rotate their body to escape or establish defensive frames",
+      "correction": "Use head on opponent's chest for maximum pressure or on hip to block rotation and prepare for pass completion"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Double Unders Pressure Drill",
+      "description": "Partner starts in seated guard or butterfly guard. Practice establishing double underhooks, securing grip behind back, and applying progressive stacking pressure. Focus on maintaining tight elbows and constant chest pressure. Partner provides 50% resistance, attempting to frame and create space. Reset when pass completes or guard is recovered.",
+      "duration": "5 minutes per partner"
+    },
+    {
+      "name": "Pass Completion Timing Drill",
+      "description": "Start from established double unders position. Partner alternates between strong defensive posture and slight relaxation. Practice recognizing the moment when opponent's defense weakens and immediately advancing knees forward to complete pass. Emphasize explosive transition from control to side control when the window opens.",
+      "duration": "4 minutes per partner"
+    },
+    {
+      "name": "Counter Defense Drill",
+      "description": "Partner actively attempts specific escapes: hip escape, granby roll, butterfly hook insertion, and frame creation. Practice countering each escape attempt with appropriate response: leg weave for butterfly hooks, smash pass for hip escapes, back take for turns. Build recognition of defensive patterns.",
+      "duration": "6 minutes per partner"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Shortest path to submission",
+      "path": "Double Unders Top Position → Side Control Top → Kimura Control Top Position → Kimura"
+    },
+    {
+      "name": "High-percentage mount path",
+      "path": "Double Unders Top Position → Mount Top → S Mount Top → Armbar Control Top → Armbar from Mount"
+    },
+    {
+      "name": "Back control path",
+      "path": "Double Unders Top Position → Back Control Top → Rear Naked Choke"
+    },
+    {
+      "name": "North-South submission path",
+      "path": "Double Unders Top Position → North-South Top → Kimura Control Top Position → Kimura from North-South"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Headquarters Position Top",
+      "relationship": "Similar pressure passing control with different arm configuration"
+    },
+    {
+      "name": "Long Step Position Top",
+      "relationship": "Alternative guard passing position with leg control focus"
+    },
+    {
+      "name": "Smash Pass Position",
+      "relationship": "Common transition target when opponent defends or turns"
+    },
+    {
+      "name": "Side Control Top",
+      "relationship": "Primary transition target upon successful pass completion"
+    },
+    {
+      "name": "Half Guard Bottom",
+      "relationship": "Common escape position opponent seeks to recover"
+    },
+    {
+      "name": "Butterfly Guard Bottom",
+      "relationship": "Vulnerable guard position that double unders effectively counters"
+    },
+    {
+      "name": "Double Under Pass",
+      "relationship": "Primary technique used to advance from this position"
+    },
+    {
+      "name": "Pressure Passing",
+      "relationship": "Core conceptual framework governing this position"
+    },
+    {
+      "name": "Guard Passing Principles",
+      "relationship": "Fundamental concepts applied in this position"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 60,
+      "intermediate": 75,
+      "advanced": 85
+    },
+    "advancement_probability": {
+      "beginner": 55,
+      "intermediate": 70,
+      "advanced": 85
+    },
+    "submission_probability": {
+      "beginner": 15,
+      "intermediate": 30,
+      "advanced": 45
+    },
+    "average_time": "20-45 seconds before pass completion or escape"
+  },
+  "expert_insights": {
+    "danaher": "The double unders position represents one of the most mechanically sound pressure passing positions available in jiu-jitsu. The bilateral control of both legs eliminates the opponent's primary defensive tools—their ability to create frames with their feet and establish distance with their knees. By securing both arms underneath and connecting them behind the opponent's back, you create a closed system of control that is extremely difficult to break. The key mechanical principle is the stacking angle: you must drive your chest forward and downward into their thighs, forcing their weight onto their shoulders. This creates a compression that not only limits their mobility but also taxes their breathing and energy reserves. The position is most effective when you understand the relationship between pressure angle and hip control. Your goal is not merely to hold the position but to progressively advance your knees forward, claiming hip territory until you achieve the critical threshold where their guard can no longer be retained. At that moment, the transition to side control becomes inevitable.",
+    "gordon_ryan": "Double unders is my go-to position for passing most open guard styles because it's extremely high percentage at the highest levels of competition. When you get those double underhooks and secure the grip, you're basically deciding when the pass happens, not your opponent. The beauty of this position is that it's incredibly draining for the bottom player—they're carrying your weight on their legs while stacked in a terrible breathing position. In competition, I use this to wear opponents down in the first few minutes, making them exhausted for the rest of the match. The key is being patient enough to maintain the pressure until they make a mistake, then exploding to side control. Most guys try to pass too early before the opponent is really cooked. If you feel them trying to turn or hip escape, that's your signal to drive forward hard and complete the pass. I also look for the back take constantly—if they turn away from the pressure, I'm immediately transitioning to back control. This position has probably given me more passing success in ADCC and no-gi worlds than any other control position.",
+    "eddie_bravo": "From a 10th Planet perspective, double unders is crucial for shutting down a lot of the guards we typically play—butterfly, half butterfly, rubber guard attempts. When someone gets that double under control on you, you're in serious trouble because all your leg dexterity is neutralized. That's why we spend a lot of time training counters and escapes from this position. But when you're on top with it, man, you can really impose your game. The stacking pressure is brutal, especially in no-gi where it's harder for the bottom player to grip and create frames. I like to use the double unders as a gateway position—you can go to side control, but you can also transition to more creative options like truck position if they try to turn away. The head position is key: if you put your head on their chest, you get maximum pressure, but if you slide it to their hip, you're setting up the leg weave or preparing to step over into mount. It's a versatile position that fits well into an aggressive, submission-hunting style."
+  }
+}

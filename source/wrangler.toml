@@ -1,0 +1,44 @@
+# Wrangler Configuration for BJJ Graph on Cloudflare Pages
+# Documentation: https://developers.cloudflare.com/workers/wrangler/configuration/
+
+name = "bjjgraph"
+compatibility_date = "2024-01-01"
+
+# Pages configuration
+pages_build_output_dir = "public"
+
+# Environment variables (non-sensitive defaults)
+[vars]
+POSTHOG_API_HOST = "https://us.i.posthog.com"
+
+# Production environment
+[env.production]
+name = "bjjgraph-production"
+
+# Note: Sensitive environment variables (POSTHOG_API_KEY) should be set via:
+# - Cloudflare Pages Dashboard: Settings → Environment Variables
+# - wrangler secret put POSTHOG_API_KEY (for local development)
+
+# Optional: KV namespace for caching PostHog responses
+# Uncomment after creating KV namespace in Cloudflare dashboard:
+# [[kv_namespaces]]
+# binding = "CACHE"
+# id = "YOUR_KV_NAMESPACE_ID"
+# preview_id = "YOUR_PREVIEW_KV_NAMESPACE_ID"
+
+# Development environment (preview deployments)
+[env.preview]
+name = "bjjgraph-preview"
+
+# Optional: Analytics Engine binding for custom metrics
+# [[analytics_engine_datasets]]
+# binding = "ANALYTICS"
+
+# Build configuration
+[build]
+command = "npx quartz build"
+cwd = "."
+
+[build.upload]
+format = "directory"
+dir = "public"

@@ -1,0 +1,210 @@
+{# BJJ Transition Template V3 - Jinja2 #}
+{# Generates markdown from TEMPLATE.json data with auto-generated schema markup #}
+{# A/B Testing: variant-a-show/variant-b-hide CSS classes for section testing #}
+
+---
+title: "{{metadata.title}}"
+description: "{{metadata.description}}"
+---
+
+
+<!-- Schema Markup - Auto-generated from JSON -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Execute {{metadata.title.split('|')[0].strip()}} in BJJ",
+  "description": "Step-by-step guide for {{metadata.title.split('|')[0].strip()}} from {{metadata.starting_position}} to {{metadata.ending_position}}.",
+  "step": [
+    {%- for step in execution_steps[:8] %}
+    {
+      "@type": "HowToStep",
+      "name": "{{step.action}}",
+      "text": "{{step.description}}",
+      "position": {{loop.index}}
+    }{{ "," if not loop.last else "" }}
+    {%- endfor %}
+  ],
+  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for qa in knowledge_assessment[:6] %}
+    {
+      "@type": "Question",
+      "name": "{{qa.question}}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{qa.answer}}"
+      }
+    }{{ "," if not loop.last else "" }}
+    {%- endfor %}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{metadata.title.split('|')[0].strip()}}",
+  "description": "{{metadata.description}}",
+  "url": "https://bjjgraph.org/Transitions/{{metadata.title.split('|')[0].strip().replace(' ', '-')}}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
+    {"@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/"},
+    {"@type": "ListItem", "position": 3, "name": "{{metadata.title.split('|')[0].strip()}}", "item": "https://bjjgraph.org/Transitions/{{metadata.title.split('|')[0].strip().replace(' ', '-')}}"}
+  ]
+}
+</script>
+
+
+# {{metadata.title.split('|')[0].strip()}}
+{% for tag in metadata.tags %}#{{tag}} {% endfor %}
+
+> **Quick Answer**: {{metadata.title.split('|')[0].strip()}} transitions from [[{{metadata.starting_position}}]] to [[{{metadata.ending_position}}]]. Success rates: Beginner {{metadata.success_rates.beginner}}%, Intermediate {{metadata.success_rates.intermediate}}%, Advanced {{metadata.success_rates.advanced}}%.
+
+<section id="overview" class="content-section">
+
+## What is {{metadata.title.split('|')[0].strip()}}?
+
+{{overview}}
+
+**Starting Position**: [[{{metadata.starting_position}}]]
+**Ending Position**: [[{{metadata.ending_position}}]]
+**Success Rates**: Beginner {{metadata.success_rates.beginner}}%, Intermediate {{metadata.success_rates.intermediate}}%, Advanced {{metadata.success_rates.advanced}}%
+
+</section>
+
+<section id="key-principles" class="content-section">
+
+## What Are the Key Principles?
+{% for principle in key_principles -%}
+- {{principle}}
+{% endfor %}
+
+</section>
+
+<section id="setup-requirements" class="content-section">
+
+## What Do You Need Before Starting This Technique?
+{% for req in setup_requirements -%}
+- {{req}}
+{% endfor %}
+
+</section>
+
+<section id="execution-steps" class="content-section">
+
+## How to Execute This Technique Step-by-Step
+{% for step in execution_steps -%}
+{{step.step_number}}. **{{step.action}}**: {{step.description}}{% if step.timing %} (Timing: {{step.timing}}){% endif %}
+{% endfor %}
+
+</section>
+
+<section id="common-counters" class="content-section">
+
+## How Does the Opponent Counter This Technique?
+{% for counter in common_counters -%}
+- **{{counter.counter}}** (Effectiveness: {{counter.effectiveness}}){% if counter.your_response %} - Your Response: {{counter.your_response}}{% endif %}
+{% endfor %}
+
+</section>
+
+<section id="common-errors" class="content-section hide-minimal">
+
+## What Mistakes Do Practitioners Make With This Technique?
+{% for error in common_errors -%}
+- **Error**: {{error.error}}
+  - **Consequence**: {{error.consequence}}
+  - **Correction**: {{error.correction}}
+{% endfor %}
+
+</section>
+
+<section id="training-progressions" class="content-section hide-minimal">
+
+## How to Train This Technique Progressively
+{% for progression in training_progressions -%}
+**{{progression.phase}}** - {{progression.focus}}
+{{progression.description}}
+{% if progression.resistance_level %}(Resistance: {{progression.resistance_level}}){% endif %}
+
+{% endfor %}
+
+</section>
+
+<section id="variants-and-adaptations" class="content-section hide-minimal">
+
+## What Are the Variations of This Technique?
+{% for variant in variants_and_adaptations -%}
+**{{variant.variant_name}}**: {{variant.description}}{% if variant.when_to_use %} (When to use: {{variant.when_to_use}}){% endif %}
+
+{% endfor %}
+
+</section>
+
+<section id="knowledge-assessment" class="content-section">
+
+## How Well Do You Understand This Technique?
+{% for qa in knowledge_assessment -%}
+**Q{{loop.index}}**: {{qa.question}}
+**A**: {{qa.answer}}
+
+{% endfor %}
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## What Are the Safety Considerations?
+
+{{safety_considerations}}
+
+</section>
+
+<section id="position-integration" class="content-section">
+
+## How Does This Fit Into Your Overall Game?
+
+{{position_integration}}
+
+</section>
+
+<section id="related-content" class="content-section">
+
+## Which Techniques Are Related?
+
+{% for item in related_content -%}
+- [[{{item.name}}]] - {{item.relationship}}
+{% endfor %}
+
+</section>
+
+<section id="expert-insights" class="content-section expert-insight">
+
+## What Do the Experts Say About This Technique?
+- **Danaher System**: {{expert_insights.danaher}}
+- **Gordon Ryan**: {{expert_insights.gordon_ryan}}
+- **Eddie Bravo**: {{expert_insights.eddie_bravo}}
+
+</section>

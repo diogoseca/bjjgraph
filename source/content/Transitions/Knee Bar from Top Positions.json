@@ -1,0 +1,1098 @@
+{
+  "metadata": {
+    "title": "Knee Bar from Top Positions Bottom | BJJ Position Guide | BJJ Graph",
+    "description": "Master the bottom position when opponent attempts kneebar from top. Learn defensive frames, leg extraction, and counter-attacks. Essential defense with 40-65% escape rates.",
+    "state_id": "S276",
+    "tags": ["bjj", "position", "leg-entanglement", "defensive", "kneebar-defense", "bottom-position"],
+    "parent_variant": "Knee Bar from Top Positions",
+    "sibling_variants": ["Knee Bar from Top Positions Top"]
+  },
+
+  "overview": "The Knee Bar from Top Positions Bottom represents a critical defensive position where you are on bottom while your opponent attempts to isolate and attack your leg from various top positions including half guard, side control, or during passing sequences. This is a high-risk defensive scenario requiring immediate recognition and systematic defensive responses. Unlike traditional guard positions where bottom offers offensive opportunities, this position demands urgent defensive action as the opponent controls your leg and threatens immediate submission. The position typically arises when top players use knee bars as passing tools or when transitioning between positions, making it essential for modern no-gi and submission grappling. Understanding the biomechanics of the kneebar threat—hyperextension of the knee joint through hip pressure—is crucial for mounting an effective defense. Your primary objectives are to prevent full leg isolation, maintain defensive frames, extract your trapped leg, and counter-attack to safer positions. This position exemplifies the modern evolution of leg attacks in BJJ, where traditional positional hierarchies are challenged by submission-first approaches.",
+
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive",
+    "risk_level": "High",
+    "energy_cost": "High",
+    "time_sustainability": "Short"
+  },
+
+  "state_invariants": [
+    "One leg is controlled or isolated by opponent who maintains grips on your ankle, knee, or both while positioning their hips near your knee joint",
+    "Opponent's body is positioned perpendicular or angled to your torso, with their hips creating lever pressure against your knee while controlling your foot",
+    "Your trapped leg is extended or being extended with opponent's arms securing your lower leg while their hips apply hyperextension pressure to the knee",
+    "Your upper body maintains some freedom of movement with hands able to post, frame, or grip opponent's body to prevent full isolation and create defensive opportunities"
+  ],
+
+  "prerequisites": [
+    "Opponent has secured grip on your lower leg (ankle or foot)",
+    "Your leg is isolated away from your body's defensive structure",
+    "Opponent has positioned their hips near your knee joint",
+    "You are on your back or side with limited leg mobility",
+    "Opponent is applying or preparing to apply hyperextension pressure"
+  ],
+
+  "key_principles": [
+    "Immediately recognize kneebar threat and begin defensive sequence before full isolation occurs",
+    "Maintain bent knee whenever possible to prevent hyperextension and reduce submission leverage",
+    "Create frames with hands against opponent's hips, shoulders, or head to control distance and pressure",
+    "Keep your free leg active as defensive shield and posting base for hip escapes",
+    "Rotate your trapped leg internally (toes pointing toward opponent) to reduce joint stress and make finishing more difficult",
+    "Never allow opponent to secure your foot in their armpit while their hips are tightly positioned against your knee",
+    "Use explosive hip movement to extract trapped leg or transition to safer positions before opponent consolidates control"
+  ],
+
+  "offensive_transitions": [
+    {
+      "technique": "Leg Extraction to Guard Recovery",
+      "target_position": "Guard Recovery Bottom",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Inside Heel Hook Counter",
+      "target_position": "Inside Ashi-Garami Bottom",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Granby Roll to Top Position",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 45
+      }
+    },
+    {
+      "technique": "Triangle Counter from Bottom",
+      "target_position": "Triangle Control Bottom",
+      "success_rates": {
+        "beginner": 10,
+        "intermediate": 25,
+        "advanced": 40
+      }
+    },
+    {
+      "technique": "Reverse to 50-50 Guard",
+      "target_position": "50-50 Guard Bottom",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Technical Standup Escape",
+      "target_position": "Standing Bottom Position",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    }
+  ],
+
+  "defensive_responses": [
+    {
+      "technique": "Hip Frame and Leg Extraction",
+      "target_position": "Guard Recovery Bottom",
+      "success_rate": 55
+    },
+    {
+      "technique": "Internal Rotation Defense",
+      "target_position": "Knee Bar from Top Positions Bottom",
+      "success_rate": 45
+    },
+    {
+      "technique": "Stack and Roll Escape",
+      "target_position": "Top Position",
+      "success_rate": 40
+    },
+    {
+      "technique": "Free Leg Shield and Shrimp",
+      "target_position": "Open Guard Bottom",
+      "success_rate": 50
+    },
+    {
+      "technique": "Toe Point and Knee Bend",
+      "target_position": "Knee Bar from Top Positions Bottom",
+      "success_rate": 35
+    }
+  ],
+
+  "counter_transitions": [
+    {
+      "technique": "Counter Inside Heel Hook",
+      "target_position": "Inside Ashi-Garami Bottom",
+      "trigger": "Opponent overcommits to kneebar extension leaving their leg exposed"
+    },
+    {
+      "technique": "Granby Roll Reversal",
+      "target_position": "Kneebar Control Top",
+      "trigger": "Opponent's grip loosens during finishing attempt"
+    },
+    {
+      "technique": "Triangle Lock Counter",
+      "target_position": "Triangle Control Bottom",
+      "trigger": "Opponent brings head and arm close while focusing on leg attack"
+    },
+    {
+      "technique": "Scramble to Turtle",
+      "target_position": "Bottom Turtle",
+      "trigger": "Opponent releases leg to reset grips or change angle"
+    }
+  ],
+
+  "decision_tree": [
+    {
+      "condition": "If opponent has foot secured in armpit but hips not yet tight to knee",
+      "actions": [
+        {
+          "technique": "Explosive hip escape with internal rotation",
+          "target": "Guard Recovery Bottom",
+          "probability": 60
+        },
+        {
+          "technique": "Free leg frame to create space",
+          "target": "Open Guard Bottom",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent's hips are tight to knee with full extension pressure",
+      "actions": [
+        {
+          "technique": "Internal rotation with toe point defense",
+          "target": "Knee Bar from Top Positions Bottom",
+          "probability": 40
+        },
+        {
+          "technique": "Immediate tap to prevent injury",
+          "target": "Lost by Submission",
+          "probability": 30
+        }
+      ]
+    },
+    {
+      "condition": "If opponent is transitioning to kneebar but position not yet consolidated",
+      "actions": [
+        {
+          "technique": "Granby roll to reverse position",
+          "target": "Kneebar Control Top",
+          "probability": 45
+        },
+        {
+          "technique": "Technical standup to disengage",
+          "target": "Standing Bottom Position",
+          "probability": 50
+        },
+        {
+          "technique": "50-50 entry to neutralize",
+          "target": "50-50 Guard Bottom",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent's head and arm are close while attacking leg",
+      "actions": [
+        {
+          "technique": "Triangle counter attack",
+          "target": "Triangle Control Bottom",
+          "probability": 35
+        },
+        {
+          "technique": "Guillotine setup during scramble",
+          "target": "Guillotine Control Bottom",
+          "probability": 30
+        }
+      ]
+    }
+  ],
+
+  "common_errors": [
+    {
+      "error": "Allowing leg to remain fully extended during kneebar attack",
+      "consequence": "Maximizes leverage for opponent, increases injury risk, and makes escape nearly impossible",
+      "correction": "Keep knee bent at all times, pointing toes toward opponent, and fighting to maintain flexion even under pressure"
+    },
+    {
+      "error": "Neglecting to use free leg as defensive frame and base",
+      "consequence": "Opponent easily consolidates position, preventing hip escapes and mobility needed for defensive movement",
+      "correction": "Actively post and frame with free leg on opponent's hip, shoulder, or head to create distance and enable shrimping"
+    },
+    {
+      "error": "Pulling trapped leg straight back toward body",
+      "consequence": "Plays into opponent's grip and leverage direction, often accelerating the submission finish",
+      "correction": "Rotate leg internally and push foot toward opponent while creating perpendicular escape angle with hips"
+    },
+    {
+      "error": "Gripping opponent's hands instead of controlling hips and posture",
+      "consequence": "Wastes energy on unwinnable grip battle while opponent maintains dominant body position and pressure",
+      "correction": "Frame against opponent's hips and head to control distance and posture, making leg isolation more difficult"
+    },
+    {
+      "error": "Remaining static and accepting the position",
+      "consequence": "Gives opponent time to perfect grips, hip position, and extension pressure for high-percentage finish",
+      "correction": "Move explosively and constantly, combining hip escapes, rolls, and position changes to prevent consolidation"
+    },
+    {
+      "error": "Attempting complex counters before basic leg extraction",
+      "consequence": "Expends energy on low-percentage attacks while fundamental escape remains available and higher percentage",
+      "correction": "Prioritize simple leg extraction and guard recovery before attempting advanced counter-submissions"
+    }
+  ],
+
+  "training_drills": [
+    {
+      "name": "Kneebar Defense Positional Drilling",
+      "description": "Partner isolates your leg and attempts kneebar from various top positions while you practice defensive frames, internal rotation, and leg extraction sequences. Start at 30% intensity, focusing on proper defensive mechanics before increasing resistance.",
+      "duration": "5 minutes per leg"
+    },
+    {
+      "name": "Free Leg Shield and Hip Escape Repetition",
+      "description": "With leg controlled in kneebar position, practice using free leg to create frames on partner's hips and shoulders while performing hip escapes. Emphasize creating distance and angles that reduce finishing leverage. Perform 20 reps per side with partner maintaining steady control.",
+      "duration": "4 minutes"
+    },
+    {
+      "name": "Granby Roll Counter Timing",
+      "description": "Partner secures kneebar position but maintains loose grips. Practice explosive granby roll timing to reverse position and enter top leg entanglement. Focus on recognizing exact moment when opponent's grips are vulnerable during their finishing attempt.",
+      "duration": "6 minutes"
+    },
+    {
+      "name": "Internal Rotation and Toe Point Defense",
+      "description": "Partner applies kneebar pressure while you practice internal leg rotation combined with pointing toes toward opponent. Learn to recognize when this defense is sufficient versus when tap is necessary to prevent injury. Use communication to explore safe resistance thresholds.",
+      "duration": "3 minutes per leg"
+    }
+  ],
+
+  "optimal_submission_paths": [
+    {
+      "name": "Counter-Attack Path",
+      "path": "Knee Bar from Top Positions Bottom → Inside Ashi-Garami Bottom (counter heel hook) → Inside Heel Hook"
+    },
+    {
+      "name": "Triangle Counter Path",
+      "path": "Knee Bar from Top Positions Bottom → Triangle Control Bottom → Triangle Choke"
+    },
+    {
+      "name": "Scramble to Back Path",
+      "path": "Knee Bar from Top Positions Bottom → Granby Roll → Back Control Bottom → Rear Naked Choke"
+    },
+    {
+      "name": "Guard Recovery to Leg Lock Path",
+      "path": "Knee Bar from Top Positions Bottom → Guard Recovery Bottom → Ashi Garami Bottom → Straight Ankle Lock"
+    }
+  ],
+
+  "related_content": [
+    {
+      "name": "Kneebar Control Top",
+      "relationship": "Opposite perspective - understanding top mechanics improves bottom defense"
+    },
+    {
+      "name": "Inside Ashi-Garami Bottom",
+      "relationship": "Common counter-position when defending kneebar attempts"
+    },
+    {
+      "name": "50-50 Guard Bottom",
+      "relationship": "Neutral leg entanglement often entered as defensive transition"
+    },
+    {
+      "name": "Guard Recovery Bottom",
+      "relationship": "Primary safe position target after successful leg extraction"
+    },
+    {
+      "name": "Leg Entanglement Position",
+      "relationship": "Fundamental concept governing this position category"
+    },
+    {
+      "name": "Danaher Leg Lock System",
+      "relationship": "Systematic framework including both offense and defense"
+    },
+    {
+      "name": "Straight Ankle Lock",
+      "relationship": "Related leg attack often combined with kneebar threats"
+    },
+    {
+      "name": "Ashi Garami Bottom",
+      "relationship": "Related leg entanglement position with similar defensive priorities"
+    }
+  ],
+
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 25,
+      "intermediate": 45,
+      "advanced": 65
+    },
+    "advancement_probability": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "submission_probability": {
+      "beginner": 5,
+      "intermediate": 15,
+      "advanced": 30
+    },
+    "average_time": "15-45 seconds (must escape quickly or tap to prevent injury)"
+  },
+
+  "expert_insights": {
+    "danaher": "The kneebar from top positions represents one of the most dangerous leg attacks because it combines positional dominance with submission threat. From bottom, your defensive priority hierarchy must be absolutely clear: first, prevent full leg isolation through active frames and internal rotation; second, extract the trapped leg using hip mobility and perpendicular escape angles; third, only after safety is ensured, consider counter-attacks. The biomechanics of knee hyperextension mean that once full extension is achieved with proper hip pressure, structural damage occurs rapidly—often before pain signals can trigger defensive response. Therefore, your defense must be proactive and systematic, never reactive to pain. The internal rotation defense, where you point your toes toward your opponent while maintaining knee flexion, exploits the natural anatomical limitations of knee joint rotation. This creates a biomechanical stalemate that buys precious time for escape sequences. However, understand that this is a temporary defense, not a solution. Your ultimate goal is always leg extraction and position recovery, using the internal rotation merely as a holding pattern while you execute hip escapes, granby rolls, or technical standups to safer positions.",
+    "gordon_ryan": "In modern no-gi competition, defending kneebars from top positions is non-negotiable—if you can't defend this, you can't compete at high levels. I see too many people try to be tough and resist with strength when someone gets to their leg. That's stupid. The moment someone isolates your leg from top position, you need to explode immediately—don't wait to see what they're doing. My go-to defense is the granby roll because it not only escapes the position but often puts me in top position on their legs, completely reversing the situation. But timing is everything. You can't granby once they've secured their grips and positioned their hips—it has to be during the transition when they're still establishing control. The internal rotation defense works, but only as a last resort when you've missed your escape window. If I'm stuck there, I'm pointing my toes at them and looking for any grip break or position change to start my escape sequence again. In training, I deliberately let training partners get to this position so I can rep my escapes under pressure. You need to be comfortable being uncomfortable here because in competition, you'll end up here whether you like it or not. The guys who panic are the guys who get finished.",
+    "eddie_bravo": "The kneebar from top is one of those positions where traditional BJJ guys get destroyed because they're not ready for the submission-first mentality. In 10th Planet, we approach this position with the same energy we bring to everything—creative chaos and unconventional solutions. Yeah, you can do the standard leg extraction and that's fine, but I'm also looking for that triangle counter the whole time. When someone's committed to breaking your knee, their head is often right there for the taking. I've hit so many triangles off kneebar defense that it's become my preferred counter. The setup is perfect—they're focused on your leg, driving forward with their upper body, and boom, you lock up that triangle and now they're the one in trouble. But you have to train it specifically because the angle is different than normal triangle entries. Another thing people sleep on is the lockdown concept—even though your leg is extended, if you can get your free leg into any kind of hooking position on their far leg, you create immediate problems for their base and can start to twist them out of position. The key is never accepting the position mentally. Even when it looks bad, there's always a scramble, always a counter, always a way to create chaos and turn the tables if you're creative and explosive enough."
+  }
+}
+{
+  "metadata": {
+    "title": "Kneebar Control | BJJ Position Guide | BJJ Graph",
+    "description": "Master Kneebar Control position in BJJ. Complete guide covering leg entanglement mechanics, finishing mechanics, and transitions. Submission control position with 60% finish rate.",
+    "state_id": "S096",
+    "tags": ["bjj", "position", "leg-lock", "kneebar", "submission", "control", "ashi-garami", "leg-entanglement"]
+  },
+  
+  "overview": "Kneebar Control represents a critical submission control position in modern Brazilian Jiu-Jitsu, particularly in no-gi grappling where leg attacks have become increasingly prominent. This position involves controlling the opponent's leg while applying hyperextension pressure to the knee joint through hip extension and proper body alignment. The practitioner achieves this control by securing the opponent's leg across their body, typically with the leg trapped between their legs while their hips create the fulcrum for the submission.\n\nThe position has evolved significantly in recent years, transitioning from a rare and somewhat risky attack to a fundamental component of modern leg lock systems. John Danaher's systematic approach to leg entanglements has revolutionized how practitioners enter, maintain, and finish from kneebar control. The position offers excellent control even when the submission isn't immediately available, allowing practitioners to maintain offensive pressure while threatening multiple leg attacks. Gordon Ryan's competitive success has demonstrated the position's effectiveness at the highest levels, particularly when integrated into a comprehensive leg attack system.\n\nFrom a strategic perspective, kneebar control serves multiple purposes: it can be a finishing position, a control position to advance positional dominance, or a transitional position to other leg entanglements or back attacks. The position requires careful attention to both offensive mechanics (breaking structure, extending the knee) and defensive awareness (protecting against counters, maintaining inside position control). Eddie Bravo's innovations with the position, particularly from the Truck and Twister positions, have shown creative entries that complement traditional approaches from ashi garami variations.",
+  
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short to Medium"
+  },
+  
+  "state_invariants": [
+    "Practitioner's hip positioned as the fulcrum point against the opponent's knee joint, with the opponent's leg captured and controlled across the practitioner's torso/hips creating the mechanical advantage for hyperextension",
+    "Opponent's trapped leg secured between practitioner's legs or arms, with the knee joint isolated and vulnerable to extension pressure, preventing the opponent from extracting their leg or establishing defensive frames",
+    "Practitioner's body alignment creating direct pressure through hip extension into the opponent's knee, with proper angle and connection maintained to prevent the opponent from rolling or turning out of the submission",
+    "Inside position control maintained on the opponent's leg, with practitioner's legs actively controlling the opponent's near hip and preventing them from coming up or turning into the attack",
+    "Practitioner's upper body connection to the opponent's leg kept tight with arms wrapped around the ankle/foot area, ensuring the leg cannot slip free during the extension phase of the submission"
+  ],
+  
+  "prerequisites": [
+    "Successful entry into leg entanglement position (ashi garami, outside ashi, 50-50, or X-guard variations)",
+    "Control of opponent's leg with proper inside position established",
+    "Opponent's knee isolated and available for attack",
+    "Hip positioning allowing for proper extension mechanics",
+    "Breaking of opponent's defensive structure and frames"
+  ],
+  
+  "key_principles": [
+    "Maintain inside position control throughout the attack - never allow opponent to achieve outside position or turn into you",
+    "Create proper hip alignment so extension pressure goes directly through the knee joint, not around it",
+    "Control the opponent's foot and ankle tightly to prevent rotation that could relieve pressure on the knee",
+    "Use systematic breaking of defensive structures before attempting full extension",
+    "Keep opponent's hips controlled with your legs to prevent them from sitting up or coming on top",
+    "Apply pressure gradually and progressively - sudden jerking motions are dangerous and less effective than steady control",
+    "Maintain connection throughout the position - any gap allows defensive movement and potential escape"
+  ],
+  
+  "offensive_transitions": [
+    {
+      "technique": "Kneebar Finish",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Transition to Heel Hook",
+      "target_position": "Ashi Garami",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Transition to Toe Hold",
+      "target_position": "Toe Hold Control",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Transition to Back Take",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Switch to Outside Ashi",
+      "target_position": "Outside Ashi-Garami Top",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 65,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "Transition to Saddle Position",
+      "target_position": "Saddle Position Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Belly Down Kneebar",
+      "target_position": "Kneebar Control",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Inside Heel Hook",
+      "target_position": "Inside Ashi-Garami Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 65
+      }
+    }
+  ],
+  
+  "defensive_responses": [
+    {
+      "technique": "Hip Escape and Leg Extraction",
+      "target_position": "Guard Recovery",
+      "success_rate": 40
+    },
+    {
+      "technique": "Turn Into Attack",
+      "target_position": "Top Position",
+      "success_rate": 35
+    },
+    {
+      "technique": "Rolling Kneebar Escape",
+      "target_position": "Turtle Position",
+      "success_rate": 30
+    },
+    {
+      "technique": "Sit Up and Stack",
+      "target_position": "Top Position",
+      "success_rate": 25
+    },
+    {
+      "technique": "Ankle Lock Counter",
+      "target_position": "Straight Ankle Lock Control",
+      "success_rate": 20
+    }
+  ],
+  
+  "counter_transitions": [
+    {
+      "technique": "Hip Extension Adjustment",
+      "target_position": "Kneebar Control",
+      "trigger": "Opponent attempts to turn knee inward to relieve pressure"
+    },
+    {
+      "technique": "Transition to Heel Hook",
+      "target_position": "Ashi Garami",
+      "trigger": "Opponent focuses on defending kneebar and exposes heel"
+    },
+    {
+      "technique": "Belly Down Adjustment",
+      "target_position": "Kneebar Control",
+      "trigger": "Opponent tries to sit up or come on top"
+    },
+    {
+      "technique": "Back Take",
+      "target_position": "Back Control",
+      "trigger": "Opponent successfully turns toward you but exposes back"
+    },
+    {
+      "technique": "Switch to Outside Ashi",
+      "target_position": "Outside Ashi-Garami Top",
+      "trigger": "Opponent attempts to extract leg by pulling back"
+    }
+  ],
+  
+  "decision_tree": [
+    {
+      "condition": "If opponent's knee is fully extended and defensive structure is broken",
+      "actions": [
+        {
+          "technique": "Kneebar Finish",
+          "target": "Won by Submission",
+          "probability": 70
+        },
+        {
+          "technique": "Belly Down Kneebar",
+          "target": "Kneebar Control",
+          "probability": 65
+        }
+      ]
+    },
+    {
+      "condition": "If opponent defends kneebar by hiding heel and turning knee inward",
+      "actions": [
+        {
+          "technique": "Transition to Heel Hook",
+          "target": "Ashi Garami",
+          "probability": 60
+        },
+        {
+          "technique": "Transition to Toe Hold",
+          "target": "Toe Hold Control",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to sit up or come on top",
+      "actions": [
+        {
+          "technique": "Belly Down Adjustment",
+          "target": "Kneebar Control",
+          "probability": 65
+        },
+        {
+          "technique": "Transition to Back Take",
+          "target": "Back Control",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent successfully achieves outside position or begins to escape",
+      "actions": [
+        {
+          "technique": "Switch to Outside Ashi",
+          "target": "Outside Ashi-Garami Top",
+          "probability": 55
+        },
+        {
+          "technique": "Transition to Saddle Position",
+          "target": "Saddle Position Top",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent creates distance but leg remains controlled",
+      "actions": [
+        {
+          "technique": "Straight Ankle Lock",
+          "target": "Straight Ankle Lock Control",
+          "probability": 50
+        },
+        {
+          "technique": "Hip Extension Adjustment",
+          "target": "Kneebar Control",
+          "probability": 60
+        }
+      ]
+    }
+  ],
+  
+  "common_errors": [
+    {
+      "error": "Attempting to finish with sudden jerking motion instead of controlled extension",
+      "consequence": "Increases injury risk, reduces control, and makes the submission less effective as opponent can defend the explosive movement",
+      "correction": "Apply steady, progressive pressure with hip extension while maintaining tight connection to the leg - think of it as a slow squeeze rather than a quick snap"
+    },
+    {
+      "error": "Failing to control opponent's hips with legs, allowing them to sit up",
+      "consequence": "Opponent achieves superior position by coming on top, potentially passing or establishing their own leg attacks",
+      "correction": "Keep active leg control on opponent's near hip, using your legs as a barrier to prevent them from sitting up or turning into the attack"
+    },
+    {
+      "error": "Losing inside position by allowing opponent to turn their knee inward excessively",
+      "consequence": "Creates escape pathway for opponent and reduces effectiveness of knee pressure, potentially leading to position reversal",
+      "correction": "Maintain inside position control by keeping opponent's leg aligned properly and transitioning to heel hook or toe hold if they defend by turning knee"
+    },
+    {
+      "error": "Gripping too high on the leg (near the knee) instead of controlling the ankle/foot",
+      "consequence": "Opponent can rotate their foot and relieve pressure on the knee, or extract their leg entirely through hip movement",
+      "correction": "Secure tight control of the ankle and foot area with your arms, creating a complete seal that prevents rotation and maintains submission mechanics"
+    },
+    {
+      "error": "Improper hip alignment causing pressure to go around the knee instead of through it",
+      "consequence": "Submission becomes ineffective despite appearing properly set up, and opponent has time to escape or counter",
+      "correction": "Position your hips so they create a direct line of pressure through the center of the opponent's knee joint - adjust angle as needed"
+    },
+    {
+      "error": "Abandoning position too quickly when first attempt doesn't finish",
+      "consequence": "Loses excellent control position and submission threat, giving opponent opportunity to recover guard or reverse position",
+      "correction": "Maintain kneebar control even when immediate finish isn't available - use it as control position to set up transitions or wait for opponent's defensive error"
+    },
+    {
+      "error": "Neglecting to break opponent's defensive grips and frames before extending",
+      "consequence": "Opponent maintains strong defensive structure that prevents full extension and provides platform for escape",
+      "correction": "Systematically break opponent's grips on their own leg or your gi/body, eliminate their frames, then apply extension pressure"
+    }
+  ],
+  
+  "training_drills": [
+    {
+      "name": "Entry and Control Drill",
+      "description": "From various leg entanglement positions (ashi garami, X-guard, 50-50), practice entering kneebar control with proper hip alignment and inside position. Partner provides 50% resistance. Focus on smooth entries and maintaining control without finishing. Reset and repeat from different starting positions.",
+      "duration": "5 minutes per position"
+    },
+    {
+      "name": "Breaking Structure Drill",
+      "description": "Partner maintains defensive grips and frames while you systematically work to break their structure and achieve proper finishing position. Practice identifying and eliminating each defensive layer (grip breaking, frame removal, hip control). Partner gradually releases grips as you demonstrate proper technique.",
+      "duration": "3 minutes per round, 3 rounds"
+    },
+    {
+      "name": "Submission Chain Drill",
+      "description": "Start in kneebar control. Partner defends by turning knee, hiding heel, or attempting to sit up. Flow between kneebar, heel hook, toe hold, and back take based on their defensive movement. Emphasize smooth transitions without losing control. No finishing - focus on positional flow.",
+      "duration": "5 minute rounds"
+    },
+    {
+      "name": "Positional Sparring from Kneebar Control",
+      "description": "Start with kneebar control established. Top player works to finish or advance position. Bottom player works to escape or reverse. Reset when position is clearly lost or submission is locked in (stop before tap). Gradually increase intensity from 50% to 80% resistance.",
+      "duration": "3 minute rounds, switch roles"
+    },
+    {
+      "name": "Belly Down Kneebar Drill",
+      "description": "Practice transitioning from standard kneebar control to belly down variation when opponent sits up. Focus on maintaining control throughout the transition and proper finishing mechanics from belly down position. Partner provides progressive resistance.",
+      "duration": "4 minutes"
+    }
+  ],
+  
+  "optimal_submission_paths": [
+    {
+      "name": "Shortest finishing path",
+      "path": "Ashi Garami → Kneebar Control → Kneebar Finish → Won by Submission"
+    },
+    {
+      "name": "High-percentage systematic path",
+      "path": "Outside Ashi-Garami Top → Inside Position Control → Kneebar Control → Structure Breaking → Kneebar Finish → Won by Submission"
+    },
+    {
+      "name": "Submission chain path",
+      "path": "Kneebar Control → Heel Hook Transition → Ashi Garami → Inside Heel Hook → Won by Submission"
+    },
+    {
+      "name": "Belly down finishing path",
+      "path": "Kneebar Control → Belly Down Adjustment → Belly Down Kneebar → Won by Submission"
+    },
+    {
+      "name": "Back attack alternative path",
+      "path": "Kneebar Control → Opponent Turns In → Back Take → Back Control → Rear Naked Choke → Won by Submission"
+    }
+  ],
+  
+  "related_content": [
+    {
+      "name": "Ashi Garami",
+      "relationship": "Primary entry position and related leg entanglement"
+    },
+    {
+      "name": "Outside Ashi-Garami Top",
+      "relationship": "Common entry position and transitional target"
+    },
+    {
+      "name": "Inside Ashi-Garami Top",
+      "relationship": "Related leg control position for heel hook setups"
+    },
+    {
+      "name": "Saddle Position Top",
+      "relationship": "Advanced leg entanglement transition target"
+    },
+    {
+      "name": "Toe Hold Control",
+      "relationship": "Alternative leg submission when kneebar is defended"
+    },
+    {
+      "name": "Kneebar from Top",
+      "relationship": "Specific finishing technique from this control position"
+    },
+    {
+      "name": "Danaher Leg Lock System",
+      "relationship": "Comprehensive system incorporating this position"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Fundamental concept underlying this position"
+    },
+    {
+      "name": "Submission Control Position",
+      "relationship": "Conceptual framework for maintaining submission positions"
+    },
+    {
+      "name": "50-50 Guard Top",
+      "relationship": "Alternative leg entanglement with kneebar options"
+    }
+  ],
+  
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 45,
+      "intermediate": 65,
+      "advanced": 80
+    },
+    "advancement_probability": {
+      "beginner": 40,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "submission_probability": {
+      "beginner": 35,
+      "intermediate": 55,
+      "advanced": 70
+    },
+    "average_time": "20-45 seconds for finish, up to 90 seconds for control and transition work"
+  },
+  
+  "expert_insights": {
+    "danaher": "The kneebar position represents a critical node in the modern leg entanglement system, but its effectiveness depends entirely on systematic execution of mechanical principles. The most common error I observe is practitioners attempting to finish the submission through explosive hip extension before they have properly controlled the position and broken the opponent's defensive structure. The kneebar, like all joint locks, should be understood as a control position first and a submission second. Your primary concern must be establishing and maintaining inside position control - this means your body positioning prevents the opponent from turning into you or achieving outside position on your legs. Once inside position is secured, you must systematically address each layer of defense: break their grips on their own leg, eliminate their frames against your body, control their hips with your legs to prevent them sitting up, and only then begin to apply extension pressure through proper hip alignment. The finish itself should feel inevitable once these prerequisites are met - if you find yourself struggling to extend the knee, it indicates a positional error earlier in the sequence that must be corrected. Furthermore, understanding the kneebar as part of a submission ecosystem rather than an isolated attack transforms its effectiveness exponentially; when the opponent defends the knee extension by turning their knee inward or hiding their heel, they create immediate opportunities for heel hook or toe hold attacks, and if they attempt to come on top, they expose their back. This systematic approach, prioritizing control and position over immediate submission, paradoxically leads to higher finishing rates.",
+    "gordon_ryan": "Kneebar control is one of my highest percentage submissions in competition, but that success comes from treating it as a positional dominance tool rather than just hunting for the tap. When I establish kneebar control in a match, I'm not immediately trying to rip the leg - I'm using it to create a dilemma where every defensive option my opponent chooses opens up another attack. If they defend by pulling their knee back and hiding their heel, I transition to a heel hook. If they try to turn their knee inward to relieve pressure, I can switch to a toe hold or move to outside ashi. If they attempt to sit up or come on top, I either adjust to belly down kneebar or take their back. The key competitive insight is that maintaining this control position, even without immediately finishing, puts tremendous psychological and physical pressure on your opponent while you remain relatively safe and offensive. In my experience, the belly down kneebar variation is particularly effective against high-level competitors because it removes many of their defensive options - they can't sit up, they can't easily turn into you, and the angle of pressure on the knee is more difficult to defend. I've also found that being patient in this position and waiting for the opponent to make a defensive movement before transitioning leads to higher success rates than forcing transitions. The position is especially effective when integrated with your passing game - I've had great success entering kneebar control from knee slice positions when opponents attempt to recover half guard or from headquarters when they try to sit up into my legs. Competition data shows this is one of the positions where maintaining control and being systematic about your attack sequence has the highest correlation with submission success.",
+    "eddie_bravo": "The kneebar from various positions has been a fundamental part of the 10th Planet system since the beginning, and we've developed some unique entries and finishing mechanics that complement the standard approaches. One of my favorite innovations is the kneebar option from the Truck position - when you have the opponent loaded up in Truck, if they defend the Twister or turn to face you, there's often a beautiful kneebar setup where you can trap their leg and immediately threaten the knee. This catches people completely off guard because they're worried about the back attack or the Twister. Another variation we've had success with is the rolling kneebar entry from lockdown position in half guard - when the opponent is trying to smash through your lockdown, you can use their forward pressure to initiate a roll that puts you directly into belly down kneebar control. The key to making the position work in no-gi, where it's most effective, is being comfortable in scrambles and understanding that you can hit kneebars from very dynamic positions, not just static leg entanglements. We train a lot of flowing from rubber guard positions into leg attacks when opponents try to pass, and the kneebar becomes available when they drive forward with their leg exposed. I also emphasize the importance of the finish mechanics being sharp - in no-gi especially, you need to be able to finish quickly because there's less friction and more mobility for escapes. We drill a lot of hip extension mechanics and proper angle control to ensure that when you have the position, you can finish before they slip out. The position also works beautifully as part of a submission chain with ankle locks and toe holds, creating that dilemma-based approach where defending one attack opens up another."
+  }
+}
+{
+  "metadata": {
+    "title": "Kneebar from Top Positions | BJJ Position Guide | BJJ Graph",
+    "description": "Master kneebar control from top positions. Complete guide covering entries, control mechanics, and finishing details. Advanced leg lock position with 60% finish rate.",
+    "state_id": "S214",
+    "tags": [
+      "bjj",
+      "position",
+      "leg lock",
+      "kneebar",
+      "top control",
+      "submission position"
+    ]
+  },
+  "overview": "Kneebar from top positions represents a dominant leg entanglement control where the attacking practitioner secures their opponent's leg while maintaining positional superiority from the top position. This position combines elements of positional control with immediate submission threats, allowing the top player to apply hyperextension pressure to the knee joint while preventing opponent escape. The position typically arises from passing scenarios, leg drag positions, or direct entries from standing, half guard top, or side control. Unlike traditional passing positions that prioritize positional advancement, the kneebar from top positions represents a submission-oriented approach where the practitioner immediately transitions from passing to finishing, creating a high-pressure scenario for the bottom player who must defend both position and submission simultaneously.\n\nThe effectiveness of this position stems from its ability to combine control with finishing mechanics. The top player uses their entire body weight and positioning to control the opponent's leg while maintaining superior position, making it extremely difficult for the bottom player to escape or counter. This position is particularly effective in no-gi grappling where leg locks are legal at all levels, though it requires careful application in gi competition where leg lock restrictions vary by belt level and ruleset. Understanding proper entry mechanics, control principles, and finishing details is essential for successfully executing kneebar attacks from top positions.\n\nStrategically, the kneebar from top positions represents a modern approach to leg lock attacks that emphasizes maintaining positional dominance while attacking submissions. Unlike traditional ashi garami or saddle positions that may sacrifice top position for leg entanglement, this variation allows practitioners to maintain superior positioning throughout the attack, reducing risk while maximizing submission potential. This makes it an essential component of modern leg lock systems, particularly for competitors who prioritize both positional control and submission finishing.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Low to Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short to Medium"
+  },
+  "state_invariants": [
+    "Top player maintains superior position with chest/shoulder pressure controlling opponent's upper body while isolating one leg for attack",
+    "Attacking practitioner's armpit secures opponent's ankle/lower leg with elbow tight to own ribs, creating fulcrum for knee hyperextension",
+    "Top player's hips positioned close to opponent's knee joint, allowing direct pressure application through hip extension and downward pressure",
+    "Bottom player's leg is elevated and controlled, with knee joint exposed and vulnerable to hyperextension attack",
+    "Top player maintains base and balance using free leg and opposite arm to prevent sweeps or reversals while maintaining submission threat"
+  ],
+  "prerequisites": [
+    "Successful passing attempt or leg drag control from top position",
+    "Isolation of one opponent leg with secure grip/control on ankle or lower leg",
+    "Top position established with ability to control opponent's upper body",
+    "Understanding of knee joint mechanics and safe submission application",
+    "Positional awareness to prevent opponent escape or reversal during transition to kneebar"
+  ],
+  "key_principles": [
+    "Maintain superior top position throughout attack to prevent sweeps or reversals",
+    "Control opponent's ankle/foot securely in armpit with elbow tight to ribs creating strong structural connection",
+    "Keep hips close to opponent's knee joint to maximize leverage and pressure application",
+    "Use opposite hand to control opponent's free leg or upper body to prevent escape",
+    "Apply pressure gradually and progressively, never explosively, to allow tap recognition",
+    "Maintain base with free leg to prevent opponent from using their free leg to sweep or create angles",
+    "Keep shoulders forward and chest pressure on opponent to limit their mobility and defensive options"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Kneebar Finish",
+      "target_position": "Won by Submission",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Transition to Truck",
+      "target_position": "Truck Top Position",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Saddle Entry from Top",
+      "target_position": "Saddle Position Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Straight Ankle Lock",
+      "target_position": "Straight Ankle Lock Control Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Transition to Mount",
+      "target_position": "Mount Top",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Inside Ashi Entry",
+      "target_position": "Inside Ashi-Garami Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Hip Escape",
+      "target_position": "Half Guard Bottom",
+      "success_rate": 30
+    },
+    {
+      "technique": "Rolling Guard Pull",
+      "target_position": "Closed Guard Bottom",
+      "success_rate": 25
+    },
+    {
+      "technique": "Ashi Garami Escape",
+      "target_position": "Top Position",
+      "success_rate": 35
+    },
+    {
+      "technique": "Technical Standup",
+      "target_position": "Standing Position",
+      "success_rate": 20
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Heel Hook",
+      "target_position": "Won by Submission",
+      "trigger": "Opponent attempts to turn knee toward floor exposing heel"
+    },
+    {
+      "technique": "Saddle Entry from Top",
+      "target_position": "Saddle Position Top",
+      "trigger": "Opponent creates space attempting to escape kneebar"
+    },
+    {
+      "technique": "Transition to Mount",
+      "target_position": "Mount Top",
+      "trigger": "Opponent defends kneebar by pulling knee close and turning away"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent's knee is fully extended and leg is controlled in armpit with hips positioned tight to knee joint",
+      "actions": [
+        {
+          "technique": "Kneebar Finish",
+          "target": "Won by Submission",
+          "probability": 65
+        },
+        {
+          "technique": "Straight Ankle Lock",
+          "target": "Straight Ankle Lock Control Top",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent attempts to turn knee inward toward floor to relieve pressure and expose their back",
+      "actions": [
+        {
+          "technique": "Transition to Truck",
+          "target": "Truck Top Position",
+          "probability": 70
+        },
+        {
+          "technique": "Heel Hook",
+          "target": "Won by Submission",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent creates space by pushing with free leg or pulling attacked leg away from your hips",
+      "actions": [
+        {
+          "technique": "Saddle Entry from Top",
+          "target": "Saddle Position Top",
+          "probability": 65
+        },
+        {
+          "technique": "Inside Ashi Entry",
+          "target": "Inside Ashi-Garami Top",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent defends by pulling knee close to chest and attempts to recover guard",
+      "actions": [
+        {
+          "technique": "Transition to Mount",
+          "target": "Mount Top",
+          "probability": 75
+        },
+        {
+          "technique": "Knee Slice Pass",
+          "target": "Side Control Top",
+          "probability": 70
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Positioning hips too far from opponent's knee joint during attack",
+      "consequence": "Reduced leverage and pressure application, allowing opponent time to defend or escape",
+      "correction": "Keep hips tight to opponent's knee joint throughout entire attack, moving with opponent if they attempt to create distance"
+    },
+    {
+      "error": "Failing to control opponent's free leg or upper body during kneebar attempt",
+      "consequence": "Opponent uses free leg to push off attacker's face/shoulder or sweep from bottom position",
+      "correction": "Use free hand to control opponent's free leg at ankle or knee, or maintain chest pressure on upper body to limit mobility"
+    },
+    {
+      "error": "Applying kneebar pressure explosively or too quickly without progressive application",
+      "consequence": "Risk of serious knee injury to training partner and inability to recognize tap in time",
+      "correction": "Apply pressure gradually over 3-5 seconds minimum, watching opponent's face and listening for tap signal throughout"
+    },
+    {
+      "error": "Releasing ankle/foot control from armpit during finishing attempt",
+      "consequence": "Opponent can rotate their knee or pull leg free, completely escaping submission",
+      "correction": "Maintain tight connection between armpit and opponent's ankle with elbow pinned to ribs throughout entire submission sequence"
+    },
+    {
+      "error": "Losing base and top position while focusing exclusively on submission",
+      "consequence": "Opponent sweeps or reverses position, negating submission attempt and losing positional advantage",
+      "correction": "Maintain wide base with free leg, keeping shoulder pressure on opponent while attacking submission to preserve top position"
+    },
+    {
+      "error": "Attacking kneebar without proper control of opponent's upper body first",
+      "consequence": "Opponent sits up, counters, or escapes before submission can be secured",
+      "correction": "Establish chest/shoulder pressure and positional control before transitioning to leg attack, ensuring opponent cannot sit up or create offensive angles"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Kneebar Entry from Leg Drag Drill",
+      "description": "Partner starts in open guard, practitioner executes leg drag pass and transitions directly to kneebar position, focusing on smooth entry while maintaining top control. Partner provides progressive resistance. Drill 10 repetitions each side, emphasizing connection between passing and leg attack.",
+      "duration": "5 minutes per partner"
+    },
+    {
+      "name": "Kneebar Control Maintenance Drill",
+      "description": "Start in established kneebar position from top. Partner attempts to escape using approved defensive movements (hip escape, turning knee, pulling leg free). Practitioner maintains control and adjusts position to prevent escape without finishing submission. Focus on positional retention and control mechanics.",
+      "duration": "3-minute rounds, 3 rounds each"
+    },
+    {
+      "name": "Progressive Kneebar Finishing Drill",
+      "description": "Starting from secured kneebar position, practice applying progressive pressure over 5-second count while partner provides feedback on pressure level. Partner taps when pressure reaches 60% of maximum. Focus on controlled application, tap recognition, and immediate release. Safety-focused drill for developing finishing sensitivity.",
+      "duration": "10 repetitions per partner"
+    },
+    {
+      "name": "Kneebar to Counter Transition Drill",
+      "description": "Partner defends kneebar attempt using specific escapes (turning knee inward, creating space, pulling knee close). Practitioner recognizes defensive movement and transitions to appropriate counter position (truck, saddle, mount). Drill all major defensive scenarios to develop adaptive responses.",
+      "duration": "5 minutes flowing sequences"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Direct finish from top control",
+      "path": "Leg Drag Position → Kneebar from Top Positions → Kneebar Finish → Won by Submission"
+    },
+    {
+      "name": "High-percentage combination path",
+      "path": "Half Guard Top → Knee Slice Pass → Kneebar from Top Positions → Kneebar Finish → Won by Submission"
+    },
+    {
+      "name": "Counter-based finish path",
+      "path": "Side Control Top → Opponent escapes to turtle → Kneebar from Top Positions → Kneebar Finish → Won by Submission"
+    },
+    {
+      "name": "Leg entanglement chain path",
+      "path": "Kneebar from Top Positions → Saddle Position Top → Inside Heel Hook → Won by Submission"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Kneebar Control Top",
+      "relationship": "Specific control variant focused on maintaining position before finishing"
+    },
+    {
+      "name": "Saddle Position Top",
+      "relationship": "Common transition target when opponent defends kneebar"
+    },
+    {
+      "name": "Inside Ashi-Garami Top",
+      "relationship": "Alternative leg entanglement from similar top control position"
+    },
+    {
+      "name": "Truck Top Position",
+      "relationship": "Counter position when opponent turns knee to defend kneebar"
+    },
+    {
+      "name": "Kneebar Finish",
+      "relationship": "Primary submission technique from this position"
+    },
+    {
+      "name": "Danaher Leg Lock System",
+      "relationship": "Systematic approach incorporating kneebar from top positions"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Fundamental concept underlying control mechanics"
+    },
+    {
+      "name": "Submission Control Position",
+      "relationship": "Conceptual framework for balancing control with finishing"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 50,
+      "intermediate": 65,
+      "advanced": 80
+    },
+    "advancement_probability": {
+      "beginner": 35,
+      "intermediate": 50,
+      "advanced": 65
+    },
+    "submission_probability": {
+      "beginner": 30,
+      "intermediate": 45,
+      "advanced": 60
+    },
+    "average_time": "20-45 seconds from entry to finish or position change"
+  },
+  "expert_insights": {
+    "danaher": "The kneebar from top positions represents a perfect marriage of positional dominance and submission mechanics. What makes this position particularly effective is the structural advantage created by maintaining top position while attacking the leg - your opponent must simultaneously defend both the submission and prevent positional advancement. The key mechanical principle is the relationship between your hip position and their knee joint. Your hips must remain close to their knee throughout the attack, creating a fulcrum effect where any extension of your hips directly translates to hyperextension pressure on their knee. Many practitioners make the error of positioning their hips too far from the knee, which dramatically reduces leverage and allows the opponent time to defend. Additionally, controlling the opponent's free leg or upper body is absolutely critical - without this secondary control, they can use their free leg to push your head away or create sweeping angles. The systematic approach to kneebar attacks from top positions involves establishing positional control first, isolating the leg second, and only then transitioning to the finishing mechanics. This sequence ensures you maintain your positional advantage throughout the attack, reducing risk while maximizing submission probability.",
+    "gordon_ryan": "In competition, the kneebar from top positions is one of my highest percentage leg lock attacks because it allows me to maintain dominance while threatening the finish. Unlike traditional ashi garami positions where you're sometimes on bottom, this variation keeps you on top throughout, which is huge for point scoring and controlling the pace. The way I hit this in matches is usually off a leg drag or knee slice attempt - when they're defending the pass, I'll immediately transition to the leg instead of forcing the pass. This creates a dilemma they can't solve: if they focus on preventing the pass, I get the leg; if they defend the leg, I complete the pass. What I've found through years of competition is that the finish rate is actually higher from this top variation compared to traditional kneebar positions because opponents are less familiar with the defensive mechanics. They're expecting you to pass, not attack their leg, so their defensive reactions are slower. The key detail I use is keeping my chest pressure on them the entire time - this prevents them from sitting up and countering. I also make sure to control their far leg with my free hand because good grapplers will immediately try to push your head or create a hook to sweep you. If you can shut down that defensive option while maintaining the leg control, the finish becomes almost automatic against most opponents.",
+    "eddie_bravo": "The kneebar from top positions fits perfectly into the 10th Planet system because we're always looking for ways to attack submissions while maintaining control - we don't want to give up position to hunt for subs. What's sick about this variation is how it integrates with our leg drag and knee slice passing game. When you're passing and they defend, instead of battling through the pass, you just switch to the leg and boom, you've got a submission opportunity without sacrificing your top position. In our system, we drill this heavily from what we call the 'headquarters' position, where you're controlling one leg and can either pass or attack. The innovation I bring to this is incorporating it into chains with the truck position and twister mechanics. If they defend the kneebar by turning their knee toward the mat, they're actually giving you the truck, which opens up the back or twister. It's a beautiful dilemma - defend the kneebar and give the truck, or keep the knee straight and tap to the kneebar. One thing I emphasize that's different from traditional approaches is being willing to stand up into the kneebar if needed. Sometimes when they're defending really well and creating space, you can actually stand up while maintaining the ankle control and drop your weight into it for the finish. It's an unexpected angle that catches people off guard. The whole position is about creating those creative options while keeping the pressure on and never giving them a chance to breathe or recover their guard."
+  }
+}

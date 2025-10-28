@@ -1,0 +1,986 @@
+{
+  "metadata": {
+    "title": "Triangle Escape Bottom Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master Triangle Escape from bottom position in BJJ. Complete guide covering defensive frames, posture recovery, and escape sequences with 45-70% success rates across skill levels.",
+    "state_id": "S159",
+    "tags": ["bjj", "position", "defensive", "triangle-escape", "bottom", "guard", "escape", "survival"]
+  },
+  "overview": "Triangle Escape Bottom Position represents the critical defensive state when caught in an opponent's triangle choke from the bottom perspective. This is a high-pressure situation requiring immediate technical response to prevent submission while creating opportunities to recover guard or advance position. The bottom player must manage multiple threats simultaneously: the choking pressure from the triangle itself, potential armbar transitions, and the opponent's ability to adjust angle and depth. Success in this position depends on understanding proper posture mechanics, frame construction, and systematic escape sequences that address both the immediate submission threat and the positional hierarchy. This position typically arises from failed guard passing attempts, standing guard breaks, or transitions from other bottom positions where the top player has secured triangle control. The escape requires a balance of defensive urgency and technical precision, as rushing the escape often leads to deeper submission danger, while hesitation allows the opponent to perfect their finishing mechanics.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive",
+    "risk_level": "High",
+    "energy_cost": "High",
+    "time_sustainability": "Short"
+  },
+  "state_invariants": [
+    "Head and one arm trapped inside opponent's closed triangle configuration with their shin bone crossing behind practitioner's neck, creating direct choking pressure on the carotid arteries",
+    "Opponent's legs locked in triangle position with one leg over shoulder and across back of neck, other leg hooking behind the knee to create structural integrity and prevent separation",
+    "Bottom player's trapped arm compressed against own neck by opponent's leg pressure, contributing to the choke mechanism and limiting mobility options",
+    "Opponent on back with hips elevated and angled toward trapped side, using hip extension and angle adjustment to tighten choking pressure and control posture",
+    "Bottom player typically in kneeling or partial standing posture attempting to create distance and relieve pressure, with base compromised by opponent's leg control and choking threat"
+  ],
+  "prerequisites": [
+    "Bottom player's head and arm caught inside opponent's triangle lock",
+    "Opponent has achieved triangle leg configuration with locked position",
+    "Choking pressure actively being applied or imminent",
+    "Bottom player's posture broken or compromised by triangle mechanics",
+    "Opponent controlling angle and distance with hip positioning"
+  ],
+  "key_principles": [
+    "Maintain calm breathing and avoid panic despite choking pressure - rushed movements tighten the triangle",
+    "Create immediate defensive frames to prevent opponent from perfecting angle and depth of triangle",
+    "Protect trapped arm by keeping elbow tight to ribs and preventing opponent from isolating it for armbar",
+    "Address posture first by standing or creating vertical base to reduce choking effectiveness",
+    "Stack opponent's weight onto their shoulders to compromise their hip mobility and choking power",
+    "Never pull trapped arm out forcefully - this often accelerates submission or opens armbar transitions",
+    "Escape systematically by addressing leg position, then clearing head, maintaining defensive awareness throughout"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Triangle Escape",
+      "target_position": "Closed Guard Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Posture Recovery",
+      "target_position": "Combat Base",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Guard Recovery",
+      "target_position": "Open Guard Top",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Arm Extraction",
+      "target_position": "Guard Top Position",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 40,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Technical Stand Up to Single Leg",
+      "target_position": "Standing Position",
+      "success_rates": {
+        "beginner": 10,
+        "intermediate": 25,
+        "advanced": 45
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Triangle Choke",
+      "target_position": "Won by Submission",
+      "success_rate": 55
+    },
+    {
+      "technique": "Triangle to Armbar",
+      "target_position": "Armbar Control Bottom",
+      "success_rate": 40
+    },
+    {
+      "technique": "Triangle to Omoplata",
+      "target_position": "Omoplata Control Bottom",
+      "success_rate": 25
+    },
+    {
+      "technique": "Angle Adjustment",
+      "target_position": "Triangle Control Bottom",
+      "success_rate": 45
+    },
+    {
+      "technique": "Switch to Triangle",
+      "target_position": "Triangle Control Bottom",
+      "success_rate": 35
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Stack Defense",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent attempts to adjust angle by scooting hips"
+    },
+    {
+      "technique": "Posture Recovery",
+      "target_position": "Combat Base",
+      "trigger": "Opponent tries to break posture by pulling head down"
+    },
+    {
+      "technique": "Guard Recovery",
+      "target_position": "Closed Guard Top",
+      "trigger": "Opponent releases triangle to transition to armbar"
+    },
+    {
+      "technique": "Frame and Shrimp",
+      "target_position": "Open Guard Top",
+      "trigger": "Opponent loosens legs to reposition"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent has shallow triangle with weak angle and no arm isolation",
+      "actions": [
+        {
+          "technique": "Posture Recovery",
+          "target": "Combat Base",
+          "probability": 60
+        },
+        {
+          "technique": "Arm Extraction",
+          "target": "Closed Guard Top",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent has deep triangle with good angle but you maintain strong posture",
+      "actions": [
+        {
+          "technique": "Stack Pass",
+          "target": "Side Control Top",
+          "probability": 45
+        },
+        {
+          "technique": "Triangle Escape",
+          "target": "Guard Top Position",
+          "probability": 40
+        }
+      ]
+    },
+    {
+      "condition": "If opponent transitions to armbar while maintaining triangle pressure",
+      "actions": [
+        {
+          "technique": "Armbar Defense",
+          "target": "Guard Recovery",
+          "probability": 35
+        },
+        {
+          "technique": "Rolling Escape",
+          "target": "Top Position",
+          "probability": 25
+        }
+      ]
+    },
+    {
+      "condition": "If opponent adjusts angle toward trapped arm side",
+      "actions": [
+        {
+          "technique": "Stack Defense",
+          "target": "North-South Top",
+          "probability": 40
+        },
+        {
+          "technique": "Hip Pressure",
+          "target": "Side Control Top",
+          "probability": 35
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Pulling trapped arm straight out with force",
+      "consequence": "Accelerates choke completion and creates immediate armbar vulnerability as opponent can isolate the arm",
+      "correction": "Keep elbow tight to ribs, rotate shoulder and use circular motion to extract arm while maintaining defensive posture"
+    },
+    {
+      "error": "Staying in broken posture with head down",
+      "consequence": "Allows opponent to perfect triangle angle and depth, making escape exponentially more difficult",
+      "correction": "Immediately work to stand or create vertical base, using legs to drive upward and reduce choking pressure"
+    },
+    {
+      "error": "Using free hand to push on opponent's leg crossing neck",
+      "consequence": "Wastes energy, exposes second arm to capture, and does not address root cause of triangle structure",
+      "correction": "Use free hand to post on mat for base or control opponent's hip to prevent angle adjustment"
+    },
+    {
+      "error": "Attempting to jump or sprawl backward to escape",
+      "consequence": "Increases choking pressure dramatically and often results in immediate unconsciousness",
+      "correction": "Move forward and upward, stacking opponent's weight onto their shoulders to compromise their structure"
+    },
+    {
+      "error": "Neglecting to protect free arm during escape attempts",
+      "consequence": "Opponent easily transitions to armbar on free arm, switching submission threats",
+      "correction": "Keep free arm tight to body or posted on mat, never extending it into opponent's guard space"
+    },
+    {
+      "error": "Holding breath or tensing entire body",
+      "consequence": "Accelerates oxygen depletion, increases panic response, and reduces technical execution quality",
+      "correction": "Maintain controlled breathing, stay calm, and execute systematic escape sequence with proper technique"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Triangle Escape Positional Sparring",
+      "description": "Partner applies triangle at 50% pressure. Practice systematic escape sequence: establish posture, create frames, stack weight, clear legs, pass guard. Reset and repeat from various triangle depths and angles.",
+      "duration": "5 minutes per round, 3-4 rounds"
+    },
+    {
+      "name": "Posture Recovery Under Pressure",
+      "description": "Start in broken posture inside triangle. Partner maintains triangle control while you work solely on achieving standing or strong kneeling posture. Focus on using legs to drive upward and creating defensive frames. Do not attempt full escape, only posture recovery.",
+      "duration": "3 minutes per round, 4-5 rounds"
+    },
+    {
+      "name": "Stack Mechanics Development",
+      "description": "From established triangle position, practice stacking opponent's weight onto their shoulders systematically. Focus on proper angle, hip pressure, and maintaining balance while compromising opponent's triangle structure. Partner provides graduated resistance.",
+      "duration": "4 minutes per round, 3-4 rounds"
+    },
+    {
+      "name": "Triangle Transition Defense",
+      "description": "Partner attempts all triangle variations: armbar switches, omoplata transitions, angle adjustments. Your goal is to recognize transitions early and maintain defensive posture and frames throughout. Develop awareness of multiple submission threats.",
+      "duration": "5 minutes per round, 3 rounds"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Direct escape to dominant position",
+      "path": "Triangle Escape Bottom Position → Posture Recovery → Stack Pass → Side Control Top"
+    },
+    {
+      "name": "Conservative escape to neutral",
+      "path": "Triangle Escape Bottom Position → Arm Extraction → Guard Recovery → Closed Guard Top → Guard Pass → Mount Top"
+    },
+    {
+      "name": "Explosive escape to standing",
+      "path": "Triangle Escape Bottom Position → Technical Stand Up → Standing Position → Takedown Entry → Top Position → Submission Control Top Position"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Triangle Control Bottom",
+      "relationship": "Opponent's position - understanding their mechanics aids escape"
+    },
+    {
+      "name": "Closed Guard Top",
+      "relationship": "Common post-escape position after successful triangle defense"
+    },
+    {
+      "name": "Armbar Control Bottom",
+      "relationship": "Common transition threat from triangle position"
+    },
+    {
+      "name": "Omoplata Control Bottom",
+      "relationship": "Alternative submission opponent may switch to during escape"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Critical posture position for triangle escape execution"
+    },
+    {
+      "name": "Triangle Choke",
+      "relationship": "Submission being defended - technical understanding crucial"
+    },
+    {
+      "name": "Escape Hierarchy",
+      "relationship": "Conceptual framework for prioritizing escape objectives"
+    },
+    {
+      "name": "Frame Creation",
+      "relationship": "Fundamental defensive skill required for all triangle escapes"
+    },
+    {
+      "name": "Posture Recovery",
+      "relationship": "Essential transition technique for triangle escape success"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 15,
+      "intermediate": 35,
+      "advanced": 55
+    },
+    "advancement_probability": {
+      "beginner": 20,
+      "intermediate": 40,
+      "advanced": 65
+    },
+    "submission_probability": {
+      "beginner": 5,
+      "intermediate": 10,
+      "advanced": 20
+    },
+    "average_time": "10-30 seconds before escape or submission"
+  },
+  "expert_insights": {
+    "danaher": "The triangle escape represents one of the most critical decision points in grappling where systematic technical knowledge directly correlates to survival probability. The biomechanical reality of the triangle choke is that it functions through a combination of structural closure and angular optimization - the opponent creates a closed system with their legs while simultaneously achieving an angle that maximizes pressure on the carotid arteries. Your escape methodology must therefore address both elements: first, you must disrupt the structural integrity of the triangle by creating vertical distance through postural recovery, and second, you must prevent angular optimization by controlling the opponent's hip mobility. The most common failing I observe is practitioners attempting to address symptoms rather than root causes - they push on legs rather than standing up, they pull on the choking arm rather than stacking the opponent's weight. Understand that the triangle's power comes from the opponent's ability to use their legs as lever arms against your neck; by stacking their weight onto their shoulders, you effectively reverse these lever mechanics, transforming their attacking structure into a defensive liability. The systematic approach is invariable: establish posture to reduce immediate danger, create frames to prevent angle adjustment, stack weight to compromise their structure, then methodically clear the legs and pass. Each step must be completed before advancing to the next, as skipping steps inevitably results in submission.",
+    "gordon_ryan": "In competition, getting caught in a triangle is a serious problem, but it's not automatically over if you know what you're doing. I've escaped deep triangles from world-class grapplers by staying calm and executing the fundamentals perfectly. The key thing nobody tells you is that most triangle escapes fail because people try to escape too early - they feel the pressure starting and immediately panic, which is exactly when you make the mistakes that get you finished. When I'm in a triangle, my first thought isn't 'escape,' it's 'survive and improve position.' I focus on getting my posture back first, even if it's just getting to my knees with a strong base. Once I have that, I can start working the actual escape. The stack is my go-to because it's high percentage and it puts me in position to pass immediately after escaping, but you have to commit to it fully - half-assed stacking just tires you out and keeps you in danger. One technique that's won me matches is recognizing when someone's triangle is shallow versus deep. If it's shallow and I feel I can still breathe reasonably well, I might actually work to pass from inside the triangle by stacking aggressively and driving my shoulder into their hip. If it's deep and I'm already seeing stars, I need to be more systematic and focus purely on posture and frames before attempting anything fancy. The mental game is huge here - you have to believe you can escape even when it's tight, because the moment you accept defeat, your technique falls apart.",
+    "eddie_bravo": "The triangle is one of those positions where traditional escapes work, but there's always room for innovation and unexpected solutions. In my system, we look at the triangle escape as an opportunity, not just a defensive situation. When someone locks up a triangle on me, I'm immediately thinking about unconventional options that they won't expect. One thing we drill heavily is the shoulder roll escape, where instead of trying to posture up conventionally, you actually roll over the shoulder on the trapped arm side, using momentum and timing to slip out before they can adjust. It's risky, but it works incredibly well when timed right, especially in no-gi where their legs are more slippery. Another concept from 10th Planet is using the threat of the slam defensively - even in pure grappling where slams aren't allowed, the motion of lifting them up high and threatening the slam makes most people loosen their triangle instinctively, which is when you execute the actual technical escape. I also teach my guys to think about the triangle escape as part of a larger system - if you're escaping, why just get back to their guard? Why not escape directly into a leg entanglement or a passing position? The standard escape to closed guard is fine, but I want my students thinking about escaping to single leg X, or escaping to a leg drag position where they're immediately on offense. The key is staying creative and not letting the pressure make you revert to predictable patterns that your opponent has trained specifically to counter."
+  }
+}
+{
+  "metadata": {
+    "title": "Triangle Escape Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master triangle escape techniques in BJJ. Defensive position for escaping triangle choke. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%. Complete defensive guide.",
+    "state_id": "S102",
+    "tags": [
+      "bjj",
+      "position",
+      "defensive",
+      "submission-defense",
+      "triangle-escape"
+    ],
+    "child_variants": [
+      "Triangle Escape Bottom Position",
+      "Triangle Escape Top Position"
+    ]
+  },
+  "overview": "Triangle Escape Position represents the critical defensive state where a practitioner is caught in an opponent's triangle choke configuration and must execute systematic defensive techniques to avoid submission while working toward positional escape. This is one of BJJ's most dangerous defensive scenarios, requiring immediate defensive priorities (maintaining breathing space and blood flow) combined with methodical escape execution to break the triangle lock and recover to safer positions. The position demands understanding of the triangle's mechanical structure, including leg positioning, angle creation, and choking mechanisms, to effectively counter and escape.\n\nUnlike some defensive positions where time works in the defender's favor, triangle escape position becomes progressively more dangerous as the attacking practitioner refines their control and angle, making quick decisive defensive action critical. Success in this position often determines match outcomes, as triangle chokes represent high-percentage submissions when properly applied. The escape requires a hierarchy of defensive actions: first establishing breathing space, then posture, then hip control, and finally systematic dismantling of the triangle structure.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive",
+    "risk_level": "High",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short"
+  },
+  "state_invariants": [
+    "Opponent's legs forming triangle configuration around defender's neck and one shoulder, with legs crossed and locked at the ankles or shin-to-shin, creating a closed loop that encircles the head and trapped arm while isolating them from the body",
+    "One arm (typically same-side as the choking leg) trapped inside the triangle between defender's own body and the opponent's legs, positioned across defender's own neck in a structurally compromising position that contributes to the choke",
+    "Choking pressure present or developing through opponent's leg across carotid artery combined with defender's own shoulder being pulled into opposite side of neck, with opponent working to create optimal angle (typically 45 degrees off centerline) to maximize choking effectiveness",
+    "Defensive practitioner in compressed forward-leaning posture with head pulled down toward opponent's hips, shoulders rounded forward, and base potentially compromised, requiring immediate posture recovery to prevent full submission"
+  ],
+  "prerequisites": [
+    "Triangle choke established by opponent with legs locked in crossed configuration",
+    "One arm trapped inside triangle configuration between legs and body",
+    "Head and opposite arm positioned outside triangle on same side as choking leg",
+    "Opponent applying or attempting to apply choking pressure through angle creation and hip control"
+  ],
+  "key_principles": [
+    "Maintain emergency breathing space as absolute first priority before attempting escape by creating any available distance between neck and opponent's leg to preserve blood flow and prevent loss of consciousness",
+    "Establish strong defensive posture by driving weight forward and upward onto opponent, straightening spine to prevent optimal choking angle and reduce immediate submission threat",
+    "Control opponent's hip with free arm to limit their body angling and position optimization, preventing them from achieving the critical 45-degree angle that maximizes triangle effectiveness",
+    "Create systematic space progression starting from relieving immediate pressure, then establishing posture, then extracting trapped arm only after sufficient structural foundation is built",
+    "Keep trapped arm position awareness to prevent increased tightness during escape attempts, avoiding pulling motions that tighten the triangle and instead using proper mechanical leverage",
+    "Use base and posture maintenance to neutralize opponent's leverage advantages, keeping knees wide and weight distributed to prevent being pulled into worse angles",
+    "Execute escape techniques with steady controlled pressure rather than explosive movements that create openings for opponent's adjustments or transitions to other submissions"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Posture Recovery",
+      "target_position": "Closed Guard Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Triangle Escape",
+      "target_position": "Guard Recovery Top",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Hip Escape",
+      "target_position": "Open Guard Top",
+      "success_rates": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Frame and Shrimp",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Guard Pass",
+      "target_position": "Half Guard Top",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Triangle to Armbar",
+      "target_position": "Armbar Control Bottom",
+      "success_rate": 60
+    },
+    {
+      "technique": "Triangle to Omoplata",
+      "target_position": "Omoplata Control Bottom",
+      "success_rate": 45
+    },
+    {
+      "technique": "Switch to Triangle",
+      "target_position": "Triangle Control Bottom",
+      "success_rate": 55
+    },
+    {
+      "technique": "Triangle to Back",
+      "target_position": "Back Control Bottom",
+      "success_rate": 40
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Posture Recovery",
+      "target_position": "Closed Guard Top",
+      "trigger": "Opponent attempts to pull head down to tighten triangle"
+    },
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent commits fully to triangle without angle adjustment"
+    },
+    {
+      "technique": "Hip Escape",
+      "target_position": "Open Guard Top",
+      "trigger": "Opponent opens guard to adjust triangle angle"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent has tight triangle with optimal angle and trapped arm across neck",
+      "actions": [
+        {
+          "technique": "Frame and Shrimp",
+          "target": "Top Position",
+          "probability": 30
+        },
+        {
+          "technique": "Posture Recovery",
+          "target": "Closed Guard Top",
+          "probability": 25
+        }
+      ]
+    },
+    {
+      "condition": "If opponent's triangle is locked but angle not yet optimized",
+      "actions": [
+        {
+          "technique": "Stack Pass",
+          "target": "Side Control Top",
+          "probability": 50
+        },
+        {
+          "technique": "Posture Recovery",
+          "target": "Closed Guard Top",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent opens legs to adjust angle or transition",
+      "actions": [
+        {
+          "technique": "Triangle Escape",
+          "target": "Guard Recovery Top",
+          "probability": 60
+        },
+        {
+          "technique": "Hip Escape",
+          "target": "Open Guard Top",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If defender achieves strong posture with hip control established",
+      "actions": [
+        {
+          "technique": "Guard Pass",
+          "target": "Half Guard Top",
+          "probability": 65
+        },
+        {
+          "technique": "Stack Pass",
+          "target": "Side Control Top",
+          "probability": 60
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Attempting to pull trapped arm out immediately without establishing posture first",
+      "consequence": "Pulling motion tightens the triangle dramatically, accelerates choking pressure, and depletes energy while making escape increasingly difficult as opponent adjusts to secure submission",
+      "correction": "Focus first on posture recovery by driving weight forward and upward, controlling opponent's hip with free hand, and only attempting arm extraction after establishing strong structural foundation and relieving primary choking pressure"
+    },
+    {
+      "error": "Poor posture allowing opponent to create optimal choking angle by pulling head down",
+      "consequence": "Opponent achieves critical 45-degree angle that maximizes triangle effectiveness, dramatically increasing choking pressure and making escape nearly impossible as blood flow becomes severely restricted",
+      "correction": "Immediately establish strong upright posture by straightening spine, driving weight onto opponent through hips, and keeping head up to prevent opponent from achieving advantageous angle for finishing submission"
+    },
+    {
+      "error": "Explosive movements and sudden jerking attempts to escape without controlled technique",
+      "consequence": "Creates positional instability that opponent exploits for transitions to armbar or omoplata, wastes critical energy reserves, and provides opportunities for opponent to adjust and secure tighter triangle position",
+      "correction": "Execute escape techniques with steady controlled pressure, maintaining base and posture throughout movements, using mechanical leverage rather than explosive strength to create systematic space and positional improvement"
+    },
+    {
+      "error": "Neglecting hip control with free hand allowing opponent to angle freely",
+      "consequence": "Opponent easily creates optimal choking angle by moving hips laterally, securing submission before escape can be completed, and maintaining constant control over defender's posture and position",
+      "correction": "Use free hand to establish immediate firm control on opponent's near hip, pinning it to mat to prevent angle adjustment, while simultaneously working posture recovery and other defensive measures"
+    },
+    {
+      "error": "Failing to create breathing space before attempting full escape sequence",
+      "consequence": "Risk of losing consciousness during escape attempt as choking pressure remains constant, inability to execute complex escape techniques while managing oxygen deprivation, and potential panic response that compromises technical execution",
+      "correction": "First priority must be creating any available space to maintain blood flow and breathing capacity, even small improvements in position that relieve immediate pressure, before attempting more complex escape sequences that require sustained effort and clear thinking"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Positional Survival Training",
+      "description": "Extended rounds starting in fully locked triangle with focus purely on maintaining breathing space and posture, building ability to stay calm and survive under submission pressure without panicking. Partner maintains triangle at 50-70% tightness while defender works exclusively on posture, breathing, and positional awareness. Progress to higher tightness levels as survival skills improve. Duration varies but typically 2-3 minute rounds.",
+      "duration": "2-3 minutes per round"
+    },
+    {
+      "name": "Progressive Escape Drilling",
+      "description": "Partner applies triangle with increasing tightness from 30% to 80% as escape techniques are practiced, developing proper mechanics before facing full submission threat. Start with very loose triangle allowing focus on technical positioning, gradually increasing resistance as movement patterns become automatic. Emphasizes building confidence and technical proficiency in safe learning environment before high-resistance training.",
+      "duration": "5-10 repetitions per tightness level"
+    },
+    {
+      "name": "Stack Escape Repetitions",
+      "description": "High volume repetitions of stacking escape mechanics focusing on posture, weight distribution, and hip control, building automatic defensive responses. Practice driving weight forward onto opponent, establishing hip control with free hand, creating systematic space for arm extraction, and completing escape to passing position. Emphasize quality of movement over speed, ensuring proper technique throughout entire sequence.",
+      "duration": "20-30 repetitions per training session"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Emergency Escape Path",
+      "path": "Triangle Escape Position → Posture Recovery → Closed Guard Top → Stack Pass → Side Control Top"
+    },
+    {
+      "name": "Defensive Recovery Path",
+      "path": "Triangle Escape Position → Frame and Shrimp → Top Position → Guard Recovery Top → Open Guard Top"
+    },
+    {
+      "name": "Direct Counter Path",
+      "path": "Triangle Escape Position → Stack Pass → Side Control Top → Mount Top → Submission Top Position"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Triangle Control Bottom",
+      "relationship": "Opponent's attacking position when holding triangle choke"
+    },
+    {
+      "name": "Closed Guard Bottom",
+      "relationship": "Common position from which triangles are initiated"
+    },
+    {
+      "name": "Armbar Control Bottom",
+      "relationship": "Alternative submission opponent may transition to if triangle escape begins"
+    },
+    {
+      "name": "Triangle Escape",
+      "relationship": "Primary transition technique for escaping this position"
+    },
+    {
+      "name": "Escape Hierarchy",
+      "relationship": "Conceptual framework for prioritizing defensive actions"
+    },
+    {
+      "name": "Hip Escape Mechanics",
+      "relationship": "Fundamental movement pattern used in triangle escapes"
+    },
+    {
+      "name": "Frame Creation",
+      "relationship": "Essential defensive concept for creating escape space"
+    },
+    {
+      "name": "Submission Defense",
+      "relationship": "General defensive principles applicable to triangle escapes"
+    },
+    {
+      "name": "Guard Recovery Top",
+      "relationship": "Common transitional position after successful escape"
+    },
+    {
+      "name": "Omoplata Control Bottom",
+      "relationship": "Counter-submission opponent may attempt during escape"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "advancement_probability": {
+      "beginner": 25,
+      "intermediate": 40,
+      "advanced": 60
+    },
+    "submission_probability": {
+      "beginner": 20,
+      "intermediate": 35,
+      "advanced": 55
+    },
+    "average_time": "10-30 seconds (critical escape window)"
+  },
+  "expert_insights": {
+    "danaher": "Approaches triangle escape as a hierarchical defensive system where posture and pressure must be established before any arm extraction or escape attempt. Emphasizes that most triangle escape failures occur because practitioners attempt to extract trapped arm before establishing sufficient posture and relieving primary choking pressure. Systematizes escape into distinct phases: emergency breathing space creation through any available head movement or posture improvement, posture establishment by driving weight forward onto opponent and straightening spine, hip control with free hand to prevent angle optimization, angle prevention through constant pressure and base management, space progressive creation by systematic weakening of triangle structure, and only then arm extraction and final escape to improved position. Treats prevention as far superior to cure, teaching detailed triangle defense principles that prevent triangle establishment rather than relying on escapes from completed triangles, noting that a properly locked triangle with optimal angle against skilled opponent represents one of BJJ's most difficult escape scenarios.",
+    "gordon_ryan": "Views triangle escape through realistic competition lens where a fully locked triangle with proper angle is nearly impossible to escape against skilled opponent, emphasizing the critical importance of early defensive intervention before triangle is fully secured and optimized. Focuses on aggressive posture maintenance and making the position expensive for opponent by forcing them to work continuously to maintain and tighten position, creating fatigue and technical errors that enable escape opportunities. Notes that in high-level competition, preventing the triangle lock from completing, especially stopping the leg cross and angle creation during initial setup phase, matters far more than having sophisticated escape techniques from fully established triangles. When caught in locked triangle, emphasizes immediate explosive posture recovery combined with hip control as the only realistic escape pathway, accepting that once optimal angle is achieved the escape probability drops dramatically. Advocates developing triangle awareness and defensive positioning in guard to avoid ever entering fully compromised escape scenarios.",
+    "eddie_bravo": "Has extensive triangle attack and defense experience through 10th Planet's emphasis on submission-oriented grappling and innovative guard systems. When teaching triangle defense, emphasizes the importance of staying calm under submission pressure and methodically working through defensive sequences rather than panicking and exhausting energy through explosive failed attempts that only tighten the position. Advocates for understanding that triangle defense often creates opportunities for opponent to transition to other attacks including armbars, omoplatas, and various shoulder locks, requiring awareness of these transitions and defensive responses beyond pure triangle escape focus. Teaches that many triangle escapes involve accepting temporary positional disadvantage or exposure to follow-up attacks in exchange for relieving immediate choking pressure, making the defender's ability to chain defensive responses critical. Notes that developing comfort and competence in surviving difficult submission positions builds overall defensive skills and mental toughness essential for high-level grappling, viewing triangle escape training as valuable even beyond the specific technique development."
+  }
+}
+{
+  "metadata": {
+    "title": "Triangle Escape Top Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master escaping the triangle from top position. Complete guide covering posture recovery, arm extraction, and stack passes. Essential defensive technique with 60% success rate.",
+    "state_id": "S156",
+    "tags": ["bjj", "position", "triangle-escape", "defensive", "guard-passing", "submission-defense"],
+    "parent_variant": "Triangle Escape Position",
+    "sibling_variants": ["Triangle Escape Bottom Position"]
+  },
+  "overview": "Triangle Escape Top Position represents the critical defensive state where a practitioner finds themselves caught in an opponent's triangle choke attempt from the top position. This is a high-stakes position requiring immediate technical response to prevent the submission from being completed while simultaneously working toward passing the guard. The position demands a combination of defensive awareness, posture management, and strategic movement to escape the threat and regain offensive control.\n\nFrom this position, the top practitioner must simultaneously address multiple threats: the constricting triangle choke itself, potential arm attacks if one arm is trapped, and sweep attempts if they overcommit to escape. Success requires understanding the biomechanical principles of the triangle, maintaining proper posture despite the leg pressure, and executing systematic escape sequences that address both the immediate submission threat and long-term positional recovery. The position serves as a crucial learning opportunity for defensive concepts including pressure management, space creation, and the transition from defense back to offense.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive",
+    "risk_level": "High",
+    "energy_cost": "High",
+    "time_sustainability": "Short"
+  },
+  "state_invariants": [
+    "Opponent's legs are configured in triangle formation with one leg across the back of practitioner's neck and the other leg locked behind the knee, creating a closed loop that threatens blood choke",
+    "One of practitioner's arms is trapped inside the triangle (between opponent's legs) while the other arm remains outside, creating asymmetrical positioning that must be addressed",
+    "Opponent maintains hip control and angle, typically turned to their side with hips elevated off the mat to maximize choking pressure and prevent posture recovery",
+    "Practitioner's posture is compromised with head and shoulders pulled forward and down into opponent's hips, making breathing difficult and creating urgent need for space creation"
+  ],
+  "prerequisites": [
+    "Opponent has successfully closed triangle choke configuration from guard position",
+    "One arm is trapped inside the triangle while defending the choke with the other arm",
+    "Opponent has established hip angle and elevation necessary for finishing pressure",
+    "Practitioner is on knees or combat base attempting to prevent full submission"
+  ],
+  "key_principles": [
+    "Maintain posture and create vertical spine alignment despite leg pressure - do not allow shoulders to collapse forward which accelerates the choke",
+    "Address the choking mechanism first by creating space at the neck before attempting to extract the trapped arm or pass the guard",
+    "Keep weight distributed forward over opponent's hips to prevent them from achieving optimal finishing angle and hip elevation",
+    "Protect the trapped arm from becoming the fulcrum for an armbar transition by keeping elbow tight and hand positioned protectively",
+    "Create systematic space through controlled movements rather than explosive panic responses which often tighten the submission",
+    "Combine defensive frames with offensive pressure to prevent opponent from consolidating position while executing escape"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Posture Recovery",
+      "target_position": "Combat Base",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Arm Extraction",
+      "target_position": "Closed Guard Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Triangle Escape",
+      "target_position": "Open Guard Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Guard Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Standing up in Base",
+      "target_position": "Standing Top Position",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Triangle Choke",
+      "target_position": "Won by Submission",
+      "success_rate": 45
+    },
+    {
+      "technique": "Triangle to Armbar",
+      "target_position": "Armbar Control Bottom",
+      "success_rate": 30
+    },
+    {
+      "technique": "Triangle to Omoplata",
+      "target_position": "Omoplata Control Bottom",
+      "success_rate": 25
+    },
+    {
+      "technique": "Hip Bump Sweep",
+      "target_position": "Mount Bottom",
+      "success_rate": 20
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent attempts to adjust angle or switch to armbar"
+    },
+    {
+      "technique": "Posture Recovery",
+      "target_position": "Combat Base",
+      "trigger": "Opponent's triangle grip loosens during adjustment"
+    },
+    {
+      "technique": "Guard Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Successfully extract trapped arm and create space"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If triangle is not yet fully locked and opponent is still adjusting position",
+      "actions": [
+        {
+          "technique": "Posture Recovery",
+          "target": "Combat Base",
+          "probability": 60
+        },
+        {
+          "technique": "Arm Extraction",
+          "target": "Closed Guard Top",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If triangle is locked but not yet tight (space exists at neck)",
+      "actions": [
+        {
+          "technique": "Stack Pass",
+          "target": "Side Control Top",
+          "probability": 55
+        },
+        {
+          "technique": "Triangle Escape",
+          "target": "Open Guard Top",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If triangle is locked tight and opponent has proper angle",
+      "actions": [
+        {
+          "technique": "Standing up in Base",
+          "target": "Standing Top Position",
+          "probability": 40
+        },
+        {
+          "technique": "Stack Pass",
+          "target": "Side Control Top",
+          "probability": 35
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to switch to armbar on trapped arm",
+      "actions": [
+        {
+          "technique": "Stack Pass",
+          "target": "Side Control Top",
+          "probability": 50
+        },
+        {
+          "technique": "Posture Recovery",
+          "target": "Combat Base",
+          "probability": 40
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Attempting to pull the trapped arm out with brute force rather than creating space systematically",
+      "consequence": "Tightens the triangle choke and can lead to armbar transition as opponent uses the pulling motion against you",
+      "correction": "First create space at the neck by stacking or posturing, then extract the arm when the triangle loosens"
+    },
+    {
+      "error": "Allowing shoulders to collapse forward and losing vertical posture alignment",
+      "consequence": "Accelerates the choking mechanism and makes escape nearly impossible as opponent achieves optimal angle",
+      "correction": "Keep spine vertical and chest up, driving weight forward over opponent's hips while maintaining straight back"
+    },
+    {
+      "error": "Posting weight on the mat with the free hand rather than controlling opponent's hips",
+      "consequence": "Allows opponent to elevate hips and create the finishing angle necessary to complete the submission",
+      "correction": "Use free hand to press down on opponent's hips or leg to prevent elevation and angle creation"
+    },
+    {
+      "error": "Explosive, panicked movements that waste energy without systematic space creation",
+      "consequence": "Exhausts the defender while often tightening the submission, making escape progressively more difficult",
+      "correction": "Execute controlled, systematic escape sequences focusing on specific objectives (posture, space, extraction)"
+    },
+    {
+      "error": "Ignoring the threat of armbar transition on the trapped arm",
+      "consequence": "Opponent easily transitions to armbar when defender focuses only on the choke aspect of the position",
+      "correction": "Keep trapped arm's elbow tight to body and hand in defensive position while escaping"
+    },
+    {
+      "error": "Attempting to stand up without first addressing the triangle lock",
+      "consequence": "Lifts opponent while triangle is still tight, often leading to completion of submission in elevated position",
+      "correction": "Create space and loosen the triangle before standing, or use standing as part of a complete stack pass sequence"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Posture Recovery Drill",
+      "description": "Partner applies triangle at varying tightness levels (30%, 50%, 70%). Practice recovering vertical posture from each stage, focusing on spine alignment and weight distribution. Start from loose triangles and progressively work with tighter configurations as technique improves.",
+      "duration": "5 minutes per round, 3 rounds"
+    },
+    {
+      "name": "Stack Pass Under Pressure",
+      "description": "Partner maintains triangle lock while you execute stack pass sequence. Partner provides progressive resistance, first allowing the stack, then defending at 50%, then full resistance. Focus on hip pressure, shoulder positioning, and maintaining the stack throughout the pass.",
+      "duration": "6 minutes alternating roles"
+    },
+    {
+      "name": "Triangle Escape Progression",
+      "description": "Flow drill moving through complete escape sequence: posture recovery → space creation → arm extraction → guard pass. Partner applies realistic pressure at each stage. Repeat sequence 10 times slow, 10 times medium speed, 5 times full speed.",
+      "duration": "8 minutes"
+    },
+    {
+      "name": "Defense to Offense Transition",
+      "description": "Start caught in triangle, execute chosen escape technique, and immediately transition to guard passing sequence. Partner can attempt to re-guard or sweep. Emphasizes not just escaping but converting defense into offensive opportunity.",
+      "duration": "5 minutes per round, 4 rounds"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Shortest path to safety",
+      "path": "Triangle Escape Top Position → Posture Recovery → Combat Base → Guard Pass → Side Control Top"
+    },
+    {
+      "name": "High-percentage escape sequence",
+      "path": "Triangle Escape Top Position → Stack Pass → Side Control Top → Transition to Mount → Mount Top"
+    },
+    {
+      "name": "Standing escape path",
+      "path": "Triangle Escape Top Position → Standing up in Base → Standing Top Position → Stack Pass → Side Control Top"
+    },
+    {
+      "name": "Space creation to pass",
+      "path": "Triangle Escape Top Position → Arm Extraction → Closed Guard Top → Guard Pass → Side Control Top"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Triangle Control Bottom",
+      "relationship": "Opposite perspective - understand opponent's objectives to better defend"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Target position for posture recovery and defensive stabilization"
+    },
+    {
+      "name": "Stack Pass",
+      "relationship": "Primary offensive escape transition from triangle position"
+    },
+    {
+      "name": "Guard Pass",
+      "relationship": "Follow-up technique after escaping triangle to consolidate top position"
+    },
+    {
+      "name": "Armbar Control Bottom",
+      "relationship": "Common transition opponent attempts from triangle if escape is defended"
+    },
+    {
+      "name": "Defensive Posture",
+      "relationship": "Fundamental concept for maintaining structure under submission pressure"
+    },
+    {
+      "name": "Submission Defense",
+      "relationship": "Broader defensive framework applicable to triangle escape scenarios"
+    },
+    {
+      "name": "Closed Guard Top",
+      "relationship": "Position achieved after successful arm extraction from triangle"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 20,
+      "intermediate": 35,
+      "advanced": 55
+    },
+    "advancement_probability": {
+      "beginner": 25,
+      "intermediate": 40,
+      "advanced": 60
+    },
+    "submission_probability": {
+      "beginner": 5,
+      "intermediate": 10,
+      "advanced": 15
+    },
+    "average_time": "15-45 seconds (escape must be executed quickly before choke tightens)"
+  },
+  "expert_insights": {
+    "danaher": "The triangle escape represents a critical test of systematic defensive methodology versus reactive panic. The biomechanics of the triangle create a self-tightening mechanism where resistance without proper technique actually accelerates the choking action. The key is understanding the hierarchy of escape objectives: first, create space at the neck to prevent the immediate submission threat; second, recover posture to establish a sustainable defensive structure; third, extract the trapped arm which serves as the fulcrum for both the choke and potential armbar transitions; and finally, pass the guard to convert defense into offense. Each stage must be executed with precise technique and proper sequencing. The most common failure point is attempting to skip stages or execute them out of order, particularly trying to extract the arm before creating the necessary space at the neck. Master the systematic progression and you transform a desperate defensive scenario into a controlled technical sequence.",
+    "gordon_ryan": "In competition, you cannot afford to get caught in triangles - the finishing rate is simply too high at the elite level. My approach to triangle defense starts long before the position is locked: I maintain constant awareness of my arm positioning in guard, never allowing one arm to become isolated between the opponent's legs while the other is outside. But when you do get caught, you have seconds to respond before the position becomes unescapable. I immediately stack hard, driving my shoulder into their bottom leg while keeping my trapped arm tight to my body. The stack serves multiple purposes: it prevents them from getting the angle they need to finish, it creates space at my neck by changing the vector of their leg pressure, and it puts me in position to pass their guard directly. Many people try to pull their arm out first - that's backwards. Stack first, create space, then worry about the arm. If they're trying to transition to armbar, that's actually an opportunity because they have to loosen the triangle to switch positions. Use that moment to stack through and take side control.",
+    "eddie_bravo": "The triangle is one of the highest-percentage submissions in the game, especially in no-gi where the friction is reduced and the legs can slide into position faster. From the 10th Planet perspective, we look at triangle defense as damage control - ideally you never let them get their leg across your back in the first place. But when you're caught, you need multiple escape options because different opponents set up triangles differently. Against a flexible opponent with a tight triangle, standing up might be your best option - get your feet under you, lift them up high, and slam that stack hard. Against someone using a loose triangle to set up other attacks, the classic posture recovery and arm extraction works better. The key thing people miss is that your free hand has a job: it's either controlling their hip to prevent them from getting the angle, or it's creating a frame under their leg to make space. Don't just leave it hanging or posting on the mat doing nothing. Every part of your body needs to be working toward the escape, and you need to be ready to switch techniques if your first option gets shut down."
+  }
+}

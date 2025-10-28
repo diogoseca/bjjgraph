@@ -15,7 +15,7 @@
       "status": "fixed"
     },
     {
-      "source_file": "Concepts/Underhook Defense.md",
+      "source_file": "Principles/Underhook Defense.md",
       "broken_link": "Half Guard",
       "fixed_link": "Half Guard Top",
       "confidence": 83.33,
@@ -87,7 +87,7 @@
   ],
   "files_modified": [
     "source/content/Submissions/Twister Setup.md",
-    "source/content/Concepts/Underhook Defense.md"
+    "source/content/Principles/Underhook Defense.md"
   ],
   "validation_notes": [
     "Many broken links from this chunk appear to have been fixed in previous cleanup sessions",

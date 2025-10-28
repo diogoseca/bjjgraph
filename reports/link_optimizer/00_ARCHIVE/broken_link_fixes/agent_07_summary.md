@@ -110,20 +110,20 @@
 
 Total: 15 files
 
-1. `/source/content/Concepts/Control Maintenance.md`
-2. `/source/content/Concepts/Control Point Hierarchy.md`
+1. `/source/content/Principles/Control Maintenance.md`
+2. `/source/content/Principles/Control Point Hierarchy.md`
 3. `/source/content/Positions/Crab Ride.md`
 4. `/source/content/Submissions/Cross Collar Choke.md`
-5. `/source/content/Concepts/Cross Face Control.md`
+5. `/source/content/Principles/Cross Face Control.md`
 6. `/source/content/Positions/D'arce Control.md`
 7. `/source/content/Submissions/D'arce-Anaconda Connection.md`
 8. `/source/content/Positions/De La Riva Guard.md`
 9. `/source/content/Positions/Dead Orchard Control.md`
 10. `/source/content/Transitions/Deep Half Entry.md`
 11. `/source/content/Positions/Deep Half Guard.md`
-12. `/source/content/Concepts/Defense Technique.md`
-13. `/source/content/Concepts/Defensive Frame.md`
-14. `/source/content/Concepts/Defensive Framing.md`
+12. `/source/content/Principles/Defense Technique.md`
+13. `/source/content/Principles/Defensive Frame.md`
+14. `/source/content/Principles/Defensive Framing.md`
 15. `/source/content/Positions/Defensive Position.md` (attempted)
 
 ## Recommendations

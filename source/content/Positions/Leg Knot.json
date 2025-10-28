@@ -1,0 +1,1099 @@
+{
+  "metadata": {
+    "title": "Leg Knot Bottom Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master Leg Knot Bottom Position in BJJ. Defensive leg entanglement with escape routes and counter-attack options. Beginner 30%, Intermediate 45%, Advanced 60% retention rate.",
+    "state_id": "S243",
+    "tags": ["bjj", "position", "leg-entanglement", "defensive", "bottom", "leg-locks", "escapes", "saddle-defense"],
+    "parent_variant": "Leg Knot Position",
+    "sibling_variants": ["Leg Knot Top Position"]
+  },
+  "overview": "Leg Knot Bottom Position represents a defensive leg entanglement scenario where the bottom practitioner's leg is controlled in a compromised configuration, typically with the opponent threatening leg lock submissions. This position occurs when the top player has successfully entangled the bottom player's leg but has not yet achieved a dominant attacking position like the Saddle or full Ashi Garami. The bottom player faces immediate submission threats while simultaneously having defensive frames and escape opportunities that distinguish this from more dire leg lock positions.\n\nThe strategic complexity of Leg Knot Bottom lies in managing the dual threats of submission and positional advancement while creating escape pathways. Unlike more established leg entanglement positions where roles are clearly defined, Leg Knot Bottom represents a transitional state where both players are actively fighting for positional dominance. The bottom player must maintain defensive leg positioning, protect the vulnerable joints (knee, ankle, heel), and work systematically to extract the trapped leg while preventing the opponent from consolidating into more dangerous configurations.\n\nSuccess in Leg Knot Bottom requires understanding the hierarchical threat assessment: preventing immediate submissions takes priority over positional escape, which in turn takes priority over offensive counters. The position demands constant vigilance regarding heel exposure, knee line maintenance, and hip positioning, as small adjustments can mean the difference between a safe defensive position and a match-ending submission. Advanced practitioners recognize Leg Knot Bottom as an opportunity to reverse the entanglement or transition to their own offensive leg attacks, transforming defensive crisis into offensive opportunity.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive",
+    "risk_level": "High",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short to Medium"
+  },
+  "state_invariants": [
+    "Bottom player's leg is entangled with top player's legs in a knotted configuration, with the trapped leg positioned between or around the opponent's legs creating systematic control",
+    "Top player maintains some form of leg control on the bottom player's trapped leg, typically controlling the foot, ankle, or lower leg with hands or leg positioning while threatening submissions",
+    "Bottom player's hips and upper body maintain mobility and defensive frames, with hands actively defending vulnerable joints and creating blocking structures to prevent submission completion",
+    "Both players' legs are interconnected in an entanglement where neither has achieved full dominant control, creating a transitional state with constant positional warfare and adjustment",
+    "Bottom player's free leg remains available for framing, pushing, or creating distance, providing essential defensive tools and escape mechanisms while the trapped leg is controlled"
+  ],
+  "prerequisites": [
+    "Opponent has initiated leg entanglement but not achieved dominant position",
+    "Bottom player's leg is controlled but not yet in final submission configuration",
+    "Bottom player maintains upper body mobility and hand fighting capability",
+    "Defensive frames are possible with free leg and upper body",
+    "Hip mobility remains sufficient for escape attempts and positional adjustments"
+  ],
+  "key_principles": [
+    "Keep heel hidden and protected by controlling foot position and preventing opponent's grip on the vulnerable heel",
+    "Maintain inside knee line by keeping the trapped leg's knee pointing inward, preventing opponent from crossing the knee line for heel exposure",
+    "Create defensive frames with free leg by establishing pushing and blocking structures that prevent opponent's positional advancement",
+    "Control distance with upper body positioning and hand fighting to manage the space between bodies and limit opponent's leverage",
+    "Keep hips mobile and ready to turn, maintaining the ability to adjust angles and create escape opportunities through hip rotation",
+    "Address immediate submission threats before attempting positional escapes, following the hierarchy of defensive priorities",
+    "Use systematic leg extraction sequences rather than explosive movements that may worsen entanglement or expose vulnerable positions"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Reverse the entanglement to Outside Ashi",
+      "target_position": "Outside Ashi-Garami Top",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Extract leg and establish Single Leg X",
+      "target_position": "Single Leg X Guard Bottom",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Granby roll to reverse position",
+      "target_position": "Ashi Garami Top",
+      "success_rates": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 45
+      }
+    },
+    {
+      "technique": "Clear leg and transition to X-Guard",
+      "target_position": "X-Guard Bottom",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Counter-entangle to 50-50 Guard",
+      "target_position": "50-50 Guard Bottom",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Limp leg extraction to Half Guard",
+      "target_position": "Half Guard Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Opponent consolidates to Saddle Position",
+      "target_position": "Saddle Position Bottom",
+      "success_rate": 40
+    },
+    {
+      "technique": "Opponent transitions to Inside Ashi-Garami",
+      "target_position": "Inside Ashi-Garami Bottom",
+      "success_rate": 35
+    },
+    {
+      "technique": "Opponent switches to Outside Ashi-Garami",
+      "target_position": "Outside Ashi-Garami Bottom",
+      "success_rate": 35
+    },
+    {
+      "technique": "Opponent establishes Heel Hook control",
+      "target_position": "Saddle Position Bottom",
+      "success_rate": 30
+    },
+    {
+      "technique": "Opponent secures Straight Ankle Lock",
+      "target_position": "Straight Ankle Lock Control Bottom",
+      "success_rate": 25
+    },
+    {
+      "technique": "Opponent applies Kneebar",
+      "target_position": "Kneebar Control Bottom",
+      "success_rate": 20
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Hip escape when opponent overcommits forward",
+      "target_position": "Half Guard Bottom",
+      "trigger": "Opponent drives forward aggressively for submission, creating space behind their hips"
+    },
+    {
+      "technique": "Reverse entanglement when opponent switches legs",
+      "target_position": "Outside Ashi-Garami Top",
+      "trigger": "Opponent attempts to transition between different leg entanglements, creating momentary looseness"
+    },
+    {
+      "technique": "Granby roll when heel is exposed",
+      "target_position": "Defensive Bottom Position",
+      "trigger": "Opponent secures heel grip and begins rotation for heel hook, requiring immediate defensive escape"
+    },
+    {
+      "technique": "Clear leg and sit up when distance created",
+      "target_position": "Seated Guard Bottom",
+      "trigger": "Opponent's grip breaks or loosens, creating opportunity to extract the trapped leg completely"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent secures heel grip and begins heel hook rotation",
+      "actions": [
+        {
+          "technique": "Immediate Granby roll escape",
+          "target": "Defensive Bottom Position",
+          "probability": 60
+        },
+        {
+          "technique": "Hide heel and turn into opponent",
+          "target": "50-50 Guard Bottom",
+          "probability": 30
+        }
+      ]
+    },
+    {
+      "condition": "If opponent transitions toward Inside Ashi configuration",
+      "actions": [
+        {
+          "technique": "Block with free leg and reverse to Outside Ashi",
+          "target": "Outside Ashi-Garami Top",
+          "probability": 45
+        },
+        {
+          "technique": "Clear leg and establish Single Leg X",
+          "target": "Single Leg X Guard Bottom",
+          "probability": 40
+        }
+      ]
+    },
+    {
+      "condition": "If opponent's grip loosens during transition",
+      "actions": [
+        {
+          "technique": "Extract leg immediately to Half Guard",
+          "target": "Half Guard Bottom",
+          "probability": 55
+        },
+        {
+          "technique": "Sit up and establish seated guard",
+          "target": "Seated Guard Bottom",
+          "probability": 35
+        }
+      ]
+    },
+    {
+      "condition": "If opponent establishes strong cross-body control",
+      "actions": [
+        {
+          "technique": "Granby roll to reverse position",
+          "target": "Ashi Garami Top",
+          "probability": 40
+        },
+        {
+          "technique": "Counter-entangle to 50-50",
+          "target": "50-50 Guard Bottom",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to stack or drive forward",
+      "actions": [
+        {
+          "technique": "Hip escape to create space",
+          "target": "Half Guard Bottom",
+          "probability": 50
+        },
+        {
+          "technique": "Use free leg to push and extract",
+          "target": "Single Leg X Guard Bottom",
+          "probability": 35
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Turning away from opponent and exposing heel",
+      "consequence": "Creates immediate heel hook opportunity with full heel exposure and optimal attacking angle for opponent",
+      "correction": "Always turn into the opponent to hide heel; keep toes pointed toward opponent's hip to maintain heel safety"
+    },
+    {
+      "error": "Allowing knee line to be crossed",
+      "consequence": "Enables opponent to transition to Saddle or Inside Ashi with significantly increased submission danger",
+      "correction": "Maintain inside knee line by keeping trapped leg's knee pointing inward; use free leg to block opponent's leg positioning"
+    },
+    {
+      "error": "Explosive thrashing without systematic approach",
+      "consequence": "Wastes energy, tightens entanglement, and may worsen position by creating opportunities for opponent to consolidate control",
+      "correction": "Use controlled, systematic movements following proper escape sequences; prioritize technique over strength"
+    },
+    {
+      "error": "Neglecting to use free leg for defensive frames",
+      "consequence": "Allows opponent to easily advance position without resistance, leading to dominant leg lock positions",
+      "correction": "Actively engage free leg to create pushing frames on opponent's hips, shoulders, and entangling leg"
+    },
+    {
+      "error": "Failing to address immediate submission threats first",
+      "consequence": "Results in submission while attempting positional escape, violating defensive hierarchy principles",
+      "correction": "Always neutralize immediate submission dangers (heel exposure, knee line breach) before attempting to escape position"
+    },
+    {
+      "error": "Keeping hips flat and static on the mat",
+      "consequence": "Eliminates hip mobility needed for escape angles and makes it easy for opponent to consolidate superior position",
+      "correction": "Maintain hip mobility by staying on side or constantly adjusting angles; never remain flat and static"
+    },
+    {
+      "error": "Ignoring upper body positioning and hand fighting",
+      "consequence": "Allows opponent to control distance and angle perfectly, setting up high-percentage submissions",
+      "correction": "Use hands actively to control opponent's gi/body, create frames, and manage distance throughout the entanglement"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Heel Hiding Repetitions",
+      "description": "Partner establishes various leg entanglements while you practice keeping heel hidden by turning into opponent and maintaining proper foot positioning. Focus on immediate defensive reactions to heel exposure threats. Drill both slow technical repetitions and faster reactive responses.",
+      "duration": "5 minutes per round, 3 rounds"
+    },
+    {
+      "name": "Leg Extraction Sequences",
+      "description": "Starting from Leg Knot Bottom, practice systematic leg extraction techniques with progressive resistance. Partner increases resistance from 25% to 75% as technique improves. Focus on hip movement, leg clearing mechanics, and transitioning to safer positions like Half Guard or Single Leg X.",
+      "duration": "10 minutes, alternating partners every 2 minutes"
+    },
+    {
+      "name": "Entanglement Reversal Flow",
+      "description": "Continuous flow drill where both partners alternate between Leg Knot Bottom and attempting to reverse to top position. Focus on timing reversals during opponent's transitions and using Granby rolls, hip escapes, and counter-entanglements. Emphasize smooth technical execution over speed.",
+      "duration": "6 minutes per round, 2-3 rounds"
+    },
+    {
+      "name": "Defensive Priority Decision Making",
+      "description": "Partner attacks with various leg lock threats from Leg Knot position. Practice identifying and addressing highest priority threats first (heel hook > toe hold > ankle lock > positional advancement). Coach calls out different attack scenarios; defender must react with appropriate defensive priority.",
+      "duration": "8 minutes, switching roles every 2 minutes"
+    },
+    {
+      "name": "Positional Sparring from Leg Knot Bottom",
+      "description": "Start in Leg Knot Bottom position with specific goals: bottom player escapes to neutral or better within 90 seconds, top player consolidates to Saddle or submits within 90 seconds. Reset and repeat. Track success rates to measure improvement over time.",
+      "duration": "15 minutes, 90-second rounds with 30-second rest"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Defensive escape to safety",
+      "path": "Leg Knot Bottom → Hip escape → Half Guard Bottom → Distance creation → Neutral Position"
+    },
+    {
+      "name": "Reversal to offensive leg attack",
+      "path": "Leg Knot Bottom → Granby roll → Outside Ashi-Garami Top → Straight Ankle Lock"
+    },
+    {
+      "name": "Counter-entanglement to submission",
+      "path": "Leg Knot Bottom → Counter-entangle → 50-50 Guard Bottom → Toe Hold"
+    },
+    {
+      "name": "Leg extraction to guard recovery",
+      "path": "Leg Knot Bottom → Clear leg → Single Leg X Guard Bottom → X-Guard sweep → Top Position"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Leg Knot Position",
+      "relationship": "Parent position (neutral perspective)"
+    },
+    {
+      "name": "Leg Knot Top Position",
+      "relationship": "Sibling variant (opponent's perspective)"
+    },
+    {
+      "name": "Saddle Position Bottom",
+      "relationship": "Common advancement if defense fails"
+    },
+    {
+      "name": "Outside Ashi-Garami Top",
+      "relationship": "Reversal target position"
+    },
+    {
+      "name": "Ashi Garami Escape",
+      "relationship": "Related escape technique"
+    },
+    {
+      "name": "Saddle Defense",
+      "relationship": "Related defensive transition"
+    },
+    {
+      "name": "Half Guard Bottom",
+      "relationship": "Common escape target position"
+    },
+    {
+      "name": "Single Leg X Guard Bottom",
+      "relationship": "Offensive counter-position"
+    },
+    {
+      "name": "50-50 Guard Bottom",
+      "relationship": "Counter-entanglement option"
+    },
+    {
+      "name": "Lachlan Giles Leg Lock Defense Framework",
+      "relationship": "Systematic defensive approach"
+    },
+    {
+      "name": "Danaher Leg Lock System",
+      "relationship": "Comprehensive leg entanglement theory"
+    },
+    {
+      "name": "Leg Entanglement",
+      "relationship": "Core conceptual framework"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 30,
+      "intermediate": 45,
+      "advanced": 60
+    },
+    "advancement_probability": {
+      "beginner": 20,
+      "intermediate": 35,
+      "advanced": 50
+    },
+    "submission_probability": {
+      "beginner": 5,
+      "intermediate": 15,
+      "advanced": 25
+    },
+    "average_time": "20-60 seconds"
+  },
+  "expert_insights": {
+    "danaher": "The Leg Knot Bottom position represents a critical juncture in leg entanglement warfare where systematic defensive methodology supersedes panic and athleticism. The primary mechanical principle governing escape from this position is the protection of the heel through proper rotational alignment—the heel must remain hidden by maintaining the trapped leg's internal rotation and keeping the toes pointed toward the opponent's hip structure. The hierarchical decision-making process must follow strict prioritization: first address immediate submission threats through proper limb positioning, second create defensive frames to prevent positional consolidation, and only third attempt offensive counters or escapes. The biomechanical reality of leg entanglements dictates that the inside position of the knee line serves as the fundamental defensive barrier; once this barrier is breached and the opponent achieves cross-body control, the defensive situation deteriorates exponentially. Advanced practitioners recognize that Leg Knot Bottom is not merely a position to escape but an opportunity to implement systematic reversals, as the transitional nature of the entanglement creates windows for counter-entanglement when the opponent commits to positional changes. The key is maintaining constant leg mobility while using the free leg as an active defensive tool rather than allowing it to remain passive—this free leg serves as your primary weapon for creating the frames and angles necessary for both defensive escape and offensive reversal sequences.",
+    "gordon_ryan": "In competition, Leg Knot Bottom happens when someone catches your leg but hasn't locked in their finish yet—this is your window to either get out or turn it around on them. The most important thing is keeping your heel safe because that's what wins matches at the highest level; if they get your heel, you're in serious danger, so you need to hide it immediately by turning in and keeping your foot position tight. I've been caught in these positions against elite leg lockers, and what works is staying calm and following the right sequence: protect the heel first, then work on clearing the leg or reversing position. The free leg is absolutely critical—you need to use it constantly to create frames on their hips and prevent them from locking down the saddle or inside position. When I'm stuck here, I'm looking for two main things: either I'm going to granby roll if they expose my heel, or I'm going to clear my leg and come up to a guard position if they give me space. The reality in high-level competition is that if someone really good gets you here, you need to address it within 10-15 seconds or they're going to consolidate and finish you. What separates good competitors from great ones in this position is the ability to stay offensive-minded even while defending—I'm always thinking about how to reverse the entanglement or counter-attack to my own leg lock, not just how to escape to neutral. The key is combining good defensive technique with an aggressive mindset that looks for opportunities to turn defense into offense.",
+    "eddie_bravo": "Leg Knot Bottom is one of those scramble positions where things can go either way depending on who stays calmer and more technical under pressure. From a 10th Planet perspective, we've developed specific sequences for dealing with leg entanglements that emphasize maintaining mobility and using alternative escape paths that most traditional schools don't explore. The electric chair and lockdown principles apply even in leg entanglements—you want to be constantly moving, constantly creating angles, and never staying static in one configuration. When someone gets your leg knotted up, the standard response is to freak out and try to rip your leg free, but that's exactly what makes the submission tighter and easier for them. Instead, we focus on what we call 'limp leg escapes' where you relax the trapped leg and use systematic hip movement to create the angles you need to slip out or reverse position. The twister-style movement patterns—those spinal rotations and hip switches we drill constantly—translate directly to escaping leg entanglements because they're built on the same principle of using your entire body's rotation rather than just pulling with the trapped limb. One thing that's underutilized in leg lock defense is the potential to attack back; if someone's focused on attacking your legs, their upper body is often exposed, and we've developed specific paths from these bottom entanglement positions to things like guillotines or taking the back. The key innovation from our system is recognizing that you can't just be defensive in these positions—you need to create dilemmas for your opponent where they have to choose between completing their attack and defending your counter-attack, and that split-second of hesitation is when you make your escape or reversal."
+  }
+}
+{
+  "metadata": {
+    "title": "Leg Knot Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master the Leg Knot position in BJJ. Advanced leg entanglement with high control and submission opportunities. Learn entries, transitions, and finishing mechanics.",
+    "state_id": "S167",
+    "tags": ["bjj", "position", "leg-entanglement", "leg-knot", "advanced", "control", "leg-locks"]
+  },
+  "overview": "The Leg Knot position represents an advanced leg entanglement configuration where the attacking practitioner creates a complex knot-like structure with their legs around the opponent's leg. This position is characterized by intricate leg positioning that creates multiple planes of control, restricting the opponent's mobility while setting up various leg attack submissions. The Leg Knot is particularly effective in modern leg lock systems as it provides exceptional control through the entanglement itself rather than relying solely on upper body grips.\n\nThis position typically arises from transitions in dynamic guard play or as a evolution from simpler leg entanglement positions like Ashi Garami or Single Leg X. The complexity of the leg configuration makes it challenging for opponents to escape while simultaneously creating offensive opportunities for heel hooks, toe holds, and kneebars. The Leg Knot demands high-level technical understanding and body awareness, making it primarily a purple belt and above position in most academies.\n\nThe strategic value of the Leg Knot lies in its ability to nullify an opponent's defensive frames and create submission opportunities even when traditional leg entanglement positions have been defended. The interlocking nature of the legs creates a mechanical advantage that compounds with proper weight distribution and hip positioning, making this an excellent position for smaller practitioners facing larger opponents.",
+  "state_properties": {
+    "point_value": 2,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+  "state_invariants": [
+    "One or both of the attacker's legs are woven through and around the opponent's leg in a complex interlocking configuration, creating a knot-like structure that restricts hip and knee movement",
+    "The attacker's hips are positioned at an angle to the opponent's trapped leg, typically 45-90 degrees, allowing for rotational control and submission angle creation",
+    "The opponent's trapped leg is isolated and controlled through the leg knot configuration, with limited ability to externally rotate or retract the leg",
+    "Upper body positioning varies but typically includes at least one controlling grip on the opponent's free leg or torso to prevent them from sitting up or turning into the position",
+    "Weight distribution through the attacker's hips and legs maintains constant pressure on the knee joint and ankle of the trapped leg"
+  ],
+  "prerequisites": [
+    "Successful entry from open guard, Single Leg X, or Ashi Garami position",
+    "Isolation of one of the opponent's legs through initial leg entanglement",
+    "Understanding of leg lock mechanics and proper leg weaving techniques",
+    "Ability to control distance and prevent opponent from achieving upper body control",
+    "Proficiency in managing reaping rules and legal leg configurations (for IBJJF competition)"
+  ],
+  "key_principles": [
+    "Maintain constant tension in the leg knot configuration - any slack allows opponent escape opportunities",
+    "Control the opponent's hips through proper angling and weight distribution rather than relying solely on the leg entanglement",
+    "Keep your outside leg active as a posting mechanism to prevent opponent from rolling or coming on top",
+    "Use your legs as primary control mechanisms while hands set up submissions or prevent defensive frames",
+    "Transition fluidly between different leg knot configurations based on opponent's defensive reactions",
+    "Maintain proper distance from opponent's upper body to prevent them from attacking your legs or achieving upper body control",
+    "Create submission angles through hip movement and rotational adjustments rather than forcing with upper body strength"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Inside Heel Hook",
+      "target_position": "Ashi Garami Top",
+      "success_rates": {
+        "beginner": 15,
+        "intermediate": 35,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Outside Heel Hook",
+      "target_position": "Outside Ashi-Garami Top",
+      "success_rates": {
+        "beginner": 10,
+        "intermediate": 30,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Toe Hold",
+      "target_position": "Toe Hold Control Top",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 40,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Kneebar",
+      "target_position": "Kneebar Control Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Saddle Entry from Top",
+      "target_position": "Saddle Position Top",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 40,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Inside Ashi Entry",
+      "target_position": "Inside Ashi-Garami Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Outside Ashi Entry",
+      "target_position": "Outside Ashi-Garami Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 68
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Hip Escape",
+      "target_position": "Open Guard Bottom",
+      "success_rate": 25
+    },
+    {
+      "technique": "Leg Extraction",
+      "target_position": "Standing Position",
+      "success_rate": 20
+    },
+    {
+      "technique": "Rolling Escape",
+      "target_position": "Top Position",
+      "success_rate": 15
+    },
+    {
+      "technique": "Coming on Top",
+      "target_position": "Top Position",
+      "success_rate": 30
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Saddle Entry from Top",
+      "target_position": "Saddle Position Top",
+      "trigger": "Opponent attempts to pull their leg straight back"
+    },
+    {
+      "technique": "Inside Heel Hook",
+      "target_position": "Inside Ashi-Garami Top",
+      "trigger": "Opponent turns knee inward to defend toe hold"
+    },
+    {
+      "technique": "Kneebar",
+      "target_position": "Kneebar Control Top",
+      "trigger": "Opponent extends leg to create space"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent keeps knee bent and pulls leg back defensively",
+      "actions": [
+        {
+          "technique": "Saddle Entry from Top",
+          "target": "Saddle Position Top",
+          "probability": 65
+        },
+        {
+          "technique": "Inside Heel Hook",
+          "target": "Inside Ashi-Garami Top",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent extends leg or pushes with trapped leg",
+      "actions": [
+        {
+          "technique": "Kneebar",
+          "target": "Kneebar Control Top",
+          "probability": 70
+        },
+        {
+          "technique": "Toe Hold",
+          "target": "Toe Hold Control Top",
+          "probability": 65
+        }
+      ]
+    },
+    {
+      "condition": "If opponent turns knee inward or attempts to internally rotate",
+      "actions": [
+        {
+          "technique": "Inside Heel Hook",
+          "target": "Inside Ashi-Garami Top",
+          "probability": 75
+        },
+        {
+          "technique": "Outside Ashi Entry",
+          "target": "Outside Ashi-Garami Top",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent sits up or achieves strong upper body frames",
+      "actions": [
+        {
+          "technique": "Inside Ashi Entry",
+          "target": "Inside Ashi-Garami Top",
+          "probability": 60
+        },
+        {
+          "technique": "Leg Weave Pass",
+          "target": "Top Position",
+          "probability": 45
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Allowing slack in the leg knot configuration",
+      "consequence": "Opponent can extract their leg and escape the position entirely",
+      "correction": "Maintain constant tension by keeping your knees tight together and actively squeezing with your legs throughout the entanglement"
+    },
+    {
+      "error": "Focusing too much on submission grips before establishing positional control",
+      "consequence": "Opponent escapes while you're distracted with submission attempts",
+      "correction": "Prioritize leg knot configuration and hip control first, then transition to submission grips once position is fully established"
+    },
+    {
+      "error": "Neglecting to control opponent's free leg",
+      "consequence": "Opponent uses free leg to push off and create escape angles or come on top",
+      "correction": "Use at least one hand to control opponent's free leg, preventing them from creating leverage against your body"
+    },
+    {
+      "error": "Positioning too close to opponent's upper body",
+      "consequence": "Opponent achieves upper body control and can attack your legs or nullify your position",
+      "correction": "Maintain proper distance by keeping your hips away from opponent's upper body while your legs maintain the knot"
+    },
+    {
+      "error": "Using only leg pressure without proper hip positioning",
+      "consequence": "Loss of control and inability to create proper submission angles",
+      "correction": "Actively adjust hip position and angle relative to opponent's trapped leg, using hip movement to enhance leg pressure"
+    },
+    {
+      "error": "Attempting illegal reaping configurations in IBJJF competition",
+      "consequence": "Disqualification or point deduction",
+      "correction": "Study IBJJF reaping rules thoroughly and ensure leg knot configuration keeps your heel pointed away from opponent's body"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Leg Knot Entry Repetitions",
+      "description": "From open guard, practice entering the leg knot configuration from various starting positions including Single Leg X, Ashi Garami, and standard open guard. Focus on smooth leg weaving mechanics and maintaining control throughout the transition. Perform 10 entries per side per round.",
+      "duration": "5 minutes per round"
+    },
+    {
+      "name": "Leg Knot Retention vs Escape",
+      "description": "Start in established leg knot position with partner attempting to escape using legal defensive techniques. Attacker focuses on maintaining configuration and transitioning between different leg knot variations based on opponent's escape attempts. 30-second rounds with role reversal.",
+      "duration": "10 minutes total"
+    },
+    {
+      "name": "Submission Chain Flow",
+      "description": "From leg knot position, flow between heel hook, toe hold, and kneebar positions without fully finishing. Focus on smooth transitions, proper angle creation, and maintaining leg knot control throughout. Partner provides light resistance.",
+      "duration": "6 minutes per partner"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "High-percentage heel hook path",
+      "path": "Leg Knot Position → Inside Ashi-Garami Top → Inside Heel Hook → Won by Submission"
+    },
+    {
+      "name": "Toe hold opportunity path",
+      "path": "Leg Knot Position → Toe Hold Control Top → Toe Hold → Won by Submission"
+    },
+    {
+      "name": "Kneebar finishing path",
+      "path": "Leg Knot Position → Kneebar Control Top → Kneebar → Won by Submission"
+    },
+    {
+      "name": "Saddle transition path",
+      "path": "Leg Knot Position → Saddle Entry from Top → Saddle Position Top → Inside Heel Hook → Won by Submission"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Saddle Position Top",
+      "relationship": "Common transition target from leg knot for stronger control"
+    },
+    {
+      "name": "Inside Ashi-Garami Top",
+      "relationship": "Simpler leg entanglement that often leads to leg knot"
+    },
+    {
+      "name": "Outside Ashi-Garami Top",
+      "relationship": "Alternative leg entanglement configuration"
+    },
+    {
+      "name": "Honey Hole Position Top",
+      "relationship": "Another name for saddle position, common transition"
+    },
+    {
+      "name": "Single Leg X Guard Top",
+      "relationship": "Entry position for leg knot transitions"
+    },
+    {
+      "name": "Heel Hook",
+      "relationship": "Primary submission from leg knot position"
+    },
+    {
+      "name": "Kneebar",
+      "relationship": "Alternative submission when opponent defends heel"
+    },
+    {
+      "name": "Toe Hold",
+      "relationship": "Secondary submission option from leg knot"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 40,
+      "intermediate": 60,
+      "advanced": 80
+    },
+    "advancement_probability": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 75
+    },
+    "submission_probability": {
+      "beginner": 20,
+      "intermediate": 40,
+      "advanced": 65
+    },
+    "average_time": "30-90 seconds"
+  },
+  "expert_insights": {
+    "danaher": "The leg knot position exemplifies the principle of systemic control through geometric complexity. What makes this position particularly effective is not brute strength but rather the mathematical inevitability created by the interlocking leg configuration. When properly established, the leg knot creates what I call 'compounding mechanical advantage' - each defensive movement by the opponent tightens the configuration rather than loosening it. The key technical element is understanding that your legs function as a unified system rather than independent limbs. The superior practitioner recognizes that the leg knot is not a static position but rather a dynamic framework that allows fluid transition between heel hook, kneebar, and toe hold finishing positions based on the opponent's defensive reactions. Master the leg knot configuration and you master the ability to create submission opportunities from defensive movements.",
+    "gordon_ryan": "In competition, the leg knot gives me a massive control advantage because most opponents don't train this position enough to have good defensive instincts. When I establish the leg knot, I'm immediately looking at which way their knee is turning - that tells me whether I'm finishing with an inside heel hook, outside heel hook, or transitioning to saddle. The reality is that at the highest levels, you need positions like the leg knot that create multiple finishing threats simultaneously. My opponents can't just defend one submission; they have to defend an entire system. I've won multiple ADCC matches by establishing leg knot control early and then methodically breaking down my opponent's defensive structure. The position is especially effective against wrestlers who are strong in standard positions but lack leg lock defense experience. Once I have the leg knot locked in, I control the pace completely and can take my time setting up the finish.",
+    "eddie_bravo": "The leg knot is one of those positions that looks chaotic but is actually incredibly systematic once you understand the geometry. In the 10th Planet system, we use variations of the leg knot as transitional control positions when we're hunting for leg locks in no-gi. What's beautiful about this position is that it neutralizes strength advantages - a smaller person with proper technique can completely control a bigger opponent through the leg configuration alone. I teach my students to think of the leg knot as creating a puzzle that the opponent can't solve - every escape attempt just leads to a different submission angle. The innovation potential here is huge; we're constantly discovering new entry points and finishing mechanics from leg knot configurations. If you're competing in submission-only formats or EBI-style events, mastering the leg knot gives you a massive advantage in overtime situations where you need to quickly establish control and finish."
+  }
+}
+{
+  "metadata": {
+    "title": "Leg Knot Top Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master Leg Knot Top position in BJJ. Advanced leg entanglement control with multiple submission paths. Features 65% heel hook finish rate and systematic breakdown strategies.",
+    "state_id": "S156",
+    "tags": ["bjj", "position", "leg-entanglement", "top-position", "leg-knot", "advanced", "leg-locks", "submission-position"],
+    "parent_variant": "Leg Knot Position",
+    "sibling_variants": ["Leg Knot Bottom Position"]
+  },
+
+  "overview": "Leg Knot Top Position represents an advanced leg entanglement configuration where the top player has achieved superior control over the opponent's legs through systematic crossing and tangling. This position creates a complex web of leg positioning that severely restricts the bottom player's mobility while establishing multiple attacking pathways for the top practitioner. The leg knot configuration typically emerges from entries like outside ashi garami, saddle transitions, or deliberate leg weaving sequences where the top player methodically traps and crosses the opponent's legs.\n\nThe strategic value of Leg Knot Top lies in its ability to create submission opportunities while neutralizing the opponent's defensive leg movements. Unlike simpler leg entanglements where the bottom player retains some freedom of movement, the leg knot configuration actively restricts hip rotation, knee extension, and ankle mobility through systematic crossing and pressure application. This position exemplifies modern leg lock methodology where control precedes finishing, allowing the top player to work methodically through their submission sequence without rushing or forcing techniques. The position requires sophisticated understanding of leg mechanics, pressure application, and systematic progression through defensive layers.",
+
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+
+  "state_invariants": [
+    "Top player's legs are systematically crossed and woven through opponent's legs, creating multiple points of control and entanglement that restrict bottom player's movement",
+    "Top player maintains upper body posture with weight distributed forward, preventing opponent from sitting up or establishing upper body frames while controlling distance",
+    "Bottom player's legs are trapped in crossed configuration with limited ability to extract, rotate hips, or establish defensive positioning due to systematic leg weaving",
+    "Top player's hips positioned at optimal distance to maintain leg entanglement while creating angles for heel hook, toe hold, or kneebar attacks without overextension",
+    "Control is maintained through combination of leg crossing, knee pressure on opponent's thigh, and systematic weight distribution that prevents opponent escape sequences"
+  ],
+
+  "prerequisites": [
+    "Successful entry from outside ashi garami, inside ashi, or saddle position with deliberate leg crossing",
+    "Opponent's leg trapped and controlled with systematic weaving through top player's legs",
+    "Top player has established superior position with crossed leg configuration controlling opponent's mobility",
+    "Understanding of leg entanglement mechanics and systematic progression through defensive layers",
+    "Ability to maintain distance control while preventing opponent from sitting up or establishing frames"
+  ],
+
+  "key_principles": [
+    "Maintain systematic leg crossing with deliberate pressure points that restrict opponent's hip rotation and leg extraction",
+    "Control distance through upper body posture, preventing opponent from sitting up while maintaining attacking range",
+    "Create multiple submission threats simultaneously, forcing opponent to defend against heel hook, toe hold, and kneebar options",
+    "Use knee pressure on opponent's trapped thigh to maintain entanglement while creating angles for finishing mechanics",
+    "Progress methodically through defensive layers rather than forcing submissions, maintaining positional control throughout",
+    "Establish clear breaking mechanics for opponent's leg before attempting finish, ensuring systematic progression",
+    "Maintain awareness of opponent's free leg and prevent defensive kicking or re-guard attempts through positioning"
+  ],
+
+  "offensive_transitions": [
+    {
+      "technique": "Heel Hook",
+      "target_position": "Submission Position Generic Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Inside Heel Hook",
+      "target_position": "Submission Position Generic Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Toe Hold",
+      "target_position": "Toe Hold Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Kneebar",
+      "target_position": "Kneebar Control Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Transition to Saddle",
+      "target_position": "Saddle Position Top",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 65,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "Inside Ashi Entry",
+      "target_position": "Inside Ashi-Garami Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Leg Weave Pass",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Straight Ankle Lock",
+      "target_position": "Straight Ankle Lock Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    }
+  ],
+
+  "defensive_responses": [
+    {
+      "technique": "Ashi Garami Escape",
+      "target_position": "Guard Recovery Bottom",
+      "success_rate": 25
+    },
+    {
+      "technique": "Hip Escape",
+      "target_position": "Open Guard Bottom",
+      "success_rate": 20
+    },
+    {
+      "technique": "Leg Extraction",
+      "target_position": "Guard Recovery Bottom",
+      "success_rate": 30
+    },
+    {
+      "technique": "Counter Entanglement",
+      "target_position": "Leg Entanglement Bottom Position",
+      "success_rate": 15
+    },
+    {
+      "technique": "Saddle Defense",
+      "target_position": "Defensive Bottom Position",
+      "success_rate": 35
+    }
+  ],
+
+  "counter_transitions": [
+    {
+      "technique": "Heel Hook",
+      "target_position": "Submission Position Generic Top",
+      "trigger": "Opponent attempts to straighten trapped leg or rotate hip outward"
+    },
+    {
+      "technique": "Transition to Saddle",
+      "target_position": "Saddle Position Top",
+      "trigger": "Opponent creates space by pushing away or attempting to sit up"
+    },
+    {
+      "technique": "Inside Ashi Entry",
+      "target_position": "Inside Ashi-Garami Top",
+      "trigger": "Opponent pulls trapped leg back toward their body"
+    },
+    {
+      "technique": "Toe Hold",
+      "target_position": "Toe Hold Control Top",
+      "trigger": "Opponent extends foot while defending heel exposure"
+    },
+    {
+      "technique": "Kneebar",
+      "target_position": "Kneebar Control Top",
+      "trigger": "Opponent flexes knee aggressively to defend heel hook"
+    }
+  ],
+
+  "decision_tree": [
+    {
+      "condition": "If opponent attempts to extract trapped leg by pulling knee toward chest",
+      "actions": [
+        {
+          "technique": "Heel Hook",
+          "target": "Submission Position Generic Top",
+          "probability": 65
+        },
+        {
+          "technique": "Transition to Saddle",
+          "target": "Saddle Position Top",
+          "probability": 70
+        }
+      ]
+    },
+    {
+      "condition": "If opponent pushes away with free leg or attempts to sit up and create distance",
+      "actions": [
+        {
+          "technique": "Inside Ashi Entry",
+          "target": "Inside Ashi-Garami Top",
+          "probability": 60
+        },
+        {
+          "technique": "Leg Weave Pass",
+          "target": "Top Position",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent rotates hip outward or straightens trapped leg defensively",
+      "actions": [
+        {
+          "technique": "Inside Heel Hook",
+          "target": "Submission Position Generic Top",
+          "probability": 70
+        },
+        {
+          "technique": "Toe Hold",
+          "target": "Toe Hold Control Top",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent maintains defensive posture with flexed knee and protected heel",
+      "actions": [
+        {
+          "technique": "Kneebar",
+          "target": "Kneebar Control Top",
+          "probability": 55
+        },
+        {
+          "technique": "Transition to Saddle",
+          "target": "Saddle Position Top",
+          "probability": 65
+        }
+      ]
+    }
+  ],
+
+  "common_errors": [
+    {
+      "error": "Forcing heel hook finish before establishing proper breaking mechanics and control",
+      "consequence": "Opponent escapes through leg extraction or counter-entanglement due to insufficient control",
+      "correction": "Establish clear leg isolation and breaking mechanics before attempting finish, ensuring systematic progression through defensive layers"
+    },
+    {
+      "error": "Allowing opponent to sit up and establish upper body frames or grips",
+      "consequence": "Loss of positional control and vulnerability to leg lock counters or guard recovery",
+      "correction": "Maintain forward upper body posture with hands actively controlling opponent's torso or creating distance that prevents sitting up"
+    },
+    {
+      "error": "Crossing legs too loosely without systematic pressure on opponent's trapped thigh",
+      "consequence": "Opponent extracts leg through hip rotation or knee pumping movements",
+      "correction": "Apply deliberate knee pressure on opponent's thigh while maintaining tight leg crossing that restricts extraction attempts"
+    },
+    {
+      "error": "Overcommitting to single submission without maintaining positional control",
+      "consequence": "Opponent defends successfully and escapes position during transition attempt",
+      "correction": "Maintain leg knot configuration while working submissions, using position retention as priority over forced finishing"
+    },
+    {
+      "error": "Ignoring opponent's free leg and allowing defensive kicking or re-guard attempts",
+      "consequence": "Opponent uses free leg to push away, establish frames, or begin guard recovery sequence",
+      "correction": "Control opponent's free leg through positioning or constant awareness, preventing defensive movements before they develop"
+    },
+    {
+      "error": "Maintaining static position without creating angles or adjusting for opponent's defensive movements",
+      "consequence": "Opponent establishes defensive stalemate and works methodically toward escape",
+      "correction": "Continuously adjust angles, pressure points, and leg crossing configuration to stay ahead of opponent's defensive adjustments"
+    }
+  ],
+
+  "training_drills": [
+    {
+      "name": "Leg Knot Entry Flow Drill",
+      "description": "Partner starts in outside ashi or inside ashi position. Practitioner works through systematic leg crossing sequence to establish leg knot configuration, focusing on smooth transitions and maintaining control throughout. Partner provides progressive resistance as practitioner develops entry mechanics. Emphasize deliberate leg weaving and pressure point establishment.",
+      "duration": "5 minutes per partner"
+    },
+    {
+      "name": "Submission Chain from Leg Knot",
+      "description": "Begin in established leg knot top position. Work through systematic submission chain: heel hook setup, transition to toe hold, return to heel hook, finish with kneebar option. Partner maintains defensive posture while practitioner develops smooth transitions between submission threats. Focus on maintaining leg knot configuration throughout chain.",
+      "duration": "5 minutes per partner"
+    },
+    {
+      "name": "Leg Knot Retention Against Escapes",
+      "description": "Partner begins in bottom position with specific escape task: leg extraction, hip escape, or sitting up to frames. Practitioner maintains leg knot configuration while countering escape attempts through angle adjustments, pressure application, and systematic counter-movements. Rotate through different escape scenarios to develop retention skills.",
+      "duration": "3 minutes per escape type"
+    },
+    {
+      "name": "Distance Management Drill",
+      "description": "Partner alternates between pushing away and pulling close while in leg knot bottom position. Practitioner maintains optimal distance through upper body posture adjustments and leg positioning changes. Focus on preventing opponent from sitting up while maintaining attacking range. Develop sensitivity to distance changes and appropriate responses.",
+      "duration": "4 minutes per partner"
+    }
+  ],
+
+  "optimal_submission_paths": [
+    {
+      "name": "Highest percentage heel hook path",
+      "path": "Leg Knot Top Position → Inside Heel Hook grip → Breaking mechanics → Submission Position Generic Top"
+    },
+    {
+      "name": "Systematic saddle transition",
+      "path": "Leg Knot Top Position → Saddle Entry from Top → Saddle Position Top → Inside Heel Hook → Submission Position Generic Top"
+    },
+    {
+      "name": "Toe hold to heel hook chain",
+      "path": "Leg Knot Top Position → Toe Hold Control Top → Opponent defends → Inside Heel Hook → Submission Position Generic Top"
+    },
+    {
+      "name": "Kneebar finish sequence",
+      "path": "Leg Knot Top Position → Kneebar setup → Kneebar Control Top → Kneebar finish → Submission Position Generic Top"
+    },
+    {
+      "name": "Position advancement to pass",
+      "path": "Leg Knot Top Position → Leg Weave Pass → Top Position → Side Control Top"
+    }
+  ],
+
+  "related_content": [
+    {
+      "name": "Saddle Position Top",
+      "relationship": "Primary transition target and related leg entanglement position"
+    },
+    {
+      "name": "Inside Ashi-Garami Top",
+      "relationship": "Common entry position and alternative entanglement configuration"
+    },
+    {
+      "name": "Outside Ashi-Garami Top",
+      "relationship": "Primary entry position for leg knot development"
+    },
+    {
+      "name": "Honey Hole Position Top",
+      "relationship": "Related advanced leg entanglement with similar control principles"
+    },
+    {
+      "name": "Heel Hook",
+      "relationship": "Primary submission finish from this position"
+    },
+    {
+      "name": "Toe Hold",
+      "relationship": "Alternative submission attack when heel is defended"
+    },
+    {
+      "name": "Kneebar",
+      "relationship": "Secondary submission option from leg knot configuration"
+    },
+    {
+      "name": "Ashi Garami Escape",
+      "relationship": "Primary defensive response from bottom position"
+    },
+    {
+      "name": "Saddle Entry from Top",
+      "relationship": "Key transition technique for advancing position"
+    },
+    {
+      "name": "Leg Weave Pass",
+      "relationship": "Position advancement technique to escape leg entanglement exchange"
+    }
+  ],
+
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 45,
+      "intermediate": 65,
+      "advanced": 80
+    },
+    "advancement_probability": {
+      "beginner": 40,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "submission_probability": {
+      "beginner": 35,
+      "intermediate": 55,
+      "advanced": 70
+    },
+    "average_time": "45-90 seconds in competitive scenarios, longer in training"
+  },
+
+  "expert_insights": {
+    "danaher": "The leg knot configuration represents a sophisticated application of systematic entanglement theory where multiple points of control create geometric disadvantage for the defensive player. The critical insight is understanding that leg knot is not a static position but rather a dynamic control system where the top player maintains constant pressure through crossed leg configuration while systematically breaking down defensive layers. The biomechanics of the position create natural mechanical disadvantage for the bottom player - their ability to rotate the hip, extend the knee, or protect the heel is compromised through the crossing pattern. Superior practitioners recognize that leg knot serves as a control platform from which multiple submission systems can be accessed, with the position itself creating the breaking mechanics necessary for heel hook finishes. The key technical element is maintaining optimal distance through upper body posture - too close and opponent establishes frames, too far and the leg entanglement loosens. Master this distance relationship and the position becomes a systematic pathway to dominant leg lock finishes.",
+    "gordon_ryan": "Leg knot top is one of my highest percentage positions in competition because it puts the opponent in an impossible defensive situation where every movement creates submission opportunity. The practical application is straightforward - once you establish the crossed leg configuration with proper knee pressure on their thigh, they're basically done if you stay patient and work systematically. What makes this position so effective competitively is that it neutralizes the opponent's leg lock game while giving you complete offensive control. I use leg knot as a transition hub - if they defend the heel hook, I go to toe hold; if they defend that, I transition to saddle; if they try to sit up, I take inside ashi. The competition-tested approach is to never force a single submission but instead use the position to create a constant chain of threats that eventually breaks their defense. Most opponents panic in leg knot because they feel the control and try to explode out, which just tightens the entanglement and creates finishing opportunities. Stay heavy on top, maintain the crossing pressure, and let their defensive movements guide you to the finish.",
+    "eddie_bravo": "Leg knot top position is a beautiful example of how complex entanglement can create submission opportunities that don't exist in simpler positions. From a 10th Planet perspective, we see this as an advanced expression of the lockdown concept - using crossed leg configuration to trap and control while creating offensive opportunities. The innovation here is recognizing that leg knot doesn't just set up heel hooks - it creates a whole ecosystem of attacks including toe holds, calf slicers, and even transitions to electric chair setups if you're creative with the leg weaving. What I love about this position is how it rewards unconventional thinking and willingness to experiment with leg positioning angles that traditional BJJ might overlook. The creative application is using leg knot as a platform for combination attacks - set up the heel hook to make them defend, then switch to toe hold, then back to heel hook from different angle. The constant angle changes and submission threats break down even the best defensive players. Don't be afraid to get weird with the leg positioning and try different crossing patterns - sometimes the most effective control comes from configurations that look unconventional but create superior mechanical advantage."
+  }
+}

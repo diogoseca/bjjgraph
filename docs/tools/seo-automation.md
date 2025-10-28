@@ -65,7 +65,7 @@ Schema.org structured data helps search engines understand content structure and
 
 #### How It Works
 
-1. **Scans directories**: Processes Positions/, Transitions/, Submissions/, Concepts/, Systems/, and hub pages
+1. **Scans directories**: Processes Positions/, Transitions/, Submissions/, Principles/, Systems/, and hub pages
 2. **Generates breadcrumb trail**: Creates appropriate hierarchy (Home → Category → Page)
 3. **Extracts page names**: From frontmatter title, first heading, or filename
 4. **Creates URL slugs**: Converts filenames to URL-friendly format

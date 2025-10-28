@@ -146,7 +146,7 @@ jobs:
             If you identify 1-3 new articles that would fill content gaps (based on PAA or your analysis):
             - Append lines to `todo/suggested_new_files.csv`
             - Format: `relative_path,plan`
-            - Example: `source/content/Concepts/Base-and-Posture.md,"Article covering base maintenance and posture principles; sections: definition, biomechanics, common errors, drills; target: beginners; why: referenced in 15+ positions but no dedicated article"`
+            - Example: `source/content/Principles/Base-and-Posture.md,"Article covering base maintenance and posture principles; sections: definition, biomechanics, common errors, drills; target: beginners; why: referenced in 15+ positions but no dedicated article"`
             - Only suggest high-value articles that don't already exist
 
             # Your Mission
@@ -161,7 +161,7 @@ jobs:
             - source/content/Positions/CONTRIBUTING-POSITIONS.md (Position Standard V2 with Visual Description requirements)
             - source/content/Transitions/CONTRIBUTING-TRANSITIONS.md (Transition Standard V2)
             - source/content/Submissions/CONTRIBUTING-SUBMISSIONS.md (Submission Standard with SAFETY FIRST)
-            - source/content/Concepts/CONTRIBUTING-CONCEPTS.md (Concept Standard)
+            - source/content/Principles/CONTRIBUTING-CONCEPTS.md (Concept Standard)
             - source/content/Systems/CONTRIBUTING-SYSTEMS.md (System Standard)
             - source/content/Learning/COnTRIBUTING-LEARNING.md (Learning Resource Standard)
             - source/content/CONTRIBUTING-YAML-SCHEMA.md (Complete schema reference)
@@ -223,6 +223,7 @@ jobs:
 
             **🟡 MEDIUM PRIORITY (Enhance Second):**
             - **AI Search Optimization**: Improve heading clarity, front-load key facts, use direct language
+            - **Variant Linking**: For Position variants (Top/Bottom), ensure proper cross-linking with parent_variant and sibling_variants fields, or child_variants field (if parent)
             - **Common Errors Format**: Upgrade from 3 errors to comprehensive 5-10 error format with ⚠️ DANGER labels
             - **Expert Insights**: Ensure all three perspectives (Danaher, Gordon Ryan, Eddie Bravo) are present and substantive
             - **FAQ Section**: Add if missing or has fewer than 5 Q&A pairs with natural language questions

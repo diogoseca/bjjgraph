@@ -1,0 +1,867 @@
+{
+  "metadata": {
+    "title": "Seated Guard Bottom | BJJ Position Guide | BJJ Graph",
+    "description": "Master Seated Guard Bottom in BJJ. Dynamic open guard with active legs for sweeps and transitions. Learn distance management, grip fighting, and offensive attacks.",
+    "state_id": "S142",
+    "tags": [
+      "bjj",
+      "position",
+      "guard",
+      "open_guard",
+      "intermediate",
+      "seated_guard",
+      "dynamic_guard"
+    ]
+  },
+  "overview": "Seated Guard Bottom is a dynamic open guard position where the practitioner sits upright on the mat with an engaged core, using active legs to manage distance and create offensive opportunities. This position serves as a versatile platform for sweeps, leg attacks, and transitions to other guard variations. Unlike closed guard's static control, seated guard prioritizes mobility and adaptability.\n\nThe position is characterized by the defender sitting upright (buttocks on mat, torso elevated) with legs active in front of the body, feet typically positioned on the opponent's hips, thighs, or knees to control distance. The hands work grip fighting, usually controlling the opponent's sleeves or wrists to prevent them from establishing dominant control. This guard is particularly effective against opponents who stand or create distance, as it maintains offensive threat while allowing quick reactions to passing attempts.\n\nSeated guard offers excellent versatility - it creates opportunities for butterfly sweeps when the opponent stays low, ankle attacks when they stand, and leg locks when they extend their legs during passes. The primary disadvantage is energy demand: maintaining an upright seated posture requires constant core engagement, and active leg framing drains energy faster than more restful guard positions. The position becomes vulnerable when the practitioner falls flat on their back (losing the seated posture) or when the opponent establishes heavy forward pressure that compromises distance management.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive with offensive options",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short to Medium"
+  },
+  "state_invariants": [
+    "Practitioner sits upright with buttocks weighted on mat, torso elevated at approximately 45-60 degrees from horizontal, maintaining active core engagement to prevent falling backward",
+    "Legs actively positioned with feet making contact with opponent's body (hips, thighs, knees, or shins), creating dynamic frames that adjust continuously to maintain optimal distance of 2-3 feet",
+    "Hands engaged in grip fighting, controlling opponent's sleeves, wrists, or collar to prevent dominant grips while maintaining ability to post for balance if needed",
+    "Opponent positioned in front, either standing, kneeling, or in combat base, attempting to pass guard or establish dominant control",
+    "Practitioner's shoulders remain forward of hips, preventing flat-back position that eliminates offensive capability and allows opponent pressure dominance"
+  ],
+  "prerequisites": [
+    "Opponent creates distance or stands up from closed guard or other static guard position",
+    "Practitioner has sufficient core strength to maintain upright seated posture under pressure",
+    "Space exists between practitioner and opponent allowing for leg frame establishment",
+    "Practitioner maintains at least one grip on opponent's gi or wrist to prevent immediate passing attack",
+    "Mat space available behind practitioner for potential backward movement during defensive adjustments"
+  ],
+  "key_principles": [
+    "Core Engagement: Constant core activation maintains upright seated posture which is fundamental to all seated guard capabilities",
+    "Active Leg Frames: Feet must continuously adjust positioning on opponent's body to manage distance and prevent pressure passing",
+    "Distance Management: Maintain optimal range - close enough for offensive control, far enough to prevent being flattened by pressure",
+    "Grip Fighting Priority: Control opponent's sleeves/wrists to prevent their posture dominance and grip establishment",
+    "Hip Mobility: Ability to shift weight and adjust angles creates sweep opportunities and defensive adjustments",
+    "Opportunistic Transitions: Recognize windows to transition to butterfly guard, X-guard, closed guard, or leg attacks based on opponent positioning",
+    "Energy Efficiency: Use strategic moments to briefly rest while maintaining frames; don't exhaust yourself with constant maximum effort"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Butterfly Sweep",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Scissor Sweep",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Technical Stand-up",
+      "target_position": "Standing Position",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Ankle Pick Sweep",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Single Leg X Entry",
+      "target_position": "Single Leg X Position Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Transition to Butterfly Guard",
+      "target_position": "Butterfly Guard",
+      "success_rates": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "De La Riva Sweep",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Straight Ankle Lock Entry",
+      "target_position": "Ashi Garami",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "X-Guard Sweep",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Sumi Gaeshi",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Toreando Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 45
+    },
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 50
+    },
+    {
+      "technique": "Smash Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 55
+    },
+    {
+      "technique": "Long Step Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 40
+    },
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 35
+    },
+    {
+      "technique": "Leg Drag Pass",
+      "target_position": "Back Control",
+      "success_rate": 30
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Butterfly Hook Insertion",
+      "target_position": "Butterfly Guard",
+      "trigger": "Opponent drops weight forward attempting to establish chest pressure"
+    },
+    {
+      "technique": "Tripod Sweep",
+      "target_position": "Top Position",
+      "trigger": "Opponent stands upright with narrow stance"
+    },
+    {
+      "technique": "Pull guard",
+      "target_position": "Closed Guard Bottom",
+      "trigger": "Opponent drives forward with heavy pressure threatening to flatten guard"
+    },
+    {
+      "technique": "Technical Standup",
+      "target_position": "Standing Position",
+      "trigger": "Opponent backs away creating excessive distance"
+    },
+    {
+      "technique": "Shin to Shin Pull",
+      "target_position": "Shin-to-Shin Guard",
+      "trigger": "Opponent advances one leg between practitioner's legs for passing attempt"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent maintains upright standing posture with legs extended",
+      "actions": [
+        {
+          "technique": "Technical Stand-up",
+          "target": "Standing Position",
+          "probability": 60
+        },
+        {
+          "technique": "Ankle Pick Sweep",
+          "target": "Top Position",
+          "probability": 45
+        },
+        {
+          "technique": "Single Leg X Entry",
+          "target": "Single Leg X Position Bottom",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent drops weight forward with combat base, maintaining low center of gravity",
+      "actions": [
+        {
+          "technique": "Butterfly Sweep",
+          "target": "Mount",
+          "probability": 55
+        },
+        {
+          "technique": "Transition to Butterfly Guard",
+          "target": "Butterfly Guard",
+          "probability": 70
+        },
+        {
+          "technique": "Scissor Sweep",
+          "target": "Mount",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent drives forward with heavy chest pressure attempting to flatten guard",
+      "actions": [
+        {
+          "technique": "Pull guard",
+          "target": "Closed Guard Bottom",
+          "probability": 65
+        },
+        {
+          "technique": "Transition to Half Guard",
+          "target": "Half Guard Bottom",
+          "probability": 55
+        },
+        {
+          "technique": "Butterfly Hook Insertion",
+          "target": "Butterfly Guard",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent circles laterally attempting toreando-style passing",
+      "actions": [
+        {
+          "technique": "Follow with Hips",
+          "target": "Seated Guard Bottom",
+          "probability": 60
+        },
+        {
+          "technique": "De La Riva Sweep",
+          "target": "Top Position",
+          "probability": 50
+        },
+        {
+          "technique": "Inversion to Reverse De La Riva",
+          "target": "Reverse De La Riva Guard Bottom",
+          "probability": 35
+        }
+      ]
+    },
+    {
+      "condition": "If opponent establishes strong grips but maintains distance",
+      "actions": [
+        {
+          "technique": "Grip Break to X-Guard",
+          "target": "X-Guard",
+          "probability": 45
+        },
+        {
+          "technique": "Sumi Gaeshi",
+          "target": "Mount",
+          "probability": 40
+        },
+        {
+          "technique": "Spider Guard Entry",
+          "target": "Spider Guard Bottom",
+          "probability": 55
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Falling backward to flat position, allowing shoulders and upper back to contact mat behind the sitting bones",
+      "consequence": "Losing upright posture eliminates all offensive capabilities, turns seated guard into defensive open guard with limited options, allows opponent to establish heavy chest pressure and dominant passing position",
+      "correction": "Constant core engagement to maintain upright position, use hands to post behind if needed temporarily, focus on sitting bones staying weighted on mat with torso elevated at 45-60 degree angle, if you feel your back touching mat behind shoulder blades immediately sit up or transition to different guard"
+    },
+    {
+      "error": "Maintaining static foot position on opponent's hips without continuous adjustment or movement",
+      "consequence": "Static feet allow opponent to easily navigate past frames or establish dominant pressure, reduces position retention significantly as opponent can predict and counter fixed frames, enables successful pressure passing",
+      "correction": "Feet must constantly adjust - lifting, lowering, angling, switching between hips/thighs/knees - to maintain optimal distance and pressure on opponent's body, think of feet as active steering mechanisms rather than static posts"
+    },
+    {
+      "error": "Gripping opponent's gi pants instead of controlling sleeves or upper body",
+      "consequence": "Allows opponent to establish dominant collar and sleeve grips, gives them superior posture control, makes it difficult to prevent forward pressure or control their upper body movement",
+      "correction": "Priority grip fighting on sleeves, wrists, or collar to control opponent's posture and prevent them from establishing their preferred grips, pants grips are secondary and should only be used in specific setups like De La Riva transitions"
+    },
+    {
+      "error": "Remaining in seated guard for extended periods when opponent has established heavy forward pressure",
+      "consequence": "Constant energy drain from fighting against superior pressure, eventually leads to exhaustion and successful pass, wastes energy maintaining suboptimal position instead of transitioning",
+      "correction": "Recognize when opponent has pressure advantage and immediately transition to more sustainable position (closed guard, half guard, or butterfly guard with hooks), don't stubbornly maintain seated guard against heavy top pressure"
+    },
+    {
+      "error": "Crossing feet or ankles when establishing frames on opponent's body",
+      "consequence": "Creates weak structural frame that opponent can easily collapse, limits mobility and ability to adjust angles, may trap own legs making it difficult to transition or defend passes",
+      "correction": "Keep feet independent and mobile, never cross ankles when framing, maintain ability to move each leg separately for maximum defensive and offensive capability"
+    },
+    {
+      "error": "Leaning back excessively (more than 60 degrees from vertical) to create distance",
+      "consequence": "Compromises core engagement, makes it difficult to generate forward power for sweeps, increases vulnerability to pressure passing as center of gravity moves backward",
+      "correction": "Maintain torso angle between 45-60 degrees from horizontal, stay forward enough to maintain offensive threat while balanced enough to defend, if you need more distance adjust with hip movement not excessive backward lean"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Seated Posture Maintenance Drill",
+      "description": "Partner provides increasing forward pressure while practitioner maintains upright seated posture with active leg frames, focusing on core engagement and not falling backward. Start with 30% pressure, increase to 70% over 2-minute rounds.",
+      "duration": "5 rounds of 2 minutes"
+    },
+    {
+      "name": "Dynamic Foot Position Drill",
+      "description": "Partner circles and changes angles while practitioner maintains seated guard, constantly adjusting foot positions on partner's hips/thighs to maintain optimal distance. Partner should not attempt to pass, only move laterally and forward/backward to force adjustments.",
+      "duration": "3 rounds of 3 minutes"
+    },
+    {
+      "name": "Seated Guard Transition Flow",
+      "description": "From seated guard, flow through all major transitions (butterfly hooks, De La Riva hook, X-guard entry, technical standup) based on partner's position. Partner provides varying levels of resistance and different postures (standing, combat base, forward pressure) to trigger appropriate transitions.",
+      "duration": "4 rounds of 4 minutes"
+    },
+    {
+      "name": "Grip Fighting from Seated",
+      "description": "Partner attempts to establish dominant grips (collar and sleeve, double sleeve, etc.) while practitioner fights to maintain sleeve or wrist control from seated position. Focus on preventing opponent grips while maintaining seated posture.",
+      "duration": "5 rounds of 2 minutes"
+    },
+    {
+      "name": "Seated Sweep Combinations",
+      "description": "Chain together 2-3 sweeps from seated position based on partner's defensive reactions (e.g., butterfly sweep to scissor sweep, technical standup to ankle pick). Partner defends first attempt but doesn't counter-attack, allowing practitioner to work combinations.",
+      "duration": "6 rounds of 3 minutes"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Direct Leg Lock Path",
+      "path": "Seated Guard Bottom → Straight Ankle Lock entry → Ashi Garami → Straight Footlock or Achilles Lock"
+    },
+    {
+      "name": "Butterfly to Mount Submission",
+      "path": "Seated Guard Bottom → Butterfly Sweep → Mount → Armbar from Mount or Ezekiel from Mount"
+    },
+    {
+      "name": "X-Guard Elevation Path",
+      "path": "Seated Guard Bottom → Single Leg X Entry → Single Leg X Position Bottom → Single Leg X Sweep → Back Control → Rear Naked Choke"
+    },
+    {
+      "name": "Triangle Setup from Seated",
+      "path": "Seated Guard Bottom → Opponent leans forward → Pull to Closed Guard Bottom → Triangle from Closed Guard"
+    },
+    {
+      "name": "Standup to Takedown",
+      "path": "Seated Guard Bottom → Technical Stand-up → Standing Position → Single Leg Takedown → Side Control Top → Kimura from Side Control"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Open Guard Bottom",
+      "relationship": "Generic parent category that encompasses seated guard principles"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Natural progression when butterfly hooks are inserted from seated position"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Advanced progression with deep hook insertion for powerful elevation sweeps"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Specific variation accessible when opponent advances leg forward"
+    },
+    {
+      "name": "Closed Guard Bottom",
+      "relationship": "Defensive fallback position when opponent establishes heavy forward pressure"
+    },
+    {
+      "name": "Single Leg X Position Bottom",
+      "relationship": "Leg entanglement position accessible from seated guard against standing opponent"
+    },
+    {
+      "name": "Spider Guard Bottom",
+      "relationship": "Alternative open guard with similar distance management principles using sleeve grips"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Common opponent position that seated guard must address"
+    },
+    {
+      "name": "Technical Stand-up",
+      "relationship": "Primary escape/transition when opponent creates excessive distance"
+    },
+    {
+      "name": "Butterfly Sweep",
+      "relationship": "High-percentage offensive technique from seated position when opponent drops weight"
+    },
+    {
+      "name": "Guard Recovery",
+      "relationship": "System for returning to seated guard after partial pass attempts"
+    },
+    {
+      "name": "Shin-to-Shin Guard",
+      "relationship": "Alternative seated guard variation with shin-to-shin connection"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "advancement_probability": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "submission_probability": {
+      "beginner": 20,
+      "intermediate": 35,
+      "advanced": 50
+    },
+    "average_time": "30-90 seconds"
+  },
+  "expert_insights": {
+    "danaher": "Seated guard represents a fundamental principle of open guard theory: the maintenance of offensive capability through distance management. The critical biomechanical element is the relationship between core engagement and leg frame activity - these must work in concert to create a dynamic system that prevents opponent pressure dominance while maintaining sweep and attack opportunities. The position demands significant energy expenditure because you are working against gravity to maintain upright posture, and your legs must constantly adjust to manage distance. This is why seated guard functions best as a transitional position rather than a long-term holding position. The key technical insight is understanding that your feet on the opponent's body are not static posts but active steering mechanisms - they must constantly adjust pressure, angle, and position to maintain optimal distance. When the opponent stands, you have leg attack opportunities; when they drop weight, you have butterfly sweep opportunities; when they pressure forward, you must transition to a more sustainable guard structure. The position teaches practitioners the fundamental open guard skill of reading opponent movement and making appropriate tactical transitions.",
+    "gordon_ryan": "In competition, I use seated guard as a transition position more than a long-term holding position. It's perfect when scrambling, when opponents stand, or when I want to threaten leg locks to force them back down. The energy cost is real - you can't sit in this position forever like closed guard. I'm looking for quick opportunities: they stand, I attack ankles; they stay low with wide base, I insert butterfly hooks and sweep. The position forces opponents to make decisions, and those decisions create openings. In training, develop your sensitivity to when to transition - staying seated too long against heavy pressure is fighting a losing battle. Know when to pull to closed guard or move to a different guard variant. My approach is to use seated guard aggressively for 10-20 seconds maximum, then either execute a technique or transition to something more sustainable. The practitioners who succeed with this position are those who can read their opponent quickly and capitalize on small windows of opportunity. Don't get stuck thinking you need to maintain any single position - BJJ is about flowing between positions based on what your opponent gives you.",
+    "eddie_bravo": "Seated guard integrates perfectly into the 10th Planet system because it's naturally set up for leg locks and rubber guard transitions. From seated position, you've got access to ankle locks, you can threaten the lockdown by grabbing their leg, you can work toward trucks and twister positions. What I teach my students is that seated guard is aggressive - you're sitting up, you're threatening, you're making them deal with your legs. It's not passive like lying back. Use the position to create chaos and opportunities. When they don't know whether you're going to sweep them, leg lock them, or pull them into rubber guard, they start making mistakes. That's when you capitalize. Stay creative, stay threatening, and don't just sit there - be actively dangerous. The beautiful thing about seated guard is that it works equally well gi and no-gi because you're controlling distance with your legs rather than relying heavily on grips. In no-gi competition, I see this position as a gateway to the entire leg entanglement game - from here you can enter into all kinds of leg lock positions that finish fights. Train the position with an attacking mindset, not a defensive one."
+  }
+}
+{
+  "metadata": {
+    "title": "Seated Guard | BJJ Position Guide | BJJ Graph",
+    "description": "Master Seated Guard in BJJ. Complete guide covering entries, transitions, and technical standups. Versatile open guard with 50% sweep success at intermediate level.",
+    "state_id": "S089",
+    "tags": [
+      "bjj",
+      "position",
+      "guard",
+      "open-guard",
+      "fundamental",
+      "seated",
+      "distance-management"
+    ]
+  },
+  "overview": "Seated Guard is an upright open guard position where you sit on the mat with your hips on the ground, hands posted behind you for base, and legs extended or bent toward your opponent. This position provides a stable base with excellent mobility and the ability to quickly transition to standing or other guard positions. Unlike closed guard or butterfly guard, Seated Guard maintains maximum freedom of leg movement for distance management and attacks.\n\nThe strategic value of Seated Guard lies in its versatility and ease of entry/exit. It's commonly used as a transitional position when guard is opened, when recovering from guard pass attempts, or when opponent stands to create distance. The position allows you to control engagement distance with your feet while maintaining the option to stand up at any moment, making it difficult for opponents to commit fully to passing attempts.\n\nSeated Guard works best when opponent is standing or on knees with distance, but becomes vulnerable if opponent gets chest-to-chest pressure or establishes strong control grips. The position requires active movement and timing - staying static allows opponent to pass. Most effective for practitioners comfortable with wrestling-style attacks and technical standups.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive with offensive options",
+    "risk_level": "Medium",
+    "energy_cost": "Low",
+    "time_sustainability": "Medium"
+  },
+  "state_invariants": [
+    "Hips positioned flat on the mat with buttocks making full contact with ground, providing stable seated base from which to move",
+    "Hands posted behind torso approximately shoulder-width apart, fingers pointing away from body, elbows slightly bent to create spring-like structural support",
+    "Legs extended or bent toward opponent with feet active and mobile, maintaining ability to push, pull, or hook opponent's legs and hips",
+    "Upper body upright with chest forward and head up, creating active posture rather than passive seated position",
+    "Weight distributed through hips and hands in tripod formation, allowing quick lateral movement and ability to elevate hips off mat when needed"
+  ],
+  "prerequisites": [
+    "Opponent standing or on knees with some distance from your torso",
+    "Ability to post hands behind body for base support",
+    "Freedom of leg movement without opponent controlling both legs",
+    "Space to sit up from lying position or transition from other guard",
+    "No strong chest-to-chest pressure from opponent"
+  ],
+  "key_principles": [
+    "Active Base Maintenance: Posted hands provide stability but must allow movement - rigid base limits mobility, too loose base allows opponent to flatten you. Find dynamic balance.",
+    "Distance Management: Feet actively control spacing - too close allows chest pressure, too far limits offensive options. Use feet as active frames and probes.",
+    "Ready to Stand: Mental and physical preparedness to technical standup at any moment - this threat forces opponent caution and provides reliable escape.",
+    "Hip Mobility Priority: Unlike closed guard, seated guard requires constant hip adjustment - moving hips laterally, forward, and back keeps opponent off-balance.",
+    "Frame Before Grip: When opponent closes distance, establish frames with feet before they secure control grips - proactive defense prevents bad situations.",
+    "Attack Timing: Seated Guard attacks rely on opponent's movement and balance - watch for weight shifts, step-ins, and postural changes."
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Technical Stand-up",
+      "target_position": "Standing Position",
+      "success_rates": {
+        "beginner": 60,
+        "intermediate": 75,
+        "advanced": 85
+      }
+    },
+    {
+      "technique": "Butterfly Sweep",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Scissor Sweep",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Single Leg X Entry",
+      "target_position": "Single Leg X Position Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Ankle Pick",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Tripod Sweep",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "X-Guard Sweep",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Lumberjack Sweep",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 45
+    },
+    {
+      "technique": "Toreando Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 40
+    },
+    {
+      "technique": "Long Step Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 35
+    },
+    {
+      "technique": "Leg Drag Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 50
+    },
+    {
+      "technique": "Smash Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 55
+    },
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 45
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Technical Stand-up",
+      "target_position": "Standing Position",
+      "trigger": "Opponent attempts to establish grips while standing"
+    },
+    {
+      "technique": "Single Leg X Entry",
+      "target_position": "Single Leg X Position Bottom",
+      "trigger": "Opponent steps forward to pass"
+    },
+    {
+      "technique": "Butterfly Sweep",
+      "target_position": "Mount",
+      "trigger": "Opponent drops weight forward attempting to flatten you"
+    },
+    {
+      "technique": "Scissor Sweep",
+      "target_position": "Mount",
+      "trigger": "Opponent establishes high posture and drives forward"
+    },
+    {
+      "technique": "Tripod Sweep",
+      "target_position": "Top Position",
+      "trigger": "Opponent reaches for leg grips while standing"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent maintains distance and stays standing with upright posture",
+      "actions": [
+        {
+          "technique": "Technical Stand-up",
+          "target": "Standing Position",
+          "probability": 70
+        },
+        {
+          "technique": "Single Leg X Entry",
+          "target": "Single Leg X Position Bottom",
+          "probability": 55
+        },
+        {
+          "technique": "Ankle Pick",
+          "target": "Top Position",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent steps forward to close distance or attempt pass",
+      "actions": [
+        {
+          "technique": "Scissor Sweep",
+          "target": "Mount",
+          "probability": 55
+        },
+        {
+          "technique": "Tripod Sweep",
+          "target": "Top Position",
+          "probability": 50
+        },
+        {
+          "technique": "Butterfly Sweep",
+          "target": "Mount",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent drops to knees and attempts to establish control grips",
+      "actions": [
+        {
+          "technique": "Butterfly Sweep",
+          "target": "Mount",
+          "probability": 60
+        },
+        {
+          "technique": "X-Guard Sweep",
+          "target": "Top Position",
+          "probability": 50
+        },
+        {
+          "technique": "Technical Stand-up",
+          "target": "Standing Position",
+          "probability": 65
+        }
+      ]
+    },
+    {
+      "condition": "If opponent establishes chest-to-chest pressure",
+      "actions": [
+        {
+          "technique": "Shrimp Escape",
+          "target": "Guard Recovery",
+          "probability": 55
+        },
+        {
+          "technique": "Hip Escape",
+          "target": "Half Guard Bottom",
+          "probability": 50
+        },
+        {
+          "technique": "Frame and Shrimp",
+          "target": "Butterfly Guard",
+          "probability": 45
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Staying Static in Seated Position",
+      "consequence": "Opponent easily establishes grips and controls your legs, passing becomes straightforward. Position loses its defensive and offensive value.",
+      "correction": "Constantly adjust hip position - small movements side to side, forward and back. Keep opponent guessing and prevent static control. If opponent seems comfortable and slowly advancing position, you're too static. Should feel like you're always adjusting."
+    },
+    {
+      "error": "Posting Hands Too Narrow or Too Wide",
+      "consequence": "Weak base allows opponent to flatten you to back, losing seated position advantage. Cannot generate power for sweeps.",
+      "correction": "Post hands slightly wider than shoulders, fingers pointing away, elbows slightly bent like springs. Engage lats for structural support. Test your base by having partner push you lightly - should feel stable but mobile."
+    },
+    {
+      "error": "Letting Opponent Control Both Legs Simultaneously",
+      "consequence": "Loss of mobility and distance control. Opponent can stack you, pass easily, or establish dominant grips without resistance.",
+      "correction": "Always keep at least one leg free and active. If opponent grabs one leg, immediately use other leg to push, frame, or attack. Think of legs as independent defensive and offensive tools."
+    },
+    {
+      "error": "Passive Feet - Not Using Them to Manage Distance",
+      "consequence": "Opponent closes distance at will, establishes pressure, and passes without encountering resistance. Seated guard becomes purely defensive.",
+      "correction": "Actively push, pull, and frame with feet. Use them as probes to feel opponent's weight distribution and as barriers to prevent advancement. Feet should constantly be working."
+    },
+    {
+      "error": "Failing to Stand When Appropriate",
+      "consequence": "Missing escape opportunities and allowing opponent to settle into passing game. Position becomes increasingly difficult to maintain.",
+      "correction": "Recognize when standing is best option - typically when opponent commits to standing passes or when you need to reset. Practice technical standups until they become automatic reflex."
+    },
+    {
+      "error": "Leaning Too Far Back on Posted Hands",
+      "consequence": "Creates weak angle that allows opponent to drive over you. Reduces ability to quickly change levels or stand up.",
+      "correction": "Maintain upright posture with chest forward and shoulders over hips. Think of posted hands as support, not primary base. Should be able to lift one hand briefly without collapsing."
+    },
+    {
+      "error": "Not Establishing Grips When Opponent Enters Range",
+      "consequence": "Opponent controls the gripping exchange and establishes dominant control before you can react. Limits your offensive options.",
+      "correction": "When opponent enters range, immediately establish grips on sleeves, pants, or ankles. Don't wait for perfect opportunity - establish any grip to slow opponent's advancement and create offensive possibilities."
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Seated Guard Movement Drill",
+      "description": "Partner stands and slowly walks around you in circle. Maintain seated guard while pivoting on hips to face them, keeping constant distance with feet. Focus on smooth hip movement and active base maintenance. Progress to partner making sudden direction changes.",
+      "duration": "3-5 minutes"
+    },
+    {
+      "name": "Technical Standup Repetitions",
+      "description": "Start in seated guard. Partner stands at distance. Execute technical standup, return to seated guard, repeat. Focus on smooth transition from seated to standing while maintaining defensive posture. Progress to partner attempting to prevent standup with grip fighting.",
+      "duration": "5 minutes (20-30 repetitions)"
+    },
+    {
+      "name": "Seated Guard to Sweep Flow Drill",
+      "description": "Partner starts standing or on knees. Flow through different sweep entries from seated guard: scissor sweep, tripod sweep, butterfly sweep, single leg X. Partner provides progressive resistance. Focus on recognizing timing windows and weight distribution cues.",
+      "duration": "5-7 minutes"
+    },
+    {
+      "name": "Distance Control Game",
+      "description": "Start in seated guard with partner standing. Partner tries to establish grips and close distance. You prevent using only feet and legs (no grips). Focus on using feet as active frames and distance management tools. Score point when opponent gets chest-to-chest pressure.",
+      "duration": "2-minute rounds"
+    },
+    {
+      "name": "Seated Guard Positional Sparring",
+      "description": "Start in seated guard. Partner attempts to pass. You defend and look for sweeps or technical standups. Reset if pass is successful or sweep/standup achieved. Focus on maintaining active movement and recognizing transition opportunities.",
+      "duration": "5-minute rounds"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Triangle Path from Seated Guard",
+      "path": "Seated Guard → Scissor Sweep → Mount → Triangle from Mount"
+    },
+    {
+      "name": "Armbar Path via X-Guard",
+      "path": "Seated Guard → Single Leg X Entry → Single Leg X Position Bottom → Single Leg X Sweep → Top Position → Armbar from Guard"
+    },
+    {
+      "name": "Kimura Path from Butterfly",
+      "path": "Seated Guard → Butterfly Sweep → Top Position → Kimura from Guard"
+    },
+    {
+      "name": "Guillotine Path from Standup",
+      "path": "Seated Guard → Technical Stand-up → Standing Position → Guillotine Choke"
+    },
+    {
+      "name": "Back Take Path",
+      "path": "Seated Guard → X-Guard Sweep → Back Control → Rear Naked Choke"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Open Guard Bottom",
+      "relationship": "Parent category position, seated guard is specific type"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Natural progression by inserting hooks when opponent close"
+    },
+    {
+      "name": "Standing Guard",
+      "relationship": "Natural progression by standing up from seated"
+    },
+    {
+      "name": "Single Leg X Position Bottom",
+      "relationship": "Common entry from seated guard when opponent steps forward"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Related guard variation with similar entries"
+    },
+    {
+      "name": "Technical Stand-up",
+      "relationship": "Primary escape and transition technique from seated guard"
+    },
+    {
+      "name": "Scissor Sweep",
+      "relationship": "High-percentage sweep from seated guard"
+    },
+    {
+      "name": "Guard Recovery",
+      "relationship": "Position often needed when seated guard is compromised"
+    },
+    {
+      "name": "Distance Creation",
+      "relationship": "Core concept for effective seated guard management"
+    },
+    {
+      "name": "Guard Retention Concepts",
+      "relationship": "Conceptual framework for maintaining guard positions"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "advancement_probability": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "submission_probability": {
+      "beginner": 20,
+      "intermediate": 35,
+      "advanced": 50
+    },
+    "average_time": "20-60 seconds"
+  },
+  "expert_insights": {
+    "danaher": "Seated Guard represents a fundamental principle in guard retention: the ability to control distance through active leg engagement while maintaining the option to disengage entirely. The biomechanical advantage lies in the tripod base structure - hips on mat, hands posted behind - which provides stability in multiple planes while preserving mobility. The critical error most practitioners make is treating this as a static position rather than a dynamic transitional state. Your seated guard should be in constant flux, with micro-adjustments in hip position and leg placement occurring continuously. The moment you become stationary, your opponent can solve the positional puzzle. Think of it as a game of distance management where your legs are simultaneously defensive barriers and offensive probes. The technical standup from seated guard is not merely an escape; it's a strategic reset that forces your opponent to abandon their passing strategy and re-engage from neutral. Master the relationship between seated guard and standing, and you control the pace and nature of engagement.",
+    "gordon_ryan": "In competition, I use Seated Guard as a pressure release valve. When someone's passing hard and I need a moment to reset, sitting up with good base gives me time to evaluate and forces them to reposition. From there, I'm either standing up to neutralize their passing entirely, or I'm timing a sweep when they step in. The key is staying active - if you sit there like a dummy, you get passed. But if you're moving your hips and threatening their ankles, they have to respect it. I particularly like seated guard against standing passers because it gives me so many options: I can attack single leg X, I can go to butterfly, or I can just stand up. The versatility is what makes it valuable. And here's something important - don't think of seated guard as a destination. It's a waystation. You're using it to transition to something better, whether that's a sweep, a better guard, or standing position. The biggest mistake is staying there too long and letting your opponent figure out your game.",
+    "eddie_bravo": "Seated Guard is underrated, man. It's not sexy like inverted guards or rubber guard, but it's super practical. You can hit ankle picks, you can stand up, you can enter leg attacks. I teach my guys to use it when they're tired or when they need to slow things down. It's also great for no-gi because you don't need grips to maintain it - just good base and active feet. Connect it to X-Guard entries and suddenly you have a whole system. One thing I love about seated guard is how it messes with aggressive passers. They want to smash you, but you're sitting up, moving around, threatening to stand. It's frustrating for them. And when they commit to stopping you from standing, that's when you hit them with a sweep. The psychological element is huge. Also, in 10th Planet system, we use seated guard as entry point for lockdown positions and truck entries. When you're sitting and opponent is standing, you can grab that ankle, pull them off balance, and enter all kinds of unorthodox positions. Don't sleep on the fundamentals - seated guard is one of those positions that looks simple but has layers of depth when you really explore it."
+  }
+}
+Session limit reached ∙ resets 4am

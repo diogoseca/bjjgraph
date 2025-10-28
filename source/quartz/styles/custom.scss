@@ -1,3 +1,97 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// ============================================================================
+// A/B Testing Infrastructure
+// ============================================================================
+
+// Enable flexbox layout for dynamic section reordering (order set via inline styles)
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+// All content sections participate in flex layout
+.content-section {
+  // Order values injected dynamically via inline <style> tag from edge
+  order: 0; // Default fallback
+}
+
+// ----------------------------------------------------------------------------
+// Test 3: Visual Enhancement Variants
+// ----------------------------------------------------------------------------
+
+// Enhanced variant: Add visual styling to expert insights and key sections
+.variant-visual-enhanced {
+
+  // Expert insights with colored left border and subtle background
+  .expert-insight,
+  #expert-insights {
+    border-left: 4px solid #284b63;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: rgba(40, 75, 99, 0.05);
+    margin: 1.5rem 0;
+    border-radius: 4px;
+
+    h2, h3 {
+      margin-top: 0;
+    }
+  }
+
+  // Visual emphasis on key principles
+  #key-principles {
+    background: rgba(132, 165, 157, 0.08);
+    padding: 1.5rem;
+    border-radius: 4px;
+    margin: 1.5rem 0;
+
+    ul {
+      margin-top: 0.5rem;
+    }
+  }
+
+  // Highlight decision tree sections for better scannability
+  #decision-tree {
+    background: rgba(255, 242, 54, 0.08);
+    padding: 1.5rem;
+    border-radius: 4px;
+    border-left: 4px solid #f0b429;
+    margin: 1.5rem 0;
+  }
+
+  // Subtle enhancement for execution/transition steps
+  #execution-steps,
+  #offensive-transitions {
+    padding-left: 1rem;
+    border-left: 2px solid rgba(132, 165, 157, 0.3);
+    margin: 1.5rem 0;
+  }
+}
+
+// ============================================================================
+// Dark Mode Adjustments for A/B Testing Variants
+// ============================================================================
+
+@media (prefers-color-scheme: dark) {
+  .variant-visual-enhanced {
+
+    .expert-insight,
+    #expert-insights {
+      background: rgba(123, 151, 170, 0.1);
+      border-left-color: #7b97aa;
+    }
+
+    #key-principles {
+      background: rgba(132, 165, 157, 0.1);
+    }
+
+    #decision-tree {
+      background: rgba(255, 242, 54, 0.05);
+      border-left-color: #c4961f;
+    }
+  }
+}

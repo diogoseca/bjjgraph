@@ -1,0 +1,750 @@
+Session limit reached ∙ resets 11am
+{
+  "metadata": {
+    "title": "Body Lock Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master Body Lock Position in BJJ. Complete guide covering control, throws, and back takes. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
+    "state_id": "S304",
+    "tags": [
+      "bjj",
+      "position",
+      "standing",
+      "clinch",
+      "control",
+      "wrestling",
+      "takedowns"
+    ]
+  },
+  "overview": "Body Lock Position is a dominant standing clinch control where you wrap both arms around opponent's torso (either over-under or double underhooks), locking your hands together to create a powerful connection. This position provides exceptional control over opponent's movement and posture while setting up various takedowns, throws, and back takes. The body lock represents one of the highest levels of standing control in both wrestling and BJJ, offering the controlling practitioner multiple high-percentage pathways to achieve dominant ground positions.\n\nThe body lock eliminates opponent's ability to create distance or establish their own grips, effectively neutralizing their standing offense while creating immediate threats. From this position, you can execute mat returns for back control, various throwing techniques, or transitions to other dominant positions. The position requires precise timing and explosive execution, as it is inherently transitional - you must attack immediately or opponent will escape the control.\n\nMastery of the body lock requires understanding of weight distribution, hip positioning, and the ability to read opponent's defensive reactions to capitalize on openings. This position connects standing wrestling control with ground-based submission systems, making it essential for modern no-gi grappling and MMA applications.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Controlling",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short to Medium"
+  },
+  "state_invariants": [
+    "Both arms wrapped completely around opponent's torso with hands locked behind their back, typically using gable grip or rear naked choke grip configuration, creating unified connection between your arms and their center of mass",
+    "Chest pressed firmly against opponent's chest or upper torso, eliminating space between bodies and preventing them from creating distance or establishing defensive frames",
+    "Head positioned to the side of opponent's head (typically on underhook side if using over-under configuration), with your temple or ear against their shoulder/neck area to prevent head control attempts",
+    "Hips driving forward and upward into opponent's hips, breaking their posture backward and controlling their center of gravity while maintaining your own stable base",
+    "Wide, athletic stance with knees bent and weight distributed through balls of feet, allowing explosive movement while resisting opponent's attempts to create separation or execute counters"
+  ],
+  "prerequisites": [
+    "Successful grip fighting exchange resulting in dominant grips (double underhooks or over-under position)",
+    "Close proximity to opponent with ability to establish chest-to-chest connection",
+    "Opponent in standing position (not seated or supine)",
+    "Elimination of opponent's frames or defensive grips that would prevent body lock establishment",
+    "Strong hip position with ability to drive forward pressure"
+  ],
+  "key_principles": [
+    "Lock hands tightly and maintain locked grip throughout entire attack sequence - breaking grip loses position",
+    "Drive hips forward constantly to break opponent's posture and control their center of mass",
+    "Maintain chest-to-chest pressure to eliminate space and prevent opponent from establishing frames",
+    "Position head strategically (underhook side) to enhance control and create angle for throws",
+    "Attack immediately after establishing body lock - position is transitional and cannot be held indefinitely",
+    "Control opponent's hips and weight distribution to dictate direction of takedown or transition"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Bodylock Pass",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "Body Lock Pass",
+      "target_position": "Turtle Position Top",
+      "success_rates": {
+        "beginner": 55,
+        "intermediate": 70,
+        "advanced": 85
+      }
+    },
+    {
+      "technique": "Snap Down",
+      "target_position": "Front Headlock Control Position",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Turtle to Back Take",
+      "target_position": "Standing Back Control",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Suplex throw",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Hip toss",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Trip takedown",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Mat return to back",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 80
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Hip escape and frame creation",
+      "target_position": "Clinch Position",
+      "success_rate": 35
+    },
+    {
+      "technique": "Whizzer overhook counter",
+      "target_position": "Standing Position",
+      "success_rate": 30
+    },
+    {
+      "technique": "Sprawl and break grips",
+      "target_position": "Front Headlock",
+      "success_rate": 25
+    },
+    {
+      "technique": "Sit to guard pull",
+      "target_position": "Closed Guard Bottom",
+      "success_rate": 40
+    },
+    {
+      "technique": "Post on hips and create distance",
+      "target_position": "Neutral Starting Position",
+      "success_rate": 30
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Follow opponent's sit to closed guard",
+      "target_position": "Closed Guard Top",
+      "trigger": "Opponent sits to guard to escape body lock pressure"
+    },
+    {
+      "technique": "Switch to front headlock",
+      "target_position": "Front Headlock Control Position",
+      "trigger": "Opponent attempts to duck under or lower their level"
+    },
+    {
+      "technique": "Re-establish body lock after grip break",
+      "target_position": "Body Lock Position",
+      "trigger": "Opponent breaks initial grip but hasn't created distance"
+    },
+    {
+      "technique": "Transition to single leg",
+      "target_position": "Top Position",
+      "trigger": "Opponent posts on hips to create distance"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent maintains strong upright posture and resists backward pressure",
+      "actions": [
+        {
+          "technique": "Execute trip or reap",
+          "target": "Side Control Top",
+          "probability": 55
+        },
+        {
+          "technique": "Switch to front headlock",
+          "target": "Front Headlock Control Position",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent's posture breaks backward under hip pressure",
+      "actions": [
+        {
+          "technique": "Execute mat return to back",
+          "target": "Back Control",
+          "probability": 70
+        },
+        {
+          "technique": "Drive to turtle position",
+          "target": "Turtle Position Top",
+          "probability": 65
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to sit or pull guard",
+      "actions": [
+        {
+          "technique": "Follow to closed guard top",
+          "target": "Closed Guard Top",
+          "probability": 60
+        },
+        {
+          "technique": "Sprawl and take back",
+          "target": "Back Control",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent creates frames or attempts to break grip",
+      "actions": [
+        {
+          "technique": "Increase hip pressure immediately",
+          "target": "Body Lock Position",
+          "probability": 55
+        },
+        {
+          "technique": "Execute throw before grip breaks",
+          "target": "Side Control Top",
+          "probability": 45
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Failing to drive hips forward after establishing body lock",
+      "consequence": "Allows opponent to maintain upright posture and defend effectively, reducing control advantage and giving them time to establish counters",
+      "correction": "Drive hips forward constantly from the moment you lock hands, forcing opponent's weight backward and breaking their posture immediately"
+    },
+    {
+      "error": "Breaking locked hands before securing next position",
+      "consequence": "Loses dominant control position before establishing new control, allowing opponent to escape or counter-attack",
+      "correction": "Maintain locked hands throughout entire technique execution until new dominant position is fully secured"
+    },
+    {
+      "error": "Keeping chest too far from opponent's chest",
+      "consequence": "Creates space that opponent can use to establish frames, create distance, or execute defensive techniques",
+      "correction": "Drive chest into opponent's chest immediately, eliminating all space and maintaining tight connection throughout"
+    },
+    {
+      "error": "Hesitating or waiting too long before attacking",
+      "consequence": "Body lock is transitional - delaying attack allows opponent time to establish defenses, break grips, or escape",
+      "correction": "Attack within 1-2 seconds of establishing body lock with predetermined technique based on opponent's reaction"
+    },
+    {
+      "error": "Improper head positioning (head too far back or forward)",
+      "consequence": "Reduces control, makes you vulnerable to head control counters, and decreases throwing power",
+      "correction": "Position head to the side (underhook side), temple against opponent's shoulder, creating tight connection and proper angle"
+    },
+    {
+      "error": "Standing too upright with locked knees",
+      "consequence": "Poor base makes you vulnerable to counter throws and reduces hip driving power",
+      "correction": "Maintain athletic stance with knees bent, weight on balls of feet, ready to explode in any direction"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Body lock establishment drill",
+      "description": "Starting from neutral standing position, partner provides light resistance as you work to establish body lock from various grip fighting scenarios. Focus on speed of establishment and immediate hip pressure. Reset after each successful lock.",
+      "duration": "3 minutes per round, 3-5 rounds"
+    },
+    {
+      "name": "Mat return repetitions",
+      "description": "Partner stands in turtle position, you establish body lock and practice mat return to back control. Focus on maintaining locked hands, driving hips, and securing back control before releasing grip. Build speed and explosiveness over multiple repetitions.",
+      "duration": "5 minutes, 20-30 repetitions"
+    },
+    {
+      "name": "Body lock to throw progression",
+      "description": "Establish body lock with cooperative partner, practice various throws (hip toss, trip, suplex) with progressive resistance. Start with technical execution at slow speed, gradually increase speed and resistance as technique improves.",
+      "duration": "10 minutes, rotating through different throw variations"
+    },
+    {
+      "name": "Counter-defense flow drill",
+      "description": "Partner attempts various escapes from body lock (frames, whizzer, sit to guard) while you practice maintaining position and transitioning to appropriate counters. Flow continuously between attack and defense.",
+      "duration": "5 minutes per round, switch roles"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Fastest path to submission",
+      "path": "Body Lock Position → Back Control → Rear Naked Choke"
+    },
+    {
+      "name": "High-percentage mat return path",
+      "path": "Body Lock Position → Turtle Position Top → Back Control → Rear Naked Choke"
+    },
+    {
+      "name": "Throw to submission path",
+      "path": "Body Lock Position → Side Control Top → Mount → Armbar from Mount"
+    },
+    {
+      "name": "Front headlock transition path",
+      "path": "Body Lock Position → Front Headlock Control Position → Darce Choke"
+    },
+    {
+      "name": "Guard pull counter path",
+      "path": "Body Lock Position → Closed Guard Top → Guard Pass → Mount → Submissions"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Clinch Position",
+      "relationship": "Precursor position - body lock is advancement from clinch control"
+    },
+    {
+      "name": "Standing Back Control",
+      "relationship": "Primary target position from successful mat return"
+    },
+    {
+      "name": "Turtle Position Top",
+      "relationship": "Common resulting position when opponent defends mat return"
+    },
+    {
+      "name": "Front Headlock Control Position",
+      "relationship": "Alternative transition when opponent lowers level"
+    },
+    {
+      "name": "Double Unders Position",
+      "relationship": "Variation with both underhooks instead of over-under grip"
+    },
+    {
+      "name": "Bodylock Pass",
+      "relationship": "Primary technique for transitioning to back control"
+    },
+    {
+      "name": "Snap Down",
+      "relationship": "Alternative attack when opponent resists backward pressure"
+    },
+    {
+      "name": "Turtle to Back Take",
+      "relationship": "Follow-up technique after driving opponent to turtle"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "advancement_probability": {
+      "beginner": 55,
+      "intermediate": 70,
+      "advanced": 85
+    },
+    "submission_probability": {
+      "beginner": 20,
+      "intermediate": 35,
+      "advanced": 50
+    },
+    "average_time": "2-5 seconds before transition"
+  },
+  "expert_insights": {
+    "danaher": "The body lock represents the pinnacle of standing control in grappling because it unifies your entire upper body into a single controlling mechanism. When you lock your hands around opponent's torso, you create a closed kinetic chain that allows you to transfer force from your legs through your hips and into their center of mass with maximum efficiency. The critical error most practitioners make is treating the body lock as a static position - it is inherently transitional and must be viewed as the launching pad for immediate attack. Your hip pressure must be constant and progressive, breaking opponent's posture in the first second of contact. The hands remain locked throughout the entire attacking sequence - the moment you break your grip, you surrender the primary mechanical advantage. Understanding the body lock's biomechanics allows you to control when and how the engagement goes to the ground, which is the fundamental objective of all standing grappling exchanges.",
+    "gordon_ryan": "In competition, getting the body lock is my primary goal in any standing exchange. Once I have it, especially double underhooks, the match usually goes to the ground on my terms very quickly. I focus on driving forward immediately - making opponent feel the pressure and weight, breaking their posture backward. From there, I can mat return for back control or execute throws if they resist. The body lock eliminates the uncertainty of standup exchanges and gives me complete control over when and how we go to the ground. Against high-level opponents, you have maybe two seconds before they establish effective defenses, so your attack must be instantaneous. I prefer the mat return to back control because it's highest percentage and leads directly to my strongest finishing position. The key is never hesitating - the moment you have the lock, you're already executing your attack.",
+    "eddie_bravo": "The body lock connects beautifully with our submission game. From body lock control, you can mat return for back takes which flow directly into our back attack system with the body triangle and rear naked choke variations. Or if opponent defends the mat return, you can sit to guard with body lock control already established, immediately working toward rubber guard or other positions. The 10th Planet philosophy is to always be threatening something - body lock isn't just about takedowns, it's about creating submission opportunities whether standing or on the ground. When opponent sits to escape your body lock pressure, you're following them down with dominant grips already in place, which is exactly where we want to be. We also use the body lock to set up the twister system - if you drive them to turtle, you've got multiple paths to truck position and the twister itself."
+  }
+}
+Session limit reached ∙ resets 11am
+
+Session limit reached ∙ resets 11am
+{
+  "metadata": {
+    "title": "Bodylock Position | BJJ Position Guide | BJJ Graph",
+    "description": "Master the Bodylock position in BJJ. Dominant control system using rear body lock grips for back takes, throws, and positional control with 65% back take success rate.",
+    "state_id": "S246",
+    "tags": [
+      "bjj",
+      "position",
+      "bodylock",
+      "control",
+      "wrestling",
+      "back-take",
+      "standing",
+      "clinch"
+    ]
+  },
+  "overview": "The Bodylock Position is a powerful control position primarily utilized in wrestling-influenced BJJ, where one practitioner secures both arms around their opponent's torso with hands clasped together, typically from a rear or side angle. This position provides exceptional control over the opponent's center of gravity and creates immediate pathways to back control, throws, and takedowns. The bodylock can be established from standing positions, turtle, or transitional scrambles, making it one of the most versatile control positions in modern grappling.\n\nThe effectiveness of the bodylock lies in its ability to break an opponent's posture while simultaneously controlling their hips and preventing escape. By cinching the grip tight and creating connection between your chest and their back, you eliminate space and force your opponent to carry your weight. This position is particularly effective in no-gi grappling where traditional gi grips are unavailable, but remains highly effective in the gi as well. The bodylock serves as a gateway position, allowing the practitioner to systematically attack with mat returns, back takes, or submission setups depending on the opponent's defensive reactions.\n\nModern competitors like Gordon Ryan, Tye Ruotolo, and wrestling-based grapplers have elevated the bodylock to a primary offensive weapon, using it to consistently secure back control or finish matches with throws and takedowns. The position requires significant grip strength and proper body mechanics to maintain, but when executed correctly, it provides one of the highest percentage pathways to dominant positions in all of grappling.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive/Controlling",
+    "risk_level": "Low to Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+  "state_invariants": [
+    "Both arms wrapped completely around opponent's torso with hands clasped together behind their back or at their centerline, creating a locked grip that cannot be easily broken",
+    "Chest connected firmly to opponent's back or side with head positioned tight to their shoulder or lat, eliminating space between bodies",
+    "Hips driven forward into opponent's hips or loaded underneath their center of gravity, controlling their weight distribution and preventing them from creating distance",
+    "Opponent's posture broken forward or to the side with their spine curved and base compromised, making it difficult for them to stand upright or create defensive frames",
+    "Practitioner's feet positioned with stable base, often with one leg posted forward as a block and rear leg loaded for driving pressure or executing throws"
+  ],
+  "prerequisites": [
+    "Opponent in turtle, standing, or transitional position where back exposure is available",
+    "Ability to secure at least one underhook or arm around opponent's torso",
+    "Successful hand clasp established with fingers interlocked or gable grip secured",
+    "Chest connected to opponent's back or side with head tight to shoulder",
+    "Opponent's defensive frames broken or bypassed to allow arm penetration"
+  ],
+  "key_principles": [
+    "Maintain tight chest-to-back connection with no space between bodies to prevent opponent from turning into you",
+    "Keep hands clasped at opponent's centerline or slightly offset to their far hip to maximize control",
+    "Drive hips forward and underneath opponent's center of gravity to break their posture and load their weight",
+    "Keep your head tight to opponent's shoulder or lat to prevent them from snapping you down or rolling through",
+    "Use rhythmic lifting and lowering to tire opponent and create opportunities for back takes or throws",
+    "Anticipate opponent's defensive hand fighting and adjust grip position to maintain lock integrity",
+    "Transition fluidly between standing bodylock, mat return, and back control based on opponent's reactions"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Back Take Generic",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Body Lock Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Turtle to Back Take",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "Double Leg Takedown",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Bodylock Pass",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Turtle to Back Control",
+      "target_position": "Seat Belt Control Back",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Snap Down",
+      "target_position": "Front Headlock Control Position",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Rolling Back Take",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Hip Escape",
+      "target_position": "Neutral Starting Position",
+      "success_rate": 35
+    },
+    {
+      "technique": "Grip Break",
+      "target_position": "Standing Position",
+      "success_rate": 30
+    },
+    {
+      "technique": "Sprawl Defense",
+      "target_position": "Turtle Position",
+      "success_rate": 40
+    },
+    {
+      "technique": "Rolling to Guard",
+      "target_position": "Closed Guard Bottom",
+      "success_rate": 25
+    },
+    {
+      "technique": "Technical Stand Up",
+      "target_position": "Standing Position",
+      "success_rate": 20
+    },
+    {
+      "technique": "Granby Roll",
+      "target_position": "Guard Recovery",
+      "success_rate": 30
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Mat Return",
+      "target_position": "Turtle Position Top",
+      "trigger": "Opponent attempts to stand or create distance with legs"
+    },
+    {
+      "technique": "Back Take Generic",
+      "target_position": "Back Control",
+      "trigger": "Opponent turns into bodylock trying to face you"
+    },
+    {
+      "technique": "Bodylock Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent sits to guard or drops to turtle"
+    },
+    {
+      "technique": "Crab Ride to Back",
+      "target_position": "Crab Ride",
+      "trigger": "Opponent turtles and tries to hand fight the bodylock"
+    },
+    {
+      "technique": "Front Headlock to Back",
+      "target_position": "Back Control",
+      "trigger": "Opponent drops head down and exposes back of neck"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent maintains strong base and resists being lifted or driven forward",
+      "actions": [
+        {
+          "technique": "Body Lock Pass",
+          "target": "Side Control Top",
+          "probability": 55
+        },
+        {
+          "technique": "Snap Down",
+          "target": "Front Headlock Control Position",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent turtles or drops weight down to avoid being thrown",
+      "actions": [
+        {
+          "technique": "Turtle to Back Take",
+          "target": "Back Control",
+          "probability": 70
+        },
+        {
+          "technique": "Crab Ride to Back",
+          "target": "Crab Ride",
+          "probability": 60
+        },
+        {
+          "technique": "Bodylock Pass",
+          "target": "Mount",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent stands tall and tries to hand fight or create distance",
+      "actions": [
+        {
+          "technique": "Double Leg Takedown",
+          "target": "Side Control Top",
+          "probability": 65
+        },
+        {
+          "technique": "Back Take Generic",
+          "target": "Back Control",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent attempts to roll or granby out of position",
+      "actions": [
+        {
+          "technique": "Rolling Back Take",
+          "target": "Back Control",
+          "probability": 55
+        },
+        {
+          "technique": "Turtle to Back Control",
+          "target": "Seat Belt Control Back",
+          "probability": 65
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Leaving space between chest and opponent's back",
+      "consequence": "Opponent can turn into you, create frames, or escape the position entirely by facing you and establishing guard",
+      "correction": "Constantly squeeze chest tight to their back, walk your feet forward to close distance, and keep head pressure on their shoulder or lat to eliminate all space"
+    },
+    {
+      "error": "Clasping hands too high on opponent's chest or shoulders",
+      "consequence": "Opponent maintains strong posture and base, making them difficult to control or take down, and your grip becomes easier to break",
+      "correction": "Lock hands at opponent's centerline near their navel or slightly offset to far hip, which breaks their posture and gives maximum control over their center of gravity"
+    },
+    {
+      "error": "Standing too upright with hips back away from opponent",
+      "consequence": "Opponent can easily sprawl, sit to guard, or create distance, and you lose all pressure and control advantages",
+      "correction": "Drive hips forward and underneath opponent's hips, bend knees slightly, and keep chest connected to create constant forward pressure that breaks their posture"
+    },
+    {
+      "error": "Allowing opponent to get hands inside the lock for defense",
+      "consequence": "Opponent can break your grip, create frames, or use their hands to defend takedowns and back takes effectively",
+      "correction": "Keep elbows tight to your own ribs, adjust hand position if opponent starts getting inside, and use head pressure to control their shoulders and prevent defensive hand fighting"
+    },
+    {
+      "error": "Failing to transition when opponent successfully defends initial attack",
+      "consequence": "Stalling in position while opponent escapes or ref calls stalling, wasting energy maintaining a position without advancing",
+      "correction": "Flow between standing bodylock, mat returns, and back control based on opponent's defensive reactions, constantly threatening multiple attacks to prevent them from settling into effective defense"
+    },
+    {
+      "error": "Using only arm strength to maintain the lock without body connection",
+      "consequence": "Arms fatigue quickly, grip breaks, and opponent escapes easily while you're exhausted",
+      "correction": "Use chest, head, and hip pressure to maintain connection, making grip a redundant safety rather than primary control mechanism, allowing you to sustain position much longer"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Bodylock Hand Fighting Drill",
+      "description": "Partner starts on hands and knees in turtle. You must establish bodylock from standing while they hand fight and try to prevent the lock. Focus on proper hand clasp, chest connection, and maintaining position despite defensive hand fighting. Switch roles every 2 minutes.",
+      "duration": "5 rounds x 2 minutes"
+    },
+    {
+      "name": "Bodylock to Back Progression Drill",
+      "description": "Start with bodylock established on turtled opponent. Practice transitioning to back control using multiple paths: direct back take, crab ride, and rolling back take. Partner provides progressive resistance (30%, 50%, 70%) across rounds. Emphasize maintaining chest-to-back connection throughout transitions.",
+      "duration": "3 rounds x 3 minutes"
+    },
+    {
+      "name": "Standing Bodylock Control Maintenance",
+      "description": "Establish bodylock from standing clinch position. Partner attempts to escape using sprawl, sit to guard, hand fighting, and turning in. Your goal is to maintain locked position for entire round while flowing between standing control and mat returns. Reset when lock is broken.",
+      "duration": "5 rounds x 2 minutes"
+    },
+    {
+      "name": "Bodylock Pass Finishing Drill",
+      "description": "Start with bodylock on turtled opponent. When they turtle, practice different passing sequences: bodylock pass to side control, bodylock pass to mount, and front headlock to side control. Focus on using the locked grip to control opponent through the entire passing sequence.",
+      "duration": "4 rounds x 3 minutes"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Fastest back attack path",
+      "path": "Bodylock Position → Back Take Generic → Back Control → Seat Belt Control Back → Rear Naked Choke"
+    },
+    {
+      "name": "High-percentage control path",
+      "path": "Bodylock Position → Turtle to Back Control → Crab Ride → Back Control → Rear Naked Choke"
+    },
+    {
+      "name": "Wrestling-based finishing path",
+      "path": "Bodylock Position → Double Leg Takedown → Side Control Top → Mount → Armbar from Mount"
+    },
+    {
+      "name": "Front headlock connection path",
+      "path": "Bodylock Position → Snap Down → Front Headlock Control Position → Darce Choke"
+    },
+    {
+      "name": "Passing to dominant position path",
+      "path": "Bodylock Position → Bodylock Pass → Mount → Americana from Mount"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Back Control",
+      "relationship": "Primary transition target - bodylock is gateway to back control"
+    },
+    {
+      "name": "Turtle Position",
+      "relationship": "Common starting position - bodylock often established when opponent turtles"
+    },
+    {
+      "name": "Front Headlock Control Position",
+      "relationship": "Alternative control position - can transition between bodylock and front headlock"
+    },
+    {
+      "name": "Crab Ride",
+      "relationship": "Intermediate control position - used when transitioning from bodylock to back"
+    },
+    {
+      "name": "Seat Belt Control Back",
+      "relationship": "Advanced back control - natural progression from bodylock back take"
+    },
+    {
+      "name": "Standing Rear Clinch",
+      "relationship": "Standing variation - bodylock from standing clinch position"
+    },
+    {
+      "name": "Double Unders Position",
+      "relationship": "Similar control concept - uses double underhooks instead of locked grip"
+    },
+    {
+      "name": "Back Attack System",
+      "relationship": "Systematic framework - bodylock is key entry point in back attack systems"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 50,
+      "intermediate": 65,
+      "advanced": 80
+    },
+    "advancement_probability": {
+      "beginner": 45,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "submission_probability": {
+      "beginner": 20,
+      "intermediate": 35,
+      "advanced": 50
+    },
+    "average_time": "30-90 seconds before transitioning to back control or passing"
+  },
+  "expert_insights": {
+    "danaher": "The bodylock represents one of the most mechanically sound control positions in grappling because it creates a closed kinetic chain that transfers all your body weight and pressure directly into your opponent's center of gravity. When you establish the lock with hands clasped at their centerline and chest connected to their back, you create a system where their only escape requires breaking the structural integrity of your entire body position, which is biomechanically extremely difficult. The key principle is understanding that the lock itself is redundant insurance - your primary control comes from chest-to-back connection and hip pressure. Your hands merely prevent separation while your body does the controlling. This is why even with tremendous grip strength differences, a smaller grappler can control a larger opponent using bodylock mechanics. The position also creates what I call forced decision trees where the opponent must choose between defending the back take, defending the throw, or defending the pass, but cannot defend all three simultaneously, which is the hallmark of all effective control positions in our system.",
+    "gordon_ryan": "The bodylock is probably my highest percentage setup for getting to the back in both gi and no-gi competition. What makes it so effective at the elite level is that once you lock it in tight, your opponent really only has bad options available to them. If they turtle hard and try to hand fight, I just take their back directly or use a crab ride. If they try to stand up or create distance, I hit mat returns or throws. If they sit to guard, I pass with the locked grip still connected. The biggest thing competitors get wrong is not maintaining chest pressure throughout the entire sequence. You see guys get the lock but then their chest comes off the back when they try to finish the back take or throw, and that's when the opponent escapes. I keep my chest glued to their back whether I'm standing, hitting a mat return, or taking the back, and I use my head to control their shoulder so they can't turn into me. Against elite opposition, the bodylock is also great because it eliminates a lot of guard pulling exchanges - if I can get this position established early, I'm basically forcing them to play a wrestling match they don't want, and then I'm taking their back when they turtle to avoid the takedown.",
+    "eddie_bravo": "The bodylock fits perfectly into the 10th Planet system because it's a no-gi control position that doesn't rely on fabric grips and gives you explosive transition opportunities. What I love about teaching the bodylock is how it connects to our Truck position and our back attack game. When you have the bodylock locked in and your opponent is turtled up trying to defend, you can hit this sick rolling back take we call the Turbo that ends up in the Truck, and from there you've got all your Twister and back attack options. The bodylock also works great as a wrestling entry when you're standing - you lock it up and you can hit suplexes, mat returns, or just drag them down and pass their guard. A lot of guys sleep on this position because it seems basic, but at the highest levels of no-gi it's become super important because everyone's so good at guard retention now that you need positions like the bodylock that force them into bad spots where they can't just invert and recover guard. We drill a lot of bodylock maintenance against opponents who are trying to hand fight and create space because that grip fighting is where most people lose the position. Once you can keep it locked through resistance, you become extremely dangerous."
+  }
+}
+Session limit reached ∙ resets 11am

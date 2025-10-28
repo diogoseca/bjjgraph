@@ -1,0 +1,1302 @@
+{
+  "metadata": {
+    "title": "Standing Guard Bottom | BJJ Position Guide | BJJ Graph",
+    "description": "Master Standing Guard Bottom in BJJ. Defensive position with distance control and attack threats. Beginner 45%, Intermediate 60%, Advanced 75% retention.",
+    "state_id": "S138",
+    "tags": ["bjj", "position", "standing-guard", "guard-bottom", "distance-management", "defensive", "guard-retention"],
+    "parent_variant": "Standing Guard",
+    "sibling_variants": ["Standing Guard Top"]
+  },
+  "overview": "Standing Guard Bottom is a dynamic defensive position where the bottom practitioner stands on their feet while the opponent remains standing or attempts to engage. This position represents a critical phase of guard retention where the bottom player uses vertical posture to create distance, manage grips, and prevent the opponent from establishing dominant passing positions. Unlike seated or supine guard positions, Standing Guard Bottom allows the practitioner to utilize full-body movement, footwork, and athletic agility to maintain defensive integrity while threatening with takedowns, guard pulls, or sweeps.\n\nThe position is characterized by both players being on their feet, with the bottom player using hand fighting, distance management, and technical standup principles to avoid being taken down or forced into disadvantageous positions. This position is especially prevalent in modern no-gi competition where guard pulling is common, and in gi competition during the initial grip fighting phase. The bottom player must balance defensive responsibility with offensive opportunity, using the standing position to threaten entries into favorable guard positions (De La Riva, Single Leg X, Butterfly) or create angles for takedown attempts. Success in this position requires excellent timing, spatial awareness, and the ability to read opponent movement patterns to either establish guard or execute offensive techniques.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive with offensive options",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short to Medium"
+  },
+  "state_invariants": [
+    "Bottom player is standing upright on both feet with knees slightly bent, maintaining athletic base and ready stance with weight distributed through balls of feet for mobility and quick direction changes",
+    "Hands are actively engaged in grip fighting or framing against opponent's body, controlling distance through collar ties, wrist control, or body frames to prevent opponent from closing distance and establishing dominant grips",
+    "Bottom player maintains safe distance from opponent (approximately arm's length or greater) with hips mobile and ready to retreat, circle, or change levels, preventing opponent from securing body lock or controlling posture",
+    "Eyes focused on opponent's center of gravity and hand positioning, reading opponent's movement intentions while maintaining awareness of mat boundaries and positioning relative to training area limits",
+    "Posture remains upright or slightly forward-leaning with head position protecting against snap-downs, maintaining chin tucked and neck strong to defend against front headlock attempts or guillotine setups"
+  ],
+  "prerequisites": [
+    "Ability to perform technical standup from seated or supine guard positions",
+    "Understanding of grip fighting fundamentals and hand control",
+    "Awareness of distance management and spatial positioning",
+    "Basic takedown defense knowledge to prevent being scored on",
+    "Familiarity with guard pull entries and timing windows"
+  ],
+  "key_principles": [
+    "Maintain active hand fighting to control opponent's grips and prevent dominant connections",
+    "Keep weight on balls of feet with knees bent for quick lateral movement and retreat options",
+    "Use circular footwork and angle creation to prevent opponent from driving forward pressure",
+    "Protect against snap-downs by keeping elbows tight and maintaining strong neck posture",
+    "Balance defensive responsibility with offensive threat by staying ready to pull guard or attack legs",
+    "Control distance through frames and grip fighting rather than pure strength or static positions",
+    "Stay mentally prepared to transition immediately to guard pull or takedown defense based on opponent actions"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Pull guard",
+      "target_position": "Closed Guard Bottom",
+      "success_rates": {
+        "beginner": 55,
+        "intermediate": 70,
+        "advanced": 85
+      }
+    },
+    {
+      "technique": "Sitting Guard Pull",
+      "target_position": "Seated Guard Bottom",
+      "success_rates": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "Shin to Shin Pull",
+      "target_position": "Shin-to-Shin Guard Bottom",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Standing to Single Leg X",
+      "target_position": "Single Leg X Guard Bottom",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Ankle Pick",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Arm Drag to Back",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Rolling Guard Pull",
+      "target_position": "De La Riva Guard Bottom",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Double Leg Entry",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Single Leg Entry",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 28,
+        "intermediate": 42,
+        "advanced": 58
+      }
+    },
+    {
+      "technique": "Snap Down to Front Headlock",
+      "target_position": "Front Headlock Top",
+      "success_rates": {
+        "beginner": 22,
+        "intermediate": 38,
+        "advanced": 52
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Sprawl",
+      "target_position": "Front Headlock Bottom",
+      "success_rate": 45
+    },
+    {
+      "technique": "Guard Pass",
+      "target_position": "Side Control Bottom",
+      "success_rate": 35
+    },
+    {
+      "technique": "Snap Down",
+      "target_position": "Front Headlock Bottom",
+      "success_rate": 40
+    },
+    {
+      "technique": "Double Leg Entry",
+      "target_position": "Bottom Position Generic",
+      "success_rate": 38
+    },
+    {
+      "technique": "Single Leg Entry",
+      "target_position": "Bottom Position Generic",
+      "success_rate": 40
+    },
+    {
+      "technique": "Body Lock Pass",
+      "target_position": "Side Control Bottom",
+      "success_rate": 32
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Technical Standup",
+      "target_position": "Neutral Starting Position",
+      "trigger": "Opponent attempts to force seated position or drive forward"
+    },
+    {
+      "technique": "Collar Drag",
+      "target_position": "Back Control Top",
+      "trigger": "Opponent reaches for collar grip or overextends with hands"
+    },
+    {
+      "technique": "Sprawl Defense",
+      "target_position": "Front Headlock Top",
+      "trigger": "Opponent shoots for legs with takedown attempt"
+    },
+    {
+      "technique": "Grip Break",
+      "target_position": "Standing Guard Bottom",
+      "trigger": "Opponent establishes dominant grip on collar or sleeve"
+    },
+    {
+      "technique": "Shin to Shin Pull",
+      "target_position": "Shin-to-Shin Guard Bottom",
+      "trigger": "Opponent closes distance and attempts to establish passing grips"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent drives forward aggressively trying to close distance",
+      "actions": [
+        {
+          "technique": "Pull guard",
+          "target": "Closed Guard Bottom",
+          "probability": 65
+        },
+        {
+          "technique": "Sitting Guard Pull",
+          "target": "Seated Guard Bottom",
+          "probability": 55
+        },
+        {
+          "technique": "Circular footwork retreat",
+          "target": "Standing Guard Bottom",
+          "probability": 70
+        }
+      ]
+    },
+    {
+      "condition": "If opponent establishes collar and sleeve grips in gi",
+      "actions": [
+        {
+          "technique": "Grip Break",
+          "target": "Standing Guard Bottom",
+          "probability": 60
+        },
+        {
+          "technique": "Collar Drag",
+          "target": "Back Control Top",
+          "probability": 45
+        },
+        {
+          "technique": "Pull guard",
+          "target": "Closed Guard Bottom",
+          "probability": 70
+        }
+      ]
+    },
+    {
+      "condition": "If opponent shoots for single or double leg takedown",
+      "actions": [
+        {
+          "technique": "Sprawl Defense",
+          "target": "Front Headlock Top",
+          "probability": 55
+        },
+        {
+          "technique": "Guillotine Setup",
+          "target": "Guillotine Control Top",
+          "probability": 40
+        },
+        {
+          "technique": "Wizzer defense",
+          "target": "Standing Guard Bottom",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts snap-down or front headlock control",
+      "actions": [
+        {
+          "technique": "Posture Up",
+          "target": "Standing Guard Bottom",
+          "probability": 65
+        },
+        {
+          "technique": "Arm Drag to Back",
+          "target": "Back Control Top",
+          "probability": 45
+        },
+        {
+          "technique": "Pull guard",
+          "target": "Closed Guard Bottom",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent is passive or maintaining distance defensively",
+      "actions": [
+        {
+          "technique": "Ankle Pick",
+          "target": "Top Position",
+          "probability": 50
+        },
+        {
+          "technique": "Single Leg Entry",
+          "target": "Top Position",
+          "probability": 48
+        },
+        {
+          "technique": "Snap Down to Front Headlock",
+          "target": "Front Headlock Top",
+          "probability": 42
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Standing too upright with locked knees and flat feet",
+      "consequence": "Reduced mobility and inability to quickly change direction or level, making practitioner vulnerable to takedowns and unable to react to opponent movement",
+      "correction": "Maintain athletic stance with knees bent, weight on balls of feet, and hips slightly back to enable quick movements in any direction"
+    },
+    {
+      "error": "Allowing opponent to establish dominant grips without fighting",
+      "consequence": "Opponent controls distance and posture, making it easy to set up passing sequences or force unfavorable guard pull positions",
+      "correction": "Engage in active grip fighting from first contact, constantly breaking opponent grips and establishing your own frames and controls"
+    },
+    {
+      "error": "Standing with hands down or passive hand positioning",
+      "consequence": "Opponent can easily snap down to front headlock or establish controlling grips without resistance",
+      "correction": "Keep hands active at chest level or higher, ready to frame, grip fight, or defend against snap-downs with elbows tight to body"
+    },
+    {
+      "error": "Backing straight up in linear fashion when pressured",
+      "consequence": "Allows opponent to walk forward and corner you against mat boundaries, eliminating lateral escape options",
+      "correction": "Use circular footwork and angle changes to move laterally while maintaining distance, creating angles rather than retreating linearly"
+    },
+    {
+      "error": "Delaying guard pull decision until forced into bad position",
+      "consequence": "Forced to pull guard reactively from poor position where opponent already has advantageous grips or position",
+      "correction": "Make proactive decision to pull guard before opponent establishes dominant position, pulling from position of control rather than desperation"
+    },
+    {
+      "error": "Overcommitting to failed takedown attempts",
+      "consequence": "Leaves practitioner exposed to guillotine, front headlock, or opponent's counter-takedowns when attack fails",
+      "correction": "Commit fully to takedown only when high-percentage opening presents itself, otherwise maintain defensive posture and pull guard safely"
+    },
+    {
+      "error": "Ignoring mat boundaries and spatial awareness",
+      "consequence": "Gets cornered against edge of mat with limited movement options, making guard pull or defense more difficult",
+      "correction": "Constantly monitor position relative to mat boundaries and use circular movement to stay in center of training area"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Grip Fighting Flow Drill",
+      "description": "Partners face each other standing and engage in continuous grip fighting for 2-minute rounds, focusing on establishing grips, breaking opponent grips, and maintaining hand control without executing takedowns or guard pulls. Emphasize active hands, proper framing distance, and defensive posture against snap-downs.",
+      "duration": "5 rounds of 2 minutes"
+    },
+    {
+      "name": "Guard Pull Entry Repetitions",
+      "description": "From standing position with partner grips established, practice pulling to different guard positions (closed guard, seated guard, shin-to-shin, single leg X) focusing on smooth entries and maintaining control throughout the pull. Partner provides 50% resistance. Complete 10 reps of each guard pull variation.",
+      "duration": "4 sets of 40 total reps"
+    },
+    {
+      "name": "Stance and Movement Drill",
+      "description": "Solo or with partner, practice maintaining proper athletic stance while moving forward, backward, and laterally in all directions. Focus on keeping weight on balls of feet, knees bent, and hands ready. Add level changes and direction changes every 3-5 seconds to develop dynamic footwork.",
+      "duration": "3 rounds of 3 minutes"
+    },
+    {
+      "name": "Takedown Defense to Guard Pull",
+      "description": "Partner shoots various takedown attempts (single leg, double leg, snap-down) at 70% speed. Defend with proper sprawl, wizzer, or posture control, then immediately transition to guard pull if defense is successful. Focus on reading takedown initiation and responding with appropriate defense before pulling guard.",
+      "duration": "5 rounds of 2 minutes, alternating roles"
+    },
+    {
+      "name": "Positional Sparring: Standing to Guard",
+      "description": "Start standing with grips engaged. Bottom player must successfully pull guard to a position of their choice while top player tries to establish passing position or score takedown. Reset after each successful transition or 45 seconds. Emphasize grip fighting, distance management, and clean guard pull entries.",
+      "duration": "6 rounds of 5 minutes, alternating roles"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "High-percentage guard pull to submission sequence",
+      "path": "Standing Guard Bottom → Pull guard → Closed Guard Bottom → Triangle Setup → Triangle from Guard → Won by Submission"
+    },
+    {
+      "name": "Aggressive snap-down to submission path",
+      "path": "Standing Guard Bottom → Snap Down to Front Headlock → Front Headlock Top → Guillotine Setup → Guillotine Choke → Won by Submission"
+    },
+    {
+      "name": "Arm drag to back attack sequence",
+      "path": "Standing Guard Bottom → Arm Drag to Back → Back Control Top → Rear Naked Choke → Won by Submission"
+    },
+    {
+      "name": "Single leg X entry to leg lock path",
+      "path": "Standing Guard Bottom → Standing to Single Leg X → Single Leg X Guard Bottom → Inside Ashi Entry → Inside Ashi-Garami Bottom → Heel Hook → Won by Submission"
+    },
+    {
+      "name": "Seated guard to omoplata finish",
+      "path": "Standing Guard Bottom → Sitting Guard Pull → Seated Guard Bottom → Omoplata from Guard → Won by Submission"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Standing Guard Top",
+      "relationship": "Sibling variant - opponent's perspective from same standing engagement"
+    },
+    {
+      "name": "Standing Guard",
+      "relationship": "Parent position - generic standing guard engagement"
+    },
+    {
+      "name": "Neutral Starting Position",
+      "relationship": "Precursor position before engagement"
+    },
+    {
+      "name": "Closed Guard Bottom",
+      "relationship": "Common transition target via guard pull"
+    },
+    {
+      "name": "Seated Guard Bottom",
+      "relationship": "Alternative guard pull target position"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Related standing defensive posture concept"
+    },
+    {
+      "name": "Technical Standup",
+      "relationship": "Key transition for returning to this position from seated guards"
+    },
+    {
+      "name": "Pull guard",
+      "relationship": "Primary offensive transition technique"
+    },
+    {
+      "name": "Guard Opening Sequence",
+      "relationship": "Precursor to establishing this position"
+    },
+    {
+      "name": "Sprawl Defense",
+      "relationship": "Critical defensive technique from this position"
+    },
+    {
+      "name": "Guard Retention Concepts",
+      "relationship": "Fundamental concept underlying position strategy"
+    },
+    {
+      "name": "Grip Fighting",
+      "relationship": "Essential concept for success in this position"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 45,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "advancement_probability": {
+      "beginner": 50,
+      "intermediate": 65,
+      "advanced": 80
+    },
+    "submission_probability": {
+      "beginner": 15,
+      "intermediate": 25,
+      "advanced": 40
+    },
+    "average_time": "15-45 seconds before guard pull or takedown"
+  },
+  "expert_insights": {
+    "danaher": "Standing Guard Bottom represents a critical decision-making phase in the positional hierarchy where the practitioner must balance defensive responsibility with offensive opportunity. The fundamental principle governing this position is distance management through active grip fighting and superior footwork. Biomechanically, the standing position offers maximum mobility but minimum structural stability compared to ground-based positions, creating a natural tension between defensive security and offensive potential. The key technical detail that separates competent practitioners from experts in this position is understanding that grip fighting is not merely about establishing grips, but about controlling the distance at which engagement occurs. Superior practitioners use hand fighting to create a buffer zone that allows them to dictate whether engagement leads to guard pulling from advantageous position or takedown attempts from safe entries. The position demands constant threat assessment: evaluate opponent's takedown ability, your guard pulling proficiency, and the risk-reward ratio of attempting offensive techniques versus safely establishing guard. Master practitioners understand this position as a gate-keeping phase where correct decisions multiply effectiveness of subsequent positions.",
+    "gordon_ryan": "In competition, Standing Guard Bottom is where most matches are won or lost before anyone hits the ground. I use this position to control the pace and dictate terms of engagement - if my opponent is a better wrestler, I pull guard early from my strongest grip configuration. If I'm confident in my takedown defense and want to tire them out, I make them work for 30-45 seconds in the standup phase before pulling to my best guard. The reality in high-level no-gi competition is that almost everyone pulls guard eventually, so this position is really about pulling guard on YOUR terms with YOUR grips. I focus on three things: first, never let them get the grips they want - if they need a collar tie to pass, make that grip hell to establish. Second, stay mobile and make them chase you, burning their energy while you stay fresh. Third, when you do pull guard, pull to a position where you immediately threaten something dangerous - closed guard for triangles, shin-to-shin for entries to leg attacks, or seated guard for dynamic entries. The worst thing you can do is pull guard passively and give them a free passing opportunity. Every guard pull should either threaten a submission or force them into a position where you have superior knowledge and technique.",
+    "eddie_bravo": "Standing Guard Bottom is all about being unpredictable and creative with your entries. In 10th Planet system, we don't waste time with traditional grip fighting - we're looking to create chaos and confusion before pulling into our game. The key is to fake high, go low, fake takedowns to set up guard pulls, or vice versa. I teach my guys to use constant level changes and feints to keep opponents guessing - maybe you drop for an ankle pick but it's really a setup for pulling to lockdown half guard, or you reach high like you're pulling closed guard but you actually sit to butterfly. The standing phase is psychological warfare - make them uncertain about what's coming next. We also use a lot of unconventional grips and angles. Instead of traditional collar-and-sleeve, we might grab the back of the head with one hand and the tricep with the other to set up a sitting pull to rubber guard. Or we use wrist control combined with sudden direction changes to create openings for guard pulls that land us directly in offensive positions like mission control or invisible collar setups. Don't be predictable - every standing engagement should keep your opponent on edge, never knowing if you're shooting, pulling, or creating some weird entry they've never seen before."
+  }
+}
+{
+  "metadata": {
+    "title": "Standing Guard | BJJ Position Guide | BJJ Graph",
+    "description": "Master Standing Guard in BJJ. Complete guide covering defensive structure, distance management, and transitions from upright posture. Strategic position for defensive reset.",
+    "state_id": "S059",
+    "tags": [
+      "bjj",
+      "position",
+      "standing",
+      "defensive",
+      "guard",
+      "distance-management"
+    ]
+  },
+  "overview": "Standing Guard represents a specialized defensive position where the practitioner maintains a guard-like defensive structure while standing upright, typically following a technical stand-up from a ground position. Unlike traditional seated or supine guard positions, the Standing Guard creates a defensive framework from an upright posture that prevents the opponent from easily closing distance or securing dominant grips, while simultaneously creating opportunities for the practitioner to disengage, counter-attack, or initiate their own offensive sequences. This position is characterized by the practitioner maintaining proper distance management, strategic grip fighting, and balanced footwork that facilitates defensive maneuverability. Standing Guard serves multiple critical functions including defensive resetting, tactical disengagement, and creating transitional opportunities to more advantageous positions. The position is particularly valuable in competition scenarios where strategic positioning and point management require controlled disengagement from unfavorable ground positions.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+  "state_invariants": [
+    "Practitioner maintains upright standing posture with balanced weight distribution across both feet, approximately shoulder-width apart, with slight bend in knees to facilitate quick directional changes and maintain athletic readiness",
+    "Defensive hand positioning creates protective frames with hands positioned at chest to face level, fingers spread and palms facing opponent to control distance and prevent opponent from establishing grips on collar, sleeves, or head",
+    "Strategic foot positioning maintains optimal distance from opponent (typically just outside opponent's immediate grip range), with lead foot positioned to create angles and rear foot positioned to provide stability and power for movement",
+    "Head position remains upright and centered over hips with eyes focused on opponent's chest and hip area to monitor their movement intentions while maintaining peripheral awareness of hand attacks",
+    "Body posture displays clear defensive intent with shoulders squared to opponent but positioned at slight angles to reduce available grip targets while maintaining ability to sprawl, circle away, or re-engage on own terms"
+  ],
+  "prerequisites": [
+    "Successful execution of technical stand-up from ground position or deliberate disengagement from seated guard",
+    "Understanding of proper distance management principles and ability to maintain safe striking/grip range",
+    "Recognition of opponent's position and intent (standing, kneeling, or transitioning)",
+    "Knowledge of grip fighting fundamentals and hand positioning strategies",
+    "Balance and footwork development sufficient to move laterally and maintain upright posture under pressure",
+    "Awareness of rule sets and point implications for standing versus ground engagement"
+  ],
+  "key_principles": [
+    "Establish and maintain defensive posture with hands positioned to prevent opponent's grips while keeping elbows close to body",
+    "Create and control distance through effective footwork, maintaining position just outside opponent's grip range",
+    "Apply strategic hand positioning to intercept and redirect opponent's grip attempts rather than allowing them to establish control",
+    "Maintain balanced athletic stance with weight distributed evenly, knees slightly bent, ready to move in any direction",
+    "Control opponent's advance through preventative framing, using extended arms to manage distance without overcommitting",
+    "Create angles through lateral movement and pivoting rather than linear backward movement that can lead to cage or boundary pressure",
+    "Recognize and capitalize on counter-attacking opportunities when opponent overextends or commits to unsuccessful grip attempts"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Pull guard",
+      "target_position": "Closed Guard Bottom",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Sitting Guard Pull",
+      "target_position": "Seated Guard Bottom",
+      "success_rates": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "Single Leg Entry",
+      "target_position": "Single Leg X Position Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Double Leg Entry",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Snap Down",
+      "target_position": "Front Headlock",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Standing to Single Leg X",
+      "target_position": "Single Leg X Position Bottom",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Rolling Guard Pull",
+      "target_position": "X-Guard",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Jumping Guard",
+      "target_position": "Closed Guard Bottom",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 55
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Technical Standup",
+      "target_position": "Neutral Starting Position",
+      "success_rate": 70
+    },
+    {
+      "technique": "Sprawl",
+      "target_position": "Defensive Position",
+      "success_rate": 65
+    },
+    {
+      "technique": "Guard Opening Sequence",
+      "target_position": "Open Guard Bottom",
+      "success_rate": 60
+    },
+    {
+      "technique": "Grip Break",
+      "target_position": "Standing Guard",
+      "success_rate": 55
+    },
+    {
+      "technique": "Takedown Defense",
+      "target_position": "Combat Base",
+      "success_rate": 50
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Sprawl Defense",
+      "target_position": "Front Headlock",
+      "trigger": "Opponent shoots for legs or attempts takedown"
+    },
+    {
+      "technique": "Snap Down to Front Headlock",
+      "target_position": "Front Headlock",
+      "trigger": "Opponent reaches forward with poor posture or overextends grip attempt"
+    },
+    {
+      "technique": "Pull guard",
+      "target_position": "Closed Guard Bottom",
+      "trigger": "Opponent establishes strong grips and begins to pressure forward"
+    },
+    {
+      "technique": "Single Leg Entry",
+      "target_position": "Single Leg X Position Bottom",
+      "trigger": "Opponent steps forward aggressively into range"
+    },
+    {
+      "technique": "Technical Stand Up to Single Leg",
+      "target_position": "Single Leg X Position Bottom",
+      "trigger": "Opponent pressures with upper body while leaving leg exposed"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent maintains safe distance and engages in grip fighting without committing",
+      "actions": [
+        {
+          "technique": "Grip Fighting",
+          "target": "Standing Guard",
+          "probability": 70
+        },
+        {
+          "technique": "Pull guard",
+          "target": "Closed Guard Bottom",
+          "probability": 60
+        },
+        {
+          "technique": "Sitting Guard Pull",
+          "target": "Seated Guard Bottom",
+          "probability": 65
+        }
+      ]
+    },
+    {
+      "condition": "If opponent shoots for takedown or attacks legs",
+      "actions": [
+        {
+          "technique": "Sprawl",
+          "target": "Defensive Position",
+          "probability": 70
+        },
+        {
+          "technique": "Snap Down to Front Headlock",
+          "target": "Front Headlock",
+          "probability": 55
+        },
+        {
+          "technique": "Takedown Defense",
+          "target": "Combat Base",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent establishes strong grips and begins to pressure forward aggressively",
+      "actions": [
+        {
+          "technique": "Pull guard",
+          "target": "Closed Guard Bottom",
+          "probability": 65
+        },
+        {
+          "technique": "Single Leg Entry",
+          "target": "Single Leg X Position Bottom",
+          "probability": 50
+        },
+        {
+          "technique": "Rolling Guard Pull",
+          "target": "X-Guard",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent remains stationary or backs away from engagement",
+      "actions": [
+        {
+          "technique": "Sitting Guard Pull",
+          "target": "Seated Guard Bottom",
+          "probability": 70
+        },
+        {
+          "technique": "Technical Standup",
+          "target": "Neutral Starting Position",
+          "probability": 60
+        },
+        {
+          "technique": "Double Leg Entry",
+          "target": "Top Position",
+          "probability": 40
+        }
+      ]
+    },
+    {
+      "condition": "If opponent overextends with grip attempts or shows poor posture",
+      "actions": [
+        {
+          "technique": "Snap Down",
+          "target": "Front Headlock",
+          "probability": 60
+        },
+        {
+          "technique": "Double Leg Entry",
+          "target": "Top Position",
+          "probability": 50
+        },
+        {
+          "technique": "Single Leg Entry",
+          "target": "Single Leg X Position Bottom",
+          "probability": 55
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Poor posture maintenance with rounded back and forward lean",
+      "consequence": "Creates vulnerability to opponent's snap-downs, front headlocks, and forward pressure attacks while limiting defensive mobility and making it difficult to establish effective frames",
+      "correction": "Maintain upright posture with chest up, shoulders back, and head centered over hips; keep spine neutral and core engaged to create strong defensive structure that can resist forward pressure and maintain balance"
+    },
+    {
+      "error": "Ineffective distance management staying too close to opponent",
+      "consequence": "Allows opponent to easily establish grips on collar, sleeves, or head without having to earn them, immediately putting practitioner on defensive and limiting offensive options",
+      "correction": "Maintain distance just outside opponent's comfortable grip range; use footwork to circle and create angles rather than allowing static positioning that favors opponent's grip game"
+    },
+    {
+      "error": "Neglecting grip fighting and allowing opponent to establish grips freely",
+      "consequence": "Opponent gains control of the engagement and can dictate pace, position, and transition timing, making defensive responses reactive rather than proactive",
+      "correction": "Actively engage in grip fighting with intentional hand placement; intercept opponent's grip attempts with frames and redirections; establish own grips when opportunities arise to control engagement"
+    },
+    {
+      "error": "Stationary positioning without lateral movement or circling",
+      "consequence": "Becomes easy target for opponent's attacks and makes it simple for opponent to corner practitioner against cage or boundary, limiting escape routes and defensive options",
+      "correction": "Maintain constant subtle movement with small steps and weight shifts; circle laterally to create angles; avoid linear backward movement that leads to being cornered or trapped"
+    },
+    {
+      "error": "Overcommitment to maintaining stand-up position when strategic pull to guard is better option",
+      "consequence": "Wastes energy fighting to maintain standing position when opponent has superior standing game or when strategic situation favors guard play, potentially conceding advantageous positions",
+      "correction": "Recognize when opponent's standing game is superior or when rules and time favor guard engagement; strategically choose appropriate time to pull guard rather than stubbornly maintaining standing position"
+    },
+    {
+      "error": "Extending arms too far from body when framing",
+      "consequence": "Creates weak frames that opponent can easily collapse or control; leaves arms vulnerable to arm drags, grip controls, and makes it difficult to maintain defensive structure",
+      "correction": "Keep elbows relatively close to body (6-12 inches) when framing; extend from strong structural position rather than reaching; use palm pressure and finger positioning rather than arm extension for distance control"
+    },
+    {
+      "error": "Looking down at opponent's hands instead of maintaining proper head position",
+      "consequence": "Drops head forward which weakens posture, makes snap-downs easier, and limits peripheral vision needed to track opponent's movement and intentions",
+      "correction": "Keep head up and eyes focused on opponent's chest/hip area to monitor their center of mass; use peripheral vision and tactile feedback to track hand movements without dropping head position"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Standing Guard Maintenance Against Progressive Pressure",
+      "description": "Partner starts at safe distance and progressively increases pressure with grip attempts and forward movement. Practitioner maintains standing guard position using distance management, grip fighting, and lateral footwork to prevent partner from establishing dominant grips or closing distance effectively.",
+      "duration": "3-5 minute rounds"
+    },
+    {
+      "name": "Transition Flows Between Standing Guard and Ground Positions",
+      "description": "Flow drill alternating between standing guard, technical stand-up, and various guard pulls (closed guard, seated guard, x-guard entry). Focus on smooth transitions, maintaining defensive posture throughout transitions, and choosing appropriate guard entry based on partner's positioning.",
+      "duration": "5 minute continuous flow"
+    },
+    {
+      "name": "Grip Fighting Sequences from Standing Defensive Posture",
+      "description": "Specific grip fighting practice starting from standing guard position. Partner attempts to establish various grips (collar, sleeve, head, underhooks) while practitioner uses frames, redirections, and counter-grips to prevent establishment and create offensive opportunities.",
+      "duration": "2-3 minute rounds with rotation"
+    },
+    {
+      "name": "Decision Making Drill: Stand vs Pull Guard",
+      "description": "Situational sparring where coach calls out scenarios (time remaining, point differential, opponent type) and practitioner must decide whether to maintain standing guard, pull guard strategically, or attempt takedown. Focus on tactical decision-making based on strategic context.",
+      "duration": "Scenario-based, 1-2 minutes per situation"
+    },
+    {
+      "name": "Sprawl Defense from Standing Guard",
+      "description": "Partner shoots for legs from various distances and angles while practitioner maintains standing guard until attack, then executes appropriate sprawl defense. Emphasizes recognition of attack initiation and immediate defensive response without telegraphing anticipation.",
+      "duration": "10 repetitions per angle"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Shortest Path to Submission via Closed Guard",
+      "path": "Standing Guard → Pull guard → Closed Guard Bottom → Triangle Setup → Triangle Choke"
+    },
+    {
+      "name": "High-Percentage Path via Single Leg X",
+      "path": "Standing Guard → Single Leg Entry → Single Leg X Position Bottom → Single Leg X Sweep → Top Position → Kimura from Side Control"
+    },
+    {
+      "name": "Opportunistic Counter-Attack Path",
+      "path": "Standing Guard → Snap Down → Front Headlock → Guillotine Choke"
+    },
+    {
+      "name": "Strategic Guard Pull to Back Attack",
+      "path": "Standing Guard → Sitting Guard Pull → Seated Guard Bottom → Berimbolo Entry → Back Control → Rear Naked Choke"
+    },
+    {
+      "name": "Takedown to Dominant Position Path",
+      "path": "Standing Guard → Double Leg Entry → Top Position → Side Control to Mount → Americana from Mount"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Standing Position",
+      "relationship": "Base standing position - Standing Guard is defensive variant"
+    },
+    {
+      "name": "Neutral Starting Position",
+      "relationship": "Initial position before establishing Standing Guard structure"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Kneeling defensive position - alternative defensive structure"
+    },
+    {
+      "name": "Defensive Position",
+      "relationship": "General defensive framework category"
+    },
+    {
+      "name": "Guard Recovery",
+      "relationship": "Common target when standing guard is compromised"
+    },
+    {
+      "name": "Technical Standup",
+      "relationship": "Transition used to establish Standing Guard from ground"
+    },
+    {
+      "name": "Guard Retention Concepts",
+      "relationship": "Conceptual framework applicable to maintaining standing guard"
+    },
+    {
+      "name": "Grip Fighting",
+      "relationship": "Essential skill for Standing Guard effectiveness"
+    },
+    {
+      "name": "Distance Creation",
+      "relationship": "Core principle for Standing Guard positioning"
+    },
+    {
+      "name": "Closed Guard Bottom",
+      "relationship": "Common transition target via guard pull"
+    },
+    {
+      "name": "Seated Guard Bottom",
+      "relationship": "Alternative guard pull target from standing"
+    },
+    {
+      "name": "Standing Defense Strategy",
+      "relationship": "Strategic system incorporating Standing Guard principles"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 35,
+      "intermediate": 55,
+      "advanced": 75
+    },
+    "advancement_probability": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "submission_probability": {
+      "beginner": 15,
+      "intermediate": 30,
+      "advanced": 45
+    },
+    "average_time": "15-45 seconds"
+  },
+  "expert_insights": {
+    "danaher": "Standing Guard represents a critical transitional position that exists at the intersection of standing and ground-based exchanges, and its effectiveness depends entirely on the practitioner's understanding of distance management and grip fighting hierarchy. The position functions as a defensive reset mechanism that allows the practitioner to disengage from unfavorable ground positions and re-establish engagement on more favorable terms. The key to Standing Guard effectiveness lies in maintaining proper biomechanical structure with balanced weight distribution, strategic hand positioning that prevents opponent's grip establishment, and constant subtle movement that makes it difficult for the opponent to time their attacks. The practitioner must understand that Standing Guard is not a static defensive position but rather a dynamic state that facilitates decision-making about whether to maintain distance, pull guard strategically, or counter-attack based on the opponent's actions and the tactical situation. The position's success depends on the practitioner's ability to control the engagement distance, recognize the opponent's intentions through their grip attempts and weight distribution, and execute appropriate responses before the opponent can establish dominant grips or close distance effectively.",
+    "gordon_ryan": "Standing Guard is a position I use strategically in competition when I need to reset the engagement or when I recognize that my opponent has a superior standing game that I want to avoid engaging with directly. The key is not to view Standing Guard as a purely defensive position but rather as a tactical platform for creating favorable engagement opportunities on my terms. I focus heavily on grip fighting from this position, not just defensively preventing grips but actively establishing my own grips that facilitate my preferred guard pull entries or create opportunities for counter-attacks if the opponent overcommits. Distance management is crucial - I maintain position just outside my opponent's comfortable grip range, which forces them to step forward and commit to close distance, creating opportunities for guard pulls, snap-downs, or even offensive takedowns if they're poorly positioned. In competition, I use Standing Guard to manage the pace of the match, control when and how we engage on the ground, and prevent my opponent from dictating the terms of engagement. The position is particularly effective when combined with strategic awareness of time, score differential, and the opponent's preferred game, allowing me to make tactical decisions about when to pull guard versus when to maintain standing distance and force the opponent to engage on my terms.",
+    "eddie_bravo": "Standing Guard is something we work extensively in the 10th Planet system because it's the bridge between standing and our preferred ground positions, particularly our guard system. The key is to think of Standing Guard not as a stalling position but as an offensive launching platform for entering our specialized guards like Rubber Guard, Lockdown, or our leg entanglement positions. I teach my students to use deceptive movement and misdirection from Standing Guard - making the opponent think you're going to pull guard one way and then hitting a different entry, or faking a takedown attempt to create reaction for a guard pull. The grip fighting from Standing Guard is crucial but I emphasize unconventional grips and angles that set up our specific guard entries rather than traditional collar-and-sleeve fighting. We also use Standing Guard strategically to create fatigue in opponents who are trying to pressure us - constantly making them work to close distance and establish grips burns their energy while we stay relatively fresh and ready to explode into our offensive sequences. The position works particularly well in no-gi where traditional grip fighting is less effective and we can focus on hand fighting, angle creation, and explosive entries into our system. I want my guys comfortable transitioning fluidly between Standing Guard and our ground positions, making it difficult for opponents to predict or prepare for our entries."
+  }
+}
+{
+  "metadata": {
+    "title": "Standing Guard Top | BJJ Position Guide | BJJ Graph",
+    "description": "Master Standing Guard Top position in BJJ. Complete guide covering passing strategies, pressure application, and transitions with 65% pass success rate for advanced players.",
+    "state_id": "S200",
+    "tags": ["bjj", "position", "standing-guard", "guard-passing", "top-position"],
+    "parent_variant": "Standing Guard",
+    "sibling_variants": ["Standing Guard Bottom"]
+  },
+  "overview": "Standing Guard Top is a fundamental passing position where the top player maintains an upright posture while the bottom player has some form of open guard established. This position represents a critical decision point in BJJ where the standing player must choose between pressure-based passing, speed-based passing, or dynamic movement to circumvent the guard. The standing player's primary objective is to control distance, break grips, and create passing opportunities while avoiding sweeps and submissions.\n\nFrom Standing Guard Top, the practitioner has numerous passing options including the Toreando Pass, Leg Drag Pass, and various knee-slice entries. The position allows for both explosive speed-based attacks and methodical pressure-based approaches depending on the opponent's guard style and the player's physical attributes. Success in this position requires excellent balance, grip fighting skills, and the ability to read the opponent's defensive posture to select the appropriate passing strategy.\n\nThe position is particularly valuable in competition settings where maintaining an upright posture can prevent guard pulls, facilitate scoring through passing, and create opportunities for both guard passes and takedowns. Modern BJJ has seen an evolution in standing guard passing with increased emphasis on leg-based attacks, dynamic footwork, and combination passing sequences that chain multiple techniques together to overcome sophisticated guard retention systems.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+  "state_invariants": [
+    "Top player maintains upright standing posture with feet on the mat, hips elevated above opponent's guard with weight distributed through legs and feet for mobility",
+    "Bottom player on their back with at least one point of connection to top player (grips, hooks, or frames) attempting to control distance and prevent passing",
+    "Top player's hands engaged in grip fighting or controlling opponent's legs/hips to create passing opportunities while maintaining balance and base",
+    "Distance management zone between players allowing top player to move while bottom player attempts to maintain guard connection through hooks or grips"
+  ],
+  "prerequisites": [
+    "Opponent has established open guard from bottom position",
+    "Top player has achieved standing posture with both feet on mat",
+    "Bottom player's closed guard has been opened or was never established",
+    "Top player maintains balance and base while standing in opponent's guard range"
+  ],
+  "key_principles": [
+    "Maintain upright posture with chin up and shoulders back to prevent being pulled down into closed guard or submissions",
+    "Control opponent's legs and hips through grips to limit their ability to establish hooks and frames",
+    "Use dynamic footwork and angles to create passing opportunities while avoiding sweeps",
+    "Break opponent's grips systematically before initiating passing sequences to reduce defensive options",
+    "Apply downward pressure on opponent's legs when appropriate to flatten guard and create passing lanes",
+    "Maintain base width and weight distribution to prevent off-balancing and sweep attempts",
+    "Time explosive movements with opponent's defensive adjustments to exploit openings in guard retention"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Toreando Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Leg Drag Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Double Under Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "X Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Long Step Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Back Step",
+      "target_position": "Back Control Top",
+      "success_rates": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 45
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "De La Riva Sweep",
+      "target_position": "De La Riva Guard Bottom",
+      "success_rate": 40
+    },
+    {
+      "technique": "Butterfly Sweep",
+      "target_position": "Butterfly Guard Bottom",
+      "success_rate": 35
+    },
+    {
+      "technique": "Spider Guard Sweeps",
+      "target_position": "Spider Guard Bottom",
+      "success_rate": 45
+    },
+    {
+      "technique": "Lasso Guard Sweeps",
+      "target_position": "Lasso Guard Bottom",
+      "success_rate": 40
+    },
+    {
+      "technique": "X-Guard Sweep",
+      "target_position": "X-Guard Bottom",
+      "success_rate": 50
+    },
+    {
+      "technique": "Reverse De La Riva Recovery",
+      "target_position": "Reverse De La Riva Guard Bottom",
+      "success_rate": 35
+    },
+    {
+      "technique": "Single Leg X Sweep",
+      "target_position": "Single Leg X Guard Bottom",
+      "success_rate": 45
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Sprawl Defense",
+      "target_position": "Front Headlock Top",
+      "trigger": "Opponent attempts single leg entry from guard"
+    },
+    {
+      "technique": "Grip Break",
+      "target_position": "Standing Guard Top",
+      "trigger": "Opponent establishes collar or sleeve grips"
+    },
+    {
+      "technique": "Smash Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent creates space with frames"
+    },
+    {
+      "technique": "Knee Cut Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Opponent extends legs for distance management"
+    },
+    {
+      "technique": "Back Step",
+      "target_position": "Back Control Top",
+      "trigger": "Opponent commits to De La Riva hook"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent establishes strong collar and sleeve grips with active foot placement",
+      "actions": [
+        {
+          "technique": "Grip Break",
+          "target": "Standing Guard Top",
+          "probability": 70
+        },
+        {
+          "technique": "Toreando Pass",
+          "target": "Side Control Top",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent extends legs for distance with limited grip control",
+      "actions": [
+        {
+          "technique": "Leg Drag Pass",
+          "target": "Side Control Top",
+          "probability": 60
+        },
+        {
+          "technique": "X Pass",
+          "target": "Side Control Top",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent creates frames and uses butterfly hooks for elevation",
+      "actions": [
+        {
+          "technique": "Knee Slice Pass",
+          "target": "Side Control Top",
+          "probability": 65
+        },
+        {
+          "technique": "Double Under Pass",
+          "target": "Side Control Top",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent establishes De La Riva hook on lead leg",
+      "actions": [
+        {
+          "technique": "Back Step",
+          "target": "Back Control Top",
+          "probability": 45
+        },
+        {
+          "technique": "RDLR Pass",
+          "target": "Side Control Top",
+          "probability": 40
+        }
+      ]
+    },
+    {
+      "condition": "If opponent inverts or attempts rolling attacks",
+      "actions": [
+        {
+          "technique": "Stack Pass",
+          "target": "Side Control Top",
+          "probability": 50
+        },
+        {
+          "technique": "Front Headlock Series",
+          "target": "Front Headlock Top",
+          "probability": 45
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Leaning forward with weight over opponent's guard",
+      "consequence": "Increased vulnerability to sweeps, triangle chokes, and being pulled down into closed guard",
+      "correction": "Maintain upright posture with hips back, chest up, and weight distributed through feet with slight backward lean"
+    },
+    {
+      "error": "Allowing opponent to establish dominant grips without immediate response",
+      "consequence": "Opponent controls distance and timing, making passing attempts predictable and easier to defend",
+      "correction": "Engage in active grip fighting, breaking opponent's grips systematically before initiating passing sequences"
+    },
+    {
+      "error": "Standing with feet too close together in narrow stance",
+      "consequence": "Poor base and balance making practitioner vulnerable to sweeps and off-balancing attacks",
+      "correction": "Maintain shoulder-width or wider stance with weight distributed evenly through both feet for stability"
+    },
+    {
+      "error": "Initiating passing attempts without controlling opponent's legs or hips first",
+      "consequence": "Opponent can easily retain guard through hooks, frames, and hip movement",
+      "correction": "Establish control of opponent's legs or hips before committing to passing movement to limit defensive options"
+    },
+    {
+      "error": "Moving predictably with single-direction passing attempts",
+      "consequence": "Opponent can anticipate movement and prepare appropriate guard retention responses",
+      "correction": "Use combination passing with direction changes and multiple attack angles to overwhelm guard retention"
+    },
+    {
+      "error": "Keeping hands too high or too low relative to opponent's guard",
+      "consequence": "Unable to effectively control distance, break grips, or initiate passing sequences",
+      "correction": "Position hands at hip/thigh level to control opponent's legs while maintaining ability to break grips as needed"
+    },
+    {
+      "error": "Remaining static in standing position without pressure or movement",
+      "consequence": "Allows opponent to establish ideal guard, set grips, and prepare defensive strategy",
+      "correction": "Apply constant pressure through grip fighting and dynamic footwork to keep opponent reactive and defensive"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Grip Fighting Flow",
+      "description": "Partner starts in open guard with various grips while top player practices systematically breaking grips and establishing passing control points. Focus on hand fighting techniques and preventing opponent from resetting grips.",
+      "duration": "5 minutes per round"
+    },
+    {
+      "name": "Standing Guard Pass Progression",
+      "description": "Start standing in opponent's open guard with specific passing goal (Toreando, Leg Drag, etc.). Bottom player provides progressive resistance levels: 25%, 50%, 75%, 100%. Work through full passing sequence from grip break to position consolidation.",
+      "duration": "3 minutes per technique"
+    },
+    {
+      "name": "Base and Balance Challenge",
+      "description": "Top player stands in opponent's guard while bottom player attempts various sweeps and off-balancing attacks. Top player focuses solely on maintaining balance, base, and standing posture without attempting to pass.",
+      "duration": "4 minutes per round"
+    },
+    {
+      "name": "Combination Passing Flow",
+      "description": "Chain 3-4 different passing techniques together in continuous flow. When bottom player defends one pass, immediately transition to next passing option. Develops ability to read guard retention and adjust passing strategy dynamically.",
+      "duration": "6 minutes per round"
+    },
+    {
+      "name": "Specific Guard Type Passing",
+      "description": "Bottom player establishes specific guard type (De La Riva, Spider, Lasso, etc.) and maintains that guard structure. Top player develops passing strategies specific to that guard configuration with focus on appropriate grips, angles, and timing.",
+      "duration": "4 minutes per guard type"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Fastest passing path to submission",
+      "path": "Standing Guard Top → Toreando Pass → Side Control Top → Transition to Mount → Mount Top → Armbar from Mount"
+    },
+    {
+      "name": "High-percentage pressure passing path",
+      "path": "Standing Guard Top → Knee Slice Pass → Side Control Top → Transition to North-South → North-South Choke"
+    },
+    {
+      "name": "Back attack path",
+      "path": "Standing Guard Top → Back Step → Back Control Top → Rear Naked Choke"
+    },
+    {
+      "name": "Leg drag to back path",
+      "path": "Standing Guard Top → Leg Drag Pass → Back Control Top → Rear Naked Choke"
+    },
+    {
+      "name": "Stack passing to submission",
+      "path": "Standing Guard Top → Stack Pass → Side Control Top → Kimura from Side Control"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Standing Guard Bottom",
+      "relationship": "Opposite perspective of same position"
+    },
+    {
+      "name": "Open Guard Top",
+      "relationship": "Similar position with top player in lower posture"
+    },
+    {
+      "name": "Toreando Pass",
+      "relationship": "Primary transition technique from this position"
+    },
+    {
+      "name": "Leg Drag Pass",
+      "relationship": "Common transition technique"
+    },
+    {
+      "name": "Side Control Top",
+      "relationship": "Common target position after successful pass"
+    },
+    {
+      "name": "De La Riva Guard Bottom",
+      "relationship": "Common guard type faced from this position"
+    },
+    {
+      "name": "Spider Guard Bottom",
+      "relationship": "Common guard type faced from this position"
+    },
+    {
+      "name": "Guard Pass",
+      "relationship": "General concept applied from this position"
+    },
+    {
+      "name": "Grip Fighting",
+      "relationship": "Essential concept for success in this position"
+    },
+    {
+      "name": "Guard Passing Principles",
+      "relationship": "Fundamental concepts governing this position"
+    },
+    {
+      "name": "Pressure Passing Framework",
+      "relationship": "Strategic system applicable from this position"
+    },
+    {
+      "name": "Speed Passing",
+      "relationship": "Alternative strategic approach from this position"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 60,
+      "intermediate": 70,
+      "advanced": 80
+    },
+    "advancement_probability": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 65
+    },
+    "submission_probability": {
+      "beginner": 5,
+      "intermediate": 10,
+      "advanced": 15
+    },
+    "average_time": "30-90 seconds before passing attempt or guard pull"
+  },
+  "expert_insights": {
+    "danaher": "Standing guard passing represents the intersection of biomechanics, timing, and strategic decision-making. The critical principle is understanding that your upright posture provides both advantages and vulnerabilities - you gain mobility and the ability to generate explosive passing momentum, but you sacrifice the pressure-based control available from lower postures. The key is systematic grip control: you must dominate the grip fighting exchange to dictate the terms of engagement. Break the opponent's grips methodically, establish your own control points on their legs or hips, and only then commit to your passing sequence. The standing position also allows you to read the opponent's guard configuration and select the appropriate passing strategy - pressure-based approaches like the knee slice for stretched-out guards, or speed-based approaches like the Toreando for compact defensive structures.",
+    "gordon_ryan": "In competition, standing guard passing is my primary method for dealing with modern guard players because it allows me to control the pace and choose my passing entries. The biggest mistake I see is people standing up without a clear passing plan - they just stand there and let the guard player establish their ideal guard structure. I always enter standing with grip fighting intent and immediately start breaking down their guard configuration. My preference is the leg drag and Toreando combination because they work together perfectly - if they defend the leg drag by keeping their legs tight, I switch to Toreando; if they extend to stop the Toreando, I come back to the leg drag. The standing position also lets me avoid getting stuck in long guard passing battles that drain energy. I can explode into my pass, and if it doesn't work immediately, I can reset to standing and try a different approach rather than getting caught in a grinding pressure pass.",
+    "eddie_bravo": "Standing guard passing is essential in no-gi where you don't have the gi grips to control from lower positions, but the same principles apply in gi as well. The key thing people miss is that standing guard passing is about creating dilemmas and misdirection - you can't just bull rush through someone's guard. I like to use fakes and feints from the standing position to get the opponent moving their legs or shifting their weight, then I attack the opening they create. The standing position also sets up some of my favorite submission entries. If someone is defending guard passes really well, I'll sometimes fake a pass to get them to extend their legs, then I can drop down for leg attacks or front headlock positions. The versatility is what makes standing guard passing so effective - you're not committed to one plane of attack like you are when you're on your knees grinding through a pressure pass."
+  }
+}

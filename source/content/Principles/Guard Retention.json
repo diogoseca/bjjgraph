@@ -1,0 +1,1239 @@
+{
+  "metadata": {
+    "title": "Guard Retention Bottom | BJJ Position Guide | BJJ Graph",
+    "description": "Master guard retention in BJJ. Complete guide covering frame creation, hip mobility, and recovery. Defensive position with 60% retention success at advanced level.",
+    "state_id": "S092",
+    "tags": ["bjj", "position", "guard-retention", "defensive", "bottom", "guard-recovery"],
+    "parent_variant": "Guard Retention",
+    "sibling_variants": ["Guard Retention Top"]
+  },
+  "overview": "Guard Retention Bottom is the defensive framework employed when your guard is under attack and you're working to prevent the pass. This position represents the critical transition phase between established guard and potential guard pass, requiring constant movement, proper framing, and intelligent space management. Unlike static guard positions, guard retention is highly dynamic, involving continuous hip escapes, frame resets, and defensive reactions to maintain guard structure. The position demands excellent conditioning, timing, and positional awareness as you navigate the opponent's passing attempts while seeking opportunities to re-establish full guard or counter-attack. Success in guard retention separates competent guard players from elite ones, as it determines whether you maintain bottom position advantage or concede top control. The ability to retain guard under pressure is fundamental to modern BJJ, particularly in competition where persistent guard passers will test your defensive capabilities repeatedly throughout a match.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive",
+    "risk_level": "High",
+    "energy_cost": "High",
+    "time_sustainability": "Short to Medium"
+  },
+  "state_invariants": [
+    "Bottom player's hips remain mobile and off the mat, maintaining dynamic positioning to prevent opponent from settling into passing position with weight and pressure",
+    "Active frames established between bottom player's limbs and opponent's body, creating distance and preventing chest-to-chest contact that signals guard pass completion",
+    "Bottom player's shoulders remain on or near the mat while hips face opponent, maintaining guard structure orientation despite pressure and preventing back exposure",
+    "At least one connection point (hook, grip, frame) maintained between bottom and top player to enable guard recovery, even if traditional guard structure is compromised",
+    "Bottom player's spine aligned and core engaged to enable shrimping movements, with knees pulled toward chest to maintain defensive ball position under pressure"
+  ],
+  "prerequisites": [
+    "Opponent has initiated guard passing sequence from established guard position",
+    "Bottom player's guard structure is under direct attack with at least one guard component compromised",
+    "Space has been created between bottom player and opponent, requiring active frames or hooks to prevent pass completion",
+    "Bottom player maintains some degree of hip mobility despite opponent's passing pressure",
+    "Opponent has not yet achieved chest-to-chest contact or established three points of control indicating completed pass"
+  ],
+  "key_principles": [
+    "Maintain constant hip mobility through shrimping and inversion to prevent opponent from pinning hips to mat",
+    "Create and reset frames continuously using hands, forearms, shins, and feet to manage distance",
+    "Keep at least one connection point (hook, grip, frame) to opponent at all times to enable guard recovery",
+    "Generate space through explosive hip movements before opponent can consolidate passing position",
+    "Recover full guard by using frames to create distance, then reestablishing hooks and control points",
+    "Never allow opponent to achieve chest-to-chest contact without active defensive response",
+    "Use timing and opponent's momentum against them to create counter-opportunities during passing attempts"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Re-Guard",
+      "target_position": "Closed Guard Bottom",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Butterfly Sweep",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Deep Half Entry",
+      "target_position": "Deep Half Guard Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "X-Guard Sweep",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Reverse De La Riva Recovery",
+      "target_position": "Reverse De La Riva Guard Bottom",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Rolling to Guard",
+      "target_position": "Closed Guard Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Technical Standup",
+      "target_position": "Standing Position",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Single Leg X Entry",
+      "target_position": "Single Leg X Guard Bottom",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Granby Roll",
+      "target_position": "Turtle Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 45
+    },
+    {
+      "technique": "Toreando Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 40
+    },
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 50
+    },
+    {
+      "technique": "Long Step Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 45
+    },
+    {
+      "technique": "Leg Drag Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 55
+    },
+    {
+      "technique": "Smash Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 50
+    },
+    {
+      "technique": "Over-Under Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 45
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Frame and Shrimp",
+      "target_position": "Guard Recovery Bottom",
+      "trigger": "Opponent attempts to settle weight during knee slice pass"
+    },
+    {
+      "technique": "Butterfly Sweep",
+      "target_position": "Butterfly Guard Bottom",
+      "trigger": "Opponent stands to pass with toreando attempt"
+    },
+    {
+      "technique": "Shin Shield Recovery",
+      "target_position": "Knee Shield Half Guard Bottom",
+      "trigger": "Opponent begins to pass around legs with pressure"
+    },
+    {
+      "technique": "Granby to Closed Guard",
+      "target_position": "Closed Guard Bottom",
+      "trigger": "Opponent commits to stack pass with forward pressure"
+    },
+    {
+      "technique": "Technical Standup",
+      "target_position": "Standing Position",
+      "trigger": "Opponent disengages to reset passing approach"
+    },
+    {
+      "technique": "Reverse De La Riva Recovery",
+      "target_position": "Reverse De La Riva Guard Bottom",
+      "trigger": "Opponent steps back with one leg during standing pass"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent attempts knee slice pass with knee cutting through center",
+      "actions": [
+        {
+          "technique": "Frame and Shrimp",
+          "target": "Guard Recovery Bottom",
+          "probability": 55
+        },
+        {
+          "technique": "Butterfly Sweep",
+          "target": "Butterfly Guard Bottom",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent stands and attempts toreando pass with both hands on pants",
+      "actions": [
+        {
+          "technique": "Technical Standup",
+          "target": "Standing Position",
+          "probability": 50
+        },
+        {
+          "technique": "Single Leg X Entry",
+          "target": "Single Leg X Guard Bottom",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent drives forward with stack pass pressure",
+      "actions": [
+        {
+          "technique": "Granby Roll",
+          "target": "Turtle Bottom",
+          "probability": 55
+        },
+        {
+          "technique": "Granby to Closed Guard",
+          "target": "Closed Guard Bottom",
+          "probability": 40
+        }
+      ]
+    },
+    {
+      "condition": "If opponent controls one leg and attempts leg drag",
+      "actions": [
+        {
+          "technique": "Reverse De La Riva Recovery",
+          "target": "Reverse De La Riva Guard Bottom",
+          "probability": 50
+        },
+        {
+          "technique": "Deep Half Entry",
+          "target": "Deep Half Guard Bottom",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If opponent achieves headquarters position with significant pressure",
+      "actions": [
+        {
+          "technique": "Shin Shield Recovery",
+          "target": "Knee Shield Half Guard Bottom",
+          "probability": 55
+        },
+        {
+          "technique": "Re-Guard",
+          "target": "Half Guard Bottom",
+          "probability": 40
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Allowing hips to remain flat on mat during guard retention attempts",
+      "consequence": "Opponent easily settles weight and completes pass without resistance",
+      "correction": "Continuously shrimp and elevate hips off mat, maintaining dynamic positioning to prevent opponent from pinning hips down"
+    },
+    {
+      "error": "Posting hands on mat instead of creating active frames on opponent's body",
+      "consequence": "Loss of distance management allows opponent to close space and achieve chest-to-chest contact",
+      "correction": "Keep hands on opponent's hips, shoulders, or biceps to create frames that actively manage distance and prevent forward pressure"
+    },
+    {
+      "error": "Committing fully to single guard recovery attempt without backup plan",
+      "consequence": "Opponent anticipates and counters specific recovery, completing pass when initial attempt fails",
+      "correction": "Chain multiple guard recovery options together, using opponent's reactions to first attempt to set up second and third options"
+    },
+    {
+      "error": "Excessive grip fighting that prevents hip movement and mobility",
+      "consequence": "Static positioning allows opponent to consolidate passing position while bottom player focuses on grips",
+      "correction": "Prioritize hip mobility and movement over grip battles during guard retention, using frames more than grips initially"
+    },
+    {
+      "error": "Turning away from opponent or exposing back during retention attempts",
+      "consequence": "Opponent transitions to back control or takes dominant position from back exposure",
+      "correction": "Always keep chest facing opponent during guard retention, using granby rolls and inversions that maintain front-facing orientation"
+    },
+    {
+      "error": "Giving up on guard retention too early and accepting inferior position",
+      "consequence": "Unnecessary concession of guard position when recovery was still possible",
+      "correction": "Fight until opponent achieves three points of control (chest-to-chest plus two points), maintaining active retention until pass is truly completed"
+    },
+    {
+      "error": "Neglecting to use legs and feet as frames during retention sequences",
+      "consequence": "Limited framing options reduce effectiveness of distance management",
+      "correction": "Employ feet on hips, shin shields, and knee frames as primary distance management tools before opponent gets close enough to require hand frames"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Guard Retention Flow Drill",
+      "description": "Partner slowly attempts various guard passes while bottom player practices continuous shrimping, framing, and guard recovery. Focus on maintaining constant hip movement and never allowing static positioning. Progress from slow to competition pace.",
+      "duration": "5 minutes per round"
+    },
+    {
+      "name": "One-Handed Guard Retention",
+      "description": "Bottom player retains guard with only one hand available for framing, forcing increased reliance on hip movement, leg frames, and mobility. Develops core retention skills without over-dependence on hand frames.",
+      "duration": "3 minutes per side"
+    },
+    {
+      "name": "Guard Recovery Chains",
+      "description": "Partner attempts specific pass while bottom player practices chaining 3-4 guard recovery options together based on opponent's reactions. Emphasizes decision-making and transitioning between different recovery techniques.",
+      "duration": "5 minutes per round"
+    },
+    {
+      "name": "Positional Sparring from Guard Attack",
+      "description": "Start with opponent in middle of guard passing sequence. Bottom player works to recover full guard within 30 seconds while top player works to complete pass. Reset and repeat with different passing scenarios.",
+      "duration": "8 minutes (16 rounds of 30 seconds)"
+    },
+    {
+      "name": "Technical Standup Transitions",
+      "description": "Practice transitioning from various compromised guard positions to technical standup, then immediately back to guard recovery. Develops ability to use standing as guard retention tool rather than abandoning position.",
+      "duration": "4 minutes per round"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Guard Recovery to Triangle",
+      "path": "Guard Retention Bottom → Re-Guard → Closed Guard Bottom → Triangle Setup → Triangle Choke"
+    },
+    {
+      "name": "Deep Half to Back Attack",
+      "path": "Guard Retention Bottom → Deep Half Entry → Deep Half Guard Bottom → X-Guard Sweep → Back Control Bottom → Rear Naked Choke"
+    },
+    {
+      "name": "Technical Standup to Guillotine",
+      "path": "Guard Retention Bottom → Technical Standup → Standing Position → Snap Down to Front Headlock → Guillotine Choke"
+    },
+    {
+      "name": "Butterfly Recovery to Sweep to Mount",
+      "path": "Guard Retention Bottom → Butterfly Sweep → Butterfly Guard Bottom → Butterfly Sweep → Mount Top → Armbar from Mount"
+    },
+    {
+      "name": "X-Guard to Leg Entanglement",
+      "path": "Guard Retention Bottom → Single Leg X Entry → Single Leg X Guard Bottom → X-Guard Sweep → Ashi Garami Top → Heel Hook"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Closed Guard Bottom",
+      "relationship": "Primary target position for guard recovery from retention phase"
+    },
+    {
+      "name": "Guard Recovery Bottom",
+      "relationship": "Transitional position focused on re-establishing guard structure"
+    },
+    {
+      "name": "Deep Half Guard Bottom",
+      "relationship": "Alternative guard recovery option during retention sequences"
+    },
+    {
+      "name": "Butterfly Guard Bottom",
+      "relationship": "Open guard option for retention against standing passes"
+    },
+    {
+      "name": "Knee Shield Half Guard Bottom",
+      "relationship": "Half guard variation used as retention backup when full guard recovery fails"
+    },
+    {
+      "name": "Frame and Shrimp",
+      "relationship": "Primary technical movement for creating space during guard retention"
+    },
+    {
+      "name": "Technical Standup",
+      "relationship": "Escape option when guard retention on ground becomes untenable"
+    },
+    {
+      "name": "Granby Roll",
+      "relationship": "Advanced retention technique for evading stack passes and maintaining guard"
+    },
+    {
+      "name": "Re-Guard",
+      "relationship": "Generic guard recovery technique applicable from retention position"
+    },
+    {
+      "name": "Reverse De La Riva Guard Bottom",
+      "relationship": "Specific guard recovery target when opponent controls one leg"
+    },
+    {
+      "name": "Single Leg X Guard Bottom",
+      "relationship": "Guard recovery option against standing passes with single leg control"
+    },
+    {
+      "name": "Guard Retention Concepts",
+      "relationship": "Conceptual framework underlying all guard retention techniques and strategies"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 35,
+      "intermediate": 50,
+      "advanced": 65
+    },
+    "advancement_probability": {
+      "beginner": 25,
+      "intermediate": 40,
+      "advanced": 55
+    },
+    "submission_probability": {
+      "beginner": 5,
+      "intermediate": 10,
+      "advanced": 20
+    },
+    "average_time": "15-45 seconds per retention sequence"
+  },
+  "expert_insights": {
+    "danaher": "Guard retention is fundamentally about creating a hierarchical system of defensive frames that force the opponent to solve multiple problems sequentially rather than simultaneously. The biomechanical principle is to create distance through frames positioned at optimal leverage points - feet on hips being the first line of defense, followed by shin shields, then knee frames, and finally hand frames as a last resort. Each frame buys time for hip escape movements that reset the defensive sequence. The key systematic error I observe is students treating guard retention as isolated reactions rather than as a connected defensive system where each frame transitions logically to the next based on opponent pressure. Your hips must remain in constant motion, creating angles that make it geometrically impossible for the opponent to achieve the chest-to-chest alignment required for pass completion. Master this defensive hierarchy and your guard becomes exceptionally difficult to pass.",
+    "gordon_ryan": "In high-level competition, guard retention separates champions from everyone else because elite passers will test your guard relentlessly. My approach emphasizes offensive defense - I'm not just preventing the pass, I'm actively hunting for sweep and submission opportunities during retention sequences. When my guard is under attack, I'm thinking three moves ahead: if this frame fails and I shrimp here, I can shoot for deep half; if they counter that, I can invert to reverse De La Riva. The physical demand is enormous, which is why conditioning is critical - your retention must remain sharp into the championship rounds when fatigue sets in. Against world-class passers like Felipe Pena or Keenan Cornelius, you can't rely on single defensive reactions; you need chains of defensive options that flow together seamlessly. The mental aspect is equally important - never give up on guard retention until your shoulders are pinned and they have clear chest-to-chest control with three points of contact.",
+    "eddie_bravo": "Traditional guard retention often gets too defensive and reactive, which is why 10th Planet methodology emphasizes offensive defense from retention positions. When your guard is under attack, that's actually a prime opportunity to enter into our system because the opponent is committed to their passing sequence and potentially vulnerable to counters. We use the lockdown, rubber guard entries, and deep half transitions as guard retention tools, not just as established positions. The key is staying dangerous even when you're defending - make them respect your offense so they can't just bulldoze through your guard. I teach students to think of guard retention as a scramble opportunity rather than a purely defensive phase. Create chaos, maintain movement, and look for unconventional angles that disrupt their passing rhythm. Your retention should feel exhausting for them, not just for you. Also, don't be afraid to go inverted, use rolling attacks, or transition to turtle if it means maintaining offensive options - giving up traditional guard structure temporarily is acceptable if you're setting up your offense."
+  }
+}
+{
+  "metadata": {
+    "title": "Guard Retention | BJJ Position Guide | BJJ Graph",
+    "description": "Master guard retention in BJJ. Essential defensive concepts for maintaining guard position against passing attempts. Learn frames, hip escapes, and recovery strategies.",
+    "state_id": "S161",
+    "tags": ["bjj", "guard", "defense", "retention", "concepts", "bottom position"]
+  },
+  "overview": "Guard Retention represents the fundamental defensive skill set required to maintain guard position when facing an opponent's passing attempts. Rather than a single static position, guard retention is a dynamic defensive state characterized by constant adjustment, framing, and hip movement to prevent the opponent from establishing control past the legs. This skill forms the foundation of bottom game survival and is essential for all practitioners regardless of experience level.\n\nEffective guard retention relies on understanding spatial relationships, maintaining distance through frames and leg positioning, and utilizing hip mobility to recover guard structure when compromised. The position demands continuous assessment of threats and appropriate responses, often requiring rapid transitions between different guard configurations to prevent the pass. Modern guard retention integrates concepts from multiple guard types, allowing practitioners to flow between positions rather than stubbornly defending a single guard structure.\n\nMastery of guard retention fundamentally changes a practitioner's bottom game, transforming defensive scrambles into opportunities for re-establishment and counter-attacks. The best guard players are not those who never get passed, but those who can continuously recover and re-establish guard even under sustained pressure.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Short to Medium"
+  },
+  "state_invariants": [
+    "At least one leg maintains barrier function between practitioner's hips and opponent's hips, creating defensive space through knee shield, butterfly hook, spider guard grip, or other leg-based frame that prevents opponent from settling their weight",
+    "Hips remain mobile with ability to shrimp, bridge, or rotate away from pressure, maintaining connection to mat through shoulders and upper back while lower body stays dynamic and responsive to passing threats",
+    "Hands actively manage distance through frames on opponent's hips, shoulders, or head, or maintain grips on sleeves, collars, or pants that control opponent's posture and prevent them from achieving dominant grips or angles",
+    "Practitioner's spine maintains structural integrity with active core engagement, avoiding flattened position where shoulders and hips are simultaneously pinned to mat, instead keeping at least one dimension of movement available"
+  ],
+  "prerequisites": [
+    "Opponent attempting to pass guard from standing or kneeling position",
+    "Practitioner on bottom with legs between themselves and opponent",
+    "Active defensive awareness of passing threats and pressure direction",
+    "Sufficient hip mobility to perform shrimping and bridging movements",
+    "Understanding of basic framing concepts and distance management"
+  ],
+  "key_principles": [
+    "Maintain at least one leg as active barrier between your hips and opponent's hips at all times",
+    "Keep hips mobile and ready to shrimp away from pressure, never allowing opponent to flatten both shoulders and hips simultaneously",
+    "Use frames (hands on hips, biceps, or head) to create and maintain distance when legs are compromised",
+    "Continuously adjust guard type based on opponent's passing angle rather than defending single configuration",
+    "Anticipate passing direction and begin recovery movements before opponent achieves dominant position",
+    "Prioritize space creation over submission attempts when guard structure is threatened",
+    "Chain multiple retention techniques together, using failed defenses as setups for subsequent recoveries"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Guard Replacement",
+      "target_position": "Closed Guard Bottom",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Re-Guard",
+      "target_position": "Open Guard Bottom",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 65,
+        "advanced": 80
+      }
+    },
+    {
+      "technique": "Shrimp Escape",
+      "target_position": "Half Guard Bottom",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Hip Escape",
+      "target_position": "Butterfly Guard Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Knee Shield Retention",
+      "target_position": "Knee Shield Half Guard Bottom",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Deep Half Entry",
+      "target_position": "Deep Half Guard Bottom",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Butterfly Hook Retention",
+      "target_position": "Butterfly Guard Bottom",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "De La Riva Sweep",
+      "target_position": "De La Riva Guard Bottom",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "X-Guard Sweep",
+      "target_position": "X-Guard Bottom",
+      "success_rates": {
+        "beginner": 15,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Knee Cut Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 45
+    },
+    {
+      "technique": "Toreando Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 40
+    },
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 35
+    },
+    {
+      "technique": "Leg Drag Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 50
+    },
+    {
+      "technique": "Smash Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 40
+    },
+    {
+      "technique": "Over-Under Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 45
+    },
+    {
+      "technique": "Long Step Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 35
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Frame and Shrimp",
+      "target_position": "Open Guard Bottom",
+      "trigger": "Opponent drives forward with knee cut or pressure pass"
+    },
+    {
+      "technique": "Granby Roll",
+      "target_position": "Closed Guard Bottom",
+      "trigger": "Opponent stacks hips overhead during stack pass attempt"
+    },
+    {
+      "technique": "Reverse De La Riva Recovery",
+      "target_position": "Reverse De La Riva Guard Bottom",
+      "trigger": "Opponent backs away from engagement after failed pass"
+    },
+    {
+      "technique": "Technical Standup",
+      "target_position": "Standing Guard Bottom",
+      "trigger": "Opponent creates distance attempting toreando pass"
+    },
+    {
+      "technique": "Shin Shield Recovery",
+      "target_position": "Knee Shield Half Guard Bottom",
+      "trigger": "Opponent achieves half guard but pressure not yet consolidated"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent drives forward with upper body pressure (knee cut, smash pass, shoulder pressure)",
+      "actions": [
+        {
+          "technique": "Frame on hips or biceps",
+          "target": "Open Guard Bottom",
+          "probability": 65
+        },
+        {
+          "technique": "Shrimp away creating space",
+          "target": "Half Guard Bottom",
+          "probability": 55
+        },
+        {
+          "technique": "Granby Roll under pressure",
+          "target": "Closed Guard Bottom",
+          "probability": 40
+        }
+      ]
+    },
+    {
+      "condition": "If opponent stands and attempts toreando or leg drag style pass",
+      "actions": [
+        {
+          "technique": "Sit up and establish seated guard",
+          "target": "Seated Guard Bottom",
+          "probability": 60
+        },
+        {
+          "technique": "Technical standup to standing guard",
+          "target": "Standing Guard Bottom",
+          "probability": 50
+        },
+        {
+          "technique": "Invert and recover closed guard",
+          "target": "Closed Guard Bottom",
+          "probability": 35
+        }
+      ]
+    },
+    {
+      "condition": "If opponent stacks hips overhead (stack pass, leg weave)",
+      "actions": [
+        {
+          "technique": "Granby roll to turtle or guard",
+          "target": "Turtle Bottom",
+          "probability": 55
+        },
+        {
+          "technique": "Bridge and create space for re-guard",
+          "target": "Half Guard Bottom",
+          "probability": 45
+        },
+        {
+          "technique": "Arm drag to back exposure",
+          "target": "Back Control Bottom",
+          "probability": 30
+        }
+      ]
+    },
+    {
+      "condition": "If opponent achieves half guard but not full side control",
+      "actions": [
+        {
+          "technique": "Insert knee shield immediately",
+          "target": "Knee Shield Half Guard Bottom",
+          "probability": 70
+        },
+        {
+          "technique": "Deep half entry before consolidation",
+          "target": "Deep Half Guard Bottom",
+          "probability": 50
+        },
+        {
+          "technique": "Lockdown to prevent further advancement",
+          "target": "Lockdown Guard Bottom",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "If one leg is trapped but other leg remains free",
+      "actions": [
+        {
+          "technique": "Use free leg for butterfly hook",
+          "target": "Butterfly Half Guard Bottom",
+          "probability": 60
+        },
+        {
+          "technique": "Shrimp and recover full guard",
+          "target": "Open Guard Bottom",
+          "probability": 50
+        },
+        {
+          "technique": "Z-guard recovery with free leg",
+          "target": "Z-Guard Bottom",
+          "probability": 55
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Allowing both shoulders and hips to flatten against mat simultaneously",
+      "consequence": "Complete loss of mobility and inability to generate shrimping or bridging movements, leading to inevitable pass",
+      "correction": "Always keep at least one dimension of movement available by maintaining shoulder connection while hips are mobile, or vice versa"
+    },
+    {
+      "error": "Gripping too tight without moving hips, relying purely on grip strength to prevent pass",
+      "consequence": "Opponent breaks grips through superior leverage or simply waits until arms fatigue, then passes easily",
+      "correction": "Use grips to control opponent's posture and create opportunities for hip movement, not as primary defense mechanism"
+    },
+    {
+      "error": "Attempting to defend single guard configuration stubbornly rather than adapting",
+      "consequence": "Opponent exploits weaknesses of that specific guard structure and passes through well-prepared path",
+      "correction": "Flow between guard types based on opponent's passing direction, treating guard as fluid defensive system"
+    },
+    {
+      "error": "Waiting until guard is completely broken before attempting recovery",
+      "consequence": "Opponent achieves sufficient control that recovery becomes exponentially more difficult or impossible",
+      "correction": "Begin recovery movements at first sign of guard structure being threatened, using anticipation rather than reaction"
+    },
+    {
+      "error": "Crossing ankles or locking feet when not in appropriate position",
+      "consequence": "Limited hip mobility and vulnerability to ankle locks or foot locks, plus reduced ability to adjust quickly",
+      "correction": "Keep legs independent and mobile unless specifically in position that requires foot lock (closed guard, body triangle, etc.)"
+    },
+    {
+      "error": "Framing with arms fully extended and locked, creating static barrier",
+      "consequence": "Opponent simply redirects around rigid frames or collapses them with superior weight and pressure",
+      "correction": "Maintain bent arm frames with active extension, allowing dynamic adjustment as opponent changes angle"
+    },
+    {
+      "error": "Looking away from opponent or closing eyes during retention scrambles",
+      "consequence": "Loss of visual information about opponent's weight distribution and passing direction, leading to mistimed defenses",
+      "correction": "Maintain visual contact with opponent's hips and shoulders to read passing intentions and time escapes properly"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Guard Retention Rounds",
+      "description": "Start in open guard with partner attempting to pass. Bottom player focuses purely on retention without sweeping or submitting. Reset to guard whenever pass occurs. Focus: maintaining guard structure under sustained pressure.",
+      "duration": "3-5 minute rounds"
+    },
+    {
+      "name": "Progressive Guard Retention",
+      "description": "Partner starts at 50% resistance and gradually increases intensity. Bottom player practices retention techniques, identifying which methods work at each resistance level. Emphasis on smooth technical execution before adding speed.",
+      "duration": "5 minute progressive rounds"
+    },
+    {
+      "name": "Specific Position Guard Recovery",
+      "description": "Start with guard partially compromised (one leg trapped, opponent has initial grip advantage, etc.). Practice recovering to full guard structure from disadvantaged positions. Reset after successful recovery or successful pass.",
+      "duration": "2-3 minute rounds, multiple positions"
+    },
+    {
+      "name": "Movement Chain Drilling",
+      "description": "Solo drill practicing shrimp → granby → technical standup → sitting guard transitions in continuous flow. Develops muscle memory for retention movements. Can add partner providing light resistance.",
+      "duration": "10-15 minutes"
+    },
+    {
+      "name": "Guard Type Transitions",
+      "description": "Practice flowing between different guard types (closed → open → butterfly → half → deep half → reverse De La Riva) based on partner's passing angle. Focus on smooth transitions rather than stubborn defense.",
+      "duration": "5 minute rounds"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Recovery to Triangle Path",
+      "path": "Guard Retention → Closed Guard Bottom → Triangle Setup → Triangle Control → Triangle Choke"
+    },
+    {
+      "name": "Butterfly to Back Path",
+      "path": "Guard Retention → Butterfly Guard Bottom → Arm Drag to Back → Back Control Bottom → Rear Naked Choke"
+    },
+    {
+      "name": "Half Guard to Kimura Path",
+      "path": "Guard Retention → Half Guard Bottom → Kimura Trap → Kimura Control → Kimura"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Guard Retention Concepts",
+      "relationship": "Core conceptual framework for this position"
+    },
+    {
+      "name": "Hip Escape Mechanics",
+      "relationship": "Essential movement pattern for retention"
+    },
+    {
+      "name": "Frame Management",
+      "relationship": "Critical distance control concept"
+    },
+    {
+      "name": "Open Guard Bottom",
+      "relationship": "Primary recovery target position"
+    },
+    {
+      "name": "Half Guard Bottom",
+      "relationship": "Common retention fallback position"
+    },
+    {
+      "name": "Knee Shield Half Guard Bottom",
+      "relationship": "Strong defensive variation for retention"
+    },
+    {
+      "name": "Butterfly Guard Bottom",
+      "relationship": "Dynamic retention position with sweep options"
+    },
+    {
+      "name": "Caio Terra Guard Retention System",
+      "relationship": "Expert systematic approach to retention"
+    },
+    {
+      "name": "Shrimp Escape",
+      "relationship": "Fundamental retention movement"
+    },
+    {
+      "name": "Guard Replacement",
+      "relationship": "Recovery technique from compromised position"
+    },
+    {
+      "name": "Defensive Framing",
+      "relationship": "Essential concept for creating space"
+    },
+    {
+      "name": "Space Creation",
+      "relationship": "Core defensive principle"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 45,
+      "intermediate": 65,
+      "advanced": 80
+    },
+    "advancement_probability": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 65
+    },
+    "submission_probability": {
+      "beginner": 10,
+      "intermediate": 25,
+      "advanced": 40
+    },
+    "average_time": "30-90 seconds per retention sequence"
+  },
+  "expert_insights": {
+    "danaher": "Guard retention is not merely a defensive skill but represents the fundamental control of distance and angle that defines modern guard play. The primary mechanical principle underlying effective retention is the maintenance of what I call 'defensive barriers' - structural elements (legs, frames, grips) that prevent the opponent from achieving the critical distance where their weight can be applied to your torso. Most students make the error of treating guard retention as a reactive scramble when in fact it should be a proactive system of spatial control. Your legs should function as mobile barriers that continuously adjust based on your opponent's angle of attack, never allowing a direct path to side control. The hips must remain the most mobile part of your body, capable of instant direction changes through shrimping and bridging movements. When teaching guard retention, I emphasize the concept of 'creating problems faster than your opponent can solve them' - each defensive movement should force your opponent to solve a new puzzle before they can consolidate position. This transforms guard retention from a series of desperate escapes into a systematic defensive framework that actually increases in effectiveness as your opponent applies more pressure.",
+    "gordon_ryan": "In competition, guard retention is what separates world champions from everyone else. I've passed the guards of multiple black belt world champions, and without exception, the hardest guys to pass are those who never let you settle into your passing rhythm. The key is being comfortable being uncomfortable - you have to embrace those scramble positions where your guard is partially broken and most people panic. That's where I actually do my best work, because I'm not trying to maintain perfect technique, I'm just solving the problem right in front of me. When someone's driving a knee cut through, I'm not thinking 'oh no my guard is broken' - I'm thinking 'cool, now I can trap that knee and enter deep half' or 'perfect, now I can granby and take the back.' The specific techniques matter less than your ability to stay calm and keep creating frames and movement when things get chaotic. My guard retention got exponentially better when I stopped trying to have perfect guard structure and started focusing on just making sure my opponent never achieves stable hip control. Even if they get past my legs temporarily, if I can keep my hips mobile and create frames, I can usually recover. The other thing that's absolutely critical in no-gi especially is grip fighting during the retention phase - if I can break their grips while they're passing, they have to reset and that gives me the time I need to recover position.",
+    "eddie_bravo": "Guard retention is where the rubber meets the road in 10th Planet's whole philosophy about being comfortable in chaos. Most traditional BJJ teaches you to have this perfect guard structure and then defend it like a fortress, but that's just not realistic against a skilled passer who knows what they're doing. Instead, we focus on what I call 'flow retention' - constantly moving between different guard configurations based on where the opponent is applying pressure. If they're pressuring my right leg, I might switch to reverse De La Riva on the left. If they counter that, boom, I'm inverting or hitting a granby. The key is that you're never married to one guard type, you're just using whatever tools are available in that moment. We also spend a ton of time on the 'almost passed' positions that most schools ignore - like when you've still got one butterfly hook in but they've got an underhook and they're driving toward side control. That's not the end, that's just a different phase of retention that requires different tools. The lockdown system came from this philosophy - create a retention mechanism that's so different from traditional guards that most passers don't have prepared responses. But beyond specific techniques, the real innovation is mental - teaching students that guard retention is actually FUN, it's a puzzle to solve, not a desperate scramble. Once you internalize that mindset shift, your retention improves dramatically because you're not panicking, you're problem-solving."
+  }
+}
+{
+  "metadata": {
+    "title": "Guard Retention Top | BJJ Position Guide | BJJ Graph",
+    "description": "Master guard retention top position in BJJ. Learn passing strategies, pressure applications, and techniques to overcome guard retention. Complete guide for top position.",
+    "state_id": "S234",
+    "tags": ["bjj", "position", "guard-passing", "top-position", "pressure-passing", "guard-retention-counter"],
+    "sibling_variants": ["Guard Retention Bottom"]
+  },
+  "overview": "Guard Retention Top represents the top player's position when facing an opponent actively employing guard retention techniques. This is fundamentally a guard passing position where the top player must overcome defensive frames, hip movement, and leg positioning designed to prevent the pass. The position requires strategic pressure application, grip control, and systematic passing sequences to advance to more dominant positions like side control, mount, or back control.\n\nThe top player in this position must balance forward pressure with mobility, maintaining connection while preventing the bottom player from creating space or re-establishing guard. Success depends on recognizing guard retention patterns, countering defensive movements, and applying the appropriate passing strategy based on the bottom player's defensive posture. This position represents a critical battleground in modern BJJ where guard retention has become increasingly sophisticated.\n\nMastery of guard retention top involves understanding multiple passing systems including pressure passing, speed passing, and long-step approaches, while being able to read and counter the bottom player's defensive responses in real-time.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium to Long"
+  },
+  "state_invariants": [
+    "Top player maintains standing, kneeling, or headquarters posture over bottom player who is on their back or seated with clear postural control and active weight distribution through the hips and legs",
+    "Bottom player's legs are positioned between the two players, acting as barriers with active hip movement and framing to prevent passing, creating dynamic distance and defensive structures",
+    "Top player controls at least one grip on the bottom player's body, legs, or gi while working to establish passing grips, maintaining connection points to limit defensive mobility and create passing opportunities",
+    "Bottom player maintains active movement with hips facing the top player, using leg positioning and frames to create distance and prevent connection, employing defensive hip escapes and guard recovery movements",
+    "Top player's weight is strategically distributed to apply pressure while maintaining balance and mobility to follow bottom player's movements, using forward pressure to limit space creation while staying mobile enough to counter defensive repositioning"
+  ],
+  "prerequisites": [
+    "Bottom player has established guard position with legs between both players",
+    "Bottom player is actively using frames, grips, and hip movement to prevent the pass",
+    "Top player has broken or is working to break the initial guard structure",
+    "Top player has established standing, kneeling, or headquarters base position",
+    "Space exists between the players due to bottom player's defensive frames and movement"
+  ],
+  "key_principles": [
+    "Maintain constant forward pressure to limit bottom player's ability to create space and re-guard",
+    "Control bottom player's hips through grips, body position, or pressure to limit their mobility",
+    "Use grip fighting to establish dominant grips while breaking bottom player's defensive grips",
+    "Match bottom player's movements by staying centered and mobile, preventing them from getting to their side",
+    "Apply systematic passing sequences rather than random attempts, creating predictable reactions to exploit",
+    "Recognize guard retention patterns and apply appropriate counters for each defensive movement",
+    "Balance pressure with mobility to maintain connection while following defensive movement"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Toreando Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Long Step Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Double Under Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Leg Drag Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Pressure Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "X Pass",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Hip Escape",
+      "target_position": "Closed Guard Bottom",
+      "success_rate": 45
+    },
+    {
+      "technique": "Re-Guard",
+      "target_position": "Open Guard Bottom",
+      "success_rate": 50
+    },
+    {
+      "technique": "Shin Shield Recovery",
+      "target_position": "Half Guard Bottom",
+      "success_rate": 40
+    },
+    {
+      "technique": "Technical Standup",
+      "target_position": "Standing Guard Bottom",
+      "success_rate": 35
+    },
+    {
+      "technique": "Reverse De La Riva Recovery",
+      "target_position": "Reverse De La Riva Guard Bottom",
+      "success_rate": 30
+    },
+    {
+      "technique": "Butterfly Guard to X-Guard",
+      "target_position": "X-Guard Bottom",
+      "success_rate": 35
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Smash Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Bottom player attempts to get to their side or create knee shield"
+    },
+    {
+      "technique": "Bodylock Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Bottom player squares up and extends legs for framing"
+    },
+    {
+      "technique": "Leg Weave Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Bottom player uses inside position or butterfly hooks"
+    },
+    {
+      "technique": "Over-Under Pass",
+      "target_position": "Side Control Top",
+      "trigger": "Bottom player establishes low guard position or De La Riva hooks"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If bottom player attempts to create distance with frames and hip movement",
+      "actions": [
+        {
+          "technique": "Toreando Pass",
+          "target": "Side Control Top",
+          "probability": 60
+        },
+        {
+          "technique": "Long Step Pass",
+          "target": "Side Control Top",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If bottom player squares hips and establishes strong frames to center",
+      "actions": [
+        {
+          "technique": "Knee Slice Pass",
+          "target": "Side Control Top",
+          "probability": 65
+        },
+        {
+          "technique": "Leg Drag Pass",
+          "target": "Side Control Top",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If bottom player attempts to invert or roll to recover guard",
+      "actions": [
+        {
+          "technique": "Stack Pass",
+          "target": "Side Control Top",
+          "probability": 70
+        },
+        {
+          "technique": "Pressure Pass",
+          "target": "Side Control Top",
+          "probability": 65
+        }
+      ]
+    },
+    {
+      "condition": "If bottom player establishes inside position with hooks or frames",
+      "actions": [
+        {
+          "technique": "Smash Pass",
+          "target": "Side Control Top",
+          "probability": 60
+        },
+        {
+          "technique": "Double Under Pass",
+          "target": "Side Control Top",
+          "probability": 55
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Remaining static in base without applying forward pressure or movement",
+      "consequence": "Allows bottom player to establish stronger frames, recover full guard, or create enough space to re-guard safely",
+      "correction": "Maintain constant pressure and movement to keep bottom player reactive and prevent them from establishing comfortable defensive positions"
+    },
+    {
+      "error": "Applying excessive pressure without controlling the hips first",
+      "consequence": "Bottom player can use the pressure against you to hip escape, creating angles and space to recover guard",
+      "correction": "Establish hip control through grips or positioning before applying heavy pressure to prevent bottom player from using your weight to escape"
+    },
+    {
+      "error": "Focusing only on one passing direction without adapting to defensive movement",
+      "consequence": "Bottom player learns the pattern and can time their defensive responses, making passes predictable and easier to counter",
+      "correction": "Use multiple passing directions and strategies, forcing bottom player to defend different threats and creating openings"
+    },
+    {
+      "error": "Ignoring bottom player's grips on your legs, pants, or sleeves",
+      "consequence": "Strong defensive grips allow bottom player to control distance, prevent connection, and create barriers to passing",
+      "correction": "Address defensive grips immediately through grip breaks, hand fighting, or positional adjustments that nullify their effectiveness"
+    },
+    {
+      "error": "Standing too upright when bottom player has active leg positioning",
+      "consequence": "Creates space for bottom player to establish hooks, sweeps, or recover guard structure with distance management",
+      "correction": "Maintain lower posture with forward pressure while standing, using headquarters position to limit bottom player's leg mobility"
+    },
+    {
+      "error": "Attempting to pass without establishing passing grips or connections first",
+      "consequence": "Bottom player easily pushes away or creates distance since there are no meaningful connections to control their movement",
+      "correction": "Establish strong passing grips on pants, belt, or collar before initiating passing movement to maintain connection throughout"
+    },
+    {
+      "error": "Chasing bottom player's legs instead of controlling their hips and torso",
+      "consequence": "Bottom player can continuously re-guard by moving their hips and legs faster than you can address each individual leg position",
+      "correction": "Focus on controlling the center of mass (hips and torso) which limits all leg movement options simultaneously"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Progressive Guard Retention Passing Drill",
+      "description": "Start with bottom player using 50% resistance on guard retention. Top player works through various passing sequences while bottom player gradually increases resistance to 100%. Focus on recognizing defensive patterns and applying appropriate passing counters. Reset when pass is completed or guard is fully recovered.",
+      "duration": "5 minutes per round"
+    },
+    {
+      "name": "Grip Fighting to Pass Entry",
+      "description": "Bottom player establishes guard retention position with defensive grips. Top player must break grips and establish passing grips before attempting any pass. Restart when passing grips are secured or bottom player successfully re-establishes full guard. Emphasizes the importance of grip fighting in guard passing.",
+      "duration": "3 minutes per round"
+    },
+    {
+      "name": "Multi-Directional Passing Flow",
+      "description": "Top player flows between different passing directions (left toreando, right knee slice, double under, etc.) while bottom player uses active guard retention. Focus on smooth transitions between passing attempts and maintaining constant pressure. Bottom player at 70% resistance to allow flow development.",
+      "duration": "4 minutes per round"
+    },
+    {
+      "name": "Specific Position Passing",
+      "description": "Start in guard retention top position with specific grips already established. Top player has 30 seconds to complete a pass. If successful, restart; if not, bottom player gets a point and positions reset. Develops urgency and efficiency in passing execution.",
+      "duration": "10 rounds of 30 seconds"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Passing to Side Control Submission Path",
+      "path": "Guard Retention Top → Knee Slice Pass → Side Control Top → North-South Top → Kimura Control → Kimura"
+    },
+    {
+      "name": "Direct Back Attack Path",
+      "path": "Guard Retention Top → Leg Drag Pass → Back Control Top → Rear Naked Choke"
+    },
+    {
+      "name": "Mount Control Path",
+      "path": "Guard Retention Top → Toreando Pass → Side Control Top → Mount Top → Armbar from Mount"
+    },
+    {
+      "name": "Pressure Passing to Submission",
+      "path": "Guard Retention Top → Stack Pass → Side Control Top → Americana from Side Control"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Guard Retention Bottom",
+      "relationship": "Opposite perspective - bottom player's defensive position"
+    },
+    {
+      "name": "Headquarters Control Top",
+      "relationship": "Common passing base position used against guard retention"
+    },
+    {
+      "name": "Open Guard Top",
+      "relationship": "Similar position - general top position against open guard structures"
+    },
+    {
+      "name": "Pressure Passing Framework",
+      "relationship": "Systematic approach to passing against retention"
+    },
+    {
+      "name": "Guard Passing Principles",
+      "relationship": "Fundamental concepts for successful guard passing"
+    },
+    {
+      "name": "Side Control Top",
+      "relationship": "Primary target position after successful pass"
+    },
+    {
+      "name": "Guard Pass",
+      "relationship": "General category of techniques used from this position"
+    },
+    {
+      "name": "Toreando Pass",
+      "relationship": "High-percentage passing technique against retention"
+    },
+    {
+      "name": "Knee Slice Pass",
+      "relationship": "Common passing technique from this position"
+    },
+    {
+      "name": "Hip Movement",
+      "relationship": "Key defensive concept the bottom player uses to prevent passing"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 60,
+      "intermediate": 70,
+      "advanced": 80
+    },
+    "advancement_probability": {
+      "beginner": 40,
+      "intermediate": 55,
+      "advanced": 70
+    },
+    "submission_probability": {
+      "beginner": 5,
+      "intermediate": 8,
+      "advanced": 12
+    },
+    "average_time": "45-90 seconds before pass or guard recovery"
+  },
+  "expert_insights": {
+    "danaher": "Guard retention top is fundamentally about creating and exploiting structural weaknesses in the bottom player's defensive posture. The bottom player's guard retention depends on maintaining critical distances and angles through frames, grips, and hip mobility. Your primary objective is to systematically remove these defensive tools through superior gripping, pressure application, and directional control. Understanding that every guard retention pattern has inherent vulnerabilities based on biomechanical limitations is crucial. When the bottom player extends to create distance, they sacrifice inside control. When they maintain tight frames, they limit their own mobility. Your passing strategy must identify which defensive choice they make and exploit the corresponding weakness. The most sophisticated passers don't simply execute techniques; they create scenarios where any defensive response opens a passing opportunity.",
+    "gordon_ryan": "In competition, guard retention top is where matches are won or lost, especially at the highest levels where everyone has excellent retention skills. My approach focuses on constant pressure and making the bottom player carry my weight while defending multiple passing threats simultaneously. I'm never static - I'm always moving their legs, changing grips, and forcing them to react. The key is understanding that modern guard retention is based on specific movement patterns and defensive sequences that athletes drill thousands of times. Your job is to disrupt those patterns by attacking from angles they don't expect or combining passes in sequences that don't follow their prepared defenses. I also use my passing to drain their energy - making them work hard to defend while I stay efficient. By the third or fourth passing attempt, they're tired and make mistakes. That's when you capitalize and finish the pass.",
+    "eddie_bravo": "Guard retention top is where you need to think like a chess player, always two moves ahead. Traditional passing focuses on technique execution, but I teach my guys to create situations where the bottom player thinks they're successfully defending when they're actually moving into worse positions. Use their guard retention movements against them - if they hip escape left, be ready to attack the space they created on the right. If they frame and extend, that's when you can smash or go low. The 10th Planet approach emphasizes unconventional grips and angles that aren't part of standard retention training. We'll use twister side control entries, truck positions, or calf slicer threats from passing positions because most people don't train those defenses. You've got to be creative and unpredictable. Don't just pass their guard - make them question whether their retention techniques even work against your style."
+  }
+}

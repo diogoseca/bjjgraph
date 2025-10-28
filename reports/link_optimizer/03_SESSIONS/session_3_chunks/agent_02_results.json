@@ -8,7 +8,7 @@
   "completed_fixes": [
     {
       "source_file": "Sprawl Defense",
-      "source_path": "/source/content/Concepts/Sprawl Defense.md",
+      "source_path": "/source/content/Principles/Sprawl Defense.md",
       "old_link": "Guillotine Setup",
       "new_link": "Guillotine Control",
       "status": "success",
@@ -79,7 +79,7 @@
     }
   ],
   "files_modified": [
-    "/source/content/Concepts/Sprawl Defense.md",
+    "/source/content/Principles/Sprawl Defense.md",
     "/source/content/Positions/Squid Guard.md",
     "/source/content/Systems/Standing Defense Strategy.md"
   ],

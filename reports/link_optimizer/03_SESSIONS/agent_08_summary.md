@@ -46,7 +46,7 @@ Total: 11 files
 **Broken Links Fixed**: 2
 - `Triangle Control` → `Arm Triangle Control` (in Arm Triangle transition)
 
-### 7. Concepts/Risk Assessment.md
+### 7. Principles/Risk Assessment.md
 **Broken Links Fixed**: 1
 - `Side Control Top` → `Side Control`
 

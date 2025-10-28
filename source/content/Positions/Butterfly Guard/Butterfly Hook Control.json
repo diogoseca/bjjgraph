@@ -1,0 +1,837 @@
+{
+  "metadata": {
+    "title": "Butterfly Hook Control Bottom | BJJ Position Guide | BJJ Graph",
+    "description": "Master Butterfly Hook Control Bottom in BJJ. Complete guide covering butterfly hooks, sweeps, and back takes. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.",
+    "state_id": "S207",
+    "tags": [
+      "bjj",
+      "position",
+      "butterfly-hook-control-bottom",
+      "offensive",
+      "guard",
+      "sweeps"
+    ]
+  },
+  "overview": "Butterfly Hook Control Bottom is a dynamic open guard position where the bottom practitioner uses butterfly hooks (feet positioned inside the opponent's thighs) to create leverage for sweeps and back takes. This position emphasizes elevation, off-balancing, and explosive directional changes. The butterfly guard is particularly effective in no-gi grappling and allows for rapid transitions to dominant positions or submissions. Success in this position depends on maintaining active hooks, controlling posture, and creating dilemmas that force the opponent to react.\n\nThe position offers excellent offensive opportunities while maintaining relatively low risk compared to other open guards. The hooks provide constant lifting pressure that disrupts the top player's base and creates sweep opportunities in multiple directions. When properly executed, butterfly hook control can transition seamlessly to back control, mount, or leg entanglement positions.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+  "state_invariants": [
+    "Both feet are positioned inside opponent's thighs with hooks engaged, creating constant upward lifting pressure through the insteps while maintaining connection to opponent's hips and preventing their weight from settling",
+    "Upper body maintains upright posture with head and chest elevated, preventing opponent from driving forward pressure while maintaining ability to grip collar, sleeves, or underhooks for directional control",
+    "Hips remain mobile and elevated off the mat, allowing for rapid directional changes and preventing opponent from establishing heavy top pressure or passing around the hooks",
+    "Distance management keeps opponent close enough for hooks to maintain control but far enough to prevent crushing chest-to-chest pressure that would neutralize the position"
+  ],
+  "prerequisites": [
+    "Opponent is in combat base or standing position attempting to pass guard",
+    "Space exists between your hips and opponent's hips to insert butterfly hooks",
+    "Ability to maintain upright seated posture without being driven backward",
+    "Grips established on opponent's upper body (collar, sleeves, or underhooks)",
+    "Core engagement to maintain balance and prevent being flattened"
+  ],
+  "key_principles": [
+    "Maintain constant upward pressure with hooks to disrupt opponent's base and prevent them from settling their weight",
+    "Keep head and chest elevated to prevent opponent from driving you flat to the mat",
+    "Use grips to break opponent's posture and create angles for sweeps",
+    "Create elevation through hip movement and hook engagement before executing sweeps",
+    "Maintain hook tension throughout transitions to retain control during directional changes",
+    "Combine upper body control (grips) with lower body control (hooks) to create complete off-balancing mechanics"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Butterfly Sweep",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      }
+    },
+    {
+      "technique": "Butterfly Sweep Variations",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Arm Drag to Back",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Butterfly Guard to X-Guard",
+      "target_position": "X-Guard",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Hook Sweep",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Pendulum Sweep",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Guillotine Setup",
+      "target_position": "Guillotine Control",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Deep Half Entry",
+      "target_position": "Deep Half Guard",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Elevator Sweep",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Single Leg X Entry",
+      "target_position": "Single Leg X Position Bottom",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Butterfly Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 40
+    },
+    {
+      "technique": "Butterfly Smash",
+      "target_position": "Half Guard Top",
+      "success_rate": 35
+    },
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 45
+    },
+    {
+      "technique": "Standing up in Base",
+      "target_position": "Combat Base",
+      "success_rate": 30
+    },
+    {
+      "technique": "Pressure Pass",
+      "target_position": "Smash Pass Position",
+      "success_rate": 35
+    },
+    {
+      "technique": "Double Under Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 40
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "X-Guard Sweep",
+      "target_position": "Mount",
+      "trigger": "Opponent stands to escape hooks"
+    },
+    {
+      "technique": "Single Leg X Sweep",
+      "target_position": "Top Position",
+      "trigger": "Opponent posts leg wide to counter butterfly sweep"
+    },
+    {
+      "technique": "Arm Drag to Back",
+      "target_position": "Back Control",
+      "trigger": "Opponent leans forward to counter elevation"
+    },
+    {
+      "technique": "Deep Half Entry",
+      "target_position": "Deep Half Guard",
+      "trigger": "Opponent attempts to smash hooks by driving knee through"
+    },
+    {
+      "technique": "Guillotine Setup",
+      "target_position": "Guillotine Control",
+      "trigger": "Opponent drops head while attempting to pass"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent maintains upright posture in combat base with strong base",
+      "actions": [
+        {
+          "technique": "Butterfly Sweep",
+          "target": "Mount",
+          "probability": 60
+        },
+        {
+          "technique": "Hook Sweep",
+          "target": "Top Position",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent leans forward or attempts to drive pressure through you",
+      "actions": [
+        {
+          "technique": "Arm Drag to Back",
+          "target": "Back Control",
+          "probability": 65
+        },
+        {
+          "technique": "Guillotine Setup",
+          "target": "Guillotine Control",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent stands up to escape hooks or create distance",
+      "actions": [
+        {
+          "technique": "Butterfly Guard to X-Guard",
+          "target": "X-Guard",
+          "probability": 70
+        },
+        {
+          "technique": "Single Leg X Sweep",
+          "target": "Top Position",
+          "probability": 60
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to smash hooks by driving knee through center",
+      "actions": [
+        {
+          "technique": "Deep Half Entry",
+          "target": "Deep Half Guard",
+          "probability": 65
+        },
+        {
+          "technique": "Pendulum Sweep",
+          "target": "Mount",
+          "probability": 50
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Allowing opponent to drive you flat to your back",
+      "consequence": "Hooks lose leverage and effectiveness, position becomes defensive rather than offensive",
+      "correction": "Maintain upright posture with head and chest elevated, use grips to prevent opponent from driving forward pressure"
+    },
+    {
+      "error": "Keeping hooks static without upward pressure",
+      "consequence": "Opponent can settle their weight and establish stable base, making sweeps ineffective",
+      "correction": "Maintain constant lifting pressure through hooks while staying ready to elevate explosively for sweeps"
+    },
+    {
+      "error": "Gripping without coordinating with hook movement",
+      "consequence": "Sweeps fail due to lack of synchronization between upper and lower body",
+      "correction": "Time grip pulls to coincide with hook elevation, creating unified off-balancing force"
+    },
+    {
+      "error": "Allowing too much distance between your hips and opponent",
+      "consequence": "Hooks disengage and opponent can easily circle around or pass",
+      "correction": "Use grips to keep opponent within hook range while maintaining mobility"
+    },
+    {
+      "error": "Committing fully to one sweep direction without reading opponent's reaction",
+      "consequence": "Opponent easily counters predictable attack and passes guard",
+      "correction": "Create initial sweep threat, read opponent's counter-pressure, then sweep in opposite direction"
+    },
+    {
+      "error": "Losing hook tension during transition attempts",
+      "consequence": "Opponent escapes position or reverses sweep attempt",
+      "correction": "Maintain at least one hook engaged throughout transitions until new position is secured"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Hook Retention Drill",
+      "description": "Partner attempts to remove your hooks while you maintain elevation and connection. Focus on keeping constant upward pressure and reestablishing hooks if removed. Partner progresses from 25% to 75% resistance.",
+      "duration": "3 minutes per round, 3 rounds"
+    },
+    {
+      "name": "Directional Sweep Flow",
+      "description": "Practice sweeping in all four directions (forward, backward, left, right) from butterfly hooks. Partner provides moderate resistance. Emphasize smooth transitions between sweep attempts based on opponent's reactions.",
+      "duration": "5 minutes continuous flow"
+    },
+    {
+      "name": "Elevation and Off-Balance Drill",
+      "description": "From butterfly hooks, practice elevating opponent's hips while breaking their posture with grips. Focus on timing the elevation with grip pulls. Partner maintains base but doesn't counter actively.",
+      "duration": "10 repetitions each direction"
+    },
+    {
+      "name": "Transition Chain Drill",
+      "description": "Flow between butterfly guard and related positions: X-Guard, Deep Half, Back Take attempts. Partner provides progressive resistance to create realistic entry scenarios.",
+      "duration": "4 minutes per round, 2-3 rounds"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Shortest path to submission",
+      "path": "Butterfly Hook Control Bottom → Guillotine Setup → Guillotine Choke"
+    },
+    {
+      "name": "High-percentage back attack path",
+      "path": "Butterfly Hook Control Bottom → Arm Drag to Back → Back Control → Rear Naked Choke"
+    },
+    {
+      "name": "Sweep to mount submission path",
+      "path": "Butterfly Hook Control Bottom → Butterfly Sweep → Mount → Armbar from Mount"
+    },
+    {
+      "name": "Leg entanglement path",
+      "path": "Butterfly Hook Control Bottom → Butterfly Guard to X-Guard → Ashi Garami → Heel Hook"
+    },
+    {
+      "name": "Kimura attack path",
+      "path": "Butterfly Hook Control Bottom → Deep Half Entry → Deep Half Guard → Kimura from Half Guard"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Parent position - general butterfly guard framework"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Common transition target when opponent stands"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Transition option when opponent smashes hooks"
+    },
+    {
+      "name": "Single Leg X Position Bottom",
+      "relationship": "Related guard variation with single hook control"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "High-percentage transition target via arm drag"
+    },
+    {
+      "name": "Combat Base",
+      "relationship": "Common opponent position when facing butterfly hooks"
+    },
+    {
+      "name": "Butterfly Sweep",
+      "relationship": "Primary offensive technique from this position"
+    },
+    {
+      "name": "Arm Drag to Back",
+      "relationship": "Key back take technique from butterfly hooks"
+    },
+    {
+      "name": "Butterfly Hook Retention",
+      "relationship": "Core concept for maintaining position"
+    },
+    {
+      "name": "Off-Balancing",
+      "relationship": "Fundamental principle underlying sweep mechanics"
+    },
+    {
+      "name": "Sweep Mechanics",
+      "relationship": "Technical framework for understanding butterfly sweeps"
+    },
+    {
+      "name": "Guard Retention Concepts",
+      "relationship": "Defensive framework when hooks are threatened"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 40,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "advancement_probability": {
+      "beginner": 35,
+      "intermediate": 55,
+      "advanced": 70
+    },
+    "submission_probability": {
+      "beginner": 15,
+      "intermediate": 30,
+      "advanced": 45
+    },
+    "average_time": "30-90 seconds before sweep attempt or position change"
+  },
+  "expert_insights": {
+    "danaher": "The butterfly guard represents one of the most mechanically efficient guard systems because it creates leverage through minimal points of contact. The key insight is that the hooks function as levers that multiply your lifting force against the opponent's base. When you elevate with your hooks while simultaneously breaking posture with your grips, you create a two-directional force vector that is extremely difficult to counter. The position requires less strength than many other guards because you're using leverage mechanics rather than muscular force. Focus on keeping your head above your hips to maintain the structural integrity of your spine, which allows for explosive elevation. The timing of your sweep should coincide with any forward or lateral movement from your opponent, as their own momentum becomes part of your sweeping force.",
+    "gordon_ryan": "In competition, butterfly guard is one of my highest percentage positions for scoring sweeps because it's so dynamic and creates constant threats. The key is never being static - I'm always creating small movements with my hooks and grips that force my opponent to react. When they react to defend one sweep, I immediately attack the opposite direction. Against high-level opponents, I combine butterfly hooks with arm drags to set up back takes, which score 4 points and put me in dominant position. The position works exceptionally well in no-gi because without the gi grips, opponents have fewer tools to control distance and prevent elevation. I also use butterfly hooks as a gateway position - if the sweep isn't there, I can transition to X-guard, single leg X, or deep half within seconds. The versatility makes it very difficult for opponents to develop a consistent counter-strategy.",
+    "eddie_bravo": "Butterfly guard is fundamental to the 10th Planet system because it embodies our philosophy of constant movement and creating angles. We don't think of butterfly as just a sweeping position - it's a launching pad for back takes, leg locks, and dynamic transitions. The key innovation we focus on is combining butterfly hooks with unconventional grips like overhooks and whizzers to create unique sweeping angles that opponents don't expect. When you add the lockdown or electric chair entries from butterfly, you multiply your offensive options exponentially. In no-gi competition especially, butterfly allows you to be offensive without relying on gi grips that slow down the pace. We drill butterfly transitions constantly because the position teaches you to read opponent reactions in real-time and adjust your attacks fluidly. The rubber guard and mission control also connect naturally from butterfly when opponents try to pressure pass."
+  }
+}
+{
+  "metadata": {
+    "title": "Butterfly Hook Control | BJJ Position Guide | BJJ Graph",
+    "description": "Master Butterfly Hook Control in BJJ. Complete guide covering setup, control, sweeps, and back takes. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+    "state_id": "S242",
+    "tags": [
+      "bjj",
+      "position",
+      "guard",
+      "bottom",
+      "butterfly",
+      "open-guard",
+      "offensive"
+    ]
+  },
+  "overview": "Butterfly Hook Control is a dynamic open guard position where the bottom player sits up with their feet positioned inside the opponent's thighs, creating hooks that enable powerful elevation and sweeping mechanics. This position excels at off-balancing opponents who maintain forward pressure and close range, making it a fundamental position for both gi and no-gi grappling.\n\nThe butterfly guard is characterized by active, elevating hooks that constantly threaten sweeps and back takes. Unlike closed guard, the bottom player maintains a more upright seated posture, allowing for greater mobility and angle creation. The position requires strong core engagement and timing to capitalize on the opponent's movements and weight distribution.\n\nThis guard works best against opponents on their knees with forward pressure, as the hooks can effectively redirect their momentum. It's less effective against standing opponents who can create distance or those who flatten the guard player out. The position offers excellent opportunities for both sweeping to top position and transitioning to back control when opponents defend sweeps by posting.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Offensive",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+  "state_invariants": [
+    "Feet positioned inside opponent's thighs with hooks established, tops of feet making contact with inner thigh muscles for maximum leverage and control, creating the fundamental mechanism for elevation and off-balancing",
+    "Seated upright position with hips elevated off mat, core engaged, maintaining active posture with shoulders forward and head up to prevent being flattened, allowing for explosive movement and quick transitions",
+    "Upper body connected to opponent through grip control (collar, sleeves, underhooks, or overhooks) to break posture and control shoulder line alignment, creating the coordination between upper and lower body for effective sweeping",
+    "Opponent on knees with forward pressure into guard, weight distributed forward allowing hooks to elevate and redirect momentum effectively, creating the opportunity for sweeps and transitions"
+  ],
+  "prerequisites": [
+    "Strong core strength for maintaining seated upright posture under pressure",
+    "Hip flexibility for deep hook insertion between opponent's legs",
+    "Understanding of leverage principles and momentum redirection mechanics",
+    "Basic grip fighting skills and upper body control strategies",
+    "Ability to coordinate upper body pulls with lower body hook elevation timing",
+    "Familiarity with basic guard concepts and defensive framing"
+  ],
+  "key_principles": [
+    "Active Hook Elevation: Constantly pressure upward with hooks to off-balance and prevent opponent from settling weight, creating dynamic instability",
+    "Upper Body Connection: Maintain strong grips or underhooks to break posture and control opponent's shoulder line, enabling sweep execution",
+    "Core Engagement: Strong seated posture prevents opponent from flattening you and enables explosive sweep execution with full body coordination",
+    "Momentum Redirection: Use opponent's forward pressure against them by elevating and sweeping in direction of their movement for maximum efficiency",
+    "Angle Creation: Shift hips side to side to create angles for sweeps and prevent straight-on passing pressure from neutralizing hooks",
+    "Transition Readiness: Be prepared to transition to back takes when opponent posts out to defend sweeps, capitalizing on defensive reactions",
+    "Weight Management: Keep weight distributed on hips and shoulders, never flat on back, maintaining offensive capability at all times"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Butterfly Sweep",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Butterfly Sweep Variations",
+      "target_position": "Side Control Top",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Arm Drag to Back",
+      "target_position": "Back Control",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Hook Sweep",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "Butterfly Guard to X-Guard",
+      "target_position": "X-Guard",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Deep Half Entry",
+      "target_position": "Deep Half Guard",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      }
+    },
+    {
+      "technique": "Elevator Sweep",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Kimura from Guard",
+      "target_position": "Kimura Control",
+      "success_rates": {
+        "beginner": 15,
+        "intermediate": 25,
+        "advanced": 40
+      }
+    },
+    {
+      "technique": "Guillotine Setup",
+      "target_position": "Guillotine Choke",
+      "success_rates": {
+        "beginner": 10,
+        "intermediate": 20,
+        "advanced": 35
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Butterfly Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 40
+    },
+    {
+      "technique": "Butterfly Smash",
+      "target_position": "Half Guard Top",
+      "success_rate": 35
+    },
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 45
+    },
+    {
+      "technique": "Smash Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 40
+    },
+    {
+      "technique": "Standing up",
+      "target_position": "Standing Position",
+      "success_rate": 50
+    },
+    {
+      "technique": "Double Under Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 38
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Arm Drag to Back",
+      "target_position": "Back Control",
+      "trigger": "Opponent posts hand to prevent sweep"
+    },
+    {
+      "technique": "Deep Half Entry",
+      "target_position": "Deep Half Guard",
+      "trigger": "Opponent drives weight forward to flatten hooks"
+    },
+    {
+      "technique": "Butterfly Guard to X-Guard",
+      "target_position": "X-Guard",
+      "trigger": "Opponent stands up to create distance"
+    },
+    {
+      "technique": "Hook Sweep",
+      "target_position": "Top Position",
+      "trigger": "Opponent shifts weight to one side"
+    },
+    {
+      "technique": "Guillotine Setup",
+      "target_position": "Guillotine Choke",
+      "trigger": "Opponent drives head down to pass"
+    },
+    {
+      "technique": "Kimura from Guard",
+      "target_position": "Kimura Control",
+      "trigger": "Opponent extends arm to defend sweep"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent maintains forward pressure on knees with good posture",
+      "actions": [
+        {
+          "technique": "Butterfly Sweep",
+          "target": "Mount",
+          "probability": 50
+        },
+        {
+          "technique": "Hook Sweep",
+          "target": "Top Position",
+          "probability": 45
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent posts hand to defend sweep",
+      "actions": [
+        {
+          "technique": "Arm Drag to Back",
+          "target": "Back Control",
+          "probability": 55
+        },
+        {
+          "technique": "Butterfly Guard to X-Guard",
+          "target": "X-Guard",
+          "probability": 40
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent drives forward aggressively to flatten",
+      "actions": [
+        {
+          "technique": "Deep Half Entry",
+          "target": "Deep Half Guard",
+          "probability": 50
+        },
+        {
+          "technique": "Guillotine Setup",
+          "target": "Guillotine Choke",
+          "probability": 35
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent stands up to create distance",
+      "actions": [
+        {
+          "technique": "Butterfly Guard to X-Guard",
+          "target": "X-Guard",
+          "probability": 45
+        },
+        {
+          "technique": "Guard Recovery",
+          "target": "Open Guard Bottom",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "Else if opponent shifts weight heavily to one side",
+      "actions": [
+        {
+          "technique": "Butterfly Sweep Variations",
+          "target": "Side Control Top",
+          "probability": 55
+        },
+        {
+          "technique": "Hook Sweep",
+          "target": "Top Position",
+          "probability": 50
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Shallow hook insertion - feet positioned too far from opponent's hips",
+      "consequence": "Allows opponent to easily step over your hooks and pass your guard, negating all sweeping power and defensive security",
+      "correction": "Insert hooks deep between opponent's legs, with your toes pointing toward their hips and the tops of your feet making solid contact with the inner thighs. The deeper the hooks, the more control and leverage you have"
+    },
+    {
+      "error": "Passive posture - leaning back or allowing shoulders to fall behind hips",
+      "consequence": "Opponent can establish heavy pressure from above, flatten you out, and easily pass your guard as you lose all offensive capability",
+      "correction": "Maintain an active, upright seated posture with your core engaged. Keep your head and shoulders forward, constantly threatening with upper body control and hook elevation"
+    },
+    {
+      "error": "Static hooks - keeping hooks in fixed position without active elevation",
+      "consequence": "Opponent can settle their weight, establish stable base, and methodically work to remove hooks or pass around them",
+      "correction": "Constantly pump and elevate with your hooks to create dynamic instability. Your hooks should be actively lifting and off-balancing, never static"
+    },
+    {
+      "error": "Poor grip selection - gripping without breaking opponent's posture",
+      "consequence": "Opponent maintains strong upright posture, making sweeps ineffective and allowing them to control distance and passing angles",
+      "correction": "Secure grips that break posture such as collar grips, underhooks, or overhooks. Pull opponent's shoulders down and forward while elevating with hooks for coordinated attack"
+    },
+    {
+      "error": "Failure to create angles - attempting sweeps from straight-on position",
+      "consequence": "Sweeps lack power as opponent can post directly and counter your attempts, making techniques predictable and easy to defend",
+      "correction": "Shift your hips off-center to create angles before sweeping. Angle your body 30-45 degrees to the side you're sweeping toward for maximum leverage and to prevent posting"
+    },
+    {
+      "error": "Missing back take opportunities - continuing sweep attempts after opponent posts",
+      "consequence": "Wasted energy on defended sweeps when high-percentage back take is available, allowing opponent to recover position",
+      "correction": "When opponent posts hand or extends arm to stop sweep, immediately transition to arm drag or back take. Their defensive post creates the opening for back control"
+    },
+    {
+      "error": "Weak core engagement - relying only on arms and legs",
+      "consequence": "Sweeps lack explosive power and opponent can use superior strength to overwhelm your technique, making position unsustainable under pressure",
+      "correction": "Engage your entire core as the power center for sweeps. Pull with arms, lift with legs, and crunch your core simultaneously for maximum sweeping force"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Hook Elevation Drill",
+      "description": "Partner on knees in butterfly guard. Practice continuously elevating with hooks to off-balance them forward and side to side. Focus on keeping hooks deep and active, using hip movement to amplify elevation. Partner provides moderate resistance but allows elevation.",
+      "duration": "3 minutes per round, 3 rounds"
+    },
+    {
+      "name": "Sweep to Back Take Chain",
+      "description": "Execute butterfly sweep, and when partner posts to defend, immediately transition to arm drag and back take. Repeat continuously, alternating sides. Develops recognition of posting reaction and smooth transition to back control.",
+      "duration": "5 minutes continuous flow"
+    },
+    {
+      "name": "Positional Sparring - Butterfly Retention",
+      "description": "Start in butterfly guard. Partner attempts to pass using any method while you work to maintain hooks and sweep or submit. Reset to butterfly after successful sweep or if passed. Develops retention skills and offensive timing under pressure.",
+      "duration": "5 minute rounds, multiple rounds"
+    },
+    {
+      "name": "Angle Creation Exercise",
+      "description": "From butterfly guard, practice shifting hips side to side to create 45-degree angles while maintaining hook control. Partner stays stationary initially, then adds movement. Focus on hip mobility and hook retention during angle changes.",
+      "duration": "4 minutes per round, 2 rounds"
+    },
+    {
+      "name": "Butterfly to X-Guard Transitions",
+      "description": "Flow drill transitioning between butterfly guard and X-guard variations. Partner on knees or standing. Practice smooth entries from butterfly hooks to X-guard when opponent adjusts posture or stands. Develops guard retention and transitional fluidity.",
+      "duration": "4 minutes continuous flow, alternating roles"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Shortest path to submission",
+      "path": "Butterfly Hook Control → Guillotine Setup → Guillotine Choke"
+    },
+    {
+      "name": "High-percentage sweep to submission",
+      "path": "Butterfly Hook Control → Butterfly Sweep → Mount → Armbar from Mount"
+    },
+    {
+      "name": "Back take submission path",
+      "path": "Butterfly Hook Control → Arm Drag to Back → Back Control → Rear Naked Choke"
+    },
+    {
+      "name": "X-Guard transition path",
+      "path": "Butterfly Hook Control → Butterfly Guard to X-Guard → X-Guard → Single Leg X Guard → Kneebar from Top"
+    },
+    {
+      "name": "Deep half submission sequence",
+      "path": "Butterfly Hook Control → Deep Half Entry → Deep Half Guard → Deep Half Guard Top → Kimura from Side Control"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Parent position - broader category"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Common transition target when opponent stands"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative guard when opponent drives forward"
+    },
+    {
+      "name": "Half Guard Bottom",
+      "relationship": "Related guard position with similar control concepts"
+    },
+    {
+      "name": "Seated Guard Bottom",
+      "relationship": "Similar seated guard variation"
+    },
+    {
+      "name": "Single Leg X Guard",
+      "relationship": "Related guard with hook mechanics"
+    },
+    {
+      "name": "Butterfly Sweep",
+      "relationship": "Primary offensive technique"
+    },
+    {
+      "name": "Arm Drag to Back",
+      "relationship": "High-percentage back take option"
+    },
+    {
+      "name": "Hook Sweep",
+      "relationship": "Core sweeping technique from position"
+    },
+    {
+      "name": "Butterfly Hook Retention",
+      "relationship": "Key concept for maintaining position"
+    },
+    {
+      "name": "Sweep Mechanics",
+      "relationship": "Fundamental concept for offensive success"
+    },
+    {
+      "name": "Off-Balancing",
+      "relationship": "Core principle for sweep execution"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "advancement_probability": {
+      "beginner": 30,
+      "intermediate": 50,
+      "advanced": 70
+    },
+    "submission_probability": {
+      "beginner": 20,
+      "intermediate": 35,
+      "advanced": 50
+    },
+    "average_time": "30-90 seconds before sweep attempt or transition"
+  },
+  "expert_insights": {
+    "danaher": "The butterfly guard represents one of the most mechanically efficient sweeping systems in grappling because it allows you to redirect an opponent's forward momentum with minimal energy expenditure. The key mechanical principle is the lever system created by your hooks - they act as fulcrums that amplify the force generated by your upper body pulls. When executed correctly, a relatively small practitioner can sweep a much larger opponent because you're not fighting their weight directly, you're redirecting their momentum in an arc. The critical technical detail most practitioners miss is the angle of hook insertion - your hooks must be deep enough that your knees are outside their hips, creating a lever arm that extends beyond their center of gravity. This mechanical advantage, combined with proper timing when they shift weight forward, makes the sweep nearly inevitable. The position also creates a beautiful decision tree: if they defend the sweep by posting, they expose their back; if they stand to escape the hooks, you transition to X-guard or single-leg X. This systematic approach to creating offensive dilemmas is what makes butterfly guard so powerful at the highest levels of competition.",
+    "gordon_ryan": "In competition, I use butterfly guard primarily as a transitional position to either sweep or take the back. The critical element is maintaining aggressive forward pressure with your upper body while your hooks create the actual sweeping mechanism. Most people make the mistake of being too passive in butterfly - you need to be constantly elevating, shifting angles, and forcing reactions. When they base out to stop your sweep, that's when you immediately transition to the back or switch to a different guard. I specifically look for the arm drag to back take sequence because it's so high-percentage when timed correctly. The moment they post that hand to defend the sweep, their arm is extended and vulnerable to the drag. Another competition-critical detail is that butterfly works best in combination with other guards - I'm constantly flowing between butterfly, half butterfly, and X-guard depending on their reactions. Don't get stuck just doing the basic sweep; use the butterfly hooks as a control position that threatens multiple attacks simultaneously, forcing your opponent to make defensive choices that all benefit you.",
+    "eddie_bravo": "The butterfly guard becomes exponentially more powerful when you incorporate unconventional gripping strategies and transitions to other guard systems. From butterfly, I'm looking to create confusion by mixing in deep half entries, leg locks, and even inverting under for back takes. The traditional butterfly sweep is great, but being unpredictable with your attacks and transitions makes the position far more threatening. One of my favorite sequences is using the butterfly hooks to set up the electric chair position - when they defend the sweep by driving forward, you can lock up that leg and transition into a devastating sweep and submission combination. I also like incorporating rubber guard entries from butterfly when they posture up, grabbing the high guard and going into mission control or omoplata attacks. The key is making them defend multiple threat levels simultaneously - they can't focus on defending your sweeps if they're worried about submissions and back takes. Don't limit yourself to traditional approaches; the butterfly position is a launching pad for creative, systematic attacks that flow together."
+  }
+}
+Session limit reached ∙ resets 11am

@@ -1,0 +1,265 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BJJ Principle Template Schema V3",
+  "description": "Standardized JSON schema for BJJ principle pages - strict 12-section structure",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "metadata",
+    "overview",
+    "key_principles",
+    "component_skills",
+    "principle_relationships",
+    "application_contexts",
+    "decision_framework",
+    "common_errors",
+    "training_approaches",
+    "developmental_metrics",
+    "related_content",
+    "expert_insights"
+  ],
+
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "description": "Page metadata and SEO information",
+      "additionalProperties": false,
+      "required": ["title", "description", "principle_id", "tags", "application_level", "complexity_level", "development_timeline"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "SEO title format: '[Principle Name] | BJJ Principle | BJJ Graph'",
+          "pattern": "^.+ \\| BJJ Principle \\| BJJ Graph$",
+          "examples": ["Base Maintenance | BJJ Principle | BJJ Graph"]
+        },
+        "description": {
+          "type": "string",
+          "description": "Meta description 140-180 characters (SEO optimal: 150-160) (emphasize understanding)",
+          "minLength": 140,
+          "maxLength": 180,
+          "examples": ["Understand Base Maintenance in BJJ. Learn stability principles, weight distribution, cross-position 
+application. Expert insights included."]
+        },
+        "principle_id": {
+          "type": "string",
+          "description": "Unique principle identifier C###",
+          "pattern": "^C[0-9]{3}$",
+          "examples": ["C111", "C265"]
+        },
+        "tags": {
+          "type": "array",
+          "description": "Content tags (minimum 3)",
+          "minItems": 3,
+          "items": {"type": "string"},
+          "examples": [["bjj", "principle", "base", "stability"]]
+        },
+        "application_level": {
+          "type": "string",
+          "enum": ["Fundamental", "Intermediate", "Advanced", "Expert"],
+          "description": "When this principle becomes relevant"
+        },
+        "complexity_level": {
+          "type": "string",
+          "enum": ["Low", "Medium", "High"]
+        },
+        "development_timeline": {
+          "type": "string",
+          "examples": ["Beginner to Advanced", "Intermediate to Expert"]
+        }
+      }
+    },
+
+    "overview": {
+      "type": "string",
+      "description": "2-3 paragraph principle description (renamed from 'Principle Description')",
+      "minLength": 400,
+      "examples": ["Base Maintenance is a fundamental principle describing the ability to maintain stable positioning..."]
+    },
+
+    "key_principles": {
+      "type": "array",
+      "description": "6-9 fundamental principles (standardized name)",
+      "minItems": 6,
+      "maxItems": 9,
+      "items": {"type": "string"}
+    },
+
+    "component_skills": {
+      "type": "array",
+      "description": "5-8 discrete sub-skills that comprise the principle",
+      "minItems": 5,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["skill_name", "description"],
+        "properties": {
+          "skill_name": {"type": "string"},
+          "description": {
+            "type": "string",
+            "minLength": 50
+          }
+        }
+      }
+    },
+
+    "principle_relationships": {
+      "type": "array",
+      "description": "Network of related principles (dependencies, complementary, extensions)",
+      "minItems": 4,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["principle_name", "relationship_type", "description"],
+        "properties": {
+          "principle_name": {"type": "string"},
+          "relationship_type": {
+            "type": "string",
+            "enum": ["Prerequisite", "Complementary", "Extension", "Alternative", "Advanced form"],
+            "description": "How this principle relates to other"
+          },
+          "description": {"type": "string"}
+        }
+      }
+    },
+
+    "application_contexts": {
+      "type": "array",
+      "description": "Cross-position applications where principle is relevant",
+      "minItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["context", "how_applied"],
+        "properties": {
+          "context": {
+            "type": "string",
+            "description": "Position or scenario where principle applies"
+          },
+          "how_applied": {
+            "type": "string",
+            "description": "How principle manifests in this context"
+          }
+        }
+      }
+    },
+
+    "decision_framework": {
+      "type": "array",
+      "description": "6-8 steps for applying the principle",
+      "minItems": 6,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["step_number", "decision_point", "action"],
+        "properties": {
+          "step_number": {"type": "integer", "minimum": 1},
+          "decision_point": {"type": "string"},
+          "action": {"type": "string"}
+        }
+      }
+    },
+
+    "common_errors": {
+      "type": "array",
+      "description": "Common misunderstandings/misapplications of principle",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["error", "consequence", "correction"],
+        "properties": {
+          "error": {"type": "string"},
+          "consequence": {"type": "string"},
+          "correction": {"type": "string"}
+        }
+      }
+    },
+
+    "training_approaches": {
+      "type": "array",
+      "description": "4-6 training methods for developing the principle",
+      "minItems": 4,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["approach_name", "description", "focus"],
+        "properties": {
+          "approach_name": {"type": "string"},
+          "description": {"type": "string"},
+          "focus": {"type": "string"}
+        }
+      }
+    },
+
+    "developmental_metrics": {
+      "type": "array",
+      "description": "Observable skill markers at 4 levels (Beginner/Intermediate/Advanced/Expert)",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["level", "observable_behaviors"],
+        "properties": {
+          "level": {
+            "type": "string",
+            "enum": ["Beginner", "Intermediate", "Advanced", "Expert"]
+          },
+          "observable_behaviors": {
+            "type": "array",
+            "minItems": 3,
+            "items": {"type": "string"}
+          }
+        }
+      }
+    },
+
+    "related_content": {
+      "type": "array",
+      "description": "Related positions/transitions/principles (unified relationships)",
+      "minItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "content_type", "relationship"],
+        "properties": {
+          "name": {"type": "string"},
+          "content_type": {
+            "type": "string",
+            "enum": ["Position", "Transition", "Submission", "Principle", "System"],
+            "description": "Type of related content"
+          },
+          "relationship": {"type": "string"}
+        }
+      }
+    },
+
+    "expert_insights": {
+      "type": "object",
+      "description": "Insights from all 3 experts (REQUIRED, 200+ chars each)",
+      "additionalProperties": false,
+      "required": ["danaher", "gordon_ryan", "eddie_bravo"],
+      "properties": {
+        "danaher": {
+          "type": "string",
+          "minLength": 200,
+          "description": "John Danaher - systematic/theoretical perspective"
+        },
+        "gordon_ryan": {
+          "type": "string",
+          "minLength": 200,
+          "description": "Gordon Ryan - competition/practical application"
+        },
+        "eddie_bravo": {
+          "type": "string",
+          "minLength": 200,
+          "description": "Eddie Bravo - innovation/creative applications"
+        }
+      }
+    }
+  }
+}

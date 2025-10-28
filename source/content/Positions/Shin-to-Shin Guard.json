@@ -1,0 +1,404 @@
+Session limit reached ∙ resets 4am
+{
+  "metadata": {
+    "title": "Shin-to-Shin Guard | BJJ Position Guide | BJJ Graph",
+    "description": "Master Shin-to-Shin Guard in BJJ. Complete guide covering setup, control, sweeps, and transitions to X-Guard and leg entanglements. 65% sweep success rate.",
+    "state_id": "S036",
+    "tags": [
+      "bjj",
+      "guard",
+      "open_guard",
+      "shin-to-shin",
+      "leg-entanglement-entry"
+    ]
+  },
+  "overview": "Shin-to-Shin Guard is a specialized open guard position where the guard player places their shin across the opponent's shin of the same side leg, creating a powerful connection point that can control the opponent's base and movement. This position offers both defensive capabilities through distance management and offensive opportunities through sweeps and transitions to other guards. The shin-to-shin connection creates leverage that can elevate or off-balance the opponent, making it an effective entry point to single leg X-guard, X-guard, and other leg entanglement positions. This position has become increasingly prominent in modern BJJ as both a primary guard and a transitional position within the leg entanglement systems. The position excels at creating off-balancing reactions while maintaining distance control, allowing the guard player to dictate engagement range and set up a variety of technical attacks. Modern competitors utilize shin-to-shin as a cornerstone of their guard retention and attack systems, particularly when facing aggressive standing passers.",
+  "state_properties": {
+    "point_value": 0,
+    "position_type": "Defensive with offensive options",
+    "risk_level": "Medium",
+    "energy_cost": "Medium",
+    "time_sustainability": "Medium"
+  },
+  "state_invariants": [
+    "Bottom player's shin placed across opponent's same-side shin, creating a perpendicular or diagonal connection point that hooks the opponent's leg at the lower third of the tibia, establishing the fundamental control mechanism of the position",
+    "Bottom player maintains seated or semi-reclined position with hips mobile and free to adjust angles, allowing dynamic movement and constant rebalancing of the opponent's base while protecting against guard passes",
+    "Top player typically stands upright or adopts combat base posture, with their weight distributed between both legs while dealing with the bottom player's shin connection that compromises their ability to pressure forward safely",
+    "Bottom player uses grips (sleeve, collar, pants, or belt) to manage distance and control opponent's upper body posture, preventing the top player from dropping their weight or establishing dominant passing grips",
+    "The position maintains a dynamic state where the bottom player continuously adjusts the angle and pressure of the shin connection to prevent the opponent from stepping over or clearing the leg"
+  ],
+  "prerequisites": [
+    "Fundamental understanding of open guard mechanics and distance management principles",
+    "Hip mobility and sufficient leg dexterity to establish and maintain shin-to-shin connection",
+    "Recognition of proper entry opportunities when opponent stands in guard",
+    "Knowledge of complementary guard systems (X-guard, single leg X, DLR)",
+    "Basic understanding of grip fighting and upper body control from seated position",
+    "Ability to maintain dynamic balance while seated or semi-reclined"
+  ],
+  "key_principles": [
+    "Establish strong shin-to-shin connection with proper angle and pressure to compromise opponent's base",
+    "Control opponent's posture through strategic grips and frames that prevent forward pressure",
+    "Create and maintain proper distance management to avoid being smashed or passed",
+    "Use shin connection as a lever for sweeping movements and off-balancing",
+    "Establish secondary controls with hands to manage opponent's upper body and grips",
+    "Anticipate and counter passing attempts by adjusting angles and transitioning guards",
+    "Set up transitions to more dominant guard positions like single leg X and X-guard"
+  ],
+  "offensive_transitions": [
+    {
+      "technique": "Single Leg X Entry",
+      "target_position": "Single Leg X Guard",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "X-Guard Sweep",
+      "target_position": "X-Guard",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Butterfly Sweep",
+      "target_position": "Butterfly Guard",
+      "success_rates": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      }
+    },
+    {
+      "technique": "Outside Ashi Entry",
+      "target_position": "Outside Ashi-Garami Bottom",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    },
+    {
+      "technique": "De La Riva Sweep",
+      "target_position": "De La Riva Guard",
+      "success_rates": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Technical Stand Up to Single Leg",
+      "target_position": "Standing Position",
+      "success_rates": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      }
+    },
+    {
+      "technique": "Omoplata Sweep",
+      "target_position": "Mount",
+      "success_rates": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      }
+    },
+    {
+      "technique": "Shin to Shin Pull",
+      "target_position": "Top Position",
+      "success_rates": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 60
+      }
+    }
+  ],
+  "defensive_responses": [
+    {
+      "technique": "Knee Slice Pass",
+      "target_position": "Knee Slice Position Top",
+      "success_rate": 40
+    },
+    {
+      "technique": "Smash Pass",
+      "target_position": "Smash Pass Position",
+      "success_rate": 35
+    },
+    {
+      "technique": "Leg Drag Pass",
+      "target_position": "Back Control",
+      "success_rate": 30
+    },
+    {
+      "technique": "Stack Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 25
+    },
+    {
+      "technique": "Long Step Pass",
+      "target_position": "Side Control Top",
+      "success_rate": 30
+    },
+    {
+      "technique": "Combat Base",
+      "target_position": "Combat Base",
+      "success_rate": 50
+    }
+  ],
+  "counter_transitions": [
+    {
+      "technique": "Single Leg X Entry",
+      "target_position": "Single Leg X Guard",
+      "trigger": "Opponent attempts to step over shin connection"
+    },
+    {
+      "technique": "X-Guard Sweep",
+      "target_position": "X-Guard",
+      "trigger": "Opponent posts weight on shin-to-shin leg"
+    },
+    {
+      "technique": "De La Riva Sweep",
+      "target_position": "De La Riva Guard",
+      "trigger": "Opponent steps back to clear shin"
+    },
+    {
+      "technique": "Butterfly Sweep",
+      "target_position": "Mount",
+      "trigger": "Opponent lowers center of gravity to pressure"
+    },
+    {
+      "technique": "Technical Stand-up",
+      "target_position": "Standing Position",
+      "trigger": "Opponent disengages and creates distance"
+    }
+  ],
+  "decision_tree": [
+    {
+      "condition": "If opponent maintains upright standing posture with weight distributed evenly",
+      "actions": [
+        {
+          "technique": "Single Leg X Entry",
+          "target": "Single Leg X Guard",
+          "probability": 60
+        },
+        {
+          "technique": "X-Guard Sweep",
+          "target": "X-Guard",
+          "probability": 55
+        }
+      ]
+    },
+    {
+      "condition": "If opponent drops weight and attempts to smash forward with pressure",
+      "actions": [
+        {
+          "technique": "Butterfly Sweep",
+          "target": "Mount",
+          "probability": 50
+        },
+        {
+          "technique": "Omoplata Sweep",
+          "target": "Mount",
+          "probability": 40
+        }
+      ]
+    },
+    {
+      "condition": "If opponent attempts to step over or clear the shin-to-shin connection",
+      "actions": [
+        {
+          "technique": "Single Leg X Entry",
+          "target": "Single Leg X Guard",
+          "probability": 65
+        },
+        {
+          "technique": "Outside Ashi Entry",
+          "target": "Outside Ashi-Garami Bottom",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent backs away and creates distance to disengage",
+      "actions": [
+        {
+          "technique": "Technical Stand Up to Single Leg",
+          "target": "Standing Position",
+          "probability": 55
+        },
+        {
+          "technique": "De La Riva Sweep",
+          "target": "De La Riva Guard",
+          "probability": 50
+        }
+      ]
+    },
+    {
+      "condition": "If opponent secures strong upper body control and attempts leg drag",
+      "actions": [
+        {
+          "technique": "X-Guard Sweep",
+          "target": "X-Guard",
+          "probability": 45
+        },
+        {
+          "technique": "Guard Recovery",
+          "target": "Guard Recovery",
+          "probability": 40
+        }
+      ]
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Insufficient shin pressure and passive leg connection",
+      "consequence": "Opponent easily clears the shin or steps over without resistance, nullifying the guard's effectiveness and allowing easy passing opportunities",
+      "correction": "Actively drive shin across opponent's shin with constant pressure, adjusting angle to maintain connection while using hips to create upward and lateral force against their base"
+    },
+    {
+      "error": "Poor upper body posture with rounded back and collapsed torso",
+      "consequence": "Loss of balance and structural integrity makes it impossible to generate sweeping force, and creates vulnerability to being driven backward and passed",
+      "correction": "Maintain upright seated posture with straight spine, active core engagement, and shoulders pulled back to create stable platform for sweeps and transitions"
+    },
+    {
+      "error": "Incorrect angle of shin placement, placing it too high or too low on opponent's leg",
+      "consequence": "Weak connection that provides insufficient leverage for sweeps and allows opponent to easily clear or step over the shin",
+      "correction": "Position shin across the lower third of opponent's tibia at approximately 45-degree angle, creating maximum leverage and making it difficult to clear"
+    },
+    {
+      "error": "Neglecting upper body grips and relying solely on leg connection",
+      "consequence": "Opponent controls your upper body, breaks your posture, and can drive forward with pressure to pass despite shin connection",
+      "correction": "Establish and maintain strategic grips (sleeve, collar, pants) to manage distance and prevent opponent from achieving dominant upper body control"
+    },
+    {
+      "error": "Static positioning without dynamic adjustment of angles and pressure",
+      "consequence": "Predictable guard becomes easy to pass as opponent learns timing and can methodically work around static connection points",
+      "correction": "Constantly adjust hip position, shin angle, and pressure in response to opponent's movements, creating dynamic puzzle that forces reactions and opens sweep opportunities"
+    },
+    {
+      "error": "Overcommitting to shin connection without transitioning when opponent defends",
+      "consequence": "Wasted energy fighting for position that opponent has neutralized, allowing them to consolidate passing position while you remain stuck",
+      "correction": "Recognize when shin-to-shin is being neutralized and smoothly transition to related guards (single leg X, X-guard, DLR) before opponent establishes passing control"
+    },
+    {
+      "error": "Allowing opponent to control your free leg and establish grips",
+      "consequence": "Opponent uses your free leg to break structure and pass, or establishes leg drag position for easy passing sequences",
+      "correction": "Keep free leg mobile and away from opponent's grips, using it to frame, post, or establish secondary connections rather than leaving it vulnerable"
+    }
+  ],
+  "training_drills": [
+    {
+      "name": "Shin-to-Shin Maintenance Against Passing Pressure",
+      "description": "Partner attempts various passing approaches (knee slice, long step, smash) while you maintain shin-to-shin connection and recover position whenever it's threatened. Focus on angle adjustment, pressure maintenance, and hip mobility.",
+      "duration": "5 minutes continuous"
+    },
+    {
+      "name": "Transition Flow Between Guards",
+      "description": "Flow drill moving between shin-to-shin, single leg X, X-guard, DLR, and butterfly guard without stopping. Partner provides light resistance. Emphasizes smooth transitions and recognition of position entries.",
+      "duration": "3-minute rounds"
+    },
+    {
+      "name": "Entry Practice from Various Positions",
+      "description": "Starting from different open guard scenarios (seated, supine, standing opponent), practice entering shin-to-shin with proper angle and grips. Partner starts passive then progressively adds resistance.",
+      "duration": "10 repetitions each position"
+    },
+    {
+      "name": "Sweep Chain Drilling",
+      "description": "Partner defends first sweep attempt, you chain to second option, then third. Practice all common sweep combinations from shin-to-shin (to single leg X, to X-guard, to butterfly, etc.). Builds recognition of defensive reactions.",
+      "duration": "5-minute rounds"
+    }
+  ],
+  "optimal_submission_paths": [
+    {
+      "name": "Shortest path to leg lock",
+      "path": "Shin-to-Shin Guard → Single Leg X Entry → Outside Ashi-Garami Bottom → Straight Ankle Lock (3 steps)"
+    },
+    {
+      "name": "High-percentage sweep to submission",
+      "path": "Shin-to-Shin Guard → X-Guard Sweep → Mount → Americana from Mount (3 steps)"
+    },
+    {
+      "name": "Direct attack from guard",
+      "path": "Shin-to-Shin Guard → Omoplata Sweep → Omoplata (2 steps)"
+    },
+    {
+      "name": "Leg entanglement system path",
+      "path": "Shin-to-Shin Guard → X-Guard Sweep → Ashi Garami → Heel Hook (3 steps)"
+    },
+    {
+      "name": "Butterfly system combination",
+      "path": "Shin-to-Shin Guard → Butterfly Guard → Butterfly Sweep → Side Control Top → Kimura from Side Control (4 steps)"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Single Leg X Guard",
+      "relationship": "Primary transition target and complementary position"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Key transition target for sweeps and off-balancing"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Related open guard with similar control concepts"
+    },
+    {
+      "name": "Reverse De La Riva Guard",
+      "relationship": "Variation with reverse leg positioning"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Complementary guard for close-range attacks"
+    },
+    {
+      "name": "Outside Ashi-Garami Bottom",
+      "relationship": "Leg entanglement entry from shin-to-shin"
+    },
+    {
+      "name": "Inside Ashi-Garami Bottom",
+      "relationship": "Advanced leg entanglement transition option"
+    },
+    {
+      "name": "Seated Guard Bottom",
+      "relationship": "Fundamental position for establishing shin-to-shin"
+    },
+    {
+      "name": "K-Guard",
+      "relationship": "Related guard with similar shin control mechanics"
+    },
+    {
+      "name": "Single Leg X Entry",
+      "relationship": "Primary offensive transition technique"
+    }
+  ],
+  "position_metrics": {
+    "retention_rate": {
+      "beginner": 40,
+      "intermediate": 60,
+      "advanced": 75
+    },
+    "advancement_probability": {
+      "beginner": 35,
+      "intermediate": 55,
+      "advanced": 70
+    },
+    "submission_probability": {
+      "beginner": 15,
+      "intermediate": 30,
+      "advanced": 45
+    },
+    "average_time": "30-90 seconds before transition or pass attempt"
+  },
+  "expert_insights": {
+    "danaher": "The shin-to-shin guard represents a critical junction point in the modern leg entanglement system, functioning as both a defensive barrier and an offensive launching pad. The biomechanical advantage lies in the perpendicular angle of the shin connection, which creates a lever arm that can generate significant off-balancing force with minimal energy expenditure. What makes this position particularly valuable is its dual nature: it provides distance management against aggressive passers while simultaneously creating entries to the most dominant positions in leg lock systems. The key technical detail that separates effective shin-to-shin play from ineffective attempts is the angle and pressure of the shin connection—it must be maintained at approximately 45 degrees across the lower third of the opponent's tibia, with constant upward and lateral pressure that compromises their base. This creates a dilemma where any attempt to clear the connection opens pathways to single leg X or full X-guard positions. Students must understand that shin-to-shin is not a static holding position but rather a dynamic state machine with multiple branching pathways based on opponent reactions.",
+    "gordon_ryan": "In competition, shin-to-shin has become one of my most reliable positions for controlling engagement range and setting up my leg lock game. Against aggressive passers who want to pressure forward, the shin connection gives me exactly what I need—a way to manage distance while building towards single leg X entries that lead to my outside ashi attacks. The position is particularly effective because it forces standing opponents into a lose-lose situation: if they try to drive forward with pressure, I transition to butterfly or X-guard for sweeps; if they stay upright and mobile, I work towards single leg X and leg entanglements. What I've learned through thousands of competition rounds is that you can't be passive with shin-to-shin—you need to constantly adjust angles and pressure, making the opponent feel uncomfortable and reactive rather than allowing them to settle into their passing rhythm. I use the position as part of a larger guard retention system where I'm always ready to flow between shin-to-shin, single leg X, and outside ashi depending on how they react. The high percentage play is to use shin-to-shin to create the initial off-balance, then capitalize on their defensive reaction to enter the leg entanglement game where I have the advantage.",
+    "eddie_bravo": "The shin-to-shin position fits perfectly into the 10th Planet philosophy of creating dynamic, transition-heavy guard systems that keep opponents guessing and reacting. While traditional BJJ often treats shin-to-shin as a standalone guard, we view it as a connector position—a way station between different guard layers that allows you to control the flow of the match. What I love about this position is how it naturally sets up our signature moves: from shin-to-shin you can hit the lockdown entry if they drop their weight, transition to rubber guard if they lean forward, or go into our leg lock system if they stay upright. The innovation we've brought to shin-to-shin in our system is incorporating it with our electric chair setups and twister progressions—positions that most people don't associate with traditional shin-to-shin play. By thinking outside the conventional applications, we've found that shin-to-shin can be a gateway to all sorts of creative attacks that opponents don't expect. The key is staying loose, flowing with their energy, and using the shin connection not as a rigid control point but as a dynamic reference point that guides your transitions. Don't get married to the position—use it to create reactions, then exploit those reactions with technique chains that lead to dominant positions or submissions."
+  }
+}
+Session limit reached ∙ resets 4am
