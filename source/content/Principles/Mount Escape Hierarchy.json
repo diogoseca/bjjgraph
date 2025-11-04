@@ -1,20 +1,19 @@
 {
-  "metadata": {
-    "title": "Mount Escape Hierarchy | BJJ Concept | BJJ Graph",
-    "description": "Understand Mount Escape Hierarchy in BJJ. Learn systematic escape frameworks, positional priorities, decision-making under pressure. Expert insights included.",
-    "concept_id": "C089",
-    "tags": [
-      "bjj",
-      "defense",
-      "system",
-      "mount",
-      "escape",
-      "hierarchy"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Mount Escape Hierarchy",
+  "description": "Master mount escape decision-making in BJJ. Learn systematic frameworks for prioritizing escapes, frame construction, and energy-efficient defense across all mount variations.",
+  "tags": [
+    "bjj",
+    "defense",
+    "system",
+    "mount",
+    "escape",
+    "hierarchy",
+    "defensive strategy",
+    "pin escape"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Mount Escape Hierarchy represents a systematic framework for prioritizing defensive responses when trapped under mount positions. Rather than treating all mount escapes as equal options, this concept establishes a decision-making structure based on the opponent's mount variation, control strength, and available defensive windows. The hierarchy progresses from preventing positional advancement (stopping high mount or S-mount), to creating fundamental frames and space, to executing specific escape sequences. This conceptual framework recognizes that escape success depends not merely on technique execution, but on selecting the appropriate escape pathway based on real-time positional assessment. Practitioners who internalize this hierarchy develop the ability to make split-second decisions under pressure, conserving energy by attempting higher-percentage escapes first while maintaining backup options as situations evolve. The concept integrates positional awareness, timing recognition, and mechanical efficiency into a unified defensive system applicable across all mount variations.",
   "key_principles": [
     "Prevent positional advancement before attempting escapes - stop transitions to high mount, S-mount, or technical mount as first priority",
@@ -61,70 +60,116 @@
       "description": "Understanding the complete escape-to-recovery sequence, including which intermediate positions are acceptable waypoints during escape attempts. This includes knowing when to accept half guard, turtle, or other transitional positions as progress toward full guard recovery."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Escape Hierarchy",
+      "principle_name": "Escape Hierarchy",
       "relationship_type": "Extension",
       "description": "Mount Escape Hierarchy represents a position-specific application of the broader Escape Hierarchy concept, focusing specifically on the unique challenges and options available when defending mount positions"
     },
     {
-      "concept_name": "Positional Hierarchy",
+      "principle_name": "Positional Hierarchy",
       "relationship_type": "Prerequisite",
       "description": "Understanding the overall positional hierarchy is essential for recognizing why mount escapes must be prioritized and why preventing advancement to higher mount variations takes precedence over immediate escape attempts"
     },
     {
-      "concept_name": "Frame Creation",
+      "principle_name": "Frame Creation",
       "relationship_type": "Prerequisite",
       "description": "Proper frame construction is the mechanical foundation upon which all mount escapes are built - without effective framing, escape attempts become purely strength-based and low-percentage"
     },
     {
-      "concept_name": "Hip Escape Mechanics",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Complementary",
       "description": "The biomechanical execution of shrimping and hip movement works in conjunction with the decision-making framework provided by the escape hierarchy to produce successful escapes"
     },
     {
-      "concept_name": "Energy Conservation",
+      "principle_name": "Energy Conservation",
       "relationship_type": "Complementary",
       "description": "The hierarchical approach to escapes directly supports energy management by encouraging practitioners to attempt higher-percentage options first and avoid wasteful explosive movements"
     },
     {
-      "concept_name": "Defensive Strategy",
+      "principle_name": "Defensive Strategy",
       "relationship_type": "Extension",
       "description": "Mount Escape Hierarchy is a specific tactical framework within the broader strategic concept of defensive jiujitsu, demonstrating how systematic thinking improves defensive outcomes"
+    },
+    {
+      "principle_name": "Bridge and Shrimp",
+      "relationship_type": "Complementary",
+      "description": "Bridge and shrimp mechanics are the fundamental movement patterns executed within the hierarchical framework - the hierarchy determines when to use them, the mechanics determine how"
+    },
+    {
+      "principle_name": "Mount Escape Series",
+      "relationship_type": "Extension",
+      "description": "The escape series concept provides the technical sequences that are organized and prioritized by the hierarchical decision-making framework"
+    },
+    {
+      "principle_name": "Pin Escape Methodology",
+      "relationship_type": "Prerequisite",
+      "description": "General pin escape principles provide the foundation for understanding mount-specific escape hierarchy and its systematic application"
+    },
+    {
+      "principle_name": "Space Creation",
+      "relationship_type": "Complementary",
+      "description": "Creating space is the fundamental objective of mount escapes, and the hierarchy determines which space-creation methods are most appropriate for each situation"
+    },
+    {
+      "principle_name": "Dealing with Pressure",
+      "relationship_type": "Complementary",
+      "description": "Managing opponent pressure is essential for executing the escape hierarchy effectively, as pressure affects which escape options are viable"
+    },
+    {
+      "principle_name": "Control Point Hierarchy",
+      "relationship_type": "Prerequisite",
+      "description": "Understanding which control points matter most helps determine which aspects of mount control to attack first during escape attempts"
     }
   ],
   "application_contexts": [
     {
-      "context": "Mount Bottom",
+      "context": "Mount",
       "how_applied": "Primary application environment - hierarchy dictates whether to attempt bridge-and-roll, elbow escape, or frame-based recovery based on opponent's weight distribution and control security"
     },
     {
-      "context": "High Mount Bottom",
+      "context": "High Mount",
       "how_applied": "Highest priority becomes preventing grapevine or arm isolation - hierarchy shifts to emphasize elbow protection and creating space to descend back to standard mount before attempting full escapes"
     },
     {
-      "context": "S Mount Bottom",
+      "context": "S Mount",
       "how_applied": "Escape hierarchy prioritizes preventing armbar setup by keeping elbow tight and using the available leg to create frames, with recovery to standard mount as intermediate goal"
     },
     {
-      "context": "Technical Mount Bottom",
+      "context": "Technical Mount",
       "how_applied": "Hierarchy emphasizes protecting back exposure and preventing the opponent from securing hooks, with turtle position often accepted as necessary intermediate waypoint during escape"
     },
     {
-      "context": "Modified Mount Bottom",
+      "context": "Modified Mount",
       "how_applied": "Decision framework addresses whether to accept full mount to establish better frames or attempt immediate recovery based on which side provides better escape opportunities"
     },
     {
-      "context": "Knee on Belly Bottom",
+      "context": "Knee on Belly",
       "how_applied": "While not mount, the hierarchical thinking applies to preventing mount transition while creating hip distance - demonstrates how the systematic approach transfers across pin positions"
     },
     {
-      "context": "Side Control Bottom",
+      "context": "Side Control",
       "how_applied": "Hierarchy informs decision-making when opponent attempts mount transition - whether to accept mount to improve frame position or prevent mount entirely depends on control strength"
     },
     {
-      "context": "North-South Bottom",
+      "context": "North-South",
       "how_applied": "Understanding mount hierarchy helps recognize when north-south to mount transitions are occurring and whether accepting mount to establish frames is superior to remaining flattened"
+    },
+    {
+      "context": "Closed Guard",
+      "how_applied": "From top position, understanding mount escape hierarchy helps recognize when opponent is setting traps and using failed guard break attempts to sweep to mount"
+    },
+    {
+      "context": "Half Guard",
+      "how_applied": "Recognizing when opponent is passing to mount allows application of hierarchical thinking to either prevent mount entirely or prepare frames if mount becomes inevitable"
+    },
+    {
+      "context": "Turtle",
+      "how_applied": "When opponent transitions from turtle control toward mount, hierarchical thinking determines whether to defend turtle position or accept mount with proper frame preparation"
+    },
+    {
+      "context": "Back Control",
+      "how_applied": "Understanding mount hierarchy provides context for recognizing when back escape attempts might result in mount position and preparing appropriate defensive responses"
     }
   ],
   "decision_framework": [
@@ -199,6 +244,11 @@
       "error": "Purely Defensive Mindset Without Integrating Any Offensive Threats",
       "consequence": "Allows opponent to focus entirely on maintaining control and advancing position without any defensive concerns. Makes it easy for opponent to settle into perfect weight distribution and work toward submissions methodically",
       "correction": "Integrate hand fighting, pushing on opponent's face, controlling their wrists, and creating minor offensive concerns even while defending. These actions limit opponent's ability to establish ideal control and create reactive movements that open escape windows."
+    },
+    {
+      "error": "Failing to Recognize and Prevent Mount Advancement Early",
+      "consequence": "Allowing opponent to advance to high mount, S-mount, or technical mount before attempting prevention, making escapes significantly more difficult and energy-intensive from these superior positions",
+      "correction": "Develop early recognition of mount advancement patterns - opponent scooting hips forward, isolating arms, or establishing grapevines. React immediately to prevent these transitions rather than waiting until they are fully established."
     }
   ],
   "training_approaches": [
@@ -287,11 +337,11 @@
   "related_content": [
     {
       "name": "Escape Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Parent concept - Mount Escape Hierarchy is position-specific application of broader escape framework"
     },
     {
-      "name": "Mount Bottom",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "Primary application position where hierarchy is most directly applied"
     },
@@ -307,21 +357,21 @@
     },
     {
       "name": "Frame Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational skill required before any escape attempts from hierarchy can be effective"
     },
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Biomechanical foundation for executing escapes identified through hierarchical decision-making"
     },
     {
-      "name": "High Mount Bottom",
+      "name": "High Mount",
       "content_type": "Position",
       "relationship": "Critical position variation that requires hierarchy adjustment - prevention becomes highest priority"
     },
     {
-      "name": "S Mount Bottom",
+      "name": "S Mount",
       "content_type": "Position",
       "relationship": "Advanced mount variation requiring specialized hierarchy with armbar defense as top priority"
     },
@@ -332,17 +382,17 @@
     },
     {
       "name": "Energy Conservation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Critical supporting concept - hierarchical approach prevents energy waste through failed attempts"
     },
     {
       "name": "Positional Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Provides context for why mount escapes must be prioritized and systematized"
     },
     {
       "name": "Defensive Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader strategic framework within which mount escape hierarchy operates as tactical system"
     }
   ],

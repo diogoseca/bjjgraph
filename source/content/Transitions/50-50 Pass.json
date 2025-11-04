@@ -1,20 +1,15 @@
 {
-  "metadata": {
-    "title": "50-50 Pass | BJJ Technique | BJJ Graph",
-    "description": "Master the 50-50 Pass in BJJ. Break free from 50-50 Guard entanglements with systematic leg extraction. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-    "transition_id": "T003",
-    "tags": ["bjj", "technique", "pass", "leg-locks", "50-50", "guard-passing", "leg-entanglement"],
-    "starting_position": "50-50 Guard Top",
-    "ending_position": "Side Control Top",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 50,
-      "advanced": 65
-    }
+  "name": "50-50 Pass",
+  "description": "Learn the 50-50 Pass in BJJ. Systematic leg extraction from dangerous entanglement to dominant position. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "tags": ["bjj", "technique", "pass", "leg-locks", "50-50", "guard-passing", "leg-entanglement", "no-gi", "leg-defense"],
+  "starting_position": "50-50 Guard",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 50,
+    "advanced": 65
   },
-
   "overview": "The 50-50 Pass is a critical escape and passing sequence from one of Brazilian Jiu-Jitsu's most complex entanglement positions. When trapped in the 50-50 Guard, both practitioners have mirrored leg entanglements with similar attacking opportunities, creating a symmetrical dilemma. The pass requires systematic leg extraction, hip control, and pressure application to break the entanglement and establish top position. This technique is essential for modern no-gi competition where 50-50 entries are common from various guard positions. The 50-50 Pass emphasizes defensive leg lock awareness while simultaneously creating passing opportunities. Understanding this sequence is crucial because remaining static in 50-50 Guard exposes you to heel hooks, toe holds, and other leg attacks. The pass transitions you from a dangerous entanglement to a dominant passing position where you can attack or consolidate control.",
-
   "key_principles": [
     "Protect your own heel from inside heel hook by controlling opponent's grip",
     "Create space at the hip connection to begin leg extraction",
@@ -24,7 +19,6 @@
     "Use shoulder pressure and crossface to control upper body during pass",
     "Transition immediately to passing position once legs are freed"
   ],
-
   "setup_requirements": [
     "Awareness of opponent's inside heel hook threat on your trapped leg",
     "Strong hip pressure preventing opponent from sitting up",
@@ -33,7 +27,6 @@
     "Ability to create space at hip connection through frames or pressure shifts",
     "Recognition that opponent may attempt sweeps or reversals during extraction"
   ],
-
   "execution_steps": [
     {
       "step_number": 1,
@@ -72,7 +65,6 @@
       "timing": "Final consolidation phase, 3-4 seconds"
     }
   ],
-
   "common_counters": [
     {
       "counter": "Opponent locks inside heel hook grip on your trapped foot",
@@ -100,7 +92,6 @@
       "your_response": "Base wide with your free leg and post your hand on the mat. Lower your hips and increase forward pressure to counter the sweep attempt."
     }
   ],
-
   "common_errors": [
     {
       "error": "Attempting to pass without protecting exposed heel first",
@@ -133,7 +124,6 @@
       "correction": "Always step to the side of your crossface. If crossfacing right, step your leg over to opponent's right side for maximum control consolidation."
     }
   ],
-
   "training_progressions": [
     {
       "phase": "Week 1-2: Positional Understanding",
@@ -172,7 +162,6 @@
       "resistance_level": "Full"
     }
   ],
-
   "variants_and_adaptations": [
     {
       "variant_name": "Backstep 50-50 Pass",
@@ -195,7 +184,6 @@
       "when_to_use": "When opponent has weak guard retention and you have significant weight advantage. Effective for controlling and exhausting defensive opponents."
     }
   ],
-
   "knowledge_assessment": [
     {
       "question": "What is the absolute first priority when attempting to pass from 50-50 Guard?",
@@ -233,18 +221,15 @@
       "difficulty": "Advanced"
     }
   ],
-
   "safety_considerations": "The 50-50 Pass is performed from one of BJJ's most dangerous positions for leg injuries. Always protect your heel before attempting to pass - inside heel hooks can cause catastrophic knee and ankle damage if applied suddenly. When training this technique, partners must agree on submission threat levels and tap immediately to any heel pressure. Never force the pass if opponent has secured a heel hook grip; break the grip first or abandon the pass. During extraction, move smoothly without jerking motions that could damage your own knee. Build conditioning gradually as the position is physically demanding. In competition, be aware that some 50-50 positions may result in referee resets if neither player advances position. Practice with experienced leg lock practitioners who understand safety protocols.",
-
   "position_integration": "The 50-50 Pass is a critical defensive skill in the modern leg entanglement game. The 50-50 Guard often occurs as a transition from single leg X-guard sweeps, X-guard entries, or as a counter to leg drag passing attempts. Understanding how to pass from this position is essential because remaining static exposes you to heel hooks, toe holds, and kneebar attacks from opponent. The pass connects to your overall guard passing system by providing an escape route when entanglements occur. After successfully passing, you can establish side control, mount, or other dominant positions. The technique also teaches important concepts for escaping other leg entanglements like outside ashi garami and saddle positions. In your strategic game plan, the 50-50 pass serves as both a defensive tool (escaping danger) and an offensive opportunity (gaining top position for points or further attacks). Many modern competitors deliberately enter 50-50 as part of their leg lock attacking system, so developing a reliable pass from this position is necessary for competitive success.",
-
   "related_content": [
     {
-      "name": "50-50 Guard Top",
+      "name": "50-50 Guard",
       "relationship": "Starting Position - where this pass begins"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Ending Position - primary destination after successful pass"
     },
     {
@@ -268,7 +253,7 @@
       "relationship": "Variation - alternative passing method from leg extraction"
     },
     {
-      "name": "Headquarters Position Top",
+      "name": "Headquarters Position",
       "relationship": "Transition Position - intermediate position during pass sequence"
     },
     {
@@ -278,14 +263,23 @@
     {
       "name": "Lachlan Giles Leg Lock Defense Framework",
       "relationship": "Defensive System - broader context for 50-50 escape strategies"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Related Position - similar leg entanglement structure"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Related Position - another dangerous leg entanglement to escape from"
+    },
+    {
+      "name": "X-Guard to Ashi Transition",
+      "relationship": "Entry Path - common route into 50-50 position"
     }
   ],
-
   "expert_insights": {
     "danaher": "The 50-50 position represents a perfect example of positional symmetry creating a tactical dilemma. Both athletes have access to similar attacking options, which paradoxically often results in defensive stalemate. The pass must be executed with systematic precision - you cannot skip steps. First, establish heel safety through grip fighting or positioning. Second, create the mechanical space needed for extraction through hip pressure manipulation. Third, extract the bottom leg using a circular motion that follows the natural range of motion of the hip joint. Fourth, immediately capitalize on the extraction by stepping over before opponent can reorganize their defensive structure. The key biomechanical principle is maintaining constant downward pressure on opponent's torso while your legs create space and extract. Many students fail because they attempt to stand up or elevate, which removes the pressure that prevents opponent from sitting up and re-entangling. The 50-50 pass is not about explosive movement but rather about systematic application of pressure and spatial awareness. Understanding the mechanics of this position makes you dangerous both offensively and defensively in the modern leg entanglement game.",
-
     "gordon_ryan": "In competition, I see the 50-50 as a position that rewards patience and understanding. You cannot force the pass when opponent has strong control - you will either get submitted or swept. The key is recognizing when opponent is vulnerable, usually when they are focused on attacking your heel or when they have weak upper body control. I always prioritize breaking any heel hook grip before even thinking about passing. Once that threat is neutralized, I focus on heavy shoulder pressure to prevent them from sitting up. From there, the pass is about timing - creating space when they push, extracting when they pull. One detail that changed my success rate dramatically is keeping my chest glued to opponent's chest throughout the entire sequence. Many passers make the mistake of rising up to create room for their legs to extract, but this allows opponent to sit up underneath you. Stay heavy, stay low, and extract your legs while maintaining that pressure. In training, I always practice this pass against high-level leg lock players because that's where you need it most in competition. If you can't pass from 50-50, you will be forced into defensive stalling in matches against leg lock specialists.",
-
     "eddie_bravo": "The 50-50 is one of those positions where creativity and systematic defense need to balance perfectly. From a 10th Planet perspective, we study this position extensively because our opponents often try to use it to shut down our leg attack game. The traditional pass works, but I've developed variations that create more chaos and opportunities. One technique I love is the 'electric chair bait' where you appear to be passing traditionally but suddenly switch your bottom leg into their far leg and threaten the electric chair submission. This forces them to react, often breaking their 50-50 structure and giving you easier passing opportunities. Another innovation is using a corkscrew motion with your legs during extraction - instead of pulling straight back, rotate your knees in opposite directions which creates leverage against their entanglement. The crossface is absolutely critical in our system because we want to prevent opponent from getting any upward mobility. In training, we practice this pass in combination with rubber guard transitions because both positions involve complex leg entanglements and similar hip mechanics. Don't be afraid to experiment with grip variations and different extraction angles - the traditional method is a great foundation, but sometimes creativity opens up passing lanes that systematic approaches miss."
   }
 }

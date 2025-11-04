@@ -1,37 +1,15 @@
 {
-  "metadata": {
-    "title": "Triangle Choke | BJJ Submission | BJJ Graph",
-    "description": "Master the Triangle Choke in BJJ. Complete safety guide with setup, execution, and defense. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.",
-    "submission_id": "SUB001",
-    "tags": ["bjj", "submission", "triangle-choke", "blood-choke", "closed-guard", "fundamental"],
-    "submission_category": "Choke",
-    "submission_type": "Blood Choke",
-    "target_area": "Carotid arteries and brachial plexus",
-    "starting_position": "Closed Guard Bottom",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 75
-    },
-    "from_positions": [
-      "Closed Guard Bottom",
-      "Mount Top",
-      "Spider Guard Bottom",
-      "De La Riva Guard Bottom",
-      "Rubber Guard Bottom",
-      "Back Control Top"
-    ],
-    "related_submissions": [
-      "Armbar from Guard",
-      "Omoplata",
-      "Omoplata from Guard",
-      "Guillotine Choke",
-      "Triangle from Back",
-      "Triangle from Mount",
-      "Inverted Triangle",
-      "Armbar from Back",
-      "Kimura from Guard"
-    ]
+  "name": "Triangle Choke",
+  "description": "Master the Triangle Choke in BJJ. Complete safety guide with setup, execution, and defense. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "tags": ["bjj", "submission", "triangle-choke", "blood-choke", "closed-guard", "fundamental"],
+  "submission_category": "Choke",
+  "submission_type": "Blood Choke",
+  "target_area": "Carotid arteries and brachial plexus",
+  "starting_position": "Closed Guard",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 55,
+    "advanced": 75
   },
   "overview": "The Triangle Choke is one of Brazilian Jiu-Jitsu's most fundamental and high-percentage blood chokes, typically executed from the bottom position in closed guard. By trapping the opponent's head and one arm between your legs while using your shin to compress the neck, you create a triangle configuration that occludes the carotid arteries and restricts blood flow to the brain. The effectiveness of the triangle lies in its mechanical efficiency—once properly locked, it requires minimal strength to finish and becomes progressively tighter as the opponent struggles.\n\nHistorically developed from judo's sankaku-jime, the triangle choke has become a cornerstone technique in modern BJJ competition, especially in gi grappling where grips facilitate control. The submission works through a combination of structural alignment and proper angle creation, with the practitioner's body position and hip angle being more critical than leg strength. When executed correctly, the triangle creates an inescapable mechanical trap where the opponent's own shoulder acts as a fulcrum to compress their neck.\n\nThe triangle choke's strategic value extends beyond its finishing potential—it serves as a gateway to multiple transitions including armbars, omoplatas, and sweeps. High-level practitioners use the triangle position as a control platform, maintaining the configuration while attacking multiple submissions in sequence. This makes the triangle one of the most versatile offensive tools in BJJ, equally effective in both training and competition contexts across all skill levels.",
   "safety_considerations": {
@@ -301,6 +279,25 @@
       "safety_emphasis": "Distinguish between competition finishing (fast) and training finishing (always progressive). In training, ALWAYS give partner time to tap. Save competition speed for competition only."
     }
   ],
+  "from_positions": [
+    "Closed Guard",
+    "Mount",
+    "Spider Guard",
+    "De La Riva Guard",
+    "Rubber Guard",
+    "Back Control"
+  ],
+  "related_submissions": [
+    "Armbar from Guard",
+    "Omoplata",
+    "Omoplata from Guard",
+    "Guillotine Choke",
+    "Triangle from Back",
+    "Triangle from Mount",
+    "Inverted Triangle",
+    "Armbar from Back",
+    "Kimura from Guard"
+  ],
   "related_content": [
     {
       "name": "Armbar from Guard",
@@ -311,7 +308,7 @@
       "relationship": "Alternative finish when triangle is defended—opponent's defensive movements open omoplata"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "relationship": "Most common starting position for triangle choke setup"
     },
     {

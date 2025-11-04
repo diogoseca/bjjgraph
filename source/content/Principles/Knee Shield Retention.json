@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Knee Shield Retention | BJJ Concept | BJJ Graph",
-    "description": "Understand Knee Shield Retention in BJJ. Learn frame maintenance, dynamic shield adjustment, cross-position applications. Expert insights included.",
-    "concept_id": "C067",
-    "tags": [
-      "bjj",
-      "concept",
-      "intermediate",
-      "defense",
-      "guard",
-      "retention",
-      "half-guard",
-      "frame"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Knee Shield Retention",
+  "description": "Master knee shield retention in BJJ half guard. Learn frame maintenance, dynamic angle adjustment, pressure distribution, and systematic retention framework.",
+  "tags": [
+    "bjj",
+    "principle",
+    "intermediate",
+    "defense",
+    "guard",
+    "retention",
+    "half-guard",
+    "frame"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Knee Shield Retention represents the fundamental skill of maintaining and preserving the knee shield frame as a primary defensive barrier in half guard, preventing guard passing while creating opportunities for recovery, sweeps, or back takes. Unlike specific techniques, knee shield retention is a comprehensive conceptual framework that applies across multiple half guard variations and passing scenarios. This concept encompasses the biomechanical principles of frame maintenance, dynamic adjustment, and strategic space management that enable the bottom practitioner to neutralize top pressure while preserving offensive opportunities. Knee shield retention serves as both a defensive mechanism that prevents passes and maintains guard integrity, and an offensive platform that creates sweep entries and back take opportunities. The ability to maintain an effective knee shield often determines whether a practitioner can successfully defend against passing pressure or loses guard position entirely, making it one of the most essential conceptual elements in modern guard retention systems.",
   "key_principles": [
     "Position knee frame across opponent's torso at optimal angle to maximize leverage and prevent collapse",
@@ -63,85 +60,100 @@
       "description": "Modifying shield position and angle during transitions between half guard variations (knee shield to lockdown, knee shield to deep half) or when changing offensive tactics, maintaining defensive integrity throughout positional changes."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention Concepts",
       "relationship_type": "Extension",
       "description": "Knee shield retention is a specific application of broader guard retention principles, applying general retention concepts to the specific context of half guard defensive structures"
     },
     {
-      "concept_name": "Frame Creation",
+      "principle_name": "Frame Creation",
       "relationship_type": "Prerequisite",
       "description": "Effective knee shield retention requires fundamental understanding of frame creation principles, as the shield itself is a specialized frame structure requiring proper biomechanical positioning"
     },
     {
-      "concept_name": "Hip Movement",
+      "principle_name": "Hip Movement",
       "relationship_type": "Complementary",
       "description": "Hip mobility and escape mechanics work synergistically with knee shield retention, as hip movement enables shield angle adjustment and recovery when shield position is compromised"
     },
     {
-      "concept_name": "Defensive Framing",
+      "principle_name": "Defensive Framing",
       "relationship_type": "Prerequisite",
       "description": "General defensive framing concepts provide the foundation for specialized knee shield applications, teaching proper structural integrity and pressure distribution principles"
     },
     {
-      "concept_name": "Space Management",
+      "principle_name": "Space Management",
       "relationship_type": "Complementary",
       "description": "Knee shield retention is fundamentally a space management tool, creating and maintaining distance between practitioners to prevent passing while preserving offensive range"
     },
     {
-      "concept_name": "Pressure Reduction",
+      "principle_name": "Pressure Reduction",
       "relationship_type": "Extension",
       "description": "The knee shield serves as a primary mechanism for reducing and redirecting top pressure, applying pressure reduction principles through leverage and angle management"
+    },
+    {
+      "principle_name": "Frame Management",
+      "relationship_type": "Extension",
+      "description": "Knee shield retention demonstrates advanced frame management principles where multiple frames coordinate to create comprehensive defensive architecture"
+    },
+    {
+      "principle_name": "Distance Creation",
+      "relationship_type": "Complementary",
+      "description": "Shield retention actively creates and maintains distance through frame pressure, preventing opponent from closing space and consolidating passing control"
+    },
+    {
+      "principle_name": "Dealing with Pressure",
+      "relationship_type": "Extension",
+      "description": "Knee shield provides practical methodology for dealing with top passing pressure by redistributing force vectors and maintaining structural integrity under load"
     }
   ],
   "application_contexts": [
     {
-      "context": "Half Guard Bottom",
-      "how_applied": "Primary defensive structure in traditional half guard, knee shield creates barrier across opponent's torso to prevent crossface and underhook consolidation while maintaining sweep and back take opportunities"
-    },
-    {
-      "context": "Knee Shield Half Guard Bottom",
+      "context": "Knee Shield Half Guard",
       "how_applied": "Defining characteristic of this position variation, shield retention determines position viability and enables transitional options to lockdown, deep half, or back takes based on opponent's passing direction"
     },
     {
-      "context": "Z-Guard Bottom",
+      "context": "Half Guard",
+      "how_applied": "Primary defensive structure in traditional half guard, knee shield creates barrier across opponent's torso to prevent crossface and underhook consolidation while maintaining sweep and back take opportunities"
+    },
+    {
+      "context": "Z-Guard",
       "how_applied": "In Z-guard variations, knee shield retention combined with bottom leg framing creates comprehensive defensive structure that prevents both knee slice and over-under passing while setting up sweeps"
     },
     {
-      "context": "Butterfly Half Guard Bottom",
+      "context": "Butterfly Half Guard",
       "how_applied": "Knee shield serves as transitional frame when switching between butterfly hooks and half guard retention, maintaining defensive integrity during hybrid position adjustments"
     },
     {
-      "context": "Deep Half Guard Bottom",
+      "context": "Deep Half Guard",
       "how_applied": "Shield retention used during entries to deep half to prevent opponent from consolidating top position before full deep half structure is established, protecting against counter-passing"
     },
     {
-      "context": "Quarter Guard Bottom",
+      "context": "Quarter Guard",
       "how_applied": "Emergency shield establishment from compromised quarter guard position, using knee insertion to create space and prevent full guard pass completion"
     },
     {
-      "context": "Lockdown Half Guard Bottom",
+      "context": "Lockdown",
       "how_applied": "Shield retention maintained during lockdown entries and exits, providing defensive backup when lockdown control is broken or during transitions to electric chair setups"
     },
     {
-      "context": "Reverse Half Guard Bottom",
+      "context": "Reverse Half Guard",
       "how_applied": "Modified shield applications in reverse half guard where knee shield prevents opponent from taking back or completing crab ride control while maintaining guard structure"
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Knee shield used as transitional defensive frame when recovering guard from standing or during initial guard establishment, creating space before full open guard structure is established"
     },
     {
-      "context": "Butterfly Guard Bottom",
+      "context": "Butterfly Guard",
       "how_applied": "Shield integrated with butterfly hooks in hybrid positions, providing additional defensive layer when opponent attempts to control hips or flatten butterfly structure"
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Shield mechanics inform closed guard defensive concepts when guard is being opened, using similar frame pressure principles to prevent opponent from establishing passing position"
     },
     {
-      "context": "Combat Base Top",
+      "context": "Combat Base",
       "how_applied": "Understanding shield retention helps defend against combat base passing pressure by recognizing how opponent attempts to collapse frame structure and counter with shield recovery"
     }
   ],
@@ -305,34 +317,29 @@
   ],
   "related_content": [
     {
-      "name": "Half Guard Bottom",
+      "name": "Half Guard",
       "content_type": "Position",
       "relationship": "Primary position where knee shield retention serves as fundamental defensive structure"
     },
     {
-      "name": "Knee Shield Half Guard Bottom",
+      "name": "Knee Shield Half Guard",
       "content_type": "Position",
       "relationship": "Specific half guard variation defined by knee shield application and retention principles"
     },
     {
-      "name": "Z-Guard Bottom",
+      "name": "Z-Guard",
       "content_type": "Position",
       "relationship": "Advanced half guard variation that emphasizes knee shield combined with bottom leg framing"
     },
     {
-      "name": "Deep Half Guard Bottom",
+      "name": "Deep Half Guard",
       "content_type": "Position",
       "relationship": "Alternative retention structure that practitioners transition to when knee shield becomes compromised"
     },
     {
-      "name": "Lockdown Half Guard Bottom",
+      "name": "Lockdown",
       "content_type": "Position",
       "relationship": "Complementary retention system that can be combined with or substituted for knee shield retention"
-    },
-    {
-      "name": "Half Guard Sweeps",
-      "content_type": "Transition",
-      "relationship": "Offensive techniques that utilize knee shield as setup platform and launching point"
     },
     {
       "name": "Underhook Sweep from Half",
@@ -341,28 +348,28 @@
     },
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader concept that encompasses knee shield as specific application of general framing principles"
     },
     {
       "name": "Guard Retention Concepts",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "General retention framework that knee shield retention exemplifies in half guard contexts"
     },
     {
       "name": "Space Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Fundamental concept that knee shield retention achieves through frame pressure and distance creation"
     },
     {
       "name": "Hip Movement",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential complementary skill that enables dynamic shield adjustment and recovery capabilities"
     }
   ],
   "expert_insights": {
-    "danaher": "Approaches knee shield retention as a systematic application of geometric principles where shield angle, frame pressure, and hip positioning create an architectural barrier that forces opponent to work around rather than through the defensive structure. Emphasizes understanding the relationship between shield angle and passing direction, treating retention as a dynamic problem of maintaining optimal geometric relationships as opponent attempts to disrupt defensive architecture. Systematizes shield variations according to passing pressure type and direction, creating a decision tree framework where shield adjustments are prescribed responses to specific passing attacks rather than improvised reactions. Views the knee shield not as a single position but as a spectrum of frame angles that must be continuously modulated based on the vectors of force being applied by the opponent. Teaches that effective shield retention requires understanding the principle of 'cooperative frames' where the knee shield and upper body controls work together to distribute defensive load, preventing any single frame from being overwhelmed. Emphasizes that the knee shield's effectiveness derives from its ability to create distance while simultaneously threatening offensive actions, forcing opponent into tactical dilemmas where defending against attacks weakens passing pressure. Analyzes shield retention through the lens of lever mechanics, teaching students to recognize optimal leverage points where minimal energy creates maximum defensive effect against passing attempts.",
-    "gordon_ryan": "Views knee shield retention as a competition-critical skill that must maintain both defensive integrity and offensive threat potential simultaneously, distinguishing elite half guard players from intermediate practitioners who focus solely on defense. Focuses on what he terms 'active retention' where shield pressure continuously disrupts opponent's balance and base rather than passively blocking, creating offensive opportunities while defending. Emphasizes the importance of maintaining underhook or back take threats even while defending, forcing opponent to divide attention between completing pass and defending submissions, which significantly reduces passing success rates. In his competition experience, recognizes that the knee shield's primary value lies not in making passes impossible but in making them inefficient and energy-costly, creating fatigue advantages that compound over match duration. Advocates for aggressive shield recovery when position is compromised, viewing any acceptance of collapsed shield as tactical failure that must be immediately corrected through explosive hip movement. Teaches that shield retention effectiveness correlates directly with grip fighting success, as controlling opponent's grips on pants and sleeves dramatically enhances shield stability and offensive potential. Demonstrates how elite-level shield retention integrates seamlessly with sweep and back take entries, using the shield not as final defensive position but as launching platform for high-percentage offensive attacks that capitalize on opponent's passing commitment.",
-    "eddie_bravo": "Has developed specialized knee shield applications within his lockdown and electric chair systems that integrate retention with offensive submission threats, creating what he calls 'aggressive defense' where every defensive action simultaneously threatens attack. When teaching shield retention, emphasizes the importance of maintaining what he calls 'dynamic distance' where space fluctuates strategically rather than remaining constant, creating rhythm disruptions that interfere with opponent's passing timing and break down systematic passing approaches. Advocates for creative shield applications that challenge conventional retention principles, including inverted shields and transitional shields that serve both defensive and setup functions for unorthodox attacks. Within the 10th Planet system, views knee shield retention as critical transitional skill that bridges between rubber guard applications in closed guard and lockdown control in half guard, serving as connection point in comprehensive guard system. Emphasizes that shield retention should never be purely passive, teaching students to constantly threaten opponent with sweeps, back takes, or submissions even while defending, preventing opponent from committing fully to passing pressure. Has innovated shield recovery techniques that utilize unconventional movements like granby rolls and inversion to reestablish frame structure from severely compromised positions, expanding traditional understanding of shield recovery options. Teaches that music and rhythm concepts apply to shield retention, where breaking and establishing different tempos in shield pressure creates confusion in opponent's passing timing and opens counter-attack windows."
+    "danaher": "Approaches knee shield retention as a systematic application of geometric principles where shield angle, frame pressure, and hip positioning create an architectural barrier that forces opponent to work around rather than through the defensive structure. Emphasizes understanding the relationship between shield angle and passing direction, treating retention as a dynamic problem of maintaining optimal geometric relationships as opponent attempts to disrupt defensive architecture. Systematizes shield variations according to passing pressure type and direction, creating a decision tree framework where shield adjustments are prescribed responses to specific passing attacks rather than improvised reactions. Views the knee shield not as a single position but as a spectrum of frame angles that must be continuously modulated based on the vectors of force being applied by the opponent. Teaches that effective shield retention requires understanding the principle of cooperative frames where the knee shield and upper body controls work together to distribute defensive load, preventing any single frame from being overwhelmed. Emphasizes that the knee shield's effectiveness derives from its ability to create distance while simultaneously threatening offensive actions, forcing opponent into tactical dilemmas where defending against attacks weakens passing pressure. Analyzes shield retention through the lens of lever mechanics, teaching students to recognize optimal leverage points where minimal energy creates maximum defensive effect against passing attempts.",
+    "gordon_ryan": "Views knee shield retention as a competition-critical skill that must maintain both defensive integrity and offensive threat potential simultaneously, distinguishing elite half guard players from intermediate practitioners who focus solely on defense. Focuses on what he terms active retention where shield pressure continuously disrupts opponent's balance and base rather than passively blocking, creating offensive opportunities while defending. Emphasizes the importance of maintaining underhook or back take threats even while defending, forcing opponent to divide attention between completing pass and defending submissions, which significantly reduces passing success rates. In his competition experience, recognizes that the knee shield's primary value lies not in making passes impossible but in making them inefficient and energy-costly, creating fatigue advantages that compound over match duration. Advocates for aggressive shield recovery when position is compromised, viewing any acceptance of collapsed shield as tactical failure that must be immediately corrected through explosive hip movement. Teaches that shield retention effectiveness correlates directly with grip fighting success, as controlling opponent's grips on pants and sleeves dramatically enhances shield stability and offensive potential. Demonstrates how elite-level shield retention integrates seamlessly with sweep and back take entries, using the shield not as final defensive position but as launching platform for high-percentage offensive attacks that capitalize on opponent's passing commitment.",
+    "eddie_bravo": "Has developed specialized knee shield applications within his lockdown and electric chair systems that integrate retention with offensive submission threats, creating what he calls aggressive defense where every defensive action simultaneously threatens attack. When teaching shield retention, emphasizes the importance of maintaining what he calls dynamic distance where space fluctuates strategically rather than remaining constant, creating rhythm disruptions that interfere with opponent's passing timing and break down systematic passing approaches. Advocates for creative shield applications that challenge conventional retention principles, including inverted shields and transitional shields that serve both defensive and setup functions for unorthodox attacks. Within the 10th Planet system, views knee shield retention as critical transitional skill that bridges between rubber guard applications in closed guard and lockdown control in half guard, serving as connection point in comprehensive guard system. Emphasizes that shield retention should never be purely passive, teaching students to constantly threaten opponent with sweeps, back takes, or submissions even while defending, preventing opponent from committing fully to passing pressure. Has innovated shield recovery techniques that utilize unconventional movements like granby rolls and inversion to reestablish frame structure from severely compromised positions, expanding traditional understanding of shield recovery options. Teaches that music and rhythm concepts apply to shield retention, where breaking and establishing different tempos in shield pressure creates confusion in opponent's passing timing and opens counter-attack windows."
   }
 }

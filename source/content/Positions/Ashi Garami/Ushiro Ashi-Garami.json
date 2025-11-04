@@ -1,3 +1,775 @@
-Session limit reached ∙ resets 4am
-Session limit reached ∙ resets 4am
-Session limit reached ∙ resets 4am
+{
+  "name": "Ushiro Ashi-Garami",
+  "slug": "ushiro-ashi-garami",
+  "description": "Master Ushiro Ashi-Garami (reverse leg entanglement). Complete technical guide covering defensive counters, attack sequences, and transition paths.",
+  "variant_uniqueness": "Reverse entanglement with unique heel angles",
+  "overview": "Ushiro Ashi-Garami, translated as \"reverse leg entanglement,\" represents a critical defensive position within modern leg lock systems. This configuration occurs when an opponent attempts to escape standard ashi-garami positions by inverting their hips and turning away, creating a reversed leg entanglement where the attacking practitioner's legs are positioned differently than in standard outside or inside ashi-garami.\n\nThe position is characterized by the attacker's outside leg crossing over the defender's trapped leg while the inside leg remains underneath, creating a figure-four configuration from a reversed angle. This orientation fundamentally changes the biomechanical leverage available for heel hooks and ankle locks, requiring different grips, hip positioning, and finishing mechanics compared to standard ashi-garami variations.\n\nUshiro ashi-garami emerged as competitors developed sophisticated leg lock escape systems, particularly the ability to invert and turn away from dangerous positions. Rather than allowing complete escape, advanced leg lock specialists learned to maintain entanglement through this inversion, creating new attacking opportunities from the reversed configuration. The position now serves as both a defensive recovery option and an offensive platform within comprehensive leg lock systems.\n\nFrom the bottom perspective, ushiro ashi-garami represents a compromised defensive position where the practitioner has inverted to escape standard leg entanglements but remains trapped. The primary goals are to complete the escape by clearing the legs entirely, transition to a more favorable defensive configuration, or counter-attack with leg locks from the inverted position. Success requires understanding how to use the reversed orientation to create space, break grips, and extract the trapped leg while managing submission threats.\n\nFrom the top perspective, maintaining ushiro ashi-garami requires adapting grip strategies and body positioning to the reversed configuration. The attacker must prevent the defender from completing their escape while establishing control sufficient for heel hook or ankle lock attempts. This involves specific adjustments to leg positioning, hip placement, and upper body control that differ significantly from standard ashi-garami attacks.\n\nThe tactical importance of ushiro ashi-garami lies in its role as a transitional position within leg lock exchanges. Practitioners who cannot maintain or escape this position effectively will find themselves consistently losing scrambles in the leg entanglement game. Modern no-gi competition, particularly at high levels, frequently involves rapid transitions through various ashi-garami configurations, making ushiro ashi-garami literacy essential for both attacking and defensive success.\n\nUnderstanding the biomechanical differences between ushiro ashi-garami and standard configurations is crucial for technique selection and success rate optimization across skill levels.",
+  "key_principles": [
+    "Reversed orientation fundamentally changes heel hook finishing mechanics and required adjustments",
+    "Hip inversion creates both escape opportunities and unique submission angles depending on control depth",
+    "Grip fighting becomes critical as reversed position allows different hand fighting options",
+    "Leg configuration must be maintained precisely to prevent complete escape or counter-entanglement",
+    "Transition timing to other ashi-garami variants or back attacks is essential for offensive success",
+    "Defensive priority is clearing legs completely rather than attempting submissions from compromised position",
+    "Body positioning relative to opponent's hips determines whether position favors escape or attack"
+  ],
+  "related_positions": [
+    {
+      "name": "Outside Ashi-Garami",
+      "relationship": "Standard position that ushiro ashi-garami often transitions from during escape attempts"
+    },
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Alternative standard configuration with similar inversion escape vulnerabilities"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "High-control leg entanglement that can transition through ushiro during scrambles"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Neutral leg entanglement that shares similar escape and counter-attack principles"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Common transition target when opponent continues inverting from ushiro ashi-garami"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Defensive recovery position accessible when clearing reversed leg entanglement"
+    },
+    {
+      "name": "Cross Ashi-Garami",
+      "relationship": "Related entanglement configuration with different mechanical properties"
+    },
+    {
+      "name": "Honey Hole",
+      "relationship": "High-control variant that attackers may transition to from ushiro configuration"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Common defensive position reached when fully inverting away from leg entanglements"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative defensive recovery position when successfully clearing reversed entanglement"
+    }
+  ],
+  "bottom": {
+    "name": "Ushiro Ashi-Garami Bottom",
+    "description": "Defensive perspective in reversed leg entanglement. Learn escape sequences, counter-attacks, and recovery paths to clear legs safely.",
+    "tags": [
+      "Position",
+      "Leg Entanglement",
+      "Defensive",
+      "Ashi Garami",
+      "No-Gi",
+      "Advanced"
+    ],
+    "overview": "Ushiro ashi-garami bottom represents a critical juncture in leg lock defense where the practitioner has attempted to invert and escape from standard ashi-garami positions but remains partially entangled. This reversed configuration creates both immediate submission danger and potential escape opportunities depending on the depth of the opponent's control and the defender's technical knowledge.\n\nThe defensive practitioner in ushiro ashi-garami has their leg trapped in a reversed figure-four configuration with their hips inverted relative to standard positions. The opponent's outside leg crosses over the trapped leg while their inside leg remains underneath, creating heel hook and ankle lock threats from an unusual angle. The defender's inverted position changes the biomechanics of both submission defense and escape sequences, requiring specific technical adjustments.\n\nThe primary strategic objective from ushiro ashi-garami bottom is completing the escape sequence that the inversion initiated. This involves clearing the opponent's legs entirely while protecting against heel hooks during the extraction process. Secondary objectives include counter-attacking with leg locks from the inverted position or transitioning to more favorable defensive configurations like single leg x-guard or deep half guard.\n\nDefensive success in ushiro ashi-garami requires understanding the specific submission mechanics from reversed positions. Heel hooks from ushiro ashi-garami require different grip configurations and hip positioning than standard variations, creating windows of opportunity during the attacker's adjustment phase. Defenders must capitalize on these windows while maintaining awareness of ankle lock threats that may be more readily available from the reversed angle.\n\nThe position frequently occurs in high-level no-gi competition when sophisticated defenders attempt to escape leg entanglements through inversion. Attackers who have developed ushiro ashi-garami maintenance skills can prevent complete escape, creating scramble situations that favor practitioners with superior technical knowledge of the reversed configuration. Defensive practitioners must develop both escape proficiency and submission awareness to navigate these scrambles successfully.\n\nEnergy management in ushiro ashi-garami bottom is critical, as panicked escape attempts often worsen position or create submission opportunities. Systematic clearing of the opponent's legs while controlling distance and managing grips provides the highest success rates across skill levels. Understanding when to prioritize escape versus when to accept transitional positions like turtle or deep half guard is essential for defensive success.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive",
+      "risk_level": "High",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short"
+    },
+    "state_invariants": [
+      "Defender's leg remains trapped in reversed figure-four configuration with opponent's outside leg crossing over the knee line while inside leg stays underneath the trapped leg, creating inverted entanglement geometry",
+      "Defender's hips are inverted relative to standard ashi-garami with torso rotated away from opponent, changing the biomechanical angles available for both submission defense and escape sequences",
+      "Opponent maintains at least one controlling grip on the defender's trapped leg or gi pants while attempting to establish heel exposure or ankle lock positioning from the reversed configuration"
+    ],
+    "prerequisites": [
+      "Attempted inversion escape from standard ashi-garami position that was partially successful in hip rotation but incomplete in leg extraction",
+      "Opponent maintained leg entanglement during defender's inversion attempt by adjusting leg configuration to reversed figure-four",
+      "Defender's leg remains trapped despite hip inversion, indicating insufficient space creation or premature rotation timing"
+    ],
+    "key_principles": [
+      "Complete the escape sequence by continuing rotation and leg clearing rather than stopping in reversed position",
+      "Protect heel exposure during extraction by keeping foot flexed and controlling distance from opponent's upper body",
+      "Use inverted position to access counter-attack opportunities on opponent's legs if escape is temporarily blocked",
+      "Control opponent's inside leg with hands to prevent them from deepening entanglement or transitioning to saddle",
+      "Create space by extending the trapped leg and using free leg to push opponent's hips away",
+      "Recognize when to accept transitional positions like turtle or deep half rather than forcing extraction",
+      "Monitor opponent's grip changes as indicators of submission attempt timing and type"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Ushiro Ashi-Garami Escape",
+        "target_position": "Standing Position",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Inversion to Turtle",
+        "target_position": "Turtle",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 50,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Counter Ashi Entry",
+        "target_position": "Outside Ashi-Garami",
+        "success_rates": {
+          "beginner": 15,
+          "intermediate": 25,
+          "advanced": 40
+        }
+      },
+      {
+        "technique": "Transition to Deep Half",
+        "target_position": "Deep Half Guard",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 35,
+          "advanced": 50
+        }
+      },
+      {
+        "technique": "Single Leg X Recovery",
+        "target_position": "Single Leg X-Guard",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 30,
+          "advanced": 45
+        }
+      },
+      {
+        "technique": "Reverse Heel Hook Counter",
+        "target_position": "Inside Ashi-Garami",
+        "success_rates": {
+          "beginner": 10,
+          "intermediate": 20,
+          "advanced": 35
+        }
+      },
+      {
+        "technique": "Leg Extraction to Guard",
+        "target_position": "Open Guard",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Granby Roll Escape",
+        "target_position": "Turtle",
+        "success_rates": {
+          "beginner": 15,
+          "intermediate": 30,
+          "advanced": 50
+        }
+      }
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Heel Hook Adjustment",
+        "target_position": "Ushiro Ashi-Garami Top",
+        "success_rate": 45
+      },
+      {
+        "technique": "Saddle Transition",
+        "target_position": "Saddle",
+        "success_rate": 35
+      },
+      {
+        "technique": "Back Take from Inversion",
+        "target_position": "Back Control",
+        "success_rate": 40
+      },
+      {
+        "technique": "Ankle Lock Finish",
+        "target_position": "Won by Submission",
+        "success_rate": 30
+      },
+      {
+        "technique": "Cross Ashi Transition",
+        "target_position": "Cross Ashi-Garami",
+        "success_rate": 35
+      }
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Hip Escape to Standing",
+        "target_position": "Standing Position",
+        "trigger": "When opponent releases inside leg to adjust grips for heel hook"
+      },
+      {
+        "technique": "Counter Heel Hook",
+        "target_position": "Inside Ashi-Garami",
+        "trigger": "When opponent overextends reaching for heel and exposes their own leg"
+      },
+      {
+        "technique": "Turtle Roll Through",
+        "target_position": "Turtle",
+        "trigger": "When opponent attempts to follow inversion but loses leg control momentarily"
+      },
+      {
+        "technique": "Deep Half Recovery",
+        "target_position": "Deep Half Guard",
+        "trigger": "When clearing outside leg successfully but inside leg remains engaged"
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent has shallow leg entanglement with weak upper body control",
+        "actions": [
+          {
+            "technique": "Complete Escape Sequence",
+            "target": "Standing Position",
+            "probability": 55
+          },
+          {
+            "technique": "Turtle Recovery",
+            "target": "Turtle",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent has deep entanglement and is establishing heel grip",
+        "actions": [
+          {
+            "technique": "Counter Heel Hook",
+            "target": "Inside Ashi-Garami",
+            "probability": 35
+          },
+          {
+            "technique": "Accept Turtle Position",
+            "target": "Turtle",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent transitions to saddle or honey hole during inversion",
+        "actions": [
+          {
+            "technique": "Immediate Turtle Roll",
+            "target": "Turtle",
+            "probability": 45
+          },
+          {
+            "technique": "Deep Half Transition",
+            "target": "Deep Half Guard",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If clearing outside leg successfully but inside leg remains",
+        "actions": [
+          {
+            "technique": "Single Leg X Entry",
+            "target": "Single Leg X-Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Complete Leg Clear",
+            "target": "Open Guard",
+            "probability": 45
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Stopping the inversion movement halfway instead of committing to full rotation and escape",
+        "consequence": "Creates worst-case scenario where defender is inverted but still fully entangled, maximizing submission vulnerability",
+        "correction": "Complete inversion to turtle position or continue rotating through to standing, never pause in reversed entanglement"
+      },
+      {
+        "error": "Pointing toes or relaxing foot during leg extraction, exposing heel for finishing grip",
+        "consequence": "Allows opponent to secure heel hook grip during escape attempt, converting defensive movement into submission",
+        "correction": "Maintain dorsiflexion throughout extraction process, keeping foot flexed and heel protected from opponent's hands"
+      },
+      {
+        "error": "Ignoring opponent's inside leg position while focusing only on clearing the outside leg",
+        "consequence": "Opponent easily transitions to saddle or honey hole as defender clears outside leg without controlling inside position",
+        "correction": "Use hands to control opponent's inside knee, preventing deep entanglement while clearing outside leg systematically"
+      },
+      {
+        "error": "Attempting to stand immediately without clearing leg entanglement first",
+        "consequence": "Weight commitment to standing makes defender easy to sweep while legs remain entangled, often resulting in worse position",
+        "correction": "Clear all leg entanglement before attempting to stand, or accept turtle position as safer transitional recovery option"
+      },
+      {
+        "error": "Extending trapped leg aggressively toward opponent instead of pulling away to create space",
+        "consequence": "Drives leg deeper into opponent's control and tightens entanglement, making escape progressively more difficult",
+        "correction": "Pull trapped leg away while using free leg to push opponent's hips, creating space for systematic extraction"
+      },
+      {
+        "error": "Panicking and abandoning systematic escape for explosive scrambling",
+        "consequence": "Exhausts energy while creating submission windows through uncontrolled movement and position changes",
+        "correction": "Execute deliberate escape sequence steps in order, controlling opponent's legs with hands while systematically clearing entanglement"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Inversion Escape Repetitions",
+        "description": "Start in ushiro ashi-garami bottom with training partner maintaining moderate control. Practice completing inversion to turtle or standing position while partner provides realistic resistance. Focus on timing, leg clearing sequence, and heel protection throughout rotation. Reset and repeat for continuous repetitions.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Counter-Attack Development",
+        "description": "Begin in ushiro ashi-garami bottom with partner attempting to establish heel hook. When partner's leg becomes exposed during their adjustment phase, practice entering your own leg entanglement positions. Develop sensitivity for timing counter-attacks during opponent's grip changes and position adjustments.",
+        "duration": "4 minutes"
+      },
+      {
+        "name": "Escape Hierarchy Training",
+        "description": "Partner presents various levels of control depth in ushiro ashi-garami from shallow to deep entanglement. Practice selecting appropriate escape option based on opponent's control level: standing escape for shallow control, turtle for medium control, deep half guard for deep entanglement. Develop decision-making under pressure.",
+        "duration": "6 minutes"
+      },
+      {
+        "name": "Grip Fighting from Inversion",
+        "description": "Start in ushiro ashi-garami with partner attempting to secure heel hook grips. Practice defensive hand fighting to prevent heel exposure while simultaneously working to clear legs. Focus on controlling opponent's wrists and inside leg knee to prevent both submission and deeper entanglement.",
+        "duration": "4 minutes"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Defensive Counter to Submission",
+        "path": "Ushiro Ashi-Garami Bottom → Counter Heel Hook → Inside Ashi-Garami → Heel Hook"
+      },
+      {
+        "name": "Escape to Guard Attack",
+        "path": "Ushiro Ashi-Garami Bottom → Leg Extraction → Open Guard → Triangle Choke"
+      },
+      {
+        "name": "Inversion to Back",
+        "path": "Ushiro Ashi-Garami Bottom → Turtle Recovery → Opponent Attacks Turtle → Counter to Back Control → Rear Naked Choke"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Outside Ashi-Garami",
+        "relationship": "Primary position that inversion attempts originate from during escape sequences"
+      },
+      {
+        "name": "Saddle Defense",
+        "relationship": "Related defensive skill set for preventing deeper leg entanglements during escape"
+      },
+      {
+        "name": "Ashi Garami Escape",
+        "relationship": "Core escape system that includes ushiro variation as one technique branch"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Common transitional position when accepting safe recovery over forced leg extraction"
+      },
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Alternative recovery position accessible during partial leg clearing"
+      },
+      {
+        "name": "Leg Entanglement",
+        "relationship": "Fundamental principle governing all ashi-garami escape and counter-attack options"
+      },
+      {
+        "name": "Submission Defense",
+        "relationship": "Broader defensive framework that ushiro ashi-garami escape fits within"
+      },
+      {
+        "name": "Lachlan Giles Leg Lock Defense Framework",
+        "relationship": "Comprehensive system including specific ushiro ashi-garami defensive protocols"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 15,
+        "intermediate": 30,
+        "advanced": 50,
+        "description": "Ability to maintain defensive position without being submitted or swept"
+      },
+      "advancement_probability": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 65,
+        "description": "Success rate for escaping to neutral or better position"
+      },
+      "submission_probability": {
+        "beginner": 5,
+        "intermediate": 15,
+        "advanced": 30,
+        "description": "Ability to counter-attack with submissions from defensive position"
+      },
+      "average_time": "8-15 seconds (transitional position, not sustainable)"
+    },
+    "expert_insights": {
+      "danaher": "Ushiro ashi-garami represents a critical decision point in leg entanglement escape systems where biomechanical principles determine success or failure. The reversed hip orientation fundamentally changes the mechanical leverage available for heel hooks, creating a brief window during the attacker's adjustment phase where escape becomes possible. However, this same inversion can trap defenders in worse positions if not executed with precise understanding of leg clearing sequences. The key biomechanical principle is that rotation must be completed fully—partial inversion creates maximum vulnerability by maintaining entanglement while removing defensive hip positioning. Students must understand that ushiro ashi-garami is never a destination but always a transitional state that must be resolved through systematic clearing of the opponent's legs or acceptance of safer recovery positions like turtle. The decision between forcing complete escape versus accepting positional transition should be based on opponent's control depth and grip security, not ego or frustration.",
+      "gordon_ryan": "In competition, ushiro ashi-garami appears constantly when opponents try to invert away from my leg attacks. Most competitors make the mistake of stopping their inversion halfway when they feel the position getting tight, which is exactly when I can attack most effectively. The winning approach is committing fully to turtle or continuing through to standing—never hanging out in the reversed entanglement. I use ushiro positioning myself when I'm defending leg attacks from high-level opponents; the key is controlling their inside leg with my hands while rotating, preventing them from following my inversion into saddle or honey hole. Against elite leg lockers, accepting turtle position from ushiro ashi-garami is often the highest percentage defensive option. The athletes who consistently escape my leg attacks understand that ushiro is part of the escape sequence, not the escape itself. They're already planning their turtle defense or standing recovery before they hit the reversed position. Timing is everything—if you're still thinking about what to do when you hit ushiro, you're already too late.",
+      "eddie_bravo": "The whole ushiro ashi-garami situation is interesting because it shows how leg lock games have evolved—people are inverting and rolling in ways that would have seemed crazy twenty years ago. From the 10th Planet perspective, we look at inverted positions as opportunities, not just escapes. When you're in ushiro ashi-garami bottom, you've got access to some creative counter-attacks if you're comfortable upside down. The lockdown principles apply here in modified form—you can trap their inside leg with your free leg in some variations, creating control that lets you work escapes more safely. But the fundamental truth is you can't hang out there. Either complete the inversion to turtle and start working our turtle game, or if you've got the conditioning and the opponent makes a mistake, counter-attack for their legs. The flexibility and inversion comfort that rubber guard training develops translates directly to surviving and escaping these reversed leg entanglement situations. Your comfort level with being inverted and your hip flexibility determine whether ushiro ashi-garami is a crisis or just another transition in the scramble."
+    }
+  },
+  "top": {
+    "name": "Ushiro Ashi-Garami Top",
+    "description": "Attacking perspective in reversed leg entanglement. Master control maintenance, submission setups, and transition options from inverted configuration.",
+    "tags": [
+      "Position",
+      "Leg Entanglement",
+      "Offensive",
+      "Ashi Garami",
+      "No-Gi",
+      "Advanced"
+    ],
+    "overview": "Ushiro ashi-garami top represents an advanced attacking position within modern leg lock systems where the practitioner has maintained leg entanglement despite the opponent's inversion escape attempt. This reversed configuration requires specific technical adjustments to standard ashi-garami attacks, creating unique submission opportunities and transition paths that sophisticated leg lock players must master for complete system effectiveness.\n\nThe attacking practitioner in ushiro ashi-garami has adapted their leg configuration to follow the opponent's inversion, maintaining a figure-four entanglement from a reversed angle. The outside leg crosses over the opponent's trapped leg while the inside leg remains underneath, creating heel hook and ankle lock opportunities that require different grips and finishing mechanics than standard ashi-garami variations. The reversed orientation changes optimal grip positions, hip placement, and upper body control strategies.\n\nThe primary strategic objective from ushiro ashi-garami top is preventing complete escape while establishing sufficient control for submission attempts. This involves specific adjustments to leg pressure, grip fighting, and body positioning that account for the opponent's inverted hip orientation. Secondary objectives include transitioning to higher-control positions like saddle or honey hole, or following the opponent's continued inversion to establish back control.\n\nOffensive success in ushiro ashi-garami requires understanding how the reversed configuration affects submission mechanics. Heel hooks from ushiro require different hand positions and hip angles than standard outside or inside ashi-garami. The inverted defender's hip position creates both obstacles and opportunities—obstacles in achieving optimal finishing leverage, opportunities in catching opponents during their escape attempts when their defensive attention is focused on leg clearing rather than submission prevention.\n\nThe position frequently occurs in high-level no-gi competition when opponents attempt sophisticated ashi-garami escapes through inversion. Attackers who lack ushiro maintenance skills lose control entirely during these escape attempts, while those who have developed the position can maintain offensive pressure throughout the opponent's defensive movements. This technical knowledge gap often determines outcomes in leg entanglement exchanges between advanced practitioners.\n\nControl maintenance in ushiro ashi-garami requires constant adjustment to the opponent's escape efforts. Unlike more static positions, ushiro ashi-garami exists in a state of dynamic tension where both participants are moving through transitional sequences. The attacker must balance commitment to immediate submission attempts against readiness to follow further positional changes, maintaining offensive initiative throughout the scramble sequence.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short"
+    },
+    "state_invariants": [
+      "Attacker's legs maintain figure-four configuration around opponent's trapped leg with outside leg crossing over knee line and inside leg underneath, adapted to opponent's inverted hip position",
+      "Attacker's hips are positioned to follow opponent's inversion while maintaining leg entanglement integrity, requiring constant adjustment to opponent's rotational movement and escape attempts",
+      "Attacker maintains at least one controlling grip on opponent's heel, ankle, or pants while managing the opponent's hand fighting efforts to prevent heel exposure and submission defense"
+    ],
+    "prerequisites": [
+      "Opponent attempted inversion escape from standard ashi-garami position, creating reversed leg entanglement geometry",
+      "Attacker successfully adapted leg configuration during opponent's rotation to maintain entanglement despite hip inversion",
+      "Sufficient understanding of reversed submission mechanics to attack effectively from inverted opponent orientation"
+    ],
+    "key_principles": [
+      "Adapt leg pressure and configuration continuously as opponent inverts to prevent complete escape",
+      "Adjust grip strategies for heel hooks to account for reversed hip orientation and different leverage angles",
+      "Control opponent's inside leg with outside leg to prevent them from completing rotation to turtle or standing",
+      "Use opponent's inversion momentum to transition to higher-control positions like saddle or back control",
+      "Recognize when opponent has achieved sufficient rotation that maintaining ushiro becomes inefficient",
+      "Balance submission attempts against position retention, prioritizing control when opponent's escape is advanced",
+      "Monitor opponent's free leg position as indicator of their next escape attempt or counter-attack opportunity"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Inside Heel Hook from Ushiro",
+        "target_position": "Won by Submission",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 35,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Transition to Saddle",
+        "target_position": "Saddle",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Follow to Back Control",
+        "target_position": "Back Control",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Ankle Lock Finish",
+        "target_position": "Won by Submission",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Transition to Honey Hole",
+        "target_position": "Honey Hole",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 35,
+          "advanced": 50
+        }
+      },
+      {
+        "technique": "Cross Ashi Transition",
+        "target_position": "Cross Ashi-Garami",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 35,
+          "advanced": 50
+        }
+      },
+      {
+        "technique": "Outside Heel Hook Adjustment",
+        "target_position": "Won by Submission",
+        "success_rates": {
+          "beginner": 15,
+          "intermediate": 30,
+          "advanced": 45
+        }
+      },
+      {
+        "technique": "Return to Outside Ashi",
+        "target_position": "Outside Ashi-Garami",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 50,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Kneebar from Ushiro",
+        "target_position": "Won by Submission",
+        "success_rates": {
+          "beginner": 15,
+          "intermediate": 25,
+          "advanced": 40
+        }
+      }
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Complete Inversion Escape",
+        "target_position": "Standing Position",
+        "success_rate": 40
+      },
+      {
+        "technique": "Turtle Recovery",
+        "target_position": "Turtle",
+        "success_rate": 50
+      },
+      {
+        "technique": "Counter Ashi Entry",
+        "target_position": "Outside Ashi-Garami",
+        "success_rate": 25
+      },
+      {
+        "technique": "Deep Half Transition",
+        "target_position": "Deep Half Guard",
+        "success_rate": 30
+      },
+      {
+        "technique": "Single Leg X Recovery",
+        "target_position": "Single Leg X-Guard",
+        "success_rate": 30
+      }
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Saddle Lock During Escape",
+        "target_position": "Saddle",
+        "trigger": "When opponent clears outside leg but inside leg remains deeply entangled"
+      },
+      {
+        "technique": "Back Take from Inversion",
+        "target_position": "Back Control",
+        "trigger": "When opponent commits to turtle rotation and turns their back to escape"
+      },
+      {
+        "technique": "Heel Hook During Rotation",
+        "target_position": "Won by Submission",
+        "trigger": "When opponent's heel becomes exposed during inversion attempt before escape completes"
+      },
+      {
+        "technique": "Cross Ashi Control",
+        "target_position": "Cross Ashi-Garami",
+        "trigger": "When opponent attempts to counter-attack and exposes opposite leg during escape effort"
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent's inversion is shallow and leg clearing has not progressed significantly",
+        "actions": [
+          {
+            "technique": "Immediate Heel Hook Attempt",
+            "target": "Won by Submission",
+            "probability": 50
+          },
+          {
+            "technique": "Transition to Saddle",
+            "target": "Saddle",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent is actively rotating toward turtle with committed movement",
+        "actions": [
+          {
+            "technique": "Follow to Back Control",
+            "target": "Back Control",
+            "probability": 60
+          },
+          {
+            "technique": "Ankle Lock During Transition",
+            "target": "Won by Submission",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent has cleared outside leg and is working to clear inside leg",
+        "actions": [
+          {
+            "technique": "Immediate Saddle Transition",
+            "target": "Saddle",
+            "probability": 55
+          },
+          {
+            "technique": "Return to Outside Ashi",
+            "target": "Outside Ashi-Garami",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent is attempting counter-attack on attacker's legs",
+        "actions": [
+          {
+            "technique": "Accelerate Heel Hook Finish",
+            "target": "Won by Submission",
+            "probability": 50
+          },
+          {
+            "technique": "Cross Ashi Defense",
+            "target": "Cross Ashi-Garami",
+            "probability": 45
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Maintaining standard ashi-garami grips without adjusting for opponent's inverted hip position",
+        "consequence": "Heel hook finishing leverage becomes compromised as opponent's reversed orientation changes optimal grip and hip placement requirements",
+        "correction": "Adjust grip positions to account for inverted hip orientation, often requiring different hand placement on heel and different body angle relative to opponent"
+      },
+      {
+        "error": "Focusing exclusively on immediate submission without controlling opponent's continued rotation",
+        "consequence": "Opponent completes escape to turtle or standing while attacker is committed to submission attempt with inadequate position control",
+        "correction": "Balance submission attempts with position control, using inside leg to prevent complete rotation while establishing finishing grips"
+      },
+      {
+        "error": "Allowing opponent's free leg to get underneath attacker's body during inversion",
+        "consequence": "Opponent uses free leg as lever to complete rotation or enter counter-entanglement, escaping ushiro ashi-garami entirely",
+        "correction": "Control opponent's free leg with outside leg pressure, preventing them from using it as rotational lever or posting mechanism"
+      },
+      {
+        "error": "Releasing leg entanglement prematurely when opponent begins inverting",
+        "consequence": "Allows complete escape when maintained control could have prevented rotation or created submission opportunity during transition",
+        "correction": "Maintain leg configuration through opponent's inversion, adapting pressure and positioning rather than abandoning entanglement"
+      },
+      {
+        "error": "Attempting to prevent inversion through pure strength rather than technical leg positioning",
+        "consequence": "Exhausts energy in failed attempt to stop inevitable rotation, leaving attacker too fatigued to capitalize on ushiro position",
+        "correction": "Allow controlled inversion while maintaining technical leg entanglement, conserving energy for submission or transition opportunities"
+      },
+      {
+        "error": "Missing transition timing to saddle or honey hole when inside leg control is optimal",
+        "consequence": "Opponent escapes from ushiro ashi-garami during window when transition to higher-control position would have maintained attack",
+        "correction": "Recognize optimal transition windows based on opponent's leg clearing progress, transitioning to saddle when inside leg is deeply controlled"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Inversion Following Drill",
+        "description": "Partner starts in standard outside ashi-garami and begins inversion escape sequence. Practice maintaining leg entanglement throughout their rotation, adjusting leg pressure and hip position to create ushiro configuration. Focus on smooth adaptation to opponent's movement rather than preventing inversion. Reset and repeat from various starting ashi-garami positions.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Ushiro Submission Development",
+        "description": "Begin in established ushiro ashi-garami position with partner defending. Practice various heel hook and ankle lock setups from the reversed configuration, developing grip adjustments and finishing mechanics specific to inverted opponent orientation. Partner provides realistic defensive hand fighting and position adjustments.",
+        "duration": "6 minutes"
+      },
+      {
+        "name": "Transition Recognition Training",
+        "description": "Start in ushiro ashi-garami with partner attempting various escape sequences. Practice recognizing optimal timing for transitions to saddle, honey hole, or back control based on partner's leg clearing progress and rotational commitment. Develop decision-making for when to pursue submission versus positional transition.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Flow Scrambling from Ushiro",
+        "description": "Begin in ushiro ashi-garami with both practitioners working at 60% intensity. Defender attempts escapes while attacker maintains position and works submissions. Flow through realistic scramble sequences, developing comfort with dynamic transitions and continuous position adjustments characteristic of ushiro exchanges.",
+        "duration": "4 minutes"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Direct Heel Hook Finish",
+        "path": "Outside Ashi-Garami → Opponent Inverts → Ushiro Ashi-Garami Top → Inside Heel Hook"
+      },
+      {
+        "name": "Saddle Transition Path",
+        "path": "Ushiro Ashi-Garami Top → Saddle Transition → Honey Hole → Outside Heel Hook"
+      },
+      {
+        "name": "Back Attack Sequence",
+        "path": "Ushiro Ashi-Garami Top → Follow Inversion → Back Control → Rear Naked Choke"
+      },
+      {
+        "name": "Ankle Lock Finish",
+        "path": "Ushiro Ashi-Garami Top → Ankle Lock Adjustment → Straight Ankle Lock"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Outside Ashi-Garami",
+        "relationship": "Primary position that ushiro ashi-garami transitions from during opponent's inversion"
+      },
+      {
+        "name": "Saddle Entry from Top",
+        "relationship": "High-percentage transition option when opponent clears outside leg from ushiro"
+      },
+      {
+        "name": "Inside Heel Hook",
+        "relationship": "Primary submission finish from ushiro ashi-garami with adjusted mechanics"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Common transition target when following opponent's continued inversion"
+      },
+      {
+        "name": "Honey Hole",
+        "relationship": "Alternative high-control position accessible from ushiro configuration"
+      },
+      {
+        "name": "Danaher Leg Lock System",
+        "relationship": "Comprehensive framework including specific ushiro ashi-garami attacking protocols"
+      },
+      {
+        "name": "Craig Jones Leg Lock System",
+        "relationship": "Modern competitive approach with emphasis on attacking through transitions like ushiro"
+      },
+      {
+        "name": "Leg Entanglement",
+        "relationship": "Fundamental principle governing all ushiro ashi-garami control and submission options"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 60,
+        "description": "Ability to maintain offensive position through opponent's escape attempts"
+      },
+      "advancement_probability": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 70,
+        "description": "Success rate for transitioning to higher-control positions or back control"
+      },
+      "submission_probability": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 55,
+        "description": "Ability to finish submissions directly from ushiro configuration"
+      },
+      "average_time": "10-20 seconds (transitional position requiring quick decision-making)"
+    },
+    "expert_insights": {
+      "danaher": "Ushiro ashi-garami represents a critical test of systematic leg lock understanding because it requires real-time mechanical adaptation to changed circumstances. The position emerges when opponents execute technically sound escape attempts through inversion—a movement that would defeat practitioners who have only learned static ashi-garami positions without understanding the underlying principles of leg entanglement control. The key insight is that ushiro is not a separate position but rather a geometric variation of standard ashi-garami configurations. The same control principles apply, but the reversed hip orientation requires adjusted application. Students must understand that heel hook finishing mechanics change substantially in ushiro—the optimal grip positions, hip angles, and breaking directions all shift relative to standard ashi-garami. However, the fundamental principle of controlling the opponent's leg while isolating their hip remains constant. Advanced practitioners develop the ability to maintain offensive pressure through continuous positional adaptation, attacking during the opponent's escape attempts when defensive attention is divided. The decision tree in ushiro revolves around assessing whether immediate submission is available or whether following the opponent's movement to saddle or back control offers higher success probability.",
+      "gordon_ryan": "Ushiro ashi-garami is where you separate people who've just learned techniques from people who understand leg lock systems. Elite competitors invert constantly to escape leg attacks, and if you can't maintain position through that inversion, you're going to lose every leg entanglement exchange against high-level opponents. My approach to ushiro is aggressive—I'm either finishing the heel hook immediately or I'm transitioning to saddle or taking the back. There's no value in hanging out in ushiro trying to perfect the position; it's too dynamic and the opponent is too mobile. The competition application is recognizing when to pursue the submission versus when to follow the movement. If their heel is exposed and my grips are solid, I'm finishing regardless of their inversion. If they've hidden the heel effectively and they're committed to the turtle rotation, I'm following to the back because that's often easier than forcing the leg attack. Against the best guys, ushiro appears in rapid scramble sequences—standard ashi to ushiro to saddle to honey hole all happening in seconds. Your success rate depends entirely on having practiced these transitions until they're automatic. The athletes who beat me in leg entanglement exchanges are comfortable attacking through every position in the sequence, not just the pretty Instagram positions.",
+      "eddie_bravo": "The ushiro situation is fascinating because it's basically an inverted leg lock position, and we've been working with inverted positions in the 10th Planet system for decades. The comfort level that rubber guard and twister training develops translates directly to offensive capability in ushiro ashi-garami. When your opponent inverts to escape, most people tense up and try to prevent the movement—that's the wrong approach. Let them invert while you maintain control of their leg, then use that inversion against them. The creative opportunities in ushiro come from recognizing that their inverted position limits their defensive options in some ways. They can't see what you're doing as easily, their hand fighting is compromised by the angle, and if they're focused on completing the escape they're not defending the submission as well. We also look at this position as part of the truck system pathway—if they keep inverting past ushiro, you can end up in truck positions or twister setups depending on how you follow the movement. The key principle from the 10th Planet perspective is staying comfortable in dynamic transitions and seeing inverted positions as opportunities rather than problems. Your flexibility and conditioning determine whether you can maintain offensive pressure through these scrambles or whether you gas out and let them escape."
+    }
+  }
+}

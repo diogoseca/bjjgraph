@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Long Step Passing | BJJ Concept | BJJ Graph",
-    "description": "Master Long Step Passing in BJJ. Learn deep positioning principles, pressure mechanics, and systematic advancement. Success rates and expert insights from Danaher, Ryan, Bravo.",
-    "concept_id": "C152",
-    "tags": [
-      "bjj",
-      "concept",
-      "intermediate",
-      "passing",
-      "long-step",
-      "pressure-passing",
-      "guard-passing",
-      "hip-control"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Long Step Passing",
+  "description": "Master Long Step Passing principles in BJJ. Learn deep step mechanics, hip control, pressure application, and systematic guard passing across multiple guard types.",
+  "tags": [
+    "bjj",
+    "principle",
+    "intermediate",
+    "passing",
+    "long-step",
+    "pressure-passing",
+    "guard-passing",
+    "hip-control"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Long Step Passing represents the strategic principle of advancing the lead leg deeply past the opponent's guard line to establish dominant hip control position while simultaneously pinning guard retention mechanisms through coordinated pressure and positioning. Unlike passing approaches that maintain distance or circle laterally, long step passing is a comprehensive conceptual framework that emphasizes deep positional commitment, pressure-based immobilization, and systematic advancement past defensive layers through hip line domination. This concept encompasses the biomechanical principles of deep stepping, weight distribution patterns that maximize control, and tactical approaches for neutralizing guard retention through positional pressure rather than speed or trickery. Long step passing serves as both a pressure-based methodology for controlling mobile opponents and a foundational technique family for passing various guard configurations through similar mechanical principles. The ability to execute effective long step sequences often determines success against opponents with strong hip mobility and reguard capabilities, making it one of the most essential conceptual elements for pressure passing systems at intermediate and advanced levels.",
   "key_principles": [
     "Advance lead leg deeply past opponent's hip line to establish dominant positional relationship",
@@ -63,86 +60,110 @@
       "description": "The critical skill of transitioning smoothly from passing position to consolidated side control or other dominant positions without allowing opponent to recover guard or create scrambles. This includes proper weight distribution shifts and control point establishment."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Pressure Passing Framework",
+      "principle_name": "Pressure Passing Framework",
       "relationship_type": "Prerequisite",
       "description": "Long step passing is a specific application of broader pressure passing principles, requiring fundamental understanding of pressure-based immobilization and systematic advancement before implementing deep step mechanics."
     },
     {
-      "concept_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing Principles",
       "relationship_type": "Prerequisite",
       "description": "Core guard passing concepts including posture control, hip line recognition, and passing progression provide the foundational framework upon which long step passing mechanics are built."
     },
     {
-      "concept_name": "Base Maintenance",
+      "principle_name": "Base Maintenance",
       "relationship_type": "Complementary",
       "description": "Stable base structure is essential throughout long step sequences to prevent sweeps while applying pressure. These concepts work synergistically to enable effective pressure-based passing."
     },
     {
-      "concept_name": "Hip Pressure",
+      "principle_name": "Hip Pressure",
       "relationship_type": "Complementary",
       "description": "Hip pressure application is the primary mechanism through which long step passing controls opponent's mobility and prevents guard retention. Both concepts reinforce each other in pressure passing systems."
     },
     {
-      "concept_name": "Angle Creation",
+      "principle_name": "Angle Creation",
       "relationship_type": "Alternative",
       "description": "While long step passing emphasizes direct forward pressure and deep commitment, angle creation represents an alternative passing philosophy based on lateral movement and positioning. Understanding both approaches creates tactical flexibility."
     },
     {
-      "concept_name": "Speed Passing",
+      "principle_name": "Speed Passing",
       "relationship_type": "Alternative",
       "description": "Speed passing represents a contrasting methodology that emphasizes quick movement and timing rather than pressure and control. Long step passing offers pressure-based solutions when speed-based approaches are neutralized by opponent's guard retention."
+    },
+    {
+      "principle_name": "Weight Distribution",
+      "relationship_type": "Complementary",
+      "description": "Proper weight distribution throughout the long step sequence is critical for maintaining pressure while preserving balance, making these concepts mutually reinforcing in pressure passing applications."
+    },
+    {
+      "principle_name": "Forward Pressure",
+      "relationship_type": "Complementary",
+      "description": "Forward pressure generation is the driving force behind long step passing effectiveness, creating the immobilization necessary for systematic advancement through guard structures."
+    },
+    {
+      "principle_name": "Guard Passing Concepts",
+      "relationship_type": "Extension",
+      "description": "Long step passing extends general guard passing concepts into specific pressure-based methodology, applying foundational principles through deep positional commitment framework."
+    },
+    {
+      "principle_name": "Control Point Hierarchy",
+      "relationship_type": "Complementary",
+      "description": "Understanding which control points to establish at each phase of long step passing sequence enables systematic advancement and prevents defensive recovery between passing phases."
     }
   ],
   "application_contexts": [
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Long step mechanics are used to penetrate past various open guard configurations by stepping deeply into the space between opponent's legs, establishing hip control, and systematically advancing to passing positions while preventing reguard."
     },
     {
-      "context": "De La Riva Guard Bottom",
+      "context": "De La Riva Guard",
       "how_applied": "Deep step positioning is employed to clear the De La Riva hook by stepping past opponent's knee line and applying pressure that flattens the guard structure, making it difficult for opponent to maintain hook control or sweep."
     },
     {
-      "context": "Reverse De La Riva Guard Bottom",
+      "context": "Reverse De La Riva Guard",
       "how_applied": "Long step mechanics allow passer to advance past the RDLR hook by stepping deeply toward opponent's back while controlling the near leg, transitioning from guard passing to back exposure or passing consolidation."
     },
     {
-      "context": "Butterfly Guard Bottom",
+      "context": "Butterfly Guard",
       "how_applied": "Deep stepping past butterfly hooks combined with upper body pressure neutralizes the sweeping power of butterfly guard by controlling opponent's hips and preventing the elevation necessary for effective sweeps."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Long step principles apply when passing half guard by deeply advancing the trapped leg while applying shoulder pressure and controlling the underhook battle, systematically freeing the leg and advancing to side control."
     },
     {
-      "context": "Spider Guard Bottom",
+      "context": "Spider Guard",
       "how_applied": "Deep step positioning can be used in conjunction with grip breaks to penetrate spider guard's distance management, advancing into close-range pressure positions where spider guard's mechanical advantages are minimized."
     },
     {
-      "context": "Lasso Guard Bottom",
+      "context": "Lasso Guard",
       "how_applied": "Long step mechanics enable passing lasso guard by advancing deeply past the lasso hook while controlling opponent's hips and systematically unwinding the lasso control through positional pressure."
     },
     {
-      "context": "X-Guard Bottom",
+      "context": "X-Guard",
       "how_applied": "Deep step positioning combined with base widening and hip pressure can neutralize X-guard's sweeping mechanics by controlling opponent's hips and preventing the elevation and angle creation necessary for X-guard sweeps."
     },
     {
-      "context": "Single Leg X Guard Bottom",
+      "context": "Single Leg X-Guard",
       "how_applied": "Long step principles apply when defending against single leg X by establishing deep position with the free leg while controlling opponent's upper body, creating pressure that limits sweeping options and enables systematic guard clearing."
     },
     {
-      "context": "Knee Shield Half Guard Bottom",
+      "context": "Knee Shield Half Guard",
       "how_applied": "Deep step mechanics are fundamental to passing knee shield by advancing past the shield while controlling opponent's frame and systematically collapsing the space that makes knee shield effective as a defensive structure."
     },
     {
-      "context": "Headquarters Position Top",
-      "how_applied": "Long step principles are directly applied in headquarters position where the deep step has already been established, focusing on maintaining positional control while advancing through remaining defensive layers to achieve side control."
+      "context": "Closed Guard",
+      "how_applied": "After opening closed guard, long step mechanics can be applied immediately to establish deep positioning before opponent transitions to open guard variations, capitalizing on brief moment of guard opening."
     },
     {
-      "context": "Knee Slice Position Top",
-      "how_applied": "Knee slice passing incorporates long step mechanics in the initial penetration phase, using deep step positioning to establish the angle and pressure necessary for effective knee slice execution."
+      "context": "Seated Guard",
+      "how_applied": "Long step penetration against seated guard involves stepping past opponent's feet while controlling upper body, preventing opponent from establishing more complex guard structures and advancing to passing positions."
+    },
+    {
+      "context": "Headquarters Position",
+      "how_applied": "Long step principles are directly applied in headquarters position where the deep step has already been established, focusing on maintaining positional control while advancing through remaining defensive layers to achieve side control."
     }
   ],
   "decision_framework": [
@@ -330,44 +351,44 @@
       "relationship": "Toreando represents alternative passing methodology emphasizing lateral movement rather than deep penetration, offering contrasting tactical approach"
     },
     {
-      "name": "Headquarters Position Top",
+      "name": "Headquarters Position",
       "content_type": "Position",
       "relationship": "Headquarters represents checkpoint position within long step passing sequence where deep step has been established and passer is consolidating control"
     },
     {
-      "name": "Knee Slice Position Top",
-      "content_type": "Position",
-      "relationship": "Knee slice position is frequently achieved through long step mechanics, representing specific application of deep step principles"
-    },
-    {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Side control represents typical finishing position for successful long step passing sequences, the target control position for systematic advancement"
     },
     {
-      "name": "Float Passing Position Top",
-      "content_type": "Position",
-      "relationship": "Float passing represents alternative pressure passing position that may be reached through long step mechanics or serve as transitional position during passing"
-    },
-    {
       "name": "Pressure Passing Framework",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Long step passing exemplifies core pressure passing principles, serving as specific technical application of broader conceptual framework"
     },
     {
       "name": "Guard Passing Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Long step passing builds upon fundamental guard passing concepts including posture, hip control, and systematic advancement"
     },
     {
       "name": "Hip Pressure",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Hip pressure application is primary mechanism through which long step passing controls opponent mobility and prevents guard retention"
     },
     {
       "name": "Base Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Stable base structure is essential throughout long step sequences to prevent sweeps while applying pressure effectively"
+    },
+    {
+      "name": "Weight Distribution",
+      "content_type": "Principle",
+      "relationship": "Proper weight distribution enables effective pressure application while maintaining balance throughout long step passing sequences"
+    },
+    {
+      "name": "Forward Pressure",
+      "content_type": "Principle",
+      "relationship": "Forward pressure generation drives long step passing effectiveness, creating immobilization necessary for systematic guard advancement"
     }
   ],
   "expert_insights": {

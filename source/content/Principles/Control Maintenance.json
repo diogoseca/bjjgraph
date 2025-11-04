@@ -1,21 +1,18 @@
 {
-  "metadata": {
-    "title": "Control Maintenance | BJJ Concept | BJJ Graph",
-    "description": "Understand Control Maintenance in BJJ. Learn pressure modulation, connection reinforcement, and dynamic adjustment across positions. Expert insights included.",
-    "concept_id": "C015",
-    "tags": [
-      "bjj",
-      "concept",
-      "intermediate",
-      "control",
-      "top-game",
-      "pressure",
-      "position-maintenance"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Control Maintenance",
+  "description": "Master control maintenance in BJJ. Learn pressure modulation, connection reinforcement, and dynamic positional adjustment across all dominant positions.",
+  "tags": [
+    "bjj",
+    "principle",
+    "intermediate",
+    "control",
+    "top-game",
+    "pressure",
+    "position-maintenance"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Control Maintenance represents the fundamental principle of preserving positional dominance through continuous adjustment, pressure application, and connection reinforcement that prevents opponent's defensive movements and escape attempts. Unlike specific techniques, control maintenance is a comprehensive conceptual framework that applies across all dominant positions and constitutes the bridge between achieving position and capitalizing on it offensively. This concept encompasses the tactical understanding that static control without adjustment creates escape opportunities, while dynamic maintenance through pressure modulation and positional micro-adjustments prevents defensive success. Control maintenance serves as both offensive foundation enabling submission attacks and transitions, and defensive capability preventing opponent from improving position. The ability to maintain dominant positions despite opponent's best escape efforts often determines overall BJJ effectiveness, making it one of the most essential conceptual elements for top game development.",
   "key_principles": [
     "Apply continuous pressure that prevents opponent's movement without creating escape opportunities through overcommitment",
@@ -62,36 +59,56 @@
       "description": "The strategic skill of maintaining dominant position for extended periods without exhausting physical resources, achieved through technical efficiency rather than constant maximum effort. This enables maintaining control throughout entire rounds or matches rather than brief periods."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Control Point Hierarchy",
+      "principle_name": "Control Point Hierarchy",
       "relationship_type": "Prerequisite",
       "description": "Understanding which body areas provide highest-value control is prerequisite to effective control maintenance, as practitioners must know what connections to prioritize when forced to choose during opponent's escape attempts."
     },
     {
-      "concept_name": "Pressure Application",
+      "principle_name": "Pressure Application",
       "relationship_type": "Complementary",
       "description": "Pressure application provides the mechanical means through which control maintenance is achieved, with both concepts working synergistically to prevent opponent movement and escape."
     },
     {
-      "concept_name": "Base Maintenance",
+      "principle_name": "Base Maintenance",
       "relationship_type": "Prerequisite",
       "description": "Stable base is fundamental requirement for control maintenance, as practitioners cannot effectively maintain dominant position while defending their own structural stability from opponent's attacks."
     },
     {
-      "concept_name": "Weight Distribution",
+      "principle_name": "Weight Distribution",
       "relationship_type": "Complementary",
       "description": "Optimal weight distribution enables effective control maintenance by preventing specific escape pathways while maintaining practitioner's mobility and structural integrity."
     },
     {
-      "concept_name": "Position-Over-Submission Approach",
+      "principle_name": "Position-Over-Submission Approach",
       "relationship_type": "Extension",
       "description": "Control maintenance is practical application of position-over-submission philosophy, providing specific technical framework for prioritizing positional security before offensive attempts."
     },
     {
-      "concept_name": "Frame Management",
+      "principle_name": "Frame Management",
       "relationship_type": "Alternative",
       "description": "From bottom position perspective, frame management represents opponent's primary tool against control maintenance, creating conceptual opposition where top player's control maintenance competes against bottom player's frame creation."
+    },
+    {
+      "principle_name": "Connection Principles",
+      "relationship_type": "Complementary",
+      "description": "Connection principles define the quality and type of contact points that enable effective control maintenance across various positions and situations."
+    },
+    {
+      "principle_name": "Shoulder Pressure",
+      "relationship_type": "Extension",
+      "description": "Shoulder pressure represents specific application of control maintenance principles in positions like side control where shoulder-based pressure prevents hip escape mechanics."
+    },
+    {
+      "principle_name": "Head Control",
+      "relationship_type": "Extension",
+      "description": "Head control serves as high-value control point within control maintenance framework, often representing the primary connection that enables all other control mechanisms."
+    },
+    {
+      "principle_name": "Defensive Framing",
+      "relationship_type": "Alternative",
+      "description": "Defensive framing represents the bottom player's systematic approach to defeating control maintenance through space creation and structural barriers."
     }
   ],
   "application_contexts": [
@@ -100,7 +117,7 @@
       "how_applied": "Control maintenance in mount requires distributing weight across opponent's torso and hips while maintaining high posture that prevents bridge-and-roll escapes, using gable grip or S-mount configuration to prevent elbow escape mechanics, and continuously adjusting base width and weight distribution as opponent attempts various escape patterns."
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "From side control, control maintenance involves establishing crossface and underhook connections while applying shoulder pressure to prevent opponent's hip escape, modulating chest pressure to prevent bridge attempts, and transitioning between various side control configurations as opponent's defensive reactions change."
     },
     {
@@ -116,24 +133,44 @@
       "how_applied": "North-south control maintenance involves applying chest and shoulder pressure to prevent opponent's hip movement while controlling head position, establishing grips that prevent arm-based frames, and shifting weight distribution to counter opponent's directional escape attempts."
     },
     {
-      "context": "Kesa Gatame",
-      "how_applied": "Kesa gatame control requires hip pressure against opponent's torso combined with head control through arm entrapment, maintaining wide base that prevents opponent from rolling practitioner forward, and adjusting pressure angle as opponent attempts to bridge or create space."
+      "context": "Closed Guard",
+      "how_applied": "Even from bottom closed guard, control maintenance concepts apply to maintaining closed guard itself against opponent's opening attempts, controlling posture through grips and leg pressure, and preventing opponent from establishing stable base for passing attacks."
     },
     {
-      "context": "Technical Mount",
-      "how_applied": "Technical mount control maintenance involves strategic hook placement and grip configuration that prevents opponent from recovering full guard, applying pressure through chest and shoulder connection while maintaining base that enables quick transitions to full mount or back control."
-    },
-    {
-      "context": "Crucifix Position",
-      "how_applied": "Crucifix control requires maintaining arm entrapment through leg and arm configuration while applying back pressure to prevent opponent's escape, continuously adjusting body angle to counter opponent's attempts to free trapped arms or turn into guard."
-    },
-    {
-      "context": "Half Guard Top",
+      "context": "Half Guard",
       "how_applied": "Top half guard control maintenance focuses on establishing crossface and underhook while applying shoulder pressure to flatten opponent, preventing lockdown or deep half guard entries through strategic knee positioning, and maintaining base that enables pass completion or submission attacks."
     },
     {
-      "context": "Closed Guard Bottom",
-      "how_applied": "Even from bottom closed guard, control maintenance concepts apply to maintaining closed guard itself against opponent's opening attempts, controlling posture through grips and leg pressure, and preventing opponent from establishing stable base for passing attacks."
+      "context": "Turtle",
+      "how_applied": "Control maintenance from turtle top position requires preventing opponent's stand-up or guard recovery through strategic weight distribution, establishing seatbelt or harness controls, and continuously adjusting to counter opponent's turning and scrambling attempts."
+    },
+    {
+      "context": "Mount Control",
+      "how_applied": "Specialized mount control variations require position-specific pressure patterns and connection priorities, with grapevine mount emphasizing leg control while S-mount prioritizes arm isolation and high mount focuses on shoulder pressure and posture control."
+    },
+    {
+      "context": "Crucifix",
+      "how_applied": "Crucifix control requires maintaining arm entrapment through leg and arm configuration while applying back pressure to prevent opponent's escape, continuously adjusting body angle to counter opponent's attempts to free trapped arms or turn into guard."
+    },
+    {
+      "context": "Butterfly Guard",
+      "how_applied": "From bottom butterfly guard, control maintenance principles apply to preventing opponent's pass attempts through hook maintenance and upper body control, using underhooks and overhooks to control posture and prevent passing pressure."
+    },
+    {
+      "context": "Open Guard",
+      "how_applied": "Open guard control maintenance requires active foot and leg connections that prevent opponent from settling into passing position, combined with grip strategies that break opponent's posture and disrupt passing mechanics before they fully develop."
+    },
+    {
+      "context": "X-Guard",
+      "how_applied": "X-guard control maintenance centers on maintaining proper leg entanglement that prevents opponent from stepping out or sitting back, while controlling upper body to prevent postural recovery that could enable escape or counter-attacks."
+    },
+    {
+      "context": "Ashi Garami",
+      "how_applied": "Ashi garami control maintenance requires precise leg positioning that prevents opponent's leg extraction, combined with upper body control that prevents postural recovery, while maintaining connection points that enable both control and submission opportunities."
+    },
+    {
+      "context": "Side Control Consolidation",
+      "how_applied": "Side control consolidation represents systematic application of control maintenance principles to secure side control before attempting transitions or submissions, emphasizing connection establishment and escape prevention over offensive actions."
     }
   ],
   "decision_framework": [
@@ -297,32 +334,32 @@
   "related_content": [
     {
       "name": "Control Point Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Prerequisite concept defining which connections to prioritize during control maintenance"
     },
     {
       "name": "Pressure Application",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept providing mechanical means for achieving control maintenance"
     },
     {
       "name": "Base Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Prerequisite concept ensuring structural stability necessary for effective control"
     },
     {
       "name": "Weight Distribution",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Component skill enabling optimal pressure application and movement prevention"
     },
     {
       "name": "Position-Over-Submission Approach",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic philosophy that control maintenance practically implements"
     },
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Opposing concept from bottom position perspective against control maintenance"
     },
     {
@@ -331,7 +368,7 @@
       "relationship": "Primary position where control maintenance principles are most critical"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Fundamental top position requiring comprehensive control maintenance skills"
     },
@@ -351,9 +388,9 @@
       "relationship": "Transitional position where control maintenance prevents guard recovery"
     },
     {
-      "name": "Back Attack System",
+      "name": "Danaher Straight Jacket System",
       "content_type": "System",
-      "relationship": "Systematic approach to back control where maintenance enables submission sequences"
+      "relationship": "Systematic approach to pin control where maintenance enables submission sequences"
     }
   ],
   "expert_insights": {

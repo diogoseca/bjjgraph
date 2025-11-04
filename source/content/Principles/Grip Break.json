@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Grip Break | BJJ Concept | BJJ Graph",
     "description": "Understand Grip Break principles in BJJ. Learn mechanical advantages, timing strategies, and energy-efficient breaking methods across all positions. Expert insights included.",
-    "concept_id": "C043",
+    "principle_id": "P043",
     "tags": [
       "bjj",
       "concept",
@@ -62,34 +62,34 @@
       "description": "The ability to modify grip-breaking approaches based on position-specific constraints and opportunities, recognizing that collar breaks from guard differ fundamentally from sleeve breaks during passing, and that standing grip breaks require different mechanics than ground-based breaks."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Grip Fighting",
+      "principle_name": "Grip Fighting",
       "relationship_type": "Extension",
       "description": "Grip Break is a defensive component within the broader Grip Fighting framework, which encompasses both establishing your own grips and denying opponent's grips through breaking"
     },
     {
-      "concept_name": "Frame Creation",
+      "principle_name": "Frame Creation",
       "relationship_type": "Complementary",
       "description": "Breaking grips often works synergistically with establishing frames - the broken grip creates space that frames can then maintain and expand"
     },
     {
-      "concept_name": "Posture Breaking",
+      "principle_name": "Posture Breaking",
       "relationship_type": "Alternative",
       "description": "While Grip Break focuses on removing opponent's control points, Posture Breaking achieves similar control denial by compromising opponent's structural integrity despite their grips"
     },
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention Concepts",
       "relationship_type": "Prerequisite",
       "description": "Effective guard retention requires successful grip breaking to prevent opponent from establishing passing grips and maintaining distance control"
     },
     {
-      "concept_name": "Connection Breaking",
+      "principle_name": "Connection Breaking",
       "relationship_type": "Extension",
       "description": "Grip Break is a specific application of the broader Connection Breaking concept, focusing specifically on hand-based connections rather than all body contact points"
     },
     {
-      "concept_name": "Leverage Principles",
+      "principle_name": "Leverage Principles",
       "relationship_type": "Prerequisite",
       "description": "Understanding mechanical leverage is fundamental to executing efficient grip breaks that use angles and body positioning rather than pure strength"
     }

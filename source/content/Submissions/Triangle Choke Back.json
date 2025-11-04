@@ -1,18 +1,15 @@
 {
-  "metadata": {
-    "title": "Triangle Choke from Back Control | BJJ Submission | BJJ Graph",
-    "description": "Master Triangle Choke from Back Control in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-    "submission_id": "SUB127",
-    "tags": ["bjj", "submission", "triangle-choke", "back-control", "blood-choke", "advanced-technique"],
-    "submission_category": "Choke",
-    "submission_type": "Blood Choke",
-    "target_area": "Carotid arteries and trachea",
-    "starting_position": "Back Control Top",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 50,
-      "advanced": 65
-    }
+  "name": "Triangle Choke Back",
+  "description": "Master Triangle Choke from Back Control in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "tags": ["bjj", "submission", "triangle-choke", "back-control", "blood-choke", "advanced-technique"],
+  "submission_category": "Choke",
+  "submission_type": "Blood Choke",
+  "target_area": "Carotid arteries and trachea",
+  "starting_position": "Back Control",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 50,
+    "advanced": 65
   },
   "overview": "The Triangle Choke from Back Control represents an advanced finishing option that combines the control dominance of back position with the mechanical efficiency of the triangle. This submission emerges when the opponent begins defending the rear naked choke by protecting their neck, creating an opportunity to transition to a different strangling mechanism. Unlike the traditional front triangle from guard, the rear triangle utilizes the already-established back control framework, making it particularly effective when opponents successfully defend traditional back attacks.\n\nThis technique exemplifies the principle of submission chains and dilemma creation - as the opponent defends one attack, they inadvertently expose themselves to another. The rear triangle can be finished from various back control configurations including standard seat belt control, body triangle position, and even during transitions when losing back control. The choke functions through bilateral compression of the carotid arteries while simultaneously controlling the opponent's posture and preventing escape.\n\nThe Triangle Choke from Back Control requires precise leg positioning, hip mobility, and understanding of angle creation. Success depends on maintaining back control throughout the transition, controlling one of the opponent's arms inside the triangle, and applying proper finishing mechanics. This submission is particularly valuable in competition and no-gi scenarios where rear naked choke defenses are well-developed, providing an alternative finishing path that catches opponents by surprise.",
   "safety_considerations": {
@@ -285,11 +282,11 @@
     }
   ],
   "from_positions": [
-    "Back Control Top",
-    "Body Triangle Back Control Top",
+    "Back Control",
+    "Body Triangle",
     "Seat Belt Control Back",
-    "Gift Wrap Position",
-    "Standing Back Control Top"
+    "Gift Wrap",
+    "Standing Back Control"
   ],
   "related_submissions": [
     "Triangle Choke",
@@ -300,7 +297,6 @@
     "Triangle Choke Front",
     "Triangle from Closed Guard",
     "Triangle from Mount",
-    "Triangle to Armbar",
     "Gogoplata",
     "Inverted Triangle",
     "Omoplata",
@@ -308,7 +304,7 @@
   ],
   "related_content": [
     {
-      "name": "Back Control Top",
+      "name": "Back Control",
       "relationship": "Primary starting position for this submission"
     },
     {
@@ -324,7 +320,7 @@
       "relationship": "Alternative submission in the chain when triangle is defended or arm escapes"
     },
     {
-      "name": "Body Triangle Back Control Top",
+      "name": "Body Triangle",
       "relationship": "Optimal back control variation for setting up this triangle due to stable base"
     },
     {
@@ -332,16 +328,12 @@
       "relationship": "Related triangle variation with different setup but similar finishing principles"
     },
     {
-      "name": "Gift Wrap Position",
+      "name": "Gift Wrap",
       "relationship": "Alternative back control position that creates excellent triangle setup"
     },
     {
       "name": "Seat Belt Control Back",
       "relationship": "Standard back control grip used during the initial phase of this technique"
-    },
-    {
-      "name": "Triangle to Armbar",
-      "relationship": "Follow-up transition if triangle is partially successful but not finishing"
     },
     {
       "name": "Mounted Triangle",

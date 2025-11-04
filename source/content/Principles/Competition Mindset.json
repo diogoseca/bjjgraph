@@ -1,21 +1,20 @@
 {
-  "metadata": {
-    "title": "Competition Mindset | BJJ Concept | BJJ Graph",
-    "description": "Understand Competition Mindset in BJJ. Master psychological preparation, stress management, tactical decision-making. Expert insights from Danaher, Ryan, Bravo.",
-    "concept_id": "C111",
-    "tags": [
-      "bjj",
-      "concept",
-      "intermediate",
-      "mental-game",
-      "competition",
-      "psychology",
-      "performance"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Competition Mindset",
+  "description": "Master psychological preparation and mental skills for peak competitive BJJ performance. Learn arousal regulation, tactical decision-making, and adversity response patterns.",
+  "tags": [
+    "bjj",
+    "principle",
+    "intermediate",
+    "mental-game",
+    "competition",
+    "psychology",
+    "performance",
+    "tactical-thinking",
+    "stress-management"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Competition Mindset represents the psychological state, cognitive patterns, and emotional regulation capabilities that enable optimal performance under the stress, uncertainty, and pressure inherent in competitive Brazilian Jiu-Jitsu environments. Unlike technical knowledge or physical preparation, competition mindset is the mental framework that determines how effectively athletes access their training, make tactical decisions under stress, regulate arousal levels appropriately, and respond to adversity during competition. This concept encompasses the psychological preparation, mental skills training, and strategic approach to cultivating the cognitive and emotional state that maximizes competitive performance. Competition mindset serves as both an enabling factor that allows technical and physical preparation to manifest fully under pressure, and a competitive advantage that compounds as opponents succumb to psychological pressures and performance anxiety. The ability to maintain optimal mental state throughout competitions often determines outcomes when technical and physical preparation levels are similar, making psychological preparation one of the most essential yet frequently neglected elements of competition readiness.",
   "key_principles": [
     "Develop psychological skills systematically through deliberate practice rather than assuming mental toughness develops automatically through experience",
@@ -62,41 +61,71 @@
       "description": "The capacity to execute consistent pre-competition and between-match routines that create psychological stability and optimal preparation regardless of external circumstances or competitive environment variations. This includes mental preparation protocols, physical warm-up sequences, nutrition timing, and self-talk patterns that reliably produce desired competitive state."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Match Strategy",
+      "principle_name": "Match Strategy",
       "relationship_type": "Complementary",
       "description": "Competition mindset enables effective execution of match strategy by providing the psychological stability and decision-making capacity necessary to implement tactical plans under pressure, while match strategy provides the cognitive framework that focuses mental energy productively during competition."
     },
     {
-      "concept_name": "Game Planning",
+      "principle_name": "Game Planning",
       "relationship_type": "Prerequisite",
       "description": "Effective game planning creates the tactical foundation that competition mindset implements during matches. The psychological confidence derived from thorough game planning reduces anxiety and provides clear decision-making frameworks that prevent mental paralysis under pressure."
     },
     {
-      "concept_name": "Energy Management System",
+      "principle_name": "Energy Management System",
       "relationship_type": "Complementary",
       "description": "Competition mindset influences energy management through psychological regulation of intensity levels and pacing decisions, while effective energy management supports sustained mental performance by preventing physical fatigue that degrades cognitive function and emotional control during matches."
     },
     {
-      "concept_name": "Positional Sparring",
+      "principle_name": "Positional Sparring",
       "relationship_type": "Prerequisite",
       "description": "Positional sparring provides essential pressure exposure that develops competition mindset by creating training situations approximating competitive stress, allowing development of adversity response patterns and decision-making under pressure before actual competition contexts."
     },
     {
-      "concept_name": "Risk Assessment",
+      "principle_name": "Risk Assessment",
       "relationship_type": "Complementary",
       "description": "Competition mindset provides the emotional regulation and cognitive clarity necessary for accurate risk assessment during matches, while systematic risk assessment frameworks prevent psychological factors from distorting tactical decision-making toward excessive caution or recklessness."
     },
     {
-      "concept_name": "Mental Game Framework",
+      "principle_name": "Offensive vs Defensive Mindset",
       "relationship_type": "Extension",
-      "description": "Competition mindset represents the specific application of broader mental game principles to competitive contexts, translating general psychological skills into the unique demands of tournament performance under time constraints, scoring systems, and elimination formats."
+      "description": "Competition mindset determines whether competitive pressure triggers offensive initiative or defensive reactions, with psychological preparation enabling maintenance of aggressive tactical approach despite stress that might otherwise create defensive passivity."
+    },
+    {
+      "principle_name": "Pacing",
+      "relationship_type": "Complementary",
+      "description": "Psychological arousal regulation directly influences pacing decisions and energy expenditure patterns, while effective pacing strategies prevent physical exhaustion that degrades mental performance and decision-making quality during extended matches."
+    },
+    {
+      "principle_name": "Guard Retention",
+      "relationship_type": "Extension",
+      "description": "Competition mindset prevents psychological collapse during sustained passing pressure, enabling persistent guard retention efforts across multiple defensive cycles without cumulative psychological fatigue degrading technical execution."
+    },
+    {
+      "principle_name": "Submission Defense",
+      "relationship_type": "Extension",
+      "description": "Strong competition mindset prevents psychological submission before physical submission, maintaining problem-solving mentality and escape execution despite dangerous positions rather than mental resignation that precedes tap."
+    },
+    {
+      "principle_name": "Transition Management",
+      "relationship_type": "Complementary",
+      "description": "Competition mindset enables rapid tactical decision-making during position transitions when multiple options exist and timing windows are narrow, while systematic transition frameworks reduce cognitive load allowing mental resources for psychological regulation."
+    },
+    {
+      "principle_name": "Competition Training",
+      "relationship_type": "Prerequisite",
+      "description": "Systematic competition-focused training provides the pressure exposure and adversity experience necessary to develop competition mindset, creating training contexts that approximate competitive psychological demands before actual competition."
+    },
+    {
+      "principle_name": "Progressive Resistance Training",
+      "relationship_type": "Prerequisite",
+      "description": "Progressive exposure to increasing training intensity develops psychological resilience systematically, building competition mindset through controlled stress exposure that allows adaptation without overwhelming anxiety."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Competition mindset enables maintaining offensive initiative from closed guard despite psychological pressure to play defensively when behind on points, supporting aggressive sweep and submission attempts rather than passive position holding driven by fear of losing position."
     },
     {
@@ -108,15 +137,15 @@
       "how_applied": "Competition mindset manages the psychological pressure of having dominant position with submission opportunity, preventing rushed finishing attempts while maintaining aggressive intent and preventing defensive opponents from surviving through time expiration."
     },
     {
-      "context": "Turtle Position",
+      "context": "Turtle",
       "how_applied": "Effective competition mindset prevents panic when stuck in turtle position facing back takes, supporting calm problem-solving and systematic escape execution rather than explosive reactions driven by anxiety that often worsen position or create submission opportunities."
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Competition mindset supports transition between control consolidation and advancement toward mount or submissions, managing the psychological tension between maintaining secure points versus risking position for finish or higher-value positions based on match situation."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Strong mental state in half guard prevents defeatist mindset when opponent achieves initial passing progress, supporting persistent underhook battles and sweep attempts rather than accepting pass completion driven by psychological fatigue or discouragement."
     },
     {
@@ -124,7 +153,7 @@
       "how_applied": "Competition mindset manages anxiety during takedown exchanges at match beginning, supporting aggressive yet controlled takedown attempts or guard pulls based on game plan rather than reactive decisions driven by nervousness about first exchange determining match momentum."
     },
     {
-      "context": "Guard Recovery",
+      "context": "Half Guard Recovery",
       "how_applied": "Effective competition mindset during guard recovery prevents panic when pass seems imminent, supporting systematic defensive frames and hip movement rather than desperate reactions, maintaining belief in defensive capability that enables successful recoveries under extreme pressure."
     },
     {
@@ -140,7 +169,7 @@
       "how_applied": "Competition mindset enables maintaining De La Riva control and sweep attempts when opponent applies strong pressure passing, preventing psychological collapse into defensive shell and supporting aggressive combinations despite opponent's counter-pressure."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Effective competition mindset in open guard maintains offensive initiative through multiple guard retention cycles, preventing cumulative psychological fatigue from repeated passing attempts from degrading technical execution or creating resignation to eventual pass."
     },
     {
@@ -148,12 +177,24 @@
       "how_applied": "Competition mindset supports aggressive butterfly sweep attempts at tactically appropriate moments, overcoming psychological hesitation about committing to sweeps that risk guard loss if defended, balancing aggression with timing rather than fear-driven passivity."
     },
     {
-      "context": "Top Position",
+      "context": "Side Control Consolidation",
       "how_applied": "Strong mental state in top positions prevents psychological complacency that allows opponent escapes, supporting sustained pressure and control maintenance throughout entire match duration rather than mental relaxation that creates defensive opportunities."
     },
     {
       "context": "Defensive Position",
       "how_applied": "Competition mindset is critical in defensive positions to prevent psychological submission before physical submission, maintaining problem-solving mentality and escape execution despite dominant opponent control rather than mental resignation that precedes tap."
+    },
+    {
+      "context": "Ashi Garami",
+      "how_applied": "Competition mindset in leg entanglement positions supports systematic submission setups despite opponent's defensive awareness, preventing rushed attacks while maintaining offensive pressure and tactical patience required for high-percentage finishing opportunities."
+    },
+    {
+      "context": "Headquarters Position",
+      "how_applied": "Strong mental state from headquarters prevents frustration with opponent's defensive posture, supporting patient passing approaches and grip fighting rather than forcing low-percentage passes driven by psychological impatience with tactical stalemate."
+    },
+    {
+      "context": "Scramble Position",
+      "how_applied": "Competition mindset during scrambles enables rapid tactical assessment and decision-making in chaotic exchanges, maintaining composure and opportunistic awareness rather than panic-driven reactions that miss advantageous position opportunities."
     }
   ],
   "decision_framework": [
@@ -307,33 +348,28 @@
   "related_content": [
     {
       "name": "Match Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Competition mindset provides the psychological foundation necessary to execute match strategy effectively under pressure"
     },
     {
       "name": "Game Planning",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Thorough game planning reduces competition anxiety by providing clear tactical frameworks and decision-making structures"
     },
     {
       "name": "Energy Management System",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Psychological arousal regulation directly influences energy expenditure patterns and pacing decisions during matches"
     },
     {
       "name": "Positional Sparring",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Positional sparring provides essential pressure exposure that develops competition mindset in training contexts"
     },
     {
       "name": "Risk Assessment",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Effective competition mindset prevents emotional factors from distorting tactical risk assessment during matches"
-    },
-    {
-      "name": "Competition Preparation System",
-      "content_type": "System",
-      "relationship": "Systematic framework for developing the physical, technical, and psychological readiness required for competition"
     },
     {
       "name": "Mental Game Framework",
@@ -341,19 +377,19 @@
       "relationship": "Broader psychological skills system of which competition mindset is a specific competitive application"
     },
     {
+      "name": "Competition Strategy",
+      "content_type": "System",
+      "relationship": "Systematic framework for developing the physical, technical, and psychological readiness required for competition"
+    },
+    {
       "name": "Pacing",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Competition mindset influences pacing decisions through psychological regulation of competitive intensity and energy expenditure"
     },
     {
       "name": "Offensive vs Defensive Mindset",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Competition mindset determines whether pressure situations trigger offensive initiative or defensive reactions"
-    },
-    {
-      "name": "Closed Guard Bottom",
-      "content_type": "Position",
-      "relationship": "Competition mindset enables maintaining offensive initiative from guard despite psychological pressure to be passive when behind"
     },
     {
       "name": "Back Control",
@@ -364,6 +400,11 @@
       "name": "Guard Pass",
       "content_type": "Transition",
       "relationship": "Competition mindset supports patient, systematic passing approach rather than desperate attempts driven by score pressure"
+    },
+    {
+      "name": "Competition Training",
+      "content_type": "Principle",
+      "relationship": "Systematic competition-focused training provides the pressure exposure necessary to develop competition mindset"
     }
   ],
   "expert_insights": {

@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Side Control Defensive Framework | BJJ Concept | BJJ Graph",
     "description": "Understand Side Control Defensive Framework in BJJ. Master systematic escape principles, frame management, and recovery strategies. Expert insights included.",
-    "concept_id": "C089",
+    "principle_id": "P089",
     "tags": ["bjj", "concept", "defense", "side-control", "escape", "framework", "pins", "bottom-position"],
     "application_level": "Fundamental",
     "complexity_level": "Medium",
@@ -54,34 +54,34 @@
       "description": "Sensitivity to opponent movement patterns, pressure changes, and transition moments that create windows of opportunity for escape attempts. Developing ability to exploit micro-adjustments, grip changes, or weight shifts that temporarily reduce control effectiveness."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Escape Hierarchy",
+      "principle_name": "Escape Hierarchy",
       "relationship_type": "Prerequisite",
       "description": "Understanding systematic escape prioritization (survival → space → position recovery) provides foundation for framework application. Side Control Defensive Framework implements escape hierarchy specifically for side control scenarios."
     },
     {
-      "concept_name": "Frame Management",
+      "principle_name": "Frame Management",
       "relationship_type": "Complementary",
       "description": "Frame creation and maintenance forms core defensive structure within framework. Effective framing enables all subsequent escape mechanics and space creation."
     },
     {
-      "concept_name": "Hip Escape Mechanics",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Complementary",
       "description": "Shrimping and hip movement provide primary escape execution method. Framework contextualizes when and how to apply hip escapes within side control defense."
     },
     {
-      "concept_name": "Pressure Reduction",
+      "principle_name": "Pressure Reduction",
       "relationship_type": "Complementary",
       "description": "Techniques for managing opponent pressure work synergistically with defensive framework. Understanding pressure mechanics improves frame effectiveness and escape timing."
     },
     {
-      "concept_name": "Pin Escape Methodology",
+      "principle_name": "Pin Escape Methodology",
       "relationship_type": "Extension",
       "description": "Side Control Defensive Framework represents specific application of broader pin escape principles. Concepts learned here transfer to escaping other pins (mount, north-south, knee-on-belly)."
     },
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention Concepts",
       "relationship_type": "Advanced form",
       "description": "Ultimate goal of side control defense is returning to guard positions. Framework provides systematic path from defensive survival to offensive guard position recovery."
     }

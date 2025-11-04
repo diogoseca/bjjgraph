@@ -1,18 +1,15 @@
 {
-  "metadata": {
-    "title": "Saddle Entry from Top | BJJ Technique | BJJ Graph",
-    "description": "Master the Saddle Entry from Top in BJJ. Step-by-step leg entanglement technique for entering Ashi Garami positions. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.",
-    "transition_id": "T224",
-    "tags": ["bjj", "technique", "leg-locks", "saddle", "ashi-garami", "leg-entanglement", "top-position"],
-    "starting_position": "Top Position",
-    "ending_position": "Saddle Position Top",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 75
-    }
+  "name": "Saddle Entry from Top",
+  "description": "Master the Saddle Entry from Top in BJJ. Step-by-step leg entanglement technique for entering Ashi Garami positions. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "tags": ["bjj", "technique", "leg-locks", "saddle", "ashi-garami", "leg-entanglement", "top-position"],
+  "starting_position": "Headquarters Position",
+  "ending_position": "Saddle",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 55,
+    "advanced": 75
   },
-  "overview": "The Saddle Entry from Top is a fundamental leg entanglement technique that allows the top player to transition from various passing positions into the Saddle (also known as Honey Hole or Inside Sankaku). This entry is critical for modern leg lock systems and represents one of the most direct paths to dominant leg attack positions. The technique exploits moments when the bottom player's legs are extended or when they attempt defensive movements that expose their leg positioning.\n\nThis entry serves as a cornerstone of the Danaher Death Squad methodology and has revolutionized competitive no-gi grappling. The saddle position provides maximum control over the opponent's hip and leg while creating immediate submission threats through inside heel hooks, toe holds, and kneebars. Understanding proper entry mechanics is essential for any practitioner looking to develop a comprehensive leg lock game.\n\nThe technique requires precise timing, spatial awareness, and the ability to recognize leg entanglement opportunities during passing sequences. Success depends on controlling the opponent's near leg while stepping over to secure the saddle configuration. When executed correctly, this entry creates a dominant position with minimal escape options for the opponent.",
+  "overview": "The Saddle Entry from Top is a fundamental leg entanglement technique that allows the top player to transition from various passing positions into the Saddle (also known as Honey Hole or Inside Sankaku). This entry is critical for modern leg lock systems and represents one of the most direct paths to dominant leg attack positions. The technique exploits moments when the bottom player's legs are extended or when they attempt defensive movements that expose their leg positioning.\n\nThis entry serves as a cornerstone of modern leg lock methodology and has revolutionized competitive no-gi grappling. The saddle position provides maximum control over the opponent's hip and leg while creating immediate submission threats through inside heel hooks, toe holds, and kneebars. Understanding proper entry mechanics is essential for any practitioner looking to develop a comprehensive leg lock game.\n\nThe technique requires precise timing, spatial awareness, and the ability to recognize leg entanglement opportunities during passing sequences. Success depends on controlling the opponent's near leg while stepping over to secure the saddle configuration. When executed correctly, this entry creates a dominant position with minimal escape options for the opponent.",
   "key_principles": [
     "Control the opponent's near leg before attempting entry",
     "Step over with correct leg to create proper entanglement angle",
@@ -244,7 +241,7 @@
   "position_integration": "The Saddle Entry from Top serves as a critical bridge between traditional passing positions and modern leg entanglement systems. This technique represents the intersection of pressure passing and submission-focused grappling, allowing practitioners to threaten both passing completion and immediate leg attacks. Within the broader BJJ positional hierarchy, saddle entry from top has revolutionized how top players approach guard passing—no longer must the top player fully pass to access dominant positions, as the saddle itself provides immediate submission threats and positional control.\n\nThis entry integrates seamlessly with headquarters position, knee slice passing, float passing, and long step approaches, creating a comprehensive top game where leg entanglement becomes a primary objective rather than an opportunistic attack. The technique also connects to the full ashi garami system (Outside Ashi, Inside Ashi, 50-50, Cross Ashi), as the saddle entry mechanics provide the foundation for understanding how to access all leg entanglement positions from top. Understanding this entry is fundamental for any modern no-gi competitor and increasingly relevant in gi competition where leg locks are permitted. The saddle entry represents a paradigm shift in BJJ strategy where the traditional goal of achieving side control or mount can be replaced by the equally dominant and more submission-oriented saddle position.",
   "related_content": [
     {
-      "name": "Saddle Position Top",
+      "name": "Saddle",
       "relationship": "Destination position - where this entry leads"
     },
     {
@@ -256,7 +253,7 @@
       "relationship": "Alternative leg entanglement entry from similar positions"
     },
     {
-      "name": "Headquarters Pass",
+      "name": "Headquarters Position",
       "relationship": "Common starting position for this entry"
     },
     {
@@ -264,11 +261,7 @@
       "relationship": "Alternative starting position and passing option"
     },
     {
-      "name": "Saddle Defense",
-      "relationship": "Counter-technique opponents use to prevent or escape"
-    },
-    {
-      "name": "Inside Ashi-Garami Top",
+      "name": "Inside Ashi-Garami",
       "relationship": "Related position in leg entanglement system"
     },
     {
@@ -282,6 +275,18 @@
     {
       "name": "Leg Weave Pass",
       "relationship": "Alternative passing approach from similar positions"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Related leg entanglement position"
+    },
+    {
+      "name": "Cross Ashi-Garami",
+      "relationship": "Alternative ashi garami variation"
+    },
+    {
+      "name": "Kneebar",
+      "relationship": "Alternative submission from saddle position"
     }
   ],
   "expert_insights": {

@@ -1,719 +1,792 @@
 {
-  "metadata": {
-    "title": "Turtle Bottom | BJJ Position Guide | BJJ Graph",
-    "description": "Master Turtle Bottom position in BJJ. Defensive position with guard recovery focus. Learn escapes, sweeps, and back defense with 45-60% recovery rate at advanced level.",
-    "state_id": "S087",
-    "tags": ["bjj", "position", "turtle", "bottom", "defensive", "guard-recovery", "back-defense"],
-    "parent_variant": "Turtle Position",
-    "sibling_variants": ["Turtle Top"]
-  },
-
-  "overview": "Turtle Bottom (also known as Turtle Position or Referee's Position) is a defensive position where the bottom practitioner is on their hands and knees with their back exposed to the opponent. While traditionally viewed as a weak position in wrestling due to back exposure, modern BJJ has transformed the turtle into a dynamic guard recovery platform. The turtle position serves as a critical transitional state between being passed and recovering guard, offering numerous defensive options, sweep opportunities, and even submission threats. The key to effective turtle play lies in maintaining a tight defensive structure while actively working to improve position rather than remaining static. Top-level competitors like Marcelo Garcia, Priit Mihkelson, and various 10th Planet practitioners have developed sophisticated turtle-based systems that turn this defensive position into an offensive platform. The position requires excellent awareness of back defense, understanding of weight distribution, and precise timing to execute rolls, stand-ups, and guard recoveries before the opponent can establish dominant control or take the back.",
-
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Defensive with offensive options",
-    "risk_level": "High",
-    "energy_cost": "Medium",
-    "time_sustainability": "Short"
-  },
-
-  "state_invariants": [
-    "Bottom practitioner positioned on hands and knees with weight distributed across four points of contact, creating a stable base with rounded back to protect against submissions",
-    "Head tucked defensively with chin to chest, elbows tight to ribs/knees to prevent underhook penetration and maintain structural integrity against back takes",
-    "Hips elevated off the mat with knees under hips and hands under shoulders, maintaining mobility while preventing opponent from flattening the position",
-    "Top opponent positioned behind or to the side with access to the back, typically attempting to establish hooks, harness control, or force the bottom player flat to the mat"
-  ],
-
-  "prerequisites": [
-    "Guard has been passed or is in process of being passed",
-    "Ability to maintain rounded defensive posture with chin tucked",
-    "Understanding of back defense principles and hook prevention",
-    "Sufficient shoulder and hip mobility to execute rolls and movements",
-    "Awareness of opponent's weight distribution and attack vectors"
-  ],
-
+  "name": "Turtle",
+  "slug": "turtle",
+  "category": "transitional-positions",
+  "description": "Master turtle position in BJJ. Strategic guide covering defensive escapes, guard recovery, and back defense with complete bottom and top perspective analysis.",
+  "variant_uniqueness": "Hands-and-knees posture with back exposed",
+  "overview": "Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where the practitioner is on hands and knees with their back exposed to the opponent. While traditionally viewed as a weak position in wrestling due to back exposure, modern BJJ has transformed the turtle into a dynamic guard recovery platform and attacking position. The turtle serves as a critical juncture between being passed and recovering guard, offering numerous defensive options, sweep opportunities, and even submission threats from both perspectives. From the bottom, the key lies in maintaining a tight defensive structure while actively working to improve position rather than remaining static. From the top, the position offers multiple attacking pathways including back takes, front headlock submissions, and crucifix entries. Top-level competitors like Marcelo Garcia, Priit Mihkelson, and various 10th Planet practitioners have developed sophisticated turtle-based systems that demonstrate the position's versatility. The position requires excellent awareness of back defense, understanding of weight distribution, and precise timing to execute rolls, stand-ups, and guard recoveries or attacks depending on which perspective you occupy. Success in turtle position from either angle demands constant movement, grip fighting excellence, and the ability to read opponent's weight distribution and intentions in real-time.",
   "key_principles": [
-    "Keep elbows tight to knees to prevent underhook penetration and maintain defensive frames",
-    "Maintain constant motion and weight shifting to prevent opponent from settling their weight",
-    "Protect the neck by keeping chin tucked and using shoulder pressure against choking attempts",
-    "Use circular movement and directional changes to create scrambles and recovery opportunities",
-    "Never remain static - continuously work toward guard recovery, stand-up, or reversal positions",
-    "Monitor opponent's weight distribution to time explosive movements during transitions",
-    "Create frames with forearms against opponent's hips and chest to manage distance and pressure"
+    "Turtle is never a resting position - always transitional and requires immediate action",
+    "Bottom must escape to guard or stand immediately while top must secure control quickly",
+    "Weight distribution and base structure determine available options for both players",
+    "Grip fighting determines who controls the pace and direction of exchanges",
+    "Understanding weight commitment allows both players to time their techniques effectively",
+    "Constant motion disrupts opponent's attacks and creates opportunities for both perspectives",
+    "Neck protection for bottom and neck attack for top are highest priorities"
   ],
-
-  "offensive_transitions": [
+  "related_positions": [
     {
-      "technique": "Granby Roll",
-      "target_position": "Guard Recovery",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Technical Standup",
-      "target_position": "Standing Position",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Rolling to Guard",
-      "target_position": "Half Guard Bottom",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Deep Half Entry",
-      "target_position": "Deep Half Guard Bottom",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      }
-    },
-    {
-      "technique": "Sit Through to Guard",
-      "target_position": "Butterfly Guard Bottom",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Peterson Roll",
-      "target_position": "Guard Recovery",
-      "success_rates": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45
-      }
-    }
-  ],
-
-  "defensive_responses": [
-    {
-      "technique": "Turtle to Back Control",
-      "target_position": "Back Control Top",
-      "success_rate": 65
-    },
-    {
-      "technique": "Front Headlock to Anaconda",
-      "target_position": "Anaconda Control Top",
-      "success_rate": 40
-    },
-    {
-      "technique": "Front Headlock to Darce",
-      "target_position": "D'arce Control Top",
-      "success_rate": 35
-    },
-    {
-      "technique": "Crucifix from Turtle",
-      "target_position": "Crucifix Top Position",
-      "success_rate": 25
-    },
-    {
-      "technique": "Turtle Flatten to Side Control",
-      "target_position": "Side Control Top",
-      "success_rate": 50
-    }
-  ],
-
-  "counter_transitions": [
-    {
-      "technique": "Elbow Escape to Guard",
-      "target_position": "Closed Guard Bottom",
-      "trigger": "Opponent attempts to flatten turtle by extending your far arm"
-    },
-    {
-      "technique": "Sit Through Counter",
-      "target_position": "Half Guard Bottom",
-      "trigger": "Opponent commits weight forward attempting front headlock"
-    },
-    {
-      "technique": "Stand Up in Base",
-      "target_position": "Standing Position",
-      "trigger": "Opponent's weight is high on your back without underhooks established"
-    },
-    {
-      "technique": "Reverse to Guard",
-      "target_position": "Butterfly Guard Bottom",
-      "trigger": "Opponent attempts to take back with poor hook placement"
-    }
-  ],
-
-  "decision_tree": [
-    {
-      "condition": "If opponent has seatbelt control but no hooks in",
-      "actions": [
-        {
-          "technique": "Hand Fighting",
-          "target": "Break Grip and Roll to Guard",
-          "probability": 50
-        },
-        {
-          "technique": "Explosive Standup",
-          "target": "Standing Position",
-          "probability": 40
-        }
-      ]
-    },
-    {
-      "condition": "If opponent is attempting front headlock control",
-      "actions": [
-        {
-          "technique": "Circle Away from Choking Arm",
-          "target": "Guard Recovery",
-          "probability": 45
-        },
-        {
-          "technique": "Sit Through to Half Guard",
-          "target": "Half Guard Bottom",
-          "probability": 50
-        }
-      ]
-    },
-    {
-      "condition": "If opponent's weight is high and forward",
-      "actions": [
-        {
-          "technique": "Granby Roll",
-          "target": "Guard Recovery",
-          "probability": 55
-        },
-        {
-          "technique": "Peterson Roll",
-          "target": "Half Guard Bottom",
-          "probability": 40
-        }
-      ]
-    },
-    {
-      "condition": "If opponent has one hook in but no harness control",
-      "actions": [
-        {
-          "technique": "Kick Back Hook Out",
-          "target": "Scramble Position",
-          "probability": 45
-        },
-        {
-          "technique": "Roll Over Hook Side",
-          "target": "Half Guard Bottom",
-          "probability": 50
-        }
-      ]
-    },
-    {
-      "condition": "If opponent is low and heavy with underhooks",
-      "actions": [
-        {
-          "technique": "Deep Half Escape",
-          "target": "Deep Half Guard Bottom",
-          "probability": 40
-        },
-        {
-          "technique": "Technical Standup",
-          "target": "Standing Position",
-          "probability": 35
-        }
-      ]
-    }
-  ],
-
-  "common_errors": [
-    {
-      "error": "Remaining static in turtle without attempting movement or improvement",
-      "consequence": "Allows opponent time to establish back control, sink hooks, or secure dominant grips leading to easy back takes or submissions",
-      "correction": "Maintain constant motion through weight shifts, directional changes, and active escape attempts - never give opponent time to settle their position"
-    },
-    {
-      "error": "Allowing elbows to flare away from knees creating underhook opportunities",
-      "consequence": "Opponent easily secures underhooks leading to easy flattening, back takes, or transition to dominant positions like crucifix",
-      "correction": "Keep elbows glued to knees throughout all movements, creating a tight defensive shell that prevents penetration of opponent's arms"
-    },
-    {
-      "error": "Lifting head up and exposing neck to choking attacks",
-      "consequence": "Vulnerable to guillotines, anacondas, darces, and other front headlock submissions with easy access to the neck",
-      "correction": "Maintain chin tucked to chest with rounded upper back, using shoulder pressure against opponent's chest to protect the neck at all times"
-    },
-    {
-      "error": "Attempting to stand up without proper base or timing",
-      "consequence": "Easy for opponent to pull back down, establish back control mid-standup, or use momentum against you to secure dominant position",
-      "correction": "Only attempt technical standup when opponent's weight is high, ensure strong posting base, and explode through the movement with proper timing"
-    },
-    {
-      "error": "Rolling in predictable patterns or directions",
-      "consequence": "Opponent anticipates the movement and follows easily, often ending up in worse position like mounted or back control fully established",
-      "correction": "Use feints, change directions mid-roll, and mix timing of movements to create unpredictability and genuine escape opportunities"
-    },
-    {
-      "error": "Allowing opponent to control both your hips and shoulders simultaneously",
-      "consequence": "Complete loss of mobility and structural integrity, leading to easy flattening, back takes, or transition to submissions",
-      "correction": "Fight to maintain separation between hip and shoulder control, using frames and movement to prevent simultaneous control of both areas"
-    }
-  ],
-
-  "training_drills": [
-    {
-      "name": "Turtle Escape Gauntlet",
-      "description": "Partner starts in turtle bottom while training partner attempts various attacks (back takes, chokes, rolls). Bottom player must successfully escape to guard or standing within 30 seconds. Rotate attacks every round to develop well-rounded defensive awareness and multiple escape routes.",
-      "duration": "5 rounds of 2 minutes with 30-second rest"
-    },
-    {
-      "name": "Granby Roll Repetitions",
-      "description": "Practice granby rolls from turtle position repeatedly, focusing on explosive hip movement, shoulder roll mechanics, and landing in guard recovery position. Start slow to perfect mechanics, then increase speed and add resistance from partner attempting to follow and establish back control.",
-      "duration": "3 sets of 10 repetitions each direction"
-    },
-    {
-      "name": "Turtle to Guard Flow Drill",
-      "description": "Starting from turtle, cycle through different guard recovery methods: granby roll to closed guard, sit-through to butterfly, technical standup, deep half entry. Partner provides graduated resistance, increasing pressure as bottom player's technique improves. Focus on smooth transitions and maintaining defensive integrity.",
-      "duration": "6 minutes continuous flow with partner rotation"
-    },
-    {
-      "name": "Hand Fighting from Turtle",
-      "description": "Partner attempts to establish harness control, underhooks, and dominant grips while bottom player actively fights hands, breaks grips, and maintains defensive frames. Emphasize keeping elbows tight while still being able to strip grips and prevent opponent's controls from setting in.",
-      "duration": "4 rounds of 90 seconds"
-    }
-  ],
-
-  "optimal_submission_paths": [
-    {
-      "name": "Shortest escape path to safety",
-      "path": "Turtle Bottom → Granby Roll → Guard Recovery → Closed Guard Bottom (re-establish neutral position)"
-    },
-    {
-      "name": "Aggressive counter-attack path",
-      "path": "Turtle Bottom → Peterson Roll → Deep Half Guard Bottom → Sweep to Top Position → Advance to submission position"
-    },
-    {
-      "name": "Standing escape to reset",
-      "path": "Turtle Bottom → Technical Standup → Standing Position → Guard Pull to preferred guard position"
-    }
-  ],
-
-  "related_content": [
-    {
-      "name": "Turtle Top",
-      "relationship": "Sibling variant - opposite perspective of same position"
-    },
-    {
-      "name": "Back Control Bottom",
-      "relationship": "Common transition target if turtle defense fails"
-    },
-    {
-      "name": "Guard Recovery",
-      "relationship": "Primary strategic goal from turtle bottom position"
-    },
-    {
-      "name": "Deep Half Guard Bottom",
-      "relationship": "Common recovery position via sit-through or roll"
-    },
-    {
-      "name": "Granby Roll",
-      "relationship": "Primary escape technique from turtle bottom"
-    },
-    {
-      "name": "Technical Standup",
-      "relationship": "Alternative escape route to standing position"
+      "name": "Back Control",
+      "relationship": "Primary attacking target from turtle top perspective"
     },
     {
       "name": "Front Headlock",
-      "relationship": "Common attacking position opponent transitions to"
+      "relationship": "Common attacking position when opponent turtles"
     },
     {
-      "name": "Anaconda Choke",
-      "relationship": "Submission threat from front headlock when turtle defense fails"
+      "name": "Closed Guard",
+      "relationship": "Primary recovery target from turtle bottom"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Alternative guard recovery option from turtle"
+    },
+    {
+      "name": "Crucifix",
+      "relationship": "Advanced attacking position from turtle top"
+    },
+    {
+      "name": "Standing Position",
+      "relationship": "Escape target via technical standup from turtle bottom"
+    },
+    {
+      "name": "Twister/Truck",
+      "relationship": "Advanced back attack variation accessible from turtle"
+    },
+    {
+      "name": "Anaconda Control",
+      "relationship": "Front headlock submission option from turtle top"
+    },
+    {
+      "name": "D'arce Control",
+      "relationship": "Alternative front headlock attack from turtle top"
+    },
+    {
+      "name": "Half Guard/Deep Half Guard",
+      "relationship": "Recovery option via sit-through from turtle bottom"
     }
   ],
-
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 20,
-      "intermediate": 35,
-      "advanced": 50
+  "bottom": {
+    "overview": "Turtle Bottom (also known as Turtle Position or Referee's Position) is a defensive position where the bottom practitioner is on their hands and knees with their back exposed to the opponent. While traditionally viewed as a weak position in wrestling due to back exposure, modern BJJ has transformed the turtle into a dynamic guard recovery platform. The turtle position serves as a critical transitional state between being passed and recovering guard, offering numerous defensive options, sweep opportunities, and even submission threats. The key to effective turtle play lies in maintaining a tight defensive structure while actively working to improve position rather than remaining static. Top-level competitors like Marcelo Garcia, Priit Mihkelson, and various 10th Planet practitioners have developed sophisticated turtle-based systems that turn this defensive position into an offensive platform. The position requires excellent awareness of back defense, understanding of weight distribution, and precise timing to execute rolls, stand-ups, and guard recoveries before the opponent can establish dominant control or take the back. Success in turtle bottom depends on maintaining constant motion, fighting grips aggressively, and recognizing the optimal moment to explode into escape sequences based on opponent's weight commitment and positioning.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive with offensive options",
+      "risk_level": "High",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short"
     },
-    "advancement_probability": {
-      "beginner": 30,
-      "intermediate": 45,
-      "advanced": 60
-    },
-    "submission_probability": {
-      "beginner": 5,
-      "intermediate": 10,
-      "advanced": 15
-    },
-    "average_time": "10-30 seconds before transition to another position"
-  },
-
-  "expert_insights": {
-    "danaher": "The turtle position represents a critical juncture in the positional hierarchy where the defender must make intelligent decisions under pressure. The mechanical keys to successful turtle defense lie in maintaining structural integrity through proper weight distribution across all four posting points while simultaneously creating dynamic movement to prevent the opponent from establishing stable control. The elbows-to-knees connection is non-negotiable - any gap here provides immediate access for underhooks which cascade into back takes or crushing control positions. What separates competent turtle players from vulnerable ones is the ability to recognize weight distribution patterns in real-time: when the opponent's weight is high and forward, granby rolls become highly effective; when their weight is low and driving, technical standups or sit-throughs present better options. The turtle should never be viewed as a resting position but rather as a dynamic platform for guard recovery, requiring constant assessment and explosive execution of escape sequences before the opponent can consolidate their attack.",
-    "gordon_ryan": "In competition, the turtle is a position you want to minimize time in because judges and referees often view extended turtle time as passivity or stalling, and it signals defensive positioning that can influence scoring decisions. That said, it's an absolutely essential recovery tool when your guard gets passed - the key is having explosive, practiced movements that you can execute immediately without hesitation. I rely heavily on the technical standup from turtle because it gets me back to standing where I can re-engage on my terms, and most opponents aren't prepared for the explosive level change. The granby roll works incredibly well when timed correctly, but you need to drill it thousands of times so it becomes reflexive - in competition there's no time to think, you just react. Against high-level opponents, you're working with a 2-3 second window before they establish back control, so your turtle game needs to be as automatic as breathing. I also use the turtle offensively sometimes after failed guard retention to bait certain reactions that I can counter, but that's advanced strategic play that requires reading your opponent's tendencies.",
-    "eddie_bravo": "The turtle in 10th Planet is not just a defensive position, it's a gateway to some of our most effective positions like the Lockdown, Deep Half, and our various truck entries. We actually encourage going to turtle in certain situations because we've developed such a comprehensive system for both defending and attacking from there. The key is having multiple paths programmed - if the granby doesn't work, you flow immediately to the sit-through; if that's stuffed, you're already moving to the technical standup or deep half. It's all about chains and not getting stuck on one technique. We also use a lot of unusual movements like the 'electric chair' entry from turtle and the twister setups that catch people completely off guard because they're not traditional escapes. The beautiful thing about the turtle in no-gi is how dynamic it can be - without grips slowing everything down, you can generate tremendous momentum with hip movement and create scrambles that favor the person who's drilled more scenarios. Never just sit in turtle waiting - that's death. You've got to be like a coiled spring ready to explode in multiple directions based on what you feel from your opponent's pressure."
-  }
-}
-Session limit reached ∙ resets 4am
-Session limit reached ∙ resets 4am
-{
-  "metadata": {
-    "title": "Turtle Bottom Position | BJJ Position Guide | BJJ Graph",
-    "description": "Master Turtle Bottom position in BJJ. Defensive position requiring strong base and awareness. Navigate back attacks, guard recovery, and submission defense with expert insights.",
-    "state_id": "S156",
-    "tags": ["bjj", "position", "turtle", "defensive", "bottom", "guard recovery", "back defense"]
-  },
-  
-  "overview": "Turtle Bottom is a defensive position where the practitioner is on their hands and knees with their back exposed to the opponent. This position commonly occurs during scrambles, failed takedown attempts, or as a deliberate defensive posture when guard retention fails. While considered a vulnerable position due to back exposure, Turtle Bottom offers strategic opportunities for guard recovery, standing up, or transitioning to more favorable positions when executed with proper technique. The position requires constant vigilance as the top player has numerous attacking options including back takes, chokes, and positional advancements. Success in Turtle Bottom depends on maintaining a strong base, protecting the neck, and creating movement opportunities to escape or recover guard. The position is worth zero points but defending against back takes and submissions is critical to avoid giving up 4 points or finishing sequences. Understanding proper defensive posture, grip fighting, and timing is essential for using Turtle Bottom as a transitional position rather than a static defensive shell.",
-  
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Defensive",
-    "risk_level": "High",
-    "energy_cost": "Medium",
-    "time_sustainability": "Short"
-  },
-  
-  "state_invariants": [
-    "Bottom practitioner positioned on hands and knees with spine parallel to mat, weight distributed through four points of contact (both hands and both knees) creating stable base structure",
-    "Head tucked with chin to chest protecting the neck from choke attacks, elbows tight to body preventing arm isolation, creating defensive shell with rounded back posture",
-    "Top opponent positioned behind or to the side with access to bottom player's back, hips, and upper body, seeking control points for advancement or submission attacks"
-  ],
-  
-  "prerequisites": [
-    "Guard was passed or lost during scramble",
-    "Failed takedown attempt or sweep",
-    "Deliberate turtle entry to avoid worse position",
-    "Opponent has top position advantage",
-    "Bottom player maintaining hands and knees base"
-  ],
-  
-  "key_principles": [
-    "Maintain strong four-point base with weight distributed evenly through hands and knees",
-    "Keep chin tucked to chest and neck protected at all times to prevent choke attacks",
-    "Keep elbows tight to ribs to prevent arm drag or kimura isolation",
-    "Stay mobile and ready to explode forward, sit to guard, or stand up",
-    "Fight grips aggressively to prevent opponent from establishing back control",
-    "Create movement and direction changes to disrupt opponent's attacking rhythm",
-    "Protect hips and prevent opponent from inserting hooks for back control"
-  ],
-  
-  "offensive_transitions": [
-    {
-      "technique": "Turtle to Guard",
-      "target_position": "Closed Guard Bottom",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
+    "state_invariants": [
+      "Bottom practitioner positioned on hands and knees with weight distributed across four points of contact, creating a stable base with rounded back to protect against submissions while maintaining mobility for dynamic movement",
+      "Head tucked defensively with chin to chest, elbows tight to ribs and knees to prevent underhook penetration and maintain structural integrity against back takes, creating a tight defensive shell",
+      "Hips elevated off the mat with knees under hips and hands under shoulders, maintaining mobility while preventing opponent from flattening the position and establishing dominant control",
+      "Top opponent positioned behind or to the side with access to the back, typically attempting to establish hooks, harness control, or force the bottom player flat to the mat for back control or submissions"
+    ],
+    "prerequisites": [
+      "Guard has been passed or is in process of being passed",
+      "Ability to maintain rounded defensive posture with chin tucked",
+      "Understanding of back defense principles and hook prevention",
+      "Sufficient shoulder and hip mobility to execute rolls and movements",
+      "Awareness of opponent's weight distribution and attack vectors"
+    ],
+    "key_principles": [
+      "Keep elbows tight to knees to prevent underhook penetration and maintain defensive frames",
+      "Maintain constant motion and weight shifting to prevent opponent from settling their weight",
+      "Protect the neck by keeping chin tucked and using shoulder pressure against choking attempts",
+      "Use circular movement and directional changes to create scrambles and recovery opportunities",
+      "Never remain static - continuously work toward guard recovery, stand-up, or reversal positions",
+      "Monitor opponent's weight distribution to time explosive movements during transitions",
+      "Create frames with forearms against opponent's hips and chest to manage distance and pressure"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Granby Roll",
+        "target_position": "Closed Guard",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Technical Standup",
+        "target_position": "Standing Position",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Rolling to Guard",
+        "target_position": "Half Guard",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 50,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Deep Half Entry",
+        "target_position": "Half Guard/Deep Half Guard",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 35,
+          "advanced": 50
+        }
+      },
+      {
+        "technique": "Sit Through to Guard",
+        "target_position": "Butterfly Guard",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Peterson Roll",
+        "target_position": "Half Guard",
+        "success_rates": {
+          "beginner": 15,
+          "intermediate": 30,
+          "advanced": 45
+        }
       }
-    },
-    {
-      "technique": "Turtle to Standing",
-      "target_position": "Standing Position",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Turtle to Back Control",
+        "target_position": "Back Control",
+        "success_rate": 65
+      },
+      {
+        "technique": "Front Headlock to Anaconda",
+        "target_position": "Anaconda Control",
+        "success_rate": 40
+      },
+      {
+        "technique": "Front Headlock to Darce",
+        "target_position": "D'arce Control",
+        "success_rate": 35
+      },
+      {
+        "technique": "Crucifix from Turtle",
+        "target_position": "Crucifix",
+        "success_rate": 25
+      },
+      {
+        "technique": "Turtle Flatten to Side Control",
+        "target_position": "Side Control",
+        "success_rate": 50
       }
-    },
-    {
-      "technique": "Guard Recovery",
-      "target_position": "Half Guard Bottom",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Elbow Escape to Guard",
+        "target_position": "Closed Guard",
+        "trigger": "Opponent attempts to flatten turtle by extending your far arm"
+      },
+      {
+        "technique": "Sit Through Counter",
+        "target_position": "Half Guard",
+        "trigger": "Opponent commits weight forward attempting front headlock"
+      },
+      {
+        "technique": "Stand Up in Base",
+        "target_position": "Standing Position",
+        "trigger": "Opponent's weight is high on your back without underhooks established"
+      },
+      {
+        "technique": "Reverse to Guard",
+        "target_position": "Butterfly Guard",
+        "trigger": "Opponent attempts to take back with poor hook placement"
       }
-    },
-    {
-      "technique": "Technical Stand Up to Single Leg",
-      "target_position": "Standing Position",
-      "success_rates": {
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent has seatbelt control but no hooks in",
+        "actions": [
+          {
+            "technique": "Hand Fighting",
+            "target": "Closed Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Explosive Standup",
+            "target": "Standing Position",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If opponent is attempting front headlock control",
+        "actions": [
+          {
+            "technique": "Circle Away from Choking Arm",
+            "target": "Closed Guard",
+            "probability": 45
+          },
+          {
+            "technique": "Sit Through to Half Guard",
+            "target": "Half Guard",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent's weight is high and forward",
+        "actions": [
+          {
+            "technique": "Granby Roll",
+            "target": "Closed Guard",
+            "probability": 55
+          },
+          {
+            "technique": "Peterson Roll",
+            "target": "Half Guard",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If opponent has one hook in but no harness control",
+        "actions": [
+          {
+            "technique": "Kick Back Hook Out",
+            "target": "Scramble Position",
+            "probability": 45
+          },
+          {
+            "technique": "Roll Over Hook Side",
+            "target": "Half Guard",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent is low and heavy with underhooks",
+        "actions": [
+          {
+            "technique": "Deep Half Escape",
+            "target": "Half Guard/Deep Half Guard",
+            "probability": 40
+          },
+          {
+            "technique": "Technical Standup",
+            "target": "Standing Position",
+            "probability": 35
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Remaining static in turtle without attempting movement or improvement",
+        "consequence": "Allows opponent time to establish back control, sink hooks, or secure dominant grips leading to easy back takes or submissions",
+        "correction": "Maintain constant motion through weight shifts, directional changes, and active escape attempts - never give opponent time to settle their position"
+      },
+      {
+        "error": "Allowing elbows to flare away from knees creating underhook opportunities",
+        "consequence": "Opponent easily secures underhooks leading to easy flattening, back takes, or transition to dominant positions like crucifix",
+        "correction": "Keep elbows glued to knees throughout all movements, creating a tight defensive shell that prevents penetration of opponent's arms"
+      },
+      {
+        "error": "Lifting head up and exposing neck to choking attacks",
+        "consequence": "Vulnerable to guillotines, anacondas, darces, and other front headlock submissions with easy access to the neck",
+        "correction": "Maintain chin tucked to chest with rounded upper back, using shoulder pressure against opponent's chest to protect the neck at all times"
+      },
+      {
+        "error": "Attempting to stand up without proper base or timing",
+        "consequence": "Easy for opponent to pull back down, establish back control mid-standup, or use momentum against you to secure dominant position",
+        "correction": "Only attempt technical standup when opponent's weight is high, ensure strong posting base, and explode through the movement with proper timing"
+      },
+      {
+        "error": "Rolling in predictable patterns or directions",
+        "consequence": "Opponent anticipates the movement and follows easily, often ending up in worse position like mounted or back control fully established",
+        "correction": "Use feints, change directions mid-roll, and mix timing of movements to create unpredictability and genuine escape opportunities"
+      },
+      {
+        "error": "Allowing opponent to control both your hips and shoulders simultaneously",
+        "consequence": "Complete loss of mobility and structural integrity, leading to easy flattening, back takes, or transition to submissions",
+        "correction": "Fight to maintain separation between hip and shoulder control, using frames and movement to prevent simultaneous control of both areas"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Turtle Escape Gauntlet",
+        "description": "Partner starts in turtle bottom while training partner attempts various attacks (back takes, chokes, rolls). Bottom player must successfully escape to guard or standing within 30 seconds. Rotate attacks every round to develop well-rounded defensive awareness and multiple escape routes.",
+        "duration": "5 rounds of 2 minutes with 30-second rest"
+      },
+      {
+        "name": "Granby Roll Repetitions",
+        "description": "Practice granby rolls from turtle position repeatedly, focusing on explosive hip movement, shoulder roll mechanics, and landing in guard recovery position. Start slow to perfect mechanics, then increase speed and add resistance from partner attempting to follow and establish back control.",
+        "duration": "3 sets of 10 repetitions each direction"
+      },
+      {
+        "name": "Turtle to Guard Flow Drill",
+        "description": "Starting from turtle, cycle through different guard recovery methods: granby roll to closed guard, sit-through to butterfly, technical standup, deep half entry. Partner provides graduated resistance, increasing pressure as bottom player's technique improves. Focus on smooth transitions and maintaining defensive integrity.",
+        "duration": "6 minutes continuous flow with partner rotation"
+      },
+      {
+        "name": "Hand Fighting from Turtle",
+        "description": "Partner attempts to establish harness control, underhooks, and dominant grips while bottom player actively fights hands, breaks grips, and maintains defensive frames. Emphasize keeping elbows tight while still being able to strip grips and prevent opponent's controls from setting in.",
+        "duration": "4 rounds of 90 seconds"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Shortest escape path to safety",
+        "path": "Turtle → Granby Roll → Closed Guard → Triangle Choke → Won by Submission"
+      },
+      {
+        "name": "Aggressive counter-attack path",
+        "path": "Turtle → Peterson Roll → Half Guard/Deep Half Guard → Half Guard Sweeps → Mount → Armbar from Mount → Won by Submission"
+      },
+      {
+        "name": "Standing escape to reset",
+        "path": "Turtle → Technical Standup → Standing Position → Double leg takedown → Back Control → Rear Naked Choke → Won by Submission"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Back Control",
+        "relationship": "Common transition target if turtle defense fails"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Primary guard recovery goal from turtle bottom"
+      },
+      {
+        "name": "Half Guard/Deep Half Guard",
+        "relationship": "Alternative recovery position via sit-through or roll"
+      },
+      {
+        "name": "Granby Roll",
+        "relationship": "Primary escape technique from turtle bottom"
+      },
+      {
+        "name": "Technical Standup",
+        "relationship": "Alternative escape route to standing position"
+      },
+      {
+        "name": "Front Headlock",
+        "relationship": "Common attacking position opponent transitions to"
+      },
+      {
+        "name": "Anaconda Choke",
+        "relationship": "Submission threat when turtle defense fails"
+      },
+      {
+        "name": "Defensive Posture",
+        "relationship": "Fundamental concept for turtle bottom structure"
+      },
+      {
+        "name": "Base Maintenance",
+        "relationship": "Critical principle for turtle stability"
+      },
+      {
+        "name": "Hip Escape Mechanics",
+        "relationship": "Movement principle underlying turtle escapes"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
         "beginner": 20,
         "intermediate": 35,
         "advanced": 50
-      }
+      },
+      "advancement_probability": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      },
+      "submission_probability": {
+        "beginner": 5,
+        "intermediate": 10,
+        "advanced": 15
+      },
+      "average_time": "10-30 seconds before transition to another position"
     },
-    {
-      "technique": "Roll to Guard",
-      "target_position": "Butterfly Guard Bottom",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
+    "expert_insights": {
+      "danaher": "The turtle position represents a critical juncture in the positional hierarchy where the defender must make intelligent decisions under pressure. The mechanical keys to successful turtle defense lie in maintaining structural integrity through proper weight distribution across all four posting points while simultaneously creating dynamic movement to prevent the opponent from establishing stable control. The elbows-to-knees connection is non-negotiable - any gap here provides immediate access for underhooks which cascade into back takes or crushing control positions. What separates competent turtle players from vulnerable ones is the ability to recognize weight distribution patterns in real-time: when the opponent's weight is high and forward, granby rolls become highly effective; when their weight is low and driving, technical standups or sit-throughs present better options. The turtle should never be viewed as a resting position but rather as a dynamic platform for guard recovery, requiring constant assessment and explosive execution of escape sequences before the opponent can consolidate their attack.",
+      "gordon_ryan": "In competition, the turtle is a position you want to minimize time in because judges and referees often view extended turtle time as passivity or stalling, and it signals defensive positioning that can influence scoring decisions. That said, it's an absolutely essential recovery tool when your guard gets passed - the key is having explosive, practiced movements that you can execute immediately without hesitation. I rely heavily on the technical standup from turtle because it gets me back to standing where I can re-engage on my terms, and most opponents aren't prepared for the explosive level change. The granby roll works incredibly well when timed correctly, but you need to drill it thousands of times so it becomes reflexive - in competition there's no time to think, you just react. Against high-level opponents, you're working with a 2-3 second window before they establish back control, so your turtle game needs to be as automatic as breathing. I also use the turtle offensively sometimes after failed guard retention to bait certain reactions that I can counter, but that's advanced strategic play that requires reading your opponent's tendencies.",
+      "eddie_bravo": "The turtle in 10th Planet is not just a defensive position, it's a gateway to some of our most effective positions like the Lockdown, Deep Half, and our various truck entries. We actually encourage going to turtle in certain situations because we've developed such a comprehensive system for both defending and attacking from there. The key is having multiple paths programmed - if the granby doesn't work, you flow immediately to the sit-through; if that's stuffed, you're already moving to the technical standup or deep half. It's all about chains and not getting stuck on one technique. We also use a lot of unusual movements like the 'electric chair' entry from turtle and the twister setups that catch people completely off guard because they're not traditional escapes. The beautiful thing about the turtle in no-gi is how dynamic it can be - without grips slowing everything down, you can generate tremendous momentum with hip movement and create scrambles that favor the person who's drilled more scenarios. Never just sit in turtle waiting - that's death. You've got to be like a coiled spring ready to explode in multiple directions based on what you feel from your opponent's pressure."
     },
-    {
-      "technique": "Granby Roll",
-      "target_position": "Guard Recovery Bottom",
-      "success_rates": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 50
-      }
-    }
-  ],
-  
-  "defensive_responses": [
-    {
-      "technique": "Turtle to Back Take",
-      "target_position": "Back Control Top",
-      "success_rate": 45
-    },
-    {
-      "technique": "Crucifix from Turtle",
-      "target_position": "Crucifix Control Top Position",
-      "success_rate": 30
-    },
-    {
-      "technique": "Anaconda from Turtle",
-      "target_position": "Anaconda Control Top",
-      "success_rate": 35
-    },
-    {
-      "technique": "Darce from Turtle",
-      "target_position": "Darce Control Top Position",
-      "success_rate": 30
-    },
-    {
-      "technique": "Guillotine from Turtle",
-      "target_position": "Guillotine Control Top",
-      "success_rate": 25
-    },
-    {
-      "technique": "Kimura from Turtle",
-      "target_position": "Kimura Control Top Position",
-      "success_rate": 25
-    },
-    {
-      "technique": "Arm Triangle from Turtle",
-      "target_position": "Side Control Top",
-      "success_rate": 20
-    }
-  ],
-  
-  "counter_transitions": [
-    {
-      "technique": "Sit to Butterfly",
-      "target_position": "Butterfly Guard Bottom",
-      "trigger": "Opponent attempts to take back with hooks"
-    },
-    {
-      "technique": "Forward Roll",
-      "target_position": "Guard Recovery Bottom",
-      "trigger": "Opponent grabs belt or hips for control"
-    },
-    {
-      "technique": "Stand Up",
-      "target_position": "Standing Position",
-      "trigger": "Opponent has poor base or loose grips"
-    },
-    {
-      "technique": "Granby to Closed Guard",
-      "target_position": "Closed Guard Bottom",
-      "trigger": "Opponent commits weight forward for choke"
-    }
-  ],
-  
-  "decision_tree": [
-    {
-      "condition": "If opponent secures seatbelt grip and begins inserting hooks",
-      "actions": [
-        {
-          "technique": "Sit to Butterfly",
-          "target": "Butterfly Guard Bottom",
-          "probability": 50
-        },
-        {
-          "technique": "Granby Roll",
-          "target": "Guard Recovery Bottom",
-          "probability": 40
-        }
-      ]
-    },
-    {
-      "condition": "If opponent controls head and arm for anaconda/darce",
-      "actions": [
-        {
-          "technique": "Hand Fighting",
-          "target": "Turtle Bottom Position",
-          "probability": 55
-        },
-        {
-          "technique": "Forward Roll",
-          "target": "Guard Recovery Bottom",
-          "probability": 35
-        }
-      ]
-    },
-    {
-      "condition": "If opponent has poor base or loose grips",
-      "actions": [
-        {
-          "technique": "Stand Up",
-          "target": "Standing Position",
-          "probability": 60
-        },
-        {
-          "technique": "Turtle to Guard",
-          "target": "Closed Guard Bottom",
-          "probability": 50
-        }
-      ]
-    },
-    {
-      "condition": "If opponent controls hips from side for crucifix entry",
-      "actions": [
-        {
-          "technique": "Hip Escape",
-          "target": "Half Guard Bottom",
-          "probability": 45
-        },
-        {
-          "technique": "Roll to Guard",
-          "target": "Butterfly Guard Bottom",
-          "probability": 40
-        }
-      ]
-    }
-  ],
-  
-  "common_errors": [
-    {
-      "error": "Flattening out and losing four-point base structure",
-      "consequence": "Makes it easy for opponent to take back or flatten you completely for submissions",
-      "correction": "Maintain strong posting on hands and knees, keep hips elevated and mobile"
-    },
-    {
-      "error": "Keeping head up and neck exposed",
-      "consequence": "Allows guillotine, anaconda, darce, and other front headlock chokes",
-      "correction": "Tuck chin to chest aggressively, protect neck with shoulder pressure"
-    },
-    {
-      "error": "Allowing elbows to flare away from body",
-      "consequence": "Opponent can isolate arms for kimura or drag arms for crucifix control",
-      "correction": "Keep elbows glued to ribs, hands positioned close to knees for structural integrity"
-    },
-    {
-      "error": "Remaining static without creating movement",
-      "consequence": "Gives opponent time to establish grips and set up attacks methodically",
-      "correction": "Constantly change direction, explode forward or sit back, disrupt opponent's timing"
-    },
-    {
-      "error": "Ignoring grip fighting and allowing opponent to establish controls",
-      "consequence": "Once grips are set, escapes become exponentially more difficult",
-      "correction": "Fight grips immediately, strip collar grips, prevent belt/gi grabs from being secured"
-    },
-    {
-      "error": "Rolling to back too early without proper setup",
-      "consequence": "Opponent takes mount or establishes superior position during transition",
-      "correction": "Only roll when opponent commits weight, use timing and opponent's momentum"
-    }
-  ],
-  
-  "training_drills": [
-    {
-      "name": "Turtle Escape Positional Sparring",
-      "description": "Start in turtle bottom with partner on top. Bottom player works to recover guard or stand up while top player works to take back or submit. Reset after successful escape or back take. Focus on maintaining strong base, protecting neck, and timing escapes.",
-      "duration": "5 minute rounds"
-    },
-    {
-      "name": "Granby Roll Repetitions",
-      "description": "Practice granby rolls from turtle position repeatedly, focusing on smooth rolling motion over shoulder while protecting neck. Partner can provide resistance by grabbing belt or shoulders. Drill both directions. Build muscle memory for this critical escape."
-    },
-    {
-      "name": "Grip Fighting from Turtle",
-      "description": "Partner attempts to establish various grips (seatbelt, head-arm, belt) while you strip and fight grips from turtle. Focus on hand fighting, posture maintenance, and preventing control establishment. 2-minute rounds with role reversal."
-    }
-  ],
-  
-  "optimal_submission_paths": [
-    {
-      "name": "Escape to submission offense",
-      "path": "Turtle Bottom Position → Closed Guard Bottom → Triangle from Closed Guard → Won by Submission"
-    },
-    {
-      "name": "Stand up to offense",
-      "path": "Turtle Bottom Position → Standing Position → Takedown → Mount Top → Rear Naked Choke → Won by Submission"
-    },
-    {
-      "name": "Recovery to sweep sequence",
-      "path": "Turtle Bottom Position → Half Guard Bottom → Sweep → Mount Top → Armbar from Mount → Won by Submission"
-    }
-  ],
-  
-  "related_content": [
-    {
-      "name": "Turtle Top Position",
-      "relationship": "Opposite perspective - attacking turtle bottom"
-    },
-    {
-      "name": "Back Control Bottom",
-      "relationship": "Common negative progression if defense fails"
-    },
-    {
-      "name": "Guard Recovery Bottom",
-      "relationship": "Primary escape target from turtle"
-    },
-    {
-      "name": "Defensive Position",
-      "relationship": "Concept - defensive framework applicable to turtle"
-    },
-    {
-      "name": "Granby Roll",
-      "relationship": "Key escape transition from turtle"
-    },
-    {
-      "name": "Turtle to Guard",
-      "relationship": "Primary escape transition"
-    },
-    {
-      "name": "Turtle to Back Take",
-      "relationship": "Common opponent attack to defend"
-    },
-    {
-      "name": "Escape Fundamentals",
-      "relationship": "Concept - fundamental escape principles"
-    },
-    {
-      "name": "Base Maintenance",
-      "relationship": "Concept - critical for turtle stability"
-    }
-  ],
-  
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 40,
-      "intermediate": 55,
-      "advanced": 70
-    },
-    "advancement_probability": {
-      "beginner": 30,
-      "intermediate": 45,
-      "advanced": 60
-    },
-    "submission_probability": {
-      "beginner": 5,
-      "intermediate": 10,
-      "advanced": 15
-    },
-    "average_time": "15-45 seconds"
+    "name": "Turtle Bottom",
+    "description": "Master Turtle Bottom position in BJJ. Defensive position with guard recovery focus. Learn escapes, sweeps, and back defense with 45-60% recovery rate at advanced level.",
+    "tags": [
+      "bjj",
+      "position",
+      "turtle",
+      "bottom",
+      "defensive",
+      "guard-recovery",
+      "back-defense"
+    ]
   },
-  
-  "expert_insights": {
-    "danaher": "The turtle position represents a critical juncture in the defensive hierarchy where the practitioner has lost guard but not yet conceded back control. The fundamental mechanical principle governing turtle defense is the maintenance of a strong four-point base combined with aggressive neck protection. The common error I observe is practitioners treating turtle as a static defensive posture rather than a dynamic transitional position. The key is understanding that turtle should never be held for extended periods - it is a momentary position from which you must immediately work toward guard recovery or standing. The proper turtle structure requires the spine to remain parallel to the mat with weight distributed through the hands and knees, creating a stable platform that resists opponent's efforts to flatten or roll you. Critical attention must be paid to chin position - the neck must be protected at all costs as most submissions from turtle target this vulnerable area. The granby roll represents one of the most sophisticated escape mechanics from turtle, utilizing rotational movement to create space and recover guard position. Training should emphasize the transition, not the position itself.",
-    
-    "gordon_ryan": "In competition, turtle bottom is one of the most dangerous positions because you're giving up your back and the ref might penalize you for stalling if you stay there too long. My approach is simple - never stay in turtle. The moment I hit turtle, I'm already moving to either recover guard or stand up. Against high-level opponents, you have maybe 2-3 seconds before they establish back control grips, so your movement has to be immediate and explosive. I prefer the sit-through to butterfly guard because it's fast and takes away the back exposure instantly. The key is reading what the opponent is doing - if they're reaching for the far arm for crucifix, I'm sitting through. If they're going for seatbelt grips, I'm granby rolling. If they're heavy on my hips, I'm standing up. The worst thing you can do is wait and see what they do - you need to be attacking your escape before they attack your back. In no-gi especially, turtle is basically giving them the back, so I drill turtle escapes constantly because you will end up there during scrambles whether you want to or not.",
-    
-    "eddie_bravo": "Turtle can actually be an offensive position if you know what you're doing, but most people just curl up and wait to get destroyed. In 10th Planet, we teach the turtle as a transitional position where you're constantly moving and creating problems for the top guy. The electric chair and other lockdown attacks can actually start from defensive turtle if you time it right - when they reach over for the crucifix, that's when you can catch them. But the main thing is don't be a sitting duck. We drill what I call the 'turtle flow' where you're constantly switching between different escape options - sit to guard, stand up, granby, forward roll - making the top guy guess. The key is creating movement in multiple directions so they can't predict what you're doing. Also, the lockdown can be entered from turtle when they try to take your back - as they insert the first hook, you can turn into them and establish lockdown control. Most important thing though is protecting your neck - that chin needs to be buried in your chest like your life depends on it because in competition, it does. Never give up the neck."
+  "top": {
+    "overview": "Turtle Top is an offensive position where the practitioner attacks an opponent who is on their hands and knees with their back exposed. This position offers numerous high-percentage attacking opportunities including back takes, front headlock submissions, crucifix entries, and positional advancements. The turtle top position requires excellent timing, grip control, and understanding of weight distribution to successfully transition before the opponent can escape to guard or standing. Success from turtle top depends on establishing dominant grips quickly, preventing opponent movement through strategic weight placement, and recognizing the optimal attack based on opponent's defensive reactions. The position is worth zero points but offers pathways to 4-point back control or direct submission finishes. Understanding proper attack sequencing, maintaining offensive pressure, and adapting to opponent's escape attempts is essential for maximizing success from turtle top position.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short to Medium"
+    },
+    "state_invariants": [
+      "Top practitioner positioned behind or to the side of opponent who is on hands and knees, with access to back, hips, and upper body for attacking grips and control establishment",
+      "Bottom opponent maintaining defensive turtle posture with rounded back, tucked chin, and tight elbows, attempting to prevent control establishment and create escape opportunities",
+      "Top practitioner working to establish harness control, underhooks, or front headlock positioning while managing opponent's movement and preventing guard recovery or standup attempts"
+    ],
+    "prerequisites": [
+      "Opponent has assumed turtle position after guard pass or scramble",
+      "Ability to establish and maintain dominant grips on opponent",
+      "Understanding of back take mechanics and hook insertion timing",
+      "Knowledge of front headlock submission entries and controls",
+      "Awareness of opponent's escape attempts and counter-timing"
+    ],
+    "key_principles": [
+      "Establish dominant grips immediately before opponent can create movement",
+      "Use chest and shoulder pressure to flatten opponent and limit mobility",
+      "Insert hooks systematically while maintaining upper body control",
+      "Transition between attacks fluidly based on opponent's defensive reactions",
+      "Control opponent's hip movement to prevent guard recovery",
+      "Maintain heavy chest pressure to disrupt opponent's base structure",
+      "Recognize weight distribution changes that signal escape attempts"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Turtle to Back Control",
+        "target_position": "Back Control",
+        "success_rates": {
+          "beginner": 40,
+          "intermediate": 55,
+          "advanced": 70
+        }
+      },
+      {
+        "technique": "Front Headlock to Anaconda",
+        "target_position": "Anaconda Control",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Front Headlock to Darce",
+        "target_position": "D'arce Control",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Crucifix from Turtle",
+        "target_position": "Crucifix",
+        "success_rates": {
+          "beginner": 15,
+          "intermediate": 30,
+          "advanced": 45
+        }
+      },
+      {
+        "technique": "Turtle Flatten to Side Control",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 50,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Turtle to Truck Entry",
+        "target_position": "Twister/Truck",
+        "success_rates": {
+          "beginner": 10,
+          "intermediate": 25,
+          "advanced": 40
+        }
+      },
+      {
+        "technique": "Front Headlock to Guillotine",
+        "target_position": "Guillotine Control",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 35,
+          "advanced": 50
+        }
+      },
+      {
+        "technique": "Kimura from Turtle",
+        "target_position": "Kimura Control",
+        "success_rates": {
+          "beginner": 15,
+          "intermediate": 30,
+          "advanced": 45
+        }
+      }
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Granby Roll Escape",
+        "target_position": "Closed Guard",
+        "success_rate": 45
+      },
+      {
+        "technique": "Technical Standup",
+        "target_position": "Standing Position",
+        "success_rate": 40
+      },
+      {
+        "technique": "Sit Through to Guard",
+        "target_position": "Butterfly Guard",
+        "success_rate": 50
+      },
+      {
+        "technique": "Deep Half Entry",
+        "target_position": "Half Guard/Deep Half Guard",
+        "success_rate": 35
+      },
+      {
+        "technique": "Forward Roll Escape",
+        "target_position": "Half Guard",
+        "success_rate": 40
+      }
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Follow Granby Roll",
+        "target_position": "Back Control",
+        "trigger": "Opponent attempts granby roll without proper timing"
+      },
+      {
+        "technique": "Flatten and Take Back",
+        "target_position": "Back Control",
+        "trigger": "Opponent extends arm for posting during escape"
+      },
+      {
+        "technique": "Front Headlock Counter",
+        "target_position": "Front Headlock",
+        "trigger": "Opponent lifts head during standup attempt"
+      },
+      {
+        "technique": "Crucifix Entry",
+        "target_position": "Crucifix",
+        "trigger": "Opponent exposes arm reaching for underhook defense"
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains tight defensive structure with elbows to knees",
+        "actions": [
+          {
+            "technique": "Establish Seatbelt Control",
+            "target": "Back Control",
+            "probability": 60
+          },
+          {
+            "technique": "Circle to Front Headlock",
+            "target": "Front Headlock",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent begins forward roll or granby attempt",
+        "actions": [
+          {
+            "technique": "Follow Roll to Back",
+            "target": "Back Control",
+            "probability": 65
+          },
+          {
+            "technique": "Flatten to Side Control",
+            "target": "Side Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent lifts head or exposes neck",
+        "actions": [
+          {
+            "technique": "Front Headlock Attack",
+            "target": "Front Headlock",
+            "probability": 70
+          },
+          {
+            "technique": "Guillotine Setup",
+            "target": "Guillotine Control",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent extends arm for posting or defense",
+        "actions": [
+          {
+            "technique": "Crucifix Entry",
+            "target": "Crucifix",
+            "probability": 55
+          },
+          {
+            "technique": "Kimura Attack",
+            "target": "Kimura Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to stand up explosively",
+        "actions": [
+          {
+            "technique": "Drag to Mat and Take Back",
+            "target": "Back Control",
+            "probability": 60
+          },
+          {
+            "technique": "Front Headlock Control",
+            "target": "Front Headlock",
+            "probability": 65
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Committing too much weight forward allowing opponent to sit through",
+        "consequence": "Opponent easily recovers guard position or creates scramble situation",
+        "correction": "Maintain balanced weight distribution with chest pressure on opponent's back while keeping hips mobile"
+      },
+      {
+        "error": "Attempting back take without securing upper body control first",
+        "consequence": "Opponent can defend hooks easily and escape to guard or standing",
+        "correction": "Establish seatbelt or harness control before inserting first hook, control shoulders and head position"
+      },
+      {
+        "error": "Allowing opponent to create space and movement",
+        "consequence": "Opponent gains momentum for escape sequences and guard recovery",
+        "correction": "Maintain constant heavy pressure with chest and shoulders, minimize space between bodies"
+      },
+      {
+        "error": "Focusing on single attack without recognizing defensive reactions",
+        "consequence": "Opponent defends successfully and escapes while you remain committed to failed technique",
+        "correction": "Flow between multiple attacks based on opponent's reactions - if back take is defended, transition to front headlock or crucifix"
+      },
+      {
+        "error": "Losing grip control during transitions",
+        "consequence": "Creates windows for opponent to escape or recover guard position",
+        "correction": "Maintain at least one dominant grip at all times during transitions, never release all controls simultaneously"
+      },
+      {
+        "error": "Being too high on opponent's back without establishing hooks",
+        "consequence": "Opponent stands up easily or performs technical standup",
+        "correction": "Stay connected with hips to opponent's hips, insert bottom hook first before climbing higher"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Turtle Attack Flow Drill",
+        "description": "Partner assumes turtle position while top player flows through various attack options: back take, anaconda, darce, crucifix, flatten to side control. Partner provides graduated resistance. Focus on smooth transitions between attacks based on defensive reactions and maintaining pressure throughout.",
+        "duration": "5 minutes continuous flow with partner rotation"
+      },
+      {
+        "name": "Back Take Positional Sparring",
+        "description": "Start from turtle top position. Top player works to establish back control with both hooks and harness control. Bottom player works to prevent back take and escape. Reset after successful back take or escape. Focus on hook insertion timing and maintaining control during opponent's movements.",
+        "duration": "5 rounds of 3 minutes"
+      },
+      {
+        "name": "Front Headlock Submissions from Turtle",
+        "description": "Partner in turtle while you establish front headlock position. Drill anaconda and darce entries repeatedly, focusing on grip placement, head positioning, and submission mechanics. Partner provides increasing resistance as technique improves. Alternate sides and submission types.",
+        "duration": "4 rounds of 2 minutes per submission type"
+      },
+      {
+        "name": "Reaction-Based Attack Drill",
+        "description": "Partner in turtle defends with various escape attempts (granby, standup, sit-through). Top player must recognize escape type and counter appropriately: follow granby to back, flatten standup to front headlock, stuff sit-through to crucifix. Develop recognition speed and counter-timing.",
+        "duration": "6 minutes with role rotation"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Direct back take to finish",
+        "path": "Turtle Top → Back Control → Rear Naked Choke → Won by Submission"
+      },
+      {
+        "name": "Front headlock submission chain",
+        "path": "Turtle Top → Front Headlock → Anaconda Choke → Won by Submission"
+      },
+      {
+        "name": "Crucifix to back control path",
+        "path": "Turtle Top → Crucifix → Back Control → Rear Naked Choke → Won by Submission"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Back Control",
+        "relationship": "Primary attacking target from turtle top"
+      },
+      {
+        "name": "Front Headlock",
+        "relationship": "Alternative attacking position from turtle top"
+      },
+      {
+        "name": "Crucifix",
+        "relationship": "Advanced attacking position accessible from turtle"
+      },
+      {
+        "name": "Anaconda Choke",
+        "relationship": "Direct submission option from turtle top"
+      },
+      {
+        "name": "Darce Choke",
+        "relationship": "Alternative front headlock submission"
+      },
+      {
+        "name": "Guillotine Choke",
+        "relationship": "Submission option when opponent lifts head"
+      },
+      {
+        "name": "Kimura from Turtle",
+        "relationship": "Arm attack when opponent extends limb"
+      },
+      {
+        "name": "Twister/Truck",
+        "relationship": "Advanced back attack variation from turtle"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Alternative positional advancement from turtle"
+      },
+      {
+        "name": "Pressure Application",
+        "relationship": "Fundamental concept for turtle top control"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      },
+      "advancement_probability": {
+        "beginner": 45,
+        "intermediate": 60,
+        "advanced": 75
+      },
+      "submission_probability": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 50
+      },
+      "average_time": "15-45 seconds before transition to dominant position"
+    },
+    "expert_insights": {
+      "danaher": "The turtle top position represents one of the most fertile attacking platforms in Brazilian Jiu-Jitsu when approached systematically. The fundamental principle governing successful turtle attacks is the establishment of control before attempting positional advancement or submission. The most common error I observe is practitioners rushing to insert hooks for back control without first securing dominant grips on the upper body. The proper attacking sequence begins with establishing chest pressure to flatten the opponent's defensive structure, followed by harness or seatbelt control, and only then progressing to hook insertion. The timing of these progressions must be synchronized with the opponent's weight shifts and defensive reactions. When the opponent's weight moves forward to defend against back takes, the front headlock becomes available; when they sit back to prevent flattening, crucifix entries emerge. The key mechanical insight is that turtle attacks succeed through systematic control accumulation rather than explosive single techniques. Training should emphasize flowing between multiple attack options based on defensive reactions rather than forcing single techniques against proper defense.",
+      "gordon_ryan": "Turtle top is where I score a huge percentage of my back takes in competition because most people don't defend it properly and it's a position where you can really impose your will. The key is not giving them any time to think or create movement - the moment they hit turtle, I'm already working my grips and setting up my attack. I prefer the direct back take route because it scores 4 points and sets up my highest percentage submissions, but you have to be ready to flow to front headlock if they defend the back take well. The biggest thing that separates high-level turtle attacks from lower levels is grip fighting - if you can't establish and maintain dominant grips quickly, they'll escape every time. I drill the transition from turtle to back control obsessively because that's where matches get won. The anaconda and darce are great submissions but they require specific defensive mistakes, whereas the back take is available against pretty much any turtle defense if you execute properly. In no-gi especially, you need to be heavy with your chest pressure and never let them create separation.",
+      "eddie_bravo": "Turtle top is one of my favorite positions to teach because it opens up so many of the 10th Planet signature moves - truck entries, twisters, electric chair setups. Most traditional BJJ schools just teach the basic back take from turtle, but we see it as a gateway to our entire back attack system. When someone turtles, I'm immediately looking for the truck entry by controlling the far leg and near arm, which sets up the whole twister series. The beauty of attacking turtle in the 10th Planet system is that everything connects - if the truck doesn't work, you flow to the crucifix; if that's defended, you take the back; if they defend the back, you hit the anaconda or darce. It's all about having layers and not getting stuck on one technique. The key is staying mobile and ready to follow their movement - don't be heavy and static like traditional top pressure, be more like a predator tracking prey. Also, the crab ride position from turtle is criminally underutilized - it gives you so much control while keeping all your attacking options open."
+    },
+    "name": "Turtle Top",
+    "description": "Master Turtle Top position in BJJ. Offensive position with multiple attacking options. Learn back takes, chokes, and submissions with 60-75% advancement rate at advanced level.",
+    "tags": [
+      "bjj",
+      "position",
+      "turtle",
+      "top",
+      "offensive",
+      "back-take",
+      "submissions"
+    ]
   }
 }
-Session limit reached ∙ resets 4am
-Session limit reached ∙ resets 4am

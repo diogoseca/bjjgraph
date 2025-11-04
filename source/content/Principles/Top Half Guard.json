@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Top Half Guard | BJJ Concept | BJJ Graph",
     "description": "Understand Top Half Guard control in BJJ. Master pressure distribution, crossface control, passing sequences. Strategic framework for all half guard variations included.",
-    "concept_id": "C118",
+    "principle_id": "P118",
     "tags": [
       "bjj",
       "concept",
@@ -63,34 +63,34 @@
       "description": "The perceptual ability to recognize optimal moments for transitioning from control to passing, or between different passing approaches. This includes reading opponent fatigue, recognizing defensive commitment patterns, and understanding when continued pressure is more valuable than immediate passing attempts."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Pressure Application",
+      "principle_name": "Pressure Application",
       "relationship_type": "Prerequisite",
       "description": "Fundamental understanding of pressure mechanics is essential before developing top half guard mastery, as proper pressure distribution forms the foundation of all control and passing strategies from this position."
     },
     {
-      "concept_name": "Control Point Hierarchy",
+      "principle_name": "Control Point Hierarchy",
       "relationship_type": "Complementary",
       "description": "Understanding control point prioritization directly enhances top half guard effectiveness by providing a systematic framework for deciding which connections to establish and maintain based on opponent defensive structure."
     },
     {
-      "concept_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing Principles",
       "relationship_type": "Extension",
       "description": "Top half guard serves as a specific application domain where general guard passing principles are refined and adapted to the unique constraints of half guard configurations."
     },
     {
-      "concept_name": "Underhook Defense",
+      "principle_name": "Underhook Defense",
       "relationship_type": "Complementary",
       "description": "Mastery of underhook defense concepts directly translates to top half guard control, as preventing opponent's underhook-based attacks is central to maintaining dominant position and creating passing opportunities."
     },
     {
-      "concept_name": "Frame Management",
+      "principle_name": "Frame Management",
       "relationship_type": "Prerequisite",
       "description": "Understanding how to create, maintain, and break frames is essential for top half guard, as much of the position revolves around negating opponent's defensive frames while establishing offensive connections."
     },
     {
-      "concept_name": "Dilemma Creation",
+      "principle_name": "Dilemma Creation",
       "relationship_type": "Advanced form",
       "description": "Advanced top half guard play evolves into systematic dilemma creation where the top player forces the bottom player to choose between defending different attack vectors, each choice opening specific passing opportunities."
     }

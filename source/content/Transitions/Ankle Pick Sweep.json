@@ -1,24 +1,21 @@
 {
-  "metadata": {
-    "title": "Ankle Pick Sweep | BJJ Technique | BJJ Graph",
-    "description": "Master the Ankle Pick Sweep from seated guard. Step-by-step execution with grip control and off-balancing. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-    "transition_id": "T008",
-    "tags": [
-      "bjj",
-      "technique",
-      "sweep",
-      "seated-guard",
-      "ankle-pick",
-      "guard-bottom",
-      "off-balancing"
-    ],
-    "starting_position": "Seated Guard Bottom",
-    "ending_position": "Top Position",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 50,
-      "advanced": 65
-    }
+  "name": "Ankle Pick Sweep",
+  "description": "Master the Ankle Pick Sweep from seated guard. Step-by-step execution with grip control and off-balancing. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "technique",
+    "sweep",
+    "seated-guard",
+    "ankle-pick",
+    "guard-bottom",
+    "off-balancing"
+  ],
+  "starting_position": "Seated Guard",
+  "ending_position": "Standing Position",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 50,
+    "advanced": 65
   },
   "overview": "The Ankle Pick Sweep is a fundamental technique from seated guard that exploits the opponent's standing posture through precise grip control and off-balancing mechanics. This sweep targets the opponent's base by controlling their ankle while simultaneously disrupting their upper body balance, creating a powerful lever system that dumps them to the mat.\n\nThe technique is particularly effective against opponents who maintain an upright, standing posture while attempting to pass seated guard. By combining a strong collar or wrist grip with a well-timed ankle grab, the practitioner creates a mechanical disadvantage that makes it extremely difficult for the opponent to maintain their base. The sweep works on the principle of removing support from one leg while pulling the upper body in the opposite direction, creating a rotational force that the opponent cannot resist.\n\nThis sweep serves as a cornerstone technique in modern no-gi grappling and has been refined by competitive grapplers who utilize seated guard as a primary defensive and offensive position. The Ankle Pick Sweep can be executed with minimal energy expenditure when timed correctly, making it an excellent option for practitioners of all sizes and strength levels. Its effectiveness lies in the mechanical advantage created rather than relying on superior strength or athleticism.",
   "key_principles": [

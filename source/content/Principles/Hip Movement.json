@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Hip Movement | BJJ Concept | BJJ Graph",
-    "description": "Understand Hip Movement in BJJ. Master pelvic mobility, escape mechanics, and space creation principles. Learn cross-position applications with expert insights.",
-    "concept_id": "C058",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "movement",
-      "hips",
-      "escapes",
-      "mobility",
-      "core"
-    ],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Hip Movement",
+  "description": "Master hip movement fundamentals in BJJ. Learn pelvic mobility, escape mechanics, space creation, and cross-position applications for defensive and offensive scenarios.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "movement",
+    "hips",
+    "escapes",
+    "mobility",
+    "core"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Hip Movement represents the fundamental capability of generating purposeful pelvic displacement, rotation, and elevation to create space, escape inferior positions, establish advantageous positioning, and execute technical actions across all phases of Brazilian Jiu-Jitsu. Unlike specific techniques that utilize hip movement, this is a comprehensive conceptual framework encompassing the biomechanical principles of hip mobility, the strategic applications of pelvic positioning, and the tactical deployment of hip-based movements throughout defensive and offensive scenarios. This concept serves as the foundational movement pattern underlying virtually all BJJ techniques including escapes, guard retention, sweeps, submissions, and positional transitions. Hip movement quality determines effectiveness of escape sequences, ability to create necessary space under pressure, capacity to generate power for techniques, and overall movement efficiency throughout training and competition. The mastery of hip movement fundamentals often distinguishes technically proficient practitioners from those who rely excessively on upper body strength or static positioning, making it one of the most critical conceptual elements spanning from beginner fundamentals through expert-level refinement.",
   "key_principles": [
     "Generate hip movement from core activation rather than isolated limb movements for maximum power and efficiency",
@@ -63,36 +60,66 @@
       "description": "Integrated synchronization of hip movement with upper body framing structures to maximize space creation and maintain defensive integrity. Ensures that space created through hip displacement is preserved through proper frame placement and timing."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Hip Escape Mechanics",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Extension",
       "description": "Hip Movement provides the broad conceptual framework while Hip Escape Mechanics focuses specifically on the technical execution of shrimping movements and their variations across different positional contexts."
     },
     {
-      "concept_name": "Bridge and Shrimp",
+      "principle_name": "Bridge and Shrimp",
       "relationship_type": "Complementary",
       "description": "These two fundamental movements work synergistically as the primary hip-based escape mechanisms, with bridging creating vertical displacement and shrimping generating lateral space through coordinated sequencing."
     },
     {
-      "concept_name": "Frame Management",
+      "principle_name": "Frame Management",
       "relationship_type": "Complementary",
       "description": "Effective hip movement must be coordinated with proper framing structures to preserve created space and prevent opponent from immediately recapturing position, making these concepts inseparable in practical application."
     },
     {
-      "concept_name": "Space Creation",
+      "principle_name": "Space Creation",
       "relationship_type": "Extension",
       "description": "Hip Movement serves as the primary mechanical method for achieving the strategic objective of Space Creation, providing the biomechanical foundation for generating distance in defensive scenarios."
     },
     {
-      "concept_name": "Biomechanical Principles",
+      "principle_name": "Biomechanical Principles",
       "relationship_type": "Prerequisite",
       "description": "Understanding fundamental biomechanics including leverage, ground connection, and force generation underlies effective hip movement application and enables practitioners to maximize efficiency while minimizing energy expenditure."
     },
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention Concepts",
       "relationship_type": "Advanced form",
       "description": "Sophisticated guard retention strategies represent advanced applications of fundamental hip movement principles, demonstrating how basic hip mobility concepts extend into complex defensive systems and continuous adjustment patterns."
+    },
+    {
+      "principle_name": "Shrimping",
+      "relationship_type": "Extension",
+      "description": "Shrimping represents the most fundamental application of lateral hip displacement, serving as the cornerstone technique that embodies core hip movement principles across all positions."
+    },
+    {
+      "principle_name": "Bridging Mechanics",
+      "relationship_type": "Extension",
+      "description": "Bridging Mechanics details the vertical hip elevation component of overall hip movement capability, providing specific technical guidance for explosive upward pelvic displacement under pressure."
+    },
+    {
+      "principle_name": "Hip Elevation",
+      "relationship_type": "Extension",
+      "description": "Hip Elevation focuses on the vertical displacement aspect of hip movement, emphasizing techniques for raising the pelvis to create space, generate sweeping power, or escape bottom positions."
+    },
+    {
+      "principle_name": "Escape Fundamentals",
+      "relationship_type": "Complementary",
+      "description": "Hip Movement serves as the primary mechanical component within the broader strategic framework of Escape Fundamentals, providing the physical execution capability for conceptual escape strategies."
+    },
+    {
+      "principle_name": "Base Maintenance",
+      "relationship_type": "Complementary",
+      "description": "While hip movement generates displacement and angles, Base Maintenance ensures stability during these movements, creating a balanced approach to dynamic positioning that prevents overextension or loss of control."
+    },
+    {
+      "principle_name": "Leverage Principles",
+      "relationship_type": "Prerequisite",
+      "description": "Effective hip movement relies fundamentally on proper leverage mechanics, using the ground as resistance point and core activation as power source to maximize displacement efficiency."
     }
   ],
   "application_contexts": [
@@ -101,7 +128,7 @@
       "how_applied": "Hip escape sequences combined with bridging create the fundamental escape pathway by generating sufficient space to insert knee shield or recover guard structure while managing opponent's base and weight distribution."
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Hip movement enables escape through systematic shrimping to create space for knee insertion, elbow escape execution, or technical recovery to guard positions while coordinating with proper framing against opponent's crossface and underhook control."
     },
     {
@@ -117,15 +144,15 @@
       "how_applied": "Hip movement generates the rotation and displacement necessary to escape this stabilizing position through coordinated bridging, hip escape sequences, and strategic weight redistribution to recover to more favorable defensive alignments."
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Hip rotation and elevation enable angle creation for sweeps and submissions, generation of breaking pressure for posture disruption, and maintenance of optimal positioning relative to opponent's base and weight distribution."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Hip movement creates the underhook opportunities, generates sweeping power, establishes proper angle relative to opponent, and enables recovery to more favorable guard structures through systematic displacement and rotation."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Continuous hip adjustment maintains proper distance and angle relative to opponent during guard retention, creates attacking opportunities through angle generation, and enables recovery movements when guard structure becomes compromised."
     },
     {
@@ -133,7 +160,7 @@
       "how_applied": "Hip rotation under opponent's base generates the fundamental sweeping mechanics while hip movement enables proper positioning relative to opponent's center of gravity and creation of off-balancing opportunities."
     },
     {
-      "context": "Z-Guard",
+      "context": "Knee Shield Half Guard",
       "how_applied": "Hip positioning and continuous adjustment maintain the knee shield structure, create sweeping angles, generate pressure against opponent's attempts to flatten or pass, and enable transitions to other guard structures."
     },
     {
@@ -153,8 +180,20 @@
       "how_applied": "Hip rotation around opponent's leg combined with proper hip positioning creates the fundamental off-balancing mechanics while continuous hip adjustment maintains guard structure during opponent's passing attempts."
     },
     {
-      "context": "Bottom Turtle",
+      "context": "Turtle",
       "how_applied": "Hip movement enables recovery to guard through systematic rotation and displacement, prevents opponent from flattening through continuous mobility, and creates scramble opportunities through explosive hip extension and direction changes."
+    },
+    {
+      "context": "Spider Guard",
+      "how_applied": "Hip rotation and elevation work synergistically with foot grips to create sweeping angles, maintain proper distance from opponent, and generate off-balancing force through coordinated hip and leg extension."
+    },
+    {
+      "context": "Seated Guard",
+      "how_applied": "Hip mobility enables rapid angle changes, creation of attacking opportunities through strategic positioning, and defensive recovery when opponent attempts to pass or establish dominant grips."
+    },
+    {
+      "context": "Standing Position",
+      "how_applied": "Hip positioning determines takedown defense effectiveness, creates angles for counter techniques, and enables explosive level changes for offensive wrestling attacks or guard pull entries."
     }
   ],
   "decision_framework": [
@@ -229,6 +268,11 @@
       "error": "Failing to coordinate breathing with hip movement sequences",
       "consequence": "Movement becomes less efficient, endurance decreases rapidly, and power generation suffers particularly during extended escape sequences or sustained defensive periods",
       "correction": "Develop breathing pattern that supports hip movement mechanics, typically exhaling during exertion phases of bridging or shrimping to maintain core tension and movement efficiency"
+    },
+    {
+      "error": "Neglecting hip rotation in favor of exclusively linear displacement",
+      "consequence": "Limited technical options emerge as purely linear movements fail to create angular advantages necessary for many sweeps, submissions, and advanced guard positions",
+      "correction": "Integrate rotational hip movement with linear displacement, developing capacity to adjust angles while creating space for more sophisticated technical applications"
     }
   ],
   "training_approaches": [
@@ -307,47 +351,47 @@
   "related_content": [
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Specific technical application of hip movement principles focused on lateral displacement and space creation"
     },
     {
       "name": "Bridge and Shrimp",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "The two primary hip-based movements serving as foundational patterns for virtually all escape sequences"
     },
     {
       "name": "Shrimping",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Detailed examination of the lateral hip escape movement pattern and its applications across positions"
     },
     {
       "name": "Bridging Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Technical breakdown of explosive hip elevation movement and its various tactical applications"
     },
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary defensive concept that must be coordinated with hip movement to preserve created space"
     },
     {
       "name": "Space Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic objective achieved primarily through effective hip movement application in defensive scenarios"
     },
     {
       "name": "Escape Fundamentals",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader defensive framework within which hip movement serves as primary mechanical component"
     },
     {
       "name": "Hip Elevation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Specific hip movement pattern emphasizing vertical displacement for various technical purposes"
     },
     {
       "name": "Guard Retention Concepts",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Advanced defensive system built upon continuous hip movement and adjustment principles"
     },
     {

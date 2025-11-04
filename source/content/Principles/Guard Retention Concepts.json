@@ -1,8 +1,7 @@
 {
   "metadata": {
-    "title": "Guard Retention Concepts | BJJ Concept | BJJ Graph",
-    "description": "Understand Guard Retention Concepts in BJJ. Learn defensive frameworks, movement patterns, framing strategies for maintaining guard under pressure.",
-    "concept_id": "C054",
+    "name": "Guard Retention Concepts",
+    "description": "Understand Guard Retention Concepts in BJJ. Learn defensive frameworks, movement patterns, framing strategies for maintaining guard under pressure. Expert insights included.",
     "tags": [
       "bjj",
       "concept",
@@ -10,16 +9,18 @@
       "guard",
       "retention",
       "defense",
-      "bottom-game"
+      "bottom-game",
+      "defensive-strategy",
+      "guard-recovery"
     ],
     "application_level": "Intermediate",
     "complexity_level": "Medium",
     "development_timeline": "Beginner to Advanced"
   },
-  "overview": "Guard Retention Concepts represents the comprehensive defensive framework for maintaining guard position against opponent's passing attempts and preventing advancement to dominant positions. Unlike specific retention techniques, guard retention concepts encompass the biomechanical principles, movement patterns, framing strategies, and tactical decision-making that enable effective guard maintenance under pressure. This concept addresses the creation and maintenance of defensive structures, the hip mobility required for continuous re-positioning, the timing of recovery movements, and the strategic use of frames, hooks, and grips to prevent passing completion. Guard retention serves as both a defensive shield that prevents positional losses and an offensive foundation that maintains attacking opportunities, making it one of the most essential conceptual elements in BJJ for bottom players.",
+  "overview": "Guard Retention Concepts represents the comprehensive defensive framework for maintaining guard position against opponent's passing attempts and preventing advancement to dominant positions. Unlike specific retention techniques, guard retention concepts encompass the biomechanical principles, movement patterns, framing strategies, and tactical decision-making that enable effective guard maintenance under pressure. This concept addresses the creation and maintenance of defensive structures, the hip mobility required for continuous re-positioning, the timing of recovery movements, and the strategic use of frames, hooks, and grips to prevent passing completion. Guard retention serves as both a defensive shield that prevents positional losses and an offensive foundation that maintains attacking opportunities, making it one of the most essential conceptual elements in BJJ for bottom players. The systematic understanding of retention principles enables practitioners to maintain guard against superior opponents through intelligent defensive layering rather than relying solely on physical attributes.",
   "key_principles": [
     "Maintain distance through frames and hooks to prevent opponent from establishing passing control",
-    "Keep hips mobile and off the mat to enable continuous re-positioning",
+    "Keep hips mobile and off the mat to enable continuous re-positioning and guard recovery",
     "Create defensive layers with multiple frames and hooks rather than single-point defense",
     "Recover guard immediately when partial pass occurs rather than accepting position loss",
     "Use hip movement and angle creation to stay aligned with opponent throughout passing attempts",
@@ -31,236 +32,224 @@
   "component_skills": [
     {
       "skill_name": "Frame Construction and Maintenance",
-      "description": "The ability to create and maintain effective frames using hands, forearms, shins, and feet against opponent's pressure while preserving structural integrity under load"
+      "description": "The ability to create and maintain effective frames using hands, forearms, shins, and feet against opponent's pressure while preserving structural integrity under load. This includes understanding optimal frame angles, pressure distribution, and when to transition between different framing structures as opponent adjusts passing approach."
     },
     {
       "skill_name": "Hip Mobility and Escape Mechanics",
-      "description": "Dynamic hip movement enabling shrimping, bridging, and re-positioning to maintain alignment with opponent and recover guard structure when compromised"
+      "description": "Dynamic hip movement enabling shrimping, bridging, and re-positioning to maintain alignment with opponent and recover guard structure when compromised. Superior hip mobility allows recovery from positions that would result in passed guard for less mobile practitioners, making it perhaps the single most critical physical attribute for retention."
     },
     {
       "skill_name": "Hook Management",
-      "description": "Strategic placement and retention of butterfly hooks, de la riva hooks, and other guard-specific hooks that prevent opponent from establishing stable passing positions"
+      "description": "Strategic placement and retention of butterfly hooks, de la riva hooks, and other guard-specific hooks that prevent opponent from establishing stable passing positions. This includes understanding when to switch between hook types and how to maintain hooks under pressure while using them to facilitate recovery movements."
     },
     {
       "skill_name": "Grip Fighting and Control",
-      "description": "Proactive grip establishment that facilitates retention movements while systematically breaking or denying opponent's passing-favorable grips"
+      "description": "Proactive grip establishment that facilitates retention movements while systematically breaking or denying opponent's passing-favorable grips. Effective grip fighting creates the control conditions necessary for retention while preventing opponent from securing grips that enable passing execution."
     },
     {
       "skill_name": "Distance Management",
-      "description": "Recognition and maintenance of optimal distances that prevent opponent from consolidating passing positions while preserving offensive guard opportunities"
+      "description": "Recognition and maintenance of optimal distances that prevent opponent from consolidating passing positions while preserving offensive guard opportunities. This includes understanding when to create distance, when to close distance for offensive attacks, and how to use distance changes to disrupt opponent's passing rhythm."
     },
     {
       "skill_name": "Pattern Recognition and Anticipation",
-      "description": "Identifying opponent's passing intentions and entry patterns early enough to initiate appropriate defensive responses before passing momentum develops"
+      "description": "Identifying opponent's passing intentions and entry patterns early enough to initiate appropriate defensive responses before passing momentum develops. Advanced practitioners recognize passing setups from grip configurations and weight distribution, enabling preemptive retention responses that prevent passing attempts from gaining momentum."
     },
     {
       "skill_name": "Guard Recovery Sequences",
-      "description": "Systematic movement chains that restore full guard from partially passed positions, preventing opponent from securing dominant control"
+      "description": "Systematic movement chains that restore full guard from partially passed positions, preventing opponent from securing dominant control. These sequences combine hip escapes, frame reinsertion, and hook recovery in coordinated patterns that create guard restoration opportunities even from severely compromised positions."
     },
     {
       "skill_name": "Energy Conservation Under Pressure",
-      "description": "Efficient defensive movement that maintains retention effectiveness while minimizing energy expenditure during extended passing exchanges"
+      "description": "Efficient defensive movement that maintains retention effectiveness while minimizing energy expenditure during extended passing exchanges. This includes understanding when to use explosive movements versus when to rely on structural frames, and how to make opponent work harder than you during retention battles."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Frame Management",
+      "principle_name": "Frame Management",
       "relationship_type": "Prerequisite",
-      "description": "Effective frame creation and maintenance forms the foundational defensive layer for guard retention, preventing opponent from closing distance and establishing control"
+      "description": "Effective frame creation and maintenance forms the foundational defensive layer for guard retention, preventing opponent from closing distance and establishing control. Without solid framing mechanics, retention becomes purely reactive rather than proactively structured."
     },
     {
-      "concept_name": "Hip Movement",
+      "principle_name": "Hip Movement",
       "relationship_type": "Prerequisite",
-      "description": "Hip mobility enables the dynamic repositioning essential for maintaining guard alignment and recovering from compromised positions during retention sequences"
+      "description": "Hip mobility enables the dynamic repositioning essential for maintaining guard alignment and recovering from compromised positions during retention sequences. Superior hip movement is perhaps the single most important physical attribute for effective retention."
     },
     {
-      "concept_name": "Defensive Strategy",
+      "principle_name": "Defensive Strategy",
       "relationship_type": "Complementary",
-      "description": "Guard retention implements broader defensive strategic principles specifically within the context of bottom position maintenance"
+      "description": "Guard retention implements broader defensive strategic principles specifically within the context of bottom position maintenance. The overall defensive mindset and risk assessment inform retention decision-making throughout exchanges."
     },
     {
-      "concept_name": "Guard Passing Concepts",
+      "principle_name": "Guard Passing Principles",
       "relationship_type": "Alternative",
-      "description": "Understanding passing concepts enables recognition of opponent's intentions and development of specific retention responses to counter common passing patterns"
+      "description": "Understanding passing concepts enables recognition of opponent's intentions and development of specific retention responses to counter common passing patterns. Studying both sides of the guard retention versus passing dynamic creates more complete understanding."
     },
     {
-      "concept_name": "Grip Fighting",
+      "principle_name": "Grip Fighting",
       "relationship_type": "Complementary",
-      "description": "Effective grip fighting creates the control conditions necessary for successful retention while denying opponent the grips required for passing execution"
+      "description": "Effective grip fighting creates the control conditions necessary for successful retention while denying opponent the grips required for passing execution. Grip strategy directly enables or prevents retention movement execution."
     },
     {
-      "concept_name": "Space Management",
+      "principle_name": "Space Management",
       "relationship_type": "Extension",
-      "description": "Guard retention applies space management principles specifically to maintain distance and prevent opponent from eliminating defensive space"
+      "description": "Guard retention applies space management principles specifically to maintain distance and prevent opponent from eliminating defensive space. Creating and protecting space forms the foundation of retention effectiveness."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
-      "how_applied": "Retention manifests through maintaining closed structure, preventing opponent from opening guard through posture control and hip positioning"
+      "context": "Closed Guard",
+      "how_applied": "Retention manifests through maintaining closed structure and preventing opponent from opening guard through posture control, hip positioning, and grip management that restricts opponent's ability to create guard opening leverage."
     },
     {
-      "context": "Open Guard Bottom",
-      "how_applied": "Multiple frame and hook layers create defensive depth, with continuous hip movement maintaining alignment as opponent attempts various passing entries"
+      "context": "Open Guard",
+      "how_applied": "Multiple frame and hook layers create defensive depth, with continuous hip movement maintaining alignment as opponent attempts various passing entries. The open guard context requires most active retention due to absence of leg lock structure."
     },
     {
-      "context": "Half Guard Bottom",
-      "how_applied": "Underhook battles, knee shield maintenance, and lockdown control prevent opponent from flattening position and completing pass to side control"
+      "context": "Half Guard",
+      "how_applied": "Underhook battles, knee shield maintenance, and lockdown control prevent opponent from flattening position and completing pass to side control. Retention focuses on preventing opponent from clearing the trapped leg and establishing crossface control."
     },
     {
-      "context": "Butterfly Guard Bottom",
-      "how_applied": "Butterfly hooks and collar/sleeve grips create retention structure, with hip mobility enabling recovery when opponent attempts to pass around or over hooks"
+      "context": "Butterfly Guard",
+      "how_applied": "Butterfly hooks and collar/sleeve grips create retention structure, with hip mobility enabling recovery when opponent attempts to pass around or over hooks. Hook retention and reinsertion are primary retention mechanisms."
     },
     {
-      "context": "De La Riva Guard Bottom",
-      "how_applied": "De la riva hook combined with opposite sleeve grip creates retention system, with hip movement and angle changes preventing opponent from clearing hook"
+      "context": "De La Riva Guard",
+      "how_applied": "De la riva hook combined with opposite sleeve grip creates retention system, with hip movement and angle changes preventing opponent from clearing hook. The retention focuses on maintaining hook tension and preventing opponent from stepping over."
     },
     {
-      "context": "Reverse De La Riva Guard Bottom",
-      "how_applied": "Reverse de la riva hook and lapel/sleeve controls create retention framework, with inversion options available when primary retention structures fail"
+      "context": "Spider Guard",
+      "how_applied": "Bicep controls with feet in sleeves create distance management retention, with leg extensions and retractions controlling opponent's passing distance. Retention relies on maintaining sleeve grips and using leg pressure to manage distance."
     },
     {
-      "context": "Spider Guard Bottom",
-      "how_applied": "Bicep controls with feet in sleeves create distance management retention, with leg extensions and retractions controlling opponent's passing distance"
+      "context": "Lasso Guard",
+      "how_applied": "Lasso entanglement combined with opposite leg controls creates retention through structural restrictions on opponent's movement options. The lasso itself serves as powerful retention mechanism by limiting opponent's ability to establish passing grips and posture."
     },
     {
-      "context": "Lasso Guard Bottom",
-      "how_applied": "Lasso entanglement combined with opposite leg controls creates retention through structural restrictions on opponent's movement options"
+      "context": "X-Guard",
+      "how_applied": "X-hook configuration creates retention through elevation and destabilization, with top hook preventing opponent from establishing stable passing base. Retention focuses on maintaining elevation and preventing opponent from settling weight down."
     },
     {
-      "context": "X-Guard Bottom",
-      "how_applied": "X-hook configuration creates retention through elevation and destabilization, with top hook preventing opponent from establishing stable passing base"
+      "context": "Seated Guard",
+      "how_applied": "Collar and sleeve grips with feet on hips create distance retention, with technical standup options when opponent attempts to close distance. This guard type excels at maintaining distance but requires active grip fighting for retention."
     },
     {
-      "context": "Single Leg X Position Bottom",
-      "how_applied": "Single leg control with bottom hook creates retention structure, with upper body frames preventing opponent from stepping over and passing"
+      "context": "Z-Guard",
+      "how_applied": "Shin shield across opponent's torso creates retention structure, with hip mobility enabling recovery when opponent attempts to clear shield. Similar to knee shield but with different angle and leverage properties."
     },
     {
-      "context": "Seated Guard Bottom",
-      "how_applied": "Collar and sleeve grips with feet on hips create distance retention, with technical standup options when opponent attempts to close distance"
-    },
-    {
-      "context": "Knee Shield Half Guard Bottom",
-      "how_applied": "Knee shield frame creates primary retention barrier, with underhook and lockdown variations providing secondary retention layers when shield is compromised"
-    },
-    {
-      "context": "Z-Guard Bottom",
-      "how_applied": "Shin shield across opponent's torso creates retention structure, with hip mobility enabling recovery when opponent attempts to clear shield"
-    },
-    {
-      "context": "Guard Recovery Bottom",
-      "how_applied": "Systematic hip escape sequences restore guard from partially passed positions, with frames preventing opponent from consolidating control during recovery"
+      "context": "Inverted Guard",
+      "how_applied": "Inverted positioning creates retention through unconventional angles that many passers struggle to address, with inversion serving both as retention mechanism and transition to other guard types when opponent adjusts."
     }
   ],
   "decision_framework": [
     {
       "step_number": 1,
       "decision_point": "Recognize opponent's passing entry or intention",
-      "action": "Identify passing pattern (pressure pass, speed pass, leg weave, etc.) and assess which defensive structures are threatened"
+      "action": "Identify passing pattern (pressure pass, speed pass, leg weave, toreando, etc.) and assess which defensive structures are threatened. Early recognition enables preemptive retention responses."
     },
     {
       "step_number": 2,
       "decision_point": "Establish primary defensive frames and hooks",
-      "action": "Create appropriate frames (hands on biceps, collar, or hips) and hooks (butterfly, de la riva, knee shield) based on passing type and distance"
+      "action": "Create appropriate frames (hands on biceps, collar, or hips) and hooks (butterfly, de la riva, knee shield) based on passing type and distance. Primary defensive layer must be appropriate to specific passing threat."
     },
     {
       "step_number": 3,
       "decision_point": "Control critical grips while denying opponent's grips",
-      "action": "Secure grips that facilitate retention (sleeves, collar, pants) while breaking or preventing opponent's passing-favorable grips"
+      "action": "Secure grips that facilitate retention (sleeves, collar, pants) while breaking or preventing opponent's passing-favorable grips. Grip fighting must be coordinated with frame and hook establishment."
     },
     {
       "step_number": 4,
       "decision_point": "Maintain hip mobility and alignment",
-      "action": "Keep hips off mat through continuous movement, shrimping toward opponent to maintain front-facing alignment as they attempt to pass"
+      "action": "Keep hips off mat through continuous movement, shrimping toward opponent to maintain front-facing alignment as they attempt to pass. Hip elevation creates space for recovery movements."
     },
     {
       "step_number": 5,
       "decision_point": "Recognize when primary retention structure is compromised",
-      "action": "Identify breakthrough in primary defensive layer (frame collapsed, hook cleared, guard opened) and immediately transition to secondary retention"
+      "action": "Identify breakthrough in primary defensive layer (frame collapsed, hook cleared, guard opened) and immediately transition to secondary retention. Delayed response allows opponent to consolidate passing position."
     },
     {
       "step_number": 6,
       "decision_point": "Initiate guard recovery sequence if partially passed",
-      "action": "Execute appropriate recovery movement (hip escape to re-guard, butterfly hook reinsertion, knee shield recovery) before opponent consolidates position"
+      "action": "Execute appropriate recovery movement (hip escape to re-guard, butterfly hook reinsertion, knee shield recovery) before opponent consolidates position. Recovery must be immediate and explosive."
     },
     {
       "step_number": 7,
       "decision_point": "Assess energy expenditure and retention effectiveness",
-      "action": "Evaluate whether current retention approach is sustainable or if guard type change is necessary to conserve energy"
+      "action": "Evaluate whether current retention approach is sustainable or if guard type change is necessary to conserve energy. Recognize when opponent has developed effective counter to current guard."
     },
     {
       "step_number": 8,
       "decision_point": "Create offensive opportunities during retention",
-      "action": "Identify moments when opponent is committed to passing to launch sweeps or submissions that simultaneously serve retention function"
+      "action": "Identify moments when opponent is committed to passing to launch sweeps or submissions that simultaneously serve retention function. Offensive retention creates dilemmas that degrade passing effectiveness."
     }
   ],
   "common_errors": [
     {
       "error": "Accepting static guard position without continuous hip movement",
-      "consequence": "Opponent establishes stable passing control and systematically dismantles static defensive structures",
-      "correction": "Maintain constant hip mobility, shrimping and adjusting position continuously to prevent opponent from settling into passing rhythm"
+      "consequence": "Opponent establishes stable passing control and systematically dismantles static defensive structures. Static retention allows passer to settle into comfortable passing rhythm.",
+      "correction": "Maintain constant hip mobility, shrimping and adjusting position continuously to prevent opponent from settling into passing rhythm. Make opponent constantly adjust to moving target."
     },
     {
       "error": "Allowing hips to remain flat on mat during passing exchanges",
-      "consequence": "Eliminates hip mobility necessary for recovery movements, enabling opponent to easily consolidate passing positions",
-      "correction": "Keep hips elevated off mat using frames and hooks, creating space for hip escape movements when retention structures are threatened"
+      "consequence": "Eliminates hip mobility necessary for recovery movements, enabling opponent to easily consolidate passing positions. Flat hips are perhaps the single most common retention error.",
+      "correction": "Keep hips elevated off mat using frames and hooks, creating space for hip escape movements when retention structures are threatened. Hip elevation must be maintained throughout exchanges."
     },
     {
       "error": "Over-relying on single defensive layer without creating depth",
-      "consequence": "When single frame or hook is defeated, guard pass occurs immediately with no secondary retention mechanisms",
-      "correction": "Create multiple defensive layers so defeating one structure simply exposes another, requiring opponent to overcome cumulative retention"
+      "consequence": "When single frame or hook is defeated, guard pass occurs immediately with no secondary retention mechanisms. Single-layer defense makes retention extremely fragile.",
+      "correction": "Create multiple defensive layers so defeating one structure simply exposes another, requiring opponent to overcome cumulative retention. Defensive depth exponentially increases retention difficulty."
     },
     {
       "error": "Prioritizing submission attempts over retention when position is threatened",
-      "consequence": "Pursuing submissions from compromised positions results in guard pass and positional loss outweighing submission opportunities",
-      "correction": "Recognize when retention is primary objective and postpone offensive attacks until guard structure is re-established and secure"
+      "consequence": "Pursuing submissions from compromised positions results in guard pass and positional loss outweighing submission opportunities. Poor risk assessment leads to unnecessary position loss.",
+      "correction": "Recognize when retention is primary objective and postpone offensive attacks until guard structure is re-established and secure. Position preservation must take priority when guard is threatened."
     },
     {
       "error": "Fighting opponent's grips without establishing own retention-facilitating grips",
-      "consequence": "Pure grip breaking without grip establishment leaves both players without grips, generally favoring the passer",
-      "correction": "Coordinate grip fighting to simultaneously break opponent's grips while securing own grips that enable retention movements"
+      "consequence": "Pure grip breaking without grip establishment leaves both players without grips, generally favoring the passer. Defensive grip fighting must be coordinated with offensive grip establishment.",
+      "correction": "Coordinate grip fighting to simultaneously break opponent's grips while securing own grips that enable retention movements. Replace their grips with yours rather than creating neutral grip situation."
     },
     {
       "error": "Reacting to passing attempts after momentum is established",
-      "consequence": "Late defensive responses allow opponent to build unstoppable passing momentum, making retention exponentially more difficult",
-      "correction": "Develop pattern recognition to identify passing entries early and initiate retention responses during opponent's setup phase"
+      "consequence": "Late defensive responses allow opponent to build unstoppable passing momentum, making retention exponentially more difficult. Reactive retention is far less effective than proactive retention.",
+      "correction": "Develop pattern recognition to identify passing entries early and initiate retention responses during opponent's setup phase. Preemptive retention prevents momentum from developing."
     },
     {
       "error": "Maintaining guard type when opponent has developed specific counter",
-      "consequence": "Stubbornly retaining same guard against opponent who has solved it results in repeated successful passes",
-      "correction": "Recognize when opponent has effective counter to current guard and transition to different guard type that exploits gaps in their passing"
+      "consequence": "Stubbornly retaining same guard against opponent who has solved it results in repeated successful passes. Inflexibility in guard selection allows opponent to optimize passing approach.",
+      "correction": "Recognize when opponent has effective counter to current guard and transition to different guard type that exploits gaps in their passing. Guard type flexibility is essential for high-level retention."
     }
   ],
   "training_approaches": [
     {
       "approach_name": "Progressive Resistance Retention Drilling",
-      "description": "Partner provides incremental passing pressure starting at 30% and progressing to 90%, allowing practitioner to develop retention mechanics under increasing resistance",
-      "focus": "Building retention movement patterns and defensive structures with proper mechanics before adding realistic pressure"
+      "description": "Partner provides incremental passing pressure starting at 30% and progressing to 90%, allowing practitioner to develop retention mechanics under increasing resistance without being immediately overwhelmed.",
+      "focus": "Building retention movement patterns and defensive structures with proper mechanics before adding realistic pressure. Allows technical refinement without excessive resistance."
     },
     {
       "approach_name": "Positional Sparring from Compromised Guards",
-      "description": "Begin rounds with opponent already bypassing primary retention structures, forcing practitioner to execute recovery sequences from disadvantaged positions",
-      "focus": "Developing guard recovery skills and secondary retention layers that activate when primary defenses fail"
+      "description": "Begin rounds with opponent already bypassing primary retention structures, forcing practitioner to execute recovery sequences from disadvantaged positions that most closely simulate actual retention failures.",
+      "focus": "Developing guard recovery skills and secondary retention layers that activate when primary defenses fail. Builds comfort with worst-case retention scenarios."
     },
     {
       "approach_name": "Retention-Only Rolling",
-      "description": "Bottom player focuses exclusively on guard retention without attempting submissions or sweeps, while top player uses full passing arsenal",
-      "focus": "Isolating retention as skill separate from offensive guard play, developing pure defensive effectiveness"
+      "description": "Bottom player focuses exclusively on guard retention without attempting submissions or sweeps, while top player uses full passing arsenal. Creates isolated skill development environment.",
+      "focus": "Isolating retention as skill separate from offensive guard play, developing pure defensive effectiveness. Allows complete attention to retention mechanics without offensive distraction."
     },
     {
       "approach_name": "Passing Pattern Recognition Training",
-      "description": "Exposure to multiple training partners using different passing styles, developing ability to identify passing types and select appropriate retention responses",
-      "focus": "Building pattern recognition and tactical decision-making for retention strategy selection"
+      "description": "Exposure to multiple training partners using different passing styles (pressure, speed, leg weave, etc.), developing ability to identify passing types and select appropriate retention responses.",
+      "focus": "Building pattern recognition and tactical decision-making for retention strategy selection. Develops adaptability to various passing approaches."
     },
     {
       "approach_name": "Timed Retention Challenges",
-      "description": "Maintain guard for specific time duration against partner attempting to pass, with gradual increases in time and partner skill level",
-      "focus": "Developing retention endurance and energy management while maintaining defensive effectiveness under extended pressure"
+      "description": "Maintain guard for specific time duration against partner attempting to pass, with gradual increases in time and partner skill level creating measurable progression benchmarks.",
+      "focus": "Developing retention endurance and energy management while maintaining defensive effectiveness under extended pressure. Builds mental toughness and physical conditioning."
     },
     {
       "approach_name": "Chain Retention Drilling",
-      "description": "Partner attacks specific guards in predetermined sequence, forcing practitioner to transition between retention strategies continuously",
-      "focus": "Building fluid transitions between different retention systems and developing adaptability when primary guard is compromised"
+      "description": "Partner attacks specific guards in predetermined sequence, forcing practitioner to transition between retention strategies continuously without reset between guard types.",
+      "focus": "Building fluid transitions between different retention systems and developing adaptability when primary guard is compromised. Creates realistic multi-phase retention scenarios."
     }
   ],
   "developmental_metrics": [
@@ -312,51 +301,51 @@
   "related_content": [
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Core retention mechanism - frames create primary defensive barrier preventing passing distance closure"
     },
     {
       "name": "Hip Movement",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential retention component - hip mobility enables continuous repositioning and guard recovery"
     },
     {
       "name": "Defensive Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader framework - guard retention implements defensive principles in bottom position context"
     },
     {
       "name": "Space Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Underlying principle - retention maintains defensive space preventing opponent consolidation"
     },
     {
       "name": "Grip Fighting",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary skill - effective grip fighting enables retention movement execution"
     },
     {
-      "name": "Guard Passing Concepts",
-      "content_type": "Concept",
+      "name": "Guard Passing Principles",
+      "content_type": "Principle",
       "relationship": "Opposing perspective - understanding passing enables development of specific retention counters"
     },
     {
       "name": "Butterfly Hook Retention",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Specific application - retention principles applied to butterfly guard context"
     },
     {
       "name": "Knee Shield Retention",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Specific application - retention principles applied to half guard knee shield"
     },
     {
-      "name": "Guard Recovery Bottom",
-      "content_type": "Position",
+      "name": "Guard Recovery",
+      "content_type": "Principle",
       "relationship": "Critical retention phase - systematic recovery from partially passed positions"
     },
     {
-      "name": "Hip Escape",
+      "name": "Shrimp Escape",
       "content_type": "Transition",
       "relationship": "Primary retention movement - hip escape mechanics fundamental to retention execution"
     },
@@ -366,14 +355,14 @@
       "relationship": "Retention outcome - successful guard recovery from compromised positions"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Retention context - maintaining closed structure against guard opening attempts"
     }
   ],
   "expert_insights": {
-    "danaher": "Guard retention must be understood as a systematic defensive hierarchy where distance management forms the foundational layer, with frames, hooks, and grips creating successive defensive barriers that must be overcome sequentially for passing to succeed. I emphasize what I term 'defensive depth' where multiple retention mechanisms ensure that defeating one defensive layer simply exposes another, creating cumulative difficulty for the passer that increases exponentially with each layer they must breach. The concept should be systematized based on distance categories, with distinct defensive priorities and movement patterns for each range - long range retention focuses on preventing opponent from entering passing distance, mid-range retention emphasizes frames and hooks that prevent consolidation, and close-range retention prioritizes recovery movements that restore guard before passing is completed. This is scientific application of biomechanical principles rather than reactive scrambling, where each defensive response is predetermined based on opponent's passing type and current distance.",
-    "gordon_ryan": "Guard retention needs to be viewed as an active rather than passive defensive skill, with constant movement and pressure creation that forces the passer to repeatedly adjust and re-establish control rather than settling into systematic passing sequences. What I call 'offensive retention' means simultaneously retaining guard and threatening attacks, creating dilemmas where the passer must choose between completing the pass and defending submissions or sweeps - this divided attention significantly degrades passing effectiveness. Hip mobility is absolutely the most critical retention attribute because superior hip movement enables recovery from compromised positions that would result in passed guard for less mobile practitioners. In competition, I've found that making opponents work extremely hard for passing attempts, even when unsuccessful, creates cumulative fatigue that degrades their passing in later rounds. The mental aspect is equally important - demonstrating that passing your guard requires monumental effort discourages aggressive passing and creates hesitation that you can exploit offensively.",
-    "eddie_bravo": "My approach to guard retention has evolved specifically to support rubber guard and dynamic guard systems, emphasizing flexibility and unconventional positioning that creates retention through non-traditional defensive structures that most passers haven't developed specific counters for. What I teach as 'flow retention' means continuous movement and position changes prevent the passer from establishing stable control even when conventional defensive structures like frames or hooks are compromised - you're constantly flowing between positions faster than they can adjust. I want students to understand retention as a creative rather than purely mechanical endeavor, developing unique retention pathways that exploit gaps in opponent's passing patterns while simultaneously creating opportunities for offensive attacks. The 10th Planet system includes specific retention chains for our guards like lockdown retention that transitions to electric chair when opponent attempts to clear, or rubber guard retention that uses mission control to prevent opponent from establishing passing posture. Innovation in retention is crucial because as passing evolves, retention must evolve to counter new passing developments."
+    "danaher": "Guard retention must be understood as a systematic defensive hierarchy where distance management forms the foundational layer, with frames, hooks, and grips creating successive defensive barriers that must be overcome sequentially for passing to succeed. I emphasize what I term 'defensive depth' where multiple retention mechanisms ensure that defeating one defensive layer simply exposes another, creating cumulative difficulty for the passer that increases exponentially with each layer they must breach. The concept should be systematized based on distance categories, with distinct defensive priorities and movement patterns for each range - long range retention focuses on preventing opponent from entering passing distance, mid-range retention emphasizes frames and hooks that prevent consolidation, and close-range retention prioritizes recovery movements that restore guard before passing is completed. This is scientific application of biomechanical principles rather than reactive scrambling, where each defensive response is predetermined based on opponent's passing type and current distance. The most critical insight is that retention effectiveness is primarily determined by hip mobility rather than upper body strength - practitioners with superior hip movement can recover from positions that would result in passed guard for less mobile grapplers, making hip escape mechanics the single most important technical element to develop.",
+    "gordon_ryan": "Guard retention needs to be viewed as an active rather than passive defensive skill, with constant movement and pressure creation that forces the passer to repeatedly adjust and re-establish control rather than settling into systematic passing sequences. What I call 'offensive retention' means simultaneously retaining guard and threatening attacks, creating dilemmas where the passer must choose between completing the pass and defending submissions or sweeps - this divided attention significantly degrades passing effectiveness. Hip mobility is absolutely the most critical retention attribute because superior hip movement enables recovery from compromised positions that would result in passed guard for less mobile practitioners. In competition, I've found that making opponents work extremely hard for passing attempts, even when unsuccessful, creates cumulative fatigue that degrades their passing in later rounds. The mental aspect is equally important - demonstrating that passing your guard requires monumental effort discourages aggressive passing and creates hesitation that you can exploit offensively. My retention philosophy centers on making the passer solve multiple sequential problems rather than defending single-mindedly, where each defensive layer they overcome simply reveals another obstacle. The key is maintaining constant hip movement so you're always a moving target rather than static defensive structure.",
+    "eddie_bravo": "My approach to guard retention has evolved specifically to support rubber guard and dynamic guard systems, emphasizing flexibility and unconventional positioning that creates retention through non-traditional defensive structures that most passers haven't developed specific counters for. What I teach as 'flow retention' means continuous movement and position changes prevent the passer from establishing stable control even when conventional defensive structures like frames or hooks are compromised - you're constantly flowing between positions faster than they can adjust. I want students to understand retention as a creative rather than purely mechanical endeavor, developing unique retention pathways that exploit gaps in opponent's passing patterns while simultaneously creating opportunities for offensive attacks. The 10th Planet system includes specific retention chains for our guards like lockdown retention that transitions to electric chair when opponent attempts to clear, or rubber guard retention that uses mission control to prevent opponent from establishing passing posture. Innovation in retention is crucial because as passing evolves, retention must evolve to counter new passing developments. Flexibility training is absolutely essential for advanced retention because many of my most effective retention positions require ranges of motion that typical practitioners don't possess - investing in flexibility development opens retention options that simply aren't available to less flexible grapplers."
   }
 }

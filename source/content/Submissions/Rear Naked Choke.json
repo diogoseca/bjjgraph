@@ -1,1 +1,381 @@
-Session limit reached ∙ resets 11am
+{
+  "name": "Rear Naked Choke",
+  "description": "Master the Rear Naked Choke in BJJ. Complete safety guide with proper execution, defense patterns, and training progressions. Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "tags": [
+    "bjj",
+    "submission",
+    "choke",
+    "blood-choke",
+    "back-control",
+    "strangle",
+    "no-gi",
+    "gi",
+    "fundamental"
+  ],
+  "submission_category": "Choke",
+  "submission_type": "Blood Choke",
+  "target_area": "Carotid arteries and jugular veins",
+  "starting_position": "Back Control",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 55,
+    "advanced": 75
+  },
+  "overview": "The Rear Naked Choke (RNC) is widely considered the highest-percentage submission in Brazilian Jiu-Jitsu and mixed martial arts. This blood choke targets the carotid arteries on both sides of the neck, cutting off blood flow to the brain and causing unconsciousness in 6-10 seconds if not released. Unlike air chokes that can take 30+ seconds and cause panic, the RNC is efficient and relatively safe when applied correctly with proper training protocols. The position's effectiveness stems from the back control position itself - the opponent cannot see you, cannot effectively defend with their arms, and must deal with your body weight and control while their breathing and circulation are compromised. The RNC is the most common submission finish in high-level competition, with statistics showing it accounts for approximately 25-30% of all submission victories in professional MMA and 15-20% in gi BJJ competition. The technique's universality across gi and no-gi contexts, combined with its mechanical simplicity and high success rate even against larger opponents, makes it an essential technique for all practitioners regardless of style or body type.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Loss of consciousness from blood choke",
+        "severity": "High",
+        "recovery_time": "Immediate to 30 seconds with proper release"
+      },
+      {
+        "injury": "Trachea damage from improper forearm placement",
+        "severity": "CRITICAL",
+        "recovery_time": "2-6 weeks, potential permanent damage"
+      },
+      {
+        "injury": "Neck strain or muscle damage",
+        "severity": "Medium",
+        "recovery_time": "3-7 days"
+      },
+      {
+        "injury": "Carotid artery injury from excessive force",
+        "severity": "CRITICAL",
+        "recovery_time": "Immediate medical attention required"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 3-5 seconds minimum in training. Never snap or jerk the choke. Partner should have full awareness of pressure building.",
+    "tap_signals": [
+      "Verbal tap (say 'tap' or make any verbal sound)",
+      "Physical hand tap on opponent's body or mat",
+      "Physical foot tap on mat",
+      "Going limp or loss of consciousness",
+      "Any distress signal or unusual sound"
+    ],
+    "release_protocol": [
+      "Immediately release choking arm upon tap signal",
+      "Remove hooks and body triangle if present",
+      "Gently guide partner to side-lying recovery position",
+      "Monitor consciousness and breathing for 30 seconds",
+      "If partner was unconscious, keep them lying down until fully alert",
+      "Never allow unconscious partner to stand immediately"
+    ],
+    "training_restrictions": [
+      "Never use competition speed or intensity in drilling",
+      "Never apply the choke to the trachea or windpipe",
+      "Always ensure partner has clear tap access with both hands",
+      "Stop immediately if partner makes any distress sound",
+      "Never hold a choke past the tap for any reason",
+      "Beginners must practice with extremely slow progression only"
+    ]
+  },
+  "key_principles": [
+    "Forearm blade across carotid arteries, not windpipe",
+    "Elbow position in front of chin prevents escape",
+    "Back hand on bicep creates structural compression frame",
+    "Head control by placing your head beside opponent's head",
+    "Hip and hook control prevents opponent from escaping position",
+    "Expansion of chest while constricting arms creates maximum pressure",
+    "Progressive tightening allows partner to tap before unconsciousness"
+  ],
+  "setup_requirements": [
+    "Secure back control with both hooks in or body triangle established",
+    "Seat belt grip or harness control to prevent opponent turning into you",
+    "Opponent's posture broken with your chest tight to their back",
+    "One arm free to begin inserting under the chin",
+    "Head control to prevent opponent looking away from choking arm",
+    "Base and stability maintained with hooks or body triangle"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Establish back control foundation",
+      "description": "From back control position, ensure you have both hooks in or a body triangle secured. Your chest should be tight to opponent's back. Establish seat belt control with one arm over the shoulder and one arm under the armpit. Your head should be beside their head, not directly behind where they can push it away.",
+      "timing": "Hold position until opponent settles",
+      "pressure_level": "Moderate"
+    },
+    {
+      "step_number": 2,
+      "action": "Hand fight and create entry angle",
+      "description": "Use your top hand (over the shoulder) to control opponent's hand or collar, preventing them from defending their neck. Slightly angle your body to the choking arm side. If opponent's chin is down, use your chest pressure and head position to create space. Post your choking arm's hand on their shoulder or chest initially to prevent them from tracking the danger.",
+      "timing": "1-2 seconds of setup",
+      "pressure_level": "Light"
+    },
+    {
+      "step_number": 3,
+      "action": "Insert choking arm under chin",
+      "description": "Slide your choking arm under the chin, driving deep until your elbow is past the centerline of their chin. The blade of your forearm (thumb-side) should be across one carotid artery. Keep your hand open or in a loose fist initially. The deeper your elbow position in front of their chin, the more difficult the escape. Your forearm should not be on the trachea or windpipe - it must be on the sides of the neck.",
+      "timing": "Insert quickly but smoothly, 1-2 seconds",
+      "pressure_level": "Light"
+    },
+    {
+      "step_number": 4,
+      "action": "Secure back hand position on bicep",
+      "description": "Bring your non-choking arm behind opponent's head. Grab your choking arm's bicep with your back hand, creating a frame. Your opponent's head should be trapped between your choking forearm and your back arm. The back arm pulls their head forward slightly into the choke structure. Alternative: palm on back of head for 'short choke' variation.",
+      "timing": "Establish grip before applying pressure",
+      "pressure_level": "Moderate"
+    },
+    {
+      "step_number": 5,
+      "action": "Position choking hand on back of head",
+      "description": "With your back hand secured on your bicep, bring your choking hand to the back of opponent's head. Your choking forearm and back arm now form a frame on both sides of the neck, with opponent's head trapped in the middle. Your choking elbow should point forward, not to the side. Ensure your forearm blade is positioned on both carotid arteries, not the windpipe.",
+      "timing": "Complete structure before applying finishing pressure",
+      "pressure_level": "Moderate"
+    },
+    {
+      "step_number": 6,
+      "action": "Apply progressive finishing pressure",
+      "description": "Expand your chest while simultaneously bringing your elbows together. Pull your choking arm back toward you while your back arm applies pressure forward on their head. The motion is like trying to touch your elbows behind their head. Maintain tight hooks or body triangle to prevent escape. Apply pressure progressively over 3-5 seconds in training, allowing partner to tap. In training, stop at 50-70% pressure maximum.",
+      "timing": "3-5 seconds progressive pressure in training",
+      "pressure_level": "Firm"
+    }
+  ],
+  "opponent_defense_patterns": [
+    {
+      "defense": "Tucking chin and defending neck with hands",
+      "effectiveness": "High",
+      "your_adjustment": "Don't force through chin. Instead, use your choking arm's hand to pull their defensive hand away, create a collar grip to pull them into you, or wait for them to tire from defending and attack when they adjust position. Alternatively, switch to short choke with hand behind head."
+    },
+    {
+      "defense": "Turning into you to escape back control",
+      "effectiveness": "Medium",
+      "your_adjustment": "Maintain seat belt control tightly. As they turn, follow their movement and maintain back pressure. If they succeed in turning, immediately transition to armbar from guard or triangle setup. Use your hooks to prevent the turn by pulling them back into you."
+    },
+    {
+      "defense": "Grabbing your choking arm with both hands and pulling down",
+      "effectiveness": "Medium",
+      "your_adjustment": "This defense exposes their neck more. As they pull your arm down and away, use this opportunity to get your elbow even deeper past their chin. Once your back hand secures the bicep grip, their pulling creates the choke structure for you. Simply finish by expanding chest."
+    },
+    {
+      "defense": "Bridging and rolling to escape back control entirely",
+      "effectiveness": "Low",
+      "your_adjustment": "Anticipate the bridge by staying heavy on your hooks and keeping chest tight to their back. If they attempt to roll, roll with them while maintaining all controls. The roll often makes the choke tighter. Your hooks and body triangle should prevent effective bridging entirely."
+    },
+    {
+      "defense": "Attacking your hands and fingers to break grips",
+      "effectiveness": "Low",
+      "your_adjustment": "Keep your choking arm deep and structural, not relying on grip strength. If they grab your fingers, simply transition your back hand from bicep grip to palm on back of head for short choke variation. The structural frame of your arms matters more than any specific grip."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Placing forearm across the windpipe/trachea instead of carotid arteries",
+      "consequence": "Creates painful air choke instead of efficient blood choke. Partner struggles violently, takes much longer to tap, and creates risk of trachea injury. This is the most dangerous error.",
+      "correction": "Position the blade of your forearm (thumb-side) on the sides of the neck where you can feel the pulse. Your forearm should be angled at 45 degrees, not straight across. Elbow should be in front of chin, not under it. Practice slow application to ensure you feel the correct artery position.",
+      "danger_level": "CRITICAL"
+    },
+    {
+      "error": "Inserting choking arm too shallow with elbow not past chin centerline",
+      "consequence": "Opponent easily defends by tucking chin. You expend energy fighting against their neck muscles instead of structure. Choke is weak and easy to escape.",
+      "correction": "Drive your choking arm deep until your elbow is clearly past the center point of their chin. Your opponent should not be able to look toward your choking arm side. Think of your arm as sliding under their chin like a seatbelt, not just resting on top of their neck."
+    },
+    {
+      "error": "Choking arm elbow flaring out to the side instead of pointing forward",
+      "consequence": "Creates weak structure with gaps. Opponent can create space by pulling your arm, or they can turn into you. The choke loses effectiveness and becomes easy to defend.",
+      "correction": "Keep your choking elbow pointing forward toward where their chest is. Your entire forearm should be in contact with the side of their neck. Imagine trying to touch your elbows together behind their head when finishing."
+    },
+    {
+      "error": "Not controlling opponent's hands before attempting insertion",
+      "consequence": "Opponent easily defends their neck with their hands. You telegraph the attempt and waste the back control opportunity. Opponent prepares defenses and becomes very difficult to submit.",
+      "correction": "Before attempting to insert your choking arm, control at least one of their hands with your seat belt grip. Pull their arm away from their neck using your top arm. Attack the neck only when their defensive hands are out of position or occupied."
+    },
+    {
+      "error": "Losing hook control or body triangle while focusing on the choke",
+      "consequence": "Opponent escapes back control by turning into you, or they improve position to side control or guard. You lose the dominant position even if the choke was close to finishing.",
+      "correction": "Maintain constant pressure with your hooks or body triangle throughout the entire choke sequence. Your lower body control is equally important as your upper body attack. If hooks start to slip, reset the position before attempting the finish.",
+      "danger_level": "Medium"
+    },
+    {
+      "error": "Jerking or spiking the choke with sudden force",
+      "consequence": "Causes neck injury, can damage carotid arteries, and violates training safety. Partner cannot safely tap before injury occurs. This can cause serious long-term damage and is unacceptable in training.",
+      "correction": "Apply all pressure progressively over minimum 3-5 seconds in training. Your partner should feel the pressure building and have ample time to recognize they need to tap. Smooth, gradual pressure is more effective and infinitely safer.",
+      "danger_level": "CRITICAL"
+    },
+    {
+      "error": "Not expanding chest while constricting arms",
+      "consequence": "Choke lacks finishing power. You rely only on arm strength which fatigues quickly and gives opponent time to escape. The mechanical advantage of the position is wasted.",
+      "correction": "As you bring your elbows together and squeeze, simultaneously expand your chest by taking a deep breath and arching your back slightly. This body movement creates far more pressure than arm strength alone. Think of spreading your shoulder blades apart while your arms squeeze."
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Short Choke (Palm on Head)",
+      "description": "Instead of grabbing your bicep with the back hand, place your palm directly on the back of opponent's head. Your choking arm's hand grabs your own wrist behind their head. This variation is faster to apply and useful when opponent is defending their neck heavily with their hands.",
+      "when_to_use": "Use when opponent has strong hand fighting and is preventing you from securing the bicep grip. Also effective in scrambles where you need to finish quickly before they escape back control."
+    },
+    {
+      "variation_name": "Body Triangle Rear Naked Choke",
+      "description": "Apply the same choke mechanics but with a body triangle instead of hooks for lower body control. Lock your foot behind your opposite knee across their stomach. The body triangle prevents hip escape and makes it impossible for opponent to turn into you while you work for the neck.",
+      "when_to_use": "Use when opponent is aggressively defending hooks by clearing them, or when you have a size/flexibility advantage. Particularly effective when opponent is attempting to stand up or roll to escape."
+    },
+    {
+      "variation_name": "Rear Naked Choke from Standing Back Control",
+      "description": "Apply the same upper body mechanics while standing with your hooks in on a standing opponent, or with feet on the ground. This is common in MMA and self-defense contexts. The standing variation requires you to pull opponent's weight backward onto you.",
+      "when_to_use": "Use when you take the back from a standing position, in MMA when opponent stands up with you on their back, or in self-defense scenarios. Jump to hooks or drag opponent to ground for better control."
+    },
+    {
+      "variation_name": "High Elbow Rear Naked Choke",
+      "description": "Position your choking arm's elbow higher up, almost level with their ear. This creates a different angle of pressure on the carotid arteries and can be more effective against certain opponent neck types. The finish involves pulling your elbow upward and back rather than straight back.",
+      "when_to_use": "Use when opponent has a very thick or muscular neck where standard positioning isn't creating enough pressure. Also useful when you're shorter than your opponent and cannot easily position the standard way."
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is the primary target of a properly applied Rear Naked Choke, and why is this important for safety?",
+      "answer": "The primary target is the carotid arteries on both sides of the neck, NOT the windpipe or trachea. This is critically important for safety because a blood choke causes unconsciousness in 6-10 seconds through reduced blood flow to the brain, while an air choke can take 30+ seconds, causes panic and violent resistance, and creates serious risk of trachea injury. The forearm blade must be positioned on the sides of the neck where you can feel the pulse, creating compression of the arteries. Proper positioning makes the technique both more effective and significantly safer.",
+      "safety_critical": true
+    },
+    {
+      "question": "Describe the proper elbow position for the choking arm and why this positioning matters for effectiveness and defense prevention?",
+      "answer": "The choking arm's elbow must be positioned in front of the centerline of the opponent's chin, pointing forward toward their chest rather than flaring out to the side. This deep elbow position is critical because it prevents the opponent from tucking their chin effectively to defend, creates a structural frame that cannot be pulled apart easily, and ensures the forearm is properly positioned across both carotid arteries. If the elbow is too shallow or pointing to the side, the opponent can create defensive space, the choke loses structural integrity, and they can potentially turn into you to escape. The deeper the elbow past the chin, the higher the success rate.",
+      "safety_critical": false
+    },
+    {
+      "question": "What are the five valid tap signals for a Rear Naked Choke, and what should you do if your partner goes limp during application?",
+      "answer": "The five valid tap signals are: 1) verbal tap or any verbal sound, 2) physical hand tap on your body or the mat, 3) physical foot tap on the mat, 4) going limp or losing consciousness, and 5) any distress signal or unusual sound. If your partner goes limp, you must immediately release all pressure, remove hooks/body triangle, gently guide them to a side-lying recovery position, and monitor their consciousness and breathing for at least 30 seconds. Never allow someone who lost consciousness to stand up immediately, as they may experience dizziness or disorientation. This is a critical safety protocol that must never be violated in training.",
+      "safety_critical": true
+    },
+    {
+      "question": "Why is maintaining hook or body triangle control essential while attacking the Rear Naked Choke, and what happens if you lose this control?",
+      "answer": "Maintaining hook or body triangle control is essential because it prevents the opponent from turning into you, escaping the back control position, or improving their position while you work for the choke. Your lower body control anchors you to their back and removes their ability to generate escape momentum. If you lose hook/body triangle control while focused on the upper body choke, the opponent can turn to face you (escaping to guard or scramble), they can roll to improve position, or they can create enough space to defend their neck more effectively. Back control is the foundation - without it, the choke becomes low percentage. Many practitioners make the error of becoming so focused on finishing the choke that they neglect their base, losing the dominant position entirely.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the mechanical difference between squeezing with arm strength alone versus properly expanding your chest while constricting your arms?",
+      "answer": "Squeezing with arm strength alone creates limited pressure, fatigues your muscles quickly, and gives the opponent time to defend or escape as your strength diminishes. The proper finish involves expanding your chest by taking a deep breath and arching your back slightly while simultaneously bringing your elbows together and squeezing your arms. This body expansion creates significantly more pressure than arm strength alone by using your entire upper body structure and back muscles, not just biceps and forearms. The chest expansion against the constricting arms creates a vise effect that is both more powerful and more sustainable. Think of it as spreading your shoulder blades apart while your arms squeeze inward - this is the mechanical advantage that makes the Rear Naked Choke so effective even against larger, stronger opponents.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the minimum safe application time for a Rear Naked Choke in training, and why is jerking or spiking the choke considered critically dangerous?",
+      "answer": "The minimum safe application time in training is 3-5 seconds of progressive pressure, building gradually from light to firm. Jerking or spiking the choke with sudden force is critically dangerous because it can cause neck injury, damage to the carotid arteries, and prevents the partner from safely recognizing the danger and tapping before injury occurs. Progressive application allows your training partner to feel the pressure building, understand they are caught, and tap with plenty of time to prevent any injury. Sudden force violates fundamental training safety, can cause serious long-term damage including potential stroke from carotid injury, and is never acceptable in any training context. In training, you should stop at approximately 50-70% maximum pressure once you feel the choke is locked, allowing your partner to tap from position recognition rather than discomfort or danger.",
+      "safety_critical": true
+    }
+  ],
+  "training_progressions_and_safety_protocols": [
+    {
+      "phase": "Technical Understanding (Weeks 1-2)",
+      "timeframe": "First 2 weeks",
+      "focus": "Learn proper anatomy, forearm positioning on carotid arteries vs windpipe, and all safety protocols. Practice grip sequences without any pressure application. Study tap protocols extensively.",
+      "resistance_level": "Zero resistance",
+      "safety_emphasis": "Partner remains completely relaxed. Practitioner focuses entirely on positioning blade of forearm on sides of neck, never on windpipe. Identify carotid artery position by feeling for pulse before every repetition. Review all five tap signals before each training session."
+    },
+    {
+      "phase": "Slow Positional Practice (Weeks 3-4)",
+      "timeframe": "Weeks 3-4",
+      "focus": "Practice inserting choking arm under chin with back control established. Work on elbow depth past chin centerline. Begin coordinating back hand grip on bicep or palm on head. No finishing pressure applied.",
+      "resistance_level": "Zero resistance",
+      "safety_emphasis": "Partner keeps chin slightly elevated to allow easy insertion. Stop position at full structure but zero pressure. Check forearm placement every repetition - must be on carotid arteries. Practice tap recognition drills where partner gives random tap signals."
+    },
+    {
+      "phase": "Light Pressure Application (Weeks 5-8)",
+      "timeframe": "Weeks 5-8",
+      "focus": "Begin applying very light finishing pressure (20-30% maximum) for short durations (2-3 seconds). Focus on chest expansion mechanics combined with arm constriction. Partner taps from position recognition, not discomfort.",
+      "resistance_level": "Mild resistance",
+      "safety_emphasis": "Apply pressure progressively over minimum 5 seconds. Stop immediately at any tap signal. Partner should never feel lightheaded or uncomfortable. Focus on smooth, gradual pressure increase. Practice release protocol after every successful position - remove pressure, guide to side position, monitor for 10 seconds."
+    },
+    {
+      "phase": "Realistic Drilling (Weeks 9-12)",
+      "timeframe": "Weeks 9-12",
+      "focus": "Partner begins defending neck with hands, tucking chin, and attempting basic escapes. Practice hand fighting to create entry opportunities. Work the complete sequence from establishing back control through finishing position (still only 50% pressure maximum).",
+      "resistance_level": "Realistic resistance",
+      "safety_emphasis": "Never exceed 50-60% pressure in training even with resistance. Give partner 3-5 seconds to tap after full structure is established. If partner defends successfully, reset rather than forcing. Practice 'catching and releasing' - get to full position, partner taps, immediate release. This builds muscle memory for competition release protocols."
+    },
+    {
+      "phase": "Live Situational Sparring (Week 13+)",
+      "timeframe": "Week 13 onwards",
+      "focus": "Start from various back control situations in live rolling. Work the complete chain: establish back control, hand fight, create entry, secure position, finish. Partner uses all learned defenses at realistic speed.",
+      "resistance_level": "Full resistance",
+      "safety_emphasis": "Even in live rolling, never exceed 70% maximum pressure. Your training partner's safety is more important than the tap. Apply pressure over 3-5 seconds minimum. Release instantly on any tap. Monitor your partner's face - if they show distress beyond normal discomfort, release immediately. Practice good training culture - occasional 'catch and release' without making partner uncomfortable proves your skill without injury risk."
+    },
+    {
+      "phase": "Ongoing Safety Maintenance",
+      "timeframe": "Continuous",
+      "focus": "Regular review of safety protocols, especially with new partners. Discuss and agree on pressure limits before training. Practice emergency release protocols quarterly. Study competition footage to see proper application vs improper.",
+      "resistance_level": "Full resistance",
+      "safety_emphasis": "Never become complacent about safety regardless of experience level. The Rear Naked Choke is the most dangerous common submission when applied improperly. Before training with any new partner, explicitly discuss tap protocols and maximum pressure limits. If you ever feel your partner's body go slack or limp, release immediately and check their consciousness. Veteran practitioners have responsibility to model proper safety culture for newer students."
+    }
+  ],
+  "from_positions": [
+    "Back Control",
+    "Turtle",
+    "Crucifix",
+    "Mount",
+    "Closed Guard",
+    "Half Guard",
+    "Gift Wrap",
+    "Standing Rear Clinch"
+  ],
+  "related_submissions": [
+    "Triangle Choke Back",
+    "Armbar from Back",
+    "Armbar from Back with Legs",
+    "Bow and Arrow Choke",
+    "Bow and Arrow Choke Variations",
+    "Clock Choke",
+    "Short Choke",
+    "Arm Triangle",
+    "Guillotine Choke",
+    "Choke from Crucifix",
+    "Ezekiel Choke",
+    "North-South Choke",
+    "Baseball Bat Choke",
+    "Paper Cutter Choke",
+    "Cross Collar Choke"
+  ],
+  "related_content": [
+    {
+      "name": "Back Control",
+      "relationship": "Primary attacking position for this submission"
+    },
+    {
+      "name": "Gift Wrap",
+      "relationship": "Control position that traps one arm, making neck defense difficult"
+    },
+    {
+      "name": "Harness",
+      "relationship": "Alternative back control grip system for controlling opponent"
+    },
+    {
+      "name": "Turtle to Back Take",
+      "relationship": "Common transition to establish back control for this choke"
+    },
+    {
+      "name": "Back Take Generic",
+      "relationship": "General transitions to reach back control attacking position"
+    },
+    {
+      "name": "Chin Protection",
+      "relationship": "Defensive principle opponent uses to prevent choke insertion"
+    },
+    {
+      "name": "Hand Fighting from Back",
+      "relationship": "Essential skill for creating neck entry opportunities"
+    },
+    {
+      "name": "RNC Defense",
+      "relationship": "Defensive principles and techniques to counter this submission"
+    },
+    {
+      "name": "Back Attack System",
+      "relationship": "Systematic approach to attacking from back control"
+    },
+    {
+      "name": "Danaher Straight Jacket System",
+      "relationship": "John Danaher's systematic method for back attacks including RNC"
+    },
+    {
+      "name": "Arm Drag to Back",
+      "relationship": "Entry method to establish back control for choke attempts"
+    },
+    {
+      "name": "Back Defense Protocol",
+      "relationship": "Systematic defensive framework against back control attacks"
+    }
+  ],
+  "expert_insights": {
+    "danaher": "The Rear Naked Choke represents the pinnacle of positional dominance translated into submission mechanics. From a systematic perspective, the true power of the RNC lies not in the finishing squeeze, but in the positional hierarchy that precedes it. Back control, particularly with both hooks established, is the highest value position in our sport precisely because it offers the highest percentage submission - the rear naked choke - while simultaneously offering the opponent the fewest escape options and counter-attacks. When teaching this technique, I emphasize that the choke is really three separate systems working in concert: first, the lower body control system (hooks or body triangle) that anchors you to the opponent's back and prevents position improvement; second, the upper body control system (seat belt, harness, or gift wrap) that manages their defensive hands and prevents them from turning into you; and third, the choking mechanism itself. Students who focus only on the choke frequently lose the position. Those who maintain systematic control of all three elements achieve submission rates exceeding 70% at advanced levels. The mechanical principle is elegant - we're creating a frame around their neck using our forearm on one side and our bicep/back arm on the other, with their head trapped in between. The finish comes not from muscular effort but from structural expansion of your chest against the constriction of your arms. Most importantly, the choke must target the carotid arteries through compression, never the trachea. A properly applied blood choke causes unconsciousness through reduced cerebral blood flow in 6-10 seconds with minimal discomfort and maximum safety when released promptly. An improperly applied air choke to the trachea takes much longer, causes panic and violent resistance, and creates serious injury risk. This is not merely a technical distinction but a fundamental safety imperative that every practitioner must understand before attempting this submission. In training, we never exceed 50-70% of maximum pressure, and we always apply that pressure progressively over 3-5 seconds minimum, allowing our partner to recognize they are caught and tap safely. The goal in training is technical mastery and position recognition, not pain compliance or unconsciousness.",
+    "gordon_ryan": "The Rear Naked Choke is statistically the highest percentage submission finish in both gi and no-gi grappling at the highest levels of competition. In my own competition career, the RNC and its variations account for approximately 40% of my submission victories, which speaks to both its effectiveness and its versatility across different opponent types and styles. The key distinction between training and competition application is intensity and timing - in competition, once I establish the full structure with my elbow past their chin and both hands locked, I apply maximum pressure immediately because the match depends on it. However, in training, this same situation requires completely different behavior. I never apply more than 60-70% pressure in training, even in hard sparring, because my training partners' long-term health is more valuable than any single tap. The difference between a good RNC and a great one is the hand fighting and entry timing. Most people focus on the finish, but I focus on creating the situation where my opponent's defensive hands are out of position or occupied. I'll spend 30-45 seconds controlling the back, attacking submissions they have to defend (like the armbar from back), and waiting for the moment their neck defense lapses. That's when I insert deep and finish quickly. For the actual execution, the technical details matter enormously - your elbow must be past the centerline of their chin, your forearm blade must be on their carotid arteries (not windpipe), and your back hand must create a solid frame whether on your bicep or on the back of their head. The finish involves expanding my chest while bringing my elbows together, using whole-body structure rather than just arm strength. Against elite opponents, I often prefer the body triangle over hooks because it's more difficult to escape and allows me to focus 100% on upper body attacks without worrying about my hooks being cleared. In terms of training priorities, newer grapplers should drill the mechanics slowly for months before applying any real pressure. The Rear Naked Choke is one of the most dangerous submissions when applied improperly, and I've seen too many injuries from people jerking or spiking chokes in training. Build the skill through thousands of repetitions at light pressure first, and the finishing power will come naturally when you need it in competition.",
+    "eddie_bravo": "The Rear Naked Choke is fundamental in the 10th Planet system, but we approach it with some unique variations and setups that create higher percentage opportunities. One of the biggest problems people have with the RNC is that they telegraph the attack - the opponent sees it coming and gets their hands in defensive position immediately. In our system, we use a lot of misdirection and setup attacks. One of my favorite sequences is attacking the truck position or twister, which forces the opponent to defend their spine and legs, and then when they're focused on that threat, the neck becomes available for the RNC transition. Another variation we use extensively is the short choke, where your back hand goes directly on their head instead of gripping your bicep. This is faster to apply and particularly effective in scrambles or when opponent has strong hand fighting. The short choke sacrifices some structural strength for speed of application, but in no-gi contexts where things are slippery and dynamic, that trade-off is often worth it. From a safety culture perspective, the 10th Planet gyms have strict protocols around neck attacks. We teach everyone that in training, you're working position and technique, not trying to put people unconscious. Apply the choke slowly and progressively, give your training partner 3-5 seconds to recognize they're caught and tap, and release immediately on any tap signal. We also emphasize that you must feel for the carotid artery position - your forearm blade should be on the sides of the neck where you can feel the pulse, never across the windpipe. In the heat of training or competition, it's easy to get sloppy with positioning, but an air choke to the trachea is dangerous and unacceptable in our system. One innovation we've developed is using the RNC as a back control maintenance tool even when you don't have the finish yet. By threatening the choke constantly, you force the opponent to keep their hands up defending their neck, which prevents them from working effective escapes. This is psychological warfare combined with technical control. The threat of the submission is sometimes as valuable as the submission itself. Train this technique with respect for your partner's safety, master the fundamental mechanics before adding pressure, and remember that the back control position is what makes this choke so powerful - maintain that position at all costs and the submission opportunities will present themselves."
+  }
+}

@@ -1,13 +1,10 @@
 {
-  "metadata": {
-    "title": "Maximum Efficiency Principle | BJJ Concept | BJJ Graph",
-    "description": "Understand Maximum Efficiency in BJJ. Learn leverage mechanics, energy conservation, and force optimization. Expert insights from Danaher, Ryan, and Bravo included.",
-    "concept_id": "C072",
-    "tags": ["bjj", "concept", "efficiency", "leverage", "biomechanics", "energy conservation", "judo principle"],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Expert"
-  },
+  "name": "Maximum Efficiency Principle",
+  "description": "Master the principle of maximum efficiency with minimum effort in BJJ. Learn leverage mechanics, force redirection, and energy conservation for sustainable technique execution.",
+  "tags": ["bjj", "principle", "efficiency", "leverage", "biomechanics", "energy conservation", "judo principle", "technical precision"],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Expert",
   "overview": "Maximum Efficiency, Minimum Effort is a foundational principle borrowed from Judo's core philosophy of 'Seiryoku Zenyo' (maximum efficiency with minimum effort). In Brazilian Jiu-Jitsu, this concept represents the intelligent application of leverage, timing, and body mechanics to overcome larger, stronger opponents while conserving energy. Rather than relying on muscular strength or explosive power, practitioners learn to redirect opponent force, exploit structural weaknesses, and utilize proper positioning to achieve technical superiority.\n\nThis principle permeates every aspect of BJJ, from the smallest grip adjustment to complex positional transitions. By understanding and applying maximum efficiency, practitioners develop sustainable techniques that can be executed repeatedly during long training sessions or competition matches. The concept emphasizes that superior technique, when applied with proper timing and mechanics, will consistently overcome raw athleticism.\n\nAt its core, maximum efficiency teaches practitioners to work smarter rather than harder, creating a technical framework where success is measured not by how much energy you expend, but by how effectively you control and submit opponents while remaining relaxed and composed. This principle becomes increasingly important as practitioners advance through the belt ranks, forming the foundation for developing sophisticated game strategies and sustainable long-term practice.",
   "key_principles": [
     "Use leverage and mechanical advantage rather than muscular strength to control and submit opponents",
@@ -53,86 +50,113 @@
       "description": "Combining multiple mechanical advantages simultaneously to create control or finishing mechanics that opponents cannot overcome through strength alone. This involves layering leverage principles across multiple body segments to generate exponential force multiplication."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Leverage Principles",
+      "principle_name": "Leverage Principles",
       "relationship_type": "Complementary",
       "description": "Leverage Principles provide the mechanical foundation that enables maximum efficiency, defining the specific fulcrum and force relationships that create mechanical advantage"
     },
     {
-      "concept_name": "Energy Conservation",
+      "principle_name": "Energy Conservation",
       "relationship_type": "Complementary",
       "description": "Energy Conservation represents the practical outcome of applying maximum efficiency, as proper mechanical application directly reduces unnecessary energy expenditure during training and competition"
     },
     {
-      "concept_name": "Biomechanical Principles",
+      "principle_name": "Biomechanical Principles",
       "relationship_type": "Prerequisite",
       "description": "Understanding biomechanics is essential for identifying which body positions and movements create maximum efficiency through optimal force transfer and structural alignment"
     },
     {
-      "concept_name": "Timing and Rhythm",
+      "principle_name": "Timing and Rhythm",
       "relationship_type": "Complementary",
       "description": "Proper timing allows techniques to succeed with minimum force by capitalizing on moments when opponent structure is compromised, multiplying the effect of mechanical advantage"
     },
     {
-      "concept_name": "Base Maintenance",
+      "principle_name": "Base Maintenance",
       "relationship_type": "Extension",
       "description": "Base maintenance applies maximum efficiency principles specifically to stability and defensive positioning, using optimal structure to resist attacks with minimal effort"
     },
     {
-      "concept_name": "Weight Distribution",
+      "principle_name": "Weight Distribution",
       "relationship_type": "Complementary",
       "description": "Proper weight distribution enables maximum efficiency by positioning mass optimally to create pressure and control through gravitational advantage rather than muscular force"
+    },
+    {
+      "principle_name": "Off-Balancing",
+      "relationship_type": "Extension",
+      "description": "Off-balancing techniques apply maximum efficiency by using minimal force to disrupt opponent equilibrium, creating opportunities for positional advancement"
+    },
+    {
+      "principle_name": "Frame Management",
+      "relationship_type": "Complementary",
+      "description": "Effective framing creates structural efficiency by using skeletal positioning to manage distance and pressure without relying on muscular strength"
+    },
+    {
+      "principle_name": "Hip Movement",
+      "relationship_type": "Extension",
+      "description": "Hip movement techniques embody efficiency by generating large positional changes through core mechanics rather than limb-based muscular effort"
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Use hip angle and guard structure to off-balance opponent while remaining relaxed, applying breaking mechanics through skeletal positioning rather than pulling with arms. The closed guard exemplifies efficiency through using leg structure to control posture while conserving upper body energy for attacks."
     },
     {
-      "context": "Mount Top",
+      "context": "Mount",
       "how_applied": "Distribute weight through optimal hip and chest positioning to create oppressive pressure using gravity rather than muscular tension. Proper mount control demonstrates efficiency through structural positioning that makes escape attempts strengthen your control while you remain relaxed."
     },
     {
-      "context": "Back Control Top",
+      "context": "Back Control",
       "how_applied": "Use body triangle or hook placement to create mechanical control that prevents escape without sustained grip fighting. Efficient back control involves positioning where opponent movements tighten your controls automatically, allowing relaxed dominance while conserving energy for submission attacks."
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Apply crossface and underhook positioning to create structural pressure that opponent cannot bridge or shrimp effectively against. Maximum efficiency in side control means using skeletal weight distribution to maintain control while hands and arms remain available for attack adjustments."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Use knee shield, underhooks, and frame positioning to create defensive structure that requires minimal muscular engagement while preventing opponent passing. Efficient half guard allows sustained defensive capability without fatigue through optimal body alignment and connection management."
     },
     {
-      "context": "Butterfly Guard Bottom",
+      "context": "Butterfly Guard",
       "how_applied": "Utilize hooks and grip connections to off-balance opponent through small hip movements and timely hook elevation, creating sweep opportunities through redirection rather than lifting with pure strength. Butterfly exemplifies using opponent forward pressure against them through minimal force adjustments."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Maintain distance and angle control through leg frames and grip management that requires minimal grip strength while preventing passing. Efficient open guard uses extension structure to manage distance rather than constant pulling or pushing, conserving energy during guard retention."
     },
     {
-      "context": "De La Riva Guard Bottom",
+      "context": "De La Riva Guard",
       "how_applied": "Use DLR hook as a lever to control opponent base and posture while remaining relaxed in upper body. The hook creates mechanical control that off-balances opponent with minimal muscular engagement, demonstrating pure leverage application for sweeps and back takes."
     },
     {
-      "context": "X-Guard Bottom",
+      "context": "X-Guard",
       "how_applied": "Position hooks to create elevation and angle control that destabilizes opponent through structure rather than explosive lifting. X-Guard demonstrates maximum efficiency through using leg positioning to control opponent base while upper body remains relaxed and ready for finishing adjustments."
     },
     {
-      "context": "North-South Top",
+      "context": "North-South",
       "how_applied": "Use chest-to-chest pressure and proper head positioning to create suffocating control through skeletal weight distribution. Efficient north-south allows sustained control with minimal arm engagement, using body mass positioned optimally to prevent escape while conserving energy."
     },
     {
-      "context": "Knee on Belly Top",
+      "context": "Knee on Belly",
       "how_applied": "Balance weight distribution to create maximum discomfort and control through precise pressure point application rather than forcing knee down with muscular tension. Proper knee on belly demonstrates using gravitational advantage through optimal positioning to control opponent with minimal effort."
     },
     {
       "context": "Combat Base",
       "how_applied": "Maintain optimal base structure that resists sweeps through skeletal positioning rather than muscular resistance. Efficient combat base allows sustained passing pressure while remaining resistant to attacks through proper weight distribution and structural alignment."
+    },
+    {
+      "context": "Spider Guard",
+      "how_applied": "Use foot placement on biceps and collar grips to create distance control and off-balancing mechanics through leg extension rather than constant pulling. Spider guard efficiency comes from using opponent's forward pressure against them while maintaining relaxed upper body."
+    },
+    {
+      "context": "Turtle",
+      "how_applied": "Maintain compact defensive structure that prevents back takes and submissions through optimal body positioning rather than constant muscular resistance. Efficient turtle allows patient defense while waiting for re-guard opportunities without excessive energy expenditure."
+    },
+    {
+      "context": "Ashi Garami",
+      "how_applied": "Use leg entanglement structure to control opponent's leg and hip position with minimal upper body engagement. Efficient ashi garami creates submission threats through positioning and angle rather than muscular force, allowing sustained control while opponent exhausts themselves defending."
     }
   ],
   "decision_framework": [
@@ -297,32 +321,32 @@
   "related_content": [
     {
       "name": "Leverage Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Provides the mechanical mathematics and biomechanical foundations that enable maximum efficiency in practice"
     },
     {
       "name": "Energy Conservation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Represents the practical training outcome and strategic implementation of maximum efficiency principles"
     },
     {
       "name": "Biomechanical Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational understanding of body mechanics that informs optimal positioning for efficiency maximization"
     },
     {
       "name": "Timing and Rhythm",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Critical complementary concept that multiplies efficiency through optimal technique execution timing"
     },
     {
       "name": "Base Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Specific application of maximum efficiency principles to defensive positioning and stability"
     },
     {
       "name": "Weight Distribution",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Tactical implementation of efficiency through optimal mass positioning for control and pressure"
     },
     {
@@ -331,7 +355,7 @@
       "relationship": "Classic example of using minimal force and optimal timing to achieve maximum positional change through leverage"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Position that exemplifies efficiency through structural control allowing attacks while remaining relaxed"
     },
@@ -339,6 +363,16 @@
       "name": "Triangle Choke",
       "content_type": "Submission",
       "relationship": "Submission demonstrating maximum efficiency through using leg structure to create finishing pressure without arm strength"
+    },
+    {
+      "name": "Frame Management",
+      "content_type": "Principle",
+      "relationship": "Application of efficiency principles to defensive structure and space management"
+    },
+    {
+      "name": "Off-Balancing",
+      "content_type": "Principle",
+      "relationship": "Demonstrates efficiency through minimal force application to disrupt opponent equilibrium"
     }
   ],
   "expert_insights": {

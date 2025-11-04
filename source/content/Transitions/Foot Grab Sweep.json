@@ -1,23 +1,23 @@
 {
-  "metadata": {
-    "title": "Foot Grab Sweep | BJJ Technique | BJJ Graph",
-    "description": "Master the Foot Grab Sweep from open guard. Step-by-step execution with grip control and off-balancing. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T066",
-    "tags": [
-      "bjj",
-      "transition",
-      "sweep",
-      "open_guard",
-      "foot_control",
-      "intermediate"
-    ],
-    "starting_position": "Open Guard Bottom",
-    "ending_position": "Top Position",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Foot Grab Sweep",
+  "description": "Master the Foot Grab Sweep from open guard. Step-by-step execution with grip control and off-balancing. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "sweep",
+    "open_guard",
+    "foot_control",
+    "intermediate",
+    "de_la_riva",
+    "butterfly_guard",
+    "seated_guard"
+  ],
+  "starting_position": "Seated Guard",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Foot Grab Sweep is a fundamental open guard technique that exploits an opponent's forward pressure and poor base management. By controlling one of the opponent's feet while simultaneously breaking their posture and grips, the practitioner creates a powerful sweeping motion that elevates the opponent and reverses position. This technique is particularly effective against opponents who attempt to stand and pass the guard, or those who maintain a squared-up stance with weight distributed evenly on both legs.\n\nThe sweep works on the principle of removing one of the opponent's base points while simultaneously creating directional force that their remaining leg cannot compensate for. When executed properly, the foot grab sweep allows the practitioner to control the opponent's movement completely, preventing them from posting or recovering their base. The technique is highly versatile and can be adapted to various open guard positions including butterfly guard, seated guard, and de la riva variations.\n\nSuccess with this sweep depends heavily on timing, grip control, and the ability to read the opponent's weight distribution. Advanced practitioners can chain this sweep with other attacks, using the opponent's defensive reactions to create offensive opportunities. The foot grab sweep is an essential component of a complete open guard game and serves as both a primary attacking option and a counter to standing guard passes.",
   "key_principles": [
@@ -273,8 +273,16 @@
       "relationship": "Starting position for butterfly variation of this sweep"
     },
     {
-      "name": "Open Guard Bottom",
-      "relationship": "Primary position family where this technique is executed"
+      "name": "Seated Guard",
+      "relationship": "Primary position where this technique is executed"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Alternative starting position for this sweep variation"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Related guard position with similar sweeping principles"
     }
   ],
   "expert_insights": {

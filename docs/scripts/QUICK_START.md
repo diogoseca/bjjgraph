@@ -80,7 +80,7 @@ python3 scripts/link_optimizer/link_optimizer_cli.py --mode validate
 ```bash
 # Validate with Google Rich Results Test
 open https://search.google.com/test/rich-results
-# Enter URL: https://bjjgraph.com/positions/mount
+# Enter URL: https://bjjgraph.org/positions/mount
 ```
 
 ### Find validation errors

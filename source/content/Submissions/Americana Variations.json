@@ -1,18 +1,15 @@
 {
-  "metadata": {
-    "title": "Americana Variations | BJJ Submission | BJJ Graph",
-    "description": "Master Americana variations in BJJ. Complete guide with safety protocols, alternative grips, and finishing mechanics. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.",
-    "submission_id": "SUB002",
-    "tags": ["bjj", "submission", "americana", "joint-lock", "shoulder-lock", "keylock", "variations"],
-    "submission_category": "Joint Lock",
-    "submission_type": "Shoulder Lock",
-    "target_area": "Shoulder joint, rotator cuff",
-    "starting_position": "Mount Top",
-    "success_rates": {
-      "beginner": 40,
-      "intermediate": 55,
-      "advanced": 70
-    }
+  "name": "Americana Variations",
+  "description": "Master Americana variations in BJJ. Complete guide with safety protocols, alternative grips, and finishing mechanics. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.",
+  "tags": ["bjj", "submission", "americana", "joint-lock", "shoulder-lock", "keylock", "variations"],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint, rotator cuff",
+  "starting_position": "Mount",
+  "success_rates": {
+    "beginner": 40,
+    "intermediate": 55,
+    "advanced": 70
   },
   "overview": "The Americana variations represent a family of shoulder lock techniques that attack the rotator cuff and shoulder joint through external rotation combined with leverage. While the standard Americana from mount and side control are foundational techniques, advanced practitioners develop numerous variations to adapt to different grips, positions, and defensive reactions. These variations maintain the core mechanical principle of isolating the arm and applying controlled external rotation while preventing the opponent from straightening or retracting their arm.\n\nUnderstanding Americana variations is essential for developing a complete shoulder lock game. Different grip configurations, body positions, and leverage applications allow practitioners to finish the submission from multiple angles and against various defensive responses. The ability to transition smoothly between variations creates a system where defensive movement by the opponent simply opens alternative finishing mechanics. Elite competitors combine these variations with positional transitions, using failed Americana attempts to advance position or switch to complementary submissions like the armbar or triangle.\n\nThe variations explored in this guide include the figure-four Americana, palm-to-palm grip variation, reverse Americana, standing Americana from turtle, Americana from north-south, and the rolling Americana. Each variation has specific applications based on position, opponent body type, and defensive reactions. Mastery of these variations transforms the Americana from a single technique into a comprehensive shoulder attack system that applies across multiple positions and scenarios.",
   "safety_considerations": {
@@ -310,69 +307,50 @@
     }
   ],
   "from_positions": [
-    {
-      "name": "Mount Top",
-      "relationship": "Primary position for Americana variations"
-    },
-    {
-      "name": "Side Control Top",
-      "relationship": "Secondary position offering multiple variation opportunities"
-    },
-    {
-      "name": "North-South Top",
-      "relationship": "Position enabling reverse Americana and unique angles"
-    },
-    {
-      "name": "Technical Mount Top",
-      "relationship": "Position enabling 3-4 mount Americana variation"
-    }
+    "Mount",
+    "Side Control",
+    "North South Control",
+    "Knee on Belly",
+    "S Mount",
+    "High Mount",
+    "Modified Mount",
+    "Technical Mount",
+    "Kesa Gatame",
+    "Kuzure Kesa-Gatame"
   ],
   "related_submissions": [
-    {
-      "name": "Americana",
-      "relationship": "Base technique from which all variations derive"
-    },
-    {
-      "name": "Americana from Mount",
-      "relationship": "Primary positional application of variations"
-    },
-    {
-      "name": "Americana from Side Control",
-      "relationship": "Secondary positional application of variations"
-    },
-    {
-      "name": "Kimura",
-      "relationship": "Complementary shoulder lock with internal rotation mechanics"
-    },
-    {
-      "name": "Kimura Variations",
-      "relationship": "Parallel variation system for opposite shoulder rotation"
-    },
-    {
-      "name": "Straight Armbar",
-      "relationship": "Common transition when opponent straightens arm to defend"
-    },
-    {
-      "name": "Armbar from Mount",
-      "relationship": "Primary alternative submission from same top position"
-    }
+    "Americana",
+    "Americana from Mount",
+    "Americana from Side Control",
+    "Kimura",
+    "Kimura Variations",
+    "Kimura from Mount",
+    "Kimura from Side Control",
+    "Kimura from North-South",
+    "Reverse Kimura",
+    "Straight Armbar",
+    "Armbar from Mount",
+    "Armbar from Side Control",
+    "Far Side Armbar",
+    "Armbar Finish",
+    "Arm Triangle"
   ],
   "related_content": [
     {
       "name": "Triangle Choke",
-      "relationship": "Complementary submission in attack chain"
+      "relationship": "Complementary submission in attack chain from mount and guard"
     },
     {
       "name": "Arm Triangle",
-      "relationship": "Alternative submission when cross-collar opportunity arises"
+      "relationship": "Alternative submission when cross-collar opportunity arises from mount"
     },
     {
       "name": "Kimura from Side Control",
-      "relationship": "Alternative shoulder attack from same position"
+      "relationship": "Alternative shoulder attack from same position with internal rotation"
     },
     {
       "name": "Kimura from Mount",
-      "relationship": "Alternative shoulder attack from mount position"
+      "relationship": "Alternative shoulder attack from mount position with opposite mechanics"
     },
     {
       "name": "North-South Choke",
@@ -380,15 +358,31 @@
     },
     {
       "name": "Side Control Escape",
-      "relationship": "Defensive considerations when applying from side control"
+      "relationship": "Understanding escapes helps perfect submission control from side control"
     },
     {
       "name": "Mount Escape Series",
-      "relationship": "Understanding escapes helps perfect submission control"
+      "relationship": "Understanding mount escapes helps perfect submission control from mount"
     },
     {
       "name": "Submission Chains",
-      "relationship": "Conceptual framework for linking variations and transitions"
+      "relationship": "Conceptual framework for linking variations and transitioning between submissions"
+    },
+    {
+      "name": "Leverage Principles",
+      "relationship": "Fundamental concept underlying all Americana variation mechanics"
+    },
+    {
+      "name": "North-South to Kimura",
+      "relationship": "Complementary shoulder attack transition from north-south position"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Position from which standing Americana variation is applied"
+    },
+    {
+      "name": "Gift Wrap",
+      "relationship": "Control position that can transition to Americana mechanics"
     }
   ],
   "expert_insights": {

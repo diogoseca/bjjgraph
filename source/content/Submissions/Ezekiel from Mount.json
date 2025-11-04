@@ -1,18 +1,15 @@
 {
-  "metadata": {
-    "title": "Ezekiel Choke from Mount | BJJ Submission | BJJ Graph",
-    "description": "Master Ezekiel Choke from Mount in BJJ. Complete safety guide with setup, execution, and defense patterns. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.",
-    "submission_id": "SUB053",
-    "tags": ["bjj", "submission", "ezekiel-choke", "gi-choke", "mount", "blood-choke", "sleeve-choke"],
-    "submission_category": "Choke",
-    "submission_type": "Blood Choke",
-    "target_area": "Carotid arteries and windpipe",
-    "starting_position": "Mount Top",
-    "success_rates": {
-      "beginner": 40,
-      "intermediate": 55,
-      "advanced": 70
-    }
+  "name": "Ezekiel from Mount",
+  "description": "Master the Ezekiel Choke from Mount with comprehensive safety protocols, setup requirements, and execution steps. Learn bilateral carotid compression mechanics.",
+  "tags": ["bjj", "submission", "ezekiel-choke", "gi-choke", "mount", "blood-choke", "sleeve-choke"],
+  "submission_category": "Choke",
+  "submission_type": "Blood Choke",
+  "target_area": "Carotid arteries and windpipe",
+  "starting_position": "Mount",
+  "success_rates": {
+    "beginner": 40,
+    "intermediate": 55,
+    "advanced": 70
   },
   "overview": "The Ezekiel Choke from Mount is one of the most fundamental and high-percentage submissions in Brazilian Jiu-Jitsu, particularly effective in gi training. This technique combines positional dominance with a devastating choke that can be applied even when the opponent defends well against other mount attacks. The Ezekiel works by using your own gi sleeve as a fulcrum to compress the carotid arteries and windpipe simultaneously, creating both a blood and air choke that produces rapid submission.\n\nWhat makes the Ezekiel from Mount particularly effective is its ability to circumvent common defensive frames. While opponents often successfully defend armbars and americanas by keeping their elbows tight, the Ezekiel can be applied directly through their defensive posture. The technique requires precise hand positioning and understanding of leverage mechanics, using the blade of your forearm against one side of the neck while the gi-gripped hand pulls from the opposite side.\n\nHistorically attributed to judoka Ezequiel Paraguassu who successfully used it in BJJ competition, this choke has become a staple of top game attacks. It works equally well from high mount, low mount, and even modified mount positions, making it an essential tool for maintaining offensive pressure while in dominant positions. The submission can be set up as a primary attack or used as part of a chain when opponents defend other mount submissions.",
   "safety_considerations": {
@@ -270,60 +267,93 @@
   ],
   "training_progressions_and_safety_protocols": [
     {
-      "phase": "Technical Understanding (Weeks 1-2)",
-      "timeframe": "2 weeks",
+      "phase": "Technical Understanding",
+      "timeframe": "Weeks 1-2",
       "focus": "Learn proper hand positioning, sleeve gripping mechanics, and basic body positioning without applying any choking pressure. Study anatomy of the neck and understand carotid vs trachea targeting. Shadow drill the movements in isolation.",
       "resistance_level": "None",
       "safety_emphasis": "Understand all safety protocols before applying any pressure. Learn to recognize tap signals and practice immediate release protocols. Study the difference between blood chokes and air chokes. Understand injury mechanisms and prevention."
     },
     {
-      "phase": "Positional Drilling (Weeks 3-4)",
-      "timeframe": "2 weeks",
+      "phase": "Positional Drilling",
+      "timeframe": "Weeks 3-4",
       "focus": "Practice achieving proper mount position and maintaining it while threading the arm and establishing grips. Partner provides zero resistance. Focus on smooth movement and maintaining base. Drill entries from different mount variations (low, high, technical). No choking pressure applied - stop at the point of establishing both grips.",
       "resistance_level": "Zero resistance",
       "safety_emphasis": "Practice releasing grips on verbal 'tap' command even though no pressure is applied. Build muscle memory for immediate release response. Monitor partner comfort with head control and arm positioning."
     },
     {
-      "phase": "Light Pressure Application (Weeks 5-8)",
-      "timeframe": "4 weeks",
+      "phase": "Light Pressure Application",
+      "timeframe": "Weeks 5-8",
       "focus": "Begin applying light choking pressure (20-30% of maximum) with crystal clear communication. Partner should tap very early to familiarize both practitioners with the feeling of the choke at various stages. Practice recognizing when the choke is properly positioned vs when it's on the trachea. Drill various defensive scenarios with partner showing different reactions.",
       "resistance_level": "Mild resistance",
       "safety_emphasis": "Apply pressure over minimum 5-7 seconds. Stop immediately at any tap signal. Partners should communicate verbally about pressure levels and comfort. Never apply surprise pressure. Begin drilling release protocols under various scenarios."
     },
     {
-      "phase": "Progressive Resistance (Weeks 9-12)",
-      "timeframe": "4 weeks",
+      "phase": "Progressive Resistance",
+      "timeframe": "Weeks 9-12",
       "focus": "Partner provides realistic defensive resistance including frames, head movement, and bridge attempts. Practice maintaining mount and adapting the choke against common defenses. Begin integrating the Ezekiel into attacking chains with armbars and americanas. Apply moderate pressure (50-60% of maximum) with controlled timing.",
       "resistance_level": "Realistic resistance",
       "safety_emphasis": "Maintain 3-5 second minimum application time even with resistance. Practice scenarios where partner defends and you must reset or transition rather than forcing the choke. Emphasize smooth pressure increase and monitoring partner's status throughout."
     },
     {
-      "phase": "Live Rolling Integration (Weeks 13-20)",
-      "timeframe": "8 weeks",
+      "phase": "Live Rolling Integration",
+      "timeframe": "Weeks 13-20",
       "focus": "Apply the Ezekiel during live rolling from mount positions. Practice recognizing the opportunity window for the choke during dynamic exchanges. Develop sensitivity for when the choke is available vs when to transition to other attacks. Begin developing personal variations and setups based on body type and style.",
       "resistance_level": "Full resistance",
       "safety_emphasis": "Never exceed 70-80% pressure in training regardless of rolling intensity. Remember that competition-speed application is only for competition. Maintain communication with regular training partners about pressure preferences. Practice releasing even when you believe the choke isn't tight enough to be dangerous."
     },
     {
-      "phase": "Advanced Application and Teaching (Ongoing)",
+      "phase": "Advanced Application and Teaching",
       "timeframe": "Ongoing",
       "focus": "Develop high-level setups, combination attacks using the Ezekiel as a threat. Teach the technique to junior students with emphasis on safety. Explore no-gi variations and adaptations. Study competition footage of high-level Ezekiel applications. Develop counter strategies from the bottom to understand defensive nuances.",
       "resistance_level": "Full resistance",
       "safety_emphasis": "As you become proficient, the danger actually increases because the choke becomes faster and more effective. Maintain strict discipline with safety protocols regardless of skill level. When teaching, emphasize safety first before effectiveness. Monitor junior students closely when they begin practicing this technique."
     }
   ],
+  "from_positions": [
+    "Mount",
+    "High Mount",
+    "Modified Mount",
+    "S Mount",
+    "Technical Mount",
+    "Side Control",
+    "Kesa Gatame",
+    "Scarf Hold Position",
+    "North-South",
+    "Knee on Belly"
+  ],
+  "related_submissions": [
+    "Ezekiel Choke",
+    "Ezekiel Variations",
+    "Arm Triangle",
+    "Cross Collar Choke",
+    "Rear Naked Choke",
+    "Guillotine Choke",
+    "Loop Choke",
+    "Breadcutter Choke",
+    "Baseball Bat Choke",
+    "Americana from Mount",
+    "Kimura from Mount",
+    "Armbar from Mount",
+    "Triangle from Mount",
+    "North-South Choke",
+    "Paper Cutter Choke"
+  ],
   "related_content": [
     {
-      "name": "Mount Top",
+      "name": "Mount",
       "relationship": "Primary starting position for this technique"
     },
     {
-      "name": "High Mount Top",
+      "name": "High Mount",
       "relationship": "Superior position variation that makes the choke more effective"
     },
     {
       "name": "Technical Mount",
       "relationship": "Alternative position from which this choke can be applied with excellent control"
+    },
+    {
+      "name": "Mount Control",
+      "relationship": "Control concepts essential for maintaining position during submission"
     },
     {
       "name": "Ezekiel Choke",
@@ -342,36 +372,20 @@
       "relationship": "Alternative submission when opponent extends arms to defend Ezekiel"
     },
     {
-      "name": "Guillotine Choke",
-      "relationship": "Similar choking mechanics using gi or arm as fulcrum from different position"
+      "name": "Cross Collar Choke",
+      "relationship": "Related gi-based choke from guard using similar leverage principles"
     },
     {
       "name": "Arm Triangle",
-      "relationship": "Related gi-based choke from top positions using similar pressure principles"
+      "relationship": "Related choke from top positions using similar bilateral pressure concepts"
     },
     {
       "name": "Rear Naked Choke",
       "relationship": "Similar bilateral carotid compression mechanics from different position"
     },
     {
-      "name": "Collar Control",
-      "relationship": "Fundamental concept underlying effective gi-based choke applications"
-    },
-    {
       "name": "Submission Chains",
       "relationship": "Concept system for linking Ezekiel with other mount attacks"
-    },
-    {
-      "name": "Positional Hierarchy",
-      "relationship": "Framework explaining why maintaining mount during submission attempts is critical"
-    },
-    {
-      "name": "Mount to Armbar",
-      "relationship": "Transition technique when opponent defends Ezekiel with extended arms"
-    },
-    {
-      "name": "Side Control to Mount",
-      "relationship": "Common entry pathway to achieve mount position for Ezekiel setup"
     }
   ],
   "expert_insights": {

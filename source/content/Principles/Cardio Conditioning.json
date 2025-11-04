@@ -1,22 +1,20 @@
 {
-  "metadata": {
-    "title": "Cardio Conditioning | BJJ Concept | BJJ Graph",
-    "description": "Understand Cardio Conditioning in BJJ. Learn energy system development, sport-specific protocols, and sustainable performance strategies. Expert insights included.",
-    "concept_id": "C009",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "conditioning",
-      "endurance",
-      "energy systems",
-      "performance"
-    ],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
-  "overview": "Cardio Conditioning represents the systematic development of cardiovascular and muscular endurance that enables sustained technical performance, rapid recovery between efforts, and maintenance of decision-making quality throughout extended training sessions and competitive matches. Unlike pure strength or flexibility, cardiovascular conditioning is the foundational energy system that determines work capacity, fatigue resistance, and performance sustainability under the metabolic demands of Brazilian Jiu-Jitsu. This concept encompasses the physiological adaptations, training protocols, and strategic approach to developing energy systems that support both explosive efforts and prolonged technical exchanges. Cardio conditioning serves as both an enabling factor that allows continuous technical execution without premature fatigue and a competitive advantage that compounds over match duration as better-conditioned athletes maintain technical precision while opponents deteriorate. The ability to sustain high-level performance throughout matches and training sessions often determines competitive outcomes when technical skill levels are similar, making cardiovascular conditioning one of the most essential physical attributes in BJJ.",
+  "name": "Cardio Conditioning",
+  "description": "Master cardiovascular conditioning for BJJ. Learn energy system development, sport-specific protocols, recovery optimization, and performance strategies for competition.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "conditioning",
+    "endurance",
+    "energy systems",
+    "performance",
+    "training methodology"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
+  "overview": "Cardio Conditioning represents the systematic development of cardiovascular and muscular endurance that enables sustained technical performance, rapid recovery between efforts, and maintenance of decision-making quality throughout extended training sessions and competitive matches. Unlike pure strength or flexibility, cardiovascular conditioning is the foundational energy system that determines work capacity, fatigue resistance, and performance sustainability under the metabolic demands of Brazilian Jiu-Jitsu. This principle encompasses the physiological adaptations, training protocols, and strategic approach to developing energy systems that support both explosive efforts and prolonged technical exchanges. Cardio conditioning serves as both an enabling factor that allows continuous technical execution without premature fatigue and a competitive advantage that compounds over match duration as better-conditioned athletes maintain technical precision while opponents deteriorate. The ability to sustain high-level performance throughout matches and training sessions often determines competitive outcomes when technical skill levels are similar, making cardiovascular conditioning one of the most essential physical attributes in BJJ.",
   "key_principles": [
     "Develop both aerobic base capacity and anaerobic threshold to support varied intensity demands",
     "Structure conditioning work to match BJJ-specific energy system requirements and work-to-rest ratios",
@@ -62,36 +60,51 @@
       "description": "Learning to modulate effort expenditure strategically throughout matches and training, recognizing when to invest energy aggressively versus when to conserve. This includes reading opponent fatigue states and adjusting intensity to exploit conditioning advantages."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Energy Management System",
+      "principle_name": "Energy Management System",
       "relationship_type": "Complementary",
       "description": "Cardio conditioning provides the physiological capacity that energy management strategies deploy tactically. Superior conditioning expands the range of viable energy management approaches."
     },
     {
-      "concept_name": "Energy Conservation",
+      "principle_name": "Energy Conservation",
       "relationship_type": "Complementary",
       "description": "While conditioning increases total energy capacity, conservation techniques reduce expenditure rate. Combined, they dramatically extend sustainable performance duration."
     },
     {
-      "concept_name": "Pressure Application",
+      "principle_name": "Pressure Application",
       "relationship_type": "Prerequisite",
       "description": "Effective pressure passing and control maintenance require sustained muscular endurance. Inadequate conditioning limits the duration athletes can maintain effective pressure."
     },
     {
-      "concept_name": "Explosive Power",
+      "principle_name": "Explosive Power",
       "relationship_type": "Complementary",
       "description": "While explosive power provides maximal force for brief efforts, conditioning enables repeated expression of that power throughout extended matches without significant degradation."
     },
     {
-      "concept_name": "Match Strategy",
+      "principle_name": "Match Strategy",
       "relationship_type": "Extension",
       "description": "Conditioning level fundamentally constrains viable match strategies. Athletes with superior conditioning can implement aggressive pace-based strategies that would exhaust less-conditioned competitors."
     },
     {
-      "concept_name": "Drilling Methodology",
+      "principle_name": "Drilling Methodology",
       "relationship_type": "Complementary",
       "description": "Properly structured drilling serves dual purposes of technical refinement and sport-specific conditioning development, making it highly efficient for developing both simultaneously."
+    },
+    {
+      "principle_name": "Pacing",
+      "relationship_type": "Extension",
+      "description": "Superior conditioning allows more sophisticated pacing strategies with greater range between conservative and aggressive pace options without exhaustion risk."
+    },
+    {
+      "principle_name": "Positional Sparring",
+      "relationship_type": "Complementary",
+      "description": "Positional sparring serves as primary vehicle for developing sport-specific conditioning while simultaneously refining technical skills in controlled contexts."
+    },
+    {
+      "principle_name": "Competition Training",
+      "relationship_type": "Extension",
+      "description": "Competition-focused training integrates conditioning development into match simulation, creating adaptations that transfer directly to competitive performance."
     }
   ],
   "application_contexts": [
@@ -104,11 +117,11 @@
       "how_applied": "Back control maintenance demands constant grip strength, body lock tension, and hook positioning adjustments. Conditioning determines how long these control mechanisms can be sustained before grip or positional fatigue develops."
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Active closed guard requires sustained hip elevation, leg squeeze tension, and continuous posture breaking efforts. Insufficient conditioning causes guard to become passive as leg fatigue prevents active control."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Half guard defense and sweep attempts require repeated explosive bridging efforts and sustained underhook battles. Conditioning enables multiple sweep attempts and prevents flattening from defensive fatigue."
     },
     {
@@ -128,12 +141,32 @@
       "how_applied": "Scrambles demand maximal intensity bursts followed by rapid recovery. Superior conditioning allows athletes to capitalize on scramble opportunities while opponents remain compromised from effort."
     },
     {
-      "context": "Open Guard Bottom",
-      "how_applied": "Active open guard requires continuous grip fighting, leg repositioning, and sweep attempt initiation. Conditioning prevents guard retention from degrading as leg and grip fatigue accumulates."
+      "context": "Spider Guard",
+      "how_applied": "Active spider guard requires continuous grip fighting, leg repositioning, and sweep attempt initiation. Conditioning prevents guard retention from degrading as leg and grip fatigue accumulates."
     },
     {
-      "context": "Top Position",
-      "how_applied": "Maintaining top position requires sustained base maintenance against sweep attempts and continuous passing pressure. Conditioning enables relentless pressure that compounds positional advantages over time."
+      "context": "De La Riva Guard",
+      "how_applied": "De La Riva guard maintenance requires sustained hook pressure, grip control, and continuous off-balancing efforts. Conditioning enables persistent sweeping threats throughout extended exchanges."
+    },
+    {
+      "context": "X-Guard",
+      "how_applied": "X-Guard requires sustained leg tension, continuous balance disruption, and explosive sweep execution. Conditioning determines how long effective X-Guard control can be maintained before positional degradation."
+    },
+    {
+      "context": "Ashi Garami",
+      "how_applied": "Leg entanglement positions require sustained grip strength, leg configuration maintenance, and continuous breaking mechanics. Conditioning enables extended attack sequences without grip or positional fatigue."
+    },
+    {
+      "context": "Turtle",
+      "how_applied": "Defending turtle position requires sustained base maintenance against constant pressure and attack attempts. Conditioning determines duration of effective turtle defense before exhaustion creates submission opportunities."
+    },
+    {
+      "context": "North-South",
+      "how_applied": "Maintaining north-south control requires sustained chest pressure and continuous defense against escape attempts. Conditioning enables extended control periods forcing opponents to expend energy escaping."
+    },
+    {
+      "context": "Knee on Belly",
+      "how_applied": "Knee on belly maintenance demands sustained balance, pressure application, and continuous adjustment to escape attempts. Conditioning prevents positional abandonment due to leg or core fatigue."
     }
   ],
   "decision_framework": [
@@ -295,52 +328,52 @@
   "related_content": [
     {
       "name": "Energy Management System",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary strategic framework for deploying conditioning capacity efficiently"
     },
     {
       "name": "Energy Conservation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Technical approach to reducing energy expenditure maximizing conditioning effectiveness"
     },
     {
       "name": "Competition Training",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Training methodology that develops conditioning through sport-specific practice"
     },
     {
       "name": "Match Preparation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic preparation approach that includes conditioning peaking protocols"
     },
     {
       "name": "Strength Development",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary physical attribute that must be balanced with conditioning work"
     },
     {
       "name": "Positional Sparring",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Primary training method for developing sport-specific conditioning adaptations"
     },
     {
       "name": "Flow Rolling",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Active recovery method that maintains movement volume while promoting recovery"
     },
     {
       "name": "Drilling Methodology",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Technical practice approach that simultaneously develops skills and conditioning"
     },
     {
       "name": "Match Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Tactical approach constrained and enabled by conditioning capacity"
     },
     {
       "name": "Pacing",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic effort modulation that extends effective use of conditioning capacity"
     },
     {

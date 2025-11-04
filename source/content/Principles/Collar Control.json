@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Collar Control | BJJ Concept | BJJ Graph",
-    "description": "Understand Collar Control in BJJ. Learn grip mechanics, posture breaking, choke setup principles. Cross-position applications from guard to control.",
-    "concept_id": "C011",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "grips",
-      "collar",
-      "gi",
-      "control",
-      "posture-breaking"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Collar Control",
+  "description": "Master collar grip mechanics in BJJ. Learn deep grip penetration, posture breaking, cross-position applications from guard to mount. Competition-proven control strategies.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "grips",
+    "collar",
+    "gi",
+    "control",
+    "posture-breaking"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Collar Control represents the fundamental skill of gripping and manipulating opponent's gi collar to establish posture control, create submission opportunities, and generate powerful leverage for sweeps and transitions. Unlike specific techniques, collar control is a comprehensive conceptual framework that applies across all phases of gi BJJ, from standing exchanges to dominant control positions. This concept encompasses the mechanics of collar grip establishment, the strategic use of deep collar grips to control opponent's head and spine positioning, and the integration of collar control with choking mechanics and sweep execution. Collar control serves as both a defensive mechanism that breaks opponent's posture and prevents effective pressure application, and an offensive foundation that enables direct choke submissions and powerful leverage-based attacks. The ability to establish and maintain effective collar control often determines success in both guard positions and dominant controls, making it one of the most essential and versatile conceptual elements in gi BJJ.",
   "key_principles": [
     "Establish deep collar grips penetrating to opponent's far side for maximum control",
@@ -63,53 +60,68 @@
       "description": "Adjusting collar grip type (same-side, cross, baseball grip, pocket grip) based on current position and tactical objectives. This requires understanding which collar grip configurations are most effective for each position and transitioning fluidly between different collar grip types."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Grip Fighting",
+      "principle_name": "Grip Fighting",
       "relationship_type": "Prerequisite",
       "description": "Collar control depends on winning grip fighting exchanges to establish collar grips before opponent can prevent them or establish their own dominant grips"
     },
     {
-      "concept_name": "Posture Breaking",
+      "principle_name": "Posture Breaking",
       "relationship_type": "Complementary",
       "description": "Collar control is the primary mechanism for breaking opponent's posture in guard positions, while posture breaking is often the strategic objective of collar control"
     },
     {
-      "concept_name": "Head Control",
+      "principle_name": "Head Control",
       "relationship_type": "Extension",
       "description": "Deep collar grips extend into direct head control by manipulating the collar material around opponent's neck and base of skull"
     },
     {
-      "concept_name": "Sleeve Control",
+      "principle_name": "Sleeve Control",
       "relationship_type": "Complementary",
       "description": "Collar and sleeve control work together to create comprehensive upper body control, with each grip type compensating for limitations of the other"
     },
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention Concepts",
       "relationship_type": "Complementary",
       "description": "Collar control from guard positions serves as both offensive attack foundation and defensive retention mechanism by controlling opponent's posture and pressure application"
     },
     {
-      "concept_name": "Grip Strategy",
+      "principle_name": "Grip Strategy",
       "relationship_type": "Extension",
       "description": "Collar control represents a specific strategic grip priority within the broader grip strategy framework, often taking precedence in gi-specific game plans"
+    },
+    {
+      "principle_name": "Control Point Hierarchy",
+      "relationship_type": "Complementary",
+      "description": "Collar grips represent high-value control points in the hierarchy due to their direct connection to choking mechanics and posture control"
+    },
+    {
+      "principle_name": "Connection Principles",
+      "relationship_type": "Prerequisite",
+      "description": "Effective collar control requires maintaining strong connection points while preventing opponent from breaking the connection through grip strips or position changes"
+    },
+    {
+      "principle_name": "Leverage Principles",
+      "relationship_type": "Extension",
+      "description": "Collar grips provide powerful leverage for manipulating opponent's upper body, head position, and overall base through biomechanical advantage"
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Deep collar grips break opponent's posture, prevent them from generating passing pressure, and set up cross collar chokes, triangles, and sweeps when combined with hip movement"
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Collar grips maintain connection and prevent opponent from establishing advantageous passing angles while creating collar drag opportunities to off-balance and sweep"
     },
     {
-      "context": "Spider Guard Bottom",
+      "context": "Spider Guard",
       "how_applied": "Collar grip combined with foot on bicep creates powerful posture breaking and extension control, enabling sweeps and preventing opponent from consolidating passing position"
     },
     {
-      "context": "Lasso Guard Bottom",
+      "context": "Lasso Guard",
       "how_applied": "Collar control reinforces lasso's shoulder control while providing secondary attack options through collar-based chokes and preventing opponent from clearing the lasso"
     },
     {
@@ -121,7 +133,7 @@
       "how_applied": "Collar grips establish choking position for rear naked choke setups, control head positioning to prevent escapes, and create bow and arrow opportunities"
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Far-side collar grips prevent opponent from turning in to guard, set up cross face control transitions, and create baseball choke and paper cutter opportunities"
     },
     {
@@ -133,24 +145,28 @@
       "how_applied": "Collar grip controls opponent's upper body rotation, prevents them from turning in or away effectively, and sets up collar-based submissions"
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Collar grips break opponent's posture to prevent smash passing, create sweeping leverage when combined with underhooks, and set up collar drag back takes"
     },
     {
-      "context": "Half Guard Top",
-      "how_applied": "Cross face collar grip pins opponent's head to the mat, prevents underhook establishment, and facilitates transition to mount or back"
-    },
-    {
-      "context": "Clinch Position",
+      "context": "Clinch",
       "how_applied": "Collar grips control opponent's posture in standing exchanges, set up takedowns through collar drags, and prevent opponent from establishing their preferred grips"
     },
     {
-      "context": "Collar Sleeve Guard Bottom",
+      "context": "Collar Sleeve Guard",
       "how_applied": "Primary controlling grip that defines the guard position, enables posture breaking, creates sweeping leverage, and sets up omoplata and triangle entries"
     },
     {
-      "context": "Closed Guard Top",
-      "how_applied": "Collar grips can be used to defend against guard player's attacks by controlling their head position and preventing them from getting underneath for effective breaking of posture"
+      "context": "De La Riva Guard",
+      "how_applied": "Collar grip helps control opponent's upper body while De La Riva hook controls lower body, enabling coordinated sweeps and preventing opponent from squaring up"
+    },
+    {
+      "context": "Butterfly Guard",
+      "how_applied": "Collar grips create upward pulling force that combines with butterfly hooks to execute powerful elevating sweeps and prevent opponent from flattening guard"
+    },
+    {
+      "context": "Seated Guard",
+      "how_applied": "Collar control maintains engagement distance, prevents opponent from circling to advantageous passing angles, and creates drag opportunities for off-balancing"
     }
   ],
   "decision_framework": [
@@ -311,17 +327,17 @@
   ],
   "related_content": [
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Primary application position where collar control enables posture breaking and submission setups"
     },
     {
-      "name": "Spider Guard Bottom",
+      "name": "Spider Guard",
       "content_type": "Position",
       "relationship": "Guard variation that heavily emphasizes collar control combined with foot placement for maximum extension"
     },
     {
-      "name": "Collar Sleeve Guard Bottom",
+      "name": "Collar Sleeve Guard",
       "content_type": "Position",
       "relationship": "Guard system built entirely around collar and sleeve control as foundational grips"
     },
@@ -336,7 +352,7 @@
       "relationship": "Highest value position where collar control sets up rear naked choke and bow and arrow submissions"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Control position where far-side collar grips prevent escape and create submission opportunities"
     },
@@ -357,17 +373,17 @@
     },
     {
       "name": "Grip Fighting",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Prerequisite skill for establishing collar control against resisting opponent"
     },
     {
       "name": "Posture Breaking",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Primary tactical application of collar control in guard positions"
     },
     {
       "name": "Head Control",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Advanced form of control that extends from deep collar grip penetration"
     }
   ],

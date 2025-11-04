@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Pin Escape Methodology | BJJ Concept | BJJ Graph",
-    "description": "Understand Pin Escape Methodology in BJJ. Learn systematic defensive frameworks, hierarchical priorities, and cross-position escape principles. Expert insights included.",
-    "concept_id": "C089",
-    "tags": [
-      "bjj",
-      "defense",
-      "system",
-      "pin",
-      "escape",
-      "fundamental",
-      "methodology",
-      "defensive-strategy"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Pin Escape Methodology",
+  "description": "Master systematic pin escape methodology in BJJ. Learn hierarchical priorities, universal framing structures, and incremental positional improvement across all bottom positions.",
+  "tags": [
+    "bjj",
+    "defense",
+    "system",
+    "pin",
+    "escape",
+    "fundamental",
+    "methodology",
+    "defensive-strategy"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Pin Escape Methodology represents a systematic approach to defensive grappling that transcends position-specific techniques by establishing universal principles applicable across all pinning situations. Rather than memorizing dozens of individual escapes, this framework teaches practitioners to identify common structural elements in all pins and apply consistent solutions based on hierarchical priorities. The methodology emphasizes incremental positional improvement over explosive all-or-nothing escape attempts, recognizing that escapes are processes rather than single movements.\n\nAt its core, Pin Escape Methodology is built on understanding that all effective pins share fundamental characteristics: control of the upper body (particularly shoulders and head), elimination of hip mobility, and strategic weight distribution that prevents defensive frames. By identifying these commonalities, practitioners develop a decision tree that guides escape attempts regardless of the specific pin. This approach dramatically reduces cognitive load during defensive situations, allowing more mental resources for timing and execution.\n\nThe methodology integrates concepts of defensive framing, hip escape mechanics, and pressure management into a cohesive system that prioritizes survival first, space creation second, and position improvement third. This hierarchical structure ensures practitioners never sacrifice fundamental defensive integrity while pursuing more advanced escape sequences. Understanding this methodology is essential for developing a comprehensive defensive game that remains functional under pressure against skilled opponents.",
   "key_principles": [
     "Hierarchical escape priorities: survival → space creation → guard recovery → positional advancement",
@@ -63,86 +60,128 @@
       "description": "Specialized energy conservation techniques specific to defensive situations, including breath control under pressure, selective muscle engagement, and recognition of when to accept positional stalemates to preserve energy for higher-percentage escape windows."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Escape Hierarchy",
+      "principle_name": "Escape Hierarchy",
       "relationship_type": "Prerequisite",
       "description": "Escape Hierarchy provides the foundational understanding of positional priorities that Pin Escape Methodology implements systematically. The methodology is essentially the practical application of hierarchical thinking to pin situations."
     },
     {
-      "concept_name": "Defensive Framing",
+      "principle_name": "Defensive Framing",
       "relationship_type": "Complementary",
       "description": "Defensive Framing provides the structural tools that Pin Escape Methodology deploys strategically. While framing teaches what defensive structures to create, this methodology teaches when and how to sequence them."
     },
     {
-      "concept_name": "Hip Escape Mechanics",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Complementary",
       "description": "Hip Escape Mechanics provides the movement vocabulary that Pin Escape Methodology organizes into coherent sequences. The methodology determines which hip movements to use based on positional context."
     },
     {
-      "concept_name": "Space Creation",
+      "principle_name": "Space Creation",
       "relationship_type": "Prerequisite",
       "description": "Space Creation is the fundamental objective that Pin Escape Methodology systematizes. Understanding how to create space in various ways enables the methodology's adaptive approach."
     },
     {
-      "concept_name": "Positional Hierarchy",
+      "principle_name": "Positional Hierarchy",
       "relationship_type": "Extension",
       "description": "Pin Escape Methodology is an applied extension of Positional Hierarchy specifically for defensive situations, translating hierarchical position understanding into practical escape sequencing."
     },
     {
-      "concept_name": "Energy Management System",
+      "principle_name": "Energy Management System",
       "relationship_type": "Complementary",
       "description": "Energy Management System provides the efficiency framework that allows Pin Escape Methodology to remain sustainable over extended periods. The methodology incorporates energy conservation as a core principle."
+    },
+    {
+      "principle_name": "Shrimping",
+      "relationship_type": "Complementary",
+      "description": "Shrimping is the foundational hip escape movement that appears repeatedly throughout the methodology's various position-specific applications."
+    },
+    {
+      "principle_name": "Bridging Mechanics",
+      "relationship_type": "Complementary",
+      "description": "Bridging Mechanics provides vertical space creation tools that complement horizontal shrimping movements within the escape methodology."
+    },
+    {
+      "principle_name": "Frame Creation",
+      "relationship_type": "Prerequisite",
+      "description": "Frame Creation is the immediate first step in the methodology's hierarchical approach, providing the foundation upon which all subsequent escape movements are built."
+    },
+    {
+      "principle_name": "Dealing with Pressure",
+      "relationship_type": "Complementary",
+      "description": "Dealing with Pressure provides psychological and technical tools for maintaining composure during extended pin situations where the methodology must be applied under stress."
+    },
+    {
+      "principle_name": "Guard Recovery",
+      "relationship_type": "Extension",
+      "description": "Guard Recovery represents the final phase of the escape methodology, translating created space into restored defensive positions."
+    },
+    {
+      "principle_name": "Mount Escape Hierarchy",
+      "relationship_type": "Advanced form",
+      "description": "Mount Escape Hierarchy is a position-specific application of the general Pin Escape Methodology, demonstrating how universal principles adapt to mount's unique characteristics."
     }
   ],
   "application_contexts": [
     {
-      "context": "Mount Bottom",
+      "context": "Mount",
       "how_applied": "Methodology dictates establishing elbow-knee frames first to create breathing space, then using bridge-and-shrimp combinations timed with opponent's posting or submission attempts to progressively escape hips and recover guard."
     },
     {
-      "context": "Side Control Bottom",
+      "context": "Side Control",
       "how_applied": "Framework emphasizes initial shoulder-hip frame to prevent chest-to-chest pressure, followed by systematic hip escape to create space for knee insertion and guard recovery, prioritizing near-side escapes when opponent's weight is distributed forward."
     },
     {
-      "context": "Back Control Bottom",
+      "context": "Back Control",
       "how_applied": "Methodology prioritizes hand fighting to prevent choking mechanics first, then systematic hip escape and shoulder rotation to create angles for escape, understanding that full escape is a multi-step process requiring patience."
     },
     {
-      "context": "Knee on Belly Bottom",
+      "context": "Knee on Belly",
       "how_applied": "System teaches using opponent's narrow base against them through properly timed bridge or shrimp, with clear decision tree based on whether opponent's weight is centered or shifted toward head or hips."
     },
     {
-      "context": "North-South Bottom",
+      "context": "North-South",
       "how_applied": "Framework emphasizes creating vertical space through bridge while establishing frames to prevent shoulder control, then using hip movement to circle toward less controlled side while maintaining defensive integrity."
     },
     {
-      "context": "Kesa Gatame Bottom",
+      "context": "Kesa Gatame",
       "how_applied": "Methodology teaches systematic approach to dealing with perpendicular pressure, using near-side arm framing and far-side hip escape to create angular movement that disrupts opponent's crossface control."
     },
     {
-      "context": "S Mount Bottom",
+      "context": "S Mount",
       "how_applied": "System prioritizes protecting near-side arm while using far-side frames to create space, then timing hip escape during opponent's armbar or choke attempts when their base naturally elevates."
     },
     {
-      "context": "High Mount Bottom",
+      "context": "High Mount",
       "how_applied": "Framework teaches specialized high-guard frames to protect neck and face while creating space to lower opponent's position before implementing standard mount escape sequences."
     },
     {
-      "context": "Turtle Bottom",
+      "context": "Turtle",
       "how_applied": "Methodology provides clear decision tree for when to maintain turtle as defensive position versus when to commit to guard recovery or stand-up sequences based on opponent's control configuration."
     },
     {
-      "context": "Scarf Hold Bottom",
+      "context": "Scarf Hold Position",
       "how_applied": "System teaches using far-side hip escape combined with near-side frame against opponent's head to create space for guard recovery, with specific timing based on opponent's weight distribution."
     },
     {
-      "context": "Technical Mount Bottom",
+      "context": "Modified Mount",
       "how_applied": "Framework emphasizes protecting isolated arm while using opposite-side frames and bridges to prevent opponent from consolidating full mount, then systematic escape toward less-controlled side."
     },
     {
-      "context": "Kuzure Kesa-Gatame Bottom",
+      "context": "Kuzure Kesa-Gatame",
       "how_applied": "Methodology addresses the specific challenge of head control in modified scarf hold, teaching systematic approach to regaining head position before implementing hip escape sequences."
+    },
+    {
+      "context": "Modified Scarf Hold",
+      "how_applied": "System focuses on addressing the unique pressure angles of modified scarf hold through diagonal framing and hip escape patterns that exploit the position's structural weaknesses."
+    },
+    {
+      "context": "Mounted Crucifix",
+      "how_applied": "Methodology prioritizes arm extraction through specific elbow positioning and bridge timing, recognizing that traditional hip escape sequences are unavailable until arm control is broken."
+    },
+    {
+      "context": "Closed Guard",
+      "how_applied": "Framework teaches recognizing when being compressed in closed guard resembles pin situations, applying similar framing and posture recovery principles to prevent opponent from consolidating control."
     }
   ],
   "decision_framework": [
@@ -300,22 +339,22 @@
   ],
   "related_content": [
     {
-      "name": "Mount Bottom",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "Primary application context - mount is the most common dominant pin where methodology principles are tested and applied"
     },
     {
-      "name": "Side Control Bottom",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Core application context - side control escape is fundamental skill where systematic methodology provides clearest advantage over random technique application"
     },
     {
-      "name": "Back Control Bottom",
+      "name": "Back Control",
       "content_type": "Position",
       "relationship": "Advanced application context - back escape demonstrates methodology's applicability to submissions-oriented pins requiring different prioritization"
     },
     {
-      "name": "Knee on Belly Bottom",
+      "name": "Knee on Belly",
       "content_type": "Position",
       "relationship": "Transitional application context - demonstrates how methodology adapts to less stable pins with different escape opportunities"
     },
@@ -341,22 +380,22 @@
     },
     {
       "name": "Escape Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational concept - provides theoretical framework that pin escape methodology implements practically"
     },
     {
       "name": "Defensive Framing",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept - provides structural tools that methodology deploys strategically"
     },
     {
       "name": "Space Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Core principle - space creation is primary objective that methodology systematizes across positions"
     },
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Technical foundation - provides movement vocabulary that methodology organizes into coherent sequences"
     }
   ],

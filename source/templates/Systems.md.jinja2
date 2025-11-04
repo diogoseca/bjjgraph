@@ -3,18 +3,20 @@
 {# A/B Testing: variant-a-show/variant-b-hide CSS classes #}
 
 ---
-title: "{{metadata.title}}"
-description: "{{metadata.description}}"
+title: "{{name}} | BJJ System | BJJ Graph"
+description: "{{description}}"
 ---
 
+{# PostHog A/B Testing Metadata #}
+<body data-content-type="systems" data-sections='["overview","key-principles","key-components","implementation-sequence","common-obstacles","assessment-metrics","training-methodology","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Implement {{metadata.title.split('|')[0].strip()}}",
-  "description": "Step-by-step implementation sequence for {{metadata.title.split('|')[0].strip()}}.",
+  "name": "How to Implement {{name}}",
+  "description": "Step-by-step implementation sequence for {{name}}.",
   "step": [
     {%- for step in implementation_sequence[:8] %}
     {
@@ -32,9 +34,9 @@ description: "{{metadata.description}}"
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "{{metadata.title.split('|')[0].strip()}}",
-  "description": "{{metadata.description}}",
-  "url": "https://bjjgraph.org/Systems/{{metadata.title.split('|')[0].strip().replace(' ', '-')}}",
+  "name": "{{name}}",
+  "description": "{{description}}",
+  "url": "https://bjjgraph.org/Systems/{{title.split('|')[0].strip().replace(' ', '-')}}",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -50,7 +52,7 @@ description: "{{metadata.description}}"
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
     {"@type": "ListItem", "position": 2, "name": "Systems", "item": "https://bjjgraph.org/Systems/"},
-    {"@type": "ListItem", "position": 3, "name": "{{metadata.title.split('|')[0].strip()}}", "item": "https://bjjgraph.org/Systems/{{metadata.title.split('|')[0].strip().replace(' ', '-')}}"}
+    {"@type": "ListItem", "position": 3, "name": "{{name}}", "item": "https://bjjgraph.org/Systems/{{title.split('|')[0].strip().replace(' ', '-')}}"}
   ]
 }
 </script>
@@ -60,7 +62,7 @@ description: "{{metadata.description}}"
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {%- for obstacle in common_obstacles[:5] %}
+    {%- for obstacle in common_obstacles[:6] %}
     {
       "@type": "Question",
       "name": "What is a common obstacle: {{obstacle.obstacle}}?",
@@ -74,19 +76,35 @@ description: "{{metadata.description}}"
 }
 </script>
 
+{# Debug mode indicator #}
+{% if debug_mode %}
+<!--
+  🐛 BJJ Graph A/B Testing Debug Mode (System)
 
-# {{metadata.title.split('|')[0].strip()}}
-{% for tag in metadata.tags %}#{{tag}} {% endfor %}
+  Content Type: systems
+  Section Count: 9
+  Week Seed: {{ week_seed }}
+  Visual Variant: {{ visual_elements }}
 
-> **Quick Answer**: {{metadata.title.split('|')[0].strip()}} is a {{metadata.difficulty_level|lower}} difficulty {{metadata.system_type}} system. This systematic approach integrates {{key_components|length}} key components into a cohesive fighting framework.
+  Generated: {{ generation_timestamp }}
+-->
+{% endif %}
 
-**System ID**: {{metadata.system_id}}
-**System Type**: {{metadata.system_type}}
-**Difficulty Level**: {{metadata.difficulty_level}}
+# {{name}}
+{% for tag in tags %}#{{tag}} {% endfor %}
+
+> **Quick Answer**: {{name}} is a {{difficulty_level|lower}} difficulty {{system_type}} system. This systematic approach integrates {{key_components|length}} key components into a cohesive fighting framework.
+
+**System ID**: {{system_id}}
+**System Type**: {{system_type}}
+**Difficulty Level**: {{difficulty_level}}
+
+{# Flexbox wrapper for A/B testing #}
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is {{metadata.title.split('|')[0].strip()}}?
+## What is {{name}}?
 
 {{overview}}
 
@@ -172,7 +190,7 @@ Proficiency indicators:
 
 <section id="related-content" class="content-section">
 
-## Which Positions, Transitions, and Concepts Connect to This System?
+## Which Positions, Transitions, and Principles Connect to This System?
 
 {% for item in related_content -%}
 - [[{{item.name}}]] ({{item.content_type}}) - {{item.relationship}}
@@ -188,3 +206,5 @@ Proficiency indicators:
 - **Eddie Bravo**: {{expert_insights.eddie_bravo}}
 
 </section>
+
+</main>

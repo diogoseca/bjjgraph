@@ -1,24 +1,21 @@
 {
-  "metadata": {
-    "title": "Rolling Kimura | BJJ Technique | BJJ Graph",
-    "description": "Master the Rolling Kimura in BJJ. Dynamic sweep and submission technique from turtle using kimura grip mechanics. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T156",
-    "tags": [
-      "bjj",
-      "transition",
-      "kimura",
-      "turtle",
-      "sweep",
-      "submission-threat",
-      "dynamic-movement"
-    ],
-    "starting_position": "Turtle Position Top",
-    "ending_position": "Back Control",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Rolling Kimura",
+  "description": "Master the Rolling Kimura in BJJ. Dynamic sweep and submission technique from turtle using kimura grip mechanics. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "kimura",
+    "turtle",
+    "sweep",
+    "submission-threat",
+    "dynamic-movement"
+  ],
+  "starting_position": "Turtle",
+  "ending_position": "Back Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Rolling Kimura is a dynamic and highly effective technique that combines sweeping mechanics with submission threats from the turtle position. This versatile technique capitalizes on the kimura grip to create a rolling motion that either sweeps the opponent to expose their back or sets up the kimura submission itself. The beauty of the Rolling Kimura lies in its dual-threat nature—the opponent must defend both the positional advancement and the submission simultaneously, creating a powerful dilemma that is difficult to counter effectively.\n\nHistorically developed through innovation in no-gi grappling, the Rolling Kimura represents modern BJJ's emphasis on dynamic, flowing techniques that maintain offensive pressure throughout transitions. The technique requires precise timing, proper grip mechanics, and the ability to maintain control through rotation. When executed correctly, it seamlessly chains into back attacks, crucifix positions, or direct kimura finishes, making it a cornerstone technique for anyone looking to develop a comprehensive turtle attack system.\n\nThe Rolling Kimura works particularly well in both gi and no-gi contexts, though the mechanics differ slightly. In gi, you have additional grip options using the opponent's clothing, while in no-gi, you rely more heavily on wrist and arm control. Understanding both variations allows practitioners to adapt the technique across different competitive formats and training environments.",
   "key_principles": [
@@ -249,23 +246,19 @@
       "relationship": "Follow-up technique when opponent defends the roll"
     },
     {
-      "name": "Crucifix from Turtle",
+      "name": "Crucifix",
       "relationship": "Alternative finish trapping both arms during the roll"
-    },
-    {
-      "name": "Back Control to Crucifix",
-      "relationship": "Position chain after successful rolling kimura"
     },
     {
       "name": "Turtle to Back Take",
       "relationship": "Alternative turtle attack to chain with rolling kimura"
     },
     {
-      "name": "Darce from Turtle",
+      "name": "Darce Choke",
       "relationship": "Complementary turtle attack targeting opposite arm configuration"
     },
     {
-      "name": "Anaconda from Turtle",
+      "name": "Anaconda Choke",
       "relationship": "Alternative choke attack from turtle creating dilemma with kimura threats"
     },
     {
@@ -293,8 +286,12 @@
       "relationship": "Understanding defense improves offensive application"
     },
     {
-      "name": "Guillotine from Turtle",
-      "relationship": "Alternative submission threat from top turtle creating attacking combinations"
+      "name": "Rolling Back Take",
+      "relationship": "Alternative rolling technique with similar mechanics"
+    },
+    {
+      "name": "Turtle to Standing",
+      "relationship": "Counter movement that can transition into standing rolling kimura variant"
     }
   ],
   "expert_insights": {

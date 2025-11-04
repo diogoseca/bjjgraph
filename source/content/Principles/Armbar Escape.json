@@ -1,21 +1,19 @@
 {
-  "metadata": {
-    "title": "Armbar Escape | BJJ Concept | BJJ Graph",
-    "description": "Understand Armbar Escape in BJJ. Learn systematic defense principles, staged escape protocols, and prevention strategies. Expert insights from Danaher, Ryan, and Bravo included.",
-    "concept_id": "C047",
-    "tags": [
-      "bjj",
-      "concept",
-      "escape",
-      "defense",
-      "submission-defense",
-      "armbar-defense",
-      "arm-protection"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Armbar Escape",
+  "description": "Master armbar escape principles in BJJ. Learn prevention strategies, staged defense protocols, and emergency techniques across all positions with detailed biomechanics.",
+  "tags": [
+    "bjj",
+    "principle",
+    "escape",
+    "defense",
+    "submission-defense",
+    "armbar-defense",
+    "arm-protection",
+    "emergency-escape"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Armbar Escape represents the systematic approach to preventing, defending against, and escaping from the armbar submission, one of the most fundamental and high-percentage finishing techniques in Brazilian Jiu-Jitsu. Unlike specific isolated escape techniques, armbar escape is a comprehensive conceptual framework that addresses the entire timeline of armbar threats - from early prevention through positional awareness, mid-stage defense during setup, to late-stage emergency escape when the submission is nearly completed. This concept encompasses the biomechanical principles of arm protection, defensive positioning, timing recognition, and sequential escape options that apply across all positions where armbars can be attacked. The ability to effectively defend and escape armbars often determines survival in both training and competition contexts, making it one of the most essential defensive conceptual elements in BJJ. Understanding armbar escape principles creates both increased safety during training and competitive advantage through eliminating opponent's primary submission threat.",
   "key_principles": [
     "Protect the elbow at all costs as the primary target of armbar mechanics - once elbow is isolated and extended, escape probability drops dramatically",
@@ -62,36 +60,56 @@
       "description": "Cognitive skill of accurately assessing which stage of armbar development opponent has achieved (early control, mid-stage isolation, or late-stage extension) and selecting the appropriate defensive response for that specific stage. This mental framework prevents wasted energy on techniques that are biomechanically impossible at current stage while maximizing success probability through optimal response timing."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Escape Fundamentals",
+      "principle_name": "Escape Fundamentals",
       "relationship_type": "Prerequisite",
       "description": "Armbar escape builds upon foundational escape principles including creating space, recognizing escape windows, and understanding defensive priorities that apply across all submission defenses"
     },
     {
-      "concept_name": "Submission Defense",
+      "principle_name": "Submission Defense",
       "relationship_type": "Extension",
       "description": "Armbar escape represents a specialized application of broader submission defense concepts, applying general defensive principles to the specific biomechanics and positional contexts of armbar attacks"
     },
     {
-      "concept_name": "Frame Creation",
+      "principle_name": "Frame Creation",
       "relationship_type": "Complementary",
       "description": "Effective framing prevents the initial arm isolation that enables armbar setups, making frame creation skills directly complementary to armbar escape protocols and often preventing the need for escape entirely"
     },
     {
-      "concept_name": "Hip Escape Mechanics",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Complementary",
       "description": "Hip movement skills support several armbar escape techniques including creating angles for stacking, generating space for arm retraction, and facilitating rotation during hitchhiker-style escapes"
     },
     {
-      "concept_name": "Defensive Posture",
+      "principle_name": "Defensive Posture",
       "relationship_type": "Prerequisite",
       "description": "Maintaining proper defensive posture with protected arm positioning represents the primary prevention layer that reduces armbar vulnerability across all positions before specific escape techniques become necessary"
     },
     {
-      "concept_name": "Control Point Hierarchy",
+      "principle_name": "Control Point Hierarchy",
       "relationship_type": "Complementary",
       "description": "Understanding which control points opponent must establish for successful armbar completion allows strategic defensive focus on denying critical controls rather than defending all positions equally"
+    },
+    {
+      "principle_name": "Bridge and Shrimp",
+      "relationship_type": "Complementary",
+      "description": "Bridging and shrimping movements create the foundational body mechanics for several armbar escapes including stacking variations and creating angles for arm recovery"
+    },
+    {
+      "principle_name": "Creating Space",
+      "relationship_type": "Complementary",
+      "description": "Space creation principles enable the critical first step in many armbar escapes where defensive space must be generated before arm can be extracted from compromised position"
+    },
+    {
+      "principle_name": "Biomechanical Principles",
+      "relationship_type": "Prerequisite",
+      "description": "Understanding biomechanical leverage, joint mechanics, and force vectors is essential for recognizing when escapes are possible versus when structural disadvantage makes resistance futile"
+    },
+    {
+      "principle_name": "Defensive Strategy",
+      "relationship_type": "Extension",
+      "description": "Armbar escape exemplifies broader defensive strategy principles including staged defense, preventive positioning, and risk management that apply across all defensive scenarios"
     }
   ],
   "application_contexts": [
@@ -100,7 +118,7 @@
       "how_applied": "Armbar escape principles apply when bottom player faces high-percentage armbar threats from mounted opponent, requiring prevention through keeping elbows tight, defensive response when opponent traps arm, and emergency stacking or hitchhiker escapes when armbar develops"
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Defending armbars from within opponent's guard requires recognizing when posture is broken and arm becomes isolated, immediately connecting hands or posturing up explosively, and avoiding common arm exposure patterns that occur during guard opening attempts"
     },
     {
@@ -116,24 +134,44 @@
       "how_applied": "Armbar threats from back mount emerge when defender fights off choke attempts by defending their neck, potentially exposing arms for armbar attacks, requiring balanced defensive approach that protects both neck and arms without overcommitting to either"
     },
     {
-      "context": "S Mount Position",
+      "context": "S Mount",
       "how_applied": "S-mount represents optimal position for armbar attacks with multiple control points established, requiring emergency-level defensive responses including immediate stacking attempts, explosive connection of hands, or recognition that tap may be necessary against proper execution"
     },
     {
-      "context": "Crucifix Control Position",
+      "context": "Crucifix",
       "how_applied": "Crucifix configurations create unique armbar vulnerabilities with limited defensive options due to body positioning, requiring early recognition and prevention through avoiding crucifix entry rather than relying on late-stage escapes that are biomechanically difficult"
     },
     {
-      "context": "Guard Position",
+      "context": "Open Guard",
       "how_applied": "As guard passer, maintaining armbar awareness prevents common attacks during guard break and passing sequences, requiring disciplined arm positioning, recognition of sweep-to-armbar combinations, and proper weight distribution that keeps arms protected while advancing position"
     },
     {
-      "context": "Closed Guard Bottom",
-      "how_applied": "Attacking armbars from closed guard bottom requires understanding how opponent can defend, which informs attacking strategy, while defensive knowledge helps recognize when own attacks are being properly defended versus when adjustments can overcome resistance"
+      "context": "High Mount",
+      "how_applied": "High mount creates elevated armbar threat due to superior hip positioning and shoulder control, requiring immediate preventive measures when opponent achieves this position including keeping elbows extremely tight and avoiding defensive pushing that extends arms"
     },
     {
       "context": "Armbar Control",
       "how_applied": "Understanding the control position from both perspectives - what defender can still accomplish versus what becomes impossible - creates realistic assessment of escape probability and informs decisions about when to tap versus when escape attempts remain viable"
+    },
+    {
+      "context": "Mounted Triangle",
+      "how_applied": "Mounted triangle creates dual threat scenarios where defending the triangle choke may expose arms to armbar finish, requiring coordinated defensive approach that addresses both threats without creating vulnerability to either"
+    },
+    {
+      "context": "Modified Mount",
+      "how_applied": "Modified mount with one leg stepped over provides strong armbar setup position, requiring recognition of this threat during mount escapes and adjustment of defensive strategy to prevent arm isolation during transitional moments"
+    },
+    {
+      "context": "Knee on Belly",
+      "how_applied": "Knee on belly position allows quick transitions to armbar when defender uses arms defensively, requiring careful frame positioning that doesn't extend arms vulnerably and awareness of opponent's armbar entry options from this transitional position"
+    },
+    {
+      "context": "North-South",
+      "how_applied": "North-south position creates unique armbar angles including reverse armbar threats, requiring understanding of unconventional arm isolation patterns and defensive adjustments for these less common but effective armbar variations"
+    },
+    {
+      "context": "Omoplata Control",
+      "how_applied": "Omoplata positions frequently transition to armbars when defender attempts to roll out or escape, requiring awareness of this common transition and defensive positioning that prevents arm isolation during omoplata defense attempts"
     }
   ],
   "decision_framework": [
@@ -315,22 +353,22 @@
     },
     {
       "name": "Submission Defense",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader submission defense framework that armbar escape principles exemplify and build upon"
     },
     {
       "name": "Escape Fundamentals",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundation concepts including space creation and escape timing that support armbar-specific defensive techniques"
     },
     {
       "name": "Defensive Posture",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Proper defensive posture prevents arm isolation that enables armbar attacks across all positions"
     },
     {
       "name": "Frame Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Framing techniques must be executed with armbar awareness to avoid creating arm exposure during defensive movements"
     },
     {
@@ -344,14 +382,14 @@
       "relationship": "Specific transition techniques that implement armbar escape principles in concrete technical sequences"
     },
     {
-      "name": "Triangle Escape",
-      "content_type": "Transition",
-      "relationship": "Triangle escape techniques must account for armbar transitions that occur during triangle defense"
+      "name": "Hip Escape Mechanics",
+      "content_type": "Principle",
+      "relationship": "Hip movement skills support multiple armbar escape techniques including creating angles for stacking and rotation"
     },
     {
-      "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
-      "relationship": "Hip movement skills support multiple armbar escape techniques including creating angles for stacking and rotation"
+      "name": "S Mount",
+      "content_type": "Position",
+      "relationship": "Optimal armbar attacking position requiring emergency-level defensive responses and realistic assessment of escape probability"
     }
   ],
   "expert_insights": {

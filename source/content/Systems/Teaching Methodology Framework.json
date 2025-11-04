@@ -1,12 +1,9 @@
 {
-  "metadata": {
-    "title": "Teaching Methodology Framework | BJJ System | BJJ Graph",
-    "description": "Master BJJ teaching methodology with systematic instruction framework. Progressive resistance training, positional hierarchy, and skill development principles.",
-    "system_id": "SC047",
-    "tags": ["bjj", "teaching", "methodology", "instruction", "coaching", "pedagogy", "skill-development", "progressive-training"],
-    "system_type": "Training Methodology",
-    "difficulty_level": "Advanced"
-  },
+  "name": "Teaching Methodology Framework",
+  "description": "Master BJJ teaching with systematic instruction framework. Progressive resistance, positional hierarchy, and skill development for coaching excellence.",
+  "tags": ["bjj", "teaching", "methodology", "instruction", "coaching", "pedagogy", "skill-development", "progressive-training"],
+  "system_type": "Training Methodology",
+  "difficulty_level": "Advanced",
   "overview": "The Teaching Methodology Framework represents a comprehensive systematic approach to Brazilian Jiu-Jitsu instruction that synthesizes the most effective pedagogical principles from elite-level coaches. This framework emphasizes progressive resistance training, positional hierarchy understanding, and technical precision over athleticism. The system recognizes that effective BJJ instruction requires more than demonstrating techniques - it demands a structured progression that develops both technical knowledge and problem-solving abilities. The methodology integrates three critical components: conceptual understanding of fundamental principles, systematic drilling progressions that build muscle memory, and controlled sparring environments that allow safe experimentation. Unlike traditional approaches that focus on memorizing large numbers of techniques, this framework emphasizes depth over breadth, ensuring students develop robust foundational skills before progressing to advanced material. The system also addresses the critical relationship between instruction methodology and student retention, recognizing that properly structured classes create confident practitioners who remain engaged long-term.",
   "key_principles": [
     "Position before submission - establish and maintain dominant positions before attempting finishes",
@@ -245,76 +242,71 @@
   "related_content": [
     {
       "name": "Positional Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational concept underlying entire teaching methodology and curriculum organization"
     },
     {
       "name": "Progressive Resistance Training",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Core drilling methodology ensuring proper technical development before pressure testing"
     },
     {
       "name": "Drilling Methodology",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Specific implementation of practice protocols within teaching framework"
     },
     {
       "name": "Position-Over-Submission Approach",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic philosophy emphasizing positional control before attacking submissions"
     },
     {
       "name": "Concepts vs Techniques",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Pedagogical distinction between teaching isolated techniques versus underlying principles"
     },
     {
       "name": "System Building",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Approach to developing connected sequences rather than isolated techniques"
     },
     {
       "name": "Escape Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Systematic prioritization of defensive skills in curriculum design"
     },
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Fundamental movement pattern essential to defensive curriculum"
     },
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Core defensive concept taught in early curriculum phases"
     },
     {
       "name": "Bridging Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential movement skill for escapes and position improvement"
     },
     {
-      "name": "Mount Bottom",
+      "name": "Mount",
       "content_type": "Position",
-      "relationship": "Primary defensive position in early curriculum phase, first major escape taught"
+      "relationship": "Primary offensive position for teaching control before submissions"
     },
     {
-      "name": "Side Control Bottom",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Critical defensive position requiring systematic escape instruction"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Foundational neutral position bridging defensive to offensive curriculum"
     },
     {
-      "name": "Mount Top",
-      "content_type": "Position",
-      "relationship": "Primary offensive position teaching control before submissions"
-    },
-    {
-      "name": "Back Control Top",
+      "name": "Back Control",
       "content_type": "Position",
       "relationship": "Highest-value position for teaching systematic submission approach"
     },
@@ -329,16 +321,6 @@
       "relationship": "Fundamental escape from mount bottom position"
     },
     {
-      "name": "Shrimp Escape",
-      "content_type": "Transition",
-      "relationship": "Core movement for escaping side control and other pinning positions"
-    },
-    {
-      "name": "Technical Stand-up",
-      "content_type": "Transition",
-      "relationship": "Essential defensive skill for returning to standing position safely"
-    },
-    {
       "name": "Hip Bump Sweep",
       "content_type": "Transition",
       "relationship": "Fundamental offensive technique from closed guard in neutral curriculum phase"
@@ -349,24 +331,44 @@
       "relationship": "Core neutral position offensive technique in curriculum progression"
     },
     {
-      "name": "De La Riva Sweep",
+      "name": "Technical Standup",
       "content_type": "Transition",
-      "relationship": "Advanced open guard technique introduced in specialization phase"
-    },
-    {
-      "name": "Spider Guard Sweeps",
-      "content_type": "Transition",
-      "relationship": "Advanced guard system technique in later curriculum phases"
-    },
-    {
-      "name": "X-Guard Sweep",
-      "content_type": "Transition",
-      "relationship": "Advanced guard position sweep taught in specialization phase"
+      "relationship": "Essential defensive skill for returning to standing position safely"
     },
     {
       "name": "Rear Naked Choke",
       "content_type": "Submission",
       "relationship": "Primary submission from back control in offensive curriculum phase"
+    },
+    {
+      "name": "Blue to Purple Progression",
+      "content_type": "System",
+      "relationship": "Complementary framework for intermediate student development within teaching methodology"
+    },
+    {
+      "name": "Roger Gracie Fundamental System",
+      "content_type": "System",
+      "relationship": "Example of fundamental-focused approach emphasizing positional control and basic techniques"
+    },
+    {
+      "name": "Competition Preparation System",
+      "content_type": "System",
+      "relationship": "Advanced application of teaching methodology for competition-focused students"
+    },
+    {
+      "name": "Positional Sparring",
+      "content_type": "Principle",
+      "relationship": "Core training method for developing positional proficiency with targeted practice"
+    },
+    {
+      "name": "Maximum Efficiency Principle",
+      "content_type": "Principle",
+      "relationship": "Underlying philosophy emphasizing technical precision over athletic attributes"
+    },
+    {
+      "name": "Energy Management System",
+      "content_type": "Principle",
+      "relationship": "Important concept for sustainable training practices and longevity"
     }
   ],
   "expert_insights": {

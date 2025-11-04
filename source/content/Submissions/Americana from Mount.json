@@ -1,18 +1,15 @@
 {
-  "metadata": {
-    "title": "Americana from Mount | BJJ Submission | BJJ Graph",
-    "description": "Master Americana from Mount in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
-    "submission_id": "SUB002",
-    "tags": ["bjj", "submission", "americana", "shoulder-lock", "mount", "joint-lock", "top-control"],
-    "submission_category": "Joint Lock",
-    "submission_type": "Shoulder Lock",
-    "target_area": "Shoulder joint (rotator cuff)",
-    "starting_position": "Mount Top",
-    "success_rates": {
-      "beginner": 45,
-      "intermediate": 60,
-      "advanced": 75
-    }
+  "name": "Americana from Mount",
+  "description": "Master the Americana shoulder lock from mount with safety protocols, setup, and execution. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "tags": ["bjj", "submission", "americana", "shoulder-lock", "mount", "joint-lock", "top-control"],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint (rotator cuff)",
+  "starting_position": "Mount",
+  "success_rates": {
+    "beginner": 45,
+    "intermediate": 60,
+    "advanced": 75
   },
   "overview": "The Americana from Mount is a fundamental shoulder lock that targets the rotator cuff by isolating the opponent's arm and applying a figure-four grip to force external rotation beyond the joint's natural range. This submission is one of the highest-percentage attacks from the mount position due to the superior control and weight distribution available from top position.\n\nThe technique's effectiveness stems from the combination of positional dominance and mechanical advantage. When executed properly from mount, the practitioner uses their body weight to pin the opponent's shoulder to the mat while simultaneously controlling the wrist and applying rotational pressure through the elbow. This creates a powerful lever system that attacks multiple points of the shoulder complex simultaneously.\n\nThe Americana from Mount serves as a cornerstone technique in any top game arsenal, functioning not only as a direct finishing option but also as a gateway to other submissions and positional advancements. Its reliability in both gi and no-gi competition, combined with its straightforward mechanics, makes it an essential submission for practitioners at all levels.",
   "safety_considerations": {
@@ -127,7 +124,7 @@
     {
       "defense": "Opponent keeps elbows tight to body and refuses to extend arms",
       "effectiveness": "High",
-      "your_adjustment": "Use collar control or gifts wraps to isolate an arm, or transition to other mount attacks like cross-collar chokes or armbars to force defensive reactions that expose the arm"
+      "your_adjustment": "Use collar control or gift wraps to isolate an arm, or transition to other mount attacks like cross-collar chokes or armbars to force defensive reactions that expose the arm"
     },
     {
       "defense": "Opponent attempts to roll or bridge explosively when arm is captured",
@@ -287,17 +284,44 @@
       "safety_emphasis": "As you become more skilled, take extra care with less experienced partners. Your increased leverage and technique makes you more dangerous. Always calibrate your pressure to your partner's experience level. Senior practitioners have special responsibility to maintain safety culture."
     }
   ],
+  "from_positions": [
+    "Mount",
+    "High Mount",
+    "Modified Mount",
+    "S Mount",
+    "Technical Mount",
+    "Side Control",
+    "North-South",
+    "Knee on Belly"
+  ],
+  "related_submissions": [
+    "Armbar from Mount",
+    "Kimura from Mount",
+    "Ezekiel from Mount",
+    "Americana Variations",
+    "Kimura",
+    "Kimura Variations",
+    "Americana from Side Control",
+    "Armbar from Side Control",
+    "Arm Triangle",
+    "Reverse Armbar",
+    "Straight Armbar",
+    "Kimura from Side Control",
+    "Kimura from North-South",
+    "Monoplata from Mount",
+    "Triangle from Mount"
+  ],
   "related_content": [
     {
-      "name": "Mount Top",
+      "name": "Mount",
       "relationship": "Primary starting position for this submission"
     },
     {
-      "name": "High Mount Top",
+      "name": "High Mount",
       "relationship": "Advanced positional variation that increases americana effectiveness"
     },
     {
-      "name": "S Mount Top",
+      "name": "S Mount",
       "relationship": "Alternative mount position providing greater leverage for americana"
     },
     {
@@ -321,12 +345,20 @@
       "relationship": "Choke option from mount that works in submission chain with americana"
     },
     {
-      "name": "Gift Wrap Top Position",
+      "name": "Gift Wrap",
       "relationship": "Control position that can be used to set up americana"
     },
     {
-      "name": "Mounted Crucifix Top",
+      "name": "Mounted Crucifix",
       "relationship": "Advanced control position where americana can also be applied"
+    },
+    {
+      "name": "Mount Control",
+      "relationship": "Fundamental control system required before attempting americana"
+    },
+    {
+      "name": "Submission Chains",
+      "relationship": "Principle of linking americana with armbars and other attacks"
     }
   ],
   "expert_insights": {

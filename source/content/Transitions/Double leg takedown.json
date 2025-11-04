@@ -1,23 +1,20 @@
 {
-  "metadata": {
-    "title": "Double Leg Takedown | BJJ Technique | BJJ Graph",
-    "description": "Master the Double Leg Takedown in BJJ. Complete execution from standing to side control with setup, timing, and counters. Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T002",
-    "tags": [
-      "bjj",
-      "transition",
-      "takedown",
-      "wrestling",
-      "standing",
-      "side-control"
-    ],
-    "starting_position": "Standing Position",
-    "ending_position": "Side Control Top",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Double leg takedown",
+  "description": "Master the Double Leg Takedown in BJJ. Complete execution from standing to side control with setup, timing, and counters. Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "takedown",
+    "wrestling",
+    "standing",
+    "side-control"
+  ],
+  "starting_position": "Standing Position",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Double Leg Takedown is a fundamental wrestling technique that has become essential in Brazilian Jiu-Jitsu, particularly in no-gi and MMA contexts. This high-percentage takedown involves attacking both of your opponent's legs simultaneously, driving through their base, and taking them to the mat where you can establish a dominant position. The technique is prized for its direct, explosive nature and its ability to immediately put you in a top position.\n\nUnlike single-leg attacks that focus on isolating one leg, the double leg provides greater control over your opponent's entire lower body, making it harder for them to sprawl or defend. The key to successful execution lies in proper setup, explosive penetration step, deep hand positioning behind the knees, and continuous forward pressure. When executed correctly, the double leg can bypass an opponent's guard entirely and land you directly in side control or mount.\n\nThe double leg takedown requires excellent timing, level change mechanics, and the ability to close distance quickly. In BJJ competition, it's often used in conjunction with grip fighting and feints to create openings. The transition from standing to top position is critical—maintaining control throughout the takedown ensures you don't give your opponent opportunity to establish guard or initiate a scramble.",
   "key_principles": [
@@ -252,7 +249,7 @@
       "relationship": "Primary counter—understanding sprawl defense helps improve your double leg timing and depth"
     },
     {
-      "name": "Front Headlock Control Position",
+      "name": "Front Headlock",
       "relationship": "Follow-up—if double leg is stuffed, transition to front headlock for submissions or back take"
     },
     {
@@ -264,7 +261,7 @@
       "relationship": "Alternative finish—if opponent sprawls on your double leg, anaconda becomes available"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Primary ending position—double leg most commonly finishes in side control"
     },
     {

@@ -1,27 +1,24 @@
 {
-  "metadata": {
-    "title": "Gogoplata | BJJ Submission | BJJ Graph",
-    "description": "Master the Gogoplata submission in BJJ. Complete guide with safety protocols, setup from rubber guard, execution steps. Success rates: Beginner 15%, Intermediate 30%, Advanced 50%.",
-    "submission_id": "SUB047",
-    "tags": [
-      "bjj",
-      "submission",
-      "gogoplata",
-      "choke",
-      "rubber-guard",
-      "10th-planet",
-      "advanced-technique",
-      "flexibility-required"
-    ],
-    "submission_category": "Choke",
-    "submission_type": "Shin Choke",
-    "target_area": "Trachea and carotid arteries",
-    "starting_position": "Rubber Guard Bottom",
-    "success_rates": {
-      "beginner": 15,
-      "intermediate": 30,
-      "advanced": 50
-    }
+  "name": "Gogoplata",
+  "description": "Master the Gogoplata shin choke in BJJ. Complete guide with safety protocols, rubber guard setup, and execution steps. Success rates: Beginner 15%, Intermediate 30%, Advanced 50%.",
+  "tags": [
+    "bjj",
+    "submission",
+    "gogoplata",
+    "choke",
+    "rubber-guard",
+    "10th-planet",
+    "advanced-technique",
+    "flexibility-required"
+  ],
+  "submission_category": "Choke",
+  "submission_type": "Shin Choke",
+  "target_area": "Trachea and carotid arteries",
+  "starting_position": "Rubber Guard",
+  "success_rates": {
+    "beginner": 15,
+    "intermediate": 30,
+    "advanced": 50
   },
   "overview": "The Gogoplata is an advanced submission technique that utilizes the shin bone to create a choke by pressing against the opponent's trachea while simultaneously pulling their head forward. This highly technical submission is most commonly associated with Eddie Bravo's 10th Planet Jiu-Jitsu system and requires exceptional flexibility, precise positioning, and excellent timing. The Gogoplata is executed primarily from rubber guard positions, though variations exist from mount and other control positions.\n\nWhat makes the Gogoplata particularly effective is its unexpected nature and the difficulty opponents face in defending once the position is established. Unlike traditional chokes that rely on arm or collar grips, the Gogoplata uses the shin bone as the primary choking mechanism, making it extremely difficult to grip-fight or hand-fight out of the submission. The technique's success heavily depends on the practitioner's ability to maintain high guard control, break the opponent's posture, and possess the hip flexibility necessary to bring the shin across the throat.\n\nWhile the Gogoplata has a reputation as a low-percentage submission due to its technical complexity and flexibility requirements, when executed by practitioners with the proper physical attributes and technical understanding, it becomes a powerful addition to the submission arsenal. The technique has been successfully used in high-level competition, most notably by practitioners like Nick Diaz, Shinya Aoki, and other flexibility-focused grapplers. The Gogoplata represents the evolution of submission grappling beyond traditional techniques, showcasing how creativity and physical attributes can be leveraged to create finishing opportunities from seemingly neutral positions.",
   "safety_considerations": {
@@ -211,7 +208,7 @@
   ],
   "variations_and_setups": [
     {
-      "variation_name": "Gogoplata from Mount Top",
+      "variation_name": "Gogoplata from High Mount",
       "description": "When you have secured high mount position, opponent's defensive posture often creates an opening for the gogoplata. Thread your shin across their throat from the top position, using your body weight to drive the pressure down rather than pulling their head up. This variation requires even more flexibility but can be highly effective against defensive opponents who tuck their elbows in mount.",
       "when_to_use": "When you have high mount and opponent is defending with elbows tight to their body, creating space near their neck. Particularly effective when opponent turns to their side attempting to escape mount."
     },
@@ -226,7 +223,7 @@
       "when_to_use": "When opponent defends your triangle by pulling their trapped arm free. The defensive motion often leaves their head in perfect position for gogoplata. This creates a powerful triangle-to-gogoplata combination attack."
     },
     {
-      "variation_name": "Inverted Gogoplata from Bottom",
+      "variation_name": "Inverted Gogoplata from Inverted Guard",
       "description": "From inverted guard positions, you can attack the gogoplata with your shin coming across from the opposite direction. This variation is even more flexibility-dependent but can catch opponents completely by surprise. Your shin crosses their throat from underneath rather than from above, creating a different angle of attack.",
       "when_to_use": "When you are comfortable in inverted guard positions and opponent drives forward into your space. Advanced variation primarily used by extremely flexible grapplers or those with extensive 10th Planet training."
     }
@@ -308,18 +305,35 @@
     }
   ],
   "from_positions": [
-    "Rubber Guard Bottom",
-    "Mission Control Bottom",
-    "Closed Guard Bottom",
-    "Mount Top"
+    "Rubber Guard",
+    "Mission Control",
+    "Closed Guard",
+    "High Mount",
+    "Open Guard",
+    "Inverted Guard"
+  ],
+  "related_submissions": [
+    "Triangle Choke",
+    "Omoplata",
+    "Baratoplata",
+    "Triangle from Closed Guard",
+    "Triangle from Guard",
+    "Omoplata from Guard",
+    "Armbar from Guard",
+    "Guillotine Choke",
+    "Triangle from Mount",
+    "Armbar from Mount",
+    "Inverted Triangle",
+    "Monoplata",
+    "Monoplata from Guard"
   ],
   "related_content": [
     {
-      "name": "Rubber Guard Bottom",
+      "name": "Rubber Guard",
       "relationship": "Primary position for gogoplata setup - provides the high guard control and broken posture necessary for successful execution"
     },
     {
-      "name": "Mission Control Bottom",
+      "name": "Mission Control",
       "relationship": "Optimal rubber guard configuration for gogoplata - arm trap and posture control create ideal conditions for shin placement"
     },
     {
@@ -339,15 +353,15 @@
       "relationship": "Strategic framework that encompasses gogoplata as a primary finishing option from rubber guard positions"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "relationship": "Starting position before establishing rubber guard - must transition through closed guard to access gogoplata setups"
     },
     {
-      "name": "Mounted Triangle Bottom",
+      "name": "Mounted Triangle",
       "relationship": "Alternative finishing position - can transition from mount to gogoplata when flexibility allows"
     },
     {
-      "name": "Inverted Guard Bottom",
+      "name": "Inverted Guard",
       "relationship": "Advanced position allowing inverted gogoplata variations for extremely flexible practitioners"
     },
     {
@@ -362,21 +376,6 @@
       "name": "Armbar from Guard",
       "relationship": "Alternative submission from similar positions - if gogoplata is defended, armbar often becomes available"
     }
-  ],
-  "related_submissions": [
-    "Triangle Choke",
-    "Omoplata",
-    "Baratoplata",
-    "Triangle from Closed Guard",
-    "Triangle from Guard",
-    "Omoplata from Guard",
-    "Armbar from Guard",
-    "Guillotine Choke",
-    "Triangle from Mount",
-    "Armbar from Mount",
-    "Inverted Triangle",
-    "Monoplata",
-    "Monoplata from Guard"
   ],
   "expert_insights": {
     "danaher": "The gogoplata represents an interesting case study in submission mechanics - it is one of the few submissions where the physical attributes of the practitioner (specifically flexibility) play a nearly deterministic role in whether the technique is even viable for them. From a systematic perspective, the gogoplata should be viewed not as a standalone technique but as the terminal point of a comprehensive rubber guard system. The mechanics are straightforward: you are using your shin bone as a lever against the trachea while pulling the opponent's head forward to create compression. However, the setup requires such specific positional prerequisites - broken posture, high guard control, and the hip flexibility to achieve the shin placement - that it becomes a low-percentage technique for most practitioners. The safety considerations cannot be overstated: this is a tracheal compression technique, not a blood choke, which means the injury potential is significantly higher. In training, I recommend treating the gogoplata with the same respect you would give to heel hooks - perfect technical execution, slow application, and immediate respect for the tap. For competition, the risk-reward calculation heavily depends on your flexibility and your opponent's defensive awareness. If you possess exceptional flexibility and have developed the necessary control through systematic rubber guard training, the gogoplata can be a legitimate finishing option. However, for most practitioners, the effort invested in developing gogoplata proficiency would likely yield better returns if invested in perfecting triangle chokes or omoplatas, which have similar setups but broader applicability and lower injury risk.",

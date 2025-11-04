@@ -1,23 +1,22 @@
 {
-  "metadata": {
-    "title": "Guard Bottom Transition | BJJ Technique | BJJ Graph",
-    "description": "Master Guard Bottom Transition in BJJ. Learn proper sitting mechanics from standing to open guard. Success rates: Beginner 70%, Intermediate 80%, Advanced 90%.",
-    "transition_id": "T001",
-    "tags": [
-      "bjj",
-      "transition",
-      "guard",
-      "guard pull",
-      "fundamental",
-      "open guard"
-    ],
-    "starting_position": "Standing Position",
-    "ending_position": "Open Guard Bottom",
-    "success_rates": {
-      "beginner": 70,
-      "intermediate": 80,
-      "advanced": 90
-    }
+  "name": "Guard Bottom Transition",
+  "description": "Learn Guard Bottom Transition in BJJ. Master proper guard pulling mechanics from standing to open guard. Success rates: Beginner 70%, Intermediate 80%, Advanced 90%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard",
+    "guard pull",
+    "fundamental",
+    "open guard",
+    "sitting",
+    "guard entry"
+  ],
+  "starting_position": "Standing Position",
+  "ending_position": "Open Guard",
+  "success_rates": {
+    "beginner": 70,
+    "intermediate": 80,
+    "advanced": 90
   },
   "overview": "The Guard Bottom Transition, commonly known as pulling guard, is a fundamental BJJ technique that allows a practitioner to voluntarily move from standing position to open guard bottom. This transition is essential in modern Brazilian Jiu-Jitsu as it enables grapplers to establish their preferred guard system without engaging in the takedown battle. The technique involves controlled sitting while maintaining grips on the opponent, ensuring proper distance management and immediate guard establishment. Unlike a wrestling-focused approach where both practitioners compete for takedowns, pulling guard represents a strategic choice to fight from the bottom position, leveraging the comprehensive guard attack system that BJJ is renowned for. This transition is particularly valuable in sport BJJ competition where pulling guard incurs no penalty and allows immediate implementation of sweeps, submissions, and control strategies from the bottom position.",
   "key_principles": [
@@ -233,14 +232,14 @@
     }
   ],
   "safety_considerations": "When pulling guard, controlled application is essential to prevent injury. Sit with control rather than flopping backward to avoid jarring your tailbone, spine, or head against the mat. Ensure adequate space behind you before pulling to prevent collision with walls, other grapplers, or mat edges. Maintain grips on your partner to prevent them from falling awkwardly or landing with their full weight in a dangerous manner. Practice the sitting motion slowly and progressively before adding speed or resistance. In training, communicate with your partner about guard pulling to prevent surprise reactions that could lead to collision injuries. Be especially careful on hard or thin mats where impact forces are greater. If you have existing back, tailbone, or hip injuries, consult with medical professionals before practicing guard pulling extensively.",
-  "position_integration": "The Guard Bottom Transition serves as the fundamental entry point into the entire open guard system in Brazilian Jiu-Jitsu. Rather than engaging in takedown exchanges, pulling guard allows immediate implementation of sweeps, submissions, and control strategies from bottom position. This transition connects the standing phase to positions like Butterfly Guard, Spider Guard, De La Riva Guard, Seated Guard, X-Guard, Single Leg X Guard, and Closed Guard Bottom depending on grip configuration and opponent's posture. In modern sport BJJ, guard pulling is a core strategic tool that enables grapplers to play to their strengths rather than being forced into wrestling exchanges. The transition integrates with the broader positional hierarchy by allowing practitioners to voluntarily move to guard bottom (a neutral to slightly disadvantageous position in pure positional terms) but one that offers extensive attacking opportunities in BJJ's technical framework. Guard pulling also connects to the guard retention system, as proper execution of the pull sets up strong initial guard structure that makes retention easier against passing attempts.",
+  "position_integration": "The Guard Bottom Transition serves as the fundamental entry point into the entire open guard system in Brazilian Jiu-Jitsu. Rather than engaging in takedown exchanges, pulling guard allows immediate implementation of sweeps, submissions, and control strategies from bottom position. This transition connects the standing phase to positions like Butterfly Guard, Spider Guard, De La Riva Guard, Seated Guard, X-Guard, Single Leg X-Guard, and Closed Guard depending on grip configuration and opponent's posture. In modern sport BJJ, guard pulling is a core strategic tool that enables grapplers to play to their strengths rather than being forced into wrestling exchanges. The transition integrates with the broader positional hierarchy by allowing practitioners to voluntarily move to guard bottom (a neutral to slightly disadvantageous position in pure positional terms) but one that offers extensive attacking opportunities in BJJ's technical framework. Guard pulling also connects to the guard retention system, as proper execution of the pull sets up strong initial guard structure that makes retention easier against passing attempts.",
   "related_content": [
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "relationship": "Direct destination - one possible guard system to establish after pulling"
     },
     {
-      "name": "Open Guard Bottom",
+      "name": "Open Guard",
       "relationship": "Primary destination - most common guard type established from pull"
     },
     {
@@ -248,7 +247,7 @@
       "relationship": "Specific variant - establishing butterfly hooks immediately after sitting"
     },
     {
-      "name": "Spider Guard Bottom",
+      "name": "Spider Guard",
       "relationship": "Specific variant - common guard system established with sleeve grips and feet on biceps"
     },
     {
@@ -256,7 +255,7 @@
       "relationship": "Specific variant - establishing DLR hook and controls after pull"
     },
     {
-      "name": "Seated Guard Bottom",
+      "name": "Seated Guard",
       "relationship": "Alternative variant - semi-standing guard position after pull"
     },
     {
@@ -274,6 +273,22 @@
     {
       "name": "Guard Replacement",
       "relationship": "Related transition - recovering guard structure if initial pull is compromised"
+    },
+    {
+      "name": "X-Guard",
+      "relationship": "Advanced variant - one leg X-hook and foot control after pull"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Advanced variant - single leg control system from guard pull"
+    },
+    {
+      "name": "Lasso Guard",
+      "relationship": "Gi-specific variant - lasso grip configuration after pull"
+    },
+    {
+      "name": "Collar Sleeve Guard",
+      "relationship": "Gi-specific variant - collar and sleeve grip guard after pull"
     }
   ],
   "expert_insights": {

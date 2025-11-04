@@ -1,16 +1,13 @@
 {
-  "metadata": {
-    "title": "Arm Extraction | BJJ Technique | BJJ Graph",
-    "description": "Learn Arm Extraction escape from Side Control. Step-by-step technique to recover guard position. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
-    "transition_id": "T223",
-    "tags": ["bjj", "escape", "side-control-escape", "guard-recovery", "defensive-technique", "framing", "hip-escape"],
-    "starting_position": "Side Control Bottom",
-    "ending_position": "Guard Recovery",
-    "success_rates": {
-      "beginner": 45,
-      "intermediate": 60,
-      "advanced": 75
-    }
+  "name": "Arm Extraction",
+  "description": "Master Arm Extraction escape from Side Control. Learn systematic arm removal to recover guard. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "tags": ["bjj", "escape", "side-control-escape", "guard-recovery", "defensive-technique", "framing", "hip-escape"],
+  "starting_position": "Side Control",
+  "ending_position": "Guard Recovery",
+  "success_rates": {
+    "beginner": 45,
+    "intermediate": 60,
+    "advanced": 75
   },
   "overview": "Arm Extraction is a fundamental defensive technique used to escape side control by systematically removing the opponent's underhook or crossface control. This escape creates the necessary space to insert frames and recover guard position. The technique exploits the opponent's commitment to chest-to-chest pressure by using precise timing and hip movement to extract the trapped arm.\n\nThe Arm Extraction serves as a critical gateway technique connecting bottom side control to guard recovery. Unlike explosive bridging escapes that require significant strength and timing, this method relies on technical precision and incremental space creation. By addressing the primary control mechanism—the opponent's upper body connection—practitioners can systematically dismantle the pin and create escape pathways.\n\nThis escape is particularly effective against pressure-based top players who prioritize chest pressure over weight distribution. The technique's success depends on proper frame placement, shoulder rotation mechanics, and the ability to maintain defensive posture throughout the extraction sequence. Mastery of arm extraction fundamentally improves survival rates under side control and provides essential defensive foundations for all skill levels.",
   "key_principles": [

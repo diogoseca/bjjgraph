@@ -1,16 +1,13 @@
 {
-  "metadata": {
-    "title": "50-50 Entry from Standing | BJJ Technique | BJJ Graph",
-    "description": "Master the 50-50 Entry from Standing in BJJ. Step-by-step execution from standing position to 50-50 Guard. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.",
-    "transition_id": "T001",
-    "tags": ["bjj", "technique", "50-50", "guard pull", "leg entanglement", "standing"],
-    "starting_position": "Standing Position",
-    "ending_position": "50-50 Guard Bottom",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 45,
-      "advanced": 60
-    }
+  "name": "50-50 Entry from Standing",
+  "description": "Master the 50-50 Entry from Standing in BJJ. Step-by-step execution from standing position to 50-50 Guard. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.",
+  "tags": ["bjj", "technique", "50-50", "guard pull", "leg entanglement", "standing"],
+  "starting_position": "Standing Position",
+  "ending_position": "50-50 Guard",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 45,
+    "advanced": 60
   },
   "overview": "The 50-50 Entry from Standing is a modern leg entanglement technique that allows you to establish the 50-50 Guard position directly from a standing engagement. This entry is particularly effective in no-gi competition where traditional guard pulls may be penalized or less effective. The technique involves controlling your opponent's leg while simultaneously sitting to the mat, creating a symmetrical leg entanglement that offers both offensive and defensive advantages.\n\nThis entry has become increasingly popular in modern competitive BJJ, particularly among leg lock specialists who use the 50-50 as a platform for attacking heel hooks and toe holds. The position's symmetry creates a strategic stalemate that can frustrate opponents unfamiliar with its intricacies, while providing numerous attacking opportunities for those well-versed in the system. The entry requires precise timing and coordination to successfully establish the position without exposing yourself to counters.",
   "key_principles": [
@@ -239,7 +236,7 @@
   "position_integration": "The 50-50 Entry from Standing represents a modern approach to establishing guard that bypasses many traditional guard pull sequences. This technique fits into the broader leg entanglement system that includes positions like outside ashi garami, inside ashi garami, single leg X, and X-guard. From 50-50, practitioners have access to a complete system of attacks and transitions: offensive options include inside heel hooks, toe holds, straight ankle locks, and transitions to more dominant leg entanglement positions like outside ashi or the saddle position. Defensively, the position's symmetry provides protection against your opponent's leg lock attacks while you work your offense.\n\nStrategically, the 50-50 entry from standing is particularly valuable in no-gi competition where traditional guard pulls may score negatively or put you at a disadvantage. It allows you to establish a complex position that many opponents are unfamiliar with, creating immediate tactical problems for them to solve. The position also serves as a gateway to the modern leg lock game, which has become increasingly important in contemporary BJJ competition. Understanding when to enter 50-50 versus other guard pull options (traditional closed guard, seated guard, butterfly guard) is an important strategic consideration that depends on your opponent's strengths, the ruleset, and your own skill set in different positions.",
   "related_content": [
     {
-      "name": "50-50 Guard Bottom",
+      "name": "50-50 Guard",
       "relationship": "Target position - the end state of this technique"
     },
     {
@@ -251,7 +248,7 @@
       "relationship": "Related leg entanglement entry option"
     },
     {
-      "name": "Pull guard",
+      "name": "Guard Pull",
       "relationship": "General category - 50-50 entry is a specific type of guard pull"
     },
     {
@@ -259,12 +256,8 @@
       "relationship": "Similar sitting entry but to different guard position"
     },
     {
-      "name": "Heel Hook",
-      "relationship": "Primary submission attack from 50-50 position"
-    },
-    {
       "name": "Inside Heel Hook",
-      "relationship": "Specific heel hook variation commonly used from 50-50"
+      "relationship": "Primary submission attack from 50-50 position"
     },
     {
       "name": "Single Leg X Entry",
@@ -277,6 +270,10 @@
     {
       "name": "Saddle Entry from Top",
       "relationship": "Follow-up position that can be achieved by adjusting from 50-50"
+    },
+    {
+      "name": "Heel Hook",
+      "relationship": "Common submission finish from 50-50 position"
     }
   ],
   "expert_insights": {

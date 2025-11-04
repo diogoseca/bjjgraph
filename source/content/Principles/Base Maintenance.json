@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Base Maintenance | BJJ Concept | BJJ Graph",
-    "description": "Understand Base Maintenance in BJJ. Learn stability principles, weight distribution, and cross-position application. Expert insights from Danaher, Ryan, and Bravo included.",
-    "concept_id": "C111",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "stability",
-      "control",
-      "base",
-      "weight-distribution",
-      "biomechanics"
-    ],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Base Maintenance",
+  "description": "Understand Base Maintenance in BJJ. Learn stability principles, weight distribution, and cross-position application. Expert insights from Danaher, Ryan, and Bravo included.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "stability",
+    "control",
+    "base",
+    "weight-distribution",
+    "biomechanics"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Base Maintenance represents the fundamental skill of establishing and preserving structural stability through proper weight distribution, alignment, and connection points that maximize control while minimizing vulnerability to displacement. Unlike specific techniques, base maintenance is a comprehensive conceptual framework that applies across all positions and phases of BJJ. This concept encompasses the biomechanical principles, dynamic adjustments, and strategic approach to creating stable platforms from which techniques can be executed effectively. Base maintenance serves as both a defensive mechanism that prevents sweeps, reversals, and off-balancing, and an offensive foundation that enables powerful technique application. The ability to maintain an effective base often determines whether a practitioner can successfully implement techniques or remains vulnerable to positional reversals, making it one of the most essential conceptual elements in BJJ.",
   "key_principles": [
     "Distribute weight optimally across multiple support points",
@@ -63,41 +60,56 @@
       "description": "The capacity to move between positions while maintaining functional base throughout the transition. This involves coordinating base adjustments with movement so stability is never completely compromised during position changes."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Posture Breaking",
+      "principle_name": "Posture Breaking",
       "relationship_type": "Complementary",
       "description": "Base maintenance and posture breaking are opposing concepts that define offensive and defensive priorities. Understanding base maintenance enhances ability to recognize and exploit base vulnerabilities in opponents."
     },
     {
-      "concept_name": "Weight Distribution",
+      "principle_name": "Weight Distribution",
       "relationship_type": "Prerequisite",
       "description": "Weight distribution is the foundational component of base maintenance. Effective base maintenance requires sophisticated understanding and application of weight distribution principles across all positions."
     },
     {
-      "concept_name": "Biomechanical Principles",
+      "principle_name": "Biomechanical Principles",
       "relationship_type": "Prerequisite",
       "description": "Base maintenance is fundamentally an applied biomechanics concept. Understanding leverage, force vectors, and structural alignment is essential for developing sophisticated base maintenance skills."
     },
     {
-      "concept_name": "Off-Balancing",
+      "principle_name": "Off-Balancing",
       "relationship_type": "Alternative",
       "description": "Base maintenance represents the defensive counter to off-balancing techniques. These concepts exist in dynamic opposition, with base maintenance skills directly neutralizing off-balancing attempts."
     },
     {
-      "concept_name": "Sweep Mechanics",
+      "principle_name": "Sweep Mechanics",
       "relationship_type": "Complementary",
       "description": "Understanding base maintenance provides insight into sweep mechanics from both offensive and defensive perspectives. Strong base maintenance neutralizes sweep attempts, while recognizing base weaknesses enables sweep execution."
     },
     {
-      "concept_name": "Posture Up",
+      "principle_name": "Posture Up",
       "relationship_type": "Extension",
       "description": "Posture Up represents base maintenance applied specifically to guard positions. It extends base maintenance principles to the vertical dimension of maintaining upright posture against breakdown attempts."
+    },
+    {
+      "principle_name": "Defensive Frame",
+      "relationship_type": "Complementary",
+      "description": "Defensive framing works synergistically with base maintenance to create comprehensive defensive structure. Frames manage distance while base provides stability."
+    },
+    {
+      "principle_name": "Pressure Application",
+      "relationship_type": "Extension",
+      "description": "Effective pressure application requires solid base maintenance as its foundation. Quality of applied pressure is directly proportional to stability of the base structure supporting it."
+    },
+    {
+      "principle_name": "Guard Retention",
+      "relationship_type": "Complementary",
+      "description": "Guard retention relies heavily on base maintenance principles adapted to bottom positions. Maintaining hip mobility and connection points follows same fundamental concepts as top base maintenance."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Top",
+      "context": "Closed Guard",
       "how_applied": "Maintaining wide knee base with proper posture, distributing weight to prevent sweeps while keeping hands ready for grip fighting. Base width prevents hip bump and scissor sweeps."
     },
     {
@@ -109,7 +121,7 @@
       "how_applied": "Creating low, wide base with knees spread and weight distributed through hips and lower body. Base maintenance prevents bridge and roll escapes while enabling effective control and attack initiation."
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Distributing weight through crossface shoulder, hip pressure, and wide base with legs. Proper base maintenance prevents opponent from creating frames and executing escape movements."
     },
     {
@@ -117,11 +129,11 @@
       "how_applied": "Balancing weight between posting leg and knee pressure while maintaining mobile base that can adjust to opponent escape attempts. Base allows quick transitions while maintaining control."
     },
     {
-      "context": "Half Guard Top",
+      "context": "Half Guard",
       "how_applied": "Creating stable base with free leg posted while preventing opponent from disrupting balance through underhooks or sweeps. Weight distribution enables passing pressure while maintaining defensive stability."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Maintaining seated or supine base with proper weight distribution to enable guard retention and sweeping. Base stability allows effective use of feet and grips to control distance."
     },
     {
@@ -143,6 +155,22 @@
     {
       "context": "Back Control",
       "how_applied": "Maintaining base through hooks and seat belt control, distributing weight to prevent opponent from rolling or standing while keeping structure for submission attacks."
+    },
+    {
+      "context": "Turtle",
+      "how_applied": "Establishing four-point base structure with hands and knees, distributing weight to resist opponent's attempts to break down position or roll to back control."
+    },
+    {
+      "context": "Spider Guard",
+      "how_applied": "Using foot placement on biceps and collar grips to create connected base that controls distance and prevents opponent from establishing passing base structure."
+    },
+    {
+      "context": "De La Riva Guard",
+      "how_applied": "Maintaining hip mobility and proper hook placement to disrupt opponent's base while preserving own structural integrity for sweeping and off-balancing attacks."
+    },
+    {
+      "context": "X-Guard",
+      "how_applied": "Creating inverted base structure using hooks and upper body connection to elevate and off-balance opponent while maintaining own stability for sweep execution."
     }
   ],
   "decision_framework": [
@@ -297,12 +325,12 @@
   "related_content": [
     {
       "name": "Posture Breaking",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Opposing concept that targets base maintenance vulnerabilities from offensive perspective"
     },
     {
       "name": "Weight Distribution",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational component concept that underlies effective base maintenance"
     },
     {
@@ -316,7 +344,7 @@
       "relationship": "Dominant position requiring sophisticated base maintenance to prevent escapes"
     },
     {
-      "name": "Closed Guard Top",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Position where base maintenance directly determines success against sweep attempts"
     },
@@ -337,22 +365,22 @@
     },
     {
       "name": "Biomechanical Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Theoretical foundation providing scientific basis for base maintenance techniques"
     },
     {
       "name": "Off-Balancing",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Offensive concept that succeeds when base maintenance fails"
     },
     {
       "name": "Posture Up",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Specialized application of base maintenance in guard passing scenarios"
     },
     {
       "name": "Sweep Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Concept that targets base vulnerabilities, understanding both concepts enhances performance"
     }
   ],

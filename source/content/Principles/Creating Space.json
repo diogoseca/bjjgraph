@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Creating Space | BJJ Concept | BJJ Graph",
-    "description": "Master Creating Space in BJJ. Learn fundamental principles for generating distance under pressure, timing methods, and cross-position applications. Expert insights included.",
-    "concept_id": "C018",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "defense",
-      "space",
-      "escape",
-      "hip-movement",
-      "frames"
-    ],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Creating Space",
+  "description": "Master Creating Space in BJJ with coordinated frame and hip mechanics. Learn progressive space generation, optimal timing, directional selection across all bottom positions.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "defense",
+    "space",
+    "escape",
+    "hip-movement",
+    "frames"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Creating Space represents the fundamental strategic principle of generating distance between oneself and opponent through coordinated mechanical actions that overcome opponent's pressure and control attempts, establishing the necessary positional prerequisites for technical execution across defensive and offensive scenarios. Unlike reactive defensive responses, creating space is a comprehensive conceptual framework that encompasses the mechanical methods for space generation, the timing principles for optimal space creation attempts, the coordination patterns between different space-creating mechanisms, and the strategic deployment of space creation throughout all phases of positional exchanges. This concept serves as the foundational requirement enabling virtually all escape sequences, guard retention systems, submission defenses, and positional recoveries, as technical execution requires adequate space that must be created when opponent's pressure eliminates it. Creating space determines whether practitioners can execute known techniques or remain immobilized despite technical knowledge, often distinguishing successful defensive performers from those who understand escapes intellectually but cannot create the spatial prerequisites for their execution. The mastery of space creation principles spans from beginner fundamentals through advanced tactical applications making it one of the most essential conceptual elements in Brazilian Jiu-Jitsu.",
   "key_principles": [
     "Coordinate frames and hip movement simultaneously to maximize space generation rather than sequential execution",
@@ -63,36 +60,51 @@
       "description": "Seamless connection between space creation movements and subsequent technical execution, eliminating pause between space generation and technique application that allows opponent to recapture position or establish new control."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Frame Creation",
+      "principle_name": "Frame Creation",
       "relationship_type": "Prerequisite",
       "description": "Frame creation provides the structural foundation enabling space generation, as proper frames create the barriers and leverage points necessary for effective space creation movements to succeed against opponent's pressure."
     },
     {
-      "concept_name": "Hip Escape Mechanics",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Complementary",
       "description": "Hip escape mechanics represent the primary movement pattern for horizontal space generation, working synergistically with frame maintenance to create the coordinated actions that generate and preserve defensive distance."
     },
     {
-      "concept_name": "Bridge and Shrimp",
+      "principle_name": "Bridge and Shrimp",
       "relationship_type": "Complementary",
       "description": "Bridge and shrimp movements are the foundational mechanical methods for creating space vertically and horizontally, combining to provide comprehensive space generation capabilities across different positional contexts."
     },
     {
-      "concept_name": "Escape Fundamentals",
+      "principle_name": "Escape Fundamentals",
       "relationship_type": "Extension",
       "description": "Creating space serves as the essential first phase of escape fundamentals, providing the spatial prerequisites that enable subsequent escape techniques to function effectively under realistic pressure conditions."
     },
     {
-      "concept_name": "Dealing with Pressure",
+      "principle_name": "Dealing with Pressure",
       "relationship_type": "Complementary",
       "description": "Dealing with pressure encompasses the strategic responses to opponent's weight and control, with space creation representing the primary active method for neutralizing pressure through distance generation rather than passive resistance."
     },
     {
-      "concept_name": "Defensive Posture",
+      "principle_name": "Defensive Posture",
       "relationship_type": "Prerequisite",
       "description": "Defensive posture establishes the protective body positioning that must be maintained during space creation attempts, ensuring that generating distance does not compromise defensive integrity or create submission vulnerabilities."
+    },
+    {
+      "principle_name": "Space Management",
+      "relationship_type": "Extension",
+      "description": "Space management builds upon space creation principles to develop comprehensive spatial control including creation, preservation, and utilization throughout positional exchanges."
+    },
+    {
+      "principle_name": "Guard Retention",
+      "relationship_type": "Extension",
+      "description": "Guard retention systems rely fundamentally on space creation to prevent opponent from passing, using continuous space generation and preservation to maintain guard structures."
+    },
+    {
+      "principle_name": "Shrimping",
+      "relationship_type": "Complementary",
+      "description": "Shrimping represents the fundamental movement pattern for horizontal space creation, providing the mechanical foundation for executing coordinated space generation under pressure."
     }
   ],
   "application_contexts": [
@@ -117,19 +129,19 @@
       "how_applied": "Generate space through bridging movements that elevate opponent's weight distribution combined with rotational hip escapes, creating distance to turn into opponent or establish frames preventing submission attempts and enabling position recovery."
     },
     {
-      "context": "Scarf Hold Position",
+      "context": "Kuzure Kesa-Gatame",
       "how_applied": "Create space through progressive bridging toward trapped arm side combined with hip movement away from opponent's chest pressure, generating sufficient distance to free trapped arm or create angles for position reversals."
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Maintain optimal space through active guard management preventing opponent from establishing heavy settling pressure, using hip movement and angle creation to preserve distance enabling offensive technique execution."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Create space through underhook establishment and knee shield insertion, generating distance that prevents opponent's crossface and shoulder pressure while enabling sweep or back take opportunities through maintained spatial control."
     },
     {
-      "context": "Turtle Position",
+      "context": "Turtle",
       "how_applied": "Generate space through defensive base widening and hip positioning that prevents opponent from flattening or establishing strong back control, maintaining distance enabling guard recovery or strategic position changes."
     },
     {
@@ -137,12 +149,12 @@
       "how_applied": "Create emergency space through explosive bridging and shrimping combinations that disrupt opponent's submission attempts or positional consolidation, generating brief windows for defensive improvements or escape initiation."
     },
     {
-      "context": "Guard Recovery",
-      "how_applied": "Generate space through systematic hip escapes and frame maintenance during opponent's passing attempts, creating distance necessary to reestablish guard structures or prevent complete pass consolidation."
+      "context": "Open Guard",
+      "how_applied": "Maintain active space management through continuous hip movement and leg frame adjustments, preventing opponent from settling into passing positions while preserving distance enabling offensive guard techniques."
     },
     {
-      "context": "Open Guard Bottom",
-      "how_applied": "Maintain active space management through continuous hip movement and leg frame adjustments, preventing opponent from settling into passing positions while preserving distance enabling offensive guard techniques."
+      "context": "Knee Shield Half Guard",
+      "how_applied": "Preserve space through active knee shield maintenance and underhook control, preventing opponent from flattening knee shield while maintaining distance that enables sweep entries or back take opportunities."
     }
   ],
   "decision_framework": [
@@ -304,32 +316,32 @@
   "related_content": [
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Primary movement pattern for horizontal space generation coordinated with frame maintenance"
     },
     {
       "name": "Frame Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational structure enabling space generation through barriers preventing pressure advancement"
     },
     {
       "name": "Bridge and Shrimp",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Core mechanical methods combining vertical and horizontal space creation movements"
     },
     {
       "name": "Escape Fundamentals",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Comprehensive escape framework with space creation as essential first phase"
     },
     {
       "name": "Dealing with Pressure",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic response framework with space creation as primary active pressure neutralization method"
     },
     {
       "name": "Defensive Posture",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Protective positioning maintained during space creation preventing submission vulnerabilities"
     },
     {
@@ -359,7 +371,7 @@
     },
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Continuous adjustment system preserving created space during technical execution"
     }
   ],

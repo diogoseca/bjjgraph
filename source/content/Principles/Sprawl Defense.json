@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Sprawl Defense | BJJ Concept | BJJ Graph",
     "description": "Master Sprawl Defense in BJJ. Understand fundamental takedown defense principles, hip positioning, counter-offense timing. Expert insights from Danaher, Ryan, Bravo included.",
-    "concept_id": "C098",
+    "principle_id": "P098",
     "tags": ["bjj", "concept", "takedown-defense", "wrestling", "sprawl", "defensive-strategy"],
     "application_level": "Fundamental",
     "complexity_level": "Medium",
@@ -58,29 +58,29 @@
     }
   ],
 
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Takedown Entry",
+      "principle_name": "Takedown Entry",
       "relationship_type": "Prerequisite",
       "description": "Understanding offensive takedown mechanics and entries provides the knowledge necessary to recognize and time sprawl defenses effectively against single-leg, double-leg, and other penetration-based attacks."
     },
     {
-      "concept_name": "Base Maintenance",
+      "principle_name": "Base Maintenance",
       "relationship_type": "Complementary",
       "description": "Maintaining stable base through proper foot positioning and weight distribution during the sprawl ensures defensive effectiveness while preventing opponent from destabilizing or sweeping during the exchange."
     },
     {
-      "concept_name": "Grip Fighting",
+      "principle_name": "Grip Fighting",
       "relationship_type": "Prerequisite",
       "description": "Effective grip fighting prevents opponent from achieving clean grips necessary for high-percentage takedown attempts, reducing the frequency and urgency of sprawl defense requirements."
     },
     {
-      "concept_name": "Weight Distribution",
+      "principle_name": "Weight Distribution",
       "relationship_type": "Complementary",
       "description": "Understanding how to shift weight onto opponent's shoulders while keeping hips elevated creates the pressure dynamics that make sprawl defense effective at flattening and neutralizing forward drive."
     },
     {
-      "concept_name": "Defensive Framing",
+      "principle_name": "Defensive Framing",
       "relationship_type": "Complementary",
       "description": "Using frames with hands, forearms, and body positioning during sprawl creates barriers that prevent opponent from advancing position or securing deeper control despite initial takedown attempt."
     }

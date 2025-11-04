@@ -1,1185 +1,827 @@
 {
-  "metadata": {
-    "title": "Harness Bottom Position | BJJ Position Guide | BJJ Graph",
-    "description": "Master Harness Bottom Position in BJJ. Defensive control position from back with harness grip. Learn escape strategies and defensive responses with 40-65% escape rates.",
-    "state_id": "S237",
-    "tags": ["bjj", "position", "harness", "back-control", "defensive", "bottom", "escape"]
-  },
-
-  "overview": "Harness Bottom Position represents the defensive perspective when an opponent has secured back control with a harness (seatbelt) grip configuration. This position is characterized by the opponent wrapping one arm over the shoulder and the other under the armpit, establishing a strong controlling mechanism. The harness grip is one of the most fundamental and effective control systems in Brazilian Jiu-Jitsu, as it provides the top player with both offensive submission opportunities and positional dominance while severely limiting the bottom player's mobility and defensive options.\n\nFrom this position, the bottom player faces significant challenges including defending against rear naked chokes, preventing hooks from being inserted, and managing the constant threat of positional advancement to fully secured back control with hooks. The harness grip creates a dilemma where defending the choke often exposes the neck, while protecting the neck can allow deeper positional control. Success in this position requires systematic defensive strategies including hand fighting, proper posture management, hip positioning, and timely escaping techniques.\n\nThe strategic priority from Harness Bottom Position is threefold: first, prevent the rear naked choke by controlling the choking arm and protecting the neck; second, prevent or remove hooks to maintain mobility; and third, create space and angles to escape back to more favorable positions such as turtle, guard, or standing positions. Understanding the mechanics of the harness grip and the opponent's offensive threats is essential for developing effective defensive responses and escape pathways.",
-
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Defensive",
-    "risk_level": "High",
-    "energy_cost": "Medium",
-    "time_sustainability": "Short to Medium"
-  },
-
-  "state_invariants": [
-    "Opponent positioned behind the practitioner's back with chest pressure against the back, maintaining upper body control through the harness grip configuration",
-    "One opponent arm wrapped over the shoulder (typically the choking-side arm) while the other arm threads under the opposite armpit, creating the classic seatbelt or harness control pattern",
-    "Practitioner's back exposed to opponent with limited visual contact, requiring defensive awareness and tactile sensitivity to opponent's weight distribution and grip adjustments",
-    "Constant threat of rear naked choke requiring active hand fighting and chin protection, with defensive hands either controlling the choking arm or creating frames to prevent neck exposure",
-    "Opponent may have one or both hooks inserted, or may be working to establish hooks while maintaining the harness grip as primary control mechanism"
-  ],
-
-  "prerequisites": [
-    "Opponent has successfully achieved back position through transition, scramble, or failed guard retention",
-    "Opponent has established harness (seatbelt) grip with one arm over shoulder and one under armpit",
-    "Practitioner's back is exposed to opponent with upper body control secured",
-    "Practitioner is in defensive posture attempting to prevent submission and escape the position"
-  ],
-
+  "name": "Harness",
+  "slug": "harness",
+  "description": "Master Harness Position in BJJ - back control with seat belt grip. Complete strategic guide covering defensive bottom escape strategies and dominant top submission paths with expert analysis.",
+  "variant_uniqueness": "Seat belt grip trades hook stability for choke proximity",
+  "overview": "The Harness Position, also known as the Seat Belt or Seatbelt Control, is a fundamental back control configuration where the attacking practitioner secures one arm over the opponent's shoulder and the other under the opposite armpit, creating a powerful control mechanism that resembles a seat belt. This grip structure is the cornerstone of modern back attack systems and provides exceptional control while maintaining multiple offensive pathways to submissions, particularly the rear naked choke.\n\nThe harness grip creates a mechanical advantage by connecting the attacker's hands at the opponent's centerline, typically with a grip over grip connection or a more advanced rear naked choke grip configuration. This control structure allows the top practitioner to maintain proximity to the opponent's back, control their posture, and prevent effective escape attempts. The position is distinguished from other back control variations by the specific grip configuration rather than hook placement, making it applicable from standing, seated, or fully established back control positions.\n\nStrategically, the harness position serves as a transitional control point and a submission platform for the top player, while presenting a critical defensive challenge for the bottom player. From this configuration, top practitioners can attack the neck directly, transition to other control positions like the gift wrap or crucifix, or use the grip structure to maintain control while adjusting hook placement. Bottom practitioners face the challenge of defending submissions while working systematic escapes to turtle, guard, or standing positions. The harness is particularly effective in no-gi grappling where gi-based grips are unavailable, and it forms the technical foundation for virtually all modern back attack and defense systems.",
   "key_principles": [
-    "Immediately address the choking arm by controlling the wrist or hand with both defensive hands to prevent rear naked choke completion",
-    "Maintain chin protection by tucking chin to chest and using shoulder pressure to block choking arm from sliding across neck",
-    "Control opponent's bottom arm (under-hook side) to prevent them from completing the harness lock and to create escape opportunities",
-    "Prevent or remove hooks by keeping knees together, squeezing legs, and using hip movement to deny space for hook insertion",
-    "Create angles and rotation by turning toward the under-hook side to disrupt opponent's alignment and create escape pathways",
-    "Maintain connection to the mat with hands and feet to prevent being rolled or lifted into more vulnerable positions",
-    "Stay calm and systematic in defense rather than panicking, as frantic movements often expose the neck or allow deeper control"
+    "The harness grip creates a structural control system where defensive efforts can feed back into tighter control rather than weakening it",
+    "Top priority for bottom player is controlling the choking arm with two-on-one grip before attempting any positional escapes",
+    "Top priority for top player is maintaining chest-to-back connection and keeping choking arm high near the neck",
+    "Hook control is secondary to grip control - the seat belt grip is more valuable than both hooks combined",
+    "Bottom player must turn toward the under-hook side to disrupt alignment and create escape pathways",
+    "Top player creates submission dilemmas where defending the choke opens armbars and vice versa",
+    "Position sustainability depends on proper body connection and weight distribution rather than pure grip strength"
   ],
-
-  "offensive_transitions": [
-    {
-      "technique": "Elbow Escape",
-      "target_position": "Turtle Bottom",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Hip Escape",
-      "target_position": "Defensive Position",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Technical Stand Up to Single Leg",
-      "target_position": "Standing Position",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Roll to Guard",
-      "target_position": "Closed Guard Bottom",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Granby Roll",
-      "target_position": "Guard Recovery Bottom",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      }
-    },
-    {
-      "technique": "Standing up in Base",
-      "target_position": "Standing Position",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    }
-  ],
-
-  "defensive_responses": [
-    {
-      "technique": "Rear Naked Choke",
-      "target_position": "Won by Submission",
-      "success_rate": 60
-    },
-    {
-      "technique": "Hook insertion and consolidation",
-      "target_position": "Back Control Bottom"
-    },
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Mount Bottom"
-    },
-    {
-      "technique": "Body Triangle establishment",
-      "target_position": "Body Triangle Back Control Bottom"
-    },
-    {
-      "technique": "Armbar from Back with Legs",
-      "target_position": "Armbar Control Bottom"
-    }
-  ],
-
-  "counter_transitions": [
-    {
-      "technique": "Hand fighting to break grips",
-      "target_position": "Turtle Bottom",
-      "trigger": "Opponent adjusts harness grip or attempts to tighten control"
-    },
-    {
-      "technique": "Hip escape with angle creation",
-      "target_position": "Defensive Position",
-      "trigger": "Opponent attempts to insert second hook or establish body triangle"
-    },
-    {
-      "technique": "Forward roll escape",
-      "target_position": "Guard Recovery Bottom",
-      "trigger": "Opponent posts hand forward or reduces chest pressure temporarily"
-    },
-    {
-      "technique": "Scoot and turn to face opponent",
-      "target_position": "Closed Guard Bottom",
-      "trigger": "Opponent's weight shifts to one side or hooks are not yet established"
-    }
-  ],
-
-  "decision_tree": [
-    {
-      "condition": "If opponent has tight harness grip but no hooks established yet",
-      "actions": [
-        {
-          "technique": "Control choking arm with both hands",
-          "target": "Harness Bottom Position",
-          "probability": 90
-        },
-        {
-          "technique": "Hip Escape to create space",
-          "target": "Turtle Bottom",
-          "probability": 50
-        },
-        {
-          "technique": "Standing up in Base",
-          "target": "Standing Position",
-          "probability": 45
-        }
-      ]
-    },
-    {
-      "condition": "If opponent attempts rear naked choke by bringing arm across neck",
-      "actions": [
-        {
-          "technique": "Two-on-one grip fight on choking arm",
-          "target": "Harness Bottom Position",
-          "probability": 85
-        },
-        {
-          "technique": "Chin down and turn into choking arm",
-          "target": "Defensive Position",
-          "probability": 60
-        },
-        {
-          "technique": "Emergency elbow escape",
-          "target": "Turtle Bottom",
-          "probability": 40
-        }
-      ]
-    },
-    {
-      "condition": "If opponent establishes one or both hooks while maintaining harness",
-      "actions": [
-        {
-          "technique": "Clear hooks while controlling hands",
-          "target": "Harness Bottom Position",
-          "probability": 55
-        },
-        {
-          "technique": "Granby Roll escape",
-          "target": "Guard Recovery Bottom",
-          "probability": 35
-        },
-        {
-          "technique": "Hip escape and scoot",
-          "target": "Defensive Position",
-          "probability": 45
-        }
-      ]
-    },
-    {
-      "condition": "If opponent's chest pressure reduces or weight shifts to one side",
-      "actions": [
-        {
-          "technique": "Technical Stand Up to Single Leg",
-          "target": "Standing Position",
-          "probability": 60
-        },
-        {
-          "technique": "Forward roll to guard",
-          "target": "Closed Guard Bottom",
-          "probability": 50
-        },
-        {
-          "technique": "Elbow escape to turtle",
-          "target": "Turtle Bottom",
-          "probability": 65
-        }
-      ]
-    }
-  ],
-
-  "common_errors": [
-    {
-      "error": "Reaching back or trying to grab opponent's head without controlling the choking arm first",
-      "consequence": "Exposes the neck completely and allows opponent to easily secure rear naked choke by sliding arm across undefended neck",
-      "correction": "Always prioritize controlling the choking arm with two-on-one grip before attempting any offensive hand fighting or positional escapes"
-    },
-    {
-      "error": "Panicking and making explosive, uncontrolled movements without systematic defense",
-      "consequence": "Burns energy rapidly, creates openings for chokes and submissions, and often results in worse position or deeper control for opponent",
-      "correction": "Stay calm, breathe steadily, and work through defensive priorities systematically: control choking arm, protect neck, prevent hooks, then escape"
-    },
-    {
-      "error": "Allowing opponent to lock hands together or complete the harness grip structure",
-      "consequence": "Significantly increases opponent's control and makes grip breaking extremely difficult, reducing escape opportunities substantially",
-      "correction": "Fight hands aggressively before they lock by controlling opponent's bottom arm and preventing the grip from being completed"
-    },
-    {
-      "error": "Straightening the back or creating space between back and opponent's chest",
-      "consequence": "Allows opponent to insert hooks more easily, establish body triangle, or create better angles for rear naked choke",
-      "correction": "Maintain rounded posture with back slightly curved and stay connected to opponent's chest to limit their ability to establish deeper control"
-    },
-    {
-      "error": "Neglecting to address hooks and allowing opponent to establish full back control",
-      "consequence": "Dramatically reduces mobility and escape options while increasing opponent's positional points and submission opportunities",
-      "correction": "Actively prevent hook insertion by keeping knees together, squeezing legs, and using hip pressure to deny space for hooks"
-    },
-    {
-      "error": "Turning away from the under-hook side instead of toward it",
-      "consequence": "Plays into opponent's control structure and makes their harness more effective while reducing escape angles",
-      "correction": "Turn toward the under-hook side to disrupt opponent's alignment and create the most effective escape pathway"
-    }
-  ],
-
-  "training_drills": [
-    {
-      "name": "Harness Escape Positional Sparring",
-      "description": "Partner establishes harness grip from back without hooks. Bottom player practices systematic defense: control choking arm, fight grips, create space, and escape to turtle or guard. Start with 30-second rounds and gradually increase resistance. Reset if choke is secured or full back control is established. Focus on staying calm under pressure and working through defensive hierarchy.",
-      "duration": "5 minutes per partner"
-    },
-    {
-      "name": "Two-on-One Grip Fighting Drill",
-      "description": "Partner has harness grip and actively attempts to bring choking arm across neck for rear naked choke. Bottom player uses two-on-one control on choking arm to prevent choke while maintaining chin protection. Practice controlling the wrist, elbow, and tricep area. Partner slowly increases pressure over multiple rounds. Emphasize grip endurance and proper hand positioning.",
-      "duration": "3 minutes per partner"
-    },
-    {
-      "name": "Hook Prevention and Removal",
-      "description": "Partner establishes harness and attempts to insert hooks while bottom player defends by keeping knees together, using hip pressure, and clearing hooks when inserted. Practice both preventing initial hook insertion and removing established hooks. Focus on timing hip movement with opponent's attempts to create space for hooks.",
-      "duration": "4 minutes per partner"
-    },
-    {
-      "name": "Progressive Back Escape Sequence",
-      "description": "Start from harness bottom with no hooks. Work through complete escape sequence: control choking arm → fight bottom hand → create space with elbow → hip escape to create angle → transition to turtle or guard. Partner provides graduated resistance (30%, 50%, 70%, 90%). Reset and repeat, focusing on smooth transitions between defensive steps.",
-      "duration": "6 minutes per partner"
-    }
-  ],
-
-  "optimal_submission_paths": [
-    {
-      "name": "Defensive Survival Path",
-      "path": "Harness Bottom Position → Control choking arm → Fight grips → Maintain position until opportunity → Elbow Escape → Turtle Bottom"
-    },
-    {
-      "name": "Counter to Guard Path",
-      "path": "Harness Bottom Position → Two-on-one control → Hip escape to create angle → Scoot and turn → Closed Guard Bottom"
-    },
-    {
-      "name": "Standing Escape Path",
-      "path": "Harness Bottom Position → Control hands → Weight forward on hands → Technical Stand Up → Standing Position → Guard Pull"
-    },
-    {
-      "name": "Granby Roll Escape Path",
-      "path": "Harness Bottom Position → Clear hooks → Forward roll over shoulder → Guard Recovery Bottom → Re-Guard"
-    }
-  ],
-
-  "related_content": [
-    {
-      "name": "Back Control Bottom",
-      "relationship": "Advanced control position with hooks - worse position if harness bottom defense fails"
-    },
-    {
-      "name": "Seat Belt Control Back Bottom",
-      "relationship": "Similar position variant with seatbelt grip configuration"
-    },
-    {
-      "name": "Turtle Bottom",
-      "relationship": "Common escape target position - defensive position with better escape options"
-    },
-    {
-      "name": "Defensive Position",
-      "relationship": "Generic defensive position category - harness bottom is high-risk defensive position"
-    },
-    {
-      "name": "Body Triangle Back Control Bottom",
-      "relationship": "Worse position if opponent establishes body triangle from harness"
-    },
-    {
-      "name": "Rear Naked Choke",
-      "relationship": "Primary submission threat from this position"
-    },
-    {
-      "name": "Back Defense Protocol",
-      "relationship": "Systematic defensive framework for all back control situations"
-    },
-    {
-      "name": "Elbow Escape",
-      "relationship": "Key escape technique to exit harness control"
-    },
-    {
-      "name": "Hip Escape",
-      "relationship": "Fundamental movement pattern for creating space and angles"
-    },
-    {
-      "name": "Granby Roll",
-      "relationship": "Advanced escape technique for harness and back control positions"
-    }
-  ],
-
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 30,
-      "intermediate": 45,
-      "advanced": 60
-    },
-    "advancement_probability": {
-      "beginner": 25,
-      "intermediate": 40,
-      "advanced": 55
-    },
-    "submission_probability": {
-      "beginner": 5,
-      "intermediate": 8,
-      "advanced": 12
-    },
-    "average_time": "30-90 seconds before escape attempt or submission threat"
-  },
-
-  "expert_insights": {
-    "danaher": "The harness bottom position represents a critical defensive junction in the back attack sequence where systematic hand fighting becomes paramount. The fundamental principle here is understanding the biomechanical hierarchy of threats: the rear naked choke is the immediate danger that must be addressed before any positional escape can be attempted. Your defensive structure must prioritize a two-on-one grip control on the choking arm, utilizing both hands to control the wrist and prevent the forearm from crossing your neck. The chin must remain tucked to the chest creating a barrier, while the shoulders are elevated to narrow the gap through which the choking arm might slide. Only after establishing this defensive frame can you address the secondary concern of preventing hooks and creating escape angles. The escape pathway invariably involves turning toward the under-hook side, as this disrupts the opponent's structural alignment and creates the geometry necessary for hip escape. Understanding that defense in this position is a systematic progression rather than a single explosive movement is essential for survival against high-level back attack systems.",
-    "gordon_ryan": "From competition experience, harness bottom is where matches get finished if you don't have your defensive priorities absolutely dialed in. The reality is you're in a bad spot and the guy on top has multiple paths to submission and better position. What works at the highest level is staying ice cold and working your defenses in the right order - hands first, always hands first. I'm controlling that choking arm like my life depends on it because in a match, my victory depends on it. Two hands on one, wrist control, preventing any sliding motion across the neck. While I'm doing that, I'm actively preventing hooks with my leg positioning and looking for the moment when his pressure reduces even slightly to start my escape. The hip escape to turtle is my highest percentage move because it's simple, it works against everyone, and I can hit it quickly when I feel the opportunity. I'm not trying to be fancy from bottom harness - I'm trying to survive first, then escape to a position where I can start working my game. The competitors who get submitted here are the ones who panic or try to force escapes before controlling the immediate threats. Stay systematic, stay patient, and take what the position gives you.",
-    "eddie_bravo": "Harness bottom is one of those positions where the traditional defensive approach works, but there's also room for some creative problem-solving if you understand the mechanics. The standard two-on-one on the choking arm is solid, but what I teach is also being aware of creating dilemmas for the top guy. If he's worried about you standing up, he has to adjust his weight. If he's focused on getting his hooks in, there's a window for the Granby roll escape that can completely reset the position. The key innovation we work on at 10th Planet is not just surviving harness bottom but using opponent reactions to create escape opportunities. When he tries to finish the choke, that's when his base becomes vulnerable to the forward roll. When he focuses on controlling your hips, that's when you can work the technical standup. It's about reading his intentions through his weight distribution and grip adjustments, then exploiting the windows that open up. We drill this position a lot because it shows up constantly in no-gi, and having multiple escape paths based on what the opponent is doing makes you unpredictable and harder to control. Don't just defend - make him defend his position too."
-  }
-}
-{
-  "metadata": {
-    "title": "Harness Position | BJJ Position Guide | BJJ Graph",
-    "description": "Master Harness Position in BJJ. Complete guide covering back control with seat belt grip, submission paths, and defensive counters. 70% retention rate for advanced practitioners.",
-    "state_id": "S178",
-    "tags": ["bjj", "position", "back-control", "harness", "seat-belt", "controlling", "submission-position"]
-  },
-  "overview": "The Harness Position, also known as the Seat Belt or Seatbelt Control, is a fundamental back control configuration where the attacking practitioner secures one arm over the opponent's shoulder and the other under the opposite armpit, creating a powerful control mechanism that resembles a seat belt. This grip structure is the cornerstone of modern back attack systems and provides exceptional control while maintaining multiple offensive pathways to submissions, particularly the rear naked choke.\n\nThe harness grip creates a mechanical advantage by connecting the attacker's hands at the opponent's centerline, typically with a grip over grip connection or a more advanced rear naked choke grip configuration. This control structure allows the top practitioner to maintain proximity to the opponent's back, control their posture, and prevent effective escape attempts. The position is distinguished from other back control variations by the specific grip configuration rather than hook placement, making it applicable from standing, seated, or fully established back control positions.\n\nStrategically, the harness position serves as a transitional control point and a submission platform. From this configuration, practitioners can attack the neck directly, transition to other control positions like the gift wrap or crucifix, or use the grip structure to maintain control while adjusting hook placement. The harness is particularly effective in no-gi grappling where gi-based grips are unavailable, and it forms the technical foundation for virtually all back attack systems taught by modern instructors including John Danaher, Gordon Ryan, and the 10th Planet system.",
-  "state_properties": {
-    "point_value": 4,
-    "position_type": "Offensive/Controlling",
-    "risk_level": "Low to Medium",
-    "energy_cost": "Medium",
-    "time_sustainability": "Medium to Long"
-  },
-  "state_invariants": [
-    "One arm positioned over opponent's shoulder (choking arm) while the opposite arm threads under the opponent's opposite armpit (support arm), creating a diagonal belt-like configuration across the torso",
-    "Hands connected at opponent's centerline, typically in front of their chest or neck, with various grip options including grip over grip, rear naked choke configuration, or palm-to-palm connection",
-    "Attacker's chest maintains tight connection to opponent's back with minimal space, allowing weight distribution and pressure through the torso to control posture and limit defensive movement",
-    "Opponent's defensive posture is compromised by the harness structure, with shoulders pulled back and head control limited by the choking arm's position near the neck",
-    "Hip and leg positioning varies from standing harness to seated with hooks, but the upper body harness configuration remains constant as the defining characteristic of this position"
-  ],
-  "prerequisites": [
-    "Access to opponent's back either from standing, turtle, or during scrambles",
-    "At least one arm able to thread into the harness configuration before opponent establishes defensive frames",
-    "Sufficient control or timing to connect both arms into the seat belt structure",
-    "Opponent not fully facing the attacker (back exposure of at least 90 degrees required)",
-    "Attacker positioned behind or to the side-back of opponent with upper body access"
-  ],
-  "key_principles": [
-    "Maintain tight connection between attacker's chest and opponent's back to prevent space creation and escape attempts",
-    "Keep the choking arm high and tight to the neck, ready to transition to rear naked choke at any moment",
-    "Use the support arm (underhook side) to control opponent's posture and break down defensive frames",
-    "Connect hands at centerline to create a closed system that prevents opponent from stripping grips effectively",
-    "Adjust body position relative to opponent's defensive movements while maintaining the harness structure",
-    "Combine harness control with hook placement or body triangle when possible to create a complete back control system",
-    "Use the harness to control opponent's upper body rotation and prevent them from turning into guard or escaping to turtle"
-  ],
-  "offensive_transitions": [
-    {
-      "technique": "Rear Naked Choke",
-      "target_position": "Won by Submission",
-      "success_rates": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
-      }
-    },
-    {
-      "technique": "Transition to Back Control",
-      "target_position": "Back Control",
-      "success_rates": {
-        "beginner": 60,
-        "intermediate": 75,
-        "advanced": 85
-      }
-    },
-    {
-      "technique": "Transition to Gift Wrap Position",
-      "target_position": "Gift Wrap Position",
-      "success_rates": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 78
-      }
-    },
-    {
-      "technique": "Armbar from Back",
-      "target_position": "Armbar Control",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Back Control to Crucifix",
-      "target_position": "Crucifix Control Position",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Triangle from Back",
-      "target_position": "Triangle Control",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Kimura from Turtle",
-      "target_position": "Kimura Control",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 68
-      }
-    },
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Mount",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 48,
-        "advanced": 62
-      }
-    }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Hand Fighting from Back",
-      "target_position": "Harness Position",
-      "success_rate": 30
-    },
-    {
-      "technique": "Chin Protection",
-      "target_position": "Harness Position",
-      "success_rate": 40
-    },
-    {
-      "technique": "Bridge and Roll",
-      "target_position": "Guard Recovery",
-      "success_rate": 25
-    },
-    {
-      "technique": "Escape to Turtle",
-      "target_position": "Turtle Position",
-      "success_rate": 35
-    },
-    {
-      "technique": "Escape to Side Control",
-      "target_position": "Side Control",
-      "success_rate": 20
-    },
-    {
-      "technique": "Granby Roll",
-      "target_position": "Guard Recovery",
-      "success_rate": 28
-    },
-    {
-      "technique": "Hip Escape",
-      "target_position": "Defensive Position",
-      "success_rate": 32
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Gift Wrap Trap",
-      "target_position": "Gift Wrap Position",
-      "trigger": "Opponent reaches across body to defend choking arm"
-    },
-    {
-      "technique": "Armbar from Back",
-      "target_position": "Armbar Control",
-      "trigger": "Opponent extends defending arm away from body"
-    },
-    {
-      "technique": "Crucifix Transition",
-      "target_position": "Crucifix Control Position",
-      "trigger": "Opponent turns shoulder in while defending harness"
-    },
-    {
-      "technique": "Triangle from Back",
-      "target_position": "Triangle Control",
-      "trigger": "Opponent postures forward and creates space with upper body"
-    },
-    {
-      "technique": "Body Triangle",
-      "target_position": "Body Triangle Back Control",
-      "trigger": "Opponent focuses entirely on upper body hand fighting"
-    }
-  ],
-  "decision_tree": [
-    {
-      "condition": "If opponent focuses on defending the choking arm with both hands and brings chin to chest",
-      "actions": [
-        {
-          "technique": "Gift Wrap Transition",
-          "target": "Gift Wrap Position",
-          "probability": 70
-        },
-        {
-          "technique": "Crucifix Setup",
-          "target": "Crucifix Control Position",
-          "probability": 55
-        }
-      ]
-    },
-    {
-      "condition": "If opponent extends defending arm away from body to strip the underhook",
-      "actions": [
-        {
-          "technique": "Armbar from Back",
-          "target": "Armbar Control",
-          "probability": 65
-        },
-        {
-          "technique": "Rear Naked Choke",
-          "target": "Won by Submission",
-          "probability": 60
-        }
-      ]
-    },
-    {
-      "condition": "If opponent attempts to turn into you or create a scramble",
-      "actions": [
-        {
-          "technique": "Maintain Harness and Take Hooks",
-          "target": "Back Control",
-          "probability": 75
-        },
-        {
-          "technique": "Transition to Mount",
-          "target": "Mount",
-          "probability": 50
-        }
-      ]
-    },
-    {
-      "condition": "If opponent remains passive or defensive without active escape attempts",
-      "actions": [
-        {
-          "technique": "Rear Naked Choke",
-          "target": "Won by Submission",
-          "probability": 80
-        },
-        {
-          "technique": "Establish Full Back Control",
-          "target": "Back Control",
-          "probability": 85
-        }
-      ]
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Allowing space to develop between attacker's chest and opponent's back",
-      "consequence": "Opponent can turn, create defensive frames, or escape to turtle or guard position",
-      "correction": "Maintain constant chest-to-back pressure with active body weight distribution and adjust positioning to follow opponent's movements"
-    },
-    {
-      "error": "Positioning the choking arm too low on opponent's chest rather than high near the neck",
-      "consequence": "Reduced submission threat allows opponent to focus on escaping rather than defending submissions, and makes transitioning to rear naked choke more difficult",
-      "correction": "Keep the choking arm elevated with the bicep/forearm in constant proximity to the neck, ready to slide under the chin at any opportunity"
-    },
-    {
-      "error": "Losing the hand connection at centerline due to opponent's grip fighting",
-      "consequence": "Harness structure becomes compromised, allowing opponent to create separation and potentially escape or reverse position",
-      "correction": "Constantly re-grip and adjust hand connection, using multiple grip variations and hiding hands against opponent's chest to prevent stripping"
-    },
-    {
-      "error": "Focusing entirely on upper body control while neglecting lower body positioning",
-      "consequence": "Opponent can use legs and hips to create escape opportunities even with strong harness control maintained",
-      "correction": "Combine harness control with appropriate hook placement, body triangle, or leg positioning to create a complete control system"
-    },
-    {
-      "error": "Allowing opponent to turn their shoulder in and face the attacker",
-      "consequence": "Back control is lost and position transitions to front headlock, guard, or scramble situation",
-      "correction": "Use the support arm to control opponent's far shoulder and prevent rotation, actively adjusting body position to maintain back exposure"
-    },
-    {
-      "error": "Gripping too tight too early and exhausting grip strength before establishing full control",
-      "consequence": "Premature fatigue leads to weakened control and increased escape opportunities as the position develops",
-      "correction": "Use positional pressure and body weight to control rather than pure grip strength, saving maximum gripping power for finishing sequences"
-    }
-  ],
-  "training_drills": [
-    {
-      "name": "Harness Maintenance Drill",
-      "description": "Partner starts with harness established from standing position. Defender attempts to strip grips and create space for 2 minutes while attacker focuses solely on maintaining the seat belt configuration and chest-to-back connection. Switch roles and repeat.",
-      "duration": "2 minutes per round, 3-4 rounds"
-    },
-    {
-      "name": "Harness to Back Control Flow",
-      "description": "Start from standing harness position. Attacker must transition to fully established back control with hooks while defender provides progressive resistance. Focus on maintaining harness structure throughout the transition. Reset and repeat from various starting positions (standing, seated, opponent turtled).",
-      "duration": "5 minutes continuous flow"
-    },
-    {
-      "name": "Submission Chain from Harness",
-      "description": "Partner provides specific defensive reactions (hand fighting, chin defense, turning in, etc.). Attacker must identify the appropriate counter-transition or submission based on the defense. Drill all major pathways: RNC, gift wrap, armbar, crucifix. Emphasize recognition speed and smooth transitions between attacks.",
-      "duration": "3 minutes per defensive scenario"
-    },
-    {
-      "name": "Harness Entry from Scrambles",
-      "description": "Start from various neutral or transitional positions (turtle, failed guard pass, standing clinch). Both partners compete to establish harness position first. Winner maintains for 10 seconds then resets. Develops timing and ability to secure harness during live movement.",
-      "duration": "6 minutes with 30-second work/10-second reset intervals"
-    }
-  ],
-  "optimal_submission_paths": [
-    {
-      "name": "Direct Rear Naked Choke Path",
-      "path": "Harness Position → Rear Naked Choke (opponent defensive errors) → Won by Submission"
-    },
-    {
-      "name": "High-Percentage Back Control Path",
-      "path": "Harness Position → Back Control (establish hooks) → Rear Naked Choke → Won by Submission"
-    },
-    {
-      "name": "Gift Wrap Counter Path",
-      "path": "Harness Position → Gift Wrap Position (opponent defends choking arm) → Rear Naked Choke or Crucifix Control Position → Won by Submission"
-    },
-    {
-      "name": "Armbar Extension Path",
-      "path": "Harness Position → Armbar from Back (opponent extends defending arm) → Armbar Control → Won by Submission"
-    },
-    {
-      "name": "Crucifix Development Path",
-      "path": "Harness Position → Crucifix Control Position (opponent turns shoulder in) → Rear Naked Choke or Armbar → Won by Submission"
-    }
-  ],
-  "related_content": [
+  "related_positions": [
     {
       "name": "Back Control",
-      "relationship": "Primary advancement position with hooks added to harness structure"
+      "relationship": "Parent position category with hooks fully established"
     },
     {
-      "name": "Seat Belt Control Back",
-      "relationship": "Alternative name and classification for the same position"
+      "name": "Body Triangle",
+      "relationship": "Advanced leg control variation from harness"
     },
     {
-      "name": "Gift Wrap Position",
-      "relationship": "Common counter-transition when opponent defends choking arm"
+      "name": "Gift Wrap",
+      "relationship": "Common transition when opponent defends choking arm"
     },
     {
-      "name": "Crucifix Control Position",
-      "relationship": "Transition target when opponent turns shoulder in during defense"
+      "name": "Crucifix",
+      "relationship": "Offensive advancement when opponent turns shoulder in"
     },
     {
-      "name": "Body Triangle Back Control",
-      "relationship": "Advanced variation combining harness with leg control"
+      "name": "Turtle",
+      "relationship": "Common entry position and escape target"
     },
     {
       "name": "Standing Back Control",
-      "relationship": "Standing application of harness control principles"
+      "relationship": "Standing application of same grip principles"
     },
     {
-      "name": "Turtle Position",
-      "relationship": "Common entry position for establishing harness control"
-    },
-    {
-      "name": "Back Attack System",
-      "relationship": "Comprehensive system built around harness position fundamentals"
-    },
-    {
-      "name": "Hand Fighting from Back",
-      "relationship": "Key defensive concept opponent uses to counter harness control"
-    },
-    {
-      "name": "Chin Protection",
-      "relationship": "Primary defensive principle against harness-based attacks"
-    }
-  ],
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 45,
-      "intermediate": 60,
-      "advanced": 70
-    },
-    "advancement_probability": {
-      "beginner": 50,
-      "intermediate": 65,
-      "advanced": 78
-    },
-    "submission_probability": {
-      "beginner": 35,
-      "intermediate": 52,
-      "advanced": 68
-    },
-    "average_time": "45-90 seconds before submission or full back control establishment"
-  },
-  "expert_insights": {
-    "danaher": "The harness configuration represents the fundamental control structure for all modern back attack systems. Biomechanically, this position creates a closed-loop system where the opponent's defensive efforts feed back into your control rather than diminishing it. When they defend the choking arm, they expose the gift wrap; when they defend the underhook, they expose the neck. The seat belt grip must be understood not as a static hold but as a dynamic control mechanism that allows you to maintain proximity to the back while weathering the opponent's escape attempts. The critical technical detail that separates effective harness control from ineffective attempts is the ability to keep your chest connected to their back throughout all defensive movements. This chest-to-back connection, combined with the proper hand positioning at centerline, creates a control system that is greater than the sum of its parts. Advanced practitioners understand that the harness can be maintained from multiple body configurations—standing, seated, hooks in, hooks out—making it an incredibly versatile position that transcends specific circumstances.",
-    "gordon_ryan": "In competition, the harness position is my bread and butter for finishing matches from the back. The beauty of this control is that it works equally well in gi and no-gi, and it creates immediate submission threats that force opponents into defensive mistakes. When I secure the seat belt, I'm looking for the immediate rear naked choke finish, and if they defend correctly by getting their chin down and hand fighting, that's when I transition to the gift wrap or crucifix. The key is to never stop attacking—the harness isn't a resting position, it's an active hunting position. I keep constant pressure with my chest on their back and I'm always adjusting my choking arm to stay close to the neck. Most people make the mistake of gripping too tight too early and then they gas out. I use my body weight and positioning to control them, saving my maximum grip strength for when I'm actually finishing the choke. Against high-level opponents, you need to combine the harness with good hook control or a body triangle, because upper body control alone won't be enough against someone who really knows how to escape. But that harness is always the starting point—secure it first, then add the lower body control.",
-    "eddie_bravo": "The harness is central to the 10th Planet back attack system, and we have a ton of variations depending on how the opponent defends. The basic seat belt is just the beginning—from there we've got the short choke setup where you're already in the rear naked position before they realize it, or the Twister side control transition if they try to turn into you. One thing we emphasize that's different from traditional approaches is using the harness from less conventional positions. You can establish the seat belt from rubber guard transitions, from the truck, from lockdown—it doesn't have to be this perfect textbook back take. In fact, some of our highest percentage finishes come from harness control established during scrambles when the opponent isn't expecting it. The creativity comes in how you enter and how you chain attacks. If they defend the choke, maybe you go to the Twister. If they defend that, you might transition to the truck and attack the legs. The harness is the hub and everything else is spokes coming off it. We also drill a lot of standing harness control because in no-gi especially, you're going to get a lot of opportunities to lock up that seat belt from the clinch or during takedown exchanges, and you need to be able to capitalize on those opportunities before the opponent gets back to their guard."
-  }
-}
-{
-  "metadata": {
-    "title": "Harness Top Position | BJJ Position Guide | BJJ Graph",
-    "description": "Master Harness Top Position in BJJ - dominant back control with seat belt grip. Learn retention strategies, submission paths, and counter-escapes. 80% advanced retention rate.",
-    "state_id": "S450",
-    "tags": ["bjj", "position", "back-control", "harness", "dominant", "top-position", "seat-belt", "controlling"],
-    "parent_variant": "Harness Position",
-    "sibling_variants": ["Harness Bottom Position"]
-  },
-
-  "overview": "Harness Top Position, also known as the seat belt grip from back control, represents one of the most dominant controlling positions in Brazilian Jiu-Jitsu. This position is characterized by the top practitioner having their body positioned behind their opponent with both hooks in (or at least one hook), while maintaining a seat belt grip configuration - one arm over the shoulder and one arm under the opposite armpit, with hands clasped together on the opponent's chest or sternum. The harness grip is the fundamental control mechanism for maintaining back control and is the foundation from which elite grapplers launch their most devastating submission attacks.\n\nThe position derives its name from the seat belt-like configuration of the arms, which creates a powerful connection that is extremely difficult for the bottom player to break. Unlike other forms of back control where the grips might vary, the harness specifically refers to this over-under grip pattern that provides superior control while maintaining offensive options. The top player's chest is typically pressed against the opponent's back, with hips positioned close to maintain the hooks and prevent the opponent from turning into guard or escaping to their knees.\n\nStrategically, Harness Top Position is considered a premium scoring position (4 points in IBJJF competition) and offers the highest percentage submissions in BJJ, particularly the rear naked choke. The position allows the top player to control the opponent's upper body completely while using the hooks to prevent hip escape and control the lower body. Advanced practitioners can maintain this position almost indefinitely against lower-skilled opponents while methodically working toward submissions. The harness grip creates a dilemma for the defender - defending the choke typically opens armbar opportunities, while defending armbars often exposes the neck. This makes Harness Top Position not just a controlling position, but a true submission platform where elite competitors regularly finish matches.",
-
-  "state_properties": {
-    "point_value": 4,
-    "position_type": "Offensive/Controlling",
-    "risk_level": "Low",
-    "energy_cost": "Medium",
-    "time_sustainability": "Long"
-  },
-
-  "state_invariants": [
-    "Top player's chest is pressed against opponent's back with body weight distributed through core and hooks, maintaining constant forward pressure that prevents the bottom player from creating separation or turning to face",
-    "Seat belt grip (harness) is established with one arm over the opponent's shoulder and one arm under the opposite armpit, hands clasped together on the chest or sternum area, creating a locked control mechanism that resists grip breaks",
-    "At least one hook is inserted with the instep of the foot positioned inside the opponent's thigh, controlling hip movement and preventing the bottom player from turning or bridging effectively",
-    "Top player's head is positioned to the side (typically opposite the choking arm) or tucked behind the opponent's head, protecting the face while maintaining structural connection and preventing backward head pressure escapes",
-    "Bottom player's back is exposed with their spine facing the top player, shoulders relatively square to the mat or angled, with limited ability to turn their upper body due to the harness grip control"
-  ],
-
-  "prerequisites": [
-    "Successful back take from turtle, failed guard pass defense, or transition from other controlling positions",
-    "Ability to establish at least one hook before opponent completes their escape or guard recovery",
-    "Seat belt grip secured before opponent can effectively defend or create frames",
-    "Opponent's back is exposed with their defensive posture compromised",
-    "Top player has superior position with opponent unable to face them directly",
-    "Control of opponent's upper body through grip configuration"
-  ],
-
-  "key_principles": [
-    "Maintain constant chest-to-back connection with forward pressure through the core, never allowing space to develop between bodies",
-    "Keep hands clasped together in the seat belt configuration, with proper hand position (palm-to-palm or gable grip) that resists opponent's grip breaking attempts",
-    "Use hooks actively to control opponent's hips and prevent turning, with feet positioned inside thighs and heels pulling toward you",
-    "Keep head positioned safely to the side or behind opponent's head, never allowing it to drift in front where it can be controlled",
-    "Distribute weight through chest and hooks rather than relying solely on arm strength to maintain position",
-    "Adjust grip height and tightness based on opponent's defensive reactions - higher grip for choke setups, lower for preventing forward rolls",
-    "Maintain hip proximity to opponent's hips to prevent them from sitting up or creating angles for escape"
-  ],
-
-  "offensive_transitions": [
-    {
-      "technique": "Rear Naked Choke",
-      "target_position": "Won by Submission",
-      "success_rates": {
-        "beginner": 45,
-        "intermediate": 65,
-        "advanced": 85
-      }
-    },
-    {
-      "technique": "Armbar from Back with Legs",
-      "target_position": "Armbar Control Top",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Back Control to Crucifix",
-      "target_position": "Crucifix Position Top",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Triangle from Back",
-      "target_position": "Rear Triangle Top",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Bow and Arrow Choke",
-      "target_position": "Won by Submission",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75
-      }
-    },
-    {
-      "technique": "Armbar from Back",
-      "target_position": "Armbar Control Top",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Choke from Crucifix",
-      "target_position": "Won by Submission",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 80
-      }
-    },
-    {
-      "technique": "Rolling Back Take",
-      "target_position": "Body Triangle Back Control Top",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
-      }
-    }
-  ],
-
-  "defensive_responses": [
-    {
-      "technique": "Hip Escape",
-      "target_position": "Turtle Top Position",
-      "success_rate": 25
-    },
-    {
-      "technique": "Back Escape Series",
-      "target_position": "Half Guard Bottom",
-      "success_rate": 30
-    },
-    {
-      "technique": "Granby Roll",
-      "target_position": "Guard Recovery Bottom",
-      "success_rate": 20
-    },
-    {
-      "technique": "Elbow Escape",
-      "target_position": "Turtle Bottom",
-      "success_rate": 35
-    },
-    {
-      "technique": "Hand Fighting from Back",
-      "target_position": "Back Control Bottom",
-      "success_rate": 40
-    },
-    {
-      "technique": "Technical Standup",
-      "target_position": "Standing Position",
-      "success_rate": 15
-    }
-  ],
-
-  "counter_transitions": [
-    {
-      "technique": "Back Control to Crucifix",
-      "target_position": "Crucifix Position Top",
-      "trigger": "Opponent attempts to strip top arm of seat belt grip"
-    },
-    {
-      "technique": "Rolling Back Take",
-      "target_position": "Body Triangle Back Control Top",
-      "trigger": "Opponent begins to turn into you or drives forward"
-    },
-    {
-      "technique": "Rear Naked Choke",
-      "target_position": "Won by Submission",
-      "trigger": "Opponent focuses on removing hooks and neglects hand fighting"
-    },
-    {
-      "technique": "Armbar from Back with Legs",
-      "target_position": "Armbar Control Top",
-      "trigger": "Opponent successfully grabs top arm to defend choke"
-    },
-    {
-      "technique": "Triangle from Back",
-      "target_position": "Rear Triangle Top",
-      "trigger": "Opponent turns shoulder down to escape hooks"
-    }
-  ],
-
-  "decision_tree": [
-    {
-      "condition": "If opponent is defending choke with both hands high, protecting neck",
-      "actions": [
-        {
-          "technique": "Armbar from Back with Legs",
-          "target": "Armbar Control Top",
-          "probability": 70
-        },
-        {
-          "technique": "Back Control to Crucifix",
-          "target": "Crucifix Position Top",
-          "probability": 65
-        }
-      ]
-    },
-    {
-      "condition": "If opponent is working to remove hooks and turn into you",
-      "actions": [
-        {
-          "technique": "Rolling Back Take",
-          "target": "Body Triangle Back Control Top",
-          "probability": 60
-        },
-        {
-          "technique": "Rear Naked Choke",
-          "target": "Won by Submission",
-          "probability": 75
-        }
-      ]
-    },
-    {
-      "condition": "If opponent strips top arm and begins to turn to guard",
-      "actions": [
-        {
-          "technique": "Back Control to Crucifix",
-          "target": "Crucifix Position Top",
-          "probability": 65
-        },
-        {
-          "technique": "Triangle from Back",
-          "target": "Rear Triangle Top",
-          "probability": 55
-        }
-      ]
-    },
-    {
-      "condition": "If opponent turtles and hides arms defensively",
-      "actions": [
-        {
-          "technique": "Bow and Arrow Choke",
-          "target": "Won by Submission",
-          "probability": 70
-        },
-        {
-          "technique": "Rear Naked Choke",
-          "target": "Won by Submission",
-          "probability": 80
-        }
-      ]
-    },
-    {
-      "condition": "If opponent is flat on stomach trying to prevent hooks",
-      "actions": [
-        {
-          "technique": "Rolling Back Take",
-          "target": "Body Triangle Back Control Top",
-          "probability": 65
-        },
-        {
-          "technique": "Choke from Crucifix",
-          "target": "Won by Submission",
-          "probability": 60
-        }
-      ]
-    }
-  ],
-
-  "common_errors": [
-    {
-      "error": "Crossing feet when both hooks are in",
-      "consequence": "Opens vulnerability to straight ankle lock or footlock, potentially losing position and getting submitted from a dominant position",
-      "correction": "Keep feet uncrossed with heels pulling toward your hips, using insteps to hook inside opponent's thighs for control without creating submission opportunities"
-    },
-    {
-      "error": "Allowing space to develop between chest and opponent's back",
-      "consequence": "Gives opponent room to turn into guard, strip grips more easily, or escape to turtle position, fundamentally compromising the position's effectiveness",
-      "correction": "Maintain constant forward pressure through your chest, keeping it glued to opponent's back with your weight distributed through core and hooks"
-    },
-    {
-      "error": "Gripping hands too low on opponent's torso near the belt line",
-      "consequence": "Reduces control effectiveness, makes it easier for opponent to strip grips, and limits offensive options for high-quality choke attacks",
-      "correction": "Keep hands clasped high on the chest or sternum area where grip is harder to break and choking mechanics are more effective"
-    },
-    {
-      "error": "Positioning head directly behind opponent's head where they can drive it backward",
-      "consequence": "Allows opponent to create painful pressure on your face, potentially causing injury and forcing you to adjust position or release grips",
-      "correction": "Keep head to the side, typically opposite your choking arm, or tucked low behind opponent's shoulder to avoid backward pressure"
-    },
-    {
-      "error": "Relying entirely on arm strength to maintain the seat belt grip",
-      "consequence": "Leads to rapid fatigue, weakened grip over time, and increased vulnerability to opponent's grip breaks as match progresses",
-      "correction": "Use proper body connection, chest pressure, and hook control to maintain position, treating the grip as a connection point rather than primary control mechanism"
-    },
-    {
-      "error": "Failing to adjust hooks when opponent begins turning or bridging",
-      "consequence": "Allows opponent to remove hooks completely, turn into guard, or escape to less disadvantageous positions like turtle or half guard",
-      "correction": "Actively adjust hook positions as opponent moves, sometimes removing one hook strategically to maintain the more important seat belt grip and overall back position"
-    },
-    {
-      "error": "Attacking submissions prematurely without establishing solid positional control first",
-      "consequence": "Gives opponent escape opportunities during transition, potentially losing a dominant 4-point position while attempting low-percentage submissions",
-      "correction": "First secure all control elements - both hooks in, tight seat belt grip, chest connection, proper head position - before initiating submission attacks"
-    }
-  ],
-
-  "training_drills": [
-    {
-      "name": "Back Mount Retention Drill",
-      "description": "Partner starts in bottom position with full harness control established. Bottom player attempts various escape sequences (hand fighting, turning, bridging, removing hooks) while top player focuses solely on maintaining position without attacking submissions. Practice for 2-minute rounds, switching roles. Focus on maintaining chest-to-back connection and proper hook usage.",
-      "duration": "3 rounds of 2 minutes per partner"
-    },
-    {
-      "name": "Seat Belt Grip Breaking Resistance",
-      "description": "Start with seat belt grip established but no hooks in. Bottom player uses all legal grip breaking methods (pushing arms apart, pulling down, stripping individual hands, etc.) while top player maintains the grip using proper hand position and body connection. This isolates grip retention skills from full position maintenance. Progress to adding one hook, then both hooks.",
-      "duration": "2 minutes per position variation"
-    },
-    {
-      "name": "Submission Chain Flow Drill",
-      "description": "From established harness position, practice flowing between rear naked choke setup, armbar from back transition, and crucifix control based on opponent's defensive hand positions. Partner provides realistic but controlled defensive reactions. Focus on smooth transitions and maintaining control throughout the chain rather than finishing submissions.",
-      "duration": "3 minutes continuous flow per partner"
-    },
-    {
-      "name": "Hook Retention and Recovery Drill",
-      "description": "Start with harness grip and one hook in. Bottom player works to clear the remaining hook and then remove the established hook while top player works to maintain both hooks. Top player practices recovering removed hooks while maintaining the critical seat belt grip. Emphasizes hook fighting and the hierarchy of controls (grip over hooks).",
-      "duration": "2-minute rounds, 3 rounds per partner"
-    },
-    {
-      "name": "Back Take to Submission Sequences",
-      "description": "Partner starts in turtle position. Practice back take entry establishing harness control, then immediately flow into rear naked choke, bow and arrow, or armbar setups based on defensive reactions. Resets to turtle after each sequence. Builds muscle memory for capitalizing on back control opportunities quickly in competition.",
-      "duration": "5 minutes continuous repetition"
-    }
-  ],
-
-  "optimal_submission_paths": [
-    {
-      "name": "Highest Percentage Path",
-      "path": "Harness Top Position → Rear Naked Choke → Won by Submission"
-    },
-    {
-      "name": "Armbar Chain Path",
-      "path": "Harness Top Position → Armbar from Back with Legs → Armbar Control Top → Straight Armbar → Won by Submission"
-    },
-    {
-      "name": "Crucifix Development Path",
-      "path": "Harness Top Position → Back Control to Crucifix → Crucifix Position Top → Choke from Crucifix → Won by Submission"
-    },
-    {
-      "name": "Triangle Alternative Path",
-      "path": "Harness Top Position → Triangle from Back → Rear Triangle Top → Triangle Choke Back → Won by Submission"
-    },
-    {
-      "name": "Gi-Specific Path",
-      "path": "Harness Top Position → Bow and Arrow Choke → Won by Submission"
-    },
-    {
-      "name": "Body Triangle Advancement",
-      "path": "Harness Top Position → Rolling Back Take → Body Triangle Back Control Top → Rear Naked Choke → Won by Submission"
-    }
-  ],
-
-  "related_content": [
-    {
-      "name": "Back Control",
-      "relationship": "Parent position category"
-    },
-    {
-      "name": "Back Control Top",
-      "relationship": "General category this position belongs to"
-    },
-    {
-      "name": "Seat Belt Control Back Top",
-      "relationship": "Alternative name for same position"
-    },
-    {
-      "name": "Body Triangle Back Control Top",
-      "relationship": "Advanced variation with leg triangle instead of hooks"
-    },
-    {
-      "name": "Crucifix Position Top",
-      "relationship": "Common advancement when opponent defends"
-    },
-    {
-      "name": "Gift Wrap Top Position",
-      "relationship": "Alternative control configuration from back"
-    },
-    {
-      "name": "Rear Triangle Top",
-      "relationship": "Submission position accessible from here"
-    },
-    {
-      "name": "Mounted Crucifix Top",
-      "relationship": "Related dominant control position"
-    },
-    {
-      "name": "Turtle Top Position",
-      "relationship": "Common entry position before back take"
+      "name": "Seat Belt Control Back",
+      "relationship": "Alternative classification name for same position"
     },
     {
       "name": "Back Attack System",
-      "relationship": "Systematic framework for this position"
-    },
-    {
-      "name": "Danaher Straight Jacket System",
-      "relationship": "Expert system featuring harness control"
+      "relationship": "Comprehensive offensive system built around this position"
     },
     {
       "name": "Back Defense Protocol",
-      "relationship": "Defensive counterpart system"
+      "relationship": "Systematic defensive framework for bottom perspective"
+    },
+    {
+      "name": "Hand Fighting from Back",
+      "relationship": "Key defensive principle for bottom player"
+    },
+    {
+      "name": "Rear Naked Choke",
+      "relationship": "Primary submission threat from top harness control"
     }
   ],
-
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 50,
-      "intermediate": 70,
-      "advanced": 85
+  "bottom": {
+    "name": "Harness Bottom",
+    "description": "Master defensive strategies from Harness Bottom Position in BJJ. Learn systematic escapes, hand fighting techniques, and survival protocols against back control with 40-65% escape rates.",
+    "tags": ["bjj", "position", "harness", "back-control", "defensive", "bottom", "escape", "hand-fighting"],
+    "overview": "Harness Bottom Position represents the defensive perspective when an opponent has secured back control with a harness (seatbelt) grip configuration. This position is characterized by the opponent wrapping one arm over the shoulder and the other under the armpit, establishing a strong controlling mechanism. The harness grip is one of the most fundamental and effective control systems in Brazilian Jiu-Jitsu, as it provides the top player with both offensive submission opportunities and positional dominance while severely limiting the bottom player's mobility and defensive options.\n\nFrom this position, the bottom player faces significant challenges including defending against rear naked chokes, preventing hooks from being inserted, and managing the constant threat of positional advancement to fully secured back control with hooks. The harness grip creates a dilemma where defending the choke often exposes the neck, while protecting the neck can allow deeper positional control. Success in this position requires systematic defensive strategies including hand fighting, proper posture management, hip positioning, and timely escaping techniques.\n\nThe strategic priority from Harness Bottom Position is threefold: first, prevent the rear naked choke by controlling the choking arm and protecting the neck; second, prevent or remove hooks to maintain mobility; and third, create space and angles to escape back to more favorable positions such as turtle, guard, or standing positions. Understanding the mechanics of the harness grip and the opponent's offensive threats is essential for developing effective defensive responses and escape pathways.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive",
+      "risk_level": "High",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short to Medium"
     },
-    "advancement_probability": {
-      "beginner": 40,
-      "intermediate": 60,
-      "advanced": 80
+    "state_invariants": [
+      "Opponent positioned behind the practitioner's back with chest pressure against the back, maintaining upper body control through the harness grip configuration with one arm over shoulder and one under opposite armpit",
+      "One opponent arm wrapped over the shoulder (typically the choking-side arm) while the other arm threads under the opposite armpit, creating the classic seatbelt or harness control pattern that connects at practitioner's centerline",
+      "Practitioner's back exposed to opponent with limited visual contact, requiring defensive awareness and tactile sensitivity to opponent's weight distribution and grip adjustments to anticipate offensive actions",
+      "Constant threat of rear naked choke requiring active hand fighting and chin protection, with defensive hands either controlling the choking arm or creating frames to prevent neck exposure and submission completion",
+      "Opponent may have one or both hooks inserted, or may be working to establish hooks while maintaining the harness grip as primary control mechanism, with varying degrees of lower body control"
+    ],
+    "prerequisites": [
+      "Opponent has successfully achieved back position through transition, scramble, or failed guard retention",
+      "Opponent has established harness (seatbelt) grip with one arm over shoulder and one under armpit",
+      "Practitioner's back is exposed to opponent with upper body control secured",
+      "Practitioner is in defensive posture attempting to prevent submission and escape the position"
+    ],
+    "key_principles": [
+      "Immediately address the choking arm by controlling the wrist or hand with both defensive hands to prevent rear naked choke completion",
+      "Maintain chin protection by tucking chin to chest and using shoulder pressure to block choking arm from sliding across neck",
+      "Control opponent's bottom arm (under-hook side) to prevent them from completing the harness lock and to create escape opportunities",
+      "Prevent or remove hooks by keeping knees together, squeezing legs, and using hip movement to deny space for hook insertion",
+      "Create angles and rotation by turning toward the under-hook side to disrupt opponent's alignment and create escape pathways",
+      "Maintain connection to the mat with hands and feet to prevent being rolled or lifted into more vulnerable positions",
+      "Stay calm and systematic in defense rather than panicking, as frantic movements often expose the neck or allow deeper control"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Elbow Escape",
+        "target_position": "Turtle",
+        "success_rates": {
+          "beginner": 40,
+          "intermediate": 55,
+          "advanced": 70
+        }
+      },
+      {
+        "technique": "Hip Escape",
+        "target_position": "Defensive Position",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 50,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Technical Stand Up to Single Leg",
+        "target_position": "Standing Position",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Roll to Guard",
+        "target_position": "Closed Guard",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Granby Roll",
+        "target_position": "Open Guard",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 35,
+          "advanced": 50
+        }
+      },
+      {
+        "technique": "Standing up in Base",
+        "target_position": "Standing Position",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      }
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Rear Naked Choke",
+        "target_position": "Won by Submission",
+        "success_rate": 60
+      },
+      {
+        "technique": "Hook insertion and consolidation",
+        "target_position": "Back Control"
+      },
+      {
+        "technique": "Transition to Mount",
+        "target_position": "Mount"
+      },
+      {
+        "technique": "Body Triangle establishment",
+        "target_position": "Body Triangle"
+      },
+      {
+        "technique": "Armbar from Back with Legs",
+        "target_position": "Armbar Control"
+      }
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Hand fighting to break grips",
+        "target_position": "Turtle",
+        "trigger": "Opponent adjusts harness grip or attempts to tighten control"
+      },
+      {
+        "technique": "Hip escape with angle creation",
+        "target_position": "Defensive Position",
+        "trigger": "Opponent attempts to insert second hook or establish body triangle"
+      },
+      {
+        "technique": "Forward roll escape",
+        "target_position": "Open Guard",
+        "trigger": "Opponent posts hand forward or reduces chest pressure temporarily"
+      },
+      {
+        "technique": "Scoot and turn to face opponent",
+        "target_position": "Closed Guard",
+        "trigger": "Opponent's weight shifts to one side or hooks are not yet established"
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent has tight harness grip but no hooks established yet",
+        "actions": [
+          {
+            "technique": "Control choking arm with both hands",
+            "target": "Harness Bottom",
+            "probability": 90
+          },
+          {
+            "technique": "Hip Escape to create space",
+            "target": "Turtle",
+            "probability": 50
+          },
+          {
+            "technique": "Standing up in Base",
+            "target": "Standing Position",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts rear naked choke by bringing arm across neck",
+        "actions": [
+          {
+            "technique": "Two-on-one grip fight on choking arm",
+            "target": "Harness Bottom",
+            "probability": 85
+          },
+          {
+            "technique": "Chin down and turn into choking arm",
+            "target": "Defensive Position",
+            "probability": 60
+          },
+          {
+            "technique": "Emergency elbow escape",
+            "target": "Turtle",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If opponent establishes one or both hooks while maintaining harness",
+        "actions": [
+          {
+            "technique": "Clear hooks while controlling hands",
+            "target": "Harness Bottom",
+            "probability": 55
+          },
+          {
+            "technique": "Granby Roll escape",
+            "target": "Open Guard",
+            "probability": 35
+          },
+          {
+            "technique": "Hip escape and scoot",
+            "target": "Defensive Position",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent's chest pressure reduces or weight shifts to one side",
+        "actions": [
+          {
+            "technique": "Technical Stand Up to Single Leg",
+            "target": "Standing Position",
+            "probability": 60
+          },
+          {
+            "technique": "Forward roll to guard",
+            "target": "Closed Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Elbow escape to turtle",
+            "target": "Turtle",
+            "probability": 65
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Reaching back or trying to grab opponent's head without controlling the choking arm first",
+        "consequence": "Exposes the neck completely and allows opponent to easily secure rear naked choke by sliding arm across undefended neck",
+        "correction": "Always prioritize controlling the choking arm with two-on-one grip before attempting any offensive hand fighting or positional escapes"
+      },
+      {
+        "error": "Panicking and making explosive, uncontrolled movements without systematic defense",
+        "consequence": "Burns energy rapidly, creates openings for chokes and submissions, and often results in worse position or deeper control for opponent",
+        "correction": "Stay calm, breathe steadily, and work through defensive priorities systematically: control choking arm, protect neck, prevent hooks, then escape"
+      },
+      {
+        "error": "Allowing opponent to lock hands together or complete the harness grip structure",
+        "consequence": "Significantly increases opponent's control and makes grip breaking extremely difficult, reducing escape opportunities substantially",
+        "correction": "Fight hands aggressively before they lock by controlling opponent's bottom arm and preventing the grip from being completed"
+      },
+      {
+        "error": "Straightening the back or creating space between back and opponent's chest",
+        "consequence": "Allows opponent to insert hooks more easily, establish body triangle, or create better angles for rear naked choke",
+        "correction": "Maintain rounded posture with back slightly curved and stay connected to opponent's chest to limit their ability to establish deeper control"
+      },
+      {
+        "error": "Neglecting to address hooks and allowing opponent to establish full back control",
+        "consequence": "Dramatically reduces mobility and escape options while increasing opponent's positional points and submission opportunities",
+        "correction": "Actively prevent hook insertion by keeping knees together, squeezing legs, and using hip pressure to deny space for hooks"
+      },
+      {
+        "error": "Turning away from the under-hook side instead of toward it",
+        "consequence": "Plays into opponent's control structure and makes their harness more effective while reducing escape angles",
+        "correction": "Turn toward the under-hook side to disrupt opponent's alignment and create the most effective escape pathway"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Harness Escape Positional Sparring",
+        "description": "Partner establishes harness grip from back without hooks. Bottom player practices systematic defense: control choking arm, fight grips, create space, and escape to turtle or guard. Start with 30-second rounds and gradually increase resistance. Reset if choke is secured or full back control is established. Focus on staying calm under pressure and working through defensive hierarchy.",
+        "duration": "5 minutes per partner"
+      },
+      {
+        "name": "Two-on-One Grip Fighting Drill",
+        "description": "Partner has harness grip and actively attempts to bring choking arm across neck for rear naked choke. Bottom player uses two-on-one control on choking arm to prevent choke while maintaining chin protection. Practice controlling the wrist, elbow, and tricep area. Partner slowly increases pressure over multiple rounds. Emphasize grip endurance and proper hand positioning.",
+        "duration": "3 minutes per partner"
+      },
+      {
+        "name": "Hook Prevention and Removal",
+        "description": "Partner establishes harness and attempts to insert hooks while bottom player defends by keeping knees together, using hip pressure, and clearing hooks when inserted. Practice both preventing initial hook insertion and removing established hooks. Focus on timing hip movement with opponent's attempts to create space for hooks.",
+        "duration": "4 minutes per partner"
+      },
+      {
+        "name": "Progressive Back Escape Sequence",
+        "description": "Start from harness bottom with no hooks. Work through complete escape sequence: control choking arm → fight bottom hand → create space with elbow → hip escape to create angle → transition to turtle or guard. Partner provides graduated resistance (30%, 50%, 70%, 90%). Reset and repeat, focusing on smooth transitions between defensive steps.",
+        "duration": "6 minutes per partner"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Defensive Survival Path",
+        "path": "Harness Bottom → Control choking arm → Fight grips → Maintain position until opportunity → Elbow Escape → Turtle"
+      },
+      {
+        "name": "Counter to Guard Path",
+        "path": "Harness Bottom → Two-on-one control → Hip escape to create angle → Scoot and turn → Closed Guard"
+      },
+      {
+        "name": "Standing Escape Path",
+        "path": "Harness Bottom → Control hands → Weight forward on hands → Technical Stand Up → Standing Position"
+      },
+      {
+        "name": "Granby Roll Escape Path",
+        "path": "Harness Bottom → Clear hooks → Forward roll over shoulder → Open Guard → Re-Guard"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Back Control",
+        "relationship": "Advanced control position with hooks - worse position if harness bottom defense fails"
+      },
+      {
+        "name": "Seat Belt Control Back",
+        "relationship": "Alternative name for same position configuration"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Common escape target position - defensive position with better escape options"
+      },
+      {
+        "name": "Defensive Position",
+        "relationship": "Generic defensive position category - harness bottom is high-risk defensive position"
+      },
+      {
+        "name": "Body Triangle",
+        "relationship": "Worse position if opponent establishes body triangle from harness"
+      },
+      {
+        "name": "Rear Naked Choke",
+        "relationship": "Primary submission threat from this position"
+      },
+      {
+        "name": "Back Defense Protocol",
+        "relationship": "Systematic defensive framework for all back control situations"
+      },
+      {
+        "name": "Back Escape Series",
+        "relationship": "Comprehensive escape system for back control positions"
+      },
+      {
+        "name": "Hand Fighting from Back",
+        "relationship": "Core defensive skill for preventing submissions"
+      },
+      {
+        "name": "Chin Protection",
+        "relationship": "Essential defensive principle against choke attacks"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 60
+      },
+      "advancement_probability": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      },
+      "submission_probability": {
+        "beginner": 5,
+        "intermediate": 8,
+        "advanced": 12
+      },
+      "average_time": "30-90 seconds before escape attempt or submission threat"
     },
-    "submission_probability": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 75
-    },
-    "average_time": "45-90 seconds before submission or escape attempt"
+    "expert_insights": {
+      "danaher": "The harness bottom position represents a critical defensive junction in the back attack sequence where systematic hand fighting becomes paramount. The fundamental principle here is understanding the biomechanical hierarchy of threats: the rear naked choke is the immediate danger that must be addressed before any positional escape can be attempted. Your defensive structure must prioritize a two-on-one grip control on the choking arm, utilizing both hands to control the wrist and prevent the forearm from crossing your neck. The chin must remain tucked to the chest creating a barrier, while the shoulders are elevated to narrow the gap through which the choking arm might slide. Only after establishing this defensive frame can you address the secondary concern of preventing hooks and creating escape angles. The escape pathway invariably involves turning toward the under-hook side, as this disrupts the opponent's structural alignment and creates the geometry necessary for hip escape. Understanding that defense in this position is a systematic progression rather than a single explosive movement is essential for survival against high-level back attack systems.",
+      "gordon_ryan": "From competition experience, harness bottom is where matches get finished if you don't have your defensive priorities absolutely dialed in. The reality is you're in a bad spot and the guy on top has multiple paths to submission and better position. What works at the highest level is staying ice cold and working your defenses in the right order - hands first, always hands first. I'm controlling that choking arm like my life depends on it because in a match, my victory depends on it. Two hands on one, wrist control, preventing any sliding motion across the neck. While I'm doing that, I'm actively preventing hooks with my leg positioning and looking for the moment when his pressure reduces even slightly to start my escape. The hip escape to turtle is my highest percentage move because it's simple, it works against everyone, and I can hit it quickly when I feel the opportunity. I'm not trying to be fancy from bottom harness - I'm trying to survive first, then escape to a position where I can start working my game. The competitors who get submitted here are the ones who panic or try to force escapes before controlling the immediate threats. Stay systematic, stay patient, and take what the position gives you.",
+      "eddie_bravo": "Harness bottom is one of those positions where the traditional defensive approach works, but there's also room for some creative problem-solving if you understand the mechanics. The standard two-on-one on the choking arm is solid, but what I teach is also being aware of creating dilemmas for the top guy. If he's worried about you standing up, he has to adjust his weight. If he's focused on getting his hooks in, there's a window for the Granby roll escape that can completely reset the position. The key innovation we work on at 10th Planet is not just surviving harness bottom but using opponent reactions to create escape opportunities. When he tries to finish the choke, that's when his base becomes vulnerable to the forward roll. When he focuses on controlling your hips, that's when you can work the technical standup. It's about reading his intentions through his weight distribution and grip adjustments, then exploiting the windows that open up. We drill this position a lot because it shows up constantly in no-gi, and having multiple escape paths based on what the opponent is doing makes you unpredictable and harder to control. Don't just defend - make him defend his position too."
+    }
   },
-
-  "expert_insights": {
-    "danaher": "The harness position represents the apex of positional control in Brazilian Jiu-Jitsu from a biomechanical perspective. The seat belt configuration - one arm over the shoulder, one under the opposite armpit with hands clasped - creates what I call a 'structural lock' that is extraordinarily difficult to break through mechanical advantage alone. The key insight is understanding that the harness grip is not primarily about arm strength, but rather about creating a closed system where your body weight, chest connection, and hook control work synergistically to maintain the position. When executed properly, the bottom player faces a mathematical dilemma: their efforts to strip the grip actually tighten your control as they push your arms together. The hands should be clasped high on the sternum, creating maximum leverage for both control and offensive options. The hooks serve as rudders, not anchors - use them to steer the opponent's movement rather than simply holding them in place. Most importantly, understand the hierarchy of controls: the seat belt grip is more valuable than both hooks combined. If forced to choose, maintain the grip and recover hooks later. This position creates perfect conditions for the highest percentage submission in grappling - the rear naked choke - while simultaneously offering clear paths to armbars and crucifix positions when the opponent defends predictably.",
-
-    "gordon_ryan": "From a competition standpoint, harness control is where I finish most of my matches. The reality in high-level no-gi is that getting to the back clean is actually harder than finishing once you're there - the position is just that dominant when you know what you're doing. My approach is aggressive and submission-focused: I'm not here to hold position for points, I'm here to finish. The moment I secure the seat belt, I'm already thinking three steps ahead to the choke finish. What works at the highest levels is constant offensive pressure - I'll feint the choke to draw the hands up, then immediately attack the arm when they defend. If they defend the armbar, the neck opens back up. This isn't a position where you should be comfortable playing defensive or reactive - you dictate everything. One critical detail most people miss: stay heavy on one side. I prefer my choking side to be dominant, keeping that shoulder pressure constant while my bottom hook does most of the steering work. When they try to turn into you, that's when you roll with them and lock the body triangle. The body triangle variation is my preferred finish position because it eliminates 50% of their escape options immediately. In competition, time is a factor - you have limited energy and limited time to work. Don't waste either by being passive from the back. Attack, create reactions, attack the reaction, finish.",
-
-    "eddie_bravo": "The harness from back control is fundamental, but at 10th Planet we take it to another level with our lockdown and control innovations. Traditional back control is great, but we're always looking at how to make it better, more submission-oriented, and harder to escape. First thing - that seat belt grip is crucial, but we emphasize active wrist control on the bottom arm. Instead of just clasping hands, we're fighting to control their wrist with our bottom hand, which sets up the rear naked choke way cleaner and prevents a lot of defensive frames. The Truck position is our bread and butter entry to back control, and once we establish the harness, we're immediately looking at unconventional submissions most traditional schools don't emphasize - the twister being the obvious one, but also calf slicers and unique choke variations. Here's what's important in our system: we don't just maintain position, we hunt. If I've got your back with a harness, I'm already thinking about how to transition to the twister or set up the banana split. The hooks aren't just for control - they're submission tools. We teach an entire system around back attacks that includes not just the traditional RNC and armbars, but lockdown variations, calf compression, and spine manipulation techniques that create a much broader threat matrix. The beauty of the harness is it keeps their attention up high defending the choke while we're attacking the lower body with submission threats they're not expecting. That's the 10th Planet difference - we respect the fundamentals but we're always innovating new attacks from traditional positions."
+  "top": {
+    "name": "Harness Top",
+    "description": "Master Harness Top Position in BJJ - dominant back control with seat belt grip. Learn retention strategies, submission paths, and counter-escapes with 85% advanced retention rate.",
+    "tags": ["bjj", "position", "back-control", "harness", "dominant", "top-position", "seat-belt", "controlling", "submission-platform"],
+    "overview": "Harness Top Position, also known as the seat belt grip from back control, represents one of the most dominant controlling positions in Brazilian Jiu-Jitsu. This position is characterized by the top practitioner having their body positioned behind their opponent with both hooks in (or at least one hook), while maintaining a seat belt grip configuration - one arm over the shoulder and one arm under the opposite armpit, with hands clasped together on the opponent's chest or sternum. The harness grip is the fundamental control mechanism for maintaining back control and is the foundation from which elite grapplers launch their most devastating submission attacks.\n\nThe position derives its name from the seat belt-like configuration of the arms, which creates a powerful connection that is extremely difficult for the bottom player to break. Unlike other forms of back control where the grips might vary, the harness specifically refers to this over-under grip pattern that provides superior control while maintaining offensive options. The top player's chest is typically pressed against the opponent's back, with hips positioned close to maintain the hooks and prevent the opponent from turning into guard or escaping to their knees.\n\nStrategically, Harness Top Position is considered a premium scoring position (4 points in IBJJF competition) and offers the highest percentage submissions in BJJ, particularly the rear naked choke. The position allows the top player to control the opponent's upper body completely while using the hooks to prevent hip escape and control the lower body. Advanced practitioners can maintain this position almost indefinitely against lower-skilled opponents while methodically working toward submissions. The harness grip creates a dilemma for the defender - defending the choke typically opens armbar opportunities, while defending armbars often exposes the neck. This makes Harness Top Position not just a controlling position, but a true submission platform where elite competitors regularly finish matches.",
+    "state_properties": {
+      "point_value": 4,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low",
+      "energy_cost": "Medium",
+      "time_sustainability": "Long"
+    },
+    "state_invariants": [
+      "Top player's chest is pressed against opponent's back with body weight distributed through core and hooks, maintaining constant forward pressure that prevents the bottom player from creating separation or turning to face",
+      "Seat belt grip (harness) is established with one arm over the opponent's shoulder and one arm under the opposite armpit, hands clasped together on the chest or sternum area, creating a locked control mechanism that resists grip breaks",
+      "At least one hook is inserted with the instep of the foot positioned inside the opponent's thigh, controlling hip movement and preventing the bottom player from turning or bridging effectively",
+      "Top player's head is positioned to the side (typically opposite the choking arm) or tucked behind the opponent's head, protecting the face while maintaining structural connection and preventing backward head pressure escapes",
+      "Bottom player's back is exposed with their spine facing the top player, shoulders relatively square to the mat or angled, with limited ability to turn their upper body due to the harness grip control"
+    ],
+    "prerequisites": [
+      "Successful back take from turtle, failed guard pass defense, or transition from other controlling positions",
+      "Ability to establish at least one hook before opponent completes their escape or guard recovery",
+      "Seat belt grip secured before opponent can effectively defend or create frames",
+      "Opponent's back is exposed with their defensive posture compromised",
+      "Top player has superior position with opponent unable to face them directly",
+      "Control of opponent's upper body through grip configuration"
+    ],
+    "key_principles": [
+      "Maintain constant chest-to-back connection with forward pressure through the core, never allowing space to develop between bodies",
+      "Keep hands clasped together in the seat belt configuration, with proper hand position (palm-to-palm or gable grip) that resists opponent's grip breaking attempts",
+      "Use hooks actively to control opponent's hips and prevent turning, with feet positioned inside thighs and heels pulling toward you",
+      "Keep head positioned safely to the side or behind opponent's head, never allowing it to drift in front where it can be controlled",
+      "Distribute weight through chest and hooks rather than relying solely on arm strength to maintain position",
+      "Adjust grip height and tightness based on opponent's defensive reactions - higher grip for choke setups, lower for preventing forward rolls",
+      "Maintain hip proximity to opponent's hips to prevent them from sitting up or creating angles for escape"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Rear Naked Choke",
+        "target_position": "Won by Submission",
+        "success_rates": {
+          "beginner": 45,
+          "intermediate": 65,
+          "advanced": 85
+        }
+      },
+      {
+        "technique": "Armbar from Back with Legs",
+        "target_position": "Armbar Control",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 50,
+          "advanced": 70
+        }
+      },
+      {
+        "technique": "Back Control to Crucifix",
+        "target_position": "Crucifix",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 45,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Triangle from Back",
+        "target_position": "Rear Triangle",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 35,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Bow and Arrow Choke",
+        "target_position": "Won by Submission",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 55,
+          "advanced": 75
+        }
+      },
+      {
+        "technique": "Armbar from Back",
+        "target_position": "Armbar Control",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 45,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Choke from Crucifix",
+        "target_position": "Won by Submission",
+        "success_rates": {
+          "beginner": 40,
+          "intermediate": 60,
+          "advanced": 80
+        }
+      },
+      {
+        "technique": "Rolling Back Take",
+        "target_position": "Body Triangle",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 50,
+          "advanced": 70
+        }
+      }
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Hip Escape",
+        "target_position": "Turtle",
+        "success_rate": 25
+      },
+      {
+        "technique": "Back Escape Series",
+        "target_position": "Half Guard",
+        "success_rate": 30
+      },
+      {
+        "technique": "Granby Roll",
+        "target_position": "Open Guard",
+        "success_rate": 20
+      },
+      {
+        "technique": "Elbow Escape",
+        "target_position": "Turtle",
+        "success_rate": 35
+      },
+      {
+        "technique": "Hand Fighting from Back",
+        "target_position": "Back Control",
+        "success_rate": 40
+      },
+      {
+        "technique": "Technical Standup",
+        "target_position": "Standing Position",
+        "success_rate": 15
+      }
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Back Control to Crucifix",
+        "target_position": "Crucifix",
+        "trigger": "Opponent attempts to strip top arm of seat belt grip"
+      },
+      {
+        "technique": "Rolling Back Take",
+        "target_position": "Body Triangle",
+        "trigger": "Opponent begins to turn into you or drives forward"
+      },
+      {
+        "technique": "Rear Naked Choke",
+        "target_position": "Won by Submission",
+        "trigger": "Opponent focuses on removing hooks and neglects hand fighting"
+      },
+      {
+        "technique": "Armbar from Back with Legs",
+        "target_position": "Armbar Control",
+        "trigger": "Opponent successfully grabs top arm to defend choke"
+      },
+      {
+        "technique": "Triangle from Back",
+        "target_position": "Rear Triangle",
+        "trigger": "Opponent turns shoulder down to escape hooks"
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent is defending choke with both hands high, protecting neck",
+        "actions": [
+          {
+            "technique": "Armbar from Back with Legs",
+            "target": "Armbar Control",
+            "probability": 70
+          },
+          {
+            "technique": "Back Control to Crucifix",
+            "target": "Crucifix",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If opponent is working to remove hooks and turn into you",
+        "actions": [
+          {
+            "technique": "Rolling Back Take",
+            "target": "Body Triangle",
+            "probability": 60
+          },
+          {
+            "technique": "Rear Naked Choke",
+            "target": "Won by Submission",
+            "probability": 75
+          }
+        ]
+      },
+      {
+        "condition": "If opponent strips top arm and begins to turn to guard",
+        "actions": [
+          {
+            "technique": "Back Control to Crucifix",
+            "target": "Crucifix",
+            "probability": 65
+          },
+          {
+            "technique": "Triangle from Back",
+            "target": "Rear Triangle",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent turtles and hides arms defensively",
+        "actions": [
+          {
+            "technique": "Bow and Arrow Choke",
+            "target": "Won by Submission",
+            "probability": 70
+          },
+          {
+            "technique": "Rear Naked Choke",
+            "target": "Won by Submission",
+            "probability": 80
+          }
+        ]
+      },
+      {
+        "condition": "If opponent is flat on stomach trying to prevent hooks",
+        "actions": [
+          {
+            "technique": "Rolling Back Take",
+            "target": "Body Triangle",
+            "probability": 65
+          },
+          {
+            "technique": "Choke from Crucifix",
+            "target": "Won by Submission",
+            "probability": 60
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Crossing feet when both hooks are in",
+        "consequence": "Opens vulnerability to straight ankle lock or footlock, potentially losing position and getting submitted from a dominant position",
+        "correction": "Keep feet uncrossed with heels pulling toward your hips, using insteps to hook inside opponent's thighs for control without creating submission opportunities"
+      },
+      {
+        "error": "Allowing space to develop between chest and opponent's back",
+        "consequence": "Gives opponent room to turn into guard, strip grips more easily, or escape to turtle position, fundamentally compromising the position's effectiveness",
+        "correction": "Maintain constant forward pressure through your chest, keeping it glued to opponent's back with your weight distributed through core and hooks"
+      },
+      {
+        "error": "Gripping hands too low on opponent's torso near the belt line",
+        "consequence": "Reduces control effectiveness, makes it easier for opponent to strip grips, and limits offensive options for high-quality choke attacks",
+        "correction": "Keep hands clasped high on the chest or sternum area where grip is harder to break and choking mechanics are more effective"
+      },
+      {
+        "error": "Positioning head directly behind opponent's head where they can drive it backward",
+        "consequence": "Allows opponent to create painful pressure on your face, potentially causing injury and forcing you to adjust position or release grips",
+        "correction": "Keep head to the side, typically opposite your choking arm, or tucked low behind opponent's shoulder to avoid backward pressure"
+      },
+      {
+        "error": "Relying entirely on arm strength to maintain the seat belt grip",
+        "consequence": "Leads to rapid fatigue, weakened grip over time, and increased vulnerability to opponent's grip breaks as match progresses",
+        "correction": "Use proper body connection, chest pressure, and hook control to maintain position, treating the grip as a connection point rather than primary control mechanism"
+      },
+      {
+        "error": "Failing to adjust hooks when opponent begins turning or bridging",
+        "consequence": "Allows opponent to remove hooks completely, turn into guard, or escape to less disadvantageous positions like turtle or half guard",
+        "correction": "Actively adjust hook positions as opponent moves, sometimes removing one hook strategically to maintain the more important seat belt grip and overall back position"
+      },
+      {
+        "error": "Attacking submissions prematurely without establishing solid positional control first",
+        "consequence": "Gives opponent escape opportunities during transition, potentially losing a dominant 4-point position while attempting low-percentage submissions",
+        "correction": "First secure all control elements - both hooks in, tight seat belt grip, chest connection, proper head position - before initiating submission attacks"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Back Mount Retention Drill",
+        "description": "Partner starts in bottom position with full harness control established. Bottom player attempts various escape sequences (hand fighting, turning, bridging, removing hooks) while top player focuses solely on maintaining position without attacking submissions. Practice for 2-minute rounds, switching roles. Focus on maintaining chest-to-back connection and proper hook usage.",
+        "duration": "3 rounds of 2 minutes per partner"
+      },
+      {
+        "name": "Seat Belt Grip Breaking Resistance",
+        "description": "Start with seat belt grip established but no hooks in. Bottom player uses all legal grip breaking methods (pushing arms apart, pulling down, stripping individual hands, etc.) while top player maintains the grip using proper hand position and body connection. This isolates grip retention skills from full position maintenance. Progress to adding one hook, then both hooks.",
+        "duration": "2 minutes per position variation"
+      },
+      {
+        "name": "Submission Chain Flow Drill",
+        "description": "From established harness position, practice flowing between rear naked choke setup, armbar from back transition, and crucifix control based on opponent's defensive hand positions. Partner provides realistic but controlled defensive reactions. Focus on smooth transitions and maintaining control throughout the chain rather than finishing submissions.",
+        "duration": "3 minutes continuous flow per partner"
+      },
+      {
+        "name": "Hook Retention and Recovery Drill",
+        "description": "Start with harness grip and one hook in. Bottom player works to clear the remaining hook and then remove the established hook while top player works to maintain both hooks. Top player practices recovering removed hooks while maintaining the critical seat belt grip. Emphasizes hook fighting and the hierarchy of controls (grip over hooks).",
+        "duration": "2-minute rounds, 3 rounds per partner"
+      },
+      {
+        "name": "Back Take to Submission Sequences",
+        "description": "Partner starts in turtle position. Practice back take entry establishing harness control, then immediately flow into rear naked choke, bow and arrow, or armbar setups based on defensive reactions. Resets to turtle after each sequence. Builds muscle memory for capitalizing on back control opportunities quickly in competition.",
+        "duration": "5 minutes continuous repetition"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Highest Percentage Path",
+        "path": "Harness Top → Rear Naked Choke → Won by Submission"
+      },
+      {
+        "name": "Armbar Chain Path",
+        "path": "Harness Top → Armbar from Back with Legs → Armbar Control → Straight Armbar → Won by Submission"
+      },
+      {
+        "name": "Crucifix Development Path",
+        "path": "Harness Top → Back Control to Crucifix → Crucifix → Choke from Crucifix → Won by Submission"
+      },
+      {
+        "name": "Triangle Alternative Path",
+        "path": "Harness Top → Triangle from Back → Rear Triangle → Triangle Choke → Won by Submission"
+      },
+      {
+        "name": "Gi-Specific Path",
+        "path": "Harness Top → Bow and Arrow Choke → Won by Submission"
+      },
+      {
+        "name": "Body Triangle Advancement",
+        "path": "Harness Top → Rolling Back Take → Body Triangle → Rear Naked Choke → Won by Submission"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Back Control",
+        "relationship": "Parent position category with fully established hooks"
+      },
+      {
+        "name": "Seat Belt Control Back",
+        "relationship": "Alternative classification name for same position"
+      },
+      {
+        "name": "Body Triangle",
+        "relationship": "Advanced variation with leg triangle instead of hooks"
+      },
+      {
+        "name": "Crucifix",
+        "relationship": "Common advancement when opponent defends choking arm"
+      },
+      {
+        "name": "Gift Wrap",
+        "relationship": "Alternative control configuration from back"
+      },
+      {
+        "name": "Rear Triangle",
+        "relationship": "Submission position accessible from here"
+      },
+      {
+        "name": "Mounted Crucifix",
+        "relationship": "Related dominant control position"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Common entry position before back take"
+      },
+      {
+        "name": "Back Attack System",
+        "relationship": "Systematic offensive framework for this position"
+      },
+      {
+        "name": "Danaher Straight Jacket System",
+        "relationship": "Expert system featuring harness control as foundation"
+      },
+      {
+        "name": "Back Defense Protocol",
+        "relationship": "Defensive counterpart system opponent uses"
+      },
+      {
+        "name": "Standing Back Control",
+        "relationship": "Standing application of same principles"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 50,
+        "intermediate": 70,
+        "advanced": 85
+      },
+      "advancement_probability": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 80
+      },
+      "submission_probability": {
+        "beginner": 35,
+        "intermediate": 55,
+        "advanced": 75
+      },
+      "average_time": "45-90 seconds before submission or escape attempt"
+    },
+    "expert_insights": {
+      "danaher": "The harness position represents the apex of positional control in Brazilian Jiu-Jitsu from a biomechanical perspective. The seat belt configuration - one arm over the shoulder, one under the opposite armpit with hands clasped - creates what I call a 'structural lock' that is extraordinarily difficult to break through mechanical advantage alone. The key insight is understanding that the harness grip is not primarily about arm strength, but rather about creating a closed system where your body weight, chest connection, and hook control work synergistically to maintain the position. When executed properly, the bottom player faces a mathematical dilemma: their efforts to strip the grip actually tighten your control as they push your arms together. The hands should be clasped high on the sternum, creating maximum leverage for both control and offensive options. The hooks serve as rudders, not anchors - use them to steer the opponent's movement rather than simply holding them in place. Most importantly, understand the hierarchy of controls: the seat belt grip is more valuable than both hooks combined. If forced to choose, maintain the grip and recover hooks later. This position creates perfect conditions for the highest percentage submission in grappling - the rear naked choke - while simultaneously offering clear paths to armbars and crucifix positions when the opponent defends predictably.",
+      "gordon_ryan": "From a competition standpoint, harness control is where I finish most of my matches. The reality in high-level no-gi is that getting to the back clean is actually harder than finishing once you're there - the position is just that dominant when you know what you're doing. My approach is aggressive and submission-focused: I'm not here to hold position for points, I'm here to finish. The moment I secure the seat belt, I'm already thinking three steps ahead to the choke finish. What works at the highest levels is constant offensive pressure - I'll feint the choke to draw the hands up, then immediately attack the arm when they defend. If they defend the armbar, the neck opens back up. This isn't a position where you should be comfortable playing defensive or reactive - you dictate everything. One critical detail most people miss: stay heavy on one side. I prefer my choking side to be dominant, keeping that shoulder pressure constant while my bottom hook does most of the steering work. When they try to turn into you, that's when you roll with them and lock the body triangle. The body triangle variation is my preferred finish position because it eliminates 50% of their escape options immediately. In competition, time is a factor - you have limited energy and limited time to work. Don't waste either by being passive from the back. Attack, create reactions, attack the reaction, finish.",
+      "eddie_bravo": "The harness from back control is fundamental, but at 10th Planet we take it to another level with our lockdown and control innovations. Traditional back control is great, but we're always looking at how to make it better, more submission-oriented, and harder to escape. First thing - that seat belt grip is crucial, but we emphasize active wrist control on the bottom arm. Instead of just clasping hands, we're fighting to control their wrist with our bottom hand, which sets up the rear naked choke way cleaner and prevents a lot of defensive frames. The Truck position is our bread and butter entry to back control, and once we establish the harness, we're immediately looking at unconventional submissions most traditional schools don't emphasize - the twister being the obvious one, but also calf slicers and unique choke variations. Here's what's important in our system: we don't just maintain position, we hunt. If I've got your back with a harness, I'm already thinking about how to transition to the twister or set up the banana split. The hooks aren't just for control - they're submission tools. We teach an entire system around back attacks that includes not just the traditional RNC and armbars, but lockdown variations, calf compression, and spine manipulation techniques that create a much broader threat matrix. The beauty of the harness is it keeps their attention up high defending the choke while we're attacking the lower body with submission threats they're not expecting. That's the 10th Planet difference - we respect the fundamentals but we're always innovating new attacks from traditional positions."
+    }
   }
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Flow Rolling | BJJ Concept | BJJ Graph",
     "description": "Understand Flow Rolling in BJJ. Learn cooperative training principles, tempo calibration, movement exploration. Expert insights on technical development.",
-    "concept_id": "C037",
+    "principle_id": "P037",
     "tags": [
       "bjj",
       "concept",
@@ -62,34 +62,34 @@
       "description": "Using flow rolling sessions strategically between high-intensity training to maintain skill practice while allowing physical recovery, managing training volume without accumulated fatigue or injury risk"
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Positional Sparring",
+      "principle_name": "Positional Sparring",
       "relationship_type": "Complementary",
       "description": "Flow rolling and positional sparring serve complementary training functions, with flow rolling emphasizing movement exploration and positional sparring focusing on specific position mastery under competitive resistance"
     },
     {
-      "concept_name": "Drilling Methodology",
+      "principle_name": "Drilling Methodology",
       "relationship_type": "Extension",
       "description": "Flow rolling represents advanced form of drilling where technical repetition occurs within dynamic, responsive environment rather than static, predetermined sequences"
     },
     {
-      "concept_name": "Energy Management System",
+      "principle_name": "Energy Management System",
       "relationship_type": "Prerequisite",
       "description": "Understanding energy conservation principles is prerequisite for effective flow rolling, as practitioners must manage intensity levels throughout extended sessions to prevent fatigue and maintain training quality"
     },
     {
-      "concept_name": "Timing and Rhythm",
+      "principle_name": "Timing and Rhythm",
       "relationship_type": "Complementary",
       "description": "Flow rolling develops timing and rhythm awareness through continuous movement exposure, with reduced intensity allowing greater focus on movement patterns and technical timing"
     },
     {
-      "concept_name": "Risk Assessment",
+      "principle_name": "Risk Assessment",
       "relationship_type": "Prerequisite",
       "description": "Proper risk assessment skills enable practitioners to recognize when resistance levels are appropriate versus when they risk injury, essential for maintaining cooperative training environment"
     },
     {
-      "concept_name": "Competition Training",
+      "principle_name": "Competition Training",
       "relationship_type": "Alternative",
       "description": "Flow rolling serves as alternative training methodology to high-intensity competition preparation, providing skill maintenance and technical exploration without competitive stress and injury accumulation"
     }

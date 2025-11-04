@@ -1,25 +1,22 @@
 {
-  "metadata": {
-    "title": "Front Headlock Series Transition | BJJ Technique | BJJ Graph",
-    "description": "Master Front Headlock Series in BJJ. Complete guide to control and transitions from front headlock to multiple finishes. Beginner 35%, Intermediate 55%, Advanced 75%.",
-    "transition_id": "T067",
-    "tags": [
-      "bjj",
-      "transition",
-      "front-headlock",
-      "series",
-      "advanced",
-      "control",
-      "submission-setup",
-      "turtle-attack"
-    ],
-    "starting_position": "Front Headlock Control Position",
-    "ending_position": "Back Control",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 75
-    }
+  "name": "Front Headlock Series Transition",
+  "description": "Master Front Headlock Series in BJJ. Complete guide to control and transitions from front headlock to multiple finishes. Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "front-headlock",
+    "series",
+    "advanced",
+    "control",
+    "submission-setup",
+    "turtle-attack"
+  ],
+  "starting_position": "Front Headlock",
+  "ending_position": "Back Control",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 55,
+    "advanced": 75
   },
   "overview": "The Front Headlock Series represents one of the most versatile and high-percentage control positions in Brazilian Jiu-Jitsu, offering multiple pathways to dominant positions and submissions. This series exploits the vulnerable turtle position or failed takedown attempts, where the opponent's head and arm become available for control. From this position, a skilled practitioner can flow between guillotine chokes, anaconda chokes, darce chokes, and transitions to back control, creating a web of interconnected attacks that force opponents into defensive dilemmas.\n\nThe beauty of the front headlock series lies in its systematic nature—each defensive response from the opponent opens a different offensive pathway. When they defend the guillotine, the anaconda becomes available. When they block the anaconda, the darce appears. When they counter choke attempts, the transition to back control presents itself. This branching decision tree makes the front headlock one of the most frustrating positions to defend and one of the most rewarding to master.\n\nDeveloped and refined by high-level competitors including Marcelo Garcia, John Danaher's Death Squad, and countless others, the front headlock series has proven itself in the highest levels of competition. Understanding this series requires not just technical proficiency in individual techniques, but also the strategic awareness to recognize which branch to follow based on opponent reactions. Mastery of this series transforms the front headlock from a simple control position into a complete submission system.",
   "key_principles": [

@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Pacing | BJJ Concept | BJJ Graph",
-    "description": "Understand Pacing in BJJ. Learn tempo control, energy management, tactical rhythm adjustment across positions. Expert insights from Danaher, Ryan, Bravo included.",
-    "concept_id": "C112",
-    "tags": [
-      "bjj",
-      "concept",
-      "pacing",
-      "energy",
-      "tempo",
-      "strategy",
-      "conditioning",
-      "match management"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Pacing",
+  "description": "Master tempo control and energy management in BJJ. Learn to regulate match pace, exploit opponent fatigue, and maintain technical output across all positions.",
+  "tags": [
+    "bjj",
+    "principle",
+    "pacing",
+    "energy",
+    "tempo",
+    "strategy",
+    "conditioning",
+    "match management"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Pacing represents the fundamental skill of controlling match tempo and energy expenditure throughout a training session or competition, optimizing the rhythm of technical execution to maximize effectiveness while managing physical and mental resources. Unlike specific techniques, pacing is a dynamic regulatory system that integrates cardiovascular capacity, technical efficiency, tactical objectives, and opponent behavior into coherent tempo management. This concept encompasses the ability to modulate between explosive high-intensity bursts and recovery periods, adjust pace in response to score differentials and time constraints, and maintain sustainable technical output without premature fatigue. Pacing serves as both a strategic weapon that can be used to tire opponents through tempo manipulation and a defensive capability that preserves energy for critical moments. The ability to control pacing effectively often determines whether practitioners maintain technical effectiveness throughout match duration or suffer performance degradation from mismanaged energy expenditure, making it one of the most essential conceptual elements in competitive BJJ and extended training sessions.",
   "key_principles": [
     "Establish sustainable baseline tempo that can be maintained throughout typical match or training duration",
@@ -63,77 +60,77 @@
       "description": "Modifying tempo in response to score situation, time remaining, positional context, and opponent behavior. This strategic flexibility prevents rigid pace adherence when tactical circumstances demand tempo shifts to optimize competitive outcomes."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Energy Management System",
+      "principle_name": "Energy Management System",
       "relationship_type": "Complementary",
       "description": "Pacing operates as primary control mechanism within broader energy management framework. While energy management encompasses all aspects of resource conservation and expenditure, pacing specifically governs temporal distribution of effort intensity and recovery integration throughout engagement duration."
     },
     {
-      "concept_name": "Match Strategy",
+      "principle_name": "Match Strategy",
       "relationship_type": "Complementary",
       "description": "Strategic match planning determines appropriate pacing approach for specific opponent and competitive context. Strategy defines when to implement particular pace levels while pacing provides execution mechanism for strategic tempo objectives, creating synergistic relationship between planning and implementation."
     },
     {
-      "concept_name": "Timing and Rhythm",
+      "principle_name": "Timing and Rhythm",
       "relationship_type": "Extension",
       "description": "Timing focuses on precise moment of technique initiation while pacing governs overall tempo across extended sequences. Mastery of rhythm and timing at micro-level enables more sophisticated pacing control at macro-level, as superior timing efficiency reduces energy cost per exchange."
     },
     {
-      "concept_name": "Cardio Conditioning",
+      "principle_name": "Cardio Conditioning",
       "relationship_type": "Prerequisite",
       "description": "Cardiovascular capacity establishes physiological ceiling for pacing capability. Without adequate conditioning base, sophisticated pace control becomes impossible as fatigue forces tempo reduction regardless of tactical intentions. Conditioning provides physical foundation enabling strategic pace manipulation."
     },
     {
-      "concept_name": "Positional Hierarchy",
+      "principle_name": "Positional Hierarchy",
       "relationship_type": "Complementary",
       "description": "Understanding positional value informs pace adjustment decisions—accelerating from inferior positions to escape before energy depletion, slowing from dominant positions to recover while maintaining control. Positional awareness guides when to expend energy aggressively versus conserve resources strategically."
     },
     {
-      "concept_name": "Pressure Application",
+      "principle_name": "Pressure Application",
       "relationship_type": "Complementary",
       "description": "Sustained pressure creates cumulative fatigue effect on opponents, implementing pacing strategy through continuous positional stress. Pressure application serves as primary mechanism for imposing energetically costly pace on opponents while maintaining more economical pace for oneself through superior positioning and technique efficiency."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Control pace through grip fighting intensity, sweep attempt frequency, and submission threat timing. Can slow pace to recover through defensive frames while maintaining attacking threats, or accelerate through rapid sequence combinations when opponent shows postural vulnerabilities or fatigue indicators."
     },
     {
-      "context": "Mount Top",
+      "context": "Mount",
       "how_applied": "Dictate tempo from energetically favorable position through pressure application cycles—periods of heavy settling pressure for recovery alternating with explosive submission attacks or position advancement when opportunity presents. Superior position enables pace control that compounds opponent fatigue while conserving own energy."
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Modulate between pressure maintenance for recovery and active transition attempts based on energy state and tactical objectives. Position's control advantage permits strategic pace slowing when ahead on points or time, or acceleration for submission hunting or mount transition when needed."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Adjust defensive pace based on energy reserves—when fresh, maintain active sweep and recovery attempts; when fatigued, establish lockdown or knee shield frames to slow pace while preventing pass. Position allows tactical tempo reduction without conceding complete control."
     },
     {
-      "context": "Back Control Top",
+      "context": "Back Control",
       "how_applied": "Control engagement rhythm through choke attempt intensity and defensive hand fighting. Can pause attacks to recover while maintaining dominant position, or accelerate choke sequences when opponent's defense weakens. Positional dominance enables strategic recovery without position loss."
     },
     {
-      "context": "Butterfly Guard Bottom",
+      "context": "Butterfly Guard",
       "how_applied": "Regulate pace through hook engagement intensity and sweep timing. Position allows rapid pace changes—explosive sweep entries followed by recovery periods with active hook retention and posture disruption preventing opponent advancement while managing energy expenditure."
     },
     {
-      "context": "Turtle Bottom",
+      "context": "Turtle",
       "how_applied": "Implement defensive pace slowing to prevent immediate back take while organizing recovery to standing or guard. Position requires careful tempo management—too slow invites mounted back control, too fast depletes energy needed for escape, demanding precise pace calibration for successful defensive outcomes."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Control distance and engagement frequency to regulate encounter pace. Can create space for recovery between exchanges or maintain continuous contact with grip and hook pressure. Pace control determines whether guard becomes energy-draining scramble or sustainable defensive position."
     },
     {
-      "context": "Knee on Belly Top",
+      "context": "Knee on Belly",
       "how_applied": "Use position's pressure advantage to recover while maintaining offensive threat. Can slow pace through settled weight application or accelerate through rapid submission chains and mount transitions. Position's mobility enables quick tempo shifts based on opponent reactions and energy state."
     },
     {
-      "context": "Deep Half Guard Bottom",
+      "context": "Deep Half Guard",
       "how_applied": "Slow opponent's preferred passing pace through entanglement while organizing sweep attempts. Position naturally reduces engagement speed, allowing tactical recovery while preventing pass completion. Sweep timing can then accelerate pace when opponent shows defensive lapses or fatigue."
     },
     {
@@ -141,23 +138,23 @@
       "how_applied": "Modulate takedown attempt frequency and grip fighting intensity based on energy management and strategic objectives. Standing exchanges demand high energy output, requiring careful pace control to prevent premature fatigue while maintaining offensive pressure or defensive positioning."
     },
     {
-      "context": "Spider Guard Bottom",
+      "context": "Spider Guard",
       "how_applied": "Control range and sweep attempt timing through sleeve and foot grip management. Position enables pace variation—maintaining distance for recovery or closing distance for sweep entries. Grip configuration determines energy expenditure rate and recovery opportunity availability."
     },
     {
-      "context": "North-South Top",
+      "context": "North-South",
       "how_applied": "Utilize position for strategic recovery through settled chest pressure while maintaining submission threats. Can dramatically slow pace from this control position when ahead or when needing energy recovery, or transition actively to mount when tactical situation demands pace acceleration."
     },
     {
-      "context": "X-Guard Bottom",
+      "context": "X-Guard",
       "how_applied": "Regulate sweep attempt frequency and inversion intensity based on energy state. Position allows controlled tempo—explosive sweep entries when fresh, more conservative hook maintenance when fatigued. Off-balancing pressure can be maintained at variable intensity levels for pace control."
     },
     {
-      "context": "Headquarters Position Top",
+      "context": "Headquarters Position",
       "how_applied": "Control passing pace through pressure application and backstep timing. Position's floating quality enables tempo modulation—maintaining pressure for recovery or accelerating through passing sequences. Strategic pace control prevents energy-expensive scrambles while organizing systematic passing advancement."
     },
     {
-      "context": "De La Riva Guard Bottom",
+      "context": "De La Riva Guard",
       "how_applied": "Adjust hook engagement intensity and off-balancing frequency to manage pace. Can maintain continuous disruption of opponent's base at variable energy costs through grip and hook pressure calibration, enabling tactical tempo control while preventing passing advancement."
     }
   ],
@@ -314,61 +311,61 @@
   "related_content": [
     {
       "name": "Energy Management System",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Pacing serves as primary control mechanism within broader energy management framework, governing temporal distribution of effort intensity and recovery integration"
     },
     {
       "name": "Match Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic planning determines appropriate pacing approach for specific competitive context, with pace execution implementing strategic tempo objectives"
     },
     {
       "name": "Cardio Conditioning",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Cardiovascular capacity establishes physiological ceiling for pacing capability, providing foundation that enables sophisticated tempo control"
     },
     {
       "name": "Timing and Rhythm",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Micro-level timing precision enables more sophisticated macro-level pace control by reducing energy cost per technical exchange through improved efficiency"
     },
     {
       "name": "Pressure Application",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Sustained pressure implements pacing strategy through continuous positional stress that creates cumulative opponent fatigue while enabling own recovery"
     },
     {
       "name": "Positional Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Positional value understanding informs pace decisions—accelerating from inferior positions for escape, slowing from dominant positions for recovery and control"
     },
     {
       "name": "Competition Mindset",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Mental approach influences pace selection and tempo discipline under competitive pressure, affecting ability to implement strategic pacing versus reactive tempo matching"
     },
     {
-      "name": "Mount Top",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "Exemplifies energetically favorable position enabling pace control through pressure cycles that permit recovery while maintaining dominance and offensive threat"
     },
     {
-      "name": "Back Control Top",
+      "name": "Back Control",
       "content_type": "Position",
       "relationship": "Dominant position allowing strategic pace modulation—pausing attacks for recovery or accelerating choke sequences based on tactical objectives and energy state"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Position enabling pace control through grip fighting intensity and sweep attempt frequency, allowing tempo variation between aggressive offense and defensive recovery"
     },
     {
-      "name": "Half Guard Bottom",
+      "name": "Half Guard",
       "content_type": "Position",
       "relationship": "Defensive position permitting tactical pace slowing through lockdown or frames while preventing pass, enabling energy management without complete control concession"
     },
     {
-      "name": "Turtle Bottom",
+      "name": "Turtle",
       "content_type": "Position",
       "relationship": "Defensive position requiring precise pace calibration—too slow invites back take, too fast depletes escape energy, demanding careful tempo management for successful defense"
     }

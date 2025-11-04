@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Underhook Defense | BJJ Concept | BJJ Graph",
     "description": "Understand Underhook Defense in BJJ. Learn prevention strategies, neutralization techniques, and recovery protocols. Expert insights from Danaher, Ryan, and Bravo included.",
-    "concept_id": "C112",
+    "principle_id": "P112",
     "tags": [
       "bjj",
       "concept",
@@ -63,34 +63,34 @@
       "description": "Systematic protocols for recovering superior position when opponent has successfully used underhook to gain advantage. This includes recognizing when to abandon current position, establishing frames during transition, and re-establishing favorable position or guard."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Whizzer Control",
+      "principle_name": "Whizzer Control",
       "relationship_type": "Complementary",
       "description": "Whizzer control serves as primary neutralization tool when underhook is established, working synergistically with underhook defense to prevent opponent from capitalizing on underhook position."
     },
     {
-      "concept_name": "Frame Management",
+      "principle_name": "Frame Management",
       "relationship_type": "Prerequisite",
       "description": "Effective framing provides structural foundation for underhook defense, as frames are essential for preventing opponent from using established underhook to close distance or turn into you."
     },
     {
-      "concept_name": "Grip Fighting",
+      "principle_name": "Grip Fighting",
       "relationship_type": "Prerequisite",
       "description": "Grip fighting skills are foundational to underhook defense, as preventing underhook establishment requires proactive hand fighting before opponent can secure the position."
     },
     {
-      "concept_name": "Base Maintenance",
+      "principle_name": "Base Maintenance",
       "relationship_type": "Complementary",
       "description": "Maintaining strong base coordinates with underhook defense to prevent opponent from using underhook leverage to off-balance or sweep you, particularly in half guard and turtle positions."
     },
     {
-      "concept_name": "Control Point Hierarchy",
+      "principle_name": "Control Point Hierarchy",
       "relationship_type": "Extension",
       "description": "Understanding which underhooks are most dangerous (deep half, back exposure, etc.) extends control point hierarchy concept to prioritize defensive responses based on threat level."
     },
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention Concepts",
       "relationship_type": "Extension",
       "description": "Underhook defense extends into guard retention as preventing opponent's underhook during guard passing is critical element of maintaining guard position."
     }

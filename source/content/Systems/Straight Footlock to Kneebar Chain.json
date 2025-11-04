@@ -1,13 +1,20 @@
 {
-  "metadata": {
-    "title": "Straight Footlock to Kneebar Chain | BJJ System | BJJ Graph",
-    "description": "Master the Straight Footlock to Kneebar Chain system. Learn seamless transitions between leg attacks with Danaher's systematic approach to modern leg locks.",
-    "system_id": "SC021",
-    "tags": ["bjj", "leg-locks", "submission-chain", "footlock", "kneebar", "ashi-garami", "danaher-system"],
-    "system_type": "Submission Chain",
-    "difficulty_level": "Advanced"
-  },
-  "overview": "The Straight Footlock to Kneebar Chain represents one of the most fundamental submission sequences in modern leg lock systems. This attacking framework capitalizes on the biomechanical connection between ankle and knee control, creating a seamless transition pathway that forces opponents into defensive dilemmas. When executed properly, the defender's attempts to defend the footlock naturally expose the knee, while kneebar defense creates footlock opportunities.\n\nThis system is built on the principle that leg attacks should never be isolated techniques, but rather interconnected threats that compound pressure on the opponent. The chain begins with establishing positional control in ashi garami variations, securing the straight ankle lock as the primary attack, then transitioning to the kneebar when the opponent attempts specific defensive reactions. The beauty of this system lies in its simplicity—both submissions target the same leg, require similar positional prerequisites, and create natural transition opportunities through opponent movement.\n\nDeveloped and popularized by John Danaher and the Death Squad competitors, this chain has become a cornerstone of modern no-gi grappling. It demonstrates the systematic approach to leg attacks where each submission feeds into the next, creating a closed loop of offensive threats. Mastery of this chain provides a reliable foundation for more complex leg lock systems while teaching the fundamental principles of submission chaining, reaction anticipation, and positional control maintenance.",
+  "name": "Straight Footlock to Kneebar Chain",
+  "description": "Master the fundamental leg lock chain connecting straight ankle locks to kneebars. Learn systematic transitions and defensive reaction patterns.",
+  "tags": [
+    "bjj",
+    "leg-locks",
+    "submission-chain",
+    "footlock",
+    "kneebar",
+    "ashi-garami",
+    "danaher-system",
+    "no-gi",
+    "advanced"
+  ],
+  "system_type": "Submission Chain",
+  "difficulty_level": "Advanced",
+  "overview": "The Straight Footlock to Kneebar Chain represents one of the most fundamental submission sequences in modern leg lock systems. This attacking framework capitalizes on the biomechanical connection between ankle and knee control, creating a seamless transition pathway that forces opponents into defensive dilemmas. When executed properly, the defender's attempts to defend the footlock naturally expose the knee, while kneebar defense creates footlock opportunities.\n\nThis system is built on the principle that leg attacks should never be isolated techniques, but rather interconnected threats that compound pressure on the opponent. The chain begins with establishing positional control in ashi garami variations, securing the straight ankle lock as the primary attack, then transitioning to the kneebar when the opponent attempts specific defensive reactions. The beauty of this system lies in its simplicity—both submissions target the same leg, require similar positional prerequisites, and create natural transition opportunities through opponent movement.\n\nDeveloped and popularized by modern leg lock specialists, this chain has become a cornerstone of contemporary no-gi grappling. It demonstrates the systematic approach to leg attacks where each submission feeds into the next, creating a closed loop of offensive threats. Mastery of this chain provides a reliable foundation for more complex leg lock systems while teaching the fundamental principles of submission chaining, reaction anticipation, and positional control maintenance.",
   "key_principles": [
     "Position Before Submission - Establish and maintain ashi garami control throughout the chain",
     "Reaction-Based Transitions - Read opponent's defensive movements to determine submission selection",
@@ -238,12 +245,12 @@
       "relationship": "Primary positional platform for entire submission chain"
     },
     {
-      "name": "Inside Ashi-Garami Top",
+      "name": "Inside Ashi-Garami",
       "content_type": "Position",
       "relationship": "Enhanced control variation that strengthens chain execution"
     },
     {
-      "name": "Outside Ashi-Garami Top",
+      "name": "Outside Ashi-Garami",
       "content_type": "Position",
       "relationship": "Alternative positional platform when opponent rotates"
     },
@@ -263,24 +270,19 @@
       "relationship": "Alternative position that supports similar submission chain"
     },
     {
-      "name": "Saddle Position Top",
+      "name": "Saddle",
       "content_type": "Position",
       "relationship": "Advanced position that expands chain with heel hook variations"
     },
     {
-      "name": "Honey Hole Position Top",
+      "name": "Honey Hole",
       "content_type": "Position",
       "relationship": "Related leg entanglement position for expanded leg attack system"
     },
     {
-      "name": "Cross Ashi-Garami Top",
+      "name": "Cross Ashi-Garami",
       "content_type": "Position",
       "relationship": "Alternative ashi variation for chain execution"
-    },
-    {
-      "name": "Leg Entanglement Position",
-      "content_type": "Position",
-      "relationship": "General positional category that encompasses ashi garami variations"
     },
     {
       "name": "Straight Footlock",
@@ -313,11 +315,6 @@
       "relationship": "Alternative ankle attack that expands offensive options"
     },
     {
-      "name": "Calf Slicer",
-      "content_type": "Submission",
-      "relationship": "Complementary leg attack for system expansion"
-    },
-    {
       "name": "Inside Ashi Entry",
       "content_type": "Transition",
       "relationship": "Primary entry method to establish chain starting position"
@@ -344,53 +341,48 @@
     },
     {
       "name": "Leg Entanglement",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Fundamental concept underlying position maintenance in chain"
     },
     {
       "name": "Submission Chains",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Core concept that defines the systematic approach to submissions"
     },
     {
       "name": "Position Transitions",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader concept that includes submission-to-submission transitions"
     },
     {
       "name": "Dilemma Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic concept of creating no-win defensive scenarios"
     },
     {
       "name": "Action and Reaction",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Principle of using opponent's defensive movements to guide transitions"
     },
     {
       "name": "Control Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential concept for maintaining position during transitions"
     },
     {
       "name": "Leverage Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Biomechanical principles underlying both submissions in chain"
     },
     {
       "name": "System Building",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Meta-concept that guides development of interconnected techniques"
     },
     {
       "name": "Danaher Leg Lock System",
       "content_type": "System",
       "relationship": "Comprehensive system that this chain is fundamental component of"
-    },
-    {
-      "name": "Craig Jones Leg Lock System",
-      "content_type": "System",
-      "relationship": "Related modern system with similar chain-based approach"
     }
   ],
   "expert_insights": {

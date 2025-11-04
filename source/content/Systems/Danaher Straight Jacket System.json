@@ -1,1 +1,363 @@
-Session limit reached ∙ resets 11am
+{
+  "name": "Danaher Straight Jacket System",
+  "description": "Master systematic back control progression from seat belt to straight jacket configuration. Comprehensive framework for upper body immobilization and submission chains.",
+  "tags": ["bjj", "system", "back-control", "john-danaher", "submission-chain", "control-system", "advanced", "systematic-approach"],
+  "system_type": "Attack System",
+  "difficulty_level": "Advanced",
+  "overview": "The Danaher Straight Jacket System represents one of the most comprehensive and systematically developed back control frameworks in modern Brazilian Jiu-Jitsu. Developed by renowned coach John Danaher, this system transforms the traditional back mount position into a multi-layered control hierarchy that progressively eliminates opponent defensive options while creating high-percentage submission opportunities. Unlike conventional back attack approaches that focus primarily on the rear naked choke, the Straight Jacket System emphasizes upper body immobilization through strategic grip configurations that severely restrict opponent hand fighting capabilities.\n\nThe system's name derives from its primary control mechanism: a specific arrangement of grips and body positioning that mirrors the restrictive effect of a strait jacket, systematically removing the opponent's ability to defend their neck or create escape opportunities. This methodology integrates seamlessly with Danaher's broader back attack philosophy, which prioritizes positional dominance and control point hierarchy over opportunistic submission attempts. The framework includes detailed protocols for initial back take entries, progressive control consolidation, defensive hand neutralization, and systematic submission sequences that flow logically from the established control position.\n\nWhat distinguishes the Straight Jacket System from other back attack approaches is its emphasis on creating true dilemmas for opponents - every defensive action opens a specific offensive opportunity, and every escape attempt can be converted into submission leverage. The system has proven particularly effective in high-level competition, where opponents possess sophisticated back defense knowledge. By understanding and implementing the Straight Jacket principles, practitioners develop the ability to maintain back control against increasingly resistant opponents while creating finishing opportunities with remarkable consistency across different body types and resistance levels.",
+  "key_principles": [
+    "Upper body immobilization takes precedence over lower body control - restrict hand fighting before establishing hooks",
+    "Progressive control hierarchy - advance through defined control levels rather than rushing to submissions",
+    "Grip configuration creates structural dilemmas - opponent cannot defend neck without exposing arms, cannot free arms without exposing neck",
+    "Body triangle and hook placement serve control maintenance, not primary control establishment",
+    "Hand fighting elimination is the critical gateway - opponent with free hands can defend indefinitely",
+    "Systematic progression from initial back take through gift wrap to straight jacket to submission",
+    "Every defensive action creates a specific offensive opportunity - capitalize on opponent reactions rather than forcing techniques",
+    "Maintain chest-to-back connection throughout all transitions - distance allows escape initiation"
+  ],
+  "key_components": [
+    {
+      "component_name": "Initial Back Take Entry",
+      "description": "The system begins with establishing back control from various entry positions including turtle attacks, failed guard passes, scrambles, and standing clinch situations. Critical focus on immediately securing upper body control through seat belt grip configuration (one arm over shoulder, one arm under armpit) before concerning yourself with hook placement. The initial entry emphasizes speed and surprise to capitalize on momentary defensive lapses, with particular attention to preventing opponent's immediate defensive turtle or turning back to guard.",
+      "purpose": "Establish foundational back control position with proper upper body connection before opponent can organize defensive structure"
+    },
+    {
+      "component_name": "Seat Belt Control Consolidation",
+      "description": "Following initial back take, the practitioner must consolidate seat belt positioning by ensuring proper depth of the over-shoulder grip (hand reaches past opponent's far shoulder) and correct angle of the under-arm grip (elbow pointed toward opponent's far hip rather than straight down). This configuration creates immediate pressure on opponent's defensive structure while setting up the transition to more advanced control stages. The seat belt must be maintained with active squeeze pressure, using back muscles to compress opponent's torso and limit rotational escape attempts.",
+      "purpose": "Create stable platform for progressive control advancement while preventing immediate escape attempts through torso compression"
+    },
+    {
+      "component_name": "Gift Wrap Transition",
+      "description": "The gift wrap represents the first major control upgrade within the system, achieved by trapping one of opponent's arms across their own body using your seat belt grip structure. This is typically accomplished by feeding your under-arm through to grip your own over-shoulder wrist, creating a closed loop that immobilizes opponent's near-side arm against their torso. The gift wrap drastically reduces opponent defensive capabilities by removing one hand from the defensive equation, making neck defense substantially more difficult and creating immediate submission opportunities.",
+      "purpose": "Eliminate half of opponent's defensive tools (one arm) while maintaining back control and creating submission entries"
+    },
+    {
+      "component_name": "Straight Jacket Configuration",
+      "description": "The system's namesake position represents the highest level of upper body control, achieved by securing both of opponent's arms in a crossed configuration using specific grip arrangements. Most commonly implemented through a variation where your over-shoulder arm threads behind opponent's far-side arm to grip their wrist, while your other hand controls the near-side arm, effectively creating a position where opponent's own arms form a barrier preventing neck defense. This configuration creates the titular 'straight jacket' effect, where opponent cannot effectively defend their neck or create frames for escape.",
+      "purpose": "Achieve maximum upper body immobilization creating submission opportunities with minimal resistance"
+    },
+    {
+      "component_name": "Submission Sequence Integration",
+      "description": "From the straight jacket position, the system provides clear pathways to multiple high-percentage submissions including the rear naked choke, arm-triangle variations from the back, and arm-based attacks including armbar and kimura options. Each submission flows logically from the established control structure, with opponent's defensive reactions to one submission opening direct entries to alternatives. The submission sequence emphasizes maintaining control throughout attempts, ensuring that failed submission attempts return to dominant control positions rather than allowing escapes.",
+      "purpose": "Convert dominant control position into fight-ending submissions while maintaining positional dominance throughout submission attempts"
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Initial Back Exposure and Entry",
+      "description": "Recognize and capitalize on back exposure opportunities from common positions including opponent's turtle, failed guard pass recovery, scramble situations, or standing clinch positions. Execute rapid transition to back mount, immediately establishing seat belt grip before concerning yourself with hook placement.",
+      "key_points": [
+        "Speed of entry is critical - opponent's defensive structure weakens during positional transitions",
+        "Seat belt configuration takes absolute priority over hook insertion",
+        "Drive chest pressure into opponent's back to prevent immediate forward roll or granby escape attempts",
+        "Maintain heavy hip pressure to discourage opponent from sitting back into your guard"
+      ]
+    },
+    {
+      "step_number": 2,
+      "phase": "Seat Belt Consolidation and Initial Control",
+      "description": "Once back position is achieved, focus entirely on perfecting seat belt mechanics before advancing to higher control levels. Ensure over-shoulder grip achieves maximum depth (hand past far shoulder), under-arm grip maintains proper angle (elbow toward far hip), and chest-to-back connection remains tight. Insert hooks opportunistically but do not sacrifice upper body control to force hook placement.",
+      "key_points": [
+        "Test seat belt depth by attempting to touch your hands together in front of opponent's chest",
+        "Maintain active squeeze pressure using lat muscles, not just grip strength",
+        "Head positioning on opponent's far shoulder creates additional control and prevents them turning into you",
+        "If opponent has strong turtle position, use harness control variation before transitioning to full seat belt"
+      ]
+    },
+    {
+      "step_number": 3,
+      "phase": "Hand Fighting and Grip Break Prevention",
+      "description": "Opponent will immediately begin hand fighting to break your seat belt grips. Recognize common grip break attempts and counter them systematically. Most opponents will attack the over-shoulder grip by pulling down on your wrist - counter by lifting elbow and driving deeper. When opponent reaches for under-arm grip, this creates gift wrap opportunity.",
+      "key_points": [
+        "Anticipate grip break attempts rather than reacting after grips are compromised",
+        "Use opponent's grip break energy to advance control rather than simply defending position",
+        "Every hand fighting sequence creates opportunity to trap opponent's arm for gift wrap transition",
+        "Maintain chest pressure throughout hand fighting to prevent opponent creating distance"
+      ]
+    },
+    {
+      "step_number": 4,
+      "phase": "Gift Wrap Establishment",
+      "description": "When opponent reaches across their body to attack your under-arm grip, immediately feed that grip through to connect with your over-shoulder wrist, creating closed loop that traps opponent's near-side arm across their body. Adjust your body angle to increase pressure on trapped arm, preventing opponent from extracting it. From gift wrap, you have immediate access to multiple submissions while maintaining superior control.",
+      "key_points": [
+        "Gift wrap is opportunistic - wait for opponent to give you their arm rather than forcing it",
+        "Once established, actively pull trapped arm deeper across opponent's body",
+        "Your free hand can now attack neck for rear naked choke while gift wrap prevents defense",
+        "Maintain hook control or body triangle to prevent opponent rolling or shaking you off"
+      ]
+    },
+    {
+      "step_number": 5,
+      "phase": "Straight Jacket Configuration",
+      "description": "From gift wrap or seat belt, advance to straight jacket by controlling both of opponent's arms in crossed configuration. Most reliable entry: from gift wrap position, release your feeding grip and thread your over-shoulder arm behind opponent's far arm to grip their wrist, while maintaining control of near-side arm with your other hand. This creates maximum immobilization.",
+      "key_points": [
+        "Straight jacket requires precise timing - attempt when opponent is focused on defending immediate choke threat",
+        "Once both arms are controlled in crossed position, opponent has virtually no defensive options",
+        "Maintain chest-to-back pressure to prevent opponent creating space to extract arms",
+        "From straight jacket, rear naked choke becomes extremely high percentage due to inability to defend neck"
+      ]
+    },
+    {
+      "step_number": 6,
+      "phase": "Submission Execution from System Control",
+      "description": "Execute rear naked choke or alternative submissions from established control position. For RNC: use free hand to establish deep grip on far collar or behind neck, slide choking arm under chin while maintaining upper body control with other arm, finish by connecting hands and expanding chest. If opponent defends neck, immediately transition to arm attacks (kimura, armbar) or maintain dominant control.",
+      "key_points": [
+        "Never sacrifice control position for low-percentage submission attempts",
+        "If first submission attempt fails, return to previous control level and reset",
+        "Opponent defending RNC typically raises shoulders and tucks chin - this exposes arms for kimura or creates gift wrap opportunity",
+        "Maintain hook or body triangle control throughout all submission attempts to prevent escape"
+      ]
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "Opponent immediately turtles or balls up upon initial back take, preventing seat belt establishment",
+      "solution": "Transition to harness control first - establish over-under grip configuration on opponent's torso while they're in defensive turtle. Use harness to break down turtle structure and flatten opponent before advancing to full seat belt configuration. Alternatively, use crab ride position to attack turtle systematically."
+    },
+    {
+      "obstacle": "Opponent has exceptionally strong hand fighting and continuously breaks seat belt grips before control can be consolidated",
+      "solution": "Focus on one grip at a time rather than fighting for both simultaneously. Establish over-shoulder grip as absolute priority - this single grip provides significant control even without the under-arm component. Use body triangle or strong hook control to maintain position while re-establishing broken grips. Consider using lapel grips (gi) for more difficult-to-break control options."
+    },
+    {
+      "obstacle": "Unable to advance from basic seat belt to gift wrap because opponent keeps arms tight to body and refuses to reach across",
+      "solution": "Create active threats that force opponent to use their arms defensively. Fake or initiate collar grip for rear naked choke - opponent must raise arms to defend neck. When they do, capture the reaching arm for gift wrap. Alternatively, attack with short choke using current grips - opponent's defensive reaction creates gift wrap opportunity."
+    },
+    {
+      "obstacle": "Opponent successfully escapes by rolling forward or performing granby roll despite back control",
+      "solution": "This typically indicates insufficient chest-to-back connection and hip pressure. Increase chest pressure into opponent's upper back, maintain heavy hip pressure against their hips, and consider transitioning to body triangle for superior lower body control. When opponent initiates forward roll, follow their momentum while maintaining upper body grips rather than trying to prevent the roll entirely - often you can retake back control on the opposite side."
+    },
+    {
+      "obstacle": "Successfully achieve gift wrap or straight jacket but cannot finish rear naked choke due to excellent chin defense",
+      "solution": "Do not force the choke against strong chin defense - this sacrifices control and wastes energy. Instead, recognize that opponent committing to chin defense creates opportunities for arm attacks. Transition to kimura on the defending arm, armbar opportunities, or short choke variations. Patient control maintenance eventually fatigues opponent's defensive structure, creating future finishing opportunities."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Back Take Success Rate",
+      "description": "Measures your ability to recognize and capitalize on back exposure opportunities, successfully transitioning to back mount position with seat belt control established",
+      "proficiency_indicators": [
+        "Beginner: Successfully takes back and establishes seat belt 30-40% of opportunities, often loses position within 10-15 seconds",
+        "Intermediate: Successfully takes back 50-65% of opportunities, maintains seat belt control for 20-30 seconds against resistance",
+        "Advanced: Successfully takes back 70-85% of opportunities, maintains seat belt control indefinitely against most opponents, can establish from multiple entry positions",
+        "Expert: Successfully takes back 85%+ of opportunities including against highly defensive opponents, immediately establishes deep seat belt, rarely loses back position once achieved"
+      ]
+    },
+    {
+      "metric_name": "Control Progression Speed",
+      "description": "Evaluates how quickly and efficiently you advance through control hierarchy from basic seat belt to gift wrap to straight jacket configuration",
+      "proficiency_indicators": [
+        "Beginner: Struggles to advance beyond basic seat belt, gift wrap attempts usually fail, requires 60+ seconds to attempt control advancement",
+        "Intermediate: Can establish gift wrap against moderate resistance within 30-45 seconds, occasionally achieves straight jacket against less skilled opponents",
+        "Advanced: Consistently establishes gift wrap within 15-30 seconds, achieves straight jacket against most opponents within 45-60 seconds of initial back take",
+        "Expert: Rapidly progresses through control levels (gift wrap within 10 seconds, straight jacket within 30 seconds), can maintain or advance control against opponent escape attempts"
+      ]
+    },
+    {
+      "metric_name": "Submission Finish Rate from System",
+      "description": "Tracks your success rate in converting system control positions into submission finishes, including rear naked choke and alternative submissions",
+      "proficiency_indicators": [
+        "Beginner: Finish rate 10-25% from back control, often loses position during submission attempts, limited to basic RNC attempts",
+        "Intermediate: Finish rate 35-50% from gift wrap or better, maintains control during failed attempts, can execute RNC and basic arm attacks",
+        "Advanced: Finish rate 60-75% from straight jacket position, seamlessly transitions between submission options based on defense, rarely loses control during attempts",
+        "Expert: Finish rate 80%+ from straight jacket, finishes 50%+ even from basic seat belt, creates submission dilemmas where every defense opens alternative finish"
+      ]
+    },
+    {
+      "metric_name": "Control Retention Against Escape Attempts",
+      "description": "Measures your ability to maintain back control and system positions against sophisticated escape attempts including forward rolls, hip escapes, and grip breaks",
+      "proficiency_indicators": [
+        "Beginner: Loses back position to 60-70% of determined escape attempts, struggles to recover once opponent creates separation",
+        "Intermediate: Maintains position against 50-60% of escape attempts, can recover seat belt after momentary grip loss, adapts to basic escape patterns",
+        "Advanced: Maintains position against 70-85% of escape attempts, converts escape attempts into control advancement opportunities, adapts to sophisticated escape sequences",
+        "Expert: Maintains position against 90%+ of escape attempts, uses opponent's escape energy to advance control or create submissions, rarely gives up back position once established"
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "The Straight Jacket System requires progressive drilling that emphasizes muscle memory development for each control level and seamless transitions between stages. Begin with static positioning drills where partner offers zero resistance, focusing exclusively on grip placement precision, body positioning details, and understanding of control mechanics. Progress to progressive resistance drilling where partner provides increasing levels of defensive resistance, allowing you to develop problem-solving skills for common defensive reactions. Incorporate specific positional sparring from back control positions, starting with advantages (you begin with seat belt established) and gradually requiring you to establish control from neutral back exposure situations. Include submission finishing drills from each control level to develop the connection between control achievement and submission execution. Drilling sessions should allocate time proportionally: 40% on initial back takes and seat belt establishment, 30% on gift wrap and straight jacket advancement, 20% on submission sequences, and 10% on recovery from common defensive escapes.",
+    "progression_path": [
+      {
+        "stage": "Foundation Stage",
+        "focus": "Master basic back take entries and seat belt establishment from common positions (turtle, failed guard pass, standing clinch). Develop ability to maintain basic seat belt for extended periods (60+ seconds) against moderate resistance. Learn fundamental rear naked choke mechanics from seat belt position.",
+        "timeframe": "Months 1-3: Build fundamental back control skills and positional awareness"
+      },
+      {
+        "stage": "Control Development Stage",
+        "focus": "Develop gift wrap entries from seat belt position, learning to recognize and capitalize on opponent hand fighting attempts. Practice maintaining gift wrap control against escape attempts. Expand submission options to include short chokes and basic arm attacks from gift wrap. Begin introducing straight jacket concepts.",
+        "timeframe": "Months 4-6: Advanced control mechanics and control progression pathways"
+      },
+      {
+        "stage": "System Integration Stage",
+        "focus": "Seamlessly flow between all control levels based on opponent reactions. Reliably achieve straight jacket against resisting opponents. Develop submission chains where failed attempts transition to alternative finishes. Integrate body triangle and advanced hook control for superior position maintenance. Practice system application across different body types and resistance levels.",
+        "timeframe": "Months 7-12: Complete system integration and adaptive problem-solving"
+      },
+      {
+        "stage": "Refinement and Competition Application Stage",
+        "focus": "Apply system under competition stress against opponents with sophisticated back defense. Develop instant recognition of back exposure opportunities in scrambles. Refine timing of control advancements to maximize efficiency. Create personal variations and adaptations based on individual attributes. Develop teaching ability to help training partners understand and counter the system (deepening your own understanding).",
+        "timeframe": "Months 12+: Ongoing refinement, competition testing, and personal system evolution"
+      }
+    ],
+    "common_mistakes": [
+      "Rushing to hooks before establishing upper body control - prioritize seat belt over hook placement during initial back take",
+      "Forcing gift wrap or straight jacket transitions before opponent gives defensive opening - patient control maintenance creates natural opportunities",
+      "Sacrificing positional control for low-percentage submission attempts - maintain dominant position rather than gambling on difficult submissions",
+      "Inadequate chest-to-back pressure allowing opponent to create separation and escape - constant pressure eliminates escape opportunities",
+      "Neglecting body triangle or hook control during upper body advancement - lower body control prevents rolling escapes during control transitions",
+      "Using only grip strength rather than proper body positioning and leverage - sustainable control requires full-body mechanics not just hand strength",
+      "Failing to adjust strategy based on gi vs no-gi context - grip options and control mechanics differ significantly between contexts"
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Back Control",
+      "content_type": "Position",
+      "relationship": "Primary position for entire system - all techniques begin from or transition through back control position"
+    },
+    {
+      "name": "Seat Belt Control Back",
+      "content_type": "Position",
+      "relationship": "Foundational control configuration that serves as the base level for all system progressions"
+    },
+    {
+      "name": "Gift Wrap",
+      "content_type": "Position",
+      "relationship": "Intermediate control level representing first major advancement in system hierarchy"
+    },
+    {
+      "name": "Harness",
+      "content_type": "Position",
+      "relationship": "Alternative control position used when opponent maintains defensive turtle structure preventing immediate seat belt establishment"
+    },
+    {
+      "name": "Crucifix",
+      "content_type": "Position",
+      "relationship": "Related arm control position that shares principles of upper body immobilization with straight jacket configuration"
+    },
+    {
+      "name": "Body Lock",
+      "content_type": "Position",
+      "relationship": "Alternative back control variation emphasizing torso compression that can be integrated with system principles"
+    },
+    {
+      "name": "Turtle",
+      "content_type": "Position",
+      "relationship": "Common opponent defensive position that creates back take entry opportunities for system initiation"
+    },
+    {
+      "name": "Crab Ride",
+      "content_type": "Position",
+      "relationship": "Transitional control position used to attack turtle and establish initial back control entry"
+    },
+    {
+      "name": "Cross Body Ride",
+      "content_type": "Position",
+      "relationship": "Alternative turtle attack position that creates back exposure and system entry opportunities"
+    },
+    {
+      "name": "Kimura Trap",
+      "content_type": "Position",
+      "relationship": "Related control system emphasizing arm immobilization principles similar to straight jacket methodology"
+    },
+    {
+      "name": "Body Triangle",
+      "content_type": "Position",
+      "relationship": "Lower body control variation that integrates with upper body straight jacket system for maximum position retention"
+    },
+    {
+      "name": "Back Take Generic",
+      "content_type": "Transition",
+      "relationship": "General category of techniques used to achieve initial back control position for system entry"
+    },
+    {
+      "name": "Turtle to Back Take",
+      "content_type": "Transition",
+      "relationship": "Primary entry method from opponent's defensive turtle position to back control"
+    },
+    {
+      "name": "Turtle to Back Control",
+      "content_type": "Transition",
+      "relationship": "Specific transition from turtle attack to established seat belt control"
+    },
+    {
+      "name": "Chair Sit to Back",
+      "content_type": "Transition",
+      "relationship": "Technical entry method from turtle position to back mount using chair sit mechanics"
+    },
+    {
+      "name": "Kimura to Back Take",
+      "content_type": "Transition",
+      "relationship": "Transition from kimura control position to back mount when opponent defends submission"
+    },
+    {
+      "name": "Half Guard to Back Take",
+      "content_type": "Transition",
+      "relationship": "Entry method from half guard position to back control during scrambles or sweeps"
+    },
+    {
+      "name": "Rolling Back Take",
+      "content_type": "Transition",
+      "relationship": "Dynamic entry to back control using rolling mechanics from various positions"
+    },
+    {
+      "name": "Two-on-One to Back Take",
+      "content_type": "Transition",
+      "relationship": "Standing clinch entry using two-on-one grip control to access back position"
+    },
+    {
+      "name": "Matrix Back Take",
+      "content_type": "Transition",
+      "relationship": "Advanced back take entry from specific guard positions using matrix movement pattern"
+    },
+    {
+      "name": "Rear Naked Choke",
+      "content_type": "Submission",
+      "relationship": "Primary submission finish from straight jacket and gift wrap control positions"
+    },
+    {
+      "name": "Armbar from Back",
+      "content_type": "Submission",
+      "relationship": "Alternative submission when opponent defends neck from straight jacket position"
+    },
+    {
+      "name": "Kimura from Turtle",
+      "content_type": "Submission",
+      "relationship": "Arm attack option when transitioning from turtle attack to back control"
+    },
+    {
+      "name": "Control Maintenance",
+      "content_type": "Principle",
+      "relationship": "Fundamental principle underlying all system control levels - maintaining position before advancing"
+    },
+    {
+      "name": "Position Chains",
+      "content_type": "Principle",
+      "relationship": "Theoretical framework for understanding how positions connect - critical for system progression logic"
+    },
+    {
+      "name": "Positional Hierarchy",
+      "content_type": "Principle",
+      "relationship": "Concept explaining relative value of different control levels within back attack system"
+    },
+    {
+      "name": "System Building",
+      "content_type": "Principle",
+      "relationship": "Methodology for developing interconnected techniques into coherent strategic frameworks"
+    },
+    {
+      "name": "Submission Chains",
+      "content_type": "Principle",
+      "relationship": "Framework for creating submission sequences where defensive reactions open alternative finishes"
+    },
+    {
+      "name": "Back Attack System",
+      "content_type": "System",
+      "relationship": "Broader systematic framework for attacking from back positions that complements straight jacket methodology"
+    }
+  ],
+  "expert_insights": {
+    "danaher": "The straight jacket system represents the logical evolution of back control methodology from opportunistic submission hunting to systematic position domination. Most practitioners make the critical error of viewing back control as merely a submission position rather than understanding it as a complex hierarchy of control levels, each offering distinct advantages and progression pathways. The system's power lies in its emphasis on upper body immobilization as the primary control mechanism - once you understand that an opponent with free hands can defend indefinitely, while an opponent with controlled hands becomes helpless, the entire strategic framework becomes clear. The progression from seat belt to gift wrap to straight jacket is not arbitrary; each level represents a quantum leap in control quality, with each advancement removing specific defensive capabilities from your opponent's arsenal. The gift wrap removes one arm from the defensive equation, the straight jacket removes both. This is not merely about making submissions easier - it's about creating a positional context where the opponent has no viable defensive options, only choices between different forms of defeat. Train this system with the understanding that every grip placement, every body angle adjustment, and every timing decision either advances you toward this inevitable conclusion or allows opponent escape opportunities to persist.",
+    "gordon_ryan": "In competition, the straight jacket system gives you something most back attack methods don't - time. When you're working against the clock and your opponent knows they just need to survive, traditional back attacks become a race where defensive athletes can often stall their way to safety. The straight jacket flips this equation completely. Once I have someone in gift wrap or full straight jacket, I'm not in a hurry anymore. They're the ones with the problem. They're the ones burning energy trying to create space, defend their neck, and prevent their arms from being further compromised. I'm just maintaining position and waiting for them to make the inevitable mistake. This is the competition reality that Danaher built this system around - it's not about flashy techniques or spectacular finishes, it's about creating a position so dominant that your opponent's defeat becomes a mathematical certainty, just a question of when, not if. The key competition application is understanding that achieving straight jacket against a high-level opponent might take the full length of your control - you might not get it in fifteen seconds like you do in training. But if you're patient, maintain your pressure, and advance your control systematically rather than rushing, you'll get there. And once you're there, the finish is almost guaranteed. I've finished world champions from this position because once your arms are controlled in that crossed configuration, there's simply no effective defense to the rear naked choke. Learn to be comfortable in the progression, don't rush, and this system will win you matches at every level.",
+    "eddie_bravo": "What I love about the straight jacket approach is that it takes the traditional gi-based back control methodology and proves it works just as well, maybe better, in no-gi contexts where a lot of people think back control is harder to maintain. In 10th Planet, we've integrated straight jacket principles with our lockdown and truck systems, creating entry pathways that Danaher's traditional approaches might not emphasize as heavily. The beautiful thing is that the core principles - upper body immobilization, progressive control advancement, creating submission dilemmas - these translate perfectly across different stylistic contexts. Where we diverge a bit is in the acceptance of unorthodox entry positions. Danaher's system is very clean, very classical in its entries from turtle and traditional back takes. We'll hit straight jacket control from rubber guard transitions, from twister side control, from lockdown sweeps that dump us into back control - basically, we view any back exposure as a potential straight jacket opportunity, not just the textbook situations. The other adaptation we've made is integrating the twister submission into the system. When you have someone in gift wrap or straight jacket and they're defending their neck really well, the twister becomes available because their spine is already compromised by your control structure. This isn't something you'll see in Danaher's original framework, but it's a perfect example of how solid systematic principles can be adapted and expanded. The straight jacket gave us a language and framework for back control that we could then mutate and evolve within our own system's DNA."
+  }
+}

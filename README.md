@@ -8,7 +8,7 @@ Quartz-based static site generator hosting the complete BJJ knowledge graph. Thi
 - **70+ Transitions**: Techniques as probabilistic edges between states
 - **50+ Submissions**: Terminal states and finishing techniques
 - **Expert Systems**: Systematic approaches from Danaher, Gordon Ryan, Eddie Bravo
-- **Concepts**: Fundamental BJJ principles (base, frames, leverage)
+- **Principles**: Fundamental BJJ principles (base, frames, leverage)
 - **Learning**: Learning theory and skill progression frameworks
 
 ## Technology
@@ -68,7 +68,7 @@ content/
    - Transitions: `Transitions/CONTRIBUTING-TRANSITIONS.md`
    - Submissions: `Submissions/CONTRIBUTING-SUBMISSIONS.md`
    - Systems: `Systems/CONTRIBUTING-SYSTEMS.md`
-   - Concepts: `Principles/CONTRIBUTING-CONCEPTS.md`
+   - Principles: `Principles/CONTRIBUTING-PRINCIPLES.md`
 2. Maintain all required fields (State ID, success probabilities, decision trees)
 3. Use consistent formatting
 4. Link related content with `[[Wikilink]]` syntax

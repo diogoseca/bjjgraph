@@ -314,7 +314,7 @@
   - Status: COMPLETE
   - Priority: MEDIUM
   - Location: /source/quartz/components/Head.tsx
-  - Format: `https://bjjgraph.com/[slug]`
+  - Format: `https://bjjgraph.org/[slug]`
   - Completed: October 12, 2025
 
 - [x] **Task 1.8:** Add Open Graph and Twitter Card meta tags

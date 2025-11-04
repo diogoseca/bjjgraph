@@ -3,17 +3,20 @@
 {# Input: bottom (full bottom section from JSON) #}
 
 ---
-title: "{{ bottom.metadata.title }}"
-description: "{{ bottom.metadata.description }}"
+title: "{{ bottom.name }} | BJJ Position Guide | BJJ Graph"
+description: "{{ bottom.description }}"
 ---
+
+{# PostHog A/B Testing Metadata #}
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Escape {{ bottom.metadata.title.split('|')[0].strip() }}",
-  "description": "Step-by-step guide to escaping and defending {{ bottom.metadata.title.split('|')[0].strip().replace(' Bottom', '').replace(' (Defense)', '') }} position in BJJ.",
+  "name": "How to Escape {{ bottom.name }}",
+  "description": "Step-by-step guide to escaping and defending {{ bottom.title.split('|')[0].strip().replace(' Bottom', '').replace(' (Defense)', '') }} position in BJJ.",
   "step": [
     {%- for transition in bottom.offensive_transitions[:6] %}
     {
@@ -53,8 +56,8 @@ description: "{{ bottom.metadata.description }}"
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "{{ bottom.metadata.title.split('|')[0].strip() }}",
-  "description": "{{ bottom.metadata.description }}",
+  "name": "{{ bottom.name }}",
+  "description": "{{ bottom.description }}",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -84,22 +87,39 @@ description: "{{ bottom.metadata.description }}"
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "{{ bottom.metadata.title.split('|')[0].strip() }}",
-      "item": "https://bjjgraph.org/Positions/{{ bottom.metadata.title.split('|')[0].strip().replace(' ', '-') }}"
+      "name": "{{ bottom.name }}",
+      "item": "https://bjjgraph.org/Positions/{{ bottom.title.split('|')[0].strip().replace(' ', '-') }}"
     }
   ]
 }
 </script>
 
-# {{ bottom.metadata.title.split('|')[0].strip() }}
+{# Debug mode indicator #}
+{% if debug_mode %}
+<!--
+  🐛 BJJ Graph A/B Testing Debug Mode (Bottom Perspective)
 
-{% for tag in bottom.metadata.tags %}#{{ tag }} {% endfor %}
+  Content Type: positions
+  Section Count: 15
+  Week Seed: {{ week_seed }}
+  Visual Variant: {{ visual_elements }}
+
+  Generated: {{ generation_timestamp }}
+-->
+{% endif %}
+
+# {{ bottom.name }}
+
+{% for tag in bottom.tags %}#{{ tag }} {% endfor %}
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape {{ bottom.position_metrics.advancement_probability.advanced }}% of the time with proper technique.
 
 ---
+
+{# Flexbox wrapper for A/B testing #}
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="state-properties" class="content-section">
 
@@ -116,7 +136,7 @@ description: "{{ bottom.metadata.description }}"
 
 <section id="overview" class="content-section">
 
-## What is {{ bottom.metadata.title.split('|')[0].strip().replace(' (Defense)', '').replace(' Bottom', '') }} from the Bottom?
+## What is {{ bottom.title.split('|')[0].strip().replace(' (Defense)', '').replace(' Bottom', '') }} from the Bottom?
 
 {{ bottom.overview }}
 
@@ -290,3 +310,5 @@ description: "{{ bottom.metadata.description }}"
 {% endfor %}
 
 </section>
+
+</main>

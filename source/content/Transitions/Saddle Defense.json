@@ -1,23 +1,20 @@
 {
-  "metadata": {
-    "title": "Saddle Defense | BJJ Technique | BJJ Graph",
-    "description": "Learn Saddle Defense in BJJ. Step-by-step execution from Saddle Position Bottom to Standing Position. Success: Beginner 25%, Intermediate 45%, Advanced 65%.",
-    "transition_id": "T215",
-    "tags": [
-      "bjj",
-      "transition",
-      "escape",
-      "leg-entanglement",
-      "advanced",
-      "heel-hook-defense"
-    ],
-    "starting_position": "Saddle Position Bottom",
-    "ending_position": "Standing Position",
-    "success_rates": {
-      "beginner": 25,
-      "intermediate": 45,
-      "advanced": 65
-    }
+  "name": "Saddle Defense",
+  "description": "Learn Saddle Defense in BJJ. Step-by-step escape from one of the most dangerous leg entanglement positions. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "leg-entanglement",
+    "advanced",
+    "heel-hook-defense"
+  ],
+  "starting_position": "Saddle",
+  "ending_position": "Standing Position",
+  "success_rates": {
+    "beginner": 25,
+    "intermediate": 45,
+    "advanced": 65
   },
   "overview": "The Saddle Defense (also known as the Honey Hole or 4-11 escape) is a critical defensive sequence designed to escape one of the most dangerous leg entanglement positions in modern BJJ. When caught in the saddle, your opponent controls both your legs while isolating one for heel hook attacks, creating an extremely high-risk submission threat. This defense prioritizes immediate heel protection through proper positioning of the trapped leg, systematic dismantling of opponent control points, and strategic recovery to safer positions. The technique requires precise understanding of leg entanglement mechanics, as improper defensive movements can actually facilitate the heel hook finish. Successfully executing this escape involves controlling your opponent's hip alignment, clearing their leg triangle configuration, and creating the rotational space needed to extract your trapped leg. This is considered an advanced technique due to the severe injury risk associated with heel hooks and the technical precision required under extreme pressure.",
   "key_principles": [
@@ -237,7 +234,7 @@
   "position_integration": "Saddle Defense represents a critical component of modern leg lock defensive systems and connects to the broader BJJ defensive hierarchy. This escape sits at the emergency defense tier, requiring immediate execution when you've failed earlier preventative measures in the leg entanglement sequence. In the complete defensive framework, practitioners should first focus on preventing leg entanglement entries altogether through proper distance management and leg positioning. If entries occur, early escapes from preliminary positions (single leg X, ashi garami variations) become the secondary defense layer. Saddle defense serves as the last-resort technique when all previous defensive layers have failed. After successful saddle escape, practitioners should immediately transition to recovery positions that prevent re-entry: standing with distance, combat base, or seated guard with proper leg frames. The technique integrates with Craig Jones's leg lock defensive system and Lachlan Giles's systematic approach to leg entanglement hierarchy. Understanding saddle defense also improves your offensive leg lock game by revealing the escape paths your opponents will use, allowing you to develop effective counters and transitions. This creates a complete leg entanglement knowledge base essential for modern competitive BJJ.",
   "related_content": [
     {
-      "name": "Saddle Position Bottom",
+      "name": "Saddle",
       "relationship": "Starting position for this escape sequence"
     },
     {

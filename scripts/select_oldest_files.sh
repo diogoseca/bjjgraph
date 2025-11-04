@@ -1,75 +1,86 @@
 #!/bin/bash
 
-# Script to select N random files from the 100 oldest content files
-# This ensures we prioritize improving content that hasn't been updated recently
+# Select N random files from the 100 oldest content files (by git creation date)
+# Prioritizes JSON files (source of truth), includes orphaned .md as fallback
 # Usage: ./select_oldest_files.sh [number_of_files]
 # Default: 10 files
 
 set -e
 
-# Get number of files to select (default: 10)
 NUM_FILES=${1:-10}
-
-# Change to the project root directory
 cd "$(dirname "$0")/.."
-
-# Define content directory
 CONTENT_DIR="source/content"
 
-# Check if content directory exists
 if [ ! -d "$CONTENT_DIR" ]; then
-    echo "Error: Content directory not found at $CONTENT_DIR"
+    echo "Error: Content directory not found at $CONTENT_DIR" >&2
     exit 1
 fi
 
-# Find all .md files, sort by modification time (oldest first), take top 100
-# Exclude CONTRIBUTING-*.md files and index.md
-echo "Finding 100 oldest content files..." >&2
+echo "Finding 100 oldest content files by git creation date..." >&2
 
-# Use portable stat command that works on both Linux (GNU) and macOS (BSD)
-# Linux uses -c, BSD uses -f
-if stat -c "%Y" /dev/null >/dev/null 2>&1; then
-    # GNU stat (Linux) - use null-terminated output for filenames with spaces
-    OLDEST_100=$(find "$CONTENT_DIR" -name "*.md" \
-        ! -name "CONTRIBUTING-*.md" \
-        ! -name "index.md" \
-        ! -name "000.STANDARD.md" \
-        -type f -print0 | \
-        xargs -0 stat -c "%Y %n" 2>/dev/null | \
-        sort -n | \
-        head -n 100 | \
-        cut -d' ' -f2-)
-else
-    # BSD stat (macOS)
-    OLDEST_100=$(find "$CONTENT_DIR" -name "*.md" \
-        ! -name "CONTRIBUTING-*.md" \
-        ! -name "index.md" \
-        ! -name "000.STANDARD.md" \
-        -type f -print0 | \
-        xargs -0 stat -f "%m %N" 2>/dev/null | \
-        sort -n | \
-        head -n 100 | \
-        cut -d' ' -f2-)
-fi
+# Function to get git creation timestamp for a file
+get_creation_timestamp() {
+    local file="$1"
+    # Get first commit date (creation) - returns Unix timestamp
+    git log --format="%ct" --diff-filter=A -- "$file" 2>/dev/null | tail -1
+}
 
-# Check if we found any files
+# Find all JSON files and get their creation dates
+json_files=$(find "$CONTENT_DIR" -type f -name "*.json" \
+    ! -name "CONTRIBUTING-*.json" \
+    ! -name "TEMPLATE*.json" \
+    ! -path "*/node_modules/*")
+
+echo "  Collecting creation dates for JSON files..." >&2
+json_with_dates=""
+while IFS= read -r file; do
+    [ -z "$file" ] && continue
+    timestamp=$(get_creation_timestamp "$file")
+    # If no git history, use 0 (oldest possible)
+    [ -z "$timestamp" ] && timestamp=0
+    json_with_dates="${json_with_dates}${timestamp} ${file}"$'\n'
+done <<< "$json_files"
+
+# Find orphaned .md files (no .json sibling)
+echo "  Collecting orphaned .md files..." >&2
+md_files=$(find "$CONTENT_DIR" -type f -name "*.md" \
+    ! -name "CONTRIBUTING-*.md" \
+    ! -name "index.md" \
+    ! -name "000.STANDARD.md" \
+    ! -path "*/node_modules/*")
+
+orphaned_md_with_dates=""
+while IFS= read -r md_file; do
+    [ -z "$md_file" ] && continue
+    # Check if .json sibling exists
+    json_sibling="${md_file%.md}.json"
+    if [ ! -f "$json_sibling" ]; then
+        timestamp=$(get_creation_timestamp "$md_file")
+        [ -z "$timestamp" ] && timestamp=0
+        orphaned_md_with_dates="${orphaned_md_with_dates}${timestamp} ${md_file}"$'\n'
+    fi
+done <<< "$md_files"
+
+# Combine and sort by timestamp (oldest first), take top 100
+all_files="${json_with_dates}${orphaned_md_with_dates}"
+OLDEST_100=$(echo "$all_files" | grep -v '^$' | sort -n | head -n 100 | cut -d' ' -f2-)
+
 if [ -z "$OLDEST_100" ]; then
-    echo "Error: No content files found"
+    echo "Error: No content files found" >&2
     exit 1
 fi
 
 FILE_COUNT=$(echo "$OLDEST_100" | wc -l | tr -d ' ')
-echo "Found $FILE_COUNT oldest files" >&2
+echo "  Found $FILE_COUNT oldest files" >&2
 
-# Randomly select N files from the oldest 100
+# Randomly select N files using awk (portable)
 echo "Selecting $NUM_FILES random files..." >&2
-# Use awk for portable random selection (works on macOS and Linux)
 SELECTED_FILES=$(echo "$OLDEST_100" | awk 'BEGIN{srand()} {print rand() "\t" $0}' | sort -n | cut -f2- | head -n "$NUM_FILES")
 
-# Output selected files (one per line) for use in GitHub Actions
+# Output selected files (one per line)
 echo "$SELECTED_FILES"
 
-# Also output a summary to stderr for logging
+# Summary to stderr for logging
 echo "" >&2
 echo "Selected files for improvement:" >&2
 echo "$SELECTED_FILES" | sed 's|^|  - |' >&2

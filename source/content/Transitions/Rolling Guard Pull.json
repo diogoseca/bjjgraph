@@ -1,16 +1,13 @@
 {
-  "metadata": {
-    "title": "Rolling Guard Pull | BJJ Technique | BJJ Graph",
-    "description": "Master the Rolling Guard Pull in BJJ. Dynamic entry to multiple guard positions with momentum-based execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-    "transition_id": "T212",
-    "tags": ["bjj", "technique", "guard pull", "guard entry", "dynamic movement", "rolling", "momentum"],
-    "starting_position": "Standing Position",
-    "ending_position": "Closed Guard Bottom",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 50,
-      "advanced": 65
-    }
+  "name": "Rolling Guard Pull",
+  "description": "Master the Rolling Guard Pull in BJJ. Dynamic entry to multiple guard positions with momentum-based execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "tags": ["bjj", "technique", "guard pull", "guard entry", "dynamic movement", "rolling", "momentum"],
+  "starting_position": "Standing Position",
+  "ending_position": "Closed Guard",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 50,
+    "advanced": 65
   },
   "overview": "The Rolling Guard Pull is a dynamic guard entry technique that utilizes rotational momentum to transition from standing to a guard position. Unlike static guard pulls that rely on grips and weight distribution, the rolling guard pull creates a sweeping motion that can catch opponents off-guard and establish multiple guard variations. This technique is particularly effective in competition scenarios where aggressive guard pulling is rewarded, and it allows the practitioner to maintain offensive initiative while transitioning to the ground.\n\nThe rolling guard pull works by combining forward momentum with a controlled backward roll, using the opponent's reactive pressure to complete the rotation and establish guard retention. The technique can transition into closed guard, De La Riva guard, X-guard, or single leg X-guard depending on how the practitioner catches the opponent's legs during the roll. This versatility makes it a valuable tool for guard players who want to dictate the pace and position from the opening exchange.\n\nMastery of the rolling guard pull requires excellent body awareness, timing, and the ability to read opponent reactions. When executed properly, it creates immediate offensive opportunities and bypasses traditional guard passing attempts. The technique is commonly seen in sport jiu-jitsu and has become a staple among modern guard players who emphasize dynamic entries and constant movement.",
   "key_principles": [
@@ -229,7 +226,7 @@
   "position_integration": "The rolling guard pull serves as a dynamic entry point to establish guard positions from standing, making it a crucial technique for guard players who want to dictate where the match takes place. This technique integrates into the broader BJJ system as a bridge between standing position and ground fighting, bypassing traditional takedown exchanges in favor of immediate guard establishment. Once guard is established through the roll, practitioners can flow into their preferred guard systems: closed guard for fundamental attacks, De La Riva for leg drag defense and back takes, X-guard for sweeps, or single leg X for leg locks.\n\nThe rolling guard pull is particularly valuable in competition scenarios where pulling guard is strategically advantageous, such as when facing a superior wrestler or when you have a well-developed guard game. It fits into an overall positional strategy that emphasizes guard retention and bottom position control. Advanced practitioners often chain the rolling guard pull with other entries, using it as a bait technique - if the opponent defends the roll, they expose themselves to other guard pulls or takedown attempts.\n\nThis technique also connects to scramble situations and guard recovery sequences. If you're swept or knocked down, the rolling motion can be repurposed to recover guard quickly. The body mechanics developed through drilling rolling guard pulls enhance overall movement quality, making you more comfortable with inverted positions, berimbolo entries, and other advanced guard techniques that require similar rotational awareness.",
   "related_content": [
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "relationship": "Primary ending position from rolling guard pull when opponent is square"
     },
     {
@@ -241,11 +238,11 @@
       "relationship": "Follow-up position when opponent's weight is forward during roll"
     },
     {
-      "name": "Single Leg X Guard",
+      "name": "Single Leg X-Guard",
       "relationship": "Variation ending when one leg is isolated during rolling motion"
     },
     {
-      "name": "Berimbolo Entry",
+      "name": "Berimbolo",
       "relationship": "Advanced progression that uses similar rolling mechanics"
     },
     {
@@ -253,7 +250,7 @@
       "relationship": "Alternative rolling technique that can replace standard backward roll"
     },
     {
-      "name": "Pull guard",
+      "name": "Guard Pull",
       "relationship": "General category of guard pulling techniques this belongs to"
     },
     {
@@ -263,6 +260,18 @@
     {
       "name": "Technical Stand Up to Single Leg",
       "relationship": "Recovery option if rolling guard pull is countered"
+    },
+    {
+      "name": "Inverted Guard",
+      "relationship": "Advanced variation ending position"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Alternative guard position accessible from rolling entry"
+    },
+    {
+      "name": "Guard Retention",
+      "relationship": "Fundamental principle applied immediately after roll completes"
     }
   ],
   "expert_insights": {

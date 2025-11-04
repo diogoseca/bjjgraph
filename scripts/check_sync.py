@@ -26,7 +26,7 @@ CATEGORIES = {
     "Positions": "source/content/Positions",
     "Transitions": "source/content/Transitions",
     "Submissions": "source/content/Submissions",
-    "Concepts": "source/content/Principles",
+    "Principles": "source/content/Principles",
     "Systems": "source/content/Systems"
 }
 

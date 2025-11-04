@@ -1,8 +1,7 @@
 {
   "metadata": {
-    "title": "Grip Fighting | BJJ Concept | BJJ Graph",
+    "name": "Grip Fighting",
     "description": "Understand Grip Fighting in BJJ. Learn strategic hand engagement, grip hierarchies, breaking mechanics, and cross-position application. Expert insights included.",
-    "concept_id": "C002",
     "tags": [
       "bjj",
       "concept",
@@ -62,41 +61,41 @@
       "description": "Using feints, false grips, and attention manipulation to create opportunities for securing primary grip objectives. This involves threatening grips in one area to open opportunities elsewhere, using grip attempts to elicit predictable defensive responses, and maintaining deceptive intentions until committing to actual grip acquisition."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Control Maintenance",
+      "principle_name": "Control Maintenance",
       "relationship_type": "Complementary",
       "description": "Grip fighting serves as the primary mechanism for establishing the initial control that must then be maintained. These concepts work together as grip fighting wins the initial battle while control maintenance preserves the advantages gained."
     },
     {
-      "concept_name": "Posture Breaking",
+      "principle_name": "Posture Breaking",
       "relationship_type": "Extension",
       "description": "Effective grip fighting creates the opportunities and mechanical advantages necessary for posture breaking. The grips established through grip fighting determine the leverage points available for breaking opponent's structural integrity."
     },
     {
-      "concept_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing Concepts",
       "relationship_type": "Prerequisite",
       "description": "Successful guard passing requires first winning the grip fighting exchange to establish passing grips while denying guard retention grips. Grip fighting mastery is foundational to implementing effective passing strategies."
     },
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention Concepts",
       "relationship_type": "Prerequisite",
       "description": "Guard retention depends heavily on winning grip battles to maintain guard connections while preventing passing grips. The grip fighting exchange often determines whether guards can be retained or will be passed."
     },
     {
-      "concept_name": "Distance Creation",
+      "principle_name": "Distance Creation",
       "relationship_type": "Alternative",
       "description": "When grip fighting is unfavorable, creating distance becomes an alternative strategy. These concepts represent different tactical approaches - fighting for grips vs. denying all grips through separation."
     },
     {
-      "concept_name": "Frame Management",
+      "principle_name": "Frame Management",
       "relationship_type": "Complementary",
       "description": "Frames and grips work together to control distance and positioning. Grip fighting establishes offensive connections while frames create defensive structure, with both requiring coordinated hand management."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Grip fighting focuses on controlling sleeves and collars to break posture while preventing opponent from establishing cross-face or pants grips. Priority grips include cross-collar for chokes, sleeve control for posture breaking, and preventing opponent's grip on belt or pants that enables standing posture."
     },
     {
@@ -104,7 +103,7 @@
       "how_applied": "Grip fighting establishes initial control in standing exchanges, with priority on collar ties, sleeve grips, and preventing double unders or body locks. The grip fighting here determines who controls the takedown initiative and can impose their preferred throwing or wrestling entries."
     },
     {
-      "context": "Spider Guard Bottom",
+      "context": "Spider Guard",
       "how_applied": "Grip fighting centers on establishing and maintaining sleeve grips with feet on biceps while preventing opponent from stripping grips or controlling pants. The battle is highly grip-dependent as spider guard's effectiveness relies entirely on maintaining specific sleeve controls."
     },
     {
@@ -116,23 +115,19 @@
       "how_applied": "Grip fighting involves securing ankle and collar/sleeve grips while preventing opponent from stripping the collar grip or achieving cross-face control. The specific grip combinations enable the off-balancing and sweeping mechanics fundamental to DLR."
     },
     {
-      "context": "Clinch Position",
+      "context": "Clinch",
       "how_applied": "Grip fighting in the clinch battles for overhooks vs. underhooks, collar ties, and head control while preventing opponent from securing body locks or dominant clinch positions. The grip hierarchy here directly determines throwing opportunities and takedown defense."
     },
     {
-      "context": "Lasso Guard Bottom",
+      "context": "Lasso Guard",
       "how_applied": "Grip fighting establishes and maintains the lasso sleeve grip while controlling the opposite sleeve or collar, preventing opponent from freeing the lassoed arm or achieving pressure passing grips. The lasso grip itself represents a dominant control requiring constant grip maintenance."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Grip fighting in open guard creates connections through sleeve, collar, or pants grips while preventing opponent from establishing passing grips. The fluid nature of open guard requires constant grip adjustments and re-gripping as distances and angles change."
     },
     {
-      "context": "Reverse De La Riva Guard Bottom",
-      "how_applied": "Grip fighting secures far ankle and sleeve/collar controls while preventing opponent from backstep or achieving crossface. The specific RDLR grip combinations enable the unique off-balancing mechanics and back-taking opportunities inherent to this guard."
-    },
-    {
-      "context": "Collar Sleeve Guard Bottom",
+      "context": "Collar Sleeve Guard",
       "how_applied": "Grip fighting establishes and maintains the fundamental collar-and-sleeve grip combination while preventing opponent from breaking these grips or establishing passing controls. This guard's entire structure depends on maintaining these specific grip connections."
     },
     {
@@ -140,7 +135,7 @@
       "how_applied": "Grip fighting from standing guard involves controlling opponent's upper body through collar and sleeve grips while preventing them from controlling hips or achieving body locks. The grip exchanges here determine whether effective standing guard sweeps and off-balancing can be implemented."
     },
     {
-      "context": "Overhook Control Position",
+      "context": "Overhook Control",
       "how_applied": "Grip fighting secures and maintains the overhook control while preventing opponent from achieving underhook or freeing the trapped arm. Additional grip fighting on the opposite side determines whether the overhook can be converted to back takes or sweeps."
     }
   ],
@@ -307,56 +302,56 @@
   "related_content": [
     {
       "name": "Grip Fighting Strategies",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Expanded strategic framework building on fundamental grip fighting principles"
     },
     {
       "name": "Grip Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic approach to grip selection and sequencing in various contexts"
     },
     {
       "name": "Grip Break",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Specific mechanics and principles for efficiently breaking established grips"
     },
     {
       "name": "Grip Advantage",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Understanding and exploiting superior grip positions"
     },
     {
       "name": "Hand Fighting",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader concept encompassing grip fighting within overall hand engagement strategy"
     },
     {
       "name": "Control Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Grip fighting establishes the initial controls that must then be maintained"
     },
     {
       "name": "Posture Breaking",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Grips established through grip fighting enable effective posture breaking mechanics"
     },
     {
-      "name": "Guard Passing Principles",
-      "content_type": "Concept",
+      "name": "Guard Passing Concepts",
+      "content_type": "Principle",
       "relationship": "Winning grip fights is prerequisite for implementing effective passing strategies"
     },
     {
       "name": "Guard Retention Concepts",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Guard retention depends heavily on maintaining favorable grip exchanges"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Classic position where grip fighting determines ability to break posture and attack"
     },
     {
-      "name": "Spider Guard Bottom",
+      "name": "Spider Guard",
       "content_type": "Position",
       "relationship": "Guard type entirely dependent on winning and maintaining specific grip battles"
     },
@@ -366,7 +361,7 @@
       "relationship": "Initial grip fighting exchanges in standing determine takedown initiative"
     },
     {
-      "name": "Collar Sleeve Guard Bottom",
+      "name": "Collar Sleeve Guard",
       "content_type": "Position",
       "relationship": "Guard built on fundamental grip fighting principle of collar-and-sleeve control"
     },

@@ -1,21 +1,18 @@
 {
-  "metadata": {
-    "title": "Defense Technique | BJJ Concept | BJJ Graph",
-    "description": "Master defensive technique in BJJ with systematic protection methods. Learn defensive mechanics, escape principles, and survival strategies from Danaher, Ryan, and Bravo.",
-    "concept_id": "C272",
-    "tags": [
-      "bjj",
-      "concept",
-      "defense",
-      "escape",
-      "survival",
-      "protection",
-      "defensive strategy"
-    ],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Defense Technique",
+  "description": "Master defensive technique in BJJ with systematic protection methods. Learn defensive mechanics, escape principles, and survival strategies for all major positions.",
+  "tags": [
+    "bjj",
+    "concept",
+    "defense",
+    "escape",
+    "survival",
+    "protection",
+    "defensive strategy"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Defense Technique represents the systematic application of mechanical principles and tactical strategies to protect against attacks, escape inferior positions, and recover guard or neutral positions when under opponent pressure. Unlike isolated defensive reactions, defense technique is a comprehensive conceptual framework that integrates structural positioning, timing, and technical execution to neutralize threats while creating offensive opportunities. This concept encompasses the biomechanical principles of defensive structure, the strategic sequencing of defensive responses, and the mental framework that enables calm technical execution under pressure. Defense technique serves as both a survival mechanism that prevents immediate defeat through submissions or pins, and a strategic foundation that enables tactical recovery and position improvement. The ability to implement sound defense technique often determines whether a practitioner can survive difficult positions and return to competitive exchanges or succumbs to opponent attacks, making it one of the most essential conceptual elements in BJJ.",
   "key_principles": [
     "Establish and maintain defensive structure through frames and proper body alignment",
@@ -62,36 +59,66 @@
       "description": "The psychological capacity to remain calm, technical, and problem-solving oriented even when in highly disadvantageous positions facing skilled opponents. This includes breathing control, maintaining belief in defensive systems, avoiding panic responses, and continuing to execute technical solutions even under extreme pressure."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Escape Fundamentals",
+      "principle_name": "Escape Fundamentals",
       "relationship_type": "Prerequisite",
       "description": "Escape Fundamentals provide the basic movement patterns and mechanical principles that defense technique builds upon, including shrimping, bridging, and basic framing concepts that must be understood before sophisticated defensive systems can be implemented."
     },
     {
-      "concept_name": "Defensive Strategy",
+      "principle_name": "Defensive Strategy",
       "relationship_type": "Complementary",
       "description": "Defensive Strategy provides the overarching tactical framework and decision-making hierarchy that guides when and how specific defense techniques should be applied, working together to create comprehensive defensive capability."
     },
     {
-      "concept_name": "Frame Management",
+      "principle_name": "Frame Management",
       "relationship_type": "Complementary",
       "description": "Frame Management is a critical component skill within defense technique that focuses specifically on creating and maintaining structural barriers between practitioner and opponent, enabling space creation and position recovery."
     },
     {
-      "concept_name": "Energy Conservation",
+      "principle_name": "Energy Conservation",
       "relationship_type": "Complementary",
       "description": "Energy Conservation principles ensure that defense technique is sustainable over extended periods, teaching efficient mechanical solutions rather than strength-based resistance that leads to exhaustion and defensive failure."
     },
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention Concepts",
       "relationship_type": "Extension",
       "description": "Guard Retention Concepts represent a specialized application of defense technique specifically to maintaining guard positions, extending defensive principles into the context of preventing guard passing and maintaining offensive capability from bottom."
     },
     {
-      "concept_name": "Submission Defense",
+      "principle_name": "Submission Defense",
       "relationship_type": "Extension",
       "description": "Submission Defense is the specialized application of defense technique specifically to neutralizing finishing attempts, requiring detailed understanding of submission mechanics and specific defensive responses for each submission category."
+    },
+    {
+      "principle_name": "Defensive Framing",
+      "relationship_type": "Complementary",
+      "description": "Defensive Framing provides specific technical instruction on frame construction and application that directly supports the broader defensive technique framework."
+    },
+    {
+      "principle_name": "Hip Escape Mechanics",
+      "relationship_type": "Prerequisite",
+      "description": "Hip Escape Mechanics are fundamental movement patterns essential for executing most defensive sequences, providing the mechanical foundation for position recovery."
+    },
+    {
+      "principle_name": "Space Creation",
+      "relationship_type": "Complementary",
+      "description": "Space Creation principles guide the process of generating distance between practitioner and opponent, a critical element of effective defense technique implementation."
+    },
+    {
+      "principle_name": "Mount Escape Hierarchy",
+      "relationship_type": "Extension",
+      "description": "Mount Escape Hierarchy represents the systematic application of defense technique principles specifically to the mount position, one of the most critical defensive scenarios."
+    },
+    {
+      "principle_name": "Side Control Defensive Framework",
+      "relationship_type": "Extension",
+      "description": "Side Control Defensive Framework applies defense technique principles specifically to side control escapes, adapting general defensive concepts to this common inferior position."
+    },
+    {
+      "principle_name": "Back Escape Series",
+      "relationship_type": "Extension",
+      "description": "Back Escape Series represents the application of defense technique to the most dangerous inferior position, emphasizing submission defense before positional improvement."
     }
   ],
   "application_contexts": [
@@ -100,7 +127,7 @@
       "how_applied": "Defense technique manifests through systematic hip escape sequences combined with elbow-knee frames to prevent chest-to-chest contact, creating space for guard recovery while simultaneously defending against armbar and choke attempts through proper arm positioning and bridging mechanics."
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Defensive principles are applied through near-side frame construction to prevent opponent's chest pressure from settling, combined with hip escape movements to create space and recover guard, while maintaining awareness of submission threats from this dominant position."
     },
     {
@@ -116,15 +143,15 @@
       "how_applied": "Defense technique utilizes bridging mechanics to disrupt opponent's base combined with framing to create breathing space, addressing the unique pressure angles and submission threats specific to this position while working systematically toward guard recovery."
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Even from offensive positions, defense technique maintains importance through posture breaking prevention, grip fighting to control opponent's attacking structures, and maintaining constant awareness of potential guard breaks and passing attempts."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Defensive principles guide lockdown or underhook establishment to prevent flattening, knee shield maintenance to manage distance, and systematic responses to common passing pressures while maintaining offensive capability from this hybrid position."
     },
     {
-      "context": "Turtle Position",
+      "context": "Turtle",
       "how_applied": "Defense technique emphasizes base widening and weight distribution to prevent rolling, elbow positioning to block hooks, and grip fighting to prevent seatbelt control, while maintaining readiness to transition to guard or standing positions."
     },
     {
@@ -136,12 +163,24 @@
       "how_applied": "Defense technique prioritizes posture maintenance to prevent opponent's legs from closing around neck, combined with specific hand positioning and stacking pressure to create escape angles, showing adaptation of defensive principles to specific submission contexts."
     },
     {
-      "context": "Scarf Hold Position",
+      "context": "Kuzure Kesa-Gatame",
       "how_applied": "Defensive application against this traditional pin emphasizes bridge-and-roll mechanics specific to the side headlock position, combined with inside arm positioning to prevent chest-to-chest seal and create pathways to escape or guard recovery."
     },
     {
-      "context": "Guard Recovery",
-      "how_applied": "Defense technique guides the systematic process of returning to guard through proper frame maintenance, hip positioning to prevent opponent from establishing side control, and movement patterns that capitalize on opponent's passing attempts."
+      "context": "Guillotine Control",
+      "how_applied": "Defense technique addresses the choking threat through specific hand positioning to prevent opponent from securing the choke, combined with posture and pressure strategies to escape the position while protecting the neck."
+    },
+    {
+      "context": "Kimura Control",
+      "how_applied": "Defensive responses include grip fighting to prevent shoulder isolation, maintaining proper arm positioning to reduce leverage, and using body positioning to create escape angles before the submission becomes terminal."
+    },
+    {
+      "context": "High Mount",
+      "how_applied": "Defense technique must address the increased submission threat from high mount through arm protection and head positioning, while using specific bridging and shrimping patterns adapted to the higher opponent position."
+    },
+    {
+      "context": "Technical Mount",
+      "how_applied": "Defensive application requires immediate response to prevent opponent from securing back control or armbar positions, using specific framing and hip movement to escape before opponent consolidates this transitional dominance."
     }
   ],
   "decision_framework": [
@@ -303,32 +342,32 @@
   "related_content": [
     {
       "name": "Defensive Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Provides the strategic framework and decision-making hierarchy that guides application of defense technique across different scenarios and positions"
     },
     {
       "name": "Escape Fundamentals",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational movement patterns and mechanical principles that defense technique builds upon"
     },
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Critical component skill focusing specifically on creating and maintaining structural barriers essential to defensive success"
     },
     {
       "name": "Submission Defense",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Specialized application of defense technique specifically to neutralizing finishing attempts"
     },
     {
       "name": "Guard Retention Concepts",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Application of defensive principles specifically to maintaining guard positions and preventing passes"
     },
     {
       "name": "Pin Escape Methodology",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Systematic approach to escaping dominant pinning positions using defensive technique principles"
     },
     {
@@ -337,7 +376,7 @@
       "relationship": "Primary inferior position where defensive technique application is critical for survival and escape"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Common dominant position requiring specific defensive responses including framing and hip escape mechanics"
     },

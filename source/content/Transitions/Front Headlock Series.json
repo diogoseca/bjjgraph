@@ -1,27 +1,24 @@
 {
-  "metadata": {
-    "title": "Front Headlock Series | BJJ Technique | BJJ Graph",
-    "description": "Master the Front Headlock Series in BJJ. Complete system covering Anaconda, Darce, Guillotine, and back takes. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
-    "transition_id": "T073",
-    "tags": [
-      "bjj",
-      "transition",
-      "technique",
-      "front-headlock",
-      "turtle",
-      "control-position",
-      "submission-system",
-      "advanced"
-    ],
-    "starting_position": "Front Headlock Control Position",
-    "ending_position": "Back Control",
-    "success_rates": {
-      "beginner": 50,
-      "intermediate": 70,
-      "advanced": 85
-    }
+  "name": "Front Headlock Series",
+  "description": "Master the Front Headlock Series in BJJ. Complete system covering Anaconda, Darce, Guillotine, and back takes. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "technique",
+    "front-headlock",
+    "turtle",
+    "control-position",
+    "submission-system",
+    "advanced"
+  ],
+  "starting_position": "Front Headlock",
+  "ending_position": "Back Control",
+  "success_rates": {
+    "beginner": 50,
+    "intermediate": 70,
+    "advanced": 85
   },
-  "overview": "The Front Headlock Series represents one of the most comprehensive and versatile control systems in Brazilian Jiu-Jitsu, offering multiple high-percentage attack options from a single dominant position. This position occurs frequently in scrambles, after failed takedown attempts, or when the opponent turtles defensively. From the front headlock, practitioners can seamlessly transition between submissions (Anaconda choke, Darce choke, Guillotine choke), position advancement (back takes, mount entries), or maintain superior control while the opponent exhausts themselves.\n\nThe effectiveness of this series lies in its systematic approach to creating dilemmas for the opponent. Each defensive response to one attack opens pathways to alternative finishes, making escape extremely difficult without proper technical knowledge. The front headlock allows control of the opponent's head and one arm simultaneously, severely limiting their mobility and offensive options while you maintain a relatively safe position with multiple attacking opportunities.\n\nMastery of the Front Headlock Series transforms scrambles and transitional moments into dominant positions rather than chaotic exchanges. This systematic approach, popularized by John Danaher and his students, has revolutionized modern grappling by providing a clear decision tree for one of the most common positions encountered in both gi and no-gi competition. The series works effectively at all skill levels, though the sophistication of attack selection and execution refinement increases dramatically with experience.",
+  "overview": "The Front Headlock Series represents one of the most comprehensive and versatile control systems in Brazilian Jiu-Jitsu, offering multiple high-percentage attack options from a single dominant position. This position occurs frequently in scrambles, after failed takedown attempts, or when the opponent turtles defensively. From the front headlock, practitioners can seamlessly transition between submissions (Anaconda choke, Darce choke, Guillotine choke), position advancement (back takes, mount entries), or maintain superior control while the opponent exhausts themselves.\n\nThe effectiveness of this series lies in its systematic approach to creating dilemmas for the opponent. Each defensive response to one attack opens pathways to alternative finishes, making escape extremely difficult without proper technical knowledge. The front headlock allows control of the opponent's head and one arm simultaneously, severely limiting their mobility and offensive options while you maintain a relatively safe position with multiple attacking opportunities.\n\nMastery of the Front Headlock Series transforms scrambles and transitional moments into dominant positions rather than chaotic exchanges. This systematic approach has revolutionized modern grappling by providing a clear decision tree for one of the most common positions encountered in both gi and no-gi competition. The series works effectively at all skill levels, though the sophistication of attack selection and execution refinement increases dramatically with experience.",
   "key_principles": [
     "Control the head and one arm simultaneously to limit opponent mobility and defensive options",
     "Maintain heavy shoulder pressure on the back of opponent's head to break their posture and prevent escape",
@@ -247,7 +244,7 @@
     }
   ],
   "safety_considerations": "The Front Headlock Series involves controlling the opponent's head and neck, requiring careful attention to safety during training. Apply all chokes slowly and progressively, giving your partner ample time to tap before full pressure is reached. When practicing Anaconda and Darce chokes, be especially cautious as these chokes can come on quickly once proper position is achieved. Never spike or drop your weight suddenly onto opponent's neck or spine. When rolling for Anaconda entries, control the roll to prevent your partner's head from impacting the mat. Partners must tap early and clearly, and the top person must release immediately upon feeling the tap. During drilling, communicate constantly and use progressive resistance rather than explosive movements. Instructors should supervise proper technique especially with newer students who may not recognize the danger of neck cranks versus proper chokes. The front headlock position is relatively safe when maintained with proper pressure distribution, but transitions to submissions require controlled, technical execution rather than forceful or jerky movements.",
-  "position_integration": "The Front Headlock Series represents a critical bridge between standing and ground grappling, serving as both a defensive and offensive hub position in the overall BJJ game. This series appears naturally when opponents turtle defensively to avoid guard passes or back takes, after failed takedown attempts, during scrambles when positions are transitional, or when opponents attempt to stand from bottom positions. Mastery of this series transforms these common scenarios from neutral exchanges into dominant attacking opportunities. The front headlock connects seamlessly to the back attack system (if opponent turns), the mount/side control systems (if you advance position), and the submission-focused game (through Anaconda, Darce, and Guillotine). It also serves as a reset point when other attacks fail, allowing you to maintain offensive pressure rather than returning to neutral. In the broader context of positional hierarchy, front headlock occupies a unique space as a control position that offers both immediate submission threats and position advancement options. Understanding when to pursue submissions versus position advancement distinguishes advanced practitioners from intermediates. The series exemplifies Danaher's systematic approach to BJJ: one strong position with clear decision trees leading to multiple high-percentage outcomes based on opponent reactions.",
+  "position_integration": "The Front Headlock Series represents a critical bridge between standing and ground grappling, serving as both a defensive and offensive hub position in the overall BJJ game. This series appears naturally when opponents turtle defensively to avoid guard passes or back takes, after failed takedown attempts, during scrambles when positions are transitional, or when opponents attempt to stand from bottom positions. Mastery of this series transforms these common scenarios from neutral exchanges into dominant attacking opportunities. The front headlock connects seamlessly to the back attack system (if opponent turns), the mount/side control systems (if you advance position), and the submission-focused game (through Anaconda, Darce, and Guillotine). It also serves as a reset point when other attacks fail, allowing you to maintain offensive pressure rather than returning to neutral. In the broader context of positional hierarchy, front headlock occupies a unique space as a control position that offers both immediate submission threats and position advancement options. Understanding when to pursue submissions versus position advancement distinguishes advanced practitioners from intermediates. The series exemplifies systematic BJJ: one strong position with clear decision trees leading to multiple high-percentage outcomes based on opponent reactions.",
   "related_content": [
     {
       "name": "Front Headlock to Anaconda",
@@ -270,15 +267,15 @@
       "relationship": "Common entry from standing or wrestling positions"
     },
     {
-      "name": "Anaconda from Turtle",
+      "name": "Anaconda Choke",
       "relationship": "Direct finish option from turtle variation of front headlock"
     },
     {
-      "name": "Darce from Turtle",
+      "name": "Darce Choke",
       "relationship": "Direct finish option from turtle variation of front headlock"
     },
     {
-      "name": "Guillotine from Turtle",
+      "name": "Guillotine Choke",
       "relationship": "Alternative finish from turtle when opponent defends arm-in chokes"
     },
     {
@@ -286,11 +283,7 @@
       "relationship": "Position advancement option when submissions are well-defended"
     },
     {
-      "name": "Crucifix from Turtle",
-      "relationship": "Advanced control option when opponent turtles very defensively"
-    },
-    {
-      "name": "Arm Triangle from Turtle",
+      "name": "Arm Triangle",
       "relationship": "Alternative submission when transitioning to side control from front headlock"
     },
     {
@@ -303,7 +296,7 @@
     },
     {
       "name": "Danaher Front Headlock System",
-      "relationship": "Complete systematic approach to this position created by John Danaher"
+      "relationship": "Complete systematic approach to this position"
     }
   ],
   "expert_insights": {

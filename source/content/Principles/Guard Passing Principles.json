@@ -1,8 +1,7 @@
 {
   "metadata": {
-    "title": "Guard Passing Principles | BJJ Concept | BJJ Graph",
-    "description": "Understand Guard Passing Principles in BJJ. Learn systematic framework, control progression, cross-position applications. Expert insights from Danaher, Ryan, Bravo.",
-    "concept_id": "C052",
+    "name": "Guard Passing Principles",
+    "description": "Understand Guard Passing Principles in BJJ. Learn systematic framework, control progression, cross-position applications.",
     "tags": [
       "bjj",
       "concept",
@@ -63,49 +62,49 @@
       "description": "Strategic ability to select appropriate passing approach based on opponent's guard type, body type, and defensive patterns, recognizing that no single passing style succeeds against all guard variations."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention Concepts",
       "relationship_type": "Complementary",
       "description": "Understanding guard retention mechanics from defensive perspective provides essential knowledge for developing effective passing strategies, as successful passing requires systematic neutralization of retention mechanisms"
     },
     {
-      "concept_name": "Pressure Passing Framework",
+      "principle_name": "Pressure Passing Framework",
       "relationship_type": "Extension",
       "description": "Represents specific application of guard passing principles emphasizing heavy pressure and pinning control, demonstrating how core passing principles manifest in particular strategic approach"
     },
     {
-      "concept_name": "Base Maintenance",
+      "principle_name": "Base Maintenance",
       "relationship_type": "Prerequisite",
       "description": "Foundational skill required for all guard passing, as inability to maintain stable base during passing attempts results in sweeps regardless of technical passing knowledge"
     },
     {
-      "concept_name": "Control Point Hierarchy",
+      "principle_name": "Control Point Hierarchy",
       "relationship_type": "Complementary",
       "description": "Provides systematic framework for prioritizing control objectives during passing sequences, determining which anatomical controls to establish at each passing stage"
     },
     {
-      "concept_name": "Grip Fighting Strategies",
+      "principle_name": "Grip Fighting Strategies",
       "relationship_type": "Prerequisite",
       "description": "Essential foundational skill as grip dominance typically predicts passing success, requiring development before advanced passing principles can be effectively applied"
     },
     {
-      "concept_name": "Passing Counter System",
+      "principle_name": "Passing Counter System",
       "relationship_type": "Advanced form",
       "description": "Represents higher-level application requiring mastery of fundamental passing principles, incorporating defensive awareness and counter-passing strategies against guard player's offensive attempts"
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Top",
+      "context": "Closed Guard",
       "how_applied": "Principles manifest through posture maintenance to prevent forward collapse, systematic grip breaking to neutralize offensive control, and strategic opening approaches progressing from closed to open guard phases"
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Requires guard type recognition to select appropriate passing approach, leg management to clear frames and hooks, and distance control to prevent guard re-establishment during passing transitions"
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Emphasizes crossface and underhook battles as primary control mechanisms, hip control to prevent bottom player from recovering full guard, and systematic leg clearing to achieve side control consolidation"
     },
     {
@@ -117,7 +116,7 @@
       "how_applied": "Requires understanding of hook removal priorities, backstep timing to clear entanglements, and pressure direction to force bottom player into defensive rather than offensive DLR positioning"
     },
     {
-      "context": "Spider Guard Bottom",
+      "context": "Spider Guard",
       "how_applied": "Emphasizes grip breaking as primary objective before movement begins, posture recovery against extension pressure, and systematic approach to clearing leg frames while maintaining forward pressure"
     },
     {
@@ -125,15 +124,15 @@
       "how_applied": "Requires base posting to prevent elevation sweeps, systematic leg extraction from X-hook configuration, and understanding of pressure angles that collapse X-Guard structure"
     },
     {
-      "context": "Reverse De La Riva Guard Bottom",
+      "context": "De La Riva Guard/Reverse De La Riva Guard",
       "how_applied": "Focuses on hip control to prevent inversion entries, systematic clearing of RDLR hook, and maintaining forward pressure while circling away from entanglement mechanics"
     },
     {
-      "context": "Lasso Guard Bottom",
+      "context": "Lasso Guard",
       "how_applied": "Requires grip breaking on lasso sleeve control, systematic approach to clearing lasso configuration while maintaining posture, and understanding of pressure directions that neutralize lasso mechanics"
     },
     {
-      "context": "50-50 Guard Bottom",
+      "context": "Ashi Garami/50-50 Guard",
       "how_applied": "Emphasizes systematic leg extraction strategies, understanding of hip positioning to prevent leg entanglement deepening, and consolidation priorities after achieving leg separation"
     }
   ],
@@ -298,22 +297,22 @@
   "related_content": [
     {
       "name": "Pressure Passing Framework",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Specific strategic application of guard passing principles emphasizing heavy pressure and smashing control"
     },
     {
       "name": "Guard Retention Concepts",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary defensive framework providing essential understanding of retention mechanics that passing must neutralize"
     },
     {
       "name": "Control Point Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Provides prioritization framework for establishing controls during sequential passing stages"
     },
     {
       "name": "Base Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational prerequisite skill required for all passing attempts to prevent sweeps during advancement"
     },
     {
@@ -332,17 +331,12 @@
       "relationship": "Passing variation demonstrating mobility-based approach to bypassing guard retention mechanics"
     },
     {
-      "name": "Smash Pass",
-      "content_type": "Transition",
-      "relationship": "Pressure-based passing demonstrating heavy pinning application of guard passing principles"
-    },
-    {
       "name": "Gordon Ryan Passing System",
       "content_type": "System",
       "relationship": "Expert systematic integration of guard passing principles into comprehensive competitive passing framework"
     },
     {
-      "name": "Headquarters Position Top",
+      "name": "Headquarters Position",
       "content_type": "Position",
       "relationship": "Critical intermediate passing position representing midpoint between open guard and consolidated side control"
     },
@@ -353,8 +347,13 @@
     },
     {
       "name": "Grip Fighting Strategies",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential prerequisite concept as grip dominance typically predicts passing success before movement begins"
+    },
+    {
+      "name": "Double Under Pass",
+      "content_type": "Transition",
+      "relationship": "Heavy pressure passing technique demonstrating systematic hip control and leg management principles"
     }
   ],
   "expert_insights": {

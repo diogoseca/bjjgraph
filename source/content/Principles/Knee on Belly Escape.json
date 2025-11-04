@@ -1,13 +1,10 @@
 {
-  "metadata": {
-    "title": "Knee on Belly Escape | BJJ Concept | BJJ Graph",
-    "description": "Understand Knee on Belly Escape in BJJ. Learn frame creation, hip escape mechanics, and systematic defensive responses. Expert insights from Danaher, Ryan, and Bravo included.",
-    "concept_id": "C078",
-    "tags": ["bjj", "concept", "escape", "defensive", "knee-on-belly", "framing", "hip-escape"],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Knee on Belly Escape",
+  "description": "Master knee on belly escape mechanics in BJJ. Learn frame creation, hip escape timing, base disruption, and systematic guard recovery pathways for this high-pressure position.",
+  "tags": ["bjj", "principle", "escape", "defensive", "knee-on-belly", "framing", "hip-escape", "guard-recovery"],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
 
   "overview": "Knee on Belly Escape represents a critical defensive concept addressing one of the most pressure-intensive positions in Brazilian Jiu-Jitsu. The position creates exceptional discomfort for the bottom player while offering the top player high mobility and submission threats. Effective escape requires understanding the mechanics of frame creation, hip mobility, and timing to exploit the inherent instability of the position.\n\nThe concept integrates multiple fundamental principles: defensive framing to manage pressure points, hip escape mechanics to create distance, and base disruption to capitalize on the top player's elevated center of gravity. Unlike escaping from more stable pins like Side Control, Knee on Belly escapes leverage the position's mobility against itself. The top player's weight concentrated on one knee creates opportunities for timing-based reversals and guard recoveries.\n\nMastery of this concept develops through understanding the hierarchy of escape options—from immediate frame-based defenses to prevent submissions, through hip escapes to create space, to offensive reversals that capitalize on the opponent's commitment to maintaining pressure. This systematic approach transforms a highly disadvantageous position into a manageable defensive scenario with clear pathways to recovery.",
 
@@ -50,36 +47,66 @@
     }
   ],
 
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Frame Creation",
+      "principle_name": "Frame Creation",
       "relationship_type": "Prerequisite",
       "description": "Fundamental framing principles must be understood before applying them under the extreme pressure of Knee on Belly. Frame creation provides the foundation for all escape mechanics."
     },
     {
-      "concept_name": "Hip Escape Mechanics",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Prerequisite",
       "description": "Effective shrimping and hip movement are essential components that enable distance creation. The concept builds directly on fundamental hip escape skills."
     },
     {
-      "concept_name": "Side Control Escapes",
+      "principle_name": "Side Control Escapes",
       "relationship_type": "Complementary",
       "description": "Many principles overlap, including frame establishment and hip escape mechanics, though Knee on Belly escapes emphasize different timing and leverage points due to the position's unique structure."
     },
     {
-      "concept_name": "Mount Escape Hierarchy",
+      "principle_name": "Mount Escape Hierarchy",
       "relationship_type": "Complementary",
       "description": "Shares defensive hierarchy concepts—preventing worse positions before attempting full escapes. Both emphasize systematic progression through defensive layers."
     },
     {
-      "concept_name": "Base Maintenance",
+      "principle_name": "Base Maintenance",
       "relationship_type": "Alternative",
       "description": "From the bottom perspective, understanding the top player's base requirements helps identify vulnerabilities. The inverse of maintaining stable base is exploiting unstable base."
     },
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention",
       "relationship_type": "Extension",
       "description": "Advanced application involves transitioning from escape mechanics to proactive guard retention, turning defensive scenarios into guard recovery opportunities."
+    },
+    {
+      "principle_name": "Escape Fundamentals",
+      "relationship_type": "Prerequisite",
+      "description": "Core escape principles of creating frames, generating space, and recovering guard form the foundation that Knee on Belly escape mechanics build upon."
+    },
+    {
+      "principle_name": "Defensive Framing",
+      "relationship_type": "Prerequisite",
+      "description": "Understanding how to create structural frames under pressure is essential before applying these principles against Knee on Belly's unique pressure distribution."
+    },
+    {
+      "principle_name": "Space Creation",
+      "relationship_type": "Complementary",
+      "description": "The general principle of creating space between bodies manifests specifically through hip escapes and frame pressure in Knee on Belly scenarios."
+    },
+    {
+      "principle_name": "Timing and Rhythm",
+      "relationship_type": "Complementary",
+      "description": "Recognizing when opponent adjusts weight or changes grips creates windows for explosive escape attempts that wouldn't succeed against static pressure."
+    },
+    {
+      "principle_name": "Energy Conservation",
+      "relationship_type": "Complementary",
+      "description": "Managing energy expenditure by timing explosive movements rather than constant struggling against pressure extends defensive longevity."
+    },
+    {
+      "principle_name": "Pressure Reduction",
+      "relationship_type": "Extension",
+      "description": "Advanced understanding of how frames reduce felt pressure even when opponent's weight remains constant improves tolerance and escape execution."
     }
   ],
 
@@ -101,12 +128,20 @@
       "how_applied": "Frame establishment and base disruption principles transfer when defending against transitions to Knee on Belly from north-south positions."
     },
     {
-      "context": "Guard Passing Concepts",
+      "context": "Half Guard",
       "how_applied": "Understanding Knee on Belly escape mechanics improves guard retention by recognizing and preventing the initial establishment of the position during passing sequences."
     },
     {
-      "context": "Competition Strategy",
-      "how_applied": "Managing energy expenditure while defending Knee on Belly, understanding when to accept temporary discomfort versus when to explosively escape based on score, time, and submission threats."
+      "context": "Closed Guard",
+      "how_applied": "Preemptive framing during guard opening sequences prevents opponent from establishing Knee on Belly once guard is broken, maintaining defensive readiness."
+    },
+    {
+      "context": "Open Guard",
+      "how_applied": "When guard passing leads toward Knee on Belly establishment, early frame creation and hip mobility prevent the position from solidifying."
+    },
+    {
+      "context": "Turtle",
+      "how_applied": "When attempting to recover from turtle and opponent establishes Knee on Belly, understanding escape mechanics enables immediate defensive response rather than accepting the position."
     }
   ],
 
@@ -211,11 +246,6 @@
       "approach_name": "Multi-Position Escape Chains",
       "description": "Flow drilling where partner can transition between Side Control, Knee on Belly, and Mount while bottom player practices continuous defensive responses and position-specific escapes. Develops adaptability as positions change.",
       "focus": "Maintaining defensive composure through position transitions, adapting escape mechanics to different pin variations, and preventing opponent from stabilizing any position"
-    },
-    {
-      "approach_name": "Competition Simulation with Penalty",
-      "description": "Sparring rounds where failing to escape Knee on Belly within specific time limits results in disadvantageous restart conditions (starting from mount, giving up points, etc.). Creates urgency and pressure similar to competition environments.",
-      "focus": "Managing stress and urgency while maintaining technical precision, developing consistent escape execution under time pressure, and building mental resilience against uncomfortable positions"
     }
   ],
 
@@ -279,7 +309,7 @@
       "relationship": "Common preceding position from which Knee on Belly is established—preemptive framing prevents transition"
     },
     {
-      "name": "Half Guard Bottom",
+      "name": "Half Guard",
       "content_type": "Position",
       "relationship": "Frequent guard recovery target when escaping Knee on Belly by inserting knee shield"
     },
@@ -290,23 +320,33 @@
     },
     {
       "name": "Frame Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational principle that enables all Knee on Belly escape mechanics"
     },
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential movement pattern that generates distance and enables guard recovery"
     },
     {
       "name": "Mount Escape Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Shares systematic defensive approach—preventing worse positions before attempting full escapes"
     },
     {
-      "name": "Guard Retention Concepts",
-      "content_type": "Concept",
+      "name": "Guard Retention",
+      "content_type": "Principle",
       "relationship": "Advanced integration where escape mechanics transition into proactive guard retention and recovery"
+    },
+    {
+      "name": "Shrimp Escape",
+      "content_type": "Transition",
+      "relationship": "Fundamental hip escape movement that creates the distance necessary for guard recovery from Knee on Belly"
+    },
+    {
+      "name": "Side Control Escape",
+      "content_type": "Transition",
+      "relationship": "Related escape mechanics that share framing and hip movement principles applicable to Knee on Belly scenarios"
     }
   ],
 

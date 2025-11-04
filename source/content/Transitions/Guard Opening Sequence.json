@@ -1,16 +1,13 @@
 {
-  "metadata": {
-    "title": "Guard Opening Sequence | BJJ Technique | BJJ Graph",
-    "description": "Master guard opening in BJJ. Systematic approaches to opening closed guard with posture, grips, and pressure. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
-    "transition_id": "T999",
-    "tags": ["bjj", "transition", "guard-passing", "guard-opening", "fundamental", "beginner"],
-    "starting_position": "Closed Guard Top",
-    "ending_position": "Open Guard Top",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 75
-    }
+  "name": "Guard Opening Sequence",
+  "description": "Master guard opening in BJJ. Systematic approaches to opening closed guard with posture, grips, and pressure. Success: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "tags": ["bjj", "transition", "guard-passing", "guard-opening", "fundamental", "beginner"],
+  "starting_position": "Closed Guard",
+  "ending_position": "Open Guard",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 55,
+    "advanced": 75
   },
   "overview": "Guard Opening Sequence represents the systematic approach to breaking closed guard and transitioning to an open guard passing position. This foundational technique encompasses posture establishment, grip fighting, and the application of specific opening mechanics to force the opponent's guard open. The sequence is fundamental to all guard passing systems, as no pass can begin without first opening the closed guard. Understanding proper opening mechanics prevents common injuries, maintains positional control, and sets up high-percentage passing opportunities. The technique involves careful attention to base maintenance, grip control, and strategic pressure application to overcome the opponent's defensive structure while maintaining safety and control throughout the transition.",
   "key_principles": [
@@ -234,11 +231,11 @@
   "position_integration": "Guard Opening Sequence serves as the critical gateway from closed guard top to all open guard passing positions. It is the first step in any guard passing system - no pass can occur without first opening the closed guard. This technique integrates directly into comprehensive passing strategies: once the guard opens, you immediately transition to knee slice, toreando, leg drag, long step, or pressure passing depending on your system and the opponent's reactions. The opening sequence also connects to grip fighting and posture maintenance concepts that apply throughout guard passing. Defensive integration includes recognizing and defending sweeps during opening, maintaining base, and preventing submission setups. Understanding proper opening mechanics prevents injuries and builds the foundation for advanced guard passing studies. The technique emphasizes the principle that guard passing is systematic - each step builds upon the previous, and skipping the proper opening leads to failure in later passing attempts.",
   "related_content": [
     {
-      "name": "Closed Guard Top",
+      "name": "Closed Guard",
       "relationship": "Starting position for guard opening sequence"
     },
     {
-      "name": "Open Guard Top",
+      "name": "Open Guard",
       "relationship": "Resulting position after successful guard opening"
     },
     {

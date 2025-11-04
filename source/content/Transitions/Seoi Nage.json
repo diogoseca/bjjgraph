@@ -1,25 +1,22 @@
 {
-  "metadata": {
-    "title": "Seoi Nage | BJJ Technique | BJJ Graph",
-    "description": "Master Seoi Nage shoulder throw in BJJ. Step-by-step execution from standing clinch to top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T064",
-    "tags": [
-      "bjj",
-      "transition",
-      "takedown",
-      "judo",
-      "throw",
-      "standing",
-      "clinch",
-      "gripping"
-    ],
-    "starting_position": "Standing Position",
-    "ending_position": "Side Control Top",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Seoi Nage",
+  "description": "Master Seoi Nage shoulder throw in BJJ. Step-by-step execution from standing clinch to top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "takedown",
+    "judo",
+    "throw",
+    "standing",
+    "clinch",
+    "gripping"
+  ],
+  "starting_position": "Standing Position",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "Seoi Nage, meaning 'shoulder throw' in Japanese, is one of the most fundamental and effective throwing techniques adapted from Judo into Brazilian Jiu-Jitsu. This classical technique involves loading your opponent onto your back by dropping your level, turning your hips, and using your shoulders as the fulcrum point to execute a powerful forward rotation that sends them to the mat. The throw is particularly effective in both gi and no-gi scenarios, though the gripping strategies differ significantly between the two contexts.\n\nIn BJJ competition, Seoi Nage serves as a high-percentage takedown option that can transition seamlessly into dominant top positions such as side control, mount, or even immediate submission attacks. The technique capitalizes on your opponent's forward pressure or committed grips, making it an excellent counter-attacking throw. When executed properly, Seoi Nage generates significant momentum that allows you to land in advantageous positions while your opponent is still recovering from the impact of the throw.\n\nThe beauty of Seoi Nage lies in its versatility and adaptability across different body types and athletic abilities. Unlike purely strength-based takedowns, this technique relies heavily on timing, hip rotation, and proper positioning of your center of gravity relative to your opponent's. Understanding the biomechanical principles of the throw—particularly the importance of getting your hips lower than your opponent's and creating the proper turning angle—is essential for consistent execution at all skill levels.",
   "key_principles": [
@@ -276,7 +273,7 @@
       "relationship": "High-percentage submission after landing from successful throw"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Primary landing position from Seoi Nage"
     },
     {
@@ -284,7 +281,7 @@
       "relationship": "Essential prerequisite skill for setting up the throw"
     },
     {
-      "name": "Collar Ties Position",
+      "name": "Collar Ties",
       "relationship": "Common starting position for Seoi Nage setup"
     },
     {

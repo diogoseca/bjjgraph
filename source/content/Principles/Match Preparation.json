@@ -1,22 +1,21 @@
 {
-  "metadata": {
-    "title": "Match Preparation | BJJ Concept | BJJ Graph",
-    "description": "Understand Match Preparation in BJJ. Learn systematic readiness optimization, strategic opponent analysis, timeline management, and pre-competition protocols.",
-    "concept_id": "C112",
-    "tags": [
-      "bjj",
-      "concept",
-      "intermediate",
-      "competition",
-      "preparation",
-      "strategy",
-      "mental game",
-      "physical peaking"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Match Preparation",
+  "description": "Master match preparation in BJJ. Learn systematic preparation protocols, timeline management, opponent analysis, tactical rehearsal, and competition peaking strategies.",
+  "tags": [
+    "bjj",
+    "principle",
+    "intermediate",
+    "competition",
+    "preparation",
+    "strategy",
+    "mental game",
+    "physical peaking",
+    "tactical planning",
+    "periodization"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Match Preparation represents the comprehensive process of readying technical, physical, tactical, and psychological capabilities for specific competitive encounters, integrating training adaptations, strategic planning, and pre-competition protocols into unified preparation that maximizes performance probability. Unlike general training that develops broad capabilities, match preparation is the focused process of optimizing readiness for particular competitive challenges through systematic analysis, targeted training emphasis, and strategic protocol execution in the days and hours preceding competition. This concept encompasses the multifaceted preparation requirements, timeline management, and integration challenges of coordinating technical refinement, physical peaking, tactical planning, and psychological readiness into coherent preparation strategy. Match preparation serves as both the culmination of extended training cycles bringing preparation to competition readiness, and the final optimization phase where strategic planning and tactical rehearsal prepare athletes for specific competitive scenarios. The quality of match preparation often determines competitive outcomes as comprehensively prepared athletes consistently outperform technically skilled but inadequately prepared opponents, making systematic match preparation one of the most important yet complex aspects of competitive success.",
   "key_principles": [
     "Structure preparation timeline systematically managing physical, technical, tactical, and psychological readiness across weeks, days, and hours before competition",
@@ -63,86 +62,114 @@
       "description": "The capacity to maintain prepared game plans while retaining flexibility to adjust tactics based on actual match conditions, unexpected opponent approaches, or environmental factors. Balances preparation specificity with responsive decision-making under competitive pressure."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Competition Mindset",
+      "principle_name": "Competition Mindset",
       "relationship_type": "Prerequisite",
       "description": "Competitive psychological framework must be established before effective match preparation possible, as preparation activities require competitive mentality to execute appropriately and interpret correctly relative to competition demands."
     },
     {
-      "concept_name": "Competition Training",
+      "principle_name": "Competition Training",
       "relationship_type": "Prerequisite",
       "description": "Extended training cycle developing competitive capabilities provides foundation that match preparation optimizes, as preparation cannot create abilities but rather brings existing capacities to peak readiness for specific competitive challenge."
     },
     {
-      "concept_name": "Game Planning",
+      "principle_name": "Game Planning",
       "relationship_type": "Complementary",
       "description": "Strategic tactical planning works synergistically with match preparation as game plans inform preparation emphasis while preparation constraints shape realistic game plan development, creating integrated approach to competitive readiness."
     },
     {
-      "concept_name": "Energy Management System",
+      "principle_name": "Energy Management System",
       "relationship_type": "Complementary",
       "description": "Understanding energy expenditure and recovery patterns essential for both training camp management and competition-day pacing decisions, as preparation must develop energy systems while avoiding depletion before competition begins."
     },
     {
-      "concept_name": "Mental Game Framework",
+      "principle_name": "Mental Game Framework",
       "relationship_type": "Extension",
       "description": "Psychological preparation represents specialized application of broader mental game principles to specific pre-competition context, extending general mental training into competition-specific psychological protocols and anxiety management techniques."
     },
     {
-      "concept_name": "Risk Assessment",
+      "principle_name": "Risk Assessment",
       "relationship_type": "Complementary",
       "description": "Evaluating tactical risk-reward ratios informs both preparation emphasis and competition-day decision-making, as preparation should rehearse not only preferred tactics but also contingency approaches for various match scenarios and risk levels."
+    },
+    {
+      "principle_name": "Match Strategy",
+      "relationship_type": "Extension",
+      "description": "In-competition tactical execution represents application of preparation work, as match preparation creates strategic frameworks and automatic responses that match strategy deploys under competitive pressure."
+    },
+    {
+      "principle_name": "Pacing",
+      "relationship_type": "Complementary",
+      "description": "Energy distribution planning throughout matches must be developed during preparation through conditioning work and tactical rehearsal at competition-appropriate intensity levels."
+    },
+    {
+      "principle_name": "Drilling Methodology",
+      "relationship_type": "Complementary",
+      "description": "Technical skill development approach that preparation leverages through specific scenario drilling creating automatic execution patterns from rehearsed tactical sequences."
+    },
+    {
+      "principle_name": "Positional Sparring",
+      "relationship_type": "Complementary",
+      "description": "Position-specific training approach serves as key preparation tool for rehearsing anticipated match scenarios and testing tactical approaches against resistant training partners."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Match preparation determines which guard game variations receive emphasis based on opponent's known passing preferences, rule set requirements, and competition format, with final training week featuring extensive tactical rehearsal of preferred attack sequences and counter-passing responses from this position."
     },
     {
-      "context": "Mount Top",
+      "context": "Mount",
       "how_applied": "Pre-competition preparation includes specific drilling of mount consolidation against anticipated opponent defensive patterns, submission sequences appropriate to rule set and opponent vulnerabilities, and position maintenance against specific escape attempts identified through opponent analysis."
     },
     {
-      "context": "Back Control Top",
+      "context": "Back Control",
       "how_applied": "Preparation emphasizes finishing efficiency from back control through rehearsal of specific submission chains, hand fighting patterns against anticipated defensive grips, and transition management if opponent escapes, all tailored to competition scoring system and time constraints."
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Match-specific preparation involves drilling weight distribution patterns, shoulder pressure application, and transition sequences to mount or submissions based on opponent's known escape preferences, with emphasis on maintaining control under competitive stress conditions."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Preparation tailors half guard approach to competition format through specific sweep rehearsal, recovery pathway drilling, and defensive position maintenance based on anticipated opponent passing strategies identified through analysis or meta-game understanding."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Pre-competition training emphasizes specific open guard variations effective against opponent's game while compatible with athlete's physical attributes, with extensive tactical drilling of guard retention against anticipated passing approaches and offensive sequences from established guards."
     },
     {
-      "context": "De La Riva Guard Bottom",
+      "context": "De La Riva Guard",
       "how_applied": "Match preparation determines whether De La Riva features prominently in game plan based on opponent passing style and competition requirements, with preparation either emphasizing De La Riva specific attacks or drilling bypass entries to alternative guards based on strategic analysis."
     },
     {
-      "context": "Butterfly Guard Bottom",
+      "context": "Butterfly Guard",
       "how_applied": "Preparation includes specific butterfly sweep drilling timed to opponent's anticipated pressure patterns, elevation mechanics against expected weight distribution, and tactical decisions regarding when to maintain butterfly versus transitioning to alternative guard structures based on match conditions."
     },
     {
-      "context": "Knee on Belly Top",
+      "context": "Knee on Belly",
       "how_applied": "Match-specific preparation determines submission versus transition emphasis from knee on belly based on scoring requirements and time constraints, with tactical rehearsal of specific finishing sequences or position advancement pathways appropriate to competition context."
     },
     {
-      "context": "North-South Top",
+      "context": "North-South",
       "how_applied": "Pre-competition drilling emphasizes specific control refinements and submission opportunities from north-south based on opponent's known escape patterns, with preparation addressing whether north-south serves as attacking position or transitional control toward preferred submission positions."
     },
     {
-      "context": "Ashi Garami Top",
+      "context": "Ashi Garami",
       "how_applied": "Match preparation tailors leg entanglement approach to rule set restrictions and opponent's leg lock defense patterns, with extensive drilling of legal finishing mechanics, position maintenance against anticipated escape attempts, and tactical decisions regarding submission versus sweep emphasis."
     },
     {
-      "context": "Triangle Control Bottom",
+      "context": "Triangle Control",
       "how_applied": "Preparation emphasizes specific triangle finishing mechanics against opponent's anticipated defensive posture, arm positioning requirements, and backup transitions if triangle becomes unavailable, all rehearsed under simulated competitive pressure during final preparation phase."
+    },
+    {
+      "context": "Turtle",
+      "how_applied": "Match-specific preparation addresses both offensive exploitation of opponent's turtle position and defensive use of turtle as recovery position, drilling specific attack sequences or escape pathways based on anticipated tactical scenarios."
+    },
+    {
+      "context": "Standing Position",
+      "how_applied": "Preparation emphasizes takedown entries, grip fighting sequences, and guard pulling timing appropriate to competition format and opponent's standing game, rehearsing opening exchanges that establish favorable initial positions."
     }
   ],
   "decision_framework": [
@@ -292,47 +319,47 @@
   "related_content": [
     {
       "name": "Competition Mindset",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential prerequisite establishing competitive psychological framework that enables effective preparation activities and appropriate interpretation of training relative to competition demands"
     },
     {
       "name": "Competition Training",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Extended training foundation that match preparation optimizes, as preparation cannot create capabilities but brings existing skills to peak readiness for specific competitive challenge"
     },
     {
       "name": "Game Planning",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic tactical planning component working synergistically with preparation as game plans inform training emphasis while preparation constraints shape realistic tactical development"
     },
     {
       "name": "Energy Management System",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Energy expenditure and recovery understanding essential for training camp management and competition pacing decisions throughout preparation and performance phases"
     },
     {
       "name": "Mental Game Framework",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Psychological preparation framework extending general mental training into competition-specific protocols and anxiety management techniques for pre-competition readiness"
     },
     {
       "name": "Match Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "In-competition decision-making framework that preparation enables through tactical rehearsal and scenario drilling creating automatic strategic responses under competitive pressure"
     },
     {
       "name": "Pacing",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Energy distribution planning throughout matches that preparation must develop through conditioning work and tactical rehearsal at competition-appropriate intensity levels"
     },
     {
       "name": "Risk Assessment",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Tactical risk-reward evaluation informing both preparation emphasis and competition decisions, as preparation should rehearse tactics across multiple risk scenarios"
     },
     {
       "name": "Drilling Methodology",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Technical skill development approach that preparation leverages through specific scenario drilling creating automatic execution patterns from rehearsed tactical sequences"
     },
     {

@@ -1,22 +1,20 @@
 {
-  "metadata": {
-    "title": "Posture Breaking | BJJ Concept | BJJ Graph",
-    "description": "Master Posture Breaking in BJJ. Learn systematic methods to disrupt opponent's spinal alignment from guard. Success rates, biomechanical principles, and expert insights.",
-    "concept_id": "C085",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "guard",
-      "posture",
-      "control",
-      "closed-guard",
-      "open-guard"
-    ],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Posture Breaking",
+  "description": "Master posture breaking in BJJ. Learn systematic methods to disrupt opponent's spinal alignment from guard. Biomechanical principles, timing, and cross-position applications.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "guard",
+    "posture",
+    "control",
+    "closed-guard",
+    "open-guard",
+    "biomechanics"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Posture Breaking represents the fundamental skill of disrupting an opponent's spinal alignment and structural stability from guard positions to create offensive opportunities and prevent defensive capability. Unlike specific techniques, posture breaking is a comprehensive conceptual framework that applies across all guard variations and directly determines success in bottom positions. This concept encompasses the biomechanical understanding that an opponent with broken posture cannot effectively generate passing pressure, defend submissions, or maintain base, making posture breaking the primary offensive priority from guard. Posture breaking serves as both an offensive prerequisite that enables sweeps and submissions, and a defensive mechanism that prevents guard passing by eliminating opponent's pressure capability. The ability to consistently break and maintain broken posture often determines success from guard positions, making it one of the most essential conceptual elements in bottom game development.",
   "key_principles": [
     "Control opponent's head to disrupt spinal alignment and prevent postural recovery",
@@ -63,78 +61,106 @@
       "description": "Immediately following broken posture with sweep or submission attempts that capitalize on opponent's compromised position. Broken posture without offensive follow-up wastes the advantage and allows recovery. Integration means having pre-planned sequences that activate the moment posture breaks, preventing opponent from regaining defensive structure."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Base Maintenance",
+      "principle_name": "Base Maintenance",
       "relationship_type": "Prerequisite",
       "description": "Understanding how base works from top position is essential for knowing how to disrupt it from bottom. Base maintenance principles reveal the mechanical requirements for upright posture, which directly inform effective posture breaking methods. Studying base reveals the vulnerabilities to exploit."
     },
     {
-      "concept_name": "Grip Strategy",
+      "principle_name": "Grip Strategy",
       "relationship_type": "Complementary",
       "description": "Effective grip strategy determines which grips provide maximum posture breaking capability while maintaining offensive options. Grip fighting priorities must center on securing grips that control opponent's posture. Poor grip selection undermines all posture breaking attempts regardless of technical knowledge."
     },
     {
-      "concept_name": "Off-Balancing",
+      "principle_name": "Off-Balancing",
       "relationship_type": "Complementary",
       "description": "Posture breaking and off-balancing work synergistically where broken posture makes opponent easier to off-balance, and off-balancing creates opportunities to break posture. These concepts reinforce each other in creating dominant control from guard positions."
     },
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention Concepts",
       "relationship_type": "Complementary",
       "description": "Guard retention and posture breaking are defensive/offensive sides of the same strategic framework. Posture breaking prevents guard passing by eliminating opponent's ability to generate passing pressure. Strong posture breaking capability is fundamental component of effective guard retention systems."
     },
     {
-      "concept_name": "Sweep Mechanics",
+      "principle_name": "Sweep Mechanics",
       "relationship_type": "Extension",
       "description": "Nearly all sweeps from guard require broken posture as prerequisite condition for execution. Sweep mechanics assume opponent's posture is broken and they cannot post effectively to prevent being swept. Posture breaking creates the positional prerequisites that make sweep execution possible."
     },
     {
-      "concept_name": "Submission Chains",
+      "principle_name": "Submission Chains",
       "relationship_type": "Extension",
       "description": "Submission attacks from guard universally require broken posture to access submission positions and prevent opponent from defending. Broken posture eliminates opponent's ability to posture up and pull their limbs to safety. Submission chains from guard are built on foundation of sustained broken posture."
+    },
+    {
+      "principle_name": "Head Control",
+      "relationship_type": "Complementary",
+      "description": "Head control is the primary mechanism for breaking posture across multiple guard positions. Understanding head control principles enables more effective posture breaking through collar grips, overhooks, and direct head manipulation. These skills work together to dominate opponent's upper body positioning."
+    },
+    {
+      "principle_name": "Hip Movement",
+      "relationship_type": "Complementary",
+      "description": "Hip movement creates the angles necessary to compromise opponent's base while breaking posture. Coordinating hip angles with pulling pressure attacks opponent's structure from multiple directions. Hip movement and posture breaking must be integrated for maximum effectiveness."
+    },
+    {
+      "principle_name": "Collar Control",
+      "relationship_type": "Complementary",
+      "description": "Collar grips provide powerful mechanical advantage for posture breaking in gi training. Deep collar grips enable maximum pulling force while preventing opponent from creating distance. Collar control mastery directly translates to improved posture breaking capability."
+    },
+    {
+      "principle_name": "Leverage Principles",
+      "relationship_type": "Prerequisite",
+      "description": "Understanding leverage enables efficient posture breaking using optimal mechanical advantage rather than strength. Proper leverage application allows smaller practitioners to break posture of larger opponents. Leverage principles inform grip selection and pulling vector optimization."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Primary posture breaking method uses leg squeeze combined with collar and sleeve grips pulling opponent forward and down. Legs provide structural reinforcement preventing opponent from posting wide. Hip movement creates angles that compromise opponent's ability to stack weight on knees. Breaking posture in closed guard is prerequisite for all offensive attacks."
     },
     {
-      "context": "Spider Guard Bottom",
+      "context": "Spider Guard",
       "how_applied": "Posture breaking uses foot pressure on biceps combined with sleeve grips to extend opponent's arms and prevent them from bringing hands close to body for postural support. Extended arms eliminate opponent's ability to create vertical alignment. Hip movement coordinates with arm extension to pull opponent forward into broken posture."
     },
     {
-      "context": "De La Riva Guard Bottom",
+      "context": "De La Riva Guard",
       "how_applied": "Hook behind opponent's leg combined with ankle grip and collar control creates mechanical advantage for breaking posture. De La Riva hook prevents opponent from creating solid base while collar grip pulls them forward and down. Breaking posture in DLR neutralizes passing pressure and creates sweep opportunities."
     },
     {
-      "context": "Butterfly Guard Bottom",
+      "context": "Butterfly Guard",
       "how_applied": "Underhooks combined with butterfly hooks create powerful posture breaking mechanics. Underhooks prevent opponent from creating distance while hooks elevate opponent's hips, disrupting their ability to maintain vertical alignment. Coordinated hook elevation and underhook pulling breaks posture efficiently."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Underhook on trapped leg side provides primary posture breaking tool combined with lockdown or knee shield. Underhook pulls opponent's torso down while preventing them from achieving crossface control. Breaking posture in half guard creates space for sweep entries and prevents flattening."
     },
     {
-      "context": "Lasso Guard Bottom",
+      "context": "Lasso Guard",
       "how_applied": "Lasso around opponent's arm creates mechanical trap preventing posture while opposite leg controls distance. Pulling on lasso sleeve grip while extending leg around arm breaks opponent's posture to that side. Compromised posture prevents passing while creating sweep opportunities through structural imbalance."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Multiple points of contact including sleeve grips, collar grips, and leg frames combine to create posture breaking capability. Open guard posture breaking is more dynamic, requiring constant adjustment as opponent moves. Frame placement on hips or biceps prevents opponent from achieving solid passing posture."
     },
     {
-      "context": "Seated Guard Bottom",
+      "context": "Seated Guard",
       "how_applied": "Ankle and sleeve grips combined with active hip movement prevent opponent from achieving dominant passing angles. Posture breaking in seated guard focuses on preventing opponent from establishing grips and pressure that would flatten guard player. Constant movement and grip fighting maintain broken opponent posture."
     },
     {
-      "context": "Collar Sleeve Guard Bottom",
+      "context": "Collar Sleeve Guard",
       "how_applied": "Cross collar grip provides powerful pulling mechanism while same-side sleeve grip extends opponent's arm and prevents posting. Coordinating these grips with hip movement breaks opponent's posture by attacking their structure from two different vectors. Collar grip pulls down while sleeve grip prevents arm from supporting posture."
     },
     {
-      "context": "Rubber Guard Bottom",
+      "context": "Rubber Guard",
       "how_applied": "High guard position with leg controlling opponent's posture combines with overhook or collar grip to create extreme posture breaking control. Rubber guard mechanics use leg as powerful lever preventing opponent from lifting head or creating space. Sustained broken posture enables submission attacks from guard."
+    },
+    {
+      "context": "X-Guard",
+      "how_applied": "Hook structure under opponent combined with sleeve grips creates posture breaking through upward elevation and forward pulling. X-Guard mechanics break posture by lifting opponent's base while pulling upper body forward, creating severe postural compromise that enables sweeps."
+    },
+    {
+      "context": "Lapel Guard",
+      "how_applied": "Lapel wraps and controls provide unique mechanical advantage for posture breaking by creating pulling points that opponent cannot easily defend. Lapel tension combined with leg frames breaks posture through constant directional pressure that opponent struggles to counter effectively."
     }
   ],
   "decision_framework": [
@@ -284,27 +310,27 @@
   ],
   "related_content": [
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Primary position where fundamental posture breaking mechanics are developed using leg squeeze and collar-sleeve grips"
     },
     {
-      "name": "Spider Guard Bottom",
+      "name": "Spider Guard",
       "content_type": "Position",
       "relationship": "Guard variation that uses foot pressure and arm extension as primary posture breaking mechanisms"
     },
     {
-      "name": "De La Riva Guard Bottom",
+      "name": "De La Riva Guard",
       "content_type": "Position",
       "relationship": "Open guard position where hook and collar combination creates powerful posture breaking capability"
     },
     {
-      "name": "Butterfly Guard Bottom",
+      "name": "Butterfly Guard",
       "content_type": "Position",
       "relationship": "Guard type utilizing underhooks and hooks for explosive posture breaking mechanics"
     },
     {
-      "name": "Half Guard Bottom",
+      "name": "Half Guard",
       "content_type": "Position",
       "relationship": "Position where underhook-based posture breaking prevents flattening and creates sweep opportunities"
     },
@@ -325,22 +351,22 @@
     },
     {
       "name": "Grip Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept determining which grips provide optimal posture breaking capability"
     },
     {
       "name": "Base Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Understanding opponent's base requirements reveals vulnerabilities to exploit through posture breaking"
     },
     {
       "name": "Guard Retention Concepts",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Posture breaking serves as primary guard retention mechanism by eliminating opponent's passing pressure"
     },
     {
       "name": "Off-Balancing",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Works synergistically with posture breaking to create maximum positional dominance from guard"
     }
   ],

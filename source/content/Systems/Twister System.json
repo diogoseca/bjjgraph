@@ -1,15 +1,22 @@
 {
-  "metadata": {
-    "title": "Twister System | BJJ System | BJJ Graph",
-    "description": "Master Eddie Bravo's Twister System in BJJ. Comprehensive framework from lockdown control to spine lock submissions. 10th Planet methodology with systematic progression.",
-    "system_id": "SC009",
-    "tags": ["bjj", "system", "twister", "10th-planet", "submission-chain", "lockdown", "truck", "spine-lock", "eddie-bravo"],
-    "system_type": "Submission Chain",
-    "difficulty_level": "Advanced"
-  },
-
+  "name": "Twister System",
+  "description": "Master the Twister System in BJJ. Complete framework from lockdown control through truck position to spine lock submissions. Progressive control system.",
+  "tags": [
+    "bjj",
+    "system",
+    "twister",
+    "10th-planet",
+    "submission-chain",
+    "lockdown",
+    "truck",
+    "spine-lock",
+    "eddie-bravo",
+    "no-gi",
+    "half-guard-system"
+  ],
+  "system_type": "Submission Chain",
+  "difficulty_level": "Advanced",
   "overview": "The Twister System is Eddie Bravo's revolutionary submission chain that begins from the lockdown half guard position and progresses through a series of controlling positions (Electric Chair, Truck, Twister Side Control) to the signature Twister submission - a devastating spinal lock. This system represents a fundamental departure from traditional Brazilian Jiu-Jitsu, emphasizing flexibility, unconventional positioning, and attacking the spine rather than joints. The system is built on the principle of progressive control, where each position offers its own submission threats while also serving as a gateway to more dominant positions.\n\nWhat makes the Twister System unique is its emphasis on creating uncomfortable, flexibility-demanding positions that many traditionally-trained opponents struggle to defend. The lockdown provides exceptional control of the opponent's leg, preventing them from establishing traditional half guard passing mechanics. From there, the system offers multiple pathways: the Electric Chair attacks the groin and inner thigh, the Old School Sweep provides positional advancement, and the Truck Position opens the door to back attacks and the Twister itself. Each component of the system works synergistically, with transitions flowing naturally from one position to the next based on the opponent's defensive reactions.\n\nThe Twister System has proven effective at the highest levels of no-gi competition and has influenced modern BJJ by demonstrating that flexibility-based controls and spinal attacks can be systematically developed and applied. While the system has a reputation for being unorthodox, it's built on sound mechanical principles: controlling the hips, disrupting the opponent's base, and attacking structures (the spine) that are difficult to defend when proper control is established. The system requires dedicated practice to master the lockdown mechanics, body positioning for the truck, and the technical details of the Twister finish, but rewards practitioners with a comprehensive attack sequence that opponents often have limited experience defending.",
-
   "key_principles": [
     "Lockdown control establishes the foundation - secure leg entanglement prevents opponent's base and passing mechanics",
     "Progressive control through positions - each step (Lockdown → Electric Chair → Truck → Twister) offers submission threats while advancing position",
@@ -20,7 +27,6 @@
     "System mastery requires drilling - the unconventional positions demand repetition to develop comfort and technical precision",
     "Multiple submission paths from each position - Electric Chair, Banana Split, Twister, and various chokes provide options based on opponent defense"
   ],
-
   "key_components": [
     {
       "component_name": "Lockdown Half Guard",
@@ -53,7 +59,6 @@
       "purpose": "Generate momentum and off-balance opponent to create entries into Electric Chair and sweep opportunities"
     }
   ],
-
   "implementation_sequence": [
     {
       "step_number": 1,
@@ -142,7 +147,6 @@
       ]
     }
   ],
-
   "common_obstacles": [
     {
       "obstacle": "Opponent prevents lockdown establishment by keeping distance and preventing leg entanglement",
@@ -173,7 +177,6 @@
       "solution": "Strengthen leg control in Truck - legs must act as hooks preventing rotational escape. Maintain hip-to-hip contact with opponent. If opponent attempts to roll, follow the roll while maintaining controls and look for submission opportunities during the movement. Practice Truck retention drills specifically. Use calf slicer pressure to discourage rolling attempts. Ensure you're capturing opponent's arm during Truck entry to limit their defensive options."
     }
   ],
-
   "assessment_metrics": [
     {
       "metric_name": "Lockdown Control Proficiency",
@@ -220,10 +223,8 @@
       ]
     }
   ],
-
   "training_methodology": {
     "drilling_approach": "The Twister System requires structured drilling that builds from foundational lockdown mechanics through to dynamic transitions and submissions. Begin each training session with 5-10 minutes of lockdown-specific drilling: establishing lockdown from various half guard configurations, maintaining lockdown against extraction attempts, and practicing whipup mechanics without the full technique. Progress to positional drilling where one partner has lockdown established and works through the system components (Electric Chair entry, Old School Sweep, Truck transitions) while the other provides progressive resistance. Dedicate separate drilling sessions to Truck Position mechanics - establishing proper body configuration, maintaining control against escape attempts, and securing submission grips. The Twister submission itself should be drilled extensively at slow speed with clear communication before applying full pressure. Include flow drilling where partners alternate attacking and defending through the entire system sequence, developing timing and recognition of transitional opportunities. Supplement mat time with flexibility training (yoga, stretching routines) focused on hip mobility and spinal rotation, as flexibility limitations significantly impact system effectiveness.",
-
     "progression_path": [
       {
         "stage": "Foundation Phase (Weeks 1-4)",
@@ -251,7 +252,6 @@
         "timeframe": "Ongoing development and teaching"
       }
     ],
-
     "common_mistakes": [
       "Maintaining lockdown too tight for too long, causing fatigue and reducing mobility for attacks - must learn to modulate lockdown tension based on attacking opportunities",
       "Attempting whipup without proper compression first - must compress opponent close before explosive extension for maximum elevation and off-balancing effect",
@@ -262,10 +262,9 @@
       "Focusing exclusively on Twister submission and ignoring other system components (Electric Chair, Old School Sweep, truck variations) - system effectiveness requires threatening multiple attacks to create submission dilemmas"
     ]
   },
-
   "related_content": [
     {
-      "name": "Lockdown Guard",
+      "name": "Lockdown",
       "content_type": "Position",
       "relationship": "Foundation position that initiates entire system sequence"
     },
@@ -275,7 +274,7 @@
       "relationship": "First major attacking position achieved from lockdown whipup"
     },
     {
-      "name": "Truck Position Bottom",
+      "name": "Truck",
       "content_type": "Position",
       "relationship": "Primary control position that enables Twister and other submissions"
     },
@@ -283,6 +282,11 @@
       "name": "Twister Control",
       "content_type": "Position",
       "relationship": "Final control position before Twister submission finish"
+    },
+    {
+      "name": "Half Guard",
+      "content_type": "Position",
+      "relationship": "Starting position where lockdown is typically established"
     },
     {
       "name": "Rubber Guard",
@@ -293,11 +297,6 @@
       "name": "Mission Control",
       "content_type": "Position",
       "relationship": "Related 10th Planet position that can transition to similar attacking sequences"
-    },
-    {
-      "name": "Half Guard Bottom",
-      "content_type": "Position",
-      "relationship": "Starting position where lockdown is typically established"
     },
     {
       "name": "Chill Dog",
@@ -315,29 +314,19 @@
       "relationship": "10th Planet back control variation that shares control concepts with Truck"
     },
     {
-      "name": "Twister Side Control Top",
+      "name": "Twister Side Control",
       "content_type": "Position",
       "relationship": "Alternative control position in the Twister system pathway"
     },
     {
-      "name": "Lockdown Half Guard Bottom",
+      "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Specific lockdown variation used as system starting point"
+      "relationship": "Traditional back control position that can be accessed from Truck transitions"
     },
     {
       "name": "Old School Sweep",
       "content_type": "Transition",
       "relationship": "Primary sweep from lockdown that creates Truck entry when defended"
-    },
-    {
-      "name": "Twister Finish",
-      "content_type": "Transition",
-      "relationship": "Final submission application from Truck Position"
-    },
-    {
-      "name": "Lockdown Sweeps",
-      "content_type": "Transition",
-      "relationship": "Collection of sweeping techniques available from lockdown position"
     },
     {
       "name": "Truck Entry",
@@ -350,9 +339,24 @@
       "relationship": "General transition pathway into Truck Position"
     },
     {
+      "name": "Lockdown Sweeps",
+      "content_type": "Transition",
+      "relationship": "Collection of sweeping techniques available from lockdown position"
+    },
+    {
+      "name": "Half Guard to Back Take",
+      "content_type": "Transition",
+      "relationship": "Transition pathway connecting half guard positions to back control"
+    },
+    {
       "name": "Twister",
       "content_type": "Submission",
       "relationship": "Signature submission finish of the entire system"
+    },
+    {
+      "name": "Twister Finish",
+      "content_type": "Submission",
+      "relationship": "Final submission application from Truck Position"
     },
     {
       "name": "Banana Split",
@@ -371,27 +375,27 @@
     },
     {
       "name": "Flexibility Training",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential physical attribute development for system effectiveness"
     },
     {
       "name": "Hip Movement",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Fundamental movement principle underlying whipup and lockdown mechanics"
     },
     {
       "name": "Off-Balancing",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Core principle applied through whipup to create sweep and transition opportunities"
     },
     {
       "name": "System Building",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Conceptual framework for understanding how individual techniques connect into coherent system"
     },
     {
       "name": "Submission Chains",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Principle of linking submissions together based on defensive reactions"
     },
     {
@@ -403,9 +407,13 @@
       "name": "10th Planet Rubber Guard System",
       "content_type": "System",
       "relationship": "Parallel 10th Planet system sharing flexibility and unconventional positioning philosophy"
+    },
+    {
+      "name": "Lockdown to Electric Chair System",
+      "content_type": "System",
+      "relationship": "Subsystem focusing specifically on lockdown to Electric Chair progression"
     }
   ],
-
   "expert_insights": {
     "danaher": "While the Twister System is fundamentally Eddie Bravo's creation and represents a departure from traditional Brazilian Jiu-Jitsu methodology, it demonstrates several important systematic principles that align with effective grappling theory. First, the system creates genuine submission threats at each stage - the lockdown controls the opponent's leg and creates sweep opportunities, the Electric Chair threatens immediate submission, the Old School Sweep advances position or creates Truck entry, and the Truck itself offers multiple finishing options. This layering of threats creates defensive dilemmas where the opponent must choose which threat to address, and each defensive choice opens alternative attacks. Second, the system demonstrates progressive control - each position builds upon the previous one's control points, accumulating advantages until the opponent is fully controlled in the Truck Position with limited defensive options. The lockdown controls one leg, the Electric Chair adds upper body control, and the Truck combines both into a configuration that severely limits escape possibilities. Third, and perhaps most importantly from a systematic perspective, the Twister System exploits a gap in traditional BJJ defensive training - most practitioners have limited experience defending flexibility-demanding positions and spinal attacks, giving system practitioners a strategic advantage even against more experienced opponents who may be technically superior in conventional positions. The system's effectiveness is evidence that systematic thinking - identifying defensive gaps, building progressive control sequences, and creating genuine submission threats at each stage - matters more than whether techniques appear conventional or unorthodox.",
     "gordon_ryan": "The Twister System's competition viability is limited by several factors, but it has proven effective in specific contexts, particularly in no-gi competition against opponents unfamiliar with its mechanics. The lockdown half guard provides legitimate control that can frustrate passers and create stalling opportunities when needed, which has strategic value even when submissions aren't immediately available. The Electric Chair and Old School Sweep offer legitimate sweeping threats that can score points and advance position. However, at the highest levels of competition, most top-level grapplers have developed specific counters to lockdown mechanics - maintaining distance to prevent lockdown establishment, using specific pressure angles to extract the leg, or accepting the lockdown position while preventing the whipup mechanics that enable attacks. The Truck Position and Twister submission have seen success primarily when opponents are unprepared for the system's unconventional positioning. The reality is that the Twister System works best as a supplementary skillset rather than a primary gameplan at elite levels - it's most effective when integrated with other half guard systems, allowing you to transition to lockdown when opponents give you the opportunity rather than forcing it as your only option. The system's greatest competitive value may be as a training tool that develops flexibility, unconventional thinking, and comfort in scrambles, rather than as a technique you'll finish opponents with regularly in high-level competition. That said, the psychology of facing an opponent skilled in the Twister System shouldn't be underestimated - many competitors are uncomfortable dealing with positions they rarely train, and that discomfort creates opportunities.",

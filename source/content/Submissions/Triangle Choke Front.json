@@ -1,18 +1,15 @@
 {
-  "metadata": {
-    "title": "Triangle Choke Front | BJJ Submission | BJJ Graph",
-    "description": "Master Triangle Choke from front positions in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-    "submission_id": "SUB047",
-    "tags": ["bjj", "submission", "triangle-choke", "blood-choke", "closed-guard", "spider-guard", "front-triangle"],
-    "submission_category": "Choke",
-    "submission_type": "Blood Choke",
-    "target_area": "Carotid arteries and one shoulder",
-    "starting_position": "Closed Guard Bottom",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 50,
-      "advanced": 65
-    }
+  "name": "Triangle Choke Front",
+  "description": "Master Triangle Choke from front positions in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "tags": ["bjj", "submission", "triangle-choke", "blood-choke", "closed-guard", "spider-guard", "front-triangle"],
+  "submission_category": "Choke",
+  "submission_type": "Blood Choke",
+  "target_area": "Carotid arteries and one shoulder",
+  "starting_position": "Closed Guard",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 50,
+    "advanced": 65
   },
   "overview": "The Triangle Choke from front positions is one of the most fundamental and high-percentage submissions in Brazilian Jiu-Jitsu, particularly effective from closed guard, spider guard, and various open guard positions. This blood choke works by using your legs to create a triangle configuration around the opponent's neck and one arm, simultaneously compressing the carotid arteries while using their own shoulder to complete the choke. The beauty of the front triangle lies in its mechanical efficiency - you're using the largest muscle groups in your body (legs and hips) against the relatively weaker muscles of the opponent's neck, creating a submission that requires minimal strength when executed with proper technique.\n\nThe front triangle is distinguished from rear and side triangles by the attacker's position relative to the opponent - in this variation, you face your opponent while controlling them between your legs. This position offers unique advantages including superior angle control, easier transitions to armbars and omoplatas, and the ability to break posture effectively before finishing. The submission is particularly powerful because it creates a dilemma for the defender: any attempt to escape by pulling the head out typically exposes the arm to an armbar, while attempts to remove the choking leg often result in the defender posting their hand and creating an omoplata opportunity.\n\nHistorically, the triangle choke has been a cornerstone of guard-based jiu-jitsu since the earliest days of the Gracie family's development of the art. Modern practitioners have refined the technique through countless competitive applications, with champions like Roger Gracie, Demian Maia, and more recently Gordon Ryan demonstrating its effectiveness at the highest levels. The front triangle remains essential curriculum from white belt through black belt, with advanced practitioners developing sophisticated set-ups, entries, and finishing details that make the submission nearly inescapable when properly applied.",
   "safety_considerations": {
@@ -172,7 +169,7 @@
     {
       "error": "Applying maximum pressure immediately without progressive tightening",
       "consequence": "High risk of injuring training partner or causing unconsciousness without warning",
-      "correction": "Apply triangle pressure progressively over 3-5 seconds in training, allowing partner time to recognize the submission and tap safely",
+      "correction": "Apply triangle pressure progressively over 3-5 seconds in training, allowing partner time to recognize the danger and tap safely",
       "danger_level": "CRITICAL"
     },
     {
@@ -296,6 +293,35 @@
       "safety_emphasis": "Senior students are responsible for modeling proper safety culture. Always prioritize partner safety over submission completion. Set the standard for newer students by demonstrating controlled applications and immediate releases."
     }
   ],
+  "from_positions": [
+    "Closed Guard",
+    "Spider Guard",
+    "Open Guard",
+    "Rubber Guard",
+    "Collar Sleeve Guard",
+    "Lasso Guard",
+    "De La Riva Guard",
+    "Overhook Guard",
+    "Butterfly Guard",
+    "Seated Guard"
+  ],
+  "related_submissions": [
+    "Triangle Choke",
+    "Triangle from Closed Guard",
+    "Triangle from Guard",
+    "Triangle from Spider Guard",
+    "Triangle from De La Riva",
+    "Triangle from Mount",
+    "Armbar from Guard",
+    "Omoplata from Guard",
+    "Guillotine Choke",
+    "Kimura from Guard",
+    "Triangle to Armbar",
+    "Triangle to Omoplata",
+    "Switch to Triangle",
+    "Inverted Triangle",
+    "Triangle Choke Back"
+  ],
   "related_content": [
     {
       "name": "Triangle Choke",
@@ -322,26 +348,6 @@
       "relationship": "Variation applied from side or perpendicular angles"
     },
     {
-      "name": "Closed Guard Bottom",
-      "relationship": "Primary starting position for classic triangle setups"
-    },
-    {
-      "name": "Spider Guard Bottom",
-      "relationship": "Alternative starting position with excellent triangle entry angles"
-    },
-    {
-      "name": "Rubber Guard Bottom",
-      "relationship": "Advanced starting position providing superior posture control for triangle entries"
-    },
-    {
-      "name": "Triangle Control Bottom",
-      "relationship": "Control position achieved once triangle is locked but before finish"
-    },
-    {
-      "name": "Open Guard Bottom",
-      "relationship": "General position category from which many triangle entries occur"
-    },
-    {
       "name": "Triangle Setup",
       "relationship": "General transition technique for entering triangle from various positions"
     },
@@ -356,6 +362,14 @@
     {
       "name": "Omoplata from Guard",
       "relationship": "Alternative submission when triangle is defended by posting or stacking"
+    },
+    {
+      "name": "Ryan Hall Triangle System",
+      "relationship": "Systematic approach to triangle attacks and entries developed by Ryan Hall"
+    },
+    {
+      "name": "Rubber Guard to Triangle System",
+      "relationship": "10th Planet system for triangle entries from rubber guard positions"
     }
   ],
   "expert_insights": {

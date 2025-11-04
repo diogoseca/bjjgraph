@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Submission Chains | BJJ Concept | BJJ Graph",
     "description": "Understand Submission Chains in BJJ. Learn systematic attack sequences, transition logic, defensive countermeasures. Expert insights from Danaher, Ryan, and Bravo included.",
-    "concept_id": "C042",
+    "principle_id": "P042",
     "tags": ["bjj", "concept", "submissions", "chains", "offense", "strategy", "sequences"],
     "application_level": "Intermediate",
     "complexity_level": "High",
@@ -57,34 +57,34 @@
     }
   ],
 
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Position-Over-Submission Approach",
+      "principle_name": "Position-Over-Submission Approach",
       "relationship_type": "Complementary",
       "description": "Submission chains integrate with position-first philosophy by using submission attempts as position improvement tools—failed submissions often result in better control points"
     },
     {
-      "concept_name": "Action and Reaction",
+      "principle_name": "Action and Reaction",
       "relationship_type": "Prerequisite",
       "description": "Understanding action-reaction principles is fundamental to chain building, as chains exploit the predictable defensive reactions that submissions create"
     },
     {
-      "concept_name": "Offensive Combinations",
+      "principle_name": "Offensive Combinations",
       "relationship_type": "Extension",
       "description": "Submission chains represent the most advanced form of offensive combinations, extending combination principles from strikes and sweeps into the submission domain"
     },
     {
-      "concept_name": "Control Point Hierarchy",
+      "principle_name": "Control Point Hierarchy",
       "relationship_type": "Prerequisite",
       "description": "Maintaining control points during chain transitions requires deep understanding of which control elements can be sacrificed and which must be preserved"
     },
     {
-      "concept_name": "Timing and Rhythm",
+      "principle_name": "Timing and Rhythm",
       "relationship_type": "Complementary",
       "description": "Effective chains require sophisticated timing to transition between attacks at the precise moment when defensive movements create new opportunities"
     },
     {
-      "concept_name": "Energy Management System",
+      "principle_name": "Energy Management System",
       "relationship_type": "Complementary",
       "description": "Chains must be executed with energy efficiency in mind, using opponent's defensive energy against them rather than fighting through each transition with strength"
     }

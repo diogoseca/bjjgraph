@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Strength Development | BJJ Concept | BJJ Graph",
     "description": "Understand Strength Development in BJJ. Learn functional strength principles, training methods, and position-specific applications. Expert insights included.",
-    "concept_id": "C112",
+    "principle_id": "P112",
     "tags": ["bjj", "concept", "strength", "conditioning", "physical development", "training", "power"],
     "application_level": "Fundamental",
     "complexity_level": "Medium",
@@ -58,34 +58,34 @@
     }
   ],
 
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Explosive Power",
+      "principle_name": "Explosive Power",
       "relationship_type": "Complementary",
       "description": "Explosive power represents the rate at which strength can be applied, working synergistically with maximum strength to create rapid force generation for sweeps, escapes, and dynamic transitions."
     },
     {
-      "concept_name": "Biomechanical Principles",
+      "principle_name": "Biomechanical Principles",
       "relationship_type": "Prerequisite",
       "description": "Understanding leverage, force vectors, and mechanical advantage allows strength to be applied efficiently through proper body alignment and positioning, multiplying the effectiveness of raw strength."
     },
     {
-      "concept_name": "Energy Management System",
+      "principle_name": "Energy Management System",
       "relationship_type": "Complementary",
       "description": "Strength development must be balanced with energy conservation strategies—knowing when to apply maximum force versus when to use minimal strength with superior positioning prevents premature fatigue."
     },
     {
-      "concept_name": "Cardio Conditioning",
+      "principle_name": "Cardio Conditioning",
       "relationship_type": "Complementary",
       "description": "Cardiovascular fitness enables repeated strength application throughout extended training sessions and matches, while strength training improves overall work capacity and metabolic efficiency."
     },
     {
-      "concept_name": "Flexibility Training",
+      "principle_name": "Flexibility Training",
       "relationship_type": "Complementary",
       "description": "Mobility and flexibility work in conjunction with strength development to create functional range of motion strength, allowing force generation through complete movement patterns while reducing injury risk."
     },
     {
-      "concept_name": "Progressive Resistance Training",
+      "principle_name": "Progressive Resistance Training",
       "relationship_type": "Extension",
       "description": "Systematic progression of training loads and intensities forms the foundation for continuous strength adaptation, applying overload principles to create consistent improvement in force production capacity."
     }

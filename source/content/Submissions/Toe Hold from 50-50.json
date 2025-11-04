@@ -1,18 +1,15 @@
 {
-  "metadata": {
-    "title": "Toe Hold from 50-50 | BJJ Submission | BJJ Graph",
-    "description": "Master Toe Hold from 50-50 Guard in BJJ. Complete guide with safety protocols, setup, execution, and counters. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "submission_id": "SUB047",
-    "tags": ["bjj", "submission", "toe-hold", "leg-lock", "50-50-guard", "ankle-lock", "foot-lock"],
-    "submission_category": "Joint Lock",
-    "submission_type": "Leg Lock",
-    "target_area": "Ankle, talocrural joint, and lateral ankle ligaments",
-    "starting_position": "50-50 Guard Bottom",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Toe Hold from 50-50",
+  "description": "Master the Toe Hold from 50-50 Guard with comprehensive safety protocols, setup requirements, and execution steps. Learn rotational ankle attacks with progressive training phases.",
+  "tags": ["bjj", "submission", "toe-hold", "leg-lock", "50-50-guard", "ankle-lock", "foot-lock"],
+  "submission_category": "Joint Lock",
+  "submission_type": "Leg Lock",
+  "target_area": "Ankle, talocrural joint, and lateral ankle ligaments",
+  "starting_position": "50-50 Guard",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Toe Hold from 50-50 Guard is a sophisticated leg lock submission that targets the ankle joint through rotational pressure on the foot. This technique represents one of the most accessible finishing opportunities from the 50-50 position, particularly when heel hook opportunities are not available or are prohibited by competition rules. The submission works by isolating the opponent's foot and applying inward rotation to attack the talocrural joint and lateral ankle ligaments, creating intense pressure that forces a quick tap when applied correctly.\n\nWithin the context of the 50-50 Guard, the toe hold offers a strategic advantage because it can be attacked from both top and bottom positions, making it a versatile weapon in the leg entanglement game. The position's inherent structure—where both athletes have their inside legs trapped between their opponent's legs—creates natural control that facilitates the foot isolation necessary for the toe hold. This submission is particularly effective against opponents who focus heavily on defending heel hooks, as it attacks from a different angle and can catch experienced grapplers off guard.\n\nThe toe hold from 50-50 has gained significant prominence in modern no-gi competition, especially in submission-only formats where time limits necessitate aggressive finishing attempts. Understanding this submission is essential for any practitioner studying leg locks, as it forms a critical part of the leg entanglement ecosystem and creates powerful dilemmas when combined with other leg attacks. The technique requires precise control, patient setup, and careful application to avoid injury while maximizing effectiveness.",
   "safety_considerations": {
@@ -316,14 +313,34 @@
       "safety_emphasis": "As an advanced practitioner, you have special responsibility for safety of training partners. Model perfect safety habits including slow application, instant releases, and early tapping when roles reverse. When teaching, emphasize safety over effectiveness. Never pressure students to train through discomfort or ignore early tap habits."
     }
   ],
+  "from_positions": [
+    "50-50 Guard",
+    "Ashi Garami",
+    "Inside Ashi-Garami",
+    "Outside Ashi-Garami",
+    "X-Guard",
+    "Single Leg X-Guard",
+    "Saddle",
+    "Honey Hole"
+  ],
+  "related_submissions": [
+    "Toe Hold",
+    "Toe Hold Variations",
+    "Heel Hook",
+    "Inside Heel Hook",
+    "Outside Heel Hook",
+    "Straight Ankle Lock",
+    "Kneebar from 50-50",
+    "Achilles Lock",
+    "Estima Lock",
+    "Calf Slicer from 50-50",
+    "Kneebar",
+    "Straight Footlock"
+  ],
   "related_content": [
     {
-      "name": "50-50 Guard Bottom",
+      "name": "50-50 Guard",
       "relationship": "Primary starting position for this submission - understanding 50-50 structure is prerequisite"
-    },
-    {
-      "name": "50-50 Guard Top",
-      "relationship": "Alternative starting position with similar mechanics but different pressure angle"
     },
     {
       "name": "Heel Hook",
@@ -346,11 +363,11 @@
       "relationship": "Lower-risk leg lock alternative from 50-50 when toe hold is not available"
     },
     {
-      "name": "Ashi Garami Bottom",
+      "name": "Ashi Garami",
       "relationship": "Related leg entanglement position with similar foot access"
     },
     {
-      "name": "Outside Ashi-Garami Top",
+      "name": "Outside Ashi-Garami",
       "relationship": "Transition position that can lead to 50-50 toe hold opportunities"
     },
     {
@@ -358,7 +375,7 @@
       "relationship": "Alternative finishing option from 50-50 when opponent defends foot attacks"
     },
     {
-      "name": "Saddle Position Top",
+      "name": "Saddle",
       "relationship": "Advanced transition from 50-50 when toe hold is defended - escalates to saddle position"
     },
     {
@@ -368,14 +385,6 @@
     {
       "name": "X-Guard",
       "relationship": "Entry position that can transition to 50-50 for toe hold setup"
-    },
-    {
-      "name": "Single Leg X Guard",
-      "relationship": "Entry position that can transition to 50-50 for toe hold setup"
-    },
-    {
-      "name": "Outside Heel Hook",
-      "relationship": "Alternative leg lock from 50-50 when opponent crosses feet defensively"
     }
   ],
   "expert_insights": {

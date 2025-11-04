@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Transition Management | BJJ Concept | BJJ Graph",
     "description": "Understand transition management in BJJ - systematic control of position changes. Learn timing, risk assessment, decision-making frameworks for dynamic movements.",
-    "concept_id": "C120",
+    "principle_id": "P120",
     "tags": [
       "bjj",
       "concept",
@@ -63,34 +63,34 @@
       "description": "The capacity to maintain tactile awareness and connection control throughout transitions, using continuous feedback about opponent's weight, tension, and movement to adjust transitional execution in real-time. This prevents losing track of opponent's position or defensive responses during dynamic movements."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Positional Hierarchy",
+      "principle_name": "Positional Hierarchy",
       "relationship_type": "Prerequisite",
       "description": "Understanding the relative value of different positions is essential for transition management, as it provides the evaluative framework for assessing whether potential transitions represent advancement or regression in positional dominance."
     },
     {
-      "concept_name": "Timing and Rhythm",
+      "principle_name": "Timing and Rhythm",
       "relationship_type": "Complementary",
       "description": "Timing principles directly inform when to initiate transitions, while transition management provides the strategic framework for deciding which movements to execute during recognized timing windows."
     },
     {
-      "concept_name": "Energy Management System",
+      "principle_name": "Energy Management System",
       "relationship_type": "Complementary",
       "description": "Energy conservation principles influence transition frequency and commitment levels, as transition management must account for energy expenditure in deciding when aggressive position changes are justified versus when consolidation is preferable."
     },
     {
-      "concept_name": "Risk Assessment",
+      "principle_name": "Risk Assessment",
       "relationship_type": "Prerequisite",
       "description": "The ability to evaluate risk-reward ratios is fundamental to transition management, providing the analytical foundation for deciding whether to attempt position changes or maintain current positions."
     },
     {
-      "concept_name": "Position Chains",
+      "principle_name": "Position Chains",
       "relationship_type": "Extension",
       "description": "Position chain development represents the advanced application of transition management, where individual transition decisions are coordinated into comprehensive sequences that create systematic positional advancement."
     },
     {
-      "concept_name": "Control Maintenance",
+      "principle_name": "Control Maintenance",
       "relationship_type": "Complementary",
       "description": "Control principles govern how to maintain dominance during transitions, ensuring that positional changes don't sacrifice established controls or create exploitable gaps in connection management."
     }

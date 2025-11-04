@@ -1,25 +1,22 @@
 {
-  "metadata": {
-    "title": "Elbow Escape | BJJ Technique | BJJ Graph",
-    "description": "Master the Elbow Escape from side control in BJJ. Step-by-step execution from Side Control Bottom to Half Guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T034",
-    "tags": [
-      "bjj",
-      "transition",
-      "escape",
-      "side control",
-      "fundamental",
-      "defense",
-      "hip escape",
-      "shrimp"
-    ],
-    "starting_position": "Side Control",
-    "ending_position": "Half Guard Bottom",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Elbow Escape",
+  "description": "Master the Elbow Escape from side control in BJJ. Step-by-step execution from Side Control to Half Guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "side control",
+    "fundamental",
+    "defense",
+    "hip escape",
+    "shrimp"
+  ],
+  "starting_position": "Side Control",
+  "ending_position": "Knee Shield Half Guard",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Elbow Escape, also known as the shrimp escape or hip escape, is the most fundamental and essential defensive technique in Brazilian Jiu-Jitsu for escaping from side control. This technique involves creating space through hip movement and frame construction, allowing the bottom practitioner to insert their knee shield and recover guard position. The elbow escape is built on the principle of using your skeletal structure to create frames that prevent your opponent from closing distance while simultaneously using hip movement to generate space. This is the first escape taught to beginners and remains relevant at the highest levels of competition, as it forms the foundation for all pin escapes. The technique's effectiveness lies in its systematic approach to creating and maintaining space, using the combination of proper framing, hip escape mechanics, and timing to neutralize the top player's control. Understanding this escape is critical because side control is one of the most common pins in BJJ, and the ability to escape efficiently conserves energy and prevents further positional deterioration.",
   "key_principles": [
@@ -247,10 +244,6 @@
   "position_integration": "The Elbow Escape serves as the foundational defensive technique from side control and forms the cornerstone of the entire bottom position defensive framework in BJJ. It connects directly to the guard retention system, as successful execution leads to half guard, closed guard, or open guard positions where the defensive practitioner can begin their own offensive sequences. This escape is typically the first defensive response taught to new practitioners because it applies universal principles (framing, hip escape, space creation) that transfer to escaping from mount, knee-on-belly, north-south, and other pinning positions. The escape integrates with the broader positional hierarchy where practitioners fight to prevent mount or back control by successfully executing the elbow escape from side control. It also connects to the submission defense system, as many side control submissions (americana, kimura, arm triangle) become less threatening once proper frames and hip escape mechanics are employed. Advanced practitioners layer the elbow escape with other defensive techniques like the running escape, ghost escape, or technical standup, creating a comprehensive defensive system that adapts to different opponent reactions. Understanding this escape is essential for developing a complete bottom game, as it represents the technical foundation upon which all other escapes and reversals are built.",
   "related_content": [
     {
-      "name": "Hip Escape",
-      "relationship": "Core movement pattern - fundamental hip escape mechanics"
-    },
-    {
       "name": "Shrimp Escape",
       "relationship": "Alternative name - same technique with emphasis on hip movement"
     },
@@ -267,11 +260,7 @@
       "relationship": "Category - general class of escapes from side control"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Follow-up position - where elbow escape leads"
-    },
-    {
-      "name": "Half Guard Bottom",
+      "name": "Knee Shield Half Guard",
       "relationship": "Common ending position - typical result of successful escape"
     },
     {
@@ -283,7 +272,7 @@
       "relationship": "Related escape - uses bridge motion from mount"
     },
     {
-      "name": "Technical Stand-up",
+      "name": "Technical Standup",
       "relationship": "Alternative continuation - standing instead of guard recovery"
     },
     {
@@ -293,6 +282,14 @@
     {
       "name": "Bridge and Roll",
       "relationship": "Related concept - bridge mechanics applied to mount escape"
+    },
+    {
+      "name": "Hip Escape",
+      "relationship": "Core movement pattern - fundamental hip escape mechanics"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Alternative recovery - advanced guard position option"
     }
   ],
   "expert_insights": {

@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Grip Breaking | BJJ Concept | BJJ Graph",
     "description": "Master grip breaking in BJJ. Learn biomechanical principles, strategic timing, cross-position applications. Expert insights from Danaher, Ryan, and Bravo included.",
-    "concept_id": "C109",
+    "principle_id": "P109",
     "tags": [
       "bjj",
       "concept",
@@ -62,34 +62,34 @@
       "description": "Translating grip breaking principles to no-gi contexts where controls involve overhooks, underhooks, wrist control, and body locks. This requires understanding how friction-based controls differ from cloth grips while maintaining similar strategic importance in control denial."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Grip Fighting",
+      "principle_name": "Grip Fighting",
       "relationship_type": "Prerequisite",
       "description": "Grip fighting provides the foundational understanding of grip establishment and hand fighting that makes grip breaking tactically meaningful. Understanding offensive grip strategy enables defensive recognition of which grips are most dangerous and require immediate breaking."
     },
     {
-      "concept_name": "Hand Fighting",
+      "principle_name": "Hand Fighting",
       "relationship_type": "Complementary",
       "description": "Hand fighting and grip breaking work together as offensive and defensive components of the same tactical domain. While hand fighting focuses on establishing your own controls, grip breaking denies opponent controls, creating a complete approach to grip exchanges."
     },
     {
-      "concept_name": "Frame Creation",
+      "principle_name": "Frame Creation",
       "relationship_type": "Complementary",
       "description": "Frame creation often follows successful grip breaking, using the space created by breaking to establish defensive structures. Frames prevent opponent from immediately reestablishing broken grips while creating leverage for escapes or reversals."
     },
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention Concepts",
       "relationship_type": "Extension",
       "description": "Guard retention depends heavily on grip breaking to deny opponent the controls necessary for passing. Breaking pants grips, sleeve grips, and collar controls enables the movement and space creation essential for maintaining guard position."
     },
     {
-      "concept_name": "Control Point Hierarchy",
+      "principle_name": "Control Point Hierarchy",
       "relationship_type": "Prerequisite",
       "description": "Understanding control point hierarchy enables prioritization of which grips to break first. Higher-value control points (cross collar, deep collar grips, controlling grips) require immediate breaking, while lower-value grips may be tolerated temporarily."
     },
     {
-      "concept_name": "Leverage Principles",
+      "principle_name": "Leverage Principles",
       "relationship_type": "Prerequisite",
       "description": "Leverage principles provide the mechanical understanding that makes grip breaking efficient. Understanding how to apply force perpendicular to grip structure, use body weight, and create mechanical advantage enables effective breaking without excessive strength."
     }

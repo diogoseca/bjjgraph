@@ -1,18 +1,25 @@
 {
-  "metadata": {
-    "title": "Triangle Choke Side | BJJ Submission | BJJ Graph",
-    "description": "Master Triangle Choke Side in BJJ. Complete safety guide with setup, execution, and defense. Success rates: Beginner 35%, Intermediate 50%, Advanced 68%.",
-    "submission_id": "SUB050",
-    "tags": ["bjj", "submission", "triangle-choke", "blood-choke", "side-control", "guard"],
-    "submission_category": "Choke",
-    "submission_type": "Blood Choke",
-    "target_area": "Carotid arteries and jugular veins",
-    "starting_position": "Side Control Top",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 50,
-      "advanced": 68
-    }
+  "name": "Triangle Choke Side",
+  "description": "Master Triangle Choke Side from top position in BJJ. Complete safety guide covering setup from side control, execution mechanics, and defense patterns.",
+  "tags": [
+    "bjj",
+    "submission",
+    "triangle-choke",
+    "blood-choke",
+    "side-control",
+    "guard",
+    "advanced-technique",
+    "top-position",
+    "perpendicular-angle"
+  ],
+  "submission_category": "Choke",
+  "submission_type": "Blood Choke",
+  "target_area": "Carotid arteries and jugular veins",
+  "starting_position": "Side Control",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 50,
+    "advanced": 68
   },
   "overview": "The Triangle Choke Side (also called Side Triangle or Kata Gatame Triangle) is an advanced variation of the traditional triangle choke executed from top positions, most commonly from side control or north-south transitions. Unlike the standard triangle from guard where the defender is between the attacker's legs, the side triangle traps one of the opponent's arms across their own neck while the attacker's legs create the choking mechanism from a perpendicular angle.\n\nThis submission represents a sophisticated understanding of triangle mechanics, as it requires precise leg positioning and body angle adjustments that differ significantly from the bottom triangle. The side triangle often emerges opportunistically when opponents defend traditional side control attacks by creating frames or attempting to turn into the attacker. The choke's effectiveness comes from the ability to isolate one arm while using it as a wedge against the opponent's own carotid artery.\n\nThe side triangle is particularly valuable in no-gi grappling and MMA contexts where traditional collar chokes are unavailable, and it serves as an excellent counter to common defensive reactions from bottom positions. Mastery of this technique demonstrates advanced technical knowledge and the ability to recognize and capitalize on dynamic positional transitions.",
   "safety_considerations": {
@@ -56,7 +63,7 @@
       "Maintain awareness of partner's neck angle throughout release"
     ],
     "training_restrictions": [
-      "Never spike or jerk the triangle closed - always apply gradual, controlled pressure",
+      "Never spike or jerk the submission - always apply gradual, controlled pressure",
       "Never use competition-speed application in training scenarios",
       "Always ensure partner has at least one hand free to tap",
       "Never practice on partners with pre-existing neck, jaw, or shoulder injuries without explicit clearance",
@@ -302,10 +309,10 @@
     }
   ],
   "from_positions": [
-    "Side Control Top",
-    "North-South",
     "Side Control",
-    "Scramble Position"
+    "North-South",
+    "Scramble Position",
+    "Side Control Consolidation"
   ],
   "related_submissions": [
     "Triangle Choke",
@@ -326,7 +333,7 @@
       "relationship": "Traditional bottom variation - shares finishing mechanics but different angle and entry"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Primary starting position for this submission"
     },
     {

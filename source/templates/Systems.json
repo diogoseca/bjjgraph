@@ -5,7 +5,11 @@
   "type": "object",
   "additionalProperties": false,
   "required": [
-    "metadata",
+    "name",
+    "description",
+    "tags",
+    "system_type",
+    "difficulty_level",
     "overview",
     "key_principles",
     "key_components",
@@ -16,210 +20,278 @@
     "related_content",
     "expert_insights"
   ],
-
   "properties": {
-    "metadata": {
-      "type": "object",
-      "description": "Page metadata and SEO information",
-      "additionalProperties": false,
-      "required": ["title", "description", "system_id", "tags", "system_type", "difficulty_level"],
-      "properties": {
-        "title": {
-          "type": "string",
-          "description": "SEO title format: '[System Name] | BJJ System | BJJ Graph'",
-          "pattern": "^.+ \\| BJJ System \\| BJJ Graph$",
-          "examples": ["Kimura Trap System | BJJ System | BJJ Graph"]
-        },
-        "description": {
-          "type": "string",
-          "description": "Meta description 140-180 characters (SEO optimal: 150-160)",
-          "minLength": 140,
-          "maxLength": 180,
-          "examples": ["Master Kimura Trap System in BJJ. Comprehensive framework connecting control to submissions and back 
-takes. Danaher's systematic approach."]
-        },
-        "system_id": {
-          "type": "string",
-          "description": "Unique system identifier",
-          "pattern": "^(SC|DS|CP|F)[0-9]{3,4}$",
-          "examples": ["SC009", "DS004", "CP010"]
-        },
-        "tags": {
-          "type": "array",
-          "description": "Content tags (minimum 3)",
-          "minItems": 3,
-          "items": {"type": "string"},
-          "examples": [["bjj", "system", "kimura", "submission-chain"]]
-        },
-        "system_type": {
-          "type": "string",
-          "enum": [
-            "Attack System",
-            "Defense System",
-            "Submission Chain",
-            "Passing System",
-            "Guard System",
-            "Control System",
-            "Competition Strategy",
-            "Training Methodology"
-          ],
-          "description": "Primary classification"
-        },
-        "difficulty_level": {
-          "type": "string",
-          "enum": ["Beginner", "Intermediate", "Advanced", "Expert"],
-          "description": "Skill level required"
-        }
-      }
+    "name": {
+      "type": "string",
+      "description": "System name (must match filename without .json)",
+      "minLength": 3,
+      "examples": [
+        "Kimura Trap System",
+        "Danaher Leg Lock System"
+      ]
     },
-
+    "description": {
+      "type": "string",
+      "description": "SEO meta description 150-160 characters",
+      "minLength": 140,
+      "maxLength": 180,
+      "examples": [
+        "Master Kimura Trap System in BJJ. Comprehensive framework connecting control to submissions and back takes. Danaher's systematic approach."
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Content tags (minimum 3)",
+      "minItems": 3,
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "bjj",
+          "system",
+          "kimura",
+          "submission-chain"
+        ]
+      ]
+    },
+    "system_type": {
+      "type": "string",
+      "enum": [
+        "Attack System",
+        "Defense System",
+        "Submission Chain",
+        "Passing System",
+        "Guard System",
+        "Control System",
+        "Competition Strategy",
+        "Training Methodology"
+      ]
+    },
+    "difficulty_level": {
+      "type": "string",
+      "enum": [
+        "Beginner",
+        "Intermediate",
+        "Advanced",
+        "Expert"
+      ]
+    },
     "overview": {
       "type": "string",
-      "description": "2-3 paragraph system description (renamed from 'System Description')",
+      "description": "2-3 paragraph system description (400+ characters)",
       "minLength": 400,
-      "examples": ["The Kimura Trap System is a comprehensive control and submission framework..."]
+      "examples": [
+        "The Kimura Trap System is a comprehensive control and submission framework..."
+      ]
     },
-
     "key_principles": {
       "type": "array",
-      "description": "Core principles (standardized name, renamed from 'Core Principles')",
+      "description": "Core principles (5-8 items)",
       "minItems": 5,
       "maxItems": 8,
-      "items": {"type": "string"}
+      "items": {
+        "type": "string"
+      }
     },
-
     "key_components": {
       "type": "array",
-      "description": "Main elements of the system",
+      "description": "Main system elements (minimum 4, 50+ character descriptions)",
       "minItems": 4,
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["component_name", "description", "purpose"],
+        "required": [
+          "component_name",
+          "description",
+          "purpose"
+        ],
         "properties": {
-          "component_name": {"type": "string"},
+          "component_name": {
+            "type": "string"
+          },
           "description": {
             "type": "string",
             "minLength": 50
           },
-          "purpose": {"type": "string"}
+          "purpose": {
+            "type": "string"
+          }
         }
       }
     },
-
     "implementation_sequence": {
       "type": "array",
-      "description": "Step-by-step implementation of system",
+      "description": "Step-by-step implementation (minimum 5)",
       "minItems": 5,
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["step_number", "phase", "description"],
+        "required": [
+          "step_number",
+          "phase",
+          "description"
+        ],
         "properties": {
-          "step_number": {"type": "integer", "minimum": 1},
-          "phase": {"type": "string"},
-          "description": {"type": "string"},
+          "step_number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "phase": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
           "key_points": {
             "type": "array",
-            "items": {"type": "string"}
+            "items": {
+              "type": "string"
+            }
           }
         }
       }
     },
-
     "common_obstacles": {
       "type": "array",
-      "description": "Challenges in implementing system",
+      "description": "Implementation challenges (minimum 4)",
       "minItems": 4,
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["obstacle", "solution"],
+        "required": [
+          "obstacle",
+          "solution"
+        ],
         "properties": {
-          "obstacle": {"type": "string"},
-          "solution": {"type": "string"}
+          "obstacle": {
+            "type": "string"
+          },
+          "solution": {
+            "type": "string"
+          }
         }
       }
     },
-
     "assessment_metrics": {
       "type": "array",
-      "description": "How to measure system proficiency",
+      "description": "Proficiency measurement (minimum 4)",
       "minItems": 4,
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["metric_name", "description", "proficiency_indicators"],
+        "required": [
+          "metric_name",
+          "description",
+          "proficiency_indicators"
+        ],
         "properties": {
-          "metric_name": {"type": "string"},
-          "description": {"type": "string"},
+          "metric_name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
           "proficiency_indicators": {
             "type": "array",
             "minItems": 3,
-            "items": {"type": "string"}
+            "items": {
+              "type": "string"
+            }
           }
         }
       }
     },
-
     "training_methodology": {
       "type": "object",
-      "description": "How to train this system",
+      "description": "How to train the system",
       "additionalProperties": false,
-      "required": ["drilling_approach", "progression_path", "common_mistakes"],
+      "required": [
+        "drilling_approach",
+        "progression_path",
+        "common_mistakes"
+      ],
       "properties": {
         "drilling_approach": {
           "type": "string",
-          "description": "How to drill the system effectively",
+          "description": "Effective drilling method (200+ characters)",
           "minLength": 200
         },
         "progression_path": {
           "type": "array",
-          "description": "Stages of system mastery",
+          "description": "Stages of system mastery (minimum 4)",
           "minItems": 4,
           "items": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["stage", "focus"],
+            "required": [
+              "stage",
+              "focus"
+            ],
             "properties": {
-              "stage": {"type": "string"},
-              "focus": {"type": "string"},
-              "timeframe": {"type": "string"}
+              "stage": {
+                "type": "string"
+              },
+              "focus": {
+                "type": "string"
+              },
+              "timeframe": {
+                "type": "string"
+              }
             }
           }
         },
         "common_mistakes": {
           "type": "array",
           "minItems": 3,
-          "items": {"type": "string"}
+          "items": {
+            "type": "string"
+          }
         }
       }
     },
-
     "related_content": {
       "type": "array",
-      "description": "Related systems/positions/concepts",
-      "minItems": 3,
+      "description": "Related systems/positions/principles (10-30 for comprehensive SEO)",
+      "minItems": 10,
+      "maxItems": 30,
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["name", "content_type", "relationship"],
+        "required": [
+          "name",
+          "content_type",
+          "relationship"
+        ],
         "properties": {
-          "name": {"type": "string"},
+          "name": {
+            "type": "string"
+          },
           "content_type": {
             "type": "string",
-            "enum": ["System", "Position", "Transition", "Submission", "Concept"]
+            "enum": [
+              "System",
+              "Position",
+              "Transition",
+              "Submission",
+              "Principle"
+            ]
           },
-          "relationship": {"type": "string"}
+          "relationship": {
+            "type": "string"
+          }
         }
       }
     },
-
     "expert_insights": {
       "type": "object",
-      "description": "Insights from all 3 experts (REQUIRED, 200+ chars each)",
+      "description": "Insights from all 3 experts (REQUIRED, 200+ characters each)",
       "additionalProperties": false,
-      "required": ["danaher", "gordon_ryan", "eddie_bravo"],
+      "required": [
+        "danaher",
+        "gordon_ryan",
+        "eddie_bravo"
+      ],
       "properties": {
         "danaher": {
           "type": "string",

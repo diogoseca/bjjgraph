@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Shrimping | BJJ Concept | BJJ Graph",
     "description": "Understand Shrimping in BJJ. Learn hip escape mechanics, space creation principles, and defensive movement patterns. Expert insights from Danaher, Ryan, and Bravo included.",
-    "concept_id": "C111",
+    "principle_id": "P111",
     "tags": ["bjj", "concept", "shrimping", "hip-escape", "defensive-movement", "space-creation", "fundamental"],
     "application_level": "Fundamental",
     "complexity_level": "Low",
@@ -54,34 +54,34 @@
       "description": "Knowing what to do with created space—whether inserting a knee shield, establishing a guard hook, creating additional distance, or transitioning to another defensive movement. Creating space without using it wastes the escape opportunity."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Bridge and Shrimp",
+      "principle_name": "Bridge and Shrimp",
       "relationship_type": "Complementary",
       "description": "Bridging and shrimping work together as the two fundamental bottom movements, with bridging creating vertical space and displacement while shrimping creates horizontal space and angular escape routes."
     },
     {
-      "concept_name": "Hip Escape Mechanics",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Extension",
       "description": "Hip escape mechanics is the broader biomechanical framework that includes shrimping as one specific application. Understanding hip escape mechanics provides the theoretical foundation for effective shrimping."
     },
     {
-      "concept_name": "Frame Creation",
+      "principle_name": "Frame Creation",
       "relationship_type": "Prerequisite",
       "description": "Effective frames must be established before shrimping to prevent opponent from following the escaping hips. Shrimping without proper frames often results in the opponent simply advancing with the movement."
     },
     {
-      "concept_name": "Space Creation",
+      "principle_name": "Space Creation",
       "relationship_type": "Advanced form",
       "description": "Shrimping is the primary method for implementing space creation principles from bottom positions. It represents the practical application of the broader space creation concept."
     },
     {
-      "concept_name": "Escape Hierarchy",
+      "principle_name": "Escape Hierarchy",
       "relationship_type": "Complementary",
       "description": "Shrimping fits into the escape hierarchy as typically the first movement attempted from most bottom positions, serving as the foundation for more specific escape sequences."
     },
     {
-      "concept_name": "Mount Escape Series",
+      "principle_name": "Mount Escape Series",
       "relationship_type": "Complementary",
       "description": "Shrimping is a core component of most mount escape sequences, either as the primary escape movement or as a complementary action to bridging and trap-and-roll escapes."
     }

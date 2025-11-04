@@ -1,25 +1,24 @@
 {
-  "metadata": {
-    "title": "Front Headlock to Darce | BJJ Technique | BJJ Graph",
-    "description": "Learn Front Headlock to Darce in BJJ. Step-by-step execution from Front Headlock to Darce Control. Success: Beginner 35%, Intermediate 55%, Advanced 70%.",
-    "transition_id": "T213",
-    "tags": [
-      "bjj",
-      "transition",
-      "submission",
-      "darce",
-      "front_headlock",
-      "choke",
-      "turtle",
-      "scramble"
-    ],
-    "starting_position": "Front Headlock Control Position",
-    "ending_position": "Darce Control Position",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 70
-    }
+  "name": "Front Headlock to Darce",
+  "description": "Learn Front Headlock to Darce in BJJ. Step-by-step execution from Front Headlock to Darce Control. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "submission",
+    "darce",
+    "front_headlock",
+    "choke",
+    "turtle",
+    "scramble",
+    "no-gi",
+    "grappling"
+  ],
+  "starting_position": "Front Headlock",
+  "ending_position": "D'arce Control",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 55,
+    "advanced": 70
   },
   "overview": "The Front Headlock to Darce transition represents one of the most powerful finishing sequences from the front headlock position. This technique capitalizes on the opponent's defensive posture in turtle or scramble situations, where they attempt to protect their neck while maintaining a low base. The transition exploits the natural tendency of opponents to circle away from the choking arm, creating the perfect angle for the Darce configuration.\n\nThe effectiveness of this transition lies in its seamless flow from control to submission. Unlike many submission entries that require dramatic position changes, the Front Headlock to Darce maintains constant pressure while incrementally improving control points. The practitioner uses the front headlock grip as a foundation, then methodically secures the underhook and locks the figure-four configuration without releasing primary controls. This continuity makes the technique particularly difficult to defend once properly initiated.\n\nThis transition is fundamental to modern no-gi grappling and represents a cornerstone of systematic front headlock attack systems. It combines well with other front headlock finishes, creating a web of attacks that force opponents into submission dilemmas. Mastery of this technique provides both a high-percentage finishing option and a powerful position from which to chain multiple submission attempts.",
   "key_principles": [

@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Frame Management | BJJ Concept | BJJ Graph",
     "description": "Understand Frame Management in BJJ. Learn structural framing, pressure distribution, dynamic adaptation across positions. Expert insights included.",
-    "concept_id": "C040",
+    "principle_id": "P040",
     "tags": [
       "bjj",
       "concept",
@@ -63,34 +63,34 @@
       "description": "Maintaining structural frame integrity even when exhausted or under sustained pressure, developing mental discipline to preserve defensive barriers when instinct suggests abandoning technique for explosive scrambling"
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Defensive Frame",
+      "principle_name": "Defensive Frame",
       "relationship_type": "Complementary",
       "description": "Defensive framing provides specific tactical applications of frame management principles in various positional contexts, representing practical implementation of broader frame management concepts"
     },
     {
-      "concept_name": "Space Creation",
+      "principle_name": "Space Creation",
       "relationship_type": "Complementary",
       "description": "Frame management creates the structural barriers necessary for space creation, with frames controlling distance while hip movement generates actual spatial separation from opponent"
     },
     {
-      "concept_name": "Leverage Principles",
+      "principle_name": "Leverage Principles",
       "relationship_type": "Prerequisite",
       "description": "Understanding leverage mechanics is fundamental to effective frame construction, as proper frames utilize mechanical advantage through skeletal alignment rather than brute strength"
     },
     {
-      "concept_name": "Energy Conservation",
+      "principle_name": "Energy Conservation",
       "relationship_type": "Complementary",
       "description": "Proper frame management dramatically reduces energy expenditure in defensive situations by utilizing structure rather than muscular effort, making it essential component of energy-efficient defensive strategy"
     },
     {
-      "concept_name": "Dealing with Pressure",
+      "principle_name": "Dealing with Pressure",
       "relationship_type": "Advanced form",
       "description": "Frame management represents primary tactical method for managing opponent's pressure effectively, providing structural solutions to pressure problems that would otherwise require excessive strength or athleticism"
     },
     {
-      "concept_name": "Escape Fundamentals",
+      "principle_name": "Escape Fundamentals",
       "relationship_type": "Prerequisite",
       "description": "Nearly all escape sequences begin with establishing effective frames to create initial distance from opponent, making frame management foundational skill enabling all other escape techniques to function"
     }

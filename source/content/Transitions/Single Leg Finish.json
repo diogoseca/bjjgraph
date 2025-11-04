@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Single Leg Finish | BJJ Technique | BJJ Graph",
-    "description": "Learn Single Leg Finish in BJJ. Step-by-step takedown completion from Single Leg control. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
-    "transition_id": "T215",
-    "tags": [
-      "bjj",
-      "transition",
-      "takedown",
-      "wrestling",
-      "fundamental"
-    ],
-    "starting_position": "Standing Position",
-    "ending_position": "Side Control Top",
-    "success_rates": {
-      "beginner": 50,
-      "intermediate": 70,
-      "advanced": 85
-    }
+  "name": "Single Leg Finish",
+  "description": "Learn Single Leg Finish in BJJ. Step-by-step takedown completion from Single Leg control. Success: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "takedown",
+    "wrestling",
+    "fundamental"
+  ],
+  "starting_position": "Standing Position",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 50,
+    "intermediate": 70,
+    "advanced": 85
   },
   "overview": "The Single Leg Finish is a fundamental takedown completion technique that transforms single leg control into a dominant position on the ground. After successfully capturing your opponent's leg, the finish requires precise elevation, off-balancing, and control to safely bring your opponent to the mat while maintaining positional dominance. This technique represents the critical transition point between standing grappling and ground control, making it essential for both gi and no-gi practitioners.\n\nThe single leg finish encompasses multiple finishing variations depending on your opponent's defensive reactions and their base. Whether driving through to side control, running the pipe to the back, or using a dump finish, each variation shares common principles of elevation, angle creation, and controlled completion. Understanding these fundamental mechanics allows practitioners to chain together finishes based on opponent reactions, creating a systematic approach to takedown completion.\n\nMastery of single leg finishes dramatically improves takedown success rates and provides seamless transitions from standing to dominant ground positions. The technique builds upon wrestling fundamentals while incorporating BJJ-specific considerations for position, control, and submission threats. When executed properly, the single leg finish not only scores takedown points but establishes immediate offensive opportunities on the ground.",
   "key_principles": [
@@ -242,7 +239,7 @@
       "relationship": "Related leg attack with different angle of entry"
     },
     {
-      "name": "Bodylock Pass",
+      "name": "Body Lock Pass",
       "relationship": "Follow-up technique from side control position"
     },
     {
@@ -254,7 +251,7 @@
       "relationship": "Common counter attack to defend against single leg"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Ending position after successful finish"
     },
     {

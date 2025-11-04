@@ -12,11 +12,11 @@ aliases: ["BJJ-Guard-Passing"]
   "@type": "WebPage",
   "name": "BJJ Guard Passing - Complete Guide",
   "description": "Master all BJJ guard passes and passing systems. Complete guide to pressure passes, speed passes, and leg weaves. Learn to pass any guard from closed to open to half guard.",
-  "url": "https://bjjgraph.com/guard-passing",
+  "url": "https://bjjgraph.org/guard-passing",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -28,26 +28,26 @@ aliases: ["BJJ-Guard-Passing"]
   "name": "BJJ Guard Passes",
   "description": "Complete list of Brazilian Jiu-Jitsu guard passes including pressure passes, speed passes, and systematic passing approaches",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Smash Pass", "url": "https://bjjgraph.com/passes/smash-pass"},
-    {"@type": "ListItem", "position": 2, "name": "Stack Pass", "url": "https://bjjgraph.com/passes/stack-pass"},
-    {"@type": "ListItem", "position": 3, "name": "Knee Cut Pass (Knee Slice)", "url": "https://bjjgraph.com/passes/knee-cut-pass"},
-    {"@type": "ListItem", "position": 4, "name": "Body Lock Pass", "url": "https://bjjgraph.com/passes/body-lock-pass"},
-    {"@type": "ListItem", "position": 5, "name": "Toreando Pass (Bullfighter Pass)", "url": "https://bjjgraph.com/passes/toreando-pass"},
-    {"@type": "ListItem", "position": 6, "name": "Leg Drag Pass", "url": "https://bjjgraph.com/passes/leg-drag-pass"},
-    {"@type": "ListItem", "position": 7, "name": "Leg Weave Pass", "url": "https://bjjgraph.com/passes/leg-weave-pass"},
-    {"@type": "ListItem", "position": 8, "name": "Double Under Pass", "url": "https://bjjgraph.com/passes/double-under-pass"},
-    {"@type": "ListItem", "position": 9, "name": "Over-Under Pass", "url": "https://bjjgraph.com/passes/over-under-pass"},
-    {"@type": "ListItem", "position": 10, "name": "Long Step Pass", "url": "https://bjjgraph.com/passes/long-step-pass"},
-    {"@type": "ListItem", "position": 11, "name": "Headquarters Pass", "url": "https://bjjgraph.com/passes/headquarters-pass"},
-    {"@type": "ListItem", "position": 12, "name": "X-Pass", "url": "https://bjjgraph.com/passes/x-pass"},
-    {"@type": "ListItem", "position": 13, "name": "Standing Toreando Pass", "url": "https://bjjgraph.com/passes/standing-toreando-pass"},
-    {"@type": "ListItem", "position": 14, "name": "Combat Base Pass", "url": "https://bjjgraph.com/passes/combat-base-pass"},
-    {"@type": "ListItem", "position": 15, "name": "Pressure Passing System", "url": "https://bjjgraph.com/passes/pressure-passing-system"},
-    {"@type": "ListItem", "position": 16, "name": "Speed Passing System", "url": "https://bjjgraph.com/passes/speed-passing-system"},
-    {"@type": "ListItem", "position": 17, "name": "Over-Under System (Faria System)", "url": "https://bjjgraph.com/passes/over-under-system"},
-    {"@type": "ListItem", "position": 18, "name": "Headquarters System", "url": "https://bjjgraph.com/passes/headquarters-system"},
-    {"@type": "ListItem", "position": 19, "name": "Leg Drag System", "url": "https://bjjgraph.com/passes/leg-drag-system"},
-    {"@type": "ListItem", "position": 20, "name": "Closed Guard Break and Pass", "url": "https://bjjgraph.com/passes/closed-guard-break-and-pass"}
+    {"@type": "ListItem", "position": 1, "name": "Smash Pass", "url": "https://bjjgraph.org/passes/smash-pass"},
+    {"@type": "ListItem", "position": 2, "name": "Stack Pass", "url": "https://bjjgraph.org/passes/stack-pass"},
+    {"@type": "ListItem", "position": 3, "name": "Knee Cut Pass (Knee Slice)", "url": "https://bjjgraph.org/passes/knee-cut-pass"},
+    {"@type": "ListItem", "position": 4, "name": "Body Lock Pass", "url": "https://bjjgraph.org/passes/body-lock-pass"},
+    {"@type": "ListItem", "position": 5, "name": "Toreando Pass (Bullfighter Pass)", "url": "https://bjjgraph.org/passes/toreando-pass"},
+    {"@type": "ListItem", "position": 6, "name": "Leg Drag Pass", "url": "https://bjjgraph.org/passes/leg-drag-pass"},
+    {"@type": "ListItem", "position": 7, "name": "Leg Weave Pass", "url": "https://bjjgraph.org/passes/leg-weave-pass"},
+    {"@type": "ListItem", "position": 8, "name": "Double Under Pass", "url": "https://bjjgraph.org/passes/double-under-pass"},
+    {"@type": "ListItem", "position": 9, "name": "Over-Under Pass", "url": "https://bjjgraph.org/passes/over-under-pass"},
+    {"@type": "ListItem", "position": 10, "name": "Long Step Pass", "url": "https://bjjgraph.org/passes/long-step-pass"},
+    {"@type": "ListItem", "position": 11, "name": "Headquarters Pass", "url": "https://bjjgraph.org/passes/headquarters-pass"},
+    {"@type": "ListItem", "position": 12, "name": "X-Pass", "url": "https://bjjgraph.org/passes/x-pass"},
+    {"@type": "ListItem", "position": 13, "name": "Standing Toreando Pass", "url": "https://bjjgraph.org/passes/standing-toreando-pass"},
+    {"@type": "ListItem", "position": 14, "name": "Combat Base Pass", "url": "https://bjjgraph.org/passes/combat-base-pass"},
+    {"@type": "ListItem", "position": 15, "name": "Pressure Passing System", "url": "https://bjjgraph.org/passes/pressure-passing-system"},
+    {"@type": "ListItem", "position": 16, "name": "Speed Passing System", "url": "https://bjjgraph.org/passes/speed-passing-system"},
+    {"@type": "ListItem", "position": 17, "name": "Over-Under System (Faria System)", "url": "https://bjjgraph.org/passes/over-under-system"},
+    {"@type": "ListItem", "position": 18, "name": "Headquarters System", "url": "https://bjjgraph.org/passes/headquarters-system"},
+    {"@type": "ListItem", "position": 19, "name": "Leg Drag System", "url": "https://bjjgraph.org/passes/leg-drag-system"},
+    {"@type": "ListItem", "position": 20, "name": "Closed Guard Break and Pass", "url": "https://bjjgraph.org/passes/closed-guard-break-and-pass"}
   ]
 }
 </script>
@@ -60,13 +60,13 @@ aliases: ["BJJ-Guard-Passing"]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "BJJ Guard Passing - Complete Guide",
-      "item": "https://bjjgraph.com/bjj-guard-passing"
+      "item": "https://bjjgraph.org/bjj-guard-passing"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Hand Fighting | BJJ Concept | BJJ Graph",
     "description": "Understand Hand Fighting in BJJ. Learn strategic hand positioning, control management, and cross-position application. Expert insights from Danaher, Ryan, and Bravo included.",
-    "concept_id": "C114",
+    "principle_id": "P114",
     "tags": [
       "bjj",
       "concept",
@@ -63,34 +63,34 @@
       "description": "Synchronizing hand fighting with footwork, body positioning, and weight distribution to create compound control advantages. Understanding that effective hand fighting cannot be isolated from overall body management and positioning."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Grip Fighting",
+      "principle_name": "Grip Fighting",
       "relationship_type": "Complementary",
       "description": "Grip fighting focuses specifically on establishing and breaking grips, while hand fighting encompasses the broader strategic positioning and movement that precedes grip establishment. These concepts work synergistically with hand fighting creating the positional foundation for effective grip fighting."
     },
     {
-      "concept_name": "Control Point Hierarchy",
+      "principle_name": "Control Point Hierarchy",
       "relationship_type": "Extension",
       "description": "Hand fighting implements control point hierarchy principles specifically in the context of upper body control. Understanding control point hierarchy provides the strategic framework for prioritizing hand fighting objectives."
     },
     {
-      "concept_name": "Connection Breaking",
+      "principle_name": "Connection Breaking",
       "relationship_type": "Complementary",
       "description": "Hand fighting creates the tactical positioning necessary for effective connection breaking, while connection breaking principles inform hand fighting strategy. These concepts reinforce each other in creating defensive control denial."
     },
     {
-      "concept_name": "Frame Creation",
+      "principle_name": "Frame Creation",
       "relationship_type": "Prerequisite",
       "description": "Effective framing requires successful hand fighting to establish proper hand positioning for frame structures. Hand fighting skills determine the ability to create and maintain defensive frames under pressure."
     },
     {
-      "concept_name": "Posture Breaking",
+      "principle_name": "Posture Breaking",
       "relationship_type": "Extension",
       "description": "Hand fighting provides the control pathways necessary for effective posture breaking. The hand positions established through hand fighting determine the mechanical advantage available for breaking opponent's structural integrity."
     },
     {
-      "concept_name": "Action and Reaction",
+      "principle_name": "Action and Reaction",
       "relationship_type": "Complementary",
       "description": "Hand fighting creates reactions that can be exploited tactically. Understanding action-reaction dynamics allows hand fighting to be used as a setup mechanism for creating desired opponent responses."
     }

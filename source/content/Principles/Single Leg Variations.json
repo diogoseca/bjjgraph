@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Single Leg Variations | BJJ Concept | BJJ Graph",
     "description": "Understand Single Leg Variations in BJJ. Learn setup mechanics, finishing methods, and tactical applications across positions. Expert insights included.",
-    "concept_id": "C089",
+    "principle_id": "P089",
     "tags": ["bjj", "concept", "takedowns", "single-leg", "wrestling", "entries", "finishing", "variations"],
     "application_level": "Fundamental",
     "complexity_level": "Medium",
@@ -57,34 +57,34 @@
     }
   ],
 
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Takedown Entry",
+      "principle_name": "Takedown Entry",
       "relationship_type": "Prerequisite",
       "description": "Understanding basic takedown entry mechanics, timing, and level changes provides the foundation for executing single leg captures across different contexts"
     },
     {
-      "concept_name": "Off-Balancing",
+      "principle_name": "Off-Balancing",
       "relationship_type": "Complementary",
       "description": "Off-balancing principles directly enhance single leg effectiveness by creating momentary vulnerabilities in the opponent's base that can be exploited through various finishing methods"
     },
     {
-      "concept_name": "Base Maintenance",
+      "principle_name": "Base Maintenance",
       "relationship_type": "Extension",
       "description": "Understanding base maintenance from the attacker's perspective allows you to recognize exactly which base points to attack and when the opponent is most vulnerable to specific finishes"
     },
     {
-      "concept_name": "Angle Creation",
+      "principle_name": "Angle Creation",
       "relationship_type": "Complementary",
       "description": "Creating and exploiting angles is fundamental to high-percentage single leg finishes, as moving off centerline multiplies leverage advantages and limits defensive options"
     },
     {
-      "concept_name": "Action and Reaction",
+      "principle_name": "Action and Reaction",
       "relationship_type": "Advanced form",
       "description": "Advanced single leg variations systematically create reactions through attempted finishes, then exploit those reactions with chained follow-up attacks in a continuous offensive cycle"
     },
     {
-      "concept_name": "Grip Fighting",
+      "principle_name": "Grip Fighting",
       "relationship_type": "Prerequisite",
       "description": "Effective grip fighting creates the openings and controls necessary to secure clean single leg entries while preventing opponent counter grips that compromise finishing effectiveness"
     }

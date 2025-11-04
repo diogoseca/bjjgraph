@@ -1,531 +1,731 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "BJJ Position Dual Template - Bottom + Top (No Hub)",
-  "description": "Template for simple positions WITH two perspectives but NO variations (Turtle, North-South, etc.). Generates bottom page + top page only.",
-
-  "position_name": "turtle",
-  "slug": "turtle",
-  "category": "transitional-positions",
-
-  "bottom": {
-    "state_id": "S042",
-
-    "metadata": {
-      "title": "Turtle Bottom (Defense) | BJJ Position Guide | BJJ Graph",
-      "description": "Master turtle defense and escape strategies. Complete guide to protecting yourself in turtle position and returning to guard with 50% success rate.",
-      "tags": ["bjj", "position", "turtle", "bottom", "defense", "escapes"]
+  "title": "BJJ Position Dual Template Schema - Hub + Bottom + Top",
+  "description": "JSON Schema for positions WITH two perspectives (bottom/top) but NO variations (Turtle, North-South, etc.). Generates hub page + bottom page + top page.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "slug",
+    "description",
+    "variant_uniqueness",
+    "overview",
+    "key_principles",
+    "related_positions",
+    "bottom",
+    "top"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Hub position name (without Bottom/Top suffix)",
+      "minLength": 1,
+      "examples": [
+        "Turtle",
+        "North-South"
+      ]
     },
-
-    "overview": "Turtle position from the bottom represents a defensive posture where the practitioner is on hands and knees, protecting their back and neck from attacks. While not ideal, turtle can be a temporary defensive position used to recover guard or stand up. The key is minimizing time in turtle while preventing back takes and submissions. (400+ words minimum)",
-
-    "state_properties": {
-      "point_value": 0,
-      "position_type": "Defensive",
-      "risk_level": "High",
-      "energy_cost": "Medium",
-      "time_sustainability": "Short"
+    "slug": {
+      "type": "string",
+      "description": "URL slug for hub page",
+      "minLength": 1,
+      "examples": [
+        "turtle",
+        "north-south"
+      ]
     },
-
-    "state_invariants": [
-      "Bottom player on hands and knees with head protected and elbows tight",
-      "Top player attempting to break posture and secure hooks or controls",
-      "Bottom player working to either return to guard or escape to standing"
-    ],
-
-    "prerequisites": [
-      "Strong defensive posture and base maintenance",
-      "Understanding of back defense principles",
-      "Hip mobility for sit-through escapes",
-      "Awareness of submission threats (crucifix, chokes, etc.)"
-    ],
-
-    "key_principles": [
-      "Keep elbows tight to body to prevent arm isolation",
-      "Protect neck by keeping chin tucked and hands connected",
-      "Maintain strong base to prevent being flattened",
-      "Move continuously - turtle is a transitional position, not a resting place",
-      "Use sit-through and granby roll mechanics for escape"
-    ],
-
-    "offensive_transitions": [
-      {
-        "technique": "Sit-Through to Guard",
-        "target_position": "Guard Bottom",
-        "success_rates": {
-          "beginner": 30,
-          "intermediate": 45,
-          "advanced": 60
-        }
+    "description": {
+      "type": "string",
+      "description": "Hub meta description for SEO (140-180 characters recommended)",
+      "minLength": 1,
+      "examples": [
+        "Master turtle position in BJJ. Strategic guide covering when to use turtle, defensive escapes, and offensive attacks with complete perspective analysis."
+      ]
+    },
+    "variant_uniqueness": {
+      "type": "string",
+      "description": "What makes this DUAL position unique - distinguishes bottom from top perspective",
+      "minLength": 20,
+      "maxLength": 50,
+      "examples": [
+        "Hands-and-knees posture trades back exposure for submission protection"
+      ]
+    },
+    "overview": {
+      "type": "string",
+      "description": "Hub overview covering both perspectives (400+ words minimum)",
+      "minLength": 400,
+      "examples": [
+        "Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where the practitioner is on hands and knees..."
+      ]
+    },
+    "key_principles": {
+      "type": "array",
+      "description": "5-7 fundamental principles for this position hub",
+      "minItems": 5,
+      "maxItems": 7,
+      "items": {
+        "type": "string"
       },
-      {
-        "technique": "Granby Roll to Guard",
-        "target_position": "Guard Bottom",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Stand Up in Base",
-        "target_position": "Standing Position",
-        "success_rates": {
-          "beginner": 35,
-          "intermediate": 50,
-          "advanced": 65
-        }
-      },
-      {
-        "technique": "Peterson Roll",
-        "target_position": "Top Position",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 45
-        }
-      }
-    ],
-
-    "defensive_responses": [
-      {
-        "technique": "Back Take with Hooks",
-        "target_position": "Back Control Top",
-        "success_rate": 50
-      },
-      {
-        "technique": "Crucifix Control",
-        "target_position": "Crucifix Top",
-        "success_rate": 35
-      },
-      {
-        "technique": "Clock Choke",
-        "target_position": "Won by Submission",
-        "success_rate": 25
-      }
-    ],
-
-    "counter_transitions": [
-      {
-        "technique": "Hand Fight Against Seatbelt",
-        "target_position": "Turtle Bottom",
-        "trigger": "When opponent establishes seatbelt grip, immediately fight the hands"
-      },
-      {
-        "technique": "Explosive Sit-Through",
-        "target_position": "Guard Bottom",
-        "trigger": "When opponent commits weight forward, sit through to guard"
-      }
-    ],
-
-    "decision_tree": [
-      {
-        "condition": "If opponent is attempting back take with hooks",
-        "actions": [
-          {
-            "technique": "Sit-Through to Guard",
-            "target": "Guard Bottom",
-            "probability": 60
-          },
-          {
-            "technique": "Stand Up Immediately",
-            "target": "Standing Position",
-            "probability": 45
-          }
+      "examples": [
+        [
+          "Turtle is never a resting position - always transitional",
+          "Bottom must escape to guard or stand immediately"
         ]
-      },
-      {
-        "condition": "If opponent has seatbelt control but no hooks",
-        "actions": [
-          {
-            "technique": "Hand Fight and Roll to Guard",
-            "target": "Guard Bottom",
-            "probability": 50
-          },
-          {
-            "technique": "Granby Roll",
-            "target": "Guard Bottom",
-            "probability": 40
-          }
-        ]
-      }
-    ],
-
-    "common_errors": [
-      {
-        "error": "Remaining static in turtle without escaping",
-        "consequence": "Allows opponent time to establish back control or submission",
-        "correction": "Move immediately - turtle is temporary, transition to guard or standing"
-      },
-      {
-        "error": "Reaching out with arms to post",
-        "consequence": "Exposes arms to crucifix and armbar attacks",
-        "correction": "Keep elbows tight to body at all times"
-      },
-      {
-        "error": "Allowing opponent to establish seatbelt without hand fighting",
-        "consequence": "Back take becomes inevitable",
-        "correction": "Immediately fight hands when opponent attempts seatbelt grip"
-      },
-      {
-        "error": "Turtling up when already mounted",
-        "consequence": "Gives up back control",
-        "correction": "Only turtle from positions where you can escape (scrambles, guard passing)"
-      },
-      {
-        "error": "Flat turtle with head down",
-        "consequence": "Easy to flatten and choke",
-        "correction": "Maintain rounded back with strong posture"
-      }
-    ],
-
-    "training_drills": [
-      {
-        "name": "Turtle Escape Drill",
-        "description": "Start in turtle, partner applies pressure. Practice sit-throughs and granby rolls to return to guard.",
-        "duration": "3 minutes"
-      },
-      {
-        "name": "Hand Fighting from Turtle",
-        "description": "Partner attempts seatbelt control while you defend hands and escape.",
-        "duration": "2 minutes"
-      },
-      {
-        "name": "Turtle to Stand Drill",
-        "description": "Practice standing up in base from turtle position while partner tries to keep you down.",
-        "duration": "2 minutes"
-      }
-    ],
-
-    "optimal_submission_paths": [
-      {
-        "name": "Quick escape to guard",
-        "path": "Turtle Bottom → Sit-Through → Guard Bottom → Guard Recovery"
-      },
-      {
-        "name": "Defensive stand-up",
-        "path": "Turtle Bottom → Base Up → Stand Up → Neutral Standing"
-      },
-      {
-        "name": "Roll to guard",
-        "path": "Turtle Bottom → Granby Roll → Guard Bottom → Closed Guard"
-      }
-    ],
-
-    "related_content": [
-      {"name": "Guard Bottom", "relationship": "Primary escape destination"},
-      {"name": "Back Control Bottom", "relationship": "Position to avoid"},
-      {"name": "Turtle Top", "relationship": "Opposite perspective"},
-      {"name": "Crucifix Bottom", "relationship": "Submission threat from turtle"}
-    ],
-
-    "position_metrics": {
-      "retention_rate": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50,
-        "description": "Percentage of time escaping from turtle successfully"
-      },
-      "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65,
-        "description": "Probability of returning to guard or standing"
-      },
-      "submission_probability": {
-        "beginner": 5,
-        "intermediate": 10,
-        "advanced": 15,
-        "description": "Probability of being submitted from turtle"
-      },
-      "average_time": "10-30 seconds (should be very brief - transitional position)"
+      ]
     },
-
-    "expert_insights": {
-      "danaher": "Turtle is not a position to maintain - it's a temporary defensive posture used during transitions. The moment you enter turtle, you should already be executing your escape. The sit-through to guard is the most reliable escape as it creates a barrier between you and your opponent while recovering a more favorable defensive position.",
-      "gordon_ryan": "In competition, I use turtle strategically for very brief moments during scrambles, but never stay there. The key is having your escape planned before you even enter turtle. I prefer the sit-through because it's quick and doesn't require perfect timing like the granby roll.",
-      "eddie_bravo": "From turtle, the Twister and electric chair setups make this a dangerous position in 10th Planet. But when you're the one in turtle, you need to escape immediately. The granby roll is great if you're flexible, but most people should just sit through to half guard and start working lockdown."
+    "related_positions": {
+      "type": "array",
+      "description": "Related positions/states/techniques for hub (3-15 items)",
+      "minItems": 3,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "relationship"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Related position name",
+            "minLength": 1
+          },
+          "relationship": {
+            "type": "string",
+            "description": "How it relates to this position",
+            "minLength": 5
+          }
+        }
+      }
+    },
+    "bottom": {
+      "type": "object",
+      "description": "Bottom perspective - full position data (same structure as SINGLE template)",
+      "additionalProperties": false,
+      "required": [
+        "overview",
+        "state_properties",
+        "state_invariants",
+        "prerequisites",
+        "key_principles",
+        "offensive_transitions",
+        "defensive_responses",
+        "counter_transitions",
+        "decision_tree",
+        "common_errors",
+        "training_drills",
+        "optimal_submission_paths",
+        "related_content",
+        "position_metrics",
+        "expert_insights",
+        "name",
+        "description",
+        "tags"
+      ],
+      "properties": {
+        "overview": {
+          "type": "string",
+          "description": "Bottom perspective overview (400+ words minimum)",
+          "minLength": 400
+        },
+        "state_properties": {
+          "$ref": "#/$defs/state_properties"
+        },
+        "state_invariants": {
+          "$ref": "#/$defs/state_invariants"
+        },
+        "prerequisites": {
+          "$ref": "#/$defs/prerequisites"
+        },
+        "key_principles": {
+          "$ref": "#/$defs/key_principles"
+        },
+        "offensive_transitions": {
+          "$ref": "#/$defs/offensive_transitions"
+        },
+        "defensive_responses": {
+          "$ref": "#/$defs/defensive_responses"
+        },
+        "counter_transitions": {
+          "$ref": "#/$defs/counter_transitions"
+        },
+        "decision_tree": {
+          "$ref": "#/$defs/decision_tree"
+        },
+        "common_errors": {
+          "$ref": "#/$defs/common_errors"
+        },
+        "training_drills": {
+          "$ref": "#/$defs/training_drills"
+        },
+        "optimal_submission_paths": {
+          "$ref": "#/$defs/optimal_submission_paths"
+        },
+        "related_content": {
+          "$ref": "#/$defs/related_content"
+        },
+        "position_metrics": {
+          "$ref": "#/$defs/position_metrics"
+        },
+        "expert_insights": {
+          "$ref": "#/$defs/expert_insights"
+        },
+        "name": {
+          "type": "string",
+          "description": "Must be '{hub_name} Bottom' format",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "description": "Meta description for SEO (140-180 characters)",
+          "minLength": 10
+        },
+        "tags": {
+          "type": "array",
+          "description": "Content tags (minimum 3)",
+          "minItems": 3,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "top": {
+      "type": "object",
+      "description": "Top perspective - full position data (same structure as SINGLE template)",
+      "additionalProperties": false,
+      "required": [
+        "overview",
+        "state_properties",
+        "state_invariants",
+        "prerequisites",
+        "key_principles",
+        "offensive_transitions",
+        "defensive_responses",
+        "counter_transitions",
+        "decision_tree",
+        "common_errors",
+        "training_drills",
+        "optimal_submission_paths",
+        "related_content",
+        "position_metrics",
+        "expert_insights",
+        "name",
+        "description",
+        "tags"
+      ],
+      "properties": {
+        "overview": {
+          "type": "string",
+          "description": "Top perspective overview (400+ words minimum)",
+          "minLength": 400
+        },
+        "state_properties": {
+          "$ref": "#/$defs/state_properties"
+        },
+        "state_invariants": {
+          "$ref": "#/$defs/state_invariants"
+        },
+        "prerequisites": {
+          "$ref": "#/$defs/prerequisites"
+        },
+        "key_principles": {
+          "$ref": "#/$defs/key_principles"
+        },
+        "offensive_transitions": {
+          "$ref": "#/$defs/offensive_transitions"
+        },
+        "defensive_responses": {
+          "$ref": "#/$defs/defensive_responses"
+        },
+        "counter_transitions": {
+          "$ref": "#/$defs/counter_transitions"
+        },
+        "decision_tree": {
+          "$ref": "#/$defs/decision_tree"
+        },
+        "common_errors": {
+          "$ref": "#/$defs/common_errors"
+        },
+        "training_drills": {
+          "$ref": "#/$defs/training_drills"
+        },
+        "optimal_submission_paths": {
+          "$ref": "#/$defs/optimal_submission_paths"
+        },
+        "related_content": {
+          "$ref": "#/$defs/related_content"
+        },
+        "position_metrics": {
+          "$ref": "#/$defs/position_metrics"
+        },
+        "expert_insights": {
+          "$ref": "#/$defs/expert_insights"
+        },
+        "name": {
+          "type": "string",
+          "description": "Must be '{hub_name} Top' format",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "description": "Meta description for SEO (140-180 characters)",
+          "minLength": 10
+        },
+        "tags": {
+          "type": "array",
+          "description": "Content tags (minimum 3)",
+          "minItems": 3,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
     }
   },
-
-  "top": {
-    "state_id": "S043",
-
-    "metadata": {
-      "title": "Turtle Top (Attacks) | BJJ Position Guide | BJJ Graph",
-      "description": "Master turtle attacks and back takes. Complete guide to breaking turtle position and securing back control with 60% success rate.",
-      "tags": ["bjj", "position", "turtle", "top", "attacks", "back-take"]
-    },
-
-    "overview": "Attacking the turtle from top position provides numerous opportunities for back takes, submissions, and dominant position advancement. The key is systematically breaking opponent's defensive structure while preventing their escape to guard or standing. Understanding multiple attack paths ensures success against defensive turtles. (400+ words minimum)",
-
+  "$defs": {
     "state_properties": {
-      "point_value": 0,
-      "position_type": "Offensive",
-      "risk_level": "Low",
-      "energy_cost": "Medium",
-      "time_sustainability": "Medium"
+      "type": "object",
+      "description": "Core state machine properties",
+      "additionalProperties": false,
+      "required": [
+        "point_value",
+        "position_type",
+        "risk_level",
+        "energy_cost",
+        "time_sustainability"
+      ],
+      "properties": {
+        "point_value": {
+          "type": "integer",
+          "description": "IBJJF points (0=neutral, 2=advantage, 3=pass, 4=mount/back)",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "position_type": {
+          "type": "string",
+          "enum": [
+            "Neutral",
+            "Offensive",
+            "Defensive",
+            "Controlling",
+            "Offensive/Controlling",
+            "Defensive with offensive options"
+          ]
+        },
+        "risk_level": {
+          "type": "string",
+          "enum": [
+            "Low",
+            "Medium",
+            "High",
+            "Low to Medium",
+            "Medium to High"
+          ]
+        },
+        "energy_cost": {
+          "type": "string",
+          "enum": [
+            "Low",
+            "Medium",
+            "High"
+          ]
+        },
+        "time_sustainability": {
+          "type": "string",
+          "enum": [
+            "Short",
+            "Medium",
+            "Long",
+            "Short to Medium",
+            "Medium to Long"
+          ]
+        }
+      }
     },
-
-    "state_invariants": [
-      "Top player positioned over opponent in turtle with control options available",
-      "Bottom player in defensive turtle posture attempting to escape",
-      "Top player working to establish hooks, controls, or submissions"
-    ],
-
-    "prerequisites": [
-      "Understanding of back control principles",
-      "Ability to break turtle defensive structure",
-      "Knowledge of submission opportunities from turtle",
-      "Awareness of opponent's escape timing"
-    ],
-
-    "key_principles": [
-      "Prevent opponent from sitting through to guard",
-      "Establish seatbelt control as primary objective",
-      "Insert hooks systematically once control is secured",
-      "Use weight to flatten opponent if they remain static",
-      "Attack submissions while advancing to back control"
-    ],
-
-    "offensive_transitions": [
-      {
-        "technique": "Back Take with Hooks",
-        "target_position": "Back Control Top",
-        "success_rates": {
-          "beginner": 40,
-          "intermediate": 55,
-          "advanced": 70
-        }
-      },
-      {
-        "technique": "Crucifix Control",
-        "target_position": "Crucifix Top",
-        "success_rates": {
-          "beginner": 25,
-          "intermediate": 40,
-          "advanced": 55
-        }
-      },
-      {
-        "technique": "Clock Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 20,
-          "intermediate": 35,
-          "advanced": 50
-        }
-      },
-      {
-        "technique": "Darce Choke from Turtle",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 45
-        }
-      },
-      {
-        "technique": "Anaconda Choke",
-        "target_position": "Won by Submission",
-        "success_rates": {
-          "beginner": 15,
-          "intermediate": 30,
-          "advanced": 45
-        }
-      },
-      {
-        "technique": "Twister Control",
-        "target_position": "Twister Control Top",
-        "success_rates": {
-          "beginner": 10,
-          "intermediate": 25,
-          "advanced": 40
-        }
+    "state_invariants": {
+      "type": "array",
+      "description": "Conditions that must remain true - WITH anatomical/visual detail",
+      "minItems": 3,
+      "items": {
+        "type": "string",
+        "minLength": 50,
+        "description": "Each invariant describes positioning with anatomical detail"
       }
-    ],
-
-    "defensive_responses": [
-      {
-        "technique": "Sit-Through to Guard",
-        "target_position": "Guard Top",
-        "success_rate": 45
-      },
-      {
-        "technique": "Stand Up Escape",
-        "target_position": "Standing Position",
-        "success_rate": 35
-      },
-      {
-        "technique": "Granby Roll",
-        "target_position": "Guard Top",
-        "success_rate": 30
+    },
+    "prerequisites": {
+      "type": "array",
+      "description": "Conditions that must be true before entering this position",
+      "minItems": 3,
+      "items": {
+        "type": "string"
       }
-    ],
-
-    "counter_transitions": [
-      {
-        "technique": "Mat Return",
-        "target_position": "Turtle Top",
-        "trigger": "When opponent attempts to stand, use mat return to keep them down"
-      },
-      {
-        "technique": "Follow to Guard",
-        "target_position": "Guard Top",
-        "trigger": "If opponent successfully sits through, immediately establish guard passing position"
-      },
-      {
-        "technique": "Scramble to Mount",
-        "target_position": "Mount Top",
-        "trigger": "If opponent rolls to back, follow movement and secure mount"
+    },
+    "key_principles": {
+      "type": "array",
+      "description": "5-7 fundamental principles for this position",
+      "minItems": 5,
+      "maxItems": 7,
+      "items": {
+        "type": "string"
       }
-    ],
-
-    "decision_tree": [
-      {
-        "condition": "If opponent remains static in turtle",
-        "actions": [
-          {
-            "technique": "Establish Seatbelt and Take Back",
-            "target": "Back Control Top",
-            "probability": 70
+    },
+    "offensive_transitions": {
+      "type": "array",
+      "description": "Available attacks/advancements from this position (6-20 items)",
+      "minItems": 6,
+      "maxItems": 20,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "technique",
+          "target_position",
+          "success_rates"
+        ],
+        "properties": {
+          "technique": {
+            "type": "string",
+            "description": "Technique name",
+            "minLength": 1
           },
-          {
-            "technique": "Clock Choke",
-            "target": "Won by Submission",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "If opponent is mobile and attempting escapes",
-        "actions": [
-          {
-            "technique": "Darce or Anaconda Choke",
-            "target": "Won by Submission",
-            "probability": 45
+          "target_position": {
+            "type": "string",
+            "description": "Resulting position",
+            "minLength": 1
           },
-          {
-            "technique": "Secure Seatbelt Before Hooks",
-            "target": "Back Control Top",
-            "probability": 55
+          "success_rates": {
+            "$ref": "#/$defs/skill_level_success_rates"
           }
-        ]
-      },
-      {
-        "condition": "If opponent exposes arm during escape attempt",
-        "actions": [
-          {
-            "technique": "Crucifix Control",
-            "target": "Crucifix Top",
-            "probability": 55
+        }
+      }
+    },
+    "defensive_responses": {
+      "type": "array",
+      "description": "How opponent defends when you have this position (3-10 items)",
+      "minItems": 3,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "technique",
+          "target_position"
+        ],
+        "properties": {
+          "technique": {
+            "type": "string",
+            "minLength": 3
           },
-          {
-            "technique": "Back Take",
-            "target": "Back Control Top",
-            "probability": 60
+          "target_position": {
+            "type": "string",
+            "minLength": 3
+          },
+          "success_rate": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100,
+            "description": "Optional: opponent's success rate for this escape"
           }
-        ]
+        }
       }
-    ],
-
-    "common_errors": [
-      {
-        "error": "Attempting hooks before establishing seatbelt control",
-        "consequence": "Opponent escapes to guard or standing easily",
-        "correction": "Always secure seatbelt first, then systematically insert hooks"
-      },
-      {
-        "error": "Allowing opponent to sit through without following",
-        "consequence": "Lose position advantage completely",
-        "correction": "Follow opponent's movement and establish guard passing position"
-      },
-      {
-        "error": "Using only strength to flatten opponent",
-        "consequence": "Exhaustion and creating scramble opportunities",
-        "correction": "Use technique and control points rather than pure strength"
-      },
-      {
-        "error": "Forgetting to prevent standup escapes",
-        "consequence": "Opponent stands and resets to neutral",
-        "correction": "Use mat returns and maintain downward pressure"
-      },
-      {
-        "error": "Attacking submissions without positional control",
-        "consequence": "Opponent escapes during submission attempt",
-        "correction": "Establish seatbelt and hooks before committing to submissions"
+    },
+    "counter_transitions": {
+      "type": "array",
+      "description": "Transitions to counter opponent's escape attempts",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "technique",
+          "target_position",
+          "trigger"
+        ],
+        "properties": {
+          "technique": {
+            "type": "string",
+            "minLength": 3
+          },
+          "target_position": {
+            "type": "string",
+            "minLength": 3
+          },
+          "trigger": {
+            "type": "string",
+            "description": "What opponent action triggers this counter",
+            "minLength": 10
+          }
+        }
       }
-    ],
-
-    "training_drills": [
-      {
-        "name": "Turtle Attack Flow Drill",
-        "description": "Partner in turtle, practice flowing between seatbelt control, back take, and submission attempts.",
-        "duration": "3 minutes"
-      },
-      {
-        "name": "Back Take Timing Drill",
-        "description": "Partner in defensive turtle, practice recognizing moments to insert hooks and establish back control.",
-        "duration": "2 minutes"
-      },
-      {
-        "name": "Submission from Turtle Drill",
-        "description": "Practice clock choke, darce, and anaconda setups from turtle position.",
-        "duration": "3 minutes"
+    },
+    "decision_tree": {
+      "type": "array",
+      "description": "If/else logic for state transitions",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "condition",
+          "actions"
+        ],
+        "properties": {
+          "condition": {
+            "type": "string",
+            "description": "If/else if condition describing opponent behavior",
+            "minLength": 10
+          },
+          "actions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "technique",
+                "target",
+                "probability"
+              ],
+              "properties": {
+                "technique": {
+                  "type": "string",
+                  "minLength": 3
+                },
+                "target": {
+                  "type": "string",
+                  "minLength": 3
+                },
+                "probability": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 100
+                }
+              }
+            }
+          }
+        }
       }
-    ],
-
-    "optimal_submission_paths": [
-      {
-        "name": "Systematic back take",
-        "path": "Turtle Top → Seatbelt Control → Insert First Hook → Insert Second Hook → Back Control"
-      },
-      {
-        "name": "Clock choke finish",
-        "path": "Turtle Top → Collar Grip → Walk Around → Clock Choke → Won by Submission"
-      },
-      {
-        "name": "Darce from turtle",
-        "path": "Turtle Top → Opponent Sits Through → Darce Grip → Roll to Side → Won by Submission"
-      },
-      {
-        "name": "Crucifix path",
-        "path": "Turtle Top → Isolate Arm → Crucifix Control → Back Take or Submission"
+    },
+    "common_errors": {
+      "type": "array",
+      "description": "5+ common mistakes with corrections",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "error",
+          "consequence",
+          "correction"
+        ],
+        "properties": {
+          "error": {
+            "type": "string",
+            "minLength": 10
+          },
+          "consequence": {
+            "type": "string",
+            "minLength": 10
+          },
+          "correction": {
+            "type": "string",
+            "minLength": 10
+          }
+        }
       }
-    ],
-
-    "related_content": [
-      {"name": "Back Control Top", "relationship": "Primary advancement target"},
-      {"name": "Crucifix Top", "relationship": "Alternative attack"},
-      {"name": "Turtle Bottom", "relationship": "Opposite perspective"},
-      {"name": "Guard Top", "relationship": "Position if opponent escapes"}
-    ],
-
+    },
+    "training_drills": {
+      "type": "array",
+      "description": "3+ drills to practice this position",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "description"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 3
+          },
+          "description": {
+            "type": "string",
+            "minLength": 20
+          },
+          "duration": {
+            "type": "string",
+            "description": "Optional drill duration",
+            "examples": [
+              "3 minutes",
+              "5 minutes",
+              "2 minutes"
+            ]
+          }
+        }
+      }
+    },
+    "optimal_submission_paths": {
+      "type": "array",
+      "description": "3+ paths from this position to submission",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "path"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Path description",
+            "minLength": 5
+          },
+          "path": {
+            "type": "string",
+            "description": "Sequence of positions/techniques with → arrows",
+            "minLength": 10
+          }
+        }
+      }
+    },
+    "related_content": {
+      "type": "array",
+      "description": "Related positions/states/techniques (3-15 items)",
+      "minItems": 3,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "relationship"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Related content name",
+            "minLength": 1
+          },
+          "relationship": {
+            "type": "string",
+            "description": "How it relates",
+            "minLength": 5
+          }
+        }
+      }
+    },
     "position_metrics": {
-      "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80,
-        "description": "Percentage of time maintaining turtle top position"
-      },
-      "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75,
-        "description": "Probability of advancing to back control"
-      },
-      "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50,
-        "description": "Probability of finishing directly from turtle"
-      },
-      "average_time": "30-60 seconds (transitional position - should advance quickly)"
+      "type": "object",
+      "description": "Success rates, retention rates, probabilities",
+      "additionalProperties": false,
+      "required": [
+        "retention_rate",
+        "advancement_probability",
+        "submission_probability"
+      ],
+      "properties": {
+        "retention_rate": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/skill_level_success_rates"
+            },
+            {
+              "description": "Position retention by skill level"
+            }
+          ]
+        },
+        "advancement_probability": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/skill_level_success_rates"
+            },
+            {
+              "description": "Probability of advancing to better position"
+            }
+          ]
+        },
+        "submission_probability": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/skill_level_success_rates"
+            },
+            {
+              "description": "Probability of finishing from this position"
+            }
+          ]
+        },
+        "average_time": {
+          "type": "string",
+          "description": "Average time spent in position (optional)"
+        }
+      }
     },
-
     "expert_insights": {
-      "danaher": "The turtle position offers exceptional back taking opportunities when approached systematically. The sequence is always the same: establish seatbelt control, secure one hook, then the second hook. Never rush to insert hooks without first controlling the upper body through the seatbelt grip. This prevents the sit-through escape and ensures your back take is controlled and high-percentage.",
-      "gordon_ryan": "I love attacking turtle because most people don't escape properly. They stay static thinking they're safe. The moment someone turtles against me, I'm looking for the seatbelt and hooks. If they try to sit through, I follow to darce or anaconda. The key is being patient with your back take - don't force the hooks, wait for the right moment.",
-      "eddie_bravo": "From turtle top, the Twister system opens up if your opponent is flexible. The Twister and Electric Chair are 10th Planet specialties from this position. But even if you're not going for those, the basic back take principles still apply - secure the seat belt, get your hooks in, and work your submissions from there."
+      "type": "object",
+      "description": "Insights from all 3 experts (REQUIRED, 200+ chars each)",
+      "additionalProperties": false,
+      "required": [
+        "danaher",
+        "gordon_ryan",
+        "eddie_bravo"
+      ],
+      "properties": {
+        "danaher": {
+          "type": "string",
+          "minLength": 200,
+          "description": "John Danaher - systematic/biomechanical perspective"
+        },
+        "gordon_ryan": {
+          "type": "string",
+          "minLength": 200,
+          "description": "Gordon Ryan - competition/practical application"
+        },
+        "eddie_bravo": {
+          "type": "string",
+          "minLength": 200,
+          "description": "Eddie Bravo - innovation/10th Planet approach"
+        }
+      }
+    },
+    "skill_level_success_rates": {
+      "type": "object",
+      "description": "Success rates by skill level - REQUIRED with validation (beginner ≤ intermediate ≤ advanced)",
+      "additionalProperties": false,
+      "required": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "properties": {
+        "beginner": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Success rate for beginner practitioners"
+        },
+        "intermediate": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Success rate for intermediate practitioners"
+        },
+        "advanced": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Success rate for advanced practitioners"
+        },
+        "description": {
+          "type": "string",
+          "description": "Optional description of this metric"
+        }
+      }
     }
   }
 }

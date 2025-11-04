@@ -1,37 +1,15 @@
 {
-  "metadata": {
-    "title": "Flying Kneebar | BJJ Submission | BJJ Graph",
-    "description": "Master the Flying Kneebar in BJJ. Complete guide with safety protocols, setup, execution, and counters. Success rates: Beginner 15%, Intermediate 30%, Advanced 50%.",
-    "submission_id": "SUB056",
-    "tags": ["bjj", "submission", "flying-kneebar", "leg-lock", "joint-lock", "kneebar", "dynamic-entry", "advanced-technique"],
-    "submission_category": "Joint Lock",
-    "submission_type": "Leg Lock",
-    "target_area": "Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)",
-    "starting_position": "Standing Guard Bottom",
-    "success_rates": {
-      "beginner": 15,
-      "intermediate": 30,
-      "advanced": 50
-    },
-    "from_positions": [
-      "Standing Guard Bottom",
-      "Standing Position",
-      "Guard Pull",
-      "Neutral Starting Position",
-      "Open Guard Bottom"
-    ],
-    "related_submissions": [
-      "Kneebar",
-      "Kneebar from Guard",
-      "Kneebar from Top",
-      "Inside Heel Hook",
-      "Flying Armbar",
-      "Straight Ankle Lock",
-      "Kneebar from 50-50",
-      "Outside Heel Hook",
-      "Heel Hook",
-      "Toe Hold"
-    ]
+  "name": "Flying Kneebar",
+  "description": "Master the Flying Kneebar in BJJ. Complete guide with safety protocols, setup, execution, and counters. Success rates: Beginner 15%, Intermediate 30%, Advanced 50%.",
+  "tags": ["bjj", "submission", "flying-kneebar", "leg-lock", "joint-lock", "kneebar", "dynamic-entry", "advanced-technique"],
+  "submission_category": "Joint Lock",
+  "submission_type": "Leg Lock",
+  "target_area": "Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)",
+  "starting_position": "Standing Guard",
+  "success_rates": {
+    "beginner": 15,
+    "intermediate": 30,
+    "advanced": 50
   },
   "overview": "The Flying Kneebar is an advanced, dynamic leg lock submission that involves jumping onto the opponent's leg while standing and immediately transitioning to a kneebar position mid-air. This spectacular technique combines athleticism, timing, and technical precision to catch opponents off-guard during standup exchanges or guard pulls. While visually impressive and highly effective when executed properly, the Flying Kneebar carries significant risk for both practitioners and requires extensive drilling before live application. The submission targets the knee joint through hyperextension, attacking the posterior cruciate ligament (PCL), medial collateral ligament (MCL), and lateral collateral ligament (LCL) simultaneously. Due to the dynamic nature of the entry and the potential for awkward landings, this technique demands exceptional body control and spatial awareness. The Flying Kneebar is most commonly seen in no-gi competition where grips don't interfere with the rotational mechanics, though gi variations exist using lapel and sleeve grips to control the descent. This submission represents the intersection of takedown artistry and leg lock expertise, requiring practitioners to master both the aerial component and the finishing mechanics to achieve consistent success.",
   "safety_considerations": {
@@ -353,6 +331,29 @@
       "safety_emphasis": "Know ruleset restrictions (IBJJF bans at white/blue belt). Even in competition, apply pressure progressively to allow tap response time. Post-competition assessment of technique application for safety review. Never use this technique on training partners without explicit consent and established safety record."
     }
   ],
+  "from_positions": [
+    "Standing Guard",
+    "Standing Position",
+    "Open Guard",
+    "Seated Guard",
+    "Spider Guard",
+    "De La Riva Guard"
+  ],
+  "related_submissions": [
+    "Kneebar",
+    "Kneebar from Guard",
+    "Kneebar from Top",
+    "Kneebar Variations",
+    "Inside Heel Hook",
+    "Flying Armbar",
+    "Straight Ankle Lock",
+    "Kneebar from 50-50",
+    "Outside Heel Hook",
+    "Heel Hook",
+    "Toe Hold",
+    "Estima Lock",
+    "Achilles Lock"
+  ],
   "related_content": [
     {
       "name": "Kneebar",
@@ -371,11 +372,11 @@
       "relationship": "Common transition when opponent defends by turning into kneebar"
     },
     {
-      "name": "Ashi Garami Bottom",
+      "name": "Inside Ashi-Garami",
       "relationship": "Landing position after successful flying kneebar entry"
     },
     {
-      "name": "Single Leg X Guard Bottom",
+      "name": "Single Leg X-Guard",
       "relationship": "Alternative leg entanglement with similar control structure"
     },
     {

@@ -1,25 +1,22 @@
 {
-  "metadata": {
-    "title": "Rolling Kimura Escape | BJJ Technique | BJJ Graph",
-    "description": "Learn Rolling Kimura Escape in BJJ. Dynamic rolling technique from Kimura Control to Guard Recovery. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T213",
-    "tags": [
-      "bjj",
-      "transition",
-      "escape",
-      "kimura",
-      "advanced",
-      "defensive",
-      "shoulder-lock-escape",
-      "rolling-mechanics"
-    ],
-    "starting_position": "Kimura Control Position",
-    "ending_position": "Guard Recovery",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Rolling Kimura Escape",
+  "description": "Learn Rolling Kimura Escape in BJJ. Dynamic rolling technique from Kimura Control to Guard Recovery. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "kimura",
+    "advanced",
+    "defensive",
+    "shoulder-lock-escape",
+    "rolling-mechanics"
+  ],
+  "starting_position": "Kimura Control",
+  "ending_position": "Open Guard",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Rolling Kimura Escape is an advanced defensive technique used to escape when an opponent has secured a tight Kimura grip on your arm. This dynamic escape utilizes forward rolling mechanics to relieve shoulder pressure and create space for guard recovery. The technique is particularly effective when traditional defensive frames have failed and the shoulder lock is being applied with significant pressure. The rolling motion works by using momentum and body rotation to change the angle of attack, transforming what would be a devastating submission into an opportunity to return to a neutral or even advantageous position. This escape requires excellent timing, spatial awareness, and complete commitment to the rolling motion. The key principle is that by rolling in the direction of the lock rather than resisting against it, you can momentarily relieve pressure while repositioning your body to defend. Success depends heavily on recognizing the exact moment when your opponent is committed to the finish and cannot easily adjust their base to follow your roll.",
   "key_principles": [
@@ -232,7 +229,7 @@
       "relationship": "Primary preventative technique - preferred over rolling escape"
     },
     {
-      "name": "Kimura Control Position",
+      "name": "Kimura Control",
       "relationship": "Starting position for the attack this escape counters"
     },
     {
@@ -244,7 +241,7 @@
       "relationship": "Foundational escape movement that should be attempted first"
     },
     {
-      "name": "Guard Recovery",
+      "name": "Open Guard",
       "relationship": "Common ending position after successful escape"
     },
     {

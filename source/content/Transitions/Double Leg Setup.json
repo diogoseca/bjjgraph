@@ -1,24 +1,21 @@
 {
-  "metadata": {
-    "title": "Double Leg Setup | BJJ Technique | BJJ Graph",
-    "description": "Learn Double Leg Setup in BJJ. Step-by-step execution from Standing Position to Penetration Step. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T044",
-    "tags": [
-      "bjj",
-      "transition",
-      "takedown",
-      "setup",
-      "wrestling",
-      "standing",
-      "entry"
-    ],
-    "starting_position": "Standing Position",
-    "ending_position": "Double Leg Entry",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Double Leg Setup",
+  "description": "Learn Double Leg Setup in BJJ. Step-by-step execution from Standing Position to Double Leg Entry. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "takedown",
+    "setup",
+    "wrestling",
+    "standing",
+    "entry"
+  ],
+  "starting_position": "Standing Position",
+  "ending_position": "Double Leg Entry",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Double Leg Setup is a fundamental wrestling entry adapted for Brazilian Jiu-Jitsu that creates the optimal conditions for executing a double leg takedown. This preparatory sequence focuses on controlling distance, manipulating opponent reactions, and establishing proper positioning before committing to the explosive penetration step. The setup phase is arguably more important than the finish itself, as it determines whether you'll achieve a clean takedown or expose yourself to sprawl defense and guillotine attacks. Effective setup work involves a combination of grip fighting, level changes, angle creation, and timing that forces your opponent into defensive postures while creating offensive opportunities. The modern approach to double leg setups emphasizes tactical entries over purely athletic explosiveness, making it accessible to practitioners of all physical abilities. Understanding the setup mechanics allows you to chain together multiple takedown attempts, use feints to create openings, and seamlessly transition between standing and ground techniques when opportunities arise.",
   "key_principles": [
@@ -273,7 +270,7 @@
       "relationship": "Position that often results from failed or defended setup attempts"
     },
     {
-      "name": "Pull guard",
+      "name": "Guard Pull",
       "relationship": "Strategic alternative when takedown setups are being consistently defended"
     },
     {

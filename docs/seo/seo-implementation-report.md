@@ -468,7 +468,7 @@ npx quartz build --serve
    - Test 10 random pages load correctly
 
 2. **Submit to Google Search Console** 🔴 HIGH PRIORITY
-   - Submit sitemap: https://bjjgraph.com/sitemap.xml
+   - Submit sitemap: https://bjjgraph.org/sitemap.xml
    - Request indexing for 5 hub pages
    - Monitor for schema errors
    - Check crawl errors
@@ -649,16 +649,16 @@ npx quartz build --serve
 
 ### Critical URLs to Test Post-Deployment
 
-1. **Sitemap:** https://bjjgraph.com/sitemap.xml
-2. **Robots.txt:** https://bjjgraph.com/robots.txt
+1. **Sitemap:** https://bjjgraph.org/sitemap.xml
+2. **Robots.txt:** https://bjjgraph.org/robots.txt
 3. **Hub Pages:**
-   - https://bjjgraph.com/bjj-positions
-   - https://bjjgraph.com/bjj-transitions
-   - https://bjjgraph.com/bjj-submissions
-   - https://bjjgraph.com/bjj-escapes
-   - https://bjjgraph.com/bjj-guard-passing
-4. **Sample Position:** https://bjjgraph.com/positions/mount
-5. **Sample Transition:** https://bjjgraph.com/transitions/hip-bump-sweep
+   - https://bjjgraph.org/bjj-positions
+   - https://bjjgraph.org/bjj-transitions
+   - https://bjjgraph.org/bjj-submissions
+   - https://bjjgraph.org/bjj-escapes
+   - https://bjjgraph.org/bjj-guard-passing
+4. **Sample Position:** https://bjjgraph.org/positions/mount
+5. **Sample Transition:** https://bjjgraph.org/transitions/hip-bump-sweep
 
 ### Validation Tools
 

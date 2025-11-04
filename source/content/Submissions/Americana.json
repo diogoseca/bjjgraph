@@ -1,18 +1,15 @@
 {
-  "metadata": {
-    "title": "Americana | BJJ Submission | BJJ Graph",
-    "description": "Master Americana shoulder lock in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
-    "submission_id": "SUB002",
-    "tags": ["bjj", "submission", "americana", "shoulder-lock", "joint-lock", "keylock", "mount", "side-control"],
-    "submission_category": "Joint Lock",
-    "submission_type": "Shoulder Lock",
-    "target_area": "Shoulder joint (specifically glenohumeral joint and rotator cuff)",
-    "starting_position": "Mount Top",
-    "success_rates": {
-      "beginner": 45,
-      "intermediate": 60,
-      "advanced": 75
-    }
+  "name": "Americana",
+  "description": "Master the Americana shoulder lock from mount and side control. Complete safety protocols, systematic setup, and controlled execution. Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "tags": ["bjj", "submission", "americana", "shoulder-lock", "joint-lock", "keylock", "mount", "side-control"],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint (specifically glenohumeral joint and rotator cuff)",
+  "starting_position": "Mount",
+  "success_rates": {
+    "beginner": 45,
+    "intermediate": 60,
+    "advanced": 75
   },
   "overview": "The Americana, also known as the keylock or ude garami, is a fundamental shoulder lock that attacks the glenohumeral joint through external rotation and hyperextension. This submission is one of the first joint locks taught to beginners due to its mechanical simplicity and high-percentage nature from dominant positions like mount and side control. The Americana works by isolating the opponent's arm at a 90-degree angle and applying rotational pressure that forces the shoulder joint beyond its natural range of motion. The technique's effectiveness stems from leverage advantage rather than strength, making it accessible to practitioners of all sizes when executed with proper mechanics.\n\nHistorically, the Americana has been a staple of Brazilian Jiu-Jitsu competition and self-defense applications, particularly effective in gi and no-gi contexts. The submission creates a powerful control position before the finish, allowing the attacker to maintain dominant position even if the submission attempt fails. This dual-purpose nature makes it invaluable for positional advancement and securing finishes. The Americana also serves as an excellent entry point for understanding shoulder mechanics, which translates to more advanced submissions like the Kimura and omoplata.\n\nFrom a strategic perspective, the Americana exemplifies positional control before submission. Practitioners learn to isolate the arm, control the wrist, and apply measured pressure while maintaining base and preventing escapes. The submission teaches essential concepts of leverage, angle creation, and systematic pressure application that form the foundation for more complex attacking sequences. Understanding the Americana deeply enhances overall submission awareness and defensive recognition.",
   "safety_considerations": {
@@ -90,7 +87,7 @@
     {
       "step_number": 1,
       "action": "Isolate and extend the target arm",
-      "description": "From mount top or side control top, swim your hand under the opponent's tricep and establish a deep grip on their wrist. Pull the arm away from their body at approximately 90 degrees, creating space between their elbow and torso. The opponent's palm should be facing toward their own head. Maintain heavy chest pressure throughout this isolation to prevent them from pulling the arm back to their body or establishing defensive frames.",
+      "description": "From mount or side control, swim your hand under the opponent's tricep and establish a deep grip on their wrist. Pull the arm away from their body at approximately 90 degrees, creating space between their elbow and torso. The opponent's palm should be facing toward their own head. Maintain heavy chest pressure throughout this isolation to prevent them from pulling the arm back to their body or establishing defensive frames.",
       "timing": "1-2 seconds",
       "pressure_level": "Moderate"
     },
@@ -151,7 +148,7 @@
     {
       "defense": "Bridging explosively to create space or attempt to roll",
       "effectiveness": "Medium",
-      "your_adjustment": "Anticipate the bridge by maintaining wide base and posting with your free hand. As they bridge, ride the movement and step over to technical mount or S-mount, which provides better angle for the Americana while neutralizing their bridging power. Lower your hips and widen your base preventatively."
+      "your_adjustment": "Anticipate the bridge by maintaining wide base and posting with your free hand. As they bridge, ride the movement and step over to technical mount or S Mount, which provides better angle for the Americana while neutralizing their bridging power. Lower your hips and widen your base preventatively."
     },
     {
       "defense": "Straightening the trapped arm forcefully to prevent the 90-degree angle",
@@ -160,7 +157,7 @@
     },
     {
       "defense": "Using free hand to push your head, create frames, or strip grips",
-      "effectiveness": "Low to Medium",
+      "effectiveness": "Low",
       "your_adjustment": "Control the free hand by trapping it with your knee (from mount), using head position to pin it, or establishing a gift wrap position. If their push creates distance, maintain the Americana grip and follow their movement while keeping pressure constant. Consider transitioning to crucifix position if you can trap both arms."
     }
   ],
@@ -210,17 +207,17 @@
   ],
   "variations_and_setups": [
     {
-      "variation_name": "Americana from Side Control Top",
+      "variation_name": "Americana from Side Control",
       "description": "From side control, isolate the near arm by swimming under the tricep and establishing the figure-four grip. Use your chest to pin their elbow to their own ribcage rather than the mat. Your hips should be heavy and your weight distributed to prevent their bridge. The rotation angle is slightly different from mount - you'll rotate their hand toward their own face rather than toward the mat near their head. This variation is particularly effective when transitioning from north-south or when opponent is defending mount escapes.",
       "when_to_use": "When you have established side control with good chest pressure and the opponent's near arm is extended or defending. Particularly effective against opponents who use frames, as you can attack the framing arm directly."
     },
     {
-      "variation_name": "Americana from Knee on Belly Top",
+      "variation_name": "Americana from Knee on Belly",
       "description": "From knee on belly position, drop your knee off the belly and transition weight to side control while simultaneously grabbing the near wrist. The Americana setup from here is identical to side control, but the initial knee on belly position often causes the opponent to extend their arms in defense, creating the perfect entry. This variation is fast and catches opponents off guard during the transition. Maintain connection with your knee on their hip or thigh to prevent them from turning into you.",
       "when_to_use": "When opponent extends their arm to push against your knee on belly or to prevent you from advancing to mount. The transition timing is crucial - attack the Americana as you shift weight, not after you've settled into static side control."
     },
     {
-      "variation_name": "Americana from North-South Top",
+      "variation_name": "Americana from North-South",
       "description": "From north-south position, isolate the far arm by reaching across their body and establishing wrist control. Your chest pins their head and upper body, while your arm threads under their elbow. The figure-four grip is established similarly, but you'll need to adjust your body angle slightly toward their legs to create the proper rotation angle. This variation is excellent when opponent is defending side control by turning into you, as north-south neutralizes their turning defense.",
       "when_to_use": "When transitioning between side controls or when opponent turns to their side to defend. The north-south position provides excellent control and prevents most escapes while setting up the Americana on the far arm."
     },
@@ -257,12 +254,12 @@
       "safety_critical": true
     },
     {
-      "question": "What is the correct direction of rotation for the Americana from mount top, and why is the angle important?",
-      "answer": "From mount top, rotate the opponent's hand in a smooth arc toward the mat near their head, as if 'painting a rainbow' from their waist toward their ear. The opponent's palm should face toward their own head throughout the rotation. This angle creates external rotation of the shoulder joint, which is the weakest direction for the shoulder's range of motion. If the hand points away from their head, you create internal rotation which is much stronger and ineffective for the submission.",
+      "question": "What is the correct direction of rotation for the Americana from mount, and why is the angle important?",
+      "answer": "From mount, rotate the opponent's hand in a smooth arc toward the mat near their head, as if 'painting a rainbow' from their waist toward their ear. The opponent's palm should face toward their own head throughout the rotation. This angle creates external rotation of the shoulder joint, which is the weakest direction for the shoulder's range of motion. If the hand points away from their head, you create internal rotation which is much stronger and ineffective for the submission.",
       "safety_critical": false
     },
     {
-      "question": "Describe the proper grip mechanics for the figure-four wrist control in the Americana.",
+      "question": "What are the proper grip mechanics for the figure-four wrist control in the Americana?",
       "answer": "The figure-four grip involves threading one hand under the opponent's wrist and gripping your own wrist, creating a reinforced lock. Your bottom hand controls their wrist directly on the wrist bones (radius and ulna), not on the hand. Your top hand grips your own wrist to reinforce and prevent slipping. The opponent's wrist should be trapped between your forearms, creating a secure vice. Your forearms form a 'C' shape around their wrist. The grip should be firm enough to prevent slipping but not so tight that you fatigue quickly.",
       "safety_critical": false
     },
@@ -316,21 +313,50 @@
       "safety_emphasis": "As you become proficient, your responsibility for partner safety increases. Model proper application speed and control for junior practitioners. Develop sensitivity to feel when partner is in danger before they tap. Understand that mastery includes knowing when NOT to finish the submission in training."
     }
   ],
+  "from_positions": [
+    "Mount",
+    "Side Control",
+    "Knee on Belly",
+    "North-South",
+    "Kesa Gatame",
+    "Kuzure Kesa-Gatame",
+    "Modified Scarf Hold",
+    "High Mount",
+    "S Mount",
+    "Modified Mount"
+  ],
+  "related_submissions": [
+    "Kimura",
+    "Kimura from Mount",
+    "Kimura from Side Control",
+    "Kimura from North-South",
+    "Armbar from Mount",
+    "Armbar from Side Control",
+    "Straight Armbar",
+    "Americana from Mount",
+    "Americana from Side Control",
+    "Americana Variations",
+    "Reverse Kimura",
+    "North-South to Kimura",
+    "Kimura Variations",
+    "Arm Triangle",
+    "Ezekiel from Mount"
+  ],
   "related_content": [
     {
-      "name": "Mount Top",
+      "name": "Mount",
       "relationship": "Primary attacking position - provides excellent base and control for Americana execution with chest pressure and weight distribution advantages"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Alternative attacking position - allows Americana on near arm with hip pressure replacing chest pressure for elbow pin"
     },
     {
-      "name": "North-South Top",
+      "name": "North-South",
       "relationship": "Transitional position - enables Americana on far arm when opponent turns to defend side control, provides excellent control for shoulder lock mechanics"
     },
     {
-      "name": "Knee on Belly Top",
+      "name": "Knee on Belly",
       "relationship": "Entry position - opponent's defensive arm extensions create immediate Americana opportunities during transition to side control"
     },
     {
@@ -354,11 +380,11 @@
       "relationship": "Follow-up submission - when opponent defends Americana by straightening arm forcefully, transition to straight armbar mechanics on the extended limb"
     },
     {
-      "name": "Gift Wrap Top Position",
+      "name": "Gift Wrap",
       "relationship": "Control position for entry - gift wrap isolates the arm and creates perfect Americana setup from mount or back control variations"
     },
     {
-      "name": "S Mount Top",
+      "name": "S Mount",
       "relationship": "Advanced position - provides superior angle for Americana when opponent begins to defend by turning or bridging from standard mount"
     },
     {

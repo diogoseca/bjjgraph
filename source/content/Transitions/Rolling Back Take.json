@@ -1,22 +1,21 @@
 {
-  "metadata": {
-    "title": "Rolling Back Take | BJJ Technique | BJJ Graph",
-    "description": "Learn Rolling Back Take in BJJ. Step-by-step execution from Turtle Top to Back Control. Success: Beginner 45%, Intermediate 65%, Advanced 80%.",
-    "transition_id": "T237",
-    "tags": [
-      "bjj",
-      "transition",
-      "back_attack",
-      "turtle",
-      "dynamic"
-    ],
-    "starting_position": "Turtle Position Top",
-    "ending_position": "Back Control",
-    "success_rates": {
-      "beginner": 45,
-      "intermediate": 65,
-      "advanced": 80
-    }
+  "name": "Rolling Back Take",
+  "description": "Learn Rolling Back Take in BJJ. Step-by-step execution from Turtle to Back Control. Success: Beginner 45%, Intermediate 65%, Advanced 80%. Dynamic technique using momentum.",
+  "tags": [
+    "bjj",
+    "transition",
+    "back_attack",
+    "turtle",
+    "dynamic",
+    "momentum",
+    "rotation"
+  ],
+  "starting_position": "Turtle",
+  "ending_position": "Back Control",
+  "success_rates": {
+    "beginner": 45,
+    "intermediate": 65,
+    "advanced": 80
   },
   "overview": "The Rolling Back Take is a dynamic and highly effective transition from top turtle position to back control. This technique exploits the opponent's defensive posture by using momentum and timing to roll over their shoulder, landing directly on their back with control. Unlike static back takes that rely on breaking down the turtle position incrementally, the rolling back take uses explosive movement to bypass defensive frames entirely. This technique is particularly valuable when the opponent maintains a strong defensive turtle with their elbows tight to their knees, making traditional hook insertions difficult. The rolling back take requires precise timing, spatial awareness, and the ability to maintain connection throughout the roll. When executed correctly, it provides immediate access to high-value control positions and submission opportunities, making it a favorite among competitors at all levels.",
   "key_principles": [
@@ -228,7 +227,7 @@
       "relationship": "Parent technique category - traditional back takes from turtle"
     },
     {
-      "name": "Crucifix from Turtle",
+      "name": "Crucifix",
       "relationship": "Alternative when opponent defends roll by posting arm"
     },
     {
@@ -244,7 +243,7 @@
       "relationship": "Alternative submission after establishing back control"
     },
     {
-      "name": "Turtle Position Top",
+      "name": "Turtle",
       "relationship": "Starting position for the technique"
     },
     {
@@ -264,7 +263,7 @@
       "relationship": "Submission option from achieved back control"
     },
     {
-      "name": "Gift Wrap Position",
+      "name": "Gift Wrap",
       "relationship": "Alternative control position if arm is captured during roll"
     }
   ],

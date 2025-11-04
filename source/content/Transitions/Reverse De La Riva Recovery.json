@@ -1,16 +1,13 @@
 {
-  "metadata": {
-    "title": "Reverse De La Riva Recovery | BJJ Technique | BJJ Graph",
-    "description": "Master Reverse De La Riva Recovery in BJJ. Learn how to re-establish guard control from compromised positions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
-    "transition_id": "T218",
-    "tags": ["bjj", "guard-recovery", "reverse-de-la-riva", "defensive-transition", "guard-retention"],
-    "starting_position": "Reverse De La Riva Guard Bottom",
-    "ending_position": "Reverse De La Riva Guard Bottom",
-    "success_rates": {
-      "beginner": 45,
-      "intermediate": 60,
-      "advanced": 75
-    }
+  "name": "Reverse De La Riva Recovery",
+  "description": "Master Reverse De La Riva Recovery in BJJ. Learn how to re-establish guard control from compromised positions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "tags": ["bjj", "guard-recovery", "reverse-de-la-riva", "defensive-transition", "guard-retention"],
+  "starting_position": "Reverse De La Riva Guard",
+  "ending_position": "Reverse De La Riva Guard",
+  "success_rates": {
+    "beginner": 45,
+    "intermediate": 60,
+    "advanced": 75
   },
   "overview": "Reverse De La Riva Recovery is a critical defensive transition that allows practitioners to re-establish proper Reverse De La Riva guard structure when the opponent has begun to compromise the position. This technique is essential for maintaining guard retention when facing pressure passing attacks or when hooks and grips have been partially cleared. The recovery sequence focuses on hip movement, hook retention, and grip fighting to restore the fundamental control elements of RDLR guard.\n\nThe technique becomes necessary when opponents successfully clear the primary hook, establish strong shoulder pressure, or begin advancing their base to initiate a pass. Unlike static guard maintenance, recovery requires dynamic hip escape mechanics combined with strategic re-gripping to prevent the pass while simultaneously rebuilding guard structure. Understanding recovery sequences is often what separates intermediate practitioners who lose position from advanced players who can maintain guard under pressure.\n\nMastering RDLR recovery creates a safety net that allows more aggressive guard play. When you know you can recover the position even when partially compromised, you can take calculated risks with sweeps and submissions without fear of immediate guard passage. This recovery sequence integrates seamlessly with other guard retention concepts, making it a fundamental component of any complete bottom game.",
   "key_principles": [
@@ -217,8 +214,8 @@
   "position_integration": "RDLR Recovery is a critical component of comprehensive guard retention strategy and integrates with multiple defensive and offensive systems. This recovery sequence connects directly to the broader guard retention framework, where multiple layers of defense prevent opponents from passing. When RDLR is your primary guard, having reliable recovery sequences allows you to play the position more aggressively, knowing you can reset if attacks are defended.\n\nThe technique integrates with other guard recovery concepts like Butterfly Guard recovery, seated guard transitions, and technical standup sequences. Advanced practitioners develop decision trees where they can flow between these recovery options based on opponent's pressure direction and grip configurations. RDLR recovery also connects to offensive sequences - many advanced players use the recovery hip escape movement to create angles for Kiss of the Dragon sweeps or transitions to X-guard, turning defensive recovery into offensive opportunity.\n\nWithin competition strategy, reliable RDLR recovery sequences reduce the psychological pressure of potentially losing position, allowing more calculated risk-taking with sweep and submission attempts. This recovery also integrates with modern leg entanglement defense, as recovering proper RDLR structure can prevent opponents from entering into leg lock positions during passing sequences.",
   "related_content": [
     {
-      "name": "De La Riva Sweep",
-      "relationship": "Offensive transition from successfully recovered RDLR position"
+      "name": "De La Riva Guard",
+      "relationship": "Related guard system with similar recovery principles"
     },
     {
       "name": "Kiss of the Dragon",
@@ -233,7 +230,7 @@
       "relationship": "Broader guard retention concept that includes RDLR recovery"
     },
     {
-      "name": "Butterfly Sweep",
+      "name": "Butterfly Guard",
       "relationship": "Alternative guard position to transition to during recovery"
     },
     {
@@ -241,8 +238,8 @@
       "relationship": "Follow-up transition from recovered RDLR position"
     },
     {
-      "name": "Single Leg X Sweep",
-      "relationship": "Related sweep from connected guard system"
+      "name": "Single Leg X-Guard",
+      "relationship": "Related guard system within leg entanglement family"
     },
     {
       "name": "Berimbolo Entry",
@@ -251,6 +248,18 @@
     {
       "name": "RDLR Pass",
       "relationship": "Understanding opponent's passing strategy helps inform recovery timing"
+    },
+    {
+      "name": "Hip Escape",
+      "relationship": "Core movement pattern essential for recovery execution"
+    },
+    {
+      "name": "Granby Roll",
+      "relationship": "Alternative recovery movement for heavy pressure situations"
+    },
+    {
+      "name": "Shin Shield Recovery",
+      "relationship": "Related guard retention concept for different guard systems"
     }
   ],
   "expert_insights": {

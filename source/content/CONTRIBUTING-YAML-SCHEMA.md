@@ -10,7 +10,7 @@ This document defines the complete YAML frontmatter schema for all content types
 1. [Positions Schema](#positions-schema)
 2. [Transitions Schema](#transitions-schema)
 3. [Submissions Schema](#submissions-schema)
-4. [Concepts Schema](#concepts-schema)
+4. [Principles Schema](#principles-schema)
 5. [Systems Schema](#systems-schema)
 6. [Learning Articles Schema](#learning-articles-schema)
 7. [Validation Rules](#validation-rules)
@@ -129,7 +129,7 @@ bot_metadata:
 - **Timestamp Updates**: Even if no content changes are made, the bot updates this metadata, which changes the file's modification time.
 - **Rotation Mechanism**: Updated timestamps ensure files naturally rotate out of the "oldest 100" pool after being processed.
 - **Audit Trail**: Provides a record of when each file was last reviewed by automation.
-- **All Content Types**: Applies to Positions, Transitions, Submissions, Concepts, Systems, and Learning articles.
+- **All Content Types**: Applies to Positions, Transitions, Submissions, Principles, Systems, and Learning articles.
 
 ### Complete Example
 
@@ -310,14 +310,14 @@ description: "Learn Rear Naked Choke in BJJ. Complete guide from Back Control. S
 
 ---
 
-## Concepts Schema
+## Principles Schema
 
 ### Purpose
-Concepts represent fundamental principles and frameworks that apply across multiple positions and techniques. These are educational resources rather than state machine nodes.
+Principles represent fundamental principles and frameworks that apply across multiple positions and techniques. These are educational resources rather than state machine nodes.
 
 ### YAML Structure
 
-Concepts typically use minimal YAML frontmatter or none at all, relying on markdown headers and tags.
+Principles typically use minimal YAML frontmatter or none at all, relying on markdown headers and tags.
 
 ```yaml
 ---
@@ -349,7 +349,7 @@ description: "Understand Concept Name in BJJ. Fundamental principle applicable a
 **Key Sections:**
 - Key Principles (bulleted list)
 - Component Skills (sub-skills breakdown)
-- Concept Relationships (links to related concepts)
+- Concept Relationships (links to related principles)
 - Expert Insights (Danaher, Gordon Ryan, Eddie Bravo)
 - Common Errors (mistakes and corrections)
 - Training Approaches (how to develop the skill)
@@ -368,7 +368,7 @@ description: "Understand Base Maintenance in BJJ. Fundamental principle for stab
 - Application Level: Fundamental
 - Complexity Level: Medium
 - Development Timeline: Beginner to Advanced
-- No success rates (concepts don't have probabilistic outcomes)
+- No success rates (principles don't have probabilistic outcomes)
 
 ---
 
@@ -379,7 +379,7 @@ Systems represent comprehensive attack or defense frameworks that chain multiple
 
 ### YAML Structure
 
-Systems use minimal YAML or none, similar to Concepts.
+Systems use minimal YAML or none, similar to Principles.
 
 ```yaml
 ---
@@ -563,8 +563,8 @@ tags:
   "name": "BJJ Guard Types",
   "description": "Complete list of Brazilian Jiu-Jitsu guard positions organized by category",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Closed Guard Bottom", "url": "https://bjjgraph.com/positions/closed-guard-bottom"},
-    {"@type": "ListItem", "position": 2, "name": "Open Guard Bottom", "url": "https://bjjgraph.com/positions/open-guard-bottom"}
+    {"@type": "ListItem", "position": 1, "name": "Closed Guard Bottom", "url": "https://bjjgraph.org/positions/closed-guard-bottom"},
+    {"@type": "ListItem", "position": 2, "name": "Open Guard Bottom", "url": "https://bjjgraph.org/positions/open-guard-bottom"}
   ]
 }
 ```
@@ -623,6 +623,85 @@ See `source/content/Learning/CONTRIBUTING-LEARNING.md` for complete Learning art
    - Must include key action verb (Master, Learn, Understand)
    - Should mention success rates for positions/transitions/submissions
    - Must be actionable and descriptive
+
+### Hub-and-Spoke Nested File References (Post-Reorganization)
+
+**Important:** As of commit `0734e5c`, BJJ Graph uses a hub-and-spoke architecture where some content files are nested in subdirectories. This affects how you reference files in `related_content` and other reference fields.
+
+#### Directory Structure
+```
+Positions/
+├── Mount.json                           # Hub file
+├── Mount/                               # Variant folder
+│   ├── High Mount.json                  # Nested variant
+│   └── S Mount.json                     # Nested variant
+├── Ashi Garami.json                     # Hub file
+└── Ashi Garami/                         # Variant folder
+    ├── Inside Ashi-Garami.json          # Nested variant
+    ├── Outside Ashi-Garami.json         # Nested variant
+    └── Honey Hole.json                  # Nested variant
+```
+
+#### Reference Format Rules
+
+**✓ CORRECT - Use only the base filename (no paths, no extensions):**
+```json
+{
+  "name": "Inside Ashi-Garami",
+  "content_type": "Position"
+}
+```
+
+**✗ WRONG - Do not use folder paths:**
+```json
+{
+  "name": "Ashi Garami/Inside Ashi-Garami",  // ❌ Never use slash paths
+  "content_type": "Position"
+}
+```
+
+**✗ WRONG - Do not use category prefixes:**
+```json
+{
+  "name": "Positions/Ashi Garami/Inside Ashi-Garami",  // ❌ Never use category paths
+  "content_type": "Position"
+}
+```
+
+#### Examples by Category
+
+**Positions:**
+- ✓ `"Inside Ashi-Garami"` (file at `Positions/Ashi Garami/Inside Ashi-Garami.json`)
+- ✓ `"Deep Half Guard"` (file at `Positions/Half Guard/Deep Half Guard.json`)
+- ✓ `"Honey Hole"` (file at `Positions/Ashi Garami/Honey Hole.json`)
+- ✓ `"High Mount"` (file at `Positions/Mount/High Mount.json`)
+- ✗ `"Ashi Garami/Inside Ashi-Garami"` (never use folder prefix)
+- ✗ `"Half Guard/Deep Half Guard"` (never use folder prefix)
+
+**Wikilinks:**
+- ✓ `[[Inside Ashi-Garami]]` (correct - flat reference)
+- ✗ `[[Ashi Garami/Inside Ashi-Garami]]` (incorrect - no paths in wikilinks)
+
+#### Why This Matters
+
+The validation script (`scripts/validate_json.py`) searches for files recursively and matches references by **base filename only**. It automatically:
+- Finds nested files in subdirectories
+- Normalizes spaces, hyphens, and underscores for comparison
+- Resolves the full path internally
+
+**You only need to provide the base filename.** The validator handles the rest.
+
+#### Migration Note
+
+If you encounter validation errors like:
+```
+Field 'related_content': Invalid category in reference 'Ashi Garami/Inside Ashi-Garami'
+```
+
+This means you're using the old path format. Change it to just:
+```json
+{"name": "Inside Ashi-Garami", "content_type": "Position"}
+```
 
 ### Position-Specific Rules
 
@@ -694,15 +773,15 @@ See `source/content/Learning/CONTRIBUTING-LEARNING.md` for complete Learning art
 
 1. **Concept ID Format**
    - Pattern: `C###` where ### is 3-digit number (e.g., C111)
-   - Must be unique across all concepts
+   - Must be unique across all principles
 
 2. **No Success Rates**
-   - Concepts do not have probabilistic outcomes
+   - Principles do not have probabilistic outcomes
    - Do not include success rate data
 
 3. **Relationships Required**
-   - Must link to related concepts
-   - Minimum 3 related concepts recommended
+   - Must link to related principles
+   - Minimum 3 related principles recommended
 
 ### System-Specific Rules
 
@@ -761,7 +840,7 @@ See `source/content/Learning/CONTRIBUTING-LEARNING.md` for complete Learning art
    - Positions: `"[Name] | BJJ Position Guide | BJJ Graph"`
    - Transitions: `"[Name] | BJJ Technique | BJJ Graph"`
    - Submissions: `"[Name] | BJJ Submission | BJJ Graph"`
-   - Concepts: `"[Name] | BJJ Concept | BJJ Graph"`
+   - Principles: `"[Name] | BJJ Concept | BJJ Graph"`
    - Systems: `"[Name] | BJJ System | BJJ Graph"`
 
 2. **Description Templates**
@@ -893,7 +972,7 @@ BJJ Graph uses two distinct HowTo schema patterns depending on content type:
 #### Educational HowTo (Learning Articles)
 **Purpose**: Teach conceptual understanding and learning progression
 **Timeframe**: PT10M to PT12M (10-12 minutes reading time)
-**Step Focus**: Educational concepts, not physical execution
+**Step Focus**: Educational principles, not physical execution
 
 **Example - Understanding a Concept:**
 ```json
@@ -924,7 +1003,7 @@ BJJ Graph uses two distinct HowTo schema patterns depending on content type:
 **Characteristics:**
 - Steps describe learning progression, not physical technique
 - Time reflects reading/comprehension time
-- Focus on understanding concepts and relationships
+- Focus on understanding principles and relationships
 - Narrative explanations in step text
 - 5-7 steps typical
 
@@ -1046,7 +1125,7 @@ FAQ schema requirements differ between content types based on educational depth 
 | Transitions | 5 | 1-2 sentences | Success rates, physical requirements |
 | Submissions | 6 | 2-3 sentences | Safety data, success rates, injuries |
 | Learning Articles | 6-8 | 2-3 sentences | Statistics, comparisons, strategic data |
-| Concepts | 5 | 1-2 sentences | Applications, principles |
+| Principles | 5 | 1-2 sentences | Applications, principles |
 | Systems | 5 | 2-3 sentences | System components, strategic value |
 
 ### ItemList Schema Usage
@@ -1081,14 +1160,14 @@ ItemList schema is used for rankings, categorical lists, and Top 10 patterns. It
       "@type": "ListItem",
       "position": 1,
       "name": "Rear Naked Choke",
-      "url": "https://bjjgraph.com/submissions/rear-naked-choke",
+      "url": "https://bjjgraph.org/submissions/rear-naked-choke",
       "description": "75% average success rate from back control"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Armbar from Mount",
-      "url": "https://bjjgraph.com/submissions/armbar-from-mount",
+      "url": "https://bjjgraph.org/submissions/armbar-from-mount",
       "description": "68% average success rate from mount position"
     }
   ]
@@ -1107,13 +1186,13 @@ ItemList schema is used for rankings, categorical lists, and Top 10 patterns. It
       "@type": "ListItem",
       "position": 1,
       "name": "Closed Guard Bottom",
-      "url": "https://bjjgraph.com/positions/closed-guard-bottom"
+      "url": "https://bjjgraph.org/positions/closed-guard-bottom"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Open Guard Bottom",
-      "url": "https://bjjgraph.com/positions/open-guard-bottom"
+      "url": "https://bjjgraph.org/positions/open-guard-bottom"
     }
   ]
 }
@@ -1126,7 +1205,7 @@ Learning articles use 5 concurrent schemas that work together without conflict. 
 **Schema Stack for Learning Articles:**
 
 1. **WebPage** (Base layer)
-   - Identifies page as part of bjjgraph.com
+   - Identifies page as part of bjjgraph.org
    - Provides basic metadata
    - Required for all pages
 
@@ -1196,7 +1275,7 @@ description: "Article description"
 | **Transitions** | Technical (PT5M) | 5 | 1-2 sentences | No | 3-4 |
 | **Submissions** | Technical (PT5M) | 6 | 2-3 sentences | No | 3-4 |
 | **Hub Pages** | Educational (PT10M) | 6-8 | 2-3 sentences | Yes | 5 |
-| **Concepts** | Educational (PT8M) | 5 | 1-2 sentences | Rarely | 3-4 |
+| **Principles** | Educational (PT8M) | 5 | 1-2 sentences | Rarely | 3-4 |
 
 ---
 
@@ -1391,7 +1470,7 @@ if (!successRateRegex.test(successRate)) {
 - [[Transitions/CONTRIBUTING-TRANSITIONS]] - Transition content creation guide (for contributors and improvement bot)
 - [[Submissions/CONTRIBUTING-SUBMISSIONS]] - Submission content creation guide (for contributors and improvement bot)
 - [[Systems/CONTRIBUTING-SYSTEMS]] - Systems content creation guide (for contributors and improvement bot)
-- [[Principles/CONTRIBUTING-CONCEPTS]] - Concepts content creation guide (for contributors and improvement bot)
+- [[Principles/CONTRIBUTING-PRINCIPLES]] - Principles content creation guide (for contributors and improvement bot)
 - [Quartz Documentation](https://quartz.jzhao.xyz/) - Static site generator
 - [Schema.org HowTo](https://schema.org/HowTo) - Structured data reference
 - [YAML Specification](https://yaml.org/spec/) - YAML syntax reference

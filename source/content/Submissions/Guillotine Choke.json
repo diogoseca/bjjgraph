@@ -1,22 +1,17 @@
 {
-  "metadata": {
-    "title": "Guillotine Choke | BJJ Submission | BJJ Graph",
-    "description": "Master Guillotine Choke in BJJ. Complete guide with safety protocols, setup from guard and standing, execution steps. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.",
-    "submission_id": "SUB018",
-    "tags": ["bjj", "submission", "guillotine", "choke", "front-headlock", "blood-choke", "standing", "guard"],
-    "submission_category": "Choke",
-    "submission_type": "Blood Choke",
-    "target_area": "Carotid arteries and windpipe",
-    "starting_position": "Front Headlock",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 70
-    }
+  "name": "Guillotine Choke",
+  "description": "Master the Guillotine Choke in BJJ with step-by-step execution, safety protocols, and variations. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "tags": ["bjj", "submission", "guillotine", "choke", "front-headlock", "blood-choke", "standing", "guard"],
+  "submission_category": "Choke",
+  "submission_type": "Blood Choke",
+  "target_area": "Carotid arteries and windpipe",
+  "starting_position": "Front Headlock",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 55,
+    "advanced": 70
   },
-
   "overview": "The Guillotine Choke is one of the most versatile and high-percentage submissions in Brazilian Jiu-Jitsu, capable of being executed from standing positions, guard, or transitional scrambles. This blood choke targets the carotid arteries while also applying pressure to the trachea, making it a powerful finishing technique when applied correctly. The guillotine's effectiveness stems from its ability to capitalize on common defensive movements, particularly when opponents shoot for takedowns or attempt to pass guard with poor posture. The technique works by using your arm as a fulcrum around the opponent's neck while using hip pressure and body positioning to create the choking force. Its versatility allows for execution from numerous positions including standing, closed guard, half guard, and even during scrambles, making it an essential weapon for practitioners at all levels. The guillotine family includes multiple variations such as the high elbow guillotine, arm-in guillotine, and ten-finger guillotine, each with specific applications based on the situation and opponent's defensive reactions.",
-
   "safety_considerations": {
     "injury_risks": [
       {
@@ -62,7 +57,6 @@
       "Never practice on training partners with neck injuries"
     ]
   },
-
   "key_principles": [
     "Control the head position before establishing the choke - without head control, the choke cannot be effective",
     "Use hip pressure and body weight to generate choking force rather than arm strength alone",
@@ -72,7 +66,6 @@
     "Keep your choking shoulder tight to opponent's neck to eliminate space",
     "Use your non-choking arm to control opponent's body and prevent escape movements"
   ],
-
   "setup_requirements": [
     "Opponent's head must be below your centerline for proper control",
     "Establish head control with your choking arm wrapped around opponent's neck",
@@ -81,7 +74,6 @@
     "Opponent's posture must be broken forward to maintain submission control",
     "Your hips should be positioned to generate upward pressure into the choke"
   ],
-
   "execution_steps": [
     {
       "step_number": 1,
@@ -126,7 +118,6 @@
       "pressure_level": "Maximum"
     }
   ],
-
   "opponent_defense_patterns": [
     {
       "defense": "Opponent pushes your hips away to create space",
@@ -154,7 +145,6 @@
       "your_adjustment": "Accept the half guard position or open guard and focus on maintaining the choke. You can still finish guillotines from these positions by using hip pressure and proper angle."
     }
   ],
-
   "common_errors": [
     {
       "error": "Using only arm strength to finish the choke instead of hip pressure and body positioning",
@@ -199,7 +189,6 @@
       "danger_level": "Medium"
     }
   ],
-
   "variations_and_setups": [
     {
       "variation_name": "High Elbow Guillotine",
@@ -232,7 +221,6 @@
       "when_to_use": "When opponent successfully defends standard guillotine by tucking chin extremely tight. Creates different mechanical pressure"
     }
   ],
-
   "knowledge_assessment": [
     {
       "question": "What is the minimum time you should take to apply a guillotine choke in training?",
@@ -270,7 +258,6 @@
       "safety_critical": true
     }
   ],
-
   "training_progressions_and_safety_protocols": [
     {
       "phase": "Technical Understanding",
@@ -315,50 +302,77 @@
       "safety_emphasis": "As techniques become more refined and powerful, maintain heightened safety awareness. Teach newer students proper safety protocols. Never use training to 'prove' toughness by refusing to tap or applying excessive force."
     }
   ],
-
+  "from_positions": [
+    "Front Headlock",
+    "Closed Guard",
+    "Half Guard",
+    "Standing Position",
+    "Clinch",
+    "Turtle",
+    "Butterfly Guard",
+    "Open Guard",
+    "Deep Half Guard",
+    "Knee Shield Half Guard"
+  ],
+  "related_submissions": [
+    "High Elbow Guillotine",
+    "Arm in Guillotine",
+    "Ten Finger Guillotine",
+    "Chin Strap Guillotine",
+    "Guillotine Variations",
+    "Guillotine Sequence",
+    "Darce Choke",
+    "Anaconda Choke",
+    "D'arce-Anaconda Connection",
+    "Japanese Necktie",
+    "Peruvian Necktie",
+    "Marce Choke",
+    "Rear Naked Choke",
+    "Arm Triangle",
+    "Von Flue Choke"
+  ],
   "related_content": [
     {
-      "name": "High Elbow Guillotine",
-      "relationship": "Primary variation with highest safety profile and effectiveness"
-    },
-    {
-      "name": "Arm in Guillotine",
-      "relationship": "Alternative variation for when opponent tucks chin"
-    },
-    {
-      "name": "Darce Choke",
-      "relationship": "Common transition when guillotine is defended by circling"
-    },
-    {
-      "name": "Anaconda Choke",
-      "relationship": "Similar front headlock attack, often available when guillotine fails"
+      "name": "Guillotine Control",
+      "relationship": "Primary controlling position for guillotine submissions"
     },
     {
       "name": "Front Headlock",
-      "relationship": "Primary controlling position for establishing guillotine setups"
-    },
-    {
-      "name": "Closed Guard Bottom",
-      "relationship": "Common finishing position for guillotine from bottom"
-    },
-    {
-      "name": "Half Guard Bottom",
-      "relationship": "Effective position for arm-in guillotine variation"
-    },
-    {
-      "name": "Standing Position",
-      "relationship": "High-percentage position for catching guillotine during takedown attempts"
-    },
-    {
-      "name": "Guard Pull",
-      "relationship": "Common entry method - pull guard with guillotine already established"
+      "relationship": "Starting control position for guillotine setups"
     },
     {
       "name": "Guillotine Setup",
-      "relationship": "Detailed entries and grip fighting for establishing the choke"
+      "relationship": "Transition technique for establishing guillotine entries"
+    },
+    {
+      "name": "Guillotine Defense",
+      "relationship": "Defensive concepts for escaping guillotine attacks"
+    },
+    {
+      "name": "Front Headlock to Guillotine",
+      "relationship": "Transition pathway from front headlock to guillotine finish"
+    },
+    {
+      "name": "Snap Down to Front Headlock",
+      "relationship": "Standing setup entry for guillotine position"
+    },
+    {
+      "name": "Marcelo Garcia Guillotine System",
+      "relationship": "Systematic framework for guillotine-based game"
+    },
+    {
+      "name": "Danaher Front Headlock System",
+      "relationship": "Expert system incorporating guillotine as primary weapon"
+    },
+    {
+      "name": "Head Control",
+      "relationship": "Fundamental principle for guillotine effectiveness"
+    },
+    {
+      "name": "Posture Breaking",
+      "relationship": "Prerequisite principle for establishing guillotine control"
     }
   ],
-
   "expert_insights": {
     "danaher": "The guillotine choke represents a perfect example of mechanical efficiency in submission grappling. Most practitioners make the critical error of relying on arm strength rather than understanding the leverage system at work. The submission functions as a class-one lever where your hips serve as the fulcrum, your arms as the lever arm, and opponent's neck as the load. When you drive your hips forward while simultaneously pulling your hands to your chest, you create exponentially more force than arm strength alone could generate. The elevation of your choking elbow is not merely a technical detail - it determines whether you create a blood choke or an air choke. A high elbow targets the carotid arteries on the sides of the neck, causing unconsciousness through cerebral hypoxia within 6-10 seconds. A low elbow creates only trachea pressure, which is painful but far less effective and carries significant injury risk. In training, we must emphasize the high elbow variation exclusively to develop both effectiveness and safety. The guillotine's true power lies in its systematic application - proper angle, proper grip, proper hip pressure, executed in proper sequence. Master these mechanical principles and the submission becomes virtually unstoppable.",
     "gordon_ryan": "The guillotine is one of my highest percentage submissions in competition because it capitalizes on the exact moment when opponents are most vulnerable - during their attacking movements. When someone shoots a takedown on me with poor head position, they're essentially giving me the submission. The key difference between training guillotines and competition guillotines is in the setup recognition and speed of application. In competition, I'm hunting for specific moments: when opponent drives forward to pass guard, when they shoot for takedowns, or during scrambles when head control is available. The arm-in guillotine variation has become my personal preference because it's less dependent on perfect technique - even if my angle isn't optimal, their own shoulder helps close the choke. However, in training, I deliberately practice the high elbow variation because it's safer for my training partners and develops better technical understanding. One crucial detail that separates good guillotines from great ones is the immediate angle creation - as soon as I secure the grip, my body is already at 45 degrees. Don't wait to create the angle after you have the grip; they should happen simultaneously. Against elite opponents, you might only get one chance, so your entry must be perfect and immediate. The guillotine has won me matches at the highest levels of competition precisely because I've drilled the setup thousands of times in training at controlled intensity.",

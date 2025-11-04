@@ -3,9 +3,12 @@
 {# Input: data (complete JSON for neutral position) #}
 
 ---
-title: "{{ data.metadata.title }}"
+title: "{{ data.metadata.name }} | BJJ Position Guide | BJJ Graph"
 description: "{{ data.metadata.description }}"
 ---
+
+{# PostHog A/B Testing Metadata #}
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -15,7 +18,7 @@ description: "{{ data.metadata.description }}"
   "name": "How to Use {{ data.metadata.title.split('|')[0].strip() }}",
   "description": "Complete guide to {{ data.metadata.title.split('|')[0].strip().lower() }} in BJJ.",
   "step": [
-    {%- for transition in data.offensive_transitions[:6] %}
+    {%- for transition in data.offensive_transitions[:8] %}
     {
       "@type": "HowToStep",
       "name": "Execute {{ transition.technique }}",
@@ -34,7 +37,7 @@ description: "{{ data.metadata.description }}"
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {%- for error in data.common_errors[:5] %}
+    {%- for error in data.common_errors[:6] %}
     {
       "@type": "Question",
       "name": "What happens if you {{ error.error.lower() }}?",
@@ -91,6 +94,37 @@ description: "{{ data.metadata.description }}"
 }
 </script>
 
+{# Debug mode indicator (only visible with ?debug query param) #}
+{% if debug_mode %}
+<!--
+  🐛 BJJ Graph A/B Testing Debug Mode
+
+  Content Type: positions
+  Section Count: 15
+  Week Seed: {{ week_seed }}
+  Visual Variant: {{ visual_elements }}
+
+  Section Priorities:
+  - state-properties: {{ priorities.get('state-properties', 'N/A') }}
+  - overview: {{ priorities.get('overview', 'N/A') }}
+  - state-invariants: {{ priorities.get('state-invariants', 'N/A') }}
+  - prerequisites: {{ priorities.get('prerequisites', 'N/A') }}
+  - key-principles: {{ priorities.get('key-principles', 'N/A') }}
+  - offensive-transitions: {{ priorities.get('offensive-transitions', 'N/A') }}
+  - defensive-responses: {{ priorities.get('defensive-responses', 'N/A') }}
+  - counter-transitions: {{ priorities.get('counter-transitions', 'N/A') }}
+  - decision-tree: {{ priorities.get('decision-tree', 'N/A') }}
+  - common-errors: {{ priorities.get('common-errors', 'N/A') }}
+  - training-drills: {{ priorities.get('training-drills', 'N/A') }}
+  - optimal-submission-paths: {{ priorities.get('optimal-submission-paths', 'N/A') }}
+  - position-metrics: {{ priorities.get('position-metrics', 'N/A') }}
+  - expert-insights: {{ priorities.get('expert-insights', 'N/A') }}
+  - related-content: {{ priorities.get('related-content', 'N/A') }}
+
+  Generated: {{ generation_timestamp }}
+-->
+{% endif %}
+
 # {{ data.metadata.title.split('|')[0].strip() }}
 
 {% for tag in data.metadata.tags %}#{{ tag }} {% endfor %}
@@ -100,6 +134,9 @@ description: "{{ data.metadata.description }}"
 > **Quick Stats**: Advanced practitioners advance to better positions {{ data.position_metrics.advancement_probability.advanced }}% of the time with proper technique.
 
 ---
+
+{# Flexbox wrapper for CSS order-based A/B testing #}
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="state-properties" class="content-section">
 
@@ -290,3 +327,5 @@ description: "{{ data.metadata.description }}"
 {% endfor %}
 
 </section>
+
+</main>

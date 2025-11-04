@@ -22,7 +22,7 @@ This guide provides weekly, monthly, and quarterly SEO maintenance tasks to sust
 ### Quick Health Checks
 
 **Every morning:**
-1. Site accessibility check: https://bjjgraph.com
+1. Site accessibility check: https://bjjgraph.org
 2. Quick Google Search Console review (any critical alerts?)
 3. Traffic anomalies in analytics (major spikes or drops?)
 

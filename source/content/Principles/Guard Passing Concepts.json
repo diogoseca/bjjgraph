@@ -1,8 +1,7 @@
 {
   "metadata": {
-    "title": "Guard Passing Concepts | BJJ Concept | BJJ Graph",
+    "name": "Guard Passing Concepts",
     "description": "Understand Guard Passing in BJJ. Learn strategic frameworks, pressure dynamics, distance management, systematic approaches. Expert insights included.",
-    "concept_id": "C052",
     "tags": [
       "bjj",
       "concept",
@@ -63,54 +62,54 @@
       "description": "Identifying and capitalizing on transitional moments when opponent's guard is vulnerable, including grip changes, positional adjustments, and defensive reactions. This involves developing sensitivity to timing windows and explosive execution during optimal moments."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing Principles",
       "relationship_type": "Prerequisite",
       "description": "Guard Passing Principles provides the foundational technical framework upon which Guard Passing Concepts builds strategic and tactical understanding. The principles define mechanical execution while concepts address decision-making and strategic selection."
     },
     {
-      "concept_name": "Pressure Application",
+      "principle_name": "Pressure Application",
       "relationship_type": "Complementary",
       "description": "Pressure Application is a fundamental mechanism through which guard passing concepts are implemented, providing the physical means to limit opponent's mobility and create passing opportunities."
     },
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention Concepts",
       "relationship_type": "Alternative",
       "description": "Guard Retention Concepts represents the defensive counter-framework to guard passing, understanding both perspectives creates complete comprehension of the guard passing battle and enables adaptive strategy development."
     },
     {
-      "concept_name": "Positional Hierarchy",
+      "principle_name": "Positional Hierarchy",
       "relationship_type": "Extension",
       "description": "Guard passing serves as the primary mechanism for advancing through the positional hierarchy, making understanding of positional value essential for strategic passing decisions and consolidation priorities."
     },
     {
-      "concept_name": "Control Point Hierarchy",
+      "principle_name": "Control Point Hierarchy",
       "relationship_type": "Prerequisite",
       "description": "Understanding which control points provide passing leverage and which must be neutralized is essential for effective guard passing strategy and grip fighting priorities."
     },
     {
-      "concept_name": "System Building",
+      "principle_name": "System Building",
       "relationship_type": "Extension",
       "description": "Guard Passing Concepts form the foundation for building comprehensive passing systems that integrate multiple techniques into cohesive strategic frameworks applicable across diverse opponent styles and guard types."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Top",
+      "context": "Closed Guard",
       "how_applied": "Concepts emphasize posture maintenance, grip breaking sequences, and strategic opening methods that prevent opponent from transitioning to more dynamic guard structures. Distance control prevents sweep attempts during guard opening sequences."
     },
     {
-      "context": "Open Guard Top",
+      "context": "Open Guard",
       "how_applied": "Distance management becomes critical to prevent re-establishment of guard retention structures. Concepts focus on controlling space, preventing hook establishment, and creating passing angles through strategic positioning rather than direct confrontation."
     },
     {
-      "context": "Half Guard Top",
+      "context": "Half Guard",
       "how_applied": "Pressure application and underhook battles define the conceptual framework. Strategic decisions involve choosing between pressure-based consolidation and dynamic extraction based on opponent's defensive structure and mobility."
     },
     {
-      "context": "Reverse De La Riva Guard",
-      "how_applied": "Concepts address hook removal strategies, base widening to prevent sweeps, and angle creation to bypass the RDLR hook structure. Distance control prevents opponent from establishing additional control points while maintaining passing pressure."
+      "context": "De La Riva Guard",
+      "how_applied": "Concepts address hook removal strategies, base widening to prevent sweeps, and angle creation to bypass the DLR hook structure. Distance control prevents opponent from establishing additional control points while maintaining passing pressure."
     },
     {
       "context": "Spider Guard",
@@ -129,7 +128,7 @@
       "how_applied": "Arm extraction strategies, posture maintenance against lasso control, and strategic positioning to prevent sweep mechanics. Distance management prevents opponent from establishing secondary control points during lasso removal."
     },
     {
-      "context": "Headquarters Position Top",
+      "context": "Headquarters Position",
       "how_applied": "Transition from guard passing to consolidation phase where concepts shift from advancement to position maintenance. Strategic priorities involve preventing guard recovery while establishing dominant grips for further advancement."
     },
     {
@@ -137,11 +136,11 @@
       "how_applied": "Foundational application of base maintenance and posture concepts that enable safe passing initiation. Strategic positioning prevents sweep attempts while maintaining mobility for dynamic passing approaches."
     },
     {
-      "context": "Knee Slice Position Top",
-      "how_applied": "Mid-passing position where pressure application and angle maintenance determine success. Concepts address knee shield management, underhook battles, and strategic weight distribution during the passing sequence."
+      "context": "Collar Sleeve Guard",
+      "how_applied": "Grip fighting priorities focus on breaking collar and sleeve control while maintaining upright posture. Concepts emphasize systematic grip breaking sequences that prevent opponent from re-establishing control during passing attempts."
     },
     {
-      "context": "Long Step Position Top",
+      "context": "Seated Guard",
       "how_applied": "Distance-based passing where concepts emphasize range control, grip dominance, and strategic circling to bypass guard retention attempts. Base maintenance during lateral movement prevents reactive sweeps."
     }
   ],
@@ -296,27 +295,27 @@
   "related_content": [
     {
       "name": "Guard Passing Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Provides foundational technical framework upon which strategic passing concepts are built"
     },
     {
       "name": "Pressure Passing",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Specific strategic approach within guard passing concepts emphasizing pressure-based techniques"
     },
     {
       "name": "Guard Retention Concepts",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Defensive counterpart providing complete understanding of guard passing dynamics from both perspectives"
     },
     {
       "name": "Grip Fighting",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential component skill determining success in guard passing exchanges"
     },
     {
       "name": "Base Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Critical defensive concept preventing sweeps during passing attempts"
     },
     {
@@ -340,7 +339,7 @@
       "relationship": "Pressure-based passing exemplifying weight distribution and structural collapse concepts"
     },
     {
-      "name": "Headquarters Position Top",
+      "name": "Headquarters Position",
       "content_type": "Position",
       "relationship": "Transitional position between guard passing and consolidation phases"
     },

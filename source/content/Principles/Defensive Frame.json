@@ -1,21 +1,18 @@
 {
-  "metadata": {
-    "title": "Defensive Frame | BJJ Concept | BJJ Graph",
-    "description": "Understand Defensive Frame in BJJ. Learn skeletal alignment, pressure management, cross-position applications. Expert insights from Danaher, Ryan, Bravo.",
-    "concept_id": "C023",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "defense",
-      "framing",
-      "structure",
-      "pressure-management"
-    ],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Defensive Frame",
+  "description": "Master defensive framing in BJJ. Learn skeletal alignment, pressure management, multi-point frames, and cross-position defense applications.",
+  "tags": [
+    "bjj",
+    "concept",
+    "fundamental",
+    "defense",
+    "framing",
+    "structure",
+    "pressure-management"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Defensive Frame represents the fundamental skill of creating structural barriers using skeletal alignment and limb positioning to manage distance, redirect pressure, and prevent opponent advancement in bottom positions. Unlike specific techniques, defensive framing is a comprehensive conceptual framework that applies across all defensive scenarios where the practitioner must create space and maintain separation from a positionally dominant opponent. This concept encompasses the biomechanical principles of using bones rather than muscles to support loads, strategic limb placement to create optimal leverage, and dynamic frame adjustment to respond to changing pressure vectors. Defensive framing serves as both a space creation mechanism that enables escapes and guard retention, and a pressure management system that prevents crushing control and submission setups. The ability to establish and maintain effective frames often determines whether a practitioner can successfully defend inferior positions or becomes overwhelmed by superior pressure and control, making it one of the most essential conceptual elements in defensive BJJ.",
   "key_principles": [
     "Use skeletal structure rather than muscular strength to support opponent's weight",
@@ -62,36 +59,66 @@
       "description": "Linking frame structures to core stability and base maintenance to create integrated defensive architecture. This prevents frames from being isolated and collapsed independently by connecting them to the body's central power source."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Frame Creation",
+      "principle_name": "Frame Creation",
       "relationship_type": "Complementary",
       "description": "Frame Creation focuses on establishing initial defensive structures, while Defensive Frame encompasses the entire lifecycle of frame maintenance, adjustment, and recovery across positional contexts."
     },
     {
-      "concept_name": "Space Management",
+      "principle_name": "Space Management",
       "relationship_type": "Prerequisite",
       "description": "Understanding space management principles is essential for effective defensive framing, as frames serve as the primary mechanism for controlling distance and preventing space closure in bottom positions."
     },
     {
-      "concept_name": "Hip Escape Mechanics",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Complementary",
       "description": "Hip escapes and defensive frames work synergistically - frames create the space that enables hip movement, while hip movement creates angles that make frames more effective and sustainable."
     },
     {
-      "concept_name": "Leverage Principles",
+      "principle_name": "Leverage Principles",
       "relationship_type": "Prerequisite",
       "description": "Effective defensive framing requires understanding leverage mechanics to position frames at optimal angles and distances where skeletal structure provides maximum resistance with minimum energy expenditure."
     },
     {
-      "concept_name": "Pressure Reduction",
+      "principle_name": "Pressure Reduction",
       "relationship_type": "Extension",
       "description": "Defensive Frame extends pressure reduction concepts by providing specific structural mechanisms for managing and redirecting opponent pressure rather than simply tolerating or absorbing it."
     },
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention Concepts",
       "relationship_type": "Advanced form",
       "description": "Guard retention represents the advanced application of defensive framing principles in dynamic scenarios where frames must be continuously adjusted to prevent guard passing while maintaining offensive capabilities."
+    },
+    {
+      "principle_name": "Defensive Strategy",
+      "relationship_type": "Complementary",
+      "description": "Defensive framing provides the tactical implementation of broader defensive strategy, translating strategic principles into specific biomechanical structures and movement patterns."
+    },
+    {
+      "principle_name": "Escape Fundamentals",
+      "relationship_type": "Prerequisite",
+      "description": "Understanding escape fundamentals is essential for effective framing, as frames create the space and time necessary for executing escape sequences from inferior positions."
+    },
+    {
+      "principle_name": "Creating Space",
+      "relationship_type": "Extension",
+      "description": "Defensive Frame provides the primary mechanism for implementing space creation principles in bottom positions, using structural barriers to generate and maintain separation from opponent."
+    },
+    {
+      "principle_name": "Frame Management",
+      "relationship_type": "Complementary",
+      "description": "Frame Management addresses the strategic decision-making around when and how to deploy frames, while Defensive Frame focuses on the biomechanical execution and maintenance of frame structures."
+    },
+    {
+      "principle_name": "Defensive Posture",
+      "relationship_type": "Prerequisite",
+      "description": "Maintaining proper defensive posture creates the foundation from which effective frames can be established and sustained throughout positional transitions."
+    },
+    {
+      "principle_name": "Base Maintenance",
+      "relationship_type": "Complementary",
+      "description": "Base maintenance and defensive framing work together to create comprehensive defensive architecture where frames manage distance while base provides stability and escape potential."
     }
   ],
   "application_contexts": [
@@ -112,15 +139,15 @@
       "how_applied": "Frames target opponent's hips and armpits to create upward pressure that prevents weight settlement and enables hip escape. The bilateral nature of north-south requires alternating frame emphasis as opponent shifts pressure between sides."
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Frames prevent opponent posture-breaking by maintaining distance at collar and bicep control points. This application emphasizes active frame maintenance that controls opponent's upper body position while guard structure controls lower body."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Frames create distance on the trapped-leg side to prevent crossface and underhook control. The knee shield variation represents an advanced frame structure using the shin as primary defensive barrier integrated with hand frames."
     },
     {
-      "context": "Turtle Position",
+      "context": "Turtle",
       "how_applied": "Frames protect neck and prevent hooks by creating barriers with elbows tucked and hands defending critical exposure points. The compact nature of turtle requires shorter, tighter frames that prevent opponent penetration rather than creating distance."
     },
     {
@@ -128,20 +155,20 @@
       "how_applied": "Frames target opponent's choking arm and prevent hand fighting defeat by creating barriers at the neck and defending against grip establishment. This defensive framing must be integrated with hip positioning and hook management."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Dynamic frames using hands and feet maintain critical distance to prevent opponent from achieving dominant passing grips or pressure. Frames must be constantly adjusted as opponent circulates and changes passing angle."
     },
     {
-      "context": "Guard Recovery",
-      "how_applied": "Frames create the space necessary for re-establishing guard structure after partial pass. This application emphasizes explosive frame extension to generate maximum space in minimal time before opponent can consolidate position."
+      "context": "Spider Guard",
+      "how_applied": "Extended frames using feet on biceps or hips create maximum distance control while hand grips on sleeves provide steering and posture management. This frame system emphasizes length and extension over compact skeletal alignment."
     },
     {
-      "context": "Kesa Gatame",
-      "how_applied": "Frames against opponent's head and far hip create leverage for bridge and roll escapes. The perpendicular nature of kesa gatame requires angled frames that redirect pressure rather than opposing it directly."
+      "context": "De La Riva Guard",
+      "how_applied": "Asymmetric frame system uses one leg hooking behind while opposite frames control posture and prevent opponent from achieving dominant grips. Frames must coordinate with hook position to create effective angle and distance control."
     },
     {
-      "context": "Scarf Hold Position",
-      "how_applied": "Primary frame against opponent's head prevents forward pressure while secondary frame at the hip creates escape angle. Frames must prevent opponent from transitioning to mount while enabling hip mobility for escape execution."
+      "context": "Butterfly Guard",
+      "how_applied": "Frames control posture and prevent opponent from driving forward while butterfly hooks create sweeping leverage. The integration of upper body frames with lower body hooks creates unified defensive and offensive structure."
     }
   ],
   "decision_framework": [
@@ -302,17 +329,17 @@
   "related_content": [
     {
       "name": "Frame Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Closely related concept focusing on initial frame establishment rather than comprehensive frame lifecycle management"
     },
     {
       "name": "Space Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader concept that frames serve as primary mechanism for implementing in defensive scenarios"
     },
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary movement concept that frames enable by creating necessary space for execution"
     },
     {
@@ -327,7 +354,7 @@
     },
     {
       "name": "Guard Retention Concepts",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Advanced application of defensive framing in dynamic guard passing scenarios"
     },
     {
@@ -347,18 +374,18 @@
     },
     {
       "name": "Pressure Reduction",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Related defensive concept that frames implement through structural mechanics"
     },
     {
-      "name": "Half Guard Bottom",
-      "content_type": "Position",
-      "relationship": "Position where knee shield frame represents advanced integration of defensive frame principles"
+      "name": "Leverage Principles",
+      "content_type": "Principle",
+      "relationship": "Fundamental biomechanical concept underlying effective frame construction and maintenance"
     },
     {
-      "name": "Leverage Principles",
-      "content_type": "Concept",
-      "relationship": "Fundamental biomechanical concept underlying effective frame construction and maintenance"
+      "name": "Defensive Strategy",
+      "content_type": "Principle",
+      "relationship": "Strategic framework that defensive framing implements through tactical biomechanical structures"
     }
   ],
   "expert_insights": {

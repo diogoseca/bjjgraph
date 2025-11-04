@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Risk Assessment | BJJ Concept | BJJ Graph",
     "description": "Understand Risk Assessment in BJJ. Learn position evaluation, risk-reward analysis, decision-making frameworks. Master strategic thinking across all positions with expert insights.",
-    "concept_id": "C111",
+    "principle_id": "P111",
     "tags": ["bjj", "concept", "strategy", "decision-making", "risk-management", "competition", "training"],
     "application_level": "Intermediate",
     "complexity_level": "High",
@@ -54,29 +54,29 @@
       "description": "Continuously collecting data about opponent capabilities, fatigue level, preferred responses, and technical gaps through controlled probes and reactions to your actions. Effective risk assessment requires accurate information about what the opponent can and cannot do, which must be actively discovered during the match."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Positional Hierarchy",
+      "principle_name": "Positional Hierarchy",
       "relationship_type": "Prerequisite",
       "description": "Understanding position hierarchy is essential for risk assessment - cannot evaluate risk without knowing relative position values and danger levels"
     },
     {
-      "concept_name": "Energy Management System",
+      "principle_name": "Energy Management System",
       "relationship_type": "Complementary",
       "description": "Risk assessment and energy management work together - high-risk moves often require high energy, and energy state affects risk tolerance"
     },
     {
-      "concept_name": "Position-Over-Submission Approach",
+      "principle_name": "Position-Over-Submission Approach",
       "relationship_type": "Complementary",
       "description": "This philosophy represents a specific risk assessment strategy prioritizing lower-risk position advancement over higher-risk submission attempts"
     },
     {
-      "concept_name": "Match Strategy",
+      "principle_name": "Match Strategy",
       "relationship_type": "Extension",
       "description": "Overall match strategy is built upon continuous risk assessment decisions throughout the match duration"
     },
     {
-      "concept_name": "Dilemma Creation",
+      "principle_name": "Dilemma Creation",
       "relationship_type": "Advanced form",
       "description": "Creating dilemmas for opponents involves understanding and manipulating their risk assessment to force bad choices"
     }

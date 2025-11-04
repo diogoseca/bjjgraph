@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Double Leg Variations | BJJ Technique | BJJ Graph",
-    "description": "Learn Double Leg Variations in BJJ. Step-by-step execution from Standing Position to Top Position. Success: Beginner 45%, Intermediate 65%, Advanced 80%.",
-    "transition_id": "T046",
-    "tags": [
-      "bjj",
-      "transition",
-      "takedown",
-      "standing",
-      "wrestling"
-    ],
-    "starting_position": "Standing Position",
-    "ending_position": "Top Position",
-    "success_rates": {
-      "beginner": 45,
-      "intermediate": 65,
-      "advanced": 80
-    }
+  "name": "Double Leg Variations",
+  "description": "Learn Double Leg Variations in BJJ. Step-by-step execution from Standing Position to Top Position. Success: Beginner 45%, Intermediate 65%, Advanced 80%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "takedown",
+    "standing",
+    "wrestling"
+  ],
+  "starting_position": "Standing Position",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 45,
+    "intermediate": 65,
+    "advanced": 80
   },
   "overview": "The Double Leg Takedown represents one of the most fundamental and highest-percentage takedowns in Brazilian Jiu-Jitsu, borrowed from wrestling and adapted for both gi and no-gi competition. This technique involves attacking both of the opponent's legs simultaneously, driving through their base, and securing a dominant top position. The beauty of the double leg lies in its versatility—it can be executed from various setups including level changes, penetration steps, and reactive entries when opponents commit their weight forward. Unlike single leg attacks that isolate one limb, the double leg controls both legs, making it significantly harder for opponents to maintain balance or counter. The technique's effectiveness spans all skill levels, though execution refinement and setup sophistication increase dramatically with experience. Mastery of double leg variations allows practitioners to control the standing phase of matches, dictate where the fight takes place, and establish dominant positions from the opening engagement. Understanding the multiple finishing variations—from traditional dumps to mat returns to direct passes—transforms this fundamental takedown into a complete offensive system.",
   "key_principles": [
@@ -231,7 +228,7 @@
     }
   ],
   "safety_considerations": "When practicing double leg variations, controlled application is essential to prevent injury during the finish phase. Both partners must be aware of proper falling mechanics—the person being taken down should not post their arms to catch their fall, as this can lead to wrist, elbow, or shoulder injuries. Instead, they should tuck their chin and distribute impact across their back. The person executing the takedown must control the descent and avoid slamming or dropping their partner, especially on hard surfaces. Beginners should practice on adequate matting with crash pad areas if available. During the penetration step, both knees can experience stress, so practitioners should ensure proper warm-up and avoid repeated explosive entries on the same knee without rest. When defending against double legs in training, avoid violent sprawl reactions that can cause neck or back strain. Progressive resistance training allows both partners to develop proper mechanics safely before advancing to full-speed, full-resistance execution. In competition scenarios, awareness of mat boundaries prevents dangerous takedowns near the edge where falls can occur off the mat surface.",
-  "position_integration": "The Double Leg Takedown serves as a primary entry technique in the standing phase of BJJ, directly connecting neutral standing engagement to dominant top positions. Within the positional hierarchy, successful double leg execution establishes immediate top control—typically Side Control Top, Mount, or direct guard passing positions like Knee Slice Position Top or Headquarters Position. This takedown is fundamental to the offensive standing game, working in concert with other takedown systems like Single Leg variations, Body Lock passes, and Snap Down entries to create a complete standing attack system. The double leg's highest-percentage finish leads to Side Control Top, where practitioners can immediately begin their top game progression through mount transitions, submission attacks, or positional control. Understanding the double leg's position within the larger BJJ system reveals its strategic importance: controlling where the fight takes place (standing vs. ground) and establishing favorable position from the opening exchange. Advanced practitioners chain double leg attempts with guard pulling options, creating dilemmas where opponents defending the takedown become vulnerable to guard establishment, while those defending guard pulls expose themselves to explosive double leg entries. This technique also integrates with Front Headlock Control Position when partially defended, offering seamless transitions to alternative attacks rather than abandoned techniques. The double leg's finish variations (dump, mat return, running) each lead to different top positions, allowing strategic selection based on desired outcomes—side control for control-oriented strategies, direct passes for point accumulation, or immediate mount attacks for submission-focused approaches.",
+  "position_integration": "The Double Leg Takedown serves as a primary entry technique in the standing phase of BJJ, directly connecting neutral standing engagement to dominant top positions. Within the positional hierarchy, successful double leg execution establishes immediate top control—typically Side Control, Mount, or direct guard passing positions like Headquarters Position. This takedown is fundamental to the offensive standing game, working in concert with other takedown systems like Single Leg variations, Body Lock passes, and Snap Down entries to create a complete standing attack system. The double leg's highest-percentage finish leads to Side Control, where practitioners can immediately begin their top game progression through mount transitions, submission attacks, or positional control. Understanding the double leg's position within the larger BJJ system reveals its strategic importance: controlling where the fight takes place (standing vs. ground) and establishing favorable position from the opening exchange. Advanced practitioners chain double leg attempts with guard pulling options, creating dilemmas where opponents defending the takedown become vulnerable to guard establishment, while those defending guard pulls expose themselves to explosive double leg entries. This technique also integrates with Front Headlock when partially defended, offering seamless transitions to alternative attacks rather than abandoned techniques. The double leg's finish variations (dump, mat return, running) each lead to different top positions, allowing strategic selection based on desired outcomes—side control for control-oriented strategies, direct passes for point accumulation, or immediate mount attacks for submission-focused approaches.",
   "related_content": [
     {
       "name": "Single Leg Takedown",
@@ -246,7 +243,7 @@
       "relationship": "Related technique—similar body positioning and forward pressure principles"
     },
     {
-      "name": "Front Headlock Series",
+      "name": "Front Headlock",
       "relationship": "Follow-up—if double leg is partially defended, transition to front headlock attacks"
     },
     {
@@ -258,11 +255,11 @@
       "relationship": "Setup—can be used as feint to set up double leg entry"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Destination—most common position achieved from successful double leg finish"
     },
     {
-      "name": "Knee Slice Position Top",
+      "name": "Headquarters Position",
       "relationship": "Alternative destination—direct pass option from double leg takedown"
     },
     {

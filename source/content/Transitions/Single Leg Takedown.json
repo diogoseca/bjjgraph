@@ -1,25 +1,22 @@
 {
-  "metadata": {
-    "title": "Single Leg Takedown | BJJ Technique | BJJ Graph",
-    "description": "Master the Single Leg Takedown in BJJ. Complete guide covering entries, finishing mechanics, and defensive counters. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T815",
-    "tags": [
-      "bjj",
-      "transition",
-      "takedown",
-      "offense",
-      "standing",
-      "wrestling",
-      "single-leg",
-      "leg-attack"
-    ],
-    "starting_position": "Standing Position",
-    "ending_position": "Top Position",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Single Leg Takedown",
+  "description": "Master the Single Leg Takedown in BJJ. Complete guide covering entries, finishing mechanics, and defensive counters. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "takedown",
+    "offense",
+    "standing",
+    "wrestling",
+    "single-leg",
+    "leg-attack"
+  ],
+  "starting_position": "Standing Position",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Single Leg Takedown is one of the most fundamental and high-percentage takedowns in Brazilian Jiu-Jitsu and grappling arts, borrowed from wrestling. This technique involves attacking one of the opponent's legs while maintaining control of their upper body, creating an imbalance that forces them to the mat. The single leg is particularly effective in no-gi competition and MMA contexts, where traditional judo-style throws may be more difficult to execute. Unlike double leg takedowns that require deeper penetration and expose the practitioner to guillotine chokes, the single leg offers a more upright finishing position with multiple mechanical advantages. The technique's versatility lies in its numerous finishing variations - from the classic run-the-pipe to trips, dumps, and elevation finishes - allowing practitioners to adapt based on opponent reactions and defensive responses. Mastery of the single leg takedown provides a reliable method for taking the fight to the ground while maintaining dominant positioning, making it an essential skill for competitors at all levels who seek to control where and how the match is contested.",
   "key_principles": [
@@ -277,11 +274,11 @@
       "relationship": "Setup technique - creates reactions that open single leg opportunities"
     },
     {
-      "name": "Front Headlock Control Position",
+      "name": "Front Headlock",
       "relationship": "Alternative position - where you may end up if single leg is partially defended"
     },
     {
-      "name": "Single Leg X Guard",
+      "name": "Single Leg X-Guard",
       "relationship": "Alternative finish - guard position if takedown is defended"
     }
   ],

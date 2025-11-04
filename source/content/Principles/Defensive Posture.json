@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Defensive Posture | BJJ Concept | BJJ Graph",
-    "description": "Understand Defensive Posture in BJJ. Master structural alignment, connection management, and preventative positioning. Expert insights included.",
-    "concept_id": "C108",
-    "tags": [
-      "bjj",
-      "concept",
-      "defense",
-      "fundamental",
-      "structure",
-      "posture",
-      "alignment",
-      "pressure management"
-    ],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Defensive Posture",
+  "description": "Master defensive posture in BJJ. Learn structural alignment, connection management, and preventative positioning with expert insights from Danaher, Ryan, and Bravo.",
+  "tags": [
+    "bjj",
+    "principle",
+    "defense",
+    "fundamental",
+    "structure",
+    "posture",
+    "alignment",
+    "pressure management"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Defensive Posture represents the foundational body positioning and structural alignment that maximizes defensive capability while minimizing vulnerability during all phases of BJJ. Unlike specific defensive techniques, defensive posture is a comprehensive conceptual framework that governs how practitioners organize their skeletal structure, limb positioning, spinal alignment, and muscular tension to create maximum resistance to offensive pressure with minimum energy expenditure. This concept encompasses understanding proper alignment principles, connection management, and preventative positioning that applies universally across positions while adapting to specific contextual requirements. Defensive posture serves as the primary foundation upon which all other defensive skills are built, often determining whether practitioners can effectively implement defensive techniques or remain vulnerable to advancing attacks, making it one of the most essential conceptual elements in BJJ.",
   "key_principles": [
     "Maintain proper spinal alignment relative to opponent's pressure direction",
@@ -63,41 +60,56 @@
       "description": "Recognizing when defensive posture has been compromised and implementing immediate corrective actions to restore structural integrity before opponent can capitalize. This includes understanding escape routes, guard recovery pathways, and emergency defensive configurations."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Defensive Frame",
+      "principle_name": "Defensive Frame",
       "relationship_type": "Complementary",
       "description": "Defensive framing provides the tactical implementation of defensive posture principles, translating postural concepts into specific limb configurations and pressure management techniques."
     },
     {
-      "concept_name": "Base Maintenance",
+      "principle_name": "Base Maintenance",
       "relationship_type": "Complementary",
       "description": "Base maintenance works synergistically with defensive posture, as proper base provides the foundation from which effective defensive postures can be established and maintained throughout positional changes."
     },
     {
-      "concept_name": "Escape Hierarchy",
+      "principle_name": "Escape Hierarchy",
       "relationship_type": "Extension",
       "description": "Escape hierarchy builds upon defensive posture fundamentals by organizing defensive responses into prioritized sequences, with proper posture serving as the prerequisite for executing effective escapes."
     },
     {
-      "concept_name": "Pressure Reduction",
+      "principle_name": "Pressure Reduction",
       "relationship_type": "Complementary",
       "description": "Pressure reduction techniques rely heavily on proper defensive posture to create the structural foundation necessary for managing and dissipating opponent's pressure effectively."
     },
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention Concepts",
       "relationship_type": "Extension",
       "description": "Guard retention represents a specialized application of defensive posture principles specifically adapted to maintaining guard positions, extending general defensive posture concepts to position-specific contexts."
     },
     {
-      "concept_name": "Energy Conservation",
+      "principle_name": "Energy Conservation",
       "relationship_type": "Complementary",
       "description": "Energy conservation principles guide the efficiency aspects of defensive posture, ensuring defensive structures are maintained with minimal muscular effort through optimal biomechanical alignment."
+    },
+    {
+      "principle_name": "Frame Management",
+      "relationship_type": "Complementary",
+      "description": "Frame management provides the tactical framework for implementing defensive posture through specific structural configurations and pressure distribution patterns."
+    },
+    {
+      "principle_name": "Space Management",
+      "relationship_type": "Complementary",
+      "description": "Space management principles work together with defensive posture to create and maintain critical breathing and movement space while under pressure."
+    },
+    {
+      "principle_name": "Chin Protection",
+      "relationship_type": "Prerequisite",
+      "description": "Chin protection is a fundamental component of defensive posture, representing one of the highest-priority structural elements in defensive positioning."
     }
   ],
   "application_contexts": [
     {
-      "context": "Bottom Position",
+      "context": "Defensive Position",
       "how_applied": "Fundamental defensive posture in bottom positions involves protecting the neck and spine while creating space for breathing, using frames to manage distance, and maintaining hip mobility for recovery or escape opportunities."
     },
     {
@@ -106,22 +118,22 @@
     },
     {
       "context": "Side Control",
-      "how_applied": "Defensive posture in side control focuses on turning into opponent to protect the back, establishing frames on hip and neck/shoulder, maintaining space for breathing, and creating structural barriers against submission attempts and mount transitions."
+      "how_applied": "Defensive posture in side control focuses on turning into opponent to protect the back, establishing frames on hip and neck or shoulder, maintaining space for breathing, and creating structural barriers against submission attempts and mount transitions."
     },
     {
       "context": "Back Control",
       "how_applied": "The most critical application of defensive posture involves chin protection, hand fighting to prevent choking grips, proper head positioning, controlling opponent's hooks, and maintaining forward pressure to create escape opportunities."
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Defensive posture in closed guard maintains proper spinal curvature to prevent posture breaks, controls distance through grip and hip positioning, protects against strikes in MMA contexts, and creates offensive opportunities from defensive structure."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Half guard defensive posture emphasizes creating underhooks or frames to prevent flattening, maintaining space on the trapped leg side, protecting the back from being taken, and establishing structures that facilitate sweeps or recoveries."
     },
     {
-      "context": "Bottom Turtle",
+      "context": "Turtle",
       "how_applied": "Turtle defensive posture protects the neck and spine through specific alignment, controls opponent's hooks and harness grips, maintains base to prevent rolling, and creates pathways to guard recovery or standup escapes."
     },
     {
@@ -137,12 +149,24 @@
       "how_applied": "During guard recovery sequences, defensive posture maintains protective frames while creating space, shields vulnerable targets during transitions, manages opponent's passing pressure, and establishes temporary defensive structures that enable guard recomposition."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Open guard defensive posture utilizes legs and arms to create distance management systems, maintains hip mobility for recovery, establishes connection points that prevent opponent advancement, and creates offensive opportunities from defensive structures."
     },
     {
       "context": "Kesa Gatame",
       "how_applied": "Under kesa gatame, defensive posture involves bridging mechanics to create space, proper arm positioning to prevent further entrapment, protecting the neck from chokes, and establishing pathways to escape toward opponent's legs or to turtle."
+    },
+    {
+      "context": "Spider Guard",
+      "how_applied": "Spider guard defensive posture uses foot placement on biceps and hips to create distance control, maintains straight-arm frames to prevent opponent advancing, and establishes structural barriers that facilitate sweeps and transitions."
+    },
+    {
+      "context": "De La Riva Guard",
+      "how_applied": "De La Riva defensive posture emphasizes hook control on opponent's leg, uses collar and sleeve grips to prevent passing, maintains hip mobility for off-balancing, and creates structural frameworks for sweeps and back takes."
+    },
+    {
+      "context": "Butterfly Guard",
+      "how_applied": "Butterfly guard defensive posture maintains upright spinal alignment, uses hook positioning to prevent opponent's weight settling, establishes collar and sleeve control, and creates leverage structures for sweeping opportunities."
     }
   ],
   "decision_framework": [
@@ -310,13 +334,13 @@
   "related_content": [
     {
       "name": "Defensive Frame",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Primary tactical implementation of defensive posture principles through specific limb configurations"
     },
     {
       "name": "Base Maintenance",
-      "content_type": "Concept",
-      "relationship": "Complementary concept providing foundational stability for effective defensive postures"
+      "content_type": "Principle",
+      "relationship": "Complementary principle providing foundational stability for effective defensive postures"
     },
     {
       "name": "Frame and Shrimp",
@@ -325,21 +349,21 @@
     },
     {
       "name": "Escape Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Organizational framework for defensive responses built upon defensive posture foundation"
     },
     {
       "name": "Guard Retention Concepts",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Position-specific application of defensive posture principles to guard positions"
     },
     {
       "name": "Pressure Reduction",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Tactical approach to managing opponent's pressure using defensive posture structures"
     },
     {
-      "name": "Bottom Position",
+      "name": "Defensive Position",
       "content_type": "Position",
       "relationship": "Primary context where defensive posture principles are most critically applied"
     },

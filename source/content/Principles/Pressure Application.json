@@ -1,22 +1,21 @@
 {
-  "metadata": {
-    "title": "Pressure Application | BJJ Concept | BJJ Graph",
-    "description": "Understand pressure application in BJJ. Learn strategic bodyweight distribution, connection management, and force vectors across positions. Expert insights included.",
-    "concept_id": "C112",
-    "tags": [
-      "bjj",
-      "concept",
-      "control",
-      "offense",
-      "fundamental",
-      "pressure",
-      "passing",
-      "top-game"
-    ],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Pressure Application",
+  "description": "Master strategic pressure application in BJJ. Learn bodyweight distribution, connection management, and force vectors to create control across all positions.",
+  "tags": [
+    "bjj",
+    "principle",
+    "control",
+    "offense",
+    "fundamental",
+    "pressure",
+    "passing",
+    "top-game",
+    "weight-distribution",
+    "mechanics"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Pressure Application represents the strategic utilization of bodyweight, positioning, and connection points to create discomfort, restriction, and control against an opponent. Unlike specific techniques, pressure application is a comprehensive conceptual framework that governs how force is directed, maintained, and intensified to serve specific strategic objectives across all positions. This concept encompasses understanding optimal weight distribution, directional force application, connection management, and the psychological aspects of pressure-based control. Pressure application serves as both an offensive weapon that compromises opponent's defensive structures and a control mechanism that limits mobility and creates submission opportunities. The ability to apply effective pressure often determines whether a practitioner can break through sophisticated defenses or merely maintains positional stalemates, making it one of the most nuanced yet fundamental conceptual elements in BJJ.",
   "key_principles": [
     "Direct force application perpendicular to opponent's skeletal structure",
@@ -63,86 +62,116 @@
       "description": "The strategic use of pressure to create mental and emotional stress beyond the purely physical discomfort, forcing decision-making errors and panic responses. This involves understanding pressure timing, intensity variation, and the psychological breaking points that cause opponents to make technical mistakes in their desperation to escape discomfort."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Weight Distribution",
+      "principle_name": "Weight Distribution",
       "relationship_type": "Prerequisite",
       "description": "Proper weight distribution fundamentals are essential before developing sophisticated pressure application. Understanding how to control and shift bodyweight across various contact points forms the mechanical foundation that pressure application builds upon."
     },
     {
-      "concept_name": "Base Maintenance",
+      "principle_name": "Base Maintenance",
       "relationship_type": "Complementary",
       "description": "Effective pressure application requires stable base maintenance to prevent opponent's defensive movements from disrupting your structure. These concepts work synergistically where solid base allows sustained pressure, while proper pressure reduces opponent's ability to attack your base."
     },
     {
-      "concept_name": "Leverage Principles",
+      "principle_name": "Leverage Principles",
       "relationship_type": "Extension",
       "description": "Pressure application is an extension of fundamental leverage principles, specifically applying those mechanical advantages to create sustained control rather than momentary positional changes. Advanced pressure application represents leverage principles applied continuously across time rather than in discrete moments."
     },
     {
-      "concept_name": "Energy Management System",
+      "principle_name": "Energy Management System",
       "relationship_type": "Complementary",
       "description": "Efficient pressure application is central to effective energy management, allowing practitioners to maintain control with minimal expenditure while forcing opponents to burn energy in defensive responses. These concepts are interdependent in creating sustainable offensive pressure."
     },
     {
-      "concept_name": "Connection Principles",
+      "principle_name": "Connection Principles",
       "relationship_type": "Prerequisite",
       "description": "Understanding connection principles is foundational to pressure application, as effective pressure requires maintaining specific connection points that transmit force efficiently. Connection provides the pathways through which pressure is delivered and maintained."
     },
     {
-      "concept_name": "Dilemma Creation",
+      "principle_name": "Dilemma Creation",
       "relationship_type": "Advanced form",
       "description": "Advanced pressure application evolves into dilemma creation where pressure is strategically applied to force opponents into choosing between multiple unfavorable responses. This represents the tactical evolution of pressure from simple control mechanism to strategic decision-forcing tool."
+    },
+    {
+      "principle_name": "Shoulder Pressure",
+      "relationship_type": "Complementary",
+      "description": "Shoulder pressure represents a specific application vector within the broader pressure application framework, particularly relevant in side control and passing positions where shoulder drive creates both control and discomfort."
+    },
+    {
+      "principle_name": "Hip Pressure",
+      "relationship_type": "Complementary",
+      "description": "Hip pressure is a fundamental pressure application method that creates control through lower body positioning, particularly effective in mount and passing positions where hip placement determines pressure quality."
+    },
+    {
+      "principle_name": "Forward Pressure",
+      "relationship_type": "Extension",
+      "description": "Forward pressure represents directional application of the broader pressure principles, emphasizing driving force that advances position while maintaining control during guard passing and top game sequences."
+    },
+    {
+      "principle_name": "Guard Passing Principles",
+      "relationship_type": "Extension",
+      "description": "Pressure application serves as the mechanical foundation for many guard passing principles, where sustained pressure breaks down defensive structures and creates passing opportunities."
+    },
+    {
+      "principle_name": "Pressure Passing Framework",
+      "relationship_type": "Advanced form",
+      "description": "The pressure passing framework represents the systematic application of pressure principles specifically optimized for guard passing scenarios, evolving basic pressure concepts into comprehensive passing methodologies."
+    },
+    {
+      "principle_name": "Control Point Hierarchy",
+      "relationship_type": "Complementary",
+      "description": "Pressure application effectiveness depends on understanding which control points to prioritize, with control point hierarchy providing the strategic framework for selecting optimal pressure targets based on positional context."
     }
   ],
   "application_contexts": [
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Pressure is distributed across chest, shoulder, and hip contact points to create comprehensive horizontal compression. Crossface pressure restricts head movement while hip pressure prevents hip escape, with weight concentrated through the chest to limit breathing and create psychological urgency for escape attempts."
     },
     {
-      "context": "Mount Top",
+      "context": "Mount",
       "how_applied": "Vertical pressure is applied through hip positioning that drives bodyweight downward into opponent's diaphragm and solar plexus. Pressure is maintained through low hip position and wide base while using chest pressure to flatten opponent and restrict arm movement, creating sustained respiratory difficulty."
     },
     {
-      "context": "Knee on Belly Top",
+      "context": "Knee on Belly",
       "how_applied": "Concentrated pressure is applied through a single focal point (the knee) directed into the opponent's abdominal region, creating intense localized discomfort. This pressure position allows for mobility while maintaining control, with pressure intensity modulated through weight distribution and knee position adjustment."
     },
     {
-      "context": "North-South Top",
+      "context": "North-South",
       "how_applied": "Chest pressure is applied directly over opponent's face and chest while hip pressure controls their upper body mobility. Weight is distributed to create suffocating pressure that restricts breathing while maintaining connection through shoulder and chest contact that prevents bridging escapes."
     },
     {
-      "context": "Scarf Hold Top",
+      "context": "Kesa Gatame",
       "how_applied": "Pressure is applied through chest-to-chest compression combined with head control that creates torque on the spine. The pressure serves dual purposes of restricting breathing through chest compression while using head control to prevent rotational escapes, with weight strategically distributed to make bridging mechanically ineffective."
     },
     {
-      "context": "Knee Slice Top Position",
-      "how_applied": "Dynamic pressure is maintained through the passing knee driving across opponent's torso while shoulder pressure prevents recovery. This transitional pressure maintains control during the pass while creating discomfort that discourages defensive hip movement, with pressure adjusted continuously as position advances."
-    },
-    {
-      "context": "Half Guard Top",
+      "context": "Half Guard",
       "how_applied": "Pressure is concentrated through the crossface and shoulder driving opponent's upper body flat while hip pressure controls their trapped leg. Underhook pressure prevents bridging while maintaining heavy chest pressure that makes breathing difficult and limits the mobility needed for sweeping attempts."
     },
     {
-      "context": "Headquarters Top Position",
+      "context": "Headquarters Position",
       "how_applied": "Pressure is applied through forward leaning that loads weight onto opponent's lower body while maintaining strategic distance from upper body attacks. Knee pressure controls hip movement while maintaining enough pressure to prevent guard recovery without overcommitting to a position that invites submissions."
     },
     {
-      "context": "100 Kilos Top Position",
+      "context": "100 Kilos",
       "how_applied": "Maximum pressure is applied through specialized positioning that concentrates entire bodyweight into opponent's diaphragm and ribcage. This pressure position represents the extreme application of pressure principles, creating nearly unbearable compression designed to force immediate tap or position abandonment."
     },
     {
-      "context": "Smash Pass Top Position",
-      "how_applied": "Overwhelming pressure is used to collapse opponent's guard structure through combined shoulder, chest, and hip pressure that eliminates space for defensive movements. Pressure is maintained continuously throughout the passing sequence, preventing guard retention by making defensive framing mechanically impossible."
+      "context": "Back Control",
+      "how_applied": "Pressure is applied through chest compression against opponent's back while hooks create lower body control. Weight distribution creates constant pressure that limits breathing and prevents posture recovery, with pressure maintained through tight connection and strategic weight placement."
     },
     {
-      "context": "Closed Guard Top",
+      "context": "Closed Guard",
       "how_applied": "Strategic pressure is applied to control posture while preventing opponent from creating angles for attacks. Pressure is directed downward through proper posture and base to limit mobility while avoiding overcommitment that would compromise base or create submission vulnerabilities."
     },
     {
-      "context": "Long Step Top Position",
-      "how_applied": "Dynamic pressure is maintained through the lead leg and shoulder creating forward driving force while the trailing leg provides base stability. Pressure serves to prevent guard retention during the passing movement while maintaining enough control to prevent counter-attacks during the transition."
+      "context": "Turtle",
+      "how_applied": "Pressure is applied through chest and hip weight driving opponent toward the mat while preventing them from returning to guard or standing. Crossface and chest pressure creates discomfort while strategic weight placement prevents turtle escape attempts."
+    },
+    {
+      "context": "High Mount",
+      "how_applied": "Elevated pressure position where hips are positioned high on opponent's chest creates maximum breathing restriction and control. Pressure is focused through chest and hip contact while knee position prevents bridging escapes, creating intense discomfort that forces arm exposure."
     }
   ],
   "decision_framework": [
@@ -296,29 +325,24 @@
   ],
   "related_content": [
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Primary application context where pressure principles are most directly implemented through chest, shoulder, and hip compression"
     },
     {
-      "name": "Mount Top",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "Dominant position where vertical pressure application creates maximum control and submission opportunities through hip and chest pressure"
     },
     {
-      "name": "Knee on Belly Top",
+      "name": "Knee on Belly",
       "content_type": "Position",
       "relationship": "Specialized pressure position utilizing concentrated focal point pressure for maximum discomfort while maintaining mobility"
     },
     {
-      "name": "North-South Top",
+      "name": "North-South",
       "content_type": "Position",
       "relationship": "Position emphasizing chest and shoulder pressure that restricts breathing while preventing bridging escapes"
-    },
-    {
-      "name": "Smash Pass Top Position",
-      "content_type": "Position",
-      "relationship": "Passing position that exemplifies overwhelming pressure application to collapse guard structures during transitions"
     },
     {
       "name": "Pressure Pass",
@@ -331,23 +355,18 @@
       "relationship": "Dynamic passing technique that maintains continuous pressure throughout passing sequence"
     },
     {
-      "name": "Americana from Side Control",
-      "content_type": "Submission",
-      "relationship": "Submission that requires sustained pressure to isolate arm while preventing escapes during submission execution"
-    },
-    {
       "name": "Weight Distribution",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational concept that provides mechanical understanding necessary for effective pressure application"
     },
     {
       "name": "Base Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept ensuring pressure can be sustained without compromising positional stability"
     },
     {
       "name": "Energy Management System",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic framework within which efficient pressure application serves as primary energy conservation mechanism"
     },
     {

@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Mount Escape Series | BJJ Concept | BJJ Graph",
-    "description": "Understand systematic mount escape sequences in BJJ. Learn frame mechanics, bridge patterns, escape progressions, defensive positioning. Expert insights included.",
-    "concept_id": "C089",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "escape",
-      "mount",
-      "defensive",
-      "series",
-      "progression"
-    ],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Mount Escape Series",
+  "description": "Master systematic mount escape sequences in BJJ. Learn frame mechanics, bridge-and-roll techniques, elbow escapes, and defensive progressions across all mount variations.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "escape",
+    "mount",
+    "defensive",
+    "series",
+    "progression"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Mount Escape Series represents the systematic approach to escaping from mount position through coordinated application of multiple escape techniques organized in logical progression based on opponent's reactions and positional adjustments. Unlike isolated escape techniques, mount escape series is a comprehensive conceptual framework that treats mount escapes as interconnected system where each technique creates setups for subsequent escapes when opponent defends the initial attempt. This concept encompasses the technical execution, tactical sequencing, and strategic adaptation required to escape from one of BJJ's most dominant positions across all mount variations. Mount escape series serves as both defensive survival mechanism enabling escape from severe positional disadvantage and foundational skill set that every practitioner must develop for defensive competence. The ability to execute systematic mount escapes under pressure often determines survival capability in both training and competition, making it one of the most essential conceptual elements for defensive BJJ.",
   "key_principles": [
     "Establish defensive frames immediately to prevent position advancement before initiating escape attempts",
@@ -63,78 +60,111 @@
       "description": "Continuous awareness of submission dangers throughout escape attempts, including recognizing arm positioning that creates armbar vulnerability, identifying collar grip patterns indicating choke setups, monitoring head position relative to opponent's chest, and adjusting escape mechanics to address submission threats without abandoning escape progression."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Mount Escape Hierarchy",
+      "principle_name": "Mount Escape Hierarchy",
       "relationship_type": "Prerequisite",
       "description": "Understanding which escapes have highest success probability in specific mount configurations provides the decision-making framework for selecting primary escape attempts within the series progression"
     },
     {
-      "concept_name": "Bridge and Shrimp",
+      "principle_name": "Bridge and Shrimp",
       "relationship_type": "Prerequisite",
       "description": "Fundamental movement patterns that form the mechanical foundation for all mount escape techniques, must be developed before effective escape series can be implemented"
     },
     {
-      "concept_name": "Frame Creation",
+      "principle_name": "Frame Creation",
       "relationship_type": "Complementary",
       "description": "Defensive framing mechanics work in coordination with escape movements to create space and prevent position advancement throughout escape sequences"
     },
     {
-      "concept_name": "Escape Fundamentals",
+      "principle_name": "Escape Fundamentals",
       "relationship_type": "Extension",
       "description": "Mount escape series represents specific application of broader escape principles, extending fundamental concepts into systematic multi-technique progressions"
     },
     {
-      "concept_name": "Pin Escape Methodology",
+      "principle_name": "Pin Escape Methodology",
       "relationship_type": "Extension",
       "description": "Mount escape series exemplifies the systematic approach to escaping pins that applies across all dominant top positions, serving as template for other pin escape systems"
     },
     {
-      "concept_name": "Action and Reaction",
+      "principle_name": "Action and Reaction",
       "relationship_type": "Complementary",
       "description": "Series progression depends on creating specific opponent reactions through initial escape attempts, then capitalizing on those reactions with follow-up techniques that exploit created vulnerabilities"
+    },
+    {
+      "principle_name": "Hip Escape Mechanics",
+      "relationship_type": "Prerequisite",
+      "description": "Proper shrimping technique provides the mechanical foundation for creating lateral space and angle changes necessary for escape progression"
+    },
+    {
+      "principle_name": "Defensive Framing",
+      "relationship_type": "Complementary",
+      "description": "Frame maintenance throughout escape sequences prevents opponent from consolidating pressure and enables creation of space necessary for escape execution"
+    },
+    {
+      "principle_name": "Space Creation",
+      "relationship_type": "Complementary",
+      "description": "Systematic methods of generating space between bodies through bridging and framing enable escape progression and guard recovery"
+    },
+    {
+      "principle_name": "Energy Management System",
+      "relationship_type": "Complementary",
+      "description": "Strategic energy allocation ensures escape capability persists across multiple attempt cycles without premature exhaustion"
+    },
+    {
+      "principle_name": "Guard Recovery",
+      "relationship_type": "Extension",
+      "description": "Mount escape series culminates in guard recovery sequences that complete the defensive progression back to neutral or advantageous positions"
     }
   ],
   "application_contexts": [
     {
-      "context": "Mount Bottom",
+      "context": "Mount",
       "how_applied": "Primary application context where entire escape series unfolds, with technique selection based on standard mount configuration and opponent's weight distribution across chest and hips"
     },
     {
-      "context": "High Mount Bottom",
+      "context": "High Mount",
       "how_applied": "Modified escape series emphasizing arm trap prevention and immediate hip escape initiation before opponent can establish grapevine control or progress to mounted triangle position"
     },
     {
-      "context": "S Mount Bottom",
+      "context": "S Mount",
       "how_applied": "Emergency escape protocols prioritizing armbar defense through proper arm positioning while attempting to bridge and create hip angle changes that prevent submission completion and create escape opportunities"
     },
     {
-      "context": "Technical Mount Bottom",
+      "context": "Technical Mount",
       "how_applied": "Escape series adapted for asymmetrical mount variation, emphasizing frames against posted leg while using bridge mechanics to exploit opponent's unbalanced base and create reversal opportunities"
     },
     {
-      "context": "Modified Mount Bottom",
+      "context": "Modified Mount",
       "how_applied": "Specialized escape sequences accounting for opponent's modified base positioning, often requiring adaptation of standard bridging angles and frame placement to address non-standard weight distribution"
     },
     {
-      "context": "Side Control Bottom",
+      "context": "Mount Control",
+      "how_applied": "Escape principles applied against opponent's consolidated mount control, requiring systematic frame establishment and space creation before attempting primary escape techniques"
+    },
+    {
+      "context": "Side Control",
       "how_applied": "Escape principles transfer to side control defensive scenarios, with similar frame establishment, hip escape mechanics, and systematic progression through escape hierarchy based on opponent reactions"
     },
     {
-      "context": "Knee on Belly Bottom",
+      "context": "Knee on Belly",
       "how_applied": "Abbreviated escape series focusing on frame creation against knee pressure and explosive bridging to disrupt opponent's balance before they can consolidate pressure or transition to mount"
     },
     {
-      "context": "North-South Bottom",
+      "context": "North-South",
       "how_applied": "Escape concepts adapted for inverted pin scenario, utilizing similar bridging mechanics and hip escape principles with adjusted angles and different frame placement patterns"
     },
     {
-      "context": "Scarf Hold Bottom",
+      "context": "Kesa Gatame",
       "how_applied": "Escape series principles applied to scarf hold variations, emphasizing hip movement and frame creation patterns that create space despite different control configurations"
     },
     {
-      "context": "Back Control Bottom",
+      "context": "Back Control",
       "how_applied": "Advanced application where escape series concepts inform systematic defensive progression, though specific techniques differ significantly from mount escape mechanics"
+    },
+    {
+      "context": "Turtle",
+      "how_applied": "Defensive position where escape series principles inform decisions about when to accept turn to guard versus when to maintain turtle and work for standing recovery"
     }
   ],
   "decision_framework": [
@@ -297,7 +327,7 @@
   ],
   "related_content": [
     {
-      "name": "Mount Bottom",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "Primary position where mount escape series is applied, represents starting point for all escape sequences in the series"
     },
@@ -328,17 +358,17 @@
     },
     {
       "name": "Escape Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader conceptual framework that informs technique selection within mount escape series based on success probability analysis"
     },
     {
       "name": "Pin Escape Methodology",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Overarching systematic approach to escaping pins that mount escape series exemplifies in specific application"
     },
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential skill set for creating and maintaining defensive frames throughout escape series execution"
     },
     {
@@ -347,12 +377,12 @@
       "relationship": "Fundamental defensive posture that underlies all escape attempts, represents proper body positioning for defensive scenarios"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Target position for successful escape completion in many series progressions, represents escape objective for guard recovery"
     },
     {
-      "name": "Half Guard Bottom",
+      "name": "Half Guard",
       "content_type": "Position",
       "relationship": "Common intermediate position during escape progression, often represents partial escape success requiring additional techniques for full recovery"
     }

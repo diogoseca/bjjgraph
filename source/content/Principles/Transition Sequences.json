@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Transition Sequences | BJJ Concept | BJJ Graph",
     "description": "Understand Transition Sequences in BJJ. Learn to link positions systematically, create momentum chains, and develop flowing tactical progressions. Expert insights included.",
-    "concept_id": "C117",
+    "principle_id": "P117",
     "tags": [
       "bjj",
       "concept",
@@ -63,34 +63,34 @@
       "description": "The capacity to execute practiced sequences under live rolling conditions, adapting drilling patterns to account for realistic opponent resistance while maintaining sequence structure. This bridges the gap between isolated practice and dynamic application."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Position Chains",
+      "principle_name": "Position Chains",
       "relationship_type": "Prerequisite",
       "description": "Understanding how positions connect sequentially forms the foundation for building transition sequences, as sequences are essentially position chains executed with proper timing and momentum preservation"
     },
     {
-      "concept_name": "Transition Management",
+      "principle_name": "Transition Management",
       "relationship_type": "Complementary",
       "description": "While transition management addresses individual positional changes, transition sequences extend this to multiple linked transitions, requiring both skills to work in concert for effective implementation"
     },
     {
-      "concept_name": "Offensive Combinations",
+      "principle_name": "Offensive Combinations",
       "relationship_type": "Extension",
       "description": "Transition sequences represent the positional manifestation of offensive combinations, applying combination principles to position changes rather than isolated techniques"
     },
     {
-      "concept_name": "Timing and Rhythm",
+      "principle_name": "Timing and Rhythm",
       "relationship_type": "Complementary",
       "description": "Effective sequence execution depends on proper timing and rhythm, as each transition within sequence must occur at optimal moment based on opponent's reaction to previous movement"
     },
     {
-      "concept_name": "Action and Reaction",
+      "principle_name": "Action and Reaction",
       "relationship_type": "Prerequisite",
       "description": "Sequences leverage opponent reactions to create setup conditions for subsequent moves, requiring deep understanding of how initial actions generate predictable defensive responses"
     },
     {
-      "concept_name": "Flow Rolling",
+      "principle_name": "Flow Rolling",
       "relationship_type": "Advanced form",
       "description": "Flow rolling represents the highest expression of transition sequences where both practitioners link multiple sequences continuously in cooperative manner, developing sequence execution at maximum technical level"
     }

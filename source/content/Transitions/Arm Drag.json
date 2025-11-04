@@ -1,16 +1,13 @@
 {
-  "metadata": {
-    "title": "Arm Drag | BJJ Technique | BJJ Graph",
-    "description": "Master the Arm Drag in BJJ. Complete guide from setup to back control. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%. Expert insights included.",
-    "transition_id": "T008",
-    "tags": ["bjj", "technique", "arm drag", "back take", "control"],
-    "starting_position": "Neutral Starting Position",
-    "ending_position": "Back Control",
-    "success_rates": {
-      "beginner": 45,
-      "intermediate": 60,
-      "advanced": 75
-    }
+  "name": "Arm Drag",
+  "description": "Master the Arm Drag in BJJ. Complete guide from setup to back control with step-by-step execution. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "tags": ["bjj", "technique", "arm drag", "back take", "control", "transitions", "grip fighting"],
+  "starting_position": "Standing Position",
+  "ending_position": "Back Control",
+  "success_rates": {
+    "beginner": 45,
+    "intermediate": 60,
+    "advanced": 75
   },
   "overview": "The Arm Drag is a fundamental control and positioning technique in Brazilian Jiu-Jitsu that creates superior angles by redirecting the opponent's arm across their body. This versatile movement forms the foundation of countless back takes, guard passes, and positional improvements across all levels of grappling.\n\nThe technique works by controlling the opponent's wrist and tricep simultaneously, then pulling their arm across their centerline while moving your body behind them. This creates a momentary imbalance and blocks their defensive frames, allowing you to secure back control, side control, or other dominant positions. The Arm Drag can be executed from standing, seated guard, butterfly guard, or any position where you can establish the necessary grips.\n\nMastery of the Arm Drag opens entire systematic approaches to grappling, as it serves as both an entry point for attacks and a fundamental movement pattern for creating angles. High-level competitors use Arm Drags to initiate their offensive sequences, chain multiple techniques together, and maintain constant pressure on opponents who struggle to defend the dynamic positional changes it creates.",
   "key_principles": [
@@ -243,20 +240,20 @@
       "relationship": "Alternative destination - can transition to front headlock from arm drag"
     },
     {
-      "name": "Guillotine Defense",
-      "relationship": "Related defensive concept - prevents common arm drag counter"
-    },
-    {
-      "name": "Two-on-One to Back Take",
-      "relationship": "Related technique - uses similar gripping and angle creation principles"
-    },
-    {
       "name": "Snap Down",
       "relationship": "Setup technique - creates opportunities for arm drag execution"
     },
     {
-      "name": "Berimbolo",
-      "relationship": "Advanced variation - uses arm drag principles for back takes from guard"
+      "name": "Arm Drag to Back",
+      "relationship": "Follow-up - specific back take sequence from arm drag"
+    },
+    {
+      "name": "Arm Drag Sweep",
+      "relationship": "Alternative - sweep variation from bottom position"
+    },
+    {
+      "name": "Rear Naked Choke",
+      "relationship": "Follow-up submission - primary finish from back control"
     }
   ],
   "expert_insights": {

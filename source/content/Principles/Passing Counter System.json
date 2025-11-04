@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Passing Counter System | BJJ Concept | BJJ Graph",
-    "description": "Understand Passing Counter Systems in BJJ. Learn defensive frameworks, counter-attack timing, grip fighting strategies, and position recovery methods against all passing styles.",
-    "concept_id": "C087",
-    "tags": [
-      "bjj",
-      "defense",
-      "system",
-      "guard",
-      "passing",
-      "counter",
-      "guard-retention",
-      "framework"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Passing Counter System",
+  "description": "Master systematic guard passing defense in BJJ. Learn defensive frameworks, counter-attack timing, grip fighting strategies, and position recovery methods.",
+  "tags": [
+    "bjj",
+    "defense",
+    "system",
+    "guard",
+    "passing",
+    "counter",
+    "guard-retention",
+    "framework"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Passing Counter Systems represent sophisticated defensive frameworks that transform guard passing defense from reactive scrambling into proactive counter-attacking opportunities. Rather than viewing passing defense as merely preventing the pass, these systems emphasize creating offensive opportunities from defensive positions, forcing the passer into dilemmas where every commitment creates counter-attack windows. The fundamental principle underlying all passing counter systems is that the passing opponent must make specific commitments of weight, base, and grips that create exploitable vulnerabilities - the defender's role is to recognize these commitment points and execute appropriate counters.\n\nEffective passing counter systems operate on multiple levels simultaneously: grip fighting to deny optimal passing grips while establishing defensive frames, positional awareness to recognize passing patterns before they fully develop, and technical execution to convert defensive sequences into sweeps, back takes, or submission entries. The most sophisticated practitioners develop what can be termed \"passing literacy\" - the ability to read passing attempts early and select appropriate counters based on the specific passing style, weight distribution, and grip configuration. This literacy allows defenders to stay ahead of passing sequences rather than constantly reacting to completed movements.\n\nModern passing counter systems have evolved to address the diverse passing meta-game, from pressure-based smash passing to dynamic toreando variations to leg weave and body lock approaches. Each passing style creates specific counter opportunities: pressure passes expose back takes and underhook battles, dynamic passes create off-balancing and leg entanglement entries, and standing passes allow tactical guard pulls and angle creation. Understanding these style-specific vulnerabilities and developing appropriate counter sequences transforms guard retention from an exhausting defensive battle into a strategic game where the defender controls the pace and direction of engagement.",
   "key_principles": [
     "Recognize passing patterns early through grip fighting and base analysis rather than reacting to completed movements",
@@ -61,97 +58,117 @@
       "description": "Identifying moments when passing attempts expose the opponent's back, typically during transitions between passing positions or when opponents overcommit to one side. Back take opportunities from guard represent some of the highest-value counters available, as they simultaneously defend the pass and establish dominant position. Advanced practitioners develop sensitivity to subtle back exposure that creates brief windows for seat belt establishment or body triangle entries."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention Concepts",
       "relationship_type": "Prerequisite",
       "description": "Basic guard retention provides the foundational movement patterns and spatial awareness necessary for implementing counter systems. Without solid retention fundamentals, practitioners cannot maintain position long enough to recognize and execute counter opportunities."
     },
     {
-      "concept_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing Principles",
       "relationship_type": "Complementary",
       "description": "Understanding passing mechanics from the passer's perspective reveals the specific commitments and vulnerabilities that counter systems exploit. The relationship is inversely symmetrical - every passing principle creates a corresponding counter principle."
     },
     {
-      "concept_name": "Dilemma Creation",
+      "principle_name": "Dilemma Creation",
       "relationship_type": "Extension",
       "description": "Passing counter systems represent applied dilemma creation where defensive positioning forces opponents to choose between advancing position and maintaining control, with either choice creating specific counter opportunities. This extends basic dilemma concepts into systematic defensive frameworks."
     },
     {
-      "concept_name": "Timing and Rhythm",
+      "principle_name": "Timing and Rhythm",
       "relationship_type": "Prerequisite",
       "description": "Counter-attack timing depends on rhythm sensitivity to recognize the specific moments when passing opponents are most vulnerable. Without timing awareness, even technically sound counters will fail due to poor execution windows."
     },
     {
-      "concept_name": "Position Transitions",
+      "principle_name": "Position Transitions",
       "relationship_type": "Complementary",
       "description": "Passing counters fundamentally involve position transitions from defensive guards to offensive positions or sweeps. Understanding transition mechanics ensures smooth execution of counters without getting caught in intermediate scramble positions."
     },
     {
-      "concept_name": "Frame Management",
+      "principle_name": "Frame Management",
       "relationship_type": "Prerequisite",
       "description": "Effective frames provide the distance control and structural integrity necessary to execute counter techniques. Frame management creates the space and leverage required for hip escapes, inversions, and entries to counter positions."
+    },
+    {
+      "principle_name": "Grip Fighting Strategies",
+      "relationship_type": "Prerequisite",
+      "description": "Strategic grip fighting provides the control necessary to deny passing grips while establishing counter-attack grips. Grip strategies determine which passing attempts are viable and which counter options are available."
+    },
+    {
+      "principle_name": "Action and Reaction",
+      "relationship_type": "Complementary",
+      "description": "Counter systems exploit the action-reaction principle where passing commitments create reactive counter opportunities. Understanding this principle allows defenders to manipulate opponent actions to create desired reactions."
+    },
+    {
+      "principle_name": "Guard Recovery",
+      "relationship_type": "Extension",
+      "description": "Guard recovery serves as the backup layer when primary counter attempts fail. Counter systems extend basic recovery by integrating offensive threats into defensive movements."
+    },
+    {
+      "principle_name": "Defensive Strategy",
+      "relationship_type": "Extension",
+      "description": "Passing counter systems represent comprehensive defensive strategies that transform reactive defense into proactive counter-attacking. This extends basic defensive concepts into systematic frameworks."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Counter system focuses on grip fighting to prevent guard opening while preparing sweeps and submissions. When opponents attempt to stand or posture, counter with triangle setups, arm drags to back, or kimura traps. If guard is opened, immediately transition to open guard recovery with specific grips already established."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Emphasizes distance management through foot placement on hips, biceps, or collar grips while maintaining dynamic guard options. Counter pressure passes with hook entries to butterfly or deep half, counter dynamic passes with leg entanglement entries to ashi garami or X-guard variations."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Utilize underhook battles and knee shield positioning to prevent flattening while preparing sweeps or back takes. Counter knee slice attempts with recovery to closed half or entries to deep half, counter crossface pressure with lockdown or electric chair entries in no-gi contexts."
     },
     {
-      "context": "Butterfly Guard Bottom",
+      "context": "Butterfly Guard",
       "how_applied": "Maintain active hooks and head positioning to prevent opponent base while setting up elevations and arm drags. Counter smash passing with hook sweeps or transitions to X-guard, counter standing passes with entries to single leg X or ashi garami positions."
     },
     {
-      "context": "De La Riva Guard Bottom",
+      "context": "De La Riva Guard",
       "how_applied": "Use DLR hook and collar/sleeve grips to off-balance opponent while threatening berimbolo and back take entries. Counter leg weave passes with inversions to reverse DLR or berimbolo sequences, counter pressure passes with transitions to X-guard or deep half recovery."
     },
     {
-      "context": "Spider Guard Bottom",
+      "context": "Spider Guard",
       "how_applied": "Employ bicep control and foot placement to manipulate opponent posture and base while preparing sweeps or omoplata entries. Counter grip breaks with transitions to lasso variations, counter pressure with recovery to closed guard or entries to triangle positions."
     },
     {
-      "context": "Lasso Guard Bottom",
+      "context": "Lasso Guard",
       "how_applied": "Utilize lasso control to break opponent posture and prevent shoulder pressure while setting up sweeps and omoplata attacks. Counter lasso releases with immediate transitions to spider or collar sleeve configurations, maintaining constant pressure on opponent structure."
     },
     {
-      "context": "Reverse De La Riva Guard Bottom",
+      "context": "Reverse De La Riva Guard",
       "how_applied": "Use RDLR hook and far leg control to prevent knee slice while threatening waiter sweeps and crab ride entries. Counter leg extraction with transitions to X-guard or single leg X, counter pressure with deep half recovery or berimbolo entries from reverse positions."
     },
     {
-      "context": "X-Guard Bottom",
+      "context": "X-Guard",
       "how_applied": "Maintain crossed leg hooks and upper body control to destabilize opponent base while preparing sweep entries. Counter base recovery with transitions to single leg X or technical stand-ups, counter pressure with entries to deep half or ashi garami positions."
     },
     {
-      "context": "Single Leg X Guard Bottom",
+      "context": "Single Leg X-Guard",
       "how_applied": "Control one leg with crossed hooks while off-balancing opponent and threatening sweeps or heel hook entries in submission-legal contexts. Counter knee slice pressure with transitions to X-guard or ashi garami, counter balance recovery with technical stand-ups to takedown positions."
     },
     {
-      "context": "Deep Half Guard Bottom",
+      "context": "Deep Half Guard",
       "how_applied": "Use deep underhook and far leg control to prevent crossface while executing waiter sweeps or Homer Simpson back takes. Counter whizzer control with lockdown entries or recoveries to standard half guard, counter pressure with inversions to truck position or crab ride entries."
     },
     {
-      "context": "Knee Shield Half Guard Bottom",
+      "context": "Knee Shield Half Guard",
       "how_applied": "Maintain knee shield frame and underhook battle positioning to prevent flattening while preparing sweeps. Counter knee slice attempts with recovery to butterfly hooks or deep half entries, counter underhook denials with transitions to lockdown or reverse half positions."
     },
     {
-      "context": "Seated Guard Bottom",
+      "context": "Seated Guard",
       "how_applied": "Use active posting and grip fighting to prevent opponent from establishing top pressure while maintaining guard pull options. Counter leg weave attempts with shin-to-shin entries or X-guard recoveries, counter front headlock attacks with granby rolls to closed guard or technical stand-ups."
     },
     {
-      "context": "50-50 Guard Bottom",
+      "context": "50-50 Guard",
       "how_applied": "Maintain leg entanglement while preventing opponent's heel hook attacks and setting up own submission opportunities or sweeps. Counter leg extraction with grip switches to inside ashi or saddle entries, counter pressure with inversions to top 50-50 or outside ashi positions."
     },
     {
-      "context": "Headquarters Position Top",
+      "context": "Headquarters Position",
       "how_applied": "From bottom perspective, this represents a compromised position requiring immediate guard recovery through hip escape and frame creation. Counter consolidation attempts with explosive hip escapes to re-guard, counter pressure with inversions to deep half or leg entanglement entries."
     }
   ],
@@ -184,7 +201,7 @@
     {
       "step_number": 6,
       "decision_point": "Assess counter success and opponent response",
-      "action": "If counter achieves sweep or back take, consolidate position. If countered or defended, immediately transition to secondary counter option - maintain offensive pressure through counter chains rather than resetting to pure defense."
+      "action": "If counter achieves sweep or back take, consolidate position. If countered or defended, immediately transition to secondary counter option - maintain offensive pressure through counter chains rather than resetting to pure defense after each attempt."
     },
     {
       "step_number": 7,
@@ -316,61 +333,61 @@
   "related_content": [
     {
       "name": "Guard Retention Concepts",
-      "content_type": "Concept",
-      "relationship": "Foundational concept providing basic retention mechanics that counter systems build upon with offensive additions"
+      "content_type": "Principle",
+      "relationship": "Foundational principle providing basic retention mechanics that counter systems build upon with offensive additions"
     },
     {
       "name": "Guard Passing Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Inverse relationship - understanding passing mechanics reveals the specific vulnerabilities that counter systems exploit"
     },
     {
       "name": "Dilemma Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic framework that counter systems apply to force opponents into lose-lose scenarios during passing attempts"
     },
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Technical foundation providing the distance control and structural integrity necessary for counter execution"
     },
     {
       "name": "Timing and Rhythm",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Perceptual skill enabling recognition of optimal counter-attack windows during passing sequences"
     },
     {
       "name": "Position Transitions",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Mechanical framework governing smooth transitions from defensive guards to offensive counter positions"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Primary position where counter system emphasizes preventing guard opening while preparing offensive attacks"
     },
     {
-      "name": "Half Guard Bottom",
+      "name": "Half Guard",
       "content_type": "Position",
       "relationship": "Key position where counter system focuses on underhook battles and preventing flattening while setting up sweeps"
     },
     {
-      "name": "Butterfly Guard Bottom",
+      "name": "Butterfly Guard",
       "content_type": "Position",
       "relationship": "Dynamic position where counter system emphasizes hook maintenance and elevation timing for sweeps"
     },
     {
-      "name": "De La Riva Guard Bottom",
+      "name": "De La Riva Guard",
       "content_type": "Position",
       "relationship": "Advanced guard where counter system focuses on back take entries and berimbolo sequences against various passes"
     },
     {
-      "name": "Deep Half Guard Bottom",
+      "name": "Deep Half Guard",
       "content_type": "Position",
       "relationship": "Specialized position where counter system emphasizes waiter sweeps and back takes from deep underhook control"
     },
     {
-      "name": "X-Guard Bottom",
+      "name": "X-Guard",
       "content_type": "Position",
       "relationship": "Leg entanglement position serving as counter destination against standing and dynamic passing attempts"
     }

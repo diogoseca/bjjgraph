@@ -1,24 +1,21 @@
 {
-  "metadata": {
-    "title": "Fireman's Carry | BJJ Technique | BJJ Graph",
-    "description": "Master the Fireman's Carry takedown in BJJ. Complete step-by-step execution from standing clinch to top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T054",
-    "tags": [
-      "bjj",
-      "transition",
-      "takedown",
-      "wrestling",
-      "dynamic",
-      "clinch",
-      "throw"
-    ],
-    "starting_position": "Clinch Position",
-    "ending_position": "Side Control Top",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Fireman's Carry",
+  "description": "Master the Fireman's Carry takedown in BJJ. Complete step-by-step execution from standing clinch to top position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "takedown",
+    "wrestling",
+    "dynamic",
+    "clinch",
+    "throw"
+  ],
+  "starting_position": "Clinch",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Fireman's Carry is a classical wrestling takedown that has found valuable application in Brazilian Jiu-Jitsu, particularly in no-gi and MMA contexts. This technique involves using a combination of off-balancing, level change, and explosive lifting to elevate your opponent onto your shoulders before driving them to the mat. The Fireman's Carry is particularly effective against opponents who maintain an upright posture in the clinch, as it exploits their high center of gravity and creates a sudden positional reversal. Unlike many BJJ takedowns that rely on pulling or tripping, the Fireman's Carry demonstrates the principle of lifting and redirecting an opponent's weight, making it an excellent complement to guard pulling and other ground-focused entries. The technique requires precise timing, proper body mechanics, and the ability to coordinate multiple movements simultaneously - the level change, arm control, penetration step, and lifting motion must all flow together seamlessly. When executed correctly, the Fireman's Carry not only achieves the takedown but also places you in an advantageous top position, often side control or modified mount, allowing for immediate passing or submission attempts. This makes it a high-percentage technique for competitors who want to establish top control early in a match.",
   "key_principles": [
@@ -269,7 +266,7 @@
       "relationship": "Control position that can transition to Fireman's Carry variation"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Primary landing position after successful execution"
     },
     {
@@ -293,7 +290,7 @@
       "relationship": "Primary counter opponents will use to defend the technique"
     },
     {
-      "name": "Clinch Position",
+      "name": "Clinch",
       "relationship": "Starting position for technique execution"
     },
     {

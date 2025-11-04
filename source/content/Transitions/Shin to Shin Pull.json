@@ -1,16 +1,13 @@
 {
-  "metadata": {
-    "title": "Shin to Shin Pull | BJJ Technique | BJJ Graph",
-    "description": "Master the Shin to Shin Pull in BJJ. Step-by-step execution from Standing to Shin-to-Shin Guard. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-    "transition_id": "T214",
-    "tags": ["bjj", "technique", "guard pull", "shin to shin", "guard establishment", "seated guard", "single leg x", "sweep setup"],
-    "starting_position": "Standing Position",
-    "ending_position": "Shin-to-Shin Guard",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 50,
-      "advanced": 65
-    }
+  "name": "Shin to Shin Pull",
+  "description": "Master the Shin to Shin Pull in BJJ. Step-by-step execution from Standing to Shin-to-Shin Guard. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "tags": ["bjj", "technique", "guard pull", "shin to shin", "guard establishment", "seated guard", "single leg x", "sweep setup"],
+  "starting_position": "Standing Position",
+  "ending_position": "Shin-to-Shin Guard",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 50,
+    "advanced": 65
   },
   "overview": "The Shin to Shin Pull is a fundamental guard pulling technique that establishes a shin-to-shin connection before pulling the opponent into your guard. This pull is particularly effective in gi and no-gi competition where you want to establish guard control while maintaining offensive options. The shin-to-shin position provides excellent control of the opponent's posture and base while creating immediate sweeping and back-taking opportunities.\n\nUnlike traditional guard pulls that rely solely on grips, the shin-to-shin pull uses your shin as a primary control point against the opponent's shin, creating a frame that prevents them from establishing strong top pressure. This connection allows you to control distance, off-balance your opponent, and transition seamlessly into various guard positions including single leg X-guard, X-guard, or deep half guard. The position is especially valuable against opponents who are skilled at passing traditional guard pulls.\n\nThe shin-to-shin pull has become increasingly popular in modern competition BJJ due to its versatility and the difficulty opponents face when trying to disengage. It forms the foundation of systematic guard-based games built around leg entanglement positions and provides a safe entry into offensive guard positions without giving up top position unnecessarily. When executed properly, it immediately places the opponent in a defensive posture while you maintain offensive initiative.",
   "key_principles": [
@@ -203,40 +200,56 @@
       "difficulty": "Advanced"
     }
   ],
-  "safety_considerations": "The shin-to-shin pull is generally a low-risk technique when executed properly, but several safety considerations should be observed. When dropping to seated position, ensure the training surface is appropriate and free of obstacles that could cause injury during the descent. Control your falling motion rather than dropping uncontrollably, which could cause tailbone or lower back impact injuries.\n\nBe mindful of your opponent's knee and ankle joints when applying shin pressure - the pressure should be firm but not aggressive enough to hyperextend or torque their joints. If you feel your opponent's leg twisting or their knee bending unnaturally, release pressure immediately. During drilling, communicate with your partner about appropriate pressure levels.\n\nWhen transitioning from shin-to-shin to leg entanglement positions, maintain awareness of your partner's knee ligaments and apply transitions smoothly rather than explosively. In competition scenarios, be prepared for opponent's to drive forward aggressively, and have escape routes planned to avoid being flattened in a dangerous position. Practice breakfalls and defensive positioning to safely handle failed attempts.",
-  "position_integration": "The shin-to-shin pull serves as a critical entry point into the modern guard-based game, particularly for practitioners who build their style around leg entanglement positions and X-guard variations. Within the broader BJJ positional hierarchy, this pull allows you to safely transition from neutral standing position (where both players have equal opportunity) to a bottom guard position (traditionally considered disadvantageous) while maintaining offensive control and initiative.\n\nThe technique integrates seamlessly into guard pulling strategies by providing an alternative to traditional closed guard or butterfly guard pulls. It's particularly effective against opponents who excel at passing traditional guard positions, as the shin-to-shin structure creates different control mechanisms that many passers are less familiar with. From shin-to-shin, you have direct access to single leg X-guard, X-guard, reverse De La Riva, deep half guard, and various leg entanglement positions, making it a versatile hub position.\n\nStrategically, the shin-to-shin pull fits into a game plan that prioritizes guard retention and systematic sweeping over explosive scrambling. It's favored by competitors who prefer technical, controlled engagements over dynamic wrestling exchanges. The position is especially valuable in points-based competition formats where pulling guard is accepted, as it allows you to establish guard while minimizing the opponent's ability to score guard passing points. When integrated with a comprehensive guard system, shin-to-shin serves as both an entry position and a strong retention position, forming part of the defensive layers that make guard difficult to pass.",
+  "safety_considerations": "The shin-to-shin pull is generally a low-risk technique when executed properly, but several safety considerations should be observed. When dropping to seated position, ensure the training surface is appropriate and free of obstacles that could cause injury during the descent. Control your falling motion rather than dropping uncontrollably, which could cause tailbone or lower back impact injuries. Be mindful of your opponent's knee and ankle joints when applying shin pressure - the pressure should be firm but not aggressive enough to hyperextend or torque their joints. If you feel your opponent's leg twisting or their knee bending unnaturally, release pressure immediately. During drilling, communicate with your partner about appropriate pressure levels. When transitioning from shin-to-shin to leg entanglement positions, maintain awareness of your partner's knee ligaments and apply transitions smoothly rather than explosively. In competition scenarios, be prepared for opponent's to drive forward aggressively, and have escape routes planned to avoid being flattened in a dangerous position. Practice breakfalls and defensive positioning to safely handle failed attempts.",
+  "position_integration": "The shin-to-shin pull serves as a critical entry point into the modern guard-based game, particularly for practitioners who build their style around leg entanglement positions and X-guard variations. Within the broader BJJ positional hierarchy, this pull allows you to safely transition from neutral standing position (where both players have equal opportunity) to a bottom guard position (traditionally considered disadvantageous) while maintaining offensive control and initiative. The technique integrates seamlessly into guard pulling strategies by providing an alternative to traditional closed guard or butterfly guard pulls. It's particularly effective against opponents who excel at passing traditional guard positions, as the shin-to-shin structure creates different control mechanisms that many passers are less familiar with. From shin-to-shin, you have direct access to single leg X-guard, X-guard, reverse De La Riva, deep half guard, and various leg entanglement positions, making it a versatile hub position. Strategically, the shin-to-shin pull fits into a game plan that prioritizes guard retention and systematic sweeping over explosive scrambling. It's favored by competitors who prefer technical, controlled engagements over dynamic wrestling exchanges. The position is especially valuable in points-based competition formats where pulling guard is accepted, as it allows you to establish guard while minimizing the opponent's ability to score guard passing points. When integrated with a comprehensive guard system, shin-to-shin serves as both an entry position and a strong retention position, forming part of the defensive layers that make guard difficult to pass.",
   "related_content": [
     {
+      "name": "Single Leg X-Guard",
+      "relationship": "Primary transition target from shin-to-shin guard"
+    },
+    {
       "name": "Single Leg X Entry",
-      "relationship": "Primary follow-up transition from shin-to-shin guard"
+      "relationship": "Direct follow-up technique from shin-to-shin position"
     },
     {
       "name": "Single Leg X Sweep",
-      "relationship": "Common sweep option from shin-to-shin position"
+      "relationship": "Common sweep option from shin-to-shin control"
     },
     {
       "name": "X-Guard Sweep",
-      "relationship": "Alternative sweep entry from shin-to-shin control"
+      "relationship": "Alternative sweep entry from shin-to-shin connection"
     },
     {
-      "name": "Technical Standup",
-      "relationship": "Alternative guard pull approach if shin-to-shin is defended"
+      "name": "X-Guard",
+      "relationship": "Related guard position accessible from shin-to-shin"
     },
     {
-      "name": "De La Riva Sweep",
-      "relationship": "Related guard pull and sweeping system with similar mechanics"
+      "name": "Technical Stand-up",
+      "relationship": "Alternative recovery option if shin-to-shin is defended"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Related guard pull system with similar mechanics"
+    },
+    {
+      "name": "Reverse De La Riva Guard",
+      "relationship": "Transition option when opponent circles away"
     },
     {
       "name": "Butterfly Sweep",
-      "relationship": "Alternative guard pull option from standing position"
-    },
-    {
-      "name": "Reverse De La Riva Recovery",
-      "relationship": "Transition option when opponent circles away from shin-to-shin"
+      "relationship": "Alternative guard pull and sweep option from standing"
     },
     {
       "name": "Elevator Sweep",
-      "relationship": "Related sweeping mechanism using leg elevation and grip control"
+      "relationship": "Related sweeping mechanism using leg elevation"
+    },
+    {
+      "name": "Seated Guard",
+      "relationship": "Base position for executing shin-to-shin pull"
+    },
+    {
+      "name": "Guard Pull",
+      "relationship": "General category of guard establishment techniques"
     }
   ],
   "expert_insights": {

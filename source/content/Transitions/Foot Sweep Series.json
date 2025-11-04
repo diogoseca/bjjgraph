@@ -1,25 +1,22 @@
 {
-  "metadata": {
-    "title": "Foot Sweep Series | BJJ Technique | BJJ Graph",
-    "description": "Master foot sweep techniques in BJJ. Learn Deashi Harai, Kosoto Gari, and Kouchi Gari execution from standing. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T232",
-    "tags": [
-      "bjj",
-      "transition",
-      "takedown",
-      "judo",
-      "ashiwaza",
-      "standing",
-      "foot-sweep",
-      "timing"
-    ],
-    "starting_position": "Standing Position",
-    "ending_position": "Side Control Top",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Foot Sweep Series",
+  "description": "Master foot sweep techniques in BJJ. Learn Deashi Harai, Kosoto Gari, and Kouchi Gari execution from standing. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "takedown",
+    "judo",
+    "ashiwaza",
+    "standing",
+    "foot-sweep",
+    "timing"
+  ],
+  "starting_position": "Standing Position",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Foot Sweep Series represents a collection of highly technical standing techniques derived from Judo's ashi-waza (foot techniques) that have been adapted and refined for BJJ competition and training. These sweeps exploit opponent's weight distribution, timing, and movement patterns to off-balance and take down opponents with minimal energy expenditure. Unlike explosive takedowns that rely on strength and power, foot sweeps emphasize precise timing, proper positioning, and reading opponent's movement to create opportunities for clean, controlled takedowns that often land directly into dominant positions like side control or mount.\n\nThe primary techniques in this series include Deashi Harai (advancing foot sweep), Kosoto Gari (small outer reap), Kouchi Gari (small inner reap), and Sasae Tsurikomi Ashi (propping drawing ankle throw). Each technique targets specific weight distribution patterns and movement directions, making the series highly adaptable to different opponent styles and reactions. The beauty of foot sweeps lies in their ability to be chained together—when one sweep is defended, the opponent's reaction often creates an opening for another sweep in the series.\n\nMastering foot sweeps requires developing exceptional timing, balance, and sensitivity to opponent's weight shifts. These techniques are particularly effective in gi competition where grips provide better control and feedback, but they can also be adapted for no-gi with proper hand fighting and body positioning. The foot sweep series forms a complete standing system that can be combined with other takedowns and guard pulls to create a well-rounded approach to starting the match on your terms.",
   "key_principles": [
@@ -266,7 +263,7 @@
     },
     {
       "name": "Sasae Tsurikomi Ashi",
-      "relationship": "Primary technique - propping ankle throw"
+      "relationship": "Related technique - propping ankle throw"
     },
     {
       "name": "Osoto Gari",
@@ -305,7 +302,7 @@
       "relationship": "Setup requirement - establishes control for sweep execution"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Common ending position - where sweeps typically land"
     },
     {

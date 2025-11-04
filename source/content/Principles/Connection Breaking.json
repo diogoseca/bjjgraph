@@ -1,21 +1,18 @@
 {
-  "metadata": {
-    "title": "Connection Breaking | BJJ Concept | BJJ Graph",
-    "description": "Understand Connection Breaking in BJJ. Learn to identify control points, break grips systematically, and create escape opportunities with expert insights.",
-    "concept_id": "C056",
-    "tags": [
-      "bjj",
-      "concept",
-      "intermediate",
-      "defense",
-      "escape",
-      "grip-fighting",
-      "control-disruption"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Connection Breaking",
+  "description": "Master Connection Breaking in BJJ. Learn to identify control points, break grips systematically, and create escape opportunities across all positions with proven techniques.",
+  "tags": [
+    "bjj",
+    "principle",
+    "intermediate",
+    "defense",
+    "escape",
+    "grip-fighting",
+    "control-disruption"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Connection Breaking represents the fundamental principle of disrupting the physical contact points and control mechanisms that enable an opponent to maintain positional dominance, creating the prerequisite for escapes and defensive improvements. Unlike specific techniques, connection breaking is a comprehensive conceptual framework that applies across all positions where opponent establishes controlling connections. This concept encompasses the biomechanical and tactical understanding that an opponent's control derives from specific connection points (grips, pressure points, hooks, frames) that can be systematically identified and disrupted. Connection breaking serves as both defensive mechanism enabling escapes from inferior positions and offensive counter that neutralizes opponent's control advantages. The ability to identify critical connections and break them efficiently often determines escape success and defensive capability, making it one of the most essential conceptual elements for defensive BJJ.",
   "key_principles": [
     "Identify critical connection points that enable opponent's positional control",
@@ -62,36 +59,51 @@
       "description": "The defensive skill of anticipating and preventing opponent's attempts to reestablish broken connections, using frames, distance management, and proactive positioning to maintain connection disruption."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Grip Breaking",
+      "principle_name": "Grip Breaking",
       "relationship_type": "Complementary",
       "description": "Grip breaking represents specific technical methods for disrupting hand-based connections, serving as primary tactical application of connection breaking principles."
     },
     {
-      "concept_name": "Frame Creation",
+      "principle_name": "Frame Creation",
       "relationship_type": "Complementary",
       "description": "Frame creation works synergistically with connection breaking by preventing reconnection after initial disruption, using structural barriers to maintain separation."
     },
     {
-      "concept_name": "Hip Escape Mechanics",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Extension",
       "description": "Hip escape mechanics represent the movement patterns used to exploit broken connections, converting disrupted control into positional improvement through coordinated hip movement."
     },
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention Concepts",
       "relationship_type": "Advanced form",
       "description": "Guard retention applies connection breaking principles proactively, breaking opponent's passing connections before they fully establish control rather than reactively after control is achieved."
     },
     {
-      "concept_name": "Escape Fundamentals",
+      "principle_name": "Escape Fundamentals",
       "relationship_type": "Extension",
       "description": "Escape fundamentals represent the complete defensive sequences where connection breaking serves as critical initial phase, creating opportunities for subsequent escape movements."
     },
     {
-      "concept_name": "Posture Breaking",
+      "principle_name": "Posture Breaking",
       "relationship_type": "Alternative",
       "description": "While connection breaking disrupts opponent's control from inferior positions, posture breaking disrupts opponent's structural integrity from neutral or advantageous positions, representing offensive application of similar principles."
+    },
+    {
+      "principle_name": "Control Point Hierarchy",
+      "relationship_type": "Prerequisite",
+      "description": "Understanding control point hierarchy provides the theoretical foundation for identifying which connections matter most in any given position, enabling strategic prioritization in breaking sequences."
+    },
+    {
+      "principle_name": "Space Creation",
+      "relationship_type": "Complementary",
+      "description": "Space creation works in tandem with connection breaking, as disrupting connections often creates the physical space necessary for defensive movement and position recovery."
+    },
+    {
+      "principle_name": "Defensive Framing",
+      "relationship_type": "Extension",
+      "description": "Defensive framing represents the structural positioning used after connection breaking to prevent opponent from reestablishing control and maintain defensive advantage."
     }
   ],
   "application_contexts": [
@@ -108,11 +120,11 @@
       "how_applied": "From defensive back position, connection breaking prioritizes disrupting opponent's seatbelt grip and body triangle/hook system, recognizing that hand fighting to break seatbelt creates opportunities to address leg-based connections."
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "When opponent establishes strong posture and grips in closed guard, connection breaking targets their collar grips, sleeve controls, and postural base connections to create offensive opportunities rather than remaining defensive."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Connection breaking in half guard focuses on disrupting opponent's cross-face, underhook control, and knee-shield pressure, with priority given to breaking cross-face to restore upper body mobility and create underhook opportunities."
     },
     {
@@ -124,7 +136,7 @@
       "how_applied": "Connection breaking from bottom north-south addresses opponent's head control, shoulder pressure, and arm positioning, prioritizing creation of head mobility through neck connection disruption before attempting hip escape."
     },
     {
-      "context": "Spider Guard Bottom",
+      "context": "Spider Guard",
       "how_applied": "When opponent begins breaking down spider guard, defensive connection breaking focuses on maintaining foot-on-bicep connections while disrupting their grip-breaking attempts and posture advancement."
     },
     {
@@ -132,7 +144,7 @@
       "how_applied": "Connection breaking in De La Riva applies to both maintaining offensive connections against opponent's breaking attempts and disrupting their counter-grips that threaten to collapse the guard structure."
     },
     {
-      "context": "Turtle Position",
+      "context": "Turtle",
       "how_applied": "From turtle, connection breaking targets opponent's seatbelt grips, far-side underhooks, and head control, using rotational movement and base widening to amplify breaking force against their control framework."
     },
     {
@@ -140,8 +152,20 @@
       "how_applied": "Connection breaking in butterfly guard addresses opponent's overhook controls, collar grips, and posture establishment, maintaining butterfly hook connections while systematically disrupting their control attempts."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "In open guard scenarios, connection breaking prevents opponent from establishing passing grips and positional controls, proactively disrupting their connection attempts before they achieve sufficient control leverage."
+    },
+    {
+      "context": "Lasso Guard",
+      "how_applied": "Connection breaking in lasso guard maintains the lasso connection while systematically disrupting opponent's grip-breaking attempts, counter-grips, and posture-recovery efforts that threaten guard integrity."
+    },
+    {
+      "context": "X-Guard",
+      "how_applied": "From X-guard, connection breaking prevents opponent from establishing stabilizing grips and breaking down the hook structure, proactively disrupting their defensive connections before they can counter the position."
+    },
+    {
+      "context": "Knee Shield Half Guard",
+      "how_applied": "Connection breaking in knee shield half guard focuses on disrupting opponent's underhook attempts and crossface while maintaining the knee shield connection that provides defensive spacing and offensive opportunities."
     }
   ],
   "decision_framework": [
@@ -298,27 +322,27 @@
   "related_content": [
     {
       "name": "Grip Breaking",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Primary tactical application of connection breaking principles specifically focused on disrupting hand-based grip controls"
     },
     {
       "name": "Frame Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary defensive concept that prevents reconnection after connection breaking creates initial separation"
     },
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Movement framework used to exploit broken connections and convert control disruption into positional improvement"
     },
     {
       "name": "Guard Retention Concepts",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Advanced application where connection breaking is applied proactively to prevent control establishment"
     },
     {
       "name": "Escape Fundamentals",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader defensive framework where connection breaking serves as critical initial phase of complete escape sequences"
     },
     {
@@ -347,14 +371,14 @@
       "relationship": "Specific escape technique heavily dependent on breaking cross-face and underhook connections"
     },
     {
-      "name": "Guard Replacement",
-      "content_type": "Transition",
-      "relationship": "Defensive recovery technique that requires breaking opponent's passing connections before reestablishing guard"
+      "name": "Defensive Posture",
+      "content_type": "Principle",
+      "relationship": "Protective positioning concept that works synergistically with connection breaking to prevent submission and maintain escape opportunities"
     },
     {
-      "name": "Defensive Position",
-      "content_type": "Position",
-      "relationship": "Protective position where connection breaking prevents opponent from advancing control or establishing submissions"
+      "name": "Space Creation",
+      "content_type": "Principle",
+      "relationship": "Complementary principle where connection breaking creates the physical space necessary for defensive movement and recovery"
     }
   ],
   "expert_insights": {

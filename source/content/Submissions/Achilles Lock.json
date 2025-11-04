@@ -1,18 +1,15 @@
 {
-  "metadata": {
-    "title": "Achilles Lock | BJJ Submission | BJJ Graph",
-    "description": "Master the Achilles Lock in BJJ. Complete safety guide with setup, execution, and defense. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-    "submission_id": "SUB001",
-    "tags": ["bjj", "submission", "leg-lock", "achilles-lock", "ankle-lock", "joint-lock"],
-    "submission_category": "Joint Lock",
-    "submission_type": "Leg Lock",
-    "target_area": "Achilles tendon and ankle joint",
-    "starting_position": "Ashi Garami Bottom",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 50,
-      "advanced": 65
-    }
+  "name": "Achilles Lock",
+  "description": "Master the Achilles Lock leg submission with comprehensive safety protocols, setup mechanics, and finishing details. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "tags": ["bjj", "submission", "leg-lock", "achilles-lock", "ankle-lock", "joint-lock"],
+  "submission_category": "Joint Lock",
+  "submission_type": "Leg Lock",
+  "target_area": "Achilles tendon and ankle joint",
+  "starting_position": "Ashi Garami",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 50,
+    "advanced": 65
   },
   "overview": "The Achilles Lock is a fundamental leg lock submission that targets the Achilles tendon and ankle joint by creating hyperextension and compression. Unlike heel hooks which attack rotational integrity, the Achilles Lock applies straight pressure to the posterior ankle, making it one of the safer leg attacks when applied with control. This submission is legal at all IBJJF belt levels (with straight ankle variations) and serves as the foundation for understanding leg lock mechanics. The position is typically entered from Ashi Garami variations, Single Leg X Guard, or during scrambles when controlling an opponent's leg. The effectiveness of the Achilles Lock depends on precise hip placement, proper grip configuration, and the ability to create a fulcrum against the opponent's Achilles tendon using your forearm or wrist bone. Understanding this submission is essential for developing a complete leg lock game and provides critical defensive awareness for all practitioners.",
   "safety_considerations": {
@@ -83,7 +80,7 @@
     {
       "step_number": 1,
       "action": "Secure the leg position",
-      "description": "From Ashi Garami Bottom, ensure your inside leg is firmly across the opponent's hip with your foot on the mat for base. Your outside leg hooks behind their trapped knee with your foot locked to your own hip. Your knees should be squeezed tightly together with no gap.",
+      "description": "From Ashi Garami, ensure your inside leg is firmly across the opponent's hip with your foot on the mat for base. Your outside leg hooks behind their trapped knee with your foot locked to your own hip. Your knees should be squeezed tightly together with no gap.",
       "timing": "2-3 seconds to establish solid position",
       "pressure_level": "Light"
     },
@@ -281,17 +278,41 @@
       "safety_emphasis": "Mentor newer students on safe application. Lead by example in training culture. Continue conservative approach even at advanced levels. Prioritize longevity over submission count."
     }
   ],
+  "from_positions": [
+    "Ashi Garami",
+    "Inside Ashi-Garami",
+    "Outside Ashi-Garami",
+    "Single Leg X-Guard",
+    "50-50 Guard",
+    "Saddle",
+    "Deep Half Guard",
+    "Seated Guard",
+    "Turtle"
+  ],
+  "related_submissions": [
+    "Straight Ankle Lock",
+    "Heel Hook",
+    "Inside Heel Hook",
+    "Outside Heel Hook",
+    "Kneebar",
+    "Toe Hold",
+    "Calf Slicer",
+    "Estima Lock",
+    "Straight Footlock",
+    "Kneebar from 50-50",
+    "Toe Hold from 50-50"
+  ],
   "related_content": [
     {
-      "name": "Ashi Garami Bottom",
+      "name": "Ashi Garami",
       "relationship": "Primary position for Achilles Lock setup and control"
     },
     {
-      "name": "Outside Ashi-Garami Bottom",
+      "name": "Outside Ashi-Garami",
       "relationship": "Alternative position providing different angle for Achilles Lock"
     },
     {
-      "name": "Single Leg X Guard Bottom",
+      "name": "Single Leg X-Guard",
       "relationship": "Common entry position transitioning to Achilles Lock"
     },
     {
@@ -311,15 +332,19 @@
       "relationship": "Leg lock targeting different joint, often chained with Achilles Lock"
     },
     {
-      "name": "Saddle Entry from Top",
-      "relationship": "Transition from top position to leg entanglement system including Achilles"
+      "name": "Saddle",
+      "relationship": "Advanced leg entanglement position including Achilles variations"
     },
     {
       "name": "Danaher Leg Lock System",
       "relationship": "Systematic approach to leg locks including Achilles variations"
     },
     {
-      "name": "Leg Entanglement Position",
+      "name": "Craig Jones Leg Lock System",
+      "relationship": "Modern leg lock methodology featuring Achilles Lock applications"
+    },
+    {
+      "name": "Leg Entanglement",
       "relationship": "Conceptual framework for understanding Ashi positions and controls"
     }
   ],

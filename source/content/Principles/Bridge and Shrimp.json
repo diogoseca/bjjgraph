@@ -1,21 +1,18 @@
 {
-  "metadata": {
-    "title": "Bridge and Shrimp | BJJ Concept | BJJ Graph",
-    "description": "Understand Bridge and Shrimp fundamentals in BJJ. Master hip elevation, lateral displacement, escape mechanics. Expert insights on defensive movement patterns included.",
-    "concept_id": "C202",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "escape",
-      "movement",
-      "defense",
-      "hip-mechanics"
-    ],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Bridge and Shrimp",
+  "description": "Master the foundational Bridge and Shrimp movements in BJJ. Learn hip elevation mechanics, lateral displacement, escape sequences, and cross-position applications.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "escape",
+    "movement",
+    "defense",
+    "hip-mechanics"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Bridge and Shrimp represent the fundamental escape movement patterns that form the foundation of all BJJ defensive techniques through hip elevation and lateral displacement that create space and enable position recovery from bottom positions. Unlike specific escape techniques, bridge and shrimp are comprehensive movement principles that apply across virtually all bottom scenarios where space creation and positional adjustment are required. These concepts encompass the biomechanical patterns, timing coordination, and strategic applications that transform defensive vulnerability into escape opportunities. Bridge and shrimp serve as both immediate defensive responses that create space under pressure, and foundational movement skills that enable all advanced escapes and position changes. The ability to execute effective bridge and shrimp movements often determines whether a practitioner can escape inferior positions or remains trapped under opponent control, making them the most essential movement patterns in BJJ fundamentals.",
   "key_principles": [
     "Elevate hips explosively using leg drive to create vertical space and unload opponent's weight",
@@ -62,36 +59,56 @@
       "description": "The capacity to execute multiple consecutive bridge and shrimp repetitions when initial attempts create insufficient space, maintaining consistent mechanics while incrementally building escape opportunities."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Hip Escape Mechanics",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Extension",
       "description": "Bridge and shrimp provide the fundamental movement patterns that hip escape mechanics build upon with additional technical refinements and position-specific applications."
     },
     {
-      "concept_name": "Frame Creation",
+      "principle_name": "Frame Creation",
       "relationship_type": "Complementary",
       "description": "Effective frames work synergistically with bridge and shrimp movements to maintain created space and prevent opponent from immediately recovering control after displacement."
     },
     {
-      "concept_name": "Escape Fundamentals",
+      "principle_name": "Escape Fundamentals",
       "relationship_type": "Prerequisite",
       "description": "Bridge and shrimp movements form the foundational skills that all escape fundamentals depend upon for space creation and positional recovery."
     },
     {
-      "concept_name": "Leverage Principles",
+      "principle_name": "Leverage Principles",
       "relationship_type": "Complementary",
       "description": "Understanding leverage principles enhances bridge and shrimp effectiveness by optimizing body positioning and force application angles during movement execution."
     },
     {
-      "concept_name": "Energy Conservation",
+      "principle_name": "Energy Conservation",
       "relationship_type": "Complementary",
       "description": "Proper bridge and shrimp mechanics aligned with energy conservation principles enable sustainable defensive efforts without rapid fatigue accumulation."
     },
     {
-      "concept_name": "Biomechanical Principles",
+      "principle_name": "Biomechanical Principles",
       "relationship_type": "Prerequisite",
       "description": "Bridge and shrimp movements directly apply biomechanical principles of force generation, weight distribution, and angular displacement to create escape opportunities."
+    },
+    {
+      "principle_name": "Space Creation",
+      "relationship_type": "Extension",
+      "description": "Bridge and shrimp are the primary mechanical methods for executing space creation principles in bottom positions."
+    },
+    {
+      "principle_name": "Hip Movement",
+      "relationship_type": "Prerequisite",
+      "description": "General hip movement principles form the foundation upon which bridge and shrimp mechanics are built and refined."
+    },
+    {
+      "principle_name": "Defensive Strategy",
+      "relationship_type": "Complementary",
+      "description": "Bridge and shrimp provide the tactical tools for executing defensive strategy principles during bottom position scenarios."
+    },
+    {
+      "principle_name": "Mount Escape Series",
+      "relationship_type": "Extension",
+      "description": "Mount escape series relies heavily on bridge and shrimp fundamentals as the primary movement patterns for escape execution."
     }
   ],
   "application_contexts": [
@@ -124,8 +141,24 @@
       "how_applied": "Coordinate bridge and shrimp to address both vertical pressure and angular control, creating space to recover guard or transition to less compromised bottom positions."
     },
     {
-      "context": "Scarf Hold Position",
+      "context": "High Mount",
       "how_applied": "Bridge explosively toward opponent to disrupt their base and weight distribution, then shrimp to create space for hip movement and potential reversal or escape to guard."
+    },
+    {
+      "context": "Half Guard",
+      "how_applied": "Use shrimp movements to create angles for underhook battles and knee shield insertion, combining with bridge to prevent opponent from consolidating control and passing."
+    },
+    {
+      "context": "Closed Guard",
+      "how_applied": "Bridge to break opponent's posture and create angles for attacks, using hip elevation to disrupt their base and set up sweeps or submissions."
+    },
+    {
+      "context": "Turtle",
+      "how_applied": "Shrimp movements create space to sit through to guard or stand up, while bridge mechanics help prevent opponent from flattening and taking back control."
+    },
+    {
+      "context": "Open Guard",
+      "how_applied": "Shrimp to create optimal angles for guard retention, using hip displacement to maintain distance management and prevent opponent's passing attempts."
     }
   ],
   "decision_framework": [
@@ -284,22 +317,22 @@
   "related_content": [
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Direct extension of bridge and shrimp fundamentals with additional technical refinements for specific escape scenarios"
     },
     {
       "name": "Escape Fundamentals",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Comprehensive framework that incorporates bridge and shrimp as foundational movement patterns for all escapes"
     },
     {
       "name": "Frame Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary defensive skill that preserves space created by bridge and shrimp movements"
     },
     {
       "name": "Mount Escape Series",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Specific application context where bridge and shrimp movements enable primary escape pathways"
     },
     {
@@ -314,7 +347,7 @@
     },
     {
       "name": "Side Control Escapes",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Category of escapes that fundamentally depend on proper bridge and shrimp execution"
     },
     {
@@ -329,8 +362,18 @@
     },
     {
       "name": "Energy Conservation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic principle that requires efficient bridge and shrimp mechanics for sustainable defensive efforts"
+    },
+    {
+      "name": "Shrimping",
+      "content_type": "Principle",
+      "relationship": "Focused principle that explores shrimp mechanics as a distinct movement pattern complementary to bridge"
+    },
+    {
+      "name": "Bridging Mechanics",
+      "content_type": "Principle",
+      "relationship": "Detailed analysis of bridge movement as a standalone principle complementing combined bridge and shrimp approach"
     }
   ],
   "expert_insights": {

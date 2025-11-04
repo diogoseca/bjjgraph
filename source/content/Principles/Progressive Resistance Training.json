@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Progressive Resistance Training | BJJ Concept | BJJ Graph",
     "description": "Understand Progressive Resistance Training in BJJ. Learn systematic skill development, controlled intensity progression, training adaptation principles.",
-    "concept_id": "C089",
+    "principle_id": "P089",
     "tags": ["bjj", "concept", "training methodology", "skill development", "progressive overload", "resistance training", "sparring progression"],
     "application_level": "Fundamental",
     "complexity_level": "Medium",
@@ -58,34 +58,34 @@
     }
   ],
 
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Drilling Methodology",
+      "principle_name": "Drilling Methodology",
       "relationship_type": "Complementary",
       "description": "Drilling Methodology provides the technical framework for repetition and movement pattern establishment, while Progressive Resistance Training determines when and how to add challenge to those drilled movements."
     },
     {
-      "concept_name": "Positional Sparring",
+      "principle_name": "Positional Sparring",
       "relationship_type": "Extension",
       "description": "Positional Sparring is a direct application of Progressive Resistance Training principles, using controlled starting positions and scenarios to bridge the gap between drilling and free rolling."
     },
     {
-      "concept_name": "Energy Management System",
+      "principle_name": "Energy Management System",
       "relationship_type": "Complementary",
       "description": "As resistance increases, energy management becomes more critical. Understanding how to conserve energy under pressure is developed through progressive resistance exposure."
     },
     {
-      "concept_name": "Flow Rolling",
+      "principle_name": "Flow Rolling",
       "relationship_type": "Alternative",
       "description": "Flow Rolling represents a lower-resistance training modality that emphasizes movement quality and connection over competition, serving as a recovery method within progressive training cycles."
     },
     {
-      "concept_name": "Competition Training",
+      "principle_name": "Competition Training",
       "relationship_type": "Advanced form",
       "description": "Competition Training represents the highest resistance level in the progressive continuum, where all variables approach match conditions and intensity is maximized."
     },
     {
-      "concept_name": "System Building",
+      "principle_name": "System Building",
       "relationship_type": "Prerequisite",
       "description": "Building coherent technical systems requires progressive resistance training to test system components individually before integrating them under full resistance."
     }

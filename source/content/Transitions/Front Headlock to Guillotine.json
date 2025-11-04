@@ -1,26 +1,26 @@
 {
-  "metadata": {
-    "title": "Front Headlock to Guillotine | BJJ Technique | BJJ Graph",
-    "description": "Learn Front Headlock to Guillotine transition in BJJ. Step-by-step execution from Front Headlock to Guillotine Control. Success: Beginner 35%, Intermediate 50%, Advanced 65%.",
-    "transition_id": "T073",
-    "tags": [
-      "bjj",
-      "transition",
-      "submission",
-      "front_headlock",
-      "guillotine",
-      "choke",
-      "neck_attack",
-      "standing",
-      "turtle"
-    ],
-    "starting_position": "Front Headlock",
-    "ending_position": "Guillotine Control",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 50,
-      "advanced": 65
-    }
+  "name": "Front Headlock to Guillotine",
+  "description": "Master the Front Headlock to Guillotine transition in BJJ. Complete technical breakdown with step-by-step execution, timing cues, and finishing mechanics.",
+  "tags": [
+    "bjj",
+    "transition",
+    "submission",
+    "front_headlock",
+    "guillotine",
+    "choke",
+    "neck_attack",
+    "standing",
+    "turtle",
+    "no-gi",
+    "wrestling",
+    "scramble"
+  ],
+  "starting_position": "Front Headlock",
+  "ending_position": "Guillotine Control",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 50,
+    "advanced": 65
   },
   "overview": "The Front Headlock to Guillotine transition represents a critical pathway in modern submission grappling, transforming a dominant control position into a high-percentage finishing opportunity. This transition is fundamental to understanding the front headlock series, where the practitioner leverages head and arm control to create the angle and grip necessary for the guillotine choke. The technique is particularly effective when the opponent attempts to stand from turtle or drives forward from a defensive posture, creating the perfect moment to secure the guillotine grip and establish submission control.\n\nThis transition's effectiveness lies in its ability to capitalize on the opponent's natural escape attempts from the front headlock. As they attempt to pull their head free or drive forward to escape, these movements actually facilitate the grip adjustment needed for the guillotine. The timing of this transition is crucial - executing too early results in a weak guillotine without proper depth, while waiting too long allows the opponent to posture up and escape the control entirely.\n\nThe Front Headlock to Guillotine is a cornerstone technique in no-gi grappling and MMA, where collar controls are unavailable. It serves as both a submission threat and a gateway to other attacks within the front headlock system, including the darce choke, anaconda choke, and various back takes. Mastering this transition requires understanding proper head positioning, grip mechanics, and the ability to maintain control throughout the adjustment phase while preventing the opponent from establishing defensive frames or creating distance.",
   "key_principles": [
@@ -229,32 +229,36 @@
   "position_integration": "The Front Headlock to Guillotine transition is a cornerstone technique within the broader front headlock system, which represents one of the most versatile and effective positional frameworks in modern Brazilian Jiu-Jitsu. This transition connects the dominant front headlock control position to a high-percentage submission finish, but it also serves as a gateway to multiple other attacks including the darce choke, anaconda choke, and various back takes. Within the positional hierarchy, the front headlock sits between neutral/scramble positions and dominant submission positions, making it a critical transitional zone where matches are often won or lost.\n\nThis technique integrates seamlessly with turtle position attacks, as opponents frequently end up in turtle when defending takedowns, guard passes, or scrambles. It also connects to the standing game, particularly in no-gi grappling where wrestling-style tie-ups and snap downs create front headlock opportunities. The guillotine finish can be achieved from multiple guard positions (closed guard, half guard, butterfly guard) as well as standing positions, making it a truly universal submission that appears throughout the entire BJJ system.\n\nFrom a strategic perspective, this transition exemplifies the principle of submission chains - having multiple attacks available from a single position so that defending one attack opens up another. When integrated with the darce and anaconda chokes from the same front headlock position, an opponent faces a genuine dilemma where any defensive movement potentially worsens their position. This transition is fundamental to the Danaher Front Headlock System and the Marcelo Garcia Guillotine System, representing different philosophical approaches to the same core technique. Understanding this transition is essential for developing a complete front headlock game and for both gi and no-gi practitioners at all skill levels.",
   "related_content": [
     {
-      "name": "Front Headlock Series",
-      "relationship": "Parent system - contains this technique as a primary attack option"
+      "name": "Front Headlock",
+      "relationship": "Starting Position - the control position from which this transition begins"
+    },
+    {
+      "name": "Guillotine Control",
+      "relationship": "Ending Position - the submission control position achieved by this transition"
     },
     {
       "name": "Guillotine Choke",
-      "relationship": "Direct submission - the finishing position for this transition"
+      "relationship": "Direct Submission - the finishing technique for this transition"
     },
     {
       "name": "Front Headlock to Darce",
-      "relationship": "Alternative transition - used when opponent defends guillotine by turning in"
+      "relationship": "Alternative Transition - used when opponent defends guillotine by turning in"
     },
     {
       "name": "Front Headlock to Anaconda",
-      "relationship": "Alternative transition - another submission option from same control position"
-    },
-    {
-      "name": "Guillotine Setup",
-      "relationship": "Related technique - different entry to same submission finish"
-    },
-    {
-      "name": "Snap Down to Front Headlock",
-      "relationship": "Setup technique - common entry to establish the front headlock position"
+      "relationship": "Alternative Transition - another submission option from same control position"
     },
     {
       "name": "Front Headlock to Back",
-      "relationship": "Alternative transition - used when submission is not available"
+      "relationship": "Alternative Transition - used when submission is not available"
+    },
+    {
+      "name": "Guillotine Setup",
+      "relationship": "Related Technique - different entry to same submission finish"
+    },
+    {
+      "name": "Guillotine from Turtle",
+      "relationship": "Setup Variation - another common entry to guillotine from turtle defense"
     },
     {
       "name": "High Elbow Guillotine",
@@ -266,19 +270,23 @@
     },
     {
       "name": "Darce Choke",
-      "relationship": "Alternative submission - used when opponent turns into guillotine attempt"
+      "relationship": "Alternative Submission - used when opponent turns into guillotine attempt"
     },
     {
-      "name": "Guillotine from Turtle",
-      "relationship": "Setup variation - another common entry to guillotine from turtle defense"
+      "name": "Anaconda Choke",
+      "relationship": "Alternative Submission - complementary attack from front headlock"
     },
     {
-      "name": "Danaher Front Headlock System",
-      "relationship": "Parent system - comprehensive framework containing this technique"
+      "name": "Snap Down to Front Headlock",
+      "relationship": "Setup Technique - common entry to establish the front headlock position"
     },
     {
-      "name": "Marcelo Garcia Guillotine System",
-      "relationship": "Expert system - specialized approach to guillotine techniques"
+      "name": "Closed Guard",
+      "relationship": "Finishing Position - common position for completing the guillotine"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Common Setup - opponent position that often leads to front headlock"
     }
   ],
   "expert_insights": {

@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Sleeve Control | BJJ Concept | BJJ Graph",
     "description": "Understand Sleeve Control in BJJ. Learn grip mechanics, breaking posture, cross-position application. Strategic framework for manipulating opponent's arms.",
-    "concept_id": "C125",
+    "principle_id": "P125",
     "tags": ["bjj", "concept", "grip", "control", "guard", "sleeve", "manipulation"],
     "application_level": "Fundamental",
     "complexity_level": "Medium",
@@ -53,34 +53,34 @@
       "description": "Breaking opponent's sleeve grips on you through proper mechanics - circling arm against thumb, explosive arm retraction, using free hand to peel grips, and establishing frame pressure to create space for grip breaks. Also includes establishing your own sleeve control during opponent's grip breaking attempts to transition from defense to offense."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Grip Strategy",
+      "principle_name": "Grip Strategy",
       "relationship_type": "Prerequisite",
       "description": "Overall grip strategy framework determines when and how to establish sleeve control within broader grip fighting exchanges and position-specific grip hierarchies"
     },
     {
-      "concept_name": "Collar Control",
+      "principle_name": "Collar Control",
       "relationship_type": "Complementary",
       "description": "Collar control works synergistically with sleeve control to create two-point control systems that break posture and prevent opponent escape"
     },
     {
-      "concept_name": "Posture Breaking",
+      "principle_name": "Posture Breaking",
       "relationship_type": "Extension",
       "description": "Sleeve control serves as primary mechanism for breaking opponent's posture by extending arms and eliminating their ability to maintain upright structure"
     },
     {
-      "concept_name": "Off-Balancing",
+      "principle_name": "Off-Balancing",
       "relationship_type": "Complementary",
       "description": "Directional sleeve pulls create off-balancing opportunities by controlling opponent's arm placement and preventing compensatory posts"
     },
     {
-      "concept_name": "Distance Creation",
+      "principle_name": "Distance Creation",
       "relationship_type": "Advanced form",
       "description": "Advanced sleeve control allows precise distance regulation - pulling to close distance or extending fully to create defensive space"
     },
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention Concepts",
       "relationship_type": "Extension",
       "description": "Sleeve control functions as essential guard retention tool by preventing opponent from establishing strong passing grips and controlling their arm position throughout retention sequences"
     }

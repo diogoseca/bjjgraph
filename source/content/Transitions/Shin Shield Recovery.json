@@ -1,16 +1,13 @@
 {
-  "metadata": {
-    "title": "Shin Shield Recovery | BJJ Technique | BJJ Graph",
-    "description": "Master Shin Shield Recovery in BJJ. Essential defensive framing from half guard. Prevent passing and create space. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.",
-    "transition_id": "T217",
-    "tags": ["bjj", "technique", "half-guard", "defense", "guard-retention", "framing"],
-    "starting_position": "Half Guard Bottom",
-    "ending_position": "Knee Shield Half Guard",
-    "success_rates": {
-      "beginner": 45,
-      "intermediate": 65,
-      "advanced": 80
-    }
+  "name": "Shin Shield Recovery",
+  "description": "Master Shin Shield Recovery in BJJ. Essential defensive framing from half guard. Prevent passing and create space. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.",
+  "tags": ["bjj", "technique", "half-guard", "defense", "guard-retention", "framing"],
+  "starting_position": "Half Guard",
+  "ending_position": "Knee Shield Half Guard",
+  "success_rates": {
+    "beginner": 45,
+    "intermediate": 65,
+    "advanced": 80
   },
   "overview": "The Shin Shield Recovery is a fundamental defensive technique used to re-establish guard retention from compromised half guard positions. When an opponent is pressuring to pass your half guard, the shin shield creates a strong frame that prevents forward pressure while creating the space necessary to recover full guard structure. This technique is essential for maintaining defensive integrity when your knee shield has been flattened or your frames have been broken.\n\nThe shin shield works by using your inside leg to create a barrier across the opponent's torso, transforming your leg into a structural frame that manages distance and prevents the opponent from consolidating control. Unlike passive defensive positions, the shin shield is an active recovery position that allows you to control distance, create angles, and launch counter-offensive techniques. The position is particularly effective against pressure passers who rely on chest-to-chest contact and weight distribution.\n\nMastering shin shield recovery is critical for developing a robust half guard game. It serves as the foundation for numerous sweeps, back takes, and submissions while simultaneously providing a reliable defensive structure. The technique requires precise hip positioning, proper angle creation, and understanding of weight distribution to maximize effectiveness against various passing attempts.",
   "key_principles": [

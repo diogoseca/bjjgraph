@@ -1,16 +1,13 @@
 {
-  "metadata": {
-    "title": "Ankle Pick | BJJ Technique | BJJ Graph",
-    "description": "Master the Ankle Pick takedown in BJJ. Learn setup, execution, and finishing from standing position. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-    "transition_id": "T220",
-    "tags": ["bjj", "technique", "takedown", "wrestling", "standing", "ankle-pick", "grip-fighting"],
-    "starting_position": "Neutral Starting Position",
-    "ending_position": "Top Position",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 50,
-      "advanced": 65
-    }
+  "name": "Ankle Pick",
+  "description": "Learn the Ankle Pick takedown in BJJ. Step-by-step execution from standing position to top control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "tags": ["bjj", "technique", "takedown", "wrestling", "standing", "ankle-pick", "grip-fighting"],
+  "starting_position": "Standing Position",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 50,
+    "advanced": 65
   },
   "overview": "The Ankle Pick is a fundamental wrestling-based takedown that has become increasingly important in modern Brazilian Jiu-Jitsu, particularly in no-gi competition. This technique exploits an opponent's forward pressure and weight distribution by attacking their lead ankle while simultaneously controlling their upper body. The Ankle Pick is valued for its relatively low risk profile compared to other takedown attempts, as a failed execution typically results in a neutral standing position rather than a compromised bottom position.\n\nThe effectiveness of the Ankle Pick lies in its ability to create a sudden level change combined with ankle isolation. When executed properly, the opponent's base is completely compromised as you pull their foot forward while driving their upper body backward, creating an unstoppable rotational collapse. This takedown works particularly well against opponents who maintain an upright posture or who are reluctant to engage in tie-ups. The technique requires precise timing, as the window of opportunity occurs when your opponent steps forward with their lead leg.\n\nIn the modern BJJ meta-game, the Ankle Pick serves as both a primary offensive takedown and an excellent setup for other attacks. When opponents defend the ankle grip, they often create opportunities for arm drags, snap downs, or transitions to the clinch. The ankle pick also integrates seamlessly with guard pulling strategies, as the same forward motion can be converted into a seated guard entry if the takedown is defended. This versatility makes it an essential tool for competitors who need reliable standing techniques that complement their ground game.",
   "key_principles": [
@@ -242,44 +239,44 @@
   "related_content": [
     {
       "name": "Single Leg Takedown",
-      "relationship": "Alternative - Similar level change and lower body attack with different finish"
+      "relationship": "Alternative"
     },
     {
       "name": "Arm Drag to Back",
-      "relationship": "Setup - Arm drag creates perfect angle for ankle pick entry"
+      "relationship": "Setup"
     },
     {
       "name": "Snap Down",
-      "relationship": "Combination - Snap down to ankle pick is high-percentage chain"
+      "relationship": "Combination"
     },
     {
       "name": "Sprawl Defense",
-      "relationship": "Counter - Primary defense opponent uses against ankle pick attempts"
+      "relationship": "Counter"
     },
     {
       "name": "Guard Pull",
-      "relationship": "Alternative - Can convert ankle pick motion to guard pull if defended"
+      "relationship": "Alternative"
     },
     {
       "name": "Technical Standup",
-      "relationship": "Follow-up - Can use technical standup position to set up ankle pick"
+      "relationship": "Follow-up"
     },
     {
       "name": "Guillotine Choke",
-      "relationship": "Counter - Risk if head position is incorrect during level change"
+      "relationship": "Counter"
     },
     {
       "name": "Double Leg Entry",
-      "relationship": "Alternative - Similar level change with different target"
+      "relationship": "Alternative"
     },
     {
-      "name": "Front Headlock",
-      "relationship": "Transition - Can flow to front headlock if ankle pick is partially defended"
+      "name": "Front Headlock Series",
+      "relationship": "Transition"
     }
   ],
   "expert_insights": {
     "danaher": "The Ankle Pick represents one of the most mechanically sound takedowns in grappling because it exploits fundamental principles of base and leverage with minimal risk. The technique's effectiveness stems from creating opposing rotational forces—the forward pull on the ankle combined with backward pressure on the upper body creates a moment arm that collapses the opponent's structure regardless of their strength. What makes this particularly elegant is that these forces work synergistically: the more you pull the ankle forward, the more their weight loads onto that leg, which simultaneously makes the backward pressure on their upper body more effective at breaking their balance. This is pure biomechanical efficiency. The critical technical detail most practitioners miss is the importance of the angle—you must position your head outside their body line, approximately 45 degrees off center. This angle accomplishes two objectives: it makes their sprawl defense geometrically inefficient because their hips cannot effectively pressure your head, and it creates the proper leverage angle for your pull-and-drive forces. When teaching this technique systematically, I emphasize that the ankle pick should never be viewed in isolation but rather as one component of a complete standing system. The ankle pick's true value emerges when integrated with complementary attacks—arm drags, snap downs, and guard pulls all share similar setups and can flow seamlessly together based on opponent reactions.",
     "gordon_ryan": "In high-level competition, the ankle pick is one of my most reliable takedown options because it's extremely difficult for opponents to counter if you have good timing and setup. The key difference between competitors who hit this move consistently and those who don't is the setup—you can't just shoot in on someone's ankle and expect it to work. You need to create the reaction first through grip fighting and pressure. What I do is establish a strong collar tie and really load my opponent's weight forward onto their lead leg through constant forward pressure and head manipulation. Once I feel their weight settle onto that front foot, that's when I attack—the window is only open for a second. The level change has to be explosive but disguised. I keep my upper body relatively upright during the setup so they can't see the level change coming, then I drop fast while maintaining that collar tie pressure so they can't back away. Against high-level opponents, you often only get one attempt before they adjust their stance, so your first shot needs to be perfect. I also use the ankle pick as a setup move—even if they defend it, the way they defend usually opens up other attacks. If they sprawl hard, I'm immediately working for the guillotine or arm drag. If they try to back out, I can chain to a single leg or pull guard. In my competition strategy, I view the ankle pick as a forcing move that creates situations I can exploit, whether the takedown lands or not.",
-    "eddie_bravo": "The ankle pick is one of those fundamental wrestling moves that translates perfectly to no-gi jiu-jitsu, and at 10th Planet we've adapted it in some creative ways. Traditional wrestling ankle picks are great, but we've found that combining them with our rubber guard system creates some really interesting opportunities. When someone defends the ankle pick by sprawling, that's actually when things get fun—you can maintain that collar tie control and immediately transition to the Crack Head Control position from our system, especially if they sprawl hard and you can get underneath them. The setup is where most people mess up. You can't be obvious about it. What I teach is to use constant grip fighting and movement to mask your level change—maybe threaten an arm drag or a snap down first to get them reacting, then hit the ankle pick when they're focused on defending something else. Another thing we do different at 10th Planet is we really emphasize the follow-through to immediate leg attack positions. When you take someone down with the ankle pick, you're often in perfect position to enter into leg entanglements if they try to guard. We've developed specific drills where you hit the ankle pick and immediately transition to either saddle position or outside ashi depending on how they react. The ankle pick isn't just a takedown for us—it's an entry point into our leg lock system. And if someone is really defending the ankle pick well, we use it to set up our flying submissions or guard pulls. The key is being unpredictable and having multiple options from the same setup."
+    "eddie_bravo": "The ankle pick is one of those fundamental wrestling moves that translates perfectly to no-gi jiu-jitsu, and at 10th Planet we've adapted it in some creative ways. Traditional wrestling ankle picks are great, but we've found that combining them with our rubber guard system creates some really interesting opportunities. When someone defends the ankle pick by sprawling, that's actually when things get fun—you can maintain that collar tie control and immediately transition to the Crackhead Control position from our system, especially if they sprawl hard and you can get underneath them. The setup is where most people mess up. You can't be obvious about it. What I teach is to use constant grip fighting and movement to mask your level change—maybe threaten an arm drag or a snap down first to get them reacting, then hit the ankle pick when they're focused on defending something else. Another thing we do different at 10th Planet is we really emphasize the follow-through to immediate leg attack positions. When you take someone down with the ankle pick, you're often in perfect position to enter into leg entanglements if they try to guard. We've developed specific drills where you hit the ankle pick and immediately transition to either saddle position or outside ashi depending on how they react. The ankle pick isn't just a takedown for us—it's an entry point into our leg lock system. And if someone is really defending the ankle pick well, we use it to set up our flying submissions or guard pulls. The key is being unpredictable and having multiple options from the same setup."
   }
 }

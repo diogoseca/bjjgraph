@@ -1,12 +1,9 @@
 {
-  "metadata": {
-    "title": "Standing Defense Strategy | BJJ System | BJJ Graph",
-    "description": "Master standing defense in BJJ with systematic framework for takedown defense, sprawling, and strategic positioning. Expert insights from Danaher, Ryan, and Bravo.",
-    "system_id": "DS004",
-    "tags": ["bjj", "defense-system", "standing-defense", "takedown-defense", "sprawl", "wrestling", "clinch-fighting", "distance-management"],
-    "system_type": "Defense System",
-    "difficulty_level": "Intermediate"
-  },
+  "name": "Standing Defense Strategy",
+  "description": "Master standing defense with systematic framework for takedown prevention, sprawling, base maintenance, and strategic positioning. Complete guide to defending leg attacks.",
+  "tags": ["bjj", "defense-system", "standing-defense", "takedown-defense", "sprawl", "wrestling", "clinch-fighting", "distance-management", "grip-fighting", "base-maintenance"],
+  "system_type": "Defense System",
+  "difficulty_level": "Intermediate",
   "overview": "The Standing Defense Strategy is a comprehensive defensive system designed to prevent takedowns, maintain favorable positioning in the standing phase, and control the engagement distance. This system integrates wrestling defensive principles with BJJ-specific positioning strategies, emphasizing the prevention of takedowns while creating opportunities to pull guard strategically or counter-attack.\n\nThe foundation of this system rests on three core pillars: distance management, base maintenance, and reactive positioning. Unlike purely offensive takedown systems, standing defense requires constant threat assessment and the ability to recognize and neutralize takedown attempts before they fully develop. This system teaches practitioners to fight at optimal ranges where they can defend effectively while minimizing exposure to high-percentage takedowns.\n\nMastery of standing defense is essential for both gi and no-gi competition, as it allows practitioners to control when and how the match transitions to the ground. The system includes protocols for dealing with various takedown attacks (singles, doubles, body locks, trips), grip fighting strategies to prevent dominant grips, and decision-making frameworks for when to defend standing versus when to accept guard pulling as the superior tactical choice.",
   "key_principles": [
     "Distance Control - Maintain optimal engagement range where you can defend but opponent cannot easily attack",
@@ -210,14 +207,9 @@
   },
   "related_content": [
     {
-      "name": "Neutral Starting Position",
-      "content_type": "Position",
-      "relationship": "Primary starting position where standing defense system is applied"
-    },
-    {
       "name": "Standing Position",
       "content_type": "Position",
-      "relationship": "Generic standing position encompassing all standing defensive scenarios"
+      "relationship": "Primary position where standing defense system is applied"
     },
     {
       "name": "Combat Base",
@@ -225,29 +217,44 @@
       "relationship": "Defensive base position used when opponent has partially secured takedown"
     },
     {
-      "name": "Front Headlock",
+      "name": "Clinch",
       "content_type": "Position",
-      "relationship": "Counter-offensive position available from successful sprawl defense"
+      "relationship": "Close-range standing position where grip fighting and takedown defense occur"
     },
     {
-      "name": "Guillotine Control",
+      "name": "Standing Rear Clinch",
       "content_type": "Position",
-      "relationship": "Submission setup position accessible from sprawl defense"
+      "relationship": "Standing clinch position requiring specific defensive protocols"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Collar Ties",
       "content_type": "Position",
-      "relationship": "Common guard position to pull to from standing when choosing not to defend"
+      "relationship": "Grip fighting position used to control distance and prevent takedowns"
+    },
+    {
+      "name": "Body Lock",
+      "content_type": "Position",
+      "relationship": "Offensive position this system defends against through grip fighting"
+    },
+    {
+      "name": "Turtle",
+      "content_type": "Position",
+      "relationship": "Position to avoid or escape from when takedown defense fails"
+    },
+    {
+      "name": "Closed Guard",
+      "content_type": "Position",
+      "relationship": "Common guard position to transition to via strategic guard pull"
     },
     {
       "name": "Standing Guard",
       "content_type": "Position",
-      "relationship": "Position that bridges standing and guard play"
+      "relationship": "Position that bridges standing exchanges and guard play"
     },
     {
-      "name": "Clinch Position",
+      "name": "Butterfly Guard",
       "content_type": "Position",
-      "relationship": "Close-range standing position where grip fighting and takedown defense occur"
+      "relationship": "Guard option when pulling from standing defense"
     },
     {
       "name": "Sprawl",
@@ -265,22 +272,17 @@
       "relationship": "General category of defensive techniques this system builds upon"
     },
     {
-      "name": "Technical Stand Up",
-      "content_type": "Transition",
-      "relationship": "Offensive transition to return to standing when taken down"
-    },
-    {
-      "name": "Pull guard",
+      "name": "Guard Pull",
       "content_type": "Transition",
       "relationship": "Strategic alternative to standing defense when tactically appropriate"
     },
     {
-      "name": "Single Leg Takedown",
+      "name": "Single Leg Entry",
       "content_type": "Transition",
       "relationship": "Common attack this system defends against"
     },
     {
-      "name": "Double leg takedown",
+      "name": "Double Leg Entry",
       "content_type": "Transition",
       "relationship": "Common attack this system defends against"
     },
@@ -295,54 +297,64 @@
       "relationship": "Defensive control used in sprawl defense protocol"
     },
     {
-      "name": "Guard Pass",
+      "name": "Technical Standup",
       "content_type": "Transition",
-      "relationship": "Opponent's potential follow-up if takedown succeeds"
+      "relationship": "Offensive transition to return to standing when taken down"
+    },
+    {
+      "name": "Snap Down",
+      "content_type": "Transition",
+      "relationship": "Counter-offensive technique from standing defense exchanges"
     },
     {
       "name": "Base Maintenance",
-      "content_type": "Concept",
-      "relationship": "Fundamental concept for maintaining structural stability in standing defense"
+      "content_type": "Principle",
+      "relationship": "Fundamental principle for maintaining structural stability in standing defense"
     },
     {
       "name": "Defensive Posture",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Postural principles applied throughout standing defensive exchanges"
     },
     {
       "name": "Grip Fighting",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential skill for preventing takedown setups and controlling engagement"
     },
     {
       "name": "Distance Creation",
-      "content_type": "Concept",
-      "relationship": "Strategic concept for controlling engagement distance"
+      "content_type": "Principle",
+      "relationship": "Strategic principle for controlling engagement distance"
     },
     {
       "name": "Hand Fighting",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Tactical hand fighting principles used in grip fighting component"
     },
     {
       "name": "Defensive Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Overarching strategic framework for defensive decision-making"
     },
     {
       "name": "Weight Distribution",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Biomechanical principle for maintaining balance and base in standing"
     },
     {
-      "name": "Action and Reaction",
-      "content_type": "Concept",
-      "relationship": "Timing principle for reactive defensive movements"
+      "name": "Risk Assessment",
+      "content_type": "Principle",
+      "relationship": "Decision-making framework for evaluating when to defend vs pull guard"
     },
     {
-      "name": "Risk Assessment",
-      "content_type": "Concept",
-      "relationship": "Decision-making framework for evaluating when to defend vs pull guard"
+      "name": "Competition Strategy",
+      "content_type": "System",
+      "relationship": "Broader strategic framework within which standing defense operates"
+    },
+    {
+      "name": "No-Gi Tactical Framework",
+      "content_type": "System",
+      "relationship": "No-gi specific strategic approach incorporating standing defense principles"
     }
   ],
   "expert_insights": {

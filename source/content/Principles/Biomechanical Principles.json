@@ -1,21 +1,18 @@
 {
-  "metadata": {
-    "title": "Biomechanical Principles | BJJ Concept | BJJ Graph",
-    "description": "Understand Biomechanical Principles in BJJ. Master leverage, force vectors, structural mechanics across all positions. Physics-based approach to technique optimization.",
-    "concept_id": "C101",
-    "tags": [
-      "bjj",
-      "biomechanics",
-      "physics",
-      "concepts",
-      "mechanics",
-      "leverage",
-      "force-application"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Biomechanical Principles",
+  "description": "Master biomechanical principles in BJJ. Learn leverage optimization, force vectors, structural mechanics across all positions. Physics-based approach to technique efficiency.",
+  "tags": [
+    "bjj",
+    "biomechanics",
+    "physics",
+    "concepts",
+    "mechanics",
+    "leverage",
+    "force-application"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Biomechanical Principles in BJJ represent the fundamental physical laws and mechanical properties that govern all techniques and movements in Brazilian Jiu-Jitsu. Unlike style-specific approaches or individual techniques, these principles form the underlying scientific foundation upon which all effective grappling is built. Understanding these biomechanical principles allows practitioners to analyze, optimize, and innovate techniques based on objective physical realities rather than tradition or authority alone. This framework examines how leverage, force vectors, moment arms, structural integrity, rotational mechanics, and other physical properties determine the efficiency and effectiveness of BJJ techniques. By mastering these principles, practitioners can develop deeper understanding of why techniques work, how to troubleshoot failures, and how to adapt movements to individual body types and situations. The application of biomechanics transforms BJJ from a collection of memorized techniques into a coherent system where every movement can be understood, analyzed, and optimized through mechanical principles.",
   "key_principles": [
     "Leverage maximization - Using mechanical advantage through proper fulcrum placement and force application points to multiply effective strength",
@@ -62,36 +59,51 @@
       "description": "Analyzing why techniques fail from a biomechanical perspective and adjusting angles, fulcrum points, or force application to restore mechanical advantage. This involves troubleshooting in real-time during rolling by identifying the specific mechanical weakness preventing technique success and implementing physics-based solutions."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Leverage Principles",
+      "principle_name": "Leverage Principles",
       "relationship_type": "Complementary",
       "description": "Leverage Principles represents the specific application of biomechanical laws to BJJ techniques. While Biomechanical Principles provides the theoretical physics foundation, Leverage Principles translates those laws into practical grappling applications and technique-specific implementations."
     },
     {
-      "concept_name": "Base Maintenance",
+      "principle_name": "Base Maintenance",
       "relationship_type": "Extension",
       "description": "Base Maintenance applies biomechanical principles of geometry, center of gravity, and structural stability to the specific challenge of maintaining balance and position. It represents one practical application domain of broader biomechanical understanding focused on defensive stability."
     },
     {
-      "concept_name": "Frame Creation",
+      "principle_name": "Frame Creation",
       "relationship_type": "Extension",
       "description": "Frame Creation utilizes biomechanical principles of structural integrity and force distribution to create defensive structures. The physics of skeletal alignment, rigid body mechanics, and force redirection underpin all effective framing techniques."
     },
     {
-      "concept_name": "Weight Distribution",
+      "principle_name": "Weight Distribution",
       "relationship_type": "Complementary",
       "description": "Weight Distribution represents the practical application of biomechanical pressure principles. Understanding how mass, gravity, and contact points interact allows for strategic weight placement that maximizes control while conserving energy through mechanical efficiency."
     },
     {
-      "concept_name": "Posture Breaking",
+      "principle_name": "Posture Breaking",
       "relationship_type": "Extension",
       "description": "Posture Breaking applies biomechanical principles of structural collapse and moment arm manipulation. By understanding how to disrupt opponent's skeletal alignment and create mechanical disadvantages through lever manipulation, practitioners can systematically destroy defensive structures."
     },
     {
-      "concept_name": "Sweep Mechanics",
+      "principle_name": "Sweep Mechanics",
       "relationship_type": "Extension",
       "description": "Sweep Mechanics represents the application of rotational biomechanics, base disruption, and force vectors to achieve positional reversals. The physics of torque, angular momentum, and center of gravity manipulation provide the theoretical foundation for all sweeping techniques."
+    },
+    {
+      "principle_name": "Hip Movement",
+      "relationship_type": "Extension",
+      "description": "Hip Movement applies biomechanical principles of rotational power generation and center of mass control. The hips serve as the primary force generation center in grappling, and understanding their mechanical properties is essential for efficient technique execution."
+    },
+    {
+      "principle_name": "Pressure Application",
+      "relationship_type": "Extension",
+      "description": "Pressure Application utilizes biomechanical principles of force concentration, weight distribution, and structural loading to create control and discomfort. Understanding how to focus body mass through specific contact points maximizes positional dominance with minimum energy."
+    },
+    {
+      "principle_name": "Off-Balancing",
+      "relationship_type": "Extension",
+      "description": "Off-Balancing applies biomechanical principles of center of gravity manipulation and base disruption. By understanding how to move opponent's center of mass beyond their base of support, practitioners can create mechanical instability that enables sweeps and throws."
     }
   ],
   "application_contexts": [
@@ -100,7 +112,7 @@
       "how_applied": "Biomechanics determines optimal weight distribution for control (pressure concentrated through hips and knees), proper base geometry (wide knee placement creating stable triangle), and force vectors for maintaining position (downward and forward pressure preventing hip escape mechanics)."
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Physics dictates efficient cross-face mechanics (perpendicular force to spine), shoulder pressure application (concentrating weight through skeletal structure), and base positioning (low center of gravity, wide base preventing opponent's bridging leverage)."
     },
     {
@@ -108,11 +120,11 @@
       "how_applied": "Biomechanical principles govern hook placement (maximizing rotational control around opponent's center), seatbelt mechanics (diagonal force preventing rotation), and body positioning (weight distribution that prevents opponent from creating the space needed for mechanical escape)."
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Mechanical advantage created through leg positioning (creating closed system that opponent must break), posture breaking leverage (pulling downward while legs prevent base widening), and angle creation (off-balancing through asymmetric force application)."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Biomechanics explain underhook importance (creating lever advantage for upper body control), knee shield mechanics (creating structural barrier using skeletal alignment), and sweep mechanics (manipulating opponent's base geometry through combined upper and lower body leverage)."
     },
     {
@@ -124,11 +136,11 @@
       "how_applied": "Biomechanical control through distributed pressure (chest and hips creating multiple control points), structural alignment (straight spine transferring weight efficiently), and breathing restriction mechanics (strategic rib cage pressure limiting respiratory function)."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Complex force vector management (using legs to create pushing and pulling forces simultaneously), distance control mechanics (maintaining optimal range for leverage while preventing opponent's pressure application), and base disruption (strategic gripping and hooking to manipulate opponent's geometry)."
     },
     {
-      "context": "Turtle Position",
+      "context": "Turtle",
       "how_applied": "Defensive structural integrity (rounded spine distributing opponent's weight), base mechanics (four-point base creating stability), and force redirection (using curved structure to deflect rather than resist direct pressure)."
     },
     {
@@ -142,6 +154,18 @@
     {
       "context": "Butterfly Guard",
       "how_applied": "Elevation mechanics (using butterfly hooks as lever points to lift and off-balance), force vector control (directing opponent's weight over their base), and rotational sweeping (combining lifting and rotating forces to manipulate opponent's center of gravity relative to base)."
+    },
+    {
+      "context": "X-Guard",
+      "how_applied": "Complex lever systems (using legs to control opponent's base and center of mass simultaneously), elevation and rotation mechanics (lifting while sweeping to multiply mechanical advantages), and structural control (preventing opponent from establishing stable base through continuous leg pressure)."
+    },
+    {
+      "context": "De La Riva Guard",
+      "how_applied": "Asymmetric base disruption (hook attacking one leg while other controls remain separate base points), off-balancing mechanics (continuous pressure forcing opponent to react and creating sweep opportunities), and distance management (maintaining optimal range for leg leverage)."
+    },
+    {
+      "context": "High Mount",
+      "how_applied": "Maximum pressure concentration (weight shifted forward through knees positioned near armpits), base narrowing for submission attacks (accepting reduced stability for increased offensive leverage), and gravity assistance (elevated position allowing downward force amplification for submissions)."
     }
   ],
   "decision_framework": [
@@ -300,32 +324,32 @@
   "related_content": [
     {
       "name": "Leverage Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept providing technique-specific applications of biomechanical theory"
     },
     {
       "name": "Base Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Practical application of biomechanical stability and geometry principles"
     },
     {
       "name": "Frame Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Application of structural integrity and force redirection biomechanics"
     },
     {
       "name": "Weight Distribution",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Practical application of pressure concentration and mass distribution physics"
     },
     {
       "name": "Posture Breaking",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Offensive application of structural collapse and moment arm manipulation"
     },
     {
       "name": "Sweep Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Application of rotational biomechanics and base disruption principles"
     },
     {
@@ -344,7 +368,7 @@
       "relationship": "Position where pressure distribution and base geometry principles are clearly demonstrated"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Position exemplifying leverage creation through positional configuration and force vector control"
     }

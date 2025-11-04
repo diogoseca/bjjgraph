@@ -1,14 +1,17 @@
 {
   "metadata": {
-    "title": "Grip Strategy | BJJ Concept | BJJ Graph",
-    "description": "Master grip strategy in BJJ with systematic control methods. Learn grip hierarchies, fighting principles, and strategic dominance. Expert insights from Danaher, Ryan, and Bravo.",
-    "concept_id": "C270",
+    "name": "Grip Strategy",
+    "description": "Understand grip strategy in BJJ with systematic control methods. Learn grip hierarchies, fighting principles, and strategic dominance across all positions.",
     "tags": [
       "bjj",
-      "concept",
+      "principle",
       "fundamental",
       "grips",
-      "control"
+      "control",
+      "gi",
+      "no-gi",
+      "guard",
+      "passing"
     ],
     "application_level": "Intermediate",
     "complexity_level": "Medium",
@@ -60,49 +63,49 @@
       "description": "The ability to maintain effective grips throughout extended engagements while managing grip fatigue, knowing when to invest maximum grip strength versus when to use minimal necessary force for control maintenance."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Collar Control",
+      "principle_name": "Collar Control",
       "relationship_type": "Complementary",
       "description": "Collar control represents a specific application of grip strategy focused on lapel connections, providing the tactical framework for implementing collar-based grip hierarchies in gi contexts."
     },
     {
-      "concept_name": "Sleeve Control",
+      "principle_name": "Sleeve Control",
       "relationship_type": "Complementary",
       "description": "Sleeve control is a parallel grip strategy domain that focuses on arm connections, working synergistically with other grip concepts to create comprehensive control systems."
     },
     {
-      "concept_name": "Connection Principles",
+      "principle_name": "Connection Principles",
       "relationship_type": "Prerequisite",
       "description": "Understanding fundamental connection principles is essential before developing sophisticated grip strategy, as it provides the theoretical foundation for why certain grips create control while others do not."
     },
     {
-      "concept_name": "Control Point Hierarchy",
+      "principle_name": "Control Point Hierarchy",
       "relationship_type": "Extension",
       "description": "Grip strategy extends control point hierarchy concepts by providing the tactical methods for establishing and maintaining control at prioritized connection points throughout positional contexts."
     },
     {
-      "concept_name": "Frame Management",
+      "principle_name": "Frame Management",
       "relationship_type": "Alternative",
       "description": "Frame management represents the defensive counterpart to offensive grip strategy, using structural connections to prevent opponent control rather than to establish it."
     },
     {
-      "concept_name": "Posture Breaking",
+      "principle_name": "Posture Breaking",
       "relationship_type": "Advanced form",
       "description": "Posture breaking represents an advanced application of grip strategy where grip establishment is specifically designed to compromise opponent structural integrity and create attacking opportunities."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Grip strategy in closed guard prioritizes collar and sleeve connections that break posture and create sweep or submission opportunities, with practitioners fighting to establish dominant grips while preventing opponent from establishing their preferred passing grips."
     },
     {
-      "context": "Spider Guard Bottom",
+      "context": "Spider Guard",
       "how_applied": "Spider guard implements grip strategy through systematic bicep and collar connections that create distance control and off-balancing opportunities, with grip maintenance being essential to the position's offensive and defensive functionality."
     },
     {
-      "context": "Lasso Guard Bottom",
+      "context": "Lasso Guard",
       "how_applied": "Lasso guard uses grip strategy to establish and maintain the characteristic sleeve and pant connections that create rotational control, with practitioners learning to fight for these specific grips while preventing opponent from breaking the lasso configuration."
     },
     {
@@ -110,15 +113,11 @@
       "how_applied": "DLR guard implements grip strategy through systematic establishment of ankle, belt, and collar connections that create off-balancing and back-taking opportunities, with grip hierarchy determining which connections take priority in different tactical situations."
     },
     {
-      "context": "Reverse De La Riva Guard Bottom",
-      "how_applied": "Reverse DLR uses grip strategy to coordinate far leg, belt, and collar grips that create inverting and leg entanglement opportunities, requiring precise grip sequencing to establish the position's characteristic control pattern."
-    },
-    {
       "context": "Butterfly Guard",
       "how_applied": "Butterfly guard implements grip strategy through overhook, collar, and sleeve connections that facilitate elevation sweeps, with practitioners learning to time grip establishment with hook insertion for maximum sweeping leverage."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Half guard uses grip strategy to establish underhooks, whizzers, and collar connections that create sweeping and back-taking opportunities while preventing opponent from establishing crossface and underhook passing grips."
     },
     {
@@ -126,11 +125,11 @@
       "how_applied": "Standing grip strategy involves collar and sleeve fighting in gi or body lock and head control establishment in no-gi, with practitioners competing for dominant grips that enable their preferred takedown entries while denying opponent's."
     },
     {
-      "context": "Clinch Position",
+      "context": "Clinch",
       "how_applied": "Clinch positions require grip strategy focused on head control, underhooks, and body locks, with practitioners fighting for dominant connections that create throwing opportunities while preventing opponent from establishing their preferred grips."
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Side control implements grip strategy through crossface, underhook, and far arm control that prevent escape while creating submission and transition opportunities, with grip maintenance being essential to positional dominance."
     },
     {
@@ -301,46 +300,46 @@
   "related_content": [
     {
       "name": "Collar Control",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Specific application of grip strategy focused on lapel-based connections in gi contexts"
     },
     {
       "name": "Sleeve Control",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Parallel grip strategy domain focused on arm-based connections that work synergistically with other grips"
     },
     {
       "name": "Grip Breaking",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Defensive component of grip strategy focused on removing opponent connections"
     },
     {
       "name": "Connection Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational concept that explains why certain grips create control while others do not"
     },
     {
       "name": "Control Point Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Provides theoretical framework for prioritizing which connection points to control in each position"
     },
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Defensive counterpart to offensive grip strategy using structural connections"
     },
     {
-      "name": "Spider Guard Bottom",
+      "name": "Spider Guard",
       "content_type": "Position",
       "relationship": "Position that relies heavily on specific grip strategy for bicep and collar control"
     },
     {
-      "name": "Lasso Guard Bottom",
+      "name": "Lasso Guard",
       "content_type": "Position",
       "relationship": "Guard that requires systematic grip establishment to create characteristic rotational control"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Fundamental guard where grip strategy determines ability to break posture and create attacks"
     },
@@ -350,14 +349,14 @@
       "relationship": "Transition that exemplifies offensive grip strategy creating positional advancement"
     },
     {
-      "name": "Arm Drag",
-      "content_type": "Transition",
-      "relationship": "Technique that demonstrates grip establishment leading to back-taking opportunities"
-    },
-    {
       "name": "Grip Break",
       "content_type": "Transition",
       "relationship": "Defensive technique representing grip strategy's denial component"
+    },
+    {
+      "name": "Gi-Specific Strategy",
+      "content_type": "System",
+      "relationship": "Comprehensive system that incorporates grip strategy as central tactical element"
     }
   ],
   "expert_insights": {

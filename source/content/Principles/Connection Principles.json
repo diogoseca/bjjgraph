@@ -1,13 +1,21 @@
 {
-  "metadata": {
-    "title": "Connection Principles | BJJ Concept | BJJ Graph",
-    "description": "Understand Connection Principles in BJJ. Learn how maintaining and breaking connections controls opponent movement. Expert insights on grips, frames, and tactical connectivity.",
-    "concept_id": "C021",
-    "tags": ["bjj", "concept", "connection", "control", "grips", "frames", "fundamental"],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Connection Principles",
+  "description": "Master connection principles in BJJ. Learn grip management, frame construction, and strategic control through systematic connection hierarchy and tactical application.",
+  "tags": [
+    "bjj",
+    "principle",
+    "connection",
+    "control",
+    "grips",
+    "frames",
+    "fundamental",
+    "strategy",
+    "guard",
+    "passing"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Connection Principles constitute one of the most fundamental yet nuanced concepts in Brazilian Jiu-Jitsu, governing how practitioners establish, maintain, and break physical contact points with their opponents. At its core, this concept recognizes that grappling is fundamentally about controlling another person's body through strategic points of contact - connections that can either enable control or create vulnerability depending on their application. Understanding connection principles transforms random grabbing into systematic control, allowing practitioners to dictate their opponent's movement possibilities while preserving their own mobility and options.\n\nThe concept operates on multiple levels simultaneously: offensive connections that enable attacks and control, defensive connections that create barriers and preserve space, and neutral connections that establish positional awareness. Every grip, frame, hook, and contact point represents a connection that either enhances or diminishes tactical position. Master grapplers distinguish themselves not through superior strength or flexibility, but through their sophisticated understanding of which connections to establish, which to maintain, which to break, and when to transition between these states. This knowledge allows them to control opponents who may be physically stronger by strategically managing the quality and positioning of connection points.\n\nConnection principles extend beyond simple grip fighting to encompass the entire tactical landscape of grappling exchanges. They include understanding connection hierarchy (which grips matter most in specific contexts), connection timing (when to establish or break contact), connection quality (strong versus light touch), and connection sequencing (how to chain grips and frames together). The concept also addresses the reciprocal nature of connections - recognizing that every connection you establish on your opponent simultaneously gives them a connection to you, creating a complex tactical calculus about which connections provide net advantage in any given position.",
   "key_principles": [
     "**Connection Hierarchy**: Not all connection points are equal; grips closer to opponent's center of mass and decision-making centers (head, hips, shoulders) generally provide superior control compared to peripheral grips (wrists, ankles)",
@@ -54,41 +62,71 @@
       "description": "Using connection points not for pulling or pushing, but as posts and wedges that create leverage advantages and prevent opponent movement. This includes posting hands to prevent being flattened, creating wedges with knees to maintain guard distance, and using various body parts as immovable obstacles within the grappling exchange."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Grip Strategy",
+      "principle_name": "Grip Strategy",
       "relationship_type": "Complementary",
       "description": "Grip Strategy provides the tactical framework for which grips to pursue in different scenarios, while Connection Principles explains why those grips work and how they integrate into overall control schemes"
     },
     {
-      "concept_name": "Frame Management",
+      "principle_name": "Frame Management",
       "relationship_type": "Complementary",
       "description": "Frame Management represents the defensive application of connection principles, focusing specifically on creating and maintaining space-preserving connections rather than control-establishing ones"
     },
     {
-      "concept_name": "Control Point Hierarchy",
+      "principle_name": "Control Point Hierarchy",
       "relationship_type": "Extension",
       "description": "Control Point Hierarchy builds on connection principles by ranking which connection points provide greatest control value in specific positions, adding tactical prioritization to fundamental connection mechanics"
     },
     {
-      "concept_name": "Base Maintenance",
+      "principle_name": "Base Maintenance",
       "relationship_type": "Prerequisite",
       "description": "Solid base provides the foundation from which effective connections can be established and maintained; without stable base, connections become liabilities rather than assets"
     },
     {
-      "concept_name": "Pressure Application",
+      "principle_name": "Pressure Application",
       "relationship_type": "Complementary",
       "description": "Pressure Application depends on proper connections to transmit force effectively; connections without pressure provide awareness but not control, while pressure without connections dissipates uselessly"
     },
     {
-      "concept_name": "Leverage Principles",
+      "principle_name": "Leverage Principles",
       "relationship_type": "Prerequisite",
       "description": "Understanding leverage mechanics is fundamental to using connections efficiently; proper connection points aligned with leverage principles multiply force effectiveness exponentially"
+    },
+    {
+      "principle_name": "Grip Fighting",
+      "relationship_type": "Extension",
+      "description": "Grip Fighting represents the competitive application of connection principles, focusing on winning grip battles through superior timing, positioning, and tactical awareness"
+    },
+    {
+      "principle_name": "Defensive Framing",
+      "relationship_type": "Alternative",
+      "description": "Defensive Framing emphasizes using connections to create space and prevent opponent control, representing the defensive counterpart to offensive connection establishment"
+    },
+    {
+      "principle_name": "Space Management",
+      "relationship_type": "Complementary",
+      "description": "Space Management and Connection Principles work together; connections enable control of distance and positioning, while space awareness informs which connections to establish"
+    },
+    {
+      "principle_name": "Weight Distribution",
+      "relationship_type": "Complementary",
+      "description": "Proper weight distribution enhances connection effectiveness by ensuring grips and frames are supported by skeletal structure rather than muscular tension"
+    },
+    {
+      "principle_name": "Off-Balancing",
+      "relationship_type": "Extension",
+      "description": "Off-Balancing techniques require proper connections to transmit destabilizing forces; connection principles provide the foundation for effective kuzushi application"
+    },
+    {
+      "principle_name": "Posture Breaking",
+      "relationship_type": "Extension",
+      "description": "Breaking opponent's posture depends on establishing superior connections that allow pulling them out of structural alignment; connection quality determines posture-breaking success"
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Bottom player establishes collar and sleeve grips to break opponent's posture while using leg connections (closed guard itself) to prevent distance creation. Connection management focuses on maintaining grip control that enables attacks while using frames to deal with opponent's pressure attempts."
     },
     {
@@ -96,11 +134,11 @@
       "how_applied": "Top player uses connection points (grapevines, underhooks, crossface) to pin opponent and prevent escape while minimizing their own grips that opponent could exploit. Focus shifts to body weight connections and strategic grip placement for submissions rather than grip-heavy control."
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Top player establishes underhook and crossface connections to control opponent's upper body while using knee and hip connections to prevent lower body escape. Connection strategy emphasizes pinning connections over mobile gripping connections."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Bottom player uses underhook battle and knee shield frames as primary connections, fighting to establish favorable grips while denying opponent's crossface and underhook connections. Connection warfare determines whether position remains dynamic or becomes flattened control."
     },
     {
@@ -108,11 +146,11 @@
       "how_applied": "Top player establishes seatbelt grip and hooks as primary connections, focusing on connection maintenance against opponent's grip breaking and reguard attempts. Connection quality directly determines submission opportunities and back retention duration."
     },
     {
-      "context": "Spider Guard Bottom",
+      "context": "Spider Guard",
       "how_applied": "Bottom player uses sleeve grips combined with foot-on-bicep connections to control opponent's arms and posture from distance. Connection management centers on maintaining sleeve control while managing spider hook connections against opponent's grip breaks."
     },
     {
-      "context": "Turtle Position",
+      "context": "Turtle",
       "how_applied": "Bottom player fights to prevent opponent establishing dangerous connections (seatbelt, front headlock) while using their own connections defensively (posting, framing) to create escape opportunities. Top player sequences connections systematically toward back control or submission."
     },
     {
@@ -124,7 +162,7 @@
       "how_applied": "Bottom player establishes de la riva hook, ankle grip, and sleeve control as interconnected connection system that controls opponent's base and posture. Connection maintenance against opponent's hook clearing and grip breaking attempts becomes central to guard retention."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Bottom player uses various grip and foot connection configurations to maintain distance and prevent guard passing while setting up sweeps. Connection strategy focuses on preventing opponent from consolidating grips while establishing your own control configurations."
     },
     {
@@ -134,6 +172,30 @@
     {
       "context": "Butterfly Guard",
       "how_applied": "Bottom player uses butterfly hooks as lower body connections combined with overhooks, underhooks, or collar grips to create sweeping opportunities. Connection management involves maintaining hooks against opponent's clearing attempts while establishing upper body grips for off-balancing."
+    },
+    {
+      "context": "Front Headlock",
+      "how_applied": "Top player establishes head and arm control as primary connections, using these grips to control opponent's posture and create submission opportunities. Connection quality determines whether front headlock leads to chokes, takedowns, or back takes."
+    },
+    {
+      "context": "X-Guard",
+      "how_applied": "Bottom player uses leg hooks and ankle grips to create multi-point connection system that controls opponent's base and enables sweeping mechanics. Connection strength directly correlates with sweeping success and guard retention capability."
+    },
+    {
+      "context": "Ashi Garami",
+      "how_applied": "Bottom player establishes leg entanglement connections combined with upper body grips to control opponent's leg and create submission entries. Connection hierarchy prioritizes leg control over upper body grips in this position."
+    },
+    {
+      "context": "North-South",
+      "how_applied": "Top player uses head pressure and arm control as primary connections, focusing on maintaining chest-to-chest contact while preventing opponent's framing attempts. Connection strategy emphasizes weight distribution over active gripping."
+    },
+    {
+      "context": "Lasso Guard",
+      "how_applied": "Bottom player threads leg around opponent's arm to create lasso connection, combining this with sleeve grip and opposite leg positioning for control. Connection system prevents opponent from posturing while creating sweeping opportunities."
+    },
+    {
+      "context": "Standing Position",
+      "how_applied": "Both players engage in grip fighting to establish preferred connections for takedown attempts or takedown defense. Connection battles at standing range determine tactical advantages before any throwing techniques are executed."
     }
   ],
   "decision_framework": [
@@ -292,26 +354,26 @@
   "related_content": [
     {
       "name": "Grip Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Provides tactical framework for which connections to establish in different scenarios"
     },
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Applies connection principles specifically to defensive space-creation through frames"
     },
     {
       "name": "Control Point Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Ranks connection points by control value in specific positions"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Primary training ground for developing offensive connection management skills"
     },
     {
-      "name": "Spider Guard Bottom",
+      "name": "Spider Guard",
       "content_type": "Position",
       "relationship": "Advanced application of connection principles using distance-control grips and foot connections"
     },
@@ -327,18 +389,28 @@
     },
     {
       "name": "Grip Breaking",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Specific technical skill set for destroying opponent's connection attempts"
     },
     {
       "name": "Pressure Application",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Requires proper connections to transmit control force effectively"
     },
     {
       "name": "Base Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Provides stable foundation from which effective connections can be established"
+    },
+    {
+      "name": "Grip Fighting",
+      "content_type": "Principle",
+      "relationship": "Competitive application of connection principles in establishing grip dominance"
+    },
+    {
+      "name": "Defensive Framing",
+      "content_type": "Principle",
+      "relationship": "Defensive counterpart focusing on space-preserving connections"
     }
   ],
   "expert_insights": {

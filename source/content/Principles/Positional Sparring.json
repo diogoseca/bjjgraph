@@ -1,21 +1,18 @@
 {
-  "metadata": {
-    "title": "Positional Sparring | BJJ Concept | BJJ Graph",
-    "description": "Master Positional Sparring methodology in BJJ. Understand structured resistance training, position-specific skill development, reset protocols, and asymmetric goal structures.",
-    "concept_id": "C086",
-    "tags": [
-      "bjj",
-      "concept",
-      "training",
-      "positional-sparring",
-      "resistance",
-      "skill-development",
-      "pedagogy"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Positional Sparring",
+  "description": "Master Positional Sparring in BJJ. Learn structured resistance training, position-specific skill development, reset protocols, and asymmetric goal structures.",
+  "tags": [
+    "bjj",
+    "principle",
+    "training",
+    "positional-sparring",
+    "resistance",
+    "skill-development",
+    "pedagogy"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Positional Sparring represents the structured resistance training methodology where practitioners begin from predetermined positions with specific objectives and constraints, creating focused development opportunities for position-specific skills that bridge drilling and live sparring. Unlike full sparring with open starting position, positional sparring is a comprehensive training framework that isolates specific scenarios to maximize repetition density and technical problem-solving opportunities across targeted positional contexts. This concept encompasses the pedagogical structure, reset protocols, and objective-setting mechanisms that transform general rolling into focused skill development with measurable progression indicators. Positional sparring serves as both a diagnostic tool that reveals technical gaps in specific positions, and an accelerated learning environment that provides 5-10x more repetitions of target scenarios compared to live sparring. The ability to implement effective positional sparring methodology often determines the efficiency of skill acquisition and competitive preparation, making it one of the most valuable training tools in modern BJJ pedagogy.",
   "key_principles": [
     "Define clear starting positions and success objectives before engagement begins",
@@ -62,86 +59,128 @@
       "description": "The capacity to extract technical lessons from each positional sparring round and apply insights to subsequent attempts. This involves developing meta-awareness of what worked, what failed, and why, then making immediate adjustments to strategy and technique."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Drilling Methodology",
+      "principle_name": "Drilling Methodology",
       "relationship_type": "Complementary",
       "description": "Positional sparring bridges the gap between cooperative drilling and live sparring, providing resistance-based repetition that drilling lacks while maintaining the positional focus that live sparring dilutes."
     },
     {
-      "concept_name": "Progressive Resistance Training",
+      "principle_name": "Progressive Resistance Training",
       "relationship_type": "Extension",
       "description": "Positional sparring represents a sophisticated application of progressive resistance principles, allowing controlled escalation from cooperative drilling through graded resistance to competition-level intensity."
     },
     {
-      "concept_name": "Flow Rolling",
+      "principle_name": "Flow Rolling",
       "relationship_type": "Alternative",
       "description": "While flow rolling emphasizes continuous movement and creativity, positional sparring prioritizes focused repetition and measurable objectives, representing different but complementary training modalities."
     },
     {
-      "concept_name": "Competition Training",
+      "principle_name": "Competition Training",
       "relationship_type": "Prerequisite",
       "description": "Positional sparring serves as essential preparation for competition by allowing high-volume practice of specific scenarios likely to occur in matches, with realistic resistance levels."
     },
     {
-      "concept_name": "Dilemma Creation",
+      "principle_name": "Dilemma Creation",
       "relationship_type": "Complementary",
       "description": "Positional sparring accelerates understanding of dilemma-based positions by providing repeated exposure to decision points where opponents must choose between multiple bad options."
     },
     {
-      "concept_name": "System Building",
+      "principle_name": "System Building",
       "relationship_type": "Extension",
       "description": "Positional sparring enables systematic development by allowing practitioners to test and refine interconnected techniques under resistance, revealing which combinations work cohesively under pressure."
+    },
+    {
+      "principle_name": "Match Preparation",
+      "relationship_type": "Complementary",
+      "description": "Positional sparring allows targeted preparation for anticipated match scenarios by isolating specific positions and situations likely to occur in competition."
+    },
+    {
+      "principle_name": "Energy Management System",
+      "relationship_type": "Complementary",
+      "description": "Positional sparring develops position-specific energy efficiency by allowing focused practice of energy conservation techniques within isolated positional contexts."
+    },
+    {
+      "principle_name": "Guard Retention Concepts",
+      "relationship_type": "Extension",
+      "description": "Guard retention skills develop rapidly through positional sparring from guard positions with passing objectives, providing high-volume defensive practice."
+    },
+    {
+      "principle_name": "Guard Passing Concepts",
+      "relationship_type": "Extension",
+      "description": "Passing skills accelerate through positional sparring scenarios focused on overcoming specific guard retention strategies under realistic resistance."
+    },
+    {
+      "principle_name": "Escape Hierarchy",
+      "relationship_type": "Extension",
+      "description": "Positional sparring from disadvantageous positions develops escape prioritization and execution through repeated practice under controlled resistance."
+    },
+    {
+      "principle_name": "Position-Over-Submission Approach",
+      "relationship_type": "Complementary",
+      "description": "Positional sparring reinforces positional hierarchy by allowing practitioners to focus on positional advancement objectives separate from submission attempts."
     }
   ],
   "application_contexts": [
     {
-      "context": "Mount Bottom",
+      "context": "Mount",
       "how_applied": "Defender starts in bottom mount with objective to escape to guard or reverse position, while top player seeks to maintain mount and secure submission. This isolated context allows focused development of mount escape fundamentals and defensive framing."
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Top player works to maintain side control and advance to mount or back control, while bottom player attempts escape to guard. This application develops side control pressure maintenance and escape sequencing under realistic resistance."
     },
     {
-      "context": "Back Control Top",
+      "context": "Back Control",
       "how_applied": "Top player seeks to secure rear naked choke or maintain back control position, while bottom player works hand fighting and escape protocols. This context accelerates back attack skills and defensive awareness."
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Bottom player attempts sweeps or submissions while top player works posture recovery and guard opening. This isolated scenario develops guard retention, sweep timing, and offensive threat creation from closed guard."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Bottom player seeks sweeps or deep half entries while top player works to pass and advance position. This application allows focused development of half guard retention systems and passing sequences."
     },
     {
-      "context": "Knee on Belly Top",
+      "context": "Knee on Belly",
       "how_applied": "Top player maintains knee on belly while threatening submissions or transitions, defender works immediate escape protocols. This context develops pressure maintenance skills and urgent escape mechanics."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Guard player works to maintain distance and create off-balancing opportunities while passer attempts to control hips and pass guards. This scenario develops guard retention concepts and passing strategies."
     },
     {
-      "context": "Turtle Bottom",
+      "context": "Turtle",
       "how_applied": "Bottom turtle position with defender attempting to return to guard or stand while top player seeks back take or submission. This context isolates turtle defense mechanics and back attack entries."
     },
     {
-      "context": "X-Guard Bottom",
+      "context": "X-Guard",
       "how_applied": "Bottom player works X-guard sweeps and transitions while top player defends and attempts to pass. This application develops specific guard system execution under resistance."
     },
     {
-      "context": "De La Riva Guard Bottom",
+      "context": "De La Riva Guard",
       "how_applied": "Guard player utilizes De La Riva hooks to create sweeping and back-taking opportunities while passer works to clear hooks and advance. This scenario isolates De La Riva system development and countering."
     },
     {
-      "context": "Butterfly Guard Bottom",
+      "context": "Butterfly Guard",
       "how_applied": "Bottom player uses butterfly hooks to create elevation and sweep opportunities while top player maintains posture and works to pass. This context develops butterfly guard mechanics and passing defense."
     },
     {
-      "context": "Spider Guard Bottom",
+      "context": "Spider Guard",
       "how_applied": "Guard player controls sleeves with feet on biceps seeking sweeps while passer works grip breaks and passing entries. This application develops spider guard control maintenance and systematic breaking."
+    },
+    {
+      "context": "North-South",
+      "how_applied": "Top player maintains north-south control seeking submissions while bottom player works escape protocols and guard recovery. This scenario develops north-south control maintenance and escape mechanics."
+    },
+    {
+      "context": "Deep Half Guard",
+      "how_applied": "Bottom player utilizes deep half position for sweeping opportunities while top player defends and attempts to extract legs. This context develops deep half guard system execution and counter-strategies."
+    },
+    {
+      "context": "Single Leg X-Guard",
+      "how_applied": "Bottom player uses single leg X structure to create sweeping and leg attack opportunities while top player maintains balance and seeks passing opportunities. This application develops single leg X system under resistance."
     }
   ],
   "decision_framework": [
@@ -299,56 +338,56 @@
   "related_content": [
     {
       "name": "Drilling Methodology",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Positional sparring extends drilling by adding resistance while maintaining positional focus"
     },
     {
       "name": "Progressive Resistance Training",
-      "content_type": "Concept",
-      "relationship": "Foundational concept that informs intensity calibration in positional sparring"
+      "content_type": "Principle",
+      "relationship": "Foundational principle that informs intensity calibration in positional sparring"
     },
     {
       "name": "Flow Rolling",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Alternative training method emphasizing continuous movement versus positional focus"
     },
     {
       "name": "Competition Training",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Positional sparring serves as primary competition preparation methodology"
     },
     {
       "name": "Guard Retention Concepts",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Commonly developed through positional sparring from guard positions"
     },
     {
       "name": "Guard Passing Concepts",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Refined through positional sparring with passer objectives"
     },
     {
       "name": "Escape Fundamentals",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Accelerated development through positional sparring from disadvantageous positions"
     },
     {
       "name": "System Building",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Positional sparring reveals which techniques connect systematically under resistance"
     },
     {
-      "name": "Mount Top",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "Common positional sparring scenario for developing top control and submission attacks"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Fundamental positional sparring position for guard development"
     },
     {
-      "name": "Back Control Top",
+      "name": "Back Control",
       "content_type": "Position",
       "relationship": "High-value positional sparring scenario for back attack development"
     },

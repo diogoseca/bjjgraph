@@ -1,18 +1,15 @@
 {
-  "metadata": {
-    "title": "Flying Armbar | BJJ Submission | BJJ Graph",
-    "description": "Master Flying Armbar in BJJ. High-risk aerial submission targeting elbow joint. Success rates: Beginner 15%, Intermediate 30%, Advanced 50%. Expert insights included.",
-    "submission_id": "SUB050",
-    "tags": ["bjj", "submission", "flying-armbar", "joint-lock", "aerial-attack", "advanced-technique"],
-    "submission_category": "Joint Lock",
-    "submission_type": "Arm Lock",
-    "target_area": "Elbow joint and shoulder",
-    "starting_position": "Closed Guard Bottom",
-    "success_rates": {
-      "beginner": 15,
-      "intermediate": 30,
-      "advanced": 50
-    }
+  "name": "Flying Armbar",
+  "description": "Master the Flying Armbar technique in BJJ. High-risk aerial submission targeting elbow joint with dynamic entry. Success rates: Beginner 15%, Intermediate 30%, Advanced 50%.",
+  "tags": ["bjj", "submission", "flying-armbar", "joint-lock", "aerial-attack", "advanced-technique"],
+  "submission_category": "Joint Lock",
+  "submission_type": "Arm Lock",
+  "target_area": "Elbow joint and shoulder",
+  "starting_position": "Closed Guard",
+  "success_rates": {
+    "beginner": 15,
+    "intermediate": 30,
+    "advanced": 50
   },
   "overview": "The Flying Armbar is an explosive aerial submission that combines dynamic movement with precise timing to attack the elbow joint. This high-risk, high-reward technique involves jumping into armbar position from standing, typically when the opponent is standing in or attempting to pass your guard. The technique requires exceptional coordination, timing, and spatial awareness to execute safely and effectively.\n\nHistorically popularized in mixed martial arts and sport jiu-jitsu competition, the Flying Armbar represents a commitment to offensive action that can catch opponents off-guard. The submission works by using your entire body weight and momentum to break down the opponent's posture while simultaneously securing their arm in an extended position. The aerial entry creates tremendous leverage that makes it difficult for opponents to defend once the technique is properly initiated.\n\nWhile spectacular when successful, the Flying Armbar carries significant risks in both training and competition. Mistiming the entry can result in failed attempts that leave you vulnerable to passes or counterattacks. More critically, the dynamic nature of the technique presents injury risks to both practitioners when executed without proper control. This submission should only be attempted by advanced practitioners who have mastered fundamental armbar mechanics and developed the athletic ability required for safe execution.",
   "safety_considerations": {
@@ -302,6 +299,35 @@
       "safety_emphasis": "When teaching others, emphasize all safety protocols learned in earlier phases. Never demonstrate at full speed without explaining slow-motion version first. Regular review of injury prevention measures. Consider retiring technique from training as you age or if injury concerns arise."
     }
   ],
+  "from_positions": [
+    "Closed Guard",
+    "Open Guard",
+    "Spider Guard",
+    "De La Riva Guard",
+    "Seated Guard",
+    "Standing Guard",
+    "Butterfly Guard",
+    "Rubber Guard",
+    "Lasso Guard",
+    "X-Guard"
+  ],
+  "related_submissions": [
+    "Armbar from Guard",
+    "Triangle from Guard",
+    "Rolling Armbar",
+    "Armbar from Mount",
+    "Triangle Choke",
+    "Omoplata from Guard",
+    "Flying Kneebar",
+    "Armbar from Back",
+    "Belly Down Armbar",
+    "Triangle from Closed Guard",
+    "Spinning Armbar",
+    "Straight Armbar",
+    "Far Side Armbar",
+    "Reverse Armbar",
+    "Kimura from Guard"
+  ],
   "related_content": [
     {
       "name": "Armbar from Guard",
@@ -312,11 +338,11 @@
       "relationship": "Primary backup option if flying armbar entry succeeds but arm escapes"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "relationship": "Common starting position for flying armbar setup"
     },
     {
-      "name": "Spider Guard Bottom",
+      "name": "Spider Guard",
       "relationship": "Alternative guard position providing excellent flying armbar entries"
     },
     {
@@ -342,29 +368,19 @@
     {
       "name": "Guard Pull",
       "relationship": "Failed guard pull can chain into flying armbar setup"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Provides standing opponent scenarios ideal for flying armbar attempts"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Advanced guard position that can transition to flying submissions"
     }
   ],
   "expert_insights": {
     "danaher": "The flying armbar represents the intersection of systematic technique and explosive athleticism, but it must never compromise the fundamental safety principles that govern all arm lock applications. From a systematic perspective, this technique is essentially a standard armbar preceded by an aerial entry - the mechanics of the finish itself remain identical to ground-based variations. The critical distinction lies in the momentum and impact created by the jumping entry, which loads the elbow joint with force even before conscious finishing pressure is applied. This is why training protocols must emphasize slow, controlled application despite the dynamic entry. When teaching this technique, I insist students master static armbar variations for at least six months before attempting aerial entries, and even then only under close supervision with appropriate safety measures including crash pads and size-matched partners. The success rate differential between skill levels reflects not just technical proficiency but also the athletic requirements and risk assessment capabilities that develop with experience. For systematic development, practitioners should view this as an advanced supplement to a complete armbar system, not a primary attacking tool.",
     "gordon_ryan": "In competition, the flying armbar is a calculated risk that can deliver spectacular finishes, but the risk-reward analysis is vastly different from training applications. I've hit flying armbars in high-level competition, and I've also had attempts stuffed that cost me position - the key is recognizing the exact moment when your opponent's base is compromised and their arm is extended, then committing fully without hesitation. In training versus competition, the pressure application must be completely different. During training, I apply finishing pressure over 5-7 seconds minimum and stop at the slightest resistance because preserving my training partners is essential for long-term development. In competition, once position is secured, I finish much more quickly because my opponent isn't tapping to protect me - they're defending as long as physically possible. The technique works best against opponents who stand predictably in your guard with extended arms, particularly wrestlers who aren't accustomed to guard-based aerial attacks. Against elite guard passers who maintain tight arm positioning and good base, the success rate drops dramatically, which explains why you see this more in lower-level competition than at black belt worlds. My advice: develop this as part of your offensive arsenal but don't rely on it as a primary weapon. Have your fundamental armbars from guard, mount, and back control at a world-class level first, then add flying variations as high-percentage surprise attacks when specific opportunities present themselves.",
     "eddie_bravo": "The flying armbar embodies the 10th Planet philosophy of aggressive, dynamic attacks that keep opponents guessing and create exciting competition moments. We've developed specific setups from rubber guard and mission control that make the aerial entry more controlled and higher percentage than traditional approaches. The key innovation in our system is using the lockdown or rubber guard to break opponent's posture before initiating the jump, which ensures their arm is already compromised when you go airborne. That said, this technique demands exceptional safety culture in the training room - at 10th Planet, we have strict protocols that include mandatory crash pad usage during learning phases, required instructor supervision for the first 50 repetitions, and absolute prohibition of the technique for students under blue belt. The creativity comes in the entries and combinations, not in the safety measures. I've seen too many gyms where students attempt flying submissions without proper progression, leading to injuries that could end careers. When practiced correctly with proper safety emphasis, the flying armbar develops timing, coordination, and the aggressive mindset needed for modern competition, but it should enhance your ground game, not replace fundamental technique development. We teach it as part of a comprehensive submission system that includes safer alternatives for every position, ensuring students always have options that don't require aerial acrobatics to be effective."
-  },
-  "from_positions": [
-    "Closed Guard Bottom",
-    "Spider Guard Bottom",
-    "Open Guard Bottom",
-    "Seated Guard Bottom"
-  ],
-  "related_submissions": [
-    "Armbar from Guard",
-    "Triangle from Guard",
-    "Rolling Armbar",
-    "Armbar from Mount",
-    "Triangle Choke",
-    "Omoplata from Guard",
-    "Flying Kneebar",
-    "Armbar from Back",
-    "Belly Down Armbar",
-    "Triangle from Closed Guard"
-  ]
+  }
 }

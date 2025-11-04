@@ -12,11 +12,11 @@ aliases: ["BJJ-Escapes"]
   "@type": "WebPage",
   "name": "BJJ Escapes - Complete Defense Guide",
   "description": "Master all BJJ escapes and defensive techniques. Complete guide to escaping mount, side control, back control, and submissions. Learn frames, shrimps, and recovery strategies.",
-  "url": "https://bjjgraph.com/escapes",
+  "url": "https://bjjgraph.org/escapes",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -28,26 +28,26 @@ aliases: ["BJJ-Escapes"]
   "name": "BJJ Escapes",
   "description": "Complete list of Brazilian Jiu-Jitsu escapes and defensive techniques for all major positions and submissions",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Bridge and Roll (Upa Escape)", "url": "https://bjjgraph.com/escapes/bridge-and-roll"},
-    {"@type": "ListItem", "position": 2, "name": "Hip Escape (Elbow-Knee Escape)", "url": "https://bjjgraph.com/escapes/hip-escape"},
-    {"@type": "ListItem", "position": 3, "name": "Mount Escape to Guard", "url": "https://bjjgraph.com/escapes/mount-escape-to-guard"},
-    {"@type": "ListItem", "position": 4, "name": "Side Control Frame and Shrimp", "url": "https://bjjgraph.com/escapes/side-control-frame-and-shrimp"},
-    {"@type": "ListItem", "position": 5, "name": "Side Control to Half Guard Recovery", "url": "https://bjjgraph.com/escapes/side-control-to-half-guard"},
-    {"@type": "ListItem", "position": 6, "name": "Back Escape to Guard", "url": "https://bjjgraph.com/escapes/back-escape-to-guard"},
-    {"@type": "ListItem", "position": 7, "name": "Rear Naked Choke Defense", "url": "https://bjjgraph.com/escapes/rear-naked-choke-defense"},
-    {"@type": "ListItem", "position": 8, "name": "Guard Retention System", "url": "https://bjjgraph.com/escapes/guard-retention"},
-    {"@type": "ListItem", "position": 9, "name": "Guard Recovery from Passing", "url": "https://bjjgraph.com/escapes/guard-recovery"},
-    {"@type": "ListItem", "position": 10, "name": "Stack Defense", "url": "https://bjjgraph.com/escapes/stack-defense"},
-    {"@type": "ListItem", "position": 11, "name": "Armbar Escape (Stack)", "url": "https://bjjgraph.com/escapes/armbar-escape-stack"},
-    {"@type": "ListItem", "position": 12, "name": "Armbar Escape (Hitchhiker)", "url": "https://bjjgraph.com/escapes/armbar-escape-hitchhiker"},
-    {"@type": "ListItem", "position": 13, "name": "Triangle Choke Defense", "url": "https://bjjgraph.com/escapes/triangle-defense"},
-    {"@type": "ListItem", "position": 14, "name": "Guillotine Defense", "url": "https://bjjgraph.com/escapes/guillotine-defense"},
-    {"@type": "ListItem", "position": 15, "name": "Kimura Defense", "url": "https://bjjgraph.com/escapes/kimura-defense"},
-    {"@type": "ListItem", "position": 16, "name": "Technical Stand-up", "url": "https://bjjgraph.com/escapes/technical-stand-up"},
-    {"@type": "ListItem", "position": 17, "name": "Sprawl (Takedown Defense)", "url": "https://bjjgraph.com/escapes/sprawl"},
-    {"@type": "ListItem", "position": 18, "name": "Forward Roll Escape", "url": "https://bjjgraph.com/escapes/forward-roll"},
-    {"@type": "ListItem", "position": 19, "name": "Granby Roll", "url": "https://bjjgraph.com/escapes/granby-roll"},
-    {"@type": "ListItem", "position": 20, "name": "Turtle Position Defense", "url": "https://bjjgraph.com/escapes/turtle-defense"}
+    {"@type": "ListItem", "position": 1, "name": "Bridge and Roll (Upa Escape)", "url": "https://bjjgraph.org/escapes/bridge-and-roll"},
+    {"@type": "ListItem", "position": 2, "name": "Hip Escape (Elbow-Knee Escape)", "url": "https://bjjgraph.org/escapes/hip-escape"},
+    {"@type": "ListItem", "position": 3, "name": "Mount Escape to Guard", "url": "https://bjjgraph.org/escapes/mount-escape-to-guard"},
+    {"@type": "ListItem", "position": 4, "name": "Side Control Frame and Shrimp", "url": "https://bjjgraph.org/escapes/side-control-frame-and-shrimp"},
+    {"@type": "ListItem", "position": 5, "name": "Side Control to Half Guard Recovery", "url": "https://bjjgraph.org/escapes/side-control-to-half-guard"},
+    {"@type": "ListItem", "position": 6, "name": "Back Escape to Guard", "url": "https://bjjgraph.org/escapes/back-escape-to-guard"},
+    {"@type": "ListItem", "position": 7, "name": "Rear Naked Choke Defense", "url": "https://bjjgraph.org/escapes/rear-naked-choke-defense"},
+    {"@type": "ListItem", "position": 8, "name": "Guard Retention System", "url": "https://bjjgraph.org/escapes/guard-retention"},
+    {"@type": "ListItem", "position": 9, "name": "Guard Recovery from Passing", "url": "https://bjjgraph.org/escapes/guard-recovery"},
+    {"@type": "ListItem", "position": 10, "name": "Stack Defense", "url": "https://bjjgraph.org/escapes/stack-defense"},
+    {"@type": "ListItem", "position": 11, "name": "Armbar Escape (Stack)", "url": "https://bjjgraph.org/escapes/armbar-escape-stack"},
+    {"@type": "ListItem", "position": 12, "name": "Armbar Escape (Hitchhiker)", "url": "https://bjjgraph.org/escapes/armbar-escape-hitchhiker"},
+    {"@type": "ListItem", "position": 13, "name": "Triangle Choke Defense", "url": "https://bjjgraph.org/escapes/triangle-defense"},
+    {"@type": "ListItem", "position": 14, "name": "Guillotine Defense", "url": "https://bjjgraph.org/escapes/guillotine-defense"},
+    {"@type": "ListItem", "position": 15, "name": "Kimura Defense", "url": "https://bjjgraph.org/escapes/kimura-defense"},
+    {"@type": "ListItem", "position": 16, "name": "Technical Stand-up", "url": "https://bjjgraph.org/escapes/technical-stand-up"},
+    {"@type": "ListItem", "position": 17, "name": "Sprawl (Takedown Defense)", "url": "https://bjjgraph.org/escapes/sprawl"},
+    {"@type": "ListItem", "position": 18, "name": "Forward Roll Escape", "url": "https://bjjgraph.org/escapes/forward-roll"},
+    {"@type": "ListItem", "position": 19, "name": "Granby Roll", "url": "https://bjjgraph.org/escapes/granby-roll"},
+    {"@type": "ListItem", "position": 20, "name": "Turtle Position Defense", "url": "https://bjjgraph.org/escapes/turtle-defense"}
   ]
 }
 </script>
@@ -60,13 +60,13 @@ aliases: ["BJJ-Escapes"]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "BJJ Escapes - Complete Defense Guide",
-      "item": "https://bjjgraph.com/bjj-escapes"
+      "item": "https://bjjgraph.org/bjj-escapes"
     }
   ]
 }

@@ -1,21 +1,18 @@
 {
-  "metadata": {
-    "title": "Leverage Principles | BJJ Concept | BJJ Graph",
-    "description": "Understand Leverage Principles in BJJ. Learn biomechanical advantage, force multiplication, fulcrum positioning across all positions. Expert insights from Danaher, Ryan, Bravo.",
-    "concept_id": "C025",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "biomechanics",
-      "leverage",
-      "mechanical-advantage",
-      "force-multiplication"
-    ],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Leverage Principles",
+  "description": "Master fundamental leverage mechanics in BJJ. Learn fulcrum positioning, force multiplication, and mechanical advantage across all positions for maximum efficiency.",
+  "tags": [
+    "bjj",
+    "concept",
+    "fundamental",
+    "biomechanics",
+    "leverage",
+    "mechanical-advantage",
+    "force-multiplication"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Leverage Principles represent the fundamental biomechanical framework of using mechanical advantage to multiply force application, enabling practitioners to overcome size, strength, and weight disadvantages through optimal positioning, angle creation, and efficient force vectors. Unlike specific techniques, leverage principles are comprehensive conceptual frameworks that apply across all positions, submissions, sweeps, and control scenarios in BJJ. This concept encompasses the physics of fulcrums, lever arms, force multiplication, and compound leverage systems, serving as both the theoretical foundation for technique effectiveness and the practical methodology for efficient movement. The ability to recognize and create leverage opportunities often determines whether techniques succeed against stronger opponents, making it one of the most essential conceptual elements in Brazilian Jiu-Jitsu. Leverage principles explain why smaller practitioners can control larger opponents and why proper technique overcomes strength.",
   "key_principles": [
     "Position body segments to create optimal fulcrum points for force multiplication",
@@ -62,85 +59,85 @@
       "description": "Strategic use of body weight positioning to serve as effort force in leverage systems rather than relying on muscular strength. This includes understanding how gravity, momentum, and weight distribution can be directed through optimal leverage angles to create technique effectiveness with minimal energy expenditure."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Biomechanical Principles",
+      "principle_name": "Biomechanical Principles",
       "relationship_type": "Prerequisite",
       "description": "Understanding fundamental biomechanics provides the foundation for applying leverage principles. Body mechanics, joint function, and force transmission must be understood before leverage optimization can occur."
     },
     {
-      "concept_name": "Maximum Efficiency Principle",
+      "principle_name": "Maximum Efficiency Principle",
       "relationship_type": "Complementary",
       "description": "Leverage principles directly support maximum efficiency by enabling technique effectiveness with minimal energy expenditure. Both concepts emphasize working smarter rather than harder through optimal mechanical positioning."
     },
     {
-      "concept_name": "Frame Management",
+      "principle_name": "Frame Management",
       "relationship_type": "Extension",
       "description": "Frames are practical applications of leverage principles where limbs create lever systems to maintain distance or create space. Effective frame management requires understanding lever arm ratios and force vector optimization."
     },
     {
-      "concept_name": "Base Maintenance",
+      "principle_name": "Base Maintenance",
       "relationship_type": "Complementary",
       "description": "Base and leverage work synergistically - stable base provides the foundation for effective leverage application, while proper leverage can help establish or recover base. Both rely on understanding weight distribution and structural integrity."
     },
     {
-      "concept_name": "Weight Distribution",
+      "principle_name": "Weight Distribution",
       "relationship_type": "Prerequisite",
       "description": "Understanding weight distribution is essential for leverage application. The strategic placement of body weight determines effort force magnitude and direction in leverage systems, making it a foundational component of leverage effectiveness."
     },
     {
-      "concept_name": "Angle Creation",
+      "principle_name": "Angle Creation",
       "relationship_type": "Advanced form",
       "description": "Creating angles is an advanced application of leverage principles where practitioners generate new fulcrum points and favorable lever arm ratios through movement. Angle creation represents dynamic leverage optimization during transitions."
+    },
+    {
+      "principle_name": "Pressure Application",
+      "relationship_type": "Complementary",
+      "description": "Effective pressure relies on leverage principles to maximize force transmission through minimal contact points. Proper leverage geometry transforms body weight into overwhelming control pressure."
+    },
+    {
+      "principle_name": "Hip Movement",
+      "relationship_type": "Extension",
+      "description": "Hip movement serves as the primary mechanism for adjusting fulcrum positioning and lever arm ratios. Understanding leverage informs which hip movements create maximum mechanical advantage in each position."
+    },
+    {
+      "principle_name": "Off-Balancing",
+      "relationship_type": "Advanced form",
+      "description": "Off-balancing techniques succeed through leverage application where opponent's weight distribution becomes a liability. Lever mechanics explain how minimal force at optimal angles creates maximum destabilizing effects."
+    },
+    {
+      "principle_name": "Posture Breaking",
+      "relationship_type": "Extension",
+      "description": "Breaking opponent's posture relies fundamentally on leverage - creating fulcrum points and applying force through favorable lever arm ratios to overcome their structural stability and base."
     }
   ],
   "application_contexts": [
     {
-      "context": "Mount Top",
+      "context": "Mount",
       "how_applied": "Hip positioning creates fulcrum against opponent's chest while upper body extends as lever arm for maximum pressure. Arms can serve as additional leverage points for isolating limbs or breaking posture, with shoulder pressure creating compound leverage systems."
     },
     {
-      "context": "Armbar from Mount",
-      "how_applied": "Hip serves as fulcrum positioned above opponent's elbow joint. Leg over face creates lever arm on one side while controlled wrist creates opposing lever arm. Body weight provides effort force through optimal perpendicular angle to maximize joint manipulation."
-    },
-    {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Crossface creates lever system using shoulder as fulcrum against opponent's jaw while far side underhook extends lever arm. Hip pressure provides secondary leverage system pinning opponent's near hip, creating compound mechanical advantage preventing escape."
     },
     {
-      "context": "Kimura from Side Control",
-      "how_applied": "Opponent's shoulder serves as fulcrum while grip on wrist creates long lever arm. Figure-four grip creates rigid connection allowing entire upper body to serve as effort force. Angle adjustment optimizes perpendicular force application for maximum rotational effectiveness."
-    },
-    {
-      "context": "Back Control Top",
+      "context": "Back Control",
       "how_applied": "Hooks create lower body fulcrum points controlling hip movement while seatbelt grip establishes upper body lever system. Body weight distribution through hooks provides constant leverage pressure. Secondary leverage systems emerge for choking or arm attacks."
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Hips and legs create primary leverage for breaking posture using closed guard as fulcrum point. Grips on collar or sleeves establish lever arms for pulling opponent into broken posture. Leg leverage can transition to sweep mechanics when combined with upper body grips."
     },
     {
-      "context": "Hip Bump Sweep",
-      "how_applied": "Planting hand creates fulcrum point while hip extension generates lever arm projecting upward. Timing combines with leverage as opponent's forward pressure becomes liability when redirected perpendicular to their base using optimal leverage angles."
-    },
-    {
-      "context": "Scissor Sweep",
-      "how_applied": "Top leg creates lever pushing opponent's torso while bottom leg serves as fulcrum against lower leg. This scissoring action creates rotational force around dual fulcrum points. Sleeve and collar grips extend lever arms for greater mechanical advantage."
-    },
-    {
-      "context": "Bridge and Roll",
-      "how_applied": "Trapping arm and leg creates fulcrum points while explosive hip bridge generates lever force. Body rotation around trapped points creates maximum mechanical advantage when bridge force is directed perpendicular to opponent's base line."
-    },
-    {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Underhook creates primary lever system while lockdown or knee shield provides fulcrum control. Leverage opportunities exist for sweeps by extending opponent away from base or creating angles where their weight distribution works against their stability."
     },
     {
-      "context": "De La Riva Guard Bottom",
+      "context": "De La Riva Guard",
       "how_applied": "De La Riva hook creates fulcrum point controlling opponent's leg while opposite leg on hip extends as lever arm. Grip combinations establish upper body leverage systems. This position exemplifies compound leverage with multiple simultaneous mechanical advantage points."
     },
     {
-      "context": "X-Guard Bottom",
+      "context": "X-Guard",
       "how_applied": "Dual leg control creates scissoring leverage system where both legs serve as fulcrums and lever arms simultaneously. Upper body positioning extends lever arms while leg pressure creates rotational force for elevation or sweeping mechanics."
     },
     {
@@ -148,32 +145,32 @@
       "how_applied": "Knee serves as concentrated fulcrum point directing body weight through minimal surface area for maximum pressure. Arms establish secondary leverage for controlling upper body or isolating limbs. Weight distribution creates leverage advantage for transitions or submissions."
     },
     {
-      "context": "North-South",
-      "how_applied": "Chest pressure creates fulcrum against opponent's face/chest while sprawled legs extend lever arms for maximum pressure application. Arms can underhook for additional leverage or establish kimura/choke mechanics using optimal leverage angles."
-    },
-    {
-      "context": "Turtle Bottom",
+      "context": "Turtle",
       "how_applied": "Defensive leverage involves creating frames where hands and knees serve as fulcrum points resisting opponent's attempts to flatten. Understanding leverage helps identify when opponent's force application creates opportunities for counter-leverage in stand-up or guard recovery."
     },
     {
-      "context": "Combat Base",
-      "how_applied": "Posting creates stable fulcrum points for generating leverage in guard passing. Weight distribution through posted hand and knee allows pressure application through optimal angles while maintaining base. Leverage understanding prevents guard player from breaking posture."
-    },
-    {
-      "context": "Guard Recovery",
-      "how_applied": "Frames create emergency leverage systems where legs or arms serve as temporary fulcrums preventing full pin establishment. Hip movement generates lever actions creating space for guard re-establishment despite inferior positioning."
-    },
-    {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Multiple grip and leg position combinations create diverse leverage systems for controlling distance, breaking posture, or initiating sweeps. Each guard variation represents different leverage trade-offs balancing control, mobility, and sweep mechanics."
     },
     {
-      "context": "Butterfly Guard Bottom",
+      "context": "Butterfly Guard",
       "how_applied": "Butterfly hooks create elevation leverage where hips serve as fulcrum and hooked legs as lever arms. Upper body grips establish compound leverage enabling sweeps through coordinated lever actions. Body weight management optimizes mechanical advantage during elevation."
     },
     {
-      "context": "Knee Shield Position Bottom",
-      "how_applied": "Shin creates defensive lever preventing chest-to-chest pressure while maintaining distance. This frame leverage allows transitional movements while opponent's pressure attempts are redirected through unfavorable angles. Bottom leg positioning provides secondary leverage for sweeps or guard recovery."
+      "context": "Ashi Garami",
+      "how_applied": "Leg entanglement creates primary fulcrum controlling opponent's lower body while upper body positioning extends lever arms. Different Ashi variations optimize leverage angles for specific submission attacks, particularly heel hooks and kneebars through superior mechanical advantage."
+    },
+    {
+      "context": "Standing Position",
+      "how_applied": "Takedown entries rely on leverage principles where grips establish control points and body positioning creates fulcrums for off-balancing. Throws succeed through optimal lever arm ratios combined with opponent's weight distribution and momentum."
+    },
+    {
+      "context": "Rubber Guard",
+      "how_applied": "High guard position creates extreme leverage angles for posture breaking and attack initiation. Leg positioning serves as primary fulcrum while arms establish secondary leverage systems for submissions and sweeps from unconventional angles."
+    },
+    {
+      "context": "Spider Guard",
+      "how_applied": "Foot on biceps creates lever systems controlling opponent's arms while grips on sleeves extend lever arms. This position uses limb leverage to control distance and create sweeping opportunities through mechanical advantage on opponent's upper body structure."
     }
   ],
   "decision_framework": [
@@ -338,32 +335,32 @@
   "related_content": [
     {
       "name": "Biomechanical Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational concept that explains the physics and body mechanics underlying leverage application in BJJ techniques"
     },
     {
       "name": "Maximum Efficiency Principle",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept achieved through proper leverage application, enabling technique effectiveness with minimal energy expenditure"
     },
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Practical application of leverage principles where limbs create lever systems for distance management and space creation"
     },
     {
       "name": "Base Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Works synergistically with leverage as stable base provides foundation for effective leverage application and vice versa"
     },
     {
       "name": "Weight Distribution",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential component of leverage effectiveness as strategic weight placement determines effort force magnitude and direction"
     },
     {
       "name": "Angle Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Advanced application where practitioners generate new fulcrum points and favorable lever arm ratios through dynamic movement"
     },
     {
@@ -372,7 +369,7 @@
       "relationship": "Classic example of leverage principles where hip fulcrum and leg positioning create overwhelming mechanical advantage on elbow joint"
     },
     {
-      "name": "Kimura from Side Control",
+      "name": "Kimura",
       "content_type": "Submission",
       "relationship": "Demonstrates compound leverage using shoulder fulcrum and figure-four grip to create exponential force multiplication on shoulder joint"
     },
@@ -382,19 +379,19 @@
       "relationship": "Sweep fundamentally based on leverage mechanics using posted hand fulcrum and hip extension to create rotational advantage"
     },
     {
-      "name": "Scissor Sweep",
-      "content_type": "Transition",
-      "relationship": "Demonstrates dual fulcrum leverage system where legs create scissoring action combining multiple mechanical advantages simultaneously"
-    },
-    {
       "name": "Bridge and Roll",
       "content_type": "Transition",
       "relationship": "Escape technique relying on explosive hip bridge creating leverage around trapped fulcrum points to reverse inferior position"
     },
     {
-      "name": "Mount Top",
-      "content_type": "Position",
-      "relationship": "Position where hip positioning creates primary fulcrum for pressure leverage with multiple secondary systems available for control and attacks"
+      "name": "Pressure Application",
+      "content_type": "Principle",
+      "relationship": "Complementary principle where leverage optimization transforms body weight into overwhelming control pressure through optimal force transmission"
+    },
+    {
+      "name": "Off-Balancing",
+      "content_type": "Principle",
+      "relationship": "Advanced application where leverage mechanics explain how minimal force at optimal angles creates maximum destabilizing effects on opponent"
     }
   ],
   "expert_insights": {

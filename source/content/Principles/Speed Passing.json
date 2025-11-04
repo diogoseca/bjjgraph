@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Speed Passing | BJJ Concept | BJJ Graph",
     "description": "Understand Speed Passing in BJJ. Learn rapid guard passing principles, timing, footwork mechanics, and explosive pressure application. Expert insights included.",
-    "concept_id": "C266",
+    "principle_id": "P266",
     "tags": ["bjj", "concept", "guard passing", "speed", "pressure", "timing", "footwork", "explosiveness"],
     "application_level": "Intermediate",
     "complexity_level": "Medium",
@@ -58,34 +58,34 @@
     }
   ],
 
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Pressure Passing",
+      "principle_name": "Pressure Passing",
       "relationship_type": "Alternative",
       "description": "Speed Passing and Pressure Passing represent contrasting methodologies - pressure passing emphasizes slow, methodical control while speed passing relies on rapid movement and overwhelming pace. Many elite passers blend both approaches, using pressure passing to establish initial control before transitioning to speed passing sequences."
     },
     {
-      "concept_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing Principles",
       "relationship_type": "Extension",
       "description": "Speed Passing applies fundamental guard passing principles at accelerated pace. The core concepts of controlling hips, managing distance, and preventing guard recovery remain constant, but the execution occurs at higher velocity with less margin for error."
     },
     {
-      "concept_name": "Timing and Rhythm",
+      "principle_name": "Timing and Rhythm",
       "relationship_type": "Prerequisite",
       "description": "Effective speed passing requires advanced timing and rhythm understanding to identify windows of opportunity during high-speed exchanges. The passer must recognize when the guard player's defensive structures are vulnerable and exploit these moments with explosive attacks before they can recover."
     },
     {
-      "concept_name": "Energy Management System",
+      "principle_name": "Energy Management System",
       "relationship_type": "Complementary",
       "description": "Speed passing demands sophisticated energy management to sustain high-intensity output without exhaustion. Passers must learn to identify when to apply maximum effort versus when to maintain circulation at lower intensity, preserving energy for critical passing opportunities."
     },
     {
-      "concept_name": "Angle Creation",
+      "principle_name": "Angle Creation",
       "relationship_type": "Prerequisite",
       "description": "Speed passing relies heavily on rapid angle creation and transition. The passer must understand how to generate advantageous passing angles through footwork and body positioning, then transition between these angles faster than the guard player can defend."
     },
     {
-      "concept_name": "Explosive Power",
+      "principle_name": "Explosive Power",
       "relationship_type": "Prerequisite",
       "description": "The physical capacity for explosive movement underpins speed passing effectiveness. Without the ability to generate sudden bursts of speed and pressure, the passing attempts become predictable and easier to defend. Explosive power training is essential for developing high-level speed passing."
     }

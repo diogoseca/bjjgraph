@@ -38,14 +38,11 @@ REFERENCE_FIELDS = {
     "Positions": {
         "offensive_transitions": ["target_position"],
         "defensive_responses": ["target_position"],
-        "related_content": ["name"],
-        "metadata.parent_variant": ["direct"],
-        "metadata.sibling_variants": ["direct"],
-        "metadata.child_variants": ["direct"]
+        "related_content": ["name"]
     },
     "Transitions": {
-        "metadata.starting_position": ["direct"],
-        "metadata.ending_position": ["direct"],
+        "starting_position": ["direct"],
+        "ending_position": ["direct"],
         "related_content": ["name"]
     },
     "Submissions": {
@@ -54,45 +51,17 @@ REFERENCE_FIELDS = {
         "related_content": ["name"]
     },
     "Principles": {
-        "concept_relationships": ["concept_name"],
+        "principle_relationships": ["principle_name"],
         "application_contexts": ["context"],
         "related_content": ["name"]
     },
     "Systems": {
-        "related_positions": ["direct"],
-        "related_transitions": ["direct"],
-        "related_concepts": ["direct"]
+        "related_content": ["name"]
     }
 }
 
-# Healthy link count ranges per field (min, max)
-LINK_COUNT_RANGES = {
-    "Positions": {
-        "offensive_transitions": (6, 20),
-        "defensive_responses": (3, 10),
-        "related_content": (3, 15)
-    },
-    "Transitions": {
-        "metadata.starting_position": (1, 1),
-        "metadata.ending_position": (1, 1),
-        "related_content": (3, 15)
-    },
-    "Submissions": {
-        "from_positions": (2, 10),
-        "related_submissions": (3, 15),
-        "related_content": (3, 12)
-    },
-    "Principles": {
-        "concept_relationships": (3, 15),
-        "application_contexts": (5, 20),
-        "related_content": (3, 15)
-    },
-    "Systems": {
-        "related_positions": (5, 25),
-        "related_transitions": (5, 25),
-        "related_concepts": (5, 20)
-    }
-}
+# Link count validation is now handled by schema minItems/maxItems
+# No need for separate LINK_COUNT_RANGES dict
 
 def build_content_index():
     """Build index of all available content files."""
@@ -158,31 +127,7 @@ def normalize_reference(ref):
     return (None, ref)
 
 
-def validate_link_counts(data, category, path=""):
-    """Validate that reference fields have healthy link counts."""
-    errors = []
-
-    # Get link count ranges for this category
-    if category not in LINK_COUNT_RANGES:
-        return errors
-
-    link_ranges = LINK_COUNT_RANGES[category]
-
-    # Check each reference field
-    for field_path, (min_count, max_count) in link_ranges.items():
-        references = extract_references_from_field(data, field_path, REFERENCE_FIELDS[category][field_path])
-        actual_count = len(references)
-
-        if actual_count < min_count:
-            errors.append(
-                f"Field '{field_path}': Too few links ({actual_count}) - should have {min_count}-{max_count}"
-            )
-        elif actual_count > max_count:
-            errors.append(
-                f"Field '{field_path}': Too many links ({actual_count}) - should have {min_count}-{max_count}"
-            )
-
-    return errors
+# validate_link_counts() removed - schema minItems/maxItems handles this automatically
 
 
 def validate_references(data, category, path=""):
@@ -201,11 +146,7 @@ def validate_references(data, category, path=""):
 
     reference_fields = REFERENCE_FIELDS[category]
 
-    # Check link counts first
-    link_count_errors = validate_link_counts(data, category, path)
-    errors.extend(link_count_errors)
-
-    # Check each reference field for broken links
+    # Check each reference field for broken links (link counts validated by schema)
     for field_path, field_config in reference_fields.items():
         references = extract_references_from_field(data, field_path, field_config)
 
@@ -235,6 +176,25 @@ def validate_references(data, category, path=""):
                         found = True
                         break
 
+                # Special case for nested files: check if this could be a variant reference
+                # For hub-and-spoke architecture, files are nested in subfolders
+                # Example: "Inside Ashi-Garami" might be at "Ashi Garami/Inside Ashi-Garami"
+                if not found:
+                    # Check if any nested files match the name (just compare base filename)
+                    for cat_name, cat_files in content_index.items():
+                        for file_path in cat_files:
+                            if '/' in file_path:  # It's a nested file
+                                # Get just the filename part (last component)
+                                file_name = file_path.split('/')[-1]
+                                # Normalize both for comparison (case-insensitive, spaces/hyphens)
+                                normalized_file = file_name.lower().replace('-', ' ').replace('_', ' ')
+                                normalized_ref = ref_name.lower().replace('-', ' ').replace('_', ' ')
+                                if normalized_file == normalized_ref:
+                                    found = True
+                                    break
+                        if found:
+                            break
+
                 if not found:
                     errors.append(
                         f"Field '{field_path}': Broken link '{ref}' - file not found in any category"
@@ -243,12 +203,36 @@ def validate_references(data, category, path=""):
     return errors
 
 
-def load_schema(category_name):
+def detect_position_template_type(json_file):
+    """Detect which Positions template to use via filesystem structure"""
+    # Check if variant folder exists
+    json_path = Path(json_file)
+    position_name = json_path.stem
+    variant_folder = json_path.parent / position_name
+
+    if not variant_folder.exists() or not variant_folder.is_dir():
+        # No folder = SINGLE
+        return 'SINGLE'
+
+    # Folder exists - check if it has .json files
+    json_files_in_folder = list(variant_folder.glob("*.json"))
+
+    if len(json_files_in_folder) > 0:
+        # Folder with .json files = FAMILY (has variant JSONs)
+        return 'FAMILY'
+    else:
+        # Folder without .json files = DUAL (just .md files)
+        return 'DUAL'
+
+def load_schema(category_name, json_file=None):
     """Load TEMPLATE.json schema for category from source/templates/"""
-    # For Positions, we have multiple templates in subdirectory
+    # For Positions, detect which template to use
     if category_name == "Positions":
-        # Use FAMILY template as the base schema (most comprehensive)
-        schema_path = Path("source/templates/Positions/TEMPLATE-POSITION-FAMILY.json")
+        if not json_file:
+            raise ValueError("Positions category requires json_file parameter for template detection")
+
+        template_type = detect_position_template_type(json_file)
+        schema_path = Path(f"source/templates/Positions/TEMPLATE-POSITION-{template_type}.json")
     else:
         # Other categories use flat structure
         schema_path = Path("source/templates") / f"{category_name}.json"
@@ -281,9 +265,9 @@ def validate_success_rate_ordering(data, path=""):
             if rates['intermediate'] > rates['advanced']:
                 errors.append(f"{location}: intermediate ({rates['intermediate']}) > advanced ({rates['advanced']})")
 
-    # Check metadata success_rates (Transitions/Submissions)
-    if 'metadata' in data and 'success_rates' in data['metadata']:
-        check_rates(data['metadata']['success_rates'], f"{path}.metadata.success_rates")
+    # Check success_rates at root (Transitions/Submissions)
+    if 'success_rates' in data:
+        check_rates(data['success_rates'], f"{path}.success_rates")
 
     # Check offensive_transitions (Positions)
     if 'offensive_transitions' in data:
@@ -300,89 +284,66 @@ def validate_success_rate_ordering(data, path=""):
     return errors
 
 
-def validate_expert_insights(data, path=""):
-    """Validate all 3 experts present with 200+ characters"""
+# validate_expert_insights() removed - schema enforces this via required fields and minLength
+
+
+def validate_name_matches_filename(data, json_file_path, category):
+    """Validate that name field matches filename"""
     errors = []
 
-    if 'expert_insights' not in data:
-        errors.append(f"{path}: Missing expert_insights")
-        return errors
+    # Get filename without extension
+    filename = Path(json_file_path).stem
 
-    insights = data['expert_insights']
-    required_experts = ['danaher', 'gordon_ryan', 'eddie_bravo']
+    # For SINGLE template files (flat structure)
+    if 'name' in data and 'bottom' not in data and 'top' not in data:
+        if data['name'] != filename:
+            errors.append(f"name ('{data['name']}') must match filename ('{filename}')")
 
-    for expert in required_experts:
-        if expert not in insights:
-            errors.append(f"{path}.expert_insights: Missing {expert}")
-        elif len(insights[expert]) < 200:
-            errors.append(f"{path}.expert_insights.{expert}: Only {len(insights[expert])} chars (need 200+)")
+    # For DUAL/FAMILY bottom section
+    if 'bottom' in data and 'name' in data['bottom']:
+        expected_bottom = f"{data.get('name', filename)} Bottom"
+        if data['bottom']['name'] != expected_bottom:
+            errors.append(f"bottom.name ('{data['bottom']['name']}') should be '{expected_bottom}'")
+
+    # For DUAL/FAMILY top section
+    if 'top' in data and 'name' in data['top']:
+        expected_top = f"{data.get('name', filename)} Top"
+        if data['top']['name'] != expected_top:
+            errors.append(f"top.name ('{data['top']['name']}') should be '{expected_top}'")
 
     return errors
 
-
-def validate_variants(data, category, path=""):
-    """Validate parent_variant, sibling_variants, child_variants fields (Positions only)"""
+def validate_family_variants(data, json_file_path):
+    """Validate FAMILY variations array matches actual variant files in folder"""
     errors = []
 
-    # Only validate for Positions category
-    if category != "Positions":
+    # Only for FAMILY positions (has variations array)
+    if 'variations' not in data:
         return errors
 
-    if 'metadata' not in data:
+    json_path = Path(json_file_path)
+    variant_folder = json_path.parent / data.get('slug', json_path.stem)
+
+    if not variant_folder.exists():
+        errors.append(f"FAMILY position has variations array but folder not found: {variant_folder}")
         return errors
 
-    metadata = data['metadata']
-    has_parent = 'parent_variant' in metadata
-    has_siblings = 'sibling_variants' in metadata
-    has_children = 'child_variants' in metadata
+    # Get actual variant files (normalize to lowercase slugs for comparison)
+    actual_files = {f.stem for f in variant_folder.glob("*.json")}
+    actual_slugs = {name.lower().replace(' ', '-') for name in actual_files}
 
-    # Validate parent_variant (string if present)
-    if has_parent:
-        parent = metadata['parent_variant']
-        if not isinstance(parent, str):
-            errors.append(f"{path}.metadata.parent_variant: Must be a string, got {type(parent).__name__}")
+    # Get declared variants from variations array (already slugs)
+    declared_slugs = {v['slug'].lower() for v in data['variations']}
 
-    # Validate sibling_variants (array 1-11 items if present)
-    if has_siblings:
-        siblings = metadata['sibling_variants']
+    # Check for mismatches
+    missing_files = declared_slugs - actual_slugs
+    undeclared_files = actual_slugs - declared_slugs
 
-        if not isinstance(siblings, list):
-            errors.append(f"{path}.metadata.sibling_variants: Must be an array")
-        elif len(siblings) < 1:
-            errors.append(f"{path}.metadata.sibling_variants: Must have at least 1 sibling")
-        elif len(siblings) > 11:
-            errors.append(f"{path}.metadata.sibling_variants: Too many siblings ({len(siblings)}) - maximum is 11")
-        else:
-            for i, sibling in enumerate(siblings):
-                if not isinstance(sibling, str):
-                    errors.append(f"{path}.metadata.sibling_variants[{i}]: Must be a string, got {type(sibling).__name__}")
+    if missing_files:
+        errors.append(f"variations array references missing files: {', '.join(missing_files)}")
 
-    # Validate child_variants (array 1-12 items if present)
-    if has_children:
-        children = metadata['child_variants']
-
-        if not isinstance(children, list):
-            errors.append(f"{path}.metadata.child_variants: Must be an array")
-        elif len(children) < 1:
-            errors.append(f"{path}.metadata.child_variants: Must have at least 1 child variant")
-        elif len(children) > 12:
-            errors.append(f"{path}.metadata.child_variants: Too many children ({len(children)}) - maximum is 12")
-        else:
-            for i, child in enumerate(children):
-                if not isinstance(child, str):
-                    errors.append(f"{path}.metadata.child_variants[{i}]: Must be a string, got {type(child).__name__}")
-
-    # Cross-validation: If parent_variant is set, should have sibling_variants
-    if has_parent and not has_siblings:
-        errors.append(f"{path}.metadata: Has parent_variant but missing sibling_variants array")
-
-    # Cross-validation: Child files shouldn't have child_variants
-    if has_parent and has_children:
-        errors.append(f"{path}.metadata: Child variant files should not have child_variants (only parent files)")
-
-    # Cross-validation: Parent files shouldn't have parent_variant or sibling_variants
-    if has_children and (has_parent or has_siblings):
-        errors.append(f"{path}.metadata: Parent files should not have parent_variant or sibling_variants (only child files)")
+    if undeclared_files:
+        errors.append(f"Folder has variant files not in variations array: {', '.join(undeclared_files)}")
 
     return errors
 
@@ -407,14 +368,16 @@ def validate_json_file(json_path, schema, category, strict=False):
         errors.append(f"Schema validation error: {e.message} at {'.'.join(str(p) for p in e.path)}")
 
     # Custom validations
+    name_errors = validate_name_matches_filename(data, json_path, category)
+    errors.extend(name_errors)
+
     success_rate_errors = validate_success_rate_ordering(data, json_path.name)
     errors.extend(success_rate_errors)
 
-    expert_errors = validate_expert_insights(data, json_path.name)
-    errors.extend(expert_errors)
-
-    variant_errors = validate_variants(data, category, json_path.name)
-    errors.extend(variant_errors)
+    # Validate FAMILY variations array matches filesystem
+    if category == "Positions":
+        family_variant_errors = validate_family_variants(data, json_path)
+        errors.extend(family_variant_errors)
 
     # Reference validation
     reference_errors = validate_references(data, category, json_path.name)
@@ -435,9 +398,6 @@ def validate_category(category, strict=False):
         print(f"ERROR: Category path not found: {category_path}")
         sys.exit(1)
 
-    # Load schema
-    schema = load_schema(category)
-
     # Find all JSON files recursively
     json_files = list(category_path.rglob("*.json"))
 
@@ -451,6 +411,8 @@ def validate_category(category, strict=False):
     failed_files = []
 
     for json_file in sorted(json_files):
+        # Load appropriate schema for this file (Positions uses file-specific detection)
+        schema = load_schema(category, json_file)
         errors = validate_json_file(json_file, schema, category, strict)
 
         if errors:
@@ -537,7 +499,7 @@ Examples:
             print(f"ERROR: Could not determine category for {args.file}")
             sys.exit(1)
 
-        schema = load_schema(category)
+        schema = load_schema(category, json_path)
         errors = validate_json_file(json_path, schema, category, args.strict)
 
         if errors:

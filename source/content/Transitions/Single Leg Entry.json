@@ -1,23 +1,20 @@
 {
-  "metadata": {
-    "title": "Single Leg Entry | BJJ Technique | BJJ Graph",
-    "description": "Learn Single Leg Entry in BJJ. Step-by-step execution from Standing to Single Leg Control. Success: Beginner 30%, Intermediate 50%, Advanced 70%. Master takedown fundamentals.",
-    "transition_id": "T189",
-    "tags": [
-      "bjj",
-      "transition",
-      "takedown",
-      "wrestling",
-      "single_leg",
-      "standing"
-    ],
-    "starting_position": "Standing Position",
-    "ending_position": "Single Leg X Position Bottom",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Single Leg Entry",
+  "description": "Learn Single Leg Entry in BJJ. Step-by-step execution from Standing to Single Leg Control. Success: Beginner 30%, Intermediate 50%, Advanced 70%. Master takedown fundamentals.",
+  "tags": [
+    "bjj",
+    "transition",
+    "takedown",
+    "wrestling",
+    "single_leg",
+    "standing"
+  ],
+  "starting_position": "Standing Position",
+  "ending_position": "Single Leg X-Guard",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Single Leg Entry is a fundamental wrestling-based takedown that serves as one of the most reliable techniques for establishing top position from standing in Brazilian Jiu-Jitsu. This technique involves capturing one of your opponent's legs while maintaining your own base and balance, creating a powerful mechanical advantage that can lead to various finishing positions including top control, back takes, or leg entanglements. The single leg entry is particularly effective in both gi and no-gi grappling, making it an essential component of any complete BJJ game.\n\nThe beauty of the single leg entry lies in its versatility and the multiple finishing options it provides. Unlike some takedowns that commit you to a single outcome, the single leg allows you to adapt based on your opponent's defensive reactions. Whether they sprawl, hop away, or attempt to whizzer, each defensive response opens different pathways to completion. This adaptability makes it a high-percentage technique at all levels of competition.\n\nFrom a strategic perspective, the single leg entry represents a crucial bridge between standing grappling and ground work. It allows BJJ practitioners to dictate where the fight takes place, avoiding guard pulls that might give up advantageous positions. The entry phase requires precise timing, proper level change mechanics, and understanding of grip fighting principles. When executed correctly, the single leg entry not only secures a takedown but often provides immediate access to dominant positions or submission opportunities, making it one of the most valuable techniques in modern BJJ.",
   "key_principles": [

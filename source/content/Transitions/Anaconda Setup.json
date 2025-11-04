@@ -1,16 +1,22 @@
 {
-  "metadata": {
-    "title": "Anaconda Choke Setup | BJJ Technique | BJJ Graph",
-    "description": "Master the Anaconda Choke setup from turtle position. Step-by-step execution with success rates: Beginner 35%, Intermediate 55%, Advanced 75%. Expert insights included.",
-    "transition_id": "T220",
-    "tags": ["bjj", "technique", "choke", "turtle", "front-headlock", "submission-setup", "anaconda", "no-gi"],
-    "starting_position": "Turtle Bottom",
-    "ending_position": "Anaconda Control",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 75
-    }
+  "name": "Anaconda Setup",
+  "description": "Master Anaconda Setup from turtle with arm threading, grip mechanics, and control principles. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "tags": [
+    "bjj",
+    "technique",
+    "choke",
+    "turtle",
+    "front-headlock",
+    "submission-setup",
+    "anaconda",
+    "no-gi"
+  ],
+  "starting_position": "Turtle",
+  "ending_position": "Anaconda Control",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 55,
+    "advanced": 75
   },
   "overview": "The Anaconda Choke setup is a fundamental front headlock attack that capitalizes on an opponent's defensive turtle position. This technique involves securing a specific arm-in configuration where you thread your arm under the opponent's neck and trap their near-side arm, creating the distinctive anaconda grip position. The setup is particularly effective in no-gi grappling but translates well to gi competition with proper adaptations.\n\nUnlike the traditional guillotine or D'arce choke setups, the anaconda requires precise arm positioning and body mechanics to create the crushing pressure characteristic of this submission. The key distinguishing feature is the direction of your choking arm - it threads under the opponent's neck from the near side, wrapping around to capture their far shoulder while your other arm completes the gable grip or S-grip configuration.\n\nThis technique exemplifies the modern front headlock system's emphasis on control, patience, and positional dominance before attempting the finish. Rushing the setup often results in the opponent escaping to guard or achieving a single leg position, making methodical execution essential for success at all levels of competition.",
   "key_principles": [
@@ -250,7 +256,7 @@
       "relationship": "Alternative attack from same front headlock control"
     },
     {
-      "name": "Darce from Turtle",
+      "name": "Darce Setup",
       "relationship": "Complementary setup from same starting position"
     },
     {
@@ -262,11 +268,11 @@
       "relationship": "Alternative choke from front headlock position"
     },
     {
-      "name": "Arm Triangle from Turtle",
+      "name": "Arm Triangle",
       "relationship": "Another head-and-arm choke option from turtle top"
     },
     {
-      "name": "Turtle to Back Take",
+      "name": "Front Headlock to Back",
       "relationship": "Positional alternative when submission setup fails"
     },
     {

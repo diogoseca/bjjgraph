@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Defensive Framing | BJJ Concept | BJJ Graph",
-    "description": "Understand Defensive Framing in BJJ. Learn structural barriers, elbow angles, hand placement, pressure redirection across positions. Expert insights from Danaher, Ryan, Bravo.",
-    "concept_id": "C024",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "framing",
-      "defense",
-      "escape",
-      "pressure-management",
-      "bottom-position"
-    ],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Defensive Framing",
+  "description": "Master defensive framing in BJJ. Learn elbow structure, connection points, pressure redirection, and frame recovery across all bottom positions.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "framing",
+    "defense",
+    "escape",
+    "pressure-management",
+    "bottom-position"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Defensive Framing represents the practical application and technical execution of creating structural barriers using arms, elbows, and hands to manage distance and redirect pressure when trapped in bottom positions. Unlike the broader concept of defensive frame which encompasses theoretical principles, defensive framing focuses on the specific technical skills of establishing, maintaining, and recovering frame structures under live pressure. This concept encompasses the biomechanical details of optimal elbow angles, hand placement strategies, connection point management, and the tactical decisions about when and where to establish frames based on opponent's pressure vectors and position. Defensive framing serves as the fundamental technical implementation layer that translates defensive frame principles into executable movements during live training and competition. The ability to establish effective defensive framing often represents the difference between maintaining escape opportunities and becoming crushed under opponent's pressure, making it one of the most practically important skills in defensive BJJ.",
   "key_principles": [
     "Establish frames using skeletal alignment with elbows at optimal angles (90-110 degrees) for maximum strength",
@@ -63,94 +60,124 @@
       "description": "The strategic capability to modify frame structure based on contextual factors including opponent's body type (longer frames against larger opponents), position (different configurations for side control versus mount), and stage of escape (frames change as escape progresses from initial defense to final recovery)."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Defensive Frame",
+      "principle_name": "Defensive Frame",
       "relationship_type": "Prerequisite",
       "description": "Defensive Frame provides the theoretical foundation and conceptual understanding that Defensive Framing implements technically. Understanding frame principles is necessary before executing specific framing techniques effectively."
     },
     {
-      "concept_name": "Frame Management",
+      "principle_name": "Frame Management",
       "relationship_type": "Complementary",
       "description": "Frame Management governs the broader strategic decisions about when and where to establish frames, while Defensive Framing focuses on the technical execution details of creating and maintaining those frames under pressure."
     },
     {
-      "concept_name": "Hip Escape Mechanics",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Complementary",
       "description": "Hip escapes and defensive framing work synergistically—frames create the space necessary for hip movement, while hip movement allows for frame recovery and repositioning. Neither is fully effective without the other."
     },
     {
-      "concept_name": "Space Creation",
+      "principle_name": "Space Creation",
       "relationship_type": "Extension",
       "description": "Defensive Framing serves as the primary technical method for implementing space creation principles in bottom positions, translating the strategic goal of creating space into specific arm and hand positioning techniques."
     },
     {
-      "concept_name": "Dealing with Pressure",
+      "principle_name": "Dealing with Pressure",
       "relationship_type": "Complementary",
       "description": "While Dealing with Pressure encompasses multiple strategies including acceptance and redirection, Defensive Framing provides the primary technical tool for preventing pressure from achieving full crushing effect on the body."
     },
     {
-      "concept_name": "Leverage Principles",
+      "principle_name": "Leverage Principles",
       "relationship_type": "Prerequisite",
       "description": "Understanding leverage mechanics is fundamental to effective framing—knowing why specific elbow angles and connection points create stronger frames than others requires comprehension of basic leverage and mechanical advantage principles."
+    },
+    {
+      "principle_name": "Guard Retention",
+      "relationship_type": "Extension",
+      "description": "Defensive framing serves as the foundational skill set that enables effective guard retention by preventing opponent from achieving crushing chest-to-chest control necessary for guard passing."
+    },
+    {
+      "principle_name": "Escape Fundamentals",
+      "relationship_type": "Complementary",
+      "description": "All fundamental escapes depend on effective framing to create the initial space necessary for escape movement execution, making defensive framing an essential prerequisite for successful escape systems."
+    },
+    {
+      "principle_name": "Bridge and Shrimp",
+      "relationship_type": "Complementary",
+      "description": "Bridge and shrimp movements work together with frames in an integrated system—frames hold space while bridges and shrimps create additional distance, and these movements also serve to recover collapsed frames."
+    },
+    {
+      "principle_name": "Base Maintenance",
+      "relationship_type": "Alternative",
+      "description": "While base maintenance focuses on preventing opponent from creating frames (top position perspective), defensive framing represents the bottom position counterpart—establishing frames despite opponent's base and pressure."
+    },
+    {
+      "principle_name": "Distance Creation",
+      "relationship_type": "Extension",
+      "description": "Defensive framing is the primary technical tool for distance creation from bottom positions, providing the specific mechanical methods for implementing distance creation strategies."
+    },
+    {
+      "principle_name": "Energy Conservation",
+      "relationship_type": "Complementary",
+      "description": "Effective defensive framing significantly reduces energy expenditure in bottom positions by using skeletal structure and optimal angles rather than muscular effort to manage opponent's pressure."
     }
   ],
   "application_contexts": [
     {
-      "context": "Side Control Bottom",
+      "context": "Side Control",
       "how_applied": "Establish near-side elbow frame against opponent's neck/shoulder while far-side arm frames against hip, creating two-point pressure distribution. Frames must prevent chest-to-chest contact while allowing hip escape movement toward creating guard recovery angle."
     },
     {
-      "context": "Mount Bottom",
+      "context": "Mount",
       "how_applied": "Create frames using both elbows pressed against opponent's hips or thighs to prevent forward pressure advancement toward high mount. Frame angles must redirect downward pressure laterally to create bridging and shrimping opportunities without allowing arms to be trapped."
     },
     {
-      "context": "Knee on Belly Bottom",
+      "context": "Knee on Belly",
       "how_applied": "Establish primary frame with bottom arm against opponent's knee while top arm frames against shoulder or lapel, creating counter-pressure that prevents full weight settling. Frames must maintain enough structure to execute either elbow escape or guard recovery."
     },
     {
-      "context": "North-South Bottom",
+      "context": "North-South",
       "how_applied": "Use forearm frames pressed into opponent's hips to create distance from crushing chest pressure, coordinating with bridge movements to create escape angles. Frames must prevent head isolation while maintaining ability to turn into opponent or escape to turtle."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Establish underhook frame on one side while knee shield or conventional frames manage distance on the other, preventing opponent from achieving cross-face control. Frames must balance creating sweep space while preventing pass completion."
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Use frames against opponent's hips or thighs to control standing distance and prevent powerful standing passes, coordinating frames with grip breaking and guard retention sweeping movements while maintaining closed guard structure."
     },
     {
-      "context": "Bottom Turtle",
+      "context": "Turtle",
       "how_applied": "Establish posting frames with arms creating wide base to prevent rolling or flattening while using shoulder and elbow positioning to block opponent's hook insertion attempts and maintain defensive posture until opportunity for guard recovery or standup."
     },
     {
-      "context": "Back Control Bottom",
+      "context": "Back Control",
       "how_applied": "Create frames using hands fighting grips and elbows preventing lock completion, particularly framing against choking arm to maintain space between forearm and neck. Frames must coordinate with hip escape and turning movements to address position."
     },
     {
-      "context": "Kesa Gatame Bottom",
+      "context": "Kesa Gatame",
       "how_applied": "Use bottom arm frame pushing against opponent's head while top arm creates posting structure, preventing tight consolidation of position. Frames must work with bridging mechanics to create angles for either guard recovery or reversal to top position."
     },
     {
-      "context": "Scarf Hold Bottom",
+      "context": "Modified Scarf Hold",
       "how_applied": "Establish frames with free arm pressing against opponent's head/shoulder to prevent tight control while trapped arm works to create posting structure. Frames coordinate with hip movement to prevent mount transition and create escape opportunities."
     },
     {
-      "context": "Knee Shield Position Bottom",
+      "context": "Knee Shield Half Guard",
       "how_applied": "The knee shield itself acts as primary frame creating distance, supported by hand frames controlling opponent's shoulder and bicep to prevent cross-face. Additional frames manage passing attempts while maintaining knee shield structure for sweeps."
-    },
-    {
-      "context": "Bottom Position Generic",
-      "how_applied": "Fundamental framing principles apply universally—maintain elbow angles, select skeletal connection points, create multiple frames, and coordinate with hip movement. Specific configurations adjust based on position but core mechanics remain constant across all bottom scenarios."
     },
     {
       "context": "Defensive Position",
       "how_applied": "Emergency defensive framing when trapped in worst-case scenarios involves creating any available frame structure to prevent submission completion or further position advancement, often using unconventional frames (forearms, shoulders) when standard arm frames are compromised."
     },
     {
-      "context": "Guard Recovery",
-      "how_applied": "Frames create the critical distance necessary for guard recovery by preventing opponent from achieving chest-to-chest control. As recovery progresses, frames transition from defensive barriers to active guard establishment tools using grips and hooks."
+      "context": "Open Guard",
+      "how_applied": "Frames create the critical distance necessary for guard retention by preventing opponent from achieving chest-to-chest control. As opponent attempts to close distance, frames redirect pressure while hooks and grips establish guard control."
+    },
+    {
+      "context": "Deep Half Guard",
+      "how_applied": "Frames are used to prevent opponent from flattening and crushing while maintaining deep half position, typically framing against far hip or thigh to maintain angle necessary for sweeps and back takes from deep half."
     }
   ],
   "decision_framework": [
@@ -310,22 +337,22 @@
   "related_content": [
     {
       "name": "Defensive Frame",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Parent concept providing theoretical foundation for technical framing execution"
     },
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept governing strategic frame decisions and priorities"
     },
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Synergistic movement pattern that frames enable and facilitate"
     },
     {
       "name": "Space Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic goal that defensive framing technically implements"
     },
     {
@@ -339,33 +366,33 @@
       "relationship": "Core defensive movement directly integrating framing with hip escape"
     },
     {
-      "name": "Side Control Bottom",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Primary position where defensive framing is most critically applied"
     },
     {
-      "name": "Mount Bottom",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "Position requiring specific framing configuration to prevent high mount advancement"
     },
     {
-      "name": "Guard Recovery",
+      "name": "Open Guard",
       "content_type": "Position",
       "relationship": "Positional goal that defensive framing creates space to achieve"
     },
     {
       "name": "Dealing with Pressure",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader pressure management concept that includes framing as primary tool"
     },
     {
       "name": "Escape Fundamentals",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational escape principles that depend on effective framing execution"
     },
     {
       "name": "Bridge and Shrimp",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Fundamental movement concept that works synergistically with frames to create escapes"
     }
   ],

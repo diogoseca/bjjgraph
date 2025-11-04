@@ -1,24 +1,21 @@
 {
-  "metadata": {
-    "title": "Forward Roll | BJJ Technique | BJJ Graph",
-    "description": "Master the Forward Roll in BJJ. Essential escape and movement technique for guard recovery and defensive positioning. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T805",
-    "tags": [
-      "bjj",
-      "transition",
-      "defense",
-      "movement",
-      "escape",
-      "guard recovery",
-      "rolling"
-    ],
-    "starting_position": "Bottom Position",
-    "ending_position": "Guard Recovery",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Forward Roll",
+  "description": "Master the Forward Roll in BJJ. Essential escape and movement technique for guard recovery and defensive positioning. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "defense",
+    "movement",
+    "escape",
+    "guard recovery",
+    "rolling"
+  ],
+  "starting_position": "Defensive Position",
+  "ending_position": "Seated Guard",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Forward Roll is a fundamental movement technique in Brazilian Jiu-Jitsu that serves both defensive and offensive purposes. This dynamic rolling motion allows practitioners to escape dangerous positions, create distance from opponents, and transition into advantageous guard positions. The forward roll is particularly effective when combined with proper timing and spatial awareness, enabling practitioners to turn defensive situations into offensive opportunities. Understanding the biomechanics of rolling forward while maintaining control of your center of gravity is essential for smooth execution. This technique becomes increasingly valuable as practitioners develop their guard game, as it provides a reliable method for recovering guard position after being passed or during scrambles. The forward roll also builds body awareness and coordination that translates to other advanced movements in BJJ.",
   "key_principles": [
@@ -252,7 +249,7 @@
       "relationship": "General category of rolling movements for guard recovery"
     },
     {
-      "name": "Turtle to Guard",
+      "name": "Turtle Transition",
       "relationship": "Related transition from defensive position to guard"
     },
     {
@@ -266,6 +263,18 @@
     {
       "name": "Standing up in Base",
       "relationship": "Alternative method of creating distance and returning to feet"
+    },
+    {
+      "name": "Berimbolo Entry",
+      "relationship": "Advanced rolling technique that builds on forward roll mechanics"
+    },
+    {
+      "name": "Rolling Back Take",
+      "relationship": "Offensive rolling movement using similar biomechanics"
+    },
+    {
+      "name": "Granby to Closed Guard",
+      "relationship": "Similar guard recovery technique with different rolling direction"
     }
   ],
   "expert_insights": {

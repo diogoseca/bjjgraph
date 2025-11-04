@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Re-Guard | BJJ Technique | BJJ Graph",
-    "description": "Master Re-Guard in BJJ. Complete step-by-step execution from inferior positions back to guard. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
-    "transition_id": "T156",
-    "tags": [
-      "bjj",
-      "transition",
-      "escape",
-      "defense",
-      "guard_recovery"
-    ],
-    "starting_position": "Bottom Position",
-    "ending_position": "Guard Recovery",
-    "success_rates": {
-      "beginner": 55,
-      "intermediate": 70,
-      "advanced": 85
-    }
+  "name": "Re-Guard",
+  "description": "Master Re-Guard recovery in BJJ. Complete step-by-step execution from inferior positions back to guard. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "defense",
+    "guard_recovery"
+  ],
+  "starting_position": "Defensive Position",
+  "ending_position": "Open Guard",
+  "success_rates": {
+    "beginner": 55,
+    "intermediate": 70,
+    "advanced": 85
   },
   "overview": "Re-guarding is the fundamental defensive skill of recovering guard from inferior positions where an opponent has passed or is passing your guard. This technique represents the critical bridge between defensive survival and offensive opportunity, allowing practitioners to escape dangerous positions and re-establish their guard structure. The re-guard encompasses a systematic approach to guard recovery that includes creating frames, generating space through hip movement, and re-inserting guard retention mechanics. Mastery of re-guarding is essential for any practitioner, as it directly impacts survival rate in competitive and training scenarios. The technique relies heavily on timing, spatial awareness, and the ability to exploit momentary lapses in opponent pressure. By understanding the principles of re-guarding, practitioners can transform seemingly hopeless positions into opportunities for sweeps, submissions, or at minimum, positional reset.",
   "key_principles": [
@@ -224,51 +221,63 @@
   "related_content": [
     {
       "name": "Guard Recovery",
-      "relationship": "Ending position and strategic goal"
+      "relationship": "Core principle underlying technique"
     },
     {
       "name": "Hip Escape",
-      "relationship": "Core movement mechanic used throughout"
+      "relationship": "Fundamental movement mechanic"
     },
     {
       "name": "Shrimp Escape",
-      "relationship": "Fundamental technique integrated in execution"
+      "relationship": "Essential technique component"
     },
     {
       "name": "Granby Roll",
-      "relationship": "Advanced variation for heavy pressure situations"
+      "relationship": "Advanced variation"
     },
     {
       "name": "Technical Stand-up",
-      "relationship": "Alternative recovery method from flat positions"
+      "relationship": "Alternative recovery method"
     },
     {
       "name": "Guard Replacement",
-      "relationship": "Related defensive concept for maintaining guard"
+      "relationship": "Related defensive concept"
     },
     {
       "name": "Butterfly Sweep",
-      "relationship": "Offensive follow-up from recovered butterfly guard"
+      "relationship": "Follow-up offensive option"
     },
     {
       "name": "De La Riva Sweep",
-      "relationship": "Offensive option from de la riva guard recovery"
+      "relationship": "Follow-up from guard recovery"
     },
     {
       "name": "Frame Management",
-      "relationship": "Fundamental concept applied in initial phase"
+      "relationship": "Fundamental principle applied"
     },
     {
       "name": "Guard Retention Concepts",
-      "relationship": "Preventative system that reduces need for re-guard"
+      "relationship": "Preventative defensive system"
     },
     {
       "name": "Hip Escape Mechanics",
-      "relationship": "Core concept underlying all re-guard movements"
+      "relationship": "Core biomechanical principle"
     },
     {
       "name": "Defensive Posture",
-      "relationship": "Essential concept maintained throughout technique"
+      "relationship": "Essential concept maintained throughout"
+    },
+    {
+      "name": "Elbow Escape",
+      "relationship": "Related escape technique"
+    },
+    {
+      "name": "Frame and Shrimp",
+      "relationship": "Combined movement pattern"
+    },
+    {
+      "name": "Open Guard to Deep Half",
+      "relationship": "Guard recovery variation"
     }
   ],
   "expert_insights": {

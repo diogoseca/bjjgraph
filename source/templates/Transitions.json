@@ -5,7 +5,12 @@
   "type": "object",
   "additionalProperties": false,
   "required": [
-    "metadata",
+    "name",
+    "description",
+    "tags",
+    "starting_position",
+    "ending_position",
+    "success_rates",
     "overview",
     "key_principles",
     "setup_requirements",
@@ -20,105 +25,123 @@
     "related_content",
     "expert_insights"
   ],
-
   "properties": {
-    "metadata": {
-      "type": "object",
-      "description": "Page metadata and SEO information",
-      "additionalProperties": false,
-      "required": ["title", "description", "transition_id", "tags", "starting_position", "ending_position", "success_rates"],
-      "properties": {
-        "title": {
-          "type": "string",
-          "description": "SEO title format: '[Technique Name] | BJJ Technique | BJJ Graph'",
-          "pattern": "^.+ \\| BJJ Technique \\| BJJ Graph$",
-          "examples": ["Hip Bump Sweep | BJJ Technique | BJJ Graph"]
-        },
-        "description": {
-          "type": "string",
-          "description": "Meta description 140-180 characters (SEO optimal: 150-160)",
-          "minLength": 140,
-          "maxLength": 180,
-          "examples": ["Learn Hip Bump Sweep in BJJ. Step-by-step execution from Closed Guard to Mount. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%."]
-        },
-        "transition_id": {
-          "type": "string",
-          "description": "Unique transition identifier T###",
-          "pattern": "^T[0-9]{3}$",
-          "examples": ["T045", "T127"]
-        },
-        "tags": {
-          "type": "array",
-          "description": "Content tags (minimum 3)",
-          "minItems": 3,
-          "items": {"type": "string"},
-          "examples": [["bjj", "technique", "sweep", "guard"]]
-        },
-        "starting_position": {
-          "type": "string",
-          "description": "Position where technique begins (wikilink format)",
-          "examples": ["Closed Guard Bottom", "Half Guard Bottom"]
-        },
-        "ending_position": {
-          "type": "string",
-          "description": "Position where technique ends (wikilink format)",
-          "examples": ["Mount", "Side Control Top"]
-        },
-        "success_rates": {
-          "$ref": "#/$defs/skill_level_success_rates"
-        }
-      }
+    "name": {
+      "type": "string",
+      "description": "Technique name (must match filename without .json)",
+      "minLength": 3,
+      "examples": [
+        "Hip Bump Sweep",
+        "Arm Drag to Back Take"
+      ]
     },
-
+    "description": {
+      "type": "string",
+      "description": "SEO meta description 150-160 characters",
+      "minLength": 140,
+      "maxLength": 180,
+      "examples": [
+        "Learn Hip Bump Sweep in BJJ. Step-by-step execution from Closed Guard to Mount. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%."
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Content tags (minimum 3)",
+      "minItems": 3,
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "bjj",
+          "technique",
+          "sweep",
+          "guard"
+        ]
+      ]
+    },
+    "starting_position": {
+      "type": "string",
+      "description": "Position where technique begins",
+      "examples": [
+        "Closed Guard Bottom",
+        "Half Guard Bottom"
+      ]
+    },
+    "ending_position": {
+      "type": "string",
+      "description": "Position where technique ends",
+      "examples": [
+        "Mount",
+        "Side Control Top"
+      ]
+    },
+    "success_rates": {
+      "$ref": "#/$defs/skill_level_success_rates"
+    },
     "overview": {
       "type": "string",
-      "description": "2-3 paragraph technique description with strategic context",
+      "description": "2-3 paragraph technique description with strategic context (400+ characters)",
       "minLength": 400,
-      "examples": ["The Hip Bump Sweep is a fundamental attack from closed guard that exploits opponent's posture..."]
+      "examples": [
+        "The Hip Bump Sweep is a fundamental attack from closed guard that exploits opponent's posture..."
+      ]
     },
-
     "key_principles": {
       "type": "array",
-      "description": "5-7 fundamental principles for this technique",
+      "description": "5-7 fundamental principles",
       "minItems": 5,
       "maxItems": 7,
-      "items": {"type": "string"},
-      "examples": [[
-        "Break opponent's posture before initiating sweep",
-        "Create angle with hip movement",
-        "Use opponent's reaction to your advantage"
-      ]]
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "Break opponent's posture before initiating sweep",
+          "Create angle with hip movement",
+          "Use opponent's reaction to your advantage"
+        ]
+      ]
     },
-
     "setup_requirements": {
       "type": "array",
-      "description": "Prerequisites/conditions before executing technique",
+      "description": "Prerequisites before executing (minimum 4)",
       "minItems": 4,
-      "items": {"type": "string"},
-      "examples": [[
-        "Closed guard established with ankles crossed",
-        "Opponent's posture broken forward",
-        "Strong grip on opponent's sleeve or wrist"
-      ]]
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "Closed guard established with ankles crossed",
+          "Opponent's posture broken forward",
+          "Strong grip on opponent's sleeve or wrist"
+        ]
+      ]
     },
-
     "execution_steps": {
       "type": "array",
-      "description": "Step-by-step technique execution (merges Visual Execution Sequence)",
+      "description": "Step-by-step execution sequence (minimum 6)",
       "minItems": 6,
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["step_number", "action", "description"],
+        "required": [
+          "step_number",
+          "action",
+          "description"
+        ],
         "properties": {
-          "step_number": {"type": "integer", "minimum": 1},
+          "step_number": {
+            "type": "integer",
+            "minimum": 1
+          },
           "action": {
             "type": "string",
-            "description": "Short action description (e.g., 'Break posture')"
+            "description": "Brief action name (e.g., 'Break posture')"
           },
           "description": {
             "type": "string",
-            "description": "Detailed execution with anatomical detail",
+            "description": "Detailed execution with anatomical detail (50+ characters)",
             "minLength": 50
           },
           "timing": {
@@ -128,20 +151,29 @@
         }
       }
     },
-
     "common_counters": {
       "type": "array",
-      "description": "How opponents counter this technique",
+      "description": "Opponent's defensive responses (minimum 3)",
       "minItems": 3,
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["counter", "effectiveness"],
+        "required": [
+          "counter",
+          "effectiveness"
+        ],
         "properties": {
-          "counter": {"type": "string"},
+          "counter": {
+            "type": "string",
+            "description": "Counter technique description"
+          },
           "effectiveness": {
             "type": "string",
-            "enum": ["High", "Medium", "Low"]
+            "enum": [
+              "High",
+              "Medium",
+              "Low"
+            ]
           },
           "your_response": {
             "type": "string",
@@ -150,70 +182,101 @@
         }
       }
     },
-
     "common_errors": {
       "type": "array",
-      "description": "Common mistakes with corrections",
+      "description": "Common mistakes with corrections (minimum 5)",
       "minItems": 5,
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["error", "consequence", "correction"],
+        "required": [
+          "error",
+          "consequence",
+          "correction"
+        ],
         "properties": {
-          "error": {"type": "string"},
-          "consequence": {"type": "string"},
-          "correction": {"type": "string"}
-        }
-      }
-    },
-
-    "training_progressions": {
-      "type": "array",
-      "description": "Progressive training phases",
-      "minItems": 4,
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": ["phase", "focus", "description"],
-        "properties": {
-          "phase": {
-            "type": "string",
-            "description": "Training phase name (e.g., 'Week 1-2', 'Beginner Phase')"
+          "error": {
+            "type": "string"
           },
-          "focus": {"type": "string"},
-          "description": {"type": "string"},
-          "resistance_level": {
-            "type": "string",
-            "enum": ["None", "Light", "Medium", "Full"]
+          "consequence": {
+            "type": "string"
+          },
+          "correction": {
+            "type": "string"
           }
         }
       }
     },
-
+    "training_progressions": {
+      "type": "array",
+      "description": "Progressive training phases (minimum 4)",
+      "minItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "phase",
+          "focus",
+          "description"
+        ],
+        "properties": {
+          "phase": {
+            "type": "string",
+            "description": "Training phase (e.g., 'Week 1-2', 'Beginner Phase')"
+          },
+          "focus": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "resistance_level": {
+            "type": "string",
+            "enum": [
+              "None",
+              "Light",
+              "Medium",
+              "Full"
+            ]
+          }
+        }
+      }
+    },
     "variants_and_adaptations": {
       "type": "array",
-      "description": "Different variations of the technique",
+      "description": "Technique variations (minimum 2)",
       "minItems": 2,
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["variant_name", "description"],
+        "required": [
+          "variant_name",
+          "description"
+        ],
         "properties": {
-          "variant_name": {"type": "string"},
-          "description": {"type": "string"},
-          "when_to_use": {"type": "string"}
+          "variant_name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "when_to_use": {
+            "type": "string"
+          }
         }
       }
     },
-
     "knowledge_assessment": {
       "type": "array",
-      "description": "Questions to test understanding (feeds FAQ schema)",
+      "description": "Understanding test questions (minimum 5, feeds FAQ schema)",
       "minItems": 5,
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["question", "answer"],
+        "required": [
+          "question",
+          "answer"
+        ],
         "properties": {
           "question": {
             "type": "string",
@@ -226,36 +289,47 @@
           },
           "difficulty": {
             "type": "string",
-            "enum": ["Beginner", "Intermediate", "Advanced"]
+            "enum": [
+              "Beginner",
+              "Intermediate",
+              "Advanced"
+            ]
           }
         }
       }
     },
-
     "safety_considerations": {
       "type": "string",
-      "description": "Safety notes and precautions for this technique",
+      "description": "Safety notes and precautions (100+ characters)",
       "minLength": 100,
-      "examples": ["When practicing this sweep, ensure controlled execution to avoid injury..."]
+      "examples": [
+        "When practicing this sweep, ensure controlled execution to avoid injury..."
+      ]
     },
-
     "position_integration": {
       "type": "string",
-      "description": "How technique fits in the overall BJJ system",
+      "description": "How technique fits in BJJ system (200+ characters)",
       "minLength": 200,
-      "examples": ["The Hip Bump Sweep is part of the fundamental closed guard attack system..."]
+      "examples": [
+        "The Hip Bump Sweep is part of the fundamental closed guard attack system..."
+      ]
     },
-
     "related_content": {
       "type": "array",
-      "description": "Related techniques/positions (renamed from Related Techniques)",
+      "description": "Related techniques/positions (3-15 items)",
       "minItems": 3,
+      "maxItems": 15,
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["name", "relationship"],
+        "required": [
+          "name",
+          "relationship"
+        ],
         "properties": {
-          "name": {"type": "string"},
+          "name": {
+            "type": "string"
+          },
           "relationship": {
             "type": "string",
             "description": "How it relates (e.g., 'Follow-up', 'Alternative', 'Counter')"
@@ -263,12 +337,15 @@
         }
       }
     },
-
     "expert_insights": {
       "type": "object",
-      "description": "Insights from all 3 experts (REQUIRED, 200+ chars each)",
+      "description": "Insights from all 3 experts (REQUIRED, 200+ characters each)",
       "additionalProperties": false,
-      "required": ["danaher", "gordon_ryan", "eddie_bravo"],
+      "required": [
+        "danaher",
+        "gordon_ryan",
+        "eddie_bravo"
+      ],
       "properties": {
         "danaher": {
           "type": "string",
@@ -288,17 +365,32 @@
       }
     }
   },
-
   "$defs": {
     "skill_level_success_rates": {
       "type": "object",
-      "description": "Success rates by skill level - REQUIRED (beginner ≤ intermediate ≤ advanced)",
+      "description": "Success rates by skill level (beginner ≤ intermediate ≤ advanced)",
       "additionalProperties": false,
-      "required": ["beginner", "intermediate", "advanced"],
+      "required": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
       "properties": {
-        "beginner": {"type": "integer", "minimum": 0, "maximum": 100},
-        "intermediate": {"type": "integer", "minimum": 0, "maximum": 100},
-        "advanced": {"type": "integer", "minimum": 0, "maximum": 100}
+        "beginner": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "intermediate": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "advanced": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        }
       }
     }
   }

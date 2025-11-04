@@ -1,23 +1,22 @@
 {
-  "metadata": {
-    "title": "Side Control to Mount | BJJ Technique | BJJ Graph",
-    "description": "Master Side Control to Mount transition in BJJ. Step-by-step execution with weight distribution, frame control, and mount establishment. Success: 30%/50%/70%.",
-    "transition_id": "T905",
-    "tags": [
-      "bjj",
-      "transition",
-      "mount",
-      "side_control",
-      "top_position",
-      "positional_advancement"
-    ],
-    "starting_position": "Side Control Top",
-    "ending_position": "Mount",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Side Control to Mount",
+  "description": "Master the Side Control to Mount transition in BJJ. Step-by-step execution from side control to dominant mount position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%",
+  "tags": [
+    "bjj",
+    "transition",
+    "mount",
+    "side_control",
+    "top_position",
+    "positional_advancement",
+    "pressure_passing",
+    "weight_distribution"
+  ],
+  "starting_position": "Side Control",
+  "ending_position": "Mount",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Side Control to Mount transition is a fundamental positional advancement that represents a critical step up the positional hierarchy in Brazilian Jiu-Jitsu. This transition moves from a strong control position (side control) to the most dominant position in grappling (mount), significantly increasing offensive opportunities while further limiting the opponent's defensive options. The transition requires precise weight distribution, careful management of the opponent's defensive frames, and strategic timing to prevent the opponent from recovering half guard or escaping. Success depends on systematically removing each defensive barrier—the near-side arm, the knee shield, and the hip frame—while maintaining constant pressure and control. The technique exemplifies the principle of 'mount by increments,' where each micro-adjustment builds upon the previous one, creating a seamless flow from side control to full mount. Understanding this transition is essential for developing a coherent top game, as it connects one of the most common control positions to the most advantageous attacking position in BJJ.",
   "key_principles": [
@@ -229,7 +228,7 @@
       "relationship": "Ending position - Final destination of this transition"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Starting position - Where transition begins"
     },
     {
@@ -245,11 +244,11 @@
       "relationship": "Follow-up - Advanced variation of mount position"
     },
     {
-      "name": "High Mount Top",
+      "name": "High Mount",
       "relationship": "Follow-up - Improved mount position for submissions"
     },
     {
-      "name": "S Mount Position",
+      "name": "S Mount",
       "relationship": "Follow-up - Advanced mount variation for armbar setups"
     },
     {
@@ -261,7 +260,7 @@
       "relationship": "Counter - Common defensive technique opponent uses"
     },
     {
-      "name": "Half Guard Bottom",
+      "name": "Half Guard",
       "relationship": "Counter - Position opponent tries to recover during transition"
     },
     {

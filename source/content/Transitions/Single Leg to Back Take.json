@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Single Leg to Back Take | BJJ Technique | BJJ Graph",
-    "description": "Learn Single Leg to Back Take in BJJ. Convert failed takedown to back control position. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T216",
-    "tags": [
-      "bjj",
-      "transition",
-      "back_take",
-      "wrestling",
-      "advanced"
-    ],
-    "starting_position": "Single Leg X Position Bottom",
-    "ending_position": "Back Control",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Single Leg to Back Take",
+  "description": "Learn Single Leg to Back Take in BJJ. Convert failed takedown to back control position. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "back_take",
+    "wrestling",
+    "advanced"
+  ],
+  "starting_position": "Standing Position",
+  "ending_position": "Back Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Single Leg to Back Take is an advanced transitional technique that capitalizes on an opponent's defensive reactions to a single leg attack. Rather than forcing a completed takedown against heavy resistance, the skilled practitioner recognizes when the opponent posts and turns away, then exploits this defensive rotation to climb onto their back. This technique represents a fundamental principle in grappling: when your opponent defends one attack, they often expose themselves to another.\n\nThis transition is particularly valuable in no-gi grappling and MMA contexts where wrestling-based attacks are common. The beauty of this technique lies in its opportunistic nature—it transforms a seemingly failed takedown attempt into a dominant position. The practitioner must develop the sensitivity to recognize when the opponent is committed to their defensive turn, then move fluidly from the single leg position to back control.\n\nSuccessful execution requires strong positional awareness, quick hip movement, and the ability to maintain connection throughout the transition. The technique exemplifies the wrestling principle of \"chain wrestling\"—linking attacks together so that defending one creates vulnerability to another. For competitive grapplers, this represents a high-percentage path to back control, which scores maximum points in most rule sets and provides the best submission opportunities.",
   "key_principles": [

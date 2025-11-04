@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Frame Creation | BJJ Concept | BJJ Graph",
     "description": "Understand Frame Creation in BJJ. Learn structural barriers, force distribution, skeletal alignment principles. Cross-position defensive applications. Expert insights included.",
-    "concept_id": "C104",
+    "principle_id": "P104",
     "tags": [
       "bjj",
       "concept",
@@ -62,34 +62,34 @@
       "description": "The advanced skill of re-establishing collapsed or compromised frames while under continuous opponent pressure. This includes micro-adjustments, alternative frame angles, and strategic body repositioning that restore defensive structure."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Space Creation",
+      "principle_name": "Space Creation",
       "relationship_type": "Complementary",
       "description": "Frame Creation is the primary mechanism through which Space Creation is achieved. Effective frames establish the structural foundation that enables hip movement and body repositioning to generate the space necessary for escapes."
     },
     {
-      "concept_name": "Hip Escape Mechanics",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Extension",
       "description": "Once frames create initial space, Hip Escape Mechanics utilize that space to generate positional improvement. Frames provide the stable platform from which hip escapes can be executed effectively."
     },
     {
-      "concept_name": "Base Maintenance",
+      "principle_name": "Base Maintenance",
       "relationship_type": "Complementary",
       "description": "While Base Maintenance focuses on maintaining stable positioning when in advantageous positions, Frame Creation serves the inverse function of creating stability when defending. Both concepts rely on similar biomechanical principles of skeletal alignment and weight distribution."
     },
     {
-      "concept_name": "Leverage Principles",
+      "principle_name": "Leverage Principles",
       "relationship_type": "Prerequisite",
       "description": "Understanding Leverage Principles is fundamental to effective Frame Creation. Frames are essentially applied leverage using the body's skeletal structure to amplify defensive capability and redirect superior force."
     },
     {
-      "concept_name": "Defensive Posture",
+      "principle_name": "Defensive Posture",
       "relationship_type": "Complementary",
       "description": "Defensive Posture encompasses the overall body positioning and protection strategies, while Frame Creation provides the specific structural mechanisms that make defensive posture effective against opponent advancement."
     },
     {
-      "concept_name": "Connection Breaking",
+      "principle_name": "Connection Breaking",
       "relationship_type": "Alternative",
       "description": "While Frame Creation focuses on establishing barriers to prevent advancement, Connection Breaking focuses on dissolving opponent's established control points. These represent complementary defensive strategies used in different phases of defensive sequences."
     }

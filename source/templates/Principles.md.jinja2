@@ -1,20 +1,22 @@
-{# BJJ Concept Template V3 - Jinja2 #}
-{# Generates markdown from TEMPLATE.json for abstract principles/concepts #}
+{# BJJ Principle Template V3 - Jinja2 #}
+{# Generates markdown from TEMPLATE.json for abstract principles/principles #}
 {# A/B Testing: variant-a-show/variant-b-hide CSS classes #}
 
 ---
-title: "{{metadata.title}}"
-description: "{{metadata.description}}"
+title: "{{name}} | BJJ Principle | BJJ Graph"
+description: "{{description}}"
 ---
 
+{# PostHog A/B Testing Metadata #}
+<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-errors","training-approaches","developmental-metrics","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Apply {{metadata.title.split('|')[0].strip()}} in BJJ",
-  "description": "Decision framework for applying {{metadata.title.split('|')[0].strip()}}.",
+  "name": "How to Apply {{name}} in BJJ",
+  "description": "Decision framework for applying {{name}}.",
   "step": [
     {%- for step in decision_framework[:6] %}
     {
@@ -32,9 +34,9 @@ description: "{{metadata.description}}"
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "{{metadata.title.split('|')[0].strip()}}",
-  "description": "{{metadata.description}}",
-  "url": "https://bjjgraph.org/Principles/{{metadata.title.split('|')[0].strip().replace(' ', '-')}}",
+  "name": "{{name}}",
+  "description": "{{description}}",
+  "url": "https://bjjgraph.org/Principles/{{title.split('|')[0].strip().replace(' ', '-')}}",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -50,7 +52,7 @@ description: "{{metadata.description}}"
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
     {"@type": "ListItem", "position": 2, "name": "Principles", "item": "https://bjjgraph.org/Principles/"},
-    {"@type": "ListItem", "position": 3, "name": "{{metadata.title.split('|')[0].strip()}}", "item": "https://bjjgraph.org/Principles/{{metadata.title.split('|')[0].strip().replace(' ', '-')}}"}
+    {"@type": "ListItem", "position": 3, "name": "{{name}}", "item": "https://bjjgraph.org/Principles/{{title.split('|')[0].strip().replace(' ', '-')}}"}
   ]
 }
 </script>
@@ -74,20 +76,36 @@ description: "{{metadata.description}}"
 }
 </script>
 
+{# Debug mode indicator #}
+{% if debug_mode %}
+<!--
+  🐛 BJJ Graph A/B Testing Debug Mode (Concept)
 
-# {{metadata.title.split('|')[0].strip()}}
-{% for tag in metadata.tags %}#{{tag}} {% endfor %}
+  Content Type: principles
+  Section Count: 11
+  Week Seed: {{ week_seed }}
+  Visual Variant: {{ visual_elements }}
 
-> **Quick Answer**: {{metadata.title.split('|')[0].strip()}} is a {{metadata.complexity_level|lower}} complexity BJJ concept applicable at the {{metadata.application_level}} level. Master this principle in {{metadata.development_timeline}}.
+  Generated: {{ generation_timestamp }}
+-->
+{% endif %}
 
-**Concept ID**: {{metadata.concept_id}}
-**Application Level**: {{metadata.application_level}}
-**Complexity**: {{metadata.complexity_level}}
-**Development Timeline**: {{metadata.development_timeline}}
+# {{name}}
+{% for tag in tags %}#{{tag}} {% endfor %}
+
+> **Quick Answer**: {{name}} is a {{complexity_level|lower}} complexity BJJ principle applicable at the {{application_level}} level. Master this principle in {{development_timeline}}.
+
+**Principle ID**: {{principle_id}}
+**Application Level**: {{application_level}}
+**Complexity**: {{complexity_level}}
+**Development Timeline**: {{development_timeline}}
+
+{# Flexbox wrapper for A/B testing #}
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is {{metadata.title.split('|')[0].strip()}}?
+## What is {{name}}?
 
 {{overview}}
 
@@ -104,7 +122,7 @@ description: "{{metadata.description}}"
 
 <section id="component-skills" class="content-section">
 
-## What Skills Make Up This Concept?
+## What Skills Make Up This Principle?
 {% for skill in component_skills -%}
 **{{skill.skill_name}}**: {{skill.description}}
 
@@ -112,18 +130,18 @@ description: "{{metadata.description}}"
 
 </section>
 
-<section id="concept-relationships" class="content-section">
+<section id="principle-relationships" class="content-section">
 
-## How Does This Concept Relate to Others?
-{% for rel in concept_relationships -%}
-- **[[{{rel.concept_name}}]]** ({{rel.relationship_type}}): {{rel.description}}
+## How Does This Principle Relate to Others?
+{% for rel in principle_relationships -%}
+- **[[{{rel.principle_name}}]]** ({{rel.relationship_type}}): {{rel.description}}
 {% endfor %}
 
 </section>
 
 <section id="application-contexts" class="content-section">
 
-## Where Do You Apply This Concept?
+## Where Do You Apply This Principle?
 {% for context in application_contexts -%}
 **{{context.context}}**: {{context.how_applied}}
 
@@ -133,7 +151,7 @@ description: "{{metadata.description}}"
 
 <section id="decision-framework" class="content-section">
 
-## How to Make Decisions Using This Concept
+## How to Make Decisions Using This Principle
 {% for step in decision_framework -%}
 {{step.step_number}}. **{{step.decision_point}}**: {{step.action}}
 {% endfor %}
@@ -142,7 +160,7 @@ description: "{{metadata.description}}"
 
 <section id="common-errors" class="content-section hide-minimal">
 
-## What Mistakes Do Practitioners Make With This Concept?
+## What Mistakes Do Practitioners Make With This Principle?
 {% for error in common_errors -%}
 - **Error**: {{error.error}}
   - **Consequence**: {{error.consequence}}
@@ -153,7 +171,7 @@ description: "{{metadata.description}}"
 
 <section id="training-approaches" class="content-section hide-minimal">
 
-## How to Train This Concept
+## How to Train This Principle
 {% for approach in training_approaches -%}
 **{{approach.approach_name}}** (Focus: {{approach.focus}})
 {{approach.description}}
@@ -164,7 +182,7 @@ description: "{{metadata.description}}"
 
 <section id="developmental-metrics" class="content-section">
 
-## How to Measure Mastery of This Concept
+## How to Measure Mastery of This Principle
 {% for metric in developmental_metrics -%}
 **{{metric.level}} Level**:
 {% for behavior in metric.observable_behaviors -%}
@@ -177,7 +195,7 @@ description: "{{metadata.description}}"
 
 <section id="related-content" class="content-section">
 
-## Which Content Is Related to This Concept?
+## Which Content Is Related to This Principle?
 
 {% for item in related_content -%}
 - [[{{item.name}}]] ({{item.content_type}}) - {{item.relationship}}
@@ -187,9 +205,11 @@ description: "{{metadata.description}}"
 
 <section id="expert-insights" class="content-section expert-insight">
 
-## What Do the Experts Say About This Concept?
+## What Do the Experts Say About This Principle?
 - **John Danaher**: {{expert_insights.danaher}}
 - **Gordon Ryan**: {{expert_insights.gordon_ryan}}
 - **Eddie Bravo**: {{expert_insights.eddie_bravo}}
 
 </section>
+
+</main>

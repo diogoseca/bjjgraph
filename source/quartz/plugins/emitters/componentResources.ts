@@ -6,6 +6,8 @@ import spaRouterScript from "../../components/scripts/spa.inline"
 // @ts-ignore
 import popoverScript from "../../components/scripts/popover.inline"
 // @ts-ignore
+import uniformABTestingScript from "../../components/scripts/uniform-ab-testing.inline"
+// @ts-ignore
 import posthogABTrackingScript from "../../components/scripts/posthog-ab-tracking.inline"
 import styles from "../../styles/custom.scss"
 import popoverStyle from "../../components/styles/popover.scss"
@@ -78,6 +80,9 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
     componentResources.afterDOMLoaded.push(popoverScript)
     componentResources.css.push(popoverStyle)
   }
+
+  // uniform A/B testing (runs before DOM for zero FOUC)
+  componentResources.beforeDOMLoaded.push(uniformABTestingScript)
 
   if (cfg.analytics?.provider === "google") {
     const tagId = cfg.analytics.tagId

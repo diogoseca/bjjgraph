@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": "Explosive Power | BJJ Concept | BJJ Graph",
-    "description": "Understand Explosive Power in BJJ. Learn force production, movement velocity optimization, cross-position application. Expert insights from Danaher, Ryan, Bravo.",
-    "concept_id": "C035",
+    "description": "Understand Explosive Power in BJJ. Learn force production, movement velocity optimization, cross-position application.",
+    "principle_id": "P035",
     "tags": [
       "bjj",
       "concept",
@@ -62,34 +62,34 @@
       "description": "Ability to incorporate explosive power into proper technique execution rather than treating power and technique as separate qualities, ensuring explosive movements follow sound mechanical principles that enhance rather than compromise technical effectiveness"
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Strength Development",
+      "principle_name": "Strength Development",
       "relationship_type": "Prerequisite",
       "description": "Basic strength capacity provides the foundation upon which explosive power is built, as rate of force development depends on having adequate force production capacity to express at high velocity"
     },
     {
-      "concept_name": "Biomechanical Principles",
+      "principle_name": "Biomechanical Principles",
       "relationship_type": "Complementary",
       "description": "Understanding leverage, force vectors, and kinetic chain mechanics ensures explosive power is applied through mechanically optimal pathways that maximize technique effectiveness"
     },
     {
-      "concept_name": "Timing and Rhythm",
+      "principle_name": "Timing and Rhythm",
       "relationship_type": "Complementary",
       "description": "Proper timing determines when explosive efforts are deployed for maximum tactical advantage, as poorly timed power application wastes energy and creates defensive vulnerabilities"
     },
     {
-      "concept_name": "Energy Management System",
+      "principle_name": "Energy Management System",
       "relationship_type": "Complementary",
       "description": "Strategic deployment of explosive efforts within overall energy budget prevents premature fatigue while ensuring power remains available for critical tactical moments"
     },
     {
-      "concept_name": "Cardio Conditioning",
+      "principle_name": "Cardio Conditioning",
       "relationship_type": "Extension",
       "description": "Aerobic capacity supports recovery between explosive efforts and maintains power output across extended training sessions or competition matches"
     },
     {
-      "concept_name": "Flexibility Training",
+      "principle_name": "Flexibility Training",
       "relationship_type": "Complementary",
       "description": "Adequate range of motion enables full expression of explosive power through complete movement patterns while reducing injury risk from high-velocity force application"
     }

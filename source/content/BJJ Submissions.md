@@ -1,9 +1,8 @@
 ---
 title: "BJJ Submissions - Complete Guide | BJJ Graph"
-description: "Master all BJJ submissions and finishes. Complete guide to chokes, joint locks, leg attacks, and compression holds. Learn execution, defense, and submission chains."
+description: "Master all BJJ submission techniques. Complete guide to chokes, joint locks, and finishing positions. Learn setups, escapes, and expert insights."
 aliases: ["BJJ-Submissions"]
 ---
-
 
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
@@ -11,12 +10,12 @@ aliases: ["BJJ-Submissions"]
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "BJJ Submissions - Complete Guide",
-  "description": "Master all BJJ submissions and finishes. Complete guide to chokes, joint locks, leg attacks, and compression holds. Learn execution, defense, and submission chains.",
-  "url": "https://bjjgraph.com/submissions",
+  "description": "Master all BJJ submission techniques. Complete guide to chokes, joint locks, and finishing positions. Learn setups, escapes, and expert insights.",
+  "url": "https://bjjgraph.org/submissions",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 </script>
@@ -26,36 +25,804 @@ aliases: ["BJJ-Submissions"]
   "@context": "https://schema.org",
   "@type": "ItemList",
   "name": "BJJ Submissions",
-  "description": "Complete list of Brazilian Jiu-Jitsu submissions including chokes, joint locks, leg attacks, and specialty submissions",
+  "description": "Complete list of BJJ submissions with detailed guides",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Rear Naked Choke", "url": "https://bjjgraph.com/submissions/rear-naked-choke"},
-    {"@type": "ListItem", "position": 2, "name": "Triangle Choke", "url": "https://bjjgraph.com/submissions/triangle-choke"},
-    {"@type": "ListItem", "position": 3, "name": "Guillotine Choke", "url": "https://bjjgraph.com/submissions/guillotine-choke"},
-    {"@type": "ListItem", "position": 4, "name": "Arm Triangle", "url": "https://bjjgraph.com/submissions/arm-triangle"},
-    {"@type": "ListItem", "position": 5, "name": "D'arce Choke", "url": "https://bjjgraph.com/submissions/darce-choke"},
-    {"@type": "ListItem", "position": 6, "name": "Anaconda Choke", "url": "https://bjjgraph.com/submissions/anaconda-choke"},
-    {"@type": "ListItem", "position": 7, "name": "Cross Collar Choke", "url": "https://bjjgraph.com/submissions/cross-collar-choke"},
-    {"@type": "ListItem", "position": 8, "name": "Loop Choke", "url": "https://bjjgraph.com/submissions/loop-choke"},
-    {"@type": "ListItem", "position": 9, "name": "Baseball Bat Choke", "url": "https://bjjgraph.com/submissions/baseball-bat-choke"},
-    {"@type": "ListItem", "position": 10, "name": "Ezekiel Choke", "url": "https://bjjgraph.com/submissions/ezekiel-choke"},
-    {"@type": "ListItem", "position": 11, "name": "North-South Choke", "url": "https://bjjgraph.com/submissions/north-south-choke"},
-    {"@type": "ListItem", "position": 12, "name": "Armbar", "url": "https://bjjgraph.com/submissions/armbar"},
-    {"@type": "ListItem", "position": 13, "name": "Kimura", "url": "https://bjjgraph.com/submissions/kimura"},
-    {"@type": "ListItem", "position": 14, "name": "Americana", "url": "https://bjjgraph.com/submissions/americana"},
-    {"@type": "ListItem", "position": 15, "name": "Omoplata", "url": "https://bjjgraph.com/submissions/omoplata"},
-    {"@type": "ListItem", "position": 16, "name": "Straight Ankle Lock", "url": "https://bjjgraph.com/submissions/straight-ankle-lock"},
-    {"@type": "ListItem", "position": 17, "name": "Kneebar", "url": "https://bjjgraph.com/submissions/kneebar"},
-    {"@type": "ListItem", "position": 18, "name": "Inside Heel Hook", "url": "https://bjjgraph.com/submissions/inside-heel-hook"},
-    {"@type": "ListItem", "position": 19, "name": "Toe Hold", "url": "https://bjjgraph.com/submissions/toe-hold"},
-    {"@type": "ListItem", "position": 20, "name": "Calf Slicer", "url": "https://bjjgraph.com/submissions/calf-slicer"},
-    {"@type": "ListItem", "position": 21, "name": "Electric Chair", "url": "https://bjjgraph.com/submissions/electric-chair"},
-    {"@type": "ListItem", "position": 22, "name": "Banana Split", "url": "https://bjjgraph.com/submissions/banana-split"},
-    {"@type": "ListItem", "position": 23, "name": "Bicep Slicer", "url": "https://bjjgraph.com/submissions/bicep-slicer"},
-    {"@type": "ListItem", "position": 24, "name": "Twister", "url": "https://bjjgraph.com/submissions/twister"},
-    {"@type": "ListItem", "position": 25, "name": "Gogoplata", "url": "https://bjjgraph.com/submissions/gogoplata"}
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Achilles Lock",
+      "url": "https://bjjgraph.org/Submissions/achilles-lock"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Americana",
+      "url": "https://bjjgraph.org/Submissions/americana"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Americana Variations",
+      "url": "https://bjjgraph.org/Submissions/americana-variations"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Americana from Mount",
+      "url": "https://bjjgraph.org/Submissions/americana-from-mount"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Americana from Side Control",
+      "url": "https://bjjgraph.org/Submissions/americana-from-side-control"
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "name": "Anaconda Choke",
+      "url": "https://bjjgraph.org/Submissions/anaconda-choke"
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "name": "Anaconda Variations",
+      "url": "https://bjjgraph.org/Submissions/anaconda-variations"
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "name": "Aoki Lock",
+      "url": "https://bjjgraph.org/Submissions/aoki-lock"
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "name": "Arm Crush",
+      "url": "https://bjjgraph.org/Submissions/arm-crush"
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "name": "Arm Triangle",
+      "url": "https://bjjgraph.org/Submissions/arm-triangle"
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "name": "Arm Triangle Progression",
+      "url": "https://bjjgraph.org/Submissions/arm-triangle-progression"
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "name": "Arm in Guillotine",
+      "url": "https://bjjgraph.org/Submissions/arm-in-guillotine"
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "name": "Armbar Finish",
+      "url": "https://bjjgraph.org/Submissions/armbar-finish"
+    },
+    {
+      "@type": "ListItem",
+      "position": 14,
+      "name": "Armbar from Back",
+      "url": "https://bjjgraph.org/Submissions/armbar-from-back"
+    },
+    {
+      "@type": "ListItem",
+      "position": 15,
+      "name": "Armbar from Back with Legs",
+      "url": "https://bjjgraph.org/Submissions/armbar-from-back-with-legs"
+    },
+    {
+      "@type": "ListItem",
+      "position": 16,
+      "name": "Armbar from Crucifix",
+      "url": "https://bjjgraph.org/Submissions/armbar-from-crucifix"
+    },
+    {
+      "@type": "ListItem",
+      "position": 17,
+      "name": "Armbar from Guard",
+      "url": "https://bjjgraph.org/Submissions/armbar-from-guard"
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "name": "Armbar from Mount",
+      "url": "https://bjjgraph.org/Submissions/armbar-from-mount"
+    },
+    {
+      "@type": "ListItem",
+      "position": 19,
+      "name": "Armbar from Side Control",
+      "url": "https://bjjgraph.org/Submissions/armbar-from-side-control"
+    },
+    {
+      "@type": "ListItem",
+      "position": 20,
+      "name": "Banana Split",
+      "url": "https://bjjgraph.org/Submissions/banana-split"
+    },
+    {
+      "@type": "ListItem",
+      "position": 21,
+      "name": "Baratoplata",
+      "url": "https://bjjgraph.org/Submissions/baratoplata"
+    },
+    {
+      "@type": "ListItem",
+      "position": 22,
+      "name": "Baseball Bat Choke",
+      "url": "https://bjjgraph.org/Submissions/baseball-bat-choke"
+    },
+    {
+      "@type": "ListItem",
+      "position": 23,
+      "name": "Baseball Bat Choke Variations",
+      "url": "https://bjjgraph.org/Submissions/baseball-bat-choke-variations"
+    },
+    {
+      "@type": "ListItem",
+      "position": 24,
+      "name": "Belly Down Armbar",
+      "url": "https://bjjgraph.org/Submissions/belly-down-armbar"
+    },
+    {
+      "@type": "ListItem",
+      "position": 25,
+      "name": "Bicep Slicer",
+      "url": "https://bjjgraph.org/Submissions/bicep-slicer"
+    },
+    {
+      "@type": "ListItem",
+      "position": 26,
+      "name": "Boston Crab",
+      "url": "https://bjjgraph.org/Submissions/boston-crab"
+    },
+    {
+      "@type": "ListItem",
+      "position": 27,
+      "name": "Bow and Arrow Choke",
+      "url": "https://bjjgraph.org/Submissions/bow-and-arrow-choke"
+    },
+    {
+      "@type": "ListItem",
+      "position": 28,
+      "name": "Bow and Arrow Choke Variations",
+      "url": "https://bjjgraph.org/Submissions/bow-and-arrow-choke-variations"
+    },
+    {
+      "@type": "ListItem",
+      "position": 29,
+      "name": "Bow and Arrow Variations",
+      "url": "https://bjjgraph.org/Submissions/bow-and-arrow-variations"
+    },
+    {
+      "@type": "ListItem",
+      "position": 30,
+      "name": "Brabo Choke",
+      "url": "https://bjjgraph.org/Submissions/brabo-choke"
+    },
+    {
+      "@type": "ListItem",
+      "position": 31,
+      "name": "Brabo Variations",
+      "url": "https://bjjgraph.org/Submissions/brabo-variations"
+    },
+    {
+      "@type": "ListItem",
+      "position": 32,
+      "name": "Breadcutter Choke",
+      "url": "https://bjjgraph.org/Submissions/breadcutter-choke"
+    },
+    {
+      "@type": "ListItem",
+      "position": 33,
+      "name": "Buggy Choke",
+      "url": "https://bjjgraph.org/Submissions/buggy-choke"
+    },
+    {
+      "@type": "ListItem",
+      "position": 34,
+      "name": "Calf Slicer",
+      "url": "https://bjjgraph.org/Submissions/calf-slicer"
+    },
+    {
+      "@type": "ListItem",
+      "position": 35,
+      "name": "Calf Slicer Variations",
+      "url": "https://bjjgraph.org/Submissions/calf-slicer-variations"
+    },
+    {
+      "@type": "ListItem",
+      "position": 36,
+      "name": "Calf Slicer from 50-50",
+      "url": "https://bjjgraph.org/Submissions/calf-slicer-from-50-50"
+    },
+    {
+      "@type": "ListItem",
+      "position": 37,
+      "name": "Calf Slicer from Truck",
+      "url": "https://bjjgraph.org/Submissions/calf-slicer-from-truck"
+    },
+    {
+      "@type": "ListItem",
+      "position": 38,
+      "name": "Can Opener",
+      "url": "https://bjjgraph.org/Submissions/can-opener"
+    },
+    {
+      "@type": "ListItem",
+      "position": 39,
+      "name": "Chin Strap Guillotine",
+      "url": "https://bjjgraph.org/Submissions/chin-strap-guillotine"
+    },
+    {
+      "@type": "ListItem",
+      "position": 40,
+      "name": "Choke from Crucifix",
+      "url": "https://bjjgraph.org/Submissions/choke-from-crucifix"
+    },
+    {
+      "@type": "ListItem",
+      "position": 41,
+      "name": "Clock Choke",
+      "url": "https://bjjgraph.org/Submissions/clock-choke"
+    },
+    {
+      "@type": "ListItem",
+      "position": 42,
+      "name": "Cross Collar Choke",
+      "url": "https://bjjgraph.org/Submissions/cross-collar-choke"
+    },
+    {
+      "@type": "ListItem",
+      "position": 43,
+      "name": "Cross Collar Variations",
+      "url": "https://bjjgraph.org/Submissions/cross-collar-variations"
+    },
+    {
+      "@type": "ListItem",
+      "position": 44,
+      "name": "Crotch Ripper",
+      "url": "https://bjjgraph.org/Submissions/crotch-ripper"
+    },
+    {
+      "@type": "ListItem",
+      "position": 45,
+      "name": "Crucifix Submissions",
+      "url": "https://bjjgraph.org/Submissions/crucifix-submissions"
+    },
+    {
+      "@type": "ListItem",
+      "position": 46,
+      "name": "D'arce-Anaconda Connection",
+      "url": "https://bjjgraph.org/Submissions/d'arce-anaconda-connection"
+    },
+    {
+      "@type": "ListItem",
+      "position": 47,
+      "name": "Darce Choke",
+      "url": "https://bjjgraph.org/Submissions/darce-choke"
+    },
+    {
+      "@type": "ListItem",
+      "position": 48,
+      "name": "Darce Variations",
+      "url": "https://bjjgraph.org/Submissions/darce-variations"
+    },
+    {
+      "@type": "ListItem",
+      "position": 49,
+      "name": "Electric Chair Submission",
+      "url": "https://bjjgraph.org/Submissions/electric-chair-submission"
+    },
+    {
+      "@type": "ListItem",
+      "position": 50,
+      "name": "Estima Lock",
+      "url": "https://bjjgraph.org/Submissions/estima-lock"
+    },
+    {
+      "@type": "ListItem",
+      "position": 51,
+      "name": "Ezekiel Choke",
+      "url": "https://bjjgraph.org/Submissions/ezekiel-choke"
+    },
+    {
+      "@type": "ListItem",
+      "position": 52,
+      "name": "Ezekiel Variations",
+      "url": "https://bjjgraph.org/Submissions/ezekiel-variations"
+    },
+    {
+      "@type": "ListItem",
+      "position": 53,
+      "name": "Ezekiel from Mount",
+      "url": "https://bjjgraph.org/Submissions/ezekiel-from-mount"
+    },
+    {
+      "@type": "ListItem",
+      "position": 54,
+      "name": "Far Side Armbar",
+      "url": "https://bjjgraph.org/Submissions/far-side-armbar"
+    },
+    {
+      "@type": "ListItem",
+      "position": 55,
+      "name": "Flying Armbar",
+      "url": "https://bjjgraph.org/Submissions/flying-armbar"
+    },
+    {
+      "@type": "ListItem",
+      "position": 56,
+      "name": "Flying Kneebar",
+      "url": "https://bjjgraph.org/Submissions/flying-kneebar"
+    },
+    {
+      "@type": "ListItem",
+      "position": 57,
+      "name": "Gogoplata",
+      "url": "https://bjjgraph.org/Submissions/gogoplata"
+    },
+    {
+      "@type": "ListItem",
+      "position": 58,
+      "name": "Guillotine Choke",
+      "url": "https://bjjgraph.org/Submissions/guillotine-choke"
+    },
+    {
+      "@type": "ListItem",
+      "position": 59,
+      "name": "Guillotine Sequence",
+      "url": "https://bjjgraph.org/Submissions/guillotine-sequence"
+    },
+    {
+      "@type": "ListItem",
+      "position": 60,
+      "name": "Guillotine Variations",
+      "url": "https://bjjgraph.org/Submissions/guillotine-variations"
+    },
+    {
+      "@type": "ListItem",
+      "position": 61,
+      "name": "Heel Hook",
+      "url": "https://bjjgraph.org/Submissions/heel-hook"
+    },
+    {
+      "@type": "ListItem",
+      "position": 62,
+      "name": "Heel Hook Dilemma",
+      "url": "https://bjjgraph.org/Submissions/heel-hook-dilemma"
+    },
+    {
+      "@type": "ListItem",
+      "position": 63,
+      "name": "Heel Hook Variations",
+      "url": "https://bjjgraph.org/Submissions/heel-hook-variations"
+    },
+    {
+      "@type": "ListItem",
+      "position": 64,
+      "name": "High Elbow Guillotine",
+      "url": "https://bjjgraph.org/Submissions/high-elbow-guillotine"
+    },
+    {
+      "@type": "ListItem",
+      "position": 65,
+      "name": "Inside Heel Hook",
+      "url": "https://bjjgraph.org/Submissions/inside-heel-hook"
+    },
+    {
+      "@type": "ListItem",
+      "position": 66,
+      "name": "Inverted Triangle",
+      "url": "https://bjjgraph.org/Submissions/inverted-triangle"
+    },
+    {
+      "@type": "ListItem",
+      "position": 67,
+      "name": "Japanese Necktie",
+      "url": "https://bjjgraph.org/Submissions/japanese-necktie"
+    },
+    {
+      "@type": "ListItem",
+      "position": 68,
+      "name": "Kimura",
+      "url": "https://bjjgraph.org/Submissions/kimura"
+    },
+    {
+      "@type": "ListItem",
+      "position": 69,
+      "name": "Kimura Variations",
+      "url": "https://bjjgraph.org/Submissions/kimura-variations"
+    },
+    {
+      "@type": "ListItem",
+      "position": 70,
+      "name": "Kimura from Guard",
+      "url": "https://bjjgraph.org/Submissions/kimura-from-guard"
+    },
+    {
+      "@type": "ListItem",
+      "position": 71,
+      "name": "Kimura from Half Guard",
+      "url": "https://bjjgraph.org/Submissions/kimura-from-half-guard"
+    },
+    {
+      "@type": "ListItem",
+      "position": 72,
+      "name": "Kimura from Mount",
+      "url": "https://bjjgraph.org/Submissions/kimura-from-mount"
+    },
+    {
+      "@type": "ListItem",
+      "position": 73,
+      "name": "Kimura from North-South",
+      "url": "https://bjjgraph.org/Submissions/kimura-from-north-south"
+    },
+    {
+      "@type": "ListItem",
+      "position": 74,
+      "name": "Kimura from Side Control",
+      "url": "https://bjjgraph.org/Submissions/kimura-from-side-control"
+    },
+    {
+      "@type": "ListItem",
+      "position": 75,
+      "name": "Kimura from Standing",
+      "url": "https://bjjgraph.org/Submissions/kimura-from-standing"
+    },
+    {
+      "@type": "ListItem",
+      "position": 76,
+      "name": "Kimura from Turtle",
+      "url": "https://bjjgraph.org/Submissions/kimura-from-turtle"
+    },
+    {
+      "@type": "ListItem",
+      "position": 77,
+      "name": "Kneebar",
+      "url": "https://bjjgraph.org/Submissions/kneebar"
+    },
+    {
+      "@type": "ListItem",
+      "position": 78,
+      "name": "Kneebar Finish",
+      "url": "https://bjjgraph.org/Submissions/kneebar-finish"
+    },
+    {
+      "@type": "ListItem",
+      "position": 79,
+      "name": "Kneebar Variations",
+      "url": "https://bjjgraph.org/Submissions/kneebar-variations"
+    },
+    {
+      "@type": "ListItem",
+      "position": 80,
+      "name": "Kneebar from 50-50",
+      "url": "https://bjjgraph.org/Submissions/kneebar-from-50-50"
+    },
+    {
+      "@type": "ListItem",
+      "position": 81,
+      "name": "Kneebar from Guard",
+      "url": "https://bjjgraph.org/Submissions/kneebar-from-guard"
+    },
+    {
+      "@type": "ListItem",
+      "position": 82,
+      "name": "Kneebar from Half Guard",
+      "url": "https://bjjgraph.org/Submissions/kneebar-from-half-guard"
+    },
+    {
+      "@type": "ListItem",
+      "position": 83,
+      "name": "Kneebar from Top",
+      "url": "https://bjjgraph.org/Submissions/kneebar-from-top"
+    },
+    {
+      "@type": "ListItem",
+      "position": 84,
+      "name": "Loop Choke",
+      "url": "https://bjjgraph.org/Submissions/loop-choke"
+    },
+    {
+      "@type": "ListItem",
+      "position": 85,
+      "name": "Loop Choke Variations",
+      "url": "https://bjjgraph.org/Submissions/loop-choke-variations"
+    },
+    {
+      "@type": "ListItem",
+      "position": 86,
+      "name": "Loop Choke from Mount",
+      "url": "https://bjjgraph.org/Submissions/loop-choke-from-mount"
+    },
+    {
+      "@type": "ListItem",
+      "position": 87,
+      "name": "Marce Choke",
+      "url": "https://bjjgraph.org/Submissions/marce-choke"
+    },
+    {
+      "@type": "ListItem",
+      "position": 88,
+      "name": "Mir Lock",
+      "url": "https://bjjgraph.org/Submissions/mir-lock"
+    },
+    {
+      "@type": "ListItem",
+      "position": 89,
+      "name": "Monoplata",
+      "url": "https://bjjgraph.org/Submissions/monoplata"
+    },
+    {
+      "@type": "ListItem",
+      "position": 90,
+      "name": "Monoplata from Guard",
+      "url": "https://bjjgraph.org/Submissions/monoplata-from-guard"
+    },
+    {
+      "@type": "ListItem",
+      "position": 91,
+      "name": "Monoplata from Mount",
+      "url": "https://bjjgraph.org/Submissions/monoplata-from-mount"
+    },
+    {
+      "@type": "ListItem",
+      "position": 92,
+      "name": "North-South Choke",
+      "url": "https://bjjgraph.org/Submissions/north-south-choke"
+    },
+    {
+      "@type": "ListItem",
+      "position": 93,
+      "name": "North-South to Kimura",
+      "url": "https://bjjgraph.org/Submissions/north-south-to-kimura"
+    },
+    {
+      "@type": "ListItem",
+      "position": 94,
+      "name": "Omoplata",
+      "url": "https://bjjgraph.org/Submissions/omoplata"
+    },
+    {
+      "@type": "ListItem",
+      "position": 95,
+      "name": "Omoplata Variations",
+      "url": "https://bjjgraph.org/Submissions/omoplata-variations"
+    },
+    {
+      "@type": "ListItem",
+      "position": 96,
+      "name": "Omoplata from Guard",
+      "url": "https://bjjgraph.org/Submissions/omoplata-from-guard"
+    },
+    {
+      "@type": "ListItem",
+      "position": 97,
+      "name": "Outside Heel Hook",
+      "url": "https://bjjgraph.org/Submissions/outside-heel-hook"
+    },
+    {
+      "@type": "ListItem",
+      "position": 98,
+      "name": "Paper Cutter Choke",
+      "url": "https://bjjgraph.org/Submissions/paper-cutter-choke"
+    },
+    {
+      "@type": "ListItem",
+      "position": 99,
+      "name": "Peruvian Necktie",
+      "url": "https://bjjgraph.org/Submissions/peruvian-necktie"
+    },
+    {
+      "@type": "ListItem",
+      "position": 100,
+      "name": "Rear Naked Choke",
+      "url": "https://bjjgraph.org/Submissions/rear-naked-choke"
+    },
+    {
+      "@type": "ListItem",
+      "position": 101,
+      "name": "Reverse Armbar",
+      "url": "https://bjjgraph.org/Submissions/reverse-armbar"
+    },
+    {
+      "@type": "ListItem",
+      "position": 102,
+      "name": "Reverse Kimura",
+      "url": "https://bjjgraph.org/Submissions/reverse-kimura"
+    },
+    {
+      "@type": "ListItem",
+      "position": 103,
+      "name": "Rolling Armbar",
+      "url": "https://bjjgraph.org/Submissions/rolling-armbar"
+    },
+    {
+      "@type": "ListItem",
+      "position": 104,
+      "name": "Rolling Omoplata",
+      "url": "https://bjjgraph.org/Submissions/rolling-omoplata"
+    },
+    {
+      "@type": "ListItem",
+      "position": 105,
+      "name": "Short Choke",
+      "url": "https://bjjgraph.org/Submissions/short-choke"
+    },
+    {
+      "@type": "ListItem",
+      "position": 106,
+      "name": "Spine Lock",
+      "url": "https://bjjgraph.org/Submissions/spine-lock"
+    },
+    {
+      "@type": "ListItem",
+      "position": 107,
+      "name": "Spinning Armbar",
+      "url": "https://bjjgraph.org/Submissions/spinning-armbar"
+    },
+    {
+      "@type": "ListItem",
+      "position": 108,
+      "name": "Straight Ankle Lock",
+      "url": "https://bjjgraph.org/Submissions/straight-ankle-lock"
+    },
+    {
+      "@type": "ListItem",
+      "position": 109,
+      "name": "Straight Armbar",
+      "url": "https://bjjgraph.org/Submissions/straight-armbar"
+    },
+    {
+      "@type": "ListItem",
+      "position": 110,
+      "name": "Straight Footlock",
+      "url": "https://bjjgraph.org/Submissions/straight-footlock"
+    },
+    {
+      "@type": "ListItem",
+      "position": 111,
+      "name": "Suloev Stretch",
+      "url": "https://bjjgraph.org/Submissions/suloev-stretch"
+    },
+    {
+      "@type": "ListItem",
+      "position": 112,
+      "name": "Switch to Triangle",
+      "url": "https://bjjgraph.org/Submissions/switch-to-triangle"
+    },
+    {
+      "@type": "ListItem",
+      "position": 113,
+      "name": "Tarikoplata",
+      "url": "https://bjjgraph.org/Submissions/tarikoplata"
+    },
+    {
+      "@type": "ListItem",
+      "position": 114,
+      "name": "Ten Finger Guillotine",
+      "url": "https://bjjgraph.org/Submissions/ten-finger-guillotine"
+    },
+    {
+      "@type": "ListItem",
+      "position": 115,
+      "name": "Toe Hold",
+      "url": "https://bjjgraph.org/Submissions/toe-hold"
+    },
+    {
+      "@type": "ListItem",
+      "position": 116,
+      "name": "Toe Hold Variations",
+      "url": "https://bjjgraph.org/Submissions/toe-hold-variations"
+    },
+    {
+      "@type": "ListItem",
+      "position": 117,
+      "name": "Toe Hold from 50-50",
+      "url": "https://bjjgraph.org/Submissions/toe-hold-from-50-50"
+    },
+    {
+      "@type": "ListItem",
+      "position": 118,
+      "name": "Toe Hold from Top",
+      "url": "https://bjjgraph.org/Submissions/toe-hold-from-top"
+    },
+    {
+      "@type": "ListItem",
+      "position": 119,
+      "name": "Triangle Choke",
+      "url": "https://bjjgraph.org/Submissions/triangle-choke"
+    },
+    {
+      "@type": "ListItem",
+      "position": 120,
+      "name": "Triangle Choke Back",
+      "url": "https://bjjgraph.org/Submissions/triangle-choke-back"
+    },
+    {
+      "@type": "ListItem",
+      "position": 121,
+      "name": "Triangle Choke Front",
+      "url": "https://bjjgraph.org/Submissions/triangle-choke-front"
+    },
+    {
+      "@type": "ListItem",
+      "position": 122,
+      "name": "Triangle Choke Side",
+      "url": "https://bjjgraph.org/Submissions/triangle-choke-side"
+    },
+    {
+      "@type": "ListItem",
+      "position": 123,
+      "name": "Triangle from Back",
+      "url": "https://bjjgraph.org/Submissions/triangle-from-back"
+    },
+    {
+      "@type": "ListItem",
+      "position": 124,
+      "name": "Triangle from Closed Guard",
+      "url": "https://bjjgraph.org/Submissions/triangle-from-closed-guard"
+    },
+    {
+      "@type": "ListItem",
+      "position": 125,
+      "name": "Triangle from De La Riva",
+      "url": "https://bjjgraph.org/Submissions/triangle-from-de-la-riva"
+    },
+    {
+      "@type": "ListItem",
+      "position": 126,
+      "name": "Triangle from Guard",
+      "url": "https://bjjgraph.org/Submissions/triangle-from-guard"
+    },
+    {
+      "@type": "ListItem",
+      "position": 127,
+      "name": "Triangle from Mount",
+      "url": "https://bjjgraph.org/Submissions/triangle-from-mount"
+    },
+    {
+      "@type": "ListItem",
+      "position": 128,
+      "name": "Triangle from Spider Guard",
+      "url": "https://bjjgraph.org/Submissions/triangle-from-spider-guard"
+    },
+    {
+      "@type": "ListItem",
+      "position": 129,
+      "name": "Twister",
+      "url": "https://bjjgraph.org/Submissions/twister"
+    },
+    {
+      "@type": "ListItem",
+      "position": 130,
+      "name": "Twister Finish",
+      "url": "https://bjjgraph.org/Submissions/twister-finish"
+    },
+    {
+      "@type": "ListItem",
+      "position": 131,
+      "name": "Von Flue Choke",
+      "url": "https://bjjgraph.org/Submissions/von-flue-choke"
+    },
+    {
+      "@type": "ListItem",
+      "position": 132,
+      "name": "Williams Shoulder Lock",
+      "url": "https://bjjgraph.org/Submissions/williams-shoulder-lock"
+    }
   ]
 }
 </script>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -65,757 +832,311 @@ aliases: ["BJJ-Submissions"]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "BJJ Submissions - Complete Guide",
-      "item": "https://bjjgraph.com/bjj-submissions"
+      "item": "https://bjjgraph.org/bjj-submissions"
     }
   ]
 }
 </script>
 
+# BJJ Submissions: Complete Guide
 
-# BJJ Submissions: Complete Finishing Techniques Guide
+Master all BJJ submission techniques. Complete guide to chokes, joint locks, and finishing positions. Learn setups, escapes, and expert insights.
 
-Submissions are the ultimate objective in Brazilian Jiu-Jitsu - techniques that force an opponent to "tap out" (submit) due to pain, injury risk, or loss of consciousness. This comprehensive guide organizes all BJJ submissions by attack type, helping you understand submission mechanics, chains, and strategic applications.
 
-## Quick Navigation
-
-- [Chokes & Strangles](#chokes--strangles) - Blood and air chokes
-- [Arm Locks](#arm-locks) - Elbow and shoulder attacks
-- [Leg Locks](#leg-locks) - Knee, ankle, and heel attacks
-- [Shoulder Attacks](#shoulder-attacks) - Rotational joint locks
-- [Compression & Specialty](#compression--specialty) - Pressure submissions
-- [Submission Systems](#submission-systems) - Strategic frameworks
-- [Learning Path](#learning-path-by-skill-level) - Skill progression
+> **📝 Note**: 106 of 132 items are using fallback content while their JSON files are being updated. 
+> Items marked with ⚠️ need their JSON files fixed. Run the generator again after fixing to get complete descriptions.
 
 ---
 
-## Understanding Submissions
+## All Submissions
 
-Every submission in BJJ targets one of these mechanisms:
+**[[Achilles Lock]]** - 
 
-### Attack Mechanisms
+**[[Americana]]** - 
 
-1. **Blood Chokes (Strangles)**
-   - Target: Carotid arteries
-   - Time to unconsciousness: 5-10 seconds
-   - Safety: Relatively safe when applied correctly
-   - Examples: Rear naked choke, triangle, guillotine
+**[[Americana Variations]]** - 
 
-2. **Air Chokes**
-   - Target: Trachea/airway
-   - Time to tap: 10-30 seconds
-   - Safety: Higher risk of injury
-   - Examples: Ezekiel, baseball bat choke
+**[[Americana from Mount]]** - 
 
-3. **Joint Locks**
-   - Target: Joints (elbow, shoulder, knee, ankle)
-   - Mechanism: Hyperextension or rotation beyond normal range
-   - Safety: High injury risk if applied too fast
-   - Examples: Armbar, kimura, kneebar
+**[[Americana from Side Control]]** - 
 
-4. **Compression Attacks**
-   - Target: Muscles, ligaments, nerves
-   - Mechanism: Crushing pressure or stretching
-   - Safety: Painful but lower injury risk
-   - Examples: Calf slicer, bicep slicer
+**[[Anaconda Choke]]** - Master Anaconda Choke in BJJ. Complete guide with safety protocols, setup from turtle/front headlock, execution steps. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
 
-### Submission Timing
+**[[Anaconda Variations]]** - ⚠️ Content being updated - Learn about Anaconda Variations in BJJ.
 
-Submissions succeed through:
-- **Position Control** → Dominant position first
-- **Isolation** → Control the target limb/neck
-- **Pressure** → Apply technique gradually
-- **Commitment** → Follow through completely
+**[[Aoki Lock]]** - ⚠️ Content being updated - Learn about Aoki Lock in BJJ.
 
----
+**[[Arm Crush]]** - ⚠️ Content being updated - Learn about Arm Crush in BJJ.
 
-## Chokes & Strangles
+**[[Arm Triangle]]** - ⚠️ Content being updated - Learn about Arm Triangle in BJJ.
 
-Chokes are the highest-percentage submissions in BJJ, accounting for over 60% of competition finishes.
+**[[Arm Triangle Progression]]** - ⚠️ Content being updated - Learn about Arm Triangle Progression in BJJ.
 
-### Blood Chokes (Most Effective)
+**[[Arm in Guillotine]]** - ⚠️ Content being updated - Learn about Arm in Guillotine in BJJ.
 
-**[[Rear Naked Choke]]** - The ultimate choke
-- From: Back Control → To: Won by Submission
-- Success Rate: Extremely high from back control
-- Mechanism: Bilateral carotid compression
-- Time to tap: 5-8 seconds
-- Key Detail: One arm under chin, other arm reinforces
-- **Why it works**: Perfect control + perfect angle
+**[[Armbar Finish]]** - ⚠️ Content being updated - Learn about Armbar Finish in BJJ.
 
-**[[Triangle Choke Front]]** - Legs choke from guard
-- From: Closed Guard/Open Guard → To: Triangle Control → Submission
-- Success Rate: High with proper technique
-- Mechanism: Carotid compression using legs and shoulder
-- Variations: Front, side, back triangles
-- Key Detail: Pull head down, angle off, squeeze knees
+**[[Armbar from Back]]** - ⚠️ Content being updated - Learn about Armbar from Back in BJJ.
 
-**[[Triangle Choke Side]]** - Side triangle variation
-- From: Various positions → To: Triangle Control
-- Mechanism: Similar to front triangle
-- Key Detail: Different angle, same principle
+**[[Armbar from Back with Legs]]** - ⚠️ Content being updated - Learn about Armbar from Back with Legs in BJJ.
 
-**[[Triangle Choke Back]]** - Triangle from back
-- From: Back Control → To: Triangle Control
-- Mechanism: Legs around one arm and neck
-- Advanced technique with high finish rate
+**[[Armbar from Crucifix]]** - ⚠️ Content being updated - Learn about Armbar from Crucifix in BJJ.
 
-**[[Guillotine Control]]** - Front choke
-- From: Standing/Guard → To: Guillotine Control → Submission
-- Success Rate: Medium to high
-- Mechanism: Choke with forearm across throat
-- Variations: Arm-in, high elbow, marce
-- Key Detail: Hip pressure + hand grip strength
+**[[Armbar from Guard]]** - ⚠️ Content being updated - Learn about Armbar from Guard in BJJ.
 
-**[[Arm Triangle]]** - Shoulder choke from top
-- From: Side Control/Mount → To: Arm Triangle Control → Submission
-- Success Rate: Very high from proper position
-- Mechanism: Use opponent's shoulder + your shoulder to compress carotids
-- Key Detail: Head and arm trapped, circle to finish
-- Also called: Kata gatame, head and arm choke
+**[[Armbar from Mount]]** - ⚠️ Content being updated - Learn about Armbar from Mount in BJJ.
 
-**[[D'arce Control]]** - Arm-in choke
-- From: Front headlock → To: D'arce Control → Submission
-- Mechanism: Figure-four grip with arm-in
-- Key Detail: Lock hands, drive shoulder, squeeze
-- No-gi specialty but works in gi
+**[[Armbar from Side Control]]** - ⚠️ Content being updated - Learn about Armbar from Side Control in BJJ.
 
-**[[Anaconda Control]]** - Reverse d'arce
-- From: Front headlock → To: Anaconda Control → Submission
-- Mechanism: Similar to d'arce, different entry
-- Key Detail: Roll to finish, lock figure-four tight
-- High-level no-gi technique
+**[[Banana Split]]** - ⚠️ Content being updated - Learn about Banana Split in BJJ.
 
-**[[Dead Orchard Control]]** - Modified darce variation
-- Advanced darce variation
-- Less common but highly effective
+**[[Baratoplata]]** - ⚠️ Content being updated - Learn about Baratoplata in BJJ.
 
-### Gi-Specific Chokes
+**[[Baseball Bat Choke]]** - ⚠️ Content being updated - Learn about Baseball Bat Choke in BJJ.
 
-**[[Cross Collar Choke]]** - Classic gi choke
-- From: Mount/Guard → To: Won by Submission
-- Success Rate: High in gi
-- Mechanism: Use collar grips to compress carotids
-- Variations: Single/double handed, high/low mount
-- Key Detail: Deep grips, opposite collar, pull apart
+**[[Baseball Bat Choke Variations]]** - ⚠️ Content being updated - Learn about Baseball Bat Choke Variations in BJJ.
 
-**[[Loop Choke]]** - Gi choke from guard
-- From: Closed Guard → To: Won by Submission
-- Mechanism: Loop collar around neck
-- Key Detail: Deep grip, rotate to finish
-- Sneaky technique, often catches people
+**[[Belly Down Armbar]]** - ⚠️ Content being updated - Learn about Belly Down Armbar in BJJ.
 
-**[[Baseball Bat Choke]]** - Top gi choke
-- From: Top position → To: Won by Submission
-- Mechanism: Baseball grip on collar, drive down
-- Key Detail: Hands positioned like baseball bat
-- High pressure, quick finish
+**[[Bicep Slicer]]** - ⚠️ Content being updated - Learn about Bicep Slicer in BJJ.
 
-**[[Ezekiel Choke]]** - Sleeve choke from top
-- From: Mount/Side Control → To: Won by Submission
-- Success Rate: Medium
-- Mechanism: Use your own sleeve + forearm
-- Key Detail: Blade of wrist across throat
-- Works no-gi with gable grip
+**[[Boston Crab]]** - ⚠️ Content being updated - Learn about Boston Crab in BJJ.
 
-**[[North-South Choke]]** - Top position choke
-- From: North-South → To: Won by Submission
-- Mechanism: Collar grips + shoulder pressure
-- Key Detail: Walk hands around head
-- Tricky setup, powerful finish
+**[[Bow and Arrow Choke]]** - ⚠️ Content being updated - Learn about Bow and Arrow Choke in BJJ.
 
-### Specialty Chokes
+**[[Bow and Arrow Choke Variations]]** - ⚠️ Content being updated - Learn about Bow and Arrow Choke Variations in BJJ.
 
-**[[Gogoplata Control]]** - Shin choke
-- From: Rubber guard/Mount → To: Gogoplata Control → Submission
-- Success Rate: Low (highly technical)
-- Mechanism: Shin across throat + pull head
-- Key Detail: Flexibility required
-- Eddie Bravo specialty
+**[[Bow and Arrow Variations]]** - ⚠️ Content being updated - Learn about Bow and Arrow Variations in BJJ.
 
-**[[New York Control]]** - Modified choke
-- Less common choke variation
-- Specific application scenarios
+**[[Brabo Choke]]** - ⚠️ Content being updated - Learn about Brabo Choke in BJJ.
 
----
+**[[Brabo Variations]]** - ⚠️ Content being updated - Learn about Brabo Variations in BJJ.
 
-## Arm Locks
+**[[Breadcutter Choke]]** - ⚠️ Content being updated - Learn about Breadcutter Choke in BJJ.
 
-Arm locks target the elbow joint through hyperextension.
+**[[Buggy Choke]]** - ⚠️ Content being updated - Learn about Buggy Choke in BJJ.
 
-### Armbar (Juji Gatame)
+**[[Calf Slicer]]** - ⚠️ Content being updated - Learn about Calf Slicer in BJJ.
 
-**[[Armbar Control]]** - Classic armbar position
-- From: Mount/Guard/Side Control → To: Armbar Control → Submission
-- Success Rate: Very high
-- Mechanism: Hyperextend elbow joint
-- Key Detail: Hips high, knees squeeze, thumb up, break perpendicular
-- **Most versatile submission** - works from everywhere
+**[[Calf Slicer Variations]]** - ⚠️ Content being updated - Learn about Calf Slicer Variations in BJJ.
 
-**[[Armbar Finish]]** - Completing the armbar
-- Final stage of armbar
-- Mechanism: Full elbow extension
-- Key Detail: Control wrist, lift hips
+**[[Calf Slicer from 50-50]]** - ⚠️ Content being updated - Learn about Calf Slicer from 50-50 in BJJ.
 
-**[[Mount to Armbar]]** - Armbar from mount
-- From: Mount → To: Armbar Control
-- Success Rate: High
-- Key Detail: Trap arm, leg over head, fall back
+**[[Calf Slicer from Truck]]** - ⚠️ Content being updated - Learn about Calf Slicer from Truck in BJJ.
 
-**[[Far Side Armbar]]** - Armbar from side control
-- From: Side Control → To: Armbar Control
-- Key Detail: Step over head, far arm attack
-- Technical entry, high finish rate
+**[[Can Opener]]** - ⚠️ Content being updated - Learn about Can Opener in BJJ.
 
-### Shoulder Locks
+**[[Chin Strap Guillotine]]** - ⚠️ Content being updated - Learn about Chin Strap Guillotine in BJJ.
 
-**[[Kimura]]** - Figure-four shoulder lock
-- From: Multiple positions → To: Kimura Control → Submission
-- Success Rate: High
-- Mechanism: Rotate shoulder beyond normal range
-- Key Detail: Figure-four grip, elbow stays tight to body
-- **Most versatile shoulder lock** - sweep, pass, submit
+**[[Choke from Crucifix]]** - ⚠️ Content being updated - Learn about Choke from Crucifix in BJJ.
 
-**[[Americana]]** - Reverse kimura
-- From: Mount/Side Control → To: Americana Control → Submission
-- Success Rate: Very high from mount
-- Mechanism: Rotate shoulder opposite direction of kimura
-- Key Detail: Pin wrist to mat, lift elbow, paint the floor
-- Also called: Key lock, ude garami
+**[[Clock Choke]]** - ⚠️ Content being updated - Learn about Clock Choke in BJJ.
 
-**[[Omoplata]]** - Leg-based shoulder lock
-- From: Guard → To: Omoplata Control → Submission
-- Success Rate: Medium (often used for sweep)
-- Mechanism: Legs control arm, rotate shoulder
-- Key Detail: Leg over shoulder, sit up, lean forward
-- Multi-purpose: submission/sweep/back take
+**[[Cross Collar Choke]]** - ⚠️ Content being updated - Learn about Cross Collar Choke in BJJ.
 
-**[[Omoplata Control]]** - Omoplata position
-- Transitional control for omoplata finish
-- High-level technique with multiple options
+**[[Cross Collar Variations]]** - ⚠️ Content being updated - Learn about Cross Collar Variations in BJJ.
 
-**[[Williams Shoulder Lock]]** - Eddie Bravo specialty
-- From: Rubber guard system
-- Mechanism: Shoulder rotation from guard
-- Key Detail: Specific rubber guard position
-- 10th Planet Jiu-Jitsu technique
+**[[Crotch Ripper]]** - ⚠️ Content being updated - Learn about Crotch Ripper in BJJ.
 
----
+**[[Crucifix Submissions]]** - ⚠️ Content being updated - Learn about Crucifix Submissions in BJJ.
 
-## Leg Locks
+**[[D'arce-Anaconda Connection]]** - ⚠️ Content being updated - Learn about D'arce-Anaconda Connection in BJJ.
 
-Modern leg locks have revolutionized BJJ, especially in no-gi competition.
+**[[Darce Choke]]** - ⚠️ Content being updated - Learn about Darce Choke in BJJ.
 
-### Straight Leg Attacks
+**[[Darce Variations]]** - ⚠️ Content being updated - Learn about Darce Variations in BJJ.
 
-**[[Straight Ankle Lock]]** - Fundamental leg lock
-- From: Various leg entanglements → To: Submission
-- Success Rate: Medium (relatively easy to defend)
-- Mechanism: Hyperextend ankle joint
-- Key Detail: Pinch knees, fall back, arch
-- **First leg lock to learn** - legal at all belt levels (IBJJF gi)
+**[[Electric Chair Submission]]** - 
 
-**[[Kneebar Finish]]** - Kneebar completion
-- From: Kneebar Control → To: Won by Submission
-- Success Rate: High when position is secured
-- Mechanism: Hyperextend knee joint
-- Key Detail: Hips on knee, control foot, arch
-- Dangerous - apply slowly
+**[[Estima Lock]]** - 
 
-**[[Kneebar Control]]** - Kneebar position
-- Setup position for kneebar
-- Requires strong positional control
+**[[Ezekiel Choke]]** - 
 
-### Heel Hooks (Most Dangerous)
+**[[Ezekiel Variations]]** - 
 
-**[[Inside Heel Hook]]** - The "king" of leg locks
-- From: Inside Sankaku/Saddle → To: Won by Submission
-- Success Rate: Extremely high in no-gi
-- Mechanism: Rotate heel, tear knee ligaments
-- Key Detail: Control hip, rotate heel externally
-- **Most dangerous submission** - causes severe injury
-- Banned in gi at lower belts
+**[[Ezekiel from Mount]]** - 
 
-**Heel Hook Positions:**
-- [[Inside Sankaku]] - Inside position, heel hook ready
-- [[Saddle Position]] - Optimal heel hook position (honey hole)
-- [[Ashi Garami]] - Standard leg entanglement
-- [[Ushiro Ashi Garami]] - Reverse ashi position
-- [[50-50 Guard]] - Symmetrical leg entanglement
-- [[Backside 50/50]] - Inverted 50/50
+**[[Far Side Armbar]]** - 
 
-### Toe Holds
+**[[Flying Armbar]]** - 
 
-**[[Toe Hold]]** - Foot lock submission
-- From: Leg entanglements → To: Toe Hold Control → Submission
-- Success Rate: Medium
-- Mechanism: Twist foot, pressure on ankle
-- Key Detail: Figure-four on foot, rotate and extend
-- Often underestimated but effective
+**[[Flying Kneebar]]** - 
 
-**[[Toe Hold Control]]** - Toe hold position
-- Setup for toe hold finish
+**[[Gogoplata]]** - 
 
-### Compression Attacks
+**[[Guillotine Choke]]** - 
 
-**[[Calf Slicer]]** - Calf compression
-- From: Back/Truck position → To: Won by Submission
-- Success Rate: Medium (very painful)
-- Mechanism: Compress calf muscle against shin
-- Key Detail: Shin into calf, squeeze knees
-- Legal in gi at brown/black belt
+**[[Guillotine Sequence]]** - ⚠️ Content being updated - Learn about Guillotine Sequence in BJJ.
 
-### Specialty Leg Attacks
+**[[Guillotine Variations]]** - ⚠️ Content being updated - Learn about Guillotine Variations in BJJ.
 
-**[[Electric Chair Submission]]** - Lockdown leg attack
-- From: Electric Chair position (lockdown) → To: Won by Submission
-- Mechanism: Groin stretch + calf compression
-- Key Detail: Lockdown opponent's leg, stretch and compress
-- Eddie Bravo 10th Planet technique
+**[[Heel Hook]]** - ⚠️ Content being updated - Learn about Heel Hook in BJJ.
 
-**[[Banana Split]]** - Groin stretcher
-- From: Turtle/Back → To: Won by Submission
-- Mechanism: Split legs apart, stretch groin
-- Key Detail: Control both legs, spread apart
-- Extremely painful, often causes tap
+**[[Heel Hook Dilemma]]** - ⚠️ Content being updated - Learn about Heel Hook Dilemma in BJJ.
+
+**[[Heel Hook Variations]]** - ⚠️ Content being updated - Learn about Heel Hook Variations in BJJ.
+
+**[[High Elbow Guillotine]]** - ⚠️ Content being updated - Learn about High Elbow Guillotine in BJJ.
+
+**[[Inside Heel Hook]]** - ⚠️ Content being updated - Learn about Inside Heel Hook in BJJ.
+
+**[[Inverted Triangle]]** - ⚠️ Content being updated - Learn about Inverted Triangle in BJJ.
+
+**[[Japanese Necktie]]** - ⚠️ Content being updated - Learn about Japanese Necktie in BJJ.
+
+**[[Kimura]]** - ⚠️ Content being updated - Learn about Kimura in BJJ.
+
+**[[Kimura Variations]]** - ⚠️ Content being updated - Learn about Kimura Variations in BJJ.
+
+**[[Kimura from Guard]]** - ⚠️ Content being updated - Learn about Kimura from Guard in BJJ.
+
+**[[Kimura from Half Guard]]** - ⚠️ Content being updated - Learn about Kimura from Half Guard in BJJ.
+
+**[[Kimura from Mount]]** - ⚠️ Content being updated - Learn about Kimura from Mount in BJJ.
+
+**[[Kimura from North-South]]** - ⚠️ Content being updated - Learn about Kimura from North-South in BJJ.
+
+**[[Kimura from Side Control]]** - ⚠️ Content being updated - Learn about Kimura from Side Control in BJJ.
+
+**[[Kimura from Standing]]** - ⚠️ Content being updated - Learn about Kimura from Standing in BJJ.
+
+**[[Kimura from Turtle]]** - ⚠️ Content being updated - Learn about Kimura from Turtle in BJJ.
+
+**[[Kneebar]]** - ⚠️ Content being updated - Learn about Kneebar in BJJ.
+
+**[[Kneebar Finish]]** - ⚠️ Content being updated - Learn about Kneebar Finish in BJJ.
+
+**[[Kneebar Variations]]** - ⚠️ Content being updated - Learn about Kneebar Variations in BJJ.
+
+**[[Kneebar from 50-50]]** - ⚠️ Content being updated - Learn about Kneebar from 50-50 in BJJ.
+
+**[[Kneebar from Guard]]** - ⚠️ Content being updated - Learn about Kneebar from Guard in BJJ.
+
+**[[Kneebar from Half Guard]]** - ⚠️ Content being updated - Learn about Kneebar from Half Guard in BJJ.
+
+**[[Kneebar from Top]]** - ⚠️ Content being updated - Learn about Kneebar from Top in BJJ.
+
+**[[Loop Choke]]** - ⚠️ Content being updated - Learn about Loop Choke in BJJ.
+
+**[[Loop Choke Variations]]** - ⚠️ Content being updated - Learn about Loop Choke Variations in BJJ.
+
+**[[Loop Choke from Mount]]** - ⚠️ Content being updated - Learn about Loop Choke from Mount in BJJ.
+
+**[[Marce Choke]]** - ⚠️ Content being updated - Learn about Marce Choke in BJJ.
+
+**[[Mir Lock]]** - ⚠️ Content being updated - Learn about Mir Lock in BJJ.
+
+**[[Monoplata]]** - ⚠️ Content being updated - Learn about Monoplata in BJJ.
+
+**[[Monoplata from Guard]]** - ⚠️ Content being updated - Learn about Monoplata from Guard in BJJ.
+
+**[[Monoplata from Mount]]** - ⚠️ Content being updated - Learn about Monoplata from Mount in BJJ.
+
+**[[North-South Choke]]** - ⚠️ Content being updated - Learn about North-South Choke in BJJ.
+
+**[[North-South to Kimura]]** - ⚠️ Content being updated - Learn about North-South to Kimura in BJJ.
+
+**[[Omoplata]]** - ⚠️ Content being updated - Learn about Omoplata in BJJ.
+
+**[[Omoplata Variations]]** - ⚠️ Content being updated - Learn about Omoplata Variations in BJJ.
+
+**[[Omoplata from Guard]]** - ⚠️ Content being updated - Learn about Omoplata from Guard in BJJ.
+
+**[[Outside Heel Hook]]** - ⚠️ Content being updated - Learn about Outside Heel Hook in BJJ.
+
+**[[Paper Cutter Choke]]** - ⚠️ Content being updated - Learn about Paper Cutter Choke in BJJ.
+
+**[[Peruvian Necktie]]** - ⚠️ Content being updated - Learn about Peruvian Necktie in BJJ.
+
+**[[Rear Naked Choke]]** - Master the Rear Naked Choke in BJJ. Complete safety guide with proper execution, defense patterns, and training progressions. Beginner 35%, Intermediate 55%, Advanced 75%.
+
+**[[Reverse Armbar]]** - ⚠️ Content being updated - Learn about Reverse Armbar in BJJ.
+
+**[[Reverse Kimura]]** - ⚠️ Content being updated - Learn about Reverse Kimura in BJJ.
+
+**[[Rolling Armbar]]** - ⚠️ Content being updated - Learn about Rolling Armbar in BJJ.
+
+**[[Rolling Omoplata]]** - ⚠️ Content being updated - Learn about Rolling Omoplata in BJJ.
+
+**[[Short Choke]]** - ⚠️ Content being updated - Learn about Short Choke in BJJ.
+
+**[[Spine Lock]]** - ⚠️ Content being updated - Learn about Spine Lock in BJJ.
+
+**[[Spinning Armbar]]** - ⚠️ Content being updated - Learn about Spinning Armbar in BJJ.
+
+**[[Straight Ankle Lock]]** - ⚠️ Content being updated - Learn about Straight Ankle Lock in BJJ.
+
+**[[Straight Armbar]]** - ⚠️ Content being updated - Learn about Straight Armbar in BJJ.
+
+**[[Straight Footlock]]** - ⚠️ Content being updated - Learn about Straight Footlock in BJJ.
+
+**[[Suloev Stretch]]** - ⚠️ Content being updated - Learn about Suloev Stretch in BJJ.
+
+**[[Switch to Triangle]]** - ⚠️ Content being updated - Learn about Switch to Triangle in BJJ.
+
+**[[Tarikoplata]]** - ⚠️ Content being updated - Learn about Tarikoplata in BJJ.
+
+**[[Ten Finger Guillotine]]** - ⚠️ Content being updated - Learn about Ten Finger Guillotine in BJJ.
+
+**[[Toe Hold]]** - 
+
+**[[Toe Hold Variations]]** - ⚠️ Content being updated - Learn about Toe Hold Variations in BJJ.
+
+**[[Toe Hold from 50-50]]** - 
+
+**[[Toe Hold from Top]]** - 
+
+**[[Triangle Choke]]** - 
+
+**[[Triangle Choke Back]]** - 
+
+**[[Triangle Choke Front]]** - 
+
+**[[Triangle Choke Side]]** - 
+
+**[[Triangle from Back]]** - 
+
+**[[Triangle from Closed Guard]]** - 
+
+**[[Triangle from De La Riva]]** - ⚠️ Content being updated - Learn about Triangle from De La Riva in BJJ.
+
+**[[Triangle from Guard]]** - ⚠️ Content being updated - Learn about Triangle from Guard in BJJ.
+
+**[[Triangle from Mount]]** - ⚠️ Content being updated - Learn about Triangle from Mount in BJJ.
+
+**[[Triangle from Spider Guard]]** - ⚠️ Content being updated - Learn about Triangle from Spider Guard in BJJ.
+
+**[[Twister]]** - ⚠️ Content being updated - Learn about Twister in BJJ.
+
+**[[Twister Finish]]** - ⚠️ Content being updated - Learn about Twister Finish in BJJ.
+
+**[[Von Flue Choke]]** - ⚠️ Content being updated - Learn about Von Flue Choke in BJJ.
+
+**[[Williams Shoulder Lock]]** - ⚠️ Content being updated - Learn about Williams Shoulder Lock in BJJ.
+
 
 ---
 
-## Compression & Specialty Submissions
-
-### Muscle/Nerve Compression
-
-**[[Bicep Slicer]]** - Arm compression
-- From: Various positions → To: Won by Submission
-- Mechanism: Compress bicep against bone
-- Key Detail: Forearm across bicep, squeeze
-- Legal at brown/black belt in gi
-
-**[[Arm Crush]]** - Arm compression variation
-- Crushing pressure on arm
-- Similar mechanism to bicep slicer
-
-### Spinal Attacks
-
-**[[Twister Finish]]** - Spinal twist submission
-- From: Truck Position → To: Twister Control → Submission
-- Success Rate: Low (requires specific position)
-- Mechanism: Twist spine + stretch
-- Key Detail: Control legs, rotate upper body opposite
-- **Signature Eddie Bravo submission**
-- Dangerous - requires experience
-
-**[[Twister Setup]]** - Setting up the twister
-- From: Various → To: Truck Position
-- Entry sequence for twister
-
-**[[Twister Control]]** - Twister position
-- Controlling position before finish
-
-**[[Spine Lock]]** - Spinal pressure submission
-- Mechanism: Compress or twist spine
-- Various applications
-
-### Crucifix Submissions
-
-**[[Crucifix Position]]** - Dominant back control variation
-- From: Back Control → To: Crucifix
-- Position allows: Chokes, arm locks
-- Key Detail: Both arms trapped
-- Extremely dominant position
-
-**[[Back Control to Crucifix]]** - Transition to crucifix
-- From: Back Control → To: Crucifix Position
-- Advanced back attack
-
-### Specialized Techniques
-
-**[[Russian Cowboy]]** - Pressure submission
-- Specific control position
-- Pressure-based finish
-
-**[[Truck Position]]** - Back attack position
-- From: Various → To: Truck Position → Submissions
-- Gateway to twister and calf slicer
-- Eddie Bravo system position
-
-**[[Truck Entry]]** - Entering truck position
-- Setup for truck submissions
-
-**[[Can Opener]]** - Neck crank
-- From: Closed guard (defense)
-- Mechanism: Crank neck forward
-- Note: Illegal in most competitions, considered unsportsmanlike
-
-**[[Boston Crab]]** - Back bend submission
-- Wrestling-style submission
-- Rarely seen in BJJ competition
-
-**[[Mir Lock]]** - Shoulder/elbow hybrid
-- Named after Frank Mir
-- Specific application
-
----
-
-## Submission Systems & Frameworks
-
-Advanced practitioners don't just learn individual submissions - they learn submission systems that create inescapable dilemmas.
-
-### Submission Chains
-
-**[[Arm Triangle Progression]]**
-- System for finishing arm triangles
-- Multiple entry points and adjustments
-- Position → Isolation → Finish pathway
-
-**[[D'arce-Anaconda Connection]]**
-- Front headlock submission system
-- Switching between d'arce and anaconda
-- Reading opponent's defense to choose finish
-
-**[[Guillotine Sequence]]**
-- Complete guillotine system
-- Multiple grips and finishes
-- High elbow, arm-in, marce variations
-
-**[[Rear Naked Choke Pathway]]**
-- System for finishing from back control
-- Hand fighting and grip sequences
-- Defensive counters to common escapes
-
-### Strategic Frameworks
-
-**[[Front Headlock Submission System]]**
-- Complete front headlock game
-- Submissions, back takes, and control
-- D'arce, anaconda, guillotine options
-
-**[[Modern Leg Lock Meta]]**
-- Contemporary leg lock strategy
-- Position-based leg attacking
-- Danaher Death Squad methodology
-
-**[[Heel Hook Dilemma]]**
-- Creating no-win scenarios in leg entanglements
-- Inside vs outside heel hook threats
-- Forcing opponent into submission or position loss
-
-**[[Submission-Focused Strategy]]**
-- Overall game plan centered on submissions
-- Position as submission setup
-- Constant attack mentality
-
-### Defensive Systems
-
-**[[Leg Lock Defense Framework]]**
-- Complete leg lock defense system
-- Preventing entries and escaping
-- Counter-attacking from defensive positions
-
-**[[Submission Defense Principles]]**
-- Universal submission defense concepts
-- Early recognition and prevention
-- Escape timing and techniques
-
----
-
-## Learning Path by Skill Level
-
-### White Belt Fundamentals
-
-Focus on highest-percentage submissions from dominant positions:
-
-1. **[[Rear Naked Choke]]** - From back control
-   - Most successful submission in BJJ
-   - Simple mechanics, high success rate
-   - Practice: Get to back, finish choke
-
-2. **[[Armbar Control]]** - From mount or guard
-   - Fundamental arm lock
-   - Works from multiple positions
-   - Practice: Mount to armbar, guard to armbar
-
-3. **[[Americana]]** - From mount or side control
-   - Effective from top pins
-   - Good for learning control before submission
-   - Practice: Isolate arm from mount
-
-4. **[[Triangle Choke Front]]** - From closed guard
-   - Essential guard submission
-   - Teaches leg control and angles
-   - Practice: Break posture, isolate arm, triangle
-
-5. **[[Straight Ankle Lock]]** - Basic leg lock
-   - Introduction to leg attacks
-   - Legal at all levels (gi)
-   - Practice: Proper position, controlled application
-
-### Blue Belt Development
-
-Add more technical submissions and start chaining:
-
-1. **[[Kimura]]** - Multi-purpose shoulder lock
-   - Use for sweeps, passes, and submissions
-   - Works from top and bottom
-   - Practice: From closed guard, side control, half guard
-
-2. **[[Arm Triangle]]** - Top control choke
-   - Finish from side control or mount
-   - High success rate
-   - Practice: Trap arm, circle to finish
-
-3. **[[Cross Collar Choke]]** - Gi choke (gi only)
-   - Essential gi technique
-   - Multiple grips and entries
-   - Practice: From mount and guard
-
-4. **[[Guillotine Control]]** - Front choke
-   - Standing and ground applications
-   - Multiple finish variations
-   - Practice: High elbow guillotine, arm-in guillotine
-
-5. **[[Omoplata]]** - Leg-based shoulder lock
-   - Multi-purpose (sweep/submit/back take)
-   - Technical excellence required
-   - Practice: From guard, finish or sweep
-
-### Purple Belt Advanced Techniques
-
-Master technical submissions and systems:
-
-1. **[[D'arce Control]]** & **[[Anaconda Control]]**
-   - Front headlock system
-   - No-gi specialties
-   - Practice: From sprawl, turtle, passing
-
-2. **[[Kneebar Finish]]** - Advanced leg lock
-   - Dangerous but effective
-   - Requires positional mastery
-   - Practice: From leg entanglements
-
-3. **[[Twister Finish]]** - Spinal submission
-   - Eddie Bravo specialty
-   - Requires truck position mastery
-   - Practice: Truck entries, control, finish
-
-4. **Submission Chains**
-   - Triangle → Armbar → Omoplata
-   - Kimura → Guillotine → Armbar
-   - Practice: Flow between submissions
-
-5. **Heel Hook System** (no-gi)
-   - [[Inside Heel Hook]] from proper positions
-   - Leg entanglement mastery
-   - Practice: Saddle, inside sankaku, entries
-
-### Brown/Black Belt Mastery
-
-Complete submission systems and strategic frameworks:
-
-1. **[[Modern Leg Lock Meta]]**
-   - Complete leg lock game
-   - Position-based attacking
-   - Counter-systems and defense
-
-2. **[[Front Headlock Submission System]]**
-   - Complete system integration
-   - Submissions, back takes, pins
-   - Reading and reacting
-
-3. **Advanced Submission Chains**
-   - Creating submission dilemmas
-   - No-win scenarios
-   - Constant threat maintenance
-
-4. **Competition Strategy**
-   - Position → Submission pathways
-   - Time management
-   - Risk assessment
-
----
-
-## Submission by Starting Position
-
-Understanding which submissions are available from each position:
-
-### From Mount
-- [[Cross Collar Choke]] (gi)
-- [[Americana]]
-- [[Armbar Control]]
-- [[Arm Triangle]]
-- [[Ezekiel Choke]]
-
-### From Back Control
-- [[Rear Naked Choke]]
-- [[Triangle Choke Back]]
-- [[Armbar Control]]
-- [[Crucifix Position]] → Multiple submissions
-
-### From Closed Guard Bottom
-- [[Triangle Choke Front]]
-- [[Armbar Control]]
-- [[Omoplata]]
-- [[Kimura]]
-- [[Cross Collar Choke]] (gi)
-- [[Guillotine Control]]
-
-### From Side Control
-- [[Americana]]
-- [[Kimura]]
-- [[Arm Triangle]]
-- [[North-South Choke]]
-- [[Far Side Armbar]]
-
-### From Leg Entanglements
-- [[Straight Ankle Lock]]
-- [[Inside Heel Hook]]
-- [[Toe Hold]]
-- [[Kneebar Finish]]
-
-### From Front Headlock
-- [[Guillotine Control]]
-- [[D'arce Control]]
-- [[Anaconda Control]]
-
-### From Turtle Top
-- [[Truck Position]] → [[Twister Finish]], [[Calf Slicer]]
-- [[Back Control]] → [[Rear Naked Choke]]
-
----
-
-## Competition Statistics
-
-Understanding which submissions work in competition:
-
-### Highest Success Submissions (IBJJF Data)
-
-1. **Rear Naked Choke** - ~40% of all submission wins
-2. **Armbar** - ~20% of all submission wins
-3. **Triangle Choke** - ~12% of all submission wins
-4. **Guillotine** - ~8% of all submission wins
-5. **Kimura** - ~5% of all submission wins
-
-### No-Gi vs Gi
-
-**Gi-Dominant Submissions:**
-- Cross collar chokes (65% more effective)
-- Loop chokes (gi-only)
-- Baseball bat choke (gi-only)
-- Ezekiel choke (easier in gi)
-
-**No-Gi-Dominant Submissions:**
-- Guillotine (45% more effective)
-- D'arce (70% more effective)
-- Anaconda (no-gi specialty)
-- Heel hooks (no-gi primary)
-
-### By Skill Level
-
-**White Belt Competition Finishes:**
-1. Rear naked choke (50%)
-2. Armbar (25%)
-3. Triangle (15%)
-4. Other (10%)
-
-**Black Belt Competition Finishes:**
-1. Rear naked choke (30%)
-2. Heel hooks (20% in no-gi)
-3. Armbar (15%)
-4. Triangle (10%)
-5. Various technical submissions (25%)
-
----
-
-## Safety & Training Principles
-
-### Tap Early, Tap Often
-
-- Joint locks can cause permanent damage
-- Chokes can cause unconsciousness in seconds
-- Ego has no place in training
-- Protect yourself and training partners
-
-### Submission Application Rules
-
-1. **Control First** - Secure position before finishing
-2. **Apply Gradually** - Slow, steady pressure
-3. **Respect the Tap** - Release immediately when partner taps
-4. **Verbal Tap Counts** - "Tap" said verbally is a tap
-5. **Going Limp = Tap** - If partner goes limp in choke, release immediately
-
-### High-Risk Submissions (Train Carefully)
-
-- **Heel hooks** - Can tear multiple ligaments instantly
-- **Kneebars** - Hyperextension damage to knee
-- **Neck cranks** - Spinal injury risk
-- **Twister** - Requires very controlled application
-- **Calf slicers** - Painful but lower injury risk
-
----
-
-## Defensive Priorities
-
-When caught in submissions, defend in this order:
-
-1. **Prevent the finish** - Stop the immediate threat
-2. **Escape the control** - Get out of the submission position
-3. **Recover position** - Return to safe position
-4. **Counter-attack** - Turn defense into offense
-
-### Common Defense Principles
-
-- **Stack** - Use weight to relieve pressure (chokes, armbars)
-- **Hitchhiker** - Rotate thumb up and pull out (arm locks)
-- **Posture** - Break control before they finish (triangles, guillotines)
-- **Straighten** - Extend leg to relieve pressure (leg locks)
-- **Hand fighting** - Prevent grips from completing (all submissions)
-
----
-
-## Using This Resource
-
-Each submission page includes:
-- **Starting Position** - Where the submission begins
-- **Mechanism** - How it forces the tap
-- **Key Details** - Critical technical points
-- **Success Rates** - Statistical effectiveness
-- **Common Defenses** - How opponents escape
-- **Variations** - Different applications of the same concept
-
-Explore each submission to understand:
-1. When to attempt it
-2. How to set it up
-3. Proper finishing mechanics
-4. What defenses to expect
-5. How to chain with other submissions
+## Statistics
+
+- **Total Submissions**: 132
+- **Items with complete content**: 26
+- **Items needing JSON updates**: 106
+- **Last Updated**: October 30, 2025
 
 ---
 
 ## Related Resources
 
-- [[BJJ Positions]] - All positions and their hierarchy
-- [[BJJ Transitions]] - Techniques connecting positions
-- [Systems](/Systems/) - Expert-based systematic approaches
 - [[BJJ State Machine]] - Complete positional graph
+- [[BJJ Graph]] - Home page
 
 ---
 
-## The Submission Mindset
-
-"Position before submission" is the foundational principle, but advanced practitioners develop a submission-focused game where:
-
-- Every position threatens multiple submissions
-- Opponent's defensive reaction creates the next attack
-- Position advancement and submission attempts are simultaneous
-- Constant pressure forces mistakes
-
-The goal is not to force a single submission, but to create an environment where the opponent has no good defensive options - every defense opens another attack.
-
----
-
-*This hub page organizes 49+ BJJ submissions into a coherent strategic framework. Click any submission name to access detailed guides with mechanics, success rates, and expert insights.*
+*This hub page is automatically generated from content files. Last generated: 2025-10-30 21:36:42*

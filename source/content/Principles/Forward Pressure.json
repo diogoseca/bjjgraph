@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Forward Pressure | BJJ Concept | BJJ Graph",
     "description": "Understand Forward Pressure in BJJ. Learn strategic force application, weight distribution, and advancement principles across positions. Expert insights included.",
-    "concept_id": "C116",
+    "principle_id": "P116",
     "tags": [
       "bjj",
       "concept",
@@ -63,34 +63,34 @@
       "description": "The capacity to use forward pressure not just for positional advancement but as the foundation for submission entries. This involves understanding how sustained pressure creates defensive fatigue, exposes submission opportunities, and how pressure control transitions seamlessly into finishing mechanics."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Pressure Application",
+      "principle_name": "Pressure Application",
       "relationship_type": "Prerequisite",
       "description": "Forward Pressure is a specific directional application of the broader Pressure Application concept, requiring fundamental understanding of how to generate and transmit force through body positioning before advancing directionally."
     },
     {
-      "concept_name": "Weight Distribution",
+      "principle_name": "Weight Distribution",
       "relationship_type": "Complementary",
       "description": "Forward Pressure effectiveness depends directly on proper Weight Distribution principles, as advancing force must be balanced across multiple contact points to maintain control while creating forward momentum."
     },
     {
-      "concept_name": "Frame Management",
+      "principle_name": "Frame Management",
       "relationship_type": "Alternative",
       "description": "While Forward Pressure focuses on offensive advancement, Frame Management represents the defensive counter-concept, making understanding both sides essential for recognizing when pressure will succeed versus when it will be neutralized by effective framing."
     },
     {
-      "concept_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing Principles",
       "relationship_type": "Extension",
       "description": "Forward Pressure serves as a foundational element within Guard Passing Principles, with passing strategies often built around the systematic application of forward force to overcome guard retention systems."
     },
     {
-      "concept_name": "Control Point Hierarchy",
+      "principle_name": "Control Point Hierarchy",
       "relationship_type": "Complementary",
       "description": "Forward Pressure must be coordinated with Control Point Hierarchy understanding to ensure pressure is applied through the most mechanically advantageous contact points for each positional context."
     },
     {
-      "concept_name": "Base Maintenance",
+      "principle_name": "Base Maintenance",
       "relationship_type": "Prerequisite",
       "description": "Effective Forward Pressure requires strong Base Maintenance to prevent counter-sweeps and off-balancing, as advancing force without stable base creates vulnerability to defensive reversals."
     }

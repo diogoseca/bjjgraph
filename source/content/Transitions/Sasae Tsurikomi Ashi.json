@@ -1,24 +1,21 @@
 {
-  "metadata": {
-    "title": "Sasae Tsurikomi Ashi | BJJ Technique | BJJ Graph",
-    "description": "Learn Sasae Tsurikomi Ashi in BJJ. Step-by-step execution from Standing to Opponent Down. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T189",
-    "tags": [
-      "bjj",
-      "transition",
-      "judo",
-      "takedown",
-      "standing",
-      "foot-sweep",
-      "kuzushi"
-    ],
-    "starting_position": "Standing Position",
-    "ending_position": "Top Position",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Sasae Tsurikomi Ashi",
+  "description": "Learn Sasae Tsurikomi Ashi in BJJ. Step-by-step execution from Standing to Opponent Down. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "judo",
+    "takedown",
+    "standing",
+    "foot-sweep",
+    "kuzushi"
+  ],
+  "starting_position": "Standing Position",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "Sasae Tsurikomi Ashi (propping drawing ankle throw) is a classic judo foot sweep technique that has been successfully adapted into modern Brazilian Jiu-Jitsu for standing exchanges. This technique exploits forward momentum and circular movement, using precise timing to block the opponent's ankle while simultaneously lifting and pulling their upper body. The beauty of Sasae Tsurikomi Ashi lies in its minimal force requirement - when executed with proper timing, the opponent's own movement and weight distribution do most of the work. Unlike power-based takedowns, this technique relies on kuzushi (off-balancing) and precise placement of the blocking foot. The throw is particularly effective against opponents who step forward aggressively or maintain an upright, forward-leaning posture. In BJJ competition, this technique offers a clean takedown that can lead directly to dominant positions, making it valuable for competitors who prefer technical entries over wrestling-heavy approaches.",
   "key_principles": [
@@ -252,7 +249,7 @@
       "relationship": "Related hip throw that can be entered from similar grips"
     },
     {
-      "name": "Reverse De La Riva Guard Bottom",
+      "name": "Reverse De La Riva Guard",
       "relationship": "Guard pull option if sweep attempt fails and opponent pulls back"
     },
     {
@@ -264,7 +261,7 @@
       "relationship": "Similar blocking principle but applied to hip/thigh instead of ankle"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Common landing position after successful execution"
     },
     {

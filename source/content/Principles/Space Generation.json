@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Space Generation | BJJ Concept | BJJ Graph",
     "description": "Understand Space Generation in BJJ. Learn defensive positioning, frame mechanics, and escape fundamentals. Master hip movement and creating distance.",
-    "concept_id": "C087",
+    "principle_id": "P087",
     "tags": ["bjj", "concept", "space generation", "defense", "escape", "frames", "shrimping", "distance"],
     "application_level": "Fundamental",
     "complexity_level": "Medium",
@@ -58,34 +58,34 @@
     }
   ],
 
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Frame Creation",
+      "principle_name": "Frame Creation",
       "relationship_type": "Prerequisite",
       "description": "Frame creation is the primary mechanical tool for initial space generation—frames must be established before hip movement can create larger spaces"
     },
     {
-      "concept_name": "Hip Escape Mechanics",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Complementary",
       "description": "Hip escapes convert frame-created space into actual positional displacement—the two concepts work in direct coordination for all escapes"
     },
     {
-      "concept_name": "Connection Breaking",
+      "principle_name": "Connection Breaking",
       "relationship_type": "Complementary",
       "description": "Space generation creates the distance needed to break connections, while connection breaking prevents immediate recapture of position after space is created"
     },
     {
-      "concept_name": "Pressure Reduction",
+      "principle_name": "Pressure Reduction",
       "relationship_type": "Extension",
       "description": "Space generation is the active method of pressure reduction—creating distance inherently reduces the pressure opponent can apply"
     },
     {
-      "concept_name": "Defensive Framing",
+      "principle_name": "Defensive Framing",
       "relationship_type": "Prerequisite",
       "description": "Defensive frames provide the initial structure and leverage points from which space generation movements originate"
     },
     {
-      "concept_name": "Escape Fundamentals",
+      "principle_name": "Escape Fundamentals",
       "relationship_type": "Extension",
       "description": "Space generation is the foundational skill underlying all escape sequences—no escape is possible without first creating the necessary space for movement"
     }

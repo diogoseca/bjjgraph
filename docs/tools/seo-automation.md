@@ -83,19 +83,19 @@ Schema.org structured data helps search engines understand content structure and
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Closed Guard Bottom",
-      "item": "https://bjjgraph.com/positions/closed-guard-bottom"
+      "item": "https://bjjgraph.org/positions/closed-guard-bottom"
     }
   ]
 }
@@ -163,11 +163,11 @@ Total files processed: 270
   "@type": "WebPage",
   "name": "Closed Guard Bottom",
   "description": "Master Closed Guard Bottom in BJJ. Complete guide covering entries, techniques, transitions. Interactive visualization included.",
-  "url": "https://bjjgraph.com/positions/closed-guard-bottom",
+  "url": "https://bjjgraph.org/positions/closed-guard-bottom",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 ```
@@ -195,7 +195,7 @@ Processing Positions/
 ------------------------------------------------------------
   Added Closed Guard Bottom.md
      Title: Closed Guard Bottom
-     URL: https://bjjgraph.com/positions/closed-guard-bottom
+     URL: https://bjjgraph.org/positions/closed-guard-bottom
   Skip Mount.md (already has WebPage schema)
 
 ============================================================
@@ -541,10 +541,10 @@ Currently, scripts run without command-line arguments. To modify behavior, edit 
 
 ```python
 # In add_breadcrumb_schema.py
-SITE_URL = "https://bjjgraph.com"  # Change base URL
+SITE_URL = "https://bjjgraph.org"  # Change base URL
 
 # In add_webpage_schema.py
-BASE_URL = "https://bjjgraph.com"  # Change base URL
+BASE_URL = "https://bjjgraph.org"  # Change base URL
 ```
 
 ### Error Handling
@@ -590,11 +590,11 @@ Check script output for:
   "@type": "WebPage",
   "name": "Closed Guard Bottom",
   "description": "Master Closed Guard Bottom in BJJ...",
-  "url": "https://bjjgraph.com/positions/closed-guard-bottom",
+  "url": "https://bjjgraph.org/positions/closed-guard-bottom",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
-    "url": "https://bjjgraph.com"
+    "url": "https://bjjgraph.org"
   }
 }
 ```
@@ -623,19 +623,19 @@ Check script output for:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://bjjgraph.com/"
+      "item": "https://bjjgraph.org/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Positions",
-      "item": "https://bjjgraph.com/positions/"
+      "item": "https://bjjgraph.org/positions/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Closed Guard Bottom",
-      "item": "https://bjjgraph.com/positions/closed-guard-bottom"
+      "item": "https://bjjgraph.org/positions/closed-guard-bottom"
     }
   ]
 }
@@ -742,13 +742,13 @@ Check script output for:
       "@type": "ListItem",
       "position": 1,
       "name": "Triangle Choke",
-      "url": "https://bjjgraph.com/submissions/triangle-choke"
+      "url": "https://bjjgraph.org/submissions/triangle-choke"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Armbar",
-      "url": "https://bjjgraph.com/submissions/armbar"
+      "url": "https://bjjgraph.org/submissions/armbar"
     }
   ]
 }
@@ -776,8 +776,8 @@ Check script output for:
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "BJJ Graph",
-  "url": "https://bjjgraph.com",
-  "logo": "https://bjjgraph.com/logo.png",
+  "url": "https://bjjgraph.org",
+  "logo": "https://bjjgraph.org/logo.png",
   "sameAs": [
     "https://twitter.com/bjjgraph",
     "https://github.com/bjjgraph"
@@ -799,7 +799,7 @@ Check script output for:
 
 **Process**:
 1. Open the Rich Results Test tool
-2. Enter page URL (e.g., `https://bjjgraph.com/positions/mount`)
+2. Enter page URL (e.g., `https://bjjgraph.org/positions/mount`)
 3. Click "Test URL"
 4. Review detected schema types
 5. Check for errors or warnings
@@ -980,7 +980,7 @@ def generate_url_from_filepath(filepath, content_dir):
 **Solution**:
 1. Wait 2-4 weeks for indexing
 2. Submit URL to Google Search Console
-3. Check if page is indexed: `site:bjjgraph.com/positions/mount`
+3. Check if page is indexed: `site:bjjgraph.org/positions/mount`
 4. Verify schema is visible in page source
 5. Ensure page meets quality guidelines
 
@@ -1106,7 +1106,7 @@ python3 scripts/seo/add_position_schema_v2.py
   "@type": "WebPage",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://bjjgraph.com/positions/mount"
+    "@id": "https://bjjgraph.org/positions/mount"
   }
 }
 ```

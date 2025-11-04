@@ -1,304 +1,547 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "BJJ Position Single Template - Neutral Position",
-  "description": "Template for neutral/asymmetric positions with NO clear top/bottom distinction (Standing, Clinch, Scramble). Generates single comprehensive page.",
-
-  "metadata": {
-    "state_id": "S001",
-    "title": "Standing Position | BJJ Position Guide | BJJ Graph",
-    "description": "Master standing position in BJJ. Complete guide to grips, takedowns, guard pulls, and maintaining balance with offensive and defensive strategies.",
-    "tags": ["bjj", "position", "standing", "neutral", "takedowns"]
-  },
-
-  "overview": "Standing position is the neutral starting state in Brazilian Jiu-Jitsu where both practitioners are on their feet and engagement begins. From standing, players can attempt takedowns, execute guard pulls, or work for advantageous grips and positioning. While BJJ is primarily known for ground fighting, understanding standing position and takedown defense is essential for complete grappling skill. The standing phase determines initial positioning and can set the tone for the entire match. Both gi and no-gi standing positions require distinct grip and strategy considerations. (400+ words minimum)",
-
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Neutral",
-    "risk_level": "Low",
-    "energy_cost": "Low",
-    "time_sustainability": "Long"
-  },
-
-  "state_invariants": [
-    "Both practitioners on feet in athletic stance with balanced posture",
-    "Engagement through grips (gi) or body control (no-gi) being established",
-    "Equal opportunity for both players to initiate attacks or defensive positioning"
+  "title": "BJJ Position Single Template Schema",
+  "description": "JSON Schema for neutral/asymmetric positions with NO clear top/bottom distinction (Standing, Clinch, Scramble). Generates single comprehensive page.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "description",
+    "tags",
+    "variant_uniqueness",
+    "overview",
+    "state_properties",
+    "state_invariants",
+    "prerequisites",
+    "key_principles",
+    "offensive_transitions",
+    "defensive_responses",
+    "counter_transitions",
+    "decision_tree",
+    "common_errors",
+    "training_drills",
+    "optimal_submission_paths",
+    "related_content",
+    "position_metrics",
+    "expert_insights"
   ],
-
-  "prerequisites": [
-    "Basic athletic stance and balance",
-    "Understanding of grip fighting principles",
-    "Awareness of takedown and guard pull mechanics",
-    "Ability to maintain posture under pressure"
-  ],
-
-  "key_principles": [
-    "Maintain good posture with bent knees and low center of gravity",
-    "Establish dominant grips before attempting takedowns or pulls",
-    "Control distance and angles to set up attacks",
-    "Stay mobile and avoid remaining static in one position",
-    "Use grip fighting to deny opponent's attacks while setting up your own",
-    "Protect against sudden takedown attempts with defensive awareness"
-  ],
-
-  "offensive_transitions": [
-    {
-      "technique": "Single Leg Takedown",
-      "target_position": "Top Position",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Double Leg Takedown",
-      "target_position": "Top Position",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Guard Pull to Closed Guard",
-      "target_position": "Closed Guard Bottom",
-      "success_rates": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80
-      }
-    },
-    {
-      "technique": "Foot Sweep",
-      "target_position": "Top Position",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      }
-    },
-    {
-      "technique": "Hip Throw (O-Goshi)",
-      "target_position": "Top Position",
-      "success_rates": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45
-      }
-    },
-    {
-      "technique": "Arm Drag to Back",
-      "target_position": "Back Control Top",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Snap Down to Front Headlock",
-      "target_position": "Front Headlock Top",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    }
-  ],
-
-  "defensive_responses": [
-    {
-      "technique": "Sprawl Defense",
-      "target_position": "Front Headlock Top",
-      "success_rate": 55
-    },
-    {
-      "technique": "Grip Break",
-      "target_position": "Standing Position",
-      "success_rate": 60
-    },
-    {
-      "technique": "Counter Takedown",
-      "target_position": "Top Position",
-      "success_rate": 40
-    },
-    {
-      "technique": "Pull Guard on Takedown Attempt",
-      "target_position": "Guard Bottom",
-      "success_rate": 65
-    }
-  ],
-
-  "counter_transitions": [
-    {
-      "technique": "Sprawl to Front Headlock",
-      "target_position": "Front Headlock Top",
-      "trigger": "When opponent shoots for legs, sprawl and secure front headlock control"
-    },
-    {
-      "technique": "Counter Single Leg",
-      "target_position": "Top Position",
-      "trigger": "When opponent attacks single leg, use whizzer and drive forward"
-    },
-    {
-      "technique": "Pull Guard on Failed Defense",
-      "target_position": "Guard Bottom",
-      "trigger": "If takedown defense failing, immediately pull guard to avoid being taken down"
-    }
-  ],
-
-  "decision_tree": [
-    {
-      "condition": "If opponent establishes dominant collar and sleeve grips (gi)",
-      "actions": [
-        {
-          "technique": "Break Grips and Re-Establish",
-          "target": "Standing Position",
-          "probability": 55
-        },
-        {
-          "technique": "Pull Guard Before Sweep",
-          "target": "Closed Guard Bottom",
-          "probability": 70
-        }
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Position name (must match filename without .json)",
+      "minLength": 1,
+      "examples": [
+        "Standing Position",
+        "Clinch Position"
       ]
     },
-    {
-      "condition": "If opponent shoots for double leg takedown",
-      "actions": [
-        {
-          "technique": "Sprawl Defense",
-          "target": "Front Headlock Top",
-          "probability": 60
-        },
-        {
-          "technique": "Pull Guard",
-          "target": "Guard Bottom",
-          "probability": 65
-        }
+    "description": {
+      "type": "string",
+      "description": "SEO meta description 150-160 characters",
+      "minLength": 140,
+      "maxLength": 180,
+      "examples": [
+        "Master standing position in BJJ. Complete guide to grips, takedowns, guard pulls, and maintaining balance with offensive and defensive strategies."
       ]
     },
-    {
-      "condition": "If both players are neutral with no dominant grips",
-      "actions": [
-        {
-          "technique": "Single Leg Entry",
-          "target": "Top Position",
-          "probability": 45
-        },
-        {
-          "technique": "Arm Drag to Back",
-          "target": "Back Control Top",
-          "probability": 50
-        },
-        {
-          "technique": "Planned Guard Pull",
-          "target": "Guard Bottom",
-          "probability": 75
-        }
+    "tags": {
+      "type": "array",
+      "description": "Content tags (minimum 3)",
+      "minItems": 3,
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "bjj",
+          "position",
+          "standing",
+          "neutral",
+          "takedowns"
+        ]
       ]
+    },
+    "variant_uniqueness": {
+      "type": "string",
+      "description": "What makes this neutral position unique (20-50 characters)",
+      "minLength": 20,
+      "maxLength": 50,
+      "examples": [
+        "Upright posture with equal offensive access for both players"
+      ]
+    },
+    "overview": {
+      "type": "string",
+      "description": "2-3 paragraph position description with strategic context (400+ characters)",
+      "minLength": 400,
+      "examples": [
+        "Standing position is the neutral starting state in Brazilian Jiu-Jitsu where both practitioners are on their feet..."
+      ]
+    },
+    "state_properties": {
+      "type": "object",
+      "description": "Core state machine properties",
+      "additionalProperties": false,
+      "required": [
+        "point_value",
+        "position_type",
+        "risk_level",
+        "energy_cost",
+        "time_sustainability"
+      ],
+      "properties": {
+        "point_value": {
+          "type": "integer",
+          "description": "IBJJF points (0=neutral, 2=advantage, 3=pass, 4=mount/back)",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "position_type": {
+          "type": "string",
+          "enum": [
+            "Neutral",
+            "Offensive",
+            "Defensive",
+            "Controlling",
+            "Offensive/Controlling",
+            "Defensive with offensive options"
+          ]
+        },
+        "risk_level": {
+          "type": "string",
+          "enum": [
+            "Low",
+            "Medium",
+            "High",
+            "Low to Medium",
+            "Medium to High"
+          ]
+        },
+        "energy_cost": {
+          "type": "string",
+          "enum": [
+            "Low",
+            "Medium",
+            "High"
+          ]
+        },
+        "time_sustainability": {
+          "type": "string",
+          "enum": [
+            "Short",
+            "Medium",
+            "Long",
+            "Short to Medium",
+            "Medium to Long"
+          ]
+        }
+      }
+    },
+    "state_invariants": {
+      "type": "array",
+      "description": "Conditions that must remain true with anatomical detail (minimum 3, 50+ characters each)",
+      "minItems": 3,
+      "items": {
+        "type": "string",
+        "minLength": 50
+      },
+      "examples": [
+        [
+          "Both practitioners on feet in athletic stance with balanced posture",
+          "Engagement through grips (gi) or body control (no-gi) being established",
+          "Equal opportunity for both players to initiate attacks or defensive positioning"
+        ]
+      ]
+    },
+    "prerequisites": {
+      "type": "array",
+      "description": "Conditions before entering position (minimum 3)",
+      "minItems": 3,
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "Basic athletic stance and balance",
+          "Understanding of grip fighting principles",
+          "Awareness of takedown and guard pull mechanics"
+        ]
+      ]
+    },
+    "key_principles": {
+      "type": "array",
+      "description": "5-7 fundamental principles",
+      "minItems": 5,
+      "maxItems": 7,
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        [
+          "Maintain good posture with bent knees and low center of gravity",
+          "Establish dominant grips before attempting takedowns or pulls",
+          "Control distance and angles to set up attacks"
+        ]
+      ]
+    },
+    "offensive_transitions": {
+      "type": "array",
+      "description": "Available attacks/advancements (6-20 items)",
+      "minItems": 6,
+      "maxItems": 20,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "technique",
+          "target_position",
+          "success_rates"
+        ],
+        "properties": {
+          "technique": {
+            "type": "string",
+            "description": "Technique name",
+            "minLength": 1
+          },
+          "target_position": {
+            "type": "string",
+            "description": "Resulting position",
+            "minLength": 1
+          },
+          "success_rates": {
+            "$ref": "#/$defs/skill_level_success_rates"
+          }
+        }
+      }
+    },
+    "defensive_responses": {
+      "type": "array",
+      "description": "Opponent's defensive actions (3-10 items)",
+      "minItems": 3,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "technique",
+          "target_position"
+        ],
+        "properties": {
+          "technique": {
+            "type": "string",
+            "minLength": 3
+          },
+          "target_position": {
+            "type": "string",
+            "minLength": 3
+          },
+          "success_rate": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100,
+            "description": "Optional: opponent's success rate"
+          }
+        }
+      }
+    },
+    "counter_transitions": {
+      "type": "array",
+      "description": "Counter opponent's escapes (minimum 2)",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "technique",
+          "target_position",
+          "trigger"
+        ],
+        "properties": {
+          "technique": {
+            "type": "string",
+            "minLength": 3
+          },
+          "target_position": {
+            "type": "string",
+            "minLength": 3
+          },
+          "trigger": {
+            "type": "string",
+            "description": "What opponent action triggers this counter (10+ characters)",
+            "minLength": 10
+          }
+        }
+      }
+    },
+    "decision_tree": {
+      "type": "array",
+      "description": "If/else logic for state transitions (minimum 3)",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "condition",
+          "actions"
+        ],
+        "properties": {
+          "condition": {
+            "type": "string",
+            "description": "If/else if condition describing opponent behavior (10+ characters)",
+            "minLength": 10
+          },
+          "actions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "technique",
+                "target",
+                "probability"
+              ],
+              "properties": {
+                "technique": {
+                  "type": "string",
+                  "minLength": 3
+                },
+                "target": {
+                  "type": "string",
+                  "minLength": 3
+                },
+                "probability": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 100
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "common_errors": {
+      "type": "array",
+      "description": "Common mistakes with corrections (minimum 5)",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "error",
+          "consequence",
+          "correction"
+        ],
+        "properties": {
+          "error": {
+            "type": "string",
+            "minLength": 10
+          },
+          "consequence": {
+            "type": "string",
+            "minLength": 10
+          },
+          "correction": {
+            "type": "string",
+            "minLength": 10
+          }
+        }
+      }
+    },
+    "training_drills": {
+      "type": "array",
+      "description": "Practice drills (minimum 3)",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "description"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 3
+          },
+          "description": {
+            "type": "string",
+            "minLength": 20
+          },
+          "duration": {
+            "type": "string",
+            "description": "Optional drill duration",
+            "examples": [
+              "3 minutes",
+              "5 minutes",
+              "2 minutes"
+            ]
+          }
+        }
+      }
+    },
+    "optimal_submission_paths": {
+      "type": "array",
+      "description": "Paths from position to submission (minimum 3)",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "path"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Path description (e.g., 'Takedown to dominant position') (5+ characters)",
+            "minLength": 5
+          },
+          "path": {
+            "type": "string",
+            "description": "Sequence of positions/techniques with → arrows (10+ characters)",
+            "minLength": 10,
+            "examples": [
+              "Standing → Single Leg → Top Position → Side Control → Mount"
+            ]
+          }
+        }
+      }
+    },
+    "related_content": {
+      "type": "array",
+      "description": "Related positions/techniques (3-15 items)",
+      "minItems": 3,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "relationship"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Related content name",
+            "minLength": 1
+          },
+          "relationship": {
+            "type": "string",
+            "description": "How it relates (e.g., 'Common destination via guard pull') (5+ characters)",
+            "minLength": 5
+          }
+        }
+      }
+    },
+    "position_metrics": {
+      "type": "object",
+      "description": "Success rates, retention rates, probabilities",
+      "additionalProperties": false,
+      "required": [
+        "retention_rate",
+        "advancement_probability",
+        "submission_probability"
+      ],
+      "properties": {
+        "retention_rate": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/skill_level_success_rates"
+            },
+            {
+              "description": "Position retention by skill level"
+            }
+          ]
+        },
+        "advancement_probability": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/skill_level_success_rates"
+            },
+            {
+              "description": "Probability of advancing to better position"
+            }
+          ]
+        },
+        "submission_probability": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/skill_level_success_rates"
+            },
+            {
+              "description": "Probability of finishing from this position"
+            }
+          ]
+        },
+        "average_time": {
+          "type": "string",
+          "description": "Average time spent in position (optional)",
+          "examples": [
+            "30-90 seconds in competitive BJJ (varies significantly by ruleset and strategy)"
+          ]
+        }
+      }
+    },
+    "expert_insights": {
+      "type": "object",
+      "description": "Insights from all 3 experts (REQUIRED, 200+ characters each)",
+      "additionalProperties": false,
+      "required": [
+        "danaher",
+        "gordon_ryan",
+        "eddie_bravo"
+      ],
+      "properties": {
+        "danaher": {
+          "type": "string",
+          "minLength": 200,
+          "description": "John Danaher - systematic/biomechanical perspective"
+        },
+        "gordon_ryan": {
+          "type": "string",
+          "minLength": 200,
+          "description": "Gordon Ryan - competition/practical application"
+        },
+        "eddie_bravo": {
+          "type": "string",
+          "minLength": 200,
+          "description": "Eddie Bravo - innovation/10th Planet approach"
+        }
+      }
     }
-  ],
-
-  "common_errors": [
-    {
-      "error": "Standing completely upright with straight legs",
-      "consequence": "Easy to be taken down or swept",
-      "correction": "Maintain athletic stance with bent knees and low hips"
-    },
-    {
-      "error": "Allowing opponent to establish dominant grips without fighting",
-      "consequence": "Opponent controls pace and initiates attacks freely",
-      "correction": "Constantly fight for grip dominance and break disadvantageous grips"
-    },
-    {
-      "error": "Remaining static in one position",
-      "consequence": "Predictable and easy to attack",
-      "correction": "Stay mobile, circle, and change angles constantly"
-    },
-    {
-      "error": "Shooting takedowns without setting up or grip fighting first",
-      "consequence": "Low success rate and exposure to counters",
-      "correction": "Establish grips and create reactions before shooting"
-    },
-    {
-      "error": "Not protecting against sudden guard pulls",
-      "consequence": "Falling into bad positions when opponent pulls guard",
-      "correction": "Maintain posture and be ready for guard pull attempts"
-    }
-  ],
-
-  "training_drills": [
-    {
-      "name": "Grip Fighting Drill",
-      "description": "Practice establishing and breaking grips with partner. Focus on dominant grip combinations and denying opponent's grips.",
-      "duration": "3 minutes"
-    },
-    {
-      "name": "Takedown Entry Drill",
-      "description": "Practice level change and penetration step for single and double leg entries. Focus on mechanics without finishing.",
-      "duration": "5 minutes"
-    },
-    {
-      "name": "Sprawl Reaction Drill",
-      "description": "Partner shoots randomly while you practice sprawl defense and counter attacks.",
-      "duration": "2 minutes"
-    }
-  ],
-
-  "optimal_submission_paths": [
-    {
-      "name": "Takedown to dominant position",
-      "path": "Standing → Single Leg → Top Position → Side Control → Mount"
-    },
-    {
-      "name": "Guard pull to submission",
-      "path": "Standing → Guard Pull → Closed Guard → Sweep → Mount → Submission"
-    },
-    {
-      "name": "Snap down to submission",
-      "path": "Standing → Snap Down → Front Headlock → Guillotine or D'arce → Submission"
-    },
-    {
-      "name": "Back take from standing",
-      "path": "Standing → Arm Drag → Back Control → Rear Naked Choke → Submission"
-    }
-  ],
-
-  "related_content": [
-    {"name": "Closed Guard Bottom", "relationship": "Common destination via guard pull"},
-    {"name": "Front Headlock Top", "relationship": "Common destination via snap down"},
-    {"name": "Top Position", "relationship": "Destination after successful takedown"},
-    {"name": "Clinch Position", "relationship": "Standing position with close contact"}
-  ],
-
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 70,
-      "intermediate": 75,
-      "advanced": 80,
-      "description": "Percentage of time maintaining standing without being taken down"
-    },
-    "advancement_probability": {
-      "beginner": 40,
-      "intermediate": 55,
-      "advanced": 70,
-      "description": "Probability of successfully transitioning to advantageous position"
-    },
-    "submission_probability": {
-      "beginner": 5,
-      "intermediate": 10,
-      "advanced": 15,
-      "description": "Probability of finishing directly from standing (rare - via standing submissions)"
-    },
-    "average_time": "30-90 seconds in competitive BJJ (varies significantly by ruleset and strategy)"
   },
-
-  "expert_insights": {
-    "danaher": "The standing phase in BJJ is often neglected but sets the foundation for everything that follows. Your grip fighting and positioning here determine whether you start on top or bottom, which has massive implications for the rest of the match. Develop a systematic approach to standing - either become excellent at takedowns or become very good at controlled guard pulls that put you in advantageous guard positions immediately.",
-    "gordon_ryan": "In no-gi, I prefer to establish wrist control and use arm drags or front headlock setups rather than traditional wrestling takedowns. The key is not expending huge energy on takedowns when you can use technique to get to advantageous positions. If someone is a better wrestler, I'll pull guard to my strongest position and work from there. Know your strengths.",
-    "eddie_bravo": "10th Planet doesn't focus heavily on takedowns - we're guard pullers by design. I teach students to pull to rubber guard or lockdown immediately. If you have a good closed guard or rubber guard game, why risk getting taken down? Pull to your strength, establish control, and start working your game. The standup phase should be brief and strategic."
+  "$defs": {
+    "skill_level_success_rates": {
+      "type": "object",
+      "description": "Success rates by skill level (beginner ≤ intermediate ≤ advanced)",
+      "additionalProperties": false,
+      "required": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "properties": {
+        "beginner": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Success rate for beginner practitioners"
+        },
+        "intermediate": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Success rate for intermediate practitioners"
+        },
+        "advanced": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Success rate for advanced practitioners"
+        }
+      }
+    }
   }
 }

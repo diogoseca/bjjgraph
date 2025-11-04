@@ -1,21 +1,20 @@
 {
-  "metadata": {
-    "title": "Offensive vs Defensive Mindset | BJJ Concept | BJJ Graph",
-    "description": "Understand Offensive vs Defensive Mindset in BJJ. Learn strategic orientation, tactical priorities, mindset selection frameworks. Expert insights from Danaher, Ryan, Bravo.",
-    "concept_id": "C087",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "psychology",
-      "strategy",
-      "mindset",
-      "tactical-decision-making"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Offensive vs Defensive Mindset",
+  "description": "Master strategic mindset selection in BJJ. Learn when to attack vs defend, position-based decision-making, competition mindset shifts, and expert tactical frameworks.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "psychology",
+    "strategy",
+    "mindset",
+    "tactical-decision-making",
+    "competition",
+    "mental-game"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Offensive vs Defensive Mindset represents the fundamental strategic orientation that determines whether a practitioner prioritizes initiative, advancement, and attacking (offensive) or preservation, recovery, and threat neutralization (defensive) in any given moment. Unlike fixed personality traits, this concept is a comprehensive tactical framework that applies dynamically across all positions and scenarios, with skilled practitioners shifting between mindsets based on positional context, scoring situation, energy state, and strategic objectives. This concept encompasses the psychological approach to engagement, the tactical priorities guiding decision-making, and the risk-reward calculations governing technique selection. Offensive vs defensive mindset serves as both a moment-to-moment tactical consideration and a broader strategic philosophy that shapes overall game development. The ability to consciously select and execute the appropriate mindset often determines whether a practitioner maintains tactical control of engagements or allows opponent to dictate pace and terms of combat, making it one of the most foundational strategic concepts in BJJ.",
   "key_principles": [
     "Mindset should be consciously selected based on tactical situation rather than default personality tendency",
@@ -62,102 +61,136 @@
       "description": "The perceptual skill of recognizing opponent's current mindset through positional cues, movement patterns, grip selections, and pressure application, enabling tactical adjustments to exploit mindset-based vulnerabilities. Overly aggressive opponents create defensive counter-opportunities while overly conservative opponents allow offensive pressure."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Positional Hierarchy",
+      "principle_name": "Positional Hierarchy",
       "relationship_type": "Prerequisite",
       "description": "Understanding positional hierarchy is fundamental to mindset selection, as position quality directly informs whether offensive or defensive mindset is tactically appropriate. Superior positions enable offensive mindset while inferior positions often require defensive orientation."
     },
     {
-      "concept_name": "Risk Assessment",
+      "principle_name": "Risk Assessment",
       "relationship_type": "Complementary",
       "description": "Risk assessment works in tandem with mindset selection to evaluate whether offensive actions are justified or defensive preservation is required. Mindset provides strategic orientation while risk assessment provides tactical decision-making framework."
     },
     {
-      "concept_name": "Energy Management System",
+      "principle_name": "Energy Management System",
       "relationship_type": "Complementary",
       "description": "Energy state significantly influences sustainable mindset, with offensive mindset requiring higher energy expenditure than defensive approach. Fatigued practitioners must often adopt defensive mindset regardless of positional context to preserve remaining energy."
     },
     {
-      "concept_name": "Competition Mindset",
+      "principle_name": "Competition Mindset",
       "relationship_type": "Extension",
       "description": "Competition mindset represents specialized application of offensive vs defensive mindset under competition-specific pressures including scoring systems, time constraints, and strategic objectives. Competition context adds additional variables to mindset selection calculations."
     },
     {
-      "concept_name": "Game Planning",
+      "principle_name": "Game Planning",
       "relationship_type": "Extension",
       "description": "Game planning incorporates mindset selection as foundational element of pre-match strategy, determining default mindset orientation based on opponent tendencies, positional preferences, and scoring strategies. Strategic game plans specify when to prioritize offensive versus defensive approach."
     },
     {
-      "concept_name": "Pacing",
+      "principle_name": "Pacing",
       "relationship_type": "Complementary",
       "description": "Pacing control is closely linked to mindset selection, with offensive mindset typically associated with higher pace and defensive mindset with pace reduction. Skilled practitioners use mindset shifts to manipulate engagement pace strategically."
+    },
+    {
+      "principle_name": "Guard Passing Principles",
+      "relationship_type": "Complementary",
+      "description": "Guard passing requires primarily offensive mindset with constant forward pressure and advancement emphasis, though defensive elements preserve base and prevent sweeps during passing sequences."
+    },
+    {
+      "principle_name": "Guard Retention",
+      "relationship_type": "Complementary",
+      "description": "Guard retention represents defensive mindset application focused on position preservation and threat neutralization, though can transition to offensive mindset for sweeps and submissions when retention is secure."
+    },
+    {
+      "principle_name": "Match Strategy",
+      "relationship_type": "Extension",
+      "description": "Match strategy incorporates mindset selection throughout competition phases, determining when to push offensive pressure versus when to consolidate defensive position based on evolving tactical variables."
+    },
+    {
+      "principle_name": "Position-Over-Submission Approach",
+      "relationship_type": "Complementary",
+      "description": "This approach represents defensive mindset application even during offensive phases, prioritizing positional security over submission attempts to maintain control hierarchy."
+    },
+    {
+      "principle_name": "Defensive Strategy",
+      "relationship_type": "Extension",
+      "description": "Defensive strategy represents comprehensive framework for defensive mindset deployment across positions, providing systematic approach to preservation and recovery."
+    },
+    {
+      "principle_name": "Offensive Combinations",
+      "relationship_type": "Extension",
+      "description": "Offensive combinations represent offensive mindset in action, chaining attacks to create dilemmas and advance position through sustained pressure."
     }
   ],
   "application_contexts": [
     {
-      "context": "Mount Top",
-      "how_applied": "From mount top, offensive mindset prioritizes submission attacks and position advancement toward high mount or technical mount, accepting minor stability risks for finishing opportunities. Defensive mindset focuses on position consolidation and preventing opponent escapes while conserving energy, particularly when protecting score lead."
-    },
-    {
-      "context": "Mount Bottom",
-      "how_applied": "From mount bottom, defensive mindset prioritizes escape fundamentals, frame creation, and hip escape mechanics to recover guard safely. Offensive mindset from mount bottom involves attempting sweeps or submission counters despite positional disadvantage, accepting higher risk for potential position reversal."
-    },
-    {
-      "context": "Back Control Top",
-      "how_applied": "From back control top, offensive mindset emphasizes immediate submission attacks (rear naked choke, collar chokes) while maintaining hooks. Defensive mindset focuses on consolidating position control, preventing opponent from turning or escaping, particularly when protecting competition lead late in match."
-    },
-    {
-      "context": "Closed Guard Bottom",
-      "how_applied": "From closed guard bottom, offensive mindset prioritizes sweeps, submission attacks, and creating reactions through constant threatening pressure. Defensive mindset focuses on preventing guard opening, controlling posture, and neutralizing opponent's passing attempts while conserving energy."
-    },
-    {
-      "context": "Half Guard Bottom",
-      "how_applied": "From half guard bottom, offensive mindset emphasizes underhook battles, sweep attempts, and back take opportunities despite bottom position. Defensive mindset prioritizes preventing opponent from achieving crossface control, maintaining frames, and recovering full guard safely."
-    },
-    {
-      "context": "Side Control Top",
-      "how_applied": "From side control top, offensive mindset drives toward mount transitions, north-south advancement, or submission opportunities like kimura and americana. Defensive mindset consolidates control, prevents opponent from recovering guard, and maintains pressure while conserving energy for later offensive sequences."
-    },
-    {
-      "context": "Side Control Bottom",
-      "how_applied": "From side control bottom, defensive mindset is typically appropriate, focusing on hip escape mechanics, frame creation, and systematic escape to guard recovery. Offensive mindset from side control bottom involves attempting sweeps or back takes from poor position, accepting high risk for potential reversal."
-    },
-    {
-      "context": "Open Guard Bottom",
-      "how_applied": "From open guard bottom, offensive mindset emphasizes aggressive sweep attempts, submission setups, and constant leg and grip attacks to prevent opponent from establishing passing pressure. Defensive mindset focuses on guard retention fundamentals, connection breaking, and preventing opponent from securing dominant grips."
-    },
-    {
-      "context": "Knee on Belly Top",
-      "how_applied": "From knee on belly top, offensive mindset pursues submission attacks (baseball choke, farside armbar) and transitions to mount or back. Defensive mindset consolidates position control and prevents opponent from escaping while managing energy expenditure, particularly when protecting score advantage."
-    },
-    {
-      "context": "Turtle Bottom",
-      "how_applied": "From turtle bottom, defensive mindset prioritizes preventing opponent from securing back control or establishing choke grips, while planning systematic guard recovery. Offensive mindset from turtle involves granby rolls, sit-throughs, or standing attempts despite vulnerable position."
-    },
-    {
-      "context": "North-South Top",
-      "how_applied": "From north-south top, offensive mindset emphasizes submission attacks (north-south choke, kimura) and transitions to mount. Defensive mindset focuses on maintaining heavy pressure and preventing opponent from recovering guard while controlling their movement, particularly when time and score favor position maintenance."
-    },
-    {
-      "context": "Guard Recovery",
-      "how_applied": "During guard recovery sequences, defensive mindset is typically appropriate, focusing on systematic hip escape, frame management, and safe guard reestablishment. Offensive mindset during guard recovery involves attempting aggressive sweeps or submissions mid-escape, accepting higher risk for position reversal opportunity."
+      "context": "Mount",
+      "how_applied": "From mount, offensive mindset prioritizes submission attacks and position advancement toward high mount or technical mount, accepting minor stability risks for finishing opportunities. Defensive mindset focuses on position consolidation and preventing opponent escapes while conserving energy, particularly when protecting score lead."
     },
     {
       "context": "Defensive Position",
-      "how_applied": "In defensive positions generally, defensive mindset prioritizes survival, systematic escape, and position improvement through high-percentage defensive techniques. Offensive mindset from defensive positions involves counter-attacking despite positional disadvantage, using opponent's aggression against them through defensive sweeps and submissions."
+      "how_applied": "From defensive positions, defensive mindset typically prioritizes escape fundamentals, frame creation, and systematic recovery to better position. Offensive mindset from defensive positions involves attempting sweeps or submission counters despite positional disadvantage, accepting higher risk for potential position reversal."
     },
     {
-      "context": "Top Position",
-      "how_applied": "From top positions generally, offensive mindset is typically appropriate, emphasizing passing, advancement, and submission pursuit. Defensive mindset from top positions focuses on consolidating control and preventing opponent's offensive sequences when protecting score lead or managing energy depletion."
+      "context": "Back Control",
+      "how_applied": "From back control, offensive mindset emphasizes immediate submission attacks (rear naked choke, collar chokes) while maintaining hooks. Defensive mindset focuses on consolidating position control, preventing opponent from turning or escaping, particularly when protecting competition lead late in match."
     },
     {
-      "context": "Triangle Control Bottom",
-      "how_applied": "From triangle control bottom, offensive mindset emphasizes finishing the triangle choke, transitioning to armbar, or sweeping if opponent postures. Defensive mindset involves maintaining triangle control without forcing finish, using position to stall when protecting score lead late in competition."
+      "context": "Closed Guard",
+      "how_applied": "From closed guard, offensive mindset prioritizes sweeps, submission attacks, and creating reactions through constant threatening pressure. Defensive mindset focuses on preventing guard opening, controlling posture, and neutralizing opponent's passing attempts while conserving energy."
     },
     {
-      "context": "Crucifix Position Top",
-      "how_applied": "From crucifix top, offensive mindset prioritizes immediate submission attacks (collar chokes, armbars from crucifix) while maintaining control. Defensive mindset consolidates crucifix control, prevents opponent from escaping, and maintains position for time and score advantage without risking position loss for submission."
+      "context": "Half Guard",
+      "how_applied": "From half guard bottom, offensive mindset emphasizes underhook battles, sweep attempts, and back take opportunities despite bottom position. Defensive mindset prioritizes preventing opponent from achieving crossface control, maintaining frames, and recovering full guard safely."
+    },
+    {
+      "context": "Side Control",
+      "how_applied": "From side control top, offensive mindset drives toward mount transitions, north-south advancement, or submission opportunities. Defensive mindset consolidates control, prevents opponent from recovering guard, and maintains pressure while conserving energy for later offensive sequences."
+    },
+    {
+      "context": "Open Guard",
+      "how_applied": "From open guard, offensive mindset emphasizes aggressive sweep attempts, submission setups, and constant leg and grip attacks to prevent opponent from establishing passing pressure. Defensive mindset focuses on guard retention fundamentals, connection breaking, and preventing opponent from securing dominant grips."
+    },
+    {
+      "context": "Knee on Belly",
+      "how_applied": "From knee on belly, offensive mindset pursues submission attacks (baseball choke, farside armbar) and transitions to mount or back. Defensive mindset consolidates position control and prevents opponent from escaping while managing energy expenditure, particularly when protecting score advantage."
+    },
+    {
+      "context": "Turtle",
+      "how_applied": "From turtle, defensive mindset prioritizes preventing opponent from securing back control or establishing choke grips, while planning systematic guard recovery. Offensive mindset from turtle involves granby rolls, sit-throughs, or standing attempts despite vulnerable position."
+    },
+    {
+      "context": "North-South",
+      "how_applied": "From north-south top, offensive mindset emphasizes submission attacks (north-south choke, kimura) and transitions to mount. Defensive mindset focuses on maintaining heavy pressure and preventing opponent from recovering guard while controlling their movement, particularly when time and score favor position maintenance."
+    },
+    {
+      "context": "Standing Guard",
+      "how_applied": "From standing guard, offensive mindset pursues aggressive guard pulls, takedown attempts, or dynamic entries to superior positions. Defensive mindset focuses on grip fighting, distance management, and preventing opponent from establishing dominant grips or takedown entries."
+    },
+    {
+      "context": "Butterfly Guard",
+      "how_applied": "From butterfly guard, offensive mindset emphasizes immediate sweep attempts using butterfly hooks and underhook control. Defensive mindset focuses on maintaining hook positions, preventing opponent from achieving underhook control, and controlling distance to neutralize passing attempts."
+    },
+    {
+      "context": "De La Riva Guard",
+      "how_applied": "From De La Riva guard, offensive mindset prioritizes sweeps to top position or transitions to back take using DLR hook and grip control. Defensive mindset focuses on maintaining DLR hook position, preventing opponent from passing, and controlling posture to neutralize pressure."
+    },
+    {
+      "context": "X-Guard",
+      "how_applied": "From X-Guard, offensive mindset emphasizes immediate sweep execution using X-Guard structure and opponent's base disruption. Defensive mindset focuses on maintaining X-Guard structure, preventing opponent from establishing crossface or achieving leg extraction, controlling elevation."
+    },
+    {
+      "context": "Spider Guard",
+      "how_applied": "From spider guard, offensive mindset pursues sweeps and transitions using sleeve control and foot placement on biceps or hips. Defensive mindset focuses on maintaining sleeve grips, preventing opponent from breaking spider guard structure, and controlling distance to neutralize passes."
+    },
+    {
+      "context": "Triangle Control",
+      "how_applied": "From triangle control, offensive mindset emphasizes finishing the triangle choke, transitioning to armbar, or sweeping if opponent postures. Defensive mindset involves maintaining triangle control without forcing finish, using position to stall when protecting score lead late in competition."
+    },
+    {
+      "context": "Crucifix",
+      "how_applied": "From crucifix, offensive mindset prioritizes immediate submission attacks (collar chokes, armbars from crucifix) while maintaining control. Defensive mindset consolidates crucifix control, prevents opponent from escaping, and maintains position for time and score advantage without risking position loss for submission."
     }
   ],
   "decision_framework": [
@@ -189,7 +222,7 @@
     {
       "step_number": 6,
       "decision_point": "Select technique category aligned with chosen mindset",
-      "action": "If offensive mindset: execute advancement techniques (passes, sweeps, transitions, submissions). If defensive mindset: execute preservation techniques (frames, escapes, guards retention, posture control). Ensure technique selection matches strategic orientation."
+      "action": "If offensive mindset: execute advancement techniques (passes, sweeps, transitions, submissions). If defensive mindset: execute preservation techniques (frames, escapes, guard retention, posture control). Ensure technique selection matches strategic orientation."
     },
     {
       "step_number": 7,
@@ -318,58 +351,58 @@
   "related_content": [
     {
       "name": "Competition Mindset",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Extension of offensive vs defensive mindset applied specifically under competition pressure with additional variables like ruleset, scoring system, and strategic objectives"
     },
     {
       "name": "Risk Assessment",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary decision-making framework that evaluates whether offensive actions are justified based on risk-reward calculation, working together with mindset selection"
     },
     {
       "name": "Energy Management System",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Energy state is primary variable affecting sustainable mindset, with fatigue often requiring defensive approach regardless of position or other tactical factors"
     },
     {
       "name": "Game Planning",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic planning incorporates default mindset orientation based on opponent analysis, with game plans specifying when to prioritize offensive versus defensive approach"
     },
     {
       "name": "Positional Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Position quality is fundamental variable in mindset selection, with superior positions enabling offensive mindset and inferior positions requiring defensive orientation"
     },
     {
       "name": "Match Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic approach to matches includes mindset selection as core component, determining how to deploy offensive and defensive orientations throughout competition"
     },
     {
       "name": "Pacing",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Mindset selection directly affects engagement pace, with offensive mindset associated with higher pace and defensive mindset with controlled pace reduction"
     },
     {
-      "name": "Mount Top",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "Superior position where offensive mindset typically prioritizes submission attacks and advancement, though defensive mindset can consolidate control when protecting score lead"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Neutral position where both offensive mindset (sweeps, submissions) and defensive mindset (posture control, guard retention) are viable depending on tactical context"
     },
     {
-      "name": "Back Control Top",
+      "name": "Back Control",
       "content_type": "Position",
       "relationship": "Dominant position where offensive mindset pursues immediate submissions while defensive mindset consolidates position control, particularly when protecting competition lead"
     },
     {
       "name": "Guard Recovery",
-      "content_type": "Position",
-      "relationship": "Recovery position where defensive mindset is typically appropriate for systematic escape, though offensive mindset can attempt aggressive sweeps mid-recovery"
+      "content_type": "Principle",
+      "relationship": "Recovery process where defensive mindset is typically appropriate for systematic escape, though offensive mindset can attempt aggressive sweeps mid-recovery"
     },
     {
       "name": "Rear Naked Choke",

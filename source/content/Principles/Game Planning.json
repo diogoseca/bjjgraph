@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Game Planning | BJJ Concept | BJJ Graph",
     "description": "Understand Game Planning in BJJ. Learn strategic frameworks for pre-match preparation, opponent analysis, technique selection, and tactical execution. Expert insights included.",
-    "concept_id": "C041",
+    "principle_id": "P041",
     "tags": [
       "bjj",
       "concept",
@@ -63,34 +63,34 @@
       "description": "Systematic evaluation of game plan effectiveness after matches, identifying which elements succeeded, which failed, and why. This includes honest assessment of execution quality versus strategic planning quality, and using these insights to refine future game planning approaches."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Match Strategy",
+      "principle_name": "Match Strategy",
       "relationship_type": "Complementary",
       "description": "Match Strategy focuses on in-match tactical decision-making while Game Planning provides the pre-match framework that guides those real-time decisions. Effective game planning creates the strategic foundation that match strategy executes."
     },
     {
-      "concept_name": "Competition Preparation System",
+      "principle_name": "Competition Preparation System",
       "relationship_type": "Prerequisite",
       "description": "Competition preparation provides the broader framework of physical, technical, and mental readiness within which game planning operates. Game planning cannot succeed without adequate competition preparation in conditioning, technique refinement, and mental readiness."
     },
     {
-      "concept_name": "Positional Hierarchy",
+      "principle_name": "Positional Hierarchy",
       "relationship_type": "Prerequisite",
       "description": "Understanding positional hierarchy is essential for game planning as it determines which positions you seek to achieve and which you seek to avoid. Game plans are fundamentally pathways through positional hierarchy toward dominant positions."
     },
     {
-      "concept_name": "Energy Management System",
+      "principle_name": "Energy Management System",
       "relationship_type": "Complementary",
       "description": "Energy management principles inform how game plans allocate effort across match duration. Effective game planning incorporates energy management strategies to ensure technical execution throughout entire matches."
     },
     {
-      "concept_name": "System Building",
+      "principle_name": "System Building",
       "relationship_type": "Extension",
       "description": "System Building represents the development of cohesive technical systems that become the building blocks of game plans. Game planning connects individual systems into comprehensive strategic frameworks for specific competitive scenarios."
     },
     {
-      "concept_name": "Risk Assessment",
+      "principle_name": "Risk Assessment",
       "relationship_type": "Complementary",
       "description": "Risk assessment helps determine which strategic approaches are appropriate for specific match scenarios and opponents. Game planning uses risk assessment to balance aggressive and conservative elements based on match importance and position."
     }

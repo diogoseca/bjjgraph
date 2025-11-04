@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Dealing with Pressure | BJJ Concept | BJJ Graph",
-    "description": "Understand Dealing with Pressure in BJJ. Master defensive frameworks, frame maintenance, breathing techniques under compression. Expert insights from Danaher, Ryan, Bravo included.",
-    "concept_id": "C019",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "defense",
-      "pressure",
-      "bottom-position",
-      "frames",
-      "survival"
-    ],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Dealing with Pressure",
+  "description": "Master pressure defense in BJJ with comprehensive strategies for frame maintenance, breathing techniques, energy conservation, and maintaining composure under heavy top control.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "defense",
+    "pressure",
+    "bottom-position",
+    "frames",
+    "survival"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Dealing with Pressure represents the fundamental skill of maintaining defensive effectiveness, structural integrity, and tactical options when subjected to heavy top pressure from an opponent's controlled position. Unlike specific escape techniques, dealing with pressure is a comprehensive conceptual framework that applies across all bottom positions where opponent applies weight, compression, and control to limit mobility and breathing. This concept encompasses the physical endurance, technical positioning, psychological composure, and strategic approach to surviving and escaping pressure-based control systems. Dealing with pressure serves as both a survival mechanism that prevents submission and positional deterioration, and a foundation for creating escape opportunities through managed space creation and frame maintenance. The ability to effectively deal with pressure often determines whether a practitioner can escape bad positions or succumbs to submission or exhaustion, making it one of the most essential defensive elements in BJJ.",
   "key_principles": [
     "Establish frames immediately to create minimal space for breathing and movement",
@@ -63,36 +60,56 @@
       "description": "The skill of maintaining proper defensive priorities under pressure: protecting submissions first, maintaining breathing second, preserving position third, and seeking escapes fourth. This ensures survival while creating opportunities for positional improvement."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Frame Creation",
+      "principle_name": "Frame Creation",
       "relationship_type": "Prerequisite",
       "description": "Frame Creation provides the foundational technical skill for establishing the structural barriers necessary to deal with pressure effectively. Without proper frame construction, pressure management becomes impossible."
     },
     {
-      "concept_name": "Defensive Frame",
+      "principle_name": "Defensive Frame",
       "relationship_type": "Complementary",
       "description": "Defensive Frame works in conjunction with pressure management by providing the specific frame structures appropriate to different pressure scenarios. Both concepts reinforce effective bottom position survival."
     },
     {
-      "concept_name": "Energy Conservation",
+      "principle_name": "Energy Conservation",
       "relationship_type": "Complementary",
       "description": "Energy Conservation is essential for sustainable pressure defense, as managing energy expenditure determines whether a practitioner can outlast opponent's pressure or exhausts attempting ineffective escapes."
     },
     {
-      "concept_name": "Escape Fundamentals",
+      "principle_name": "Escape Fundamentals",
       "relationship_type": "Extension",
       "description": "Dealing with Pressure serves as the foundation that enables Escape Fundamentals. Once pressure is managed and space created, escape techniques become executable."
     },
     {
-      "concept_name": "Hip Escape Mechanics",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Extension",
       "description": "Hip Escape Mechanics represents the technical execution that follows successful pressure management. The space created through pressure defense enables hip escape execution."
     },
     {
-      "concept_name": "Defensive Strategy",
+      "principle_name": "Defensive Strategy",
       "relationship_type": "Alternative",
       "description": "While Dealing with Pressure focuses on physical and technical pressure management, Defensive Strategy encompasses broader tactical decision-making that includes but extends beyond pressure scenarios."
+    },
+    {
+      "principle_name": "Frame Management",
+      "relationship_type": "Complementary",
+      "description": "Frame Management extends pressure defense by teaching dynamic frame adjustments during opponent's pressure changes, working together to maintain defensive effectiveness."
+    },
+    {
+      "principle_name": "Space Creation",
+      "relationship_type": "Extension",
+      "description": "Space Creation represents the progressive objective of pressure management, where maintained frames and composure enable incremental space accumulation for escapes."
+    },
+    {
+      "principle_name": "Shrimping",
+      "relationship_type": "Extension",
+      "description": "Shrimping provides the specific movement mechanics used to create space once pressure is managed, serving as the technical execution of pressure defense principles."
+    },
+    {
+      "principle_name": "Bridge and Shrimp",
+      "relationship_type": "Extension",
+      "description": "Bridge and Shrimp combines two fundamental movements that follow effective pressure management, using the space created to execute positional improvements."
     }
   ],
   "application_contexts": [
@@ -113,7 +130,7 @@
       "how_applied": "In north-south pressure, management focuses on protecting neck from choke attempts, maintaining space with arm frames to preserve breathing, and using bridging movements to redirect opponent's weight rather than accepting direct chest compression."
     },
     {
-      "context": "Scarf Hold Position",
+      "context": "Kesa Gatame",
       "how_applied": "Under scarf hold control, pressure dealing involves using near-side arm to create space around neck, maintaining hip mobility to prevent complete pinning, and timing escape attempts with opponent's weight distribution changes."
     },
     {
@@ -121,15 +138,15 @@
       "how_applied": "When experiencing back control pressure, the concept emphasizes protecting neck as primary priority, managing breathing despite body triangle or leg compression, and maintaining hand fighting effectiveness to prevent choke completion."
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Under pressure in closed guard, management involves maintaining guard structure despite forward pressure, using hip movement to prevent posture establishment, and creating angles to reduce effective pressure while maintaining offensive threats."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "In bottom half guard under pressure, the concept requires maintaining knee shield frames when possible, protecting underhook space, managing breathing during smash passing pressure, and using small movements to maintain guard retention."
     },
     {
-      "context": "Turtle Position",
+      "context": "Turtle",
       "how_applied": "Under turtle pressure, management focuses on maintaining base to prevent flattening, protecting neck from choke attempts, keeping elbows tight to prevent arm isolation, and timing movements to create re-guard or stand-up opportunities."
     },
     {
@@ -141,8 +158,20 @@
       "how_applied": "Under pressure in deep half guard, management requires controlling opponent's far leg to maintain position, managing breathing despite opponent's weight overhead, and using opponent's pressure against them to create sweep opportunities."
     },
     {
-      "context": "Bottom Position",
-      "how_applied": "In generic bottom positions, pressure management applies universal principles of frame creation, breathing maintenance, angle preservation, and energy conservation regardless of specific positional details."
+      "context": "High Mount",
+      "how_applied": "Under high mount pressure with opponent's knees near armpits, management emphasizes protecting neck and face from attacks, using minimal frames to preserve breathing space, and waiting for opponent's weight shift to attempt elbow escape."
+    },
+    {
+      "context": "S Mount",
+      "how_applied": "In S mount pressure scenarios, the concept requires protecting extended arm from armbar, maintaining breathing despite opponent's weight on chest, and using hip movement to prevent opponent from settling into optimal armbar position."
+    },
+    {
+      "context": "Mount Control",
+      "how_applied": "Under established mount control, pressure management involves systematic frame construction to prevent grapevine hooks, protecting neck constantly, and using small hip movements to prevent opponent from achieving perfect weight distribution."
+    },
+    {
+      "context": "Kuzure Kesa-Gatame",
+      "how_applied": "Under modified scarf hold pressure, management requires protecting near arm from kimura attacks, using far arm to create breathing space, and maintaining hip mobility to prevent opponent from consolidating control."
     }
   ],
   "decision_framework": [
@@ -308,27 +337,27 @@
   "related_content": [
     {
       "name": "Frame Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Provides foundational technical skill for establishing structural barriers against pressure"
     },
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Extends pressure defense by teaching dynamic frame adjustments during opponent's pressure changes"
     },
     {
       "name": "Escape Fundamentals",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Represents the technical execution phase that follows successful pressure management"
     },
     {
       "name": "Energy Conservation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential complementary skill for sustainable pressure defense over extended periods"
     },
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Provides specific technical movements for creating space under pressure"
     },
     {
@@ -358,12 +387,12 @@
     },
     {
       "name": "Defensive Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader strategic framework that incorporates pressure management as key component"
     },
     {
       "name": "Side Control Defensive Framework",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Position-specific defensive system that applies pressure management principles to side control"
     }
   ],

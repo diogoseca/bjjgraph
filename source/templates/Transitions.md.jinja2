@@ -3,18 +3,20 @@
 {# A/B Testing: variant-a-show/variant-b-hide CSS classes for section testing #}
 
 ---
-title: "{{metadata.title}}"
-description: "{{metadata.description}}"
+title: "{{name}} | BJJ Technique | BJJ Graph"
+description: "{{description}}"
 ---
 
+{# PostHog A/B Testing Metadata #}
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-errors","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Execute {{metadata.title.split('|')[0].strip()}} in BJJ",
-  "description": "Step-by-step guide for {{metadata.title.split('|')[0].strip()}} from {{metadata.starting_position}} to {{metadata.ending_position}}.",
+  "name": "How to Execute {{name}} in BJJ",
+  "description": "Step-by-step guide for {{name}} from {{starting_position}} to {{ending_position}}.",
   "step": [
     {%- for step in execution_steps[:8] %}
     {
@@ -53,9 +55,9 @@ description: "{{metadata.description}}"
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "{{metadata.title.split('|')[0].strip()}}",
-  "description": "{{metadata.description}}",
-  "url": "https://bjjgraph.org/Transitions/{{metadata.title.split('|')[0].strip().replace(' ', '-')}}",
+  "name": "{{name}}",
+  "description": "{{description}}",
+  "url": "https://bjjgraph.org/Transitions/{{title.split('|')[0].strip().replace(' ', '-')}}",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -71,26 +73,42 @@ description: "{{metadata.description}}"
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
     {"@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/"},
-    {"@type": "ListItem", "position": 3, "name": "{{metadata.title.split('|')[0].strip()}}", "item": "https://bjjgraph.org/Transitions/{{metadata.title.split('|')[0].strip().replace(' ', '-')}}"}
+    {"@type": "ListItem", "position": 3, "name": "{{name}}", "item": "https://bjjgraph.org/Transitions/{{title.split('|')[0].strip().replace(' ', '-')}}"}
   ]
 }
 </script>
 
+{# Debug mode indicator #}
+{% if debug_mode %}
+<!--
+  🐛 BJJ Graph A/B Testing Debug Mode (Transition)
 
-# {{metadata.title.split('|')[0].strip()}}
-{% for tag in metadata.tags %}#{{tag}} {% endfor %}
+  Content Type: transitions
+  Section Count: 13
+  Week Seed: {{ week_seed }}
+  Visual Variant: {{ visual_elements }}
 
-> **Quick Answer**: {{metadata.title.split('|')[0].strip()}} transitions from [[{{metadata.starting_position}}]] to [[{{metadata.ending_position}}]]. Success rates: Beginner {{metadata.success_rates.beginner}}%, Intermediate {{metadata.success_rates.intermediate}}%, Advanced {{metadata.success_rates.advanced}}%.
+  Generated: {{ generation_timestamp }}
+-->
+{% endif %}
+
+# {{name}}
+{% for tag in tags %}#{{tag}} {% endfor %}
+
+> **Quick Answer**: {{name}} transitions from [[{{starting_position}}]] to [[{{ending_position}}]]. Success rates: Beginner {{success_rates.beginner}}%, Intermediate {{success_rates.intermediate}}%, Advanced {{success_rates.advanced}}%.
+
+{# Flexbox wrapper for A/B testing #}
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is {{metadata.title.split('|')[0].strip()}}?
+## What is {{name}}?
 
 {{overview}}
 
-**Starting Position**: [[{{metadata.starting_position}}]]
-**Ending Position**: [[{{metadata.ending_position}}]]
-**Success Rates**: Beginner {{metadata.success_rates.beginner}}%, Intermediate {{metadata.success_rates.intermediate}}%, Advanced {{metadata.success_rates.advanced}}%
+**Starting Position**: [[{{starting_position}}]]
+**Ending Position**: [[{{ending_position}}]]
+**Success Rates**: Beginner {{success_rates.beginner}}%, Intermediate {{success_rates.intermediate}}%, Advanced {{success_rates.advanced}}%
 
 </section>
 
@@ -208,3 +226,5 @@ description: "{{metadata.description}}"
 - **Eddie Bravo**: {{expert_insights.eddie_bravo}}
 
 </section>
+
+</main>

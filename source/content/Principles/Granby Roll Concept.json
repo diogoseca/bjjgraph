@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Granby Roll | BJJ Concept | BJJ Graph",
     "description": "Understand the Granby Roll in BJJ. Learn dynamic movement principles, escape mechanics, and cross-position applications. Expert insights from Danaher, Ryan, and Bravo included.",
-    "concept_id": "C045",
+    "principle_id": "P045",
     "tags": ["bjj", "concept", "granby roll", "escape", "movement", "hip rotation", "turtle", "guard recovery", "dynamic movement"],
     "application_level": "Fundamental",
     "complexity_level": "Medium",
@@ -54,34 +54,34 @@
       "description": "The ability to execute Granby movement even under significant top pressure. Advanced practitioners can roll through heavy shoulder pressure or cross-face control by using the opponent's weight to generate rolling momentum. This requires confidence in the movement and understanding of how to use opponent's force rather than fight against it."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Hip Escape Mechanics",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Complementary",
       "description": "Hip escapes (shrimping) and Granby rolls work together as primary escape movements. Shrimping creates lateral distance while Granby creates rotational distance. Effective escapers alternate between both based on opponent's pressure direction."
     },
     {
-      "concept_name": "Guard Recovery",
+      "principle_name": "Guard Recovery",
       "relationship_type": "Extension",
       "description": "The Granby Roll is a specialized guard recovery method used when standard hip escapes are blocked. It represents a more dynamic, momentum-based approach to the same goal of re-establishing guard position."
     },
     {
-      "concept_name": "Bridge and Shrimp",
+      "principle_name": "Bridge and Shrimp",
       "relationship_type": "Alternative",
       "description": "While bridging and shrimping create space through linear or vertical movements, Granby rolling creates space through circular rotation. Practitioners choose between these based on available space and opponent's base stability."
     },
     {
-      "concept_name": "Creating Space",
+      "principle_name": "Creating Space",
       "relationship_type": "Prerequisite",
       "description": "Understanding general space creation principles is necessary before learning Granby rolls. The Granby is a specific application of space creation that uses rotational mechanics rather than pushing or framing alone."
     },
     {
-      "concept_name": "Escape Hierarchy",
+      "principle_name": "Escape Hierarchy",
       "relationship_type": "Prerequisite",
       "description": "The Granby Roll fits within the broader escape hierarchy as a secondary escape option when primary defenses (frames, hip escapes) are blocked. Understanding when to employ Granby versus other escapes requires knowledge of the complete escape system."
     },
     {
-      "concept_name": "Energy Conservation",
+      "principle_name": "Energy Conservation",
       "relationship_type": "Advanced form",
       "description": "Advanced Granby technique represents highly efficient movement—using minimal energy to generate maximum positional change through proper biomechanics. Mastery involves reducing wasted motion and increasing effectiveness of each roll."
     }

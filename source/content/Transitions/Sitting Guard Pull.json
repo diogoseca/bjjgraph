@@ -1,24 +1,21 @@
 {
-  "metadata": {
-    "title": "Sitting Guard Pull | BJJ Technique | BJJ Graph",
-    "description": "Learn Sitting Guard Pull in BJJ. Step-by-step execution from Standing Position to Open Guard Bottom. Success: Beginner 70%, Intermediate 85%, Advanced 95%.",
-    "transition_id": "T218",
-    "tags": [
-      "bjj",
-      "transition",
-      "guard-pull",
-      "sitting",
-      "fundamental",
-      "guard-establishment",
-      "open-guard"
-    ],
-    "starting_position": "Standing Position",
-    "ending_position": "Open Guard Bottom",
-    "success_rates": {
-      "beginner": 70,
-      "intermediate": 85,
-      "advanced": 95
-    }
+  "name": "Sitting Guard Pull",
+  "description": "Learn Sitting Guard Pull in BJJ. Step-by-step execution from Standing Position to Open Guard Bottom. Success: Beginner 70%, Intermediate 85%, Advanced 95%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard-pull",
+    "sitting",
+    "fundamental",
+    "guard-establishment",
+    "open-guard"
+  ],
+  "starting_position": "Standing Position",
+  "ending_position": "Seated Guard",
+  "success_rates": {
+    "beginner": 70,
+    "intermediate": 85,
+    "advanced": 95
   },
   "overview": "The Sitting Guard Pull is one of the most fundamental and reliable methods for establishing guard from standing position in Brazilian Jiu-Jitsu. This technique allows a practitioner to safely transition from neutral standing to a seated open guard position while maintaining grips and controlling distance. Unlike dynamic jumping or rolling guard pulls, the sitting guard pull emphasizes control, safety, and strategic positioning. The technique is particularly valuable in both gi and no-gi contexts, serving as a foundational entry point to various open guard systems including butterfly guard, De La Riva, seated guard, and shin-to-shin configurations. The sitting guard pull's high success rate across all skill levels makes it an essential technique for competitors who prefer playing guard, as it reliably achieves the desired position while minimizing risk of injury or positional disadvantage. Mastery of this technique provides a solid platform for developing a comprehensive guard game.",
   "key_principles": [
@@ -226,8 +223,8 @@
   "position_integration": "The sitting guard pull serves as the primary bridge between standing neutral position and the vast landscape of open guard systems in Brazilian Jiu-Jitsu. This technique is the foundational entry point for practitioners who favor guard-based strategies, providing reliable access to butterfly guard, De La Riva, seated guard, shin-to-shin, and numerous other open guard configurations. Within the BJJ positional hierarchy, the sitting guard pull represents a deliberate tactical choice to engage from bottom position rather than pursuing takedowns or remaining in standing exchanges. It integrates seamlessly with guard retention concepts, as the skills developed for safe sitting translate directly to guard recovery situations where you must re-establish seated position after partial passes. The technique connects to the broader system of guard establishment, functioning alongside jumping guard, pulling to closed guard, and rolling guard pulls as part of a complete guard entry repertoire. Advanced practitioners use the sitting guard pull not just as an isolated technique but as a platform for immediate offensive action, flowing directly from the sit into sweeps, submissions, or advanced guard transitions. Understanding the sitting guard pull's role in the overall game enhances strategic decision-making about when to pull guard versus pursue top position, and which specific guard type to establish based on opponent tendencies and your own strengths.",
   "related_content": [
     {
-      "name": "Open Guard Bottom",
-      "relationship": "Primary ending position - the sitting guard pull establishes various open guard configurations"
+      "name": "Seated Guard",
+      "relationship": "Primary ending position - the sitting guard pull establishes seated guard configuration"
     },
     {
       "name": "Butterfly Guard",
@@ -236,10 +233,6 @@
     {
       "name": "De La Riva Guard",
       "relationship": "Common variation - establishing DLR hook and control immediately upon sitting"
-    },
-    {
-      "name": "Seated Guard Bottom",
-      "relationship": "Direct position - traditional seated open guard with upright posture"
     },
     {
       "name": "Shin-to-Shin Guard",
@@ -272,6 +265,10 @@
     {
       "name": "De La Riva Sweep",
       "relationship": "Follow-up technique - offensive action from DLR guard pull variation"
+    },
+    {
+      "name": "Guard Retention",
+      "relationship": "Related principle - maintaining guard after the pull uses same concepts"
     }
   ],
   "expert_insights": {

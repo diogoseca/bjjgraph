@@ -1,24 +1,21 @@
 {
-  "metadata": {
-    "title": "Double Leg Entry | BJJ Technique | BJJ Graph",
-    "description": "Learn Double Leg Entry in BJJ. Step-by-step execution from Standing Position to takedown setup. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T305",
-    "tags": [
-      "bjj",
-      "transition",
-      "takedown",
-      "wrestling",
-      "setup",
-      "standing",
-      "entry"
-    ],
-    "starting_position": "Standing Position",
-    "ending_position": "Front Headlock Control Position",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Double Leg Entry",
+  "description": "Learn Double Leg Entry in BJJ. Step-by-step execution from standing position to dominant takedown setup. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "takedown",
+    "wrestling",
+    "setup",
+    "standing",
+    "entry"
+  ],
+  "starting_position": "Standing Position",
+  "ending_position": "Front Headlock",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Double Leg Entry is a fundamental wrestling-based takedown that serves as a cornerstone technique for standing grappling exchanges in Brazilian Jiu-Jitsu. This technique involves penetrating your opponent's defensive space, securing both legs simultaneously, and driving through to establish a dominant position on the ground. The double leg entry is distinguished from the finish itself - it focuses on the critical initial phases of level change, penetration step, and leg capture that create the conditions for a successful takedown. Understanding proper entry mechanics is essential because even perfect finishing technique cannot compensate for poor penetration and positioning. The double leg entry requires precise timing, explosive movement, and tactical deception to bypass an opponent's defensive posture. Unlike other takedown approaches that rely on upper body control, the double leg entry commits fully to attacking the opponent's base by removing both legs from the equation simultaneously. This creates an unavoidable mechanical disadvantage for the defender once proper penetration is achieved. Mastery of the double leg entry provides a reliable method for taking the fight to the ground on your terms, establishing top position, and controlling the pace of engagement from the opening exchange.",
   "key_principles": [
@@ -239,7 +236,7 @@
     }
   ],
   "safety_considerations": "Double leg entries carry inherent risks that must be managed through proper technique and training progression. The primary safety concern is guillotine choke exposure - improper head position or premature reaching for legs creates immediate submission vulnerability. Always maintain head position awareness and drill defensive guillotine responses. During training, partners should apply guillotine pressure slowly to allow recognition and escape rather than sudden application. For the person being taken down, learning to breakfall properly is essential - landing with arms extended can cause wrist, elbow, or shoulder injuries. Practice taking the fall by turning to the side, distributing impact across back/shoulder, and keeping chin tucked. When drilling entries, the defending partner should allow controlled completion rather than explosive counter-resistance that can lead to knee injuries, muscle strains, or collision injuries. Progress resistance gradually over weeks rather than immediately applying full defensive intensity. For both practitioners, ensuring adequate mat space and awareness of walls, other students, or obstacles prevents collision injuries during dynamic takedown practice. Knee health is paramount - penetration steps place significant stress on the lead knee, so proper warm-up, gradual intensity progression, and attention to any knee pain is critical.",
-  "position_integration": "The double leg entry serves as a foundational transition from standing engagement to ground control, functioning as a critical bridge technique in the overall BJJ positional hierarchy. From a strategic perspective, the double leg entry is typically attempted from neutral standing position or various clinch configurations where neither player has established dominance. Successful execution leads to several advantageous ground positions depending on finishing mechanics: Front Headlock Control Position if opponent defends with sprawl but you maintain head control, Side Control Top or Half Guard Top if the takedown is completed with traditional drive-through finish, or even direct Back Control if opponent turns away during the takedown. The entry itself can be chained with other takedown attempts - if the double leg is defended, common transitions include converting to single leg attacks, transitioning to front headlock snap downs, or re-establishing standing position to reset. Understanding these positional relationships allows the practitioner to view the double leg entry not as an isolated technique but as part of a comprehensive standing-to-ground transition system. The technique also integrates with broader strategic concepts including controlling engagement distance, dictating pace of the match, and forcing opponent reactions that create additional offensive opportunities. In competition contexts, the double leg entry is often used to secure takedown points, establish top position for the remainder of the match, or force guard-pulling opponents to engage in standing exchanges. Modern BJJ increasingly emphasizes wrestling competency, making the double leg entry a fundamental skill that separates well-rounded grapplers from guard-specialist players.",
+  "position_integration": "The double leg entry serves as a foundational transition from standing engagement to ground control, functioning as a critical bridge technique in the overall BJJ positional hierarchy. From a strategic perspective, the double leg entry is typically attempted from neutral standing position or various clinch configurations where neither player has established dominance. Successful execution leads to several advantageous ground positions depending on finishing mechanics: Front Headlock if opponent defends with sprawl but you maintain head control, Side Control or Half Guard if the takedown is completed with traditional drive-through finish, or even direct Back Control if opponent turns away during the takedown. The entry itself can be chained with other takedown attempts - if the double leg is defended, common transitions include converting to single leg attacks, transitioning to front headlock snap downs, or re-establishing standing position to reset. Understanding these positional relationships allows the practitioner to view the double leg entry not as an isolated technique but as part of a comprehensive standing-to-ground transition system. The technique also integrates with broader strategic concepts including controlling engagement distance, dictating pace of the match, and forcing opponent reactions that create additional offensive opportunities. In competition contexts, the double leg entry is often used to secure takedown points, establish top position for the remainder of the match, or force guard-pulling opponents to engage in standing exchanges. Modern BJJ increasingly emphasizes wrestling competency, making the double leg entry a fundamental skill that separates well-rounded grapplers from guard-specialist players.",
   "related_content": [
     {
       "name": "Double Leg Setup",

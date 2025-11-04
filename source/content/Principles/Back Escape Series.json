@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Back Escape Series | BJJ Concept | BJJ Graph",
-    "description": "Master Back Escape Series in BJJ. Learn systematic defense protocols, hand fighting techniques, and progressive position recovery. Expert insights included.",
-    "concept_id": "C047",
-    "tags": [
-      "bjj",
-      "concept",
-      "escape",
-      "back-control",
-      "defensive",
-      "survival",
-      "hand-fighting",
-      "position-recovery"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Back Escape Series",
+  "description": "Master systematic back escape protocols in BJJ. Learn hand fighting, hook removal, space creation, and position recovery from back control. Progressive defense methodology.",
+  "tags": [
+    "bjj",
+    "principle",
+    "escape",
+    "back-control",
+    "defensive",
+    "survival",
+    "hand-fighting",
+    "position-recovery"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Back Escape Series represents the systematic framework for defending and escaping from back control through prioritized defensive sequences, hand fighting protocols, and progressive position recovery techniques. Unlike isolated escape attempts, the back escape series is a comprehensive conceptual system that integrates immediate defensive priorities (preventing the choke) with methodical positional recovery (removing hooks, creating space, and ultimately escaping or reversing). This concept encompasses the critical defensive principles that must be executed under extreme pressure when an opponent has achieved one of the most dominant positions in BJJ. The back escape series serves as both a survival protocol that prevents immediate submission and a systematic pathway that enables positional recovery against skilled opponents. The ability to execute this series effectively often determines the outcome of matches where back control is achieved, making it one of the most critical defensive frameworks in competitive BJJ.",
   "key_principles": [
     "Protect the neck immediately as the absolute first priority before any escape attempt",
@@ -63,36 +60,56 @@
       "description": "The mental and physical ability to maintain technical execution while managing energy expenditure during extended defensive sequences, recognizing when explosive effort is required versus when structural defense is sufficient. This includes breathing control, muscle tension management, and psychological composure under submission threat."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Escape Hierarchy",
+      "principle_name": "Escape Hierarchy",
       "relationship_type": "Prerequisite",
       "description": "Understanding the positional hierarchy of escapes provides the strategic framework that determines when back escape becomes the priority versus defending other positions. Back escape sits near the top of the escape hierarchy due to the submission and point threat."
     },
     {
-      "concept_name": "Hand Fighting from Back",
+      "principle_name": "Hand Fighting from Back",
       "relationship_type": "Complementary",
       "description": "Hand fighting techniques form the core defensive skill set within the back escape series, providing the specific gripping and grip-breaking methods needed to prevent chokes while executing positional recovery."
     },
     {
-      "concept_name": "Defensive Strategy",
+      "principle_name": "Defensive Strategy",
       "relationship_type": "Extension",
       "description": "The back escape series represents a specific application of broader defensive strategy principles, applying concepts like threat prioritization, energy management, and progressive position improvement to the specific context of back control defense."
     },
     {
-      "concept_name": "Hip Escape Mechanics",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Complementary",
       "description": "The fundamental hip movement patterns used throughout BJJ escapes are specifically adapted and sequenced within back escape protocols, with particular emphasis on maintaining neck protection during hip movement."
     },
     {
-      "concept_name": "Frame Management",
+      "principle_name": "Frame Management",
       "relationship_type": "Complementary",
       "description": "Creating and maintaining effective frames from back control requires specific adaptations of general framing principles, as frames must be established while hands are simultaneously engaged in protecting the neck."
     },
     {
-      "concept_name": "Pin Escape Methodology",
+      "principle_name": "Pin Escape Methodology",
       "relationship_type": "Alternative",
       "description": "While pin escapes deal with flattened positions like mount and side control, back escape methodology shares similar progressive recovery concepts but must integrate the additional priority of constant submission defense that is more immediate from back control."
+    },
+    {
+      "principle_name": "Escape Fundamentals",
+      "relationship_type": "Prerequisite",
+      "description": "Core escape principles provide the foundational movement patterns and conceptual understanding that are then specifically adapted for the unique challenges of back control defense."
+    },
+    {
+      "principle_name": "Guard Recovery",
+      "relationship_type": "Extension",
+      "description": "Many back escape sequences terminate in guard recovery, making this principle the natural continuation of successful back defense where defensive protocols transition to active guard retention."
+    },
+    {
+      "principle_name": "Defensive Framing",
+      "relationship_type": "Complementary",
+      "description": "Framing techniques are integrated throughout back escape sequences to create and maintain space while managing the competing priority of hand fighting and neck protection."
+    },
+    {
+      "principle_name": "Energy Conservation",
+      "relationship_type": "Complementary",
+      "description": "Managing energy expenditure becomes critical during back escape sequences, as defensive efforts must be sustained over extended periods while maintaining technical precision under submission threat."
     }
   ],
   "application_contexts": [
@@ -101,7 +118,7 @@
       "how_applied": "The primary application context where all components of the back escape series are utilized, from initial hand fighting to hook removal, space creation, and final escape to guard recovery or reversal positions."
     },
     {
-      "context": "Body Triangle Back Control",
+      "context": "Body Triangle",
       "how_applied": "Modified back escape protocols that account for the inability to remove the bottom hook through standard methods, requiring alternative hip positioning and rotation-based escapes that address the locked triangle configuration."
     },
     {
@@ -113,31 +130,23 @@
       "how_applied": "Adapted escape protocols for when back control is established in standing position, incorporating balance disruption, base recovery, and the option to pull guard strategically rather than attempting standing escapes that may expose the neck."
     },
     {
-      "context": "Gift Wrap Position",
+      "context": "Gift Wrap",
       "how_applied": "Emergency defensive protocols when one arm is trapped in gift wrap control, requiring one-handed neck defense while systematically working to free the trapped arm before full escape sequences can be implemented."
     },
     {
-      "context": "Crucifix Control Position",
+      "context": "Crucifix",
       "how_applied": "Specialized escape methodology for when both arms are controlled in crucifix, utilizing leg movement, bridge mechanics, and progressive arm recovery before standard back escape sequences become viable."
     },
     {
-      "context": "Turtle Position",
+      "context": "Turtle",
       "how_applied": "Preventative application of back defense concepts while opponent attempts to establish back control from turtle, fighting the seat belt insertion and maintaining defensive posture to prevent full back control from being achieved."
-    },
-    {
-      "context": "Bottom Turtle",
-      "how_applied": "Transitional defensive awareness when turtling is used as an intermediate position during back escape attempts, ensuring that the turtle position provides genuine defensive value rather than simply delaying inevitable back exposure."
     },
     {
       "context": "Scramble Position",
       "how_applied": "Dynamic application of back defense principles during scrambles where back control is being fought over, using movement and positioning to prevent opponent from consolidating hooks and control while creating escape or reversal opportunities."
     },
     {
-      "context": "Guard Recovery",
-      "how_applied": "The terminal goal of many back escape sequences where successful hook removal and hip escape lead to re-establishment of guard, requiring smooth transition from defensive back escape to active guard retention and recovery."
-    },
-    {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Common intermediate position during back escapes where removing hooks and rotating leads to half guard, requiring immediate transition from back defense mindset to half guard retention and sweep opportunities."
     },
     {
@@ -145,16 +154,24 @@
       "how_applied": "Occasional escape outcome where back defense rotations result in giving up side control as a strategic trade to eliminate immediate submission threat, accepting positional disadvantage to remove catastrophic submission danger."
     },
     {
-      "context": "Standing up",
+      "context": "Standing Position",
       "how_applied": "Alternative escape pathway from certain back control configurations where technical stand-up protocols are employed to return to standing position while maintaining neck protection throughout the transition."
+    },
+    {
+      "context": "Closed Guard",
+      "how_applied": "Optimal escape outcome where successful hook removal and hip escape lead to re-establishment of closed guard, providing both defensive security and offensive opportunity development."
+    },
+    {
+      "context": "Defensive Position",
+      "how_applied": "Fundamental defensive posture principles that underlie all back escape techniques, maintaining structural integrity and threat awareness while executing escape sequences under extreme pressure and submission threat."
     },
     {
       "context": "Mount",
       "how_applied": "Rare but possible scenario where back escape rotation leads to mount position either through over-rotation or opponent's failed adjustment, requiring immediate recognition and capitalization on the positional reversal."
     },
     {
-      "context": "Defensive Position",
-      "how_applied": "Fundamental defensive posture principles that underlie all back escape techniques, maintaining structural integrity and threat awareness while executing escape sequences under extreme pressure and submission threat."
+      "context": "Open Guard",
+      "how_applied": "Alternative escape terminal position where back defense leads to open guard recovery, providing foundation for guard retention systems and offensive guard development."
     }
   ],
   "decision_framework": [
@@ -323,12 +340,12 @@
     },
     {
       "name": "Escape Fundamentals",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational concept providing core principles that back escape series applies to specific back control scenarios"
     },
     {
       "name": "Hand Fighting from Back",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Critical component skill - specific hand fighting techniques that form the foundation of submission prevention during back escape"
     },
     {
@@ -338,12 +355,12 @@
     },
     {
       "name": "Defensive Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader strategic framework that back escape series exemplifies through prioritized defensive sequences and threat management"
     },
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Fundamental movement pattern adapted and applied specifically within back escape protocols for creating space while maintaining neck protection"
     },
     {
@@ -352,7 +369,7 @@
       "relationship": "Specific back control configuration requiring specialized hand fighting and grip breaking within back escape series"
     },
     {
-      "name": "Body Triangle Back Control",
+      "name": "Body Triangle",
       "content_type": "Position",
       "relationship": "Modified back control variant requiring adapted escape methodology due to locked lower body configuration"
     },
@@ -367,13 +384,13 @@
       "relationship": "Alternative escape technique sometimes employed within back escape series for creating dramatic position changes"
     },
     {
-      "name": "Guard Recovery",
+      "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Common terminal goal of back escape sequences where successful defense leads to re-establishment of guard position"
+      "relationship": "Common terminal goal of back escape sequences where successful defense leads to re-establishment of closed guard position"
     },
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential defensive skill applied throughout back escape to create and maintain space while preserving neck protection"
     }
   ],

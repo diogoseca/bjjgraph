@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Head Control | BJJ Concept | BJJ Graph",
-    "description": "Understand Head Control in BJJ. Master biomechanical principles, control point hierarchy, and cross-position application. Expert insights from Danaher, Ryan, Bravo included.",
-    "concept_id": "C265",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "control",
-      "pressure",
-      "head-control",
-      "spine-alignment",
-      "positional-dominance"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Head Control",
+  "description": "Master Head Control in BJJ. Learn biomechanical principles, control hierarchy, cross-position applications, and decision frameworks with expert analysis.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "control",
+    "pressure",
+    "head-control",
+    "spine-alignment",
+    "positional-dominance"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Head Control represents the fundamental principle of controlling an opponent's head position to dictate their spinal alignment, postural options, and available movements throughout BJJ engagement. Unlike specific techniques, head control is a comprehensive conceptual framework that applies across all positions and phases of grappling. This concept encompasses the biomechanical understanding that controlling the head provides control over the spine and subsequently the entire body structure, as the head-spine relationship determines available force generation, defensive capability, and offensive options. Head control serves as both an offensive mechanism that enables dominant position maintenance and submission attacks, and a defensive priority that must be protected to preserve mobility and technical options. The ability to establish and maintain head control often determines positional dominance and submission opportunities, making it one of the most essential conceptual elements in BJJ.",
   "key_principles": [
     "Control the head to control the spine and subsequently the entire body structure",
@@ -63,45 +60,60 @@
       "description": "Understanding how head control serves as prerequisite or enhancement for specific submission attacks. This includes recognizing how head position affects submission angles, understanding which head controls open which submission chains, and coordinating head control with limb control for comprehensive submission attacks."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Control Point Hierarchy",
+      "principle_name": "Control Point Hierarchy",
       "relationship_type": "Prerequisite",
       "description": "Head control exists within the broader control point hierarchy as typically the highest-value single control point. Understanding control point hierarchy provides the framework for when to prioritize head control versus other control points and how to coordinate multiple control points effectively."
     },
     {
-      "concept_name": "Posture Breaking",
+      "principle_name": "Posture Breaking",
       "relationship_type": "Complementary",
       "description": "Head control and posture breaking work synergistically, as controlling the head is often the most effective method of breaking opponent posture. Understanding posture breaking principles enhances head control application by clarifying which head positions most effectively collapse opponent structure."
     },
     {
-      "concept_name": "Chin Protection",
+      "principle_name": "Chin Protection",
       "relationship_type": "Alternative",
       "description": "Chin protection represents the primary defensive response to head control attempts, particularly against choke attacks. Understanding both concepts creates the offensive-defensive relationship where head control seeks to overcome chin protection, while chin protection seeks to neutralize head control effectiveness."
     },
     {
-      "concept_name": "Frame Management",
+      "principle_name": "Frame Management",
       "relationship_type": "Extension",
       "description": "Head control often serves as the mechanism that prevents opponent from establishing effective frames. Advanced frame management understanding includes recognizing how head control eliminates opponent's ability to create space through frames and how to maintain head control while countering framing attempts."
     },
     {
-      "concept_name": "Leverage Principles",
+      "principle_name": "Leverage Principles",
       "relationship_type": "Prerequisite",
       "description": "Effective head control application relies on fundamental leverage principles, as the head serves as a lever arm for controlling the entire body. Understanding leverage mechanics explains why head control provides such comprehensive body control despite being a single point of contact."
     },
     {
-      "concept_name": "Forward Pressure",
+      "principle_name": "Forward Pressure",
       "relationship_type": "Complementary",
       "description": "Forward pressure and head control combine powerfully in top positions, where driving pressure through the opponent's head collapses their defensive structure. Understanding forward pressure application enhances head control effectiveness by clarifying optimal pressure vectors and weight distribution."
+    },
+    {
+      "principle_name": "Cross Face Control",
+      "relationship_type": "Extension",
+      "description": "Cross-face represents one of the most common and effective applications of head control principles in top positions, serving as a specialized technique within the broader head control framework."
+    },
+    {
+      "principle_name": "Connection Principles",
+      "relationship_type": "Prerequisite",
+      "description": "Head control relies on understanding connection principles to maintain contact throughout opponent movements and reactions. Strong connection principles inform how to adjust grip and pressure to maintain head control despite dynamic resistance."
+    },
+    {
+      "principle_name": "Defensive Posture",
+      "relationship_type": "Alternative",
+      "description": "Defensive posture represents the opponent's attempt to maintain head position and prevent head control establishment. Understanding both offensive head control and defensive posture creates the complete tactical picture."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Top",
-      "how_applied": "From closed guard top, head control prevents opponent from breaking posture and establishing offensive grips. Controlling the head by driving it down or to the side eliminates the opponent's ability to create the upright posture necessary for sweeps and submissions, while positioning the head for guard opening sequences and pass initiation."
+      "context": "Closed Guard",
+      "how_applied": "From closed guard bottom, head control prevents opponent from breaking posture and establishing offensive grips. Controlling the head by pulling it down or to the side eliminates the opponent's ability to create the upright posture necessary for guard opening and passing, while positioning the head for sweep and submission setups."
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "In side control, head control through cross-face pressure or head-and-arm positioning prevents opponent's ability to turn into you or create frames. The head control establishes the foundational pressure that pins the shoulder and eliminates hip escape mechanics while setting up transitions to mount or submission attacks."
     },
     {
@@ -117,11 +129,11 @@
       "how_applied": "From north-south position, head control through chest pressure and arm positioning traps the opponent flat and prevents them from turning to their side or recovering guard. The head control creates the pressure necessary for north-south choke attacks and maintains positional dominance during transition attempts."
     },
     {
-      "context": "Front Headlock Control Position",
+      "context": "Front Headlock",
       "how_applied": "In front headlock positions, head control is the defining characteristic of the position itself, where controlling the head and one arm creates the structure for anaconda, darce, and guillotine attacks. Head position determines whether opponent can stand, which way they can turn, and which submission attacks become available."
     },
     {
-      "context": "Turtle Top",
+      "context": "Turtle",
       "how_applied": "When attacking turtle, head control prevents opponent from standing or turning to guard while creating the foundation for back takes and submission attacks. Controlling the head through front headlock grips, crossface pressure, or chin strap controls dictates opponent's defensive options and escape routes."
     },
     {
@@ -129,12 +141,28 @@
       "how_applied": "In kesa gatame (scarf hold), the arm around the head creates the fundamental control mechanism that prevents opponent from turning away or recovering guard. Head control combined with hip pressure creates one of the most stable pinning positions in BJJ and sets up various arm attacks."
     },
     {
-      "context": "Crucifix Control Position",
+      "context": "Crucifix",
       "how_applied": "From crucifix, controlling the head through leg positioning or grips prevents opponent from turning either direction and traps them in a fully controlled position. Head control in crucifix enables choke attacks while maintaining the arm control that defines the position."
     },
     {
-      "context": "Gift Wrap Position",
+      "context": "Gift Wrap",
       "how_applied": "In gift wrap position, head control through the wrapped arm structure prevents opponent from escaping the arm trap and creates the angle for taking the back or executing submission attacks. The head control maintains the structural integrity of the gift wrap configuration during transitions."
+    },
+    {
+      "context": "Clinch",
+      "how_applied": "In standing clinch positions, head control determines throwing opportunities and takedown defense. Controlling the head through collar ties, overhooks, or underhooks creates off-balancing opportunities and prevents opponent from establishing their preferred gripping configuration."
+    },
+    {
+      "context": "Guillotine Control",
+      "how_applied": "In guillotine control positions, head position relative to the choking arm determines submission effectiveness. Head control through the guillotine grip creates the structural alignment necessary for the choke while preventing opponent from posturing up or pulling their head free."
+    },
+    {
+      "context": "Half Guard",
+      "how_applied": "From half guard top, head control through crossface or underhook prevents opponent from recovering full guard or sweeping. Controlling the head establishes the pressure necessary for passing sequences while limiting bottom player's offensive options and framing capabilities."
+    },
+    {
+      "context": "Knee on Belly",
+      "how_applied": "In knee on belly, head control through grips or frames prevents opponent from turning away or shrimping out. Controlling the head maintains the unstable position while setting up transitions to mount or submission attacks when opponent attempts to address the knee pressure."
     }
   ],
   "decision_framework": [
@@ -204,6 +232,11 @@
       "error": "Neglecting own head protection while focusing on opponent's head control",
       "consequence": "Opponent establishes head control on you while you attempt to control their head, often resulting in submission vulnerability or position loss. This creates head control battles where neither practitioner achieves dominant control.",
       "correction": "Develop simultaneous awareness of offensive head control opportunities and defensive head protection requirements. In positions where both practitioners have head access to each other, prioritize preventing opponent's head control while seeking opportunities to establish your own."
+    },
+    {
+      "error": "Applying head control without coordinating other control points",
+      "consequence": "Opponent escapes by moving parts of their body that aren't controlled, even though their head is controlled. Head control alone, without hip control or shoulder control, often proves insufficient for maintaining dominant positions.",
+      "correction": "Integrate head control within a comprehensive control point system that addresses multiple parts of opponent's body simultaneously. Coordinate head control with hip control, shoulder control, and limb control to create complete positional dominance."
     }
   ],
   "training_approaches": [
@@ -272,26 +305,26 @@
   "related_content": [
     {
       "name": "Control Point Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Head control functions as the highest-value control point within the overall control point hierarchy framework"
     },
     {
       "name": "Cross Face Control",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Cross-face represents one of the most common and effective applications of head control principles in top positions"
     },
     {
       "name": "Posture Breaking",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Head control serves as the primary mechanism for breaking and preventing opponent posture across most positions"
     },
     {
-      "name": "Front Headlock Control Position",
+      "name": "Front Headlock",
       "content_type": "Position",
       "relationship": "Front headlock represents an entire positional category defined by head control as the fundamental characteristic"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Side control effectiveness relies heavily on proper head control application through cross-face and shoulder pressure"
     },
@@ -316,9 +349,19 @@
       "relationship": "Darce choke setup and finish depend on controlling head position to create the proper angle for the shoulder-of-justice pressure"
     },
     {
-      "name": "Snap Down to Front Headlock",
+      "name": "Snap Down",
       "content_type": "Transition",
       "relationship": "Snap down represents the primary method of establishing head control from standing positions for ground engagement"
+    },
+    {
+      "name": "Chin Protection",
+      "content_type": "Principle",
+      "relationship": "Chin protection serves as the primary defensive counter to head control in choke situations"
+    },
+    {
+      "name": "Frame Management",
+      "content_type": "Principle",
+      "relationship": "Head control often eliminates opponent's ability to establish effective defensive frames"
     }
   ],
   "expert_insights": {

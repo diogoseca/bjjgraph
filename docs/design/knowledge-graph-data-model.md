@@ -665,8 +665,8 @@ safety_considerations:
 ```python
 class ConceptNode:
     # Identity
-    concept_id: str                  # C### format
-    concept_name: str                # Principle name
+    principle_id: str                  # C### format
+    principle_name: str                # Principle name
 
     # Classification
     application_level: str           # Fundamental|Intermediate|Advanced
@@ -689,8 +689,8 @@ class ConceptNode:
 
 **Example Concept: Base Maintenance (C111)**
 ```yaml
-concept_id: "C111"
-concept_name: "Base Maintenance"
+principle_id: "P111"
+principle_name: "Base Maintenance"
 
 application_level: "Fundamental"
 complexity_level: "Medium"

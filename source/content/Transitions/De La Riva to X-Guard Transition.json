@@ -1,24 +1,21 @@
 {
-  "metadata": {
-    "title": "De La Riva to X-Guard Transition | BJJ Technique | BJJ Graph",
-    "description": "Master the De La Riva to X-Guard transition in BJJ. Convert DLR control into powerful X-Guard sweeping position. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.",
-    "transition_id": "T199",
-    "tags": [
-      "bjj",
-      "transition",
-      "guard-system",
-      "sweep",
-      "dlr",
-      "x-guard",
-      "advanced"
-    ],
-    "starting_position": "De La Riva Guard",
-    "ending_position": "X-Guard",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 75
-    }
+  "name": "De La Riva to X-Guard Transition",
+  "description": "Master the De La Riva to X-Guard transition in BJJ. Convert DLR control into powerful X-Guard sweeping position. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard-system",
+    "sweep",
+    "dlr",
+    "x-guard",
+    "advanced"
+  ],
+  "starting_position": "De La Riva Guard",
+  "ending_position": "X-Guard",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 55,
+    "advanced": 75
   },
   "overview": "The De La Riva to X-Guard Transition represents the systematic framework for converting the controlling mechanics of De La Riva Guard into the elevating and sweeping power of X-Guard position. Unlike isolated techniques, this concept encompasses the biomechanical principles, timing considerations, and strategic decision-making that enable seamless positional flow between these two fundamental guard systems. This transition serves as both an offensive adaptation when initial De La Riva attacks are defended and a proactive entry strategy that leverages opponent's posture and base positioning to create superior sweeping opportunities. The ability to flow between these positions transforms static guard retention into dynamic offensive pressure, making it one of the most powerful conceptual frameworks in modern guard play. Understanding this transition requires mastery of hook mechanics, grip control transitions, and the ability to read opponent weight distribution in real-time.",
   "key_principles": [
@@ -241,12 +238,8 @@
       "relationship": "Advanced variation for transitioning under heavy forward pressure"
     },
     {
-      "name": "Reverse De La Riva Guard",
+      "name": "Reverse De La Riva Recovery",
       "relationship": "Alternative position when opponent circles away from X-Guard transition"
-    },
-    {
-      "name": "Deep Half Entry",
-      "relationship": "Bail-out option when opponent drops heavy weight during transition"
     },
     {
       "name": "Berimbolo Entry",
@@ -259,6 +252,10 @@
     {
       "name": "Straight Ankle Lock",
       "relationship": "Leg attack option if opponent defends elevation poorly"
+    },
+    {
+      "name": "De La Riva Sweep Variations",
+      "relationship": "Alternative attacks when transition timing is not optimal"
     }
   ],
   "expert_insights": {

@@ -1,18 +1,15 @@
 {
-  "metadata": {
-    "title": "Ezekiel Choke | BJJ Submission | BJJ Graph",
-    "description": "Master Ezekiel Choke in BJJ. Complete guide with safety protocols, setup, execution from mount and top positions. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-    "submission_id": "SUB018",
-    "tags": ["bjj", "submission", "ezekiel-choke", "gi-choke", "sleeve-choke", "mount-submission", "top-position", "blood-choke"],
-    "submission_category": "Choke",
-    "submission_type": "Blood Choke",
-    "target_area": "Carotid arteries and trachea",
-    "starting_position": "Mount Top",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 50,
-      "advanced": 65
-    }
+  "name": "Ezekiel Choke",
+  "description": "Master the Ezekiel Choke in BJJ with comprehensive safety protocols, setup requirements, and execution mechanics. Learn proper blade angle and bilateral pressure. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "tags": ["bjj", "submission", "ezekiel-choke", "gi-choke", "sleeve-choke", "mount-submission", "top-position", "blood-choke"],
+  "submission_category": "Choke",
+  "submission_type": "Blood Choke",
+  "target_area": "Carotid arteries and trachea",
+  "starting_position": "Mount",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 50,
+    "advanced": 65
   },
   "overview": "The Ezekiel Choke is a fundamental gi-based blood choke that can be executed from dominant top positions, most commonly from mount but also effective from side control, knee on belly, and other control positions. Named after Brazilian judoka Ezequiel Paraguassú who popularized it in BJJ, this technique utilizes the practitioner's own sleeve as a fulcrum to create pressure on both carotid arteries. The Ezekiel is particularly effective because it can be applied even when the opponent has their hands free to defend, making it a high-percentage submission when proper mechanics are understood. The technique's versatility allows it to be threaded through various defensive frames and can be executed with either a traditional lapel grip or by threading the sleeve through for maximum control. What makes the Ezekiel especially valuable is its ability to create submission threats that force opponents to expose other attacks, making it an excellent tool for creating offensive sequences from dominant positions.\n\nThe mechanical principle behind the Ezekiel involves using your own gi sleeve as a rigid lever against one side of the opponent's neck while your opposite forearm creates pressure on the other side, effectively compressing both carotid arteries simultaneously. Unlike many chokes that require extensive grip fighting or precise hand placement on the opponent's gi, the Ezekiel's self-contained nature makes it reliable even against experienced grapplers. The choke can be finished with remarkable speed once proper positioning is achieved, often catching opponents by surprise due to its deceptive setup. From mount, the Ezekiel becomes especially dangerous because the top position provides natural weight distribution that prevents effective bridging escapes while the choke is being applied.\n\nStrategically, the Ezekiel serves multiple purposes beyond just finishing the submission. It creates excellent dilemmas when combined with armbar and cross collar choke attacks from mount, forcing opponents to defend multiple threats simultaneously. The setup naturally transitions into other control positions if the opponent attempts to escape, and even failed attempts often result in improved positional control. In gi competition, the Ezekiel represents a fundamental submission that every practitioner must understand both offensively and defensively, as it remains effective at all levels of competition when executed with proper timing and pressure application.",
   "safety_considerations": {
@@ -305,21 +302,46 @@
       "safety_emphasis": "Model proper safety protocols when teaching others. Share safety lessons learned from training. Protect all partners regardless of their experience level. Understand that technique mastery includes safety mastery."
     }
   ],
+  "from_positions": [
+    "Mount",
+    "High Mount",
+    "Side Control",
+    "North-South",
+    "Knee on Belly",
+    "Closed Guard",
+    "Modified Mount",
+    "S Mount"
+  ],
+  "related_submissions": [
+    "Arm Triangle",
+    "Cross Collar Choke",
+    "Armbar from Mount",
+    "Ezekiel Variations",
+    "Ezekiel from Mount",
+    "Loop Choke",
+    "Loop Choke from Mount",
+    "North-South Choke",
+    "Baseball Bat Choke",
+    "Guillotine Choke",
+    "Darce Choke",
+    "Anaconda Choke",
+    "Triangle Choke"
+  ],
   "related_content": [
     {
-      "name": "Mount Top",
+      "name": "Mount",
       "relationship": "Primary position for executing Ezekiel choke - provides weight distribution and control necessary for safe application"
     },
     {
-      "name": "High Mount Top",
+      "name": "High Mount",
       "relationship": "Optimal position variation for Ezekiel setup - riding high prevents elbow escapes and creates better threading angles"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Alternative position for Ezekiel choke variation - same mechanics applied from perpendicular body position"
     },
     {
-      "name": "North-South Top",
+      "name": "North-South",
       "relationship": "Transition position where reverse Ezekiel can be applied when opponent turns to avoid standard application"
     },
     {
@@ -347,24 +369,12 @@
       "relationship": "Strategic concept for combining Ezekiel with armbars and other mount attacks to create offensive sequences"
     },
     {
-      "name": "Closed Guard Top",
-      "relationship": "Alternative position for Ezekiel variation - can be applied while standing or kneeling in opponent's guard"
-    },
-    {
-      "name": "Reverse Mount Top",
-      "relationship": "Position for reverse Ezekiel application - same mechanics with reversed body orientation"
-    },
-    {
       "name": "Armbar from Mount",
       "relationship": "Complementary submission creating dilemma - when opponent defends Ezekiel with high hands, armbar becomes available"
     },
     {
-      "name": "Kimura from Mount",
-      "relationship": "Alternative mount submission - combines with Ezekiel to create multiple attack threats"
-    },
-    {
-      "name": "Ezekiel from Mount",
-      "relationship": "Specific variation focusing on mount application - core technique for this submission"
+      "name": "Position-Over-Submission Approach",
+      "relationship": "Fundamental principle requiring position maintenance as priority over submission attempts"
     }
   ],
   "expert_insights": {

@@ -1,25 +1,22 @@
 {
-  "metadata": {
-    "title": "Granby Roll | BJJ Technique | BJJ Graph",
-    "description": "Master the Granby Roll escape technique in BJJ. Essential defensive movement from turtle and bottom positions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T806",
-    "tags": [
-      "bjj",
-      "transition",
-      "defense",
-      "movement",
-      "escape",
-      "turtle",
-      "guard recovery",
-      "inversion"
-    ],
-    "starting_position": "Bottom Turtle",
-    "ending_position": "Guard Recovery",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Granby Roll",
+  "description": "Master the Granby Roll escape technique in BJJ. Essential defensive movement from turtle and bottom positions. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "defense",
+    "movement",
+    "escape",
+    "turtle",
+    "guard recovery",
+    "inversion"
+  ],
+  "starting_position": "Turtle",
+  "ending_position": "Closed Guard",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Granby Roll is a fundamental defensive movement technique that allows a practitioner to escape from inferior positions by rolling over the shoulder and inverting the body. Named after the wrestling technique popularized at Granby High School, this movement has become essential in modern BJJ for escaping turtle position, preventing back takes, and recovering guard. The technique involves a coordinated shoulder roll combined with hip extension and leg drive to create space and change the orientation of your body relative to your opponent. The Granby Roll is particularly effective against opponents attempting to take the back from turtle or when trapped in side control variations. Its effectiveness comes from the explosive nature of the movement combined with the ability to create angles that disrupt opponent control. Modern no-gi practitioners have elevated this technique to an art form, using it not just as an escape but as a transition into offensive positions and guard pulls. The movement requires significant flexibility in the spine and shoulders, as well as the spatial awareness to roll into open space rather than into your opponent's control.",
   "key_principles": [
@@ -37,8 +34,7 @@
     "Opponent's weight shifted forward or grips not fully established",
     "Your head and shoulders mobile enough to initiate the roll",
     "Sufficient flexibility in the spine and shoulders to complete the inversion",
-    "Awareness of which direction provides the safest escape route",
-    "Opponent not controlling both of your hips with their legs (as in body triangle)"
+    "Awareness of which direction provides the safest escape route"
   ],
   "execution_steps": [
     {
@@ -244,11 +240,11 @@
   "position_integration": "The Granby Roll serves as a critical escape mechanism within the defensive hierarchy of Brazilian Jiu-Jitsu, particularly from turtle position and bottom positions where back exposure is imminent. In the positional framework, turtle is considered a neutral but vulnerable position where the primary defensive goal is preventing back control while working toward guard recovery. The Granby Roll directly addresses this by providing an explosive, dynamic path from turtle to guard that bypasses the typical slow methodical escapes. Within modern no-gi systems, especially those influenced by wrestling, the Granby Roll has evolved from a pure escape into a transitional movement that can lead to offensive positions like inverted guards, Single Leg X, or Deep Half Guard. It fits into the broader category of inversion-based guard retention and recovery techniques that have become essential in contemporary grappling. The technique also chains naturally with other turtle escapes like the sit-out, stand-up, and forward roll, creating a complete defensive system. Advanced practitioners integrate the Granby Roll into their guard retention, using it when opponents pass their legs or when they need to create distance and reset. The movement represents a shift from static positional defense to dynamic, movement-based defense that characterizes modern grappling evolution. Understanding when to use the Granby Roll versus other escapes is critical: it excels when space is available and opponent's grips are loose, but fails when you're flattened or trapped against boundaries.",
   "related_content": [
     {
-      "name": "Bottom Turtle",
+      "name": "Turtle",
       "relationship": "Primary starting position"
     },
     {
-      "name": "Guard Recovery",
+      "name": "Closed Guard",
       "relationship": "Primary ending position"
     },
     {
@@ -288,7 +284,7 @@
       "relationship": "Position being escaped from"
     },
     {
-      "name": "Single Leg X Guard",
+      "name": "Single Leg X-Guard",
       "relationship": "Advanced ending position variation"
     },
     {

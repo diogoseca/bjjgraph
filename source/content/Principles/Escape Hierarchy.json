@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Escape Hierarchy | BJJ Concept | BJJ Graph",
     "description": "Understand Escape Hierarchy in BJJ. Learn systematic prioritization of escape techniques based on danger, energy efficiency, and success probability. Expert insights included.",
-    "concept_id": "C034",
+    "principle_id": "P034",
     "tags": [
       "bjj",
       "concept",
@@ -63,34 +63,34 @@
       "description": "Identifying optimal moments for escape execution based on opponent's weight distribution, transition moments between positions, breathing patterns, grip adjustments, and attention focus, enabling escapes during vulnerability windows rather than against established control."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Positional Hierarchy",
+      "principle_name": "Positional Hierarchy",
       "relationship_type": "Prerequisite",
       "description": "Understanding relative value and danger of positions is essential for establishing escape priorities, as positional hierarchy defines which positions demand immediate escape versus which allow methodical improvement."
     },
     {
-      "concept_name": "Escape Fundamentals",
+      "principle_name": "Escape Fundamentals",
       "relationship_type": "Prerequisite",
       "description": "Basic escape mechanics must be developed before hierarchical decision-making becomes relevant, as hierarchy determines which fundamental escapes to apply but relies on technical proficiency in those escapes."
     },
     {
-      "concept_name": "Energy Management System",
+      "principle_name": "Energy Management System",
       "relationship_type": "Complementary",
       "description": "Energy conservation principles work synergistically with escape hierarchy, as both concepts prioritize efficiency and recognize that defensive situations require strategic resource allocation to maintain escape capacity throughout matches."
     },
     {
-      "concept_name": "Pin Escape Methodology",
+      "principle_name": "Pin Escape Methodology",
       "relationship_type": "Extension",
       "description": "Pin escape methodology represents specialized application of escape hierarchy specifically to pinning positions, extending hierarchical principles to detailed escape mechanics from mount, side control, and knee on belly."
     },
     {
-      "concept_name": "Risk Assessment",
+      "principle_name": "Risk Assessment",
       "relationship_type": "Complementary",
       "description": "Risk evaluation integrates with escape hierarchy by determining acceptable risk levels for different escape attempts, balancing potential positional improvement against dangers of failed escapes creating worse situations."
     },
     {
-      "concept_name": "Defensive Strategy",
+      "principle_name": "Defensive Strategy",
       "relationship_type": "Extension",
       "description": "Broader defensive strategy encompasses escape hierarchy as one component within comprehensive defensive framework, extending hierarchical thinking to include prevention, survival, and counterattack elements beyond pure escape mechanics."
     }

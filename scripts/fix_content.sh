@@ -25,9 +25,11 @@ fi
 
 # Extract filename
 file_name=$(basename "$file_url")
+filename_without_ext=$(basename "$file_url" .json)
 
 echo "========================================"
 echo "Processing: $file_name"
+echo "File name (for name): $filename_without_ext"
 echo "========================================"
 
 # Step 1: Validate current state
@@ -60,49 +62,76 @@ fi
 # Step 2: Determine template and category based on file path
 echo "[2/7] Determining template and category..."
 if [[ "$file_url" == *"/Positions/"* ]]; then
-    template_file="source/templates/Positions/TEMPLATE-POSITION-FAMILY.json"
     file_category="Positions"
+
+    # Detect Position template type programmatically via filesystem
+    file_dir=$(dirname "$file_url")
+    position_name=$(basename "$file_url" .json)
+    variant_folder="$file_dir/$position_name"
+
+    if [ ! -d "$variant_folder" ]; then
+        # No folder = SINGLE
+        position_template_type="SINGLE"
+        template_file="source/templates/Positions/TEMPLATE-POSITION-SINGLE.json"
+    elif ls "$variant_folder"/*.json >/dev/null 2>&1; then
+        # Folder with .json files = FAMILY (has variant JSONs)
+        position_template_type="FAMILY"
+        template_file="source/templates/Positions/TEMPLATE-POSITION-FAMILY.json"
+    else
+        # Folder without .json files = DUAL (just .md files)
+        position_template_type="DUAL"
+        template_file="source/templates/Positions/TEMPLATE-POSITION-DUAL.json"
+    fi
+
+    echo "  Position template type: $position_template_type"
     ref_summarizer_guidance="This Position file will need references for these JSON fields:
-- offensive_transitions[].target_position (6-15 Position names - positions you can attack/transition to)
-- defensive_responses[].target_position (4-10 Position names - positions opponent escapes to)
-- related_content[] (5-12 any type - conceptually related content)
-- metadata.parent_variant (if child variant)
-- metadata.sibling_variants (if child variant)
-- metadata.child_variants (if parent position)
+- offensive_transitions[].target_position (6-15 Position names)
+- defensive_responses[].target_position (4-10 Position names)
+- related_content[] (5-12 any type)
 
-CRITICAL VARIANT LINKING:
-- If this filename contains 'Top' or 'Bottom' (child variant), PRIORITIZE in top 10:
-  1. Parent position (e.g., for 'Mount Top', include 'Mount')
-  2. Sibling variants (e.g., for 'Mount Top', include 'Mount Bottom')
-- If this is a base position with known variants (Mount, Side Control, Back Control, Turtle, North-South, Kesa Gatame, Knee on Belly), PRIORITIZE all child variants in top 10
+For FAMILY positions ($position_template_type = FAMILY):
+- variations[] (array of variant names matching .json files in subfolder)
+  • Just the names - descriptions/slugs are in the variant files
 
-Therefore, return: Position files (35-40 including variants), Transition files (5-10), Submission files (5)."
-    ref_filler_guidance="- offensive_transitions[].target_position → Use Position names (6-15 most relevant). ALWAYS use specific child variants when available (e.g., 'Mount Top' not 'Mount', 'Side Control Bottom' not 'Side Control')
-- defensive_responses[].target_position → Use Position names (4-10 most relevant). ALWAYS use specific child variants when available
+Therefore, return: Position files (35-40), Transition files (5-10), Submission files (5)."
+    ref_filler_guidance="DETECTED TEMPLATE TYPE: $position_template_type
+
+REQUIRED NAME FIELDS:
+- Set name = '$filename_without_ext' (MUST MATCH FILENAME EXACTLY)
+- If $position_template_type = DUAL or FAMILY:
+  • Set bottom.name = '$filename_without_ext Bottom'
+  • Set top.name = '$filename_without_ext Top'
+- DO NOT include 'title' field (auto-generated from name in jinja)
+
+VARIANT UNIQUENESS (required, 50 char max):
+- Add variant_uniqueness field at root level
+- Explain WHY this position's risk/energy differs strategically
+- Example: 'Higher positioning trades stability for submission proximity'
+- NOT just technical description, but strategic trade-off
+
+REFERENCES:
+- offensive_transitions[].target_position → Use Position names (6-15 most relevant)
+- defensive_responses[].target_position → Use Position names (4-10 most relevant)
 - related_content[] → Use any content type (5-12 most relevant)
-
-VARIANT FIELD LOGIC (check filename to determine):
-- If filename ends with 'Top.json' or 'Bottom.json' (this is a CHILD variant):
-  • Set parent_variant: base position name (e.g., 'Mount Top.json' → parent_variant: 'Mount')
-  • Set sibling_variants: array of other children (e.g., 'Mount Top.json' → sibling_variants: ['Mount Bottom'])
-
-- If this is a base position WITH variants (Mount, Side Control, Back Control, etc.):
-  • Set child_variants: array of all children (e.g., 'Mount.json' → child_variants: ['Mount Top', 'Mount Bottom'])
-
-- If neither applies: omit all variant fields"
+- ALWAYS use specific child variants when available (e.g., 'Mount Top' not 'Mount')"
 
 elif [[ "$file_url" == *"/Submissions/"* ]]; then
     template_file="source/templates/Submissions.json"
     file_category="Submissions"
     ref_summarizer_guidance="This Submission file will need references for these JSON fields:
-- from_positions[] (4-10 Position names - positions where this submission can be applied)
-- related_submissions[] (6-15 Submission names - chained or similar submissions)
-- related_content[] (5-12 any type - conceptually related content)
+- from_positions[] (2-10 Position names - positions where this submission can be applied)
+- related_submissions[] (3-15 Submission names - chained or similar submissions)
+- related_content[] (3-12 any type - conceptually related content)
 
-Therefore, return: Position files (25-30), Submission files (15-20), Transition/Concept files (5)."
-    ref_filler_guidance="- from_positions[] → Use Position names (select 4-10 most relevant)
-- related_submissions[] → Use Submission names (select 6-15 most relevant)
-- related_content[] → Use any content type (select 5-12 most relevant)"
+Therefore, return: Position files (25-30), Submission files (15-20), Transition/Principle files (5)."
+    ref_filler_guidance="REQUIRED NAME FIELD:
+- Set name = '$filename_without_ext' (MUST MATCH FILENAME EXACTLY)
+- DO NOT include 'title' field (auto-generated from name)
+
+REFERENCES (ALL REQUIRED for good SEO):
+- from_positions[] → Array of Position name strings (2-10 positions where you can apply this submission)
+- related_submissions[] → Array of Submission name strings (3-15 submissions that chain or relate)
+- related_content[] → Array of objects with name/relationship (3-12 items, any type)"
 
 elif [[ "$file_url" == *"/Transitions/"* ]]; then
     template_file="source/templates/Transitions.json"
@@ -113,7 +142,12 @@ elif [[ "$file_url" == *"/Transitions/"* ]]; then
 - related_techniques[] (6-15 Transition/Submission names - variations or follow-up techniques)
 
 Therefore, return: Position files (30-35), Transition files (10-15), Submission files (5-10)."
-    ref_filler_guidance="- from_state → Use ONE Position name (the starting position)
+    ref_filler_guidance="REQUIRED NAME FIELD:
+- Set name = '$filename_without_ext' (MUST MATCH FILENAME EXACTLY)
+- DO NOT include 'title' field (auto-generated from name)
+
+REFERENCES:
+- from_state → Use ONE Position name (the starting position)
 - to_state → Use ONE Position name (the ending position)
 - related_techniques[] → Use Transition/Submission names (select 6-15 most relevant)"
 
@@ -121,25 +155,34 @@ elif [[ "$file_url" == *"/Systems/"* ]]; then
     template_file="source/templates/Systems.json"
     file_category="Systems"
     ref_summarizer_guidance="This System file will need references for these JSON fields:
-- related_positions[] (8-20 Position names - key positions in this system)
-- related_transitions[] (8-20 Transition names - techniques used in this system)
-- related_concepts[] (8-20 Concept names - underlying principles)
+- related_content[] (10-30 items - mix of Positions, Transitions, Principles, other Systems)
 
-Therefore, return: Position files (20), Transition files (15), Concept files (15)."
-    ref_filler_guidance="- related_positions[] → Use Position names (select 8-20 most relevant)
-- related_transitions[] → Use Transition names (select 8-20 most relevant)
-- related_concepts[] → Use Concept names (select 8-20 most relevant)"
+Therefore, return: Position files (15), Transition files (10), Principle files (10), System files (5)."
+    ref_filler_guidance="REQUIRED NAME FIELD:
+- Set name = '$filename_without_ext' (MUST MATCH FILENAME EXACTLY)
+- DO NOT include 'title' field (auto-generated from name)
+
+REFERENCES (REQUIRED for good SEO - 10-30 items total):
+- related_content[] → Array of objects with name/content_type/relationship
+  • Mix of Positions (40%), Transitions (30%), Principles (20%), Systems (10%)
+  • content_type must be: 'Position', 'Transition', 'Submission', 'Principle', or 'System'
+  • Each relationship should explain how it connects to this system"
 
 elif [[ "$file_url" == *"/Principles/"* ]]; then
     template_file="source/templates/Principles.json"
-    file_category="Concepts"
-    ref_summarizer_guidance="This Concept file will need references for these JSON fields:
-- concept_relationships[] (6-15 Concept names - related or dependent principles)
-- application_contexts[] (8-20 Position names - positions where this concept applies)
-- related_content[] (5-12 any type - conceptually related content)
+    file_category="Principles"
+    ref_summarizer_guidance="This Principle file will need references for these JSON fields:
+- principle_relationships[] (6-15 Principle names - related or dependent principles)
+- application_contexts[] (8-20 Position names - positions where this principle applies)
+- related_content[] (5-12 any type - principleually related content)
 
-Therefore, return: Concept files (30-35), Position files (15-20), Transition/Submission files (5)."
-    ref_filler_guidance="- concept_relationships[] → Use Concept names (select 6-15 most relevant)
+Therefore, return: Principle files (30-35), Position files (15-20), Transition/Submission files (5)."
+    ref_filler_guidance="REQUIRED NAME FIELD:
+- Set name = '$filename_without_ext' (MUST MATCH FILENAME EXACTLY)
+- DO NOT include 'title' field (auto-generated from name)
+
+REFERENCES:
+- principle_relationships[] → Use Principle names (select 6-15 most relevant)
 - application_contexts[] → Use Position names (select 8-20 most relevant)
 - related_content[] → Use any content type (select 5-12 most relevant)"
 
@@ -163,16 +206,18 @@ template_content=$(<"$template_file")
 
 # Step 4: Build complete valid reference lists per category
 echo "[4/7] Building valid reference lists..."
-positions_list=$(find source/content/Positions -type f -name "*.json" | grep -v "TEMPLATE.json" | sed 's|source/content/Positions/||; s|\.json$||' | sort)
-transitions_list=$(find source/content/Transitions -type f -name "*.json" | grep -v "TEMPLATE.json" | sed 's|source/content/Transitions/||; s|\.json$||' | sort)
-submissions_list=$(find source/content/Submissions -type f -name "*.json" | grep -v "TEMPLATE.json" | sed 's|source/content/Submissions/||; s|\.json$||' | sort)
-concepts_list=$(find source/content/Principles -type f -name "*.json" | grep -v "TEMPLATE.json" | sed 's|source/content/Principles/||; s|\.json$||' | sort)
-systems_list=$(find source/content/Systems -type f -name "*.json" | grep -v "TEMPLATE.json" | sed 's|source/content/Systems/||; s|\.json$||' | sort)
+# For nested files, show only the base filename (not the full path)
+# Example: "Ashi Garami/Inside Ashi-Garami" becomes just "Inside Ashi-Garami"
+positions_list=$(find source/content/Positions -type f -name "*.json" | grep -v "TEMPLATE.json" | while read f; do basename "$f" .json; done | sort -u)
+transitions_list=$(find source/content/Transitions -type f -name "*.json" | grep -v "TEMPLATE.json" | while read f; do basename "$f" .json; done | sort -u)
+submissions_list=$(find source/content/Submissions -type f -name "*.json" | grep -v "TEMPLATE.json" | while read f; do basename "$f" .json; done | sort -u)
+principles_list=$(find source/content/Principles -type f -name "*.json" | grep -v "TEMPLATE.json" | while read f; do basename "$f" .json; done | sort -u)
+systems_list=$(find source/content/Systems -type f -name "*.json" | grep -v "TEMPLATE.json" | while read f; do basename "$f" .json; done | sort -u)
 
 echo "  Positions: $(echo "$positions_list" | wc -l | xargs) files"
 echo "  Transitions: $(echo "$transitions_list" | wc -l | xargs) files"
 echo "  Submissions: $(echo "$submissions_list" | wc -l | xargs) files"
-echo "  Concepts: $(echo "$concepts_list" | wc -l | xargs) files"
+echo "  Principles: $(echo "$principles_list" | wc -l | xargs) files"
 echo "  Systems: $(echo "$systems_list" | wc -l | xargs) files"
 
 # Get top references if we have TODOs OR validation errors (for fixing links)
@@ -184,7 +229,7 @@ fi
 if [ "$needs_references" = true ]; then
     # Step 5: Build all references combined for summarizer
     echo "[5/7] Building combined reference list for summarizer..."
-    all_references=$(find source/content/{Positions,Submissions,Transitions,Systems,Concepts} -type f -name "*.json" | \
+    all_references=$(find source/content/{Positions,Submissions,Transitions,Systems,Principles} -type f -name "*.json" | \
         grep -v "TEMPLATE.json" | \
         grep -v "$file_url" | \
         sed 's|source/content/||; s|\.json$||' | \
@@ -192,7 +237,8 @@ if [ "$needs_references" = true ]; then
 
     # Step 6: Get top references from Claude
     echo "[6/7] Getting contextually relevant references from Claude..."
-    reference_files_summarizer_prompt="You are an expert Brazilian Jiu-Jitsu black belt instructor trained extensively by John Danaher, Gordon Ryan, and Eddie Bravo.
+    reference_files_summarizer_prompt=$(cat <<EOF
+You are an expert Brazilian Jiu-Jitsu black belt instructor trained extensively by John Danaher, Gordon Ryan, and Eddie Bravo.
 
 Your task is to extract and summarize among the following list the most relevant references when writing content about ${file_name}.
 
@@ -213,7 +259,9 @@ Available references:
 ${all_references}
 \`\`\`
 
-Output ONLY the list of references (no markdown, no explanations, just the list):"
+Output ONLY the list of references (no markdown, no explanations, just the list):
+EOF
+)
 
     echo "$reference_files_summarizer_prompt" | claude --model claude-sonnet-4-5-20250929 | tee /tmp/claude_refs_$$.txt
     top_references=$(<"/tmp/claude_refs_$$.txt")
@@ -240,7 +288,8 @@ else
     task_description="fix all validation errors"
 fi
 
-filler_prompt="You are an expert Brazilian Jiu-Jitsu black belt instructor trained extensively by John Danaher, Gordon Ryan, and Eddie Bravo.
+filler_prompt=$(cat <<EOF
+You are an expert Brazilian Jiu-Jitsu black belt instructor trained extensively by John Danaher, Gordon Ryan, and Eddie Bravo.
 
 Your task is to ${task_description} in the following JSON file with comprehensive, expert-level content that matches the template structure.
 
@@ -276,9 +325,9 @@ Submissions ($(echo "$submissions_list" | wc -l | xargs) available):
 ${submissions_list}
 \`\`\`
 
-Concepts ($(echo "$concepts_list" | wc -l | xargs) available):
+Principles ($(echo "$principles_list" | wc -l | xargs) available):
 \`\`\`
-${concepts_list}
+${principles_list}
 \`\`\`
 
 Systems ($(echo "$systems_list" | wc -l | xargs) available):
@@ -296,28 +345,48 @@ ${ref_filler_guidance}
 
 CRITICAL: All references MUST exist in the lists above. Do not invent or guess file names.
 
+REFERENCE FORMAT (CRITICAL - Hub-and-Spoke Architecture):
+- Use ONLY the base filename (no paths, no extensions): 'Inside Ashi-Garami', 'Deep Half Guard'
+- NEVER use Category/Name format: 'Positions/Inside Ashi-Garami' ❌
+- NEVER use folder paths with slashes ❌
+- NEVER use parent folder prefixes ❌
+- For nested files in subfolders, use ONLY the final filename part
+- The validator resolves categories and nested paths automatically
+- Wikilinks are flat: [[Inside Ashi-Garami]] not nested paths
+
+EXAMPLES:
+✓ CORRECT: {"name": "Inside Ashi-Garami", "content_type": "Position"}
+✓ CORRECT: {"name": "Deep Half Guard", "content_type": "Position"}
+✓ CORRECT: {"name": "Honey Hole", "content_type": "Position"}
+✗ WRONG: {"name": "Ashi Garami/Inside Ashi-Garami", "content_type": "Position"}
+✗ WRONG: {"name": "Half Guard/Deep Half Guard", "content_type": "Position"}
+✗ WRONG: {"name": "Positions/Ashi Garami/Honey Hole", "content_type": "Position"}
+
 EXPERT GUIDELINES:
 1. John Danaher Perspective: Emphasize systematic technical precision, biomechanical analysis, and theoretical frameworks
 2. Gordon Ryan Perspective: Focus on high-percentage techniques, competition-proven methods, and winning strategies
 3. Eddie Bravo Perspective: Include innovative variations, 10th Planet methodology, and creative applications
 
+CRITICAL DESCRIPTION RULES:
+- Write descriptions in your own expert voice
+- DO NOT mention "Expert insights from Danaher, Ryan, and Bravo" or similar phrases
+- DO NOT reference specific instructors in the description field
+- Focus on the technique/position itself, not who teaches it
+- Keep descriptions concise and focused on what users will learn
+
 REQUIREMENTS:
 - Return ONLY valid JSON (no markdown, no explanations)
 - Fix ALL validation errors listed above
 - Fill all TODO values with realistic, expert-level content
-- Fix all broken references using ONLY names from the valid reference lists above
+- Fix all broken references using ONLY flat names from the valid reference lists above
 - For Position references: ALWAYS use specific child variant names when available (e.g., 'Mount Top' not 'Mount')
-- CRITICALLY IMPORTANT: Match the TEMPLATE structure EXACTLY - use the same field names, same nesting structure, same required fields
-- DO NOT add fields that aren't in the template
-- DO NOT remove fields that are in the template
-- Ensure all success rates follow proper ordering: Beginner ≤ Intermediate ≤ Advanced
-- Include proper expert insights that reflect each expert's unique perspective
-- Safety sections must be comprehensive (especially for submissions)
+- Match the TEMPLATE structure exactly
 - All content must be technically accurate and reflect BJJ best practices
-- All content should use language which is clear and instructive for practitioners at all levels
-- The output JSON must pass validation against the schema defined in the template
+- Safety sections must be comprehensive (especially for submissions)
 
-Output the completed JSON file (in entirety, matching template structure, with all errors fixed):"
+Output the completed JSON file (in entirety, matching template structure, with all errors fixed):
+EOF
+)
 
 echo "$filler_prompt" | claude --model claude-sonnet-4-5-20250929 | tee /tmp/claude_output_$$.txt
 filled_content=$(<"/tmp/claude_output_$$.txt")
@@ -327,8 +396,17 @@ if echo "$filled_content" | grep -q '```'; then
     filled_content=$(echo "$filled_content" | sed -n '/```json/,/```/p' | sed '1d;$d')
 fi
 
-# Write filled content to file
-echo "$filled_content" > "$file_url"
+# Verify output is valid JSON before writing
+if ! echo "$filled_content" | python3 -m json.tool > /dev/null 2>&1; then
+    echo "ERROR: Claude did not return valid JSON"
+    echo "Output preview: $(echo "$filled_content" | head -c 200)..."
+    exit 1
+fi
+
+# Write to temp file first, then atomic move
+temp_file="${file_url}.tmp"
+echo "$filled_content" > "$temp_file"
+mv "$temp_file" "$file_url"
 echo ""
 
 # Validate filled content
@@ -355,7 +433,8 @@ for attempt in 1 2; do
     echo "$validation_output"
     echo ""
 
-    correction_prompt="The following JSON file failed validation with the errors listed below.
+    correction_prompt=$(cat <<EOF
+The following JSON file failed validation with the errors listed below.
 
 VALIDATION ERRORS:
 ${validation_output}
@@ -375,19 +454,25 @@ VALID REFERENCES BY CATEGORY (only use names from these lists):
 Positions: ${positions_list}
 Transitions: ${transitions_list}
 Submissions: ${submissions_list}
-Concepts: ${concepts_list}
+Principles: ${principles_list}
 Systems: ${systems_list}
 
 CRITICAL INSTRUCTIONS:
 1. Fix ALL validation errors listed above
-2. Fix all broken references using ONLY names from the valid reference lists above
-3. Match the template structure EXACTLY - same field names, same nesting
-4. DO NOT add fields not in the template
-5. DO NOT remove required fields from the template
-6. Ensure expert_insights uses keys: danaher, gordon_ryan, eddie_bravo (not 'expert' array)
-7. Return ONLY valid JSON (no markdown, no explanations)
+2. Fix all broken references using ONLY base filenames from the valid reference lists above
+3. For nested files in subfolders, use ONLY the final filename part (no slashes)
+4. NEVER use folder paths in reference names (no slashes allowed)
+5. Match the template structure exactly
+6. Return ONLY valid JSON (no markdown, no explanations)
 
-Output the corrected JSON file:"
+REFERENCE FORMAT EXAMPLES:
+✓ CORRECT: "Inside Ashi-Garami" (for nested variant file)
+✓ CORRECT: "Deep Half Guard" (for nested variant file)
+✗ WRONG: Any reference containing a slash character
+
+Output the corrected JSON file:
+EOF
+)
 
     echo "$correction_prompt" | claude --model claude-sonnet-4-5-20250929 | tee /tmp/claude_correction_${attempt}_$$.txt
     filled_content=$(<"/tmp/claude_correction_${attempt}_$$.txt")
@@ -396,7 +481,18 @@ Output the corrected JSON file:"
     if echo "$filled_content" | grep -q '```'; then
         filled_content=$(echo "$filled_content" | sed -n '/```json/,/```/p' | sed '1d;$d')
     fi
-    echo "$filled_content" > "$file_url"
+
+    # Verify output is valid JSON before writing
+    if ! echo "$filled_content" | python3 -m json.tool > /dev/null 2>&1; then
+        echo "ERROR: Claude correction attempt $attempt did not return valid JSON"
+        echo "Output preview: $(echo "$filled_content" | head -c 200)..."
+        continue  # Try next attempt
+    fi
+
+    # Write to temp file first, then atomic move
+    temp_file="${file_url}.tmp"
+    echo "$filled_content" > "$temp_file"
+    mv "$temp_file" "$file_url"
 
     # Validate again
     validation_output=$(python3 scripts/validate_json.py --file "$file_url" 2>&1 || echo "INVALID")

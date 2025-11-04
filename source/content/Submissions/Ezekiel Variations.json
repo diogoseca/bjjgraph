@@ -1,18 +1,15 @@
 {
-  "metadata": {
-    "title": "Ezekiel Choke Variations | BJJ Submission | BJJ Graph",
-    "description": "Master Ezekiel Choke variations in BJJ. Complete guide with safety protocols, setup, execution from multiple positions. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-    "submission_id": "SUB098",
-    "tags": ["bjj", "submission", "ezekiel-choke", "gi-choke", "blood-choke", "variations", "mount", "side-control", "closed-guard"],
-    "submission_category": "Choke",
-    "submission_type": "Blood Choke",
-    "target_area": "Carotid arteries and trachea",
-    "starting_position": "Mount Top",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 50,
-      "advanced": 65
-    }
+  "name": "Ezekiel Variations",
+  "description": "Master Ezekiel Choke variations in BJJ. Complete guide with safety protocols, setup, execution from multiple positions. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "tags": ["bjj", "submission", "ezekiel-choke", "gi-choke", "blood-choke", "variations", "mount", "side-control", "closed-guard"],
+  "submission_category": "Choke",
+  "submission_type": "Blood Choke",
+  "target_area": "Carotid arteries and trachea",
+  "starting_position": "Mount",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 50,
+    "advanced": 65
   },
   "overview": "The Ezekiel Choke is a highly versatile gi-based blood choke that can be applied from multiple dominant positions, making it one of the most adaptable submissions in Brazilian Jiu-Jitsu. Named after Brazilian judoka Ezequiel Paraguassu who popularized it in BJJ, this technique uses the practitioner's own sleeve as a choking mechanism combined with the forearm to compress the carotid arteries. What makes the Ezekiel Choke particularly dangerous is its ability to be executed from positions where opponents typically feel safe, including mount, side control, closed guard top, and even unconventional positions like inside the opponent's closed guard. The fundamental mechanism involves threading one hand inside the opponent's collar or using your own gi sleeve, while the other arm wraps around the neck to create a scissoring pressure that cuts off blood flow to the brain.\n\nThe variations of the Ezekiel Choke demonstrate the technique's tactical flexibility across different scenarios and positions. From mount, it serves as a high-percentage finishing option when opponents defend their neck tightly. From side control, it provides an alternative attack when the opponent frames effectively against traditional north-south chokes. The most audacious variation involves executing the choke from within the opponent's closed guard, turning a defensive position into an offensive submission opportunity. Each variation requires specific grip configurations, angle adjustments, and pressure applications, but all share the fundamental principle of using the gi and forearm to create bilateral compression of the neck. Understanding these variations allows practitioners to maintain submission threats regardless of positional changes, creating a seamless offensive system that keeps opponents constantly defending.",
   "safety_considerations": {
@@ -188,12 +185,12 @@
   ],
   "variations_and_setups": [
     {
-      "variation_name": "Ezekiel from Mount Top",
+      "variation_name": "Ezekiel from Mount",
       "description": "The classic and highest percentage variation executed from full mount. Thread your hand across the neck while maintaining heavy chest-to-chest pressure. This variation allows maximum control and weight distribution, making it difficult for the opponent to escape while you establish the choke.",
       "when_to_use": "Use when in secure mount position and opponent is defending with arms crossed over chest or attempting to trap an arm for an escape. This is the primary variation taught to beginners."
     },
     {
-      "variation_name": "Ezekiel from Side Control Top",
+      "variation_name": "Ezekiel from Side Control",
       "description": "Applied from side control by threading your bottom arm (the arm closer to the opponent's legs) across their neck while your top arm provides the compression. Your chest pressure becomes critical in this variation to prevent the opponent from turning away. The angle is slightly different, requiring you to position your hips lower and your head higher on their chest.",
       "when_to_use": "Effective when opponent is framing well against your chest in side control, preventing traditional north-south transitions. Also excellent when opponent is defending a kimura or americana, as their arms are occupied."
     },
@@ -299,6 +296,35 @@
       "safety_emphasis": "As a more advanced practitioner, you have increased responsibility for your training partners' safety. When working with less experienced partners, apply even lighter pressure and release earlier. When teaching, emphasize safety protocols before technique. Always demonstrate proper release protocol. Develop the wisdom to know when to finish a submission versus when to let it go in training to preserve your partner's health and trust."
     }
   ],
+  "from_positions": [
+    "Mount",
+    "High Mount",
+    "Modified Mount",
+    "S Mount",
+    "Side Control",
+    "Scarf Hold Position",
+    "Modified Scarf Hold",
+    "Kesa Gatame",
+    "Kuzure Kesa-Gatame",
+    "North-South"
+  ],
+  "related_submissions": [
+    "Ezekiel Choke",
+    "Ezekiel from Mount",
+    "Arm Triangle",
+    "North-South Choke",
+    "Cross Collar Choke",
+    "Loop Choke",
+    "Loop Choke from Mount",
+    "Baseball Bat Choke",
+    "Guillotine Choke",
+    "Anaconda Choke",
+    "Darce Choke",
+    "Breadcutter Choke",
+    "Clock Choke",
+    "Bow and Arrow Choke",
+    "Paper Cutter Choke"
+  ],
   "related_content": [
     {
       "name": "Ezekiel Choke",
@@ -309,20 +335,16 @@
       "relationship": "Primary variation - most commonly taught version"
     },
     {
-      "name": "Mount Top",
+      "name": "Mount",
       "relationship": "Primary starting position for classic variation"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Alternative starting position for side control variation"
     },
     {
-      "name": "Closed Guard Top",
+      "name": "Closed Guard",
       "relationship": "Unconventional starting position for audacious variation"
-    },
-    {
-      "name": "North-South Top",
-      "relationship": "Starting position for north-south variation"
     },
     {
       "name": "Arm Triangle",
@@ -341,12 +363,16 @@
       "relationship": "Related gi choke using similar cross-collar mechanics"
     },
     {
-      "name": "North-South Choke",
-      "relationship": "Complementary choke from similar top positions"
-    },
-    {
       "name": "Positional Hierarchy",
       "relationship": "Concept explaining why mount and side control variations are higher percentage"
+    },
+    {
+      "name": "North-South Choke",
+      "relationship": "Related choke from north-south position"
+    },
+    {
+      "name": "Knee on Belly",
+      "relationship": "Starting position for knee on belly variation"
     }
   ],
   "expert_insights": {

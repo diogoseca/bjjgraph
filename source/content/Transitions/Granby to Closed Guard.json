@@ -1,16 +1,13 @@
 {
-  "metadata": {
-    "title": "Granby to Closed Guard | BJJ Technique | BJJ Graph",
-    "description": "Master the Granby to Closed Guard recovery technique. Learn Granby roll mechanics to recover guard from compromised positions. Beginner 35%, Intermediate 50%, Advanced 65%.",
-    "transition_id": "T312",
-    "tags": ["bjj", "technique", "escape", "guard-recovery", "granby-roll", "defensive-technique", "movement"],
-    "starting_position": "Bottom Turtle",
-    "ending_position": "Closed Guard Bottom",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 50,
-      "advanced": 65
-    }
+  "name": "Granby to Closed Guard",
+  "description": "Learn Granby to Closed Guard recovery technique. Master Granby roll mechanics to recover guard from compromised positions. Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "tags": ["bjj", "technique", "escape", "guard-recovery", "granby-roll", "defensive-technique", "movement"],
+  "starting_position": "Turtle",
+  "ending_position": "Closed Guard",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 50,
+    "advanced": 65
   },
   "overview": "The Granby to Closed Guard is a dynamic defensive recovery technique that uses the Granby roll motion to transition from compromised bottom positions back to closed guard. This technique is essential for practitioners who find themselves in turtle, side control escape scenarios, or other defensive positions where traditional guard recovery methods are unavailable. The movement combines a shoulder roll with hip rotation to create space and redirect momentum, allowing you to insert your legs between you and your opponent to re-establish guard.\n\nThe technique is particularly valuable because it works against forward pressure, using the opponent's weight and momentum against them. When executed properly, the Granby roll creates a brief window where your opponent's base is compromised, allowing you to thread your legs through and secure closed guard. This recovery method is fundamental to modern BJJ defensive systems and forms the foundation for numerous escape sequences.\n\nMastery of the Granby to Closed Guard provides practitioners with a reliable escape route from dangerous positions, reducing the effectiveness of common pinning attacks and creating opportunities to return to offensive guard play. The technique requires good body awareness, hip mobility, and timing, but once developed becomes an instinctive defensive reaction that can save matches.",
   "key_principles": [
@@ -247,6 +244,22 @@
     {
       "name": "Re-Guard",
       "relationship": "Generic guard recovery category that Granby to Guard exemplifies"
+    },
+    {
+      "name": "Forward Roll",
+      "relationship": "Related rolling movement using similar biomechanics"
+    },
+    {
+      "name": "Shrimp Escape",
+      "relationship": "Complementary linear escape technique for guard recovery"
+    },
+    {
+      "name": "Guard Replacement",
+      "relationship": "Alternative guard recovery method from compromised positions"
+    },
+    {
+      "name": "Frame and Shrimp",
+      "relationship": "Alternative escape combining framing with linear movement"
     }
   ],
   "expert_insights": {

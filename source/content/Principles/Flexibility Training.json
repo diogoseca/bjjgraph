@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Flexibility Training | BJJ Concept | BJJ Graph",
     "description": "Understand Flexibility Training in BJJ. Learn systematic mobility development, injury prevention, and range of motion protocols for enhanced performance.",
-    "concept_id": "C036",
+    "principle_id": "P036",
     "tags": [
       "bjj",
       "concept",
@@ -62,34 +62,34 @@
       "description": "The capacity to control and utilize flexibility actively rather than achieving range only through passive stretching. Active flexibility ensures that mobility gains translate to technical performance under resistance and fatigue rather than existing only in static positions."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Biomechanical Principles",
+      "principle_name": "Biomechanical Principles",
       "relationship_type": "Prerequisite",
       "description": "Understanding biomechanical principles provides the foundation for intelligent flexibility training that respects joint mechanics and tissue adaptation rather than pursuing arbitrary range of motion goals."
     },
     {
-      "concept_name": "Strength Development",
+      "principle_name": "Strength Development",
       "relationship_type": "Complementary",
       "description": "Strength and flexibility must develop in balance as excessive flexibility without corresponding strength creates joint instability while strength without flexibility limits technical options and increases injury risk."
     },
     {
-      "concept_name": "Energy Management System",
+      "principle_name": "Energy Management System",
       "relationship_type": "Complementary",
       "description": "Adequate flexibility reduces energy expenditure during technical execution as practitioners can achieve positions efficiently rather than forcing movements through restricted range of motion."
     },
     {
-      "concept_name": "Escape Fundamentals",
+      "principle_name": "Escape Fundamentals",
       "relationship_type": "Extension",
       "description": "Flexibility training extends escape capabilities by enabling defensive movements that would be impossible with restricted mobility, particularly hip escapes and bridging mechanics."
     },
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention Concepts",
       "relationship_type": "Extension",
       "description": "Enhanced flexibility extends guard retention capacity by allowing greater range in defensive frames, hip movement, and leg positioning that prevents guard passing."
     },
     {
-      "concept_name": "Drilling Methodology",
+      "principle_name": "Drilling Methodology",
       "relationship_type": "Complementary",
       "description": "Systematic drilling methodology provides the repetition volume necessary to develop and maintain functional flexibility while building movement patterns that utilize increased range of motion."
     }

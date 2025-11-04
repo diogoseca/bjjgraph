@@ -1,12 +1,9 @@
 {
-  "metadata": {
-    "title": "Self-Defense Application Framework | BJJ System | BJJ Graph",
-    "description": "Master self-defense applications of BJJ. Comprehensive framework for street effectiveness, legal considerations, and reality-based training.",
-    "system_id": "SC047",
-    "tags": ["bjj", "self-defense", "reality-based", "street-effectiveness", "combat-application", "legal-framework"],
-    "system_type": "Training Methodology",
-    "difficulty_level": "Intermediate"
-  },
+  "name": "Self-Defense Application Framework",
+  "description": "Master self-defense applications of BJJ with systematic framework for street effectiveness, legal considerations, stress inoculation, and reality-based training methodology.",
+  "tags": ["bjj", "self-defense", "reality-based", "street-effectiveness", "combat-application", "legal-framework", "stress-inoculation"],
+  "system_type": "Training Methodology",
+  "difficulty_level": "Intermediate",
   "overview": "The Self-Defense Application Framework provides a systematic approach to translating sport BJJ techniques into effective self-defense strategies. This system addresses the fundamental differences between competition grappling and real-world confrontations, including the presence of strikes, environmental hazards, multiple attackers, and legal implications. The framework emphasizes efficiency, decisiveness, and de-escalation while maintaining technical excellence. Unlike sport BJJ which rewards points and positional control, self-defense applications prioritize rapid neutralization, escape, and personal safety. The system integrates striking defense, clinch control, takedown defense, and ground control principles specifically adapted for self-defense scenarios. It addresses pre-fight awareness, verbal de-escalation, legal use of force considerations, and post-incident protocols. The framework is built on the principle that sport BJJ provides an excellent foundation but requires specific modifications and additions to be truly effective for self-defense. Training methodology emphasizes stress inoculation, scenario-based drilling, and understanding the legal and ethical dimensions of physical confrontation.",
   "key_principles": [
     "Avoidance and de-escalation are the primary self-defense techniques - physical engagement is the last resort",
@@ -224,27 +221,27 @@
       "relationship": "Primary tactical position for self-defense - avoiding ground fighting when possible"
     },
     {
-      "name": "Clinch Position",
+      "name": "Clinch",
       "content_type": "Position",
       "relationship": "Critical control position for neutralizing strikes and controlling distance"
     },
     {
-      "name": "Mount Top",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "Dominant top control position when ground fighting is necessary"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "High-percentage control position allowing striking defense and awareness"
     },
     {
-      "name": "Back Control Top",
+      "name": "Back Control",
       "content_type": "Position",
       "relationship": "Optimal position for rapid control and submission in self-defense"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Traditional guard position that requires modification for self-defense contexts"
     },
@@ -259,7 +256,17 @@
       "relationship": "Emergency defensive posture for protection from strikes"
     },
     {
-      "name": "Technical Stand Up to Single Leg",
+      "name": "Standing Rear Clinch",
+      "content_type": "Position",
+      "relationship": "Standing back control position for self-defense contexts"
+    },
+    {
+      "name": "Turtle",
+      "content_type": "Position",
+      "relationship": "Defensive position requiring immediate escape in self-defense scenarios"
+    },
+    {
+      "name": "Technical Standup",
       "content_type": "Transition",
       "relationship": "Essential escape technique to return to standing from bottom positions"
     },
@@ -289,6 +296,16 @@
       "relationship": "Basic escape from mount position"
     },
     {
+      "name": "Takedown Defense",
+      "content_type": "Transition",
+      "relationship": "Critical defensive skill for maintaining standing position"
+    },
+    {
+      "name": "Standing up in Base",
+      "content_type": "Transition",
+      "relationship": "Fundamental method for returning to standing from ground"
+    },
+    {
       "name": "Rear Naked Choke",
       "content_type": "Submission",
       "relationship": "Optimal submission for self-defense - rapid control without strikes"
@@ -305,38 +322,43 @@
     },
     {
       "name": "Positional Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Understanding position value in self-defense vs sport context"
     },
     {
       "name": "Defensive Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Overall strategic framework for defense-first approach"
     },
     {
       "name": "Space Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential principle for managing distance and creating escape opportunities"
     },
     {
       "name": "Base Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Critical for maintaining standing position and avoiding takedowns"
     },
     {
       "name": "Energy Conservation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Managing energy expenditure during high-stress confrontations"
     },
     {
       "name": "Escape Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Prioritization of escape techniques based on position severity"
     },
     {
-      "name": "Competition Strategy",
-      "content_type": "System",
-      "relationship": "Contrasts with self-defense tactical priorities"
+      "name": "Defensive Posture",
+      "content_type": "Principle",
+      "relationship": "Maintaining protective body positioning against strikes"
+    },
+    {
+      "name": "Risk Assessment",
+      "content_type": "Principle",
+      "relationship": "Evaluating tactical risks in real-time during confrontations"
     },
     {
       "name": "MMA Crossover Strategy",

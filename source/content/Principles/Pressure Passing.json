@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Pressure Passing | BJJ Concept | BJJ Graph",
-    "description": "Understand Pressure Passing in BJJ. Learn systematic weight distribution, flattening mechanics, and position advancement principles. Expert insights included.",
-    "concept_id": "C089",
-    "tags": [
-      "bjj",
-      "concept",
-      "intermediate",
-      "passing",
-      "pressure",
-      "guard-passing",
-      "top-control",
-      "weight-distribution"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Pressure Passing",
+  "description": "Master pressure passing fundamentals in BJJ. Learn weight distribution, flattening mechanics, systematic passing sequences, and position control for all skill levels.",
+  "tags": [
+    "bjj",
+    "principle",
+    "intermediate",
+    "passing",
+    "pressure",
+    "guard-passing",
+    "top-control",
+    "weight-distribution"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Pressure Passing represents the strategic framework of using forward pressure, weight distribution, and body positioning to systematically flatten opponent's guard, eliminate space for movement, and advance position while maintaining stable control throughout the passing sequence. Unlike dynamic or speed-based passing approaches, pressure passing focuses on creating sustained forward pressure that forces opponent onto their back, restricts hip movement and guard retention mechanisms, and enables methodical position advancement through superior weight control and base stability. This concept integrates biomechanical understanding of how pressure affects guard players' mobility with strategic decisions about pressure application points, passing lanes, and timing for position advancement. Pressure passing serves as both an immediate control mechanism that restricts opponent's guard recovery options and a systematic approach that methodically advances position with reduced risk of sweeps or scrambles compared to more dynamic passing methods. The ability to apply effective pressure passing principles often determines whether a practitioner can control and pass the guards of opponents who excel at retention through movement or maintains vulnerability to dynamic guard players who create scrambles, making it one of the most essential strategic frameworks in guard passing development.",
   "key_principles": [
     "Generate consistent forward pressure that flattens opponent and restricts hip mobility",
@@ -40,7 +37,7 @@
     },
     {
       "skill_name": "Grip Fighting for Pressure",
-      "description": "Specialized grip fighting approach focused on establishing and maintaining grips that facilitate pressure application and prevent opponent from creating frames or recovering guard. This includes understanding which grips enable maximum pressure transfer and which grips must be broken to advance position."
+      "description": "Specialized grip fighting approach focused on establishing and maintaining grips that facilitate pressure transfer and prevent opponent from creating frames or recovering guard. This includes understanding which grips enable maximum pressure transfer and which grips must be broken to advance position."
     },
     {
       "skill_name": "Base Maintenance Under Pressure",
@@ -63,78 +60,101 @@
       "description": "Specialized application of upper body pressure through crossface and shoulder driving that both controls opponent's head position and creates the forward pressure necessary for flattening guard structure. This skill integrates head control with systematic pressure application for maximum effectiveness."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Pressure Application",
+      "principle_name": "Pressure Application",
       "relationship_type": "Prerequisite",
       "description": "Pressure Application provides the foundational understanding of how to generate and transfer pressure effectively, which Pressure Passing builds upon by systematizing pressure use specifically for guard passing contexts."
     },
     {
-      "concept_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing Principles",
       "relationship_type": "Extension",
       "description": "Pressure Passing represents one major strategic approach within the broader Guard Passing Principles framework, offering a systematic methodology focused on control and restriction rather than speed or agility."
     },
     {
-      "concept_name": "Base Maintenance",
+      "principle_name": "Base Maintenance",
       "relationship_type": "Complementary",
       "description": "Base Maintenance works synergistically with Pressure Passing by providing the stability necessary to apply aggressive forward pressure without creating sweep vulnerabilities, making these concepts mutually reinforcing."
     },
     {
-      "concept_name": "Weight Distribution",
+      "principle_name": "Weight Distribution",
       "relationship_type": "Prerequisite",
       "description": "Weight Distribution principles form the biomechanical foundation for effective Pressure Passing, as understanding how to shift and position weight optimally determines pressure effectiveness and passing success."
     },
     {
-      "concept_name": "Speed Passing",
+      "principle_name": "Speed Passing",
       "relationship_type": "Alternative",
       "description": "Speed Passing represents an alternative guard passing philosophy that emphasizes quick movement and timing over sustained pressure, offering complementary approaches that practitioners often integrate based on opponent characteristics."
     },
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention Concepts",
       "relationship_type": "Complementary",
       "description": "Understanding Guard Retention Concepts from the defensive perspective enhances Pressure Passing effectiveness by revealing which retention mechanisms pressure most effectively disrupts and how to systematically eliminate guard recovery options."
+    },
+    {
+      "principle_name": "Cross Face Control",
+      "relationship_type": "Complementary",
+      "description": "Cross Face Control provides specific technical methodology for establishing upper body dominance that enables systematic pressure application throughout passing sequences."
+    },
+    {
+      "principle_name": "Posture Breaking",
+      "relationship_type": "Prerequisite",
+      "description": "Posture Breaking skills are foundational for initiating pressure passing sequences by establishing the flattened positioning necessary for sustained pressure application and position advancement."
+    },
+    {
+      "principle_name": "Forward Pressure",
+      "relationship_type": "Prerequisite",
+      "description": "Forward Pressure represents the core mechanical principle underlying all pressure passing applications, teaching how to generate and sustain pressure without losing structural integrity."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Top",
+      "context": "Closed Guard",
       "how_applied": "Apply sustained chest-to-chest pressure while breaking posture and establishing grips that prevent opponent from creating angles, using forward pressure to flatten opponent and restrict hip mobility necessary for sweep attempts or submissions."
     },
     {
-      "context": "Half Guard Top",
+      "context": "Half Guard",
       "how_applied": "Use crossface and shoulder pressure to drive opponent flat while controlling the trapped leg, applying systematic pressure that prevents underhook establishment and eliminates space for recovery to full guard or sweep attempts."
     },
     {
-      "context": "Knee Shield Half Guard Bottom",
+      "context": "Knee Shield Half Guard",
       "how_applied": "From top position, apply gradual pressure to collapse the knee shield while maintaining stable base, using chest pressure and head position to flatten opponent's frame and create passing opportunities as the shield deteriorates."
     },
     {
-      "context": "Butterfly Guard Top",
+      "context": "Butterfly Guard",
       "how_applied": "Counter opponent's butterfly hooks with sustained downward pressure that restricts their ability to elevate, combining chest pressure with strategic weight distribution that flattens opponent and neutralizes sweep mechanics."
     },
     {
-      "context": "De La Riva Guard Top",
+      "context": "De La Riva Guard",
       "how_applied": "Apply forward pressure while controlling opponent's collar and sleeve to restrict their ability to create angles with the De La Riva hook, using systematic pressure to drive opponent flat and eliminate the elevation necessary for sweeps."
     },
     {
-      "context": "Headquarters Position Top",
+      "context": "Headquarters Position",
       "how_applied": "Utilize the headquarters platform to apply controlled pressure while maintaining distance from legs, using forward pressure to restrict hip movement while protecting against leg entanglements and maintaining passing structure."
     },
     {
-      "context": "Knee Slice Position Top",
-      "how_applied": "Drive chest and shoulder pressure forward while slicing the knee across opponent's legs, using coordinated upper and lower body pressure to flatten opponent and prevent them from recovering guard as the pass completes."
+      "context": "Side Control",
+      "how_applied": "Consolidate pressure passing success with sustained chest and hip pressure in side control, preventing immediate escape attempts through comprehensive pressure that restricts opponent's ability to create frames or recover guard."
     },
     {
-      "context": "Smash Pass Position",
-      "how_applied": "Apply maximum shoulder and chest pressure to drive opponent flat while controlling their legs, using aggressive forward pressure to eliminate space for escape while methodically advancing toward side control consolidation."
-    },
-    {
-      "context": "Long Step Position Top",
-      "how_applied": "Maintain steady pressure throughout the long step movement, using strategic weight distribution to control opponent's near hip while the far leg steps over, preventing recovery through sustained pressure application."
-    },
-    {
-      "context": "Open Guard Top",
+      "context": "Open Guard",
       "how_applied": "Establish dominant grips and apply forward pressure to restrict opponent's ability to create angles and establish specific guard variations, using pressure to force defensive reactions that create passing opportunities."
+    },
+    {
+      "context": "Spider Guard",
+      "how_applied": "Counter spider guard grips with sustained pressure that compromises opponent's ability to extend legs and control distance, using systematic pressure to break down the guard structure before advancing position."
+    },
+    {
+      "context": "Lasso Guard",
+      "how_applied": "Apply pressure while controlling the lasso grip, using weight distribution and shoulder pressure to neutralize the lasso control and flatten opponent's position to create passing lanes."
+    },
+    {
+      "context": "X-Guard",
+      "how_applied": "Counter X-guard elevation with downward pressure and strategic base positioning, using pressure to prevent sweeps while systematically extracting legs from the guard structure."
+    },
+    {
+      "context": "Single Leg X-Guard",
+      "how_applied": "Apply controlled pressure while maintaining safe distance from leg entanglements, using systematic weight distribution to restrict opponent's ability to elevate or extend the captured leg for sweeping mechanics."
     }
   ],
   "decision_framework": [
@@ -280,22 +300,22 @@
   "related_content": [
     {
       "name": "Pressure Application",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational concept providing core pressure mechanics that Pressure Passing systematizes for guard passing contexts"
     },
     {
       "name": "Guard Passing Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Overarching framework containing Pressure Passing as one major strategic approach alongside speed and dynamic passing methodologies"
     },
     {
       "name": "Base Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept enabling stable pressure application without sweep vulnerability during aggressive forward pressure"
     },
     {
       "name": "Weight Distribution",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Biomechanical foundation explaining how to position and shift weight optimally for maximum pressure effectiveness"
     },
     {
@@ -314,19 +334,29 @@
       "relationship": "Pressure passing variation using sustained pressure throughout extended step-over movement for guard circumvention"
     },
     {
-      "name": "Headquarters Position Top",
+      "name": "Headquarters Position",
       "content_type": "Position",
       "relationship": "Strategic passing platform enabling pressure application while maintaining safe distance from leg entanglements"
     },
     {
-      "name": "Half Guard Top",
+      "name": "Half Guard",
       "content_type": "Position",
       "relationship": "Common pressure passing context where crossface and shoulder pressure drive systematic passing sequences"
     },
     {
-      "name": "Smash Pass Position",
+      "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Position exemplifying maximum pressure application for guard control and systematic passing advancement"
+      "relationship": "Position consolidation target where pressure passing principles continue to restrict opponent's escape opportunities"
+    },
+    {
+      "name": "Cross Face Control",
+      "content_type": "Principle",
+      "relationship": "Specific upper body control methodology that enables effective pressure application during passing sequences"
+    },
+    {
+      "name": "Bernardo Faria Pressure System",
+      "content_type": "System",
+      "relationship": "Comprehensive pressure passing system exemplifying systematic approach to pressure-based guard passing at elite competition level"
     }
   ],
   "expert_insights": {

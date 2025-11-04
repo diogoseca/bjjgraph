@@ -1,21 +1,18 @@
 {
-  "metadata": {
-    "title": "Creating Reactions | BJJ Concept | BJJ Graph",
-    "description": "Understand Creating Reactions in BJJ. Master proactive threat presentation, reaction exploitation, and offensive initiative across all positions.",
-    "concept_id": "C022",
-    "tags": [
-      "bjj",
-      "concept",
-      "intermediate",
-      "strategy",
-      "offensive",
-      "attack-chains",
-      "initiative"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Creating Reactions",
+  "description": "Master proactive reaction generation in BJJ. Learn threat presentation, defensive exploitation, and offensive initiative through systematic attack combinations.",
+  "tags": [
+    "bjj",
+    "principle",
+    "intermediate",
+    "strategy",
+    "offensive",
+    "attack-chains",
+    "initiative"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Creating Reactions represents the proactive strategic skill of deliberately generating specific opponent responses through calculated threat presentation, pressure application, and tactical stimulus that compels defensive commitments exploitable through counter-techniques. Unlike reactive grappling that responds to opponent's actions, creating reactions is a comprehensive offensive framework that applies across all positions where practitioner maintains initiative. This concept encompasses the selection of appropriate stimuli, the calibration of threat intensity, and the strategic timing of reaction generation to maximize exploitation opportunities. Creating reactions serves as both a direct attacking mechanism that forces opponent into vulnerable positions, and an efficiency strategy that uses opponent's own defensive energy against them. The ability to consistently generate predictable reactions often determines whether a practitioner can maintain offensive initiative against defensive opponents or remains limited to opportunistic attacking, making it one of the most valuable offensive skills in competitive BJJ.",
   "key_principles": [
     "Effective reactions require sufficiently threatening stimuli that compel genuine defensive commitment",
@@ -62,41 +59,56 @@
       "description": "Real-time modification of threat presentation based on opponent's defensive responses, adjusting attack intensity, timing, or type when initial stimuli fail to generate desired reactions, maintaining offensive pressure through varied stimulus patterns."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Action and Reaction",
+      "principle_name": "Action and Reaction",
       "relationship_type": "Prerequisite",
       "description": "Understanding fundamental action-reaction principles provides the theoretical foundation for deliberately creating reactions, as Creating Reactions applies these principles proactively rather than reactively."
     },
     {
-      "concept_name": "Dilemma Creation",
+      "principle_name": "Dilemma Creation",
       "relationship_type": "Extension",
       "description": "Creating Reactions extends into Dilemma Creation when multiple threats force opponent into situations where all defensive options create exploitable vulnerabilities, representing advanced application of reaction generation."
     },
     {
-      "concept_name": "Offensive Combinations",
+      "principle_name": "Offensive Combinations",
       "relationship_type": "Complementary",
       "description": "Offensive combinations rely heavily on creating reactions as the mechanism connecting individual techniques into flowing sequences, with each technique generating reactions exploitable by subsequent attacks."
     },
     {
-      "concept_name": "Timing and Rhythm",
+      "principle_name": "Timing and Rhythm",
       "relationship_type": "Complementary",
       "description": "Proper timing determines effectiveness of reaction creation, as stimuli presented at optimal moments in opponent's defensive rhythm generate more predictable and exploitable responses than poorly timed threats."
     },
     {
-      "concept_name": "Grip Fighting",
+      "principle_name": "Grip Fighting",
       "relationship_type": "Prerequisite",
       "description": "Grip fighting skills enable creation of reactions through grip-based threats, where grip attacks force defensive hand-fighting responses that open positional opportunities or create submission entries."
     },
     {
-      "concept_name": "Position Chains",
+      "principle_name": "Position Chains",
       "relationship_type": "Advanced form",
       "description": "Position chains represent systematic application of creating reactions across positional sequences, where each position transition results from deliberately generated opponent responses rather than opportunistic advancement."
+    },
+    {
+      "principle_name": "Submission Chains",
+      "relationship_type": "Complementary",
+      "description": "Submission chains utilize reaction creation where each submission attempt generates defensive movements exploitable through connected finishing sequences, maximizing submission percentage through systematic threat presentation."
+    },
+    {
+      "principle_name": "Off-Balancing",
+      "relationship_type": "Complementary",
+      "description": "Off-balancing techniques serve as effective reaction-generating stimuli, where balance threats compel opponent to adjust base and weight distribution in ways exploitable through sweeps and transitions."
+    },
+    {
+      "principle_name": "Posture Breaking",
+      "relationship_type": "Complementary",
+      "description": "Posture breaking generates reactions by forcing opponent to choose between maintaining posture and defending against attacks, creating exploitable defensive commitments regardless of opponent's choice."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Creating reactions from closed guard involves threatening submissions (triangle, armbar, omoplata) to force opponent into defensive postures that enable sweep entries, or presenting sweep threats that compel postural reactions exploitable through submissions."
     },
     {
@@ -108,11 +120,11 @@
       "how_applied": "Side control reaction creation focuses on threatening mount transitions or submission attacks that force opponent into shrimping or turning movements exploitable through north-south transitions, underhook establishment, or back-take opportunities based on defensive direction."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Half guard practitioners create reactions through sweep threats that force opponent to base or pressure defensively, opening underhook access or creating space for guard recovery, or through submission threats that compel postural changes exploitable through positional sweeps."
     },
     {
-      "context": "Spider Guard Bottom",
+      "context": "Spider Guard",
       "how_applied": "Spider guard reaction generation involves using sleeve control and foot pressure to threaten sweeps in multiple directions, forcing opponent to commit base and weight distribution that creates vulnerabilities to opposite-direction attacks or opens paths to triangle and omoplata entries."
     },
     {
@@ -132,7 +144,7 @@
       "how_applied": "X-guard reaction generation uses threats of multiple sweep directions through hook manipulation, forcing opponent to post or shift weight in ways that either complete intended sweeps or create openings for single-leg X transitions, back-takes, or leg entanglement entries."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Open guard reaction creation involves using foot placement and grip fighting to threaten various guard establishments (spider, lasso, De La Riva), forcing opponent into specific passing approaches that enable practitioners to establish their preferred guard system or create immediate sweep opportunities."
     },
     {
@@ -152,7 +164,7 @@
       "how_applied": "Lasso guard reaction creation involves using the lasso hook to threaten various sweeps and transitions, forcing opponent into specific postures and base patterns that either complete the threatened technique or open alternative attacks including omoplata entries or transitions to spider guard variations."
     },
     {
-      "context": "Single Leg X Guard",
+      "context": "Single Leg X-Guard",
       "how_applied": "Single-leg X reaction generation uses elevation threats and off-balancing to force opponent to post or shift weight, creating opportunities to complete sweeps in the direction of their defensive movement or transition to other leg entanglement positions including ashi garami or saddle entries."
     },
     {
@@ -316,41 +328,41 @@
   "related_content": [
     {
       "name": "Action and Reaction",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational principle underlying reaction creation through understanding of stimulus-response mechanics in grappling exchanges"
     },
     {
       "name": "Dilemma Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Advanced extension where multiple simultaneous threats force opponent into situations where all defensive options create vulnerabilities"
     },
     {
       "name": "Offensive Combinations",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Practical application framework connecting individual techniques through reaction-generation and exploitation sequences"
     },
     {
       "name": "Submission Chains",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Submission-specific application where each attack generates defensive reactions exploitable through connected finishing sequences"
     },
     {
       "name": "Position Chains",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Positional advancement application where transitions result from systematically generated opponent reactions rather than opportunistic movement"
     },
     {
       "name": "Timing and Rhythm",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential timing principles determining optimal moments for threat presentation and reaction exploitation"
     },
     {
       "name": "Grip Fighting",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Enables reaction generation through grip-based threats that force defensive hand-fighting creating positional opportunities"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Primary position for developing reaction-generation skills through systematic submission and sweep threat combinations"
     },
@@ -360,12 +372,12 @@
       "relationship": "Dominant position demonstrating reaction-generation through high-mount and submission threats creating armbar and back-take opportunities"
     },
     {
-      "name": "Half Guard Bottom",
+      "name": "Half Guard",
       "content_type": "Position",
       "relationship": "Position requiring advanced reaction-generation to create sweep and underhook opportunities against top pressure"
     },
     {
-      "name": "Spider Guard Bottom",
+      "name": "Spider Guard",
       "content_type": "Position",
       "relationship": "Open guard position exemplifying reaction-generation through directional sweep threats creating opposite-direction attack opportunities"
     },
@@ -376,8 +388,8 @@
     }
   ],
   "expert_insights": {
-    "danaher": "Approaches creating reactions as a foundational offensive principle where the majority of successful techniques result from exploiting opponent's defensive movements rather than attacking static positions. Emphasizes what he terms \"primary and secondary attacks\" where the stated attack (primary) serves primarily to generate defensive response exploitable by the true technique (secondary), treating reaction generation as the core offensive mechanism rather than auxiliary skill. Systematizes reaction-generation according to position and typical defensive responses, creating comprehensive attack systems where every position includes catalogued threats designed to generate specific exploitable reactions, enabling practitioners to maintain continuous offensive pressure through structured stimulus-response sequences. Views the development of reaction-generation ability as the critical transition from intermediate to advanced offensive capability, distinguishing practitioners who can attack only when opponent makes errors from those who can force errors through systematic threat presentation.",
-    "gordon_ryan": "Views creating reactions as the essential skill distinguishing elite offensive grapplers from intermediate practitioners who rely on opponent errors rather than forcing mistakes. Focuses extensively on what he calls \"forcing functions\" where specific actions compel opponent into limited defensive options all of which create exploitable vulnerabilities, essentially creating no-win scenarios through reaction generation. Emphasizes the importance of maintaining threatening pressure through continuous reaction generation even when individual techniques fail, creating psychological dominance where opponent remains perpetually defensive and unable to establish their own offensive sequences, which tactically controls match tempo and scoring opportunities regardless of immediate submission success. In competition analysis, attributes his dominant offensive performances to superior reaction-generation capability that forces opponents into defensive patterns even when they enter matches with defensive game plans, demonstrating how mastery of this concept enables offensive control against elite competition.",
-    "eddie_bravo": "Has developed extensive reaction-based offensive systems throughout his 10th Planet methodology, particularly evident in positions like Mission Control and Rubber Guard where virtually every technique serves dual purposes as both potential finish and reaction-generation mechanism. When teaching reaction creation, emphasizes the importance of what he calls \"commitment traps\" where threats are specifically designed to force opponent into defensive positions that actually worsen their situation, creating compound problems through single defensive responses. Advocates for unpredictable and creative threat generation that exploits opponent's uncertainty, using unorthodox attacks that generate hesitant or confused reactions with larger exploitation windows than responses to conventional threats, particularly effective against opponents unfamiliar with 10th Planet systems. Views reaction generation as the mechanism enabling smaller practitioners to control larger opponents through strategic exploitation of defensive energy rather than attempting to overcome size and strength advantages through direct force application."
+    "danaher": "Approaches creating reactions as a foundational offensive principle where the majority of successful techniques result from exploiting opponent's defensive movements rather than attacking static positions. Emphasizes what he terms primary and secondary attacks where the stated attack (primary) serves primarily to generate defensive response exploitable by the true technique (secondary), treating reaction generation as the core offensive mechanism rather than auxiliary skill. Systematizes reaction-generation according to position and typical defensive responses, creating comprehensive attack systems where every position includes catalogued threats designed to generate specific exploitable reactions, enabling practitioners to maintain continuous offensive pressure through structured stimulus-response sequences. Views the development of reaction-generation ability as the critical transition from intermediate to advanced offensive capability, distinguishing practitioners who can attack only when opponent makes errors from those who can force errors through systematic threat presentation.",
+    "gordon_ryan": "Views creating reactions as the essential skill distinguishing elite offensive grapplers from intermediate practitioners who rely on opponent errors rather than forcing mistakes. Focuses extensively on what he calls forcing functions where specific actions compel opponent into limited defensive options all of which create exploitable vulnerabilities, essentially creating no-win scenarios through reaction generation. Emphasizes the importance of maintaining threatening pressure through continuous reaction generation even when individual techniques fail, creating psychological dominance where opponent remains perpetually defensive and unable to establish their own offensive sequences, which tactically controls match tempo and scoring opportunities regardless of immediate submission success. In competition analysis, attributes his dominant offensive performances to superior reaction-generation capability that forces opponents into defensive patterns even when they enter matches with defensive game plans, demonstrating how mastery of this concept enables offensive control against elite competition.",
+    "eddie_bravo": "Has developed extensive reaction-based offensive systems throughout his 10th Planet methodology, particularly evident in positions like Mission Control and Rubber Guard where virtually every technique serves dual purposes as both potential finish and reaction-generation mechanism. When teaching reaction creation, emphasizes the importance of what he calls commitment traps where threats are specifically designed to force opponent into defensive positions that actually worsen their situation, creating compound problems through single defensive responses. Advocates for unpredictable and creative threat generation that exploits opponent's uncertainty, using unorthodox attacks that generate hesitant or confused reactions with larger exploitation windows than responses to conventional threats, particularly effective against opponents unfamiliar with 10th Planet systems. Views reaction generation as the mechanism enabling smaller practitioners to control larger opponents through strategic exploitation of defensive energy rather than attempting to overcome size and strength advantages through direct force application."
   }
 }

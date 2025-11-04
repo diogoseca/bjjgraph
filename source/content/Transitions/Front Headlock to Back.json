@@ -1,25 +1,22 @@
 {
-  "metadata": {
-    "title": "Front Headlock to Back Take | BJJ Technique | BJJ Graph",
-    "description": "Master Front Headlock to Back Take in BJJ. Complete step-by-step guide from front headlock control to back control. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.",
-    "transition_id": "T072",
-    "tags": [
-      "bjj",
-      "transition",
-      "advancement",
-      "front_headlock",
-      "back_control",
-      "back_take",
-      "turtle_attack",
-      "wrestling"
-    ],
-    "starting_position": "Front Headlock Control Position",
-    "ending_position": "Back Control",
-    "success_rates": {
-      "beginner": 40,
-      "intermediate": 60,
-      "advanced": 75
-    }
+  "name": "Front Headlock to Back",
+  "description": "Master Front Headlock to Back Take in BJJ. Complete guide from front headlock control to back control with hooks and seat belt. Beginner 40%, Intermediate 60%, Advanced 75%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "advancement",
+    "front_headlock",
+    "back_control",
+    "back_take",
+    "turtle_attack",
+    "wrestling"
+  ],
+  "starting_position": "Front Headlock",
+  "ending_position": "Back Control",
+  "success_rates": {
+    "beginner": 40,
+    "intermediate": 60,
+    "advanced": 75
   },
   "overview": "The Front Headlock to Back Take is a fundamental transitional technique that exploits the opponent's defensive turtle position to establish dominant back control. This technique represents a critical juncture in grappling where the attacking practitioner converts head control into the most dominant position in Brazilian Jiu-Jitsu. The transition combines elements of wrestling-based front headlock control with BJJ-specific back attack principles, creating a systematic pathway from a neutral or semi-dominant position to full back control with hooks and seat belt grip established.\n\nThe effectiveness of this transition lies in its ability to capitalize on the opponent's natural defensive instincts. When an opponent turtles to defend against the front headlock, they inadvertently create the spatial relationships necessary for the back take. The technique requires precise timing, proper weight distribution, and methodical progression through intermediary control points. Unlike explosive scrambles, this transition emphasizes systematic progression through checkpoints: front headlock control, spiral ride position, single hook establishment, and finally full back control with both hooks and harness grip.\n\nThis technique serves as a cornerstone of modern no-gi grappling and has proven equally effective in gi competition. Its prevalence in high-level competition stems from its reliability and the difficulty opponents face in defending it once proper front headlock control is established. The transition connects seamlessly with submission attacks including the rear naked choke, making it both a positional advancement and a direct path to fight-ending submissions.",
   "key_principles": [
@@ -218,8 +215,8 @@
       "difficulty": "Advanced"
     }
   ],
-  "safety_considerations": "The front headlock to back take is generally a safe positional transition when practiced with proper control and awareness. Practitioners should maintain constant communication with training partners, especially during the early learning phases. The primary safety concern involves neck and spine safety during the front headlock control phase: excessive cranking or sudden jerking motions should be avoided, and pressure should be applied gradually and controlled. When the opponent attempts defensive rolls or explosives escapes, both practitioners must be aware of potential collision with the ground or mat boundaries. Partners should agree on intensity levels before drilling, particularly regarding how much resistance will be applied during the transition phases. As the technique often leads directly to back control and submission attempts (particularly the rear naked choke), practitioners should be well-versed in proper tapping protocols and immediately release all control when a tap is given. Beginners should work this transition under supervision to ensure proper mechanics and avoid developing bad habits that could lead to injury in live training.",
-  "position_integration": "The front headlock to back take serves as a critical connector in the overall BJJ positional hierarchy, bridging the gap between neutral/semi-dominant positions and the most dominant back control position. This technique represents the primary pathway for converting wrestling-based top control into BJJ's positional dominance structure. It integrates seamlessly with the broader front headlock system, which includes submissions (anaconda, darce, guillotine) and alternative positional advancements (crucifix, mount). The transition exemplifies the principle of systematic positional progression, requiring practitioners to move through defined control checkpoints rather than attempting to skip directly to final positions. Within competition strategy, this technique provides a reliable point-scoring sequence: establishing front headlock control, taking the back (4 points in IBJJF rules), and setting up back-attack submissions. The technique connects the standing game (via snap-downs and failed takedown defenses) to ground-based dominance, making it equally valuable for both gi and no-gi practitioners. Modern high-level grapplers often use this transition as the foundation for entire game plans, building offensive systems around front headlock control that seamlessly flow to back attacks and submissions.",
+  "safety_considerations": "The front headlock to back take is generally a safe positional transition when practiced with proper control and awareness. Practitioners should maintain constant communication with training partners, especially during the early learning phases. The primary safety concern involves neck and spine safety during the front headlock control phase: excessive cranking or sudden jerking motions should be avoided, and pressure should be applied gradually and controlled. When the opponent attempts defensive rolls or explosive escapes, both practitioners must be aware of potential collision with the ground or mat boundaries. Partners should agree on intensity levels before drilling, particularly regarding how much resistance will be applied during the transition phases. As the technique often leads directly to back control and submission attempts (particularly the rear naked choke), practitioners should be well-versed in proper tapping protocols and immediately release all control when a tap is given. Beginners should work this transition under supervision to ensure proper mechanics and avoid developing bad habits that could lead to injury in live training.",
+  "position_integration": "The front headlock to back take serves as a critical connector in the overall BJJ positional hierarchy, bridging the gap between neutral or semi-dominant positions and the most dominant back control position. This technique represents the primary pathway for converting wrestling-based top control into BJJ's positional dominance structure. It integrates seamlessly with the broader front headlock system, which includes submissions (anaconda, darce, guillotine) and alternative positional advancements (crucifix, mount). The transition exemplifies the principle of systematic positional progression, requiring practitioners to move through defined control checkpoints rather than attempting to skip directly to final positions. Within competition strategy, this technique provides a reliable point-scoring sequence: establishing front headlock control, taking the back (4 points in IBJJF rules), and setting up back-attack submissions. The technique connects the standing game (via snap-downs and failed takedown defenses) to ground-based dominance, making it equally valuable for both gi and no-gi practitioners. Modern high-level grapplers often use this transition as the foundation for entire game plans, building offensive systems around front headlock control that seamlessly flow to back attacks and submissions.",
   "related_content": [
     {
       "name": "Snap Down to Front Headlock",
@@ -258,8 +255,8 @@
       "relationship": "Alternative advancement - Different dominant position from similar starting point"
     },
     {
-      "name": "Standing Back Control",
-      "relationship": "Variation - Alternative version when opponent stands during transition"
+      "name": "Chair Sit to Back",
+      "relationship": "Related technique - Alternative back take from turtle attack"
     }
   ],
   "expert_insights": {

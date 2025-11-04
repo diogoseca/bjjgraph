@@ -1,391 +1,15 @@
 {
-  "metadata": {
-    "title": "Scramble Bottom Position | BJJ Position Guide | BJJ Graph",
-    "description": "Master Scramble Bottom Position in BJJ. Dynamic defensive state requiring quick transitions to guard recovery. Features 60% recovery rate for intermediates with 8+ escape paths.",
-    "state_id": "S232",
-    "tags": ["bjj", "position", "scramble", "defensive", "transition", "guard-recovery", "bottom"]
-  },
-  "overview": "Scramble Bottom Position represents a dynamic, transitional defensive state where the bottom practitioner has lost structured guard position but has not yet been fully controlled by the top player. This position is characterized by fluid, rapid exchanges where both practitioners are attempting to establish dominant control or advantageous positioning. The bottom player's primary objective is to prevent the opponent from consolidating top control while simultaneously working to re-establish guard, stand up, or transition to a more favorable position.\n\nThis position is common in modern BJJ competition and no-gi grappling, where fast-paced exchanges and dynamic movement often create momentary scrambles. Success in this position requires excellent body awareness, hip mobility, quick decision-making, and the ability to read opponent movement patterns. The scramble bottom position is neither fully offensive nor defensive—it exists in a state of flux where momentum and timing determine the outcome. Practitioners who excel in scrambles often have superior conditioning, reflexive movement patterns, and the ability to chain multiple defensive techniques together seamlessly.\n\nThe key to surviving and thriving from scramble bottom is maintaining active movement, preventing opponent weight distribution, and constantly threatening to improve position. This requires high energy output but offers multiple pathways to recovery, making it a critical skill for practitioners at all levels. Understanding scramble dynamics is essential for modern BJJ, as matches increasingly feature these transitional exchanges rather than static positional battles.",
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Defensive",
-    "risk_level": "High",
-    "energy_cost": "High",
-    "time_sustainability": "Short"
-  },
-  "state_invariants": [
-    "Bottom practitioner is on back, side, or sitting position with at least one hip elevated off the mat, maintaining mobility and preventing full weight distribution from top player",
-    "Top practitioner has not yet established secure grips or weight distribution for consolidated control positions like side control, mount, or knee on belly—both players are in active transition",
-    "Bottom practitioner maintains at least one active frame (hand, forearm, or shin) creating distance between their torso and opponent's chest, preventing immediate crushing pressure",
-    "Both practitioners are in dynamic motion with neither having established static positional dominance—hands, feet, and hips are actively repositioning in real-time scramble sequences"
+  "name": "Scramble Position",
+  "description": "Master scramble position dynamics in BJJ with expert techniques for navigating chaos. Learn pattern recognition, transitional opportunities, and decisive execution.",
+  "tags": [
+    "bjj",
+    "position",
+    "scramble",
+    "transition",
+    "neutral",
+    "dynamic"
   ],
-  "prerequisites": [
-    "Guard has been opened or passed but top player has not consolidated control",
-    "Bottom player maintains active hip mobility and is not flattened to mat",
-    "No established grips or control points have been secured by top player",
-    "Both practitioners are in transitional movement phase"
-  ],
-  "key_principles": [
-    "Maintain constant hip mobility and rotation to prevent opponent weight settling",
-    "Keep at least one active frame (shin, knee, or arm) between you and opponent's chest",
-    "Chain defensive movements together—never commit to single static position",
-    "Use explosive hip escapes and granby rolls to create recovery windows",
-    "Prioritize guard recovery over attempting sweeps during initial scramble phase",
-    "Control distance through active posting and framing rather than passive defending",
-    "Read opponent's momentum and redirect rather than fighting force-on-force"
-  ],
-  "offensive_transitions": [
-    {
-      "technique": "Turtle to Guard",
-      "target_position": "Closed Guard Bottom",
-      "success_rates": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
-      }
-    },
-    {
-      "technique": "Granby Roll",
-      "target_position": "Guard Recovery Bottom",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Technical Standup",
-      "target_position": "Standing Position",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Single Leg X Entry",
-      "target_position": "Single Leg X Guard Bottom",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Deep Half Entry",
-      "target_position": "Deep Half Guard Bottom",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Butterfly Guard Entry",
-      "target_position": "Butterfly Guard Bottom",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Rolling to Guard",
-      "target_position": "Open Guard Bottom",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "X-Guard Entry",
-      "target_position": "X-Guard Bottom",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      }
-    }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Knee Slice Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 55
-    },
-    {
-      "technique": "Smash Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 50
-    },
-    {
-      "technique": "Long Step Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 45
-    },
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Mount Top",
-      "success_rate": 40
-    },
-    {
-      "technique": "Turtle to Back Control",
-      "target_position": "Back Control Top",
-      "success_rate": 35
-    },
-    {
-      "technique": "Headquarters Pass",
-      "target_position": "Headquarters Position Top",
-      "success_rate": 45
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Frame and Shrimp",
-      "target_position": "Half Guard Bottom",
-      "trigger": "Opponent attempts to consolidate side control pressure"
-    },
-    {
-      "technique": "Hip Escape",
-      "target_position": "Open Guard Bottom",
-      "trigger": "Opponent drives forward with knee slice attempt"
-    },
-    {
-      "technique": "Granby Roll",
-      "target_position": "Turtle Bottom",
-      "trigger": "Opponent secures cross-face and begins settling weight"
-    },
-    {
-      "technique": "Technical Stand Up to Single Leg",
-      "target_position": "Standing Position",
-      "trigger": "Opponent backs up to reset or change angle"
-    }
-  ],
-  "decision_tree": [
-    {
-      "condition": "If opponent commits forward pressure with chest driving toward your torso",
-      "actions": [
-        {
-          "technique": "Hip Escape",
-          "target": "Half Guard Bottom",
-          "probability": 60
-        },
-        {
-          "technique": "Granby Roll",
-          "target": "Turtle Bottom",
-          "probability": 55
-        }
-      ]
-    },
-    {
-      "condition": "If opponent backs away to create space or reset position",
-      "actions": [
-        {
-          "technique": "Technical Standup",
-          "target": "Standing Position",
-          "probability": 65
-        },
-        {
-          "technique": "Turtle to Guard",
-          "target": "Closed Guard Bottom",
-          "probability": 60
-        }
-      ]
-    },
-    {
-      "condition": "If opponent maintains static position without advancing or retreating",
-      "actions": [
-        {
-          "technique": "Single Leg X Entry",
-          "target": "Single Leg X Guard Bottom",
-          "probability": 50
-        },
-        {
-          "technique": "Butterfly Guard Entry",
-          "target": "Butterfly Guard Bottom",
-          "probability": 55
-        },
-        {
-          "technique": "Deep Half Entry",
-          "target": "Deep Half Guard Bottom",
-          "probability": 45
-        }
-      ]
-    },
-    {
-      "condition": "If opponent attempts to establish knee slice or leg weave pass",
-      "actions": [
-        {
-          "technique": "Frame and Shrimp",
-          "target": "Guard Recovery Bottom",
-          "probability": 50
-        },
-        {
-          "technique": "Rolling to Guard",
-          "target": "Open Guard Bottom",
-          "probability": 55
-        }
-      ]
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Remaining static and allowing opponent to settle weight",
-      "consequence": "Opponent consolidates side control, mount, or knee on belly with full pressure",
-      "correction": "Maintain constant hip movement and rotation—never stop moving during scramble phase"
-    },
-    {
-      "error": "Giving up both underhooks or allowing opponent double underhooks",
-      "consequence": "Opponent achieves dominant control position with direct path to back or mount",
-      "correction": "Fight for at least one underhook or maintain defensive frames to prevent opponent chest-to-chest contact"
-    },
-    {
-      "error": "Turning completely to turtle without protecting back exposure",
-      "consequence": "Opponent takes back control with hooks or establishes upper body control for submissions",
-      "correction": "If turning to turtle, immediately work for guard recovery or stand-up—never remain static in turtle"
-    },
-    {
-      "error": "Overcommitting to single defensive technique without backup options",
-      "consequence": "Opponent reads and counters single movement pattern, securing dominant position",
-      "correction": "Chain multiple defensive movements together in sequence—hip escape to granby to technical standup"
-    },
-    {
-      "error": "Flattening back completely to mat and losing hip mobility",
-      "consequence": "Opponent crushes forward with chest pressure, eliminating all recovery options",
-      "correction": "Keep hips elevated and rotated—maintain at least one hip off mat to preserve mobility options"
-    },
-    {
-      "error": "Failing to create frames and allowing opponent chest contact",
-      "consequence": "Opponent establishes crushing pressure and eliminates space for defensive movements",
-      "correction": "Always maintain active frames with shins, knees, or arms to create distance from opponent's chest"
-    },
-    {
-      "error": "Exhausting energy with panic movements instead of calculated escapes",
-      "consequence": "Gas out within 30-60 seconds, becoming unable to defend as opponent waits out fatigue",
-      "correction": "Use explosive bursts for specific movements, then reset to defensive frames rather than constant thrashing"
-    }
-  ],
-  "training_drills": [
-    {
-      "name": "Scramble Recovery Positional Sparring",
-      "description": "Start from scramble bottom position with partner attempting to pass. Bottom player works to recover guard, stand up, or sweep within 60-second rounds. Reset after each successful recovery or pass. Focus on chaining defensive movements together rather than isolated techniques.",
-      "duration": "5 rounds of 60 seconds"
-    },
-    {
-      "name": "Hip Escape Chain Drill",
-      "description": "Partner holds side control position. Bottom player chains hip escapes, granby rolls, and technical standups in continuous sequence without partner providing resistance. Once movement pattern is fluid, add progressive resistance. Emphasis on maintaining constant hip mobility without pausing between techniques.",
-      "duration": "3 minutes continuous movement"
-    },
-    {
-      "name": "Scramble to Guard Recovery Flow",
-      "description": "Start in scramble bottom with partner in passing position. Bottom player has 10 seconds to recover any guard position (closed, open, half, butterfly, etc.). Partner provides 50% resistance. Reset and repeat 10 times, focusing on different recovery pathways each attempt.",
-      "duration": "10 repetitions with 30 seconds rest between"
-    },
-    {
-      "name": "Frame Maintenance Under Pressure",
-      "description": "Partner attempts to settle chest-to-chest control from top scramble position. Bottom player maintains active frames (shins, arms, knees) for 30 seconds, preventing chest contact. Partner provides progressive resistance from 30% to 80%. Develops frame strength and defensive awareness.",
-      "duration": "5 rounds of 30 seconds with increasing resistance"
-    }
-  ],
-  "optimal_submission_paths": [
-    {
-      "name": "Defensive Recovery Path",
-      "path": "Scramble Bottom Position → Guard Recovery Bottom → Half Guard Bottom → Deep Half Guard Bottom → Sweep to Top Position → Mount Top → Armbar"
-    },
-    {
-      "name": "Stand-up to Takedown Path",
-      "path": "Scramble Bottom Position → Technical Standup → Standing Position → Single Leg Takedown → Side Control Top → Kimura"
-    },
-    {
-      "name": "Turtle to Back Attack Path",
-      "path": "Scramble Bottom Position → Granby Roll → Turtle Bottom → Back Take Reversal → Back Control Top → Rear Naked Choke"
-    },
-    {
-      "name": "Guard Recovery to Triangle Path",
-      "path": "Scramble Bottom Position → Rolling to Guard → Closed Guard Bottom → Triangle Setup → Triangle Choke"
-    }
-  ],
-  "related_content": [
-    {
-      "name": "Turtle Bottom",
-      "relationship": "Common transition state when scramble defensive movements fail"
-    },
-    {
-      "name": "Guard Recovery Bottom",
-      "relationship": "Primary offensive goal from scramble bottom position"
-    },
-    {
-      "name": "Half Guard Bottom",
-      "relationship": "Most common successful recovery position from scramble"
-    },
-    {
-      "name": "Deep Half Guard Bottom",
-      "relationship": "Advanced recovery option with direct sweep opportunities"
-    },
-    {
-      "name": "Hip Escape",
-      "relationship": "Primary defensive movement for creating space during scramble"
-    },
-    {
-      "name": "Granby Roll",
-      "relationship": "Key technique for rotating away from pressure and recovering guard"
-    },
-    {
-      "name": "Technical Standup",
-      "relationship": "Stand-up escape option when guard recovery is blocked"
-    },
-    {
-      "name": "Frame and Shrimp",
-      "relationship": "Fundamental defensive concept for maintaining distance"
-    },
-    {
-      "name": "Guard Retention Concepts",
-      "relationship": "Theoretical framework underlying scramble survival strategies"
-    },
-    {
-      "name": "Escape Fundamentals",
-      "relationship": "Core principles that govern effective scramble bottom defense"
-    }
-  ],
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    },
-    "advancement_probability": {
-      "beginner": 35,
-      "intermediate": 60,
-      "advanced": 75
-    },
-    "submission_probability": {
-      "beginner": 5,
-      "intermediate": 10,
-      "advanced": 20
-    },
-    "average_time": "15-45 seconds before resolution to guard recovery or opponent control"
-  },
-  "expert_insights": {
-    "danaher": "The scramble bottom position is fundamentally a race against time where the practitioner must prevent the opponent from establishing what I call 'structural control'—the confluence of weight distribution, grip dominance, and positional hierarchy that defines consolidated positions like side control or mount. The key biomechanical principle is maintaining hip elevation and rotational capacity. When your hips are flat to the mat, you have lost the kinematic chain necessary for effective defensive movement. Every defensive technique from scramble—hip escapes, granby rolls, technical standups—requires the ability to generate force through hip rotation. Therefore, the primary technical objective is not any specific escape, but rather the maintenance of hip mobility itself. This is achieved through active framing, which creates the mechanical space necessary for hip movement. Without frames, weight crushes mobility. Without mobility, all recovery pathways collapse simultaneously.",
-    "gordon_ryan": "In competition, scrambles are where matches are won or lost, especially at the highest levels where everyone has good positional control once they establish it. The problem most people have in scrambles is they panic and start moving randomly instead of having a clear hierarchy of what they're trying to accomplish. My approach is simple: first priority is always preventing them from settling their weight, second priority is recovering any guard position—doesn't matter which one as long as it gives me offensive options, third priority is standing up if guard recovery is blocked. In my matches, I probably recover guard from scramble bottom 70-80% of the time because I'm willing to work hard for 10-15 seconds of explosive movement. Most people gas out because they're not conditioned for that level of output, or they give up too early and accept a bad position. The other key is recognizing when to commit fully to an escape versus when to accept a less-bad position like half guard. Sometimes taking half guard is a win if the alternative is getting mounted.",
-    "eddie_bravo": "Scrambles are where the rubber guard philosophy really shows its value—maintaining constant offensive threats even from defensive positions. From scramble bottom, I'm not just trying to survive, I'm looking for opportunities to attack. If they're pressuring forward hard, that's when I hit the granby roll to their back. If they back off, I'm coming up on a single leg or shooting for deep half. The 10th Planet system is built around these dynamic transitions because in no-gi, especially MMA, you can't rely on grips to hold positions—everything is fluid and scramble-heavy. One technique I use constantly from scramble bottom is the electric chair entry from dogfight position. A lot of people see dogfight as just a recovery position, but it's actually an offensive launching point for the whole lockdown system. The key is staying loose and flexible, not getting rigid. Rigid bodies get smashed. Loose, flowing movement creates opportunities. Also, conditioning is massive—if you can maintain explosive output for 20-30 seconds while they're gassing out trying to hold you down, you'll escape every time."
-  }
-}
-{
-  "metadata": {
-    "title": "Scramble Position | BJJ Position Guide | BJJ Graph",
-    "description": "Master Scramble Position in BJJ. Navigate dynamic transitions with expert techniques. Learn to capitalize on chaos with 50% success rate improvements.",
-    "state_id": "S048",
-    "tags": [
-      "bjj",
-      "position",
-      "scramble",
-      "transition",
-      "neutral",
-      "dynamic"
-    ]
-  },
+  "variant_uniqueness": "Chaotic state trading stability for explosive offensive windows",
   "overview": "The Scramble Position refers to a highly dynamic transitional state in BJJ where neither practitioner has established clear positional dominance, resulting in a chaotic exchange with rapidly changing configurations. Unlike stable positions with clear structural definitions, scrambles are characterized by fluid movement, temporary connections, and continuous positional battles where both practitioners simultaneously attempt to improve position while preventing the opponent from doing the same. Scrambles often result from failed techniques, escapes, or transitions, and represent critical junctures where matches can be decisively won or lost based on split-second decision making and instinctive technical application. The ability to navigate scrambles effectively is considered a hallmark skill that separates elite competitors from average practitioners, requiring exceptional spatial awareness, technical fluidity, and strategic decision-making under pressure.",
   "state_properties": {
     "point_value": 0,
@@ -398,9 +22,7 @@
     "Neither practitioner maintains clear positional dominance with unstable weight distribution constantly shifting between both athletes as they vie for superior positioning",
     "Rapid change of relative body positioning occurs with continuous reorientation of torso, hips, and limbs creating fleeting control opportunities that disappear within seconds",
     "Temporary and transitional control points emerge briefly as practitioners establish momentary grips on wrists, collar, legs, or head before connections break and reform elsewhere",
-    "Both practitioners actively seek advantage through explosive movement, grip fighting, and positional adjustments while simultaneously defending against opponent's advancement attempts",
-    "Continuous movement with minimal static positions characterizes the exchange as both athletes flow through partial guards, incomplete passes, and fragmentary control attempts",
-    "Unclear hierarchical position exists with neither top nor bottom clearly established, often involving inverted orientations, side-by-side configurations, or asymmetrical body relationships"
+    "Both practitioners actively seek advantage through explosive movement, grip fighting, and positional adjustments while simultaneously defending against opponent's advancement attempts"
   ],
   "prerequisites": [
     "Strong fundamental movement patterns including shrimping, bridging, granby rolls, and technical stand-ups",
@@ -431,7 +53,7 @@
     },
     {
       "technique": "Single Leg Entry",
-      "target_position": "Single Leg X Guard",
+      "target_position": "Single Leg X-Guard",
       "success_rates": {
         "beginner": 40,
         "intermediate": 60,
@@ -440,7 +62,7 @@
     },
     {
       "technique": "Granby Roll",
-      "target_position": "Guard Recovery",
+      "target_position": "Closed Guard",
       "success_rates": {
         "beginner": 30,
         "intermediate": 50,
@@ -458,7 +80,7 @@
     },
     {
       "technique": "Rolling to Guard",
-      "target_position": "Closed Guard Bottom",
+      "target_position": "Open Guard",
       "success_rates": {
         "beginner": 35,
         "intermediate": 55,
@@ -485,7 +107,7 @@
     },
     {
       "technique": "Guillotine Setup",
-      "target_position": "Front Headlock",
+      "target_position": "Guillotine Control",
       "success_rates": {
         "beginner": 35,
         "intermediate": 55,
@@ -501,17 +123,17 @@
     },
     {
       "technique": "Turtle Transition",
-      "target_position": "Bottom Turtle",
+      "target_position": "Turtle",
       "success_rate": 60
     },
     {
       "technique": "Guard Recovery",
-      "target_position": "Half Guard Bottom",
+      "target_position": "Half Guard",
       "success_rate": 55
     },
     {
       "technique": "Technical Stand-up",
-      "target_position": "Standing up",
+      "target_position": "Standing Position",
       "success_rate": 45
     },
     {
@@ -533,17 +155,17 @@
     },
     {
       "technique": "Anaconda Setup",
-      "target_position": "Front Headlock",
+      "target_position": "Anaconda Control",
       "trigger": "Opponent drops head during scramble creating front headlock opportunity"
     },
     {
       "technique": "Darce Setup",
-      "target_position": "Front Headlock",
+      "target_position": "D'arce Control",
       "trigger": "Opponent reaches under for underhook exposing shoulder and neck"
     },
     {
       "technique": "Kimura from Turtle",
-      "target_position": "Bottom Turtle",
+      "target_position": "Kimura Control",
       "trigger": "Opponent posts hand on mat during scramble recovery"
     }
   ],
@@ -558,7 +180,7 @@
         },
         {
           "technique": "Transition to Truck",
-          "target": "Truck Position",
+          "target": "Truck",
           "probability": 45
         }
       ]
@@ -573,12 +195,12 @@
         },
         {
           "technique": "Guillotine Setup",
-          "target": "Front Headlock",
+          "target": "Guillotine Control",
           "probability": 55
         },
         {
           "technique": "Darce Setup",
-          "target": "Front Headlock",
+          "target": "D'arce Control",
           "probability": 50
         }
       ]
@@ -588,7 +210,7 @@
       "actions": [
         {
           "technique": "Granby Roll",
-          "target": "Guard Recovery",
+          "target": "Closed Guard",
           "probability": 55
         },
         {
@@ -603,7 +225,7 @@
       "actions": [
         {
           "technique": "Single Leg Entry",
-          "target": "Single Leg X Guard",
+          "target": "Single Leg X-Guard",
           "probability": 60
         },
         {
@@ -686,23 +308,23 @@
   "optimal_submission_paths": [
     {
       "name": "Back Attack Pathway",
-      "path": "Scramble Position → Turtle to Back Take → Back Control → Seat Belt Control Back → Rear Naked Choke (Highest percentage path from scrambles)"
+      "path": "Scramble Position → Turtle to Back Take → Back Control → Rear Naked Choke"
     },
     {
       "name": "Front Headlock Chain",
-      "path": "Scramble Position → Sprawl → Front Headlock → Darce Setup → Front Headlock → Darce Choke (High-percentage when opponent shoots or drops head)"
+      "path": "Scramble Position → Sprawl → Front Headlock → Darce Choke"
     },
     {
       "name": "Leg Entanglement Series",
-      "path": "Scramble Position → Single Leg Entry → Single Leg X Guard → Ashi Garami → Heel Hook (Modern approach favored in no-gi)"
+      "path": "Scramble Position → Single Leg Entry → Single Leg X-Guard → Ashi Garami → Heel Hook"
     },
     {
       "name": "Guillotine Pathway",
-      "path": "Scramble Position → Guillotine Setup → Front Headlock → Guillotine Choke (Opportunistic when opponent commits to takedown)"
+      "path": "Scramble Position → Guillotine Setup → Guillotine Choke"
     },
     {
       "name": "Kimura Trap Route",
-      "path": "Scramble Position → Kimura from Turtle → Bottom Turtle → Kimura (Effective when opponent posts during recovery)"
+      "path": "Scramble Position → Kimura from Turtle → Kimura"
     }
   ],
   "related_content": [
@@ -715,11 +337,7 @@
       "relationship": "Primary high-percentage target position from scramble situations"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Defensive objective when scramble is unfavorable or energy conservation needed"
-    },
-    {
-      "name": "Bottom Turtle",
+      "name": "Turtle",
       "relationship": "Transitional position often occurring during scrambles as defensive refuge"
     },
     {
@@ -731,7 +349,7 @@
       "relationship": "Guard variation accessible during scrambles when opponent commits to top pressure"
     },
     {
-      "name": "Single Leg X Guard",
+      "name": "Single Leg X-Guard",
       "relationship": "Leg entanglement option when scramble involves lower body control battles"
     },
     {
@@ -745,6 +363,10 @@
     {
       "name": "Escape Hierarchy",
       "relationship": "Strategic framework for prioritizing scramble outcomes based on positional hierarchy"
+    },
+    {
+      "name": "Guard Recovery",
+      "relationship": "Defensive objective when scramble is unfavorable or energy conservation needed"
     }
   ],
   "position_metrics": {
@@ -763,445 +385,11 @@
       "intermediate": 30,
       "advanced": 50
     },
-    "average_time": "3-8 seconds"
+    "average_time": "3-8 seconds before resolution to established position or reversal"
   },
   "expert_insights": {
-    "danaher": "Views scrambles not as random chaos but as systems of probabilistic transitions that can be understood and optimized through conceptual frameworks. Emphasizes the importance of recognizing high-percentage pathways through scrambles that lead to established dominant positions, particularly back control. Creates systematic approaches to common scramble scenarios where specific grips and positioning maximize the probability of emerging with advantage. His methodology teaches students to identify key decision points within scrambles where commitment to specific techniques yields superior outcomes compared to reactive improvisation. Danaher stresses that elite scrambling ability derives from pattern recognition developed through thousands of repetitions, allowing practitioners to execute complex sequences instinctively during chaotic exchanges where conscious deliberation is impossible.",
-    "gordon_ryan": "Approaches scrambles with a strategic mindset that balances risk and reward, often prioritizing positional dominance over submission opportunities during chaotic exchanges. Emphasizes the importance of identifying and securing key control points during transitions that facilitate subsequent positional advancement. Places particular focus on creating scrambles that funnel toward his strongest positions, especially back control and leg entanglement systems where his technical superiority can be maximized. Ryan's competitive philosophy treats scrambles as opportunities to impose his game rather than neutral exchanges, deliberately steering chaotic situations toward positions where he maintains systematic advantages. His training methodology incorporates extensive scramble drilling to develop the physical attributes and technical fluidity required to dominate transitional exchanges against elite opposition.",
-    "eddie_bravo": "Has developed specialized approaches to scrambles that prioritize unusual control points and unorthodox transitions, particularly those that lead toward 10th Planet-specific positions like the truck, lockdown variations, and rubber guard entries. Emphasizes the value of comfort in inverted positions during scrambles and creating unexpected transitional pathways that opponents are unfamiliar with, viewing scrambles as opportunities for creative problem-solving rather than mere position establishment. Bravo's system encourages practitioners to develop personalized scramble sequences that align with individual strengths and stylistic preferences, treating chaotic exchanges as laboratories for technical innovation. His methodology incorporates extensive flow rolling and creative drilling to build the improvisational capacity required to capitalize on scramble opportunities that more conventional approaches might overlook."
-  }
-}
-{
-  "metadata": {
-    "title": "Scramble Top Position | BJJ Position Guide | BJJ Graph",
-    "description": "Master Scramble Top Position in BJJ. Dynamic transitional position with strategic opportunities. Learn control methods, advancement options, and tactical decisions.",
-    "state_id": "S201",
-    "tags": ["bjj", "position", "scramble", "transition", "top", "dynamic", "neutral"],
-    "parent_variant": "Scramble Position",
-    "sibling_variants": ["Scramble Bottom Position"]
-  },
-
-  "overview": "Scramble Top Position represents a dynamic, fluid transitional state where the top practitioner has temporary positional advantage during a scramble sequence. Unlike established controlling positions, scrambles are characterized by rapid exchanges, incomplete grips, and constant movement from both practitioners. The top player in a scramble has initiative and gravity advantage, creating opportunities to establish dominant control or capitalize on defensive errors.\n\nThis position emerges from guard passing attempts gone awry, failed sweep defenses, or transitions between established positions where both practitioners momentarily lose their structural advantages. Success in scrambles requires explosive athleticism, spatial awareness, technical precision under chaos, and the ability to recognize fleeting opportunities. The scramble top position is inherently unstable, typically lasting only 2-8 seconds before resolving into either an established position or reversal.\n\nThe strategic value of scrambles lies in their unpredictability and the psychological pressure they create. Practitioners comfortable in chaos can force scrambles deliberately, while those who excel at recognizing patterns can convert momentary advantages into dominant positions. Modern no-gi competition has elevated scrambling to an essential skill, with elite competitors like Gordon Ryan and Lachlan Giles demonstrating systematic approaches to chaos that appear almost prescient in their ability to emerge advantageously.",
-
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Neutral",
-    "risk_level": "Medium",
-    "energy_cost": "High",
-    "time_sustainability": "Short"
-  },
-
-  "state_invariants": [
-    "Top player positioned above opponent with gravity advantage, hips elevated above opponent's center of mass, though without established weight distribution or controlling grips typical of dominant positions",
-    "Neither player has established controlling position with full structural dominance - grips are incomplete, hooks are partial, and base is compromised for both practitioners",
-    "Highly dynamic state with constant movement and position changes, characterized by explosive direction changes, grip fighting, and rapid transitions between potential positions",
-    "Top player has initiative and offensive momentum, actively pursuing advancement while bottom player defends and seeks reversal or guard recovery"
-  ],
-
-  "prerequisites": [
-    "Failed guard pass attempt leaving both players in transitional space",
-    "Escape from bottom position without completing guard recovery",
-    "Sweep attempt partially defended creating scramble opportunity",
-    "Transition between positions where grips and control temporarily lost",
-    "Standing engagement that goes to ground without clean takedown"
-  ],
-
-  "key_principles": [
-    "Maintain hips higher than opponent's to preserve gravity advantage and prevent reversal",
-    "Keep constant forward pressure and movement to prevent opponent from establishing frames or guard",
-    "Establish first meaningful grip on opponent's body or limbs to create control point",
-    "Stay balanced with wide base while remaining mobile enough to adjust to opponent's movement",
-    "Recognize fleeting opportunities for established positions and commit decisively when they appear",
-    "Control opponent's hips and shoulders to limit their mobility and escape options",
-    "Use opponent's defensive reactions to guide transitions toward dominant positions"
-  ],
-
-  "offensive_transitions": [
-    {
-      "technique": "Side Control Consolidation",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Knee Slice Pass",
-      "target_position": "Knee Slice Top Position",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Front Headlock to Back",
-      "target_position": "Back Control Top",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Turtle to Back Take",
-      "target_position": "Back Control Top",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Mount Top",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      }
-    },
-    {
-      "technique": "Transition to North-South",
-      "target_position": "North-South Top",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Guillotine Setup",
-      "target_position": "Guillotine Control Top",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 30,
-        "advanced": 45
-      }
-    },
-    {
-      "technique": "Anaconda from Turtle",
-      "target_position": "Anaconda Control Top",
-      "success_rates": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 40
-      }
-    },
-    {
-      "technique": "Darce from Turtle",
-      "target_position": "Darce Control Top Position",
-      "success_rates": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 40
-      }
-    },
-    {
-      "technique": "Snap Down to Front Headlock",
-      "target_position": "Front Headlock Control Top Position",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    }
-  ],
-
-  "defensive_responses": [
-    {
-      "technique": "Turtle to Guard",
-      "target_position": "Turtle Bottom",
-      "success_rate": 40
-    },
-    {
-      "technique": "Re-Guard",
-      "target_position": "Guard Recovery Bottom",
-      "success_rate": 35
-    },
-    {
-      "technique": "Granby Roll",
-      "target_position": "Closed Guard Bottom",
-      "success_rate": 30
-    },
-    {
-      "technique": "Technical Standup",
-      "target_position": "Standing Position",
-      "success_rate": 25
-    },
-    {
-      "technique": "Rolling to Guard",
-      "target_position": "Open Guard Bottom",
-      "success_rate": 35
-    },
-    {
-      "technique": "Guard Replacement",
-      "target_position": "Half Guard Bottom",
-      "success_rate": 40
-    }
-  ],
-
-  "counter_transitions": [
-    {
-      "technique": "Front Headlock Series",
-      "target_position": "Front Headlock Control Top Position",
-      "trigger": "Opponent turtles or lowers head during scramble"
-    },
-    {
-      "technique": "Back Take Generic",
-      "target_position": "Back Control Top",
-      "trigger": "Opponent turns away exposing back during escape attempt"
-    },
-    {
-      "technique": "Knee Slice from Half",
-      "target_position": "Side Control Top",
-      "trigger": "Opponent establishes half guard during scramble"
-    },
-    {
-      "technique": "Guillotine from Turtle",
-      "target_position": "Guillotine Control Top",
-      "trigger": "Opponent drives head forward into front headlock position"
-    },
-    {
-      "technique": "Anaconda Setup",
-      "target_position": "Anaconda Control Top",
-      "trigger": "Opponent extends arm while in turtle or front headlock"
-    }
-  ],
-
-  "decision_tree": [
-    {
-      "condition": "If opponent turtles and protects neck with arms tight to chest",
-      "actions": [
-        {
-          "technique": "Turtle to Back Take",
-          "target": "Back Control Top",
-          "probability": 60
-        },
-        {
-          "technique": "Turtle to Back Control",
-          "target": "Back Control Top",
-          "probability": 55
-        }
-      ]
-    },
-    {
-      "condition": "If opponent attempts to recover guard by creating frames and distance",
-      "actions": [
-        {
-          "technique": "Knee Slice Pass",
-          "target": "Side Control Top",
-          "probability": 50
-        },
-        {
-          "technique": "Pressure Pass",
-          "target": "Side Control Top",
-          "probability": 45
-        }
-      ]
-    },
-    {
-      "condition": "If opponent exposes neck while defending or turning",
-      "actions": [
-        {
-          "technique": "Guillotine Setup",
-          "target": "Guillotine Control Top",
-          "probability": 40
-        },
-        {
-          "technique": "Front Headlock to Anaconda",
-          "target": "Anaconda Control Top",
-          "probability": 35
-        }
-      ]
-    },
-    {
-      "condition": "If opponent stands or attempts technical standup",
-      "actions": [
-        {
-          "technique": "Snap Down",
-          "target": "Front Headlock Control Top Position",
-          "probability": 55
-        },
-        {
-          "technique": "Single Leg Entry",
-          "target": "Top Position",
-          "probability": 45
-        }
-      ]
-    },
-    {
-      "condition": "If opponent commits to rolling or inverting",
-      "actions": [
-        {
-          "technique": "Front Headlock to Back",
-          "target": "Back Control Top",
-          "probability": 60
-        },
-        {
-          "technique": "Back Step",
-          "target": "Back Control Top",
-          "probability": 55
-        }
-      ]
-    }
-  ],
-
-  "common_errors": [
-    {
-      "error": "Committing weight forward prematurely without establishing grips or control points",
-      "consequence": "Bottom player easily reverses position using momentum against you or establishes guard",
-      "correction": "Maintain balanced base with hips elevated, establish grip control before committing weight forward"
-    },
-    {
-      "error": "Hesitating or pausing during scramble instead of maintaining constant offensive pressure",
-      "consequence": "Opponent recovers guard, establishes frames, or reverses position during the pause",
-      "correction": "Keep continuous forward movement and pressure, making opponent constantly defend rather than allowing recovery"
-    },
-    {
-      "error": "Chasing position with poor base leading to easy sweeps or reversals",
-      "consequence": "Bottom player uses your off-balance momentum to sweep or reverse scramble advantage",
-      "correction": "Maintain wide base with knees and hands while pursuing position, never extending beyond recovery range"
-    },
-    {
-      "error": "Ignoring opponent's legs and allowing guard recovery hooks to establish",
-      "consequence": "Scramble resolves with opponent in guard rather than achieving dominant top position",
-      "correction": "Control opponent's hips and monitor leg positioning, preventing hook establishment"
-    },
-    {
-      "error": "Failing to recognize and capitalize on fleeting submission opportunities during chaos",
-      "consequence": "Miss high-percentage front headlock attacks, guillotines, or darces available during scramble",
-      "correction": "Develop pattern recognition for common scramble submission setups, particularly neck exposures"
-    },
-    {
-      "error": "Using strength and athleticism without technical framework for position consolidation",
-      "consequence": "Expend excessive energy without achieving stable position, leading to fatigue and reversal",
-      "correction": "Combine athletic pressure with technical endpoints - always drive toward specific established position"
-    },
-    {
-      "error": "Allowing opponent to create separation and distance during scramble",
-      "consequence": "Opponent establishes frames, recovers guard, or stands up ending scramble disadvantageously",
-      "correction": "Maintain chest-to-chest or chest-to-back proximity, never allowing opponent to extend arms fully"
-    }
-  ],
-
-  "training_drills": [
-    {
-      "name": "Scramble Flow Drill",
-      "description": "Partners start in scramble position and flow continuously for 2-minute rounds, focusing on smooth transitions and maintaining top advantage. Reset when either player achieves established position. Emphasizes movement patterns and opportunity recognition.",
-      "duration": "5 rounds of 2 minutes"
-    },
-    {
-      "name": "Turtle to Dominant Position",
-      "description": "Bottom player starts in turtle, top player works to establish back control, mount, or side control within 30 seconds. Cycle through positions. Develops finishing instinct from scramble opportunities.",
-      "duration": "10 reps per position"
-    },
-    {
-      "name": "Guard Recovery Defense Scrambles",
-      "description": "Bottom player attempts guard recovery from poor positions, top player maintains scramble advantage and advances. Start from various compromised positions (failed sweep, partial escape, etc.). Builds realistic scramble scenarios.",
-      "duration": "3-minute rounds, 5 rounds"
-    },
-    {
-      "name": "Front Headlock Scramble Series",
-      "description": "Partners alternate initiating scrambles from standing or guard, top player focuses on recognizing and securing front headlock control when opponent lowers head. Emphasizes head position awareness during chaos.",
-      "duration": "4 rounds of 3 minutes"
-    },
-    {
-      "name": "Explosion to Position Drill",
-      "description": "Start from neutral scramble position, top player has 5 seconds to explode to established dominant position (side control, mount, back). Develops decisive commitment and explosive transitions.",
-      "duration": "20 reps with fresh partner rotation"
-    }
-  ],
-
-  "optimal_submission_paths": [
-    {
-      "name": "Front Headlock Path",
-      "path": "Scramble Top Position → Front Headlock Control Top Position → Guillotine Control Top → Guillotine Choke"
-    },
-    {
-      "name": "Back Take Path",
-      "path": "Scramble Top Position → Turtle Bottom → Back Control Top → Rear Naked Choke"
-    },
-    {
-      "name": "Anaconda Path",
-      "path": "Scramble Top Position → Front Headlock Control Top Position → Anaconda Control Top → Anaconda Choke"
-    },
-    {
-      "name": "Side Control Path",
-      "path": "Scramble Top Position → Side Control Top → North-South Top → North-South Choke"
-    },
-    {
-      "name": "Mount Path",
-      "path": "Scramble Top Position → Side Control Top → Mount Top → Armbar from Mount"
-    }
-  ],
-
-  "related_content": [
-    {
-      "name": "Scramble Position",
-      "relationship": "Parent position - base scramble state"
-    },
-    {
-      "name": "Scramble Bottom Position",
-      "relationship": "Sibling variant - opposite perspective"
-    },
-    {
-      "name": "Turtle Bottom",
-      "relationship": "Common transition target from bottom player"
-    },
-    {
-      "name": "Front Headlock Control Top Position",
-      "relationship": "High-percentage advancement from scrambles"
-    },
-    {
-      "name": "Guard Recovery Bottom",
-      "relationship": "Common defensive response position"
-    },
-    {
-      "name": "Side Control Top",
-      "relationship": "Primary consolidation target position"
-    },
-    {
-      "name": "Back Control Top",
-      "relationship": "Optimal advancement opportunity"
-    },
-    {
-      "name": "Transition Management",
-      "relationship": "Core concept for scramble success"
-    },
-    {
-      "name": "Explosive Power",
-      "relationship": "Physical attribute requirement"
-    },
-    {
-      "name": "Pressure Application",
-      "relationship": "Technical principle for maintaining advantage"
-    }
-  ],
-
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 40,
-      "intermediate": 55,
-      "advanced": 70
-    },
-    "advancement_probability": {
-      "beginner": 35,
-      "intermediate": 50,
-      "advanced": 65
-    },
-    "submission_probability": {
-      "beginner": 10,
-      "intermediate": 20,
-      "advanced": 35
-    },
-    "average_time": "3-8 seconds"
-  },
-
-  "expert_insights": {
-    "danaher": "Scrambles represent the intersection of chaos and systematic technique, where preparation meets opportunity. The practitioner who understands scrambles as probabilistic rather than random develops pattern recognition that appears almost supernatural to observers. Every scramble contains fleeting windows - typically 1-2 seconds - where specific pathways to dominant positions open based on opponent reactions. The systematic approach involves cataloguing these patterns: when opponent turtles, back exposure probability increases; when opponent frames and extends, passing lanes open; when opponent turns head, front headlock control becomes available. Train scrambles not as chaos, but as high-speed decision trees where your technical vocabulary determines which opportunities you can recognize and execute. The athlete who can slow down their perception of scrambles through systematic preparation will consistently emerge with positional advantage.",
-    "gordon_ryan": "In competition, scrambles separate the athletes who train moves from those who train systems. I actively create scrambles against opponents who rely on established positions because most competitors haven't systematized their scramble game - they're hoping for lucky outcomes rather than executing trained patterns. My scramble success comes from two factors: physical conditioning that lets me maintain explosive pressure while opponents fade, and systematic training of specific scramble resolutions. I drill turtle-to-back, guard recovery defense, and front headlock series thousands of times, so when scrambles occur at competition speed, my body executes trained patterns automatically. The key insight: scrambles favor the athlete who can sustain high-intensity output longest and who has systematized their chaos. Train scrambles at 100% intensity for short bursts, and always drill specific resolution patterns - never just scramble randomly hoping to improve.",
-    "eddie_bravo": "Scrambles are where creativity and athleticism collide, man. The traditional approach treats scrambles as mistakes to avoid, but I see them as strategic weapons. At 10th Planet, we deliberately create scrambles through techniques like the truck and twister sequences because we train scramble situations more than most schools. When you're comfortable in chaos, you can force chaos on opponents who prefer structured positions. The mental edge is huge - if your opponent fears scrambles and you welcome them, you control the psychological battle. My approach: embrace weird positions, train scrambles from unusual angles, and develop scramble-specific conditioning that lets you explode repeatedly while opponents conserve energy. The rubber guard system, the lockdown, the truck - all these create scramble opportunities where trained patterns beat positional purity. Make scrambles your friend through systematic weirdness training, and you'll dominate athletes with better technique but less comfort in chaos."
+    "danaher": "Scrambles represent the intersection of chaos and systematic technique, where preparation meets opportunity in the most condensed time frames imaginable. The practitioner who understands scrambles as probabilistic rather than random develops pattern recognition that appears almost supernatural to observers. Every scramble contains fleeting windows—typically one to two seconds—where specific pathways to dominant positions open based on opponent reactions and weight distribution patterns. The systematic approach involves cataloguing these patterns through thousands of repetitions: when opponent turtles, back exposure probability increases exponentially; when opponent frames and extends limbs, passing lanes open geometrically; when opponent turns head away from pressure, front headlock control becomes available with minimal resistance. Train scrambles not as chaos to be survived, but as high-speed decision trees where your technical vocabulary determines which opportunities you can recognize and execute. The athlete who can slow down their perception of scrambles through systematic preparation and pattern recognition will consistently emerge with positional advantage, appearing to possess preternatural instincts when in reality they are executing trained responses to recognized stimuli.",
+    "gordon_ryan": "In high-level competition, scrambles separate the athletes who train isolated techniques from those who train complete systems with decision-making frameworks. I actively create scrambles against opponents who rely exclusively on established positions because most competitors haven't systematized their scramble game—they're hoping for lucky outcomes rather than executing trained patterns with probabilistic advantages. My scramble success derives from two fundamental factors: physical conditioning that allows me to maintain explosive pressure and movement while opponents fade under the metabolic demands, and systematic training of specific scramble resolutions practiced thousands of times until they become automatic responses. I drill turtle-to-back sequences, guard recovery defense patterns, and front headlock series at competition intensity until my body executes these pathways instinctively during live scrambles. The key insight: scrambles favor the athlete who can sustain high-intensity output longest and who has systematized their chaos through deliberate practice. Train scrambles at one hundred percent intensity for short bursts, always drilling specific resolution patterns rather than random scrambling, and you'll dominate athletes with superior technique who lack scramble conditioning and systematic frameworks.",
+    "eddie_bravo": "Scrambles are where creativity and athleticism collide in the most beautiful chaos jiu-jitsu has to offer, man. The traditional approach treats scrambles as mistakes to avoid or survive, but I see them as strategic weapons to be wielded deliberately. At 10th Planet, we deliberately create scrambles through techniques like the truck and twister sequences because we train scramble situations more extensively than most traditional schools. When you're genuinely comfortable in chaos and your opponent fears it, you control the entire psychological battle before grips are even established. My approach embraces weird positions, trains scrambles from unusual angles and inverted orientations, and develops scramble-specific conditioning that allows explosive movement repeatedly while opponents conserve energy for established positions. The rubber guard system, the lockdown variations, the truck position—all these create scramble opportunities where trained patterns and comfort in chaos beat positional purity and technical orthodoxy. Make scrambles your friend through systematic weirdness training and creative problem-solving practice, and you'll dominate athletes with better positional technique but less comfort in transitional chaos. The future of jiu-jitsu is increasingly scramble-heavy, especially in no-gi, and those who master chaos will define the next generation of elite grapplers."
   }
 }

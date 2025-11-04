@@ -174,7 +174,7 @@
 
 **Canonical URLs:**
 - Implemented in Head.tsx component
-- Format: `https://bjjgraph.com/[slug]`
+- Format: `https://bjjgraph.org/[slug]`
 - Prevents duplicate content issues
 
 **Open Graph Tags:**
@@ -414,7 +414,7 @@
    - Test 10 random pages load correctly
 
 2. **Submit Sitemap to Google Search Console**
-   - URL: https://bjjgraph.com/sitemap.xml
+   - URL: https://bjjgraph.org/sitemap.xml
    - Monitor indexing status daily
    - Check for crawl errors
    - Request indexing for hub pages
@@ -755,16 +755,16 @@ The BJJ Graph site now has **enterprise-level SEO implementation** with:
 
 ### Critical URLs to Test Post-Deployment
 
-1. **Sitemap:** https://bjjgraph.com/sitemap.xml
-2. **Robots.txt:** https://bjjgraph.com/robots.txt
+1. **Sitemap:** https://bjjgraph.org/sitemap.xml
+2. **Robots.txt:** https://bjjgraph.org/robots.txt
 3. **Hub Pages:**
-   - https://bjjgraph.com/bjj-positions
-   - https://bjjgraph.com/bjj-transitions
-   - https://bjjgraph.com/bjj-submissions
-   - https://bjjgraph.com/bjj-escapes
-   - https://bjjgraph.com/bjj-guard-passing
-4. **Sample Position:** https://bjjgraph.com/positions/mount
-5. **Sample Transition:** https://bjjgraph.com/transitions/hip-bump-sweep
+   - https://bjjgraph.org/bjj-positions
+   - https://bjjgraph.org/bjj-transitions
+   - https://bjjgraph.org/bjj-submissions
+   - https://bjjgraph.org/bjj-escapes
+   - https://bjjgraph.org/bjj-guard-passing
+4. **Sample Position:** https://bjjgraph.org/positions/mount
+5. **Sample Transition:** https://bjjgraph.org/transitions/hip-bump-sweep
 
 ### Validation Tools
 

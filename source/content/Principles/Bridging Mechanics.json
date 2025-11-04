@@ -1,13 +1,10 @@
 {
-  "metadata": {
-    "title": "Bridging Mechanics | BJJ Concept | BJJ Graph",
-    "description": "Understand Bridging Mechanics in BJJ. Master hip elevation, weight transfer, and explosive power generation. Essential escape foundation with cross-position applications.",
-    "concept_id": "C118",
-    "tags": ["bjj", "concept", "bridging", "escape", "mechanics", "hip-movement", "fundamentals"],
-    "application_level": "Fundamental",
-    "complexity_level": "Low",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Bridging Mechanics",
+  "description": "Master bridging mechanics in BJJ. Learn explosive hip elevation, weight transfer, and posterior chain activation. Essential escape foundation with cross-position application.",
+  "tags": ["bjj", "principle", "bridging", "escape", "mechanics", "hip-movement", "fundamentals"],
+  "application_level": "Fundamental",
+  "complexity_level": "Low",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Bridging Mechanics represents one of the most fundamental movement patterns in Brazilian Jiu-Jitsu, serving as the foundation for countless escapes, reversals, and defensive maneuvers. At its core, bridging involves explosively elevating the hips while maintaining shoulder contact with the mat, creating a powerful arch in the body that generates force, disrupts opponent balance, and creates space. This seemingly simple movement is actually a sophisticated biomechanical action that, when properly executed, allows a practitioner to overcome significant weight disadvantages and escape from dominant positions.\n\nThe bridge is essentially a full-body tension system that converts the legs' powerful muscles into upward and rotational force. Unlike simple hip elevation, a proper bridge engages the entire posterior chain—glutes, hamstrings, lower back, and shoulders—to create a rigid, powerful structure. The feet provide the base of power, typically positioned close to the hips with knees bent at approximately 90 degrees, allowing maximum force generation. The shoulders remain grounded to create a stable pivot point, while the hips drive upward and often to one side, creating both vertical displacement and rotational momentum.\n\nMastery of bridging mechanics is non-negotiable for effective BJJ practice. It appears in fundamental escapes like the upa (bridge and roll) from mount, elbow escape from side control, and countless back escape sequences. Advanced practitioners utilize bridging in more subtle ways—creating micro-adjustments in position, generating explosive power for sweeps, and maintaining dynamic tension during scrambles. The bridge is also deeply connected to other fundamental movements like shrimping, with both forming the complete defensive movement vocabulary. Understanding and refining bridging mechanics accelerates progression at all levels, as it provides the physical foundation for escaping bad positions and the biomechanical understanding necessary for controlling opponents.",
   "key_principles": [
     "**Hip Elevation First**: The bridge initiates with explosive hip drive upward, not with pushing through the shoulders or chest",
@@ -54,36 +51,56 @@
       "description": "Seamlessly transitioning from bridge to complementary movements like shrimp, frame, or re-guard. This sequencing transforms individual techniques into complete escape systems where each movement sets up the next action."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Hip Movement",
+      "principle_name": "Hip Movement",
       "relationship_type": "Prerequisite",
       "description": "General hip mobility and control provides foundation for bridging mechanics; bridge represents specific application of hip power"
     },
     {
-      "concept_name": "Shrimping",
+      "principle_name": "Shrimping",
       "relationship_type": "Complementary",
       "description": "Bridging and shrimping form the complete defensive movement vocabulary; bridge creates vertical space while shrimp creates lateral space"
     },
     {
-      "concept_name": "Escape Fundamentals",
+      "principle_name": "Escape Fundamentals",
       "relationship_type": "Extension",
       "description": "Bridging mechanics serves as core component of fundamental escape systems; proper bridge execution enables escape sequences"
     },
     {
-      "concept_name": "Frame Creation",
+      "principle_name": "Frame Creation",
       "relationship_type": "Complementary",
       "description": "Frames maintain space created by bridges; bridge generates initial separation while frames preserve and extend it"
     },
     {
-      "concept_name": "Biomechanical Principles",
+      "principle_name": "Biomechanical Principles",
       "relationship_type": "Prerequisite",
       "description": "Understanding leverage, force vectors, and body mechanics underlies effective bridge execution and adaptation"
     },
     {
-      "concept_name": "Energy Conservation",
+      "principle_name": "Energy Conservation",
       "relationship_type": "Advanced form",
       "description": "Advanced practitioners use minimal, precisely-timed bridges rather than repeated maximal efforts, conserving energy while maintaining effectiveness"
+    },
+    {
+      "principle_name": "Hip Escape Mechanics",
+      "relationship_type": "Complementary",
+      "description": "Hip escapes build on bridging to create lateral movement; bridge provides vertical displacement that enables horizontal escape"
+    },
+    {
+      "principle_name": "Bridge and Shrimp",
+      "relationship_type": "Extension",
+      "description": "Combined movement pattern that integrates bridging with shrimping for complete escape execution"
+    },
+    {
+      "principle_name": "Hip Elevation",
+      "relationship_type": "Extension",
+      "description": "Bridging represents maximal expression of hip elevation principle; bridge is explosive, complete hip elevation under pressure"
+    },
+    {
+      "principle_name": "Leverage Principles",
+      "relationship_type": "Prerequisite",
+      "description": "Understanding leverage mechanics enables optimal bridge execution; feet as power source, shoulders as fulcrum, hips as load"
     }
   ],
   "application_contexts": [
@@ -112,20 +129,28 @@
       "how_applied": "Bridge toward opponent's head combined with hip movement creates escape angle; explosive bridges can break opponent's grip structure"
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Bridge restores optimal spinal alignment and resets guard position when posture has been broken; creates space to re-establish offensive framework"
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Bridge recovers space when flattened, allowing recovery of underhook, knee shield, or other half guard defensive structures"
     },
     {
-      "context": "Turtle Position",
+      "context": "Turtle",
       "how_applied": "Bridge from turtle creates explosive upward drive that can disrupt opponent's hooks and create scramble opportunities or return to guard"
     },
     {
-      "context": "Closed Guard Top",
-      "how_applied": "Bridge can be used offensively to break opponent's closed guard by driving hips forward and upward while controlling opponent's upper body"
+      "context": "High Mount",
+      "how_applied": "Bridge from high mount requires angled execution toward opponent's weak side; creates reversal opportunity or space to return to regular mount defense"
+    },
+    {
+      "context": "S Mount",
+      "how_applied": "Bridge disrupts opponent's balance when transitioning to S-mount armbar; explosive bridge at moment of transition creates escape window"
+    },
+    {
+      "context": "Modified Scarf Hold",
+      "how_applied": "Bridge toward opponent's legs combined with hip escape creates space to recover guard; timing bridge with opponent's weight shifts maximizes effectiveness"
     }
   ],
   "decision_framework": [
@@ -287,17 +312,17 @@
   "related_content": [
     {
       "name": "Bridge and Shrimp",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary foundational movement that combines with bridging to form complete defensive system"
     },
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
-      "relationship": "Related concept that builds on bridging to create lateral movement and escape pathways"
+      "content_type": "Principle",
+      "relationship": "Related principle that builds on bridging to create lateral movement and escape pathways"
     },
     {
       "name": "Mount Escape Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic framework that incorporates bridging as primary escape mechanism from mount"
     },
     {
@@ -332,8 +357,18 @@
     },
     {
       "name": "Escape Fundamentals",
-      "content_type": "Concept",
-      "relationship": "Broader concept that includes bridging as one of several essential escape movements"
+      "content_type": "Principle",
+      "relationship": "Broader principle that includes bridging as one of several essential escape movements"
+    },
+    {
+      "name": "Shrimping",
+      "content_type": "Principle",
+      "relationship": "Complementary escape movement that works with bridging to create complete defensive capability"
+    },
+    {
+      "name": "Hip Movement",
+      "content_type": "Principle",
+      "relationship": "Foundational principle that underlies all bridging mechanics and hip-based escapes"
     }
   ],
   "expert_insights": {

@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Butterfly Hook Retention | BJJ Concept | BJJ Graph",
-    "description": "Understand Butterfly Hook Retention in BJJ. Learn hook placement, dynamic adjustment, elevation control principles. Cross-position application with expert insights included.",
-    "concept_id": "C042",
-    "tags": [
-      "bjj",
-      "concept",
-      "intermediate",
-      "guard",
-      "retention",
-      "butterfly",
-      "hooks",
-      "elevation"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Butterfly Hook Retention",
+  "description": "Master butterfly hook retention fundamentals in BJJ. Learn hook placement, dynamic adjustment, elevation control, and cross-position applications for effective guard maintenance.",
+  "tags": [
+    "bjj",
+    "concept",
+    "intermediate",
+    "guard",
+    "retention",
+    "butterfly",
+    "hooks",
+    "elevation"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Butterfly Hook Retention represents the fundamental skill of maintaining and preserving butterfly hooks as primary control mechanisms in seated guard positions, preventing hook removal and guard passing while creating continuous sweep and elevation opportunities. Unlike specific techniques, butterfly hook retention is a comprehensive conceptual framework that applies across butterfly guard variations, passing defense scenarios, and transitional situations. This concept encompasses the biomechanical principles of hook placement, dynamic adjustment, hip mobility, and strategic elevation control that enable the bottom practitioner to neutralize passing pressure while maintaining offensive capability. Butterfly hook retention serves as both a defensive mechanism that prevents opponents from flattening or controlling the guard player, and an offensive platform that creates immediate sweep entries and elevation attacks. The ability to maintain effective butterfly hooks often determines whether a practitioner can successfully execute sweeps and maintain guard integrity or becomes flattened and passed, making it one of the most essential conceptual elements in dynamic guard systems.",
   "key_principles": [
     "Position hooks at optimal depth inside opponent's thighs to maximize elevation leverage while preventing easy removal",
@@ -63,36 +60,51 @@
       "description": "Preserving hook connection during critical moments of grip changes, position adjustments, and reactive movements when hook retention is most vulnerable. This involves understanding when to prioritize hook retention over other objectives and developing contingency responses when hooks are temporarily compromised."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention Concepts",
       "relationship_type": "Extension",
       "description": "Butterfly hook retention represents a specific application of broader guard retention principles, focusing on hook-based retention rather than frame or distance-based approaches, requiring distinct technical solutions for similar strategic objectives."
     },
     {
-      "concept_name": "Frame Management",
+      "principle_name": "Frame Management",
       "relationship_type": "Complementary",
       "description": "Effective hook retention requires coordinated frame usage where frames prevent opponent from closing distance and controlling posture while hooks provide elevation and sweep threat, creating a complete retention system through their interaction."
     },
     {
-      "concept_name": "Hip Movement",
+      "principle_name": "Hip Movement",
       "relationship_type": "Prerequisite",
       "description": "Fundamental hip mobility and positioning skills enable effective hook retention by allowing the guard player to maintain elevated hips and adjust hook angles dynamically, without which hook retention becomes static and easily defeated."
     },
     {
-      "concept_name": "Sweep Mechanics",
+      "principle_name": "Sweep Mechanics",
       "relationship_type": "Complementary",
       "description": "Hook retention and sweep execution share identical mechanical requirements, making retention practice simultaneously sweep development, as the same hip elevation and hook pressure that maintain position also generate sweeping momentum."
     },
     {
-      "concept_name": "Leverage Principles",
+      "principle_name": "Leverage Principles",
       "relationship_type": "Prerequisite",
       "description": "Understanding leverage mechanics explains why proper hook placement and angle create exponentially greater retention capability than strength-based holding, informing strategic decisions about hook depth and positioning based on opponent's size and base."
     },
     {
-      "concept_name": "Off-Balancing",
+      "principle_name": "Off-Balancing",
       "relationship_type": "Advanced form",
       "description": "Advanced hook retention evolves into active off-balancing where hooks don't merely maintain position but continuously destabilize opponent's base, transforming retention from defensive maintenance into offensive position manipulation that sets up multiple attacking sequences."
+    },
+    {
+      "principle_name": "Connection Principles",
+      "relationship_type": "Complementary",
+      "description": "Hook retention exemplifies connection principles where maintaining physical contact through hooks enables control and offensive options, while connection breaking attempts by opponent require systematic retention responses."
+    },
+    {
+      "principle_name": "Base Maintenance",
+      "relationship_type": "Complementary",
+      "description": "Butterfly hook retention directly attacks opponent's base maintenance while requiring the guard player to maintain their own positional base through hip elevation and core engagement, creating a base disruption versus base preservation dynamic."
+    },
+    {
+      "principle_name": "Weight Distribution",
+      "relationship_type": "Prerequisite",
+      "description": "Understanding weight distribution principles enables the guard player to read opponent's balance and predict passing directions, informing hook adjustment decisions and creating opportunities to exploit weight shifts."
     }
   ],
   "application_contexts": [
@@ -109,7 +121,7 @@
       "how_applied": "Hook retention principles apply to X-guard's crossed hook configuration, where maintaining hook depth and pressure prevents opponent from stepping over or extracting legs while setting up elevation sweeps."
     },
     {
-      "context": "Single Leg X Guard",
+      "context": "Single Leg X-Guard",
       "how_applied": "Single leg variation where one butterfly hook combines with leg isolation, requiring hook retention that balances elevation pressure with leg control, maintaining position while creating sweep angles."
     },
     {
@@ -117,16 +129,24 @@
       "how_applied": "Butterfly hook concepts transfer to DLR hook retention where similar depth management and elevation principles apply, though hook placement and angle differ due to different leg entanglement configuration."
     },
     {
-      "context": "Seated Guard Bottom",
+      "context": "Seated Guard",
       "how_applied": "Transitional context where butterfly hooks provide primary retention mechanism during seated guard exchanges, maintaining guard integrity during grip fighting and position establishment phases."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Butterfly hooks serve as one retention option within broader open guard framework, with hook retention skills enabling smooth transitions between butterfly-based and other open guard configurations."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Butterfly hook insertion from half guard creates elevation opportunities, with hook retention preventing opponent from controlling legs and flattening guard, enabling transition to more advantageous butterfly positions."
+    },
+    {
+      "context": "Butterfly Hook Control",
+      "how_applied": "Specific positional implementation where hook retention principles determine the effectiveness of butterfly hook control structure, creating platform for offensive attacks and defensive stability."
+    },
+    {
+      "context": "Deep Half Guard",
+      "how_applied": "Deep half guard's under-hook shares mechanical similarities with butterfly hooks, where maintaining depth and elevation pressure prevents opponent from clearing the position using similar retention principles."
     }
   ],
   "decision_framework": [
@@ -287,7 +307,7 @@
       "relationship": "Primary position where butterfly hook retention principles are applied, with hook retention determining success or failure of entire guard system"
     },
     {
-      "name": "Butterfly Hook Retention Bottom",
+      "name": "Butterfly Hook Control",
       "content_type": "Position",
       "relationship": "Specific positional implementation of hook retention concepts, demonstrating practical application of retention principles in bottom butterfly context"
     },
@@ -303,17 +323,17 @@
     },
     {
       "name": "Guard Retention Concepts",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader conceptual framework that encompasses hook retention as specific application of general retention principles"
     },
     {
       "name": "Hip Movement",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational movement concept that enables effective hook retention through hip elevation and dynamic positioning capability"
     },
     {
       "name": "Sweep Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept that shares mechanical requirements with hook retention, creating synergy between defensive retention and offensive sweeping"
     },
     {
@@ -323,13 +343,18 @@
     },
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary retention concept that coordinates with hook retention to create comprehensive guard maintenance system"
     },
     {
       "name": "Butterfly Guard to X-Guard",
       "content_type": "Transition",
       "relationship": "Transitional connection showing how hook retention skills transfer between related guard positions using similar control mechanisms"
+    },
+    {
+      "name": "Marcelo Garcia Butterfly Guard System",
+      "content_type": "System",
+      "relationship": "Expert system that exemplifies high-level butterfly hook retention integrated with sweeps and submissions in cohesive framework"
     }
   ],
   "expert_insights": {

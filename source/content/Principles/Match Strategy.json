@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Match Strategy | BJJ Concept | BJJ Graph",
-    "description": "Master Match Strategy in BJJ. Learn tactical planning, score management, energy pacing, opponent analysis. Competition framework for adaptive decision-making.",
-    "concept_id": "C087",
-    "tags": [
-      "bjj",
-      "concept",
-      "strategy",
-      "competition",
-      "tactical",
-      "game-planning",
-      "decision-making",
-      "scoring"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Intermediate to Expert"
-  },
+  "name": "Match Strategy",
+  "description": "Master match strategy in BJJ. Learn tactical planning, score management, energy pacing, opponent analysis. Develop adaptive decision-making frameworks for competition success.",
+  "tags": [
+    "bjj",
+    "concept",
+    "strategy",
+    "competition",
+    "tactical",
+    "game-planning",
+    "decision-making",
+    "scoring"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Intermediate to Expert",
   "overview": "Match Strategy represents the comprehensive tactical framework for planning, executing, and adapting competitive approaches throughout a Brazilian Jiu-Jitsu match or training session. Unlike specific techniques, match strategy is a high-level decision-making system that integrates positional objectives, scoring considerations, energy management, opponent analysis, and risk assessment into a coherent competitive plan. This concept encompasses the mental and tactical approach to selecting which techniques to attempt, when to push pace, when to conserve energy, and how to adapt plans based on changing match dynamics. Match strategy serves as both a pre-competition preparation tool that structures training focus and tactical priorities, and a real-time decision framework that guides moment-to-moment choices during live competition. The ability to implement effective match strategy often determines competitive outcomes between similarly skilled practitioners, making it one of the most critical conceptual elements in competitive BJJ.",
   "key_principles": [
     "Develop primary game plan based on personal strengths and opponent weaknesses identified through analysis",
@@ -63,78 +60,118 @@
       "description": "The psychological capacity to maintain strategic clarity and disciplined decision-making despite competitive stress, score deficits, time pressure, and opponent momentum. Includes emotional regulation that prevents panic-driven tactical abandonment and maintains coherent approach even when losing or facing unexpected challenges."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Game Planning",
+      "principle_name": "Game Planning",
       "relationship_type": "Prerequisite",
       "description": "Match Strategy builds upon Game Planning by transforming pre-competition tactical frameworks into adaptive in-match decision-making that responds to real-time competitive dynamics while maintaining strategic coherence."
     },
     {
-      "concept_name": "Match Preparation",
+      "principle_name": "Match Preparation",
       "relationship_type": "Prerequisite",
       "description": "Effective Match Strategy requires thorough Match Preparation including opponent analysis, physical conditioning, technical drilling of planned sequences, and mental rehearsal of tactical scenarios that might arise during competition."
     },
     {
-      "concept_name": "Competition Mindset",
+      "principle_name": "Competition Mindset",
       "relationship_type": "Complementary",
       "description": "Competition Mindset provides the psychological foundation that enables execution of Match Strategy under pressure, maintaining focus and discipline necessary for implementing planned tactical approaches despite stress and uncertainty."
     },
     {
-      "concept_name": "Energy Management System",
+      "principle_name": "Energy Management System",
       "relationship_type": "Complementary",
       "description": "Energy Management System integrates directly into Match Strategy by informing tactical decisions about when to increase pace, when to conserve energy, and how to structure positional approaches to create sustainable competitive performance throughout match duration."
     },
     {
-      "concept_name": "Positional Hierarchy",
+      "principle_name": "Positional Hierarchy",
       "relationship_type": "Prerequisite",
       "description": "Understanding Positional Hierarchy is fundamental to Match Strategy as it provides the framework for evaluating risk-reward decisions, determining when to accept positional trades, and structuring tactical priorities around high-value position establishment."
     },
     {
-      "concept_name": "Risk Assessment",
+      "principle_name": "Risk Assessment",
       "relationship_type": "Complementary",
       "description": "Risk Assessment operates as continuous tactical input within Match Strategy, enabling real-time evaluation of whether specific technical choices align with strategic objectives given current match context including score, time, and position."
+    },
+    {
+      "principle_name": "Position-Over-Submission Approach",
+      "relationship_type": "Extension",
+      "description": "Position-Over-Submission Approach represents one strategic philosophy that can be integrated into Match Strategy, emphasizing positional dominance before submission attempts as a tactical framework for competitive success."
+    },
+    {
+      "principle_name": "Offensive vs Defensive Mindset",
+      "relationship_type": "Complementary",
+      "description": "Offensive vs Defensive Mindset informs Match Strategy by determining when tactical situation favors aggressive attacking versus conservative position protection, creating framework for appropriate risk-taking across different competitive contexts."
+    },
+    {
+      "principle_name": "Pacing",
+      "relationship_type": "Complementary",
+      "description": "Pacing principles integrate into Match Strategy as tactical tools for controlling match tempo, managing energy expenditure, and creating favorable competitive conditions through deliberate tempo manipulation."
+    },
+    {
+      "principle_name": "Dilemma Creation",
+      "relationship_type": "Extension",
+      "description": "Dilemma Creation serves as advanced strategic concept within Match Strategy where tactical choices force opponent into no-win situations, creating compound advantages through systematic option elimination."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
-      "how_applied": "Strategic approach in Closed Guard Bottom varies dramatically based on match context: when ahead on points, focus shifts toward retention and stalling; when behind, emphasis moves to aggressive sweep attempts and submission threats that create scoring opportunities despite higher positional risk."
+      "context": "Closed Guard",
+      "how_applied": "Strategic approach in Closed Guard varies dramatically based on match context: when ahead on points, focus shifts toward retention and stalling; when behind, emphasis moves to aggressive sweep attempts and submission threats that create scoring opportunities despite higher positional risk."
     },
     {
-      "context": "Mount Top",
-      "how_applied": "From Mount Top, strategic decisions balance submission hunting with positional consolidation based on score and time: large leads justify patient positional riding that prevents escapes while building control time; close matches may require aggressive submission attempts that risk giving up position for finishing opportunities."
+      "context": "Mount",
+      "how_applied": "From Mount, strategic decisions balance submission hunting with positional consolidation based on score and time: large leads justify patient positional riding that prevents escapes while building control time; close matches may require aggressive submission attempts that risk giving up position for finishing opportunities."
     },
     {
-      "context": "Back Control Top",
-      "how_applied": "Back Control Top strategic approach considers whether to pursue immediate submission finish or build positional control points: early match situations often favor patient harness establishment and control point accumulation; late match deficits may justify immediate submission attempts that bypass positional security."
+      "context": "Back Control",
+      "how_applied": "Back Control strategic approach considers whether to pursue immediate submission finish or build positional control points: early match situations often favor patient harness establishment and control point accumulation; late match deficits may justify immediate submission attempts that bypass positional security."
     },
     {
-      "context": "Half Guard Bottom",
-      "how_applied": "Half Guard Bottom strategy integrates defensive priorities with offensive timing based on match situation: when ahead, emphasis shifts toward retention and stalling from half guard; when behind, focus moves to aggressive underhook battles and sweep attempts that create point-scoring transitions despite increased passing vulnerability."
+      "context": "Half Guard",
+      "how_applied": "Half Guard strategy integrates defensive priorities with offensive timing based on match situation: when ahead, emphasis shifts toward retention and stalling from half guard; when behind, focus moves to aggressive underhook battles and sweep attempts that create point-scoring transitions despite increased passing vulnerability."
     },
     {
-      "context": "Side Control Top",
-      "how_applied": "Side Control Top tactical approach balances submission threats with positional advancement based on strategic context: point-focused strategy emphasizes mount transitions for additional points; submission-focused approach may justify staying in side control to establish attacks rather than transitioning to mount."
+      "context": "Side Control",
+      "how_applied": "Side Control tactical approach balances submission threats with positional advancement based on strategic context: point-focused strategy emphasizes mount transitions for additional points; submission-focused approach may justify staying in side control to establish attacks rather than transitioning to mount."
     },
     {
       "context": "Standing Position",
       "how_applied": "Standing Position strategy varies significantly based on takedown proficiency, guard pulling preferences, and match scoring dynamics: matches where takedown points are critical require aggressive wrestling engagement; situations where guard advantages exist may justify immediate pulling to preferred bottom positions."
     },
     {
-      "context": "Knee on Belly Top",
-      "how_applied": "From Knee on Belly Top, strategic approach considers whether to ride for points, transition to mount for additional points, or pursue immediate submissions based on score differential and opponent escape patterns: riding position becomes valuable when protecting leads; transitions become necessary when building point advantages."
+      "context": "Knee on Belly",
+      "how_applied": "From Knee on Belly, strategic approach considers whether to ride for points, transition to mount for additional points, or pursue immediate submissions based on score differential and opponent escape patterns: riding position becomes valuable when protecting leads; transitions become necessary when building point advantages."
     },
     {
-      "context": "Open Guard Bottom",
-      "how_applied": "Open Guard Bottom strategy integrates guard type selection with sweep timing and submission threat based on tactical context: aggressive strategies favor distance guard variations that create sweep entries; conservative approaches emphasize closer guards that provide defensive security against passing."
+      "context": "Open Guard",
+      "how_applied": "Open Guard strategy integrates guard type selection with sweep timing and submission threat based on tactical context: aggressive strategies favor distance guard variations that create sweep entries; conservative approaches emphasize closer guards that provide defensive security against passing."
     },
     {
-      "context": "Guard Recovery Bottom",
-      "how_applied": "Guard Recovery strategy balances escape urgency with defensive security based on score and time: when far behind late in match, aggressive recovery attempts that risk further positional losses become justified; when ahead or early in match, patient systematic recovery that prioritizes defensive security becomes optimal."
+      "context": "Deep Half Guard",
+      "how_applied": "Deep Half Guard strategic decisions balance sweep opportunities with defensive security based on score situation: when behind, aggressive sweep attempts from deep half become justified despite some positional risk; when ahead, deep half retention provides defensive position that prevents opponent scoring."
     },
     {
-      "context": "North-South Top",
-      "how_applied": "North-South Top strategic approach considers whether to maintain position for control, transition to better attacking positions like mount or side control, or pursue immediate submissions based on opponent defensive patterns and scoring needs: positional transitions often optimize long-term tactical advantage."
+      "context": "North-South",
+      "how_applied": "North-South strategic approach considers whether to maintain position for control, transition to better attacking positions like mount or side control, or pursue immediate submissions based on opponent defensive patterns and scoring needs: positional transitions often optimize long-term tactical advantage."
+    },
+    {
+      "context": "Butterfly Guard",
+      "how_applied": "Butterfly Guard strategy emphasizes sweep timing and hook retention based on match context: aggressive tactical approaches utilize butterfly sweeps for point accumulation; defensive approaches focus on hook maintenance and preventing passes while managing energy efficiently."
+    },
+    {
+      "context": "X-Guard",
+      "how_applied": "X-Guard strategic implementation balances sweep attempts with guard retention based on score and opponent base: when behind, immediate sweep attacks create point-scoring opportunities; when ahead, X-Guard retention provides defensive security while threatening sweeps that deter aggressive passing."
+    },
+    {
+      "context": "De La Riva Guard",
+      "how_applied": "De La Riva Guard tactical approach integrates hook retention with sweep timing and back-take opportunities based on competitive situation: offensive strategies emphasize aggressive hook attacks and berimbolo entries; defensive strategies focus on maintaining distance control and preventing passes."
+    },
+    {
+      "context": "Turtle",
+      "how_applied": "Turtle strategy varies between escape urgency and defensive consolidation based on match context: when ahead, turtle provides temporary defensive refuge during guard recovery; when behind, immediate escape attempts become critical despite increased back-take vulnerability."
+    },
+    {
+      "context": "Ashi Garami",
+      "how_applied": "Ashi Garami strategic decisions balance leg attack finish attempts with position retention based on ruleset and competitive situation: submission-focused strategies justify aggressive heel hook attempts; position-focused approaches emphasize maintaining leg entanglement while building control time."
     }
   ],
   "decision_framework": [
@@ -289,32 +326,32 @@
   "related_content": [
     {
       "name": "Game Planning",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Prerequisite concept providing pre-match tactical framework that Match Strategy transforms into adaptive in-competition decision-making"
     },
     {
       "name": "Match Preparation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Prerequisite concept covering physical and mental preparation necessary for effective strategic execution during competition"
     },
     {
       "name": "Competition Mindset",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept providing psychological foundation enabling strategic clarity and disciplined tactical execution under competitive pressure"
     },
     {
       "name": "Energy Management System",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Integrated concept informing tactical pacing decisions and sustainable competitive performance throughout match duration"
     },
     {
       "name": "Positional Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational concept providing framework for evaluating positional value that informs strategic risk-reward decision-making"
     },
     {
       "name": "Risk Assessment",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept enabling continuous tactical evaluation of whether specific technical choices align with strategic objectives"
     },
     {
@@ -328,29 +365,29 @@
       "relationship": "Ruleset-specific strategic framework applying Match Strategy principles to IBJJF competition context"
     },
     {
-      "name": "Closed Guard Bottom",
-      "content_type": "Position",
-      "relationship": "Common strategic starting position where tactical approach varies significantly based on score, time, and opponent tendencies"
-    },
-    {
-      "name": "Mount Top",
-      "content_type": "Position",
-      "relationship": "Dominant position where strategic decisions balance submission hunting with positional riding based on match context"
-    },
-    {
-      "name": "Back Control Top",
-      "content_type": "Position",
-      "relationship": "Highest-value position where strategy determines whether to pursue immediate finish or build control points"
-    },
-    {
       "name": "Position-Over-Submission Approach",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic philosophy often integrated into match strategy emphasizing positional dominance before submission attempts"
+    },
+    {
+      "name": "Offensive vs Defensive Mindset",
+      "content_type": "Principle",
+      "relationship": "Tactical framework informing when Match Strategy should favor aggressive versus conservative approaches based on competitive context"
+    },
+    {
+      "name": "Pacing",
+      "content_type": "Principle",
+      "relationship": "Tempo control principle integrated into Match Strategy for managing energy and dictating match flow"
+    },
+    {
+      "name": "Dilemma Creation",
+      "content_type": "Principle",
+      "relationship": "Advanced strategic concept where tactical choices force opponent into no-win situations within match strategy framework"
     }
   ],
   "expert_insights": {
-    "danaher": "Approaches match strategy as a systematic application of game theory principles where optimal decisions derive from probabilistic analysis of risk-reward scenarios throughout the match timeline. Emphasizes developing what he terms 'strategic depth' where multiple layers of contingency planning ensure prepared responses to opponent adaptations, creating decision trees that account for various match trajectories. Systematizes strategic preparation through detailed opponent analysis, identifying technical tendencies and positional preferences that create exploitable patterns, then structuring training specifically to develop counter-strategies. Views match strategy not as rigid scripting but as hierarchical decision-making where strategic principles guide tactical choices, allowing adaptive implementation while maintaining coherent competitive approach. In his competitive system, he teaches students to develop what he calls 'strategic frameworks' that provide clear decision-making guidelines for various match situations while maintaining flexibility to adapt when circumstances deviate from anticipated patterns.",
-    "gordon_ryan": "Views match strategy as dynamic optimization problem where tactical decisions continuously update based on changing match parameters—score, time, fatigue, opponent adaptations. Focuses on what he describes as 'strategic dominance' where imposing your game plan on opponent while denying theirs creates compound advantages throughout match duration. Emphasizes importance of 'position forcing' where strategic technique selection deliberately moves opponent toward positions where you have superior technical proficiency, creating strategic funneling toward your strengths and away from theirs. In his competitive approach, match strategy begins months before competition through opponent-specific training that builds tactical responses into unconscious technical patterns, enabling strategic execution without cognitive load during competition. He advocates for what he calls 'layered strategic approaches' where multiple backup plans exist for each phase of match, preventing single defensive success by opponent from derailing entire competitive strategy and maintaining offensive initiative through continuous tactical adaptation.",
-    "eddie_bravo": "Has developed strategic frameworks within 10th Planet system that often challenge conventional positional hierarchies and risk assessments, creating alternative strategic pathways toward victory. Teaches strategic concept he calls 'position before submission mindset inverted' where in certain tactical situations, submission opportunities from unconventional positions justify higher risks than traditional strategy would accept. Advocates for developing signature position systems that opponents haven't extensively trained against, creating strategic advantages through novelty and opponent unfamiliarity. Views match strategy as creative problem-solving rather than formulaic implementation, encouraging development of personal strategic styles that leverage individual attributes and technical preferences rather than universally optimal approaches. In his competitive philosophy, he emphasizes what he terms 'strategic unpredictability' where varied tactical approaches across different matches prevent opponents from developing effective game plans, maintaining element of surprise even against thoroughly prepared competitors who have studied previous performances."
+    "danaher": "Match strategy represents the systematic application of game theory principles to grappling competition, where optimal decisions derive from probabilistic analysis of risk-reward scenarios throughout the match timeline. The critical insight here is understanding that effective strategy isn't rigid scripting but rather hierarchical decision-making where strategic principles guide tactical choices, allowing adaptive implementation while maintaining coherent competitive approach. I emphasize developing what I term 'strategic depth' where multiple layers of contingency planning ensure prepared responses to opponent adaptations, creating decision trees that account for various match trajectories. The systematic preparation through detailed opponent analysis identifies technical tendencies and positional preferences that create exploitable patterns, then structures training specifically to develop counter-strategies. This creates what I call 'strategic frameworks' that provide clear decision-making guidelines for various match situations while maintaining flexibility to adapt when circumstances deviate from anticipated patterns, enabling disciplined yet responsive competitive performance.",
+    "gordon_ryan": "In competition, match strategy functions as a dynamic optimization problem where tactical decisions continuously update based on changing match parameters—score, time, fatigue, opponent adaptations. My approach centers on what I describe as 'strategic dominance' where imposing your game plan on the opponent while denying theirs creates compound advantages throughout the match. The key is position forcing, where strategic technique selection deliberately moves opponents toward positions where you have superior technical proficiency, creating strategic funneling toward your strengths and away from theirs. Match strategy begins months before competition through opponent-specific training that builds tactical responses into unconscious technical patterns, enabling strategic execution without cognitive load during the actual match. I advocate for layered strategic approaches where multiple backup plans exist for each phase of the match, preventing a single defensive success by the opponent from derailing your entire competitive strategy and maintaining offensive initiative through continuous tactical adaptation that keeps opponents constantly defending.",
+    "eddie_bravo": "My strategic framework within the 10th Planet system often challenges conventional positional hierarchies and risk assessments, creating alternative strategic pathways toward victory that opponents haven't extensively prepared for. I teach what I call 'position before submission mindset inverted' where in certain tactical situations, submission opportunities from unconventional positions justify higher risks than traditional strategy would accept. The strategic advantage comes from developing signature position systems that opponents haven't extensively trained against, creating opportunities through novelty and opponent unfamiliarity rather than purely technical superiority. I view match strategy as creative problem-solving rather than formulaic implementation, encouraging development of personal strategic styles that leverage individual attributes and technical preferences rather than chasing universally optimal approaches. Strategic unpredictability becomes a weapon where varied tactical approaches across different matches prevent opponents from developing effective game plans, maintaining the element of surprise even against thoroughly prepared competitors who have studied your previous performances."
   }
 }

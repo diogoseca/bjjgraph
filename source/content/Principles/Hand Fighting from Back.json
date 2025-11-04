@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": "Hand Fighting from Back | BJJ Concept | BJJ Graph",
-    "description": "Understand hand fighting from back control in BJJ. Learn defensive priorities, wrist control strategies, survival frameworks. Expert insights from Danaher, Ryan, Bravo.",
-    "concept_id": "C055",
+    "description": "Understand hand fighting from back control in BJJ. Learn defensive priorities, wrist control strategies, survival frameworks.",
+    "principle_id": "P055",
     "tags": [
       "bjj",
       "concept",
@@ -62,29 +62,29 @@
       "description": "Moving hands between defensive positions without creating windows of vulnerability, maintaining continuous protection while adapting to changing attack angles. This requires coordination and understanding of defensive sequences that provide layered protection."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Chin Protection",
+      "principle_name": "Chin Protection",
       "relationship_type": "Complementary",
       "description": "Chin positioning works synergistically with hand fighting to create multiple defensive layers, with proper chin placement making hand fighting efforts more effective"
     },
     {
-      "concept_name": "Grip Breaking",
+      "principle_name": "Grip Breaking",
       "relationship_type": "Prerequisite",
       "description": "General grip breaking principles provide the foundational understanding necessary for the specific wrist and forearm control required in back defense scenarios"
     },
     {
-      "concept_name": "Escape Hierarchy",
+      "principle_name": "Escape Hierarchy",
       "relationship_type": "Complementary",
       "description": "Hand fighting creates the time and space necessary to implement systematic escape sequences, serving as the defensive prerequisite for positional improvement"
     },
     {
-      "concept_name": "Defensive Frame",
+      "principle_name": "Defensive Frame",
       "relationship_type": "Alternative",
       "description": "Framing principles apply in hand fighting through forearm placement and structural positioning, adapted for the specific constraints of back control defense"
     },
     {
-      "concept_name": "Submission Defense",
+      "principle_name": "Submission Defense",
       "relationship_type": "Extension",
       "description": "Hand fighting from back represents a specialized application of general submission defense principles, tailored to the unique threats and constraints of back control positions"
     }

@@ -1,16 +1,13 @@
 {
-  "metadata": {
-    "title": "Arm Drag to Back | BJJ Technique | BJJ Graph",
-    "description": "Master the Arm Drag to Back technique in BJJ. Complete guide covering setup, execution, and back take from multiple positions. Beginner 35%, Intermediate 50%, Advanced 65%.",
-    "transition_id": "T015",
-    "tags": ["bjj", "technique", "back-take", "arm-drag", "control", "wrestling", "position-advancement"],
-    "starting_position": "Butterfly Guard Bottom",
-    "ending_position": "Back Control",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 50,
-      "advanced": 65
-    }
+  "name": "Arm Drag to Back",
+  "description": "Master the Arm Drag to Back technique in BJJ. Complete guide covering setup, execution, and back take from multiple positions. Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "tags": ["bjj", "technique", "back-take", "arm-drag", "control", "wrestling", "position-advancement"],
+  "starting_position": "Butterfly Guard",
+  "ending_position": "Back Control",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 50,
+    "advanced": 65
   },
   "overview": "The Arm Drag to Back is a fundamental and highly effective technique for advancing position from various guard positions to the dominant back control. This technique involves controlling the opponent's arm and using it as a lever to move past their defensive frame while simultaneously rotating behind them. The arm drag is one of the most versatile techniques in Brazilian Jiu-Jitsu, applicable from standing, seated guard, butterfly guard, and many other positions. Its effectiveness lies in the ability to bypass the opponent's defensive structure without having to break through their guard or pass directly, instead using their own arm against them to create a pathway to the back. The arm drag represents a fundamental principle in grappling: using the opponent's limbs as handles to manipulate their body position. When executed properly, the arm drag creates a cascading sequence of positional advantages. First, it removes one of the opponent's posting hands, compromising their base. Second, it creates an angle that makes it difficult for them to defend against the back take. Third, it positions you perpendicular to their body, giving you leverage advantages. The technique requires precise timing, grip control, and hip movement to execute successfully. Against skilled opponents, the arm drag must be set up carefully, often requiring feints, grip fighting, or combination attacks to create the opening needed for successful execution.",
   "key_principles": [
@@ -273,10 +270,6 @@
       "relationship": "Setup - control position that often precedes arm drag"
     },
     {
-      "name": "Russian Tie to Back Take",
-      "relationship": "Related standing technique - standing variation with similar concept"
-    },
-    {
       "name": "Single Leg to Back Take",
       "relationship": "Chain technique - back access from failed takedown"
     },
@@ -289,8 +282,12 @@
       "relationship": "Alternative attack - option from same starting position"
     },
     {
-      "name": "Triangle from Back",
-      "relationship": "Submission option - alternative finish from back control"
+      "name": "Back Take Generic",
+      "relationship": "Category - general back taking principles"
+    },
+    {
+      "name": "Chair Sit to Back",
+      "relationship": "Related technique - alternative back take from similar angle"
     }
   ],
   "expert_insights": {

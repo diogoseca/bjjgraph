@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Escape Fundamentals | BJJ Concept | BJJ Graph",
     "description": "Understand Escape Fundamentals in BJJ. Learn core principles of framing, space creation, angle generation, and position recovery. Expert insights included.",
-    "concept_id": "C027",
+    "principle_id": "P027",
     "tags": [
       "bjj",
       "concept",
@@ -63,34 +63,34 @@
       "description": "Understanding optimal transition routes from various pins to guard positions, recognizing which guard recovery is most efficient from each specific pin. This includes knowing when to recover to closed guard, half guard, or open guard variations based on opponent's positioning and control mechanisms."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Frame Creation",
+      "principle_name": "Frame Creation",
       "relationship_type": "Prerequisite",
       "description": "Frame Creation forms the foundational skill that enables all escape fundamentals, as frames provide the structural basis for generating space and protecting against submissions during escape attempts."
     },
     {
-      "concept_name": "Hip Escape Mechanics",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Prerequisite",
       "description": "Hip movement patterns are essential mechanical components of escape fundamentals, providing the primary means of generating distance and creating angles from bottom positions."
     },
     {
-      "concept_name": "Escape Hierarchy",
+      "principle_name": "Escape Hierarchy",
       "relationship_type": "Extension",
       "description": "Escape Hierarchy builds upon escape fundamentals by providing positional priority system for determining which escapes to attempt based on current position's relative danger and opportunity."
     },
     {
-      "concept_name": "Pin Escape Methodology",
+      "principle_name": "Pin Escape Methodology",
       "relationship_type": "Extension",
       "description": "Pin Escape Methodology applies escape fundamentals specifically to pinning positions, providing position-specific implementations of the universal escape principles."
     },
     {
-      "concept_name": "Defensive Strategy",
+      "principle_name": "Defensive Strategy",
       "relationship_type": "Complementary",
       "description": "Defensive Strategy works synergistically with escape fundamentals by providing overall defensive framework within which specific escape mechanics are deployed based on strategic objectives."
     },
     {
-      "concept_name": "Space Management",
+      "principle_name": "Space Management",
       "relationship_type": "Complementary",
       "description": "Space Management principles directly support escape fundamentals by providing conceptual framework for understanding how space is created, maintained, and exploited during defensive sequences."
     }

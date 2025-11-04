@@ -1,24 +1,21 @@
 {
-  "metadata": {
-    "title": "Shrimp Escape | BJJ Technique | BJJ Graph",
-    "description": "Learn Shrimp Escape in BJJ. Step-by-step execution from Side Control Bottom to Guard Recovery. Success: Beginner 35%, Intermediate 55%, Advanced 70%.",
-    "transition_id": "T008",
-    "tags": [
-      "bjj",
-      "transition",
-      "escape",
-      "side_control",
-      "fundamental",
-      "hip_escape",
-      "defensive"
-    ],
-    "starting_position": "Side Control",
-    "ending_position": "Guard Recovery",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 70
-    }
+  "name": "Shrimp Escape",
+  "description": "Learn Shrimp Escape in BJJ. Step-by-step execution from Side Control Bottom to Guard Recovery. Success: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "side_control",
+    "fundamental",
+    "hip_escape",
+    "defensive"
+  ],
+  "starting_position": "Side Control",
+  "ending_position": "Closed Guard",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 55,
+    "advanced": 70
   },
   "overview": "The Shrimp Escape, also known as the hip escape, is one of the most fundamental and essential defensive movements in Brazilian Jiu-Jitsu. This technique allows a practitioner trapped in side control to create space, recover their guard, and neutralize their opponent's positional dominance. The shrimping motion involves a coordinated hip movement that generates distance between you and your opponent, enabling you to insert your knee shield or establish frames that prevent further advancement. The effectiveness of the shrimp escape lies in its mechanical efficiency—by bridging slightly and then explosively moving your hips away from your opponent while posting with your far leg, you create the angular space necessary for guard recovery. This technique is not merely an escape; it represents a fundamental principle of creating space under pressure that applies across countless defensive scenarios in BJJ. Mastery of the shrimp escape is essential for survival in bottom positions and serves as the foundation for more advanced escapes and recoveries throughout your jiu-jitsu journey.",
   "key_principles": [

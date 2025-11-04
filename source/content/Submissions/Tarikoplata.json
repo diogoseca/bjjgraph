@@ -1,1 +1,375 @@
-Session limit reached ∙ resets 11am
+{
+  "name": "Tarikoplata",
+  "description": "Master the Tarikoplata shoulder lock in BJJ. Advanced guard submission combining omoplata mechanics with wrist control. Success rates: Beginner 20%, Intermediate 35%, Advanced 55%.",
+  "tags": [
+    "bjj",
+    "submission",
+    "shoulder-lock",
+    "joint-lock",
+    "advanced",
+    "rubber-guard",
+    "10th-planet",
+    "omoplata-variation"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Shoulder Lock",
+  "target_area": "Shoulder joint and rotator cuff",
+  "starting_position": "Closed Guard",
+  "success_rates": {
+    "beginner": 20,
+    "intermediate": 35,
+    "advanced": 55
+  },
+  "overview": "The Tarikoplata is an advanced shoulder lock submission that combines the mechanics of the omoplata with additional wrist control and torque. Named after Tarik Hopstock, this technique represents an evolution of the traditional omoplata position, adding a second lever through wrist manipulation to create a devastating shoulder attack. The submission works by trapping the opponent's arm in an omoplata configuration while simultaneously controlling and twisting their wrist, creating a compound lock that attacks both the shoulder joint and rotator cuff. This technique is particularly effective when the opponent attempts to defend the traditional omoplata by posturing or rolling, as the added wrist control prevents these common escape routes. The Tarikoplata has gained significant traction in modern no-gi grappling and is a staple of innovative guard systems, particularly within the 10th Planet Jiu-Jitsu methodology. The submission requires excellent hip mobility, precise timing, and thorough understanding of omoplata mechanics before attempting the wrist control variation.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Rotator cuff tear (supraspinatus, infraspinatus, teres minor)",
+        "severity": "High",
+        "recovery_time": "3-6 months with surgical intervention possible"
+      },
+      {
+        "injury": "Shoulder dislocation (glenohumeral joint)",
+        "severity": "High",
+        "recovery_time": "6-12 weeks, potential chronic instability"
+      },
+      {
+        "injury": "Wrist hyperextension and ligament damage",
+        "severity": "Medium",
+        "recovery_time": "2-6 weeks"
+      },
+      {
+        "injury": "Labrum tear (glenoid labrum)",
+        "severity": "CRITICAL",
+        "recovery_time": "4-6 months post-surgery, career-threatening"
+      }
+    ],
+    "application_speed": "EXTREMELY SLOW - 5-7 seconds minimum application time, never spike or jerk",
+    "tap_signals": [
+      "Verbal tap (primary)",
+      "Physical hand tap on opponent or mat",
+      "Physical foot tap on mat",
+      "Any verbal distress signal",
+      "Frantic movement or panic response"
+    ],
+    "release_protocol": [
+      "Immediately release wrist grip upon tap signal",
+      "Remove leg from over opponent's shoulder smoothly",
+      "Release hip pressure gradually",
+      "Allow opponent to extract arm naturally without resistance",
+      "Check for injury before continuing training"
+    ],
+    "training_restrictions": [
+      "Never use competition speed in training",
+      "Never spike or jerk the submission - apply progressive pressure only",
+      "Always allow tap access - opponent must have free hand available",
+      "Restrict to advanced practitioners only (minimum purple belt recommended)",
+      "Avoid practicing on training partners with existing shoulder injuries",
+      "Never combine with explosive movements or sudden adjustments"
+    ]
+  },
+  "key_principles": [
+    "Establish traditional omoplata control before adding wrist manipulation",
+    "Hip extension drives shoulder pressure while wrist control prevents rolling escapes",
+    "Maintain perpendicular angle to opponent's trapped arm throughout",
+    "Control opponent's free hand to prevent posting and base recovery",
+    "Progressive pressure application - never explosive or jerking movements",
+    "Wrist torque amplifies shoulder pressure without requiring full hip extension",
+    "Coordinate hip drive with wrist rotation for maximum mechanical advantage"
+  ],
+  "setup_requirements": [
+    "Opponent's arm must be isolated across your body in omoplata configuration",
+    "Your leg positioned over opponent's shoulder with shin across upper back",
+    "Hip mobility sufficient to fully extend and drive into opponent's shoulder",
+    "Opponent's posture broken forward with head down",
+    "Control of opponent's free arm to prevent defensive posting",
+    "Ability to secure wrist grip with same-side hand while maintaining position",
+    "Opponent's weight shifted forward onto trapped shoulder"
+  ],
+  "execution_steps": [
+    {
+      "step_number": 1,
+      "action": "Establish Omoplata Position",
+      "description": "From closed guard or rubber guard, secure a traditional omoplata position with your leg over the opponent's shoulder and their arm trapped across your body. Break their posture forward and ensure their shoulder is loaded with pressure. Your opposite leg should hook around their far hip for positional control.",
+      "timing": "2-3 seconds to secure position",
+      "pressure_level": "Moderate"
+    },
+    {
+      "step_number": 2,
+      "action": "Secure Wrist Control",
+      "description": "With your same-side hand (leg that's over the shoulder), reach down and grip the opponent's wrist of the trapped arm. Use a four-finger grip on the back of their hand with your thumb on their palm. This grip allows you to manipulate their wrist orientation while maintaining control.",
+      "timing": "1-2 seconds",
+      "pressure_level": "Light"
+    },
+    {
+      "step_number": 3,
+      "action": "Adjust Hip Position",
+      "description": "Sit up slightly and adjust your hips to be perpendicular to the opponent's body. Your leg over their shoulder should have your shin bone making firm contact across their upper back. This angle is critical - too parallel reduces pressure, too perpendicular allows escape.",
+      "timing": "1-2 seconds",
+      "pressure_level": "Moderate"
+    },
+    {
+      "step_number": 4,
+      "action": "Initiate Wrist Rotation",
+      "description": "Begin rotating the opponent's wrist counterclockwise (if controlling their right arm) or clockwise (if controlling their left arm). The rotation should turn their palm toward their head while maintaining the trapped arm position. This rotation pre-loads tension into the shoulder joint.",
+      "timing": "2-3 seconds progressive rotation",
+      "pressure_level": "Light"
+    },
+    {
+      "step_number": 5,
+      "action": "Drive Hips Forward",
+      "description": "Slowly extend your hips forward and upward, driving into the opponent's shoulder while maintaining wrist rotation. The combination of hip drive and wrist torque creates compound pressure on the shoulder joint. Your shin should remain tight across their upper back throughout.",
+      "timing": "3-4 seconds progressive pressure",
+      "pressure_level": "Firm"
+    },
+    {
+      "step_number": 6,
+      "action": "Final Pressure Application",
+      "description": "Continue hip extension while maintaining wrist rotation until opponent taps. The finish requires coordination of both pressures - wrist rotation prevents the roll escape while hip drive loads the shoulder joint. Apply pressure progressively, never explosively. Be prepared for immediate tap as shoulder locks can damage quickly.",
+      "timing": "2-3 seconds to tap",
+      "pressure_level": "Firm"
+    },
+    {
+      "step_number": 7,
+      "action": "Immediate Release Protocol",
+      "description": "Upon tap signal, immediately release wrist grip first, then gradually remove leg from shoulder. Allow opponent to extract their arm naturally. Check for injury and ensure partner is safe before continuing training.",
+      "timing": "1-2 seconds",
+      "pressure_level": "Light"
+    }
+  ],
+  "opponent_defense_patterns": [
+    {
+      "defense": "Rolling forward to escape omoplata pressure",
+      "effectiveness": "Low",
+      "your_adjustment": "The wrist control specifically prevents this escape. Maintain wrist torque while following their roll attempt with your hips. The wrist grip makes rolling extremely dangerous for them and typically forces immediate tap."
+    },
+    {
+      "defense": "Posting free hand to create base and prevent forward pressure",
+      "effectiveness": "Medium",
+      "your_adjustment": "Control their free arm before establishing wrist control. Use your free hand to grip their belt or pants, preventing the post. If they establish base, sweep them forward using your bottom leg hook before applying final pressure."
+    },
+    {
+      "defense": "Straightening trapped arm to remove shoulder pressure",
+      "effectiveness": "Low",
+      "your_adjustment": "Wrist rotation makes arm straightening extremely difficult. Increase wrist torque slightly while maintaining hip pressure. The compound lock prevents effective arm extension."
+    },
+    {
+      "defense": "Sitting back to create space and extract shoulder",
+      "effectiveness": "Medium",
+      "your_adjustment": "Follow their backward movement with your hips, maintaining perpendicular angle. Use your bottom leg to prevent them from creating distance. Increase wrist rotation as they attempt to sit back - this often accelerates the tap."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Applying wrist rotation before securing omoplata position",
+      "consequence": "Opponent escapes easily as base position is not established, wrist control alone is insufficient",
+      "correction": "Always establish traditional omoplata first with proper hip position and shoulder pressure. Only add wrist control once position is secure and opponent's posture is broken.",
+      "danger_level": "Low"
+    },
+    {
+      "error": "Explosive or jerking wrist rotation",
+      "consequence": "Severe wrist injury to training partner, potential career-ending damage, violation of training safety protocols",
+      "correction": "Apply wrist rotation progressively over 2-3 seconds minimum. Think smooth, controlled rotation like turning a doorknob slowly, never sudden twisting or cranking.",
+      "danger_level": "CRITICAL"
+    },
+    {
+      "error": "Losing perpendicular hip angle during finish",
+      "consequence": "Pressure dissipates, opponent can roll or extract arm, submission fails",
+      "correction": "Maintain 90-degree angle between your body and opponent's spine throughout. Constantly adjust hips to preserve this geometry as opponent moves.",
+      "danger_level": "Low"
+    },
+    {
+      "error": "Focusing solely on hip drive without wrist rotation",
+      "consequence": "Creates traditional omoplata which opponent can defend by rolling, missing the key advantage of the tarikoplata",
+      "correction": "Coordinate both pressures simultaneously. Think of wrist rotation and hip drive as two dials that increase together, not separate techniques.",
+      "danger_level": "Low"
+    },
+    {
+      "error": "Releasing wrist grip too early before securing position",
+      "consequence": "Opponent immediately rolls to escape, position is lost, cannot recover submission",
+      "correction": "Maintain wrist control throughout entire sequence until tap or position is abandoned. The wrist grip is the primary escape prevention mechanism.",
+      "danger_level": "Medium"
+    },
+    {
+      "error": "Continuing pressure after tap signal",
+      "consequence": "Severe shoulder damage including rotator cuff tears and dislocations, potential lawsuit, training partner injury",
+      "correction": "Develop conditioned response to release immediately upon any tap signal. Practice release protocol regularly. Partner safety is always priority over submission completion.",
+      "danger_level": "CRITICAL"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Rubber Guard Tarikoplata",
+      "description": "Enter from Mission Control or New York position in rubber guard system. Use high guard control to break posture, then transition leg over shoulder while maintaining wrist control throughout. This variation allows earlier wrist grip establishment.",
+      "when_to_use": "No-gi situations or against opponents with strong omoplata defense, provides better control through transition"
+    },
+    {
+      "variation_name": "Triangle to Tarikoplata Transition",
+      "description": "When opponent defends triangle by posturing and straightening arm, transition to tarikoplata by pivoting hips and bringing leg over their shoulder. Wrist is already controlled from triangle grip, making this a natural flow.",
+      "when_to_use": "When triangle is defended with good posture but arm remains extended, creates submission chain opportunity"
+    },
+    {
+      "variation_name": "Inverted Tarikoplata",
+      "description": "Applied from inverted guard position with similar mechanics but upside-down orientation. Requires exceptional hip mobility and spatial awareness. Less common but highly effective against opponents unfamiliar with the angle.",
+      "when_to_use": "From inverted guard entries, against opponents who defend traditional omoplata well, creates unexpected angle"
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "Why must wrist rotation be applied slowly and progressively during tarikoplata execution?",
+      "answer": "Wrist rotation must be applied slowly because the combination of shoulder pressure and wrist torque creates compound joint stress that can cause severe injury very quickly. The rotator cuff and shoulder ligaments are particularly vulnerable to rapid loading, and explosive rotation can tear these structures before the opponent has time to recognize danger and tap. Progressive application over 3-5 seconds allows the opponent to feel increasing pressure and tap safely before damage occurs. Additionally, slow application gives you better control and feedback, allowing you to feel the submission tightening rather than risking overshooting and causing injury.",
+      "safety_critical": true
+    },
+    {
+      "question": "What is the primary mechanical difference between a traditional omoplata and the tarikoplata?",
+      "answer": "The primary mechanical difference is the addition of wrist control and rotation in the tarikoplata. While traditional omoplata relies solely on hip extension driving into the shoulder joint, the tarikoplata adds a second lever by gripping and rotating the opponent's wrist. This wrist rotation prevents the common omoplata escape of rolling forward, and creates additional torque on the shoulder joint by pre-loading rotational stress. The combination creates a compound lock that is significantly more difficult to defend and requires less hip extension to finish, making it effective even when the opponent has good base.",
+      "safety_critical": false
+    },
+    {
+      "question": "What is the correct immediate response when your training partner taps to a tarikoplata?",
+      "answer": "Upon tap signal, you must immediately release the wrist grip first as this is the primary source of rotational stress, then gradually remove your leg from over their shoulder without jerking or sudden movements. Allow them to extract their arm naturally without resistance. After releasing, check verbally that they are uninjured before continuing training. Never maintain any pressure after a tap signal - shoulder locks can cause permanent damage in a fraction of a second, and respecting the tap is paramount to safe training culture.",
+      "safety_critical": true
+    },
+    {
+      "question": "How does the wrist control component prevent the rolling escape that works against traditional omoplata?",
+      "answer": "The wrist control prevents rolling escape by creating rotational torque on the shoulder joint that makes rolling forward extremely dangerous and painful. When the wrist is gripped and rotated, any attempt to roll forward amplifies the rotational stress on the shoulder dramatically, typically forcing an immediate tap. Additionally, the wrist grip allows you to follow and control the opponent's movement if they attempt to roll, maintaining the submission throughout the escape attempt. This transforms what would be an effective escape into a path of increased danger for the opponent.",
+      "safety_critical": false
+    },
+    {
+      "question": "Why is perpendicular hip positioning critical to tarikoplata effectiveness?",
+      "answer": "Perpendicular hip positioning (90-degree angle to opponent's spine) is critical because it creates optimal leverage for both the hip drive and wrist rotation components. When hips are perpendicular, your shin bone crosses their upper back at the strongest angle, preventing them from creating space or rotating their shoulder. This angle also allows maximum hip extension range of motion for driving pressure into the shoulder joint. If you're too parallel, the pressure dissipates and they can turn into you. If you're too perpendicular (past 90 degrees), they can sit back and create escape space. The perpendicular angle traps them in a position where all movement increases submission pressure.",
+      "safety_critical": false
+    },
+    {
+      "question": "What physical prerequisites should a practitioner have before attempting the tarikoplata in live training?",
+      "answer": "A practitioner should have excellent hip mobility to achieve full extension, demonstrated proficiency with traditional omoplata including proper positioning and pressure control, fine motor control for coordinating hip drive with wrist rotation, understanding of shoulder anatomy and injury mechanisms, minimum purple belt experience level recommended, and thorough drilling of the technique at slow speed with cooperative partners before live application. They should also understand proper release protocols and have established trust with training partners. The tarikoplata is an advanced technique that should not be attempted by beginners due to its high injury risk when applied incorrectly.",
+      "safety_critical": true
+    }
+  ],
+  "training_progressions_and_safety_protocols": [
+    {
+      "phase": "Technical Understanding and Anatomy Study",
+      "timeframe": "Week 1-2",
+      "focus": "Study shoulder anatomy, understand injury mechanisms, learn proper omoplata positioning, practice wrist grip mechanics without resistance",
+      "resistance_level": "None",
+      "safety_emphasis": "Understand rotator cuff structure, learn to recognize dangerous angles, study tap signals and release protocols, watch instructional videos at slow speed"
+    },
+    {
+      "phase": "Static Position Drilling",
+      "timeframe": "Week 3-4",
+      "focus": "Partner starts in omoplata position, practice adding wrist control and rotation at 10% speed, emphasize perpendicular hip angle, practice release protocol repeatedly",
+      "resistance_level": "Zero resistance",
+      "safety_emphasis": "Partner taps early at first sign of pressure, drill release protocol after every repetition, no hip drive - focus only on positioning and wrist grip mechanics"
+    },
+    {
+      "phase": "Slow Progressive Pressure",
+      "timeframe": "Week 5-8",
+      "focus": "Full technique from omoplata position at 25% speed, begin adding light hip drive coordinated with wrist rotation, partner taps at 30% pressure threshold",
+      "resistance_level": "Mild resistance",
+      "safety_emphasis": "Application time minimum 7-10 seconds, constant verbal communication between partners, immediate cessation at any discomfort, multiple tap options available"
+    },
+    {
+      "phase": "Entry Integration",
+      "timeframe": "Week 9-12",
+      "focus": "Practice entries from closed guard, rubber guard, and triangle positions, increase speed to 50% while maintaining progressive pressure application, partner taps at 50% pressure",
+      "resistance_level": "Realistic resistance",
+      "safety_emphasis": "Focus on smooth transitions to position before applying pressure, never rush the finish, maintain 5-7 second application minimum, experienced training partners only"
+    },
+    {
+      "phase": "Live Application with Restrictions",
+      "timeframe": "Week 13-20",
+      "focus": "Attempt in positional sparring from guard positions, increase to 75% speed for entries but maintain slow progressive finish, allow partner to defend and escape attempts",
+      "resistance_level": "Full resistance",
+      "safety_emphasis": "Absolute 5 second minimum application time enforced, preferably with coach supervision, both partners must be purple belt minimum, pre-agree on tap protocols before rolling"
+    },
+    {
+      "phase": "Ongoing Refinement and Competition Preparation",
+      "timeframe": "Month 6+",
+      "focus": "Refine timing and setups, develop multiple entry pathways, work submission chains with tarikoplata as finishing option, maintain technical precision under fatigue",
+      "resistance_level": "Full resistance",
+      "safety_emphasis": "Never compromise application speed even under competition pressure, maintain training-pace finish even when attempting in competition, continue regular review of safety protocols and injury awareness"
+    }
+  ],
+  "from_positions": [
+    "Closed Guard",
+    "Rubber Guard",
+    "Mission Control",
+    "New York",
+    "Triangle Control",
+    "Omoplata Control",
+    "Open Guard",
+    "Spider Guard",
+    "Inverted Guard",
+    "Half Guard"
+  ],
+  "related_submissions": [
+    "Omoplata",
+    "Omoplata from Guard",
+    "Baratoplata",
+    "Gogoplata",
+    "Triangle Choke",
+    "Triangle from Guard",
+    "Armbar from Guard",
+    "Monoplata",
+    "Monoplata from Guard",
+    "Rolling Omoplata",
+    "Inverted Triangle",
+    "Reverse Armbar",
+    "Kimura from Guard"
+  ],
+  "related_content": [
+    {
+      "name": "Omoplata Control",
+      "relationship": "Parent position - tarikoplata is variation with added wrist control"
+    },
+    {
+      "name": "Rubber Guard",
+      "relationship": "Primary entry system for tarikoplata in 10th Planet methodology"
+    },
+    {
+      "name": "Mission Control",
+      "relationship": "Optimal rubber guard position for transitioning to tarikoplata"
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "Alternative transition when triangle is defended - flow to tarikoplata"
+    },
+    {
+      "name": "Baratoplata",
+      "relationship": "Related shoulder lock variation using similar mechanics"
+    },
+    {
+      "name": "Gogoplata",
+      "relationship": "Complementary rubber guard submission, creates submission chain"
+    },
+    {
+      "name": "10th Planet Rubber Guard System",
+      "relationship": "Systematic framework where tarikoplata is key finishing option"
+    },
+    {
+      "name": "Submission Chains",
+      "relationship": "Principle of combining tarikoplata with triangle and omoplata attacks"
+    },
+    {
+      "name": "Flexibility Training",
+      "relationship": "Essential physical preparation for executing tarikoplata"
+    },
+    {
+      "name": "Guard Opening Sequence",
+      "relationship": "Initial control establishment before advancing to tarikoplata"
+    },
+    {
+      "name": "Inverted Guard",
+      "relationship": "Alternative entry angle for inverted tarikoplata variation"
+    },
+    {
+      "name": "Omoplata to Sweep",
+      "relationship": "Backup option when tarikoplata cannot be secured"
+    }
+  ],
+  "expert_insights": {
+    "danaher": "The tarikoplata represents a sophisticated evolution of omoplata mechanics through the addition of a secondary control point. Where traditional omoplata relies on a single lever - hip extension driving into the shoulder - the tarikoplata introduces wrist manipulation as a second lever, creating what I call a 'compound joint attack.' This is biomechanically significant because it simultaneously loads the shoulder in two planes of rotation: the omoplata configuration creates external rotation and extension of the glenohumeral joint, while the wrist control adds rotational torque through the entire kinetic chain of the arm. The critical insight is that these two pressures are synergistic rather than additive - the wrist rotation doesn't simply add more pressure, it fundamentally changes the geometry of the escape options. The rolling escape, which is the primary defensive response to omoplata, becomes not just difficult but actively dangerous when the wrist is controlled and rotated. This forces the opponent into a position where all defensive options accelerate rather than diminish the submission pressure. From a training perspective, this technique demands exceptional control and progressive application precisely because of its mechanical efficiency - it can create joint damage very quickly. I emphasize to students that mastery of traditional omoplata mechanics must precede any attempt at the tarikoplata variation, and that application speed in training must always err on the side of excessive caution.",
+    "gordon_ryan": "In competition, the tarikoplata is one of those techniques that has a very specific niche but can be absolutely devastating when the situation presents itself. I've found it most useful not as a primary attack but as a counter to omoplata defenses. When high-level guys defend the omoplata, they typically have very good rolling escape mechanics or they're excellent at creating base with their free hand. The tarikoplata specifically neutralizes both of these high-percentage defenses. What I love about it is the psychological component - most competitors are drilled extensively on omoplata escapes, so when they feel the familiar shoulder pressure, they automatically initiate their escape sequence. But when you add that wrist control, suddenly their trained response becomes a trap. I'll be honest though - in competition, I'm very selective about when I go for the finish versus when I use it as a sweep setup. The submission comes on fast and shoulder injuries are career-threatening, so unless I'm in a position where I absolutely need the finish, I'll often use the tarikoplata position to force them to give up their back or accept a sweep. In training, the speed differential between drilling and live rolling must be extreme with this technique. I've seen too many training room injuries from shoulder locks applied too quickly. My rule is simple: if you can't hit it slowly in drilling, you have no business attempting it in live training.",
+    "eddie_bravo": "The tarikoplata is one of my favorite innovations in the rubber guard system because it perfectly demonstrates how adding one element - that wrist control - can transform a technique from good to unstoppable. We developed this as an answer to guys who were getting really good at defending the traditional rubber guard omoplata by rolling or posting. The beauty of it is that it uses their defensive knowledge against them. They think they know omoplata escapes, but the wrist rotation changes everything. In the 10th Planet system, we flow into tarikoplata primarily from Mission Control and New York positions. The high guard control in these positions makes it easy to maintain pressure while you're adjusting to get that wrist grip, and your opponent is already dealing with the threat of gogoplata and triangle, so they're not expecting the shoulder attack. Training-wise, this is one technique where I'm absolutely militant about safety. The combination of shoulder pressure and wrist torque can do serious damage really fast, and I've seen people get hurt when they try to muscle it or go too fast. We drill it at super slow speed for months before anyone attempts it live, and even then, it's only with advanced students who have the body control and awareness to apply it safely. The culture around this technique has to be safety-first, always. I'd rather see a student take six months to develop it properly than have them hurt a training partner by rushing the progression."
+  }
+}

@@ -1,13 +1,10 @@
 {
-  "metadata": {
-    "title": "Concepts vs Techniques | BJJ Concept | BJJ Graph",
-    "description": "Understand the difference between BJJ concepts and techniques. Learn how principles guide execution, cross-position applications, and strategic thinking. Expert insights included.",
-    "concept_id": "C120",
-    "tags": ["bjj", "concept", "learning-theory", "strategy", "principles", "technical-understanding"],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Expert"
-  },
+  "name": "Concepts vs Techniques",
+  "description": "Master the critical distinction between BJJ concepts and techniques. Learn how principles guide execution, enable adaptation, and develop strategic thinking.",
+  "tags": ["bjj", "concept", "learning-theory", "strategy", "principles", "technical-understanding"],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Expert",
   "overview": "The distinction between concepts and techniques represents one of the most critical frameworks for understanding Brazilian Jiu-Jitsu development. A technique is a specific, reproducible sequence of movements designed to achieve a particular outcome—such as a hip bump sweep or rear naked choke. A concept, by contrast, is an underlying principle or strategic framework that can be applied across multiple positions and situations—such as frame management, base disruption, or connection control. While techniques provide the vocabulary of jiu-jitsu, concepts provide the grammar that allows practitioners to combine and adapt techniques intelligently.\n\nThe relationship between concepts and techniques is hierarchical and symbiotic. Concepts inform technique selection and execution, while techniques serve as the vehicle through which concepts are expressed. A practitioner who understands only techniques will struggle when those specific movements are countered or when facing unfamiliar positions. Conversely, a practitioner who grasps underlying concepts can adapt, innovate, and problem-solve even in novel situations. This distinction becomes increasingly important as skill level rises—beginners focus primarily on learning individual techniques, while advanced practitioners develop conceptual frameworks that allow them to generate appropriate responses spontaneously.\n\nMastering this distinction requires a shift in learning methodology. Rather than simply collecting techniques, practitioners must learn to identify the conceptual principles that make techniques effective. They must recognize patterns across different positions and situations, understanding why certain movements work rather than merely how to execute them. This conceptual understanding enables the transition from mechanical application to creative problem-solving, from following instructions to genuine strategic thinking. The ability to distinguish between and integrate concepts and techniques represents a fundamental marker of jiu-jitsu maturity.",
   "key_principles": [
     "Techniques are specific movement sequences; concepts are transferable principles that guide multiple techniques",
@@ -54,41 +51,61 @@
       "description": "The capacity to create new techniques or variations by applying conceptual principles in novel combinations or contexts. This represents the highest expression of conceptual understanding, allowing practitioners to contribute to the evolution of jiu-jitsu rather than merely reproducing existing techniques."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Positional Hierarchy",
+      "principle_name": "Positional Hierarchy",
       "relationship_type": "Prerequisite",
       "description": "Understanding positional hierarchy is essential before grasping the concept-technique distinction, as it provides the strategic framework within which both operate. Techniques are methods for changing position, while concepts explain why certain positional changes are valuable."
     },
     {
-      "concept_name": "System Building",
+      "principle_name": "System Building",
       "relationship_type": "Extension",
       "description": "System building represents the practical application of conceptual thinking, organizing techniques into coherent systems based on shared principles. Understanding concepts versus techniques is prerequisite to building effective systems."
     },
     {
-      "concept_name": "Maximum Efficiency Principle",
+      "principle_name": "Maximum Efficiency Principle",
       "relationship_type": "Complementary",
       "description": "Maximum efficiency is itself a meta-concept that informs both technique selection and conceptual prioritization. Understanding this relationship helps practitioners recognize that concepts exist at different levels of abstraction."
     },
     {
-      "concept_name": "Progressive Resistance Training",
+      "principle_name": "Progressive Resistance Training",
       "relationship_type": "Complementary",
       "description": "Progressive resistance methodology must account for the distinction between technical and conceptual development, as these require different training approaches. Technical drilling develops mechanical proficiency, while conceptual understanding requires reflective practice and varied application."
     },
     {
-      "concept_name": "Game Planning",
+      "principle_name": "Game Planning",
       "relationship_type": "Extension",
       "description": "Effective game planning requires both technical repertoire and conceptual understanding. The concept-technique distinction informs how practitioners organize their games around principles rather than isolated movements."
     },
     {
-      "concept_name": "Drilling Methodology",
+      "principle_name": "Drilling Methodology",
       "relationship_type": "Complementary",
       "description": "Drilling methodology must be adapted based on whether the goal is technical refinement or conceptual understanding. Technique drilling emphasizes repetition and precision, while conceptual drilling emphasizes variation and adaptive problem-solving."
+    },
+    {
+      "principle_name": "Biomechanical Principles",
+      "relationship_type": "Prerequisite",
+      "description": "Biomechanical principles represent foundational concepts that underlie all technique execution. Understanding body mechanics is essential for extracting conceptual knowledge from technical practice."
+    },
+    {
+      "principle_name": "Leverage Principles",
+      "relationship_type": "Prerequisite",
+      "description": "Leverage is a core concept that operates across all positions and techniques. Understanding leverage principles helps practitioners recognize why techniques work and how to adapt them."
+    },
+    {
+      "principle_name": "Control Point Hierarchy",
+      "relationship_type": "Complementary",
+      "description": "Control point hierarchy is a conceptual framework that informs countless techniques. Understanding this relationship demonstrates how concepts organize and prioritize technical applications."
+    },
+    {
+      "principle_name": "Guard Passing Principles",
+      "relationship_type": "Extension",
+      "description": "Guard passing principles represent conceptual frameworks that unite diverse passing techniques. This exemplifies how concepts provide coherence to otherwise disparate technical knowledge."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "In closed guard, techniques include specific sweeps and submissions, while concepts include posture breaking, angle creation, and connection control. Understanding this distinction allows practitioners to adapt when their preferred techniques are defended, applying the same concepts through alternative movements."
     },
     {
@@ -104,20 +121,52 @@
       "how_applied": "Back attack techniques include specific chokes and arm attacks, while concepts include hook control, seatbelt maintenance, and defensive nullification. The conceptual framework enables practitioners to maintain control and create finishing opportunities even when opponents defend specific techniques effectively."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Half guard techniques include specific sweeps and submissions, but concepts like underhook battle, frame creation, and angle generation apply across all of them. Conceptual mastery allows practitioners to flow between techniques based on opponent responses rather than forcing predetermined sequences."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Open guard encompasses numerous specific guard types and techniques, but concepts like distance management, grip fighting, and off-balancing operate across all variations. Understanding these concepts allows practitioners to transition between guard systems fluidly."
     },
     {
-      "context": "Turtle Position",
+      "context": "Turtle",
       "how_applied": "Turtle defense and offense involve specific techniques, but concepts like base maintenance, roll prevention, and granby mechanics inform all movements. Conceptual understanding enables practitioners to defend and counter even unfamiliar attacks."
     },
     {
       "context": "Guard Pass",
       "how_applied": "Guard passing includes countless specific techniques, but concepts like posture maintenance, grip breaking, and pressure application unite them. Recognizing these concepts allows practitioners to combine and adapt passes based on opponent responses rather than following rigid sequences."
+    },
+    {
+      "context": "Butterfly Guard",
+      "how_applied": "Butterfly guard techniques involve specific sweeps and transitions, but concepts of elevation, off-balancing, and hook retention guide all applications. Understanding these principles allows adaptation when standard techniques are countered."
+    },
+    {
+      "context": "De La Riva Guard",
+      "how_applied": "De La Riva guard has numerous specific entries and sweeps, but concepts of base disruption, angle creation, and leg control underlie all variations. Conceptual mastery enables practitioners to maintain effectiveness even when opponents defend specific techniques."
+    },
+    {
+      "context": "X-Guard",
+      "how_applied": "X-guard techniques include specific sweeps and back takes, but concepts of elevation control, base removal, and angle manipulation inform all applications. Understanding these principles allows creative adaptation and combination."
+    },
+    {
+      "context": "Ashi Garami",
+      "how_applied": "Leg entanglement positions involve specific submission techniques, but concepts of angle control, heel exposure, and defensive limitation operate across all variations. Conceptual understanding enables practitioners to adapt attacks based on opponent's defensive responses."
+    },
+    {
+      "context": "North-South",
+      "how_applied": "North-south position has specific techniques for control and submission, but concepts of shoulder pressure, head control, and escape prevention guide all applications. Understanding these principles allows practitioners to maintain effectiveness across different body types and situations."
+    },
+    {
+      "context": "Spider Guard",
+      "how_applied": "Spider guard includes numerous specific sweeps and transitions, but concepts of distance control, posture disruption, and angle creation underlie all techniques. Conceptual mastery allows practitioners to adapt to different opponent responses and body types."
+    },
+    {
+      "context": "Lasso Guard",
+      "how_applied": "Lasso guard techniques involve specific sweeps and transitions, but concepts of shoulder control, angle creation, and mobility restriction guide all applications. Understanding these principles enables adaptation when standard techniques are defended."
+    },
+    {
+      "context": "Knee on Belly",
+      "how_applied": "Knee on belly position has specific techniques for control and submission, but concepts of pressure application, mobility, and escape prevention inform all movements. Conceptual understanding allows practitioners to maintain effectiveness even when opponents attempt standard escapes."
     }
   ],
   "decision_framework": [
@@ -276,32 +325,32 @@
   "related_content": [
     {
       "name": "Positional Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Provides the strategic framework within which both concepts and techniques operate—understanding positional value is prerequisite to evaluating technical effectiveness"
     },
     {
       "name": "System Building",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Represents practical application of conceptual thinking, organizing techniques into coherent systems based on shared principles"
     },
     {
       "name": "Maximum Efficiency Principle",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Meta-concept that informs both technique selection and conceptual prioritization, demonstrating that concepts exist at different levels of abstraction"
     },
     {
       "name": "Progressive Resistance Training",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Training methodology must account for the distinction between technical and conceptual development, as these require different approaches"
     },
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Example of a transferable concept that manifests through multiple techniques across different positions"
     },
     {
       "name": "Connection Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Core concept that operates across all positions and informs countless techniques, exemplifying the concept-technique relationship"
     },
     {
@@ -311,8 +360,18 @@
     },
     {
       "name": "Drilling Methodology",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Must be adapted based on whether developing technical proficiency or conceptual understanding"
+    },
+    {
+      "name": "Biomechanical Principles",
+      "content_type": "Principle",
+      "relationship": "Foundational concepts that underlie all technique execution and enable conceptual understanding"
+    },
+    {
+      "name": "Leverage Principles",
+      "content_type": "Principle",
+      "relationship": "Core concept operating across all positions, exemplifying how principles transcend specific technical applications"
     }
   ],
   "expert_insights": {

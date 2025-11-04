@@ -1,1163 +1,774 @@
 {
-  "metadata": {
-    "title": "Lockdown Guard Bottom | BJJ Position Guide | BJJ Graph",
-    "description": "Master Lockdown Guard Bottom in BJJ. Eddie Bravo's signature half guard variation with whip-up sweeps and Electric Chair setups. 60% sweep success rate for advanced.",
-    "state_id": "S167",
-    "tags": ["bjj", "position", "half-guard", "lockdown", "10th-planet", "defensive", "sweeps"],
-    "parent_variant": "Lockdown Guard",
-    "sibling_variants": ["Lockdown Guard Top"]
-  },
-
-  "overview": "Lockdown Guard Bottom is Eddie Bravo's signature variation of half guard where the bottom practitioner uses a triangled leg configuration (lockdown) to control the opponent's trapped leg. This 10th Planet system position transforms traditional half guard from a stalling position into a dynamic offensive platform. The lockdown prevents the top player from completing passes while creating leverage for sweeps and back takes. By extending and controlling the trapped leg, the bottom practitioner can off-balance opponents, create angles, and attack with the whip-up, Old School sweep, and Electric Chair submissions. The position emphasizes active offense over passive defense, using the leg triangle as both a retention mechanism and an attacking lever. This position revolutionized half guard play in no-gi grappling and has become a fundamental component of modern BJJ game plans.",
-
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Defensive with offensive options",
-    "risk_level": "Low to Medium",
-    "energy_cost": "Medium",
-    "time_sustainability": "Medium to Long"
-  },
-
-  "state_invariants": [
-    "Bottom practitioner's near-side leg threads over opponent's trapped leg at knee level, then triangles back underneath the ankle, creating the lockdown configuration with ankles crossed and locked",
-    "Top practitioner's trapped leg is extended and controlled between bottom player's legs, with limited mobility and compromised base",
-    "Bottom practitioner maintains underhook on trapped-leg side or uses overhook control on far side, preventing opponent from establishing dominant crossface or underhook position",
-    "Bottom practitioner's hips remain mobile and active underneath opponent, capable of extending lockdown to off-balance or creating angular attacks",
-    "Top practitioner's weight distributed partially on bottom player's torso while struggling to maintain base against lockdown extensions and hip movements"
-  ],
-
-  "prerequisites": [
-    "Half guard position established with one opponent's leg controlled between bottom player's legs",
-    "Ability to thread near-side leg over opponent's trapped leg and triangle configuration underneath",
-    "Space to complete lockdown triangle without opponent immediately passing or extracting leg",
-    "Basic understanding of hip movement and extension mechanics for lockdown control",
-    "Opponent in range for underhook or overhook control on upper body"
-  ],
-
+  "name": "Lockdown",
+  "slug": "lockdown",
+  "description": "Master Lockdown position in BJJ. Eddie Bravo's revolutionary half guard control system with leg entanglement. Complete guide covering bottom and top perspectives with 65% sweep success at advanced level.",
+  "variant_uniqueness": "Leg triangle trades mobility for sweeps",
+  "overview": "Lockdown is Eddie Bravo's revolutionary half guard variation that transforms traditional half guard from a defensive holding position into an aggressive attacking platform. This position features a specialized leg entanglement where the bottom player creates a figure-four lock around the opponent's trapped leg, severely restricting their mobility while enabling powerful sweeps, back takes, and submissions. The lockdown mechanism works by using the bottom player's outside leg to hook under the opponent's shin while the inside leg wraps over the thigh, creating tremendous leverage to break posture, manipulate weight distribution, and create angles for offensive attacks. Within the 10th Planet system, Lockdown serves as the foundation for multiple attacking sequences including the Electric Chair, Old School sweep, and various paths to back control. The position is particularly effective in no-gi grappling where traditional gi grips are unavailable, and has become a cornerstone technique in modern BJJ competition. The lockdown's effectiveness lies in its ability to simultaneously neutralize passing attempts while creating offensive opportunities, making it equally important to understand from both bottom and top perspectives.",
   "key_principles": [
-    "Maintain tight lockdown configuration with ankles crossed and locked, using top foot to hook and extend opponent's leg",
-    "Keep lockdown active and dynamic, constantly extending and flexing to off-balance opponent and prevent base establishment",
-    "Secure underhook on trapped-leg side whenever possible for maximum control and offensive opportunities",
-    "Use hip movement to create angles toward opponent's back or to set up whip-up and Old School sweeps",
-    "Prevent opponent from getting crossface control by using frames, overhooks, or underhook dominance",
-    "Stay active with attacks and sweeps rather than holding static position, forcing opponent to defend",
-    "Coordinate lockdown extensions with upper body movements to multiply off-balancing effects"
-  ],
-
-  "offensive_transitions": [
-    {
-      "technique": "Whip-up Sweep",
-      "target_position": "Dogfight Position Bottom",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Old School Sweep",
-      "target_position": "Top Position",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Electric Chair Submission",
-      "target_position": "Electric Chair Bottom",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Lockdown Sweeps",
-      "target_position": "Half Guard Top",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Rolling Back Take",
-      "target_position": "Back Control Bottom",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Transition to Truck",
-      "target_position": "Truck Position Bottom",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Deep Half Entry",
-      "target_position": "Deep Half Guard Bottom",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Kimura from Half Guard",
-      "target_position": "Kimura Control Bottom",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    }
-  ],
-
-  "defensive_responses": [
-    {
-      "technique": "Half Guard Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 35
-    },
-    {
-      "technique": "Knee Slice from Half",
-      "target_position": "Knee Slice Position Top",
-      "success_rate": 40
-    },
-    {
-      "technique": "Smash Pass",
-      "target_position": "Smash Pass Position",
-      "success_rate": 30
-    },
-    {
-      "technique": "Underhook Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 35
-    },
-    {
-      "technique": "Crossface Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 40
-    },
-    {
-      "technique": "Leg Extraction",
-      "target_position": "Combat Base",
-      "success_rate": 45
-    }
-  ],
-
-  "counter_transitions": [
-    {
-      "technique": "Lockdown Extension Counter",
-      "target_position": "Lockdown Guard Bottom",
-      "trigger": "Opponent attempts to extract trapped leg by pulling back"
-    },
-    {
-      "technique": "Whip-up to Dogfight",
-      "target_position": "Dogfight Position Bottom",
-      "trigger": "Opponent drives forward with crossface pressure"
-    },
-    {
-      "technique": "Electric Chair Setup",
-      "target_position": "Electric Chair Bottom",
-      "trigger": "Opponent maintains extended posture while trying to pass"
-    },
-    {
-      "technique": "Underhook Recapture",
-      "target_position": "Lockdown Guard Bottom",
-      "trigger": "Opponent strips underhook and attempts to establish crossface"
-    },
-    {
-      "technique": "Rolling to Truck",
-      "target_position": "Truck Position Bottom",
-      "trigger": "Opponent establishes heavy crossface and drives toward pass"
-    }
-  ],
-
-  "decision_tree": [
-    {
-      "condition": "If opponent maintains high posture with weight back, trying to extract trapped leg",
-      "actions": [
-        {
-          "technique": "Old School Sweep",
-          "target": "Top Position",
-          "probability": 70
-        },
-        {
-          "technique": "Electric Chair Submission",
-          "target": "Electric Chair Bottom",
-          "probability": 60
-        }
-      ]
-    },
-    {
-      "condition": "If opponent drives forward with heavy crossface pressure and low posture",
-      "actions": [
-        {
-          "technique": "Whip-up Sweep",
-          "target": "Dogfight Position Bottom",
-          "probability": 65
-        },
-        {
-          "technique": "Rolling to Truck",
-          "target": "Truck Position Bottom",
-          "probability": 55
-        }
-      ]
-    },
-    {
-      "condition": "If opponent establishes underhook and attempts knee slice pass",
-      "actions": [
-        {
-          "technique": "Deep Half Entry",
-          "target": "Deep Half Guard Bottom",
-          "probability": 60
-        },
-        {
-          "technique": "Lockdown Extension Counter",
-          "target": "Lockdown Guard Bottom",
-          "probability": 50
-        }
-      ]
-    },
-    {
-      "condition": "If opponent maintains neutral posture in half guard without committing",
-      "actions": [
-        {
-          "technique": "Lockdown Sweeps",
-          "target": "Half Guard Top",
-          "probability": 60
-        },
-        {
-          "technique": "Kimura from Half Guard",
-          "target": "Kimura Control Bottom",
-          "probability": 55
-        }
-      ]
-    }
-  ],
-
-  "common_errors": [
-    {
-      "error": "Locking lockdown too loosely, allowing opponent to easily extract trapped leg",
-      "consequence": "Opponent escapes half guard and completes pass to side control or mount",
-      "correction": "Cross ankles tightly with top foot hooking deep under opponent's ankle, squeeze knees together to create maximum pressure on trapped leg"
-    },
-    {
-      "error": "Remaining static in lockdown without extending or attacking, allowing opponent to establish dominant grips",
-      "consequence": "Opponent secures crossface and underhook control, nullifying lockdown's offensive potential and setting up pass",
-      "correction": "Constantly move hips, extend lockdown to off-balance opponent, and immediately attack with sweeps when opponent adjusts base"
-    },
-    {
-      "error": "Failing to fight for underhook on trapped-leg side, allowing opponent free underhook",
-      "consequence": "Opponent uses underhook to flatten bottom player, establish crossface, and systematically break down lockdown for pass",
-      "correction": "Prioritize underhook battle, use frames and overhooks when underhook unavailable, never allow opponent free underhook without immediate counter"
-    },
-    {
-      "error": "Extending lockdown without coordinating upper body attack or sweep attempt",
-      "consequence": "Opponent anticipates lockdown extension, times extraction or pass, and escapes without significant difficulty",
-      "correction": "Coordinate lockdown extensions with upper body movements, attack combinations (extend while setting up Old School or whip-up), making extensions purposeful rather than random"
-    },
-    {
-      "error": "Allowing opponent to establish strong crossface without defensive response",
-      "consequence": "Opponent flattens bottom player completely, eliminates lockdown's effectiveness, and completes pass to side control",
-      "correction": "Immediately counter crossface with frames, overhook, or whip-up movement to prevent flattening, maintain ability to turn into opponent"
-    },
-    {
-      "error": "Attempting Electric Chair or Old School without proper setup and angle creation",
-      "consequence": "Opponent defends sweep or submission easily, potentially counters with pass or dominant position",
-      "correction": "Create proper angles with hip movement before committing to attacks, use lockdown extensions to off-balance first, then enter sweeps and submissions with timing"
-    }
-  ],
-
-  "training_drills": [
-    {
-      "name": "Lockdown Retention Drill",
-      "description": "Partner attempts to extract trapped leg using various methods (pulling back, driving forward, underhook pressure) while bottom player maintains lockdown integrity and counters extraction attempts. Focus on keeping ankles locked, extending strategically, and preventing leg escape. Duration: 3-5 minutes per round, switching roles.",
-      "duration": "3-5 minutes"
-    },
-    {
-      "name": "Whip-up to Old School Combination Drill",
-      "description": "From established lockdown, bottom player practices transitioning between whip-up and Old School sweep based on opponent's reactions. If opponent bases out against whip-up, switch to Old School. If opponent sits back against Old School, switch to whip-up. Develop timing and recognition of sweep opportunities. Duration: 5 minutes per round.",
-      "duration": "5 minutes"
-    },
-    {
-      "name": "Lockdown to Electric Chair Progression",
-      "description": "Starting from lockdown with underhook, practice full Electric Chair entry sequence: extend opponent's leg with lockdown, rotate to outside, establish lockdown triangle in Electric Chair configuration, and apply submission pressure. Partner provides progressive resistance. Duration: 5-7 minutes per round.",
-      "duration": "5-7 minutes"
-    },
-    {
-      "name": "Underhook Battle from Lockdown",
-      "description": "Both partners fight for underhook control while bottom player maintains lockdown. Top player attempts to strip underhook and establish crossface, bottom player recovers underhook and prevents flattening. Emphasizes grip fighting and positional maintenance under pressure. Duration: 3-5 minutes per round.",
-      "duration": "3-5 minutes"
-    },
-    {
-      "name": "Positional Sparring: Lockdown vs. Pass",
-      "description": "Bottom player starts in lockdown with underhook, top player attempts to pass. Bottom player scores points for sweeps and submissions, top player scores for passes and dominant positions. Resets after each score. Develop competitive timing and strategy. Duration: 5-10 minute rounds.",
-      "duration": "5-10 minutes"
-    }
-  ],
-
-  "optimal_submission_paths": [
-    {
-      "name": "Electric Chair Direct Path",
-      "path": "Lockdown Guard Bottom → Electric Chair Bottom → Electric Chair Submission → Won by Submission"
-    },
-    {
-      "name": "Sweep to Back Attack Path",
-      "path": "Lockdown Guard Bottom → Old School Sweep → Top Position → Rolling Back Take → Back Control Top → Rear Naked Choke → Won by Submission"
-    },
-    {
-      "name": "Kimura from Half Guard Path",
-      "path": "Lockdown Guard Bottom → Kimura from Half Guard → Kimura Control Bottom → Kimura → Won by Submission"
-    },
-    {
-      "name": "Truck Submission Path",
-      "path": "Lockdown Guard Bottom → Transition to Truck → Truck Position Bottom → Twister → Won by Submission"
-    },
-    {
-      "name": "Sweep to Mount Path",
-      "path": "Lockdown Guard Bottom → Whip-up Sweep → Dogfight Position Bottom → Rolling Back Take → Back Control Top → Mount Top → Armbar from Mount → Won by Submission"
-    }
-  ],
-
-  "related_content": [
-    {
-      "name": "10th Planet Half Guard Bottom System",
-      "relationship": "Parent system containing lockdown methodology"
-    },
-    {
-      "name": "Lockdown to Electric Chair System",
-      "relationship": "Specialized system for lockdown submissions"
-    },
-    {
-      "name": "Electric Chair Bottom",
-      "relationship": "Primary submission position from lockdown"
-    },
-    {
-      "name": "Dogfight Position Bottom",
-      "relationship": "Common transition target via whip-up sweep"
-    },
-    {
-      "name": "Half Guard Bottom",
-      "relationship": "Parent position and alternative half guard approach"
-    },
-    {
-      "name": "Deep Half Guard Bottom",
-      "relationship": "Related half guard variation and transition option"
-    },
-    {
-      "name": "Truck Position Bottom",
-      "relationship": "Advanced transition target from lockdown"
-    },
-    {
-      "name": "Z-Guard Bottom",
-      "relationship": "Alternative half guard structure"
-    },
-    {
-      "name": "Knee Shield Half Guard Bottom",
-      "relationship": "Alternative half guard defensive structure"
-    },
-    {
-      "name": "Old School Sweep",
-      "relationship": "Primary sweep from lockdown guard"
-    },
-    {
-      "name": "Lockdown Sweeps",
-      "relationship": "Collection of sweeps from lockdown position"
-    },
-    {
-      "name": "Hip Movement",
-      "relationship": "Essential concept for lockdown effectiveness"
-    }
-  ],
-
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 50,
-      "intermediate": 65,
-      "advanced": 80
-    },
-    "advancement_probability": {
-      "beginner": 35,
-      "intermediate": 50,
-      "advanced": 65
-    },
-    "submission_probability": {
-      "beginner": 20,
-      "intermediate": 35,
-      "advanced": 55
-    },
-    "average_time": "1-3 minutes depending on activity level and opponent's passing pressure"
-  },
-
-  "expert_insights": {
-    "danaher": "The lockdown represents a fundamental shift in half guard philosophy from purely defensive retention to active offensive control. By creating a mechanical advantage through the triangled leg configuration, the bottom practitioner transforms the opponent's trapped leg into a lever system that can be extended, retracted, and manipulated to generate off-balancing forces. The biomechanical principle at work is simple: when you control an opponent's base through their leg and can extend or compress that leg at will, you create instability that opens opportunities for sweeps and positional advances. The lockdown's effectiveness stems from its ability to simultaneously limit the opponent's mobility while maximizing your own offensive options. However, practitioners must understand that the lockdown is not a static holding position but rather a dynamic control platform that requires constant adjustment, extension timing, and coordination with upper body attacks to be effective at high levels.",
-
-    "gordon_ryan": "In competition, the lockdown can be an extremely effective tool when used with aggressive intent and proper timing, but it requires complete commitment to the position's offensive nature. I've seen too many competitors use lockdown passively, simply holding and waiting, which allows elite passers to systematically break it down and complete passes. The key to competitive success with lockdown is maintaining constant pressure through extensions, immediately attacking with sweeps when opponents adjust their base, and never allowing them to establish both crossface and underhook control simultaneously. The whip-up and Old School sweeps are high-percentage techniques that work even against world-class opponents if you commit fully and time them with the opponent's weight shifts. The Electric Chair is a legitimate submission threat that forces opponents to defend, opening other opportunities. The lockdown works best when you treat it as a launching pad for attacks rather than a defensive bunker, making it a viable option even at the highest levels of no-gi competition.",
-
-    "eddie_bravo": "The lockdown is the foundation of the entire 10th Planet half guard system and represents a complete reimagining of what half guard can be. Traditional half guard was always seen as a stalling position or a last resort before getting passed, but the lockdown transforms it into one of the most dynamic and dangerous positions in all of grappling. When you lock down that leg and start extending, you're not just preventing passes—you're actively attacking, creating dilemmas, and forcing your opponent to make difficult choices under pressure. The beauty of the lockdown is how it chains into so many different attacks: the Old School sweep, the whip-up, the Electric Chair, transitions to the truck, and numerous other options. The position rewards creativity and aggression, allowing smaller practitioners to control and sweep much larger opponents through leverage rather than strength. The key is staying active, constantly moving your hips, extending that lockdown to off-balance them, and immediately attacking when they react. The lockdown isn't just a technique—it's a complete game plan that can carry you through entire matches if you commit to mastering its intricacies and developing the timing to execute its attacks under pressure."
-  }
-}
-{
-  "metadata": {
-    "title": "Lockdown Guard | BJJ Position Guide | BJJ Graph",
-    "description": "Master Lockdown Guard in BJJ. 10th Planet half guard control system with leg entanglement. High-percentage sweeps and back takes with 65% sweep success at advanced level.",
-    "state_id": "S087",
-    "tags": ["bjj", "position", "half-guard", "lockdown", "10th-planet", "leg-control", "defensive"],
-    "parent_variant": "Half Guard Bottom",
-    "sibling_variants": ["Knee Shield Half Guard Bottom", "Deep Half Guard Bottom", "Z-Guard Bottom", "Underhook Battle Position"]
-  },
-  "overview": "Lockdown Guard is a specialized half guard variation developed and popularized by Eddie Bravo as a cornerstone of the 10th Planet Jiu-Jitsu system. This position features a unique leg entanglement where the bottom player's outside leg triangles around the opponent's trapped leg, creating a lockdown configuration that severely restricts the top player's mobility and base. The position transforms traditional half guard from a defensive holding pattern into an aggressive attacking platform, offering powerful sweeps, back takes, and submission opportunities.\n\nThe lockdown mechanism works by using the bottom player's outside leg to hook under the opponent's shin while the inside leg wraps over the thigh, creating a figure-four leg lock around the trapped limb. This configuration prevents the top player from completing traditional half guard passes, as they cannot free their leg to establish side control or mount. The bottom player gains tremendous leverage to break the opponent's posture, manipulate their weight distribution, and create angles for offensive attacks. The position is particularly effective in no-gi grappling where traditional gi grips are unavailable.\n\nWithin the 10th Planet system, Lockdown Guard serves as the foundation for multiple attacking sequences, including the Electric Chair sweep, Old School sweep, and various paths to the back. The position emphasizes constant pressure and movement, using the lockdown to control distance while working toward dominant positions. When executed with proper technique and understanding of the system's principles, Lockdown Guard becomes a highly effective tool for smaller practitioners to neutralize larger opponents and create offensive opportunities from what appears to be a defensive bottom position.",
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Defensive with offensive options",
-    "risk_level": "Low to Medium",
-    "energy_cost": "Medium",
-    "time_sustainability": "Medium to Long"
-  },
-  "state_invariants": [
-    "Bottom player on their side or back with one of opponent's legs trapped between their legs in a figure-four configuration, with outside leg hooking under opponent's shin and inside leg wrapping over opponent's thigh",
-    "Top player's trapped leg fully controlled by lockdown mechanism, preventing leg extraction and limiting base to only the free leg and upper body posting",
-    "Bottom player's hips positioned underneath opponent's center of gravity with ability to manipulate opponent's weight through leg control and underhook or whip-up control",
-    "Bottom player maintains outside underhook or overhook control on trapped leg side, preventing opponent from flattening and establishing crossface control",
-    "Top player's posture compromised by lockdown tension, forcing them to deal with leg entanglement before attempting traditional passing sequences"
-  ],
-  "prerequisites": [
-    "Opponent's leg secured between bottom player's legs in half guard configuration",
-    "Bottom player able to achieve figure-four leg lock around opponent's trapped leg",
-    "Outside leg positioned under opponent's shin with inside leg over opponent's thigh",
-    "Bottom player on side or back with ability to create space from opponent's chest pressure",
-    "Sufficient hip mobility and leg flexibility to maintain lockdown tension"
-  ],
-  "key_principles": [
-    "Maintain constant tension in the lockdown by pulling opponent's heel toward own hip while flexing outside foot",
-    "Use lockdown to break opponent's posture by extending hips away while pulling trapped leg",
+    "Maintain constant tension in lockdown by pulling opponent's heel toward hip while flexing outside foot",
+    "Use lockdown to break opponent's posture by extending hips away while controlling trapped leg",
     "Control opponent's upper body with underhook or whip-up to prevent crossface and flatten attempts",
     "Create angles by shrimping away from opponent while maintaining lockdown control",
-    "Keep opponent's weight off-balance and prevent them from establishing a strong base",
+    "Keep opponent's weight off-balance and prevent strong base establishment",
     "Transition smoothly between lockdown variations and attacking sequences without releasing leg control",
-    "Use opponent's attempts to escape lockdown as opportunities to advance position or secure submissions"
+    "Use opponent's escape attempts as opportunities to advance position or secure submissions"
   ],
-  "offensive_transitions": [
+  "related_positions": [
     {
-      "technique": "Old School Sweep",
-      "target_position": "Mount Top",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
+      "name": "Half Guard",
+      "relationship": "Parent position - traditional half guard without lockdown mechanism"
     },
     {
-      "technique": "Electric Chair Submission",
-      "target_position": "Electric Chair Bottom",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
+      "name": "Deep Half Guard",
+      "relationship": "Alternative half guard variation - complementary attacking system"
     },
     {
-      "technique": "Lockdown Sweeps",
-      "target_position": "Dogfight Position Bottom",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Rolling Back Take",
-      "target_position": "Back Control Bottom",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Transition to Truck",
-      "target_position": "Truck Position Bottom",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      }
-    },
-    {
-      "technique": "Deep Half Entry",
-      "target_position": "Deep Half Guard Bottom",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Underhook Sweep from Half",
-      "target_position": "Mount Top",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Twister Finish",
-      "target_position": "Twister Control Bottom",
-      "success_rates": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 40
-      }
-    }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Half Guard Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 20
-    },
-    {
-      "technique": "Knee Slice Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 25
-    },
-    {
-      "technique": "Underhook Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 30
-    },
-    {
-      "technique": "Crossface Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 35
-    },
-    {
-      "technique": "Smash Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 30
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Electric Chair Submission",
-      "target_position": "Electric Chair Bottom",
-      "trigger": "Opponent attempts to free trapped leg by pulling back"
-    },
-    {
-      "technique": "Old School Sweep",
-      "target_position": "Mount Top",
-      "trigger": "Opponent posts hand on mat to prevent being broken down"
-    },
-    {
-      "technique": "Lockdown Sweeps",
-      "target_position": "Dogfight Position Bottom",
-      "trigger": "Opponent drives forward with chest pressure"
-    },
-    {
-      "technique": "Rolling Back Take",
-      "target_position": "Back Control Bottom",
-      "trigger": "Opponent commits weight forward attempting to flatten"
-    },
-    {
-      "technique": "Twister Finish",
-      "target_position": "Twister Control Bottom",
-      "trigger": "Opponent turns away to defend Electric Chair"
-    }
-  ],
-  "decision_tree": [
-    {
-      "condition": "If opponent establishes strong crossface and drives chest pressure to flatten",
-      "actions": [
-        {
-          "technique": "Lockdown Sweeps",
-          "target": "Dogfight Position Bottom",
-          "probability": 55
-        },
-        {
-          "technique": "Deep Half Entry",
-          "target": "Deep Half Guard Bottom",
-          "probability": 45
-        }
-      ]
-    },
-    {
-      "condition": "If opponent posts hand on mat and sits back to defend lockdown",
-      "actions": [
-        {
-          "technique": "Old School Sweep",
-          "target": "Mount Top",
-          "probability": 65
-        },
-        {
-          "technique": "Electric Chair Submission",
-          "target": "Electric Chair Bottom",
-          "probability": 50
-        }
-      ]
-    },
-    {
-      "condition": "If opponent attempts to free trapped leg by pulling back aggressively",
-      "actions": [
-        {
-          "technique": "Electric Chair Submission",
-          "target": "Electric Chair Bottom",
-          "probability": 60
-        },
-        {
-          "technique": "Transition to Truck",
-          "target": "Truck Position Bottom",
-          "probability": 45
-        }
-      ]
-    },
-    {
-      "condition": "If opponent turns body away to avoid Electric Chair threat",
-      "actions": [
-        {
-          "technique": "Twister Finish",
-          "target": "Twister Control Bottom",
-          "probability": 40
-        },
-        {
-          "technique": "Rolling Back Take",
-          "target": "Back Control Bottom",
-          "probability": 55
-        }
-      ]
-    },
-    {
-      "condition": "If opponent maintains neutral posture without committing weight",
-      "actions": [
-        {
-          "technique": "Underhook Sweep from Half",
-          "target": "Mount Top",
-          "probability": 50
-        },
-        {
-          "technique": "Lockdown Sweeps",
-          "target": "Dogfight Position Bottom",
-          "probability": 45
-        }
-      ]
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Failing to maintain constant tension in the lockdown, allowing opponent to free their leg",
-      "consequence": "Opponent escapes lockdown and completes traditional half guard pass to side control",
-      "correction": "Continuously pull opponent's heel toward your hip while flexing outside foot, maintaining figure-four pressure throughout all movements"
-    },
-    {
-      "error": "Allowing opponent to establish crossface control and flatten you to the mat",
-      "consequence": "Loss of mobility and offensive options, making it difficult to create angles for sweeps or attacks",
-      "correction": "Secure underhook or whip-up immediately, frame against opponent's head and shoulder, and stay on your side to maintain attacking posture"
-    },
-    {
-      "error": "Staying static in lockdown without progressing to offensive techniques",
-      "consequence": "Opponent adjusts their base and finds solutions to the lockdown, eventually passing or stalling for referee intervention",
-      "correction": "Constantly work toward Old School, Electric Chair, or other attacking sequences, using lockdown as control mechanism not end goal"
-    },
-    {
-      "error": "Attempting to finish Electric Chair or Old School without proper setup and angle creation",
-      "consequence": "Techniques fail and opponent capitalizes on failed attempt to establish superior position",
-      "correction": "Break opponent's posture first with lockdown, create necessary angles by shrimping and underhook control, then execute technique with proper timing"
-    },
-    {
-      "error": "Locking down too high on opponent's leg (around knee instead of shin)",
-      "consequence": "Reduced leverage and control, allowing opponent to maintain better posture and potentially escape",
-      "correction": "Ensure outside leg hooks deep under opponent's shin, close to the ankle, maximizing leverage and control of trapped leg"
-    },
-    {
-      "error": "Neglecting to control opponent's upper body while focusing only on lockdown",
-      "consequence": "Opponent uses free upper body to establish dominant grips, crossface, and eventually break lockdown",
-      "correction": "Maintain constant upper body control through underhook, overhook, or whip-up while simultaneously managing lockdown"
-    },
-    {
-      "error": "Releasing lockdown too early when transitioning to other positions",
-      "consequence": "Loss of control advantage and opponent immediately establishes superior position or completes pass",
-      "correction": "Maintain lockdown until you have secured alternate control (back control grips, deep half hooks, etc.) during transitions"
-    }
-  ],
-  "training_drills": [
-    {
-      "name": "Lockdown Maintenance Drill",
-      "description": "Partner takes top half guard position. Bottom player establishes lockdown and maintains control for 2-minute rounds while top player attempts to free their leg using various escape methods. Focus on maintaining constant tension and preventing leg extraction. Switch roles and repeat for 5 rounds.",
-      "duration": "10 minutes total (5 rounds × 2 minutes)"
-    },
-    {
-      "name": "Old School Sweep Flow Drill",
-      "description": "From established lockdown, practice Old School sweep sequence in repetitions of 10. Partner provides progressive resistance: first static (no resistance), then moderate resistance, finally full resistance. Focus on proper angle creation, underhook control, and hip extension timing. Perform 3 sets of 10 repetitions per side.",
-      "duration": "15 minutes"
-    },
-    {
-      "name": "Electric Chair Setup and Finish Drill",
-      "description": "Partner in top half guard. Bottom player secures lockdown and practices Electric Chair setup by breaking posture, creating angle, and securing proper leg position. Practice both submission finish and sweep option. Partner taps to calf pressure. Perform 5 successful setups per side, alternating between submission and sweep finish.",
-      "duration": "12 minutes"
-    },
-    {
-      "name": "Lockdown to Back Take Transition Drill",
-      "description": "From lockdown position, practice multiple pathways to back control including rolling back take and truck transition. Partner provides realistic resistance but allows completion of technique when properly executed. Focus on maintaining lockdown control throughout transition and only releasing when back control is secure. 3-minute rounds for 4 rounds.",
-      "duration": "12 minutes total"
-    },
-    {
-      "name": "Lockdown Defense and Recovery Drill",
-      "description": "Partner establishes lockdown. Top player practices various defense and escape methods (posture maintenance, leg extraction, base widening) while bottom player maintains control and looks for opportunities to advance. Emphasizes problem-solving for both positions. 3-minute rounds, switching roles after each round for 6 total rounds.",
-      "duration": "18 minutes total"
-    }
-  ],
-  "optimal_submission_paths": [
-    {
-      "name": "Electric Chair Direct Path",
-      "path": "Lockdown Guard Bottom → Electric Chair Bottom → Electric Chair Submission"
-    },
-    {
-      "name": "Twister Path via Truck",
-      "path": "Lockdown Guard Bottom → Truck Position Bottom → Twister Control Bottom → Twister"
-    },
-    {
-      "name": "Back Control Submission Path",
-      "path": "Lockdown Guard Bottom → Rolling Back Take → Back Control Bottom → Rear Naked Choke"
-    },
-    {
-      "name": "Old School to Mount Submission",
-      "path": "Lockdown Guard Bottom → Old School Sweep → Mount Top → Armbar from Mount"
-    },
-    {
-      "name": "Deep Half to Back Path",
-      "path": "Lockdown Guard Bottom → Deep Half Guard Bottom → Rolling Back Take → Back Control Bottom → Rear Naked Choke"
-    }
-  ],
-  "related_content": [
-    {
-      "name": "Lockdown Position Bottom",
-      "relationship": "Equivalent position (naming variation)"
-    },
-    {
-      "name": "Electric Chair Bottom",
-      "relationship": "Primary submission target from lockdown"
-    },
-    {
-      "name": "Old School Bottom Position",
-      "relationship": "Sweep variation from lockdown control"
-    },
-    {
-      "name": "Truck Position Bottom",
-      "relationship": "Advanced transition from lockdown"
-    },
-    {
-      "name": "Deep Half Guard Bottom",
-      "relationship": "Alternative half guard variation"
-    },
-    {
-      "name": "Dogfight Position Bottom",
-      "relationship": "Common transition after lockdown sweeps"
-    },
-    {
-      "name": "Twister Control Bottom",
-      "relationship": "Submission position accessible from lockdown system"
-    },
-    {
-      "name": "Lockdown to Electric Chair System",
-      "relationship": "Complete attacking system built on lockdown foundation"
-    },
-    {
-      "name": "10th Planet Half Guard Bottom System",
-      "relationship": "Broader system incorporating lockdown as core component"
-    },
-    {
-      "name": "Half Guard Bottom",
-      "relationship": "Parent position category"
-    },
-    {
-      "name": "Knee Shield Half Guard Bottom",
-      "relationship": "Alternative half guard control system"
-    },
-    {
-      "name": "Whizzer Control",
-      "relationship": "Counter-control concept opponent may use against lockdown attacks"
-    }
-  ],
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 60,
-      "intermediate": 75,
-      "advanced": 85
-    },
-    "advancement_probability": {
-      "beginner": 35,
-      "intermediate": 50,
-      "advanced": 65
-    },
-    "submission_probability": {
-      "beginner": 20,
-      "intermediate": 35,
-      "advanced": 50
-    },
-    "average_time": "1-3 minutes depending on opponent's lockdown defense knowledge"
-  },
-  "expert_insights": {
-    "danaher": "The lockdown represents a fascinating biomechanical puzzle that Eddie Bravo solved through systematic analysis of half guard control mechanisms. By creating a figure-four configuration around the opponent's trapped leg, the bottom player generates asymmetrical control that fundamentally disrupts the top player's ability to establish the bilateral base required for effective passing. The genius of the position lies in how it transforms defensive half guard into an offensive platform by controlling the opponent's center of gravity through their trapped leg while simultaneously limiting their ability to generate forward pressure. The lockdown creates what I call 'positional debt' where the top player must solve the leg entanglement problem before they can even begin addressing traditional half guard passing concepts, effectively adding an entire layer of complexity to their task.",
-    "gordon_ryan": "In no-gi competition, lockdown is one of the highest percentage half guard systems available because it removes so many of the top player's options immediately. When I'm on top against a good lockdown player, I know I'm in for a tough time because the leg control is so dominant that my usual passing chains don't work. The key to making lockdown work at the highest level is being genuinely dangerous with your attacks—if your Electric Chair, Old School, and back takes are serious threats, the top player has to respect them, which opens up even more opportunities. I've seen too many people just lock it down and stall, which doesn't work against good opponents who know the defenses. You need to be constantly attacking and making them react, using the lockdown as the control mechanism that enables your offense rather than the attack itself.",
-    "eddie_bravo": "I developed the lockdown system because traditional half guard was too passive and defensive for my style—I wanted a half guard that let me attack constantly and put the top guy in immediate danger. The lockdown solves the fundamental problem of half guard which is that the top guy has too much mobility and can work their passes while you're stuck defending. By locking down their leg, you flip the script completely and now they're the ones stuck dealing with your attacks. The beauty of the system is how everything chains together: they defend the Electric Chair, you hit the Old School; they defend that, you go to the Truck; they defend the Truck, you're taking their back. It's a complete ecosystem of attacks that all stem from that initial lockdown control. People say it only works in no-gi, but that's because they haven't fully explored the system—the principles work with or without the gi if you understand the deeper concepts of leg control and weight manipulation."
-  }
-}
-Session limit reached ∙ resets 4am
-
-{
-  "metadata": {
-    "title": "Lockdown Half Guard Bottom | BJJ Position Guide | BJJ Graph",
-    "description": "Master Lockdown Half Guard Bottom position in BJJ. Eddie Bravo's signature control system with whip-up sweeps and electric chair attacks. 60% sweep success rate for intermediates.",
-    "state_id": "S137",
-    "tags": [
-      "bjj",
-      "position",
-      "half-guard",
-      "lockdown",
-      "10th-planet",
-      "bottom-position",
-      "sweep-position"
-    ],
-    "parent_variant": "Lockdown Guard",
-    "sibling_variants": [
-      "Lockdown Guard Top",
-      "Lockdown Position",
-      "Lockdown Top Position"
-    ]
-  },
-  "overview": "Lockdown Half Guard Bottom is a highly controlling half guard variation popularized by Eddie Bravo and the 10th Planet Jiu-Jitsu system. This position features a triangle-like leg configuration where the bottom player traps their opponent's leg using their own legs in a figure-four lock, creating immense control and offensive opportunities. The lockdown creates a powerful controlling mechanism that restricts the top player's mobility while enabling the bottom player to execute sweeps, transitions, and submissions. Unlike traditional half guard where the bottom player simply hooks one leg, the lockdown actively restricts the opponent's base and posture through aggressive leg entanglement. The position serves as the foundation for numerous 10th Planet techniques including the Old School Sweep, Electric Chair, and various truck entries. The lockdown's effectiveness lies in its ability to nullify the top player's passing attempts while creating powerful leverage for offensive attacks. This position represents a paradigm shift in half guard strategy, transforming a traditionally defensive position into an aggressive attacking platform.",
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Defensive with offensive options",
-    "risk_level": "Low to Medium",
-    "energy_cost": "Medium",
-    "time_sustainability": "Medium to Long"
-  },
-  "state_invariants": [
-    "Bottom player's legs create a figure-four lock around opponent's trapped leg, with one ankle crossing over the opponent's ankle and hooking behind their own knee, creating a triangle-like configuration that immobilizes the leg",
-    "Bottom player is on their side or back with the trapped opponent's leg locked between their own legs, maintaining constant inward pressure with the lockdown while controlling upper body with underhooks or overhooks",
-    "Top player's trapped leg is extended and controlled by the lockdown mechanism, with their knee pointing away from their body and their mobility severely restricted, forcing them to post their free leg wide for base",
-    "Bottom player's hips are positioned close to opponent's trapped leg with active pressure directed through the lockdown, creating leverage for sweeps while preventing the top player from extracting their leg or establishing dominant position"
-  ],
-  "prerequisites": [
-    "Half guard position with one of opponent's legs controlled between your legs",
-    "Ability to create space to establish the figure-four leg lock configuration",
-    "Upper body control via underhook, whizzer, or overhook to prevent opponent's pressure",
-    "Hip mobility to execute the lockdown entry and maintain active pressure"
-  ],
-  "key_principles": [
-    "Maintain constant inward pressure with the lockdown to control opponent's posture and prevent leg extraction",
-    "Use underhooks or overhooks to control upper body and prevent opponent from flattening you with crossface pressure",
-    "Keep hips mobile and active to create angles for sweeps and prevent opponent from settling their weight",
-    "Actively extend opponent's trapped leg using the lockdown to break their base and create sweep opportunities",
-    "Combine lockdown pressure with upper body frames to maintain optimal distance and prevent being smashed flat",
-    "Use the lockdown as a platform for attacks rather than purely defensive position, constantly threatening sweeps and transitions",
-    "Control opponent's free leg and arm positioning to prevent them from establishing a strong base or passing position"
-  ],
-  "offensive_transitions": [
-    {
-      "technique": "Old School Sweep",
-      "target_position": "Mount Top",
-      "success_rates": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
-      }
-    },
-    {
-      "technique": "Electric Chair Sweep",
-      "target_position": "Electric Chair Top",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Whip Up",
-      "target_position": "Dogfight Position Bottom",
-      "success_rates": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80
-      }
-    },
-    {
-      "technique": "Transition to Truck",
-      "target_position": "Truck Position Bottom",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Lockdown Sweeps",
-      "target_position": "Side Control Top",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Deep Half Entry",
-      "target_position": "Deep Half Guard Bottom",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Knee Slice Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 25
-    },
-    {
-      "technique": "Crossface Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 30
-    },
-    {
-      "technique": "Smash Pass",
-      "target_position": "Side Control Top",
-      "success_rate": 35
-    },
-    {
-      "technique": "Lockdown Defense",
-      "target_position": "Half Guard Top",
-      "success_rate": 40
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Electric Chair Sweep",
-      "target_position": "Electric Chair Top",
-      "trigger": "Opponent attempts to free trapped leg by pulling backwards"
-    },
-    {
-      "technique": "Old School Sweep",
-      "target_position": "Mount Top",
-      "trigger": "Opponent posts hand on mat to prevent being swept forward"
-    },
-    {
-      "technique": "Transition to Truck",
-      "target_position": "Truck Position Bottom",
-      "trigger": "Opponent commits weight forward to pass or smash"
-    }
-  ],
-  "decision_tree": [
-    {
-      "condition": "If opponent has strong crossface and heavy shoulder pressure attempting to flatten you",
-      "actions": [
-        {
-          "technique": "Whip Up",
-          "target": "Dogfight Position Bottom",
-          "probability": 65
-        },
-        {
-          "technique": "Electric Chair Sweep",
-          "target": "Electric Chair Top",
-          "probability": 55
-        }
-      ]
-    },
-    {
-      "condition": "If opponent is upright with hands posted on mat attempting to extract trapped leg",
-      "actions": [
-        {
-          "technique": "Old School Sweep",
-          "target": "Mount Top",
-          "probability": 70
-        },
-        {
-          "technique": "Lockdown Sweeps",
-          "target": "Side Control Top",
-          "probability": 60
-        }
-      ]
-    },
-    {
-      "condition": "If opponent commits weight forward and drives pressure down through chest",
-      "actions": [
-        {
-          "technique": "Transition to Truck",
-          "target": "Truck Position Bottom",
-          "probability": 60
-        },
-        {
-          "technique": "Deep Half Entry",
-          "target": "Deep Half Guard Bottom",
-          "probability": 50
-        }
-      ]
-    },
-    {
-      "condition": "If opponent establishes strong whizzer control and prevents underhook",
-      "actions": [
-        {
-          "technique": "Electric Chair Sweep",
-          "target": "Electric Chair Top",
-          "probability": 65
-        },
-        {
-          "technique": "Whip Up",
-          "target": "Dogfight Position Bottom",
-          "probability": 55
-        }
-      ]
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Allowing opponent to flatten you completely with crossface while maintaining lockdown passively",
-      "consequence": "Loss of mobility and sweep opportunities, opponent can establish dominant smash pass position despite lockdown",
-      "correction": "Immediately execute whip-up or use frames to create space when feeling crossface pressure, never accept being completely flat"
-    },
-    {
-      "error": "Failing to maintain constant inward pressure with the lockdown, allowing opponent's leg to remain mobile",
-      "consequence": "Opponent can extract their trapped leg or establish better base, negating the lockdown's controlling advantages",
-      "correction": "Actively squeeze and extend opponent's leg throughout, treating lockdown as dynamic control rather than static position"
-    },
-    {
-      "error": "Neglecting upper body control while focusing solely on the lockdown leg configuration",
-      "consequence": "Opponent can use crossface, underhook, or shoulder pressure to control your upper body and pass despite lockdown",
-      "correction": "Always combine lockdown with underhook, overhook, or whizzer control to manage opponent's upper body positioning"
-    },
-    {
-      "error": "Waiting too long to initiate sweeps, treating lockdown as purely defensive holding position",
-      "consequence": "Opponent adapts to lockdown pressure and finds passing solutions, referee may penalize for stalling",
-      "correction": "Immediately threaten old school, electric chair, or whip-up as soon as lockdown is secured to maintain offensive pressure"
-    },
-    {
-      "error": "Crossing legs too high on opponent's thigh instead of controlling the ankle/lower leg",
-      "consequence": "Weak lockdown control that opponent can easily escape, loss of leverage for sweeps and attacks",
-      "correction": "Establish figure-four lock as low as possible on opponent's leg near the ankle for maximum control and restriction"
-    },
-    {
-      "error": "Remaining static on your back without adjusting angles or creating movement",
-      "consequence": "Opponent can settle their weight and initiate passing sequences without fear of sweeps or transitions",
-      "correction": "Constantly adjust hip position, create angles with shoulder frames, and threaten multiple attacks to keep opponent defensive"
-    }
-  ],
-  "training_drills": [
-    {
-      "name": "Lockdown Entry and Maintenance Drill",
-      "description": "From standard half guard, practice entering the lockdown by threading your bottom leg through and establishing the figure-four lock. Partner provides progressive resistance attempting to extract their leg. Focus on maintaining constant inward pressure and preventing leg extraction for 30-second intervals.",
-      "duration": "5 minutes (10 rounds of 30 seconds)"
-    },
-    {
-      "name": "Old School Sweep Repetitions",
-      "description": "Starting from established lockdown position with underhook, practice old school sweep mechanics. Partner remains static initially, then adds resistance. Execute sweep by extending lockdown leg, using underhook, and rolling opponent forward. Reset and repeat focusing on smooth weight transfer and angle creation.",
-      "duration": "5 minutes (20-30 repetitions per side)"
-    },
-    {
-      "name": "Electric Chair and Whip-Up Flow Drill",
-      "description": "From lockdown bottom, flow between electric chair setup and whip-up based on partner's reactions. When partner drives crossface pressure, execute whip-up. When partner posts hands and sits back, transition to electric chair. Develop ability to read opponent's weight distribution and choose appropriate attack.",
-      "duration": "6 minutes (2-minute rounds, switch roles)"
-    },
-    {
-      "name": "Lockdown Defense Positional Sparring",
-      "description": "Bottom player starts in lockdown half guard with partner attempting to pass. Bottom player works to sweep or take back while top player attempts to pass using legitimate techniques. Reset when sweep is completed or pass is successful. Builds timing and decision-making under realistic pressure.",
-      "duration": "10 minutes (2-minute rounds)"
-    }
-  ],
-  "optimal_submission_paths": [
-    {
-      "name": "Electric Chair Submission Path",
-      "path": "Lockdown Half Guard Bottom → Electric Chair Top → Electric Chair Submission"
-    },
-    {
-      "name": "Truck to Twister Path",
-      "path": "Lockdown Half Guard Bottom → Truck Position Bottom → Twister Control → Twister"
-    },
-    {
-      "name": "Old School to Mount Attack Path",
-      "path": "Lockdown Half Guard Bottom → Old School Sweep → Mount Top → Americana from Mount"
-    },
-    {
-      "name": "Back Take Submission Path",
-      "path": "Lockdown Half Guard Bottom → Whip Up → Dogfight Position Bottom → Back Take Generic → Back Control Top → Rear Naked Choke"
-    }
-  ],
-  "related_content": [
-    {
-      "name": "Lockdown Guard",
-      "relationship": "Parent position - base position with all variants"
-    },
-    {
-      "name": "Lockdown Guard Top",
-      "relationship": "Sibling variant - opposite perspective of same position"
-    },
-    {
-      "name": "Half Guard Bottom",
-      "relationship": "Parent category - traditional half guard without lockdown"
+      "name": "Knee Shield Half Guard",
+      "relationship": "Alternative half guard structure - different defensive framework"
     },
     {
       "name": "Electric Chair",
-      "relationship": "Common transition target - signature lockdown attack"
+      "relationship": "Primary submission target - signature lockdown attack"
     },
     {
-      "name": "Old School Sweep",
-      "relationship": "Primary offensive technique - classic lockdown sweep"
+      "name": "Dogfight Position",
+      "relationship": "Common transition via whip-up - scramble position leading to sweeps"
     },
     {
-      "name": "Truck Position Bottom",
-      "relationship": "Advanced transition - leads to twister and back attacks"
+      "name": "Truck",
+      "relationship": "Advanced transition target - leads to twister and back attacks"
     },
     {
-      "name": "Dogfight Position Bottom",
-      "relationship": "Common transition via whip-up - scramble position"
+      "name": "Back Control",
+      "relationship": "Ultimate position goal - accessible via multiple lockdown paths"
     },
     {
-      "name": "Deep Half Guard Bottom",
-      "relationship": "Alternative half guard variation - complementary system"
+      "name": "Old School",
+      "relationship": "Classic sweep position - direct lockdown attack option"
     },
     {
-      "name": "10th Planet Half Guard Bottom System",
-      "relationship": "Complete system - comprehensive lockdown methodology"
+      "name": "Butterfly Half Guard",
+      "relationship": "Related half guard variation - combines butterfly hook with half guard"
     },
     {
-      "name": "Lockdown to Electric Chair System",
-      "relationship": "Strategic framework - systematic approach to lockdown attacks"
+      "name": "Z-Guard",
+      "relationship": "Alternative half guard structure - different knee shield configuration"
     }
   ],
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 60,
-      "intermediate": 75,
-      "advanced": 85
+  "bottom": {
+    "name": "Lockdown Bottom",
+    "description": "Master Lockdown Bottom in BJJ. Eddie Bravo's signature half guard with leg entanglement for powerful sweeps and submissions. 65% sweep success rate at advanced level.",
+    "tags": ["bjj", "position", "half-guard", "lockdown", "10th-planet", "bottom-position", "sweep-position"],
+    "overview": "Lockdown Bottom is Eddie Bravo's signature half guard variation where the bottom practitioner uses a triangled leg configuration to control the opponent's trapped leg. This 10th Planet system position transforms traditional half guard from a stalling position into a dynamic offensive platform. The lockdown prevents the top player from completing passes while creating leverage for sweeps and back takes. By extending and controlling the trapped leg, the bottom practitioner can off-balance opponents, create angles, and attack with the whip-up, Old School sweep, and Electric Chair submissions. The position emphasizes active offense over passive defense, using the leg triangle as both a retention mechanism and an attacking lever. This position revolutionized half guard play in no-gi grappling and has become a fundamental component of modern BJJ game plans.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive with offensive options",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium to Long"
     },
-    "advancement_probability": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 70
+    "state_invariants": [
+      "Bottom practitioner's near-side leg threads over opponent's trapped leg at knee level, then triangles back underneath the ankle, creating the lockdown configuration with ankles crossed and locked tightly to immobilize the leg",
+      "Top practitioner's trapped leg is extended and controlled between bottom player's legs with limited mobility and compromised base, forcing them to post free leg wide for stability",
+      "Bottom practitioner maintains underhook on trapped-leg side or uses overhook control on far side, preventing opponent from establishing dominant crossface or underhook position that would flatten the bottom player",
+      "Bottom practitioner's hips remain mobile and active underneath opponent, capable of extending lockdown to off-balance or creating angular attacks toward back or sweeps",
+      "Top practitioner's weight distributed partially on bottom player's torso while struggling to maintain base against lockdown extensions and hip movements"
+    ],
+    "prerequisites": [
+      "Half guard position established with one opponent's leg controlled between bottom player's legs",
+      "Ability to thread near-side leg over opponent's trapped leg and triangle configuration underneath",
+      "Space to complete lockdown triangle without opponent immediately passing or extracting leg",
+      "Basic understanding of hip movement and extension mechanics for lockdown control",
+      "Opponent in range for underhook or overhook control on upper body"
+    ],
+    "key_principles": [
+      "Maintain tight lockdown configuration with ankles crossed and locked, using top foot to hook and extend opponent's leg",
+      "Keep lockdown active and dynamic, constantly extending and flexing to off-balance opponent and prevent base establishment",
+      "Secure underhook on trapped-leg side whenever possible for maximum control and offensive opportunities",
+      "Use hip movement to create angles toward opponent's back or to set up whip-up and Old School sweeps",
+      "Prevent opponent from getting crossface control by using frames, overhooks, or underhook dominance",
+      "Stay active with attacks and sweeps rather than holding static position, forcing opponent to defend",
+      "Coordinate lockdown extensions with upper body movements to multiply off-balancing effects"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Whip-up Sweep",
+        "target_position": "Dogfight Position",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 50,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Old School Sweep",
+        "target_position": "Mount",
+        "success_rates": {
+          "beginner": 40,
+          "intermediate": 55,
+          "advanced": 70
+        }
+      },
+      {
+        "technique": "Electric Chair Submission",
+        "target_position": "Electric Chair",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Lockdown Sweeps",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Rolling Back Take",
+        "target_position": "Back Control",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Transition to Truck",
+        "target_position": "Truck",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Deep Half Entry",
+        "target_position": "Deep Half Guard",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 50,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Kimura from Half Guard",
+        "target_position": "Kimura Control",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      }
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Half Guard Pass",
+        "target_position": "Side Control",
+        "success_rate": 35
+      },
+      {
+        "technique": "Knee Slice from Half",
+        "target_position": "Side Control",
+        "success_rate": 40
+      },
+      {
+        "technique": "Smash Pass",
+        "target_position": "Side Control",
+        "success_rate": 30
+      },
+      {
+        "technique": "Underhook Pass",
+        "target_position": "Side Control",
+        "success_rate": 35
+      },
+      {
+        "technique": "Crossface Pass",
+        "target_position": "Side Control",
+        "success_rate": 40
+      },
+      {
+        "technique": "Leg Extraction",
+        "target_position": "Combat Base",
+        "success_rate": 45
+      }
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Lockdown Extension Counter",
+        "target_position": "Lockdown",
+        "trigger": "Opponent attempts to extract trapped leg by pulling back"
+      },
+      {
+        "technique": "Whip-up to Dogfight",
+        "target_position": "Dogfight Position",
+        "trigger": "Opponent drives forward with crossface pressure"
+      },
+      {
+        "technique": "Electric Chair Setup",
+        "target_position": "Electric Chair",
+        "trigger": "Opponent maintains extended posture while trying to pass"
+      },
+      {
+        "technique": "Underhook Recapture",
+        "target_position": "Lockdown",
+        "trigger": "Opponent strips underhook and attempts to establish crossface"
+      },
+      {
+        "technique": "Rolling to Truck",
+        "target_position": "Truck",
+        "trigger": "Opponent establishes heavy crossface and drives toward pass"
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains high posture with weight back, trying to extract trapped leg",
+        "actions": [
+          {
+            "technique": "Old School Sweep",
+            "target": "Mount",
+            "probability": 70
+          },
+          {
+            "technique": "Electric Chair Submission",
+            "target": "Electric Chair",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drives forward with heavy crossface pressure and low posture",
+        "actions": [
+          {
+            "technique": "Whip-up Sweep",
+            "target": "Dogfight Position",
+            "probability": 65
+          },
+          {
+            "technique": "Rolling to Truck",
+            "target": "Truck",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent establishes underhook and attempts knee slice pass",
+        "actions": [
+          {
+            "technique": "Deep Half Entry",
+            "target": "Deep Half Guard",
+            "probability": 60
+          },
+          {
+            "technique": "Lockdown Extension Counter",
+            "target": "Lockdown",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent maintains neutral posture in half guard without committing",
+        "actions": [
+          {
+            "technique": "Lockdown Sweeps",
+            "target": "Side Control",
+            "probability": 60
+          },
+          {
+            "technique": "Kimura from Half Guard",
+            "target": "Kimura Control",
+            "probability": 55
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Locking lockdown too loosely, allowing opponent to easily extract trapped leg",
+        "consequence": "Opponent escapes half guard and completes pass to side control or mount",
+        "correction": "Cross ankles tightly with top foot hooking deep under opponent's ankle, squeeze knees together to create maximum pressure on trapped leg"
+      },
+      {
+        "error": "Remaining static in lockdown without extending or attacking, allowing opponent to establish dominant grips",
+        "consequence": "Opponent secures crossface and underhook control, nullifying lockdown's offensive potential and setting up pass",
+        "correction": "Constantly move hips, extend lockdown to off-balance opponent, and immediately attack with sweeps when opponent adjusts base"
+      },
+      {
+        "error": "Failing to fight for underhook on trapped-leg side, allowing opponent free underhook",
+        "consequence": "Opponent uses underhook to flatten bottom player, establish crossface, and systematically break down lockdown for pass",
+        "correction": "Prioritize underhook battle, use frames and overhooks when underhook unavailable, never allow opponent free underhook without immediate counter"
+      },
+      {
+        "error": "Extending lockdown without coordinating upper body attack or sweep attempt",
+        "consequence": "Opponent anticipates lockdown extension, times extraction or pass, and escapes without significant difficulty",
+        "correction": "Coordinate lockdown extensions with upper body movements, attack combinations (extend while setting up Old School or whip-up), making extensions purposeful rather than random"
+      },
+      {
+        "error": "Allowing opponent to establish strong crossface without defensive response",
+        "consequence": "Opponent flattens bottom player completely, eliminates lockdown's effectiveness, and completes pass to side control",
+        "correction": "Immediately counter crossface with frames, overhook, or whip-up movement to prevent flattening, maintain ability to turn into opponent"
+      },
+      {
+        "error": "Attempting Electric Chair or Old School without proper setup and angle creation",
+        "consequence": "Opponent defends sweep or submission easily, potentially counters with pass or dominant position",
+        "correction": "Create proper angles with hip movement before committing to attacks, use lockdown extensions to off-balance first, then enter sweeps and submissions with timing"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Lockdown Retention Drill",
+        "description": "Partner attempts to extract trapped leg using various methods (pulling back, driving forward, underhook pressure) while bottom player maintains lockdown integrity and counters extraction attempts. Focus on keeping ankles locked, extending strategically, and preventing leg escape. Duration: 3-5 minutes per round, switching roles.",
+        "duration": "3-5 minutes"
+      },
+      {
+        "name": "Whip-up to Old School Combination Drill",
+        "description": "From established lockdown, bottom player practices transitioning between whip-up and Old School sweep based on opponent's reactions. If opponent bases out against whip-up, switch to Old School. If opponent sits back against Old School, switch to whip-up. Develop timing and recognition of sweep opportunities. Duration: 5 minutes per round.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Lockdown to Electric Chair Progression",
+        "description": "Starting from lockdown with underhook, practice full Electric Chair entry sequence: extend opponent's leg with lockdown, rotate to outside, establish lockdown triangle in Electric Chair configuration, and apply submission pressure. Partner provides progressive resistance. Duration: 5-7 minutes per round.",
+        "duration": "5-7 minutes"
+      },
+      {
+        "name": "Underhook Battle from Lockdown",
+        "description": "Both partners fight for underhook control while bottom player maintains lockdown. Top player attempts to strip underhook and establish crossface, bottom player recovers underhook and prevents flattening. Emphasizes grip fighting and positional maintenance under pressure. Duration: 3-5 minutes per round.",
+        "duration": "3-5 minutes"
+      },
+      {
+        "name": "Positional Sparring: Lockdown vs. Pass",
+        "description": "Bottom player starts in lockdown with underhook, top player attempts to pass. Bottom player scores points for sweeps and submissions, top player scores for passes and dominant positions. Resets after each score. Develop competitive timing and strategy. Duration: 5-10 minute rounds.",
+        "duration": "5-10 minutes"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Electric Chair Direct Path",
+        "path": "Lockdown → Electric Chair → Electric Chair Submission → Won by Submission"
+      },
+      {
+        "name": "Sweep to Back Attack Path",
+        "path": "Lockdown → Old School Sweep → Mount → Back Control → Rear Naked Choke → Won by Submission"
+      },
+      {
+        "name": "Kimura from Half Guard Path",
+        "path": "Lockdown → Kimura from Half Guard → Kimura → Won by Submission"
+      },
+      {
+        "name": "Truck Submission Path",
+        "path": "Lockdown → Truck → Twister → Won by Submission"
+      },
+      {
+        "name": "Sweep to Mount Path",
+        "path": "Lockdown → Whip-up Sweep → Dogfight Position → Back Control → Mount → Armbar from Mount → Won by Submission"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "10th Planet Half Guard Bottom System",
+        "relationship": "Parent system containing lockdown methodology"
+      },
+      {
+        "name": "Lockdown to Electric Chair System",
+        "relationship": "Specialized system for lockdown submissions"
+      },
+      {
+        "name": "Electric Chair",
+        "relationship": "Primary submission position from lockdown"
+      },
+      {
+        "name": "Dogfight Position",
+        "relationship": "Common transition target via whip-up sweep"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Parent position and alternative half guard approach"
+      },
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Related half guard variation and transition option"
+      },
+      {
+        "name": "Truck",
+        "relationship": "Advanced transition target from lockdown"
+      },
+      {
+        "name": "Z-Guard",
+        "relationship": "Alternative half guard structure"
+      },
+      {
+        "name": "Knee Shield Half Guard",
+        "relationship": "Alternative half guard defensive structure"
+      },
+      {
+        "name": "Old School",
+        "relationship": "Primary sweep position from lockdown"
+      },
+      {
+        "name": "Lockdown Sweeps",
+        "relationship": "Collection of sweeps from lockdown position"
+      },
+      {
+        "name": "Hip Movement",
+        "relationship": "Essential principle for lockdown effectiveness"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      },
+      "advancement_probability": {
+        "beginner": 35,
+        "intermediate": 50,
+        "advanced": 65
+      },
+      "submission_probability": {
+        "beginner": 20,
+        "intermediate": 35,
+        "advanced": 55
+      },
+      "average_time": "1-3 minutes depending on activity level and opponent's passing pressure"
     },
-    "submission_probability": {
-      "beginner": 15,
-      "intermediate": 30,
-      "advanced": 45
-    },
-    "average_time": "45-90 seconds before sweep attempt or position change"
+    "expert_insights": {
+      "danaher": "The lockdown represents a fundamental shift in half guard philosophy from purely defensive retention to active offensive control. By creating a mechanical advantage through the triangled leg configuration, the bottom practitioner transforms the opponent's trapped leg into a lever system that can be extended, retracted, and manipulated to generate off-balancing forces. The biomechanical principle at work is simple: when you control an opponent's base through their leg and can extend or compress that leg at will, you create instability that opens opportunities for sweeps and positional advances. The lockdown's effectiveness stems from its ability to simultaneously limit the opponent's mobility while maximizing your own offensive options. However, practitioners must understand that the lockdown is not a static holding position but rather a dynamic control platform that requires constant adjustment, extension timing, and coordination with upper body attacks to be effective at high levels.",
+      "gordon_ryan": "In competition, the lockdown can be an extremely effective tool when used with aggressive intent and proper timing, but it requires complete commitment to the position's offensive nature. I've seen too many competitors use lockdown passively, simply holding and waiting, which allows elite passers to systematically break it down and complete passes. The key to competitive success with lockdown is maintaining constant pressure through extensions, immediately attacking with sweeps when opponents adjust their base, and never allowing them to establish both crossface and underhook control simultaneously. The whip-up and Old School sweeps are high-percentage techniques that work even against world-class opponents if you commit fully and time them with the opponent's weight shifts. The Electric Chair is a legitimate submission threat that forces opponents to defend, opening other opportunities. The lockdown works best when you treat it as a launching pad for attacks rather than a defensive bunker, making it a viable option even at the highest levels of no-gi competition.",
+      "eddie_bravo": "The lockdown is the foundation of the entire 10th Planet half guard system and represents a complete reimagining of what half guard can be. Traditional half guard was always seen as a stalling position or a last resort before getting passed, but the lockdown transforms it into one of the most dynamic and dangerous positions in all of grappling. When you lock down that leg and start extending, you're not just preventing passes—you're actively attacking, creating dilemmas, and forcing your opponent to make difficult choices under pressure. The beauty of the lockdown is how it chains into so many different attacks: the Old School sweep, the whip-up, the Electric Chair, transitions to the truck, and numerous other options. The position rewards creativity and aggression, allowing smaller practitioners to control and sweep much larger opponents through leverage rather than strength. The key is staying active, constantly moving your hips, extending that lockdown to off-balance them, and immediately attacking when they react. The lockdown isn't just a technique—it's a complete game plan that can carry you through entire matches if you commit to mastering its intricacies and developing the timing to execute its attacks under pressure."
+    }
   },
-  "expert_insights": {
-    "danaher": "The lockdown represents a fundamental shift in half guard philosophy from defensive holding to offensive control. The biomechanical advantage created by the figure-four leg lock around the opponent's ankle generates immense torque on their knee joint and restricts their ability to generate power through that leg. This control must be combined with systematic upper body management to prevent the opponent from using shoulder pressure and crossface control to neutralize the lockdown's advantages. The key to effective lockdown usage is understanding that the leg entanglement creates a fulcrum point around which you can generate sweeping leverage - by extending the trapped leg while controlling the upper body, you create mechanical disadvantages that even strong opponents cannot overcome through raw strength alone. The position works because it attacks multiple control points simultaneously: the trapped leg through the lockdown, the upper body through underhooks or overhooks, and the opponent's base through strategic weight displacement.",
-    "gordon_ryan": "In competition, the lockdown is a high-percentage position when executed with the right timing and aggression. The mistake most people make is treating it like a stalling position instead of an active attacking platform. When I use lockdown, I'm immediately threatening old school sweep or electric chair - the opponent knows they're in danger and has to react, which creates openings. The lockdown works particularly well against aggressive passers who try to smash through half guard with shoulder pressure because the leg entanglement prevents them from stepping around or extracting their leg for knee slice passes. Against experienced opponents, you need to combine the lockdown with constant upper body hand fighting to prevent them from establishing dominant grips. The whip-up is crucial because it gives you an escape route when they start to figure out your lockdown attacks. I've won matches by using lockdown to slow down explosive passers and force them into my tempo, then catching sweeps when they get frustrated and make mistakes.",
-    "eddie_bravo": "The lockdown is the foundation of the entire 10th Planet half guard system and it changed the game when we introduced it. Traditional half guard was always seen as this desperate defensive position where you're just trying to survive and maybe recover full guard. We flipped that completely - with the lockdown, you're the one in control, you're attacking, you're creating submissions. The figure-four leg lock immobilizes their leg which kills their base and makes them vulnerable to old school, electric chair, all the attacks. The beauty of the system is that everything connects - if old school doesn't work, you can hit electric chair, if that doesn't work you can whip-up to dogfight or transition to truck. It's a complete system where every position feeds into the next one. People criticize it saying you can get stuck there, but that's only if you're being passive. When you're active with the lockdown, constantly attacking, it's one of the most dominant positions in jiu-jitsu. The key is commitment - you have to be willing to extend that leg hard, create the pressure, and go for the finish. Half-ass lockdown doesn't work, but when you really crank it and combine it with upper body control, it's devastating."
+  "top": {
+    "name": "Lockdown Top",
+    "description": "Master Lockdown Top defense in BJJ. Strategic guide to countering Eddie Bravo's lockdown system. Learn leg extraction, posture maintenance, and passing strategies against lockdown.",
+    "tags": ["bjj", "position", "half-guard-top", "lockdown-defense", "passing", "top-position", "pressure-passing"],
+    "overview": "Lockdown Top represents the defensive perspective against Eddie Bravo's signature lockdown half guard system. From this position, the top practitioner must navigate the challenging task of freeing their trapped leg from the figure-four lock while defending against constant sweep attempts, submission threats, and back take opportunities. The position requires a systematic approach to leg extraction, posture maintenance, and pressure application to neutralize the bottom player's offensive advantages. Success from Lockdown Top depends on understanding the lockdown's mechanical principles and exploiting its weaknesses through proper weight distribution, grip control, and strategic leg extraction sequences. The top player must balance defensive priorities (preventing sweeps and submissions) with offensive passing opportunities, often requiring patient, methodical pressure to break down the lockdown control before completing passes to dominant positions.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive",
+      "risk_level": "Medium to High",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Top practitioner's leg is trapped in opponent's figure-four lockdown configuration, with mobility severely restricted and base compromised to only free leg and upper body posting",
+      "Top practitioner must distribute weight carefully to avoid being swept while working to extract trapped leg, typically maintaining wide base with free leg",
+      "Bottom player actively extends lockdown to off-balance top player, requiring constant posture and base maintenance from top player to prevent sweeps",
+      "Top practitioner fights for dominant upper body control (crossface, underhook, or shoulder pressure) to flatten opponent and neutralize lockdown's offensive potential",
+      "Top player's passing options severely limited until trapped leg is freed from lockdown, requiring systematic approach to leg extraction before traditional passing sequences"
+    ],
+    "prerequisites": [
+      "Top position in half guard with one leg trapped in opponent's lockdown configuration",
+      "Understanding of lockdown mechanics and common attack sequences",
+      "Ability to maintain posture and base while trapped leg is controlled",
+      "Knowledge of leg extraction techniques and timing",
+      "Capacity to establish upper body control to prevent being swept"
+    ],
+    "key_principles": [
+      "Maintain wide base with free leg to prevent being swept by lockdown extensions",
+      "Establish dominant upper body control (crossface or shoulder pressure) to flatten opponent and limit mobility",
+      "Work systematically to extract trapped leg using proper angle changes and pressure application",
+      "Never allow opponent to secure underhook on trapped-leg side without immediate defensive response",
+      "Keep weight distributed to prevent whip-up and Old School sweep attempts",
+      "Time leg extraction attempts when opponent is defensive or adjusting position",
+      "Transition immediately to passing sequences once leg is freed from lockdown"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Half Guard Pass",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Knee Slice from Half",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Smash Pass",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 35,
+          "advanced": 50
+        }
+      },
+      {
+        "technique": "Underhook Pass",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Crossface Pass",
+        "target_position": "Side Control",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Leg Extraction to Combat Base",
+        "target_position": "Combat Base",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 50,
+          "advanced": 65
+        }
+      }
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Old School Sweep",
+        "target_position": "Mount",
+        "success_rate": 55
+      },
+      {
+        "technique": "Electric Chair Submission",
+        "target_position": "Electric Chair",
+        "success_rate": 45
+      },
+      {
+        "technique": "Whip-up Sweep",
+        "target_position": "Dogfight Position",
+        "success_rate": 50
+      },
+      {
+        "technique": "Rolling Back Take",
+        "target_position": "Back Control",
+        "success_rate": 40
+      },
+      {
+        "technique": "Transition to Truck",
+        "target_position": "Truck",
+        "success_rate": 35
+      }
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Crossface Pass",
+        "target_position": "Side Control",
+        "trigger": "Bottom player attempts whip-up without securing strong underhook"
+      },
+      {
+        "technique": "Smash Pass",
+        "target_position": "Side Control",
+        "trigger": "Bottom player loses lockdown tension momentarily during position adjustment"
+      },
+      {
+        "technique": "Leg Extraction",
+        "target_position": "Combat Base",
+        "trigger": "Bottom player focuses on upper body control and reduces lockdown pressure"
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If bottom player has strong underhook and is attempting Old School sweep",
+        "actions": [
+          {
+            "technique": "Crossface Control",
+            "target": "Lockdown",
+            "probability": 60
+          },
+          {
+            "technique": "Post Hand Far Side",
+            "target": "Lockdown",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player extends lockdown aggressively for Electric Chair",
+        "actions": [
+          {
+            "technique": "Drive Forward Pressure",
+            "target": "Lockdown",
+            "probability": 65
+          },
+          {
+            "technique": "Extract Leg with Hip Pressure",
+            "target": "Combat Base",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player is attempting whip-up with upper body control",
+        "actions": [
+          {
+            "technique": "Heavy Shoulder Pressure",
+            "target": "Lockdown",
+            "probability": 60
+          },
+          {
+            "technique": "Smash Pass",
+            "target": "Side Control",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If lockdown pressure is moderate and bottom player adjusting position",
+        "actions": [
+          {
+            "technique": "Leg Extraction Sequence",
+            "target": "Combat Base",
+            "probability": 65
+          },
+          {
+            "technique": "Knee Slice from Half",
+            "target": "Side Control",
+            "probability": 55
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing bottom player to secure strong underhook without fighting for dominant upper body control",
+        "consequence": "Bottom player uses underhook leverage to execute Old School sweep or create angles for Electric Chair",
+        "correction": "Immediately fight for crossface or establish heavy shoulder pressure when bottom player threatens underhook"
+      },
+      {
+        "error": "Sitting back with upright posture while trapped in lockdown",
+        "consequence": "Bottom player easily executes Old School sweep or Electric Chair submission with optimal leverage",
+        "correction": "Drive forward pressure through shoulder and chest to flatten opponent, making sweep and submission attempts more difficult"
+      },
+      {
+        "error": "Attempting to extract trapped leg by pulling straight back against lockdown pressure",
+        "consequence": "Strengthens opponent's lockdown control and opens Electric Chair submission opportunity",
+        "correction": "Use circular motion and angle changes to extract leg, combining hip pressure with strategic weight shifts"
+      },
+      {
+        "error": "Remaining static without working toward leg extraction or pass completion",
+        "consequence": "Bottom player maintains lockdown indefinitely, eventually finding successful sweep or submission opportunity",
+        "correction": "Constantly work toward leg extraction or flatten opponent completely to neutralize attacks before passing"
+      },
+      {
+        "error": "Posting both hands on mat simultaneously when defending sweep attempts",
+        "consequence": "Bottom player transitions to different sweep angles or takes back when defensive structure is predictable",
+        "correction": "Maintain one hand controlling opponent's upper body (head, shoulder, or underhook) while posting with other hand only when necessary"
+      },
+      {
+        "error": "Diving forward aggressively without securing upper body control first",
+        "consequence": "Bottom player uses forward momentum to execute whip-up or rolling back take",
+        "correction": "Establish crossface or shoulder pressure before committing weight forward, control opponent's ability to turn into you"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Lockdown Escape Drill",
+        "description": "Starting trapped in lockdown, practice leg extraction sequences using various methods (circular motion, hip pressure, angle changes). Partner maintains lockdown with moderate resistance. Focus on maintaining posture and base throughout extraction. Duration: 3-5 minutes per round, switching roles.",
+        "duration": "3-5 minutes"
+      },
+      {
+        "name": "Crossface Control Maintenance Drill",
+        "description": "From lockdown top position, establish and maintain crossface control while partner attempts to recover underhook and execute sweeps. Focus on heavy shoulder pressure and preventing bottom player from creating space. Partner provides progressive resistance. Duration: 3-5 minutes per round.",
+        "duration": "3-5 minutes"
+      },
+      {
+        "name": "Pass After Extraction Flow Drill",
+        "description": "Starting in lockdown, extract trapped leg using proper technique, then immediately transition to passing sequence (knee slice, smash, or underhook pass). Reset to lockdown after each sequence. Develop smooth flow from defense to offense. Duration: 5-7 minutes per round.",
+        "duration": "5-7 minutes"
+      },
+      {
+        "name": "Lockdown Defense Positional Sparring",
+        "description": "Top player starts trapped in lockdown, bottom player works for sweeps and submissions while top player defends and works to pass. Top player scores for passes, bottom player scores for sweeps and submissions. Resets after each score. Duration: 5-10 minute rounds.",
+        "duration": "5-10 minutes"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Pass to Mount Attack",
+        "path": "Lockdown → Leg Extraction → Combat Base → Knee Slice Pass → Side Control → Mount → Armbar from Mount → Won by Submission"
+      },
+      {
+        "name": "Crossface to Kimura",
+        "path": "Lockdown → Crossface Control → Kimura from Half Guard → Kimura → Won by Submission"
+      },
+      {
+        "name": "Pass to Back Control",
+        "path": "Lockdown → Underhook Pass → Side Control → Back Control → Rear Naked Choke → Won by Submission"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Half Guard",
+        "relationship": "Parent position - traditional top half guard without lockdown"
+      },
+      {
+        "name": "Combat Base",
+        "relationship": "Position goal after leg extraction from lockdown"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Common passing target after escaping lockdown"
+      },
+      {
+        "name": "Knee Shield Half Guard",
+        "relationship": "Related half guard top position with different challenges"
+      },
+      {
+        "name": "Deep Half Guard",
+        "relationship": "Alternative half guard top situation requiring different defense"
+      },
+      {
+        "name": "Lockdown to Electric Chair System",
+        "relationship": "Systematic approach to countering lockdown attacks"
+      },
+      {
+        "name": "Half Guard Pass",
+        "relationship": "Primary technique goal after neutralizing lockdown"
+      },
+      {
+        "name": "Crossface Pass",
+        "relationship": "Effective passing method against lockdown retention"
+      },
+      {
+        "name": "Smash Pass",
+        "relationship": "Pressure-based passing option from lockdown top"
+      },
+      {
+        "name": "Underhook Control",
+        "relationship": "Key control principle for neutralizing lockdown attacks"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 40,
+        "intermediate": 55,
+        "advanced": 70
+      },
+      "advancement_probability": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 55
+      },
+      "submission_probability": {
+        "beginner": 10,
+        "intermediate": 20,
+        "advanced": 35
+      },
+      "average_time": "2-4 minutes to extract leg and complete pass depending on opponent's lockdown skill"
+    },
+    "expert_insights": {
+      "danaher": "Defending against the lockdown requires understanding the biomechanical disadvantages you face and systematically addressing them before attempting to pass. The lockdown creates asymmetrical control that compromises your base through the trapped leg, making traditional passing pressure ineffective and potentially dangerous. The key defensive principle is establishing upper body dominance through crossface or heavy shoulder pressure to flatten the opponent and limit their ability to extend the lockdown or create sweep angles. Once you've neutralized the bottom player's offensive capabilities through proper weight distribution and control, you can work methodically on leg extraction using circular motion and hip pressure rather than direct pulling against the lockdown's strongest vector. The mistake most practitioners make is attempting to pass before adequately controlling the position, which leads to sweeps and back takes. Patience and systematic pressure are essential—control the upper body first, neutralize offensive threats second, extract the leg third, and only then initiate passing sequences.",
+      "gordon_ryan": "From a competitive standpoint, getting caught in lockdown can be extremely frustrating because it neutralizes many of your normal passing tools and puts you in constant danger of sweeps and submissions. My approach is aggressive upper body control combined with strategic weight distribution to prevent the bottom player from ever establishing their preferred attacking positions. I immediately fight for crossface or establish heavy shoulder pressure to flatten them, then work on extracting my leg using small circular movements rather than trying to pull straight back. The key is recognizing when the lockdown pressure reduces—usually when they're adjusting or trying to secure grips—and using those moments to extract your leg. Against high-level lockdown players, you need to be patient and methodical because rushing leads to sweeps. I've learned that controlling their underhook is absolutely critical; if they get a strong underhook, you're in serious danger of being swept. The lockdown is most dangerous when combined with dynamic movement from the bottom player, so your priority is limiting their mobility through pressure before working on extraction and passing.",
+      "eddie_bravo": "From the top perspective against lockdown, you're in a tough spot because we designed the system to create exactly this problem for passers. The lockdown takes away your base, limits your passing options, and puts you in constant danger of sweeps and submissions. The biggest mistake I see from top players is trying to muscle their way out by pulling straight back on their trapped leg—that just makes the lockdown stronger and opens up the Electric Chair. Smart defense requires understanding that you need to control my upper body first before worrying about extracting your leg. If I get an underhook, you're getting swept with Old School or Electric Chair, so your number one priority is preventing that underhook or fighting it aggressively if I get it. The second key is not sitting back upright, because that's perfect for my attacks—you need to drive forward pressure to flatten me and reduce my hip mobility. Once you've neutralized my offensive threats through proper pressure and control, then you can work on extracting your leg using small movements and taking advantage of moments when I adjust. Even then, a good lockdown player will make you work hard for every inch of progress. The lockdown is designed to test your patience and technical precision, and rushing against it will get you swept every time."
+    }
   }
 }
-Session limit reached ∙ resets 4am
-Session limit reached ∙ resets 4am
-Session limit reached ∙ resets 4am
-Session limit reached ∙ resets 4am

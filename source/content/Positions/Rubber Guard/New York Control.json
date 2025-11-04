@@ -1,3 +1,755 @@
-Session limit reached ∙ resets 4am
-Session limit reached ∙ resets 4am
-Session limit reached ∙ resets 4am
+{
+  "name": "New York Control",
+  "slug": "new-york-control",
+  "description": "Master New York Control in BJJ. Strategic rubber guard position combining high guard retention with omoplata, triangle, and gogoplata attacks. Complete analysis of bottom/top perspectives.",
+  "variant_uniqueness": "Extreme flexibility enables submission access",
+  "overview": "New York Control represents one of the most technically sophisticated positions within the 10th Planet Rubber Guard system, requiring exceptional hip and shoulder flexibility while offering numerous high-percentage submission opportunities. This position emerges when the bottom practitioner achieves a high guard configuration with one leg controlling the opponent's posture while the opposite arm maintains an overhook, creating a controlling web that simultaneously defends against passing attempts while setting up devastating attacks.\n\nThe strategic brilliance of New York Control lies in its ability to nullify the top player's passing mechanics while maintaining constant offensive pressure. By controlling the opponent's posture through the leg position and restricting arm movement with the overhook, the bottom player creates a systematic framework for transitioning between submission attempts. The position serves as a critical junction point in the rubber guard system, functioning as both a defensive retention position and an offensive launching pad for triangle chokes, omoplatas, and the signature gogoplata finish.\n\nFrom the bottom perspective, practitioners must understand that New York Control sacrifices traditional base and posting opportunities in favor of submission proximity and control depth. The extreme flexibility requirements make this position unsuitable for practitioners with limited range of motion, but those who develop the necessary attributes gain access to a submission system that remains largely unfamiliar to competitors trained in traditional Brazilian Jiu-Jitsu methodologies. The position demands constant pressure maintenance through active leg engagement while using the overhook to break down defensive posturing.\n\nTop players facing New York Control encounter a uniquely challenging defensive scenario where traditional passing mechanics become largely ineffective. The combination of leg control and overhook creates a controlling structure that resists standard pressure passing approaches while punishing attempts to establish posture through immediate submission threats. Successfully defending requires understanding the specific mechanical vulnerabilities of the position while maintaining disciplined arm positioning and base distribution to prevent the transition to finishing positions.\n\nThe position's integration within the broader 10th Planet system provides practitioners with clear pathways for advancement when initial submission attempts are defended. The systematic approach to combining New York Control with positions like Mission Control, Invisible Collar, and Zombie creates a web of interconnected options that force opponents into defensive dilemmas where every escape attempt opens alternative attacking pathways. This systematic depth separates New York Control from isolated technique applications, transforming it into a complete positional framework.\n\nCompetition application demonstrates New York Control's effectiveness in both gi and no-gi contexts, though the position achieves particular success in no-gi environments where traditional grips become unavailable to the top player. The flexibility requirements initially limit the position's accessibility, but dedicated practitioners who invest in developing the necessary range of motion gain access to a submission system that consistently produces finishes against opponents unfamiliar with rubber guard defensive protocols. Understanding both the attacking mechanics and defensive requirements proves essential for modern competitors seeking comprehensive guard system mastery.",
+  "key_principles": [
+    "Flexibility determines position accessibility - insufficient range of motion prevents proper execution",
+    "Overhook control restricts defensive posting and creates submission pathways",
+    "Active leg engagement maintains posture control and prevents opponent base recovery",
+    "Position functions as systematic junction point rather than isolated technique",
+    "Submission chains create defensive dilemmas where every escape opens alternative attacks",
+    "Traditional passing mechanics become largely ineffective against proper New York structure",
+    "Competition success requires dedicated flexibility development and systematic training"
+  ],
+  "related_positions": [
+    {
+      "name": "Mission Control",
+      "relationship": "Primary entry position from rubber guard system"
+    },
+    {
+      "name": "Invisible Collar",
+      "relationship": "Alternative rubber guard control position with similar flexibility requirements"
+    },
+    {
+      "name": "Zombie",
+      "relationship": "Advanced rubber guard position combining posture break with submission setup"
+    },
+    {
+      "name": "Chill Dog",
+      "relationship": "Rubber guard variation emphasizing shoulder control"
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "Common finishing position from New York transitions"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "High-percentage attack option from New York structure"
+    },
+    {
+      "name": "Gogoplata Control",
+      "relationship": "Signature submission finish utilizing New York positioning"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Traditional starting position before rubber guard entries"
+    },
+    {
+      "name": "Overhook Guard",
+      "relationship": "Related control position utilizing similar arm control"
+    }
+  ],
+  "bottom": {
+    "name": "New York Control Bottom",
+    "description": "Master offensive New York Control from bottom position. Complete guide covering rubber guard entries, submission chains, and flexibility requirements with expert systematic analysis.",
+    "tags": ["Rubber Guard", "Guard Bottom", "10th Planet", "Submission System", "Flexibility Required", "Advanced Position"],
+    "overview": "New York Control from the bottom position represents the pinnacle of 10th Planet Rubber Guard innovation, combining extreme flexibility requirements with systematic submission opportunities that challenge traditional Brazilian Jiu-Jitsu defensive frameworks. The position emerges when the bottom practitioner achieves high guard control with one leg wrapped over the opponent's shoulder while maintaining an overhook with the opposite arm, creating a controlling web that simultaneously defends against passes while setting up triangle, omoplata, and gogoplata finishes.\n\nThe technical foundation requires exceptional hip and shoulder flexibility, as practitioners must maintain active leg pressure across the opponent's back while keeping the overhook engaged to prevent defensive posting. This dual control mechanism creates a systematic framework where every defensive attempt by the top player opens specific submission pathways. The position functions as a critical junction point within the rubber guard system, allowing transitions to Mission Control, Invisible Collar, and other advanced positions when primary attacks are defended.\n\nOffensive effectiveness stems from the position's ability to nullify standard passing mechanics while maintaining constant submission threats. The leg control prevents the opponent from establishing posture or creating passing angles, while the overhook restricts arm movement necessary for defensive hand fighting. This combination forces top players into uncomfortable positions where traditional base and pressure become liability rather than asset, as driving forward increases submission danger while backing away allows guard retention and position advancement.\n\nDefensive considerations center on understanding that New York Control sacrifices traditional base in favor of submission proximity and control depth. Practitioners must develop comfort with positions that feel precarious to those trained in conventional guard systems, trusting the mechanical advantages created by proper leg and arm positioning. The flexibility requirements make this position unsuitable for practitioners with limited range of motion, emphasizing the importance of dedicated mobility development alongside technical drilling.\n\nStrategic implementation within the 10th Planet system provides clear pathways for position advancement and submission chains. When the opponent defends the initial gogoplata or triangle attempt, systematic transitions to omoplata, back takes, or alternative rubber guard positions ensure constant offensive pressure. This systematic depth prevents the position from becoming a stalling configuration, instead transforming it into an active attacking platform that consistently produces finishing opportunities against opponents unfamiliar with rubber guard defensive protocols.\n\nCompetition application demonstrates particular effectiveness in no-gi contexts where traditional grip-fighting becomes unavailable to the top player. The position's unconventional nature creates psychological pressure as opponents struggle with unfamiliar defensive requirements, often making critical errors while attempting to apply standard passing mechanics. Dedicated practitioners who develop the necessary flexibility and systematic understanding gain access to a submission framework that remains largely unexplored in competitive Brazilian Jiu-Jitsu, providing strategic advantages through technical specialization and positional unfamiliarity.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Medium",
+      "energy_cost": "Medium",
+      "time_sustainability": "Medium"
+    },
+    "state_invariants": [
+      "Bottom practitioner maintains one leg wrapped over opponent's shoulder and across the back, with the foot positioned near or on the opposite shoulder, creating a high guard structure that controls posture and prevents the top player from establishing vertical base or generating forward pressure through traditional passing mechanics",
+      "Bottom practitioner secures overhook control on the same side as the wrapping leg, with the gripping arm threaded under the opponent's armpit and hand clasping either the opponent's shoulder, neck, or own leg, preventing defensive posting and creating the structural foundation for submission attacks while restricting the opponent's ability to create distance",
+      "Bottom practitioner's opposite hand maintains active control of the opponent's free arm or neck, preventing defensive hand fighting and posture recovery while setting up transition pathways to triangle, omoplata, and gogoplata positions through systematic grip manipulation and angle creation"
+    ],
+    "prerequisites": [
+      "Exceptional hip flexibility allowing leg to wrap over shoulder and across back",
+      "Adequate shoulder mobility to maintain overhook while leg controls posture",
+      "Closed guard or high guard position as starting configuration",
+      "Opponent positioned close enough to allow leg wrap without excessive gap",
+      "Understanding of rubber guard system mechanics and submission chains"
+    ],
+    "key_principles": [
+      "Active leg engagement maintains posture control - passive leg allows opponent base recovery",
+      "Overhook depth determines submission accessibility and defensive restriction effectiveness",
+      "Flexibility limitations prevent proper execution - develop mobility before attempting position",
+      "Position functions as systematic junction rather than isolated submission attempt",
+      "Every opponent defense opens alternative submission pathway through systematic chains",
+      "Constant pressure maintenance prevents opponent from establishing defensive structure",
+      "Competition success requires dedicated drilling of submission chains and transitions"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Gogoplata",
+        "target_position": "Gogoplata Control",
+        "success_rates": {
+          "beginner": 15,
+          "intermediate": 30,
+          "advanced": 50
+        }
+      },
+      {
+        "technique": "Triangle Setup",
+        "target_position": "Triangle Control",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 55,
+          "advanced": 70
+        }
+      },
+      {
+        "technique": "Omoplata Sweep",
+        "target_position": "Omoplata Control",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 50,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Triangle to Omoplata",
+        "target_position": "Omoplata Control",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Omoplata to Back",
+        "target_position": "Back Control",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Triangle to Back",
+        "target_position": "Back Control",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Transition to Mission Control",
+        "target_position": "Mission Control",
+        "success_rates": {
+          "beginner": 40,
+          "intermediate": 60,
+          "advanced": 75
+        }
+      },
+      {
+        "technique": "Transition to Invisible Collar",
+        "target_position": "Invisible Collar",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 55,
+          "advanced": 70
+        }
+      },
+      {
+        "technique": "Transition to Zombie",
+        "target_position": "Zombie",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 50,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Armbar from Guard",
+        "target_position": "Armbar Control",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 35,
+          "advanced": 50
+        }
+      },
+      {
+        "technique": "Kimura from Guard",
+        "target_position": "Kimura Control",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Hip Bump Sweep",
+        "target_position": "Mount",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      }
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Posture Recovery",
+        "target_position": "Closed Guard",
+        "success_rate": 35
+      },
+      {
+        "technique": "Overhook Escape",
+        "target_position": "Open Guard",
+        "success_rate": 40
+      },
+      {
+        "technique": "Base Widening",
+        "target_position": "Combat Base",
+        "success_rate": 30
+      },
+      {
+        "technique": "Stack Pass",
+        "target_position": "Headquarters Position",
+        "success_rate": 25
+      },
+      {
+        "technique": "Leg Extraction",
+        "target_position": "Half Guard",
+        "success_rate": 35
+      }
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Triangle to Omoplata",
+        "target_position": "Omoplata Control",
+        "trigger": "Opponent defends triangle by tucking chin and pulling posture"
+      },
+      {
+        "technique": "Omoplata to Back",
+        "target_position": "Back Control",
+        "trigger": "Opponent rolls forward to escape omoplata pressure"
+      },
+      {
+        "technique": "Triangle to Back",
+        "target_position": "Back Control",
+        "trigger": "Opponent attempts to stack or pass during triangle defense"
+      },
+      {
+        "technique": "Switch to Gogoplata",
+        "target_position": "Gogoplata Control",
+        "trigger": "Opponent creates space while defending triangle attempt"
+      },
+      {
+        "technique": "Hip Bump Sweep",
+        "target_position": "Mount",
+        "trigger": "Opponent posts hand on mat to prevent triangle lock"
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains strong defensive posture with chin tucked and elbows tight to body",
+        "actions": [
+          {
+            "technique": "Triangle Setup",
+            "target": "Triangle Control",
+            "probability": 60
+          },
+          {
+            "technique": "Gogoplata",
+            "target": "Gogoplata Control",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to create distance by pulling back and widening base",
+        "actions": [
+          {
+            "technique": "Omoplata Sweep",
+            "target": "Omoplata Control",
+            "probability": 65
+          },
+          {
+            "technique": "Hip Bump Sweep",
+            "target": "Mount",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent drives forward with pressure attempting to stack or pass",
+        "actions": [
+          {
+            "technique": "Triangle to Back",
+            "target": "Back Control",
+            "probability": 60
+          },
+          {
+            "technique": "Omoplata to Back",
+            "target": "Back Control",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent successfully escapes overhook but leg control remains intact",
+        "actions": [
+          {
+            "technique": "Transition to Mission Control",
+            "target": "Mission Control",
+            "probability": 70
+          },
+          {
+            "technique": "Transition to Invisible Collar",
+            "target": "Invisible Collar",
+            "probability": 65
+          }
+        ]
+      },
+      {
+        "condition": "If opponent begins extracting leg from shoulder control",
+        "actions": [
+          {
+            "technique": "Transition to Zombie",
+            "target": "Zombie",
+            "probability": 60
+          },
+          {
+            "technique": "Armbar from Guard",
+            "target": "Armbar Control",
+            "probability": 50
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Maintaining passive leg pressure across opponent's back without active engagement",
+        "consequence": "Allows opponent to recover posture and establish base for passing attempts",
+        "correction": "Constantly pull leg across back while driving knee toward opponent's far shoulder, maintaining active pressure that prevents vertical posture recovery"
+      },
+      {
+        "error": "Shallow overhook position with arm not fully threaded under opponent's armpit",
+        "consequence": "Opponent easily escapes overhook control through posting or arm extraction",
+        "correction": "Drive arm deep under opponent's armpit until hand can clasp shoulder, neck, or own leg, creating structural depth that resists defensive posting attempts"
+      },
+      {
+        "error": "Attempting position without sufficient hip flexibility development",
+        "consequence": "Cannot achieve proper leg wrap position, creating ineffective control structure",
+        "correction": "Dedicate training time to flexibility development through yoga, stretching routines, and progressive range of motion exercises before implementing position in sparring"
+      },
+      {
+        "error": "Releasing free hand control to adjust grips or attempt submissions prematurely",
+        "consequence": "Opponent immediately establishes defensive hand fighting and posture recovery",
+        "correction": "Maintain constant control of opponent's free arm or neck throughout position, only releasing to complete submission when finishing mechanics are fully established"
+      },
+      {
+        "error": "Failing to transition when opponent successfully defends initial submission attempt",
+        "consequence": "Position becomes static stalling configuration without offensive pressure",
+        "correction": "Implement systematic submission chains where defense of one attack immediately opens transition to alternative finish or position advancement"
+      },
+      {
+        "error": "Attempting to hold position indefinitely rather than using as transition point",
+        "consequence": "Opponent gradually escapes through sustained pressure without facing continued submission threats",
+        "correction": "Recognize New York Control as junction position within broader rubber guard system, constantly transitioning between submission attempts and related positions"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "New York Entry Flow Drill",
+        "description": "From closed guard, practice smooth entry to New York Control through Mission Control, focusing on leg wrap mechanics and overhook establishment. Partner provides light resistance to develop proper sequencing.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Submission Chain Drilling",
+        "description": "From established New York Control, cycle through gogoplata, triangle, and omoplata setups with partner defending each attempt. Develop smooth transitions between submission opportunities when initial attacks are blocked.",
+        "duration": "6 minutes"
+      },
+      {
+        "name": "Positional Sparring from New York",
+        "description": "Begin in New York Control with bottom player working to finish or advance position while top player attempts to escape or pass. Reset to New York whenever position is lost or submission achieved.",
+        "duration": "4 minutes"
+      },
+      {
+        "name": "Flexibility Development Circuit",
+        "description": "Dedicated stretching routine focusing on hip external rotation, hamstring flexibility, and shoulder mobility necessary for proper New York Control execution. Includes pigeon pose, butterfly stretch, and shoulder openers.",
+        "duration": "10 minutes"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Direct Gogoplata Path",
+        "path": "New York Control Bottom → Gogoplata Control → Gogoplata"
+      },
+      {
+        "name": "Triangle Chain Path",
+        "path": "New York Control Bottom → Triangle Control → Triangle Choke Front"
+      },
+      {
+        "name": "Triangle to Back Path",
+        "path": "New York Control Bottom → Triangle Control → Triangle to Back → Back Control"
+      },
+      {
+        "name": "Omoplata Sweep Path",
+        "path": "New York Control Bottom → Omoplata Control → Omoplata to Back → Back Control"
+      },
+      {
+        "name": "Triangle to Omoplata Path",
+        "path": "New York Control Bottom → Triangle Control → Triangle to Omoplata → Omoplata Control → Omoplata"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "10th Planet Rubber Guard System",
+        "relationship": "Primary systematic framework containing New York Control"
+      },
+      {
+        "name": "Rubber Guard to Triangle System",
+        "relationship": "Systematic approach to triangle finishes from rubber guard positions"
+      },
+      {
+        "name": "Rubber Guard to Omoplata System",
+        "relationship": "Systematic approach to omoplata attacks from rubber guard structure"
+      },
+      {
+        "name": "Mission Control",
+        "relationship": "Primary entry position and alternative control configuration"
+      },
+      {
+        "name": "Guard Retention",
+        "relationship": "Fundamental principle underlying New York defensive mechanics"
+      },
+      {
+        "name": "Offensive Combinations",
+        "relationship": "Principle governing submission chain construction from New York"
+      },
+      {
+        "name": "Flexibility Training",
+        "relationship": "Essential physical preparation for New York Control execution"
+      },
+      {
+        "name": "Gogoplata",
+        "relationship": "Signature submission finish from New York position"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      },
+      "advancement_probability": {
+        "beginner": 40,
+        "intermediate": 60,
+        "advanced": 75
+      },
+      "submission_probability": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 65
+      },
+      "average_time": "45-90 seconds before transition or submission attempt"
+    },
+    "expert_insights": {
+      "danaher": "New York Control represents a fascinating study in the trade-offs between traditional base maintenance and submission proximity within guard systems. The position sacrifices conventional posting opportunities and defensive frames in favor of what I term 'offensive depth'—the ability to place the opponent in immediate submission danger through structural control rather than spatial management. The biomechanical efficiency stems from the dual control mechanism where the leg restricts vertical posture while the overhook prevents lateral posting, creating a control web that nullifies traditional passing mechanics. The systematic brilliance lies in understanding New York not as isolated technique but as junction point within submission chains where every defensive option opens alternative finishing pathways. Practitioners must develop exceptional flexibility alongside technical understanding, as insufficient range of motion prevents the structural depth necessary for effective implementation.",
+      "gordon_ryan": "New York Control proved particularly effective in my competition experience against opponents unfamiliar with rubber guard defensive requirements. The position creates immediate psychological pressure as traditional base and posture become liabilities rather than assets—driving forward increases submission danger while backing away allows position advancement. I found the triangle and omoplata chains most reliable in high-level competition, as these submissions maintain effectiveness even when opponents understand the basic defensive requirements. The key competitive advantage comes from forcing opponents into unfamiliar defensive scenarios where their trained responses become counterproductive. However, the flexibility requirements mean this position suits specific body types and training backgrounds—practitioners without dedicated mobility work will struggle to achieve the structural depth necessary for high-percentage finishing. I recommend developing the position as systematic specialization rather than attempting to force implementation without proper physical preparation.",
+      "eddie_bravo": "New York Control exemplifies the core philosophy behind 10th Planet innovations—challenging traditional Brazilian Jiu-Jitsu assumptions about what constitutes effective guard structure. I developed this position recognizing that exceptional flexibility could be weaponized into offensive advantage rather than viewed as mere supplementary attribute. The beauty lies in creating submission systems that remain largely unexplored in competitive contexts, giving dedicated practitioners strategic advantages through technical specialization. The gogoplata finish represents the signature attack, but the real power comes from understanding the systematic chains connecting New York to Mission Control, Invisible Collar, and Zombie positions. Too many practitioners attempt the position without adequate flexibility development or systematic understanding—this is critical mistake. Dedicate months to mobility work and drilling submission chains before attempting implementation in live sparring. The position rewards patience and systematic training with access to finishing mechanics that consistently surprise even experienced black belts unfamiliar with rubber guard systems."
+    }
+  },
+  "top": {
+    "name": "New York Control Top",
+    "description": "Master defensive strategies against New York Control from top position. Complete guide covering escape mechanics, posture recovery, and passing opportunities with expert analysis.",
+    "tags": ["Rubber Guard Defense", "Guard Top", "Escape Techniques", "Passing", "Defensive Position", "Advanced Defense"],
+    "overview": "Defending New York Control from the top position presents unique challenges that differentiate it from traditional guard passing scenarios. The combination of leg control across the back and overhook restriction creates a controlling structure where conventional base, pressure, and posture mechanics become largely ineffective or actively dangerous. Top players must understand that standard passing approaches not only fail against proper New York structure but often increase submission danger through improper pressure application or positioning adjustments.\n\nThe defensive foundation requires recognizing the mechanical vulnerabilities within the New York configuration while maintaining disciplined arm positioning and base distribution. Unlike traditional guard passing where forward pressure and posture establishment represent primary objectives, defending New York Control demands cautious distance management and systematic escape protocols. The top player must resist instinctive responses to drive forward or establish vertical posture, as these movements play directly into the bottom player's submission chains.\n\nStrategic escape sequencing prioritizes overhook extraction before addressing the leg control, as the arm restriction prevents effective defensive hand fighting and posture recovery. Top players who attempt to remove the leg control while the overhook remains engaged typically find themselves transitioning between submission threats without achieving meaningful escape progress. The systematic approach involves creating specific angles and pressure directions that compromise the overhook depth, allowing arm extraction that fundamentally alters the defensive equation.\n\nPosture recovery mechanics differ substantially from traditional guard contexts, as the leg control prevents standard vertical base establishment. Instead, top players must utilize lateral movement and circular base distribution to reduce the effectiveness of the leg pressure while maintaining defensive arm positioning. This requires comfort with positions that feel unstable or incomplete from conventional passing perspectives, trusting that systematic escape protocols prevent submission danger more effectively than instinctive base-building responses.\n\nPassing opportunities emerge only after successful overhook escape and posture recovery, as attempting to advance position while fundamental controls remain active typically results in back takes or submission finishes. The top player must exercise patience throughout the escape sequence, recognizing that systematic defensive protocols produce higher success rates than aggressive passing attempts. This mental framework challenges competitors trained in pressure-passing systems where forward aggression typically creates advantages.\n\nCompetition preparation requires specific drilling of New York defensive protocols, as the position appears infrequently enough that many competitors lack adequate live experience with proper escape mechanics. Top players who invest in systematic rubber guard defense gain substantial competitive advantages through technical preparation, as most practitioners rely on instinctive responses that prove ineffective against proper New York implementation. Understanding both the attacking mechanics and defensive requirements provides the most comprehensive preparation for encountering this position in competitive contexts.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive",
+      "risk_level": "High",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short"
+    },
+    "state_invariants": [
+      "Top practitioner must prevent bottom player from achieving triangle lock by maintaining defensive arm positioning with elbows tight to body and hands protecting neck, avoiding arm extension or posting that allows leg positioning around neck and arm for triangle configuration",
+      "Top practitioner maintains low base with hips close to mat and weight distributed to prevent being swept, while simultaneously avoiding forward pressure that increases omoplata and gogoplata danger by driving opponent's leg deeper across back and shoulder",
+      "Top practitioner protects trapped arm from overhook by keeping elbow connection to ribs and preventing bottom player from establishing deep control that allows shoulder manipulation, back exposure, or submission setups requiring arm isolation and extension"
+    ],
+    "prerequisites": [
+      "Understanding that forward pressure increases submission danger in New York Control",
+      "Recognition that standard passing mechanics fail against proper rubber guard structure",
+      "Disciplined arm positioning to prevent triangle, omoplata, and gogoplata setups",
+      "Patience to execute systematic escape protocols rather than aggressive passing attempts",
+      "Familiarity with rubber guard submission chains and defensive requirements"
+    ],
+    "key_principles": [
+      "Overhook escape must occur before leg extraction attempts - reversed priority leads to submission",
+      "Forward pressure plays into bottom player's submission chains - lateral movement provides safer escape",
+      "Standard posture recovery mechanics fail - circular base distribution reduces leg control effectiveness",
+      "Patience throughout escape sequence produces higher success than aggressive passing attempts",
+      "Defensive arm positioning prevents triangle setup - extended arms create immediate danger",
+      "Systematic escape protocols require dedicated drilling - instinctive responses typically fail",
+      "Competition preparation demands specific rubber guard defense training - position appears infrequently"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Overhook Escape",
+        "target_position": "Open Guard",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Posture Recovery",
+        "target_position": "Closed Guard",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Base Widening",
+        "target_position": "Combat Base",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 50,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Stack Pass",
+        "target_position": "Headquarters Position",
+        "success_rates": {
+          "beginner": 15,
+          "intermediate": 30,
+          "advanced": 45
+        }
+      },
+      {
+        "technique": "Leg Extraction",
+        "target_position": "Half Guard",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Standing up",
+        "target_position": "Standing Position",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 35,
+          "advanced": 50
+        }
+      }
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Gogoplata",
+        "target_position": "Gogoplata Control",
+        "success_rate": 40
+      },
+      {
+        "technique": "Triangle Setup",
+        "target_position": "Triangle Control",
+        "success_rate": 50
+      },
+      {
+        "technique": "Omoplata Sweep",
+        "target_position": "Omoplata Control",
+        "success_rate": 45
+      },
+      {
+        "technique": "Triangle to Back",
+        "target_position": "Back Control",
+        "success_rate": 35
+      },
+      {
+        "technique": "Omoplata to Back",
+        "target_position": "Back Control",
+        "success_rate": 35
+      },
+      {
+        "technique": "Hip Bump Sweep",
+        "target_position": "Mount",
+        "success_rate": 40
+      }
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Posture Recovery",
+        "target_position": "Closed Guard",
+        "trigger": "Bottom player loses overhook control temporarily during grip adjustment"
+      },
+      {
+        "technique": "Base Widening",
+        "target_position": "Combat Base",
+        "trigger": "Bottom player attempts to transition to different rubber guard position"
+      },
+      {
+        "technique": "Stack Pass",
+        "target_position": "Headquarters Position",
+        "trigger": "Bottom player extends legs attempting gogoplata or triangle setup"
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If overhook control remains deep and leg pressure maintains posture restriction",
+        "actions": [
+          {
+            "technique": "Overhook Escape",
+            "target": "Open Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Base Widening",
+            "target": "Combat Base",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If overhook is successfully extracted but leg control persists",
+        "actions": [
+          {
+            "technique": "Posture Recovery",
+            "target": "Closed Guard",
+            "probability": 60
+          },
+          {
+            "technique": "Leg Extraction",
+            "target": "Half Guard",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If bottom player begins triangle or gogoplata setup with leg positioning",
+        "actions": [
+          {
+            "technique": "Stack Pass",
+            "target": "Headquarters Position",
+            "probability": 40
+          },
+          {
+            "technique": "Standing up",
+            "target": "Standing Position",
+            "probability": 45
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Driving forward with pressure attempting to establish dominant position",
+        "consequence": "Increases triangle, omoplata, and gogoplata danger by feeding into bottom player's submission chains",
+        "correction": "Maintain lateral base distribution and avoid forward pressure until overhook is extracted and leg control is compromised"
+      },
+      {
+        "error": "Attempting to remove leg control before escaping overhook restriction",
+        "consequence": "Bottom player transitions between submission threats while overhook prevents effective defensive hand fighting",
+        "correction": "Prioritize overhook escape through angle creation and pressure direction that compromises arm depth, only addressing leg control after arm is freed"
+      },
+      {
+        "error": "Extending arms to post or create distance from bottom player",
+        "consequence": "Arm extension provides bottom player with triangle setup opportunities and increased submission access",
+        "correction": "Keep elbows tight to body with hands protecting neck throughout escape sequence, avoiding posting or arm extension"
+      },
+      {
+        "error": "Attempting standard vertical posture recovery while leg control persists",
+        "consequence": "Leg pressure prevents effective posture establishment while creating submission opportunities",
+        "correction": "Utilize circular base distribution and lateral movement to reduce leg control effectiveness before attempting vertical posture"
+      },
+      {
+        "error": "Aggressive passing attempts while fundamental controls remain active",
+        "consequence": "Bottom player achieves back take or submission finish during passing transition",
+        "correction": "Exercise patience throughout systematic escape protocols, only attempting advancement after overhook escape and posture recovery"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Overhook Escape Repetition",
+        "description": "From established New York Control, practice systematic overhook extraction using angle creation and pressure direction. Partner maintains moderate resistance while allowing successful escape for technical development.",
+        "duration": "5 minutes"
+      },
+      {
+        "name": "Defensive Arm Positioning Drill",
+        "description": "Partner attempts to set up triangle from New York Control while top player maintains defensive arm positioning with elbows tight and hands protecting neck. Focus on preventing arm extension and posting instincts.",
+        "duration": "4 minutes"
+      },
+      {
+        "name": "Positional Sparring Defense",
+        "description": "Begin in New York Control with top player working to escape or pass while bottom player attempts to finish or advance position. Reset to New York whenever escape is achieved or submission occurs.",
+        "duration": "4 minutes"
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Standard Escape Path",
+        "path": "New York Control Top → Overhook Escape → Open Guard → Posture Recovery → Closed Guard"
+      },
+      {
+        "name": "Base Recovery Path",
+        "path": "New York Control Top → Base Widening → Combat Base → Guard Pass"
+      },
+      {
+        "name": "Emergency Standing Path",
+        "path": "New York Control Top → Standing up → Standing Position → Guard Pass"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Rubber Guard to Triangle System",
+        "relationship": "Broader defensive framework against 10th Planet positions"
+      },
+      {
+        "name": "Triangle Defense",
+        "relationship": "Specific defensive mechanics against primary New York submission"
+      },
+      {
+        "name": "Omoplata Defense",
+        "relationship": "Defensive protocols against common New York attack"
+      },
+      {
+        "name": "Mission Control",
+        "relationship": "Related rubber guard position requiring similar defensive approach"
+      },
+      {
+        "name": "Guard Passing Principles",
+        "relationship": "Fundamental concepts adapted for rubber guard contexts"
+      },
+      {
+        "name": "Defensive Strategy",
+        "relationship": "Mental framework for systematic escape protocols"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 30,
+        "intermediate": 50,
+        "advanced": 65
+      },
+      "advancement_probability": {
+        "beginner": 25,
+        "intermediate": 45,
+        "advanced": 60
+      },
+      "submission_probability": {
+        "beginner": 15,
+        "intermediate": 25,
+        "advanced": 35
+      },
+      "average_time": "60-120 seconds to achieve escape or fall to submission"
+    },
+    "expert_insights": {
+      "danaher": "Defending New York Control requires fundamental reconceptualization of guard passing priorities and mechanical sequencing. The position creates what I term 'inverted defensive requirements' where traditional base-building and posture-establishment responses actively increase submission danger rather than creating escape opportunities. The systematic defensive approach prioritizes overhook extraction before leg control removal because the arm restriction prevents effective hand fighting that would otherwise neutralize submission threats. Top players must develop comfort with positions that feel unstable from conventional passing perspectives, trusting that systematic escape protocols prevent submission more effectively than instinctive base-building. The biomechanical challenge stems from the dual control mechanism where the leg restricts vertical posture while the overhook prevents lateral posting—this combination nullifies traditional passing mechanics and demands specialized defensive training. Competition preparation requires dedicated drilling of rubber guard defensive protocols, as the position appears infrequently enough that instinctive responses dominate actual execution without specific technical preparation.",
+      "gordon_ryan": "New York Control defense proved critical in my competition preparation against opponents with 10th Planet backgrounds. The position creates immediate submission danger that punishes standard passing responses—driving forward feeds triangles and omoplatas while attempting vertical posture allows deeper leg control. I found the most reliable escape sequence involves patient overhook extraction through lateral movement and angle creation, only addressing leg control after arm freedom is established. The mental challenge comes from resisting aggressive passing instincts that work effectively against traditional guards but become liabilities against rubber guard structure. Competitors without specific New York defensive experience typically make critical errors during initial encounters, as their trained responses prove counterproductive. I recommend dedicating training time to systematic rubber guard defense regardless of how infrequently you encounter these positions in competition—the technical preparation provides insurance against opponents who specialize in 10th Planet systems. The key competitive advantage comes from recognizing defensive requirements early and implementing systematic escape protocols rather than attempting to force standard passing mechanics.",
+      "eddie_bravo": "Watching competitors struggle with New York Control defense validates the position's effectiveness as systematic specialization. Most practitioners attempt standard passing responses that play directly into submission chains—they drive forward increasing omoplata danger, extend arms creating triangle setups, or attempt vertical posture that feeds leg control depth. The defensive solution requires patience and systematic approach that feels counterintuitive to pressure-passing specialists. Top players must prioritize overhook escape before leg removal, utilize lateral movement instead of forward pressure, and maintain defensive arm positioning throughout the sequence. The position rewards bottom players who develop exceptional flexibility alongside systematic understanding, while punishing top players who rely on instinctive responses without specific rubber guard defensive preparation. I encourage all practitioners to train both sides of New York Control—understanding the attacking mechanics provides insight into defensive requirements, while systematic defensive drilling prevents critical errors during competitive encounters. The position represents exactly what 10th Planet innovations aim to achieve—creating technical specializations that provide strategic advantages through unfamiliarity and systematic depth."
+    }
+  }
+}

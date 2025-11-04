@@ -1,23 +1,21 @@
 {
-  "metadata": {
-    "title": "Deep Half Entry | BJJ Technique | BJJ Graph",
-    "description": "Learn Deep Half Entry in BJJ. Step-by-step execution from Half Guard Bottom to Deep Half Guard. Success: Beginner 35%, Intermediate 55%, Advanced 70%.",
-    "transition_id": "T256",
-    "tags": [
-      "bjj",
-      "transition",
-      "half-guard",
-      "deep-half",
-      "sweep",
-      "guard-retention"
-    ],
-    "starting_position": "Half Guard Bottom",
-    "ending_position": "Deep Half Guard",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 70
-    }
+  "name": "Deep Half Entry",
+  "description": "Learn Deep Half Entry in BJJ. Step-by-step execution from Half Guard to Deep Half Guard. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "half-guard",
+    "deep-half",
+    "sweep",
+    "guard-retention",
+    "bottom-game"
+  ],
+  "starting_position": "Half Guard",
+  "ending_position": "Deep Half Guard",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 55,
+    "advanced": 70
   },
   "overview": "The Deep Half Entry is a fundamental transition from traditional half guard to the deep half guard position, representing a critical defensive recovery and offensive repositioning technique. This entry allows the bottom player to create powerful sweeping opportunities while simultaneously removing themselves from immediate passing danger. Deep half guard has become increasingly prevalent in modern competition BJJ, particularly at the highest levels, as it provides a systematic framework for dealing with pressure-based passing attempts. The position works by getting underneath your opponent's center of gravity, using their weight against them to create mechanical advantage for sweeps and back takes. The entry itself requires precise timing, proper hip mobility, and an understanding of how to manage space and frames during the transition. When executed correctly, the deep half entry transforms a potentially defensive situation into an offensive opportunity, allowing the practitioner to attack with various sweep options including the waiter sweep, Homer Simpson sweep, and electric chair variations.",
   "key_principles": [
@@ -220,7 +218,7 @@
   "position_integration": "The deep half entry represents a critical junction in the half guard bottom game, connecting defensive half guard retention with offensive sweeping systems. Within the broader BJJ positional hierarchy, deep half serves as both an escape mechanism from passing pressure and a powerful offensive platform. The entry fits into multiple strategic frameworks: it can be used as a primary attacking system for players who build their game around deep half sweeps and back takes, or as a secondary option for those who primarily use other half guard variations (knee shield, lockdown, underhook) but need a bailout when those positions are compromised. The position integrates seamlessly with the guard recovery system - if your deep half sweep attempts are defended, you can use the position's mobility to reguard to butterfly, single leg X, or standard half guard. Conversely, deep half represents an excellent recovery option when you've lost other guard positions and need to get underneath your opponent's pressure. Modern competition strategy often employs deep half as part of a layered guard system where players flow between multiple half guard variations based on opponent reactions, with deep half serving as the deepest defensive layer before full guard recovery becomes necessary. The position also connects to leg entanglement systems, as the controls and body positioning share similarities with outside ashi garami and other leg attack positions.",
   "related_content": [
     {
-      "name": "Half Guard Bottom",
+      "name": "Half Guard",
       "relationship": "Starting position for entry"
     },
     {
@@ -228,15 +226,15 @@
       "relationship": "Resulting position after successful entry"
     },
     {
-      "name": "100% Sweep",
-      "relationship": "Primary sweep option from deep half (also known as waiter sweep)"
+      "name": "Waiter Sweep",
+      "relationship": "Primary sweep option from deep half"
     },
     {
       "name": "Old School Sweep",
       "relationship": "Alternative sweep when deep half entry is countered"
     },
     {
-      "name": "Lockdown Half Guard Bottom",
+      "name": "Lockdown",
       "relationship": "Alternative entry path and recovery option"
     },
     {
@@ -256,7 +254,7 @@
       "relationship": "Related position with similar underhook and leg control concepts"
     },
     {
-      "name": "Single Leg X Guard",
+      "name": "Single Leg X-Guard",
       "relationship": "Follow-up position option after waiter sweep"
     },
     {
@@ -266,6 +264,14 @@
     {
       "name": "Guard Recovery",
       "relationship": "Overall defensive system that deep half entry supports"
+    },
+    {
+      "name": "Underhook Sweep from Half",
+      "relationship": "Related half guard sweep option"
+    },
+    {
+      "name": "Reverse Half Guard",
+      "relationship": "Alternative half guard variation with different entry angles"
     }
   ],
   "expert_insights": {

@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Space Creation | BJJ Concept | BJJ Graph",
     "description": "Understand Space Creation in BJJ. Learn distance generation, frame mechanics, hip escape principles, and cross-position defensive applications.",
-    "concept_id": "C156",
+    "principle_id": "P156",
     "tags": ["bjj", "concept", "space creation", "defense", "frames", "escapes", "fundamentals"],
     "application_level": "Fundamental",
     "complexity_level": "Medium",
@@ -54,34 +54,34 @@
       "description": "The technique of systematically removing the opponent's grips, hooks, and body connections that maintain compression. This involves hand fighting, leg pumping, hip twisting, and other movements designed to strip away the mechanical advantages that allow the opponent to maintain pressure. Connection breaking must often occur before or simultaneously with space creation attempts."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Frame Creation",
+      "principle_name": "Frame Creation",
       "relationship_type": "Complementary",
       "description": "Frame Creation provides the structural component necessary for Space Creation to succeed. Frames create the initial separation point from which hips can escape, and Space Creation generates the distance that makes frames more effective."
     },
     {
-      "concept_name": "Hip Escape Mechanics",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Complementary",
       "description": "Hip Escape Mechanics is the primary engine for Space Creation in most positions. The coordinated movement of shoulders framing and hips escaping represents the fundamental execution of the Space Creation concept."
     },
     {
-      "concept_name": "Escape Hierarchy",
+      "principle_name": "Escape Hierarchy",
       "relationship_type": "Extension",
       "description": "Space Creation is the first step in the Escape Hierarchy, representing the initial phase of any positional escape. Without successful space creation, progression through the escape hierarchy cannot occur."
     },
     {
-      "concept_name": "Pressure Reduction",
+      "principle_name": "Pressure Reduction",
       "relationship_type": "Prerequisite",
       "description": "Pressure Reduction techniques often must be employed before Space Creation can occur. Reducing the opponent's pressure through timing, weight distribution exploitation, or connection breaking creates the opportunity for space generation."
     },
     {
-      "concept_name": "Guard Retention Concepts",
+      "principle_name": "Guard Retention Concepts",
       "relationship_type": "Extension",
       "description": "Space Creation enables Guard Retention by generating the distance necessary to insert knees, establish frames, and recompose defensive structure. Guard retention is the natural progression after successful space creation."
     },
     {
-      "concept_name": "Defensive Strategy",
+      "principle_name": "Defensive Strategy",
       "relationship_type": "Complementary",
       "description": "Space Creation is a core component of overall Defensive Strategy. It represents the proactive approach to defense—generating opportunities for escape rather than simply enduring pressure and waiting for opponent mistakes."
     }

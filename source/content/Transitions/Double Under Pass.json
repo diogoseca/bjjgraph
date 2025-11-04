@@ -1,16 +1,13 @@
 {
-  "metadata": {
-    "title": "Double Under Pass | BJJ Technique | BJJ Graph",
-    "description": "Master the Double Under Pass in BJJ. Control-based guard pass using bilateral underhooks. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%. Step-by-step execution guide.",
-    "transition_id": "T056",
-    "tags": ["bjj", "technique", "guard-pass", "pressure-passing", "top-game", "fundamentals"],
-    "starting_position": "Open Guard Top",
-    "ending_position": "Side Control Top",
-    "success_rates": {
-      "beginner": 45,
-      "intermediate": 60,
-      "advanced": 75
-    }
+  "name": "Double Under Pass",
+  "description": "Master the Double Under Pass in BJJ. Control-based guard pass using bilateral underhooks. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%. Step-by-step execution guide.",
+  "tags": ["bjj", "technique", "guard-pass", "pressure-passing", "top-game", "fundamentals"],
+  "starting_position": "Open Guard",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 45,
+    "intermediate": 60,
+    "advanced": 75
   },
   "overview": "The Double Under Pass is a fundamental pressure-based guard passing technique that relies on establishing bilateral underhooks beneath the opponent's legs. This pass is characterized by its heavy control orientation, making it extremely difficult for the opponent to retain guard once proper positioning is achieved. The technique involves methodically breaking down the opponent's defensive frames, consolidating position with chest-to-chest pressure, and using controlled lateral movement to clear the legs and establish side control.\n\nHistorically favored by top-position specialists and pressure passers, the Double Under Pass represents a cornerstone technique in the modern guard passing hierarchy. Unlike dynamic, explosive passing techniques, this pass emphasizes sustained pressure, weight distribution, and positional dominance. The bilateral underhook configuration neutralizes many of the opponent's defensive options, particularly hip movement and leg frame creation, forcing them into a defensive shell where their offensive options are severely limited.\n\nThe Double Under Pass is particularly effective in gi grappling where grips can be used to enhance control, though it remains highly viable in no-gi competition. Advanced practitioners use this pass as part of a comprehensive passing system, often combining it with headquarters position, knee slice variations, and other pressure-based attacks to create multiple layers of offensive threat. The technique's reliability stems from its fundamental soundness—when executed correctly, the opponent must defend against immense pressure while having limited mechanical advantages to create distance or recover guard.",
   "key_principles": [
@@ -229,7 +226,7 @@
   "position_integration": "The double under pass is a cornerstone technique within the pressure passing system and integrates seamlessly with several fundamental BJJ positions and concepts. It most commonly initiates from open guard top positions, particularly when the opponent is using butterfly guard, de la riva variations, or seated guard positions. The technique serves as an excellent complement to the headquarters passing system—many practitioners establish a single underhook in headquarters position and then transition to double under when appropriate. Once side control is achieved via the double under pass, the natural progressions include maintaining side control for submissions (kimura, americana, arm triangle), transitioning to mount, or advancing to knee on belly for increased control and submission opportunities. The pass also chains effectively with other pressure-based techniques like the smash pass, over-under pass, and bodylock pass, creating a comprehensive pressure passing system where if one technique is defended, another becomes available. Understanding the double under pass's position within this larger framework allows practitioners to develop a cohesive top game where pressure is constantly applied through multiple passing strategies. The technique also exemplifies the fundamental principle of position before submission, as it prioritizes overwhelming positional control before considering any offensive attacks.",
   "related_content": [
     {
-      "name": "Headquarters Position Top",
+      "name": "Headquarters Position",
       "relationship": "Common entry position with single underhook established"
     },
     {
@@ -249,7 +246,7 @@
       "relationship": "Alternative approach using vertical pressure instead of lateral"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "relationship": "Ending position after successful pass completion"
     },
     {
@@ -259,6 +256,22 @@
     {
       "name": "Mount",
       "relationship": "Natural progression from side control after pass"
+    },
+    {
+      "name": "Underhook Pass",
+      "relationship": "Related passing technique using single underhook control"
+    },
+    {
+      "name": "Knee Slice Pass",
+      "relationship": "Alternative pass that chains well with double under system"
+    },
+    {
+      "name": "Butterfly Guard",
+      "relationship": "Common starting guard that double under pass effectively neutralizes"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Starting position where double under can be applied"
     }
   ],
   "expert_insights": {

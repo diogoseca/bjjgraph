@@ -1,27 +1,24 @@
 {
-  "metadata": {
-    "title": "Front Headlock to Anaconda | BJJ Technique | BJJ Graph",
-    "description": "Learn Front Headlock to Anaconda in BJJ. Step-by-step execution from Front Headlock to Anaconda Control. Success: Beginner 30%, Intermediate 50%, Advanced 68%.",
-    "transition_id": "T067",
-    "tags": [
-      "bjj",
-      "transition",
-      "submission",
-      "anaconda",
-      "front_headlock",
-      "choke",
-      "turtle",
-      "offensive"
-    ],
-    "starting_position": "Front Headlock",
-    "ending_position": "Anaconda Control",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 68
-    }
+  "name": "Front Headlock to Anaconda",
+  "description": "Learn Front Headlock to Anaconda in BJJ. Step-by-step execution from Front Headlock to Anaconda Control. Success: Beginner 30%, Intermediate 50%, Advanced 68%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "submission",
+    "anaconda",
+    "front_headlock",
+    "choke",
+    "turtle",
+    "offensive"
+  ],
+  "starting_position": "Front Headlock",
+  "ending_position": "Anaconda Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 68
   },
-  "overview": "The Front Headlock to Anaconda transition represents one of the highest-percentage finishing sequences from the front headlock position. This technique exploits the opponent's defensive posture in turtle or standing positions by converting head and arm control into a devastating choking attack. The anaconda choke, characterized by its distinctive rolling motion and figure-four arm configuration, creates simultaneous pressure on both the carotid artery and the shoulder, making it extremely difficult to defend once properly locked.\n\nThe transition is particularly effective because it capitalizes on the opponent's natural defensive instinct to protect their back exposure. When an opponent turtles to avoid back takes, they inadvertently present the perfect anatomy for the anaconda setup. The technique requires precise arm threading, proper shoulder pressure, and coordinated rolling mechanics to achieve the finish. Understanding the biomechanics of the choke—specifically how the rolling motion tightens the noose while eliminating space—is crucial for successful execution.\n\nThis transition has become a staple in modern no-gi grappling and MMA, where the absence of gi grips makes the front headlock position even more dominant. The anaconda's versatility allows it to be applied from various front headlock configurations, including standingSnapDowns, failed takedown attempts, and turtle attacks. Mastering this transition provides practitioners with a reliable path from control to submission that works across all levels of competition.",
+  "overview": "The Front Headlock to Anaconda transition represents one of the highest-percentage finishing sequences from the front headlock position. This technique exploits the opponent's defensive posture in turtle or standing positions by converting head and arm control into a devastating choking attack. The anaconda choke, characterized by its distinctive rolling motion and figure-four arm configuration, creates simultaneous pressure on both the carotid artery and the shoulder, making it extremely difficult to defend once properly locked.\n\nThe transition is particularly effective because it capitalizes on the opponent's natural defensive instinct to protect their back exposure. When an opponent turtles to avoid back takes, they inadvertently present the perfect anatomy for the anaconda setup. The technique requires precise arm threading, proper shoulder pressure, and coordinated rolling mechanics to achieve the finish. Understanding the biomechanics of the choke—specifically how the rolling motion tightens the noose while eliminating space—is crucial for successful execution.\n\nThis transition has become a staple in modern no-gi grappling and MMA, where the absence of gi grips makes the front headlock position even more dominant. The anaconda's versatility allows it to be applied from various front headlock configurations, including standing snapdowns, failed takedown attempts, and turtle attacks. Mastering this transition provides practitioners with a reliable path from control to submission that works across all levels of competition.",
   "key_principles": [
     "Establish deep head control with shoulder driving opponent's head down and to the side",
     "Thread choking arm deeply across opponent's neck, ensuring elbow passes beyond far shoulder",
@@ -225,7 +222,7 @@
     },
     {
       "question": "What are the key biomechanical principles that make the anaconda choke effective, and how does the rolling motion enhance these principles?",
-      "answer": "The anaconda's effectiveness comes from several biomechanical principles: (1) The figure-four arm configuration creates a enclosed loop around the neck that tightens when elbows are squeezed together, (2) The trapped arm forces the opponent's shoulder into their own neck, adding pressure, (3) The rolling motion uses momentum and body weight to eliminate space and spiral the choke tighter, (4) The bottom position post-roll allows use of back arch and chest expansion to maximize pressure. The roll itself transforms a control position into a submission by dramatically reducing the space within the choke loop while simultaneously using rotational force to overcome defensive resistance. The spiral effect created by rolling makes it nearly impossible to defend once properly executed.",
+      "answer": "The anaconda's effectiveness comes from several biomechanical principles: (1) The figure-four arm configuration creates an enclosed loop around the neck that tightens when elbows are squeezed together, (2) The trapped arm forces the opponent's shoulder into their own neck, adding pressure, (3) The rolling motion uses momentum and body weight to eliminate space and spiral the choke tighter, (4) The bottom position post-roll allows use of back arch and chest expansion to maximize pressure. The roll itself transforms a control position into a submission by dramatically reducing the space within the choke loop while simultaneously using rotational force to overcome defensive resistance. The spiral effect created by rolling makes it nearly impossible to defend once properly executed.",
       "difficulty": "Advanced"
     },
     {
@@ -275,7 +272,7 @@
       "relationship": "Setup variation - same finish from different entry position"
     },
     {
-      "name": "Turtle Position",
+      "name": "Turtle",
       "relationship": "Common starting context - opponent's defensive position being attacked"
     },
     {

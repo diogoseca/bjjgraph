@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Whizzer Control | BJJ Concept | BJJ Graph",
     "description": "Understand Whizzer Control in BJJ. Learn overhook defense, pressure application, counter-attacking principles. Cross-position applications included.",
-    "concept_id": "C112",
+    "principle_id": "P112",
     "tags": [
       "bjj",
       "control",
@@ -62,34 +62,34 @@
       "description": "Maintaining consistent Whizzer pressure throughout extended exchanges without muscular fatigue compromising control effectiveness. This requires efficient positioning and leverage application rather than pure strength-based pressure maintenance."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Underhook Defense",
+      "principle_name": "Underhook Defense",
       "relationship_type": "Complementary",
       "description": "Whizzer Control represents the primary counter-mechanism to opponent underhook establishment, functioning as the defensive response within the broader underhook battle framework"
     },
     {
-      "concept_name": "Frame Creation",
+      "principle_name": "Frame Creation",
       "relationship_type": "Complementary",
       "description": "The Whizzer serves as a specialized framing structure that creates space and prevents opponent pressure advancement while maintaining connection for counter-offensive opportunities"
     },
     {
-      "concept_name": "Control Maintenance",
+      "principle_name": "Control Maintenance",
       "relationship_type": "Extension",
       "description": "Whizzer Control exemplifies control maintenance principles through its ability to neutralize opponent offensive control while establishing defensive dominance in asymmetric control situations"
     },
     {
-      "concept_name": "Leverage Principles",
+      "principle_name": "Leverage Principles",
       "relationship_type": "Prerequisite",
       "description": "Understanding fundamental leverage mechanics proves essential for effective Whizzer application, as the control's effectiveness depends on mechanical advantage rather than strength"
     },
     {
-      "concept_name": "Off-Balancing",
+      "principle_name": "Off-Balancing",
       "relationship_type": "Extension",
       "description": "Proper Whizzer application creates off-balancing opportunities by disrupting opponent posture and base through strategic pressure application and angle manipulation"
     },
     {
-      "concept_name": "Action and Reaction",
+      "principle_name": "Action and Reaction",
       "relationship_type": "Complementary",
       "description": "The Whizzer demonstrates action-reaction principles by using opponent underhook pressure against them, converting their offensive action into defensive opportunity"
     }

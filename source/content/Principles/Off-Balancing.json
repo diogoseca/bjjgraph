@@ -1,21 +1,19 @@
 {
-  "metadata": {
-    "title": "Off-Balancing | BJJ Concept | BJJ Graph",
-    "description": "Understand Off-Balancing in BJJ. Learn kuzushi principles, directional pressure application, timing recognition. Expert insights from Danaher, Ryan, Bravo included.",
-    "concept_id": "C042",
-    "tags": [
-      "bjj",
-      "concept",
-      "intermediate",
-      "sweeps",
-      "kuzushi",
-      "balance disruption",
-      "takedowns"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Off-Balancing",
+  "description": "Master off-balancing (kuzushi) in BJJ. Learn directional pressure application, base disruption, timing recognition across all positions. Fundamental sweep prerequisite.",
+  "tags": [
+    "bjj",
+    "principle",
+    "intermediate",
+    "sweeps",
+    "kuzushi",
+    "balance disruption",
+    "takedowns",
+    "base manipulation"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Off-Balancing represents the fundamental principle of disrupting an opponent's structural stability through strategic manipulation of their center of gravity, base configuration, and weight distribution to create vulnerability to sweeps, takedowns, and positional transitions. Unlike specific sweeping techniques, off-balancing (known as \"kuzushi\" in Japanese martial arts) is a comprehensive conceptual framework that applies across all positions where the practitioner seeks to displace the opponent from stable positioning. This concept encompasses the biomechanical understanding of stability principles, the tactical creation of directional pressure that exceeds opponent's base capacity, and the timing recognition that identifies optimal moments for balance disruption. Off-balancing serves as both the prerequisite setup that makes technical sweeps and takedowns possible, and the continuous tactical pressure that forces opponents into defensive postures that limit their offensive options. The ability to consistently off-balance opponents often determines whether a practitioner can successfully execute sweeps and transitions or faces stable, well-based opponents who resist technical attempts, making it one of the most essential offensive skills in BJJ.",
   "key_principles": [
     "Identify opponent's base configuration and center of gravity position before attempting disruption",
@@ -62,65 +60,80 @@
       "description": "The ability to seamlessly coordinate off-balancing pressure with specific technical execution so that your sweeping or takedown mechanics coincide perfectly with the moment of maximum balance disruption, ensuring that technical movements occur when opponent is least capable of defending against them due to compromised stability."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Base Maintenance",
+      "principle_name": "Base Maintenance",
       "relationship_type": "Complementary",
       "description": "Off-balancing and base maintenance represent opposing sides of the same stability equation - understanding how to maintain your own base provides direct insight into how to disrupt opponent's base, and the principles that make bases strong also reveal their vulnerabilities"
     },
     {
-      "concept_name": "Leverage Principles",
+      "principle_name": "Leverage Principles",
       "relationship_type": "Prerequisite",
       "description": "Effective off-balancing requires understanding mechanical advantage and leverage application, as the most efficient balance disruption comes from applying force at points where mechanical advantage is maximized and opponent's structural integrity is most vulnerable to leverage-based displacement"
     },
     {
-      "concept_name": "Timing and Rhythm",
+      "principle_name": "Timing and Rhythm",
       "relationship_type": "Complementary",
       "description": "Off-balancing effectiveness depends heavily on timing recognition and rhythm manipulation, as balance disruption attempts succeed most reliably when executed during opponent's transitional moments or when their movement patterns create predictable windows of vulnerability"
     },
     {
-      "concept_name": "Weight Distribution",
+      "principle_name": "Weight Distribution",
       "relationship_type": "Prerequisite",
       "description": "Understanding weight distribution principles is fundamental to off-balancing because successful balance disruption requires recognizing where opponent's weight is currently positioned and how to manipulate it beyond their base of support through strategic pressure application"
     },
     {
-      "concept_name": "Angle Creation",
+      "principle_name": "Angle Creation",
       "relationship_type": "Complementary",
       "description": "Creating angles relative to opponent's base structure enhances off-balancing effectiveness by allowing pressure application from directions where they have minimal structural support, making angle creation and balance disruption mutually reinforcing tactical elements"
     },
     {
-      "concept_name": "Sweep Mechanics",
+      "principle_name": "Sweep Mechanics",
       "relationship_type": "Extension",
       "description": "Sweep mechanics represent the technical application layer built upon off-balancing foundations, where specific sweeping techniques provide the mechanical means to capitalize on the balance disruption that off-balancing creates through positional and directional manipulation"
+    },
+    {
+      "principle_name": "Action and Reaction",
+      "relationship_type": "Complementary",
+      "description": "Off-balancing creates reactions that can be exploited - when opponent defends balance in one direction, they compromise stability in others, making action-reaction principle essential for chaining off-balancing attempts effectively"
+    },
+    {
+      "principle_name": "Posture Breaking",
+      "relationship_type": "Extension",
+      "description": "Posture breaking is often the first step in off-balancing sequences, especially from guard positions, where compromising opponent's upright alignment creates the foundation for subsequent balance disruption and sweeping opportunities"
+    },
+    {
+      "principle_name": "Hip Movement",
+      "relationship_type": "Prerequisite",
+      "description": "Effective hip movement provides the mobility and positioning necessary to create proper angles and leverage points for off-balancing, making it a fundamental skill that enables successful balance disruption from guard positions"
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Off-balancing from closed guard involves breaking opponent's posture through pulling grips while eliminating posting opportunities with leg control, creating situations where their weight moves forward beyond their knees or backward beyond their hips to enable sweeps like hip bump, scissor, or pendulum variations"
     },
     {
-      "context": "Butterfly Guard Bottom",
+      "context": "Butterfly Guard",
       "how_applied": "Butterfly guard off-balancing utilizes hook elevation combined with upper body control to lift opponent's weight forward and upward while preventing them from establishing wide base or posting hands, creating the unstable configuration necessary for butterfly sweeps and transitions"
     },
     {
-      "context": "De La Riva Guard Bottom",
+      "context": "De La Riva Guard",
       "how_applied": "The De La Riva hook compromises opponent's near-side base while grips control their upper body, allowing off-balancing pressure that drives them forward and around the controlled leg, creating circular balance disruption that enables various sweeping and back-taking sequences"
     },
     {
-      "context": "X-Guard Bottom",
+      "context": "X-Guard",
       "how_applied": "X-guard creates profound off-balancing by elevating opponent's hips while controlling both their legs, essentially removing their entire base structure and forcing them into sustained instability that makes sweeps nearly inevitable when grips and positioning are maintained correctly"
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Half guard off-balancing often involves using the trapped leg as a fulcrum while creating diagonal pressure through underhooks or overhooks, driving opponent's weight away from their free leg base to create sweeping opportunities or back-taking possibilities"
     },
     {
-      "context": "Spider Guard Bottom",
+      "context": "Spider Guard",
       "how_applied": "Spider guard grips on sleeves combined with foot placement on biceps or hips creates powerful off-balancing through pushing and pulling forces that disrupt opponent's posture and base simultaneously, making them vulnerable to sweeps in multiple directions depending on their defensive reactions"
     },
     {
-      "context": "Single Leg X Guard Bottom",
+      "context": "Single Leg X-Guard",
       "how_applied": "Single leg X elevates one of opponent's legs while controlling the other with your legs and controlling upper body with grips, creating a three-point off-balancing system that makes them inherently unstable and susceptible to directional sweeps or leg entanglement transitions"
     },
     {
@@ -128,7 +141,7 @@
       "how_applied": "Standing off-balancing for takedowns requires manipulating opponent's center of gravity through grip fighting and level changes while controlling their ability to step or post, creating situations where their weight moves beyond their foot positioning to enable throws and takedown entries"
     },
     {
-      "context": "Clinch Position",
+      "context": "Clinch",
       "how_applied": "Clinch off-balancing involves using head control, underhooks, or collar ties to disrupt opponent's upright posture while attacking their base through trips, foot sweeps, or driving pressure that forces their weight beyond their stance width or length"
     },
     {
@@ -136,12 +149,24 @@
       "how_applied": "When opponent establishes combat base while you're attacking from guard or attempting passes, off-balancing requires collapsing their posted hand or driving their weight onto their heels to compromise the triangulated base structure that combat base provides"
     },
     {
-      "context": "Turtle Bottom",
+      "context": "Turtle",
       "how_applied": "From bottom turtle, off-balancing the attacking opponent involves using granby rolls, sit-throughs, or technical standups that drive into their base while they're committed to attacking positions, exploiting their forward pressure to create reversals and guard recovery opportunities"
     },
     {
-      "context": "Mount Top",
+      "context": "Mount",
       "how_applied": "While maintaining mount, off-balancing opponents who attempt to bridge and roll requires shifting your weight and base in response to their efforts, using their bridging momentum against them to either maintain position or transition to technical mount or submissions as they create their own instability"
+    },
+    {
+      "context": "Seated Guard",
+      "how_applied": "Seated guard off-balancing combines leg entanglements with upper body grips to create pushing and pulling forces that compromise opponent's standing base, making them vulnerable to sweeps or forcing them into more vulnerable grounded positions"
+    },
+    {
+      "context": "Lasso Guard",
+      "how_applied": "Lasso guard creates off-balancing by threading opponent's arm through and controlling it with your leg while using grips and free leg to manipulate their posture and base, creating asymmetric pressure that compromises their stability in multiple directions"
+    },
+    {
+      "context": "Shin-to-Shin Guard",
+      "how_applied": "Shin-to-shin connection disrupts opponent's base by controlling one leg while using grips to manipulate their upper body, creating off-balancing opportunities for sweeps or transitions to other guard positions when they attempt to pass or disengage"
     }
   ],
   "decision_framework": [
@@ -296,27 +321,27 @@
   "related_content": [
     {
       "name": "Base Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Opposing principle that reveals base vulnerabilities through understanding of stability requirements"
     },
     {
       "name": "Sweep Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Technical application layer that capitalizes on off-balancing through specific mechanical execution"
     },
     {
       "name": "Leverage Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational biomechanical concepts that enable efficient force application for balance disruption"
     },
     {
       "name": "Timing and Rhythm",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary skill set for identifying optimal moments when off-balancing attempts will be most effective"
     },
     {
       "name": "Weight Distribution",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Understanding of how opponent's weight positioning determines their balance vulnerability"
     },
     {
@@ -340,24 +365,24 @@
       "relationship": "Guard-specific sweep showing circular off-balancing created through hook and grip combinations"
     },
     {
-      "name": "X-Guard Bottom",
+      "name": "X-Guard",
       "content_type": "Position",
       "relationship": "Guard position designed specifically to create extreme off-balancing through elevation and base elimination"
     },
     {
-      "name": "Butterfly Guard Bottom",
+      "name": "Butterfly Guard",
       "content_type": "Position",
       "relationship": "Guard position built around off-balancing through hook elevation and upper body manipulation"
     },
     {
-      "name": "Single Leg X Guard Bottom",
+      "name": "Single Leg X-Guard",
       "content_type": "Position",
       "relationship": "Guard variation that creates off-balancing through asymmetric base compromise and elevation"
     }
   ],
   "expert_insights": {
-    "danaher": "Approaches off-balancing as a systematic application of biomechanical leverage principles, emphasizing the critical importance of what he terms \"directional kuzushi\" where pressure is applied precisely perpendicular to opponent's available base support. Teaches that effective off-balancing requires understanding opponent's base geometry and identifying the specific angles where minimal force creates maximum instability. Systematizes off-balancing according to position-specific base vulnerabilities, treating balance disruption as a prerequisite technical element that must be consciously integrated into all sweeping and takedown sequences rather than occurring incidentally during technique execution.",
-    "gordon_ryan": "Views off-balancing as a continuous tactical process rather than a discrete setup phase, emphasizing the importance of what he calls \"cumulative kuzushi\" where persistent pressure progressively degrades opponent's base quality over time. Focuses on combining technical off-balancing with mental pressure that forces opponents into defensive decision-making, creating situations where opponents must choose between maintaining perfect base and defending offensive threats. Emphasizes that elite competitors don't wait for perfect off-balancing opportunities but rather create those opportunities through persistent tactical pressure that eventually produces base vulnerabilities.",
-    "eddie_bravo": "Has developed specialized off-balancing approaches within the 10th Planet system that often utilize unconventional angles and leverage points, particularly through rubber guard controls that manipulate opponent's posture and base simultaneously. When teaching off-balancing, emphasizes the importance of what he calls \"invisible kuzushi\" where subtle incremental disruptions accumulate into significant base compromise without obvious large movements that telegraph intentions. Advocates for creative off-balancing approaches that violate conventional directional expectations, using opponent's base maintenance instincts against them by attacking in unexpected vectors."
+    "danaher": "Off-balancing represents the systematic application of biomechanical leverage principles where we identify opponent's base geometry and apply directional kuzushi precisely perpendicular to their available support structures. The most common error in sweeping and takedown sequences is attempting technical execution without first establishing genuine balance disruption - practitioners must understand that techniques succeed not through mechanical perfection alone, but through the prerequisite creation of instability that makes those mechanics effective against resistance. I teach position-specific base vulnerabilities as a systematic framework where each guard variation and standing scenario has predictable directions of least structural resistance that can be exploited through proper grip configuration and pressure application. The integration of off-balancing with technical execution must become automatic - your sweeping mechanics should coincide precisely with the moment of maximum balance disruption rather than occurring as discrete sequential phases.",
+    "gordon_ryan": "In competition, off-balancing is a continuous tactical process rather than a discrete setup phase - I focus on what I call cumulative kuzushi where persistent pressure progressively degrades opponent's base quality over time until they become vulnerable to finishing sequences. Elite competitors don't wait for perfect off-balancing opportunities but rather create those opportunities through persistent tactical pressure combined with mental pressure that forces opponents into defensive decision-making. When I'm attacking from guard positions, I'm constantly applying directional forces that make my opponent choose between maintaining perfect base and defending my offensive threats - this creates a dilemma where their base recovery efforts often create the exact vulnerabilities I need for successful sweeps. The key insight is that off-balancing effectiveness increases dramatically when you learn to use opponent's defensive adjustments against them through immediate reactive redirection rather than fighting their strongest defensive configurations.",
+    "eddie_bravo": "Within the 10th Planet system, we've developed specialized off-balancing approaches that utilize unconventional angles and leverage points, particularly through rubber guard controls that manipulate opponent's posture and base simultaneously rather than sequentially. What I call invisible kuzushi involves subtle incremental disruptions that accumulate into significant base compromise without obvious large movements that telegraph your intentions - you're constantly making micro-adjustments that degrade their stability while they're focused on defending your more obvious threats. Creative off-balancing violates conventional directional expectations by attacking in unexpected vectors that exploit opponent's base maintenance instincts against them - when they're prepared to defend the obvious sweep direction, you've already compromised their base in a completely different plane. The innovation in modern guard play comes from recognizing that off-balancing doesn't have to follow traditional pushing and pulling patterns - sometimes the most effective balance disruption comes from rotational forces, spiral movements, or asymmetric pressures that opponent's defensive programming isn't prepared to handle."
   }
 }

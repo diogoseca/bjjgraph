@@ -1,16 +1,21 @@
 {
-  "metadata": {
-    "title": "Arm Drag Sweep | BJJ Technique | BJJ Graph",
-    "description": "Master the Arm Drag Sweep in BJJ. Complete guide with step-by-step execution from guard positions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
-    "transition_id": "T219",
-    "tags": ["bjj", "technique", "sweep", "guard", "arm-drag", "back-take", "off-balancing"],
-    "starting_position": "Closed Guard Bottom",
-    "ending_position": "Back Control Top",
-    "success_rates": {
-      "beginner": 45,
-      "intermediate": 60,
-      "advanced": 75
-    }
+  "name": "Arm Drag Sweep",
+  "description": "Master the Arm Drag Sweep in BJJ. Complete guide with step-by-step execution from guard positions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "tags": [
+    "bjj",
+    "technique",
+    "sweep",
+    "guard",
+    "arm-drag",
+    "back-take",
+    "off-balancing"
+  ],
+  "starting_position": "Closed Guard",
+  "ending_position": "Back Control",
+  "success_rates": {
+    "beginner": 45,
+    "intermediate": 60,
+    "advanced": 75
   },
   "overview": "The Arm Drag Sweep is a fundamental yet highly effective technique that combines off-balancing principles with opportunistic back-taking opportunities. Unlike traditional sweeps that focus solely on achieving top position, the arm drag creates a dual threat: either sweeping the opponent to a dominant position or transitioning directly to back control. This versatility makes it an essential tool in any guard player's arsenal, particularly from closed guard, butterfly guard, and seated guard positions.\n\nThe technique exploits the opponent's forward pressure and arm positioning by redirecting their momentum while simultaneously removing one of their posts. When executed properly, the arm drag creates a chain reaction: the opponent loses their base, their posture breaks, and their defensive structure collapses. The key differentiator from a pure arm drag to back take is the sweeping motion that uses hip movement and angle creation to destabilize the opponent's entire structure.\n\nWhat makes the arm drag sweep particularly powerful in modern BJJ is its adaptability across gi and no-gi contexts, its effectiveness against both conservative and aggressive opponents, and its natural integration into submission chains. The technique serves as a gateway movement that opens multiple attacking sequences while maintaining offensive pressure throughout the transition.",
   "key_principles": [
@@ -89,7 +94,7 @@
     {
       "counter": "Opponent yanks their arm free before sweep completes",
       "effectiveness": "Medium",
-      "your_response": "If they pull their arm free, they typically create space and expose other opportunities. Immediately transition to alternative attacks: if they pull back aggressively, shoot for a single leg X-guard entry or deep half guard. If they pull up, attack with triangle, omoplata, or switch to opposite-side attacks. The key is to recognize that their escape creates different vulnerabilities."
+      "your_response": "If they pull their arm free, they typically create space and expose other opportunities. Immediately transition to alternative attacks: if they pull back aggressively, shoot for X-Guard entry or deep half guard. If they pull up, attack with triangle, omoplata, or switch to opposite-side attacks. The key is to recognize that their escape creates different vulnerabilities."
     },
     {
       "counter": "Opponent sprawls and drives weight backward to counter the forward sweep",
@@ -157,7 +162,7 @@
     {
       "phase": "Month 4-6: Integration and Chaining",
       "focus": "Connect arm drag sweep to submission chains and alternative attacks",
-      "description": "Live positional sparring from guard where you attempt arm drag sweep and partner defends fully. When sweep is stuffed, immediately chain to alternative attacks: triangle if they post high, kimura on posted arm, single leg X if they pull back, deep half if they pressure forward. Goal is seamless transition between attacks without pause. Include competition-style rounds where points are scored for successful sweeps and back takes.",
+      "description": "Live positional sparring from guard where you attempt arm drag sweep and partner defends fully. When sweep is stuffed, immediately chain to alternative attacks: triangle if they post high, kimura on posted arm, X-Guard if they pull back, deep half if they pressure forward. Goal is seamless transition between attacks without pause. Include competition-style rounds where points are scored for successful sweeps and back takes.",
       "resistance_level": "Full"
     }
   ],
@@ -168,9 +173,9 @@
       "when_to_use": "Against opponents who pressure forward into your butterfly guard or when you need a high-percentage sweep from butterfly position. Particularly effective in no-gi where collar grips are unavailable."
     },
     {
-      "variant_name": "Seated Guard Arm Drag to Single Leg X",
-      "description": "From seated guard with one leg extended and one leg bent, execute the arm drag while simultaneously shooting your inside leg across opponent's near leg at shin level. As you drag their arm, rotate your hips away and establish single leg X-guard position. This variation is less of a traditional sweep and more of a guard transition, but it accomplishes similar goals of off-balancing and achieving superior position.",
-      "when_to_use": "When opponent maintains excellent base and sweep completion seems unlikely. The single leg X entry gives you a powerful position for follow-up sweeps or leg attacks. Especially useful against opponents who keep their hips back."
+      "variant_name": "Seated Guard Arm Drag to X-Guard",
+      "description": "From seated guard with one leg extended and one leg bent, execute the arm drag while simultaneously shooting your inside leg across opponent's near leg at shin level. As you drag their arm, rotate your hips away and establish X-Guard position. This variation is less of a traditional sweep and more of a guard transition, but it accomplishes similar goals of off-balancing and achieving superior position.",
+      "when_to_use": "When opponent maintains excellent base and sweep completion seems unlikely. The X-Guard entry gives you a powerful position for follow-up sweeps or leg attacks. Especially useful against opponents who keep their hips back."
     },
     {
       "variant_name": "Closed Guard Arm Drag to Technical Stand-Up",
@@ -206,7 +211,7 @@
     },
     {
       "question": "If your opponent pulls their arm free during the execution, what immediate follow-up attacks should you consider?",
-      "answer": "When opponent pulls their arm free, they typically create space and other opportunities: (1) If they pull back aggressively, immediately shoot for single leg X-guard or deep half guard by following their retreating momentum; (2) If they pull up to recover posture, attack with triangle choke, omoplata, or high guard attacks since their arm is elevated and exposed; (3) If they pull laterally, switch to attacking their opposite arm with kimura or switching to opposite-side arm drag; (4) Use their pulling motion to help you come up to combat base or technical stand-up. The key principle is recognizing that their defensive escape from one attack necessarily opens other vulnerabilities, and you should immediately flow to those opportunities rather than trying to force the original attack.",
+      "answer": "When opponent pulls their arm free, they typically create space and other opportunities: (1) If they pull back aggressively, immediately shoot for X-Guard or deep half guard by following their retreating momentum; (2) If they pull up to recover posture, attack with triangle choke, omoplata, or high guard attacks since their arm is elevated and exposed; (3) If they pull laterally, switch to attacking their opposite arm with kimura or switching to opposite-side arm drag; (4) Use their pulling motion to help you come up to combat base or technical stand-up. The key principle is recognizing that their defensive escape from one attack necessarily opens other vulnerabilities, and you should immediately flow to those opportunities rather than trying to force the original attack.",
       "difficulty": "Advanced"
     },
     {
@@ -235,15 +240,15 @@
       "relationship": "Alternative closed guard sweep that can be chained with arm drag sweep"
     },
     {
-      "name": "Back Control Top",
+      "name": "Back Control",
       "relationship": "Primary destination position when opponent defends sweep by posting"
     },
     {
-      "name": "Single Leg X Guard Bottom",
+      "name": "X-Guard",
       "relationship": "Follow-up position when opponent pulls back to counter arm drag"
     },
     {
-      "name": "Triangle Choke",
+      "name": "Triangle from Guard",
       "relationship": "Submission attack available when opponent defends by posting arm high"
     },
     {

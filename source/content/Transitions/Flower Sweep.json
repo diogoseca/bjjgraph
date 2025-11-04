@@ -1,23 +1,20 @@
 {
-  "metadata": {
-    "title": "Flower Sweep | BJJ Technique | BJJ Graph",
-    "description": "Learn Flower Sweep in BJJ. Step-by-step execution from Closed Guard Bottom to Mount. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%. Master this fundamental sweep.",
-    "transition_id": "T089",
-    "tags": [
-      "bjj",
-      "technique",
-      "sweep",
-      "closed-guard",
-      "guard-bottom",
-      "fundamental"
-    ],
-    "starting_position": "Closed Guard Bottom",
-    "ending_position": "Mount",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 70
-    }
+  "name": "Flower Sweep",
+  "description": "Learn the Flower Sweep in BJJ. Master this fundamental closed guard sweep with step-by-step execution from guard to mount. Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "technique",
+    "sweep",
+    "closed-guard",
+    "guard-bottom",
+    "fundamental"
+  ],
+  "starting_position": "Closed Guard",
+  "ending_position": "Mount",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 55,
+    "advanced": 70
   },
   "overview": "The Flower Sweep is a fundamental closed guard sweep that exploits the opponent's reaction to your initial attack. Named for the circular, flowing motion that resembles a flower opening, this technique is one of the highest-percentage sweeps available from closed guard. The sweep works by creating a pendulum-like momentum that uses the opponent's forward pressure against them. What makes the Flower Sweep particularly effective is its ability to chain seamlessly with other attacks - if the opponent defends the sweep, you're already positioned for triangles, armbars, or omoplatas. The technique requires excellent hip mobility and precise timing, but once mastered, it becomes an instinctive response to the opponent's posture. The Flower Sweep is often one of the first sweeps taught to beginners due to its mechanical simplicity and high success rate, yet it remains effective at the highest levels of competition when executed with proper timing and setup.",
   "key_principles": [
@@ -231,7 +228,7 @@
       "relationship": "Opposite-direction sweep that chains with Flower in some systems"
     },
     {
-      "name": "Triangle from Closed Guard",
+      "name": "Triangle from Guard",
       "relationship": "Follow-up submission when opponent defends sweep by tucking elbows"
     },
     {
@@ -247,7 +244,7 @@
       "relationship": "Part of fundamental closed guard system - shares grip fighting concepts"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "relationship": "Starting position - foundational guard where sweep is executed from"
     },
     {

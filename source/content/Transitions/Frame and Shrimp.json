@@ -1,26 +1,23 @@
 {
-  "metadata": {
-    "title": "Frame and Shrimp | BJJ Technique | BJJ Graph",
-    "description": "Learn Frame and Shrimp escape in BJJ. Step-by-step execution from bottom pins to guard recovery. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.",
-    "transition_id": "T009",
-    "tags": [
-      "bjj",
-      "transition",
-      "escape",
-      "side_control",
-      "defense",
-      "fundamental",
-      "shrimping",
-      "framing",
-      "hip_escape"
-    ],
-    "starting_position": "Side Control Top",
-    "ending_position": "Guard Recovery",
-    "success_rates": {
-      "beginner": 45,
-      "intermediate": 65,
-      "advanced": 80
-    }
+  "name": "Frame and Shrimp",
+  "description": "Learn Frame and Shrimp escape in BJJ. Step-by-step execution from bottom pins to guard recovery. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "side_control",
+    "defense",
+    "fundamental",
+    "shrimping",
+    "framing",
+    "hip_escape"
+  ],
+  "starting_position": "Side Control",
+  "ending_position": "Open Guard",
+  "success_rates": {
+    "beginner": 45,
+    "intermediate": 65,
+    "advanced": 80
   },
   "overview": "The Frame and Shrimp is the most fundamental escape mechanism in Brazilian Jiu-Jitsu, serving as the cornerstone technique for creating space and recovering guard from bottom positions. This technique combines structural framing with hip mobility to systematically address the control points that keep you pinned. The frame creates a barrier that prevents your opponent from maintaining chest-to-chest pressure, while the shrimping motion uses hip movement to create angles and distance.\n\nThis technique is essential for all practitioners as it forms the foundation of defensive movement in BJJ. Unlike explosive bridging movements, the frame and shrimp relies on technical precision and efficient body mechanics rather than strength. When executed correctly, it allows smaller practitioners to escape from larger opponents by systematically disrupting their base and control points. The movement pattern transfers across multiple bottom positions including side control, mount, knee on belly, and various pin positions.\n\nMastery of the frame and shrimp fundamentally changes a practitioner's ability to survive and escape from bad positions. It teaches critical lessons about creating and managing space, understanding control points, and using angles rather than strength. This technique serves as the gateway to more advanced escapes and represents a key distinction between beginners who panic under pressure and experienced practitioners who remain calm and systematically work their way back to guard.",
   "key_principles": [
@@ -247,24 +244,36 @@
       "relationship": "Category of escapes that utilize frame and shrimp mechanics"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "The end goal position that frame and shrimp achieves"
-    },
-    {
-      "name": "Technical Standup",
+      "name": "Technical Stand-up",
       "relationship": "Alternative escape path from same starting positions"
-    },
-    {
-      "name": "Knee Shield Retention",
-      "relationship": "Follow-up technique using the space created by successful frame and shrimp"
     },
     {
       "name": "Upa Escape",
       "relationship": "Alternative mount escape using explosive bridging instead of shrimping"
     },
     {
-      "name": "Re-Guard",
-      "relationship": "The strategic goal of escaping pins - returning to guard position"
+      "name": "Knee Shield Half Guard",
+      "relationship": "Follow-up position using the space created by successful frame and shrimp"
+    },
+    {
+      "name": "Hip Escape Mechanics",
+      "relationship": "Principle underlying the technical execution"
+    },
+    {
+      "name": "Shrimping",
+      "relationship": "Core movement principle applied in this technique"
+    },
+    {
+      "name": "Frame Creation",
+      "relationship": "Essential principle for establishing defensive structure"
+    },
+    {
+      "name": "Escape Fundamentals",
+      "relationship": "Broader category of defensive principles"
+    },
+    {
+      "name": "Mount Escape Series",
+      "relationship": "Application of same mechanics to different position"
     }
   ],
   "expert_insights": {

@@ -1,22 +1,19 @@
 {
-  "metadata": {
-    "title": "Dilemma Creation | BJJ Concept | BJJ Graph",
-    "description": "Understand Dilemma Creation in BJJ. Learn how to construct simultaneous multi-threat attacks forcing binary defensive choices. System-based offense for elite competitors.",
-    "concept_id": "C087",
-    "tags": [
-      "bjj",
-      "concept",
-      "advanced",
-      "strategy",
-      "systems",
-      "offense",
-      "attack-chains",
-      "submission-systems"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "High",
-    "development_timeline": "Intermediate to Expert"
-  },
+  "name": "Dilemma Creation",
+  "description": "Master Dilemma Creation in BJJ. Learn simultaneous multi-threat construction, binary defensive forcing, and systematic finishing sequences across all positions.",
+  "tags": [
+    "bjj",
+    "principle",
+    "advanced",
+    "strategy",
+    "systems",
+    "offense",
+    "attack-chains",
+    "submission-systems"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "High",
+  "development_timeline": "Intermediate to Expert",
   "overview": "Dilemma Creation represents the advanced strategic principle of simultaneously presenting multiple offensive threats that cannot be defended concurrently, forcing opponent into binary or limited-option choices where every defensive response creates a different but equally significant vulnerability. Unlike simple action-reaction sequences that exploit single defensive commitments, dilemma creation is a sophisticated offensive framework that applies across positions where practitioner has established sufficient control to develop layered attack systems. This concept encompasses the construction of multi-threat structures, the strategic coverage of defensive options, and the systematic exploitation of forced defensive choices through pre-planned branching sequences. Dilemma creation serves as both a finishing mechanism that dramatically increases submission success rates through multiple simultaneous threats, and an efficiency strategy that guarantees productive outcomes regardless of opponent's defensive choices. The ability to construct and execute effective dilemmas often determines whether a practitioner can finish elite defensive opponents who rarely succumb to single-threat attacks, making it one of the most sophisticated and powerful offensive concepts in modern BJJ.",
   "key_principles": [
     "Effective dilemmas require multiple simultaneous threats that cannot be defended together",
@@ -63,41 +60,56 @@
       "description": "Ability to anticipate and neutralize opponent's counter-attacks within each branch of the dilemma sequence, ensuring that defensive movements don't create offensive opportunities for opponent but instead lead directly into practitioner's prepared counter-sequences."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Creating Reactions",
+      "principle_name": "Creating Reactions",
       "relationship_type": "Prerequisite",
       "description": "Simple action-reaction exploitation forms the foundation for understanding how defensive commitments create vulnerabilities, which is then scaled up to simultaneous multi-threat dilemma structures"
     },
     {
-      "concept_name": "Submission Chains",
+      "principle_name": "Submission Chains",
       "relationship_type": "Complementary",
       "description": "Submission chains provide the technical sequences that comprise each branch of the dilemma structure, with dilemma creation providing the strategic framework for presenting multiple chains simultaneously"
     },
     {
-      "concept_name": "System Building",
+      "principle_name": "System Building",
       "relationship_type": "Extension",
       "description": "Dilemma creation represents advanced system building where complete positional systems are constructed around forcing binary choices with developed attack sequences for each defensive option"
     },
     {
-      "concept_name": "Control Point Hierarchy",
+      "principle_name": "Control Point Hierarchy",
       "relationship_type": "Prerequisite",
       "description": "Understanding control point hierarchy is essential for recognizing which positions provide sufficient control to maintain multiple simultaneous threats while opponent attempts defensive movements"
     },
     {
-      "concept_name": "Offensive Combinations",
+      "principle_name": "Offensive Combinations",
       "relationship_type": "Advanced form",
       "description": "While offensive combinations involve sequential attacks, dilemmas represent the advanced evolution where attacks are presented simultaneously rather than sequentially, forcing opponent into no-win scenarios"
     },
     {
-      "concept_name": "Position Transitions",
+      "principle_name": "Position Transitions",
       "relationship_type": "Complementary",
       "description": "Understanding position transitions allows recognition of which defensive movements lead to specific position changes, enabling construction of dilemmas where each positional transition leads to different but equally developed attack sequences"
+    },
+    {
+      "principle_name": "Action and Reaction",
+      "relationship_type": "Prerequisite",
+      "description": "Fundamental understanding of action-reaction mechanics provides the basis for predicting and exploiting defensive responses within dilemma structures"
+    },
+    {
+      "principle_name": "Positional Hierarchy",
+      "relationship_type": "Prerequisite",
+      "description": "Knowledge of positional hierarchy helps identify which positions offer sufficient dominance to construct effective multi-threat dilemmas versus positions requiring advancement first"
+    },
+    {
+      "principle_name": "Grip Fighting",
+      "relationship_type": "Complementary",
+      "description": "Grip fighting creates micro-dilemmas where opponent's hand placement choices expose different vulnerabilities, serving as tactical application of dilemma principles"
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Triangle-armbar-omoplata system creates classic dilemma where opponent must choose between defending triangle (exposing arm) or defending armbar (exposing shoulder), with each defensive commitment leading to different but equally developed submission sequence"
     },
     {
@@ -109,7 +121,7 @@
       "how_applied": "High mount position creates armbar-triangle-mounted guillotine dilemmas where opponent's defensive framing necessarily exposes arms or neck, with each frame position leading to different but prepared submission sequence"
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Lockdown-based dilemmas present opponent with choice between defending sweep attempts or defending submission attacks from underneath, with defensive commitment to either option opening alternative attack sequence"
     },
     {
@@ -117,11 +129,11 @@
       "how_applied": "Heel hook-kneebar dilemma from saddle positions forces opponent to choose between defending heel exposure (creating kneebar vulnerability) or defending knee position (exposing heel), with leg positioning determining which submission becomes available"
     },
     {
-      "context": "Side Control Top",
+      "context": "Side Control",
       "how_applied": "Near-side armbar-far-side armbar-kimura triangle creates multi-branch dilemma where opponent's defensive arm positioning determines which submission sequence becomes available, with each arm placement leading to different prepared attack"
     },
     {
-      "context": "Turtle Position",
+      "context": "Turtle",
       "how_applied": "Clock choke-armbar-back take triangle presents opponent with choice between defending choke (exposing arm and creating back take opportunity) or defending arm/back (allowing choke development), with each defensive priority leading to different attack"
     },
     {
@@ -141,7 +153,7 @@
       "how_applied": "Berimbolo-overhead sweep-leg drag sequences create positional dilemmas where opponent's weight distribution to defend back exposure necessarily compromises balance for sweeps, with each defensive posture leading to different positional outcome"
     },
     {
-      "context": "Spider Guard Bottom",
+      "context": "Spider Guard",
       "how_applied": "Triangle-omoplata-sweep combinations present opponent with choice between defending upper body submissions or defending sweeps, with grip-breaking attempts creating systematic pathways into prepared attack sequences"
     },
     {
@@ -153,12 +165,12 @@
       "how_applied": "Armbar-baseball choke-back take triangle creates dilemmas where opponent's defensive framing to prevent mount or submission necessarily exposes alternative attacks, with each frame position leading to prepared sequence"
     },
     {
-      "context": "Guard Recovery",
-      "how_applied": "Single leg-deep half-butterfly recovery options present opponent with dilemma of which recovery path to prevent, with each defensive commitment to stopping one recovery necessarily opening alternative guard reestablishment sequence"
+      "context": "Butterfly Guard",
+      "how_applied": "Hook sweep-single leg X entry-back take sequences create dilemmas where opponent's base adjustments to prevent sweeps necessarily compromise posture for guard transitions or back exposure"
     },
     {
-      "context": "Butterfly Hook Retention Bottom",
-      "how_applied": "Hook sweep-single leg X entry-back take sequences create dilemmas where opponent's base adjustments to prevent sweeps necessarily compromise posture for guard transitions or back exposure"
+      "context": "Front Headlock",
+      "how_applied": "Guillotine-darce-anaconda triangle forces opponent to choose which choke defense to prioritize, with each defensive posture adjustment opening different but equally threatening submission paths"
     }
   ],
   "decision_framework": [
@@ -323,17 +335,17 @@
   "related_content": [
     {
       "name": "Creating Reactions",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundation concept demonstrating single action-reaction sequences that dilemma creation expands into simultaneous multi-threat structures"
     },
     {
       "name": "Submission Chains",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Provides technical submission sequences that comprise individual branches within dilemma frameworks"
     },
     {
       "name": "System Building",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Describes overall systematic approach to organizing techniques where dilemma creation provides specific offensive strategic framework"
     },
     {
@@ -347,7 +359,7 @@
       "relationship": "Comprehensive modern dilemma-based approach popularized by Craig Jones emphasizing systematic forcing of no-win scenarios"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Classical position for dilemma construction with triangle-armbar-omoplata system as fundamental example"
     },
@@ -373,12 +385,12 @@
     },
     {
       "name": "Offensive Combinations",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Related offensive concept focusing on sequential rather than simultaneous threat presentation"
     },
     {
       "name": "Control Point Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential for understanding which positions provide sufficient control to maintain multiple simultaneous threats"
     }
   ],

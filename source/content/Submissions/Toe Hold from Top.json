@@ -1,18 +1,23 @@
 {
-  "metadata": {
-    "title": "Toe Hold from Top | BJJ Submission | BJJ Graph",
-    "description": "Master Toe Hold from Top in BJJ. Complete guide with safety protocols, setup, execution steps, and expert insights. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-    "submission_id": "SUB047",
-    "tags": ["bjj", "submission", "toe-hold", "leg-lock", "foot-lock", "ashi-garami", "top-position"],
-    "submission_category": "Joint Lock",
-    "submission_type": "Leg Lock",
-    "target_area": "Ankle and knee ligaments (lateral ankle complex, medial collateral ligament)",
-    "starting_position": "Ashi Garami Top",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 50,
-      "advanced": 65
-    }
+  "name": "Toe Hold from Top",
+  "description": "Master Toe Hold from Top in BJJ. Complete guide with safety protocols, setup, execution steps. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "submission",
+    "toe-hold",
+    "leg-lock",
+    "foot-lock",
+    "ashi-garami",
+    "top-position"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Leg Lock",
+  "target_area": "Ankle and knee ligaments (lateral ankle complex, medial collateral ligament)",
+  "starting_position": "Inside Ashi-Garami",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 50,
+    "advanced": 65
   },
   "overview": "The Toe Hold from Top is a fundamental leg lock submission that attacks the ankle and knee simultaneously through a figure-four grip configuration. This technique is particularly effective from various top leg entanglement positions including Ashi Garami, Outside Ashi, and 50-50 Guard. The toe hold creates a combined rotational and hyperextension force on the ankle while placing significant stress on the knee's medial collateral ligament (MCL), making it one of the most versatile and dangerous leg attacks in modern Brazilian Jiu-Jitsu.\n\nUnlike straight ankle locks that primarily target the Achilles tendon, the toe hold's rotational component affects multiple joint structures simultaneously, which is why it requires extremely careful application in training. The submission works by controlling the opponent's leg with your legs (typically in an Ashi Garami configuration) while your arms create a figure-four grip around the foot. The finishing mechanism involves pulling the heel toward you while rotating the toe away from the opponent's centerline, creating a spiraling pressure that attacks both the ankle's lateral ligaments and the knee's MCL.\n\nThe toe hold's effectiveness comes from its ability to be applied from dominant top positions where you maintain postural control and can prevent the opponent from rolling or countering. This makes it a favored attack for competitors who specialize in leg lock systems, as it can be seamlessly integrated into sequences with heel hooks, knee bars, and ankle locks. Understanding the proper safety protocols and progressive training methodology is absolutely essential, as the toe hold can cause severe ankle and knee injuries if applied with competition speed or intensity during practice sessions.",
   "safety_considerations": {
@@ -232,7 +237,7 @@
       "when_to_use": "When engaged in 50-50 guard battles, particularly in no-gi competition where heel hooks may be illegal but toe holds are permitted"
     },
     {
-      "variation_name": "Toe Hold from Saddle/Honey Hole Position",
+      "variation_name": "Toe Hold from Saddle Position",
       "description": "From the Saddle position where opponent's leg is between yours in a crossed configuration, the toe hold serves as an alternative to the heel hook. Often used when opponent successfully defends their heel by hiding it.",
       "when_to_use": "When in Saddle position but opponent effectively hides their heel using defensive positioning, making heel hook difficult to access"
     },
@@ -242,7 +247,7 @@
       "when_to_use": "When opponent is defending by sitting up and attacking your upper body, or when you need maximum pressure for a finish against a flexible opponent"
     },
     {
-      "variation_name": "Toe Hold from Headquarters/Knee Shield Pass",
+      "variation_name": "Toe Hold from Headquarters Position",
       "description": "While passing opponent's knee shield or from headquarters position, trap their bottom leg and establish the toe hold as a submission rather than completing the pass. This catches opponents who are focused on guard retention.",
       "when_to_use": "When passing half guard or knee shield and opponent extends their bottom leg in an attempt to re-guard, creating toe hold opportunity"
     },
@@ -333,21 +338,50 @@
       "safety_emphasis": "As skill level increases, safety awareness must also increase proportionally. Advanced practitioners should model perfect safety behavior for junior students. Never demonstrate or practice techniques in ways that could normalize unsafe behavior. Remember that competition application differs from training application - in competition you finish faster, but in training you must always prioritize partner safety over submission completion. Experienced practitioners should check in with training partners before and after practicing leg locks to ensure no lingering discomfort or injury."
     }
   ],
+  "from_positions": [
+    "Inside Ashi-Garami",
+    "Outside Ashi-Garami",
+    "50-50 Guard",
+    "Saddle",
+    "Cross Ashi-Garami",
+    "Single Leg X-Guard",
+    "Headquarters Position",
+    "Knee Shield Half Guard",
+    "Deep Half Guard",
+    "Reverse De La Riva Guard"
+  ],
+  "related_submissions": [
+    "Heel Hook",
+    "Inside Heel Hook",
+    "Outside Heel Hook",
+    "Straight Ankle Lock",
+    "Kneebar",
+    "Kneebar from Top",
+    "Toe Hold from 50-50",
+    "Toe Hold",
+    "Toe Hold Variations",
+    "Achilles Lock",
+    "Calf Slicer",
+    "Estima Lock",
+    "Straight Footlock",
+    "Kneebar from 50-50",
+    "Heel Hook Variations"
+  ],
   "related_content": [
     {
-      "name": "Ashi Garami Top",
+      "name": "Inside Ashi-Garami",
       "relationship": "Primary starting position for toe hold application with fundamental leg control structure"
     },
     {
-      "name": "Outside Ashi-Garami Top",
+      "name": "Outside Ashi-Garami",
       "relationship": "Alternative starting position providing excellent toe hold control and preventing opponent's counter-rotation"
     },
     {
-      "name": "Saddle Position Top",
+      "name": "Saddle",
       "relationship": "Advanced leg entanglement position where toe hold serves as alternative to heel hook when heel is defended"
     },
     {
-      "name": "50-50 Guard Top",
+      "name": "50-50 Guard",
       "relationship": "Symmetrical entanglement position where toe hold can be applied in competitive race situations"
     },
     {
@@ -361,14 +395,6 @@
     {
       "name": "Kneebar from Top",
       "relationship": "Alternative leg lock that attacks same leg from similar positions, often used in combination sequences"
-    },
-    {
-      "name": "Outside Ashi Entry",
-      "relationship": "Entry transition that establishes the position needed for toe hold application from passing situations"
-    },
-    {
-      "name": "Saddle Entry from Top",
-      "relationship": "Advanced entry that creates toe hold opportunities while establishing dominant leg entanglement"
     },
     {
       "name": "Leg Entanglement",

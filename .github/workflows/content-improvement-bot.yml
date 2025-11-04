@@ -2,14 +2,21 @@ name: Content Improvement Bot
 
 on:
   schedule:
-    # Run once daily at 8:00 AM UTC
-    - cron: '0 8 * * *'
+    - cron: '0 8 * * *'  # Daily at 8:00 AM UTC
   workflow_dispatch:
     inputs:
       num_files:
-        description: 'Number of files to improve (default: 2)'
+        description: 'Number of files to improve'
         required: false
         default: '2'
+        type: choice
+        options: ['1', '2', '5', '10', '20']
+      enable_paa:
+        description: 'Fetch PAA data for AI SEO optimization (costs DataForSEO credits)'
+        required: false
+        default: 'true'
+        type: choice
+        options: ['true', 'false']
 
 jobs:
   improve-content:
@@ -26,247 +33,565 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # Full history for git log
 
-      - name: Select oldest files to improve
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          pip install jsonschema jinja2
+
+      - name: Select oldest files
         id: select_files
         run: |
           chmod +x ./scripts/select_oldest_files.sh
-          # Run script with custom number of files (default 2)
           NUM_FILES=${{ github.event.inputs.num_files || '2' }}
-          echo "Selecting $NUM_FILES files from the 100 oldest..."
+          echo "Selecting $NUM_FILES files from 100 oldest (by git creation date)..."
 
-          # Get the files and save to environment
           SELECTED_FILES=$(./scripts/select_oldest_files.sh "$NUM_FILES")
           echo "selected_files<<EOF" >> $GITHUB_OUTPUT
           echo "$SELECTED_FILES" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
-          # Log for visibility
           echo "Selected files:"
           echo "$SELECTED_FILES"
 
+      - name: Pre-process files and prepare context
+        id: preprocess
+        run: |
+          echo "========================================"
+          echo "STEP 1: Pre-processing files for Claude"
+          echo "========================================"
+
+          mkdir -p /tmp/preprocessing
+
+          # 1. Generate complete content catalog for [[Wikilinks]]
+          echo "Generating content catalog..."
+          find source/content -type f \( -name "*.json" -o -name "*.md" \) \
+            ! -name "CONTRIBUTING-*" ! -name "TEMPLATE*" ! -name "index.md" \
+            -exec basename {} \; | \
+            sed 's/\.json$//; s/\.md$//' | \
+            sort -u > /tmp/preprocessing/content_catalog.txt
+
+          CATALOG_COUNT=$(wc -l < /tmp/preprocessing/content_catalog.txt)
+          echo "  ✓ Generated catalog with $CATALOG_COUNT linkable items"
+
+          # 2. Process each selected file
+          CLAUDE_FILES=""
+
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
+
+            filename=$(basename "$file")
+            file_base="${filename%.*}"
+            file_ext="${filename##*.}"
+
+            echo ""
+            echo "Pre-processing: $file"
+
+            if [[ "$file_ext" == "json" ]]; then
+              # JSON FILE PROCESSING
+
+              # Check file size
+              file_size=$(wc -c < "$file" 2>/dev/null || echo "0")
+
+              if [[ $file_size -lt 200 ]] || grep -q "TODO" "$file" 2>/dev/null; then
+                echo "  → Empty/minimal file (<200 bytes or has TODOs)"
+                echo "  → Running fix_content.sh to fill template..."
+
+                chmod +x ./scripts/fix_content.sh
+                if ./scripts/fix_content.sh "$file"; then
+                  echo "  ✓ Template filled successfully"
+                else
+                  echo "  ✗ fix_content.sh failed - skipping this file"
+                  continue
+                fi
+              fi
+
+              # Detect category and template type
+              if [[ "$file" == *"/Positions/"* ]]; then
+                category="Positions"
+
+                # Detect SINGLE/DUAL/FAMILY
+                position_name="${file_base}"
+                variant_folder="source/content/Positions/$position_name"
+
+                if [ ! -d "$variant_folder" ]; then
+                  template_type="SINGLE"
+                  template_file="source/templates/Positions/TEMPLATE-POSITION-SINGLE.json"
+                elif ls "$variant_folder"/*.json >/dev/null 2>&1; then
+                  template_type="FAMILY"
+                  template_file="source/templates/Positions/TEMPLATE-POSITION-FAMILY.json"
+                else
+                  template_type="DUAL"
+                  template_file="source/templates/Positions/TEMPLATE-POSITION-DUAL.json"
+                fi
+
+                echo "  → Position template: $template_type"
+
+              elif [[ "$file" == *"/Submissions/"* ]]; then
+                category="Submissions"
+                template_file="source/templates/Submissions.json"
+              elif [[ "$file" == *"/Transitions/"* ]]; then
+                category="Transitions"
+                template_file="source/templates/Transitions.json"
+              elif [[ "$file" == *"/Principles/"* ]]; then
+                category="Principles"
+                template_file="source/templates/Principles.json"
+              elif [[ "$file" == *"/Systems/"* ]]; then
+                category="Systems"
+                template_file="source/templates/Systems.json"
+              else
+                echo "  ✗ Unknown category - skipping"
+                continue
+              fi
+
+              # Copy template to preprocessing dir
+              if [ -f "$template_file" ]; then
+                cp "$template_file" "/tmp/preprocessing/${file_base}_template.json"
+                echo "  ✓ Template copied: $template_file"
+              fi
+
+              # Run validation and save results
+              echo "  → Validating JSON..."
+              python3 scripts/validate_json.py --file "$file" > "/tmp/preprocessing/${file_base}_validation.txt" 2>&1 || true
+
+              if grep -q "Valid" "/tmp/preprocessing/${file_base}_validation.txt"; then
+                echo "  ✓ Validation passed"
+              else
+                echo "  ⚠ Validation issues found (Claude will fix)"
+              fi
+
+            else
+              # MARKDOWN FILE PROCESSING
+              category=$(basename "$(dirname "$file")")
+
+              echo "  → Markdown file in $category"
+
+              # Try to find template
+              if ls "source/templates/$category"/*.json >/dev/null 2>&1; then
+                template_file=$(ls "source/templates/$category"/*.json | head -1)
+                cp "$template_file" "/tmp/preprocessing/${file_base}_template.json"
+                echo "  ✓ Template found: $template_file"
+              else
+                # No template - find 5 random examples
+                echo "  → No template, finding 5 example files..."
+                find "$(dirname "$file")" -name "*.md" \
+                  ! -name "$filename" \
+                  ! -name "CONTRIBUTING-*" \
+                  ! -name "index.md" \
+                  -type f | shuf | head -5 > "/tmp/preprocessing/${file_base}_examples.txt"
+
+                example_count=$(wc -l < "/tmp/preprocessing/${file_base}_examples.txt")
+                echo "  ✓ Found $example_count example files"
+              fi
+            fi
+
+            # Add to Claude's file list
+            CLAUDE_FILES="${CLAUDE_FILES}${file}"$'\n'
+
+          done <<< "${{ steps.select_files.outputs.selected_files }}"
+
+          echo ""
+          echo "========================================"
+          echo "Pre-processing complete!"
+          echo "========================================"
+          echo "  Content catalog: /tmp/preprocessing/content_catalog.txt"
+          echo "  Templates: /tmp/preprocessing/*_template.json"
+          echo "  Examples: /tmp/preprocessing/*_examples.txt"
+          echo "  Validations: /tmp/preprocessing/*_validation.txt"
+
+          echo "claude_files<<EOF" >> $GITHUB_OUTPUT
+          echo "$CLAUDE_FILES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
       - name: Prepare PAA context with Claude
+        if: ${{ github.event.inputs.enable_paa == 'true' || github.event_name == 'schedule' }}
         id: prepare_paa
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
-            You are a BJJ SEO analyst preparing "People Also Ask" (PAA) context for content improvement.
+            You are a BJJ SEO analyst preparing "People Also Ask" (PAA) context for AI search optimization.
 
             # Your Mission
-            For each selected article below, fetch PAA data from Google SERP using the DataForSEO MCP server and prepare structured context for the next improvement step.
+            Fetch PAA data from Google SERP for each article and prepare structured AI SEO guidance.
 
             # Selected Articles
-            ${{ steps.select_files.outputs.selected_files }}
+            ${{ steps.preprocess.outputs.claude_files }}
 
             # Process for Each Article
 
             1. **Extract Seed Keyword**
-               - Read the article file
-               - Extract title from YAML frontmatter (look for `title:` field)
-               - Clean the title to extract main keyword (remove "| BJJ Graph" suffix, "| BJJ Submission" etc.)
-               - Fallback: use filename if title not found
+               - Read the file (.md or .json)
+               - For .json: use `name` field
+               - For .md: use `title` from YAML frontmatter
+               - Clean: remove "| BJJ Graph", "| BJJ Submission", etc.
+               - Fallback: use filename
 
             2. **Fetch PAA Data**
-               - Use `mcp__dataforseo__serp_organic_live_advanced` tool
-               - Parameters:
-                 - keyword: extracted seed keyword
-                 - location_name: "United States"
-                 - language_code: "en"
-                 - device: "desktop"
-                 - people_also_ask_click_depth: 2
-                 - depth: 50
-               - Extract PAA questions and any expanded answers
+               Use `mcp__dataforseo__serp_organic_live_advanced`:
+               ```
+               keyword: <extracted_keyword>
+               location_name: "United States"
+               language_code: "en"
+               device: "desktop"
+               people_also_ask_click_depth: 2
+               depth: 50
+               ```
 
-            3. **Extract Current Structure**
-               - From the article, extract all H2 (`## `) and H3 (`### `) headings
-               - Save as a list for comparison
+            3. **Build AI SEO Context**
+               For each article, create `/tmp/paa_output/<filename>_paa.json`:
+               ```json
+               {
+                 "article_path": "source/content/...",
+                 "seed_keyword": "extracted keyword",
+                 "paa_questions": [
+                   {
+                     "question": "What is...",
+                     "answer_snippet": "...",
+                     "source_url": "...",
+                     "priority": "high|medium|low",
+                     "integration_strategy": "dedicated_faq|improve_heading|add_section"
+                   }
+                 ],
+                 "heading_optimizations": [
+                   {
+                     "current": "Mount Position",
+                     "suggested": "What is Mount Position in BJJ?",
+                     "rationale": "Matches conversational query pattern"
+                   }
+                 ],
+                 "missing_content_opportunities": [
+                   "Add section: When to Use Mount",
+                   "Add section: Common Mount Mistakes"
+                 ]
+               }
+               ```
 
-            4. **Build Context File**
-               - For each article, create a JSON file: `paa_context_{filename}.json`
-               - Structure:
-                 ```json
-                 {
-                   "article_path": "source/content/...",
-                   "seed_keyword": "extracted keyword",
-                   "current_sections": ["H2: Section 1", "H3: Subsection 1.1", ...],
-                   "paa_questions": [
-                     {
-                       "question": "What is...",
-                       "answer_snippet": "...",
-                       "source_url": "..."
-                     }
-                   ],
-                   "analysis_summary": "Brief summary of PAA coverage gaps and opportunities"
-                 }
-                 ```
-               - Save to `/tmp/paa_output/` directory
+            4. **Create Summary**
+               Create `/tmp/paa_output/summary.txt`:
+               - Total PAA questions found
+               - High-priority questions (direct answers needed)
+               - Content gap analysis
+               - Suggested new articles
 
-            5. **Ensure CSV Exists**
-               - Check if `todo/suggested_new_files.csv` exists
-               - If not, create it with headers: `relative_path,plan`
-               - Don't modify contents, just ensure it exists
+            5. **Ensure CSV exists**
+               Check `todo/suggested_new_files.csv` - create if missing with headers: `relative_path,plan`
 
-            # Output Requirements
-
-            - Create `/tmp/paa_output/` directory
-            - One JSON context file per article
-            - Create `/tmp/paa_output/summary.txt` with:
-              - List of processed articles
-              - Number of PAA questions found per article
-              - Key themes/topics discovered
-            - Ensure `todo/suggested_new_files.csv` exists
-
-            Begin processing now. Use the MCP DataForSEO tools to fetch real PAA data.
+            Begin processing. Focus on high-intent questions that match user search behavior.
           claude_args: |
             --mcp-config '{"mcpServers":{"dataforseo":{"command":"npx","args":["-y","@modelcontextprotocol/server-dataforseo"],"env":{"DATAFORSEO_LOGIN":"${{ secrets.DATAFORSEO_LOGIN }}","DATAFORSEO_PASSWORD":"${{ secrets.DATAFORSEO_PASSWORD }}"}}}}'
             --allowedTools 'Read,Write,Glob,Bash(mkdir:*),Bash(ls:*),mcp__dataforseo__serp_organic_live_advanced'
 
-      - name: Improve BJJ content with Claude
+      - name: Improve content with AI SEO optimization
         id: improve_content
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
-            You are a black-belt BJJ technical documentation bot, SEO expert, and AI search optimization specialist for the BJJ Graph project. Your expertise spans decades of mat experience, technical analysis, and content optimization for both human readers and AI-powered search engines.
+            You are an elite BJJ black belt instructor AND Google AI search optimization expert.
 
-            # PAA Context Available
-            The previous step has prepared "People Also Ask" data for your selected articles.
-            - Check `/tmp/paa_output/` directory for context files
-            - Each file contains: seed keyword, current sections, PAA questions, and gap analysis
-            - Use PAA insights to:
-              - Add missing sections that address common questions
-              - Create 2-4 sentence "Answer Capsules" for each major section
-              - Improve heading clarity to directly answer questions
-              - Front-load key facts in section openings
-            - Read `/tmp/paa_output/summary.txt` for an overview
+            Your mission: Aggressively optimize BJJ content for AI search engines (Google AI Overview, Bing Chat, Perplexity) while maintaining technical accuracy and safety.
 
-            # New Article Suggestions
-            If you identify 1-3 new articles that would fill content gaps (based on PAA or your analysis):
-            - Append lines to `todo/suggested_new_files.csv`
-            - Format: `relative_path,plan`
-            - Example: `source/content/Principles/Base-and-Posture.md,"Article covering base maintenance and posture principles; sections: definition, biomechanics, common errors, drills; target: beginners; why: referenced in 15+ positions but no dedicated article"`
-            - Only suggest high-value articles that don't already exist
+            # Pre-Processed Context Available
 
-            # Your Mission
-            Systematically enhance the following pre-selected BJJ technique files with surgical precision, targeting the highest-impact improvements first. These files were selected from the 100 oldest files in the repository to prioritize neglected content.
+            The bash pre-processing step has prepared everything you need:
 
-            # Files to Improve
-            ${{ steps.select_files.outputs.selected_files }}
+            ## 1. Content Catalog (for [[Wikilinks]])
+            `/tmp/preprocessing/content_catalog.txt` - Complete list of all linkable content
 
-            # Standards to Follow
+            Read this file FIRST. Use ONLY names from this list for [[Links]].
 
-            Read these contributor guides to understand ALL requirements:
-            - source/content/Positions/CONTRIBUTING-POSITIONS.md (Position Standard V2 with Visual Description requirements)
-            - source/content/Transitions/CONTRIBUTING-TRANSITIONS.md (Transition Standard V2)
-            - source/content/Submissions/CONTRIBUTING-SUBMISSIONS.md (Submission Standard with SAFETY FIRST)
-            - source/content/Principles/CONTRIBUTING-CONCEPTS.md (Concept Standard)
-            - source/content/Systems/CONTRIBUTING-SYSTEMS.md (System Standard)
-            - source/content/Learning/COnTRIBUTING-LEARNING.md (Learning Resource Standard)
-            - source/content/CONTRIBUTING-YAML-SCHEMA.md (Complete schema reference)
+            **Link format rules:**
+            - Use canonical names only: [[Mount]], [[Triangle Choke]], [[Hip Escape]]
+            - For positions with variants, prefer specific: [[Mount Top]] not [[Mount]]
+            - Bold first mention: **Mount** (also called Mounted Position)
+            - Define aliases immediately: "The **Triangle Choke** (or sankaku-jime)..."
 
-            Follow ALL requirements from the appropriate guide for each file type.
+            ## 2. Templates & Examples
 
-            # AI Search Optimization Principles (Microsoft/Bing/Copilot)
+            For each file, check `/tmp/preprocessing/<filename>_template.json` or `<filename>_examples.txt`
 
-            Apply these principles to make content AI-ready for inclusion in search answer boxes:
+            **If template exists:** Follow JSON structure exactly
+            **If examples exist:** Read all 5 examples, identify common patterns, mimic structure
 
-            **Content Structure for AI:**
-            - Use clear, descriptive H2/H3 headings that directly answer questions
-            - Break content into short, focused sections (2-4 sentences per paragraph)
-            - Lead each section with the most important information first
-            - Use definitive, factual language - avoid vague terms like "might," "could," "possibly"
-            - Structure content as direct answers to implicit user questions
+            ## 3. Validation Results
 
-            **Clarity & Directness:**
-            - Write in active voice with concrete, specific statements
-            - Define technical terms immediately when first used
-            - Use numbered lists for steps/sequences, bulleted lists for features/benefits
-            - Avoid large text blocks - max 4-5 sentences per paragraph
-            - Front-load key facts in first 1-2 sentences of each section
+            Check `/tmp/preprocessing/<filename>_validation.txt` for each .json file.
 
-            **Schema & Structured Data:**
-            - Ensure schema markup accurately reflects visible content
-            - Keep HowTo steps clear, actionable, and properly sequenced
-            - FAQ schema questions should match natural language queries users ask
+            Fix all validation errors. Common issues:
+            - Broken links (use content catalog to fix)
+            - Success rates: ensure beginner ≤ intermediate ≤ advanced
+            - Missing required fields (check template)
 
-            **Accessibility for AI Parsing:**
-            - Avoid hidden information or content behind interactions
-            - Keep important data in main content flow, not footnotes or asides
-            - Use consistent terminology throughout (don't vary terms for same concept)
-            - Ensure headings create logical content hierarchy
+            ## 4. PAA Data (if available)
 
-            # Production-Ready Content Requirements
+            ${{ (github.event.inputs.enable_paa == 'true' || github.event_name == 'schedule') && 'Check `/tmp/paa_output/<filename>_paa.json` for each file. Use PAA insights to guide content optimization.' || 'PAA data not available this run.' }}
 
-            **REMOVE or FIX immediately if found:**
-            - Dev notes like "TODO:", "FIXME:", "XXX:", "HACK:", "NOTE TO DEV"
-            - SEO placeholders like "SEO TODO:", "SEO:", "[Add keywords here]"
-            - Draft markers: "DRAFT", "WIP", "PLACEHOLDER", "TBD", "Coming soon"
-            - Internal references to file paths like `/todo/`, `/docs/` in public-facing content
-            - Vague language: "This might work", "Could be effective", "Possibly useful"
-            - Unfinished sections with "..." or incomplete sentences
+            # Files to Process
+            ${{ steps.preprocess.outputs.claude_files }}
 
-            Content must be publication-ready, polished, and professional with no internal development artifacts visible.
+            # AI Search Optimization Strategy
 
-            # Priority Detection & Execution
+            ## Core Principles
 
-            As an expert, you know what makes content truly valuable. For each file, detect and prioritize:
+            **1. Conversational Query Matching**
+            - Transform headings into natural questions users ask AI
+            - Current: "Mount Position Setup" → Optimized: "How do I set up Mount position?"
+            - Current: "Triangle Escapes" → Optimized: "What are the best ways to escape Triangle Choke?"
+            - Current: "Guard Passing Principles" → Optimized: "How do I pass guard in BJJ?"
 
-            **🔴 HIGH PRIORITY (Fix First):**
-            - **Production Issues**: Remove ALL dev notes, TODOs, SEO remarks, draft markers, placeholders
-            - **Missing Visual Description** (Positions): If absent or under 400 characters - critical for learner comprehension and AI parsing
-            - **Missing/Incomplete Safety Sections** (Submissions): Any submission without comprehensive safety warnings
-            - **Missing Execution Steps** (All types): Core technical content must be complete
-            - **Vague Language**: Replace conditional/uncertain language with definitive statements
-            - **Poor Content Structure**: Break up large paragraphs (>5 sentences), add clear headings
+            **2. Entity Recognition & Consistency**
+            - Always use canonical names: **Mount** (not "mounted position", "top mount")
+            - Define aliases on first mention: "**De La Riva Guard** (DLR or De La Riva)"
+            - Bold/emphasize entities: "From **Closed Guard**, establish **Sleeve Control**..."
+            - Add schema markup notes for entities (we'll handle JSON-LD separately)
 
-            **🟡 MEDIUM PRIORITY (Enhance Second):**
-            - **AI Search Optimization**: Improve heading clarity, front-load key facts, use direct language
-            - **Variant Linking**: For Position variants (Top/Bottom), ensure proper cross-linking with parent_variant and sibling_variants fields, or child_variants field (if parent)
-            - **Common Errors Format**: Upgrade from 3 errors to comprehensive 5-10 error format with ⚠️ DANGER labels
-            - **Expert Insights**: Ensure all three perspectives (Danaher, Gordon Ryan, Eddie Bravo) are present and substantive
-            - **FAQ Section**: Add if missing or has fewer than 5 Q&A pairs with natural language questions
-            - **Short Sections**: Ensure paragraphs are concise (2-4 sentences), breaking up text walls
+            **3. Step-by-Step Clarity (8-15 detailed steps)**
+            - Number all sequences: "1. Grip opponent's collar...", "2. Pull opponent forward..."
+            - Sub-steps for complex moves: "3a. Bring your right leg over...", "3b. Hook behind head..."
+            - Each step is ONE atomic action
+            - Start with body positioning, end with completion/transition
 
-            **🟢 STANDARD IMPROVEMENTS (Apply Always):**
-            - YAML frontmatter completeness
-            - Success rate consistency across skill levels
-            - Wikilink accuracy
-            - Decision tree logic
-            - Training progressions
-            - Schema markup accuracy
+            **4. Direct Answer Boxes**
+            - First paragraph = concise 2-3 sentence answer to title question
+            - Front-load key facts: success rates, difficulty level, prerequisites
+            - Example: "Mount is an offensive position where you sit on opponent's torso. Success rate: Beginner 50%, Advanced 75%. Requires: base, hip control, weight distribution."
 
-            # Your Expert Process
+            ## Content Restructuring Guidelines
 
-            Apply your black-belt judgment to each file:
-            1. **Scan for Production Issues** - Check for and remove dev notes, TODOs, SEO remarks, draft markers
-            2. **Diagnose** - Read file and identify improvement priorities
-            3. **Consult Standards** - Reference appropriate CONTRIBUTING guide for that content type
-            4. **Optimize for AI Search** - Apply Microsoft's principles: clear headings, short sections, direct language
-            5. **Execute Improvements** - Apply fixes in priority order (HIGH → MEDIUM → STANDARD)
-            6. **Update Bot Metadata** - For EVERY file processed, add/update this in YAML frontmatter:
-               ```yaml
-               bot_metadata:
-                 last_improved: "2025-10-19"
-               ```
-               Use today's date in YYYY-MM-DD format. This MUST be done even if no other changes were made.
-            7. **Validate Quality** - Ensure all improvements meet V2 standards and are production-ready
+            **You have FULL REWRITE AUTHORITY.** Optimize aggressively for AI SEO.
 
-            Remember: You're crafting production-ready, AI-optimized content that serves both human learners and AI search engines. Every improvement should reflect technical depth, student safety, and clarity for AI parsing. No development artifacts should remain in published content.
+            ### For .json Files
 
-            Begin improving the files listed above now.
-          claude_args: "--allowedTools 'Read,Edit,Write,Glob,Grep,Bash(git:*)'"
+            **Read:**
+            1. Template: `/tmp/preprocessing/<filename>_template.json`
+            2. Current file content
+            3. Validation results: `/tmp/preprocessing/<filename>_validation.txt`
+            4. PAA data: `/tmp/paa_output/<filename>_paa.json` (if available)
+
+            **Optimize:**
+            - Fill all template fields
+            - Fix validation errors
+            - Add 8-15 detailed execution steps
+            - Ensure all transitions reference real positions from content catalog
+            - Success rates: realistic, properly ordered
+            - Add [[Wikilinks]] throughout (6-15 minimum)
+
+            **For PAA Integration:**
+            - Weave high-priority questions into existing sections
+            - Add dedicated FAQ field at end with 5-10 Q&As
+            - Improve field names/structure to match conversational queries
+
+            ### For .md Files
+
+            **Read:**
+            1. Template OR examples: `/tmp/preprocessing/<filename>_template.json` or `<filename>_examples.txt`
+            2. Current file content
+            3. PAA data: `/tmp/paa_output/<filename>_paa.json` (if available)
+
+            **Optimize:**
+
+            **Structure transformation:**
+            ```markdown
+            # How do I [Technique]? | BJJ Graph
+
+            <!-- Direct answer box (2-3 sentences) -->
+            **[Technique]** is [concise definition]. Success rate: Beginner X%, Advanced Y%. Requires: [prerequisites].
+
+            ## What is [Technique]?
+
+            [Definition paragraph - define all entities, use canonical names]
+
+            **[Technique Name]** (also called [aliases]) is when [description]...
+
+            From **[[Starting Position]]**, you transition to **[[Ending Position]]**...
+
+            ## How to Execute [Technique] (Step-by-Step)
+
+            Follow these 10 steps to master [Technique]:
+
+            1. **Setup:** [detailed action]
+            2. **Grip:** [detailed action with specifics]
+            3. **Movement:** [detailed body mechanics]
+            ...
+            10. **Finish:** [completion criteria]
+
+            ## When Should I Use [Technique]?
+
+            [Situational guidance with clear scenarios]
+
+            ## What are Common Mistakes with [Technique]?
+
+            **⚠️ DANGER:** [Critical safety/technical error]
+
+            1. **Mistake:** [common error]
+               **Fix:** [how to correct]
+
+            ## Frequently Asked Questions
+
+            ### [PAA Question 1 from DataForSEO]?
+            [Direct 2-4 sentence answer]
+
+            ### [PAA Question 2]?
+            [Direct answer]
+
+            [5-10 FAQ questions total]
+
+            ## Related Techniques
+
+            - **[[Related Technique 1]]** - [how it relates]
+            - **[[Related Technique 2]]** - [how it relates]
+            ```
+
+            **Heading optimization:**
+            - Convert ALL headings to questions where possible
+            - Use natural language: "How", "What", "When", "Why", "Which"
+            - Match PAA questions when available
+
+            **Content density:**
+            - Paragraphs: 2-4 sentences max
+            - Lists: Use bullet/numbered lists extensively
+            - Bold: Emphasize entities and key terms
+            - Links: 10-20 [[Wikilinks]] minimum per article
+
+            ## Production Requirements
+
+            **REMOVE immediately:**
+            - TODO, FIXME, XXX, HACK, NOTE TO DEV
+            - "SEO TODO:", "[Add keywords]", "PLACEHOLDER"
+            - "DRAFT", "WIP", "TBD", "Coming soon"
+            - Vague language: "might work", "could be effective", "possibly"
+            - Internal paths: `/todo/`, `/docs/`
+            - Incomplete sentences or "..." trails
+
+            **ADD if missing:**
+            - Bot metadata in YAML:
+              ```yaml
+              bot_metadata:
+                last_improved: "$(date +%Y-%m-%d)"
+                optimization_pass: "ai_seo_v1"
+              ```
+
+            ## New Article Suggestions
+
+            If PAA reveals content gaps or you identify opportunities:
+            - Append to `todo/suggested_new_files.csv`
+            - Format: `relative_path,"plan with why/target/sections"`
+            - Example: `source/content/Principles/Base-Maintenance.md,"Core principle referenced in 20+ positions; target: beginners; sections: definition, mechanics, drills; gap: no dedicated article exists"`
+
+            # Execution Order
+
+            Process files in this order:
+            1. Read content catalog
+            2. For each file:
+               a. Read template/examples
+               b. Read validation results (if .json)
+               c. Read PAA data (if available)
+               d. Read current file
+               e. Apply aggressive AI SEO optimization
+               f. Save updated file
+
+            Begin optimization now. Make every article a top AI search result.
+          claude_args: "--allowedTools 'Read,Edit,Write,Bash(date:*),Bash(cat:*)'"
+
+      - name: Validate and retry .json files
+        id: validate_retry
+        run: |
+          echo "========================================"
+          echo "Validating and retrying .json files"
+          echo "========================================"
+
+          chmod +x ./scripts/fix_content.sh
+          UPDATED_FILES=""
+          FIXED_FILES=""
+
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
+            [[ "$file" != *.json ]] && continue
+
+            echo ""
+            echo "Validating: $file"
+
+            if python3 scripts/validate_json.py --file "$file" 2>&1 | grep -q "Valid"; then
+              echo "  ✓ Validation passed"
+              UPDATED_FILES="${UPDATED_FILES}${file}"$'\n'
+            else
+              echo "  ✗ Validation failed - retrying with fix_content.sh (max 3 attempts)"
+
+              attempts=0
+              fixed=false
+
+              while [[ $attempts -lt 3 ]]; do
+                ((attempts++))
+                echo "    Attempt $attempts/3..."
+
+                if ./scripts/fix_content.sh "$file"; then
+                  if python3 scripts/validate_json.py --file "$file" 2>&1 | grep -q "Valid"; then
+                    echo "    ✓ Fixed successfully"
+                    UPDATED_FILES="${UPDATED_FILES}${file}"$'\n'
+                    FIXED_FILES="${FIXED_FILES}${file}"$'\n'
+                    fixed=true
+                    break
+                  fi
+                fi
+              done
+
+              if [ "$fixed" = false ]; then
+                echo "    ✗ Failed after 3 attempts - manual review needed"
+              fi
+            fi
+          done <<< "${{ steps.preprocess.outputs.claude_files }}"
+
+          echo ""
+          echo "========================================"
+          echo "Validation complete"
+          echo "========================================"
+
+          echo "updated_json_files<<EOF" >> $GITHUB_OUTPUT
+          echo "$UPDATED_FILES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+          echo "fixed_json_files<<EOF" >> $GITHUB_OUTPUT
+          echo "$FIXED_FILES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Regenerate markdown from validated .json
+        if: steps.validate_retry.outputs.updated_json_files != ''
+        run: |
+          echo "Regenerating markdown from validated .json files..."
+
+          while IFS= read -r json_file; do
+            [ -z "$json_file" ] && continue
+            echo "  → $json_file"
+            python3 scripts/json_to_md.py --file "$json_file" || echo "    ⚠ Warning: Regeneration failed"
+          done <<< "${{ steps.validate_retry.outputs.updated_json_files }}"
 
       - name: Check for changes
         id: check_changes
         run: |
           if [[ -n $(git status --porcelain) ]]; then
             echo "has_changes=true" >> $GITHUB_OUTPUT
-            echo "Changes detected, will create PR"
+
+            CHANGED_FILES=$(git status --porcelain | wc -l)
+            JSON_CHANGES=$(git status --porcelain | grep "\.json$" | wc -l)
+            MD_CHANGES=$(git status --porcelain | grep "\.md$" | wc -l)
+
+            echo "changes_count=$CHANGED_FILES" >> $GITHUB_OUTPUT
+            echo "json_count=$JSON_CHANGES" >> $GITHUB_OUTPUT
+            echo "md_count=$MD_CHANGES" >> $GITHUB_OUTPUT
+
+            echo "Changes detected:"
+            echo "  Total: $CHANGED_FILES files"
+            echo "  JSON: $JSON_CHANGES files"
+            echo "  MD: $MD_CHANGES files"
           else
             echo "has_changes=false" >> $GITHUB_OUTPUT
-            echo "No changes detected, skipping PR creation"
+            echo "No changes"
           fi
 
       - name: Create Pull Request
@@ -274,80 +599,129 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          # Configure git with token for authentication
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Create a unique branch name with timestamp
+
           BRANCH_NAME="content-improvement-bot/$(date +%Y%m%d-%H%M%S)"
-          
-          # Create and switch to new branch
           git checkout -b "$BRANCH_NAME"
-          
-          # Add all changes
           git add .
-          
-          # Get list of changed files
+
           CHANGED_FILES=$(git diff --cached --name-only)
 
-          # Create commit message in a temp file
-          echo "Automated content improvements" > /tmp/commit-msg.txt
-          echo "" >> /tmp/commit-msg.txt
-          echo "Files improved:" >> /tmp/commit-msg.txt
-          echo "$CHANGED_FILES" >> /tmp/commit-msg.txt
-          echo "" >> /tmp/commit-msg.txt
+          cat > /tmp/commit-msg.txt << EOF
+          Automated AI SEO content optimization
 
-          # Add note if CSV was updated
-          if grep -q "^todo/suggested_new_files.csv$" <<< "$CHANGED_FILES"; then
-            echo "New article suggestions added to suggested_new_files.csv" >> /tmp/commit-msg.txt
-            echo "" >> /tmp/commit-msg.txt
-          fi
+          Files optimized: ${{ steps.check_changes.outputs.changes_count }}
+          - JSON files: ${{ steps.check_changes.outputs.json_count }}
+          - Markdown files: ${{ steps.check_changes.outputs.md_count }}
 
-          echo "Generated by content-improvement-bot workflow" >> /tmp/commit-msg.txt
-          
+          Optimizations:
+          - Conversational query headings
+          - Entity consistency (canonical names)
+          - 8-15 step execution sequences
+          - PAA FAQ integration: ${{ (github.event.inputs.enable_paa == 'true' || github.event_name == 'schedule') && 'enabled' || 'disabled' }}
+          - [[Wikilink]] validation
+          - JSON schema validation
+
+          Files:
+          $CHANGED_FILES
+
+          Generated by content-improvement-bot workflow
+          EOF
+
           git commit -F /tmp/commit-msg.txt
-          
-          # Configure git to use the GH_TOKEN for authentication
           git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
-          
-          # Push the branch
           git push origin "$BRANCH_NAME"
-          
-          # Create PR body
-          echo "## Automated Content Improvements" > /tmp/pr-body.md
-          echo "" >> /tmp/pr-body.md
-          echo "This PR contains automated improvements to BJJ Graph content files." >> /tmp/pr-body.md
-          echo "" >> /tmp/pr-body.md
-          echo "### Files Modified" >> /tmp/pr-body.md
-          echo '```' >> /tmp/pr-body.md
-          echo "$CHANGED_FILES" >> /tmp/pr-body.md
-          echo '```' >> /tmp/pr-body.md
-          echo "" >> /tmp/pr-body.md
-          echo "### Improvements Applied" >> /tmp/pr-body.md
-          echo "- SEO optimization (titles, descriptions, metadata)" >> /tmp/pr-body.md
-          echo "- AI search optimization (clear headings, structured Q&A)" >> /tmp/pr-body.md
-          echo "- Content standards compliance (V2 format)" >> /tmp/pr-body.md
-          echo "- Production-ready formatting" >> /tmp/pr-body.md
-          echo "- Bot metadata tracking" >> /tmp/pr-body.md
-          echo "" >> /tmp/pr-body.md
-          echo "### Review Guidelines" >> /tmp/pr-body.md
-          echo "1. Check that all changes maintain technical accuracy" >> /tmp/pr-body.md
-          echo "2. Verify SEO metadata is properly formatted" >> /tmp/pr-body.md
-          echo "3. Ensure wikilinks still resolve correctly" >> /tmp/pr-body.md
-          echo "4. Confirm expert insights remain substantive" >> /tmp/pr-body.md
-          echo "" >> /tmp/pr-body.md
-          echo "**Generated by**: Content Improvement Bot workflow" >> /tmp/pr-body.md
-          echo "**Run ID**: ${{ github.run_id }}" >> /tmp/pr-body.md
-          echo "**Triggered**: $(date -u '+%Y-%m-%dT%H:%M:%SZ')" >> /tmp/pr-body.md
-          
-          # Create the PR using GitHub CLI (without labels to ensure it always succeeds)
+
+          cat > /tmp/pr-body.md << 'EOFBODY'
+          ## 🤖 Automated AI SEO Content Optimization
+
+          This PR contains **aggressive AI search optimization** using the modernized workflow with intelligent bash pre-processing.
+
+          ### 📊 Summary
+          - **JSON files**: ${{ steps.check_changes.outputs.json_count }}
+          - **Markdown files**: ${{ steps.check_changes.outputs.md_count }}
+          - **Total changes**: ${{ steps.check_changes.outputs.changes_count }} files
+          - **PAA data**: ${{ (github.event.inputs.enable_paa == 'true' || github.event_name == 'schedule') && '✅ Enabled (DataForSEO)' || '❌ Disabled' }}
+          - **Auto-fixed**: ${{ steps.validate_retry.outputs.fixed_json_files != '' && 'Yes (validation retry loop)' || 'None needed' }}
+
+          ### 🎯 AI SEO Optimizations Applied
+
+          **Conversational Query Matching:**
+          - Headings transformed to questions: "What is Mount?", "How do I escape?"
+          - First paragraph = direct answer box for AI snippets
+
+          **Entity Recognition:**
+          - Canonical names used consistently: **Mount**, **Triangle Choke**
+          - Aliases defined on first mention: "**De La Riva** (DLR)"
+          - Bold emphasis on all technique/position names
+
+          **Step-by-Step Clarity:**
+          - All techniques have 8-15 detailed steps
+          - Each step = one atomic action
+          - Sub-steps for complex movements
+
+          **PAA Integration** ${{ (github.event.inputs.enable_paa == 'true' || github.event_name == 'schedule') && '(Enabled)' || '(Disabled)' }}:
+          - Dedicated FAQ sections at article end
+          - 5-10 questions from Google PAA data
+          - High-priority questions woven into content
+
+          **[[Wikilink]] Validation:**
+          - All links validated against content catalog
+          - 10-20 links per article minimum
+          - Prefer specific variants: [[Mount Top]] over [[Mount]]
+
+          ### 🔧 Technical Processing
+
+          **Pre-processing (Bash):**
+          1. Generated content catalog → `/tmp/preprocessing/content_catalog.txt`
+          2. Auto-filled empty .json files (<200 bytes) with `fix_content.sh`
+          3. Detected template types (SINGLE/DUAL/FAMILY positions)
+          4. Read templates and 5 examples per file
+          5. Pre-validated .json files, saved results
+
+          **Claude Optimization:**
+          - Full rewrite authority for AI SEO
+          - Used pre-processed context (no file discovery overhead)
+          - Applied entity consistency rules
+          - Converted headings to questions
+          - Added detailed execution steps
+
+          **Post-processing:**
+          - Validated all .json files
+          - Retry loop (max 3 attempts) for validation failures
+          - Auto-generated .md from validated .json
+          - Preserved JSON as source of truth
+
+          ### 📝 Files Modified
+          ```
+          $CHANGED_FILES
+          ```
+
+          ### ✅ Review Checklist
+          - [ ] Headings are conversational questions
+          - [ ] First paragraphs are direct answers (2-3 sentences)
+          - [ ] Entities use canonical names consistently
+          - [ ] All techniques have 8-15 detailed steps
+          - [ ] FAQ sections present (if PAA enabled)
+          - [ ] [[Wikilinks]] resolve correctly
+          - [ ] JSON validates successfully
+          - [ ] No dev artifacts (TODO, FIXME, etc.)
+          - [ ] Success rates properly ordered
+
+          ---
+          **Workflow**: Content Improvement Bot (AI SEO Optimized)
+          **Run ID**: ${{ github.run_id }}
+          **Timestamp**: $(date -u '+%Y-%m-%dT%H:%M:%SZ')
+          **Selection**: Git creation date (oldest files)
+          **Model**: Claude Sonnet 4.5
+          EOFBODY
+
           PR_URL=$(gh pr create \
-            --title "Automated content improvements ($(date +%Y-%m-%d))" \
+            --title "🤖 AI SEO optimization ($(date +%Y-%m-%d))" \
             --body-file /tmp/pr-body.md \
             --base main \
             --head "$BRANCH_NAME")
 
           echo "Created PR: $PR_URL"
-
-          # Try to add labels (optional - won't fail if labels don't exist)
-          gh pr edit "$BRANCH_NAME" --add-label "automated" --add-label "content-improvement" || echo "Labels not found, skipping label addition"
+          gh pr edit "$BRANCH_NAME" --add-label "automated" --add-label "content-improvement" --add-label "ai-seo" || true

@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Grip Advantage | BJJ Concept | BJJ Graph",
     "description": "Understand Grip Advantage in BJJ. Learn strategic grip acquisition, denial patterns, asymmetric control creation. Cross-position applications included.",
-    "concept_id": "C103",
+    "principle_id": "P103",
     "tags": [
       "bjj",
       "concept",
@@ -62,34 +62,34 @@
       "description": "Translating grip advantage principles to no-gi contexts through strategic control of wrists, elbows, head position, and body connections that serve equivalent functions to traditional gi grips in creating positional leverage."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Grip Fighting",
+      "principle_name": "Grip Fighting",
       "relationship_type": "Prerequisite",
       "description": "Grip Fighting provides the tactical foundation and specific techniques for establishing and breaking grips, while Grip Advantage represents the strategic framework for understanding which grips to prioritize and when."
     },
     {
-      "concept_name": "Control Point Hierarchy",
+      "principle_name": "Control Point Hierarchy",
       "relationship_type": "Complementary",
       "description": "Understanding control point hierarchy allows practitioners to recognize which grips provide the most strategic value in specific positions, directly informing grip advantage strategy and prioritization."
     },
     {
-      "concept_name": "Posture Breaking",
+      "principle_name": "Posture Breaking",
       "relationship_type": "Extension",
       "description": "Grip advantage often serves as the prerequisite for effective posture breaking, as dominant grips provide the leverage necessary to compromise opponent's structural integrity and defensive positioning."
     },
     {
-      "concept_name": "Guard Passing Principles",
+      "principle_name": "Guard Passing Principles",
       "relationship_type": "Complementary",
       "description": "In passing scenarios, grip advantage determines who controls the engagement distance and angles, with the passer seeking grips that facilitate pressure and the guard player seeking grips that enable retention and sweeps."
     },
     {
-      "concept_name": "Action and Reaction",
+      "principle_name": "Action and Reaction",
       "relationship_type": "Complementary",
       "description": "Grip advantage creates action-reaction dynamics where opponent must respond to your established controls, allowing you to anticipate and exploit their defensive responses with prepared technical sequences."
     },
     {
-      "concept_name": "Timing and Rhythm",
+      "principle_name": "Timing and Rhythm",
       "relationship_type": "Complementary",
       "description": "Effective grip acquisition and denial requires precise timing to secure controls during opponent's transitional moments or defensive gaps, making timing and rhythm essential components of grip advantage implementation."
     }

@@ -395,7 +395,7 @@ Warnings: 234
 ```bash
 # Bot executes these commands automatically:
 git config user.name "BJJ Graph Validation Bot"
-git config user.email "validation-bot@bjjgraph.com"
+git config user.email "validation-bot@bjjgraph.org"
 
 git fetch origin
 if git show-ref --verify --quiet refs/remotes/origin/bot/monthly-validation; then

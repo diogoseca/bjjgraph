@@ -1,1164 +1,71 @@
 {
-  "metadata": {
-    "title": "Scarf Hold Bottom | BJJ Position Guide | BJJ Graph",
-    "description": "Escape Scarf Hold Bottom (Kesa Gatame) in BJJ. Defensive pinning position requiring precise escape mechanics. Learn bridge-and-turn and backdoor escapes with 35% success rate.",
-    "state_id": "S078",
-    "tags": [
-      "bjj",
-      "position",
-      "pin",
-      "kesa-gatame",
-      "bottom",
-      "defensive",
-      "escape",
-      "judo"
-    ]
-  },
-  "overview": "Scarf Hold Bottom (Kesa Gatame Bottom) is a defensive position where you are pinned on your back with your opponent sitting perpendicular to your torso, their hip crushing into your ribs while controlling your near arm across their body. This traditional judo pin creates significant control problems due to the perpendicular angle and arm isolation, requiring specific escape knowledge to recover guard or create scrambles.\n\nThe position is characterized by being flat on your back with one arm trapped and controlled, your opponent's weight concentrated through their hip into your ribcage, and limited mobility due to the cross-face pressure preventing you from turning into them. Unlike standard side control escapes, scarf hold requires different mechanical approaches focused on bridge-and-turn movements or backdoor escapes when opponent turns away.\n\nScarf hold bottom is particularly challenging because the perpendicular angle creates force vectors that are difficult to counter with standard framing and shrimping techniques. The trapped arm eliminates your primary defensive tool, while the hip pressure restricts breathing and movement. Success requires patience, proper timing, and understanding of the specific vulnerabilities in your opponent's base and weight distribution.",
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Defensive",
-    "risk_level": "High",
-    "energy_cost": "Medium",
-    "time_sustainability": "Short to Medium"
-  },
-  "state_invariants": [
-    "Flat on your back with shoulders to mat, facing upward toward opponent who sits perpendicular to your body at approximately 90-degree angle to your torso",
-    "Near arm trapped and controlled across opponent's body, typically with your tricep against their abdomen while they grip your wrist or gi sleeve, eliminating primary framing capability",
-    "Opponent's hip positioned directly against your ribcage creating constant crushing pressure through their pelvis into your torso, restricting breathing and lateral movement",
-    "Opponent's arm wrapped around your head creating cross-face pressure that prevents you from turning toward them, limiting escape directions",
-    "Limited mobility with most escape routes blocked by perpendicular angle and arm control, requiring specific escape mechanics rather than standard side control escapes"
-  ],
-  "prerequisites": [
-    "Opponent successfully passed your guard or achieved dominant position through takedown or scramble",
-    "Your near arm became trapped during transition or guard pass sequence",
-    "You are flat on back with opponent establishing perpendicular angle and hip pressure",
-    "Opponent has consolidated control before you could establish defensive frames",
-    "Understanding that standard side control escapes will not work due to perpendicular angle"
-  ],
+  "name": "Scarf Hold Position",
+  "slug": "scarf-hold-position",
+  "description": "Master Scarf Hold (Kesa Gatame) in BJJ. Traditional judo pinning position with perpendicular control angle. Complete guide covering bottom escapes and top control strategies.",
+  "variant_uniqueness": "Perpendicular angle creates unique escapes",
+  "overview": "Scarf Hold Position (Kesa Gatame) is a fundamental pinning position derived from Judo where control is established through a perpendicular angle to the opponent's body. This traditional pinning position creates unique mechanical challenges due to the T-shaped configuration, with the controlling player sitting perpendicular across the opponent's chest while managing head and arm control. The position appears in both gi and no-gi grappling, though it remains more prevalent among practitioners with judo backgrounds or those favoring classical pinning systems.\n\nThe position's effectiveness stems from the perpendicular angle creating force vectors that negate standard side control escape mechanics. For the top player, this angle allows weight distribution through the hips directly into the opponent's ribcage while controlling the trapped arm and head. For the bottom player, the perpendicular configuration eliminates lateral shrimping effectiveness, requiring bridge-and-turn mechanics or backdoor escapes when the top player shifts weight.\n\nScarf Hold Position represents a transitional control platform rather than purely a static hold. The top player cycles between submission attempts (americana, kimura, arm triangle) and positional transitions (to mount, north-south, or back control) based on defensive reactions. The bottom player must recognize timing windows when weight shifts occur and exploit the inherent vulnerabilities in the top player's base through systematic escape progressions focused on arm recovery, frame creation, and explosive bridge-and-roll mechanics.",
   "key_principles": [
-    "Bridge and Turn: Primary escape involves explosive bridge combined with turning toward opponent's head",
-    "Backdoor Escape: If opponent's weight shifts forward, turn away and recover guard or scramble",
-    "Arm Recovery: Freeing trapped arm is critical for creating frames and escape options",
-    "Breathing Management: Control breathing despite rib compression to maintain energy for escape bursts",
-    "Base Disruption: Target opponent's extended back leg and posted hand to break their stability",
-    "Timing Windows: Exploit moments when opponent transitions to submissions or shifts weight",
-    "Patience Under Pressure: Wait for right moment rather than wasting energy on ineffective struggles"
+    "Perpendicular angle creates unique force vectors that negate standard parallel-position escape mechanics",
+    "Hip pressure from top position drives through pelvis into opponent's ribcage, restricting breathing and creating psychological pressure",
+    "Trapped arm serves as primary control anchor, eliminating bottom player's strongest defensive tool",
+    "Head control prevents rotation and bridging, completing the positional control triangle of angle, arm, and head",
+    "Bottom player must use bridge-and-turn mechanics rather than lateral shrimping due to perpendicular configuration",
+    "Position functions as transitional platform for both offense and defense, not purely static control",
+    "Base vulnerabilities exist when top player posts wide or commits weight backward, creating reversal opportunities"
   ],
-  "offensive_transitions": [
+  "related_positions": [
     {
-      "technique": "Bridge and Roll",
-      "target_position": "Scramble Position",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      }
-    },
-    {
-      "technique": "Hip Escape",
-      "target_position": "Guard Recovery",
-      "success_rates": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45
-      }
-    },
-    {
-      "technique": "Elbow Escape",
-      "target_position": "Half Guard Bottom",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Shrimp Escape",
-      "target_position": "Guard Recovery",
-      "success_rates": {
-        "beginner": 18,
-        "intermediate": 32,
-        "advanced": 48
-      }
-    },
-    {
-      "technique": "Frame and Shrimp",
-      "target_position": "Guard Recovery",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      }
-    },
-    {
-      "technique": "Rolling to Guard",
-      "target_position": "Closed Guard Bottom",
-      "success_rates": {
-        "beginner": 10,
-        "intermediate": 25,
-        "advanced": 40
-      }
-    }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Americana from Side Control",
-      "target_position": "Americana Control",
-      "success_rate": 65
-    },
-    {
-      "technique": "Kimura from Side Control",
-      "target_position": "Kimura Control Position",
-      "success_rate": 55
-    },
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Mount",
-      "success_rate": 70
-    },
-    {
-      "technique": "Transition to North-South",
-      "target_position": "North-South",
-      "success_rate": 80
-    },
-    {
-      "technique": "Armbar from Side Control",
-      "target_position": "Armbar Control",
-      "success_rate": 50
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Bridge and Roll",
-      "target_position": "Scramble Position",
-      "trigger": "Opponent shifts weight too far forward or posts hand too close"
-    },
-    {
-      "technique": "Hip Escape",
-      "target_position": "Guard Recovery",
-      "trigger": "Opponent releases pressure briefly while transitioning to submission"
-    },
-    {
-      "technique": "Elbow Escape",
-      "target_position": "Half Guard Bottom",
-      "trigger": "Opponent's hip pressure reduces when attempting to advance position"
-    },
-    {
-      "technique": "Rolling to Guard",
-      "target_position": "Closed Guard Bottom",
-      "trigger": "Opponent turns away exposing their back, creating backdoor escape opportunity"
-    }
-  ],
-  "decision_tree": [
-    {
-      "condition": "If opponent shifts weight forward attempting americana or other submission",
-      "actions": [
-        {
-          "technique": "Bridge and Roll",
-          "target": "Scramble Position",
-          "probability": 45
-        },
-        {
-          "technique": "Hip Escape",
-          "target": "Guard Recovery",
-          "probability": 35
-        }
-      ]
-    },
-    {
-      "condition": "If opponent's base becomes narrow or hand posts close to body",
-      "actions": [
-        {
-          "technique": "Bridge and Roll",
-          "target": "Scramble Position",
-          "probability": 50
-        },
-        {
-          "technique": "Frame and Shrimp",
-          "target": "Guard Recovery",
-          "probability": 40
-        }
-      ]
-    },
-    {
-      "condition": "If opponent transitions toward mount exposing their back",
-      "actions": [
-        {
-          "technique": "Rolling to Guard",
-          "target": "Closed Guard Bottom",
-          "probability": 55
-        },
-        {
-          "technique": "Elbow Escape",
-          "target": "Half Guard Bottom",
-          "probability": 45
-        }
-      ]
-    },
-    {
-      "condition": "If you successfully free your trapped arm",
-      "actions": [
-        {
-          "technique": "Frame and Shrimp",
-          "target": "Guard Recovery",
-          "probability": 60
-        },
-        {
-          "technique": "Shrimp Escape",
-          "target": "Guard Recovery",
-          "probability": 50
-        }
-      ]
-    },
-    {
-      "condition": "If opponent maintains heavy static pressure without advancing",
-      "actions": [
-        {
-          "technique": "Wait for weight shift then execute explosive bridge",
-          "target": "Scramble Position",
-          "probability": 40
-        },
-        {
-          "technique": "Work to free trapped arm incrementally",
-          "target": "Scarf Hold Bottom",
-          "probability": 35
-        }
-      ]
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attempting to turn into opponent against their cross-face pressure",
-      "consequence": "Wastes energy fighting against their strongest control point. This plays directly into their positional strategy and makes escape nearly impossible.",
-      "correction": "Focus on bridge-and-turn movements over their head or backdoor escapes when they shift weight. Turn toward their head, not into their chest."
-    },
-    {
-      "error": "Using standard side control shrimp escapes",
-      "consequence": "Perpendicular angle makes traditional shrimping ineffective. You end up exhausting yourself without creating meaningful escape opportunities.",
-      "correction": "Use explosive bridge combined with turning motion, or wait for backdoor escape opportunity. Scarf hold requires position-specific escapes."
-    },
-    {
-      "error": "Leaving free hand inactive or poorly positioned",
-      "consequence": "Misses opportunities to post, frame, or disrupt opponent's base. Your free hand is your primary escape tool when near arm is trapped.",
-      "correction": "Use free hand to post on mat for bridges, push opponent's head, or grab their belt/gi to create leverage for turning escapes."
-    },
-    {
-      "error": "Accepting the position and waiting passively",
-      "consequence": "Allows opponent to consolidate control and set up submissions methodically. Static defense leads to inevitable submission or point loss.",
-      "correction": "Continuously work for small improvements: arm recovery, base disruption, timing windows. Stay active even if movements are small."
-    },
-    {
-      "error": "Bridging straight up instead of at angle toward opponent's head",
-      "consequence": "Opponent easily bases out and maintains position. Vertical bridges don't create the rotational force needed to off-balance them.",
-      "correction": "Bridge at 45-degree angle toward opponent's head while turning your body. The bridge should create rotation, not just vertical lift."
-    },
-    {
-      "error": "Forgetting to protect trapped arm from submission attacks",
-      "consequence": "Opponent secures americana or other shoulder lock before you recognize the threat. Trapped arm is already isolated - very vulnerable.",
-      "correction": "Keep trapped arm strong and defend shoulder rotation immediately. If you feel shoulder pressure, this must be your top priority over escape."
-    }
-  ],
-  "training_drills": [
-    {
-      "name": "Bridge and Turn Escape Drill",
-      "description": "Partner holds light scarf hold while you practice explosive bridge combined with turning toward their head. Focus on timing, angle of bridge (45 degrees), and using free hand for posting. Build to full resistance progressively.",
-      "duration": "8 minutes (multiple rounds)"
-    },
-    {
-      "name": "Arm Recovery Progressions",
-      "description": "From scarf hold bottom, work systematically to free trapped arm using incremental movements, grip fighting, and timing opponent's weight shifts. Partner provides graduated resistance from 50% to 100%.",
-      "duration": "10 minutes"
-    },
-    {
-      "name": "Backdoor Escape Recognition",
-      "description": "Partner transitions from scarf hold toward mount. Practice recognizing the moment when their back is exposed and executing backdoor escape to recover guard. Develop timing sensitivity for this escape window.",
-      "duration": "6 minutes"
-    },
-    {
-      "name": "Positional Sparring from Scarf Hold Bottom",
-      "description": "Start in established scarf hold bottom position. Your goal: escape to guard within 2 minutes. Partner's goal: maintain position or submit. Reset after each escape or submission. Builds practical escape skills under pressure.",
-      "duration": "10 minutes (five 2-minute rounds)"
-    }
-  ],
-  "optimal_submission_paths": [
-    {
-      "name": "Fastest Escape to Guard Recovery",
-      "path": "Scarf Hold Bottom → Bridge and Roll → Scramble Position → Guard Recovery (high-risk, high-reward escape)"
-    },
-    {
-      "name": "Conservative Escape via Half Guard",
-      "path": "Scarf Hold Bottom → Elbow Escape → Half Guard Bottom → Guard Recovery (safer progression with intermediate position)"
-    },
-    {
-      "name": "Backdoor Escape When Opponent Advances",
-      "path": "Scarf Hold Bottom → Rolling to Guard (when opponent turns away) → Closed Guard Bottom (exploits positional transition)"
-    },
-    {
-      "name": "Progressive Improvement Path",
-      "path": "Scarf Hold Bottom → Free trapped arm → Frame and Shrimp → Guard Recovery (methodical escape building frames first)"
-    }
-  ],
-  "related_content": [
-    {
-      "name": "Scarf Hold Top",
-      "relationship": "Opposite perspective of same position, understanding top position helps inform escape strategies"
-    },
-    {
-      "name": "Side Control Bottom",
-      "relationship": "Similar pinning situation but with parallel alignment, shares some escape principles but requires different mechanics"
-    },
-    {
-      "name": "Kesa Gatame Bottom",
-      "relationship": "Alternative name for scarf hold bottom position, traditional judo terminology"
-    },
-    {
-      "name": "Reverse Kesa-Gatame Bottom",
-      "relationship": "Variation where opponent faces opposite direction, different escape mechanics but similar pressure concepts"
-    },
-    {
-      "name": "Modified Scarf Hold Bottom",
-      "relationship": "Variation with different arm control configuration, requires adapted escape approaches"
-    },
-    {
-      "name": "Guard Recovery",
-      "relationship": "Primary escape destination from scarf hold bottom, goal position for most escape sequences"
-    },
-    {
-      "name": "Half Guard Bottom",
-      "relationship": "Intermediate escape position, often used as stepping stone to full guard recovery"
-    },
-    {
-      "name": "Scramble Position",
-      "relationship": "Result of successful bridge-and-roll escape, creates 50-50 situation with positional reset opportunities"
-    },
-    {
-      "name": "Bridge and Roll",
-      "relationship": "Primary escape technique from scarf hold bottom, requires explosive power and proper timing"
-    },
-    {
-      "name": "Americana Control Bottom",
-      "relationship": "Common submission threat from scarf hold bottom, must defend against this arm attack"
-    }
-  ],
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    },
-    "advancement_probability": {
-      "beginner": 15,
-      "intermediate": 30,
-      "advanced": 45
-    },
-    "submission_probability": {
-      "beginner": 5,
-      "intermediate": 10,
-      "advanced": 20
-    },
-    "average_time": "30-60 seconds before escape or submission"
-  },
-  "expert_insights": {
-    "danaher": "Scarf hold bottom is mechanically disadvantageous due to the perpendicular force vector and arm isolation. The key insight is that standard side control escape mechanics will fail here - the angle is completely different. Your primary escape is the bridge-and-turn, but it must be executed at approximately 45 degrees toward the opponent's head, not straight vertical. The free hand becomes critical for posting and creating rotational force. Many practitioners waste energy trying to turn into the cross-face, which is exactly what the top player wants. Instead, you must either bridge over their head or wait for the backdoor escape when they shift weight forward. The trapped arm situation is serious - you're one small mistake away from an americana. Arm recovery must be progressive and opportunistic, never forced. When drilling escapes, focus on explosive power combined with technical precision. A weak bridge will never work regardless of technique.",
-    "gordon_ryan": "In competition, I rarely end up in scarf hold bottom because most modern players use standard side control. When I do face it, usually from judoka or old-school grapplers, I focus on not panicking under the pressure. The rib crush is uncomfortable but manageable if you control your breathing. My main focus is protecting the trapped arm from americana while waiting for them to make a mistake. Often they'll shift weight trying to finish the submission, and that's your window for the bridge-and-turn. Don't rush the escape - one explosive movement at the right time is better than constant struggling. If I feel them moving toward mount, I immediately turn away for the backdoor escape. In gi, you can use their lapel or belt for grip leverage during the turn. In no-gi, everything has to come from body mechanics and explosive power. The position teaches you important lessons about staying composed under heavy pressure and timing explosive escapes.",
-    "eddie_bravo": "Scarf hold bottom is old school but you need to know the escapes. The main thing is recognizing it's different from standard side control. Don't try to shrimp your way out like normal - it won't work. The bridge-and-turn is your primary weapon, but timing is everything. I teach my students to wait for the opponent to commit to something - a submission attempt, transition to mount, whatever. That weight shift creates the escape window. Your free hand is huge here - use it to post, push their head, grab their belt. In no-gi, the backdoor escape becomes even more viable because they can't control you as tightly with fabric grips. One thing I emphasize is not giving up psychologically. The pressure is intense and claustrophobic, but you can escape if you're patient and technical. Keep working incrementally: free the arm a bit, create a small frame, wait for the timing. Eventually you'll get your window. Also, in training, spend time in this position to build comfort under pressure. It's miserable at first but you adapt."
-  }
-}
-{
-  "metadata": {
-    "title": "Scarf Hold Position | BJJ Position Guide | BJJ Graph",
-    "description": "Master Scarf Hold (Kesa Gatame) in BJJ. Complete guide covering control, transitions, and submissions. Success rates: Beginner 60%, Intermediate 75%, Advanced 85%.",
-    "state_id": "S242",
-    "tags": [
-      "bjj",
-      "state",
-      "pin",
-      "control",
-      "kesa-gatame"
-    ]
-  },
-  "overview": "Scarf Hold (Kesa Gatame) is a fundamental pinning position where the top practitioner controls the opponent from a perpendicular angle, trapping one arm while using their body weight to immobilize the opponent's upper body. This position is particularly effective for maintaining control with minimal energy expenditure and offers unique submission opportunities. The angular nature of this pin creates a different dynamic than traditional north-south or side control positions, limiting specific escape routes while opening others. Historically a cornerstone of judo newaza, scarf hold has evolved in BJJ to become both a control position and a transitional platform for attacking the arms and neck. The position's effectiveness relies on precise weight distribution, head control, and maintaining the perpendicular angle that prevents the opponent from turning into or away from you.",
-  "state_properties": {
-    "point_value": 3,
-    "position_type": "Offensive/Controlling",
-    "risk_level": "Medium",
-    "energy_cost": "Medium",
-    "time_sustainability": "Medium"
-  },
-  "state_invariants": [
-    "Top practitioner's torso positioned perpendicular across opponent's chest with hips seated beside opponent's ribs, creating a T-shape configuration that maximizes control while minimizing opponent's leverage opportunities",
-    "Opponent's near arm trapped and controlled tightly under top practitioner's armpit, with elbow junction secured against ribcage to prevent arm extraction and eliminate primary escape pathway",
-    "Opponent's head pulled upward and controlled against top practitioner's chest or shoulder, restricting neck mobility and preventing bridging movements that could create escape space",
-    "Top practitioner's hips heavy and low against opponent's chest wall with direct pressure through the pelvis onto opponent's diaphragm, making breathing difficult and sapping defensive energy",
-    "Top practitioner's legs spread wide in a stable base configuration, with far leg extended and near leg bent to create tripod stability that resists rolling attempts and directional pressure changes"
-  ],
-  "prerequisites": [
-    "Successful transition from side control, knee on belly, or completed guard pass",
-    "Control of opponent's near arm secured before rotating into perpendicular angle",
-    "Opponent flat on back with limited mobility and compromised defensive structure",
-    "Proper angular positioning established relative to opponent's centerline to maximize control leverage",
-    "Head control obtained to restrict opponent's ability to bridge or turn into guard recovery"
-  ],
-  "key_principles": [
-    "Maintain strict perpendicular angle to opponent's body, never allowing opponent to turn you parallel as this destroys the position's fundamental geometry",
-    "Keep opponent's near arm controlled and isolated under your armpit with constant inward pressure to prevent arm extraction",
-    "Pull opponent's head tight to your chest using collar grip or head wrap to prevent bridging and control opponent's spine alignment",
-    "Keep hips heavy and low against opponent's chest, sitting on their diaphragm to make breathing labored and resistance exhausting",
-    "Maintain wide base with legs for stability, using far leg post and near leg base to create tripod structure resistant to rolling",
-    "Distribute weight through hips and chest, not relying solely on arm strength for control",
-    "Control opponent's far arm to prevent effective framing and create openings for arm attacks"
-  ],
-  "offensive_transitions": [
-    {
-      "technique": "Americana from Side Control",
-      "target_position": "Americana Control",
-      "success_rates": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
-      }
-    },
-    {
-      "technique": "Kimura from Side Control",
-      "target_position": "Kimura Control Position",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Transition to North-South",
-      "target_position": "North-South",
-      "success_rates": {
-        "beginner": 65,
-        "intermediate": 78,
-        "advanced": 88
-      }
-    },
-    {
-      "technique": "Side Control to Mount",
-      "target_position": "Mount",
-      "success_rates": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80
-      }
-    },
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Knee on Belly",
-      "success_rates": {
-        "beginner": 55,
-        "intermediate": 68,
-        "advanced": 82
-      }
-    },
-    {
-      "technique": "Armbar from Side Control",
-      "target_position": "Armbar Control",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "North-South Choke",
-      "target_position": "Submission Position Generic",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Arm Triangle",
-      "target_position": "Submission Position Generic",
-      "success_rates": {
-        "beginner": 38,
-        "intermediate": 52,
-        "advanced": 68
-      }
-    }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Elbow Escape",
-      "target_position": "Guard Recovery",
-      "success_rate": 35
-    },
-    {
-      "technique": "Bridge and Roll",
-      "target_position": "Top Position",
-      "success_rate": 25
-    },
-    {
-      "technique": "Hip Escape",
-      "target_position": "Half Guard Bottom",
-      "success_rate": 40
-    },
-    {
-      "technique": "Frame and Shrimp",
-      "target_position": "Closed Guard Bottom",
-      "success_rate": 38
-    },
-    {
-      "technique": "Turtle Transition",
-      "target_position": "Turtle Position",
-      "success_rate": 45
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Transition to North-South",
-      "target_position": "North-South",
-      "trigger": "Opponent attempts to turn away or extract trapped arm"
-    },
-    {
-      "technique": "Side Control to Mount",
-      "target_position": "Mount",
-      "trigger": "Opponent creates space with bridge or frames to escape hips"
-    },
-    {
-      "technique": "Kimura from Side Control",
-      "target_position": "Kimura Control Position",
-      "trigger": "Opponent extends far arm to frame against your head or shoulder"
-    },
-    {
-      "technique": "Armbar from Side Control",
-      "target_position": "Armbar Control",
-      "trigger": "Opponent straightens trapped arm attempting to pull it free"
-    }
-  ],
-  "decision_tree": [
-    {
-      "condition": "If opponent attempts to turn into you and recover guard",
-      "actions": [
-        {
-          "technique": "Transition to North-South",
-          "target": "North-South",
-          "probability": 75
-        },
-        {
-          "technique": "Side Control to Mount",
-          "target": "Mount",
-          "probability": 65
-        }
-      ]
-    },
-    {
-      "condition": "If opponent bridges aggressively and creates space under hips",
-      "actions": [
-        {
-          "technique": "Transition to Mount",
-          "target": "Knee on Belly",
-          "probability": 70
-        },
-        {
-          "technique": "Side Control to Mount",
-          "target": "Mount",
-          "probability": 68
-        }
-      ]
-    },
-    {
-      "condition": "If opponent extends far arm to frame against your head or neck",
-      "actions": [
-        {
-          "technique": "Kimura from Side Control",
-          "target": "Kimura Control Position",
-          "probability": 62
-        },
-        {
-          "technique": "Americana from Side Control",
-          "target": "Americana Control",
-          "probability": 58
-        }
-      ]
-    },
-    {
-      "condition": "If opponent turns away and gives back",
-      "actions": [
-        {
-          "technique": "Turtle Transition",
-          "target": "Turtle Position",
-          "probability": 72
-        },
-        {
-          "technique": "Transition to North-South",
-          "target": "North-South",
-          "probability": 68
-        }
-      ]
-    },
-    {
-      "condition": "If opponent remains flat and defensive with no escape attempt",
-      "actions": [
-        {
-          "technique": "Americana from Side Control",
-          "target": "Americana Control",
-          "probability": 65
-        },
-        {
-          "technique": "Armbar from Side Control",
-          "target": "Armbar Control",
-          "probability": 60
-        },
-        {
-          "technique": "North-South Choke",
-          "target": "Submission Position Generic",
-          "probability": 55
-        }
-      ]
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Opponent's near arm not adequately controlled and trapped under armpit",
-      "consequence": "Opponent extracts arm and uses it to frame, push, or turn into you, leading to guard recovery or position reversal",
-      "correction": "Ensure arm is deeply secured under your armpit with elbow junction pinned against your ribs, maintaining constant inward pressure to prevent extraction. Grip your own gi or belt to reinforce the trap."
-    },
-    {
-      "error": "Head control too loose or non-existent",
-      "consequence": "Opponent can bridge explosively, lift their shoulders off the mat, and create the space needed for hip escape or turning into guard",
-      "correction": "Pull opponent's head tight to your chest using deep collar grip or head wrap, keeping their neck flexed forward and shoulders pinned flat. Your chest should press their face, restricting neck extension."
-    },
-    {
-      "error": "Hips too high off opponent's chest",
-      "consequence": "Opponent can breathe freely, maintain energy, and create space underneath to insert knee or turn into you for guard recovery",
-      "correction": "Sit heavy with hips directly on opponent's chest/diaphragm, distributing weight through your pelvis onto their ribcage. Your sitting bones should make breathing difficult for them."
-    },
-    {
-      "error": "Weight distribution too far forward onto shoulders instead of hips",
-      "consequence": "Position becomes exhausting to maintain, opponent can bridge more effectively, and you lose mobility for transitions or submissions",
-      "correction": "Keep majority of weight through hips seated on opponent's chest, using upper body for control and steering rather than pressure. Let gravity do the work through proper positioning."
-    },
-    {
-      "error": "Base too narrow with legs together or insufficient posting",
-      "consequence": "Opponent can roll you over with coordinated bridge and hip movement, or turn you back toward side control, escaping the perpendicular angle",
-      "correction": "Extend far leg wide for posting, bend near leg for base, creating stable tripod configuration. Widen stance progressively if opponent attempts to roll or bridge aggressively."
-    },
-    {
-      "error": "Allowing opponent to grip your far leg or belt",
-      "consequence": "Opponent gains leverage for bridge and roll escape, potentially sweeping you over your own head or compromising your base stability",
-      "correction": "Keep far leg extended beyond opponent's reach, monitor their far arm, and transition immediately if they establish grip on your leg or belt. Use near arm to control their far arm."
-    },
-    {
-      "error": "Losing perpendicular angle and drifting toward parallel positioning",
-      "consequence": "Position transforms into inferior variation of side control, opponent regains ability to turn into you, and your control mechanisms become ineffective",
-      "correction": "Maintain strict T-shape geometry with your torso across their chest. Adjust angle constantly by micro-movements of hips and legs to preserve perpendicular relationship to their centerline."
-    }
-  ],
-  "training_drills": [
-    {
-      "name": "Scarf hold maintenance against progressive resistance",
-      "description": "Partner starts with 30% resistance attempting standard escapes, progressively increasing to 70% over 3-minute rounds. Focus on maintaining perpendicular angle, arm control, and heavy hips throughout escalating resistance. Reset if position is lost.",
-      "duration": "5 rounds of 3 minutes"
-    },
-    {
-      "name": "Transition drills from side control to scarf hold and back",
-      "description": "Start in side control, rotate smoothly to scarf hold maintaining all controls, hold for 10 seconds, then rotate back to side control without loss of pressure. Partner remains defensive but doesn't actively escape. Focus on seamless transitions and uninterrupted control.",
-      "duration": "10 repetitions per side, 3 sets"
-    },
-    {
-      "name": "Submission sequences from scarf hold with resistance",
-      "description": "Flow drill attacking Americana, Kimura, and armbar from scarf hold. Partner defends each submission with 50% resistance, forcing you to chain attacks and transition between submission attempts. Complete sequence before resetting.",
-      "duration": "5 minutes continuous flow per partner"
-    },
-    {
-      "name": "Counter-transition drill",
-      "description": "Partner performs specific escape attempts (elbow escape, bridge and roll, turn to turtle) while you practice appropriate counter-transitions (to north-south, mount, or back control). Focus on timing and reading opponent's movement initiation.",
-      "duration": "2 minutes per escape type, 3 rounds"
-    }
-  ],
-  "optimal_submission_paths": [
-    {
-      "name": "Shortest path to arm submission",
-      "path": "Scarf Hold Position → Americana from Side Control → Won by Submission"
-    },
-    {
-      "name": "High-percentage kimura path",
-      "path": "Scarf Hold Position → Kimura from Side Control → Kimura Control Position → Kimura → Won by Submission"
-    },
-    {
-      "name": "Choke pathway via transition",
-      "path": "Scarf Hold Position → Transition to North-South → North-South → North-South Choke → Won by Submission"
-    },
-    {
-      "name": "Armbar finish sequence",
-      "path": "Scarf Hold Position → Armbar from Side Control → Armbar Control → Straight Armbar → Won by Submission"
-    },
-    {
-      "name": "Mount advancement to submission",
-      "path": "Scarf Hold Position → Side Control to Mount → Mount → Americana from Mount → Won by Submission"
-    }
-  ],
-  "related_content": [
-    {
-      "name": "Side Control Top",
-      "relationship": "Parent position - Scarf hold is a variation of side control with perpendicular angle"
+      "name": "Side Control",
+      "relationship": "Parent position family - scarf hold is perpendicular variation of side control pinning"
     },
     {
       "name": "Kesa Gatame",
-      "relationship": "Traditional judo name for this exact position"
+      "relationship": "Traditional judo terminology for scarf hold position"
+    },
+    {
+      "name": "Modified Scarf Hold",
+      "relationship": "Variation with different arm control configuration using underhook"
     },
     {
       "name": "Reverse Kesa-Gatame",
-      "relationship": "Opposite-side variation with reversed perpendicular angle"
-    },
-    {
-      "name": "Modified Scarf Hold Top",
-      "relationship": "Variation with different arm control configuration"
-    },
-    {
-      "name": "North-South",
-      "relationship": "Common transition target when opponent turns away"
-    },
-    {
-      "name": "Mount",
-      "relationship": "Advancement position when opponent creates space with bridge"
-    },
-    {
-      "name": "Knee on Belly",
-      "relationship": "Transitional position for maintaining control while opponent escapes"
-    },
-    {
-      "name": "Americana from Side Control",
-      "relationship": "Primary submission attack from this position"
-    },
-    {
-      "name": "Kimura from Side Control",
-      "relationship": "Secondary arm attack when opponent defends Americana"
-    },
-    {
-      "name": "Elbow Escape",
-      "relationship": "Primary escape technique opponent will attempt from bottom"
-    },
-    {
-      "name": "Side Control Escapes",
-      "relationship": "Conceptual framework for understanding opponent's defensive options"
-    },
-    {
-      "name": "Pressure Application",
-      "relationship": "Core concept for maintaining effective control in this position"
-    }
-  ],
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    },
-    "advancement_probability": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    },
-    "submission_probability": {
-      "beginner": 20,
-      "intermediate": 35,
-      "advanced": 50
-    },
-    "average_time": "45-90 seconds before transition or submission attempt"
-  },
-  "expert_insights": {
-    "danaher": "Scarf hold represents a biomechanically efficient pinning system that leverages perpendicular body positioning to create maximum control with minimum energy expenditure. The key to understanding this position lies in recognizing that you're creating a structural dilemma for the opponent - their strongest escape routes require them to turn into you, which naturally transitions you to superior positions like north-south or mount. The trapped arm serves as an anchor point that prevents rotation in one direction, while your body weight and head control prevent rotation in the opposite direction. Most practitioners fail to appreciate that scarf hold is fundamentally a transitional platform rather than a static hold - you should be constantly reading opponent's escape attempts and flowing to appropriate counter-positions. The position's effectiveness multiplies when you master the micro-adjustments of hip pressure and angle maintenance that prevent the opponent from establishing any meaningful frames or leverage points. From a systematic perspective, scarf hold fits beautifully into a pin-based control system where you're cycling between side control, north-south, and scarf hold variations, never allowing the opponent to establish a defensive rhythm. The arm attacks available from this position - Americana, Kimura, and various armbars - all stem from controlling the elbow joint while using your body position to prevent defensive rotation.",
-    "gordon_ryan": "In competition, I use scarf hold primarily as a transitional control position rather than a long-term pin, especially in no-gi where the grips are less reliable and opponents can extract their arms more easily. The position works best when you flow into it from side control as the opponent attempts to turn into you - you catch them mid-movement and establish the perpendicular angle before they can fully commit to the turn. What makes scarf hold valuable at the highest levels is that most competitors don't expect it, so they haven't developed specific defensive responses the way they have for standard side control or mount. I'll use it to set up arm attacks, particularly the Kimura, because the angle naturally isolates the far arm when they try to frame. The key in competition is not to marry the position - if I feel them starting to extract the trapped arm or establish any kind of effective frame, I'm immediately transitioning to north-south or mount rather than fighting to maintain a compromised scarf hold. Against tough opponents who are good at creating space and recovering guard, scarf hold gives me a different pressure angle that disrupts their standard escape sequences. In gi, the position becomes significantly stronger because you can use collar grips for head control and belt grips to prevent hip movement, making it much harder for them to bridge effectively or turn into their escape.",
-    "eddie_bravo": "Scarf hold is underutilized in modern BJJ because everyone's obsessed with more flashy positions, but it's a sneaky powerful control position when you understand how to integrate it into a flow-based approach. In the 10th Planet system, we'll hit scarf hold when opponents try to turn away from our side control pressure, catching them in that transition and immediately hunting for the far arm to set up Kimuras or transition to the truck position. What's interesting about scarf hold is that it creates a completely different escape dilemma than standard side control - the opponent can't use their usual shrimp and recover guard sequence because the angle's all wrong. I teach my students to use scarf hold as part of a positional flow rather than a static pin - you're constantly moving between side control, knee on belly, scarf hold, and reverse scarf hold, never letting them figure out which escape to use. The arm attacks from here are legit, especially the Americana and various arm triangle setups, but the real magic happens when you start combining scarf hold with leg attacks and truck entries. When they turn away trying to escape your scarf hold, that's when you can swim to the back or enter the truck system. The position also works great in gi where you can use their own collar and lapel against them for head control, making it nearly impossible for them to posture up or create the space they need. Don't sleep on the old-school positions - they became old school because they work."
-  }
-}
-{
-  "metadata": {
-    "title": "Scarf Hold Top | BJJ Position Guide | BJJ Graph",
-    "description": "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional judo pin with strong control through hip pressure and arm isolation. 70% retention rate for advanced practitioners.",
-    "state_id": "S077",
-    "tags": [
-      "bjj",
-      "position",
-      "pin",
-      "kesa-gatame",
-      "top",
-      "side-control-variation",
-      "judo",
-      "offensive"
-    ]
-  },
-  "overview": "Scarf Hold Top (Kesa Gatame) is a traditional judo pinning position worth 3 points in IBJJF rules, where you sit perpendicular to your opponent's torso with your hip against their ribs, controlling their near arm across your body while applying cross face pressure. This position offers strong control through hip pressure and arm isolation, creating both submission opportunities and pathways to more dominant positions like mount.\n\nThe position is characterized by sitting at approximately a 90-degree angle to your opponent's body, with your bodyweight distributed through your hip into their ribcage. The near arm is trapped and controlled, while your arm wraps around their head creating cross face pressure. This configuration prevents most common escapes while setting up powerful submission attacks, particularly the americana shoulder lock.\n\nScarf hold offers excellent control with lower energy expenditure, making it sustainable for extended periods. However, it carries slightly more risk than standard side control due to potential back exposure if the opponent successfully turns away. The position excels against opponents unfamiliar with its specific escapes and provides strong submission opportunities through the isolated near arm.",
-  "state_properties": {
-    "point_value": 3,
-    "position_type": "Offensive/Controlling",
-    "risk_level": "Low to Medium",
-    "energy_cost": "Low",
-    "time_sustainability": "Long"
-  },
-  "state_invariants": [
-    "Your hip positioned directly against opponent's ribcage at approximately 90-degree angle to their body, with weight concentrated through your pelvis into their torso creating constant crushing pressure that restricts breathing and movement",
-    "Opponent's near arm trapped and controlled across your body, typically with their tricep against your abdomen and your hand gripping their wrist or gi sleeve, eliminating their primary defensive tool",
-    "Your arm wrapped around opponent's head creating cross face pressure, with your hand potentially gripping their far shoulder or lapel, preventing them from turning into you",
-    "Your back leg extended for base with foot posted on mat, front leg bent with knee up, creating stable triangle base that resists bridges and turns",
-    "Opponent flat on their back with shoulders to mat, unable to turn toward you due to cross face control or away from you due to risk of back exposure"
-  ],
-  "prerequisites": [
-    "Successful transition from side control, guard pass, or takedown that places you perpendicular to opponent",
-    "Control of opponent's near arm secured before establishing full position",
-    "Opponent flat on back with limited mobility and defensive frames broken",
-    "Sufficient space to rotate hips perpendicular to opponent's torso",
-    "Understanding of scarf hold-specific control mechanics and escape prevention"
-  ],
-  "key_principles": [
-    "Hip Pressure: Heavy, constant weight through your hip into opponent's ribs restricts breathing and movement",
-    "Arm Isolation: Controlling near arm eliminates primary defensive tool and creates submission opportunities",
-    "Cross Face Control: Prevents opponent from turning into you, which is primary escape direction",
-    "Base Management: Extended back leg and bent front leg provide stability against bridges and turns",
-    "Weight Distribution: Sit on hip, not on your butt, to maximize pressure and mobility",
-    "Head Position: Keep your head low and away from opponent to prevent them grabbing it",
-    "Escape Awareness: Be ready for bridge-and-turn or back-door escapes and counter immediately"
-  ],
-  "offensive_transitions": [
-    {
-      "technique": "Americana from Side Control",
-      "target_position": "Americana Control",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Kimura from Side Control",
-      "target_position": "Kimura Control Position",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Mount",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Transition to North-South",
-      "target_position": "North-South",
-      "success_rates": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80
-      }
-    },
-    {
-      "technique": "North-South to Kimura",
-      "target_position": "Kimura Control Position",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Armbar from Side Control",
-      "target_position": "Armbar Control",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      }
-    },
-    {
-      "technique": "Far Side Armbar",
-      "target_position": "Armbar Control",
-      "success_rates": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45
-      }
-    },
-    {
-      "technique": "Side Control to Mount",
-      "target_position": "Mount",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Bridge and Roll",
-      "target_position": "Scramble Position",
-      "success_rate": 25
-    },
-    {
-      "technique": "Shrimp Escape",
-      "target_position": "Guard Recovery",
-      "success_rate": 30
-    },
-    {
-      "technique": "Hip Escape",
-      "target_position": "Half Guard Bottom",
-      "success_rate": 35
-    },
-    {
-      "technique": "Elbow Escape",
-      "target_position": "Guard Recovery",
-      "success_rate": 20
-    },
-    {
-      "technique": "Frame and Shrimp",
-      "target_position": "Guard Recovery",
-      "success_rate": 28
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Mount",
-      "trigger": "Opponent attempts to turn away from you (back-door escape)"
-    },
-    {
-      "technique": "North-South to Kimura",
-      "target_position": "Kimura Control Position",
-      "trigger": "Opponent extends arm while attempting to push your head away"
-    },
-    {
-      "technique": "Americana from Side Control",
-      "target_position": "Americana Control",
-      "trigger": "Opponent's trapped arm becomes isolated and vulnerable during escape attempt"
-    },
-    {
-      "technique": "Transition to North-South",
-      "target_position": "North-South",
-      "trigger": "Opponent creates space with bridge or begins turning into you"
-    }
-  ],
-  "decision_tree": [
-    {
-      "condition": "If opponent bridges strongly and attempts to roll you over their head",
-      "actions": [
-        {
-          "technique": "Post with free hand and extend base leg",
-          "target": "Scarf Hold Top",
-          "probability": 70
-        },
-        {
-          "technique": "Transition to North-South",
-          "target": "North-South",
-          "probability": 60
-        }
-      ]
-    },
-    {
-      "condition": "If opponent turns away from you exposing their back",
-      "actions": [
-        {
-          "technique": "Transition to Mount",
-          "target": "Mount",
-          "probability": 65
-        },
-        {
-          "technique": "Side Control to Mount",
-          "target": "Mount",
-          "probability": 60
-        }
-      ]
-    },
-    {
-      "condition": "If opponent's trapped arm becomes isolated and vulnerable",
-      "actions": [
-        {
-          "technique": "Americana from Side Control",
-          "target": "Americana Control",
-          "probability": 55
-        },
-        {
-          "technique": "Kimura from Side Control",
-          "target": "Kimura Control Position",
-          "probability": 45
-        }
-      ]
-    },
-    {
-      "condition": "If opponent creates frames with free hand and begins to shrimp",
-      "actions": [
-        {
-          "technique": "Transition to North-South",
-          "target": "North-South",
-          "probability": 50
-        },
-        {
-          "technique": "Increase hip pressure and re-establish control",
-          "target": "Scarf Hold Top",
-          "probability": 55
-        }
-      ]
-    },
-    {
-      "condition": "If opponent extends their free arm to push your head",
-      "actions": [
-        {
-          "technique": "North-South to Kimura",
-          "target": "Kimura Control Position",
-          "probability": 60
-        },
-        {
-          "technique": "Armbar from Side Control",
-          "target": "Armbar Control",
-          "probability": 45
-        }
-      ]
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Sitting too high on opponent's chest rather than ribs",
-      "consequence": "Reduces pressure effectiveness, makes bridging escapes easier, allows opponent to turn more easily. High position lacks the crushing hip pressure that makes scarf hold effective.",
-      "correction": "Sit lower with hip against ribs, not chest. Your hip should be in the pit of their ribcage. This maximizes pressure and stability while preventing bridges."
-    },
-    {
-      "error": "Releasing control of the trapped arm",
-      "consequence": "Opponent immediately creates frames and escapes. Near arm control is the foundation of the position - lose it and you lose everything.",
-      "correction": "Maintain constant grip on trapped arm with at least one hand. Never release completely unless transitioning to another control position or submission."
-    },
-    {
-      "error": "Keeping head too high or too close to opponent",
-      "consequence": "Opponent can grab your head and use it to turn into you or create leverage for escape. This is a common beginner mistake that negates positional advantage.",
-      "correction": "Keep head low and positioned away from opponent's free hand. Your head should be near their far shoulder or armpit, not hovering above their face."
-    },
-    {
-      "error": "Posting with hand too close to body",
-      "consequence": "Narrow base makes you unstable against bridges and rolls. You become easier to sweep or escape from with explosive movement.",
-      "correction": "Extend back leg fully and post free hand wide if needed. Create a broad, stable base that distributes your weight and resists rotational force."
-    },
-    {
-      "error": "Allowing opponent to turn into you without countering",
-      "consequence": "Opponent recovers guard or creates scramble. This is the primary escape route from scarf hold and must be shut down immediately.",
-      "correction": "Increase cross face pressure and drive their head away. Transition to north-south if they persist in turning toward you."
-    },
-    {
-      "error": "Sitting on your butt instead of your hip",
-      "consequence": "Reduces pressure dramatically and makes you unstable. You lose the crushing weight that makes scarf hold effective for control and submissions.",
-      "correction": "Roll onto your hip bone, not your glutes. Your weight should flow through your hip directly into their ribcage at a perpendicular angle."
-    }
-  ],
-  "training_drills": [
-    {
-      "name": "Scarf Hold Retention Drill",
-      "description": "Partner attempts to escape using only legal techniques (no grabbing inside sleeves illegally). Top player focuses on maintaining position through hip pressure, arm control, and base management. Start with 30-second rounds and build to 2-minute rounds.",
-      "duration": "5 minutes (multiple rounds)"
-    },
-    {
-      "name": "Americana Setup from Scarf Hold",
-      "description": "From established scarf hold, practice isolating the trapped arm and setting up americana lock. Focus on proper shoulder rotation and wrist control. Partner provides resistance but doesn't fully defend. Progress to live resistance.",
-      "duration": "10 minutes"
-    },
-    {
-      "name": "Transition Flow: Scarf Hold to Mount to North-South",
-      "description": "Flow drill moving between scarf hold, mount, and north-south positions. Practice reading opponent's escape attempts and countering with appropriate transitions. Build muscle memory for positional chains.",
-      "duration": "8 minutes"
-    },
-    {
-      "name": "Bridge Defense from Scarf Hold",
-      "description": "Bottom player gives maximum effort bridges attempting to roll top player. Top player practices base extension, weight distribution, and posting to maintain position. Develops stability against explosive escape attempts.",
-      "duration": "5 minutes (30-second rounds)"
-    }
-  ],
-  "optimal_submission_paths": [
-    {
-      "name": "Shortest Path to Submission",
-      "path": "Scarf Hold Top → Americana from Side Control → Won by Submission (2 steps, high-percentage finish)"
-    },
-    {
-      "name": "High-Percentage Path via North-South",
-      "path": "Scarf Hold Top → Transition to North-South → North-South to Kimura → Kimura Control Position → Won by Submission"
-    },
-    {
-      "name": "Mount Path with Multiple Submission Options",
-      "path": "Scarf Hold Top → Transition to Mount → Mount → Armbar from Mount / Americana from Mount → Won by Submission"
-    },
-    {
-      "name": "Arm Isolation Path",
-      "path": "Scarf Hold Top → Kimura from Side Control → Kimura Control Position → Won by Submission (direct shoulder lock finish)"
-    }
-  ],
-  "related_content": [
-    {
-      "name": "Side Control Top",
-      "relationship": "Similar pinning mechanics from parallel rather than perpendicular angle, often entry point to scarf hold"
-    },
-    {
-      "name": "Kesa Gatame",
-      "relationship": "Alternative name for scarf hold position, traditional judo terminology for this exact position"
-    },
-    {
-      "name": "Reverse Kesa-Gatame",
-      "relationship": "Variation facing opposite direction with similar control principles but different submission opportunities"
-    },
-    {
-      "name": "Modified Scarf Hold Top",
-      "relationship": "Variation with modified arm control using underhook instead of arm trap"
+      "relationship": "Opposite-facing variation with reversed perpendicular angle"
     },
     {
       "name": "Kuzure Kesa-Gatame",
-      "relationship": "Modified scarf hold variation with arm underhook instead of arm trap, similar but different control points"
-    },
-    {
-      "name": "Mount",
-      "relationship": "Natural progression from scarf hold for more dominant position and higher point value"
+      "relationship": "Modified variation with arm underhook instead of trap"
     },
     {
       "name": "North-South",
-      "relationship": "Common transition target when opponent attempts to turn into you from scarf hold"
+      "relationship": "Common transition target from scarf hold for both top and bottom players"
     },
     {
-      "name": "Americana from Side Control",
-      "relationship": "Primary submission opportunity from scarf hold using isolated trapped arm"
+      "name": "Mount",
+      "relationship": "Advancement position when bottom player creates space or turns away"
     },
     {
-      "name": "Kimura from Side Control",
-      "relationship": "Secondary submission option when opponent defends americana or extends arm"
+      "name": "Americana Control",
+      "relationship": "Primary submission threat from top scarf hold position"
     },
     {
-      "name": "100 Kilos Position Top",
-      "relationship": "Heavy pressure variation that shares similar crushing hip pressure principles"
+      "name": "Kimura Control",
+      "relationship": "Secondary arm attack opportunity from scarf hold"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Common escape destination for bottom player through backdoor escape"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Intermediate guard recovery position for bottom player escapes"
+    },
+    {
+      "name": "Scramble Position",
+      "relationship": "Result of successful bridge-and-roll escape creating 50-50 situation"
     }
   ],
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    },
-    "advancement_probability": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    },
-    "submission_probability": {
-      "beginner": 20,
-      "intermediate": 35,
-      "advanced": 50
-    },
-    "average_time": "45-90 seconds"
-  },
-  "expert_insights": {
-    "danaher": "Scarf hold represents one of the most mechanically efficient pinning positions in grappling when properly executed. The perpendicular angle creates a force vector that is extremely difficult for the bottom player to counter - they cannot effectively push or pull against your weight distribution. The key is understanding that this is a hip-dominant position, not a shoulder-dominant position like standard side control. Your hip becomes a crushing tool that restricts breathing and creates psychological pressure. The trapped arm is not just controlled - it's geometrically isolated in a configuration where the opponent has minimal leverage. When transitioning to submissions, the americana becomes available because you've already solved the hardest problem: arm isolation. The position's main vulnerability is the back-door escape when opponents turn away, but this actually creates offensive opportunities if you're prepared to transition to mount or take the back.",
-    "gordon_ryan": "In competition, I use scarf hold opportunistically rather than as a primary control position. It's excellent after certain takedowns or when transitioning between positions. The americana is high-percentage if you're patient with the setup. The key is not to force it - wait for the arm to give you a small opening, then capitalize immediately. One advantage is that many modern BJJ practitioners are less familiar with scarf hold escapes since side control is taught more commonly, so they waste energy on ineffective escape attempts. I'll often use it to tire opponents before transitioning to mount or back for higher-percentage submissions. The position is particularly effective in gi where you can control the trapped arm with fabric grips. In no-gi, you need to be more active with your transitions because the escapes are slightly easier without friction.",
-    "eddie_bravo": "Scarf hold is old school but effective. In no-gi, you lose some of the gi control options but the fundamentals remain the same - hip pressure and arm control. I teach it as part of the top game progression, particularly focusing on the transition options. If they defend well, you've got mount and back available. If they defend poorly, you've got the arm. The position teaches important principles about weight distribution and perpendicular pressure that apply throughout your top game. Don't sleep on the traditional positions - they became traditional because they work. One thing I emphasize is staying mobile in scarf hold. It's not just about static pressure - be ready to flow to north-south, mount, or submissions based on their reactions. The position works great in MMA too because you can strike from here while maintaining excellent control."
-  }
-}
-{
-  "metadata": {
-    "title": "Scarf Hold Bottom | BJJ Position Guide | BJJ Graph",
-    "description": "Master Scarf Hold Bottom position in BJJ. Complete escape guide covering defensive frames, bridge mechanics, and guard recovery. Essential defensive skills with 45% escape rate.",
-    "state_id": "S153",
+  "bottom": {
+    "name": "Scarf Hold Position Bottom",
+    "description": "Escape Scarf Hold Bottom (Kesa Gatame) in BJJ. Defensive position requiring bridge-and-turn mechanics, arm recovery, and backdoor escape timing. Learn systematic escapes with 45% success rate.",
     "tags": [
       "bjj",
       "position",
@@ -1167,762 +74,684 @@
       "defensive",
       "kesa-gatame",
       "pin-escape",
-      "side-control-variant"
+      "judo"
     ],
-    "parent_variant": "Scarf Hold Position",
-    "sibling_variants": ["Scarf Hold Top"]
+    "overview": "Scarf Hold Bottom is a highly challenging defensive position where the bottom practitioner must defend against the traditional scarf hold (kesa gatame) pin, characterized by the opponent's perpendicular positioning across the chest with intense hip pressure and head control. This position demands specific escape mechanics that differ fundamentally from standard side control escapes due to the unique angle of control and weight distribution employed by the top player. Understanding the systematic approach to escaping scarf hold is essential for all practitioners, as this position appears frequently in both gi and no-gi grappling, particularly against opponents with judo backgrounds or those who favor traditional pinning positions.\n\nThe defensive challenge centers on the opponent's ability to crush your chest and control your head while isolating your near arm, creating a configuration where standard shrimping becomes ineffective. The top player sits perpendicular to your body with their hip driving into your ribs, making lateral movement extremely difficult. Successful escape requires recognizing the inherent vulnerabilities in scarf hold: the exposed back when the opponent sits heavily, the potential to attack their posted far arm, and the opportunity to exploit their base through bridge-and-roll mechanics. The position demands patience, technical precision, and the ability to chain multiple escape attempts together when individual techniques are defended.\n\nScarf Hold Bottom presents both immediate submission dangers through arm locks (particularly americana and kimura) and the risk of transition to more dominant positions like mount or north-south. The bottom player must balance defensive urgency with energy conservation, working systematically through escape progressions rather than burning out through explosive but poorly-timed attempts. Mastery of this position's defenses builds crucial understanding of perpendicular pressure escapes, bridge mechanics, and the mental composure required to escape from severe disadvantage.",
+    "state_properties": {
+      "point_value": 0,
+      "position_type": "Defensive",
+      "risk_level": "High",
+      "energy_cost": "Medium",
+      "time_sustainability": "Short to Medium"
+    },
+    "state_invariants": [
+      "Bottom player is on their back with opponent sitting perpendicular across their chest, opponent's hip positioned against bottom player's ribcage creating crushing pressure that restricts breathing and limits chest expansion",
+      "Opponent controls bottom player's head with their arm wrapped around the head and neck, creating cross-face pressure that prevents bottom player from turning toward opponent and limits head mobility",
+      "Bottom player's near-side arm (closest to opponent's body) is trapped across opponent's torso, typically controlled at the wrist or tricep, eliminating primary defensive tool and creating submission vulnerability",
+      "Opponent's weight is distributed through their hip into bottom player's chest and ribs, with their back leg extended for base and front leg bent, creating stable platform that resists bridging and rolling attempts",
+      "Bottom player's far-side arm is free but positioned at awkward angle with limited leverage due to chest compression and perpendicular positioning of opponent's body relative to bottom player's torso"
+    ],
+    "prerequisites": [
+      "Opponent has successfully passed guard or transitioned from another top control position",
+      "Opponent has secured perpendicular positioning across bottom player's chest",
+      "Opponent has established head control with arm wrapped around head and neck",
+      "Bottom player's near arm is trapped or controlled by opponent's grip or body position",
+      "Opponent has consolidated hip pressure against bottom player's ribs or chest"
+    ],
+    "key_principles": [
+      "Protect your neck immediately to prevent deep cross-face control that enables chokes and further positional consolidation",
+      "Create defensive frames with your free arm against opponent's head and shoulder to prevent complete smothering and maintain breathing space",
+      "Use bridge-and-turn mechanics rather than lateral shrimping, as opponent's perpendicular angle negates traditional side control escape patterns",
+      "Attack opponent's posted far arm or extended back leg to disrupt their base before attempting explosive bridge-and-roll escapes",
+      "Maintain controlled breathing despite chest pressure and avoid panic that leads to energy-wasting escape attempts",
+      "Hook opponent's near leg with your bottom leg to prevent transition to mount and create barrier to further advancement",
+      "Recognize windows of opportunity when opponent shifts weight to attack submissions or transition positions, then capitalize immediately with aggressive escape attempts"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Bridge and Roll",
+        "target_position": "Scramble Position",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Elbow Escape",
+        "target_position": "Half Guard",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 50,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Hip Escape",
+        "target_position": "Closed Guard",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Ghost Escape",
+        "target_position": "Turtle",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Frame and Shrimp",
+        "target_position": "Open Guard",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      },
+      {
+        "technique": "Turtle Transition",
+        "target_position": "Turtle",
+        "success_rates": {
+          "beginner": 40,
+          "intermediate": 55,
+          "advanced": 70
+        }
+      }
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Transition to Mount",
+        "target_position": "Mount",
+        "success_rate": 40
+      },
+      {
+        "technique": "Transition to North-South",
+        "target_position": "North-South",
+        "success_rate": 35
+      },
+      {
+        "technique": "Americana from Side Control",
+        "target_position": "Americana Control",
+        "success_rate": 30
+      },
+      {
+        "technique": "Kimura from Side Control",
+        "target_position": "Kimura Control",
+        "success_rate": 25
+      },
+      {
+        "technique": "Armbar from Side Control",
+        "target_position": "Armbar Control",
+        "success_rate": 20
+      }
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Re-Guard",
+        "target_position": "Half Guard",
+        "trigger": "Opponent releases head control to transition or attack submission"
+      },
+      {
+        "technique": "Granby Roll",
+        "target_position": "Turtle",
+        "trigger": "Opponent shifts weight forward toward your head creating space near hips"
+      },
+      {
+        "technique": "Technical Standup",
+        "target_position": "Standing Position",
+        "trigger": "Opponent's base becomes narrow or they over-commit to one side"
+      },
+      {
+        "technique": "Ghost Escape",
+        "target_position": "Turtle",
+        "trigger": "Opponent sits heavily backward creating space between chest and hips"
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent maintains tight control with heavy hip pressure and secure head control without attacking submissions",
+        "actions": [
+          {
+            "technique": "Frame and Shrimp",
+            "target": "Half Guard",
+            "probability": 45
+          },
+          {
+            "technique": "Elbow Escape",
+            "target": "Half Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Create frames and establish breathing space",
+            "target": "Scarf Hold Position Bottom",
+            "probability": 60
+          }
+        ]
+      },
+      {
+        "condition": "If opponent shifts weight forward attempting to transition to mount or north-south",
+        "actions": [
+          {
+            "technique": "Granby Roll",
+            "target": "Turtle",
+            "probability": 55
+          },
+          {
+            "technique": "Ghost Escape",
+            "target": "Turtle",
+            "probability": 50
+          },
+          {
+            "technique": "Turn into opponent exposing their back",
+            "target": "Back Control",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If opponent releases head control or loosens cross-face to attack far arm for americana or kimura",
+        "actions": [
+          {
+            "technique": "Hip Escape",
+            "target": "Closed Guard",
+            "probability": 60
+          },
+          {
+            "technique": "Re-Guard",
+            "target": "Half Guard",
+            "probability": 55
+          },
+          {
+            "technique": "Frame and Shrimp",
+            "target": "Open Guard",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent posts their far arm wide for base or extends back leg creating narrow base",
+        "actions": [
+          {
+            "technique": "Bridge and Roll",
+            "target": "Scramble Position",
+            "probability": 55
+          },
+          {
+            "technique": "Attack posted arm and execute bridge",
+            "target": "Scramble Position",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent sits back heavily on their hip creating space between their chest and your hips",
+        "actions": [
+          {
+            "technique": "Turtle Transition",
+            "target": "Turtle",
+            "probability": 60
+          },
+          {
+            "technique": "Turn into opponent and expose their back",
+            "target": "Turtle",
+            "probability": 55
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Attempting standard side control shrimp escapes while opponent is positioned perpendicular to your body",
+        "consequence": "Complete waste of energy with zero positional improvement, as the perpendicular angle makes lateral hip movement ineffective. Bottom player exhausts themselves while opponent maintains comfortable control.",
+        "correction": "Abandon lateral shrimping and instead focus on bridge-and-turn mechanics that exploit opponent's perpendicular positioning. Direct energy toward rotational movement rather than lateral movement."
+      },
+      {
+        "error": "Allowing opponent to consolidate deep head control and cross-face without immediate defensive response",
+        "consequence": "Drastically increased submission danger from arm locks and chokes, severely restricted breathing, and near-complete elimination of head mobility necessary for escape mechanics.",
+        "correction": "Immediately establish chin-to-chest defensive posture and create frames with free arm against opponent's head and shoulder. Fight the hands and head control before worrying about hip position."
+      },
+      {
+        "error": "Explosive bridging attempts without first compromising opponent's base by attacking posted limbs",
+        "consequence": "Opponent easily rides out the bridge with stable posting, bottom player burns energy rapidly and becomes progressively easier to control as fatigue accumulates.",
+        "correction": "Before bridging, grab opponent's far arm or gi material and pull them off balance. Only execute bridge when their base is compromised and their weight is shifting."
+      },
+      {
+        "error": "Neglecting to use bottom leg to hook opponent's near leg or control hip position",
+        "consequence": "Opponent transitions freely to mount or other dominant positions without encountering any barriers. Bottom player loses only defensive tool for preventing advancement.",
+        "correction": "Actively hook opponent's near leg with your bottom leg, creating physical barrier to mount while simultaneously setting up potential sweep opportunities through leg control."
+      },
+      {
+        "error": "Panic breathing and explosive struggling against established chest pressure rather than working systematically",
+        "consequence": "Rapid exhaustion, mental defeat, and progressive inability to execute escapes as oxygen debt accumulates. Panic creates self-fulfilling prophecy of helplessness.",
+        "correction": "Focus on controlled diaphragmatic breathing despite pressure. Work through systematic escape progressions calmly, conserving explosive energy for precise moments when windows open."
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Systematic Scarf Hold Escape Progression",
+        "description": "Partner establishes solid scarf hold with controlled pressure. Bottom player works through four-phase escape sequence for 2-minute rounds: Phase 1 (0-30 seconds) establish defensive frames and protect neck; Phase 2 (30-60 seconds) create hip movement and attack opponent's base; Phase 3 (60-90 seconds) execute bridge-and-roll attempts; Phase 4 (90-120 seconds) chain escapes together based on opponent's defensive reactions. Partner gradually increases resistance across rounds. Perform 5 rounds with 1-minute rest between rounds."
+      },
+      {
+        "name": "Bridge-and-Roll Mechanics from Scarf Hold",
+        "description": "Isolate and refine the bridge-and-roll escape specific to scarf hold positioning. Partner maintains scarf hold control while bottom player practices three-step sequence: Step 1 - Grab opponent's far arm or gi with free hand; Step 2 - Pull opponent off balance while initiating bridge; Step 3 - Roll opponent over shoulder to reverse position. Begin with cooperative drilling (15 reps), progress to moderate resistance (15 reps), finish with full resistance (10 attempts). Focus on timing, grip strength, and coordinated explosive power."
+      },
+      {
+        "name": "Scarf Hold to Turtle Transition Drilling",
+        "description": "Specific training for transitioning from scarf hold bottom to turtle position. Partner maintains scarf hold with moderate pressure. Bottom player practices ghost escape mechanics, turning into opponent's back, and achieving turtle position with good defensive posture. Emphasize smooth weight transfer, maintaining connection to opponent, and immediately establishing strong turtle base. Perform 20 successful transitions, alternating sides every 5 repetitions."
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Defensive position - escape focused",
+        "path": "Primary goal is escaping to neutral or advantageous positions rather than submitting from bottom"
+      },
+      {
+        "name": "Reversal to submission path",
+        "path": "Scarf Hold Position Bottom → Bridge and Roll → Scramble Position → Top position → Submissions"
+      },
+      {
+        "name": "Back attack opportunity",
+        "path": "Scarf Hold Position Bottom → Ghost Escape → Turtle → Back Control → Rear Naked Choke → Won by Submission"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Scarf Hold Position",
+        "relationship": "Parent position - umbrella category for both perspectives"
+      },
+      {
+        "name": "Kesa Gatame",
+        "relationship": "Traditional judo terminology for same position"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Similar defensive pin with parallel angle requiring different escape mechanics"
+      },
+      {
+        "name": "Reverse Kesa-Gatame",
+        "relationship": "Opposite-facing variation requiring modified escape strategies"
+      },
+      {
+        "name": "North-South",
+        "relationship": "Common opponent transition when escapes are attempted"
+      },
+      {
+        "name": "Mount",
+        "relationship": "Higher-risk position opponent may advance to"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Primary escape target offering defensive stability"
+      },
+      {
+        "name": "Half Guard",
+        "relationship": "Primary guard recovery target for partial escape"
+      },
+      {
+        "name": "Bridge and Roll",
+        "relationship": "Primary escape technique requiring explosive power"
+      },
+      {
+        "name": "Escape Hierarchy",
+        "relationship": "Framework for prioritizing escape attempts by success probability"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 25,
+        "intermediate": 40,
+        "advanced": 60
+      },
+      "advancement_probability": {
+        "beginner": 30,
+        "intermediate": 45,
+        "advanced": 65
+      },
+      "submission_probability": {
+        "beginner": 5,
+        "intermediate": 12,
+        "advanced": 25
+      },
+      "average_time": "60-120 seconds before escape or submission"
+    },
+    "expert_insights": {
+      "danaher": "Scarf Hold Bottom presents one of the most geometrically challenging defensive situations in grappling because the perpendicular angle of your opponent's torso relative to yours fundamentally negates the mechanical principles that make standard side control escapes effective. The key insight is recognizing that lateral hip movement—the foundation of shrimping escapes—requires your opponent's weight vector to be roughly parallel to your spine, which is not the case in scarf hold where their weight drives perpendicularly into your ribs. Therefore, your escape strategy must center on rotational rather than lateral movement, specifically bridge-and-turn mechanics that exploit the inherent instability in the perpendicular configuration. The systematic approach begins with establishing defensive frames using your free arm to prevent complete smothering and maintain breathing capacity, which is both a physical and psychological necessity. From this defensive foundation, you progressively work to compromise your opponent's base by attacking their posted far arm or extended back leg, creating the unstable moment where your bridge becomes effective. The most critical aspect is understanding that patience and systematic progression are not defensive timidity but rather the mechanically optimal approach to a position where explosive scrambling wastes energy without creating genuine escape opportunities.",
+      "gordon_ryan": "In high-level competition, scarf hold bottom is one of those positions where you absolutely cannot afford to panic because the more you thrash around, the more energy you burn and the tighter their control becomes. I immediately focus on two things when I end up here: first, getting my free arm into a strong defensive frame against their head and shoulder to prevent them from completely crushing my face and restricting my breathing, and second, staying calm enough to recognize the specific windows when escape becomes possible. The reality is that most people don't hold scarf hold forever in competition because they want to advance to mount or attack submissions, and those transitions are when you have your best opportunities. When they shift their weight to move, that's when I immediately turn into them, attack their back, or shoot for turtle. The bridge-and-roll is also surprisingly effective if you time it right—grab their far arm or their gi and really commit to pulling them off balance before you bridge, don't just bridge into their stable base. One thing I've noticed is that a lot of modern BJJ guys aren't as comfortable in scarf hold as they are in standard side control, so if you know the specific escapes, you can actually capitalize on their uncertainty. Don't waste energy on techniques that don't work from this angle; be patient, wait for your moment, then explode through the escape when the window opens.",
+      "eddie_bravo": "Scarf hold bottom is old-school judo control and it can feel super oppressive when you're stuck there, but here's the thing—when someone really commits to scarf hold, they're giving you access to their back, you just have to be savvy enough to recognize it and take it. In 10th Planet, we emphasize staying loose and mobile even under heavy pressure, and that philosophy applies perfectly to scarf hold because the more you can move and flow, the more opportunities you create. The ghost escape works beautifully here because you're sliding your body away from the pressure point while simultaneously turning into your opponent, which is exactly what you want to do against scarf hold. I also teach my guys to look for the moment when the top player sits back heavy trying to consolidate their control—that's when you turn into them aggressively and either get to turtle or start attacking their back. The bridge-and-roll is also legit if you set it up properly by grabbing their far arm or their pants and timing your bridge for when their weight is shifting. One thing I really emphasize is staying creative and not getting mentally defeated—every position has weaknesses, even a heavy old-school pin like scarf hold, and if you stay calm and keep problem-solving, you'll find the way out. Don't just accept the position, keep moving, keep creating problems for them, and eventually something will open up."
+    }
   },
-  "overview": "Scarf Hold Bottom is a highly challenging defensive position where the bottom practitioner must defend against the traditional scarf hold (kesa gatame) pin, characterized by the opponent's perpendicular positioning across the chest with intense hip pressure and head control. This position demands specific escape mechanics that differ fundamentally from standard side control escapes due to the unique angle of control and weight distribution employed by the top player. Understanding the systematic approach to escaping scarf hold is essential for all practitioners, as this position appears frequently in both gi and no-gi grappling, particularly against opponents with judo backgrounds or those who favor traditional pinning positions.\n\nThe defensive challenge centers on the opponent's ability to crush your chest and control your head while isolating your near arm, creating a configuration where standard shrimping becomes ineffective. The top player sits perpendicular to your body with their hip driving into your ribs, making lateral movement extremely difficult. Successful escape requires recognizing the inherent vulnerabilities in scarf hold: the exposed back when the opponent sits heavily, the potential to attack their posted far arm, and the opportunity to exploit their base through bridge-and-roll mechanics. The position demands patience, technical precision, and the ability to chain multiple escape attempts together when individual techniques are defended.\n\nScarf Hold Bottom presents both immediate submission dangers through arm locks (particularly americana and kimura) and the risk of transition to more dominant positions like mount or north-south. The bottom player must balance defensive urgency with energy conservation, working systematically through escape progressions rather than burning out through explosive but poorly-timed attempts. Mastery of this position's defenses builds crucial understanding of perpendicular pressure escapes, bridge mechanics, and the mental composure required to escape from severe disadvantage.",
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Defensive",
-    "risk_level": "High",
-    "energy_cost": "Medium",
-    "time_sustainability": "Short to Medium"
-  },
-  "state_invariants": [
-    "Bottom player is on their back with opponent sitting perpendicular across their chest, opponent's hip positioned against bottom player's ribcage creating crushing pressure that restricts breathing and limits chest expansion",
-    "Opponent controls bottom player's head with their arm wrapped around the head and neck, creating cross-face pressure that prevents bottom player from turning toward opponent and limits head mobility",
-    "Bottom player's near-side arm (closest to opponent's body) is trapped across opponent's torso, typically controlled at the wrist or tricep, eliminating primary defensive tool and creating submission vulnerability",
-    "Opponent's weight is distributed through their hip into bottom player's chest and ribs, with their back leg extended for base and front leg bent, creating stable platform that resists bridging and rolling attempts",
-    "Bottom player's far-side arm is free but positioned at awkward angle with limited leverage due to chest compression and perpendicular positioning of opponent's body relative to bottom player's torso"
-  ],
-  "prerequisites": [
-    "Opponent has successfully passed guard or transitioned from another top control position",
-    "Opponent has secured perpendicular positioning across bottom player's chest",
-    "Opponent has established head control with arm wrapped around head and neck",
-    "Bottom player's near arm is trapped or controlled by opponent's grip or body position",
-    "Opponent has consolidated hip pressure against bottom player's ribs or chest"
-  ],
-  "key_principles": [
-    "Protect your neck immediately to prevent deep cross-face control that enables chokes and further positional consolidation",
-    "Create defensive frames with your free arm against opponent's head and shoulder to prevent complete smothering and maintain breathing space",
-    "Use bridge-and-turn mechanics rather than lateral shrimping, as opponent's perpendicular angle negates traditional side control escape patterns",
-    "Attack opponent's posted far arm or extended back leg to disrupt their base before attempting explosive bridge-and-roll escapes",
-    "Maintain controlled breathing despite chest pressure and avoid panic that leads to energy-wasting escape attempts",
-    "Hook opponent's near leg with your bottom leg to prevent transition to mount and create barrier to further advancement",
-    "Recognize windows of opportunity when opponent shifts weight to attack submissions or transition positions, then capitalize immediately with aggressive escape attempts"
-  ],
-  "offensive_transitions": [
-    {
-      "technique": "Bridge and Roll",
-      "target_position": "Scarf Hold Top",
-      "success_rates": {
+  "top": {
+    "name": "Scarf Hold Position Top",
+    "description": "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional judo pinning position with perpendicular control, hip pressure, and arm isolation. Learn control mechanics, submissions, and transitions with 70% retention rate.",
+    "tags": [
+      "bjj",
+      "position",
+      "scarf-hold",
+      "kesa-gatame",
+      "top",
+      "pinning",
+      "offensive",
+      "judo"
+    ],
+    "overview": "Scarf Hold Top Position (Kesa Gatame) is a classical pinning position derived from Judo where the top practitioner sits perpendicular to the bottom opponent, controlling the head and near arm while sitting with their hips low and weight distributed across the opponent's chest. This position is characterized by the top player's chest-to-chest connection with the opponent, their near arm threading under and controlling the opponent's near arm, and their far arm encircling the opponent's head. The position offers exceptional control through weight distribution and structural positioning, though it has evolved in sport BJJ to be somewhat less dominant than in traditional grappling due to modern escape methodologies. Despite this, Scarf Hold remains a powerful control position when applied with proper technique, offering numerous submission opportunities including Americana, armlocks, and various chokes. The position's effectiveness relies heavily on maintaining tight connection, proper weight distribution through the hips rather than the base, and constant adjustment to the opponent's escape attempts.",
+    "state_properties": {
+      "point_value": 3,
+      "position_type": "Offensive/Controlling",
+      "risk_level": "Low to Medium",
+      "energy_cost": "Low",
+      "time_sustainability": "Medium to Long"
+    },
+    "state_invariants": [
+      "Top player positioned perpendicular to bottom opponent with chest-to-chest connection, hips sitting low on the mat beside opponent's ribcage with direct pressure through the pelvis into their upper torso",
+      "Near arm threaded underneath opponent's near arm with grip securing their tricep, shoulder, or gi material, creating structural control of their upper body while preventing arm extraction",
+      "Far arm wrapped around opponent's head with hand gripping their collar, their own belt, or clasping behind opponent's neck, maintaining head control and preventing them from turning away",
+      "Bottom opponent trapped on their side facing away from top player with their trapped arm unable to post or frame effectively, their head controlled, and limited hip mobility due to top player's weight",
+      "Top player's weight distributed primarily through hips pressing into opponent's chest/ribs with legs extended or positioned to maintain base and prevent opponent from rolling or escaping underneath"
+    ],
+    "prerequisites": [
+      "Successful transition from side control or guard passing sequence",
+      "Opponent positioned on their side or back",
+      "Control of opponent's near arm established",
+      "Head control secured before settling weight",
+      "Hips positioned low and tight to opponent's torso"
+    ],
+    "key_principles": [
+      "Maintain chest-to-chest pressure with weight driven through hips into opponent's ribcage, not through extended arms or posted base",
+      "Keep head control tight with far arm while preventing opponent from turning their face toward you or creating space",
+      "Control near arm by threading underneath and securing above the elbow, eliminating their ability to post or frame",
+      "Position hips low and close to opponent's body rather than sitting upright, maximizing pressure and minimizing space for hip escape",
+      "Distribute weight across opponent's chest and prevent them from turning into you by maintaining perpendicular angle and shoulder pressure",
+      "Adjust base dynamically with legs to counter opponent's escape attempts while maintaining connection through torso"
+    ],
+    "offensive_transitions": [
+      {
+        "technique": "Americana from Side Control",
+        "target_position": "Americana Control",
+        "success_rates": {
+          "beginner": 35,
+          "intermediate": 50,
+          "advanced": 65
+        }
+      },
+      {
+        "technique": "Kimura from Side Control",
+        "target_position": "Kimura Control",
+        "success_rates": {
+          "beginner": 25,
+          "intermediate": 40,
+          "advanced": 55
+        }
+      },
+      {
+        "technique": "Transition to Mount",
+        "target_position": "Mount",
+        "success_rates": {
+          "beginner": 40,
+          "intermediate": 55,
+          "advanced": 70
+        }
+      },
+      {
+        "technique": "Transition to North-South",
+        "target_position": "North-South",
+        "success_rates": {
+          "beginner": 50,
+          "intermediate": 65,
+          "advanced": 80
+        }
+      },
+      {
+        "technique": "Armbar from Side Control",
+        "target_position": "Armbar Control",
+        "success_rates": {
+          "beginner": 20,
+          "intermediate": 35,
+          "advanced": 50
+        }
+      },
+      {
+        "technique": "Arm Triangle",
+        "target_position": "Americana Control",
+        "success_rates": {
+          "beginner": 30,
+          "intermediate": 45,
+          "advanced": 60
+        }
+      }
+    ],
+    "defensive_responses": [
+      {
+        "technique": "Frame and Shrimp",
+        "target_position": "Closed Guard",
+        "success_rate": 30
+      },
+      {
+        "technique": "Elbow Escape",
+        "target_position": "Half Guard",
+        "success_rate": 35
+      },
+      {
+        "technique": "Bridge and Roll",
+        "target_position": "Scramble Position",
+        "success_rate": 20
+      },
+      {
+        "technique": "Hip Escape",
+        "target_position": "Closed Guard",
+        "success_rate": 25
+      }
+    ],
+    "counter_transitions": [
+      {
+        "technique": "Transition to Mount",
+        "target_position": "Mount",
+        "trigger": "Opponent attempts to turn into you or bridge"
+      },
+      {
+        "technique": "Transition to North-South",
+        "target_position": "North-South",
+        "trigger": "Opponent pushes away with far arm or attempts to create distance"
+      },
+      {
+        "technique": "Americana from Side Control",
+        "target_position": "Americana Control",
+        "trigger": "Opponent exposes near arm while attempting to frame or post"
+      }
+    ],
+    "decision_tree": [
+      {
+        "condition": "If opponent attempts to turn their face toward you and bridge",
+        "actions": [
+          {
+            "technique": "Transition to Mount",
+            "target": "Mount",
+            "probability": 65
+          },
+          {
+            "technique": "Kimura from Side Control",
+            "target": "Kimura Control",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If opponent pushes on your head with far arm to create space",
+        "actions": [
+          {
+            "technique": "Transition to North-South",
+            "target": "North-South",
+            "probability": 70
+          },
+          {
+            "technique": "Armbar from Side Control",
+            "target": "Armbar Control",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If opponent attempts to extract trapped near arm",
+        "actions": [
+          {
+            "technique": "Americana from Side Control",
+            "target": "Americana Control",
+            "probability": 60
+          },
+          {
+            "technique": "Transition to Mount",
+            "target": "Mount",
+            "probability": 55
+          }
+        ]
+      },
+      {
+        "condition": "If opponent is passive and not defending actively",
+        "actions": [
+          {
+            "technique": "Americana from Side Control",
+            "target": "Americana Control",
+            "probability": 75
+          },
+          {
+            "technique": "Kimura from Side Control",
+            "target": "Kimura Control",
+            "probability": 65
+          }
+        ]
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Sitting too upright with hips raised high off the mat",
+        "consequence": "Creates space underneath for opponent to hip escape or turn into you, dramatically reducing control effectiveness",
+        "correction": "Keep hips low and heavy on the mat, sitting beside opponent's ribcage with weight driven downward through pelvis into their chest"
+      },
+      {
+        "error": "Posting weight on extended arms rather than maintaining chest connection",
+        "consequence": "Reduces pressure on opponent and allows them to create frames and generate escape leverage",
+        "correction": "Maintain tight chest-to-chest pressure with arms actively controlling rather than supporting your weight"
+      },
+      {
+        "error": "Allowing opponent's head to turn toward you",
+        "consequence": "Opponent can see your position, establish effective frames, and begin bridging or turning into your guard",
+        "correction": "Maintain firm head control with far arm, keeping opponent's face directed away from you at all times"
+      },
+      {
+        "error": "Leaving space between your hip and opponent's ribs",
+        "consequence": "Opponent can insert knee or create hip escape room to begin guard recovery sequence",
+        "correction": "Keep connection tight with hip pressure directly into opponent's ribcage, eliminating all gaps and space"
+      },
+      {
+        "error": "Failing to control opponent's near arm effectively",
+        "consequence": "Opponent can post with controlled arm, create frames, or use it to facilitate escape sequences",
+        "correction": "Thread arm deeply under opponent's arm and secure grip above elbow, removing their ability to post or create effective frames"
+      }
+    ],
+    "training_drills": [
+      {
+        "name": "Scarf Hold Pressure Maintenance Drill",
+        "description": "Partner starts in scarf hold top, bottom partner attempts to create space by bridging and framing. Top partner focuses on maintaining tight connection, low hips, and constant pressure through weight distribution. Work 2-minute rounds with emphasis on feeling opponent's movements and adjusting weight accordingly."
+      },
+      {
+        "name": "Scarf Hold Transition Flow",
+        "description": "From scarf hold top, practice flowing between scarf hold, north-south, mount, and back to scarf hold. Bottom partner provides 30% resistance. Focus on maintaining control through transitions and never losing connection with opponent's upper body. Emphasize smooth weight transfers and grip adjustments."
+      },
+      {
+        "name": "Scarf Hold Submission Chain Drill",
+        "description": "Start in scarf hold top and chain between Americana, arm triangle, and kimura setups based on opponent's defensive reactions. Bottom partner defends intelligently but allows top partner to complete setups. Focus on recognizing submission opportunities created by opponent's escape attempts."
+      }
+    ],
+    "optimal_submission_paths": [
+      {
+        "name": "Shortest path to submission",
+        "path": "Scarf Hold Position Top → Americana from Side Control → Won by Submission"
+      },
+      {
+        "name": "High-percentage arm attack sequence",
+        "path": "Scarf Hold Position Top → Armbar from Side Control → Armbar Control → Won by Submission"
+      },
+      {
+        "name": "North-south transition path",
+        "path": "Scarf Hold Position Top → Transition to North-South → North-South → North-South Choke → Won by Submission"
+      },
+      {
+        "name": "Mount consolidation path",
+        "path": "Scarf Hold Position Top → Transition to Mount → Mount → Americana from Mount → Won by Submission"
+      },
+      {
+        "name": "Kimura control chain",
+        "path": "Scarf Hold Position Top → Kimura from Side Control → Kimura Control → Kimura → Won by Submission"
+      }
+    ],
+    "related_content": [
+      {
+        "name": "Scarf Hold Position",
+        "relationship": "Parent position - umbrella category for both perspectives"
+      },
+      {
+        "name": "Side Control",
+        "relationship": "Predecessor position - standard transition point to scarf hold"
+      },
+      {
+        "name": "Kesa Gatame",
+        "relationship": "Alternative name - traditional Judo terminology for same position"
+      },
+      {
+        "name": "Modified Scarf Hold",
+        "relationship": "Variation - modified version with different arm positioning"
+      },
+      {
+        "name": "Reverse Kesa-Gatame",
+        "relationship": "Variation - facing opposite direction with similar control principles"
+      },
+      {
+        "name": "North-South",
+        "relationship": "Transition target - common progression from scarf hold"
+      },
+      {
+        "name": "Mount",
+        "relationship": "Transition target - advancement option when opponent turns in"
+      },
+      {
+        "name": "Americana from Side Control",
+        "relationship": "Primary submission - highest percentage finish from this position"
+      },
+      {
+        "name": "Kimura from Side Control",
+        "relationship": "Secondary submission when opponent defends americana"
+      },
+      {
+        "name": "Pressure Application",
+        "relationship": "Core concept - fundamental to effective scarf hold control"
+      }
+    ],
+    "position_metrics": {
+      "retention_rate": {
+        "beginner": 50,
+        "intermediate": 65,
+        "advanced": 80
+      },
+      "advancement_probability": {
         "beginner": 30,
         "intermediate": 45,
         "advanced": 60
-      }
-    },
-    {
-      "technique": "Elbow Escape",
-      "target_position": "Half Guard Bottom",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Hip Escape",
-      "target_position": "Closed Guard Bottom",
-      "success_rates": {
+      },
+      "submission_probability": {
         "beginner": 25,
         "intermediate": 40,
         "advanced": 55
-      }
+      },
+      "average_time": "45-90 seconds"
     },
-    {
-      "technique": "Ghost Escape",
-      "target_position": "Turtle Bottom",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Back Take Generic",
-      "target_position": "Back Control Top",
-      "success_rates": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
-      }
-    },
-    {
-      "technique": "Frame and Shrimp",
-      "target_position": "Open Guard Bottom",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "Turtle Transition",
-      "target_position": "Turtle Bottom",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Guard Recovery",
-      "target_position": "Guard Recovery Bottom",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
+    "expert_insights": {
+      "danaher": "Scarf hold represents one of the most structurally sound pinning positions in grappling when properly applied, though its effectiveness in modern sport BJJ has diminished due to evolved escape methodologies. The position's power comes from the perpendicular angle creating a mechanical disadvantage for the bottom player, combined with the systematic removal of their defensive tools through arm and head control. The critical technical element often misunderstood is that scarf hold is not maintained through muscular strength or static pressure, but rather through precise weight distribution where the top player's hips act as the primary control point, driving pressure through their pelvis into the opponent's ribcage while their upper body controls the opponent's ability to turn or create frames. Modern practitioners often make the error of sitting too high or posting their weight through their arms, which fundamentally compromises the position's structural integrity. When executed with proper technique, focusing on low hip position, tight chest connection, and systematic control of the opponent's escape pathways, scarf hold remains highly effective even against knowledgeable opponents.",
+      "gordon_ryan": "Scarf hold in competition is a position I use more as a transition point than a finishing position, primarily because modern competitors have developed effective escape sequences that make it difficult to hold for extended periods. That said, when you catch someone in proper scarf hold control, especially if they're not immediately defensive, you have excellent submission opportunities with the Americana being the highest percentage finish. The key in competition is recognizing that scarf hold shouldn't be viewed in isolation but rather as part of a pin cycle - you establish scarf hold, threaten the Americana or arm triangle, and when they defend and create movement, you transition to north-south or mount rather than fighting to maintain the original position. I've found the position most useful when opponents are defending other pins and you can quickly transition into scarf hold before they establish their defensive structure. The biggest mistake I see is people trying to force scarf hold to work against skilled opponents who are actively defending, rather than using it as a pressure tool and transition point in a larger pinning system.",
+      "eddie_bravo": "Scarf hold in the 10th Planet system is something we acknowledge as effective but don't emphasize as heavily as other top positions, mainly because in no-gi the escape windows are wider without gi grips to lock down the control. That said, the principles of scarf hold - the perpendicular angle, the head and arm control, the hip pressure - these translate into some of our modified control positions. Where scarf hold becomes really interesting is when you start thinking about it not as a static position but as a dynamic control point where you're constantly threatening transitions. If someone gives you scarf hold in no-gi, you want to immediately attack - Americana, transition to mount, or flow to north-south - because the moment they start working the escape, your control window is closing. The innovation opportunity with scarf hold is in developing combination attacks where you're using the initial scarf hold connection to set up transitions that the opponent doesn't expect, creating the dilemmas that we emphasize throughout our system. Don't think of it as a position to hold, think of it as a position to attack from."
     }
-  ],
-  "defensive_responses": [
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Mount Bottom",
-      "success_rate": 40
-    },
-    {
-      "technique": "Transition to North-South",
-      "target_position": "North-South Bottom",
-      "success_rate": 35
-    },
-    {
-      "technique": "Americana from Side Control",
-      "target_position": "Americana Control Bottom",
-      "success_rate": 30
-    },
-    {
-      "technique": "Kimura from Side Control",
-      "target_position": "Kimura Control Bottom",
-      "success_rate": 25
-    },
-    {
-      "technique": "Armbar from Side Control",
-      "target_position": "Armbar Control Bottom",
-      "success_rate": 20
-    },
-    {
-      "technique": "Side Control to Mount",
-      "target_position": "Mount Bottom",
-      "success_rate": 35
-    }
-  ],
-  "counter_transitions": [
-    {
-      "technique": "Re-Guard",
-      "target_position": "Half Guard Bottom",
-      "trigger": "Opponent releases head control to transition or attack submission"
-    },
-    {
-      "technique": "Granby Roll",
-      "target_position": "Turtle Bottom",
-      "trigger": "Opponent shifts weight forward toward your head creating space near hips"
-    },
-    {
-      "technique": "Technical Standup",
-      "target_position": "Standing up",
-      "trigger": "Opponent's base becomes narrow or they over-commit to one side"
-    },
-    {
-      "technique": "Guard Recovery",
-      "target_position": "Closed Guard Bottom",
-      "trigger": "Opponent releases arm control to secure better grips or transition"
-    }
-  ],
-  "decision_tree": [
-    {
-      "condition": "If opponent maintains tight control with heavy hip pressure and secure head control without attacking submissions",
-      "actions": [
-        {
-          "technique": "Frame and Shrimp",
-          "target": "Half Guard Bottom",
-          "probability": 45
-        },
-        {
-          "technique": "Elbow Escape",
-          "target": "Half Guard Bottom",
-          "probability": 50
-        },
-        {
-          "technique": "Create frames and establish breathing space",
-          "target": "Scarf Hold Bottom Position",
-          "probability": 60
-        }
-      ]
-    },
-    {
-      "condition": "If opponent shifts weight forward attempting to transition to mount or north-south",
-      "actions": [
-        {
-          "technique": "Granby Roll",
-          "target": "Turtle Bottom",
-          "probability": 55
-        },
-        {
-          "technique": "Ghost Escape",
-          "target": "Turtle Bottom",
-          "probability": 50
-        },
-        {
-          "technique": "Back Take Generic",
-          "target": "Back Control Top",
-          "probability": 40
-        }
-      ]
-    },
-    {
-      "condition": "If opponent releases head control or loosens cross-face to attack far arm for americana or kimura",
-      "actions": [
-        {
-          "technique": "Hip Escape",
-          "target": "Closed Guard Bottom",
-          "probability": 60
-        },
-        {
-          "technique": "Guard Recovery",
-          "target": "Guard Recovery Bottom",
-          "probability": 55
-        },
-        {
-          "technique": "Frame and Shrimp",
-          "target": "Open Guard Bottom",
-          "probability": 50
-        }
-      ]
-    },
-    {
-      "condition": "If opponent posts their far arm wide for base or extends back leg creating narrow base",
-      "actions": [
-        {
-          "technique": "Bridge and Roll",
-          "target": "Scarf Hold Top",
-          "probability": 55
-        },
-        {
-          "technique": "Attack posted arm and execute bridge",
-          "target": "Scarf Hold Top",
-          "probability": 50
-        }
-      ]
-    },
-    {
-      "condition": "If opponent sits back heavily on their hip creating space between their chest and your hips",
-      "actions": [
-        {
-          "technique": "Turtle Transition",
-          "target": "Turtle Bottom",
-          "probability": 60
-        },
-        {
-          "technique": "Back Take Generic",
-          "target": "Back Control Top",
-          "probability": 45
-        },
-        {
-          "technique": "Turn into opponent and expose their back",
-          "target": "Turtle Bottom",
-          "probability": 55
-        }
-      ]
-    }
-  ],
-  "common_errors": [
-    {
-      "error": "Attempting standard side control shrimp escapes while opponent is positioned perpendicular to your body",
-      "consequence": "Complete waste of energy with zero positional improvement, as the perpendicular angle makes lateral hip movement ineffective. Bottom player exhausts themselves while opponent maintains comfortable control.",
-      "correction": "Abandon lateral shrimping and instead focus on bridge-and-turn mechanics that exploit opponent's perpendicular positioning. Direct energy toward rotational movement rather than lateral movement."
-    },
-    {
-      "error": "Allowing opponent to consolidate deep head control and cross-face without immediate defensive response",
-      "consequence": "Drastically increased submission danger from arm locks and chokes, severely restricted breathing, and near-complete elimination of head mobility necessary for escape mechanics.",
-      "correction": "Immediately establish chin-to-chest defensive posture and create frames with free arm against opponent's head and shoulder. Fight the hands and head control before worrying about hip position."
-    },
-    {
-      "error": "Explosive bridging attempts without first compromising opponent's base by attacking posted limbs",
-      "consequence": "Opponent easily rides out the bridge with stable posting, bottom player burns energy rapidly and becomes progressively easier to control as fatigue accumulates.",
-      "correction": "Before bridging, grab opponent's far arm or gi material and pull them off balance. Only execute bridge when their base is compromised and their weight is shifting."
-    },
-    {
-      "error": "Neglecting to use bottom leg to hook opponent's near leg or control hip position",
-      "consequence": "Opponent transitions freely to mount or other dominant positions without encountering any barriers. Bottom player loses only defensive tool for preventing advancement.",
-      "correction": "Actively hook opponent's near leg with your bottom leg, creating physical barrier to mount while simultaneously setting up potential sweep opportunities through leg control."
-    },
-    {
-      "error": "Panic breathing and explosive struggling against established chest pressure rather than working systematically",
-      "consequence": "Rapid exhaustion, mental defeat, and progressive inability to execute escapes as oxygen debt accumulates. Panic creates self-fulfilling prophecy of helplessness.",
-      "correction": "Focus on controlled diaphragmatic breathing despite pressure. Work through systematic escape progressions calmly, conserving explosive energy for precise moments when windows open."
-    },
-    {
-      "error": "Missing opportunities to turn into opponent and attack their exposed back when they sit heavily",
-      "consequence": "Ignoring the primary vulnerability unique to scarf hold position. Missing high-percentage escape and reversal opportunities that are unavailable from other pins.",
-      "correction": "Recognize when opponent commits weight backward onto their hip. Immediately turn toward them, attack their back, or transition to turtle where you can begin your own offensive game."
-    },
-    {
-      "error": "Keeping free arm extended away from body or using it for ineffective pushing against opponent's torso",
-      "consequence": "Opponent easily traps extended arm for americana submission or uses it as leverage point to transition to more dominant positions. Loss of only effective defensive tool.",
-      "correction": "Keep free elbow tight to your body, using forearm to create rigid frames against opponent's head and shoulder. Never extend arm away from your defensive structure."
-    }
-  ],
-  "training_drills": [
-    {
-      "name": "Systematic Scarf Hold Escape Progression",
-      "description": "Partner establishes solid scarf hold with controlled pressure. Bottom player works through four-phase escape sequence for 2-minute rounds: Phase 1 (0-30 seconds) establish defensive frames and protect neck; Phase 2 (30-60 seconds) create hip movement and attack opponent's base; Phase 3 (60-90 seconds) execute bridge-and-roll attempts; Phase 4 (90-120 seconds) chain escapes together based on opponent's defensive reactions. Partner gradually increases resistance across rounds. Perform 5 rounds with 1-minute rest between rounds.",
-      "duration": "5 rounds x 2 minutes (total 15 minutes)"
-    },
-    {
-      "name": "Bridge-and-Roll Mechanics from Scarf Hold",
-      "description": "Isolate and refine the bridge-and-roll escape specific to scarf hold positioning. Partner maintains scarf hold control while bottom player practices three-step sequence: Step 1 - Grab opponent's far arm or gi with free hand; Step 2 - Pull opponent off balance while initiating bridge; Step 3 - Roll opponent over shoulder to reverse position. Begin with cooperative drilling (15 reps), progress to moderate resistance (15 reps), finish with full resistance (10 attempts). Focus on timing, grip strength, and coordinated explosive power.",
-      "duration": "10-15 minutes"
-    },
-    {
-      "name": "Scarf Hold to Turtle Transition Drilling",
-      "description": "Specific training for transitioning from scarf hold bottom to turtle position. Partner maintains scarf hold with moderate pressure. Bottom player practices ghost escape mechanics, turning into opponent's back, and achieving turtle position with good defensive posture. Emphasize smooth weight transfer, maintaining connection to opponent, and immediately establishing strong turtle base. Perform 20 successful transitions, alternating sides every 5 repetitions.",
-      "duration": "12-15 minutes"
-    },
-    {
-      "name": "Scarf Hold Escape Chain Flow",
-      "description": "Bottom player flows through multiple connected escape attempts: Start with elbow escape, when blocked transition to bridge-and-roll, when blocked transition to turtle, when blocked return to guard recovery. Partner applies realistic progressive resistance, defending first attempts but allowing properly executed chains to succeed. Builds ability to read opponent's defensive reactions and chain appropriate escapes. Perform 8-10 complete chain sequences.",
-      "duration": "15-20 minutes"
-    }
-  ],
-  "optimal_submission_paths": [
-    {
-      "name": "Defensive position - escape focused",
-      "path": "Primary goal is escaping to neutral or advantageous positions rather than submitting from bottom"
-    },
-    {
-      "name": "Reversal to submission path",
-      "path": "Scarf Hold Bottom → Bridge and Roll → Scarf Hold Top → Americana from Side Control → Won by Submission"
-    },
-    {
-      "name": "Back attack opportunity",
-      "path": "Scarf Hold Bottom → Back Take Generic → Back Control Top → Rear Naked Choke → Won by Submission"
-    }
-  ],
-  "related_content": [
-    {
-      "name": "Scarf Hold Top",
-      "relationship": "Opposite perspective - sibling variant showing same position from controlling side"
-    },
-    {
-      "name": "Scarf Hold Position",
-      "relationship": "Parent position variant - umbrella category for top and bottom perspectives"
-    },
-    {
-      "name": "Kesa Gatame Bottom",
-      "relationship": "Traditional judo name for same position - alternative terminology"
-    },
-    {
-      "name": "Side Control Bottom",
-      "relationship": "Similar defensive pin position with parallel rather than perpendicular angle requiring different escape mechanics"
-    },
-    {
-      "name": "Kuzure Kesa-Gatame Bottom",
-      "relationship": "Modified scarf hold variation with different grip configuration but similar defensive principles"
-    },
-    {
-      "name": "Reverse Kesa-Gatame Bottom",
-      "relationship": "Opposite-facing scarf hold variation requiring modified escape strategies"
-    },
-    {
-      "name": "North-South Bottom",
-      "relationship": "Common transition target when opponent responds to escape attempts"
-    },
-    {
-      "name": "Mount Bottom",
-      "relationship": "Higher-risk position opponent may advance to if escapes are not executed properly"
-    },
-    {
-      "name": "Turtle Bottom",
-      "relationship": "Primary escape target position offering defensive stability and counter-attacking opportunities"
-    },
-    {
-      "name": "Half Guard Bottom",
-      "relationship": "Primary guard recovery target representing successful partial escape"
-    },
-    {
-      "name": "Bridge and Shrimp",
-      "relationship": "Core movement concept - bridge mechanics specifically emphasized in scarf hold escapes"
-    },
-    {
-      "name": "Escape Hierarchy",
-      "relationship": "Conceptual framework for prioritizing escape attempts based on position severity and success probability"
-    }
-  ],
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 25,
-      "intermediate": 40,
-      "advanced": 60
-    },
-    "advancement_probability": {
-      "beginner": 30,
-      "intermediate": 45,
-      "advanced": 65
-    },
-    "submission_probability": {
-      "beginner": 5,
-      "intermediate": 12,
-      "advanced": 25
-    },
-    "average_time": "60-120 seconds before escape or submission"
-  },
-  "expert_insights": {
-    "danaher": "Scarf Hold Bottom presents one of the most geometrically challenging defensive situations in grappling because the perpendicular angle of your opponent's torso relative to yours fundamentally negates the mechanical principles that make standard side control escapes effective. The key insight is recognizing that lateral hip movement—the foundation of shrimping escapes—requires your opponent's weight vector to be roughly parallel to your spine, which is not the case in scarf hold where their weight drives perpendicularly into your ribs. Therefore, your escape strategy must center on rotational rather than lateral movement, specifically bridge-and-turn mechanics that exploit the inherent instability in the perpendicular configuration. The systematic approach begins with establishing defensive frames using your free arm to prevent complete smothering and maintain breathing capacity, which is both a physical and psychological necessity. From this defensive foundation, you progressively work to compromise your opponent's base by attacking their posted far arm or extended back leg, creating the unstable moment where your bridge becomes effective. The most critical aspect is understanding that patience and systematic progression are not defensive timidity but rather the mechanically optimal approach to a position where explosive scrambling wastes energy without creating genuine escape opportunities.",
-    "gordon_ryan": "In high-level competition, scarf hold bottom is one of those positions where you absolutely cannot afford to panic because the more you thrash around, the more energy you burn and the tighter their control becomes. I immediately focus on two things when I end up here: first, getting my free arm into a strong defensive frame against their head and shoulder to prevent them from completely crushing my face and restricting my breathing, and second, staying calm enough to recognize the specific windows when escape becomes possible. The reality is that most people don't hold scarf hold forever in competition because they want to advance to mount or attack submissions, and those transitions are when you have your best opportunities. When they shift their weight to move, that's when I immediately turn into them, attack their back, or shoot for turtle. The bridge-and-roll is also surprisingly effective if you time it right—grab their far arm or their gi and really commit to pulling them off balance before you bridge, don't just bridge into their stable base. One thing I've noticed is that a lot of modern BJJ guys aren't as comfortable in scarf hold as they are in standard side control, so if you know the specific escapes, you can actually capitalize on their uncertainty. Don't waste energy on techniques that don't work from this angle; be patient, wait for your moment, then explode through the escape when the window opens.",
-    "eddie_bravo": "Scarf hold bottom is old-school judo control and it can feel super oppressive when you're stuck there, but here's the thing—when someone really commits to scarf hold, they're giving you access to their back, you just have to be savvy enough to recognize it and take it. In 10th Planet, we emphasize staying loose and mobile even under heavy pressure, and that philosophy applies perfectly to scarf hold because the more you can move and flow, the more opportunities you create. The ghost escape works beautifully here because you're sliding your body away from the pressure point while simultaneously turning into your opponent, which is exactly what you want to do against scarf hold. I also teach my guys to look for the moment when the top player sits back heavy trying to consolidate their control—that's when you turn into them aggressively and either get to turtle or start attacking their back. The bridge-and-roll is also legit if you set it up properly by grabbing their far arm or their pants and timing your bridge for when their weight is shifting. One thing I really emphasize is staying creative and not getting mentally defeated—every position has weaknesses, even a heavy old-school pin like scarf hold, and if you stay calm and keep problem-solving, you'll find the way out. Don't just accept the position, keep moving, keep creating problems for them, and eventually something will open up."
-  }
-}
-{
-  "metadata": {
-    "title": "Scarf Hold Top Position | BJJ Position Guide | BJJ Graph",
-    "description": "Master Scarf Hold Top (Kesa Gatame) in BJJ. Complete guide covering control principles, submissions, and transitions. Traditional pinning position with 65% retention rate.",
-    "state_id": "S087",
-    "tags": ["bjj", "position", "scarf-hold", "kesa-gatame", "top-position", "pinning", "side-control-variation"],
-    "parent_variant": "Scarf Hold Position",
-    "sibling_variants": ["Scarf Hold Bottom"]
-  },
-
-  "overview": "Scarf Hold Top Position (Kesa Gatame) is a classical pinning position derived from Judo where the top practitioner sits perpendicular to the bottom opponent, controlling the head and near arm while sitting with their hips low and weight distributed across the opponent's chest. This position is characterized by the top player's chest-to-chest connection with the opponent, their near arm threading under and controlling the opponent's near arm, and their far arm encircling the opponent's head. The position offers exceptional control through weight distribution and structural positioning, though it has evolved in sport BJJ to be somewhat less dominant than in traditional grappling due to modern escape methodologies. Despite this, Scarf Hold remains a powerful control position when applied with proper technique, offering numerous submission opportunities including Americana, armlocks, and various chokes. The position's effectiveness relies heavily on maintaining tight connection, proper weight distribution through the hips rather than the base, and constant adjustment to the opponent's escape attempts.",
-
-  "state_properties": {
-    "point_value": 0,
-    "position_type": "Offensive/Controlling",
-    "risk_level": "Low to Medium",
-    "energy_cost": "Medium",
-    "time_sustainability": "Medium to Long"
-  },
-
-  "state_invariants": [
-    "Top player positioned perpendicular to bottom opponent with chest-to-chest connection, hips sitting low on the mat beside opponent's ribcage with direct pressure through the pelvis into their upper torso",
-    "Near arm threaded underneath opponent's near arm with grip securing their tricep, shoulder, or gi material, creating structural control of their upper body while preventing arm extraction",
-    "Far arm wrapped around opponent's head with hand gripping their collar, their own belt, or clasping behind opponent's neck, maintaining head control and preventing them from turning away",
-    "Bottom opponent trapped on their side facing away from top player with their trapped arm unable to post or frame effectively, their head controlled, and limited hip mobility due to top player's weight",
-    "Top player's weight distributed primarily through hips pressing into opponent's chest/ribs with legs extended or positioned to maintain base and prevent opponent from rolling or escaping underneath"
-  ],
-
-  "prerequisites": [
-    "Successful transition from side control or guard passing sequence",
-    "Opponent positioned on their side or back",
-    "Control of opponent's near arm established",
-    "Head control secured before settling weight",
-    "Hips positioned low and tight to opponent's torso"
-  ],
-
-  "key_principles": [
-    "Maintain chest-to-chest pressure with weight driven through hips into opponent's ribcage, not through extended arms or posted base",
-    "Keep head control tight with far arm while preventing opponent from turning their face toward you or creating space",
-    "Control near arm by threading underneath and securing above the elbow, eliminating their ability to post or frame",
-    "Position hips low and close to opponent's body rather than sitting upright, maximizing pressure and minimizing space for hip escape",
-    "Distribute weight across opponent's chest and prevent them from turning into you by maintaining perpendicular angle and shoulder pressure",
-    "Adjust base dynamically with legs to counter opponent's escape attempts while maintaining connection through torso"
-  ],
-
-  "offensive_transitions": [
-    {
-      "technique": "Americana from Side Control",
-      "target_position": "Submission Position Generic Top",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    },
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Mount Top",
-      "success_rates": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
-      }
-    },
-    {
-      "technique": "Transition to North-South",
-      "target_position": "North-South Top",
-      "success_rates": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
-      }
-    },
-    {
-      "technique": "Armbar from Side Control",
-      "target_position": "Armbar Control Top",
-      "success_rates": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
-      }
-    },
-    {
-      "technique": "North-South to Kimura",
-      "target_position": "Kimura Control Top",
-      "success_rates": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
-      }
-    },
-    {
-      "technique": "Side Control to Mount",
-      "target_position": "Mount Top",
-      "success_rates": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
-      }
-    }
-  ],
-
-  "defensive_responses": [
-    {
-      "technique": "Frame and Shrimp",
-      "target_position": "Guard Recovery Bottom",
-      "success_rate": 30
-    },
-    {
-      "technique": "Elbow Escape",
-      "target_position": "Half Guard Bottom",
-      "success_rate": 35
-    },
-    {
-      "technique": "Bridge and Roll",
-      "target_position": "Top Position",
-      "success_rate": 20
-    },
-    {
-      "technique": "Rolling to Guard",
-      "target_position": "Closed Guard Bottom",
-      "success_rate": 25
-    }
-  ],
-
-  "counter_transitions": [
-    {
-      "technique": "Transition to Mount",
-      "target_position": "Mount Top",
-      "trigger": "Opponent attempts to turn into you or bridge"
-    },
-    {
-      "technique": "Transition to North-South",
-      "target_position": "North-South Top",
-      "trigger": "Opponent pushes away with far arm or attempts to create distance"
-    },
-    {
-      "technique": "Americana from Side Control",
-      "target_position": "Submission Position Generic Top",
-      "trigger": "Opponent exposes near arm while attempting to frame or post"
-    }
-  ],
-
-  "decision_tree": [
-    {
-      "condition": "If opponent attempts to turn their face toward you and bridge",
-      "actions": [
-        {
-          "technique": "Transition to Mount",
-          "target": "Mount Top",
-          "probability": 65
-        },
-        {
-          "technique": "North-South to Kimura",
-          "target": "Kimura Control Top",
-          "probability": 45
-        }
-      ]
-    },
-    {
-      "condition": "If opponent pushes on your head with far arm to create space",
-      "actions": [
-        {
-          "technique": "Transition to North-South",
-          "target": "North-South Top",
-          "probability": 70
-        },
-        {
-          "technique": "Armbar from Side Control",
-          "target": "Armbar Control Top",
-          "probability": 50
-        }
-      ]
-    },
-    {
-      "condition": "If opponent attempts to extract trapped near arm",
-      "actions": [
-        {
-          "technique": "Americana from Side Control",
-          "target": "Submission Position Generic Top",
-          "probability": 60
-        },
-        {
-          "technique": "Transition to Mount",
-          "target": "Mount Top",
-          "probability": 55
-        }
-      ]
-    },
-    {
-      "condition": "If opponent is passive and not defending actively",
-      "actions": [
-        {
-          "technique": "Americana from Side Control",
-          "target": "Submission Position Generic Top",
-          "probability": 75
-        },
-        {
-          "technique": "North-South to Kimura",
-          "target": "Kimura Control Top",
-          "probability": 65
-        }
-      ]
-    }
-  ],
-
-  "common_errors": [
-    {
-      "error": "Sitting too upright with hips raised high off the mat",
-      "consequence": "Creates space underneath for opponent to hip escape or turn into you, dramatically reducing control effectiveness",
-      "correction": "Keep hips low and heavy on the mat, sitting beside opponent's ribcage with weight driven downward through pelvis into their chest"
-    },
-    {
-      "error": "Posting weight on extended arms rather than maintaining chest connection",
-      "consequence": "Reduces pressure on opponent and allows them to create frames and generate escape leverage",
-      "correction": "Maintain tight chest-to-chest pressure with arms actively controlling rather than supporting your weight"
-    },
-    {
-      "error": "Allowing opponent's head to turn toward you",
-      "consequence": "Opponent can see your position, establish effective frames, and begin bridging or turning into your guard",
-      "correction": "Maintain firm head control with far arm, keeping opponent's face directed away from you at all times"
-    },
-    {
-      "error": "Leaving space between your hip and opponent's ribs",
-      "consequence": "Opponent can insert knee or create hip escape room to begin guard recovery sequence",
-      "correction": "Keep connection tight with hip pressure directly into opponent's ribcage, eliminating all gaps and space"
-    },
-    {
-      "error": "Failing to control opponent's near arm effectively",
-      "consequence": "Opponent can post with controlled arm, create frames, or use it to facilitate escape sequences",
-      "correction": "Thread arm deeply under opponent's arm and secure grip above elbow, removing their ability to post or create effective frames"
-    },
-    {
-      "error": "Remaining static without adjusting to opponent's escape attempts",
-      "consequence": "Opponent gains incremental position through persistent escape efforts, eventually recovering guard or reversing",
-      "correction": "Constantly adjust hip position, weight distribution, and grips in response to opponent's movements, maintaining dominant angle"
-    }
-  ],
-
-  "training_drills": [
-    {
-      "name": "Scarf Hold Pressure Maintenance Drill",
-      "description": "Partner starts in scarf hold top, bottom partner attempts to create space by bridging and framing. Top partner focuses on maintaining tight connection, low hips, and constant pressure through weight distribution. Work 2-minute rounds with emphasis on feeling opponent's movements and adjusting weight accordingly.",
-      "duration": "5 rounds of 2 minutes"
-    },
-    {
-      "name": "Scarf Hold Transition Flow",
-      "description": "From scarf hold top, practice flowing between scarf hold, north-south, mount, and back to scarf hold. Bottom partner provides 30% resistance. Focus on maintaining control through transitions and never losing connection with opponent's upper body. Emphasize smooth weight transfers and grip adjustments.",
-      "duration": "3 rounds of 3 minutes"
-    },
-    {
-      "name": "Scarf Hold Submission Chain Drill",
-      "description": "Start in scarf hold top and chain between Americana, arm triangle, and kimura setups based on opponent's defensive reactions. Bottom partner defends intelligently but allows top partner to complete setups. Focus on recognizing submission opportunities created by opponent's escape attempts.",
-      "duration": "4 rounds of 2 minutes"
-    },
-    {
-      "name": "Progressive Resistance Scarf Hold Sparring",
-      "description": "Start with bottom partner giving 30% resistance, increase by 10% each 90-second round until reaching full resistance. Top partner must maintain position and threaten submissions throughout. Resets position if escape occurs. Builds pressure maintenance under increasing resistance.",
-      "duration": "7 rounds of 90 seconds with increasing resistance"
-    }
-  ],
-
-  "optimal_submission_paths": [
-    {
-      "name": "Shortest path to submission",
-      "path": "Scarf Hold Top → Americana from Side Control → Won by Submission"
-    },
-    {
-      "name": "High-percentage arm attack sequence",
-      "path": "Scarf Hold Top → Armbar from Side Control → Won by Submission"
-    },
-    {
-      "name": "North-south transition path",
-      "path": "Scarf Hold Top → North-South Top → North-South Choke → Won by Submission"
-    },
-    {
-      "name": "Mount consolidation path",
-      "path": "Scarf Hold Top → Mount Top → Armbar from Mount → Won by Submission"
-    },
-    {
-      "name": "Kimura control chain",
-      "path": "Scarf Hold Top → North-South Top → Kimura Control Top → Kimura from Side Control → Won by Submission"
-    }
-  ],
-
-  "related_content": [
-    {
-      "name": "Side Control Top",
-      "relationship": "Predecessor position - standard transition point to scarf hold"
-    },
-    {
-      "name": "Kesa Gatame Top",
-      "relationship": "Alternative name - traditional Judo terminology for same position"
-    },
-    {
-      "name": "Modified Scarf Hold Top",
-      "relationship": "Variation - modified version with different arm positioning"
-    },
-    {
-      "name": "Reverse Kesa-Gatame Top",
-      "relationship": "Variation - facing opposite direction with similar control principles"
-    },
-    {
-      "name": "North-South Top",
-      "relationship": "Transition target - common progression from scarf hold"
-    },
-    {
-      "name": "Mount Top",
-      "relationship": "Transition target - advancement option when opponent turns in"
-    },
-    {
-      "name": "Americana from Side Control",
-      "relationship": "Primary submission - highest percentage finish from this position"
-    },
-    {
-      "name": "Pressure Application",
-      "relationship": "Core concept - fundamental to effective scarf hold control"
-    },
-    {
-      "name": "Shoulder Pressure",
-      "relationship": "Core concept - key control mechanism in scarf hold"
-    }
-  ],
-
-  "position_metrics": {
-    "retention_rate": {
-      "beginner": 50,
-      "intermediate": 65,
-      "advanced": 80
-    },
-    "advancement_probability": {
-      "beginner": 30,
-      "intermediate": 45,
-      "advanced": 60
-    },
-    "submission_probability": {
-      "beginner": 25,
-      "intermediate": 40,
-      "advanced": 55
-    },
-    "average_time": "45-90 seconds"
-  },
-
-  "expert_insights": {
-    "danaher": "Scarf hold represents one of the most structurally sound pinning positions in grappling when properly applied, though its effectiveness in modern sport BJJ has diminished due to evolved escape methodologies. The position's power comes from the perpendicular angle creating a mechanical disadvantage for the bottom player, combined with the systematic removal of their defensive tools through arm and head control. The critical technical element often misunderstood is that scarf hold is not maintained through muscular strength or static pressure, but rather through precise weight distribution where the top player's hips act as the primary control point, driving pressure through their pelvis into the opponent's ribcage while their upper body controls the opponent's ability to turn or create frames. Modern practitioners often make the error of sitting too high or posting their weight through their arms, which fundamentally compromises the position's structural integrity. When executed with proper technique, focusing on low hip position, tight chest connection, and systematic control of the opponent's escape pathways, scarf hold remains highly effective even against knowledgeable opponents.",
-
-    "gordon_ryan": "Scarf hold in competition is a position I use more as a transition point than a finishing position, primarily because modern competitors have developed effective escape sequences that make it difficult to hold for extended periods. That said, when you catch someone in proper scarf hold control, especially if they're not immediately defensive, you have excellent submission opportunities with the Americana being the highest percentage finish. The key in competition is recognizing that scarf hold shouldn't be viewed in isolation but rather as part of a pin cycle - you establish scarf hold, threaten the Americana or arm triangle, and when they defend and create movement, you transition to north-south or mount rather than fighting to maintain the original position. I've found the position most useful when opponents are defending other pins and you can quickly transition into scarf hold before they establish their defensive structure. The biggest mistake I see is people trying to force scarf hold to work against skilled opponents who are actively defending, rather than using it as a pressure tool and transition point in a larger pinning system.",
-
-    "eddie_bravo": "Scarf hold in the 10th Planet system is something we acknowledge as effective but don't emphasize as heavily as other top positions, mainly because in no-gi the escape windows are wider without gi grips to lock down the control. That said, the principles of scarf hold - the perpendicular angle, the head and arm control, the hip pressure - these translate into some of our modified control positions. Where scarf hold becomes really interesting is when you start thinking about it not as a static position but as a dynamic control point where you're constantly threatening transitions. If someone gives you scarf hold in no-gi, you want to immediately attack - Americana, transition to mount, or flow to north-south - because the moment they start working the escape, your control window is closing. The innovation opportunity with scarf hold is in developing combination attacks where you're using the initial scarf hold connection to set up transitions that the opponent doesn't expect, creating the dilemmas that we emphasize throughout our system. Don't think of it as a position to hold, think of it as a position to attack from."
   }
 }

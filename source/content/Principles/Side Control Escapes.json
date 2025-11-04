@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Side Control Escapes | BJJ Concept | BJJ Graph",
     "description": "Understand Side Control Escapes in BJJ. Learn systematic escape frameworks, weight distribution, frame creation. Expert insights from Danaher, Ryan, and Bravo included.",
-    "concept_id": "C045",
+    "principle_id": "P045",
     "tags": ["bjj", "concept", "side-control", "escapes", "defensive", "pin-escape", "framing", "hip-escape"],
     "application_level": "Fundamental",
     "complexity_level": "Medium",
@@ -52,34 +52,34 @@
       "description": "Psychological and physical conditioning to maintain composure, breathing regulation, and muscular efficiency while enduring extended periods of top pressure. This includes understanding when to rest in defensive frames versus when to attempt escape, recognizing fatigue indicators, and avoiding panic responses that lead to explosive energy expenditure without positional improvement."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Escape Hierarchy",
+      "principle_name": "Escape Hierarchy",
       "relationship_type": "Prerequisite",
       "description": "Side control escapes represent a specific application of the broader escape hierarchy framework—understanding positional hierarchy and systematic escape prioritization is essential before developing situation-specific techniques"
     },
     {
-      "concept_name": "Frame Creation",
+      "principle_name": "Frame Creation",
       "relationship_type": "Complementary",
       "description": "Defensive framing serves as the foundational mechanical skill that enables all side control escape attempts—frames create the initial space required for hip movement and guard recovery"
     },
     {
-      "concept_name": "Hip Escape Mechanics",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Complementary",
       "description": "Shrimping and hip mobility represent the primary movement pattern for converting created space into actual guard recovery—technical proficiency in hip escapes directly determines escape success rates"
     },
     {
-      "concept_name": "Energy Management System",
+      "principle_name": "Energy Management System",
       "relationship_type": "Complementary",
       "description": "Efficient energy usage while defending side control determines whether practitioner can survive long enough to exploit escape opportunities—energy conservation enables sustained defensive effort"
     },
     {
-      "concept_name": "Dealing with Pressure",
+      "principle_name": "Dealing with Pressure",
       "relationship_type": "Prerequisite",
       "description": "Understanding how to maintain breathing, posture, and composure under heavy top pressure is required before attempting technical escape sequences—psychological composure precedes technical execution"
     },
     {
-      "concept_name": "Mount Escape Series",
+      "principle_name": "Mount Escape Series",
       "relationship_type": "Extension",
       "description": "Side control escape concepts extend logically into mount escape frameworks when opponent successfully advances—the same principles of frame creation, space generation, and hip escape apply with position-specific modifications"
     }

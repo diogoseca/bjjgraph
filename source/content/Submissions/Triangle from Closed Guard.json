@@ -1,36 +1,23 @@
 {
-  "metadata": {
-    "title": "Triangle Choke from Closed Guard | BJJ Submission | BJJ Graph",
-    "description": "Master Triangle Choke from Closed Guard in BJJ. Complete safety guide with setup, execution, and variations. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.",
-    "submission_id": "SUB025",
-    "tags": ["bjj", "submission", "triangle-choke", "closed-guard", "blood-choke", "fundamental", "guard-bottom"],
-    "submission_category": "Choke",
-    "submission_type": "Blood Choke",
-    "target_area": "Carotid arteries and jugular veins",
-    "starting_position": "Closed Guard Bottom",
-    "success_rates": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 75
-    },
-    "from_positions": [
-      "Closed Guard Bottom",
-      "High Guard Bottom",
-      "Rubber Guard Bottom",
-      "Overhook Guard Bottom"
-    ],
-    "related_submissions": [
-      "Triangle Choke",
-      "Armbar from Guard",
-      "Omoplata from Guard",
-      "Triangle from Mount",
-      "Triangle from Back",
-      "Triangle from Spider Guard",
-      "Triangle from De La Riva",
-      "Inverted Triangle",
-      "Gogoplata",
-      "Armbar from Crucifix"
-    ]
+  "name": "Triangle from Closed Guard",
+  "description": "Master triangle choke from closed guard with safety protocols, setup requirements, and execution steps. Learn angle creation and hip extension mechanics. Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "tags": [
+    "bjj",
+    "submission",
+    "triangle-choke",
+    "closed-guard",
+    "blood-choke",
+    "fundamental",
+    "guard-bottom"
+  ],
+  "submission_category": "Choke",
+  "submission_type": "Blood Choke",
+  "target_area": "Carotid arteries and jugular veins",
+  "starting_position": "Closed Guard",
+  "success_rates": {
+    "beginner": 35,
+    "intermediate": 55,
+    "advanced": 75
   },
   "overview": "The Triangle Choke from Closed Guard is one of the most fundamental and highest-percentage submissions in Brazilian Jiu-Jitsu, representing the perfect marriage of control and finishing mechanics from the guard position. This blood choke uses your legs to create a triangular configuration around the opponent's neck and their own shoulder, compressing the carotid arteries and jugular veins to induce unconsciousness if not defended or escaped. The beauty of the triangle lies in its structural efficiency - once properly locked, the opponent's own posture and trapped arm work against them, making escape increasingly difficult as they tire.\n\nWhat makes the triangle from closed guard particularly powerful is its accessibility from the most fundamental guard position in BJJ. Unlike submissions that require specific grips or advanced positioning, the triangle can be attacked whenever the opponent posts a hand inside your guard or breaks their posture forward. This makes it an essential weapon for guard players at all levels, from white belts learning fundamental attacks to black belts using it as a high-percentage finishing option in competition. The triangle also serves as the gateway to an entire attack system, seamlessly connecting to armbars, omoplatas, and sweep options that create true dilemmas for the opponent.\n\nThe technical execution of the triangle from closed guard requires precise angle creation, hip mobility, and an understanding of how to break the opponent's defensive posture while maintaining control throughout the transition. Success depends not on strength or speed, but on proper positioning of the legs, correct angle relative to the opponent, and the ability to control their posture and arm placement. When executed with proper technique, the triangle becomes nearly unstoppable, which is why it remains a cornerstone submission across all levels of competition from local tournaments to the highest levels of professional grappling.",
   "safety_considerations": {
@@ -318,9 +305,36 @@
       "safety_emphasis": "Even at competition intensity, maintain safety awareness in training room. Reserve 100% finishing pressure only for actual competition. Training partners are your most valuable resource - never injure them. Practice tap-and-release protocol religiously so it's automatic in competition stress."
     }
   ],
+  "from_positions": [
+    "Closed Guard",
+    "Rubber Guard",
+    "Mission Control",
+    "Overhook Guard",
+    "Collar Sleeve Guard",
+    "Double Sleeve Guard",
+    "Lasso Guard",
+    "Spider Guard"
+  ],
+  "related_submissions": [
+    "Triangle Choke",
+    "Armbar from Guard",
+    "Omoplata from Guard",
+    "Triangle from Mount",
+    "Triangle from Back",
+    "Triangle from Spider Guard",
+    "Triangle from De La Riva",
+    "Inverted Triangle",
+    "Gogoplata",
+    "Kimura from Guard",
+    "Cross Collar Choke",
+    "Loop Choke",
+    "Guillotine Choke",
+    "Baratoplata",
+    "Tarikoplata"
+  ],
   "related_content": [
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "relationship": "Primary starting position for this submission; fundamental guard position where triangle is most commonly initiated"
     },
     {
@@ -353,15 +367,15 @@
     },
     {
       "name": "Posture Breaking",
-      "relationship": "Essential concept and prerequisite for triangle success; opponent's broken posture is required for triangle effectiveness"
+      "relationship": "Essential principle and prerequisite for triangle success; opponent's broken posture is required for triangle effectiveness"
     },
     {
       "name": "Hip Movement",
-      "relationship": "Fundamental concept for creating the angle necessary for triangle; hip mobility directly impacts triangle success rate"
+      "relationship": "Fundamental principle for creating the angle necessary for triangle; hip mobility directly impacts triangle success rate"
     },
     {
       "name": "Submission Chains",
-      "relationship": "Strategic concept where triangle serves as centerpiece of closed guard attack system connecting to multiple submissions"
+      "relationship": "Strategic principle where triangle serves as centerpiece of closed guard attack system connecting to multiple submissions"
     },
     {
       "name": "Rubber Guard",

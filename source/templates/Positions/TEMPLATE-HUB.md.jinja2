@@ -1,56 +1,114 @@
 {# BJJ Position Hub Page Template #}
 {# Generates hub pages with summaries from bottom and top perspectives #}
-{# Input: hub, bottom_summary, top_summary, slug #}
+{# Input: Root fields (name, description, overview, etc.) + bottom_summary, top_summary, slug #}
 
 ---
-title: "{{ hub.title }}"
-description: "{{ hub.description }}"
+title: "{{ name }} | BJJ Position Guide | BJJ Graph"
+description: "{{ description }}"
 ---
 
-# {{ hub.title.split('|')[0].strip() }}
+{# PostHog A/B Testing Metadata #}
+<body data-content-type="positions-hub" data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
 
-> **Quick Overview**: {{ hub.overview[:200] }}...
+{# Debug mode indicator #}
+{% if debug_mode %}
+<!--
+  🐛 BJJ Graph A/B Testing Debug Mode (Hub Page)
 
-## Position Properties
+  Content Type: positions-hub
+  Section Count: 7
+  Week Seed: {{ week_seed }}
+  Visual Variant: {{ visual_elements }}
 
-- **Point Value**: {{ hub.state_properties.point_value }} ({% if hub.state_properties.point_value == 0 %}Neutral{% elif hub.state_properties.point_value == 2 %}Advantage{% elif hub.state_properties.point_value == 3 %}Guard pass{% elif hub.state_properties.point_value == 4 %}Dominant{% endif %})
-- **Position Type**: {{ hub.state_properties.position_type }}
-- **Risk Level**: {{ hub.state_properties.risk_level }}
-- **Energy Cost**: {{ hub.state_properties.energy_cost }}
-- **Time Sustainability**: {{ hub.state_properties.time_sustainability }}
+  Generated: {{ generation_timestamp }}
+-->
+{% endif %}
+
+# {{ name }}
+
+> **Quick Overview**: {{ overview[:200] }}...
 
 ---
 
-## What is {{ hub.title.split('|')[0].strip() }}?
+{# Flexbox wrapper for A/B testing #}
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-{{ hub.overview }}
+<section id="overview" class="content-section">
+
+## What is {{ name }}?
+
+{{ overview }}
+
+</section>
+
+<section id="key-principles" class="content-section">
 
 ### Key Principles
 
-{% for principle in hub.key_principles %}
+{% for principle in key_principles %}
 - {{ principle }}
 {% endfor %}
 
----
+</section>
 
-## {{ hub.title.split('|')[0].strip() }} Defense (Bottom Perspective)
+<section id="variant-comparison" class="content-section">
 
-The bottom player in {{ hub.title.split('|')[0].strip().lower() }} must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+## Position Properties Comparison
 
-### Key Defensive Principles
+{% if variations %}
+{# FAMILY: Combined multi-variant table #}
+
+| Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | What Makes This Variant Unique |
+|---------|-------------|----------|---------------|------------|-------------------------------|
+| [[{{ name }}]] | {{ bottom_summary.state_properties.risk_level }} | {{ top_summary.state_properties.risk_level }} | {{ bottom_summary.state_properties.energy_cost }} | {{ top_summary.state_properties.energy_cost }} | {{ variant_uniqueness }} |
+{% for variant in variants_comparison %}
+| [[{{ variant.name }}]] | {{ variant.bottom_risk }} | {{ variant.top_risk }} | {{ variant.bottom_energy }} | {{ variant.top_energy }} | {{ variant.uniqueness }} |
+{% endfor %}
+
+{% else %}
+{# DUAL: Simple comparison table #}
+
+| Property | Bottom Perspective | Top Perspective |
+|----------|-------------------|-----------------|
+| Position Type | {{ bottom_summary.state_properties.position_type }} | {{ top_summary.state_properties.position_type }} |
+| Risk Level | {{ bottom_summary.state_properties.risk_level }} | {{ top_summary.state_properties.risk_level }} |
+| Energy Cost | {{ bottom_summary.state_properties.energy_cost }} | {{ top_summary.state_properties.energy_cost }} |
+| Time Sustainability | {{ bottom_summary.state_properties.time_sustainability }} | {{ top_summary.state_properties.time_sustainability }} |
+
+**What Makes This Position Unique:** {{ variant_uniqueness }}
+
+{% endif %}
+
+</section>
+
+<section id="bottom-summary" class="content-section">
+
+## {{ name }} Bottom Perspective
+
+{% if bottom_summary.state_properties.position_type == "Defensive" %}
+The bottom player in {{ name|lower }} must focus on creating frames, protecting against submissions, and executing systematic escapes to recover guard or better positions.
+{% elif bottom_summary.state_properties.position_type == "Offensive" %}
+The bottom player in {{ name|lower }} controls the position with offensive attacks including sweeps, submissions, and positional advancements while managing opponent's passing attempts.
+{% elif bottom_summary.state_properties.position_type == "Defensive with offensive options" %}
+The bottom player in {{ name|lower }} balances defensive frames with offensive opportunities, creating sweeps and submissions when opponent over-commits to passing.
+{% else %}
+The bottom player in {{ name|lower }} navigates both offensive and defensive opportunities based on opponent's actions.
+{% endif %}
+
+### Key Principles
 
 {% for principle in bottom_summary.key_principles %}
 - {{ principle }}
 {% endfor %}
 
-### Primary Escapes
+### Primary Techniques
 
-{% for escape in bottom_summary.top_escapes %}
-- **[[{{ escape.technique }}]]** → [[{{ escape.target_position }}]]
-  - Success Rate: Beginner {{ escape.success_rates.beginner }}%, Intermediate {{ escape.success_rates.intermediate }}%, Advanced {{ escape.success_rates.advanced }}%
+{% for technique in bottom_summary.top_techniques %}
+- **[[{{ technique.technique }}]]** → [[{{ technique.target_position }}]]
+  - Success Rate: Beginner {{ technique.success_rates.beginner }}%, Intermediate {{ technique.success_rates.intermediate }}%, Advanced {{ technique.success_rates.advanced }}%
 {% endfor %}
 
-### Common Defensive Errors
+### Common Errors
 
 {% for error in bottom_summary.top_errors %}
 - ❌ **{{ error.error }}**
@@ -58,28 +116,38 @@ The bottom player in {{ hub.title.split('|')[0].strip().lower() }} must focus on
   - ✅ Correction: {{ error.correction }}
 {% endfor %}
 
-👉 **[Complete Defensive Guide with Drills and Expert Insights →]({{ slug }}/bottom)**
+👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →]({{ slug }}/bottom)**
 
----
+</section>
 
-## {{ hub.title.split('|')[0].strip() }} Attacks (Top Perspective)
+<section id="top-summary" class="content-section">
 
-The top player in {{ hub.title.split('|')[0].strip().lower() }} enjoys significant offensive advantages with access to numerous submission opportunities while maintaining stable control.
+## {{ name }} Top Perspective
 
-### Key Offensive Principles
+{% if top_summary.state_properties.position_type == "Offensive" %}
+The top player in {{ name|lower }} enjoys offensive advantages with access to submissions and positional advancements while maintaining control.
+{% elif top_summary.state_properties.position_type == "Controlling" %}
+The top player in {{ name|lower }} focuses on maintaining dominant control, applying pressure, and systematically breaking opponent's defensive structure.
+{% elif top_summary.state_properties.position_type == "Offensive/Controlling" %}
+The top player in {{ name|lower }} balances control maintenance with submission attacks, deciding when to consolidate position versus when to finish.
+{% else %}
+The top player in {{ name|lower }} manages the position strategically based on opponent's defensive reactions.
+{% endif %}
+
+### Key Principles
 
 {% for principle in top_summary.key_principles %}
 - {{ principle }}
 {% endfor %}
 
-### Primary Attacks
+### Primary Techniques
 
-{% for attack in top_summary.top_attacks %}
-- **[[{{ attack.technique }}]]** → [[{{ attack.target_position }}]]
-  - Success Rate: Beginner {{ attack.success_rates.beginner }}%, Intermediate {{ attack.success_rates.intermediate }}%, Advanced {{ attack.success_rates.advanced }}%
+{% for technique in top_summary.top_techniques %}
+- **[[{{ technique.technique }}]]** → [[{{ technique.target_position }}]]
+  - Success Rate: Beginner {{ technique.success_rates.beginner }}%, Intermediate {{ technique.success_rates.intermediate }}%, Advanced {{ technique.success_rates.advanced }}%
 {% endfor %}
 
-### Common Offensive Errors
+### Common Errors
 
 {% for error in top_summary.top_errors %}
 - ❌ **{{ error.error }}**
@@ -87,13 +155,16 @@ The top player in {{ hub.title.split('|')[0].strip().lower() }} enjoys significa
   - ✅ Correction: {{ error.correction }}
 {% endfor %}
 
-👉 **[Complete Attack Guide with Submission Chains and Drills →]({{ slug }}/top)**
+👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →]({{ slug }}/top)**
 
----
+</section>
+
+{% if variations %}
+<section id="variations-list" class="content-section">
 
 ## Position Variations
 
-{% for variation in hub.variations %}
+{% for variation in variations %}
 ### [[{{ variation.name }}]]
 
 {{ variation.description }}
@@ -102,11 +173,14 @@ The top player in {{ hub.title.split('|')[0].strip().lower() }} enjoys significa
 
 {% endfor %}
 
----
+</section>
+{% endif %}
+
+<section id="related-positions" class="content-section">
 
 ## Related Positions
 
-{% for related in hub.related_positions %}
+{% for related in related_positions %}
 - **[[{{ related.name }}]]** - {{ related.relationship }}
 {% endfor %}
 
@@ -115,10 +189,16 @@ The top player in {{ hub.title.split('|')[0].strip().lower() }} enjoys significa
 ## Navigation
 
 ### By Perspective
-- 🛡️ **[Defense (Bottom)]({{ slug }}/bottom)** - Escapes, frames, and survival strategies
-- ⚔️ **[Attacks (Top)]({{ slug }}/top)** - Submissions, control, and finishing sequences
+- **[Bottom Perspective]({{ slug }}/bottom)** - {% if bottom_summary.state_properties.position_type == "Offensive" %}Sweeps, attacks, and submissions{% elif bottom_summary.state_properties.position_type == "Defensive" %}Escapes, frames, and survival strategies{% else %}Techniques and strategies{% endif %}
+- **[Top Perspective]({{ slug }}/top)** - {% if top_summary.state_properties.position_type == "Offensive" %}Submissions and positional attacks{% elif top_summary.state_properties.position_type == "Controlling" %}Control, pressure, and dominance{% else %}Techniques and strategies{% endif %}
 
+{% if variations %}
 ### By Variation
-{% for variation in hub.variations %}
+{% for variation in variations %}
 - **[{{ variation.name }}]({{ slug }}/{{ variation.slug }})** - {{ variation.description }}
 {% endfor %}
+{% endif %}
+
+</section>
+
+</main>

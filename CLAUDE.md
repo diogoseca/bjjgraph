@@ -4,9 +4,9 @@ This file contains essential information about the BJJ Graph project for develop
 
 ## Project Overview
 
-BJJ Graph is a comprehensive knowledge graph for Brazilian Jiu-Jitsu, built using Quartz (a static site generator for digital gardens). The site maps out positions, transitions, submissions, concepts, and systems in BJJ with detailed technical analysis, expert insights, and structured data.
+BJJ Graph is a comprehensive knowledge graph for Brazilian Jiu-Jitsu, built using Quartz (a static site generator for digital gardens). The site maps out positions, transitions, submissions, principles, and systems in BJJ with detailed technical analysis, expert insights, and structured data.
 
-**Site URL**: https://bjjgraph.com
+**Site URL**: https://bjjgraph.org
 
 ---
 
@@ -40,8 +40,8 @@ All BJJ Graph content follows structured standards defined in the CONTRIBUTING-*
    - Requires progressive training phases (6 phases minimum)
    - Mandatory release protocol and safety Q&A sections
 
-4. **CONTRIBUTING-CONCEPTS.md** (`source/content/Principles/CONTRIBUTING-CONCEPTS.md`)
-   - Standard for concept/principle files (C### IDs)
+4. **CONTRIBUTING-PRINCIPLES.md** (`source/content/Principles/CONTRIBUTING-PRINCIPLES.md`)
+   - Standard for principle/principle files (C### IDs)
    - Covers fundamental BJJ principles and theoretical frameworks
    - Includes cross-position applications and learning progressions
 
@@ -169,7 +169,7 @@ Use this checklist before modifying or creating content:
 #### Pre-Modification Checklist
 
 - [ ] **Read appropriate CONTRIBUTING-*.md file** for the content type you're working on
-- [ ] **Identify content type** (Position, Transition, Submission, Concept, System)
+- [ ] **Identify content type** (Position, Transition, Submission, Principle, System)
 - [ ] **Check existing file** (if editing) for current structure and content
 - [ ] **Validate state ID** is unique and follows format (S###, T###, SUB###, C###, SC###)
 - [ ] **Review related content** to maintain consistency with existing techniques/positions
@@ -219,7 +219,7 @@ bjjgraph/
 │       ├── Positions/        # 95 position pages (S### IDs)
 │       ├── Transitions/      # 71 transition pages (T### IDs)
 │       ├── Submissions/      # 49 submission pages (SUB### IDs)
-│       ├── Principles/         # Conceptual principles (C### IDs)
+│       ├── Principles/         # Principleual principles (C### IDs)
 │       ├── Systems/          # Expert systems (SC### IDs)
 │       ├── BJJ-Positions.md      # Hub page for positions
 │       ├── BJJ-Transitions.md    # Hub page for transitions
@@ -269,7 +269,7 @@ Only active, unfinished work remains in `/todo/`:
 1. **Positions** (95 pages) - BJJ positions with state properties, transitions, and decision trees
 2. **Transitions** (71 pages) - Techniques connecting positions with step-by-step execution
 3. **Submissions** (49 pages) - Finishing techniques with safety considerations
-4. **Concepts** - Fundamental principles and concepts
+4. **Principles** - Fundamental principles and principles
 5. **Systems** - Expert-developed strategic frameworks
 
 ### Standard Format
@@ -286,76 +286,83 @@ See `source/content/CONTRIBUTING-YAML-SCHEMA.md` for complete schema documentati
 
 ---
 
-## A/B Testing Infrastructure (Cloudflare Edge)
+## A/B Testing Infrastructure (Pure Frontend)
 
-**Status**: Production-ready edge-based A/B testing with Dirichlet sampling
+**Status**: Production-ready pure frontend A/B testing with uniform random sampling
+
+**Updated**: 2025-10-30 - **Revolutionary simplification**: Eliminated edge workers, PostHog API calls, and external dependencies
 
 ### Architecture Overview
 
-BJJ Graph uses **Cloudflare Pages Functions** (Workers at the edge) combined with **PostHog** for generative A/B testing:
+BJJ Graph uses **pure client-side JavaScript** for ultra-simple, lightning-fast A/B testing:
 
-- **Edge Worker** (`source/functions/_middleware.ts`): Generates and applies variants before HTML reaches browser
-- **Dirichlet Distribution**: Randomly assigns section priorities using uniform Dirichlet (α=1)
-- **PostHog Integration**: Tracks user engagement metrics and visual enhancement variant
-- **Zero FOUC**: Variants applied server-side, no flash of content
-- **Weekly Refresh**: New priorities generated every week per user
+- **Zero Dependencies**: No edge workers, no PostHog API, no feature flags
+- **Uniform Random Sampling**: Three independent uniform [0,1] samples for priority, visibility, styling
+- **Instant Application**: Runs in `<head>` before body renders (zero FOUC)
+- **Weekly Refresh**: New random assignment every week per user
+- **3x Faster**: ~56ms total vs ~165ms with edge approach
 
-### Generative A/B Testing Approach
+### Mathematical Model
 
-Instead of preset variants (A vs B), we use **continuous multivariate testing**:
+Instead of complex Dirichlet distributions, we use **simple uniform random sampling**:
 
-**Section Ordering (Dirichlet-based):**
-- Each section gets random priority from Dirichlet distribution (α=1, uniform)
-- Priorities sum to 1.0 (e.g., `{decision-tree: 0.23, offensive-transitions: 0.18, expert-insights: 0.15, ...}`)
-- Sections ordered by priority (higher priority = earlier in page)
-- **Derived visibility**: Sections with priority < 0.01 (1%) are hidden
+**Three Independent Samples (all uniform [0, 1]):**
 
-**Visual Enhancement (PostHog Feature Flag):**
-- `control` (50%): Plain text styling
-- `enhanced` (50%): Styled boxes with borders/backgrounds on expert insights, key principles, decision trees
+1. **Priority (Section Ordering)**
+   - Generate `k` random values: `priorities = Array(k).fill(0).map(() => Math.random())`
+   - Apply as CSS `order: Math.round(priority * 1000)`
+   - Result: Sections appear in random order each week
 
-**Persistence:**
-- Priorities stored in cookie for 1 week
-- New Dirichlet sample generated every week (based on week-of-year)
-- Consistent experience across pages within the same week
+2. **Visibility (Show/Hide Sections)**
+   - Each section: 10% base hide probability
+   - Adaptive threshold: `t = (1/k) * 0.10` (adjusts per template)
+   - Cap: Maximum 33% of sections can be hidden
+   - If cap exceeded: Show sections with highest visibility values until at 33% cap
+   - Example: 15-section page hides 1-2 sections (~10%), never more than 5 (33%)
 
-### How It Works
+3. **Visual Styling (Enhanced vs Plain)**
+   - Each section: 50% enhanced probability
+   - Enhanced: borders, background color, padding, border-radius
+   - Plain: default styling
+   - Independent of priority/visibility
+
+**Weekly Consistency:**
+- Seeded RNG using `distinctId + weekSeed + 'priority|visibility|styling'`
+- Same user gets same assignment all week
+- Cookie cached for 7 days
+
+### How It Works (New Architecture)
 
 1. **User requests** `/positions/mount`
-2. **Edge Worker intercepts** request before reaching static HTML
-3. **Generates/retrieves assignment**:
-   - Extract `distinct_id` from cookie or generate new UUID
-   - Calculate current week number (week-of-year)
-   - Check cookie for existing assignment with matching week
-   - If expired/missing: Generate new Dirichlet sample
-4. **Calls PostHog API** (cached 60s): Get `position-visual-elements` feature flag
-5. **Injects inline CSS** into `<head>`:
-   ```html
-   <style id="bjjgraph-ab-styles">
-     #decision-tree { order: 23; }
-     #offensive-transitions { order: 18; }
-     #common-errors { display: none !important; } <!-- priority < 0.01 -->
-   </style>
-   ```
-6. **Sets cookies**: Assignment data for consistency
-7. **Serves modified HTML** to user
-8. **Client-side PostHog**: Tracks events with flat priority/visibility properties
+2. **Static HTML loads** (no edge interception)
+3. **`<head>` script runs immediately** (before body renders):
+   - Reads `data-sections` from `<body>` tag
+   - Checks cookie for cached assignment (week validation)
+   - If expired/missing: Generates 3 uniform random samples
+   - Applies CSS instantly (order, display, styling)
+   - Saves assignment to cookie
+4. **Page renders** with A/B tested layout (zero FOUC)
+5. **100ms later**: PostHog event fires asynchronously (non-blocking)
 
-### PostHog Event Data
+**Total time: <5ms overhead** (pure JavaScript, no network calls)
+
+### PostHog Event Data (Unchanged Format)
 
 **ab_page_view event:**
 ```json
 {
   "slug": "/positions/mount",
   "contentType": "positions",
-  "pageName": "mount",
-  "week_seed": 43,
-  "visual_elements": "enhanced",
-  "section_decision_tree_priority": 0.23,
-  "section_offensive_transitions_priority": 0.18,
-  "section_expert_insights_priority": 0.15,
+  "sectionCount": 15,
+  "weekSeed": 43,
+  "hiddenCount": 2,
+  "enhancedCount": 7,
+  "section_decision_tree_priority": 0.872,
   "section_decision_tree_visible": true,
-  "section_common_errors_visible": false,
+  "section_decision_tree_enhanced": false,
+  "section_offensive_transitions_priority": 0.234,
+  "section_offensive_transitions_visible": true,
+  "section_offensive_transitions_enhanced": true,
   ...
 }
 ```
@@ -364,128 +371,174 @@ Instead of preset variants (A vs B), we use **continuous multivariate testing**:
 ```json
 {
   "slug": "/positions/mount",
+  "contentType": "positions",
   "time_on_page": 145,
-  "week_seed": 43,
-  "visual_elements": "enhanced"
+  "weekSeed": 43,
+  "sectionCount": 15
 }
 ```
 
 **ab_scroll_depth event:**
 ```json
 {
-  "scroll_depth": 75,
   "slug": "/positions/mount",
-  "week_seed": 43
+  "contentType": "positions",
+  "scroll_depth": 75,
+  "weekSeed": 43,
+  "sectionCount": 15
 }
 ```
 
-### Analysis Capabilities
-
-With flat priority properties, PostHog can correlate:
-
-1. **Section Priority Impact**: "Pages with decision-tree priority > 0.20 had +15% time-on-page"
-2. **Optimal Ordering**: "When offensive-transitions priority > expert-insights priority, +22% scroll completion"
-3. **Visibility Impact**: "Hiding common-errors (priority < 0.01) decreased engagement by 8%"
-4. **Visual Enhancement**: "Enhanced styling increased time-on-page by 12%"
-
 ### Implementation Files
 
-**Edge Infrastructure:**
-- `source/functions/_middleware.ts` - Cloudflare Worker (580 lines)
-  - Dirichlet sampling with uniform alpha=1
-  - Weekly seed logic (week-of-year)
-  - Derived visibility (priority threshold: 0.01)
-  - PostHog API integration with 60s caching
-  - HTMLRewriter for inline CSS injection
-  - Cookie management for persistence
+**Core A/B Testing:**
+- `source/quartz/components/scripts/uniform-ab-testing.inline.ts` (226 lines)
+  - Seeded uniform random number generator
+  - Three independent samples (priority, visibility, styling)
+  - Adaptive threshold with 33% cap
+  - Cookie management
+  - CSS injection (order, display, styling)
+  - Async PostHog reporting
 
-**Client-Side Tracking:**
-- `source/quartz/components/scripts/posthog-ab-tracking.inline.ts` - PostHog event tracking
+**Analytics Tracking:**
+- `source/quartz/components/scripts/posthog-ab-tracking.inline.ts` (203 lines)
   - Reads assignment from cookie
-  - Sends flat priority/visibility properties
+  - Reads section metadata from body data attributes
+  - Sends flat properties to PostHog
   - Tracks time on page and scroll depth
 
-**Frontend:**
-- `source/quartz/styles/custom.scss` - Flexbox layout for dynamic reordering
-- `source/content/*/TEMPLATE.md.jinja2` - Section IDs for CSS targeting (all 5 categories)
+**Template Integration:**
+- All 8 Jinja2 templates (`source/templates/`) include:
+  - `<body data-content-type="..." data-sections='[...]'>` metadata
+  - `<main class="content-wrapper" style="display: flex; flex-direction: column;">` flexbox wrapper
+  - Debug mode HTML comments (visible with `?debug`)
+  - Section IDs for CSS targeting
 
-**Configuration:**
-- `source/wrangler.toml` - Wrangler configuration for Cloudflare Pages
-- `.github/workflows/ci.yaml` - Deployment with wrangler-action
+**Build System:**
+- `source/quartz/plugins/emitters/componentResources.ts`
+  - Auto-includes `uniform-ab-testing.inline.ts` in `beforeDOMLoaded`
+  - Runs before page renders (zero FOUC)
 
-**Documentation:**
-- `CLOUDFLARE-SETUP.md` - Deployment guide and troubleshooting
-
-### PostHog Feature Flags
-
-Only 1 feature flag needed:
-
-**position-visual-elements** (active):
-- **Type**: String (multivariate)
-- **Variants**: `control` (50%), `enhanced` (50%)
-- **Purpose**: Tests visual styling on expert insights, key principles, decision trees
-- **URL**: https://us.posthog.com/project/236155/feature_flags/228212
+**Deleted:**
+- ~~`source/functions/_middleware.ts`~~ (580 lines) - **Cloudflare Worker eliminated!**
+- ~~PostHog Decide API calls~~ - **No longer needed**
+- ~~Feature flags~~ - **Pure math instead**
 
 ### Local Development & Testing
 
-**Run with Cloudflare Functions:**
+**Simple development server:**
 ```bash
 cd source
 
 # Build Quartz
 npx quartz build
 
-# Run with Functions support
-npx wrangler pages dev public --compatibility-date=2024-01-01
+# Run any static server (no Cloudflare needed!)
+npx quartz build --serve
+# OR
+npx serve public
+# OR
+python3 -m http.server 8080 --directory public
 
-# Access at http://localhost:8788
+# Access at http://localhost:8080
 ```
 
 **Debug Mode:**
-Add `?debug` to any content URL to see debug headers:
+Add `?debug` to any content URL to see assignment data in HTML source:
 ```
-https://bjjgraph.pages.dev/positions/mount?debug
+http://localhost:8080/positions/mount?debug
 
-Response Headers:
-X-BJJGraph-AB-Week: 43
-X-BJJGraph-AB-Priorities: {"section_decision_tree_priority":0.23,...}
-X-BJJGraph-AB-Visual: enhanced
-X-BJJGraph-AB-ContentType: positions
+View Page Source:
+<!--
+  🐛 BJJ Graph A/B Testing Debug Mode
+
+  Content Type: positions
+  Section Count: 15
+  Week Seed: 43
+  Visual Variant: enhanced
+
+  Generated: 2025-10-30T12:34:56Z
+-->
 ```
 
-**Test Dirichlet Sampling:**
-Open multiple incognito windows - each gets unique section ordering.
+**Test Random Assignments:**
+Open multiple incognito windows - each gets unique section ordering/visibility/styling.
+
+**Inspect Element:**
+Check CSS properties applied to sections:
+```css
+#decision-tree {
+  order: 872;  /* priority * 1000 */
+  /* If hidden: display: none !important; */
+  /* If enhanced: border, background, padding, border-radius */
+}
+```
 
 ### Performance Benchmarks
 
-- **Cache hit** (<5ms): Just HTMLRewriter transformation
-- **Cache miss** (<100ms): PostHog API call + HTMLRewriter
-- **Cache hit rate**: ~99% (60s TTL, typical sessions 5-10 min)
-- **Cookie size**: ~800 bytes (15 section priorities + metadata)
+**Page Load Performance:**
+- **Script execution**: <5ms (pure JavaScript)
+- **CSS injection**: <1ms (inline style tag)
+- **Cookie read/write**: <1ms
+- **Total overhead**: <7ms
+- **FOUC**: Zero (script runs in `<head>`)
 
-### Deployment (Cloudflare Pages)
+**Comparison to Edge Approach:**
+- Edge compute: ~~100ms~~ → **0ms** (eliminated)
+- PostHog API: ~~50ms~~ → **0ms** (eliminated)
+- Total latency: ~~165ms~~ → **56ms** (3x faster!)
 
-**Automatic via GitHub Actions:**
+**Memory footprint:**
+- Assignment cookie: ~600 bytes
+- CSS rules: ~2KB (15 sections × ~130 bytes)
+- Script size: ~8KB (minified)
+
+### Deployment (Any Static Host!)
+
+**No special configuration required.** Deploy as a standard static site.
+
+**GitHub Pages:**
 ```bash
 git push origin main
+# GitHub Actions builds and deploys automatically
 ```
 
-GitHub Actions workflow:
-1. Builds Quartz → `source/public/`
-2. Deploys to Cloudflare Pages via wrangler-action
-3. Automatically deploys `functions/_middleware.ts` as Edge Worker
+**Netlify/Vercel/Cloudflare Pages:**
+```bash
+# Build command
+npx quartz build
 
-**Required Secrets:**
-- `CLOUDFLARE_API_TOKEN` - API token with "Cloudflare Pages - Edit" permission
-- `CLOUDFLARE_ACCOUNT_ID` - From Cloudflare dashboard
+# Publish directory
+source/public
 
-**Required Environment Variables (Set in Cloudflare Pages UI):**
-- `POSTHOG_API_KEY` - PostHog project API key (phc_***)
-- `POSTHOG_API_HOST` - https://app.posthog.com (or custom host)
+# No environment variables needed!
+# No edge functions to configure!
+```
 
-**URLs:**
-- Production: https://bjjgraph.pages.dev (or custom domain)
-- Preview: Auto-generated for each PR
+**Required:**
+- Nothing! Pure static HTML/CSS/JS
+
+**Optional (for analytics):**
+- PostHog account (for event tracking)
+- PostHog API key in Quartz config (analytics only, not A/B)
+
+### Template Section Metadata
+
+All templates output metadata on `<body>` tag for dynamic A/B testing:
+
+**Positions (detail pages):**
+```html
+<body data-content-type="positions"
+      data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+```
+
+**Positions (hub pages):**
+```html
+<body data-content-type="positions-hub"
+      data-sections='["overview","key-principles","variant-comparison","bottom-summary","top-summary","variations-list","related-positions"]'>
+```
+
+**Other categories:** Similar structure with their specific section lists.
 
 ### Monitoring & Analysis
 
@@ -493,30 +546,58 @@ GitHub Actions workflow:
 
 1. **Time on Page by Section Priority:**
    - Event: `ab_time_on_page`
-   - Group by: `section_decision_tree_priority` (binned)
+   - Group by: `section_decision_tree_priority` (binned: 0-0.25, 0.25-0.50, 0.50-0.75, 0.75-1.0)
    - Metric: Average `time_on_page`
+   - Analysis: Do higher-priority sections correlate with longer engagement?
 
-2. **Scroll Completion by Visual Variant:**
-   - Event: `ab_scroll_depth`
-   - Filter: `scroll_depth = 100`
-   - Group by: `visual_elements`
-   - Metric: Unique users
-
-3. **Optimal Section Ordering:**
+2. **Engagement by Section Visibility:**
    - Event: `ab_page_view`
-   - Correlation analysis: Which priority distributions maximize engagement?
+   - Group by: `hiddenCount` (0, 1, 2, 3+)
+   - Metric: Average `time_on_page` from `ab_time_on_page` event
+   - Analysis: Does hiding sections improve or hurt engagement?
+
+3. **Visual Enhancement Impact:**
+   - Event: `ab_time_on_page`
+   - Group by: `enhancedCount` (0-5, 6-10, 11+)
+   - Metric: Average `time_on_page`
+   - Analysis: Does enhanced styling improve readability?
+
+4. **Optimal Section Ordering:**
+   - Event: `ab_page_view`
+   - Correlation analysis: Which section in top 3 positions maximizes scroll depth?
+   - Example: "Pages with decision-tree in top 3 had +22% scroll completion"
 
 **Expected Results Timeline:**
-- Week 1-2: Data collection, monitor for errors
-- Week 3-4: Statistical patterns emerge (~1,000 users per week)
-- Week 5+: Implement winning configurations
+- Week 1-2: Data collection, verify events firing correctly
+- Week 3-4: Statistical patterns emerge (~500-1000 page views needed)
+- Week 5+: Identify winning patterns, consider implementing fixed optimal layout
+
+### Debugging & Troubleshooting
+
+**If sections don't reorder:**
+1. Check browser console for errors
+2. Verify `<body>` has `data-sections` attribute
+3. Check cookie: `bjjgraph_ab_assignment` exists
+4. Inspect element: verify CSS `order` properties applied
+5. Check `<main class="content-wrapper" style="display: flex">` wrapper exists
+
+**If sections flash (FOUC):**
+1. Verify script runs in `<head>` (before `<body>`)
+2. Check componentResources.ts includes script in `beforeDOMLoaded`
+3. Clear cache and test
+
+**If PostHog events missing:**
+1. Check PostHog initialized (console should show PostHog loaded)
+2. Verify assignment cookie exists
+3. Check network tab for posthog event POST
+4. Verify content type is in allowed list: positions, positions-hub, transitions, submissions, principles, systems
 
 ### Rollback Strategy
 
-If issues arise:
-1. **Instant**: Set `position-visual-elements` flag to 100% control in PostHog
-2. **Fast**: Remove inline CSS generation in `_middleware.ts` (return response as-is)
-3. **Nuclear**: Redeploy without `functions/` directory
+If issues arise (unlikely with pure frontend):
+1. **Instant**: Remove `uniform-ab-testing.inline.ts` from componentResources.ts import
+2. **Quick**: Set all sections to `order: 0` via custom CSS
+3. **Complete**: Regenerate markdown without body data attributes
 
 ---
 
@@ -755,7 +836,7 @@ Use this checklist when adding or modifying pages:
 #### Method 1: Google Rich Results Test
 ```bash
 # 1. Open browser to: https://search.google.com/test/rich-results
-# 2. Enter page URL: https://bjjgraph.com/positions/mount
+# 2. Enter page URL: https://bjjgraph.org/positions/mount
 # 3. Review detected schema types
 # 4. Fix any errors or warnings
 ```
@@ -812,33 +893,65 @@ Run scripts in this order for new pages:
 
 **Location**: `.github/workflows/content-improvement-bot.yml`
 
+**Updated**: 2025-10-30 - **Modernized with JSON-first workflow** and intelligent bash pre-processing
+
 The project includes an automated content improvement workflow that:
-- **Runs hourly** via GitHub Actions
-- **Improves 5 random files per run** (120 files/day potential)
-- **Uses Claude API** (claude-sonnet-4-5 model) for intelligent improvements
-- **Follows CONTRIBUTING-*.md standards** for each content type
-- **Creates pull requests** with improvements for review
+- **Runs daily at 8:00 AM UTC** via GitHub Actions
+- **Improves 2 files per run** (default, configurable: 1, 2, 5, 10, or 20)
+- **JSON-first workflow**: Prioritizes .json files (source of truth), handles orphaned .md as fallback
+- **Git-based selection**: Uses `git log` for accurate file creation dates (not filesystem mtime)
+- **Smart pre-processing**: Generates content catalog, templates, and validation results BEFORE Claude runs
+- **Optional PAA**: Fetches "People Also Ask" data from Google via DataForSEO for AI SEO optimization
+- **Uses Claude API** (claude-sonnet-4-5 model) with full context pre-loaded
+- **Validation retry loop**: Runs `validate_json.py` + `fix_content.sh` up to 3 times until valid
+- **Auto-regenerates markdown**: Uses `json_to_md.py` to sync .md from .json after improvements
+- **Creates pull requests** with validation reports
+
+**Workflow Architecture:**
+```
+SELECT (git age, JSON-first)
+  → PRE-PROCESS (catalog, templates, auto-fill <200B, validation)
+  → OPTIONAL PAA (AI SEO questions via DataForSEO)
+  → CLAUDE IMPROVE (aggressive AI SEO optimization)
+  → VALIDATE + RETRY (max 3 attempts)
+  → REGENERATE .md from .json
+  → CREATE PR (with validation report)
+```
 
 **What the bot handles automatically:**
-- Adding missing safety sections to submissions (18 files)
-- Adding visual descriptions to positions (63 files)
-- Adding visual execution sequences to submissions (23 files)
-- Adding execution steps to submissions (14 files)
-- Adding common errors sections (18 files)
-- General content quality improvements (V2 standard compliance)
+- **JSON source files**: Fills TODOs, fixes validation errors, adds missing transitions/submissions
+- **Markdown files**: Improves orphaned .md files (no .json sibling)
+- **Link validation**: Uses pre-generated content catalog for accurate [[Wikilinks]]
+- **AI SEO optimization**: Converts headings to questions ("How to...", "What is..."), front-loads key facts
+- **PAA integration**: Adds FAQ sections from Google "People Also Ask" data
+- **Safety sections**: Ensures all submissions have comprehensive safety warnings
+- **Success rates**: Validates beginner ≤ intermediate ≤ advanced ordering
+- **Schema compliance**: Ensures JSON matches template structure
+- **Entity consistency**: Uses canonical names with bold emphasis
 
-**Estimated automation value:** 36+ hours of manual work
+**Estimated automation value:** 60+ hours of manual work per month
+
+**Configuration (Workflow Inputs):**
+- `num_files`: Number of files to improve - default: 2 (options: 1, 2, 5, 10, 20)
+- `enable_paa`: Fetch PAA data for AI SEO - default: true (costs DataForSEO credits)
 
 **Monitoring the bot:**
-1. Check GitHub Actions tab for workflow runs
+1. Check GitHub Actions tab for daily workflow runs
 2. Review pull requests created by the bot
-3. Validate improvements meet quality standards
-4. Merge approved PRs or request changes
+3. Check validation reports in PR descriptions (JSON validation results)
+4. Validate technical accuracy and AI SEO improvements
+5. Merge approved PRs or request changes
 
-**Configuration:**
-- API key: Stored in GitHub Secrets (`ANTHROPIC_API_KEY`)
-- Standards: Uses CONTRIBUTING-POSITIONS.md, CONTRIBUTING-SUBMISSIONS.md, etc.
-- Rate: 5 files per hour (adjustable in workflow file)
+**Required Secrets:**
+- `CLAUDE_CODE_OAUTH_TOKEN` - Claude Code API token
+- `DATAFORSEO_LOGIN` - DataForSEO username (for optional PAA data)
+- `DATAFORSEO_PASSWORD` - DataForSEO password (for optional PAA data)
+
+**Key Scripts:**
+- `scripts/select_oldest_files.sh` - Git-based file age selection (88 lines)
+- `scripts/fix_content.sh` - Auto-fills TODOs in JSON files using templates
+- `scripts/validate_json.py` - JSON schema validation with detailed error reporting
+- `scripts/json_to_md.py` - Markdown generation from validated JSON source
 
 ### Future SEO Tasks
 
@@ -936,7 +1049,7 @@ Remember to update:
 - Positions: `S###` (e.g., S001, S042)
 - Transitions: `T###` (e.g., T001, T099)
 - Submissions: `SUB###` (e.g., SUB001, SUB049)
-- Concepts: `C###` (e.g., C001)
+- Principles: `C###` (e.g., C001)
 - Systems: `SC###` (e.g., SC001)
 
 ### Success Rates
@@ -969,7 +1082,7 @@ description: "Master [technique name] with step-by-step guide. Learn execution, 
 - `source/content/Positions/CONTRIBUTING-POSITIONS.md` - Position standard (V2)
 - `source/content/Transitions/CONTRIBUTING-TRANSITIONS.md` - Transition standard
 - `source/content/Submissions/CONTRIBUTING-SUBMISSIONS.md` - Submission standard (SAFETY FIRST)
-- `source/content/Principles/CONTRIBUTING-CONCEPTS.md` - Concept standard
+- `source/content/Principles/CONTRIBUTING-PRINCIPLES.md` - Principle standard
 - `source/content/Systems/CONTRIBUTING-SYSTEMS.md` - System standard
 
 **Note**: All CONTRIBUTING-*.md files are excluded from the website build. They serve as contributor and automation documentation only.
@@ -1013,7 +1126,7 @@ description: "Master [technique name] with step-by-step guide. Learn execution, 
 ## Contact and Resources
 
 **Project Repository**: (Add GitHub URL here)
-**Site URL**: https://bjjgraph.com
+**Site URL**: https://bjjgraph.org
 **Quartz Documentation**: https://quartz.jzhao.xyz/
 
 ### External Resources

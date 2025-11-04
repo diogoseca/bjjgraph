@@ -2,7 +2,7 @@
   "metadata": {
     "title": "RNC Defense | BJJ Concept | BJJ Graph",
     "description": "Understand Rear Naked Choke defense in BJJ. Learn hand fighting, chin protection, escape mechanics. Expert insights from Danaher, Ryan, Bravo on defensive priorities.",
-    "concept_id": "C265",
+    "principle_id": "P265",
     "tags": ["bjj", "concept", "defense", "rear-naked-choke", "back-control", "submission-defense", "hand-fighting", "chin-protection"],
     "application_level": "Fundamental",
     "complexity_level": "Medium",
@@ -54,34 +54,34 @@
       "description": "The decision-making framework for determining which defensive layer to employ based on the current threat level and arm positioning. This involves instantly assessing whether to prioritize hand fighting, grip breaking, or emergency escape based on how deep the attack has progressed. The skill includes recognizing when to abandon positional escape attempts in favor of pure defensive survival, and conversely when the choke threat is minimal enough to pursue positional improvement simultaneously."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Chin Protection",
+      "principle_name": "Chin Protection",
       "relationship_type": "Prerequisite",
       "description": "Chin protection serves as the foundational defensive layer that RNC Defense builds upon. Understanding proper chin positioning and structural frames created by the jawline is essential before developing more advanced hand fighting and escape sequences."
     },
     {
-      "concept_name": "Hand Fighting from Back",
+      "principle_name": "Hand Fighting from Back",
       "relationship_type": "Complementary",
       "description": "Hand fighting from back control is the primary proactive component of RNC Defense. The two concepts work in tandem, with hand fighting preventing the choke from being attempted while RNC Defense addresses situations where hand fighting has been bypassed or defeated."
     },
     {
-      "concept_name": "Defensive Strategy",
+      "principle_name": "Defensive Strategy",
       "relationship_type": "Extension",
       "description": "RNC Defense applies the broader principles of defensive strategy specifically to the rear naked choke threat. It exemplifies the defensive hierarchy of prevention, active defense, and emergency escape that applies across all submission defense scenarios."
     },
     {
-      "concept_name": "Escape Fundamentals",
+      "principle_name": "Escape Fundamentals",
       "relationship_type": "Complementary",
       "description": "RNC Defense integrates with general escape fundamentals by applying core escape principles (creating space, hip movement, explosive action) specifically to the context of defending chokes from back control. The concepts reinforce each other in developing comprehensive defensive skills."
     },
     {
-      "concept_name": "Submission Defense Concepts",
+      "principle_name": "Submission Defense Concepts",
       "relationship_type": "Prerequisite",
       "description": "General submission defense concepts provide the theoretical foundation that RNC Defense applies to the specific context of rear naked choke attacks. Understanding submission mechanics, defensive timing, and threat recognition are prerequisites for effective RNC-specific defense."
     },
     {
-      "concept_name": "Back Escape Series",
+      "principle_name": "Back Escape Series",
       "relationship_type": "Complementary",
       "description": "Back escape sequences and RNC Defense must be coordinated, as positional escape attempts can create vulnerabilities to choking attacks while defending the neck can limit escape options. Advanced practitioners integrate both concepts fluidly, defending submissions while simultaneously working toward positional improvement."
     }

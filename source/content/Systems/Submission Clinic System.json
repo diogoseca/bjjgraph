@@ -1,12 +1,9 @@
 {
-  "metadata": {
-    "title": "Submission Clinic System | BJJ System | BJJ Graph",
-    "description": "Master the Submission Clinic System in BJJ. Comprehensive framework teaching systematic submission hunting from dominant positions. Expert insights from Danaher, Ryan, and Bravo.",
-    "system_id": "SC015",
-    "tags": ["bjj", "system", "submission", "attack-chain", "position-control", "finish", "mount", "back", "triangle"],
-    "system_type": "Attack System",
-    "difficulty_level": "Advanced"
-  },
+  "name": "Submission Clinic System",
+  "description": "Master systematic submission hunting from dominant positions in BJJ. Learn to chain attacks, create dilemmas, and maintain control while presenting constant submission threats.",
+  "tags": ["bjj", "system", "submission", "attack-chain", "position-control", "finish", "mount", "back", "triangle"],
+  "system_type": "Attack System",
+  "difficulty_level": "Advanced",
   "overview": "The Submission Clinic System represents a comprehensive framework for systematically attacking submissions from dominant positions. Rather than hunting for isolated finishes, this system emphasizes positional dominance first, then creates multiple submission threats that force the opponent into defensive dilemmas. Each defensive reaction opens new attacking pathways, creating an endless cycle of threats.\n\nThis system integrates seamlessly across mount, back control, side control, and guard positions, teaching practitioners to maintain control while presenting constant submission danger. The key is never committing fully to one submission, but rather using each attempt to improve position or transition to the next threat. By mastering this system, practitioners develop the ability to finish opponents who are desperately defending, using their defensive reactions as the roadmap to victory.\n\nThe Submission Clinic System is particularly effective in competition and high-level training because it removes the opponent's ability to rest or recover. Every moment in a dominant position becomes an opportunity for attack, and every defensive movement creates new vulnerabilities. This constant pressure breaks down even experienced grapplers, leading to either submission or complete positional dominance.",
   "key_principles": [
     "Position before submission - establish dominant control before hunting finishes",
@@ -261,68 +258,68 @@
   },
   "related_content": [
     {
-      "name": "Mount Top",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "Primary attacking position for armbar, triangle, and collar choke chains"
     },
     {
-      "name": "Back Control Top",
+      "name": "Back Control",
       "content_type": "Position",
       "relationship": "Highest-percentage finishing position for RNC and armbar attacks"
     },
     {
-      "name": "Side Control Top",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Fundamental control position for kimura, americana, and arm triangle setups"
     },
     {
-      "name": "S Mount Top",
+      "name": "S Mount",
       "content_type": "Position",
       "relationship": "Advanced mount variation providing superior armbar and choke access"
     },
     {
-      "name": "Triangle Control Top",
+      "name": "Triangle Control",
       "content_type": "Position",
       "relationship": "Control position enabling triangle-armbar-omoplata submission chain"
     },
     {
-      "name": "Crucifix Position Top",
+      "name": "Crucifix",
       "content_type": "Position",
       "relationship": "Maximum control position with both arms isolated for finishing"
     },
     {
-      "name": "Gift Wrap Top Position",
+      "name": "Gift Wrap",
       "content_type": "Position",
       "relationship": "Arm-isolation position transitioning to crucifix or mounted attacks"
     },
     {
-      "name": "North-South Top",
+      "name": "North-South",
       "content_type": "Position",
       "relationship": "Transition position connecting side control to mount with kimura access"
     },
     {
-      "name": "Technical Mount Top",
+      "name": "Technical Mount",
       "content_type": "Position",
       "relationship": "Mount variation providing back take and armbar opportunities"
     },
     {
-      "name": "Closed Guard Bottom",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Bottom attacking position for triangle, armbar, and omoplata chains"
     },
     {
-      "name": "High Mount Top",
+      "name": "High Mount",
       "content_type": "Position",
       "relationship": "Advanced mount control with enhanced submission access"
     },
     {
-      "name": "Body Triangle Back Control Top",
+      "name": "Body Triangle",
       "content_type": "Position",
       "relationship": "Superior back control variation for submission attacks"
     },
     {
       "name": "Armbar from Mount",
-      "content_type": "Transition",
+      "content_type": "Submission",
       "relationship": "Primary submission attack from mount position"
     },
     {
@@ -344,36 +341,6 @@
       "name": "Kimura to Back Take",
       "content_type": "Transition",
       "relationship": "Position improvement using kimura threat"
-    },
-    {
-      "name": "Omoplata to Back",
-      "content_type": "Transition",
-      "relationship": "Back take transition from failed omoplata attempt"
-    },
-    {
-      "name": "Mount to Armbar",
-      "content_type": "Transition",
-      "relationship": "Classic submission entry from mount position"
-    },
-    {
-      "name": "Switch to Triangle",
-      "content_type": "Transition",
-      "relationship": "Chain transition when initial submission is defended"
-    },
-    {
-      "name": "Triangle to Back",
-      "content_type": "Transition",
-      "relationship": "Back take opportunity from triangle position"
-    },
-    {
-      "name": "North-South to Kimura",
-      "content_type": "Transition",
-      "relationship": "Submission entry from north-south position"
-    },
-    {
-      "name": "Side Control to Mount",
-      "content_type": "Transition",
-      "relationship": "Position advancement for increased control"
     },
     {
       "name": "Armbar from Back",
@@ -417,53 +384,28 @@
     },
     {
       "name": "Submission Chains",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Core theoretical framework underlying entire system"
     },
     {
       "name": "Dilemma Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic principle of forcing no-win defensive choices"
     },
     {
       "name": "Position-Over-Submission Approach",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Philosophical foundation prioritizing control before finishing"
     },
     {
       "name": "Control Maintenance",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Technical principle of maintaining position during attacks"
     },
     {
       "name": "Positional Hierarchy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Understanding position value for progressive advancement"
-    },
-    {
-      "name": "Offensive Combinations",
-      "content_type": "Concept",
-      "relationship": "Tactical approach to linking multiple attacks"
-    },
-    {
-      "name": "Control Point Hierarchy",
-      "content_type": "Concept",
-      "relationship": "Framework for prioritizing which controls to maintain"
-    },
-    {
-      "name": "Creating Reactions",
-      "content_type": "Concept",
-      "relationship": "Strategic use of threats to force defensive responses"
-    },
-    {
-      "name": "Angle Creation",
-      "content_type": "Concept",
-      "relationship": "Technical principle for improving submission access"
-    },
-    {
-      "name": "Leverage Principles",
-      "content_type": "Concept",
-      "relationship": "Biomechanical foundation for efficient submission application"
     }
   ],
   "expert_insights": {

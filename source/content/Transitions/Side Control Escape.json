@@ -1,22 +1,21 @@
 {
-  "metadata": {
-    "title": "Side Control Escape | BJJ Technique | BJJ Graph",
-    "description": "Learn Side Control Escape in BJJ. Step-by-step execution from Side Control Bottom to Guard Recovery. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T213",
-    "tags": [
-      "bjj",
-      "transition",
-      "escape",
-      "defensive",
-      "fundamental"
-    ],
-    "starting_position": "Side Control",
-    "ending_position": "Guard Recovery",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Side Control Escape",
+  "description": "Learn Side Control Escape in BJJ. Step-by-step execution from Side Control Bottom to Guard Recovery. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "escape",
+    "defensive",
+    "fundamental",
+    "side-control",
+    "guard-recovery"
+  ],
+  "starting_position": "Side Control",
+  "ending_position": "Closed Guard",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Side Control Escape is one of the most fundamental defensive techniques in Brazilian Jiu-Jitsu, representing a critical survival skill for practitioners at all levels. When trapped in side control, the bottom player faces constant pressure, point accumulation, and the threat of submission. This escape sequence uses precise framing, hip movement, and timing to create space and recover guard position. The technique emphasizes creating defensive frames to manage opponent's pressure while systematically working to turn the hips, insert the knee shield, and reestablish guard. Understanding side control escapes is essential because side control is one of the most common dominant positions in both gi and no-gi grappling. The escape requires patience, proper breathing under pressure, and the discipline to execute technical movements rather than relying on explosive strength. Mastering this fundamental escape provides the foundation for more advanced guard recovery systems and builds the defensive awareness necessary for high-level competition.",
   "key_principles": [
@@ -242,12 +241,8 @@
       "relationship": "Bridging mechanics used in escape sequence"
     },
     {
-      "name": "Knee Shield Retention",
+      "name": "Knee Shield Half Guard",
       "relationship": "Guard structure established after escape"
-    },
-    {
-      "name": "Guard Recovery",
-      "relationship": "Goal position of successful escape"
     },
     {
       "name": "Re-Guard",
@@ -264,6 +259,10 @@
     {
       "name": "Granby Roll",
       "relationship": "Advanced movement used in ghost escape variation"
+    },
+    {
+      "name": "Side Control Consolidation",
+      "relationship": "What opponent is attempting to prevent"
     }
   ],
   "expert_insights": {

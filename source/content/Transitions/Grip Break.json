@@ -1,24 +1,22 @@
 {
-  "metadata": {
-    "title": "Grip Break | BJJ Technique | BJJ Graph",
-    "description": "Master grip breaking techniques in BJJ. Learn systematic hand fighting and posture control methods. Success rates: Beginner 60%, Intermediate 75%, Advanced 90%.",
-    "transition_id": "T164",
-    "tags": [
-      "bjj",
-      "transition",
-      "grip_fighting",
-      "fundamental",
-      "defensive",
-      "guard_retention",
-      "posture_control"
-    ],
-    "starting_position": "Guard Position",
-    "ending_position": "Guard Position",
-    "success_rates": {
-      "beginner": 60,
-      "intermediate": 75,
-      "advanced": 90
-    }
+  "name": "Grip Break",
+  "description": "Master grip breaking in BJJ with systematic hand fighting methods. Learn two-on-one control, directional force, and grip chains. Beginner 60%, Intermediate 75%, Advanced 90%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "grip_fighting",
+    "fundamental",
+    "defensive",
+    "guard_retention",
+    "posture_control",
+    "hand_fighting"
+  ],
+  "starting_position": "Open Guard",
+  "ending_position": "Open Guard",
+  "success_rates": {
+    "beginner": 60,
+    "intermediate": 75,
+    "advanced": 90
   },
   "overview": "Grip breaking is a fundamental skill in Brazilian Jiu-Jitsu that serves as the foundation for both offensive and defensive guard play. Whether you're playing guard or attempting to pass, the ability to systematically break your opponent's grips determines who controls the engagement and dictates the pace of the match. This technique encompasses a variety of methods to release collar grips, sleeve grips, pant grips, and body locks, each requiring specific biomechanical principles and timing.\n\nThe effectiveness of grip breaking lies in understanding leverage principles and applying force in the direction that weakens your opponent's grip structure. Rather than simply pulling against strong grips with brute strength, skilled practitioners use angles, frames, and two-on-one advantages to systematically dismantle their opponent's control points. This creates windows of opportunity to establish your own grips, improve position, or launch attacks.\n\nMastery of grip breaking transcends the physical technique itself and becomes a chess match of grip fighting sequences. Advanced practitioners anticipate their opponent's re-gripping attempts and chain multiple grip breaks together, creating sustained periods of grip dominance that translate directly to positional and tactical advantages throughout the match.",
   "key_principles": [
@@ -244,14 +242,6 @@
       "relationship": "Initial phase that relies heavily on grip breaking fundamentals"
     },
     {
-      "name": "Posture Recovery",
-      "relationship": "Often combined with collar grip breaks to regain upright posture"
-    },
-    {
-      "name": "Standing up in Base",
-      "relationship": "Requires breaking pant and sleeve grips before standing"
-    },
-    {
       "name": "Frame and Shrimp",
       "relationship": "Defensive movement often combined with grip breaks for guard retention"
     },
@@ -262,6 +252,14 @@
     {
       "name": "Long Step Pass",
       "relationship": "Requires breaking guard grips before initiating step around"
+    },
+    {
+      "name": "De La Riva Sweep",
+      "relationship": "Offensive technique from guard that requires breaking opponent's counter-grips"
+    },
+    {
+      "name": "Standing up in Base",
+      "relationship": "Requires breaking pant and sleeve grips before standing"
     }
   ],
   "expert_insights": {

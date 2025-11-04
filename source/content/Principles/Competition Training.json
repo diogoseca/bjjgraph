@@ -1,23 +1,20 @@
 {
-  "metadata": {
-    "title": "Competition Training | BJJ Concept | BJJ Graph",
-    "description": "Understand Competition Training in BJJ. Learn periodization, mental preparation, rule-specific drilling, and performance optimization strategies.",
-    "concept_id": "C042",
-    "tags": [
-      "bjj",
-      "concept",
-      "competition",
-      "training",
-      "preparation",
-      "periodization",
-      "mental game",
-      "strategy"
-    ],
-    "application_level": "Intermediate",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
-  "overview": "Competition Training represents the systematic preparation methodology that transforms general BJJ skill into competition-ready performance through structured periodization, scenario-specific drilling, mental preparation protocols, and physiological conditioning tailored to tournament demands. Unlike general skill development training, competition training is a comprehensive framework that integrates technical refinement, strategic planning, physical conditioning, and psychological preparation into cohesive program designed to maximize performance on competition day. This concept encompasses the periodization structure, intensity management, opponent analysis, and mental preparation elements that distinguish competitive athletes from recreational practitioners. Competition training serves as both a performance optimization system that elevates existing technical capability under pressure, and a diagnostic framework that reveals competitive gaps requiring targeted development. The ability to implement effective competition training methodology often determines tournament success independent of raw technical ability, making it one of the most critical conceptual elements separating competitive achievement from technical knowledge.",
+  "name": "Competition Training",
+  "description": "Master competition training in BJJ. Learn periodization, game planning, mental preparation, rule-specific drilling, and performance optimization for tournaments.",
+  "tags": [
+    "bjj",
+    "principle",
+    "competition",
+    "training",
+    "preparation",
+    "periodization",
+    "mental game",
+    "strategy"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
+  "overview": "Competition Training represents the systematic preparation methodology that transforms general BJJ skill into competition-ready performance through structured periodization, scenario-specific drilling, mental preparation protocols, and physiological conditioning tailored to tournament demands. Unlike general skill development training, competition training is a comprehensive framework that integrates technical refinement, strategic planning, physical conditioning, and psychological preparation into cohesive program designed to maximize performance on competition day. This principle encompasses the periodization structure, intensity management, opponent analysis, and mental preparation elements that distinguish competitive athletes from recreational practitioners. Competition training serves as both a performance optimization system that elevates existing technical capability under pressure, and a diagnostic framework that reveals competitive gaps requiring targeted development. The ability to implement effective competition training methodology often determines tournament success independent of raw technical ability, making it one of the most critical conceptual elements separating competitive achievement from technical knowledge.",
   "key_principles": [
     "Structure training in periodized cycles with distinct preparation phases building toward competition date",
     "Progressively increase training intensity and competition simulation as event approaches",
@@ -63,41 +60,61 @@
       "description": "The integration of sleep optimization, nutrition timing, active recovery protocols, and stress management techniques throughout competition preparation to maximize adaptation to training stimulus while preventing cumulative fatigue that impairs performance."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Competition Mindset",
+      "principle_name": "Competition Mindset",
       "relationship_type": "Complementary",
       "description": "Competition Training provides the physical preparation framework while Competition Mindset addresses the psychological readiness required for optimal performance under pressure, together forming complete competitive preparation."
     },
     {
-      "concept_name": "Match Strategy",
+      "principle_name": "Match Strategy",
       "relationship_type": "Extension",
       "description": "Competition Training develops the technical and physical capacity that Match Strategy then deploys tactically during actual competition, with training preparation enabling strategic execution."
     },
     {
-      "concept_name": "Game Planning",
+      "principle_name": "Game Planning",
       "relationship_type": "Prerequisite",
       "description": "Effective Game Planning must occur before Competition Training implementation, as the strategic framework determines which techniques and positions receive training emphasis during competition preparation cycle."
     },
     {
-      "concept_name": "Energy Management System",
+      "principle_name": "Energy Management System",
       "relationship_type": "Complementary",
       "description": "Competition Training develops the physiological capacity for sustained performance while Energy Management System provides the in-competition tactical framework for pacing and effort distribution across multiple matches."
     },
     {
-      "concept_name": "Positional Sparring",
+      "principle_name": "Positional Sparring",
       "relationship_type": "Complementary",
       "description": "Positional Sparring serves as primary training methodology during competition preparation, allowing focused refinement of specific positions and techniques identified in game plan while simulating match intensity."
     },
     {
-      "concept_name": "Drilling Methodology",
+      "principle_name": "Drilling Methodology",
       "relationship_type": "Prerequisite",
       "description": "Effective Drilling Methodology establishes the technical foundation and movement patterns that Competition Training then refines under progressively realistic conditions, making drilling the base upon which competition preparation builds."
+    },
+    {
+      "principle_name": "Progressive Resistance Training",
+      "relationship_type": "Complementary",
+      "description": "Progressive Resistance Training provides the framework for systematically increasing opponent resistance during preparation, ensuring technical development occurs under progressively realistic competitive conditions."
+    },
+    {
+      "principle_name": "Mental Game Framework",
+      "relationship_type": "Complementary",
+      "description": "Mental Game Framework provides the psychological training architecture that Competition Training integrates throughout preparation cycle, developing mental resilience alongside physical capacity."
+    },
+    {
+      "principle_name": "Risk Assessment",
+      "relationship_type": "Extension",
+      "description": "Competition Training develops the technical reliability and strategic clarity that enables sophisticated Risk Assessment during matches, with preparation quality directly affecting competitive decision-making capacity."
+    },
+    {
+      "principle_name": "Cardio Conditioning",
+      "relationship_type": "Complementary",
+      "description": "Cardio Conditioning provides the aerobic and anaerobic base that Competition Training then refines through match-specific intensity patterns, ensuring physiological readiness for tournament demands."
     }
   ],
   "application_contexts": [
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Competition training emphasizes guard retention under scoring pressure, high-percentage sweep and submission chains that maximize point opportunities, and rule-specific attacking sequences that prevent stalling calls while maintaining offensive initiative."
     },
     {
@@ -113,7 +130,7 @@
       "how_applied": "Training develops reliable transitions from side control to mount or back that maximize point accumulation, submission threats that create defensive reactions enabling position advancement, and pressure maintenance that prevents guard recovery."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Competition drilling emphasizes defensive half guard retention against point-scoring passes, high-percentage sweeps that reverse position for points, and guard recovery sequences that prevent full pass completion under specific rule enforcement."
     },
     {
@@ -129,7 +146,7 @@
       "how_applied": "Training develops takedown entries that score points while minimizing counter-scoring risks, grip fighting strategies specific to competition rule sets, and pulling guard timing that optimizes positional advantage under tournament conditions."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Competition drilling focuses on guard retention systems that prevent point-scoring passes, sweep opportunities that reverse position, and submission attacks that create offensive pressure satisfying referee activity requirements."
     },
     {
@@ -307,27 +324,27 @@
   "related_content": [
     {
       "name": "Competition Mindset",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary psychological framework that addresses mental preparation while Competition Training focuses on physical and technical preparation"
     },
     {
       "name": "Match Strategy",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Tactical application during competition that deploys technical capacity developed through Competition Training preparation"
     },
     {
       "name": "Game Planning",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic framework development that precedes and guides Competition Training technical emphasis and preparation focus"
     },
     {
       "name": "Energy Management System",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "In-competition pacing and effort distribution that relies on physiological capacity developed during Competition Training"
     },
     {
       "name": "Positional Sparring",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Primary training methodology during competition preparation for refining specific positions and techniques"
     },
     {
@@ -337,22 +354,22 @@
     },
     {
       "name": "Drilling Methodology",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Technical foundation development that precedes competition-specific refinement during preparation cycle"
     },
     {
       "name": "Match Preparation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Immediate pre-match preparation protocols that represent final phase of broader Competition Training cycle"
     },
     {
       "name": "Position-Over-Submission Approach",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Strategic philosophy commonly emphasized during competition preparation to maximize scoring and minimize risk"
     },
     {
       "name": "Risk Assessment",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Decision-making framework integrated into competition game planning and tactical execution during matches"
     }
   ],

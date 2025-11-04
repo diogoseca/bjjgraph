@@ -1,26 +1,26 @@
 {
-  "metadata": {
-    "title": "Single Leg Variations | BJJ Technique | BJJ Graph",
-    "description": "Master Single Leg Variations in BJJ. Complete takedown guide with multiple finishes from Standing to Top Position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
-    "transition_id": "T167",
-    "tags": [
-      "bjj",
-      "transition",
-      "takedown",
-      "single_leg",
-      "wrestling",
-      "standing",
-      "top_position"
-    ],
-    "starting_position": "Standing Position",
-    "ending_position": "Top Position",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Single Leg Variations",
+  "description": "Master Single Leg Variations in BJJ. Complete takedown guide with multiple finishes from standing position. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "tags": [
+    "bjj",
+    "transition",
+    "takedown",
+    "single_leg",
+    "wrestling",
+    "standing",
+    "top_position",
+    "no-gi",
+    "leg_control",
+    "finishing_variations"
+  ],
+  "starting_position": "Standing Position",
+  "ending_position": "Side Control",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
-  "overview": "The Single Leg Takedown and its variations represent one of the most versatile and fundamental takedown systems in Brazilian Jiu-Jitsu and wrestling. This technique family involves controlling one of the opponent's legs while using various finishing methods to bring them to the ground. The beauty of the single leg system lies in its adaptability - when one finish is defended, the practitioner can seamlessly flow to another variation, creating a chain of attacks that overwhelms the opponent's defensive structure.\n\nUnlike the double leg takedown which commits both arms to leg control, the single leg allows for superior balance and head position control, making it safer against guillotine counters and easier to defend against sprawls. The single leg system includes numerous finishes: the traditional lift and dump, the ankle pick, the knee tap, the inside trip, the outside trip, the back trip, and the run-the-pipe finish. Each variation exploits different defensive reactions, making the single leg a complete takedown system rather than a single technique.\n\nMastery of single leg variations transforms a grappler's standing game from predictable to highly dynamic. Elite competitors like Gordon Ryan and Craig Jones have demonstrated how single leg entries can be chained directly into leg lock positions, creating seamless transitions from standing to ground submissions. This modern application has elevated the single leg from a simple takedown to a sophisticated entry system that bridges wrestling fundamentals with advanced BJJ leg entanglement strategies.",
+  "overview": "The Single Leg Takedown and its variations represent one of the most versatile and fundamental takedown systems in Brazilian Jiu-Jitsu and wrestling. This technique family involves controlling one of the opponent's legs while using various finishing methods to bring them to the ground. The beauty of the single leg system lies in its adaptability - when one finish is defended, the practitioner can seamlessly flow to another variation, creating a chain of attacks that overwhelms the opponent's defensive structure.\n\nUnlike the double leg takedown which commits both arms to leg control, the single leg allows for superior balance and head position control, making it safer against guillotine counters and easier to defend against sprawls. The single leg system includes numerous finishes: the traditional lift and dump, the ankle pick, the knee tap, the inside trip, the outside trip, the back trip, and the run-the-pipe finish. Each variation exploits different defensive reactions, making the single leg a complete takedown system rather than a single technique.\n\nMastery of single leg variations transforms a grappler's standing game from predictable to highly dynamic. Elite competitors have demonstrated how single leg entries can be chained directly into leg lock positions, creating seamless transitions from standing to ground submissions. This modern application has elevated the single leg from a simple takedown to a sophisticated entry system that bridges wrestling fundamentals with advanced BJJ leg entanglement strategies.",
   "key_principles": [
     "Control the ankle or lower leg with both hands while maintaining head position on the inside or outside",
     "Break opponent's base by elevating their leg or driving them backward while they balance on one foot",
@@ -239,7 +239,7 @@
     },
     {
       "question": "In modern no-gi BJJ competition, what position should you transition to if your single leg takedown is defended but you maintain leg control?",
-      "answer": "Transition to inside ashi garami or outside ashi garami (depending on your position relative to their leg) by sitting to your hip while maintaining control of their leg. This seamlessly converts a defended takedown into a leg entanglement position where you can attack with heel hooks, knee bars, or ankle locks. Modern grapplers like Gordon Ryan and Craig Jones have made this transition a fundamental part of their games, viewing the single leg not just as a takedown but as an entry system into leg attacks.",
+      "answer": "Transition to inside ashi garami or outside ashi garami (depending on your position relative to their leg) by sitting to your hip while maintaining control of their leg. This seamlessly converts a defended takedown into a leg entanglement position where you can attack with heel hooks, knee bars, or ankle locks. Modern grapplers have made this transition a fundamental part of their games, viewing the single leg not just as a takedown but as an entry system into leg attacks.",
       "difficulty": "Advanced"
     },
     {
@@ -284,19 +284,19 @@
       "relationship": "Follow-up finish - variation used when opponent defends with limp leg"
     },
     {
-      "name": "Inside Ashi Entry",
+      "name": "Inside Ashi-Garami",
       "relationship": "Modern transition - leg entanglement position accessed from defended single leg"
     },
     {
-      "name": "Outside Ashi Entry",
+      "name": "Outside Ashi-Garami",
       "relationship": "Alternative transition - another leg lock position available from single leg control"
     },
     {
-      "name": "Single Leg X Entry",
+      "name": "Single Leg X-Guard",
       "relationship": "Guard alternative - seated position that can be entered from standing single leg"
     },
     {
-      "name": "Front Headlock Control Position",
+      "name": "Front Headlock",
       "relationship": "Counter position - what opponent achieves if they successfully defend and control your head"
     },
     {
@@ -308,8 +308,8 @@
       "relationship": "Starting position - neutral standing where single leg entries are initiated"
     },
     {
-      "name": "Top Position",
-      "relationship": "Ending position - generic top control achieved after successful single leg finish"
+      "name": "Side Control",
+      "relationship": "Ending position - common top control achieved after successful single leg finish"
     }
   ],
   "expert_insights": {

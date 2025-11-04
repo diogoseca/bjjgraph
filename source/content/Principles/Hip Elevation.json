@@ -1,21 +1,18 @@
 {
-  "metadata": {
-    "title": "Hip Elevation | BJJ Concept | BJJ Graph",
-    "description": "Understand Hip Elevation in BJJ. Learn biomechanical principles, timing mechanics, cross-position applications. Master escapes, sweeps, and defensive movements.",
-    "concept_id": "C056",
-    "tags": [
-      "bjj",
-      "concept",
-      "fundamental",
-      "movement",
-      "escape",
-      "biomechanics",
-      "defensive technique"
-    ],
-    "application_level": "Fundamental",
-    "complexity_level": "Medium",
-    "development_timeline": "Beginner to Advanced"
-  },
+  "name": "Hip Elevation",
+  "description": "Master hip elevation mechanics in BJJ. Learn biomechanical principles, timing recognition, and cross-position applications for escapes, sweeps, and defensive movements.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "movement",
+    "escape",
+    "biomechanics",
+    "defensive technique"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
   "overview": "Hip Elevation is a fundamental biomechanical principle in Brazilian Jiu-Jitsu that involves raising the hips off the ground to create space, manipulate opponent base, and generate escape or offensive opportunities. This concept serves as the foundation for countless techniques including bridge escapes, sweeps, and defensive movements. The principle operates on the understanding that controlled hip elevation allows practitioners to redirect force vectors, unload opponent pressure points, and create the necessary space for technical execution.\n\nAt its core, hip elevation represents the intersection of timing, leverage, and spatial awareness. Rather than relying on strength alone, effective hip elevation employs precise biomechanical positioning to maximize force generation through skeletal alignment. The concept encompasses both explosive elevation for escapes and controlled elevation for sweeps, with each application requiring distinct timing relative to opponent weight distribution.\n\nMastery of hip elevation transcends individual techniques, becoming a fundamental movement pattern that practitioners reflexively integrate across all positions. From white belt bridge escapes to advanced back exposure recovery, the principle remains constant while its application becomes increasingly refined through experience and positional understanding.",
   "key_principles": [
     "Leverage Through Skeletal Alignment: Maximum elevation efficiency occurs when force travels through properly aligned bone structure rather than muscular effort alone",
@@ -61,36 +58,66 @@
       "description": "Developing precision in using exactly the amount of elevation required for specific techniques rather than maximum possible height. Conserves energy and reduces predictability of movements."
     }
   ],
-  "concept_relationships": [
+  "principle_relationships": [
     {
-      "concept_name": "Bridging Mechanics",
+      "principle_name": "Bridging Mechanics",
       "relationship_type": "Prerequisite",
       "description": "Bridge mechanics form the technical foundation for explosive hip elevation, providing the specific biomechanical framework for force generation through proper skeletal alignment and posterior chain activation."
     },
     {
-      "concept_name": "Hip Escape Mechanics",
+      "principle_name": "Hip Escape Mechanics",
       "relationship_type": "Complementary",
       "description": "Hip elevation and hip escapes work synergistically, with elevation creating the initial space that escapes exploit. Many techniques require alternating between elevation and lateral movement for maximum effectiveness."
     },
     {
-      "concept_name": "Frame Management",
+      "principle_name": "Frame Management",
       "relationship_type": "Complementary",
       "description": "Frames must coordinate with hip elevation to prevent opponent from following the movement. Upper body structure maintains separation while hips create displacement, working as integrated system."
     },
     {
-      "concept_name": "Space Creation",
+      "principle_name": "Space Creation",
       "relationship_type": "Extension",
       "description": "Hip elevation serves as one primary method of space creation, with the broader concept encompassing additional techniques. Elevation represents the vertical dimension of spatial manipulation in ground fighting."
     },
     {
-      "concept_name": "Leverage Principles",
+      "principle_name": "Leverage Principles",
       "relationship_type": "Prerequisite",
       "description": "Understanding leverage fundamentals is essential for efficient hip elevation, as proper technique multiplies force through mechanical advantage rather than relying on strength alone."
     },
     {
-      "concept_name": "Timing and Rhythm",
+      "principle_name": "Timing and Rhythm",
       "relationship_type": "Complementary",
       "description": "The effectiveness of hip elevation depends critically on timing relative to opponent weight distribution and movement patterns. Rhythm disruption often creates elevation opportunities."
+    },
+    {
+      "principle_name": "Bridge and Shrimp",
+      "relationship_type": "Extension",
+      "description": "Combined movement pattern integrating hip elevation with lateral escape mechanics. Bridge provides elevation component while shrimp adds directional escape dimension."
+    },
+    {
+      "principle_name": "Escape Fundamentals",
+      "relationship_type": "Extension",
+      "description": "Hip elevation serves as core component of fundamental escape methodology across multiple positions. Forms foundation for more complex escape sequences and strategies."
+    },
+    {
+      "principle_name": "Defensive Frame",
+      "relationship_type": "Complementary",
+      "description": "Defensive frames must work in concert with hip elevation to create and preserve space. Frame integrity during elevation determines whether space creation is temporary or actionable."
+    },
+    {
+      "principle_name": "Energy Conservation",
+      "relationship_type": "Complementary",
+      "description": "Efficient hip elevation technique exemplifies energy conservation principles through precise biomechanics rather than maximum force application. Minimal effective movement preserves capacity."
+    },
+    {
+      "principle_name": "Off-Balancing",
+      "relationship_type": "Extension",
+      "description": "Hip elevation disrupts opponent balance through base manipulation and force vector redirection. Creates instability that enables sweeps and positional transitions."
+    },
+    {
+      "principle_name": "Sweep Mechanics",
+      "relationship_type": "Extension",
+      "description": "Many sweep techniques fundamentally rely on hip elevation to generate upward force component that destabilizes opponent. Elevation timing determines sweep success."
     }
   ],
   "application_contexts": [
@@ -103,11 +130,11 @@
       "how_applied": "Controlled hip elevation unloads specific pressure points allowing shrimp movement. Small elevation movements test opponent weight distribution before committing to full escape sequences."
     },
     {
-      "context": "Closed Guard Bottom",
+      "context": "Closed Guard",
       "how_applied": "Hip elevation combined with grips breaks opponent posture and base, essential for techniques like scissor sweep and pendulum sweep. Timing matches opponent forward pressure to maximize effectiveness."
     },
     {
-      "context": "Half Guard Bottom",
+      "context": "Half Guard",
       "how_applied": "Subtle hip elevation prevents flattening and maintains guard structure. Creates space for knee shield insertion or underhook battles while managing crossface pressure."
     },
     {
@@ -123,7 +150,7 @@
       "how_applied": "Hip elevation angles toward opponent's posted leg disrupts base while creating space for shrimp. Must coordinate with grips preventing opponent from simply shifting weight."
     },
     {
-      "context": "Turtle Position",
+      "context": "Turtle",
       "how_applied": "Controlled hip elevation can create space under hips for guard recovery. Also used to time granby rolls when opponent commits weight forward."
     },
     {
@@ -131,12 +158,24 @@
       "how_applied": "Bridge directed at optimal angle disrupts opponent control while creating space for hip escape movements. Requires understanding specific vulnerable vectors in scarf hold structure."
     },
     {
-      "context": "Open Guard Bottom",
+      "context": "Open Guard",
       "how_applied": "Constant hip elevation adjustments maintain distance and angle management. Prevents flattening and keeps hips mobile for defensive and offensive movements."
     },
     {
-      "context": "Guard Recovery",
-      "how_applied": "Hip elevation creates initial space allowing knee insertion and guard reestablishment. Critical timing matches opponent pressure transitions during passing sequences."
+      "context": "Butterfly Guard",
+      "how_applied": "Hip elevation generates upward force for butterfly sweeps, combining with hook leverage to elevate and off-balance opponent. Timing coordinates with grip breaks and posture disruption."
+    },
+    {
+      "context": "De La Riva Guard",
+      "how_applied": "Hip elevation creates angles for sweeps while maintaining hook control. Prevents opponent from establishing strong passing posture and creates off-balancing opportunities."
+    },
+    {
+      "context": "Spider Guard",
+      "how_applied": "Elevation combined with foot pressure on biceps creates sweeping force. Maintains distance while generating momentum for technical sweep execution."
+    },
+    {
+      "context": "X-Guard",
+      "how_applied": "Hip elevation is core mechanic for X-guard sweeps, generating upward force that elevates opponent off their base. Combined with leg hook leverage for technical sweep completion."
     },
     {
       "context": "Defensive Position",
@@ -319,32 +358,32 @@
     },
     {
       "name": "Bridging Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Core biomechanical concept providing technical framework for elevation execution"
     },
     {
       "name": "Hip Escape Mechanics",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Complementary concept working synergistically with elevation for space creation"
     },
     {
       "name": "Frame Management",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Essential coordination concept ensuring elevation creates preserved space"
     },
     {
       "name": "Space Creation",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Broader strategic concept of which hip elevation is primary tactical method"
     },
     {
       "name": "Leverage Principles",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Foundational concept explaining mechanical advantage in elevation movements"
     },
     {
       "name": "Timing and Rhythm",
-      "content_type": "Concept",
+      "content_type": "Principle",
       "relationship": "Critical concept determining elevation effectiveness through opponent weight distribution awareness"
     },
     {
@@ -356,16 +395,6 @@
       "name": "Side Control",
       "content_type": "Position",
       "relationship": "Common defensive position requiring controlled elevation for escape sequences"
-    },
-    {
-      "name": "Closed Guard Bottom",
-      "content_type": "Position",
-      "relationship": "Offensive application of elevation for sweeps and posture breaking"
-    },
-    {
-      "name": "Half Guard Bottom",
-      "content_type": "Position",
-      "relationship": "Defensive position using elevation to prevent flattening and maintain structure"
     }
   ],
   "expert_insights": {

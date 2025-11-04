@@ -1,25 +1,22 @@
 {
-  "metadata": {
-    "title": "Single Leg X Entry | BJJ Technique | BJJ Graph",
-    "description": "Master Single Leg X Entry in BJJ. Step-by-step execution from seated guard to Single Leg X. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Expert insights included.",
-    "transition_id": "T816",
-    "tags": [
-      "bjj",
-      "transition",
-      "guard_entry",
-      "offense",
-      "leg_entanglement",
-      "single_leg_x",
-      "sweep_setup",
-      "modern_guard"
-    ],
-    "starting_position": "Seated Guard Bottom",
-    "ending_position": "Single Leg X Position Bottom",
-    "success_rates": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
-    }
+  "name": "Single Leg X Entry",
+  "description": "Master Single Leg X Entry in BJJ. Step-by-step execution from seated guard to Single Leg X. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%. Complete technical guide.",
+  "tags": [
+    "bjj",
+    "transition",
+    "guard_entry",
+    "offense",
+    "leg_entanglement",
+    "single_leg_x",
+    "sweep_setup",
+    "modern_guard"
+  ],
+  "starting_position": "Seated Guard",
+  "ending_position": "Single Leg X-Guard",
+  "success_rates": {
+    "beginner": 30,
+    "intermediate": 50,
+    "advanced": 70
   },
   "overview": "The Single Leg X Entry is a fundamental transition in modern leg entanglement systems, allowing practitioners to establish a dominant sweeping position from various seated guard configurations. This entry creates a powerful off-balancing structure by controlling one leg while using your own legs to destabilize your opponent's base. The position excels at creating immediate sweeping opportunities and serves as a gateway to more advanced leg entanglement positions.\n\nDeveloped and popularized through modern competition grappling, the Single Leg X Entry has become essential for no-gi practitioners and increasingly relevant in gi competition. The technique leverages biomechanical advantage by attacking your opponent's base from below while maintaining defensive safety through proper leg positioning. Success depends on timing the entry when your opponent's weight is committed forward and their base is compromised.\n\nThe Single Leg X position reached through this entry offers multiple offensive pathways including sweeps to top position, transitions to more complex leg entanglements like Ashi Garami or X-Guard, and direct submission attacks. Understanding this entry is crucial for developing a comprehensive modern guard game and building systematic attacking sequences from the bottom position.",
   "key_principles": [
@@ -209,7 +206,7 @@
     },
     {
       "question": "What are the three primary offensive pathways available after successfully entering Single Leg X position?",
-      "answer": "After establishing Single Leg X, you have three main offensive categories: (1) Sweeps to top position using the off-balancing structure you've created, typically sweeping opponent forward and over their captured leg, (2) Transitions to more complex leg entanglement positions such as Ashi Garami, Outside Ashi, X-Guard, or Deep Half Guard depending on how opponent reacts, and (3) Direct submission attacks including kneebars, ankle locks, or toe holds on the captured leg, though these require careful positioning and often work best in combination with sweep threats.",
+      "answer": "After establishing Single Leg X, you have three main offensive categories: (1) Sweeps to top position using the off-balancing structure you've created, typically sweeping opponent forward and over their captured leg, (2) Transitions to more complex leg entanglement positions such as Ashi Garami, Outside Ashi-Garami, X-Guard, or Deep Half Guard depending on how opponent reacts, and (3) Direct submission attacks including kneebars, ankle locks, or toe holds on the captured leg, though these require careful positioning and often work best in combination with sweep threats.",
       "difficulty": "Advanced"
     },
     {
