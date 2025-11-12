@@ -72,6 +72,18 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Inside Sankaku/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Inside Sankaku/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Inside Sankaku Bottom Perspective
@@ -101,12 +113,54 @@ The bottom player in inside sankaku must focus on creating frames, protecting ag
 ### Primary Techniques
 
 
+- **[[Hip Escape to Guard Recovery]]** → [[Open Guard]]
+  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+
+- **[[Granby Roll Escape]]** → [[Turtle]]
+  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+
+- **[[Technical Standup]]** → [[Standing Position]]
+  - Success Rate: Beginner 8%, Intermediate 15%, Advanced 25%
+
+- **[[Counter Leg Attack]]** → [[50-50 Guard]]
+  - Success Rate: Beginner 12%, Intermediate 22%, Advanced 35%
+
+- **[[Frame and Extract to Half Guard]]** → [[Half Guard]]
+  - Success Rate: Beginner 18%, Intermediate 30%, Advanced 45%
+
+- **[[Rolling Escape]]** → [[Defensive Position]]
+  - Success Rate: Beginner 10%, Intermediate 18%, Advanced 30%
+
 
 ### Common Errors
 
 
+- ❌ **Turning into opponent trying to pass knee line**
+  - Consequence: Leads directly into Saddle position with even worse control and heel exposure
+  - ✅ Correction: Escape by creating distance and moving away from opponent, not through them
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](inside-sankaku/bottom)**
+- ❌ **Attempting explosive movements when submission is locked**
+  - Consequence: Severe knee and ankle ligament damage from forcing movement against locked heel hook
+  - ✅ Correction: Tap immediately when submission is locked rather than attempting escape
+
+- ❌ **Neglecting heel protection while attempting escape**
+  - Consequence: Heel becomes fully exposed during escape attempt, allowing opponent easy submission finish
+  - ✅ Correction: Keep heel hidden against your own hip throughout entire escape sequence
+
+- ❌ **Giving up back position to escape leg entanglement**
+  - Consequence: Trades one dangerous position for another, giving up points and back control
+  - ✅ Correction: Focus on technical leg extraction rather than sacrificing back
+
+- ❌ **Failing to address submission threat before positional escape**
+  - Consequence: Opponent finishes submission during your escape attempt
+  - ✅ Correction: Defend submission first, then work on positional escape only when safe
+
+- ❌ **Losing composure and panicking**
+  - Consequence: Poor decision making, wasted energy, and increased injury risk from frantic movements
+  - ✅ Correction: Stay calm, follow systematic escape protocols, tap when necessary
+
+
+👉 **[[Inside Sankaku/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -139,12 +193,70 @@ The top player in inside sankaku balances control maintenance with submission at
 ### Primary Techniques
 
 
+- **[[Inside Heel Hook]]** → [[Won by Submission]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+
+- **[[Toe Hold]]** → [[Won by Submission]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Saddle Entry from Top]]** → [[Saddle]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[50-50 Entry]]** → [[50-50 Guard]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Kneebar from Top]]** → [[Won by Submission]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Calf Slicer]]** → [[Won by Submission]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Rolling Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Outside Heel Hook]]** → [[Won by Submission]]
+  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
 
 ### Common Errors
 
 
+- ❌ **Poor hip connection - maintaining too much distance from opponent's hips**
+  - Consequence: Opponent easily creates space to escape the entanglement and extract their trapped leg, nullifying all control and submission threats
+  - ✅ Correction: Keep hips tight to opponent's hips at all times, using your core strength to maintain connection and eliminate space, adjusting your position to stay connected as they move
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](inside-sankaku/top)**
+- ❌ **Failure to control knee line - allowing opponent to clear the knee line barrier**
+  - Consequence: Opponent can rotate defensively to neutralize the inside heel hook angle and potentially escape or counter-attack your legs
+  - ✅ Correction: Maintain proper leg configuration with your outside leg crossed over to block knee line, actively adjusting leg position to prevent opponent from turning through
+
+- ❌ **Crossing ankles improperly - locking ankles in a way that reduces control or creates vulnerability**
+  - Consequence: Weakened positional control, potential for ankle injury, and creation of escape opportunities for opponent through the weakened structure
+  - ✅ Correction: Cross your outside leg over your inside leg at the proper angle, maintaining flexibility in the ankle lock and being ready to adjust as needed for control
+
+- ❌ **Hunting submissions prematurely - attacking heel hook before establishing complete positional control**
+  - Consequence: Loss of position as opponent exploits your premature attack to escape, potentially allowing them to pass or counter-attack your legs
+  - ✅ Correction: Establish all control points first (hip connection, knee line control, proper angle) before committing to the submission, following systematic breakdown of defenses
+
+- ❌ **Neglecting upper body awareness - focusing only on leg control while ignoring opponent's upper body**
+  - Consequence: Opponent may attack your legs, establish grips that aid their escape, or use upper body positioning to create leverage for defensive movements
+  - ✅ Correction: Maintain awareness of opponent's upper body positioning, control their hands when possible, and be prepared to defend counter-attacks while maintaining leg entanglement
+
+- ❌ **Incorrect weight distribution - putting too much weight on hands or upper body instead of hips**
+  - Consequence: Reduced control pressure on the entanglement, making it easier for opponent to move and escape while tiring your arms unnecessarily
+  - ✅ Correction: Distribute weight primarily through your hips into the entanglement point, using hands for balance and adjustment rather than primary pressure
+
+- ❌ **Attacking wrong heel - confusing inside and outside heel hook positions and angles**
+  - Consequence: Ineffective submission attempts with poor mechanical advantage, wasted energy, and potential loss of position
+  - ✅ Correction: Verify heel position (heel toward your centerline equals inside heel hook), understand the mechanical difference, and attack only when proper angle is established
+
+
+👉 **[[Inside Sankaku/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -170,16 +282,6 @@ The top player in inside sankaku balances control maintenance with submission at
 - **[[Back Control]]** - Alternative advancement when opponent sacrifices back to defend leg attack
 
 - **[[Deep Half Guard]]** - Guard position that can transition to leg entanglements including Inside Sankaku
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](inside-sankaku/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](inside-sankaku/top)** - Techniques and strategies
-
 
 
 </section>

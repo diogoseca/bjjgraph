@@ -78,6 +78,18 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Closed Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Closed Guard/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Closed Guard Bottom Perspective
@@ -105,12 +117,69 @@ The bottom player in closed guard balances defensive frames with offensive oppor
 ### Primary Techniques
 
 
+- **[[Hip Bump Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Scissor Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Pendulum Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Flower Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Kimura to Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Omoplata Sweep]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Triangle Setup]]** → [[Triangle Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Closed Guard to Triangle]]** → [[Triangle Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Omoplata to Back]]** → [[Back Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Elevator Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Overhook Sweep]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Keeping flat, square position without creating angles or off-balancing opponent through hip movement**
+  - Consequence: Makes it easy for opponent to maintain strong posture, reducing your ability to initiate effective attacks or sweeps. Static guard position allows opponent to dictate pace and work their passing game without pressure.
+  - ✅ Correction: Constantly shift hips laterally to create angles of 30-45 degrees, using off-balancing techniques to disrupt opponent's posture and open attack opportunities. Active hip movement creates dynamic threats that force defensive reactions.
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](closed-guard/bottom)**
+- ❌ **Focusing on only one attack without chaining techniques or creating systematic dilemmas for opponent**
+  - Consequence: Leads to predictable offense, allowing opponent to anticipate and counter your moves with prepared defenses. Single-minded attacks are easily defended by experienced practitioners who recognize setups.
+  - ✅ Correction: Develop combination attacks where defending one technique opens another. For example, triangle attempt to armbar, or hip bump to pendulum sweep. Create constant dilemmas that force reactions opening new opportunities.
+
+- ❌ **Allowing opponent to establish strong posture with arms extended and hips back creating distance**
+  - Consequence: Eliminates offensive opportunities and puts you purely on defense. Strong posture allows opponent to begin guard breaking sequences and passing attempts with minimal threat of counters or submissions.
+  - ✅ Correction: Immediately break posture by pulling collar down while driving heels into lower back. Use combined arm and leg pressure before opponent can establish solid base and structural integrity.
+
+- ❌ **Crossing ankles too high on opponent's back or too low near hips compromising control quality**
+  - Consequence: High ankle lock creates space at hips allowing guard break. Low ankle lock lacks control of upper body and allows opponent to posture easily. Both positions weaken overall guard effectiveness and offensive capability.
+  - ✅ Correction: Cross ankles at the small of opponent's lower back, just above their hips. This position maximizes control of both upper and lower body while maintaining sustainable squeeze that doesn't exhaust your legs prematurely.
+
+- ❌ **Gripping without purpose or holding defensive grips that don't create offensive opportunities or advancement**
+  - Consequence: Wastes energy on grips that don't advance position or create threats. Defensive gripping creates stalling position that favors the top player's passing game and initiative.
+  - ✅ Correction: Every grip should serve offensive purpose - collar grips break posture, sleeve grips control arms for sweeps, wrist grips set up submissions. Transition grips actively to create constant threats requiring defensive responses.
+
+- ❌ **Letting legs become passive or losing squeeze pressure on opponent's torso during extended sequences**
+  - Consequence: Allows opponent to create space, establish posture, and begin guard breaking. Passive legs signal defensive mindset and eliminate submission threats from guard while inviting passing pressure.
+  - ✅ Correction: Maintain active leg pressure with heels constantly pulling into lower back while knees squeeze ribs. Legs should be dynamic tools for control and off-balancing, not passive barriers waiting for opponent's initiative.
+
+
+👉 **[[Closed Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -141,12 +210,71 @@ The top player in closed guard manages the position strategically based on oppon
 ### Primary Techniques
 
 
+- **[[Guard Opening Sequence]]** → [[Open Guard]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Toreando Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Stack Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Over-Under Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Long Step Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Pressure Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Double Under Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Standing up in Base]]** → [[Standing Position]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
 
 ### Common Errors
 
 
+- ❌ **Poor posture maintenance - allowing spine to round and head to drop below hip level creating structural weakness**
+  - Consequence: Allows opponent to break your posture and attack with submissions or sweeps from guard, particularly triangles and armbars that require broken posture to execute
+  - ✅ Correction: Keep your spine straight, chest up, and head over your hips to maintain strong structural posture. Recognize when your head is being pulled down and immediately push hips back while driving chest forward to restore posture
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](closed-guard/top)**
+- ❌ **Placing hands on mat instead of controlling opponent's body for distance management**
+  - Consequence: Creates vulnerability to sweeps as your base becomes less mobile, and allows opponent free use of their arms to establish grips and attack
+  - ✅ Correction: Keep hands on opponent's hips, biceps, or collar to control distance and maintain defensive positioning. Only briefly post hands to mat when necessary for base recovery
+
+- ❌ **Rushing guard opening without securing proper posture and grips first in systematic progression**
+  - Consequence: Exposes you to immediate submissions and sweeps as you attempt passes from compromised positions without defensive foundation
+  - ✅ Correction: Work systematically: first establish posture, then secure dominant grips, then work guard opening, and only then initiate passing attempts once guard is fully opened
+
+- ❌ **Keeping narrow base with knees too close together reducing lateral stability**
+  - Consequence: Makes you vulnerable to lateral sweeps and reduces your ability to generate forward pressure for passing while compromising balance
+  - ✅ Correction: Maintain wide knee base approximately shoulder-width or wider to create stable platform and defend against sweeps while maintaining mobility
+
+- ❌ **Allowing opponent to establish strong collar and sleeve grips without fighting them systematically**
+  - Consequence: Gives opponent dominant control to break your posture and set up sweeps and submissions at will without defensive resistance
+  - ✅ Correction: Actively fight grips by breaking strong grips immediately and establishing your own controlling grips on opponent's body before they can secure dominant positions
+
+- ❌ **Driving forward into opponent's guard with weight on hands exposing arms to attacks**
+  - Consequence: Exposes arms to submissions particularly triangles and armbars, and creates no actual passing pressure or positional advancement
+  - ✅ Correction: If applying pressure, drive through hips and keep weight distributed through lower body while maintaining hand position on opponent's body for control
+
+- ❌ **Staying static in closed guard without working toward improvement or guard opening**
+  - Consequence: Allows opponent time to establish grips, adjust position, and launch attacks while you expend energy maintaining defensive position
+  - ✅ Correction: Constantly work toward guard opening and passing even if progress is slow - movement creates reactions and opportunities while denying opponent time to set up attacks
+
+- ❌ **Attempting to pass before fully opening the guard with ankles still locked**
+  - Consequence: Results in opponent maintaining closed guard while you expose yourself to counters during passing attempts without creating actual passing opportunity
+  - ✅ Correction: Ensure guard is completely opened before initiating passing sequences - confirm ankles are unlocked and legs cannot re-close before committing to pass
+
+
+👉 **[[Closed Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -176,16 +304,6 @@ The top player in closed guard manages the position strategically based on oppon
 - **[[Side Control]]** - Top player's target position after successful guard passing sequences
 
 - **[[Back Control]]** - Alternative target for bottom player via kimura or omoplata transitions
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](closed-guard/bottom)** - Techniques and strategies
-- **[Top Perspective](closed-guard/top)** - Techniques and strategies
-
 
 
 </section>

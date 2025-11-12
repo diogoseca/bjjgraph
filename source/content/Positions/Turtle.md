@@ -72,6 +72,18 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Turtle/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Turtle/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Turtle Bottom Perspective
@@ -101,12 +113,54 @@ The bottom player in turtle balances defensive frames with offensive opportuniti
 ### Primary Techniques
 
 
+- **[[Granby Roll]]** → [[Closed Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Technical Standup]]** → [[Standing Position]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Rolling to Guard]]** → [[Half Guard]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Deep Half Entry]]** → [[Deep Half Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Sit Through to Guard]]** → [[Butterfly Guard]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Peterson Roll]]** → [[Half Guard]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
 
 ### Common Errors
 
 
+- ❌ **Remaining static in turtle without attempting movement or improvement**
+  - Consequence: Allows opponent time to establish back control, sink hooks, or secure dominant grips leading to easy back takes or submissions
+  - ✅ Correction: Maintain constant motion through weight shifts, directional changes, and active escape attempts - never give opponent time to settle their position
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](turtle/bottom)**
+- ❌ **Allowing elbows to flare away from knees creating underhook opportunities**
+  - Consequence: Opponent easily secures underhooks leading to easy flattening, back takes, or transition to dominant positions like crucifix
+  - ✅ Correction: Keep elbows glued to knees throughout all movements, creating a tight defensive shell that prevents penetration of opponent's arms
+
+- ❌ **Lifting head up and exposing neck to choking attacks**
+  - Consequence: Vulnerable to guillotines, anacondas, darces, and other front headlock submissions with easy access to the neck
+  - ✅ Correction: Maintain chin tucked to chest with rounded upper back, using shoulder pressure against opponent's chest to protect the neck at all times
+
+- ❌ **Attempting to stand up without proper base or timing**
+  - Consequence: Easy for opponent to pull back down, establish back control mid-standup, or use momentum against you to secure dominant position
+  - ✅ Correction: Only attempt technical standup when opponent's weight is high, ensure strong posting base, and explode through the movement with proper timing
+
+- ❌ **Rolling in predictable patterns or directions**
+  - Consequence: Opponent anticipates the movement and follows easily, often ending up in worse position like mounted or back control fully established
+  - ✅ Correction: Use feints, change directions mid-roll, and mix timing of movements to create unpredictability and genuine escape opportunities
+
+- ❌ **Allowing opponent to control both your hips and shoulders simultaneously**
+  - Consequence: Complete loss of mobility and structural integrity, leading to easy flattening, back takes, or transition to submissions
+  - ✅ Correction: Fight to maintain separation between hip and shoulder control, using frames and movement to prevent simultaneous control of both areas
+
+
+👉 **[[Turtle/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -139,12 +193,60 @@ The top player in turtle balances control maintenance with submission attacks, d
 ### Primary Techniques
 
 
+- **[[Turtle to Back Control]]** → [[Back Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Front Headlock to Anaconda]]** → [[Anaconda Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Front Headlock to Darce]]** → [[D'arce Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Crucifix from Turtle]]** → [[Crucifix]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Turtle Flatten to Side Control]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Turtle to Truck Entry]]** → [[Truck]]
+  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+
+- **[[Front Headlock to Guillotine]]** → [[Guillotine Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Kimura from Turtle]]** → [[Kimura Control]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
 
 ### Common Errors
 
 
+- ❌ **Committing too much weight forward allowing opponent to sit through**
+  - Consequence: Opponent easily recovers guard position or creates scramble situation
+  - ✅ Correction: Maintain balanced weight distribution with chest pressure on opponent's back while keeping hips mobile
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](turtle/top)**
+- ❌ **Attempting back take without securing upper body control first**
+  - Consequence: Opponent can defend hooks easily and escape to guard or standing
+  - ✅ Correction: Establish seatbelt or harness control before inserting first hook, control shoulders and head position
+
+- ❌ **Allowing opponent to create space and movement**
+  - Consequence: Opponent gains momentum for escape sequences and guard recovery
+  - ✅ Correction: Maintain constant heavy pressure with chest and shoulders, minimize space between bodies
+
+- ❌ **Focusing on single attack without recognizing defensive reactions**
+  - Consequence: Opponent defends successfully and escapes while you remain committed to failed technique
+  - ✅ Correction: Flow between multiple attacks based on opponent's reactions - if back take is defended, transition to front headlock or crucifix
+
+- ❌ **Losing grip control during transitions**
+  - Consequence: Creates windows for opponent to escape or recover guard position
+  - ✅ Correction: Maintain at least one dominant grip at all times during transitions, never release all controls simultaneously
+
+- ❌ **Being too high on opponent's back without establishing hooks**
+  - Consequence: Opponent stands up easily or performs technical standup
+  - ✅ Correction: Stay connected with hips to opponent's hips, insert bottom hook first before climbing higher
+
+
+👉 **[[Turtle/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -174,16 +276,6 @@ The top player in turtle balances control maintenance with submission attacks, d
 - **[[D'arce Control]]** - Alternative front headlock attack from turtle top
 
 - **[[Deep Half Guard]]** - Recovery option via sit-through from turtle bottom
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](turtle/bottom)** - Techniques and strategies
-- **[Top Perspective](turtle/top)** - Techniques and strategies
-
 
 
 </section>

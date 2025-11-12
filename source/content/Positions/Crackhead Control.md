@@ -78,6 +78,18 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Crackhead Control/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Crackhead Control/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Crackhead Control Bottom Perspective
@@ -107,12 +119,54 @@ The bottom player in crackhead control balances defensive frames with offensive 
 ### Primary Techniques
 
 
+- **[[Turtle to Guard]]** → [[Closed Guard]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Granby Roll]]** → [[Closed Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Technical Standup]]** → [[Standing Position]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Dogfight Position Bottom]]** → [[Dogfight Position]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Deep Half Entry]]** → [[Deep Half Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Hip Escape]]** → [[Half Guard]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Remaining static in turtle position instead of maintaining constant movement**
+  - Consequence: Allows opponent to establish heavy pressure, secure grips, and systematically advance to back control or other dominant positions
+  - ✅ Correction: Keep hips in constant motion, shifting weight between knees and using small directional changes to prevent opponent from settling into controlling positions
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](crackhead-control/bottom)**
+- ❌ **Failing to actively fight opponent's grip attempts on collar or wrists**
+  - Consequence: Permits opponent to establish seat belt control or cross-face, leading directly to back takes or crucifix positions with high finishing percentages
+  - ✅ Correction: Aggressively strip grips using opposite hand, prioritize defending far-side underhook, and keep hands close to body when not actively fighting grips
+
+- ❌ **Allowing elbows to flare away from body creating space for hooks**
+  - Consequence: Gives opponent clear pathway to insert hooks for back control or establish body triangle, dramatically increasing submission danger
+  - ✅ Correction: Maintain tight connection between elbows and ribs, only extending arms when actively posting or fighting grips, immediately retract to defensive position
+
+- ❌ **Posting head on mat or looking up excessively**
+  - Consequence: Exposes neck to guillotine attacks and front headlock controls while compromising base and making granby roll escapes more difficult
+  - ✅ Correction: Keep chin tucked to chest, head positioned between shoulders as protective wedge, maintain awareness through peripheral vision rather than lifting head
+
+- ❌ **Moving in predictable linear patterns that opponent can anticipate**
+  - Consequence: Allows opponent to time attacks and transitions based on predictable movement patterns, reducing effectiveness of defensive mobility
+  - ✅ Correction: Use circular and rotational movement, vary timing and direction of hip shifts, create unpredictable scramble situations that favor defensive position
+
+- ❌ **Failing to recognize when movement has created guard recovery opportunity**
+  - Consequence: Wastes energy continuing turtle defense when opponent is off-balance and vulnerable to guard reinsertion or reversal attempts
+  - ✅ Correction: Develop sensitivity to opponent's weight distribution and commitment, explosively capitalize on moments of instability to recover guard or sweep
+
+
+👉 **[[Crackhead Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -145,12 +199,57 @@ The top player in crackhead control balances control maintenance with submission
 ### Primary Techniques
 
 
+- **[[Turtle to Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Transition to Truck]]** → [[Truck]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Crucifix from Turtle]]** → [[Crucifix]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Crab Ride to Back]]** → [[Crab Ride]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Anaconda from Turtle]]** → [[Anaconda Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Darce from Turtle]]** → [[D'arce Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Rolling Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
 
 ### Common Errors
 
 
+- ❌ **Sitting too high on opponent's upper back instead of hips**
+  - Consequence: Opponent can easily forward roll or granby escape, and controlling practitioner loses hip isolation
+  - ✅ Correction: Keep hips loaded on opponent's lower back/sacrum area, maintaining chair sit position with weight through the glutes
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](crackhead-control/top)**
+- ❌ **Failing to maintain inside leg hook**
+  - Consequence: Opponent can sit through to guard or escape to the side uncontested
+  - ✅ Correction: Always keep at least one leg hooked on the inside hip, controlling the space between opponent's legs
+
+- ❌ **Being too static and not threatening progression**
+  - Consequence: Opponent can build defensive structure and stall, or referee may stand the position up
+  - ✅ Correction: Constantly threaten back takes, submissions, and position changes to keep opponent defensive and reactive
+
+- ❌ **Over-committing weight forward onto opponent's upper back**
+  - Consequence: Loss of mobility and inability to follow opponent's movements during escape attempts
+  - ✅ Correction: Keep hips heavy but upper body mobile, able to shift weight and follow opponent's direction changes
+
+- ❌ **Gripping too tight with upper body instead of using weight**
+  - Consequence: Arms fatigue quickly and opponent can create space by breaking grips
+  - ✅ Correction: Use body weight and positioning for control, grips should be supplementary to redirect and guide rather than primary control mechanism
+
+- ❌ **Allowing opponent to square their hips to you**
+  - Consequence: Opponent regains base and can push into you to escape or stand up
+  - ✅ Correction: Maintain perpendicular hip angle, keeping opponent's hips turned away while your hips stay loaded on their lower back
+
+
+👉 **[[Crackhead Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -180,16 +279,6 @@ The top player in crackhead control balances control maintenance with submission
 - **[[D'arce Control]]** - Submission control available when opponent turns into top attacker
 
 - **[[Anaconda Control]]** - Alternative front headlock finish from top perspective
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](crackhead-control/bottom)** - Techniques and strategies
-- **[Top Perspective](crackhead-control/top)** - Techniques and strategies
-
 
 
 </section>

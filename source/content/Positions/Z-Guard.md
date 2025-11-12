@@ -76,6 +76,18 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Z-Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Z-Guard/Top|Top Perspective]]** - Submissions and positional attacks
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Z-Guard Bottom Perspective
@@ -105,12 +117,64 @@ The bottom player in z-guard balances defensive frames with offensive opportunit
 ### Primary Techniques
 
 
+- **[[Old School Sweep]]** → [[Half Guard]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Underhook Sweep from Half]]** → [[Half Guard]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Deep Half Entry]]** → [[Deep Half Guard]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Back Take Generic]]** → [[Back Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Transition to Truck]]** → [[Truck]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[X-Guard Sweep]]** → [[X-Guard]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Lockdown Sweeps]]** → [[Lockdown]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Electric Chair Submission]]** → [[Electric Chair]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
 
 ### Common Errors
 
 
+- ❌ **Allowing knee shield to collapse or lose tension against opponent's body**
+  - Consequence: Opponent settles weight onto bottom player, establishing effective passing pressure and nullifying sweep opportunities while making re-extension of knee shield extremely difficult
+  - ✅ Correction: Maintain constant active pressure through knee shield into opponent's shoulder or chest, treating it like a spring that must remain loaded; if pressure increases, momentarily extend more forcefully before transitioning to deep half or other position
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](z-guard/bottom)**
+- ❌ **Remaining flat on back instead of maintaining angled posture**
+  - Consequence: Loss of hip mobility and ability to create angles; opponent can apply effective shoulder pressure and crossface control, making escapes and sweeps nearly impossible while accelerating fatigue
+  - ✅ Correction: Keep shoulders off mat at approximately 45-degree angle, weight on one shoulder blade and hip; continuously adjust angle using small hip movements to maintain optimal positioning for both defense and offense
+
+- ❌ **Failing to secure underhook on trapped leg side**
+  - Consequence: Opponent achieves crossface control or double underhooks, dramatically limiting sweep options and making it easy for them to drive forward and flatten you or circle to backstep position
+  - ✅ Correction: Prioritize underhook on same side as trapped leg, driving deep under opponent's armpit and pulling tight to your chest; if underhook unavailable, establish strong collar tie and frame on opposite shoulder to prevent crossface
+
+- ❌ **Static positioning without constant adjustment and movement**
+  - Consequence: Opponent can methodically break down your frames and pressure into you; lack of movement allows them to time their passing attempts and gradually improve position without resistance
+  - ✅ Correction: Maintain constant micro-adjustments with hips, knee shield pressure, and frames; use small hip escapes to maintain distance and create angles; treat Z-Guard as dynamic position requiring continuous active management
+
+- ❌ **Allowing opponent to control your knee shield leg at the knee or ankle**
+  - Consequence: Opponent can forcefully collapse your knee shield or control the leg to prevent re-extension, making transition to deep half difficult and exposing you to knee slice and other passes
+  - ✅ Correction: Keep knee shield leg mobile and actively adjust positioning; if opponent grabs your knee or ankle, immediately transition to deep half entry or use their grip commitment to execute sweeps; never allow them to establish static control of your shield leg
+
+- ❌ **Overcommitting to sweep attempts without establishing proper control points**
+  - Consequence: Failed sweep attempts leave you off-balance and vulnerable to immediate passing sequences; opponent can use your momentum against you to establish superior position or complete passes
+  - ✅ Correction: Establish control points before committing to sweeps - secure underhook, control opponent's far arm or collar, create proper angle with hips; use sweep attempts as part of chain sequences rather than isolated techniques
+
+- ❌ **Neglecting far side (non-shield side) frames and controls**
+  - Consequence: Opponent can circle around knee shield toward backstep position or establish grips that facilitate smash passing; lack of far side control allows easy positioning adjustments for top player
+  - ✅ Correction: Maintain active frame or grip on far side - control their sleeve, wrist, or collar to prevent circling; use far hand to create additional frames against their shoulder or to strip grips that threaten your position
+
+
+👉 **[[Z-Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +207,57 @@ The top player in z-guard enjoys offensive advantages with access to submissions
 ### Primary Techniques
 
 
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Knee Slice from Half]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Knee Cut Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Long Step Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Smash Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Back Step]]** → [[Back Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Underhook Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Standing too upright and allowing bottom player to extend knee shield fully**
+  - Consequence: Bottom player maintains strong frame and can easily sweep or transition to other guards
+  - ✅ Correction: Keep chest low and pressure directed into the knee shield, collapsing the frame before attempting to pass
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](z-guard/top)**
+- ❌ **Allowing bottom player to secure deep underhook on the far side**
+  - Consequence: Bottom player gains control of posture and can execute sweeps or transitions to dog fight
+  - ✅ Correction: Fight for the underhook battle immediately, securing crossface or controlling the far arm to limit bottom player's offensive options
+
+- ❌ **Keeping weight too far back on the heels instead of loading into the knee shield**
+  - Consequence: Insufficient pressure allows bottom player to maintain frame and creates opportunities for sweeps
+  - ✅ Correction: Drive hips forward and down, loading weight onto the knee shield while maintaining wide base for stability
+
+- ❌ **Attempting to pass without first addressing the knee shield frame**
+  - Consequence: The knee shield blocks passing attempts and bottom player can easily recover guard
+  - ✅ Correction: Systematically break down the knee shield through collar or cross-face control before initiating passing sequences
+
+- ❌ **Committing too much weight to one side without maintaining balance**
+  - Consequence: Bottom player can sweep by pulling the committed side or elevating with the knee shield
+  - ✅ Correction: Maintain wide base with knees and distribute weight evenly while applying directional pressure
+
+- ❌ **Neglecting to control bottom player's far arm and shoulder**
+  - Consequence: Bottom player can create frames, establish grips, and defend passes more effectively
+  - ✅ Correction: Secure crossface or underhook on the far side to limit bottom player's defensive capabilities
+
+
+👉 **[[Z-Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -176,16 +285,6 @@ The top player in z-guard enjoys offensive advantages with access to submissions
 - **[[Underhook Battle]]** - Critical grip fighting stage determining Z-Guard effectiveness
 
 - **[[Headquarters Position]]** - Related passing position from top player's perspective
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](z-guard/bottom)** - Techniques and strategies
-- **[Top Perspective](z-guard/top)** - Submissions and positional attacks
-
 
 
 </section>

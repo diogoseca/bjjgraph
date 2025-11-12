@@ -76,6 +76,18 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Spider Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Spider Guard/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Spider Guard Bottom Perspective
@@ -105,12 +117,60 @@ The bottom player in spider guard balances defensive frames with offensive oppor
 ### Primary Techniques
 
 
+- **[[Triangle Setup]]** → [[Triangle Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Omoplata Sweep]]** → [[Omoplata Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Spider Guard Sweeps]]** → [[Mount]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Lasso Guard Sweeps]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[De La Riva Sweep]]** → [[Back Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Scissor Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Armbar from Guard]]** → [[Armbar Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Spider Guard to Omoplata]]** → [[Omoplata Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Allowing legs to bend and lose extension pressure on opponent's arms**
+  - Consequence: Opponent can drive forward pressure and establish passing position
+  - ✅ Correction: Maintain constant leg extension with active foot pressure against biceps or hips, keeping legs straight and creating distance
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](spider-guard/bottom)**
+- ❌ **Gripping too low on opponent's sleeves or wrists instead of upper sleeve**
+  - Consequence: Weak control that allows opponent to strip grips and advance position
+  - ✅ Correction: Establish grips at or above opponent's elbows for maximum leverage and control, using deep four-finger sleeve grips
+
+- ❌ **Keeping hips flat on the mat without active movement**
+  - Consequence: Limited ability to create angles for sweeps and vulnerability to stack passes
+  - ✅ Correction: Keep hips elevated and mobile, constantly adjusting angles and using hip movement to set up attacks and prevent passes
+
+- ❌ **Using both feet on same side creating imbalanced control**
+  - Consequence: Opponent can easily circulate around uncontrolled side to pass guard
+  - ✅ Correction: Distribute feet strategically - one on each arm for maximum control, or one bicep and one hip for varied pressure
+
+- ❌ **Failing to transition when opponent secures strong grips or begins breaking guard**
+  - Consequence: Guard gets passed as opponent establishes dominant grips and posture
+  - ✅ Correction: Recognize grip fighting disadvantage early and transition to closed guard, lasso, or other guard variation before position is compromised
+
+- ❌ **Over-committing to sweeps without securing proper grips first**
+  - Consequence: Failed sweep attempts that leave guard vulnerable to passes
+  - ✅ Correction: Establish strong grip and foot control before initiating sweeps, ensuring proper setup and timing
+
+
+👉 **[[Spider Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +203,61 @@ The top player in spider guard manages the position strategically based on oppon
 ### Primary Techniques
 
 
+- **[[Toreando Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Leg Drag Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 28%, Intermediate 42%, Advanced 58%
+
+- **[[X Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 22%, Intermediate 38%, Advanced 52%
+
+- **[[Stack Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Long Step Pass]]** → [[Headquarters Position]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Double Under Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+
 
 ### Common Errors
 
 
+- ❌ **Attempting to pass with sleeve grips still intact, allowing bottom player to maintain full distance control**
+  - Consequence: Bottom player easily executes sweeps or transitions to submissions as top player moves forward into their control structure
+  - ✅ Correction: Systematically break grips first using proper grip-breaking mechanics, then establish your own passing grips before advancing
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](spider-guard/top)**
+- ❌ **Staying too close and allowing bottom player to break posture down with collar grips combined with Spider Guard hooks**
+  - Consequence: Top player gets swept forward or pulled into triangle or omoplata entries where bottom player has superior control
+  - ✅ Correction: Maintain distance and upright posture, step back when necessary to reset and prevent posture breaks
+
+- ❌ **Committing weight forward onto one side while bottom player still has strong Spider Guard on that side**
+  - Consequence: Easy technical sweep for bottom player as top player's weight is already committed in direction of sweep
+  - ✅ Correction: Only commit weight forward after neutralizing the Spider Guard on that side through grip breaks and leg control
+
+- ❌ **Ignoring the lasso hook transition, allowing bottom player to establish deep lasso control**
+  - Consequence: Lasso becomes extremely difficult to pass and opens multiple sweep and omoplata opportunities for bottom player
+  - ✅ Correction: Recognize lasso entry early and immediately address it with proper lasso passing sequences or prevent the entry through grip fighting
+
+- ❌ **Using arms to fight against the foot pressure on biceps, creating arm fatigue and wasted energy**
+  - Consequence: Top player tires quickly, grips weaken, and bottom player maintains control with minimal energy expenditure
+  - ✅ Correction: Use posture, distance management, and systematic grip breaks rather than muscling against foot pressure
+
+- ❌ **Failing to control the bottom player's hips and legs after breaking grips, allowing immediate guard re-establishment**
+  - Consequence: Bottom player simply re-establishes Spider Guard and the passing cycle restarts with no progress made
+  - ✅ Correction: Immediately control pants or legs and pressure forward to flatten the guard structure once grips are broken
+
+- ❌ **Standing too narrow or with feet too close together when facing Spider Guard**
+  - Consequence: Poor base makes top player highly vulnerable to technical sweeps even with mediocre Spider Guard execution
+  - ✅ Correction: Maintain wide, stable base with feet outside opponent's hips and weight centered between both legs
+
+
+👉 **[[Spider Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -176,16 +285,6 @@ The top player in spider guard manages the position strategically based on oppon
 - **[[Triangle Control]]** - Primary submission transition target from spider guard
 
 - **[[Omoplata Control]]** - High-percentage submission transition when opponent drives forward
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](spider-guard/bottom)** - Techniques and strategies
-- **[Top Perspective](spider-guard/top)** - Techniques and strategies
-
 
 
 </section>

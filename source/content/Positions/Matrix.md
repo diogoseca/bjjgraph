@@ -84,6 +84,18 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Matrix/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
+- **[[Matrix/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Matrix Bottom Perspective
@@ -113,12 +125,60 @@ The bottom player in matrix controls the position with offensive attacks includi
 ### Primary Techniques
 
 
+- **[[Matrix Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 65%
+
+- **[[Rolling Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+
+- **[[Arm Drag to Back]]** → [[Back Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Chair Sit to Back]]** → [[Crab Ride]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Granby Roll]]** → [[Closed Guard]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Rolling to Guard]]** → [[Open Guard]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Berimbolo Entry]]** → [[Back Control]]
+  - Success Rate: Beginner 15%, Intermediate 35%, Advanced 55%
+
+- **[[Turtle to Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
 
 ### Common Errors
 
 
+- ❌ **Insufficient hip elevation before initiating rotation**
+  - Consequence: Weak rotational momentum makes the movement slow and easily defended, often resulting in getting flattened or stuck mid-roll
+  - ✅ Correction: Explosively drive hips upward until they are clearly above shoulder level before beginning the rotational component, using leg drive and core engagement
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](matrix/bottom)**
+- ❌ **Losing shoulder contact with mat during initial rotation phase**
+  - Consequence: Without the shoulder pivot point, the body rotates in space without mechanical advantage, creating a slow, floating movement easily stuffed by opponent
+  - ✅ Correction: Maintain active shoulder pressure into the mat throughout the first 180 degrees of rotation, only lifting shoulder after hips have passed the apex
+
+- ❌ **Attempting hook insertion after rotation completes**
+  - Consequence: Opponent has time to defend hook entry, turn into practitioner, or establish their own hooks, negating the back take advantage
+  - ✅ Correction: Begin threading the first hook as soon as hips pass opponent's centerline during rotation, inserting the hook while still inverted
+
+- ❌ **Releasing grips or connection during the rotation**
+  - Consequence: Rotating independently of opponent position means arriving behind them without actual control, allowing easy escape or counter
+  - ✅ Correction: Maintain at least one strong connection point—typically belt, pants, or leg grip—throughout entire rotation to ensure opponent position moves with your rotation
+
+- ❌ **Hesitating or slowing mid-rotation**
+  - Consequence: Pausing while inverted creates maximum vulnerability with back exposed and no defensive structure, inviting opponent to take dominant position
+  - ✅ Correction: Commit fully to completing the rotation in one continuous explosive motion, or immediately abort and return to defensive structure if entry timing is wrong
+
+- ❌ **Poor timing—attempting Matrix against actively mobile opponent**
+  - Consequence: Opponent's base adjustments and movement make rotation impossible to complete effectively, wasting energy and creating scramble situations
+  - ✅ Correction: Wait for moments of opponent stillness, weight transfer, or static posting before initiating, using their momentary stability as entry window
+
+
+👉 **[[Matrix/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -151,12 +211,60 @@ The top player in matrix manages the position strategically based on opponent's 
 ### Primary Techniques
 
 
+- **[[Sprawl Defense]]** → [[Turtle]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Crossface Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Back Step]]** → [[Back Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Turtle to Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Darce from Turtle]]** → [[D'arce Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Guillotine from Turtle]]** → [[Guillotine Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Anaconda from Turtle]]** → [[Anaconda Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
 
 ### Common Errors
 
 
+- ❌ **Maintaining narrow base in turtle top or passing positions**
+  - Consequence: Narrow base provides insufficient lateral stability, allowing bottom player's rotation to easily overcome top player's structure and complete back take
+  - ✅ Correction: Actively widen base beyond shoulder width when opponent shows Matrix tendencies, distributing weight across four points with knees and hands spread
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](matrix/top)**
+- ❌ **Static weight distribution without responsive adjustment**
+  - Consequence: Fixed weight positioning gives bottom player a predictable leverage point to rotate around, making their Matrix momentum generation more effective
+  - ✅ Correction: Constantly adjust weight distribution in response to opponent's hip movement, shifting weight away from their rotation direction
+
+- ❌ **Failing to recognize early Matrix indicators**
+  - Consequence: Reacting after rotation has begun provides insufficient time to establish defensive structure, resulting in completed back takes
+  - ✅ Correction: Develop heightened awareness of hip elevation and shoulder posting cues, responding preventatively at first indicator rather than reactively after rotation starts
+
+- ❌ **Remaining static without offensive pressure**
+  - Consequence: Passive top positioning allows bottom player unlimited time to set up optimal Matrix entry timing and positioning
+  - ✅ Correction: Maintain constant offensive pressure through passing attempts, submission threats, or position advancement to occupy opponent's attention
+
+- ❌ **Overcommitting weight forward when blocking rotation**
+  - Consequence: Excessive forward pressure allows bottom player to use that momentum to complete granby rolls or guard recoveries
+  - ✅ Correction: Block rotation with base widening and lateral weight distribution rather than forward pressure, preventing secondary escape options
+
+- ❌ **Ignoring grip fighting when opponent establishes connections**
+  - Consequence: Strong grips on belt, pants, or legs give bottom player the connection points necessary to control top player's position during rotation
+  - ✅ Correction: Actively fight grips to prevent opponent from establishing strong connection points, breaking grips immediately when they're established
+
+
+👉 **[[Matrix/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -182,16 +290,6 @@ The top player in matrix manages the position strategically based on opponent's 
 - **[[Seat Belt Control Back]]** - Grip configuration achieved during successful Matrix completion
 
 - **[[Gift Wrap]]** - Alternative control when Matrix brings arm across body
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](matrix/bottom)** - Sweeps, attacks, and submissions
-- **[Top Perspective](matrix/top)** - Techniques and strategies
-
 
 
 </section>

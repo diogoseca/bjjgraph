@@ -82,6 +82,18 @@ Modern Brazilian Jiu-Jitsu has elevated underhook control from a fundamental con
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Underhook Control/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Underhook Control/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Underhook Control Bottom Perspective
@@ -111,12 +123,66 @@ The bottom player in underhook control balances defensive frames with offensive 
 ### Primary Techniques
 
 
+- **[[Old School Sweep]]** → [[Side Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Underhook Sweep]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Rolling Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Half Guard to Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Deep Half Entry]]** → [[Deep Half Guard]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Butterfly Guard to X-Guard]]** → [[X-Guard]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Technical Standup]]** → [[Standing Position]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Arm Drag to Back]]** → [[Back Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Re-Guard]]** → [[Closed Guard]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
 
 ### Common Errors
 
 
+- ❌ **Maintaining shallow underhook that only reaches opponent's bicep or elbow area**
+  - Consequence: Opponent easily establishes crossface control and drives shoulder pressure into your face, flattening you to the mat and nullifying offensive opportunities
+  - ✅ Correction: Drive your underhook deeply past opponent's armpit with hand reaching their far shoulder blade. Use hip movement to maintain depth and prevent opponent from extracting their arm backward
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](underhook-control/bottom)**
+- ❌ **Keeping inside hip flat on the mat while holding underhook**
+  - Consequence: Opponent flattens you completely, eliminating hip mobility necessary for sweeps or guard recovery. Static position allows opponent to consolidate control and advance
+  - ✅ Correction: Use underhook frame to elevate inside hip off the mat. Maintain dynamic hip positioning with ability to shrimp, turn, or drive forward. Never allow both hips flat simultaneously
+
+- ❌ **Neglecting non-underhook hand, allowing it to hang passively**
+  - Consequence: Opponent establishes crossface control with their far arm, driving your head away and creating angle for pass. Crossface nullifies underhook advantages completely
+  - ✅ Correction: Non-underhook hand must actively frame against opponent's hip, knee, or far arm. This secondary frame prevents crossface and completes defensive structure
+
+- ❌ **Holding static underhook without attempting sweeps or positional improvements**
+  - Consequence: Opponent adapts to your static position, establishes counter-grips, and neutralizes your offensive potential. Referees may penalize for stalling in competition
+  - ✅ Correction: Treat underhook as launching point for immediate action. Continuously attempt sweeps, back takes, or guard recovery rather than holding position statically
+
+- ❌ **Pulling down on underhook instead of driving upward and forward**
+  - Consequence: Pulling down collapses your own structure and brings opponent's weight onto you. Creates crushing pressure that prevents hip movement and offensive options
+  - ✅ Correction: Drive underhook upward toward ceiling while driving your body forward and into opponent. This lifting action off-balances opponent and creates sweep opportunities
+
+- ❌ **Ignoring leg positioning while focusing entirely on upper body underhook battle**
+  - Consequence: Opponent controls your legs independently, establishing knee slice or leg drag passes that bypass your upper body frames completely
+  - ✅ Correction: Coordinate underhook control with butterfly hooks, lockdown, or knee shield positioning. Effective bottom control requires upper and lower body integration
+
+
+👉 **[[Underhook Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -149,12 +215,69 @@ The top player in underhook control balances control maintenance with submission
 ### Primary Techniques
 
 
+- **[[Underhook Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Knee Cut Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Crossface Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Kimura to Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Back Take Generic]]** → [[Back Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Transition to North-South]]** → [[North-South]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Leg Weave Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Darce Setup]]** → [[D'arce Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Anaconda Setup]]** → [[Anaconda Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Body Lock Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
 
 ### Common Errors
 
 
+- ❌ **Pulling upward on the underhook instead of driving downward pressure**
+  - Consequence: Lifting creates space underneath your body, allowing bottom player to elevate their hip, create angles, and execute sweeps or guard recovery. Your pressure becomes neutralized completely
+  - ✅ Correction: Drive underhook pressure downward toward the mat continuously. Think of pushing opponent's shoulder into the ground rather than pulling them toward you. Weight drives through the underhook connection
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](underhook-control/top)**
+- ❌ **Neglecting crossface control while focusing entirely on underhook**
+  - Consequence: Bottom player establishes head control or inside position, enabling them to turn into you for sweeps or create off-balancing opportunities. Underhook alone provides incomplete control
+  - ✅ Correction: Coordinate underhook with crossface pressure where your shoulder drives into opponent's face. This dual control eliminates their ability to turn and creates complete upper body domination
+
+- ❌ **Allowing hips to rise high above opponent's hips during underhook control**
+  - Consequence: High hips create space for bottom player to shrimp, recover guard, or insert knee shields. Your pressure becomes ineffective and passes stall
+  - ✅ Correction: Keep your hips low and driving toward opponent's hips. Maintain heavy hip pressure that pins them flat while your underhook controls their upper body
+
+- ❌ **Maintaining static underhook position without advancing or creating new angles**
+  - Consequence: Bottom player adapts to static pressure, establishes defensive frames, and neutralizes your passing attempts. Referees may penalize for stalling in competition
+  - ✅ Correction: Use underhook as foundation for continuous advancement. Chain together knee cuts, leg weaves, and position transitions rather than holding static pressure
+
+- ❌ **Exposing your own neck by overcommitting to underhook pressure without protecting head position**
+  - Consequence: Bottom player establishes guillotine grips or front headlock control, creating dangerous submission threats that force you to abandon your pass
+  - ✅ Correction: Maintain head position tight to opponent's shoulder or far side of their body. Never allow space for them to insert their arm around your neck during underhook advances
+
+- ❌ **Failing to control opponent's far leg while focusing on upper body underhook control**
+  - Consequence: Bottom player uses far leg to create leverage for sweeps, especially old school or hook sweeps that exploit your weight commitment to upper body
+  - ✅ Correction: Coordinate underhook control with leg control strategies. Use your free hand to post on their far knee or hip, preventing leverage for sweeps while underhook controls upper body
+
+
+👉 **[[Underhook Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -184,16 +307,6 @@ The top player in underhook control balances control maintenance with submission
 - **[[Z-Guard]]** - Half guard variation that prioritizes underhook control for defensive structure
 
 - **[[Body Lock]]** - Advanced control position that evolves from dominant underhook positioning
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](underhook-control/bottom)** - Techniques and strategies
-- **[Top Perspective](underhook-control/top)** - Techniques and strategies
-
 
 
 </section>

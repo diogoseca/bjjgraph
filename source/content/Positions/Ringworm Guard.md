@@ -74,6 +74,18 @@ The guard creates mechanical advantages through the lapel wrap, restricting the 
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Ringworm Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Ringworm Guard/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Ringworm Guard Bottom Perspective
@@ -103,12 +115,54 @@ The bottom player in ringworm guard balances defensive frames with offensive opp
 ### Primary Techniques
 
 
+- **[[Ringworm Sweep to Back Control]]** → [[Back Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Triangle Setup]]** → [[Triangle Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Omoplata to Sweep]]** → [[Omoplata Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Lapel Guard Sweeps]]** → [[Mount]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Berimbolo Entry]]** → [[Back Control]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+
+- **[[Transition to Worm Guard]]** → [[Worm Guard]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
 
 ### Common Errors
 
 
+- ❌ **Allowing the lapel wrap to become loose or slack during transitions**
+  - Consequence: Opponent can easily extract their leg and escape the position, nullifying all control advantages and leaving practitioner in inferior open guard
+  - ✅ Correction: Maintain constant tension on the lapel tail throughout all movements, actively pulling it tight whenever shifting angles or attempting sweeps, treating the lapel as a primary control point rather than secondary grip
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](ringworm-guard/bottom)**
+- ❌ **Remaining too flat on the back without creating angles**
+  - Consequence: Opponent can establish strong top pressure and begin smash passing sequences, negating the mobility advantages that make Ringworm Guard effective
+  - ✅ Correction: Continuously move hips laterally and create angles by shifting your body position while maintaining the lapel wrap, staying on your side or shoulder whenever possible to enhance mobility and sweeping mechanics
+
+- ❌ **Failing to control opponent's upper body with leg frames or hooks**
+  - Consequence: Opponent can easily posture up, establish dominant grips, or drive forward into passing positions despite the lapel wrap on their leg
+  - ✅ Correction: Always maintain at least one leg engagement on opponent's upper body or hips, using butterfly hooks, shin shields, or foot frames to manage distance and prevent them from consolidating top pressure
+
+- ❌ **Threading the lapel incorrectly or incompletely around opponent's leg**
+  - Consequence: The lapel configuration provides minimal control and opponent can simply step out of the wrap without resistance
+  - ✅ Correction: Ensure the lapel passes completely around the back of opponent's knee or thigh with sufficient wraps to create friction and control, checking that the configuration is secure before releasing your threading hand
+
+- ❌ **Neglecting grip fighting on opponent's free hand**
+  - Consequence: Opponent establishes strong collar or sleeve grips that facilitate passing sequences and neutralize your sweeping attempts
+  - ✅ Correction: Actively fight for sleeve or wrist control on opponent's free arm using your non-lapel hand, preventing them from establishing the grips they need for effective passing while setting up your offensive attacks
+
+- ❌ **Attempting sweeps without first breaking opponent's base and posture**
+  - Consequence: Sweeping attempts fail because opponent maintains strong defensive structure, wasting energy and potentially allowing them to counter-pass
+  - ✅ Correction: Use the lapel wrap in combination with leg frames to first compromise opponent's balance and posture, waiting for them to react or adjust their base before committing to sweeping motions
+
+
+👉 **[[Ringworm Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -139,12 +193,54 @@ The top player in ringworm guard manages the position strategically based on opp
 ### Primary Techniques
 
 
+- **[[Lapel Grip Break and Posture Recovery]]** → [[Open Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Leg Extraction from Lapel Wrap]]** → [[Combat Base]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Stack Pass with Lapel Control Negation]]** → [[Side Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Standing Guard Pass with Distance Creation]]** → [[Headquarters Position]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Smash Pass Counter]]** → [[Half Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Standing Reset to Open Guard]]** → [[Standing Guard]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
 
 ### Common Errors
 
 
+- ❌ **Attempting to pressure pass or drive forward while the lapel wrap is secure**
+  - Consequence: Creates ideal sweeping angle for bottom player, typically resulting in loss of position or back exposure as forward momentum is redirected
+  - ✅ Correction: First focus on grip breaking and leg extraction, only attempting passing pressure after the lapel configuration is neutralized or significantly weakened
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](ringworm-guard/top)**
+- ❌ **Ignoring the lapel grip and treating it like standard open guard**
+  - Consequence: The mechanical disadvantage of the lapel wrap severely limits mobility and base, making standard passing approaches ineffective and dangerous
+  - ✅ Correction: Recognize Ringworm Guard as a specialized position requiring specific counters, prioritizing extraction over standard passing sequences
+
+- ❌ **Failing to protect your back while working to escape the position**
+  - Consequence: Bottom player capitalizes on back exposure during extraction attempts, transitioning to back control or completing sweeps
+  - ✅ Correction: Maintain constant awareness of back defense, keeping shoulders square and hips heavy while working grip breaks and leg extraction
+
+- ❌ **Using only one hand to break the lapel grip**
+  - Consequence: Insufficient force to break the grip while leaving other arm vulnerable to secondary controls from bottom player
+  - ✅ Correction: Use both hands in systematic grip breaking sequences, temporarily accepting other defensive compromises to prioritize lapel extraction
+
+- ❌ **Remaining stationary and defensive without working toward escape**
+  - Consequence: Allows bottom player time to secure position, establish additional controls, and set up their highest percentage attacks
+  - ✅ Correction: Maintain constant motion and systematic progress toward extraction, even if incremental, to prevent bottom player from consolidating control
+
+- ❌ **Attempting explosive movements or sudden direction changes**
+  - Consequence: The lapel wrap converts explosive energy into sweeping momentum, often resulting in dramatic position reversal
+  - ✅ Correction: Work methodically and with controlled movements, using gradual pressure and systematic techniques rather than explosive bursts
+
+
+👉 **[[Ringworm Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -164,16 +260,6 @@ The top player in ringworm guard manages the position strategically based on opp
 - **[[Spider Guard]]** - Alternative open guard option - shares distance management principles without lapel dependency
 
 - **[[De La Riva Guard]]** - Shares angular attack concepts and leg hooking mechanics
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](ringworm-guard/bottom)** - Techniques and strategies
-- **[Top Perspective](ringworm-guard/top)** - Techniques and strategies
-
 
 
 </section>

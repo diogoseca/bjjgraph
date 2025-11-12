@@ -76,6 +76,18 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Worm Guard/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
+- **[[Worm Guard/Top|Top Perspective]]** - Submissions and positional attacks
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Worm Guard Bottom Perspective
@@ -105,12 +117,60 @@ The bottom player in worm guard controls the position with offensive attacks inc
 ### Primary Techniques
 
 
+- **[[Omoplata Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+
+- **[[Triangle Setup]]** → [[Triangle Control]]
+  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+
+- **[[Omoplata to Back]]** → [[Back Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Lasso Guard Sweeps]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+
+- **[[X-Guard Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[De La Riva Sweep]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+
+- **[[Bolo Sweep]]** → [[Back Control]]
+  - Success Rate: Beginner 15%, Intermediate 35%, Advanced 55%
+
+- **[[Triangle from Guard]]** → [[Triangle Control]]
+  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Losing lapel tension during transitions or adjustment movements**
+  - Consequence: Entire worm guard structure collapses if lapel loses tension, allowing opponent to extract leg and escape control system. Without tight lapel connection, position becomes ineffective standard open guard.
+  - ✅ Correction: Maintain constant pulling pressure on lapel throughout position. Monitor lapel wrap around shin/foot to ensure it stays tight. If tension loosens, immediately adjust or transition to different position before opponent recognizes weakness.
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](worm-guard/bottom)**
+- ❌ **Feeding lapel incorrectly with insufficient depth under opponent's leg**
+  - Consequence: Incorrect lapel weave angle or depth makes control weak and easy to clear. Improper feed can also create false sense of security that collapses under pressure.
+  - ✅ Correction: Practice deliberate lapel feeding—pull ample lapel material, feed deep under their leg (not shallow), wrap tightly around your shin/foot with proper tension. Seek coaching on exact mechanics of lapel weave to ensure proper execution.
+
+- ❌ **Neglecting opposite side sleeve or pant control while focusing solely on lapel**
+  - Consequence: Opponent can establish stable base and posture with free arm, allowing them to generate passing pressure or clear lapel control more easily.
+  - ✅ Correction: Always maintain grip on opponent's opposite sleeve or pant to break their symmetry. This grip is equally important as lapel control—it prevents them from establishing stable passing structure.
+
+- ❌ **Allowing opponent to close distance without using free leg to manage space**
+  - Consequence: Opponent can collapse distance and initiate smash passing sequences that neutralize worm guard's off-balancing mechanics and make sweeps less effective.
+  - ✅ Correction: Actively use free leg to create frames and manage distance. Push opponent away when they try to close distance, maintaining optimal range for your attacks while preventing their passing attempts.
+
+- ❌ **Remaining static with hip positioning instead of creating angles for sweeps**
+  - Consequence: Without dynamic hip movement, sweeps become weak and telegraphed. Opponent can anchor their base against predictable attack angles.
+  - ✅ Correction: Continuously adjust hip angles relative to opponent to create off-balancing forces. Move hips perpendicular, at angles, or in circles to generate momentum for sweeps and keep opponent off-balance.
+
+- ❌ **Failing to recognize when lapel control is compromised and attempting to force position**
+  - Consequence: Continuing to play worm guard after lapel connection is broken wastes energy and allows opponent to advance position while you attempt ineffective techniques.
+  - ✅ Correction: Develop sensitivity to recognize when lapel control is truly lost versus temporarily loosened. When compromised, immediately transition to alternative guard (spider, lasso, DLR) rather than forcing broken worm guard structure.
+
+
+👉 **[[Worm Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +203,54 @@ The top player in worm guard enjoys offensive advantages with access to submissi
 ### Primary Techniques
 
 
+- **[[Leg Drag Pass]]** → [[Leg Drag Control]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+
+- **[[Toreando Pass]]** → [[Headquarters Position]]
+  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 55%
+
+- **[[Smash Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 15%, Intermediate 35%, Advanced 50%
+
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 20%, Intermediate 38%, Advanced 52%
+
+- **[[Long Step Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 18%, Intermediate 35%, Advanced 48%
+
+- **[[Stack Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 12%, Intermediate 28%, Advanced 42%
+
 
 ### Common Errors
 
 
+- ❌ **Attempting forward pressure passes while lapel is still wrapped and tensioned around the leg**
+  - Consequence: Creates perfect leverage for bottom player to execute powerful sweeps using the lapel as mechanical advantage, often resulting in immediate loss of position or back exposure
+  - ✅ Correction: First systematically address the lapel wrap through stripping grips, extracting the leg, or cutting the angle to remove tension before attempting forward advancement
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](worm-guard/top)**
+- ❌ **Standing too upright with narrow base while bottom player maintains lapel control**
+  - Consequence: Provides easy off-balancing targets for sweeps and allows bottom player to generate rotational momentum with minimal effort, making the passer vulnerable to multiple sweep variations
+  - ✅ Correction: Maintain wide athletic base with hips back and weight distributed, keeping center of gravity low enough to resist off-balancing while high enough to maintain mobility
+
+- ❌ **Ignoring bottom player's far side collar or far side grip controls**
+  - Consequence: Allows bottom player to generate rotation and create angles for back takes, omoplatas, or advanced worm guard variations that increase defensive complexity
+  - ✅ Correction: Establish far side collar or far side control early to limit bottom player's rotational capacity and reduce their ability to chain multiple attacks
+
+- ❌ **Using explosive, speed-based passing attempts without systematic lapel management**
+  - Consequence: Bottom player easily redirects explosive energy into sweep momentum, and hasty movements often tighten the lapel entanglement rather than escaping it
+  - ✅ Correction: Employ patient, methodical dismantling with emphasis on grip stripping sequences and positional problem-solving over athletic burst attempts
+
+- ❌ **Allowing bottom player to maintain both lapel control and strong collar/sleeve grips simultaneously**
+  - Consequence: Creates multi-layered control system that makes passing nearly impossible, as bottom player can defend passing attempts while setting up attacks
+  - ✅ Correction: Prioritize breaking one control system completely before addressing the other, typically starting with removing the lapel wrap or stripping the most threatening grip
+
+- ❌ **Backing away or disengaging completely when facing difficulty**
+  - Consequence: Allows bottom player to reset and strengthen their guard structure, and in competition results in stalling penalties or failed passing attempts
+  - ✅ Correction: Maintain engagement with strategic grips and pressure while systematically working through the positional problems, using pressure to limit bottom player's mobility even while addressing the lapel
+
+
+👉 **[[Worm Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -176,16 +278,6 @@ The top player in worm guard enjoys offensive advantages with access to submissi
 - **[[K-Guard]]** - Related modern guard system with similar control concepts
 
 - **[[Collar Sleeve Guard]]** - Foundation guard that shares grip fighting principles
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](worm-guard/bottom)** - Sweeps, attacks, and submissions
-- **[Top Perspective](worm-guard/top)** - Submissions and positional attacks
-
 
 
 </section>

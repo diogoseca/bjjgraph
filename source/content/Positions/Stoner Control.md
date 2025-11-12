@@ -76,6 +76,18 @@ The lockdown half guard variation combines the mechanical control of the 10th Pl
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Stoner Control/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
+- **[[Stoner Control/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Stoner Control Bottom Perspective
@@ -103,12 +115,62 @@ The bottom player in stoner control controls the position with offensive attacks
 ### Primary Techniques
 
 
+- **[[Triangle Setup]]** → [[Triangle Control]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+
+- **[[Omoplata to Sweep]]** → [[Omoplata Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Transition to Invisible Collar]]** → [[Invisible Collar]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%
+
+- **[[Old School Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Electric Chair Transition]]** → [[Electric Chair]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Transition to Truck]]** → [[Truck]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Transition to Chill Dog]]** → [[Chill Dog]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+
+- **[[Transition to Meathook]]** → [[Meathook]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Half Guard to Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Underhook Sweep from Half]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
 
 ### Common Errors
 
 
+- ❌ **Allowing leg control to release or drop below effective control position**
+  - Consequence: Opponent recovers posture easily and begins passing sequence or escapes guard control entirely
+  - ✅ Correction: Maintain constant pressure with rubber guard leg high behind head or active lockdown squeeze throughout all transitions
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](stoner-control/bottom)**
+- ❌ **Securing shallow overhook with arm only partially under opponent's armpit**
+  - Consequence: Opponent easily pulls arm free, posts for base, or initiates passing attacks without significant resistance
+  - ✅ Correction: Thread arm impossibly deep under opponent's armpit until shoulder contacts ribcage, grip around back of shoulder or lat for maximum control
+
+- ❌ **Remaining flat on back instead of elevating hips actively**
+  - Consequence: Reduces effectiveness of leg pressure, allows opponent to settle weight and establish base, limits mobility for submission setups
+  - ✅ Correction: Keep hips elevated throughout position creating upward angle that amplifies leg pressure while maintaining freedom to adjust angles for attacks
+
+- ❌ **Holding static position without progressing to submissions or sweeps**
+  - Consequence: Opponent develops escape strategy over time, fatigue sets in for bottom player, referee may penalize for stalling
+  - ✅ Correction: Use Stoner Control as transition checkpoint rather than destination, immediately chain toward attacks within 3-5 seconds of establishing position
+
+- ❌ **Attempting position without adequate hip flexibility or lockdown proficiency**
+  - Consequence: Cannot maintain proper control angles, position feels forced and uncomfortable, increased injury risk to joints
+  - ✅ Correction: Develop flexibility gradually through consistent stretching, master prerequisite positions like Mission Control before attempting advanced variations
+
+
+👉 **[[Stoner Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -141,12 +203,50 @@ The top player in stoner control manages the position strategically based on opp
 ### Primary Techniques
 
 
+- **[[Overhook Escape to Posture Recovery]]** → [[Closed Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Rubber Guard Clear to Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Lockdown Escape to Half Guard Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Stack Defense to Guard Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Crossface to Combat Base]]** → [[Combat Base]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
 
 ### Common Errors
 
 
+- ❌ **Posting aggressively with free hand near bottom player's hips attempting to create base**
+  - Consequence: Immediately triggers high-percentage triangle setup or sweep mechanics, leading to submission or position loss
+  - ✅ Correction: Keep free hand posted on mat away from bottom player's hips, or establish crossface control to limit their offensive options
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](stoner-control/top)**
+- ❌ **Pulling trapped arm straight backward with force attempting to rip free from overhook**
+  - Consequence: Bottom player uses pulling momentum to set up arm triangle or tighten overhook control, worsening position
+  - ✅ Correction: Wait for transition moments when overhook loosens, then extract arm using circular motion combined with posture recovery
+
+- ❌ **Driving weight aggressively forward attempting to flatten bottom player**
+  - Consequence: Triggers omoplata sweeps in rubber guard or Electric Chair submission in lockdown, leading to immediate reversal or finish
+  - ✅ Correction: Maintain measured pressure while working systematically on posture recovery and overhook escape, avoiding forward commitment
+
+- ❌ **Focusing exclusively on extracting trapped arm while ignoring leg control**
+  - Consequence: Bottom player maintains posture break with leg control making arm extraction impossible, prolonging bad position
+  - ✅ Correction: Address both controls simultaneously - work crossface or head control to limit mobility while clearing rubber guard or breaking lockdown
+
+- ❌ **Staying static in position hoping bottom player fatigues or releases pressure**
+  - Consequence: Bottom player has time to perfect control and set up submissions methodically, increasing finish probability over time
+  - ✅ Correction: Work actively on systematic escapes using proper timing and technique, creating movement that prevents bottom player from settling control
+
+
+👉 **[[Stoner Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -178,16 +278,6 @@ The top player in stoner control manages the position strategically based on opp
 - **[[Meathook]]** - Alternative rubber guard transition
 
 - **[[Deep Half Guard]]** - Defensive escape option from lockdown
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](stoner-control/bottom)** - Sweeps, attacks, and submissions
-- **[Top Perspective](stoner-control/top)** - Techniques and strategies
-
 
 
 </section>

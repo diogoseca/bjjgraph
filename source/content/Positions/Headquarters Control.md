@@ -78,6 +78,18 @@ Strategically, headquarters represents the intersection of pressure passing and 
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Headquarters Control/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Headquarters Control/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Headquarters Control Bottom Perspective
@@ -107,12 +119,54 @@ The bottom player in headquarters control balances defensive frames with offensi
 ### Primary Techniques
 
 
+- **[[Underhook Sweep from Half]]** → [[Standing Position]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Deep Half Entry]]** → [[Deep Half Guard]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Re-Guard from Headquarters]]** → [[Butterfly Guard]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Old School Sweep]]** → [[Standing Position]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Shin Shield Recovery]]** → [[Open Guard]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Lockdown Sweeps]]** → [[Lockdown]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
 
 ### Common Errors
 
 
+- ❌ **Allowing frames to become passive or collapsed under pressure**
+  - Consequence: Opponent easily flattens you and completes pass with minimal resistance
+  - ✅ Correction: Constantly pump and reset frames actively, treating them as dynamic tools not static barriers—if one frame weakens, immediately establish alternative frame
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](headquarters-control/bottom)**
+- ❌ **Keeping shoulders flat on mat instead of maintaining active elevated posture**
+  - Consequence: Loss of hip mobility and ability to create angles, making all escapes and sweeps significantly harder
+  - ✅ Correction: Keep shoulders elevated with active core engagement, maintaining ability to shift weight and adjust frames throughout the position
+
+- ❌ **Fighting opponent's pressure head-on with strength rather than using angles**
+  - Consequence: Exhaustion without progress as you try to bench press heavier opponent's weight
+  - ✅ Correction: Create angles with hip movement, redirect pressure rather than opposing it directly, time movements when opponent commits weight
+
+- ❌ **Failing to maintain inside leg connection allowing leg weave or complete pass**
+  - Consequence: Opponent easily steps over and clears both legs, completing pass unopposed
+  - ✅ Correction: Always maintain inside leg hook or frame preventing opponent from establishing both-leg control, treating inside leg as critical anchor
+
+- ❌ **Holding frames rigidly in same position without adjusting to opponent's movements**
+  - Consequence: Opponent finds timing to collapse or bypass static frames, as they're predictable
+  - ✅ Correction: Constantly adjust frame positions based on opponent's pressure direction—frames must be dynamic and responsive, not frozen
+
+- ❌ **Waiting passively in position without attempting sweeps or re-guards**
+  - Consequence: Opponent has unlimited time to find passing solution with no offensive threats to manage
+  - ✅ Correction: Continuously threaten sweeps and position improvements to force opponent to divide attention between passing and defense
+
+
+👉 **[[Headquarters Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -145,12 +199,64 @@ The top player in headquarters control balances control maintenance with submiss
 ### Primary Techniques
 
 
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Headquarters Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Smash Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
+- **[[Long Step Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+
+- **[[Leg Drag Pass]]** → [[Leg Drag Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
+- **[[Kimura from Half Guard]]** → [[Kimura Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Darce Choke]]** → [[D'arce Control]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Back Take Generic]]** → [[Back Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
 
 ### Common Errors
 
 
+- ❌ **Sitting back on heels instead of maintaining forward hip pressure and chest-to-chest contact**
+  - Consequence: Creates space for opponent to recover guard, insert knee shield, or attempt sweeps without pressure constraint
+  - ✅ Correction: Keep hips low and forward with chest pressure constant, driving weight through opponent's upper body while maintaining heavy shoulder contact
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](headquarters-control/top)**
+- ❌ **Losing crossface or underhook control while attempting to pass, allowing opponent to turn in and create angles**
+  - Consequence: Opponent regains offensive capability, can establish underhook or recover full guard, negating passing progress
+  - ✅ Correction: Maintain dominant upper body control throughout passing sequence, never sacrificing crossface or underhook until pass is completed
+
+- ❌ **Positioning trapped leg too close to opponent, allowing easy sweep or off-balancing attempts**
+  - Consequence: Vulnerable to basic half guard sweeps, old school sweeps, or lockdown-based attacks that exploit poor leg position
+  - ✅ Correction: Keep trapped leg positioned defensively with foot away from opponent's hip, maintaining strong base and pressure distribution
+
+- ❌ **Forcing the same passing sequence repeatedly without reading opponent's reactions and adjusting strategy**
+  - Consequence: Opponent anticipates and counters the single-dimension attack, leading to stalled position or reversal
+  - ✅ Correction: Use systematic approach with multiple passing options, flowing between techniques based on opponent's defensive reactions
+
+- ❌ **Rising too high during passing attempt, elevating center of gravity and reducing pressure effectiveness**
+  - Consequence: Loss of control and pressure allows opponent to create space, recover guard, or execute sweeps
+  - ✅ Correction: Maintain low base throughout passing sequences, generating pressure through proper hip positioning rather than height
+
+- ❌ **Neglecting to control opponent's far arm or wrist, allowing them to post and create defensive frames**
+  - Consequence: Opponent establishes strong frames that prevent passing progression and create opportunities for retention or sweeps
+  - ✅ Correction: Secure wrist control or arm isolation as part of control framework, neutralizing opponent's ability to create defensive structures
+
+- ❌ **Rushing through position without establishing complete control before initiating passing sequence**
+  - Consequence: Incomplete control leads to scrambles, failed passes, or counterattacks from opponent's remaining offensive tools
+  - ✅ Correction: Systematically establish all control points before advancing, ensuring upper body control, pressure, and grip dominance are complete
+
+
+👉 **[[Headquarters Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -184,16 +290,6 @@ The top player in headquarters control balances control maintenance with submiss
 - **[[Pressure Passing Framework]]** - Broader systematic approach that headquarters exemplifies
 
 - **[[Guard Retention Concepts]]** - Defensive framework bottom player applies to prevent pass completion
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](headquarters-control/bottom)** - Techniques and strategies
-- **[Top Perspective](headquarters-control/top)** - Techniques and strategies
-
 
 
 </section>

@@ -74,6 +74,18 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Seated Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Seated Guard/Top|Top Perspective]]** - Submissions and positional attacks
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Seated Guard Bottom Perspective
@@ -101,12 +113,64 @@ The bottom player in seated guard balances defensive frames with offensive oppor
 ### Primary Techniques
 
 
+- **[[Technical Stand-up]]** → [[Standing Position]]
+  - Success Rate: Beginner 60%, Intermediate 75%, Advanced 85%
+
+- **[[Butterfly Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Scissor Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Ankle Pick]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Tripod Sweep]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[X-Guard Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Lumberjack Sweep]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Staying Static in Seated Position**
+  - Consequence: Opponent easily establishes grips and controls your legs, passing becomes straightforward. Position loses its defensive and offensive value.
+  - ✅ Correction: Constantly adjust hip position - small movements side to side, forward and back. Keep opponent guessing and prevent static control. If opponent seems comfortable and slowly advancing position, you're too static. Should feel like you're always adjusting.
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](seated-guard/bottom)**
+- ❌ **Posting Hands Too Narrow or Too Wide**
+  - Consequence: Weak base allows opponent to flatten you to back, losing seated position advantage. Cannot generate power for sweeps.
+  - ✅ Correction: Post hands slightly wider than shoulders, fingers pointing away, elbows slightly bent like springs. Engage lats for structural support. Test your base by having partner push you lightly - should feel stable but mobile.
+
+- ❌ **Letting Opponent Control Both Legs Simultaneously**
+  - Consequence: Loss of mobility and distance control. Opponent can stack you, pass easily, or establish dominant grips without resistance.
+  - ✅ Correction: Always keep at least one leg free and active. If opponent grabs one leg, immediately use other leg to push, frame, or attack. Think of legs as independent defensive and offensive tools.
+
+- ❌ **Passive Feet - Not Using Them to Manage Distance**
+  - Consequence: Opponent closes distance at will, establishes pressure, and passes without encountering resistance. Seated guard becomes purely defensive.
+  - ✅ Correction: Actively push, pull, and frame with feet. Use them as probes to feel opponent's weight distribution and as barriers to prevent advancement. Feet should constantly be working.
+
+- ❌ **Failing to Stand When Appropriate**
+  - Consequence: Missing escape opportunities and allowing opponent to settle into passing game. Position becomes increasingly difficult to maintain.
+  - ✅ Correction: Recognize when standing is best option - typically when opponent commits to standing passes or when you need to reset. Practice technical standups until they become automatic reflex.
+
+- ❌ **Leaning Too Far Back on Posted Hands**
+  - Consequence: Creates weak angle that allows opponent to drive over you. Reduces ability to quickly change levels or stand up.
+  - ✅ Correction: Maintain upright posture with chest forward and shoulders over hips. Think of posted hands as support, not primary base. Should be able to lift one hand briefly without collapsing.
+
+- ❌ **Not Establishing Grips When Opponent Enters Range**
+  - Consequence: Opponent controls the gripping exchange and establishes dominant control before you can react. Limits your offensive options.
+  - ✅ Correction: When opponent enters range, immediately establish grips on sleeves, pants, or ankles. Don't wait for perfect opportunity - establish any grip to slow opponent's advancement and create offensive possibilities.
+
+
+👉 **[[Seated Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -137,12 +201,58 @@ The top player in seated guard enjoys offensive advantages with access to submis
 ### Primary Techniques
 
 
+- **[[Toreando Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Long Step Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Leg Drag Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Stack Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Smash Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
 
 ### Common Errors
 
 
+- ❌ **Rushing Forward Without Grip Control**
+  - Consequence: Opponent easily sweeps you, takes your back, or enters leg entanglements. You give away superior position by being impatient.
+  - ✅ Correction: Establish dominant grips first - control sleeves, collar, or pants before advancing. Think grip first, pressure second. Should never feel like opponent's legs are free to attack while you're entering.
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](seated-guard/top)**
+- ❌ **Staying Too Static in One Stance**
+  - Consequence: Opponent times their attacks perfectly, hitting sweeps or standups consistently. Your predictable positioning makes their offense easy.
+  - ✅ Correction: Constantly switch between standing and kneeling. Change angles frequently. Make opponent guess where you'll be next. Movement disrupts their timing and makes their attacks less effective.
+
+- ❌ **Ignoring Technical Standup Threat**
+  - Consequence: Opponent stands up freely, resetting the position or taking top position themselves. You lose any passing advantage gained.
+  - ✅ Correction: Maintain grips that prevent standup - particularly collar or sleeve control. When opponent tries to stand, immediately attack with snap down or bodylock pass.
+
+- ❌ **Walking Into Sweeps with Bad Posture**
+  - Consequence: Opponent's scissor sweep, tripod sweep, or butterfly sweep succeeds easily due to your poor balance and positioning.
+  - ✅ Correction: Maintain upright posture with good base. Don't lean forward over opponent. Keep weight distributed evenly. Feel opponent's legs as early warning system for sweeps.
+
+- ❌ **Allowing Both Your Ankles to Be Controlled**
+  - Consequence: Opponent enters ankle picks, single leg X, or other leg attacks that compromise your passing. You become defensive instead of offensive.
+  - ✅ Correction: Keep at least one foot out of opponent's grip range at all times. When one ankle is grabbed, immediately circle away and establish control with that leg. Never let both legs get trapped.
+
+- ❌ **Passing Without Angle**
+  - Consequence: Opponent's legs create strong defensive frames, blocking your pass attempts. Their legs have maximum leverage against your straight-on pressure.
+  - ✅ Correction: Circle to angles outside opponent's centerline. Pass from 45-degree angles where their legs can't effectively frame. Think around, not through.
+
+- ❌ **Dropping Weight Too Early**
+  - Consequence: Opponent inserts butterfly hooks, closes guard, or transitions to better guards before you've secured passing position.
+  - ✅ Correction: Only drop weight when you've cleared opponent's legs and are moving to consolidation. Maintain standing or kneeling posture until the last moment of pass completion.
+
+
+👉 **[[Seated Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -162,16 +272,6 @@ The top player in seated guard enjoys offensive advantages with access to submis
 - **[[X-Guard]]** - Related guard variation with similar entries
 
 - **[[Open Guard]]** - Parent category position, seated guard is specific type
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](seated-guard/bottom)** - Techniques and strategies
-- **[Top Perspective](seated-guard/top)** - Submissions and positional attacks
-
 
 
 </section>

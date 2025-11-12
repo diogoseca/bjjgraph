@@ -78,6 +78,18 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Crucifix/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Crucifix/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Crucifix Bottom Perspective
@@ -107,12 +119,54 @@ The bottom player in crucifix must focus on creating frames, protecting against 
 ### Primary Techniques
 
 
+- **[[Hip Escape to Guard Recovery]]** → [[Closed Guard]]
+  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+
+- **[[Arm Extraction]]** → [[Turtle]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Rolling Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+
+- **[[Elbow Escape]]** → [[Side Control]]
+  - Success Rate: Beginner 12%, Intermediate 22%, Advanced 38%
+
+- **[[Hip Escape]]** → [[Half Guard]]
+  - Success Rate: Beginner 18%, Intermediate 30%, Advanced 45%
+
+- **[[Technical Standup]]** → [[Standing Position]]
+  - Success Rate: Beginner 8%, Intermediate 15%, Advanced 28%
+
 
 ### Common Errors
 
 
+- ❌ **Explosive pulling on trapped arm directly against the leg trap**
+  - Consequence: Wastes energy, tightens the trap, and often leads to faster submission as defensive focus is misplaced
+  - ✅ Correction: Use subtle hip movement and angle changes to create space around the trapped arm, working systematically rather than explosively
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](crucifix/bottom)**
+- ❌ **Allowing free arm to be captured or neglecting its defensive positioning**
+  - Consequence: Creates irreversible position where both arms are controlled, eliminating all defensive options and making submission inevitable
+  - ✅ Correction: Keep free arm active in neck defense, frame creation, or space generation—never allow it to be controlled or trapped
+
+- ❌ **Panicking and hyperventilating when recognizing crucifix position**
+  - Consequence: Rapid energy depletion, loss of technical clarity, and increased vulnerability to chokes as breathing becomes erratic
+  - ✅ Correction: Immediately establish controlled breathing rhythm, accept the position mentally, and work methodically through defensive priorities
+
+- ❌ **Focusing on position recovery while ignoring immediate submission threats**
+  - Consequence: Getting submitted while attempting escape—failing to address hierarchy of threats leads to loss despite escape potential
+  - ✅ Correction: Always address immediate submission threats first (especially chokes), then work toward arm freedom and position recovery
+
+- ❌ **Attempting large bridging or rolling movements from fully consolidated crucifix**
+  - Consequence: Telegraphs intentions, allows opponent to adjust and tighten control, wastes energy without creating meaningful positional change
+  - ✅ Correction: Use micro-adjustments and incremental movements to create small spaces, building progressively toward larger positional shifts
+
+- ❌ **Giving up mentally when crucifix is secured, assuming position is inescapable**
+  - Consequence: Self-fulfilling prophecy where lack of defensive effort leads to inevitable submission when escapes were technically possible
+  - ✅ Correction: Maintain aggressive defensive mindset—statistics show significant escape rates even from consolidated crucifix with proper technique
+
+
+👉 **[[Crucifix/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -145,12 +199,57 @@ The top player in crucifix balances control maintenance with submission attacks,
 ### Primary Techniques
 
 
+- **[[Rear Naked Choke]]** → [[Won by Submission]]
+  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+
+- **[[Choke from Crucifix]]** → [[Won by Submission]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 80%
+
+- **[[Armbar from Crucifix]]** → [[Won by Submission]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Kimura]]** → [[Won by Submission]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 60%, Intermediate 70%, Advanced 80%
+
+- **[[Back Control to Crucifix]]** → [[Back Control]]
+  - Success Rate: Beginner 65%, Intermediate 75%, Advanced 85%
+
+- **[[Transition to North-South]]** → [[North-South]]
+  - Success Rate: Beginner 55%, Intermediate 65%, Advanced 75%
+
 
 ### Common Errors
 
 
+- ❌ **Allowing the trapped arm to slip free from the leg triangle**
+  - Consequence: Opponent immediately gains ability to defend with freed arm and can begin escape sequence
+  - ✅ Correction: Maintain constant squeeze with legs and adjust angle if opponent is creating slack—keep legs tight over shoulder and under armpit
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](crucifix/top)**
+- ❌ **Releasing control of the far arm to attack the neck prematurely**
+  - Consequence: Opponent uses free arm to defend choke, create frames, and potentially escape the position entirely
+  - ✅ Correction: Keep one hand controlling the far arm at all times—use the other hand for neck attacks while maintaining arm isolation
+
+- ❌ **Positioning too far away from opponent's head and upper body**
+  - Consequence: Creates space for opponent to turn into you, reduces submission threat, and allows them to begin escape movements
+  - ✅ Correction: Keep chest and head close to opponent's head—stay tight and heavy on their upper body to limit movement
+
+- ❌ **Failing to control opponent's head position**
+  - Consequence: Opponent can look away, find escape angles, and coordinate their movements more effectively
+  - ✅ Correction: Use your head, shoulder, and free hand to control their head direction—keep them looking where you want
+
+- ❌ **Not adjusting hip position as opponent moves**
+  - Consequence: Opponent can create angles for escape, roll away, or reduce the effectiveness of arm traps
+  - ✅ Correction: Constantly adjust your hips to stay perpendicular to opponent and maintain optimal control angle
+
+- ❌ **Attacking submissions without proper control established**
+  - Consequence: Premature attacks create opportunities for escape that would not exist with proper control first
+  - ✅ Correction: Follow position-before-submission principle—establish complete control before committing to finishing attacks
+
+
+👉 **[[Crucifix/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -176,16 +275,6 @@ The top player in crucifix balances control maintenance with submission attacks,
 - **[[Mount]]** - Common transition when opponent attempts to roll from crucifix
 
 - **[[North-South]]** - Alternative dominant position accessible from crucifix transitions
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](crucifix/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](crucifix/top)** - Techniques and strategies
-
 
 
 </section>

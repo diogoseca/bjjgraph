@@ -68,6 +68,18 @@ Americana Control represents a dominant shoulder lock position in Brazilian Jiu-
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Americana Control/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Americana Control/Top|Top Perspective]]** - Submissions and positional attacks
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Americana Control Bottom Perspective
@@ -95,12 +107,50 @@ The bottom player in americana control must focus on creating frames, protecting
 ### Primary Techniques
 
 
+- **[[Hand Fight and Hip Escape]]** → [[Mount]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Explosive Bridge to Break Grip]]** → [[Mount]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Roll to Turtle]]** → [[Turtle]]
+  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+
+- **[[Bridge and Escape to Guard]]** → [[Closed Guard]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Emergency Roll to Side Control Escape]]** → [[Side Control]]
+  - Success Rate: Beginner 12%, Intermediate 25%, Advanced 40%
+
+- **[[Two-Handed Grip Break and Recover]]** → [[Mount]]
+  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+
 
 ### Common Errors
 
 
+- ❌ **Attempting to muscle out of locked Americana**
+  - Consequence: Severe shoulder injury, potential rotator cuff tear
+  - ✅ Correction: Tap immediately if the lock is fully extended - protecting your health is paramount
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](americana-control/bottom)**
+- ❌ **Allowing arm to be isolated away from body**
+  - Consequence: Makes Americana setup inevitable
+  - ✅ Correction: Keep elbows tight to body when mounted or in side control
+
+- ❌ **Using only one hand to defend against figure-four grip**
+  - Consequence: Insufficient strength to prevent lock completion
+  - ✅ Correction: Use both hands immediately to break or prevent opponent's grip
+
+- ❌ **Static defense without hip movement**
+  - Consequence: Allows opponent time to perfect submission angle
+  - ✅ Correction: Combine hand fighting with explosive bridge and hip escape
+
+- ❌ **Waiting too long to tap when caught**
+  - Consequence: Shoulder injury requiring months of recovery
+  - ✅ Correction: Tap the moment you feel shoulder joint reaching its limit
+
+
+👉 **[[Americana Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -131,12 +181,50 @@ The top player in americana control enjoys offensive advantages with access to s
 ### Primary Techniques
 
 
+- **[[Americana Finish]]** → [[Won by Submission]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Transition to Armbar]]** → [[Armbar Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Switch to Kimura]]** → [[Kimura Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Maintain Mount Control]]** → [[Mount]]
+  - Success Rate: Beginner 60%, Intermediate 75%, Advanced 85%
+
+- **[[Transition to High Mount]]** → [[High Mount]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Switch to Gift Wrap Control]]** → [[Gift Wrap]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
 
 ### Common Errors
 
 
+- ❌ **Attempting Americana without proper arm isolation**
+  - Consequence: Opponent easily defends and may create sweep opportunity
+  - ✅ Correction: Ensure arm is fully extended away from opponent's body before attempting grip
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](americana-control/top)**
+- ❌ **Losing base while applying submission**
+  - Consequence: Opponent bridges and reverses position
+  - ✅ Correction: Maintain wide base with knees and keep weight distributed properly
+
+- ❌ **Applying Americana too quickly or explosively**
+  - Consequence: Risk of injuring training partner's shoulder
+  - ✅ Correction: Apply controlled, progressive pressure and give partner time to tap
+
+- ❌ **Continuing Americana attempt when opponent has strong defense**
+  - Consequence: Waste energy and potentially lose mount position
+  - ✅ Correction: Be ready to transition to armbar, kimura, or consolidate mount
+
+- ❌ **Gripping opponent's wrist incorrectly**
+  - Consequence: Weak control allows opponent to escape figure-four
+  - ✅ Correction: Grip wrist with thumb pointing toward opponent's fingers for maximum control
+
+
+👉 **[[Americana Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -152,16 +240,6 @@ The top player in americana control enjoys offensive advantages with access to s
 - **[[Side Control]]** - Common position for Americana attacks
 
 - **[[Kimura Control]]** - Related shoulder lock control position
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](americana-control/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](americana-control/top)** - Submissions and positional attacks
-
 
 
 </section>

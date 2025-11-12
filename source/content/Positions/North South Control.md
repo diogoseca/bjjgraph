@@ -80,6 +80,18 @@ North-South serves as a crucial transitional hub in positional chess, often appe
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[North South Control/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[North South Control/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## North South Control Bottom Perspective
@@ -109,12 +121,50 @@ The bottom player in north south control must focus on creating frames, protecti
 ### Primary Techniques
 
 
+- **[[Bridge and Turn to Turtle]]** → [[Turtle]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Explosive Bridge to Guard Recovery]]** → [[Open Guard]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Elbow Escape to Side Control Escape]]** → [[Half Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Technical Stand Up]]** → [[Standing Position]]
+  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+
+- **[[Granby Roll]]** → [[Turtle]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Frame and Turn to Defensive Position]]** → [[Defensive Position]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Pushing against consolidated chest pressure with straight arms**
+  - Consequence: Depletes energy rapidly without creating escape angles, arms become exhausted and vulnerable to submission
+  - ✅ Correction: Use short explosive bridges timed with opponent's weight shifts rather than sustained pushing
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](north-south-control/bottom)**
+- ❌ **Allowing both arms to be controlled simultaneously**
+  - Consequence: Creates complete helplessness with no ability to frame or defend submissions
+  - ✅ Correction: Keep at least one arm mobile and defensive, never allow opponent to pin both arms at the same time
+
+- ❌ **Bridging directly upward rather than at an angle**
+  - Consequence: Opponent easily rides the bridge without losing balance, no escape angle is created
+  - ✅ Correction: Bridge at 45-degree angles toward opponent's knees to create off-balancing effect
+
+- ❌ **Waiting too long before attempting escape**
+  - Consequence: Opponent fully consolidates weight and position, making escape exponentially more difficult
+  - ✅ Correction: Begin defensive framing and escape attempts immediately as North-South is being established
+
+- ❌ **Exposing back while attempting to turn**
+  - Consequence: Opponent takes back control with hooks, worse position than North-South
+  - ✅ Correction: Turn toward opponent into turtle position, keeping back protected from hook insertion
+
+
+👉 **[[North South Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -147,12 +197,56 @@ The top player in north south control balances control maintenance with submissi
 ### Primary Techniques
 
 
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[North-South Choke]]** → [[Won by Submission]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Kimura from North-South]]** → [[Kimura Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Armbar from North-South]]** → [[Armbar Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Transition to Side Control]]** → [[Side Control]]
+  - Success Rate: Beginner 60%, Intermediate 75%, Advanced 85%
+
+- **[[Reverse Mount Transition]]** → [[Reverse Mount]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Gift Wrap Control]]** → [[Gift Wrap]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Arm Triangle Setup]]** → [[Won by Submission]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
 
 ### Common Errors
 
 
+- ❌ **Lifting chest to reach for submissions before establishing control**
+  - Consequence: Creates space for opponent to bridge and escape or establish defensive frames
+  - ✅ Correction: Maintain constant chest pressure throughout submission setups, using weight distribution rather than reaching
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](north-south-control/top)**
+- ❌ **Narrow base positioning with knees too close together**
+  - Consequence: Vulnerable to bridge escapes as the narrow base provides insufficient stability
+  - ✅ Correction: Keep knees wide on either side of opponent's shoulders to create stable, bridge-resistant base
+
+- ❌ **Attempting submissions without securing arm isolation first**
+  - Consequence: Opponent can defend effectively with both arms, preventing submission completion
+  - ✅ Correction: Systematically isolate and control at least one arm before committing to submission attempts
+
+- ❌ **Remaining static in North-South without advancing position or attacking**
+  - Consequence: Gives opponent time to develop defensive frames and timing for explosive escape attempts
+  - ✅ Correction: Continuously threaten submissions or transitions to keep opponent defensive and prevent escape timing
+
+- ❌ **Losing chest contact during transition to mount or submissions**
+  - Consequence: Opponent immediately creates space and escapes during the transition window
+  - ✅ Correction: Maintain chest pressure throughout all transitions, using pressure as the foundation for positional changes
+
+
+👉 **[[North South Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -176,16 +270,6 @@ The top player in north south control balances control maintenance with submissi
 - **[[Turtle]]** - Common escape destination when bottom player successfully turns
 
 - **[[Reverse Mount]]** - Transitional position when moving from North-South to mounted submissions
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](north-south-control/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](north-south-control/top)** - Techniques and strategies
-
 
 
 </section>

@@ -76,6 +76,18 @@ From bottom perspective, the practitioner uses underhook control combined with i
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Jailbreak/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Jailbreak/Top|Top Perspective]]** - Submissions and positional attacks
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Jailbreak Bottom Perspective
@@ -105,12 +117,54 @@ The bottom player in jailbreak balances defensive frames with offensive opportun
 ### Primary Techniques
 
 
+- **[[Jailbreak to Turtle]]** → [[Turtle]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Jailbreak to Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+
+- **[[Jailbreak to Deep Half Entry]]** → [[Deep Half Guard]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+
+- **[[Guard Recovery]]** → [[Half Guard]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Old School Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+
+- **[[Technical Standup]]** → [[Standing Position]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Attempting jailbreak without securing underhook first**
+  - Consequence: Top player easily follows and establishes mount or side control during the roll
+  - ✅ Correction: Always establish and maintain tight underhook with elbow connected to hip before initiating inversion
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](jailbreak/bottom)**
+- ❌ **Rolling too slowly without explosive momentum**
+  - Consequence: Top player has time to base out, flatten you, or follow the roll to maintain control
+  - ✅ Correction: Generate explosive hip movement and commit fully to the roll once initiated - hesitation kills the escape
+
+- ❌ **Failing to tuck chin during inversion**
+  - Consequence: Risk of neck injury and inability to complete smooth rolling motion
+  - ✅ Correction: Keep chin tucked to chest throughout entire escape, looking at your own belt to protect neck
+
+- ❌ **Not using free leg to push off mat**
+  - Consequence: Insufficient momentum to complete the roll, getting stuck mid-escape
+  - ✅ Correction: Actively push with free leg to generate additional power and speed for the inverting motion
+
+- ❌ **Losing underhook during the roll**
+  - Consequence: Top player regains control immediately after escape attempt, often ending in worse position
+  - ✅ Correction: Maintain death grip on underhook throughout entire sequence - this is your lifeline to safety
+
+- ❌ **Telegraphing the escape too early**
+  - Consequence: Top player anticipates and counters by driving weight forward or stripping underhook
+  - ✅ Correction: Set up the jailbreak with other attacks or movements, then execute explosively when top player commits weight
+
+
+👉 **[[Jailbreak/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +197,64 @@ The top player in jailbreak enjoys offensive advantages with access to submissio
 ### Primary Techniques
 
 
+- **[[Leg Weave Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Smash Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Knee Slice from Half]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Back Step]]** → [[Outside Ashi-Garami]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Underhook Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Headquarters Pass]]** → [[Headquarters Position]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Toreando Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[X Pass]]** → [[Mount]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Standing too upright and losing forward pressure while navigating extended legs**
+  - Consequence: Bottom player recovers full guard or creates enough space to stand up
+  - ✅ Correction: Maintain low chest-to-chest connection with weight driving forward through hips, keeping shoulders above opponent's center line throughout the pass
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](jailbreak/top)**
+- ❌ **Attempting to pass without controlling bottom player's upper body first**
+  - Consequence: Bottom player uses frames and hip movement to re-establish guard or sweep
+  - ✅ Correction: Establish heavy cross-face, underhook, or head control before committing to leg navigation, ensuring upper body is controlled throughout
+
+- ❌ **Committing to a single passing direction without reading bottom player's leg configuration**
+  - Consequence: Bottom player anticipates pass and easily blocks or counters with sweep
+  - ✅ Correction: Read bottom player's leg positioning and remain flexible between multiple passing options based on their reactions
+
+- ❌ **Allowing bottom player to create sufficient space to turn to turtle or stand up**
+  - Consequence: Position resets to neutral standing or turtle, losing passing advantage
+  - ✅ Correction: Keep constant chest pressure and control far shoulder with underhook or cross-face to prevent bottom player from turning away or standing
+
+- ❌ **Overcommitting to leg entanglement attacks instead of completing the pass**
+  - Consequence: Bottom player uses time to recover guard or creates scramble situation
+  - ✅ Correction: Prioritize completing the pass to side control or mount before considering leg attacks, unless clear submission opportunity presents itself
+
+- ❌ **Using only upper body strength to control position without proper hip placement**
+  - Consequence: Bottom player uses leg dexterity to recover guard despite upper body control
+  - ✅ Correction: Drive hips forward and position them to block bottom player's hip movement while maintaining upper body connection
+
+- ❌ **Failing to adjust passing strategy when bottom player changes leg configuration**
+  - Consequence: Pass stalls and bottom player eventually recovers guard or sweeps
+  - ✅ Correction: Continuously assess bottom player's leg positioning and switch between passing strategies as their defense changes
+
+
+👉 **[[Jailbreak/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -176,16 +282,6 @@ The top player in jailbreak enjoys offensive advantages with access to submissio
 - **[[Electric Chair]]** - 10th Planet submission often chained with jailbreak escape sequences
 
 - **[[Back Control]]** - Advanced transition target when jailbreak bottom is executed with opponent following
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](jailbreak/bottom)** - Techniques and strategies
-- **[Top Perspective](jailbreak/top)** - Submissions and positional attacks
-
 
 
 </section>

@@ -78,6 +78,18 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Open Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Open Guard/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Open Guard Bottom Perspective
@@ -107,12 +119,76 @@ The bottom player in open guard balances defensive frames with offensive opportu
 ### Primary Techniques
 
 
+- **[[Scissor Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Hip Bump Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Butterfly Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[De La Riva Sweep]]** → [[Standing Position]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+
+- **[[X-Guard Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Spider Guard Sweeps]]** → [[Mount]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Lasso Guard Sweeps]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Omoplata Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Triangle from Guard]]** → [[Triangle Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Armbar from Guard]]** → [[Armbar Control]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Kimura from Guard]]** → [[Kimura Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Omoplata from Guard]]** → [[Omoplata Control]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
 
 ### Common Errors
 
 
+- ❌ **Passive legs/feet that remain static without active engagement**
+  - Consequence: Allows opponent to easily control distance, establish grips, and initiate passing sequences without resistance
+  - ✅ Correction: Maintain constant foot activity - push, pull, hook, and reposition feet to create barriers and control opponent's movement
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](open-guard/bottom)**
+- ❌ **Overextending arms in frames or grips, creating vulnerability to armlocks**
+  - Consequence: Exposes limbs to submissions and allows opponent to break through frames by attacking the extended joints
+  - ✅ Correction: Keep elbows close to body when framing, use structure rather than strength, and maintain bent-arm angles for safety
+
+- ❌ **Disconnected upper and lower body control - grips and hooks working independently**
+  - Consequence: Creates gaps in defensive structure that allow opponent to split defenses and achieve passing position
+  - ✅ Correction: Coordinate grip fighting with foot positioning - when pushing with feet, pull with hands; when hooking with legs, frame with arms
+
+- ❌ **Static positioning without adjustment to opponent's movement**
+  - Consequence: Allows opponent to establish rhythm, predict defensive responses, and systematically dismantle guard structure
+  - ✅ Correction: Constantly adjust angles, switch grips, change guard variations, and create unpredictable movement patterns
+
+- ❌ **Poor distance management - allowing opponent too close or being pushed too far away**
+  - Consequence: Too close enables smash passing and pressure; too far eliminates control and allows opponent to disengage completely
+  - ✅ Correction: Maintain optimal mid-range distance where feet can control hips/knees while hands control upper body - adjust dynamically
+
+- ❌ **Flat back position with shoulders pinned to mat**
+  - Consequence: Severely limits hip mobility, makes guard retention exponentially harder, and signals imminent guard pass
+  - ✅ Correction: Keep shoulders off mat when possible, maintain active posture, and use bridging/shrimping to prevent flattening
+
+- ❌ **Committing too heavily to single guard variation without transition options**
+  - Consequence: Allows opponent to develop specialized counters and passing strategies for that specific guard
+  - ✅ Correction: Develop fluid transitions between guard variations - spider to lasso to de la riva - based on opponent's reactions
+
+
+👉 **[[Open Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -145,12 +221,70 @@ The top player in open guard balances control maintenance with submission attack
 ### Primary Techniques
 
 
+- **[[Toreando Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Leg Drag Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+
+- **[[Stack Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 55%
+
+- **[[Long Step Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 28%, Intermediate 42%, Advanced 58%
+
+- **[[X Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Smash Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 32%, Intermediate 48%, Advanced 62%
+
+- **[[Double Under Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 28%, Intermediate 44%, Advanced 58%
+
+- **[[Pressure Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 46%, Advanced 60%
+
+- **[[Knee Cut Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 32%, Intermediate 48%, Advanced 62%
+
 
 ### Common Errors
 
 
+- ❌ **Poor posture with rounded back and hips too close to opponent**
+  - Consequence: Increased vulnerability to forward pulls, collar drags, and overhead sweeps; loss of base and balance leading to successful guard retention or sweeps
+  - ✅ Correction: Maintain upright spine alignment with chest up, hips back, and weight distributed through the legs; keep head above hips and shoulders back to prevent forward collapse
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](open-guard/top)**
+- ❌ **Neglecting grip fighting and allowing opponent to establish dominant grips first**
+  - Consequence: Opponent controls distance, posture, and passing angles; significantly reduced passing success rate as bottom player dictates the engagement
+  - ✅ Correction: Proactively engage in grip fighting from initial contact; prioritize breaking opponent's grips while establishing your own control grips on pants, ankles, or collar
+
+- ❌ **Committing prematurely to pass without proper setup or grip control**
+  - Consequence: Telegraphed passing attempts that are easily countered; leaving vulnerable positions exposed during failed pass attempts; energy waste on ineffective techniques
+  - ✅ Correction: Build systematic passing sequences with proper grip establishment, angle creation, and pressure application before committing fully to the pass
+
+- ❌ **Passive engagement without applying pressure or creating threats**
+  - Consequence: Allows opponent time to establish complex guard structures, recover optimal positioning, and set up offensive attacks; stalling in neutral without advancement
+  - ✅ Correction: Constantly apply forward pressure and create passing threats to keep opponent defensive; use feints and combination attacks to force reactions and create openings
+
+- ❌ **Telegraphing passes with obvious weight shifts and predictable movement patterns**
+  - Consequence: Opponent anticipates passing direction and prepares defensive responses; low passing success rate due to predictability
+  - ✅ Correction: Use misdirection, feints, and combination attacks; vary passing directions and pressure points; maintain unpredictability in movement and grip transitions
+
+- ❌ **Standing too upright without controlling opponent's legs or hips**
+  - Consequence: Opponent easily establishes distance management guards (Spider, Lasso, feet on hips); difficulty closing distance to initiate meaningful passing sequences
+  - ✅ Correction: Control opponent's legs immediately when standing - grab pants, ankles, or knees; use strategic movement to prevent full extension while maintaining base
+
+- ❌ **Ignoring guard type and using inappropriate passing strategy for the specific guard configuration**
+  - Consequence: Using pressure passes against distance guards or speed passes against close guards; mismatched strategy leads to failed attempts and energy waste
+  - ✅ Correction: Identify specific guard type being employed and select appropriate passing strategy; pressure pass butterfly/half guard, movement pass De La Riva/Spider guard
+
+
+👉 **[[Open Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -180,16 +314,6 @@ The top player in open guard balances control maintenance with submission attack
 - **[[Seated Guard]]** - Upright open guard variation with different angle dynamics
 
 - **[[Headquarters Position]]** - Transitional passing position during open guard top sequences
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](open-guard/bottom)** - Techniques and strategies
-- **[Top Perspective](open-guard/top)** - Techniques and strategies
-
 
 
 </section>

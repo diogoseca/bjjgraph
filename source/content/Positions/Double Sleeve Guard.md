@@ -74,6 +74,18 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Double Sleeve Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Double Sleeve Guard/Top|Top Perspective]]** - Submissions and positional attacks
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Double Sleeve Guard Bottom Perspective
@@ -103,12 +115,63 @@ The bottom player in double sleeve guard balances defensive frames with offensiv
 ### Primary Techniques
 
 
+- **[[Scissor Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Flower Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Pendulum Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Spider Guard Sweeps]]** → [[Spider Guard]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Lasso Guard Sweeps]]** → [[Lasso Guard]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Omoplata Sweep]]** → [[Side Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Triangle Setup]]** → [[Triangle Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Elevator Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[De La Riva Sweep]]** → [[De La Riva Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
 
 ### Common Errors
 
 
+- ❌ **Releasing tension on sleeve grips, allowing opponent to break grips easily**
+  - Consequence: Opponent establishes their own grips on pants or belt and initiates passing sequence with dominant control
+  - ✅ Correction: Maintain constant pulling tension on both sleeves, using bicep curl motion and keeping elbows tight to body
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](double-sleeve-guard/bottom)**
+- ❌ **Allowing feet to rest passively on opponent's hips without active pushing**
+  - Consequence: Opponent closes distance and establishes smash passing pressure, collapsing the guard structure
+  - ✅ Correction: Actively push with balls of feet, extending legs to create and maintain distance while adjusting pressure based on opponent's movements
+
+- ❌ **Keeping hips flat on mat instead of mobile and ready to move**
+  - Consequence: Unable to follow opponent's circling movements, making sweeps ineffective and allowing easy passing
+  - ✅ Correction: Keep hips elevated slightly off mat, ready to pivot and follow opponent's direction changes
+
+- ❌ **Gripping too high on opponent's sleeves near the shoulders instead of at the cuffs**
+  - Consequence: Opponent has greater range of motion and can use leverage to break grips more easily
+  - ✅ Correction: Establish grips at or near the cuffs where opponent has minimal leverage and maximum control can be maintained
+
+- ❌ **Attempting sweeps without first breaking opponent's posture and balance**
+  - Consequence: Sweeps fail as opponent maintains strong base and can simply step through or around sweep attempts
+  - ✅ Correction: First use push-pull dynamics to break posture, then time sweep when opponent is off-balance
+
+- ❌ **Failing to transition grips when opponent adjusts position**
+  - Consequence: Opponent creates angles for passing that cannot be controlled with static double sleeve grips
+  - ✅ Correction: Be ready to transition one sleeve grip to lasso, spider, or collar grip as opponent moves
+
+
+👉 **[[Double Sleeve Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -141,12 +204,57 @@ The top player in double sleeve guard enjoys offensive advantages with access to
 ### Primary Techniques
 
 
+- **[[Toreando Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Leg Drag Pass]]** → [[Leg Drag Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Stack Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Long Step Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[X Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Double Under Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
 
 ### Common Errors
 
 
+- ❌ **Allowing posture to break forward while opponent maintains strong sleeve grips**
+  - Consequence: Creates vulnerability to sweeps, triangles, and omoplatas as your weight shifts forward into their offensive range
+  - ✅ Correction: Maintain upright posture with chest up and hips back, using core engagement to resist forward pulling while systematically addressing grip breaks
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](double-sleeve-guard/top)**
+- ❌ **Attempting to pass immediately without addressing the sleeve grips first**
+  - Consequence: Opponent uses sleeve control to redirect your passing momentum, leading to sweeps or guard retention with minimal effort
+  - ✅ Correction: Break at least one sleeve grip before committing to a passing sequence, or use grips and angles that neutralize the sleeve control's effectiveness
+
+- ❌ **Using only upper body strength to break grips without proper mechanics**
+  - Consequence: Depletes energy rapidly while often failing to break grips of skilled opponents, leaving you exhausted mid-pass attempt
+  - ✅ Correction: Employ proper grip breaking mechanics using hip rotation, stepping patterns, and leverage rather than pure arm strength
+
+- ❌ **Remaining static in one position allowing opponent to set up their preferred attacks**
+  - Consequence: Bottom player establishes rhythm, finds optimal grip depth, and sets up sweeps or submissions from a stable defensive position
+  - ✅ Correction: Maintain constant motion through angle changes, circling, and pressure variations to prevent opponent from settling into comfortable defensive patterns
+
+- ❌ **Failing to control distance after breaking grips, allowing opponent to immediately re-establish**
+  - Consequence: Creates a frustrating cycle of grip fighting without making forward progress toward passing
+  - ✅ Correction: After breaking grips, immediately advance your own grips on their legs or belt while controlling distance to prevent re-establishment of sleeve controls
+
+- ❌ **Ignoring opponent's foot placement on hips or biceps while focusing only on sleeve grips**
+  - Consequence: Even with weak sleeve grips, strong foot frames can maintain distance and facilitate sweeps or guard retention
+  - ✅ Correction: Address both the sleeve grips and leg positioning simultaneously, using strategies that diminish both control mechanisms
+
+
+👉 **[[Double Sleeve Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -176,16 +284,6 @@ The top player in double sleeve guard enjoys offensive advantages with access to
 - **[[Combat Base]]** - Common top player posture when facing double sleeve control
 
 - **[[Triangle Control]]** - Primary submission entry from broken posture scenarios
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](double-sleeve-guard/bottom)** - Techniques and strategies
-- **[Top Perspective](double-sleeve-guard/top)** - Submissions and positional attacks
-
 
 
 </section>

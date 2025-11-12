@@ -76,6 +76,18 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Standing Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Standing Guard/Top|Top Perspective]]** - Submissions and positional attacks
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Standing Guard Bottom Perspective
@@ -105,12 +117,70 @@ The bottom player in standing guard balances defensive frames with offensive opp
 ### Primary Techniques
 
 
+- **[[Pull guard]]** → [[Closed Guard]]
+  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+
+- **[[Sitting Guard Pull]]** → [[Seated Guard]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Shin to Shin Pull]]** → [[Shin-to-Shin Guard]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Standing to Single Leg X]]** → [[Single Leg X-Guard]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Ankle Pick]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Arm Drag to Back]]** → [[Back Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Rolling Guard Pull]]** → [[De La Riva Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Double Leg Entry]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Single Leg Entry]]** → [[Side Control]]
+  - Success Rate: Beginner 28%, Intermediate 42%, Advanced 58%
+
+- **[[Snap Down to Front Headlock]]** → [[Front Headlock]]
+  - Success Rate: Beginner 22%, Intermediate 38%, Advanced 52%
+
 
 ### Common Errors
 
 
+- ❌ **Standing too upright with locked knees and flat feet**
+  - Consequence: Reduced mobility and inability to quickly change direction or level, making practitioner vulnerable to takedowns and unable to react to opponent movement
+  - ✅ Correction: Maintain athletic stance with knees bent, weight on balls of feet, and hips slightly back to enable quick movements in any direction
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](standing-guard/bottom)**
+- ❌ **Allowing opponent to establish dominant grips without fighting**
+  - Consequence: Opponent controls distance and posture, making it easy to set up passing sequences or force unfavorable guard pull positions
+  - ✅ Correction: Engage in active grip fighting from first contact, constantly breaking opponent grips and establishing your own frames and controls
+
+- ❌ **Standing with hands down or passive hand positioning**
+  - Consequence: Opponent can easily snap down to front headlock or establish controlling grips without resistance
+  - ✅ Correction: Keep hands active at chest level or higher, ready to frame, grip fight, or defend against snap-downs with elbows tight to body
+
+- ❌ **Backing straight up in linear fashion when pressured**
+  - Consequence: Allows opponent to walk forward and corner you against mat boundaries, eliminating lateral escape options
+  - ✅ Correction: Use circular footwork and angle changes to move laterally while maintaining distance, creating angles rather than retreating linearly
+
+- ❌ **Delaying guard pull decision until forced into bad position**
+  - Consequence: Forced to pull guard reactively from poor position where opponent already has advantageous grips or position
+  - ✅ Correction: Make proactive decision to pull guard before opponent establishes dominant position, pulling from position of control rather than desperation
+
+- ❌ **Overcommitting to failed takedown attempts**
+  - Consequence: Leaves practitioner exposed to guillotine, front headlock, or opponent's counter-takedowns when attack fails
+  - ✅ Correction: Commit fully to takedown only when high-percentage opening presents itself, otherwise maintain defensive posture and pull guard safely
+
+- ❌ **Ignoring mat boundaries and spatial awareness**
+  - Consequence: Gets cornered against edge of mat with limited movement options, making guard pull or defense more difficult
+  - ✅ Correction: Constantly monitor position relative to mat boundaries and use circular movement to stay in center of training area
+
+
+👉 **[[Standing Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +213,64 @@ The top player in standing guard enjoys offensive advantages with access to subm
 ### Primary Techniques
 
 
+- **[[Toreando Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Leg Drag Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Double Under Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[X Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Long Step Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Stack Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Back Step]]** → [[Back Control]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
 
 ### Common Errors
 
 
+- ❌ **Leaning forward with weight over opponent's guard**
+  - Consequence: Increased vulnerability to sweeps, triangle chokes, and being pulled down into closed guard
+  - ✅ Correction: Maintain upright posture with hips back, chest up, and weight distributed through feet with slight backward lean
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](standing-guard/top)**
+- ❌ **Allowing opponent to establish dominant grips without immediate response**
+  - Consequence: Opponent controls distance and timing, making passing attempts predictable and easier to defend
+  - ✅ Correction: Engage in active grip fighting, breaking opponent's grips systematically before initiating passing sequences
+
+- ❌ **Standing with feet too close together in narrow stance**
+  - Consequence: Poor base and balance making practitioner vulnerable to sweeps and off-balancing attacks
+  - ✅ Correction: Maintain shoulder-width or wider stance with weight distributed evenly through both feet for stability
+
+- ❌ **Initiating passing attempts without controlling opponent's legs or hips first**
+  - Consequence: Opponent can easily retain guard through hooks, frames, and hip movement
+  - ✅ Correction: Establish control of opponent's legs or hips before committing to passing movement to limit defensive options
+
+- ❌ **Moving predictably with single-direction passing attempts**
+  - Consequence: Opponent can anticipate movement and prepare appropriate guard retention responses
+  - ✅ Correction: Use combination passing with direction changes and multiple attack angles to overwhelm guard retention
+
+- ❌ **Keeping hands too high or too low relative to opponent's guard**
+  - Consequence: Unable to effectively control distance, break grips, or initiate passing sequences
+  - ✅ Correction: Position hands at hip and thigh level to control opponent's legs while maintaining ability to break grips as needed
+
+- ❌ **Remaining static in standing position without pressure or movement**
+  - Consequence: Allows opponent to establish ideal guard, set grips, and prepare defensive strategy
+  - ✅ Correction: Apply constant pressure through grip fighting and dynamic footwork to keep opponent reactive and defensive
+
+
+👉 **[[Standing Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -180,16 +302,6 @@ The top player in standing guard enjoys offensive advantages with access to subm
 - **[[Single Leg X-Guard]]** - Leg attack guard entry from standing position
 
 - **[[Butterfly Guard]]** - Sitting guard variation accessible from standing
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](standing-guard/bottom)** - Techniques and strategies
-- **[Top Perspective](standing-guard/top)** - Submissions and positional attacks
-
 
 
 </section>

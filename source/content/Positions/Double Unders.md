@@ -76,6 +76,18 @@ Understanding double unders from both perspectives is essential for developing c
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Double Unders/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Double Unders/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Double Unders Bottom Perspective
@@ -105,12 +117,58 @@ The bottom player in double unders must focus on creating frames, protecting aga
 ### Primary Techniques
 
 
+- **[[Deep Half Entry]]** → [[Deep Half Guard]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Granby Roll]]** → [[Turtle]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Butterfly Hook Recovery]]** → [[Butterfly Guard]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Frame and Shrimp]]** → [[Half Guard]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Underhook Recovery]]** → [[Underhook Battle]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Hip Escape]]** → [[Open Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
 
 ### Common Errors
 
 
+- ❌ **Accepting both underhooks passively without immediate frame creation response**
+  - Consequence: Allows opponent to consolidate double underhook control, flatten your back to the mat, and complete the pass with minimal resistance
+  - ✅ Correction: Fight frames immediately - get elbows inside, forearms on face/neck, create any space possible before being flattened completely
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](double-unders/bottom)**
+- ❌ **Keeping hips flat and static on the mat without active movement**
+  - Consequence: Opponent easily flattens you completely, removes all guard retention options, and passes directly to side control or mount
+  - ✅ Correction: Keep hips mobile constantly - shrimp, bridge, turn to sides, prevent static flattening at all costs through continuous movement
+
+- ❌ **Fighting both underhooks equally instead of focusing on recovering one strategically**
+  - Consequence: Wastes energy fighting bilateral control symmetrically while opponent maintains dominant position and advances pass
+  - ✅ Correction: Focus energy on recovering one underhook first - breaking bilateral control is more important than perfect frames on both sides
+
+- ❌ **Allowing chest-to-chest contact without resistance or space creation**
+  - Consequence: Gives opponent full weight pressure advantage, eliminates all leverage opportunities, and makes escape nearly impossible
+  - ✅ Correction: Fight for any distance - even inches of space between chests allows hip mobility and escape opportunities to function
+
+- ❌ **Giving up mentally when double underhooks are established, accepting defeat prematurely**
+  - Consequence: Surrenders defensive opportunities prematurely, allows easy pass, and reinforces bad habits for future similar positions
+  - ✅ Correction: Stay mentally engaged - this position has multiple escape routes if you act quickly with proper technique and timing
+
+- ❌ **Extending legs straight or pushing opponent away with feet ineffectively**
+  - Consequence: Removes leg entanglement options, eliminates butterfly hook possibilities, and gives opponent clear path to side control
+  - ✅ Correction: Keep legs active with hooks (butterfly, half guard) or transitional positions - never extend straight which surrenders control
+
+- ❌ **Tucking chin to chest defensively instead of maintaining head position and mobility**
+  - Consequence: Rounds spine further, makes you easier to flatten, and reduces mobility for granby rolls or hip escapes
+  - ✅ Correction: Keep head active and mobile - look away from pressure direction to maintain spinal extension and mobility options
+
+
+👉 **[[Double Unders/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +201,54 @@ The top player in double unders balances control maintenance with submission att
 ### Primary Techniques
 
 
+- **[[Double Under Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Transition to North-South]]** → [[North-South]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Transition to Back Control]]** → [[Back Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+
+- **[[Stack Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
 
 ### Common Errors
 
 
+- ❌ **Allowing space between chest and opponent's legs, reducing forward pressure**
+  - Consequence: Opponent can create frames, insert butterfly hooks, or recover guard position with hip escapes
+  - ✅ Correction: Maintain constant forward pressure with chest driving into opponent's thighs, keeping them stacked onto shoulders
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](double-unders/top)**
+- ❌ **Hands separating or losing grip behind opponent's back during pressure application**
+  - Consequence: Opponent can separate their legs, insert frames, or create angles to escape the control
+  - ✅ Correction: Keep hands tightly clasped or maintain strong belt/pants grip, treating both arms as a single control unit
+
+- ❌ **Elbows flaring out away from your own body creating gaps**
+  - Consequence: Opponent can insert their hands or forearms to break the connection and create escape pathways
+  - ✅ Correction: Keep elbows tight to ribs, making it impossible for opponent to wedge their arms in between
+
+- ❌ **Standing too upright instead of maintaining forward pressure angle with hips driving**
+  - Consequence: Reduces stacking pressure, allows opponent to extend legs and recover guard structure
+  - ✅ Correction: Keep shoulders over opponent's hips with chest angled downward, driving weight through their legs continuously
+
+- ❌ **Failing to advance position when opponent's defense weakens or fatigues**
+  - Consequence: Allows opponent time to recover energy and mount better defensive responses or escape attempts
+  - ✅ Correction: Walk knees forward progressively, transitioning to side control as soon as hip control is established securely
+
+- ❌ **Poor head positioning that allows opponent to turn or create angular escapes**
+  - Consequence: Opponent can rotate their body to escape or establish defensive frames with better leverage
+  - ✅ Correction: Use head on opponent's chest for maximum pressure or on hip to block rotation and prepare for pass completion
+
+
+👉 **[[Double Unders/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -178,16 +278,6 @@ The top player in double unders balances control maintenance with submission att
 - **[[Combat Base]]** - Top player's base structure must be maintained while establishing and advancing double unders control
 
 - **[[Underhook Battle]]** - Conceptual framework for the bilateral underhook control struggle that defines this position
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](double-unders/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](double-unders/top)** - Techniques and strategies
-
 
 
 </section>

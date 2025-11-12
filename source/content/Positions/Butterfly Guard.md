@@ -76,6 +76,25 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Butterfly Guard/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
+- **[[Butterfly Guard/Top|Top Perspective]]** - Techniques and strategies
+
+
+### By Variation
+
+- **[[Butterfly Hook Control]]** - Standard butterfly guard with both hooks inserted and upright seated posture
+
+- **[[Half Butterfly]]** - Asymmetric variation with one butterfly hook and one leg configuration
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Butterfly Guard Bottom Perspective
@@ -105,12 +124,70 @@ The bottom player in butterfly guard controls the position with offensive attack
 ### Primary Techniques
 
 
+- **[[Butterfly Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Butterfly Sweep]]** → [[Side Control]]
+  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 82%
+
+- **[[Arm Drag to Back]]** → [[Back Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Butterfly Guard to X-Guard]]** → [[X-Guard]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Elevator Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 48%, Intermediate 63%, Advanced 78%
+
+- **[[Hook Sweep]]** → [[Side Control]]
+  - Success Rate: Beginner 52%, Intermediate 67%, Advanced 80%
+
+- **[[Overhook Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 46%, Intermediate 61%, Advanced 76%
+
+- **[[Butterfly Guard to X-Guard]]** → [[Single Leg X-Guard]]
+  - Success Rate: Beginner 38%, Intermediate 53%, Advanced 68%
+
+- **[[Open Guard to Deep Half]]** → [[Deep Half Guard]]
+  - Success Rate: Beginner 42%, Intermediate 57%, Advanced 72%
+
+- **[[Arm Drag]]** → [[Turtle]]
+  - Success Rate: Beginner 44%, Intermediate 59%, Advanced 74%
+
 
 ### Common Errors
 
 
+- ❌ **Lying flat on back instead of maintaining upright seated posture with active core**
+  - Consequence: Eliminates leverage for sweeps and makes it easy for opponent to apply pressure and pass guard
+  - ✅ Correction: Keep chest forward, core engaged, and maintain active seated position with weight on hips and hooks creating constant upward pressure
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](butterfly-guard/bottom)**
+- ❌ **Passive hooks that do not actively engage opponent's thighs with continuous elevator pressure**
+  - Consequence: Reduces elevation power and makes sweeps ineffective, allowing opponent to easily control distance and establish passing position
+  - ✅ Correction: Actively drive hooks upward into opponent's inner thighs with constant elevator pressure, treating hooks as active tools not passive barriers
+
+- ❌ **Poor upper body control or ineffective gripping strategy that allows opponent good posture**
+  - Consequence: Opponent can maintain good posture and base, neutralizing sweep attempts and controlling the engagement
+  - ✅ Correction: Establish strong grips on collar, sleeves, or underhooks to break opponent's posture and control their weight distribution before attempting sweeps
+
+- ❌ **Attempting sweeps without proper timing or setup, forcing techniques against opponent's base**
+  - Consequence: Wasted energy on failed sweep attempts and vulnerability to counter-passes during committed sweep attempts
+  - ✅ Correction: Time sweeps with opponent's forward pressure or weight shifts; use grips to create off-balance before committing to sweep execution
+
+- ❌ **Neglecting transitions when sweeps are defended, becoming stagnant in position**
+  - Consequence: Getting stuck in stalemate or allowing opponent to establish dominant passing position while you remain inactive
+  - ✅ Correction: Chain sweeps together and transition to X-Guard, Deep Half, or Back Takes when primary sweep is defended; maintain constant offensive pressure
+
+- ❌ **Allowing hooks to be cleared or stepped over without immediate reaction or recovery**
+  - Consequence: Loss of butterfly guard entirely and vulnerability to immediate pass with no defensive structure remaining
+  - ✅ Correction: Immediately recover hooks, transition to alternative guard retention strategy, or work for technical standup when hooks are threatened
+
+- ❌ **Crossing ankles behind opponent's back which eliminates elevation capability**
+  - Consequence: Transforms position into ineffective configuration with no sweeping power and vulnerability to pressure passing
+  - ✅ Correction: Keep hooks independent with feet under opponent's thighs, never crossing ankles; maintain hook separation for maximum elevation
+
+
+👉 **[[Butterfly Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +220,67 @@ The top player in butterfly guard manages the position strategically based on op
 ### Primary Techniques
 
 
+- **[[Butterfly Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Double Under Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Long Step Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 38%, Intermediate 53%, Advanced 68%
+
+- **[[Knee Cut Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 36%, Intermediate 51%, Advanced 66%
+
+- **[[Stack Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 32%, Intermediate 47%, Advanced 62%
+
+- **[[Toreando Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 34%, Intermediate 49%, Advanced 64%
+
+- **[[Over-Under Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 42%, Intermediate 57%, Advanced 72%
+
+- **[[Half Guard Pass]]** → [[Half Guard]]
+  - Success Rate: Beginner 44%, Intermediate 59%, Advanced 74%
+
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 37%, Intermediate 52%, Advanced 67%
+
 
 ### Common Errors
 
 
+- ❌ **Committing too much weight forward into opponent's hooks and upper body control**
+  - Consequence: Makes sweeps extremely easy to execute as you provide the forward momentum opponent needs for elevation
+  - ✅ Correction: Maintain balanced posture with hips back, distributing weight evenly and avoiding excessive forward lean into optimal sweeping range
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](butterfly-guard/top)**
+- ❌ **Allowing opponent to establish dominant upper body grips without contesting**
+  - Consequence: Gives opponent full control over your posture and movement, enabling high-percentage sweeps and transitions
+  - ✅ Correction: Actively fight grips and establish your own controlling grips to prevent opponent from breaking your posture and setting up attacks
+
+- ❌ **Attempting to pass with poor posture or broken base**
+  - Consequence: Vulnerability to immediate sweeps as your compromised structure provides no resistance to elevation attempts
+  - ✅ Correction: Prioritize establishing proper posture and solid base before attempting passing movements; posture first, then pass
+
+- ❌ **Staying static in combat base without attempting to clear hooks or advance position**
+  - Consequence: Allows opponent to maintain optimal position indefinitely while setting up attacks and creating sweeping opportunities
+  - ✅ Correction: Constantly work to clear hooks through distance management, transition to standing, or secure over-under control to neutralize threats
+
+- ❌ **Pulling hooks outward or away from opponent's body when attempting to clear them**
+  - Consequence: Strengthens opponent's hook connection and makes clearing more difficult while tiring yourself
+  - ✅ Correction: Push knees together and forward toward opponent's centerline to compromise hook leverage, or create distance to disengage entirely
+
+- ❌ **Neglecting to recognize opponent's transition to X-Guard or leg entanglements**
+  - Consequence: Finding yourself in even more dangerous positions with complex escape requirements
+  - ✅ Correction: Maintain awareness of opponent's lower body movements and immediately counter transitions to alternative guard positions
+
+- ❌ **Using purely strength and pressure against butterfly guard without technical passing strategy**
+  - Consequence: Energy depletion while making minimal progress against properly maintained butterfly structure
+  - ✅ Correction: Employ technical passing sequences that specifically address butterfly guard mechanics rather than generic pressure approaches
+
+
+👉 **[[Butterfly Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -190,23 +322,6 @@ Asymmetric variation with one butterfly hook and one leg configuration
 - **[[Half Guard]]** - Fallback position when one hook is cleared during passing attempts
 
 - **[[Seated Guard]]** - Related open guard variation with similar seated posture mechanics
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](butterfly-guard/bottom)** - Sweeps, attacks, and submissions
-- **[Top Perspective](butterfly-guard/top)** - Techniques and strategies
-
-
-### By Variation
-
-- **[Butterfly Hook Control](butterfly-guard/butterfly-hook-control)** - Standard butterfly guard with both hooks inserted and upright seated posture
-
-- **[Half Butterfly](butterfly-guard/half-butterfly)** - Asymmetric variation with one butterfly hook and one leg configuration
-
 
 
 </section>

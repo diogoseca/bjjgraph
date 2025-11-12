@@ -76,6 +76,18 @@ Understanding when to use the overhook versus other standing controls is crucial
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Overhook Control Clinch/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Overhook Control Clinch/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Overhook Control Clinch Bottom Perspective
@@ -105,12 +117,58 @@ The bottom player in overhook control clinch must focus on creating frames, prot
 ### Primary Techniques
 
 
+- **[[Arm Drag]]** → [[Back Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Duck Under]]** → [[Back Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Snap Down]]** → [[Front Headlock]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Underhook Sweep]]** → [[Side Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Guard Pull]]** → [[Closed Guard]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 75%
+
+- **[[Guillotine Setup]]** → [[Guillotine Control]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
 
 ### Common Errors
 
 
+- ❌ **Allowing hips to square up directly in front of opponent**
+  - Consequence: Creates ideal positioning for opponent's takedown entries and throws
+  - ✅ Correction: Constantly circle and angle hips away from overhook side while maintaining base width
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](overhook-control-clinch/bottom)**
+- ❌ **Failing to control opponent's head or neck with free hand**
+  - Consequence: Opponent gains complete upper body control and can execute throws easily
+  - ✅ Correction: Immediately establish head control, collar tie, or cross-face with free hand to manage distance
+
+- ❌ **Keeping weight on heels or standing too upright**
+  - Consequence: Easy to be swept, thrown, or taken down backward
+  - ✅ Correction: Maintain weight on balls of feet with slight forward lean and bent knees for mobility
+
+- ❌ **Allowing trapped arm to remain passive and extended**
+  - Consequence: Gives opponent leverage for throws and prevents grip breaking attempts
+  - ✅ Correction: Keep elbow tight and actively work to retract arm, attack opponent's grip, or create circular motion
+
+- ❌ **Ignoring underhook opportunities on free side**
+  - Consequence: Misses primary path to neutralizing overhook advantage
+  - ✅ Correction: Aggressively fight for underhook on opposite side to create positional stalemate or reversal
+
+- ❌ **Standing static without footwork or movement**
+  - Consequence: Allows opponent to set up and execute planned techniques without pressure
+  - ✅ Correction: Use constant footwork, level changes, and directional changes to disrupt opponent's timing
+
+- ❌ **Panicking and pulling guard immediately without attempting escapes**
+  - Consequence: Gives up standing position and potential for superior outcomes
+  - ✅ Correction: Work defensive techniques and counters first, using guard pull as calculated tactical choice when needed
+
+
+👉 **[[Overhook Control Clinch/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +201,67 @@ The top player in overhook control clinch balances control maintenance with subm
 ### Primary Techniques
 
 
+- **[[Snap Down to Front Headlock]]** → [[Front Headlock]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Arm Drag to Back]]** → [[Back Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Uchi Mata]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
+
+- **[[Harai Goshi]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+
+- **[[Bodylock Pass]]** → [[Body Lock]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Double Leg Takedown]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Front Headlock to Anaconda]]** → [[Anaconda Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+
+- **[[Front Headlock to Darce]]** → [[D'arce Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+
+- **[[Osoto Gari]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Allowing overhook to become shallow or losing elbow control**
+  - Consequence: Opponent easily swims arm free, establishes underhook, or creates neutral position
+  - ✅ Correction: Constantly drive overhook deeper around tricep, use opposite hand to prevent opponent from peeling grip, maintain downward pressure through the hook
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](overhook-control-clinch/top)**
+- ❌ **Failing to maintain head pressure on overhook side**
+  - Consequence: Opponent establishes upright posture, neutralizes control, and can easily defend throws or create separation
+  - ✅ Correction: Keep forehead or temple pressed into opponent's shoulder/neck area, drive weight forward through head contact, never allow opponent to achieve neutral head position
+
+- ❌ **Standing too upright with hips too far from opponent**
+  - Consequence: Loss of hip control allows opponent to sprawl, create distance, or establish their own offensive grips
+  - ✅ Correction: Maintain hip-to-hip contact or slight offset, lower center of gravity slightly, use hip pressure to control opponent's movement and prevent separation
+
+- ❌ **Neglecting opposite side control (free hand inactive)**
+  - Consequence: Opponent gains free arm mobility to establish frames, control distance, or set up counters
+  - ✅ Correction: Always control opponent's opposite wrist, collar, or head with free hand, creating two-point control system that limits defensive options
+
+- ❌ **Remaining static without active footwork or angle adjustment**
+  - Consequence: Opponent squares up, establishes defensive base, and neutralizes attacking opportunities
+  - ✅ Correction: Constantly circle toward overhook side, use small steps to adjust angles, maintain mobile base that allows for explosive attacks while preserving defensive stability
+
+- ❌ **Attempting throws without proper setup or off-balancing**
+  - Consequence: Low-percentage throw attempts that waste energy and potentially expose back or allow opponent to counter
+  - ✅ Correction: Use overhook pressure and head control to break opponent's balance first, create directional movement through pulling or pushing, execute throws when opponent's weight is committed in advantageous direction
+
+- ❌ **Over-committing to single attack without recognizing opponent's defensive adjustment**
+  - Consequence: Opponent defends successfully and potentially reverses position or establishes superior control
+  - ✅ Correction: Chain attacks together based on opponent's reactions, if snap down is defended immediately flow to throw or back take, maintain offensive pressure through continuous attack sequences
+
+
+👉 **[[Overhook Control Clinch/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -178,16 +291,6 @@ The top player in overhook control clinch balances control maintenance with subm
 - **[[Double Unders]]** - Position opponent may transition to if overhook control is lost
 
 - **[[Closed Guard]]** - Common tactical retreat position via guard pull
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](overhook-control-clinch/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](overhook-control-clinch/top)** - Techniques and strategies
-
 
 
 </section>

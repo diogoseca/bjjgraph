@@ -74,6 +74,27 @@ From back control, the top practitioner maintains a significant positional advan
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Back Control/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Back Control/Top|Top Perspective]]** - Techniques and strategies
+
+
+### By Variation
+
+- **[[Seat Belt Control Back]]** - Specific harness grip variation for upper body control
+
+- **[[Body Triangle]]** - Back control with legs locked in body triangle configuration
+
+- **[[Standing Back Control]]** - Back control maintained in standing position
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Back Control Bottom Perspective
@@ -103,12 +124,54 @@ The bottom player in back control must focus on creating frames, protecting agai
 ### Primary Techniques
 
 
+- **[[Back Escape Series]]** → [[Half Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Hip Escape]]** → [[Turtle]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Rolling Escape]]** → [[Closed Guard]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Granby Roll]]** → [[Turtle]]
+  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+
+- **[[Hand Fighting from Back]]** → [[Defensive Position]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Hook Removal Sequence]]** → [[Turtle]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
 
 ### Common Errors
 
 
+- ❌ **Attempting explosive escape movements before securing neck defense and hand fighting position**
+  - Consequence: Creates openings for opponent to sink rear naked choke or other submissions while wasting energy that could be used for systematic escape
+  - ✅ Correction: Always establish neck protection and hand fighting control first before attempting any hip movement or escape sequences
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](back-control/bottom)**
+- ❌ **Allowing shoulders to flatten to mat creating defensive ball position**
+  - Consequence: Reduces your mobility and escape angles while making it easier for opponent to maintain control and attack neck from multiple angles
+  - ✅ Correction: Keep shoulders elevated off mat by maintaining active posture, using opponent's chest pressure to stay slightly forward-leaning rather than flat
+
+- ❌ **Grabbing opponent's legs or feet with hands instead of defending neck**
+  - Consequence: Leaves neck completely undefended allowing opponent to easily secure rear naked choke or other choke variations for immediate submission
+  - ✅ Correction: Hands must prioritize neck defense through two-on-one grip fighting on choking arm; only address hooks after neck is secure
+
+- ❌ **Panicking and making random explosive movements without systematic escape plan**
+  - Consequence: Rapidly depletes energy while typically improving opponent's control and submission position rather than creating legitimate escape opportunities
+  - ✅ Correction: Maintain calm breathing and execute systematic escape sequences addressing control points methodically even under submission pressure
+
+- ❌ **Neglecting to create angle before attempting to turn and face opponent**
+  - Consequence: Opponent easily follows your rotation maintaining back control while you waste energy on ineffective turning attempts
+  - ✅ Correction: Use hip escape to create angle first, disrupting opponent's alignment before attempting rotational turn toward them
+
+- ❌ **Accepting defeat mentally and stopping defensive hand fighting before submission is complete**
+  - Consequence: Allows opponent to complete submission unopposed when continued defense might have created escape opportunity or forced position change
+  - ✅ Correction: Maintain hand fighting and defensive effort until submission is actually completed or referee stops match; never give up position
+
+
+👉 **[[Back Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -141,12 +204,60 @@ The top player in back control balances control maintenance with submission atta
 ### Primary Techniques
 
 
+- **[[Rear Naked Choke]]** → [[Won by Submission]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Armbar from Back with Legs]]** → [[Armbar Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
+- **[[Back Control to Crucifix]]** → [[Crucifix]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Bow and Arrow Choke]]** → [[Won by Submission]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+
+- **[[Transition to Truck]]** → [[Truck]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
+- **[[Choke from Crucifix]]** → [[Won by Submission]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Armbar from Back]]** → [[Won by Submission]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Losing chest-to-back connection by leaning back or sitting up too high above opponent**
+  - Consequence: Creates space allowing opponent to turn into you, escape hooks easily, or establish defensive frames that facilitate escape
+  - ✅ Correction: Maintain constant forward pressure with chest glued to opponent's back, keeping weight low and hips close to their hips throughout control
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](back-control/top)**
+- ❌ **Placing hooks too high near opponent's hips instead of deep inside their thighs**
+  - Consequence: Allows opponent to easily clear hooks by turning their knees inward, pushing your feet away with their hands, or executing basic escapes
+  - ✅ Correction: Insert hooks deep with feet crossing inside opponent's thighs near groin area, toes pointing outward for maximum control and hook retention
+
+- ❌ **Breaking harness grip prematurely to attack neck before establishing dominant positional control**
+  - Consequence: Opponent can use free arms to defend neck effectively, grab your attacking arm for control, or begin escape sequences unopposed
+  - ✅ Correction: Maintain harness grip until ready to attack, use gift wrap or crucifix to trap arms first before transitioning to choke attempts
+
+- ❌ **Allowing opponent to get their shoulders to mat and create defensive ball position**
+  - Consequence: Reduces submission angles significantly, makes neck attack much harder, and gives opponent stronger defensive posture for escape attempts
+  - ✅ Correction: Keep opponent's shoulders elevated off mat using your chest pressure and hook leverage, preventing them from turtling or flattening defensively
+
+- ❌ **Crossing feet in front of opponent's body instead of maintaining proper hooks or body triangle**
+  - Consequence: Creates vulnerability to ankle lock or straight footlock, and significantly reduces hip control allowing easier escape opportunities
+  - ✅ Correction: Never cross feet in front of opponent's body; maintain proper hooks with feet inside thighs or lock body triangle if crossing legs
+
+- ❌ **Chasing submission too aggressively without maintaining positional control first**
+  - Consequence: Loses back control entirely when submission attempt fails, allowing opponent to escape completely or reverse position
+  - ✅ Correction: Follow position-before-submission principle rigorously: secure dominant control with hooks and harness before attacking for finish
+
+
+👉 **[[Back Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -195,25 +306,6 @@ Back control maintained in standing position
 - **[[Truck]]** - Related back attack position with different leg configuration leading to twister and calf slicer submissions
 
 - **[[Gift Wrap]]** - Arm trap variation used to isolate opponent's arm during back control for submission entries
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](back-control/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](back-control/top)** - Techniques and strategies
-
-
-### By Variation
-
-- **[Seat Belt Control Back](back-control/seat-belt-control-back)** - Specific harness grip variation for upper body control
-
-- **[Body Triangle](back-control/body-triangle)** - Back control with legs locked in body triangle configuration
-
-- **[Standing Back Control](back-control/standing-back-control)** - Back control maintained in standing position
-
 
 
 </section>

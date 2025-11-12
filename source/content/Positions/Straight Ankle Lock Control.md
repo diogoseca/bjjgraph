@@ -84,6 +84,18 @@ The position also serves an important pedagogical function in teaching fundament
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Straight Ankle Lock Control/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
+- **[[Straight Ankle Lock Control/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Straight Ankle Lock Control Bottom Perspective
@@ -113,12 +125,63 @@ The bottom player in straight ankle lock control controls the position with offe
 ### Primary Techniques
 
 
+- **[[Straight Ankle Lock]]** → [[Won by Submission]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[X-Guard to Ashi Transition]]** → [[Inside Ashi-Garami]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[50-50 Entry from Standing]]** → [[50-50 Guard]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Straight Footlock]]** → [[Won by Submission]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Kneebar Finish]]** → [[Won by Submission]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Ankle Pick Sweep]]** → [[Standing Position]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Attempting to finish ankle lock immediately without establishing secure control position**
+  - Consequence: Defender easily rotates hip and extracts foot, escaping to standing or neutral position before attacker can apply meaningful pressure
+  - ✅ Correction: Establish perpendicular hip positioning, wrap legs securely around defender's trapped leg, and verify ankle grip security before initiating breaking mechanics
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](straight-ankle-lock-control/bottom)**
+- ❌ **Maintaining static leg configuration that allows defender to rotate hip freely**
+  - Consequence: Defender escapes control by rotating toward or away from attacker, extracting knee and establishing defensive frames that nullify submission threat
+  - ✅ Correction: Actively adjust leg positioning to block defender's hip rotation, using inside leg behind knee or figure-four configuration that prevents rotation while maintaining transition flexibility
+
+- ❌ **Focusing exclusively on ankle grip while neglecting leg control and hip positioning**
+  - Consequence: Strong grip on ankle means nothing if defender can freely rotate and create angles that eliminate submission leverage and facilitate escape
+  - ✅ Correction: Balance attention between hand grip, leg wrapping, and hip alignment as interconnected control elements that must work together systematically
+
+- ❌ **Failing to read defender's escape attempts and choosing appropriate counter-transitions**
+  - Consequence: Defender's defensive movements create opportunities for positional advancement that attacker misses, eventually leading to successful escape to neutral or superior position
+  - ✅ Correction: Study common escape sequences and practice counter-transitions so defensive reactions automatically trigger appropriate offensive advances
+
+- ❌ **Spending excessive time attempting to finish from straight ankle lock control without advancing**
+  - Consequence: Energy expenditure favors defender who gradually accumulates frames and distance, making control progressively more difficult to maintain as time passes
+  - ✅ Correction: Implement strict time limits in training - if submission is not imminent within 10-15 seconds, immediately transition to more controlling position
+
+- ❌ **Neglecting upper body positioning and allowing defender to control attacker's head or collar**
+  - Consequence: Defender uses upper body grips to control attacker's posture, preventing effective breaking mechanics and facilitating escape by limiting attacker's ability to arch back
+  - ✅ Correction: Maintain active upper body posture with free arm posting or framing to prevent defender from establishing controlling grips on head, collar, or upper torso
+
+
+👉 **[[Straight Ankle Lock Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -151,12 +214,57 @@ The top player in straight ankle lock control manages the position strategically
 ### Primary Techniques
 
 
+- **[[Ashi Garami Escape]]** → [[Standing Position]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Counter Entry to Opponent's Leg]]** → [[50-50 Guard]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Standing Escape]]** → [[Standing Position]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Hip Rotation Defense]]** → [[Defensive Position]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Knee Extraction]]** → [[Half Guard]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Frame and Distance Creation]]** → [[Open Guard]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Pass to Top Control]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
 
 ### Common Errors
 
 
+- ❌ **Panicking and making explosive uncontrolled movements attempting to rip foot out of control**
+  - Consequence: Explosive movements without technical foundation actually help attacker transition to more dominant positions as wild rotation and extension open specific pathways attacker has trained to exploit
+  - ✅ Correction: Maintain composure and execute systematic escape sequences with controlled deliberate movement, following established technical protocols rather than relying on strength and explosion
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](straight-ankle-lock-control/top)**
+- ❌ **Allowing leg to straighten completely while attacker maintains ankle grip and hip positioning**
+  - Consequence: Full leg extension eliminates defender's ability to use hip rotation for escape while maximizing attacker's submission leverage, dramatically increasing injury risk and reducing escape options
+  - ✅ Correction: Keep knee bent and pulled toward chest throughout escape attempts, maintaining structural integrity that limits submission pressure while preserving mobility for technical escapes
+
+- ❌ **Focusing exclusively on ankle grip and ignoring attacker's leg positioning around trapped leg**
+  - Consequence: Attacker completes leg triangle control while defender fights only the hand grips, establishing dominant position where escape becomes exponentially more difficult and transitions to worse positions open freely
+  - ✅ Correction: Address leg control as equal priority to grip fighting, actively preventing attacker from establishing leg triangle or inside position while working to extract foot
+
+- ❌ **Rotating hip in direction that facilitates attacker's desired transition to inside or outside ashi**
+  - Consequence: Defender's escape attempt actually helps attacker advance to more dominant leg entanglement where heel hooks threaten and escape options narrow substantially
+  - ✅ Correction: Understand which hip rotation direction attacker wants based on their leg configuration, deliberately rotate in the direction that complicates their transition attempts while facilitating extraction
+
+- ❌ **Neglecting to establish frames and distance on attacker's upper body during escape attempts**
+  - Consequence: Attacker maintains close proximity throughout defender's escape efforts, making it easy to adjust grips and leg positioning to counter defensive movements and maintain control
+  - ✅ Correction: Use free leg and arms to establish frames on attacker's upper body, creating distance that loosens control and facilitates foot extraction or standing escape
+
+- ❌ **Waiting passively hoping attacker will release control or make mistake rather than actively executing escape**
+  - Consequence: Time strongly favors attacker in this position as every passing second allows improved control, tighter grips, and clearer transition opportunities while defender's options narrow
+  - ✅ Correction: Implement immediate aggressive escape sequences the moment ankle control is recognized, understanding that rapid decisive action dramatically improves escape probability compared to passive waiting
+
+
+👉 **[[Straight Ankle Lock Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -182,16 +290,6 @@ The top player in straight ankle lock control manages the position strategically
 - **[[Saddle]]** - Advanced leg entanglement accessible through strategic transitions
 
 - **[[Defensive Position]]** - Position opponent seeks when successfully defending control
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](straight-ankle-lock-control/bottom)** - Sweeps, attacks, and submissions
-- **[Top Perspective](straight-ankle-lock-control/top)** - Techniques and strategies
-
 
 
 </section>

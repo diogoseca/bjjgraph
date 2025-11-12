@@ -80,6 +80,18 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Gift Wrap/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Gift Wrap/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Gift Wrap Bottom Perspective
@@ -109,12 +121,57 @@ The bottom player in gift wrap must focus on creating frames, protecting against
 ### Primary Techniques
 
 
+- **[[Gift Wrap Arm Recovery]]** → [[Back Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Hip Escape to Guard]]** → [[Half Guard]]
+  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+
+- **[[Roll to Turtle]]** → [[Turtle]]
+  - Success Rate: Beginner 25%, Intermediate 35%, Advanced 45%
+
+- **[[Technical Stand Up]]** → [[Standing Position]]
+  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+
+- **[[Counter Roll to Top]]** → [[Side Control]]
+  - Success Rate: Beginner 5%, Intermediate 15%, Advanced 25%
+
+- **[[Granby Roll Escape]]** → [[Open Guard]]
+  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+
+- **[[Submission Escape Protocol]]** → [[Defensive Position]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Using trapped arm to push or frame, creating additional leverage for opponent's control**
+  - Consequence: Increases opponent's control tightness and accelerates arm fatigue while making recovery impossible
+  - ✅ Correction: Keep trapped arm relaxed and use free arm exclusively for defensive actions; focus on hip movement and body positioning rather than arm strength
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](gift-wrap/bottom)**
+- ❌ **Neglecting neck defense to focus entirely on arm recovery**
+  - Consequence: Creates opening for rear naked choke that can finish the match immediately
+  - ✅ Correction: Maintain constant neck protection with free hand while using hip and shoulder movements for arm recovery; prioritize submission defense over positional escape
+
+- ❌ **Explosive bridging or rolling without creating angles first**
+  - Consequence: Wastes energy while opponent easily follows movement and maintains control
+  - ✅ Correction: Create angles with hip escapes before explosive movements; use shrimping to misalign hips first, then add explosive bridging when opponent is off-balance
+
+- ❌ **Allowing body to flatten completely against mat**
+  - Consequence: Eliminates hip mobility and makes all escape attempts significantly more difficult while increasing opponent's pressure advantage
+  - ✅ Correction: Maintain side positioning with shoulder and hip off mat; fight to stay on side rather than flat on back even while defending submissions
+
+- ❌ **Grabbing opponent's legs or hooks instead of addressing arm trap**
+  - Consequence: Leaves primary control mechanism intact while wasting defensive energy on secondary controls
+  - ✅ Correction: Address arm trap as primary concern; once arm is recovered, defensive options multiply dramatically including hook removal and guard recovery
+
+- ❌ **Panicking and making random escape attempts without strategic sequence**
+  - Consequence: Creates opportunities for opponent to advance position or secure submissions during uncontrolled movements
+  - ✅ Correction: Follow systematic escape hierarchy: neck defense first, arm recovery second, position escape third; maintain composure and execute each step methodically
+
+
+👉 **[[Gift Wrap/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -147,12 +204,67 @@ The top player in gift wrap balances control maintenance with submission attacks
 ### Primary Techniques
 
 
+- **[[Rear Naked Choke]]** → [[Won by Submission]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Armbar on Free Arm]]** → [[Armbar Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Transition to Crucifix]]** → [[Crucifix]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Transition to Technical Mount]]** → [[Technical Mount]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Short Choke Attack]]** → [[Won by Submission]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Bow and Arrow Choke Setup]]** → [[Won by Submission]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Body Triangle Lock]]** → [[Body Triangle]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Kimura on Trapped Arm]]** → [[Kimura Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Focusing entirely on arm trap while neglecting fundamental back control maintenance (hooks, chest connection)**
+  - Consequence: Opponent escapes entire position despite arm trap because basic back control structure has broken down
+  - ✅ Correction: Maintain back control fundamentals as primary priority with arm trap as enhancement; hooks must stay in, chest must stay connected, hips must stay aligned even while managing arm trap
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](gift-wrap/top)**
+- ❌ **Pulling trapped arm too low toward opponent's hip or waist area**
+  - Consequence: Creates space for opponent to recover arm through shoulder rotation and reduces submission setup effectiveness
+  - ✅ Correction: Keep trapped arm pulled high across opponent's chest toward opposite shoulder; high arm position prevents recovery and maintains submission threatening posture
+
+- ❌ **Attempting submissions immediately without consolidating Gift Wrap control first**
+  - Consequence: Rushed submission attempts fail and opponent uses the transition to escape position entirely
+  - ✅ Correction: Take time to establish tight Gift Wrap control with proper arm positioning and back control maintenance before attacking; control before submission principle applies
+
+- ❌ **Using excessive force or pain to maintain arm trap rather than proper positioning**
+  - Consequence: Opponent taps to pain submission rather than proper technique, or referee intervenes; also wastes energy maintaining uncomfortable position
+  - ✅ Correction: Use mechanical positioning rather than strength to maintain arm trap; proper angle and arm threading creates control without excessive force
+
+- ❌ **Maintaining static Gift Wrap position without progressing to submissions or better positions**
+  - Consequence: Referee may call stalling and restart position; also allows opponent time to develop defensive solutions
+  - ✅ Correction: Use Gift Wrap as transitional control to set up submissions or advance to mount, crucifix, or other dominant positions within reasonable timeframe
+
+- ❌ **Releasing arm trap to attempt submissions with both hands**
+  - Consequence: Loses primary control advantage and opponent immediately recovers full defensive capability
+  - ✅ Correction: Work submissions while maintaining arm trap whenever possible; if trap must be released, ensure back control and submission setup are so advanced that arm recovery won't prevent finish
+
+- ❌ **Crossing feet when using hooks while maintaining Gift Wrap**
+  - Consequence: Creates straight ankle lock opportunity for opponent despite dominant position
+  - ✅ Correction: Keep feet uncrossed with hooks properly positioned inside opponent's thighs; use body triangle as alternative leg control if ankle lock defense is concern
+
+
+👉 **[[Gift Wrap/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -178,16 +290,6 @@ The top player in gift wrap balances control maintenance with submission attacks
 - **[[Body Triangle]]** - Leg control option - can combine with Gift Wrap arm control
 
 - **[[Harness]]** - Alternative back grip - can transition between harness and Gift Wrap
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](gift-wrap/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](gift-wrap/top)** - Techniques and strategies
-
 
 
 </section>

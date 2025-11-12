@@ -82,6 +82,18 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Lapel Guard/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
+- **[[Lapel Guard/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Lapel Guard Bottom Perspective
@@ -111,12 +123,66 @@ The bottom player in lapel guard controls the position with offensive attacks in
 ### Primary Techniques
 
 
+- **[[Worm Guard Entry]]** → [[Worm Guard]]
+  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+
+- **[[Squid Guard Entry]]** → [[Squid Guard]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Ringworm Guard Entry]]** → [[Ringworm Guard]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+
+- **[[Lapel Sweep to Back]]** → [[Back Control]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Lapel Omoplata Entry]]** → [[Omoplata Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
+- **[[Lapel Triangle Setup]]** → [[Triangle Control]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+
+- **[[Lapel to Lasso Transition]]** → [[Lasso Guard]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Lapel to Spider Transition]]** → [[Spider Guard]]
+  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+
+- **[[Lapel to De La Riva]]** → [[De La Riva Guard]]
+  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+
+- **[[Lapel Elevator Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
 
 ### Common Errors
 
 
+- ❌ **Relying exclusively on lapel grip without maintaining leg frames or hip mobility**
+  - Consequence: Opponent can pass around the lapel control using toreando or pressure passing, rendering the lapel configuration irrelevant
+  - ✅ Correction: Use lapel as supplementary control point while maintaining active leg frames and mobile hips—the lapel enhances but doesn't replace fundamental guard retention
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](lapel-guard/bottom)**
+- ❌ **Attempting complex lapel configurations while opponent has dominant grips established**
+  - Consequence: Opponent initiates pass before lapel configuration is complete, catching the bottom player in vulnerable transition
+  - ✅ Correction: Establish lapel control early in the exchange before opponent secures passing grips, or break opponent's grips before beginning lapel configuration
+
+- ❌ **Holding lapel fabric with overly tight grip using excessive forearm strength**
+  - Consequence: Rapid forearm fatigue compromises grip endurance, causing lapel control to fail in extended exchanges
+  - ✅ Correction: Use structural grip relying on skeletal alignment rather than muscular squeeze—hook fingers through lapel and use body positioning to maintain tension
+
+- ❌ **Failing to adjust lapel configuration when opponent changes their passing angle or posture**
+  - Consequence: Static lapel configuration becomes ineffective as opponent navigates around it, leading to guard pass
+  - ✅ Correction: Flow between worm, squid, and other lapel configurations based on opponent's movement—treat lapel guard as dynamic system rather than static position
+
+- ❌ **Pursuing lapel attacks without creating genuine dilemmas that force opponent to choose**
+  - Consequence: Opponent can defend all attacks simultaneously by maintaining good posture and base, neutralizing offensive threats
+  - ✅ Correction: Structure attacks so defending sweep opens submission and defending submission opens sweep—force opponent into lose-lose decisions
+
+- ❌ **Using lapel guard in no-gi training or scenarios without gi grips available**
+  - Consequence: Developing over-reliance on gi-specific strategies that don't translate to no-gi or self-defense contexts
+  - ✅ Correction: Balance lapel guard development with no-gi alternatives like butterfly, X-guard, or leg entanglements for complete guard game
+
+
+👉 **[[Lapel Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -149,12 +215,60 @@ The top player in lapel guard manages the position strategically based on oppone
 ### Primary Techniques
 
 
+- **[[Lapel Clear to Toreando Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Backstep Around Worm Guard]]** → [[Turtle]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+
+- **[[Pressure Pass Through Squid]]** → [[Half Guard Pass]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+
+- **[[Knee Slice Despite Lapel]]** → [[Knee on Belly]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Long Step Around Ringworm]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+
+- **[[Stack Pass Over Lapel Barrier]]** → [[Mount]]
+  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+
+- **[[Distance Creation to Reset]]** → [[Standing Guard]]
+  - Success Rate: Beginner 50%, Intermediate 70%, Advanced 85%
+
+- **[[Leg Drag While Clearing Lapel]]** → [[Leg Drag Control]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+
 
 ### Common Errors
 
 
+- ❌ **Attempting standard pressure passing without addressing lapel configuration**
+  - Consequence: Lapel fabric creates barrier that prevents hip contact, resulting in failed passing attempt and exposure to sweeps or back takes
+  - ✅ Correction: First clear or neutralize lapel configuration, then apply passing pressure—don't try to pass through a mechanical barrier
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](lapel-guard/top)**
+- ❌ **Using excessive force to rip lapel free from opponent's control**
+  - Consequence: Rapid grip fatigue, potential gi damage, and often unsuccessful as fabric is wrapped around body parts rather than just gripped
+  - ✅ Correction: Use technical lapel clearing sequences that address the configuration systematically, unwinding or navigating around rather than forcing
+
+- ❌ **Allowing opponent time and space to establish complex lapel configurations**
+  - Consequence: Fighting against fully-developed ringworm or multi-layer configurations is exponentially more difficult than preventing their establishment
+  - ✅ Correction: Engage immediately with dominant grips and pressure when opponent begins extracting lapel, preventing configuration before it's complete
+
+- ❌ **Maintaining static base position while opponent adjusts lapel configuration**
+  - Consequence: Opponent fine-tunes their control while you remain stuck in compromised position with no progress toward passing
+  - ✅ Correction: Constant movement and angle changes prevent opponent from establishing clean lapel configurations—be difficult to configure
+
+- ❌ **Ignoring which specific lapel guard variation opponent is using**
+  - Consequence: Applying wrong technical solution (worm guard pass to squid guard configuration) results in failed pass and wasted energy
+  - ✅ Correction: Identify specific variation (worm, squid, ringworm, etc.) and apply corresponding technical solution designed for that configuration
+
+- ❌ **Pulling backward to escape lapel control instead of passing forward**
+  - Consequence: Creates distance but resets exchange without progress, essentially stalling rather than advancing position
+  - ✅ Correction: Clear lapel configuration while simultaneously advancing passing position—solve problem and make progress in single action
+
+
+👉 **[[Lapel Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -184,16 +298,6 @@ The top player in lapel guard manages the position strategically based on oppone
 - **[[Closed Guard]]** - Can transition to lapel guards when opponent begins to open guard
 
 - **[[Half Guard]]** - Backup position when lapel guard is partially passed
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](lapel-guard/bottom)** - Sweeps, attacks, and submissions
-- **[Top Perspective](lapel-guard/top)** - Techniques and strategies
-
 
 
 </section>

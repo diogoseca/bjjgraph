@@ -84,6 +84,18 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Grasshopper Guard/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
+- **[[Grasshopper Guard/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Grasshopper Guard Bottom Perspective
@@ -113,12 +125,66 @@ The bottom player in grasshopper guard controls the position with offensive atta
 ### Primary Techniques
 
 
+- **[[Kneebar from Grasshopper]]** → [[Kneebar Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+
+- **[[Straight Ankle Lock Entry]]** → [[Straight Ankle Lock Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
+
+- **[[Single Leg X Transition]]** → [[Single Leg X-Guard]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[X-Guard Elevation Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 70%
+
+- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Rolling Kneebar]]** → [[Kneebar Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+
+- **[[Grasshopper Sweep]]** → [[Half Guard]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Technical Standup from Inversion]]** → [[Standing Guard]]
+  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+
+- **[[50-50 Entry]]** → [[50-50 Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+
+- **[[Reverse De La Riva Recovery]]** → [[Reverse De La Riva Guard]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
 
 ### Common Errors
 
 
+- ❌ **Remaining static in inverted position without threatening attacks**
+  - Consequence: Allows opponent time to establish grips, step over legs, or initiate stack pass with overwhelming pressure
+  - ✅ Correction: Treat grasshopper as transitional - immediately flow toward leg entanglement, sweep attempt, or guard recovery within 3-5 seconds of inverting
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](grasshopper-guard/bottom)**
+- ❌ **Insufficient hip elevation, allowing hips to sag toward mat**
+  - Consequence: Eliminates sweeping leverage and makes it easy for opponent to flatten you completely or step over legs to side control
+  - ✅ Correction: Actively engage core to keep hips at chest height minimum - think of pushing hips toward ceiling throughout position
+
+- ❌ **Losing leg contact with opponent while inverted**
+  - Consequence: Opponent freely disengages, circles to advantageous angle, or initiates passing sequence without obstruction
+  - ✅ Correction: Maintain at least one leg hooking, threading, or controlling opponent's lower body at all times - if you lose contact, immediately roll to reestablish
+
+- ❌ **Poor shoulder positioning, rolling onto one shoulder blade**
+  - Consequence: Creates instability that makes it difficult to generate power for sweeps or adjust angles for leg attacks
+  - ✅ Correction: Distribute weight evenly across both shoulder blades for stable platform - adjust by micro-rolling your upper back rather than committing to one side
+
+- ❌ **Attempting to hold grasshopper too long, allowing fatigue to accumulate**
+  - Consequence: Core exhaustion leads to position collapse, making you vulnerable to heavy stack passes or mount attacks
+  - ✅ Correction: Use grasshopper in 10-15 second bursts maximum - commit fully to one attack path, then transition to more sustainable position regardless of outcome
+
+- ❌ **Neglecting head position and losing visual tracking of opponent**
+  - Consequence: Cannot anticipate opponent's movement or pressure changes, leading to late reactions and failed attacks
+  - ✅ Correction: Keep chin tucked but eyes tracking opponent's hips and upper body - your peripheral vision should monitor both their base and your leg positioning
+
+
+👉 **[[Grasshopper Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -151,12 +217,63 @@ The top player in grasshopper guard balances control maintenance with submission
 ### Primary Techniques
 
 
+- **[[Back Step Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Leg Drag Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Stack Pass from Inversion]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
+- **[[Step Over to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+
+- **[[Knee Cut Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Sprawl and Disengage]]** → [[Standing Position]]
+  - Success Rate: Beginner 50%, Intermediate 70%, Advanced 85%
+
+- **[[Toreando Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Cartwheel Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+
+- **[[Pressure Pass through Center]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
 
 ### Common Errors
 
 
+- ❌ **Driving forward with constant heavy pressure against inverted guard**
+  - Consequence: Feeds directly into bottom player's sweeping mechanics and makes you vulnerable to elevation attacks and X-guard transitions
+  - ✅ Correction: Use pressure selectively during transition windows when bottom player's hips drop or inversion weakens - otherwise maintain base and wait for opportunities
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](grasshopper-guard/top)**
+- ❌ **Allowing both legs to remain in bottom player's engagement zone simultaneously**
+  - Consequence: Creates easy leg entanglement opportunities and limits your mobility to escape or pass effectively
+  - ✅ Correction: Always keep one leg back and free as safety valve - only commit one leg forward into their range while other remains ready to step back or circle
+
+- ❌ **Staying static in standing position without movement or angle changes**
+  - Consequence: Allows bottom player to set up optimal inversion angle and timing for their attacks without having to adjust
+  - ✅ Correction: Constantly make small circling steps and base adjustments to force bottom player to work harder to maintain connection and track your movement
+
+- ❌ **Bending at waist or reaching down toward bottom player's legs**
+  - Consequence: Compromises posture and makes you highly vulnerable to rolling kneebar attacks and sweep elevations
+  - ✅ Correction: Maintain upright posture with straight back - if you need to engage lower, drop your level by bending knees rather than waist
+
+- ❌ **Panicking and jumping or pulling leg away when entanglement starts**
+  - Consequence: Explosive reactions often complete the entanglement for opponent and can result in injury if they already have partial control
+  - ✅ Correction: Stay calm and methodically back step or clear the entanglement systematically - slow, controlled leg extraction is safer and more effective than explosive reactions
+
+- ❌ **Attempting to pass before fully controlling or clearing bottom player's legs**
+  - Consequence: Results in failed pass attempts where you end up in worse positions or with legs trapped in defensive guard structures
+  - ✅ Correction: Establish leg control or clearance first through back step, leg drag, or sprawl, then advance to passing - sequence these actions deliberately
+
+
+👉 **[[Grasshopper Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -182,16 +299,6 @@ The top player in grasshopper guard balances control maintenance with submission
 - **[[K-Guard]]** - Shares leg configuration concepts with different base structure
 
 - **[[Reverse De La Riva Guard]]** - Connected system when opponent circles to back side
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](grasshopper-guard/bottom)** - Sweeps, attacks, and submissions
-- **[Top Perspective](grasshopper-guard/top)** - Techniques and strategies
-
 
 
 </section>

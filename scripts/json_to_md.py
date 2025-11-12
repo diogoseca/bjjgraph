@@ -40,18 +40,27 @@ def load_json_file(json_path):
         sys.exit(1)
 
 
-def detect_position_template_type(json_file):
-    """Detect which Positions template to use via filesystem structure"""
-    json_path = Path(json_file)
-    position_name = json_path.stem
-    variant_folder = json_path.parent / position_name
+def detect_position_template_type(json_file, data=None):
+    """Detect which Positions template to use based on JSON structure
 
-    if not variant_folder.exists() or not variant_folder.is_dir():
+    - SINGLE: No bottom/top sections (neutral positions)
+    - DUAL: Has bottom and top sections, no variations array
+    - FAMILY: Has bottom, top, AND variations array (position with variants)
+    """
+    # Load data if not provided
+    if data is None:
+        data = load_json_file(json_file)
+
+    # Check if has bottom/top sections (DUAL or FAMILY)
+    has_bottom_top = 'bottom' in data and 'top' in data
+
+    if not has_bottom_top:
         return 'SINGLE'
 
-    json_files_in_folder = list(variant_folder.glob("*.json"))
+    # Check if has variations array (FAMILY)
+    has_variations = 'variations' in data and len(data.get('variations', [])) > 0
 
-    if len(json_files_in_folder) > 0:
+    if has_variations:
         return 'FAMILY'
     else:
         return 'DUAL'
@@ -185,8 +194,8 @@ def process_json_file(json_path, dry_run=False):
         write_markdown_file(md_path, markdown_content, dry_run)
         return [md_path]
 
-    # Positions: detect template type
-    template_type = detect_position_template_type(json_path)
+    # Positions: detect template type based on JSON structure
+    template_type = detect_position_template_type(json_path, data)
 
     if template_type == 'SINGLE':
         # Render single file
@@ -219,17 +228,18 @@ def process_json_file(json_path, dry_run=False):
         generated_files.append(hub_path)
 
         # Render bottom page
+        position_name = data.get('name', json_path.stem)  # Use position name for clean URLs
         bottom_template = load_template(category, "TEMPLATE-BOTTOM.md.jinja2")
-        bottom_content = bottom_template.render(bottom=data['bottom'], slug=data.get('slug', json_path.stem))
-        bottom_path = json_path.parent / data.get('slug', json_path.stem) / "bottom.md"
+        bottom_content = bottom_template.render(bottom=data['bottom'], position_name=position_name)
+        bottom_path = json_path.parent / position_name / "Bottom.md"
         bottom_path.parent.mkdir(parents=True, exist_ok=True)
         write_markdown_file(bottom_path, bottom_content, dry_run)
         generated_files.append(bottom_path)
 
         # Render top page
         top_template = load_template(category, "TEMPLATE-TOP.md.jinja2")
-        top_content = top_template.render(top=data['top'], slug=data.get('slug', json_path.stem))
-        top_path = json_path.parent / data.get('slug', json_path.stem) / "top.md"
+        top_content = top_template.render(top=data['top'], position_name=position_name)
+        top_path = json_path.parent / position_name / "Top.md"
         write_markdown_file(top_path, top_content, dry_run)
         generated_files.append(top_path)
 

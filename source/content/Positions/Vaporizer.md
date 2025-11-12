@@ -74,6 +74,18 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Vaporizer/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Vaporizer/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Vaporizer Bottom Perspective
@@ -103,12 +115,54 @@ The bottom player in vaporizer navigates both offensive and defensive opportunit
 ### Primary Techniques
 
 
+- **[[Old School Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Transition to Truck]]** → [[Truck]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Electric Chair Submission]]** → [[Electric Chair]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Transition to Omoplata]]** → [[Omoplata Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Rolling Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Lockdown Sweeps]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
 
 ### Common Errors
 
 
+- ❌ **Failing to maintain constant lockdown pressure and allowing opponent's leg to relax**
+  - Consequence: Opponent can extract their leg, regain posture, and escape back to standard half guard top or pass completely
+  - ✅ Correction: Continuously extend the trapped leg away while keeping the lockdown tight, never allowing slack in the configuration
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](vaporizer/bottom)**
+- ❌ **Attempting whip-up motion without proper upper body control secured first**
+  - Consequence: Opponent can base out with their arms, maintain posture, and counter the sweep attempt while retaining top position
+  - ✅ Correction: Establish firm underhook or overhook before initiating whip-up, ensuring upper body control prevents opponent from posting effectively
+
+- ❌ **Using only arm strength for the whip-up instead of coordinating hips and core**
+  - Consequence: Technique becomes ineffective and exhausting, allowing opponent to weather the pressure and eventually escape or pass
+  - ✅ Correction: Drive the whip-up motion from the hips and core, using the underhook as a guide rather than the primary source of power
+
+- ❌ **Maintaining static position without creating movement or threatening transitions**
+  - Consequence: Opponent can settle into defensive posture, wait for fatigue, and methodically work to clear the lockdown
+  - ✅ Correction: Constantly threaten multiple attacks - sweeps, submissions, and transitions - to keep opponent reactive and prevent them from mounting organized defense
+
+- ❌ **Allowing too much distance between bodies during the control phase**
+  - Consequence: Opponent creates space to clear the lockdown, regain posture, or begin passing sequence
+  - ✅ Correction: Maintain tight connection with chest-to-chest or chest-to-side contact, using lockdown and underhook to eliminate space
+
+- ❌ **Committing fully to one attack without reading opponent's defensive reactions**
+  - Consequence: Opponent can focus all defensive energy on stopping single threat, potentially reversing position or escaping
+  - ✅ Correction: Use feints and multi-attack sequences, transitioning between threats based on how opponent defends each attempt
+
+
+👉 **[[Vaporizer/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -141,12 +195,58 @@ The top player in vaporizer manages the position strategically based on opponent
 ### Primary Techniques
 
 
+- **[[Half Guard Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Smash Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Pressure Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Base Widening]]** → [[Combat Base]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Whizzer]]** → [[Half Guard]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Attempting to pull trapped leg free with explosive force instead of systematic clearing technique**
+  - Consequence: Creates space and energy expenditure that bottom opponent uses to tighten lockdown, advance to Electric Chair, or sweep
+  - ✅ Correction: Use controlled leg circulation movements and strategic weight shifts to gradually loosen lockdown configuration while maintaining defensive posture
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](vaporizer/top)**
+- ❌ **Allowing bottom opponent to maintain underhook without immediate defensive response**
+  - Consequence: Gives bottom opponent the leverage needed for effective whip-up motion, leading to sweeps or positional advancements to Truck or back control
+  - ✅ Correction: Immediately counter underhook with whizzer or establish crossface control to neutralize upper body manipulation
+
+- ❌ **Maintaining narrow base and high posture that makes whip-up motion effective**
+  - Consequence: Bottom opponent easily rolls top player to side or back, completing Old School sweep or transitioning to more dominant attacking positions
+  - ✅ Correction: Widen base immediately by sprawling trapped leg and posting free leg wide, lowering center of gravity to create stable platform resistant to lateral rolling
+
+- ❌ **Committing excessive weight forward in attempt to pressure through the position**
+  - Consequence: Plays directly into Electric Chair submission setup and makes rolling back takes significantly easier for bottom opponent
+  - ✅ Correction: Distribute weight strategically with heavy shoulder pressure while keeping hips mobile and ready to adjust based on opponent's attacks
+
+- ❌ **Focusing only on clearing lockdown while ignoring upper body control battle**
+  - Consequence: Even with leg free, bottom opponent uses underhook or overhook to continue controlling posture and preventing effective passing
+  - ✅ Correction: Address both lockdown and upper body control simultaneously through coordinated movements that neutralize multiple control points
+
+- ❌ **Remaining static and passive while attempting to wait out the position**
+  - Consequence: Gives bottom opponent time to perfect their controls, tighten the lockdown, and set up high-percentage submissions or sweeps
+  - ✅ Correction: Maintain constant active defense with small adjustments, pressure changes, and positional improvements that prevent bottom opponent from settling into optimal attacking configuration
+
+- ❌ **Posting hand on mat too close to bottom opponent's hip during whip-up defense**
+  - Consequence: Creates perfect leverage point for Old School sweep completion or allows easy transition to Truck position
+  - ✅ Correction: Post hands wide and maintain them positioned to support lateral stability without giving opponent leverage points for sweeps
+
+
+👉 **[[Vaporizer/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -172,16 +272,6 @@ The top player in vaporizer manages the position strategically based on opponent
 - **[[Deep Half Guard]]** - Alternative half guard control approach
 
 - **[[Z-Guard]]** - Related half guard variant with leg control emphasis
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](vaporizer/bottom)** - Techniques and strategies
-- **[Top Perspective](vaporizer/top)** - Techniques and strategies
-
 
 
 </section>

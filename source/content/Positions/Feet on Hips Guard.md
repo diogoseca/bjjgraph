@@ -78,6 +78,18 @@ The position excels against standing and combat base opponents, using leg extens
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Feet on Hips Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Feet on Hips Guard/Top|Top Perspective]]** - Submissions and positional attacks
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Feet on Hips Guard Bottom Perspective
@@ -107,12 +119,67 @@ The bottom player in feet on hips guard balances defensive frames with offensive
 ### Primary Techniques
 
 
+- **[[Scissor Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Pendulum Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Hip Bump Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Triangle Setup]]** → [[Triangle Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Omoplata Sweep]]** → [[Omoplata Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[De La Riva Sweep]]** → [[De La Riva Guard]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[X-Guard Sweep]]** → [[X-Guard]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Single Leg X Sweep]]** → [[Single Leg X-Guard]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Elevator Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 38%, Intermediate 53%, Advanced 68%
+
 
 ### Common Errors
 
 
+- ❌ **Placing feet on opponent's thighs instead of hip bones**
+  - Consequence: Reduced leverage and pushing power, allowing opponent to easily control legs and initiate passing sequences
+  - ✅ Correction: Focus foot placement specifically on bony hip landmarks (ASIS), creating maximum structural connection and pushing efficiency
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](feet-on-hips-guard/bottom)**
+- ❌ **Allowing hips to flatten to mat with lower back touching ground**
+  - Consequence: Loss of mobility and frame effectiveness, enabling opponent to settle weight and advance guard pass progression
+  - ✅ Correction: Maintain constant hip elevation with active core engagement, creating curved spine position that preserves movement options
+
+- ❌ **Extending arms rigidly without active grip fighting**
+  - Consequence: Opponent easily controls wrists or sleeves, neutralizing upper body defense and creating passing opportunities
+  - ✅ Correction: Keep arms mobile with constant grip fighting, breaking opponent's grips while establishing your own advantageous connections
+
+- ❌ **Failing to track opponent's movement with hip rotation**
+  - Consequence: Opponent circles to side or back, bypassing frames and achieving dominant passing angles
+  - ✅ Correction: Walk hips continuously to face opponent squarely, adjusting foot pressure and angles to maintain centered defensive structure
+
+- ❌ **Remaining static in feet-on-hips position without transitioning**
+  - Consequence: Opponent eventually finds grip combinations or passing angles to defeat the guard through persistence
+  - ✅ Correction: Use feet-on-hips as transitional position, constantly threatening sweeps, submissions, or guard changes to prevent opponent settling
+
+- ❌ **Allowing opponent to control ankles without immediate response**
+  - Consequence: Loss of distance management capability and exposure to stack passes, leg weave passes, and other ankle-control-based attacks
+  - ✅ Correction: React immediately to ankle grabs by retracting legs, changing angles, or transitioning to different guard configuration
+
+- ❌ **Pushing with feet without coordinated pulling with hands**
+  - Consequence: Opponent maintains balanced posture despite leg pressure, preventing effective sweeps or off-balancing
+  - ✅ Correction: Synchronize pushing and pulling forces through simultaneous leg extension and grip manipulation to break opponent's base
+
+
+👉 **[[Feet on Hips Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -145,12 +212,61 @@ The top player in feet on hips guard enjoys offensive advantages with access to 
 ### Primary Techniques
 
 
+- **[[Toreando Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Knee Cut Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Leg Drag Pass]]** → [[Leg Drag Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Double Under Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Long Step Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[X Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Stack Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Attempting to pass without controlling the knees first**
+  - Consequence: Bottom player easily re-establishes guard or executes sweeps using full leg extension
+  - ✅ Correction: Establish strong pants grips at the knees before initiating any passing movement to neutralize leg frames
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](feet-on-hips-guard/top)**
+- ❌ **Standing too upright with poor base and elevated center of gravity**
+  - Consequence: Vulnerable to push sweeps and loss of balance from leg extension pressure
+  - ✅ Correction: Maintain low, athletic stance with weight distributed evenly and hips engaged for stability
+
+- ❌ **Allowing bottom player to establish sleeve grips without fighting**
+  - Consequence: Bottom player transitions to spider guard or lasso guard with increased control and sweep opportunities
+  - ✅ Correction: Fight grips aggressively and keep elbows tight to prevent sleeve control while establishing pants grips
+
+- ❌ **Rushing the pass without breaking frames methodically**
+  - Consequence: Bottom player pushes you away or off-balances you with coordinated leg and grip pressure
+  - ✅ Correction: Methodically break one frame at a time before committing to pass, ensuring control throughout
+
+- ❌ **Keeping weight too far back away from the engagement**
+  - Consequence: Bottom player maintains distance and can attack with submissions or establish better guards
+  - ✅ Correction: Apply constant forward pressure while maintaining balance to prevent guard recovery
+
+- ❌ **Ignoring De La Riva hook threats during frame breaking**
+  - Consequence: Bottom player establishes De La Riva and sweeps or takes the back during passing attempt
+  - ✅ Correction: Keep knee line awareness and clear hooks immediately when they appear before continuing pass
+
+- ❌ **Using upper body strength to force through frames without technique**
+  - Consequence: Energy depletion and exposure to submissions when frames eventually collapse you forward
+  - ✅ Correction: Use grip control and angle changes to systematically dismantle frames rather than forcing through
+
+
+👉 **[[Feet on Hips Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -184,16 +300,6 @@ The top player in feet on hips guard enjoys offensive advantages with access to 
 - **[[Combat Base]]** - Common opponent posture when facing feet-on-hips frames
 
 - **[[Standing Position]]** - Alternative opponent posture requiring different distance management
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](feet-on-hips-guard/bottom)** - Techniques and strategies
-- **[Top Perspective](feet-on-hips-guard/top)** - Submissions and positional attacks
-
 
 
 </section>

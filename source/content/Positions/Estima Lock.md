@@ -76,6 +76,18 @@ From the top attacking perspective, the position offers significant control adva
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Estima Lock/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Estima Lock/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Estima Lock Bottom Perspective
@@ -105,12 +117,54 @@ The bottom player in estima lock must focus on creating frames, protecting again
 ### Primary Techniques
 
 
+- **[[Ashi Garami Escape]]** → [[Open Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Leg Extraction]]** → [[Seated Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Counter Sweep]]** → [[Estima Lock]]
+  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+
+- **[[Saddle Defense]]** → [[Half Guard]]
+  - Success Rate: Beginner 18%, Intermediate 30%, Advanced 45%
+
+- **[[Technical Standup]]** → [[Standing Position]]
+  - Success Rate: Beginner 12%, Intermediate 22%, Advanced 35%
+
+- **[[Rolling Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 10%, Intermediate 18%, Advanced 30%
+
 
 ### Common Errors
 
 
+- ❌ **Straightening the trapped leg completely and pushing directly into the lock**
+  - Consequence: Dramatically increases pressure on ankle joint and accelerates submission, potentially causing injury before tap can be recognized
+  - ✅ Correction: Keep slight bend in knee and use circular hip movements to reduce linear pressure on the ankle while working escape angles
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](estima-lock/bottom)**
+- ❌ **Grabbing opponent's hands or wrists in attempt to break the grip without addressing body position**
+  - Consequence: Wastes energy on ineffective grip fighting while opponent maintains positional control and can simply re-grip or finish the submission
+  - ✅ Correction: Prioritize creating frames on opponent's hips or torso to generate space first, then address grips systematically while maintaining defensive structure
+
+- ❌ **Ignoring the free leg and leaving it passive during escape attempts**
+  - Consequence: Loses critical leverage point and defensive tool, allowing opponent to control both legs or advance position without resistance
+  - ✅ Correction: Actively use free leg to push opponent's hips, hook their legs, or create butterfly hooks that enable sweeps and create escape opportunities
+
+- ❌ **Attempting explosive spinning or rolling movements without proper setup**
+  - Consequence: Increases torque on trapped ankle dangerously, can cause injury, and typically results in opponent following the movement while maintaining the lock
+  - ✅ Correction: Execute controlled technical movements with proper frames established first, using incremental position improvements rather than explosive gambling
+
+- ❌ **Waiting too long to tap when lock is fully secured and deepening**
+  - Consequence: Risk of serious ankle, Achilles tendon, or foot ligament injury that can require months of recovery and impact training consistency
+  - ✅ Correction: Recognize point of no return based on pain level and mechanical completion—tap early and preserve joint health for long-term training
+
+- ❌ **Focusing only on the trapped leg while neglecting upper body positioning**
+  - Consequence: Allows opponent to flatten bottom player completely, eliminating hip mobility and making all escapes significantly more difficult or impossible
+  - ✅ Correction: Maintain active upper body with posting hands, turning shoulders toward trapped leg, and keeping hips mobile to preserve escape angles
+
+
+👉 **[[Estima Lock/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +197,54 @@ The top player in estima lock balances control maintenance with submission attac
 ### Primary Techniques
 
 
+- **[[Estima Lock]]** → [[Won by Submission]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Toe Hold]]** → [[Toe Hold Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Transition to Saddle]]** → [[Saddle]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Kneebar]]** → [[Kneebar Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Transition to Ashi Garami]]** → [[Ashi Garami]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
 
 ### Common Errors
 
 
+- ❌ **Releasing control with one hand too early to increase pressure**
+  - Consequence: Opponent immediately extracts their foot and escapes the position completely losing all submission threat
+  - ✅ Correction: Maintain two-handed control throughout the entire submission attempt; only adjust grip when you have secure alternative control established
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](estima-lock/top)**
+- ❌ **Attempting to finish the Estima Lock with only pulling motion instead of rotation**
+  - Consequence: Minimal pressure on the ankle joint and easy defense for the opponent who can simply pull their foot back
+  - ✅ Correction: Combine pulling pressure with rotational motion, using your forearm as a fulcrum across the top of the foot while rotating the heel toward the opponent's body
+
+- ❌ **Positioning too far from the opponent's hips without proper leg isolation**
+  - Consequence: Loss of control as opponent creates space and recovers their leg by retracting knee toward their body
+  - ✅ Correction: Keep your hips close to the opponent's extended leg, using your body weight and hip pressure against their calf to maintain control and prevent retraction
+
+- ❌ **Neglecting to control the opponent's free leg allowing defensive frames**
+  - Consequence: Opponent posts with their free leg and escapes or reverses position through sweeps or scrambles
+  - ✅ Correction: Use your legs or body position to limit the opponent's free leg mobility while attacking the trapped leg maintaining comprehensive control
+
+- ❌ **Applying submission pressure too quickly without proper control establishment**
+  - Consequence: Risk of injury to training partner and reduced positional control allowing escapes before submission completion
+  - ✅ Correction: Establish complete positional control first, then apply gradual pressure with clear communication during training and measured force in competition
+
+- ❌ **Failing to adjust when opponent defends by turning their foot or changing angles**
+  - Consequence: Stalled position with no submission threat and wasted energy maintaining ineffective control
+  - ✅ Correction: Be prepared to transition to alternative attacks like toe hold, straight ankle lock, or ashi garami when the opponent adjusts their defensive positioning
+
+
+👉 **[[Estima Lock/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -180,16 +276,6 @@ The top player in estima lock balances control maintenance with submission attac
 - **[[Open Guard]]** - Recovery target position when successfully escaping Estima Lock entanglement
 
 - **[[Turtle]]** - Transitional position that can lead to leg entanglement scenarios including Estima Lock setups
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](estima-lock/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](estima-lock/top)** - Techniques and strategies
-
 
 
 </section>

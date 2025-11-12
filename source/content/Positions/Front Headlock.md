@@ -82,6 +82,18 @@ Understanding the front headlock requires recognizing its role as a transitional
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Front Headlock/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Front Headlock/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Front Headlock Bottom Perspective
@@ -111,12 +123,54 @@ The bottom player in front headlock must focus on creating frames, protecting ag
 ### Primary Techniques
 
 
+- **[[Technical Standup]]** → [[Standing Position]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Granby Roll]]** → [[Closed Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Turtle to Guard]]** → [[Half Guard]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Stand and Circle Away]]** → [[Standing Rear Clinch]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Roll Through to Reversal]]** → [[Turtle]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Arm Drag Escape]]** → [[Back Control]]
+  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+
 
 ### Common Errors
 
 
+- ❌ **Lifting head up or extending neck while attempting to escape**
+  - Consequence: Immediately exposes neck to guillotine, anaconda, or darce choke finish
+  - ✅ Correction: Keep chin permanently tucked to chest throughout entire escape sequence, only lifting head after completely clearing opponent's control
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](front-headlock/bottom)**
+- ❌ **Staying static on hands and knees hoping opponent will give up position**
+  - Consequence: Allows opponent time to perfect their grip and weight distribution, making eventual submission inevitable
+  - ✅ Correction: Constantly move and change levels - work to stand, circle, or roll through - never remain stationary
+
+- ❌ **Using both hands to push on opponent's hips or body without controlling choking arm**
+  - Consequence: Opponent has free access to lock up guillotine, anaconda, or darce without interference
+  - ✅ Correction: Always keep one hand fighting opponent's choking arm at wrist or elbow while other hand frames or posts
+
+- ❌ **Attempting to pull head straight back out of opponent's control**
+  - Consequence: Plays directly into opponent's pulling force, tightening choke and wasting energy ineffectively
+  - ✅ Correction: Escape perpendicular to opponent's force by circling to sides or rolling forward, never pulling straight back
+
+- ❌ **Flattening completely to mat in turtle with opponent on top**
+  - Consequence: Eliminates all mobility and escape options while giving opponent stable platform to finish chokes or take back
+  - ✅ Correction: Maintain space between chest and mat even under heavy pressure - keep knees under hips ready to move
+
+- ❌ **Panicking and making large explosive movements without technical foundation**
+  - Consequence: Burns energy rapidly while creating openings for opponent to tighten choke or advance position
+  - ✅ Correction: Stay calm and systematic - secure defensive frames first, then make measured technical escapes
+
+
+👉 **[[Front Headlock/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -149,12 +203,67 @@ The top player in front headlock balances control maintenance with submission at
 ### Primary Techniques
 
 
+- **[[Guillotine Setup]]** → [[Guillotine Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Anaconda Setup]]** → [[Anaconda Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Darce Setup]]** → [[D'arce Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Front Headlock to Back]]** → [[Back Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Transition to Side Control]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Transition to Crucifix]]** → [[Crucifix]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Front Headlock Series Transition]]** → [[Kimura Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Arm Triangle from Front Headlock]]** → [[Arm Triangle Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
 
 ### Common Errors
 
 
+- ❌ **Holding static front headlock without threatening submissions or transitions**
+  - Consequence: Allows opponent time to establish defensive frames, improve posture, and eventually escape
+  - ✅ Correction: Constantly attack with submissions or position changes - front headlock should feel oppressive to opponent with threats coming continuously
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](front-headlock/top)**
+- ❌ **Controlling only the head without securing far shoulder or arm**
+  - Consequence: Opponent can easily roll away or circle out since their body is free to rotate
+  - ✅ Correction: Always control far shoulder with your non-choking hand, creating cage around opponent's upper body
+
+- ❌ **Chest position too high or weight too far back from opponent**
+  - Consequence: Opponent can easily stand up or improve posture since no downward pressure prevents them
+  - ✅ Correction: Drive chest weight directly down into opponent's upper back, keeping hips low and forward
+
+- ❌ **Committing fully to one submission without reading opponent's defensive reactions**
+  - Consequence: Opponent escapes while you're focused on single attack that isn't available
+  - ✅ Correction: Stay sensitive to opponent's movements and weight shifts - adapt your attack based on their defense
+
+- ❌ **Gripping too tight with arms instead of using body weight for control**
+  - Consequence: Arms fatigue quickly, grip weakens, and opponent escapes as your control deteriorates
+  - ✅ Correction: Use body positioning and chest pressure for control, reserving arm strength for finishing submissions
+
+- ❌ **Allowing space to develop between your chest and opponent's back**
+  - Consequence: Space allows opponent to shrimp away, turn their body, or stand up effectively
+  - ✅ Correction: Maintain constant pressure and connection - follow opponent's movements to prevent space creation
+
+- ❌ **Failing to sprawl hips back when setting up arm-in chokes**
+  - Consequence: Opponent can roll through or forward, escaping control and potentially reversing position
+  - ✅ Correction: As you lock anaconda or darce grip, immediately sprawl hips back and to the side to prevent rolls
+
+
+👉 **[[Front Headlock/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -182,16 +291,6 @@ The top player in front headlock balances control maintenance with submission at
 - **[[Crucifix]]** - Alternative control - if opponent rolls through front headlock escape, can catch crucifix position
 
 - **[[Kimura Control]]** - Alternative submission - if opponent defends chokes by freeing head, kimura on near arm becomes available
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](front-headlock/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](front-headlock/top)** - Techniques and strategies
-
 
 
 </section>

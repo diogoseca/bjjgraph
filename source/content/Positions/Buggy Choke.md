@@ -76,6 +76,18 @@ From the top perspective, the Buggy Choke position serves as a central hub in mo
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Buggy Choke/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Buggy Choke/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Buggy Choke Bottom Perspective
@@ -105,12 +117,50 @@ The bottom player in buggy choke must focus on creating frames, protecting again
 ### Primary Techniques
 
 
+- **[[Sit to Half Guard]]** → [[Half Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Granby Roll to Guard]]** → [[Closed Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Technical Stand Up]]** → [[Standing Position]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Turn In and Face]]** → [[Open Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Roll to Deep Half Guard]]** → [[Deep Half Guard]]
+  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+
+- **[[Elbow Escape to Guard]]** → [[Closed Guard]]
+  - Success Rate: Beginner 20%, Intermediate 30%, Advanced 45%
+
 
 ### Common Errors
 
 
+- ❌ **Remaining static in turtle hoping opponent will transition away rather than finish the choke**
+  - Consequence: Opponent has unlimited time to perfect grips and apply progressive choking pressure until submission is inevitable
+  - ✅ Correction: Move immediately and aggressively toward guard recovery or standing escape, accepting that turtle is no longer viable defensive position
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](buggy-choke/bottom)**
+- ❌ **Focusing grip fighting efforts on the second grip while ignoring the primary threading arm already deep under armpit**
+  - Consequence: Threading arm maintains depth with palm-up collar access, making second grip stripping irrelevant to stopping the choke
+  - ✅ Correction: Prioritize removing or blocking the threading arm's depth first, as this is the primary choking mechanism that enables the entire position
+
+- ❌ **Attempting to roll away from the choking arm toward open space**
+  - Consequence: Rolling motion actually tightens the collar grip and accelerates the choke while potentially transitioning to truck or back control
+  - ✅ Correction: Roll toward the choking arm to face opponent and eliminate choking angle, or sit to guard proactively rather than rolling away
+
+- ❌ **Keeping near elbow wide and away from ribs during threading attempt**
+  - Consequence: Creates highway for opponent's arm to thread deep under armpit with optimal palm-up orientation for collar access
+  - ✅ Correction: Clamp near elbow tight to ribs immediately when turtle top control is established, blocking threading pathways before they develop
+
+- ❌ **Lowering head and turtle posture to avoid collar grips**
+  - Consequence: Flattened posture actually facilitates choking mechanics and eliminates mobility needed for escape movements
+  - ✅ Correction: Drive head and shoulders up aggressively to maintain high turtle posture that creates distance from collar and preserves escape options
+
+
+👉 **[[Buggy Choke/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +193,70 @@ The top player in buggy choke balances control maintenance with submission attac
 ### Primary Techniques
 
 
+- **[[Finish Buggy Choke]]** → [[Won by Submission]]
+  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+
+- **[[Transition to Back Control]]** → [[Back Control]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 75%
+
+- **[[Hook Leg and Take Back]]** → [[Back Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 72%
+
+- **[[Transition to Crucifix]]** → [[Crucifix]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Roll to Truck]]** → [[Truck]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Switch to Darce Configuration]]** → [[D'arce Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Switch to Anaconda Configuration]]** → [[Anaconda Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Transition to Side Control]]** → [[Side Control]]
+  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 80%
+
+- **[[Rolling Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Transition to Front Headlock]]** → [[Front Headlock]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
 
 ### Common Errors
 
 
+- ❌ **Threading arm too shallow under armpit without reaching deep collar access**
+  - Consequence: Opponent easily defends neck with frames, strips grip without pressure, or sits to guard maintaining defensive structure
+  - ✅ Correction: Drive threading arm deep until hand reaches far collar with palm-up orientation, ensuring maximum depth before attempting second grip
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](buggy-choke/top)**
+- ❌ **Applying explosive choking pressure immediately before control structure is consolidated**
+  - Consequence: Opponent reacts with explosive defensive urgency often escaping before position develops, technique becomes strength-based rather than positional
+  - ✅ Correction: Establish both grips and body pressure first with chest weight and hip control, then apply progressive choking pressure once movement is restricted
+
+- ❌ **Keeping hips too high or weight distributed away from opponent's body**
+  - Consequence: Opponent easily sits to guard, executes granby rolls away, or stands up because insufficient weight prevents their escape movements
+  - ✅ Correction: Drive hips down onto opponent's near hip while maintaining chest heavy on back, creating perpendicular pressure that flattens and controls
+
+- ❌ **Failing to secure second grip quickly after threading choking arm**
+  - Consequence: Opponent uses time window to strip initial grip, turn into position, or escape to guard before choke structure is complete
+  - ✅ Correction: Immediately secure far collar with opposite hand or connect hands (no-gi) as soon as threading completes, eliminating defensive window
+
+- ❌ **Allowing head to drift away from opponent's far shoulder area**
+  - Consequence: Opponent creates rotational space to turn into choke, strip grips with improved leverage, or roll away from pressure
+  - ✅ Correction: Keep head tight to opponent's far shoulder as active control point that prevents rotation and maintains optimal choking angle
+
+- ❌ **Committing fully to choking finish when opponent extends arm for crucifix**
+  - Consequence: Missing high-percentage crucifix transition that offers superior control and submission opportunities than continuing choke attempt
+  - ✅ Correction: Monitor opponent's far arm constantly and immediately transition to crucifix attack when extension occurs, prioritizing position over submission
+
+- ❌ **Using pure arm strength for choking pressure without engaging body mechanics**
+  - Consequence: Choke becomes exhausting arm-strength contest, opponent defends more effectively, position becomes unsustainable over time
+  - ✅ Correction: Use full body mechanics with chest pressure downward, hip weight controlling position, arms completing structure through leverage not strength
+
+
+👉 **[[Buggy Choke/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -178,16 +286,6 @@ The top player in buggy choke balances control maintenance with submission attac
 - **[[Guillotine Control]]** - Alternative turtle submission when buggy choke angle is not available
 
 - **[[North-South]]** - Related top control position with similar pressure and submission principles
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](buggy-choke/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](buggy-choke/top)** - Techniques and strategies
-
 
 
 </section>

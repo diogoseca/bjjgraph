@@ -76,6 +76,18 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Piranha Guard/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
+- **[[Piranha Guard/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Piranha Guard Bottom Perspective
@@ -105,12 +117,64 @@ The bottom player in piranha guard controls the position with offensive attacks 
 ### Primary Techniques
 
 
+- **[[Pendulum Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Collar Drag]]** → [[Back Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
+- **[[Triangle Setup]]** → [[Triangle Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
+- **[[Omoplata Sweep]]** → [[Omoplata Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[De La Riva Sweep]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Berimbolo Entry]]** → [[Back Control]]
+  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+
+- **[[Flower Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Armbar from Guard]]** → [[Armbar Control]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Losing lapel tension and allowing opponent to easily extract collar from leg configuration**
+  - Consequence: Opponent escapes lapel entanglement and establishes dominant passing position with free movement and recovered posture
+  - ✅ Correction: Maintain constant tension on lapel through active grip management and hip positioning, adjusting tension dynamically as opponent moves and never allowing slack in the system
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](piranha-guard/bottom)**
+- ❌ **Remaining static without angle changes or hip movement**
+  - Consequence: Opponent settles into stable passing position and systematically clears lapel control through methodical grip breaking
+  - ✅ Correction: Stay active with hip movement, constantly adjusting angles and creating new off-balancing opportunities through lapel tension changes and circular movement patterns
+
+- ❌ **Over-committing to lapel control while neglecting hook placement and distance management**
+  - Consequence: Opponent bypasses guard through leg weave or toreando despite lapel configuration by controlling your lower body
+  - ✅ Correction: Balance lapel control with strategic hook placement on hips and legs to control distance and prevent passing angles from developing
+
+- ❌ **Failing to coordinate lapel tension with hook movements for sweeps**
+  - Consequence: Sweep attempts lack power and opponent easily bases out or counters with weight distribution adjustments
+  - ✅ Correction: Time lapel pulls with hook extensions to multiply sweeping force, creating simultaneous off-balancing from multiple directions for compound leverage
+
+- ❌ **Using inadequate grip strength or poor grip placement on the lapel after feeding**
+  - Consequence: Lapel slips out of position or opponent strips grips easily, nullifying the entire guard system
+  - ✅ Correction: Establish deep, secure grips on the lapel with proper hand positioning, using thumb-inside grips for maximum control and retention throughout attacks
+
+- ❌ **Neglecting to transition when opponent successfully begins clearing lapel configuration**
+  - Consequence: Guard becomes compromised with no backup plan, leading to successful pass as lapel control deteriorates
+  - ✅ Correction: Recognize lapel clearing sequences early and transition to alternative guards like De La Riva, Spider, or Butterfly before position is fully compromised
+
+- ❌ **Threading collar too shallow through legs without sufficient depth**
+  - Consequence: Weak control that opponent can easily escape by pulling collar back through, losing primary control mechanism
+  - ✅ Correction: Feed collar deep between legs until significant length passes through, ensuring grip points are far from opponent's body for maximum leverage advantage
+
+
+👉 **[[Piranha Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +207,61 @@ The top player in piranha guard balances control maintenance with submission att
 ### Primary Techniques
 
 
+- **[[Toreando Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Long Step Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Stack Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Leg Drag Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Pressure Pass]]** → [[Half Guard]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[X Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
 
 ### Common Errors
 
 
+- ❌ **Ignoring lapel wrapped around neck or shoulders and continuing with passing attempts**
+  - Consequence: Exposes top player to lapel choke finishes and complete loss of posture control leading to immediate submission threat
+  - ✅ Correction: Immediately strip lapel from neck area before attempting any passing sequences, treating neck control as highest priority threat in hierarchical defense
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](piranha-guard/top)**
+- ❌ **Standing too upright with narrow base while attempting to extract collar**
+  - Consequence: Makes top player vulnerable to off-balancing sweeps using lapel leverage and hook placement for multi-directional attacks
+  - ✅ Correction: Maintain wide athletic stance with bent knees and low center of gravity, keeping base wider than shoulder width for stability against sweep attempts
+
+- ❌ **Gripping the lapel that is already controlled by bottom player creating tension**
+  - Consequence: Creates tension that allows bottom player to use lapel as lever for sweeps and positional improvements through your own force
+  - ✅ Correction: Focus grips on pants, belt, or free lapel while systematically breaking down controlled lapel grips rather than fighting against established controls
+
+- ❌ **Rushing forward into passing attempts without clearing lapel grips first**
+  - Consequence: Bottom player can use forward momentum against top player to execute sweeps or transition to submissions using your own energy
+  - ✅ Correction: Methodically clear dangerous lapel configurations before committing weight forward, working grip breaks systematically from most to least dangerous
+
+- ❌ **Allowing bottom player to reinforce lapel grips without active contest**
+  - Consequence: Gives bottom player time to improve position and set up more complex lapel configurations that become increasingly difficult to clear
+  - ✅ Correction: Maintain constant pressure on bottom player's grips through active hand fighting and grip stripping, never allowing them to settle comfortably
+
+- ❌ **Keeping hands static on initial grips without dynamic movement**
+  - Consequence: Bottom player can predict movement patterns and set traps using lapel configurations based on your predictable reactions
+  - ✅ Correction: Keep hands moving and grip fighting actively, changing grip targets frequently to disrupt bottom player's timing and prevent trap-setting
+
+- ❌ **Attempting to pass in the same direction repeatedly despite bottom player's preparation**
+  - Consequence: Bottom player sets defensive traps and sweep opportunities specifically for your predictable passing direction
+  - ✅ Correction: Change passing directions and entry angles frequently, using feints and direction changes to keep bottom player reactive rather than proactive
+
+
+👉 **[[Piranha Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -180,16 +293,6 @@ The top player in piranha guard balances control maintenance with submission att
 - **[[Omoplata Control]]** - Primary submission target from Piranha Guard when opponent posts arm defensively
 
 - **[[Back Control]]** - Dominant position accessed via berimbolo and collar drag transitions from Piranha Guard
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](piranha-guard/bottom)** - Sweeps, attacks, and submissions
-- **[Top Perspective](piranha-guard/top)** - Techniques and strategies
-
 
 
 </section>

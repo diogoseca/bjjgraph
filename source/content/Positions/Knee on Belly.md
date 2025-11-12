@@ -68,6 +68,18 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Knee on Belly/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Knee on Belly/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Knee on Belly Bottom Perspective
@@ -97,12 +109,61 @@ The bottom player in knee on belly must focus on creating frames, protecting aga
 ### Primary Techniques
 
 
+- **[[Elbow Escape]]** → [[Half Guard]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Hip Escape]]** → [[Closed Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Shrimp Escape]]** → [[Open Guard]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Deep Half Entry]]** → [[Deep Half Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Knee Shield Retention]]** → [[Knee Shield Half Guard]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Technical Standup]]** → [[Standing Position]]
+  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+
+- **[[Frame and Shrimp]]** → [[Butterfly Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
 
 ### Common Errors
 
 
+- ❌ **Attempting to bench press or push opponent away with arms extended**
+  - Consequence: Arms become vulnerable to armbars and Americanas while wasting energy without creating effective escape angles
+  - ✅ Correction: Keep elbows tight to body and use frames on opponent's hips and knees to create angles rather than trying to generate vertical lifting force
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](knee-on-belly/bottom)**
+- ❌ **Lying completely flat without turning to side or creating frames**
+  - Consequence: Maximum surface area exposed to pressure makes breathing extremely difficult and prevents any hip movement necessary for escape
+  - ✅ Correction: Immediately turn slightly to side facing away from knee pressure while establishing forearm frames to reduce pressure and enable hip escape mechanics
+
+- ❌ **Reaching up to grab opponent's gi or arms during escape attempts**
+  - Consequence: Exposes arms to submission attacks and prevents proper framing structure needed for effective hip escapes
+  - ✅ Correction: Maintain defensive frames on opponent's hips and legs while keeping hands below shoulder level during escape sequences
+
+- ❌ **Attempting to bridge directly into the knee pressure**
+  - Consequence: Increases pressure on chest and diaphragm while failing to create the lateral movement needed for escape
+  - ✅ Correction: Use bridging only in combination with turning to side and shrimping away from pressure to create proper escape angles
+
+- ❌ **Giving up near side arm to opponent's control during escape**
+  - Consequence: Allows opponent to establish strong cross-face control and makes transition to mount or submissions significantly easier
+  - ✅ Correction: Keep near arm tight to body or establish underhook to prevent cross-face and maintain structural integrity during escape attempts
+
+- ❌ **Stopping movement once initial escape attempt fails**
+  - Consequence: Allows opponent to settle their weight and consolidate control, making subsequent escapes exponentially more difficult
+  - ✅ Correction: Chain multiple escape attempts together continuously, using each attempt to create small improvements in position even if full escape isn't immediately achieved
+
+- ❌ **Neglecting to protect neck during escape sequences**
+  - Consequence: Becomes vulnerable to cross collar chokes, arm-in guillotines, and other neck attacks during movement
+  - ✅ Correction: Maintain chin tuck and keep at least one hand ready to defend collar grips while executing hip escape movements
+
+
+👉 **[[Knee on Belly/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -135,12 +196,60 @@ The top player in knee on belly balances control maintenance with submission att
 ### Primary Techniques
 
 
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Armbar from Side Control]]** → [[Armbar Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Baseball Bat Choke]]** → [[Baseball Bat Choke]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Transition to North-South]]** → [[North-South]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Side Control to Mount]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Kimura from Side Control]]** → [[Kimura Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Back Take Generic]]** → [[Back Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[S Mount Transition]]** → [[S Mount]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Placing too much weight on the knee, causing loss of mobility and balance**
+  - Consequence: Opponent can easily sweep or escape as top player becomes static and heavy
+  - ✅ Correction: Maintain forward pressure through the knee while keeping weight distributed and feet light, ready to move and transition
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](knee-on-belly/top)**
+- ❌ **Positioning knee too high on chest/shoulder area instead of solar plexus**
+  - Consequence: Reduced pressure effectiveness and easier for opponent to create frames and escape
+  - ✅ Correction: Place knee directly on solar plexus or lower ribs for maximum breathing disruption and control
+
+- ❌ **Keeping base leg too close to opponent instead of extending wide**
+  - Consequence: Weak base makes position vulnerable to sweeps and opponent can easily turn into top player
+  - ✅ Correction: Extend base leg wide with toes pointing away from opponent to create stable tripod structure
+
+- ❌ **Not controlling opponent's far side with grips (pants or belt)**
+  - Consequence: Opponent can turn away easily and escape the position or create space for guard recovery
+  - ✅ Correction: Maintain strong grip on far-side pants or belt while controlling near-side collar to prevent turning
+
+- ❌ **Remaining static in Knee on Belly instead of using it as transitional position**
+  - Consequence: Opponent has time to develop escape plan and execute defensive strategy
+  - ✅ Correction: Stay active, constantly threatening transitions and submissions to keep opponent defensive and reactive
+
+- ❌ **Leaning back or away from opponent instead of maintaining forward pressure**
+  - Consequence: Loss of pressure and control, allowing opponent to create space and begin escaping
+  - ✅ Correction: Keep shoulders and chest forward over opponent with hips high, directing pressure downward through knee
+
+
+👉 **[[Knee on Belly/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -166,16 +275,6 @@ The top player in knee on belly balances control maintenance with submission att
 - **[[Turtle]]** - Emergency escape position when bottom player turns away under extreme pressure
 
 - **[[Open Guard]]** - Re-guard destination requiring frame creation and hip escape execution
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](knee-on-belly/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](knee-on-belly/top)** - Techniques and strategies
-
 
 
 </section>

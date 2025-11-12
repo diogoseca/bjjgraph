@@ -82,6 +82,18 @@ The position demands active hip movement and constant angle adjustment to remain
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Collar Sleeve Guard/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
+- **[[Collar Sleeve Guard/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Collar Sleeve Guard Bottom Perspective
@@ -111,12 +123,66 @@ The bottom player in collar sleeve guard controls the position with offensive at
 ### Primary Techniques
 
 
+- **[[Pendulum Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Flower Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Triangle Setup]]** → [[Triangle Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Omoplata Sweep]]** → [[Omoplata Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Hip Bump Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Scissor Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Arm Drag to Back]]** → [[Back Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Technical Stand Up to Single Leg]]** → [[Standing Position]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Lasso Guard Variations]]** → [[Lasso Guard]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Spider Guard Variations]]** → [[Spider Guard]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
 
 ### Common Errors
 
 
+- ❌ **Maintaining static hip position without constant angle adjustment**
+  - Consequence: Allows opponent to establish counter-grips and initiate passing sequences with predictable attack angles
+  - ✅ Correction: Keep hips elevated and constantly shift angles 15-30 degrees while maintaining grip tension to prevent opponent from settling into stable passing position
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](collar-sleeve-guard/bottom)**
+- ❌ **Gripping the sleeve too high at the bicep or shoulder instead of wrist/forearm**
+  - Consequence: Opponent can post hand on ground or your body, establishing base and negating distance control
+  - ✅ Correction: Control the sleeve at the wrist or mid-forearm where you have maximum leverage over posting attempts and can fully extend their arm
+
+- ❌ **Pulling collar grip straight back toward your chest instead of at angles**
+  - Consequence: Opponent can maintain base by leaning forward into the pull without compromising balance
+  - ✅ Correction: Pull collar at 45-degree angles toward your shoulders, creating rotational forces that disrupt square base and open sweep opportunities
+
+- ❌ **Allowing opponent to establish cross-face or collar grips before securing your own grips**
+  - Consequence: Opponent controls engagement timing and can flatten you out or pressure pass before your guard structure is established
+  - ✅ Correction: Prioritize collar grip establishment immediately when guard opens, using frames and hip movement to prevent opponent grips until your structure is complete
+
+- ❌ **Keeping both legs static in fixed positions instead of one mobile attack leg**
+  - Consequence: Cannot generate sweeping momentum or adjust for opponent movement, making attacks predictable and easily defended
+  - ✅ Correction: Maintain one leg as active frame on hip/bicep while other leg stays mobile for hooking, pumping, and triangle entries
+
+- ❌ **Threatening only one attack repeatedly without creating combination sequences**
+  - Consequence: Opponent learns to defend specific attack and can focus defensive energy on shutting down predictable offense
+  - ✅ Correction: Chain attacks where defense of one technique directly exposes opponent to complementary attack (sweep to triangle, triangle to omoplata)
+
+
+👉 **[[Collar Sleeve Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -149,12 +215,60 @@ The top player in collar sleeve guard manages the position strategically based o
 ### Primary Techniques
 
 
+- **[[Toreando Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Knee Cut Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Stack Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Double Under Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Leg Drag Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Pressure Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Headquarters Pass]]** → [[Headquarters Position]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
 
 ### Common Errors
 
 
+- ❌ **Allowing posture to break forward when opponent pulls collar grip**
+  - Consequence: Creates immediate sweep vulnerability and allows opponent to control engagement distance and timing
+  - ✅ Correction: Keep hips back, chest elevated, and drive knees outward to create stable tripod base that resists forward pulling forces
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](collar-sleeve-guard/top)**
+- ❌ **Posting the free hand forward carelessly without awareness of triangle threat**
+  - Consequence: Opponent immediately shoots triangle around your neck, capturing the posted arm and creating high-percentage submission opportunity
+  - ✅ Correction: When posting free hand, keep elbow tight to your ribs and hand positioned defensively, or maintain it controlling opponent's collar to prevent triangle entries
+
+- ❌ **Attempting to pass without first breaking or neutralizing opponent's grips**
+  - Consequence: Opponent uses grip control to steer your passing attempts directly into their sweep or submission setups
+  - ✅ Correction: Establish your own collar or sleeve grips first, or use leverage-based grip breaks before committing to passing movements
+
+- ❌ **Placing too much weight on the leg where opponent controls your sleeve**
+  - Consequence: Cannot post that hand for base, making you vulnerable to being swept in that direction when weight is committed
+  - ✅ Correction: Distribute weight primarily to opposite leg and maintain ability to base out with free hand while keeping sleeved-side light
+
+- ❌ **Remaining stationary and allowing opponent to establish perfect guard distance and angle**
+  - Consequence: Opponent controls engagement pace and can set up sweeps and attacks at ideal timing without pressure
+  - ✅ Correction: Constantly adjust distance and angles, moving forward to pressure or backward to create passing space, preventing static positioning
+
+- ❌ **Passing in predictable single direction without creating passing dilemmas**
+  - Consequence: Opponent can focus all defensive energy on shutting down your single passing approach
+  - ✅ Correction: Threaten passes in multiple directions, using opponent's defense of one pass to create opportunities for complementary passes
+
+
+👉 **[[Collar Sleeve Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -180,16 +294,6 @@ The top player in collar sleeve guard manages the position strategically based o
 - **[[De La Riva Guard]]** - Complementary guard - often combined when opponent passes to side
 
 - **[[Mount]]** - Target position for successful sweep completion
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](collar-sleeve-guard/bottom)** - Sweeps, attacks, and submissions
-- **[Top Perspective](collar-sleeve-guard/top)** - Techniques and strategies
-
 
 
 </section>

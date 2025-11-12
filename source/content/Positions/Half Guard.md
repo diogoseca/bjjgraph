@@ -90,6 +90,41 @@ Success in Half Guard demands understanding the fundamental asymmetry that defin
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Half Guard/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Half Guard/Top|Top Perspective]]** - Submissions and positional attacks
+
+
+### By Variation
+
+- **[[Deep Half Guard]]** - Advanced variation with head underneath for superior sweeping mechanics
+
+- **[[Knee Shield Half Guard]]** - Defensive variation using shin across body for distance management
+
+- **[[Lockdown]]** - 10th Planet variation using leg entanglement for posture control
+
+- **[[Butterfly Half Guard]]** - Hybrid position combining butterfly hook with half guard structure
+
+- **[[Z-Lock Half Guard]]** - Knee shield variation with specific shin positioning across hip
+
+- **[[Flattened Half Guard]]** - Compromised bottom position with back flat requiring recovery
+
+- **[[Reverse Half Guard]]** - Inverted variation with reversed leg entanglement orientation
+
+- **[[Pocket Half Guard]]** - Tight variation with deep underhook and close-range control
+
+- **[[Old School]]** - Classic position with arm trapped preparing for sweep to mount
+
+- **[[Electric Chair]]** - Lockdown submission position targeting hip and groin
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Half Guard Bottom Perspective
@@ -119,12 +154,56 @@ The bottom player in half guard must focus on creating frames, protecting agains
 ### Primary Techniques
 
 
+- **[[Underhook Sweep from Half]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Old School Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Deep Half Entry]]** → [[Deep Half Guard]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Lockdown Sweeps]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Electric Chair Submission]]** → [[Electric Chair]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Back Take Generic]]** → [[Back Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Knee Shield Retention]]** → [[Knee Shield Half Guard]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Waiter Sweep]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Remaining flat on back instead of maintaining side angle**
+  - Consequence: Allows opponent to establish heavy chest-to-chest pressure and crossface, leading to easy pass to side control or mount
+  - ✅ Correction: Constantly maintain position on your side facing opponent - use continuous hip escape motion to prevent flattening and maintain mobility for sweeps
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](half-guard/bottom)**
+- ❌ **Allowing opponent to achieve underhook without fighting for it**
+  - Consequence: Opponent controls your upper body and can drive you flat, removing all offensive options and facilitating pass
+  - ✅ Correction: Battle aggressively for underhook as primary objective - if opponent gets it first, immediately fight to remove it or transition to alternative guard variation
+
+- ❌ **Creating no frames or distance management against opponent's chest**
+  - Consequence: Opponent achieves chest-to-chest connection, eliminating space needed for hip movement and guard recovery
+  - ✅ Correction: Maintain active knee shield, butterfly hook, or forearm frames to prevent chest connection - constantly create and manage distance
+
+- ❌ **Remaining static in single half guard variation instead of flowing between positions**
+  - Consequence: Opponent adapts to single defensive pattern and eventually finds pass, especially if holding position passively
+  - ✅ Correction: Transition fluidly between knee shield, deep half, lockdown, and z-guard based on opponent's pressure and positioning - keep them reacting to your movement
+
+- ❌ **Focusing solely on defense without threatening sweeps or submissions**
+  - Consequence: Allows opponent to methodically work their pass without fear of consequences or offensive counters
+  - ✅ Correction: Maintain constant offensive threats through sweep attempts and back take entries - force opponent into defensive reactions that create sweep opportunities
+
+
+👉 **[[Half Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -157,12 +236,56 @@ The top player in half guard enjoys offensive advantages with access to submissi
 ### Primary Techniques
 
 
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Smash Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+
+- **[[Underhook Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+
+- **[[Crossface Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Long Step Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+
+- **[[Kimura from Half Guard]]** → [[Kimura Control]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+
+- **[[Darce Setup]]** → [[D'arce Control]]
+  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+
 
 ### Common Errors
 
 
+- ❌ **Poor weight distribution - keeping weight on hands or knees rather than hips and chest**
+  - Consequence: Allows opponent to create space, recover guard, or execute sweeps with minimal effort
+  - ✅ Correction: Drive weight forward through hips and chest into opponent's torso, keeping hands light and mobile for control rather than weight bearing
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](half-guard/top)**
+- ❌ **Neglecting upper body control - focusing solely on freeing trapped leg without controlling head, shoulder, or arms**
+  - Consequence: Opponent gains dominant grips, establishes frames, and controls posture leading to sweeps or back takes
+  - ✅ Correction: Establish crossface, underhook, or head control first before attempting to pass, maintaining upper body dominance throughout
+
+- ❌ **Premature passing attempts - trying to extract leg and pass before establishing positional control**
+  - Consequence: Opponent capitalizes on rushing movement with well-timed sweeps or submissions, regains full guard
+  - ✅ Correction: Follow methodical progression: first stabilize position and establish control, then isolate trapped leg, finally extract and complete pass
+
+- ❌ **Overcommitment to single technique - forcing one passing sequence despite opponent's effective defense**
+  - Consequence: Burns energy, telegraphs intentions, allows opponent to perfect their defensive response and counter
+  - ✅ Correction: Develop multiple passing options from half guard top, read opponent's defensive reactions, chain passes together based on their responses
+
+- ❌ **Inadequate pressure - maintaining upright posture or distance that allows opponent comfortable defensive structure**
+  - Consequence: Opponent maintains strong frames, creates angles for sweeps, recovers full guard, or initiates offensive attacks
+  - ✅ Correction: Maintain constant forward pressure with chest and hips driving into opponent while controlling their ability to create distance or angles
+
+
+👉 **[[Half Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -266,39 +389,6 @@ Lockdown submission position targeting hip and groin
 - **[[Back Control]]** - Advanced position accessible through Half Guard back take sequences
 
 - **[[Quarter Guard]]** - Transitional position between Half Guard and full pass
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](half-guard/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](half-guard/top)** - Submissions and positional attacks
-
-
-### By Variation
-
-- **[Deep Half Guard](half-guard/deep-half-guard)** - Advanced variation with head underneath for superior sweeping mechanics
-
-- **[Knee Shield Half Guard](half-guard/knee-shield-half-guard)** - Defensive variation using shin across body for distance management
-
-- **[Lockdown](half-guard/lockdown)** - 10th Planet variation using leg entanglement for posture control
-
-- **[Butterfly Half Guard](half-guard/butterfly-half-guard)** - Hybrid position combining butterfly hook with half guard structure
-
-- **[Z-Lock Half Guard](half-guard/z-lock-half-guard)** - Knee shield variation with specific shin positioning across hip
-
-- **[Flattened Half Guard](half-guard/flattened-half-guard)** - Compromised bottom position with back flat requiring recovery
-
-- **[Reverse Half Guard](half-guard/reverse-half-guard)** - Inverted variation with reversed leg entanglement orientation
-
-- **[Pocket Half Guard](half-guard/pocket-half-guard)** - Tight variation with deep underhook and close-range control
-
-- **[Old School](half-guard/old-school)** - Classic position with arm trapped preparing for sweep to mount
-
-- **[Electric Chair](half-guard/electric-chair)** - Lockdown submission position targeting hip and groin
-
 
 
 </section>

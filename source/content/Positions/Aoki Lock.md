@@ -76,6 +76,18 @@ This position appears most commonly in no-gi competition, submission-only format
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Aoki Lock/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Aoki Lock/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Aoki Lock Bottom Perspective
@@ -105,12 +117,50 @@ The bottom player in aoki lock must focus on creating frames, protecting against
 ### Primary Techniques
 
 
+- **[[Rolling Escape to Guard]]** → [[Closed Guard]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Arm Extraction to Turtle]]** → [[Turtle]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Hip Escape to Guard Recovery]]** → [[Open Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Rolling Counter to Top]]** → [[Scramble Position]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Base Attack to Sweep]]** → [[Standing Position]]
+  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+
+- **[[Granby Roll Escape]]** → [[Turtle]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
 
 ### Common Errors
 
 
+- ❌ **Rolling away from trapped arm direction against the pressure**
+  - Consequence: Increases shoulder torque dramatically, often leading to submission or serious shoulder injury
+  - ✅ Correction: Roll toward your trapped arm, following the path of least resistance and using opponent's control momentum
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](aoki-lock/bottom)**
+- ❌ **Attempting to muscle arm free without addressing leg entanglement**
+  - Consequence: Exhausts energy while increasing shoulder stress, makes escape impossible while risking injury
+  - ✅ Correction: Address leg control first by creating hip angles or attacking opponent's base before attempting arm extraction
+
+- ❌ **Remaining static and defensive without active escape attempts**
+  - Consequence: Allows opponent time to perfect pressure angle and finish submission safely
+  - ✅ Correction: Move immediately upon recognizing position - create continuous movement toward escape rather than static defense
+
+- ❌ **Defending beyond safe shoulder range to avoid tapping**
+  - Consequence: Serious shoulder injury including rotator cuff tears, labrum damage, or shoulder dislocation
+  - ✅ Correction: Tap early when shoulder pressure reaches discomfort threshold - position is not worth injury risk
+
+- ❌ **Neglecting to use free hand for base attacks or hip control**
+  - Consequence: Wastes primary offensive tool for creating escape opportunities and destabilizing opponent's control
+  - ✅ Correction: Immediately engage free hand in attacking opponent's posted leg or controlling their hip to create angles
+
+
+👉 **[[Aoki Lock/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +193,58 @@ The top player in aoki lock balances control maintenance with submission attacks
 ### Primary Techniques
 
 
+- **[[Aoki Lock Finish]]** → [[Won by Submission]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Transition to Back Control]]** → [[Back Control]]
+  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+
+- **[[Transition to Truck]]** → [[Truck]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Transition to Crucifix]]** → [[Crucifix]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Kimura Switch]]** → [[Kimura Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Transition to North-South]]** → [[North-South]]
+  - Success Rate: Beginner 60%, Intermediate 75%, Advanced 85%
+
 
 ### Common Errors
 
 
+- ❌ **Posting too far from opponent with free leg reducing hip pressure on shoulder**
+  - Consequence: Opponent gains space to rotate shoulder and escape the lock or extract their trapped arm
+  - ✅ Correction: Keep posted leg close to opponent's body maintaining constant downward hip pressure into shoulder joint
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](aoki-lock/top)**
+- ❌ **Allowing opponent's elbow to bend and come back toward their body**
+  - Consequence: Shoulder lock loses effectiveness as joint alignment changes allowing opponent to defend or escape
+  - ✅ Correction: Use leg positioning to keep opponent's arm extended with elbow pointing away from their torso
+
+- ❌ **Failing to control opponent's hips with hands**
+  - Consequence: Opponent can turn into pressure or create angles for escape negating the shoulder lock
+  - ✅ Correction: Maintain active hand control on opponent's far hip or pants to prevent rotation and movement
+
+- ❌ **Applying shoulder pressure too quickly or explosively without progressive build**
+  - Consequence: Risk of serious shoulder injury to opponent, potential disqualification, and unsafe training environment
+  - ✅ Correction: Apply pressure gradually over 3-5 seconds minimum staying alert for tap signals prioritizing safety
+
+- ❌ **Losing leg entanglement tension around opponent's arm**
+  - Consequence: Opponent can extract their arm and escape to guard or turtle position
+  - ✅ Correction: Maintain constant squeeze with legs around opponent's shoulder and upper arm complex
+
+- ❌ **Looking away from opponent or losing positional awareness**
+  - Consequence: Miss defensive movements, fail to see tap signals, or get swept to inferior position
+  - ✅ Correction: Keep head position aware with eyes on opponent's body language and hand signals throughout
+
+- ❌ **Forcing finish when transitions are available**
+  - Consequence: Waste energy on low-percentage finish while missing high-percentage transition opportunities
+  - ✅ Correction: Recognize when opponent's defense is strong and transition to back control, truck, or crucifix
+
+
+👉 **[[Aoki Lock/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -168,16 +264,6 @@ The top player in aoki lock balances control maintenance with submission attacks
 - **[[Back Control]]** - Primary advancement target when opponent defends shoulder lock
 
 - **[[Turtle]]** - Common entry position for Aoki Lock attacks
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](aoki-lock/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](aoki-lock/top)** - Techniques and strategies
-
 
 
 </section>

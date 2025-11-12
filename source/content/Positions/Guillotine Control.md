@@ -76,6 +76,18 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Guillotine Control/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Guillotine Control/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Guillotine Control Bottom Perspective
@@ -105,12 +117,67 @@ The bottom player in guillotine control balances defensive frames with offensive
 ### Primary Techniques
 
 
+- **[[Guillotine Choke]]** → [[Won by Submission]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 70%
+
+- **[[High Elbow Guillotine]]** → [[Won by Submission]]
+  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 65%
+
+- **[[Arm in Guillotine]]** → [[Won by Submission]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 75%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+
+- **[[Hip Bump Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+
+- **[[Guillotine Setup]]** → [[Closed Guard]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Transition to Omoplata]]** → [[Omoplata Control]]
+  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+
+- **[[Switch to Triangle]]** → [[Triangle Control]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+
+- **[[Anaconda Choke]]** → [[Won by Submission]]
+  - Success Rate: Beginner 15%, Intermediate 35%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Pulling opponent's head up instead of down while attempting to finish choke**
+  - Consequence: Creates space between choking arm and neck, allowing opponent to posture up and escape, while also exposing bottom player to guard pass
+  - ✅ Correction: Pull opponent's head down toward chest while simultaneously lifting upward with choking arm, creating compression on neck from both directions
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](guillotine-control/bottom)**
+- ❌ **Allowing legs to go passive or losing guard connection during finish attempt**
+  - Consequence: Opponent drives forward and passes guard while defending choke, transitioning to side control or mount and neutralizing submission threat
+  - ✅ Correction: Maintain active guard structure with legs, using butterfly hooks, closed guard, or half guard to control opponent's hips and prevent forward advancement
+
+- ❌ **Gripping hands in incorrect position (too high on neck or too low near shoulders)**
+  - Consequence: Choke lacks proper leverage and compression, allowing opponent to defend indefinitely while working to improve position or counter-attack
+  - ✅ Correction: Ensure choking arm is positioned at proper depth around neck with wrist blade across trachea or carotid, and hands clasped in optimal position for chosen guillotine variation
+
+- ❌ **Committing fully to choke finish without being prepared to transition when opponent defends effectively**
+  - Consequence: Wastes energy on low-percentage finish attempt while opponent improves position or sets up counter-submissions like Von Flue choke
+  - ✅ Correction: Recognize opponent's defensive adjustments early and smoothly transition to sweep attempts, alternative submissions, or guard retention as appropriate
+
+- ❌ **Allowing elbows to flare away from body during choke attempt**
+  - Consequence: Creates space that opponent exploits to turn shoulders, extract head, or advance position while reducing effectiveness of choking pressure
+  - ✅ Correction: Keep elbows tight to torso throughout finish sequence, maintaining connection between choking arm and body to eliminate escape space
+
+- ❌ **Failing to adjust choking mechanics when opponent traps arm inside (arm-in defense)**
+  - Consequence: Continues attempting traditional guillotine finish against trapped arm, burning energy without progress while opponent works to pass or escape
+  - ✅ Correction: Recognize arm-in situation immediately and transition to arm-in guillotine variation or switch to alternative attacks like triangle or anaconda
+
+- ❌ **Releasing choke grip prematurely when opponent appears to be defending successfully**
+  - Consequence: Abandons dominant attacking position unnecessarily, giving opponent free pass to improve position or recover from defensive situation
+  - ✅ Correction: Maintain choke control while transitioning to complementary attacks or positional improvements, only releasing grip when opponent has fully escaped or better opportunity presents itself
+
+
+👉 **[[Guillotine Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +210,64 @@ The top player in guillotine control balances control maintenance with submissio
 ### Primary Techniques
 
 
+- **[[Guillotine Choke]]** → [[Won by Submission]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[High Elbow Guillotine]]** → [[Won by Submission]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Arm in Guillotine]]** → [[Won by Submission]]
+  - Success Rate: Beginner 40%, Intermediate 58%, Advanced 72%
+
+- **[[Front Headlock to Anaconda]]** → [[Anaconda Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
+- **[[Front Headlock to Darce]]** → [[D'arce Control]]
+  - Success Rate: Beginner 28%, Intermediate 48%, Advanced 63%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 78%
+
+- **[[Transition to North-South]]** → [[North-South]]
+  - Success Rate: Beginner 55%, Intermediate 68%, Advanced 80%
+
+- **[[Guard Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 45%, Intermediate 62%, Advanced 75%
+
 
 ### Common Errors
 
 
+- ❌ **Pulling straight back on the choke without controlling opponent's hips or legs**
+  - Consequence: Opponent establishes closed guard, neutralizes top position advantage, and may even sweep or submit with own attacks
+  - ✅ Correction: Maintain hip pressure forward, sprawl legs back, and use circular pulling motion while stepping to side to prevent guard closure
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](guillotine-control/top)**
+- ❌ **Allowing gap between choking arm and your own torso during finish attempt**
+  - Consequence: Choking pressure dissipates entirely, opponent can breathe freely, and defensive hand fighting becomes much more effective
+  - ✅ Correction: Keep elbow tight to ribs, pull forearm into your chest/sternum, and use lat engagement to maintain compression throughout the choke
+
+- ❌ **Maintaining only one grip configuration regardless of opponent's defensive adjustments**
+  - Consequence: Predictable attack allows opponent to develop specific defense, reducing finish rate and wasting energy on ineffective attempts
+  - ✅ Correction: Flow between palm-to-palm, gable grip, and arm-in variations based on opponent's chin position and hand fighting responses
+
+- ❌ **Neglecting positional advancement when opponent successfully defends the choke**
+  - Consequence: Stalemate position develops where neither player can advance, wasting time and energy without productive outcome
+  - ✅ Correction: Use opponent's focus on neck defense to pass guard, take mount, or transition to other submissions like anaconda or darce
+
+- ❌ **Pulling upward on opponent's head instead of controlling direction with shoulder and hip positioning**
+  - Consequence: Opponent can bridge, roll, or create angles that relieve pressure and potentially reverse position
+  - ✅ Correction: Keep opponent's head directed toward your hip/pocket, use shoulder pressure to control their upper body direction, sprawl to prevent bridges
+
+- ❌ **Gripping too shallow with forearm across face instead of deep around neck**
+  - Consequence: No choking pressure on carotid arteries or trachea, opponent experiences discomfort but not submission threat, extended stalling occurs
+  - ✅ Correction: Ensure blade of forearm or bicep crosses front of throat, adjust entry angle if needed, and verify hand position is behind opponent's head not their face
+
+- ❌ **Remaining stationary and static instead of making micro-adjustments to angle and pressure**
+  - Consequence: Opponent finds comfortable defensive position, can breathe and think clearly, eventually escapes or forces stalemate
+  - ✅ Correction: Constantly adjust hip angle, stepping pattern, and shoulder pressure in small increments to maintain opponent's discomfort and prevent defensive settling
+
+
+👉 **[[Guillotine Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -180,16 +299,6 @@ The top player in guillotine control balances control maintenance with submissio
 - **[[Standing Position]]** - Primary entry context for guillotine from sprawls and clinch exchanges
 
 - **[[Side Control]]** - Advancement target when passing while maintaining guillotine grip
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](guillotine-control/bottom)** - Techniques and strategies
-- **[Top Perspective](guillotine-control/top)** - Techniques and strategies
-
 
 
 </section>

@@ -1341,4 +1341,4 @@ Complete guide to all BJJ positions. Learn the positional hierarchy, point value
 
 ---
 
-*This hub page is automatically generated from content files. Last generated: 2025-11-12 09:54:40*
+*This hub page is automatically generated from content files. Last generated: 2025-11-12 11:05:58*

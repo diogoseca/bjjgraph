@@ -74,6 +74,18 @@ The effectiveness of D'arce Control lies in its ability to create multiple dilem
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[D'arce Control/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[D'arce Control/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## D'arce Control Bottom Perspective
@@ -99,12 +111,50 @@ The bottom player in d'arce control must focus on creating frames, protecting ag
 ### Primary Techniques
 
 
+- **[[Arm Extraction]]** → [[Turtle]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Rolling to Guard]]** → [[Half Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Step Over Escape]]** → [[Open Guard]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Back Door Escape]]** → [[Turtle]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Counter Roll]]** → [[Side Control]]
+  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+
+- **[[Granby Roll]]** → [[Closed Guard]]
+  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+
 
 ### Common Errors
 
 
+- ❌ **Pulling away from the choke or trying to create distance by extending the neck**
+  - Consequence: Creates space for opponent to tighten the choke and establish deeper grip, actually making the submission easier to finish
+  - ✅ Correction: Move into the choke by turning your body toward opponent's trapped arm, which reduces choking pressure and creates escape angles
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](darce-control/bottom)**
+- ❌ **Leaving the trapped arm pinned across the body without immediately working to free it**
+  - Consequence: Allows opponent to maintain the arm-in configuration which is essential for D'arce effectiveness, making escape nearly impossible
+  - ✅ Correction: Prioritize extracting the trapped arm using your free hand to pull it out and eliminate the arm-in structure
+
+- ❌ **Allowing opponent to flatten you completely to your back or side**
+  - Consequence: Gives opponent the positional control needed to fully extend their body and complete the choke with maximum leverage
+  - ✅ Correction: Maintain some base on your knees or hip, creating frames with your free arm to prevent being completely flattened
+
+- ❌ **Panicking and making explosive, uncontrolled movements**
+  - Consequence: Wastes energy rapidly, may tighten the choke inadvertently, and prevents systematic execution of escape sequences
+  - ✅ Correction: Stay composed, breathe through the nose, and execute deliberate defensive techniques with proper timing and mechanics
+
+- ❌ **Neglecting to protect the neck by failing to tuck the chin**
+  - Consequence: Allows opponent's choking arm to slide deeper under the jaw and compress carotid arteries more effectively
+  - ✅ Correction: Keep chin tucked tight to chest, using your jaw and skull structure to block deep penetration of the choke
+
+
+👉 **[[D'arce Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -133,12 +183,50 @@ The top player in d'arce control balances control maintenance with submission at
 ### Primary Techniques
 
 
+- **[[Darce Choke]]** → [[Won by Submission]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Turtle to Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Anaconda from Turtle]]** → [[Anaconda Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Transition to North-South]]** → [[North-South]]
+  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+
+- **[[Arm Triangle from Turtle]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Failing to maintain deep arm penetration with elbow past opponent's spine**
+  - Consequence: Opponent creates space to pull trapped arm free and escape the position
+  - ✅ Correction: Continuously drive elbow deeper while maintaining tight connection of bicep to opponent's neck, ensuring hand reaches toward far hip
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](darce-control/top)**
+- ❌ **Staying static in one position without adjusting angle or pressure**
+  - Consequence: Opponent has time to organize defensive structure and work systematic escape
+  - ✅ Correction: Maintain constant adjustment of hip position and shoulder pressure, circling to maintain optimal choking angle and prevent opponent from establishing defensive frames
+
+- ❌ **Lifting head up away from opponent instead of driving shoulder pressure down**
+  - Consequence: Creates space under the armpit allowing opponent to extract trapped arm and escape
+  - ✅ Correction: Keep head down and drive shoulder into the side of opponent's head, using body weight to close the choke rather than arm strength alone
+
+- ❌ **Allowing opponent to turn into the choke and establish inside control**
+  - Consequence: Opponent can pass under and reverse position or establish guard
+  - ✅ Correction: If opponent begins turning in, immediately transition to mount or back control rather than trying to maintain the darce grip
+
+- ❌ **Gripping too high on opponent's body near shoulder rather than deep toward hip**
+  - Consequence: Insufficient leverage to close the choke and opponent can defend indefinitely with chin tuck
+  - ✅ Correction: Focus on initial arm penetration depth - hand should reach past opponent's far hip before locking the grip, ensuring maximum leverage for the choke
+
+
+👉 **[[D'arce Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -164,16 +252,6 @@ The top player in d'arce control balances control maintenance with submission at
 - **[[Back Control]]** - High-percentage transition when opponent rolls to escape
 
 - **[[Scramble Position]]** - Common context where darce opportunities arise
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](darce-control/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](darce-control/top)** - Techniques and strategies
-
 
 
 </section>

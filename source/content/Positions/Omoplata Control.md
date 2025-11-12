@@ -72,6 +72,18 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Omoplata Control/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
+- **[[Omoplata Control/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Omoplata Control Bottom Perspective
@@ -101,12 +113,50 @@ The bottom player in omoplata control controls the position with offensive attac
 ### Primary Techniques
 
 
+- **[[Omoplata]]** → [[Won by Submission]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Omoplata Sweep]]** → [[Side Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Omoplata to Back]]** → [[Back Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Triangle Setup]]** → [[Triangle Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Transition to Omoplata]]** → [[Armbar Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Rolling Omoplata]]** → [[Mount]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
 
 ### Common Errors
 
 
+- ❌ **Allowing too much space between hips and opponent's trapped shoulder**
+  - Consequence: Opponent can create enough space to extract their arm or roll through the position
+  - ✅ Correction: Keep hips tight to opponent's shoulder, actively pulling your body toward their trapped side while maintaining leg pressure across the back
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](omoplata-control/bottom)**
+- ❌ **Failing to control opponent's free arm or body movement**
+  - Consequence: Opponent can post with free arm and create leverage to escape or counter
+  - ✅ Correction: Use your free leg and hands to control opponent's free arm, hips, or gi, preventing them from establishing strong base
+
+- ❌ **Not adjusting hip angle as opponent defends**
+  - Consequence: Shoulder pressure is reduced and submission becomes less threatening, allowing opponent time to escape
+  - ✅ Correction: Continuously move hips laterally away from opponent's body to increase shoulder rotation angle and maintain submission threat
+
+- ❌ **Focusing only on the submission while ignoring sweep opportunities**
+  - Consequence: Miss high-percentage sweeps when opponent commits to defending the shoulder lock
+  - ✅ Correction: Read opponent's weight distribution and defensive posture, transitioning to sweeps when they commit weight forward to defend submission
+
+- ❌ **Relaxing leg pressure across opponent's back**
+  - Consequence: Opponent can slip their shoulder out from under the controlling leg or posture up to escape
+  - ✅ Correction: Maintain constant active pressure with the shin across the upper back, pulling the knee down toward the mat to keep opponent's posture broken
+
+
+👉 **[[Omoplata Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -139,12 +189,54 @@ The top player in omoplata control balances control maintenance with submission 
 ### Primary Techniques
 
 
+- **[[Omoplata]]** → [[Won by Submission]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Omoplata to Back]]** → [[Back Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Omoplata Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 68%
+
+- **[[Triangle Setup]]** → [[Triangle Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Armbar from Guard]]** → [[Armbar Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Rolling Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
 
 ### Common Errors
 
 
+- ❌ **Allowing too much space between hips and opponent's shoulder during control phase**
+  - Consequence: Opponent can sit up, relieve shoulder pressure, and escape the position or even reverse to top position
+  - ✅ Correction: Keep your hips glued to the opponent's shoulder and upper back, constantly adjusting angle to maintain tight connection and shoulder lock pressure
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](omoplata-control/top)**
+- ❌ **Failing to post with the free leg, leaving yourself vulnerable to forward roll counters**
+  - Consequence: Opponent successfully executes forward roll and escapes to top position or side control
+  - ✅ Correction: Always maintain strong base with your free leg, posting it behind you or using it to control opponent's hip to prevent rolling momentum
+
+- ❌ **Gripping too high on the opponent's body instead of controlling the belt or hips**
+  - Consequence: Opponent can more easily manipulate their posture and create escape opportunities through hip movement
+  - ✅ Correction: Establish grips on the belt, pants, or lower torso to control hip positioning and prevent postural adjustments that lead to escapes
+
+- ❌ **Finishing the omoplata too early before establishing complete control and proper angle**
+  - Consequence: Opponent defends the submission more easily and may escape the position entirely
+  - ✅ Correction: Be patient in establishing perfect hip angle and shoulder isolation before applying finishing pressure, ensuring all control points are secured
+
+- ❌ **Neglecting to control the opponent's free arm during the position**
+  - Consequence: Opponent uses free arm to post, create base, and facilitate escape or counter-attack
+  - ✅ Correction: Monitor and control the opponent's free arm with grips or positional awareness, preventing them from establishing effective posting or framing
+
+- ❌ **Maintaining static position without adapting to opponent's defensive movements**
+  - Consequence: Opponent finds gaps in your control and successfully escapes or neutralizes the submission threat
+  - ✅ Correction: Continuously adjust hip angle, leg pressure, and grip positioning in response to opponent's movements, staying one step ahead of their defensive strategy
+
+
+👉 **[[Omoplata Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -170,16 +262,6 @@ The top player in omoplata control balances control maintenance with submission 
 - **[[Rubber Guard]]** - Alternative guard with similar shoulder control mechanics
 
 - **[[Lasso Guard]]** - Entry position with arm isolation for omoplata setup
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](omoplata-control/bottom)** - Sweeps, attacks, and submissions
-- **[Top Perspective](omoplata-control/top)** - Techniques and strategies
-
 
 
 </section>

@@ -76,6 +76,18 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Rodeo Ride/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Rodeo Ride/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Rodeo Ride Bottom Perspective
@@ -105,12 +117,61 @@ The bottom player in rodeo ride must focus on creating frames, protecting agains
 ### Primary Techniques
 
 
+- **[[Turtle to Guard]]** → [[Closed Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Technical Stand-up]]** → [[Standing Position]]
+  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+
+- **[[Granby Roll]]** → [[Open Guard]]
+  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+
+- **[[Rolling to Guard]]** → [[Half Guard]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Elbow Escape]]** → [[Half Guard]]
+  - Success Rate: Beginner 12%, Intermediate 25%, Advanced 40%
+
+- **[[Sit Through Escape]]** → [[Butterfly Guard]]
+  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+
+- **[[Standing up in Base]]** → [[Combat Base]]
+  - Success Rate: Beginner 8%, Intermediate 18%, Advanced 30%
+
 
 ### Common Errors
 
 
+- ❌ **Flattening out on stomach in attempt to prevent back exposure**
+  - Consequence: Creates perfect conditions for mount or crucifix control, eliminates mobility and escape options
+  - ✅ Correction: Maintain turtle structure with knees under hips even under heavy pressure, using small adjustments rather than collapsing
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](rodeo-ride/bottom)**
+- ❌ **Allowing both arms to be controlled or trapped simultaneously**
+  - Consequence: Complete loss of defensive capability, makes submission and back control nearly inevitable
+  - ✅ Correction: Prioritize keeping at least one arm free for posting and framing, sacrifice other positions if necessary to maintain this
+
+- ❌ **Staying completely static hoping opponent will make mistake**
+  - Consequence: Allows opponent to perfect their control and systematically break down defense at their pace
+  - ✅ Correction: Create constant small movements and adjustments to disrupt opponent's control, looking for windows to explode into escapes
+
+- ❌ **Attempting to stand up without first addressing opponent's grips and pressure**
+  - Consequence: Opponent easily follows to standing back control or takes you back down with superior position
+  - ✅ Correction: First strip grips and create separation, then execute technical stand-up with proper base and posture
+
+- ❌ **Exposing neck and chin in effort to look at opponent or track their movement**
+  - Consequence: Provides easy access for clock choke, guillotine, or other collar chokes
+  - ✅ Correction: Keep chin tucked and head protected, use peripheral vision and feel to track opponent position
+
+- ❌ **Rolling directly into opponent's pressure direction during escape attempts**
+  - Consequence: Assists opponent's attack by rolling into their control, makes back exposure more likely
+  - ✅ Correction: Roll away from pressure direction or wait for opponent's weight shift before initiating roll
+
+- ❌ **Giving up grips and defensive hand fighting too quickly**
+  - Consequence: Allows opponent to establish dominant grips unopposed, making subsequent defense much harder
+  - ✅ Correction: Fight every grip attempt actively, make opponent work for each control point they establish
+
+
+👉 **[[Rodeo Ride/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +204,70 @@ The top player in rodeo ride balances control maintenance with submission attack
 ### Primary Techniques
 
 
+- **[[Turtle to Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Crab Ride to Back]]** → [[Crab Ride]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Transition to Truck]]** → [[Truck]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
+- **[[Crucifix from Turtle]]** → [[Crucifix]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+
+- **[[Clock Choke]]** → [[Won by Submission]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Bow and Arrow Choke]]** → [[Won by Submission]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Rolling Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Side Control to Mount]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Darce from Turtle]]** → [[Won by Submission]]
+  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+
 
 ### Common Errors
 
 
+- ❌ **Staying too static and allowing opponent to establish strong defensive base**
+  - Consequence: Opponent can effectively stall and prevent advancement, eventually escaping to standing or guard
+  - ✅ Correction: Maintain constant movement and pressure adjustment, flowing between control points and attacking opponent's base continuously
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](rodeo-ride/top)**
+- ❌ **Overcommitting weight forward without maintaining base leg posted**
+  - Consequence: Loss of balance and control, allowing opponent to easily roll through or sit back to guard
+  - ✅ Correction: Always maintain one leg posted for base while applying pressure with upper body and other leg, creating tripod stability
+
+- ❌ **Focusing only on submissions without establishing positional control first**
+  - Consequence: Opponent escapes during submission attempts due to insufficient control, wasting energy and losing position
+  - ✅ Correction: Secure control through proper grips and weight distribution before attempting submissions, using position to set up attacks
+
+- ❌ **Releasing near arm control prematurely when transitioning**
+  - Consequence: Opponent posts with free arm to create frames and escape, preventing back control or submission entries
+  - ✅ Correction: Maintain near arm control until replacement control is established, ensuring continuous connection throughout transitions
+
+- ❌ **Allowing opponent to turn into you and establish defensive frames**
+  - Consequence: Opponent recovers guard or achieves better defensive position, neutralizing your offensive advantage
+  - ✅ Correction: Stay perpendicular to opponent's spine and control their rotation with chest pressure and strategic gripping
+
+- ❌ **Using only upper body strength without engaging hips for pressure**
+  - Consequence: Ineffective control that drains energy quickly and allows opponent to maintain strong posture
+  - ✅ Correction: Drive hip pressure through opponent's core while maintaining chest connection, using full body mechanics not just arms
+
+- ❌ **Failing to anticipate opponent's escape direction and movement patterns**
+  - Consequence: Opponent successfully escapes because you're reacting rather than anticipating, always one step behind
+  - ✅ Correction: Read opponent's weight distribution and base positioning to predict escape attempts, positioning yourself to intercept movement
+
+
+👉 **[[Rodeo Ride/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -174,16 +293,6 @@ The top player in rodeo ride balances control maintenance with submission attack
 - **[[Mount]]** - Advancement position when opponent flattens on stomach
 
 - **[[Front Headlock]]** - Related transitional attack position from turtle scenarios
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](rodeo-ride/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](rodeo-ride/top)** - Techniques and strategies
-
 
 
 </section>

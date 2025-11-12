@@ -76,6 +76,18 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Toe Hold Control/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Toe Hold Control/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Toe Hold Control Bottom Perspective
@@ -105,12 +117,58 @@ The bottom player in toe hold control must focus on creating frames, protecting 
 ### Primary Techniques
 
 
+- **[[Saddle Defense]]** → [[Ashi Garami]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+
+- **[[Ashi Garami Escape]]** → [[Half Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+
+- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+
+- **[[X-Guard to Ashi Transition]]** → [[X-Guard]]
+  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+
+- **[[Guard Replacement]]** → [[Open Guard]]
+  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+
+- **[[Deep Half Entry]]** → [[Deep Half Guard]]
+  - Success Rate: Beginner 12%, Intermediate 28%, Advanced 42%
+
 
 ### Common Errors
 
 
+- ❌ **Allowing knee to rotate externally while opponent controls the foot**
+  - Consequence: Dramatically increases rotational leverage on ankle joint, accelerating submission and injury risk exponentially
+  - ✅ Correction: Actively keep knee pointed toward opponent throughout defensive sequence, using hip internal rotation to protect ankle alignment
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](toe-hold-control/bottom)**
+- ❌ **Explosive pulling motion trying to rip foot free from opponent's grip**
+  - Consequence: Creates sudden tension that can cause self-inflicted ankle injury even without opponent applying pressure, plus exhausts energy
+  - ✅ Correction: Use systematic grip breaking on opponent's wrists first, then controlled leg extraction with angular movement rather than straight pulling
+
+- ❌ **Focusing entirely on leg extraction while ignoring opponent's grip configuration**
+  - Consequence: Opponent maintains toe hold control and simply re-establishes position after failed escape attempt, wasting defensive effort
+  - ✅ Correction: Prioritize breaking or controlling opponent's wrist grips before attempting leg movement, as no grips means no submission threat
+
+- ❌ **Lying flat on back with no upper body posture or support**
+  - Consequence: Removes ability to create angles, generate leverage for grip breaks, or use upper body weight to assist escapes
+  - ✅ Correction: Maintain posted position on elbows or sitting posture to preserve mobility, angle creation, and mechanical advantage for defenses
+
+- ❌ **Leaving free leg passive or straight without active defensive positioning**
+  - Consequence: Opponent has unrestricted space to adjust, tighten control, or transition to worse positions like full saddle or heel hook
+  - ✅ Correction: Keep free leg actively framing on opponent's hips, controlling their far leg, or preparing counter-entanglement to limit opponent's options
+
+- ❌ **Waiting too long to tap when ankle is under severe rotational stress**
+  - Consequence: Serious ankle ligament damage, potential fracture, or chronic instability requiring surgery and months of recovery
+  - ✅ Correction: Develop tap-early mentality for ankle locks where career longevity is more valuable than any single training round or match
+
+- ❌ **Attempting to stand up or create distance while foot is still controlled**
+  - Consequence: Standing creates even more dangerous angles for ankle rotation and can result in immediate catastrophic injury
+  - ✅ Correction: Never attempt to stand with foot controlled, clear grips completely first, then consider postural changes
+
+
+👉 **[[Toe Hold Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +201,54 @@ The top player in toe hold control balances control maintenance with submission 
 ### Primary Techniques
 
 
+- **[[Toe Hold]]** → [[Won by Submission]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+
+- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Saddle Entry from Top]]** → [[Saddle]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Kneebar from Top]]** → [[Kneebar Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
+
 
 ### Common Errors
 
 
+- ❌ **Failing to secure deep foot positioning in the armpit before attempting the toe hold finish**
+  - Consequence: Opponent can extract their foot from the control, eliminating submission leverage and allowing complete escape from the leg entanglement
+  - ✅ Correction: Establish complete foot isolation with the blade of the foot pressed against ribs before any rotational pressure is applied, ensuring the foot cannot slip out during the finish
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](toe-hold-control/top)**
+- ❌ **Allowing opponent to sit up to a perpendicular angle while maintaining only foot control**
+  - Consequence: Opponent gains superior posture that enables powerful leg extraction through hip extension and creates opportunity for counter-attacks or complete position reversal
+  - ✅ Correction: Maintain constant forward pressure with chest over opponent's lower leg and use body positioning to control the knee line, preventing the postural recovery that enables escape
+
+- ❌ **Gripping too high on the ankle or shin instead of isolating the foot itself**
+  - Consequence: Rotational pressure dissipates across larger surface area without concentrating force on the ankle joint, resulting in ineffective submission attempts and wasted energy
+  - ✅ Correction: Secure grips specifically around the foot and lower ankle with hands clasped below the ankle joint, creating concentrated rotational leverage directly on the targeted structure
+
+- ❌ **Neglecting to control opponent's free leg positioning during toe hold setup**
+  - Consequence: Opponent uses free leg to push on hip or knee, creating distance that facilitates leg extraction or enables them to sit up and escape the position entirely
+  - ✅ Correction: Monitor free leg constantly and use hip positioning or knee pressure to limit opponent's ability to generate pushing power with their non-trapped leg
+
+- ❌ **Rotating the foot too quickly without establishing structural control of the position**
+  - Consequence: Premature rotation alerts opponent to submission danger before control is absolute, triggering explosive defensive reactions that may result in losing the position or injury to opponent
+  - ✅ Correction: Follow systematic progression of control establishment, grip refinement, and only then submission application, ensuring opponent has no escape before applying rotational pressure
+
+- ❌ **Maintaining static position without adjusting angle based on opponent's defensive reactions**
+  - Consequence: Opponent finds consistent escape route through predictable positioning, eventually extracting their leg or reversing position through superior adaptability
+  - ✅ Correction: Continuously adjust body angle and hip positioning in response to opponent's movements, maintaining control through dynamic positioning rather than static strength
+
+
+👉 **[[Toe Hold Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -182,16 +282,6 @@ The top player in toe hold control balances control maintenance with submission 
 - **[[Leg Entanglement]]** - Fundamental positional category encompassing all ashi-based configurations and leg control scenarios
 
 - **[[Open Guard]]** - General guard category that bottom player seeks to recover after escaping toe hold control entirely
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](toe-hold-control/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](toe-hold-control/top)** - Techniques and strategies
-
 
 
 </section>

@@ -72,6 +72,18 @@ Dead Orchard Control represents an advanced positional control within Brazilian 
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Dead Orchard Control/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Dead Orchard Control/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Dead Orchard Control Bottom Perspective
@@ -101,12 +113,58 @@ The bottom player in dead orchard control must focus on creating frames, protect
 ### Primary Techniques
 
 
+- **[[Hip Escape]]** → [[Turtle]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Rolling to Guard]]** → [[Closed Guard]]
+  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+
+- **[[Frame and Shrimp]]** → [[Turtle]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Granby Roll]]** → [[Half Guard]]
+  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+
+- **[[Arm Extraction]]** → [[Front Headlock]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Technical Standup]]** → [[Standing Position]]
+  - Success Rate: Beginner 5%, Intermediate 15%, Advanced 25%
+
 
 ### Common Errors
 
 
+- ❌ **Explosive bridging or rolling without first addressing the head and arm control**
+  - Consequence: Opponent easily follows the movement and locks in anaconda or darce choke, or takes back control with hooks
+  - ✅ Correction: First create frames at the neck with free hand, then use systematic hip escape movements to progressively improve position before attempting larger movements
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](dead-orchard-control/bottom)**
+- ❌ **Allowing the trapped arm to be pulled across your own body or overextended**
+  - Consequence: Provides opponent with leverage for anaconda choke and eliminates any base on that side, making position nearly inescapable
+  - ✅ Correction: Keep trapped arm elbow tight to your ribs and actively pull it back toward your hip whenever possible to maintain structural integrity
+
+- ❌ **Pushing directly into opponent's chest or shoulders with free arm**
+  - Consequence: Wastes energy, provides no effective space creation, and leaves neck exposed when arm tires
+  - ✅ Correction: Frame specifically at the choking arm and opponent's hip or shoulder to create angles for hip escape, using skeletal structure rather than muscular pushing
+
+- ❌ **Holding breath or breathing shallowly due to panic from restricted airway**
+  - Consequence: Rapid fatigue, mental panic, and inability to execute technical escapes before running out of energy
+  - ✅ Correction: Focus on controlled nasal breathing and accept the discomfort, understanding that technical escapes are possible even with restricted breathing
+
+- ❌ **Attempting to immediately stand up or posture fully upright**
+  - Consequence: Opponent uses the upward movement to elevate and lock submission even tighter, or easily takes back control
+  - ✅ Correction: Work through progressive position improvement: create space, free trapped arm or secure frames, hip escape to guard recovery, then consider standing
+
+- ❌ **Giving up mentally and waiting for inevitable submission**
+  - Consequence: Missing escape opportunities and failing to develop essential defensive skills for high-pressure situations
+  - ✅ Correction: Maintain problem-solving mindset and systematically work through defensive sequence even when position seems hopeless, as opponent errors create escape windows
+
+- ❌ **Turning away from opponent or exposing back further to escape head control**
+  - Consequence: Opponent secures back control with hooks, an even worse position with higher submission probability
+  - ✅ Correction: Keep chest facing downward or toward opponent's hips, using hip escape to create distance rather than turning away and exposing back
+
+
+👉 **[[Dead Orchard Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -139,12 +197,54 @@ The top player in dead orchard control balances control maintenance with submiss
 ### Primary Techniques
 
 
+- **[[Anaconda Choke]]** → [[Won by Submission]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Transition to North-South]]** → [[North-South]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Darce from Turtle]]** → [[D'arce Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
+
+- **[[Front Headlock to Back]]** → [[Back Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 70%
+
+- **[[Side Control to Mount]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
 
 ### Common Errors
 
 
+- ❌ **Rushing the submission finish without establishing proper control and breaking down opponent's defensive structure**
+  - Consequence: Opponent escapes grip during explosive finishing attempt, returns to neutral or advantageous position
+  - ✅ Correction: Focus on gradual pressure increases while maintaining positional control, allowing submission mechanics to develop systematically over 10-15 seconds of sustained pressure
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](dead-orchard-control/top)**
+- ❌ **Allowing opponent's free arm to establish defensive grips or frames against the choking arm**
+  - Consequence: Opponent creates space, defends submission effectively, and potentially escapes to better position
+  - ✅ Correction: Control opponent's free arm with strategic secondary grips or body positioning, prevent defensive hand fighting before attempting finish
+
+- ❌ **Losing shoulder pressure on opponent's trapped shoulder during position maintenance**
+  - Consequence: Opponent recovers posture, creates space, and escapes the control position
+  - ✅ Correction: Maintain constant shoulder drive into opponent's trapped shoulder throughout the position, adjust body weight to reinforce pressure as needed
+
+- ❌ **Failing to adjust grip depth as opponent defends, allowing grip to become shallow**
+  - Consequence: Submission mechanics weaken, opponent creates space for escape, control position deteriorates
+  - ✅ Correction: Continuously reassess and adjust grip depth, using body movement and weight shifts to maintain or improve hand position
+
+- ❌ **Poor hip positioning allowing opponent to create distance or turn into the practitioner**
+  - Consequence: Opponent escapes to guard, achieves sweep, or otherwise reverses the position
+  - ✅ Correction: Maintain active hip control with strategic weight distribution, adjust positioning based on opponent's movement patterns while preserving grip integrity
+
+- ❌ **Neglecting to monitor opponent's breathing and defensive responses during extended control**
+  - Consequence: Miss optimal finishing opportunities or fail to recognize when position maintenance is more advantageous than immediate submission attempt
+  - ✅ Correction: Develop sensitivity to opponent's defensive patterns, breathing changes, and fatigue indicators to time submission attempts optimally
+
+
+👉 **[[Dead Orchard Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -174,16 +274,6 @@ The top player in dead orchard control balances control maintenance with submiss
 - **[[Closed Guard]]** - Escape target from bottom - primary defensive objective
 
 - **[[Half Guard]]** - Secondary escape target - achievable defensive recovery position
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](dead-orchard-control/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](dead-orchard-control/top)** - Techniques and strategies
-
 
 
 </section>

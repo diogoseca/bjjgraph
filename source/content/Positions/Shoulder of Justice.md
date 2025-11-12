@@ -74,6 +74,18 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Shoulder of Justice/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Shoulder of Justice/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Shoulder of Justice Bottom Perspective
@@ -103,12 +115,58 @@ The bottom player in shoulder of justice must focus on creating frames, protecti
 ### Primary Techniques
 
 
+- **[[Shrimp Escape]]** → [[Half Guard]]
+  - Success Rate: Beginner 18%, Intermediate 28%, Advanced 42%
+
+- **[[Elbow Escape]]** → [[Half Guard]]
+  - Success Rate: Beginner 20%, Intermediate 32%, Advanced 48%
+
+- **[[Frame and Shrimp]]** → [[Closed Guard]]
+  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 38%
+
+- **[[Bridge and Roll]]** → [[Side Control]]
+  - Success Rate: Beginner 8%, Intermediate 15%, Advanced 25%
+
+- **[[Technical Standup]]** → [[Standing Position]]
+  - Success Rate: Beginner 12%, Intermediate 22%, Advanced 35%
+
+- **[[Re-Guard]]** → [[Open Guard]]
+  - Success Rate: Beginner 14%, Intermediate 24%, Advanced 36%
+
 
 ### Common Errors
 
 
+- ❌ **Extending near arm to push opponent's shoulder away from face**
+  - Consequence: Immediately exposes arm to kimura attack with extremely high finishing rate from this position
+  - ✅ Correction: Keep near arm protected tight to body, use forearm to create subtle frames without extension
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](shoulder-of-justice/bottom)**
+- ❌ **Turning face into pressure to relieve jaw discomfort**
+  - Consequence: Opens north-south transition pathway and potential back-take opportunities for opponent
+  - ✅ Correction: Maintain head turned away from pressure while working on hip escape and space creation
+
+- ❌ **Bringing far arm across body to shield face from shoulder pressure**
+  - Consequence: Creates perfect arm triangle setup where opponent traps your arm across your own neck
+  - ✅ Correction: Keep far arm tight to far-side ribs, never bring it across centerline of your body
+
+- ❌ **Attempting explosive shrimp while opponent has maximum pressure and base**
+  - Consequence: Wastes energy, achieves no positional improvement, and creates fatigue that worsens situation
+  - ✅ Correction: Wait for opponent's weight shifts or transition attempts before timing shrimp movements
+
+- ❌ **Holding breath or breathing through mouth due to jaw pressure**
+  - Consequence: Rapid fatigue, panic response, and loss of technical composure leading to desperate reactions
+  - ✅ Correction: Force yourself to breathe steadily through nose despite discomfort, maintaining mental control
+
+- ❌ **Giving up mentally and waiting to be submitted due to pressure discomfort**
+  - Consequence: Guaranteed submission or mount advancement as opponent has unlimited time to set up attacks
+  - ✅ Correction: Accept discomfort as temporary, focus on systematic escape steps rather than immediate relief
+
+- ❌ **Attempting to turn to turtle position to escape shoulder pressure**
+  - Consequence: Exposes back-take opportunities and potential rear naked choke submissions
+  - ✅ Correction: Stay on back and work on creating frames and space for guard recovery instead
+
+
+👉 **[[Shoulder of Justice/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -141,12 +199,71 @@ The top player in shoulder of justice balances control maintenance with submissi
 ### Primary Techniques
 
 
+- **[[Kimura from Side Control]]** → [[Kimura Control]]
+  - Success Rate: Beginner 52%, Intermediate 67%, Advanced 82%
+
+- **[[Americana from Side Control]]** → [[Americana Control]]
+  - Success Rate: Beginner 47%, Intermediate 62%, Advanced 77%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 58%, Intermediate 73%, Advanced 87%
+
+- **[[Transition to North-South]]** → [[North-South]]
+  - Success Rate: Beginner 62%, Intermediate 77%, Advanced 90%
+
+- **[[Side Control to Mount]]** → [[Knee on Belly]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Arm Triangle]]** → [[Armbar Control]]
+  - Success Rate: Beginner 38%, Intermediate 53%, Advanced 70%
+
+- **[[North-South Choke]]** → [[North-South]]
+  - Success Rate: Beginner 33%, Intermediate 48%, Advanced 65%
+
+- **[[Position Change]]** → [[Scarf Hold Position]]
+  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 84%
+
+- **[[Transition to North-South]]** → [[Kesa Gatame]]
+  - Success Rate: Beginner 48%, Intermediate 63%, Advanced 78%
+
 
 ### Common Errors
 
 
+- ❌ **Applying shoulder pressure with upper body only without connecting hips to opponent's hip line**
+  - Consequence: Opponent can easily shrimp and create space for escape since your weight is not properly distributed through your center of mass
+  - ✅ Correction: Keep hips low and connected to opponent's near hip while driving shoulder pressure, creating unified body pressure that prevents shrimping
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](shoulder-of-justice/top)**
+- ❌ **Driving shoulder straight down into face instead of at angle toward far shoulder**
+  - Consequence: Less effective pressure application and easier for opponent to turn head away from pressure and begin escape sequences
+  - ✅ Correction: Angle shoulder blade to drive into jaw line at approximately 45 degrees toward opponent's far shoulder, preventing head rotation completely
+
+- ❌ **Losing base stability by bringing both knees too close together during pressure application**
+  - Consequence: Vulnerable to bridge and roll escapes, cannot maintain sustained pressure, and lose control when opponent moves explosively
+  - ✅ Correction: Maintain wide base with far knee posted solidly and near foot positioned for mobility, distributing weight through stable platform
+
+- ❌ **Allowing opponent's near arm to create defensive frames between your chest and their body**
+  - Consequence: Opponent can create critical space, reduce shoulder pressure effectiveness, and begin building escape momentum
+  - ✅ Correction: Trap or control near arm immediately upon establishing position, keeping it pinned or isolated to prevent any defensive framing
+
+- ❌ **Raising hips too high when applying or adjusting shoulder pressure**
+  - Consequence: Opponent can shrimp effectively underneath you and recover guard or create escape angles
+  - ✅ Correction: Keep hips heavy and low, connected to opponent's hip line throughout all pressure application and position adjustments
+
+- ❌ **Failing to adjust pressure angle when opponent repositions their head defensively**
+  - Consequence: Opponent finds relief from pressure and can begin building defensive structure and escape attempts
+  - ✅ Correction: Continuously adjust shoulder angle and pressure direction based on opponent's head position, maintaining optimal pressure vector
+
+- ❌ **Using only shoulder muscles without engaging full body weight and core**
+  - Consequence: Rapid fatigue in shoulder and neck muscles while providing inadequate control and missing submission opportunities
+  - ✅ Correction: Engage core, hips, and legs to drive your center of mass through shoulder efficiently, maximizing pressure with minimal energy expenditure
+
+- ❌ **Focusing solely on pressure without recognizing opponent's defensive reactions that create submission opportunities**
+  - Consequence: Missing high-percentage submissions and position advancements that opponent's reactions naturally create
+  - ✅ Correction: Maintain awareness of opponent's defensive movements and immediately capitalize on frames, turns, and arm positions that expose submissions
+
+
+👉 **[[Shoulder of Justice/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -176,16 +293,6 @@ The top player in shoulder of justice balances control maintenance with submissi
 - **[[100 Kilos]]** - Related heavy pressure position emphasizing opponent discomfort
 
 - **[[Half Guard]]** - Common escape target for bottom player attempting guard recovery
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](shoulder-of-justice/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](shoulder-of-justice/top)** - Techniques and strategies
-
 
 
 </section>

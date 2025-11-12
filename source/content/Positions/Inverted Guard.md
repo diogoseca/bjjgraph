@@ -72,6 +72,18 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Inverted Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Inverted Guard/Top|Top Perspective]]** - Submissions and positional attacks
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Inverted Guard Bottom Perspective
@@ -101,12 +113,70 @@ The bottom player in inverted guard balances defensive frames with offensive opp
 ### Primary Techniques
 
 
+- **[[Berimbolo Entry]]** → [[Back Control]]
+  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+
+- **[[Rolling Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+
+- **[[Kiss of the Dragon]]** → [[Back Control]]
+  - Success Rate: Beginner 15%, Intermediate 35%, Advanced 55%
+
+- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[X-Guard Sweep]]** → [[X-Guard]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+
+- **[[Granby Roll]]** → [[Closed Guard]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+
+- **[[Omoplata to Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Truck Entry]]** → [[Truck]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+
+- **[[Reverse X-Guard Entry]]** → [[Reverse X-Guard]]
+  - Success Rate: Beginner 22%, Intermediate 42%, Advanced 62%
+
+- **[[Technical Stand-up]]** → [[Standing Guard]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%
+
 
 ### Common Errors
 
 
+- ❌ **Insufficient shoulder pressure with weight on neck instead of shoulder blades**
+  - Consequence: Risk of neck injury and inability to maintain position or create rotation for transitions
+  - ✅ Correction: Distribute weight across shoulder blades, keep head tucked, and actively press shoulders into mat while lifting hips to maintain proper inversion mechanics
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](inverted-guard/bottom)**
+- ❌ **Poor weight distribution allowing opponent to flatten guard and eliminate mobility**
+  - Consequence: Loss of defensive capability, making smash passes and stack passes highly effective with no escape options
+  - ✅ Correction: Maintain active hip elevation and rotation, never allowing hips to settle flat to mat, constantly adjusting position to track opponent movement
+
+- ❌ **Overextension of legs without maintaining connection to opponent's body**
+  - Consequence: Loss of control over opponent's movement and inability to prevent passing or apply offensive techniques effectively
+  - ✅ Correction: Keep legs engaged with hooks or foot placement on opponent's hips, belt, or legs while maintaining grip controls on sleeves, collar, or pants
+
+- ❌ **Extended time in inverted position without transitional intent or clear pathway**
+  - Consequence: Excessive energy expenditure and increased vulnerability to stack passes, pressure passes, and referee penalties for stalling
+  - ✅ Correction: Use inversion as transitional position, immediately moving to berimbolo, back take, or guard recovery rather than static holding without purpose
+
+- ❌ **Lack of clear transitional intent or pathway to dominant position**
+  - Consequence: Stalling in position without offensive or defensive purpose, leading to referee penalties or successful passes by opponent
+  - ✅ Correction: Always have clear objective when inverting: either entering leg entanglement, setting up back take, or recovering guard position with specific technique in mind
+
+- ❌ **Failing to protect against stack passes by not recognizing early warning signs**
+  - Consequence: Opponent drives weight onto shoulders and neck, creating severe pressure and passing opportunities with submission risk
+  - ✅ Correction: Recognize stacking attempts early and immediately granby roll or rotate to alleviate pressure and re-establish guard before position becomes critical
+
+- ❌ **Poor grip selection that doesn't facilitate inversion or protect against smash passing**
+  - Consequence: Opponent establishes dominant grips and applies crushing pressure that prevents transitional movement
+  - ✅ Correction: Establish strategic grips on sleeves, collar, or pants that enable rotational movement and prevent opponent from consolidating passing position
+
+
+👉 **[[Inverted Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -139,12 +209,64 @@ The top player in inverted guard enjoys offensive advantages with access to subm
 ### Primary Techniques
 
 
+- **[[Smash Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Stack Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+
+- **[[Pressure Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Leg Weave Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 28%, Intermediate 48%, Advanced 68%
+
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 32%, Intermediate 52%, Advanced 72%
+
+- **[[Headquarters Pass]]** → [[Headquarters Position]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+
+- **[[Knee on Belly]]** → [[Knee on Belly]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+
+- **[[Mount Control]]** → [[Mount]]
+  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Overcommitting weight forward into berimbolo sequence without proper base**
+  - Consequence: Opponent easily completes berimbolo entry and achieves back control with minimal resistance
+  - ✅ Correction: Maintain proper base with legs wide and weight distributed, controlling distance rather than driving forward without strategic purpose
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](inverted-guard/top)**
+- ❌ **Allowing opponent to establish optimal inversion angles without immediate pressure**
+  - Consequence: Opponent gains full mobility and offensive options from inverted guard, making passing significantly more difficult
+  - ✅ Correction: Recognize inversion attempts early and immediately apply passing pressure to prevent optimal positioning and force defensive reactions
+
+- ❌ **Poor grip control allowing opponent to establish sleeve, collar, or pants grips that facilitate inversion**
+  - Consequence: Opponent controls distance and creates angles necessary for successful berimbolo and back take sequences
+  - ✅ Correction: Establish dominant grips first and break opponent's grip controls before they can achieve optimal inverted positioning
+
+- ❌ **Hesitating during stack pass application allowing opponent to escape or counter**
+  - Consequence: Opponent uses granby roll or rotation to escape stack pressure and recover guard position
+  - ✅ Correction: Commit fully to stack pass once initiated, maintaining continuous pressure and controlling opponent's rotation throughout the pass
+
+- ❌ **Failing to protect legs from entanglement entries while focusing on passing**
+  - Consequence: Opponent secures single leg X-guard, X-guard, or ashi garami positions leading to leg attacks
+  - ✅ Correction: Maintain awareness of leg positioning throughout passing sequences, keeping feet away from opponent's hip line and hook controls
+
+- ❌ **Using excessive energy to pass without strategic approach or timing**
+  - Consequence: Energy depletion while opponent maintains position with minimal effort through mobility and rotation
+  - ✅ Correction: Apply strategic pressure at optimal moments when opponent commits to transitions, using timing and technique rather than pure strength
+
+- ❌ **Allowing opponent to maintain inverted position indefinitely without forcing action**
+  - Consequence: Stalemate situation where opponent conserves energy while you expend effort attempting to pass
+  - ✅ Correction: Force opponent to abandon inverted position through sustained pressure, grip controls, and strategic positioning that eliminates their transitional options
+
+
+👉 **[[Inverted Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -174,16 +296,6 @@ The top player in inverted guard enjoys offensive advantages with access to subm
 - **[[Lasso Guard]]** - Connected guard position with inversion pathways
 
 - **[[Butterfly Guard]]** - Alternative mobile guard system with sweep emphasis
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](inverted-guard/bottom)** - Techniques and strategies
-- **[Top Perspective](inverted-guard/top)** - Submissions and positional attacks
-
 
 
 </section>

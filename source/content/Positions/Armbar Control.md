@@ -76,6 +76,18 @@ This position appears across all levels of competition and training, making prof
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Armbar Control/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Armbar Control/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Armbar Control Bottom Perspective
@@ -105,12 +117,54 @@ The bottom player in armbar control must focus on creating frames, protecting ag
 ### Primary Techniques
 
 
+- **[[Hip Escape]]** → [[Closed Guard]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Stack Defense]]** → [[Standing Position]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Arm Extraction]]** → [[Closed Guard]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Rolling Escape]]** → [[Turtle]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Hitchhiker Escape]]** → [[Half Guard]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Bridge and Roll]]** → [[Mount]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
 
 ### Common Errors
 
 
+- ❌ **Straightening the attacked arm in attempt to pull out**
+  - Consequence: Creates optimal finishing angle for opponent and dramatically increases submission success rate
+  - ✅ Correction: Keep elbow bent at 90 degrees or more, pull wrist toward shoulder with free hand to maintain flexion
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](armbar-control/bottom)**
+- ❌ **Turning thumb downward toward the mat**
+  - Consequence: Weakens elbow joint structure making it more vulnerable to hyperextension and increasing injury risk
+  - ✅ Correction: Rotate forearm so thumb points toward ceiling, creating stronger anatomical position for the elbow joint
+
+- ❌ **Panicking and using explosive muscular effort without technique**
+  - Consequence: Depletes energy rapidly, increases injury risk, and often results in tighter opponent control
+  - ✅ Correction: Stay calm, focus on systematic defensive steps: bend arm, thumb up, connect to body, then escape
+
+- ❌ **Ignoring opponent's leg across the face**
+  - Consequence: Allows opponent to secure tight control and drop back freely for the finish
+  - ✅ Correction: Use free hand to control opponent's leg, push it away from face, and prevent them from falling back
+
+- ❌ **Remaining flat on back without creating angles**
+  - Consequence: Provides opponent with stable platform to finish submission with maximum leverage
+  - ✅ Correction: Bridge hips, turn onto side toward attacked arm, create stacking pressure to compromise opponent's angle
+
+- ❌ **Giving up mental battle and tapping prematurely**
+  - Consequence: Misses escape opportunities and fails to develop crucial submission defense skills
+  - ✅ Correction: Maintain composure, systematically work through defensive sequence, tap only when joint is actually compromised
+
+
+👉 **[[Armbar Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +197,58 @@ The top player in armbar control balances control maintenance with submission at
 ### Primary Techniques
 
 
+- **[[Armbar Finish]]** → [[Won by Submission]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Triangle Setup]]** → [[Triangle Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Transition to Omoplata]]** → [[Omoplata Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Triangle to Armbar]]** → [[Triangle Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Mount to Armbar]]** → [[Mount]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Kimura from Guard]]** → [[Kimura Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
 
 ### Common Errors
 
 
+- ❌ **Allowing hips to drift away from opponent's shoulder, creating distance between the hip and shoulder connection point**
+  - Consequence: Loss of leverage for extension, increased difficulty finishing the submission, and increased opportunity for opponent to bend their arm or stack
+  - ✅ Correction: Constantly scoot hips tight to opponent's shoulder throughout the entire sequence, maintaining maximum proximity and eliminating any gap that reduces mechanical advantage
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](armbar-control/top)**
+- ❌ **Failing to control opponent's head with legs, leaving both legs parallel to the body or loosely positioned**
+  - Consequence: Opponent can sit up, turn into the position, or stack effectively, compromising control and potentially reversing the position entirely
+  - ✅ Correction: Maintain one leg across opponent's neck/chest area with active downward pressure while positioning the other leg to control the head or provide base, preventing upward movement
+
+- ❌ **Crossing the feet or ankle-locking the legs during the armbar**
+  - Consequence: Reduced hip mobility for finishing, weakened leg control over opponent's upper body, and vulnerability to foot attacks or foot lock counters
+  - ✅ Correction: Keep feet uncrossed with knees pinched together, allowing maximum hip elevation while maintaining strong leg pressure on opponent's head and chest
+
+- ❌ **Pulling hands toward the side of the body instead of straight to the chest centerline**
+  - Consequence: Reduced leverage on the elbow joint, decreased submission efficiency, and increased energy expenditure without corresponding increase in finishing pressure
+  - ✅ Correction: Pull hands directly toward the center of your chest while simultaneously raising hips, creating perpendicular force vectors that maximize hyperextension across the elbow
+
+- ❌ **Attempting to finish with opponent's thumb pointing downward instead of upward**
+  - Consequence: Significantly reduced effectiveness due to arm rotation allowing stronger defensive positioning, potential injury risk due to rotation under pressure, and easier arm extraction for opponent
+  - ✅ Correction: Before committing to the finish, ensure opponent's thumb points upward by adjusting grips and arm orientation, creating optimal vulnerability in the elbow joint structure
+
+- ❌ **Using only arm strength to pull opponent's arm without engaging hip elevation**
+  - Consequence: Rapid fatigue, insufficient pressure to overcome opponent's defensive strength, and loss of position as arms tire before achieving submission
+  - ✅ Correction: Coordinate hip thrust upward with arm pull, using the large muscle groups of the hips, glutes, and core to generate the primary extension force while arms maintain control
+
+- ❌ **Turning parallel to opponent's body during the finish attempt instead of maintaining perpendicularity**
+  - Consequence: Severe reduction in leverage, increased vulnerability to opponent's defensive stacking, and potential loss of the isolated arm entirely as angles deteriorate
+  - ✅ Correction: Maintain 90-degree angle between your spine and opponent's body throughout the entire sequence, checking body orientation constantly and readjusting if parallel alignment begins to develop
+
+
+👉 **[[Armbar Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -176,16 +276,6 @@ The top player in armbar control balances control maintenance with submission at
 - **[[S Mount]]** - Transitional mount variation facilitating armbar setup
 
 - **[[Crucifix]]** - Alternative arm isolation control position
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](armbar-control/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](armbar-control/top)** - Techniques and strategies
-
 
 
 </section>

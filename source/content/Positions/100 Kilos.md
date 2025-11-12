@@ -72,6 +72,18 @@ description: "Master 100 Kilos position in BJJ. Devastating pressure variant com
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[100 Kilos/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[100 Kilos/Top|Top Perspective]]** - Submissions and positional attacks
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## 100 Kilos Bottom Perspective
@@ -101,12 +113,53 @@ The bottom player in 100 kilos must focus on creating frames, protecting against
 ### Primary Techniques
 
 
+- **[[Elbow Escape]]** → [[Half Guard]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Shrimp Escape]]** → [[Open Guard]]
+  - Success Rate: Beginner 12%, Intermediate 25%, Advanced 40%
+
+- **[[Frame and Shrimp]]** → [[Closed Guard]]
+  - Success Rate: Beginner 10%, Intermediate 22%, Advanced 35%
+
+- **[[Bridge and Roll]]** → [[Mount]]
+  - Success Rate: Beginner 8%, Intermediate 18%, Advanced 30%
+
+- **[[Technical Standup]]** → [[Standing Position]]
+  - Success Rate: Beginner 5%, Intermediate 15%, Advanced 28%
+
+- **[[Hip Escape]]** → [[Open Guard]]
+  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+
+- **[[Granby Roll]]** → [[Turtle]]
+  - Success Rate: Beginner 8%, Intermediate 18%, Advanced 32%
+
 
 ### Common Errors
 
 
+- ❌ **Pushing directly into opponent's shoulder pressure with arms fully extended**
+  - Consequence: Rapid arm fatigue, loss of framing ability, and increased vulnerability to arm attacks
+  - ✅ Correction: Maintain bent-arm frames with elbows close to body, creating structural frames rather than muscle-based resistance
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](100-kilos/bottom)**
+- ❌ **Holding breath or breathing in shallow panic breaths**
+  - Consequence: Rapid oxygen depletion, increased panic, and accelerated exhaustion leading to mental defeat
+  - ✅ Correction: Focus on controlled nasal breathing with short efficient breaths, accepting discomfort while maintaining oxygen flow
+
+- ❌ **Allowing hips to flatten completely against the mat**
+  - Consequence: Loss of mobility and escape options, making re-guarding nearly impossible
+  - ✅ Correction: Keep hips slightly turned and mobile at all times, maintaining ability to shrimp even under heavy pressure
+
+- ❌ **Explosive random escape attempts without systematic approach**
+  - Consequence: Energy waste, position worsening, and giving opponent opportunities to advance or submit
+  - ✅ Correction: Use systematic escape sequences with proper timing, waiting for opponent's weight shifts before committing energy
+
+- ❌ **Turning face directly into opponent's shoulder pressure**
+  - Consequence: Increased facial and airway pressure, potential for ezekiel or other chokes, vision obstruction
+  - ✅ Correction: Keep chin tucked and head turned slightly away from pressure while maintaining peripheral awareness
+
+
+👉 **[[100 Kilos/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -139,12 +192,53 @@ The top player in 100 kilos enjoys offensive advantages with access to submissio
 ### Primary Techniques
 
 
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+
+- **[[Transition to North-South]]** → [[North-South]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%
+
+- **[[Side Control to Mount]]** → [[Side Control]]
+  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 85%
+
+- **[[Kimura from Side Control]]** → [[Kimura Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+
+- **[[Americana from Side Control]]** → [[Americana Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+
+- **[[Armbar from Mount]]** → [[Armbar Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Back Take Generic]]** → [[Back Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+
 
 ### Common Errors
 
 
+- ❌ **Using muscular tension to apply pressure rather than relaxing and using body weight**
+  - Consequence: Rapidly exhausts you while providing less effective pressure on opponent
+  - ✅ Correction: Relax your muscles and let your skeleton do the work - drop dead weight onto their chest rather than actively pushing
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](100-kilos/top)**
+- ❌ **Staying in position too long without recognizing your own fatigue accumulation**
+  - Consequence: Your fatigue accumulates to point where subsequent positions and submissions are compromised
+  - ✅ Correction: Set mental timer for 30-60 seconds maximum - transition to sustainable position before energy is depleted
+
+- ❌ **Failing to spread legs wide enough for stable base**
+  - Consequence: Creates unstable platform requiring muscular effort to maintain balance, increasing energy expenditure
+  - ✅ Correction: Extend legs as wide as comfortable with knees on mat, creating tripod structure for complete relaxation
+
+- ❌ **Positioning chest too high on opponent's body (shoulders/neck) or too low (abdomen)**
+  - Consequence: Reduces breathing restriction effectiveness and allows opponent to create frames or turn away
+  - ✅ Correction: Target your chest directly on opponent's sternum and upper rib cage where respiratory expansion is most restricted
+
+- ❌ **Not having clear transition plan before entering position**
+  - Consequence: Wastes the fatigue you create because you don't capitalize on their weakened state
+  - ✅ Correction: Before establishing 100 kilos, identify your primary transition targets based on opponent's typical responses
+
+
+👉 **[[100 Kilos/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -166,16 +260,6 @@ The top player in 100 kilos enjoys offensive advantages with access to submissio
 - **[[North-South]]** - Transition option when opponent attempts to turn
 
 - **[[Half Guard]]** - Realistic defensive escape target from bottom
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](100-kilos/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](100-kilos/top)** - Submissions and positional attacks
-
 
 
 </section>

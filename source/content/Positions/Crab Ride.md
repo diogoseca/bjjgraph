@@ -76,6 +76,18 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Crab Ride/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Crab Ride/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Crab Ride Bottom Perspective
@@ -105,12 +117,54 @@ The bottom player in crab ride must focus on creating frames, protecting against
 ### Primary Techniques
 
 
+- **[[Hip Escape]]** → [[Turtle]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Granby Roll]]** → [[Closed Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Standing up in Base]]** → [[Standing Position]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Sit Through Escape]]** → [[Half Guard]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Rolling Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+
+- **[[Hook Strip to Re-Guard]]** → [[Butterfly Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
 
 ### Common Errors
 
 
+- ❌ **Staying static in turtle position without addressing the hook**
+  - Consequence: Allows top player time to consolidate control, insert second hook, and complete back take with minimal resistance
+  - ✅ Correction: Immediately work to strip the hook or create separation through explosive movement - never remain passive in this position
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](crab-ride/bottom)**
+- ❌ **Exposing the neck while trying to escape**
+  - Consequence: Opens up rear naked choke or other neck attacks even if escape is partially successful
+  - ✅ Correction: Keep chin tucked throughout all escape attempts and protect neck with hands before attempting explosive movements
+
+- ❌ **Allowing base to be broken and getting flattened to stomach**
+  - Consequence: Transitions to full back control or mount position with greatly reduced escape options
+  - ✅ Correction: Maintain strong posting with at least one arm and one leg, use explosive hip movements before being completely flattened
+
+- ❌ **Reaching back for opponent's leg without controlling their upper body first**
+  - Consequence: Creates space for opponent to advance position or secure choke as you lose defensive structure
+  - ✅ Correction: Secure opponent's hands or create frames before attempting hook removal, ensuring neck safety throughout
+
+- ❌ **Moving predictably in same direction repeatedly**
+  - Consequence: Opponent anticipates movement and times their attacks or position advancement accordingly
+  - ✅ Correction: Change directions unpredictably, combining forward, backward, and lateral movements to keep opponent reactive
+
+- ❌ **Giving up too quickly and accepting back control**
+  - Consequence: Misses opportunities to escape during transitional moments when top player is adjusting position
+  - ✅ Correction: Continue fighting through the position with persistent explosive movements and technical escapes until fully controlled
+
+
+👉 **[[Crab Ride/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +197,60 @@ The top player in crab ride balances control maintenance with submission attacks
 ### Primary Techniques
 
 
+- **[[Crab Ride to Back]]** → [[Back Control]]
+  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+
+- **[[Back Control to Crucifix]]** → [[Crucifix]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Darce from Turtle]]** → [[D'arce Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
+- **[[Anaconda from Turtle]]** → [[Anaconda Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
+- **[[Guillotine from Turtle]]** → [[Guillotine Control]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+
+- **[[Arm Triangle from Turtle]]** → [[Arm Triangle]]
+  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 55%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Side Control to Mount]]** → [[Side Control]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
 
 ### Common Errors
 
 
+- ❌ **Positioning too far forward over opponent's shoulders instead of staying perpendicular to the spine**
+  - Consequence: Allows opponent to sit through and establish guard, or enables them to turn into you and escape
+  - ✅ Correction: Keep hips oriented perpendicular to opponent's spine with weight distributed laterally across their shoulder and ribs, maintaining the characteristic sideways crab position
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](crab-ride/top)**
+- ❌ **Failing to maintain constant pressure with chest against opponent's shoulder and ribs**
+  - Consequence: Opponent can regain strong turtle posture, create space to escape, or turn into you effectively
+  - ✅ Correction: Drive chest pressure continuously into opponent's shoulder blade and ribs to keep them flattened and defensive, using your body weight rather than arm strength
+
+- ❌ **Allowing the hooking leg to become passive or losing the hip anchor**
+  - Consequence: Opponent can easily move forward, circle away, or create the space needed to escape or recover guard
+  - ✅ Correction: Actively maintain the leg hook under opponent's hip with your foot positioned inside their legs, using it as an anchor to control their movement and create attacking opportunities
+
+- ❌ **Gripping only the near side instead of controlling the far side of opponent's body**
+  - Consequence: Opponent can turn toward you more easily, establish defensive frames, or escape to guard without significant resistance
+  - ✅ Correction: Focus control on opponent's far side through grips on far arm, far shoulder, or far collar to prevent them from turning into you and to set up back attacks
+
+- ❌ **Keeping too much weight on the free leg instead of committing to the position**
+  - Consequence: Reduces pressure on opponent and makes your position unstable, allowing easier escapes and reducing attacking effectiveness
+  - ✅ Correction: Shift majority of weight onto opponent while keeping free leg mobile for adjustments, balancing control with the ability to transition smoothly
+
+- ❌ **Staying static without creating attacking threats or advancing position**
+  - Consequence: Allows opponent time to strengthen their defensive turtle posture, plan escapes, and potentially create scrambling opportunities
+  - ✅ Correction: Constantly threaten back takes, submissions, and positional advances to keep opponent reactive and defensive, never allowing them to settle into stable turtle
+
+
+👉 **[[Crab Ride/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -176,16 +278,6 @@ The top player in crab ride balances control maintenance with submission attacks
 - **[[Gift Wrap]]** - Related control position for back attacks
 
 - **[[Front Headlock]]** - Alternative turtle attack position
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](crab-ride/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](crab-ride/top)** - Techniques and strategies
-
 
 
 </section>

@@ -76,6 +76,18 @@ The position is inherently transitional and requires immediate attack execution.
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Body Lock/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Body Lock/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Body Lock Bottom Perspective
@@ -105,12 +117,50 @@ The bottom player in body lock must focus on creating frames, protecting against
 ### Primary Techniques
 
 
+- **[[Hip Escape]]** → [[Standing Position]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Grip Break]]** → [[Clinch]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Sitting Guard Pull]]** → [[Closed Guard]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Technical Standup]]** → [[Standing Position]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Sprawl Defense]]** → [[Front Headlock]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Rolling to Guard]]** → [[Closed Guard]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Allowing opponent to lock hands without immediate defensive response**
+  - Consequence: Once grip is fully locked, breaking it becomes exponentially more difficult and energy-intensive
+  - ✅ Correction: Hand fight aggressively the moment opponent attempts to connect hands, preventing lock before it's established
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](body-lock/bottom)**
+- ❌ **Standing too upright with locked knees against body lock pressure**
+  - Consequence: Makes you easy to throw, lift, or drive backward as opponent has leverage advantage over your high center of gravity
+  - ✅ Correction: Bend knees, widen stance, and lower your center of gravity to create stable base resistant to throws and lifts
+
+- ❌ **Trying to turn in to face opponent while they have locked grip**
+  - Consequence: Turning into the lock gives up your back immediately and makes opponent's job easier
+  - ✅ Correction: Create distance first by posting on hips, then consider turning only after breaking opponent's connection
+
+- ❌ **Using only arm strength to fight opponent's grip**
+  - Consequence: Arms fatigue quickly while opponent uses their entire body structure to maintain control
+  - ✅ Correction: Use hip movement, explosive distance creation, and whole body mechanics to break connection, not just arms
+
+- ❌ **Waiting too long before sitting to guard**
+  - Consequence: Opponent completes mat return or throw, landing in dominant position with momentum on their side
+  - ✅ Correction: Sit to guard proactively if standing escapes fail within 2-3 seconds - control your landing rather than being thrown
+
+
+👉 **[[Body Lock/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +193,60 @@ The top player in body lock balances control maintenance with submission attacks
 ### Primary Techniques
 
 
+- **[[Back Take Generic]]** → [[Back Control]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Turtle to Back Take]]** → [[Standing Back Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Body Lock Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Bodylock Pass]]** → [[Turtle]]
+  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+
+- **[[Double leg takedown]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Snap Down]]** → [[Front Headlock]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Turtle to Back Control]]** → [[Seat Belt Control Back]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 80%
+
+- **[[Rolling Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Failing to drive hips forward immediately after locking hands**
+  - Consequence: Opponent maintains upright posture and strong base, reducing your control advantage and giving them time to establish effective defenses
+  - ✅ Correction: Drive hips forward with progressive pressure from the instant you lock hands, forcing opponent's weight backward and breaking their posture within first second
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](body-lock/top)**
+- ❌ **Breaking locked hands before securing next dominant position**
+  - Consequence: Loses primary control mechanism before establishing new control, allowing opponent to escape or counter-attack effectively
+  - ✅ Correction: Maintain locked grip throughout entire attacking sequence until new dominant position is fully secured with alternative control mechanisms
+
+- ❌ **Leaving space between chest and opponent's back**
+  - Consequence: Creates gap that opponent exploits to establish frames, turn into you, or create distance for escape
+  - ✅ Correction: Drive chest tightly into opponent's back immediately upon locking hands, eliminating all space and maintaining tight connection throughout
+
+- ❌ **Hesitating or waiting too long before executing attack**
+  - Consequence: Body lock is transitional position - delaying attack allows opponent time to establish defenses, break grips, or escape entirely
+  - ✅ Correction: Have predetermined attack based on opponent's position and execute within 1-2 seconds of establishing lock
+
+- ❌ **Improper head positioning too far back or forward from opponent**
+  - Consequence: Reduces overall control, makes you vulnerable to head control counters, and decreases power for throwing techniques
+  - ✅ Correction: Position head tight to underhook side with temple against opponent's shoulder, creating tight connection and proper angle for attacks
+
+- ❌ **Standing too upright with straight legs and high center of gravity**
+  - Consequence: Poor base makes you vulnerable to counter throws, reduces hip driving power, and limits explosive movement options
+  - ✅ Correction: Maintain athletic stance with knees bent, weight on balls of feet, and center of gravity low for maximum stability and explosive power
+
+
+👉 **[[Body Lock/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -176,16 +274,6 @@ The top player in body lock balances control maintenance with submission attacks
 - **[[Back Control]]** - Primary target position from successful mat return or back take
 
 - **[[Harness]]** - Ground-based control position using similar locked grip mechanics
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](body-lock/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](body-lock/top)** - Techniques and strategies
-
 
 
 </section>

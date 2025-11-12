@@ -82,6 +82,18 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Kneebar Control/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
+- **[[Kneebar Control/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Kneebar Control Bottom Perspective
@@ -111,12 +123,70 @@ The bottom player in kneebar control controls the position with offensive attack
 ### Primary Techniques
 
 
+- **[[Kneebar Finish]]** → [[Won by Submission]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+
+- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Saddle Entry from Top]]** → [[Saddle]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+
+- **[[50-50 Entry from Standing]]** → [[50-50 Guard]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Heel Hook]]** → [[Won by Submission]]
+  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+
+- **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Toe Hold]]** → [[Toe Hold Control]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+
+- **[[Single Leg X Entry]]** → [[Single Leg X-Guard]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[X-Guard Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
 
 ### Common Errors
 
 
+- ❌ **Attempting to finish kneebar before breaking opponent's defensive posture and straightening the leg**
+  - Consequence: Opponent maintains bent knee position, preventing hyperextension and enabling easier escape
+  - ✅ Correction: Pull leg tight to chest and use hip movement to break posture before committing to full extension
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](kneebar-control/bottom)**
+- ❌ **Releasing leg entanglement prematurely to pursue finish, allowing opponent to rotate hips freely**
+  - Consequence: Opponent rotates toward or away from pressure, extracting knee from danger and escaping position
+  - ✅ Correction: Maintain strong leg hook throughout finish sequence, only releasing when submission is secured
+
+- ❌ **Positioning hips too far from opponent's knee joint, reducing leverage and extension power**
+  - Consequence: Insufficient pressure on knee even with full hip extension, allowing opponent to defend indefinitely
+  - ✅ Correction: Keep hips connected to opponent's knee with constant pulling pressure, adjusting position as needed
+
+- ❌ **Using arms to create all extension force instead of hip drive and back arch**
+  - Consequence: Arms fatigue quickly without achieving submission, and opponent can counter with leg-based defenses
+  - ✅ Correction: Use arms to control and prevent extraction while hips and back create finishing pressure
+
+- ❌ **Failing to transition when kneebar finish is clearly defended or opponent creates effective counter position**
+  - Consequence: Wasted energy on low-percentage finish allows opponent to escape or establish their own attacks
+  - ✅ Correction: Recognize when finish probability drops below threshold and immediately flow to alternate leg attacks
+
+- ❌ **Crossing feet behind opponent's leg in inside ashi configuration, creating foot lock vulnerability**
+  - Consequence: Opponent can attack exposed ankle with toe hold or straight ankle lock during kneebar defense
+  - ✅ Correction: Keep feet uncrossed and active, using heel positioning to maintain control without creating exposure
+
+- ❌ **Looking away from opponent or breaking visual connection during finishing sequence**
+  - Consequence: Loss of awareness regarding opponent's counter movements and escape timing
+  - ✅ Correction: Maintain visual contact with opponent's hips and upper body to read defensive reactions
+
+
+👉 **[[Kneebar Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -149,12 +219,67 @@ The top player in kneebar control balances control maintenance with submission a
 ### Primary Techniques
 
 
+- **[[Kneebar Finish]]** → [[Won by Submission]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+
+- **[[Knee Cut Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Transition to North-South]]** → [[North-South]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Toe Hold]]** → [[Toe Hold Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+
+- **[[Half Guard Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Knee on Belly]]** → [[Knee on Belly]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Armbar from Mount]]** → [[Armbar Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 65%
+
 
 ### Common Errors
 
 
+- ❌ **Committing weight fully to kneebar finish without securing positional control first, allowing opponent to explode into escape**
+  - Consequence: Loss of top position as opponent recovers guard or achieves reversal during finish attempt
+  - ✅ Correction: Establish stable base and positional control before committing to finish, maintaining weight distribution that prevents escapes
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](kneebar-control/top)**
+- ❌ **Failing to isolate leg completely before attempting finish, leaving opponent's other leg free for defensive frames**
+  - Consequence: Opponent uses free leg to create distance, insert knee shield, or establish guard recovery frames
+  - ✅ Correction: Complete leg isolation by controlling or neutralizing opponent's free leg before full finish commitment
+
+- ❌ **Releasing top pressure to pursue submission angle, creating space for opponent to move or escape**
+  - Consequence: Opponent capitalizes on reduced pressure to hip escape, recover guard, or create defensive frames
+  - ✅ Correction: Maintain constant top pressure through submission sequence, using weight to limit opponent's movement options
+
+- ❌ **Attempting kneebar from positions where rule sets prohibit leg attacks, risking disqualification or penalties**
+  - Consequence: Disqualification in IBJJF rules at lower belt levels, point deductions, or match loss
+  - ✅ Correction: Know competition rule sets thoroughly and only attempt legal submissions for belt level and event type
+
+- ❌ **Over-committing to low-percentage kneebar when opponent has strong defense, wasting positional advantage**
+  - Consequence: Exhausted attacker maintains inferior attacking position while opponent waits for mistakes
+  - ✅ Correction: Recognize defended kneebar quickly and transition to positional advancement or alternative attacks
+
+- ❌ **Positioning hips too high or too low relative to opponent's knee joint, reducing leverage effectiveness**
+  - Consequence: Insufficient pressure on knee joint even with full extension, allowing indefinite defense
+  - ✅ Correction: Align hips directly against opponent's knee to maximize leverage, adjusting position until optimal angle achieved
+
+- ❌ **Gripping opponent's leg too close to hip or too close to ankle, reducing control and finish effectiveness**
+  - Consequence: Opponent extracts leg easily or finish lacks sufficient leverage to create submission threat
+  - ✅ Correction: Secure leg across torso with arms positioned near lower calf for optimal control and finishing power
+
+
+👉 **[[Kneebar Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -184,16 +309,6 @@ The top player in kneebar control balances control maintenance with submission a
 - **[[Turtle]]** - Defensive position where kneebar entries often occur during scrambles
 
 - **[[Headquarters Position]]** - Guard passing position offering kneebar attack opportunities
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](kneebar-control/bottom)** - Sweeps, attacks, and submissions
-- **[Top Perspective](kneebar-control/top)** - Techniques and strategies
-
 
 
 </section>

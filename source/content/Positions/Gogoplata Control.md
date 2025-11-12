@@ -84,6 +84,18 @@ The position also demonstrates important principles about submission-based contr
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Gogoplata Control/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Gogoplata Control/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Gogoplata Control Bottom Perspective
@@ -113,12 +125,60 @@ The bottom player in gogoplata control navigates both offensive and defensive op
 ### Primary Techniques
 
 
+- **[[Gogoplata]]** → [[Won by Submission]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+
+- **[[Triangle Choke]]** → [[Triangle Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Transition to Omoplata]]** → [[Omoplata Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Armbar from Guard]]** → [[Armbar Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[High Mount Transition]]** → [[High Mount]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Mission Control Recovery]]** → [[Mission Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Rubber Guard Maintenance]]** → [[Rubber Guard]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
 
 ### Common Errors
 
 
+- ❌ **Attempting gogoplata without sufficient hip flexibility or hamstring mobility**
+  - Consequence: Unable to get foot behind head or maintain shin pressure, resulting in failed setup and opponent escapes to better position
+  - ✅ Correction: Develop flexibility through dedicated stretching program before attempting position in live training; use rubber guard progressions to assess readiness
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](gogoplata-control/bottom)**
+- ❌ **Allowing hips to drop to mat level instead of maintaining elevation**
+  - Consequence: Shin angle becomes parallel to throat instead of perpendicular, eliminating compression and allowing easy escape
+  - ✅ Correction: Engage core continuously to keep hips elevated; think of driving pelvis toward ceiling while maintaining shin contact with throat
+
+- ❌ **Positioning shin across face or chin instead of directly on trachea**
+  - Consequence: No submission threat and opponent can easily turn head to remove pressure and escape position
+  - ✅ Correction: Focus on tibia placement across front of throat with perpendicular alignment; adjust hip angle to ensure shin crosses windpipe not mandible
+
+- ❌ **Failing to secure own foot behind opponent's head with hand control**
+  - Consequence: Opponent can simply pull the leg away and extract their head, escaping the submission and control
+  - ✅ Correction: Use both hands initially to pull own foot deep behind opponent's head; maintain one hand on foot throughout to prevent removal
+
+- ❌ **Abandoning position too quickly when opponent shows initial defense**
+  - Consequence: Missing submission opportunities and failing to use position as control platform for other attacks
+  - ✅ Correction: Maintain gogoplata control while opponent defends; use their defensive movements to trigger transitions to triangle, omoplata, or back attacks
+
+- ❌ **Attempting gogoplata from positions without proper control prerequisites**
+  - Consequence: Opponent easily defends by posturing or passing before the shin can be established across throat
+  - ✅ Correction: Build through proper progression: closed guard → rubber guard → mission control → gogoplata; ensure each control is solid before advancing
+
+
+👉 **[[Gogoplata Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -151,12 +211,54 @@ The top player in gogoplata control manages the position strategically based on 
 ### Primary Techniques
 
 
+- **[[Head Extraction to Posture]]** → [[Closed Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+
+- **[[Shin Removal to Pass]]** → [[Half Guard]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+
+- **[[Leg Extraction Escape]]** → [[Side Control]]
+  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+
+- **[[Stack Defense]]** → [[Guard Opening Sequence]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+
+- **[[Angle Change Escape]]** → [[Turtle]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Hand Control to Extract]]** → [[Defensive Position]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+
 
 ### Common Errors
 
 
+- ❌ **Pulling head straight backward away from bottom player to escape shin pressure**
+  - Consequence: Foot-behind-head configuration prevents backward movement and pulling motion tightens the choke by increasing shin pressure against throat
+  - ✅ Correction: Focus on lateral head movement and changing angles rather than pulling away; work to remove foot from behind head first before attempting head extraction
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](gogoplata-control/top)**
+- ❌ **Driving weight forward into bottom player attempting to smash through position**
+  - Consequence: Forward pressure increases shin compression on throat and may expose back for back take if opponent uses forward momentum against defender
+  - ✅ Correction: Maintain neutral weight distribution while working on technical escape mechanics; use hand fighting and angle changes rather than weight pressure
+
+- ❌ **Panicking and making explosive, uncontrolled movements when feeling choke pressure**
+  - Consequence: Random movements often expose neck further, tighten existing submission, or create opportunities for triangle and omoplata transitions
+  - ✅ Correction: Stay calm and work systematically through escape sequence; recognize that controlled technical movements are more effective than explosive struggling
+
+- ❌ **Focusing exclusively on removing shin from throat without addressing foot-behind-head position**
+  - Consequence: Shin can be replaced immediately after removal because structural configuration remains intact with foot still behind head
+  - ✅ Correction: Prioritize removing or loosening foot from behind head which eliminates the structural foundation allowing shin to be replaced across throat
+
+- ❌ **Attempting to use hands to pull the leg away from throat without proper leverage**
+  - Consequence: Bottom player's leg is stronger than top player's arms making direct pulling ineffective while hand positioning opens armbar opportunities
+  - ✅ Correction: Use hands to control bottom player's hips and create base rather than grabbing at the choking leg; focus on positional improvements that make leg removal possible
+
+- ❌ **Turning shoulder toward the choking leg to escape pressure**
+  - Consequence: Turning into the shin creates omoplata position giving bottom player alternative submission while maintaining control
+  - ✅ Correction: If turning, turn away from choking leg while maintaining awareness of back exposure; better to work on systematic head extraction than turning into additional threats
+
+
+👉 **[[Gogoplata Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -186,16 +288,6 @@ The top player in gogoplata control manages the position strategically based on 
 - **[[Back Control]]** - Transition target if opponent rolls to escape shin pressure
 
 - **[[Won by Submission]]** - Terminal state when gogoplata submission is completed successfully
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](gogoplata-control/bottom)** - Techniques and strategies
-- **[Top Perspective](gogoplata-control/top)** - Techniques and strategies
-
 
 
 </section>

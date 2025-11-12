@@ -76,6 +76,18 @@ Mastery of Cross Body Ride requires understanding weight distribution mechanics,
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Cross Body Ride/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Cross Body Ride/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Cross Body Ride Bottom Perspective
@@ -105,12 +117,54 @@ The bottom player in cross body ride must focus on creating frames, protecting a
 ### Primary Techniques
 
 
+- **[[Granby Roll]]** → [[Closed Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Hip Escape]]** → [[Half Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Technical Standup]]** → [[Standing Position]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Shrimp Escape]]** → [[Closed Guard]]
+  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+
+- **[[Rolling to Guard]]** → [[Open Guard]]
+  - Success Rate: Beginner 22%, Intermediate 38%, Advanced 52%
+
+- **[[Turtle to Guard]]** → [[Butterfly Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
 
 ### Common Errors
 
 
+- ❌ **Remaining static in turtle position without active defensive movement**
+  - Consequence: Allows opponent to systematically break down defenses and advance to back control or crucifix with minimal resistance
+  - ✅ Correction: Constantly adjust hip position, shift weight, and create small movements to prevent opponent from settling into strong control positions
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](cross-body-ride/bottom)**
+- ❌ **Extending arms away from body to post or push against opponent**
+  - Consequence: Arm becomes isolated and vulnerable to crucifix entry, kimura attacks, or opponent uses extended arm as lever to flatten defender
+  - ✅ Correction: Keep elbows tight to ribs with forearms creating frames close to body, only extending arms momentarily during explosive escape attempts
+
+- ❌ **Lifting head up to look around or assess position**
+  - Consequence: Exposes neck to choke attacks (particularly clock choke, bow and arrow variations) and makes it easier for opponent to control head/neck
+  - ✅ Correction: Maintain chin tucked to chest throughout defensive sequence, using peripheral vision and tactile awareness to track opponent position
+
+- ❌ **Flattening out to mat in attempt to prevent back take**
+  - Consequence: Eliminates all mobility and escape options, allows opponent to easily establish side control, mount, or pin positions with full weight
+  - ✅ Correction: Maintain some degree of elevation on knees/hands even under heavy pressure, protecting ability to move hips and create escape angles
+
+- ❌ **Attempting explosive escapes without proper timing or setup**
+  - Consequence: Wastes energy on low-percentage escape attempts, potentially worsening position as opponent capitalizes on failed movement
+  - ✅ Correction: Wait for opponent to shift weight or adjust grips before initiating escapes, use small hip adjustments to set up proper angles first
+
+- ❌ **Ignoring opponent's grip establishment on collar, belt, or arms**
+  - Consequence: Strong grips allow opponent to control movement, prevent escapes, and transition smoothly to more dominant positions
+  - ✅ Correction: Actively fight grips by adjusting posture, using hand fighting, and moving before opponent can consolidate control points
+
+
+👉 **[[Cross Body Ride/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +197,60 @@ The top player in cross body ride balances control maintenance with submission a
 ### Primary Techniques
 
 
+- **[[Turtle to Back Control]]** → [[Back Control]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Crucifix from Turtle]]** → [[Crucifix]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+
+- **[[Crab Ride to Back]]** → [[Crab Ride]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Bow and Arrow Choke]]** → [[Back Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+
+- **[[Rear Naked Choke]]** → [[Back Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+
+- **[[Armbar from Back]]** → [[Back Control]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+
+- **[[Twister]]** → [[Twister Control]]
+  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+
 
 ### Common Errors
 
 
+- ❌ **Staying too static and allowing opponent to build defensive structure**
+  - Consequence: Opponent successfully stalls position or times escape when top player's weight shifts
+  - ✅ Correction: Maintain constant movement and pressure adjustments, never allowing opponent to establish comfortable defensive posture
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](cross-body-ride/top)**
+- ❌ **Distributing weight too far forward onto opponent's head and neck**
+  - Consequence: Opponent easily rolls forward using top player's momentum, escaping to guard or standing position
+  - ✅ Correction: Keep weight centered on opponent's shoulders and upper back, maintaining base with outside leg to prevent forward rolls
+
+- ❌ **Releasing cross-body pressure prematurely when attempting back take**
+  - Consequence: Opponent escapes during transition, recovering guard or achieving standing position
+  - ✅ Correction: Maintain heavy shoulder pressure throughout entire transition sequence, only releasing when hooks are fully secured
+
+- ❌ **Failing to control opponent's near-side arm or hip**
+  - Consequence: Opponent uses free limbs to create frames, stand up, or rotate away from control
+  - ✅ Correction: Establish and maintain hook or grip on near-side arm or hip before attempting transitions, preventing opponent mobility
+
+- ❌ **Positioning hips too close to opponent allowing easy reversal**
+  - Consequence: Opponent rolls through or reverses position, potentially achieving top position
+  - ✅ Correction: Keep hips back and to the side, maintaining perpendicular angle with mobility to follow opponent's movements
+
+- ❌ **Overcommitting to one side without adjusting to opponent's direction**
+  - Consequence: Opponent escapes to opposite side or reverses position using top player's committed weight
+  - ✅ Correction: Stay mobile and ready to switch sides, following opponent's movement rather than forcing predetermined sequences
+
+
+👉 **[[Cross Body Ride/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -176,16 +278,6 @@ The top player in cross body ride balances control maintenance with submission a
 - **[[Twister Control]]** - Advanced submission threat - accessed through truck transition
 
 - **[[Rodeo Ride]]** - Similar position - alternative turtle attack with different body alignment
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](cross-body-ride/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](cross-body-ride/top)** - Techniques and strategies
-
 
 
 </section>

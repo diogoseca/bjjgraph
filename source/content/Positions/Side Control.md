@@ -74,6 +74,35 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Side Control/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Side Control/Top|Top Perspective]]** - Techniques and strategies
+
+
+### By Variation
+
+- **[[Kesa Gatame]]** - Traditional scarf hold with head control and far arm trapped
+
+- **[[Kuzure Kesa-Gatame]]** - Modified scarf hold with variations in arm control
+
+- **[[Modified Scarf Hold]]** - Adapted scarf position with enhanced mobility
+
+- **[[Reverse Kesa-Gatame]]** - Inverted scarf hold facing opponent's legs
+
+- **[[Reverse Scarf Hold]]** - Alternative reverse positioning with different control points
+
+- **[[Scarf Hold Position]]** - Classic scarf hold with traditional grips
+
+- **[[Side Control Consolidation]]** - Transition phase establishing dominant control
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Side Control Bottom Perspective
@@ -103,12 +132,60 @@ The bottom player in side control must focus on creating frames, protecting agai
 ### Primary Techniques
 
 
+- **[[Elbow Escape]]** → [[Half Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Frame and Shrimp]]** → [[Closed Guard]]
+  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+
+- **[[Bridge and Roll]]** → [[Standing Position]]
+  - Success Rate: Beginner 10%, Intermediate 15%, Advanced 25%
+
+- **[[Hip Escape]]** → [[Knee Shield Half Guard]]
+  - Success Rate: Beginner 18%, Intermediate 30%, Advanced 45%
+
+- **[[Side Control Escape]]** → [[Deep Half Guard]]
+  - Success Rate: Beginner 12%, Intermediate 22%, Advanced 35%
+
+- **[[Shrimp Escape]]** → [[Butterfly Guard]]
+  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 38%
+
+- **[[Side Control Escape]]** → [[Turtle]]
+  - Success Rate: Beginner 25%, Intermediate 35%, Advanced 50%
+
+- **[[Frame Creation]]** → [[Defensive Position]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Attempting explosive escape movements without creating frames first**
+  - Consequence: Wastes energy, fails to create necessary space, and often exposes arms or neck to submission attacks
+  - ✅ Correction: Establish defensive frames with forearms creating structure before attempting any hip movement or escape sequence
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](side-control/bottom)**
+- ❌ **Pushing opponent's head or chest with arms extended**
+  - Consequence: Exposes arms to kimura and americana submissions, weakens defensive structure, and provides opponent with easy submission opportunities
+  - ✅ Correction: Keep elbows tight to body, frame against opponent's hips and shoulders rather than pushing their head or chest directly
+
+- ❌ **Turning toward opponent attempting to face them**
+  - Consequence: Gives up back control, exposes neck to chokes, and transitions from bad position to worse position
+  - ✅ Correction: Turn away from opponent if must turn, always protect back and neck, work systematic escape sequences rather than desperate turning
+
+- ❌ **Lying flat without creating any defensive structure**
+  - Consequence: Allows opponent to settle complete weight and control, makes escape extremely difficult, increases submission vulnerability dramatically
+  - ✅ Correction: Immediately create frames even under heavy pressure, never accept flat position, constantly work to create small amounts of space
+
+- ❌ **Attempting escapes at random times without timing**
+  - Consequence: Escapes fail against stable base, wastes energy on low-percentage attempts, allows opponent to counter and advance position
+  - ✅ Correction: Time escape attempts with opponent's transitions or submission attacks when their base is momentarily compromised
+
+- ❌ **Neglecting to protect neck while focusing only on position escape**
+  - Consequence: Gets submitted by chokes during escape attempts, loses match despite having escape opportunity
+  - ✅ Correction: Maintain chin protection and neck defense throughout all escape sequences, survival takes priority over escape
+
+
+👉 **[[Side Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -141,12 +218,66 @@ The top player in side control balances control maintenance with submission atta
 ### Primary Techniques
 
 
+- **[[Side Control to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Transition to North-South]]** → [[North-South]]
+  - Success Rate: Beginner 55%, Intermediate 70%, Advanced 85%
+
+- **[[Americana from Side Control]]** → [[Won by Submission]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Kimura from Side Control]]** → [[Won by Submission]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Arm Triangle]]** → [[Won by Submission]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Armbar from Side Control]]** → [[Won by Submission]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Transition to Mount]]** → [[Knee on Belly]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 80%
+
+- **[[North-South Choke]]** → [[Won by Submission]]
+  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+
+- **[[Paper Cutter Choke]]** → [[Won by Submission]]
+  - Success Rate: Beginner 20%, Intermediate 30%, Advanced 45%
+
+- **[[Kimura to Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 18%, Intermediate 30%, Advanced 45%
+
 
 ### Common Errors
 
 
+- ❌ **Positioning too high on opponent's chest without hip contact**
+  - Consequence: Allows opponent to create space with their hips, insert a knee for guard recovery, losing the dominant position and potentially the pass points
+  - ✅ Correction: Keep your hips low and in contact with opponent's hips, distributing weight across their torso rather than stacking it high on their chest
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](side-control/top)**
+- ❌ **Insufficient crossface pressure allowing opponent head mobility**
+  - Consequence: Opponent can turn their head toward you, create angles for escape, and begin bridging or shrimping effectively to recover guard
+  - ✅ Correction: Maintain constant forearm or bicep pressure across opponent's face and neck, driving their head away from you with heavy uncomfortable pressure
+
+- ❌ **Failing to control opponent's far hip with near hand**
+  - Consequence: Opponent can easily insert their knee between your bodies, immediately recovering half guard and nullifying your positional advantage
+  - ✅ Correction: Keep your near hand actively blocking opponent's far hip, preventing any knee insertion with constant downward pressure
+
+- ❌ **Placing too much weight on hands instead of hips**
+  - Consequence: Creates space under your chest that opponent can exploit with frames and escapes, reduces control effectiveness significantly
+  - ✅ Correction: Distribute weight through your hips and torso onto opponent's body, hands should be light and mobile for control rather than bearing weight
+
+- ❌ **Staying static without transitioning or attacking**
+  - Consequence: Allows opponent time to develop escape strategy, recover energy, and potentially create opportunities for reversal
+  - ✅ Correction: Constantly threaten submissions or position advancements to keep opponent reactive and defensive with small weight shifts
+
+- ❌ **Overcommitting to submissions without maintaining position**
+  - Consequence: Opponent escapes to guard or neutral position during your submission attempt, losing your dominant position entirely
+  - ✅ Correction: Maintain positional control throughout submission attempts, return to solid side control if submission isn't immediately available
+
+
+👉 **[[Side Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -223,33 +354,6 @@ Transition phase establishing dominant control
 - **[[Back Control]]** - Advanced position when opponent turns incorrectly during escape attempts
 
 - **[[Half Guard]]** - Common escape target for bottom player attempting guard recovery
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](side-control/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](side-control/top)** - Techniques and strategies
-
-
-### By Variation
-
-- **[Kesa Gatame](side-control/kesa-gatame)** - Traditional scarf hold with head control and far arm trapped
-
-- **[Kuzure Kesa-Gatame](side-control/kuzure-kesa-gatame)** - Modified scarf hold with variations in arm control
-
-- **[Modified Scarf Hold](side-control/modified-scarf-hold)** - Adapted scarf position with enhanced mobility
-
-- **[Reverse Kesa-Gatame](side-control/reverse-kesa-gatame)** - Inverted scarf hold facing opponent's legs
-
-- **[Reverse Scarf Hold](side-control/reverse-scarf-hold)** - Alternative reverse positioning with different control points
-
-- **[Scarf Hold Position](side-control/scarf-hold-position)** - Classic scarf hold with traditional grips
-
-- **[Side Control Consolidation](side-control/side-control-consolidation)** - Transition phase establishing dominant control
-
 
 
 </section>

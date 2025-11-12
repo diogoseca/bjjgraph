@@ -70,6 +70,23 @@ The biomechanics of triangle control favor the attacking practitioner significan
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Triangle Control/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
+- **[[Triangle Control/Top|Top Perspective]]** - Techniques and strategies
+
+
+### By Variation
+
+- **[[Rear Triangle]]** - Triangle applied from back control position
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Triangle Control Bottom Perspective
@@ -99,12 +116,57 @@ The bottom player in triangle control controls the position with offensive attac
 ### Primary Techniques
 
 
+- **[[Triangle Choke Front]]** → [[Won by Submission]]
+  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+
+- **[[Triangle to Armbar]]** → [[Armbar Control]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Triangle to Omoplata]]** → [[Omoplata Control]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Triangle to Back]]** → [[Back Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
+- **[[Switch to Triangle]]** → [[Armbar Control]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Inverted Triangle]]** → [[Won by Submission]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+
+- **[[Transition to Omoplata]]** → [[Omoplata Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
 
 ### Common Errors
 
 
+- ❌ **Crossing legs too low on opponent's back instead of high behind the neck**
+  - Consequence: Reduces choking pressure and allows opponent to posture up and escape
+  - ✅ Correction: Lock triangle as high as possible behind opponent's neck, pulling their head down while crossing ankles
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](triangle-control/bottom)**
+- ❌ **Maintaining body position parallel to opponent instead of angling off**
+  - Consequence: Creates weak choking angle that opponent can defend indefinitely through posture
+  - ✅ Correction: Angle hips 30-45 degrees with choking leg's knee pointing toward trapped shoulder
+
+- ❌ **Releasing head control to adjust position or lock triangle**
+  - Consequence: Allows opponent to posture up, relieve pressure, and begin escape sequence
+  - ✅ Correction: Maintain constant head control with grips throughout triangle adjustment and finishing sequence
+
+- ❌ **Explosive squeezing instead of sustained compression**
+  - Consequence: Fatigues leg muscles quickly without achieving submission, allowing opponent to wait out the pressure
+  - ✅ Correction: Apply steady, constant pressure with legs while pulling head down—submission comes from sustained arterial compression
+
+- ❌ **Failing to pull trapped arm across opponent's neck**
+  - Consequence: Reduces choking effectiveness by 50% as opponent's own arm isn't contributing to the compression
+  - ✅ Correction: Grip opponent's wrist or sleeve and pull trapped arm diagonally across their neck to amplify pressure
+
+- ❌ **Keeping hips flat on ground instead of elevating**
+  - Consequence: Reduces choking angle and allows opponent to create defensive space with their hips
+  - ✅ Correction: Elevate hips off ground, using shoulder and upper back as base point while extending legs for maximum compression
+
+
+👉 **[[Triangle Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -137,12 +199,58 @@ The top player in triangle control manages the position strategically based on o
 ### Primary Techniques
 
 
+- **[[Triangle Escape]]** → [[Closed Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Posture Recovery]]** → [[Open Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Triangle Escape]]** → [[Side Control]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Stack Defense]]** → [[Open Guard]]
+  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+
+- **[[Triangle Escape]]** → [[Standing Position]]
+  - Success Rate: Beginner 12%, Intermediate 25%, Advanced 40%
+
+- **[[Guard Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 10%, Intermediate 20%, Advanced 35%
+
 
 ### Common Errors
 
 
+- ❌ **Pulling the trapped arm out explosively without addressing posture and hip position first**
+  - Consequence: Creates more space for opponent to tighten the triangle, increases choking pressure, and often leads to immediate tap or armbar transition
+  - ✅ Correction: Focus first on posture recovery and hip control before attempting to extract the trapped arm—address the fundamental mechanics of the position before working on specific escape details
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](triangle-control/top)**
+- ❌ **Pushing on opponent's hips or legs without maintaining strong posture and base**
+  - Consequence: Allows opponent to extend hips more effectively, increases choke pressure, and makes the defender more vulnerable to sweeps or position changes
+  - ✅ Correction: Establish solid posture with spine alignment before applying pressure to opponent's hips—combine posture and frames rather than relying on upper body strength alone
+
+- ❌ **Turning away from the choke or trying to spin out without proper setup**
+  - Consequence: Exposes the neck more fully, tightens the choke, and can lead to back takes or other dominant positions for the opponent
+  - ✅ Correction: Maintain facing toward opponent's hips and work escape sequences systematically—any rotation should be part of a complete escape technique, not a panic reaction
+
+- ❌ **Holding breath or creating tension in neck and shoulders due to panic**
+  - Consequence: Accelerates fatigue, reduces problem-solving ability, and makes the choke feel tighter than it may actually be, leading to premature tapping
+  - ✅ Correction: Practice controlled breathing even under pressure, relax shoulders while maintaining active defensive frames, and trust in systematic escape progressions rather than strength
+
+- ❌ **Allowing opponent to control the trapped arm and isolate it across their body**
+  - Consequence: Opens up easy armbar transitions, removes important posting base, and significantly reduces escape options available to the defender
+  - ✅ Correction: Keep trapped arm's elbow tight to own ribcage, maintain connection between arm and torso, and prevent opponent from creating separation between your arm and body
+
+- ❌ **Failing to address the angle of opponent's hips and body position**
+  - Consequence: Allows opponent to achieve optimal finishing angle, maximizes choking pressure, and makes escapes much more difficult even with good technique
+  - ✅ Correction: Actively work to square up opponent's hips and prevent them from achieving perpendicular angle—control their hip position as primary defensive priority
+
+- ❌ **Giving up on the escape too early and tapping before exhausting all defensive options**
+  - Consequence: Misses learning opportunities, reinforces defeatist mindset, and prevents development of tough defense necessary for high-level competition
+  - ✅ Correction: Understand the difference between a training tap (preventing injury) and competitive survival—practice staying calm under pressure and working through complete escape sequences
+
+
+👉 **[[Triangle Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -179,21 +287,6 @@ Triangle applied from back control position
 - **[[Back Control]]** - Transition option when opponent turns away or extracts trapped arm
 
 - **[[Mounted Triangle]]** - Variation when opponent stands or elevates while in triangle configuration
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](triangle-control/bottom)** - Sweeps, attacks, and submissions
-- **[Top Perspective](triangle-control/top)** - Techniques and strategies
-
-
-### By Variation
-
-- **[Rear Triangle](triangle-control/rear-triangle)** - Triangle applied from back control position
-
 
 
 </section>

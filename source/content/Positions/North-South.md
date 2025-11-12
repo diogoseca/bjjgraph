@@ -80,6 +80,18 @@ The position demands different strategic approaches based on whether you're esta
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[North-South/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[North-South/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## North-South Bottom Perspective
@@ -109,12 +121,64 @@ The bottom player in north-south must focus on creating frames, protecting again
 ### Primary Techniques
 
 
+- **[[Elbow Escape]]** → [[Closed Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+
+- **[[Bridge and Roll]]** → [[Side Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Turtle Transition]]** → [[Turtle]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Hip Escape]]** → [[Half Guard]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[North-South Escape]]** → [[Open Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+
+- **[[Frame and Shrimp]]** → [[Butterfly Guard]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+
+- **[[Granby Roll]]** → [[Turtle]]
+  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+
+- **[[Technical Stand-up]]** → [[Standing Position]]
+  - Success Rate: Beginner 5%, Intermediate 15%, Advanced 30%
+
 
 ### Common Errors
 
 
+- ❌ **Attempting explosive full-body scrambles under heavy pressure**
+  - Consequence: Wastes energy, allows opponent to easily reestablish control, and creates submission opportunities
+  - ✅ Correction: Focus on small, technical movements that compound over time - shrimp inches at a time rather than explosive escapes
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](north-south/bottom)**
+- ❌ **Allowing arms to be trapped flat against body or extended away**
+  - Consequence: Eliminates framing ability and creates kimura and armbar opportunities for top player
+  - ✅ Correction: Keep elbows tight to body with forearms fighting for chest frames and inside position control
+
+- ❌ **Accepting the position and waiting for opponent to move**
+  - Consequence: Opponent recovers stamina while maintaining control, eventually transitions to mount or secures submission
+  - ✅ Correction: Immediately begin systematic escape sequence with hip movement and frame creation before opponent consolidates position
+
+- ❌ **Turning away from opponent toward stomach prematurely**
+  - Consequence: Exposes back and creates easy path to back control or turtle top for opponent
+  - ✅ Correction: Create space and frames first, only turn to turtle when you have mobility and can protect your back
+
+- ❌ **Holding breath or hyperventilating under chest pressure**
+  - Consequence: Causes rapid fatigue, panic, and inability to execute technical escapes effectively
+  - ✅ Correction: Establish controlled breathing pattern immediately, exhale during opponent's pressure and inhale during your movements
+
+- ❌ **Pushing opponent's head away instead of controlling their chest**
+  - Consequence: Wastes energy with poor leverage, leaves arms vulnerable to isolation for submissions
+  - ✅ Correction: Frame against opponent's chest and shoulders where you have structural leverage, not their head
+
+- ❌ **Forgetting to protect near-side arm during escape attempts**
+  - Consequence: Creates easy kimura opportunities as you turn into the attack while escaping
+  - ✅ Correction: Keep near arm tight to body or establish cross-face frame while escaping to prevent arm isolation
+
+
+👉 **[[North-South/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -147,12 +211,70 @@ The top player in north-south balances control maintenance with submission attac
 ### Primary Techniques
 
 
+- **[[North-South Choke]]** → [[Won by Submission]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+
+- **[[North-South to Kimura]]** → [[Kimura Control]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+
+- **[[Armbar from Side Control]]** → [[Won by Submission]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+
+- **[[Transition to North-South]]** → [[Side Control]]
+  - Success Rate: Beginner 50%, Intermediate 70%, Advanced 85%
+
+- **[[Americana from Side Control]]** → [[Won by Submission]]
+  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+
+- **[[Side Control to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Knee on Belly]]** → [[Knee on Belly]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Spinning Armbar]]** → [[Won by Submission]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+
+- **[[Reverse Armbar]]** → [[Won by Submission]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+
 
 ### Common Errors
 
 
+- ❌ **Sitting weight back toward opponent's hips instead of forward over chest**
+  - Consequence: Reduces chest pressure effectiveness, makes bridge and roll escapes easier, and loses primary control mechanism
+  - ✅ Correction: Keep weight distributed forward over opponent's chest and shoulders with hips relatively low and base wide
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](north-south/top)**
+- ❌ **Allowing opponent's arms to remain free and create defensive frames**
+  - Consequence: Opponent establishes space for hip escapes, reduces pressure effectiveness, and creates escape opportunities
+  - ✅ Correction: Immediately control at least one arm through underhooks or direct control before settling into position
+
+- ❌ **Lifting head and chest up during submission attempts**
+  - Consequence: Creates space for opponent to hip escape or bridge, loses positional control while hunting submission
+  - ✅ Correction: Maintain heavy chest pressure even during submission setups, use shoulder and head pressure to keep opponent pinned
+
+- ❌ **Staying in North-South too long when opponent creates defensive frames**
+  - Consequence: Wastes energy fighting against established frames, allows opponent to systematically escape over time
+  - ✅ Correction: Recognize when opponent establishes frames and transition to mount or side control rather than fighting position
+
+- ❌ **Reaching too far for submissions without securing control first**
+  - Consequence: Creates balance opportunities for opponent to bridge and roll, exposes your own position to reversals
+  - ✅ Correction: Establish secure arm control and base before committing to submission attacks, keep weight distribution stable
+
+- ❌ **Using only upper body pressure without engaging hips and core**
+  - Consequence: Creates unstable pressure that's easier to escape, fatigues upper body muscles unnecessarily
+  - ✅ Correction: Engage entire core and use hip positioning to drive weight forward, pressure comes from body structure not arm strength
+
+- ❌ **Allowing base to narrow when opponent begins escape attempts**
+  - Consequence: Makes position vulnerable to bridge and roll escapes, reduces stability during opponent's explosive movements
+  - ✅ Correction: Widen base and lower hips immediately when sensing escape attempts, use sprawl-like posture to prevent rolls
+
+
+👉 **[[North-South/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -180,16 +302,6 @@ The top player in north-south balances control maintenance with submission attac
 - **[[Reverse Kesa-Gatame]]** - Reverse scarf hold variation with inverted alignment
 
 - **[[Crucifix]]** - Advanced control position with superior arm isolation
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](north-south/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](north-south/top)** - Techniques and strategies
-
 
 
 </section>

@@ -76,6 +76,18 @@ While Squid Guard is primarily used in gi grappling due to its reliance on lapel
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Squid Guard/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
+- **[[Squid Guard/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Squid Guard Bottom Perspective
@@ -105,12 +117,63 @@ The bottom player in squid guard controls the position with offensive attacks in
 ### Primary Techniques
 
 
+- **[[Kiss of the Dragon]]** → [[Back Control]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+
+- **[[X-Guard Sweep]]** → [[X-Guard]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Single Leg X Sweep]]** → [[Single Leg X-Guard]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 68%
+
+- **[[Berimbolo Entry]]** → [[Back Control]]
+  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+
+- **[[De La Riva Sweep]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 48%, Advanced 65%
+
+- **[[Technical Stand Up]]** → [[Standing Position]]
+  - Success Rate: Beginner 40%, Intermediate 58%, Advanced 72%
+
+- **[[Omoplata Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 22%, Intermediate 38%, Advanced 55%
+
+- **[[Triangle Setup]]** → [[Triangle Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+
+- **[[Omoplata to Back]]** → [[Back Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Allowing threading leg to become passive without maintaining constant tension**
+  - Consequence: Opponent easily extracts their leg and passes to side control, eliminating all guard advantages
+  - ✅ Correction: Maintain active tension with threading leg throughout, constantly adjusting pressure to disrupt opponent's base and prevent extraction
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](squid-guard/bottom)**
+- ❌ **Releasing lapel tension during transitions**
+  - Consequence: Opponent regains posture and can establish passing pressure or clear the guard entirely
+  - ✅ Correction: Maintain constant tension on the lapel throughout all movements, treating it as a non-negotiable control point that anchors your guard structure
+
+- ❌ **Neglecting upper body grip control and relying solely on leg position**
+  - Consequence: Opponent achieves dominant grips and uses them to control distance and passing angles, neutralizing leg configurations
+  - ✅ Correction: Coordinate upper body grips with leg movements, ensuring at least one strong grip that prevents opponent from establishing their preferred grips
+
+- ❌ **Remaining static in position without creating angles or movement**
+  - Consequence: Opponent stabilizes their base and systematically breaks down guard structure with methodical passing
+  - ✅ Correction: Keep hips mobile and constantly adjust angles, using movement to create off-balancing opportunities and prevent opponent from settling
+
+- ❌ **Overcommitting to sweep attempts without proper setup or timing**
+  - Consequence: Failed sweep leaves guard open and vulnerable to immediate pass, often resulting in scrambles that favor top player
+  - ✅ Correction: Wait for opponent's weight commitment before initiating sweeps, using grips and leg tension to create clear opportunities rather than forcing attacks
+
+- ❌ **Failing to protect against leg attacks when threading leg is exposed**
+  - Consequence: Opponent capitalizes on threading leg exposure to enter leg entanglement positions or secure leg locks
+  - ✅ Correction: Maintain awareness of threading leg vulnerability and adjust position immediately if opponent shows leg lock threats, transitioning to safer guard variations
+
+
+👉 **[[Squid Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +206,54 @@ The top player in squid guard manages the position strategically based on oppone
 ### Primary Techniques
 
 
+- **[[Stack Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Leg Drag Pass]]** → [[Leg Drag Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Back Step]]** → [[Reverse De La Riva Guard]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Toreando Pass]]** → [[Headquarters Position]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 78%
+
+- **[[Pressure Pass]]** → [[Half Guard]]
+  - Success Rate: Beginner 55%, Intermediate 68%, Advanced 80%
+
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 48%, Intermediate 62%, Advanced 74%
+
 
 ### Common Errors
 
 
+- ❌ **Allowing bottom player to achieve full inversion without postural response**
+  - Consequence: Back exposure and potential back take or submission threats
+  - ✅ Correction: Maintain vertical posture and establish heavy crossface or shoulder pressure immediately when bottom player begins inverting
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](squid-guard/top)**
+- ❌ **Attempting traditional passing mechanics while lapel remains entangled**
+  - Consequence: Off-balancing and sweep vulnerability due to lapel tension restricting movement
+  - ✅ Correction: Systematically clear lapel entanglement first through unwrapping or grip stripping before initiating passing sequences
+
+- ❌ **Collapsing forward into bottom player's inverted attack range**
+  - Consequence: Triangle setups, omoplata entries, and increased back exposure
+  - ✅ Correction: Maintain upright posture with base management and use pressure from distance rather than chest-to-chest contact
+
+- ❌ **Ignoring bottom player's free hand and allowing lapel grip reinforcement**
+  - Consequence: Deeper entanglement and more complex passing problem
+  - ✅ Correction: Control bottom player's free hand with grip fighting and prevent additional lapel manipulation
+
+- ❌ **Committing to single passing direction without adaptability**
+  - Consequence: Bottom player can predict and counter with specific sweep or back take
+  - ✅ Correction: Maintain multiple passing threats and adapt based on bottom player's defensive adjustments
+
+- ❌ **Using excessive force without systematic technique**
+  - Consequence: Energy expenditure and potential injury to joints stressed by lapel tension
+  - ✅ Correction: Use methodical lapel clearing sequences combined with pressure and timing rather than pure strength
+
+
+👉 **[[Squid Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -174,16 +279,6 @@ The top player in squid guard manages the position strategically based on oppone
 - **[[Back Control]]** - Primary advancement target via back takes
 
 - **[[Worm Guard]]** - Similar lapel-based guard system
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](squid-guard/bottom)** - Sweeps, attacks, and submissions
-- **[Top Perspective](squid-guard/top)** - Techniques and strategies
-
 
 
 </section>

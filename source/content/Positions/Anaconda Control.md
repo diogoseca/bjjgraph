@@ -72,6 +72,18 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Anaconda Control/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Anaconda Control/Top|Top Perspective]]** - Submissions and positional attacks
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Anaconda Control Bottom Perspective
@@ -101,12 +113,54 @@ The bottom player in anaconda control must focus on creating frames, protecting 
 ### Primary Techniques
 
 
+- **[[Hip Escape]]** → [[Closed Guard]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Technical Standup]]** → [[Turtle]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Rolling to Guard]]** → [[Half Guard]]
+  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+
+- **[[Frame and Shrimp]]** → [[Butterfly Guard]]
+  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+
+- **[[Rolling Escape]]** → [[Defensive Position]]
+  - Success Rate: Beginner 12%, Intermediate 28%, Advanced 42%
+
+- **[[Hip Movement]]** → [[Scramble Position]]
+  - Success Rate: Beginner 8%, Intermediate 22%, Advanced 38%
+
 
 ### Common Errors
 
 
+- ❌ **Failing to immediately address the choking arm with free hand, allowing opponent time to lock the position**
+  - Consequence: Choke tightens rapidly and escape becomes nearly impossible once fully locked
+  - ✅ Correction: Immediately use free hand to pull on opponent's choking wrist or elbow to create space at neck before attempting positional escape
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](anaconda-control/bottom)**
+- ❌ **Turning away from opponent or exposing the back of the neck, which tightens the anaconda loop**
+  - Consequence: Creates additional leverage for opponent to finish choke and eliminates defensive framing options
+  - ✅ Correction: Turn into opponent toward your trapped arm side, keeping chin tucked to free shoulder to minimize choking surface
+
+- ❌ **Allowing opponent to step over head without resistance or counter-movement**
+  - Consequence: Opponent secures dominant angle and can finish choke with body weight alone
+  - ✅ Correction: Use free hand to post on opponent's hip or leg, preventing the step-over while creating defensive frames
+
+- ❌ **Fighting with upper body only while keeping lower body stationary**
+  - Consequence: Waste energy without creating meaningful escape opportunities or space
+  - ✅ Correction: Coordinate hip movement away from opponent with upper body hand fighting to systematically create escape angles
+
+- ❌ **Attempting to pull head straight out of the lock through brute force**
+  - Consequence: Tightens the choke and exhausts energy without addressing the fundamental control problem
+  - ✅ Correction: Focus on creating space at the choking arm's elbow joint while moving hips to change angles rather than pulling directly backward
+
+- ❌ **Keeping trapped arm rigid and extended, which maximizes choking surface area**
+  - Consequence: Provides opponent with larger loop to constrict and more leverage to finish submission
+  - ✅ Correction: Keep trapped arm bent and pulled close to body to minimize the space opponent can control with their lock
+
+
+👉 **[[Anaconda Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -139,12 +193,50 @@ The top player in anaconda control enjoys offensive advantages with access to su
 ### Primary Techniques
 
 
+- **[[Anaconda Choke]]** → [[Lost by Submission]]
+  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+
+- **[[Anaconda from Turtle]]** → [[Side Control]]
+  - Success Rate: Beginner 50%, Intermediate 70%, Advanced 85%
+
+- **[[Front Headlock to Anaconda]]** → [[Front Headlock]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Front Headlock to Darce]]** → [[D'arce Control]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Back Take Generic]]** → [[Back Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Releasing chest pressure to adjust grip or position**
+  - Consequence: Opponent gains space to extract their head or break the grip entirely, losing control
+  - ✅ Correction: Maintain continuous chest-to-shoulder connection throughout all adjustments, using hip movement rather than lifting upper body
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](anaconda-control/top)**
+- ❌ **Clasping hands too loosely or with improper grip configuration**
+  - Consequence: Opponent can break the grip through hand fighting, escaping the submission threat
+  - ✅ Correction: Lock hands together with gable grip or S-grip, keeping forearms tight to ensure structural integrity of the lock
+
+- ❌ **Allowing opponent's trapped arm to escape the loop**
+  - Consequence: Opponent regains ability to defend their neck with free hand, significantly reducing submission success
+  - ✅ Correction: Keep opponent's arm pinned inside by maintaining elbow-to-elbow connection and directing pressure through their shoulder
+
+- ❌ **Rolling too early before establishing proper angle and tightness**
+  - Consequence: Incomplete submission setup leads to failed finish and potential position loss during the roll
+  - ✅ Correction: First establish tight grip and proper angle with chest pressure, only rolling when opponent's base is broken and submission is tight
+
+- ❌ **Positioning hips too far forward, preventing rolling mechanics**
+  - Consequence: Unable to execute roll-through finish, limiting submission options to standing choke which is less effective
+  - ✅ Correction: Keep hips beside or slightly behind opponent's hips to maintain mobility for forward roll while maintaining upper body control
+
+
+👉 **[[Anaconda Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -160,16 +252,6 @@ The top player in anaconda control enjoys offensive advantages with access to su
 - **[[D'arce Control]]** - Sister submission with similar arm-in mechanics but different hand positioning
 
 - **[[Guillotine Control]]** - Alternative front headlock submission accessible from same position
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](anaconda-control/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](anaconda-control/top)** - Submissions and positional attacks
-
 
 
 </section>

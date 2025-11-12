@@ -82,6 +82,39 @@ The Rubber Guard is a specialized guard position developed and popularized by Ed
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Rubber Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Rubber Guard/Top|Top Perspective]]** - Techniques and strategies
+
+
+### By Variation
+
+- **[[Mission Control]]** - Primary Rubber Guard position with shin across back and foot secured
+
+- **[[New York]]** - Advanced variation with omoplata threat and enhanced arm control
+
+- **[[New York Control]]** - Submission-ready configuration from New York position
+
+- **[[Invisible Collar]]** - Submission setup position emphasizing neck control without gi grips
+
+- **[[Zombie]]** - Gogoplata setup position with shin positioned across throat
+
+- **[[Crackhead Control]]** - Variation emphasizing extreme arm isolation and shoulder pressure
+
+- **[[Meathook]]** - Transitional position focusing on elbow control and arm trapping
+
+- **[[Chill Dog]]** - Relaxed control position maintaining arm isolation with minimal energy
+
+- **[[Carni]]** - High-level variation combining multiple control points for submissions
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Rubber Guard Bottom Perspective
@@ -111,12 +144,63 @@ The bottom player in rubber guard navigates both offensive and defensive opportu
 ### Primary Techniques
 
 
+- **[[Triangle Setup]]** → [[Triangle Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+
+- **[[Omoplata to Back]]** → [[Omoplata Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+
+- **[[Triangle to Armbar]]** → [[Armbar Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+
+- **[[Hip Bump Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+
+- **[[Omoplata Sweep]]** → [[Side Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+
+- **[[Transition to Omoplata]]** → [[Back Control]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+
+- **[[Switch to Triangle]]** → [[Triangle Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+
+- **[[Rolling Armbar]]** → [[Armbar Control]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+
+- **[[Rolling Omoplata]]** → [[Omoplata Control]]
+  - Success Rate: Beginner 15%, Intermediate 28%, Advanced 48%
+
 
 ### Common Errors
 
 
+- ❌ **Insufficient flexibility attempting position too early in development**
+  - Consequence: Inability to achieve proper leg height, loss of control, potential injury to hip or hamstring, failure to isolate opponent's arm effectively
+  - ✅ Correction: Develop flexibility systematically through dedicated stretching program before implementing Rubber Guard in live training. Use progressive resistance drills starting from static holds and gradually increasing range of motion over weeks or months
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](rubber-guard/bottom)**
+- ❌ **Poor shoulder positioning with head too far back or neck hyperextended**
+  - Consequence: Excessive strain on cervical spine, vulnerability to stacking pressure, loss of posture control, difficulty maintaining leg grip, increased injury risk
+  - ✅ Correction: Keep chin tucked and shoulders rounded forward, maintaining C-curve in spine. Use opposite hand to pull opponent's head down actively while keeping own head position neutral and protected
+
+- ❌ **Inadequate closed guard foundation before learning Rubber Guard**
+  - Consequence: Poor understanding of basic guard retention principles, inability to troubleshoot position effectively, missing fundamental posture control concepts
+  - ✅ Correction: Master closed guard fundamentals first including posture breaking, hip movement, and basic submissions before adding Rubber Guard complexity. Ensure solid understanding of guard retention mechanics
+
+- ❌ **Overreliance on leg strength instead of proper positioning**
+  - Consequence: Rapid fatigue, inability to maintain position long-term, opponent easily recovers posture, missed submission opportunities due to poor control
+  - ✅ Correction: Focus on structural positioning and leverage rather than muscular force. Use hip elevation and proper angles to create mechanical advantage. Apply pressure in bursts rather than constant maximum tension
+
+- ❌ **Neglecting proper grip sequences and jumping randomly between positions**
+  - Consequence: Telegraphed attacks, easy defenses for experienced opponents, loss of positional control, failure to progress through system effectively
+  - ✅ Correction: Learn systematic progression through named positions (Mission Control → New York → Invisible Collar). Understand specific grip requirements for each transition and follow logical sequences based on opponent's reactions
+
+- ❌ **Failing to control opponent's free hand allowing defensive frames**
+  - Consequence: Opponent creates space and recovers posture, escapes Rubber Guard entirely, prevents submission attempts, turns position into stalemate
+  - ✅ Correction: Actively manage opponent's free hand with grips, overhooks, or positioning. Use opposite hand to control wrist, elbow, or head depending on specific sub-position being utilized
+
+
+👉 **[[Rubber Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -149,12 +233,60 @@ The top player in rubber guard manages the position strategically based on oppon
 ### Primary Techniques
 
 
+- **[[Posture Recovery]]** → [[Closed Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+
+- **[[Guard Opening Sequence]]** → [[Combat Base]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+
+- **[[Guard Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+
+- **[[Stack Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 12%, Intermediate 28%, Advanced 48%
+
+- **[[Pressure Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+
+- **[[Position Change]]** → [[Open Guard]]
+  - Success Rate: Beginner 18%, Intermediate 33%, Advanced 53%
+
+- **[[Standing up]]** → [[Standing Position]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+
+- **[[Frame and Shrimp]]** → [[Combat Base]]
+  - Success Rate: Beginner 18%, Intermediate 33%, Advanced 53%
+
 
 ### Common Errors
 
 
+- ❌ **Pulling trapped arm aggressively straight back without addressing leg control**
+  - Consequence: Opens direct pathway to triangle choke, increases leg pressure making arm extraction more difficult, telegraphs escape attempt allowing bottom player to transition
+  - ✅ Correction: Address leg control first by using free hand to create frames and reduce leg pressure. Extract arm gradually using circular motion rather than straight pull while maintaining base and posture
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](rubber-guard/top)**
+- ❌ **Sitting back to create distance without controlling opponent's hips**
+  - Consequence: Allows bottom player to extend and establish triangle lock, creates space for omoplata entry, loses remaining positional control entirely
+  - ✅ Correction: Maintain forward pressure and control opponent's hips with free hand. Create distance systematically only after establishing control points that prevent submission extensions
+
+- ❌ **Driving forward aggressively without proper base management**
+  - Consequence: Susceptibility to omoplata entries and back-taking sequences, potential for sweep as forward momentum is redirected, increased vulnerability to gogoplata from certain positions
+  - ✅ Correction: Maintain wide base and low center of gravity when applying forward pressure. Drive with controlled force while keeping free hand posted to prevent rotational submissions
+
+- ❌ **Neglecting to defend free hand allowing additional control points**
+  - Consequence: Bottom player achieves superior grip configurations enabling progression through system positions, submission entries become significantly easier, escape difficulty increases exponentially
+  - ✅ Correction: Keep free hand active creating frames, posting, and preventing grips. Never allow both arms to be controlled simultaneously as this removes all defensive options
+
+- ❌ **Attempting stack pass without understanding omoplata counter**
+  - Consequence: Direct entry to omoplata control with back-taking opportunity, shoulder injury risk if opponent is skilled at finishing, loss of top position entirely
+  - ✅ Correction: Learn proper stacking mechanics that include keeping trapped arm tight to body and using shoulder pressure to prevent rotation. Understand when stacking is viable versus when alternative escapes are necessary
+
+- ❌ **Panicking and using excessive muscular force without technical understanding**
+  - Consequence: Rapid fatigue while remaining in compromised position, increased injury risk to own shoulder and neck, creation of jerky movements that trigger submission opportunities
+  - ✅ Correction: Remain calm and apply systematic defensive protocol. Use leverage and positioning rather than pure strength. Conserve energy for sustained defensive effort rather than explosive bursts
+
+
+👉 **[[Rubber Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -245,37 +377,6 @@ High-level variation combining multiple control points for submissions
 - **[[Omoplata Control]]** - Alternative submission pathway from Rubber Guard system
 
 - **[[Gogoplata Control]]** - Advanced submission available from Zombie position
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](rubber-guard/bottom)** - Techniques and strategies
-- **[Top Perspective](rubber-guard/top)** - Techniques and strategies
-
-
-### By Variation
-
-- **[Mission Control](rubber-guard/mission-control)** - Primary Rubber Guard position with shin across back and foot secured
-
-- **[New York](rubber-guard/new-york)** - Advanced variation with omoplata threat and enhanced arm control
-
-- **[New York Control](rubber-guard/new-york-control)** - Submission-ready configuration from New York position
-
-- **[Invisible Collar](rubber-guard/invisible-collar)** - Submission setup position emphasizing neck control without gi grips
-
-- **[Zombie](rubber-guard/zombie)** - Gogoplata setup position with shin positioned across throat
-
-- **[Crackhead Control](rubber-guard/crackhead-control)** - Variation emphasizing extreme arm isolation and shoulder pressure
-
-- **[Meathook](rubber-guard/meathook)** - Transitional position focusing on elbow control and arm trapping
-
-- **[Chill Dog](rubber-guard/chill-dog)** - Relaxed control position maintaining arm isolation with minimal energy
-
-- **[Carni](rubber-guard/carni)** - High-level variation combining multiple control points for submissions
-
 
 
 </section>

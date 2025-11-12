@@ -81,6 +81,23 @@ description: "{{ description }}"
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[{{ name }}/Bottom|Bottom Perspective]]** - {% if bottom_summary.state_properties.position_type == "Offensive" %}Sweeps, attacks, and submissions{% elif bottom_summary.state_properties.position_type == "Defensive" %}Escapes, frames, and survival strategies{% else %}Techniques and strategies{% endif %}
+- **[[{{ name }}/Top|Top Perspective]]** - {% if top_summary.state_properties.position_type == "Offensive" %}Submissions and positional attacks{% elif top_summary.state_properties.position_type == "Controlling" %}Control, pressure, and dominance{% else %}Techniques and strategies{% endif %}
+
+{% if variations %}
+### By Variation
+{% for variation in variations %}
+- **[[{{ variation.name }}]]** - {{ variation.description }}
+{% endfor %}
+{% endif %}
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## {{ name }} Bottom Perspective
@@ -103,20 +120,20 @@ The bottom player in {{ name|lower }} navigates both offensive and defensive opp
 
 ### Primary Techniques
 
-{% for technique in bottom_summary.top_techniques %}
+{% for technique in bottom_summary.offensive_transitions %}
 - **[[{{ technique.technique }}]]** → [[{{ technique.target_position }}]]
   - Success Rate: Beginner {{ technique.success_rates.beginner }}%, Intermediate {{ technique.success_rates.intermediate }}%, Advanced {{ technique.success_rates.advanced }}%
 {% endfor %}
 
 ### Common Errors
 
-{% for error in bottom_summary.top_errors %}
+{% for error in bottom_summary.common_errors %}
 - ❌ **{{ error.error }}**
   - Consequence: {{ error.consequence }}
   - ✅ Correction: {{ error.correction }}
 {% endfor %}
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →]({{ slug }}/bottom)**
+👉 **[[{{ name }}/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -142,20 +159,20 @@ The top player in {{ name|lower }} manages the position strategically based on o
 
 ### Primary Techniques
 
-{% for technique in top_summary.top_techniques %}
+{% for technique in top_summary.offensive_transitions %}
 - **[[{{ technique.technique }}]]** → [[{{ technique.target_position }}]]
   - Success Rate: Beginner {{ technique.success_rates.beginner }}%, Intermediate {{ technique.success_rates.intermediate }}%, Advanced {{ technique.success_rates.advanced }}%
 {% endfor %}
 
 ### Common Errors
 
-{% for error in top_summary.top_errors %}
+{% for error in top_summary.common_errors %}
 - ❌ **{{ error.error }}**
   - Consequence: {{ error.consequence }}
   - ✅ Correction: {{ error.correction }}
 {% endfor %}
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →]({{ slug }}/top)**
+👉 **[[{{ name }}/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -183,21 +200,6 @@ The top player in {{ name|lower }} manages the position strategically based on o
 {% for related in related_positions %}
 - **[[{{ related.name }}]]** - {{ related.relationship }}
 {% endfor %}
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective]({{ slug }}/bottom)** - {% if bottom_summary.state_properties.position_type == "Offensive" %}Sweeps, attacks, and submissions{% elif bottom_summary.state_properties.position_type == "Defensive" %}Escapes, frames, and survival strategies{% else %}Techniques and strategies{% endif %}
-- **[Top Perspective]({{ slug }}/top)** - {% if top_summary.state_properties.position_type == "Offensive" %}Submissions and positional attacks{% elif top_summary.state_properties.position_type == "Controlling" %}Control, pressure, and dominance{% else %}Techniques and strategies{% endif %}
-
-{% if variations %}
-### By Variation
-{% for variation in variations %}
-- **[{{ variation.name }}]({{ slug }}/{{ variation.slug }})** - {{ variation.description }}
-{% endfor %}
-{% endif %}
 
 </section>
 

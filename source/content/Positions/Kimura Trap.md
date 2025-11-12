@@ -80,6 +80,18 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Kimura Trap/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Kimura Trap/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Kimura Trap Bottom Perspective
@@ -109,12 +121,60 @@ The bottom player in kimura trap balances defensive frames with offensive opport
 ### Primary Techniques
 
 
+- **[[Old School Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 75%
+
+- **[[Kimura to Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Kimura from Half Guard]]** → [[Kimura Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Rolling Kimura]]** → [[Mount]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Underhook Sweep from Half]]** → [[Side Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 70%
+
+- **[[Half Guard Sweeps]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 68%
+
+- **[[Transition to Omoplata]]** → [[Omoplata Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Lockdown Sweeps]]** → [[Half Guard]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
 
 ### Common Errors
 
 
+- ❌ **Releasing Kimura grip prematurely when opponent defends or attempts to pull arm free**
+  - Consequence: Loss of primary control mechanism, allowing opponent to recover arm position and establish dominant top control without offensive threat
+  - ✅ Correction: Maintain Kimura grip throughout transitions and sweeps, using it as constant control point even when primary goal is positional advancement rather than submission
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](kimura-trap/bottom)**
+- ❌ **Allowing opponent to flatten hips completely by failing to maintain active lockdown, butterfly hooks, or hip mobility**
+  - Consequence: Loss of sweeping power and offensive capability as opponent settles weight and establishes crushing top pressure that neutralizes Kimura system
+  - ✅ Correction: Keep hips active and mobile with lockdown, butterfly hooks, or constant hip movement that prevents opponent from achieving stable base and crushing pressure
+
+- ❌ **Forcing Kimura submission when opponent's base is strong rather than using grip to set up sweeps or position changes**
+  - Consequence: Wasted energy on low-percentage submission attempt while opponent maintains superior position and eventually extracts arm or passes guard
+  - ✅ Correction: Use Kimura grip systematically to create dilemmas, flowing between sweep attempts, back takes, and submission threats based on opponent's defensive reactions
+
+- ❌ **Neglecting free arm positioning, allowing it to become trapped or failing to use it for frames and distance management**
+  - Consequence: Opponent achieves crushing pressure or advances position because bottom player cannot create frames or maintain proper distance with only Kimura grip
+  - ✅ Correction: Use free arm actively for underhooks, forearm frames, or grips that complement Kimura control and enable defensive distance management
+
+- ❌ **Establishing shallow Kimura grip near opponent's wrist rather than deep near elbow joint**
+  - Consequence: Weak control that opponent can easily escape by pulling arm back, plus reduced submission threat and leverage for sweeping mechanics
+  - ✅ Correction: Always secure deep Kimura grip as close to opponent's elbow as possible before committing to position, ensuring figure-four is tight and properly positioned
+
+- ❌ **Failing to coordinate Kimura grip direction with hip movement and leg positioning during sweep attempts**
+  - Consequence: Disconnected movements that allow opponent to post, base out, or maintain position because forces aren't unified in single direction
+  - ✅ Correction: Synchronize Kimura grip pull direction with hip movement and leg drive, creating unified sweeping motion where all body parts work together
+
+
+👉 **[[Kimura Trap/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -147,12 +207,57 @@ The top player in kimura trap balances control maintenance with submission attac
 ### Primary Techniques
 
 
+- **[[Kimura from Side Control]]** → [[Won by Submission]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Kimura from North-South]]** → [[Won by Submission]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 78%
+
+- **[[Kimura to Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[North-South to Kimura]]** → [[North-South]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 72%
+
+- **[[Kimura from Turtle]]** → [[Won by Submission]]
+  - Success Rate: Beginner 38%, Intermediate 53%, Advanced 68%
+
+- **[[Side Control to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 48%, Intermediate 63%, Advanced 75%
+
 
 ### Common Errors
 
 
+- ❌ **Releasing positional control to pursue Kimura finish prematurely, allowing opponent to create escape space**
+  - Consequence: Loss of dominant position as opponent escapes or recovers guard while top player is focused exclusively on submission
+  - ✅ Correction: Maintain solid positional pressure and control throughout Kimura finish attempt, ensuring opponent remains controlled even if submission is not immediately available
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](kimura-trap/top)**
+- ❌ **Establishing shallow Kimura grip near opponent's wrist rather than deep near elbow joint**
+  - Consequence: Weak control that opponent can defend by keeping arm tight, plus inability to generate sufficient leverage for finish
+  - ✅ Correction: Always secure deep Kimura grip as close to opponent's elbow as possible before attempting finish, ensuring maximum leverage and control
+
+- ❌ **Failing to create proper finishing angle by staying stationary rather than walking feet toward opponent's head**
+  - Consequence: Insufficient leverage on shoulder joint, allowing opponent to defend by keeping arm defensive and tight to body
+  - ✅ Correction: Walk feet in circular motion toward opponent's head while maintaining grip, creating angle that increases shoulder pressure and makes defense impossible
+
+- ❌ **Attempting to muscle the Kimura finish using upper body strength alone without using hip and body positioning**
+  - Consequence: Wasted energy and reduced finishing percentage, particularly against strong opponents who can resist arm-only pressure
+  - ✅ Correction: Use entire body to create leverage by positioning hips correctly, using weight distribution, and creating proper angles rather than relying on arm strength
+
+- ❌ **Ignoring opponent's roll or turn attempts instead of following to back control or mount**
+  - Consequence: Missed opportunities for positional advancement as opponent's defensive movement creates pathways to superior positions
+  - ✅ Correction: Maintain Kimura grip while following opponent's rolling or turning movements, transitioning smoothly to back control or mount based on their defensive direction
+
+- ❌ **Releasing Kimura grip when transitioning to mount or other positions rather than maintaining it throughout**
+  - Consequence: Loss of arm control that could have been maintained during transition, reducing control density in new position
+  - ✅ Correction: Keep Kimura grip intact during positional transitions when possible, creating sustained threat and control throughout position changes
+
+
+👉 **[[Kimura Trap/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -182,16 +287,6 @@ The top player in kimura trap balances control maintenance with submission attac
 - **[[Omoplata Control]]** - Related shoulder lock position accessible via Kimura grip transitions
 
 - **[[Gift Wrap]]** - Alternative arm control system with similar control principles
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](kimura-trap/bottom)** - Techniques and strategies
-- **[Top Perspective](kimura-trap/top)** - Techniques and strategies
-
 
 
 </section>

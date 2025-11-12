@@ -76,6 +76,18 @@ From the top perspective, Williams Guard presents significant challenges requiri
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Williams Guard/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Williams Guard/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Williams Guard Bottom Perspective
@@ -105,12 +117,57 @@ The bottom player in williams guard balances defensive frames with offensive opp
 ### Primary Techniques
 
 
+- **[[Williams Shoulder Lock]]** → [[Won by Submission]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Omoplata Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Triangle Setup]]** → [[Triangle Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Transition to Omoplata]]** → [[Omoplata Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Back Take Generic]]** → [[Back Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Kimura to Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Rolling Armbar]]** → [[Armbar Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
 
 ### Common Errors
 
 
+- ❌ **Releasing shoulder lock pressure to adjust grips or leg position**
+  - Consequence: Opponent immediately recovers their arm and establishes dominant passing position or escapes guard entirely
+  - ✅ Correction: Maintain constant shoulder lock tension throughout all transitions, adjusting legs and hips while keeping arm control as primary focus
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](williams-guard/bottom)**
+- ❌ **Allowing opponent to establish chest-to-chest pressure while maintaining shoulder lock**
+  - Consequence: Opponent can stack guard despite arm control, leading to guard pass or escape from submission threat
+  - ✅ Correction: Use legs actively to create frames and distance, preventing opponent from closing distance while shoulder lock is engaged
+
+- ❌ **Overcommitting to shoulder lock submission without setting up sweeping opportunities**
+  - Consequence: Opponent defends submission effectively and transitions to passing attack without facing sweep threat
+  - ✅ Correction: Use shoulder lock as control mechanism to create sweep openings, transitioning between submission and sweep based on opponent reactions
+
+- ❌ **Failing to angle hips away from opponent's free arm**
+  - Consequence: Opponent uses free arm to establish underhook or control that neutralizes shoulder lock effectiveness
+  - ✅ Correction: Constantly adjust hip angle to keep controlled arm isolated while positioning body away from opponent's free arm reach
+
+- ❌ **Gripping with arms only without engaging full body mechanics**
+  - Consequence: Shoulder lock lacks sufficient pressure and opponent can muscle through defenses or escape relatively easily
+  - ✅ Correction: Engage core, hips, and legs to generate shoulder lock pressure, using entire body structure rather than arm strength alone
+
+- ❌ **Holding static Williams Guard position without creating movement or reactions**
+  - Consequence: Opponent settles into defensive posture and systematically works to extract arm without facing immediate threats
+  - ✅ Correction: Create constant movement and pressure variations to force opponent into reactive defensive actions that open sweep and submission chains
+
+
+👉 **[[Williams Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +200,58 @@ The top player in williams guard manages the position strategically based on opp
 ### Primary Techniques
 
 
+- **[[Arm Extraction]]** → [[Combat Base]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 70%
+
+- **[[Stack Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Pressure Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Guard Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Posture Recovery]]** → [[Open Guard]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Yanking trapped arm back aggressively to force extraction**
+  - Consequence: Creates sudden jerking motion that increases shoulder lock pressure and opens immediate armbar or omoplata transitions for opponent
+  - ✅ Correction: Extract arm using small, controlled circular movements while maintaining shoulder alignment and protecting joint integrity throughout process
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](williams-guard/top)**
+- ❌ **Driving forward with chest pressure while arm is still controlled**
+  - Consequence: Opponent uses forward pressure to accelerate omoplata rotation or back take transitions, losing position entirely
+  - ✅ Correction: Maintain upright posture and work systematically on arm extraction before attempting to establish passing pressure or advance position
+
+- ❌ **Posting free hand on mat near opponent's hip for base**
+  - Consequence: Opponent immediately attacks posted arm with triangle setup or uses post as leverage point for sweep execution
+  - ✅ Correction: Keep free hand in defensive position near own centerline or use for head control rather than creating vulnerable posting positions
+
+- ❌ **Remaining stationary in Williams Guard Top without creating movement**
+  - Consequence: Opponent settles into optimal shoulder lock position and systematically increases submission pressure or sets up transitions without resistance
+  - ✅ Correction: Create constant small movements and angle changes to disrupt opponent's control and create arm extraction opportunities continuously
+
+- ❌ **Focusing exclusively on shoulder lock defense while ignoring guard passing objectives**
+  - Consequence: Successfully defends submission but remains trapped in guard indefinitely, expending energy without advancing position or scoring
+  - ✅ Correction: Balance shoulder lock defense with systematic guard passing work, using arm extraction as transition point to immediate passing attacks
+
+- ❌ **Attempting to muscle through shoulder lock using strength rather than technique**
+  - Consequence: Increases injury risk to own shoulder joint and fatigues arm muscles while opponent maintains control through technical leverage
+  - ✅ Correction: Use technical arm extraction methods that address mechanical components of shoulder lock rather than relying on strength or force
+
+- ❌ **Allowing hips to square up directly with opponent's body**
+  - Consequence: Opponent optimizes shoulder lock angle and creates easier pathways to omoplata, triangle, and back take transitions
+  - ✅ Correction: Maintain angled hip position relative to opponent's body to reduce shoulder lock effectiveness and limit transition opportunities
+
+
+👉 **[[Williams Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -178,16 +281,6 @@ The top player in williams guard manages the position strategically based on opp
 - **[[Back Control]]** - High-value position accessible from Williams Guard transitions
 
 - **[[Combat Base]]** - Target position after arm extraction from top
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](williams-guard/bottom)** - Techniques and strategies
-- **[Top Perspective](williams-guard/top)** - Techniques and strategies
-
 
 
 </section>

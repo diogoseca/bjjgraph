@@ -455,4 +455,4 @@ Master BJJ through systematic approaches. Complete guide to guard systems, passi
 
 ---
 
-*This hub page is automatically generated from content files. Last generated: 2025-11-12 09:54:41*
+*This hub page is automatically generated from content files. Last generated: 2025-11-12 11:05:59*

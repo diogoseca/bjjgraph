@@ -78,6 +78,25 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Lasso Guard/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
+- **[[Lasso Guard/Top|Top Perspective]]** - Techniques and strategies
+
+
+### By Variation
+
+- **[[Inverted Lasso Guard]]** - Lasso control with inverted position for dynamic sweeps and berimbolo entries
+
+- **[[Russian Leg Lasso]]** - Threading both legs through opponent's arms creating double lasso control
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Lasso Guard Bottom Perspective
@@ -105,12 +124,60 @@ The bottom player in lasso guard controls the position with offensive attacks in
 ### Primary Techniques
 
 
+- **[[Lasso Guard Sweeps]]** → [[Mount]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Triangle Setup]]** → [[Triangle Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Omoplata Sweep]]** → [[Omoplata Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[De La Riva Sweep]]** → [[Back Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Spider Guard Sweeps]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[X-Guard Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Armbar from Guard]]** → [[Armbar Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Kimura from Guard]]** → [[Kimura Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
 
 ### Common Errors
 
 
+- ❌ **Allowing the lasso leg to bend or collapse, reducing the leverage and control over the opponent's arm**
+  - Consequence: Opponent easily frees their arm and establishes dominant passing grips or posture, negating the guard's effectiveness
+  - ✅ Correction: Actively extend and straighten the lasso leg while pulling the sleeve grip toward your chest to maintain maximum tension and control
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](lasso-guard/bottom)**
+- ❌ **Keeping hips flat on the mat instead of angled perpendicular to the opponent**
+  - Consequence: Opponent can settle their weight directly onto you, reducing sweep angles and making it easier to pass around the guard
+  - ✅ Correction: Constantly adjust hip position to remain perpendicular to the opponent's centerline, creating optimal angles for off-balancing and sweeps
+
+- ❌ **Neglecting to control distance with the non-lasso leg, allowing opponent to close the gap and pressure forward**
+  - Consequence: Opponent drives their knee through the center or stacks you, overwhelming the lasso control through superior positioning
+  - ✅ Correction: Actively use the non-lasso leg to post on the hip when opponent pressures forward, creating frames that maintain proper distance
+
+- ❌ **Maintaining the lasso grip too long when the opponent has successfully countered, trying to force attacks from compromised positions**
+  - Consequence: Opponent completes their pass or achieves dominant position while you remain committed to a position that no longer offers control
+  - ✅ Correction: Recognize early when the lasso is being defeated and proactively transition to alternative guards or retention strategies
+
+- ❌ **Failing to establish secondary control points like collar grips, lapel grips, or opposite arm control**
+  - Consequence: Opponent has free movement with their uncontrolled arm and can establish passing grips or disrupt your lasso control
+  - ✅ Correction: Always establish secondary grips with the free hand to create multiple control points that support and enhance the primary lasso
+
+- ❌ **Using only the lasso without threatening attacks, allowing opponent to patiently work on passing rather than defending sweeps**
+  - Consequence: Opponent methodically addresses the lasso control without urgency, eventually finding passing solutions through patient technique
+  - ✅ Correction: Constantly threaten sweeps and submissions to force defensive reactions that create additional opportunities and prevent patient passing
+
+
+👉 **[[Lasso Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -141,12 +208,60 @@ The top player in lasso guard manages the position strategically based on oppone
 ### Primary Techniques
 
 
+- **[[Lasso Guard Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Stack Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Knee Cut Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Smash Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Toreando Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Pressure Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Long Step Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Kimura from Standing]]** → [[Kimura Control]]
+  - Success Rate: Beginner 15%, Intermediate 25%, Advanced 40%
+
 
 ### Common Errors
 
 
+- ❌ **Attempting aggressive passing immediately without addressing the lasso control first**
+  - Consequence: Opponent easily sweeps you using the mechanical advantage of the fully established lasso position
+  - ✅ Correction: First address the lasso through grip breaks, posture adjustments, or strategic pressure before committing to passing attempts
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](lasso-guard/top)**
+- ❌ **Keeping base too narrow while caught in lasso, making you vulnerable to off-balancing attacks**
+  - Consequence: Opponent sweeps you easily using hook sweeps, triangle sweeps, or omoplata variations that exploit your compromised base
+  - ✅ Correction: Maintain wide leg base even with one arm trapped, using your free arm and legs to create stable triangular support structure
+
+- ❌ **Neglecting to control the opponent's non-lasso leg, allowing them to establish secondary hooks or guards**
+  - Consequence: Opponent transitions to De La Riva, X-guard, or other guard systems while maintaining the lasso, creating multi-layered problems
+  - ✅ Correction: Immediately establish control on the non-lasso leg with your free hand or by pinning it with your leg positioning
+
+- ❌ **Remaining in static posture without making adjustments as the opponent attacks**
+  - Consequence: Opponent patiently works their sweeps and submissions against your unchanging position, eventually finding success
+  - ✅ Correction: Dynamically adjust posture between upright and forward pressure based on opponent's attacks, never allowing them to settle into optimal attacking position
+
+- ❌ **Pulling back or away from the lasso instead of addressing it strategically**
+  - Consequence: You extend the opponent's lasso even further, increasing their leverage and making the position stronger for them
+  - ✅ Correction: Step over the lasso leg or drive forward strategically to reduce the perpendicular angle rather than pulling straight back
+
+- ❌ **Using excessive strength to muscle through the lasso without proper technique**
+  - Consequence: You expend enormous energy while making minimal progress, eventually fatiguing and becoming vulnerable to submissions
+  - ✅ Correction: Use technical solutions like specific grip breaks, angle changes, and pressure application rather than relying on strength alone
+
+
+👉 **[[Lasso Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -188,23 +303,6 @@ Threading both legs through opponent's arms creating double lasso control
 - **[[Single Leg X-Guard]]** - Common transition target when the opponent stands or attempts to pass around the lasso
 
 - **[[Triangle Control]]** - Natural submission progression when the opponent's posture breaks forward into the lasso
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](lasso-guard/bottom)** - Sweeps, attacks, and submissions
-- **[Top Perspective](lasso-guard/top)** - Techniques and strategies
-
-
-### By Variation
-
-- **[Inverted Lasso Guard](lasso-guard/inverted-lasso-guard)** - Lasso control with inverted position for dynamic sweeps and berimbolo entries
-
-- **[Russian Leg Lasso](lasso-guard/russian-leg-lasso)** - Threading both legs through opponent's arms creating double lasso control
-
 
 
 </section>

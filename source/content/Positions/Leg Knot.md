@@ -76,6 +76,18 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Leg Knot/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Leg Knot/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Leg Knot Bottom Perspective
@@ -105,12 +117,58 @@ The bottom player in leg knot must focus on creating frames, protecting against 
 ### Primary Techniques
 
 
+- **[[Reverse the entanglement to Outside Ashi]]** → [[Outside Ashi-Garami]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Extract leg and establish Single Leg X]]** → [[Single Leg X-Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Granby roll to reverse position]]** → [[Ashi Garami]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Clear leg and transition to X-Guard]]** → [[X-Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Counter-entangle to 50-50 Guard]]** → [[50-50 Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Limp leg extraction to Half Guard]]** → [[Half Guard]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
 
 ### Common Errors
 
 
+- ❌ **Turning away from opponent and exposing heel**
+  - Consequence: Creates immediate heel hook opportunity with full heel exposure and optimal attacking angle for opponent
+  - ✅ Correction: Always turn into the opponent to hide heel; keep toes pointed toward opponent's hip to maintain heel safety
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](leg-knot/bottom)**
+- ❌ **Allowing knee line to be crossed**
+  - Consequence: Enables opponent to transition to Saddle or Inside Ashi with significantly increased submission danger
+  - ✅ Correction: Maintain inside knee line by keeping trapped leg's knee pointing inward; use free leg to block opponent's leg positioning
+
+- ❌ **Explosive thrashing without systematic approach**
+  - Consequence: Wastes energy, tightens entanglement, and may worsen position by creating opportunities for opponent to consolidate control
+  - ✅ Correction: Use controlled, systematic movements following proper escape sequences; prioritize technique over strength
+
+- ❌ **Neglecting to use free leg for defensive frames**
+  - Consequence: Allows opponent to easily advance position without resistance, leading to dominant leg lock positions
+  - ✅ Correction: Actively engage free leg to create pushing frames on opponent's hips, shoulders, and entangling leg
+
+- ❌ **Failing to address immediate submission threats first**
+  - Consequence: Results in submission while attempting positional escape, violating defensive hierarchy principles
+  - ✅ Correction: Always neutralize immediate submission dangers (heel exposure, knee line breach) before attempting to escape position
+
+- ❌ **Keeping hips flat and static on the mat**
+  - Consequence: Eliminates hip mobility needed for escape angles and makes it easy for opponent to consolidate superior position
+  - ✅ Correction: Maintain hip mobility by staying on side or constantly adjusting angles; never remain flat and static
+
+- ❌ **Ignoring upper body positioning and hand fighting**
+  - Consequence: Allows opponent to control distance and angle perfectly, setting up high-percentage submissions
+  - ✅ Correction: Use hands actively to control opponent's gi/body, create frames, and manage distance throughout the entanglement
+
+
+👉 **[[Leg Knot/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +201,60 @@ The top player in leg knot balances control maintenance with submission attacks,
 ### Primary Techniques
 
 
+- **[[Heel Hook]]** → [[Saddle]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Inside Heel Hook]]** → [[Inside Ashi-Garami]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Toe Hold]]** → [[Toe Hold Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
+- **[[Kneebar]]** → [[Kneebar Control]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+
+- **[[Transition to Saddle]]** → [[Saddle]]
+  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+
+- **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Leg Weave Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
+- **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
 
 ### Common Errors
 
 
+- ❌ **Forcing heel hook finish before establishing proper breaking mechanics and control**
+  - Consequence: Opponent escapes through leg extraction or counter-entanglement due to insufficient control
+  - ✅ Correction: Establish clear leg isolation and breaking mechanics before attempting finish, ensuring systematic progression through defensive layers
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](leg-knot/top)**
+- ❌ **Allowing opponent to sit up and establish upper body frames or grips**
+  - Consequence: Loss of positional control and vulnerability to leg lock counters or guard recovery
+  - ✅ Correction: Maintain forward upper body posture with hands actively controlling opponent's torso or creating distance that prevents sitting up
+
+- ❌ **Crossing legs too loosely without systematic pressure on opponent's trapped thigh**
+  - Consequence: Opponent extracts leg through hip rotation or knee pumping movements
+  - ✅ Correction: Apply deliberate knee pressure on opponent's thigh while maintaining tight leg crossing that restricts extraction attempts
+
+- ❌ **Overcommitting to single submission without maintaining positional control**
+  - Consequence: Opponent defends successfully and escapes position during transition attempt
+  - ✅ Correction: Maintain leg knot configuration while working submissions, using position retention as priority over forced finishing
+
+- ❌ **Ignoring opponent's free leg and allowing defensive kicking or re-guard attempts**
+  - Consequence: Opponent uses free leg to push away, establish frames, or begin guard recovery sequence
+  - ✅ Correction: Control opponent's free leg through positioning or constant awareness, preventing defensive movements before they develop
+
+- ❌ **Maintaining static position without creating angles or adjusting for opponent's defensive movements**
+  - Consequence: Opponent establishes defensive stalemate and works methodically toward escape
+  - ✅ Correction: Continuously adjust angles, pressure points, and leg crossing configuration to stay ahead of opponent's defensive adjustments
+
+
+👉 **[[Leg Knot/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -178,16 +284,6 @@ The top player in leg knot balances control maintenance with submission attacks,
 - **[[Deep Half Guard]]** - Related leg-based control position with similar entanglement principles
 
 - **[[Leg Entanglement]]** - Core conceptual framework and parent category
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](leg-knot/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](leg-knot/top)** - Techniques and strategies
-
 
 
 </section>

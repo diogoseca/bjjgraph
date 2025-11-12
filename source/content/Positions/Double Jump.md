@@ -78,6 +78,18 @@ Both perspectives share the common principle of using leg-based controls to crea
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Double Jump/Bottom|Bottom Perspective]]** - Techniques and strategies
+- **[[Double Jump/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Double Jump Bottom Perspective
@@ -107,12 +119,64 @@ The bottom player in double jump balances defensive frames with offensive opport
 ### Primary Techniques
 
 
+- **[[Deep Half Entry]]** → [[Deep Half Guard]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+
+- **[[Old School Sweep]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+
+- **[[Waiter Sweep]]** → [[Side Control]]
+  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+
+- **[[100% Sweep]]** → [[Mount]]
+  - Success Rate: Beginner 15%, Intermediate 35%, Advanced 55%
+
+- **[[Half Guard to Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 55%
+
+- **[[Electric Chair Submission]]** → [[Electric Chair]]
+  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 45%
+
+- **[[Lockdown Sweeps]]** → [[Lockdown]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+
+- **[[X-Guard Sweep]]** → [[X-Guard]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+
 
 ### Common Errors
 
 
+- ❌ **Jumping with legs at different timing or angles**
+  - Consequence: Creates predictable movement that opponent can easily sprawl against, resulting in flattened position under heavy pressure
+  - ✅ Correction: Practice the synchronized double leg insertion in drilling - both legs must shoot together like a single explosive unit, maintaining parallel alignment throughout the motion
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](double-jump/bottom)**
+- ❌ **Failing to commit fully to the explosive entry movement**
+  - Consequence: Halfway attempts allow opponent to post and recover base, leaving you in worse position than before the attempt
+  - ✅ Correction: The double jump requires full commitment - once initiated, drive both legs completely underneath opponent's hips with maximum explosiveness, accepting the risk to gain the reward
+
+- ❌ **Allowing head to drift toward opponent's hips during entry**
+  - Consequence: Creates guillotine and other front headlock attack opportunities that can end the match immediately
+  - ✅ Correction: Actively turn head away from opponent's hips toward the outside, maintaining safe head position while establishing deep half hooks
+
+- ❌ **Neglecting to control opponent's near arm during transition**
+  - Consequence: Allows opponent to post and recover base, nullifying the sweeping opportunities from deep half
+  - ✅ Correction: Establish control of opponent's near arm with your outside hand before initiating the jump, preventing their ability to post during your entry
+
+- ❌ **Attempting the technique against opponent with weight posted back**
+  - Consequence: Without forward pressure, the explosive entry has nothing to work against and you expose yourself to leg attacks
+  - ✅ Correction: Only execute double jump when opponent's weight is clearly committed forward - use other guard recovery methods when they maintain back-posted base
+
+- ❌ **Stopping movement after successful entry without establishing hooks**
+  - Consequence: Opponent immediately escapes before you can consolidate deep half position
+  - ✅ Correction: The entry and hook establishment must be one continuous motion - as legs shoot underneath, immediately curl the inside leg to hook opponent's far leg while outside leg controls near hip
+
+- ❌ **Executing from flat on back instead of on side**
+  - Consequence: Lacks the angular momentum and leverage needed for explosive leg insertion
+  - ✅ Correction: Always establish side position first with body perpendicular to opponent before initiating the double jump sequence
+
+
+👉 **[[Double Jump/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -145,12 +209,54 @@ The top player in double jump balances control maintenance with submission attac
 ### Primary Techniques
 
 
+- **[[Turtle to Back Control]]** → [[Back Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Crab Ride to Back]]** → [[Crab Ride]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+
+- **[[Transition to Truck]]** → [[Truck]]
+  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+
+- **[[Rolling Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 15%, Intermediate 35%, Advanced 55%
+
+- **[[Truck Entry]]** → [[Truck]]
+  - Success Rate: Beginner 20%, Intermediate 38%, Advanced 58%
+
+- **[[Back Take Generic]]** → [[Back Control]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+
 
 ### Common Errors
 
 
+- ❌ **Establishing leg hooks without securing upper body control first**
+  - Consequence: Opponent easily sits to butterfly guard or rolls through to reverse position, eliminating attacking opportunities
+  - ✅ Correction: Always secure crossface, overhook, or harness grip before inserting hooks; upper body control prevents defensive movements
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](double-jump/top)**
+- ❌ **Using leg hooks as static positioning rather than active control mechanisms**
+  - Consequence: Opponent maintains base and stalls position, or gradually extracts hooks through patient defensive work
+  - ✅ Correction: Constantly adjust hook depth and angle to off-balance opponent; use hooks to lift and manipulate hips, not just maintain contact
+
+- ❌ **Overcommitting weight forward onto opponent's back without maintaining base**
+  - Consequence: Opponent performs forward roll escape, throwing you over their head and reversing position
+  - ✅ Correction: Distribute weight between chest pressure and leg control; maintain your own base to follow opponent's movements without being thrown
+
+- ❌ **Failing to anticipate opponent sitting to butterfly guard and losing position**
+  - Consequence: Opponent establishes butterfly hooks and sweeps or creates scramble, negating your attacking position
+  - ✅ Correction: As opponent begins sitting motion, immediately transition to crab ride or back control, using their movement to establish dominant position
+
+- ❌ **Inserting both hooks simultaneously without regard for opponent's defensive reactions**
+  - Consequence: Opponent counters the explosive entry with roll escapes or by posting and standing, creating scramble situations
+  - ✅ Correction: Read opponent's base strength; against strong turtle, establish hooks progressively while breaking down base incrementally
+
+- ❌ **Maintaining Double Jump position for extended periods seeking perfect back-take setup**
+  - Consequence: Opponent recovers defensive composure, extracts hooks, or referee stands up position for stalling
+  - ✅ Correction: Use Double Jump as transitional attacking position; commit to back-take, truck entry, or submission within 5-10 seconds of establishing hooks
+
+
+👉 **[[Double Jump/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -182,16 +288,6 @@ The top player in double jump balances control maintenance with submission attac
 - **[[10th Planet Half Guard Bottom System]]** - System context - Double Jump bottom is foundational entry technique
 
 - **[[Twister System]]** - System progression - top Double Jump serves as truck entry point
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](double-jump/bottom)** - Techniques and strategies
-- **[Top Perspective](double-jump/top)** - Techniques and strategies
-
 
 
 </section>

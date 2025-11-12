@@ -80,6 +80,18 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Leg Drag Control/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Leg Drag Control/Top|Top Perspective]]** - Submissions and positional attacks
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Leg Drag Control Bottom Perspective
@@ -109,12 +121,60 @@ The bottom player in leg drag control must focus on creating frames, protecting 
 ### Primary Techniques
 
 
+- **[[Leg Drag Escape to Closed Guard]]** → [[Closed Guard]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Technical Standup]]** → [[Standing Position]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Leg Drag Counter to Half Guard]]** → [[Half Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Roll to Turtle]]** → [[Turtle]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Inside Position Recovery]]** → [[Butterfly Guard]]
+  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+
+- **[[Granby Roll Escape]]** → [[Open Guard]]
+  - Success Rate: Beginner 5%, Intermediate 20%, Advanced 35%
+
+- **[[Leg Recovery to De La Riva]]** → [[De La Riva Guard]]
+  - Success Rate: Beginner 8%, Intermediate 22%, Advanced 38%
+
+- **[[Frame and Shrimp to Guard]]** → [[Open Guard]]
+  - Success Rate: Beginner 18%, Intermediate 32%, Advanced 48%
+
 
 ### Common Errors
 
 
+- ❌ **Turning away from opponent to protect guard, exposing back**
+  - Consequence: Gives opponent easy back take with hooks insertion
+  - ✅ Correction: Stay square or slightly toward opponent, use frames to maintain distance while working leg free
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](leg-drag-control/bottom)**
+- ❌ **Pulling trapped leg straight back without creating space first**
+  - Consequence: Opponent's grip and body weight make this impossible, wasting energy
+  - ✅ Correction: Frame at shoulder and hip to create separation before attempting leg extraction
+
+- ❌ **Focusing only on freeing the trapped leg while ignoring back exposure**
+  - Consequence: Successfully free leg but opponent has already secured back control
+  - ✅ Correction: Prioritize preventing hooks and back control before working on leg recovery
+
+- ❌ **Remaining flat on back too long without active escape attempts**
+  - Consequence: Opponent settles weight and transitions to mount or side control
+  - ✅ Correction: Recognize you have 1-2 seconds before consolidation, act immediately with frames and movement
+
+- ❌ **Using weak frames at opponent's chest instead of structural points**
+  - Consequence: Opponent easily collapses frames and advances position
+  - ✅ Correction: Frame at shoulder and hip with elbows tight, creating maximum structural integrity
+
+- ❌ **Attempting to sit up without first addressing the crossed leg**
+  - Consequence: Opponent uses your momentum to complete the pass to side control
+  - ✅ Correction: Free leg or accept turtle transition before attempting to sit up to guard
+
+
+👉 **[[Leg Drag Control/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -147,12 +207,66 @@ The top player in leg drag control enjoys offensive advantages with access to su
 ### Primary Techniques
 
 
+- **[[Leg Drag Pass to Side Control]]** → [[Side Control]]
+  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+
+- **[[Leg Drag to Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+
+- **[[Leg Drag to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Leg Drag to Knee on Belly]]** → [[Knee on Belly]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Leg Drag to North-South]]** → [[North-South]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+
+- **[[Leg Drag to Crucifix]]** → [[Crucifix]]
+  - Success Rate: Beginner 15%, Intermediate 35%, Advanced 55%
+
+- **[[Leg Drag to Inside Ashi]]** → [[Inside Ashi-Garami]]
+  - Success Rate: Beginner 20%, Intermediate 40%, Advanced 60%
+
+- **[[Leg Drag to Kimura Control]]** → [[Kimura Control]]
+  - Success Rate: Beginner 18%, Intermediate 38%, Advanced 58%
+
+- **[[Leg Drag to Technical Mount]]** → [[Technical Mount]]
+  - Success Rate: Beginner 22%, Intermediate 42%, Advanced 62%
+
+- **[[Leg Drag to Darce Setup]]** → [[D'arce Control]]
+  - Success Rate: Beginner 12%, Intermediate 30%, Advanced 50%
+
 
 ### Common Errors
 
 
+- ❌ **Staying static in leg drag control without threatening advancement**
+  - Consequence: Opponent has time to establish frames and escape to half guard or standing
+  - ✅ Correction: Constantly threaten back take, mount, and side control transitions—never let opponent stabilize defense
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](leg-drag-control/top)**
+- ❌ **Focusing only on leg control while neglecting upper body control points**
+  - Consequence: Opponent sits up and faces you, completely nullifying the leg drag advantage
+  - ✅ Correction: Maintain constant shoulder or head control with free hand—control system requires both upper and lower body
+
+- ❌ **Driving straight forward instead of at diagonal angles**
+  - Consequence: Opponent can use frames effectively and create space to escape
+  - ✅ Correction: Drive diagonally across opponent's body, changing angles to break down frames
+
+- ❌ **Releasing leg control too early when transitioning to other positions**
+  - Consequence: Opponent immediately recaptures guard during transition
+  - ✅ Correction: Maintain leg control until you have established new control points in next position
+
+- ❌ **Failing to recognize when opponent turns away and not following to back**
+  - Consequence: Miss high-percentage back take opportunity and opponent escapes to turtle
+  - ✅ Correction: Develop sensitivity to opponent's rotation—as soon as they turn away, follow immediately for back take
+
+- ❌ **Using too much energy maintaining position instead of advancing**
+  - Consequence: Fatigue sets in and opponent escapes during moment of weakness
+  - ✅ Correction: Leg drag is transitional by nature—move decisively to consolidation within 3-5 seconds
+
+
+👉 **[[Leg Drag Control/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -178,16 +292,6 @@ The top player in leg drag control enjoys offensive advantages with access to su
 - **[[De La Riva Guard]]** - Common starting position before leg drag entry
 
 - **[[Single Leg X-Guard]]** - Alternative guard bottom may attempt during scramble
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](leg-drag-control/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](leg-drag-control/top)** - Submissions and positional attacks
-
 
 
 </section>

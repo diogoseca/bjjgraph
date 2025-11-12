@@ -80,6 +80,18 @@ Historically, the leg drag evolved from traditional gi passing but has found eve
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Leg Drag Position/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Leg Drag Position/Top|Top Perspective]]** - Submissions and positional attacks
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Leg Drag Position Bottom Perspective
@@ -105,12 +117,50 @@ The bottom player in leg drag position must focus on creating frames, protecting
 ### Primary Techniques
 
 
+- **[[Butterfly Hook Recovery]]** → [[Butterfly Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Half Guard Recovery]]** → [[Knee Shield Half Guard]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Deep Half Entry]]** → [[Deep Half Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Granby Roll]]** → [[Butterfly Guard]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 50%
+
+- **[[Frame and Shrimp]]** → [[Open Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Underhook Battle]]** → [[Underhook Control]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
 
 ### Common Errors
 
 
+- ❌ **Turning away from opponent to escape pressure**
+  - Consequence: Immediately exposes back for easy back take
+  - ✅ Correction: Always face opponent and work frames toward them, never turn away
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](leg-drag-position/bottom)**
+- ❌ **Passive acceptance of position waiting for opponent mistake**
+  - Consequence: Pass completes or position deteriorates further as top player consolidates
+  - ✅ Correction: Immediately begin active escape sequence upon recognizing leg drag
+
+- ❌ **Attempting to push opponent's chest without creating frames**
+  - Consequence: Wastes energy while top player maintains pressure and control
+  - ✅ Correction: Create frames with shin and arm before attempting to move opponent's weight
+
+- ❌ **Shrimping directly away without addressing leg control**
+  - Consequence: Movement is ineffective as dragged leg prevents hip escape
+  - ✅ Correction: First recover butterfly hook or half guard before attempting major hip movement
+
+- ❌ **Posting free foot on mat without active defense**
+  - Consequence: Top player easily controls posted leg and completes pass
+  - ✅ Correction: Use free leg actively for butterfly hooks or frames, never static posting
+
+
+👉 **[[Leg Drag Position/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -141,12 +191,60 @@ The top player in leg drag position enjoys offensive advantages with access to s
 ### Primary Techniques
 
 
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Back Step]]** → [[Back Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Pressure Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+
+- **[[Body Lock Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Transition to North-South]]** → [[North-South]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Knee on Belly]]** → [[Knee on Belly]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Leg Weave Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
 
 ### Common Errors
 
 
+- ❌ **Overcommitting weight to chest pressure without controlling far hip**
+  - Consequence: Opponent can granby roll underneath or invert to escape
+  - ✅ Correction: Balance chest pressure with far hip control using arm or head position
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](leg-drag-position/top)**
+- ❌ **Staying too square to opponent instead of perpendicular**
+  - Consequence: Opponent can turn into you and recover guard or half guard easily
+  - ✅ Correction: Maintain perpendicular angle with head tight to their body
+
+- ❌ **Allowing opponent to establish butterfly hook with free leg**
+  - Consequence: Hook provides lever to lift and escape, negating leg drag control
+  - ✅ Correction: React immediately to butterfly hook attempt with knee slice or pressure adjustment
+
+- ❌ **Lifting chest pressure prematurely during passing transition**
+  - Consequence: Creates space for opponent to recover guard structures
+  - ✅ Correction: Maintain pressure throughout transition, only releasing when control is established in next position
+
+- ❌ **Ignoring opponent's turn away movement**
+  - Consequence: Misses high-percentage back take opportunity
+  - ✅ Correction: Recognize turn away immediately and transition to back step or back take
+
+- ❌ **Static pressure without positional progression**
+  - Consequence: Wastes energy while opponent finds escape timing
+  - ✅ Correction: Use leg drag as transitional position, immediately progress to pass or back take
+
+
+👉 **[[Leg Drag Position/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -172,16 +270,6 @@ The top player in leg drag position enjoys offensive advantages with access to s
 - **[[Turtle]]** - Defensive position bottom may transition to during escape attempts
 
 - **[[Butterfly Guard]]** - Guard structure bottom attempts to recover
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](leg-drag-position/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](leg-drag-position/top)** - Submissions and positional attacks
-
 
 
 </section>

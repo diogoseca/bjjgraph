@@ -76,6 +76,18 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Overhook Guard/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
+- **[[Overhook Guard/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Overhook Guard Bottom Perspective
@@ -105,12 +117,60 @@ The bottom player in overhook guard controls the position with offensive attacks
 ### Primary Techniques
 
 
+- **[[Overhook Sweep]]** → [[Mount Top]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 65%
+
+- **[[Hip Bump Sweep]]** → [[Mount Top]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 70%
+
+- **[[Omoplata to Sweep]]** → [[Mount Top]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Rolling Back Take]]** → [[Back Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Triangle Setup]]** → [[Triangle Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Kimura from Guard]]** → [[Kimura Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Omoplata from Guard]]** → [[Omoplata Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Armbar from Guard]]** → [[Armbar Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
 
 ### Common Errors
 
 
+- ❌ **Releasing overhook tension when opponent postures**
+  - Consequence: Opponent easily recovers posture and establishes strong base for passing
+  - ✅ Correction: Maintain constant pulling pressure on overhook with elbow tight to ribs, using legs to prevent hip elevation
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](overhook-guard/bottom)**
+- ❌ **Neglecting opposite-side grip control**
+  - Consequence: Opponent establishes strong frame with free hand, blocking sweep attempts and creating passing angles
+  - ✅ Correction: Always control opponent's free arm with collar, sleeve, or wrist grip to prevent defensive posting
+
+- ❌ **Attempting sweeps without proper angle creation**
+  - Consequence: Sweeps fail because opponent's base remains stable and centered over bottom player
+  - ✅ Correction: Hip escape toward overhook side to create angle before initiating sweep, disrupting opponent's base alignment
+
+- ❌ **Staying flat on back without hip mobility**
+  - Consequence: Opponent maintains stable position and can slowly work to open guard or stack effectively
+  - ✅ Correction: Constantly adjust hip position, create angles, and use shoulder frames to prevent opponent from settling into stable position
+
+- ❌ **Overcommitting to single attack without backup options**
+  - Consequence: Opponent defends primary attack and counters with guard pass or posture recovery
+  - ✅ Correction: Chain attacks together using overhook control as anchor point, transitioning seamlessly between sweeps and submissions
+
+- ❌ **Allowing opponent to establish cross-face on overhook side**
+  - Consequence: Opponent controls head position and can flatten bottom player, neutralizing offensive options
+  - ✅ Correction: Use overhook and opposite hand to block cross-face attempts, keeping head mobile and creating shoulder frames
+
+
+👉 **[[Overhook Guard/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +203,58 @@ The top player in overhook guard balances control maintenance with submission at
 ### Primary Techniques
 
 
+- **[[Smash Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 50%, Intermediate 65%, Advanced 75%
+
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 45%, Intermediate 60%, Advanced 70%
+
+- **[[Over-Under Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 55%, Advanced 68%
+
+- **[[Kimura from Guard]]** → [[Kimura Control]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
+- **[[Arm Drag to Back]]** → [[Back Control]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Transition to Mount]]** → [[Mount Top]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
 
 ### Common Errors
 
 
+- ❌ **Releasing overhook pressure too early in anticipation of pass**
+  - Consequence: Bottom player recovers arm and establishes defensive frames, neutralizing passing opportunity
+  - ✅ Correction: Maintain consistent shoulder pressure into overhook throughout entire passing sequence until side control is secured
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](overhook-guard/top)**
+- ❌ **Standing too upright with hips pulled back from opponent**
+  - Consequence: Bottom player creates space to recover guard or execute sweeps using leverage advantage
+  - ✅ Correction: Keep hips heavy and forward with chest pressure into opponent's torso to eliminate space and maintain control
+
+- ❌ **Neglecting to control opponent's free arm**
+  - Consequence: Bottom player establishes strong frames with free arm and prevents forward progress of pass
+  - ✅ Correction: Use free hand to control opponent's free wrist, elbow, or establish grips that limit their defensive capabilities
+
+- ❌ **Attempting to force pass without establishing proper shoulder pressure**
+  - Consequence: Bottom player maintains mobility and can recover guard or reverse position
+  - ✅ Correction: First establish dominant shoulder pressure and flatten opponent before advancing passing sequence
+
+- ❌ **Base too narrow making position vulnerable to sweeps**
+  - Consequence: Bottom player executes overhook sweep or similar technique using leverage advantage
+  - ✅ Correction: Maintain wide base with knees and feet positioned to prevent sweeps while still allowing forward mobility
+
+- ❌ **Focusing solely on overhook without progressing position**
+  - Consequence: Stalemate develops with neither player advancing, wasting energy in static position
+  - ✅ Correction: Use overhook as control mechanism while systematically working to advance pass or improve position
+
+- ❌ **Allowing opponent to turn into overhook without capitalizing on back exposure**
+  - Consequence: Missed opportunity for back take as opponent recovers to neutral position
+  - ✅ Correction: When opponent turns, immediately transition to back take or maintain overhook while establishing better control
+
+
+👉 **[[Overhook Guard/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -178,16 +284,6 @@ The top player in overhook guard balances control maintenance with submission at
 - **[[Rubber Guard]]** - Advanced guard system that utilizes overhook principles with leg control
 
 - **[[Underhook Control]]** - Complementary control concept with opposite arm positioning mechanics
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](overhook-guard/bottom)** - Sweeps, attacks, and submissions
-- **[Top Perspective](overhook-guard/top)** - Techniques and strategies
-
 
 
 </section>

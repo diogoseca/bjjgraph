@@ -78,6 +78,18 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Hindulotine/Bottom|Bottom Perspective]]** - Sweeps, attacks, and submissions
+- **[[Hindulotine/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Hindulotine Bottom Perspective
@@ -107,12 +119,56 @@ The bottom player in hindulotine controls the position with offensive attacks in
 ### Primary Techniques
 
 
+- **[[Guillotine Choke]]** → [[Won by Submission]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+
+- **[[Transition to Darce Choke]]** → [[D'arce Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Transition to Anaconda Choke]]** → [[Anaconda Control]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 65%
+
+- **[[Sweep to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
+- **[[Back Take from Bottom]]** → [[Back Control]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Arm Triangle Transition]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 60%
+
+- **[[High Elbow Guillotine Variation]]** → [[Won by Submission]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Butterfly Sweep with Guillotine]]** → [[Mount]]
+  - Success Rate: Beginner 35%, Intermediate 50%, Advanced 65%
+
 
 ### Common Errors
 
 
+- ❌ **Pulling straight back on the guillotine grip using only arm strength instead of creating rotational pressure through hip positioning**
+  - Consequence: Opponent can defend by tucking chin and driving forward, neutralizing the choke and potentially passing your guard to achieve dominant position
+  - ✅ Correction: Focus on angling your hips perpendicular to opponent's body and using core rotation to generate the choking pressure rather than relying on bicep strength
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](hindulotine/bottom)**
+- ❌ **Establishing grip too low on the neck near the shoulder instead of high under the chin**
+  - Consequence: Choking pressure is applied to muscular areas rather than carotid arteries, allowing opponent to endure the pressure and eventually escape
+  - ✅ Correction: Ensure the blade of your wrist or forearm is positioned directly under opponent's chin with the grip as high on the neck as possible before attempting to finish
+
+- ❌ **Failing to control opponent's hips with your legs, allowing them to circle and change angles**
+  - Consequence: Opponent can rotate their body to achieve angles that relieve neck pressure, eventually escaping the position entirely
+  - ✅ Correction: Use closed guard, butterfly hooks, or strategic leg placement to restrict opponent's hip movement and maintain your attacking angle
+
+- ❌ **Loosening grip pressure when adjusting body position or attempting to improve angle**
+  - Consequence: Any reduction in grip tightness allows opponent to breathe, extract their head, and escape the submission completely
+  - ✅ Correction: Maintain maximum grip pressure as a constant while making all body adjustments incrementally without releasing the choking force
+
+- ❌ **Allowing opponent to establish a frame with their near-side shoulder between their body and yours**
+  - Consequence: The defensive frame creates space that relieves choking pressure and gives opponent leverage to push away and escape
+  - ✅ Correction: Keep your body tight to opponent's and use your legs to control their near arm, preventing the establishment of defensive frames
+
+
+👉 **[[Hindulotine/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -145,12 +201,56 @@ The top player in hindulotine balances control maintenance with submission attac
 ### Primary Techniques
 
 
+- **[[Guillotine Choke]]** → [[Won by Submission]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 80%
+
+- **[[Transition to Darce Choke]]** → [[D'arce Control]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 75%
+
+- **[[Transition to Anaconda Choke]]** → [[Anaconda Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 70%
+
+- **[[Back Take from Top]]** → [[Back Control]]
+  - Success Rate: Beginner 45%, Intermediate 65%, Advanced 80%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Transition to North-South]]** → [[North-South]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Front Headlock to Back]]** → [[Back Control]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Arm Triangle from Top]]** → [[Won by Submission]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
 
 ### Common Errors
 
 
+- ❌ **Hanging on opponent with straight arms instead of using hip angle and body weight to create pressure**
+  - Consequence: Submission becomes purely dependent on arm strength which fatigues quickly, allowing opponent to defend until you must release the position
+  - ✅ Correction: Position your hips at an angle to opponent's spine and use your body weight combined with core rotation to generate pressure, reserving arm strength for grip maintenance only
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](hindulotine/top)**
+- ❌ **Establishing narrow base with feet too close together while attempting submission from top**
+  - Consequence: Opponent can roll you over or sweep you, reversing the position and potentially putting you in bottom position under their control
+  - ✅ Correction: Maintain wide base with at least one leg posted far from your body for stability, making it mechanically difficult for opponent to roll or sweep
+
+- ❌ **Gripping too low on the neck near opponent's shoulders instead of high under their chin**
+  - Consequence: Choking pressure is ineffective against muscular areas, allowing opponent to withstand pressure and work defensive escapes methodically
+  - ✅ Correction: Before committing to the position, ensure your grip is positioned high on the neck with the blade of your forearm directly under opponent's chin for maximum efficiency
+
+- ❌ **Failing to control opponent's hips, allowing them to circle and change angles relative to your body**
+  - Consequence: Opponent can achieve angles that relieve neck pressure or position themselves to stand up and escape entirely
+  - ✅ Correction: Use your legs to control opponent's hip movement and maintain your attacking angle, preventing circular escape movements
+
+- ❌ **Remaining static in one position rather than making micro-adjustments to pressure and angle**
+  - Consequence: Opponent adapts to the static pressure and finds defensive positions that neutralize the submission threat
+  - ✅ Correction: Continuously make small adjustments to hip angle, weight distribution, and grip position to prevent opponent from settling into comfortable defensive posture
+
+
+👉 **[[Hindulotine/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -176,16 +276,6 @@ The top player in hindulotine balances control maintenance with submission attac
 - **[[Turtle]]** - Entry position when attacking flattened opponent
 
 - **[[Standing Position]]** - Starting position for takedown defense entries
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](hindulotine/bottom)** - Sweeps, attacks, and submissions
-- **[Top Perspective](hindulotine/top)** - Techniques and strategies
-
 
 
 </section>

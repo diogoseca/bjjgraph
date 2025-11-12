@@ -76,6 +76,18 @@ Mastery of both perspectives is essential for modern grapplers, as the leg weave
 
 </section>
 
+<section id="navigation" class="content-section">
+
+## Quick Navigation
+
+### By Perspective
+- **[[Leg Weave/Bottom|Bottom Perspective]]** - Escapes, frames, and survival strategies
+- **[[Leg Weave/Top|Top Perspective]]** - Techniques and strategies
+
+
+
+</section>
+
 <section id="bottom-summary" class="content-section">
 
 ## Leg Weave Bottom Perspective
@@ -105,12 +117,53 @@ The bottom player in leg weave must focus on creating frames, protecting against
 ### Primary Techniques
 
 
+- **[[Frame and Shrimp]]** → [[Knee Shield Half Guard]]
+  - Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%
+
+- **[[Underhook Sweep from Half]]** → [[Side Control]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
+- **[[Deep Half Entry]]** → [[Deep Half Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Old School Sweep]]** → [[Side Control]]
+  - Success Rate: Beginner 10%, Intermediate 25%, Advanced 40%
+
+- **[[Dogfight Position]]** → [[Dogfight Position]]
+  - Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%
+
+- **[[Rolling to Guard]]** → [[Closed Guard]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Lockdown Sweeps]]** → [[Lockdown]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
 
 ### Common Errors
 
 
+- ❌ **Allowing top player to establish deep crossface without fighting for frames**
+  - Consequence: Complete flattening occurs, eliminating hip mobility and making escapes extremely difficult. Top player can consolidate position and pass at will.
+  - ✅ Correction: Immediately establish forearm or elbow frame against opponent's neck or shoulder as leg weave begins. Keep active resistance to prevent head control. Prioritize frame maintenance over other defensive actions initially.
 
-👉 **[Complete Bottom Perspective Guide with Drills and Expert Insights →](leg-weave/bottom)**
+- ❌ **Releasing far-side leg hook prematurely in attempt to escape**
+  - Consequence: Top player completes pass immediately to side control or mount without resistance. Loss of only remaining connection point accelerates positional loss.
+  - ✅ Correction: Maintain far-side hook throughout escape attempts unless deliberately transitioning to deep half or other guard recovery. Use hook to off-balance opponent and create scramble opportunities. Only release when secured alternative position.
+
+- ❌ **Remaining static and accepting the position without hip movement**
+  - Consequence: Top player settles weight and consolidates leg weave, making escape progressively more difficult. Energy depletes while defending without attempting improvement.
+  - ✅ Correction: Keep constant hip movement even if small - shrimp, bridge, angle changes. Never accept static position. Create micro-adjustments that prevent opponent from settling and set up larger escape movements.
+
+- ❌ **Turning fully into opponent to escape, exposing back**
+  - Consequence: Top player takes back control or achieves crucifix position. What began as guard pass defense becomes back attack defense with worse odds.
+  - ✅ Correction: Maintain awareness of back exposure threshold. When turning to dogfight or deep half, keep shoulders within 45 degrees of mat. If forced further, transition to turtle with defensive posture rather than giving up back mount.
+
+- ❌ **Using only upper body strength to fight frames without hip engagement**
+  - Consequence: Arms fatigue quickly while top player maintains pressure through better leverage. Frame battle is lost leading to flattening and pass.
+  - ✅ Correction: Coordinate frame pressure with hip movement and leg engagement. Use shrimping motion to create angle that makes frames more effective. Engage core and legs to support arm frames rather than isolated upper body pushing.
+
+
+👉 **[[Leg Weave/Bottom|Complete Bottom Perspective Guide with Drills and Expert Insights →]]**
 
 </section>
 
@@ -143,12 +196,56 @@ The top player in leg weave balances control maintenance with submission attacks
 ### Primary Techniques
 
 
+- **[[Leg Weave Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 35%, Intermediate 55%, Advanced 70%
+
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 40%, Intermediate 60%, Advanced 75%
+
+- **[[Leg Drag Pass]]** → [[Leg Drag Position]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
+- **[[Smash Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+
+- **[[Over-Under Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 30%, Intermediate 50%, Advanced 65%
+
+- **[[Long Step Pass]]** → [[Side Control]]
+  - Success Rate: Beginner 25%, Intermediate 45%, Advanced 60%
+
+- **[[Transition to Mount]]** → [[Mount]]
+  - Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%
+
+- **[[Back Step]]** → [[Back Control]]
+  - Success Rate: Beginner 15%, Intermediate 30%, Advanced 45%
+
 
 ### Common Errors
 
 
+- ❌ **Threading leg too shallow between opponent's legs without deep penetration**
+  - Consequence: Bottom player can easily recover knee shield or butterfly hooks, negating the leg weave control
+  - ✅ Correction: Drive the lead leg deep between opponent's legs until your knee is past their hip line, ensuring maximum disruption of their defensive structure
 
-👉 **[Complete Top Perspective Guide with Techniques and Expert Insights →](leg-weave/top)**
+- ❌ **Allowing hips to rise too high or losing forward pressure during the weave**
+  - Consequence: Bottom player creates space to recover guard or sit up, losing passing momentum
+  - ✅ Correction: Keep hips low and constantly driving forward with chest pressure directed at opponent's upper body throughout the passing sequence
+
+- ❌ **Neglecting upper body control while focusing solely on leg positioning**
+  - Consequence: Bottom player sits up, frames effectively, or creates angles that allow guard recovery
+  - ✅ Correction: Maintain at least one strong upper body grip (collar, sleeve, or underhook) while threading the leg, using upper body control to prevent opponent from sitting up
+
+- ❌ **Committing too much weight to the weaved leg, losing balance and base**
+  - Consequence: Bottom player can execute sweeps or recover guard by attacking the top player's compromised balance
+  - ✅ Correction: Distribute weight between weaved leg, supporting leg, and hands to maintain a stable base while applying pressure
+
+- ❌ **Staying static in the leg weave position without chaining passing sequences**
+  - Consequence: Bottom player adjusts to the position and finds defensive solutions or escape routes
+  - ✅ Correction: Continuously threaten multiple passing directions (knee slice, leg drag, smash pass) to create dilemmas and prevent the bottom player from settling into defensive postures
+
+
+👉 **[[Leg Weave/Top|Complete Top Perspective Guide with Techniques and Expert Insights →]]**
 
 </section>
 
@@ -176,16 +273,6 @@ The top player in leg weave balances control maintenance with submission attacks
 - **[[Flattened Half Guard]]** - Common result when bottom player fails to defend leg weave effectively
 
 - **[[Leg Drag Position]]** - Alternative passing finish when bottom player turns during leg weave
-
-
----
-
-## Navigation
-
-### By Perspective
-- **[Bottom Perspective](leg-weave/bottom)** - Escapes, frames, and survival strategies
-- **[Top Perspective](leg-weave/top)** - Techniques and strategies
-
 
 
 </section>
