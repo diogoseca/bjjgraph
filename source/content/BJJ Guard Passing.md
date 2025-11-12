@@ -17,268 +17,132 @@ aliases: ["BJJ-Guard-Passing"]
 
 # BJJ Guard Passing: The Essential Skill
 
-Guard passing connects everything in BJJ. You can't get to mount, side control, or back control without passing the guard first. In competition, passing scores 3 points—more importantly, it establishes the positional dominance that leads to submissions.
+Guard passing is where matches are won. You can't get to mount, side control, or back control without passing the guard first. In competition, passing scores 3 points—but more importantly, it establishes the positional dominance that leads to submissions. The truth? Most BJJ matches are decided here, in the passing game, not in the submissions that come after.
 
-The truth? **Most BJJ matches are won or lost in the passing game.** Your opponent's guard is where battles are decided.
+## Pressure vs Speed: The Two Schools
 
----
+Every guard pass falls into one of two categories, though elite passers blur the lines constantly.
 
-## The Two Passing Philosophies
+### Pressure Passing
 
-Every guard pass falls into one of two camps, though the best passers mix both:
+Watch Bernardo Faria against anyone. He makes them carry his weight for five minutes straight. Crossface, shoulder pressure, grinding control—he pins them down, exhausts their frames, makes breathing feel like a chore, and passes when their defensive structure collapses from fatigue.
 
-###Pressure Passing
+Pressure passing works best against aggressive guard players who want to move and attack. Your weight becomes their problem. You're working, but they're working harder. The energy cost is medium for you, catastrophic for them.
 
-**The grinder's approach.** Pin them down, exhaust their frames, make breathing difficult, then pass when they're tired.
-
-- **Best against:** Aggressive guard players who want to move
-- **Energy cost:** Medium (you're working, but they're working harder)
-- **Examples:** Bernardo Faria, Lucas Lepri, older-school BJJ
-- **Core passes:** Smash pass, stack pass, knee cut with heavy pressure
-
-The philosophy: make them carry your weight until their defensive structures collapse.
+The core passes: [[Smash Pass]], [[Stack Pass]], [[Knee Cut Pass]] with heavy pressure, [[Body Lock Pass]].
 
 ### Speed Passing
 
-**The roadrunner approach.** Move faster than they can react, pass before they can establish frames.
+The Mendes brothers move like they're on fast-forward. Toreando, leg drag, cartwheel passes—they're past your guard before your brain registers what happened. Speed passing is the roadrunner approach: move faster than they can react, pass before they can establish defensive frames.
 
-- **Best against:** Slow or heavy opponents, people who rely on strength
-- **Energy cost:** High (explosive bursts required)
-- **Examples:** Gui Mendes, Cobrinha, Rafa Mendes
-- **Core passes:** Toreando, leg drag, cartwheel pass
+Works best against slow or heavy opponents, people who rely on strength over timing. The energy cost is high—explosive bursts required—but when it works, it's devastatingly effective.
 
-The philosophy: if they can't touch you, they can't stop you.
+The core passes: [[Toreando Pass]], [[Leg Drag Pass]], [[Leg Weave Pass]].
 
 ### The Hybrid Reality
 
-Elite passers like Gordon Ryan and Roger Gracie switch between styles based on what their opponent gives them. Pressure when the opponent is aggressive, speed when the opponent is slow. The key is reading the situation correctly.
+Gordon Ryan and Roger Gracie don't pick one style and stick with it. They read the situation. Pressure when the opponent is aggressive and trying to attack. Speed when the opponent is slow and reactive. The key isn't knowing more passes—it's reading which pass the situation demands.
 
----
+## The Passes That Actually Matter
 
-## Essential Pressure Passes
+### Knee Cut Pass
 
-### [[Knee Cut Pass]]
+The most fundamental pass in modern BJJ. Works gi and no-gi, works against most guards, chains into everything else. If you're learning one pressure pass first, make it this one.
 
-The most fundamental pass in modern BJJ. Works gi and no-gi, works against most guards, and chains into everything else.
+You're cutting your knee across their thigh like a blade while using shoulder pressure on their upper body. Control the far leg, drive your weight forward, slide through to side control. The [[Knee Cut Position]] is your checkpoint—if you can hold it even for a second, the pass is nearly guaranteed.
 
-You're cutting your knee across their thigh like a blade while using shoulder pressure on their upper body. Control the far leg, drive your weight forward, slide through to side control. The [[Knee Cut Position]] is a critical checkpoint—if you can hold it, the pass is almost guaranteed.
+Success comes from understanding it's not one explosive movement—it's controlled pressure with your weight distributed correctly. Most failed knee cuts happen because people try to speed through instead of grinding through. When it fails, it's usually because you didn't control the far leg or you gave up the underhook.
 
-Success comes from understanding it's not ONE explosive movement—it's controlled pressure with your weight distributed correctly. Most failed knee cuts happen because people try to speed through instead of grinding through.
+### Smash Pass
 
-**When it fails:** Usually because you didn't control the far leg or you gave up the underhook.
+The bread and butter of half guard passing. Bernardo Faria built a world championship game around this pass and its variations.
 
-### [[Smash Pass]]
+Crossface across their face, underhook on the far side, drive your shoulder pressure into their jaw. Flatten them completely, make them deeply uncomfortable, then clear the trapped leg when their defensive frames weaken.
 
-The bread and butter of half guard passing. Crossface across their face, underhook on the far side, drive your shoulder pressure into their jaw. Flatten them, make them miserable, then clear the trapped leg.
+The psychological component matters here—people hate being smashed. They make mistakes trying to escape the discomfort, and that's exactly when you complete the pass. Also called "headquarters pass" or "crossface pass" depending on who's teaching.
 
-Also called the "headquarters pass" or "crossface pass." Bernardo Faria built a world championship game around variations of this pass.
+### Stack Pass
 
-The psychological component matters here—people hate being smashed. They make mistakes trying to escape the discomfort, and that's when you pass.
+Fold them in half and walk around their legs. Works from closed guard, open guard, half guard.
 
-### [[Stack Pass]]
+The key is stacking them HIGH—legs near their face, weight driving down through their hips into the mat. Most people don't stack high enough, and that's why it fails. Once properly stacked, their legs lose leverage and you can walk to either side. But this is a committed pass. You can't half-ass a stack—either stack them completely or choose a different pass.
 
-Fold them in half and walk around their legs. Works from closed guard, open guard, and various other positions.
+### Toreando Pass
 
-The key is stacking them HIGH—legs near their face, weight driving down through their hips. Most people don't stack high enough, and that's why it fails. Once properly stacked, their legs lose leverage and you can walk to either side.
+Control their pants or ankles, push their legs to one side, quickly circle to the opposite side. The name means "bullfighter pass" and the mechanic is literally the same—move the cape one way, step the other.
 
-**Important:** This is a committed pass. You can't half-ass a stack—either stack them completely or choose a different pass.
+Timing matters more than strength here. Fast, clean toreandos are nearly unstoppable. Slow, muscly toreandos get swept. You're using misdirection and speed, not force.
 
-### [[Body Lock Pass]]
-
-Lock your hands around their torso, eliminate their leg attacks entirely, drive forward. Simple, controlling, and highly effective once you understand the grip mechanics.
-
-Best against aggressive guard players trying to attack your legs. Once you have the body lock secured, they've lost most of their offensive options.
-
----
-
-## Essential Speed Passes
-
-### [[Toreando Pass]] (Bullfighter Pass)
-
-Control their pants or ankles, push their legs to one side, quickly circle to the opposite side. Like a bullfighter moving the cape one way and stepping the other.
-
-The name isn't just colorful—the mechanic is literally the same. Misdirection plus speed equals passed guard.
-
-Timing matters more than strength. Fast, clean toreandos are unstoppable. Slow, muscly toreandos get swept.
-
-### [[Leg Drag Pass]]
+### Leg Drag Pass
 
 Grab one leg, drag it across their body, backstep and circle to their back-exposed side. Often leads directly to back takes if executed correctly.
 
-This pass is everywhere in modern no-gi competition. The [[Leg Drag Position]] creates back exposure and makes defending multiple attacks nearly impossible.
+This pass is everywhere in modern no-gi competition. Gordon Ryan has built much of his dominance around leg drag systems. The [[Leg Drag Position]] creates back exposure and makes defending multiple attacks nearly impossible. The success rate is high because even when the pass "fails," you often get the back anyway.
 
-Gordon Ryan has built much of his dominance around leg drag systems. The success rate is high because even when the pass "fails," you often get the back.
+### Body Lock Pass
 
-### [[Leg Weave Pass]]
+Lock your hands around their torso, eliminate their leg attacks entirely, drive forward. Simple, controlling, highly effective once you understand the grip mechanics.
 
-Thread your arm between their legs like weaving a needle, control the far hip, circle to the side. Excellent against spider guard and De La Riva guard where their legs are extended.
-
-Requires good timing and hip control. When done correctly, you're passing before they realize what happened.
-
----
+Best against aggressive guard players trying to attack your legs. Once you have the body lock secured, they've lost most of their offensive options. You're just controlling their entire torso.
 
 ## Guard-Specific Strategies
 
-### Passing Closed Guard
+Closed guard must be opened first, then passed immediately. The mistake beginners make is opening it, pausing to think, and watching it close again. Choose your pass before you open the guard. Most modern competitors stand to pass closed guard—toreando or leg drag from standing. Combat base is slower but safer.
 
-The closed guard must be **opened first, then passed immediately**. The mistake is opening it and then pausing—they'll just close it again or transition to a different guard.
+Half guard is where you'll spend half your passing time (pun intended). Control the underhook battle. Whoever gets the underhook controls the position. If they have it, your pass gets significantly harder. If you have it, the smash pass becomes available. [[Headquarters Position]] is your control checkpoint—knee on belly of the trapped leg, excellent base, multiple options from there.
 
-**The three-step process:**
-1. Break it open (standing or combat base)
-2. Control their legs/hips immediately
-3. Execute your pass without hesitation
+Open guard is the widest category. Dozens of variations exist. Universal principles: control distance (don't let them extend AND retract freely), win the grip fight (their grips enable their guard), and stay mobile or stay heavy (pick one, commit to it). The truth is knee cut, toreando, and leg drag work against most open guards. The best pass is often just the one you're most comfortable with.
 
-Common approaches: Stand and pass with toreando or leg drag. Combat base into over-under or knee cut.
+## How Experts Actually Pass
 
-**Reality:** Most modern competitors stand to pass closed guard. Combat base passing is slower but safer—choose based on your style.
+Individual passes are useful. Passing systems are unbeatable.
 
-### Passing Half Guard
+Watch high-level matches and you'll see this: the passer starts with one approach, the guard player defends, the passer immediately switches to a different pass without resetting. That's the system—not isolated techniques, but a framework of connected options.
 
-Half guard is where you'll spend half your passing time (pun intended). The controlling concepts:
+**Pressure system**: Establish body lock or headquarters. Apply crossface pressure. Read their reaction. If they turn away, take the back. If they frame and attempt reguard, knee cut through. If they try to sit up, stack them. Never stop pressuring. The system works because every defensive response leads to a different pass, all from the same pressure foundation.
 
-**Control the underhook battle.** Whoever gets the underhook controls the position. If they have it, your pass gets significantly harder. If you have it, the smash pass becomes available.
+**Speed system**: Control the legs with passing grips. Move constantly. Toreando blocked? Switch to leg drag. Leg drag blocked? Switch to leg weave. Keep them defending, never let them settle. The system works because they're reacting instead of attacking.
 
-**Establish [[Headquarters Position]].** Knee on belly of the trapped leg, excellent base, multiple passing options. From here: smash pass, long step, knee cut, or back take.
+**Headquarters system**: Establish headquarters position from half guard. From there: smash pass, knee cut, back take, various leg attacks. Headquarters is the control position. Once there, passing is just picking the right finish based on their reaction. Gordon Ryan's primary half guard approach.
 
-**The long step pass** is the advanced answer when they have a strong lockdown or deep half guard entry.
+## What to Learn First
 
-### Passing Open Guard (Butterfly, Spider, DLR)
+White belts should learn one pressure pass and one speed pass. That's it. Recommended: [[Knee Cut Pass]] for pressure, [[Toreando Pass]] for speed. Master these two and you can pass most white and blue belt guards. Add more passes later—foundation first, variety later.
 
-Open guard is the widest category—dozens of guard variations exist.
+Blue belts should develop both styles completely. Pressure system (knee cut, smash, stack, body lock) and speed system (toreando, leg drag, leg weave). Understand when to use each. Drill transitions between passes. Learn to read which pass the situation demands.
 
-**Universal principles:**
-- Control distance (don't let them extend AND retract freely)
-- Win the grip fight (their grips enable their guard)
-- Stay mobile or stay heavy (pick one, commit to it)
+Purple belts and up should specialize based on body type and personality. Tall and lanky? Probably speed passing. Stocky and strong? Probably pressure passing. Medium build? Probably hybrid. But here's the thing: elite passers make their style work against everyone. Faria pressure-passes people who should be pressure-proof. The Mendes brothers speed-pass people who should be too fast to speed-pass.
 
-Knee cut works against most open guards. Toreando works against most open guards. Leg drag works against most open guards. The best pass is often just the one you're most comfortable with—so pick one system and master it.
+## Common Mistakes
 
----
+Weak consolidation is the most common failure. You passed, but didn't secure side control completely, so they reguard. The pass isn't done until you've established stable control. Don't celebrate until you're actually safe.
 
-## Passing Systems (How Experts Think)
+Fighting the strength means attacking where they're strongest instead of passing to their weak side. If their right side frames are solid, pass left. Seems obvious, but in the moment people forget.
 
-Individual passes are useful. **Passing systems are unbeatable.**
+Predictable patterns kill your passing. Using the same pass every time trains your opponents to defend it specifically. Mix pressure and speed. Keep them guessing what's coming.
 
-### The Pressure System
+Poor posture in closed guard gets you swept or submitted before you even attempt the pass. Back straight, hips back, structural posture maintained. This is fundamental.
 
-Start with body lock or headquarters position. Apply crossface pressure. Read their reaction:
-- Turn away? Take the back
-- Frame and attempt reguard? Knee cut through
-- Try to sit up? Stack them
+Rushing is trying to pass faster than your control allows. Establish control at each stage, then advance. Slow is smooth, smooth is fast. This cliché exists because it's true.
 
-Never stop pressuring. The system works because every defensive response leads to a different pass, and they're all from the same pressure foundation.
+## Training Methods
 
-### The Speed System
+Positional sparring is the fastest way to improve your passing. Start in the guard you want to practice passing, set a 5-minute timer, and the only outcomes are: you pass or you get swept. Do this for 3-4 rounds per session and your passing will improve faster than any drilling could achieve.
 
-Control the legs with passing grips. Move constantly. If toreando gets blocked, switch to leg drag. If leg drag gets blocked, switch to leg weave. Keep them defending, never let them settle.
+Progressive resistance builds the movement pattern: partner lets you pass (learn the mechanics) → light resistance (practice under pressure) → moderate resistance (realistic training) → full competition resistance (test yourself).
 
-The system works because they're reacting instead of attacking. Speed passing is essentially controlled scrambling where you're always two steps ahead.
-
-### The Headquarters System
-
-Establish headquarters position (knee on belly of trapped leg from half guard). From here you have:
-- Smash pass
-- Knee cut
-- Back take
-- Various leg attacks
-
-Headquarters is the control position. Once there, passing is just picking the right finish based on their reaction. This is Gordon Ryan's primary halfguard approach.
+Flow passing at lower intensity builds muscle memory and teaches you to read reactions without the chaos of full sparring. Useful, but can't replace real resistance training.
 
 ---
 
-## What You Need to Learn (By Belt Level)
-
-### White Belt: The Foundation
-
-Learn **one pressure pass** and **one speed pass**. That's it.
-
-Recommended:
-- [[Knee Cut Pass]] (pressure) - Works against everything
-- [[Toreando Pass]] (speed) - Works against everything
-
-Master these two and you can pass most white and blue belt guards. Add more passes later—foundation first.
-
-### Blue Belt: Build Systems
-
-Now develop both passing styles completely:
-
-**Pressure system:** Knee cut, smash pass, stack pass, body lock pass
-**Speed system:** Toreando, leg drag, leg weave
-
-Understand when to use each. Drill transitions between passes. Learn to read which pass to use based on opponent's guard and reactions.
-
-### Purple Belt and Up: Specialization
-
-Choose your primary passing style based on your body type and personality. Then master it completely.
-
-Tall and lanky? Probably speed passing.
-Stocky and strong? Probably pressure passing.
-Medium build? Probably hybrid.
-
-But here's the key: **elite passers make their style work against everyone.** Faria pressure-passes people who should be pressure-proof. Mendes brothers speed-pass people who should be too fast to speed-pass.
-
----
-
-## Common Passing Mistakes
-
-**Weak consolidation** - You passed, but didn't secure side control completely, so they reguard. The pass isn't done until you've established stable control.
-
-**Fighting the strength** - Attacking where they're strongest instead of passing to their weak side. If their right side frames are solid, pass left.
-
-**Predictable patterns** - Using the same pass every time. Mix pressure and speed. Keep them guessing.
-
-**Poor posture** (in closed guard) - Bent posture gets you swept or submitted. Back straight, hips back, structural posture maintained.
-
-**Rushing** - Trying to pass faster than your control allows. Establish control at each stage, then advance. Slow is smooth, smooth is fast.
-
----
-
-## Training Your Passing
-
-**Positional sparring is king.** Start in the guard you want to practice passing. Set a time limit. Pass or get swept—those are the only outcomes.
-
-Do this for 5-minute rounds, 3-4 rounds per session. Your passing will improve faster than any other drilling method.
-
-**Progressive resistance:** Partner lets you pass (learn the movement) → light resistance → moderate resistance → full competition resistance.
-
-**Flow passing** at lower intensity builds muscle memory and teaches you to read reactions without the chaos of full sparring.
-
----
-
-## Related Resources
-
-**Essential Passes:**
 [[Knee Cut Pass]] • [[Smash Pass]] • [[Toreando Pass]] • [[Leg Drag Pass]] • [[Stack Pass]]
 
-**Passing Positions:**
-[[Headquarters Position]] • [[Leg Drag Position]] • [[Knee Cut Position]] • [[Combat Base]]
+[[Headquarters Position]] • [[Leg Drag Position]] • [[Combat Base]] • [[Guard Retention]]
 
-**Guard Defense:**
-[[Guard Retention]] • [[Half Guard Top]] • [[Closed Guard Top]]
-
-**Conceptual:**
-[[BJJ Positions]] • [[BJJ Transitions]]
+[[BJJ Positions]] • [[BJJ Transitions]] • [[Half Guard Top]] • [[Closed Guard Top]]
 
 ---
-
-## The Passing Mindset
-
-Position before submission—**and passing IS position.**
 
 The best submission artists in the world are often the best passers. Why? Because submissions come from passed guards. You can't finish people from their guard (with rare exceptions). You have to pass first.
 
-Your passing game should be:
-- **Systematic** (not random techniques)
-- **Adaptable** (pressure AND speed options)
-- **Relentless** (never stop attacking)
-- **Complete** (finish to stable control)
-
-Elite passers create no-win scenarios. Block the knee cut? They switch to toreando. Block the toreando? They switch to leg drag. Block the leg drag? They're already past your guard.
-
-**Your goal: make opponents exhausted and frustrated just trying to keep you in their guard.**
-
-That's when the real passing begins—when they're tired of defending and you're just getting started.
-
----
-
-*For detailed execution guides, variations, and specific counters, explore the individual pass pages linked throughout this guide.*
+Elite passers create no-win scenarios for their opponents. Block the knee cut? They switch to toreando. Block the toreando? They switch to leg drag. Block the leg drag? They're already past your guard. Make opponents exhausted and frustrated just trying to keep you in their guard. That's when passing becomes easy—when they're tired of defending and you're just getting started.

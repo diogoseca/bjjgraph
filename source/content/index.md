@@ -13,104 +13,42 @@ title: BJJ Graph - Interactive Brazilian Jiu-Jitsu Knowledge Base
 }
 </script>
 
-# Welcome to BJJ Graph
+# BJJ is a puzzle. We mapped it.
 
-**BJJ Graph** is a comprehensive, interconnected knowledge base for Brazilian Jiu-Jitsu. Think of it as a map of the entire grappling game—where every position connects to every technique, and every technique leads somewhere strategic.
+Most BJJ resources give you techniques in isolation—here's an armbar, here's a sweep, here's a guard. **BJJ Graph shows you how they connect.** Every position links to what comes next. Every technique shows you the full context. It's the complete map of the grappling game.
 
-Unlike traditional BJJ resources that treat techniques in isolation, BJJ Graph shows you the **relationships**: what leads where, what counters what, and how everything fits together in the bigger picture.
+Think of it as Wikipedia meets chess strategy for Brazilian Jiu-Jitsu. Except instead of just articles, you get the relationships between everything—what leads where, what counters what, which paths are high-percentage and which are dead ends.
 
-## What's Inside
+## Start Here
 
-### [[BJJ Positions|Positions]] (95+)
-The states of the grappling chess match. From mount to guard variations to leg entanglements—understand where you are and where you can go.
+**[[BJJ Positions]]** - 95+ positions from mount to obscure leg entanglements. Each one shows you where you can go and how to get there. Start with [[Closed Guard]], [[Mount]], or [[Side Control]] if you're new.
 
-**Popular:** [[Mount]], [[Closed Guard]], [[Back Control]], [[Side Control]], [[Half Guard]]
+**[[BJJ Transitions]]** - 71+ techniques that move you between positions. Sweeps, passes, escapes, entries. The mechanics that actually win matches. Check out [[Hip Escape]], [[Knee Cut Pass]], or [[Bridge and Roll]].
 
-### [[BJJ Transitions|Transitions]] (71+)
-The techniques that move you between positions. Sweeps, passes, escapes, and entries—these are the moves that change the game state.
+**[[BJJ Submissions]]** - 49+ finishes with full safety protocols. Chokes, joint locks, compressions. We don't mess around with safety—every submission page includes injury awareness and tap protocols. [[Rear Naked Choke]], [[Armbar]], [[Triangle Choke]] are the classics.
 
-**Essential:** [[Hip Escape]], [[Bridge and Roll]], [[Knee Cut Pass]], [[Triangle Setup]]
+**[[BJJ Escapes]]** - Your survival toolkit. Mount escapes, side control frames, back defense, guard retention. Because you can't attack if you're stuck on bottom getting smashed.
 
-### [[BJJ Submissions|Submissions]] (49+)
-The finishing moves. Chokes, joint locks, and compression techniques with detailed safety protocols and setup sequences.
+**[[BJJ Guard Passing]]** - The essential skill connecting guard positions to dominance. Pressure passes, speed passes, and why the best passers mix both.
 
-**Core:** [[Rear Naked Choke]], [[Armbar]], [[Triangle Choke]], [[Kimura]]
+## What You're Actually Getting
 
-### [[BJJ Escapes|Escapes]]
-Your survival toolkit. Systematic defenses for when you're stuck in bad positions—because everyone ends up there eventually.
+This isn't just a technique database. Every position page includes success rate data by skill level (beginner/intermediate/advanced), expert insights from Danaher/Gordon Ryan/Eddie Bravo, and decision trees showing you what to do when things go wrong.
 
-**Critical:** Mount escapes, side control frames, back defense, guard retention
+The content is structured as a state machine because that's how BJJ actually works—you're always in some position, trying to transition to a better one. We just made it explicit instead of keeping it implicit in your instructor's head.
 
-### [[BJJ Guard Passing|Guard Passing]]
-The art of getting past someone's legs to dominant positions. Pressure systems, speed passes, and strategic frameworks.
+Use the **Explorer** (left sidebar) to browse by category. Use **Search** to find specific moves. Use the **Graph View** (right) to see how everything connects visually. Click any [[wikilink]] to jump to that concept and discover related techniques.
 
-**Fundamental:** [[Smash Pass]], [[Toreando Pass]], [[Leg Drag Pass]]
+## Good Entry Points
 
-### [[BJJ Principles|Principles]] & [[BJJ Systems|Systems]]
-The conceptual framework. Movement principles, positional theory, and expert-developed systems (Danaher, Gordon Ryan, Eddie Bravo).
+**New to BJJ?** → [[Closed Guard Bottom]] (most fundamental guard) and [[BJJ Escapes]] (survival first)
 
----
+**Building your game?** → [[BJJ Positions]] to see the full landscape, then dive into specific areas you want to strengthen
 
-## How to Use This Resource
+**Competition prep?** → Position-specific pages for your weak points, plus [[BJJ Guard Passing]] for scoring strategies
 
-**If you're new to BJJ:**
-Start with [[BJJ Positions]] to understand the landscape, then explore [[BJJ Escapes]] (because survival comes first).
-
-**If you're building your game:**
-Use the search to find specific techniques, then follow the links to discover connected concepts and alternative approaches.
-
-**If you're preparing for competition:**
-Focus on position-specific pages for the areas you want to strengthen, and study the transition success rates for strategic planning.
+**Just curious how it all fits together?** → [[BJJ Principles]] for the conceptual frameworks that explain why techniques work
 
 ---
 
-## What Makes This Different
-
-1. **Interconnected** - Every page links to related concepts. See the full context, not isolated techniques.
-
-2. **State Machine Model** - BJJ as a graph where positions are nodes and techniques are edges. Navigate the game systematically.
-
-3. **Success Rate Data** - Techniques include success probabilities by skill level (Beginner/Intermediate/Advanced).
-
-4. **Expert Integration** - John Danaher's systematic approach, Gordon Ryan's competitive insights, Eddie Bravo's innovation—all in one place.
-
-5. **Living Resource** - Continuously updated with new techniques, refinements, and community insights.
-
----
-
-## Quick Stats
-
-- **95+ Positions** mapped and interconnected
-- **71+ Transitions** with detailed mechanics
-- **49+ Submissions** with safety protocols
-- **Hundreds of principles** and tactical concepts
-
----
-
-## Navigation
-
-Use the **Explorer** (left sidebar) to browse by category, or use **Search** to find specific techniques. The **Graph View** (right sidebar) shows how everything connects.
-
-Every position page includes:
-- Visual description and key principles
-- Available transitions (with success rates)
-- Defensive responses
-- Expert insights
-- Training recommendations
-
----
-
-## Start Exploring
-
-Not sure where to begin? Try these entry points:
-
-- [[Closed Guard Bottom]] - The most fundamental guard position
-- [[Mount Bottom]] - Learn to survive the worst position
-- [[Side Control Top]] - Master the most common dominant position
-- [[Hip Escape]] - The most important movement in BJJ
-
-Or jump straight to [[BJJ Positions]] to see the full map.
-
----
-
-*BJJ Graph is a community resource. Found something missing or want to contribute? Check out our [contribution guidelines](https://contribute.bjjgraph.org).*
+*95+ positions. 71+ transitions. 49+ submissions. All interconnected. All cross-referenced. All showing you the map, not just the territory.*
