@@ -155,8 +155,6 @@ description: "Master Rubber Guard bottom position with this complete guide to Ed
 
 
 
-#bjj position #rubber guard bottom #10th planet system #guard control #no-gi guard #mission control #flexibility guard 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.

@@ -143,8 +143,6 @@ description: "Master Caio Terra's guard retention framework with systematic hip 
 
 
 
-#bjj #guard-retention #defensive-system #caio-terra #guard-recovery #hip-movement #frame-management 
-
 > **Quick Answer**: Caio Terra Guard Retention System is a intermediate difficulty Defense System system. This systematic approach integrates 5 key components into a cohesive fighting framework.
 
 **System ID**: 

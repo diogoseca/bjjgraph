@@ -145,8 +145,6 @@ description: "Master strategic decision-making in BJJ through comprehensive risk
 
 
 
-#bjj #principle #strategy #decision-making #risk-management #competition #training #mental-game 
-
 > **Quick Answer**: Risk Assessment is a high complexity BJJ principle applicable at the Intermediate level. Master this principle in Intermediate to Expert.
 
 **Principle ID**: 

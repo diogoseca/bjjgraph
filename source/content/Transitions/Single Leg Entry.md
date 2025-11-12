@@ -153,8 +153,6 @@ description: "Learn Single Leg Entry in BJJ. Step-by-step execution from Standin
 
 
 
-#bjj #transition #takedown #wrestling #single_leg #standing 
-
 > **Quick Answer**: Single Leg Entry transitions from [[Standing Position]] to [[Single Leg X-Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 

@@ -145,8 +145,6 @@ description: "Master the principle of maximum efficiency with minimum effort in 
 
 
 
-#bjj #principle #efficiency #leverage #biomechanics #energy conservation #judo principle #technical precision 
-
 > **Quick Answer**: Maximum Efficiency Principle is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Expert.
 
 **Principle ID**: 

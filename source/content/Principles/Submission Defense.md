@@ -145,8 +145,6 @@ description: "Master submission defense in BJJ. Learn escape hierarchies, frame 
 
 
 
-#bjj #principle #submission defense #escape #survival #defense #frame creation #space management 
-
 > **Quick Answer**: Submission Defense is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

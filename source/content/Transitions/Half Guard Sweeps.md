@@ -153,8 +153,6 @@ description: "Master Half Guard Sweeps in BJJ. Complete systematic approach from
 
 
 
-#bjj #technique #sweep #half-guard #bottom-position #offensive 
-
 > **Quick Answer**: Half Guard Sweeps transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.
 
 

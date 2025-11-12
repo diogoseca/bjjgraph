@@ -155,8 +155,6 @@ description: "Master submission completion and control to finish matches. Compre
 
 
 
-#offensive #submissions #finishing #control positions #submission chains 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 100% of the time and finish submissions in 100% of exchanges.

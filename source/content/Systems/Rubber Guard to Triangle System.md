@@ -145,8 +145,6 @@ description: "Master Rubber Guard to Triangle System. Framework connecting rubbe
 
 
 
-#bjj #system #rubber-guard #triangle #10th-planet #closed-guard #submission-chain #offensive-system 
-
 > **Quick Answer**: Rubber Guard to Triangle System is a advanced difficulty Submission Chain system. This systematic approach integrates 5 key components into a cohesive fighting framework.
 
 **System ID**: 

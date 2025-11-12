@@ -155,8 +155,6 @@ description: "Master leg drag control from top position. Complete strategic guid
 
 
 
-#offensive #guard-passing #control #leg-drag #intermediate 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 45% of exchanges.

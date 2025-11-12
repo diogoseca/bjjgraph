@@ -147,8 +147,6 @@ description: "Master Loop Choke Variations in BJJ. Complete guide covering setup
 
 
 
-#bjj #submission #choke #gi-technique #blood-choke #loop-choke #collar-choke 
-
 > **Quick Answer**: Loop Choke Variations is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Tracheal compression and potential damage - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

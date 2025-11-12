@@ -147,8 +147,6 @@ description: "Master Kimura variations in BJJ. Complete guide covering setups fr
 
 
 
-#bjj #submission #kimura #shoulder-lock #joint-lock #double-wrist-lock #variations 
-
 > **Quick Answer**: Kimura Variations is a shoulder lock targeting the Shoulder joint (glenohumeral), rotator cuff, and supporting ligaments. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus tendons) - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

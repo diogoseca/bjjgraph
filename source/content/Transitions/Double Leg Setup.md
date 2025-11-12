@@ -159,8 +159,6 @@ description: "Learn Double Leg Setup in BJJ. Step-by-step execution from Standin
 
 
 
-#bjj #transition #takedown #setup #wrestling #standing #entry 
-
 > **Quick Answer**: Double Leg Setup transitions from [[Standing Position]] to [[Double Leg Entry]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 

@@ -153,8 +153,6 @@ description: "Master the Whizzer overhook control in BJJ. Essential defensive an
 
 
 
-#bjj #transition #overhook #wrestling #control #defense #takedown-defense #technique 
-
 > **Quick Answer**: Whizzer transitions from [[Overhook Control]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 

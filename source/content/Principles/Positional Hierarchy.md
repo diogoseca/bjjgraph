@@ -145,8 +145,6 @@ description: "Master positional hierarchy in BJJ. Learn strategic position ranki
 
 
 
-#bjj #principle #fundamental #strategy #positioning #hierarchy #tactical-decision-making 
-
 > **Quick Answer**: Positional Hierarchy is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

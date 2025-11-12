@@ -145,8 +145,6 @@ description: "Master fundamental leverage mechanics in BJJ. Learn fulcrum positi
 
 
 
-#bjj #concept #fundamental #biomechanics #leverage #mechanical-advantage #force-multiplication 
-
 > **Quick Answer**: Leverage Principles is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

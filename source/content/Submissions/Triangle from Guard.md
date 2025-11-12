@@ -147,8 +147,6 @@ description: "Master Triangle from Guard in BJJ. Complete safety guide covering 
 
 
 
-#bjj #submission #triangle-choke #guard-bottom #blood-choke #strangle 
-
 > **Quick Answer**: Triangle from Guard is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

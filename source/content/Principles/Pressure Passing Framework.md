@@ -145,8 +145,6 @@ description: "Master pressure passing methodology in BJJ. Learn systematic guard
 
 
 
-#bjj #principle #pressure #passing #guard-passing #top-game #framework #systematic-approach 
-
 > **Quick Answer**: Pressure Passing Framework is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

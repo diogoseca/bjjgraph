@@ -147,8 +147,6 @@ description: "Master takedown defense in BJJ and MMA. Learn sprawl mechanics, gr
 
 
 
-#bjj #takedown defense #wrestling #standing #defensive technique #sprawl #grip fighting 
-
 > **Quick Answer**: Takedown Defense transitions from [[Standing Position]] to [[Front Headlock]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 85%.
 
 

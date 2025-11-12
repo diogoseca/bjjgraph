@@ -147,8 +147,6 @@ description: "Master the Lasso Guard Pass in BJJ. Complete breakdown of techniqu
 
 
 
-#bjj #guard-passing #lasso-guard #technique #fundamentals #pressure-passing #standing-pass 
-
 > **Quick Answer**: Lasso Guard Pass transitions from [[Lasso Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 

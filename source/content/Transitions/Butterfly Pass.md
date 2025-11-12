@@ -153,8 +153,6 @@ description: "Master the Butterfly Pass in BJJ. Complete guide to neutralizing b
 
 
 
-#bjj #guard passing #butterfly guard #pressure passing #fundamental technique #top game #control 
-
 > **Quick Answer**: Butterfly Pass transitions from [[Butterfly Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 

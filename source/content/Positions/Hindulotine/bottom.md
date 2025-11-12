@@ -155,8 +155,6 @@ description: "Offensive guillotine variation from bottom guard using rotational 
 
 
 
-#bjj #position #bottom #guillotine-variation #submission-control #guard-position #no-gi #advanced-technique #head-control 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 75% of the time with proper technique.

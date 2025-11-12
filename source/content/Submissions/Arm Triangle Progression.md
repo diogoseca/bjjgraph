@@ -153,8 +153,6 @@ description: "Master Arm Triangle choke progression from side control. Systemati
 
 
 
-#bjj #submission #choke #arm-triangle #kata-gatame #side-control #mount 
-
 > **Quick Answer**: Arm Triangle Progression is a blood choke targeting the Carotid arteries (compression via shoulder and arm). ⚠️ **SAFETY**: This technique can cause Loss of consciousness from carotid compression - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

@@ -153,8 +153,6 @@ description: "Master the Triangle to Back transition in BJJ. Complete guide cove
 
 
 
-#bjj #transition #back-take #triangle #advanced-technique #submission-setup #positional-advancement 
-
 > **Quick Answer**: Triangle to Back transitions from [[Triangle Control]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 

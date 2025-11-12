@@ -137,8 +137,6 @@ description: "Master Dynamic Guard System in BJJ. Comprehensive framework for ma
 
 
 
-#bjj #system #guard #guard-retention #dynamic-movement #competition 
-
 > **Quick Answer**: Dynamic Guard System is a intermediate difficulty Guard System system. This systematic approach integrates 5 key components into a cohesive fighting framework.
 
 **System ID**: 

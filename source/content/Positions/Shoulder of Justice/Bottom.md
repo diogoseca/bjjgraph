@@ -155,8 +155,6 @@ description: "Defend against intense shoulder pressure in Shoulder of Justice Bo
 
 
 
-#bjj #position #side-control #bottom #defensive #escape #guard-recovery 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 52% of the time with proper technique.

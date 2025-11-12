@@ -155,8 +155,6 @@ description: "Master front headlock control in BJJ. Complete offensive system fo
 
 
 
-#offensive #control #front-headlock #intermediate #submission-system #head-control 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 65% of exchanges.

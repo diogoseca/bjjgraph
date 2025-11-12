@@ -153,8 +153,6 @@ description: "Learn Hitchhiker Escape in BJJ. Step-by-step execution from Armbar
 
 
 
-#bjj #transition #escape #defense #armbar #advanced 
-
 > **Quick Answer**: Hitchhiker Escape transitions from [[Armbar Control]] to [[Defensive Position]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.
 
 

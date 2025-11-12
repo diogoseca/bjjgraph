@@ -145,8 +145,6 @@ description: "Master submission chains in BJJ. Learn systematic attack sequences
 
 
 
-#bjj #principle #submissions #chains #offense #strategy #sequences #combinations #systematic-attacks 
-
 > **Quick Answer**: Submission Chains is a high complexity BJJ principle applicable at the Intermediate level. Master this principle in Intermediate to Expert.
 
 **Principle ID**: 

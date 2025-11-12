@@ -145,8 +145,6 @@ description: "Master defensive technique in BJJ with systematic protection metho
 
 
 
-#bjj #concept #defense #escape #survival #protection #defensive strategy 
-
 > **Quick Answer**: Defense Technique is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

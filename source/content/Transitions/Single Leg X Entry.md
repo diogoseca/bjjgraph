@@ -147,8 +147,6 @@ description: "Master Single Leg X Entry in BJJ. Step-by-step execution from seat
 
 
 
-#bjj #transition #guard_entry #offense #leg_entanglement #single_leg_x #sweep_setup #modern_guard 
-
 > **Quick Answer**: Single Leg X Entry transitions from [[Seated Guard]] to [[Single Leg X-Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 

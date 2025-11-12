@@ -155,8 +155,6 @@ description: "Master Dead Orchard Control Bottom defense in BJJ. Systematic esca
 
 
 
-#bjj #position #dead-orchard #bottom #defensive #turtle #front-headlock #submission-control #escape-hierarchy 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 45% of the time with proper technique.

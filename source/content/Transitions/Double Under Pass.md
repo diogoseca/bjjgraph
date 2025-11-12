@@ -153,8 +153,6 @@ description: "Master the Double Under Pass in BJJ. Control-based guard pass usin
 
 
 
-#bjj #technique #guard-pass #pressure-passing #top-game #fundamentals 
-
 > **Quick Answer**: Double Under Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 

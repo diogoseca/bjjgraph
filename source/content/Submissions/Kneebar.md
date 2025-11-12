@@ -147,8 +147,6 @@ description: "Master the Kneebar in BJJ. Complete guide with safety protocols, s
 
 
 
-#bjj #submission #leg-lock #joint-lock #kneebar #ashi-garami #leg-entanglement 
-
 > **Quick Answer**: Kneebar is a leg lock targeting the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). ⚠️ **SAFETY**: This technique can cause Posterior cruciate ligament (PCL) tear - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

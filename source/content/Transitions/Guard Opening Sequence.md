@@ -153,8 +153,6 @@ description: "Master guard opening in BJJ. Systematic approaches to opening clos
 
 
 
-#bjj #transition #guard-passing #guard-opening #fundamental #beginner 
-
 > **Quick Answer**: Guard Opening Sequence transitions from [[Closed Guard]] to [[Open Guard]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.
 
 

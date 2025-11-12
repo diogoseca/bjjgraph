@@ -153,8 +153,6 @@ description: "Master the Bicep Slicer in BJJ. Complete guide with safety protoco
 
 
 
-#bjj #submission #compression-lock #bicep-slicer #crucifix #truck #advanced-technique 
-
 > **Quick Answer**: Bicep Slicer is a bicep compression lock targeting the Bicep muscle and elbow joint. ⚠️ **SAFETY**: This technique can cause Bicep muscle tear or severe contusion - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

@@ -155,8 +155,6 @@ description: "Master Turtle Top position in BJJ. Offensive position with multipl
 
 
 
-#bjj #position #turtle #top #offensive #back-take #submissions 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 50% of exchanges.

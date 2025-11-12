@@ -145,8 +145,6 @@ description: "Master Side Control Defensive Framework in BJJ. Learn systematic e
 
 
 
-#bjj #principle #defense #side-control #escape #framework #pins #bottom-position #survival #guard-recovery 
-
 > **Quick Answer**: Side Control Defensive Framework is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

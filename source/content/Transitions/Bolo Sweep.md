@@ -147,8 +147,6 @@ description: "Master the Bolo Sweep from De La Riva Guard. Learn setup, executio
 
 
 
-#bjj #sweep #de-la-riva #berimbolo #advanced-technique #back-take #inversion 
-
 > **Quick Answer**: Bolo Sweep transitions from [[De La Riva Guard]] to [[Back Control]]. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.
 
 

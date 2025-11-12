@@ -147,8 +147,6 @@ description: "Master the Overhook Sweep from closed guard in BJJ. Step-by-step e
 
 
 
-#bjj #transition #technique #sweep #closed-guard #overhook #mount 
-
 > **Quick Answer**: Overhook Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
 
 

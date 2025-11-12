@@ -155,8 +155,6 @@ description: "Master offensive strategies from top Mount. Learn control mechanic
 
 
 
-#mount control system #submission from mount #dominant positioning strategy 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 75% of exchanges.

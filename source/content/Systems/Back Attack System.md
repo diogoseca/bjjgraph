@@ -129,8 +129,6 @@ description: "Master systematic back attack sequences in BJJ. Comprehensive fram
 
 
 
-#bjj #system #back-attack #submission-chain #positional-control #rear-naked-choke 
-
 > **Quick Answer**: Back Attack System is a intermediate difficulty Attack System system. This systematic approach integrates 4 key components into a cohesive fighting framework.
 
 **System ID**: 

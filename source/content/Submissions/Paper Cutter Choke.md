@@ -147,8 +147,6 @@ description: "Master Paper Cutter Choke in BJJ. Complete guide with safety proto
 
 
 
-#bjj #submission #choke #blood-choke #side-control #collar-choke #gi-technique 
-
 > **Quick Answer**: Paper Cutter Choke is a blood choke targeting the Carotid arteries (bilateral compression). ⚠️ **SAFETY**: This technique can cause Loss of consciousness from carotid artery compression - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

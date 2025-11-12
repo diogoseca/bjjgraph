@@ -145,8 +145,6 @@ description: "Master grip breaking mechanics in BJJ. Learn biomechanical princip
 
 
 
-#bjj #principle #grips #defense #fundamental #grip fighting #control breaking #hand fighting #guard retention #escape fundamentals 
-
 > **Quick Answer**: Grip Breaking is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

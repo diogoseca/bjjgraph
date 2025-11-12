@@ -147,8 +147,6 @@ description: "Master the Breadcutter Choke in BJJ. Devastating collar choke from
 
 
 
-#bjj #submission #choke #gi-choke #collar-choke #turtle-attack #back-control #blood-choke 
-
 > **Quick Answer**: Breadcutter Choke is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

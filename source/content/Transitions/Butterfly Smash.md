@@ -153,8 +153,6 @@ description: "Master the Butterfly Smash pass in BJJ. Break down butterfly hooks
 
 
 
-#bjj #guard-passing #butterfly-guard #pressure-passing #top-game #fundamental-technique 
-
 > **Quick Answer**: Butterfly Smash transitions from [[Butterfly Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 

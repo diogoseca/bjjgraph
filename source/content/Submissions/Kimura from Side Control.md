@@ -153,8 +153,6 @@ description: "Master the Kimura from Side Control in BJJ. Comprehensive guide co
 
 
 
-#bjj #submission #kimura #shoulder-lock #joint-lock #side-control #top-position 
-
 > **Quick Answer**: Kimura from Side Control is a shoulder lock targeting the Shoulder joint (rotation and elevation). ⚠️ **SAFETY**: This technique can cause Shoulder dislocation (anterior or posterior) - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

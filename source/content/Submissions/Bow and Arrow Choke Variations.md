@@ -153,8 +153,6 @@ description: "Master Bow and Arrow Choke variations in BJJ. Complete guide cover
 
 
 
-#bjj #submission #choke #back-control #gi #strangle #bow-and-arrow #lapel-choke #advanced 
-
 > **Quick Answer**: Bow and Arrow Choke Variations is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression causing loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

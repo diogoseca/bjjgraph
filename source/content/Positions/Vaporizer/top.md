@@ -155,8 +155,6 @@ description: "Master Vaporizer top defense in BJJ. Complete guide to escaping lo
 
 
 
-#bjj #position #vaporizer-top #10th-planet-defense #lockdown-escape #half-guard-top #defensive #passing 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 60% of the time and finish submissions in 15% of exchanges.

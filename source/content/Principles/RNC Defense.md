@@ -145,8 +145,6 @@ description: "Master defensive strategies against the rear naked choke in BJJ. L
 
 
 
-#bjj #principle #defense #rear-naked-choke #back-control #submission-defense #hand-fighting #chin-protection #escape-mechanics #survival 
-
 > **Quick Answer**: RNC Defense is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

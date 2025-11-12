@@ -147,8 +147,6 @@ description: "Master the Kimura from Guard in BJJ. Complete guide with safety pr
 
 
 
-#bjj #submission #kimura #joint-lock #shoulder-lock #closed-guard #guard-attacks 
-
 > **Quick Answer**: Kimura from Guard is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor) - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

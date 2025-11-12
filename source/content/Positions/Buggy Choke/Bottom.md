@@ -155,8 +155,6 @@ description: "Defend and escape Buggy Choke attacks from turtle. Complete defens
 
 
 
-#bjj #defense #turtle-bottom #buggy-choke-defense #escape #survival 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 50% of the time with proper technique.

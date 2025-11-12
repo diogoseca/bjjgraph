@@ -145,8 +145,6 @@ description: "Master the critical distinction between BJJ concepts and technique
 
 
 
-#bjj #concept #learning-theory #strategy #principles #technical-understanding 
-
 > **Quick Answer**: Concepts vs Techniques is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Expert.
 
 **Principle ID**: 

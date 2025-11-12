@@ -153,8 +153,6 @@ description: "Learn Spider Guard sweeps in BJJ. Triangle setup, omoplata sweep, 
 
 
 
-#bjj #technique #sweep #spider-guard #open-guard #guard-attacks 
-
 > **Quick Answer**: Spider Guard Sweeps transitions from [[Spider Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 

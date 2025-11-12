@@ -147,8 +147,6 @@ description: "Master Cross Collar Choke variations in BJJ. Complete safety guide
 
 
 
-#bjj #submission #choke #gi-technique #cross-collar #blood-choke #fundamental 
-
 > **Quick Answer**: Cross Collar Variations is a blood choke targeting the Carotid arteries and blood flow to brain. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from blood choke - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

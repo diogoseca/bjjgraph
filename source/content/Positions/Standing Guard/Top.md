@@ -155,8 +155,6 @@ description: "Master Standing Guard Top position in BJJ. Complete guide covering
 
 
 
-#bjj #position #standing-guard #guard-passing #top-position 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 15% of exchanges.

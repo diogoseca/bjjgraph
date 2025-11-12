@@ -145,8 +145,6 @@ description: "Master Head Control in BJJ. Learn biomechanical principles, contro
 
 
 
-#bjj #principle #fundamental #control #pressure #head-control #spine-alignment #positional-dominance 
-
 > **Quick Answer**: Head Control is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

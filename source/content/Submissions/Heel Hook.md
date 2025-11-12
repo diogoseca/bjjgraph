@@ -147,8 +147,6 @@ description: "Master the Heel Hook in BJJ. Complete safety-first guide covering 
 
 
 
-#bjj #submission #leg-lock #heel-hook #joint-lock #ashi-garami #saddle #advanced-technique 
-
 > **Quick Answer**: Heel Hook is a leg lock targeting the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. ⚠️ **SAFETY**: This technique can cause ACL tear (anterior cruciate ligament rupture) - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

@@ -145,8 +145,6 @@ description: "Master Creating Space in BJJ with coordinated frame and hip mechan
 
 
 
-#bjj #principle #fundamental #defense #space #escape #hip-movement #frames 
-
 > **Quick Answer**: Creating Space is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

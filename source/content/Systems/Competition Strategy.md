@@ -145,8 +145,6 @@ description: "Master BJJ competition strategy. Framework for tournament preparat
 
 
 
-#bjj #competition #strategy #tournament #match-tactics #game-planning #scoring #mental-game 
-
 > **Quick Answer**: Competition Strategy is a advanced difficulty Competition Strategy system. This systematic approach integrates 6 key components into a cohesive fighting framework.
 
 **System ID**: 

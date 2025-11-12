@@ -145,8 +145,6 @@ description: "Master grip advantage in BJJ. Learn strategic grip acquisition, de
 
 
 
-#bjj #principle #control #strategy #grip fighting #hand fighting #positioning 
-
 > **Quick Answer**: Grip Advantage is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

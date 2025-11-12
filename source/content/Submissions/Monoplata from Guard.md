@@ -147,8 +147,6 @@ description: "Master the Monoplata from Guard in BJJ. Complete guide with safety
 
 
 
-#bjj #submission #monoplata #shoulder-lock #guard #omoplata-family #advanced-technique 
-
 > **Quick Answer**: Monoplata from Guard is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear or strain - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

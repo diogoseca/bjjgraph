@@ -155,8 +155,6 @@ description: "Master Double Jump Top position in BJJ. Advanced turtle attack wit
 
 
 
-#bjj #position #turtle-attacks #back-control-entry #advanced 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 35% of exchanges.

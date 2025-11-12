@@ -147,8 +147,6 @@ description: "Learn Ghost Escape in BJJ. Step-by-step execution from Side Contro
 
 
 
-#bjj #transition #escape #side_control #advanced #turtle #rotation 
-
 > **Quick Answer**: Ghost Escape transitions from [[Side Control]] to [[Turtle]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 

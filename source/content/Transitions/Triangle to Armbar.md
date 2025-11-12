@@ -147,8 +147,6 @@ description: "Learn Triangle to Armbar transition in BJJ. Step-by-step execution
 
 
 
-#bjj #transition #submission #triangle #armbar #guard #attack #choke-to-joint-lock #closed-guard #intermediate 
-
 > **Quick Answer**: Triangle to Armbar transitions from [[Triangle Control]] to [[Armbar Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 

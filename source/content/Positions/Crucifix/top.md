@@ -155,8 +155,6 @@ description: "Master Crucifix Top Position in BJJ. Dominant arm-trapping control
 
 
 
-#bjj #position #crucifix #top #control #dominant #back-attack #arm-trap #submission-position 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 92% of the time and finish submissions in 85% of exchanges.

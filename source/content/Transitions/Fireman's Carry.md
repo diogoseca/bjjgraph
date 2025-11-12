@@ -153,8 +153,6 @@ description: "Master the Fireman's Carry takedown in BJJ. Complete step-by-step 
 
 
 
-#bjj #transition #takedown #wrestling #dynamic #clinch #throw 
-
 > **Quick Answer**: Fireman's Carry transitions from [[Clinch]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 

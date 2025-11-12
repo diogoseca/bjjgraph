@@ -175,8 +175,6 @@ description: "Master scramble position dynamics in BJJ with expert techniques fo
 
 
 
-#bjj #position #scramble #transition #neutral #dynamic 
-
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
 >
 > **Quick Stats**: Advanced practitioners advance to better positions 70% of the time with proper technique.

@@ -155,8 +155,6 @@ description: "Master Kimura Control from bottom in BJJ. Defensive position with 
 
 
 
-#bjj #position #kimura control #bottom position #defensive #sweep threat #submission control #guard retention 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.

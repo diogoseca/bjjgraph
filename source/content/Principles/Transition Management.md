@@ -145,8 +145,6 @@ description: "Master transition management in BJJ. Learn timing recognition, ris
 
 
 
-#bjj #principle #intermediate #transitions #timing #control #decision-making #positional-hierarchy #strategy 
-
 > **Quick Answer**: Transition Management is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

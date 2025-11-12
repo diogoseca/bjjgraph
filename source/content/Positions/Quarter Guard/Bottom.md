@@ -155,8 +155,6 @@ description: "Master Quarter Guard Bottom in BJJ. Learn sweeps, back takes, and 
 
 
 
-#bjj #position #quarter-guard #half-guard-variation #defensive #sweeps #back-takes #guard-retention #underhook-control #transitional 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 75% of the time with proper technique.

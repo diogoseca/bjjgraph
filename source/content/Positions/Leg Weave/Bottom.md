@@ -155,8 +155,6 @@ description: "Master defensive strategies from leg weave bottom. High-pressure h
 
 
 
-#bjj #position #half-guard #defensive #bottom #leg-weave #guard-retention 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 45% of the time with proper technique.

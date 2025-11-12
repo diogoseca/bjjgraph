@@ -137,8 +137,6 @@ description: "Master Marcelo Garcia's revolutionary butterfly guard system. Lear
 
 
 
-#bjj #system #butterfly-guard #marcelo-garcia #no-gi #sweeps #back-take 
-
 > **Quick Answer**: Marcelo Garcia Butterfly Guard System is a intermediate difficulty Guard System system. This systematic approach integrates 5 key components into a cohesive fighting framework.
 
 **System ID**: 

@@ -145,8 +145,6 @@ description: "Master shrimping in BJJ. Learn hip escape mechanics, space creatio
 
 
 
-#bjj #principle #shrimping #hip-escape #defensive-movement #space-creation #fundamental #escape #bottom-position 
-
 > **Quick Answer**: Shrimping is a low complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

@@ -155,8 +155,6 @@ description: "Defend against Matrix back take attempts from top position. Strate
 
 
 
-#Back Take Defense #Top Position #Turtle Defense #Scramble Defense #Base Maintenance #Counter Wrestling #Advanced Defense 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 50% of exchanges.

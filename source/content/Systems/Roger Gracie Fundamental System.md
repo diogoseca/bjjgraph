@@ -137,8 +137,6 @@ description: "Master Roger Gracie's fundamental system: positional dominance thr
 
 
 
-#bjj #system #fundamentals #roger-gracie #positional-control #mount #gi #competition 
-
 > **Quick Answer**: Roger Gracie Fundamental System is a intermediate difficulty Attack System system. This systematic approach integrates 5 key components into a cohesive fighting framework.
 
 **System ID**: 

@@ -155,8 +155,6 @@ description: "Master Inside Sankaku bottom perspective. Defensive strategies, es
 
 
 
-#bjj #position #leg_entanglement #defensive #inside_sankaku #bottom #advanced 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 40% of the time with proper technique.

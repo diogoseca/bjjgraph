@@ -155,8 +155,6 @@ description: "Defend and pass collar sleeve guard from top position. Learn grip 
 
 
 
-#Guard Passing #Top Position #Collar Sleeve Defense #Grip Fighting #Intermediate 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 35% of exchanges.

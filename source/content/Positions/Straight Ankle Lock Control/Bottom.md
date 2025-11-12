@@ -155,8 +155,6 @@ description: "Master the attacking perspective of straight ankle lock control. C
 
 
 
-#leg locks #ankle lock #offensive control #submission position #leg entanglement #foot locks #attacking position 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.

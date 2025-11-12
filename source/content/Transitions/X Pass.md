@@ -147,8 +147,6 @@ description: "Learn the X Pass in BJJ. Comprehensive guide to executing this dyn
 
 
 
-#bjj #guard passing #half guard pass #pressure passing #technique 
-
 > **Quick Answer**: X Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 

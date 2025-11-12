@@ -175,8 +175,6 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
 
 
 
-#bjj #position #standing #clinch #back-control #wrestling #takedowns #neutral 
-
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
 >
 > **Quick Stats**: Advanced practitioners advance to better positions 78% of the time with proper technique.

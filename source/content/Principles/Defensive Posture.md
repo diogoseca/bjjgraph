@@ -145,8 +145,6 @@ description: "Master defensive posture in BJJ. Learn structural alignment, conne
 
 
 
-#bjj #principle #defense #fundamental #structure #posture #alignment #pressure management 
-
 > **Quick Answer**: Defensive Posture is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

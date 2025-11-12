@@ -159,8 +159,6 @@ description: "Learn Deashi Harai in BJJ. Step-by-step execution from Standing Po
 
 
 
-#bjj #transition #takedown #judo #ashiwaza #footsweep 
-
 > **Quick Answer**: Deashi Harai transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 

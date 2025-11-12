@@ -147,8 +147,6 @@ description: "Master the Crab Ride to Back transition in BJJ. Complete step-by-s
 
 
 
-#bjj #transition #back-take #turtle-attack #crab-ride #control #advanced 
-
 > **Quick Answer**: Crab Ride to Back transitions from [[Crab Ride]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
 
 

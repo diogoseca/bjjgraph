@@ -145,8 +145,6 @@ description: "Master hip movement fundamentals in BJJ. Learn pelvic mobility, es
 
 
 
-#bjj #principle #fundamental #movement #hips #escapes #mobility #core 
-
 > **Quick Answer**: Hip Movement is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

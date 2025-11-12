@@ -145,8 +145,6 @@ description: "Master B-Team Dilemma System in BJJ. Craig Jones's strategic frame
 
 
 
-#bjj #system #b-team #dilemma-creation #leg-locks #back-attack #submission-chain #no-gi #competition-strategy #advanced 
-
 > **Quick Answer**: B-Team Dilemma System is a advanced difficulty Attack System system. This systematic approach integrates 6 key components into a cohesive fighting framework.
 
 **System ID**: 

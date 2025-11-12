@@ -153,8 +153,6 @@ description: "Master the Calf Slicer from Truck in BJJ. Complete guide with safe
 
 
 
-#bjj #submission #calf-slicer #compression-lock #truck-position #10th-planet #eddie-bravo #leg-lock #twister-system #advanced 
-
 > **Quick Answer**: Calf Slicer from Truck is a leg compression lock targeting the Calf muscle and knee joint. ⚠️ **SAFETY**: This technique can cause Calf muscle tear or rupture (gastrocnemius/soleus) - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

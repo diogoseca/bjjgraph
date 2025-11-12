@@ -155,8 +155,6 @@ description: "Master K-Guard Top in BJJ. Navigate inverted hook systems while ma
 
 
 
-#bjj #position #half-guard #top-position #passing #k-guard #pressure-passing #guard-passing 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 35% of exchanges.

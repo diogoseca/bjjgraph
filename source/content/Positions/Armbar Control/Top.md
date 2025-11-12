@@ -155,8 +155,6 @@ description: "Master armbar control from top position in BJJ. Learn arm isolatio
 
 
 
-#bjj #position #armbar #submission-control #top-position #arm-attack 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 70% of exchanges.

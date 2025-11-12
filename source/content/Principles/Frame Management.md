@@ -145,8 +145,6 @@ description: "Master Frame Management in BJJ. Learn skeletal framing, pressure r
 
 
 
-#bjj #principle #fundamental #defense #frames #structure #distance-control #pressure-management 
-
 > **Quick Answer**: Frame Management is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

@@ -145,8 +145,6 @@ description: "Master position chains in BJJ. Learn systematic progression throug
 
 
 
-#bjj #principle #strategy #intermediate #position #chains #tactical planning #progression #control hierarchy 
-
 > **Quick Answer**: Position Chains is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

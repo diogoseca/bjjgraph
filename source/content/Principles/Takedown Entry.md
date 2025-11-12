@@ -145,8 +145,6 @@ description: "Master takedown entry mechanics in BJJ. Learn grip fighting, level
 
 
 
-#bjj #principle #takedowns #wrestling #standing #grip-fighting #level-change #off-balancing 
-
 > **Quick Answer**: Takedown Entry is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

@@ -155,8 +155,6 @@ description: "Master Toe Hold Control Top position in BJJ. Complete guide coveri
 
 
 
-#bjj #position #leg-locks #toe-hold #top-position #ashi-garami #submission-control 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 65% of exchanges.

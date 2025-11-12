@@ -147,8 +147,6 @@ description: "Master foot sweep techniques in BJJ. Learn Deashi Harai, Kosoto Ga
 
 
 
-#bjj #transition #takedown #judo #ashiwaza #standing #foot-sweep #timing 
-
 > **Quick Answer**: Foot Sweep Series transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 

@@ -145,8 +145,6 @@ description: "Master Lockdown Sweeps from half guard. Learn Electric Chair, Old 
 
 
 
-#bjj #technique #sweep #half-guard #lockdown #10th-planet #eddie-bravo 
-
 > **Quick Answer**: Lockdown Sweeps transitions from [[Lockdown]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 

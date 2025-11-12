@@ -145,8 +145,6 @@ description: "Master match strategy in BJJ. Learn tactical planning, score manag
 
 
 
-#bjj #concept #strategy #competition #tactical #game-planning #decision-making #scoring 
-
 > **Quick Answer**: Match Strategy is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Intermediate to Expert.
 
 **Principle ID**: 

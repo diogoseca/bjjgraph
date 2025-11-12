@@ -151,8 +151,6 @@ description: "Master systematic submission hunting from dominant positions in BJ
 
 
 
-#bjj #system #submission #attack-chain #position-control #finish #mount #back #triangle 
-
 > **Quick Answer**: Submission Clinic System is a advanced difficulty Attack System system. This systematic approach integrates 6 key components into a cohesive fighting framework.
 
 **System ID**: 

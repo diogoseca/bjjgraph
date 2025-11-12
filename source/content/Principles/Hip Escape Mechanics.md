@@ -145,8 +145,6 @@ description: "Master hip escape mechanics in BJJ. Learn coordinated bridging, fr
 
 
 
-#bjj #principle #fundamental #escapes #movement #hip-movement #defensive #survival #space-creation #bridging 
-
 > **Quick Answer**: Hip Escape Mechanics is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

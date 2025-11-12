@@ -155,8 +155,6 @@ description: "Master defending against Ringworm Guard in BJJ. Systematic approac
 
 
 
-#bjj #position #guard-passing #lapel-guard-defense #ringworm-guard #top #advanced 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 60% of the time and finish submissions in 15% of exchanges.

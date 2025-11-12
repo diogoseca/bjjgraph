@@ -153,8 +153,6 @@ description: "Master the Underhook Pass from Half Guard. Complete guide with ste
 
 
 
-#bjj #guard passing #half guard #pressure passing #underhook #top position #control 
-
 > **Quick Answer**: Underhook Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 

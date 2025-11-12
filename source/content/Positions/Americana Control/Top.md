@@ -155,8 +155,6 @@ description: "Master Americana finishing techniques from top. Complete offensive
 
 
 
-#bjj #position #americana #top #attacks #shoulder-lock #submission 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 75% of exchanges.

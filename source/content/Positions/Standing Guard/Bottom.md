@@ -155,8 +155,6 @@ description: "Master Standing Guard Bottom in BJJ. Defensive position with dista
 
 
 
-#bjj #position #standing-guard #guard-bottom #distance-management #defensive #guard-retention 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 80% of the time with proper technique.

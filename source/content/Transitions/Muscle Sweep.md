@@ -147,8 +147,6 @@ description: "Master the Muscle Sweep from Closed Guard to Mount. Success rates:
 
 
 
-#bjj #transition #sweep #closed_guard #fundamental #beginner_technique #mount_transition 
-
 > **Quick Answer**: Muscle Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 

@@ -147,8 +147,6 @@ description: "Master Triangle Choke from front positions in BJJ. Complete guide 
 
 
 
-#bjj #submission #triangle-choke #blood-choke #closed-guard #spider-guard #front-triangle 
-
 > **Quick Answer**: Triangle Choke Front is a blood choke targeting the Carotid arteries and one shoulder. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

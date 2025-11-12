@@ -147,8 +147,6 @@ description: "Master the Ten Finger Guillotine in BJJ. Comprehensive guide cover
 
 
 
-#bjj #submission #guillotine #choke #no-gi #front-headlock #standing #guard-pull 
-
 > **Quick Answer**: Ten Finger Guillotine is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Trachea damage from excessive crushing pressure - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

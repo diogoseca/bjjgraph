@@ -137,8 +137,6 @@ description: "Master back defense in BJJ with systematic escape protocols. Learn
 
 
 
-#bjj #defense #back-control #escape-system #survival 
-
 > **Quick Answer**: Back Defense Protocol is a intermediate difficulty Defense System system. This systematic approach integrates 4 key components into a cohesive fighting framework.
 
 **System ID**: 

@@ -145,8 +145,6 @@ description: "Master guard retention fundamentals in BJJ. Learn frame management
 
 
 
-#bjj #principle #guard-retention #defense #frames #hip-movement #space-management #defensive-strategy 
-
 > **Quick Answer**: Guard Retention is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

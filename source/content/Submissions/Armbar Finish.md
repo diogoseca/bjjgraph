@@ -147,8 +147,6 @@ description: "Master the Armbar Finish mechanics in BJJ. Complete guide covering
 
 
 
-#bjj #submission #armbar #joint-lock #arm-lock #finishing-mechanics 
-
 > **Quick Answer**: Armbar Finish is a arm lock targeting the Elbow joint (hyperextension). ⚠️ **SAFETY**: This technique can cause Elbow hyperextension and ligament damage - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

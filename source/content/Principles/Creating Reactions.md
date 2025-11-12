@@ -145,8 +145,6 @@ description: "Master proactive reaction generation in BJJ. Learn threat presenta
 
 
 
-#bjj #principle #intermediate #strategy #offensive #attack-chains #initiative 
-
 > **Quick Answer**: Creating Reactions is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

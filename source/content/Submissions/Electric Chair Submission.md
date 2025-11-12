@@ -153,8 +153,6 @@ description: "Master the Electric Chair from lockdown. Complete guide with compr
 
 
 
-#bjj #submission #electric-chair #lockdown #leg-lock #knee-compression #half-guard #10th-planet 
-
 > **Quick Answer**: Electric Chair Submission is a knee and hip compression targeting the Knee joint, hip flexors, and posterior chain. ⚠️ **SAFETY**: This technique can cause Medial collateral ligament (MCL) sprain or tear - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

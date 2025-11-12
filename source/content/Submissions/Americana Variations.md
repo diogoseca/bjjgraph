@@ -147,8 +147,6 @@ description: "Master Americana variations in BJJ. Complete guide with safety pro
 
 
 
-#bjj #submission #americana #joint-lock #shoulder-lock #keylock #variations 
-
 > **Quick Answer**: Americana Variations is a shoulder lock targeting the Shoulder joint, rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus) - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

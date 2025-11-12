@@ -155,8 +155,6 @@ description: "Defensive strategies and escape techniques when opponent has estab
 
 
 
-#bjj #position #body-lock #defense #escape #wrestling 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 55% of the time with proper technique.

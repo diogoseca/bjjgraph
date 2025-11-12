@@ -155,8 +155,6 @@ description: "Master Quarter Guard Top in BJJ. Complete guide covering passing s
 
 
 
-#bjj #position #passing #top-position #pressure #control #half-guard-passing #transitional #crossface #guard-passing 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 45% of exchanges.

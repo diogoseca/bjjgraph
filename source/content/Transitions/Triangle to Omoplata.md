@@ -147,8 +147,6 @@ description: "Learn Triangle to Omoplata transition in BJJ. Step-by-step executi
 
 
 
-#bjj #transition #guard #submission #triangle #omoplata #combination 
-
 > **Quick Answer**: Triangle to Omoplata transitions from [[Triangle Control]] to [[Omoplata Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 

@@ -145,8 +145,6 @@ description: "Master creating deliberate opponent responses and exploiting predi
 
 
 
-#bjj #principle #intermediate #strategy #tactics #reaction #offense #defense 
-
 > **Quick Answer**: Action and Reaction is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

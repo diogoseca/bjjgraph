@@ -147,8 +147,6 @@ description: "Master the Kneebar from Top positions in BJJ. Complete safety guid
 
 
 
-#bjj #submission #kneebar #joint-lock #leg-lock #top-position #leg-attack 
-
 > **Quick Answer**: Kneebar from Top is a leg lock targeting the Knee joint (tibial plateau, popliteal ligaments, meniscus). ⚠️ **SAFETY**: This technique can cause Knee hyperextension and ligament damage (ACL, PCL, MCL tears) - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

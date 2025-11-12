@@ -153,8 +153,6 @@ description: "Learn the Basic Butterfly Sweep in BJJ. Step-by-step execution fro
 
 
 
-#bjj #technique #sweep #butterfly-guard #fundamental 
-
 > **Quick Answer**: Basic Butterfly Sweep transitions from [[Butterfly Guard]] to [[Mount]]. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.
 
 

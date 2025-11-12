@@ -147,8 +147,6 @@ description: "Master Arm Extraction escape from Side Control. Learn systematic a
 
 
 
-#bjj #escape #side-control-escape #guard-recovery #defensive-technique #framing #hip-escape 
-
 > **Quick Answer**: Arm Extraction transitions from [[Side Control]] to [[Guard Recovery]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 

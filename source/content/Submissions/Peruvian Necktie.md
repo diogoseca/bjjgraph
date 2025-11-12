@@ -147,8 +147,6 @@ description: "Master the Peruvian Necktie in BJJ. Complete guide with safety pro
 
 
 
-#bjj #submission #choke #front-headlock #blood-choke #turtle-attack #advanced-technique 
-
 > **Quick Answer**: Peruvian Necktie is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

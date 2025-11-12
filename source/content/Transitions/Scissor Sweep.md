@@ -147,8 +147,6 @@ description: "Learn Scissor Sweep in BJJ. Step-by-step execution from Closed Gua
 
 
 
-#bjj #transition #sweep #closed guard #fundamental #guard attack #mount transition 
-
 > **Quick Answer**: Scissor Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 55%, Intermediate 75%, Advanced 90%.
 
 

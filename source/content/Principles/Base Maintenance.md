@@ -145,8 +145,6 @@ description: "Understand Base Maintenance in BJJ. Learn stability principles, we
 
 
 
-#bjj #principle #fundamental #stability #control #base #weight-distribution #biomechanics 
-
 > **Quick Answer**: Base Maintenance is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

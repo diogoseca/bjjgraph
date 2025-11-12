@@ -155,8 +155,6 @@ description: "Master grasshopper guard from top. Complete guide to countering in
 
 
 
-#guard-passing #inverted-defense #pressure-passing #advanced #no-gi #leg-lock-defense 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 40% of exchanges.

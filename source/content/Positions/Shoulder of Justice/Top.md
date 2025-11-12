@@ -155,8 +155,6 @@ description: "Master Shoulder of Justice Top in BJJ. Complete offensive guide wi
 
 
 
-#bjj #position #side-control #top #shoulder-pressure #pin #control #offensive 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 94% of the time and finish submissions in 73% of exchanges.

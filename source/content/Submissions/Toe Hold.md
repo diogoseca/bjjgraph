@@ -153,8 +153,6 @@ description: "Master the Toe Hold leg lock in BJJ. Complete guide with safety pr
 
 
 
-#bjj #submission #leg-lock #joint-lock #toe-hold #foot-lock #leg-entanglement 
-
 > **Quick Answer**: Toe Hold is a leg lock targeting the Ankle, toes, and foot ligaments. ⚠️ **SAFETY**: This technique can cause Ankle ligament tears (lateral and medial collateral ligaments) - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

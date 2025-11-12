@@ -153,8 +153,6 @@ description: "Master Lasso Guard variations in BJJ. Learn spider lasso, inverted
 
 
 
-#bjj #guard #lasso guard #open guard #spider guard #sweeps #submissions #guard retention 
-
 > **Quick Answer**: Lasso Guard Variations transitions from [[Lasso Guard]] to [[Lasso Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 

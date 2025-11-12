@@ -147,8 +147,6 @@ description: "Master the Front Headlock to Guillotine transition in BJJ. Complet
 
 
 
-#bjj #transition #submission #front_headlock #guillotine #choke #neck_attack #standing #turtle #no-gi #wrestling #scramble 
-
 > **Quick Answer**: Front Headlock to Guillotine transitions from [[Front Headlock]] to [[Guillotine Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 

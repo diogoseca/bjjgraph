@@ -147,8 +147,6 @@ description: "Learn Frame and Shrimp escape in BJJ. Step-by-step execution from 
 
 
 
-#bjj #transition #escape #side_control #defense #fundamental #shrimping #framing #hip_escape 
-
 > **Quick Answer**: Frame and Shrimp transitions from [[Side Control]] to [[Open Guard]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
 
 

@@ -155,8 +155,6 @@ description: "Master Turtle Bottom position in BJJ. Defensive position with guar
 
 
 
-#bjj #position #turtle #bottom #defensive #guard-recovery #back-defense 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 60% of the time with proper technique.

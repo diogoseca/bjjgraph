@@ -137,8 +137,6 @@ description: "Master 10th Planet Half Guard Bottom System with Lockdown, Electri
 
 
 
-#bjj #system #half-guard #10th-planet #lockdown #electric-chair #bottom-game #no-gi 
-
 > **Quick Answer**: 10th Planet Half Guard Bottom System is a intermediate difficulty Guard System system. This systematic approach integrates 5 key components into a cohesive fighting framework.
 
 **System ID**: 

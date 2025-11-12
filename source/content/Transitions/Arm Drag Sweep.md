@@ -153,8 +153,6 @@ description: "Master the Arm Drag Sweep in BJJ. Complete guide with step-by-step
 
 
 
-#bjj #technique #sweep #guard #arm-drag #back-take #off-balancing 
-
 > **Quick Answer**: Arm Drag Sweep transitions from [[Closed Guard]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 

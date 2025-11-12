@@ -155,8 +155,6 @@ description: "Defend and escape the leg drag position with systematic recovery s
 
 
 
-#defensive position #guard recovery #leg drag defense #passing defense #intermediate 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 55% of the time with proper technique.

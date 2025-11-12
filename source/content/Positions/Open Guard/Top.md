@@ -155,8 +155,6 @@ description: "Master Open Guard Top in BJJ. Complete guide covering passing stra
 
 
 
-#bjj #position #top #guard-passing #control #pressure #passing 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 40% of exchanges.

@@ -153,8 +153,6 @@ description: "Master Morote Seoi Nage in BJJ. Complete two-handed shoulder throw
 
 
 
-#bjj #transition #takedown #judo #throw #standing #technique #gi #shoulder-throw 
-
 > **Quick Answer**: Morote Seoi Nage transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 

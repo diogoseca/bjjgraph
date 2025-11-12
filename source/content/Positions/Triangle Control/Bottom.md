@@ -155,8 +155,6 @@ description: "Master Triangle Control Bottom in BJJ. Dominant submission control
 
 
 
-#bjj position #triangle control #bottom position #submission control #guard attacks #offensive position 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 80% of the time with proper technique.

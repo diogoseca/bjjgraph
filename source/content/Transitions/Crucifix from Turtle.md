@@ -147,8 +147,6 @@ description: "Learn Crucifix from Turtle in BJJ. Step-by-step execution from Tur
 
 
 
-#bjj #transition #position_advancement #turtle #back_attack #control #crucifix #arm_trap 
-
 > **Quick Answer**: Crucifix from Turtle transitions from [[Turtle]] to [[Crucifix]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
 
 

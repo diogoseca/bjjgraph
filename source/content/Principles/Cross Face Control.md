@@ -145,8 +145,6 @@ description: "Master cross face control mechanics in BJJ. Learn forearm position
 
 
 
-#bjj #principle #fundamental #crossface #control #top-position #side-control #pressure #head-control #passing 
-
 > **Quick Answer**: Cross Face Control is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

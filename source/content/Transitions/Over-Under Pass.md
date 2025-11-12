@@ -153,8 +153,6 @@ description: "Master Over-Under Pass in BJJ. Pressure-based passing from Half Gu
 
 
 
-#bjj #transition #guard_pass #pressure #fundamental #half_guard_pass #control_passing #stack_pass #pressure_passing #side_control 
-
 > **Quick Answer**: Over-Under Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.
 
 

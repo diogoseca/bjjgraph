@@ -155,8 +155,6 @@ description: "Master Gift Wrap control from top in BJJ. Complete guide covering 
 
 
 
-#Position #Back Control #Offensive #Arm Trap #Submission Setup #High Control 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 70% of exchanges.

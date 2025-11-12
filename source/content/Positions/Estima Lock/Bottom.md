@@ -155,8 +155,6 @@ description: "Master the Estima Lock Bottom Position in BJJ. Defensive leg entan
 
 
 
-#bjj #position #leg-entanglement #defensive #estima-lock #footlock-defense #bottom-position 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 50% of the time with proper technique.

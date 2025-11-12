@@ -155,8 +155,6 @@ description: "Master Squid Guard Bottom in BJJ. Advanced asymmetrical guard with
 
 
 
-#bjj #position #squid-guard #open-guard #bottom #advanced #asymmetrical-guard #lapel-guard 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.

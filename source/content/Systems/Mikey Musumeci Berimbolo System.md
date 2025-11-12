@@ -137,8 +137,6 @@ description: "Master Mikey Musumeci's berimbolo system with technical precision.
 
 
 
-#bjj #system #berimbolo #back-take #de-la-riva #x-guard #gi #advanced #competition 
-
 > **Quick Answer**: Mikey Musumeci Berimbolo System is a advanced difficulty Attack System system. This systematic approach integrates 5 key components into a cohesive fighting framework.
 
 **System ID**: 

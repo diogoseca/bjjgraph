@@ -145,8 +145,6 @@ description: "Master strategic mindset selection in BJJ. Learn when to attack vs
 
 
 
-#bjj #principle #fundamental #psychology #strategy #mindset #tactical-decision-making #competition #mental-game 
-
 > **Quick Answer**: Offensive vs Defensive Mindset is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

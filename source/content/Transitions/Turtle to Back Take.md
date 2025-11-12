@@ -147,8 +147,6 @@ description: "Master Turtle to Back Take in BJJ. Complete guide covering hooks i
 
 
 
-#bjj #transition #back-take #turtle #back-control #technique 
-
 > **Quick Answer**: Turtle to Back Take transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 

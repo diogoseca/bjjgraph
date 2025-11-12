@@ -145,8 +145,6 @@ description: "Master Escape Fundamentals in BJJ. Learn systematic framing, space
 
 
 
-#bjj #principle #fundamental #defense #escape #frames #space-creation #survival #position-recovery 
-
 > **Quick Answer**: Escape Fundamentals is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

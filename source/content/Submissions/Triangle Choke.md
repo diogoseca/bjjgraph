@@ -153,8 +153,6 @@ description: "Master the Triangle Choke in BJJ. Complete safety guide with setup
 
 
 
-#bjj #submission #triangle-choke #blood-choke #closed-guard #fundamental 
-
 > **Quick Answer**: Triangle Choke is a blood choke targeting the Carotid arteries and brachial plexus. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from blood choke - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

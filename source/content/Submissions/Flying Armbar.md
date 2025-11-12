@@ -153,8 +153,6 @@ description: "Master the Flying Armbar technique in BJJ. High-risk aerial submis
 
 
 
-#bjj #submission #flying-armbar #joint-lock #aerial-attack #advanced-technique 
-
 > **Quick Answer**: Flying Armbar is a arm lock targeting the Elbow joint and shoulder. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension or ligament tears (opponent) - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

@@ -147,8 +147,6 @@ description: "Learn Single Leg Finish in BJJ. Step-by-step takedown completion f
 
 
 
-#bjj #transition #takedown #wrestling #fundamental 
-
 > **Quick Answer**: Single Leg Finish transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
 
 

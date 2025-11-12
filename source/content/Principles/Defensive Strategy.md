@@ -145,8 +145,6 @@ description: "Master defensive strategy in BJJ through systematic opponent analy
 
 
 
-#bjj #principle #defense #strategy #competition #tactics #game-planning 
-
 > **Quick Answer**: Defensive Strategy is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

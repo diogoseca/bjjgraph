@@ -145,8 +145,6 @@ description: "Master explosive power in BJJ. Learn force production, rate of dev
 
 
 
-#bjj #principle #intermediate #power #explosiveness #athleticism #biomechanics #speed #force production 
-
 > **Quick Answer**: Explosive Power is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

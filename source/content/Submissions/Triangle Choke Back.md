@@ -147,8 +147,6 @@ description: "Master Triangle Choke from Back Control in BJJ. Complete guide wit
 
 
 
-#bjj #submission #triangle-choke #back-control #blood-choke #advanced-technique 
-
 > **Quick Answer**: Triangle Choke Back is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

@@ -137,8 +137,6 @@ description: "Master IBJJF competition strategy for BJJ. Complete framework cove
 
 
 
-#bjj #ibjjf #competition #tournament-strategy #scoring-system #points-management #rule-set 
-
 > **Quick Answer**: IBJJF Strategy Guide is a intermediate difficulty Competition Strategy system. This systematic approach integrates 5 key components into a cohesive fighting framework.
 
 **System ID**: 

@@ -145,8 +145,6 @@ description: "Master the Front Headlock System in BJJ. Comprehensive control fra
 
 
 
-#bjj #system #front-headlock #danaher #control-system #submission-chain #back-attack #guillotine #anaconda #darce 
-
 > **Quick Answer**: Danaher Front Headlock System is a advanced difficulty Control System system. This systematic approach integrates 6 key components into a cohesive fighting framework.
 
 **System ID**: 

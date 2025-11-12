@@ -147,8 +147,6 @@ description: "Master Kneebar from Guard in BJJ. Complete guide with safety proto
 
 
 
-#bjj #submission #kneebar #joint-lock #leg-lock #guard-bottom #knee-joint 
-
 > **Quick Answer**: Kneebar from Guard is a leg lock targeting the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). ⚠️ **SAFETY**: This technique can cause Posterior cruciate ligament (PCL) tear or rupture - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

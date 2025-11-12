@@ -145,8 +145,6 @@ description: "Master Space Creation in BJJ. Learn frame mechanics, hip escape pr
 
 
 
-#bjj #principle #space creation #defense #frames #escapes #fundamentals #hip movement #bridging 
-
 > **Quick Answer**: Space Creation is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

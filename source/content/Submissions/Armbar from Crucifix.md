@@ -147,8 +147,6 @@ description: "Master Armbar from Crucifix in BJJ. Complete guide with safety pro
 
 
 
-#bjj #submission #armbar #joint-lock #crucifix #back-control #arm-lock 
-
 > **Quick Answer**: Armbar from Crucifix is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

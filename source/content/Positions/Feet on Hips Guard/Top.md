@@ -155,8 +155,6 @@ description: "Master feet on hips guard top position in BJJ. Complete passing st
 
 
 
-#bjj #position #guard-passing #feet-on-hips #open-guard #top-position #toreando #pressure-passing 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 40% of exchanges.

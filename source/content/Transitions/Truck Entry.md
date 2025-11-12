@@ -153,8 +153,6 @@ description: "Master Truck Entry in BJJ. Step-by-step execution from Turtle to T
 
 
 
-#bjj #transition #truck #turtle #back attack #leg control #twister system #eddie bravo #no-gi #10th planet 
-
 > **Quick Answer**: Truck Entry transitions from [[Turtle]] to [[Truck]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 

@@ -155,8 +155,6 @@ description: "Master X-Guard Top in BJJ. Control opponent's inverted guard with 
 
 
 
-#bjj position x-guard top #guard passing x-guard defense #leg attack counters from top 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 50% of exchanges.

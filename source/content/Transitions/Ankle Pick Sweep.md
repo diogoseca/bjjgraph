@@ -153,8 +153,6 @@ description: "Master the Ankle Pick Sweep from seated guard. Step-by-step execut
 
 
 
-#bjj #technique #sweep #seated-guard #ankle-pick #guard-bottom #off-balancing 
-
 > **Quick Answer**: Ankle Pick Sweep transitions from [[Seated Guard]] to [[Standing Position]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 

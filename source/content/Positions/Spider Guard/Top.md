@@ -155,8 +155,6 @@ description: "Master Spider Guard Top in BJJ. Learn grip breaking, passing strat
 
 
 
-#bjj #position #guard-passing #spider-guard #top-position #open-guard 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 12% of exchanges.

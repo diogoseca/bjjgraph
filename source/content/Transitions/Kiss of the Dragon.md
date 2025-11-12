@@ -153,8 +153,6 @@ description: "Learn Kiss of the Dragon in BJJ. Rolling transition from Turtle to
 
 
 
-#bjj #transition #back-take #turtle #rolling #advanced-technique #inversion 
-
 > **Quick Answer**: Kiss of the Dragon transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.
 
 

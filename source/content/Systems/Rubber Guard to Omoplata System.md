@@ -145,8 +145,6 @@ description: "Master the Rubber Guard to Omoplata System in BJJ. Learn systemati
 
 
 
-#bjj #system #rubber-guard #omoplata #submission-chain #10th-planet #flexibility-based #guard-system #shoulder-lock 
-
 > **Quick Answer**: Rubber Guard to Omoplata System is a advanced difficulty Submission Chain system. This systematic approach integrates 6 key components into a cohesive fighting framework.
 
 **System ID**: 

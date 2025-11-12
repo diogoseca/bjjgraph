@@ -147,8 +147,6 @@ description: "Master crucifix submissions in BJJ. Complete guide covering arm is
 
 
 
-#bjj #submission #crucifix #back-attack #arm-isolation #choke #joint-lock 
-
 > **Quick Answer**: Crucifix Submissions is a multiple submissions targeting the Neck and isolated arm. ⚠️ **SAFETY**: This technique can cause Shoulder dislocation from trapped arm - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

@@ -153,8 +153,6 @@ description: "Master the Technical Standup in BJJ. Learn proper base mechanics, 
 
 
 
-#bjj #transition #fundamental #guard_recovery #defensive_skill #technical_standup #escape 
-
 > **Quick Answer**: Standing up transitions from [[Open Guard]] to [[Standing Position]]. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.
 
 

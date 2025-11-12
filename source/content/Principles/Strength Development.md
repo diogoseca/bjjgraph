@@ -145,8 +145,6 @@ description: "Master strength development for BJJ. Learn functional power traini
 
 
 
-#bjj #concept #strength #conditioning #physical development #training #power #grip strength #functional training 
-
 > **Quick Answer**: Strength Development is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Expert.
 
 **Principle ID**: 

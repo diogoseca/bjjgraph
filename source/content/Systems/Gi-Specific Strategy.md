@@ -131,8 +131,6 @@ description: "Master gi-specific BJJ strategy. Comprehensive framework for grips
 
 
 
-#bjj #strategy #gi #grips #control #competition #fundamentals 
-
 > **Quick Answer**: Gi-Specific Strategy is a intermediate difficulty Competition Strategy system. This systematic approach integrates 5 key components into a cohesive fighting framework.
 
 **System ID**: 

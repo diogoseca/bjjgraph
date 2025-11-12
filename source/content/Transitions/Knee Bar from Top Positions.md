@@ -153,8 +153,6 @@ description: "Master kneebar control from top positions in BJJ. Learn entries fr
 
 
 
-#bjj #technique #leg lock #kneebar #top control #submission position #passing #leg entanglement 
-
 > **Quick Answer**: Knee Bar from Top Positions transitions from [[Headquarters Position]] to [[Kneebar Control]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
 

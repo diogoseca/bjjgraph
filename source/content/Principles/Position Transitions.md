@@ -145,8 +145,6 @@ description: "Master position transitions in BJJ - understand mechanics and stra
 
 
 
-#bjj #concept #fundamental #positions #transitions #movement #mechanics #hierarchy 
-
 > **Quick Answer**: Position Transitions is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

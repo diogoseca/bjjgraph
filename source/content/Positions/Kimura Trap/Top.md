@@ -155,8 +155,6 @@ description: "Master Kimura Trap Top in BJJ. Dominant offensive position combini
 
 
 
-#bjj #position #kimura-trap #top #side-control #control #submissions #offensive 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 90% of the time and finish submissions in 72% of exchanges.

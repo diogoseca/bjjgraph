@@ -153,8 +153,6 @@ description: "Master the Tarikoplata shoulder lock in BJJ. Advanced guard submis
 
 
 
-#bjj #submission #shoulder-lock #joint-lock #advanced #rubber-guard #10th-planet #omoplata-variation 
-
 > **Quick Answer**: Tarikoplata is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor) - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

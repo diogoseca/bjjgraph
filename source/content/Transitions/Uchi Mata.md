@@ -153,8 +153,6 @@ description: "Master Uchi Mata in BJJ. Complete standing throw from Clinch to Mo
 
 
 
-#bjj #judo #takedown #throw #standing #uchi-mata #leg-technique #hip-throw 
-
 > **Quick Answer**: Uchi Mata transitions from [[Clinch]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 

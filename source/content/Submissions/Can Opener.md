@@ -147,8 +147,6 @@ description: "Understand Can Opener neck crank in BJJ: safety risks, legal statu
 
 
 
-#bjj #submission #neck-crank #guard-breaking #illegal-technique #defensive-knowledge #guard-defense 
-
 > **Quick Answer**: Can Opener is a neck crank targeting the Cervical spine and neck muscles. ⚠️ **SAFETY**: This technique can cause Cervical spine compression - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

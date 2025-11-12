@@ -155,8 +155,6 @@ description: "Master De La Riva Guard Bottom in BJJ. Hook-based offensive guard 
 
 
 
-#bjj position de-la-riva open-guard sweeps back-takes #de la riva guard bottom technique fundamentals #berimbolo entry kiss of the dragon variations 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.

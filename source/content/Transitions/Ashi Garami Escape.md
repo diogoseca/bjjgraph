@@ -153,8 +153,6 @@ description: "Master Ashi Garami escape techniques in BJJ. Learn systematic defe
 
 
 
-#bjj #escape #leg entanglement #defensive technique #ashi garami #leg locks 
-
 > **Quick Answer**: Ashi Garami Escape transitions from [[Ashi Garami]] to [[Standing Position]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 

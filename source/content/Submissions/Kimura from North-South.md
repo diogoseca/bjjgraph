@@ -153,8 +153,6 @@ description: "Master Kimura from North-South in BJJ. Complete safety guide with 
 
 
 
-#bjj #submission #kimura #joint-lock #north-south #shoulder-lock #top-position 
-
 > **Quick Answer**: Kimura from North-South is a shoulder lock targeting the Shoulder joint, rotator cuff, and surrounding ligaments. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, subscapularis damage) - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

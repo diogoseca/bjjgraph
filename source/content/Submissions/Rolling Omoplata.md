@@ -147,8 +147,6 @@ description: "Master the Rolling Omoplata in BJJ. Dynamic shoulder lock from fai
 
 
 
-#bjj #submission #omoplata #shoulder-lock #joint-lock #rolling-technique #dynamic-submission #guard-submission 
-
 > **Quick Answer**: Rolling Omoplata is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear or strain - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

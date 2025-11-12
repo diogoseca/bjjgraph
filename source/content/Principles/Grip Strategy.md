@@ -145,8 +145,6 @@ description: "Master grip strategy fundamentals in BJJ. Learn systematic control
 
 
 
-#bjj #principle #fundamental #grips #control #gi #no-gi #guard #passing 
-
 > **Quick Answer**: Grip Strategy is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

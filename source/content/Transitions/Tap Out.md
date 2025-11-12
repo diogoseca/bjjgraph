@@ -159,8 +159,6 @@ description: "Master the critical tap out protocol in BJJ. Learn proper tap sign
 
 
 
-#bjj #safety #submission defense #tap protocol #injury prevention #fundamentals 
-
 > **Quick Answer**: Tap Out transitions from [[Defensive Position]] to [[Lost by Submission]]. Success rates: Beginner 95%, Intermediate 98%, Advanced 99%.
 
 

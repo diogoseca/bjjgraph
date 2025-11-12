@@ -145,8 +145,6 @@ description: "Master knee on belly escape mechanics in BJJ. Learn frame creation
 
 
 
-#bjj #principle #escape #defensive #knee-on-belly #framing #hip-escape #guard-recovery 
-
 > **Quick Answer**: Knee on Belly Escape is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

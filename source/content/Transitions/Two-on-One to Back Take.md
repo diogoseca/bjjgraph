@@ -147,8 +147,6 @@ description: "Master the Two-on-One to Back Take in BJJ. Step-by-step execution 
 
 
 
-#bjj #back take #wrestling #clinch #transition #standing technique #control breaking 
-
 > **Quick Answer**: Two-on-One to Back Take transitions from [[Clinch]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
 
 

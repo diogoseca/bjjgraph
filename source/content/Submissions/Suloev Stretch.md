@@ -147,8 +147,6 @@ description: "Master the Suloev Stretch in BJJ. Devastating knee compression sub
 
 
 
-#bjj #submission #leg-lock #knee-compression #calf-slicer #suloev-stretch #advanced-technique 
-
 > **Quick Answer**: Suloev Stretch is a knee compression targeting the Knee joint and calf muscle. ⚠️ **SAFETY**: This technique can cause Posterior knee ligament damage (PCL tear or strain) - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

@@ -155,8 +155,6 @@ description: "Master Rodeo Ride attacks in BJJ. Advanced turtle control position
 
 
 
-#bjj #position #turtle-attack #back-attack #advanced #control 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 45% of exchanges.

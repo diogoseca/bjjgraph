@@ -145,8 +145,6 @@ description: "Master systematic back escape protocols in BJJ. Learn hand fightin
 
 
 
-#bjj #principle #escape #back-control #defensive #survival #hand-fighting #position-recovery 
-
 > **Quick Answer**: Back Escape Series is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

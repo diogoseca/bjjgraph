@@ -137,8 +137,6 @@ description: "Master Keenan Cornelius Lapel Guard System in BJJ. Comprehensive f
 
 
 
-#bjj #system #lapel-guard #worm-guard #squid-guard #gi-strategy #keenan-cornelius #guard-retention #sweep-system 
-
 > **Quick Answer**: Keenan Cornelius Lapel Guard System is a advanced difficulty Guard System system. This systematic approach integrates 4 key components into a cohesive fighting framework.
 
 **System ID**: 

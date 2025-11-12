@@ -155,8 +155,6 @@ description: "Master Double Unders top position in BJJ. Dominant pressure passin
 
 
 
-#bjj #position #top #pressure-passing #guard-passing #double-unders #control #offensive 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 45% of exchanges.

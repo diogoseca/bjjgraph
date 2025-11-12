@@ -155,8 +155,6 @@ description: "Master Side Control Top in BJJ. Complete guide covering submission
 
 
 
-#side control top #bjj top game #control position #dominant position #submission platform #guard passing result 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 50% of exchanges.

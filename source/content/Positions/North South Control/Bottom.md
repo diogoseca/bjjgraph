@@ -155,8 +155,6 @@ description: "Defensive position requiring explosive bridging and precise timing
 
 
 
-#bottom #defensive #pinning-escape #north-south #intermediate 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 45% of the time with proper technique.

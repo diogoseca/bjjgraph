@@ -147,8 +147,6 @@ description: "Master the Switch to Triangle in BJJ. Safety protocols, guard setu
 
 
 
-#bjj #submission #triangle-choke #blood-choke #guard #transition 
-
 > **Quick Answer**: Switch to Triangle is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Neck strain or cervical spine compression - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

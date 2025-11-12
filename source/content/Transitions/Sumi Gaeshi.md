@@ -147,8 +147,6 @@ description: "Master Sumi Gaeshi sacrifice throw in BJJ. Learn proper entry, exe
 
 
 
-#bjj #judo #sacrifice throw #sweep #takedown #standing #guard #butterfly guard 
-
 > **Quick Answer**: Sumi Gaeshi transitions from [[Standing Position]] to [[Mount]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 

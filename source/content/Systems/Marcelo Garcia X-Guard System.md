@@ -143,8 +143,6 @@ description: "Master Marcelo Garcia's X-Guard System. Complete framework from en
 
 
 
-#bjj #system #x-guard #marcelo-garcia #sweeps #guard-system #competition 
-
 > **Quick Answer**: Marcelo Garcia X-Guard System is a advanced difficulty Guard System system. This systematic approach integrates 6 key components into a cohesive fighting framework.
 
 **System ID**: 

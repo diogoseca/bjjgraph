@@ -153,8 +153,6 @@ description: "Master Kosoto Gari (Minor Outer Reap) in BJJ. Step-by-step executi
 
 
 
-#bjj #judo #takedown #foot-sweep #standing #technique #ashi-waza 
-
 > **Quick Answer**: Kosoto Gari transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 

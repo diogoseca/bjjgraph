@@ -145,8 +145,6 @@ description: "Master grip fighting in BJJ. Learn strategic hand engagement, grip
 
 
 
-#bjj #principle #fundamental #control #strategy #grips #hand-fighting 
-
 > **Quick Answer**: Grip Fighting is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

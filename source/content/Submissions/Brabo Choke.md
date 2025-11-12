@@ -147,8 +147,6 @@ description: "Master the Brabo Choke in BJJ. Complete guide with safety protocol
 
 
 
-#bjj #submission #choke #blood-choke #front-headlock #darce-family #no-gi #gi #turtle-attack 
-
 > **Quick Answer**: Brabo Choke is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression causing loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

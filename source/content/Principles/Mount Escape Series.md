@@ -145,8 +145,6 @@ description: "Master systematic mount escape sequences in BJJ. Learn frame mecha
 
 
 
-#bjj #principle #fundamental #escape #mount #defensive #series #progression 
-
 > **Quick Answer**: Mount Escape Series is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

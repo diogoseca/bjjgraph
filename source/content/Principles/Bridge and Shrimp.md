@@ -145,8 +145,6 @@ description: "Master the foundational Bridge and Shrimp movements in BJJ. Learn 
 
 
 
-#bjj #principle #fundamental #escape #movement #defense #hip-mechanics 
-
 > **Quick Answer**: Bridge and Shrimp is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

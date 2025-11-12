@@ -155,8 +155,6 @@ description: "Master Triangle Escape from bottom position in BJJ. Complete guide
 
 
 
-#bjj #position #defensive #triangle-escape #bottom #guard #escape #survival 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 65% of the time with proper technique.

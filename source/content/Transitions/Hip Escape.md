@@ -147,8 +147,6 @@ description: "Master the Hip Escape (Shrimp) in BJJ. Essential defensive movemen
 
 
 
-#bjj #transition #defense #movement #escape #shrimp #fundamental 
-
 > **Quick Answer**: Hip Escape transitions from [[Side Control]] to [[Half Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 

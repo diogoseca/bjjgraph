@@ -147,8 +147,6 @@ description: "Master Kneebar Variations in BJJ. Complete guide covering entries 
 
 
 
-#bjj #submission #kneebar #leg-lock #joint-lock #ashi-garami #leg-entanglement 
-
 > **Quick Answer**: Kneebar Variations is a leg lock targeting the Knee joint (patellar ligaments, MCL, LCL, meniscus). ⚠️ **SAFETY**: This technique can cause MCL/LCL ligament tears - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

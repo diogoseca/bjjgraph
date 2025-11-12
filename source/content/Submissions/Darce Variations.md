@@ -147,8 +147,6 @@ description: "Master D'arce choke variations in BJJ. Complete guide covering set
 
 
 
-#bjj #submission #darce-choke #blood-choke #front-headlock #turtle-attacks #no-gi #advanced-techniques 
-
 > **Quick Answer**: Darce Variations is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

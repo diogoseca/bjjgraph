@@ -137,8 +137,6 @@ description: "Master standing defense with systematic framework for takedown pre
 
 
 
-#bjj #defense-system #standing-defense #takedown-defense #sprawl #wrestling #clinch-fighting #distance-management #grip-fighting #base-maintenance 
-
 > **Quick Answer**: Standing Defense Strategy is a intermediate difficulty Defense System system. This systematic approach integrates 4 key components into a cohesive fighting framework.
 
 **System ID**: 

@@ -147,8 +147,6 @@ description: "Master the Banana Split submission in BJJ. Complete guide covering
 
 
 
-#bjj #submission #leg-lock #groin-stretch #deep-half-guard #compression #10th-planet 
-
 > **Quick Answer**: Banana Split is a groin stretch targeting the Hip adductors, groin, and lower back. ⚠️ **SAFETY**: This technique can cause Groin muscle tear or strain - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

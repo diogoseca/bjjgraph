@@ -155,8 +155,6 @@ description: "Master Stoner Control Bottom in BJJ. Advanced 10th Planet control 
 
 
 
-#bjj #position #rubber-guard #10th-planet #stoner-control #offensive #no-gi #lockdown #half-guard 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 80% of the time with proper technique.

@@ -153,8 +153,6 @@ description: "Learn Transition to Omoplata in BJJ. Complete guide to entering om
 
 
 
-#bjj #transition #omoplata #guard #shoulder lock #sweep #submission setup 
-
 > **Quick Answer**: Transition to Omoplata transitions from [[Closed Guard]] to [[Omoplata Control]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
 

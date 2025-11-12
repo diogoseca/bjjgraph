@@ -155,8 +155,6 @@ description: "Master inverted guard from top perspective. Strategic passing appr
 
 
 
-#bjj #passing #pressure #top_game #guard_passing #modern 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 55% of exchanges.

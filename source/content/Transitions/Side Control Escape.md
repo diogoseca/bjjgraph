@@ -147,8 +147,6 @@ description: "Learn Side Control Escape in BJJ. Step-by-step execution from Side
 
 
 
-#bjj #transition #escape #defensive #fundamental #side-control #guard-recovery 
-
 > **Quick Answer**: Side Control Escape transitions from [[Side Control]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 

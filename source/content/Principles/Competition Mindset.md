@@ -145,8 +145,6 @@ description: "Master psychological preparation and mental skills for peak compet
 
 
 
-#bjj #principle #intermediate #mental-game #competition #psychology #performance #tactical-thinking #stress-management 
-
 > **Quick Answer**: Competition Mindset is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

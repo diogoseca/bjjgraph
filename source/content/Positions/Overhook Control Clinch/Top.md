@@ -155,8 +155,6 @@ description: "Master top overhook control clinch in BJJ. Dominant standing contr
 
 
 
-#bjj #position #clinch #overhook #standing #wrestling #control #top #takedown #dominant 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 50% of exchanges.

@@ -147,8 +147,6 @@ description: "Learn Darce Setup in BJJ. Step-by-step execution from Front Headlo
 
 
 
-#bjj #transition #submission_setup #front_headlock #choke #turtle #darce #no-gi 
-
 > **Quick Answer**: Darce Setup transitions from [[Front Headlock]] to [[D'arce Control]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.
 
 

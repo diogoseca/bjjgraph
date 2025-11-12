@@ -137,8 +137,6 @@ description: "Master the 10th Planet Rubber Guard System. Eddie Bravo's revoluti
 
 
 
-#bjj #system #rubber-guard #10th-planet #no-gi #guard-system #submission-chain #eddie-bravo 
-
 > **Quick Answer**: 10th Planet Rubber Guard System is a advanced difficulty Guard System system. This systematic approach integrates 6 key components into a cohesive fighting framework.
 
 **System ID**: 

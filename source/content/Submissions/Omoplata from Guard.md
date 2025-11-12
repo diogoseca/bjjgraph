@@ -153,8 +153,6 @@ description: "Master Omoplata from Guard in BJJ. Complete shoulder lock guide wi
 
 
 
-#bjj #submission #omoplata #shoulder-lock #guard #joint-lock #sweeps 
-
 > **Quick Answer**: Omoplata from Guard is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear or strain - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

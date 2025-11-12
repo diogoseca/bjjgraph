@@ -147,8 +147,6 @@ description: "Master the Reverse Armbar in BJJ. Complete guide with safety proto
 
 
 
-#bjj #submission #armbar #joint-lock #advanced-technique #reverse-mechanics #mount #guard #scramble 
-
 > **Quick Answer**: Reverse Armbar is a arm lock targeting the Elbow joint (hyperextension with reverse rotation). ⚠️ **SAFETY**: This technique can cause Elbow hyperextension with lateral stress - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

@@ -155,8 +155,6 @@ description: "Master escaping back control in BJJ. Learn defensive frames, hip e
 
 
 
-#bjj position defensive escape #back control bottom defensive strategy #brazilian jiu-jitsu back escape techniques 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 50% of the time with proper technique.

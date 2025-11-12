@@ -159,8 +159,6 @@ description: "Master the Foot Grab Sweep from open guard. Step-by-step execution
 
 
 
-#bjj #transition #sweep #open_guard #foot_control #intermediate #de_la_riva #butterfly_guard #seated_guard 
-
 > **Quick Answer**: Foot Grab Sweep transitions from [[Seated Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 

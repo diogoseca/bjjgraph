@@ -155,8 +155,6 @@ description: "Master Dead Orchard Control Top in BJJ. Advanced anaconda variatio
 
 
 
-#bjj #position #dead-orchard #anaconda #front-headlock #choke-control #top-position #10th-planet #submission-control 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 70% of exchanges.

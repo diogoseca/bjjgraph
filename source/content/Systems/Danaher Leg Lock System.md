@@ -149,8 +149,6 @@ description: "Master the Danaher Leg Lock System. Systematic framework for ashi-
 
 
 
-#bjj #system #leg-locks #danaher #ashi-garami #heel-hook #submission-chain #advanced 
-
 > **Quick Answer**: Danaher Leg Lock System is a advanced difficulty Submission Chain system. This systematic approach integrates 4 key components into a cohesive fighting framework.
 
 **System ID**: 

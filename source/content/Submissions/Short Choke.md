@@ -153,8 +153,6 @@ description: "Master the Short Choke in BJJ. Devastating lapel strangle from top
 
 
 
-#bjj #submission #choke #gi #lapel-choke #blood-choke #top-position 
-
 > **Quick Answer**: Short Choke is a blood choke targeting the Carotid arteries. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

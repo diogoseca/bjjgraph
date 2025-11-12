@@ -155,8 +155,6 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
 
 
 
-#bjj #position #knee-on-belly #top-position #pressure #control #dominant #intermediate 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 55% of exchanges.

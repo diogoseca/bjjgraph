@@ -145,8 +145,6 @@ description: "Master Speed Passing in BJJ. Learn rapid guard passing through exp
 
 
 
-#bjj #principle #guard passing #speed #pressure #timing #footwork #explosiveness #competition #no-gi 
-
 > **Quick Answer**: Speed Passing is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Intermediate to Advanced.
 
 **Principle ID**: 

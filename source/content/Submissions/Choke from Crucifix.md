@@ -147,8 +147,6 @@ description: "Master Choke from Crucifix in BJJ. Complete guide with safety prot
 
 
 
-#bjj #submission #choke #crucifix #blood-choke #back-control #arm-trap 
-
 > **Quick Answer**: Choke from Crucifix is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

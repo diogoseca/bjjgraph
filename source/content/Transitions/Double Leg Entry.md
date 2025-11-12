@@ -147,8 +147,6 @@ description: "Learn Double Leg Entry in BJJ. Step-by-step execution from standin
 
 
 
-#bjj #transition #takedown #wrestling #setup #standing #entry 
-
 > **Quick Answer**: Double Leg Entry transitions from [[Standing Position]] to [[Front Headlock]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 

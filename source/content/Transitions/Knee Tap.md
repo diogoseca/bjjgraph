@@ -147,8 +147,6 @@ description: "Master the Knee Tap takedown in BJJ. Wrestling-based technique fro
 
 
 
-#bjj #takedown #wrestling #technique #standing #beginner-friendly 
-
 > **Quick Answer**: Knee Tap transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 

@@ -147,8 +147,6 @@ description: "Master the Russian Tie to Back Take in BJJ. Step-by-step execution
 
 
 
-#bjj #technique #back-take #wrestling #standing #control 
-
 > **Quick Answer**: Russian Tie to Back Take transitions from [[Standing Position]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
 
 

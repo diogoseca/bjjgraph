@@ -147,8 +147,6 @@ description: "Master the Turtle to Back Control transition in BJJ. Essential bac
 
 
 
-#bjj #back-take #turtle #transition #back-control #pinning 
-
 > **Quick Answer**: Turtle to Back Control transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
 
 

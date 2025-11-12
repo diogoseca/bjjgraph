@@ -155,8 +155,6 @@ description: "Attack from Buggy Choke position. Complete offensive guide coverin
 
 
 
-#bjj #offense #turtle-attack #buggy-choke #submission #control 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 80% of exchanges.

@@ -145,8 +145,6 @@ description: "Master match preparation in BJJ. Learn systematic preparation prot
 
 
 
-#bjj #principle #intermediate #competition #preparation #strategy #mental game #physical peaking #tactical planning #periodization 
-
 > **Quick Answer**: Match Preparation is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

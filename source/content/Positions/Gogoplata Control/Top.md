@@ -155,8 +155,6 @@ description: "Master defending and escaping gogoplata control from top position 
 
 
 
-#defensive technique #gogoplata defense #escape mechanics #guard passing #submission defense #posture recovery #advanced defense 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 20% of exchanges.

@@ -155,8 +155,6 @@ description: "Escape front headlock control in BJJ. Defensive strategies for avo
 
 
 
-#defensive #escape #front-headlock #intermediate #turtle-escape #head-control-defense 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 55% of the time with proper technique.

@@ -147,8 +147,6 @@ description: "Master Armbar from Back with Legs in BJJ. Complete guide with safe
 
 
 
-#bjj #submission #armbar #joint-lock #back-control #arm-lock #leg-configuration 
-
 > **Quick Answer**: Armbar from Back with Legs is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension or dislocation - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

@@ -145,8 +145,6 @@ description: "Master systematic escape prioritization in BJJ. Learn to assess po
 
 
 
-#bjj #principle #intermediate #escapes #hierarchy #defensive strategy #position transitions #energy management 
-
 > **Quick Answer**: Escape Hierarchy is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

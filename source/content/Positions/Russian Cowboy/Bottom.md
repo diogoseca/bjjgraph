@@ -155,8 +155,6 @@ description: "Defensive guide to escaping Russian Cowboy position. Learn surviva
 
 
 
-#bjj #defense #back_escape #russian_cowboy #escape_techniques 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 60% of the time with proper technique.

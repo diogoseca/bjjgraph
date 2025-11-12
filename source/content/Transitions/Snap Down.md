@@ -147,8 +147,6 @@ description: "Master the Snap Down in BJJ. Control opponent's posture from stand
 
 
 
-#bjj #technique #takedown #wrestling #standing #clinch #front-headlock #posture-control 
-
 > **Quick Answer**: Snap Down transitions from [[Standing Position]] to [[Front Headlock]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 

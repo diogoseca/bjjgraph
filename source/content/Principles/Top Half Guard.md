@@ -145,8 +145,6 @@ description: "Master Top Half Guard control in BJJ. Learn pressure distribution,
 
 
 
-#bjj #principle #position #control #passing #half-guard #pressure #top-position 
-
 > **Quick Answer**: Top Half Guard is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

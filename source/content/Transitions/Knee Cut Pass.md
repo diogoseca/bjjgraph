@@ -153,8 +153,6 @@ description: "Master the Knee Cut Pass in BJJ. Complete guide from Open Guard to
 
 
 
-#bjj #guard-passing #technique #pressure-passing #side-control #open-guard #intermediate 
-
 > **Quick Answer**: Knee Cut Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 

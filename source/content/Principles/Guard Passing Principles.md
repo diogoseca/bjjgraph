@@ -145,8 +145,6 @@ description: "Master guard passing fundamentals in BJJ. Learn systematic framewo
 
 
 
-#bjj #principle #intermediate #offense #passing #top-game #control #progression 
-
 > **Quick Answer**: Guard Passing Principles is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

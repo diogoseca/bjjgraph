@@ -147,8 +147,6 @@ description: "Master Anaconda choke variations in BJJ. Complete guide covering a
 
 
 
-#bjj #submission #anaconda-choke #blood-choke #front-headlock #turtle-attack #no-gi #variations 
-
 > **Quick Answer**: Anaconda Variations is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression causing unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

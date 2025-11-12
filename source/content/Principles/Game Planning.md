@@ -145,8 +145,6 @@ description: "Master strategic game planning in BJJ. Learn pre-match preparation
 
 
 
-#bjj #principle #strategy #competition #planning #advanced #mental-game #match-preparation #tactical-approach #opponent-analysis 
-
 > **Quick Answer**: Game Planning is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Intermediate to Expert.
 
 **Principle ID**: 

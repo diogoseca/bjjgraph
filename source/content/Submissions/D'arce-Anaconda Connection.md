@@ -153,8 +153,6 @@ description: "Master the D'arce-Anaconda connection in BJJ. Learn seamless trans
 
 
 
-#bjj #submission #choke #front-headlock #darce #anaconda #submission-chain #blood-choke #no-gi 
-
 > **Quick Answer**: D'arce-Anaconda Connection is a blood choke chain targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression causing unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

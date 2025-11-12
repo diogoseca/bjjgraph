@@ -159,8 +159,6 @@ description: "Master the X-Guard to Ashi Garami transition in BJJ. Strategic leg
 
 
 
-#bjj #transition #leg-entanglement #x-guard #ashi-garami #no-gi #advanced 
-
 > **Quick Answer**: X-Guard to Ashi Transition transitions from [[X-Guard]] to [[Inside Ashi-Garami]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 

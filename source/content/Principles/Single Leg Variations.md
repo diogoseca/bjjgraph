@@ -145,8 +145,6 @@ description: "Master Single Leg Variations in BJJ - comprehensive guide to high 
 
 
 
-#bjj #principle #takedowns #single-leg #wrestling #entries #finishing #variations #base-disruption #angle-creation 
-
 > **Quick Answer**: Single Leg Variations is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

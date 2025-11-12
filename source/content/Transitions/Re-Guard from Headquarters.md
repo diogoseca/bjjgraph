@@ -147,8 +147,6 @@ description: "Master re-guard recovery from Headquarters position. Learn systema
 
 
 
-#bjj #technique #guard-recovery #defensive #headquarters #escape #re-guard #guard-retention 
-
 > **Quick Answer**: Re-Guard from Headquarters transitions from [[Headquarters Position]] to [[Guard Recovery]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 

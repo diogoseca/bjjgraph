@@ -145,8 +145,6 @@ description: "Master energy conservation in BJJ. Learn strategic resource manage
 
 
 
-#bjj #principle #energy management #efficiency #strategy 
-
 > **Quick Answer**: Energy Conservation is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

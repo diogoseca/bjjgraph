@@ -155,8 +155,6 @@ description: "Master Aoki Lock top position in BJJ. Advanced submission control 
 
 
 
-#bjj #position #aoki-lock #top #submission-control #shoulder-lock #advanced 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 75% of exchanges.

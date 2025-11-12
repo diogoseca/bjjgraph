@@ -147,8 +147,6 @@ description: "Master the Calf Slicer from 50-50 Guard in BJJ. Complete safety gu
 
 
 
-#bjj #submission #leg-lock #calf-slicer #50-50-guard #compression #leg-entanglement #advanced-technique 
-
 > **Quick Answer**: Calf Slicer from 50-50 is a leg compression lock targeting the Calf muscle, Achilles tendon, knee joint. ⚠️ **SAFETY**: This technique can cause Calf muscle tear or rupture (gastrocnemius/soleus) - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

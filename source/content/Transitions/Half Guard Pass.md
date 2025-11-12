@@ -147,8 +147,6 @@ description: "Master the Half Guard Pass in BJJ. Systematic approach from Half G
 
 
 
-#bjj #transition #guard_pass #half_guard #fundamental #pressure_passing #top_position 
-
 > **Quick Answer**: Half Guard Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 40%, Intermediate 60%, Advanced 80%.
 
 

@@ -147,8 +147,6 @@ description: "Master the Kneebar from Half Guard in BJJ. Complete guide covering
 
 
 
-#bjj #submission #leg-lock #kneebar #half-guard #joint-lock 
-
 > **Quick Answer**: Kneebar from Half Guard is a leg lock targeting the Knee joint and posterior cruciate ligament. ⚠️ **SAFETY**: This technique can cause Posterior cruciate ligament (PCL) tear - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

@@ -153,8 +153,6 @@ description: "Master Kimura from Turtle in BJJ. Complete guide with safety proto
 
 
 
-#bjj #submission #kimura #joint-lock #turtle #shoulder-lock #top-control 
-
 > **Quick Answer**: Kimura from Turtle is a shoulder lock targeting the Shoulder joint, rotator cuff, and associated ligaments. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

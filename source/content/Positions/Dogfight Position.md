@@ -175,8 +175,6 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
 
 
 
-#bjj #position #half-guard #dogfight #dynamic #sweeps #back-take #neutral #scramble 
-
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
 >
 > **Quick Stats**: Advanced practitioners advance to better positions 70% of the time with proper technique.

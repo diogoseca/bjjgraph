@@ -147,8 +147,6 @@ description: "Master the Rolling Armbar in BJJ. Dynamic submission from guard an
 
 
 
-#bjj #submission #armbar #joint-lock #guard #dynamic-technique #rolling #scramble 
-
 > **Quick Answer**: Rolling Armbar is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension or dislocation - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

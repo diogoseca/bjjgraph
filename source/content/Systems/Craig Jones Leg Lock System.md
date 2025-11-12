@@ -151,8 +151,6 @@ description: "Master Craig Jones Leg Lock System in BJJ. High-percentage leg att
 
 
 
-#bjj #system #leg-locks #submission-chain #craig-jones #no-gi #ashi-garami #saddle #heel-hook 
-
 > **Quick Answer**: Craig Jones Leg Lock System is a advanced difficulty Attack System system. This systematic approach integrates 6 key components into a cohesive fighting framework.
 
 **System ID**: 

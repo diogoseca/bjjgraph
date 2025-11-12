@@ -153,8 +153,6 @@ description: "Learn Front Headlock to Anaconda in BJJ. Step-by-step execution fr
 
 
 
-#bjj #transition #submission #anaconda #front_headlock #choke #turtle #offensive 
-
 > **Quick Answer**: Front Headlock to Anaconda transitions from [[Front Headlock]] to [[Anaconda Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 68%.
 
 

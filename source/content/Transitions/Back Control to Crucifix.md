@@ -147,8 +147,6 @@ description: "Learn Back Control to Crucifix in BJJ. Step-by-step execution from
 
 
 
-#bjj #transition #back-control #crucifix #back-attack #position-advancement #submission-setup #control-progression 
-
 > **Quick Answer**: Back Control to Crucifix transitions from [[Back Control]] to [[Crucifix]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 

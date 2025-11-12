@@ -155,8 +155,6 @@ description: "Master bottom gogoplata control mechanics including shin positioni
 
 
 
-#submission control #rubber guard #advanced technique #flexibility required #guard attacks #no-gi effective #specialist position 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 75% of the time with proper technique.

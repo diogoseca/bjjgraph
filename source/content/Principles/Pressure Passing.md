@@ -145,8 +145,6 @@ description: "Master pressure passing fundamentals in BJJ. Learn weight distribu
 
 
 
-#bjj #principle #intermediate #passing #pressure #guard-passing #top-control #weight-distribution 
-
 > **Quick Answer**: Pressure Passing is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

@@ -153,8 +153,6 @@ description: "Master the Arm Drag to Back technique in BJJ. Complete guide cover
 
 
 
-#bjj #technique #back-take #arm-drag #control #wrestling #position-advancement 
-
 > **Quick Answer**: Arm Drag to Back transitions from [[Butterfly Guard]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 

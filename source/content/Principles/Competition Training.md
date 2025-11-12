@@ -145,8 +145,6 @@ description: "Master competition training in BJJ. Learn periodization, game plan
 
 
 
-#bjj #principle #competition #training #preparation #periodization #mental game #strategy 
-
 > **Quick Answer**: Competition Training is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

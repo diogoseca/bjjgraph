@@ -155,8 +155,6 @@ description: "Master offensive control from Anaconda Control Top position. Learn
 
 
 
-#bjj #position #anaconda-control #top #offensive #submission-control 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 80% of exchanges.

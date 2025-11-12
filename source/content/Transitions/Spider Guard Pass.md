@@ -147,8 +147,6 @@ description: "Master Spider Guard Pass techniques in BJJ. Complete guide with gr
 
 
 
-#bjj #guard passing #spider guard #pressure passing #grip fighting #open guard pass 
-
 > **Quick Answer**: Spider Guard Pass transitions from [[Spider Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 

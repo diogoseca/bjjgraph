@@ -147,8 +147,6 @@ description: "Master the Arm Triangle choke in BJJ. Setup from side control, exe
 
 
 
-#bjj #submission #choke #arm-triangle #side-control #kata-gatame #blood-choke 
-
 > **Quick Answer**: Arm Triangle is a blood choke targeting the Carotid arteries (compressed by opponent's own shoulder and your arm). ⚠️ **SAFETY**: This technique can cause Loss of consciousness from blood choke - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

@@ -145,8 +145,6 @@ description: "Master biomechanical principles in BJJ. Learn leverage optimizatio
 
 
 
-#bjj #biomechanics #physics #concepts #mechanics #leverage #force-application 
-
 > **Quick Answer**: Biomechanical Principles is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

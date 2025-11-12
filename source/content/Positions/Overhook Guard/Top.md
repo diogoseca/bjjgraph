@@ -155,8 +155,6 @@ description: "Master Overhook Guard Top position in BJJ. Control opponent's arm 
 
 
 
-#bjj #position #guard-top #overhook #control #passing 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 78% of the time and finish submissions in 35% of exchanges.

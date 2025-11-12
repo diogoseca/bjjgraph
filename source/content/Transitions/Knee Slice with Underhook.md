@@ -147,8 +147,6 @@ description: "Master the Knee Slice with Underhook pass in BJJ. High-percentage 
 
 
 
-#bjj #guard passing #half guard pass #pressure passing #underhook control #knee slice 
-
 > **Quick Answer**: Knee Slice with Underhook transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 

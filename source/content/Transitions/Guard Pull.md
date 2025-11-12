@@ -147,8 +147,6 @@ description: "Master the Guard Pull transition in BJJ. Complete guide from stand
 
 
 
-#bjj #transition #guard #takedown-defense #guard-entry #competition #grip-fighting #standing 
-
 > **Quick Answer**: Guard Pull transitions from [[Standing Position]] to [[Closed Guard]]. Success rates: Beginner 65%, Intermediate 75%, Advanced 85%.
 
 

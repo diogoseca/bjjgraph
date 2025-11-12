@@ -143,8 +143,6 @@ description: "Master Bernardo Faria's legendary pressure passing system. Learn s
 
 
 
-#bjj #system #pressure-passing #top-game #guard-passing #competition-strategy #gi-specialist #control-system 
-
 > **Quick Answer**: Bernardo Faria Pressure System is a intermediate difficulty Passing System system. This systematic approach integrates 5 key components into a cohesive fighting framework.
 
 **System ID**: 

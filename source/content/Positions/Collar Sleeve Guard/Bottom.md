@@ -155,8 +155,6 @@ description: "Control opponent with cross-collar and sleeve grips. Learn sweep m
 
 
 
-#Guard #Open Guard #Collar Sleeve #Sweeps #Triangles #Intermediate 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.

@@ -129,8 +129,6 @@ description: "Master the Berimbolo system in BJJ. Revolutionary guard retention 
 
 
 
-#bjj #system #berimbolo #back-take #inversion #guard-retention #de-la-riva #x-guard #competition 
-
 > **Quick Answer**: Berimbolo is a advanced difficulty Attack System system. This systematic approach integrates 4 key components into a cohesive fighting framework.
 
 **System ID**: 

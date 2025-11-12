@@ -155,8 +155,6 @@ description: "Defensive concepts and escape strategies from Gift Wrap bottom pos
 
 
 
-#Position #Back Control #Defensive #Escape Sequence #Arm Recovery #High Risk 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 45% of the time with proper technique.

@@ -137,8 +137,6 @@ description: "Master defensive leg lock strategies from ADCC champion Lachlan Gi
 
 
 
-#bjj #defense-system #leg-locks #lachlan-giles #ashi-garami #heel-hook-defense #no-gi 
-
 > **Quick Answer**: Lachlan Giles Leg Lock Defense Framework is a advanced difficulty Defense System system. This systematic approach integrates 5 key components into a cohesive fighting framework.
 
 **System ID**: 

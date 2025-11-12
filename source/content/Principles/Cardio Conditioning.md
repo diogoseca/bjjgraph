@@ -145,8 +145,6 @@ description: "Master cardiovascular conditioning for BJJ. Learn energy system de
 
 
 
-#bjj #principle #fundamental #conditioning #endurance #energy systems #performance #training methodology 
-
 > **Quick Answer**: Cardio Conditioning is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

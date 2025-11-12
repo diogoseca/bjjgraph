@@ -155,8 +155,6 @@ description: "Master Crackhead Control Bottom in BJJ. Eddie Bravo's innovative t
 
 
 
-#bjj #position #turtle #bottom #defensive #10th-planet #eddie-bravo #crackhead-control #guard-recovery #scramble 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 55% of the time with proper technique.

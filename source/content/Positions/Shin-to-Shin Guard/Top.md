@@ -155,8 +155,6 @@ description: "Master passing Shin-to-Shin Guard from top perspective. Learn clea
 
 
 
-#shin-to-shin guard #guard passing #guard top #open guard passing #leg clearing #pressure passing #distance management 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 78% of the time and finish submissions in 50% of exchanges.

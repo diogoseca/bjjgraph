@@ -147,8 +147,6 @@ description: "Master the Crotch Ripper leg lock in BJJ. Groin compression submis
 
 
 
-#bjj #submission #leg-lock #compression #lockdown #10th-planet #eddie-bravo #half-guard 
-
 > **Quick Answer**: Crotch Ripper is a groin compression targeting the Hip flexors, groin muscles, and inner thigh adductors. ⚠️ **SAFETY**: This technique can cause Groin strain or muscle tear - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

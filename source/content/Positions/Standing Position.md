@@ -175,8 +175,6 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
 
 
 
-#bjj #position #standing #neutral #takedowns #grip-fighting 
-
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
 >
 > **Quick Stats**: Advanced practitioners advance to better positions 75% of the time with proper technique.

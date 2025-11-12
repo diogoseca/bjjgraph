@@ -153,8 +153,6 @@ description: "Master the Kimura from Standing in BJJ. Complete safety guide with
 
 
 
-#bjj #submission #kimura #shoulder-lock #standing #joint-lock #takedown-finish 
-
 > **Quick Answer**: Kimura from Standing is a shoulder lock targeting the Shoulder joint, rotator cuff, and posterior shoulder capsule. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus tendons) - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

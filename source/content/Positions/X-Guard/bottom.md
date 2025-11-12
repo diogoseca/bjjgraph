@@ -155,8 +155,6 @@ description: "Master X-Guard Bottom in BJJ. Comprehensive guide covering sweeps,
 
 
 
-#bjj position x-guard bottom #x-guard sweeps technique #open guard leg entanglement 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.

@@ -147,8 +147,6 @@ description: "Master the North-South transition in BJJ. Control technique from S
 
 
 
-#bjj #transition #north-south #side-control #pinning #control #positional-advancement 
-
 > **Quick Answer**: Transition to North-South transitions from [[Side Control]] to [[North-South]]. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.
 
 

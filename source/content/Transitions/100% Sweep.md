@@ -159,8 +159,6 @@ description: "Master the 100% Sweep from closed guard. Complete guide covering a
 
 
 
-#bjj #transition #sweep #closed_guard #advanced #arm_trap #limb_isolation 
-
 > **Quick Answer**: 100% Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 20%, Intermediate 40%, Advanced 60%.
 
 

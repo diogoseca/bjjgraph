@@ -145,8 +145,6 @@ description: "Master System Building in BJJ. Learn to develop interconnected tec
 
 
 
-#bjj #principle #strategy #systems #game-planning #methodology #framework 
-
 > **Quick Answer**: System Building is a high complexity BJJ principle applicable at the Intermediate level. Master this principle in Intermediate to Expert.
 
 **Principle ID**: 

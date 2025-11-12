@@ -155,8 +155,6 @@ description: "Master Half Guard Bottom with comprehensive sweeps, submissions, a
 
 
 
-#bjj position half guard bottom #half guard bottom sweeps #guard retention half guard #sweeps from half guard bottom #defensive position half guard #underhook control half guard #modern guard system half guard 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 65% of the time with proper technique.

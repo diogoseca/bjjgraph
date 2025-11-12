@@ -151,8 +151,6 @@ description: "Master Ryan Hall's Triangle System. Comprehensive framework connec
 
 
 
-#bjj #system #triangle #submission-chain #ryan-hall #closed-guard #armbar #omoplata 
-
 > **Quick Answer**: Ryan Hall Triangle System is a advanced difficulty Submission Chain system. This systematic approach integrates 6 key components into a cohesive fighting framework.
 
 **System ID**: 

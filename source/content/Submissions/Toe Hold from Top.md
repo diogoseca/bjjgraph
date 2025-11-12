@@ -153,8 +153,6 @@ description: "Master Toe Hold from Top in BJJ. Complete guide with safety protoc
 
 
 
-#bjj #submission #toe-hold #leg-lock #foot-lock #ashi-garami #top-position 
-
 > **Quick Answer**: Toe Hold from Top is a leg lock targeting the Ankle and knee ligaments (lateral ankle complex, medial collateral ligament). ⚠️ **SAFETY**: This technique can cause Ankle ligament tears (lateral collateral ligament complex) - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

@@ -147,8 +147,6 @@ description: "Master the Waiter Sweep from Butterfly Guard in BJJ. High-percenta
 
 
 
-#bjj #sweep #butterfly-guard #technique #fundamentals #guard-bottom #off-balancing 
-
 > **Quick Answer**: Waiter Sweep transitions from [[Butterfly Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 

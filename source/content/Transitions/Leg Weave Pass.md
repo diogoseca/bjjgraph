@@ -145,8 +145,6 @@ description: "Master the Leg Weave Pass in BJJ. Step-by-step pressure passing fr
 
 
 
-#bjj #transition #guard_pass #pressure #half_guard #leg_weave #side_control 
-
 > **Quick Answer**: Leg Weave Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 

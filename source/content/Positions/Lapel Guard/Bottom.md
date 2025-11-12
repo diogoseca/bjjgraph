@@ -155,8 +155,6 @@ description: "Control opponents with innovative lapel grips and configurations. 
 
 
 
-#guard #lapel-guard #open-guard #gi-specific #technical #modern-bjj 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 75% of the time with proper technique.

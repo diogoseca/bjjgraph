@@ -147,8 +147,6 @@ description: "Learn Crossface Pass in BJJ. Step-by-step execution from half guar
 
 
 
-#bjj #transition #pass #guard-passing #side-control #fundamental #half-guard #pressure-passing 
-
 > **Quick Answer**: Crossface Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 

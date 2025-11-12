@@ -147,8 +147,6 @@ description: "Master the Shin to Shin Pull in BJJ. Step-by-step execution from S
 
 
 
-#bjj #technique #guard pull #shin to shin #guard establishment #seated guard #single leg x #sweep setup 
-
 > **Quick Answer**: Shin to Shin Pull transitions from [[Standing Position]] to [[Shin-to-Shin Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 

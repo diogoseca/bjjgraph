@@ -155,8 +155,6 @@ description: "Master Piranha Guard Top in BJJ. Complete guide covering passing s
 
 
 
-#bjj #position #guard-passing #top-position #piranha-guard #pressure-passing #gi #advanced 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 15% of exchanges.

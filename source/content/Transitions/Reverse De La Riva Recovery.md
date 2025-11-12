@@ -147,8 +147,6 @@ description: "Master Reverse De La Riva Recovery in BJJ. Learn how to re-establi
 
 
 
-#bjj #guard-recovery #reverse-de-la-riva #defensive-transition #guard-retention 
-
 > **Quick Answer**: Reverse De La Riva Recovery transitions from [[Reverse De La Riva Guard]] to [[Reverse De La Riva Guard]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 

@@ -145,8 +145,6 @@ description: "Master Flow Rolling in BJJ. Learn cooperative training principles,
 
 
 
-#bjj #principle #training-methodology #flow-rolling #cooperative-training #skill-development #movement-exploration 
-
 > **Quick Answer**: Flow Rolling is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

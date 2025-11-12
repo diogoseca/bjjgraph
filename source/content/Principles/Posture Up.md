@@ -145,8 +145,6 @@ description: "Master postural recovery in BJJ guard positions. Learn systematic 
 
 
 
-#bjj #concept #fundamental #posture #guard #defense #passing 
-
 > **Quick Answer**: Posture Up is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

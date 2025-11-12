@@ -155,8 +155,6 @@ description: "Master Leg Knot Top in BJJ. Advanced leg entanglement control with
 
 
 
-#bjj #position #leg-entanglement #top-position #leg-knot #advanced #leg-locks #submission-position 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 70% of exchanges.

@@ -145,8 +145,6 @@ description: "Master Frame Creation in BJJ. Learn skeletal alignment, force dist
 
 
 
-#bjj #principle #defense #structure #fundamental #frames #escape #space-creation 
-
 > **Quick Answer**: Frame Creation is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

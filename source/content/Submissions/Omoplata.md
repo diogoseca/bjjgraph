@@ -147,8 +147,6 @@ description: "Master the Omoplata shoulder lock in BJJ. Complete guide covering 
 
 
 
-#bjj #submission #shoulder-lock #joint-lock #omoplata #guard #sweep 
-
 > **Quick Answer**: Omoplata is a shoulder lock targeting the Shoulder joint (rotator cuff, capsule, AC joint). ⚠️ **SAFETY**: This technique can cause Rotator cuff tear or strain - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

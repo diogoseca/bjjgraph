@@ -153,8 +153,6 @@ description: "Master the Matrix Back Take from turtle. Step-by-step execution wi
 
 
 
-#bjj #technique #back-take #turtle #transition #advanced 
-
 > **Quick Answer**: Matrix Back Take transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 

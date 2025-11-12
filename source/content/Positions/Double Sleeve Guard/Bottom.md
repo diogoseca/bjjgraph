@@ -155,8 +155,6 @@ description: "Master Double Sleeve Guard Bottom in BJJ. Control-focused open gua
 
 
 
-#bjj #position #open-guard #guard-bottom #sleeve-control #gi-guard #sweeps 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 60% of the time with proper technique.

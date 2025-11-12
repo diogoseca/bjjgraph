@@ -145,8 +145,6 @@ description: "Master sprawl defense mechanics in Brazilian Jiu-Jitsu. Learn take
 
 
 
-#bjj #principle #takedown-defense #wrestling #sprawl #defensive-strategy #counter-offense #front-headlock 
-
 > **Quick Answer**: Sprawl Defense is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

@@ -163,8 +163,6 @@ description: "Terminal state in BJJ where practitioner successfully forces oppon
 
 
 
-#bjj #submission #terminal-state #victory #finish #tap-protocol #safety 
-
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
 >
 > **Quick Stats**: Advanced practitioners advance to better positions 0% of the time with proper technique.

@@ -155,8 +155,6 @@ description: "Master Leg Hook Bottom in BJJ. Transitional half guard control wit
 
 
 
-#bjj #position #half-guard #bottom #leg-hook #defensive #transitional 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 65% of the time with proper technique.

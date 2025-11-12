@@ -155,8 +155,6 @@ description: "Defend against Stoner Control from top position in BJJ. Complete g
 
 
 
-#bjj #position #defense #top-position #rubber-guard-defense #lockdown-defense #10th-planet #guard-passing 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 65% of the time and finish submissions in 40% of exchanges.

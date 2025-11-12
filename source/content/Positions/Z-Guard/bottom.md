@@ -155,8 +155,6 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
 
 
 
-#bjj #position #z-guard #half-guard #bottom #defensive #knee-shield 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 65% of the time with proper technique.

@@ -155,8 +155,6 @@ description: "Learn defensive awareness and tap protocols to prevent injury when
 
 
 
-#defensive #submission defense #safety #tap protocol #injury prevention 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 0% of the time with proper technique.

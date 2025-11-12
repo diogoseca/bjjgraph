@@ -147,8 +147,6 @@ description: "Master the Baratoplata submission in BJJ. Innovative shoulder lock
 
 
 
-#bjj #submission #shoulder-lock #rubber-guard #10th-planet #advanced-technique #joint-lock 
-
 > **Quick Answer**: Baratoplata is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear or strain - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

@@ -155,8 +155,6 @@ description: "Master Shin-to-Shin Guard from bottom perspective. Learn shin conn
 
 
 
-#shin-to-shin guard #open guard #guard bottom #leg entanglement entry #sweep mechanics #x-guard entry #single leg x entry 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.

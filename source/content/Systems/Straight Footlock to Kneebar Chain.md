@@ -145,8 +145,6 @@ description: "Master the fundamental leg lock chain connecting straight ankle lo
 
 
 
-#bjj #leg-locks #submission-chain #footlock #kneebar #ashi-garami #danaher-system #no-gi #advanced 
-
 > **Quick Answer**: Straight Footlock to Kneebar Chain is a advanced difficulty Submission Chain system. This systematic approach integrates 5 key components into a cohesive fighting framework.
 
 **System ID**: 

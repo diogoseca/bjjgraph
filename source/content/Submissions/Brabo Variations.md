@@ -153,8 +153,6 @@ description: "Master Brabo Choke variations in BJJ. Complete guide covering no-g
 
 
 
-#bjj #submission #choke #brabo #darce #blood-choke #no-gi #front-headlock #turtle-attacks 
-
 > **Quick Answer**: Brabo Variations is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

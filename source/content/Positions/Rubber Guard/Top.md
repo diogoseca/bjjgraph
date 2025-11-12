@@ -155,8 +155,6 @@ description: "Defend against Rubber Guard from top position with systematic esca
 
 
 
-#bjj position #rubber guard defense #guard top defense #escape technique #posture recovery #submission defense #10th planet defense 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 65% of the time and finish submissions in 15% of exchanges.

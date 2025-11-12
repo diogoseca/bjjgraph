@@ -147,8 +147,6 @@ description: "Master Ezekiel Choke variations in BJJ. Complete guide with safety
 
 
 
-#bjj #submission #ezekiel-choke #gi-choke #blood-choke #variations #mount #side-control #closed-guard 
-
 > **Quick Answer**: Ezekiel Variations is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

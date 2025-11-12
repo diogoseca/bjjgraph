@@ -153,8 +153,6 @@ description: "Master the Granby Roll escape technique in BJJ. Essential defensiv
 
 
 
-#bjj #transition #defense #movement #escape #turtle #guard recovery #inversion 
-
 > **Quick Answer**: Granby Roll transitions from [[Turtle]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 

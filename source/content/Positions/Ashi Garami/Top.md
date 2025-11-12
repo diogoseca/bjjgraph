@@ -155,8 +155,6 @@ description: "Master defensive strategies against Ashi Garami leg entanglements 
 
 
 
-#leg lock defense system top position defensive strategy #top position defense against entanglements leg lock escape #counter-attack methodology defensive system competitive defense 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 35% of exchanges.

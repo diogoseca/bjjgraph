@@ -153,8 +153,6 @@ description: "Master the Ezekiel Choke from Mount with comprehensive safety prot
 
 
 
-#bjj #submission #ezekiel-choke #gi-choke #mount #blood-choke #sleeve-choke 
-
 > **Quick Answer**: Ezekiel from Mount is a blood choke targeting the Carotid arteries and windpipe. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

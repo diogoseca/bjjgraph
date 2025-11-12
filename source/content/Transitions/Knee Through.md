@@ -147,8 +147,6 @@ description: "Master the Knee Through pass in BJJ. Systematic half guard passing
 
 
 
-#bjj #guard passing #half guard #pressure passing #knee through #top position 
-
 > **Quick Answer**: Knee Through transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 

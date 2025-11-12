@@ -145,8 +145,6 @@ description: "Master flexibility development for BJJ. Learn progressive protocol
 
 
 
-#bjj #principle #fundamental #flexibility #mobility #physical conditioning #injury prevention #hip mobility #range of motion 
-
 > **Quick Answer**: Flexibility Training is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

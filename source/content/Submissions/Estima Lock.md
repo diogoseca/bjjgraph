@@ -153,8 +153,6 @@ description: "Master Estima Lock foot submission with safety protocols, setup fr
 
 
 
-#bjj #submission #leg-lock #foot-lock #estima-lock #50-50-guard #toe-hold-variant 
-
 > **Quick Answer**: Estima Lock is a leg lock targeting the Foot and ankle joints (dorsiflexion of foot). ⚠️ **SAFETY**: This technique can cause Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments) - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

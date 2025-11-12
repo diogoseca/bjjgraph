@@ -155,8 +155,6 @@ description: "Offensive guillotine variation from top position using body weight
 
 
 
-#bjj #position #top #guillotine-variation #submission-control #front-headlock #no-gi #advanced-technique #head-control 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 75% of exchanges.

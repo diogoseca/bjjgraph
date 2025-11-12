@@ -155,8 +155,6 @@ description: "Master top kneebar control in BJJ. Complete technical guide coveri
 
 
 
-#leg locks #submissions #top position #kneebar #passing #pressure #no-gi #advanced 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 55% of exchanges.

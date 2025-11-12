@@ -145,8 +145,6 @@ description: "Master timing and rhythm in BJJ. Learn to read opponent reactions,
 
 
 
-#bjj #principle #timing #rhythm #reaction-time #momentum #coordination 
-
 > **Quick Answer**: Timing and Rhythm is a high complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Expert.
 
 **Principle ID**: 

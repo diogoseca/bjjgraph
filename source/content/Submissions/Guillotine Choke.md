@@ -147,8 +147,6 @@ description: "Master the Guillotine Choke in BJJ with step-by-step execution, sa
 
 
 
-#bjj #submission #guillotine #choke #front-headlock #blood-choke #standing #guard 
-
 > **Quick Answer**: Guillotine Choke is a blood choke targeting the Carotid arteries and windpipe. ⚠️ **SAFETY**: This technique can cause Trachea damage or crush injury - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

@@ -145,8 +145,6 @@ description: "Master Progressive Resistance Training in BJJ. Learn systematic sk
 
 
 
-#bjj #principle #training methodology #skill development #progressive overload #resistance training #sparring progression #periodization #drilling 
-
 > **Quick Answer**: Progressive Resistance Training is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Expert.
 
 **Principle ID**: 

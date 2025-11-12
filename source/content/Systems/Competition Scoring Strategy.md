@@ -137,8 +137,6 @@ description: "Master BJJ competition scoring with comprehensive tactical framewo
 
 
 
-#bjj #competition #strategy #scoring #tactics #game-planning #ibjjf 
-
 > **Quick Answer**: Competition Scoring Strategy is a intermediate difficulty Competition Strategy system. This systematic approach integrates 5 key components into a cohesive fighting framework.
 
 **System ID**: 

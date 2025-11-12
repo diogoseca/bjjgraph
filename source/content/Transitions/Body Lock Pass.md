@@ -147,8 +147,6 @@ description: "Master the Body Lock Pass in BJJ. Step-by-step execution from Half
 
 
 
-#bjj #guard passing #half guard #pressure passing #body lock #side control 
-
 > **Quick Answer**: Body Lock Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 

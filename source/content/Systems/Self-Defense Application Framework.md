@@ -137,8 +137,6 @@ description: "Master self-defense applications of BJJ with systematic framework 
 
 
 
-#bjj #self-defense #reality-based #street-effectiveness #combat-application #legal-framework #stress-inoculation 
-
 > **Quick Answer**: Self-Defense Application Framework is a intermediate difficulty Training Methodology system. This systematic approach integrates 4 key components into a cohesive fighting framework.
 
 **System ID**: 

@@ -147,8 +147,6 @@ description: "Master triangle choke from closed guard. Complete guide with safet
 
 
 
-#bjj #submission #triangle-choke #closed-guard #blood-choke #fundamental #guard-bottom 
-
 > **Quick Answer**: Triangle from Closed Guard is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from carotid compression - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

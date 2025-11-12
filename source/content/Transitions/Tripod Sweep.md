@@ -147,8 +147,6 @@ description: "Master the Tripod Sweep from Spider Guard in BJJ. Technical breakd
 
 
 
-#bjj #sweep #spider-guard #open-guard #fundamental #beginner-friendly #competition 
-
 > **Quick Answer**: Tripod Sweep transitions from [[Spider Guard]] to [[Standing Position]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 

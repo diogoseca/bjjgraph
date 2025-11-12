@@ -147,8 +147,6 @@ description: "Learn Sitting Guard Pull in BJJ. Step-by-step execution from Stand
 
 
 
-#bjj #transition #guard-pull #sitting #fundamental #guard-establishment #open-guard 
-
 > **Quick Answer**: Sitting Guard Pull transitions from [[Standing Position]] to [[Seated Guard]]. Success rates: Beginner 70%, Intermediate 85%, Advanced 95%.
 
 

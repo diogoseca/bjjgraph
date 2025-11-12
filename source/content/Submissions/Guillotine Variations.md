@@ -153,8 +153,6 @@ description: "Master guillotine variations in BJJ. Complete guide covering high 
 
 
 
-#bjj #submission #guillotine #choke #front-headlock #blood-choke #variations 
-
 > **Quick Answer**: Guillotine Variations is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Trachea crush and airway damage - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

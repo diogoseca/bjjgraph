@@ -155,8 +155,6 @@ description: "Master Z-Guard Top in BJJ. Complete guide covering passing strateg
 
 
 
-#bjj #position #z-guard #top #passing #half-guard 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 80% of the time and finish submissions in 15% of exchanges.

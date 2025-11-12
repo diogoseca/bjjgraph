@@ -155,8 +155,6 @@ description: "Master Jailbreak Top Position in BJJ. Advanced half guard passing 
 
 
 
-#bjj #position #half-guard #top-position #jailbreak #passing #advanced 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 85% of the time and finish submissions in 35% of exchanges.

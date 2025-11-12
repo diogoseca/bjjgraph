@@ -147,8 +147,6 @@ description: "Master the Arm Crush submission in BJJ. Learn shoulder lock mechan
 
 
 
-#bjj #submission #shoulder-lock #joint-lock #side-control #pressure-submission 
-
 > **Quick Answer**: Arm Crush is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

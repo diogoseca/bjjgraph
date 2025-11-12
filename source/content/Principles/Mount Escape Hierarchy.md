@@ -145,8 +145,6 @@ description: "Master mount escape decision-making in BJJ. Learn systematic frame
 
 
 
-#bjj #defense #system #mount #escape #hierarchy #defensive strategy #pin escape 
-
 > **Quick Answer**: Mount Escape Hierarchy is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

@@ -147,8 +147,6 @@ description: "Master the Belly Down Armbar in BJJ. Complete guide with safety pr
 
 
 
-#bjj #submission #armbar #joint-lock #turtle-attack #scramble-finish #elbow-hyperextension #advanced-technique 
-
 > **Quick Answer**: Belly Down Armbar is a arm lock targeting the Elbow joint and shoulder girdle. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension and ligament damage (MCL/LCL/joint capsule tears) - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

@@ -147,8 +147,6 @@ description: "Master the Spinning Armbar in BJJ. Dynamic submission from multipl
 
 
 
-#bjj #submission #armbar #joint-lock #spinning-technique #dynamic-submission #advanced-technique 
-
 > **Quick Answer**: Spinning Armbar is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension with ligament damage (UCL/MCL tears) - apply slowly over 3-5 seconds and release immediately upon tap.
 
 

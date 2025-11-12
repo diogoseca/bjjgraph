@@ -147,8 +147,6 @@ description: "Master the Butterfly Guard to X-Guard transition in BJJ. Learn set
 
 
 
-#bjj #transition #sweep #guard #butterfly-guard #x-guard #off-balancing 
-
 > **Quick Answer**: Butterfly Guard to X-Guard transitions from [[Butterfly Guard]] to [[X-Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 

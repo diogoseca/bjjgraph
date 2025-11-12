@@ -147,8 +147,6 @@ description: "Learn Stack Defense in BJJ. Counter stack passes with frame manage
 
 
 
-#bjj #defense #guard-retention #frames #hip-escape #stack-pass-counter 
-
 > **Quick Answer**: Stack Defense transitions from [[Closed Guard]] to [[Closed Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 

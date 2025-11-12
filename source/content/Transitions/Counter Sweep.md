@@ -153,8 +153,6 @@ description: "Master Counter Sweep defense in BJJ. Transform opponent's sweep at
 
 
 
-#bjj #technique #sweep defense #counter technique #guard #defensive strategy #timing #position recovery 
-
 > **Quick Answer**: Counter Sweep transitions from [[Guard Bottom Transition]] to [[Guard Pass]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.
 
 

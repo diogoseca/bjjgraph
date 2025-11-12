@@ -145,8 +145,6 @@ description: "Master hand fighting fundamentals in BJJ. Learn strategic position
 
 
 
-#bjj #principle #fundamental #control #grips #hand-fighting #positioning #clinch #guard-retention 
-
 > **Quick Answer**: Hand Fighting is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.
 
 **Principle ID**: 

@@ -145,8 +145,6 @@ description: "Master submission control positioning in BJJ. Learn control mainte
 
 
 
-#bjj #principle #submission #control #finishing #position maintenance 
-
 > **Quick Answer**: Submission Control Position is a high complexity BJJ principle applicable at the Intermediate level. Master this principle in Intermediate to Expert.
 
 **Principle ID**: 

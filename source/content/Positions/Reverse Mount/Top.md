@@ -155,8 +155,6 @@ description: "Master Reverse Mount position in BJJ. Learn transitional control m
 
 
 
-#bjj #position #mount #top_control #advanced #transitional 
-
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
 >
 > **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 50% of exchanges.

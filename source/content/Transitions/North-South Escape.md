@@ -147,8 +147,6 @@ description: "Learn North-South Escape in BJJ. Step-by-step execution from North
 
 
 
-#bjj #transition #escape #defensive #north-south #guard-recovery #bottom-position 
-
 > **Quick Answer**: North-South Escape transitions from [[North-South]] to [[Guard Recovery]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.
 
 

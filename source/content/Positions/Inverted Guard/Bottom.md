@@ -155,8 +155,6 @@ description: "Master inverted guard from bottom perspective. Dynamic defensive p
 
 
 
-#bjj #guard #open_guard #modern #inverted #dynamic #berimbolo #back_attack #leg_entanglement 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 70% of the time with proper technique.

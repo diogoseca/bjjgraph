@@ -153,8 +153,6 @@ description: "Learn Sasae Tsurikomi Ashi in BJJ. Step-by-step execution from Sta
 
 
 
-#bjj #transition #judo #takedown #standing #foot-sweep #kuzushi 
-
 > **Quick Answer**: Sasae Tsurikomi Ashi transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 

@@ -147,8 +147,6 @@ description: "Master Technical Stand-up in BJJ. Essential escape from bottom to 
 
 
 
-#bjj #technique #escape #guard recovery #defensive movement #base #standing 
-
 > **Quick Answer**: Technical Stand-up transitions from [[Seated Guard]] to [[Standing Position]]. Success rates: Beginner 65%, Intermediate 80%, Advanced 90%.
 
 

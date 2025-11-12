@@ -155,8 +155,6 @@ description: "Master Aoki Lock defense and escape strategies. Defensive control 
 
 
 
-#bjj #position #aoki-lock #bottom #defense #shoulder-lock-defense #escape 
-
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.
 >
 > **Quick Stats**: Advanced practitioners escape 60% of the time with proper technique.
