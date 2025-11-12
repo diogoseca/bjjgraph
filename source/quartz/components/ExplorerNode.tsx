@@ -130,7 +130,8 @@ export class FileNode {
     const folderPaths: FolderState[] = []
 
     const traverse = (node: FileNode, currentPath: string) => {
-      if (!node.file) {
+      // Treat as folder if it has children, even if it also has a file (hub page)
+      if (node.children.length > 0) {
         const folderPath = joinSegments(currentPath, node.name)
         if (folderPath !== "") {
           folderPaths.push({ path: folderPath, collapsed })
@@ -173,18 +174,11 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
 
   return (
     <>
-      {node.file ? (
-        // Single file node
-        <li key={node.file.slug}>
-          <a href={resolveRelative(fileData.slug!, node.file.slug!)} data-for={node.file.slug}>
-            {node.displayName}
-          </a>
-        </li>
-      ) : (
+      {node.children.length > 0 ? (
+        // Node with children - render as folder (even if it also has a hub page file)
         <li>
           {node.name !== "" && (
-            // Node with entire folder
-            // Render svg button + folder name, then children
+            // Render svg button + folder name (link to hub page if file exists)
             <div class="folder-container">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -200,10 +194,10 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
               >
                 <polyline points="6 9 12 15 18 9"></polyline>
               </svg>
-              {/* render <a> tag if folderBehavior is "link", otherwise render <button> with collapse click event */}
+              {/* render <a> tag if folderBehavior is "link" OR if node has a file (hub page), otherwise render <button> */}
               <div key={node.name} data-folderpath={folderPath}>
-                {folderBehavior === "link" ? (
-                  <a href={href} data-for={node.name} class="folder-title">
+                {folderBehavior === "link" || node.file ? (
+                  <a href={node.file ? resolveRelative(fileData.slug!, node.file.slug!) : href} data-for={node.file ? node.file.slug : node.name} class="folder-title">
                     {node.displayName}
                   </a>
                 ) : (
@@ -236,7 +230,14 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
             </ul>
           </div>
         </li>
-      )}
+      ) : node.file ? (
+        // Single file node with no children
+        <li key={node.file.slug}>
+          <a href={resolveRelative(fileData.slug!, node.file.slug!)} data-for={node.file.slug}>
+            {node.displayName}
+          </a>
+        </li>
+      ) : null}
     </>
   )
 }
