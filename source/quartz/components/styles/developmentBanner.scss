@@ -69,6 +69,11 @@
   }
 
   .banner-button {
+    // Reset button defaults
+    appearance: none;
+    font-family: inherit;
+
+    // Button styling
     padding: 0.4rem 0.8rem;
     border-radius: 6px;
     font-size: 0.8rem;
@@ -77,6 +82,7 @@
     transition: all 0.2s ease;
     white-space: nowrap;
     border: 1px solid;
+    cursor: pointer;
 
     &.bug {
       background-color: var(--light);
