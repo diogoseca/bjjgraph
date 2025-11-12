@@ -5,11 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [
-    Component.DevelopmentBanner({
-      githubRepo: "diogoseca/bjjgraph",
-    }),
-  ],
+  afterBody: [],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/diogoseca/bjjgraph",
@@ -24,7 +20,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
-    Component.TagList(),
   ],
   left: [
     Component.PageTitle(),
@@ -41,9 +36,11 @@ export const defaultContentPageLayout: PageLayout = {
     })),
   ],
   right: [
-    Component.Graph(),
+    Component.Graph({
+      localGraph: { showTags: false },
+      globalGraph: { showTags: false }
+    }),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
   ],
 }
 
@@ -65,7 +62,9 @@ export const defaultListPageLayout: PageLayout = {
     })),
   ],
   right: [
-    Component.Graph(),
-    Component.Backlinks(),
+    Component.Graph({
+      localGraph: { showTags: false },
+      globalGraph: { showTags: false }
+    }),
   ],
 }
