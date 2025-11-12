@@ -63,6 +63,8 @@ The biomechanics of triangle control favor the attacking practitioner significan
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[Triangle Control]] | Medium | High | Medium | High | High-reward submission trading stability |
 
+| [[Rear Triangle]] | High | Low | High | Medium | Triangle legs free hands for attacks |
+
 
 
 

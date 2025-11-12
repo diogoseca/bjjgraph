@@ -1,0 +1,487 @@
+
+
+
+
+---
+title: "Double Jump Top | BJJ Position Guide | BJJ Graph"
+description: "Master Double Jump Top position in BJJ. Advanced turtle attack with leg hooks creating back control opportunities. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%."
+---
+
+
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+
+<!-- Schema Markup - HowTo for Attacks -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Attack from Double Jump Top",
+  "description": "Step-by-step guide to attacking and submitting from Double Jump position in BJJ.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Turtle to Back Control",
+      "text": "From this position, execute Turtle to Back Control to transition to Back Control. Success rate for advanced practitioners: 70%.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Crab Ride to Back",
+      "text": "From this position, execute Crab Ride to Back to transition to Crab Ride. Success rate for advanced practitioners: 65%.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Transition to Truck",
+      "text": "From this position, execute Transition to Truck to transition to Truck. Success rate for advanced practitioners: 60%.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Rolling Back Take",
+      "text": "From this position, execute Rolling Back Take to transition to Back Control. Success rate for advanced practitioners: 55%.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Truck Entry",
+      "text": "From this position, execute Truck Entry to transition to Truck. Success rate for advanced practitioners: 58%.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Back Take Generic",
+      "text": "From this position, execute Back Take Generic to transition to Back Control. Success rate for advanced practitioners: 65%.",
+      "position": 6
+    }
+  ],
+  "totalTime": "PT2M"
+}
+</script>
+
+<!-- Schema Markup - FAQ from Common Errors -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you establishing leg hooks without securing upper body control first?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent easily sits to butterfly guard or rolls through to reverse position, eliminating attacking opportunities The correct approach is: Always secure crossface, overhook, or harness grip before inserting hooks; upper body control prevents defensive movements"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you using leg hooks as static positioning rather than active control mechanisms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent maintains base and stalls position, or gradually extracts hooks through patient defensive work The correct approach is: Constantly adjust hook depth and angle to off-balance opponent; use hooks to lift and manipulate hips, not just maintain contact"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you overcommitting weight forward onto opponent's back without maintaining base?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent performs forward roll escape, throwing you over their head and reversing position The correct approach is: Distribute weight between chest pressure and leg control; maintain your own base to follow opponent's movements without being thrown"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you failing to anticipate opponent sitting to butterfly guard and losing position?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent establishes butterfly hooks and sweeps or creates scramble, negating your attacking position The correct approach is: As opponent begins sitting motion, immediately transition to crab ride or back control, using their movement to establish dominant position"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you inserting both hooks simultaneously without regard for opponent's defensive reactions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent counters the explosive entry with roll escapes or by posting and standing, creating scramble situations The correct approach is: Read opponent's base strength; against strong turtle, establish hooks progressively while breaking down base incrementally"
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Schema Markup - WebPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Double Jump Top",
+  "description": "Master Double Jump Top position in BJJ. Advanced turtle attack with leg hooks creating back control opportunities. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Double Jump Top",
+      "item": "https://bjjgraph.org/Positions/Double-Jump-Top"
+    }
+  ]
+}
+</script>
+
+
+
+
+# Double Jump Top
+
+#bjj #position #turtle-attacks #back-control-entry #advanced 
+
+> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
+>
+> **Quick Stats**: Advanced practitioners maintain control 70% of the time and finish submissions in 35% of exchanges.
+
+---
+
+
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+<section id="state-properties" class="content-section">
+
+## Position Properties
+
+- **State ID**: ``
+- **Point Value**: 0 (0 points)
+- **Position Type**: Offensive/Controlling
+- **Risk Level**: Medium
+- **Energy Cost**: Medium
+- **Time Sustainability**: Short to Medium
+
+</section>
+
+<section id="overview" class="content-section">
+
+## What is Double Jump from the Top?
+
+Double Jump Top is an advanced attacking position from turtle where the top practitioner establishes bilateral leg hooks (both legs hooking inside the opponent's thighs) while maintaining upper body control. This dynamic position creates immediate back-taking opportunities and represents a transitional state between turtle top control and full back control. The position gets its name from the explosive 'jumping' motion used to establish both hooks simultaneously, though it can also be entered progressively.
+
+The strategic value of Double Jump Top lies in its ability to bypass traditional turtle defenses and create immediate submission threats. By controlling the opponent's hips with leg hooks while maintaining upper body pressure through harness grips or crossface control, the top player eliminates the bottom player's base and forces defensive reactions. This position is particularly effective in no-gi competition where traditional collar grips are unavailable, and leg entanglement becomes the primary control mechanism.
+
+Double Jump Top represents modern turtle attack methodology, emphasizing leg-based controls over purely upper-body attacks. The position creates a powerful dilemma: if the opponent attempts to address the leg hooks, they expose their back; if they defend their back, the leg hooks can be used to off-balance and sweep. This dual-threat nature makes Double Jump Top a high-percentage entry to back control against skilled defensive grapplers who excel at defending traditional turtle attacks.
+
+</section>
+
+<section id="state-invariants" class="content-section">
+
+## What Defines This Position?
+
+- Top practitioner's legs hooked inside bottom opponent's thighs bilaterally, with feet controlling hip positioning and preventing base recovery
+- Top practitioner maintains upper body control through harness grips (seatbelt), crossface, or overhook positioning to prevent opponent's escape to guard
+- Bottom opponent remains in turtle base position (hands and knees) but with compromised hip control due to leg hooks eliminating lower body stability
+- Top practitioner's chest pressure directed into opponent's upper back or shoulder region, creating forward and downward weight distribution
+- Bottom opponent's defensive posture attempts to maintain hand-knee base while managing dual threats of back exposure and sweep vulnerability
+
+
+</section>
+
+<section id="prerequisites" class="content-section">
+
+## What Do You Need Before This Position?
+
+- Opponent in defensive turtle position with hands and knees on mat
+- Top practitioner has positional dominance from previous guard pass, scramble, or turtle attack
+- Sufficient space and timing to establish first leg hook without immediate counter
+- Upper body control established (crossface, overhook, or head control) before leg hook insertion
+- Opponent's defensive focus directed toward traditional turtle defense rather than leg hook prevention
+
+
+</section>
+
+<section id="key-principles" class="content-section">
+
+## Key Offensive Principles
+
+- Establish leg hooks progressively or explosively depending on opponent's base strength and defensive awareness
+- Maintain constant upper body pressure to prevent opponent sitting to guard or rolling through escapes
+- Use leg hooks to control opponent's hips and eliminate base rather than as static positioning
+- Create immediate back-taking opportunities by transitioning hooks from inside position to traditional back control hooks
+- Balance weight distribution between chest pressure and hook control to prevent opponent's defensive rolls
+- Anticipate and counter opponent's attempt to sit to butterfly guard by redirecting to back control
+- Maintain offensive initiative by chaining attacks between back-takes, crab rides, and truck positions
+
+
+</section>
+
+<section id="offensive-transitions" class="content-section">
+
+## What Attacks Are Available?
+
+### [[Turtle to Back Control]] → [[Back Control]]
+
+**Success Rates:**
+- Beginner: 30%
+- Intermediate: 50%
+- Advanced: 70%
+
+### [[Crab Ride to Back]] → [[Crab Ride]]
+
+**Success Rates:**
+- Beginner: 25%
+- Intermediate: 45%
+- Advanced: 65%
+
+### [[Transition to Truck]] → [[Truck]]
+
+**Success Rates:**
+- Beginner: 20%
+- Intermediate: 40%
+- Advanced: 60%
+
+### [[Rolling Back Take]] → [[Back Control]]
+
+**Success Rates:**
+- Beginner: 15%
+- Intermediate: 35%
+- Advanced: 55%
+
+### [[Truck Entry]] → [[Truck]]
+
+**Success Rates:**
+- Beginner: 20%
+- Intermediate: 38%
+- Advanced: 58%
+
+### [[Back Take Generic]] → [[Back Control]]
+
+**Success Rates:**
+- Beginner: 25%
+- Intermediate: 45%
+- Advanced: 65%
+
+
+
+</section>
+
+<section id="defensive-responses" class="content-section hide-minimal">
+
+## How Does the Opponent Escape?
+
+- **[[Turtle to Guard]]** → [[Closed Guard]] (Opponent Success: 35%)
+- **[[Turtle to Standing]]** → [[Standing Position]] (Opponent Success: 25%)
+- **[[Turtle Transition]]** → [[Open Guard]] (Opponent Success: 30%)
+- **[[Rolling to Guard]]** → [[Half Guard]] (Opponent Success: 28%)
+
+
+</section>
+
+<section id="counter-transitions" class="content-section hide-minimal">
+
+## How to Counter Opponent's Escapes
+
+- **[[Crab Ride to Back]]** → [[Crab Ride]]
+  - Opponent attempts to sit to butterfly guard or turn into you
+- **[[Transition to Truck]]** → [[Truck]]
+  - Opponent tries to roll away from pressure while you maintain hook control
+- **[[Rolling Back Take]]** → [[Back Control]]
+  - Opponent commits to forward roll escape while you follow rotation with hooks
+- **[[Turtle to Back Control]]** → [[Back Control]]
+  - Opponent flattens to belly attempting to defend leg hooks
+
+
+</section>
+
+<section id="decision-tree" class="content-section">
+
+## Decision Making from This Position
+
+**If opponent maintains strong turtle base and resists hook insertion:**
+- Execute **[[Crossface Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Front Headlock to Anaconda]]** → [[Anaconda Control]] (Probability: 35%)
+- Execute **[[Front Headlock to Back]]** → [[Back Control]] (Probability: 40%)
+
+
+**If opponent attempts to sit to butterfly guard or turn into you:**
+- Execute **[[Crab Ride to Back]]** → [[Crab Ride]] (Probability: 65%)
+- Execute **[[Turtle to Back Control]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 55%)
+
+
+**If opponent rolls away from pressure to escape hooks:**
+- Execute **[[Transition to Truck]]** → [[Truck]] (Probability: 70%)
+- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 65%)
+- Execute **[[Truck Entry]]** → [[Truck]] (Probability: 60%)
+
+
+**If opponent flattens to belly to defend hooks:**
+- Execute **[[Turtle to Back Control]]** → [[Back Control]] (Probability: 75%)
+- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 70%)
+
+
+
+
+</section>
+
+<section id="common-errors" class="content-section hide-minimal">
+
+## Common Offensive Mistakes
+
+### 1. Establishing leg hooks without securing upper body control first
+
+- ❌ **Consequence**: Opponent easily sits to butterfly guard or rolls through to reverse position, eliminating attacking opportunities
+- ✅ **Correction**: Always secure crossface, overhook, or harness grip before inserting hooks; upper body control prevents defensive movements
+
+### 2. Using leg hooks as static positioning rather than active control mechanisms
+
+- ❌ **Consequence**: Opponent maintains base and stalls position, or gradually extracts hooks through patient defensive work
+- ✅ **Correction**: Constantly adjust hook depth and angle to off-balance opponent; use hooks to lift and manipulate hips, not just maintain contact
+
+### 3. Overcommitting weight forward onto opponent's back without maintaining base
+
+- ❌ **Consequence**: Opponent performs forward roll escape, throwing you over their head and reversing position
+- ✅ **Correction**: Distribute weight between chest pressure and leg control; maintain your own base to follow opponent's movements without being thrown
+
+### 4. Failing to anticipate opponent sitting to butterfly guard and losing position
+
+- ❌ **Consequence**: Opponent establishes butterfly hooks and sweeps or creates scramble, negating your attacking position
+- ✅ **Correction**: As opponent begins sitting motion, immediately transition to crab ride or back control, using their movement to establish dominant position
+
+### 5. Inserting both hooks simultaneously without regard for opponent's defensive reactions
+
+- ❌ **Consequence**: Opponent counters the explosive entry with roll escapes or by posting and standing, creating scramble situations
+- ✅ **Correction**: Read opponent's base strength; against strong turtle, establish hooks progressively while breaking down base incrementally
+
+### 6. Maintaining Double Jump position for extended periods seeking perfect back-take setup
+
+- ❌ **Consequence**: Opponent recovers defensive composure, extracts hooks, or referee stands up position for stalling
+- ✅ **Correction**: Use Double Jump as transitional attacking position; commit to back-take, truck entry, or submission within 5-10 seconds of establishing hooks
+
+
+
+</section>
+
+<section id="training-drills" class="content-section hide-minimal">
+
+## Training Drills for Attacks
+
+### Progressive Hook Insertion Drill
+
+Partner maintains defensive turtle while you practice inserting first hook, establishing control, then adding second hook. Partner provides 50% resistance, gradually increasing to 75% as technique improves. Focus on maintaining upper body control throughout hook insertion sequence. Drill both progressive insertion (one hook at a time) and explosive double hook entry.
+
+**Duration**: 5 minutes per side
+
+
+### Back-Take Flow Drill from Double Jump
+
+Starting from established Double Jump position, practice transitioning to back control, crab ride, and truck positions based on partner's defensive reactions. Partner cycles through sitting to guard, rolling away, and flattening defenses while you read and respond with appropriate transitions. Emphasize smooth flow between positions without stopping.
+
+**Duration**: 8 minutes
+
+
+### Double Jump Positional Sparring
+
+Start each round with you in Double Jump Top position with both hooks established. Partner's goal is to escape to guard or standing within 2 minutes. Your goal is to advance to back control, truck, or crab ride. Reset after each successful advancement or escape. Compete 5 rounds to develop timing and transition recognition under resistance. Track success rate of transitions versus escapes.
+
+**Duration**: 5 x 2-minute rounds
+
+
+
+
+</section>
+
+<section id="optimal-submission-paths" class="content-section">
+
+## Optimal Submission Paths
+
+### Shortest path to submission
+
+`Double Jump Top → Turtle to Back Control → Back Control → Rear Naked Choke`
+
+### High-percentage truck path
+
+`Double Jump Top → Transition to Truck → Truck → Twister Finish`
+
+### Crab ride control path
+
+`Double Jump Top → Crab Ride to Back → Crab Ride → Turtle to Back Control → Back Control → Rear Naked Choke`
+
+### Rolling attack sequence
+
+`Double Jump Top → Rolling Back Take → Back Control → Armbar from Back`
+
+
+
+</section>
+
+<section id="position-metrics" class="content-section">
+
+## Success Rates and Statistics
+
+| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
+|--------------|----------------|-------------------------|------------------------|
+| Beginner     | 35% | 25% | 10% |
+| Intermediate | 55% | 45% | 20% |
+| Advanced     | 70% | 65% | 35% |
+
+**Average Time in Position**: 8-15 seconds before transition to back control, truck, or escape
+
+
+</section>
+
+<section id="expert-insights" class="content-section expert-insight">
+
+## What Do the Experts Say?
+
+### John Danaher - Systematic Attacks
+
+The Double Jump position represents a sophisticated understanding of control hierarchy in ground fighting. The bilateral hook insertion creates what I term 'base negation through hip control' - by eliminating the opponent's ability to post their legs effectively, you remove their primary defensive tool from turtle. The critical mechanical insight is that leg hooks function not merely as points of contact, but as leverage systems that allow inferior upper body position to generate superior control outcomes. Notice how the Double Jump position inverts traditional turtle attack methodology: rather than seeking upper body dominance first, you establish lower body control that forces upper body compliance. This is biomechanically efficient because the opponent's defensive energy must be divided between preventing back exposure and maintaining base, creating the classical dilemma structure. The position's transitional nature is not a weakness but a feature - it exists as a forcing mechanism that compels opponent reactions, each of which opens specific attacking pathways. The key technical detail that separates competent from expert execution is hook depth and angle variation: your hooks must actively manipulate the opponent's hip positioning, not simply occupy space inside their legs.
+
+### Gordon Ryan - Competition Application
+
+Double Jump is one of those positions that looks wild but actually gives you massive control if you hit it right. I use this constantly in competition when guys turtle up after I pass their guard - it's way higher percentage than trying to break them down with traditional turtle attacks. The key is you have to be explosive with the entry but then immediately calm and controlled once you get both hooks in. What makes it work at the highest level is that it bypasses all the hand fighting and crossface battles that elite guys are prepared for from turtle. They're ready to defend their neck and fight grips, but most people haven't spent enough time defending leg-based turtle attacks, so you catch them by surprise. My favorite thing about Double Jump is how it forces reactions - the opponent has to choose between defending the back take or defending the truck entry, and both choices lead to dominant positions for you. In competition, I'm looking to establish this within 3-5 seconds of them hitting turtle, then immediately transitioning to either crab ride or full back control depending on how they react. The position has a short shelf life though - you can't hang out here, you have to capitalize immediately or they'll start defending intelligently.
+
+### Eddie Bravo - 10th Planet Approach
+
+Double Jump is pure 10th Planet methodology, man - we're using leg entanglements to create chaos and force the opponent into bad positions. This is what happens when you stop thinking about jiu-jitsu in terms of traditional gi-based controls and start asking 'how can I use my whole body as a weapon?' The beauty of Double Jump is it's basically saying 'forget your turtle defense' because all those traditional turtle escapes and defensive postures don't work when someone has bilateral hooks controlling your hips. What I love teaching about this position is how it opens up the entire truck system and twister game. You're not just attacking for back control like traditional grappling - you're creating multiple submission threats through the truck, the twister, calf slicers, and then yeah, you can still take the back if you want. The position is all about creating uncertainty in the opponent's mind. They don't know if you're going to roll them into truck, drive them forward into crab ride, or just climb to back control. That mental pressure, combined with the physical control of the hooks, breaks people down faster than any amount of crossface pressure. When you train Double Jump, focus on the flow between positions rather than holding any one spot - it's a transition position that opens doors to everywhere you want to go.
+
+</section>
+
+<section id="related-content" class="content-section">
+
+## Related Positions and Techniques
+
+- **[[Turtle]]** - Parent position - Double Jump is advanced variation of turtle top attacks
+- **[[Back Control]]** - Primary advancement target - most common transition destination
+- **[[Crab Ride]]** - Alternative control position - similar leg hook mechanics with different upper body control
+- **[[Truck]]** - Transition variation - advanced leg entanglement position accessible from Double Jump
+- **[[Twister Control]]** - Submission destination - accessible through truck transitions from Double Jump
+- **[[Turtle to Back Control]]** - Primary transition technique - main method of advancing to back control
+- **[[Truck Entry]]** - Alternative transition - counter-option when opponent defends back take
+- **[[10th Planet No-Gi Guard System]]** - System context - Double Jump fits within Eddie Bravo's leg-based control methodology
+- **[[Twister System]]** - System progression - Double Jump serves as entry point to truck-based submissions
+
+
+</section>
+
+</main>

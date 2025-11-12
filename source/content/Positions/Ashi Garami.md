@@ -63,7 +63,21 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[Ashi Garami]] | Medium | High | Medium | Medium | Horizontal control negates size through mechanics |
 
+| [[50-50 Guard]] | High | Medium to High | High | Medium | Equal entanglement with inside control advantage |
+
+| [[Backside 50-50]] | Medium to High | Medium | Medium | Medium | Back-facing orientation creates pressure asymmetry |
+
+| [[Cross Ashi-Garami]] | Medium | Medium | Medium | Medium | Crossed legs trade mobility for heel exposure |
+
+| [[Honey Hole]] | High | Medium | High | Medium | Inside leg triangle creates control asymmetry |
+
+| [[Inside Ashi-Garami]] | Medium | Medium | Medium | Medium | Inside leg across hip for superior heel control |
+
+| [[Outside Ashi-Garami]] | Medium | High | Medium | Medium | Outside leg angle enables direct heel hooks |
+
 | [[Saddle]] | High | Medium | High | Medium | Perpendicular entanglement submission dilemma |
+
+| [[Ushiro Ashi-Garami]] | High | Medium | Medium | Medium | Reverse entanglement with unique heel angles |
 
 
 

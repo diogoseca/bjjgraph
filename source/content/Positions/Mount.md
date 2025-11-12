@@ -63,6 +63,22 @@ The Mount position represents the pinnacle of positional dominance in Brazilian 
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[Mount]] | High | Low | High | Low | Highest points with control-submission balance |
 
+| [[High Mount]] | High | Low to Medium | High | Medium | Elevated knees maximize submission access |
+
+| [[Modified Mount]] | High | Low to Medium | High | Low | One leg posted for enhanced base stability |
+
+| [[S Mount]] | High | Low to Medium | High | Medium | Perpendicular body angle maximizes armbar leverage |
+
+| [[Technical Mount]] | High | Medium | High | Medium | Stepped leg creates armbar angle advantage |
+
+| [[Mounted Triangle]] | High | Medium to High | High | Medium | Mount pressure with triangle mechanics |
+
+| [[Mounted Crucifix]] | High | Low | High | Low | Mount stability with arm isolation control |
+
+| [[3-4 Mount]] | High | Low to Medium | High | Medium | Asymmetric leg configuration for submissions |
+
+| [[Mount Control]] | High | Low to Medium | High | Low | Elevated position maximizes submissions |
+
 
 
 

@@ -314,7 +314,12 @@ def validate_name_matches_filename(data, json_file_path, category):
     return errors
 
 def validate_family_variants(data, json_file_path):
-    """Validate FAMILY variations array matches actual variant files in folder"""
+    """Validate FAMILY variations array matches actual variant files in folder
+
+    Note: Slugs in JSON should be kebab-case (e.g., '50-50-guard', 'high-mount').
+    Actual filenames may use Title Case with spaces (e.g., '50-50 Guard.json', 'High Mount.json').
+    This validation normalizes both for comparison (lowercase, hyphens instead of spaces).
+    """
     errors = []
 
     # Only for FAMILY positions (has variations array)

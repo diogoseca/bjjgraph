@@ -1887,4 +1887,4 @@ Master all BJJ transitions and techniques. Complete guide to sweeps, passes, tak
 
 ---
 
-*This hub page is automatically generated from content files. Last generated: 2025-11-12 00:23:26*
+*This hub page is automatically generated from content files. Last generated: 2025-11-12 09:54:40*

@@ -3,8 +3,8 @@
 {# Input: data (complete JSON for neutral position) #}
 
 ---
-title: "{{ data.metadata.name }} | BJJ Position Guide | BJJ Graph"
-description: "{{ data.metadata.description }}"
+title: "{{ data.name }} | BJJ Position Guide | BJJ Graph"
+description: "{{ data.description }}"
 ---
 
 {# PostHog A/B Testing Metadata #}
@@ -15,8 +15,8 @@ description: "{{ data.metadata.description }}"
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Use {{ data.metadata.title.split('|')[0].strip() }}",
-  "description": "Complete guide to {{ data.metadata.title.split('|')[0].strip().lower() }} in BJJ.",
+  "name": "How to Use {{ data.name.split('|')[0].strip() }}",
+  "description": "Complete guide to {{ data.name.split('|')[0].strip().lower() }} in BJJ.",
   "step": [
     {%- for transition in data.offensive_transitions[:8] %}
     {
@@ -56,8 +56,8 @@ description: "{{ data.metadata.description }}"
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "{{ data.metadata.title.split('|')[0].strip() }}",
-  "description": "{{ data.metadata.description }}",
+  "name": "{{ data.name.split('|')[0].strip() }}",
+  "description": "{{ data.description }}",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -87,8 +87,8 @@ description: "{{ data.metadata.description }}"
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "{{ data.metadata.title.split('|')[0].strip() }}",
-      "item": "https://bjjgraph.org/Positions/{{ data.metadata.title.split('|')[0].strip().replace(' ', '-') }}"
+      "name": "{{ data.name.split('|')[0].strip() }}",
+      "item": "https://bjjgraph.org/Positions/{{ data.name.split('|')[0].strip().replace(' ', '-') }}"
     }
   ]
 }
@@ -125,9 +125,9 @@ description: "{{ data.metadata.description }}"
 -->
 {% endif %}
 
-# {{ data.metadata.title.split('|')[0].strip() }}
+# {{ data.name.split('|')[0].strip() }}
 
-{% for tag in data.metadata.tags %}#{{ tag }} {% endfor %}
+{% for tag in data.tags %}#{{ tag }} {% endfor %}
 
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.
 >
@@ -142,7 +142,7 @@ description: "{{ data.metadata.description }}"
 
 ## Position Properties
 
-- **State ID**: `{{ data.metadata.state_id }}`
+- **State ID**: `{{ data.state_id }}`
 - **Point Value**: {{ data.state_properties.point_value }} (Neutral)
 - **Position Type**: {{ data.state_properties.position_type }}
 - **Risk Level**: {{ data.state_properties.risk_level }}
@@ -153,7 +153,7 @@ description: "{{ data.metadata.description }}"
 
 <section id="overview" class="content-section">
 
-## What is {{ data.metadata.title.split('|')[0].strip() }}?
+## What is {{ data.name.split('|')[0].strip() }}?
 
 {{ data.overview }}
 

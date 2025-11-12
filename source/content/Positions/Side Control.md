@@ -55,6 +55,20 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[Side Control]] | High | Low | High | Low | Perpendicular alignment maximizes control |
 
+| [[Kesa Gatame]] | High | Medium | Medium | Medium | Perpendicular angle trades back exposure for arm |
+
+| [[Kuzure Kesa-Gatame]] | High | Low to Medium | High | Medium | Arm isolation for superior submission access |
+
+| [[Modified Scarf Hold]] | High | Low to Medium | High | Medium | Chest pressure trades mobility for control |
+
+| [[Reverse Kesa-Gatame]] | High | Medium | High | Medium | Reverse orientation eliminates defensive frames |
+
+| [[Reverse Scarf Hold]] | High | Medium | High | Medium | Reverse orientation creates unique control angles |
+
+| [[Scarf Hold Position]] | High | Low to Medium | Medium | Low | Perpendicular angle creates unique escapes |
+
+| [[Side Control Consolidation]] | High | Low | High | Medium | Transitional phase trading speed for quality |
+
 
 
 

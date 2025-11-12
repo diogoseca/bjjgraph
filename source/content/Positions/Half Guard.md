@@ -65,7 +65,25 @@ Success in Half Guard demands understanding the fundamental asymmetry that defin
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[Half Guard]] | Medium | Medium | Medium | Medium | Asymmetric leg trap for dynamic offense |
 
+| [[Deep Half Guard]] | Medium | Medium | Medium | Medium | Inverted leverage trades exposure for sweeps |
+
+| [[Knee Shield Half Guard]] | Low to Medium | Medium | Medium | Medium | Knee shield barrier prevents pressure contact |
+
 | [[Lockdown]] | Low to Medium | Medium to High | Medium | Medium | Leg triangle trades mobility for sweeps |
+
+| [[Butterfly Half Guard]] | Medium | Medium to High | Medium | Medium | Butterfly hook elevation with half guard control |
+
+| [[Z-Lock Half Guard]] | Medium | Low to Medium | Medium | Medium | Z-configuration for dynamic mobility attacks |
+
+| [[Flattened Half Guard]] | High | Low to Medium | High | Medium | Minimal frames trades mobility for survival |
+
+| [[Reverse Half Guard]] | Medium | Medium | Medium | Medium | Inverted orientation creates unique sweep angles |
+
+| [[Pocket Half Guard]] | Low to Medium | Low | Medium | Medium | Deep underhook creates sweep/pass dilemma |
+
+| [[Old School]] | Medium | Medium | Medium | Medium | Lockdown creates sweep leverage vs pressure |
+
+| [[Electric Chair]] | Medium | High | Medium | High | Lockdown leverages sweep and submission threat |
 
 
 

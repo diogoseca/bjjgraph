@@ -16,7 +16,7 @@ description: "{{ top.description }}"
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Attack from {{ top.name }}",
-  "description": "Step-by-step guide to attacking and submitting from {{ top.title.split('|')[0].strip().replace(' Top', '').replace(' (Attacks)', '') }} position in BJJ.",
+  "description": "Step-by-step guide to attacking and submitting from {{ top.name.replace(' Top', '').replace(' (Attacks)', '') }} position in BJJ.",
   "step": [
     {%- for transition in top.offensive_transitions[:6] %}
     {
@@ -88,7 +88,7 @@ description: "{{ top.description }}"
       "@type": "ListItem",
       "position": 3,
       "name": "{{ top.name }}",
-      "item": "https://bjjgraph.org/Positions/{{ top.title.split('|')[0].strip().replace(' ', '-') }}"
+      "item": "https://bjjgraph.org/Positions/{{ top.name.replace(' ', '-') }}"
     }
   ]
 }
@@ -136,7 +136,7 @@ description: "{{ top.description }}"
 
 <section id="overview" class="content-section">
 
-## What is {{ top.title.split('|')[0].strip().replace(' (Attacks)', '').replace(' Top', '') }} from the Top?
+## What is {{ top.name.replace(' (Attacks)', '').replace(' Top', '') }} from the Top?
 
 {{ top.overview }}
 

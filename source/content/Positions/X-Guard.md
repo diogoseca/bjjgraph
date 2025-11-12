@@ -63,6 +63,10 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[X-Guard]] | Medium | Medium | Low | Medium | Leg-based control eliminates grip dependency |
 
+| [[Reverse X-Guard]] | Medium | Medium | Medium | Medium | Inverted orientation for explosive lifting |
+
+| [[Single Leg X-Guard]] | Medium | Medium | Medium | Medium | Leg isolation creates sweep-submission duality |
+
 
 
 

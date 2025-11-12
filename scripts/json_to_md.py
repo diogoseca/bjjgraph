@@ -100,6 +100,30 @@ def write_markdown_file(md_path, content, dry_run=False):
         sys.exit(1)
 
 
+def find_variant_file(variant_folder, slug):
+    """Find variant file by slug, handling filename case/format variations
+
+    Slugs in JSON are kebab-case (e.g., '50-50-guard', 'high-mount').
+    Actual filenames may use Title Case with spaces (e.g., '50-50 Guard.json', 'High Mount.json').
+    This function normalizes both for matching (lowercase, hyphens instead of spaces).
+    """
+    # First try exact match (kebab-case slug)
+    exact_match = variant_folder / f"{slug}.json"
+    if exact_match.exists():
+        return exact_match
+
+    # Normalize slug for comparison (lowercase, hyphens)
+    normalized_slug = slug.lower().replace(' ', '-')
+
+    # Search all JSON files in folder and compare normalized names
+    for json_file in variant_folder.glob("*.json"):
+        file_normalized = json_file.stem.lower().replace(' ', '-')
+        if file_normalized == normalized_slug:
+            return json_file
+
+    return None
+
+
 def aggregate_family_variants(data, json_path):
     """Aggregate variant data for FAMILY positions"""
     variants_comparison = []
@@ -108,10 +132,10 @@ def aggregate_family_variants(data, json_path):
 
     for variant_ref in data.get('variations', []):
         variant_slug = variant_ref['slug']
-        variant_file = variant_folder / f"{variant_slug}.json"
+        variant_file = find_variant_file(variant_folder, variant_slug)
 
-        if not variant_file.exists():
-            print(f"⚠️  Variant file not found: {variant_file}")
+        if not variant_file:
+            print(f"⚠️  Variant file not found for slug '{variant_slug}' in {variant_folder}")
             print(f"   Skipping {variant_ref['name']} in comparison tables")
             continue
 

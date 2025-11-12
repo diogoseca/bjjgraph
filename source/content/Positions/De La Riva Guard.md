@@ -63,6 +63,8 @@ The De La Riva system offers exceptional versatility for practitioners of all le
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[De La Riva Guard]] | Medium | Medium | Medium | Medium | Dynamic hooks trade static frames for leverage |
 
+| [[Reverse De La Riva Guard]] | Medium | Medium | Medium | Medium | Inverted hook creates rotational off-balancing |
+
 
 
 

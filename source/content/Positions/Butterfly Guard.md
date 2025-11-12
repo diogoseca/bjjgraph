@@ -67,6 +67,10 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[Butterfly Guard]] | Medium | Medium | Medium | Medium | Explosive elevation over defensive stability |
 
+| [[Butterfly Hook Control]] | Medium | Medium to High | Medium | Medium | Active elevation hooks create instability |
+
+| [[Half Butterfly]] | Medium | Medium | Medium | Medium | Butterfly hook adds elevation to half guard |
+
 
 
 

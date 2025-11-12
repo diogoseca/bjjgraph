@@ -1,0 +1,449 @@
+
+
+
+
+---
+title: "Bicep Slicer | BJJ Submission | BJJ Graph"
+description: "Master the Bicep Slicer in BJJ. Complete guide with safety protocols, setup from crucifix and truck positions. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%."
+---
+
+
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-errors","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+
+<!-- Schema Markup - Auto-generated from JSON -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Execute Bicep Slicer in BJJ",
+  "description": "Step-by-step guide for Bicep Slicer with safety protocols.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Secure dominant control position",
+      "text": "From the crucifix, truck, or modified mount, establish complete control over the opponent's body. Ensure they cannot easily escape or counter your attack. Your weight should be distributed to prevent them from rolling or bridging effectively.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Isolate the target arm",
+      "text": "Identify the arm you will attack (typically the one closest to your legs or most exposed). Use your hands to control the opponent's wrist, pulling it away from their body and preventing them from tucking it defensively. The arm should be extended at approximately 90 degrees or slightly more.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Insert shin behind elbow",
+      "text": "Slide your shin behind the opponent's elbow joint, positioning it perpendicular to their forearm. Your shin bone should be directly against the back of their elbow, with your knee on one side of their arm and your ankle/foot on the other. This creates the fulcrum for the compression.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Secure wrist control",
+      "text": "Grip the opponent's wrist firmly with both hands if possible, or with one hand while using the other to control their body. Your grip should prevent them from straightening their arm or rotating their shoulder to escape. Consider using a figure-four grip or gable grip for maximum control.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Close the angle and apply compression",
+      "text": "Pull the opponent's wrist toward your chest while simultaneously pushing your shin deeper behind their elbow. This creates a scissoring action that compresses the bicep muscle against the humerus bone. The compression should be smooth and progressive, never sudden. Your forearm and shin are now working together like pliers, with the elbow joint as the focal point.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Add hip pressure for finish",
+      "text": "Once the compression is established, use your hips to drive additional pressure into the submission. Lean your bodyweight into the position, increasing the crushing force on the bicep while maintaining the hyperextension on the elbow. Monitor your training partner closely for the tap, which should come quickly once proper pressure is applied. In training, apply this final pressure extremely slowly and carefully.",
+      "position": 6
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Maintain position until tap or transition",
+      "text": "Hold the submission with steady pressure until your partner taps. Do not pump or pulse the submission. If they do not tap after several seconds of proper pressure, reassess your positioning rather than increasing force dangerously. Be prepared to transition to alternative submissions if the bicep slicer is not available.",
+      "position": 7
+    }
+  ],
+  "tool": ["BJJ Gi or No-Gi attire", "Training partner", "Mat space"],
+  "totalTime": "PT5M"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the primary safety concern when applying the bicep slicer, and what application speed should be used in training?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The primary safety concerns are bicep muscle tears and elbow hyperextension injuries. In training, the bicep slicer must be applied EXTREMELY SLOWLY over a minimum of 5-7 seconds with constant communication. The submission attacks both the bicep muscle (compression) and elbow joint (hyperextension), making it capable of causing severe injury if applied suddenly or explosively. Training partners must be experienced enough to recognize the submission early and tap immediately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where exactly should your shin be positioned for maximum effectiveness of the bicep slicer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your shin should be positioned directly behind the opponent's elbow joint, perpendicular to their forearm. The back of their elbow should press into your shin bone, which serves as the fulcrum for the compression. The shin should not be across their forearm or bicep, but specifically behind the elbow joint itself. This positioning allows you to create maximum compression on the bicep muscle while simultaneously hyperextending the elbow joint when you pull their wrist toward your chest."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is wrist control critical for the bicep slicer, and what happens if you lose this control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wrist control is absolutely critical because it prevents the opponent from straightening their arm, which is the primary escape from the bicep slicer. If the opponent can straighten their arm, the compression on the bicep disappears and the hyperextension angle is lost, allowing them to escape completely. Proper wrist control involves gripping firmly with one or both hands and continuously pulling the wrist toward your chest to maintain the bent arm position. Without this control, the submission is ineffective regardless of shin positioning."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the immediate steps you must take when your training partner taps to a bicep slicer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Upon receiving a tap, immediately release all pressure on the bicep and elbow, remove your shin from behind their elbow joint, release your grip on their wrist, and allow them to straighten their arm naturally without resistance. Then check with your partner about their condition before continuing training. The release must be immediate and complete—never continue applying pressure after a tap, as both the bicep muscle and elbow joint are vulnerable to serious injury from this submission."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "From which positions is the bicep slicer most commonly and effectively applied?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The bicep slicer is most commonly applied from the crucifix position, where you have superior control and both of the opponent's arms are compromised. Other high-percentage positions include the truck (twister control), technical mount, and modified mount variations. The key requirement is having a position where you can isolate one arm, control the wrist, and insert your shin behind the elbow while maintaining dominant control to prevent escapes or counters. Attempting the bicep slicer without proper positional dominance typically results in escape or reversal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What mechanical principle creates the finishing pressure in the bicep slicer, and how should force be applied?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The bicep slicer works through a scissoring or plier-like mechanism where your shin acts as one jaw and your forearm/chest acts as the other jaw, with the opponent's arm trapped between them. The force is created by pulling the wrist toward your chest while simultaneously pushing your shin deeper behind the elbow. This compression crushes the bicep muscle against the humerus bone while hyperextending the elbow joint. Force should be applied using bodyweight and hip pressure rather than just arm strength, with smooth and progressive application rather than sudden jerking movements."
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bicep Slicer",
+  "description": "Master the Bicep Slicer in BJJ. Complete guide with safety protocols, setup from crucifix and truck positions. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.",
+  "url": "https://bjjgraph.org/Submissions/Bicep-Slicer",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
+    {"@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/"},
+    {"@type": "ListItem", "position": 3, "name": "Bicep Slicer", "item": "https://bjjgraph.org/Submissions/Bicep-Slicer"}
+  ]
+}
+</script>
+
+
+
+
+# Bicep Slicer
+#bjj #submission #compression-lock #bicep-slicer #crucifix #truck #advanced-technique 
+
+> **Quick Answer**: Bicep Slicer is a bicep compression lock targeting the Bicep muscle and elbow joint. ⚠️ **SAFETY**: This technique can cause Bicep muscle tear or severe contusion - apply slowly over 3-5 seconds and release immediately upon tap.
+
+
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+<section id="overview" class="content-section">
+
+## What is Bicep Slicer?
+
+The Bicep Slicer is a devastating compression lock that applies crushing pressure to the bicep muscle and hyperextends the elbow joint. This advanced submission works by trapping the opponent's arm between your shin and forearm, creating a lever that compresses the bicep against the humerus bone while simultaneously hyperextending the elbow. Most commonly applied from the crucifix, truck, or modified mount positions, the bicep slicer is a technical submission that requires precise positioning and control. The compression creates intense pain in the bicep muscle belly, while the hyperextension threatens the elbow joint, creating a two-fold attack that is difficult to defend. This submission is particularly effective in no-gi grappling where the opponent cannot use gi grips to defend, and it serves as an excellent backup when traditional chokes or arm locks are unavailable. The bicep slicer's effectiveness comes from its ability to attack an area that most grapplers do not regularly condition or defend, making it a high-percentage finish when the proper positioning is achieved. Understanding the mechanical advantage required and the precise angles needed separates successful application from ineffective attempts.
+
+**Category**: Compression
+**Type**: Bicep Compression Lock
+**Target Area**: Bicep muscle and elbow joint
+**Starting Position**: [[Crucifix]]
+**Success Rates**: Beginner 30%, Intermediate 45%, Advanced 60%
+
+</section>
+
+<section id="safety-considerations" class="content-section">
+
+## Is Bicep Slicer Dangerous? Complete Safety Guide
+
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Bicep muscle tear or severe contusion | High | 3-6 weeks for muscle damage, up to 12 weeks for severe tears |
+| Elbow hyperextension or ligament damage | High | 4-8 weeks for moderate sprains, 3-6 months for severe ligament tears |
+| Radial nerve compression | Medium | 1-3 weeks for temporary nerve irritation |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum with constant communication
+
+**Tap Signals**:
+- Verbal tap or verbal distress signal
+- Physical hand tap on opponent or mat
+- Physical foot tap on mat
+- Any vocalization of pain or distress
+- Frantic body movement indicating distress
+
+
+**Release Protocol**:
+1. Immediately release all pressure on the bicep/elbow
+2. Remove the shin from behind the opponent's elbow
+3. Release any grip controlling the wrist
+4. Allow the opponent to straighten their arm naturally
+5. Check with partner about their condition before continuing
+
+
+**Training Restrictions**:
+- Never apply sudden or explosive pressure
+- Never use full competition speed in training
+- Always maintain verbal communication during application
+- Never practice on beginners until they understand tap urgency
+- Do not apply this submission if opponent has existing elbow or bicep injuries
+- Always ensure training partner has clear tap access with free hand
+
+
+</section>
+
+<section id="key-principles" class="content-section">
+
+## What Are the Key Principles for Success?
+- Create maximum leverage by using your shin as a fulcrum against the back of the opponent's elbow
+- Control the wrist to prevent the opponent from straightening their arm and escaping
+- Maintain tight connection between your body and opponent's trapped arm to prevent space creation
+- Apply pressure progressively in training, never suddenly or explosively
+- Position your shin perpendicular to the opponent's arm for maximum compression
+- Use your bodyweight and hip pressure to increase the submission force, not just arm strength
+- Secure dominant position control before attempting the submission to prevent counters
+
+
+</section>
+
+<section id="setup-requirements" class="content-section">
+
+## What Do You Need Before Attempting This Submission?
+- Establish dominant control position such as crucifix, truck, or modified mount
+- Isolate one of the opponent's arms away from their body
+- Control the opponent's wrist to prevent them from straightening the arm
+- Position your shin behind the opponent's elbow joint
+- Establish a firm grip on the opponent's wrist or hand
+- Ensure the opponent cannot use their free arm to defend or escape
+- Create an angle where your shin can compress the bicep against the humerus
+
+
+</section>
+
+<section id="execution-steps" class="content-section">
+
+## How to Execute This Submission Step-by-Step
+1. **Secure dominant control position**: From the crucifix, truck, or modified mount, establish complete control over the opponent's body. Ensure they cannot easily escape or counter your attack. Your weight should be distributed to prevent them from rolling or bridging effectively. (Timing: 2-3 seconds to establish solid control) [Pressure: Moderate]
+2. **Isolate the target arm**: Identify the arm you will attack (typically the one closest to your legs or most exposed). Use your hands to control the opponent's wrist, pulling it away from their body and preventing them from tucking it defensively. The arm should be extended at approximately 90 degrees or slightly more. (Timing: 1-2 seconds) [Pressure: Light]
+3. **Insert shin behind elbow**: Slide your shin behind the opponent's elbow joint, positioning it perpendicular to their forearm. Your shin bone should be directly against the back of their elbow, with your knee on one side of their arm and your ankle/foot on the other. This creates the fulcrum for the compression. (Timing: 2-3 seconds with careful positioning) [Pressure: Light]
+4. **Secure wrist control**: Grip the opponent's wrist firmly with both hands if possible, or with one hand while using the other to control their body. Your grip should prevent them from straightening their arm or rotating their shoulder to escape. Consider using a figure-four grip or gable grip for maximum control. (Timing: 1-2 seconds) [Pressure: Moderate]
+5. **Close the angle and apply compression**: Pull the opponent's wrist toward your chest while simultaneously pushing your shin deeper behind their elbow. This creates a scissoring action that compresses the bicep muscle against the humerus bone. The compression should be smooth and progressive, never sudden. Your forearm and shin are now working together like pliers, with the elbow joint as the focal point. (Timing: 3-5 seconds with gradual pressure increase) [Pressure: Firm]
+6. **Add hip pressure for finish**: Once the compression is established, use your hips to drive additional pressure into the submission. Lean your bodyweight into the position, increasing the crushing force on the bicep while maintaining the hyperextension on the elbow. Monitor your training partner closely for the tap, which should come quickly once proper pressure is applied. In training, apply this final pressure extremely slowly and carefully. (Timing: 2-4 seconds until tap) [Pressure: Maximum]
+7. **Maintain position until tap or transition**: Hold the submission with steady pressure until your partner taps. Do not pump or pulse the submission. If they do not tap after several seconds of proper pressure, reassess your positioning rather than increasing force dangerously. Be prepared to transition to alternative submissions if the bicep slicer is not available. (Timing: Hold steady until tap) [Pressure: Maximum]
+
+
+</section>
+
+<section id="opponent-defense-patterns" class="content-section">
+
+## How Does the Opponent Defend This Submission?
+- **Straightening the trapped arm forcefully** (Effectiveness: High) - Your Adjustment: Anticipate this defense by securing wrist control early and pulling the wrist toward your chest continuously. If they begin to straighten, immediately transition to an armbar or kimura position using their momentum against them.
+- **Rolling toward the trapped arm side** (Effectiveness: Medium) - Your Adjustment: Maintain your body position and follow their roll while keeping your shin locked behind their elbow. Use your free leg as a hook to control their hip and prevent the full roll. You may end up in a different position but can often maintain the submission throughout the movement.
+- **Using free hand to push your shin away** (Effectiveness: Medium) - Your Adjustment: Ensure you have dominant position control before attempting the submission. If they have a free hand attacking your shin, you may need to abandon the bicep slicer and transition to controlling their free arm, potentially setting up a crucifix or different submission.
+- **Creating space by bridging or shrimping** (Effectiveness: Low) - Your Adjustment: Maintain tight connection with your upper body weight on their torso. Use your free hand to post on the mat or control their body, preventing effective bridging. Your weight distribution should make space creation nearly impossible.
+- **Grabbing their own gi or body to create a frame** (Effectiveness: Low) - Your Adjustment: In gi, be aware of grip fighting. Strip their defensive grips before fully committing to the submission. In no-gi, if they grab their own wrist or body, increase the angle of your shin pressure and pull their wrist more forcefully to break their grip.
+
+
+</section>
+
+<section id="common-errors" class="content-section hide-minimal">
+
+## What Mistakes Do Practitioners Make With This Submission?
+- **Error**: Applying the submission too quickly or explosively in training [CRITICAL DANGER]
+  - **Consequence**: High risk of serious bicep tear or elbow injury to your training partner
+  - **Correction**: Always apply bicep slicers slowly and progressively, taking a minimum of 5-7 seconds to reach full pressure. Maintain constant verbal communication with your partner and release immediately upon tap.
+- **Error**: Positioning the shin across the forearm instead of behind the elbow [Low DANGER]
+  - **Consequence**: Little to no submission pressure, allowing easy escape
+  - **Correction**: Ensure your shin is directly behind the elbow joint, perpendicular to the opponent's arm. The back of their elbow should be pressed into your shin bone, not their forearm or bicep.
+- **Error**: Failing to control the opponent's wrist adequately [Medium DANGER]
+  - **Consequence**: Opponent can straighten their arm and escape the submission completely
+  - **Correction**: Establish firm wrist control before applying pressure. Use a two-handed grip when possible and pull the wrist toward your chest to maintain the bent arm position required for the submission.
+- **Error**: Attempting the submission without proper positional control [Medium DANGER]
+  - **Consequence**: Opponent can roll, escape, or counter-attack while you're focused on the submission
+  - **Correction**: Only attempt the bicep slicer from positions where you have dominant control such as crucifix, truck, or secure mount variations. Establish position first, then attack for the submission.
+- **Error**: Using only arm strength instead of bodyweight and hip pressure [Low DANGER]
+  - **Consequence**: Ineffective submission that requires excessive force and causes premature fatigue
+  - **Correction**: Leverage your entire body by leaning into the submission and using hip pressure. Your arms should control positioning while your body creates the crushing force through proper angles and weight distribution.
+- **Error**: Continuing to apply pressure after the tap [CRITICAL DANGER]
+  - **Consequence**: Serious injury to training partner and loss of trust in the training environment
+  - **Correction**: Develop the habit of releasing immediately when you feel or hear a tap. In training, prioritize your partner's safety over finishing the submission. Practice the release protocol until it becomes automatic.
+- **Error**: Allowing too much space between your chest and opponent's body [Medium DANGER]
+  - **Consequence**: Opponent can create enough space to escape or straighten their arm
+  - **Correction**: Maintain tight connection with your chest pressing into the opponent's back or side. Minimize all space to prevent defensive movement. Your body should be glued to theirs throughout the submission attempt.
+
+
+</section>
+
+<section id="variations-and-setups" class="content-section hide-minimal">
+
+## What Are the Variations of This Submission?
+**Bicep Slicer from Crucifix**: The most common and highest percentage application. From the crucifix position, you have both arms controlled, making it easier to isolate one arm for the bicep slicer. Use your leg positioning to trap their arm while your hands control their wrist, creating the perfect angle for compression. (When to use: When you have established crucifix control and the opponent is defending chokes by tucking their chin or protecting their neck. The bicep slicer becomes an excellent alternative finish.)
+
+**Bicep Slicer from Truck**: From the truck position (twister control), you can attack the near-side arm with a bicep slicer. This variation often surprises opponents who are focused on defending the twister or back take. The leg configuration in the truck provides natural leverage for the shin placement behind the elbow. (When to use: When attacking from the truck position and the opponent successfully defends the twister by straightening their body. The bicep slicer becomes available on the arm closest to your legs.)
+
+**Modified Mount Bicep Slicer**: From a modified or technical mount where you have one arm trapped under your leg, you can transition to a bicep slicer by threading your shin behind their elbow while controlling their wrist. This requires precise positioning and is typically a transition from failed mount attacks. (When to use: When mounted and the opponent is defending by keeping their arms tight to their body. If you can isolate one arm and trap it under your leg, the bicep slicer becomes an effective attacking option.)
+
+**North-South Bicep Slicer**: A less common but effective variation from north-south position. Isolate one arm and use your leg to create the fulcrum behind their elbow while controlling the wrist with your hands. This requires significant flexibility and control but can catch opponents off-guard. (When to use: When transitioning through north-south and the opponent extends an arm defensively. The unusual angle can make this variation particularly difficult to defend.)
+
+
+
+</section>
+
+<section id="knowledge-assessment" class="content-section">
+
+## How Well Do You Understand This Submission?
+**Q1**: What is the primary safety concern when applying the bicep slicer, and what application speed should be used in training? **[SAFETY-CRITICAL]**
+**A**: The primary safety concerns are bicep muscle tears and elbow hyperextension injuries. In training, the bicep slicer must be applied EXTREMELY SLOWLY over a minimum of 5-7 seconds with constant communication. The submission attacks both the bicep muscle (compression) and elbow joint (hyperextension), making it capable of causing severe injury if applied suddenly or explosively. Training partners must be experienced enough to recognize the submission early and tap immediately.
+
+**Q2**: Where exactly should your shin be positioned for maximum effectiveness of the bicep slicer?
+**A**: Your shin should be positioned directly behind the opponent's elbow joint, perpendicular to their forearm. The back of their elbow should press into your shin bone, which serves as the fulcrum for the compression. The shin should not be across their forearm or bicep, but specifically behind the elbow joint itself. This positioning allows you to create maximum compression on the bicep muscle while simultaneously hyperextending the elbow joint when you pull their wrist toward your chest.
+
+**Q3**: Why is wrist control critical for the bicep slicer, and what happens if you lose this control?
+**A**: Wrist control is absolutely critical because it prevents the opponent from straightening their arm, which is the primary escape from the bicep slicer. If the opponent can straighten their arm, the compression on the bicep disappears and the hyperextension angle is lost, allowing them to escape completely. Proper wrist control involves gripping firmly with one or both hands and continuously pulling the wrist toward your chest to maintain the bent arm position. Without this control, the submission is ineffective regardless of shin positioning.
+
+**Q4**: What are the immediate steps you must take when your training partner taps to a bicep slicer? **[SAFETY-CRITICAL]**
+**A**: Upon receiving a tap, immediately release all pressure on the bicep and elbow, remove your shin from behind their elbow joint, release your grip on their wrist, and allow them to straighten their arm naturally without resistance. Then check with your partner about their condition before continuing training. The release must be immediate and complete—never continue applying pressure after a tap, as both the bicep muscle and elbow joint are vulnerable to serious injury from this submission.
+
+**Q5**: From which positions is the bicep slicer most commonly and effectively applied?
+**A**: The bicep slicer is most commonly applied from the crucifix position, where you have superior control and both of the opponent's arms are compromised. Other high-percentage positions include the truck (twister control), technical mount, and modified mount variations. The key requirement is having a position where you can isolate one arm, control the wrist, and insert your shin behind the elbow while maintaining dominant control to prevent escapes or counters. Attempting the bicep slicer without proper positional dominance typically results in escape or reversal.
+
+**Q6**: What mechanical principle creates the finishing pressure in the bicep slicer, and how should force be applied?
+**A**: The bicep slicer works through a scissoring or plier-like mechanism where your shin acts as one jaw and your forearm/chest acts as the other jaw, with the opponent's arm trapped between them. The force is created by pulling the wrist toward your chest while simultaneously pushing your shin deeper behind the elbow. This compression crushes the bicep muscle against the humerus bone while hyperextending the elbow joint. Force should be applied using bodyweight and hip pressure rather than just arm strength, with smooth and progressive application rather than sudden jerking movements.
+
+**Q7**: What should you do if your opponent begins to straighten their arm to escape the bicep slicer? **[SAFETY-CRITICAL]**
+**A**: If the opponent successfully begins to straighten their arm despite your wrist control, you should immediately transition to an alternative submission rather than forcing the bicep slicer. The straightening motion opens opportunities for armbars, kimuros, or other attacks. Use their momentum and the fact that their arm is now extended against them. Attempting to force a bicep slicer against a straightening arm is both ineffective and potentially dangerous, as it may cause you to apply excessive force trying to bend an arm that is actively resisting.
+
+
+
+</section>
+
+<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
+
+## How to Train This Submission Safely Over Time
+**Technical Understanding** (Week 1-2)
+- Focus: Learn anatomy, mechanics, and safety protocols without live application
+- Resistance: None
+- Safety: Study the anatomy of the bicep muscle and elbow joint to understand injury mechanisms. Review all safety protocols, tap signals, and release procedures. Watch demonstrations and discuss with instructors before any physical practice. Understand that this is an advanced submission requiring significant control and experience.
+
+**Positional Drilling** (Week 2-3)
+- Focus: Practice achieving crucifix and truck positions without submission attempts
+- Resistance: Mild resistance
+- Safety: Establish competency in the prerequisite positions (crucifix, truck, modified mount) before attempting the actual submission. Focus on maintaining control and isolating the arm without applying any compression. Partner should provide feedback on control quality and positioning.
+
+**Slow Controlled Application** (Week 3-5)
+- Focus: Practice submission application at extremely slow speed with experienced partners only
+- Resistance: Zero resistance
+- Safety: Begin practicing the actual submission technique with an experienced partner who understands the dangers and will tap early. Apply pressure over 10-15 seconds (slower than actual application speed) and release immediately upon tap. Focus on perfect shin positioning and wrist control. Stop and reset if positioning is incorrect.
+
+**Progressive Pressure Application** (Week 5-8)
+- Focus: Gradually increase pressure application speed while maintaining safety margins
+- Resistance: Mild resistance
+- Safety: Partner begins providing mild defensive resistance but still taps early before experiencing pain. Reduce application time to the recommended 5-7 second minimum. Practice the complete sequence from position establishment to release. Emphasize smooth, progressive pressure application without any explosive movements.
+
+**Realistic Drilling** (Week 8-12)
+- Focus: Practice against realistic defensive reactions and transitions
+- Resistance: Realistic resistance
+- Safety: Partner provides realistic defenses such as attempting to straighten the arm, rolling, or creating space. Practice problem-solving and adjustments while maintaining safety protocols. Continue to apply submissions slowly in training even when adding resistance. Develop the instinct to release immediately upon feeling or hearing a tap.
+
+**Live Rolling Integration** (Week 12+)
+- Focus: Integrate into live rolling with continued emphasis on safety
+- Resistance: Full resistance
+- Safety: Only attempt during live rolling with partners who understand the submission and will tap early. Maintain the 5-7 second minimum application time even in competition-style rolling. Reserve faster application speeds exclusively for actual competition. Continue prioritizing partner safety over finishing the submission in training. Regularly review and practice release protocols.
+
+
+
+</section>
+
+<section id="from-positions" class="content-section">
+
+## From Which Positions Can You Apply This Submission?
+
+- [[Crucifix]]
+- [[Truck]]
+- [[Technical Mount]]
+- [[North-South]]
+- [[S Mount]]
+- [[Twister Control]]
+- [[Gift Wrap]]
+- [[Modified Scarf Hold]]
+
+
+</section>
+
+<section id="related-submissions" class="content-section">
+
+## Which Submissions Are Related or Chain Together?
+
+- [[Kimura]]
+- [[Americana]]
+- [[Armbar from Mount]]
+- [[Armbar from Side Control]]
+- [[Straight Armbar]]
+- [[Calf Slicer]]
+- [[Calf Slicer from Truck]]
+- [[Banana Split]]
+- [[Twister]]
+- [[Rear Naked Choke]]
+- [[Kimura from Mount]]
+- [[Kimura from Side Control]]
+- [[Arm Crush]]
+- [[Spine Lock]]
+
+
+</section>
+
+<section id="related-content" class="content-section">
+
+## Additional Related Content
+
+- [[Crucifix]] - Primary attacking position for bicep slicer
+- [[Truck]] - Common setup position for bicep slicer and calf slicer combination
+- [[Kimura]] - Alternative submission when opponent defends by straightening arm
+- [[Calf Slicer]] - Similar compression lock mechanics applied to the calf instead of bicep
+- [[Technical Mount]] - Modified mount position allowing bicep slicer setup
+- [[Twister Control]] - Advanced control position offering bicep slicer as alternative finish
+- [[Americana]] - Similar arm isolation and control concepts
+- [[Back Control]] - Position that can transition to crucifix and bicep slicer opportunities
+- [[Submission Chains]] - Principle of linking bicep slicer with other upper body attacks
+- [[Leverage Principles]] - Fundamental concept explaining the mechanical advantage in compression locks
+- [[Banana Split]] - Another compression-based submission using similar mechanical principles
+- [[Gift Wrap]] - Arm control position that can transition to bicep slicer setup
+
+
+</section>
+
+<section id="expert-insights" class="content-section expert-insight">
+
+## What Do the Experts Say About This Submission?
+- **Danaher System**: The bicep slicer represents a fascinating study in leveraging bone-on-bone compression combined with joint hyperextension to create a submission that attacks two separate pain/injury mechanisms simultaneously. From a biomechanical perspective, the effectiveness comes from creating what we call a 'fulcrum and lever' system where your shin acts as the fulcrum and the opponent's arm becomes the lever. The critical technical detail is shin placement—it must be perpendicular to the arm's long axis and positioned directly behind the elbow joint capsule. Many practitioners fail with this submission because they place their shin across the forearm or bicep belly, which dissipates force and allows escape. The compression force on the bicep muscle creates immediate pain that often causes premature tapping before the joint is truly at risk, which makes this an excellent control technique in training when applied with appropriate restraint. However, the danger lies in the fact that if an opponent resists the muscle compression pain, you are simultaneously loading the elbow joint in hyperextension, which can cause catastrophic ligament damage within milliseconds of reaching the failure threshold. This dual-threat nature demands extreme caution in training—you must develop the sensitivity to recognize when you've achieved full mechanical advantage and stop applying force, rather than continuing until you feel the tap. The positional prerequisite is absolute: you must have dominant control from crucifix, truck, or equivalent positions before attempting this submission, as any defensive movement by the opponent while you're focused on the arm creates sweep or reversal opportunities.
+- **Gordon Ryan**: In competition, the bicep slicer is a money submission from the crucifix because people don't tap to it until it's too late—they think they can tough it out and then suddenly their elbow is compromised. I've finished multiple high-level black belts with this because they're so focused on defending the rear naked choke or armbar that they don't realize the bicep slicer is locked in until I've already got full pressure on. The key competition detail is that you need to have the position completely secured before you even think about the submission—if they have any ability to roll or move, you're going to lose it. What makes it work at the highest levels is that it's often a Plan C or Plan D attack, meaning they've already burned their energy defending your primary attacks and their defensive awareness is depleted. In training versus competition, my application speed is completely different—in training, I'm giving my partners 5-10 seconds and releasing at maybe 60% pressure, but in competition, once I have the position, I'm finishing it in 2-3 seconds at full pressure because at that level, everyone knows what it is and they'll tap when it's locked. The setup I use most is from the crucifix after failed choke attempts—once they defend my hands going for the RNC, their arm positioning often leaves one arm perfectly isolated for the bicep slicer. The detail that separates okay execution from fight-ending execution is pulling their wrist to your chest like you're trying to touch it to your sternum—this creates the bent arm angle that makes the submission inescapable. If there's any space or if their arm isn't fully bent, a high-level opponent will straighten it and you've lost your opportunity.
+- **Eddie Bravo**: The bicep slicer is one of those old-school catch wrestling submissions that got overlooked in modern BJJ until the leg lock revolution reminded everyone that compression locks are legit. From the truck position especially, this is a savage finish because they're already in such a compromised position dealing with the twister threat that the bicep slicer comes out of nowhere. What I've found teaching this at 10th Planet is that it's actually a great submission for smaller guys against bigger opponents because it doesn't require a ton of strength—it's all about the angle and using your shin as a wedge. The setup from the truck is particularly slick because your legs are already in perfect position from controlling the twister, so it's just a matter of catching their arm and threading your shin behind the elbow. Safety-wise, this is one where you really need to build a culture in your gym of tapping early and applying slowly, because I've seen some ugly bicep injuries when guys try to tough it out or when someone cranks it too fast. In training, I tell my students to think of it like a calf slicer—you're going for the tap from the pain of the compression, not trying to actually break something. The compression pain comes on quick, so if you apply it right, your partner should be tapping before any real joint damage occurs. The variation I've been working on recently is combining it with the electric chair position—if they defend the Electric Chair submission by straightening their leg, you can sometimes catch the near-side arm with a bicep slicer while maintaining the leg control. It's super unorthodox but it's another example of how these compression locks can work from multiple positions if you understand the mechanics.
+
+</section>
+
+</main>

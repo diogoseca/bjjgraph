@@ -1,0 +1,512 @@
+
+
+
+
+---
+title: "Collar Sleeve Guard Top | BJJ Position Guide | BJJ Graph"
+description: "Defend and pass collar sleeve guard from top position. Learn grip breaking, posture maintenance, and systematic passing strategies against collar sleeve attacks."
+---
+
+
+<body data-content-type="positions" data-sections='["state-properties","overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-errors","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+
+<!-- Schema Markup - HowTo for Attacks -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Attack from Collar Sleeve Guard Top",
+  "description": "Step-by-step guide to attacking and submitting from Collar Sleeve Guard position in BJJ.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Execute Toreando Pass",
+      "text": "From this position, execute Toreando Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Cut Pass",
+      "text": "From this position, execute Knee Cut Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Stack Pass",
+      "text": "From this position, execute Stack Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Double Under Pass",
+      "text": "From this position, execute Double Under Pass to transition to Side Control. Success rate for advanced practitioners: 70%.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Leg Drag Pass",
+      "text": "From this position, execute Leg Drag Pass to transition to Side Control. Success rate for advanced practitioners: 65%.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Knee Slice Pass",
+      "text": "From this position, execute Knee Slice Pass to transition to Side Control. Success rate for advanced practitioners: 75%.",
+      "position": 6
+    }
+  ],
+  "totalTime": "PT2M"
+}
+</script>
+
+<!-- Schema Markup - FAQ from Common Errors -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens if you allowing posture to break forward when opponent pulls collar grip?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Creates immediate sweep vulnerability and allows opponent to control engagement distance and timing The correct approach is: Keep hips back, chest elevated, and drive knees outward to create stable tripod base that resists forward pulling forces"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you posting the free hand forward carelessly without awareness of triangle threat?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent immediately shoots triangle around your neck, capturing the posted arm and creating high-percentage submission opportunity The correct approach is: When posting free hand, keep elbow tight to your ribs and hand positioned defensively, or maintain it controlling opponent's collar to prevent triangle entries"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you attempting to pass without first breaking or neutralizing opponent's grips?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent uses grip control to steer your passing attempts directly into their sweep or submission setups The correct approach is: Establish your own collar or sleeve grips first, or use leverage-based grip breaks before committing to passing movements"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you placing too much weight on the leg where opponent controls your sleeve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cannot post that hand for base, making you vulnerable to being swept in that direction when weight is committed The correct approach is: Distribute weight primarily to opposite leg and maintain ability to base out with free hand while keeping sleeved-side light"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if you remaining stationary and allowing opponent to establish perfect guard distance and angle?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Opponent controls engagement pace and can set up sweeps and attacks at ideal timing without pressure The correct approach is: Constantly adjust distance and angles, moving forward to pressure or backward to create passing space, preventing static positioning"
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Schema Markup - WebPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Collar Sleeve Guard Top",
+  "description": "Defend and pass collar sleeve guard from top position. Learn grip breaking, posture maintenance, and systematic passing strategies against collar sleeve attacks.",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "BJJ Graph",
+    "url": "https://bjjgraph.org"
+  }
+}
+</script>
+
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bjjgraph.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Positions",
+      "item": "https://bjjgraph.org/Positions/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Collar Sleeve Guard Top",
+      "item": "https://bjjgraph.org/Positions/Collar-Sleeve-Guard-Top"
+    }
+  ]
+}
+</script>
+
+
+
+
+# Collar Sleeve Guard Top
+
+#Guard Passing #Top Position #Collar Sleeve Defense #Grip Fighting #Intermediate 
+
+> **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.
+>
+> **Quick Stats**: Advanced practitioners maintain control 75% of the time and finish submissions in 35% of exchanges.
+
+---
+
+
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+<section id="state-properties" class="content-section">
+
+## Position Properties
+
+- **State ID**: ``
+- **Point Value**: 0 (0 points)
+- **Position Type**: Neutral
+- **Risk Level**: Medium
+- **Energy Cost**: Medium
+- **Time Sustainability**: Medium to Long
+
+</section>
+
+<section id="overview" class="content-section">
+
+## What is Collar Sleeve Guard from the Top?
+
+From the top perspective, facing collar sleeve guard requires systematic grip fighting, posture maintenance, and strategic passing that neutralizes the bottom player's grip-based control. Your primary challenges are preventing the opponent from establishing their preferred grip structure and maintaining base while initiating passing sequences that don't expose you to sweeps or submissions.
+
+The top player's success against collar sleeve guard begins before the guard is fully established. During the transition from closed guard to open guard, grip fighting determines who controls the engagement. If the bottom player secures their cross-collar and sleeve grips first, you're immediately defending rather than attacking. Proactive grip fighting that establishes your own collar grips or controls the bottom player's sleeves prevents them from completing their guard structure.
+
+Once collar sleeve guard is established, your immediate priority is posture maintenance and base distribution. The bottom player's collar grip creates constant pulling force designed to break your posture forward, while their sleeve grip prevents you from posting on that side. Understanding these mechanical constraints allows you to distribute weight strategically, keeping your hips back and maintaining upright posture that minimizes the effectiveness of their collar pull.
+
+Grip breaking becomes essential when the bottom player has established strong collar sleeve control. Rather than simply yanking your sleeve free, effective grip breaks use leverage and timing. The most reliable method involves using your free hand to grip their collar-gripping hand at the wrist, then explosively driving your hips back while pulling their gripping hand away from your collar. This creates leverage that breaks even strong grips without requiring superior strength.
+
+Passing strategies against collar sleeve guard generally fall into two categories: distance passing that clears the legs entirely, or pressure passing that smashes through the guard structure. Distance passing, particularly the toreando or bullfighter pass, involves controlling both pant legs or knees and moving laterally to clear the guard before the bottom player can establish frames or recover guard. Pressure passing typically involves establishing a strong cross-face grip, driving your shoulder into their face, and using heavy pressure to flatten their hips while moving around their legs.
+
+The bottom player's attacks from collar sleeve guard create specific vulnerabilities you can exploit. When they commit to sweep attempts, particularly pendulum or flower sweeps, they must extend their legs and shift their weight in predictable directions. Recognizing these commitment moments allows you to base out appropriately and counter-pass in the direction opposite their sweep. When they attempt triangles by shooting their leg up, proper posture and immediate grip breaks prevent them from locking the position.
+
+Energy conservation from the top position requires balancing constant pressure with strategic rest periods. Maintaining perfect posture and base against active collar sleeve guard demands significant core and leg strength. Experienced passers develop rhythms where they apply intense passing pressure for 15-20 seconds, then briefly recover while maintaining safe distance before initiating another passing sequence.
+
+Transitioning to dominant positions occurs when you successfully clear the guard structure. The most common progressions lead to side control, knee on belly, or headquarters position. Each requires maintaining control throughout the transition so the bottom player cannot reguard or create scrambles. Successful passers anticipate the bottom player's guard recovery attempts and use grips and weight distribution to shut down reguard before it develops.
+
+</section>
+
+<section id="state-invariants" class="content-section">
+
+## What Defines This Position?
+
+- Top player maintains upright posture with hips back and chest elevated, preventing the bottom player's collar grip from pulling them forward into broken posture where their base becomes compromised and sweep vulnerabilities increase dramatically
+- Top player distributes weight between both legs and both hands when posted, never allowing weight to shift entirely onto the leg on the sleeved-arm side where posting is prevented, ensuring stable base regardless of pulling direction
+- Top player maintains awareness of free hand position, keeping it either posted for base or controlling opponent's grips, never allowing it to float freely where bottom player can attack triangle by capturing the arm
+
+
+</section>
+
+<section id="prerequisites" class="content-section">
+
+## What Do You Need Before This Position?
+
+- Opponent has established collar sleeve guard grips or is attempting to establish them
+- You are in kneeling or standing position facing opponent's guard
+- You have maintained or are working to maintain upright posture
+- Your base is distributed to prevent immediate sweeps
+- You have identified opponent's grip structure and attack preferences
+
+
+</section>
+
+<section id="key-principles" class="content-section">
+
+## Key Offensive Principles
+
+- Posture maintenance prevents collar grip from creating forward imbalance
+- Proactive grip fighting prevents opponent from establishing preferred grips
+- Base distribution accounts for inability to post on sleeved-arm side
+- Grip breaks use leverage and hip movement rather than pure strength
+- Passing strategies target moments when opponent commits to attacks
+- Distance management prevents opponent from maintaining ideal guard range
+- Counter-grips on collar or sleeves neutralize opponent's control before passing
+
+
+</section>
+
+<section id="offensive-transitions" class="content-section">
+
+## What Attacks Are Available?
+
+### [[Toreando Pass]] → [[Side Control]]
+
+**Success Rates:**
+- Beginner: 40%
+- Intermediate: 55%
+- Advanced: 70%
+
+### [[Knee Cut Pass]] → [[Side Control]]
+
+**Success Rates:**
+- Beginner: 45%
+- Intermediate: 60%
+- Advanced: 75%
+
+### [[Stack Pass]] → [[Side Control]]
+
+**Success Rates:**
+- Beginner: 35%
+- Intermediate: 50%
+- Advanced: 65%
+
+### [[Double Under Pass]] → [[Side Control]]
+
+**Success Rates:**
+- Beginner: 40%
+- Intermediate: 55%
+- Advanced: 70%
+
+### [[Leg Drag Pass]] → [[Side Control]]
+
+**Success Rates:**
+- Beginner: 35%
+- Intermediate: 50%
+- Advanced: 65%
+
+### [[Knee Slice Pass]] → [[Side Control]]
+
+**Success Rates:**
+- Beginner: 45%
+- Intermediate: 60%
+- Advanced: 75%
+
+### [[Pressure Pass]] → [[Side Control]]
+
+**Success Rates:**
+- Beginner: 40%
+- Intermediate: 55%
+- Advanced: 70%
+
+### [[Headquarters Pass]] → [[Headquarters Position]]
+
+**Success Rates:**
+- Beginner: 50%
+- Intermediate: 65%
+- Advanced: 80%
+
+
+
+</section>
+
+<section id="defensive-responses" class="content-section hide-minimal">
+
+## How Does the Opponent Escape?
+
+- **[[Pendulum Sweep]]** → [[Mount]]
+- **[[Triangle Setup]]** → [[Triangle Control]]
+- **[[Scissor Sweep]]** → [[Mount]]
+- **[[Flower Sweep]]** → [[Mount]]
+- **[[Omoplata Sweep]]** → [[Omoplata Control]]
+
+
+</section>
+
+<section id="counter-transitions" class="content-section hide-minimal">
+
+## How to Counter Opponent's Escapes
+
+- **[[Knee Slice Pass]]** → [[Side Control]]
+  - Opponent commits to pendulum sweep and extends legs
+- **[[Stack Pass]]** → [[Side Control]]
+  - Opponent attempts triangle and brings knees high
+- **[[Toreando Pass]]** → [[Side Control]]
+  - Opponent extends both legs for scissor sweep attempt
+
+
+</section>
+
+<section id="decision-tree" class="content-section">
+
+## Decision Making from This Position
+
+**If opponent has established both collar and sleeve grips with strong tension:**
+- Execute **[[Grip Break]]** → [[Collar Sleeve Guard Top]] (Probability: 70%)
+- Execute **[[Headquarters Pass]]** → [[Headquarters Position]] (Probability: 60%)
+
+
+**If opponent commits to pendulum or flower sweep with extended legs:**
+- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Knee Cut Pass]]** → [[Side Control]] (Probability: 60%)
+
+
+**If opponent shoots triangle by bringing leg high around your neck:**
+- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Posture Recovery]]** → [[Collar Sleeve Guard Top]] (Probability: 70%)
+
+
+**If opponent maintains distance with extended legs and frames:**
+- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Leg Drag Pass]]** → [[Side Control]] (Probability: 60%)
+
+
+**If opponent's grips are weak or you have established counter-grips:**
+- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 70%)
+- Execute **[[Double Under Pass]]** → [[Side Control]] (Probability: 65%)
+
+
+
+
+</section>
+
+<section id="common-errors" class="content-section hide-minimal">
+
+## Common Offensive Mistakes
+
+### 1. Allowing posture to break forward when opponent pulls collar grip
+
+- ❌ **Consequence**: Creates immediate sweep vulnerability and allows opponent to control engagement distance and timing
+- ✅ **Correction**: Keep hips back, chest elevated, and drive knees outward to create stable tripod base that resists forward pulling forces
+
+### 2. Posting the free hand forward carelessly without awareness of triangle threat
+
+- ❌ **Consequence**: Opponent immediately shoots triangle around your neck, capturing the posted arm and creating high-percentage submission opportunity
+- ✅ **Correction**: When posting free hand, keep elbow tight to your ribs and hand positioned defensively, or maintain it controlling opponent's collar to prevent triangle entries
+
+### 3. Attempting to pass without first breaking or neutralizing opponent's grips
+
+- ❌ **Consequence**: Opponent uses grip control to steer your passing attempts directly into their sweep or submission setups
+- ✅ **Correction**: Establish your own collar or sleeve grips first, or use leverage-based grip breaks before committing to passing movements
+
+### 4. Placing too much weight on the leg where opponent controls your sleeve
+
+- ❌ **Consequence**: Cannot post that hand for base, making you vulnerable to being swept in that direction when weight is committed
+- ✅ **Correction**: Distribute weight primarily to opposite leg and maintain ability to base out with free hand while keeping sleeved-side light
+
+### 5. Remaining stationary and allowing opponent to establish perfect guard distance and angle
+
+- ❌ **Consequence**: Opponent controls engagement pace and can set up sweeps and attacks at ideal timing without pressure
+- ✅ **Correction**: Constantly adjust distance and angles, moving forward to pressure or backward to create passing space, preventing static positioning
+
+### 6. Passing in predictable single direction without creating passing dilemmas
+
+- ❌ **Consequence**: Opponent can focus all defensive energy on shutting down your single passing approach
+- ✅ **Correction**: Threaten passes in multiple directions, using opponent's defense of one pass to create opportunities for complementary passes
+
+
+
+</section>
+
+<section id="training-drills" class="content-section hide-minimal">
+
+## Training Drills for Attacks
+
+### Posture Maintenance vs. Collar Pull
+
+Partner establishes collar sleeve guard with strong grips. They continuously pull your collar trying to break your posture forward. You must maintain upright posture with hips back and stable base for continuous 2-minute rounds. Focus on core engagement and base distribution that resists pulling forces without muscling through.
+
+**Duration**: 5 minutes
+
+
+### Grip Break and Re-Establish Cycle
+
+Partner establishes collar sleeve grips. You break one grip using proper leverage technique, then partner immediately tries to re-establish. Continuous cycle of breaking grips and preventing re-establishment. Develops timing and efficiency in grip fighting exchanges without strength reliance.
+
+**Duration**: 4 minutes
+
+
+### Pass vs. Sweep Recognition Drill
+
+Partner plays collar sleeve guard and randomly attacks with pendulum sweep, flower sweep, or triangle. You must recognize which attack is coming and execute appropriate defense (base for sweeps, posture for triangle). Partner resets after each attack. Develops recognition speed and defensive reflexes.
+
+**Duration**: 5 minutes
+
+
+### Progressive Passing Resistance
+
+Partner plays collar sleeve guard with graded resistance: Round 1 (30% resistance), Round 2 (50% resistance), Round 3 (75% resistance). You must successfully pass within 90 seconds at each level. Develops passing technique under increasing pressure and builds problem-solving skills.
+
+**Duration**: 6 minutes
+
+
+
+
+</section>
+
+<section id="optimal-submission-paths" class="content-section">
+
+## Optimal Submission Paths
+
+### Guard Pass to Submission Control
+
+`Collar Sleeve Guard Top → Knee Slice Pass → Side Control → Kimura from Side Control`
+
+### Counter Triangle to Pass
+
+`Collar Sleeve Guard Top → Triangle Setup (Defended) → Stack Pass → Side Control → Americana from Side Control`
+
+### Distance Pass to Mount Attack
+
+`Collar Sleeve Guard Top → Toreando Pass → Side Control → Side Control to Mount → Armbar from Mount`
+
+
+
+</section>
+
+<section id="position-metrics" class="content-section">
+
+## Success Rates and Statistics
+
+| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
+|--------------|----------------|-------------------------|------------------------|
+| Beginner     | 45% | 40% | 15% |
+| Intermediate | 60% | 55% | 25% |
+| Advanced     | 75% | 70% | 35% |
+
+**Average Time in Position**: 60-120 seconds to complete guard pass or get swept
+
+
+</section>
+
+<section id="expert-insights" class="content-section expert-insight">
+
+## What Do the Experts Say?
+
+### John Danaher - Systematic Attacks
+
+Defending collar sleeve guard requires understanding the mechanical vulnerabilities the position creates for you and systematically addressing them before attempting to pass. The bottom player's grip structure is designed to compromise your base in specific directions—the collar grip pulls you forward and rotationally, while the sleeve grip prevents posting on one side. Your defensive structure must account for these limitations by maintaining your hips back, keeping your posture upright, and distributing your weight to prevent over-commitment to the side where you cannot post. The most common error is attempting to pass before neutralizing the grip-based control, which allows the bottom player to steer your passing attempts directly into their sweep or submission sequences. Effective passing begins with establishing your own collar grips or using proper leverage-based grip breaks that don't require strength advantages. Once you've neutralized their grips or established superior grips of your own, your passing success rate increases dramatically because you're now controlling the engagement distance and timing rather than reacting to their attacks.
+
+### Gordon Ryan - Competition Application
+
+When I'm on top against collar sleeve guard, my entire strategy revolves around preventing them from establishing their ideal grip structure and maintaining pressure that makes their attacks low percentage. If they get perfect collar sleeve grips on me, I'm immediately working grip breaks—I'm not trying to pass through perfect grips because that's exactly what they want. My preferred approach is to establish my own collar grips first, then work the toreando pass by controlling their knees and moving laterally to clear the guard before they can establish frames. Against opponents who are insistent on maintaining collar sleeve, I'll use the knee cut pass, driving my shin across their thighs while establishing a strong cross-face that flattens their hips and prevents them from maintaining the angle and distance they need for their sweeps to work. The key at the elite level is recognizing when they commit to attacks—when they go for that pendulum sweep, their legs extend and they're momentarily light on that side, which is exactly when I'm cutting my knee through to pass. You have to make their guard structure work against them by timing your passes to their attack commitments.
+
+### Eddie Bravo - 10th Planet Approach
+
+Dealing with collar sleeve guard is all about not letting them get comfortable and set up their attacks. The moment they start establishing those grips, I'm fighting immediately—I'm not waiting for them to get perfect position because once they've got solid collar sleeve control, they've got too many options. My go-to defense is to get grips on their pants at the knees and start moving, either going for the toreando or starting to move into my knee slice. What a lot of people don't realize is that collar sleeve guard is strong when you're static, but when you start moving and creating angles, it breaks down fast because they can't maintain the perfect distance and angle control they need. If they do get me in their guard with good grips, I'm using my free hand to grip fight and break that collar grip before I commit to anything. One thing I emphasize with my students is that passing collar sleeve isn't about one technique; it's about creating a passing dilemma where you threaten multiple passes so they can't focus all their defense on one technique. Threaten the toreando, and when they defend by bringing their knees together, you cut through with the knee slice. Make them defend multiple threats and they'll eventually give you the pass.
+
+</section>
+
+<section id="related-content" class="content-section">
+
+## Related Positions and Techniques
+
+- **[[Side Control]]** - Primary target position after successful guard pass
+- **[[Headquarters Position]]** - Transitional position when passing around legs
+- **[[Toreando Pass]]** - High-percentage distance passing technique against collar sleeve
+- **[[Stack Pass]]** - Pressure passing option when opponent brings knees high
+- **[[Grip Breaking]]** - Essential skill for neutralizing opponent's control
+- **[[Posture Up]]** - Fundamental defensive principle against collar pulling
+- **[[Guard Passing Principles]]** - Systematic framework for passing any guard variation
+- **[[Knee Slice Pass]]** - Effective counter when opponent commits to sweeps
+
+
+</section>
+
+</main>

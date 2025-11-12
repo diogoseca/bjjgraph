@@ -59,9 +59,21 @@ The Rubber Guard is a specialized guard position developed and popularized by Ed
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[Rubber Guard]] | Medium | High | Medium | Medium | High flexibility for arm control |
 
+| [[Mission Control]] | Medium | High | Medium | High | High guard trades base for submission proximity |
+
+| [[New York]] | Medium | High | Medium | High | High-risk control trading stability for attacks |
+
+| [[New York Control]] | Medium | High | Medium | Medium | Extreme flexibility enables submission access |
+
+| [[Invisible Collar]] | High | Low to Medium | High | Medium | Deceptive grip hides submission threat |
+
 | [[Zombie]] | Medium | Medium | Medium | Medium | Lockdown transforms defensive turtle into offense |
 
+| [[Crackhead Control]] | High | Medium to High | Medium | High | Deep overhook trades safety for submissions |
+
 | [[Meathook]] | Medium | High | High | High | Extreme arm isolation for devastating attacks |
+
+| [[Chill Dog]] | Medium | Low to Medium | Medium | Medium | Compact turtle defense with escape options |
 
 | [[Carni]] | Medium | High | Medium | High | Dynamic leg control trades static security |
 

@@ -69,6 +69,10 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[Lasso Guard]] | Medium | Medium | Medium | Medium | Sleeve extension trades mobility for sweeps |
 
+| [[Inverted Lasso Guard]] | Medium to High | Medium to High | High | Medium | Inverted posture creates superior sweep angles |
+
+| [[Russian Leg Lasso]] | Medium | Medium | Medium | Medium | Deep lasso with extra grip controls |
+
 
 
 

@@ -63,6 +63,12 @@ From back control, the top practitioner maintains a significant positional advan
 |---------|-------------|----------|---------------|------------|-------------------------------|
 | [[Back Control]] | High | Low | High | Medium | Maximum submission threat with minimal risk |
 
+| [[Seat Belt Control Back]] | High | Low | Medium | Medium | Diagonal over-under grip prevents rotation |
+
+| [[Body Triangle]] | Low to Medium | High | Low | High | Figure-four lock trades mobility for control |
+
+| [[Standing Back Control]] | High | Medium | High | Medium | Vertical stance trades stability for takedowns |
+
 
 
 
