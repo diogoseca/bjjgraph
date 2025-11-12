@@ -29,39 +29,39 @@ Most beginners try to skip straight to reversals and sweeps. They get submitted.
 
 ## Mount Escapes
 
-Someone's sitting on your chest, you've given up 4 points, and breathing feels like work. Mount sucks, but it's escapable. Here's what actually works.
+Someone's sitting on your chest, you've given up 4 points, and breathing feels like work. [[Mount Bottom|Mount]] sucks, but it's escapable. Here's what actually works.
 
 **[[Bridge and Roll]]** is the first escape everyone learns, and unlike most "white belt" techniques, it genuinely works at all levels. Trap their arm and foot on the same side, bridge explosively toward that side, roll them over. The timing matters—catch them when they're reaching for something or posting for balance. Beginners land this about 45% of the time when the opportunity presents itself. Advanced players hit 75% because they create the opportunity instead of waiting for it.
 
-**[[Hip Escape]]** is less exciting but more reliable. Frame on their hips with your hands, shrimp your hips away from them, create enough space to insert your knee, then recover to half guard or closed guard. This often requires multiple shrimps—one is rarely enough. It's not flashy, but it works even when they see it coming, which is why you'll use this escape in almost every roll for the rest of your BJJ career.
+**[[Hip Escape]]** (also called the [[Elbow Escape]] or [[Shrimp Escape]]) is less exciting but more reliable. Frame on their hips with your hands, shrimp your hips away from them, create enough space to insert your knee, then recover to [[Half Guard Bottom|half guard]] or [[Closed Guard Bottom|closed guard]]. This often requires multiple shrimps—one is rarely enough. It's not flashy, but it works even when they see it coming, which is why you'll use this escape in almost every roll for the rest of your BJJ career.
 
-Getting back to your feet is sometimes the smart move, especially in MMA or self-defense contexts. Create space however you can, turn to your side, work your way up. Technical stand-up keeps you facing them with your extended leg as a barrier against takedowns.
+Getting back to your feet is sometimes the smart move, especially in MMA or self-defense contexts. Create space however you can, turn to your side, work your way up. [[Technical Standup|Technical stand-up]] keeps you facing them with your extended leg as a barrier against takedowns.
 
-For detailed execution guides with common mistakes and variations, check the individual technique pages.
+For detailed execution guides with common mistakes and variations, check the individual technique pages like [[Mount Bottom]] and [[Transitions/Bridge and Roll]].
 
 ## Side Control Escapes
 
-Side control is the 3-point position where you'll spend the most mat time as a white belt. Good news: it's easier to escape than mount if you act early and don't let them settle.
+[[Side Control Bottom|Side control]] is the 3-point position where you'll spend the most mat time as a white belt. Good news: it's easier to escape than [[Mount Bottom|mount]] if you act early and don't let them settle.
 
-The fundamental escape is frame and shrimp. Your inside arm frames their neck (prevents the crossface that makes everything worse), outside arm frames their hip (creates space you can use). Shrimp your hips away, insert your knee as a barrier, recover to half guard first because it's easier than going straight to closed guard.
+The fundamental escape is [[Frame and Shrimp]]. Your inside arm frames their neck (prevents the crossface that makes everything worse), outside arm frames their hip (creates space you can use). Shrimp your hips away, insert your knee as a barrier, recover to [[Half Guard Bottom|half guard]] first because it's easier than going straight to [[Closed Guard Bottom|closed guard]].
 
-You'll need multiple shrimps. This isn't a one-rep movement. Shrimp, create a bit of space, insert your knee shield, shrimp again, work your way back. Every BJJ player does this hundreds of times per week. It never stops being useful.
+You'll need multiple shrimps. This isn't a one-rep movement. Shrimp, create a bit of space, insert your [[Knee Shield]], shrimp again, work your way back. Every BJJ player does this hundreds of times per week. It never stops being useful.
 
-Bridge and roll works from side control too, but only when they're genuinely off-balance. You need an underhook and perfect timing. When it hits, it's beautiful. When it doesn't, you're still in side control and you've burned energy. Use strategically.
+[[Bridge and Roll]] works from side control too, but only when they're genuinely off-balance. You need an underhook and perfect timing. When it hits, it's beautiful. When it doesn't, you're still in side control and you've burned energy. Use strategically.
 
-Turning to turtle isn't technically an escape—you're still in a bad position—but it's better than staying flat on your back when all other options are blocked. From turtle you can stand up or work back to guard. Just defend the back take aggressively because that's worse than side control.
+Turning to [[Turtle]] isn't technically an escape—you're still in a bad position—but it's better than staying flat on your back when all other options are blocked. From turtle you can stand up or work back to guard. Just defend the [[Back Take Generic|back take]] aggressively because [[Back Control Bottom|back control]] is worse than side control.
 
 ## Back Control Escapes
 
-Back control is the 4-point position, the most dominant in BJJ, and the one with the lowest escape success rates. If someone good has your back with both hooks in, you're in trouble. But there's still a path out.
+[[Back Control Bottom|Back control]] is the 4-point position, the most dominant in BJJ, and the one with the lowest escape success rates. If someone good has your back with both hooks in, you're in trouble. But there's still a path out.
 
-First: defend the choke. If they sink in a rear naked choke properly, positional escape becomes irrelevant—you'll be unconscious. Two-on-one grip fighting on the choking arm. Chin down protecting your neck. Fight their hands before you worry about escaping the position. Once the choke is locked, you have maybe 3-5 seconds before sleep. Don't be a hero, tap early.
+First: defend the choke. If they sink in a [[Rear Naked Choke]] properly, positional escape becomes irrelevant—you'll be unconscious. Two-on-one grip fighting on the choking arm. Chin down protecting your neck. Fight their hands before you worry about escaping the position. Once the choke is locked, you have maybe 3-5 seconds before sleep. Don't be a hero, tap early.
 
-Once the immediate submission threat is managed, hip escape toward the bottom hook (the one lower on your body). Strip hooks as you move. Work to get your shoulders flat on the mat—this breaks their back control structure and lets you face them again, recovering guard or creating a scramble.
+Once the immediate submission threat is managed, hip escape toward the bottom hook (the one lower on your body). Strip hooks as you move. Work to get your shoulders flat on the mat—this breaks their [[Back Control Top|back control]] structure and lets you face them again, recovering guard or creating a scramble.
 
-The Granby roll is the advanced answer—an inverted rolling escape that looks slick and works reliably once mastered. Requires flexibility and significant practice. Purple belt territory. If you're a white belt reading this, table it for later.
+The [[Granby Roll]] is the advanced answer—an inverted rolling escape that looks slick and works reliably once mastered. Requires flexibility and significant practice. Purple belt territory. If you're a white belt reading this, table it for later.
 
-Real talk: back escapes have the lowest success rates of any major position. The position is just that dominant. Your better strategy is preventing back takes in the first place.
+Real talk: back escapes have the lowest success rates of any major position. The position is just that dominant. Your better strategy is preventing [[Back Take Generic|back takes]] in the first place.
 
 ## Guard Pass Defense
 
@@ -77,21 +77,21 @@ There are three stages to defending a pass: early (prevent their grips), middle 
 
 Submissions are defended in their early stages, not their late stages. If someone has you locked in a fully finished submission, your only safe option is tapping. Defend the setup, not the finish.
 
-**Armbar**: Keep your elbow bent. Prevent full extension. Rotate your thumb up (hitchhiker escape). Stack them if you can. Once your arm is fully extended, tapping is the safe choice.
+**[[Armbar]]**: Keep your elbow bent. Prevent full extension. Rotate your thumb up (hitchhiker escape). Stack them if you can. Once your arm is fully extended, tapping is the safe choice. See [[Armbar Control]] for the position you're defending from.
 
-**Triangle**: Posture up immediately. Stand if possible, stack them, create space before they lock it. If they've already locked the triangle and broken your posture, you're in serious danger.
+**[[Triangle Choke|Triangle]]**: Posture up immediately. Stand if possible, stack them, create space before they lock it. If they've already locked the [[Triangle Control|triangle]] and broken your posture, you're in serious danger.
 
-**Rear Naked Choke**: Fight the hands with two-on-one grip fighting. Create breathing space by turning your head. Once it's locked properly, you have seconds, not minutes.
+**[[Rear Naked Choke]]**: Fight the hands with two-on-one grip fighting. Create breathing space by turning your head. Once it's locked properly, you have seconds, not minutes.
 
 ## The Movements Behind Everything
 
 Every escape uses the same fundamental movements. Drill these until they're automatic and your escapes will improve across the board.
 
-The shrimp (hip escape) creates space and angles. It's the most important movement in BJJ. Turn on your side, push off your bottom foot, drive your hips back. Mount escapes use it, side control escapes use it, back escapes use it, guard retention uses it. Drill 50 daily as a white belt.
+The [[Hip Escape|shrimp]] creates space and angles. It's the most important movement in BJJ. Turn on your side, push off your bottom foot, drive your hips back. [[Mount Bottom|Mount escapes]] use it, [[Side Control Bottom|side control escapes]] use it, [[Back Control Bottom|back escapes]] use it, [[Guard Retention|guard retention]] uses it. Drill 50 daily as a white belt. See [[Hip Escape Mechanics]] for the biomechanics.
 
-The bridge breaks your opponent's base with an explosive hip lift. Power comes from your legs pushing through your heels, not your lower back (which will hurt if you do it wrong). Used in mount escapes and certain sweeps.
+The [[Bridge and Roll|bridge]] breaks your opponent's base with an explosive hip lift. Power comes from your legs pushing through your heels, not your lower back (which will hurt if you do it wrong). Used in mount escapes and certain sweeps like [[Hip Bump Sweep]].
 
-Technical stand-up gets you to your feet safely. One hand posts, opposite leg extends as a barrier, stand while facing them. Essential for self-defense and MMA.
+[[Technical Standup|Technical stand-up]] gets you to your feet safely. One hand posts, opposite leg extends as a barrier, stand while facing them. Essential for self-defense and MMA. See [[Standing Position]] for what comes next.
 
 ## What to Learn First
 
