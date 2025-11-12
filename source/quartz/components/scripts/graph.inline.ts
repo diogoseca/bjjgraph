@@ -144,7 +144,11 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   }
 
   const nodes = [...neighbourhood].map((url) => {
-    const text = url.startsWith("tags/") ? "#" + url.substring(5) : (data.get(url)?.title ?? url)
+    let text = url.startsWith("tags/") ? "#" + url.substring(5) : (data.get(url)?.title ?? url)
+    // Strip everything after the first " | " for cleaner graph display
+    if (text.includes(" | ")) {
+      text = text.split(" | ")[0]
+    }
     return {
       id: url,
       text,
