@@ -52,6 +52,13 @@ const config: QuartzConfig = {
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#fff23688",
+          // Content-type colors (Tol Bright palette - colorblind-safe)
+          graphPosition: "#4477AA",
+          graphTransition: "#EE6677",
+          graphSubmission: "#228833",
+          graphPrinciple: "#CCBB44",
+          graphSystem: "#AA3377",
+          graphTag: "#66CCEE",
         },
         darkMode: {
           light: "#161618",
@@ -63,6 +70,13 @@ const config: QuartzConfig = {
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#b3aa0288",
+          // Content-type colors (Tol Bright palette - colorblind-safe)
+          graphPosition: "#7799CC",
+          graphTransition: "#FF99AA",
+          graphSubmission: "#66BB66",
+          graphPrinciple: "#EEDD88",
+          graphSystem: "#CC77AA",
+          graphTag: "#99DDFF",
         },
       },
     },

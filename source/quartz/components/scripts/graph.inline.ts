@@ -185,6 +185,12 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     "--dark",
     "--darkgray",
     "--bodyFont",
+    "--graphPosition",
+    "--graphTransition",
+    "--graphSubmission",
+    "--graphPrinciple",
+    "--graphSystem",
+    "--graphTag",
   ] as const
   const computedStyleMap = cssVars.reduce(
     (acc, key) => {
@@ -194,16 +200,34 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     {} as Record<(typeof cssVars)[number], string>,
   )
 
-  // calculate color
+  // helper function to detect content type from node slug
+  function getContentTypeColor(nodeId: SimpleSlug): string {
+    if (nodeId.startsWith("positions/")) return computedStyleMap["--graphPosition"]
+    if (nodeId.startsWith("transitions/")) return computedStyleMap["--graphTransition"]
+    if (nodeId.startsWith("submissions/")) return computedStyleMap["--graphSubmission"]
+    if (nodeId.startsWith("principles/")) return computedStyleMap["--graphPrinciple"]
+    if (nodeId.startsWith("systems/")) return computedStyleMap["--graphSystem"]
+    if (nodeId.startsWith("tags/")) return computedStyleMap["--graphTag"]
+    return computedStyleMap["--gray"]
+  }
+
+  // calculate color based on content type and state
   const color = (d: NodeData) => {
     const isCurrent = d.id === slug
+    const isTag = d.id.startsWith("tags/")
+    const isVisited = visited.has(d.id)
+
+    // Get base color for this content type
+    const baseColor = getContentTypeColor(d.id)
+
+    // For current page, return base color (will be highlighted by node styling)
     if (isCurrent) {
-      return computedStyleMap["--secondary"]
-    } else if (visited.has(d.id) || d.id.startsWith("tags/")) {
-      return computedStyleMap["--tertiary"]
-    } else {
-      return computedStyleMap["--gray"]
+      return baseColor
     }
+
+    // For visited pages, we'll handle dimming in the node styling
+    // For now, return the base color
+    return baseColor
   }
 
   function nodeRadius(d: NodeData) {
@@ -392,16 +416,19 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
     let oldLabelOpacity = 0
     const isTagNode = nodeId.startsWith("tags/")
+    const isVisited = visited.has(nodeId) && nodeId !== slug
+    const nodeColor = color(n)
     const gfx = new Graphics({
       interactive: true,
       label: nodeId,
       eventMode: "static",
       hitArea: new Circle(0, 0, nodeRadius(n)),
       cursor: "pointer",
+      alpha: isVisited ? 0.6 : 1.0,
     })
       .circle(0, 0, nodeRadius(n))
-      .fill({ color: isTagNode ? computedStyleMap["--light"] : color(n) })
-      .stroke({ width: isTagNode ? 2 : 0, color: color(n) })
+      .fill({ color: isTagNode ? computedStyleMap["--light"] : nodeColor })
+      .stroke({ width: isTagNode ? 2 : 0, color: nodeColor })
       .on("pointerover", (e) => {
         updateHoverInfo(e.target.label)
         oldLabelOpacity = label.alpha

@@ -8,6 +8,13 @@ export interface ColorScheme {
   tertiary: string
   highlight: string
   textHighlight: string
+  // Content-type colors for graph visualization
+  graphPosition: string
+  graphTransition: string
+  graphSubmission: string
+  graphPrinciple: string
+  graphSystem: string
+  graphTag: string
 }
 
 interface Colors {
@@ -51,6 +58,12 @@ ${stylesheet.join("\n\n")}
   --tertiary: ${theme.colors.lightMode.tertiary};
   --highlight: ${theme.colors.lightMode.highlight};
   --textHighlight: ${theme.colors.lightMode.textHighlight};
+  --graphPosition: ${theme.colors.lightMode.graphPosition};
+  --graphTransition: ${theme.colors.lightMode.graphTransition};
+  --graphSubmission: ${theme.colors.lightMode.graphSubmission};
+  --graphPrinciple: ${theme.colors.lightMode.graphPrinciple};
+  --graphSystem: ${theme.colors.lightMode.graphSystem};
+  --graphTag: ${theme.colors.lightMode.graphTag};
 
   --headerFont: "${theme.typography.header}", ${DEFAULT_SANS_SERIF};
   --bodyFont: "${theme.typography.body}", ${DEFAULT_SANS_SERIF};
@@ -67,6 +80,12 @@ ${stylesheet.join("\n\n")}
   --tertiary: ${theme.colors.darkMode.tertiary};
   --highlight: ${theme.colors.darkMode.highlight};
   --textHighlight: ${theme.colors.darkMode.textHighlight};
+  --graphPosition: ${theme.colors.darkMode.graphPosition};
+  --graphTransition: ${theme.colors.darkMode.graphTransition};
+  --graphSubmission: ${theme.colors.darkMode.graphSubmission};
+  --graphPrinciple: ${theme.colors.darkMode.graphPrinciple};
+  --graphSystem: ${theme.colors.darkMode.graphSystem};
+  --graphTag: ${theme.colors.darkMode.graphTag};
 }
 `
 }
