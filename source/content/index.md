@@ -1,188 +1,116 @@
 ---
-title: BJJ State Machine
+title: BJJ Graph - Interactive Brazilian Jiu-Jitsu Knowledge Base
 ---
-
 
 <!-- Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "BJJ State Machine",
-  "description": "This file serves as documentation for the BJJ State Machine Canvas visualization. To view the canvas, click on the filename in Obsidian's file explorer and select \"Open as canvas\" or create a new c...",
-  "url": "https://bjjgraph.org",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
+  "@type": "WebSite",
+  "name": "BJJ Graph",
+  "description": "Interactive knowledge graph for Brazilian Jiu-Jitsu covering positions, transitions, submissions, and strategic concepts",
+  "url": "https://bjjgraph.org"
 }
 </script>
 
-# BJJ State Machine Canvas
-#bjj #system #visualization #canvas
+# Welcome to BJJ Graph
 
-This file serves as documentation for the BJJ State Machine Canvas visualization. To view the canvas, click on the filename in Obsidian's file explorer and select "Open as canvas" or create a new canvas and manually add the nodes described below.
+**BJJ Graph** is a comprehensive, interconnected knowledge base for Brazilian Jiu-Jitsu. Think of it as a map of the entire grappling game—where every position connects to every technique, and every technique leads somewhere strategic.
 
-## Canvas Overview
+Unlike traditional BJJ resources that treat techniques in isolation, BJJ Graph shows you the **relationships**: what leads where, what counters what, and how everything fits together in the bigger picture.
 
-The BJJ State Machine Canvas provides a complete visual representation of the Brazilian Jiu-Jitsu positional hierarchy as a directed graph, with:
+## What's Inside
 
-- **Nodes (States)**: Represented as rounded rectangles, color-coded by position type
-- **Edges (Transitions)**: Represented as arrows connecting states, labeled with technique names
-- **Weights**: Indicated by line thickness representing success probability
+### [[BJJ Positions|Positions]] (95+)
+The states of the grappling chess match. From mount to guard variations to leg entanglements—understand where you are and where you can go.
 
-## Canvas Structure
+**Popular:** [[Mount]], [[Closed Guard]], [[Back Control]], [[Side Control]], [[Half Guard]]
 
-The canvas is organized in a hierarchical layout with the following sections:
+### [[BJJ Transitions|Transitions]] (71+)
+The techniques that move you between positions. Sweeps, passes, escapes, and entries—these are the moves that change the game state.
 
-### 1. Standing Position (Top)
-- Starting point of all exchanges
-- Branches to takedowns and guard pulls
+**Essential:** [[Hip Escape]], [[Bridge and Roll]], [[Knee Cut Pass]], [[Triangle Setup]]
 
-### 2. Guard Positions (Left Section)
-- Closed Guard
-- Half Guard variations
-- Open Guard family
-- Leg entanglement system
+### [[BJJ Submissions|Submissions]] (49+)
+The finishing moves. Chokes, joint locks, and compression techniques with detailed safety protocols and setup sequences.
 
-### 3. Dominant Positions (Right Section)
-- Side Control
-- Mount
-- Back Control
-- Submission control positions
+**Core:** [[Rear Naked Choke]], [[Armbar]], [[Triangle Choke]], [[Kimura]]
 
-### 4. Terminal State (Bottom)
-- Won by Submission (victory condition)
+### [[BJJ Escapes|Escapes]]
+Your survival toolkit. Systematic defenses for when you're stuck in bad positions—because everyone ends up there eventually.
 
-## Color Coding
+**Critical:** Mount escapes, side control frames, back defense, guard retention
 
-States are color-coded for quick visual identification:
+### [[BJJ Guard Passing|Guard Passing]]
+The art of getting past someone's legs to dominant positions. Pressure systems, speed passes, and strategic frameworks.
 
-- **Green**: Neutral positions (Standing, Closed Guard)
-- **Blue**: Bottom positions (Open Guard, Half Guard, etc.)
-- **Orange**: Top positions (Side Control, Mount)
-- **Red**: Dominant control positions (Back Control, Inside Sankaku)
-- **Purple**: Submission control positions (Triangle Control, Armbar Control)
-- **Black**: Terminal state (Won by Submission)
+**Fundamental:** [[Smash Pass]], [[Toreando Pass]], [[Leg Drag Pass]]
 
-## Key Node Connections
-
-### Standing Position (S001)
-- → Closed Guard Bottom (via Pull Guard)
-- → Side Control (via Double Leg Takedown)
-- → Top Half Guard (via Single Leg Takedown)
-- → Back Control Standing (via Collar Drag)
-
-### Closed Guard Bottom (S002)
-- → Triangle Control (via Triangle Setup)
-- → Mount (via Hip Bump Sweep)
-- → Open Guard Bottom (via Open Guard Transition)
-
-### Half Guard Bottom (S006)
-- → Deep Half Guard (via Deep Half Entry)
-- → Closed Guard Bottom (via Half Guard to Closed Guard)
-- → Side Control Top (via Old School Sweep)
-
-### Open Guard Bottom (S007)
-- → Triangle Control (via Triangle Setup from Open Guard)
-- → Single Leg X Guard (via Single Leg X Entry)
-- → Top Position (via Butterfly Sweep)
-
-### Single Leg X Guard (S008)
-- → Top Position (via SLX Technical Standup Sweep)
-- → Ashi Garami (via SLX to Ashi Garami)
-- → X-Guard (via SLX to X-Guard)
-
-### Ashi Garami (S009)
-- → Inside Sankaku (via Transition to Inside Sankaku)
-- → Won by Submission (via Straight Ankle Lock)
-- → Top Position (via Technical Stand-up)
-
-### Inside Sankaku (S010)
-- → Won by Submission (via Inside Heel Hook)
-- → Back Control (via Back Take from Inside Sankaku)
-- → Top Position (via Technical Stand-up)
-
-### Side Control (S003)
-- → Mount (via Transition to Mount)
-- → Back Control (via Gift Wrap Control)
-- → Won by Submission (via Paper Cutter Choke)
-
-### Mount (S004)
-- → Back Control (via Technical Mount Transition → Back Take)
-- → Won by Submission (via Cross Collar Choke)
-- → Triangle Control (via Triangle from Mount)
-
-### Back Control (S005)
-- → Won by Submission (via Rear Naked Choke)
-- → Won by Submission (via Bow and Arrow Choke)
-- → Triangle Control (via Back Triangle)
-
-### Triangle Control (S101)
-- → Won by Submission (via Triangle Finish)
-- → Armbar Control (via Transition to Armbar)
-- → Mount (via Triangle to Mount)
-
-## Optimal Paths Highlighted
-
-The canvas highlights four optimal paths to submission with thicker, colored arrows:
-
-### Path 1: Positional Dominance (Blue)
-Standing → Double Leg Takedown → Side Control → Mount → Arm Triangle → Won by Submission
-
-### Path 2: Bottom Game (Green)
-Standing → Pull Guard → Closed Guard Bottom → Triangle Control → Triangle Finish → Won by Submission
-
-### Path 3: Back Attack System (Red)
-Standing → Collar Drag → Back Control Standing → Back Control → Rear Naked Choke → Won by Submission
-
-### Path 4: Leg Lock System (Purple)
-Standing → Pull Guard → Open Guard Bottom → Single Leg X Guard → Inside Sankaku → Inside Heel Hook → Won by Submission
-
-## Implementing the Canvas in Obsidian
-
-To create this canvas in Obsidian:
-
-1. Create a new canvas (click the canvas icon in the left sidebar)
-2. Add nodes for each state listed above
-3. Connect nodes with arrows representing transitions
-4. Color-code nodes according to the scheme above
-5. Adjust node size based on positional importance
-6. Highlight optimal paths with thicker, colored arrows
-7. Add labels to both nodes and edges
-8. Save the canvas as "BJJ State Machine Canvas"
-
-## Using the Canvas for Learning
-
-The canvas offers several learning applications:
-
-1. **Path Analysis**: Identify multiple paths from your current position to submission
-2. **Gap Identification**: Find areas of your game with limited connections
-3. **Sequence Planning**: Create training sequences by following specific paths
-4. **Technique Contextualization**: Understand where individual techniques fit in the larger system
-5. **Decision Point Recognition**: Identify key branching positions that offer multiple strategic options
-
-## Alternative Views
-
-The canvas can be reorganized to highlight different aspects of the BJJ system:
-
-- **Point-Based View**: Arrange by positional hierarchy (0-4 points)
-- **Expert-Based View**: Group by prominent practitioner systems (Danaher, Ryan, Bravo)
-- **Tournament-Legal View**: Filter by competition legality (IBJJF rules)
-- **Energy Efficiency View**: Organize by physical exertion required
-
-## Canvas Updates
-
-As you add more states and transitions to your knowledge base, update the canvas to include these new elements, maintaining the visual coherence of the system while expanding its complexity and comprehensiveness.
+### [[BJJ Principles|Principles]] & [[BJJ Systems|Systems]]
+The conceptual framework. Movement principles, positional theory, and expert-developed systems (Danaher, Gordon Ryan, Eddie Bravo).
 
 ---
 
-## 🚀 Premium Services
+## How to Use This Resource
 
-Ready to take your BJJ to the next level? Check out our premium services:
+**If you're new to BJJ:**
+Start with [[BJJ Positions]] to understand the landscape, then explore [[BJJ Escapes]] (because survival comes first).
 
-- **[Publish Your BJJ Content →](https://contribute.bjjgraph.org/guest-posts)** - Get your articles featured on BJJGraph ($49-$99)
-- **[Get Your Game Analyzed →](https://contribute.bjjgraph.org/game-analysis)** - Personalized BJJ game plan tailored to YOUR style ($49)
+**If you're building your game:**
+Use the search to find specific techniques, then follow the links to discover connected concepts and alternative approaches.
 
-[**Explore All Services →**](https://contribute.bjjgraph.org)
+**If you're preparing for competition:**
+Focus on position-specific pages for the areas you want to strengthen, and study the transition success rates for strategic planning.
+
+---
+
+## What Makes This Different
+
+1. **Interconnected** - Every page links to related concepts. See the full context, not isolated techniques.
+
+2. **State Machine Model** - BJJ as a graph where positions are nodes and techniques are edges. Navigate the game systematically.
+
+3. **Success Rate Data** - Techniques include success probabilities by skill level (Beginner/Intermediate/Advanced).
+
+4. **Expert Integration** - John Danaher's systematic approach, Gordon Ryan's competitive insights, Eddie Bravo's innovation—all in one place.
+
+5. **Living Resource** - Continuously updated with new techniques, refinements, and community insights.
+
+---
+
+## Quick Stats
+
+- **95+ Positions** mapped and interconnected
+- **71+ Transitions** with detailed mechanics
+- **49+ Submissions** with safety protocols
+- **Hundreds of principles** and tactical concepts
+
+---
+
+## Navigation
+
+Use the **Explorer** (left sidebar) to browse by category, or use **Search** to find specific techniques. The **Graph View** (right sidebar) shows how everything connects.
+
+Every position page includes:
+- Visual description and key principles
+- Available transitions (with success rates)
+- Defensive responses
+- Expert insights
+- Training recommendations
+
+---
+
+## Start Exploring
+
+Not sure where to begin? Try these entry points:
+
+- [[Closed Guard Bottom]] - The most fundamental guard position
+- [[Mount Bottom]] - Learn to survive the worst position
+- [[Side Control Top]] - Master the most common dominant position
+- [[Hip Escape]] - The most important movement in BJJ
+
+Or jump straight to [[BJJ Positions]] to see the full map.
+
+---
+
+*BJJ Graph is a community resource. Found something missing or want to contribute? Check out our [contribution guidelines](https://contribute.bjjgraph.org).*
