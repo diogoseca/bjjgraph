@@ -13,8 +13,6 @@ description: "Master D'arce Control position in BJJ. Dominant front headlock var
 
 
 
-# D'arce Control
-
 > **Quick Overview**: D'arce Control is a highly effective front headlock variation where the attacking practitioner secures a figure-four grip around the opponent's neck and shoulder, creating intense pressure on the caro...
 
 ---

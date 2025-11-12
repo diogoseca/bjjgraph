@@ -13,8 +13,6 @@ description: "Master overhook control (whizzer) in BJJ. Complete guide covering 
 
 
 
-# Overhook Control
-
 > **Quick Overview**: Overhook Control Position, also known as the whizzer in wrestling terminology, represents one of the most versatile control mechanisms in Brazilian Jiu-Jitsu and grappling. This control involves wrapp...
 
 ---

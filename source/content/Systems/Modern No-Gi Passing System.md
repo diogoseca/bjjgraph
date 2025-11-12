@@ -137,7 +137,6 @@ description: "Master modern no-gi guard passing with systematic pressure, connec
 
 
 
-# Modern No-Gi Passing System
 #bjj #system #guard-passing #no-gi #pressure-passing #modern-bjj 
 
 > **Quick Answer**: Modern No-Gi Passing System is a advanced difficulty Passing System system. This systematic approach integrates 6 key components into a cohesive fighting framework.

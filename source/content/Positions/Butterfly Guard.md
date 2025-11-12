@@ -13,8 +13,6 @@ description: "Master Butterfly Guard in BJJ. Dynamic open guard with powerful sw
 
 
 
-# Butterfly Guard
-
 > **Quick Overview**: Butterfly Guard is a dynamic open guard variation where the bottom player inserts hooks (feet) under the opponent's thighs while sitting up, creating powerful leverage for sweeps and upper body contro...
 
 ---

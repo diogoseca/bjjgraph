@@ -13,8 +13,6 @@ description: "Master Headquarters Control in BJJ. Dominant half guard passing po
 
 
 
-# Headquarters Control
-
 > **Quick Overview**: Headquarters Control is a critical transitional position in modern Brazilian Jiu-Jitsu half guard passing and retention systems. The position represents a strategic checkpoint where the top player has...
 
 ---

@@ -155,8 +155,6 @@ description: "Master Worm Guard Bottom in BJJ. Keenan Cornelius's lapel guard sy
 
 
 
-# Worm Guard Bottom
-
 #bjj #position #guard #open-guard #lapel-guard #worm #advanced 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

@@ -145,7 +145,6 @@ description: "Master distance creation in BJJ with progressive spatial separatio
 
 
 
-# Distance Creation
 #bjj #principle #defensive #distance #spacing #frames #escape fundamentals #hip movement #defensive strategy 
 
 > **Quick Answer**: Distance Creation is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.

@@ -155,8 +155,6 @@ description: "Master K-Guard Bottom in BJJ. Dynamic half guard variation with in
 
 
 
-# K-Guard Bottom
-
 #bjj #position #half-guard #k-guard #bottom #sweeps #back-takes #retention #butterfly-mechanics 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

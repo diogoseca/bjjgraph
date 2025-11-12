@@ -13,8 +13,6 @@ description: "Master Rubber Guard in BJJ with this comprehensive guide covering 
 
 
 
-# Rubber Guard
-
 > **Quick Overview**: The Rubber Guard is a specialized guard position developed and popularized by Eddie Bravo within his 10th Planet Jiu-Jitsu system. This position builds upon the closed guard by adding a high degree of...
 
 ---

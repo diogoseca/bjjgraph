@@ -147,7 +147,6 @@ description: "Master Reverse Kimura in BJJ. Complete guide with safety protocols
 
 
 
-# Reverse Kimura
 #bjj #submission #kimura #joint-lock #shoulder-lock #reverse-grip #standing #wrestling #no-gi 
 
 > **Quick Answer**: Reverse Kimura is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear - apply slowly over 3-5 seconds and release immediately upon tap.

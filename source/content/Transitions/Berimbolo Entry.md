@@ -147,7 +147,6 @@ description: "Master the Berimbolo Entry in BJJ. Dynamic inversion technique fro
 
 
 
-# Berimbolo Entry
 #bjj #technique #transition #berimbolo #de-la-riva #back-take #inversion #sweep #advanced 
 
 > **Quick Answer**: Berimbolo Entry transitions from [[De La Riva Guard]] to [[Back Control]]. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.

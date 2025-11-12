@@ -147,7 +147,6 @@ description: "Master the Straight Footlock in BJJ. Safety guide with setup and e
 
 
 
-# Straight Footlock
 #bjj #submission #leg-lock #ankle-lock #joint-lock #ashi-garami #straight-ankle-lock 
 
 > **Quick Answer**: Straight Footlock is a ankle lock targeting the Ankle joint and Achilles tendon. ⚠️ **SAFETY**: This technique can cause Ankle ligament sprain or tear (deltoid ligament, lateral collateral ligaments) - apply slowly over 3-5 seconds and release immediately upon tap.

@@ -147,7 +147,6 @@ description: "Learn Single Leg to Back Take in BJJ. Convert failed takedown to b
 
 
 
-# Single Leg to Back Take
 #bjj #transition #back_take #wrestling #advanced 
 
 > **Quick Answer**: Single Leg to Back Take transitions from [[Standing Position]] to [[Back Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

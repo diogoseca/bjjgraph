@@ -13,8 +13,6 @@ description: "Master Guillotine Control position in BJJ. Complete strategic guid
 
 
 
-# Guillotine Control
-
 > **Quick Overview**: Guillotine Control represents a fundamental attacking position in Brazilian Jiu-Jitsu where one practitioner secures a front headlock grip with submission intent, controlling the opponent's head and n...
 
 ---

@@ -147,7 +147,6 @@ description: "Master Float Passing in BJJ. Strategic guard passing using minimal
 
 
 
-# Float Passing
 #bjj #guard passing #technique #movement #transition #passing #strategy 
 
 > **Quick Answer**: Float Passing transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

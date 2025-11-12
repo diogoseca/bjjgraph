@@ -147,7 +147,6 @@ description: "Master the Side Control to Mount transition in BJJ. Step-by-step e
 
 
 
-# Side Control to Mount
 #bjj #transition #mount #side_control #top_position #positional_advancement #pressure_passing #weight_distribution 
 
 > **Quick Answer**: Side Control to Mount transitions from [[Side Control]] to [[Mount]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

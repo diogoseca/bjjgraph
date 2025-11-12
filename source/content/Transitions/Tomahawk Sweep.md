@@ -153,7 +153,6 @@ description: "Master the Tomahawk Sweep from X-Guard in BJJ. Dynamic sweep using
 
 
 
-# Tomahawk Sweep
 #bjj #sweep #x-guard #open-guard #technique 
 
 > **Quick Answer**: Tomahawk Sweep transitions from [[X-Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

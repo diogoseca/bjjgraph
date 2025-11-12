@@ -147,7 +147,6 @@ description: "Learn Shrimp Escape in BJJ. Step-by-step execution from Side Contr
 
 
 
-# Shrimp Escape
 #bjj #transition #escape #side_control #fundamental #hip_escape #defensive 
 
 > **Quick Answer**: Shrimp Escape transitions from [[Side Control]] to [[Closed Guard]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.

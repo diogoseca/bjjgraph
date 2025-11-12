@@ -147,7 +147,6 @@ description: "Master Kouchi Gari in BJJ. Small inner reap takedown from standing
 
 
 
-# Kouchi Gari
 #bjj #judo #takedown #ashi-waza #foot-sweep #standing #clinch #technique 
 
 > **Quick Answer**: Kouchi Gari transitions from [[Clinch]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

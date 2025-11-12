@@ -153,7 +153,6 @@ description: "Master the Single Leg X Sweep in BJJ. Step-by-step execution from 
 
 
 
-# Single Leg X Sweep
 #bjj #transition #sweep #single_leg_x #leg_entanglement #guard #x_guard_system #open_guard 
 
 > **Quick Answer**: Single Leg X Sweep transitions from [[Single Leg X-Guard]] to [[Standing Position]]. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.

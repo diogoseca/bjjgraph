@@ -147,7 +147,6 @@ description: "Master the Armbar from Back Control in BJJ. Complete safety guide 
 
 
 
-# Armbar from Back
 #bjj #submission #armbar #joint-lock #back-control #arm-lock 
 
 > **Quick Answer**: Armbar from Back is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension or dislocation - apply slowly over 3-5 seconds and release immediately upon tap.

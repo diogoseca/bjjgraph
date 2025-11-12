@@ -147,7 +147,6 @@ description: "Learn the Triangle setup from Closed Guard in BJJ. Complete execut
 
 
 
-# Closed Guard to Triangle
 #bjj #technique #transition #closed-guard #triangle #submission-setup #guard-attack 
 
 > **Quick Answer**: Closed Guard to Triangle transitions from [[Closed Guard]] to [[Triangle Control]]. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.

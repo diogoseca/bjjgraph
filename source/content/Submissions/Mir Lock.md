@@ -153,7 +153,6 @@ description: "Master the Mir Lock shoulder submission in BJJ. Complete guide wit
 
 
 
-# Mir Lock
 #bjj #submission #shoulder-lock #joint-lock #top-control #mir-lock #americana-variation 
 
 > **Quick Answer**: Mir Lock is a shoulder lock targeting the Shoulder joint (glenohumeral joint). ⚠️ **SAFETY**: This technique can cause Shoulder dislocation (anterior or posterior) - apply slowly over 3-5 seconds and release immediately upon tap.

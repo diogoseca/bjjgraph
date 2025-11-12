@@ -145,7 +145,6 @@ description: "Master hip elevation mechanics in BJJ. Learn biomechanical princip
 
 
 
-# Hip Elevation
 #bjj #principle #fundamental #movement #escape #biomechanics #defensive technique 
 
 > **Quick Answer**: Hip Elevation is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.

@@ -13,8 +13,6 @@ description: "Master the Jailbreak position in BJJ. Advanced half guard escape s
 
 
 
-# Jailbreak
-
 > **Quick Overview**: The Jailbreak position represents a critical dynamic state in the half guard game, characterized by explosive movement and strategic risk-taking to escape dominant pressure. This position manifests in...
 
 ---

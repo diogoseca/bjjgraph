@@ -145,7 +145,6 @@ description: "Master defensive framing in BJJ. Learn elbow structure, connection
 
 
 
-# Defensive Framing
 #bjj #principle #fundamental #framing #defense #escape #pressure-management #bottom-position 
 
 > **Quick Answer**: Defensive Framing is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.

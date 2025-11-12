@@ -151,7 +151,6 @@ description: "Complete strategic framework for no-gi grappling. Master body lock
 
 
 
-# No-Gi Tactical Framework
 #bjj #system #no-gi #competition-strategy #tactical-framework #grappling #submission-grappling 
 
 > **Quick Answer**: No-Gi Tactical Framework is a intermediate difficulty Competition Strategy system. This systematic approach integrates 5 key components into a cohesive fighting framework.

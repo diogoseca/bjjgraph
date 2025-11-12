@@ -13,8 +13,6 @@ description: "Master the Matrix back take in BJJ. Complete guide to the dynamic 
 
 
 
-# Matrix
-
 > **Quick Overview**: The Matrix back take represents one of Brazilian Jiu-Jitsu's most dynamic and spectacular transitions to back control. Named for its cinematic appearance—where the practitioner inverts and rolls under...
 
 ---

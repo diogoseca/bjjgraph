@@ -155,8 +155,6 @@ description: "Master De La Riva Guard Top passing in BJJ. Complete guide coverin
 
 
 
-# De La Riva Guard Top
-
 #bjj position guard-passing de-la-riva top-position #de la riva guard passing techniques fundamentals #open guard passing pressure passing toreando 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

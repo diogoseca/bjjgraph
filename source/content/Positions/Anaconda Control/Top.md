@@ -155,8 +155,6 @@ description: "Master offensive control from Anaconda Control Top position. Learn
 
 
 
-# Anaconda Control Top
-
 #bjj #position #anaconda-control #top #offensive #submission-control 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

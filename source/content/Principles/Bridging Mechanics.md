@@ -145,7 +145,6 @@ description: "Master bridging mechanics in BJJ. Learn explosive hip elevation, w
 
 
 
-# Bridging Mechanics
 #bjj #principle #bridging #escape #mechanics #hip-movement #fundamentals 
 
 > **Quick Answer**: Bridging Mechanics is a low complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.

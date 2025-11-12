@@ -145,7 +145,6 @@ description: "Master control maintenance in BJJ. Learn pressure modulation, conn
 
 
 
-# Control Maintenance
 #bjj #principle #intermediate #control #top-game #pressure #position-maintenance 
 
 > **Quick Answer**: Control Maintenance is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

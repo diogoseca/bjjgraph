@@ -147,7 +147,6 @@ description: "Master the Balloon Sweep from Closed Guard in BJJ. Complete guide 
 
 
 
-# Balloon Sweep
 #bjj #sweep #closed-guard #butterfly-guard #fundamental 
 
 > **Quick Answer**: Balloon Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

@@ -145,7 +145,6 @@ description: "Master Whizzer Control in BJJ. Learn overhook mechanics, pressure 
 
 
 
-# Whizzer Control
 #bjj #control #defense #wrestling #counter #overhook #underhook-defense #frame 
 
 > **Quick Answer**: Whizzer Control is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

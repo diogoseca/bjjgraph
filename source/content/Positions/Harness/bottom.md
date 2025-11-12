@@ -155,8 +155,6 @@ description: "Master defensive strategies from Harness Bottom Position in BJJ. L
 
 
 
-# Harness Bottom
-
 #bjj #position #harness #back-control #defensive #bottom #escape #hand-fighting 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

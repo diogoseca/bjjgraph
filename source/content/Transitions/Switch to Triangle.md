@@ -153,7 +153,6 @@ description: "Master the Switch to Triangle in BJJ. Learn when and how to transi
 
 
 
-# Switch to Triangle
 #bjj #transition #triangle #submission chain #guard #closed guard #attack chain 
 
 > **Quick Answer**: Switch to Triangle transitions from [[Closed Guard]] to [[Triangle Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

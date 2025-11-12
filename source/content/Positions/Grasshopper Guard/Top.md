@@ -155,8 +155,6 @@ description: "Master grasshopper guard from top. Complete guide to countering in
 
 
 
-# Grasshopper Guard Top
-
 #guard-passing #inverted-defense #pressure-passing #advanced #no-gi #leg-lock-defense 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

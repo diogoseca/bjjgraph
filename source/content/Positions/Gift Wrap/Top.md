@@ -155,8 +155,6 @@ description: "Master Gift Wrap control from top in BJJ. Complete guide covering 
 
 
 
-# Gift Wrap Top
-
 #Position #Back Control #Offensive #Arm Trap #Submission Setup #High Control 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

@@ -145,7 +145,6 @@ description: "Master collar grip mechanics in BJJ. Learn deep grip penetration, 
 
 
 
-# Collar Control
 #bjj #principle #fundamental #grips #collar #gi #control #posture-breaking 
 
 > **Quick Answer**: Collar Control is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

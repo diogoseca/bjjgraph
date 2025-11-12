@@ -13,8 +13,6 @@ description: "Master Seated Guard in BJJ. Complete guide covering entries, trans
 
 
 
-# Seated Guard
-
 > **Quick Overview**: Seated Guard is an upright open guard position where you sit on the mat with your hips on the ground, hands posted behind you for base, and legs extended or bent toward your opponent. This position pr...
 
 ---

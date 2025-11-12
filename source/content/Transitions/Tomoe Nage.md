@@ -153,7 +153,6 @@ description: "Learn Tomoe Nage in BJJ. Master the sacrifice throw from standing 
 
 
 
-# Tomoe Nage
 #bjj #technique #takedown #sacrifice throw #judo #standing #sweep #guard pull 
 
 > **Quick Answer**: Tomoe Nage transitions from [[Standing Position]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

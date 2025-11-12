@@ -155,8 +155,6 @@ description: "Defend Rodeo Ride position in BJJ. Learn escape fundamentals, guar
 
 
 
-# Rodeo Ride Bottom
-
 #bjj #position #turtle-defense #escape #guard-recovery #defensive 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

@@ -13,8 +13,6 @@ description: "Master De La Riva Guard in BJJ. Hook-based open guard with berimbo
 
 
 
-# De La Riva Guard
-
 > **Quick Overview**: De La Riva Guard (DLR) is a sophisticated open guard variation where the bottom player hooks the opponent's lead leg with their outside foot while controlling the ankle or pant with their hand on the ...
 
 ---

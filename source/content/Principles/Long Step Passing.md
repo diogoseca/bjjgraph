@@ -145,7 +145,6 @@ description: "Master Long Step Passing principles in BJJ. Learn deep step mechan
 
 
 
-# Long Step Passing
 #bjj #principle #intermediate #passing #long-step #pressure-passing #guard-passing #hip-control 
 
 > **Quick Answer**: Long Step Passing is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

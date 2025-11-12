@@ -137,7 +137,6 @@ description: "Master 10th Planet No-Gi Guard System with rubber guard, lockdown,
 
 
 
-# 10th Planet No-Gi Guard System
 #bjj #system #10th-planet #no-gi #guard #rubber-guard #innovation 
 
 > **Quick Answer**: 10th Planet No-Gi Guard System is a advanced difficulty Guard System system. This systematic approach integrates 4 key components into a cohesive fighting framework.

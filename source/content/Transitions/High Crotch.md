@@ -147,7 +147,6 @@ description: "Master the High Crotch takedown in BJJ. Complete step-by-step exec
 
 
 
-# High Crotch
 #bjj #transition #takedown #wrestling #standing #single-leg #no-gi 
 
 > **Quick Answer**: High Crotch transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

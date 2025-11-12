@@ -147,7 +147,6 @@ description: "Master the Underhook Sweep from Half Guard in BJJ. Step-by-step ex
 
 
 
-# Underhook Sweep from Half
 #bjj #sweep #half-guard #underhook #bottom-game #fundamental 
 
 > **Quick Answer**: Underhook Sweep from Half transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

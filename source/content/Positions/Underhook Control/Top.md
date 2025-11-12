@@ -155,8 +155,6 @@ description: "Master top underhook control in BJJ. Complete guide to offensive p
 
 
 
-# Underhook Control Top
-
 #Position #Top Position #Underhook #Half Guard Top #Passing Strategy #Pressure Control 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

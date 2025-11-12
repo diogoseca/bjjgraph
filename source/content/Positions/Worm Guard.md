@@ -13,8 +13,6 @@ description: "Master Worm Guard in BJJ. Innovative lapel-based guard with sweeps
 
 
 
-# Worm Guard
-
 > **Quick Overview**: Worm Guard is an advanced lapel-based open guard position developed and popularized by Keenan Cornelius. The position is characterized by feeding the opponent's lapel behind their back and around thei...
 
 ---

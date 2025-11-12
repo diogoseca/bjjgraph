@@ -153,7 +153,6 @@ description: "Master Triangle Setup from guard in BJJ. Complete guide covering a
 
 
 
-# Triangle Setup
 #bjj #technique #guard #triangle #setup #closed-guard #submission-setup #arm-control 
 
 > **Quick Answer**: Triangle Setup transitions from [[Closed Guard]] to [[Triangle Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

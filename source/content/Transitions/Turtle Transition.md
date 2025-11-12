@@ -153,7 +153,6 @@ description: "Master Turtle transitions in BJJ. Complete guide to attacking and 
 
 
 
-# Turtle Transition
 #bjj #transition #turtle #defensive-position #scramble #wrestling #positional-escape 
 
 > **Quick Answer**: Turtle Transition transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

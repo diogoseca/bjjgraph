@@ -159,7 +159,6 @@ description: "Master the sprawl defense in BJJ. Essential takedown defense techn
 
 
 
-# Sprawl Defense
 #bjj #takedown-defense #wrestling #defensive-technique #standing #fundamentals 
 
 > **Quick Answer**: Sprawl Defense transitions from [[Standing Position]] to [[Front Headlock]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 85%.

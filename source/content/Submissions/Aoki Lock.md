@@ -153,7 +153,6 @@ description: "Master the Aoki Lock leg compression in BJJ. Safety guide with set
 
 
 
-# Aoki Lock
 #bjj #submission #leg-lock #compression #aoki-lock #shin-lock 
 
 > **Quick Answer**: Aoki Lock is a leg compression targeting the Shin and ankle compression. ⚠️ **SAFETY**: This technique can cause Severe plantar fascia strain or tear - apply slowly over 3-5 seconds and release immediately upon tap.

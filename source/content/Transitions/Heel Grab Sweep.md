@@ -153,7 +153,6 @@ description: "Master the Heel Grab Sweep from Single Leg X Guard. Complete techn
 
 
 
-# Heel Grab Sweep
 #bjj #transition #sweep #open_guard #dynamic #single_leg_x #x_guard #off_balancing 
 
 > **Quick Answer**: Heel Grab Sweep transitions from [[Single Leg X-Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 60%, Advanced 75%.

@@ -155,8 +155,6 @@ description: "Master offensive headquarters position in BJJ. Dominant half guard
 
 
 
-# Headquarters Control Top
-
 #bjj #position #headquarters #half-guard-passing #top-control #pressure-passing #guard-passing 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

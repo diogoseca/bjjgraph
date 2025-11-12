@@ -155,8 +155,6 @@ description: "Master defensive strategies from bottom Mount. Learn systematic es
 
 
 
-# Mount Bottom
-
 #mount escape hierarchy #defensive positioning #frame creation fundamentals 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

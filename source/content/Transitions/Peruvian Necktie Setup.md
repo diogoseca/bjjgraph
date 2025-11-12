@@ -153,7 +153,6 @@ description: "Learn Peruvian Necktie Setup in BJJ. Step-by-step execution from F
 
 
 
-# Peruvian Necktie Setup
 #bjj #transition #submission_setup #front_headlock #advanced #turtle_attack #necktie #no-gi #scramble #inversion 
 
 > **Quick Answer**: Peruvian Necktie Setup transitions from [[Front Headlock]] to [[Peruvian Necktie]]. Success rates: Beginner 20%, Intermediate 35%, Advanced 50%.

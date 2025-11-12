@@ -13,8 +13,6 @@ description: "Master back control in BJJ with comprehensive guide covering hooks
 
 
 
-# Back Control
-
 > **Quick Overview**: Back Control is widely considered the most dominant position in Brazilian Jiu-Jitsu. The practitioner controls the opponent from behind, with their chest against the opponent's back, legs wrapped arou...
 
 ---

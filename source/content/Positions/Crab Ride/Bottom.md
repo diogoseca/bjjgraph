@@ -155,8 +155,6 @@ description: "Master Crab Ride Bottom defense in BJJ. Complete guide covering ho
 
 
 
-# Crab Ride Bottom
-
 #bjj #position #crab-ride #bottom #defensive #turtle #escape #wrestling 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

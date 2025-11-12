@@ -153,7 +153,6 @@ description: "Master the Gogoplata shin choke in BJJ. Complete guide with safety
 
 
 
-# Gogoplata
 #bjj #submission #gogoplata #choke #rubber-guard #10th-planet #advanced-technique #flexibility-required 
 
 > **Quick Answer**: Gogoplata is a shin choke targeting the Trachea and carotid arteries. ⚠️ **SAFETY**: This technique can cause Tracheal damage or crushing - apply slowly over 3-5 seconds and release immediately upon tap.

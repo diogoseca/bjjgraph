@@ -153,7 +153,6 @@ description: "Master the Outside Ashi Entry from standing. Learn systematic appr
 
 
 
-# Outside Ashi Entry
 #bjj #leg-locks #ashi-garami #entry #standing #leg-entanglement #outside-ashi #no-gi 
 
 > **Quick Answer**: Outside Ashi Entry transitions from [[Standing Position]] to [[Outside Ashi-Garami]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

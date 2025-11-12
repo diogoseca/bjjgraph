@@ -13,8 +13,6 @@ description: "Master North-South control in BJJ. Complete strategic guide coveri
 
 
 
-# North South Control
-
 > **Quick Overview**: North-South control represents one of Brazilian Jiu-Jitsu's most dominant pinning positions, characterized by the top practitioner positioning their torso perpendicular across the bottom person's uppe...
 
 ---

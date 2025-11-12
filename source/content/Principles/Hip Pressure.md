@@ -145,7 +145,6 @@ description: "Master hip pressure mechanics in BJJ. Learn weight distribution, p
 
 
 
-# Hip Pressure
 #bjj #principle #fundamental #pressure #hips #top-control #passing #pinning 
 
 > **Quick Answer**: Hip Pressure is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

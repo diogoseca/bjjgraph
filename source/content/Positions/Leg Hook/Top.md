@@ -155,8 +155,6 @@ description: "Master Leg Hook Top in BJJ. Control position from half guard top w
 
 
 
-# Leg Hook Top
-
 #bjj #position #half-guard #top-position #leg-hook #passing #control 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

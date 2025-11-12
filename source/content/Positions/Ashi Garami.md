@@ -13,8 +13,6 @@ description: "Master Ashi Garami leg entanglements with control mechanics, hiera
 
 
 
-# Ashi Garami
-
 > **Quick Overview**: **Ashi Garami** (足絡み, Japanese for "leg entanglement") represents a comprehensive family of leg control positions that form the foundation of modern leg lock systems. Unlike traditional top-bottom pos...
 
 ---

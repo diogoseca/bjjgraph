@@ -147,7 +147,6 @@ description: "Master the Kimura from Mount in BJJ. Complete guide with safety pr
 
 
 
-# Kimura from Mount
 #bjj #submission #kimura #shoulder-lock #mount #joint-lock #top-position 
 
 > **Quick Answer**: Kimura from Mount is a shoulder lock targeting the Shoulder joint (glenohumeral joint, rotator cuff). ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor) - apply slowly over 3-5 seconds and release immediately upon tap.

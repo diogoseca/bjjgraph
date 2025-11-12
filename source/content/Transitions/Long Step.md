@@ -153,7 +153,6 @@ description: "Master the Long Step pass in BJJ. Systematic guard passing techniq
 
 
 
-# Long Step
 #bjj #guard-passing #technique #pressure-passing #intermediate #standing-pass #headquarters #knee-shield-counter 
 
 > **Quick Answer**: Long Step transitions from [[Headquarters Position]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

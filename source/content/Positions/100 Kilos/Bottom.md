@@ -155,8 +155,6 @@ description: "Master defensive survival from 100 Kilos Bottom. Complete guide co
 
 
 
-# 100 Kilos Bottom
-
 #bjj #position #100-kilos #bottom #defense #escapes #pressure-defense #survival 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

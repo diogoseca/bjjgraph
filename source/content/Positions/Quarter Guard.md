@@ -13,8 +13,6 @@ description: "Master Quarter Guard in BJJ. Strategic guide covering bottom defen
 
 
 
-# Quarter Guard
-
 > **Quick Overview**: Quarter Guard represents a critical transitional position in Brazilian Jiu-Jitsu's guard passing and retention hierarchy, occupying the narrow space between functional half guard and completed pass. T...
 
 ---

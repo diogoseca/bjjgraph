@@ -155,8 +155,6 @@ description: "Master Omoplata Control Top in BJJ. Dominant shoulder lock control
 
 
 
-# Omoplata Control Top
-
 #bjj #position #omoplata #submission-control #shoulder-lock #offensive 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

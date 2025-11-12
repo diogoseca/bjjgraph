@@ -153,7 +153,6 @@ description: "Learn Rolling Back Take in BJJ. Step-by-step execution from Turtle
 
 
 
-# Rolling Back Take
 #bjj #transition #back_attack #turtle #dynamic #momentum #rotation 
 
 > **Quick Answer**: Rolling Back Take transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.

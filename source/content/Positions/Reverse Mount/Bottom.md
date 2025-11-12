@@ -155,8 +155,6 @@ description: "Master defensive strategies from Reverse Mount Bottom. Learn syste
 
 
 
-# Reverse Mount Bottom
-
 #bjj #position #reverse-mount #defensive #bottom #mount-escapes #survival 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

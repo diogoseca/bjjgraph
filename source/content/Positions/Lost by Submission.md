@@ -163,8 +163,6 @@ description: "Terminal state in BJJ representing match loss via submission. Anal
 
 
 
-# Lost by Submission
-
 #bjj #terminal-state #submission-defense #tap-mechanics #match-end 
 
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.

@@ -155,8 +155,6 @@ description: "Master Half Guard Top with systematic passing strategies. Advanced
 
 
 
-# Half Guard Top
-
 #bjj position half guard top #half guard top passing #guard passing half guard #pressure passing half guard #top control half guard #passing strategy half guard #positional dominance half guard 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

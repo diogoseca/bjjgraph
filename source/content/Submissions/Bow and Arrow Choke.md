@@ -153,7 +153,6 @@ description: "Master the Bow and Arrow Choke in BJJ. Complete guide with safety 
 
 
 
-# Bow and Arrow Choke
 #bjj #submission #choke #back-control #gi-technique #blood-choke #lapel-choke 
 
 > **Quick Answer**: Bow and Arrow Choke is a blood choke targeting the Carotid arteries. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.

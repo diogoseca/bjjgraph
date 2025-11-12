@@ -155,8 +155,6 @@ description: "Master bottom overhook control clinch in BJJ. Defensive strategies
 
 
 
-# Overhook Control Clinch Bottom
-
 #bjj #position #clinch #overhook #standing #defensive #bottom #wrestling #counter-wrestling 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

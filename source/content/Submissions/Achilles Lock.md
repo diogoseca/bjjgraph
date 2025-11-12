@@ -147,7 +147,6 @@ description: "Master the Achilles Lock leg submission with comprehensive safety 
 
 
 
-# Achilles Lock
 #bjj #submission #leg-lock #achilles-lock #ankle-lock #joint-lock 
 
 > **Quick Answer**: Achilles Lock is a leg lock targeting the Achilles tendon and ankle joint. ⚠️ **SAFETY**: This technique can cause Achilles tendon rupture or tear - apply slowly over 3-5 seconds and release immediately upon tap.

@@ -153,7 +153,6 @@ description: "Master the Omoplata Sweep from closed guard. Step-by-step executio
 
 
 
-# Omoplata Sweep
 #bjj #transition #sweep #closed_guard #intermediate #omoplata #shoulder_attack #gi 
 
 > **Quick Answer**: Omoplata Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

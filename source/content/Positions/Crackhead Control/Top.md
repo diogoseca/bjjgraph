@@ -155,8 +155,6 @@ description: "Master Crackhead Control Top in BJJ. Dominant turtle attack with c
 
 
 
-# Crackhead Control Top
-
 #bjj #position #top-control #turtle-attack #back-control-entry #submission-control #advanced #10th-planet #chair-sit 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

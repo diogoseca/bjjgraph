@@ -155,8 +155,6 @@ description: "Master Piranha Guard Top in BJJ. Complete guide covering passing s
 
 
 
-# Piranha Guard Top
-
 #bjj #position #guard-passing #top-position #piranha-guard #pressure-passing #gi #advanced 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

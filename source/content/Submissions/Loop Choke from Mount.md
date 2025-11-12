@@ -147,7 +147,6 @@ description: "Master the Loop Choke from Mount in BJJ. Complete guide with safet
 
 
 
-# Loop Choke from Mount
 #bjj #submission #choke #mount #gi #blood-choke #collar-control 
 
 > **Quick Answer**: Loop Choke from Mount is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from carotid artery compression - apply slowly over 3-5 seconds and release immediately upon tap.

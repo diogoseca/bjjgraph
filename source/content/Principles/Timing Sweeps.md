@@ -145,7 +145,6 @@ description: "Master sweep timing in BJJ. Learn reactive sweeps, off-balancing w
 
 
 
-# Timing Sweeps
 #bjj #principle #sweeps #timing #off-balancing #rhythm #guard 
 
 > **Quick Answer**: Timing Sweeps is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

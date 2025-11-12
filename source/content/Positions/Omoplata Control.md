@@ -13,8 +13,6 @@ description: "Master Omoplata Control in BJJ. Strategic guide covering shoulder 
 
 
 
-# Omoplata Control
-
 > **Quick Overview**: Omoplata Control represents a sophisticated transitional position in Brazilian Jiu-Jitsu where the practitioner uses their legs to isolate and control the opponent's shoulder joint while creating mult...
 
 ---

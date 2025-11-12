@@ -175,8 +175,6 @@ description: "Master defensive positioning in BJJ. Comprehensive guide covering 
 
 
 
-# Defensive Position
-
 #bjj #position #defensive #survival #escape-fundamentals #frame-creation #guard-recovery 
 
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.

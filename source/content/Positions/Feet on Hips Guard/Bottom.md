@@ -155,8 +155,6 @@ description: "Master feet on hips guard bottom in BJJ. Distance management, swee
 
 
 
-# Feet on Hips Guard Bottom
-
 #bjj #position #open-guard #feet-on-hips #distance-control #beginner-friendly #guard-retention #sweep-setup 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

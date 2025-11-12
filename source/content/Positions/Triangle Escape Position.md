@@ -13,8 +13,6 @@ description: "Master triangle escape techniques in BJJ. Complete defensive guide
 
 
 
-# Triangle Escape Position
-
 > **Quick Overview**: Triangle Escape Position represents one of the most critical defensive scenarios in Brazilian Jiu-Jitsu, where a practitioner finds themselves caught in an opponent's triangle choke configuration and ...
 
 ---

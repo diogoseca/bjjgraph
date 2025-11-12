@@ -145,7 +145,6 @@ description: "Master guard retention principles in BJJ. Learn defensive framewor
 
 
 
-# Guard Retention Concepts
 #bjj #concept #fundamental #guard #retention #defense #bottom-game #defensive-strategy #guard-recovery 
 
 > **Quick Answer**: Guard Retention Concepts is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

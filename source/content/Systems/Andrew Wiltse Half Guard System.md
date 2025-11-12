@@ -143,7 +143,6 @@ description: "Master Andrew Wiltse's modern half guard system. Comprehensive fra
 
 
 
-# Andrew Wiltse Half Guard System
 #bjj #system #half-guard #sweeps #back-takes #knee-shield #underhook-control 
 
 > **Quick Answer**: Andrew Wiltse Half Guard System is a advanced difficulty Guard System system. This systematic approach integrates 5 key components into a cohesive fighting framework.

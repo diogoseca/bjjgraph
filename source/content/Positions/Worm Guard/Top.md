@@ -155,8 +155,6 @@ description: "Master Worm Guard Top position in BJJ. Complete passing guide cove
 
 
 
-# Worm Guard Top
-
 #bjj #position #worm-guard #guard-passing #top-position #lapel-guard #advanced 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

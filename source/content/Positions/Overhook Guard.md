@@ -13,8 +13,6 @@ description: "Master Overhook Guard in BJJ. Strategic guide covering control mec
 
 
 
-# Overhook Guard
-
 > **Quick Overview**: Overhook Guard is a specialized guard position where the bottom practitioner controls one of the opponent's arms with an overhook (overhand grip over the shoulder) while maintaining guard structure. T...
 
 ---

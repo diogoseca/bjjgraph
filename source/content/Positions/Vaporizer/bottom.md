@@ -155,8 +155,6 @@ description: "Master Vaporizer bottom position in BJJ. 10th Planet innovation fo
 
 
 
-# Vaporizer Bottom
-
 #bjj #position #vaporizer #10th-planet #lockdown #half-guard-bottom #eddie-bravo #innovative #controlling 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

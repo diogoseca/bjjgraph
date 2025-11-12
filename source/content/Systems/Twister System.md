@@ -151,7 +151,6 @@ description: "Master the Twister System in BJJ. Complete framework from lockdown
 
 
 
-# Twister System
 #bjj #system #twister #10th-planet #submission-chain #lockdown #truck #spine-lock #eddie-bravo #no-gi #half-guard-system 
 
 > **Quick Answer**: Twister System is a advanced difficulty Submission Chain system. This systematic approach integrates 6 key components into a cohesive fighting framework.

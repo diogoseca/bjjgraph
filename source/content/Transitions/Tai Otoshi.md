@@ -153,7 +153,6 @@ description: "Master Tai Otoshi (body drop) in BJJ and Judo. Complete execution 
 
 
 
-# Tai Otoshi
 #bjj #judo #throw #takedown #standing #trip #kuzushi #off-balancing 
 
 > **Quick Answer**: Tai Otoshi transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

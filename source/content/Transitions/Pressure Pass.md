@@ -153,7 +153,6 @@ description: "Master the Pressure Pass in BJJ. Complete guide to heavy pressure 
 
 
 
-# Pressure Pass
 #bjj #transition #guard_pass #pressure #fundamental #top_game 
 
 > **Quick Answer**: Pressure Pass transitions from [[Combat Base]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.

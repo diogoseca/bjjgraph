@@ -153,7 +153,6 @@ description: "Master the John Wayne Sweep from Butterfly Guard. High-reward tran
 
 
 
-# John Wayne Sweep
 #bjj #sweep #butterfly-guard #mount #technique #offensive #guard 
 
 > **Quick Answer**: John Wayne Sweep transitions from [[Butterfly Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

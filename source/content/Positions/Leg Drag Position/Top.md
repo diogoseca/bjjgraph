@@ -155,8 +155,6 @@ description: "Control and finish the leg drag position with systematic passing s
 
 
 
-# Leg Drag Position Top
-
 #offensive position #guard passing #leg drag #passing position #intermediate 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

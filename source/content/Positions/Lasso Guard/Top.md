@@ -155,8 +155,6 @@ description: "Master passing Lasso Guard from top position. Learn systematic cle
 
 
 
-# Lasso Guard Top
-
 #lasso guard passing #open guard passing techniques #gi guard passing #grip breaking methods #sweep defense from top #systematic passing approach #stack passing variations #competition guard passing 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

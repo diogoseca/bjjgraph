@@ -13,8 +13,6 @@ description: "Master Squid Guard in BJJ. Strategic guide covering asymmetrical c
 
 
 
-# Squid Guard
-
 > **Quick Overview**: Squid Guard is an advanced open guard position that combines elements of De La Riva Guard and Reverse De La Riva Guard with unique lapel control. The bottom player establishes a deep hook behind the o...
 
 ---

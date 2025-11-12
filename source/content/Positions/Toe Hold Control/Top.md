@@ -155,8 +155,6 @@ description: "Master Toe Hold Control Top position in BJJ. Complete guide coveri
 
 
 
-# Toe Hold Control Top
-
 #bjj #position #leg-locks #toe-hold #top-position #ashi-garami #submission-control 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

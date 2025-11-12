@@ -155,8 +155,6 @@ description: "Navigate and pass lapel guard configurations with technical precis
 
 
 
-# Lapel Guard Top
-
 #guard-passing #lapel-defense #pressure-passing #gi-strategy #technical 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

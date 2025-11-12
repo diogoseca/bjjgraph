@@ -147,7 +147,6 @@ description: "Master the Lumberjack Sweep from half guard in BJJ. Step-by-step e
 
 
 
-# Lumberjack Sweep
 #bjj #transition #sweep #half_guard #underhook #fundamental 
 
 > **Quick Answer**: Lumberjack Sweep transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

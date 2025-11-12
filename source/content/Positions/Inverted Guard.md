@@ -13,8 +13,6 @@ description: "Master inverted guard in BJJ. Complete guide covering berimbolo en
 
 
 
-# Inverted Guard
-
 > **Quick Overview**: Inverted Guard is a modern guard position where the practitioner turns upside-down, with their back facing the ground and legs positioned upward toward the opponent. This position creates unique angle...
 
 ---

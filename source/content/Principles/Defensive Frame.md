@@ -145,7 +145,6 @@ description: "Master defensive framing in BJJ. Learn skeletal alignment, pressur
 
 
 
-# Defensive Frame
 #bjj #concept #fundamental #defense #framing #structure #pressure-management 
 
 > **Quick Answer**: Defensive Frame is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.

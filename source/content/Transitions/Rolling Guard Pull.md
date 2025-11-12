@@ -153,7 +153,6 @@ description: "Master the Rolling Guard Pull in BJJ. Dynamic entry to multiple gu
 
 
 
-# Rolling Guard Pull
 #bjj #technique #guard pull #guard entry #dynamic movement #rolling #momentum 
 
 > **Quick Answer**: Rolling Guard Pull transitions from [[Standing Position]] to [[Closed Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

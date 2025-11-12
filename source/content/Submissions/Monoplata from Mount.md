@@ -147,7 +147,6 @@ description: "Master Monoplata from Mount in BJJ. Complete safety guide covering
 
 
 
-# Monoplata from Mount
 #bjj #submission #monoplata #shoulder-lock #mount #advanced-technique #no-gi 
 
 > **Quick Answer**: Monoplata from Mount is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) - apply slowly over 3-5 seconds and release immediately upon tap.

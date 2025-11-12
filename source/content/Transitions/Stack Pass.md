@@ -159,7 +159,6 @@ description: "Master the Stack Pass in BJJ. High-pressure guard passing techniqu
 
 
 
-# Stack Pass
 #bjj #guard passing #pressure passing #stack #technique 
 
 > **Quick Answer**: Stack Pass transitions from [[Closed Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.

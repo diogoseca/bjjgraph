@@ -155,8 +155,6 @@ description: "Master the Jailbreak escape from bottom half guard. Advanced 10th 
 
 
 
-# Jailbreak Bottom
-
 #bjj #position #half-guard #bottom #escape #jailbreak #10th-planet #advanced 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

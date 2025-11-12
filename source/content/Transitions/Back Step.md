@@ -153,7 +153,6 @@ description: "Master the Back Step pass in BJJ. Essential leg entanglement count
 
 
 
-# Back Step
 #bjj #guard passing #leg entanglement defense #transition #pressure passing #outside ashi counter 
 
 > **Quick Answer**: Back Step transitions from [[Outside Ashi-Garami]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

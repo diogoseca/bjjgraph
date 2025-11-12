@@ -13,8 +13,6 @@ description: "Master the Hindulotine position in BJJ. High-pressure guillotine v
 
 
 
-# Hindulotine
-
 > **Quick Overview**: The Hindulotine is a specialized guillotine variation that combines elements of traditional guillotine mechanics with unique body positioning that creates exceptional pressure on the opponent's neck a...
 
 ---

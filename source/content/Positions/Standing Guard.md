@@ -13,8 +13,6 @@ description: "Master Standing Guard in BJJ. Strategic guide covering defensive s
 
 
 
-# Standing Guard
-
 > **Quick Overview**: Standing Guard represents a critical transitional phase where both practitioners maintain upright postures while engaging in grip fighting and distance management. This position serves as the gateway ...
 
 ---

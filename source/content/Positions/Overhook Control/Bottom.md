@@ -155,8 +155,6 @@ description: "Master overhook control from bottom positions. Guard-based whizzer
 
 
 
-# Overhook Control Bottom
-
 #bjj #position #guard #overhook #whizzer #control #bottom #defensive 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

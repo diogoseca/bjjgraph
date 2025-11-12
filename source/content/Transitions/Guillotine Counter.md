@@ -153,7 +153,6 @@ description: "Learn Guillotine Counter in BJJ. Step-by-step execution from Guill
 
 
 
-# Guillotine Counter
 #bjj #transition #counter #defense #submission-defense #guillotine #scramble #guard-passing 
 
 > **Quick Answer**: Guillotine Counter transitions from [[Guillotine Control]] to [[Side Control]]. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.

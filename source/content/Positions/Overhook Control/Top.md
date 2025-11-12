@@ -155,8 +155,6 @@ description: "Master overhook control from top positions. Wrestling-based whizze
 
 
 
-# Overhook Control Top
-
 #bjj #position #control #overhook #whizzer #wrestling #top #offensive 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

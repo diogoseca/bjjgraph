@@ -145,7 +145,6 @@ description: "Master Connection Breaking in BJJ. Learn to identify control point
 
 
 
-# Connection Breaking
 #bjj #principle #intermediate #defense #escape #grip-fighting #control-disruption 
 
 > **Quick Answer**: Connection Breaking is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

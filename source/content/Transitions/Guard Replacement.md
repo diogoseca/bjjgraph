@@ -153,7 +153,6 @@ description: "Learn Guard Replacement in BJJ. Step-by-step execution from compro
 
 
 
-# Guard Replacement
 #bjj #transition #escape #guard #defensive #recovery #retention #bottom-position 
 
 > **Quick Answer**: Guard Replacement transitions from [[Defensive Position]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

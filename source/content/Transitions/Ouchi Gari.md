@@ -153,7 +153,6 @@ description: "Master Ouchi Gari takedown in BJJ. Step-by-step execution from sta
 
 
 
-# Ouchi Gari
 #bjj #transition #takedown #judo #fundamental #standing #foot-sweep #off-balancing 
 
 > **Quick Answer**: Ouchi Gari transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

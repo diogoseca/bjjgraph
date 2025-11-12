@@ -147,7 +147,6 @@ description: "Master the Cross Collar Choke in BJJ. Complete guide covering gi g
 
 
 
-# Cross Collar Choke
 #bjj #submission #choke #gi-technique #blood-choke #closed-guard #mount 
 
 > **Quick Answer**: Cross Collar Choke is a blood choke targeting the Carotid arteries. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to temporary loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.

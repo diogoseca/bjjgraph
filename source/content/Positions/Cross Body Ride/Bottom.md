@@ -155,8 +155,6 @@ description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Co
 
 
 
-# Cross Body Ride Bottom
-
 #bjj #position #defensive #turtle #back-control #bottom #escape 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

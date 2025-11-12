@@ -147,7 +147,6 @@ description: "Master toe hold variations in BJJ. Learn setups from 50-50, ashi g
 
 
 
-# Toe Hold Variations
 #bjj #submission #leg-lock #toe-hold #joint-lock #lower-body #50-50 #ashi-garami 
 
 > **Quick Answer**: Toe Hold Variations is a leg lock targeting the Ankle and foot ligaments. ⚠️ **SAFETY**: This technique can cause Ankle ligament tears (deltoid, talofibular) - apply slowly over 3-5 seconds and release immediately upon tap.

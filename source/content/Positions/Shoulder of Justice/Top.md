@@ -155,8 +155,6 @@ description: "Master Shoulder of Justice Top in BJJ. Complete offensive guide wi
 
 
 
-# Shoulder of Justice Top
-
 #bjj #position #side-control #top #shoulder-pressure #pin #control #offensive 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

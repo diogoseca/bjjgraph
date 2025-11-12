@@ -145,7 +145,6 @@ description: "Master butterfly hook retention fundamentals in BJJ. Learn hook pl
 
 
 
-# Butterfly Hook Retention
 #bjj #concept #intermediate #guard #retention #butterfly #hooks #elevation 
 
 > **Quick Answer**: Butterfly Hook Retention is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

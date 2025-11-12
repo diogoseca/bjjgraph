@@ -13,8 +13,6 @@ description: "Master Aoki Lock position in BJJ. Advanced shoulder lock control c
 
 
 
-# Aoki Lock
-
 > **Quick Overview**: The Aoki Lock position represents an advanced submission control state named after Japanese MMA fighter Shinya Aoki, characterized by leg entanglement control combined with shoulder lock pressure. Thi...
 
 ---

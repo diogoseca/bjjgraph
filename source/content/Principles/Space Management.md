@@ -145,7 +145,6 @@ description: "Master Space Management in BJJ. Learn frame construction, hip esca
 
 
 
-# Space Management
 #bjj #principle #space #frames #escapes #defense #control #hip-movement #pressure 
 
 > **Quick Answer**: Space Management is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.

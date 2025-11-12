@@ -145,7 +145,6 @@ description: "Master strategic pressure application in BJJ. Learn bodyweight dis
 
 
 
-# Pressure Application
 #bjj #principle #control #offense #fundamental #pressure #passing #top-game #weight-distribution #mechanics 
 
 > **Quick Answer**: Pressure Application is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.

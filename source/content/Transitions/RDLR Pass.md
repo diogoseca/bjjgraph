@@ -153,7 +153,6 @@ description: "Learn Reverse De La Riva Pass in BJJ. Step-by-step execution from 
 
 
 
-# RDLR Pass
 #bjj #transition #guard_pass #rdlr #advanced #pressure_passing #open_guard #no_gi 
 
 > **Quick Answer**: RDLR Pass transitions from [[Reverse De La Riva Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

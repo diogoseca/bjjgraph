@@ -155,8 +155,6 @@ description: "Execute the Matrix back take from bottom position. Technical guide
 
 
 
-# Matrix Bottom
-
 #Back Takes #Dynamic Transitions #Turtle Attacks #Advanced Techniques #Competition Techniques #Scrambles #Rotational Movement 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

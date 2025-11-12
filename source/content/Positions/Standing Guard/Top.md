@@ -155,8 +155,6 @@ description: "Master Standing Guard Top position in BJJ. Complete guide covering
 
 
 
-# Standing Guard Top
-
 #bjj #position #standing-guard #guard-passing #top-position 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

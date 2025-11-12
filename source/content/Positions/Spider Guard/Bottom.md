@@ -155,8 +155,6 @@ description: "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve 
 
 
 
-# Spider Guard Bottom
-
 #bjj #position #spider-guard #open-guard #bottom #gi #guard 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

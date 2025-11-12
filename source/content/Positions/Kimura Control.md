@@ -13,8 +13,6 @@ description: "Master Kimura Control in BJJ. Strategic guide covering grip mechan
 
 
 
-# Kimura Control
-
 > **Quick Overview**: Kimura Control is a fundamental control position in Brazilian Jiu-Jitsu built around the Kimura grip—a figure-four configuration where one hand controls the opponent's wrist while the other arm thread...
 
 ---

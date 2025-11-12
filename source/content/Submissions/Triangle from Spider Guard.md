@@ -153,7 +153,6 @@ description: "Master Triangle from Spider Guard. Setup from spider hooks, angle 
 
 
 
-# Triangle from Spider Guard
 #bjj #submission #triangle-choke #spider-guard #blood-choke #guard-bottom 
 
 > **Quick Answer**: Triangle from Spider Guard is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.

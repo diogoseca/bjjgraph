@@ -13,8 +13,6 @@ description: "Master Triangle Control in BJJ. Dominant submission platform with 
 
 
 
-# Triangle Control
-
 > **Quick Overview**: Triangle Control represents one of the most powerful submission positions in Brazilian Jiu-Jitsu, where the practitioner has locked their legs around the opponent's neck and one arm, creating an immin...
 
 ---

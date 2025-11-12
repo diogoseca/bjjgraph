@@ -13,8 +13,6 @@ description: "Master the Mount position in BJJ. Learn control mechanics, submiss
 
 
 
-# Mount
-
 > **Quick Overview**: The Mount position represents the pinnacle of positional dominance in Brazilian Jiu-Jitsu, awarded 4 points in IBJJF competition. From this elevated position, the top practitioner sits astride the opp...
 
 ---

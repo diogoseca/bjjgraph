@@ -155,8 +155,6 @@ description: "Master Double Sleeve Guard Top in BJJ. Complete guide covering pas
 
 
 
-# Double Sleeve Guard Top
-
 #bjj #position #guard-passing #top-position #open-guard #gi #grip-fighting 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

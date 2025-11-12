@@ -147,7 +147,6 @@ description: "Master the Hip Bump Sweep from Closed Guard. Complete guide with s
 
 
 
-# Hip Bump Sweep V2
 #bjj #transition #sweep #closed guard #fundamental #beginner friendly #mount attack 
 
 > **Quick Answer**: Hip Bump Sweep V2 transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

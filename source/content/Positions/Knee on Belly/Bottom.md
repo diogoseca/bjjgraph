@@ -155,8 +155,6 @@ description: "Master escaping Knee on Belly Bottom in BJJ. Defensive position re
 
 
 
-# Knee on Belly Bottom
-
 #bjj #position #knee-on-belly #bottom #defensive #escape #pressure-defense 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

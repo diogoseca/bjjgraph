@@ -153,7 +153,6 @@ description: "Learn Guard Bottom Transition in BJJ. Master proper guard pulling 
 
 
 
-# Guard Bottom Transition
 #bjj #transition #guard #guard pull #fundamental #open guard #sitting #guard entry 
 
 > **Quick Answer**: Guard Bottom Transition transitions from [[Standing Position]] to [[Open Guard]]. Success rates: Beginner 70%, Intermediate 80%, Advanced 90%.

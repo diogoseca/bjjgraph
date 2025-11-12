@@ -159,7 +159,6 @@ description: "Master the Front Headlock Series in BJJ. Complete system covering 
 
 
 
-# Front Headlock Series
 #bjj #transition #technique #front-headlock #turtle #control-position #submission-system #advanced 
 
 > **Quick Answer**: Front Headlock Series transitions from [[Front Headlock]] to [[Back Control]]. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.

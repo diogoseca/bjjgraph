@@ -13,8 +13,6 @@ description: "Master Estima Lock position in BJJ. Strategic guide covering inver
 
 
 
-# Estima Lock
-
 > **Quick Overview**: The Estima Lock Position represents a sophisticated leg entanglement scenario where one practitioner secures control of their opponent's foot in an inverted orientation, creating a specialized footloc...
 
 ---

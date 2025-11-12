@@ -155,8 +155,6 @@ description: "Master Williams Guard Bottom in BJJ. Innovative shoulder lock guar
 
 
 
-# Williams Guard Bottom
-
 #bjj #position #williams-guard #open-guard #shoulder-lock #bottom #innovative #guard-retention 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

@@ -145,7 +145,6 @@ description: "Master underhook defense principles in BJJ. Learn prevention strat
 
 
 
-# Underhook Defense
 #bjj #principle #fundamental #underhook #defense #grip-fighting #control #position-retention 
 
 > **Quick Answer**: Underhook Defense is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

@@ -153,7 +153,6 @@ description: "Master the Calf Slicer in BJJ. Complete guide with safety protocol
 
 
 
-# Calf Slicer
 #bjj #submission #leg-lock #compression #calf-slicer #advanced-technique 
 
 > **Quick Answer**: Calf Slicer is a leg compression targeting the Calf muscle and Achilles tendon. ⚠️ **SAFETY**: This technique can cause Calf muscle tear or rupture - apply slowly over 3-5 seconds and release immediately upon tap.

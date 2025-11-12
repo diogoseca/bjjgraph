@@ -13,8 +13,6 @@ description: "Master Crab Ride position in BJJ. Strategic guide covering turtle 
 
 
 
-# Crab Ride
-
 > **Quick Overview**: Crab Ride is a highly effective transitional position from turtle where the top practitioner establishes a dominant perpendicular control position alongside the opponent's torso. This position serves ...
 
 ---

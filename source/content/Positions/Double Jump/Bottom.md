@@ -155,8 +155,6 @@ description: "Master Double Jump Bottom position in BJJ. Dynamic entry to deep h
 
 
 
-# Double Jump Bottom
-
 #bjj #position #guard #deep-half #advanced #10th-planet #dynamic-entry #sweep #back-take 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

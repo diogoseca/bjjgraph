@@ -153,7 +153,6 @@ description: "Learn the Ankle Pick takedown in BJJ. Step-by-step execution from 
 
 
 
-# Ankle Pick
 #bjj #technique #takedown #wrestling #standing #ankle-pick #grip-fighting 
 
 > **Quick Answer**: Ankle Pick transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

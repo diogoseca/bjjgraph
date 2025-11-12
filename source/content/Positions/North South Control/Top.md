@@ -155,8 +155,6 @@ description: "Dominant pinning position using perpendicular chest pressure to co
 
 
 
-# North South Control Top
-
 #top #offensive #pinning #north-south #intermediate 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

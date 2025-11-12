@@ -145,7 +145,6 @@ description: "Master Transition Sequences in BJJ. Learn to link positions system
 
 
 
-# Transition Sequences
 #bjj #principle #transitions #sequences #flow #movement #chains #tactics #momentum #position-linking 
 
 > **Quick Answer**: Transition Sequences is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

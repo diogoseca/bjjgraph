@@ -13,8 +13,6 @@ description: "Master Piranha Guard in BJJ. Advanced lapel-based guard with power
 
 
 
-# Piranha Guard
-
 > **Quick Overview**: Piranha Guard is an advanced lapel-based guard system where the bottom player feeds the opponent's collar through their legs, creating a powerful control mechanism that generates exceptional posture-b...
 
 ---

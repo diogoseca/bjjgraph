@@ -155,8 +155,6 @@ description: "Master Crab Ride Top attacks in BJJ. Complete guide covering back 
 
 
 
-# Crab Ride Top
-
 #bjj #position #crab-ride #top #offensive #turtle-attack #back-attack #control 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

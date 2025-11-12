@@ -155,8 +155,6 @@ description: "Master Ringworm Guard Bottom in BJJ. Advanced lapel guard with pow
 
 
 
-# Ringworm Guard Bottom
-
 #bjj #position #guard #lapel-guard #ringworm-guard #bottom #advanced #keenan-cornelius 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

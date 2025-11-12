@@ -13,8 +13,6 @@ description: "Master Vaporizer position in BJJ. 10th Planet innovation for lockd
 
 
 
-# Vaporizer
-
 > **Quick Overview**: The Vaporizer is an advanced controlling position within the 10th Planet system, representing a strategic extension of the lockdown half guard. This position is characterized by establishing a deep lo...
 
 ---

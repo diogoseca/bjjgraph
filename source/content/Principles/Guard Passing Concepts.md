@@ -145,7 +145,6 @@ description: "Master guard passing strategies in BJJ. Learn pressure dynamics, d
 
 
 
-# Guard Passing Concepts
 #bjj #concept #fundamental #passing #guard #strategy #pressure #distance-management 
 
 > **Quick Answer**: Guard Passing Concepts is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

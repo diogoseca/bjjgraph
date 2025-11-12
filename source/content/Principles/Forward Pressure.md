@@ -145,7 +145,6 @@ description: "Master Forward Pressure in BJJ. Learn strategic force application,
 
 
 
-# Forward Pressure
 #bjj #principle #offense #fundamental #control #pressure #passing #advancement #guard passing #top control 
 
 > **Quick Answer**: Forward Pressure is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

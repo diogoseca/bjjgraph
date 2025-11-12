@@ -153,7 +153,6 @@ description: "Master De La Riva Sweep Variations in BJJ. Complete guide covering
 
 
 
-# De La Riva Sweep Variations
 #bjj #transition #sweep #de_la_riva #advanced #guard #open_guard #systematic_approach #competition #gi 
 
 > **Quick Answer**: De La Riva Sweep Variations transitions from [[De La Riva Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.

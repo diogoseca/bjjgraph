@@ -147,7 +147,6 @@ description: "Learn Hook Sweep in BJJ. Step-by-step execution from Butterfly Gua
 
 
 
-# Hook Sweep
 #bjj #transition #sweep #butterfly_guard #fundamental 
 
 > **Quick Answer**: Hook Sweep transitions from [[Butterfly Guard]] to [[Side Control]]. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.

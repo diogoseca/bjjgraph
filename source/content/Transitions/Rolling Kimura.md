@@ -153,7 +153,6 @@ description: "Master the Rolling Kimura in BJJ. Dynamic sweep and submission tec
 
 
 
-# Rolling Kimura
 #bjj #transition #kimura #turtle #sweep #submission-threat #dynamic-movement 
 
 > **Quick Answer**: Rolling Kimura transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

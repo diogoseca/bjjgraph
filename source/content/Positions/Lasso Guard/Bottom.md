@@ -155,8 +155,6 @@ description: "Master Lasso Guard from bottom position. Learn sweep mechanics, su
 
 
 
-# Lasso Guard Bottom
-
 #lasso guard bottom #open guard techniques #gi guard systems #spider guard variations #sweep mechanics from guard #triangle entries from lasso #omoplata setups #competition guard systems 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

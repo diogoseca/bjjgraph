@@ -155,8 +155,6 @@ description: "Master Rodeo Ride attacks in BJJ. Advanced turtle control position
 
 
 
-# Rodeo Ride Top
-
 #bjj #position #turtle-attack #back-attack #advanced #control 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

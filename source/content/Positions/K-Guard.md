@@ -13,8 +13,6 @@ description: "Master K-Guard position in BJJ. Dynamic half guard variation with 
 
 
 
-# K-Guard
-
 > **Quick Overview**: K-Guard is a dynamic half guard variation characterized by an inverted butterfly hook configuration that creates a distinct 'K' shape with the legs. This position combines elements of deep half guard ...
 
 ---

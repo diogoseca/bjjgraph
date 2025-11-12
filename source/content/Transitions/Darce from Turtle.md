@@ -147,7 +147,6 @@ description: "Learn Darce from Turtle in BJJ. Step-by-step execution from Turtle
 
 
 
-# Darce from Turtle
 #bjj #transition #submission_setup #turtle #front_headlock #nogi #darce #choke #blood_choke 
 
 > **Quick Answer**: Darce from Turtle transitions from [[Turtle]] to [[D'arce Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.

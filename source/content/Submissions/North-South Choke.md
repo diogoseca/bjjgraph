@@ -147,7 +147,6 @@ description: "Master North-South Choke in BJJ. Complete guide with setup from to
 
 
 
-# North-South Choke
 #bjj #submission #choke #north-south #blood-choke #gi #no-gi #pressure #top-control 
 
 > **Quick Answer**: North-South Choke is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.

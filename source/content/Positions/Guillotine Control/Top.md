@@ -155,8 +155,6 @@ description: "Master Guillotine Control Top position in BJJ. Dominant control wi
 
 
 
-# Guillotine Control Top
-
 #bjj #position #guillotine #front-headlock #submission-control #top-position #choke 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

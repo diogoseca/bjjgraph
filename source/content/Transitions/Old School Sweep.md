@@ -153,7 +153,6 @@ description: "Learn Old School Sweep from Half Guard in BJJ. Step-by-step execut
 
 
 
-# Old School Sweep
 #bjj #sweep #half-guard #old-school #fundamentals #eddie-bravo #10th-planet 
 
 > **Quick Answer**: Old School Sweep transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.

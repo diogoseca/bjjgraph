@@ -13,8 +13,6 @@ description: "Master Spider Guard in BJJ. Strategic guide covering when to use s
 
 
 
-# Spider Guard
-
 > **Quick Overview**: Spider Guard is a highly technical open guard position characterized by the bottom player controlling both sleeves of the opponent while placing their feet on the opponent's biceps or elbows, creating...
 
 ---

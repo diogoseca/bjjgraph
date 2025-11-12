@@ -147,7 +147,6 @@ description: "Master Jumping Guard in BJJ. Dynamic guard pull from standing to C
 
 
 
-# Jumping Guard
 #bjj #technique #guard pull #dynamic entry #closed guard #standing 
 
 > **Quick Answer**: Jumping Guard transitions from [[Standing Position]] to [[Closed Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.

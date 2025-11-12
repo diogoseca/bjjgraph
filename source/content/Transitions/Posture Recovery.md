@@ -153,7 +153,6 @@ description: "Learn Posture Recovery in BJJ. Defensive technique for regaining u
 
 
 
-# Posture Recovery
 #bjj #transition #defense #guard #posture #escape #fundamentals 
 
 > **Quick Answer**: Posture Recovery transitions from [[Closed Guard]] to [[Combat Base]]. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.

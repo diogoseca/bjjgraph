@@ -13,8 +13,6 @@ description: "Master grasshopper guard in BJJ. Strategic guide covering elevatio
 
 
 
-# Grasshopper Guard
-
 > **Quick Overview**: Grasshopper Guard represents an unorthodox open guard position where the bottom practitioner inverts their body positioning, placing their shoulders near the mat while elevating their hips and legs to...
 
 ---

@@ -159,7 +159,6 @@ description: "Learn Omoplata to Back transition in BJJ. Step-by-step execution f
 
 
 
-# Omoplata to Back
 #bjj #transition #back_take #omoplata #advanced #guard #back_control #shoulder_lock 
 
 > **Quick Answer**: Omoplata to Back transitions from [[Omoplata Control]] to [[Back Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

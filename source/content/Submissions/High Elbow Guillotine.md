@@ -153,7 +153,6 @@ description: "Master High Elbow Guillotine in BJJ. Complete guide with safety pr
 
 
 
-# High Elbow Guillotine
 #bjj #submission #choke #guillotine #blood-choke #front-headlock #high-elbow #standing #guard-pull 
 
 > **Quick Answer**: High Elbow Guillotine is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.

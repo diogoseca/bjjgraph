@@ -153,7 +153,6 @@ description: "Master the Forward Roll in BJJ. Essential escape and movement tech
 
 
 
-# Forward Roll
 #bjj #transition #defense #movement #escape #guard recovery #rolling 
 
 > **Quick Answer**: Forward Roll transitions from [[Defensive Position]] to [[Seated Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

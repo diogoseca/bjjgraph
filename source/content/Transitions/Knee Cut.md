@@ -147,7 +147,6 @@ description: "Master the Knee Cut Pass in BJJ. Step-by-step execution from Half 
 
 
 
-# Knee Cut
 #bjj #guard-passing #half-guard #knee-cut #pressure-passing #side-control 
 
 > **Quick Answer**: Knee Cut transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.

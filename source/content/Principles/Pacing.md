@@ -145,7 +145,6 @@ description: "Master tempo control and energy management in BJJ. Learn to regula
 
 
 
-# Pacing
 #bjj #principle #pacing #energy #tempo #strategy #conditioning #match management 
 
 > **Quick Answer**: Pacing is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

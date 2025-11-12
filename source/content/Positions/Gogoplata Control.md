@@ -13,8 +13,6 @@ description: "Master gogoplata control in BJJ. Complete technical guide covering
 
 
 
-# Gogoplata Control
-
 > **Quick Overview**: Gogoplata Control represents one of Brazilian Jiu-Jitsu's most technically demanding and strategically unique control positions. This position establishes a shin-across-throat configuration that creat...
 
 ---

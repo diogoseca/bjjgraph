@@ -147,7 +147,6 @@ description: "Master the Americana from Side Control with comprehensive safety p
 
 
 
-# Americana from Side Control
 #bjj #submission #americana #joint-lock #side-control #shoulder-lock #top-position 
 
 > **Quick Answer**: Americana from Side Control is a shoulder lock targeting the Shoulder joint (specifically rotator cuff). ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus tendons) - apply slowly over 3-5 seconds and release immediately upon tap.

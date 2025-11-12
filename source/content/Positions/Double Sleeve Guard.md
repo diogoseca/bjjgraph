@@ -13,8 +13,6 @@ description: "Master Double Sleeve Guard in BJJ. Strategic guide covering grip c
 
 
 
-# Double Sleeve Guard
-
 > **Quick Overview**: Double Sleeve Guard is a fundamental open guard position where the bottom practitioner controls both of the opponent's sleeves while maintaining distance with their feet on the hips or biceps. This po...
 
 ---

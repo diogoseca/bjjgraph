@@ -147,7 +147,6 @@ description: "Master North-South to Kimura transition in BJJ. Step-by-step arm i
 
 
 
-# North-South to Kimura
 #bjj #transition #north-south #kimura #submission-setup #shoulder-lock #top-control #arm-isolation #positional-attack 
 
 > **Quick Answer**: North-South to Kimura transitions from [[North-South]] to [[Kimura Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

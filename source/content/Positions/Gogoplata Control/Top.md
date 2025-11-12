@@ -155,8 +155,6 @@ description: "Master defending and escaping gogoplata control from top position 
 
 
 
-# Gogoplata Control Top
-
 #defensive technique #gogoplata defense #escape mechanics #guard passing #submission defense #posture recovery #advanced defense 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

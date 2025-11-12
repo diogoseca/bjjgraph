@@ -155,8 +155,6 @@ description: "Master Piranha Guard Bottom in BJJ. Aggressive lapel-based guard w
 
 
 
-# Piranha Guard Bottom
-
 #bjj #position #guard #piranha-guard #lapel-guard #bottom #open-guard #gi 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

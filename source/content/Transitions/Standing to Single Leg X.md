@@ -147,7 +147,6 @@ description: "Learn Standing to Single Leg X transition in BJJ. Step-by-step ent
 
 
 
-# Standing to Single Leg X
 #bjj #transition #guard pull #leg entanglement #single leg x #x-guard #guard entry 
 
 > **Quick Answer**: Standing to Single Leg X transitions from [[Standing Position]] to [[Single Leg X-Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

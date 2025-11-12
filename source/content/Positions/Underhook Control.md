@@ -13,8 +13,6 @@ description: "Master underhook control in BJJ. Strategic guide covering bottom d
 
 
 
-# Underhook Control
-
 > **Quick Overview**: Underhook control represents one of the most fundamental positional battles in Brazilian Jiu-Jitsu, occurring across multiple positions including half guard, side control transitions, and scramble sit...
 
 ---

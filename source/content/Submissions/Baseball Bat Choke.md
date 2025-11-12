@@ -147,7 +147,6 @@ description: "Master the Baseball Bat Choke in BJJ. Devastating collar choke fro
 
 
 
-# Baseball Bat Choke
 #bjj #submission #choke #collar-choke #top-position #gi-technique #blood-choke 
 
 > **Quick Answer**: Baseball Bat Choke is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from carotid compression - apply slowly over 3-5 seconds and release immediately upon tap.

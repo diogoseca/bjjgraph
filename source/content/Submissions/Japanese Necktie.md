@@ -153,7 +153,6 @@ description: "Master Japanese Necktie in BJJ. Complete guide with safety protoco
 
 
 
-# Japanese Necktie
 #bjj #submission #choke #blood-choke #turtle #front-headlock #gi #no-gi #advanced 
 
 > **Quick Answer**: Japanese Necktie is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from bilateral carotid compression - apply slowly over 3-5 seconds and release immediately upon tap.

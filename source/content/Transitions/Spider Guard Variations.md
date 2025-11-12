@@ -147,7 +147,6 @@ description: "Master Spider Guard variations in BJJ. Learn sleeve control mechan
 
 
 
-# Spider Guard Variations
 #bjj #guard #spider-guard #open-guard #gi #sweeps #distance-control #sleeve-control 
 
 > **Quick Answer**: Spider Guard Variations transitions from [[Spider Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

@@ -147,7 +147,6 @@ description: "Master Outside Heel Hook in BJJ. Safety guide covering proper appl
 
 
 
-# Outside Heel Hook
 #bjj #submission #leg-lock #heel-hook #outside-heel-hook #ashi-garami #advanced #dangerous 
 
 > **Quick Answer**: Outside Heel Hook is a leg lock targeting the Knee joint, ankle joint, and surrounding ligaments. ⚠️ **SAFETY**: This technique can cause ACL tear (anterior cruciate ligament rupture) - apply slowly over 3-5 seconds and release immediately upon tap.

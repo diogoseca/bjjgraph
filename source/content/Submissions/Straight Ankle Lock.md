@@ -153,7 +153,6 @@ description: "Master the Straight Ankle Lock in BJJ. Complete guide with safety 
 
 
 
-# Straight Ankle Lock
 #bjj #submission #leg-lock #ankle-lock #straight-footlock #ashi-garami #lower-body-submission 
 
 > **Quick Answer**: Straight Ankle Lock is a ankle lock targeting the Ankle joint, Achilles tendon, and foot ligaments. ⚠️ **SAFETY**: This technique can cause Ankle sprain or ligament damage - apply slowly over 3-5 seconds and release immediately upon tap.

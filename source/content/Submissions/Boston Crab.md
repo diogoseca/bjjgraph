@@ -153,7 +153,6 @@ description: "Master Boston Crab submission in BJJ. Complete guide covering setu
 
 
 
-# Boston Crab
 #bjj #submission #compression #spine-lock #catch-wrestling #pro-wrestling #leg-control #turtle-attack #back-attack 
 
 > **Quick Answer**: Boston Crab is a spinal compression targeting the Lumbar spine and hip flexors. ⚠️ **SAFETY**: This technique can cause Lumbar spine strain or disc herniation - apply slowly over 3-5 seconds and release immediately upon tap.

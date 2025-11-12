@@ -147,7 +147,6 @@ description: "Learn Deep Half Entry in BJJ. Step-by-step execution from Half Gua
 
 
 
-# Deep Half Entry
 #bjj #transition #half-guard #deep-half #sweep #guard-retention #bottom-game 
 
 > **Quick Answer**: Deep Half Entry transitions from [[Half Guard]] to [[Deep Half Guard]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.

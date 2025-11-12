@@ -153,7 +153,6 @@ description: "Master the Toe Hold from 50-50 Guard with comprehensive safety pro
 
 
 
-# Toe Hold from 50-50
 #bjj #submission #toe-hold #leg-lock #50-50-guard #ankle-lock #foot-lock 
 
 > **Quick Answer**: Toe Hold from 50-50 is a leg lock targeting the Ankle, talocrural joint, and lateral ankle ligaments. ⚠️ **SAFETY**: This technique can cause Lateral ankle ligament tears (anterior talofibular, calcaneofibular) - apply slowly over 3-5 seconds and release immediately upon tap.

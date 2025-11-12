@@ -155,8 +155,6 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
 
 
 
-# Harness Top
-
 #bjj #position #back-control #harness #dominant #top-position #seat-belt #controlling #submission-platform 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

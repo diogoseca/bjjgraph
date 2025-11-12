@@ -137,7 +137,6 @@ description: "Master Garry Tonon's leg lock to back system. Learn seamless trans
 
 
 
-# Garry Tonon Leg Lock to Back System
 #bjj #system #leg-locks #back-attacks #garry-tonon #submission-chain #advanced 
 
 > **Quick Answer**: Garry Tonon Leg Lock to Back System is a advanced difficulty Attack System system. This systematic approach integrates 5 key components into a cohesive fighting framework.

@@ -145,7 +145,6 @@ description: "Master defensive hand fighting from back control in BJJ. Learn wri
 
 
 
-# Hand Fighting from Back
 #bjj #principle #defense #back-control #hand-fighting #submission-defense #survival #wrist-control #chin-protection 
 
 > **Quick Answer**: Hand Fighting from Back is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

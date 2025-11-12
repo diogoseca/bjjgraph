@@ -13,8 +13,6 @@ description: "Master 100 Kilos position in BJJ. Devastating pressure variant com
 
 
 
-# 100 Kilos
-
 > **Quick Overview**: 100 Kilos (Cem Quilos in Portuguese) represents one of the most psychologically and physically devastating pressure positions in Brazilian Jiu-Jitsu, named for the sensation of bearing the crushing we...
 
 ---

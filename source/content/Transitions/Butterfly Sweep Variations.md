@@ -153,7 +153,6 @@ description: "Master Butterfly Sweep variations in BJJ. Learn Hook Sweep, Elevat
 
 
 
-# Butterfly Sweep Variations
 #bjj #sweep #butterfly guard #guard #transitions #marcelo garcia #fundamental technique 
 
 > **Quick Answer**: Butterfly Sweep Variations transitions from [[Butterfly Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

@@ -155,8 +155,6 @@ description: "Master defensive strategies for surviving Anaconda Control from bo
 
 
 
-# Anaconda Control Bottom
-
 #bjj #position #anaconda-control #bottom #defense #escapes #submission-defense 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

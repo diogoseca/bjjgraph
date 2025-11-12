@@ -153,7 +153,6 @@ description: "Master the Double Leg Finish in BJJ. Complete execution from penet
 
 
 
-# Double Leg Finish
 #bjj #transition #takedown #finish #wrestling #top-position #fundamental 
 
 > **Quick Answer**: Double Leg Finish transitions from [[Clinch]] to [[Side Control]]. Success rates: Beginner 55%, Intermediate 75%, Advanced 88%.

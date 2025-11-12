@@ -153,7 +153,6 @@ description: "Master the Arm Triangle from Turtle in BJJ. Complete guide coverin
 
 
 
-# Arm Triangle from Turtle
 #bjj #transition #choke #turtle #arm-triangle #front-headlock #submission-attack 
 
 > **Quick Answer**: Arm Triangle from Turtle transitions from [[Turtle]] to [[Arm Triangle]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

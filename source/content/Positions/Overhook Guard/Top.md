@@ -155,8 +155,6 @@ description: "Master Overhook Guard Top position in BJJ. Control opponent's arm 
 
 
 
-# Overhook Guard Top
-
 #bjj #position #guard-top #overhook #control #passing 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

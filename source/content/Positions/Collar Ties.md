@@ -175,8 +175,6 @@ description: "Master collar ties in BJJ and wrestling. Complete guide to establi
 
 
 
-# Collar Ties
-
 #bjj #position #standing #neutral #clinch #collar-tie #head-control #wrestling #takedowns #grip-fighting 
 
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.

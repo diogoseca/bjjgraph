@@ -147,7 +147,6 @@ description: "Master the Twister finishing sequence in BJJ. Complete guide with 
 
 
 
-# Twister Finish
 #bjj #submission #twister #spinal-lock #truck-position #10th-planet #eddie-bravo #advanced-technique 
 
 > **Quick Answer**: Twister Finish is a spinal lock targeting the Cervical and thoracic spine, shoulder girdle. ⚠️ **SAFETY**: This technique can cause Cervical spine strain or herniation - apply slowly over 3-5 seconds and release immediately upon tap.

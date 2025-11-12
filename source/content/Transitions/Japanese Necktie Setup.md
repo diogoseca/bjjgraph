@@ -147,7 +147,6 @@ description: "Master the Japanese Necktie Setup from Front Headlock in BJJ. Step
 
 
 
-# Japanese Necktie Setup
 #bjj #transition #front-headlock #choke-setup #turtle-attack #japanese-necktie #submission-setup #positional-attack 
 
 > **Quick Answer**: Japanese Necktie Setup transitions from [[Front Headlock]] to [[Japanese Necktie]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.

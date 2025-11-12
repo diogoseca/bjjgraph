@@ -153,7 +153,6 @@ description: "Master Williams Shoulder Lock in BJJ. Complete guide with safety p
 
 
 
-# Williams Shoulder Lock
 #bjj #submission #shoulder-lock #joint-lock #williams-guard #overhook #advanced-technique 
 
 > **Quick Answer**: Williams Shoulder Lock is a shoulder lock targeting the Shoulder joint (glenohumeral joint and rotator cuff). ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) - apply slowly over 3-5 seconds and release immediately upon tap.

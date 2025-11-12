@@ -155,8 +155,6 @@ description: "Master Triangle Control defense from top position in BJJ. Learn de
 
 
 
-# Triangle Control Top
-
 #bjj position #triangle defense #top position #defensive position #submission defense #guard defense 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

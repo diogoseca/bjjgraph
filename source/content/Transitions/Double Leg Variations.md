@@ -147,7 +147,6 @@ description: "Learn Double Leg Variations in BJJ. Step-by-step execution from St
 
 
 
-# Double Leg Variations
 #bjj #transition #takedown #standing #wrestling 
 
 > **Quick Answer**: Double Leg Variations transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.

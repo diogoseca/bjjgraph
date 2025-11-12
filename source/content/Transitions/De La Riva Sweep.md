@@ -147,7 +147,6 @@ description: "Learn De La Riva Sweep in BJJ. Step-by-step execution from De La R
 
 
 
-# De La Riva Sweep
 #bjj #transition #sweep #open_guard #gi_specific #de_la_riva #advanced_guard 
 
 > **Quick Answer**: De La Riva Sweep transitions from [[De La Riva Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

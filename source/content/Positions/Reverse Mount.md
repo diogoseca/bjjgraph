@@ -13,8 +13,6 @@ description: "Master Reverse Mount position in BJJ. Strategic guide covering tra
 
 
 
-# Reverse Mount
-
 > **Quick Overview**: Reverse Mount is a transitional dominant position where the practitioner sits on the opponent's torso while facing away from their head, essentially mounted in the opposite direction from standard mou...
 
 ---

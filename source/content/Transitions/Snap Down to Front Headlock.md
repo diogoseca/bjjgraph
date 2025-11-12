@@ -153,7 +153,6 @@ description: "Master Snap Down to Front Headlock. Complete guide from standing c
 
 
 
-# Snap Down to Front Headlock
 #bjj #technique #takedown #wrestling #front-headlock #clinch #control #standing 
 
 > **Quick Answer**: Snap Down to Front Headlock transitions from [[Clinch]] to [[Front Headlock]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.

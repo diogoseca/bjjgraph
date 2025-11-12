@@ -13,8 +13,6 @@ description: "Master Knee on Belly in BJJ. Strategic control position balancing 
 
 
 
-# Knee on Belly
-
 > **Quick Overview**: Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one practitioner places their knee on the opponent's torso while maintaining a mobile base. This position uniquely combines hig...
 
 ---

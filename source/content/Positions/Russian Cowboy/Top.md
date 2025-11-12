@@ -155,8 +155,6 @@ description: "Offensive guide to mastering Russian Cowboy position. Learn contro
 
 
 
-# Russian Cowboy Top
-
 #bjj #back_attack #offensive #russian_cowboy #leg_entanglement 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

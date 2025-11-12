@@ -147,7 +147,6 @@ description: "Learn Granby to Closed Guard recovery technique. Master Granby rol
 
 
 
-# Granby to Closed Guard
 #bjj #technique #escape #guard-recovery #granby-roll #defensive-technique #movement 
 
 > **Quick Answer**: Granby to Closed Guard transitions from [[Turtle]] to [[Closed Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

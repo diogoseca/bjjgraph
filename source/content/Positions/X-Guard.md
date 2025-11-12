@@ -13,8 +13,6 @@ description: "Master X-Guard in BJJ with comprehensive analysis from both top an
 
 
 
-# X-Guard
-
 > **Quick Overview**: X-Guard is an advanced open guard position where the bottom practitioner entangles one of the opponent's legs using both of their own legs in an 'X' configuration, creating powerful leverage for sweep...
 
 ---

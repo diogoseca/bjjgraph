@@ -147,7 +147,6 @@ description: "Master the fundamental transition from side control to mount in BJ
 
 
 
-# Transition to Mount
 #bjj #technique #transition #mount #side control #positional advancement #top game 
 
 > **Quick Answer**: Transition to Mount transitions from [[Side Control]] to [[Mount]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.

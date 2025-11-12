@@ -147,7 +147,6 @@ description: "Learn Kosoto Gake in BJJ. Master this minor outer reaping throw fr
 
 
 
-# Kosoto Gake
 #bjj #judo #takedown #throw #foot-sweep #standing #beginner-friendly 
 
 > **Quick Answer**: Kosoto Gake transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 65%.

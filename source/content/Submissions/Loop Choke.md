@@ -147,7 +147,6 @@ description: "Master the Loop Choke in BJJ - deceptive collar choke from mount, 
 
 
 
-# Loop Choke
 #bjj #submission #choke #gi-technique #loop-choke #collar-choke #mount #side-control 
 
 > **Quick Answer**: Loop Choke is a blood choke targeting the Carotid arteries via deep collar grip and body positioning. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.

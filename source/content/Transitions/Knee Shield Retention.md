@@ -153,7 +153,6 @@ description: "Master Knee Shield Retention in BJJ. Essential defensive framework
 
 
 
-# Knee Shield Retention
 #bjj #half-guard #guard-retention #defensive-technique #frame-management #knee-shield #space-creation 
 
 > **Quick Answer**: Knee Shield Retention transitions from [[Knee Shield Half Guard]] to [[Knee Shield Half Guard]]. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.

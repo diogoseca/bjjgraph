@@ -155,8 +155,6 @@ description: "Master top kneebar control in BJJ. Complete technical guide coveri
 
 
 
-# Kneebar Control Top
-
 #leg locks #submissions #top position #kneebar #passing #pressure #no-gi #advanced 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

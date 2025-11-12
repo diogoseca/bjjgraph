@@ -155,8 +155,6 @@ description: "Master Seated Guard Bottom in BJJ. Upright open guard with posted 
 
 
 
-# Seated Guard Bottom
-
 #bjj #position #guard #open-guard #fundamental #seated #distance-management #bottom 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

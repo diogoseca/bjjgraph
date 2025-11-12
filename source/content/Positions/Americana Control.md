@@ -13,8 +13,6 @@ description: "Master the Americana shoulder lock in BJJ. Complete strategic guid
 
 
 
-# Americana Control
-
 > **Quick Overview**: Americana Control represents a dominant shoulder lock position in Brazilian Jiu-Jitsu where the attacker secures a figure-four grip on the opponent's arm, controlling the wrist with one hand while app...
 
 ---

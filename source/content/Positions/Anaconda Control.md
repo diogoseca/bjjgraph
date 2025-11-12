@@ -13,8 +13,6 @@ description: "Master Anaconda Control in BJJ. Complete guide covering offensive 
 
 
 
-# Anaconda Control
-
 > **Quick Overview**: Anaconda Control is a powerful submission control position in Brazilian Jiu-Jitsu where one practitioner has secured a front headlock variation with an arm-in configuration around the opponent's neck ...
 
 ---

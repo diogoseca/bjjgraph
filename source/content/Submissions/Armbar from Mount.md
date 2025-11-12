@@ -147,7 +147,6 @@ description: "Master Armbar from Mount in BJJ. Complete safety protocols, setup,
 
 
 
-# Armbar from Mount
 #bjj #submission #armbar #joint-lock #mount #arm-lock #elbow-hyperextension 
 
 > **Quick Answer**: Armbar from Mount is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension - apply slowly over 3-5 seconds and release immediately upon tap.

@@ -13,8 +13,6 @@ description: "Master collar sleeve guard in BJJ. Comprehensive guide covering gr
 
 
 
-# Collar Sleeve Guard
-
 > **Quick Overview**: Collar sleeve guard is a fundamental open guard variation that combines a collar grip (typically cross-collar) with a same-side sleeve grip to create powerful off-balancing and sweeping opportunities....
 
 ---

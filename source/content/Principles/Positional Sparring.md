@@ -145,7 +145,6 @@ description: "Master Positional Sparring in BJJ. Learn structured resistance tra
 
 
 
-# Positional Sparring
 #bjj #principle #training #positional-sparring #resistance #skill-development #pedagogy 
 
 > **Quick Answer**: Positional Sparring is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

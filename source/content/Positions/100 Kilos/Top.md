@@ -155,8 +155,6 @@ description: "Master 100 Kilos Top attacks in BJJ. Devastating pressure position
 
 
 
-# 100 Kilos Top
-
 #bjj #position #100-kilos #top #pressure #attacks #side-control-variant #submissions 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

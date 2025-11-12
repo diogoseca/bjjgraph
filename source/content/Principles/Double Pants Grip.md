@@ -145,7 +145,6 @@ description: "Master double pants grip control in BJJ. Learn bilateral leg contr
 
 
 
-# Double Pants Grip
 #bjj #principle #grip #control #guard #sweeps #open guard #distance management 
 
 > **Quick Answer**: Double Pants Grip is a low complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.

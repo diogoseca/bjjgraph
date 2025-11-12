@@ -13,8 +13,6 @@ description: "Master Ringworm Guard in BJJ. Advanced lapel guard variation with 
 
 
 
-# Ringworm Guard
-
 > **Quick Overview**: Ringworm Guard is an advanced lapel guard variation that originated from the Worm Guard system popularized by Keenan Cornelius. The position involves threading the opponent's lapel around their leg wh...
 
 ---

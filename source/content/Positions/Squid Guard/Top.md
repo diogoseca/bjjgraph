@@ -155,8 +155,6 @@ description: "Master Squid Guard Top in BJJ. Learn guard passing strategies, lap
 
 
 
-# Squid Guard Top
-
 #bjj #position #squid-guard #top-position #guard-passing #lapel-defense #open-guard-passing 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

@@ -155,8 +155,6 @@ description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, co
 
 
 
-# Open Guard Bottom
-
 #bjj #position #guard #open-guard #bottom #offensive #sweeps #submissions 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

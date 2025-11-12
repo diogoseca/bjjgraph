@@ -147,7 +147,6 @@ description: "Master the Bullfighter Pass (Toreando Pass) in BJJ. Dynamic standi
 
 
 
-# Bullfighter Pass
 #bjj #guard passing #standing pass #toreando #pressure passing #no-gi #gi 
 
 > **Quick Answer**: Bullfighter Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.

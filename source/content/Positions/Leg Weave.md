@@ -13,8 +13,6 @@ description: "Master leg weave position in BJJ. Advanced guard passing control w
 
 
 
-# Leg Weave
-
 > **Quick Overview**: Leg Weave is a sophisticated guard passing position where one player threads their leg between the opponent's legs to establish control and disrupt defensive structures. This position represents a cri...
 
 ---

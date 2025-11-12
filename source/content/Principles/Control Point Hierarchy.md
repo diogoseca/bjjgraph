@@ -145,7 +145,6 @@ description: "Master control point hierarchy in BJJ. Learn systematic control ac
 
 
 
-# Control Point Hierarchy
 #bjj #principle #control #hierarchy #strategy #dominance #systematic #advancement 
 
 > **Quick Answer**: Control Point Hierarchy is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

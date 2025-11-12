@@ -155,8 +155,6 @@ description: "Master inverted guard from top perspective. Strategic passing appr
 
 
 
-# Inverted Guard Top
-
 #bjj #passing #pressure #top_game #guard_passing #modern 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

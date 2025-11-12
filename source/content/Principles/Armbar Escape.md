@@ -145,7 +145,6 @@ description: "Master armbar escape principles in BJJ. Learn prevention strategie
 
 
 
-# Armbar Escape
 #bjj #principle #escape #defense #submission-defense #armbar-defense #arm-protection #emergency-escape 
 
 > **Quick Answer**: Armbar Escape is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

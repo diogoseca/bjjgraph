@@ -155,8 +155,6 @@ description: "Master leg drag control from top position. Complete strategic guid
 
 
 
-# Leg Drag Control Top
-
 #offensive #guard-passing #control #leg-drag #intermediate 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

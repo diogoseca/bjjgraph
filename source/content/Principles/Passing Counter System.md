@@ -145,7 +145,6 @@ description: "Master systematic guard passing defense in BJJ. Learn defensive fr
 
 
 
-# Passing Counter System
 #bjj #defense #system #guard #passing #counter #guard-retention #framework 
 
 > **Quick Answer**: Passing Counter System is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

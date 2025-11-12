@@ -13,8 +13,6 @@ description: "Master Lasso Guard in BJJ. Complete guide covering setup mechanics
 
 
 
-# Lasso Guard
-
 > **Quick Overview**: **Lasso Guard** is a sophisticated open guard variation that combines elements of spider guard control with a unique leg threading mechanism. The position is characterized by threading your shin acros...
 
 ---

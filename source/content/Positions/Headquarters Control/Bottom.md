@@ -155,8 +155,6 @@ description: "Master defensive headquarters position in BJJ. Strategic frame-bas
 
 
 
-# Headquarters Control Bottom
-
 #bjj #position #headquarters #bottom #half-guard #defensive #guard-retention #frame-management 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

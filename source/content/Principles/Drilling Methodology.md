@@ -137,7 +137,6 @@ description: "Master drilling methodology in BJJ. Learn systematic practice prin
 
 
 
-# Drilling Methodology
 #bjj #principle #training #drilling #methodology #skill-development #practice #progressive-resistance 
 
 > **Quick Answer**: Drilling Methodology is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.

@@ -137,7 +137,6 @@ description: "Master Marcelo Garcia's high-percentage guillotine system. Learn s
 
 
 
-# Marcelo Garcia Guillotine System
 #bjj #system #guillotine #marcelo-garcia #submission-chain #no-gi #front-headlock 
 
 > **Quick Answer**: Marcelo Garcia Guillotine System is a intermediate difficulty Submission Chain system. This systematic approach integrates 5 key components into a cohesive fighting framework.

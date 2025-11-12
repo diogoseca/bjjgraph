@@ -175,8 +175,6 @@ description: "Master Combat Base in BJJ. Essential neutral position for guard pa
 
 
 
-# Combat Base
-
 #bjj #position #combat-base #guard-passing #neutral #top-position #guard-control 
 
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.

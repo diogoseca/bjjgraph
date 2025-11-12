@@ -155,8 +155,6 @@ description: "Master offensive strategies from top Mount. Learn control mechanic
 
 
 
-# Mount Top
-
 #mount control system #submission from mount #dominant positioning strategy 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

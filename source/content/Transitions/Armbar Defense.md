@@ -147,7 +147,6 @@ description: "Master Armbar Defense in BJJ. Learn systematic escapes from mount,
 
 
 
-# Armbar Defense
 #bjj #defense #armbar escape #submission defense #guard bottom #mount escape 
 
 > **Quick Answer**: Armbar Defense transitions from [[Armbar Control]] to [[Guard Opening Sequence]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.

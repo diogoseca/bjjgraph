@@ -153,7 +153,6 @@ description: "Master the Ezekiel Choke in BJJ with safety protocols, setup, and 
 
 
 
-# Ezekiel Choke
 #bjj #submission #ezekiel-choke #gi-choke #sleeve-choke #mount-submission #top-position #blood-choke 
 
 > **Quick Answer**: Ezekiel Choke is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.

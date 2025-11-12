@@ -13,8 +13,6 @@ description: "Master turtle position in BJJ. Strategic guide covering defensive 
 
 
 
-# Turtle
-
 > **Quick Overview**: Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where the practitioner is on hands and knees with their back exposed to the opponent. While traditionally viewed as a weak po...
 
 ---

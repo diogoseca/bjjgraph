@@ -147,7 +147,6 @@ description: "Master the Arm Drag in BJJ. Complete guide from setup to back cont
 
 
 
-# Arm Drag
 #bjj #technique #arm drag #back take #control #transitions #grip fighting 
 
 > **Quick Answer**: Arm Drag transitions from [[Standing Position]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.

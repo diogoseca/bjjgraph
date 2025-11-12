@@ -155,8 +155,6 @@ description: "Master Overhook Guard Bottom in BJJ. Complete guide covering contr
 
 
 
-# Overhook Guard Bottom
-
 #bjj #position #overhook-guard #bottom #closed-guard #offensive-guard #sweeps #submissions 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

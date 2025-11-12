@@ -155,8 +155,6 @@ description: "Navigate Butterfly Guard Top in BJJ. Strategic passing vs dynamic 
 
 
 
-# Butterfly Guard Top
-
 #bjj guard passing #butterfly guard defense #sweep defense techniques #passing strategies #base maintenance 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

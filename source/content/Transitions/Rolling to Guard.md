@@ -153,7 +153,6 @@ description: "Master Rolling to Guard in BJJ. Dynamic defensive recovery from bo
 
 
 
-# Rolling to Guard
 #bjj #transition #escape #guard_recovery #defensive #fundamental #rotation #scramble 
 
 > **Quick Answer**: Rolling to Guard transitions from [[Defensive Position]] to [[Closed Guard]]. Success rates: Beginner 55%, Intermediate 75%, Advanced 90%.

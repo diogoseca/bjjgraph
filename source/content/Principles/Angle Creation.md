@@ -145,7 +145,6 @@ description: "Master Angle Creation in BJJ. Learn strategic principles of genera
 
 
 
-# Angle Creation
 #bjj #principle #intermediate #movement #strategy #biomechanics 
 
 > **Quick Answer**: Angle Creation is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

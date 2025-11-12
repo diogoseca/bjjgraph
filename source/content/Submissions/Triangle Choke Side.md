@@ -153,7 +153,6 @@ description: "Master Triangle Choke Side from top position in BJJ. Complete safe
 
 
 
-# Triangle Choke Side
 #bjj #submission #triangle-choke #blood-choke #side-control #guard #advanced-technique #top-position #perpendicular-angle 
 
 > **Quick Answer**: Triangle Choke Side is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Carotid artery compression causing unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.

@@ -147,7 +147,6 @@ description: "Master the Truck transition in BJJ. Step-by-step execution from Tu
 
 
 
-# Transition to Truck
 #bjj #transition #truck #turtle #back attack #twister system #10th planet #advanced technique 
 
 > **Quick Answer**: Transition to Truck transitions from [[Turtle]] to [[Truck]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.

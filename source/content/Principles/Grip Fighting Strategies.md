@@ -145,7 +145,6 @@ description: "Master grip fighting strategies in BJJ. Learn grip hierarchy, brea
 
 
 
-# Grip Fighting Strategies
 #bjj #concept #fundamental #grips #control #strategy #hand-fighting 
 
 > **Quick Answer**: Grip Fighting Strategies is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

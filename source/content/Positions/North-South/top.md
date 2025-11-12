@@ -155,8 +155,6 @@ description: "Master North-South top position in BJJ. Complete guide to establis
 
 
 
-# North-South Top
-
 #position #top #offensive #pin-control #north-south #pressure-passing 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

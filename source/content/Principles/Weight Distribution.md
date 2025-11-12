@@ -145,7 +145,6 @@ description: "Master strategic weight allocation in BJJ top positions. Learn bio
 
 
 
-# Weight Distribution
 #bjj #principle #fundamental #weight #pressure #control #top-game #biomechanics 
 
 > **Quick Answer**: Weight Distribution is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

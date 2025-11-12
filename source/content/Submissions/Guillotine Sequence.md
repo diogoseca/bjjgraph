@@ -153,7 +153,6 @@ description: "Master the guillotine sequence in BJJ with systematic entry, contr
 
 
 
-# Guillotine Sequence
 #bjj #submission #guillotine #choke #front-headlock #sequence #submission-chain 
 
 > **Quick Answer**: Guillotine Sequence is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Trachea damage from improper hand placement - apply slowly over 3-5 seconds and release immediately upon tap.

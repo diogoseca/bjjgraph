@@ -153,7 +153,6 @@ description: "Master Seoi Nage shoulder throw in BJJ. Step-by-step execution fro
 
 
 
-# Seoi Nage
 #bjj #transition #takedown #judo #throw #standing #clinch #gripping 
 
 > **Quick Answer**: Seoi Nage transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

@@ -147,7 +147,6 @@ description: "Master grip breaking in BJJ with systematic hand fighting methods.
 
 
 
-# Grip Break
 #bjj #transition #grip_fighting #fundamental #defensive #guard_retention #posture_control #hand_fighting 
 
 > **Quick Answer**: Grip Break transitions from [[Open Guard]] to [[Open Guard]]. Success rates: Beginner 60%, Intermediate 75%, Advanced 90%.

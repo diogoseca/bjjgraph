@@ -155,8 +155,6 @@ description: "Master Toe Hold Control Bottom position in BJJ. Defensive guide co
 
 
 
-# Toe Hold Control Bottom
-
 #bjj #position #leg-lock #defensive #toe-hold #submission-defense #ashi-garami #leg-entanglement 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

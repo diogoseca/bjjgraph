@@ -155,8 +155,6 @@ description: "Master passing Seated Guard in BJJ. Strategic guide covering dista
 
 
 
-# Seated Guard Top
-
 #bjj #position #guard-passing #open-guard #fundamental #seated #distance-management #top 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

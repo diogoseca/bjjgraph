@@ -145,7 +145,6 @@ description: "Master Dilemma Creation in BJJ. Learn simultaneous multi-threat co
 
 
 
-# Dilemma Creation
 #bjj #principle #advanced #strategy #systems #offense #attack-chains #submission-systems 
 
 > **Quick Answer**: Dilemma Creation is a high complexity BJJ principle applicable at the Intermediate level. Master this principle in Intermediate to Expert.

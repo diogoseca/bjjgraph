@@ -147,7 +147,6 @@ description: "Master the Darce Choke in BJJ. Complete guide with safety protocol
 
 
 
-# Darce Choke
 #bjj #submission #darce-choke #blood-choke #arm-triangle #no-gi #front-headlock #turtle-attack 
 
 > **Quick Answer**: Darce Choke is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.

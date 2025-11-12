@@ -155,8 +155,6 @@ description: "Offensive guillotine variation from top position using body weight
 
 
 
-# Hindulotine Top
-
 #bjj #position #top #guillotine-variation #submission-control #front-headlock #no-gi #advanced-technique #head-control 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

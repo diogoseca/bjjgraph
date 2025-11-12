@@ -153,7 +153,6 @@ description: "Master the Spider Guard to Omoplata transition in BJJ. Complete gu
 
 
 
-# Spider Guard to Omoplata
 #bjj #technique #transition #spider guard #omoplata #sweep #submission #guard 
 
 > **Quick Answer**: Spider Guard to Omoplata transitions from [[Spider Guard]] to [[Omoplata Control]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.

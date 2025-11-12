@@ -147,7 +147,6 @@ description: "Master the armbar from guard with systematic technique breakdown, 
 
 
 
-# Armbar from Guard
 #bjj #submission #armbar #joint-lock #guard #fundamental 
 
 > **Quick Answer**: Armbar from Guard is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension - apply slowly over 3-5 seconds and release immediately upon tap.

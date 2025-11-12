@@ -153,7 +153,6 @@ description: "Learn Rolling Kimura Escape in BJJ. Dynamic rolling technique from
 
 
 
-# Rolling Kimura Escape
 #bjj #transition #escape #kimura #advanced #defensive #shoulder-lock-escape #rolling-mechanics 
 
 > **Quick Answer**: Rolling Kimura Escape transitions from [[Kimura Control]] to [[Open Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

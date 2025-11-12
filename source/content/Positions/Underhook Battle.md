@@ -175,8 +175,6 @@ description: "Master the underhook battle in BJJ. Complete guide to grip fightin
 
 
 
-# Underhook Battle
-
 #bjj #position #neutral #grip-fighting #underhook #half-guard #clinch #control 
 
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.

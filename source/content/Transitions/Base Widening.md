@@ -153,7 +153,6 @@ description: "Learn Base Widening defensive technique in BJJ. Essential stabilit
 
 
 
-# Base Widening
 #bjj #defensive technique #base recovery #stability #fundamental #positional defense 
 
 > **Quick Answer**: Base Widening transitions from [[Defensive Position]] to [[Combat Base]]. Success rates: Beginner 65%, Intermediate 80%, Advanced 90%.

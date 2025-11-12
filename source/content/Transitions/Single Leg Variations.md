@@ -147,7 +147,6 @@ description: "Master Single Leg Variations in BJJ. Complete takedown guide with 
 
 
 
-# Single Leg Variations
 #bjj #transition #takedown #single_leg #wrestling #standing #top_position #no-gi #leg_control #finishing_variations 
 
 > **Quick Answer**: Single Leg Variations transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

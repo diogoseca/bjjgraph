@@ -147,7 +147,6 @@ description: "Master the Leg Drag Setup from open guard. Learn grip sequences, a
 
 
 
-# Leg Drag Setup
 #bjj #transition #guard-passing #leg-drag #open-guard #fundamentals 
 
 > **Quick Answer**: Leg Drag Setup transitions from [[Open Guard]] to [[Leg Drag Position]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

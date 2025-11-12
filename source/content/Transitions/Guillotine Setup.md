@@ -153,7 +153,6 @@ description: "Learn Guillotine Setup in BJJ. Step-by-step execution from Front H
 
 
 
-# Guillotine Setup
 #bjj #transition #technique #guillotine #front-headlock #submission-setup #standing #choke 
 
 > **Quick Answer**: Guillotine Setup transitions from [[Front Headlock]] to [[Guillotine Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

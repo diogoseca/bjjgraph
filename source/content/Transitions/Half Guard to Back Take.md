@@ -159,7 +159,6 @@ description: "Learn Half Guard to Back Take in BJJ. Advanced transition from hal
 
 
 
-# Half Guard to Back Take
 #bjj #transition #half-guard #back-take #advanced #sweep #back-control 
 
 > **Quick Answer**: Half Guard to Back Take transitions from [[Half Guard]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 70%, Advanced 85%.

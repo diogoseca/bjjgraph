@@ -147,7 +147,6 @@ description: "Master the Single Leg Takedown in BJJ. Complete guide covering ent
 
 
 
-# Single Leg Takedown
 #bjj #transition #takedown #offense #standing #wrestling #single-leg #leg-attack 
 
 > **Quick Answer**: Single Leg Takedown transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

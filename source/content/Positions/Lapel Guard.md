@@ -13,8 +13,6 @@ description: "Master lapel guard in BJJ with comprehensive strategies for contro
 
 
 
-# Lapel Guard
-
 > **Quick Overview**: Lapel guard represents a modern evolution in gi-based Brazilian Jiu-Jitsu guard play, utilizing the opponent's lapel fabric to create powerful control systems that transcend traditional grip fighting....
 
 ---

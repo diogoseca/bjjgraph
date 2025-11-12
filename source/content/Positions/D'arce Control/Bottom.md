@@ -155,8 +155,6 @@ description: "Master D'arce Control from bottom position in BJJ. Learn defensive
 
 
 
-# D'arce Control Bottom
-
 #bjj #position #darce-control #bottom #defensive #choke-defense #submission-defense #turtle #front-headlock 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

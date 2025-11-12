@@ -153,7 +153,6 @@ description: "Master back take transitions in BJJ. Learn multiple paths to back 
 
 
 
-# Back Take Generic
 #bjj #transition #back-take #positional-advancement #control 
 
 > **Quick Answer**: Back Take Generic transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.

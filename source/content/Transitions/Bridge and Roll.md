@@ -153,7 +153,6 @@ description: "Master the Bridge and Roll escape from Mount in BJJ. Complete brea
 
 
 
-# Bridge and Roll
 #bjj #escape #mount-escape #fundamental #defensive 
 
 > **Quick Answer**: Bridge and Roll transitions from [[Mount]] to [[Closed Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

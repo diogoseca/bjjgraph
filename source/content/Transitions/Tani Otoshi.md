@@ -147,7 +147,6 @@ description: "Master Tani Otoshi (Valley Drop) in BJJ. Step-by-step execution fr
 
 
 
-# Tani Otoshi
 #bjj #takedown #judo #throwing #standing #sacrifice-throw #valley-drop 
 
 > **Quick Answer**: Tani Otoshi transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

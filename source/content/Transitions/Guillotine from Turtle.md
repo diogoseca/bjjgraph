@@ -147,7 +147,6 @@ description: "Learn Guillotine from Turtle in BJJ. Step-by-step execution from T
 
 
 
-# Guillotine from Turtle
 #bjj #transition #submission_setup #turtle #front_headlock #guillotine #choke #advanced 
 
 > **Quick Answer**: Guillotine from Turtle transitions from [[Turtle]] to [[Guillotine Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

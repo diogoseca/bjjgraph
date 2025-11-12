@@ -153,7 +153,6 @@ description: "Learn Guillotine Defense in BJJ. Step-by-step escape from Guilloti
 
 
 
-# Guillotine Defense
 #bjj #transition #defense #guillotine #escape #choke-defense #survival 
 
 > **Quick Answer**: Guillotine Defense transitions from [[Front Headlock]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

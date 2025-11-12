@@ -153,7 +153,6 @@ description: "Master Anaconda Choke in BJJ. Complete guide with safety protocols
 
 
 
-# Anaconda Choke
 #bjj #submission #choke #blood-choke #front-headlock #turtle-attacks #gi #no-gi #anaconda #darce-connection 
 
 > **Quick Answer**: Anaconda Choke is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from carotid artery compression - apply slowly over 3-5 seconds and release immediately upon tap.

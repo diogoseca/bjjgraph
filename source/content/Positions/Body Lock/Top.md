@@ -155,8 +155,6 @@ description: "Master body lock control from top position. Dominant standing cont
 
 
 
-# Body Lock Top
-
 #bjj #position #body-lock #control #wrestling #offense 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

@@ -155,8 +155,6 @@ description: "Master defensive strategies from top of straight ankle lock contro
 
 
 
-# Straight Ankle Lock Control Top
-
 #leg lock defense #ankle lock escape #defensive position #submission defense #leg entanglement defense #top position #escape sequences 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

@@ -153,7 +153,6 @@ description: "Master heel hook variations in BJJ. Complete guide covering inside
 
 
 
-# Heel Hook Variations
 #bjj #submission #heel-hook #leg-lock #ashi-garami #advanced-technique #joint-lock 
 
 > **Quick Answer**: Heel Hook Variations is a leg lock targeting the Knee ligaments, ankle joint, and heel structure. ⚠️ **SAFETY**: This technique can cause ACL tear (anterior cruciate ligament) - apply slowly over 3-5 seconds and release immediately upon tap.

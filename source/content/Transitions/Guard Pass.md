@@ -147,7 +147,6 @@ description: "Learn Guard Pass techniques in BJJ. Comprehensive guide to passing
 
 
 
-# Guard Pass
 #bjj #transition #guard-pass #advancement #fundamental #top-game #position-advancement 
 
 > **Quick Answer**: Guard Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

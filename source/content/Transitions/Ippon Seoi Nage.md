@@ -147,7 +147,6 @@ description: "Master Ippon Seoi Nage in BJJ. Complete judo-to-BJJ adaptation wit
 
 
 
-# Ippon Seoi Nage
 #bjj #takedown #judo #throwing #standing #seoi-nage #gi #no-gi #competition 
 
 > **Quick Answer**: Ippon Seoi Nage transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

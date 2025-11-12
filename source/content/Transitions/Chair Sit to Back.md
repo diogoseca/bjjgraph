@@ -147,7 +147,6 @@ description: "Master Chair Sit to Back Take in BJJ. Control opponent from turtle
 
 
 
-# Chair Sit to Back
 #bjj #back-take #turtle-attack #position-transition #intermediate-technique 
 
 > **Quick Answer**: Chair Sit to Back transitions from [[Turtle]] to [[Back Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.

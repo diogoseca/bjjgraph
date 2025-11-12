@@ -155,8 +155,6 @@ description: "Master defending against Ringworm Guard in BJJ. Systematic approac
 
 
 
-# Ringworm Guard Top
-
 #bjj #position #guard-passing #lapel-guard-defense #ringworm-guard #top #advanced 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

@@ -153,7 +153,6 @@ description: "Master Technical Stand Up to Single Leg in BJJ. Execute safe stand
 
 
 
-# Technical Stand Up to Single Leg
 #bjj #transition #standup #takedown #single-leg #wrestling #defensive-recovery #guard-recovery 
 
 > **Quick Answer**: Technical Stand Up to Single Leg transitions from [[Turtle]] to [[Single Leg X-Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

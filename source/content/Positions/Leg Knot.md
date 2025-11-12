@@ -13,8 +13,6 @@ description: "Master Leg Knot position in BJJ. Advanced leg entanglement creatin
 
 
 
-# Leg Knot
-
 > **Quick Overview**: Leg Knot Position represents an advanced leg entanglement configuration where practitioners' legs are woven together in a complex, knot-like structure that creates mutual control and submission opport...
 
 ---

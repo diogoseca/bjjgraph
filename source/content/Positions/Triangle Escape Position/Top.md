@@ -155,8 +155,6 @@ description: "Master escaping the triangle from top position. Complete guide cov
 
 
 
-# Triangle Escape Position Top
-
 #bjj #position #triangle-escape #defensive #guard-passing #submission-defense #top 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

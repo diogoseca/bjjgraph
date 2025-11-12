@@ -147,7 +147,6 @@ description: "Master the Elbow Escape from side control in BJJ. Step-by-step exe
 
 
 
-# Elbow Escape
 #bjj #transition #escape #side control #fundamental #defense #hip escape #shrimp 
 
 > **Quick Answer**: Elbow Escape transitions from [[Side Control]] to [[Knee Shield Half Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

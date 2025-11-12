@@ -147,7 +147,6 @@ description: "Master the Buggy Choke in BJJ. Powerful half guard compression cho
 
 
 
-# Buggy Choke
 #bjj #submission #choke #half-guard #compression #no-gi #gi #turtle #pressure 
 
 > **Quick Answer**: Buggy Choke is a blood choke targeting the Carotid arteries and neck compression. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.

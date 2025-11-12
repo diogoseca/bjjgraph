@@ -13,8 +13,6 @@ description: "Master closed guard in BJJ. Strategic guide covering both perspect
 
 
 
-# Closed Guard
-
 > **Quick Overview**: Closed Guard represents one of the most fundamental and strategically complex positions in Brazilian Jiu-Jitsu, where the bottom player wraps their legs around the opponent's waist with ankles locked ...
 
 ---

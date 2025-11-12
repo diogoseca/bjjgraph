@@ -145,7 +145,6 @@ description: "Master posture breaking in BJJ. Learn systematic methods to disrup
 
 
 
-# Posture Breaking
 #bjj #principle #fundamental #guard #posture #control #closed-guard #open-guard #biomechanics 
 
 > **Quick Answer**: Posture Breaking is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.

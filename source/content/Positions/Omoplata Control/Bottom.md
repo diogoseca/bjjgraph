@@ -155,8 +155,6 @@ description: "Master Omoplata Control Bottom in BJJ. Complete guide covering sho
 
 
 
-# Omoplata Control Bottom
-
 #bjj #position #omoplata #control #bottom #guard #shoulder-lock #sweep 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

@@ -155,8 +155,6 @@ description: "Attack from Buggy Choke position. Complete offensive guide coverin
 
 
 
-# Buggy Choke Top
-
 #bjj #offense #turtle-attack #buggy-choke #submission #control 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

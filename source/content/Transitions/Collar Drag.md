@@ -147,7 +147,6 @@ description: "Master the Collar Drag in BJJ. Essential standing technique transi
 
 
 
-# Collar Drag
 #bjj #technique #transition #standing #grip-fighting #back-take #clinch #no-gi #wrestling 
 
 > **Quick Answer**: Collar Drag transitions from [[Standing Position]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

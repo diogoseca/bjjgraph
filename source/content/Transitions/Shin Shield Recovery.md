@@ -153,7 +153,6 @@ description: "Master Shin Shield Recovery in BJJ. Essential defensive framing fr
 
 
 
-# Shin Shield Recovery
 #bjj #technique #half-guard #defense #guard-retention #framing 
 
 > **Quick Answer**: Shin Shield Recovery transitions from [[Half Guard]] to [[Knee Shield Half Guard]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.

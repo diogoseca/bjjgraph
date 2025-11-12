@@ -13,8 +13,6 @@ description: "Master Crackhead Control in BJJ. Complete guide to Eddie Bravo's i
 
 
 
-# Crackhead Control
-
 > **Quick Overview**: Crackhead Control is an innovative turtle position system developed within the 10th Planet Jiu-Jitsu methodology, characterized by unconventional positioning and dynamic movement patterns that challen...
 
 ---

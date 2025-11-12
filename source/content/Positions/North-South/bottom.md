@@ -155,8 +155,6 @@ description: "Escape North-South bottom position in BJJ. Comprehensive guide to 
 
 
 
-# North-South Bottom
-
 #position #bottom #defensive #pin-escape #north-south #pressure-escape 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

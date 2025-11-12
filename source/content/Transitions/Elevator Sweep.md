@@ -159,7 +159,6 @@ description: "Master the Elevator Sweep from butterfly guard. Step-by-step execu
 
 
 
-# Elevator Sweep
 #bjj #technique #sweep #butterfly-guard #hook-control #elevation 
 
 > **Quick Answer**: Elevator Sweep transitions from [[Butterfly Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

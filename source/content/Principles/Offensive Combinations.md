@@ -145,7 +145,6 @@ description: "Master systematic attack chains in BJJ. Learn reaction-based combi
 
 
 
-# Offensive Combinations
 #bjj #principle #offense #combinations #attacks #submissions #strategy #systematic 
 
 > **Quick Answer**: Offensive Combinations is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

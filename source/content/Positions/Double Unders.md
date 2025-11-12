@@ -13,8 +13,6 @@ description: "Master Double Unders position in BJJ. Strategic guide covering whe
 
 
 
-# Double Unders
-
 > **Quick Overview**: Double Unders Position is a critical control state in Brazilian Jiu-Jitsu where both practitioners are engaged in a bilateral underhook battle with dramatically different strategic objectives. From th...
 
 ---

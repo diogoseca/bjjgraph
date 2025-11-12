@@ -153,7 +153,6 @@ description: "Master the Inverted Triangle submission in BJJ. Complete guide cov
 
 
 
-# Inverted Triangle
 #bjj #submission #triangle-choke #inverted-triangle #blood-choke #bottom-position 
 
 > **Quick Answer**: Inverted Triangle is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Cervical spine compression from improper rotation during setup - apply slowly over 3-5 seconds and release immediately upon tap.

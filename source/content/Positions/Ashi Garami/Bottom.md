@@ -155,8 +155,6 @@ description: "Master Ashi Garami from bottom with systematic leg control, hierar
 
 
 
-# Ashi Garami Bottom
-
 #leg entanglement system bottom position offensive guard #bottom position leg control offensive guard modern methodology #modern no-gi methodology competitive system leg lock game 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

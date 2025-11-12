@@ -147,7 +147,6 @@ description: "Master Armbar from Side Control in BJJ. Complete guide with safety
 
 
 
-# Armbar from Side Control
 #bjj #submission #armbar #joint-lock #side-control #arm-lock 
 
 > **Quick Answer**: Armbar from Side Control is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension - apply slowly over 3-5 seconds and release immediately upon tap.

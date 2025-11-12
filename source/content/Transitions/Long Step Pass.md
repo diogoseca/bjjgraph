@@ -153,7 +153,6 @@ description: "Master the Long Step Pass to dominate open guard. Step-by-step exe
 
 
 
-# Long Step Pass
 #bjj #guard-passing #long-step #pressure-passing #open-guard 
 
 > **Quick Answer**: Long Step Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.

@@ -153,7 +153,6 @@ description: "Master the Twister submission in BJJ. Complete guide with safety p
 
 
 
-# Twister
 #bjj #submission #twister #spinal-lock #10th-planet #truck-position #advanced-technique 
 
 > **Quick Answer**: Twister is a spinal lock targeting the Cervical and thoracic spine, shoulder girdle. ⚠️ **SAFETY**: This technique can cause Cervical spine damage (neck injury) - apply slowly over 3-5 seconds and release immediately upon tap.

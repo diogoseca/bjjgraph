@@ -13,8 +13,6 @@ description: "Master Kimura Trap position in BJJ. Complete guide covering bottom
 
 
 
-# Kimura Trap
-
 > **Quick Overview**: The Kimura Trap is a revolutionary position system in Brazilian Jiu-Jitsu that fundamentally challenges traditional notions of top and bottom control. At its core, the Kimura Trap uses a figure-four K...
 
 ---

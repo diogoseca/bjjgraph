@@ -153,7 +153,6 @@ description: "Learn the Omoplata to Sweep transition in BJJ. Step-by-step execut
 
 
 
-# Omoplata to Sweep
 #bjj #transition #sweep #omoplata #guard #intermediate #attack #position-reversal 
 
 > **Quick Answer**: Omoplata to Sweep transitions from [[Omoplata Control]] to [[Mount]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

@@ -147,7 +147,6 @@ description: "Master the Smash Pass in BJJ. Complete guide covering pressure pas
 
 
 
-# Smash Pass
 #bjj #transition #guard_pass #offense #top_game #pressure_passing #half_guard #cross_face 
 
 > **Quick Answer**: Smash Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

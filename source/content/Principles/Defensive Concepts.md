@@ -145,7 +145,6 @@ description: "Master defensive concepts in BJJ with systematic frameworks for su
 
 
 
-# Defensive Concepts
 #bjj #principle #defense #strategy #survival #escape #protection #hierarchy #frames 
 
 > **Quick Answer**: Defensive Concepts is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

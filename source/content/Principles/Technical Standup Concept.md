@@ -145,7 +145,6 @@ description: "Master the Technical Standup in BJJ. Learn base creation, hip posi
 
 
 
-# Technical Standup Concept
 #bjj #principle #defensive #standup #base #escape #transition #safety 
 
 > **Quick Answer**: Technical Standup Concept is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.

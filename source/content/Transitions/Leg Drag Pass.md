@@ -147,7 +147,6 @@ description: "Master the Leg Drag Pass in BJJ. Dominant guard passing technique 
 
 
 
-# Leg Drag Pass
 #bjj #technique #guard-pass #passing #pressure #control #intermediate 
 
 > **Quick Answer**: Leg Drag Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.

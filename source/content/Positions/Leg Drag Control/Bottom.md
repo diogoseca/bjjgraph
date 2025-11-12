@@ -155,8 +155,6 @@ description: "Navigate leg drag control from bottom position. Master defensive t
 
 
 
-# Leg Drag Control Bottom
-
 #defensive #guard-retention #escape #leg-drag-defense #intermediate 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

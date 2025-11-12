@@ -145,7 +145,6 @@ description: "Master systematic side control escape frameworks in BJJ. Learn fra
 
 
 
-# Side Control Escapes
 #bjj #principle #side-control #escapes #defensive #pin-escape #framing #hip-escape 
 
 > **Quick Answer**: Side Control Escapes is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.

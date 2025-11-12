@@ -145,7 +145,6 @@ description: "Master Submission Position principles in BJJ. Learn control hierar
 
 
 
-# Submission Position
 #bjj #principle #submission #control #finishing 
 
 > **Quick Answer**: Submission Position is a high complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Expert.

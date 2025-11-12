@@ -147,7 +147,6 @@ description: "Master Front Headlock to Back Take in BJJ. Complete guide from fro
 
 
 
-# Front Headlock to Back
 #bjj #transition #advancement #front_headlock #back_control #back_take #turtle_attack #wrestling 
 
 > **Quick Answer**: Front Headlock to Back transitions from [[Front Headlock]] to [[Back Control]]. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.

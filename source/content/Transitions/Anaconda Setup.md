@@ -153,7 +153,6 @@ description: "Master Anaconda Setup from turtle with arm threading, grip mechani
 
 
 
-# Anaconda Setup
 #bjj #technique #choke #turtle #front-headlock #submission-setup #anaconda #no-gi 
 
 > **Quick Answer**: Anaconda Setup transitions from [[Turtle]] to [[Anaconda Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.

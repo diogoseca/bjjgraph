@@ -13,8 +13,6 @@ description: "Master Shoulder of Justice side control in BJJ. Strategic guide co
 
 
 
-# Shoulder of Justice
-
 > **Quick Overview**: The Shoulder of Justice is a highly effective side control variation characterized by intense shoulder pressure applied directly to the opponent's face and jaw. This position represents a refinement o...
 
 ---

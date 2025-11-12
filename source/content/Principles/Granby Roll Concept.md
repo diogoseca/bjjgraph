@@ -145,7 +145,6 @@ description: "Learn the Granby Roll movement concept in BJJ. Master rotational e
 
 
 
-# Granby Roll Concept
 #bjj #principle #granby roll #escape #movement #hip rotation #turtle #guard recovery #dynamic movement #rolling escape #defensive movement #space creation 
 
 > **Quick Answer**: Granby Roll Concept is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.

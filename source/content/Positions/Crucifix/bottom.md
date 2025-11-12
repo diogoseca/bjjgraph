@@ -155,8 +155,6 @@ description: "Master defensive strategies from Crucifix Bottom in BJJ. Complete 
 
 
 
-# Crucifix Bottom
-
 #bjj #position #crucifix #defensive #bottom #back-attack-defense #submission-defense #escape 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

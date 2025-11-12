@@ -13,8 +13,6 @@ description: "Master Buggy Choke position in BJJ. Strategic guide covering turtl
 
 
 
-# Buggy Choke
-
 > **Quick Overview**: The Buggy Choke position represents a sophisticated turtle attack system that bridges the gap between positional control and immediate submission threats. This specialized grip configuration emerged f...
 
 ---

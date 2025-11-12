@@ -153,7 +153,6 @@ description: "Master the Von Flue Choke counter in BJJ. Complete safety guide wi
 
 
 
-# Von Flue Choke
 #bjj #submission #choke #blood-choke #counter-technique #guillotine-defense #shoulder-pressure 
 
 > **Quick Answer**: Von Flue Choke is a blood choke targeting the Carotid arteries. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.

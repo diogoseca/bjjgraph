@@ -147,7 +147,6 @@ description: "Master the Marce Choke in BJJ - powerful lapel choke from top posi
 
 
 
-# Marce Choke
 #bjj #submission #choke #lapel-choke #gi-submission #blood-choke #top-position 
 
 > **Quick Answer**: Marce Choke is a lapel choke targeting the Carotid arteries and trachea via lapel compression. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to unconsciousness - apply slowly over 3-5 seconds and release immediately upon tap.

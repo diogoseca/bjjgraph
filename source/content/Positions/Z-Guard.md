@@ -13,8 +13,6 @@ description: "Master Z-Guard in BJJ. Advanced knee shield variation with high sh
 
 
 
-# Z-Guard
-
 > **Quick Overview**: Z-Guard represents an advanced evolution of knee shield half guard where the bottom player elevates the knee shield to target the opponent's shoulder or upper chest rather than the hip, creating a mor...
 
 ---

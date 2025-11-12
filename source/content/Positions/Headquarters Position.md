@@ -175,8 +175,6 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
 
 
 
-# Headquarters Position
-
 #bjj #position #headquarters #guard-passing #top-control #systematic-passing #half-guard 
 
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.

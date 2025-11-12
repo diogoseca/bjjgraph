@@ -137,7 +137,6 @@ description: "Master the Lockdown to Electric Chair System in BJJ. Eddie Bravo's
 
 
 
-# Lockdown to Electric Chair System
 #bjj #system #half-guard #lockdown #electric-chair #10th-planet #sweep-system #submission-chain 
 
 > **Quick Answer**: Lockdown to Electric Chair System is a intermediate difficulty Attack System system. This systematic approach integrates 5 key components into a cohesive fighting framework.

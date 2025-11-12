@@ -147,7 +147,6 @@ description: "Master the Pendulum Sweep from Closed Guard to Mount. Learn proper
 
 
 
-# Pendulum Sweep
 #bjj #sweep #closed-guard #fundamental #guard-attack 
 
 > **Quick Answer**: Pendulum Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 40%, Intermediate 60%, Advanced 75%.

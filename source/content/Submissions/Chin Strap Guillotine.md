@@ -153,7 +153,6 @@ description: "Master the Chin Strap Guillotine in BJJ. High-control choke target
 
 
 
-# Chin Strap Guillotine
 #bjj #submission #choke #guillotine #front-headlock #blood-choke #chin-strap #no-gi #advanced-technique 
 
 > **Quick Answer**: Chin Strap Guillotine is a blood choke targeting the Carotid arteries and windpipe. ⚠️ **SAFETY**: This technique can cause Neck strain or cervical spine stress from excessive cranking - apply slowly over 3-5 seconds and release immediately upon tap.

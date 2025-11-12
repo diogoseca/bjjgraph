@@ -147,7 +147,6 @@ description: "Learn Headquarters Pass in BJJ. Step-by-step execution from headqu
 
 
 
-# Headquarters Pass
 #bjj #transition #guard_pass #control #headquarters #half_guard 
 
 > **Quick Answer**: Headquarters Pass transitions from [[Headquarters Position]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 65%, Advanced 80%.

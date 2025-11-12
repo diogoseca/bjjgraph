@@ -13,8 +13,6 @@ description: "Master armbar control in BJJ from both offensive and defensive per
 
 
 
-# Armbar Control
-
 > **Quick Overview**: Armbar Control represents one of Brazilian Jiu-Jitsu's most fundamental submission control positions, accessible from both offensive (top) and defensive (bottom) perspectives. The position centers on ...
 
 ---

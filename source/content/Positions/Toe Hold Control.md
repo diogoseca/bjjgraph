@@ -13,8 +13,6 @@ description: "Master Toe Hold Control position in BJJ. Strategic guide covering 
 
 
 
-# Toe Hold Control
-
 > **Quick Overview**: Toe Hold Control represents a specialized leg entanglement position where rotational pressure is applied to the ankle joint through a figure-four grip configuration, creating one of Brazilian Jiu-Jits...
 
 ---

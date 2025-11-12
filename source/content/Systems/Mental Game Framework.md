@@ -145,7 +145,6 @@ description: "Master the mental game in BJJ competition. Complete psychological 
 
 
 
-# Mental Game Framework
 #bjj #mental-game #competition #mindset #psychology #strategy #performance 
 
 > **Quick Answer**: Mental Game Framework is a intermediate difficulty Competition Strategy system. This systematic approach integrates 5 key components into a cohesive fighting framework.

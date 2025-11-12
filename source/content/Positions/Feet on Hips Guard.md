@@ -13,8 +13,6 @@ description: "Master feet on hips guard in BJJ. Strategic guide covering distanc
 
 
 
-# Feet on Hips Guard
-
 > **Quick Overview**: Feet on Hips Guard represents one of the most fundamental distance management positions in Brazilian Jiu-Jitsu, where the guard player places both feet on the opponent's hip bones to create controllab...
 
 ---

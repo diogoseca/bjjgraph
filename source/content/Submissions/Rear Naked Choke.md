@@ -147,7 +147,6 @@ description: "Master the Rear Naked Choke in BJJ. Complete safety guide with pro
 
 
 
-# Rear Naked Choke
 #bjj #submission #choke #blood-choke #back-control #strangle #no-gi #gi #fundamental 
 
 > **Quick Answer**: Rear Naked Choke is a blood choke targeting the Carotid arteries and jugular veins. ⚠️ **SAFETY**: This technique can cause Loss of consciousness from blood choke - apply slowly over 3-5 seconds and release immediately upon tap.

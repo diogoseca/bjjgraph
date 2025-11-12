@@ -145,7 +145,6 @@ description: "Master Leg Entanglement principles in BJJ. Learn systematic lower 
 
 
 
-# Leg Entanglement
 #bjj #principle #leglocks #control #leglock_system #lower_body_control #positional_hierarchy #leg_attack #ashi_garami #submission_foundation 
 
 > **Quick Answer**: Leg Entanglement is a high complexity BJJ principle applicable at the Intermediate level. Master this principle in Intermediate to Expert.

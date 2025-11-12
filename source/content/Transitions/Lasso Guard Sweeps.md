@@ -147,7 +147,6 @@ description: "Master Lasso Guard sweeps in BJJ. Learn high-percentage sweeps fro
 
 
 
-# Lasso Guard Sweeps
 #bjj #sweep #lasso-guard #open-guard #gi #spider-variations 
 
 > **Quick Answer**: Lasso Guard Sweeps transitions from [[Lasso Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

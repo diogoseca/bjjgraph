@@ -145,7 +145,6 @@ description: "Master connection principles in BJJ. Learn grip management, frame 
 
 
 
-# Connection Principles
 #bjj #principle #connection #control #grips #frames #fundamental #strategy #guard #passing 
 
 > **Quick Answer**: Connection Principles is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.

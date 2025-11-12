@@ -137,7 +137,6 @@ description: "Master systematic back control progression from seat belt to strai
 
 
 
-# Danaher Straight Jacket System
 #bjj #system #back-control #john-danaher #submission-chain #control-system #advanced #systematic-approach 
 
 > **Quick Answer**: Danaher Straight Jacket System is a advanced difficulty Attack System system. This systematic approach integrates 5 key components into a cohesive fighting framework.

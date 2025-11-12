@@ -153,7 +153,6 @@ description: "Master the Kimura shoulder lock in BJJ. Safety guide with setup, e
 
 
 
-# Kimura
 #bjj #submission #kimura #shoulder-lock #joint-lock #fundamental 
 
 > **Quick Answer**: Kimura is a shoulder lock targeting the Shoulder joint, rotator cuff, and shoulder capsule. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) - apply slowly over 3-5 seconds and release immediately upon tap.

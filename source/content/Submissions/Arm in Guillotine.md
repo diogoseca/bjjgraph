@@ -153,7 +153,6 @@ description: "Master Arm in Guillotine in BJJ. High-percentage front headlock ch
 
 
 
-# Arm in Guillotine
 #bjj #submission #choke #guillotine #front-headlock #blood-choke #no-gi 
 
 > **Quick Answer**: Arm in Guillotine is a blood choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Carotid artery compression leading to loss of consciousness - apply slowly over 3-5 seconds and release immediately upon tap.

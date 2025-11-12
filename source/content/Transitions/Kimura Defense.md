@@ -147,7 +147,6 @@ description: "Master Kimura Defense in BJJ. Complete defensive framework from mu
 
 
 
-# Kimura Defense
 #bjj #defense #kimura #escape #submission-defense #arm-control #shoulder-lock-defense 
 
 > **Quick Answer**: Kimura Defense transitions from [[Kimura Control]] to [[Guard Recovery]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.

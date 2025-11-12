@@ -147,7 +147,6 @@ description: "Learn Harai Goshi in BJJ. Step-by-step judo throw execution from s
 
 
 
-# Harai Goshi
 #bjj #transition #takedown #judo #throw #standing #hip throw #sweep #leg sweep 
 
 > **Quick Answer**: Harai Goshi transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

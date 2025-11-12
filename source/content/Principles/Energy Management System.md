@@ -145,7 +145,6 @@ description: "Master strategic energy management in BJJ. Learn conservation tact
 
 
 
-# Energy Management System
 #bjj #strategy #framework #energy #efficiency #pacing #conditioning #tactics 
 
 > **Quick Answer**: Energy Management System is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

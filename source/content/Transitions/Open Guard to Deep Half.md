@@ -147,7 +147,6 @@ description: "Learn Open Guard to Deep Half transition in BJJ. Step-by-step exec
 
 
 
-# Open Guard to Deep Half
 #bjj #transition #guard #open_guard #deep_half #half_guard #sweep #recovery 
 
 > **Quick Answer**: Open Guard to Deep Half transitions from [[Open Guard]] to [[Deep Half Guard]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

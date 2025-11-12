@@ -145,7 +145,6 @@ description: "Master Space Generation in BJJ. Learn frame mechanics, hip escape 
 
 
 
-# Space Generation
 #bjj #principle #space generation #defense #escape #frames #shrimping #distance #survival 
 
 > **Quick Answer**: Space Generation is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.

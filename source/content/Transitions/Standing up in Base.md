@@ -153,7 +153,6 @@ description: "Master the technical standup from bottom position in BJJ. Step-by-
 
 
 
-# Standing up in Base
 #bjj #escape #technical-standup #base #fundamental #defensive-movement #guard-recovery 
 
 > **Quick Answer**: Standing up in Base transitions from [[Turtle]] to [[Standing Guard]]. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.

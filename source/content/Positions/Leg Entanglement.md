@@ -175,8 +175,6 @@ description: "Master Leg Entanglement positions in BJJ. Complete guide to ashi g
 
 
 
-# Leg Entanglement
-
 #bjj #position #leg-entanglement #neutral #leg-locks #ashi-garami #advanced #no-gi #systematic 
 
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.

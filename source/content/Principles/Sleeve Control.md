@@ -145,7 +145,6 @@ description: "Master sleeve control in BJJ. Learn grip mechanics, posture breaki
 
 
 
-# Sleeve Control
 #bjj #principle #grip #control #guard #sleeve #manipulation #posture #distance 
 
 > **Quick Answer**: Sleeve Control is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.

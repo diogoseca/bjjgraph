@@ -153,7 +153,6 @@ description: "Master Far Side Armbar from top positions. Complete guide with saf
 
 
 
-# Far Side Armbar
 #bjj #submission #armbar #joint-lock #side-control #mount #arm-lock #far-side 
 
 > **Quick Answer**: Far Side Armbar is a arm lock targeting the Elbow joint (hyperextension). ⚠️ **SAFETY**: This technique can cause Elbow hyperextension (ligament damage) - apply slowly over 3-5 seconds and release immediately upon tap.

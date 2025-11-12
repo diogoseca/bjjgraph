@@ -145,7 +145,6 @@ description: "Master off-balancing (kuzushi) in BJJ. Learn directional pressure 
 
 
 
-# Off-Balancing
 #bjj #principle #intermediate #sweeps #kuzushi #balance disruption #takedowns #base manipulation 
 
 > **Quick Answer**: Off-Balancing is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

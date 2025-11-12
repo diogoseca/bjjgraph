@@ -153,7 +153,6 @@ description: "Master the Americana shoulder lock from mount and side control. Co
 
 
 
-# Americana
 #bjj #submission #americana #shoulder-lock #joint-lock #keylock #mount #side-control 
 
 > **Quick Answer**: Americana is a shoulder lock targeting the Shoulder joint (specifically glenohumeral joint and rotator cuff). ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor) - apply slowly over 3-5 seconds and release immediately upon tap.

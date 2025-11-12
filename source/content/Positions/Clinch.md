@@ -175,8 +175,6 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
 
 
 
-# Clinch
-
 #bjj #position #standing #wrestling #clinch #grip-fighting #takedowns #neutral 
 
 > **Neutral Position**: This position has no clear top/bottom distinction - both players have equal opportunities.

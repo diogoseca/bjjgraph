@@ -155,8 +155,6 @@ description: "Master escaping Side Control with systematic defensive frameworks 
 
 
 
-# Side Control Bottom
-
 #side control bottom #side control escape #defensive bjj position #guard recovery techniques #bjj bottom game #escape fundamentals 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

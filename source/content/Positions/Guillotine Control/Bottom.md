@@ -155,8 +155,6 @@ description: "Master Guillotine Control Bottom in BJJ. Complete guide covering s
 
 
 
-# Guillotine Control Bottom
-
 #bjj #position #guillotine #submission control #front headlock #choke #guard bottom 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

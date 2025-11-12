@@ -155,8 +155,6 @@ description: "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with sys
 
 
 
-# Leg Knot Bottom
-
 #bjj #position #leg-entanglement #defensive #bottom #leg-locks #escapes #saddle-defense 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

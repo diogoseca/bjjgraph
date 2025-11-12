@@ -147,7 +147,6 @@ description: "Master the Kimura from Half Guard in BJJ. Complete guide with safe
 
 
 
-# Kimura from Half Guard
 #bjj #submission #kimura #joint-lock #half-guard #shoulder-lock #underhook 
 
 > **Quick Answer**: Kimura from Half Guard is a shoulder lock targeting the Shoulder joint and rotator cuff. ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus tendons) - apply slowly over 3-5 seconds and release immediately upon tap.

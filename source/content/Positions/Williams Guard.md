@@ -13,8 +13,6 @@ description: "Master Williams Guard in BJJ. Innovative shoulder lock guard with 
 
 
 
-# Williams Guard
-
 > **Quick Overview**: Williams Guard is an innovative open guard position characterized by controlling one of the opponent's arms in a shoulder lock configuration while maintaining guard structure. Named after creator Roy ...
 
 ---

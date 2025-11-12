@@ -147,7 +147,6 @@ description: "Master the Spine Lock submission in BJJ. Advanced spinal compressi
 
 
 
-# Spine Lock
 #bjj #submission #compression #spine-lock #advanced #10th-planet #truck #twister-system #spinal-compression 
 
 > **Quick Answer**: Spine Lock is a spinal compression targeting the Lumbar spine, thoracic vertebrae, spinal column. ⚠️ **SAFETY**: This technique can cause Lumbar spine strain or disc herniation - apply slowly over 3-5 seconds and release immediately upon tap.

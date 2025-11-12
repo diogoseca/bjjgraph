@@ -147,7 +147,6 @@ description: "Master the Americana shoulder lock from mount with safety protocol
 
 
 
-# Americana from Mount
 #bjj #submission #americana #shoulder-lock #mount #joint-lock #top-control 
 
 > **Quick Answer**: Americana from Mount is a shoulder lock targeting the Shoulder joint (rotator cuff). ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor) - apply slowly over 3-5 seconds and release immediately upon tap.

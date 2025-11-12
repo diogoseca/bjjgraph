@@ -147,7 +147,6 @@ description: "Master Inside Heel Hook in BJJ. Complete guide with safety protoco
 
 
 
-# Inside Heel Hook
 #bjj #submission #leg-lock #heel-hook #inside-heel-hook #ashi-garami #leg-entanglement 
 
 > **Quick Answer**: Inside Heel Hook is a leg lock targeting the Ankle, knee ligaments, and surrounding connective tissue. ⚠️ **SAFETY**: This technique can cause ACL, MCL, or LCL tear or rupture - apply slowly over 3-5 seconds and release immediately upon tap.

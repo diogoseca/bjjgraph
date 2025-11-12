@@ -147,7 +147,6 @@ description: "Master the Double Leg Takedown in BJJ. Complete execution from sta
 
 
 
-# Double leg takedown
 #bjj #transition #takedown #wrestling #standing #side-control 
 
 > **Quick Answer**: Double leg takedown transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

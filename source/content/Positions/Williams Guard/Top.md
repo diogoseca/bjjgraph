@@ -155,8 +155,6 @@ description: "Master Williams Guard Top defense and passing strategies. Learn to
 
 
 
-# Williams Guard Top
-
 #bjj #position #williams-guard #open-guard #guard-passing #top #defense #submission-defense 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

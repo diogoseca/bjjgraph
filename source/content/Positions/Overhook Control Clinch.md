@@ -13,8 +13,6 @@ description: "Master overhook control clinch in BJJ. Strategic guide covering de
 
 
 
-# Overhook Control Clinch
-
 > **Quick Overview**: Overhook Control Clinch (also called Whizzer) is a standing control position where you trap opponent's arm by hooking over it with your arm, controlling their shoulder and restricting their movement. ...
 
 ---

@@ -155,8 +155,6 @@ description: "Master Double Unders Bottom defensive position in BJJ. Complete su
 
 
 
-# Double Unders Bottom
-
 #bjj #position #bottom #defensive #guard-passing-defense #half-guard #pressure-passing #escape #frame-creation 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

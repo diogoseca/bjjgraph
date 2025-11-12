@@ -13,8 +13,6 @@ description: "Master the leg drag position in BJJ with comprehensive coverage of
 
 
 
-# Leg Drag Position
-
 > **Quick Overview**: The leg drag position is one of the most versatile and effective passing positions in modern Brazilian Jiu-Jitsu. It represents a critical transitional state where the top practitioner has successfull...
 
 ---

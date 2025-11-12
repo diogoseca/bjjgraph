@@ -153,7 +153,6 @@ description: "Master the Flying Kneebar in BJJ. Complete guide with safety proto
 
 
 
-# Flying Kneebar
 #bjj #submission #flying-kneebar #leg-lock #joint-lock #kneebar #dynamic-entry #advanced-technique 
 
 > **Quick Answer**: Flying Kneebar is a leg lock targeting the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). ⚠️ **SAFETY**: This technique can cause Posterior cruciate ligament (PCL) tear - apply slowly over 3-5 seconds and release immediately upon tap.

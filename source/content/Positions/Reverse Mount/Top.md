@@ -155,8 +155,6 @@ description: "Master Reverse Mount position in BJJ. Learn transitional control m
 
 
 
-# Reverse Mount Top
-
 #bjj #position #mount #top_control #advanced #transitional 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

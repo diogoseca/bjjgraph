@@ -155,8 +155,6 @@ description: "Master grasshopper guard from bottom. Complete guide to inversion 
 
 
 
-# Grasshopper Guard Bottom
-
 #guard #inverted #leg-entanglement #advanced #no-gi #sweeps #leg-locks 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

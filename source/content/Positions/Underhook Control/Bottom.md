@@ -155,8 +155,6 @@ description: "Master bottom underhook control in BJJ. Complete guide to defensiv
 
 
 
-# Underhook Control Bottom
-
 #Position #Bottom Position #Underhook #Half Guard Bottom #Defensive Strategy #Sweep Setup 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

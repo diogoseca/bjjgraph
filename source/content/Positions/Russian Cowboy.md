@@ -13,8 +13,6 @@ description: "Master Russian Cowboy position in BJJ. Complete guide covering bac
 
 
 
-# Russian Cowboy
-
 > **Quick Overview**: The Russian Cowboy is a highly effective back control variant commonly used in no-gi grappling and submission wrestling. This position features the top practitioner establishing control over the oppon...
 
 ---

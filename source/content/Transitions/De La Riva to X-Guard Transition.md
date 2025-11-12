@@ -153,7 +153,6 @@ description: "Master the De La Riva to X-Guard transition in BJJ. Convert DLR co
 
 
 
-# De La Riva to X-Guard Transition
 #bjj #transition #guard-system #sweep #dlr #x-guard #advanced 
 
 > **Quick Answer**: De La Riva to X-Guard Transition transitions from [[De La Riva Guard]] to [[X-Guard]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.

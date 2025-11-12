@@ -13,8 +13,6 @@ description: "Master Dead Orchard Control in BJJ. Strategic guide covering speci
 
 
 
-# Dead Orchard Control
-
 > **Quick Overview**: Dead Orchard Control represents an advanced positional control within Brazilian Jiu-Jitsu, particularly emphasized in Eddie Bravo's 10th Planet system. This position combines the structural control el...
 
 ---

@@ -13,8 +13,6 @@ description: "Master Game Over position in BJJ. Strategic guide covering when to
 
 
 
-# Game Over
-
 > **Quick Overview**: Game Over represents the terminal state in Brazilian Jiu-Jitsu where a match concludes through submission. This unique position exists outside the traditional positional hierarchy, representing the ul...
 
 ---

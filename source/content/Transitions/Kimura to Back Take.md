@@ -147,7 +147,6 @@ description: "Master the Kimura to Back Take in BJJ. Complete transition from Ki
 
 
 
-# Kimura to Back Take
 #bjj #transition #back-take #kimura #control-position #intermediate #submission-to-position 
 
 > **Quick Answer**: Kimura to Back Take transitions from [[Kimura Control]] to [[Back Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

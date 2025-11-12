@@ -153,7 +153,6 @@ description: "Master the Knee Slice Pass in BJJ. High-percentage guard passing t
 
 
 
-# Knee Slice Pass
 #bjj #guard passing #half guard pass #pressure passing #technique 
 
 > **Quick Answer**: Knee Slice Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.

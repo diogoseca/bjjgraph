@@ -147,7 +147,6 @@ description: "Master the Heel Hook Dilemma in BJJ. Strategic finishing system fr
 
 
 
-# Heel Hook Dilemma
 #bjj #submission #heel-hook #leg-lock #saddle #ashi-garami #dilemma 
 
 > **Quick Answer**: Heel Hook Dilemma is a leg lock targeting the Knee joint, ankle joint, and surrounding ligaments. ⚠️ **SAFETY**: This technique can cause Lateral collateral ligament (LCL) tear - apply slowly over 3-5 seconds and release immediately upon tap.

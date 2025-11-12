@@ -155,8 +155,6 @@ description: "Master closed guard top position with defensive strategies, guard 
 
 
 
-# Closed Guard Top
-
 #bjj #guard #top #passing #defensive #posture #guard-passing #guard-opening 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

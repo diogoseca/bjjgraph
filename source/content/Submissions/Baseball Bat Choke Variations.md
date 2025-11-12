@@ -147,7 +147,6 @@ description: "Master Baseball Bat Choke Variations in BJJ. Multiple grips and se
 
 
 
-# Baseball Bat Choke Variations
 #bjj #submission #choke #gi-choke #lapel-choke #baseball-choke #collar-choke 
 
 > **Quick Answer**: Baseball Bat Choke Variations is a gi collar choke targeting the Carotid arteries and trachea. ⚠️ **SAFETY**: This technique can cause Tracheal damage from excessive pressure - apply slowly over 3-5 seconds and release immediately upon tap.

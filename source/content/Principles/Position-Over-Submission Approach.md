@@ -145,7 +145,6 @@ description: "Master the Position-Over-Submission philosophy in BJJ. Learn strat
 
 
 
-# Position-Over-Submission Approach
 #bjj #strategy #framework #position #control #philosophy #hierarchy #dominance 
 
 > **Quick Answer**: Position-Over-Submission Approach is a medium complexity BJJ principle applicable at the Intermediate level. Master this principle in Beginner to Advanced.

@@ -13,8 +13,6 @@ description: "Master Shin-to-Shin Guard in BJJ. Complete guide covering setup, c
 
 
 
-# Shin-to-Shin Guard
-
 > **Quick Overview**: Shin-to-Shin Guard represents a sophisticated intersection between traditional open guard concepts and modern leg entanglement systems. This position is characterized by the guard player placing their...
 
 ---

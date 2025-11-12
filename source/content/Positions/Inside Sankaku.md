@@ -13,8 +13,6 @@ description: "Master Inside Sankaku (Honey Hole) in BJJ. Complete guide covering
 
 
 
-# Inside Sankaku
-
 > **Quick Overview**: Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg entanglement position where the opponent's leg is trapped in a figure-four configuration that exposes the inside of their he...
 
 ---

@@ -145,7 +145,6 @@ description: "Master Guard Recovery principles in BJJ. Learn defensive framing, 
 
 
 
-# Guard Recovery
 #bjj #principle #guard-recovery #defensive #guard-retention #hip-mobility #framing 
 
 > **Quick Answer**: Guard Recovery is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.

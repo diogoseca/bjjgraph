@@ -13,8 +13,6 @@ description: "Master Gift Wrap position in BJJ - a dominant back control variati
 
 
 
-# Gift Wrap
-
 > **Quick Overview**: Gift Wrap is a highly dominant back control variation in Brazilian Jiu-Jitsu where the attacker isolates and controls one of the defender's arms, effectively removing half of their defensive capabilit...
 
 ---

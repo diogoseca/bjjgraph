@@ -153,7 +153,6 @@ description: "Master Kneebar from 50-50 Guard in BJJ. Complete guide with safety
 
 
 
-# Kneebar from 50-50
 #bjj #submission #kneebar #joint-lock #leg-lock #50-50-guard #ashi-garami #leg-entanglement 
 
 > **Quick Answer**: Kneebar from 50-50 is a leg lock targeting the Knee joint (hyperextension of knee ligaments). ⚠️ **SAFETY**: This technique can cause MCL/LCL ligament tear - apply slowly over 3-5 seconds and release immediately upon tap.

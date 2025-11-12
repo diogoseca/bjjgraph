@@ -147,7 +147,6 @@ description: "Master the Sickle Sweep from De La Riva Guard. Step-by-step execut
 
 
 
-# Sickle Sweep
 #bjj #technique #sweep #de-la-riva #guard #leg-hook #open-guard #bottom-position 
 
 > **Quick Answer**: Sickle Sweep transitions from [[De La Riva Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

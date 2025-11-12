@@ -147,7 +147,6 @@ description: "Master the Kneebar Finish in BJJ. Complete guide covering knee iso
 
 
 
-# Kneebar Finish
 #bjj #submission #leg-lock #joint-lock #kneebar #ashi-garami #leg-entanglement 
 
 > **Quick Answer**: Kneebar Finish is a leg lock targeting the Knee joint (posterior cruciate ligament, medial/lateral collateral ligaments, joint capsule). ⚠️ **SAFETY**: This technique can cause Posterior cruciate ligament (PCL) tear - apply slowly over 3-5 seconds and release immediately upon tap.

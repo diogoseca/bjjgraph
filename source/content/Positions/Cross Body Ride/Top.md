@@ -155,8 +155,6 @@ description: "Master Cross Body Ride Top position in BJJ. Dominant turtle top co
 
 
 
-# Cross Body Ride Top
-
 #bjj #position #turtle-top #back-attack #cross-body-ride #dominant #offensive 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

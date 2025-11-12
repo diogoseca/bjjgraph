@@ -155,8 +155,6 @@ description: "Master Estima Lock Top Position in BJJ. Control opponent's foot an
 
 
 
-# Estima Lock Top
-
 #bjj #position #leg-lock #estima-lock #top-position #advanced #foot-lock 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

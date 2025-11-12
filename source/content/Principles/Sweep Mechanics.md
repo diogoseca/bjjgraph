@@ -145,7 +145,6 @@ description: "Master sweep mechanics in BJJ. Learn off-balancing principles, lev
 
 
 
-# Sweep Mechanics
 #bjj #principle #sweeps #off-balancing #leverage #guard #fundamentals 
 
 > **Quick Answer**: Sweep Mechanics is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Expert.

@@ -155,8 +155,6 @@ description: "Master Americana defense and escape strategies. Complete defensive
 
 
 
-# Americana Control Bottom
-
 #bjj #position #americana #bottom #defense #escapes #shoulder-lock 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

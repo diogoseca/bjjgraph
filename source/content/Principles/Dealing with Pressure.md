@@ -145,7 +145,6 @@ description: "Master pressure defense in BJJ with comprehensive strategies for f
 
 
 
-# Dealing with Pressure
 #bjj #principle #fundamental #defense #pressure #bottom-position #frames #survival 
 
 > **Quick Answer**: Dealing with Pressure is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.

@@ -147,7 +147,6 @@ description: "Master the Upa Escape (bridge and roll) from Mount in BJJ. Fundame
 
 
 
-# Upa Escape
 #bjj #escape #mount-escape #fundamental #defensive-technique #beginner-friendly 
 
 > **Quick Answer**: Upa Escape transitions from [[Mount]] to [[Closed Guard]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

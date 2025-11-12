@@ -129,7 +129,6 @@ description: "Master Gordon Ryan's pressure passing system for no-gi BJJ. Comple
 
 
 
-# Gordon Ryan Passing System
 #bjj #system #guard-passing #no-gi #gordon-ryan #pressure-passing #competition 
 
 > **Quick Answer**: Gordon Ryan Passing System is a advanced difficulty Passing System system. This systematic approach integrates 4 key components into a cohesive fighting framework.

@@ -155,8 +155,6 @@ description: "Master D'arce Control Top in BJJ. Dominant front headlock variatio
 
 
 
-# D'arce Control Top
-
 #bjj #position #darce #front-headlock #submission-position #offensive #choke-control 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

@@ -153,7 +153,6 @@ description: "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Tur
 
 
 
-# Anaconda from Turtle
 #bjj #transition #submission_setup #turtle #front_headlock #nogi #anaconda #choke_setup #rolling_technique 
 
 > **Quick Answer**: Anaconda from Turtle transitions from [[Turtle]] to [[Anaconda Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.

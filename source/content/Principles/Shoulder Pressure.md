@@ -145,7 +145,6 @@ description: "Master shoulder pressure control in BJJ. Learn weight distribution
 
 
 
-# Shoulder Pressure
 #bjj #principle #pressure #control #top-position #pinning #weight-distribution #side-control #mount 
 
 > **Quick Answer**: Shoulder Pressure is a medium complexity BJJ principle applicable at the Fundamental level. Master this principle in Beginner to Advanced.

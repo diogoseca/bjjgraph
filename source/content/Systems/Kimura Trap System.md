@@ -137,7 +137,6 @@ description: "Master Kimura Trap System in BJJ. Framework connecting control to 
 
 
 
-# Kimura Trap System
 #bjj #system #kimura #submission-chain #control-system #back-take #offensive-system 
 
 > **Quick Answer**: Kimura Trap System is a advanced difficulty Submission Chain system. This systematic approach integrates 5 key components into a cohesive fighting framework.

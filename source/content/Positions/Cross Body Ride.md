@@ -13,8 +13,6 @@ description: "Master Cross Body Ride position in BJJ. Advanced back attack contr
 
 
 
-# Cross Body Ride
-
 > **Quick Overview**: Cross Body Ride is an advanced controlling position from turtle where the top practitioner establishes perpendicular chest-to-back contact with the opponent while securing a harness grip (seatbelt con...
 
 ---

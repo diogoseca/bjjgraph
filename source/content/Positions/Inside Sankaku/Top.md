@@ -155,8 +155,6 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
 
 
 
-# Inside Sankaku Top
-
 #bjj #position #leg_entanglement #offensive #inside_sankaku #top #advanced 
 
 > **Attack Focus**: This page covers offensive strategies, attacks, and submission opportunities from the top player's perspective.

@@ -147,7 +147,6 @@ description: "Master the Straight Armbar in BJJ. Complete safety-first guide wit
 
 
 
-# Straight Armbar
 #bjj #submission #armbar #joint-lock #fundamental #arm-attack 
 
 > **Quick Answer**: Straight Armbar is a arm lock targeting the Elbow joint. ⚠️ **SAFETY**: This technique can cause Elbow hyperextension with ligament damage (LCL/MCL tears) - apply slowly over 3-5 seconds and release immediately upon tap.

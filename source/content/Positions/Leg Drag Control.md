@@ -13,8 +13,6 @@ description: "Master leg drag control in BJJ. Complete analysis of this dominant
 
 
 
-# Leg Drag Control
-
 > **Quick Overview**: Leg drag control represents a critical transitional position in Brazilian Jiu-Jitsu where the passer has successfully controlled one of the opponent's legs and achieved significant hip dominance. This...
 
 ---

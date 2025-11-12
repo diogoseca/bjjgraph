@@ -147,7 +147,6 @@ description: "Master the Bodylock Pass in BJJ. Powerful pressure passing techniq
 
 
 
-# Bodylock Pass
 #bjj #guard passing #half guard #pressure passing #top position #control #technique 
 
 > **Quick Answer**: Bodylock Pass transitions from [[Half Guard]] to [[Side Control]]. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.

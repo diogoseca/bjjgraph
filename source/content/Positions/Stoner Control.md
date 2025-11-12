@@ -13,8 +13,6 @@ description: "Master Stoner Control in BJJ. Advanced 10th Planet position with r
 
 
 
-# Stoner Control
-
 > **Quick Overview**: Stoner Control is an advanced control position from the 10th Planet Jiu-Jitsu system that exists in two distinct variations: a rubber guard variant emphasizing posture breaking and submission setups, ...
 
 ---

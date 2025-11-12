@@ -147,7 +147,6 @@ description: "Master Osoto Gari, the fundamental judo throw adapted for BJJ. Ste
 
 
 
-# Osoto Gari
 #bjj #transition #takedown #judo #throw #standing #sweep #reap 
 
 > **Quick Answer**: Osoto Gari transitions from [[Standing Position]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 55%, Advanced 75%.

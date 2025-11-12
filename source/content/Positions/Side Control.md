@@ -13,8 +13,6 @@ description: "Master Side Control in BJJ with comprehensive guides covering subm
 
 
 
-# Side Control
-
 > **Quick Overview**: Side Control (also known as side mount or cross-side) is one of the most fundamental and dominant positions in Brazilian Jiu-Jitsu, achieved when the top player lies perpendicularly across the opponen...
 
 ---

@@ -13,8 +13,6 @@ description: "Master Half Guard in BJJ with comprehensive bottom and top strateg
 
 
 
-# Half Guard
-
 > **Quick Overview**: Half Guard represents one of the most strategically complex positions in Brazilian Jiu-Jitsu, existing at the critical intersection between guard retention and being passed. This position is character...
 
 ---

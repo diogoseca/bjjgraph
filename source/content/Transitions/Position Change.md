@@ -153,7 +153,6 @@ description: "Master Position Change transitions in BJJ. Learn systematic advanc
 
 
 
-# Position Change
 #bjj #transition #advancement #tactical #intermediate #position control #strategy 
 
 > **Quick Answer**: Position Change transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

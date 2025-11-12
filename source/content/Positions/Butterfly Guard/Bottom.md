@@ -155,8 +155,6 @@ description: "Master Butterfly Guard Bottom in BJJ. Dynamic open guard with expl
 
 
 
-# Butterfly Guard Bottom
-
 #bjj butterfly guard #open guard techniques #butterfly sweeps #guard retention #x-guard transitions 
 
 > **Defense Focus**: This page covers defensive strategies, escapes, and survival techniques from the bottom player's perspective.

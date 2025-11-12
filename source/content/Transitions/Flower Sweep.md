@@ -147,7 +147,6 @@ description: "Learn the Flower Sweep in BJJ. Master this fundamental closed guar
 
 
 
-# Flower Sweep
 #bjj #technique #sweep #closed-guard #guard-bottom #fundamental 
 
 > **Quick Answer**: Flower Sweep transitions from [[Closed Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.

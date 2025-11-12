@@ -153,7 +153,6 @@ description: "Master the 50-50 Entry from Standing in BJJ. Step-by-step executio
 
 
 
-# 50-50 Entry from Standing
 #bjj #technique #50-50 #guard pull #leg entanglement #standing 
 
 > **Quick Answer**: 50-50 Entry from Standing transitions from [[Standing Position]] to [[50-50 Guard]]. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.

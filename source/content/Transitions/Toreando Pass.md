@@ -153,7 +153,6 @@ description: "Master the Toreando Pass in BJJ. Control opponent's legs, create a
 
 
 
-# Toreando Pass
 #bjj #guard passing #standing pass #leg control #pressure passing #toreando #bullfighter pass 
 
 > **Quick Answer**: Toreando Pass transitions from [[Open Guard]] to [[Side Control]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

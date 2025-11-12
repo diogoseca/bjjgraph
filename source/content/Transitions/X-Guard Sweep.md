@@ -147,7 +147,6 @@ description: "Master X-Guard Sweep in BJJ. Complete technical guide with step-by
 
 
 
-# X-Guard Sweep
 #bjj #sweep #x-guard #guard #technique #off-balancing #bottom-position 
 
 > **Quick Answer**: X-Guard Sweep transitions from [[X-Guard]] to [[Mount]]. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.

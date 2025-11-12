@@ -13,8 +13,6 @@ description: "Master Open Guard in BJJ. Strategic guide covering distance manage
 
 
 
-# Open Guard
-
 > **Quick Overview**: Open Guard is the fundamental bottom position in BJJ where you use your legs positioned between you and your opponent to create distance, manage angles, and prevent them from establishing dominant con...
 
 ---

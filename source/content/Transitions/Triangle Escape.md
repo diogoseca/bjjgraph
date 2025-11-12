@@ -147,7 +147,6 @@ description: "Master Triangle Escape in BJJ. Defensive strategies to escape tria
 
 
 
-# Triangle Escape
 #bjj #escape #defense #triangle-defense #submission-escape #guard-bottom 
 
 > **Quick Answer**: Triangle Escape transitions from [[Triangle Control]] to [[Guard Recovery]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

@@ -153,7 +153,6 @@ description: "Learn Front Headlock to Darce in BJJ. Step-by-step execution from 
 
 
 
-# Front Headlock to Darce
 #bjj #transition #submission #darce #front_headlock #choke #turtle #scramble #no-gi #grappling 
 
 > **Quick Answer**: Front Headlock to Darce transitions from [[Front Headlock]] to [[D'arce Control]]. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.

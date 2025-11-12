@@ -153,7 +153,6 @@ description: "Master the Mount to Armbar transition in BJJ. Complete step-by-ste
 
 
 
-# Mount to Armbar
 #bjj #transition #mount #armbar #submission #fundamental #control #attack #top-position 
 
 > **Quick Answer**: Mount to Armbar transitions from [[Mount]] to [[Armbar Control]]. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.

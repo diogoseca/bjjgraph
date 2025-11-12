@@ -147,7 +147,6 @@ description: "Master the North-South to Kimura transition in BJJ. Complete guide
 
 
 
-# North-South to Kimura
 #bjj #submission #kimura #joint-lock #shoulder-lock #north-south #transition #top-position 
 
 > **Quick Answer**: North-South to Kimura is a shoulder lock targeting the Shoulder joint (rotator cuff and ligaments). ⚠️ **SAFETY**: This technique can cause Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) - apply slowly over 3-5 seconds and release immediately upon tap.
