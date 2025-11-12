@@ -6,11 +6,9 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [],
+  // Footer with no links - may add social links later
   footer: Component.Footer({
-    links: {
-      GitHub: "https://github.com/diogoseca/bjjgraph",
-      "BJJ Graph": "https://bjjgraph.org",
-    },
+    links: {},
   }),
 }
 
